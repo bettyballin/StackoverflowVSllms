@@ -1,0 +1,1 @@
+-- V2__Add_column.sql\n     ALTER TABLE ExampleTable ADD CreatedDate DATETIME;

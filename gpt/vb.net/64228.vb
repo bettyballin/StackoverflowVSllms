@@ -1,0 +1,1 @@
+Public Shared Function GetFirstDayOfQuarter(ByVal originalDate As DateTime) As DateTime\n    Dim quarterNumber As Integer = GetQuarter(originalDate)\n    Dim firstMonthOfQuarter As Integer = (quarterNumber - 1) * 3 + 1\n    Return New DateTime(originalDate.Year, firstMonthOfQuarter, 1)\nEnd Functio

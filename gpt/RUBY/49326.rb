@@ -1,0 +1,1 @@
+require 'pragmatic_segmenter'\n\ntext = "Mr. Jones felt the warm sun on his face as he stepped out onto the balcony of his summer home in Italy. He was happy to be alive."\n\nsegmenter = PragmaticSegmenter::Segmenter.new(text: text)\nsentences = segmenter.segment\n\nputs sentences

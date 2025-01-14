@@ -1,0 +1,1 @@
+$.ajax({\n    url: 'data.php', // URL to the PHP script\n    type: 'GET',\n    dataType: 'json', // Expect JSON data\n    success: function(response) {\n        console.log(response); // Handle the JSON response\n        // You can now work with the JSON data\n    },\n    error: function(xhr, status, error) {\n        console.error('AJAX Error: ' + status + error);\n    }\n});

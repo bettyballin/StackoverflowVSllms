@@ -1,0 +1,1 @@
+gem update --system\n   gem install <gem_name>

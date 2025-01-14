@@ -1,0 +1,1 @@
+<?php\nfunction RetrievePageContent($url) {\n    $content = file_get_contents($url);\n    if ($content === FALSE) {\n        return "Unable to retrieve content.";\n    }\n    return $content;\n}\n\n$url = "https://example.com";\n$pageContent = RetrievePageContent($url);\necho $pageContent;\n?>

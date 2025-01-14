@@ -1,0 +1,1 @@
+require 'active_ldap'\n\nclass OrganizationalUnit < ActiveLdap::Base\n  ldap_mapping dn_attribute: 'ou', prefix: 'ou=people', classes: ['top', 'organizationalUnit']\n\n  def delete_recursively\n    children.each(&:delete_recursively)\n    delete\n  end\nend\n\n# Example usage\nou = OrganizationalUnit.find('ou=example,dc=example,dc=com')\nou.delete_recursively if ou

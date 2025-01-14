@@ -1,0 +1,1 @@
+CREATE TABLE AuditTable (\n       AuditID INT IDENTITY(1,1) PRIMARY KEY,\n       DeletedRecordID INT,\n       DeletedBy NVARCHAR(128),\n       DeletedOn DATETIME,\n       SQLCommand NVARCHAR(MAX)\n   );

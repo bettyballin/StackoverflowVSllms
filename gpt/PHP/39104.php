@@ -1,0 +1,1 @@
+ini_set('default_socket_timeout', 600);\n    $proxy = new SoapClient('someaddress?wsdl');

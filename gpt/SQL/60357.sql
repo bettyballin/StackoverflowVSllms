@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table_name\nWHERE title LIKE '%LCS%';

@@ -1,0 +1,1 @@
+SELECT observation_id\nFROM Data\nGROUP BY observation_id, element_id\nHAVING COUNT(*) > 1;

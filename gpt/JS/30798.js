@@ -1,0 +1,1 @@
+const puppeteer = require('puppeteer');\n\n(async () => {\n  const browser = await puppeteer.launch();\n  const page = await browser.newPage();\n  await page.goto('file:///path/to/yourfile.html', { waitUntil: 'networkidle2' });\n  await page.pdf({ path: '/path/to/outputfile.pdf', format: 'A4' });\n\n  await browser.close();\n})();

@@ -1,0 +1,1 @@
+def type_indifferent_equal?(a, b)\n  a.to_s == b.to_s\nend\n\n# Usage\ntype_indifferent_equal?(42, "42") # => true\ntype_indifferent_equal?(42, "43") # => false

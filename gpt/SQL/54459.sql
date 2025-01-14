@@ -1,0 +1,1 @@
+DECLARE @sql NVARCHAR(MAX)\n\nSET @sql = 'SELECT TOP 0 * INTO People FROM PeopleView'\n\nEXEC sp_executesql @sql

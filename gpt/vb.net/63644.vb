@@ -1,0 +1,1 @@
+If Request.QueryString("MyQueryString") IsNot Nothing Then\n    ' This also correctly checks if the query string is not Nothing.\nEnd If

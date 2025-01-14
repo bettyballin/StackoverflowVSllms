@@ -1,0 +1,1 @@
+RUN {\n     RESTORE DATABASE;\n     RECOVER DATABASE;\n   }

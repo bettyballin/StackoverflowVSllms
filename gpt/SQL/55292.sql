@@ -1,0 +1,1 @@
+CREATE TABLE federated_table (\n    id INT(11) NOT NULL AUTO_INCREMENT,\n    name VARCHAR(50) NOT NULL,\n    PRIMARY KEY (id)\n) ENGINE=FEDERATED\nCONNECTION='mysql://username:password@1.2.3.4:3306/Test/actual_table';

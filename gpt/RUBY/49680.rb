@@ -1,0 +1,1 @@
+class YourController < ApplicationController\n  def your_action\n    response.headers['Content-Type'] = 'text/html; charset=ISO-8859-1'\n    # Your action code here\n  end\nend

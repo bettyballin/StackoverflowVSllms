@@ -1,0 +1,1 @@
+GRANT SELECT, INSERT, UPDATE, DELETE ON your_database.your_table TO 'your_user'@'your_host';\n   FLUSH PRIVILEGES;

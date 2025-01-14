@@ -1,0 +1,1 @@
+SELECT column_name\nFROM all_tab_columns\nWHERE table_name = 'MYTABLE'; -- Oracle identifiers are usually stored in uppercase

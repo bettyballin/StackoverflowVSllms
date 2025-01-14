@@ -1,0 +1,1 @@
+['a', 'string, with', 'various', 'values, and some', 'quoted']

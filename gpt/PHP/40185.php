@@ -1,0 +1,1 @@
+// application/controllers/NewController.php\n     class NewController extends Zend_Controller_Action\n     {\n         public function newAction()\n         {\n             // Any logic or data you want to pass to the view\n         }\n     }

@@ -1,0 +1,1 @@
+x = "x %s %s"\ny = "y"\nz = "z"\nprint (x % [y, z])

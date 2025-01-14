@@ -1,0 +1,1 @@
+<?php\n// Read the JSON file\n$json_data = file_get_contents('data.json');\n\n// Decode JSON to PHP array\n$data = json_decode($json_data, true);\n\nprint_r($data);\n?>

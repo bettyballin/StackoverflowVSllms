@@ -1,0 +1,1 @@
+document.querySelector('.your-button-class').addEventListener('click', yourFunction);

@@ -1,0 +1,1 @@
+DECLARE @backupDir NVARCHAR(255)\nSET @backupDir = 'C:\SQLBackups\MyDatabase'\n\n-- Create the backup directory if it doesn't exist\nEXEC CreateBackupDirectory @backupDir\n\n-- Now you can proceed with your backup command\nBACKUP DATABASE [YourDatabase] TO DISK = @backupDir + '\YourDatabase.bak'

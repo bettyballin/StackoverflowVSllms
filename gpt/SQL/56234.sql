@@ -1,0 +1,1 @@
+SELECT \n    UserId,\n    STUFF((SELECT ', ' + Alias \n           FROM UserAliases \n           WHERE UserId = ua.UserId \n           FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), 1, 2, '') AS Aliases\nFROM \n    (SELECT DISTINCT UserId FROM UserAliases) ua;

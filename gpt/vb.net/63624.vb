@@ -1,0 +1,1 @@
+Public MyCollection As New ObservableCollection(Of String) From {\n    "Item 1",\n    "Item 2",\n    "Item 3",\n    "Item 4",\n    "Item 5"\n}

@@ -1,0 +1,1 @@
+function foo() {}\nvar_dump(foo() === NULL); // bool(true)

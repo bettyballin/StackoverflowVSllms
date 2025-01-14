@@ -1,0 +1,1 @@
+module ApplicationHelper\n  def current_view_file\n    "#{controller.controller_path}/#{controller.action_name}.html.erb"\n  end\nend

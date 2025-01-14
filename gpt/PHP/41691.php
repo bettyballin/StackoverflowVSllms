@@ -1,0 +1,1 @@
+$formattedDate = date("Y-m-d", strtotime($row['date_column']));\n    $calculatedValue = $row['foo'] * $row['bar'];

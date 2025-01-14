@@ -1,0 +1,1 @@
+function exception_error_handler($errno, $errstr, $errfile, $errline) {\n    if (!(error_reporting() & $errno)) {\n        // This error code is not included in error_reporting\n        return false;\n    }\n    throw new ErrorException($errstr, 0, $errno, $errfile, $errline);\n}\n\nset_error_handler("exception_error_handler");

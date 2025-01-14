@@ -1,0 +1,1 @@
+-- Original Query\nSELECT ...\nFROM A\nLEFT JOIN B ON A.pk = B.fk\nFULL OUTER JOIN G ON A.pk = G.fk\nWHERE A.pk = G.fk AND A.pk = B.fk

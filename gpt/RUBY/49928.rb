@@ -1,0 +1,1 @@
+# config/routes.rb\n   Rails.application.routes.draw do\n     resources :contact_forms, only: [:new, :create]\n   end

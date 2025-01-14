@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n    <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\n          xsi:noNamespaceSchemaLocation="test-inherit.xsd">\n        <int>4</int>\n        <rest-int>5</rest-int>\n        <rest-float>6</rest-float>\n    </root>

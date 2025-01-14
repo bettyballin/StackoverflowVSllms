@@ -1,0 +1,1 @@
+CREATE TABLE AllCombinations (\n    Id INT PRIMARY KEY IDENTITY(1,1),\n    Item1Id INT,\n    Item2Id INT\n);\n\n-- Assuming you have a table named Items with an Id column\nINSERT INTO AllCombinations (Item1Id, Item2Id)\nSELECT a.Id, b.Id\nFROM Items a\nCROSS JOIN Items b\nWHERE a.Id < b.Id;

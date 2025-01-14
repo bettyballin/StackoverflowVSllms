@@ -1,0 +1,1 @@
+# Step 1: Write a failing test\nimport unittest\n\ndef add(a, b):\n    pass  # Implementation to be done\n\nclass TestAddFunction(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(add(1, 2), 3)\n\nif __name__ == '__main__':\n    unittest.main()\n\n# Step 2: Make the test pass by implementing the function\ndef add(a, b):\n    return a + b

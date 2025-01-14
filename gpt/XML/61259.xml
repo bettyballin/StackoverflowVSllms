@@ -1,0 +1,1 @@
+<dependency>\n       <groupId>xerces</groupId>\n       <artifactId>xercesImpl</artifactId>\n       <version>2.12.1</version>\n   </dependency>

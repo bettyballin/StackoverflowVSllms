@@ -1,0 +1,1 @@
+SELECT name, collation_name \n   FROM sys.columns \n   WHERE object_id = OBJECT_ID('dbo.ProfitCenter');

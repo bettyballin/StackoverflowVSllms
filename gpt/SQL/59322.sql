@@ -1,0 +1,1 @@
+CREATE TABLE EvenNumbers\n   (\n       UniqueID int IDENTITY(2,2), -- IDs will be 2, 4, 6, ...\n       ...\n   );\n\n   CREATE TABLE OddNumbers\n   (\n       UniqueID int IDENTITY(1,2), -- IDs will be 1, 3, 5, ...\n       ...\n   );

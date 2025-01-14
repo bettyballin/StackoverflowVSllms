@@ -1,0 +1,1 @@
+class Foo {\n    public function __construct() {\n        // does constructing stuff\n    }\n}\n\nclass Bar extends Foo {\n    public function __construct() {\n        // Calling parent constructor\n        parent::__construct();\n    }\n}

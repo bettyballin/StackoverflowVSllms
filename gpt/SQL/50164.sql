@@ -1,0 +1,1 @@
+-- Deployment Script Example\n-- Drop and recreate stored procedures\nIF EXISTS (SELECT * FROM sys.objects WHERE type = 'P' AND name = 'YourStoredProcedure')\n    DROP PROCEDURE [dbo].[YourStoredProcedure]\nGO\n\nCREATE PROCEDURE [dbo].[YourStoredProcedure]\nAS\nBEGIN\n    -- Your SQL code here\nEND\nGO

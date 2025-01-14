@@ -1,0 +1,1 @@
+SELECT x, y\n   FROM t\n   WHERE ((x / y) >= 2) AND ((x % 2) = 0);

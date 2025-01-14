@@ -1,0 +1,1 @@
+BULK INSERT YourTable\nFROM 'C:\YourDataFile.txt'\nWITH (\n    FIELDTERMINATOR = ',',\n    ROWTERMINATOR = '\n'\n);\n\n-- Get the number of rows affected\nSELECT @@ROWCOUNT AS RowsAffected;

@@ -1,0 +1,1 @@
+SELECT * FROM (\n    SELECT your_columns, ROW_NUMBER() OVER (ORDER BY some_column) AS rnum\n    FROM your_table\n) WHERE rnum <= 2;

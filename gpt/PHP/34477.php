@@ -1,0 +1,1 @@
+amespace App\Widgets;\n\nclass ExampleWidget {\n    public static function run() {\n        return '<div>Example Widget Content</div>';\n    }\n}

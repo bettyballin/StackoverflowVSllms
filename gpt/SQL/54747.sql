@@ -1,0 +1,1 @@
+CREATE PROCEDURE spFoo\n    @FooTable dbo.FooTableType READONLY\nAS\nBEGIN\n    INSERT INTO tbFoo (column_name)  -- Ensure the column name matches your table structure\n    SELECT Value\n    FROM @FooTable;\nEND

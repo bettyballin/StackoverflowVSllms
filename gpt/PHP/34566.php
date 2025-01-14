@@ -1,0 +1,1 @@
+<?php\n// Start output buffering\nob_start();\n\n// Include the PHP file you want to execute\ninclude 'subtemplate.php';\n\n// Get the contents of the buffer and store it into a variable\n$subtemplateOutput = ob_get_clean();\n\n// Now you can use $subtemplateOutput in your global template\necho $subtemplateOutput;\n?>

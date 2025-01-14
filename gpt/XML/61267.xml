@@ -1,0 +1,1 @@
+<!-- tomcat-users.xml -->\n   <tomcat-users>\n       <role rolename="USER"/>\n       <user username="yourUsername" password="yourPassword" roles="USER"/>\n   </tomcat-users>

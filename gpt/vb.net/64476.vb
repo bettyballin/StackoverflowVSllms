@@ -1,0 +1,1 @@
+Public Class MyClass\n    Public Sub ShowType()\n        Dim objType As Type = Me.GetType()\n        Console.WriteLine("The type of this instance is: " & objType.ToString())\n    End Sub\nEnd Class

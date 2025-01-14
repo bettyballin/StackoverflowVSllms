@@ -1,0 +1,1 @@
+<?php\nif (isset($_REQUEST['pageno']) && is_numeric($_REQUEST['pageno'])) {\n    $pageno = intval($_REQUEST['pageno']);\n    // Fetch comments from database based on $pageno\n    echo "Comments for page " . $pageno;\n} else {\n    echo "Invalid page number";\n}\n?>

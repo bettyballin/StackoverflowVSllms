@@ -1,0 +1,1 @@
+<?php echo form_open('search', ['method' => 'get']); ?>\n       <input type="text" name="keyword" placeholder="Search...">\n       <input type="submit" value="Search">\n   <?php echo form_close(); ?>

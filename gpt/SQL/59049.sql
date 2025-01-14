@@ -1,0 +1,1 @@
+-- Replace PrimaryKeyTable with your actual primary key table name\n\nSELECT c.name AS ColumnName\nFROM sys.indexes i\nJOIN sys.index_columns ic\n    ON i.object_id = ic.object_id\n    AND i.index_id = ic.index_id\nJOIN sys.columns c\n    ON ic.object_id = c.object_id\n    AND ic.column_id = c.column_id\nWHERE i.is_primary_key = 1\nAND i.object_id = OBJECT_ID('PrimaryKeyTable');

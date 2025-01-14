@@ -1,0 +1,1 @@
+Module UtilityModule\n    Public Sub PrintMessage(message As String)\n        Console.WriteLine(message)\n    End Sub\nEnd Module

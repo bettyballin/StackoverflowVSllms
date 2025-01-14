@@ -1,0 +1,1 @@
+const sqlFormatter = require('sql-formatter');\n\nconst sql = "SELECT * FROM table WHERE column = 'value'";\nconst formattedSql = sqlFormatter.format(sql);\nconsole.log(formattedSql);

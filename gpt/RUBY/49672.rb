@@ -1,0 +1,1 @@
+<%= form_tag('/your_target_path', method: :post) do %>\n  <%= submit_tag "checkout_submit" %>\n<% end %>

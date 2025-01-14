@@ -1,0 +1,1 @@
+INSERT INTO MYTABLE (\n    SELECT NEW_ID AS ID, t.*\n    FROM MYTABLE t\n    WHERE t.ID = OLD_ID\n);

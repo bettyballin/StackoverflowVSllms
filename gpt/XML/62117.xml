@@ -1,0 +1,1 @@
+<configuration>\n    <system.web>\n        <sessionState mode="SQLServer" sqlConnectionString="data source=127.0.0.1;Initial Catalog=ASPState;Integrated Security=True;" timeout="40" />\n    </system.web>\n</configuration>

@@ -1,0 +1,1 @@
+CREATE TABLE Addresses (\n        id INT PRIMARY KEY,\n        street_address VARCHAR(255),\n        city VARCHAR(255),\n        state VARCHAR(255),\n        postal_code VARCHAR(20),\n        country_code CHAR(2)\n    );

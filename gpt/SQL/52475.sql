@@ -1,0 +1,1 @@
+SELECT * FROM Subs(2)\nUNION\nSELECT * FROM Subs(3)

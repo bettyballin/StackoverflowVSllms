@@ -1,0 +1,1 @@
+$('#result').load('ajax/test.html', {param1: 'value1'}, function(response, status, xhr) {\n      if (status == "error") {\n          var msg = "Sorry but there was an error: ";\n          $("#error").html(msg + xhr.status + " " + xhr.statusText);\n      }\n  });

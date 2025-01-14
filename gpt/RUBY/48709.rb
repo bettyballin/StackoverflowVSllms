@@ -1,0 +1,1 @@
+class User < ApplicationRecord\n  attr_accessor :humanproof\n\n  validate :validate_humanproof\n\n  private\n\n  def validate_humanproof\n    errors.add(:humanproof, "is not the right answer") if humanproof.to_i != 4\n  end\nend

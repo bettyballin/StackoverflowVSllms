@@ -1,0 +1,1 @@
+SELECT * FROM myTbl\n    WHERE myValue IN (\n        SELECT config_value FROM Config WHERE config_name IN ('NoValue1', 'NoValue2')\n    );

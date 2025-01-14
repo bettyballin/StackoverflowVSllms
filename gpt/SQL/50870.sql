@@ -1,0 +1,1 @@
+CREATE TABLE SubSonicSchemaInfo (\n    version int DEFAULT 0,\n    CONSTRAINT DF_SubSonicSchemaInfo_version PRIMARY KEY (version)\n);

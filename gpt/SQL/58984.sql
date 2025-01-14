@@ -1,0 +1,1 @@
+CREATE TRIGGER trgAfterInsertUpdate\n   ON YourTable\n   AFTER INSERT, UPDATE\n   AS\n   BEGIN\n       -- Your logic here\n       -- Example: Notify external application via Service Broker\n   END

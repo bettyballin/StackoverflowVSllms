@@ -1,0 +1,1 @@
+$session_token = verify_signed_cookie('session_token', $secret_key);\nif ($session_token) {\n    session_id($session_token);\n    session_start();\n    // Proceed with authenticated session\n} else {\n    // Handle invalid or expired session\n}

@@ -1,0 +1,1 @@
+INSERT INTO item (link, title, rank, notes) VALUES (1, 'Item Title', 3, 'Notes');

@@ -1,0 +1,1 @@
+' Assuming you have a SqlCommand named cmd and a TextBox named txtDate\nDim dateValue As Object\n\nIf String.IsNullOrEmpty(txtDate.Text.Trim()) Then\n    dateValue = DBNull.Value\nElse\n    dateValue = DateTime.Parse(txtDate.Text)\nEnd If\n\ncmd.Parameters.AddWithValue("@YourDateParameter", dateValue)

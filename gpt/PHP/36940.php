@@ -1,0 +1,1 @@
+$result = $db->query("SELECT comment_text, created_at FROM comments"); // Adjust query as necessary

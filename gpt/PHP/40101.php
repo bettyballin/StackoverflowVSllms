@@ -1,0 +1,1 @@
+$sql = "INSERT INTO `$db_table` (username, live, datetime, ip, bump_count)\n           VALUES ('$username', '1', '$timeofentry', '$ip', 1)\n           ON DUPLICATE KEY UPDATE\n           live = VALUES(live),\n           datetime = VALUES(datetime),\n           ip = VALUES(ip),\n           bump_count = bump_count + 1";\n\n   mysql_query($sql);

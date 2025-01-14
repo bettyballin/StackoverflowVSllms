@@ -1,0 +1,1 @@
+while (some_condition) {\n       echo "Current state: $some_variable\n";\n       // loop logic\n   }

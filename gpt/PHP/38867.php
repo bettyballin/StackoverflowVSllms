@@ -1,0 +1,1 @@
+$this->db->select('user_id, COUNT(*) as post_count');\n$this->db->from('posts');\n$this->db->group_by('user_id');\n$query = $this->db->get();\n\n$result = $query->result();\nforeach ($result as $row) {\n    echo "User ID: " . $row->user_id . " - Post Count: " . $row->post_count . "<br>";\n}

@@ -1,0 +1,1 @@
+require 'rest-client'\n   require 'nokogiri'\n\n   authenticity_token = 'your_authenticity_token_here' # You need to obtain this token from your app\n\n   resource = RestClient::Resource.new 'http://localhost:3000/foos/1', user: 'me', password: 'secret'\n   resource.put({ name: 'somethingwitty', authenticity_token: authenticity_token }.to_json, content_type: :json, accept: :json)

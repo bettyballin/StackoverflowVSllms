@@ -1,0 +1,1 @@
+<configuration>\n     <connectionStrings>\n       <add name="Demo" connectionString="your_demo_connection_string" providerName="System.Data.SqlClient" />\n       <add name="Live" connectionString="your_live_connection_string" providerName="System.Data.SqlClient" />\n     </connectionStrings>\n   </configuration>

@@ -1,0 +1,1 @@
+CREATE PROCEDURE DeleteComment\n       @CommentID INT,\n       @UserID NVARCHAR(128)\n   AS\n   BEGIN\n       DELETE FROM Comments\n       WHERE CommentID = @CommentID AND (AuthorID = @UserID OR @UserID IN (SELECT UserId FROM AspNetUserRoles WHERE RoleId = 'AdminRoleId'))\n   END

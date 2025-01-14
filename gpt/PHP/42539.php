@@ -1,0 +1,1 @@
+<?php\n$string = '1/2//3/';\n$parts = explode('/', $string);\n$filtered_parts = array_filter($parts, function($value) {\n    return $value !== '';\n});\n\nvar_dump($filtered_parts);\n?>

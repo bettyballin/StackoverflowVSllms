@@ -1,0 +1,1 @@
+<?xml version="1.0"?>\n   <cross-domain-policy>\n       <allow-access-from domain="http://your-silverlight-app-domain.com" />\n       <allow-http-request-headers-from domain="http://your-silverlight-app-domain.com" headers="*"/>\n   </cross-domain-policy>

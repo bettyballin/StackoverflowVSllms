@@ -1,0 +1,1 @@
+SELECT u.UserName, o.OrderDate, o.Amount\nFROM Users u\nJOIN Orders o ON u.UserID = o.UserID\nWHERE u.UserName = 'JohnDoe';

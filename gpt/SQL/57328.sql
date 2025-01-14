@@ -1,0 +1,1 @@
+DECLARE @LIST NVARCHAR(MAX)\nSET @LIST = 'Bob|Mary|Joe'\n\nSELECT * \nFROM Users \nWHERE CHARINDEX('|' + FirstName + '|', '|' + @LIST + '|') > 0

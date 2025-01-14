@@ -1,0 +1,1 @@
+$view = new View();\n$view->show('someViewFile', ['view' => $view]);

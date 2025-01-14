@@ -1,0 +1,1 @@
+include_once 'classb.php';\n     class A {\n         public $a;\n         \n         public function __construct() {\n             $this->a = new B();\n         }\n     }

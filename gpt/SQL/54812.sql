@@ -1,0 +1,1 @@
+SELECT \n    CASE WHEN @prev_year = Year THEN '' ELSE Year END AS Year,\n    Quarter,\n    Total,\n    @prev_year := Year\nFROM \n    (SELECT Year, Quarter, Total FROM your_table ORDER BY Year, Quarter) AS subquery,\n    (SELECT @prev_year := '') AS vars;

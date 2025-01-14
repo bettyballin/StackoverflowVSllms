@@ -1,0 +1,1 @@
+MyObject.prototype.AJAXCallback = function(Data, e) {\n    //snip\n};\n\nMyObject.prototype.Init = function() {\n    var callback = this.AJAXCallback.bind(this);\n    var a = window.top.window.Sys.Net.WebServiceProxy.invoke('/Data.asmx', 'GetData', false, { "IDCode": 0 }, callback, null);\n    //snip\n};

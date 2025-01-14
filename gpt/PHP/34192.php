@@ -1,0 +1,1 @@
+$unique_rows = [];\n$counter = 0;\n\nwhile ($row = odbc_fetch_array($result)) {\n    $unique_key = implode('|', $row); // Create a unique key based on row data\n\n    if (!isset($unique_rows[$unique_key])) {\n        // Insert into MySQL using Zend Framework\n        $unique_rows[$unique_key] = true;\n        $counter++;\n    }\n}\n\necho $counter;

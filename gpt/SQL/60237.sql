@@ -1,0 +1,1 @@
+-- Atomic update to increment credits\nUPDATE credits \nSET creds = CASE WHEN creds + 150 < 0 THEN 0 ELSE creds + 150 END\nWHERE user_id = 1;

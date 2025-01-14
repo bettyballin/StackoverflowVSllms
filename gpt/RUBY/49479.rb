@@ -1,0 +1,1 @@
+require 'test_helper'\n\nclass UserTest < ActiveSupport::TestCase\n  should "respond to calculate_hashed_password" do\n    assert_respond_to User, :calculate_hashed_password\n  end\nend

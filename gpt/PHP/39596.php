@@ -1,0 +1,1 @@
+<?php\n$directory = 'path/to/Images';\n$files = scandir($directory);\n\nforeach ($files as $file) {\n    if ($file !== '.' && $file !== '..') {\n        // Perform your file processing here\n        // For example, modify the file based on your options\n        // ...\n    }\n}\n?>

@@ -1,0 +1,1 @@
+const largeString = `Hello\nThis is long!\nAnd it can span multiple lines\nwithout needing any special characters.`;\n\nconsole.log(largeString);

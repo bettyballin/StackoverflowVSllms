@@ -1,0 +1,1 @@
+<?php\n// Function to force HTTP authentication logout\nfunction http_auth_logout() {\n    header('HTTP/1.1 401 Unauthorized');\n    header('WWW-Authenticate: Basic realm="My Realm"');\n    echo 'Logging out...';\n    exit;\n}\n\n// Call the function to logout\nhttp_auth_logout();\n?>

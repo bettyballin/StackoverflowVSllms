@@ -1,0 +1,1 @@
+GRANT CREATE JOB TO your_dba_user;\nGRANT MANAGE SCHEDULER TO your_dba_user;

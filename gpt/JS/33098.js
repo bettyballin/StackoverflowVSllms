@@ -1,0 +1,1 @@
+<a href="#" onclick="SelectSurveyItem('<%= escapeJs(itemid) %>', '<%= escapeJs(itemname) %>'); return false;">Select</a>

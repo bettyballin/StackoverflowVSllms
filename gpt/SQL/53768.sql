@@ -1,0 +1,1 @@
+INSERT INTO categories (name, parent_id) VALUES\n('Fruits', NULL),\n('Apples', 1),\n('Oranges', 1),\n('Fuji', 2),\n('Cortland', 2);

@@ -1,0 +1,1 @@
+<?php\n$zip = new ZipArchive();\n$filename = "./test.zip";\n\nif ($zip->open($filename, ZipArchive::CREATE) !== TRUE) {\n    exit("Cannot open <$filename>\n");\n}\n\n$zip->addFromString("testfile.txt", "This is a test file.");\n$zip->addFile("path/to/file.txt", "newname.txt");\n$zip->close();\n?>

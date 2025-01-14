@@ -1,0 +1,1 @@
+<?php\n$mysqli = new mysqli('p:localhost', 'user', 'password', 'database');\n\nif ($mysqli->connect_error) {\n    die('Connect Error (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error);\n}\n\n// Perform database operations\n$result = $mysqli->query('SELECT * FROM my_table');\nwhile ($row = $result->fetch_assoc()) {\n    print_r($row);\n}\n$mysqli->close();\n?>

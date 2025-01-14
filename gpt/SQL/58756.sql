@@ -1,0 +1,1 @@
+IF NOT EXISTS (SELECT 1 FROM Users WHERE UserGUID = @NewGUID)\nBEGIN\n    INSERT INTO Users (UserGUID, UserName) VALUES (@NewGUID, @UserName);\nEND\nELSE\nBEGIN\n    -- Handle the collision (e.g., generate a new GUID and retry)\nEND

@@ -1,0 +1,1 @@
+CREATE TABLE HistoricalDates (\n    ID INT PRIMARY KEY,\n    StartDate INT,\n    EndDate INT\n);

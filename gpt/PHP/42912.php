@@ -1,0 +1,1 @@
+class Something {\n    // Constructor method\n    public function __construct() {\n        echo "Class has been initialized!";\n    }\n}\n\n// Create an instance of the class\n$s = new Something();

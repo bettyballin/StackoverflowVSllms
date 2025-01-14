@@ -1,0 +1,1 @@
+-- For SQL Server\n     BACKUP DATABASE YourDatabaseName\n     TO DISK = 'path_to_backup\YourDatabaseName.bak'\n     WITH FORMAT, MEDIANAME = 'SQLServerBackups', NAME = 'Full Backup of YourDatabaseName';

@@ -1,0 +1,1 @@
+<!-- LibraryName.dll.config -->\n   <configuration>\n     <connectionStrings>\n       <add name="ConnectionString" connectionString="..." />\n     </connectionStrings>\n   </configuration>

@@ -1,0 +1,1 @@
+-- Check who owns the table\n   SELECT owner, table_name FROM all_tables WHERE table_name = 'PROBLEMATICTABLE';\n\n   -- Check privileges on the table\n   SELECT * FROM all_tab_privs WHERE table_name = 'PROBLEMATICTABLE';

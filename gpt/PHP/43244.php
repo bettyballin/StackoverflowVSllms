@@ -1,0 +1,1 @@
+$filter = "content:%s title:%s^4.0 path.title:%s^4.0 description:%s ...";\n$filter = sprintf($filter, "Cheese", "Cheese", "Cheese", "Cheese");\necho $filter;

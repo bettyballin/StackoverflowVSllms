@@ -1,0 +1,1 @@
+LOAD DATA LOCAL INFILE 'data.csv'\nINTO TABLE your_table_name\nFIELDS TERMINATED BY ','\nENCLOSED BY '"'\nLINES TERMINATED BY '\n'\nIGNORE 1 ROWS\n(column1, column2, column3, ...);

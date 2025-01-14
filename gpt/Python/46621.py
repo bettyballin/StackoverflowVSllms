@@ -1,0 +1,1 @@
+from module import *\n\n# function1 and Class1 are accessible\nfunction1()\nobj = Class1()\n\n# function2 and Class2 are not accessible\n# function2()  # This will raise a NameError\n# obj2 = Class2()  # This will raise a NameError

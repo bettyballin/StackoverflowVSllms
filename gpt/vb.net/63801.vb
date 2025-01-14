@@ -1,0 +1,1 @@
+' AssemblyInfo.vb in VB project\n   <Assembly: InternalsVisibleTo("YourCSharpProjectName")>

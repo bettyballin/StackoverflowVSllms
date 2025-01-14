@@ -1,0 +1,1 @@
+SELECT exe_name, version, hash_code\n   FROM exe_info\n   WHERE exe_name = 'example.exe';

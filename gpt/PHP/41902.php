@@ -1,0 +1,1 @@
+$connection = new COM("ADODB.Connection");\n$connection->Open("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=your_database.accdb;Persist Security Info=False;");\n$connection->Execute("SET NAMES 'utf8'");

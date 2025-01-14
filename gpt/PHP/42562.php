@@ -1,0 +1,1 @@
+// PHP4\n    function foo(&$var) {\n        $var++;\n    }\n\n    // PHP5\n    function foo(&$var) {\n        $var++;\n    }

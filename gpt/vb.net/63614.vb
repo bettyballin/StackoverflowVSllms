@@ -1,0 +1,1 @@
+Dim sqlQuery As String\nsqlQuery = "SELECT * FROM table WHERE field LIKE '%something%'"

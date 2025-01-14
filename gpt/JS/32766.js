@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', () => {\n    applyClassBasedOnAttribute('height', 'h');\n});

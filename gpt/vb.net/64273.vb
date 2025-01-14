@@ -1,0 +1,1 @@
+SpecialErrorHandler(myTextBox, GetType(TextBox))\nSpecialErrorHandler(myComboBox, GetType(ComboBox))

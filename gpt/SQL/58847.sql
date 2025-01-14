@@ -1,0 +1,1 @@
+CREATE TABLE person (\n  id NUMBER PRIMARY KEY,\n  given_names VARCHAR2(50),\n  surname VARCHAR2(50)\n);

@@ -1,0 +1,1 @@
+var images = ['image1.png', 'image2.png'];\n    for (var i = 0; i < images.length; i++) {\n        new Image().src = images[i];\n    }

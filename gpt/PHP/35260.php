@@ -1,0 +1,1 @@
+<?php\n// Assuming $connection is your database connection\n$sections_query = mysqli_query($connection, "YOUR QUERY HERE");\n\nwhile ($row_sections = mysqli_fetch_array($sections_query)) {\n    echo "<h3>" . htmlspecialchars($row_sections['section_name'], ENT_QUOTES, 'UTF-8') . "</h3>";\n}\n?>

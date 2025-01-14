@@ -1,0 +1,1 @@
+page.replace_html("project_name", @current_project.name)\npage.visual_effect(:highlight, "project_name")\npage.call("buildYUITreeView", "project_tree", raw(@current_project.get_directory_contents(@current_project.local_path, 0).to_json))

@@ -1,0 +1,1 @@
+MIDDLEWARE = [\n    ...\n    'django.contrib.messages.middleware.MessageMiddleware',\n    ...\n]\n\nTEMPLATES = [\n    {\n        ...\n        'OPTIONS': {\n            'context_processors': [\n                ...\n                'django.contrib.messages.context_processors.messages',\n                ...\n            ],\n        },\n    },\n]

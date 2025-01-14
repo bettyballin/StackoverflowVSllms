@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $("#<%= txtNumber.ClientID %>").on('input', function() {\n        $(this).val(RemoveInvalidCharacters($(this).val()));\n    });\n});\n\n// FUNCTION REMOVES ANY ; IN TEXT TO PREVENT SQL INJECTION\nfunction RemoveInvalidCharacters(text) {\n    // Replace all non-alphanumeric characters except '-'\n    return text.replace(/[^a-zA-Z0-9-]/g, '');\n}

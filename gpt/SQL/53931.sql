@@ -1,0 +1,1 @@
+SELECT GROUP_CONCAT(CONCAT(`First Name`, ' ', `Last Name`) SEPARATOR ', ') AS FullNames\nFROM mytable;

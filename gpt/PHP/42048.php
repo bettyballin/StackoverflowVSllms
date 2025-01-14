@@ -1,0 +1,1 @@
+$foo = $cat ? $dog : null;\n   $bar = $fruit ? $fruit : $vegetable;

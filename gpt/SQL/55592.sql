@@ -1,0 +1,1 @@
+CREATE TABLE example_table (\n    case_sensitive_column VARCHAR(255) COLLATE utf8_bin,\n    UNIQUE (case_sensitive_column)\n);

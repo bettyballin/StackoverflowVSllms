@@ -1,0 +1,1 @@
+CREATE TABLE example_table (\n    id NUMBER PRIMARY KEY,\n    small_text_column VARCHAR2(4000)\n);

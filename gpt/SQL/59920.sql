@@ -1,0 +1,1 @@
+SELECT \n    [Date], \n    COUNT(*) AS Count\nFROM \n    YourTableName\nWHERE \n    fieldname COLLATE SQL_Latin1_General_CP1_CI_AS = 'izla'\nGROUP BY \n    [Date]\nORDER BY \n    [Date];

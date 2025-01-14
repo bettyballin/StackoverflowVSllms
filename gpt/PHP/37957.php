@@ -1,0 +1,1 @@
+$result = someFunction();\nif ($result instanceof Error) {\n    handleError($result);\n} else {\n    // Proceed with normal execution\n    echo "Function executed successfully: $result";\n}

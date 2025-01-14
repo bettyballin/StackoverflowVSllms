@@ -1,0 +1,1 @@
+$firstKey = array_key_first($an_array);

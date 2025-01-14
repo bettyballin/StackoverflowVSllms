@@ -1,0 +1,1 @@
+SELECT \n    session_id,\n    MIN(created) AS session_start,\n    MAX(page_id) AS last_page\nFROM \n    your_table\nWHERE\n    page_id IN (SELECT page_id FROM pages WHERE module_id = 2) \nGROUP BY \n    session_id;

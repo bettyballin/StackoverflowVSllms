@@ -1,0 +1,1 @@
+class User_model extends CI_Model {\n    public $name;\n    public $email;\n\n    public function get_users() {\n        $query = $this->db->get('users');\n        return $query->result();\n    }\n\n    public function insert_user($data) {\n        $this->db->insert('users', $data);\n    }\n}

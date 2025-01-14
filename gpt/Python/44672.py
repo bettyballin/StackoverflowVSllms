@@ -1,0 +1,1 @@
+import tracemalloc\n\n   tracemalloc.start()\n\n   # Your application code here\n\n   snapshot = tracemalloc.take_snapshot()\n   top_stats = snapshot.statistics('lineno')\n\n   print("[ Top 10 ]")\n   for stat in top_stats[:10]:\n       print(stat)

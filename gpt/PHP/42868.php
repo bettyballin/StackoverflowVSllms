@@ -1,0 +1,1 @@
+if ($image = @getimagesize ("../uploads/$pid")) {\n    echo "<div align=\"center\"><img src=\"show_image.php?image=$pid&name=" . urlencode($row['image_name']) . "\" $image[3] alt=\"{$row['print_name']}\" /></div>\n";   \n} else {\n    echo "<div align=\"center\">No image available.</div>\n";\n}

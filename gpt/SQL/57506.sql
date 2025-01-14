@@ -1,0 +1,1 @@
+CREATE ASSEMBLY [System.ServiceModel]\n   FROM 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.ServiceModel.dll'\n   WITH PERMISSION_SET = UNSAFE;\n   \n   CREATE ASSEMBLY [System.Runtime.Serialization]\n   FROM 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Runtime.Serialization.dll'\n   WITH PERMISSION_SET = UNSAFE;

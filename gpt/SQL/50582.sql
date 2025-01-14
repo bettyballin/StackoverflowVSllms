@@ -1,0 +1,1 @@
+WITH RateChanges AS (\n    SELECT \n        Code,\n        Date,\n        Rate,\n        LAG(Rate) OVER (PARTITION BY Code ORDER BY Date) AS PrevRate\n    FROM \n        RateTable\n)\nSELECT \n    Code,\n    Date,\n    Rate\nFROM \n    RateChanges\nWHERE \n    Rate != PrevRate OR PrevRate IS NULL\nORDER BY \n    Code, Date;

@@ -1,0 +1,1 @@
+while (!projectComplete) {\n    designPhase();\n    \n    // Overlap with design\n    codePhase();\n    \n    // Overlap with coding\n    testPhase();\n    \n    if (issuesFound) {\n        resolveIssues();\n        // May return to earlier phases as needed\n    }\n}

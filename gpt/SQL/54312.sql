@@ -1,0 +1,1 @@
+SELECT DISTINCT p.id, p.name\nFROM products_product p\nINNER JOIN products_ingridientproductbound ipb1 \n  ON p.id = ipb1.product_id\nINNER JOIN products_ingridientproductbound ipb2 \n  ON p.id = ipb2.product_id\nWHERE ipb1.ingridient_id IN (16, 17, 18, 19)\n  AND ipb2.ingridient_id IN (43, 44, 45)\nLIMIT 21;

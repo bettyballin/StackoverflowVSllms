@@ -1,0 +1,1 @@
+ALTER TABLE your_table\nADD CONSTRAINT chk_no_sundays\nCHECK (TO_CHAR(your_date_column, 'D') <> '1');

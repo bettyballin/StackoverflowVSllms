@@ -1,0 +1,1 @@
+Partial Public Class Customers\n    Public Function GetCustomerObject() As Object\n        ' Implementation here\n    End Function\n\n    Public Function GetCustomerFieldx() As Object\n        ' Implementation here\n    End Function\nEnd Class

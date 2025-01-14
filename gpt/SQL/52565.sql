@@ -1,0 +1,1 @@
+CREATE MATERIALIZED VIEW mv_your_table AS\n    SELECT\n        ...,\n        row_number() OVER(ORDER BY ID) rn\n    FROM\n        your_table;

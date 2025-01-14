@@ -1,0 +1,1 @@
+// PHP4\n    class MyClass {\n        function MyClass() {\n            // Constructor\n        }\n    }\n\n    // PHP5\n    class MyClass {\n        function __construct() {\n            // Constructor\n        }\n    }

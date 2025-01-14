@@ -1,0 +1,1 @@
+SELECT value AS max_sessions\nFROM v$parameter\nWHERE name = 'sessions';

@@ -1,0 +1,1 @@
+<%\nFunction DecodePluses(value)\n    DecodePluses = Replace(value, "%2B", "+")\nEnd Function\n\nDim inputValue\ninputValue = DecodePluses(request("Plus"))\n\nResponse.Write "Previous Value: " & Server.HTMLEncode(inputValue) & "<br />"\nResponse.Write "Query String: " & Server.HTMLEncode(request.querystring)\n%>

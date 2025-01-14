@@ -1,0 +1,1 @@
+for ($row2 = pg_fetch_row($result_tags); $row2 !== false; $row2 = pg_fetch_row($result_tags)) {\n    // Your code here to process $row2\n}

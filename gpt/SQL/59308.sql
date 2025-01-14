@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE InsertRecordAndReturnCursor (\n    p_someParameter IN VARCHAR2,\n    p_cursor OUT SYS_REFCURSOR\n) AS\nBEGIN\n    -- Insert logic\n    INSERT INTO YourTable (Column1) VALUES (p_someParameter);\n\n    -- Return the cursor\n    OPEN p_cursor FOR\n        SELECT * FROM YourTable\n        WHERE Column1 = p_someParameter;\nEND;\n/

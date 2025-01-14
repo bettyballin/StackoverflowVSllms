@@ -1,0 +1,1 @@
+error: function(jqXHR, textStatus, errorThrown) {\n    console.error("Error: " + textStatus + " - " + errorThrown);\n    console.log(jqXHR);\n}

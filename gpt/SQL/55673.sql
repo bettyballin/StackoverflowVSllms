@@ -1,0 +1,1 @@
+CREATE TABLE employee\n(\n  empID         VARCHAR2(20) NOT NULL PRIMARY KEY,\n  surname       VARCHAR2(15) NOT NULL CHECK(surname = UPPER(surname)),\n  deptCode      CHAR(5) NOT NULL CHECK(deptCode = UPPER(deptCode)),\n  empYear       NUMBER(1,0) NOT NULL CHECK(empYear >= 1 AND empYear <= 4),\n  birthDate     DATE NOT NULL CHECK((SYSDATE - birthDate) / 365 >= 18)\n);

@@ -1,0 +1,1 @@
+// Example of loading Community Auth library in CodeIgniter\n   $this->load->library('authentication');

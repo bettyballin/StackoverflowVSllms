@@ -1,0 +1,1 @@
+<?php\n// Start output buffering\nob_start();\n\n// SET ERROR REPORTING\nerror_reporting(E_ALL ^ E_WARNING ^ E_NOTICE);\nini_set('display_errors', TRUE);\n\n// Your code here\n// ...\n\n// Redirect to another page\nheader("Location: http://www.website.com/");\nexit();\n\n// End output buffering and flush output\nob_end_flush();\n?>

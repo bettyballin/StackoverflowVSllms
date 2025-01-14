@@ -1,0 +1,1 @@
+<%= form_remote_for(:job, @job, {:url => {:action => :create}}, \n                    {:loading => "$('loading').show();", \n                     :complete => "$('loading').hide();" }) do |f| %>\n  [... other form fields ...]\n  <div id="loading" style="display:none;">Loading...</div>\n<% end %>

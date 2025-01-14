@@ -1,0 +1,1 @@
+// In your Bootstrap file\nclass Bootstrap extends Zend_Application_Bootstrap_Bootstrap\n{\n    protected function _initSession()\n    {\n        $sessionId = isset($_POST['session_id']) ? $_POST['session_id'] : null;\n\n        if ($sessionId) {\n            Zend_Session::setId($sessionId);\n        }\n\n        Zend_Session::start();\n    }\n}

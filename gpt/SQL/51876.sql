@@ -1,0 +1,1 @@
+INSERT INTO MARKER (rsid)\nSELECT DISTINCT marker FROM temp_data;

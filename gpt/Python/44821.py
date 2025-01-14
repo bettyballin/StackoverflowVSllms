@@ -1,0 +1,1 @@
+def isPalindrome(inputStr):\n    """Tests to see if inputStr is the same backwards and forwards."""\n    if not isinstance(inputStr, str):\n        raise ValueError("Input must be a string.")\n    return inputStr == inputStr[::-1]

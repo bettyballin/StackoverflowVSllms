@@ -1,0 +1,1 @@
+CREATE TABLE Users (\n    id INT PRIMARY KEY,\n    name_hash CHAR(32) NOT NULL,\n    -- other columns\n);\n\n-- Insert example\nINSERT INTO Users (id, name_hash) VALUES (1, MD5('Bill'));\n\n-- Query example\nSELECT * FROM Users WHERE name_hash = MD5('Bill');

@@ -1,0 +1,1 @@
+def b(x):\n    return 1 + x\n\nprint(b(5))  # Output: 6

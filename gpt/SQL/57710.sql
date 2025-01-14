@@ -1,0 +1,1 @@
+CREATE TABLE example_table (\n    id NUMBER PRIMARY KEY,\n    description CLOB\n);

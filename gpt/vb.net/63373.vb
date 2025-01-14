@@ -1,0 +1,1 @@
+Imports System.Xml.Serialization\n\n<XmlRoot("messages", [Namespace]:="http://www.w3.org/1999/xml")>\nPublic Class cResponseMessage\n    <XmlElement("error")>\n    Public Property [Error] As String\n\n    <XmlElement("message")>\n    Public Property Message As String\nEnd Class

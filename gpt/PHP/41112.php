@@ -1,0 +1,1 @@
+<?php\nspl_autoload_register(function($classname) {\n    include_once("class/" . $classname . ".php");\n});\n?>

@@ -1,0 +1,1 @@
+import ctypes\nimport _ctypes\n\ndef load_dll(dll_path):\n    return ctypes.CDLL(dll_path)\n\ndef unload_dll(dll):\n    _ctypes.FreeLibrary(dll._handle)\n\n# Example usage:\ndll_path = 'your_dll.dll'\n\n# Load the DLL\ndll = load_dll(dll_path)\n\n# Perform your operations with the DLL\n# ...\n\n# Unload the DLL\nunload_dll(dll)\n\n# Reload the DLL\ndll = load_dll(dll_path)

@@ -1,0 +1,1 @@
+<?php\n\nclass YourNamespace_HelloWorld_Model_Article extends Mage_Core_Model_Abstract\n{\n    protected function _construct()\n    {\n        $this->_init('helloworld/article');\n    }\n}

@@ -1,0 +1,1 @@
+// another file where you use the classes\ninclude 'bazClassHere.php';\ninclude 'fooClassHere.php';\n\n$a = new Foo;\n$a->bar();\n\n// Accessing the methods of Baz\necho $a->meh; // Outputs: Some stuff\necho $a->bazInstance->anotherMethod(); // Outputs: Another method

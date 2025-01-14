@@ -1,0 +1,1 @@
+CREATE PROCEDURE usp_GetProfilePicture\n    @UserId INT\nAS\nBEGIN\n    SELECT ProfilePicture\n    FROM UserProfilePictures\n    WHERE UserId = @UserId\nEND

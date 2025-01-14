@@ -1,0 +1,1 @@
+// Assuming $dbh is your PDO connection\n$sql = "INSERT INTO your_table (your_column) VALUES (:latitude)";\n$stmt = $dbh->prepare($sql);\n\n$latitude = "63.59072952118762"; // Use a string to maintain precision\n$stmt->bindParam(':latitude', $latitude, PDO::PARAM_STR);\n\n$stmt->execute();

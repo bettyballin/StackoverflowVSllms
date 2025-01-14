@@ -1,0 +1,1 @@
+SELECT *\n     FROM Sales\n     WHERE SaleDate BETWEEN @StartDate AND @EndDate

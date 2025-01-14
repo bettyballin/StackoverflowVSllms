@@ -1,0 +1,1 @@
+// Vérifie si le nom de l'application contient "Microsoft"\nif (navigator.appName.indexOf("Microsoft") !== -1) {\n    console.log("Navigateur Microsoft détecté");\n}

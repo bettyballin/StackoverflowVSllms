@@ -1,0 +1,1 @@
+<?php\n    // src/Calculator.php\n    class Calculator\n    {\n        public function add($a, $b)\n        {\n            return $a + $b;\n        }\n    }

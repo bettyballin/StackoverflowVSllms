@@ -1,0 +1,1 @@
+<?php\nrequire 'vendor/autoload.php';\n\nuse Identicon\Identicon;\n\n$identicon = new Identicon();\n$imageData = $identicon->displayImage('exampleString', 64);\n\n// Save the identicon as an image file\nfile_put_contents('identicon.png', $imageData);

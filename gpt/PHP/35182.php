@@ -1,0 +1,1 @@
+$formatted = sprintf("Value: %01.2f", 0.5);\n    // Output: Value: 0.50

@@ -1,0 +1,1 @@
+<script>\n$(document).ready(function() {\n    $("a[rel]").colorbox({\n        // Your options here\n    });\n    // or\n    $("a[rel]").overlay({\n        // Your options here\n    });\n});\n</script>

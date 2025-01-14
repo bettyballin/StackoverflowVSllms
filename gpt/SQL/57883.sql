@@ -1,0 +1,1 @@
+SELECT \n    sp.name AS ProcedureName,\n    p.name AS ParameterName,\n    t.name AS DataType,\n    p.max_length AS MaxLength\nFROM \n    sys.procedures AS sp\nINNER JOIN \n    sys.parameters AS p ON sp.object_id = p.object_id\nINNER JOIN \n    sys.types AS t ON p.system_type_id = t.system_type_id\nWHERE \n    sp.name = 'YourStoredProcedureName'\nORDER BY \n    p.parameter_id;

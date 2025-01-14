@@ -1,0 +1,1 @@
+CREATE TABLE states (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    name VARCHAR(50) NOT NULL,\n    code CHAR(2) NOT NULL UNIQUE\n);\n\nINSERT INTO states (name, code) VALUES\n('Alabama', 'AL'),\n('Alaska', 'AK'),\n('Arizona', 'AZ'),\n-- (add other states and territories)\n;

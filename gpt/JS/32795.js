@@ -1,0 +1,1 @@
+function getSelectedOption() {\n    var selectElement = document.getElementById("mySelect");\n    var selectedOption = selectElement.options[selectElement.selectedIndex].value;\n    return selectedOption;\n}\n\n// Example usage\nvar selectedValue = getSelectedOption();\nconsole.log("Selected option value:", selectedValue);

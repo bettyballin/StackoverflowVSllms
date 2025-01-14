@@ -1,0 +1,1 @@
+-- Use nvarchar when storing Unicode characters\n   CREATE TABLE Example (\n       TextColumn nvarchar(255)\n   );\n\n   -- Use varchar for non-Unicode text\n   CREATE TABLE Example (\n       TextColumn varchar(255)\n   );

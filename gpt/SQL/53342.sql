@@ -1,0 +1,1 @@
+CREATE TABLE voting (\n    QuestionID INT NOT NULL,\n    MemberID INT NOT NULL,\n    vote VARCHAR(10),\n    PRIMARY KEY (QuestionID, MemberID)\n);

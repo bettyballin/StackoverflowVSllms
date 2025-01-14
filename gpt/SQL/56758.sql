@@ -1,0 +1,1 @@
+DELETE FROM pagelinks\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM page\n  WHERE page.page_id = pagelinks.pl_from\n);

@@ -1,0 +1,1 @@
+import pytest\n   import requests\n\n   def test_homepage():\n       response = requests.get('http://localhost:8080/')\n       assert response.status_code == 200\n       assert 'Welcome' in response.text

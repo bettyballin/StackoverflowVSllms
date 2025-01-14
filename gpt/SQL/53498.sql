@@ -1,0 +1,1 @@
+INSERT INTO users (username, email, password)\n   VALUES ('testuser1', 'test1@example.com', 'hashedpassword1'),\n          ('testuser2', 'test2@example.com', 'hashedpassword2');

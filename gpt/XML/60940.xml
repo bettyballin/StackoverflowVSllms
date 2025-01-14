@@ -1,0 +1,1 @@
+<!-- Example of a custom content type definition in XML for reference -->\n<ContentType ID="0x0104" Name="Custom Announcement" Group="Custom Content Types" Description="Custom Announcement with Publishing Image" Inherits="TRUE" Version="0">\n  <FieldRefs>\n    <FieldRef ID="{b9e4c6e6-4bb6-4d97-89e7-3a0b8d911b58}" Name="PublishingImage" />\n  </FieldRefs>\n</ContentType>

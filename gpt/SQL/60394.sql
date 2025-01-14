@@ -1,0 +1,1 @@
+ALTER TABLE table_name DISABLE KEYS;\n    -- Import data here\n    ALTER TABLE table_name ENABLE KEYS;

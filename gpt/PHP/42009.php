@@ -1,0 +1,1 @@
+<?php\n$today = new DateTime();\n$daysToAdd = 10; // Change this value to the number of days you want to add\n$today->modify("+{$daysToAdd} days");\n\necho $today->format('y:m:d');\n?>

@@ -1,0 +1,1 @@
+if ($requireLibrary) {\n       require_once 'path/to/library.php';\n   }

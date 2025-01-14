@@ -1,0 +1,1 @@
+INSERT INTO YourTableName (YourDateColumn)\nVALUES ('2023-10-25 14:30:45.1234567');

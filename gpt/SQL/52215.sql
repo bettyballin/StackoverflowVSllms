@@ -1,0 +1,1 @@
+SELECT \n    SUM(DATEDIFF(date_column1, date_column2)) AS total_date_difference\nFROM\n    your_table\nWHERE\n    your_conditions;

@@ -1,0 +1,1 @@
+<?php\n/* Copyright Date\n--------------------------*/\nfunction copyright_date($creation_year = null) {\n    $current_year = date('Y');\n\n    if (func_num_args() == 0 || $creation_year == $current_year) {\n        echo $current_year;\n    } \n    else {\n        echo $creation_year . '-' . $current_year;\n    }           \n}\n?>

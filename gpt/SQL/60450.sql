@@ -1,0 +1,1 @@
+-- SQL Server\n   SELECT GETDATE() FROM DUAL;\n\n   -- Oracle\n   SELECT SYSDATE FROM DUAL;

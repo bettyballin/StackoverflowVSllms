@@ -1,0 +1,1 @@
+<?php\necho strtotime("10 September 2000"); // Outputs: 968509200\necho date("Y-m-d H:i:s", strtotime("+1 week 2 days 4 hours 2 seconds")); // Outputs the date and time 1 week, 2 days, 4 hours, and 2 seconds from now\n?>

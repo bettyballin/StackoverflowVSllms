@@ -1,0 +1,1 @@
+function getAccessTokenFromUrl() {\n    const hash = window.location.hash;\n    const params = new URLSearchParams(hash.substring(1));\n    return params.get('access_token');\n}\n\nconst accessToken = getAccessTokenFromUrl();\nif (accessToken) {\n    // Use the access token to authenticate the user\n    authenticateUser(accessToken);\n}

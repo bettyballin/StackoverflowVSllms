@@ -1,0 +1,1 @@
+EXEC dbo.spPivot @EntityTypeID = 1;

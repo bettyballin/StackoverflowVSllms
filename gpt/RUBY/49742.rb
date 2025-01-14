@@ -1,0 +1,1 @@
+class YourModel < ApplicationRecord\n  attr_accessor :resubmit\nend

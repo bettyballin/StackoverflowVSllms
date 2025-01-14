@@ -1,0 +1,1 @@
+<div id="slideshow">\n      <% @images.each do |image| %>\n        <img src="<%= image_path(image) %>" class="slideshow-image" style="display:none;" />\n      <% end %>\n    </div>

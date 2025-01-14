@@ -1,0 +1,1 @@
+qry = From m In Context.DH_MASTERs _\n      Where m.Name.Contains(name) OrElse _\n            m.DH_ALIAs.Any(Function(aliasRec) aliasRec.Name.Contains(name)) _\n      Select m

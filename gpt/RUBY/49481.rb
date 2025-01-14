@@ -1,0 +1,1 @@
+my_proc = Proc.new { puts "This is a proc." }\nmy_proc.call  # Executes the proc\n\nmy_lambda = -> { puts "This is a lambda." }\nmy_lambda.call  # Executes the lambda

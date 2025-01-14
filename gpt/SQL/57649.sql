@@ -1,0 +1,1 @@
+SELECT t.*, (t.column1 + t.column2) AS virtual_column, (t.column1 * (t.column1 + t.column2)) AS another_virtual_column\nFROM (\n    SELECT column1, column2\n    FROM your_table\n) AS t;

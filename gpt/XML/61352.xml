@@ -1,0 +1,1 @@
+<property name="hibernate.connection.url">\n       jdbc:oracle:thin:@your_database_url?useUnicode=true&characterEncoding=UTF-8\n   </property>

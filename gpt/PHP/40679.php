@@ -1,0 +1,1 @@
+<!-- child_template.php -->\n<?php\n$title = "Child Template Page";\n\n// Content specific to this page\nob_start();\n?>\n<h1>Welcome to the Child Template Page</h1>\n<p>This is an example of template inheritance in PHP.</p>\n<?php\n$content = ob_get_clean();\n\n// Include the base template\ninclude 'base_template.php';\n?>

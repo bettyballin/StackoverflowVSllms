@@ -1,0 +1,1 @@
+path = %q(c:\Program Files\)\nputs path

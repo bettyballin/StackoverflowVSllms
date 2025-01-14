@@ -1,0 +1,1 @@
+UPDATE your_table SET entry_order_no = entry_order_no + 1 WHERE entry_order_no >= 2;

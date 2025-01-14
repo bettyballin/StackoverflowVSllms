@@ -1,0 +1,1 @@
+from django.urls import path\nfrom .views import person_edit\n\nurlpatterns = [\n    path('edit/', person_edit, name='person_create'),\n    path('edit/<int:id>/', person_edit, name='person_edit'),\n]

@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <compilation debug="true" targetFramework="2.0" />\n    <webServices>\n      <protocols>\n        <add name="HttpSoap"/>\n        <add name="HttpGet"/>\n        <add name="HttpPost"/>\n      </protocols>\n    </webServices>\n  </system.web>\n</configuration>

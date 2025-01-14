@@ -1,0 +1,1 @@
+SELECT a.index, a.value\nFROM your_table a\nJOIN your_table b ON a.index = b.index - 1\nJOIN your_table c ON a.index = c.index + 1\nWHERE a.value > b.value AND a.value > c.value;

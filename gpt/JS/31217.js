@@ -1,0 +1,1 @@
+// Prevent default behavior\n$('a').on('click', function(event) {\n    event.preventDefault();\n});\n\n// Apply enhancements and re-enable default behavior\n$(document).ready(function() {\n    // Your enhancement code here\n\n    // Re-enable default behavior\n    $('a').off('click').on('click', function() {\n        // Your enhanced click handler here\n    });\n});

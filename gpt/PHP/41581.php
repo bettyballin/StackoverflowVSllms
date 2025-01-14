@@ -1,0 +1,1 @@
+$sqliteConnection = new SQLiteDatabase('path/to/db');\n$queryString = "DELETE FROM myTable WHERE status='not good'";\n$result = $sqliteConnection->query($queryString);\n\n// Get the number of affected rows\n$affectedRows = $sqliteConnection->changes();\n\necho "Number of rows deleted: " . $affectedRows;

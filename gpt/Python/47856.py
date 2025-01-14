@@ -1,0 +1,1 @@
+# Array (list) indexing\nmy_array = [10, 20, 30]\nprint(my_array[0])  # Output: 10\n\n# Function call\ndef my_function(x):\n    return x * 2\n\nprint(my_function(0))  # Output: 0

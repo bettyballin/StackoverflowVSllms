@@ -1,0 +1,1 @@
+$encodedSerializedObject = $resultFromDatabase;\n    $serializedObject = base64_decode($encodedSerializedObject);\n    $yourObject = unserialize($serializedObject);

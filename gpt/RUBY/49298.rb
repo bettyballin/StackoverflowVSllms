@@ -1,0 +1,1 @@
+class ModelA < ApplicationRecord\n  has_many :model_a_b_relations\n  has_many :model_bs, through: :model_a_b_relations\nend\n\nclass ModelB < ApplicationRecord\n  has_many :model_a_b_relations\n  has_many :model_as, through: :model_a_b_relations\nend\n\nclass ModelABRelation < ApplicationRecord\n  belongs_to :model_a\n  belongs_to :model_b\nend

@@ -1,0 +1,1 @@
+SELECT \n    CASE \n        WHEN Obsolete = 'N' OR InStock = 'Y' THEN 1 \n        ELSE 0 \n    END AS Saleable, \n    * \nFROM Product;

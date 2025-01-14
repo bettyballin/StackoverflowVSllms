@@ -1,0 +1,1 @@
+CREATE TABLE myTable\n   (id NUMBER PRIMARY KEY,\n    field1 TIMESTAMP(6),\n    time_stamp NUMBER);

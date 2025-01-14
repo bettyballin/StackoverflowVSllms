@@ -1,0 +1,1 @@
+SELECT * \nFROM your_table_name\nWHERE FIND_IN_SET('2', Column2);

@@ -1,0 +1,1 @@
+require 'pry'\n\nclass Calculator\n  def add(a, b)\n    result = a + b\n    binding.pry  # Execution will pause here\n    result\n  end\nend\n\ncalc = Calculator.new\nputs calc.add(5, 3)

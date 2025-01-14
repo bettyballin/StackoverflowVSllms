@@ -1,0 +1,1 @@
+SELECT t1.Name, t1.Candy, t1.PreferenceFactor\nFROM YourTable t1\nJOIN (\n    SELECT Name, MAX(PreferenceFactor) AS MaxPref\n    FROM YourTable\n    GROUP BY Name\n) t2 ON t1.Name = t2.Name AND t1.PreferenceFactor = t2.MaxPref

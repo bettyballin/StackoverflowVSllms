@@ -1,0 +1,1 @@
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load\n    If Session("ConnString") Is Nothing Then\n        Dim connString As String = "RetrievedConnectionString" ' Retrieve from web service\n        Application("ConnString_" & Session.SessionID) = connString\n        Session("ConnString") = connString\n    End If\nEnd Sub

@@ -1,0 +1,1 @@
+fetch('your-endpoint-url')\n    .then(response => response.json())\n    .then(data => console.log('Success:', data))\n    .catch(error => console.error('Error:', error));

@@ -1,0 +1,1 @@
+<profile>\n  <providers>\n    <clear />\n    <add name="SqlProfileProvider" ... />\n  </providers>\n</profile>

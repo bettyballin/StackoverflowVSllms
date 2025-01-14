@@ -1,0 +1,1 @@
+setcookie("user_id", $user_id, [\n        'expires' => time() + 3600,\n        'path' => '/',\n        'secure' => true, // Only send over HTTPS\n        'httponly' => true, // Inaccessible to JavaScript\n        'samesite' => 'Strict' // Prevent CSRF\n    ]);

@@ -1,0 +1,1 @@
+$path = "C:\\Documents and Settings\\kasper\\Bureaublad\\24.jpg";\n$corrected_path = str_replace('\\\\', '\\', $path);\necho $corrected_path; // Outputs: C:\Documents and Settings\kasper\Bureaublad\24.jpg

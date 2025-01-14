@@ -1,0 +1,1 @@
+get 'private_assets/:filename', to: 'private_assets#show', as: 'private_asset'

@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\nif (!isset($_SESSION['progress'])) {\n    $_SESSION['progress'] = 0;\n}\n\nfor ($i = 0; $i <= 100; $i++) {\n    // Simulate a long-running process\n    sleep(1);\n\n    // Update progress in session\n    $_SESSION['progress'] = $i;\n}\n\n// Process completed, reset progress\n$_SESSION['progress'] = 100;\n?>

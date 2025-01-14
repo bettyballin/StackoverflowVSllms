@@ -1,0 +1,1 @@
+EXEC GetCarsByManufacturer 'Nissan';

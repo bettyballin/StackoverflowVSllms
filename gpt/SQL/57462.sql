@@ -1,0 +1,1 @@
+GRANT INSERT ON dbo.Order TO Customer;

@@ -1,0 +1,1 @@
+UPDATE Contact\n    SET EmailAddress = EmailAddress + '.x'\n    WHERE LEN(EmailAddress) <= 253;  -- Ensure the new length does not exceed the column limit

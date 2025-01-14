@@ -1,0 +1,1 @@
+Public Class WebControlFactory\n\n    Public Shared Function GetWebControl() As BaseAbstractClass\n        Return New ConcreteWrapper1(New CustomControlInheritedFromWebControl1())\n    End Function\n\nEnd Class

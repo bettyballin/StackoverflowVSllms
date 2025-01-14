@@ -1,0 +1,1 @@
+-- Enable statistics\nSET STATISTICS IO ON;\nSET STATISTICS TIME ON;\n\n-- Sample query\nSELECT * FROM Employees WHERE Department = 'IT';\n\n-- Disable statistics\nSET STATISTICS IO OFF;\nSET STATISTICS TIME OFF;

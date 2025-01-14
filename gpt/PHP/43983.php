@@ -1,0 +1,1 @@
+$text = <<<EOT\nThis is a large block of text.\nYou can use variables within this block.\nEOT;

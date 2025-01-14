@@ -1,0 +1,1 @@
+$.getJSON('your_url_here', function(data) {\n    alert(data); // gives an object\n    alert(data.horas[0].hora); // should give "13:20"\n});

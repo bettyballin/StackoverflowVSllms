@@ -1,0 +1,1 @@
+// Original code\nconsole.log("<!--/* OpenX Javascript Tag v2.8.1 */-->");\n\n// Modified code\nconsole.log("<!--/* YourBrand Javascript Tag v2.8.1 */-->");

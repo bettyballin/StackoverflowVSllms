@@ -1,0 +1,1 @@
+$flags = $obj->getFlags();\n$sql = "UPDATE my_objects SET flags = :flags WHERE id = :id";\n$stmt = $pdo->prepare($sql);\n$stmt->execute([':flags' => $flags, ':id' => $objectId]);

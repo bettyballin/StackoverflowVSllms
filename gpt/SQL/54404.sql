@@ -1,0 +1,1 @@
+CREATE TABLE `sessions` (\n    `id` VARCHAR(32) NOT NULL,\n    `name` VARCHAR(32) NOT NULL,\n    `modified` INT(11) DEFAULT NULL,\n    `lifetime` INT(11) DEFAULT NULL,\n    `data` TEXT,\n    PRIMARY KEY (`id`, `name`)\n);

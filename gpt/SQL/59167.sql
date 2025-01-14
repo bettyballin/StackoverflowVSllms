@@ -1,0 +1,1 @@
+SELECT DISTINCT theField\nFROM theTable

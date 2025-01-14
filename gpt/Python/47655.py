@@ -1,0 +1,1 @@
+# Initialize an empty dictionary\nmy_dict = {}\n\n# Example data\nrows = [{'id': 2, 'name': 'Category 1'}, {'id': 5, 'name': 'Category 2'}]\n\n# Insert values into the dictionary\nfor row in rows:\n    my_dict[row["id"]] = row["name"]\n\n# Print the resulting dictionary\nprint(my_dict)

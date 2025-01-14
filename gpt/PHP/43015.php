@@ -1,0 +1,1 @@
+$fixedArray = new SplFixedArray(5);\n   $fixedArray[0] = 10;

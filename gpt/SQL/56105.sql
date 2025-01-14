@@ -1,0 +1,1 @@
+SELECT \n    ABS(DATEDIFF(DAY, [mytable].first_date, [mytable].second_date)) AS DateDifference\nFROM \n    [mytable]

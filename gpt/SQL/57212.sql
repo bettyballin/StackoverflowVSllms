@@ -1,0 +1,1 @@
+-- Create a table with a primary key\nCREATE TABLE ExampleTable (\n    ID INT PRIMARY KEY,\n    Name NVARCHAR(50)\n);\n\n-- No need to create an additional index on the primary key column\n-- This index is already created implicitly by the primary key constraint

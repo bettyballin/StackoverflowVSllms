@@ -1,0 +1,1 @@
+' Using VB runtime function to get the length of a string\nDim str As String = "Hello, World!"\nDim lengthVB As Integer = Len(str)\n\n' Using .NET Framework method to get the length of a string\nDim lengthNET As Integer = str.Length

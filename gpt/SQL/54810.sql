@@ -1,0 +1,1 @@
+-- Step 1: Insert initial data with placeholder values\nINSERT INTO Departments (DepartmentID, EmployeeID) VALUES (1, NULL);\nINSERT INTO Employees (EmployeeID, DepartmentID) VALUES (1, 1);\n\n-- Step 2: Update the placeholder values with the correct foreign key references\nUPDATE Departments SET EmployeeID = 1 WHERE DepartmentID = 1;

@@ -1,0 +1,1 @@
+CREATE VIEW sales_summary AS\nSELECT \n    customer_id,\n    SUM(total_amount) as total_sales,\n    COUNT(order_id) as total_orders\nFROM sales\nGROUP BY customer_id;

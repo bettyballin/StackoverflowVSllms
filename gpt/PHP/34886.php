@@ -1,0 +1,1 @@
+$files = glob('classes/*.php');\n\nforeach ($files as $file) {\n    include_once($file);\n}

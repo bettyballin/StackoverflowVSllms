@@ -1,0 +1,1 @@
+GRANT EXECUTE ON MYSCHEMA.my_procedure TO APPS;

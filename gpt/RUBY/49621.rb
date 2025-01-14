@@ -1,0 +1,1 @@
+# Basic plot\nplot(1:10, main="Main Title", xlab="X-axis Label", ylab="Y-axis Label")\n\n# Adjust margins using par() and mgp\npar(mgp=c(3, 1, 0))  # Adjusts the margin lines for axis title, labels, and line\n\n# Adjust the y-axis title position\ntitle(ylab="Y-axis Label\nSecond Line", line=2)  # Move the y-axis label closer

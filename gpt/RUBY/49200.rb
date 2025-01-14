@@ -1,0 +1,1 @@
+respond_to do |format|\n  format.html # index.html.erb\n  format.xml  { render :xml => @things }\n\n  # Include photos using to_json with options\n  format.json { render :json => @things.to_json(:include => :photos) }\nend

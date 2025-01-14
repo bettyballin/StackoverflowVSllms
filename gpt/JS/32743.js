@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() {\n    // Hide the loader\n    var loader = document.getElementById('loader');\n    if (loader) {\n        loader.style.display = 'none';\n    }\n\n    // Your code to execute after the DOM is fully loaded\n    console.log('DOM fully loaded and parsed');\n});

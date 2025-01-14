@@ -1,0 +1,1 @@
+$config = json_decode(file_get_contents('config.json'), true);\n$importer = ImporterFactory::create($config['dataFetchers']['ftp'], $config['dataHandlers']['csv'], $config['dataWriters']['database']);\n$importer->import();

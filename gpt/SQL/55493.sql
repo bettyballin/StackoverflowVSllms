@@ -1,0 +1,1 @@
+USE databasename;\nGO\n\nDECLARE @username SYSNAME = 'username';\nDECLARE @procname SYSNAME = 'storedProcedureName';\n\nIF HAS_PERMS_BY_NAME(@procname, 'OBJECT', 'EXECUTE') = 1\nBEGIN\n    PRINT 'User has execute permissions on the stored procedure.'\nEND\nELSE\nBEGIN\n    PRINT 'User does NOT have execute permissions on the stored procedure.'\nEND

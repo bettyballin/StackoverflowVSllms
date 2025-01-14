@@ -1,0 +1,1 @@
+import requests\n\ndef fetch_data_from_slave(slave_url):\n    response = requests.get(slave_url, verify='/path/to/ca-bundle.crt')\n    if response.status_code == 200:\n        return response.json()\n    else:\n        response.raise_for_status()

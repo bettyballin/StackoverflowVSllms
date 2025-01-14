@@ -1,0 +1,1 @@
+-- Assuming your VFP GUID is stored as a string in a variable\nDECLARE @vfpGuid NVARCHAR(36) = '{12345678-1234-1234-1234-123456789ABC}';\n\n-- You can insert it into a table with a uniqueidentifier column\nINSERT INTO YourTable (UniqueIdentifierColumn)\nVALUES (CAST(@vfpGuid AS UNIQUEIDENTIFIER));

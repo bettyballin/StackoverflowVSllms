@@ -1,0 +1,1 @@
+SELECT * FROM invitations \nWHERE email = 'example@example.com' \nAND (key1 = 'key1' OR key1 IS NULL) \nAND (key2 = 'key2' OR key2 IS NULL) \nAND (key3 = 'key3' OR key3 IS NULL);

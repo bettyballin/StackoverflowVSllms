@@ -1,0 +1,1 @@
+SELECT name, base_object_name\nFROM sys.synonyms\nWHERE name = 'YourSynonymName'

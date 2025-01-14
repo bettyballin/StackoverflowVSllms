@@ -1,0 +1,1 @@
+USE [master];\nGO\n\nALTER DATABASE [tempdb]\nMODIFY FILE (NAME = tempdev, SIZE = 50GB);\nGO\n\nALTER DATABASE [tempdb]\nMODIFY FILE (NAME = templog, SIZE = 20GB);\nGO\n\n-- Add additional files to tempdb\nALTER DATABASE [tempdb] \nADD FILE (NAME = tempdev2, FILENAME = 'C:\tempdb2.ndf', SIZE = 50GB);\nGO

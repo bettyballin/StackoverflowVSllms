@@ -1,0 +1,1 @@
+<?php\n// main.php\n\ninclude 'file.php'; // First inclusion\ninclude 'file.php'; // Second inclusion\n?>

@@ -1,0 +1,1 @@
+SELECT SUM(CAST(myIntColumn AS BIGINT)) as foo FROM myTable;

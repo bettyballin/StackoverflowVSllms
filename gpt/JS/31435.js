@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", function() {\n    const images = document.querySelectorAll('img');\n    images.forEach(img => {\n        setTimeout(() => {\n            img.style.display = 'none';\n            img.offsetHeight; // trigger reflow\n            img.style.display = '';\n        }, 50);\n    });\n});

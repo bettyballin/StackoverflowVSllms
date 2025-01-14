@@ -1,0 +1,1 @@
+jQuery('a.editcontent').on('click', function() {\n    jQuery(this).closest('h2').next('.content').trigger('edit');\n});

@@ -1,0 +1,1 @@
+// config.php\ndefine('ENVIRONMENT', 'production'); // Change to 'development' for local/dev

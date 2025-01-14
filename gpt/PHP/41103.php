@@ -1,0 +1,1 @@
+// Convert PHP timestamp to MySQL datetime format\nfunction mysql_date($php_date) {\n    $dt = new DateTime("@$php_date"); // Use the "@" to interpret the timestamp\n    return $dt->format('Y-m-d H:i:s');\n}\n\n// Convert MySQL datetime format to PHP timestamp\nfunction php_date($mysql_date) {\n    $dt = new DateTime($mysql_date);\n    return $dt->getTimestamp();\n}

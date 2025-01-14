@@ -1,0 +1,1 @@
+INSERT INTO your_table (timestamp, other_columns) VALUES (datetime('now', '-6 hours'), other_values);

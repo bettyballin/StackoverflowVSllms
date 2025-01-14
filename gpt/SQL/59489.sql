@@ -1,0 +1,1 @@
+SELECT I.ItemName\nFROM Items I\nJOIN ItemTags IT ON I.ItemID = IT.ItemID\nWHERE IT.TagID = 1;

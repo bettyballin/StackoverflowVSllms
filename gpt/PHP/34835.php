@@ -1,0 +1,1 @@
+if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {\n    $newline = "\r\n";\n} elseif (strtoupper(substr(PHP_OS, 0, 3)) === 'DAR') {\n    $newline = "\r";\n} else {\n    $newline = "\n";\n}\n\n// Use the $newline variable when adding new lines

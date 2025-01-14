@@ -1,0 +1,1 @@
+const text = "Check out this number #758 and this one #1234.";\nconst result = text.replace(/#(\d+)/g, '<a href="https://example.com/hashtag/$1">#$1</a>');\n\nconsole.log(result);

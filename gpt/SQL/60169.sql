@@ -1,0 +1,1 @@
+UPDATE your_table\nSET your_column = REPLACE(your_column, CHR(19), '')\nWHERE INSTR(your_column, CHR(19)) > 0;

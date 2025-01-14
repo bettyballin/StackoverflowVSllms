@@ -1,0 +1,1 @@
+WITH CTE_MinBar AS (\n    SELECT \n        ID, \n        Foo, \n        Bar, \n        Blagh,\n        ROW_NUMBER() OVER (PARTITION BY Foo ORDER BY Bar) AS RowNum\n    FROM \n        YourTable\n)\nSELECT \n    ID, \n    Foo, \n    Bar, \n    Blagh\nFROM \n    CTE_MinBar\nWHERE \n    RowNum = 1;

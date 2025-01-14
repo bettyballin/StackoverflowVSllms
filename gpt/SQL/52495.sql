@@ -1,0 +1,1 @@
+-- Backup the old table to a file\nBACKUP DATABASE [YourDatabase] \nTO DISK = N'C:\Backup\YourTable_MonthYear.bak' \nWITH NOFORMAT, NOINIT, \nNAME = N'YourTable-MonthYear-Full Database Backup', \nSKIP, NOREWIND, NOUNLOAD, STATS = 10;

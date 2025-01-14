@@ -1,0 +1,1 @@
+ALTER FULLTEXT CATALOG ftcat_documentindex REBUILD;

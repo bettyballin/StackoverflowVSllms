@@ -1,0 +1,1 @@
+import win32api\n\n# Get the value of the PATH environment variable\npath = win32api.GetEnvironmentVariable('PATH')\nprint(f'PATH: {path}')

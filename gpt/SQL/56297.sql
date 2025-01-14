@@ -1,0 +1,1 @@
+LOAD DATA INFILE '/path/to/your/file.csv'\n   INTO TABLE your_table_name\n   FIELDS TERMINATED BY ','  -- Assuming comma as separator\n   ENCLOSED BY '"'\n   LINES TERMINATED BY '\n'\n   IGNORE 1 LINES;  -- If there is a header row in the CSV file

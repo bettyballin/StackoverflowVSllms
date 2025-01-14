@@ -1,0 +1,1 @@
+from flask import Flask, send_file\n\napp = Flask(__name__)\n\n@app.route('/get_csv')\ndef get_csv():\n    return send_file('data.csv', mimetype='text/csv')\n\nif __name__ == '__main__':\n    app.run(debug=True)

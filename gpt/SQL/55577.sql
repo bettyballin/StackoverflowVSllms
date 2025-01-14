@@ -1,0 +1,1 @@
+SELECT \n    COALESCE(B.column_b_1_descr, 'bad') AS COLUMN1, \n    A.* \nFROM \n    TRANSACTION_TABLE A\nLEFT JOIN \n    CATEGORY_TABLE B \nON \n    A.column1 = B.column_b_1\nWHERE \n    A.column1 IS NOT NULL \n    AND A.column1 <> ' ';

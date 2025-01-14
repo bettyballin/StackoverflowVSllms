@@ -1,0 +1,1 @@
+session_start(); // Starts the session and reads data from the storage backend\n\n// Accessing session data - no I/O involved\n$_SESSION['user'] = 'John Doe';\n\n// More code execution...\n\n// At the end of the script, session data is written back to the storage backend

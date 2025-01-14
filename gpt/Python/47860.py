@@ -1,0 +1,1 @@
+import os\nimport stat\nfrom django.db.models.signals import post_save\nfrom django.dispatch import receiver\nfrom yourapp.models import YourModel

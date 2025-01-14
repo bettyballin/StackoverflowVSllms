@@ -1,0 +1,1 @@
+Public Class ConcreteWrapper1\n    Inherits BaseAbstractClass(Of CustomControlInheritedFromWebControl1)\n\n    Public Sub New(ByVal control As CustomControlInheritedFromWebControl1)\n        MyBase._item = control\n    End Sub\nEnd Class\n\nPublic Class CustomControlInheritedFromWebControl1\n    Inherits WebControl\n\n    ' Implementation details...\nEnd Class

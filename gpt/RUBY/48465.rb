@@ -1,0 +1,1 @@
+class ItemsController < ApplicationController\n  autocomplete :item, :name\n\n  def autocomplete_item_name\n    items = Item.autocomplete(params[:term])\n    render json: items\n  end\nend

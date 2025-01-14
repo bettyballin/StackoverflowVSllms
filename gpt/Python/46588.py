@@ -1,0 +1,1 @@
+api_url = "https://api.yourservice.com/resource"\nheaders = {\n    'Authorization': f'Bearer {access_token}'\n}\n\nresponse = requests.get(api_url, headers=headers)\nprint(response.json())

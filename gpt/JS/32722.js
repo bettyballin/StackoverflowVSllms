@@ -1,0 +1,1 @@
+const uncss = require('uncss');\n\n   uncss(['index.html', 'about.html'], function (output) {\n     console.log(output);\n   });

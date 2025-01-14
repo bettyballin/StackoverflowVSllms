@@ -1,0 +1,1 @@
+UPDATE MyTable\nSET MyVal1 = ISNULL(@val1, MyVal1),\n    MyVal2 = ISNULL(@val2, MyVal2)\nWHERE @id = id

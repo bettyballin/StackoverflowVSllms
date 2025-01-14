@@ -1,0 +1,1 @@
+<?php\n$xml = new DOMDocument();\n$xml->load('path/to/your/xmlfile.xml');\n\n// Enable validation\n$xml->validateOnParse = true;\n\nif ($xml->validate()) {\n    echo "XML is valid!";\n} else {\n    echo "XML is invalid!";\n}\n?>

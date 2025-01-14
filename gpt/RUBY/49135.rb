@@ -1,0 +1,1 @@
+require 'test_helper'\n\n   class YourControllerTest < ActionController::TestCase\n     def test_your_action\n       # Your test setup code here\n\n       byebug  # Execution will pause here, allowing you to inspect variables\n\n       # Your test assertions here\n     end\n   end

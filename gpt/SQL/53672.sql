@@ -1,0 +1,1 @@
+CREATE TABLE Tree (\n    id INT PRIMARY KEY,\n    name VARCHAR(100)\n);\n\nCREATE TABLE TreePaths (\n    ancestor INT,\n    descendant INT,\n    PRIMARY KEY (ancestor, descendant),\n    FOREIGN KEY (ancestor) REFERENCES Tree(id),\n    FOREIGN KEY (descendant) REFERENCES Tree(id)\n);

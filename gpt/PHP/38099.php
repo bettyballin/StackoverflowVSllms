@@ -1,0 +1,1 @@
+<?php\nsession_start();\nif (isset($_GET['token']) && $_GET['token'] === $_SESSION['token']) {\n    // Token is valid, serve the ASX file\n    header('Content-Type: video/x-ms-asf');\n    readfile('path/to/your/file.asx');\n} else {\n    // Invalid token, deny access\n    header('HTTP/1.0 403 Forbidden');\n    echo 'You are not authorized to view this file.';\n}\n?>

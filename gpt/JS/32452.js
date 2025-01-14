@@ -1,0 +1,1 @@
+$("[data-role='toolWindow']").click(toolWindow_click);\n    $("[data-role='toolWindow']").keypress(toolWindow_keypress);

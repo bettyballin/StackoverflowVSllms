@@ -1,0 +1,1 @@
+ALTER TABLE YourTableName\nADD CONSTRAINT unique_user_contact UNIQUE (UserId, ContactID);

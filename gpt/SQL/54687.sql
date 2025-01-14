@@ -1,0 +1,1 @@
+CREATE POLICY your_policy ON your_table\n   USING (your_condition);

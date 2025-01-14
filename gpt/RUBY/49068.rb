@@ -1,0 +1,1 @@
+def class_name_to_snake_case(str)\n  str.gsub(/([A-Z])/, '_\1').downcase.sub(/^_/, '')\nend\n\ninput = "ThisIsMyString"\noutput = class_name_to_snake_case(input)\nputs output  # Output: this_is_my_string

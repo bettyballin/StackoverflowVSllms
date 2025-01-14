@@ -1,0 +1,1 @@
+-- Query the V$SQL view to find SQL statements\n   SELECT sql_text\n   FROM v$sql\n   WHERE parsing_schema_name = 'YOUR_USERNAME'\n   AND sql_text LIKE '%YOUR_REPORT_CRITERIA%';

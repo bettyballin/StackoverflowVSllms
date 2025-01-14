@@ -1,0 +1,1 @@
+<?php\n// Path to your .cpp file\n$cppFile = 'path/to/your/file.cpp';\n\n// Read the contents of the file\n$code = file_get_contents($cppFile);\n\n// Convert special characters to HTML entities\n$encodedCode = htmlspecialchars($code);\n\n// Display the code within a <pre> tag to preserve the format\necho "<pre>{$encodedCode}</pre>";\n?>

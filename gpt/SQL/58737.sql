@@ -1,0 +1,1 @@
+DECLARE @year INT = YEAR(GETDATE());\nDECLARE @timeZoneId NVARCHAR(50) = 'Central Standard Time'; -- For Chicago\nDECLARE @utcTimestamp DATETIME;\n\nSET @utcTimestamp = dbo.GetUtcTimestamp(@year, @timeZoneId);\n\nSELECT @utcTimestamp AS UtcTimestamp;

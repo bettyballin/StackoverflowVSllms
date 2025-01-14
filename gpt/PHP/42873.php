@@ -1,0 +1,1 @@
+class SubClass extends SuperClass {\n  function __construct() {\n    parent::__construct();\n  }\n}\n\nclass SuperClass {\n  function __construct() {\n    $subClass = get_class($this);\n    $reflection = new ReflectionClass($subClass);\n    $fileName = $reflection->getFileName();\n    \n    echo 'I\'m ' . $subClass . ' and I reside in ' . $fileName;\n  }\n}

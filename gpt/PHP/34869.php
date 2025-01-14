@@ -1,0 +1,1 @@
+<?php\n$domains = ['www.example.com', '.example.com'];\n$deleteExpiration = time() - 60*60*24*365*10; // 10 years ago\n\nforeach (array_keys($_COOKIE) as $cookie) {\n    foreach ($domains as $domain) {\n        setcookie($cookie, '', $deleteExpiration, '/', $domain);\n    }\n}\n?>

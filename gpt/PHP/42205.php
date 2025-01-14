@@ -1,0 +1,1 @@
+$config['allow_get_array'] = TRUE;

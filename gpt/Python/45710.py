@@ -1,0 +1,1 @@
+def f():\n    x, y = 1, 2 \n\n    def get():\n        print('get')\n\n    def post():\n        print('post')\n\n    return get, post\n\n# Getting the local functions\nget, post = f()\n\n# Calling the local functions\nget()\npost()

@@ -1,0 +1,1 @@
+CREATE DATABASE AdventureWorksSS ON \n(\n    NAME = AdventureWorks_Data, \n    FILENAME = 'C:\Snapshots\AdventureWorksSS.ss'\n)\nAS SNAPSHOT OF AdventureWorks;

@@ -1,0 +1,1 @@
+<extension\n     point="org.eclipse.ui.views">\n  <view\n        id="your.view.id"\n        name="Your View Name"\n        class="your.package.YourViewClass"\n        category="your.category.id">\n  </view>\n</extension>

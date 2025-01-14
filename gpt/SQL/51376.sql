@@ -1,0 +1,1 @@
+SELECT \n    email, \n    COUNT(*) AS occurs\nFROM \n    USERS\nWHERE \n    provider = x \n    AND MONTH(date) = y\nGROUP BY \n    email\nHAVING \n    COUNT(*) > 1;

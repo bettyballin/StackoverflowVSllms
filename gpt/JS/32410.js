@@ -1,0 +1,1 @@
+// Store data\nlocalStorage.setItem("username", "user123");\nlocalStorage.setItem("score", 100);\n\n// Retrieve data\nconsole.log(localStorage.getItem("username")); // Output: user123\nconsole.log(localStorage.getItem("score")); // Output: 100

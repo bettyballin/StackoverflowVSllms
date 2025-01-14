@@ -1,0 +1,1 @@
+$dataType = 'user'; // or 'order'\n    $data = [/* data array */];\n\n    try {\n        $processor = ProcessorFactory::getProcessor($dataType);\n        $processor->process($data);\n    } catch (Exception $e) {\n        echo 'Error: ' . $e->getMessage();\n    }

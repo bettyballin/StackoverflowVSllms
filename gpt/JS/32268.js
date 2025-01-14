@@ -1,0 +1,1 @@
+var xmlText = xmlHttp.responseText;\nvar parser = new DOMParser();\nvar xmlDoc = parser.parseFromString(xmlText, "application/xml");\nvar xmlRoot = xmlDoc.documentElement;\nvar postcode = xmlRoot.getElementsByTagName("Postcode")[0].textContent.trim();\ndocument.forms[0]["address"+addr+"_Postcode"].value = postcode;

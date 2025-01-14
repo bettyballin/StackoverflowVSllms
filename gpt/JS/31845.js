@@ -1,0 +1,1 @@
+// Install autoprefixer and postcss-cli via npm\n// npm install autoprefixer postcss-cli\n\n// Add this to your package.json scripts\n"scripts": {\n  "build:css": "postcss src/styles.css -o dist/styles.css"\n}\n\n// Create a postcss.config.js file\nmodule.exports = {\n  plugins: [\n    require('autoprefixer')\n  ]\n};

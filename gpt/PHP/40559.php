@@ -1,0 +1,1 @@
+$strings = [\n    "correct UTF-8 string",\n    "incorrect string"\n];\n\nforeach ($strings as $string) {\n    if (isValidUTF8($string)) {\n        echo "Correct UTF-8: " . $string . "\n";\n    } else {\n        echo "Not UTF-8: " . $string . "\n";\n    }\n}

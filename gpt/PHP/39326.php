@@ -1,0 +1,1 @@
+print_r($_REQUEST);\n   print_r($_POST);\n   print_r($_GET);

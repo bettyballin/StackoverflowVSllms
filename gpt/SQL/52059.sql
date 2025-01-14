@@ -1,0 +1,1 @@
+ALTER TABLE Table2 ADD (\n  EndTime AS (StartTime + Duration/24) VIRTUAL\n);\n\nCREATE INDEX idx_endtime ON Table2 (EndTime);

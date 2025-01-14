@@ -1,0 +1,1 @@
+function YOUR_THEME_preprocess_node(&$variables) {\n  if ($variables['node']->type == 'fund' && arg(2) == 'print') {\n    $variables['theme_hook_suggestions'][] = 'node__fund__print';\n  }\n}

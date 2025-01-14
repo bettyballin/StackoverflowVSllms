@@ -1,0 +1,1 @@
+$myVar;\nsetdefault($myVar, "default value");\necho $myVar; // Output: "default value"

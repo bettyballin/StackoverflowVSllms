@@ -1,0 +1,1 @@
+EXPLAIN SELECT columns\nFROM table1\nINNER JOIN table2 ON table1.id = table2.id\nINNER JOIN table3 ON table2.id = table3.id\n-- more joins\nINNER JOIN table7 ON table6.id = table7.id;

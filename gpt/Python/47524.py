@@ -1,0 +1,1 @@
+holeCards = input("Select a hand to play: ")\ntry:\n    if len(holeCards) != 4:\n        raise ValueError(holeCards + ' does not represent a valid hand.')

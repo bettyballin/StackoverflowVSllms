@@ -1,0 +1,1 @@
+Dim connectionString As String = My.Settings.ConnectionString

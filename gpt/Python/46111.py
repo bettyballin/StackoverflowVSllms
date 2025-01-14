@@ -1,0 +1,1 @@
+from OpenSSL import SSL\n\n# Example usage\ncontext = SSL.Context(SSL.SSLv23_METHOD)

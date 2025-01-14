@@ -1,0 +1,1 @@
+header('Accept-Ranges: bytes');\n   $start = $_SERVER['HTTP_RANGE_START'];\n   $end = $_SERVER['HTTP_RANGE_END'];\n   $length = $end - $start + 1;\n   header("HTTP/1.1 206 Partial Content");\n   header("Content-Length: $length");\n   header("Content-Range: bytes $start-$end/$fileSize");\n   echo file_get_contents($filePath, false, null, $start, $length);

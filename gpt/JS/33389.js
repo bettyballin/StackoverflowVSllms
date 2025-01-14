@@ -1,0 +1,1 @@
+$.validator.addMethod("exactText", function(value, element, param) {\n    return this.optional(element) || value.toLowerCase() === param.toLowerCase();\n}, "Please enter the correct text.");

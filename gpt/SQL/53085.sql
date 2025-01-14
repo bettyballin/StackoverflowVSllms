@@ -1,0 +1,1 @@
+SELECT \n    Name,\n    [06/02/09] AS Price_06_02_09,\n    [06/03/09] AS Price_06_03_09,\n    [06/04/09] AS Price_06_04_09\nFROM \n    (SELECT Name, Price, Date FROM your_table) AS SourceTable\nPIVOT\n(\n    MAX(Price)\n    FOR Date IN ([06/02/09], [06/03/09], [06/04/09])\n) AS PivotTable\nORDER BY Name;

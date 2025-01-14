@@ -1,0 +1,1 @@
+<?php\nrequire 'vendor/autoload.php';\n\nuse Whoops\Run;\nuse Whoops\Handler\PrettyPageHandler;\n\n$whoops = new Run;\n$whoops->pushHandler(new PrettyPageHandler);\n$whoops->register();\n\n// Your code here\nthrow new Exception("Something went wrong!");\n?>

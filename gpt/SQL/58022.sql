@@ -1,0 +1,1 @@
+VARIABLE rc REFCURSOR;\n\n-- Call the stored procedure and bind the output cursor to the variable\nEXEC get_employee_data(:rc);\n\n-- Print the result set\nPRINT rc;

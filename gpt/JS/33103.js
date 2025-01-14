@@ -1,0 +1,1 @@
+<script src="prototype.js"></script>\n<script src="jquery.js"></script>\n<script>\n  // Relinquish jQuery's control of the $ variable\n  var jQueryNoConflict = jQuery.noConflict();\n\n  // Now you can use jQueryNoConflict instead of $\n  var div = jQueryNoConflict("#divLeftSideModelsList");\n  alert(div);\n</script>

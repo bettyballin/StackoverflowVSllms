@@ -1,0 +1,1 @@
+<plug-in className="org.apache.struts2.views.velocity.VelocityResult">\n       <property name="toolboxLocation" value="/WEB-INF/velocity-toolbox.xml"/>\n   </plug-in>

@@ -1,0 +1,1 @@
+SELECT vsize('Hello World'), length('Hello World') FROM dual;\n-- Both functions return 11 because each character is 1 byte in ASCII.\n\nSELECT vsize('你好世界'), length('你好世界') FROM dual;\n-- vsize returns 12 because each Chinese character is 3 bytes in UTF-8 (4 characters * 3 bytes = 12 bytes).\n-- length returns 4 because there are 4 characters in the string.

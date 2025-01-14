@@ -1,0 +1,1 @@
+Dim date1 As DateTime = DateTime.Now\nDim date2 As DateTime = DateTime.Now.AddDays(1)\n\n' Compare only the date part\nIf date1.Date = date2.Date Then\n    Console.WriteLine("The dates are the same.")\nElse\n    Console.WriteLine("The dates are different.")\nEnd If

@@ -1,0 +1,1 @@
+<?php\nclass AuthHook {\n    public function check_auth() {\n        $CI =& get_instance();\n        $CI->load->library('auth');\n        $protected_uris = array('dashboard', 'profile'); // Add protected URIs here.\n        \n        if (in_array(uri_string(), $protected_uris) && !$CI->auth->is_logged_in()) {\n            redirect('auth/login');\n        }\n    }\n}\n?>

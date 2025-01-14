@@ -1,0 +1,1 @@
+GRANT SELECT ON other_schema.table_name TO view_user WITH GRANT OPTION;

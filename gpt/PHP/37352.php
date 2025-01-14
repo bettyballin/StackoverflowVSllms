@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $textareaValue = isset($_POST['textarea']) ? $_POST['textarea'] : '';\n    echo 'Received data: ' . htmlspecialchars($textareaValue, ENT_QUOTES, 'UTF-8');\n}\n?>

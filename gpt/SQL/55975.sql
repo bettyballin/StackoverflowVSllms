@@ -1,0 +1,1 @@
+COPY products_273 TO '/tmp/products_199.csv' DELIMITER ',' CSV HEADER;

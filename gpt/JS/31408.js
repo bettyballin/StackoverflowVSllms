@@ -1,0 +1,1 @@
+function makewindows() {\n    var child1 = window.open("about:blank");\n    child1.document.write(articleDesc);\n    child1.document.close();\n}

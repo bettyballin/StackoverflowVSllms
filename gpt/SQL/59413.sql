@@ -1,0 +1,1 @@
+DROP VIEW IF EXISTS vtable;\n\nCREATE VIEW vtable AS\nSELECT * \nFROM Files_Table \nORDER BY File;

@@ -1,0 +1,1 @@
+switch ($_GET['cmd']) { // Use $_GET to retrieve the 'cmd' parameter from the URL\n case 'ZZZ': // Use quotes around the case values\n   include("foo.php");\n   break;\n case 'YYY':\n   include("blah.php");\n   break;\n default:\n   echo "Invalid command.";\n   break;\n}

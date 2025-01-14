@@ -1,0 +1,1 @@
+<?php\n$command = 'ls -la'; // Example command\n$output = shell_exec($command);\necho "<pre>$output</pre>";\n?>

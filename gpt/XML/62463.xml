@@ -1,0 +1,1 @@
+<class name="Node" table="Node">\n    <composite-id>\n        <key-property name="ID"/>\n        <key-property name="VersionID"/>\n    </composite-id>\n    <many-to-one name="Parent" class="Node">\n        <column name="NodeID"/>\n        <column name="VersionID" />\n    </many-to-one>\n</class>

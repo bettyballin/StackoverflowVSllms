@@ -1,0 +1,1 @@
+SELECT IIF(SIGN(0 - 1), 'false', 'true') FROM DUAL;

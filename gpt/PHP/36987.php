@@ -1,0 +1,1 @@
+$obj = new myClass();\n$obj->{$_GET["func"]}($_GET["param"]);

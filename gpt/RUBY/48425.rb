@@ -1,0 +1,1 @@
+sanitized_content = ActionController::Base.helpers.sanitize(@your_model.content.to_s, tags: %w[p strong em a ul ol li], attributes: %w[href])

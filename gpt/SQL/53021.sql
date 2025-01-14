@@ -1,0 +1,1 @@
+SELECT DATALENGTH(your_varbinary_column) AS SizeInBytes\nFROM your_table;

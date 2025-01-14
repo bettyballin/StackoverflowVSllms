@@ -1,0 +1,1 @@
+SELECT 'Is Null'\nWHERE NULL IS NULL;  -- This will return 'Is Null' because it correctly checks for NULL.\n\nSELECT 'Is Not Null'\nWHERE NULL IS NOT NULL;  -- This will not return any rows because NULL is actually NULL.

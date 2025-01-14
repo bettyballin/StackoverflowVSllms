@@ -1,0 +1,1 @@
+$array = array("foo" => "bar", 42 => 24);\n     print_r($array);

@@ -1,0 +1,1 @@
+import pandas as pd\n\n# Assuming you have your data in a pandas DataFrame\ndf = pd.DataFrame({\n    'Column1': [...],\n    'Column2': [...],\n    # Add your columns and data here\n})\n\n# Export to CSV\ndf.to_csv('output.csv', index=False)

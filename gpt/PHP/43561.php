@@ -1,0 +1,1 @@
+$row['news_id'];  // This will give you the news ID\n$row['author_id'];  // This will give you the author (user) ID from the news table\n$row['user_id'];  // This will give you the user ID from the users table

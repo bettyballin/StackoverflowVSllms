@@ -1,0 +1,1 @@
+CREATE TABLE customers (\n         id INT PRIMARY KEY,\n         mailing_address_id INT,\n         billing_address_id INT,\n         -- other fields\n         FOREIGN KEY (mailing_address_id) REFERENCES addresses(id),\n         FOREIGN KEY (billing_address_id) REFERENCES addresses(id)\n     );

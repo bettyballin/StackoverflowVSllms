@@ -1,0 +1,1 @@
+while ($row = mysql_fetch_array($result, MYSQL_BOTH)) {\n    $postContent = $row['value'];\n    echo $postContent;\n}

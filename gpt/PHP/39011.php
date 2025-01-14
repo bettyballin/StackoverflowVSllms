@@ -1,0 +1,1 @@
+if (is_array($matches[1])) {\n        $val = $matches[1][$i];\n    } else {\n        echo "Error: $matches[1] is not an array.";\n    }

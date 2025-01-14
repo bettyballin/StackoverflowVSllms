@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>net.sf.saxon</groupId>\n    <artifactId>Saxon-HE</artifactId>\n    <version>10.6</version>\n</dependency>

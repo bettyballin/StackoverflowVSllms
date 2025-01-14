@@ -1,0 +1,1 @@
+$query = "INSERT INTO your_table (column_name) VALUES ('" . utf8_encode($your_string) . "')";\n$connection->Execute($query);

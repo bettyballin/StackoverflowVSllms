@@ -1,0 +1,1 @@
+<?php\n$serialized_data = 'a:3:{s:4:"name";s:8:"John Doe";s:3:"age";i:30;s:5:"email";s:19:"johndoe@example.com";}';\n$data = unserialize($serialized_data);\nprint_r($data);\n?>

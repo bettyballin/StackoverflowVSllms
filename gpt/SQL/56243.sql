@@ -1,0 +1,1 @@
+CREATE TABLE TIMESTAMPS (\n        id SERIAL PRIMARY KEY,\n        table_name VARCHAR(255) NOT NULL,\n        entry_id INT NOT NULL,\n        timestamp_type INT NOT NULL,\n        timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n    );

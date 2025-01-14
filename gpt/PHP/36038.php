@@ -1,0 +1,1 @@
+<?php\ndefine('CRON_SECRET', 'your-secret-token-here');\n\nif (!isset($_GET['token']) || $_GET['token'] !== CRON_SECRET) {\n    die('Access denied');\n}\n\n// Your cron job code goes here

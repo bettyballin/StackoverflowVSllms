@@ -1,0 +1,1 @@
+cell_value = df.at[row_index, 'col']

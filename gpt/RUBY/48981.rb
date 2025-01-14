@@ -1,0 +1,1 @@
+ruby -ropenssl -e 'puts OpenSSL::OPENSSL_VERSION'

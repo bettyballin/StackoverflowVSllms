@@ -1,0 +1,1 @@
+BULK INSERT sometable\nFROM 'E:\filefromabove.txt'\nWITH\n(\n    FIRSTROW = 2,\n    FIELDTERMINATOR = '|',\n    ROWTERMINATOR = '\r\n'\n)

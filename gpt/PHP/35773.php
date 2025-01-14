@@ -1,0 +1,1 @@
+echo (array(0))[0]; // Outputs 0

@@ -1,0 +1,1 @@
+<subsystem xmlns="urn:jboss:domain:ejb3:5.0">\n    <strict-max-bean-instance-pool name="sfsb-strict-max-pool" max-pool-size="1" timeout="5" timeout-unit="MINUTES"/>\n    <session-bean>\n        <stateful>\n            <bean-instance-pool-ref pool-name="sfsb-strict-max-pool"/>\n        </stateful>\n    </session-bean>\n</subsystem>

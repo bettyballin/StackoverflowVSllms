@@ -1,0 +1,1 @@
+import hashlib\n\ndef sha256_hash(input_string):\n    sha_signature = hashlib.sha256(input_string.encode()).hexdigest()\n    return sha_signature\n\ninput_string = "Hello, World!"\nhash_value = sha256_hash(input_string)\nprint(f"SHA-256 hash of '{input_string}': {hash_value}")

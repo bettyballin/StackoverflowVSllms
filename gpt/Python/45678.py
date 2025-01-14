@@ -1,0 +1,1 @@
+# Example of Tkinter in Python\n   import tkinter as tk\n\n   root = tk.Tk()\n   label = tk.Label(root, text="Hello, World!")\n   label.pack()\n   root.mainloop()

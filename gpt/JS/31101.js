@@ -1,0 +1,1 @@
+const express = require('express');\nconst cors = require('cors');\nconst app = express();\n\napp.use(cors({\n  origin: 'https://trusteddomain.com',\n  methods: 'GET,POST',\n  optionsSuccessStatus: 200\n}));\n\napp.get('/resource', (req, res) => {\n  res.send('This is a resource');\n});\n\napp.listen(3000, () => {\n  console.log('Server running on port 3000');\n});

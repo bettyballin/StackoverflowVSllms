@@ -1,0 +1,1 @@
+$numbers = [1, 2, 3, 4, 5, 6];\n\n$evenNumbers = array_filter($numbers, function($number) {\n    return $number % 2 === 0;\n});\n\nprint_r($evenNumbers);  // Output: Array ( [1] => 2 [3] => 4 [5] => 6 )

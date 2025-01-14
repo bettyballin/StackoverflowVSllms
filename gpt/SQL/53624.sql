@@ -1,0 +1,1 @@
+SELECT * \nFROM OPENQUERY([YourLinkedServerName], 'SELECT @@VERSION')

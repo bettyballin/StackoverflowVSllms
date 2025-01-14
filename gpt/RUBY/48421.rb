@@ -1,0 +1,1 @@
+require 'json'\nrequire 'net/http'\n\ndef send_changes(changes)\n  uri = URI('http://example.com/sync')\n  http = Net::HTTP.new(uri.host, uri.port)\n  request = Net::HTTP::Post.new(uri.path, { 'Content-Type' => 'application/json' })\n  request.body = changes.to_json\n  response = http.request(request)\n  # handle response\nend

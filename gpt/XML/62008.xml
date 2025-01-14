@@ -1,0 +1,1 @@
+<configuration>\n     <system.web>\n       <sessionState cookieName="FooSessionId" cookiePath="/Foo" />\n     </system.web>\n   </configuration>

@@ -1,0 +1,1 @@
+-- Create a table with a BLOB column\nCREATE TABLE example_table (\n    id INTEGER PRIMARY KEY,\n    data_blob BLOB\n);\n\n-- Insert text data into the BLOB column\nINSERT INTO example_table (data_blob) VALUES (CAST('This is a text data' AS BLOB));\n\n-- Retrieve the text data from the BLOB column\nSELECT CAST(data_blob AS TEXT) AS text_data FROM example_table;

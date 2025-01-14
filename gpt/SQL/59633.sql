@@ -1,0 +1,1 @@
+-- To get all flags for a specific user\n   SELECT flags\n   FROM users\n   WHERE user_id = ?;

@@ -1,0 +1,1 @@
+function getPostVariable($key, $default = '') {\n    return isset($_REQUEST[$key]) ? $_REQUEST[$key] : $default;\n}\n\n// Usage\n$my_id = getPostVariable('my_id');\n$another_var = getPostVariable('another_var', 42);

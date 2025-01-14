@@ -1,0 +1,1 @@
+Public MustInherit Class VbView(Of TModel)\n       Inherits VbView\n\n       Public Property Model As TModel\n\n       Public Sub New(model As TModel)\n           Me.Model = model\n       End Sub\n   End Class

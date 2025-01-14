@@ -1,0 +1,1 @@
+# Example of parameterized query\n    cursor.execute("INSERT INTO your_table (column1, column2) VALUES (%s, %s)", (value1, value2))

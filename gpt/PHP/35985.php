@@ -1,0 +1,1 @@
+// index.php (Front Controller)\nrequire 'config.php';\nrequire 'vendor/autoload.php';\n\nuse App\Routing\Router;\nuse App\Controllers\HomeController;\n\n$router = new Router();\n\n$router->get('/', [HomeController::class, 'index']);\n$router->post('/post', [HomeController::class, 'create']);\n\n$router->run();

@@ -1,0 +1,1 @@
+INSERT INTO remember_me_tokens (user_id, token, expires_at) VALUES (?, SHA256(?), ?);

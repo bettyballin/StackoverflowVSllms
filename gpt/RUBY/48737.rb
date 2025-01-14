@@ -1,0 +1,1 @@
+<%= Ajax.ActionLink(\n        Html.Raw("<img src='/path/to/image.png' alt='Vote!' />"), \n        "AddPictureVote", \n        "Vote", \n        new { id = Model.PictureId }, \n        new AjaxOptions { UpdateTargetId = "addvote" }, \n        new { @class = "vote-link", @title = "Vote!" }) %>

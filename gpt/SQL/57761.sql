@@ -1,0 +1,1 @@
+SELECT sequence_name, last_number\nFROM user_sequences\nWHERE sequence_name = 'YOUR_SEQUENCE_NAME';

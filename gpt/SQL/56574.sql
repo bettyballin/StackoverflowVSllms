@@ -1,0 +1,1 @@
+SELECT d.department_id, d.department_name, e.employee_id, e.employee_name\nFROM departments d\nLEFT OUTER JOIN employees e\nON d.department_id = e.department_id;

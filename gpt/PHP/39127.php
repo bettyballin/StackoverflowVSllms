@@ -1,0 +1,1 @@
+$mysqli = new mysqli("localhost", "user", "password", "database");\n\nif ($mysqli->connect_error) {\n    die("Connection failed: " . $mysqli->connect_error);\n}\n\n$mysqli->set_charset("utf8");

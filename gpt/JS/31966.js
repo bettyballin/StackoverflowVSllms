@@ -1,0 +1,1 @@
+const xmlData = '<person><name>John</name><age>30</age><city>New York</city></person>';\nconst parser = new DOMParser();\nconst xmlDoc = parser.parseFromString(xmlData, "application/xml");\nconsole.log(xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue); // Output: Joh

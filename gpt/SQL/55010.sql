@@ -1,0 +1,1 @@
+DECLARE @formId INT\nDECLARE @TenantId INT = -- your tenant id here\n\nDECLARE formCursor CURSOR FOR\nSELECT formId FROM Forms WHERE Tenant = @TenantId\n\nOPEN formCursor\n\nFETCH NEXT FROM formCursor INTO @formId\n\nWHILE @@FETCH_STATUS = 0\nBEGIN\n    EXEC myStoredProc @formId\n    FETCH NEXT FROM formCursor INTO @formId\nEND\n\nCLOSE formCursor\nDEALLOCATE formCursor

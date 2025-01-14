@@ -1,0 +1,1 @@
+# Example of generating scaffolding\nrails generate scaffold Post title:string content:text\n\n# Don't forget to run migrations\nrails db:migrate

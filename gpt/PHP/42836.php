@@ -1,0 +1,1 @@
+$value = "";\n   $quotedValue = $db->quote($value, 'text');\n   $query = "INSERT INTO mytable SET somevarchar = $quotedValue";\n   $result = $db->exec($query);

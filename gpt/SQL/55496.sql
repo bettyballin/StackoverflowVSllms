@@ -1,0 +1,1 @@
+SELECT c.CustomerID\nFROM Customers c\nJOIN Orders o ON c.CustomerID = o.CustomerID\nJOIN Products p ON o.ProductID = p.ProductID\nWHERE YEAR(o.Date) IN (1995, 1996)\nGROUP BY c.CustomerID\nHAVING \n    SUM(CASE WHEN YEAR(o.Date) = 1996 THEN o.Quantity * p.Price ELSE 0 END) >\n    SUM(CASE WHEN YEAR(o.Date) = 1995 THEN o.Quantity * p.Price ELSE 0 END);

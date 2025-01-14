@@ -1,0 +1,1 @@
+CREATE TABLE users (\n    userid INT NOT NULL,\n    username VARCHAR(50)\n);

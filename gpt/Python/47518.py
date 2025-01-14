@@ -1,0 +1,1 @@
+myList = ["apple", "banana", "apple", "cherry", "banana"]\n\n# Remove duplicates by converting the list to a set\nuniqueList = set(myList)\n\n# Convert the set back to a list and sort it alphabetically\nsortedList = sorted(uniqueList)\n\nprint(sortedList)

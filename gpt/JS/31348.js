@@ -1,0 +1,1 @@
+Event.observe(window, "load", function() {\n    var col1Height = $('col1').offsetHeight;\n    var col2Height = $('col2').offsetHeight;\n    \n    var newHeight = (col1Height > col2Height ? col1Height : col2Height) + 130;\n    $('main').setStyle({'height': newHeight + 'px'});\n});

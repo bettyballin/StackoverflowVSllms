@@ -1,0 +1,1 @@
+If InStr("a,b,c", stringA) > 0 OrElse (stringB IsNot Nothing AndAlso InStr("y,z", stringB) > 0 AndAlso value = 0) Then\n    ' Your code here\nEnd If

@@ -1,0 +1,1 @@
+START TRANSACTION;\n\n-- Delete from usersmessages table first to avoid foreign key constraint issues\nDELETE FROM usersmessages WHERE messageid = '1';\n\n-- Then delete from messages table\nDELETE FROM messages WHERE messageid = '1';\n\nCOMMIT;

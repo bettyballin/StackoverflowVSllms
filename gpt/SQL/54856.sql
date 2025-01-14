@@ -1,0 +1,1 @@
+-- Calculate checksum for the live table\nCHECKSUM TABLE livedb.your_table_name;\n\n-- Calculate checksum for the test table\nCHECKSUM TABLE testdb.your_table_name;

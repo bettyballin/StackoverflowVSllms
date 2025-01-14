@@ -1,0 +1,1 @@
+from stegano import lsb\n\n# Path to the original image\ninput_image_path = "input.jpg"\n\n# Message to hide\nsecret_message = "This is a hidden message."\n\n# Path to save the image with the hidden message\noutput_image_path = "output.jpg"\n\n# Hide the message\nsecret_image = lsb.hide(input_image_path, message=secret_message)\nsecret_image.save(output_image_path)

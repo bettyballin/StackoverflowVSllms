@@ -1,0 +1,1 @@
+-- Create an Extended Event session to capture SQL queries\nCREATE EVENT SESSION [QueryTrace] ON SERVER\nADD EVENT sqlserver.sql_statement_completed\n(\n    ACTION(sqlserver.sql_text)\n)\nADD TARGET package0.event_file\n(\n    SET filename = 'C:\temp\QueryTrace.xel'\n);\nGO\n\n-- Start the session\nALTER EVENT SESSION [QueryTrace] ON SERVER STATE = START;\nGO

@@ -1,0 +1,1 @@
+# shared.py\ndef shared_function(arg1, arg2):\n    # Function implementation\n    pass

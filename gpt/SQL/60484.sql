@@ -1,0 +1,1 @@
+INSERT INTO MetricsSummary (SummaryDate, AverageValue, MaxValue, MinValue)\n    SELECT \n        CAST(MetricDate AS DATE) AS SummaryDate,\n        AVG(MetricValue) AS AverageValue,\n        MAX(MetricValue) AS MaxValue,\n        MIN(MetricValue) AS MinValue\n    FROM Metrics\n    GROUP BY CAST(MetricDate AS DATE);

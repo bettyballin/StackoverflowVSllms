@@ -1,0 +1,1 @@
+$string = "Example string<br>&nbsp;";\n\n// Use preg_replace to remove the specific substring from the end of the string\n$result = preg_replace('/<br>&nbsp;$/', '', $string);\n\necho $result;

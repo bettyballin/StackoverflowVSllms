@@ -1,0 +1,1 @@
+SELECT \n    Logs.*, \n    LogsExtended.*\nFROM \n    Logs\nLEFT JOIN \n    LogsExtended \nON \n    Logs.LogID = LogsExtended.LogID\nWHERE \n    Logs.LogDate >= DATEADD(day, -30, GETDATE());

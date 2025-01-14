@@ -1,0 +1,1 @@
+-- Using DISTINCT to get unique values\nSELECT DISTINCT column FROM table;\n\n-- Using GROUP BY to get unique values\nSELECT column FROM table GROUP BY column;

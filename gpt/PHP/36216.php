@@ -1,0 +1,1 @@
+// config/config.php\ndefine('DB_HOST', 'localhost');\ndefine('DB_USER', 'username');\ndefine('DB_PASS', 'password');\ndefine('DB_NAME', 'your_db');

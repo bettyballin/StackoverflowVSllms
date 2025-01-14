@@ -1,0 +1,1 @@
+$subscriptionDate = new DateTime();\n$expirationDate = $subscriptionDate->add(new DateInterval('P7D')); // Adds 7 days\n\n// Assume $db is your database connection\n$query = $db->prepare("INSERT INTO subscribers (subscription_date, expiration_date) VALUES (?, ?)");\n$query->execute([$subscriptionDate->format('Y-m-d'), $expirationDate->format('Y-m-d')]);

@@ -1,0 +1,1 @@
+// Using the ** operator for exponentiation\necho 10 ** (-0.01);\necho "\n";\n\n// Using the pow() function for exponentiation\necho pow(10, -0.01);\necho "\n";

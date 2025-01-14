@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('.headerTable tr:even').addClass('even');\n    $('.headerTable tr:odd').addClass('odd');\n});

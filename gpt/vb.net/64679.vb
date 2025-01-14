@@ -1,0 +1,1 @@
+myObjects.RemoveAll(AddressOf GreaterOrEqualToTen)\n\nPrivate Function GreaterOrEqualToTen(ByVal m As MyObject) As Boolean\n    Return m.X >= 10\nEnd Functio

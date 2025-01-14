@@ -1,0 +1,1 @@
+CREATE TRIGGER before_insert_data\n   BEFORE INSERT ON data\n   FOR EACH ROW\n   SET NEW.dt_hash = SHA2(NEW.dt, 256);\n\n   CREATE TRIGGER before_update_data\n   BEFORE UPDATE ON data\n   FOR EACH ROW\n   SET NEW.dt_hash = SHA2(NEW.dt, 256);

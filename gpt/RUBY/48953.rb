@@ -1,0 +1,1 @@
+class ApplicationController < ActionController::Base\n     before_action :log_referer\n\n     private\n\n     def log_referer\n       referer = request.headers['Referer']\n       Rails.logger.info "Referer: #{referer}"\n     end\n   end

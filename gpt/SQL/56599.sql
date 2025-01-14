@@ -1,0 +1,1 @@
+SELECT \n    c.CustomerID, c.CustomerName, s.SalesAmount, u.UnitName\nFROM \n    Customers c\n    INNER JOIN Sales s WITH (NOLOCK) ON c.CustomerID = s.CustomerID\n    INNER JOIN Units u WITH (NOLOCK) ON s.UnitID = u.UnitID\n    -- additional joins with (NOLOCK) as needed\nWHERE \n    c.CustomerID = @CustomerID

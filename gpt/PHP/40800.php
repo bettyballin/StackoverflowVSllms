@@ -1,0 +1,1 @@
+<?php\nrequire_once('Curl.php');\n\n$curl = new Curl();\n\n// Perform a GET request\n$response = $curl->get('https://api.example.com/data');\necho $response;\n\n// Perform a POST request\n$data = array('key1' => 'value1', 'key2' => 'value2');\n$response = $curl->post('https://api.example.com/submit', $data);\necho $response;\n?>

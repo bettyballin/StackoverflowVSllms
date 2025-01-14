@@ -1,0 +1,1 @@
+function extract_values($location) {\n        $values = [];\n        $values[0] = intval(substr($location, 1, 2)); // AB\n        $values[1] = intval(substr($location, 5, 2)); // DF\n        $values[2] = intval(substr($location, 8, 2)); // CE\n        return $values;\n    }\n\n    $location = "D03:57:16:23";\n    list($ab, $df, $ce) = extract_values($location);

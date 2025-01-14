@@ -1,0 +1,1 @@
+// AnotherTrait.php\n<?php\ntrait AnotherTrait {\n    public function anotherMethod() {\n        // Another method logic here\n    }\n}\n?>

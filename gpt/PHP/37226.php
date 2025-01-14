@@ -1,0 +1,1 @@
+<?php\necho '<script type="text/javascript">\n    window.onload = function() {\n        window.open("http://www.awebsite.com", "_blank");\n        window.location.href = "http://www.yoursite.com/anotherpage.php"; // Redirect current window if needed\n    };\n</script>';\n?>

@@ -1,0 +1,1 @@
+// Example in PHP\n    $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);\n    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {\n        die("Invalid email address");\n    }

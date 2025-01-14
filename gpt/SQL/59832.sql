@@ -1,0 +1,1 @@
+UPDATE tblpictures\nSET IsDefault = FALSE\nWHERE UsrID = 1;\n\nUPDATE tblpictures\nSET IsDefault = TRUE\nWHERE PictureID = <PictureID>;

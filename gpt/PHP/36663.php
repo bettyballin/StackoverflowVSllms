@@ -1,0 +1,1 @@
+<span class="actionlog-362">\n    <?php echo nl2br($actionlog); ?> <!-- Convert newlines to <br> tags for HTML display -->\n</span>

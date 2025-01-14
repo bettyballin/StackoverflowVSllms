@@ -1,0 +1,1 @@
+CREATE TABLE BOOKS (\n    book_id INT PRIMARY KEY,\n    title VARCHAR(255) NOT NULL,\n    author_id INT,\n    FOREIGN KEY (author_id) REFERENCES AUTHORS(author_id)\n);\n\nCREATE TABLE AUTHORS (\n    author_id INT PRIMARY KEY,\n    name VARCHAR(255) NOT NULL\n);

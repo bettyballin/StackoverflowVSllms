@@ -1,0 +1,1 @@
+<?php\n// Assuming $object is your returned object\n$todoItems = $object->{'todo-items'};\n\n// Now you can access properties of the $todoItems object\n$todoItem = $todoItems->{'todo-item'};\necho $todoItem->content;  // Output: content string here\n?>

@@ -1,0 +1,1 @@
+[AccountName] == "" || ISNULL([AccountName]) ? "Unknown" : [AccountName]

@@ -1,0 +1,1 @@
+<table>\n<?php foreach ($rows as $row): ?>\n  <tr>\n    <?php if ($row->foo()): ?>\n      <td><?php echo $row ?></td>\n    <?php else: ?>\n      <td>Something else</td>\n    <?php endif ?>\n  </tr>\n<?php endforeach ?>\n</table>

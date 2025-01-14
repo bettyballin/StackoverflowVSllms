@@ -1,0 +1,1 @@
+Rails.application.routes.draw do\n  get 'bananas' => 'bananas#index'\n  get 'bananas/name/:name' => 'bananas#show_by_name'\n  get 'bananas/number/:number' => 'bananas#show_by_number'\n  get 'bananas/name/:name/peel' => 'bananas#peel'\n  get 'bananas/number/:number/length' => 'bananas#length'\nend

@@ -1,0 +1,1 @@
+UPDATE YourTable\nSET TestTime = '2023-10-15 10:00:00' -- New test time\nWHERE ID = 123; -- Unique identifier of the record to update

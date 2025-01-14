@@ -1,0 +1,1 @@
+<System.Web.Services.WebMethod()> _\n   Public Shared Function HandleDrop(id As String) As String\n       ' Handle the drop event\n       ' For example, you can save the dropped item information to the database\n       Return "Item " & id & " dropped successfully."\n   End Functio

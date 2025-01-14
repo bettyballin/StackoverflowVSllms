@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE SP AS\nBEGIN\n  -- Code for what would be in callSP1\n  ....\n  -- Code for what would be in callSP2\n  ....\n  -- Code for what would be in callSP3\n  ....\nEND;

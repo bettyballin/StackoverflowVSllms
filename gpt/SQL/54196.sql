@@ -1,0 +1,1 @@
+-- SET @saved_cs_client     = @@character_set_client;\n   -- SET character_set_client = utf8;

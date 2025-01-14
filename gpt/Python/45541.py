@@ -1,0 +1,1 @@
+x = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nslice_item = ...\nprint(x[0][slice_item])  # This will print [1, 2, 3]

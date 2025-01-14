@@ -1,0 +1,1 @@
+<?php\n     require 'vendor/autoload.php';\n     \n     use Symfony\Component\VarDumper\VarDumper;\n     \n     VarDumper::dump($variable);

@@ -1,0 +1,1 @@
+define('WP_DEBUG', true);\n   define('WP_DEBUG_LOG', true);\n   define('WP_DEBUG_DISPLAY', false);\n   @ini_set('display_errors', 0);

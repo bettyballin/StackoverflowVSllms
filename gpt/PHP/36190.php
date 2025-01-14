@@ -1,0 +1,1 @@
+// src/Core/Model.php\nnamespace App\Core;\n\nclass Model {\n    protected $db;\n\n    public function __construct() {\n        $this->db = new \PDO('mysql:host=localhost;dbname=test', 'root', '');\n    }\n}

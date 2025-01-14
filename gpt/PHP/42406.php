@@ -1,0 +1,1 @@
+class YourController extends AppController {\n        var $uses = array('YourModel', 'AnotherModel'); // List all models you want to use explicitly\n\n        // Your controller methods\n    }

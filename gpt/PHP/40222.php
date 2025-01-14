@@ -1,0 +1,1 @@
+<?php\n   require_once '/home/site.com/wordpress/wp-includes/query.php';\n   require_once '/home/site.com/smf/Sources/Security.php';\n\n   // Use the namespaced is_admin functions\n   if (\WordPress\is_admin()) {\n       // Code for WordPress admin\n   }\n\n   if (\SMF\is_admin()) {\n       // Code for SMF admin\n   }

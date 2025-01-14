@@ -1,0 +1,1 @@
+SELECT *\n    FROM customer\n    WHERE FREETEXT(fname, 'someName');

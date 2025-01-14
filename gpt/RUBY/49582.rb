@@ -1,0 +1,1 @@
+require 'active_record'\n    require 'yaml'\n    require 'pg'\n\n    db_config = YAML.load_file('database.yml')\n    ActiveRecord::Base.establish_connection(db_config['development'])\n\n    # Example of defining a model\n    class User < ActiveRecord::Base\n    end

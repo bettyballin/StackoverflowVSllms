@@ -1,0 +1,1 @@
+$returnUrl = "https://yourdomain.com/return_from_paypal.php?session_id=" . $session_id;\n   // Use this URL in your PayPal API request

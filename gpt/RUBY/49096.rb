@@ -1,0 +1,1 @@
+# Open Rails console\nrails console\n\n# Set the logger level to debug\nActiveRecord::Base.logger.level = :debug\n\n# Suppress the actual migration execution\nActiveRecord::Migration.suppress_messages do\n  # Replace `YourMigrationClassName` with the actual migration class name\n  YourMigrationClassName.new.change\nend

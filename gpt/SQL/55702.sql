@@ -1,0 +1,1 @@
+CREATE TABLE ClassNumeric (\n    NumericID INT PRIMARY KEY,\n    ClassID INT,\n    MinValue DECIMAL(10, 2) NOT NULL,\n    MaxValue DECIMAL(10, 2) NOT NULL,\n    FOREIGN KEY (ClassID) REFERENCES Class(ClassID)\n);

@@ -1,0 +1,1 @@
+<?php\n   $stock = $_GET['s']; // returns stock ticker symbol eg GOOG or YHOO\n   $first = $stock[0];\n\n   $url = "http://biz.yahoo.com/research/earncal/".$first."/".$stock.".html";\n   $data = file_get_contents($url);\n\n   // Print the data to ensure it is being fetched correctly\n   echo "<pre>";\n   echo htmlentities($data);\n   echo "</pre>";\n   ?>

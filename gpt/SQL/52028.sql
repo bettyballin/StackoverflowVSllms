@@ -1,0 +1,1 @@
+USE [DatabaseName];\n  CREATE USER [UserName] FOR LOGIN [LoginName];

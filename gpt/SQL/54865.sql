@@ -1,0 +1,1 @@
+INSERT INTO tbl_contentAccess (userid, contentid)\nSELECT userid, 11 -- Assuming 11 is the content ID for content B\nFROM tbl_contentAccess\nWHERE contentid = 6; -- Assuming 6 is the content ID for content A

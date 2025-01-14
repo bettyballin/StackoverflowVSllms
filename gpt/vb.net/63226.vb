@@ -1,0 +1,1 @@
+Public Class SharedEventArgs\n    Inherits EventArgs\n    ' Add any custom properties if needed\nEnd Class\n\nPublic Class EventManager\n    Public Shared Event FillList As EventHandler(Of SharedEventArgs)\n\n    Public Shared Sub OnFillList(e As SharedEventArgs)\n        RaiseEvent FillList(Nothing, e)\n    End Sub\nEnd Class

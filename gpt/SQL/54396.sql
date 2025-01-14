@@ -1,0 +1,1 @@
+-- Copy data to table1\nINSERT INTO table1 (column1, column2, column3, ...)\nSELECT column1, column2, column3, ...\nFROM flat_table\nWHERE some_condition1;\n\n-- Copy data to table2\nINSERT INTO table2 (columnA, columnB, columnC, ...)\nSELECT columnA, columnB, columnC, ...\nFROM flat_table\nWHERE some_condition2;

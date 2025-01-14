@@ -1,0 +1,1 @@
+CREATE SEQUENCE mycount_seq START WITH 1 INCREMENT BY 1;\n\nCREATE TABLE MyCount (\n    Line NUMBER\n);\n\nCREATE OR REPLACE TRIGGER mycount_trigger\nBEFORE INSERT ON MyCount\nFOR EACH ROW\nBEGIN\n    SELECT mycount_seq.NEXTVAL INTO :new.Line FROM dual;\nEND;\n/

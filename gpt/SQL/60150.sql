@@ -1,0 +1,1 @@
+SELECT *\n    FROM TableA\n    FULL OUTER JOIN TableB\n    ON TableA.id = TableB.id;

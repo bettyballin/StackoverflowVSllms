@@ -1,0 +1,1 @@
+-- To install the sample schemas, use the scripts provided by Oracle\n   -- Connect to the database as SYSDBA\n   @?/demo/schema/mksample system_password sys_password hr_password oe_password pm_password ix_password sh_password bi_password tablespace_name temp_tablespace_name log_path

@@ -1,0 +1,1 @@
+---\n    title: Baxter the Dog\n    filter: textile\n    ---\n    <html>\n    <head>\n      <title><%= @metadata['title'] %></title>\n    </head>\n    <body>\n      All the best little blogs use Webby.\n    </body>\n    </html>

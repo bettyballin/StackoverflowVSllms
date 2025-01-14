@@ -1,0 +1,1 @@
+# spec/rails_helper.rb or spec/spec_helper.rb\nDir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }

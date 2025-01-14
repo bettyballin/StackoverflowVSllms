@@ -1,0 +1,1 @@
+// Example: adding sleep in a loop\n   for ($i = 0; $i < 1000; $i++) {\n       // Your processing logic here\n       sleep(1); // sleeps for 1 second\n   }

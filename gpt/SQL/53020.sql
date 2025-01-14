@@ -1,0 +1,1 @@
+CREATE TRIGGER before_update_check_lock\nBEFORE UPDATE ON A\nFOR EACH ROW\nEXECUTE FUNCTION check_lock_status();

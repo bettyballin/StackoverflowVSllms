@@ -1,0 +1,1 @@
+CREATE TABLE images (\n    id INT NOT NULL AUTO_INCREMENT,\n    image BLOB,\n    PRIMARY KEY (id)\n);

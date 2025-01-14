@@ -1,0 +1,1 @@
+ORA-01438: value larger than specified precision allowed for this colum

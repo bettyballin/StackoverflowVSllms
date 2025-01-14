@@ -1,0 +1,1 @@
+$array = ['property1' => 'Value 1', 'property2' => 'Value 2'];\n$obj = (object) $array;\n\nprint_r($obj);

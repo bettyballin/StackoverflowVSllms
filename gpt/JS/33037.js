@@ -1,0 +1,1 @@
+<script>\n       // Adding an option\n       $('#mySelect').append(new Option('New Option', '5')).trigger('change');\n\n       // Removing an option\n       $('#mySelect option[value="2"]').remove().trigger('change');\n   </script>

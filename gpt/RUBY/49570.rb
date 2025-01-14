@@ -1,0 +1,1 @@
+class YourController < ApplicationController\n  def your_action\n    respond_to do |format|\n      format.js { render partial: 'your_partial' }\n    end\n  end\nend

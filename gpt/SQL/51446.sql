@@ -1,0 +1,1 @@
+WITH RankedMessages AS (\n    SELECT\n        MessageID,\n        CategoryID,\n        Priority,\n        MessageText,\n        ROW_NUMBER() OVER (PARTITION BY CategoryID ORDER BY Priority DESC) AS rn\n    FROM\n        Messages\n)\nSELECT\n    MessageID,\n    CategoryID,\n    Priority,\n    MessageText\nFROM\n    RankedMessages\nWHERE\n    rn = 1;

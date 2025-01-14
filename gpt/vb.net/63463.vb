@@ -1,0 +1,1 @@
+Function GetNullableInteger() As Integer?\n    ' Your logic here\n    Return Nothing ' This is equivalent to returning null for value types\nEnd Functio

@@ -1,0 +1,1 @@
+VACUUM FULL your_table_name;\n   REINDEX TABLE your_table_name;

@@ -1,0 +1,1 @@
+public function deletepostAction() {\n    $postParams = $this->getRequest()->getPost();\n    $routeParams = $this->getRequest()->getParams();\n\n    // To see both parameters separately\n    print_r($postParams);\n    print_r($routeParams);\n\n    die;\n}

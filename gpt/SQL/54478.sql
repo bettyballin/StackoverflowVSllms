@@ -1,0 +1,1 @@
+BEGIN\n  DBMS_SPM.CREATE_SQL_PLAN_BASELINE(\n    sql_text => 'SELECT * FROM your_table WHERE your_column = :your_parameter'\n  );\nEND;\n/

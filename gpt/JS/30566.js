@@ -1,0 +1,1 @@
+function findLongestElementLength(arr) {\n  return arr.reduce((maxLength, current) => \n    Math.max(maxLength, current.length), 0);\n}\n\n// Example usage:\nconst options = ['short', 'longer', 'longestOption'];\nconst longestLength = findLongestElementLength(options);\nconsole.log(longestLength); // Output: 13

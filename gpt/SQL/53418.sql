@@ -1,0 +1,1 @@
+-- Enable SQL Trace\nALTER SESSION SET sql_trace = TRUE;\n\n-- Perform actions on SharePoint BDC List Webpart\n\n-- Disable SQL Trace\nALTER SESSION SET sql_trace = FALSE;\n\n-- Locate the trace file and use TKPROF\ntkprof ora_<SID>_pid.trc output.txt

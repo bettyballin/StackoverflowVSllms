@@ -1,0 +1,1 @@
+class ChatroomChannel < ApplicationCable::Channel\n  def subscribed\n    stream_from "chatroom_channel"\n  end\n\n  def unsubscribed\n    # Any cleanup needed when channel is unsubscribed\n  end\n\n  def speak(data)\n    ActionCable.server.broadcast "chatroom_channel", message: data['message']\n  end\nend

@@ -1,0 +1,1 @@
+-- For the current session\nSET SESSION sql_mode = 'ONLY_FULL_GROUP_BY';\n\n-- Globally for all sessions\nSET GLOBAL sql_mode = 'ONLY_FULL_GROUP_BY';

@@ -1,0 +1,1 @@
+$date = new DateTime('2009-06-30');\n$date->modify('+3 months +6 days');\necho $date->format('Y-m-d'); // Outputs: 2009-10-06

@@ -1,0 +1,1 @@
+<script>\n     // Example of problematic JavaScript\n     document.getElementById('password').addEventListener('focus', function() {\n       document.getElementById('username').focus();\n     });\n   </script>

@@ -1,0 +1,1 @@
+// include.php\nif (!defined('IN_APP')) {\n    die('Direct access not permitted');\n}\n\n// main.php\ndefine('IN_APP', true);\ninclude('include.php');

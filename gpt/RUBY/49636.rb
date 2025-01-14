@@ -1,0 +1,1 @@
+# Reduce point size and resolution\npostscript(filename, pointsize=10, paper="special", horizontal=FALSE, onefile=FALSE, print.it=FALSE)\nqqnorm(n, main=title)\nqqline(n)\ndev.off()

@@ -1,0 +1,1 @@
+import os\n    import sys\n\n    path = '/path/to/your/project'\n    if path not in sys.path:\n        sys.path.append(path)\n\n    os.environ['DJANGO_SETTINGS_MODULE'] = 'your_project.settings'\n\n    import django.core.wsgi\n    application = django.core.wsgi.get_wsgi_application()

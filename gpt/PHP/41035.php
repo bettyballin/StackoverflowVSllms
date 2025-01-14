@@ -1,0 +1,1 @@
+$pattern = '/(?:Give|GA) (\d+) Cars @(\w+)/i';

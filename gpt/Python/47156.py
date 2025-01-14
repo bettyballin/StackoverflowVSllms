@@ -1,0 +1,1 @@
+from PyQt5 import QtWidgets\n\nclass MyDialog(QtWidgets.QDialog):\n    def show(self):\n        # Your custom code here\n        print("Custom show code")\n\n        # Call the original show method from the base class\n        super(MyDialog, self).show()\n\n# Usage\napp = QtWidgets.QApplication([])\ndialog = MyDialog()\ndialog.show()\napp.exec_()

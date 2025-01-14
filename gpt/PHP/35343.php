@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\n// Set some session variables\n$_SESSION['s_firstvar'] = 'value1';\n$_SESSION['s_var2'] = 'value2';\n$_SESSION['s_third'] = 'value3';\n$_SESSION['s_numberfour'] = 'value4';\n$_SESSION['s_youget'] = 'value5';\n\n// Output session variables\necho "<p><pre>";\nprint_r($_SESSION);\necho "</pre></p>";\n?>

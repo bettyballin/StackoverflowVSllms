@@ -1,0 +1,1 @@
+import gensim.downloader as api\n\n   model = api.load("glove-wiki-gigaword-50")\n   def phrase_to_vector(phrase):\n       return sum(model[word] for word in phrase.split() if word in model) / len(phrase.split())\n\n   vector1 = phrase_to_vector("your first phrase")\n   vector2 = phrase_to_vector("your second phrase")\n\n   cosine_sim = cosine_similarity([vector1], [vector2])

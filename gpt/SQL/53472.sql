@@ -1,0 +1,1 @@
+SELECT e.event_name, s.start_time, s.end_time, r.recurrence_type, r.day_of_week, r.day_of_month, r.nth_occurrence\nFROM Event e\nJOIN Schedule s ON e.event_id = s.event_id\nJOIN RecurrencePattern r ON s.schedule_id = r.schedule_id\nWHERE r.recurrence_type = 'Weekly' AND r.day_of_week = DAYNAME(CURDATE() + INTERVAL 7 DAY);

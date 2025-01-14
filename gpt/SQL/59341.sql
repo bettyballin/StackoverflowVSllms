@@ -1,0 +1,1 @@
+BEGIN\n      DBMS_FGA.add_policy(\n         object_schema   => 'HR',\n         object_name     => 'EMPLOYEES',\n         policy_name     => 'salary_audit',\n         audit_condition => 'SALARY > 10000',\n         audit_column    => 'SALARY'\n      );\n   END;

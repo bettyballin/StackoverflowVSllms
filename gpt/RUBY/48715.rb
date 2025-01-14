@@ -1,0 +1,1 @@
+# Avoid implicit return in complex methods\ndef calculate_sum(a, b)\n  result = a + b\n  result # implicit return\nend\n\n# Better to be explicit\ndef calculate_sum(a, b)\n  result = a + b\n  return result\nend

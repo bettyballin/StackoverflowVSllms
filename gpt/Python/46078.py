@@ -1,0 +1,1 @@
+import your_module\n\nmodule_path = your_module.__file__\nprint(module_path)

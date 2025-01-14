@@ -1,0 +1,1 @@
+// Enable WP_DEBUG mode\ndefine('WP_DEBUG', true);\n\n// Enable Debug logging to the /wp-content/debug.log file\ndefine('WP_DEBUG_LOG', true);\n\n// Disable display of errors and warnings\ndefine('WP_DEBUG_DISPLAY', false);\n@ini_set('display_errors', 0);\n\n// Use dev versions of core JS and CSS files (only needed if you are modifying these files)\ndefine('SCRIPT_DEBUG', true);

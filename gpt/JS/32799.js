@@ -1,0 +1,1 @@
+const minify = require('html-minifier').minify;\n\n   const originalHTML = `...`; // Your HTML content\n   const minifiedHTML = minify(originalHTML, {\n       removeAttributeQuotes: true,\n       collapseWhitespace: true,\n       removeComments: true,\n       minifyCSS: true,\n       minifyJS: true\n   });\n\n   console.log(minifiedHTML);

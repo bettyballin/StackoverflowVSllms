@@ -1,0 +1,1 @@
+# Using append()\nmy_list = [1, 2, 3]\nmy_list.append([4, 5])\nprint(my_list)\n# Output: [1, 2, 3, [4, 5]]\n\n# Using extend()\nmy_list = [1, 2, 3]\nmy_list.extend([4, 5])\nprint(my_list)\n# Output: [1, 2, 3, 4, 5]

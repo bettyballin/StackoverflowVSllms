@@ -1,0 +1,1 @@
+class Ability\n  include CanCan::Ability\n\n  def initialize(user)\n    user ||= User.new # guest user (not logged in)\n\n    if user.admin?\n      can :manage, :all\n    else\n      can :read, :all\n    end\n  end\nend

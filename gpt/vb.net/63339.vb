@@ -1,0 +1,1 @@
+Public Function PopupMessage(ByVal rawr As Integer) As Integer\n    MsgBox "HERE BE " & rawr & " DRAGON(S)."\n    PopupMessage = 4\nEnd Functio

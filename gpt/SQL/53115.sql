@@ -1,0 +1,1 @@
+SELECT (DATE_TRUNC('month', '2009-05-15'::date) + INTERVAL '1 month' - INTERVAL '1 day')::date AS LastDayOfMonth;

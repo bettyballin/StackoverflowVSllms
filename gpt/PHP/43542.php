@@ -1,0 +1,1 @@
+use yii\helpers\Html;\n   use yii\widgets\ActiveForm;\n\n   $form = ActiveForm::begin();\n   echo $form->field($model, 'name')->textInput();\n   echo Html::submitButton('Submit', ['class' => 'btn btn-primary']);\n   ActiveForm::end();

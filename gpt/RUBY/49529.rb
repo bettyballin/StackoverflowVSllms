@@ -1,0 +1,1 @@
+class Region\n  @@default_region = nil\n\n  def self.default_region\n    @@default_region ||= find_by_uri("whistler")\n  end\nend

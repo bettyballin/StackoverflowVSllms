@@ -1,0 +1,1 @@
+DECLARE @String VARCHAR(MAX)\nSET @String = 'First Line' + CHAR(13) + CHAR(10) + 'Second Line'\nPRINT @String

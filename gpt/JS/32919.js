@@ -1,0 +1,1 @@
+<!-- Page A: Include JavaScript to scroll to the order -->\n   <script type="text/javascript">\n       function scrollToOrder(orderId) {\n           var element = document.getElementById(orderId);\n           if (element) {\n               element.scrollIntoView();\n           }\n       }\n   </script>

@@ -1,0 +1,1 @@
+<?php\n    // In your view script (e.g., index.phtml)\n    echo '<img src="' . $this->imageHelper(200, 200) . '" alt="Generated Image">';

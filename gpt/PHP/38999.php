@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] == 'POST') {\n    $data = isset($_POST['data']) ? $_POST['data'] : '';\n\n    // Process the data as needed\n    // For example, assign it to a variable\n    $processedData = "Processed: " . htmlspecialchars($data);\n\n    // Optionally send a response back to JavaScript\n    echo $processedData;\n}\n?>

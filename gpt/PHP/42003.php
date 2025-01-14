@@ -1,0 +1,1 @@
+$paypal = ($row['PAYPAL_ACCEPT'] == "1") ? "Yes" : "No";

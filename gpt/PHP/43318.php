@@ -1,0 +1,1 @@
+<?php\ninclude('includes.php'); // Assuming $rows is defined in includes.php\ntable($rows);\n?>

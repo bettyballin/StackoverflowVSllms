@@ -1,0 +1,1 @@
+$arr = array(\n    '#weight' => 0,\n    '#value' => 'Some value.'\n);\n\necho $arr['#value']; // Outputs: Some value.

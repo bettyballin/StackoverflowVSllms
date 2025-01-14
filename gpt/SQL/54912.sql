@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetRecordsByMonthAndYear (\n    @Year INT,\n    @Month INT\n)\nAS\nBEGIN\n    SELECT *\n    FROM YourTableName\n    WHERE YEAR(YourDateColumn) = @Year\n    AND MONTH(YourDateColumn) = @Month;\nEND;

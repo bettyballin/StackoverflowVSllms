@@ -1,0 +1,1 @@
+<connectionStrings>\n       <add name="OracleDbContext" \n            connectionString="your_connection_string_here" \n            providerName="Devart.Data.Oracle" />\n   </connectionStrings>

@@ -1,0 +1,1 @@
+Function RoundUp(value As Decimal) As Integer\n    Return Convert.ToInt32(Math.Ceiling(value))\nEnd Function\n\n' Usage\nDim number As Decimal = 3.7D\nDim roundedNumber As Integer = RoundUp(number)\nConsole.WriteLine(roundedNumber) ' Output: 4

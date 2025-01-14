@@ -1,0 +1,1 @@
+<?php\n\n$tempTotal = 0;\n\n$pBalance1 = 5;\n$pBalance2 = 5;\n$pBalance3 = 5;\n\nfor ($i = 1; $i <= 3; $i++) {\n    $variableName = 'pBalance' . $i;\n    $tempTotal += $$variableName;\n}\n\necho $tempTotal;\n\n?>

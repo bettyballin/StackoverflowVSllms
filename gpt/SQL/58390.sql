@@ -1,0 +1,1 @@
+WITH CTE AS (\n    SELECT \n        ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS RowNum,\n        *\n    FROM YourTableName\n)\nUPDATE t\nSET t.ID = c.RowNum\nFROM YourTableName t\nJOIN CTE c ON t.YourPrimaryKey = c.YourPrimaryKey;

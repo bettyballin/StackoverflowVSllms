@@ -1,0 +1,1 @@
+CREATE INDEX idx_pageviews_sessionid_created ON pageviews (sessionid, created);\nCREATE INDEX idx_pageviews_domain ON pageviews (domain);\nCREATE INDEX idx_sessions_visitorid ON Sessions (VisitorID);\nCREATE INDEX idx_visitors_campaign ON Visitors (Campaign);

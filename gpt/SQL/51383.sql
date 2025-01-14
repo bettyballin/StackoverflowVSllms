@@ -1,0 +1,1 @@
+-- Example SQL to compare customer data between Oracle and PeopleSoft\n   SELECT oracle_data.customer_id, oracle_data.name, peoplesoft_data.name\n   FROM oracle_data\n   LEFT JOIN peoplesoft_data ON oracle_data.customer_id = peoplesoft_data.customer_id\n   WHERE oracle_data.name != peoplesoft_data.name;

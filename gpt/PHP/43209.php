@@ -1,0 +1,1 @@
+// Check the current session lifetime\necho ini_get('session.gc_maxlifetime');\n\n// Set the session lifetime to 3600 seconds (1 hour)\nini_set('session.gc_maxlifetime', 3600);

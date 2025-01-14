@@ -1,0 +1,1 @@
+Given('I am on the homepage') do\n  visit root_path\nend\n\nWhen('I click {string}') do |link|\n  click_link link\nend\n\nThen('I should see {string}') do |message|\n  expect(page).to have_content(message)\nend

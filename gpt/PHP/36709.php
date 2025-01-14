@@ -1,0 +1,1 @@
+$dsn = 'mysql:host=your_host;dbname=your_database;charset=latin5';\n    $options = [\n        PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES latin5',\n    ];\n\n    $pdo = new PDO($dsn, 'your_username', 'your_password', $options);

@@ -1,0 +1,1 @@
+' MainFile.vb\nOption Strict On\n\nModule MainModule\n    Sub Main()\n        Dim obj As Object = "123"\n        Dim result As Integer = Helper.CheatFunction(obj)\n        Console.WriteLine(result)\n    End Sub\nEnd Module

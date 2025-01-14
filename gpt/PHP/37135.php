@@ -1,0 +1,1 @@
+$connection = oci_connect($username, $password, $database);\nif (!$connection) {\n    $error = oci_error();\n    $result = "Trouble connecting to the Oracle Database. Error: " . $error['message'];\n    return $result;\n}

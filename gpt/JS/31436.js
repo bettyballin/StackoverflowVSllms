@@ -1,0 +1,1 @@
+function pop_item(code, num) {\n    alert("Code: " + code + ", Num: " + num);\n}

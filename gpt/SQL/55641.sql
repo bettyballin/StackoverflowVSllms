@@ -1,0 +1,1 @@
+-- Create a sequence\nCREATE SEQUENCE my_sequence\nSTART WITH 1\nINCREMENT BY 1\nCACHE 20;\n\n-- Use the sequence in an insert statement\nINSERT INTO my_table (id, data)\nVALUES (my_sequence.NEXTVAL, 'Sample Data');\n\n-- Select the next value of the sequence\nSELECT my_sequence.NEXTVAL FROM dual;

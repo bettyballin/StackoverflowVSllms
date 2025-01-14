@@ -1,0 +1,1 @@
+add_filter('get_the_date', 'convert_to_eastern_arabic_numerals');

@@ -1,0 +1,1 @@
+Public Class ExampleClass\n    Private _foo As Integer\n\n    Public Property Foo() As Integer\n        Get\n            Return _foo\n        End Get\n        Set(ByVal value As Integer)\n            _foo = value\n        End Set\n    End Property\n\n    Public Sub New(foo As Integer)\n        _foo = foo\n    End Sub\nEnd Class

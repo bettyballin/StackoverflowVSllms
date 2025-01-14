@@ -1,0 +1,1 @@
+-- Assuming you have two tables: SourceTable and TargetTable\n-- and both tables have identical structure.\n\nINSERT INTO TargetTable (Column1, Column2, Column3, ...)\nSELECT Column1, Column2, Column3, ...\nFROM SourceTable\nWHERE <condition>; -- Specify your condition to filter the rows you want to copy

@@ -1,0 +1,1 @@
+BEGIN TRY\n    BEGIN TRANSACTION;\n\n    -- Your SQL queries go here\n    SELECT * FROM YourTable;\n\n    COMMIT TRANSACTION;\nEND TRY\nBEGIN CATCH\n    ROLLBACK TRANSACTION;\n\n    -- Handle the error or do nothing to suppress the message\nEND CATCH;

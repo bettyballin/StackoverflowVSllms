@@ -1,0 +1,1 @@
+CREATE INDEX IX_masterTable_NormalizedTextField ON masterTable (NormalizedTextField);\nCREATE INDEX IX_incomingDataTable_NormalizedTextField ON incomingDataTable (NormalizedTextField);

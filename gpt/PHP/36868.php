@@ -1,0 +1,1 @@
+function storeAlias($alias, $realEmail) {\n    // Assuming you have a PDO connection $pdo\n    $stmt = $pdo->prepare("INSERT INTO email_aliases (alias, real_email) VALUES (:alias, :real_email)");\n    $stmt->execute(['alias' => $alias, 'real_email' => $realEmail]);\n}

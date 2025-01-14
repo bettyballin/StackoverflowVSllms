@@ -1,0 +1,1 @@
+function generateRandomString($sourceString, $length) {

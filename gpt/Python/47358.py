@@ -1,0 +1,1 @@
+import old_module as new_module

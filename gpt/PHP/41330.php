@@ -1,0 +1,1 @@
+<?php\n$xmlString = '\n<profile>\n   <name>john</name>\n   <lang>english</lang>\n   <lang>dutch</lang>\n</profile>';\n\n$xml = simplexml_load_string($xmlString);\n\n$name = (string) $xml->name;\n$languages = [];\nforeach ($xml->lang as $lang) {\n    $languages[] = (string) $lang;\n}\n\necho "Name: " . $name . "\n";\necho "Languages: " . implode(', ', $languages) . "\n";\n?>

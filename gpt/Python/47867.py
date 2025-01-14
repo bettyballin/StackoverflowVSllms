@@ -1,0 +1,1 @@
+import uuid\n\ndef generate_message_id(domain):\n    return f"<{uuid.uuid4()}@{domain}>"\n\n# Example usage\ndomain = "example.com"\nmessage_id = generate_message_id(domain)\nprint(message_id)  # Output: <some-unique-uuid@example.com>

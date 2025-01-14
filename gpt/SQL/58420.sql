@@ -1,0 +1,1 @@
+UPDATE YourTable\n   SET IsComplete = dbo.YourFunction(YourColumn);

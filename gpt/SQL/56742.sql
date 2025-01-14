@@ -1,0 +1,1 @@
+-- Set the database to single-user mode\nALTER DATABASE [YourDatabaseName] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;\n\n-- Restore the backup\nRESTORE DATABASE [YourDatabaseName] FROM DISK = 'C:\Path\To\Your\BackupFile.bak';\n\n-- Set the database back to multi-user mode\nALTER DATABASE [YourDatabaseName] SET MULTI_USER;

@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER["REQUEST_METHOD"] == "POST") {\n    $_POST['txt'] = htmlspecialchars($_POST['txt']);\n}\n?>\n<form method="post">\n    <input name="txt" value="<?= htmlspecialchars($_POST['txt']) ?>" />\n    <input type="submit" name="save" value="test" />\n</form>

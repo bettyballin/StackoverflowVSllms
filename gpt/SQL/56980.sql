@@ -1,0 +1,1 @@
+LOAD DATA\nINFILE 'data.csv'\nINTO TABLE your_table\nFIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'\n(\n  column1,\n  column2,\n  column3,\n  ...\n)

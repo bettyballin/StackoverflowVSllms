@@ -1,0 +1,1 @@
+<TextView\n    android:layout_width="match_parent"\n    android:layout_height="wrap_content"\n    android:text="Your text goes here"\n    android:justificationMode="inter_word"\n    android:hyphenationFrequency="full"\n/>

@@ -1,0 +1,1 @@
+CREATE INDEX idx_users_is_deleted ON users(is_deleted);

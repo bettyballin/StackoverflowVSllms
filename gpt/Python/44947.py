@@ -1,0 +1,1 @@
+from functools import reduce\n\nmy_list = [True, True, False]\nresult = reduce(lambda x, y: x or y, my_list)\nprint(result)  # Output will be True

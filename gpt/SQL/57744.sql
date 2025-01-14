@@ -1,0 +1,1 @@
+CREATE TABLE `session` (\n    `session_id` VARCHAR(32) NOT NULL,\n    `session_data` BLOB NOT NULL,\n    `t_updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\n    PRIMARY KEY (`session_id`),\n    INDEX (`t_updated`)\n) ENGINE=MEMORY DEFAULT CHARSET=utf8;

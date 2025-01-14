@@ -1,0 +1,1 @@
+WITH MyCTE AS (\n    SELECT Column1, Column2\n    FROM MyTable\n    WHERE SomeCondition = 'Value'\n)\nSELECT *\nFROM MyCTE\nWHERE AnotherCondition = 'AnotherValue';

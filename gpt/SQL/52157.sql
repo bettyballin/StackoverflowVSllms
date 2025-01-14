@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.BusinessDaysBetween\n(\n    @StartDate DATETIME,\n    @EndDate DATETIME\n)\nRETURNS TABLE\nAS\nRETURN\n(\n    SELECT COUNT(*) AS BusinessDays\n    FROM Calendar\n    WHERE Date BETWEEN @StartDate AND @EndDate\n      AND IsWeekday = 1\n      AND IsHoliday = 0\n);

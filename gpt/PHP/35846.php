@@ -1,0 +1,1 @@
+header("Location: https://newsite.com?from=legacy");\n   exit();

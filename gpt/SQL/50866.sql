@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetRowsByIds\n        @IDs dbo.IDsTableType READONLY\n    AS\n    BEGIN\n        SELECT * FROM some_table WHERE ID IN (SELECT ID FROM @IDs);\n    END

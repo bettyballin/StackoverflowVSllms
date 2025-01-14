@@ -1,0 +1,1 @@
+echo $this->Html->link(\n    "Dashboard", \n    "/dashboard/index", \n    array(\n        "onmouseover" => "Tip('Test');", \n        "escape" => false\n    )\n);

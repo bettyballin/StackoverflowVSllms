@@ -1,0 +1,1 @@
+function expandTinyURL($tinyurl) {\n    $headers = get_headers($tinyurl, 1);\n    if (isset($headers['Location'])) {\n        return is_array($headers['Location']) ? end($headers['Location']) : $headers['Location'];\n    }\n    return false;\n}\n\n$tinyurl = "http://tinyurl.com/example";\n$expandedURL = expandTinyURL($tinyurl);\necho "Expanded URL: " . $expandedURL;

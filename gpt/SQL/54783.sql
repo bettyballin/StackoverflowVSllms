@@ -1,0 +1,1 @@
+CREATE TABLE events (\n    event_id NUMBER PRIMARY KEY,\n    event_date DATE,\n    event_milliseconds NUMBER(3)\n);

@@ -1,0 +1,1 @@
+SELECT \n    OriginalString,\n    TRY_CONVERT(datetime, '01-' + OriginalString, 105) AS ConvertedDate\nFROM \n    YourTableName;

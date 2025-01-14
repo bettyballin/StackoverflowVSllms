@@ -1,0 +1,1 @@
+Dim square = Function(x As Integer) x * x\nConsole.WriteLine(square(5)) ' Output: 25

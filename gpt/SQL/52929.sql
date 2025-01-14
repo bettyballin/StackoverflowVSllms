@@ -1,0 +1,1 @@
+EXEC sp_addlinkedsrvlogin \n   @rmtsrvname = 'RemoteServerName', \n   @useself = 'false', \n   @locallogin = NULL, \n   @rmtuser = 'RemoteUsername', \n   @rmtpassword = 'RemotePassword';

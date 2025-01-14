@@ -1,0 +1,1 @@
+<?php\n   try {\n       // Scraper code\n   } catch (Exception $e) {\n       error_log($e->getMessage());\n   }\n   ?>

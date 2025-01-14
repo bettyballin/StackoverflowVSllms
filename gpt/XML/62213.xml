@@ -1,0 +1,1 @@
+<mytags:foo abc="${def}">\n  <mytags:bar ghi="${jkl}"/>\n</mytags:foo>

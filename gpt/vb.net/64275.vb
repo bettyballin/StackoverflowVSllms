@@ -1,0 +1,1 @@
+Public Class ClientData\n    Public Property Title As String\n    Public Property Address1 As String\n    Public Property Address2 As String\n    ' Add more properties as needed\nEnd Class

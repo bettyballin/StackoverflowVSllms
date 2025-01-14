@@ -1,0 +1,1 @@
+var inputElement = document.querySelector('input'); // replace with the actual selector for your input element\nvar formElement = inputElement.closest('form');

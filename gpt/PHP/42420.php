@@ -1,0 +1,1 @@
+// LocalSettings.php\nwfLoadExtension( 'PluggableAuth' );\nwfLoadExtension( 'SimpleSAMLphp' );\n\n$wgSimpleSAMLphp_InstallDir = '/path/to/simplesamlphp/';\n$wgSimpleSAMLphp_AuthSourceId = 'example-userpass';\n$wgPluggableAuth_EnableAutoLogin = true;\n$wgSimpleSAMLphp_UseSAML2 = true;

@@ -1,0 +1,1 @@
+-- Example of special marker row\nINSERT INTO myTable (ID) VALUES ('ALL');\n\n-- Adjust your business logic to handle this special marker\nSELECT * FROM myTable\nWHERE myTable.ID = 'ALL' OR myRelatedTable.myTableID = myTable.ID;

@@ -1,0 +1,1 @@
+from difflib import SequenceMatcher\n\n   text1 = "Name 3 , Comment"\n   text2 = "Name 3, Comment"\n\n   matcher = SequenceMatcher(None, text1, text2)\n   for tag, i1, i2, j1, j2 in matcher.get_opcodes():\n       print(f"{tag}: text1[{i1}:{i2}] -> text2[{j1}:{j2}]")

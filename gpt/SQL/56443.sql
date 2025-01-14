@@ -1,0 +1,1 @@
+RECEIVE TOP (1)\n conversation_handle as ConversationHandle,\n message_body,\n convert(xml, message_body) as MessageBodyXml\nFROM [dbo].[MY_QUEUE_SubmitQueue];

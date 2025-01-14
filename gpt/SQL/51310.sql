@@ -1,0 +1,1 @@
+CREATE EXTENSION postgres_fdw;\n   CREATE SERVER foreign_db_server FOREIGN DATA WRAPPER postgres_fdw OPTIONS (host 'remote_host', dbname 'foreign_db');\n   CREATE USER MAPPING FOR local_user SERVER foreign_db_server OPTIONS (user 'remote_user', password 'remote_password');\n   IMPORT FOREIGN SCHEMA public FROM SERVER foreign_db_server INTO local_schema;

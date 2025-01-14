@@ -1,0 +1,1 @@
+$myNode->insertAfter(null);

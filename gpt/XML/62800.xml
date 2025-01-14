@@ -1,0 +1,1 @@
+<system.identityModel>\n  <identityConfiguration>\n    <securityTokenHandlers>\n      <add type="System.IdentityModel.Services.Tokens.UserNamePasswordValidator, System.IdentityModel.Services">\n        <validator type="YourNamespace.CustomUserNameValidator, YourAssemblyName"/>\n      </add>\n    </securityTokenHandlers>\n  </identityConfiguration>\n</system.identityModel>

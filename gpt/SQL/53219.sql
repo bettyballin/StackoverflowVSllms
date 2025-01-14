@@ -1,0 +1,1 @@
+CREATE TABLE timesheet (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    jobid INT,\n    datebeginning DATE,\n    dateending DATE,\n    UNIQUE KEY unique_jobid (jobid, dateending)\n);

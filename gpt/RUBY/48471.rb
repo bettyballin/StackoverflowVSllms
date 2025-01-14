@@ -1,0 +1,1 @@
+# config/routes.rb\nRails.application.routes.draw do\n  get 'files/progress_monitor', to: 'files#progress_monitor'\n  # Other routes...\nend

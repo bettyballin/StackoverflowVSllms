@@ -1,0 +1,1 @@
+$smarty = new Smarty();\n   $smarty->setCaching(Smarty::CACHING_LIFETIME_CURRENT);\n   $smarty->setCacheLifetime(120); // Cache for 2 minutes

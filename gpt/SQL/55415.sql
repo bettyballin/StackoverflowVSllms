@@ -1,0 +1,1 @@
+WITH ValidProducts AS (\n    SELECT *\n    FROM WebbikesProducts\n    WHERE \n        ISNUMERIC(SUBSTRING(UniqueID, LEN(UniqueID) - 2, 3)) = 1\n        AND LEN(UniqueID) >= 3\n)\nUPDATE ValidProducts\nSET Price = Price * 1.05\nWHERE \n    CONVERT(Integer, SUBSTRING(UniqueID, LEN(UniqueID) - 2, 3)) = 125;

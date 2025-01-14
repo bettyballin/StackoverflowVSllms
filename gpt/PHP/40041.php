@@ -1,0 +1,1 @@
+function removeSignature($emailContent) {\n    $lastOccurrence = strrpos($emailContent, '--');\n    if ($lastOccurrence !== false) {\n        return substr($emailContent, 0, $lastOccurrence);\n    }\n    return $emailContent;\n}\n\n$email = "hello, this is some email copy-- check this out\n --\n Tom Foolery";\n$result = removeSignature($email);\necho $result;

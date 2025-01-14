@@ -1,0 +1,1 @@
+Dim sqry As String = "SELECT emp_no, (emp_fname + ' ' + emp_lname) AS emp_fullname FROM your_table_name"\nsqcom = New SqlCommand(sqry, sqcon)\nda.SelectCommand = sqcom\n\nds.Clear()\nda.Fill(ds)\nddl_adv.DataSource = ds\nddl_adv.DataTextField = "emp_fullname"\nddl_adv.DataValueField = "emp_no"\n\nddl_adv.DataBind()\nsqcon.Close()

@@ -1,0 +1,1 @@
+CREATE TABLE Customers (\n    id INTEGER PRIMARY KEY,\n    name TEXT NOT NULL,\n    email TEXT NOT NULL,\n    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP\n);\n\nCREATE TABLE SyncLog (\n    id INTEGER PRIMARY KEY,\n    table_name TEXT NOT NULL,\n    row_id INTEGER NOT NULL,\n    operation TEXT NOT NULL,\n    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP\n);

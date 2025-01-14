@@ -1,0 +1,1 @@
+# Calculate average volume\nsystem('ffmpeg -i input.mp3 -af ebur128=peak=true -f null -')\n\n# Normalize volume\nsystem('ffmpeg -i input.mp3 -af loudnorm=I=-23:TP=-1.5:LRA=11 output.mp3')

@@ -1,0 +1,1 @@
+<configuration>\n  <uri>\n    <idn enabled="All" />\n    <iriParsing enabled="true" />\n  </uri>\n</configuration>

@@ -1,0 +1,1 @@
+CREATE INDEX idx_category_id ON content_link (category_id);

@@ -1,0 +1,1 @@
+<filter>\n    <filter-name>openSessionInViewFilter</filter-name>\n    <filter-class>org.springframework.orm.hibernate3.support.OpenSessionInViewFilter</filter-class>\n</filter>\n<filter-mapping>\n    <filter-name>openSessionInViewFilter</filter-name>\n    <url-pattern>/*</url-pattern>\n</filter-mapping>

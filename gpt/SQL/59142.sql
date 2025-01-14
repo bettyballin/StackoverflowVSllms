@@ -1,0 +1,1 @@
+SELECT \n    LEFT(COURSENAME, LEN(COURSENAME) - 3) AS TrimmedCourseName\nFROM \n    YourTableName

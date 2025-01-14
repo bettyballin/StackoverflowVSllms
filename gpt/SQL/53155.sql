@@ -1,0 +1,1 @@
+CREATE PROCEDURE SearchProcedure\n    @FilterOption INT -- 1: IS NULL, 2: IS NOT NULL, 3: ANY VALUE\nAS\nBEGIN\n    SELECT * \n    FROM YourTable\n    WHERE \n        (@FilterOption = 1 AND MyColumn IS NULL) OR\n        (@FilterOption = 2 AND MyColumn IS NOT NULL) OR\n        (@FilterOption = 3)\nEND

@@ -1,0 +1,1 @@
+sentence = "these are words"\nwords_list = sentence.split()\nprint(words_list)

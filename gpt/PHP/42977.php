@@ -1,0 +1,1 @@
+$var1 = 123; // integer\n$var2 = '123'; // string\n\n// Checking integer type\nif (is_int($var1)) {\n    echo "var1 is an integer.\n";\n}\n\n// Checking if string contains only digits\nif (ctype_digit($var2)) {\n    echo "var2 is a string of digits.\n";\n}

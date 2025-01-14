@@ -1,0 +1,1 @@
+<Textbox Name="Textbox1">\n  <CanGrow>false</CanGrow>\n  <Height>0.5in</Height>\n  <Width>1in</Width>\n  <Value>=IIf(IsNothing(Fields!YourField.Value), "N/A", Fields!YourField.Value)</Value>\n</Textbox>

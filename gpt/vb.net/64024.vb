@@ -1,0 +1,1 @@
+Using f As System.IO.FileStream = System.IO.File.OpenRead("somefile.txt")\n    Using s As System.IO.StreamReader = New System.IO.StreamReader(f)\n        While Not s.EndOfStream\n            Dim line As String = s.ReadLine()\n\n            ' put your line processing code here\n\n        End While\n    End Using\nEnd Using

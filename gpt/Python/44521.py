@@ -1,0 +1,1 @@
+import pyodbc\n\nconn = pyodbc.connect('DRIVER={SQL Server};SERVER=servername;DATABASE=dbname;UID=user;PWD=password')\ncursor = conn.cursor()\n\ncursor.execute("SELECT Data FROM [dbo].[tblData]")\nrows = cursor.fetchall()\n\nwith open('output.txt', 'w', encoding='utf-16') as f:\n    for row in rows:\n        f.write(row.Data + '\n')

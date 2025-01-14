@@ -1,0 +1,1 @@
+$ psysh\nPsy Shell v0.10.9 (PHP 7.4.3 — cli) by Justin Hileman\n>>> require '/path/to/your/wordpress/wp-load.php';\n>>> $result = my_custom_function();\n>>> var_dump($result);

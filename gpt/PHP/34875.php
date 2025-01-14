@@ -1,0 +1,1 @@
+<?php\n\nabstract class baseClass {\n    static function whoAmI() {\n        echo get_called_class();\n    }\n}

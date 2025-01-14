@@ -1,0 +1,1 @@
+SELECT COUNT(*)\nFROM super_eds\nWHERE array_length(datasets, 1) IS NULL;

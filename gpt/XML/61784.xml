@@ -1,0 +1,1 @@
+<dependency>\n       <groupId>org.jsoup</groupId>\n       <artifactId>jsoup</artifactId>\n       <version>1.13.1</version>\n   </dependency>

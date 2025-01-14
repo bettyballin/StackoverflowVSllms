@@ -1,0 +1,1 @@
+<%\nResponse.Write("Hello, World!")\n%>

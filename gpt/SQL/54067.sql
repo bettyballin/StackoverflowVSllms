@@ -1,0 +1,1 @@
+SELECT\n    records.id,\n    contacts.name + \n    COALESCE(' (' + NULLIF(contacts.organization, '') + ')', '') AS contact\nFROM records\nLEFT JOIN contacts ON records.contact = contacts.contactid

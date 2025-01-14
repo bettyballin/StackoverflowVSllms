@@ -1,0 +1,1 @@
+def multi_text\n  render html: simple_format("Word1\nWord2")\nend

@@ -1,0 +1,1 @@
+function isEmpty(str) {\n    return (!str || str.length === 0);\n}\n\n// Usage examples:\nconsole.log(isEmpty("")); // true\nconsole.log(isEmpty(null)); // true\nconsole.log(isEmpty(undefined)); // true\nconsole.log(isEmpty("Hello")); // false

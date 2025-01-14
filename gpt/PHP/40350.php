@@ -1,0 +1,1 @@
+// /public/index.php\n   require_once '../core/Router.php';\n\n   $router = new Router();\n   $router->dispatch();

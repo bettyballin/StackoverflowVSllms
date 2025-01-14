@@ -1,0 +1,1 @@
+user_age = int(input("Enter your age: "))\n   if user_age < 0:\n       # handle error, since age cannot be negative

@@ -1,0 +1,1 @@
+RESTORE LOG [YourDatabase_Copy]\nFROM DISK = 'Path\To\Your\TransactionLogBackup.trn'\nWITH STOPAT = 'YYYY-MM-DDTHH:MM:SS', -- Use the appropriate timestamp just before t1\nRECOVERY;

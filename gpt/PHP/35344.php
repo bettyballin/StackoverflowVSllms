@@ -1,0 +1,1 @@
+<?php\necho "<p>Session Save Path: " . ini_get('session.save_path') . "</p>";\necho "<p>Session Status: " . session_status() . "</p>";\n?>

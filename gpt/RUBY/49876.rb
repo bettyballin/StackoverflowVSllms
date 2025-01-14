@@ -1,0 +1,1 @@
+class Calculator\n     def add(a, b)\n       a + b\n     end\n   end\n\n   calculator = Calculator.new\n   result = calculator.add(2, 3)\n   puts result  # Output: 5

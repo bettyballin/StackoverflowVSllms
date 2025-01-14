@@ -1,0 +1,1 @@
+SELECT * \nFROM sys.server_principals \nWHERE type IN ('S', 'U', 'G');

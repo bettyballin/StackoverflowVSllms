@@ -1,0 +1,1 @@
+DECLARE @condition BIT\n\nIF @condition = 1\nBEGIN\n    SELECT * FROM ... OPTION (RECOMPILE)\nEND\nELSE\nBEGIN\n    SELECT * FROM ... OPTION (RECOMPILE)\nEND

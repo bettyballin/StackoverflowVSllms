@@ -1,0 +1,1 @@
+<?php\n   $backupFile = '/path/to/backup/' . date('Y-m-d_H-i-s') . '.sql';\n   $command = "mysqldump --user=yourusername --password=yourpassword --host=yourhostname yourdatabase > $backupFile";\n   system($command);\n   ?>

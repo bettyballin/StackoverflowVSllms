@@ -1,0 +1,1 @@
+<?php\n// Simulate a long-running process\nsleep(5);\n\n// Return some data\necho "<h1>Data Loaded Successfully</h1>";\n?>

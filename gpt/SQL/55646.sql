@@ -1,0 +1,1 @@
+ALTER TABLE users\nADD COLUMN visit_streak INT DEFAULT 0,\nADD COLUMN last_visit_date DATE;

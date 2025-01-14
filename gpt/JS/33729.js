@@ -1,0 +1,1 @@
+const terminal = new Terminal();\n   terminal.open(document.getElementById('terminal'));

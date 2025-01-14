@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "Service.aspx/CreateClient",\n    data: {\n        Name: name,\n        ClientNum: clnum,\n        Email: email,\n        Register: register,\n        Message: message\n    },\n    success: function(response) {\n        alert(response);\n    },\n    error: function() {\n        alert('error');\n    }\n});

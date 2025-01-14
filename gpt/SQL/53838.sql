@@ -1,0 +1,1 @@
+;WITH CTE AS (\n    SELECT TOP 10 \n        *,\n        ROW_NUMBER() OVER (ORDER BY priority DESC) AS rn\n    FROM messages\n    WHERE status = 0\n)\nUPDATE CTE\nSET status = 10\nWHERE rn <= 10;

@@ -1,0 +1,1 @@
+variable mvddl clob;\n\nBEGIN\n  :mvddl := q'[create materialized view MV_FOO_BAR\nbuild immediate\nrefresh fast on commit\n... -- other parts of the DDL\n]';\nEND;\n/

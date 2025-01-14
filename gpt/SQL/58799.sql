@@ -1,0 +1,1 @@
+SET DEFINE OFF;\n\n-- Your SQL script\nCREATE OR REPLACE PACKAGE my_package AS\n  -- This is a comment with an ampersand (&) character\n  PROCEDURE my_procedure;\nEND my_package;\n/

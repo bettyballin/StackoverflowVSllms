@@ -1,0 +1,1 @@
+// Example of disabling security features\n    ini_set('safe_mode', 'Off');

@@ -1,0 +1,1 @@
+res.setHeader('Access-Control-Allow-Origin', '*');\nres.setHeader('Access-Control-Allow-Methods', 'GET, POST');\nres.setHeader('Access-Control-Allow-Headers', 'Content-Type');

@@ -1,0 +1,1 @@
+Partial Public Class User\n\n    Public Sub IncrementLogins()\n        If _TotalLogins.HasValue Then\n            _TotalLogins += 1\n        Else\n            _TotalLogins = 1\n        End If\n    End Sub\n\nEnd Class

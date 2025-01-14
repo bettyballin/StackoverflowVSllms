@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE MONTH(stored_datetime) = MONTH(GETDATE())\n  AND YEAR(stored_datetime) = YEAR(GETDATE())

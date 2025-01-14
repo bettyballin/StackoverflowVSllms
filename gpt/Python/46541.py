@@ -1,0 +1,1 @@
+def swap_pairs_recursive(s, index=0):\n    if index >= len(s) - 1:\n        return [s]\n    \n    swapped = s[:index] + s[index + 1] + s[index] + s[index + 2:]\n    return [s] + swap_pairs_recursive(swapped, index + 2)\n\n# Example usage\nbase_string = "abcd"\npermutations = swap_pairs_recursive(base_string)\nfor perm in permutations:\n    print(perm)

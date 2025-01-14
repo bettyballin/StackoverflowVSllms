@@ -1,0 +1,1 @@
+class DBFactory {\n    public function create($tableName) {\n        return DB_DataObject::factory($tableName);\n    }\n}\n\nfunction getFoo($id, DBFactory $factory) {\n    $MyTableRepresentation = $factory->create("mytable");\n    $MyTableRepresentation->get($id);\n    // ... do some stuff\n    return $somedata;\n}

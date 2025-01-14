@@ -1,0 +1,1 @@
+from rest_framework_simplejwt.tokens import RefreshToken\n\n    def get_tokens_for_user(user):\n        refresh = RefreshToken.for_user(user)\n        return {\n            'refresh': str(refresh),\n            'access': str(refresh.access_token),\n        }

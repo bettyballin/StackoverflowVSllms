@@ -1,0 +1,1 @@
+SELECT \n    st1.custid, \n    st1.prodid, \n    st1.issue, \n    st1.qty, \n    st1.datesold\nFROM \n    SalesTable st1\nWHERE \n    st1.custid = 1\n    AND st1.datesold = (\n        SELECT \n            MAX(st2.datesold)\n        FROM \n            SalesTable st2\n        WHERE \n            st2.custid = st1.custid\n            AND st2.prodid = st1.prodid\n    );

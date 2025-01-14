@@ -1,0 +1,1 @@
+-- Create a role with limited permissions\n    CREATE ROLE DataReaderWriter;\n    GRANT SELECT, INSERT ON dbo.Events TO DataReaderWriter;\n\n    -- Assign users to the role\n    EXEC sp_addrolemember 'DataReaderWriter', 'YourUserName';

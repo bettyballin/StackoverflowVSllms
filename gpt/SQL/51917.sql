@@ -1,0 +1,1 @@
+CREATE TRIGGER update_total_purchases\nAFTER INSERT ON purchase_orders\nFOR EACH ROW\nBEGIN\n    UPDATE customers\n    SET total_purchases = total_purchases + NEW.amount\n    WHERE customer_id = NEW.customer_id;\nEND;

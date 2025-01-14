@@ -1,0 +1,1 @@
+$options = array(\n        'proxy_host' => "proxy.example.com",\n        'proxy_port' => 8080,\n    );\n    $proxy = new SoapClient('someaddress?wsdl', $options);

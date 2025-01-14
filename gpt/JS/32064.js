@@ -1,0 +1,1 @@
+// Example of client-side filtering with JavaScript\n   const items = [...]; // Assume this is an array of items loaded initially\n   function filterItems(criteria) {\n       return items.filter(item => item.matches(criteria));\n   }

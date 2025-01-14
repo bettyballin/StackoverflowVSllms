@@ -1,0 +1,1 @@
+SELECT a.*, b.*\nFROM table a, table b\nWHERE a.id = b.id;

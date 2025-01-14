@@ -1,0 +1,1 @@
+protected $routeMiddleware = [\n    // Other middleware\n    'auth.check' => \App\Http\Middleware\CheckAuthenticated::class,\n];

@@ -1,0 +1,1 @@
+$mysqli = new mysqli("localhost", "user", "password", "database");\n\n$user_input = "O'Reilly";\n$stmt = $mysqli->prepare("INSERT INTO authors (name) VALUES (?)");\n$stmt->bind_param("s", $user_input);\n$stmt->execute();\n$stmt->close();\n$mysqli->close();

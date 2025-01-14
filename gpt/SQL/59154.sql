@@ -1,0 +1,1 @@
+REVOKE CONTROL ON [dbo].[tblFoo] TO [public];

@@ -1,0 +1,1 @@
+SELECT Column6\nFROM MyTable\nWHERE RowID = 14;

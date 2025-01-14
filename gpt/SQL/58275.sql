@@ -1,0 +1,1 @@
+ALTER TABLE child_table DROP FOREIGN KEY fk_old_guid;

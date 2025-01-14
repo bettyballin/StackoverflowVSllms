@@ -1,0 +1,1 @@
+-- Step 1: Create the temporary table\nSELECT column1, column2, column3\nINTO #TempTable\nFROM YourSourceTable\n\n-- Step 2: Add the IDENTITY column\nALTER TABLE #TempTable\nADD TempID INT IDENTITY(1,1)

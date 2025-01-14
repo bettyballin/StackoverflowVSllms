@@ -1,0 +1,1 @@
+// jQuery\n     var type = $('div').data('type');\n     var appId = $('div').data('app-id');\n     var action = $('a').data('action');\n     \n     // Vanilla JavaScript\n     var type = document.querySelector('div').dataset.type;\n     var appId = document.querySelector('div').dataset.appId;\n     var action = document.querySelector('a').dataset.action;

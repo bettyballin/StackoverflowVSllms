@@ -1,0 +1,1 @@
+CREATE PROCEDURE YourStoredProcedure\nAS\nBEGIN\n    -- Ensure NOCOUNT is off\n    SET NOCOUNT OFF;\n\n    -- Your existing T-SQL statements\n    INSERT INTO YourTable (Column1, Column2)\n    VALUES (Value1, Value2);\n\n    -- Other T-SQL statements\n\nEND;

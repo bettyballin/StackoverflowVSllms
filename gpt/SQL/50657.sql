@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX unique_serials ON your_table_name(serial_number) WHERE serial_number IS NOT NULL;

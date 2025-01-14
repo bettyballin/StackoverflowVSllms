@@ -1,0 +1,1 @@
+$("#feeds").load("feeds.html");

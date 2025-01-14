@@ -1,0 +1,1 @@
+maintenance_work_mem = 512MB

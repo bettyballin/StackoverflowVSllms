@@ -1,0 +1,1 @@
+CREATE VIEW MyView AS\nSELECT ID,\n       CASE \n           WHEN ISNUMERIC(MyCol) = 1 THEN CAST(MyCol AS bigint)\n           ELSE NULL\n       END AS MyCol\nFROM MyTable\nWHERE ISNUMERIC(MyCol) = 1;

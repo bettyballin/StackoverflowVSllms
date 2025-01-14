@@ -1,0 +1,1 @@
+ALTER TABLE master_table ADD COLUMN new_guid VARCHAR(36);\n    UPDATE master_table SET new_guid = NEW_GUID_FUNCTION();

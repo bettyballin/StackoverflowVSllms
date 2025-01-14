@@ -1,0 +1,1 @@
+function disableTextSelection(ids) {\n    ids.forEach(function(id) {\n        var element = document.getElementById(id);\n        if (element) {\n            element.classList.add('no-select');\n        }\n    });\n}\n\n// Example usage\ndisableTextSelection(['menu1', 'menu2', 'menu3']);

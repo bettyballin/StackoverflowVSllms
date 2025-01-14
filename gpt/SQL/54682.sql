@@ -1,0 +1,1 @@
+SELECT * FROM T WHERE CONTAINS(C, '"a&b"');

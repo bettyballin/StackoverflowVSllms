@@ -1,0 +1,1 @@
+CREATE TABLE Folders (\n    FolderID INT PRIMARY KEY,\n    FolderName NVARCHAR(255)\n);\n\nCREATE TABLE Emails (\n    EmailID INT PRIMARY KEY,\n    FolderID INT,\n    UID INT,\n    FromAddress NVARCHAR(255),\n    FromName NVARCHAR(255),\n    IsRead BIT,\n    IsAnswered BIT,\n    IsForwarded BIT,\n    HasAttachments BIT,\n    FOREIGN KEY (FolderID) REFERENCES Folders(FolderID)\n);

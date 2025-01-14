@@ -1,0 +1,1 @@
+$form = new My_Form_DateExample();\n\n$data = $db->fetchRow('SELECT * FROM my_table WHERE id = ?', $id);\nif ($data) {\n    $date = new Zend_Date($data['dateField'], 'yyyy-MM-dd');\n    $data['dateField'] = $date->toString('dd/MM/yyyy');\n    $form->populate($data);\n}

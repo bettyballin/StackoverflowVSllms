@@ -1,0 +1,1 @@
+def on_button_press_event(widget, event):\n    if event.type == Gdk.EventType.BUTTON_PRESS:\n        menu.popdown()\n\nmenu.connect("button-press-event", on_button_press_event)

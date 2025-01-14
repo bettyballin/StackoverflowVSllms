@@ -1,0 +1,1 @@
+$key = 'jim';\n\n   // Example 2\n   if (array_key_exists($key, $array)) {\n       // Key exists in the array\n   }

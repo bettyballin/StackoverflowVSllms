@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_InsertType\n    ON types\n    AFTER INSERT\n    AS\n    BEGIN\n        INSERT INTO DistinctTypeNames (typeName)\n        SELECT DISTINCT i.typeName\n        FROM inserted i\n        WHERE NOT EXISTS (\n            SELECT 1\n            FROM DistinctTypeNames d\n            WHERE d.typeName = i.typeName\n        );\n    END;

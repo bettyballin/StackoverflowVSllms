@@ -1,0 +1,1 @@
+# app/models/my_app/set.rb\nmodule MyApp\n  class Set < ActiveRecord::Base\n    # Your model code here\n  end\nend

@@ -1,0 +1,1 @@
+-- SQL Server\n   SELECT TOP 10 * FROM MyTable;\n\n   -- Oracle\n   SELECT * FROM MyTable WHERE ROWNUM <= 10;\n\n   -- Oracle (modern syntax)\n   SELECT * FROM MyTable FETCH FIRST 10 ROWS ONLY;

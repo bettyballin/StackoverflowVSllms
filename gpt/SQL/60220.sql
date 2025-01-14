@@ -1,0 +1,1 @@
+CREATE TEMPORARY TABLE temp_table AS\nSELECT *\nFROM table_a\nWHERE create_date > DATE('1998-01-01');\n\nSELECT *\nFROM temp_table \nINNER JOIN table_b ON temp_table.id = table_b.id\nINNER JOIN table_c ON temp_table.id = table_c.id;

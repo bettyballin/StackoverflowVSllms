@@ -1,0 +1,1 @@
+$(document).ready(function(){\n  $("#yourInputField").on("input", function() {\n    var value = $(this).val();\n    var regex = /^\+?\d*\.{0,1}\d+$/;\n    if (regex.test(value)) {\n      console.log("Valid positive number");\n    } else {\n      console.log("Invalid number");\n    }\n  });\n});

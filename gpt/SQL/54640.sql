@@ -1,0 +1,1 @@
+RENAME old_view_name TO new_view_name;

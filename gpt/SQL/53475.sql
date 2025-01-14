@@ -1,0 +1,1 @@
+CREATE INDEX idx_employee_id_department ON Employee (EmployeeID, RefDepartmentID);\nCREATE INDEX idx_project_transaction ON ProjectTransaction (RefEmployeeID, RefProjectID, Date, Type);\nCREATE INDEX idx_project ON Project (ProjectID, RefProjectTypeID);\nCREATE INDEX idx_project_type ON ProjectType (ProjectTypeID, ProjectTypeName);

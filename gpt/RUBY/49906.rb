@@ -1,0 +1,1 @@
+group :test do\n  gem 'ruby-prof'\nend

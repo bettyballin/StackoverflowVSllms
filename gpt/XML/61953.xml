@@ -1,0 +1,1 @@
+<action path="/example" \n           type="com.example.ExampleAction" \n           name="exampleForm" \n           scope="request" \n           input="/example.jsp">\n       <forward name="success" path="/example.vm"/>\n   </action>

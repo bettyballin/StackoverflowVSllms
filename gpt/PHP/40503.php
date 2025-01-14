@@ -1,0 +1,1 @@
+$sql = "UPDATE types \n        SET type_name = :type_name \n        WHERE type_id = (SELECT type_id FROM photos WHERE photo_id = :photo_id)";\n\n$stmt = $pdo->prepare($sql);\n$stmt->execute(['type_name' => $_POST['type_name'], 'photo_id' => 3]);

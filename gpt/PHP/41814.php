@@ -1,0 +1,1 @@
+<?php\n// your-server-endpoint.php\n\n// Simulate a new odometer value, in a real application this would come from a database or other data source\n$newValue = rand(0, 999999);\n\necho str_pad($newValue, 6, '0', STR_PAD_LEFT);\n?>

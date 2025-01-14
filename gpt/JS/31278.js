@@ -1,0 +1,1 @@
+app.use((req, res, next) => {\n       if (req.headers['x-forwarded-proto'] !== 'https') {\n           return res.redirect(`https://${req.headers.host}${req.url}`);\n       }\n       next();\n   });

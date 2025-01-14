@@ -1,0 +1,1 @@
+echo 'Hello, World!';\n      include 'file.php';

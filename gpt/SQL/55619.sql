@@ -1,0 +1,1 @@
+UPDATE t\nSET xml = insertChildXML(xml, '/a/b', 'text()', 'gaga')\nWHERE existsNode(xml, '/a/b') = 1;

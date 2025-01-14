@@ -1,0 +1,1 @@
+$cookie_name = "user";\n$cookie_value = "John Doe";\n$cookie_expiry = time() + (14 * 24 * 60 * 60); // 14 days from now\n$cookie_path = "/"; // Available within the entire domain\n\nsetcookie($cookie_name, $cookie_value, $cookie_expiry, $cookie_path);

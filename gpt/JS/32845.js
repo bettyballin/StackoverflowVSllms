@@ -1,0 +1,1 @@
+function handleEvent(eventType, element, callback) {\n    element.addEventListener(eventType, callback);\n}\n\nconst curriedHandleEvent = curry(handleEvent);\n\nconst handleClick = curriedHandleEvent('click');\n\nhandleClick(document.getElementById('myButton'), () => {\n    alert('Button clicked!');\n});

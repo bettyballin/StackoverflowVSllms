@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\n// Check if the session is active\nif (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY']) < $timeout_duration) {\n    echo json_encode(['active' => true]);\n} else {\n    echo json_encode(['active' => false]);\n}\n?>

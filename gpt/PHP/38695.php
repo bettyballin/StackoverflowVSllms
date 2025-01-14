@@ -1,0 +1,1 @@
+class Controller_Products extends Controller {\n    public function action_view($id) {\n        // Handle viewing a single product\n    }\n\n    public function action_list() {\n        // Handle listing all products\n    }\n}

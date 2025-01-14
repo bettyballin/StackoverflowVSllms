@@ -1,0 +1,1 @@
+Public Class NativeMethods\n    Declare Auto Function MessageBox Lib "user32.dll" (hWnd As IntPtr, text As String, caption As String, type As UInteger) As Integer\nEnd Class

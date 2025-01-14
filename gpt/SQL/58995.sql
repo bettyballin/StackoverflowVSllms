@@ -1,0 +1,1 @@
+-- Example query to list users and their roles\nSELECT \n    name AS Username, \n    type_desc AS UserType,\n    create_date\nFROM sys.database_principals\nWHERE type IN ('S', 'U', 'G') -- S: SQL user, U: Windows user, G: Windows group\nORDER BY name;

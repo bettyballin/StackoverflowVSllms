@@ -1,0 +1,1 @@
+strArray(2) = New String("A"c, 5 * 1024 * 1024) ' 5MB string of 'A's

@@ -1,0 +1,1 @@
+# app/models/article.rb\nclass Article < ApplicationRecord\n  validates :title, presence: true\n  validates :body, presence: true\nend

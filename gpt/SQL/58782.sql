@@ -1,0 +1,1 @@
+SELECT TOP 1 *\nFROM your_table_name\nORDER BY id DESC;

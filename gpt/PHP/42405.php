@@ -1,0 +1,1 @@
+<?php\nsession_start();\n?>\nWelcome, <?php echo htmlspecialchars($_SESSION['user']); ?>!<br />\n<a href="#">Add game</a><br />\n<a href="#">Add player</a><br /><br />\n<a href="#" name="logout">Log out</a>

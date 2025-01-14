@@ -1,0 +1,1 @@
+if ($_POST['var']) {\n    // This will be true only if 'var' is set and truthy\n}

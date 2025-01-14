@@ -1,0 +1,1 @@
+SELECT * FROM categories WHERE parent_id = 1; -- Example for category with id 1 (Fruits)

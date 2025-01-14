@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open('GET', 'your-ajax-url?' + new Date().getTime(), true); // or use Math.random()\nxhr.onreadystatechange = function() {\n    if (xhr.readyState == 4 && xhr.status == 200) {\n        var response = xhr.responseText;\n        // handle the response data\n    }\n};\nxhr.send();

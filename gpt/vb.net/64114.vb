@@ -1,0 +1,1 @@
+Public Class Program\n    Public Event X()\n\n    Public Sub New()\n        AddHandler X, AddressOf EventHandler\n    End Sub\n\n    Public Sub RaiseEventX()\n        RaiseEvent X()\n    End Sub\n\n    Private Sub EventHandler()\n        Console.WriteLine("Event handler executed synchronously.")\n    End Sub\nEnd Class

@@ -1,0 +1,1 @@
+// Assuming $_SESSION['personID'] is already set\n$personID = $_SESSION['personID'];\n$people_address = str_replace('{personID}', $personID, "/v1/People/{personID}/Addresses");\n\necho $people_address; // should output the substituted string

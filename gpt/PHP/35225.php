@@ -1,0 +1,1 @@
+class HtmlHelper {\n    public function redirect($url) {\n        header("Location: " . $url);\n        exit();\n    }\n}\n\n// Creating an instance of the HtmlHelper class\n$html = new HtmlHelper();\n\n// Using the redirect method of the HtmlHelper class\n$html->redirect("https://example.com");

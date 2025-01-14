@@ -1,0 +1,1 @@
+$(document).ready(function(){\n    $("#theLists img").click(function(){\n        var contentId = $(this).siblings("input.contentId").val();\n        alert(contentId);  // For demonstration purposes\n    });\n});

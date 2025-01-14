@@ -1,0 +1,1 @@
+$output = array();\n\nwhile( $Row = mysql_fetch_object( $result ) ) {\n    $output[] = array(\n        'keyword' => $_POST['keyword'],\n        'name' => $row['url'],\n        'occur' => $row['occurrences'],\n        'queryTime' => substr($end_time-$start_time,0,5)\n    );\n}\n\necho json_encode($output);

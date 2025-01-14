@@ -1,0 +1,1 @@
+// PHP 4 style constructor\nclass MyClass {\n    function MyClass() {\n        // constructor code\n    }\n}\n\n// PHP 5 style constructor\nclass MyClass {\n    function __construct() {\n        // constructor code\n    }\n}

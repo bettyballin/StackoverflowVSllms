@@ -1,0 +1,1 @@
+ALTER USER your_user PROFILE restricted_profile;

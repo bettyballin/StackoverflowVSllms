@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX IX_PostId\nON dbo.vHelpfulPostCounts (PostId);\nGO

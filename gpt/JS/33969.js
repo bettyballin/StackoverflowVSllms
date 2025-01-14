@@ -1,0 +1,1 @@
+// Quicksort on different input cases\n   quicksort(sortedArray);    // worst-case O(n^2)\n   quicksort(randomArray);    // average-case O(n log n)\n   quicksort(reverseArray);   // worst-case O(n^2)

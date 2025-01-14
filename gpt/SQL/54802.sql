@@ -1,0 +1,1 @@
+-- Replace 'A' and 'B' with the actual user IDs you are comparing\nSELECT \n    COUNT(*) AS common_votes,\n    SUM(CASE WHEN v1.direction = v2.direction THEN 1 ELSE 0 END) AS same_direction_votes\nFROM \n    votes v1\nJOIN \n    votes v2 ON v1.itemID = v2.itemID\nWHERE \n    v1.userID = 'A' AND v2.userID = 'B';

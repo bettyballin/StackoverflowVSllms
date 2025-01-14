@@ -1,0 +1,1 @@
+require 'vendor/autoload.php';\n\n   $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);\n   $dotenv->load();\n\n   $env = getenv('APP_ENV');

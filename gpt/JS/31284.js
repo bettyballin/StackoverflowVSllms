@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    function nodeClicked(url) {\n        var iframe = document.getElementById("myIframe");\n        iframe.style.display = "block"; // Show the iframe\n        iframe.src = url; // Set the iframe source to the URL of the clicked node\n    }\n</script>

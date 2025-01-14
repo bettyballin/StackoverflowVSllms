@@ -1,0 +1,1 @@
+CREATE TABLE size_options (\n    name VARCHAR2(10) PRIMARY KEY\n);\n\nINSERT INTO size_options (name) VALUES ('small');\nINSERT INTO size_options (name) VALUES ('medium');\nINSERT INTO size_options (name) VALUES ('large');

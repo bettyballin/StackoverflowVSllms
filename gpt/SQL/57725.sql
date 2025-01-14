@@ -1,0 +1,1 @@
+-- Grant CREATE TRIGGER in schema A\nGRANT CREATE TRIGGER TO user_A;\n\n-- Grant ALTER privilege on the table in schema B\nGRANT ALTER ON schema_B.table_name TO user_A;\n\n-- Optionally, grant EXECUTE privilege on any referenced objects\nGRANT EXECUTE ON schema_B.some_procedure TO user_A;

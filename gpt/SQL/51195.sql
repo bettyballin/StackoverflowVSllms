@@ -1,0 +1,1 @@
+EXPLAIN SELECT * FROM your_table WHERE your_conditions;

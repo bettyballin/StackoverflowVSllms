@@ -1,0 +1,1 @@
+<extension-point\n       id="serverType"\n       name="Server Type Extension Point"\n       schema="schema/serverType.exsd">\n   </extension-point>

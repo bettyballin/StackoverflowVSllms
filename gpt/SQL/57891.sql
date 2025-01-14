@@ -1,0 +1,1 @@
+-- SQL Query to fetch regions and areas\nSELECT Region_Name, Region_ID FROM Regions;\nSELECT Area_Name, Region_ID FROM Areas;

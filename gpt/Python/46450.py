@@ -1,0 +1,1 @@
+# When installing the service, you can specify the user credentials\n    win32serviceutil.InstallService(\n        'YourServiceName',\n        'YourServiceDisplayName',\n        'Description of your service',\n        startType=win32service.SERVICE_AUTO_START,\n        user='DOMAIN\\username',\n        password='password'\n    )

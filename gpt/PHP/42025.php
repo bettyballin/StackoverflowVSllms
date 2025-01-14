@@ -1,0 +1,1 @@
+// Using $_GET\n$name = isset($_GET['name']) ? htmlspecialchars($_GET['name']) : '';\n\n// Using $_POST\n$email = isset($_POST['email']) ? filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) : '';

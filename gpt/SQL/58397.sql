@@ -1,0 +1,1 @@
+INSERT INTO my_counter (counter_name, counter_value) VALUES ('my_counter', 0);

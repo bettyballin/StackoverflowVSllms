@@ -1,0 +1,1 @@
+<?php\n$form = new Zend_Form();\n\n$email = new Zend_Form_Element_Text('email');\n$email->setLabel('E-mail')\n      ->setDecorators(array(\n          new My_Decorator_Label(),\n      ));\n\n$form->addElement($email);

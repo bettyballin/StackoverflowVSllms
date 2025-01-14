@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    // Select the second label with the same 'for' attribute\n    $('label[for="myCb1"]').eq(1).css('color', 'red'); // Example action: changing the text color to red\n});

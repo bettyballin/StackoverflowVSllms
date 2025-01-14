@@ -1,0 +1,1 @@
+$conn->query("SET SESSION sql_mode='STRICT_TRANS_TABLES'");

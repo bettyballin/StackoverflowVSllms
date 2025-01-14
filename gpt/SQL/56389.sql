@@ -1,0 +1,1 @@
+SELECT \n    artranid,\n    trandate,\n    type,\n    checkNumber,\n    refNumber,\n    custid,\n    amount,\n    taxAmount,\n    postedflag,\n    modifieddate,\n    SUM(amount) OVER (ORDER BY trandate, artranid) AS running_balance\nFROM \n    artran\nORDER BY \n    trandate, artranid;

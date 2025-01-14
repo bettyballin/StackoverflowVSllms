@@ -1,0 +1,1 @@
+switch ($condition) {\n    case 'case1':\n        // logic for case 1\n        break;\n    case 'case2':\n        // logic for case 2\n        break;\n    default:\n        // default logic\n        break;\n}

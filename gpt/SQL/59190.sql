@@ -1,0 +1,1 @@
+-- Ensure the marriage relationship is symmetric\nALTER TABLE MARRIAGE ADD CONSTRAINT chk_symmetric CHECK (person1_name < person2_name);

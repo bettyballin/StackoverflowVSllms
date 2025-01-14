@@ -1,0 +1,1 @@
+INSERT INTO Translations (TableName, ColumnName, RowID, LanguageCode, TranslatedText)\nVALUES ('Products', 'ProductName', 1, 'en', 'Laptop'),\n       ('Products', 'ProductName', 1, 'es', 'Portátil');

@@ -1,0 +1,1 @@
+INSERT INTO users (first_name, last_name) VALUES ('John', 'Doe');\nINSERT INTO users (first_name, last_name) VALUES ('Jane', 'Smith');

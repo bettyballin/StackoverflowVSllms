@@ -1,0 +1,1 @@
+INSERT INTO my_table (my_date_column) VALUES (TO_DATE('2023-10-25', 'YYYY-MM-DD'));

@@ -1,0 +1,1 @@
+<db:result from='serverA.com' to='example.com' type='valid'>\n      <db:verify>random-string</db:verify>\n   </db:result>

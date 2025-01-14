@@ -1,0 +1,1 @@
+<PropertyGroup>\n      <OutputType>Exe</OutputType>\n      <TargetFramework>net5.0</TargetFramework> <!-- Adjust as needed -->\n      <RuntimeIdentifier>win-x64</RuntimeIdentifier> <!-- Adjust for target platform -->\n      <SelfContained>true</SelfContained>\n      <PublishSingleFile>true</PublishSingleFile>\n      <PublishTrimmed>true</PublishTrimmed>\n    </PropertyGroup>

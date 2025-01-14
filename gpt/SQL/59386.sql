@@ -1,0 +1,1 @@
+SELECT * FROM MyTable\n   WHERE CONTAINS(MyColumn, 'your search term');

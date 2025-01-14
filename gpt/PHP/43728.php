@@ -1,0 +1,1 @@
+<?php\nsession_start(); // Always start the session at the beginning of the script\n\n// Ensure PHPSESSID is being passed correctly\nif (isset($_POST['PHPSESSID'])) {\n    session_id($_POST['PHPSESSID']);\n    session_start();\n}\n\n// Now you can access session variables\n$_SESSION['name'] = 'something';\n\n// Your file upload logic here\n?>

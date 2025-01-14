@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE NEW_PROCEDURE (\n    IN param1 INT,\n    IN param2 VARCHAR(100),\n    OUT return_value INT\n)\nBEGIN\n    -- Your logic here\n    SET return_value = param1 + LENGTH(param2);  -- Example logic\nEND

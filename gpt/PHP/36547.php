@@ -1,0 +1,1 @@
+<?php\n    try {\n        $db = new PDO('sqlite:/path/to/database.db');\n        echo "Connected to SQLite using PDO.";\n    } catch (PDOException $e) {\n        echo "Connection failed: " . $e->getMessage();\n    }\n    ?>

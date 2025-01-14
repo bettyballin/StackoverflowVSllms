@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE -- your conditions here (if any)\nORDER BY \n  CASE \n    WHEN priority IS NULL THEN 10 \n    ELSE priority \n  END DESC;

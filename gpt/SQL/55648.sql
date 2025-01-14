@@ -1,0 +1,1 @@
+CREATE TABLE Events (\n    Id INT PRIMARY KEY,\n    CommonProperty1 VARCHAR(100)\n);\n\nCREATE TABLE ShiftEvents (\n    Id INT PRIMARY KEY FOREIGN KEY REFERENCES Events(Id),\n    ShiftProperty1 VARCHAR(100)\n);\n\nCREATE TABLE StaffTimeOffEvents (\n    Id INT PRIMARY KEY FOREIGN KEY REFERENCES Events(Id),\n    StaffTimeOffProperty1 VARCHAR(100)\n);

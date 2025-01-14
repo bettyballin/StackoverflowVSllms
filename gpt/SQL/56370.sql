@@ -1,0 +1,1 @@
+CREATE PROCEDURE dbo.GetRecordsByIds\n    @myList NVARCHAR(MAX)\nAS\nBEGIN\n    SELECT  *\n    FROM    tbl\n    WHERE   Id IN (SELECT Item FROM dbo.SplitString(@myList, ','))\nEND

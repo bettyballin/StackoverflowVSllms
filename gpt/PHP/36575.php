@@ -1,0 +1,1 @@
+<?php\n// Get the raw POST data\n$rawData = file_get_contents('php://input');\n\n// Create an image from the raw data\n$image = imagecreatefromstring($rawData);\n\n// Set the resolution to 300 dpi\nimageresolution($image, 300);\n\n// Output the image as a PNG\nheader('Content-Type: image/png');\nimagepng($image);\n\n// Clean up\nimagedestroy($image);\n?>

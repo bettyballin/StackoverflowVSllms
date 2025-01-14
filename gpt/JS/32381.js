@@ -1,0 +1,1 @@
+async function search(query) {\n  const { body } = await client.search({\n    index: 'my_index',\n    body: {\n      query: {\n        match: {\n          content: query\n        }\n      }\n    }\n  });\n\n  console.log(body.hits.hits);\n}\n\nsearch('programmers').catch(console.log);

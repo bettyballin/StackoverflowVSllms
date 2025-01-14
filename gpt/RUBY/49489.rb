@@ -1,0 +1,1 @@
+rails generate migration add_remember_digest_to_users remember_digest:string\nrails db:migrate

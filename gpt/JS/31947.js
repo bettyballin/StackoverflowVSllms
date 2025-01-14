@@ -1,0 +1,1 @@
+// Open Developer Tools\ndocument.addEventListener('keydown', function(event) {\n  if (event.key === 'F12') {\n    event.preventDefault();\n    window.open('about:blank', '_blank').document.write('<script>debugger;</script>');\n  }\n});

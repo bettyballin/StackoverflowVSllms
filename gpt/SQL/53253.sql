@@ -1,0 +1,1 @@
+SELECT a.x as x1, a.y, a.z, b.x as x2, b.n, b.o\nFROM (\n  SELECT x, y, z FROM a GROUP BY x\n) a\nLEFT JOIN (\n  SELECT x, n, o FROM b GROUP BY x\n) b\nON a.x = b.x;

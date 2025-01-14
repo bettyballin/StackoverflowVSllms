@@ -1,0 +1,1 @@
+CREATE TABLE ExampleTable (\n    Id UNIQUEIDENTIFIER DEFAULT NEWSEQUENTIALID() PRIMARY KEY,\n    Name NVARCHAR(255)\n);\n\nINSERT INTO ExampleTable (Name) VALUES ('Example 1'), ('Example 2');

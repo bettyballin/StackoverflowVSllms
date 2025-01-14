@@ -1,0 +1,1 @@
+-- Example of formatted SQL using VS Code with SQL Formatter Extension\n   SELECT \n       column1,\n       column2\n   FROM \n       table\n   WHERE \n       condition1 = 'value1'\n   ORDER BY \n       column1;

@@ -1,0 +1,1 @@
+CREATE INDEX idx_a_c ON a(c);\nCREATE INDEX idx_b_d ON b(d);\n\nSELECT a.*\nFROM a\nJOIN b ON a.c = b.d;

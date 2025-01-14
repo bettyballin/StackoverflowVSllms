@@ -1,0 +1,1 @@
+import os\n\n   if os.path.exists(file_path):\n       # Proceed with file operations\n   else:\n       # Handle the error

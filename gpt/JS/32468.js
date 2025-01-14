@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    var offset = new Date().getTimezoneOffset(); // Offset in minutes\n    $('#offset').val(offset);\n});

@@ -1,0 +1,1 @@
+SELECT "COMMENT" FROM tablename;

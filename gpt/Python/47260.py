@@ -1,0 +1,1 @@
+import sys\nimport io\n\nsys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')\n\n# Now you can use print() and it will handle Unicode correctly\nprint("Some Unicode text: こんにちは世界")

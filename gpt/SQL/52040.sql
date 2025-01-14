@@ -1,0 +1,1 @@
+CREATE TABLE YourTableName (\n    YourColumnName INT NOT NULL,\n    -- other columns\n    CONSTRAINT CK_PositiveValues CHECK (YourColumnName > 0)\n);

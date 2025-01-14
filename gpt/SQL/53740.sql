@@ -1,0 +1,1 @@
+SELECT 1\nFROM options\nWHERE user_id = 1\n  AND option = 'AD3'\nLIMIT 1;

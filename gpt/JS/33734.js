@@ -1,0 +1,1 @@
+let input = "It's a test string";\nlet encodedString = JSON.stringify(input);\n\n// Use encodedString safely in your HTML or JavaScript\nlet html = `<script>var myString = ${encodedString};</script>`;

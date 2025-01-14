@@ -1,0 +1,1 @@
+CREATE VIEW dbo.FixedDateView\nAS\nSELECT \n    OrderID,\n    /* Using a fixed date makes this deterministic */\n    CAST('2023-01-01' AS DATETIME) AS FixedDate,\n    OrderDate\nFROM \n    Orders;\nGO\n\n-- Using a computed column\nALTER TABLE Orders \nADD FixedDate AS CAST('2023-01-01' AS DATETIME);

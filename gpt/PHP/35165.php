@@ -1,0 +1,1 @@
+session_set_cookie_params([\n       'lifetime' => 0,\n       'path' => '/',\n       'domain' => '', // Set to your domain\n       'secure' => isset($_SERVER['HTTPS']),\n       'httponly' => true,\n       'samesite' => 'Lax' // Or 'None' if you need cross-site cookies\n   ]);\n   session_start();

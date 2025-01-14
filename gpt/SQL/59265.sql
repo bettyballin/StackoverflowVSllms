@@ -1,0 +1,1 @@
+-- Example of increasing the shared pool size\n    ALTER SYSTEM SET SHARED_POOL_SIZE = 512M SCOPE=BOTH;

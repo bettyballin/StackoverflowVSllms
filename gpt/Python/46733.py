@@ -1,0 +1,1 @@
+import hashlib\n\ndef compute_ha1(username, realm, password):\n    ha1_string = f"{username}:{realm}:{password}"\n    ha1_hash = hashlib.md5(ha1_string.encode('utf-8')).hexdigest()\n    return ha1_hash\n\n# Example usage\nusername = "user"\nrealm = "example.com"\npassword = "password"\n\nha1 = compute_ha1(username, realm, password)\nprint(f"HA1 hash: {ha1}")

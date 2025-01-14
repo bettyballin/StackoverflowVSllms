@@ -1,0 +1,1 @@
+// application/modules/mojo/Bootstrap.php\n   class Mojo_Bootstrap extends Zend_Application_Module_Bootstrap\n   {\n       protected function _initMojoLayout()\n       {\n           // Mojo-specific layout initialization\n           $layout = Zend_Layout::getMvcInstance();\n           $layout->setLayout('mojo');\n       }\n   }

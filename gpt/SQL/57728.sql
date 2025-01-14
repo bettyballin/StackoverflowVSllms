@@ -1,0 +1,1 @@
+INSERT INTO `session` (`session_id`, `session_data`, `t_updated`) \n    VALUES ('random_session_id', 'session_data', CURRENT_TIMESTAMP)\n    ON DUPLICATE KEY UPDATE \n        `session_data` = VALUES(`session_data`), \n        `t_updated` = VALUES(`t_updated`);

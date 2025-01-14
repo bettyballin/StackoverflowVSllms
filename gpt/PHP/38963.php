@@ -1,0 +1,1 @@
+<?php\n// Retrieve data from the database or any other source\n$data = "This is the content of the text file.";\n\n// Set the headers to prompt the 'Save As' dialog box\nheader('Content-Type: text/plain');\nheader('Content-Disposition: attachment; filename="download.txt"');\nheader('Content-Length: ' . strlen($data));\n\n// Output the data\necho $data;\n?>

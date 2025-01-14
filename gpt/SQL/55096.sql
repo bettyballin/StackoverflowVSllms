@@ -1,0 +1,1 @@
+CREATE TRIGGER set_modified\n   BEFORE INSERT OR UPDATE ON your_table\n   FOR EACH ROW\n   EXECUTE FUNCTION update_modified_column();

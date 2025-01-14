@@ -1,0 +1,1 @@
+SELECT u.profession FROM users u GROUP BY u.profession;

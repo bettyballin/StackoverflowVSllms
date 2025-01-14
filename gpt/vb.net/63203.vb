@@ -1,0 +1,1 @@
+If TypeOf myDropDown.SelectedItem Is IndexedDropDownItem Then\n    Dim selectedItem As IndexedDropDownItem = CType(myDropDown.SelectedItem, IndexedDropDownItem)\n    Dim _KeyCode As String = selectedItem.KeyCode\n    Dim _Display As String = selectedItem.Display\n    ' Use _KeyCode and _Display as needed\nEnd If

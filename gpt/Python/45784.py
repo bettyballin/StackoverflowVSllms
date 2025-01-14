@@ -1,0 +1,1 @@
+alist[len(alist) - 1]

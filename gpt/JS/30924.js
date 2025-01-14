@@ -1,0 +1,1 @@
+// Example of clearing an interval\n    clearInterval(intervalId);

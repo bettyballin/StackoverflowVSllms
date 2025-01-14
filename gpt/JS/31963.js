@@ -1,0 +1,1 @@
+const jsonData = '{"name": "John", "age": 30, "city": "New York"}';\nconst obj = JSON.parse(jsonData);\nconsole.log(obj.name); // Output: Joh

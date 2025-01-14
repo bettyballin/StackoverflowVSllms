@@ -1,0 +1,1 @@
+with open('payload_data.txt', 'r') as file:\n       lines = file.readlines()\n       for i, line in enumerate(lines):\n           with open(f'packet_{i+1}.txt', 'w') as packet_file:\n               packet_file.write(line.strip())

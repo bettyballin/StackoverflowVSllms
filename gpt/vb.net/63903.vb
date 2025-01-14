@@ -1,0 +1,1 @@
+Private Sub Form_Unload(Cancel As Integer)\n    ' Ensure the control is released\n    Set typedControl = Nothing\n    Set myControl = Nothing\nEnd Sub

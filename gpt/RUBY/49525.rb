@@ -1,0 +1,1 @@
+# deploy.rb\n\nnamespace :deploy do\n  desc 'Update config.php with production environment'\n  task :update_config do\n    on roles(:app) do\n      within release_path do\n        execute :sed, "-i 's/$env=\"development\"/$env=\"production\"/' config.php"\n      end\n    end\n  end\n\n  after :publishing, :update_config\nend

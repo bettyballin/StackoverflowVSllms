@@ -1,0 +1,1 @@
+CREATE TABLE root_posts_data (\n        id INT PRIMARY KEY,\n        title VARCHAR(255) NOT NULL,\n        body TEXT NOT NULL,\n        FULLTEXT (title, body),\n        FOREIGN KEY (id) REFERENCES root_posts_meta(id)\n    );

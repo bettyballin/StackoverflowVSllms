@@ -1,0 +1,1 @@
+import random\n\n# Sample word list (Diceware wordlist can be used for more security)\nword_list = ["apple", "orange", "banana", "grape", "mango", "peach", "plum", "berry", "melon", "kiwi"]\n\ndef generate_passphrase(num_words=4):\n    return ' '.join(random.choice(word_list) for _ in range(num_words))\n\n# Example usage\npassphrase = generate_passphrase()\nprint(passphrase)

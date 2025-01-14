@@ -1,0 +1,1 @@
+<?php\n$message = "Your message here"; // Define your message\n$actiona = "Action A"; // Define action A\n$actionb = "Action B"; // Define action B\n\nif (strlen($message) <= 7) {\n    echo htmlspecialchars($actiona, ENT_QUOTES, 'UTF-8');\n} else {\n    echo htmlspecialchars($actionb, ENT_QUOTES, 'UTF-8');\n}\n?>

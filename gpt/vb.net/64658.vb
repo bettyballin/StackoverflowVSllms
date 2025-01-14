@@ -1,0 +1,1 @@
+Public Class frmMyForm\n    Inherits CustomForm\n\n    ' Your form code here\nEnd Class

@@ -1,0 +1,1 @@
+SELECT\n    t1.*\nFROM\n    table1 t1\n    INNER JOIN table2 t2 ON t2.table2_ID = t1.table1_ID\n    LEFT JOIN table3 t3 ON t3.table3_ID = t2.table2_ID

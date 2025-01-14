@@ -1,0 +1,1 @@
+<?php\n// Define the absolute path to the include file\ninclude_once('/path/to/project/include_file.php');\n\n// Rest of your code\n?>

@@ -1,0 +1,1 @@
+$json = '{"first": "foo", "second": "bar", "third": "baz"}';\n$array = json_decode($json, true);\n\n// Resulting array\n// array(\n//     "first" => "foo",\n//     "second" => "bar",\n//     "third" => "baz"\n// )

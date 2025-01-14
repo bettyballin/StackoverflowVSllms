@@ -1,0 +1,1 @@
+-- Slower query because it cannot use indexes efficiently\nSELECT * FROM your_large_table\nWHERE LEFT(some_string_field, 4) = '2505';\n\n-- Faster query because it can use indexes efficiently\nSELECT * FROM your_large_table\nWHERE some_string_field LIKE '2505%';

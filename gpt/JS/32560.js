@@ -1,0 +1,1 @@
+document.querySelector('input').addEventListener('keydown', function(event) {\n    if (event.key === 'Backspace') {\n        event.stopPropagation();\n    }\n});

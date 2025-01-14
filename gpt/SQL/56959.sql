@@ -1,0 +1,1 @@
+CREATE VIEW emp_dept_view AS\nSELECT Employers.name, Depts.deptName\nFROM Employers\nJOIN Depts ON Employers.deptId = Depts.id;\n\n-- Querying the view\nSELECT * FROM emp_dept_view WHERE Employers.id = 'ID';

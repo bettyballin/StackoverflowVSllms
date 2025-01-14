@@ -1,0 +1,1 @@
+# Example using Python's SQLAlchemy\n   from sqlalchemy import create_engine, text\n\n   engine = create_engine('sqlite:///mydatabase.db')\n   with engine.connect() as connection:\n       result = connection.execute(text("SELECT * FROM Users WHERE id = :user_id"), {'user_id': 1})\n       for row in result:\n           print(row)

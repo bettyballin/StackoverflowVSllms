@@ -1,0 +1,1 @@
+// Fetch members from database on every request\nsession_start();\n$memberId = $_SESSION['member_id']; // Assume member ID is stored in session\n$members = fetchMembersFromDatabase($memberId); // Your function to fetch data from DB\n\n// Use $members as needed

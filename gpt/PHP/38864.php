@@ -1,0 +1,1 @@
+$serializedObject = serialize($yourObject);\n    $escapedSerializedObject = mysql_real_escape_string($serializedObject);

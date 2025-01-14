@@ -1,0 +1,1 @@
+<?php\n// Open the standard input (stdin) stream\n$stdin = fopen('php://stdin', 'r');\n\n// Read a single character from stdin\n$char = fgetc($stdin);\n\n// Close the stdin stream\nfclose($stdin);\n\n// Print the character\necho "You entered: " . $char;\n?>

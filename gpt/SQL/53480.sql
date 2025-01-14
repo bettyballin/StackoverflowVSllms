@@ -1,0 +1,1 @@
+UPDATE places AS p1\nSET p1.address1 = (\n    SELECT p2.address1\n    FROM places AS p2\n    WHERE p1.placename = p2.placename\n    AND p2.address1 IS NOT NULL\n    AND p2.address1 <> ''\n    LIMIT 1\n)\nWHERE EXISTS (\n    SELECT 1\n    FROM places AS p2\n    WHERE p1.placename = p2.placename\n    AND p2.address1 IS NOT NULL\n    AND p2.address1 <> ''\n);

@@ -1,0 +1,1 @@
+SELECT *\n   FROM temp_table\n   WHERE field1 = 'value';

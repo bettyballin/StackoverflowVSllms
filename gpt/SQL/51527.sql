@@ -1,0 +1,1 @@
+CREATE TYPE dbo.MyTableType AS TABLE\n(\n    Id INT,\n    Name NVARCHAR(50)\n);

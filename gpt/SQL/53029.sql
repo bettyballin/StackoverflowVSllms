@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE my_procedure IS\n     BEGIN\n       -- Procedure logic here\n     END;\n     /

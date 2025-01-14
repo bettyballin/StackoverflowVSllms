@@ -1,0 +1,1 @@
+CREATE TABLE MyXmlTable (\n       Id INT PRIMARY KEY,\n       MyXmlColumn XML (MyXmlSchema)\n   );

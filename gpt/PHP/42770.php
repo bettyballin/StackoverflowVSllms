@@ -1,0 +1,1 @@
+// User.php\nclass User {\n    public function authenticate() {\n        session_start();\n        if (!isset($_SESSION['user_id'])) {\n            header("Location: login.php");\n            exit();\n        }\n    }\n}\n\n// page.php\ninclude 'User.php';\n$user = new User();\n$user->authenticate();\n// Page content for authenticated users

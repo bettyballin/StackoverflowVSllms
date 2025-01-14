@@ -1,0 +1,1 @@
+evalhook_set_handler(function($code) {\n       // Implement your security checks here\n       return $code;\n   });

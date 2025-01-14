@@ -1,0 +1,1 @@
+# Example: Storing a key-value pair in Redis\n     import redis\n     r = redis.Redis()\n     r.set('user:1000', '{"name": "John Doe", "email": "john.doe@example.com"}')

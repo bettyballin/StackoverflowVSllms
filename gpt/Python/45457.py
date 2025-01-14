@@ -1,0 +1,1 @@
+from PIL import Image\n\n# Create an example image\nwidth, height = 800, 600  # Pixel dimensions\nimage = Image.new('RGB', (width, height), color = 'white')\n\n# Specify the resolution (DPI)\ndpi = (300, 300)  # 300 DPI\n\n# Save the image with the specified DPI\nimage.save('example.png', dpi=dpi)

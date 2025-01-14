@@ -1,0 +1,1 @@
+<jsp-config>\n       <taglib>\n           <taglib-uri>/WEB-INF/tlds/mytags.tld</taglib-uri>\n           <!-- Incorrect location or missing taglib-location element -->\n       </taglib>\n   </jsp-config>

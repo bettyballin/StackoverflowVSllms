@@ -1,0 +1,1 @@
+Dim createArticle As String = \n<sql>\n    Create table article \n        (articleID int \n        ,articleName varchar(50) \n        )\n</sql>.Value

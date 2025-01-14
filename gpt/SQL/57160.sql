@@ -1,0 +1,1 @@
+SELECT \n    tblEntities.EntityID, \n    tblScheduling.ScheduleID\nFROM \n    tblEntities\n    LEFT JOIN tblScheduling ON tblEntities.EntityID = tblScheduling.EntityID\n    AND tblScheduling.SchedulingYearID = @SchedulingYearID\nWHERE \n    tblEntities.Active = 1\nORDER BY \n    tblEntities.EntityID;

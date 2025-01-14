@@ -1,0 +1,1 @@
+ActionController::Base.session = {\n  :key         => '_your_app_session',\n  :secret      => 'some unique secret key here',\n  :httponly    => true\n}

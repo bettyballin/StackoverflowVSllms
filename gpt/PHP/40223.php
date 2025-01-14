@@ -1,0 +1,1 @@
+echo 'Memory usage before processing: ' . memory_get_usage() . ' bytes' . PHP_EOL;

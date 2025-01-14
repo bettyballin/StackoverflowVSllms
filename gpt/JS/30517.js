@@ -1,0 +1,1 @@
+$.ajax({\n    url: 'yourWebService.asmx/YourMethod',\n    type: 'POST',\n    data: { /* your data */ },\n    xhrFields: {\n        withCredentials: true\n    },\n    crossDomain: true,\n    success: function(response) {\n        // handle success\n    },\n    error: function(xhr, status, error) {\n        // handle error\n    }\n});

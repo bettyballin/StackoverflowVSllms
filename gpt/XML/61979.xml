@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <staticContent>\n      <mimeMap fileExtension=".xap" mimeType="application/x-silverlight-app" />\n    </staticContent>\n  </system.webServer>\n</configuration>

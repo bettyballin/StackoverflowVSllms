@@ -1,0 +1,1 @@
+var foo = {\n    'alfa': "first item",\n    'beta': "second item"\n};\n\nvar keys = Object.keys(foo);\nconsole.log(keys); // This will output: ["alfa", "beta"]\n\n// If you need to iterate over the keys\nkeys.forEach(function(key) {\n    console.log(key);\n});

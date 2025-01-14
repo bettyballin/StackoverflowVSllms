@@ -1,0 +1,1 @@
+<?php\n    // config.php\n    return [\n        'db_password' => 'your_secure_password',\n    ];

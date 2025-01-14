@@ -1,0 +1,1 @@
+GRANT SELECT ON problematicTable TO your_user;

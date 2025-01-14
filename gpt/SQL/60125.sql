@@ -1,0 +1,1 @@
+-- Fetch the first page of results\nSELECT * FROM questions\nORDER BY created_at DESC\nLIMIT 10;\n\n-- Fetch the next page of results using a cursor\n-- Assuming `last_seen_id` is the ID of the last question from the previous page\nSELECT * FROM questions\nWHERE id < :last_seen_id\nORDER BY created_at DESC\nLIMIT 10;

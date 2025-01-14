@@ -1,0 +1,1 @@
+SELECT \n    name AS TypeName, \n    system_type_id, \n    user_type_id, \n    schema_id, \n    principal_id, \n    max_length, \n    precision, \n    scale, \n    collation_name, \n    is_nullable, \n    is_user_defined, \n    is_assembly_type \nFROM \n    sys.types\nWHERE \n    is_user_defined = 1;

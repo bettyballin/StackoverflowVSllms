@@ -1,0 +1,1 @@
+$.ajaxQueue({\n  url: "your-url",\n  type: "GET",\n  success: function(data) {\n    console.log("Request succeeded with response: ", data);\n  },\n  error: function(err) {\n    console.error("Request failed: ", err);\n  }\n});

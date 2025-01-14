@@ -1,0 +1,1 @@
+If Page.IsPostBack Then\n    Dim isUpdated As String = Request.Form("hiddenField")\n    If isUpdated = "updated" Then\n        ' Use the values from hidden fields\n        txtSomething.Text = Request.Form("hidden_txtSomething")\n    Else\n        ' Use default ViewState values\n    End If\nEnd If

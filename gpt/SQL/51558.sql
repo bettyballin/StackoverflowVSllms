@@ -1,0 +1,1 @@
+WITH RankedRows AS (\n    SELECT\n        TEST_VALUE,\n        ROW_NUMBER() OVER (PARTITION BY FOREIGN_KEY ORDER BY UPDATED DESC) AS rn\n    FROM\n        TEST_TABLE\n    WHERE\n        FOREIGN_KEY = 10\n)\nSELECT\n    TEST_VALUE\nFROM\n    RankedRows\nWHERE\n    rn = 1;

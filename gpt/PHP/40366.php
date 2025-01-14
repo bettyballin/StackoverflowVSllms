@@ -1,0 +1,1 @@
+Array\n(\n    [0] => keyword\n    [1] => keyword\n    [2] => keyword 1 and keyword 2\n    [3] => another\n    [4] => one more\n    [5] => another keyword\n    [6] => yes\n    [7] => one\n    [8] => two\n)

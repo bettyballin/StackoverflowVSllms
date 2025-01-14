@@ -1,0 +1,1 @@
+-- Check for resource usage\n   EXEC sp_who2;

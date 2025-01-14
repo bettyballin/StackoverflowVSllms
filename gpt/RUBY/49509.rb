@@ -1,0 +1,1 @@
+Given(/^an article with id (\d+) and title "([^"]*)" exists$/) do |id, title|\n  Article.connection.execute("INSERT INTO articles (id, name, created_at, updated_at) VALUES (#{id}, '#{title}', NOW(), NOW())")\nend

@@ -1,0 +1,1 @@
+<configuration>\n  <connectionStrings>\n    <add name="SSASConnection" \n         connectionString="Provider=MSOLAP;Data Source=YourSSASServer;Initial Catalog=YourDatabase;Integrated Security=SSPI;" />\n  </connectionStrings>\n</configuration>

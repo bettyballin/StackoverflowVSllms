@@ -1,0 +1,1 @@
+<?php\n\n$conn = pg_pconnect("dbname=publisher");\n\n// these statements will be executed as one transaction\n\n$query = "UPDATE authors SET author=UPPER(author) WHERE id=1;";\n$query .= "UPDATE authors SET author=LOWER(author) WHERE id=2;";\n\npg_query($conn, $query);\n\n?>

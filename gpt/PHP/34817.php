@@ -1,0 +1,1 @@
+class MyClass {\n    const MY_CONSTANT = 'value';\n    \n    public static function myFunction() {\n        echo "Hello, World!";\n    }\n}\n\n// Accessing a constant\necho MyClass::MY_CONSTANT;\n\n// Calling a static method\nMyClass::myFunction();

@@ -1,0 +1,1 @@
+require 'combine_pdf'\n\npdf = CombinePDF.load("path/to/your/file.pdf")\n\npdf.pages.each_with_index do |page, index|\n  single_page_pdf = CombinePDF.new\n  single_page_pdf << page\n  single_page_pdf.save "output/page_#{index + 1}.pdf"\nend

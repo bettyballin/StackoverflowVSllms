@@ -1,0 +1,1 @@
+class classmethod(object):\n    def __init__(self, method):\n        self.method = method\n\n    def __get__(self, instance, owner):\n        return lambda *args, **kwargs: self.method(owner, *args, **kwargs)\n\nclass sic:\n    def f(cls):\n        print(cls.__name__)\n    f = classmethod(f)\n\n# Testing the implementation\nsic().f()\nsic.f()

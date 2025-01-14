@@ -1,0 +1,1 @@
+def get():\n    value = complexcalculation()\n    return value\n\ndef complexcalculation():\n    # Replace this with your actual complex calculation logic\n    return "Result from acme1"

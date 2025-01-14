@@ -1,0 +1,1 @@
+<?php\n// Start the session\nsession_start();\n\n// Unset all session variables\n$_SESSION = array();\n\n// Destroy the session\nsession_destroy();\n\n// Redirect to the home page\nheader('Location: ../Home/index.php');\nexit();\n?>

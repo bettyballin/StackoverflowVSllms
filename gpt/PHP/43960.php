@@ -1,0 +1,1 @@
+set_error_handler(function ($errno, $errstr, $errfile, $errline) {\n        // Custom error handling logic\n\n        // Ensure the default error handler is called\n        return false;\n    });

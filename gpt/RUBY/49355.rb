@@ -1,0 +1,1 @@
+# Example of Puma configuration for a Rails app (config/puma.rb)\nworkers ENV.fetch("WEB_CONCURRENCY") { 2 }\nthreads_count = ENV.fetch("RAILS_MAX_THREADS") { 5 }\nthreads threads_count, threads_count\n\npreload_app!\n\non_worker_boot do\n  ActiveRecord::Base.establish_connection\nend

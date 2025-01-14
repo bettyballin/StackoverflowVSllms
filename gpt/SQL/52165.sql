@@ -1,0 +1,1 @@
+CREATE VIEW dbo.MyIndexedView\n    WITH SCHEMABINDING\n    AS\n    SELECT \n        Column1, \n        Column2, \n        SUM(Column3) AS TotalColumn3\n    FROM dbo.MyTable\n    GROUP BY \n        Column1, \n        Column2;

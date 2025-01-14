@@ -1,0 +1,1 @@
+DECLARE @sql NVARCHAR(MAX);\n    SET @sql = 'EXEC YourProcedure @param1 = ''value1'', @param2 = ''value2''';\n    EXEC sp_executesql @sql;

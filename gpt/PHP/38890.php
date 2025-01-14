@@ -1,0 +1,1 @@
+class Bur {}\n   class AnotherClass {}\n\n   function blah(Bur $bur) {\n       // Function implementation\n   }\n\n   $burInstance = new Bur();\n   blah($burInstance); // This is valid\n\n   $anotherInstance = new AnotherClass();\n   blah($anotherInstance); // This will throw a TypeError

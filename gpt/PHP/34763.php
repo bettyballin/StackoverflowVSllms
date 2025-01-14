@@ -1,0 +1,1 @@
+<?php\n// Including the encoded file\ninclude 'includes_encoded/params.php';\n\n// Your other code\n?>

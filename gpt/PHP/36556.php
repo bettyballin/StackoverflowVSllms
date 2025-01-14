@@ -1,0 +1,1 @@
+$wgGroupPermissions['user']['read'] = false; // Default user group cannot read\n$wgAddGroups['sysop'][] = 'readers';\n$wgAddGroups['sysop'][] = 'editors';\n$wgAddGroups['sysop'][] = 'admins';

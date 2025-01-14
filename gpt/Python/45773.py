@@ -1,0 +1,1 @@
+import os\n\ndef generate_true_random_number(num_bytes=4):\n    return int.from_bytes(os.urandom(num_bytes), byteorder="big")\n\n# Example usage:\nrandom_number = generate_true_random_number()\nprint(random_number)

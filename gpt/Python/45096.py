@@ -1,0 +1,1 @@
+def table(n):\n    if n == 2:  # Special case for the smallest prime\n        return 1\n    if n % 4 != 1:  # Early exit for primes congruent to 3 mod 4\n        return\n    \n    a1 = n - 1\n    for a in range(1, n//2 + 1):\n        if pow(a, 2, n) == a1:  # Use pow function for efficient modular exponentiation\n            return a

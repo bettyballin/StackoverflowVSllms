@@ -1,0 +1,1 @@
+<?php $this->layout('layout', ['title' => 'Home Page']) ?>\n   <h1>Welcome to the Home Page</h1>\n   <p>This is the content of the home page.</p>

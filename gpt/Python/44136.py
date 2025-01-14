@@ -1,0 +1,1 @@
+import re\n\nhtmlText = '<p data="5" size="4">item1</p><p size="4">item2</p><p size="4">item3</p>'\nmatches = re.findall(r'<p[^>]*size="4">(.*?)</p>', htmlText)\n\nprint(matches)

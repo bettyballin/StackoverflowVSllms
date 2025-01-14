@@ -1,0 +1,1 @@
+EXEC SwapRecordsExcludingColumns 'YourTableName', 1, 2, 'Column1,Column2'

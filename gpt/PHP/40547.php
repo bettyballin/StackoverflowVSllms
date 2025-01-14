@@ -1,0 +1,1 @@
+$string = "name=Shake & Bake&difficulty=easy";\n\n// Use preg_match_all to capture key-value pairs\npreg_match_all('/(\w+)=([^&]*)/', $string, $matches, PREG_SET_ORDER);\n\n$result = [];\nforeach ($matches as $match) {\n    $key = $match[1];\n    $value = $match[2];\n    $result[$key] = $value;\n}\n\nprint_r($result);

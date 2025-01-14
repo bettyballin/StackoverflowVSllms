@@ -1,0 +1,1 @@
+document.addEventListener('keydown', function(event) {\n    if (event.ctrlKey || event.altKey) {\n        switch(event.key) {\n            case 'Tab':\n            case 'F4':\n            case 'Escape':\n                event.preventDefault();\n                break;\n        }\n    }\n});

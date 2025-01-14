@@ -1,0 +1,1 @@
+<?php\n// Original malformed HTML\n$malformedHtml = '<td><b>Title</td>';\n\n// Configuration options for tidy\n$config = array(\n    'indent' => true,\n    'output-xhtml' => true,\n    'wrap' => 200\n);\n\n// Tidy up the output\n$tidy = new tidy;\n$tidy->parseString($malformedHtml, $config, 'utf8');\n$tidy->cleanRepair();\n\n// Output the cleaned HTML\necho $tidy;\n?>

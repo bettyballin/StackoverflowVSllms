@@ -1,0 +1,1 @@
+<subsystem xmlns="urn:jboss:domain:web:1.5">\n       ...\n       <session>\n           <persistent-session-cookie>true</persistent-session-cookie>\n           <persistent-manager path="/path/to/session/store" max-active-sessions="1000" passivation-min-idle-time="5" passivation-max-idle-time="20"/>\n       </session>\n       ...\n   </subsystem>

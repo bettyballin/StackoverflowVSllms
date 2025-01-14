@@ -1,0 +1,1 @@
+$rec = array('Foo' => array(\n  'id' => 999,  // Assume there isn't already a record with this id\n  'website' => 'google'\n));\n$this->Foo->save($rec);\n\n// save with different 'website' value\n$rec['Foo']['website'] = 'stackoverflow';\n$this->Foo->save($rec);

@@ -1,0 +1,1 @@
+BEGIN\n      log4plsql.debug('This is a debug message.');\n      log4plsql.info('This is an info message.');\n      log4plsql.error('This is an error message.');\n   END;

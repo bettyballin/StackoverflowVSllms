@@ -1,0 +1,1 @@
+query = Album.query(Album.label == 'Some Label').order(Album.length)\nalbums = query.fetch()

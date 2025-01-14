@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open("GET", "your_php_script.php", true);\nxhr.setRequestHeader("Accept-Encoding", "gzip");\nxhr.onreadystatechange = function () {\n    if (xhr.readyState == 4 && xhr.status == 200) {\n        var response = JSON.parse(xhr.responseText);\n        console.log(response);\n    }\n};\nxhr.send();

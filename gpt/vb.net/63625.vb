@@ -1,0 +1,1 @@
+Public Class Form1\n\n    Private oServiceWatcher As HttpServiceWatcher\n\n    Sub New(ServiceWatcher As HttpServiceWatcher)\n\n        ' This call is required by the Windows Form Designer.\n        InitializeComponent()\n\n        ' Add any initialization after the InitializeComponent() call.\n        Me.oServiceWatcher = ServiceWatcher\n    End Sub\nEnd Class

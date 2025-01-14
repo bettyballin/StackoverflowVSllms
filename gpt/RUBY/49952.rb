@@ -1,0 +1,1 @@
+class ResourcesController < ApplicationController\n     layout 'crud'\n     # other controller actions\n   end

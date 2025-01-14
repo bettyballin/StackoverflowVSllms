@@ -1,0 +1,1 @@
+def find_duplicate_news(title):\n    hash_id = generate_hash(title)\n    cursor.execute('SELECT * FROM news WHERE hash_id = ?', (hash_id,))\n    duplicates = cursor.fetchall()\n    return duplicates\n\n# Example usage\nduplicates = find_duplicate_news("Breaking News: Example News Title")\nprint(duplicates)

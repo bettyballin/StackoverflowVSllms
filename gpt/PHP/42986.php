@@ -1,0 +1,1 @@
+$normalArray = [];\n\n$normalArray[1]['name'] = 'Bob';\n$normalArray[1]['height'] = 10;\n$normalArray[1]['weight'] = 20;\n\n$normalArray[2]['name'] = 'Fred';\n$normalArray[2]['height'] = 15;\n$normalArray[2]['weight'] = 10;\n\n$normalArray[3]['name'] = 'Ned';\n$normalArray[3]['height'] = 25;\n$normalArray[3]['weight'] = 30;

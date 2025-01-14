@@ -1,0 +1,1 @@
+<?php\nclass Sample {\n    private $name;\n\n    public function __construct($name) {\n        $this->name = $name;\n    }\n\n    public function greet() {\n        return "Hello, " . $this->name;\n    }\n}\n?>

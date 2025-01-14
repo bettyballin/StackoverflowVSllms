@@ -1,0 +1,1 @@
+WITH Table1WithRow AS (\n    SELECT Name AS Name1, ROW_NUMBER() OVER (ORDER BY ID) AS RowNum\n    FROM Table1\n),\nTable2WithRow AS (\n    SELECT Name AS Name2, ROW_NUMBER() OVER (ORDER BY ID) AS RowNum\n    FROM Table2\n)\nSELECT t1.Name1, t2.Name2\nFROM Table1WithRow t1\nJOIN Table2WithRow t2 ON t1.RowNum = t2.RowNum;

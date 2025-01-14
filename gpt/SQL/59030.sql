@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX idx_error_message ON logs (error_message);

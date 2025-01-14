@@ -1,0 +1,1 @@
+if (typeof instance.myMethod === 'function') {\n    // The instance implements the method myMethod\n}

@@ -1,0 +1,1 @@
+module Foo\n  module Bar\n    refine String do\n      def baz\n        # custom implementation\n      end\n    end\n  end\nend\n\nusing Foo::Bar\n\n"test".baz

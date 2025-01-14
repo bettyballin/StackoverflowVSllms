@@ -1,0 +1,1 @@
+Dir.glob('**/*.tex').each do |file|\n  new_name = file.sub(/\.tex$/, '')\n  File.rename(file, new_name)\nend

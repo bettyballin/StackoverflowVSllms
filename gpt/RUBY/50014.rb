@@ -1,0 +1,1 @@
+require 'pdf/writer'\n\npdf = PDF::Writer.new\n\n# Example text with superscript\ntext = 'x<sup>-2</sup>'\n\n# Add the text to the PDF\npdf.text text, :font_size => 12, :justification => :left\n\n# Save the PDF to a file\npdf.save_as('output.pdf')

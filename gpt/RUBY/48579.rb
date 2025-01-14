@@ -1,0 +1,1 @@
+# Add to Gemfile\n   gem 'newrelic_rpm'\n   \n   # Run bundle install\n   # Follow New Relic setup instructions to configure your applicatio

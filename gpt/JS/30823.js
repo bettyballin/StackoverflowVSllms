@@ -1,0 +1,1 @@
+$.ajax({\n    url: '/Controller/Action',\n    type: 'GET',\n    dataType: 'json',\n    success: function (data) {\n        // Handle success\n        console.log(data);\n    },\n    error: function (error) {\n        // Handle error\n        console.error(error);\n    }\n});

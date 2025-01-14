@@ -1,0 +1,1 @@
+<?php\nif (isset($_POST['PHPSESSID'])) {\n    session_id($_POST['PHPSESSID']);\n}\nsession_start();\n\n// Now you can access the same session variables\n$_SESSION["uploaded_ids"][] = $inserted_id;\n\n// Continue with your upload logic\n// ...\n?>

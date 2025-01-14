@@ -1,0 +1,1 @@
+SELECT c.CategoryName\nFROM Categories c\nLEFT JOIN SuperCategories sc ON c.ID_Category = sc.SuperCategoryID\nWHERE sc.SuperCategoryID IS NULL;

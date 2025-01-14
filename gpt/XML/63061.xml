@@ -1,0 +1,1 @@
+<server>\n       <mbean code="org.jboss.naming.RMIService" name="jboss:service=MyRMIService">\n           <attribute name="ServiceName">MyRMIService</attribute>\n           <attribute name="JNDIBinding">MyRMIService</attribute>\n       </mbean>\n   </server>

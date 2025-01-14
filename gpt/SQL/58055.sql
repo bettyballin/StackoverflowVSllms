@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION trigger_function()\nRETURNS TRIGGER AS $$\nBEGIN\n    IF TG_OP = 'INSERT' THEN\n        -- logic for insert\n    ELSIF TG_OP = 'UPDATE' THEN\n        -- logic for update\n    ELSIF TG_OP = 'DELETE' THEN\n        -- logic for delete\n    END IF;\n    RETURN NEW;\nEND;\n$$ LANGUAGE plpgsql;

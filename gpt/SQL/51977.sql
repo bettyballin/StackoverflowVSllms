@@ -1,0 +1,1 @@
+SELECT MAX(ORA_ROWSCN) AS MAX_SCN FROM your_table_name;

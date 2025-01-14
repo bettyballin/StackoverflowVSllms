@@ -1,0 +1,1 @@
+<?php\necho gettext("Hello, World!");\n// or use shorthand\necho _("Hello, World!");\n?>

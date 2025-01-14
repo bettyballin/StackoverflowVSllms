@@ -1,0 +1,1 @@
+select 2.0/5.0 as x, 1+2 as y from table T;

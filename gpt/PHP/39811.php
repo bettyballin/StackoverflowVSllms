@@ -1,0 +1,1 @@
+session_name('CGISESSID'); // Ensure this matches the cookie name used in Perl\n\n$dsn = 'mysql:dbname=mydb;host=localhost';\n$username = 'user';\n$password = 'password';\n\ntry {\n    $dbh = new PDO($dsn, $username, $password);\n} catch (PDOException $e) {\n    echo 'Connection failed: ' . $e->getMessage();\n}

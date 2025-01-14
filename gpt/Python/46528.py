@@ -1,0 +1,1 @@
+# file1.py\nfrom shared import SharedFunctions\n\ndef other_function1():\n    # Uses shared_function\n    SharedFunctions.shared_function(1, 2)

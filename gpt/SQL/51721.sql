@@ -1,0 +1,1 @@
+SELECT * FROM your_table LIMIT 1000 OFFSET 0;

@@ -1,0 +1,1 @@
+# spec/lib/scoring_methods_spec.rb\n\nrequire 'spec_helper'\nrequire_relative '../../lib/scoring_methods'\n\nRSpec.describe ScoringMethods do\n  describe "methods" do\n    it "should include the scorePublicContest method" do\n      methods = ScoringMethods.instance_methods\n      expect(methods).to include(:scorePublicContest)\n    end\n  end\nend

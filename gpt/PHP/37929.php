@@ -1,0 +1,1 @@
+$products = array();\n\nwhile ($row = mysql_fetch_assoc($sqlresult)) {\n    $products[$row['id']] = array(\n        'name' => $row['name'],\n        'code' => $row['code']\n    );\n}

@@ -1,0 +1,1 @@
+-- Ensure indexes are created on AccountNum fields\nCREATE INDEX idx_AccountNum_Current ON AccountsCurrent (AccountNum);\nCREATE INDEX idx_AccountNum_New ON AccountsNew (AccountNum);

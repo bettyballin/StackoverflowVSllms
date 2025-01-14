@@ -1,0 +1,1 @@
+import re\nimport subprocess\n\nexecutable = ...  # Name of executable\nregex = ...  # Regex to extract the port number from the output\n\np = subprocess.Popen(executable, bufsize=1, stderr=subprocess.PIPE)\noutput, errors = p.communicate()\n\nif errors:\n    match = re.search(regex, errors.decode('utf-8'))\n    if match:\n        port = match.groups()[0]\n        print(port)

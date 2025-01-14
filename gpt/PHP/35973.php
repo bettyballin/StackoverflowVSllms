@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER["REQUEST_METHOD"] == "POST") {\n    // Sanitize form input to prevent security issues\n    $a = filter_input(INPUT_POST, 'input_string', FILTER_SANITIZE_STRING);\n\n    // Break the string into an array of characters\n    $b = str_split($a);\n\n    // Print the result to verify\n    print_r($b);\n}\n?>

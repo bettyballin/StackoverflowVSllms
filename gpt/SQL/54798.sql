@@ -1,0 +1,1 @@
+SELECT *\nFROM `bb_topics`\nWHERE `topic_poster` = 5\n  AND `topic_id` > 123\nORDER BY `topic_id` ASC\nLIMIT 1;

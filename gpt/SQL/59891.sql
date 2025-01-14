@@ -1,0 +1,1 @@
+CREATE TABLE hybrid_data (\n       id INT PRIMARY KEY,\n       metric_value FLOAT\n   ) WITH (MEMORY_OPTIMIZE = ON);

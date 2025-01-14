@@ -1,0 +1,1 @@
+-- detect if the value changes\nIF (SELECT invoice_date FROM inserted) IS DISTINCT FROM (SELECT invoice_date FROM deleted)\nBEGIN\n  -- do something to summary tables here\nEND;

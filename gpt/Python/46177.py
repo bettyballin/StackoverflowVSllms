@@ -1,0 +1,1 @@
+def my_function(x):\n    return x * 2\n\nresults = []\nfor i in range(10):\n    results.append(my_function(i))\n\nprint(results)

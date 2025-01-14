@@ -1,0 +1,1 @@
+-- Script for Table A\nIF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[TableA]') AND type in (N'U'))\nBEGIN\n    CREATE TABLE [dbo].[TableA] (\n        -- Table definition here\n    );\n    -- Add constraints and references\nEND

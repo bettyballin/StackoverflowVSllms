@@ -1,0 +1,1 @@
+ALTER INDEX my_index UNUSABLE;\n\nBEGIN\n    -- Bulk insert operations\n    FORALL i IN mytable_data.FIRST..mytable_data.LAST\n        INSERT INTO mytable VALUES mytable_data(i);\n    COMMIT;\nEND;\n/\n\nALTER INDEX my_index REBUILD;

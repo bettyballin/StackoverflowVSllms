@@ -1,0 +1,1 @@
+-- Check some validation condition\nIF NOT EXISTS (SELECT 1 FROM SomeTable WHERE SomeCondition)\nBEGIN\n    PRINT 'Validation failed. Stopping the script.'\n    RETURN;\nEND\n\n-- If validation passes, continue with the rest of the script\nINSERT INTO AnotherTable (Column1, Column2)\nVALUES ('Value1', 'Value2');\n\n-- Additional script logic here

@@ -1,0 +1,1 @@
+CREATE VIEW user_details_view AS\n     SELECT u.user_id, u.username, p.name, p.email\n     FROM users_tb u\n     JOIN people_tb p ON u.person_id = p.person_id;

@@ -1,0 +1,1 @@
+Rails.application.routes.draw do\n  resources :foos, param: :id, defaults: { type: 'Foo' }\n  resources :red_foos, controller: 'foos', type: 'RedFoo'\n  resources :green_foos, controller: 'foos', type: 'GreenFoo'\n  resources :blue_foos, controller: 'foos', type: 'BlueFoo'\nend

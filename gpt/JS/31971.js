@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "/ajax/transform",\n    data: { isFoo: true, bar: $("#Bar").val() },\n    dataType: "json",\n    success: function() { alert("it worked"); },\n    error: function() { alert("Uh oh"); }\n});

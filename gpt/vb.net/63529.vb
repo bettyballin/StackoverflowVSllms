@@ -1,0 +1,1 @@
+Public Function getTheEyeColors() As List(Of EyeColor)\n    Dim glEyeColors As New GenericList\n    Return glEyeColors.GetALList(Of EyeColor)("GetAllEyeColors")\nEnd Function\n\nPublic Function getTheHairColors() As List(Of HairColor)\n    Dim glHairColors As New GenericList\n    Return glHairColors.GetALList(Of HairColor)("GetAllHairColors")\nEnd Functio

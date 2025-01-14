@@ -1,0 +1,1 @@
+$stmt = $pdo->query("SELECT * FROM users");\n$results = $stmt->fetchAll(PDO::FETCH_ASSOC);\nforeach ($results as $row) {\n    echo $row['username'];\n}

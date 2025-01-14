@@ -1,0 +1,1 @@
+ALTER TABLE Results ADD ValueString VARCHAR(255);

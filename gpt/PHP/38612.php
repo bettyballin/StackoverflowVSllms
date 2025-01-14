@@ -1,0 +1,1 @@
+$var = "This is a sample string with %Data_Index[1]% and %Data_Index[2]%";\n$pattern = "/%Data_Index\[(\d+)\]%/";\n$replacement = '$this->resultGData[$key][$1]';\n$var = preg_replace($pattern, $replacement, $var);\n\necho $var; // Outputs: This is a sample string with $this->resultGData[$key][1] and $this->resultGData[$key][2]

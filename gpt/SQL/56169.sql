@@ -1,0 +1,1 @@
+SELECT column_name\nFROM table_name\nORDER BY column_name DESC\nLIMIT 1 OFFSET n-1;

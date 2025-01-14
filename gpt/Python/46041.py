@@ -1,0 +1,1 @@
+import threading\n\ndef worker():\n    print(f"Thread {threading.get_ident()} is running")\n\nthreads = []\nfor _ in range(5):\n    thread = threading.Thread(target=worker)\n    threads.append(thread)\n    thread.start()\n\nfor thread in threads:\n    thread.join()

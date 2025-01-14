@@ -1,0 +1,1 @@
+ALTER PROCEDURE [dbo].[FileUploadAsyncWorker]\nWITH EXECUTE AS 'YourUserWithPermissions'\nAS\nBEGIN\n    -- Procedure code here\nEND

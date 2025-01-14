@@ -1,0 +1,1 @@
+CREATE TABLE Roles (\n       role_id INT PRIMARY KEY,\n       role_name VARCHAR(255) NOT NULL\n   );

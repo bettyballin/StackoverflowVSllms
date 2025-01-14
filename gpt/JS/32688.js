@@ -1,0 +1,1 @@
+function formatCurrency(amount) {\n    return amount.toLocaleString('en-US', { style: 'currency', currency: 'USD' });\n}\n\n// Example usage\nlet formattedAmount = formatCurrency(1234.56);\nconsole.log(formattedAmount); // Output: $1,234.56

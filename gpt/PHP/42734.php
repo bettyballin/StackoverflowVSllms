@@ -1,0 +1,1 @@
+$mysqli = new mysqli("host", "user", "password", "database");\n\nif ($mysqli->connect_error) {\n    die("Connection failed: " . $mysqli->connect_error);\n}\n\n$id = 123; // example thread ID\nreportThread($mysqli, $id);\n\n$mysqli->close();

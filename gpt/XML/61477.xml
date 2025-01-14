@@ -1,0 +1,1 @@
+<Visibility>\n        <Hidden>=IIF(Parameters!HasLogo.Value = 0, True, False)</Hidden>\n    </Visibility>

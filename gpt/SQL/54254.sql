@@ -1,0 +1,1 @@
+UPDATE your_table\nSET inuse = CASE\n    WHEN id = your_specific_id THEN 1\n    ELSE 0\nEND;

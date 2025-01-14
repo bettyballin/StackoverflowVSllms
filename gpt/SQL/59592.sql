@@ -1,0 +1,1 @@
+CREATE CERTIFICATE YourCertificateName \n      FROM FILE = 'path_to_certificate_file'\n      WITH PRIVATE KEY ( \n          FILE = 'path_to_private_key_file',\n          DECRYPTION BY PASSWORD = 'your_strong_password'\n      );

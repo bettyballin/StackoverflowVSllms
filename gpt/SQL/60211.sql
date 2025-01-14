@@ -1,0 +1,1 @@
+CREATE OR REPLACE TYPE MyUDT AS OBJECT (\n       Attribute1 VARCHAR2(50),\n       Attribute2 NUMBER\n   );

@@ -1,0 +1,1 @@
+<?php\necho "Hello, world!";\n// Closing tag needed to switch back to HTML\n?>\n<p>This is HTML content.</p>

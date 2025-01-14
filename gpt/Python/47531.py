@@ -1,0 +1,1 @@
+import unittest\n   import HtmlTestRunner\n\n   class MyTest(unittest.TestCase):\n       def test_example(self):\n           self.assertEqual(1, 1)\n\n   if __name__ == "__main__":\n       unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='example_dir'))

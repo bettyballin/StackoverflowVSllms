@@ -1,0 +1,1 @@
+rake test test/controllers/your_controller_test.rb

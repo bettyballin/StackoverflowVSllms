@@ -1,0 +1,1 @@
+$absolute_path = '/path/to/your/images/' . $this->image_path;\n$this->img = imagecreatefromjpeg($absolute_path);

@@ -1,0 +1,1 @@
+session_name('MySessID');\nsession_start();\n\n// Your code here

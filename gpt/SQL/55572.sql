@@ -1,0 +1,1 @@
+INSERT INTO Users (UserID, UserName, Email) \nVALUES (NEWID(), 'username123', 'user@example.com');

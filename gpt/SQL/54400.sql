@@ -1,0 +1,1 @@
+INSERT INTO Content (ContentID, Title) VALUES (1, 'My First Book');\nINSERT INTO CustomFieldValues (ValueID, ContentID, FieldID, FieldValue) VALUES (1, 1, 1, 'John Doe');\nINSERT INTO CustomFieldValues (ValueID, ContentID, FieldID, FieldValue) VALUES (2, 1, 2, '300');

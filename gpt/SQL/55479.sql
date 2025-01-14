@@ -1,0 +1,1 @@
+CREATE TABLE div_texts (\n    div_id VARCHAR(50) PRIMARY KEY,\n    text TEXT NOT NULL\n);\n\nINSERT INTO div_texts (div_id, text) VALUES ('diva', 'New text for div A');\nINSERT INTO div_texts (div_id, text) VALUES ('divb', 'New text for div B');

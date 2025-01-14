@@ -1,0 +1,1 @@
+Settings.Instance.BrowserTimeout = 60 ' Increase timeout to 60 seconds\nDim ie8 As New IE("[some website]")\nLogin(ie8)\nLogout(ie8)

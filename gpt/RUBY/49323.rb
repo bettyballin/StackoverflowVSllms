@@ -1,0 +1,1 @@
+# app/models/the_model.rb\nclass TheModel < ApplicationRecord\n  include TheModelHelpers\n  \n  # Your model code here\nend

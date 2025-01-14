@@ -1,0 +1,1 @@
+BACKUP LOG [YourDatabaseName] WITH TRUNCATE_ONLY;

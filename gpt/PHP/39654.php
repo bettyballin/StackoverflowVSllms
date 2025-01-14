@@ -1,0 +1,1 @@
+class Test {\n    private $attributes = [];\n\n    public function __construct($attributes) {\n        $this->attributes = $attributes;\n    }\n\n    public function __get($name) {\n        return isset($this->attributes[$name]) ? $this->attributes[$name] : null;\n    }\n\n    public function __set($name, $value) {\n        $this->attributes[$name] = $value;\n    }\n}

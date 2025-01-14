@@ -1,0 +1,1 @@
+function setTextboxValue() {\n    // Set the value of the textbox here\n    document.getElementById('<%= TextBox1.ClientID %>').value = 'YourValue';\n}

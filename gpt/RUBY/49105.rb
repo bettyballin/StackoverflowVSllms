@@ -1,0 +1,1 @@
+class Status < ApplicationRecord\n  has_many :bugs\nend

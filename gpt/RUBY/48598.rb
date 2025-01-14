@@ -1,0 +1,1 @@
+require 'test_helper'\n   require 'my_utils' # Ensure this matches the path to your utility class in the lib directory\n\n   class MyUtilsTest < ActiveSupport::TestCase\n     def test_truth\n       assert true\n     end\n\n     def test_some_utility_function\n       result = MyUtils.some_utility_function\n       assert_equal expected_result, result\n     end\n   end

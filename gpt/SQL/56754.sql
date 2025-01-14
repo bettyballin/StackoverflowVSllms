@@ -1,0 +1,1 @@
+SELECT \n    g.GroupName, \n    a.BankName, \n    a.AcctNumber, \n    a.Balance\nFROM \n    AccountGroups g\nLEFT JOIN \n    JoinAccountsGroups j ON g.ID = j.GID\nLEFT JOIN \n    Accounts a ON j.AID = a.ID\nORDER BY \n    g.GroupName, a.BankName;

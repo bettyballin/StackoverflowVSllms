@@ -1,0 +1,1 @@
+<?php\n$filename = "your_filename_here";\n$password = "your_password_here";\n\n$hash = hash_hmac("sha256", $filename, $password, true);\necho bin2hex($hash);\n?>

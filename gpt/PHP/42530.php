@@ -1,0 +1,1 @@
+<?php\n// Define the list of JavaScript files to be combined\n$files = [\n    'file1.js',\n    'file2.js',\n    'file3.js'\n];\n\n// Set the content type to JavaScript\nheader('Content-Type: application/javascript');\n\n// Output the contents of each file\nforeach ($files as $file) {\n    readfile($file);\n    echo "\n"; // Add a newline for separation\n}\n?>

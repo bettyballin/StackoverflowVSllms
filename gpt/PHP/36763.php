@@ -1,0 +1,1 @@
+require_once("main.class.php");\n\n// Replace these with your actual database credentials\n$dbuser = 'your_db_user';\n$dbpassword = 'your_db_password';\n$dbname = 'your_db_name';\n$dbhost = 'your_db_host';\n\n$main = new main($dbuser, $dbpassword, $dbname, $dbhost);

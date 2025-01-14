@@ -1,0 +1,1 @@
+$row['field'] = htmlspecialchars($row['field'], ENT_XML1, 'UTF-8');

@@ -1,0 +1,1 @@
+from django.http import HttpResponse\n\ndef my_view(request):\n    server_name = request.get_host()\n    user_agent = request.META['HTTP_USER_AGENT']\n    return HttpResponse(f"Server Name: {server_name}, User Agent: {user_agent}")

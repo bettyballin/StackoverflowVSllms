@@ -1,0 +1,1 @@
+SELECT \n       MyXmlColumn.value('(/root/dateElement)[1]', 'DATE') AS DateValue,\n       MyXmlColumn.value('(/root/intElement)[1]', 'INT') AS IntValue,\n       MyXmlColumn.value('(/root/decimalElement)[1]', 'DECIMAL(10,2)') AS DecimalValue\n   FROM MyXmlTable\n   WHERE \n       MyXmlColumn.exist('(/root/intElement[text() = 123])[1]') = 1;

@@ -1,0 +1,1 @@
+while ($row = mysql_fetch_array($result)) {\n    echo '<pre>';\n    var_dump($row); // This will provide detailed information about the array\n    echo '</pre>';\n}

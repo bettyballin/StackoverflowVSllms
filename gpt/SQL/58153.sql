@@ -1,0 +1,1 @@
+SELECT t1.id + 1 AS missing_id\nFROM table1 t1\nLEFT JOIN table1 t2 ON t1.id + 1 = t2.id\nWHERE t2.id IS NULL\nAND t1.id < (SELECT MAX(id) FROM table1);

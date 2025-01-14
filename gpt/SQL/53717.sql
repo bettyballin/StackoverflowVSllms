@@ -1,0 +1,1 @@
+SELECT * \n   FROM #__users \n   ORDER BY registerDate DESC \n   LIMIT 1;

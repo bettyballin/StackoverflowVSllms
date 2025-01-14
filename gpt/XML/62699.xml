@@ -1,0 +1,1 @@
+<target name="build-32bit">\n    <exec program="msbuild.exe">\n        <arg value="YourSolution.sln" />\n        <arg value="/p:Configuration=Release" />\n        <arg value="/p:Platform=x86" />\n    </exec>\n</target>

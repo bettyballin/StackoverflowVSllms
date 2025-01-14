@@ -1,0 +1,1 @@
+SELECT \n    month,\n    COUNT(*) AS count, \n    SUM(important_data) AS important_data\nFROM \n    my_table\nWHERE \n    date >= ? AND date <= ?\nGROUP BY \n    month\nORDER BY \n    month DESC;

@@ -1,0 +1,1 @@
+ew Ajax.Autocompleter('inputField', 'suggestions', '/autocomplete', {\n  frequency: 0.2  // Adjust this value as needed\n});

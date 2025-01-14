@@ -1,0 +1,1 @@
+<?php\nif (isset($_POST['myVariable'])) {\n    $myVariable = $_POST['myVariable'];\n    echo "The variable is: " . htmlspecialchars($myVariable);\n} else {\n    echo "Variable not set.";\n}\n?>

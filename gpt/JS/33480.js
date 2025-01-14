@@ -1,0 +1,1 @@
+<script type="text/javascript">\n       window.onload = function() {\n           var table = document.querySelector('table');\n           var cols = table.querySelectorAll('th, td');\n           for (var i = 0; i < cols.length; i++) {\n               cols[i].style.width = '150px';  // Example width, adjust as necessary\n           }\n       };\n   </script>

@@ -1,0 +1,1 @@
+from ctypes import *\n\n# Load the DLL\ndll = cdll.LoadLibrary("RingBell.dll")\n\n# Call the function using its unmangled name\ndll.ringBell()

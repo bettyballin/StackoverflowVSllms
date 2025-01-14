@@ -1,0 +1,1 @@
+SELECT \n      session_id,\n      login_name,\n      host_name,\n      program_name,\n      status\n  FROM \n      sys.dm_exec_sessions\n  WHERE \n      status = 'running';

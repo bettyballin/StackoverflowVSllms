@@ -1,0 +1,1 @@
+CREATE PROCEDURE SampleProcedure\nAS\nBEGIN\n    -- Create a local temporary table\n    CREATE TABLE #TempTable (\n        Id INT,\n        Name NVARCHAR(50)\n    );\n\n    -- Insert some data into the temporary table\n    INSERT INTO #TempTable (Id, Name)\n    VALUES (1, 'John Doe');\n\n    -- Select data from the temporary table\n    SELECT * FROM #TempTable;\nEND;

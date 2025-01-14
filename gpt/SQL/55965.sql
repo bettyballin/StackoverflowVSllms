@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\n-- Update the rows and output the Ids of the affected rows\nUPDATE Table1\nSET AlertDate = GETUTCDATE()\nOUTPUT INSERTED.Id\nWHERE AlertDate IS NULL;\n\nCOMMIT TRANSACTION;

@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <authentication mode="Forms">\n      <forms loginUrl="~/Login.aspx" timeout="30" /> <!-- timeout in minutes -->\n    </authentication>\n    <sessionState timeout="30" /> <!-- session timeout in minutes -->\n  </system.web>\n</configuration>

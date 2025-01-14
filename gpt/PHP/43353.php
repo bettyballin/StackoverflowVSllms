@@ -1,0 +1,1 @@
+function testfunction() {\n    return 'ok';\n}\n\nob_start();\necho testfunction();\n$functionOutput = ob_get_clean();\n\n$string = <<<HEREDOC\nplain text and now a function: {$functionOutput}\nHEREDOC;\n\necho $string;

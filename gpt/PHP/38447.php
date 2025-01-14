@@ -1,0 +1,1 @@
+// Directly in your view script\n$url = $this->url(array(\n    'controller' => 'my.controller',\n    'action' => 'my.action'\n));\necho $url . '#myanchor';

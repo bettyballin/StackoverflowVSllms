@@ -1,0 +1,1 @@
+SELECT \n    s.sid,\n    s.serial#,\n    s.username,\n    s.program,\n    su.tablespace,\n    su.segfile#,\n    su.segblk#,\n    su.blocks * t.block_size / 1024 / 1024 AS "MB_USED"\nFROM \n    v$session s,\n    v$sort_usage su,\n    dba_tablespaces t\nWHERE \n    s.saddr = su.session_addr\n    AND su.tablespace = t.tablespace_name\nORDER BY \n    su.tablespace, s.sid;

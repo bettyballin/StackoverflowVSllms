@@ -1,0 +1,1 @@
+CREATE VIEW OriginalDatabase.dbo.OriginalTableView AS\n   SELECT * FROM NewDatabase.dbo.NewTable;

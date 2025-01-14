@@ -1,0 +1,1 @@
+recipe 'Screwdriver' do\n  description 'A classic cocktail'\n  serve_in 'Highball Glass'\n  ingredient 2.ounces, :vodka\n  ingredient 5.ounces, :orange_juice\nend

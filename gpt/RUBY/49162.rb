@@ -1,0 +1,1 @@
+# app/models/user.rb\n    class User < ApplicationRecord\n      has_many :checklist_items, dependent: :destroy\n    end\n\n    # app/models/checklist_item.rb\n    class ChecklistItem < ApplicationRecord\n      belongs_to :user\n    end

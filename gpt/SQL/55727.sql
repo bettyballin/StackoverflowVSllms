@@ -1,0 +1,1 @@
+SELECT\n       s.sid,\n       s.serial#,\n       l.type,\n       l.mode_held,\n       l.mode_requested,\n       l.lock_id1,\n       l.lock_id2\n   FROM\n       v$lock l,\n       v$session s\n   WHERE\n       s.sid = l.sid;

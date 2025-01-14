@@ -1,0 +1,1 @@
+<location path="admin/user_search.aspx">\n      <system.web>\n         <authorization>\n            <allow verbs="GET,POST" roles="admin"/>\n            <deny verbs="*" users="*"/>\n         </authorization>\n      </system.web>\n   </location>

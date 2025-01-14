@@ -1,0 +1,1 @@
+;WITH CTE AS (\n    SELECT\n        B.Sector,\n        A.SectorKey\n    FROM \n        tbFoo A\n    INNER JOIN \n        tbFoo B \n    ON \n        A.SectorKey = B.SectorKey\n    WHERE \n        A.Sector IS NOT NULL\n        AND B.Sector IS NULL\n)\nUPDATE tbFoo\nSET Sector = CTE.Sector\nFROM CTE\nWHERE tbFoo.SectorKey = CTE.SectorKey\nAND tbFoo.Sector IS NULL

@@ -1,0 +1,1 @@
+import pandas as pd\n\n# Creating an initial DataFrame\ndata = {\n    'Name': ['Alice', 'Bob'],\n    'Age': [25, 30]\n}\ndf = pd.DataFrame(data)\n\n# Creating a new row to add\nnew_row = {'Name': 'Charlie', 'Age': 35}\n\n# Adding the new row\ndf = df.append(new_row, ignore_index=True)\n\nprint(df)

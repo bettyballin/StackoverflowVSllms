@@ -1,0 +1,1 @@
+$string = 'Your input string here';\n$test = preg_replace('/[^a-zA-Z0-9"-]/', ' ', $string);\necho $test;

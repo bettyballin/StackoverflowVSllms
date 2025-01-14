@@ -1,0 +1,1 @@
+Dim obj As Object\nSet obj = CreateObject("ComInteropExample.DataReader")\n\nDim result As String\nresult = obj.GetStringData(123)\nMsgBox result\n\nDim sum As Integer\nsum = obj.AddNumbers(5, 10)\nMsgBox sum

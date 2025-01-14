@@ -1,0 +1,1 @@
+# Running SVN update\nif system('svn update')\n  puts "SVN update was successful."\nelse\n  puts "SVN update failed."\nend\n\n# Running cp command\nif system('cp /source/directory /destination/directory')\n  puts "Copy command was successful."\nelse\n  puts "Copy command failed."\nend

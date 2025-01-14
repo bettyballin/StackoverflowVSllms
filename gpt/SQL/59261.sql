@@ -1,0 +1,1 @@
+select column_name, count(column_name)\nfrom table\ngroup by column_name\nhaving count(column_name) > 1;

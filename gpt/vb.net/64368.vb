@@ -1,0 +1,1 @@
+Dim username As String = HttpContext.Current.User.Identity.Name\n    Console.WriteLine("Current logged-in user: " & username)

@@ -1,0 +1,1 @@
+data = [{'name': 'Homer', 'age': 39}, {'name': 'Bart', 'age': 10}]\nsorted_data = sorted(data, key=lambda x: x['name'])\n\nprint(sorted_data)

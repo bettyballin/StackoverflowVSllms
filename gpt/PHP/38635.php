@@ -1,0 +1,1 @@
+<?php\n// Capture the search term from your website's search query\nif(isset($_GET['q'])) {\n    $searchTerm = htmlspecialchars($_GET['q']);\n    // Use the search term to query your database or generate dynamic content\n    echo "You searched for: " . $searchTerm;\n}\n?>

@@ -1,0 +1,1 @@
+ALTER TABLE your_table DROP INDEX fulltext_index_name;\nALTER TABLE your_table ADD FULLTEXT (column1, column2, column3);

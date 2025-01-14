@@ -1,0 +1,1 @@
+-- Enable row compression on a table\nALTER TABLE YourTable\nREBUILD WITH (DATA_COMPRESSION = ROW);\n\n-- Enable page compression on a table\nALTER TABLE YourTable\nREBUILD WITH (DATA_COMPRESSION = PAGE);

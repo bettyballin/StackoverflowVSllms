@@ -1,0 +1,1 @@
+from django.db.models.signals import post_save\nfrom django.dispatch import receiver\nfrom .models import Tag\nfrom django.core.cache import cache\n\n@receiver(post_save, sender=Tag)\ndef clear_cache(sender, instance, **kwargs):\n    term = instance.name[:2]  # Assuming search of at least 2 characters\n    cache.delete(f'tags_{term}')

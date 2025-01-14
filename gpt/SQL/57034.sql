@@ -1,0 +1,1 @@
+SELECT pl.id AS productLineID, pl.name AS productLineName, i.imageFileLocation, i.name AS imageName\nFROM ProductLines pl\nJOIN SpecificProducts sp ON pl.id = sp.productLineID\nJOIN ProductImageLinks pil ON sp.id = pil.specificProductID\nJOIN Images i ON pil.imageID = i.id\nGROUP BY pl.id\nORDER BY RAND()

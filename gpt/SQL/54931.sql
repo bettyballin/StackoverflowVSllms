@@ -1,0 +1,1 @@
+SELECT name, age FROM users1\nUNION ALL\nSELECT name, age FROM users2\nUNION ALL\nSELECT name, age FROM users3;

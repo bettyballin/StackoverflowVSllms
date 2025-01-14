@@ -1,0 +1,1 @@
+public function beforeFilter() {\n    $this->Auth->allow('index', 'view', 'display', 'login');\n    debug($this->Auth->allowedActions);\n    debug($this->Auth->user());\n}

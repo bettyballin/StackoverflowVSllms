@@ -1,0 +1,1 @@
+SELECT EmployeeId\nFROM dbo.EmpDept\nWHERE DeptId IN (2, 3)\nGROUP BY EmployeeId\nHAVING COUNT(DISTINCT DeptId) = 2;

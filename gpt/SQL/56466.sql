@@ -1,0 +1,1 @@
+(SELECT 'listings' AS table_name, id, date, content FROM listings)\nUNION\n(SELECT 'photos' AS table_name, id, date, content FROM photos)\nUNION\n(SELECT 'comments' AS table_name, id, date, content FROM comments)\nORDER BY date DESC;

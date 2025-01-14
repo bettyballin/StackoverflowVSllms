@@ -1,0 +1,1 @@
+<?php\nclass MyClass {\n    // Class implementation\n}\n?>

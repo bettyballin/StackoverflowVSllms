@@ -1,0 +1,1 @@
+<?php\necho 'Current user: ' . get_current_user() . PHP_EOL;

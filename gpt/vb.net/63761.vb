@@ -1,0 +1,1 @@
+' Setting the value of mytext\nMy.Settings.mytext = "Hello, World!"\n\n' Saving the settings\nMy.Settings.Save()\n\n' Retrieving the value of mytext\nDim textValue As String = My.Settings.mytext\nMessageBox.Show(textValue)

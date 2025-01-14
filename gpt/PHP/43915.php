@@ -1,0 +1,1 @@
+<?php\nclass InterfaceClass\n{\n    // Implementation details...\n}\n\nclass UsesInterfaceClass\n{\n    public function setObject(InterfaceClass $obj)\n    {\n        // The type hint ensures that $obj is an instance of InterfaceClass or its subclass\n    }\n}\n?>

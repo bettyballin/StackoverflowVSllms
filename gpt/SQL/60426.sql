@@ -1,0 +1,1 @@
+CREATE TABLE votes (\n    id SERIAL PRIMARY KEY,\n    entity_type VARCHAR(255) NOT NULL,\n    entity_id INT NOT NULL,\n    vote_count INT DEFAULT 0\n);\n\nCREATE UNIQUE INDEX idx_entity ON votes (entity_type, entity_id);

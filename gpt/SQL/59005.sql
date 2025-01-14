@@ -1,0 +1,1 @@
+SELECT *\nFROM xml\nWHERE ExtractValue(data, '//book[author="John Doe"]/title') = 'Some Book Title';

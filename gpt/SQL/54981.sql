@@ -1,0 +1,1 @@
+WITH SortedData AS (\n    SELECT \n        *,\n        ROW_NUMBER() OVER (PARTITION BY CategoryId ORDER BY SomeColumn) AS SortOrder\n    FROM \n        YourTable\n)\nUPDATE YourTable\nSET SortOrder = SortedData.SortOrder\nFROM YourTable\nJOIN SortedData ON YourTable.PrimaryKey = SortedData.PrimaryKey;

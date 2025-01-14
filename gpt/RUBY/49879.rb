@@ -1,0 +1,1 @@
+# config/routes.rb\n    resources :ratings, only: :create

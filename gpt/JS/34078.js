@@ -1,0 +1,1 @@
+function sanitizeInput(input) {\n    if (input === null || input === undefined) {\n        return null;\n    }\n    return input.replace(/['"\\\0\r\n\t\b\x1A]/g, '\\$&');\n}

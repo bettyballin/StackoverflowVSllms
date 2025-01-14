@@ -1,0 +1,1 @@
+<WebReferences>\n       <WebReference Include="http://example.com/service.asmx">\n         <Namespace>MyNamespace</Namespace>\n         <UrlBehavior>Static</UrlBehavior>\n       </WebReference>\n     </WebReferences>

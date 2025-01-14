@@ -1,0 +1,1 @@
+SELECT 'aa' AS value\nUNION ALL\nSELECT 'bb'\nUNION ALL\nSELECT 'cc';

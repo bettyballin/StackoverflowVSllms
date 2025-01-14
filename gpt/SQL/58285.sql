@@ -1,0 +1,1 @@
+SELECT \n    DATEADD(minute, (DATEDIFF(minute, 0, MyDate) / 15) * 15, 0) AS TimeBlock,\n    COUNT(ID) AS Count\nFROM \n    MyTable\nGROUP BY \n    DATEADD(minute, (DATEDIFF(minute, 0, MyDate) / 15) * 15, 0)\nORDER BY \n    TimeBlock

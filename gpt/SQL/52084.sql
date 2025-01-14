@@ -1,0 +1,1 @@
+SELECT\n    Radio,\n    SUM(CASE WHEN CONVERT(TIME, Time) < '12:00:00' THEN 1 ELSE 0 END) AS Window1,\n    SUM(CASE WHEN CONVERT(TIME, Time) > '13:00:00' AND CONVERT(TIME, Time) < '15:00:00' THEN 1 ELSE 0 END) AS Window2,\n    SUM(CASE WHEN CONVERT(TIME, Time) > '16:00:00' THEN 1 ELSE 0 END) AS Window3\nFROM \n    your_table_name\nGROUP BY \n    Radio\nORDER BY \n    Radio;

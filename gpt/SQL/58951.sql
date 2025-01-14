@@ -1,0 +1,1 @@
+SELECT b.profname\nFROM committee b\nWHERE NOT EXISTS (\n    SELECT a.commname\n    FROM committee a\n    WHERE a.profname = 'piper'\n    AND NOT EXISTS (\n        SELECT 1\n        FROM committee c\n        WHERE c.profname = b.profname\n        AND c.commname = a.commname\n    )\n)\nGROUP BY b.profname;

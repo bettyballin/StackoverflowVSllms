@@ -1,0 +1,1 @@
+SELECT kt.KeyField\nFROM KeyTable kt\nJOIN KeywordTable kwt ON kt.KeyID = kwt.KeyID\nWHERE kwt.Keyword = 'desired_keyword';

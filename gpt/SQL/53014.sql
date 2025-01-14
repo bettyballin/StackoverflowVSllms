@@ -1,0 +1,1 @@
+CREATE TABLE NameVariations (\n       NameID INT PRIMARY KEY,\n       OriginalName VARCHAR(50),\n       VariationName VARCHAR(50)\n   );\n\n   -- Example data\n   INSERT INTO NameVariations (NameID, OriginalName, VariationName)\n   VALUES\n   (1, 'William', 'Bill'),\n   (2, 'William', 'Billy'),\n   (3, 'William', 'Willy'),\n   (4, 'Joseph', 'Joe');

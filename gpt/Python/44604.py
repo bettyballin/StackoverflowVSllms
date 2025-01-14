@@ -1,0 +1,1 @@
+def add_bar_to_foo(foo, bar_key):\n    if bar_key not in foo.bars:\n        foo.bars.append(bar_key)\n        foo.bar_count = len(foo.bars)\n        foo.put()\n\ndef remove_bar_from_foo(foo, bar_key):\n    if bar_key in foo.bars:\n        foo.bars.remove(bar_key)\n        foo.bar_count = len(foo.bars)\n        foo.put()

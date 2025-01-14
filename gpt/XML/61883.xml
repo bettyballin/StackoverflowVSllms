@@ -1,0 +1,1 @@
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">\n  <DebugType>full</DebugType>\n  <Optimize>false</Optimize>\n</PropertyGroup>\n\n<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">\n  <DebugType>pdb-only</DebugType>\n  <Optimize>true</Optimize>\n</PropertyGroup>

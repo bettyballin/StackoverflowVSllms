@@ -1,0 +1,1 @@
+Partial Public Class Customers\n    ' Other methods and variables for this part of the class\nEnd Class

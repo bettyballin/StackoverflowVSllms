@@ -1,0 +1,1 @@
+SELECT bandId, COUNT(userId) AS friendCount\nFROM bandfriends\nGROUP BY bandId\nORDER BY friendCount DESC\nLIMIT 5;

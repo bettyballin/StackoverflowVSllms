@@ -1,0 +1,1 @@
+<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">\n    <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />\n    <property name="url" value="jdbc:oracle:thin:@fooServer:1521:MYSIDNAME" />\n    <property name="username" value="myDevDb" />\n    <property name="password" value="myDevDb" />\n</bean>

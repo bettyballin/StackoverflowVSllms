@@ -1,0 +1,1 @@
+SELECT *\nFROM foo\nWHERE 1 <> 1 AND ROWNUM = -1;

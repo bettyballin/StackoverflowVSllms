@@ -1,0 +1,1 @@
+<?php\nset_include_path(get_include_path() . PATH_SEPARATOR . '/absolute/path/to/files');\n\ninclude 'file1.php';\n?>

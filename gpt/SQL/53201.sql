@@ -1,0 +1,1 @@
+ALTER TABLE Orders\nADD UserID INT;\n\n-- Update the Orders table to use the new UserID column\nUPDATE Orders\nSET UserID = (SELECT UserID FROM UserMapping WHERE UserMapping.UserInitials = Orders.UserInitials);\n\n-- Drop the old UserInitials column if no longer needed\nALTER TABLE Orders\nDROP COLUMN UserInitials;

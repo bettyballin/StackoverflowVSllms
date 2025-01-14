@@ -1,0 +1,1 @@
+class Foo\n\n    def initialize(l)\n        @label = l\n    end\n\n    def label\n        @label\n    end\n\n    def abc\n        @abc\n    end\n\n    def abc=(abc)\n        @abc = abc\n    end\n\nend\n\nfoo = Foo.new("foo")\nfoo.abc = "abc"  # Correct way to call the setter method\nputs foo.label\nputs foo.abc\nputs "test"

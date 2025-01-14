@@ -1,0 +1,1 @@
+USE YourDatabase;\n\n-- Create a new SQL login\nCREATE LOGIN AspNetMembershipUser WITH PASSWORD = 'YourSecurePassword';\n\n-- Create a new database user\nCREATE USER AspNetMembershipUser FOR LOGIN AspNetMembershipUser;\n\n-- Grant necessary permissions\nGRANT SELECT, INSERT, UPDATE, DELETE ON dbo.MembershipTable TO AspNetMembershipUser;

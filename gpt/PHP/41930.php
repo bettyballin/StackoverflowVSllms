@@ -1,0 +1,1 @@
+// Example of fetching content from Bolt CMS through its API\n$apiUrl = 'https://your-bolt-site.com/api/records/pages';\n$response = file_get_contents($apiUrl);\n$pages = json_decode($response, true);\n\n// Display the content on your MODx site\nforeach ($pages as $page) {\n    echo '<h2>' . $page['title'] . '</h2>';\n    echo '<p>' . $page['content'] . '</p>';\n}

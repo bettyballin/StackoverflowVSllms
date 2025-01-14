@@ -1,0 +1,1 @@
+// Register user example\n$password = 'user_password';\n$hashed_password = password_hash($password, PASSWORD_BCRYPT);\n\n// Store $hashed_password in the database

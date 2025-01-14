@@ -1,0 +1,1 @@
+if (file_exists($_POST['brochure'])) {\n    // do some stuff\n}

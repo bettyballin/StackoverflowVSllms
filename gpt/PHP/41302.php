@@ -1,0 +1,1 @@
+if (!$mail->send()) {\n           error_log("Mailer Error: " . $mail->ErrorInfo);\n           echo "There was an error sending your email. Please try again later.";\n       } else {\n           echo "Message sent!";\n       }

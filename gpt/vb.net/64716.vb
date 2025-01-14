@@ -1,0 +1,1 @@
+Sub CallDotNetAssembly()\n    Dim projectInterop As Object\n    Set projectInterop = CreateObject("ProjectInteropExample.ProjectInterop")\n    projectInterop.ProcessProject "C:\Path\To\Your\ProjectFile.mpp"\nEnd Sub

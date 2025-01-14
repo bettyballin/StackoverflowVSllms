@@ -1,0 +1,1 @@
+$url = "https://example.com";\n$hash1 = hash('sha512', $url . '1');\n$hash2 = hash('sha512', $url . '2');\n$long_hash = $hash1 . $hash2;\necho $long_hash;

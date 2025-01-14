@@ -1,0 +1,1 @@
+<?php\nuse Doctrine\ORM\QueryBuilder;\n\n$queryBuilder = $entityManager->createQueryBuilder();\n$queryBuilder->select('u')\n    ->from('User', 'u')\n    ->where('u.name = :name')\n    ->setParameter('name', 'John Doe');\n\n$query = $queryBuilder->getQuery();\n$users = $query->getResult();

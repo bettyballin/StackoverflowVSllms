@@ -1,0 +1,1 @@
+SELECT MIN(id) as id, colorName\nFROM your_table\nGROUP BY colorName;

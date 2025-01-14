@@ -1,0 +1,1 @@
+try {\n    // Code that may throw an exception\n    $value = someFunction();\n} catch (Exception $e) {\n    // Handle exception\n    echo 'Caught exception: ',  $e->getMessage(), "\n";\n}

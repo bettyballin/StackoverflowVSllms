@@ -1,0 +1,1 @@
+SELECT XMLElement(\n    "my:name", \n    XMLAttributes('http://www.example.com/my' AS "xmlns:my"), \n    'John'\n) \nFROM dual;

@@ -1,0 +1,1 @@
+<?php\n$file = 'path/to/report.class.php';\n\nif (file_exists($file)) {\n    include $file;\n} else {\n    echo "File not found: " . htmlspecialchars($file);\n}\n?>

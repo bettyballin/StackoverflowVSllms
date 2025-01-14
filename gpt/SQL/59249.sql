@@ -1,0 +1,1 @@
+CREATE TABLE `#__sso_tokens` (\n    `id` INT AUTO_INCREMENT PRIMARY KEY,\n    `user_id` INT NOT NULL,\n    `token` VARCHAR(32) NOT NULL,\n    `expiration` INT NOT NULL\n);

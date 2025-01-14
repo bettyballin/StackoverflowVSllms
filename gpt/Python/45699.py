@@ -1,0 +1,1 @@
+class Factorial:\n    def compute(self, n):\n        if n == 0:\n            return 1\n        result = 1\n        for i in range(1, n + 1):\n            result *= i\n        return result\n\nif __name__ == "__main__":\n    f = Factorial()\n    print(f"Factorial of 5 is {f.compute(5)}")

@@ -1,0 +1,1 @@
+WITH RECURSIVE sequence AS (\n    SELECT 1 AS nr\n    UNION ALL\n    SELECT nr + 1\n    FROM sequence\n    WHERE nr < 5\n)\nSELECT nr FROM sequence;

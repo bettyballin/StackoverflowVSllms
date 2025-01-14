@@ -1,0 +1,1 @@
+SELECT\n  authors.stage_name,\n  COUNT(books.id) AS book_count\nFROM\n  authors\nLEFT JOIN\n  books ON books.author_id = authors.id\nGROUP BY\n  authors.stage_name;

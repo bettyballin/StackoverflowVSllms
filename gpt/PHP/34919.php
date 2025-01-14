@@ -1,0 +1,1 @@
+// Ensure session cookies are secure\n   ini_set('session.cookie_secure', 1);\n   ini_set('session.cookie_httponly', 1);

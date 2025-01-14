@@ -1,0 +1,1 @@
+ALTER TABLESPACE UNDOTBS ADD DATAFILE '/path/to/new/undotbs02.dbf' SIZE 1G;

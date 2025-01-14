@@ -1,0 +1,1 @@
+$openid->scope = 'openid email profile';

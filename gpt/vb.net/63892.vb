@@ -1,0 +1,1 @@
+Imports System.Web\n\nModule Module1\n    Sub Main()\n        Dim input As String = "<p>This is a paragraph.</p>"\n        Dim encodedString As String = HttpUtility.HtmlEncode(input)\n        Console.WriteLine(encodedString)\n    End Sub\nEnd Module

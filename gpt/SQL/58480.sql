@@ -1,0 +1,1 @@
+-- PostgreSQL schema for metadata\nCREATE TABLE media_metadata (\n    id SERIAL PRIMARY KEY,\n    blob_id UUID NOT NULL,\n    filename VARCHAR(255) NOT NULL,\n    upload_date TIMESTAMP NOT NULL,\n    user_id INT NOT NULL,\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);

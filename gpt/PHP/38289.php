@@ -1,0 +1,1 @@
+$contents = $wpdb->get_results( $wpdb->prepare("\n    SELECT a.MemberID, a.MemberName, GROUP_CONCAT(b.FruitName ORDER BY b.FruitName SEPARATOR ', ') AS FruitNames\n    FROM a\n    LEFT JOIN b ON a.MemberName = b.MemberName\n    GROUP BY a.MemberID, a.MemberName\n"));

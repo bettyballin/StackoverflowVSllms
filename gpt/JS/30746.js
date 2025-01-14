@@ -1,0 +1,1 @@
+var xmlData = encodeURIComponent(evt.target.data);\n   myRequest.data = "xml=" + xmlData;

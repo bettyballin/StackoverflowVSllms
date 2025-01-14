@@ -1,0 +1,1 @@
+SELECT * FROM someTable WHERE\n  someColumn = value1 OR\n  someColumn = value2 OR\n  someColumn = value3;

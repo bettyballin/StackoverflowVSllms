@@ -1,0 +1,1 @@
+-- Query with WHERE clause\nSelect t1.id, t2.companyName \nfrom table1 t1 \n  INNER JOIN table2 t2 on t2.id = t1.fkId \nWHERE t2.aField <> 'C';\n\n-- Query with ON clause\nSelect t1.id, t2.companyName \nfrom table1 t1 \n  INNER JOIN table2 t2 on t2.id = t1.fkId and t2.aField <> 'C';

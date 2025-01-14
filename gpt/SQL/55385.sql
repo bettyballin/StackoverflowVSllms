@@ -1,0 +1,1 @@
+CREATE TABLE roles (\n       role_id INT AUTO_INCREMENT PRIMARY KEY,\n       role_name VARCHAR(50) NOT NULL,\n       access_level VARCHAR(50) NOT NULL\n   );

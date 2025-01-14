@@ -1,0 +1,1 @@
+SELECT t1.itemcode, t1.desc\nFROM table AS t1\nWHERE t1.desc = (\n    SELECT TOP 1 t2.desc\n    FROM table AS t2\n    WHERE t2.itemcode = t1.itemcode\n    GROUP BY t2.desc\n    ORDER BY COUNT(t2.desc) DESC, t2.desc\n)\nGROUP BY t1.itemcode, t1.desc;

@@ -1,0 +1,1 @@
+<project>\n       ...\n       <dependencies>\n           <dependency>\n               <groupId>com.yourcompany</groupId>\n               <artifactId>base</artifactId>\n               <version>1.0-SNAPSHOT</version>\n               <classifier>tests</classifier>\n               <scope>test</scope>\n           </dependency>\n       </dependencies>\n   </project>

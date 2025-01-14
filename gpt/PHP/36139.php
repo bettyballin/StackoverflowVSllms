@@ -1,0 +1,1 @@
+<?php\n   require 'vendor/autoload.php';\n\n   use TeamTNT\TNTSearch\Stemmer\PorterStemmer;\n\n   $stemmer = new PorterStemmer();\n   $word = "running";\n   $stemmedWord = $stemmer->stem($word);\n\n   echo $stemmedWord; // Outputs: "run"\n   ?>

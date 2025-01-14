@@ -1,0 +1,1 @@
+// Example of inserting email job into the database\n   $db = Zend_Db_Table::getDefaultAdapter();\n   $data = [\n       'recipient_email' => $recipientEmail,\n       'subject' => $subject,\n       'body' => $body,\n       'status' => 'pending'\n   ];\n   $db->insert('email_queue', $data);

@@ -1,0 +1,1 @@
+ew Ajax.Autocompleter("autocomplete", "autocomplete_choices",\n                        "http://localhost/FormBuilder/forms/autoComplete",{});

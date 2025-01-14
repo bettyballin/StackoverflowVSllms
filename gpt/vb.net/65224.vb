@@ -1,0 +1,1 @@
+<HttpPost>\n    <ValidateInput(False)>\n    Public Function YourActionName(yourModel As YourModelType) As ActionResult\n        ' Your code here\n        Return View()\n    End Functio

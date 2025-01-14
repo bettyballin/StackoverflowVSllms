@@ -1,0 +1,1 @@
+RESTORE DATABASE [YourDatabaseName]\nFROM DISK = N'/path/to/your/backup.bak'\nWITH FILE = 1,  \nMOVE N'YourLogicalDataFileName' TO N'/path/to/data/YourDatabaseName.mdf',  \nMOVE N'YourLogicalLogFileName' TO N'/path/to/log/YourDatabaseName_log.ldf',  \nNOUNLOAD,  \nSTATS = 5;

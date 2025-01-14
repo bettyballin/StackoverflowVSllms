@@ -1,0 +1,1 @@
+Public Overridable Function CreateReport() As CrystalDecisions.CrystalReports.Engine.ReportDocument Implements CrystalDecisions.ReportSource.ICachedReport.CreateReport\n       Dim rpt As CrystalReport1 = New CrystalReport1\n       ' Remove the following line if Site property is not applicable\n       ' rpt.Site = Me.Site\n       Return rpt\n   End Functio

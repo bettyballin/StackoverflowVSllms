@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <sessionState mode="SQLServer" \n                  sqlConnectionString="data source=YourDatabaseServer;Integrated Security=true;" />\n  </system.web>\n</configuration>

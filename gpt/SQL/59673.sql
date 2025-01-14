@@ -1,0 +1,1 @@
+SELECT \n    Number, \n    GREATEST(Date1, Date2, Date3) AS Most_Recent_Date, \n    Cost \nFROM \n    TableName;

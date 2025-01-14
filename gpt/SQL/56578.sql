@@ -1,0 +1,1 @@
+DECLARE @year INT = 2009;\nDECLARE @month INT = 11;\nDECLARE @day INT = 12;\n\nDECLARE @date DATE = DATEFROMPARTS(@year, @month, @day);\n\n-- Example usage in a WHERE clause\nSELECT *\nFROM YourTable\nWHERE YourDateColumn = @date;

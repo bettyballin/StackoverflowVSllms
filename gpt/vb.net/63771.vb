@@ -1,0 +1,1 @@
+Class Window1 \n\n    Private obj As New MyListObject\n\n    Private Sub btn_AddName_Click(ByVal sender As System.Object, ByVal e As System.Windows.RoutedEventArgs) _ \n    Handles btn_AddName.Click\n\n        obj.AddName(TextBox1.Text)\n\n    End Sub\n\nEnd Class

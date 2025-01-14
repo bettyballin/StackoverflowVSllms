@@ -1,0 +1,1 @@
+<?php\n$name = "world";\necho sprintf("Hello, %s", $name);\n?>

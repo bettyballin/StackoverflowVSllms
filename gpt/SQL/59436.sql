@@ -1,0 +1,1 @@
+SELECT \n    NAME,\n    SUM(CASE WHEN REF IS NULL THEN 1 ELSE 0 END) AS null_count,\n    SUM(CASE WHEN REF IS NOT NULL THEN 1 ELSE 0 END) AS not_null_count\nFROM \n    your_table_name\nGROUP BY \n    NAME;

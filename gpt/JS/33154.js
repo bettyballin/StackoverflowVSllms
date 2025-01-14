@@ -1,0 +1,1 @@
+<script>\n    $(document).ready(function() {\n        $("#hoverElement").mouseover(function() {\n            $("#dialog").dialog({\n                modal: true,\n                buttons: {\n                    Ok: function() {\n                        $(this).dialog("close");\n                    }\n                }\n            });\n        });\n    });\n</script>

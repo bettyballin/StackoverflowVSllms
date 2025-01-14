@@ -1,0 +1,1 @@
+SELECT \n    id, \n    address, \n    latitude, \n    longitude,\n    ( 6371 * acos( cos( radians(:input_lat) ) * cos( radians( latitude ) ) * cos( radians( longitude ) - radians(:input_lng) ) + sin( radians(:input_lat) ) * sin( radians( latitude ) ) ) ) AS distance \nFROM \n    addresses \nHAVING \n    distance < :radius\nORDER BY \n    distance;

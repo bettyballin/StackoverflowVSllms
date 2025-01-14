@@ -1,0 +1,1 @@
+// application/views/your_view.php\n   <p><?php echo $formatted_string; ?></p>

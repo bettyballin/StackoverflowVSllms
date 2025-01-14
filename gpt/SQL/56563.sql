@@ -1,0 +1,1 @@
+UPDATE\n    TargetTable\nSET\n    ColumnName1 = @value,\n    ColumnName2 = @value2\nWHERE\n    Condition1 = @test;

@@ -1,0 +1,1 @@
+Dim syncQueue As New Queue()\nDim syncRoot As Object = CType(syncQueue.SyncRoot, Object)\n\nSyncLock syncRoot\n    ' Enqueue or Dequeue operations\n    syncQueue.Enqueue(item)\n    Dim dequeuedItem As Object = syncQueue.Dequeue()\nEnd SyncLock

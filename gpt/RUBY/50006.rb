@@ -1,0 +1,1 @@
+# config/initializers/load_oracle_models.rb\n\nDir[Rails.root.join('app/models/oracle/*.rb')].each do |file|\n  require file\nend

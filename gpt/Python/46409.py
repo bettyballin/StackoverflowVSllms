@@ -1,0 +1,1 @@
+# Given dictionary\nmy_dict = {'a': 1, 'b': 2, 'c': 3}\n\n# Convert to list of (key, value) tuples\nlist_of_tuples = list(my_dict.items())\nprint(list_of_tuples)\n# Output: [('a', 1), ('b', 2), ('c', 3)]

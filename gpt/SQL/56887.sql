@@ -1,0 +1,1 @@
+CREATE TABLE api_keys (\n        id SERIAL PRIMARY KEY,\n        user_id INT NOT NULL,\n        api_key_hash VARCHAR(64) NOT NULL,\n        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n    );

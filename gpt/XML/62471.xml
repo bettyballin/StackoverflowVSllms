@@ -1,0 +1,1 @@
+<ItemGroup>\n     <Reference Include="YourInteropAssembly">\n       <HintPath>path\to\YourInteropAssembly.dll</HintPath>\n     </Reference>\n   </ItemGroup>

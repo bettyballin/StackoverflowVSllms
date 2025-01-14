@@ -1,0 +1,1 @@
+add = lambda x, y: x + y\nprint(add(2, 3))  # Output: 5

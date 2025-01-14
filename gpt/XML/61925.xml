@@ -1,0 +1,1 @@
+<ItemGroup>\n     <ProjectReference Include="..\AnotherProject\AnotherProject.csproj" />\n   </ItemGroup>

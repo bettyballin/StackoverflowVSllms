@@ -1,0 +1,1 @@
+$form->addElement('text', 'email', array(\n    'label'      => 'Email:',\n    'required'   => true,\n    'validators' => array(\n        'EmailAddress'\n    ),\n    'messages' => array(\n        Zend_Validate_EmailAddress::INVALID => 'Custom error message for invalid email address.'\n    )\n));

@@ -1,0 +1,1 @@
+var table = document.getElementById('yourTableId');\n   var parent = table.parentNode;\n   var nextSibling = table.nextSibling;\n\n   parent.removeChild(table);\n   table.innerHTML = newTableHTML;\n   if (nextSibling) {\n       parent.insertBefore(table, nextSibling);\n   } else {\n       parent.appendChild(table);\n   }

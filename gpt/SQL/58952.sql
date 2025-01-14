@@ -1,0 +1,1 @@
+CREATE TABLE common_content (\n  id serial PRIMARY KEY,\n  content text NOT NULL\n);

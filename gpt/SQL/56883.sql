@@ -1,0 +1,1 @@
+WITH RECURSIVE Descendants AS (\n    SELECT id, parentID, 1 AS depth\n    FROM node\n    WHERE id = ? -- Replace with the given node id\n    UNION ALL\n    SELECT n.id, n.parentID, d.depth + 1\n    FROM node n\n    INNER JOIN Descendants d ON n.parentID = d.id\n    WHERE d.depth < ? -- Replace with the maximum depth\n)\nSELECT id\nFROM Descendants;

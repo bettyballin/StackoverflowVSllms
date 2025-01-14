@@ -1,0 +1,1 @@
+<?php\nrequire_once 'path/to/HTMLPurifier.auto.php';\n$config = HTMLPurifier_Config::createDefault();\n$purifier = new HTMLPurifier($config);\n$cleanHtml = $purifier->purify($userInput);\necho $cleanHtml;\n?>

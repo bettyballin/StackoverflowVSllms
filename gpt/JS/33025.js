@@ -1,0 +1,1 @@
+<script>\ndocument.addEventListener('DOMContentLoaded', (event) => {\n    if (window.top !== window.self) {\n        window.top.location = window.location.href;\n    }\n});\n</script>

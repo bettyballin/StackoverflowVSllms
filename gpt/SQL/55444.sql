@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_AfterUpdate\nON YourTableName\nAFTER UPDATE\nAS\nBEGIN\n    -- Check if the specific field is updated\n    IF UPDATE(YourFieldToMonitor)\n    BEGIN\n        UPDATE YourTableName\n        SET YourFieldToUpdate = 'YourNewValue'\n        FROM Inserted i\n        WHERE YourTableName.PrimaryKeyColumn = i.PrimaryKeyColumn;\n    END\nEND;

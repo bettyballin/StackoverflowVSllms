@@ -1,0 +1,1 @@
+<?php\n   function convertToEntities($string) {\n       $convmap = array(0x0, 0xFFFF, 0, 0xFFFF);\n       return mb_encode_numericentity($string, $convmap, 'UTF-8');\n   }\n\n   $hindiText = 'सूर्योदय';\n   echo convertToEntities($hindiText);\n   ?>

@@ -1,0 +1,1 @@
+# Gemfile\n   gem 'uglifier'

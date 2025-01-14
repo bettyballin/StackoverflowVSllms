@@ -1,0 +1,1 @@
+SELECT * FROM match WHERE id NOT IN ( SELECT id FROM email WHERE id IS NOT NULL );

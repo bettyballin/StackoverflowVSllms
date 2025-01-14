@@ -1,0 +1,1 @@
+SELECT column1 FROM table1 WHERE condition1\n     UNION ALL\n     SELECT column1 FROM table2 WHERE condition2;

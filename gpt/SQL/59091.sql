@@ -1,0 +1,1 @@
+-- Insert unique data into the new table\nINSERT INTO new_table (column1, column2)\nSELECT DISTINCT column1, column2\nFROM your_huge_table;\n\n-- Update original table to reference new table\nUPDATE your_huge_table yt\nJOIN new_table nt ON yt.column1 = nt.column1 AND yt.column2 = nt.column2\nSET yt.new_table_id = nt.id;

@@ -1,0 +1,1 @@
+<?php if ($this->contact->email_to && $this->params->get('show_email_form')) : ?>\n         <h2><?php echo JText::_('COM_CONTACT_EMAIL_FORM'); ?></h2>\n         <?php echo $this->loadTemplate('form'); ?>\n     <?php endif; ?>

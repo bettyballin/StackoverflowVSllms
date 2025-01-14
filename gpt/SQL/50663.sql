@@ -1,0 +1,1 @@
+INSERT INTO Votes (id, user_id, question_id) VALUES (?, ?, ?);\n\n-- Enqueue a task to update the vote count\n-- Pseudocode: enqueueTask('updateVoteCount', question_id);

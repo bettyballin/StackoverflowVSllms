@@ -1,0 +1,1 @@
+$func = function() {\n    echo "FOZZ";\n};\nfor($i = 0; $i < 100; $i++) {\n    $previousFunc = $func;\n    $func = function() use ($previousFunc) {\n        $previousFunc();\n    };\n}\n$func();

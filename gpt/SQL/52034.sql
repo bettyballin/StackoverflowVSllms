@@ -1,0 +1,1 @@
+DECLARE @TimeZoneId NVARCHAR(50) = 'Eastern Standard Time';\n\nSELECT \n    Id, \n    Data, \n    CreatedAt, \n    SWITCHOFFSET(CAST(CreatedAt AS DATETIMEOFFSET), DATENAME(TzOffset, SYSDATETIMEOFFSET() AT TIME ZONE @TimeZoneId)) AS CreatedAtLocal\nFROM \n    Records;

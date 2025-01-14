@@ -1,0 +1,1 @@
+a = lambda x: 1 + x\nprint(a(5))  # Output: 6

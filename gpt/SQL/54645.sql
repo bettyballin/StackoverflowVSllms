@@ -1,0 +1,1 @@
+SELECT a\nFROM b\nWHERE a SIMILAR TO 'a%|b%|c%';

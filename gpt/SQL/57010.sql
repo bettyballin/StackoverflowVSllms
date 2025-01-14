@@ -1,0 +1,1 @@
+bool\nint2\nint4\nint8\nfloat4\nfloat8\nnumeric\ntext\nvarchar\nchar\nbytea\ndate\ntimestamp\ntimestamptz\ntime\ntimetz\ninterval\nbool\nuuid\njson\njsonb

@@ -1,0 +1,1 @@
+CREATE TABLE HistoricalDates (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    event_name VARCHAR(255),\n    event_date VARCHAR(12) -- YYYY-MM-DD format, with optional leading '-'\n);\n\n-- Example insertions\nINSERT INTO HistoricalDates (event_name, event_date) VALUES\n('Founding of Rome', '-0753-04-21'),\n('Signing of the Magna Carta', '1215-06-15'),\n('Today', '2023-10-04');

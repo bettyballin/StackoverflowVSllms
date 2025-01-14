@@ -1,0 +1,1 @@
+<?php\n   $output = shell_exec('clisp -q -x "(+ 2 3)"');\n   echo "Result from Lisp: " . $output;\n   ?>

@@ -1,0 +1,1 @@
+$lastAccess = $_SESSION['last_access_time'];\n   $userId = $_SESSION['user_id'];\n   $query = "SELECT post_id, forum_id FROM posts WHERE created_at > ? AND user_id = ?";\n   $stmt = $pdo->prepare($query);\n   $stmt->execute([$lastAccess, $userId]);\n   $unreadPosts = $stmt->fetchAll(PDO::FETCH_ASSOC);

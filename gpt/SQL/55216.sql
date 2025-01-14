@@ -1,0 +1,1 @@
+SELECT ErrorNumberID FROM ErrorNumbers WHERE ErrorNumberID = 10;

@@ -1,0 +1,1 @@
+CREATE TABLE my_table (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(255) UNIQUE,\n    counter INT\n);

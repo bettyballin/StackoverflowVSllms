@@ -1,0 +1,1 @@
+Dim path = Request.Path\nIf Not String.IsNullOrEmpty(path) Then\n    path = path.Remove(0, 1).Replace(".aspx", "")\nEnd If\nDim current = path

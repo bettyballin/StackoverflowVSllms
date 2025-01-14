@@ -1,0 +1,1 @@
+-- Template for joining tables\n   SELECT \n       t1.column1,\n       t2.column2\n   FROM \n       table1 t1\n   JOIN \n       table2 t2 ON t1.id = t2.id\n   WHERE \n       t1.condition = @Parameter;

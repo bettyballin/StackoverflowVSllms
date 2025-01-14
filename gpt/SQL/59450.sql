@@ -1,0 +1,1 @@
+EXEC DBMS_STATS.GATHER_SCHEMA_STATS('schema_name');

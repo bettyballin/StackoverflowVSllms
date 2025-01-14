@@ -1,0 +1,1 @@
+$query = "SELECT produto.* \n          FROM produto \n          JOIN pt ON produto.refPT = pt.ref \n          JOIN amb_prod ON produto.refPT = amb_prod.idProduto \n          WHERE amb_prod.idAmbiente = '1';";\n$result_set = mysql_query($query);\n\nif (!$result_set) {\n    die('Invalid query: ' . mysql_error());\n}

@@ -1,0 +1,1 @@
+GRANT SELECT ON dbo.table_x TO [LimitedUser];

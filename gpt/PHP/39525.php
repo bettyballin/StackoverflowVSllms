@@ -1,0 +1,1 @@
+<img src="<?php echo URL::base(); ?>public/images/your_image.jpg" alt="Description">

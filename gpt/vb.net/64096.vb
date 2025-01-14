@@ -1,0 +1,1 @@
+Private Function DetermineDisplayOptional(task As Task) As Boolean\n    ' Implement logic to determine if the Optional property should be displayed\n    Return True ' Example: always display Optional\nEnd Functio

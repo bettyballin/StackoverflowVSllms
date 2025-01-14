@@ -1,0 +1,1 @@
+post 'custom_create', to: 'stories#custom_create', as: 'custom_create'

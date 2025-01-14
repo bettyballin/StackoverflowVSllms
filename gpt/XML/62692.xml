@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.apache.commons</groupId>\n    <artifactId>commons-text</artifactId>\n    <version>1.9</version>\n</dependency>\n<dependency>\n    <groupId>com.google.maps</groupId>\n    <artifactId>google-maps-services</artifactId>\n    <version>0.18.0</version>\n</dependency>

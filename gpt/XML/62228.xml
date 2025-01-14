@@ -1,0 +1,1 @@
+<system-properties>\n    <property name="java.rmi.server.hostname" value="sqlserver.dev.net"/>\n</system-properties>

@@ -1,0 +1,1 @@
+SET @myVariable = 10;

@@ -1,0 +1,1 @@
+INSERT INTO `aTable` (`A`, `B`)\nSELECT MAX(`A`) * 2, 'name'\nFROM (SELECT MAX(`A`) AS `A` FROM `aTable`) AS `subquery`;

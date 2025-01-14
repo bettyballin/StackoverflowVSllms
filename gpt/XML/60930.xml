@@ -1,0 +1,1 @@
+<authentication mode="Forms">\n        <forms cookieless="UseCookies" name=".MyAppAuth" loginUrl="~/Login.aspx" timeout="20"/>\n    </authentication>\n    ...\n    <sessionState timeout="20" cookieless="UseCookies" />

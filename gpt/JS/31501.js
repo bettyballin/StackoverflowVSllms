@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "/MyController/MyAction",\n    data: { val1: "test" },\n    success: function(result) {\n        // Do stuff\n        console.log("Success:", result.message);\n    },\n    error: function(request, status, errorThrown) {\n        // Handle error\n        console.log("Error:", request.responseJSON.message);\n    }\n});

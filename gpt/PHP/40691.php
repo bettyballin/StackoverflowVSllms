@@ -1,0 +1,1 @@
+<?php\n$command = 'ls /path/to/check';\n$output = [];\n$return_var = 0;\nexec($command . ' 2>&1', $output, $return_var);\necho "Output:\n";\nprint_r($output);\necho "\nReturn status: $return_var\n";\n?>

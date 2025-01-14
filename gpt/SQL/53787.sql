@@ -1,0 +1,1 @@
+BEGIN\n    testPackage.publicProc;\nEND;\n/

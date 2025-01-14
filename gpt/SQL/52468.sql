@@ -1,0 +1,1 @@
+-- Save current DATEFIRST setting\nDECLARE @originalDatefirst INT;\nSET @originalDatefirst = @@DATEFIRST;\n\n-- Set DATEFIRST to desired value\nSET DATEFIRST 1;\n\n-- Your query\nSELECT datepart(dw, ADateTimeColumn) as MondayBasedDate, ...\nFROM famousShipwrecks;\n\n-- Restore original DATEFIRST setting\nSET DATEFIRST @originalDatefirst;

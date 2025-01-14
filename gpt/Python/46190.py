@@ -1,0 +1,1 @@
+import requests\n\n     response = requests.get('https://localhost:1234', verify=False)\n     print(response.content)

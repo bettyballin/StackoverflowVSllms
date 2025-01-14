@@ -1,0 +1,1 @@
+lines = [...]  # Assume this is your list of lines\n\nline_number = 53\n\nif line_number <= len(lines):\n    print(lines[line_number - 1])  # Adjusting for zero-based index\nelse:\n    print(f"Error: The list has only {len(lines)} lines.")

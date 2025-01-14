@@ -1,0 +1,1 @@
+class NullAssignment\n  def method_missing(name, *args, &block)\n    # Provide default behavior or return nil\n  end\nend\n\nclass Schedule < ApplicationRecord\n  belongs_to :assignment\n  belongs_to :employee\n  belongs_to :job_title\n  has_many :blocks\n\n  def assignment\n    super || NullAssignment.new\n  end\nend

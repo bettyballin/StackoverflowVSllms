@@ -1,0 +1,1 @@
+<plugin>\n    <groupId>org.evosuite.plugins</groupId>\n    <artifactId>evosuite-maven-plugin</artifactId>\n    <version>1.0.6</version>\n    <executions>\n        <execution>\n            <goals>\n                <goal>generate</goal>\n            </goals>\n        </execution>\n    </executions>\n</plugin>

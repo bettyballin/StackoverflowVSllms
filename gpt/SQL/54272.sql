@@ -1,0 +1,1 @@
+SELECT /*+ INDEX(tbl1 your_index_name) */ tbl1.*\n   FROM tbl1 \n   JOIN tbl2\n     ON (tbl1.t1_pk = tbl2.t2_fk_t1_pk\n     AND tbl2.t2_strt_dt <= sysdate\n     AND tbl2.t2_end_dt >= sysdate)\n   JOIN tbl3 \n     ON (tbl3.t3_pk = tbl2.t2_fk_t3_pk\n     AND tbl3.t3_lkup_1 = 2577304\n     AND tbl3.t3_lkup_2 = 1220833)\n   WHERE tbl2.t2_lkup_1 = 1020000002981587;

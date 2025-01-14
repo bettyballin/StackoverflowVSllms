@@ -1,0 +1,1 @@
+WITH SplitWords AS (\n    SELECT\n        value AS word\n    FROM\n        YourTableName\n        CROSS APPLY STRING_SPLIT(description, ' ')\n)\nSELECT DISTINCT\n    LOWER(REPLACE(word, '.', '')) AS word\nFROM\n    SplitWords\nORDER BY\n    word;

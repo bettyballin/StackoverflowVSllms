@@ -1,0 +1,1 @@
+-- Incorrect usage causing double execution\n     ALTER TABLE foo.bar DROP CONSTRAINT bar1;\n     /

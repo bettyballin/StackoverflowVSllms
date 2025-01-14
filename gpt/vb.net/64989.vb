@@ -1,0 +1,1 @@
+Module Module1\n    Sub Main()\n        Try\n            Console.WriteLine(My.Resources.Welcome)\n        Catch ex As Exception\n            Console.WriteLine("An error occurred: " & ex.Message)\n        End Try\n    End Sub\nEnd Module

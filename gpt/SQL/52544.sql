@@ -1,0 +1,1 @@
+SET XACT_ABORT ON;\nBEGIN TRAN\n\nCREATE TABLE TempTable (c1 INT NULL)\n\nINSERT INTO TempTable (c1) SELECT 1\n\n-- This will cause an error because 'ABS' cannot be converted to INT\nINSERT INTO TempTable (c1) SELECT 'ABS'\n\nIF (@@ERROR = 0) \nBEGIN\n    PRINT 'no error'\n    COMMIT TRAN\nEND\nELSE\nBEGIN\n    PRINT 'error'\n    ROLLBACK TRAN\nEND

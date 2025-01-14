@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    // Process form data here\n\n    // Set the confirmation message\n    $_SESSION['message'] = 'Data saved successfully';\n\n    // Redirect to the GET handler\n    header('Location: confirmation.php');\n    exit;\n}\n?>

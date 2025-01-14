@@ -1,0 +1,1 @@
+# Install the gem if you haven't already\n# gem install ruby-prof\n\nrequire 'ruby-prof'\n\nRubyProf.start\n# Code to profile\nparse_data\nresult = RubyProf.stop\n\n# Print a flat profile to text\nprinter = RubyProf::FlatPrinter.new(result)\nprinter.print(STDOUT)

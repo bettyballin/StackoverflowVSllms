@@ -1,0 +1,1 @@
+CREATE ROLE read_access;\nGRANT SELECT ON detectors, parameters, run_history TO read_access;\n\nCREATE ROLE write_access;\nGRANT INSERT, UPDATE, DELETE ON detectors, parameters, run_history TO write_access;\n\n-- Assign roles to users\nGRANT read_access TO your_read_only_user;\nGRANT write_access TO your_write_user;

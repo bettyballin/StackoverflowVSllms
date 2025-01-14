@@ -1,0 +1,1 @@
+// src/Model/Table/MenuItemsTable.php\n   namespace App\Model\Table;\n\n   use Cake\ORM\Table;\n\n   class MenuItemsTable extends Table {\n       public function initialize(array $config): void {\n           parent::initialize($config);\n           $this->setTable('menu_items');\n           $this->setPrimaryKey('id');\n       }\n   }

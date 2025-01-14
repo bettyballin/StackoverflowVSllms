@@ -1,0 +1,1 @@
+require 'test_helper'\n\nclass UsersControllerTest < ActionController::TestCase\n  context "POST create" do\n    setup do\n      post :create, params: { user: { email: 'abc@abcd' } }\n    end\n\n    should "create a user" do\n      assert_not_nil assigns(:user)\n      assert_equal 'abc@abcd', assigns(:user).email\n    end\n  end\nend

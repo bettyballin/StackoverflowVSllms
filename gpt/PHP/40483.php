@@ -1,0 +1,1 @@
+// Start session at the beginning of your PHP file\nsession_start();

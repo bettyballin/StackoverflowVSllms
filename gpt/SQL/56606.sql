@@ -1,0 +1,1 @@
+CREATE TABLE timespan (\n    id SERIAL PRIMARY KEY,\n    event_id INT,\n    day DATE,\n    start_time TIME,\n    end_time TIME,\n    CONSTRAINT chk_timespan CHECK (start_time <= end_time)\n);

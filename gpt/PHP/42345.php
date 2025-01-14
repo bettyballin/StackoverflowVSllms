@@ -1,0 +1,1 @@
+<?php\n$servername = "your_server";\n$username = "your_username";\n$password = "your_password";\n$dbname = "your_database";\n\n$conn = mysqli_connect($servername, $username, $password, $dbname);\n\nif (!$conn) {\n    die("Connection failed: " . mysqli_connect_error());\n}\n?>

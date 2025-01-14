@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <security>\n      <requestFiltering>\n        <!-- Ensure these settings do not block chunked requests -->\n        <requestLimits maxAllowedContentLength="30000000" />\n      </requestFiltering>\n    </security>\n  </system.webServer>\n</configuration>

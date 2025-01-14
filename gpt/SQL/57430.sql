@@ -1,0 +1,1 @@
+SELECT LTRIM(column_name) AS trimmed_column\nFROM table_name;

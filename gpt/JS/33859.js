@@ -1,0 +1,1 @@
+$(document).ready(function(){\n    $("a").attr("href", "https://www.newwebsite.com");\n});

@@ -1,0 +1,1 @@
+class User {\n    public $name;\n    public $email;\n\n    public function __construct($name, $email) {\n        $this->name = $name;\n        $this->email = $email;\n    }\n\n    public function getDetails() {\n        return "Name: $this->name, Email: $this->email";\n    }\n}\n\n$user = new User("John Doe", "john@example.com");\necho $user->getDetails();

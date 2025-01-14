@@ -1,0 +1,1 @@
+class_alias('MyThirdPartyLibrary', 'third_party_library');

@@ -1,0 +1,1 @@
+for key, value in my_dict.items():\n    print(key, value)

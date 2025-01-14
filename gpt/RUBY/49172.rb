@@ -1,0 +1,1 @@
+class Blog::Post < ActiveRecord::Base\n     belongs_to :author, class_name: 'Blog::Author', foreign_key: 'blog_author_id'\n   end\n\n   class Blog::Author < ActiveRecord::Base\n     has_many :posts, class_name: 'Blog::Post', foreign_key: 'blog_author_id'\n   end

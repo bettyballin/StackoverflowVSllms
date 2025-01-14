@@ -1,0 +1,1 @@
+-- Example of using EXPLAIN to analyze a query\nEXPLAIN SELECT * FROM large_table WHERE non_indexed_column = 'some_value';

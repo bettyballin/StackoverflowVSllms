@@ -1,0 +1,1 @@
+SELECT a.column1, b.column2, c.column3\nFROM TableA a\nINNER JOIN TableB b ON a.id = b.a_id\nLEFT JOIN TableC c ON a.id = c.a_id;

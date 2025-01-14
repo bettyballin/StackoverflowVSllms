@@ -1,0 +1,1 @@
+SELECT DATE(date_field) AS date, COUNT(*) AS count\nFROM your_table\nWHERE DATE(date_field) >= CURDATE() - INTERVAL 30 DAY\nGROUP BY DATE(date_field)\nORDER BY DATE(date_field);

@@ -1,0 +1,1 @@
+-- Create Table2 first\nCREATE TABLE Table2 (\n    authorId INT PRIMARY KEY,\n    authorName VARCHAR(100) NOT NULL\n);\n\n-- Create Table1 with a foreign key constraint referencing Table2\nCREATE TABLE Table1 (\n    bookId INT PRIMARY KEY,\n    authorId INT,\n    bookName VARCHAR(100) NOT NULL,\n    CONSTRAINT fk_author FOREIGN KEY (authorId) REFERENCES Table2(authorId)\n);

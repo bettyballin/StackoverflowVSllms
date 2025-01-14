@@ -1,0 +1,1 @@
+<?php\n   session_start();\n\n   // Assuming this is the page where you handle the error\n   if (isset($_GET['error_id'])) {\n       $_SESSION['error_id'] = $_GET['error_id'];\n   }\n   ?>

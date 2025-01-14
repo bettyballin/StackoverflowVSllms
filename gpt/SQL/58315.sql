@@ -1,0 +1,1 @@
+WITH MaxHitCounts AS (\n    SELECT ThreadId, MAX(HitCount) AS MaxHitCount\n    FROM Samples\n    GROUP BY ThreadId\n)\nSELECT s.*\nFROM Samples s\nJOIN MaxHitCounts m\n    ON s.ThreadId = m.ThreadId AND s.HitCount = m.MaxHitCount\nWHERE s.FunctionId NOT IN (SELECT CalleeId FROM Callers)\nORDER BY s.ThreadId, s.HitCount DESC;

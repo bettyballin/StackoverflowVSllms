@@ -1,0 +1,1 @@
+class Example\n  def instance_method\n    puts "This is an instance method."\n  end\nend\n\nexample = Example.new\nexample.instance_method  # Called on the `example` object

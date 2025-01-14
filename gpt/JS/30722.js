@@ -1,0 +1,1 @@
+$.ajax({\n    url: 'https://example.com/api/data',\n    method: 'GET',\n    headers: {\n        'Authorization': 'Bearer your-token-here'\n    },\n    success: function(response) {\n        console.log(response);\n    },\n    error: function(error) {\n        console.error('Error:', error);\n    }\n});

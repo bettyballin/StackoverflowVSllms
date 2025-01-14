@@ -1,0 +1,1 @@
+CREATE TABLE users (\n    user_id INT PRIMARY KEY,\n    username VARCHAR(50) UNIQUE NOT NULL,\n    score INT DEFAULT 0\n);\n\nCREATE TABLE score_events (\n    event_id INT PRIMARY KEY AUTO_INCREMENT,\n    user_id INT,\n    event_type VARCHAR(50),\n    points INT,\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    FOREIGN KEY (user_id) REFERENCES users(user_id)\n);

@@ -1,0 +1,1 @@
+<?php\n$plain_password = 'my_password';\n$salt = substr(str_replace('+', '.', base64_encode(random_bytes(16))), 0, 22);\n$hashed_password = crypt($plain_password, '$6$' . $salt); // $6$ indicates SHA-512\n\nif ($hashed_password) {\n    exec("sudo useradd -p '" . escapeshellarg($hashed_password) . "' newusername");\n} else {\n    echo "Error hashing password.";\n}\n?>

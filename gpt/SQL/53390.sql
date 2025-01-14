@@ -1,0 +1,1 @@
+SELECT\n    *,\n    ( 3959 * acos( cos( radians($origin_lat) ) * cos( radians( lat ) ) * cos( radians( lon ) - radians($origin_lon) ) + sin( radians($origin_lat) ) * sin( radians( lat ) ) ) ) AS distance\nFROM\n    zip_code\nHAVING\n    distance < $distance\nORDER BY\n    distance;

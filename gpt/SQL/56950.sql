@@ -1,0 +1,1 @@
+WITH CTE AS (\n    SELECT table1.someField AS theField, \n           COUNT(table2.someField) AS cnt\n    FROM table1 \n    LEFT JOIN table2 ON table1.someField = table2.someField\n    GROUP BY table1.someField\n)\nSELECT theField, \n       cnt / (SELECT COUNT(someField) \n              FROM table1 \n              WHERE someField = CTE.theField) AS calculatedField\nFROM CTE;

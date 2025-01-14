@@ -1,0 +1,1 @@
+const express = require('express');\nconst request = require('request');\nconst app = express();\n\napp.use((req, res) => {\n  const url = 'https://targetwebsite.com' + req.url;\n  req.pipe(request({ url })).pipe(res);\n});\n\napp.listen(3000, () => {\n  console.log('Proxy server running on http://localhost:3000');\n});

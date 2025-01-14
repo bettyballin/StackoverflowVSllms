@@ -1,0 +1,1 @@
+<property name="hibernate.transaction.manager_lookup_class"\n          value="org.hibernate.transaction.WebSphereExtendedJTATransactionLookup"/>

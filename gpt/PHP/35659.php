@@ -1,0 +1,1 @@
+<?php\n   $python = new Python();\n   $python->exec("x = 2 + 3");\n   $result = $python->get("x");\n   echo $result; // Outputs 5\n   ?>

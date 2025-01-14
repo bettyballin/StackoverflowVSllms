@@ -1,0 +1,1 @@
+DECLARE @NewOrderID INT;\nEXEC GetUniqueID 'Order', @NewOrderID OUTPUT;\nSELECT @NewOrderID AS NewOrderID;\n\nDECLARE @NewDeliveryID INT;\nEXEC GetUniqueID 'Delivery', @NewDeliveryID OUTPUT;\nSELECT @NewDeliveryID AS NewDeliveryID;

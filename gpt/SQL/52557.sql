@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX UQ_Patrols_GuardID_Starts_Ends\n   ON Patrols (GuardID, Starts, Ends);

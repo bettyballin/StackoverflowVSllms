@@ -1,0 +1,1 @@
+Dim instance As New FancyClass()\nWith instance\n    .Level = "SuperSpiffy"\n    .Style = Slimming\n    .Execute()\nEnd With

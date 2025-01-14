@@ -1,0 +1,1 @@
+def ensure_utf8(data)\n  data.encode('UTF-8', invalid: :replace, undef: :replace, replace: '')\nend\n\noutput_data = ensure_utf8(user_input)

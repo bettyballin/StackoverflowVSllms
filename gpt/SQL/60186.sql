@@ -1,0 +1,1 @@
+SELECT \n    CAST(SUBSTRING(comment_text, \n                   PATINDEX('%[0-9]%', comment_text), \n                   LEN(comment_text) - PATINDEX('%[0-9]%', comment_text) + 1) AS INT) AS extracted_id\nFROM \n    comments\nWHERE \n    comment_text LIKE '%id %';

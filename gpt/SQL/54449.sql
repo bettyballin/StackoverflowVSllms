@@ -1,0 +1,1 @@
+SELECT DISTINCT name, type, date\nFROM table1\nWHERE\n    CASE :userInput\n        WHEN '1' THEN user1\n        WHEN '2' THEN user2\n        WHEN '3' THEN user3\n    END IS NOT NULL\nORDER BY\n    CASE :userInput\n        WHEN '1' THEN user1\n        WHEN '2' THEN user2\n        WHEN '3' THEN user3\n    END;

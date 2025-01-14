@@ -1,0 +1,1 @@
+$email = 'test@example.com';\n   if (filter_var($email, FILTER_VALIDATE_EMAIL)) {\n       echo "Valid email address.";\n   } else {\n       echo "Invalid email address.";\n   }

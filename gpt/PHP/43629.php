@@ -1,0 +1,1 @@
+function flush_rewrite_rules_on_activation() {\n    custom_post_types();\n    flush_rewrite_rules();\n}\nregister_activation_hook(__FILE__, 'flush_rewrite_rules_on_activation');

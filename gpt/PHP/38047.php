@@ -1,0 +1,1 @@
+function customError($errno, $errstr) {\n  echo "Error: [$errno] $errstr";\n}\nset_error_handler("customError");\n\necho $undefinedVariable; // This will trigger a custom error

@@ -1,0 +1,1 @@
+try {\n    $client = new SoapClient("http://yourwebserviceurl?wsdl");\n    $result = $client->GetStartTime();\n    $dateTime = new DateTime($result);\n    echo $dateTime->format('Y-m-d H:i:s');\n} catch (Exception $e) {\n    echo "Error: " . $e->getMessage();\n}

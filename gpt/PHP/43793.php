@@ -1,0 +1,1 @@
+if (!in_array(realpath('Mail.php'), array_map('realpath', get_included_files()))) {\n       require_once('Mail.php');\n   }

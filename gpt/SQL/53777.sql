@@ -1,0 +1,1 @@
+CREATE TABLE content (\n        id SERIAL PRIMARY KEY,\n        title VARCHAR(255),\n        content TEXT,\n        date TIMESTAMP,\n        link TEXT,\n        language VARCHAR(10),\n        UNIQUE (content, link)\n    );

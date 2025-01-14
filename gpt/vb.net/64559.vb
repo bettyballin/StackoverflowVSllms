@@ -1,0 +1,1 @@
+Option Strict On\n\nPublic Class ExampleClass\n    Public Sub New()\n        ' Constructor code\n    End Sub\n\n    Public Sub ExampleMethod()\n        Dim number As Integer = 10\n        If number > 5 Then\n            Console.WriteLine("Number is greater than 5")\n        Else\n            Console.WriteLine("Number is 5 or less")\n        End If\n    End Sub\nEnd Class

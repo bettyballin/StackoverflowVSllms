@@ -1,0 +1,1 @@
+<extension\n    point="org.eclipse.ui.commands">\n    <command\n        id="com.example.command.sample"\n        name="Sample Command">\n    </command>\n</extension>\n<extension\n    point="org.eclipse.ui.handlers">\n    <handler\n        commandId="com.example.command.sample"\n        class="com.example.handlers.SampleHandler">\n    </handler>\n</extension>

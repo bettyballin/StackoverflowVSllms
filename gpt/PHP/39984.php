@@ -1,0 +1,1 @@
+try {\n    $comObject = new COM("YourComObject.ClassName");\n    // Your code using the COM object\n} catch (com_exception $e) {\n    echo 'Exception: ',  $e->getMessage(), "\n";\n}

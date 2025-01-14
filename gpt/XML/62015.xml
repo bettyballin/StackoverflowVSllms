@@ -1,0 +1,1 @@
+<configuration>\n        <dataCache>\n            <hosts>\n                <host name="localhost" cachePort="22233" />\n            </hosts>\n            <caches>\n                <cache name="default" />\n            </caches>\n        </dataCache>\n    </configuration>

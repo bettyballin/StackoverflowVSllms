@@ -1,0 +1,1 @@
+<project outputDir=".\Confused" baseDir=".\">\n     <rule pattern="true" preset="normal">\n       <protection id="rename" />\n       <protection id="ctrl flow" />\n       <protection id="constants" />\n     </rule>\n     <module path="YourAssembly.dll" />\n   </project>

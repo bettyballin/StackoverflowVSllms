@@ -1,0 +1,1 @@
+INSERT INTO #temp2 (StoreId, StoreDesc, CommittedQty)\nSELECT StoreId, StoreDesc, SUM(CommittedQty) AS CommittedQty\nFROM (\n    SELECT StoreId, StoreDesc,\n        CASE \n            WHEN ReservedQty > QtyOnHand THEN QtyOnHand * AvgPrice \n            ELSE ReservedQty * AvgPrice \n        END AS CommittedQty\n    FROM #temp1\n) AS SubQuery\nGROUP BY StoreId, StoreDesc;

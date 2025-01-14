@@ -1,0 +1,1 @@
+<?php\n   if (extension_loaded('xslcache')) {\n       echo "XSLT Cache extension is loaded.";\n   } else {\n       echo "XSLT Cache extension is not loaded.";\n   }\n   ?>

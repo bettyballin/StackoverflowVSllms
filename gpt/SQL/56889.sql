@@ -1,0 +1,1 @@
+CREATE TABLE FileMetrics (\n       Revision INT,\n       FileId VARCHAR(255),\n       Value INT,\n       PRIMARY KEY (Revision, FileId)\n   );

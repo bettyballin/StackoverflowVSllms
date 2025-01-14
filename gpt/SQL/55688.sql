@@ -1,0 +1,1 @@
+CREATE PROCEDURE CopyNewMainRecord (IN oldID INT, OUT newID INT)\nBEGIN\n    -- Copy the main record\n    INSERT INTO MAIN (column1, column2, ...)\n    SELECT column1, column2, ...\n    FROM MAIN\n    WHERE ID = oldID;\n\n    -- Get the new ID\n    SET newID = LAST_INSERT_ID();  -- Assuming ID is auto-increment\nEND;

@@ -1,0 +1,1 @@
+SET GLOBAL autocommit = 0;

@@ -1,0 +1,1 @@
+CREATE SEQUENCE dbo.DocOrderSequence\n   START WITH 1\n   INCREMENT BY 1;

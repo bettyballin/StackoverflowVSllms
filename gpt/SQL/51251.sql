@@ -1,0 +1,1 @@
+-- Distinct\n   SELECT DISTINCT department_id FROM employees;\n   \n   -- Equivalent Group By\n   SELECT department_id FROM employees GROUP BY department_id;

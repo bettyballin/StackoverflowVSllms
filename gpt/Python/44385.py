@@ -1,0 +1,1 @@
+from lxml import etree\n\ndef transform_xml(xslt_path, xml_path, output_path):\n    xslt = etree.parse(xslt_path)\n    transform = etree.XSLT(xslt)\n    xml = etree.parse(xml_path)\n    result = transform(xml)\n    with open(output_path, 'wb') as f:\n        f.write(etree.tostring(result, pretty_print=True))\n\ntransform_xml('transform.xslt', 'output.xml', 'output.html')

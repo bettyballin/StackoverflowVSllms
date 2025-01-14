@@ -1,0 +1,1 @@
+integer = 123\nstring_representation = str(integer)\npermutations = permute(string_representation)\n# If you need the permutations as integers, convert them back\ninteger_permutations = [int(perm) for perm in permutations]\nprint(integer_permutations)

@@ -1,0 +1,1 @@
+-- SQL table for storing file metadata\n    CREATE TABLE uploaded_files (\n        id INT AUTO_INCREMENT PRIMARY KEY,\n        file_name VARCHAR(255) NOT NULL,\n        file_path VARCHAR(255) NOT NULL,\n        upload_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n    );

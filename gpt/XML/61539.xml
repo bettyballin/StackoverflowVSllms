@@ -1,0 +1,1 @@
+<validator name="myCustomValidator"\n           className="com.example.MyCustomValidator"\n           method="myCustomValidator"\n           methodParams="java.lang.Object,\n                         org.apache.commons.validator.Field"/>

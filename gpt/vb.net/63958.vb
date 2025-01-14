@@ -1,0 +1,1 @@
+Dim connectionString As String = "Data Source=D:\path\to\your\database.sqlite;Version=3;"

@@ -1,0 +1,1 @@
+<?php\n// Using rowCount() for an UPDATE query\n$pdo = new PDO("mysql:host=your_host;dbname=your_db", "username", "password");\n$sql = "UPDATE your_table SET column_name = value WHERE your_conditions";\n$stmt = $pdo->prepare($sql);\n$stmt->execute();\n$affectedRows = $stmt->rowCount();\n\necho "Number of affected rows: " . $affectedRows;\n?>

@@ -1,0 +1,1 @@
+$content = '[flv:example.flv 465 301]'; // Example content\n\n$pattern = '/\[flv:(\S+)\s+(\d+\s+\d+)\]/';\npreg_match($pattern, $content, $matches);\n\nprint_r($matches);

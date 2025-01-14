@@ -1,0 +1,1 @@
+CREATE TABLE xml_data (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    xml_content TEXT NOT NULL\n);

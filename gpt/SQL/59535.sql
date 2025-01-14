@@ -1,0 +1,1 @@
+SELECT column_name, COUNT(*)\nFROM table_name\nGROUP BY column_name\nHAVING COUNT(*) > 1;

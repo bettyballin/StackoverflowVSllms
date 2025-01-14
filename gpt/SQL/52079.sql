@@ -1,0 +1,1 @@
+SELECT M.Title, M.Director, M.LeadingMale, M.LeadingFemale, M.Villain, MM.Attribute, MM.Source, MM.Journalist\nFROM Movie M\nLEFT JOIN MovieMetadata MM ON M.MovieID = MM.MovieID\nWHERE M.Title = 'Green Lantern';

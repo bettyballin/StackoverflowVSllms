@@ -1,0 +1,1 @@
+<?php\nif (isset($_GET['id'])) {\n    $story_id = $_GET['id'];\n    // Your code to fetch and display the story using $story_id\n} else {\n    // Handle the error, if 'id' is not set\n    echo "Invalid story ID.";\n}\n?>

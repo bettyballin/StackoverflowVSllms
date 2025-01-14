@@ -1,0 +1,1 @@
+class UserService {\n    public function getUser(int $id): UserDTO {\n        // Fetch user from database and return as UserDTO\n    }\n    \n    public function saveUser(UserDTO $user): bool {\n        // Save user to database\n        return true;\n    }\n}

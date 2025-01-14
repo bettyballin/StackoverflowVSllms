@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    // Hide the submenu by default\n    $('ul ul').hide();\n\n    // Toggle the submenu on click\n    $('a.toggle').click(function(event) {\n        event.preventDefault(); // Prevent the default link behavior\n        $(this).next('ul').toggle();\n    });\n});

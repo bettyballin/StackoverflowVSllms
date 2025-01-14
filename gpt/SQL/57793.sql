@@ -1,0 +1,1 @@
+LogParser.exe "SELECT TO_LOCALTIME(TO_TIMESTAMP(date, time)) AS LogTime, cs-uri-stem, sc-status, sc-substatus, sc-win32-status\n               FROM '[YourIISLogPath]\*.log'\n               WHERE sc-status = 503\n               ORDER BY LogTime DESC" -rtp:-1

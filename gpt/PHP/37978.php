@@ -1,0 +1,1 @@
+function someFunction() {\n    // Some code that might fail\n    $result = doSomethingRisky();\n    if ($result === false) {\n        return new Error("Something went wrong", 123);\n    }\n    return $result;\n}

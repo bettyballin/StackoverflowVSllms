@@ -1,0 +1,1 @@
+require 'vendor/autoload.php';\n\n   $feed = new SimplePie();\n   $feed->set_feed_url('https://example.com/feed.rss');\n   $feed->init();\n   $feed->handle_content_type();\n\n   foreach ($feed->get_items() as $item) {\n       echo $item->get_title() . "\n";\n       echo $item->get_link() . "\n";\n       echo $item->get_description() . "\n\n";\n   }

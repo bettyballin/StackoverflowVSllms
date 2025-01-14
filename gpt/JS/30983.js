@@ -1,0 +1,1 @@
+// jQuery AJAX call with caching enabled\n$.ajax({\n    url: 'https://api.example.com/data',\n    type: 'GET',\n    cache: true,\n    success: function(data) {\n        console.log('Data received:', data);\n    },\n    error: function(xhr, status, error) {\n        console.log('Error occurred:', error);\n    }\n});

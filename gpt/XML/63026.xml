@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <compilation debug="true">\n      <assemblies>\n        <add assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>\n      </assemblies>\n    </compilation>\n  </system.web>\n</configuration>

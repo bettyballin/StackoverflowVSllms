@@ -1,0 +1,1 @@
+SELECT u.username\nFROM users u\nINNER JOIN (\n    SELECT userId\n    FROM submissions\n    GROUP BY userId\n    HAVING COUNT(submissionGuid) > 10\n) s ON u.userId = s.userId;

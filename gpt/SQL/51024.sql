@@ -1,0 +1,1 @@
+SELECT column_name, collation_name\n   FROM information_schema.columns\n   WHERE table_name = 'YourTableName';

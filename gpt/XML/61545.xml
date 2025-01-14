@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.springframework.security</groupId>\n    <artifactId>spring-security-acl</artifactId>\n    <version>5.6.1</version> <!-- Please check for the latest version -->\n</dependency>

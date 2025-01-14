@@ -1,0 +1,1 @@
+from fuzzywuzzy import fuzz\n   from fuzzywuzzy import process\n\n   text1 = "Name 3 , Comment"\n   text2 = "Name 3, Comment"\n\n   ratio = fuzz.ratio(text1, text2)\n   print(f"Similarity: {ratio}%")

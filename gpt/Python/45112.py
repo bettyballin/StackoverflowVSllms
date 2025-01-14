@@ -1,0 +1,1 @@
+import jwt\nimport datetime\n\ndef create_jwt(user_id, secret):\n    payload = {\n        'user_id': user_id,\n        'exp': datetime.datetime.utcnow() + datetime.timedelta(hours=1)\n    }\n    token = jwt.encode(payload, secret, algorithm='HS256')\n    return toke

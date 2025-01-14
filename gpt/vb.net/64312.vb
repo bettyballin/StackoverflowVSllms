@@ -1,0 +1,1 @@
+Sub Main()\n    Dim original As String = "aaaaaaaaaaaaaaaaaaaa"\n\n    ' Encrypt the string\n    Dim encrypted As String = AESCrypto.Encrypt(original)\n    Console.WriteLine($"Encrypted: {encrypted}")\n\n    ' Decrypt the string\n    Dim decrypted As String = AESCrypto.Decrypt(encrypted)\n    Console.WriteLine($"Decrypted: {decrypted}")\nEnd Sub

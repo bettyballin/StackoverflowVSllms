@@ -1,0 +1,1 @@
+require 'watir'\nrequire 'cucumber'\n\nGiven("I am on the homepage") do\n  @browser = Watir::Browser.new :chrome\n  @browser.goto "http://example.com"\nend\n\nWhen("I click on the login link") do\n  @browser.link(text: 'Login').click\nend\n\nThen("I should see the login form") do\n  expect(@browser.form(id: 'login_form')).to exist\nend

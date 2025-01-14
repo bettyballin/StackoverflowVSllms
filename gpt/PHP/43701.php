@@ -1,0 +1,1 @@
+public function __get($name) {\n    if (array_key_exists($name, $this->data)) {\n        return $this->data[$name];\n    }\n    throw new Exception("Undefined property: " . $name);\n}

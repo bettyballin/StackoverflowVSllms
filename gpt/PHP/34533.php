@@ -1,0 +1,1 @@
+$command = "smbclient //serverB/sharedfolder -U domain/username%password -c 'put localfile file.dummy'";\n   exec($command);

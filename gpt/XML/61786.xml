@@ -1,0 +1,1 @@
+<web-app>\n    ...\n    <context-param>\n        <param-name>javax.servlet.jsp.jstl.fmt.localizationContext</param-name>\n        <param-value>someContext</param-value>\n    </context-param>\n    ...\n</web-app>

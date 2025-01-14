@@ -1,0 +1,1 @@
+SELECT\n    COUNT(*) AS ItemCount\nFROM\n    dbo.myTable\nCROSS APPLY\n    omText.nodes('/things/Fruit') AS XTbl(Fruit)\nWHERE\n    Fruit.value('(imageId)[1]', 'int') = 55;

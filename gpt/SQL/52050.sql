@@ -1,0 +1,1 @@
+WHILE 1=1\n   BEGIN\n       INSERT INTO important_table DEFAULT VALUES;\n   END;

@@ -1,0 +1,1 @@
+while (!$rs_meta->EOF) {\n      echo "Table Name: " . $rs_meta->Fields["TABLE_NAME"]->value . "<br>";\n      $rs_meta->MoveNext();\n  }

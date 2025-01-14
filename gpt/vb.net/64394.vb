@@ -1,0 +1,1 @@
+' Accessing resource strings\nDim returnedString As String = "Failed because I don't know about it"\nIf returnedString.Equals(My.Resources.ErrorMessages.UnknownError) Then\n    ' Do something\nEnd If

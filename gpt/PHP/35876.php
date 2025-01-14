@@ -1,0 +1,1 @@
+$xml = get_param('xml');

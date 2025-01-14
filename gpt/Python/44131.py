@@ -1,0 +1,1 @@
+my_list = [3, 7, 19]\nindexed_list = list(enumerate(my_list))\nprint(indexed_list)  # Output: [(0, 3), (1, 7), (2, 19)]

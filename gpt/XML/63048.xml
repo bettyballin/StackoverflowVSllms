@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE your_root_element [\n    <!ENTITY Aring "&#197;">\n    <!ENTITY another_entity "&#x1234;">\n    <!-- Add other entities as needed -->\n]>\n<your_root_element>\n    <!-- Your XML content -->\n</your_root_element>

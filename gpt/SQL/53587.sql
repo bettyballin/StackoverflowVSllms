@@ -1,0 +1,1 @@
+INSERT INTO table_y\nSELECT * FROM (SELECT * FROM source_table_1 UNION ALL SELECT * FROM source_table_2 UNION ALL SELECT * FROM source_table_3) AS unioned\nOPTION (RECOMPILE);

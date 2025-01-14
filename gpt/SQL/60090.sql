@@ -1,0 +1,1 @@
+CREATE TABLE AuthorBook (\n    AuthorID INT,\n    BookID INT,\n    PRIMARY KEY (AuthorID, BookID),\n    FOREIGN KEY (AuthorID) REFERENCES Authors(AuthorID),\n    FOREIGN KEY (BookID) REFERENCES Books(BookID)\n);

@@ -1,0 +1,1 @@
+SELECT\n    session_id,\n    login_name,\n    host_name,\n    program_name\nFROM \n    sys.dm_exec_sessions\nWHERE \n    login_name = 'sa';

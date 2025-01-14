@@ -1,0 +1,1 @@
+<?php\n$string = 'ä';\n$encoding = 'ISO-8859-1'; // or any other encoding\necho mb_strlen($string, $encoding);\n?>

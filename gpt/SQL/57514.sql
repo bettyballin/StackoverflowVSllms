@@ -1,0 +1,1 @@
+SELECT to_char(date_updated, 'YYYY-MM-DD"T"HH24:MI:SS') AS formatted_date\nFROM your_table;

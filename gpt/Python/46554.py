@@ -1,0 +1,1 @@
+a = str(52500)\nb = str(5)\nformatted = '%s/%s' % (b.zfill(len(a)), a)\n# formatted looks like: '00005/52500'

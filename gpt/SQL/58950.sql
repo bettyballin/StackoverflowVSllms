@@ -1,0 +1,1 @@
+INSERT INTO common_content (content) VALUES ('Your common homepage content');

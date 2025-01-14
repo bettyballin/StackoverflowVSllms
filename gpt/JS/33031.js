@@ -1,0 +1,1 @@
+var str: string = "ab,cd,ef";\nvar delimiter: string = ",";\nvar lst: list of string = split(str, delimiter);

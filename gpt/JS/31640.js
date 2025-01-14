@@ -1,0 +1,1 @@
+var myArray = [2, 3, 3, 4, 2, 2, 5, 6, 7, 2];\n\nvar maxValue = Math.max(...myArray);\nvar minValue = Math.min(...myArray);\n\nconsole.log("Maximum value:", maxValue); // Output: 7\nconsole.log("Minimum value:", minValue); // Output: 2

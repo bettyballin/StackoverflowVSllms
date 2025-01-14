@@ -1,0 +1,1 @@
+<servlet>\n    <servlet-name>myService</servlet-name>\n    <servlet-class>com.example.server.MyServiceImpl</servlet-class>\n</servlet>\n\n<servlet-mapping>\n    <servlet-name>myService</servlet-name>\n    <url-pattern>/myApp/myService</url-pattern>\n</servlet-mapping>

@@ -1,0 +1,1 @@
+CREATE INDEX idx_employee_lastname ON employees(last_name);

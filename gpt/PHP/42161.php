@@ -1,0 +1,1 @@
+if (isset($_COOKIE['token'])) {\n    // Decode and unserialize the token\n    $token = unserialize(base64_decode($_COOKIE['token']));\n    // Do stuff with the token\n}

@@ -1,0 +1,1 @@
+$options = [\n    'http' => [\n        'header' => "User-Agent: MyCustomUserAgent\r\n"\n    ]\n];\n\n$context = stream_context_create($options);\n$content = file_get_contents('http://example.com', false, $context);\n\necho $content;

@@ -1,0 +1,1 @@
+CREATE TABLE Orders (\n    OrderID INT PRIMARY KEY,\n    OrderDetails NVARCHAR(255),\n    UserInitials NVARCHAR(10) -- Old column\n);

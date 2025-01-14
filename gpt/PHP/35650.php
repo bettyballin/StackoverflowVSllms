@@ -1,0 +1,1 @@
+if (strpos($username, ';') !== false) {\n       // Handle invalid input\n   }

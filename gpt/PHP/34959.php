@@ -1,0 +1,1 @@
+// Page2.php\n    error_reporting(E_ALL);\n    ini_set('display_errors', 1);\n\n    include('Page1.php');\n    echo $var;

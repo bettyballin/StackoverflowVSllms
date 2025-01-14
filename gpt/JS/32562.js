@@ -1,0 +1,1 @@
+(function() {\n    var ua = window.navigator.userAgent;\n    var isIE = /MSIE|Trident/.test(ua);\n\n    if (isIE) {\n        // Target elements with the class 'myClass'\n        var elements = document.querySelectorAll('.myClass');\n        elements.forEach(function(el) {\n            el.classList.remove('myClass');\n        });\n    }\n})();

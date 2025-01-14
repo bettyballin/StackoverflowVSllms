@@ -1,0 +1,1 @@
+DECLARE @GermanNumber NVARCHAR(50) = '1.000,00';\n\n-- Replace the thousands separator first\nSET @GermanNumber = REPLACE(@GermanNumber, '.', '');\n\n-- Replace the decimal separator\nSET @GermanNumber = REPLACE(@GermanNumber, ',', '.');\n\n-- Convert to the numeric type\nDECLARE @Number DECIMAL(18, 2) = CAST(@GermanNumber AS DECIMAL(18, 2));\n\nSELECT @Number;

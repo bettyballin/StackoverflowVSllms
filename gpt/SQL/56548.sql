@@ -1,0 +1,1 @@
+SELECT \n    @row := @row + 1 AS index, \n    t.column_name\nFROM \n    (SELECT @row := 0) r, \n    table_name t;

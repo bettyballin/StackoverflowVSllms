@@ -1,0 +1,1 @@
+CREATE TABLE `sessions` (\n       `id` VARCHAR(128) NOT NULL,\n       `data` TEXT NOT NULL,\n       `timestamp` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\n       PRIMARY KEY (`id`)\n   );

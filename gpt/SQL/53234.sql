@@ -1,0 +1,1 @@
+-- Potential risk of Cartesian product if WHERE clause is missed or incorrect\n    SELECT a.foo, b.foo\n    FROM a, b\n    WHERE a.x = b.x

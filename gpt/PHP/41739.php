@@ -1,0 +1,1 @@
+function my_custom_escape($input) {\n    return mysql_escape_string(stripslashes($input));\n}\n\n// Usage\n$x = my_custom_escape($_GET['x']);

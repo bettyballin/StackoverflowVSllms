@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <rewrite>\n      <rules>\n        <rule name="Redirect OLDdirname to NEWdirname">\n          <match url="^OLDdirname/(.*)" />\n          <action type="Redirect" url="http://mydomain.com/NEWdirname/{R:1}" redirectType="Permanent" />\n        </rule>\n      </rules>\n    </rewrite>\n  </system.webServer>\n</configuration>

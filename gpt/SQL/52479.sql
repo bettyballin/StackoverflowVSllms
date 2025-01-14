@@ -1,0 +1,1 @@
+-- Ensure the staging table is empty before the exchange\nALTER TABLE table_a_staging TRUNCATE;\n\n-- Exchange partitions\nALTER TABLE table_a\n    EXCHANGE PARTITION current_data WITH TABLE table_a_staging\n    WITHOUT VALIDATION;\n\n-- Optionally, truncate the staging table after the exchange\nALTER TABLE table_a_staging TRUNCATE;

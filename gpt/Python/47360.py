@@ -1,0 +1,1 @@
+server_address = ('', 8080)  # Use port 8080 or another available port\n     httpd = BaseHTTPServer.HTTPServer(server_address, YourHandlerClass)

@@ -1,0 +1,1 @@
+' VB Function Declaration\nPublic Function Add(a As Integer, b As Integer) As Integer\n    Add = a + b\nEnd Functio

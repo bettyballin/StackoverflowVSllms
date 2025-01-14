@@ -1,0 +1,1 @@
+# app/controllers/some_controller.rb\n   class SomeController < ApplicationController\n     def send_email\n       user = User.find(params[:id])\n       MailerJob.perform_async('ApplicationMailer', 'example_email', user.id)\n     end\n   end

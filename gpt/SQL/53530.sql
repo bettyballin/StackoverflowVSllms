@@ -1,0 +1,1 @@
+-- Ensure the database context is set to the correct database\nUSE [YourDatabase];\nGO\n\n-- Create a plan guide to optimize the query\nEXEC sp_create_plan_guide \n    @name = N'OptimizeIdNotEqualId',\n    @stmt = N'select id,col1,col2,col3 from table where id != id',\n    @type = N'SQL',\n    @module_or_batch = NULL,\n    @params = NULL,\n    @hints = N'OPTION (RECOMPILE)';\nGO

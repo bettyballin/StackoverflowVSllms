@@ -1,0 +1,1 @@
+ALTER USER username PROFILE resource_limited_profile;

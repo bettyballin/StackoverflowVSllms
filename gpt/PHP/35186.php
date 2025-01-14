@@ -1,0 +1,1 @@
+<?php\n\nnamespace Contact\Controller;\n\nuse Zend\Mvc\Controller\AbstractActionController;\nuse Zend\View\Model\ViewModel;\n\nclass IndexController extends AbstractActionController\n{\n    public function indexAction()\n    {\n        return new ViewModel();\n    }\n}

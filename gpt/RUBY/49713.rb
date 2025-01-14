@@ -1,0 +1,1 @@
+def example_method(*args)\n       puts args.inspect\n     end

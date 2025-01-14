@@ -1,0 +1,1 @@
+BEGIN\n  DBMS_SCHEDULER.create_job (\n    job_name        => 'MY_PROCEDURE_JOB',\n    job_type        => 'PLSQL_BLOCK',\n    job_action      => 'BEGIN YOUR_PROCEDURE; END;',\n    start_date      => SYSTIMESTAMP,\n    repeat_interval => NULL,\n    end_date        => NULL,\n    enabled         => TRUE\n  );\nEND;\n/

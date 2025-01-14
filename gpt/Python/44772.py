@@ -1,0 +1,1 @@
+with open(self.logfile_name, "a", newline=None) as logfile:\n    # Perform file operations\n    pass

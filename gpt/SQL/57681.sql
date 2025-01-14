@@ -1,0 +1,1 @@
+INSERT INTO articles (title, content, image_path) VALUES ('Sample Article', '<html>...</html>', '/images/sample.jpg');

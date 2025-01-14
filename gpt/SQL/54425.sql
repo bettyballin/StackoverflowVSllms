@@ -1,0 +1,1 @@
+CREATE TABLE Posts (\n    PostID INT PRIMARY KEY IDENTITY,\n    UserID INT,\n    UserName NVARCHAR(50),\n    PostText NVARCHAR(500),\n    PostDate DATETIME\n);

@@ -1,0 +1,1 @@
+function updateCart($productId, $quantity) {\n    if (isset($_SESSION['cart'][$productId])) {\n        if ($quantity > 0) {\n            $_SESSION['cart'][$productId] = $quantity;\n        } else {\n            unset($_SESSION['cart'][$productId]);\n        }\n    }\n}\n\n// Example usage\nupdateCart(1, 3); // Update quantity\nupdateCart(1, 0); // Remove item

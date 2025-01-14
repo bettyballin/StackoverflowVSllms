@@ -1,0 +1,1 @@
+-- Ensure you have an index on the userid column in the usersgroup table\nCREATE INDEX idx_usersgroup_userid ON usersgroup(userid);\n\n-- Optimized query with JOIN\nSELECT U.userid, ISNULL(G.groups_in, 0) AS groups_in\nFROM tbl_users U\nLEFT JOIN (\n    SELECT userid, COUNT(*) AS groups_in\n    FROM usersgroup\n    GROUP BY userid\n) G\nON U.userid = G.userid;

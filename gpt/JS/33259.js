@@ -1,0 +1,1 @@
+function a(p1, p2) {\n  // your function implementation\n}\n\nvar my1 = /* some value */;\nvar my2 = /* some value */;\n\nfunction b() {\n  return a(my1, my2);\n}

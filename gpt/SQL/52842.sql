@@ -1,0 +1,1 @@
+-- Insert example\nINSERT INTO your_table (your_date_column)\nVALUES (CONVERT(datetime, CONVERT(varchar, GETDATE(), 101)))\n\n-- Update example\nUPDATE your_table\nSET your_date_column = CONVERT(datetime, CONVERT(varchar, your_date_column, 101))

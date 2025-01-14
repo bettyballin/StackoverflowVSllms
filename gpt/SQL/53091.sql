@@ -1,0 +1,1 @@
+SELECT \n    SUM(enabled = 1) AS enabled_count, \n    COUNT(*) AS total_count \nFROM \n    widget;

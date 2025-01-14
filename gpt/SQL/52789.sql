@@ -1,0 +1,1 @@
+-- Create a new user\nCREATE USER myuser IDENTIFIED BY mypassword;\n\n-- Grant privileges to the user\nGRANT CONNECT, RESOURCE TO myuser;\n\n-- Connect as the new user and create a table\nCONNECT myuser/mypassword;\nCREATE TABLE mytable (\n    id NUMBER PRIMARY KEY,\n    name VARCHAR2(50)\n);\n\n-- 'myuser' is the user, and 'myuser.mytable' is the table within the 'myuser' schema

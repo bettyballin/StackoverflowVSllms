@@ -1,0 +1,1 @@
+<?php\n$directory = '/path/to/directory';\n$files = scandir($directory);\n\nforeach ($files as $file) {\n    if ($file !== '.' && $file !== '..') {\n        echo $file . "\n";\n    }\n}\n?>

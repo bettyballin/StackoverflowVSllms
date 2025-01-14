@@ -1,0 +1,1 @@
+SELECT   gpz.zname,\n         gpp.pname\nFROM     table1 gpp \nINNER JOIN table2 gpz ON gpz.p_id = gpp.p_id\nWHERE    1=1\n         AND gpp.active = 1\n         AND gpz.active = 1;

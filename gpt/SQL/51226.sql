@@ -1,0 +1,1 @@
+INSERT INTO Tags (TagName) VALUES ('shakira'), ('beyonce'), ('music'), ('video');\n\nINSERT INTO VideoTags (VideoID, TagID) VALUES \n(1, 1), (1, 2), (1, 3), (1, 4),\n(2, 2), (2, 3), (2, 4),\n(3, 2), (3, 3), (3, 4);

@@ -1,0 +1,1 @@
+<?php\n// index.php\ninclude("config.php");\ninclude("session.php");\n\n// Your code here\n?>

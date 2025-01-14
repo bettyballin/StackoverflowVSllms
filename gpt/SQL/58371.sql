@@ -1,0 +1,1 @@
+SELECT * FROM books WHERE author_id = 1;\n    SELECT * FROM books WHERE author_id = 2;\n    ...\n    SELECT * FROM books WHERE author_id = N;

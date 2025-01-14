@@ -1,0 +1,1 @@
+SELECT * FROM foreign_schema.someTableName;

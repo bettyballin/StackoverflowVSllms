@@ -1,0 +1,1 @@
+# app/models/user.rb\nclass User < ActiveResource::Base\n  self.site = "http://authentication-app.com"\n\n  # Method to fetch associated contacts\n  def contacts\n    Contact.where(user_id: self.id)\n  end\nend

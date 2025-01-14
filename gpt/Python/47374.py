@@ -1,0 +1,1 @@
+import hashlib\n\nmessage = "Hello, World!"\nhash_object = hashlib.sha256(message.encode())\nhash_hex = hash_object.hexdigest()\nprint(f"SHA-256 hash: {hash_hex}")

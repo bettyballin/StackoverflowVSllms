@@ -1,0 +1,1 @@
+from reportlab.graphics import renderPS\nfrom reportlab.graphics.shapes import Drawing, Rect, String\n\nd = Drawing(400, 200)\nd.add(Rect(50, 50, 300, 100, fillColor='red'))\nd.add(String(150, 100, 'Hello World', fontSize=18, fillColor='blue'))\n\nwith open("output.eps", "wb") as f:\n    renderPS.drawToFile(d, f)

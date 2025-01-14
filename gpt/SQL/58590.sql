@@ -1,0 +1,1 @@
+CREATE TABLE AuditTable (\n    AuditID INT IDENTITY(1,1) PRIMARY KEY,\n    TableName NVARCHAR(256),\n    PrimaryKeyValue INT,\n    UpdatedColumnName NVARCHAR(256),\n    OldValue NVARCHAR(MAX),\n    NewValue NVARCHAR(MAX),\n    ChangeDate DATETIME DEFAULT GETDATE(),\n    ChangedBy NVARCHAR(256)\n);

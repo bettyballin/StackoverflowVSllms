@@ -1,0 +1,1 @@
+$street = $myEmployee->Address->Street;

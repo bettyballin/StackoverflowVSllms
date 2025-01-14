@@ -1,0 +1,1 @@
+int\nbigint\nsmallint\ntinyint\nbit\ndecimal\nnumeric\nmoney\nsmallmoney\nfloat\nreal\ndate\ndatetime\ndatetime2\nsmalldatetime\ntime\nchar\nvarchar\ntext\nnchar\nnvarchar\nntext\nbinary\nvarbinary\nimage\nuniqueidentifier\nxml

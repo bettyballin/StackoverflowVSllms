@@ -1,0 +1,1 @@
+class My_View_Helper_FormatName extends Zend_View_Helper_Abstract\n{\n    public function formatName($name)\n    {\n        // Perform any formatting or logic here\n        return strtoupper($name);\n    }\n}\n\n// In your view template\n<h2><?= $this->formatName($this->objectName) ?></h2>

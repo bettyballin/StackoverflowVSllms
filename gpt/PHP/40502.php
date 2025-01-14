@@ -1,0 +1,1 @@
+$sql = "UPDATE photos \n        SET photo_title = :photo_title \n        WHERE photo_id = :photo_id";\n\n$stmt = $pdo->prepare($sql);\n$stmt->execute(['photo_title' => $_POST['photo_title'], 'photo_id' => 3]);

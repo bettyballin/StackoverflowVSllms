@@ -1,0 +1,1 @@
+$data = '123412347JB91742F';\n\nif (preg_match('/^[A-Z0-9]+$/', $data)) {\n    echo $data;\n} else {\n    exit;\n}

@@ -1,0 +1,1 @@
+import sys\nfrom PyQt5.QtWidgets import QApplication, QPushButton\n\napp = QApplication(sys.argv)\n\nbutton = QPushButton('Hello World')\nbutton.resize(200, 100)\nbutton.show()\n\nsys.exit(app.exec_())

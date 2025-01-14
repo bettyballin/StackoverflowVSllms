@@ -1,0 +1,1 @@
+function convertToFloat(&$array) {\n    array_walk_recursive($array, function(&$item) {\n        $item = floatval($item);\n    });\n}\n\n// Example usage\n$array = [\n    ["1.1", "2.2", "3.3"],\n    ["4.4", "5.5", "6.6"]\n];\n\nconvertToFloat($array);\n\nprint_r($array);

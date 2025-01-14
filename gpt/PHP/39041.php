@@ -1,0 +1,1 @@
+class Test_TttController extends Zend_Controller_Action\n    {\n        public function indexAction()\n        {\n            // Action logic here\n        }\n    }

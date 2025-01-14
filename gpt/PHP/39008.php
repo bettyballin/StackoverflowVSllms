@@ -1,0 +1,1 @@
+$tpl = new template;\n$tpl->Load("!theme/{$GLOBALS['THEME']}/templates/home.tpl");\n$tpl->GetObjects();\n\n// more PHP code here\n\n$tpl->CleanZones();\n$tpl->Flush();

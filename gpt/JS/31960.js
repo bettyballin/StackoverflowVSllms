@@ -1,0 +1,1 @@
+jQuery(document).ready(function() {\n    jQuery('form').each(function() {\n        jQuery(this).ajaxForm({\n            target: $(this).prev('div'),\n            success: function(responseText, statusText, xhr, $form) {\n                $form.prev('div').html(responseText).fadeIn('slow');\n            }\n        });\n    });\n});

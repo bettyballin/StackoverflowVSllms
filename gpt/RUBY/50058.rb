@@ -1,0 +1,1 @@
+@seat = Seat.new(:flight_id => @flight.id)\n\n@seat = Seat.new({:flight_id => @flight.id})

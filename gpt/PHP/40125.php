@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['HTTP_HOST'] == 'domain.com') {\n    header('Location: https://www.domain.com' . $_SERVER['REQUEST_URI']);\n    exit();\n}\n?>

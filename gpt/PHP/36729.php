@@ -1,0 +1,1 @@
+<?php\nif ($_FILES['file']['error'] == UPLOAD_ERR_OK) {\n    $fileTmpPath = $_FILES['file']['tmp_name'];\n    $fileType = mime_content_type($fileTmpPath);\n    \n    echo "The MIME type of the uploaded file is: " . $fileType;\n} else {\n    echo "File upload error.";\n}\n?>

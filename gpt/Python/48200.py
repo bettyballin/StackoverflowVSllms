@@ -1,0 +1,1 @@
+somelist = [1, 2, 3, 4, 5]\nindices_to_delete = {0, 2}\nsomelist = [item for idx, item in enumerate(somelist) if idx not in indices_to_delete]\nprint(somelist)  # Output: [2, 4, 5]

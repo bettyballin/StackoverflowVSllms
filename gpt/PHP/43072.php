@@ -1,0 +1,1 @@
+<?php\nrequire 'vendor/autoload.php';\n\nuse App\Models\User;\n\n$user = new User();\n// Use the $user object as needed

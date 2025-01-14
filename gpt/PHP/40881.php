@@ -1,0 +1,1 @@
+<?php\ndefined('BASEPATH') OR exit('No direct script access allowed');\n\nclass Rss_model extends CI_Model {\n\n    public function __construct() {\n        parent::__construct();\n    }\n\n    public function get_posts() {\n        $query = $this->db->get('posts'); // Assuming your table name is 'posts'\n        return $query->result();\n    }\n}\n?>

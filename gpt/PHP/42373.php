@@ -1,0 +1,1 @@
+function _verifywebsite($id) {\n    $row = $this->websites->fetchRow("id = ?", $id);\n    if ($row) {\n        $row->verified_date = date('Y-m-d H:i:s'); // Get the current date and time in the correct format\n        $row->save();\n    }\n}

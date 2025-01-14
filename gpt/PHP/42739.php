@@ -1,0 +1,1 @@
+// Make sure you have the GMP extension enabled\n$largeNumber = gmp_init('123456789012345678901234567890');\n$anotherLargeNumber = gmp_init('987654321098765432109876543210');\n\n$result = gmp_add($largeNumber, $anotherLargeNumber);\necho gmp_strval($result); // Output: 1111111110111111111011111111100

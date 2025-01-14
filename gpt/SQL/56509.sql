@@ -1,0 +1,1 @@
+-- Get the first and last names of employees in the Sales department\n   SELECT \n       first_name, \n       last_name\n   FROM \n       employees\n   WHERE \n       department = 'Sales';

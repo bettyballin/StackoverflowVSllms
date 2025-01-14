@@ -1,0 +1,1 @@
+$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, 'http://localhost/path/to/rss-feed.xml');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$rssContent = curl_exec($ch);\nif ($rssContent === FALSE) {\n    echo "cURL Error: " . curl_error($ch);\n} else {\n    echo $rssContent;\n}\ncurl_close($ch);

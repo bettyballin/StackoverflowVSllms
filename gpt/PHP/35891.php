@@ -1,0 +1,1 @@
+$string = "Your string here";\n$hexDump = bin2hex($string);\necho $hexDump;

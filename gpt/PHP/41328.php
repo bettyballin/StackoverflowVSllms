@@ -1,0 +1,1 @@
+<?php\n$file = 'counter.txt';\n\n// Read the current count\n$count = (int) file_get_contents($file);\n\n// Increment the count\n$count++;\n\n// Write the new count back to the file\nfile_put_contents($file, $count);\n\n// Return the new count\necho $count;\n?>

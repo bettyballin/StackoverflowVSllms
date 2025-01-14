@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <globalization culture="en-GB" uiCulture="en-GB" />\n    <!-- Other settings -->\n  </system.web>\n</configuration>

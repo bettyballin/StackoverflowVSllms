@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\n   xhr.open("GET", "https://example.com/api/data", true);\n   xhr.onreadystatechange = function () {\n       if (xhr.readyState == 4 && xhr.status == 200) {\n           console.log(xhr.responseText);\n       }\n   };\n   xhr.send();

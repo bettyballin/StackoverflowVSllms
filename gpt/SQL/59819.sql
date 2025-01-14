@@ -1,0 +1,1 @@
+CREATE DATABASE LINK myodbc_link\n  CONNECT TO "username" IDENTIFIED BY "password"\n  USING 'myodbc';

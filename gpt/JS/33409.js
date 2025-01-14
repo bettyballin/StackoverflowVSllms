@@ -1,0 +1,1 @@
+window.onerror = function(message, url, line) {\n       alert("JavaScript error: " + message + " on line " + line);\n       return true;\n   };

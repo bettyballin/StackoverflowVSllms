@@ -1,0 +1,1 @@
+<configuration>\n     <system.web>\n       <pages validateRequest="false" />\n     </system.web>\n     <location path="Default.aspx">\n       <system.web>\n         <pages validateRequest="false" />\n       </system.web>\n     </location>\n   </configuration>

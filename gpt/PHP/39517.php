@@ -1,0 +1,1 @@
+; UNIX: '/path1:/path2'\n; Windows: '\path1;\path2'\ninclude_path = ".:/var/www/includes"

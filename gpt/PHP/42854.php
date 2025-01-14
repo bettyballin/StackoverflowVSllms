@@ -1,0 +1,1 @@
+$dob = "12/31/2020"; // Example date input\n$doba = explode("/", $dob);\n\n// Make sure to use the correct order: month, day, year\n$date = date("Y-m-d", mktime(0, 0, 0, $doba[0], $doba[1], $doba[2]));\n\necho $date; // Outputs: 2020-12-31

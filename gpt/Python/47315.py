@@ -1,0 +1,1 @@
+# Client-side code\nimport requests\n\ndef get_sensitive_data():\n    response = requests.get("https://myserver.com/api/sensitive")\n    return response.json()\n\ndata = get_sensitive_data()\nprint(data)

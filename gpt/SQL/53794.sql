@@ -1,0 +1,1 @@
+ALTER TABLE Customers\nADD CleanLastName AS REPLACE(REPLACE(REPLACE(LastName, '&apos;', ''), '&#39;', ''), '''', '');\n\n-- Create an index on the computed column for better performance\nCREATE INDEX IDX_CleanLastName ON Customers(CleanLastName);

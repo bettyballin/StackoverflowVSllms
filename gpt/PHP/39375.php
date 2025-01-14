@@ -1,0 +1,1 @@
+$shuffledString = str_shuffle($sourceString);

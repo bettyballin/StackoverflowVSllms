@@ -1,0 +1,1 @@
+import codecs\n\n# Open file in binary mode and use codecs to handle encoding\nwith codecs.open('output.log', 'w', 'utf-8') as file:\n    Name = 'w\xc3\xb6rner'.decode('utf-8')\n    file.write('Name: %s - %s\n' % (Name, type(Name)))

@@ -1,0 +1,1 @@
+def calculate(operation, a, b)\n     case operation\n     when "add"\n       a + b\n     when "subtract"\n       a - b\n     else\n       "Invalid operation"\n     end\n   end\n\n   result = calculate("add", 2, 3)\n   puts result  # Output: 5

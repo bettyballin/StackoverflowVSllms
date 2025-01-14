@@ -1,0 +1,1 @@
+function myFunction($param) {\n      return $param;\n  }

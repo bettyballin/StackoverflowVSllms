@@ -1,0 +1,1 @@
+// Example of extending WordPress with a custom plugin\n/*\nPlugin Name: Custom Plugin\nDescription: A custom plugin for extending WordPress functionality.\nVersion: 1.0\nAuthor: Your Name\n*/\n\nfunction custom_plugin_function() {\n    echo 'Hello, this is a custom plugin!';\n}\nadd_action('wp_footer', 'custom_plugin_function');

@@ -1,0 +1,1 @@
+INSERT INTO Organizations (Id, Name, ParentId) VALUES\n(1, 'Organization A', NULL),  -- Top-level organization\n(2, 'Organization B', 1),\n(3, 'Organization C', 1),\n(4, 'Organization D', 2),\n(5, 'Organization E', 2),\n(6, 'Organization F', 3);

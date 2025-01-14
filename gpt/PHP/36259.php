@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\nif (isset($_SESSION['myObject'])) {\n    $myObject = unserialize($_SESSION['myObject']); // Retrieve the object from the session\n    echo $myObject->property; // Output: Hello, World!\n} else {\n    echo "No object found in session.";\n}\n?>

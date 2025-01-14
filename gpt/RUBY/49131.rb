@@ -1,0 +1,1 @@
+require "pry"\n\n[1, 2, 3, 4, 5].each do |item|\n  if item == 2\n    # This starts a Pry session from which you can interact with your Rails application\n    binding.pry\n  end\nend

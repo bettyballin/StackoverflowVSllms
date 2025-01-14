@@ -1,0 +1,1 @@
+SELECT \n  (SELECT COUNT(*) \n   FROM tblEventDates \n   WHERE MONTH(evdtApplication) = MONTH(GETDATE())\n     AND YEAR(evdtApplication) = YEAR(GETDATE())) AS monthApplicationEntered,\n  (SELECT COUNT(*) \n   FROM tblEventDates \n   WHERE YEAR(evdtApplication) = YEAR(GETDATE())) AS yearApplicationEntered;

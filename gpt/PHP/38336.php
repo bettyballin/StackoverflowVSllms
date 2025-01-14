@@ -1,0 +1,1 @@
+class Bootstrap extends Zend_Application_Bootstrap_Bootstrap\n    {\n        protected function _initSomeResource()\n        {\n            // Set a breakpoint here\n            $resource = new SomeResource();\n            return $resource;\n        }\n    }

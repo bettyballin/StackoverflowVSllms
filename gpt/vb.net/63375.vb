@@ -1,0 +1,1 @@
+Public Interface ICustomerData\n    Property Name As String\n    Property Address As String\n    ' Add other common properties here\nEnd Interface

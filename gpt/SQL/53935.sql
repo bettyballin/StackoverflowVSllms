@@ -1,0 +1,1 @@
+CREATE FULLTEXT INDEX ON YourTableName (YourVarcharColumn)\nKEY INDEX ui_example\nWITH STOPLIST = SYSTEM;

@@ -1,0 +1,1 @@
+CREATE TABLE items (\n    id INT PRIMARY KEY,\n    name VARCHAR(255),\n    `order` INT\n);

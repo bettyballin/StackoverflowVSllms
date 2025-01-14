@@ -1,0 +1,1 @@
+Dim lRow As New DataGridViewRow()\n\nDim lCell1 As New DataGridViewTextBoxCell()\nlCell1.Value = "Cell 1"\nlRow.Cells.Add(lCell1)\n\nDim lCell2 As New DataGridViewTextBoxCell()\nlCell2.Value = "Cell 2"\nlRow.Cells.Add(lCell2)\n\nDataGridView1.Rows.Add(lRow)

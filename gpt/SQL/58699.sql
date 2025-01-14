@@ -1,0 +1,1 @@
+CREATE PARTITION FUNCTION MyPartitionFunction (UNIQUEIDENTIFIER)\nAS RANGE LEFT FOR VALUES (NEWID(), NEWID(), NEWID());\n-- This would result in an error

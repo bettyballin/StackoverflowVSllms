@@ -1,0 +1,1 @@
+from openpyxl import load_workbook, Workbook\n\n# Reading Excel File\nwb = load_workbook('example.xlsx')\nws = wb.active\nfor row in ws.iter_rows(values_only=True):\n    print(row)\n\n# Writing Excel File\nnew_wb = Workbook()\nnew_ws = new_wb.active\nnew_ws['A1'] = 'Hello World!'\nnew_wb.save('new_example.xlsx')

@@ -1,0 +1,1 @@
+class State:\n    def __init__(self):\n        # Initialize state\n        pass\n\n    # Methods to save/load state

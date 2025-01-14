@@ -1,0 +1,1 @@
+WHERE CONTAINS (Col1, 'MyToken')

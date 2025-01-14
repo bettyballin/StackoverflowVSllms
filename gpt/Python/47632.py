@@ -1,0 +1,1 @@
+directories = ['directory_0', 'directory_1', 'directory_2']\nfiles = ['file_a', 'file_b', 'file_c']\n\noutput = [f'{directory}/{file}' for directory, file in zip(directories, files)]\nfor line in output:\n    print(line)\n\n# Output:\n# directory_0/file_a\n# directory_1/file_b\n# directory_2/file_c

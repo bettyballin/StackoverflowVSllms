@@ -1,0 +1,1 @@
+-- Oracle\n   CREATE TABLE MyTable (\n       ID NUMBER,\n       Name VARCHAR2(50),\n       CreatedAt DATE\n   );

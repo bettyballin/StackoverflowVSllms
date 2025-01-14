@@ -1,0 +1,1 @@
+SELECT LEFT(field1, LEN(field1) - 1) AS ModifiedField\nFROM YourTableName;

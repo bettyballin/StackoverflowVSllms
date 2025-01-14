@@ -1,0 +1,1 @@
+LOADJAVA -user username/password@db_url WebServiceClient.class

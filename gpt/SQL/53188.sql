@@ -1,0 +1,1 @@
+CREATE PROCEDURE #TempProcedure\nAS\nBEGIN\n    -- Your complex logic here\n    SELECT Column1, Column2\n    FROM MyTable\n    WHERE SomeCondition = 'Value';\nEND;\nGO\n\n-- Execute the temporary procedure\nEXEC #TempProcedure;\n\n-- Drop the temporary procedure\nDROP PROCEDURE #TempProcedure;

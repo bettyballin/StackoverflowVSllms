@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.springframework.security</groupId>\n    <artifactId>spring-security-test</artifactId>\n    <version>${spring-security.version}</version>\n    <scope>test</scope>\n</dependency>

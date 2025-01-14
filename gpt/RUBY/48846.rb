@@ -1,0 +1,1 @@
+<div id="messages">\n  <%= render @user.messages %>\n</div>

@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $input = $_POST['input'];\n    \n    // Perform your database query here\n    // Example result from the database\n    $result = [\n        'result1' => 'Value from DB 1',\n        'result2' => 'Value from DB 2'\n    ];\n    \n    // Return the result as JSON\n    echo json_encode($result);\n}\n?>

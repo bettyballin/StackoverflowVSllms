@@ -1,0 +1,1 @@
+<?php\n$handle = fopen('filename.php', 'w');\nif ($handle) {\n    $phpCode = "<?php \$var = \$var2; ?>";\n    fwrite($handle, $phpCode);\n    fclose($handle);\n} else {\n    echo "Could not open file for writing.";\n}\n?>

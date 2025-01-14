@@ -1,0 +1,1 @@
+USE msdb;\nGO\n\nEXEC sp_addrolemember 'JobCreator', 'YourDeveloperUserName';\n-- Repeat the above line for each developer user\nGO

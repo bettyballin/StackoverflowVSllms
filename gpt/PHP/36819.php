@@ -1,0 +1,1 @@
+<?php\n$number = 1400000;\necho number_format($number, 0, '', '');\n?>

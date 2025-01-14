@@ -1,0 +1,1 @@
+// Example JavaScript for a very long delay\nsetTimeout(function() {\n  window.location.reload();\n}, 1000000000); // Delay in milliseconds (this example uses ~11.5 days)

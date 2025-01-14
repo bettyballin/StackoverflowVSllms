@@ -1,0 +1,1 @@
+SELECT * FROM your_table INTO OUTFILE '/path/to/yourfile.csv' FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n';

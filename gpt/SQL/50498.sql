@@ -1,0 +1,1 @@
+-- Rebuild all indexes\nALTER INDEX ALL ON table1 REBUILD;\n\n-- Reorganize all indexes\nALTER INDEX ALL ON table1 REORGANIZE;

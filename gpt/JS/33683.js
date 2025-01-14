@@ -1,0 +1,1 @@
+tinymce.init({\n  selector: 'textarea',\n  valid_elements : '*[*]',\n  valid_children : "+body[style], +div[style]",\n  forced_root_block: 'p',\n  entity_encoding: 'numeric'\n});

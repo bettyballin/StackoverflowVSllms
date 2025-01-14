@@ -1,0 +1,1 @@
+DELETE FROM tRealtyTrac\nWHERE creation IN (\n    SELECT creation\n    FROM (\n        SELECT creation, ROW_NUMBER() OVER (ORDER BY creation) AS row_num\n        FROM tRealtyTrac\n    ) subquery\n    WHERE row_num <= 103000\n);

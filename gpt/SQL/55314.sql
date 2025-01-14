@@ -1,0 +1,1 @@
+CREATE TABLE categories (\n    id SERIAL PRIMARY KEY,\n    parent_id INTEGER REFERENCES categories(id),\n    title VARCHAR(255)\n);

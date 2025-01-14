@@ -1,0 +1,1 @@
+_for_n2 = int(math.sqrt(10**7))\nprint(n_for_n2)

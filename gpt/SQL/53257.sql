@@ -1,0 +1,1 @@
+SELECT \n    ID,\n    COALESCE(Col1, Col2, Col3) AS Col,\n    CASE\n        WHEN Col1 IS NOT NULL THEN 'Col1'\n        WHEN Col2 IS NOT NULL THEN 'Col2'\n        ELSE 'Col3'\n    END AS Source\nFROM \n    MyTable;

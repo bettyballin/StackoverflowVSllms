@@ -1,0 +1,1 @@
+SELECT t2.parent, \n       t2.child, \n       sys_connect_by_path(t1_child.description, '/') AS path\nFROM t2\nJOIN t1 t1_parent ON t2.parent = t1_parent.id\nJOIN t1 t1_child ON t2.child = t1_child.id\nCONNECT BY PRIOR t2.child = t2.parent\nSTART WITH t2.parent = 1;

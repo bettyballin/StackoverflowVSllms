@@ -1,0 +1,1 @@
+SELECT name, email \nFROM name_email AS ne\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM name_email AS ne_inner\n    WHERE ne.name = ne_inner.name\n    AND ne_inner.email NOT LIKE '%@yahoo.com'\n    AND ne.email LIKE '%@yahoo.com'\n);

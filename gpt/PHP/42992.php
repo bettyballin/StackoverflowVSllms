@@ -1,0 +1,1 @@
+Schema::table('articles', function (Blueprint $table) {\n      $table->fullText(['title', 'body']);\n  });

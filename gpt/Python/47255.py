@@ -1,0 +1,1 @@
+import re\n\nfilename = "adfadsfads.blah.txt"\npattern = r'^(.*?)(\.[^.]*$|$)'\n\nmatch = re.match(pattern, filename)\nif match:\n    filename_without_extension = match.group(1)\n    print(filename_without_extension)

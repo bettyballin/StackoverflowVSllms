@@ -1,0 +1,1 @@
+// confirmation.php\n$data = json_decode(file_get_contents('php://input'), true);\nif ($data['status'] === 'downloaded') {\n    // Handle the confirmation, e.g., log it, update database, etc.\n    file_put_contents('download_log.txt', "File downloaded successfully at " . date('Y-m-d H:i:s') . "\n", FILE_APPEND);\n}

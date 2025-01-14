@@ -1,0 +1,1 @@
+// script.js\nwindow.addEventListener('load', function() {\n    var throbber = document.getElementById('throbber');\n    var content = document.getElementById('content');\n    \n    // Hide the throbber\n    throbber.style.display = 'none';\n    \n    // Show the content\n    content.style.display = 'block';\n});

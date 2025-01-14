@@ -1,0 +1,1 @@
+START TRANSACTION;\n\nUPDATE my_table\nSET count = count - 1\nWHERE token = my_token;\n\nDELETE FROM my_table\nWHERE token = my_token AND count <= 0;\n\nCOMMIT;

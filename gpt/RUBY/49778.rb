@@ -1,0 +1,1 @@
+def login(user)\n     reset_session\n     session[:user_id] = user.id\n   end

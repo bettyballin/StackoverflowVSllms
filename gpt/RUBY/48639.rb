@@ -1,0 +1,1 @@
+def recipe(name, &block)\n  drink = Drink.new(name)\n  drink.instance_eval(&block)\n  puts drink\n  drink.dispense\nrescue StandardError => e\n  puts "An error occurred: #{e.message}"\nend

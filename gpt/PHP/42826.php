@@ -1,0 +1,1 @@
+// Example of mysqli usage\n   $mysqli = new mysqli("localhost", "user", "password", "database");\n\n   if ($mysqli->connect_error) {\n       die("Connection failed: " . $mysqli->connect_error);\n   }\n\n   // Perform queries\n   $result = $mysqli->query("SELECT * FROM tablename");\n\n   // Close connection\n   $mysqli->close();

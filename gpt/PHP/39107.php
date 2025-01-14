@@ -1,0 +1,1 @@
+ini_set('memory_limit', '256M');\n    $proxy = new SoapClient('someaddress?wsdl');

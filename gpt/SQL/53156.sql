@@ -1,0 +1,1 @@
+-- Connect to the S2 schema\nsqlplus S2_user/password@DB2\n\n-- Export data to a file\nspool table2_data.csv\nSET COLSEP ','\nSET ECHO OFF\nSET FEEDBACK OFF\nSET HEADING OFF\nSET LINESIZE 1000\nSELECT * FROM Table2;\nspool off

@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>com.fasterxml.uuid</groupId>\n    <artifactId>java-uuid-generator</artifactId>\n    <version>4.0.1</version>\n</dependency>

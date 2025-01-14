@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    window.onpageshow = function(event) {\n        if (event.persisted) {\n            window.location.reload();\n        }\n    };\n</script>

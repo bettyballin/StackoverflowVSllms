@@ -1,0 +1,1 @@
+$('html, body').animate({\n    scrollTop: $("#branch1").offset().top\n}, 1000); // 1000 is the duration of the animation in milliseconds

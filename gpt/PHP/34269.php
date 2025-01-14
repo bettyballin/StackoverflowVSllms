@@ -1,0 +1,1 @@
+<?php\n$string = "A/B/PA ID U/PA ID U/C/D";\n$pattern = '/\/?([^\/]+)/';\n\npreg_match_all($pattern, $string, $matches);\n\n$segments = $matches[1]; // Extracted segments\nforeach ($segments as $segment) {\n    echo "($segment) ";\n}\n?>

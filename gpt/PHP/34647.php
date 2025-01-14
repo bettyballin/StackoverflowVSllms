@@ -1,0 +1,1 @@
+while($row = odbc_fetch_array($result)) {\n    $arrayname[] = array(\n        "first_key" => $row['first_val'],\n        "second_key" => $row['second_val'],\n        // other keys...\n    );\n}\nusort($arrayname, function($a, $b) {\n    return $a['first_key'] <=> $b['first_key'];\n});

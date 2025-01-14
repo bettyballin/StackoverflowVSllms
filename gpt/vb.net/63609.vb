@@ -1,0 +1,1 @@
+' In DLL\nPublic MustInherit Class MasterObject(Of T As Class)\n    Protected db As IDataContext\n\n    Public Sub New(dataContext As IDataContext)\n        Me.db = dataContext\n    End Sub\n\n    Public MustOverride Sub Save()\nEnd Class

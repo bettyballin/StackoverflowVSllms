@@ -1,0 +1,1 @@
+import os\n\ndef clear_console():\n    if os.name == 'nt':  # For Windows\n        os.system('cls')\n    else:  # For Linux and macOS\n        os.system('clear')\n\nclear_console()

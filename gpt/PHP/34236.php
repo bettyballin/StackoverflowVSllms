@@ -1,0 +1,1 @@
+// Example using Memcached\n   $memcached = new Memcached();\n   $memcached->addServer('localhost', 11211);\n   // Store data in cache\n   $memcached->set('key', $value, $expiration);\n   // Retrieve data from cache\n   $value = $memcached->get('key');

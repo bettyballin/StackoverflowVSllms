@@ -1,0 +1,1 @@
+my_list = ["apple", "banana", "cherry"]\nresult = ",".join(my_list)\nprint(result)  # Output: apple,banana,cherry

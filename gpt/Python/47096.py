@@ -1,0 +1,1 @@
+from django import forms\nfrom .models import Item\n\nclass ItemForm(forms.ModelForm):\n    class Meta:\n        model = Item\n        fields = ['description']\n\n    description = forms.CharField(max_length=100, validators=[validate_not_whitespace])

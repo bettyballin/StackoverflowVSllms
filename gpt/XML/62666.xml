@@ -1,0 +1,1 @@
+<dependency>\n       <groupId>org.glassfish.jersey.core</groupId>\n       <artifactId>jersey-server</artifactId>\n       <version>2.35</version>\n   </dependency>\n   <dependency>\n       <groupId>org.glassfish.jersey.containers</groupId>\n       <artifactId>jersey-container-servlet</artifactId>\n       <version>2.35</version>\n   </dependency>

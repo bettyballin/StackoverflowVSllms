@@ -1,0 +1,1 @@
+Private Sub Form_FormClosed(ByVal sender As Object, ByVal e As FormClosedEventArgs) Handles MyBase.FormClosed\n    Application.Exit()\nEnd Sub

@@ -1,0 +1,1 @@
+import matplotlib.pyplot as plt\n\n   discovery_rate = [2, 4, 3, 5, 1, 0]  # Example data\n   plt.plot(discovery_rate)\n   plt.xlabel('Time (iterations)')\n   plt.ylabel('Bugs discovered')\n   plt.title('Bug Discovery Rate Over Time')\n   plt.show()

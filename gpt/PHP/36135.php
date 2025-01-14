@@ -1,0 +1,1 @@
+<?php\nif (isset($_GET['user'])) {\n    $user = htmlspecialchars($_GET['user']); // Prevent XSS attacks by escaping the input\n    echo "Welcome, " . $user . "!";\n} else {\n    echo "No user specified.";\n}\n?>

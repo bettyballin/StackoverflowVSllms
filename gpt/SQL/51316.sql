@@ -1,0 +1,1 @@
+CREATE TABLE ScheduledMessages (\n         Id INT PRIMARY KEY IDENTITY(1,1),\n         PhoneNumber NVARCHAR(15),\n         Message NVARCHAR(160),\n         ScheduledTime DATETIME,\n         Sent BIT DEFAULT 0\n     );

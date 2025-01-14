@@ -1,0 +1,1 @@
+$(document).ready(function() {\n\n  $("div.trail-text").hide();\n\n  $(".pixie").mouseenter(function() {\n    $(this).find("div.trail-text").stop(true, true).slideDown("fast");\n  }).mouseleave(function() {\n    $(this).find("div.trail-text").stop(true, true).slideUp("fast");\n  });\n\n});

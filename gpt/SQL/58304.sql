@@ -1,0 +1,1 @@
+CREATE VIEW active_users AS\n    SELECT * FROM users\n    WHERE is_deleted = 0;

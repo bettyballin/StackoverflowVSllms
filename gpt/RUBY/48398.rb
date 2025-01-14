@@ -1,0 +1,1 @@
+require 'ripper'\nrequire 'pp'\n\ncode = <<-RUBY\n1.upto(10) {|x|\n  some_function {\n    t + x\n  }\n}\nRUBY\n\nparsed_sexp = Ripper.sexp(code)\npp parsed_sexp

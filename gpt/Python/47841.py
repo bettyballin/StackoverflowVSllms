@@ -1,0 +1,1 @@
+from docx import Document\n\ndef read_word_file(file_path):\n    doc = Document(file_path)\n    full_text = []\n    for para in doc.paragraphs:\n        full_text.append(para.text)\n    return '\n'.join(full_text)\n\nfile_path = 'example.docx'\ncontent = read_word_file(file_path)\nprint(content)

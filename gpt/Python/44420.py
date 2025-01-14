@@ -1,0 +1,1 @@
+list_of_variable_names = ['foo', 'bar', 'baz']\nd = {name: globals()[name] for name in list_of_variable_names}

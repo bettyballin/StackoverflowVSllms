@@ -1,0 +1,1 @@
+class LoginRequiredException extends Exception {}

@@ -1,0 +1,1 @@
+setTimeout(function() {\n        window.resizeBy(1, 1);\n        window.resizeBy(-1, -1);\n    }, 0);

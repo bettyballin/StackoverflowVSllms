@@ -1,0 +1,1 @@
+// Includes a file located in the root directory\n   include __DIR__ . '/../path_to_file.php';

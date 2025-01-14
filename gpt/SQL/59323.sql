@@ -1,0 +1,1 @@
+CREATE TABLE Orders\n   (\n       OrderID int IDENTITY(1000,5), -- IDs will be 1000, 1005, 1010, ...\n       ...\n   );

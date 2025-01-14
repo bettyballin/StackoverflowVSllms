@@ -1,0 +1,1 @@
+<?php\n$to = "chris.mahan@gmail.com";\n$subject = "Test Email";\n$body = "This is a test email from PHP.";\n\n$headers = "From: support@domain.com\r\n" .\n           "Reply-To: support@domain.com\r\n" .\n           "X-Mailer: PHP/" . phpversion();\n\nif (mail($to, $subject, $body, $headers)) {\n    echo "Mail sent successfully.";\n} else {\n    echo "Failed to send mail.";\n}\n?>

@@ -1,0 +1,1 @@
+// this file is named bazClassHere.php\n\nclass Baz{\n    public function getStuff(){\n        return "Some stuff";\n    }\n\n    public function anotherMethod(){\n        return "Another method";\n    }\n}

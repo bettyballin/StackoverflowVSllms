@@ -1,0 +1,1 @@
+# Matrix as a list of lists\nmatrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nrow_indices = [0, 2]\n\n# Using list comprehension\nrows = getRows(matrix, row_indices)\nprint(rows)  # Output: [[1, 2, 3], [7, 8, 9]]\n\n# Using NumPy\nmatrix_np = np.array(matrix)\nrows_np = matrix_np[row_indices]\nprint(rows_np)  # Output: [[1 2 3]\n                #          [7 8 9]]

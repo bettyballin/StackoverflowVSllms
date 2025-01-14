@@ -1,0 +1,1 @@
+function myFunction() {\n    $backtrace = debug_backtrace();\n    $caller = $backtrace[0]; // The current function\n    $callerFile = $caller['file'];\n    $callerLine = $caller['line'];\n    \n    echo "Function called from file: $callerFile on line: $callerLine";\n}\n\nmyFunction();

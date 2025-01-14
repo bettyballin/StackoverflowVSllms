@@ -1,0 +1,1 @@
+define('ROOT_PATH', __DIR__ . '/../../');\n   include(ROOT_PATH . 'includes/header.php');

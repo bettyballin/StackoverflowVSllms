@@ -1,0 +1,1 @@
+my_list = [1, 2, 3, 4, 5]\nelement_to_remove = 3\ntry:\n    my_list.remove(element_to_remove)\nexcept ValueError:\n    print(f"Element {element_to_remove} not found in the list.")\nprint(my_list)  # Output: [1, 2, 4, 5] or the original list if the element was not found

@@ -1,0 +1,1 @@
+$split_point = ' - ';\n$string = 'this is my - string - and more';\n\n$pos = strrpos($string, $split_point);\nif ($pos !== false) {\n    $item[0] = substr($string, 0, $pos);\n    $item[1] = substr($string, $pos + strlen($split_point));\n} else {\n    $item[0] = $string;\n    $item[1] = '';\n}\n\nprint_r($item);

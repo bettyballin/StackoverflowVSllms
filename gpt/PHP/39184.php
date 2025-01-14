@@ -1,0 +1,1 @@
+$view = new Zend_View();\n$view->addHelperPath('path/to/helpers', 'My_View_Helper');

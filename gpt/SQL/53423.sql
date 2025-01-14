@@ -1,0 +1,1 @@
+SELECT op.id\nFROM opening op\nWHERE op.id NOT IN (\n    SELECT bo.openingId\n    FROM booking bo\n    WHERE bo.arrivalDate < '2009-06-27' AND bo.departureDate > '2009-06-20'\n);

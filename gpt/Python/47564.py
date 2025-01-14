@@ -1,0 +1,1 @@
+# Example model save operation\nfrom myapp.models import MyModel\n\ninstance = MyModel(field1='value1', field2='value2')\ninstance.save()

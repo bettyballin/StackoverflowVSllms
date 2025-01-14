@@ -1,0 +1,1 @@
+WITH CTE AS (\n    SELECT \n        timestamp, \n        value, \n        LAG(value) OVER (ORDER BY timestamp) AS LastValue\n    FROM \n        your_table_name\n)\nSELECT \n    SUM(CASE \n        WHEN LastValue IS NULL THEN 0\n        ELSE value - LastValue \n    END) AS TotalDelta\nFROM \n    CTE\nWHERE \n    value > LastValue OR LastValue IS NULL

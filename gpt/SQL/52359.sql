@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE your_procedure\n   AUTHID DEFINER\n   AS\n   BEGIN\n       -- your PL/SQL code\n   END;

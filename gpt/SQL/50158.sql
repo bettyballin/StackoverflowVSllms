@@ -1,0 +1,1 @@
+SELECT a.id, a.name, b.order_date\nFROM customers a\nJOIN orders b ON a.id = b.customer_id\nWHERE b.order_date > '2023-01-01';

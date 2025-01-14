@@ -1,0 +1,1 @@
+-- Example to create a user with limited permissions\n   CREATE LOGIN [LimitedUser] WITH PASSWORD = 'StrongPassword!';\n   CREATE USER [LimitedUser] FOR LOGIN [LimitedUser];\n   -- Grant only necessary permissions\n   GRANT SELECT ON [SensitiveTable] TO [LimitedUser];

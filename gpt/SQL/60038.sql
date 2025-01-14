@@ -1,0 +1,1 @@
+SELECT * FROM your_table WHERE A = value;\nSELECT * FROM your_table WHERE A = value AND B = value;\nSELECT * FROM your_table WHERE A = value AND B = value AND C = value;

@@ -1,0 +1,1 @@
+require 'fileutils'\n\nsource = 'path/to/source/file.txt'\ndestination = 'path/to/destination/file.txt'\n\nFileUtils.mv(source, destination)

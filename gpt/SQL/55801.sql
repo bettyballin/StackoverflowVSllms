@@ -1,0 +1,1 @@
+-- In Internal database\nUSE Internal;\nGRANT SELECT ON dbo.Stuff TO magnus;\n\n-- In WebFacing database\nUSE WebFacing;\nGRANT EXECUTE ON dbo.Get_Some_Data TO magnus;

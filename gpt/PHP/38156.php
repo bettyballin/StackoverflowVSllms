@@ -1,0 +1,1 @@
+<?php\ntry {\n    // Your code that might throw an exception\n    echo json_encode(['status' => 'success', 'message' => 'Test']);\n} catch (Exception $e) {\n    http_response_code(500); // Set HTTP response code to 500 for exceptions\n    echo json_encode(['status' => 'error', 'message' => $e->getMessage()]);\n}\n?>

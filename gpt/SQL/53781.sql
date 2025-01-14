@@ -1,0 +1,1 @@
+DECLARE @SomeDate datetime = '2009-05-28 16:30:22';\nSELECT CAST(CAST(@SomeDate AS date) AS datetime) AS TruncatedDate;

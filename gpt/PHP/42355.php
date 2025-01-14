@@ -1,0 +1,1 @@
+<?php\n$id = $_GET['id']; // Existing id parameter\n$fragment = isset($_GET['fragment']) ? $_GET['fragment'] : '';\n\necho "ID: " . htmlspecialchars($id) . "<br>";\necho "Fragment: " . htmlspecialchars($fragment) . "<br>";\n?>

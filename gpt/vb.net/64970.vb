@@ -1,0 +1,1 @@
+Dim gridViewRow As GridViewRow = DirectCast(FindParentControlByType(myUserControl, GetType(GridViewRow)), GridViewRow)

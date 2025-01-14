@@ -1,0 +1,1 @@
+<?php\nfunction metersToFeetAndInches($meters) {\n    $totalInches = $meters * 39.3701; // 1 meter = 39.3701 inches\n    $feet = floor($totalInches / 12);\n    $inches = round($totalInches % 12);\n    \n    return "{$feet}' {$inches}''";\n}\n\n// Example usage\n$m = 1.75; // height in meters\necho metersToFeetAndInches($m);\n?>

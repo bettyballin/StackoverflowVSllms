@@ -1,0 +1,1 @@
+class Note < ApplicationRecord\n     belongs_to :notable, polymorphic: true\n   end

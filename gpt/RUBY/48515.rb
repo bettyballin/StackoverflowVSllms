@@ -1,0 +1,1 @@
+if address.first_name.blank?\n  assert_select '#first_name:not([value])'\nelse\n  assert_select '#first_name[value=?]', address.first_name\nend

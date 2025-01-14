@@ -1,0 +1,1 @@
+def get_urls():\n        conn = sqlite3.connect('rss_reader.db')\n        cursor = conn.cursor()\n\n        cursor.execute('SELECT id, url, description FROM urls')\n        urls = cursor.fetchall()\n\n        conn.close()\n        return urls

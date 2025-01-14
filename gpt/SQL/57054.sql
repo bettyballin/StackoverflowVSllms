@@ -1,0 +1,1 @@
+DECLARE\n    table_count INTEGER;\nBEGIN\n    SELECT COUNT(*) INTO table_count FROM Table1;\n    \n    IF table_count > 0 THEN\n        dbms_output.put_line('Test');\n    END IF;\nEND;

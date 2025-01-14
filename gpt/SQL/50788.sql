@@ -1,0 +1,1 @@
+CREATE INDEX idx_xml_path ON table_name ((xpath('//elementName/@attributeName', xml_column)));

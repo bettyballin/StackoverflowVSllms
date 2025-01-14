@@ -1,0 +1,1 @@
+UPDATE your_table\nSET insert_date = '2023-10-01 10:00:00',\n    update_date = '2023-10-01 10:00:00';

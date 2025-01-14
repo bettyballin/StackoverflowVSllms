@@ -1,0 +1,1 @@
+Dim db As DAO.Database\nDim rs As DAO.Recordset\n\nSet db = CurrentDb\nSet rs = db.OpenRecordset("SELECT * FROM Table1")\n\nDo While Not rs.EOF\n    Debug.Print rs!FieldName\n    rs.MoveNext\nLoop\n\nrs.Close\nSet rs = Nothing\nSet db = Nothing

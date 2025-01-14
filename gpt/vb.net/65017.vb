@@ -1,0 +1,1 @@
+Protected Overrides Sub OnShown(e As EventArgs)\n    MyBase.OnShown(e)\n    ShowWindow(Me.Handle, SW_SHOWNOACTIVATE)\nEnd Sub

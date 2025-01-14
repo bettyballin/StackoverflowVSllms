@@ -1,0 +1,1 @@
+// Using prepared statements with MySQLi\n    $stmt = $mysqli->prepare("INSERT INTO users (username, password) VALUES (?, ?)");\n    $stmt->bind_param("ss", $username, $hashedPassword);\n    $stmt->execute();\n    $stmt->close();

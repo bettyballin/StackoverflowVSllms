@@ -1,0 +1,1 @@
+CREATE TABLE search_statistics (\n    id SERIAL PRIMARY KEY,\n    user_id INT, -- Optional, if you are tracking searches by logged-in users\n    search_query VARCHAR(255) NOT NULL,\n    search_mode VARCHAR(50) NOT NULL,\n    search_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    results_count INT,\n    ip_address VARCHAR(45) -- IPv6 compatible\n);

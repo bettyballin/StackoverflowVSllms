@@ -1,0 +1,1 @@
+<a href="<?php echo get_template_directory_uri(); ?>/myfile.php?size=md">link</a>

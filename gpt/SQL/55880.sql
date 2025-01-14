@@ -1,0 +1,1 @@
+RESTORE DATABASE Tfs_Configuration FROM DISK = 'path\to\backup.bak' WITH RECOVERY;\n   RESTORE DATABASE Tfs_Collection FROM DISK = 'path\to\backup.bak' WITH RECOVERY;\n   RESTORE DATABASE Tfs_Warehouse FROM DISK = 'path\to\backup.bak' WITH RECOVERY;

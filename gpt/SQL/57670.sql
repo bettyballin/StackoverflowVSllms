@@ -1,0 +1,1 @@
+SELECT sid, serial#, username, program, blocking_session, status\n   FROM v$session\n   WHERE blocking_session IS NOT NULL;

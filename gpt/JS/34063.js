@@ -1,0 +1,1 @@
+<script type="text/javascript">\n$(document).ready(function(){\n    $("button").click(() => {\n        bclick("Button", "Clicked");\n    });\n});\n</script>

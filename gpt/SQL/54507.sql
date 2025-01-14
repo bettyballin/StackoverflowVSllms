@@ -1,0 +1,1 @@
+SELECT CompanyName, CompanyAddress, CompanyCity, CompanyState, COUNT(*)\nFROM Company\nGROUP BY CompanyName, CompanyAddress, CompanyCity, CompanyState\nHAVING COUNT(*) > 1

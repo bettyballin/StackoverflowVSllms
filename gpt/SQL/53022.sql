@@ -1,0 +1,1 @@
+SELECT p2.*\nFROM Players p1\nJOIN PlayerToPlayer pp ON p1.Id = pp.PlayerId1\nJOIN Players p2 ON pp.PlayerId2 = p2.Id\nWHERE p1.Id = ?;

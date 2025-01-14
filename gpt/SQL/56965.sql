@@ -1,0 +1,1 @@
+WITH CTE AS (\n    SELECT \n        UniqueName,\n        ROW_NUMBER() OVER (PARTITION BY UniqueName ORDER BY (SELECT NULL)) AS RowNum\n    FROM Persons\n)\nSELECT \n    UniqueName,\n    CASE \n        WHEN RowNum = 1 THEN UniqueName\n        ELSE UniqueName + CAST(RowNum - 1 AS VARCHAR)\n    END AS UniqueNameTransformed\nFROM CTE\nORDER BY UniqueName, RowNum;

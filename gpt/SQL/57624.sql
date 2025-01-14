@@ -1,0 +1,1 @@
+SELECT i.ItemID, i.Title as ItemTitle, t.TagID, t.Title as TagTitle\nFROM Item i\nLEFT JOIN Tag t ON i.ItemID = t.ItemID\nORDER BY i.ItemID;

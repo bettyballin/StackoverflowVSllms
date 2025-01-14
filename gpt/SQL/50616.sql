@@ -1,0 +1,1 @@
+UPDATE table_name\nSET column1 = value1, column2 = value2\nWHERE condition;

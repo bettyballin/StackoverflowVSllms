@@ -1,0 +1,1 @@
+-- Retrieve the current DATEFORMAT setting\nDBCC USEROPTIONS;\n\n-- Example output inspection\n-- The result set will include a 'Set Option' column and a 'Value' column.\n-- Look for the row where 'Set Option' is 'dateformat'.

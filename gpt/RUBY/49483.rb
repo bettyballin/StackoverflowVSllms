@@ -1,0 +1,1 @@
+require 'nokogiri'\n  require 'open-uri'\n\n  url = 'http://example.com'\n  doc = Nokogiri::HTML(URI.open(url))\n\n  doc.css('a').each do |link|\n    puts "Link: #{link['href']}"\n    puts "Text: #{link.content}"\n  end

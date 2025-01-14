@@ -1,0 +1,1 @@
+SELECT * FROM dbo.v_Candidates\nUNION\nSELECT * FROM dbo.v_Resources\nUNION\nSELECT * FROM dbo.v_Deals\nUNION\nSELECT * FROM dbo.v_JobOrders;

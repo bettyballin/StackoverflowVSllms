@@ -1,0 +1,1 @@
+<?php\n// Assuming you have a PDF file named 'example.pdf'\n$pdfFile = 'example.pdf';\n$textFile = 'example.txt';\n\n// Use shell command to convert PDF to text\nshell_exec("pdftotext $pdfFile $textFile");\n\n// Read the extracted text\n$text = file_get_contents($textFile);\n?>\n\n3. Index the extracted text using Zend_Search_Lucene:

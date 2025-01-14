@@ -1,0 +1,1 @@
+ALTER TABLE YourTable\n    ADD ComputedColumn AS CASE \n        WHEN YourColumn LIKE '%ABC%' THEN 1 \n        ELSE 0 \n    END;\n    \n    CREATE INDEX IX_ComputedColumn ON YourTable(ComputedColumn);

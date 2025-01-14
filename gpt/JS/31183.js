@@ -1,0 +1,1 @@
+// Open browser console and type:\ndocument.getElementById("textbox").style.display = 'none';\ndocument.write("Testing");\nalert(parseFloat("33.33"));

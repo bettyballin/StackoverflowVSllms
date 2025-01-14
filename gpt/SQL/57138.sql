@@ -1,0 +1,1 @@
+CREATE TABLE Parent (\n    id INT PRIMARY KEY,\n    parent_attribute VARCHAR(255)\n);\n\nCREATE TABLE Child (\n    id INT PRIMARY KEY,\n    parent_id INT,\n    child_attribute VARCHAR(255),\n    FOREIGN KEY (parent_id) REFERENCES Parent(id)\n);

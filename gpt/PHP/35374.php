@@ -1,0 +1,1 @@
+umask(0022);  // Set umask to ensure directories are created with 0755 permissions\n    mkdir('/path/to/new/directory', 0755);

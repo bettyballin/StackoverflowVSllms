@@ -1,0 +1,1 @@
+<jboss-web>\n       <replication-config>\n           <replication-trigger>SET_AND_NON_PRIMITIVE_GET</replication-trigger>\n           <replication-granularity>SESSION</replication-granularity>\n           <replication-field-batch-mode>false</replication-field-batch-mode>\n       </replication-config>\n   </jboss-web>

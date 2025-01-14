@@ -1,0 +1,1 @@
+<?php\n// Start time\n$start_time = microtime(true);\n\n// Your PHP code and SQL queries go here\n\n// End time\n$end_time = microtime(true);\n\n// Calculate the difference\n$page_load_time = $end_time - $start_time;\n\n// Display the page load time\necho "Page loaded in " . $page_load_time . " seconds.";\n?>

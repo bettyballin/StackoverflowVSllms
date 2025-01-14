@@ -1,0 +1,1 @@
+SELECT p.product_name, c.category_name, ps.score\nFROM product_scores ps\nJOIN products p ON ps.product_id = p.product_id\nJOIN categories c ON ps.category_id = c.category_id\nWHERE p.product_id = 1;

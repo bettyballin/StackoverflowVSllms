@@ -1,0 +1,1 @@
+Dim s As Something = New Something()

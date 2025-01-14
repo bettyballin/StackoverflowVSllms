@@ -1,0 +1,1 @@
+error_log("Session ID: " . session_id());\nerror_log("Cookies: " . print_r($_COOKIE, true));

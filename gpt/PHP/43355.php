@@ -1,0 +1,1 @@
+function f_parse_csv($file, $longest, $delimiter)\n{\n  $mdarray = array();\n  $file    = fopen($file, "r");\n  while ($line = fgetcsv($file, $longest, $delimiter))\n  {\n    array_push($mdarray, $line);\n  }\n  fclose($file);\n  return $mdarray;\n}

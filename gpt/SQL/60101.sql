@@ -1,0 +1,1 @@
+WITH ranked_employees AS (\n    SELECT e.*, \n           RANK() OVER (PARTITION BY deptno, job ORDER BY sal DESC) as rnk\n    FROM scott.emp e\n    WHERE deptno = 20 AND job = 'CLERK'\n)\nSELECT *\nFROM ranked_employees\nWHERE rnk = 1;

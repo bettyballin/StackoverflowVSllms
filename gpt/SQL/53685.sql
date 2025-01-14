@@ -1,0 +1,1 @@
+-- Register the extended stored procedure\nEXEC sp_addextendedproc 'xp_crypt_encrypt', 'xpcrypt.dll'\nEXEC sp_addextendedproc 'xp_crypt_decrypt', 'xpcrypt.dll'

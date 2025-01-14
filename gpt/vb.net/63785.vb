@@ -1,0 +1,1 @@
+Dim myDict As String = "SomeDictionaryData"\nLoadDict(PhoneticType.phonSoundex, myDict)

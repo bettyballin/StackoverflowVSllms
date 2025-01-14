@@ -1,0 +1,1 @@
+import os\nimport datetime\n\nfile_path = 'your_file.txt'\n\n# Get the last modified timestamp\ntimestamp = os.path.getmtime(file_path)\n\n# Convert the timestamp to a datetime object\nmodified_time = datetime.datetime.fromtimestamp(timestamp)\n\nprint("Last modified date/time:", modified_time)

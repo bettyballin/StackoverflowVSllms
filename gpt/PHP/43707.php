@@ -1,0 +1,1 @@
+<?php get_header(); ?>\n<div class="content">\n    <h1>Articles</h1>\n    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>\n        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>\n        <p><?php the_excerpt(); ?></p>\n    <?php endwhile; endif; ?>\n</div>\n<?php get_footer(); ?>

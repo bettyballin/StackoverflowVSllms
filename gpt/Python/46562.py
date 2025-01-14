@@ -1,0 +1,1 @@
+a = str(52500)\nb = str(5)\nformatted = '%s/%s' % (b.rjust(len(a)), a)\n# formatted looks like: '    5/52500'

@@ -1,0 +1,1 @@
+window.onload = function() {\n       // Safe DOM manipulation here\n   };

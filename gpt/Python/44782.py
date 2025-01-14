@@ -1,0 +1,1 @@
+variable = {"key": "value", "another_key": [1, 2, 3]}\nprint(repr(variable))

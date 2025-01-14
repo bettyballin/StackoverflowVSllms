@@ -1,0 +1,1 @@
+ALTER TABLE customers ADD COLUMN total_purchases DECIMAL(10, 2);

@@ -1,0 +1,1 @@
+SELECT *\n  FROM your_table\n  WHERE CAST(date_of_birth AS DATE) = CAST('1950-01-01 10:22:06.010101120' AS DATE);

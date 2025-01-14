@@ -1,0 +1,1 @@
+import zstandard as zstd\n\ndctx = zstd.ZstdDecompressor()\n\nwith open('example.zst', 'rb') as file:\n    file.seek(1000)  # Seek to 1000 bytes in the compressed file\n    chunk = file.read(4096)\n    data = dctx.decompress(chunk)\n    print(data)

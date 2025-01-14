@@ -1,0 +1,1 @@
+-- Replace 'ConstraintName' with the actual constraint name\n   ALTER TABLE TableName DROP CONSTRAINT ConstraintName;

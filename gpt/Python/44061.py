@@ -1,0 +1,1 @@
+def mean_squared_error(list1, list2):\n    indices = {element: i for i, element in enumerate(list1)}\n    mse = np.mean([(i - indices[element]) ** 2 for i, element in enumerate(list2)])\n    return mse\n\nmse = mean_squared_error(list_a, list_b)\nprint(f'Mean Squared Error: {mse}')

@@ -1,0 +1,1 @@
+CREATE ASSEMBLY DNSResolverAssembly\n   FROM 'C:\path_to_your_dll\DNSResolver.dll'\n   WITH PERMISSION_SET = SAFE;\n   GO\n\n   CREATE PROCEDURE ResolveHostname\n       @hostname NVARCHAR(255),\n       @ipAddress NVARCHAR(50) OUTPUT\n   AS EXTERNAL NAME DNSResolverAssembly.[Namespace.DNSResolver].ResolveHostname;\n   GO

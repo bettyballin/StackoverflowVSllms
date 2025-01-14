@@ -1,0 +1,1 @@
+tinymce.init({\n    selector: '#content', // Initialize TinyMCE on the textarea with id 'content'\n    // Add any additional configuration here\n});

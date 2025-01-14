@@ -1,0 +1,1 @@
+function a(p1, p2) {\n  // your function implementation\n}\n\nvar my1 = /* some value */;\nvar my2 = /* some value */;\n\nvar b = a.bind(null, my1, my2);

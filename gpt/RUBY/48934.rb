@@ -1,0 +1,1 @@
+require 'redcloth'\n    require 'sanitize'\n\n    def process_textile(input)\n      # Textilize the input\n      textilized_content = RedCloth.new(input).to_html\n\n      # Sanitize the textilized content\n      sanitized_content = Sanitize.fragment(textilized_content, Sanitize::Config::RELAXED)\n\n      sanitized_content\n    end

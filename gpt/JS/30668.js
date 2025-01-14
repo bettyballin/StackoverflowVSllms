@@ -1,0 +1,1 @@
+javascript:(function() {\n    var currentUrl = encodeURIComponent(window.location.href);\n    var script = document.createElement('script');\n    script.src = 'https://your-codeigniter-app.com/your-controller/your-method?callback=jsonpCallback&url=' + currentUrl;\n    document.body.appendChild(script);\n})();\n\nfunction jsonpCallback(response) {\n    console.log(response);\n}

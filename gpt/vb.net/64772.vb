@@ -1,0 +1,1 @@
+Dim obj As MyClass = GetSomeObject()\nIf obj IsNot Nothing Then\n    obj.DoSomething()\nElse\n    ' Handle the case where obj is Nothing\n    Console.WriteLine("Object is not initialized.")\nEnd If

@@ -1,0 +1,1 @@
+$page = 5;\n$pageSize = 10;\n$offset = ($page - 1) * $pageSize;\n\n$query = "SELECT * FROM your_table ORDER BY some_column LIMIT $pageSize OFFSET $offset";\n$result = mysqli_query($connection, $query);\n\nwhile ($row = mysqli_fetch_assoc($result)) {\n    // Process each row\n}

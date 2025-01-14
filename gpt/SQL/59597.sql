@@ -1,0 +1,1 @@
+-- Example SQL for creating separate tables\n   CREATE TABLE users_demo (\n       id SERIAL PRIMARY KEY,\n       username VARCHAR(255),\n       password VARCHAR(255)\n   );\n   \n   CREATE TABLE users_live (\n       id SERIAL PRIMARY KEY,\n       username VARCHAR(255),\n       password VARCHAR(255)\n   );

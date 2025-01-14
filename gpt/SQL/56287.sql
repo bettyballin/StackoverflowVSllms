@@ -1,0 +1,1 @@
+SELECT Author, COUNT(*) AS ReportCount\n    FROM Reports\n    WHERE DateCreated BETWEEN [Start Date] AND [End Date]\n    GROUP BY Author;

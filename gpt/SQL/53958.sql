@@ -1,0 +1,1 @@
+SELECT * FROM your_table WHERE some_other_column = 'some_value' AND your_column ~ 'your_pattern';

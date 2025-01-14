@@ -1,0 +1,1 @@
+params[:upload].each do |key, uploaded_image|\n  if uploaded_image.is_a?(ActionDispatch::Http::UploadedFile)\n    # do something with uploaded_image, which is the uploaded file\n  end\nend

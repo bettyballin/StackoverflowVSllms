@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>net.java.dev.jna</groupId>\n    <artifactId>jna</artifactId>\n    <version>5.8.0</version>\n</dependency>

@@ -1,0 +1,1 @@
+<?php\n\nrequire_once 'Zend/Loader/Autoloader.php';\nZend_Loader_Autoloader::getInstance()->setFallbackAutoloader(true);\n\nrequire_once 'Bootstrap.php'; // Include your application's bootstrap file

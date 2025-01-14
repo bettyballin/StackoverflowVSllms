@@ -1,0 +1,1 @@
+Dim obj\nSet obj = CreateObject("YourNamespace.YourClass")\nDim result\nresult = obj.YourMethod("World")\nMsgBox result

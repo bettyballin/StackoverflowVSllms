@@ -1,0 +1,1 @@
+<web-app>\n    <servlet>\n        <servlet-name>ProxyDetectionServlet</servlet-name>\n        <servlet-class>com.example.ProxyDetectionServlet</servlet-class>\n    </servlet>\n    <servlet-mapping>\n        <servlet-name>ProxyDetectionServlet</servlet-name>\n        <url-pattern>/checkProxy</url-pattern>\n    </servlet-mapping>\n</web-app>

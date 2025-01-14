@@ -1,0 +1,1 @@
+$spam_keywords = array("spamword1", "spamword2", "spamword3");\n$post_content = $_POST['content'];\n\nforeach ($spam_keywords as $keyword) {\n    if (stripos($post_content, $keyword) !== false) {\n        die("Your post contains forbidden content.");\n    }\n}

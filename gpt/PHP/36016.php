@@ -1,0 +1,1 @@
+class Test\n{\n   function __construct()\n   {\n      $this->handleConnections();\n   }\n\n   private function handleConnections()\n   {\n      //do stuff\n   }\n}

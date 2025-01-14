@@ -1,0 +1,1 @@
+$newtitle = $item->title;\n$newtitle = html_entity_decode($newtitle, ENT_QUOTES, 'UTF-8');\n$newtitle = utf8_decode($newtitle);\n\n// Remove any remaining non-ASCII characters (if needed)\n$newtitle = preg_replace('/[^\x20-\x7E]/', '', $newtitle);\n\necho $newtitle;

@@ -1,0 +1,1 @@
+UPDATE table \nSET field3 = CONCAT(LOWER(field1), '_', LOWER(field2));

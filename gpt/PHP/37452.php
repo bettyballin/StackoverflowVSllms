@@ -1,0 +1,1 @@
+public function yourAction() {\n    // Set the response type to JSON\n    $this->response->type('json');\n\n    // Disable automatic view rendering\n    $this->autoRender = false;\n\n    // Your data\n    $data = '{"attributes":[{"type":"Text","labels":"Untitled1"}]}';\n\n    // Output the JSON data\n    echo json_encode($data);\n}

@@ -1,0 +1,1 @@
+Rails.application.routes.draw do\n     resources :grades, only: [:index, :update]\n   end

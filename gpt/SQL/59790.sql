@@ -1,0 +1,1 @@
+WHERE NVL(MYCOLUMN, 'placeholder') = NVL(SEARCHVALUE, 'placeholder')

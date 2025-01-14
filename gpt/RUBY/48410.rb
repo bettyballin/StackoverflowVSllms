@@ -1,0 +1,1 @@
+# app/controllers/identities_controller.rb\n   class IdentitiesController < ApplicationController\n     def show\n       openid = params[:openid]\n       # Perform necessary actions with openid\n     end\n   end

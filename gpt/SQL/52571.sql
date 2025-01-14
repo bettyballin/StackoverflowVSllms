@@ -1,0 +1,1 @@
+DELETE FROM team\nWHERE team_id IN (\n    SELECT t.team_id\n    FROM team t\n    JOIN schedule s ON t.schedule_id = s.schedule_id\n    JOIN event e ON s.event_id = e.event_id\n    LEFT JOIN signup sg ON t.team_id = sg.team_id\n    WHERE e.event_id = 183\n    GROUP BY t.team_id\n    HAVING COUNT(sg.signup_id) = 0\n);

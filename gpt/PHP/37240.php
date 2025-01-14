@@ -1,0 +1,1 @@
+<?php\n    // index.php\n    while (true) {\n        // Listen for FastCGI requests\n        $request = fastcgi_accept();\n        \n        // Your application logic here\n        echo "Content-Type: text/plain\r\n\r\n";\n        echo "Hello, FastCGI!";\n    }\n    ?>

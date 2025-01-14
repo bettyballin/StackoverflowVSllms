@@ -1,0 +1,1 @@
+function escapeHtml(str) {\n    return $('<div/>').text(str).html();\n}\n\n// Usage example\nlet userInput = "<script>alert('xss')</script>";\nlet escapedInput = escapeHtml(userInput);\n\n$('#preview').html('<ol><li>' + escapedInput + '</li></ol>');

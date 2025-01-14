@@ -1,0 +1,1 @@
+// tests/MyClassTest.php\n   namespace Tests;\n\n   use PHPUnit\Framework\TestCase;\n   use App\MyClass;\n\n   class MyClassTest extends TestCase\n   {\n       public function testSomething()\n       {\n           $myClass = new MyClass();\n           $this->assertTrue($myClass->doSomething());\n       }\n   }

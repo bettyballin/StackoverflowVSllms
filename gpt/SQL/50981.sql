@@ -1,0 +1,1 @@
+ALTER ROLE CustomPermissionManager ADD MEMBER DeveloperUser1;\nALTER ROLE CustomPermissionManager ADD MEMBER DeveloperUser2;

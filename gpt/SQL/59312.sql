@@ -1,0 +1,1 @@
+DELETE FROM FailedLogins WHERE attempt_time < (NOW() - INTERVAL 1 DAY);

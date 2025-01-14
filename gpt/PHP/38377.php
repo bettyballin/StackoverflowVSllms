@@ -1,0 +1,1 @@
+$app->add(function ($request, $handler) {\n    $response = new \Slim\Psr7\Response();\n\n    if (!isset($_SESSION['user'])) {\n        return $response->withHeader('Location', '/login')->withStatus(302);\n    }\n\n    return $handler->handle($request);\n});

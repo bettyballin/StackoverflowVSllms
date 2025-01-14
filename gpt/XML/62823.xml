@@ -1,0 +1,1 @@
+<Rules>\n  <Rule id="1">\n    <Description>Customer Cash% < 50%</Description>\n    <Query>SELECT * FROM Customers WHERE CashPercentage < 50</Query>\n  </Rule>\n  <!-- Add more rules as needed -->\n</Rules>

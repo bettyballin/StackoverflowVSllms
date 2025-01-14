@@ -1,0 +1,1 @@
+-- Capture the state before user actions\nSELECT * FROM your_table AS OF TIMESTAMP TO_TIMESTAMP('2023-10-01 10:00:00', 'YYYY-MM-DD HH24:MI:SS');\n\n-- User performs actions...\n\n-- Capture the state after user actions\nSELECT * FROM your_table AS OF TIMESTAMP TO_TIMESTAMP('2023-10-01 10:05:00', 'YYYY-MM-DD HH24:MI:SS');

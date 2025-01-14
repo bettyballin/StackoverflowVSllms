@@ -1,0 +1,1 @@
+SELECT a\nFROM b\nWHERE a LIKE 'a%'\n   OR a LIKE 'b%'\n   OR a LIKE 'c%';

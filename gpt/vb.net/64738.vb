@@ -1,0 +1,1 @@
+' Make sure you set the reference for Microsoft XML, v6.0 in Tools > References\nDim xmlDocument As MSXML2.DOMDocument\nSet xmlDocument = New MSXML2.DOMDocument

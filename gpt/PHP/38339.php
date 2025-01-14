@@ -1,0 +1,1 @@
+public function someAction()\n    {\n        // Set a breakpoint here\n        $param = $this->getRequest()->getParam('param');\n        // Action logic\n    }

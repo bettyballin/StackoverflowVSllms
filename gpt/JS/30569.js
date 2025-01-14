@@ -1,0 +1,1 @@
+function initializeControl(clientId) {\n    var list = document.getElementById(clientId);\n    // Your logic here\n}

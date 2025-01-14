@@ -1,0 +1,1 @@
+SELECT COUNT(1)\nFROM record r\nJOIN address a ON r.address_id = a.address_id\nJOIN person p ON r.person_id = p.person_id\nWHERE r.status = 1\n  AND r.code = 1\n  AND a.state = 'TN';

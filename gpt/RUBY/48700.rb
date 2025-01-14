@@ -1,0 +1,1 @@
+class ApplicationController < ActionController::Base\n     after_action :clean_up_temp_records, if: -> { session[:destroy] }\n\n     private\n\n     def clean_up_temp_records\n       TemporaryRecord.where(session_id: session.id).destroy_all\n     end\n   end

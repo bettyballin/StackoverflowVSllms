@@ -1,0 +1,1 @@
+Dim myStringList As New List(Of String) From {"A", "B", "C", "D"}\n\n' Reverse the list\nmyStringList.Reverse()\n\n' Iterate over the reversed list\nFor Each s As String In myStringList\n    ' Do stuff here\n    Console.WriteLine(s)\nNext

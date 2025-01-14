@@ -1,0 +1,1 @@
+SELECT oriseqs.newID \nFROM oriseqs \nLEFT JOIN cleanreport \nON oriseqs.newID = cleanreport.newID \nWHERE oriseqs.singlets = 1 \nAND cleanreport.newID IS NULL;

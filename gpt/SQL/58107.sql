@@ -1,0 +1,1 @@
+-- Create application role\n   CREATE APPLICATION ROLE AppRole WITH PASSWORD = 'AnotherStrongPassword';\n   GO\n\n   -- Grant necessary permissions to the application role\n   GRANT EXECUTE ON SCHEMA::dbo TO AppRole;\n   GO\n\n   -- Activate the application role within the application code\n   EXEC sp_setapprole 'AppRole', 'AnotherStrongPassword';

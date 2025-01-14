@@ -1,0 +1,1 @@
+CREATE ASSEMBLY [TimeZoneHelper]\nFROM 'C:\Path\To\Your\Dll\TimeZoneHelper.dll'\nWITH PERMISSION_SET = SAFE;

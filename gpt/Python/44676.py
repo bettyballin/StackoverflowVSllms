@@ -1,0 +1,1 @@
+import spacy\n     nlp = spacy.load("en_core_web_sm")\n     doc = nlp("Your text about New York")\n     locations = [ent.text for ent in doc.ents if ent.label_ == "GPE"]  # GPE: Geopolitical Entity

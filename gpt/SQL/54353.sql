@@ -1,0 +1,1 @@
+CREATE TABLE team (\n       team_id INT PRIMARY KEY,\n       team_name VARCHAR(100)\n   );

@@ -1,0 +1,1 @@
+INSERT INTO YourTable (YourColumn) VALUES ('Overdose of Vitamin C for children');\n    INSERT INTO YourTable (YourColumn) VALUES ('Vitamin C overdose can be harmful for a child');

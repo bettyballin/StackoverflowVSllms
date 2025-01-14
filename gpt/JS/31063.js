@@ -1,0 +1,1 @@
+const tableContainer = document.getElementById('table-container');\nconst inputs = tableContainer.querySelectorAll('input[type="text"]');

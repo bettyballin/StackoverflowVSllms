@@ -1,0 +1,1 @@
+<?php\n// Prepare the statement\n$statement = $pdo->prepare("SELECT * FROM your_table");\n$statement->execute();\n\n// First loop\nforeach ($statement as $result) {\n    // do something with result\n}\n\n// Re-execute the statement\n$statement->execute();\n\n// Second loop\nforeach ($statement as $result) {\n    // do something with result again\n}\n?>

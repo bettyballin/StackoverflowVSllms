@@ -1,0 +1,1 @@
+-- Test with empty tables\n   SELECT a.id, a.name\n   FROM (SELECT * FROM table1 WHERE 1=0) a\n   JOIN (SELECT * FROM table2 WHERE 1=0) b ON a.id = b.id\n   WHERE b.status = 'active';\n\n   -- Test with null values\n   SELECT a.id, a.name\n   FROM (SELECT NULL as id, 'name' as name) a\n   JOIN (SELECT NULL as id, 'active' as status) b ON a.id = b.id\n   WHERE b.status = 'active';

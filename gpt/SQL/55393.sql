@@ -1,0 +1,1 @@
+SELECT \n    p.id,\n    p.name,\n    c.name as city_name,\n    s.name as state_name,\n    co.name as country_name\nFROM \n    people p\nLEFT JOIN \n    cities c ON p.city_id = c.id\nLEFT JOIN \n    states s ON p.state_id = s.id\nLEFT JOIN \n    countries co ON p.country_id = co.id\nWHERE \n    p.id = :person_id;

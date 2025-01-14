@@ -1,0 +1,1 @@
+class Product {\n    static function &getPrice_A($id) {\n        static $stmt;\n        global $pdo; // Ensure $pdo is accessible within the method\n        if (!$stmt) {\n            $stmt = $pdo->prepare('SELECT price FROM products WHERE id = ?');\n        }\n        $stmt->execute(array($id));\n        return $stmt->fetchColumn(0);\n    }\n}

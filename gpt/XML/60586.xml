@@ -1,0 +1,1 @@
+<outcomes>\n    <outcome id="1" name="Root Level 1">\n        <outcome id="2" name="Child Level 1.1" />\n        <outcome id="3" name="Child Level 1.2">\n            <outcome id="4" name="Child Level 1.2.1" />\n        </outcome>\n    </outcome>\n</outcomes>

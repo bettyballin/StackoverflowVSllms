@@ -1,0 +1,1 @@
+from celery import Celery\n\n   app = Celery('tasks')\n   app.config_from_object('celeryconfig')\n\n   @app.task\n   def send_email(email_data):\n       # Implement email sending logic here\n       pass\n\n   @app.task\n   def zip_files(file_paths):\n       # Implement file zipping logic here\n       pass

@@ -1,0 +1,1 @@
+$number = 4.3;\n$roundedNumber = ceil($number);\necho $roundedNumber;  // Output: 5

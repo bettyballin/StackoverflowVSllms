@@ -1,0 +1,1 @@
+cpuinfo = CFUNCTYPE(c_uint)(addressof(CPUID))

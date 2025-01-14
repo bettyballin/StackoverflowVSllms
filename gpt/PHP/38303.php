@@ -1,0 +1,1 @@
+<?php\nfunction myFunction($param1, $param2) {\n    // Your logic here\n    return array('result' => 'success');\n}\n\n$options = array('uri' => 'http://example.com/soap');\n$server = new SoapServer(null, $options);\n$server->addFunction('myFunction');\n$server->handle();\n?>

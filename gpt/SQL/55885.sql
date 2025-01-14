@@ -1,0 +1,1 @@
+SELECT e.EntityID, t.TargetID\nFROM Entities e\nJOIN Targets t\nON e.AttributeName = t.AttributeName\nAND e.AttributeValue = t.AttributeValue\nGROUP BY e.EntityID, t.TargetID\nHAVING COUNT(*) = (\n    SELECT COUNT(*)\n    FROM Targets t2\n    WHERE t2.TargetID = t.TargetID\n);

@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.apache.commons</groupId>\n    <artifactId>commons-collections4</artifactId>\n    <version>4.4</version> <!-- Use the latest version available -->\n</dependency>

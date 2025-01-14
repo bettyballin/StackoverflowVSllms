@@ -1,0 +1,1 @@
+exec('/usr/bin/processName');\nexec('/usr/bin/killall processName');

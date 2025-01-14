@@ -1,0 +1,1 @@
+CREATE TABLE Employees (\n    EmployeeID AUTOINCREMENT PRIMARY KEY,\n    EmployeeName TEXT(255),\n    ManagerID LONG,\n    FOREIGN KEY (ManagerID) REFERENCES Employees(EmployeeID)\n);

@@ -1,0 +1,1 @@
+import re\n\ndef replace_paths(input_file, output_file):\n    with open(input_file, 'rb') as f:\n        content = f.read()\n\n    # Replace C:\good\ with C:/good/\n    updated_content = re.sub(rb'C:\\good\\', b'C:/good/', content)\n\n    with open(output_file, 'wb') as f:\n        f.write(updated_content)\n\nreplace_paths('inputfile', 'outputfile')

@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() {\n  var configElement = document.getElementById('config');\n  var configValue = configElement.getAttribute('data-config');\n  var config = { "config": (configValue === 'true') };\n  \n  alert(config.config); // Should alert "true"\n});

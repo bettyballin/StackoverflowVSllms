@@ -1,0 +1,1 @@
+$config = array(\n    'ssl' => 'tls',\n    'port' => 587,\n    'auth' => 'login',\n    'username' => 'webmaster@mydomain.com',\n    'password' => 'password'\n);\n\n$smtpConnection = new Zend_Mail_Transport_Smtp('smtp.gmail.com', $config);

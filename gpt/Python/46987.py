@@ -1,0 +1,1 @@
+ame = "Michael"\nage = 15

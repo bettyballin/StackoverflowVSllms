@@ -1,0 +1,1 @@
+import hashlib\n\ndef generate_hash(title):\n    return hashlib.sha256(title.encode()).hexdigest()\n\n# Example\ntitle = "Breaking News: Example News Title"\nhash_id = generate_hash(title)\nprint(hash_id)

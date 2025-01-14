@@ -1,0 +1,1 @@
+from django.urls import path\nfrom . import views\n\nurlpatterns = [\n    path('interpreter-info/', views.interpreter_info_view, name='interpreter-info'),\n]

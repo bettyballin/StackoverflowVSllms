@@ -1,0 +1,1 @@
+ALTER TABLE movies ADD FULLTEXT(mov_title);

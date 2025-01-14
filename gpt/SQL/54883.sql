@@ -1,0 +1,1 @@
+SELECT YEAR(date_field) AS year, COUNT(*) AS count\nFROM your_table\nGROUP BY YEAR(date_field)\nORDER BY YEAR(date_field);

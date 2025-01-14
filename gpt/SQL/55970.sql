@@ -1,0 +1,1 @@
+CREATE TABLE Facilities (\n       facility_id INT PRIMARY KEY,\n       facility_name VARCHAR(255) NOT NULL\n   );

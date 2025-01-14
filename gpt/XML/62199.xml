@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <modules>\n      <add name="AuthModule" type="Namespace.AuthModule, AssemblyName" />\n    </modules>\n  </system.webServer>\n</configuration>

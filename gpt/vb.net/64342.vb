@@ -1,0 +1,1 @@
+Imports System.Data.SqlClient\nImports Dapper\n\nPublic Function GetListOfT(Of T)(connectionString As String, sqlQuery As String) As List(Of T)\n    Using connection As New SqlConnection(connectionString)\n        connection.Open()\n        Dim result As List(Of T) = connection.Query(Of T)(sqlQuery).ToList()\n        Return result\n    End Using\nEnd Functio

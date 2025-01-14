@@ -1,0 +1,1 @@
+<servlet>\n    <servlet-name>FileUploadServlet</servlet-name>\n    <servlet-class>com.example.FileUploadServlet</servlet-class>\n</servlet>\n<servlet-mapping>\n    <servlet-name>FileUploadServlet</servlet-name>\n    <url-pattern>/upload</url-pattern>\n</servlet-mapping>

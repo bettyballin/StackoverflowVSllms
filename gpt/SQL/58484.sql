@@ -1,0 +1,1 @@
+-- To check the view definition\nEXEC sp_helptext 'dbo.ApprovalsView';\n\n-- To check indexes on the involved tables\nEXEC sp_helpindex 'dbo.Approvals';

@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <securityPolicy>\n      <trustLevel name="Medium" policyFile="web_mediumtrust.config"/>\n    </securityPolicy>\n    <trust>\n      <add assembly="YourCustomAssembly, Version=1.0.0.0, Culture=neutral, PublicKeyToken=YOUR_PUBLIC_KEY_TOKEN" version="1.0.0.0" permissionSetName="FullTrust"/>\n    </trust>\n  </system.web>\n</configuration>

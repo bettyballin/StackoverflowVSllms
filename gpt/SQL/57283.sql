@@ -1,0 +1,1 @@
+impdp your_user/your_password@target DIRECTORY=dump_dir DUMPFILE=dumpfile.dmp LOGFILE=import.log FULL=Y

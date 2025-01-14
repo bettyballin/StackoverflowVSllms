@@ -1,0 +1,1 @@
+<build>\n    <plugins>\n        <plugin>\n            <groupId>org.apache.maven.plugins</groupId>\n            <artifactId>maven-release-plugin</artifactId>\n            <version>3.0.0-M1</version>\n            <configuration>\n                <allowTimestampedSnapshots>true</allowTimestampedSnapshots>\n            </configuration>\n        </plugin>\n    </plugins>\n</build>

@@ -1,0 +1,1 @@
+function findByYear($year = null) {\n    $start_date = $year . '-01-01 00:00:00';\n    $end_date = $year . '-12-31 23:59:59';\n    return $this->find('all', array(\n        'conditions' => array(\n            'Post.date >=' => $start_date,\n            'Post.date <=' => $end_date\n        )\n    ));\n}

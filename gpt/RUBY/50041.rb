@@ -1,0 +1,1 @@
+def insertionsort(num)\n  for j in 1...(num.length)  # Start from index 1, not 2\n    key = num[j]\n    i = j - 1\n    while i >= 0 and num[i] > key  # Allow i to be zero\n      num[i + 1] = num[i]\n      i -= 1\n    end\n    num[i + 1] = key\n  end\n  puts num.inspect  # Use inspect to print array\nend\n\nnumbers = [23, 34, 46, 87, 12, 1, 66]\n\ninsertionsort(numbers)

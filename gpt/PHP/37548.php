@@ -1,0 +1,1 @@
+class B {\n         public function methodInB() {\n             echo "This is a method in class B.";\n         }\n     }\n     \n     class A extends B {\n         public function methodInA() {\n             echo "This is a method in class A.";\n         }\n     }

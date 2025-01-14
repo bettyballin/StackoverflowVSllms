@@ -1,0 +1,1 @@
+# Using the module with a callable object\nimport mod_call\n\n# Now you can call the `callable_module` object\nresult = mod_call.callable_module()\nprint(result)  # Output: 42

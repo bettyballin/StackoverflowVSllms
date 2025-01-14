@@ -1,0 +1,1 @@
+<ItemGroup>\n  <Reference Include="System.Data">\n    <HintPath>path\to\mono\System.Data.dll</HintPath>\n  </Reference>\n</ItemGroup>

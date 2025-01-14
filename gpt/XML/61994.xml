@@ -1,0 +1,1 @@
+<toolbox>\n       <tool class="org.apache.velocity.tools.generic.DateTool"/>\n       <tool class="org.apache.velocity.tools.generic.NumberTool"/>\n       <tool class="org.apache.velocity.tools.generic.EscapeTool"/>\n   </toolbox>

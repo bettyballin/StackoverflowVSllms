@@ -1,0 +1,1 @@
+<MappingFragment StoreEntitySet="YourTable">\n  <Discriminator Value="YourDerivedType1" />\n  <Condition ColumnName="DiscriminatorColumn" Value="YourDerivedType1Value" />\n</MappingFragment>\n<MappingFragment StoreEntitySet="YourTable">\n  <Discriminator Value="YourDerivedType2" />\n  <Condition ColumnName="DiscriminatorColumn" Value="YourDerivedType2Value" />\n</MappingFragment>

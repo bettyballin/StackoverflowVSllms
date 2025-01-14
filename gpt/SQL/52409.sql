@@ -1,0 +1,1 @@
+CREATE PROCEDURE UpdateRecords\nAS\nBEGIN\n    BEGIN TRANSACTION;\n\n    BEGIN TRY\n        -- Update operations\n        UPDATE Table1 SET Column1 = 'Value' WHERE Condition;\n        UPDATE Table2 SET Column2 = 'Value' WHERE Condition;\n\n        COMMIT TRANSACTION;\n    END TRY\n    BEGIN CATCH\n        ROLLBACK TRANSACTION;\n        -- Handle error\n    END CATCH;\nEND;

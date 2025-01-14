@@ -1,0 +1,1 @@
+require_once('tcpdf_include.php');\n\n$pdf = new TCPDF();\n$pdf->AddPage();\n$pdf->SetFont('helvetica', '', 12);\n$pdf->Write(0, 'Hello, this is a test PDF document.');\n$pdf->Output('example.pdf', 'I');

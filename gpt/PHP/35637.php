@@ -1,0 +1,1 @@
+$memcached = new Memcached();\n$memcached->addServer('localhost', 11211);\n\n// Save friend list in cache\n$user_id = 123;\n$friend_list = getFriendListFromDB($user_id);\n$memcached->set("friend_list_$user_id", $friend_list);\n\n// Fetch friend list from cache\n$friend_list = $memcached->get("friend_list_$user_id");

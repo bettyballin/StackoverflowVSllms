@@ -1,0 +1,1 @@
+SELECT *\nFROM widsys.train trn\nWHERE TRUNC(trn.WID_DATE, 'IW') >= NEXT_DAY(TRUNC(TO_DATE('2008', 'YYYY'), 'YEAR') - 1, 'MONDAY') + 7 * (13 - 1)\n  AND TRUNC(trn.WID_DATE, 'IW') <= NEXT_DAY(TRUNC(TO_DATE('2008', 'YYYY'), 'YEAR') - 1, 'MONDAY') + 7 * (15 - 1)\nORDER BY trn.WID_DATE;

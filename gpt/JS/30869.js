@@ -1,0 +1,1 @@
+document.observe('dom:loaded', function() {\n    $$('table tr').each(function(row) {\n        Event.observe(row, 'mouseover', function() {\n            row.addClassName('highlight');\n        });\n        Event.observe(row, 'mouseout', function() {\n            row.removeClassName('highlight');\n        });\n    });\n});

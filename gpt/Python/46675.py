@@ -1,0 +1,1 @@
+import pygdbmi.gdbcontroller\n\n   gdbmi = pygdbmi.gdbcontroller.GdbController()\n   response = gdbmi.write('-target-select remote localhost:1234')\n   print(response)

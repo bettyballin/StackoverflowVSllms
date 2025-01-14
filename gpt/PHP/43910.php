@@ -1,0 +1,1 @@
+$route['profile/(:any)'] = 'profile/view/$1';\n   $route['admin/profile/(:any)'] = 'admin/profile/view/$1';\n   $route['admin/profile/create'] = 'admin/profile/create';\n   $route['admin/profile/edit/(:any)'] = 'admin/profile/edit/$1';

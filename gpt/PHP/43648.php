@@ -1,0 +1,1 @@
+<?php\n$out = 'path/to/your/file';\n$fpr = fopen($out, 'r+');\nif ($fpr) {\n    fseek($fpr, 1); // Seek to the second byte\n    $byte = chr(0x63); // Convert the byte value to a character\n    fwrite($fpr, $byte); // Write the raw byte\n    fclose($fpr);\n} else {\n    echo "Unable to open file.";\n}\n?>

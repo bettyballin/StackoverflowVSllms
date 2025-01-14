@@ -1,0 +1,1 @@
+$string = '#blabla foobar #blabla2';\n$pattern = '/#(\w+)/';\npreg_match_all($pattern, $string, $matches);\n\n$array = array();\nforeach ($matches[1] as $index => $match) {\n    $array[$index] = $match;\n}\n\nprint_r($array);

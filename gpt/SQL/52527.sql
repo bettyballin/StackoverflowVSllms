@@ -1,0 +1,1 @@
+CREATE PROFILE resource_limited_profile LIMIT\n     CPU_PER_CALL         1000        -- Adjust the value as per your analysis\n     LOGICAL_READS_PER_CALL 10000     -- Adjust the value as per your analysis\n     COMPOSITE_LIMIT       5000000;   -- Adjust the value as per your analysis

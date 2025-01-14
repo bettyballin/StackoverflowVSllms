@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\n$response = array('status' => false);\n\nif (isset($_SESSION['screen_name'])) {\n    $response['status'] = true;\n}\n\necho json_encode($response);\n?>

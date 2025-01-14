@@ -1,0 +1,1 @@
+# app/models/session.rb\n   class Session < ApplicationRecord\n     self.abstract_class = true\n     establish_connection :sessions\n   end

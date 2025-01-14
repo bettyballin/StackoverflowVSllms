@@ -1,0 +1,1 @@
+UPDATE sales\nSET status = 'ACTIVE'\nWHERE id IN (\n    SELECT id\n    FROM (\n        SELECT id, saleprice, saledate, COUNT(*) OVER (PARTITION BY saleprice, saledate) AS cnt\n        FROM sales\n    ) AS subquery\n    WHERE cnt = 1\n);

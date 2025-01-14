@@ -1,0 +1,1 @@
+CREATE PROCEDURE [dbo].[YourStoredProcedure]\nAS\nBEGIN\n    -- Your SQL code here\nEND

@@ -1,0 +1,1 @@
+CREATE VIEW unioned_table AS\nSELECT foo, bar FROM table1\nUNION\nSELECT foo, bar FROM table2;

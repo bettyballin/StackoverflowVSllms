@@ -1,0 +1,1 @@
+Imports System.Globalization\n\nModule Module1\n    Sub Main()\n        Dim amount As Decimal = 123.45D\n\n        ' Convert Decimal to String using Invariant Culture\n        Dim usFormattedString As String = amount.ToString("F2", CultureInfo.InvariantCulture)\n\n        Console.WriteLine(usFormattedString) ' Outputs: 123.45\n    End Sub\nEnd Module

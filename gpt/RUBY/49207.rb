@@ -1,0 +1,1 @@
+resources :registration_wizard, only: [:show, :update]

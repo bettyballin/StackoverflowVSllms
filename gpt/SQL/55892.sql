@@ -1,0 +1,1 @@
+INSERT INTO FOO (id, integer1, integer2, integer3) VALUES (1, 10, 20, 30);

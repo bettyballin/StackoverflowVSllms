@@ -1,0 +1,1 @@
+<?php\n$id = intval($_GET['id']);\n$query = mysql_query("SELECT * FROM table WHERE id = $id");\n\n$data = [];\nwhile ($row = mysql_fetch_array($query)) {\n    $data[] = $row;\n}\n?>

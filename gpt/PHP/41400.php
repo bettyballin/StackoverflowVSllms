@@ -1,0 +1,1 @@
+$print = "50 days,7 hours";\n$parts = explode(',', $print);\n$result = $parts[0];\necho $result;  // Output: 50 days

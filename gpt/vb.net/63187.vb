@@ -1,0 +1,1 @@
+Public Interface IInterface\n    ' Define your interface members here\nEnd Interface\n\nPublic Function Blah(Of T As {Class, IInterface})(ByVal foo As T) As String\n    ' Your method implementation here\n    Return foo.ToString()\nEnd Functio

@@ -1,0 +1,1 @@
+SELECT * FROM table_name WHERE b = 2 AND c = 3;

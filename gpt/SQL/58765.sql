@@ -1,0 +1,1 @@
+CREATE TABLE AuditLog (\n       log_id INT PRIMARY KEY,\n       table_name VARCHAR(255),\n       operation VARCHAR(255),\n       old_value TEXT,\n       new_value TEXT,\n       change_timestamp TIMESTAMP\n   );

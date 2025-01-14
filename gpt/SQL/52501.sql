@@ -1,0 +1,1 @@
+EXEC xp_instance_regread N'HKEY_LOCAL_MACHINE', \n                            N'Software\Microsoft\MSSQLServer\MSSQLServer', \n                            N'LoginMode';

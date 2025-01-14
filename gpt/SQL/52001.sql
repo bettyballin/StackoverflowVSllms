@@ -1,0 +1,1 @@
+CREATE VIEW login_session_with_timeout AS\nSELECT *, (now() - modified) AS session_duration\nFROM login_session;\n\nSELECT * FROM login_session_with_timeout WHERE session_duration > (timeout * interval '1 second');

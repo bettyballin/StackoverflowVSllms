@@ -1,0 +1,1 @@
+CREATE TABLE ResultsStrings (\n       ResultID INT PRIMARY KEY,\n       ValueString VARCHAR(255),\n       FOREIGN KEY (ResultID) REFERENCES Results(TestID)\n   );

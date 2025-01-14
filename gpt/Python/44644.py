@@ -1,0 +1,1 @@
+import numpy as np\n\n    # Example of an adjacency matrix for a graph with 4 nodes\n    adjacency_matrix = np.array([\n        [0, 1, 0, 1],\n        [1, 0, 1, 0],\n        [0, 1, 0, 1],\n        [1, 0, 1, 0]\n    ])\n\n    # Compute the number of paths of length 2 between nodes\n    paths_length_2 = np.linalg.matrix_power(adjacency_matrix, 2)\n    print(paths_length_2)

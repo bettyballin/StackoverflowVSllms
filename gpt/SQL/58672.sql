@@ -1,0 +1,1 @@
+SELECT length(your_blob_column) FROM your_table_name;

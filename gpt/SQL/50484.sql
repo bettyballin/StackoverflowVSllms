@@ -1,0 +1,1 @@
+SELECT RecipeName\nFROM Recipes\nWHERE CONTAINS(Tags, 'vegetarian');

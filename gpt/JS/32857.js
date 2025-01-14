@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", function() {\n    if (window.location.hash) {\n        setTimeout(function() {\n            window.scrollTo(window.scrollX, window.scrollY - 50); // Adjust 50 to the height of your fixed header or image\n        }, 10);\n    }\n});

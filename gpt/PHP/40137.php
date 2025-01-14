@@ -1,0 +1,1 @@
+use TYPO3\CMS\Core\Utility\GeneralUtility;\n\n$rid = GeneralUtility::_GP('rid'); // This fetches both GET and POST variables\nvar_dump($rid);

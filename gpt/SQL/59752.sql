@@ -1,0 +1,1 @@
+DELETE FROM your_table\nWHERE pri_id IN (\n    SELECT pri_id FROM (\n        SELECT pri_id\n        FROM your_table\n        WHERE item_id = 'your_specific_item_id' AND date < 'your_cutoff_date'\n        ORDER BY date ASC\n        LIMIT GREATEST(0, (SELECT COUNT(*) FROM your_table WHERE item_id = 'your_specific_item_id') - 15)\n    ) subquery\n);

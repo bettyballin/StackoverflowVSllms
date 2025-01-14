@@ -1,0 +1,1 @@
+var e = document.querySelector('div');\nvar rect = e.getBoundingClientRect();\nconsole.log('Top:', rect.top, 'Left:', rect.left, 'Width:', rect.width, 'Height:', rect.height);

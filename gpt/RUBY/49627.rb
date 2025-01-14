@@ -1,0 +1,1 @@
+module Greetings\n     def hello\n       puts "Hello!"\n     end\n   end\n\n   class Person\n     include Greetings\n   end\n\n   person = Person.new\n   person.hello  # Outputs "Hello!"

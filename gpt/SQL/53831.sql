@@ -1,0 +1,1 @@
+SELECT id, name \nFROM tag \nWHERE name LIKE 'search_term%';

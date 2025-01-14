@@ -1,0 +1,1 @@
+import psycopg2\n\n    with psycopg2.connect(host='otherhost', dbname='yourdb', user='youruser', password='yourpassword') as connection:\n        with connection.cursor() as cursor:\n            cursor.execute("SELECT * FROM your_table")\n            for row in cursor.fetchall():\n                print(row)

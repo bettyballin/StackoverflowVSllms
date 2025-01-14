@@ -1,0 +1,1 @@
+document.getElementById('username').addEventListener('blur', function() {\n        const username = this.value;\n        fetch(`/check-username?username=${username}`)\n            .then(response => response.json())\n            .then(data => {\n                // Show availability status\n            });\n    });

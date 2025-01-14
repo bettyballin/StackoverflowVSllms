@@ -1,0 +1,1 @@
+$("#div").hover(\n    function() {\n        $(this).addClass('cie_hover');\n        $("#anotherDiv").slideDown();\n    },\n    function() {\n        $(this).removeClass('cie_hover');\n        $("#anotherDiv").slideUp();\n    }\n);

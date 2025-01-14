@@ -1,0 +1,1 @@
+from polylabel import polylabel\n\n# Define the polygon as a list of coordinates\npolygon = [[[0, 0], [10, 0], [10, 10], [5, 5], [0, 10], [0, 0]]]\n\n# Get the visual center\ncenter = polylabel(polygon, precision=1.0)\n\nprint("Visual Center:", center)

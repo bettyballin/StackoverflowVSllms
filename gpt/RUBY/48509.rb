@@ -1,0 +1,1 @@
+class CtrlController < ApplicationController\n\n  def create\n    @origin_action = action_name\n    render(action: "update")\n  end\n\n  def read\n  end\n\n  def update\n    @origin_action ||= action_name\n  end\n\n  def delete\n  end\nend

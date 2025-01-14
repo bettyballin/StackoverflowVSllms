@@ -1,0 +1,1 @@
+INSERT INTO person VALUES(null,'Arthur');\nINSERT INTO person VALUES(null,'James');\nINSERT INTO job VALUES(null, 'Programmer');\nINSERT INTO job VALUES(null, 'Manager');\nINSERT INTO job_person VALUES(0,0);\nINSERT INTO job_person VALUES(0,1);\nINSERT INTO job_person VALUES(1,1);

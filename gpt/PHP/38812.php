@@ -1,0 +1,1 @@
+<?php\n// Get the message sent to your Twilio number\n$from = $_REQUEST['From'];\n$body = $_REQUEST['Body'];\n\n// Process the incoming message\nfile_put_contents('sms_log.txt', "Message from $from: $body\n", FILE_APPEND);\n\n// Respond to the message\nheader('Content-Type: text/xml');\necho '<Response><Message>Thank you for your message!</Message></Response>';\n?>

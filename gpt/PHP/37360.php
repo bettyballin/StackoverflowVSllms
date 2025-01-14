@@ -1,0 +1,1 @@
+<?php\n$connection = new mysqli("host", "user", "password", "database");\n$result = $connection->query("SELECT * FROM items ORDER BY `order` ASC");\n\nwhile ($row = $result->fetch_assoc()) {\n    echo $row['id'] . " " . $row['name'] . " " . $row['order'] . "<br>";\n}\n\n$connection->close();\n?>

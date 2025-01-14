@@ -1,0 +1,1 @@
+class qa_html_theme extends qa_html_theme_base {\n    function head_script() {\n        qa_html_theme_base::head_script();\n        $this->output('<script src="' . $this->rooturl . 'js/custom.js"></script>');\n    }\n}

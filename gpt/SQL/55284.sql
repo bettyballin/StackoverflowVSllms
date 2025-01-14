@@ -1,0 +1,1 @@
+CREATE TRIGGER after_insert_your_table\nAFTER INSERT ON your_table\nFOR EACH ROW\nBEGIN\n    UPDATE row_count SET row_count = row_count + 1 WHERE table_name = 'your_table_name';\nEND;\n\nCREATE TRIGGER after_delete_your_table\nAFTER DELETE ON your_table\nFOR EACH ROW\nBEGIN\n    UPDATE row_count SET row_count = row_count - 1 WHERE table_name = 'your_table_name';\nEND;

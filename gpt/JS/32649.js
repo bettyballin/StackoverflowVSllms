@@ -1,0 +1,1 @@
+document.querySelector('form').addEventListener('submit', function(event) {\n    try {\n        // Your form submission logic here\n    } catch (error) {\n        console.error('Form submission error:', error);\n    }\n});

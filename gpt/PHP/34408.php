@@ -1,0 +1,1 @@
+<?php if (isset($this->form)) {\n    echo $this->form;\n} ?>

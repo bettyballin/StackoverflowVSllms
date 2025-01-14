@@ -1,0 +1,1 @@
+// Get the validator object\nvar validator = jQuery('form#listing').validate(); \n\n// Destroy the validation\nvalidator.destroy(); \n\n// Submit the form programmatically\njQuery('form#listing').submit();

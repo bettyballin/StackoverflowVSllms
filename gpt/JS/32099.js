@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', (event) => {\n        const savedTheme = localStorage.getItem('selectedTheme');\n        if (savedTheme) {\n            document.getElementById('themeStylesheet').href = savedTheme + '.css';\n        }\n    });

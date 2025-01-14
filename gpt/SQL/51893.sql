@@ -1,0 +1,1 @@
+CREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    username VARCHAR(255),\n    latitude DOUBLE,\n    longitude DOUBLE,\n    POINT(location) GENERATED ALWAYS AS (POINT(latitude, longitude)) STORED,\n    SPATIAL INDEX(location)\n);

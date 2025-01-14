@@ -1,0 +1,1 @@
+ALTER USER <client_user> GRANT CONNECT THROUGH <proxy_user>;

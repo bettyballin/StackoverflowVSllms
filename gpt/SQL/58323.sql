@@ -1,0 +1,1 @@
+SELECT * FROM question_answer@abcd WHERE id = '45';

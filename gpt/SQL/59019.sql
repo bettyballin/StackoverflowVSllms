@@ -1,0 +1,1 @@
+EXEC GenerateTestData 'YourTableName', 5

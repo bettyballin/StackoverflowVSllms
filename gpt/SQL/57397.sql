@@ -1,0 +1,1 @@
+CREATE TABLE `person` (\n  `id` bigint(20) NOT NULL auto_increment,\n  `version` bigint(20) NOT NULL,\n  `first_name` varchar(255) NOT NULL,\n  `last_name` varchar(255) NOT NULL,\n  `address` varchar(255) NOT NULL,\n  `email` varchar(255) NOT NULL,\n  PRIMARY KEY (`id`)\n) ENGINE=InnoDB DEFAULT CHARSET=latin1

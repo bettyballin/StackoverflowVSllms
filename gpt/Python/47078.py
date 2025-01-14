@@ -1,0 +1,1 @@
+from sklearn.feature_extraction.text import TfidfVectorizer\n\n    documents = ["The Berlin Wall", "BMW", "Cheeseburger"]\n    vectorizer = TfidfVectorizer()\n    vectors = vectorizer.fit_transform(documents)\n    feature_names = vectorizer.get_feature_names_out()\n    dense = vectors.todense()\n    denselist = dense.tolist()\n\n    print(denselist)\n    print(feature_names)

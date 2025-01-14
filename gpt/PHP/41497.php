@@ -1,0 +1,1 @@
+<?php\n// Assuming you have a connection to the database in $mysqli\n$input = $_POST['user_input'];\n\n// Using prepared statements and parameterized queries\n$stmt = $mysqli->prepare("INSERT INTO table_name (column_name) VALUES (?)");\n$stmt->bind_param("s", $input);\n$stmt->execute();\n$stmt->close();\n?>

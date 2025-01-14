@@ -1,0 +1,1 @@
+// Example in a J2EE application\n   <script>\n       var sessionTimeout = 7200; // 2 hours in seconds\n       var warningTime = 6600; // 1 hour 50 minutes in seconds\n\n       setTimeout(function() {\n           alert('Your session will expire soon. Please save your work.');\n       }, warningTime * 1000);\n   </script>

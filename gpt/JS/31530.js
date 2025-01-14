@@ -1,0 +1,1 @@
+$.getJSON("http://localhost/wordpress/test.php", function (data) {\n    $.each(data, function (i, item) {\n        $("<img/>").attr("src", item).appendTo("#images");\n    });\n\n    // Now that the images are appended, you can safely select and use them\n    $("#images img").each(function (i, item) {\n        alert(item);\n    });\n});

@@ -1,0 +1,1 @@
+<?php\nerror_log();\n?>

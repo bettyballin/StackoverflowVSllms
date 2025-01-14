@@ -1,0 +1,1 @@
+// Read the compressed data from the input stream\n$compressedData = file_get_contents('php://input');\n\n// Decompress the data\n$data = gzuncompress($compressedData);\n\n// Save the data to a file or process it as needed\nfile_put_contents('received_data.txt', $data);\n\n// Send a response back to the client\necho "Data received and decompressed successfully.";

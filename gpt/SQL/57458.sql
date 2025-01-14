@@ -1,0 +1,1 @@
+declare @XML xml\nset @XML = '<root><!-- This is a comment --><child>Value</child><!-- Another comment --></root>'\n\n-- Remove all comments\nset @XML.modify('delete //comment()')\n\n-- Check the result\nselect @XML

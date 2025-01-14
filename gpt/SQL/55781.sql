@@ -1,0 +1,1 @@
+WITH PagedResults AS (\n    SELECT \n        ROW_NUMBER() OVER (ORDER BY [YourSortColumn]) AS RowNum,\n        *\n    FROM \n        YourTable\n)\nSELECT \n    *\nFROM \n    PagedResults\nWHERE \n    RowNum BETWEEN @StartRow AND @EndRow\nORDER BY \n    RowNum;

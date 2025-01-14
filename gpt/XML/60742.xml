@@ -1,0 +1,1 @@
+<web-app>\n    ...\n    <context-param>\n        <param-name>org.displaytag.properties</param-name>\n        <param-value>/comp/bre/sub/config/displaytag.properties</param-value>\n    </context-param>\n    ...\n</web-app>

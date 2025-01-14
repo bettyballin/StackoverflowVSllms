@@ -1,0 +1,1 @@
+def dfs(graph, start):\n    visited = set()\n    stack = [start]\n\n    while stack:\n        vertex = stack.pop()\n        if vertex not in visited:\n            visited.add(vertex)\n            stack.extend(set(graph[vertex]) - visited)\n    return visited

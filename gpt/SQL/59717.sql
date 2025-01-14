@@ -1,0 +1,1 @@
+-- Update statistics\n   UPDATE STATISTICS tablename;\n\n   -- Rebuild indexes\n   ALTER INDEX ALL ON tablename REBUILD;

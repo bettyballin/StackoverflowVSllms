@@ -1,0 +1,1 @@
+// script.php\ninclude __DIR__ . '/inc/include1.php';\ninclude __DIR__ . '/inc/include2.php';\n\n// soap/soap.php\ninclude __DIR__ . '/../inc/include1.php';\ninclude __DIR__ . '/../inc/include2.php';

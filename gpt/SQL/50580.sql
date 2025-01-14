@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\n-- Fetch and lock 20 locations\nWITH CTE AS (\n    SELECT TOP 20 * \n    FROM BoxLocations \n    WHERE Status = 'Empty' \n    ORDER BY Timestamp \n    FOR UPDATE\n)\nUPDATE CTE\nSET Status = 'Locked', Timestamp = GETDATE();\n\nCOMMIT TRANSACTION;

@@ -1,0 +1,1 @@
+SELECT tableB.*\nFROM tableB\nLEFT JOIN tableA ON tableB.con_number = tableA.con_number\nWHERE tableA.con_number IS NULL;

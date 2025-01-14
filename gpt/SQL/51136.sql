@@ -1,0 +1,1 @@
+UPDATE your_table SET column_name = 'some_value', fire_trigger = 0 WHERE id = 1;

@@ -1,0 +1,1 @@
+-- Use TABLESAMPLE to grab a random sample\nSELECT TOP 5000 *\nFROM YourTable\nTABLESAMPLE (5000 ROWS)\nWHERE YourConstraints;

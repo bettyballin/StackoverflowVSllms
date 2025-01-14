@@ -1,0 +1,1 @@
+$this->instanceProperty;\n  $this->instanceMethod();

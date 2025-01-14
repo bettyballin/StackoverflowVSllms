@@ -1,0 +1,1 @@
+$result = $db->query($sql); // Ensure $sql is properly sanitized to prevent SQL injection\n\nif ($result) {\n    $myData = $result->fetch_assoc(); // fetch_assoc() returns an associative array\n} else {\n    // handle the error, for example:\n    echo "Query error: " . $db->error;\n}

@@ -1,0 +1,1 @@
+UPDATE dbo.alerts\nSET created_in_variant = (SELECT created_in_variant FROM dbo.fn_find_root(alerts.id))

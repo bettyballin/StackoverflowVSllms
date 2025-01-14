@@ -1,0 +1,1 @@
+<?php\n$originalString = "m>^æ–S[J¯vÖ_ÕÚuÍÔ'´äœÈ‘ ®@M©t²#÷[Éå¹UçfU5T°äÙ“©”ˆÇVÝ] [’e™a«Ã°7#dÉJ>";\n$encodedString = base64_encode($originalString);\necho $encodedString;\n?>

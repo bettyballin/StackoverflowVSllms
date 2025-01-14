@@ -1,0 +1,1 @@
+from flask_limiter import Limiter\n    limiter = Limiter(app, key_func=get_remote_address)

@@ -1,0 +1,1 @@
+// config/authsources.php\n'example-userpass' => [\n    'exampleauth:UserPass',\n    'user1:password1' => [\n        'uid' => ['user1'],\n        'email' => ['user1@example.com'],\n        'name' => ['User One'],\n    ],\n    // Add more users as needed\n],

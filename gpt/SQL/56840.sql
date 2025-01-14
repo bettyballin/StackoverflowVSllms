@@ -1,0 +1,1 @@
+SELECT FieldName\nFROM TableName A\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM TableName2 B\n    WHERE UPPER(A.ColumnName) LIKE UPPER(B.FieldName2) + '%'\n);

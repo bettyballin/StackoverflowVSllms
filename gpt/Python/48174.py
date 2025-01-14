@@ -1,0 +1,1 @@
+def f(x):\n    f.thing = "hello!"  # Assigning attribute to the function\n    return x + 3\n\nf(5)  # Call the function to trigger the attribute assignment\nprint(f.thing)  # Output: hello!

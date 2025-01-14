@@ -1,0 +1,1 @@
+<?php\n    require_once 'path/to/vendor/autoload.php';\n\n    $config = HTMLPurifier_Config::createDefault();\n    $purifier = new HTMLPurifier($config);\n\n    $dirty_html = $_POST['wysiwyg_input'];  // Example of user input\n    $clean_html = $purifier->purify($dirty_html);\n\n    echo $clean_html;\n    ?>

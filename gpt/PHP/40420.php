@@ -1,0 +1,1 @@
+$name = 'Alice';\necho 'Hello, $name\n'; // Output: Hello, $name\n (no variable expansion, no newline)

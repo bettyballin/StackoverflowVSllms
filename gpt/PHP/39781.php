@@ -1,0 +1,1 @@
+// application/controllers/SomeController.php\nclass SomeController extends CI_Controller {\n\n    public function __construct() {\n        parent::__construct();\n        $this->load->helper('my_helper');\n    }\n\n    public function some_method() {\n        $result = call_admin_login();\n        echo $result; // Outputs: "Login function called"\n    }\n}

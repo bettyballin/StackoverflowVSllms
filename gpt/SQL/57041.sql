@@ -1,0 +1,1 @@
+Dataset Name: YourDataset\n    Command Type: Text\n    Query:\n    SELECT * FROM your_table WHERE your_column = :your_parameter

@@ -1,0 +1,1 @@
+<script>\n    $(function() {\n        $("#sortable1, #sortable2").sortable({\n            connectWith: ".connectedSortable"\n        }).disableSelection();\n    });\n</script>

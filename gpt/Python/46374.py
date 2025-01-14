@@ -1,0 +1,1 @@
+def delete_url(url_id):\n        conn = sqlite3.connect('rss_reader.db')\n        cursor = conn.cursor()\n\n        cursor.execute('DELETE FROM urls WHERE id = ?', (url_id,))\n\n        conn.commit()\n        conn.close()

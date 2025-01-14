@@ -1,0 +1,1 @@
+<Placemark>\n  <name>Example Placemark</name>\n  <description>\n    <![CDATA[\n      <iframe src="http://your-server.com/your-html-content.html" width="400" height="300"></iframe>\n    ]]>\n  </description>\n  <Point>\n    <coordinates>-122.0822035425683,37.42228990140251,0</coordinates>\n  </Point>\n</Placemark>

@@ -1,0 +1,1 @@
+<?php\nheader('Content-Type: image/png');\n\n$image = imagecreatefrompng('path_to_your_image.png');\n$text_color = imagecolorallocate($image, 255, 255, 255);\n$font_path = 'path_to_your_font.ttf';\n$text = "Your Text Here";\n\nimagettftext($image, 20, 0, 10, 20, $text_color, $font_path, $text);\nimagepng($image);\nimagedestroy($image);\n?>

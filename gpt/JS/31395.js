@@ -1,0 +1,1 @@
+(\n  function() {\n    alert("44");\n    return function() {\n        alert(33);\n    };\n  }\n)();

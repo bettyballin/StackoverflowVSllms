@@ -1,0 +1,1 @@
+> app.entries_url\n=> "http://localhost:3000/entries"\n\n> app.entries_path\n=> "/entries"

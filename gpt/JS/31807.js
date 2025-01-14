@@ -1,0 +1,1 @@
+var contextPath = document.body.getAttribute('data-context-path');\nvar imageUrl = contextPath + "/myimage.gif";

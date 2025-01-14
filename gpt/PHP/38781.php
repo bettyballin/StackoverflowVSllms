@@ -1,0 +1,1 @@
+<?php\n$directory = '/path/to/check'; // specify the directory you want to check\n$max_filename_length = pathconf($directory, 'PC_NAME_MAX');\n\nif ($max_filename_length === false) {\n    echo "Unable to determine the maximum filename length.";\n} else {\n    echo "The maximum filename length is: " . $max_filename_length;\n}\n?>

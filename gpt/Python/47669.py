@@ -1,0 +1,1 @@
+INSTALLED_APPS = [\n    ...\n    'channels',\n]\n\nASGI_APPLICATION = 'your_project.asgi.application'\n\nCHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels.layers.InMemoryChannelLayer',\n    },\n}

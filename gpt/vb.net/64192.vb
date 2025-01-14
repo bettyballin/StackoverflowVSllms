@@ -1,0 +1,1 @@
+Public Class Form1\n    Private Sub OpenForm2()\n        Dim newForm As New Form2\n        newForm.Data = "Some data to pass"\n        newForm.Show()\n    End Sub\nEnd Class

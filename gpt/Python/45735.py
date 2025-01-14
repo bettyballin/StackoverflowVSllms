@@ -1,0 +1,1 @@
+with open("utf8_with_bom.txt", "wb") as f:\n    f.write(b'\xef\xbb\xbf')  # Write the BOM for UTF-8\n    f.write("This is a test file.".encode("utf-8"))

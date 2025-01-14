@@ -1,0 +1,1 @@
+ested_list = [\n    [1, 2, 3],\n    [4, 5, 6],\n    [7],\n    [8, 9]\n]\n\nflat_list = [item for sublist in nested_list for item in sublist]\nprint(flat_list)

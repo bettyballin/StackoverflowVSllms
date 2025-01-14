@@ -1,0 +1,1 @@
+// src/Models/User.php\nnamespace App\Models;\n\nuse App\Core\Model;\n\nclass User extends Model {\n    public static function all() {\n        $stmt = self::query("SELECT * FROM users");\n        return $stmt->fetchAll(\PDO::FETCH_OBJ);\n    }\n}

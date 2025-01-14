@@ -1,0 +1,1 @@
+class SiteController < ApplicationController\n  def index\n    @title = "Welcome to RailsSpace!"\n  end\n\n  def about\n    @title = "About RailsSpace"\n  end\n\n  def help\n    @title = "RailsSpace Help"\n  end\nend

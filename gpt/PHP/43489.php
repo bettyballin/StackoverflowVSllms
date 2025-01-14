@@ -1,0 +1,1 @@
+$query = "SELECT DATE_FORMAT(your_datetime_field, '%Y-%m-%d') as formatted_date FROM your_table";\n$result = mysqli_query($connection, $query);\n\nwhile ($row = mysqli_fetch_assoc($result)) {\n    echo $row['formatted_date'];\n}

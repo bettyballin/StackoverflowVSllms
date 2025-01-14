@@ -1,0 +1,1 @@
+<?php\n// myajax.php\n\n// Your logic to determine whether to make changes to #someid\n$shouldChange = false; // Example condition\n\nif (!$shouldChange) {\n    // Set HTTP response status code to 204 No Content\n    http_response_code(204);\n    exit;\n}\n\n// If changes are needed, output the data\necho "New content for #someid";\n?>

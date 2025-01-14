@@ -1,0 +1,1 @@
+CREATE INDEX idx_thingsinboxes_box_id ON thingsinboxes(box_id);\nCREATE INDEX idx_thingsinboxes_thing ON thingsinboxes(thing);

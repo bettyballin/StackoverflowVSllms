@@ -1,0 +1,1 @@
+require './plugin'\n  PluginModule.plugin_method

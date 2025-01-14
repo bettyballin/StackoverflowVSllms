@@ -1,0 +1,1 @@
+$matches = [\n    1 => [\n        0 => "example",\n        1 => "string",\n    ]\n];\n\n$i = 0;\n$val = $matches[1][$i]; // This should work correctly\n\n// If $matches[1] is a string, then $matches[1][$i] will return the $i-th character of the string\n// For example, if $matches[1] = "example", then $matches[1][0] would be 'e', $matches[1][1] would be 'x', etc.

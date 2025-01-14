@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.netbeans.profiler</groupId>\n    <artifactId>profiler</artifactId>\n    <version>RELEASE_VERSION</version>\n</dependency>

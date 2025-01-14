@@ -1,0 +1,1 @@
+DELIMITER $$\n\nCREATE PROCEDURE InsertUser(IN username VARCHAR(255), IN email VARCHAR(255))\nBEGIN\n    INSERT INTO users (username, email) VALUES (username, email);\nEND $$\n\nDELIMITER ;

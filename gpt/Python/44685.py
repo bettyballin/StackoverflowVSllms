@@ -1,0 +1,1 @@
+# app/foo/__init__.py\nimport logging\nimport os\nimport re\n\n# Optionally, define shortcuts to these imports\ncommon_logging = logging\ncommon_os = os\ncommon_re = re

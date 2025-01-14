@@ -1,0 +1,1 @@
+<?php\n// Assuming $data and $data2 have the same number of elements\nforeach ($data as $key => $row) {\n    $row2 = $data2[$key];\n    // Your HTML or processing code goes here\n    echo "<div>Data1: {$row->property}, Data2: {$row2->property}</div>";\n}\n?>

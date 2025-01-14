@@ -1,0 +1,1 @@
+document.body.style.userSelect = 'auto';\ndocument.body.style.mozUserSelect = 'auto';\ndocument.body.style.webkitUserSelect = 'auto';\ndocument.body.style.msUserSelect = 'auto';

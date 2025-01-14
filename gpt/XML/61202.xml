@@ -1,0 +1,1 @@
+<system.web>\n        <trace enabled="true" requestLimit="10" pageOutput="true" traceMode="SortByTime" localOnly="false" />\n    </system.web>

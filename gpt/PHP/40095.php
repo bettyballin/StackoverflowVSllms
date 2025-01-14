@@ -1,0 +1,1 @@
+<?php\n$handle = fopen("file.txt", "r");\nwhile (($line = fgets($handle)) !== FALSE) {\n    echo mb_convert_encoding($line, "UTF-8", "ISO-8859-1");\n}\nfclose($handle);\n?>

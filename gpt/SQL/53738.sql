@@ -1,0 +1,1 @@
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";\n\n    CREATE TABLE content (\n        id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,\n        title VARCHAR(255),\n        content TEXT,\n        date TIMESTAMP,\n        link TEXT,\n        language VARCHAR(10)\n    );

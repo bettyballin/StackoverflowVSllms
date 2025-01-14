@@ -1,0 +1,1 @@
+CREATE INDEX idx_followers_user_id ON Followers(user_id);\nCREATE INDEX idx_followers_follower_id ON Followers(follower_id);\nCREATE INDEX idx_activities_user_id ON Activities(user_id);

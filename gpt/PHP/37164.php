@@ -1,0 +1,1 @@
+<?php\n   // header.php\n\n   // Start the session\n   session_start();\n\n   // Your code here\n   ?>

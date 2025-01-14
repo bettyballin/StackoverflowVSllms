@@ -1,0 +1,1 @@
+gateway_username = Rails.application.credentials.dig(:payment_gateway, :username)\n   gateway_password = Rails.application.credentials.dig(:payment_gateway, :password)

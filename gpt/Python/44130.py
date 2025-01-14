@@ -1,0 +1,1 @@
+def combined_score(upvotes, downvotes, created_at):\n       score = wilson_score(upvotes, downvotes)\n       decay = time_decay(created_at)\n       return score * decay

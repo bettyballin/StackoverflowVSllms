@@ -1,0 +1,1 @@
+# settings.py\n   import os\n\n   BASE_DIR = os.path.dirname(os.path.abspath(__file__))\n\n   DATABASES = {\n       'default': {\n           'ENGINE': 'django.db.backends.sqlite3',\n           'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n       }\n   }\n\n   INSTALLED_APPS = [\n       'your_app',  # Add your app here\n   ]\n\n   SECRET_KEY = 'your-secret-key'

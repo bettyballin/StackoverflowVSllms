@@ -1,0 +1,1 @@
+CREATE PROCEDURE usp_GetDataFromTable\n    @TableName NVARCHAR(128),\n    @Filter NVARCHAR(MAX)\nAS\nBEGIN\n    DECLARE @SQL NVARCHAR(MAX)\n\n    -- Construct the SQL query dynamically\n    SET @SQL = N'SELECT * FROM ' + QUOTENAME(@TableName) + N' WHERE ' + @Filter\n\n    -- Execute the dynamically constructed SQL query\n    EXEC sp_executesql @SQL\nEND

@@ -1,0 +1,1 @@
+<?php\n    class Person {\n        public $name;\n    }\n?>

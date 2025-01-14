@@ -1,0 +1,1 @@
+<sqlMapConfig xmlns="http://ibatis.apache.org/dataMapper">\n  <database>\n    <provider name="SqlServer" />\n    <connectionString>Data Source=localhost;Initial Catalog=mydb;Integrated Security=True;</connectionString>\n  </database>\n  <sqlMaps>\n    <sqlMap resource="SqlMap.xml" />\n  </sqlMaps>\n</sqlMapConfig>

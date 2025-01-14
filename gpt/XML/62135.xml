@@ -1,0 +1,1 @@
+<system.webServer>\n    <staticContent>\n      <mimeMap fileExtension=".gif" mimeType="image/gif" />\n    </staticContent>\n  </system.webServer>

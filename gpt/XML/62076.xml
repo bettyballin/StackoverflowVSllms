@@ -1,0 +1,1 @@
+<configuration>\n  <appSettings>\n    <add key="SourceFolder" value="C:\SourceFolder" />\n    <add key="DestinationFolder" value="C:\DestinationFolder" />\n  </appSettings>\n</configuration>

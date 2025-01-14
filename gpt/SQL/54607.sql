@@ -1,0 +1,1 @@
+SELECT resource_type, resource_database_id, resource_associated_entity_id, request_mode, request_status, request_session_id\n    FROM sys.dm_tran_locks;

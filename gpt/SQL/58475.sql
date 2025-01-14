@@ -1,0 +1,1 @@
+CREATE VIEW combined_view AS\nSELECT * FROM table1\nUNION ALL\nSELECT * FROM table2\nUNION ALL\nSELECT * FROM table3\nUNION ALL\nSELECT * FROM table4;

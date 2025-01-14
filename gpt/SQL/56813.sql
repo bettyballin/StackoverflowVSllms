@@ -1,0 +1,1 @@
+SELECT * FROM Employees WHERE EmployeeID = 123; -- Assuming EmployeeID is indexed

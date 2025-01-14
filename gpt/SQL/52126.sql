@@ -1,0 +1,1 @@
+CREATE FLASHBACK ARCHIVE my_flashback_archive TABLESPACE my_tablespace RETENTION 1 YEAR;\n   ALTER TABLE mytable FLASHBACK ARCHIVE my_flashback_archive;

@@ -1,0 +1,1 @@
+import myframework\nfrom myframework.addons import foo\n\nfoo.do_something()

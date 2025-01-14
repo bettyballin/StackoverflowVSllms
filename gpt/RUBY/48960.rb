@@ -1,0 +1,1 @@
+# config/environment.rb or config/environments/production.rb\n\n# Example using cookie store\nRails::Initializer.run do |config|\n  config.action_controller.session_store = :cookie_store\n  config.action_controller.session = {\n    :key => '_your_app_session',\n    :secret => 'some_secret_key'\n  }\nend

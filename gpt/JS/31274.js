@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $("#readOnlyRowsToggle").click(function() {\n        $(".readOnlyRow").each(function() {\n            var $this = $(this);\n            if ($this.css("display") === "none") {\n                $this.css("display", "table-row");\n            } else {\n                $this.css("display", "none");\n            }\n        });\n    });\n});

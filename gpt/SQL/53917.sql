@@ -1,0 +1,1 @@
+INSERT INTO NewTableName (Column1, Column2, ...)\nSELECT Column1, Column2, ...\nFROM OldTableName;

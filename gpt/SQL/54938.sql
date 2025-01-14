@@ -1,0 +1,1 @@
+-- First, update the foreign key dependencies\n    UPDATE YourForeignKeyTable\n    SET ForeignKeyColumn = ForeignKeyColumn + 1\n    WHERE ForeignKeyColumn >= 0;\n\n    -- Then, update the primary key values\n    UPDATE YourTableName\n    SET Id = Id + 1\n    WHERE Id >= 0;

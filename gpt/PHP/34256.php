@@ -1,0 +1,1 @@
+<?php\n$result = "Country: USA City: NY Latitude: 32.2667 Longitude: 71.9167\n";\n\n$pattern = '/(\w+):\s([\w.]+)/';\npreg_match_all($pattern, $result, $matches);\n\n$parsedData = [];\nfor($i = 0; $i < count($matches[1]); $i++) {\n    $parsedData[$matches[1][$i]] = $matches[2][$i];\n}\n\n$queryString = http_build_query($parsedData, '', '&');\necho $queryString . "\n";\n?>

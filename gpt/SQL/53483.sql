@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n    SELECT *\n    FROM orders\n    ORDER BY user\n) AS ordered_orders\nORDER BY RAND()

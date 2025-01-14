@@ -1,0 +1,1 @@
+SELECT SQL_CALC_FOUND_ROWS Id, Name \nFROM my_table \nWHERE Name LIKE '%prashant%' \nLIMIT 0, 10;\n\nSELECT FOUND_ROWS() AS total_count;

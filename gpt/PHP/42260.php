@@ -1,0 +1,1 @@
+// application/config/autoload.php\n$autoload['libraries'] = array('database', 'session');

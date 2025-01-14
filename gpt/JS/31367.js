@@ -1,0 +1,1 @@
+function getUserTimeZone() {\n    return Intl.DateTimeFormat().resolvedOptions().timeZone;\n}

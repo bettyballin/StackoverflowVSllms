@@ -1,0 +1,1 @@
+def find_max(arr):\n    max_val = arr[0]\n    for num in arr:\n        if num > max_val:\n            max_val = num\n    return max_val\n\n# Time Complexity: O(n), where n is the number of elements in the array.

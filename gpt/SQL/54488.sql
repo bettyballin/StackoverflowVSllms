@@ -1,0 +1,1 @@
+SET @row_number := 0;\n\nSELECT \n    *,\n    @row_number := @row_number + 1 AS rn\nFROM \n    (SELECT * FROM news_articles ORDER BY image IS NULL, other_sorting_criteria) sub\nORDER BY \n    CASE WHEN rn = 1 THEN image IS NULL ELSE 0 END,\n    other_sorting_criteria;

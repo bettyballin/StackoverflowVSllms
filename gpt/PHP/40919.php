@@ -1,0 +1,1 @@
+<?php\nrequire_once('tcpdf/tcpdf.php');\n\nfunction countPdfPages($filePath) {\n    if (!file_exists($filePath)) {\n        return 0;\n    }\n\n    $pdf = new TCPDF();\n    $pageCount = $pdf->setSourceFile($filePath);\n    return $pageCount;\n}\n\n$pdfFile = 'path/to/your/pdf-file.pdf';\n$pageCount = countPdfPages($pdfFile);\necho "The PDF has $pageCount pages.";\n?>

@@ -1,0 +1,1 @@
+import time\n\ndef fibonacci(duration):\n    a, b = 0, 1\n    start_time = time.time()\n    while True:\n        print(a)\n        a, b = b, a + b\n        if time.time() - start_time > duration:  # Run for 'duration' seconds\n            print("Time's up. Stopping the function.")\n            break\n\nfibonacci(10)  # Run for 10 seconds

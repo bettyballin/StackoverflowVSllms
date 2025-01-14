@@ -1,0 +1,1 @@
+CREATE UNIQUE CLUSTERED INDEX IX_OverlappingPatrols\n   ON dbo.OverlappingPatrols (GuardID, PatrolID);

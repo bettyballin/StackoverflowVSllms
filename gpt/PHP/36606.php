@@ -1,0 +1,1 @@
+<?php\n$note = $_POST['note'];\n$id = $_POST['bid'];\n$sql = "INSERT INTO notes (business_id, notes) VALUES ('$id', '$note')";\n$result = mysql_query($sql);\nif($result) {\n    echo $note;\n}\n?>

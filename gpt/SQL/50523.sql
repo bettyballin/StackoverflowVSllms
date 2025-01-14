@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX idx_c2_c3_c4\nON table1 (c2, c3, c4);\n\nCREATE NONCLUSTERED INDEX idx_c1_c2_c3\nON table1 (c1, c2, c3);\n\nCREATE NONCLUSTERED INDEX idx_c1_c3_c5\nON table1 (c1, c3, c5);

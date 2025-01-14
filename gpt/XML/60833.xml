@@ -1,0 +1,1 @@
+<system.applicationHost>\n      <applicationPools>\n         <add name="YourAppPoolName" enableOverlappingRotation="false" />\n      </applicationPools>\n   </system.applicationHost>

@@ -1,0 +1,1 @@
+select 'true' where 3 in (1, 2, 3, null)

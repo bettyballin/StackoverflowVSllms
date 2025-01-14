@@ -1,0 +1,1 @@
+<?php\n// profile.php\nif (isset($_GET['id'])) {\n    $user_id = intval($_GET['id']);\n    // Query the database or perform actions based on $user_id\n    // Example:\n    // $result = mysqli_query($conn, "SELECT * FROM users WHERE id = $user_id");\n}\n?>

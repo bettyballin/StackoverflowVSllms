@@ -1,0 +1,1 @@
+import zipfile\n\nwith zipfile.ZipFile('example.zip', 'r') as zip_file:\n    with zip_file.open('file_inside_zip.txt') as file:\n        file.seek(1000)  # Seek to 1000 bytes in the file inside the zip archive\n        data = file.read(100)\n        print(data)

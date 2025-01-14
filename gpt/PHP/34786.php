@@ -1,0 +1,1 @@
+$hash_value = hash('sha256', $input);

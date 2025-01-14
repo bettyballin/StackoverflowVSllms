@@ -1,0 +1,1 @@
+SELECT name, state_desc \n   FROM sys.databases \n   WHERE name = 'your_database_name';

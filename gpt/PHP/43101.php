@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['videoData'])) {\n    $videoData = file_get_contents($_POST['videoData']);\n    $filePath = 'uploads/video_' . time() . '.webm';\n    file_put_contents($filePath, $videoData);\n    echo "Video uploaded successfully: " . $filePath;\n} else {\n    echo "No video data received.";\n}\n?>

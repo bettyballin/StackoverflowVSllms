@@ -1,0 +1,1 @@
+class ApplicationController < ActionController::Base\n  include Pundit\n\n  rescue_from Pundit::NotAuthorizedError, with: :user_not_authorized\n\n  private\n\n  def user_not_authorized\n    flash[:alert] = "You are not authorized to perform this action."\n    redirect_to(request.referrer || root_path)\n  end\nend

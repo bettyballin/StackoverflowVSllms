@@ -1,0 +1,1 @@
+<urlrewrite>\n    <!-- Rule to rewrite /parameter to /index.jsp?parameter=parameter -->\n    <rule>\n        <from>^/([^/]+)$</from>\n        <to>/index.jsp?parameter=$1</to>\n    </rule>\n\n    <!-- Rule to replace spaces with hyphens in outbound URLs -->\n    <outbound-rule>\n        <from> </from>\n        <to>-</to>\n    </outbound-rule>\n</urlrewrite>

@@ -1,0 +1,1 @@
+WITH CTE AS (\n    SELECT \n        RecordID,\n        ROW_NUMBER() OVER (PARTITION BY BusinessName, latitude, longitude, Phone ORDER BY webaddress DESC, caption1 DESC, caption2 DESC) AS RowNum\n    FROM \n        tl_acxiomimport.dbo.tblacxiomlistings\n)\nDELETE FROM CTE\nWHERE RowNum > 1;

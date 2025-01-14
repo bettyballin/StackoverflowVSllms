@@ -1,0 +1,1 @@
+Project.configure do |project|\n     project.source_control = SourceControl::Git.new(\n       :repository => 'git@github.com:username/repository.git',\n       :branch => 'main'\n     )\n   end

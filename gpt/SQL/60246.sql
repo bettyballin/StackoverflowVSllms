@@ -1,0 +1,1 @@
+CREATE TABLE Actions (\n    Action NVARCHAR(50),\n    Type NVARCHAR(50)\n);\n\nINSERT INTO Actions (Action, Type) VALUES\n('Action1', 'VIEW'),\n('Action1', 'EDIT'),\n('Action2', 'VIEW'),\n('Action3', 'VIEW'),\n('Action3', 'EDIT');

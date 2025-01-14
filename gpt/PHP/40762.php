@@ -1,0 +1,1 @@
+// Using MySQLi\n$mysqli = new mysqli("localhost", "user", "password", "database");\n\n$stmt = $mysqli->prepare("SELECT * FROM users WHERE username = ?");\n$stmt->bind_param("s", $username);\n$stmt->execute();\n$result = $stmt->get_result();\nwhile ($row = $result->fetch_assoc()) {\n    // Process the result\n}\n$stmt->close();\n$mysqli->close();

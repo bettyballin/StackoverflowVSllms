@@ -1,0 +1,1 @@
+<?php\n   set_time_limit(0); // Set the execution time to unlimited\n   ?>

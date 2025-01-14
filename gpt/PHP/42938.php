@@ -1,0 +1,1 @@
+$var = 123;\n  if (is_int($var)) {\n      echo "$var is an integer.";\n  }

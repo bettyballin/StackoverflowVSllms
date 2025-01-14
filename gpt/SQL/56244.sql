@@ -1,0 +1,1 @@
+WITH RankedPersons AS (\n    SELECT\n        ID,\n        Name,\n        City,\n        Birthyear,\n        ROW_NUMBER() OVER (PARTITION BY City ORDER BY Birthyear ASC) AS rn\n    FROM people\n)\nSELECT\n    ID,\n    Name,\n    City,\n    Birthyear\nFROM RankedPersons\nWHERE rn = 1\nORDER BY Birthyear ASC\nLIMIT 3;

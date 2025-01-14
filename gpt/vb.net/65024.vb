@@ -1,0 +1,1 @@
+Dim updateCommand As New SqlCommand("UPDATE your_table SET column1 = @value1 WHERE id = @id", connection)\n   updateCommand.Parameters.AddWithValue("@value1", newValue)\n   updateCommand.Parameters.AddWithValue("@id", id)\n   connection.Open()\n   updateCommand.ExecuteNonQuery()\n   connection.Close()

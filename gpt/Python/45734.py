@@ -1,0 +1,1 @@
+query = Album.query(Album.publication_year < 1980).order(Album.artist)\nalbums = query.fetch()

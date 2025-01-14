@@ -1,0 +1,1 @@
+EXEC sp_configure 'show advanced options', 1;\n    RECONFIGURE;\n    EXEC sp_configure 'max server memory', <desired amount in MB>;\n    RECONFIGURE;\n    EXEC sp_configure 'min server memory', <desired amount in MB>;\n    RECONFIGURE;

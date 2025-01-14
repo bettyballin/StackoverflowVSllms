@@ -1,0 +1,1 @@
+-- Create a view to aggregate user metrics\nCREATE VIEW UserMetrics AS\nSELECT \n    UserID,\n    COUNT(*) AS TotalLogins,\n    MAX(LoginDate) AS LastLoginDate,\n    AVG(SessionDuration) AS AverageSessionDuration\nFROM \n    UserLogins\nGROUP BY \n    UserID;

@@ -1,0 +1,1 @@
+<dependency>\n       <groupId>org.apache.tiles</groupId>\n       <artifactId>tiles-extras</artifactId>\n       <version>3.0.8</version>\n   </dependency>

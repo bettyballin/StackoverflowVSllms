@@ -1,0 +1,1 @@
+$.ajax({\n    url: 'path/to/your/php/script.php',\n    type: 'POST',\n    data: {\n        json_data: JSON.stringify(yourJavaScriptObject)\n    },\n    success: function(response) {\n        console.log('Server response:', response);\n    },\n    error: function(xhr, status, error) {\n        console.error('AJAX Error:', status, error);\n    }\n});

@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_increment_unread_count\n   AFTER INSERT ON comments\n   FOR EACH ROW\n   EXECUTE FUNCTION increment_unread_count();\n\n   CREATE TRIGGER trg_decrement_unread_count\n   AFTER UPDATE OF is_read ON comments\n   FOR EACH ROW\n   WHEN (NEW.is_read IS TRUE AND OLD.is_read IS FALSE)\n   EXECUTE FUNCTION decrement_unread_count();

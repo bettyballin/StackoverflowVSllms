@@ -1,0 +1,1 @@
+def update_states\n  q = params[:country]\n  states = Carmen::states(Carmen::country_code(q))\n\n  render :update do |page|\n    page.replace_html "states_div", \n      partial: 'states',\n      locals: { states: states, form: form_for(@person) }\n  end\nend

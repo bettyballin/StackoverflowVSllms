@@ -1,0 +1,1 @@
+import html\n\nescaped_str = '&#39;'\nunescaped_str = html.unescape(escaped_str)\n\nprint(unescaped_str)  # Output: '

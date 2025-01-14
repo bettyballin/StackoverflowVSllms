@@ -1,0 +1,1 @@
+-- Lock the table in shared mode\nLOCK TABLE tablex IN SHARE MODE;\n\n-- Fetch the data\nSELECT * FROM tablex WHERE ...;\n\n-- Release the lock (implicitly done when the transaction ends)

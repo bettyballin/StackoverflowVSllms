@@ -1,0 +1,1 @@
+Dim token As IntPtr = System.Security.Principal.WindowsIdentity.GetCurrent().Token\nDim tokenBytes As Byte() = BitConverter.GetBytes(token.ToInt64())\n\n' Call the web service method\nDim service As New UserService()\nservice.UserToken(tokenBytes)

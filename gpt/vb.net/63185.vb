@@ -1,0 +1,1 @@
+Public Class User\n       ' Class implementation\n   End Class

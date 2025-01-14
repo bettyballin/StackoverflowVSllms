@@ -1,0 +1,1 @@
+// Cache the serialized array\napcu_store('user_friends_list', $serializedArray);\n\n// Retrieve the cached data\n$cachedSerializedArray = apcu_fetch('user_friends_list');\nif ($cachedSerializedArray !== false) {\n    $unserializedArray = unserialize($cachedSerializedArray);\n}

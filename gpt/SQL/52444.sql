@@ -1,0 +1,1 @@
+INSERT INTO `products` (`name`) VALUES ('Cup');\n\nINSERT INTO `variations` (`name`, `kind`) VALUES ('Green', 'Color'), ('Glass', 'Texture'), ('Blue', 'Color');\n\nINSERT INTO `product_variations` (`product_id`, `variation_id`) VALUES (1, 1), (1, 2), (1, 3);

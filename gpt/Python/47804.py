@@ -1,0 +1,1 @@
+d = dict(param='test')\n\ndef f(param):\n    print(param)\n\n# Use ** to unpack the dictionary into keyword arguments\nf(**d)\n\n# For a function with more parameters\nd2 = dict(p1=1, p2=2)\n\ndef f2(p1, p2):\n    print(p1, p2)\n\nf2(**d2)

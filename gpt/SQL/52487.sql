@@ -1,0 +1,1 @@
+CREATE MATERIALIZED VIEW Table2_view AS\nSELECT\n  Id,\n  StartTime,\n  Duration,\n  StartTime + Duration/24 AS EndTime\nFROM\n  Table2;

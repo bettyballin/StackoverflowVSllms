@@ -1,0 +1,1 @@
+-- Selecting the first element\nSELECT column_name\nFROM table_name\nORDER BY column_name ASC\nLIMIT 1;\n\n-- Selecting the last element\nSELECT column_name\nFROM table_name\nORDER BY column_name DESC\nLIMIT 1;

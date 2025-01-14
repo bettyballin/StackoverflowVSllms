@@ -1,0 +1,1 @@
+Public Class ExampleClass\n    Public Property MyProperty As String\nEnd Class

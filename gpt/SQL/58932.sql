@@ -1,0 +1,1 @@
+EXPLAIN PLAN FOR <your_insert_statement>;\n    SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);

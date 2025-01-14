@@ -1,0 +1,1 @@
+class MyClass {\n         public $instanceVar = 'Instance Variable';\n         public function instanceMethod() {\n             return 'Instance Method';\n         }\n     }\n\n     // Creating an object instance\n     $obj = new MyClass();\n\n     // Accessing instance property\n     echo $obj->instanceVar;\n\n     // Calling instance method\n     echo $obj->instanceMethod();

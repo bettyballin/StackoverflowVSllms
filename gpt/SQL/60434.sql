@@ -1,0 +1,1 @@
+CREATE PRIMARY XML INDEX PXML_Contacts_xmlvaluesn\nON Contacts(xmlvaluesn);

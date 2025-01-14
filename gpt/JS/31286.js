@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $("form").validate({\n        ignore: ':file', // Ignore file inputs\n        rules: {\n            // Add other rules here\n        },\n        messages: {\n            // Add custom messages here\n        }\n    });\n});

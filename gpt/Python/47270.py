@@ -1,0 +1,1 @@
+def make_hand(deck, handname):\n    hands = {}\n    hands[handname] = []\n    for _ in range(5):\n        hands[handname].append(deck.pop())\n    return hands\n\n# Example usage:\ndeck = ['card1', 'card2', 'card3', 'card4', 'card5', 'card6', 'card7', 'card8', 'card9', 'card10']\nhandname = 'player1_hand'\nhands = make_hand(deck, handname)\nprint(hands)

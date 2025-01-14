@@ -1,0 +1,1 @@
+SELECT IFNULL(columna, columnb) FROM your_table;

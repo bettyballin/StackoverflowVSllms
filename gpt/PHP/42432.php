@@ -1,0 +1,1 @@
+<?php\nclass Base {\n    public static function who() {\n        echo __CLASS__;\n    }\n\n    public static function test() {\n        static::who(); // Late static binding\n    }\n}\n\nclass Child extends Base {\n    public static function who() {\n        echo __CLASS__;\n    }\n}\n\nChild::test(); // Outputs "Child" instead of "Base"\n?>

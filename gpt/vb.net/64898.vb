@@ -1,0 +1,1 @@
+Public Class ExampleClass\n    Public ReadOnly Property RandomValue As Integer\n        Get\n            Return (New Random()).Next()\n        End Get\n    End Property\nEnd Class

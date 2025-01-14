@@ -1,0 +1,1 @@
+<?php\n// Define the path to your .bat file\n$batFilePath = "C:\\path\\to\\your\\file.bat";\n\n// Use exec to execute the .bat file\nexec("start /B cmd.exe /C $batFilePath");\n\n// or use system to execute the .bat file\nsystem("start /B cmd.exe /C $batFilePath");\n?>

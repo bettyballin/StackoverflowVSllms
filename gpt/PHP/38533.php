@@ -1,0 +1,1 @@
+<?php\nfor ($i = 1; $i <= 5; $i++) {\n    $varName = "variable" . $i;\n    echo $$varName . "\n";\n}\n?>

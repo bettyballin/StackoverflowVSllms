@@ -1,0 +1,1 @@
+$allowedTypes = ['image/jpeg', 'image/png'];\n     if (in_array($_FILES['file']['type'], $allowedTypes)) {\n         move_uploaded_file($_FILES['file']['tmp_name'], $uploadDirectory . $_FILES['file']['name']);\n     }

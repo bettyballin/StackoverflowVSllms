@@ -1,0 +1,1 @@
+<?php\n// Retrieve the session ID from URL or cookie\nif (isset($_GET['PHPSESSID'])) {\n    session_id($_GET['PHPSESSID']);\n}\n\n// Start the session\nsession_start();\n\n// Access or modify session variables\necho $_SESSION['key']; // Outputs: value\n\n// Modify session variables\n$_SESSION['key'] = 'new_value';\n?>

@@ -1,0 +1,1 @@
+DECLARE @date DATETIME\nSET @date = '2009-01-01'\n\nSELECT DATENAME(WEEKDAY, @date) AS DayOfWeek

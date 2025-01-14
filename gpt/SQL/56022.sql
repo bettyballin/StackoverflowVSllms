@@ -1,0 +1,1 @@
+DECLARE @Xml XML\nSET @Xml = '<Root><DateFrom>2008-10-31T00:00:00</DateFrom></Root>'\n\nDECLARE @DateFrom DATETIME\nSET @DateFrom = @Xml.value('(/Root/DateFrom)[1]', 'DATETIME')\n\nSELECT @DateFrom

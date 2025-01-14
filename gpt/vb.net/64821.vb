@@ -1,0 +1,1 @@
+Dim obj As Object = "12345678-1234-1234-1234-1234567890ab" ' Example GUID string\nDim guid As Guid\n\nIf Guid.TryParse(obj.ToString(), guid) Then\n    ' Successfully parsed\n    Console.WriteLine("GUID: " & guid.ToString())\nElse\n    ' Failed to parse\n    Console.WriteLine("Invalid GUID format.")\nEnd If

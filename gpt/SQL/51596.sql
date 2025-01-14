@@ -1,0 +1,1 @@
+INSERT INTO [dbo].[tblData] (ID, QID, Data) VALUES (1, 'Q1', N'Votre texte en français')

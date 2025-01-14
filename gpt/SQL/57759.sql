@@ -1,0 +1,1 @@
+INSERT INTO timelog (datetime_filed) VALUES (GETDATE());

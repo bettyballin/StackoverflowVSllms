@@ -1,0 +1,1 @@
+import os\n\ndef get_owner_group(directory):\n    stat_info = os.stat(directory)\n    owner_id = stat_info.st_uid\n    group_id = stat_info.st_gid\n    return owner_id, group_id\n\ndirectory = '/path/to/your/directory'\nowner, group = get_owner_group(directory)\n\nprint(f"Owner ID: {owner}")\nprint(f"Group ID: {group}")

@@ -1,0 +1,1 @@
+LOAD DATA\nINFILE 'data.csv'\nINTO TABLE your_table_name\nFIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'\n(\n  column1,\n  column2,\n  timestamp_column DATE "YYYY-MM-DD HH24:MI:SS"\n)

@@ -1,0 +1,1 @@
+ALTER TABLE YourTableName NOCHECK CONSTRAINT YourForeignKeyName;

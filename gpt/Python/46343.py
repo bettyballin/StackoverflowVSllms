@@ -1,0 +1,1 @@
+# celery_app.py\n    from celery import Celery\n\n    app = Celery('rss_processor', broker='redis://localhost:6379/0')\n\n    app.conf.update(\n        result_backend='redis://localhost:6379/0',\n        task_serializer='json',\n        result_serializer='json',\n        accept_content=['json'],\n        timezone='UTC',\n        enable_utc=True,\n    )

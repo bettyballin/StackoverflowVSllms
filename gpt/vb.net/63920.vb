@@ -1,0 +1,1 @@
+Dim t As New TradeOrderStatus()\nDim ts As List(Of TradeOrderStatus) = t.GetStatuses()\n\nWith Me.cboTradeStatus\n    .DataSource = ts\n    .DisplayMember = "StatusName"\n    .ValueMember = "StatusId"\n    .SelectedItem = Nothing\nEnd With\n\n' Assume Trade is an instance containing a TradeStatus property\nMe.cboTradeStatus.SelectedItem = Trade.TradeStatus

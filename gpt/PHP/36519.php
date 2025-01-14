@@ -1,0 +1,1 @@
+<?php foreach ($this as $msg): ?>\n    <div class="message">\n        <?php echo $this->escape($msg['message']); ?>\n    </div>\n<?php endforeach; ?>

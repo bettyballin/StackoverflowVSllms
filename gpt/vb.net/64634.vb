@@ -1,0 +1,1 @@
+Public Class SharedClassExample\n    Public Shared Counter As Integer = 0\n\n    Public Shared Sub IncrementCounter()\n        Counter += 1\n    End Sub\nEnd Class

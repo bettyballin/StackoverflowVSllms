@@ -1,0 +1,1 @@
+function DetectPrefix($filePath, $prefix)\n{\n    $files = [];\n    $allFiles = scandir($filePath);\n    \n    foreach ($allFiles as $filename) {\n        if (strpos($filename, $prefix) === 0) {\n            $files[] = $filename;\n        }\n    }\n\n    return !empty($files) ? $files : null;\n}

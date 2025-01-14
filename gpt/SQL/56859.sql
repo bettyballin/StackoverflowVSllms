@@ -1,0 +1,1 @@
+-- Insert into main_table\nINSERT INTO main_table (/* other fields */) VALUES (/* values */);\n\n-- Get the last inserted id\nSET @main_id = LAST_INSERT_ID();\n\n-- Insert words into words_table\nINSERT INTO words_table (main_id, word) VALUES (@main_id, 'word1');\nINSERT INTO words_table (main_id, word) VALUES (@main_id, 'word2');\n-- ... up to 15 words

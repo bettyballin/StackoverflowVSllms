@@ -1,0 +1,1 @@
+$items = $xml->channel->item;\n$foo = array_map('strval', iterator_to_array($items));

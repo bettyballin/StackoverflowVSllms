@@ -1,0 +1,1 @@
+Dim str As String\nDim lastPeriodIndex As Integer = FromIP.Text.LastIndexOf(".")\nstr = FromIP.Text.Substring(lastPeriodIndex + 1)\nMessageBox.Show(str)

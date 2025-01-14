@@ -1,0 +1,1 @@
+public function parseQS($queryString, &$postArray) {\n    parse_str($queryString, $postArray);\n}\n\n// Example usage:\n$requestBody = file_get_contents('php://input'); // Get the request body\n$postArray = [];\nparseQS($requestBody, $postArray);\n\nprint_r($postArray); // Parsed query string into an array

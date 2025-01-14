@@ -1,0 +1,1 @@
+define('DB_NAME', 'your_database_name');\ndefine('DB_USER', 'your_database_user');\ndefine('DB_PASSWORD', 'your_database_password');\ndefine('DB_HOST', 'localhost');

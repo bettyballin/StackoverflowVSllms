@@ -1,0 +1,1 @@
+<dependency>\n       <groupId>org.bytedeco</groupId>\n       <artifactId>javacv-platform</artifactId>\n       <version>1.5.4</version>\n   </dependency>

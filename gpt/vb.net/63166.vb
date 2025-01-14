@@ -1,0 +1,1 @@
+Imports System.Runtime.CompilerServices\n\nModule MyGenericExtensions\n    <Extension()>\n    Public Sub DoSomethingGeneric(Of T)(ByVal myGenericObj As MyGeneric(Of T))\n        ' Implementation goes here\n    End Sub\nEnd Module

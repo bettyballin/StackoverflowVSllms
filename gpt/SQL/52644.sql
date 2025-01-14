@@ -1,0 +1,1 @@
+SELECT 'INSERT INTO your_table_name (column1, column2, column3) VALUES ('\n       || column1 || ', '\n       || column2 || ', '\n       || column3 || ');'\n  FROM your_table_name;

@@ -1,0 +1,1 @@
+Array\n(\n    [0] => Monkey\n    [1] => "Blue Monkey"\n    [2] => "Red, blue and \"Green'"\n    [3] => 'Red, blue and "Green\''\n)

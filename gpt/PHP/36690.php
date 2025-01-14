@@ -1,0 +1,1 @@
+ini_set('display_errors', 1);\n    ini_set('display_startup_errors', 1);\n    error_reporting(E_ALL);\n\n    $handle = fopen('http://rss.fok.nl/feeds/nieuws', 'r');\n    if ($handle) {\n        while (($buffer = fgets($handle, 4096)) !== false) {\n            echo $buffer;\n        }\n        fclose($handle);\n    } else {\n        echo "Error: Unable to open the URL.";\n    }

@@ -1,0 +1,1 @@
+// Set locale to French\nsetlocale(LC_ALL, 'fr_FR.UTF-8');\n\n// Ensure multibyte string functions are used\nmb_internal_encoding("UTF-8");\nmb_http_output("UTF-8");

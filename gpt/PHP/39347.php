@@ -1,0 +1,1 @@
+class MyClass {\n    private $value;\n\n    public function __construct($value) {\n        $this->value = $value;\n    }\n\n    public function __toString() {\n        return (string)$this->value;\n    }\n}\n\n// Usage\n$obj = new MyClass("Hello, World!");\necho $obj; // Outputs "Hello, World!"

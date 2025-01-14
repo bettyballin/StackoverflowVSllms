@@ -1,0 +1,1 @@
+# Define new data as a dictionary\nnew_data = {'col': 'new_value', 'another_col': 'another_value'}\n\n# Append the new data as a new row\ndf = df.append(new_data, ignore_index=True)

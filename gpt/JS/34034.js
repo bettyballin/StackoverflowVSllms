@@ -1,0 +1,1 @@
+const image = new Image();\nimage.src = 'your-banner.jpg';\nimage.onload = () => {\n    document.querySelector('.banner').style.backgroundImage = `url(${image.src})`;\n};

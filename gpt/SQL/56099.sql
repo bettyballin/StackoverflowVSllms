@@ -1,0 +1,1 @@
+SELECT\n  id,\n  street_name\nFROM\n  street_names\nWHERE\n  street_name REGEXP '^Rue de l'' Harmonie$';

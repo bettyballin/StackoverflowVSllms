@@ -1,0 +1,1 @@
+SELECT generate_series(\n    '2009-02-05 08:00:00'::timestamp, \n    '2009-02-05 08:01:00'::timestamp, \n    '5 seconds'::interval\n) AS times;

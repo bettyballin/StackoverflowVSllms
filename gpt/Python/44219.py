@@ -1,0 +1,1 @@
+def ensure_foo_exists():\n    if not foo_exists():\n        create_foo()

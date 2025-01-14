@@ -1,0 +1,1 @@
+EXEC SQL BEGIN DECLARE SECTION;\n     DATE my_date;\n   EXEC SQL END DECLARE SECTION;\n\n   // Fetching date directly\n   EXEC SQL SELECT your_date_column INTO :my_date FROM your_table;

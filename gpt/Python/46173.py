@@ -1,0 +1,1 @@
+# example.pyx\n   def hello():\n       print("Hello, world!")

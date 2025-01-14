@@ -1,0 +1,1 @@
+// Staff.php\n<?php\nrequire_once 'Staff_Base.php';\nrequire_once 'PaginationTrait.php';\n\nclass Staff extends Staff_Base {\n    use PaginationTrait;\n\n    // Custom methods and properties\n}\n?>

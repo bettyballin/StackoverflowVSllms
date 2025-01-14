@@ -1,0 +1,1 @@
+CREATE TABLE articles (\n    id INT IDENTITY PRIMARY KEY,\n    title NVARCHAR(255) NOT NULL,\n    content NVARCHAR(MAX) NOT NULL,\n    created_at DATETIME DEFAULT GETDATE()\n);

@@ -1,0 +1,1 @@
+import time\nimport sys\n\nfor i in range(10):\n    sys.stdout.write("\rCount: {}".format(i))\n    sys.stdout.flush()\n    time.sleep(1)

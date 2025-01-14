@@ -1,0 +1,1 @@
+class Articles_Controller extends Controller {\n\n    public function view($id1 = NULL, $id2 = NULL) {\n        // Handle your view logic here, using $id1 and $id2\n    }\n}

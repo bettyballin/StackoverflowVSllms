@@ -1,0 +1,1 @@
+ALTER DATABASE DATAFILE 'path_to_your_datafile.dbf' RESIZE new_size_in_MB;

@@ -1,0 +1,1 @@
+<?php\nfunction splitText($text) {\n    return preg_replace('/(.{3})/', '$1-', $text);\n}\n\n// Test the function\n$input1 = "123456789";\n$input2 = "ABCDEFGHI";\n$input3 = "A1B2C3D4E";\n\necho splitText($input1) . "\n"; // Output: 123-456-789-\necho splitText($input2) . "\n"; // Output: ABC-DEF-GHI-\necho splitText($input3) . "\n"; // Output: A1B-2C3-D4E-\n?>

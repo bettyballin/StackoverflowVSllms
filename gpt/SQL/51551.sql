@@ -1,0 +1,1 @@
+CREATE DIRECTORY dump_dir AS '/path/to/export/directory';

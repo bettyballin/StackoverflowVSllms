@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS yearApplicationEntered\nFROM tblEventDates\nWHERE YEAR(evdtApplication) = YEAR(GETDATE());

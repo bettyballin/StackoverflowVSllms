@@ -1,0 +1,1 @@
+original = [('a', 1), ('b', 2), ('c', 3), ('d', 4)]\nresult = list(zip(*original))\n# To convert the tuples to lists\nresult = (list(result[0]), list(result[1]))\n\nprint(result)

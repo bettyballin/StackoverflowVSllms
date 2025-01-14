@@ -1,0 +1,1 @@
+-- Drop existing full-text index\nDROP FULLTEXT INDEX ON MediaFile;\n\n-- Create full-text index\nCREATE FULLTEXT INDEX ON MediaFile(FileContent TYPE COLUMN FileExtension)\nKEY INDEX PK_MediaFileId\nON YourCatalogName\nWITH CHANGE_TRACKING AUTO;

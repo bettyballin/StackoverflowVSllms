@@ -1,0 +1,1 @@
+SELECT * \nFROM comments \nWHERE comments.id IN (1, 3, 2, 4)\nORDER BY CASE comments.id\n    WHEN 1 THEN 1\n    WHEN 3 THEN 2\n    WHEN 2 THEN 3\n    WHEN 4 THEN 4\nEND;

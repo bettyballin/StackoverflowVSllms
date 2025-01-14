@@ -1,0 +1,1 @@
+class YourModel < ApplicationRecord\n  scope :custom_sql_scope, -> {\n    select('your_table.*')\n    .from('your_table, (SELECT your_custom_sql_query AS id) AS derived_table')\n    .where('your_table.id = derived_table.id')\n  }\nend

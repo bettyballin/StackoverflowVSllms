@@ -1,0 +1,1 @@
+CREATE INDEX idx_phone_number ON PhoneNumbers(PhoneNumber);\nCREATE INDEX idx_contact_id ON PhoneNumbers(ContactId);

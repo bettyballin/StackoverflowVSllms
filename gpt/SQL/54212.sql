@@ -1,0 +1,1 @@
+SELECT object_name\n   FROM all_objects\n   WHERE object_type = 'JAVA CLASS'\n     AND object_name LIKE '%MessageFactoryImpl%';

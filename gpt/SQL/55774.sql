@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetInfo\n    @AId INT\nAS\nBEGIN\n    -- First select statement to get one row from Table A\n    SELECT * FROM TableA WHERE Id = @AId;\n\n    -- Second select statement to get related rows from Table B\n    SELECT * FROM TableB WHERE ForeignKeyId = @AId;\nEND

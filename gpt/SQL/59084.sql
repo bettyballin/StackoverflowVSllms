@@ -1,0 +1,1 @@
+-- Assuming table A and table B have columns col1, col2, col3 that you want to transfer\n\nINSERT INTO tableB (col1, col2, col3)\nSELECT col1, col2, col3\nFROM tableA\nWHERE <condition>;

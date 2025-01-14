@@ -1,0 +1,1 @@
+import re\n\ndef is_valid_string(s):\n    return bool(re.match(r'^[a-zA-Z0-9.]+$', s))\n\n# Example usage\ntest_string = "example.string123"\nprint(is_valid_string(test_string))  # Output: True\n\ntest_string = "invalid_string!"\nprint(is_valid_string(test_string))  # Output: False

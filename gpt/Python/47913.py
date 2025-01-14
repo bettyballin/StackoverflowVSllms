@@ -1,0 +1,1 @@
+from flask import Flask, jsonify, request\n\n   app = Flask(__name__)\n\n   @app.route('/api', methods=['GET'])\n   def api():\n       data = {'message': 'Hello, World!'}\n       return jsonify(data)\n\n   if __name__ == '__main__':\n       app.run(host='0.0.0.0', port=5000)

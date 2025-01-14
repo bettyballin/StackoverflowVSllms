@@ -1,0 +1,1 @@
+SELECT * FROM (\n    SELECT * FROM table\n    WHERE id < 7868\n    ORDER BY id DESC\n    LIMIT 2\n) sub\nORDER BY id ASC;

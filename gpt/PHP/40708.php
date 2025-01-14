@@ -1,0 +1,1 @@
+<?php\n$command = '/usr/local/bin/convert /path/to/input.pdf /path/to/output.jpg';\n\n// Capture the output and the return status\n$output = [];\n$return_var = 0;\nexec($command . ' 2>&1', $output, $return_var);\n\n// Display the output and return status\necho "Output:\n";\nprint_r($output);\necho "\nReturn status: $return_var\n";\n?>

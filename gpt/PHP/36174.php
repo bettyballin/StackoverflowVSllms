@@ -1,0 +1,1 @@
+<h1>{$title|escape:'html'}</h1>\n<ul>\n  {foreach $items as $item}\n  <li>{$item|escape:'html'}</li>\n  {/foreach}\n</ul>

@@ -1,0 +1,1 @@
+window.onbeforeprint = function() {\n    var tfoot = document.querySelector('tfoot');\n    if (tfoot) {\n        tfoot.style.display = 'none';\n    }\n};\n\nwindow.onafterprint = function() {\n    var tfoot = document.querySelector('tfoot');\n    if (tfoot) {\n        tfoot.style.display = 'table-footer-group';\n    }\n};

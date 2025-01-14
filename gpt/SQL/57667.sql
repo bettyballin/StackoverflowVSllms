@@ -1,0 +1,1 @@
+CREATE INDEX idx_timestamp_type_email ON log (timestamp, type, email);

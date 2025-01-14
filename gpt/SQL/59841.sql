@@ -1,0 +1,1 @@
+CREATE TABLE example_table (\n    id NUMBER,\n    name VARCHAR2(50)\n);

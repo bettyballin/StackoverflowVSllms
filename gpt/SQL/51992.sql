@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\nDECLARE @NewID INT;\nUPDATE NextID\nSET @NewID = NextID = NextID + 1\nWHERE TableName = 'YourTableName';\n\nINSERT INTO YourTable (ID, Column1, Column2)\nVALUES (@NewID, 'Value1', 'Value2');\n\nCOMMIT;

@@ -1,0 +1,1 @@
+GRANT READ, WRITE ON DIRECTORY backup_dir TO your_user;

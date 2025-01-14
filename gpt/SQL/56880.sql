@@ -1,0 +1,1 @@
+EXEC SearchCompanies @CompanyType = 'Retail', @CompanyName = 'Shop', @Location = 'London';

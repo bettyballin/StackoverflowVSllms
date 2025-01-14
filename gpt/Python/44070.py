@@ -1,0 +1,1 @@
+from math import sqrt\n\n   def wilson_score(upvotes, downvotes):\n       n = upvotes + downvotes\n       if n == 0:\n           return 0\n       z = 1.96  # 95% confidence\n       phat = upvotes / n\n       return (phat + z*z/(2*n) - z * sqrt((phat*(1-phat) + z*z/(4*n)) / n)) / (1 + z*z/n)

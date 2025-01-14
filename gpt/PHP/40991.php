@@ -1,0 +1,1 @@
+<?php\nclass Foo {\n    public static $name = 'Andrew';\n\n    public static function getName() {\n        echo self::$name;\n    }\n}\n\nclass Bar extends Foo {\n    public static $name = 'John';\n\n    public static function getName() {\n        Foo::getName();\n    }\n}\n\n$a = new Bar;\n$a->getName();\n?>

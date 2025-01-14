@@ -1,0 +1,1 @@
+SELECT s.*, af.properties\nFROM superclass s\nLEFT JOIN additional_fields af ON s.id = af.superclass_id\nWHERE s.id = 1;

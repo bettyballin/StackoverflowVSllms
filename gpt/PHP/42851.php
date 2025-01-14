@@ -1,0 +1,1 @@
+<?php\nfunction shutdownFunction1() {\n    echo "Shutdown function 1 executed.\n";\n}\n\nfunction shutdownFunction2() {\n    echo "Shutdown function 2 executed.\n";\n}\n\nregister_shutdown_function('shutdownFunction1');\nregister_shutdown_function('shutdownFunction2');\n\n// Trigger script termination\nexit();\n?>

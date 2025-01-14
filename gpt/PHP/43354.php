@@ -1,0 +1,1 @@
+function menufun_menu_link_alter(&$item, $menu) {\n  print_r($item);\n  if ($item['link_path'] == 'logout') {\n    $item['link_title'] = 'Sign off';\n  }\n}

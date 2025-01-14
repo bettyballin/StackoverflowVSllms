@@ -1,0 +1,1 @@
+Dim filePath As String\nfilePath = "\\server\sharedfolder\file.txt"\n\nOpen filePath For Input As #1\n' Read or write operations\nClose #1

@@ -1,0 +1,1 @@
+require 'yaml'\n\n# Original YAML data\ndata = {\n  'is_something' => {\n    'values' => ['yes', 'no']\n  }\n}\n\n# Convert the hash to YAML string\nyaml_string = YAML.dump(data)\n\n# Replace multiline arrays with inline arrays using regex\nyaml_string.gsub!(/(\S+):\n\s+- (.*)\n\s+- (.*)/) do\n  "#{$1}: [#{$2}, #{$3}]"\nend\n\nputs yaml_string

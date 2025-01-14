@@ -1,0 +1,1 @@
+function obfuscate_email($email) {\n    $obfuscated_email = '';\n    for ($i = 0; $i < strlen($email); $i++) {\n        $obfuscated_email .= '&#' . ord($email[$i]) . ';';\n    }\n    return $obfuscated_email;\n}\n\n$email = "example@domain.com";\necho obfuscate_email($email);

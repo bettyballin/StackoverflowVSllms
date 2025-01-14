@@ -1,0 +1,1 @@
+<?php\nsession_start();\ninclude 'File3.php';\n?>

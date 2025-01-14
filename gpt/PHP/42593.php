@@ -1,0 +1,1 @@
+<?php\necho 'Current Working Directory: ' . getcwd() . "\n";\necho 'DOCUMENT_ROOT: ' . $_SERVER['DOCUMENT_ROOT'] . "\n";\necho 'Script Filename: ' . $_SERVER['SCRIPT_FILENAME'] . "\n";\necho 'PHP Self: ' . $_SERVER['PHP_SELF'] . "\n";\n?>

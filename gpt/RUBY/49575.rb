@@ -1,0 +1,1 @@
+assert_in_delta(61.0, calibrations[0].calibration_constant, 0.0001)

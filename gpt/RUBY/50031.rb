@@ -1,0 +1,1 @@
+class WebsitesController < ApplicationController\n     def show\n       @website = Website.find_by_domain_name(URI.unescape(params[:id]))\n       # Handle case where website is not found\n       if @website.nil?\n         render_404\n       end\n     end\n   end

@@ -1,0 +1,1 @@
+<!-- Example of setting HTTP headers using a filter in web.xml -->\n   <filter>\n       <filter-name>SecurityHeadersFilter</filter-name>\n       <filter-class>com.example.SecurityHeadersFilter</filter-class>\n   </filter>\n   <filter-mapping>\n       <filter-name>SecurityHeadersFilter</filter-name>\n       <url-pattern>/*</url-pattern>\n   </filter-mapping>

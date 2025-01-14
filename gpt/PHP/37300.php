@@ -1,0 +1,1 @@
+// setup.php\n   require_once 'vendor/autoload.php';\n\n   $loader = new \Twig\Loader\FilesystemLoader('views');\n   $twig = new \Twig\Environment($loader);

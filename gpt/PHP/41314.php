@@ -1,0 +1,1 @@
+<?php\nif (is_uploaded_file($_FILES['userfile']['tmp_name'])) {\n    echo "File ". $_FILES['userfile']['name'] ." uploaded successfully.\n";\n    move_uploaded_file ($_FILES['userfile']['tmp_name'], $_FILES['userfile']['name']);\n} else {\n    echo "Possible file upload attack: ";\n    echo "filename '". $_FILES['userfile']['tmp_name'] . "'.";\n    print_r($_FILES);\n}\n?>

@@ -1,0 +1,1 @@
+import dbus\n\n# Connect to the session bus\nbus = dbus.SessionBus()\n\n# Get a remote object\nremote_object = bus.get_object("org.example.ServiceName", "/org/example/ObjectName")\n\n# Call a method on the remote object\nresult = remote_object.SomeMethod(dbus_interface="org.example.InterfaceName")\n\nprint("Result from remote method call:", result)

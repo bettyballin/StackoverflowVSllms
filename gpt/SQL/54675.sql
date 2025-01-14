@@ -1,0 +1,1 @@
+ALTER SYSTEM SET shared_pool_reserved_size = 15M SCOPE=BOTH;

@@ -1,0 +1,1 @@
+SELECT name \nFROM sqlite_master \nWHERE type = 'table' \nAND name = 'your_table_name';

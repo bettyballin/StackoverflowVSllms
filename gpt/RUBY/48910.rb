@@ -1,0 +1,1 @@
+script/generate session_migratio

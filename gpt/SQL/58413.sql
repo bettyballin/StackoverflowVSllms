@@ -1,0 +1,1 @@
+SELECT\n  c.Name AS 'CountryName',\n  ISNULL(p.Name, '') AS 'ProvinceName',\n  ISNULL(s.Name, '') AS 'StateName'\nFROM\n  Country c\n  LEFT OUTER JOIN Province p ON p.CountryID = c.ID\n  LEFT OUTER JOIN State s ON s.CountryID = c.ID

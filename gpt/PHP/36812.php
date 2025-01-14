@@ -1,0 +1,1 @@
+// In your Bootstrap.php or controller init method\n$this->_helper->getHelper('FlashMessenger');

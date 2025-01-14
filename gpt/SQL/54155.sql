@@ -1,0 +1,1 @@
+WITH RECURSIVE generate_series (value) AS (\n    SELECT 2 AS value\n    FROM sysibm.sysdummy1\n    UNION ALL\n    SELECT value + 1\n    FROM generate_series\n    WHERE value < 4\n)\nSELECT value\nFROM generate_series;

@@ -1,0 +1,1 @@
+UPDATE dbo.users\nSET auid = RIGHT('000000000' + CAST(user_id AS VARCHAR(9)), 9);

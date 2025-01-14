@@ -1,0 +1,1 @@
+SELECT ui.*, e.* \nFROM vw_UserInfo ui \nINNER JOIN events e ON ui.userid = e.userid;

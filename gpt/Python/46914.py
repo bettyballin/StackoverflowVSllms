@@ -1,0 +1,1 @@
+from scapy.all import sniff\n\n   def packet_callback(packet):\n       print(packet.show())\n\n   sniff(prn=packet_callback, count=10)

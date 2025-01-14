@@ -1,0 +1,1 @@
+<?php\nclass MyClass {\n    function myFunction($some_external_var) {\n        if (isset($some_external_var)) {\n            // Do something\n            echo "Variable is set to: " . $some_external_var;\n        }\n    }\n}\n\n$some_external_var = true;\n\n$obj = new MyClass();\n$obj->myFunction($some_external_var);\n?>

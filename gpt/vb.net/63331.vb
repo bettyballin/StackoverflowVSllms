@@ -1,0 +1,1 @@
+Private Declare Sub Sleep Lib "kernel32" (ByVal dwMilliseconds As Long)\n\nSub Main()\n    Call ExternalLongRunningProcess\n    Sleep 5000 ' Delay for 5000 milliseconds (5 seconds)\n    Call DoOtherStuff\nEnd Sub

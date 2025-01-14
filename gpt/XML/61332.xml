@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <httpCookies requireSSL="true" />\n  </system.web>\n</configuration>

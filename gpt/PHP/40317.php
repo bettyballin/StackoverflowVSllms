@@ -1,0 +1,1 @@
+<?php\n$originalTime = '2023-10-15 12:00:00'; // Example timestamp\n$adjustedTime = strtotime('-5 hours', strtotime($originalTime));\necho date('Y-m-d H:i:s', $adjustedTime); // Output adjusted timestamp\n?>

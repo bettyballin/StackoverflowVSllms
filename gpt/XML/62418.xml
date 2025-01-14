@@ -1,0 +1,1 @@
+<class name="YourNamespace.Entity, YourAssembly" table="Entities">\n  <id name="Id" column="Id">\n    <generator class="native"/>\n  </id>\n  <property name="Count" type="YourNamespace.UInt32UserType, YourAssembly" column="Count"/>\n</class>

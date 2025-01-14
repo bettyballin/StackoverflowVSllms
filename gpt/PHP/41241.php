@@ -1,0 +1,1 @@
+<?php\nfunction compressPDF($inputFile, $outputFile) {\n    $gsCommand = "gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=$outputFile $inputFile";\n    shell_exec($gsCommand);\n}\n\n$inputFile = '/path/to/your/input.pdf';\n$outputFile = '/path/to/your/output.pdf';\ncompressPDF($inputFile, $outputFile);\n?>

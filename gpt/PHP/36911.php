@@ -1,0 +1,1 @@
+require 'vendor/autoload.php';\nPredis\Autoloader::register();\n\n$client = new Predis\Client('tcp://127.0.0.1:6379');\n\n// Fetch and process messages\nwhile (true) {\n    $message = $client->lpop('my_queue');\n    if ($message) {\n        // Process the message\n        // ...\n    } else {\n        sleep(1); // Wait a bit before trying again\n    }\n}

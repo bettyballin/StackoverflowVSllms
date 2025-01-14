@@ -1,0 +1,1 @@
+from memory_profiler import profile\n\n   @profile\n   def my_view(request):\n       # Your view logic here\n       pass

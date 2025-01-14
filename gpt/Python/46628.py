@@ -1,0 +1,1 @@
+import json\n\n   data = {\n       "users": [\n           {"id": 1, "name": "Alice"},\n           {"id": 2, "name": "Bob"}\n       ]\n   }\n\n   # Writing to a JSON file\n   with open('data.json', 'w') as outfile:\n       json.dump(data, outfile)\n\n   # Reading from a JSON file\n   with open('data.json', 'r') as infile:\n       data = json.load(infile)

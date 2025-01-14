@@ -1,0 +1,1 @@
+Dim emailTemplates As New List(Of String) From {"Template1", "Template2", "Template3"}\nDim sender As New EmailSender(emailTemplates)\n\nWhile sender.Send()\n    Response.Write(sender.HTMLContent)\nEnd While

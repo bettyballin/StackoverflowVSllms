@@ -1,0 +1,1 @@
+<%= button_to_remote "Click me",\n  url: { action: "your_action" },\n  html: { with: "'param1=' + encodeURIComponent(value1) + '&param2=' + encodeURIComponent(value2)" } %>

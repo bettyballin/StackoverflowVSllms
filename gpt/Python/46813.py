@@ -1,0 +1,1 @@
+import spacy\n\n# Load the spaCy model\nnlp = spacy.load("en_core_web_sm")\n\n# Process a sample text\ndoc = nlp("Apple is looking at buying U.K. startup for $1 billion")\n\n# Print named entities\nfor entity in doc.ents:\n    print(entity.text, entity.label_)

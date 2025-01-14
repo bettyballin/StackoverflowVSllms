@@ -1,0 +1,1 @@
+CREATE TABLE Tags (\n    id INT PRIMARY KEY,\n    tag_name VARCHAR(255) NOT NULL,\n    UNIQUE (tag_name)\n);

@@ -1,0 +1,1 @@
+function myFunc(requiredArg, optionalArg = 'defaultValue') {\n  console.log(optionalArg);\n}\n\nmyFunc('test', 0); // Output: 0

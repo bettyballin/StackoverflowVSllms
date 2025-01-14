@@ -1,0 +1,1 @@
+SELECT foo.a, (SELECT c \n               FROM bar \n               WHERE foo.a = bar.a) \nFROM foo;

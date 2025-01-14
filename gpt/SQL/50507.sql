@@ -1,0 +1,1 @@
+CREATE VIEW combined_view AS\nSELECT o.column1, o.column2, p.column3\nFROM oracle_table o\nJOIN postgresql_table@pg_link p ON o.id = p.id;

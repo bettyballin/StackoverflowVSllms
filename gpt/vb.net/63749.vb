@@ -1,0 +1,1 @@
+If Not IsPostBack Then\n    Dim repeatTimes((TotalAdInsured - 1)) As Integer\n    myRepeater.DataSource = repeatTimes\n    myRepeater.DataBind()\nEnd If

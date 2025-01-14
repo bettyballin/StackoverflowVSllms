@@ -1,0 +1,1 @@
+SELECT o.Orderid, o.Orderlineid,\n       (SELECT COUNT(*)\n        FROM OrderLine AS i\n        WHERE i.Orderid = o.Orderid\n          AND i.Orderlineid <= o.Orderlineid) AS LineNumber\nFROM OrderLine AS o\nORDER BY o.Orderid, o.Orderlineid;

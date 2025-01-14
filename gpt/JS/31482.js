@@ -1,0 +1,1 @@
+const Handlebars = require('handlebars');\n\nconst source = `<root>{{#each elements}}<element>{{this}}</element>{{/each}}</root>`;\nconst template = Handlebars.compile(source);\n\nconst data = { elements: ["Text"] };\nconst result = template(data);\n\nconsole.log(result);

@@ -1,0 +1,1 @@
+exec sp_executesql \nN'/*some query here*/', \nN'@someParameter tinyint',\n@someParameter = 2

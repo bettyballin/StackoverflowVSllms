@@ -1,0 +1,1 @@
+function pythonic(array $kwargs = [])\n{\n    $name = $kwargs['name'] ?? 'Jon Skeet';\n    $age = $kwargs['age'] ?? 30;\n\n    // Use $name and $age in the function\n}\n\n// Example usage\npythonic(['name' => 'Alice', 'age' => 25]);

@@ -1,0 +1,1 @@
+UPDATE your_table_name\nSET column_Y = 'your_path_prefix' + column_Y;

@@ -1,0 +1,1 @@
+CREATE TABLE string_lookup (\n        id INT PRIMARY KEY AUTO_INCREMENT,\n        string_value VARCHAR(255) UNIQUE\n    );

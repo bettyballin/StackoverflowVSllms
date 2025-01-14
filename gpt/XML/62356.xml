@@ -1,0 +1,1 @@
+<mapper namespace="org.myapp.mapper.UserMapper">\n  <select id="selectUser" parameterType="int" resultType="User">\n    SELECT id, username, password\n    FROM users\n    WHERE id = #{id}\n  </select>\n</mapper>

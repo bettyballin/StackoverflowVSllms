@@ -1,0 +1,1 @@
+setcookie("secure_session_cookie", "value", 0, "/", "", true, true); // Secure and HTTPOnly

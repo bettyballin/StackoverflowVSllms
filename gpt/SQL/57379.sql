@@ -1,0 +1,1 @@
+UPDATE #temp_table\nSET latest_date = GREATEST(date_column1, date_column2, date_column3);

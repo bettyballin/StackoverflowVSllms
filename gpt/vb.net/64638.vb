@@ -1,0 +1,1 @@
+Public Interface IEmployee\n    Property ID As Integer\n    Property FirstName As String\n    Property Surname As String\nEnd Interface

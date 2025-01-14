@@ -1,0 +1,1 @@
+const insecureRequests = [];\nperformance.getEntriesByType('resource').forEach((resource) => {\n  if (resource.name.startsWith('http://')) {\n    insecureRequests.push(resource.name);\n  }\n});\n\nconsole.log('Insecure requests:', insecureRequests);

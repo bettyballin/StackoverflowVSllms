@@ -1,0 +1,1 @@
+SELECT something\nFROM someTable\nWHERE idcode <> (SELECT ids FROM tmpIdTable)

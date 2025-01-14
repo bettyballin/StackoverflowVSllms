@@ -1,0 +1,1 @@
+<?php\nsession_start();\nsession_unset();\nsession_destroy();\nheader("Location: index.php");\nexit();\n?>

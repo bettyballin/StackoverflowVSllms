@@ -1,0 +1,1 @@
+DECLARE\n    num1 NUMBER := 1.0000001;\n    num2 NUMBER := 1.0000002;\n    epsilon NUMBER := 0.000001;\nBEGIN\n    IF ABS(num1 - num2) < epsilon THEN\n        DBMS_OUTPUT.PUT_LINE('Values are equal within tolerance.');\n    ELSE\n        DBMS_OUTPUT.PUT_LINE('Values are not equal within tolerance.');\n    END IF;\nEND;\n/

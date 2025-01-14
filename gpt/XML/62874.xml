@@ -1,0 +1,1 @@
+<configuration>\n       <connectionStrings>\n           <add name="MyOracleConnection" connectionString="your dotConnect connection string here" providerName="Devart.Data.Oracle" />\n       </connectionStrings>\n       <!-- other configuration settings -->\n   </configuration>

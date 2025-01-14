@@ -1,0 +1,1 @@
+-- Step 1: Drop the existing check constraint\nALTER TABLE table_name\nDROP CONSTRAINT constraint_name;\n\n-- Step 2: Recreate the check constraint without "NOT FOR REPLICATION"\nALTER TABLE table_name\nADD CONSTRAINT constraint_name CHECK (constraint_expression);

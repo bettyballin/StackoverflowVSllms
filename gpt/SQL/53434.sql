@@ -1,0 +1,1 @@
+SELECT job_name, state, last_start_date, next_run_date\nFROM dba_scheduler_jobs\nWHERE job_name = 'MY_SCHEDULED_JOB';

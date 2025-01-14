@@ -1,0 +1,1 @@
+<script type="text/javascript">\n        document.addEventListener("DOMContentLoaded", function() {\n            var firstErrorField = document.querySelector(".input-validation-error");\n            if (firstErrorField) {\n                firstErrorField.focus();\n            }\n        });\n    </script>

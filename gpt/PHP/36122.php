@@ -1,0 +1,1 @@
+return [\n    'App' => [\n        // Other configurations...\n        'fullBaseUrl' => 'http://apps.facebook.com/appname',\n    ],\n    // Other configurations...\n];

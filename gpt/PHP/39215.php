@@ -1,0 +1,1 @@
+<?php\nif (isset($_GET['url'])) {\n    $url = $_GET['url'];\n    // Process the URL as needed\n    echo "The URL is: " . htmlspecialchars($url);\n} else {\n    echo "No URL provided.";\n}\n?>

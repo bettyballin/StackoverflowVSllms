@@ -1,0 +1,1 @@
+SET GLOBAL innodb_flush_method = O_DIRECT;\n     SET GLOBAL innodb_log_buffer_size = 8M;\n     SET GLOBAL innodb_log_file_size = 256M;\n     SET GLOBAL innodb_io_capacity = 1000;

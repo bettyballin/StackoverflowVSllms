@@ -1,0 +1,1 @@
+USE msdb;\n   GO\n\n   EXEC sp_help_job;

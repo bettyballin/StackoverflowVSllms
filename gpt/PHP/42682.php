@@ -1,0 +1,1 @@
+$myVar = 123;\n$myText = (string) $myVar;\necho $myText; // Outputs: 123

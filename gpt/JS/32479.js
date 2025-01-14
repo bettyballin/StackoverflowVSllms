@@ -1,0 +1,1 @@
+function castvote() {\n    var voteSelect = document.getElementById("vote");\n    var selectedValue = voteSelect.options[voteSelect.selectedIndex].value;\n    alert(selectedValue);\n}

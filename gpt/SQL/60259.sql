@@ -1,0 +1,1 @@
+SELECT q2.*\nFROM questions q1\nJOIN questions q2 ON q1.question_id = q2.parent_question_id\nWHERE q1.question_id = :current_question_id\nAND q2.answer_option = :answer_option;

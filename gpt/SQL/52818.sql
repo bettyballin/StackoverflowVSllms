@@ -1,0 +1,1 @@
+rman target /\n   RECOVER DATABASE;

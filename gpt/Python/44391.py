@@ -1,0 +1,1 @@
+from sklearn.feature_extraction.text import TfidfVectorizer\n\n   documents = ["your first phrase", "your second phrase", "and so on"]\n   vectorizer = TfidfVectorizer(stop_words='english')\n   tfidf_matrix = vectorizer.fit_transform(documents)

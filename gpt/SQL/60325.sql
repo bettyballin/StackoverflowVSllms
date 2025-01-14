@@ -1,0 +1,1 @@
+CREATE TABLE FileStorage (\n    FileID INT PRIMARY KEY,\n    FileName NVARCHAR(255),\n    FilePath NVARCHAR(255)\n);\n\n-- Insert a record with file path\nINSERT INTO FileStorage (FileID, FileName, FilePath) VALUES (1, 'example.txt', 'C:\files\example.txt');

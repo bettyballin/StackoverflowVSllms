@@ -1,0 +1,1 @@
+<system.webServer>\n  <webFarm name="MyWebFarm">\n    <server address="webServer1" />\n    <server address="webServer2" />\n    <server address="webServer3" />\n  </webFarm>\n  <applicationRequestRouting>\n    <enabled>true</enabled>\n  </applicationRequestRouting>\n</system.webServer>

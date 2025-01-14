@@ -1,0 +1,1 @@
+SELECT * FROM Table WHERE SearchField LIKE '%c#%'

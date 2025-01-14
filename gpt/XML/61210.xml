@@ -1,0 +1,1 @@
+<subsystem>\n    <name>ExampleSubsystem</name>\n    <property key="timeout" value="30"/>\n    <property key="retry" value="3"/>\n</subsystem>

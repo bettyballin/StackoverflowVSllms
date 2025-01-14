@@ -1,0 +1,1 @@
+DELETE FROM FOO WHERE ID IN (1, 2, 3, ..., 1001);

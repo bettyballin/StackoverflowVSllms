@@ -1,0 +1,1 @@
+<?php \n   $host = "mssqlhost"; \n   $user = "phpbb2"; \n   $password = "phpbb2"; \n   \n   $connect_sql_server = mssql_connect($host, $user, $password);\n   if (!$connect_sql_server) {\n       die('Could not connect to MSSQL server.');\n   } else {\n       echo 'Connected successfully to MSSQL server.';\n   }\n   ?>

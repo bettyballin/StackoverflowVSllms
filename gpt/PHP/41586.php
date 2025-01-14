@@ -1,0 +1,1 @@
+<?php\n    $value = $_POST['text'];\n    echo "Received value: " . htmlspecialchars($value);\n    ?>

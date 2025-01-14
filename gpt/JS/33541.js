@@ -1,0 +1,1 @@
+// Get the title of the HTML page\nvar pageTitle = document.title;\n\n// Output the title to the console\nconsole.log(pageTitle);

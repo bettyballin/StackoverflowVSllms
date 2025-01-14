@@ -1,0 +1,1 @@
+import cProfile\n\ndef my_function():\n    # Function code here\n    pass\n\ncProfile.run('my_function()')

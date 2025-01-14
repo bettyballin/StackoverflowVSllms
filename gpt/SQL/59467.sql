@@ -1,0 +1,1 @@
+SELECT 1\nFROM access\nWHERE user_id = ? AND resource_id = ?;

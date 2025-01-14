@@ -1,0 +1,1 @@
+DECLARE @IDs dbo.IDsTableType;\n    INSERT INTO @IDs (ID) VALUES (1001), (1002), (1003), ...;\n    EXEC GetRowsByIds @IDs;

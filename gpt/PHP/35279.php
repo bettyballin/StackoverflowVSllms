@@ -1,0 +1,1 @@
+<?php\n// start_process.php\n$command = 'php ' . escapeshellarg(__DIR__ . '/process.php') . ' > /dev/null 2>&1 &';\nexec($command);\n\necho "Process started. Check the log file later.";\n?>

@@ -1,0 +1,1 @@
+open_basedir = "C:\xampp\tmp;C:\path\to\your\web\root"

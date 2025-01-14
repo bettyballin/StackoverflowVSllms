@@ -1,0 +1,1 @@
+RESTORE DATABASE MyDatabase\n    FROM DISK = 'backupfile.bak'\n    WITH STANDBY = 'undo_file';

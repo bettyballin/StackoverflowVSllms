@@ -1,0 +1,1 @@
+SELECT \n    g.id AS gallery_id, \n    g.name AS gallery_name, \n    u.username, \n    p.url AS picture_url\nFROM \n    (SELECT * FROM galleries WHERE active = 1 ORDER BY RAND() LIMIT 15) AS g\nLEFT JOIN \n    users AS u ON u.id = g.user_id\nLEFT JOIN \n    (SELECT gallery_id, url \n     FROM pictures \n     ORDER BY RAND()) AS p ON p.gallery_id = g.id\nGROUP BY \n    g.id;

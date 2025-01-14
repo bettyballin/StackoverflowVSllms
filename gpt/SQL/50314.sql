@@ -1,0 +1,1 @@
+CREATE OR REPLACE TRIGGER enc_bob\nBEFORE INSERT ON BOB\nFOR EACH ROW\nDECLARE\n    v_name VARCHAR2(50);\nBEGIN\n    -- Decode from Base64 and convert to VARCHAR2\n    v_name := UTL_RAW.CAST_TO_VARCHAR2(UTL_ENCODE.BASE64_DECODE(:new.name_enc));\n    \n    -- Encryption code that expects v_name to contain the string\n    -- Your encryption logic here\n\nEND;\n/

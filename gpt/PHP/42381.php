@@ -1,0 +1,1 @@
+if (preg_match("/<p>(?<firstparagraph>.*?)<\/p>/s", $blog_post, $blog_paragraph))\n   echo "<p>" . $blog_paragraph["firstparagraph"] . "</p>";\nelse\n  echo $blog_post;

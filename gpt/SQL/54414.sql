@@ -1,0 +1,1 @@
+SELECT parent_id, child_id\nFROM hierarchy\nWHERE start_date <= '2023-01-31' AND end_date >= '2023-01-01';

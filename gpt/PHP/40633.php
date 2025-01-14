@@ -1,0 +1,1 @@
+$textarea = new Zend_Form_Element_Textarea('content');\n$textarea->setDecorators(array(\n    'ViewHelper',\n    array('Errors'),\n    array('Description', array('tag' => 'p', 'class' => 'description')),\n    array('HtmlTag', array('tag' => 'div', 'class' => 'element')),\n    array('Label', array('tag' => 'div')),\n    new My_Decorator_RichTextArea()\n));

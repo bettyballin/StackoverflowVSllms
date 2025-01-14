@@ -1,0 +1,1 @@
+function foo($a = 'apple', $b = null, $c = 'Capulet') {\n    if ($b === null) {\n        $b = 'brown';\n    }\n    // do something\n    echo "$a, $b, $c";\n}\n\n// Usage\nfoo('aardvark', null, 'Montague');

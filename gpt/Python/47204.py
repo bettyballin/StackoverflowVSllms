@@ -1,0 +1,1 @@
+import requests\n\nphone_number = '14158586273'  # Example phone number\n\nurl = f'https://api.freecarrierlookup.com/carrierlookup?phone={phone_number}'\nresponse = requests.get(url)\ndata = response.json()\n\nprint(data)

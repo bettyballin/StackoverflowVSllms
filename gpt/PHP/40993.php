@@ -1,0 +1,1 @@
+public function rss_feed() {\n    // Load your model and get the RSS feed data\n    $this->load->model('rss_model');\n    $data['feed'] = $this->rss_model->get_feed();\n\n    // Set the Content-Type header\n    $this->output\n        ->set_content_type('application/rss+xml')\n        ->set_output($this->load->view('rss_view', $data, true));\n}

@@ -1,0 +1,1 @@
+-- Retrieve notes for a specific User\nSELECT * FROM Notes\nWHERE entity_id = 1 AND entity_type = 'User';\n\n-- Retrieve notes for a specific Client\nSELECT * FROM Notes\nWHERE entity_id = 1 AND entity_type = 'Client';\n\n-- Retrieve notes for a specific Project\nSELECT * FROM Notes\nWHERE entity_id = 1 AND entity_type = 'Project';

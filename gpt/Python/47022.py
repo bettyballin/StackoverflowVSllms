@@ -1,0 +1,1 @@
+from django.db import transaction\n\nwith transaction.atomic():\n    Something.objects.filter(x__in=['a', 'b', 'c']).update(a="something")

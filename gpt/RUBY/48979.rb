@@ -1,0 +1,1 @@
+rake emails:send_bulk

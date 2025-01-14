@@ -1,0 +1,1 @@
+<ItemGroup>\n     <Reference Include="MyInterop">\n       <HintPath>path\to\MyInterop.dll</HintPath>\n       <SpecificVersion>True</SpecificVersion>\n       <Private>True</Private>\n     </Reference>\n   </ItemGroup>

@@ -1,0 +1,1 @@
+INSTALL PLUGIN group_replication SONAME 'group_replication.so';\n   SET GLOBAL group_replication_bootstrap_group=ON;  -- Only on the first server to bootstrap the group\n   START GROUP_REPLICATION;\n   SET GLOBAL group_replication_bootstrap_group=OFF;  -- Turn off after the group is bootstrapped

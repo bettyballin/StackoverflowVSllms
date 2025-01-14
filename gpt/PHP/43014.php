@@ -1,0 +1,1 @@
+// Indexed array\n   $list = array(1, 2, 3);\n   \n   // Associative array (similar to a dictionary or map)\n   $map = array("key1" => "value1", "key2" => "value2");

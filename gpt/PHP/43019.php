@@ -1,0 +1,1 @@
+class MinHeap extends SplHeap {\n       protected function compare($value1, $value2) {\n           return $value2 - $value1;\n       }\n   }\n\n   $heap = new MinHeap();\n   $heap->insert(3);\n   $heap->insert(1);

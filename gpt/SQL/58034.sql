@@ -1,0 +1,1 @@
+SELECT tag_id, size\nFROM (\n    SELECT tag_id, size, @running_total := @running_total + size AS cumulative_size\n    FROM documents, (SELECT @running_total := 0) AS init\n    WHERE tag_id = 26\n    ORDER BY id\n) AS subquery\nWHERE cumulative_size <= 600;

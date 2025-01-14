@@ -1,0 +1,1 @@
+CREATE TABLE WideTable\n(\n    ID INT PRIMARY KEY,\n    Column1 INT SPARSE NULL,\n    Column2 NVARCHAR(100) SPARSE NULL,\n    Column3 DATETIME SPARSE NULL,\n    -- Add more sparse columns as needed\n    ColumnSet XML COLUMN_SET FOR ALL_SPARSE_COLUMNS\n);

@@ -1,0 +1,1 @@
+FB.logout(function(response) {\n  // User is now logged out\n  window.location.href = '/logout';\n});

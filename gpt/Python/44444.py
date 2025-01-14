@@ -1,0 +1,1 @@
+f = open('somefile.txt')\nprint(dir(f))

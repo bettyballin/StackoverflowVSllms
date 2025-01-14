@@ -1,0 +1,1 @@
+def running_in_gnome_terminal?\n  ENV.key?('GNOME_TERMINAL_SCREEN')\nend\n\nif running_in_gnome_terminal?\n  puts "Running inside Gnome Terminal."\nelse\n  puts "Not running inside Gnome Terminal."\nend

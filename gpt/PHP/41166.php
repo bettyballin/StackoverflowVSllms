@@ -1,0 +1,1 @@
+class Service {\n    public function UploadFile($fileContent, $filename) {\n        file_put_contents('/path/to/save/' . $filename, $fileContent);\n        return "File uploaded successfully";\n    }\n}

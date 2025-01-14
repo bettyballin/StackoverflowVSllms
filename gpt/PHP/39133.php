@@ -1,0 +1,1 @@
+function foo() {\n    $args = func_get_args();\n    foreach ($args as $index => $arg) {\n        if ($arg !== null) {\n            doSomethingWith($arg, $index + 1);\n        }\n    }\n}\n\nfunction doSomethingWith($arg, $index) {\n    // Your logic here\n    echo "Argument $index: $arg\n";\n}\n\n// Example usage\nfoo('first', 'second', null, 'fourth');

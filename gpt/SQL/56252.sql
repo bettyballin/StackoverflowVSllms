@@ -1,0 +1,1 @@
+SELECT * FROM example_table WHERE name IS NULL; -- To find records with no data

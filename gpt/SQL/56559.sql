@@ -1,0 +1,1 @@
+CREATE MATERIALIZED VIEW mv_table_count \n    AS SELECT COUNT(*) AS row_count FROM table_name;

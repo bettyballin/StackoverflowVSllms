@@ -1,0 +1,1 @@
+SELECT constraint_name \nFROM information_schema.table_constraints \nWHERE table_name = 'city' AND constraint_type = 'FOREIGN KEY';

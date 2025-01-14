@@ -1,0 +1,1 @@
+<?php\n$HIDE = true;\n\nif (!$HIDE) {\n    echo "This is visible content";\n} else {\n    echo "This is hidden content";\n}\n?>

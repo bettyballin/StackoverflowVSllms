@@ -1,0 +1,1 @@
+Dim cutoffDate As DateTime = DateTime.Now.AddDays(-1)\nqry = qry.Where(Function(c) c.CallDate.HasValue AndAlso c.CallDate.Value < cutoffDate)

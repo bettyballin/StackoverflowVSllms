@@ -1,0 +1,1 @@
+# urls.py\nfrom django.urls import path\nfrom .views import update_table\n\nurlpatterns = [\n    path('update_table/', update_table, name='update_table'),\n    # other paths...\n]

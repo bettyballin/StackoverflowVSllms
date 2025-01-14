@@ -1,0 +1,1 @@
+ob_start(); // Start output buffering\n\n// Generate content\necho "This is part of the content.";\necho "This is another part of the content.";\n\n// Get the buffered content\n$content = ob_get_contents();\nob_end_clean(); // End buffering and clean it\n\n// Output the content\necho $content;

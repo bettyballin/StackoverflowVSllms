@@ -1,0 +1,1 @@
+import sys\n\ntry:\n    from skynet import SkyNet\nexcept ImportError:\n    class SelfAwareSkyNet:\n        pass\n    sys.exit()\n\nclass SelfAwareSkyNet(SkyNet):\n    pass

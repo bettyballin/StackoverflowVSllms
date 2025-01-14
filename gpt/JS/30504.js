@@ -1,0 +1,1 @@
+fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=Bloomington, IN&key=YOUR_API_KEY`)\n     .then(response => response.json())\n     .then(data => {\n       const location = data.results[0].geometry.location;\n       console.log(location.lat, location.lng);\n     });

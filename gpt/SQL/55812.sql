@@ -1,0 +1,1 @@
+SELECT owner_id\n     FROM property_owners_view\n    WHERE CONTAINS(combined_text, 'search_keyword') > 0;

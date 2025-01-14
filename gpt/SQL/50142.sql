@@ -1,0 +1,1 @@
+CREATE PROCEDURE dbo.GetTableData\n    @TableName NVARCHAR(128)\nAS\nBEGIN\n    DECLARE @SQL NVARCHAR(MAX);\n    \n    SET @SQL = N'SELECT * FROM ' + QUOTENAME(@TableName);\n    \n    EXEC sp_executesql @SQL;\nEND;

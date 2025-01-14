@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE column1 = 'your_value'\n   OR column2 = 'your_value'\n   OR column3 = 'your_value'\n   OR column4 = 'your_value';

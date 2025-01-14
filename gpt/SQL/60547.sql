@@ -1,0 +1,1 @@
+SELECT Field1, Field2, (Field1 + Field2) AS Field3\nFROM Table;

@@ -1,0 +1,1 @@
+Private Function GetTheAnswerAsByte() As Byte\n    Return Convert.ToByte(42)\nEnd Functio

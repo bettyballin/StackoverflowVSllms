@@ -1,0 +1,1 @@
+SELECT \n    CAST(Time15 AS DATE) AS [Date], \n    MAX(UserCount) AS PeakUserCount\nFROM \n    YourTableName\nGROUP BY \n    CAST(Time15 AS DATE)\nORDER BY \n    [Date];

@@ -1,0 +1,1 @@
+INSERT INTO table (column) VALUES ('O''Reilly');

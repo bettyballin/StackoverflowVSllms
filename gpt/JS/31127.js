@@ -1,0 +1,1 @@
+const rangeRegex = require('range-regex');\n\nconst start = 100;\nconst end = 199;\nconst pattern = rangeRegex(start, end);\n\nconsole.log(pattern);  // Output: /(100|10[1-9]|1[1-9][0-9])/

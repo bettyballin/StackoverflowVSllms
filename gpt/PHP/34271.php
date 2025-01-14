@@ -1,0 +1,1 @@
+use Zend_File_Transfer_Adapter_Http as FileTransfer;\n\n$upload = new FileTransfer();\n$upload->setDestination('/path/to/upload/directory');\n\nif ($upload->receive()) {\n    $fileInfo = $upload->getFileInfo();\n    // Handle the uploaded file information\n} else {\n    $messages = $upload->getMessages();\n    // Handle the error messages\n}

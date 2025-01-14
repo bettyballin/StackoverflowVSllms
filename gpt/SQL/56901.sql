@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_SetDOCOrder\nON DOC_Documents\nAFTER INSERT\nAS\nBEGIN\n    UPDATE DOC_Documents\n    SET DOC_Order = dbo.NEWDOC_Order()\n    FROM DOC_Documents d\n    INNER JOIN inserted i ON d.DOC_ID = i.DOC_ID\n    WHERE d.DOC_Order IS NULL;\nEND;

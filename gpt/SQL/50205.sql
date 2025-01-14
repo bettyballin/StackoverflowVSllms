@@ -1,0 +1,1 @@
+SELECT \n    CAST(DateTime AS DATE) AS Date, \n    ApplicationName, \n    MethodName, \n    AVG(TimeInMs) AS AvgTimeInMs\nFROM \n    YourTableName\nWHERE \n    DateTime >= DATEADD(DAY, -7, GETDATE())\nGROUP BY \n    CAST(DateTime AS DATE), \n    ApplicationName, \n    MethodName;

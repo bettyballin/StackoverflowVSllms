@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM table WHERE id=5;

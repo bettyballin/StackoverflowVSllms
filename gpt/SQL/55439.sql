@@ -1,0 +1,1 @@
+SELECT /*+ INDEX(table1 index_name) */ col1, col2\n    FROM table1;

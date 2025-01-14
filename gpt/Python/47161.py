@@ -1,0 +1,1 @@
+import os\n\n# Get the directory of the current script\ncurrent_directory = os.path.dirname(os.path.abspath(__file__))\n\n# Use relative path to the target file\ntarget_file = os.path.join(current_directory, 'foo.py')\n\nprint(f"Path to the target file: {target_file}")

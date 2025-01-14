@@ -1,0 +1,1 @@
+# Sample list\nemails = [\n    "smtp:user@domain.com",\n    "smtp:user@otherdomain.com",\n    "SMTP:user@anotherdomain.com"\n]\n\n# Custom sort function\nsorted_emails = sorted(emails, key=lambda x: (x.split(':')[0].islower(), x))\n\n# Print the sorted result\nprint(sorted_emails)

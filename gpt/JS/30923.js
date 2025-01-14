@@ -1,0 +1,1 @@
+// Example of removing a DOM element\n    element.parentNode.removeChild(element);

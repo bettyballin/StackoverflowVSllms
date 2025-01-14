@@ -1,0 +1,1 @@
+' Declare and initialize an array of strings\nDim myVar As String() = {"a", "b", "c"}\n\n' Declare an array with a specified size\nDim myArray(2) As String ' This creates an array with 3 elements (indexes 0, 1, and 2)\n\n' Alternatively, you can also initialize the array with specific values\nDim myArray As String() = New String() {"a", "b", "c"}

@@ -1,0 +1,1 @@
+ALTER TABLE your_table_name\nADD CONSTRAINT gradeRule CHECK (grade IN ('easy', 'medium', 'hard'));

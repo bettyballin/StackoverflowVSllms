@@ -1,0 +1,1 @@
+CREATE ASSEMBLY BlobProcessor\n    FROM 'C:\Path\To\Your\Dll\BlobProcessor.dll'\n    WITH PERMISSION_SET = SAFE;

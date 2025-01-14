@@ -1,0 +1,1 @@
+require 'socket'\n\nhostname = 'localhost'\nport = 2000\nfilename = 'path_to_your_binary_file'\n\nsocket = TCPSocket.open(hostname, port)\nputs "Connected to server..."\n\nFile.open(filename, 'rb') do |file|\n  while chunk = file.read(1024)\n    socket.write(chunk)\n  end\nend\n\nputs "File sent successfully."\nsocket.close

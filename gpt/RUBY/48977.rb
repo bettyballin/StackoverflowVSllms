@@ -1,0 +1,1 @@
+rails generate migration AddStateToUsers state:string\nrails db:migrate

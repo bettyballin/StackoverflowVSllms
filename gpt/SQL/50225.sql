@@ -1,0 +1,1 @@
+SELECT something\nFROM someTable\nWHERE idcode NOT IN (SELECT ids FROM tmpIdTable)

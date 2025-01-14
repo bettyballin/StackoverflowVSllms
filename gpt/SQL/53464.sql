@@ -1,0 +1,1 @@
+DROP VIEW IF EXISTS [dbo].[YourViewName];\n   GO\n   CREATE VIEW [dbo].[YourViewName] AS\n   SELECT ...\n   FROM ...\n   WHERE ...;\n   GO

@@ -1,0 +1,1 @@
+// Framework/Control/Control.php\nnamespace Framework\Control;\n\nclass Control {\n    // Base controller logic\n}\n\n// Application/Control/Index.php\nnamespace Application\Control;\n\nuse Framework\Control\Control;\n\nclass Index extends Control {\n    // Application-specific logic for Index\n}\n\n// Similarly for Home.php, Contact.php, About.php

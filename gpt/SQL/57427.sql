@@ -1,0 +1,1 @@
+DECLARE @GivenDate DATE = '2009-02-19';\n\nSELECT [User]\nFROM YourTable\nWHERE [Date] = (\n    SELECT TOP 1 [Date]\n    FROM YourTable\n    WHERE [Date] <= @GivenDate\n    ORDER BY [Date] DESC\n);

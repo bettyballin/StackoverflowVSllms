@@ -1,0 +1,1 @@
+SELECT t1.*\nFROM Table1 t1\nWHERE EXISTS (\n    SELECT 1\n    FROM Table2 t2\n    WHERE t2.id = t1.id\n);

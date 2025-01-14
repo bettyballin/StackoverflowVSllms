@@ -1,0 +1,1 @@
+BACKUP DATABASE [YourProductionDatabase]\n   TO DISK = 'C:\Backups\YourProductionDatabase.bak'\n   WITH FORMAT, INIT, NAME = 'Nightly Full Backup'

@@ -1,0 +1,1 @@
+class CreateDataReadings < ActiveRecord::Migration[6.1]\n     def change\n       create_table :data_readings do |t|\n         t.string :value, null: false\n         t.timestamps\n       end\n     end\n   end

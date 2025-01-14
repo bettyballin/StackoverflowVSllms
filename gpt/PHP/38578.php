@@ -1,0 +1,1 @@
+// config.php\nreturn [\n    'case1' => 'Value for case 1',\n    'case2' => 'Value for case 2',\n];\n\n// In your main PHP file\n$config = include('config.php');\n$condition = 'case1';\necho $config[$condition];

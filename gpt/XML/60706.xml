@@ -1,0 +1,1 @@
+<subsystem xmlns="urn:jboss:domain:web:1.1">\n       <connector name="https" protocol="HTTP/1.1" scheme="https" socket-binding="https" secure="true">\n           <ssl name="ssl" key-alias="your-alias" password="your-password" certificate-key-file="path/to/keystore.jks" />\n       </connector>\n   </subsystem>

@@ -1,0 +1,1 @@
+rails generate active_record:session_migratio

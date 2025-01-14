@@ -1,0 +1,1 @@
+ALTER TABLE products ADD CONSTRAINT fk_product_block FOREIGN KEY (product_block_id) REFERENCES product_blocks(id);\n     ALTER TABLE product_blocks ADD CONSTRAINT fk_category FOREIGN KEY (category_id) REFERENCES categories(id);

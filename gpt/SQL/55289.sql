@@ -1,0 +1,1 @@
+CREATE TEMPORARY TABLE TempIDs (ID INT PRIMARY KEY);\n      INSERT INTO TempIDs (ID) VALUES (1), (2), (3), ...;\n      \n      DELETE FROM FOO WHERE ID IN (SELECT ID FROM TempIDs);\n      \n      DROP TABLE TempIDs;

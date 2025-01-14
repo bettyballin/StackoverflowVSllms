@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  function fetchNewMessages() {\n    var lastCheckedAt = new Date().toISOString();\n    \n    $.ajax({\n      url: '/messages/new_messages',\n      data: { id: <%= @user.id %>, last_checked_at: lastCheckedAt },\n      dataType: 'script'\n    });\n  }\n\n  setInterval(fetchNewMessages, 2 * 60 * 1000); // 2 minutes\n});

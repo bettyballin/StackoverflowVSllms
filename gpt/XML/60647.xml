@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.hibernate.validator</groupId>\n    <artifactId>hibernate-validator</artifactId>\n    <version>6.1.7.Final</version>\n</dependency>\n<dependency>\n    <groupId>org.glassfish</groupId>\n    <artifactId>javax.el</artifactId>\n    <version>3.0.0</version>\n</dependency>

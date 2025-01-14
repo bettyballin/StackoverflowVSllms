@@ -1,0 +1,1 @@
+$sessionSavePath = ini_get('session.save_path');\n    if (!is_writable($sessionSavePath)) {\n        // Handle the error, for example:\n        error_log("Session save path is not writable: $sessionSavePath");\n    }

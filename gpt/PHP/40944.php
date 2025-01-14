@@ -1,0 +1,1 @@
+function testFunc() {\n    echo 'Testing';\n    return true;\n}\n\n// Start output buffering\nob_start();\n$returnValue = testFunc();\n// Clean (erase) the output buffer and turn off output buffering\nob_end_clean();\n\necho "The return value is: " . $returnValue; // This will be displayed on the page

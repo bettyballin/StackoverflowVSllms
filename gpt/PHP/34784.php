@@ -1,0 +1,1 @@
+$file = '/document_root/myfile.pdf';\n\n$realPath = realpath($file);\nif ($realPath) {\n    echo "Resolved path: " . $realPath . "\n";\n    echo "The file was last modified on: " . date("F d Y H:i:s.", filemtime($realPath));\n} else {\n    echo "File does not exist or cannot be resolved.";\n}

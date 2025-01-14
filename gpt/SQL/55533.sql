@@ -1,0 +1,1 @@
+SELECT Spl.Spl_Name\nFROM Spl\nWHERE Spl.Spl_No NOT IN (\n    SELECT Del.Spl_No\n    FROM Del\n    WHERE Del.Item_Name = 'Compass'\n);

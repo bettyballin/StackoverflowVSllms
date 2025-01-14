@@ -1,0 +1,1 @@
+$markerHtml = 'Albertus Magnus College<br><a href="http://www.albertus.edu/admission/index.shtml">Admissions</a>';\necho '<marker lat="41.331304" lng="-72.921438" html="' . $markerHtml . '" label="Albertus Magnus College" />';

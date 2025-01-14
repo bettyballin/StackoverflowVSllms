@@ -1,0 +1,1 @@
+def strip_trailing_digit(number):\n    return number // 10\n\n# Example usage:\nnumber = 12345\nresult = strip_trailing_digit(number)\nprint(result)  # Output: 1234

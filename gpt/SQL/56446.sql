@@ -1,0 +1,1 @@
+ALTER TABLE RelatedTable1\nADD DictionaryID bigint,\n    DictionaryType varchar(200);\n\nALTER TABLE RelatedTable2\nADD DictionaryID bigint,\n    DictionaryType varchar(200);

@@ -1,0 +1,1 @@
+CREATE PROCEDURE MyStoredProcedure\nAS\nBEGIN\n    -- Your SQL logic here\n\n    -- Return the SCOPE_IDENTITY\n    SELECT SCOPE_IDENTITY() AS NewID\nEND

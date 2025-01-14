@@ -1,0 +1,1 @@
+# my_class.rb\nclass MyClass\n  def greet\n    puts "Hello, world!"\n  end\nend

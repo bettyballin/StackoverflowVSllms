@@ -1,0 +1,1 @@
+<?php\n// Registering a user\n$password = 'user_password';\n$hashedPassword = password_hash($password, PASSWORD_BCRYPT);\n\n// Store $hashedPassword in the database\n\n// Verifying a user\n$enteredPassword = 'user_input_password';\nif (password_verify($enteredPassword, $hashedPassword)) {\n    echo 'Password is correct.';\n} else {\n    echo 'Password is incorrect.';\n}\n?>

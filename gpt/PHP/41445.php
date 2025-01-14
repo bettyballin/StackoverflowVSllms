@@ -1,0 +1,1 @@
+// In the included file\n   class Whatever {\n       public function doSomething() {\n           // ...\n       }\n   }\n\n   // In the including file\n   /** @var Whatever $blah */\n   include 'path/to/included/file.php';\n   $blah = new Whatever();\n   $blah->doSomething(); // Autocompletion should work here

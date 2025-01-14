@@ -1,0 +1,1 @@
+# Example of a simple license check\ndef check_license():\n    with open("license.key", "r") as file:\n        license_key = file.read().strip()\n    \n    if license_key != "your-expected-license-key":\n        raise Exception("Invalid license")\n\ncheck_license()

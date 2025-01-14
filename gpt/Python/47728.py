@@ -1,0 +1,1 @@
+# Using the old-style formatting with separate arguments\nprint('%5s %2s' % (':', ':'))\n\n# Or using the new-style formatting\nprint('{:>5} {:>2}'.format(':', ':'))

@@ -1,0 +1,1 @@
+CREATE CERTIFICATE MyCertificate WITH SUBJECT = 'My Encryption Certificate';

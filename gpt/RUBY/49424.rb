@@ -1,0 +1,1 @@
+# Example of creating a new time in the configured time zone\n   current_time = Time.zone.now\n\n   # Example of using ActiveSupport time helpers\n   one_second_ago = 1.second.ago

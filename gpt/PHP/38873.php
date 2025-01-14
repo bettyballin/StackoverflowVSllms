@@ -1,0 +1,1 @@
+if ($myVal === 0 || $myVal === '0') {\n    // Your code here\n}

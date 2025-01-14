@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION escape_regexp_special_chars(p_input IN VARCHAR2)\nRETURN VARCHAR2\nAS\n  v_input VARCHAR2(32767) := p_input;\nBEGIN\n  v_input := REGEXP_REPLACE(v_input, '([\\\.\+\*\?\|\(\)\[\]\{\}\^\$])', '\\\1');\n  RETURN v_input;\nEND;\n/

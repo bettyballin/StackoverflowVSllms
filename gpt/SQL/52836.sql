@@ -1,0 +1,1 @@
+-- Example for enabling auditing in MySQL\n   SET GLOBAL audit_log_policy = 'ALL';

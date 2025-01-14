@@ -1,0 +1,1 @@
+// PHP example\n   $encryption_key = getenv('ENCRYPTION_KEY');

@@ -1,0 +1,1 @@
+<select>\n    <?php foreach ($var as $row): ?>\n        <option value="<?php echo htmlspecialchars($row->value); ?>" \n            <?php echo ($row->value == $default_value) ? 'selected="selected"' : ''; ?>>\n            <?php echo htmlspecialchars($row->value); ?>\n        </option>\n    <?php endforeach; ?>\n</select>

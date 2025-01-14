@@ -1,0 +1,1 @@
+<?php\n$string = 'The quick brown fox jumped over the lazy dog.';\n$patterns = [\n    '/quick/',\n    '/brown/',\n    '/fox/',\n    '/lazy/',\n    '/dog/'\n];\n$replacements = [\n    'slow',\n    'black',\n    'bear',\n    'slow',\n    'slow'\n];\necho preg_replace($patterns, $replacements, $string);\n?>

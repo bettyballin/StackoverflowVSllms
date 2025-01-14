@@ -1,0 +1,1 @@
+CREATE TABLE Tags (\n    TagID bigint IDENTITY PRIMARY KEY,\n    TagName varchar(100) NOT NULL\n);\n\nCREATE TABLE VideoTags (\n    VideoID bigint NOT NULL,\n    TagID bigint NOT NULL,\n    FOREIGN KEY (VideoID) REFERENCES Videos(VideoID),\n    FOREIGN KEY (TagID) REFERENCES Tags(TagID)\n);

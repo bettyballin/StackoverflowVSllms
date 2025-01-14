@@ -1,0 +1,1 @@
+CREATE PROCEDURE dbo.dmsInsertTestData\n    @ptestdata VarChar(50)\nAS\nBEGIN\n    SET NOCOUNT ON;\n\n    IF NOT EXISTS(SELECT 1 FROM dbo.MyTestData WHERE testdata=@ptestdata)\n    BEGIN\n        INSERT INTO dbo.MyTestData (testdata) VALUES (@ptestdata);\n    END\n\n    RETURN 0;\nEND;

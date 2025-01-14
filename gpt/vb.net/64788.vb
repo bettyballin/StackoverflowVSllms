@@ -1,0 +1,1 @@
+If Not IsDBNull(editTransactionRow.pay_id) AndAlso Not String.IsNullOrEmpty(editTransactionRow.pay_id.ToString()) Then\n    stTransactionPaymentID = editTransactionRow.pay_id\nEnd If

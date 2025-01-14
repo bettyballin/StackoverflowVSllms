@@ -1,0 +1,1 @@
+DECLARE @sql NVARCHAR(MAX) = ''\n\nSELECT @sql += 'ALTER TABLE ' + QUOTENAME(OBJECT_SCHEMA_NAME(parent_object_id)) + '.' + QUOTENAME(OBJECT_NAME(parent_object_id)) + \n               ' DROP CONSTRAINT ' + QUOTENAME(name) + ';' + CHAR(13)\nFROM sys.foreign_keys\n\nEXEC sp_executesql @sql

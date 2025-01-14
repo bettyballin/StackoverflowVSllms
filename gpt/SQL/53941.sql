@@ -1,0 +1,1 @@
+BEGIN\n     EXECUTE IMMEDIATE 'CALL populate_temp_rad@dblink_to_B';\n   END;\n\n   SELECT * FROM temp_rad@dblink_to_B;

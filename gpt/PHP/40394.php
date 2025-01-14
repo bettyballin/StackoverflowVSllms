@@ -1,0 +1,1 @@
+$string = "\n///<summary>\n///test\n///</summary>\n";\n\n$pattern = "/\/\/\/<summary>\n(.*?)\n\/\/\/<\/summary>/s";\n\npreg_match_all($pattern, $string, $matches);\n\nprint_r($matches);

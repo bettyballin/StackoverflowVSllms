@@ -1,0 +1,1 @@
+// form processing script\n    addStatusMsg("Your record was saved.");\n    header("Location: search_results.php");\n    exit();

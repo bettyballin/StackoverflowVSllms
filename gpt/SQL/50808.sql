@@ -1,0 +1,1 @@
+SET SERVEROUTPUT ON;\nEXEC generate_insert_statements(1);

@@ -1,0 +1,1 @@
+EXPLAIN PLAN FOR\nSELECT a.*, b.*\nFROM table_a a\nINNER JOIN table_b b ON a.id = b.a_id\nWHERE b.some_column = 'value';\n\nSELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);

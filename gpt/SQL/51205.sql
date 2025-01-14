@@ -1,0 +1,1 @@
+SELECT \n    COUNT(Page) AS VisitingCount,\n    Page,\n    LEFT(CONVERT(VARCHAR(8), Date, 108), 5) AS Time\nFROM \n    scr_SecuristLog\nWHERE \n    Date BETWEEN '2009-05-04 00:00:00' AND '2009-05-06 14:58'\n    AND [user] IN (SELECT USERNAME FROM scr_CustomerAuthorities)\nGROUP BY \n    Page, \n    Date \nORDER BY \n    VisitingCount ASC;

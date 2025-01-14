@@ -1,0 +1,1 @@
+# Example request with API key\nrequire 'net/http'\n\nuri = URI('http://your-api-endpoint')\nreq = Net::HTTP::Get.new(uri)\nreq['X-Api-Key'] = 'your_api_key_1'\n\nres = Net::HTTP.start(uri.hostname, uri.port) { |http| http.request(req) }\nputs res.body

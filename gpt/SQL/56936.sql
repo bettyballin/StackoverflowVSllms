@@ -1,0 +1,1 @@
+INSERT INTO Images (Id, ImageData)\n   SELECT 1, BulkColumn\n   FROM OPENROWSET(BULK 'C:\Path\To\Your\Image.jpg', SINGLE_BLOB) AS ImageFile;

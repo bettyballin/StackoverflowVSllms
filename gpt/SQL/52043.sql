@@ -1,0 +1,1 @@
+BEGIN TRANSACTION\n\n-- Your update command\nUPDATE YourTable\nSET YourColumn = NewValue\n-- WHERE condition if you had one\n\n-- Rollback the transaction\nROLLBACK TRANSACTION

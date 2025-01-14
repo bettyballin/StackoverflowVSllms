@@ -1,0 +1,1 @@
+$allowedTypes = ['image/jpeg', 'image/png', 'application/pdf'];\n    if (!in_array($file['type'], $allowedTypes)) {\n        $this->Flash->error(__('Invalid file type.'));\n        return;\n    }

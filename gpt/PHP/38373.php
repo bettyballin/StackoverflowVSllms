@@ -1,0 +1,1 @@
+$mail->setLanguage('en', '/path/to/PHPMailer/language/');

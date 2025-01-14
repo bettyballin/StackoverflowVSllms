@@ -1,0 +1,1 @@
+SELECT *\n   FROM your_table\n   WHERE NVL2(OurColumn, 1, NULL) IS NOT NULL;

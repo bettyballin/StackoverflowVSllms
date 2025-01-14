@@ -1,0 +1,1 @@
+from django.conf import settings\nfrom django.conf.urls.static import static\nfrom django.urls import path, include\n\nurlpatterns = [\n    # Your other url patterns...\n]\n\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

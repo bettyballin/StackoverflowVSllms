@@ -1,0 +1,1 @@
+UPDATE site_settings SET setting_value = 'off' WHERE setting_name = 'maintenance_mode';

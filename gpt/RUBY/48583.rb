@@ -1,0 +1,1 @@
+<% form_tag session_path, {}, { id: 'login_form' } do %>\n  <!-- form contents -->\n<% end %>

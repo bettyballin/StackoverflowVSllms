@@ -1,0 +1,1 @@
+USE YourDatabaseName;\nGO\nGRANT SELECT ON dbo.YourView1 TO readonly_user;\nGRANT SELECT ON dbo.YourView2 TO readonly_user;\n-- Repeat for each view the user should have access to\nGO

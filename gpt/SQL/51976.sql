@@ -1,0 +1,1 @@
+-- Example: Create a Full-Text Catalog\n   CREATE FULLTEXT CATALOG MyFullTextCatalog AS DEFAULT;\n\n   -- Example: Create a Full-Text Index on a table\n   CREATE FULLTEXT INDEX ON MyTable (MyColumn)\n   KEY INDEX PK_MyTable ON MyFullTextCatalog;

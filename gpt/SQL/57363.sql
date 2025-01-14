@@ -1,0 +1,1 @@
+-- Fetching the first page\nSELECT * FROM questions ORDER BY id DESC LIMIT 10;\n\n-- Fetching the second page using the ID of the last record on the first page\nSELECT * FROM questions WHERE id < 'last_seen_id' ORDER BY id DESC LIMIT 10;

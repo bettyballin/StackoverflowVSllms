@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    function triggerHiddenButton() {\n        document.getElementById('<%= HiddenButton.ClientID %>').click();\n    }\n\n    function myHiddenButtonFunction() {\n        // Your hidden button's JavaScript logic here\n        alert('Hidden button clicked!');\n        return false; // Prevents postback\n    }\n</script>

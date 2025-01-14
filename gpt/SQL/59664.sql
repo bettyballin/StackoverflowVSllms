@@ -1,0 +1,1 @@
+SELECT c.*\nFROM companies AS c\nJOIN users AS u USING(companyid)\nJOIN jobs AS j USING(userid)\nJOIN useraccounts AS us USING(userid)\nWHERE j.jobid = 123;

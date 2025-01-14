@@ -1,0 +1,1 @@
+<?php\n$html = '<p>word 1\nword 2\nword 3\nword 4</p>';\n$dom = new DOMDocument;\n$dom->loadHTML($html);\n$p = $dom->getElementsByTagName('p')->item(0);\n$items = $p->textContent;\n$itemsArray = explode("\n", $items);\n\nprint_r($itemsArray);\n?>

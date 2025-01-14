@@ -1,0 +1,1 @@
+import webapp2\n\nclass RedirectHandler(webapp2.RequestHandler):\n    def get(self):\n        self.redirect('http://example.com', permanent=True)\n\napp = webapp2.WSGIApplication([\n    ('/.*', RedirectHandler),\n], debug=True)

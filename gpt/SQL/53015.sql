@@ -1,0 +1,1 @@
+SELECT \n    posts.id, \n    posts.url, \n    posts.created_at, \n    post_attributes.name, \n    post_attributes.value\nFROM \n    posts\nJOIN \n    post_attributes \nON \n    posts.id = post_attributes.post_id\nWHERE \n    post_attributes.name IN ('title', 'body')\nORDER BY \n    posts.id;

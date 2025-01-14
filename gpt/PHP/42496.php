@@ -1,0 +1,1 @@
+$items['A'] = "Test";\n$items['B'] = "Test";\n$items['C'] = "Test";\n$items['D'] = "Test";\n\nforeach(array_keys($items) as $index => $key) {\n    echo "$index is a $key containing {$items[$key]}\n";\n}

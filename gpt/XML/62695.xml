@@ -1,0 +1,1 @@
+<web-app>\n    <!-- Other configurations -->\n    \n    <!-- Ensure favicon.ico is not restricted -->\n    <servlet-mapping>\n        <servlet-name>default</servlet-name>\n        <url-pattern>/favicon.ico</url-pattern>\n    </servlet-mapping>\n</web-app>

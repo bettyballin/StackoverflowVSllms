@@ -1,0 +1,1 @@
+SELECT RAWTOHEX(USER_GUID) \nFROM user \nWHERE email = 'user@example.com';

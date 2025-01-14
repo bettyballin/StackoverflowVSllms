@@ -1,0 +1,1 @@
+Dim numbers As List(Of Integer) = New List(Of Integer) From {1, 2, 3, 4, 5}\n\n' Using And\nDim resultAnd = numbers.Where(Function(n) n > 2 And n < 5).ToList()\n\n' Using AndAlso\nDim resultAndAlso = numbers.Where(Function(n) n > 2 AndAlso n < 5).ToList()

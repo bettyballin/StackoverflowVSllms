@@ -1,0 +1,1 @@
+var uploader = new qq.FineUploader({\n     element: document.getElementById("uploader"),\n     request: {\n       endpoint: "/server/upload"\n     }\n   });

@@ -1,0 +1,1 @@
+-- Display the execution plan\n   SET SHOWPLAN_ALL ON;\n   GO\n   DELETE FROM tablename WHERE pk = 12345;\n   GO\n   SET SHOWPLAN_ALL OFF;

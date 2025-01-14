@@ -1,0 +1,1 @@
+CREATE TABLE Orders (\n       order_id INT PRIMARY KEY,\n       customer_name VARCHAR(255),\n       product_name VARCHAR(255),\n       quantity INT,\n       order_date DATE\n   );

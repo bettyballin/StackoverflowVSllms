@@ -1,0 +1,1 @@
+SELECT 'user' AS type, name \nFROM users \nWHERE name LIKE '%search_text%'\nUNION\nSELECT 'group' AS type, name \nFROM groups \nWHERE name LIKE '%search_text%';

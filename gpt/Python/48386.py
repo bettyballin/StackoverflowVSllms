@@ -1,0 +1,1 @@
+import logging\n    import os\n\n    logging.basicConfig(\n        filename=os.path.join(os.path.dirname(__file__), 'service.log'),\n        level=logging.DEBUG,\n        format='%(asctime)s %(levelname)s %(message)s'\n    )

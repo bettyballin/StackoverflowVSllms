@@ -1,0 +1,1 @@
+SELECT c.comment_id, c.user_id, c.object_id, c.content, c.created_at, \n       IFNULL(SUM(v.vote), 0) AS total_votes\nFROM comments c\nLEFT JOIN votes v ON c.comment_id = v.comment_id\nWHERE c.object_id = :object_id\nGROUP BY c.comment_id\nORDER BY c.created_at;

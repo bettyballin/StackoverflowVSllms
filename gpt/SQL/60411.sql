@@ -1,0 +1,1 @@
+SELECT OrderID, OrderDate\nFROM (\n    SELECT OrderID, OrderDate, ROWNUM AS RowNumber\n    FROM (\n        SELECT OrderID, OrderDate\n        FROM Orders\n        ORDER BY OrderID\n    )\n)\nWHERE RowNumber = 1000000;

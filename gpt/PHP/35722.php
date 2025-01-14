@@ -1,0 +1,1 @@
+<?php\n// Call the Perl script\n$output = [];\n$return_var = 0;\nexec('/path/to/example.pl', $output, $return_var);\n\n// Check if the script was executed successfully\nif ($return_var == 0) {\n    // Process the output\n    foreach ($output as $line) {\n        echo $line . "\n";\n    }\n} else {\n    echo "Error executing Perl script.";\n}\n?>

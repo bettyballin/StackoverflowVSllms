@@ -1,0 +1,1 @@
+<?php\nwp_nav_menu(array(\n    'theme_location' => 'primary',\n    'container' => false,\n    'menu_class' => 'nav-menu',\n));\n?>

@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    var passpage = encodeURIComponent(window.location.href);\n    if (top.location == self.location) {\n        top.location.href = "master.html?" + passpage;\n    }\n</script>

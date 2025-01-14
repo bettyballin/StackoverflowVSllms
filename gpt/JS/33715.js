@@ -1,0 +1,1 @@
+function onGridViewCustomButtonClick(s, e) {\n    // Do something on client-side callback if necessary\n    __doPostBack('<%= UpdatePanel1.ClientID %>', '');\n}

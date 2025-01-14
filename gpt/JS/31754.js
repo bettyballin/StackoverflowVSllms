@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    function contentPageLoad() {\n        // Custom logic for content page load if needed\n        console.log('Content page loaded');\n    }\n</script>\n<asp:Content ContentPlaceHolderID="MainContent" runat="server">\n    <!-- Placeholder for UserControls -->\n</asp:Content>

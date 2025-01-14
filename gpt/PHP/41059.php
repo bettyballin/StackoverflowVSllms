@@ -1,0 +1,1 @@
+<?php\n   if (isset($_GET['id'])) {\n       $postId = intval($_GET['id']);\n       // Now you can use $postId to fetch and edit the post\n       echo "Editing post with ID: " . $postId;\n   } else {\n       echo "No post ID provided.";\n   }\n   ?>

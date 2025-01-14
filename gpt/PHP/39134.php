@@ -1,0 +1,1 @@
+<?php\n$data = $_POST;\n\nfunction array2json($data) {\n    return json_encode($data, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP);\n}\n\necho array2json($data);\n?>

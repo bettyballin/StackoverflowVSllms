@@ -1,0 +1,1 @@
+CREATE TABLE Artist (\n    ArtistID INT PRIMARY KEY,\n    Name VARCHAR(255) NOT NULL\n);

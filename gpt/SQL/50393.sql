@@ -1,0 +1,1 @@
+CREATE TABLE MasterIDs (\n    ID INT IDENTITY(1,1) PRIMARY KEY,\n    ObjectType VARCHAR(50)\n);

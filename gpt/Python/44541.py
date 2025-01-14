@@ -1,0 +1,1 @@
+INSTALLED_APPS = [\n         ...\n         'silk',\n     ]

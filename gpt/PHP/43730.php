@@ -1,0 +1,1 @@
+<?php\n$hashed_password = 'previously_stored_hashed_password';\n$password = 'password_to_check';\n\nif (password_verify($password, $hashed_password)) {\n    echo 'Password is valid!';\n} else {\n    echo 'Invalid password.';\n}\n?>

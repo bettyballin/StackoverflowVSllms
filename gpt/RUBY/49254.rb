@@ -1,0 +1,1 @@
+group :development, :test do\n  gem 'rspec-rails', '~> 5.0'\n  gem 'capybara', '>= 3.26'\nend

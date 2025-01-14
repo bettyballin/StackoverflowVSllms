@@ -1,0 +1,1 @@
+class Test {\n    private $systime;\n\n    // Method to get the current system time\n    public function get_systime() {\n        $this->systime = time();\n        return $this->systime;\n    }\n}\n\n// Usage\n$test = new Test();\necho $test->get_systime();

@@ -1,0 +1,1 @@
+$someVar = new SomeClass();

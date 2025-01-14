@@ -1,0 +1,1 @@
+CREATE EXTENSION pg_stat_statements;\n   SELECT * FROM pg_stat_statements;

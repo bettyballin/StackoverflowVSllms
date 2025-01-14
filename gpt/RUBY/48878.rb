@@ -1,0 +1,1 @@
+rake rails:freeze:gems

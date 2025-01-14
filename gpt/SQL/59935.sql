@@ -1,0 +1,1 @@
+SELECT notes + 'SomeText'\nFROM NotesTable a

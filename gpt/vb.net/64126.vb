@@ -1,0 +1,1 @@
+Dim a as Object\nDim i as Integer = 0\n\nTry\n    For i=1 to 5\n        a = new Object()\n\n        'Do stuff'\n\n        ' Optional: Setting a to Nothing to release the reference immediately\n        a = Nothing\n    Next\n\nCatch ex As Exception\n    ' Handle exception\n\nFinally\n    ' Ensure a is set to Nothing when finished\n    a = Nothing\nEnd Try

@@ -1,0 +1,1 @@
+// ==UserScript==\n// @name        Change Background Color\n// @namespace   http://example.com\n// @description Changes the background color of a webpage\n// @include     http://example.com/*\n// @version     1\n// @grant       none\n// ==/UserScript==\n\ndocument.body.style.backgroundColor = "lightblue";

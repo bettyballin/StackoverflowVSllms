@@ -1,0 +1,1 @@
+def getIndexOfTuple(tuple_list, sub_index, value):\n    return next((i for i, t in enumerate(tuple_list) if t[sub_index] == value), -1)\n\n# Example usage\ntuple_list = [("pineapple", 5), ("cherry", 7), ("kumquat", 3), ("plum", 11)]\nprint(getIndexOfTuple(tuple_list, 1, 7))        # Output: 1\nprint(getIndexOfTuple(tuple_list, 0, "kumquat")) # Output: 2

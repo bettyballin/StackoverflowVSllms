@@ -1,0 +1,1 @@
+<?php\n// update_count.php\n$connection = mysqli_connect("localhost", "username", "password", "mydb");\nif (!$connection) {\n    die("Connection failed: " . mysqli_connect_error());\n}\n\n$result = mysqli_query($connection, "SELECT * FROM mydb");\n$num_rows = mysqli_num_rows($result);\necho "<h1>$num_rows</h1><h2>rows</h2>";\n\nmysqli_close($connection);\n?>

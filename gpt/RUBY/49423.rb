@@ -1,0 +1,1 @@
+gem 'sequel'\n    gem 'pg'

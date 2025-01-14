@@ -1,0 +1,1 @@
+rails generate scaffold YourModelName column1:type column2:type

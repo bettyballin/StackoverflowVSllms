@@ -1,0 +1,1 @@
+let obj = { foo: "bar", baz: "qux" };\nlet serializedObj = JSON.stringify(obj);\nconsole.log(serializedObj); // Output: {"foo":"bar","baz":"qux"}

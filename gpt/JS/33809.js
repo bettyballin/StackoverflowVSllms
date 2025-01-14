@@ -1,0 +1,1 @@
+let baseURL = "https://www.example.com/search";\n   let params = new URLSearchParams({\n       query: "security",\n       sort: "asc"\n   });\n   let fullURL = `${baseURL}?${params.toString()}`;\n   console.log(fullURL); // Outputs: https://www.example.com/search?query=security&sort=asc

@@ -1,0 +1,1 @@
+EXEC YourStoredProcedure @Param1 = 'value1', @Param2 = 'value2' OPTION (RECOMPILE);

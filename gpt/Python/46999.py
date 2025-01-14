@@ -1,0 +1,1 @@
+import time\n\nwhile True:\n    try:\n        # Your main script logic here\n        main()\n    except Exception as e:\n        print(f"Script crashed with exception: {e}")\n        time.sleep(1)  # wait 1 second before restarting

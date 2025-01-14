@@ -1,0 +1,1 @@
+SELECT \n    SUM(YEAR(ToDate) - YEAR(FromDate) + \n        (CASE WHEN MONTH(ToDate) > MONTH(FromDate) OR \n                    (MONTH(ToDate) = MONTH(FromDate) AND DAY(ToDate) >= DAY(FromDate))\n              THEN 1 ELSE 0 END) - 1\n    ) AS TotalYears\nFROM \n    YourTableName;

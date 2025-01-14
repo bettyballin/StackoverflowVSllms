@@ -1,0 +1,1 @@
+// script.js\nwindow.addEventListener('load', function() {\n    document.getElementById('loader').style.display = 'none';\n    document.getElementById('content').style.display = 'block';\n});

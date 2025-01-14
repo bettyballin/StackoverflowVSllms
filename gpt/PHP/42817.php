@@ -1,0 +1,1 @@
+$str = $post->post_content;\nassert(isset($str));\nassert(is_string($str));\necho $str;\n$str = 'before after';\nassert(isset($str));\necho $str;

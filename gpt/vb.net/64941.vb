@@ -1,0 +1,1 @@
+Class MainWindow\n    Private Sub StartAnimation_Click(sender As Object, e As RoutedEventArgs)\n        Dim myStoryboard As Storyboard = CType(FindResource("MyStoryboard"), Storyboard)\n        myStoryboard.Begin()\n    End Sub\nEnd Class

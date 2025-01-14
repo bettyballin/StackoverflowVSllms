@@ -1,0 +1,1 @@
+SELECT perm_id \nFROM permissions, actions \nWHERE perm_role = 1 AND perm_action = action_id \nAND action_name = 'add' AND action_module = 'employee';

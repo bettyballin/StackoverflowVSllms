@@ -1,0 +1,1 @@
+public function takeScriptsWithMarker(&$lines, $marker) {\n    // Your function implementation\n}\n\n// Correct way to call the function\n$lines = array();\n$marker = 'some_marker';\ntakeScriptsWithMarker($lines, $marker);

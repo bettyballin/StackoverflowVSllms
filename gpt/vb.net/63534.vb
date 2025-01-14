@@ -1,0 +1,1 @@
+Public Class ExampleClass\n    ' This will not infer type and will result in Object\n    ' Private Shared prop = RegisterProperty(Of Guid)(...)\n\n    ' You must explicitly specify the type\n    Private Shared prop As Guid = RegisterProperty(Of Guid)(...)\nEnd Class

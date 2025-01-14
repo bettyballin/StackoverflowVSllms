@@ -1,0 +1,1 @@
+import io\n\n# Your string content\nstring_content = "This is the content of the file-like object."\n\n# Create a file-like object from the string\nfile_like_object = io.StringIO(string_content)\n\n# Now you can use file_like_object as if it were a file\nprint(file_like_object.read())\n\n# Don't forget to close the file-like object when done\nfile_like_object.close()

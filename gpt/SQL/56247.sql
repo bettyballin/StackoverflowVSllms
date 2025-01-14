@@ -1,0 +1,1 @@
+CREATE INDEX idx_timestamps_table_entry ON TIMESTAMPS(table_name, entry_id);

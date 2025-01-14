@@ -1,0 +1,1 @@
+<?php \n    setlocale(LC_TIME, 'it_IT.UTF-8'); // Set the locale to Italian\n    $timestamp = $row['eventtime']; // Assuming $row['eventtime'] is a UNIX timestamp\n    echo strftime("%a %d %b %Y", $timestamp); // Format the date using strftime\n?>

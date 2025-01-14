@@ -1,0 +1,1 @@
+<?php\n\nnamespace Vendor\Package;\n\nuse FooInterface;\nuse BarClass as Bar;\nuse OtherVendor\OtherPackage\BazClass;\n\nclass Foo extends Bar implements FooInterface\n{\n    public function sampleFunction($arg1, $arg2 = null)\n    {\n        if ($arg1 === $arg2) {\n            throw new \Exception('Values cannot be equal');\n        }\n        \n        echo $arg1;\n    }\n}

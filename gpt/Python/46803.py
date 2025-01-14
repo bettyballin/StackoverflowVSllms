@@ -1,0 +1,1 @@
+import hashlib\n\nNUMBER_OF_SHARDS = 256\n\ndef get_shard_id(user_id):\n    hash_val = int(hashlib.md5(user_id.encode()).hexdigest(), 16)\n    return hash_val % NUMBER_OF_SHARDS\n\nuser_id = 'user123'\nshard_id = get_shard_id(user_id)\nprint(f'User {user_id} should be stored in shard {shard_id}')

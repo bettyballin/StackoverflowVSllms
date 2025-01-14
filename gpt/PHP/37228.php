@@ -1,0 +1,1 @@
+<?php\n   $scripts = isset($_GET['scripts']) ? explode(',', $_GET['scripts']) : [];\n   header('Content-Type: application/javascript');\n   foreach ($scripts as $script) {\n       $path = "path/to/js/{$script}.js";\n       if (file_exists($path)) {\n           readfile($path);\n           echo "\n";\n       }\n   }\n   ?>

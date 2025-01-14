@@ -1,0 +1,1 @@
+<?php\n     return [\n         'db_host' => 'your_host',\n         'db_name' => 'your_dbname',\n         'db_user' => 'your_user',\n         'db_pass' => 'your_password'\n     ];

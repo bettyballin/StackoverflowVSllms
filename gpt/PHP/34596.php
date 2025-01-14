@@ -1,0 +1,1 @@
+if (!extension_loaded('gd') || !extension_loaded('pdo')) {\n      die('Required extensions GD and PDO are not installed.');\n  }

@@ -1,0 +1,1 @@
+if ($form_submitted) {\n    // Process the form data\n    // ...\n\n    // Set the cookie\n    setcookie('type_id', $new_type_id, time() + 60*60*24*30, '/', '', false, true); // Secure the cookie with HttpOnly and Secure flags if applicable\n\n    // Redirect to the new page\n    header("Location: $url");\n    exit;\n}

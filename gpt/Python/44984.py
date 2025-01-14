@@ -1,0 +1,1 @@
+from django.shortcuts import render\nfrom .models import BlogPost\n\ndef latest_posts(request):\n    blog_post_list = BlogPost.objects.all().order_by('-post_time')[:5]\n    return render(request, 'your_template.html', {'blog_post_list': blog_post_list})

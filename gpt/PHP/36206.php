@@ -1,0 +1,1 @@
+'Datasources' => [\n       'default' => [\n           'host' => 'localhost',\n           'username' => 'your_db_user',\n           'password' => 'your_db_password',\n           'database' => 'your_db_name',\n           'url' => env('DATABASE_URL', null),\n       ],\n   ],

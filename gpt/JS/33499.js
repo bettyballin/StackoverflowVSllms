@@ -1,0 +1,1 @@
+var isUnloading = false;\n\n$(window).on('beforeunload', function() {\n    isUnloading = true;\n});\n\n$(document).ajaxError(function(event, jqXHR, ajaxSettings, thrownError) {\n    if (isUnloading) {\n        // Ignore the error as the page is unloading\n        return;\n    }\n    // Handle the error normally\n    alert('An error occurred: ' + thrownError);\n});

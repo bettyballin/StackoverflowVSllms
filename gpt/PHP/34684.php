@@ -1,0 +1,1 @@
+if (!function_exists('add_css')) {\n       function add_css($file) {\n           return '<link rel="stylesheet" type="text/css" href="' . base_url('assets/css/' . $file) . '" />';\n       }\n   }

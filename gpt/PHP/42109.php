@@ -1,0 +1,1 @@
+$config = Config::getInstance();\n$mysql = new Mysql($config);

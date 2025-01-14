@@ -1,0 +1,1 @@
+<?php\nnamespace VCL4PHP;\n\nclass Application {\n    // Your class code here\n}

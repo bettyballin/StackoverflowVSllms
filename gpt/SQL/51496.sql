@@ -1,0 +1,1 @@
+-- Instead of this:\nCREATE VIEW aview AS\nSELECT table1.*, table2.*\nFROM table1\nINNER JOIN table2 ON table1.id = table2.id;\n\n-- Use this:\nCREATE VIEW aview AS\nSELECT table1.field1, table1.field2, table2.field1, table2.field2\nFROM table1\nINNER JOIN table2 ON table1.id = table2.id;

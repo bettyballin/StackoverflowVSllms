@@ -1,0 +1,1 @@
+SELECT GROUP_CONCAT(value ORDER BY id SEPARATOR ', ') AS concatenated_values\nFROM simpleTable;

@@ -1,0 +1,1 @@
+CREATE TABLE ExampleTable (\n    ID INT PRIMARY KEY,\n    IsActive BIT NOT NULL\n);\n\n-- Inserting data\nINSERT INTO ExampleTable (ID, IsActive) VALUES (1, 1); -- 1 for true\nINSERT INTO ExampleTable (ID, IsActive) VALUES (2, 0); -- 0 for false\n\n-- Querying data\nSELECT * FROM ExampleTable WHERE IsActive = 1;

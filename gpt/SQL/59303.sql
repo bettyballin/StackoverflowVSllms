@@ -1,0 +1,1 @@
+SELECT \n    CEIL(row_number / 10.0) AS page_number\nFROM \n    SortedPosts\nWHERE \n    id = :post_id AND topic_id = :topic_id;

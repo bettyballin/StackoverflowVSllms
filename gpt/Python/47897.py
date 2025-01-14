@@ -1,0 +1,1 @@
+from lxml import etree\n\nxml = '''\n<a b="value">\n    <b/>\n</a>\n'''\n\ntree = etree.fromstring(xml)\nresult = tree.xpath('//b/parent::a[@b]')\n\nfor element in result:\n    print(etree.tostring(element).decode())

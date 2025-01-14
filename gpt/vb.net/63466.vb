@@ -1,0 +1,1 @@
+Dim ee = From e In someXML.<Employee>\n         Select New With {.Surname = e.<Surname>.Value, .Forename = e.<Forename>.Value}

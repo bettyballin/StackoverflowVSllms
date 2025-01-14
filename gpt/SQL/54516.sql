@@ -1,0 +1,1 @@
+SELECT GROUP_CONCAT(CONCAT(FName, ' ', LName) SEPARATOR ', ') AS FullNames\nFROM Employees;

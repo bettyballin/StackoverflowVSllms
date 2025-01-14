@@ -1,0 +1,1 @@
+<?php\n// node-fund-print.tpl.php\n?>\n<div class="fund-print">\n  <?php print $title; ?>\n  <?php print $content; ?>\n</div>

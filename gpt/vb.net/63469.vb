@@ -1,0 +1,1 @@
+<STAThread()>\nPublic Sub YourTestMethod()\n    Dim ie8 As New IE("[some website]")\n    Login(ie8)\n    Logout(ie8)\nEnd Sub

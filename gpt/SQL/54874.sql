@@ -1,0 +1,1 @@
+CREATE FUNCTION varchar_bit_data_to_int (val VARCHAR(2) FOR BIT DATA)\n    RETURNS INTEGER\n    BEGIN\n        DECLARE v1 INTEGER;\n        DECLARE v2 INTEGER;\n        \n        SET v1 = ASCII(substr(val, 1, 1)) * 256;\n        SET v2 = ASCII(substr(val, 2, 1));\n        \n        RETURN v1 + v2;\n    END

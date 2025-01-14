@@ -1,0 +1,1 @@
+from fuzzywuzzy import fuzz\n\n    ratio = fuzz.ratio("node_name_1", "node_name_2")\n    print(ratio)

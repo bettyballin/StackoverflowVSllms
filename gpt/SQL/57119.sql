@@ -1,0 +1,1 @@
+UPDATE work\nSET kilometers = calc_kilo,\n    kilo_test = test_kilo\nWHERE lc = rm.lc\n  AND ld = rm.ld\n  AND NVL(le, 'DEFAULT_VALUE') = NVL(rm.le, 'DEFAULT_VALUE')\n  AND NVL(lf, 'DEFAULT_VALUE') = NVL(rm.lf, 'DEFAULT_VALUE')\n  AND code = rm.code\n  AND lcode = rm.lcode\n  AND user_id = username;

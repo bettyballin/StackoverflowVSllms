@@ -1,0 +1,1 @@
+Public Shared Function GetQuarter(ByVal fromDate As DateTime) As Integer\n    Return ((fromDate.Month - 1) \ 3) + 1\nEnd Functio

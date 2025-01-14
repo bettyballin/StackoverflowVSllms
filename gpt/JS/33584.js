@@ -1,0 +1,1 @@
+$(document).ajaxError(function(event, jqxhr, settings, exception) {\n       if (jqxhr.status === 401) { // 401 Unauthorized\n           window.location.href = '/Account/Login'; // Redirect to login page\n       }\n   });

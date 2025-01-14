@@ -1,0 +1,1 @@
+create or replace view meas_pnt as\nselect \n  ..., \n  TO_NUMBER(m.position.SDO_POINT.X, '9999999999.9999999999') as x_coordinate, \n  TO_NUMBER(m.position.SDO_POINT.Y, '9999999999.9999999999') as y_coordinate\nfrom \n  meas_pnt_tab m;

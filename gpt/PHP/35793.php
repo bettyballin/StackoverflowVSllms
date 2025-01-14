@@ -1,0 +1,1 @@
+$queryResult = mysql_query("SELECT post_date FROM your_table WHERE some_condition");\n    if (!$queryResult) {\n        die('Invalid query: ' . mysql_error());\n    }\n\n    $record = mysql_fetch_array($queryResult);\n    if ($record) {\n        echo $record['post_date'];\n    } else {\n        echo 'No data found';\n    }

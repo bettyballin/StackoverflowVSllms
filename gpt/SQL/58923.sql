@@ -1,0 +1,1 @@
+CREATE INDEX idx_customer_id ON customer_manufacturers(customer_id);\nCREATE INDEX idx_master_manufacturer_id ON customer_manufacturers(master_manufacturer_id);\nCREATE INDEX idx_master_model_id ON customer_models(master_model_id);\nCREATE INDEX idx_customer_model_id ON customer_models(customer_manufacturer_id);

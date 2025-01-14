@@ -1,0 +1,1 @@
+from django.db import models\n\nclass Client(models.Model):\n    ...\n    class Meta:\n        permissions = [\n            ("view_client_store", "Can view clients of their store"),\n            ("edit_client_store", "Can edit clients of their store"),\n            ("view_all_clients", "Can view all clients"),\n            ("edit_all_clients", "Can edit all clients"),\n        ]

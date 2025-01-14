@@ -1,0 +1,1 @@
+var someVar = (function () {\n  // Code to be executed immediately\n  return {\n    // some object or value\n  };\n}());

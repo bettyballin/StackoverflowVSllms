@@ -1,0 +1,1 @@
+if (!preg_match("/^[a-zA-Z0-9_]+$/", $username)) {\n    return true;\n}

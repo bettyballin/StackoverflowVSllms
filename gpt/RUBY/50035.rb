@@ -1,0 +1,1 @@
+Rails.application.routes.draw do\n  get 'users/upcoming_birthdays', to: 'users#upcoming_birthdays'\nend

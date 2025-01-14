@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nORDER BY some_column\nLIMIT @PageSize OFFSET @PageSize * (@PageNumber - 1);

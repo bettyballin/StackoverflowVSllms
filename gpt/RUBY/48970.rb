@@ -1,0 +1,1 @@
+rails generate migration AddSessionIdToTemporaryRecords session_id:string\n   rake db:migrate

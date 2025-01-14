@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $(".row .more").click(function(event) {\n        event.preventDefault(); // Prevent the default anchor behavior\n        $(this).closest('.row').find('.hidden').slideToggle("slow");\n    });\n});

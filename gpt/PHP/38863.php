@@ -1,0 +1,1 @@
+date_default_timezone_set('America/New_York');\n$actualDate = date('Y-m-d H:i:s');

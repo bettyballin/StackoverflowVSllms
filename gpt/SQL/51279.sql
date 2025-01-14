@@ -1,0 +1,1 @@
+CREATE VIEW my_view AS\nSELECT \n    t.a, \n    t.b, \n    z.x AS c\nFROM \n    table t\nLEFT JOIN \n    (SELECT x FROM z) z ON 1 = 1\nWHERE \n    ...;\n\n-- Then in your ASP.NET table adapter\nSELECT * FROM my_view;

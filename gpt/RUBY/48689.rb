@@ -1,0 +1,1 @@
+require 'docsplit'\nrequire 'mini_magick'\n\n# Convert a PDF to images\nDocsplit.extract_images('document.pdf', output: 'output_images')\n\n# Load the first page of the PDF as an image\nimage = MiniMagick::Image.open('output_images/document_1.png')\n\n# Create a thumbnail\nimage.resize "100x100"\nimage.write "thumbnail.png"\n\nputs "Thumbnail created at: thumbnail.png"

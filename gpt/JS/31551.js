@@ -1,0 +1,1 @@
+window.onbeforeunload = function() {\n       var xhr = new XMLHttpRequest();\n       xhr.open("POST", "/LogoutHandler.ashx", true);\n       xhr.send();\n   };

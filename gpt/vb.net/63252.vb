@@ -1,0 +1,1 @@
+Dim prodService = ObjectFactory.GetInstance(Of IProductService)()\nDim prod = prodService.GetProduct(1)\nprod.Name = "New Name"\nprodService.Save(prod)\n\nDim arrRelatedProds = prodService.GetRelatedProducts(prod.ProductID)

@@ -1,0 +1,1 @@
+DECLARE @columnName NVARCHAR(128);\nDECLARE @sql NVARCHAR(MAX);\n\n-- Assign the column name you want to select from\nSET @columnName = 'col_3';\n\n-- Construct the SQL query dynamically\nSET @sql = N'SELECT ' + QUOTENAME(@columnName) + ' FROM your_table_name WHERE <your_condition>';\n\n-- Execute the dynamic SQL\nEXEC sp_executesql @sql;

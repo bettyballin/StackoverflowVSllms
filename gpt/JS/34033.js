@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'GET',\n    url: "https://www.remote-url.com", // Use HTTPS if possible\n    dataType: 'html',\n    success: function(data) {\n        $('#put_here').empty().append(data);\n    },\n    error: function(xhr, status, error) {\n        console.error("An error occurred: " + status + " " + error);\n    }\n});

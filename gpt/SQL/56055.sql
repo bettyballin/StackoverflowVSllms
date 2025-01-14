@@ -1,0 +1,1 @@
+SELECT * FROM master \n   WHERE MATCH(name, address) AGAINST ('$input' IN NATURAL LANGUAGE MODE);

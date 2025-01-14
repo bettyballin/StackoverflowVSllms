@@ -1,0 +1,1 @@
+const express = require('express');\n   const cors = require('cors');\n   const app = express();\n\n   app.use(cors());\n\n   app.get('/your-endpoint', (req, res) => {\n     res.json({ message: 'This is CORS-enabled for all origins!' });\n   });\n\n   app.listen(3000, () => {\n     console.log('CORS-enabled web server listening on port 3000');\n   });

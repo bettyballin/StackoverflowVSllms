@@ -1,0 +1,1 @@
+CREATE PROCEDURE dbo.YourStoredProcedure\nWITH EXECUTE AS OWNER\nAS\nBEGIN\n    DECLARE @sql NVARCHAR(MAX)\n    SET @sql = N'SELECT * FROM dbo.listing_counter WHERE ...'  -- Your dynamic SQL here\n\n    EXEC sp_executesql @sql\nEND

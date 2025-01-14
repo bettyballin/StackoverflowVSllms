@@ -1,0 +1,1 @@
+ALTER TABLE your_table_name\nADD CONSTRAINT postcode_check\nCHECK (REGEXP_LIKE(postcode_column, '^[A-Z]{1,2}[0-9][0-9A-Z]?\s?[0-9][A-Z]{2}$'));

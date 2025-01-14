@@ -1,0 +1,1 @@
+$A = array(1, 2, 3, 4, 5, 6, 7, 8);\n$B = array(1, 2, 3, 4);\n\nforeach ($B as $value) {\n    if (($key = array_search($value, $A)) !== false) {\n        unset($A[$key]);\n    }\n}\n\n// Reindex the array to ensure numeric keys are consecutive\n$A = array_values($A); // $A now equals array(5, 6, 7, 8)

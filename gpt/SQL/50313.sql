@@ -1,0 +1,1 @@
+-- Check current setting\nEXEC sp_configure 'show advanced options', 1;\nRECONFIGURE;\nEXEC sp_configure 'max degree of parallelism';\n\n-- Set max degree of parallelism to 4\nEXEC sp_configure 'max degree of parallelism', 4;\nRECONFIGURE;

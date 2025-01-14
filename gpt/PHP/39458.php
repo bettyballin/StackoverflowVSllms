@@ -1,0 +1,1 @@
+$route = new Zend_Controller_Router_Route(\n    'controller/action/:id',\n    array(\n        'controller' => 'controller',\n        'action'     => 'action',\n        'id'         => null\n    )\n);\n$router->addRoute('myroute', $route);

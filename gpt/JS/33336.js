@@ -1,0 +1,1 @@
+// JavaScript\ndocument.getElementById('<%= foo.ClientID %>').style.color = 'red';

@@ -1,0 +1,1 @@
+SELECT * FROM table1 \nWHERE ID IN (SELECT ID FROM temp_ids);

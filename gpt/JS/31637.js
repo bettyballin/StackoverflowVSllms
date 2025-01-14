@@ -1,0 +1,1 @@
+myClassInstance.fetch('http://example.com/rss', function(response) {\n    // Process the response here\n    console.log(response);\n    // You can parse the RSS feed and do whatever you need with the response\n});

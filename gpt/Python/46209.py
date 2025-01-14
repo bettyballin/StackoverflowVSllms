@@ -1,0 +1,1 @@
+# documents/search.py\n    from elasticsearch import Elasticsearch\n\n    es = Elasticsearch()\n\n    def search_documents(query):\n        res = es.search(index="documents", body={"query": {"match": {"content": query}}})\n        return res['hits']['hits']

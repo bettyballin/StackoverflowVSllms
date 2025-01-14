@@ -1,0 +1,1 @@
+CREATE TRIGGER SetDateFormatOnLogin\nON ALL SERVER\nFOR LOGON\nAS\nBEGIN\n    IF ORIGINAL_LOGIN() = 'YourLoginName'\n    BEGIN\n        EXEC ('SET DATEFORMAT YMD;');\n    END\nEND;

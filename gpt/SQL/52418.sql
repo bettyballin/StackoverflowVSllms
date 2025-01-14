@@ -1,0 +1,1 @@
+SELECT * FROM your_table WHERE CAST(string_column AS UNSIGNED) = 17;

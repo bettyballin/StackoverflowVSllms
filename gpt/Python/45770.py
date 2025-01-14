@@ -1,0 +1,1 @@
+def load_query(file_path):\n       with open(file_path, 'r') as file:\n           return file.read()\n\n   query = load_query('path/to/your/query.sql')

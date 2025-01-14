@@ -1,0 +1,1 @@
+# Python script to replace 'foo' with 'bar' in a file\n  import fileinput\n\n  for line in fileinput.input('filename.txt', inplace=True):\n      print(line.replace('foo', 'bar'), end='')

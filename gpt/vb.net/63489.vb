@@ -1,0 +1,1 @@
+''' <summary>\n''' \n''' </summary>\n''' <param name="param1"></param>\n''' <param name="param2"></param>\nPrivate Function Foo(ByVal param1 As String, ByVal param2 As Integer)

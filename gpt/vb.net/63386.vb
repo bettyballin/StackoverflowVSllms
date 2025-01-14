@@ -1,0 +1,1 @@
+Dim fpQuery As IEnumerable(Of IInterface) = _\n    From dr As DataRow In DataLayer.SomeMethodToGetADataTable.AsEnumerable() _\n    Select New SomeClass(dr)\n\nDim fpQuery2 As IEnumerable(Of IInterface) = fpQuery.Cast(Of IInterface)()

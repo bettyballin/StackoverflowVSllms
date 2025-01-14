@@ -1,0 +1,1 @@
+// Set the locale\n     setlocale(LC_ALL, 'es_ES');\n     // Specify the location of the translation tables\n     bindtextdomain('myapp', './locale');\n     // Choose domain\n     textdomain('myapp');\n     // Translate a message\n     echo gettext('Hello, world!');

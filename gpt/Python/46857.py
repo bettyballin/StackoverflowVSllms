@@ -1,0 +1,1 @@
+element = etree.Element("element", key="value")\n    subelement = etree.SubElement(element, "subelement", attrib={"attr": "val"})\n\n    print(etree.tostring(element, pretty_print=True).decode())\n    # Outputs:\n    # <element key="value">\n    #   <subelement attr="val"/>\n    # </element>

@@ -1,0 +1,1 @@
+<?php echo $this->customUrl(array('blog_page' => 3), 'newsIndex'); ?>

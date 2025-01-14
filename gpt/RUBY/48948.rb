@@ -1,0 +1,1 @@
+rake db:export_to_yaml TABLE=your_table_name FILE=path/to/your_file.yml

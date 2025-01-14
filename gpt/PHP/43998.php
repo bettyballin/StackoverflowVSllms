@@ -1,0 +1,1 @@
+// main.php\ndefine('SECURE_INCLUDE', true);\n\n// Include another PHP file\ninclude 'included_file.php';

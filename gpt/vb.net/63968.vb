@@ -1,0 +1,1 @@
+Imports System.Web.Mvc\n\nPublic Class HomeController\n    Inherits Controller\n\n    Function Index() As ActionResult\n        ViewData("Message") = "Welcome to ASP.NET MVC with VB.NET!"\n        Return View()\n    End Function\n\n    Function About() As ActionResult\n        Return View()\n    End Function\nEnd Class

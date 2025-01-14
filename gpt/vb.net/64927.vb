@@ -1,0 +1,1 @@
+Public Class InheritedTest\n    Inherits Test\n\n    Public Sub New()\n        ' Access the C# class members\n        Me.A = 10\n        Me.a_lower = 20 ' Access the renamed member\n    End Sub\nEnd Class

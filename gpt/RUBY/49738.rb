@@ -1,0 +1,1 @@
+require 'soap/wsdlDriver'\n\nwsdl_url = 'https://yourserver.example.com:1234/?wsdl'\nclient = SOAP::WSDLDriverFactory.new(wsdl_url).create_rpc_driver\n\nclient.options["protocol.http.ssl_config.verify_mode"] = OpenSSL::SSL::VERIFY_NONE\n\nbegin\n  result = client.some_method\n  puts result\nrescue => e\n  puts "Error: #{e.message}"\nend

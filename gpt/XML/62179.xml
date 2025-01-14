@@ -1,0 +1,1 @@
+<configuration>\n      <system.web>\n        <pages enableEventValidation="true" />\n      </system.web>\n    </configuration>

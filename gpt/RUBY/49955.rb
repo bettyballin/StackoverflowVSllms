@@ -1,0 +1,1 @@
+def create\n     @image = Image.new(image_params)\n\n     if @image.save \n       redirect_to image_url(@image)\n     else\n       flash[:notice] = 'Your image did not pass validation.'\n       render :action => 'new'\n     end\n   end

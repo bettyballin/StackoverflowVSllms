@@ -1,0 +1,1 @@
+const AWS = require('aws-sdk');\n   const dynamoDB = new AWS.DynamoDB.DocumentClient();\n\n   // Adding user1\n   dynamoDB.put({\n      TableName: "users",\n      Item: { id: "1", firstName: "Allain" }\n   }).promise();\n\n   // Adding user2\n   dynamoDB.put({\n      TableName: "users",\n      Item: { id: "2", firstName: "Bob", lastName: "Loblaw" }\n   }).promise();

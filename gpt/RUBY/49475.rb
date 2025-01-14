@@ -1,0 +1,1 @@
+class Comment < ApplicationRecord\n  before_save :sanitize_content\n\n  private\n\n  def sanitize_content\n    self.content = Sanitize.fragment(content, Sanitize::Config::CUSTOM)\n  end\nend

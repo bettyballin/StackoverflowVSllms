@@ -1,0 +1,1 @@
+RESTORE HEADERONLY FROM DISK = 'C:\path\to\your\backupfile.bak';

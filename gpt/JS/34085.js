@@ -1,0 +1,1 @@
+// JavaScript snippet to share a file in Google Drive\nfunction shareFile(fileId, emailAddress) {\n    var file = DriveApp.getFileById(fileId);\n    file.addEditor(emailAddress);\n    Logger.log('File shared with ' + emailAddress);\n}\n\n// To invoke the function\nshareFile('your-file-id', 'user@example.com');

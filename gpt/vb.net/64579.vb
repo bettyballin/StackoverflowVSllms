@@ -1,0 +1,1 @@
+<%\nResponse.Cookies("ASPSESSIONID") = ""\nResponse.Cookies("ASPSESSIONID").Expires = DateAdd("d", -1, Now())\n%>

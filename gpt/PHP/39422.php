@@ -1,0 +1,1 @@
+<!-- application/controllers/YourController.php -->\n<?php\nclass YourController extends CI_Controller {\n    public function homepage() {\n        $data['title'] = 'Homepage';\n        $data['content'] = $this->load->view('homepage_content', NULL, TRUE);\n        $this->load->view('layouts/master', $data);\n    }\n}\n?>

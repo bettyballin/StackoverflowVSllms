@@ -1,0 +1,1 @@
+function makewindows(html) {\n    // Parse the JSON string back to HTML\n    var parsedHtml = JSON.parse(html);\n    \n    var childWindow = window.open("about:blank");\n    childWindow.document.write(parsedHtml);\n    childWindow.document.close();\n}

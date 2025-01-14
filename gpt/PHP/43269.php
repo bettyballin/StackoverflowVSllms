@@ -1,0 +1,1 @@
+// Example of unsetting large session variables\nunset($_SESSION['large_variable']);\n\n// Example of unsetting large local variables\nunset($large_variable);

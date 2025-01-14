@@ -1,0 +1,1 @@
+INSERT INTO documents (id, title, content) VALUES (1, 'First Document', 'This is the content of the first document.');\nINSERT INTO documents (id, title, content) VALUES (2, 'Second Document', 'This is the content of the second document.');

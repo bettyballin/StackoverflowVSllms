@@ -1,0 +1,1 @@
+// Register a trigger\n   register_trigger('onPageLoad', function($data) {\n       // Handle the trigger\n       echo "Page Loaded with data: " . $data;\n   });\n\n   // Call the trigger\n   trigger('onPageLoad', 'example data');

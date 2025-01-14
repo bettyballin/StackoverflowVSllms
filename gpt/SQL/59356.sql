@@ -1,0 +1,1 @@
+SELECT \n    your_columns,\n    ROW_NUMBER() OVER (ORDER BY your_sort_columns) AS sorted_row_num\nFROM \n    your_table\nGROUP BY \n    your_group_by_columns\nORDER BY \n    your_sort_columns;

@@ -1,0 +1,1 @@
+SELECT NEXT VALUE FOR supplier_seq;

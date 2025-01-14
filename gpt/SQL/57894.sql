@@ -1,0 +1,1 @@
+-- Example of rebuilding indexes\nALTER INDEX ALL ON LogEntries REBUILD;\nALTER INDEX ALL ON ArchiveLogEntries REBUILD;

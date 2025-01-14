@@ -1,0 +1,1 @@
+// Insecure query prone to SQL injection\nmysql_query("SELECT important_data FROM users WHERE password = '$password'");

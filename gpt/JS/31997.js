@@ -1,0 +1,1 @@
+fetch('/api/script')\n  .then(response => response.text())\n  .then(script => {\n    // Dangerous: executing raw script\n    eval(script);\n  });

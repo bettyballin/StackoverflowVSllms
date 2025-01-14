@@ -1,0 +1,1 @@
+from logger import log\n\ndef some_function():\n    log("This is a log message from AppOne.")

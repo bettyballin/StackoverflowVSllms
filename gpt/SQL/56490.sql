@@ -1,0 +1,1 @@
+CREATE TABLE your_table_temp AS\n    SELECT DISTINCT * FROM your_table;

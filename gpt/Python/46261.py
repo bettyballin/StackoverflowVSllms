@@ -1,0 +1,1 @@
+def strip_whitespace(text):\n    return re.sub(r'\s+', '', text)\n\ndef detect_urls_with_whitespace_handling(text):\n    stripped_text = strip_whitespace(text)\n    return detect_urls(stripped_text)\n\n# Example usage\ntext_with_spaces = "Visit www .example .com for more info."\ndetected_urls = detect_urls_with_whitespace_handling(text_with_spaces)\nprint(detected_urls)

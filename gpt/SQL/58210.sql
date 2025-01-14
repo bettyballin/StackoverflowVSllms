@@ -1,0 +1,1 @@
+DECLARE\n  v_index_count NUMBER;\nBEGIN\n  SELECT COUNT(*)\n  INTO v_index_count\n  FROM ALL_IND_COLUMNS\n  WHERE TABLE_NAME = 'EMPLOYEES'\n    AND COLUMN_NAME = 'EMPLOYEE_ID'\n    AND TABLE_OWNER = 'HR';\n\n  IF v_index_count = 0 THEN\n    EXECUTE IMMEDIATE 'CREATE INDEX idx_emp_employee_id ON EMPLOYEES (EMPLOYEE_ID)';\n  END IF;\nEND;\n/

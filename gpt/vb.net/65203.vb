@@ -1,0 +1,1 @@
+Public Interface ICalculation\n       Function Execute(numbers As List(Of Double)) As Double\n   End Interface

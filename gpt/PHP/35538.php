@@ -1,0 +1,1 @@
+$svnRev = exec('svnversion');\necho "SVN Revision: " . $svnRev;

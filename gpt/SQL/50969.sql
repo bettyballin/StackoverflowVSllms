@@ -1,0 +1,1 @@
+SELECT AVG(column_name) AS average_value\nFROM table_name;

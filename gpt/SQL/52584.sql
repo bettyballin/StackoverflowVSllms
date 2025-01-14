@@ -1,0 +1,1 @@
+CREATE TABLE Staging.Raw_Sales (\n       TransactionID INT,\n       ProductID INT,\n       Quantity INT,\n       SaleDate DATE,\n       ...\n   );

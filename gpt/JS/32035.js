@@ -1,0 +1,1 @@
+tinymce.init({\n  selector: 'textarea', // Replace this with your selector\n  convert_urls: false,\n  relative_urls: false,\n  // Other TinyMCE options\n});

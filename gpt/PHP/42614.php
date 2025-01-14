@@ -1,0 +1,1 @@
+// Convert UTC time to local time after retrieving from the database\n   $utcTime = new DateTime($utcTimeString, new DateTimeZone('UTC'));\n   $localTime = $utcTime->setTimezone(new DateTimeZone('America/New_York'));\n   $localTimeString = $localTime->format('Y-m-d H:i:s');\n   \n   // Use $localTimeString in your applicatio

@@ -1,0 +1,1 @@
+def display_message():\n    print("Hello, World!")\n\ndisplay_message()

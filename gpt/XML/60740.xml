@@ -1,0 +1,1 @@
+<sun-ejb-jar>\n  <enterprise-beans>\n    <ejb>\n      <ejb-name>YourStatefulBean</ejb-name>\n      <pool>\n        <max-beans-in-free-pool>1</max-beans-in-free-pool>\n      </pool>\n    </ejb>\n  </enterprise-beans>\n</sun-ejb-jar>

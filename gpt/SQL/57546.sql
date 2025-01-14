@@ -1,0 +1,1 @@
+IF OBJECT_ID('tempdb..#YourTempTable') IS NOT NULL\nBEGIN\n    DROP TABLE #YourTempTable;\nEND

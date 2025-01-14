@@ -1,0 +1,1 @@
+$key = 'jim';\n\n   // Example 1\n   if (isset($array[$key])) {\n       // Key exists and value is not null\n   }

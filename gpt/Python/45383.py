@@ -1,0 +1,1 @@
+import <module_name>\nprint(<module_name>.__file__)

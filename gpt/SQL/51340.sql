@@ -1,0 +1,1 @@
+CREATE TABLE Panels (\n    PanelID INT PRIMARY KEY,\n    PanelName NVARCHAR(100)\n);\n\nCREATE TABLE Fields (\n    FieldID INT PRIMARY KEY,\n    PanelID INT,\n    FieldName NVARCHAR(100),\n    FieldType NVARCHAR(50),\n    FOREIGN KEY (PanelID) REFERENCES Panels(PanelID)\n);

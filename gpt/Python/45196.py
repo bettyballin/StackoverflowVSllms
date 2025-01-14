@@ -1,0 +1,1 @@
+data = some_socket.recv(1024)

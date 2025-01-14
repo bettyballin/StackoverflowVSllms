@@ -1,0 +1,1 @@
+Public Class BaseClass\n    Public Sub Display()\n        Console.WriteLine("BaseClass Display")\n    End Sub\nEnd Class\n\nPublic Class DerivedClass\n    Inherits BaseClass\n\n    Public Shadows Sub Display()\n        Console.WriteLine("DerivedClass Display")\n    End Sub\nEnd Class

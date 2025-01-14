@@ -1,0 +1,1 @@
+CREATE TABLE t1 (foo int);\nCREATE TABLE t2 (id int IDENTITY, foo int);\nCREATE TABLE t3 (t2_id int);\n\nGO\n\nCREATE TRIGGER t1_insert_trg ON t1\nFOR INSERT\nAS\nBEGIN\n    SET NOCOUNT ON;\n\n    INSERT INTO t2 (foo)\n    OUTPUT inserted.id INTO t3 (t2_id)\n    SELECT foo\n    FROM inserted;\nEND\nGO

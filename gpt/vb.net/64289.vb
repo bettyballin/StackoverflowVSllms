@@ -1,0 +1,1 @@
+Public Class ExampleClass\n    ' Member variable with m_ prefix\n    Private m_MemberVariable As String\n\n    Public Sub ExampleMethod()\n        ' Local variable using camel case\n        Dim localVariable As String\n\n        ' Assigning values\n        m_MemberVariable = "This is a member variable"\n        localVariable = "This is a local variable"\n    End Sub\nEnd Class

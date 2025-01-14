@@ -1,0 +1,1 @@
+$query = $mysqli->query('SELECT * FROM `people` ORDER BY `name` ASC LIMIT 0,30');\n\n// Example 1: Reassigning variable\n$query = $query->fetch_assoc();\n\n// Example 2: Freeing memory explicitly\n$query_r = $query->fetch_assoc();\n$query->free();

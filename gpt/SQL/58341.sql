@@ -1,0 +1,1 @@
+SELECT title1 || title2 || title3 AS concatenated_title\nFROM your_table;

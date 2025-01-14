@@ -1,0 +1,1 @@
+SELECT \n    c.id AS ContactID,\n    c.ContactName as ForeName,\n    x.value('(contact/refno)[1]', 'VARCHAR(40)') as ref\nFROM \n    Contacts c\n    CROSS APPLY c.xmlvaluesn.nodes('/contact') AS Contacts(x)\n    INNER JOIN ParticipantContactMap pcm ON c.id = pcm.contactid \nWHERE \n    pcm.participantid = 2140\n    AND x.exist('/contact[refno = "118985"]') = 1;

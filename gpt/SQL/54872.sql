@@ -1,0 +1,1 @@
+-- Convert integer to varchar for bit data\nVALUES int_to_varchar_bit_data(65535); -- This should return X'FFFF'\n\n-- Convert varchar for bit data back to integer\nVALUES varchar_bit_data_to_int(X'FFFF'); -- This should return 65535

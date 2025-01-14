@@ -1,0 +1,1 @@
+CREATE TEMPORARY TABLE temp_ids AS\nSELECT v.id\nFROM myview v\nWHERE ...;\n\nUPDATE mytable t\nSET t.f = 'blah'\nWHERE t.id IN (SELECT id FROM temp_ids);\n\nDROP TEMPORARY TABLE temp_ids;

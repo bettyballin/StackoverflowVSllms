@@ -1,0 +1,1 @@
+if ($variable != NULL) {\n       // Executes if $variable is not NULL\n   }

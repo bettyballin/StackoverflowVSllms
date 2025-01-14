@@ -1,0 +1,1 @@
+def maker(N):\n    def action(X):\n        return X * N\n    return action\n\nmultiply_by_3 = maker(3)\nprint(multiply_by_3(10))  # Output: 30

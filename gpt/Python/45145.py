@@ -1,0 +1,1 @@
+import plivo\n\n     client = plivo.RestClient(auth_id='your_auth_id', auth_token='your_auth_token')\n\n     response = client.messages.create(\n         src='your_source_number',\n         dst='destination_number',\n         text='Hello, this is a test message'\n     )\n\n     print(response)

@@ -1,0 +1,1 @@
+INSERT INTO Users (ID, Name) VALUES\n(1, 'Bill'),\n(2, 'Charles'),\n(3, 'Clare');\n\nINSERT INTO Friendships (UserID, FriendID) VALUES\n(1, 2),\n(1, 3),\n(2, 1),\n(2, 3),\n(3, 1);

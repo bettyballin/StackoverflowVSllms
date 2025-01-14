@@ -1,0 +1,1 @@
+SELECT \n    employee_id,\n    salary,\n    SUM(salary) OVER (ORDER BY employee_id) AS running_total\nFROM \n    employees;

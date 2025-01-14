@@ -1,0 +1,1 @@
+#!/usr/bin/php\n<?php\nclass foo {\n    function bar() {\n        return true;\n    }\n}\n\n$a = new foo();\nif (true && $a && $a->bar()) {\n    echo "true";\n} else {\n    echo "false";\n}

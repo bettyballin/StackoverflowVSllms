@@ -1,0 +1,1 @@
+-- Assuming 'InvoicesXml' is an XML column in the 'Invoices' table\nCREATE PRIMARY XML INDEX PIdx_InvoicesXml ON Invoices(InvoicesXml);\nCREATE XML INDEX SIdx_InvoicesXml ON Invoices(InvoicesXml) USING XML INDEX PIdx_InvoicesXml FOR PATH;

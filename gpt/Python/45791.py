@@ -1,0 +1,1 @@
+import binascii\n    value = b"\xff\x00\xff\x00"\n    hex_value = binascii.hexlify(value).decode('ascii')\n    self.connection.execute("INSERT INTO bin_test (b) VALUES (hextoraw(?))", (hex_value,))

@@ -1,0 +1,1 @@
+CREATE INDEX idx_session ON views(session);

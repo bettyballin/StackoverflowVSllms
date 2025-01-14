@@ -1,0 +1,1 @@
+class Bootstrap extends Zend_Application_Bootstrap_Bootstrap {\n    protected function _initAutoload() {\n        spl_autoload_register(array('MyAutoloader', 'autoload'));\n    }\n}

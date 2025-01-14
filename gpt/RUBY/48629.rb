@@ -1,0 +1,1 @@
+FactoryBot.define do\n     factory :user do\n       # User attributes\n       after(:create) do |user|\n         # Create initial objects if needed\n         Notebook.create(user: user)\n         Pen.create(user: user)\n       end\n     end\n   end

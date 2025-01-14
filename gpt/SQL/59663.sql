@@ -1,0 +1,1 @@
+SELECT * FROM widget\nWHERE name COLLATE SQL_Latin1_General_CP1_CI_AS >= 'ba'\nAND name COLLATE SQL_Latin1_General_CP1_CI_AS < 'bj'

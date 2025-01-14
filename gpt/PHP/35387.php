@@ -1,0 +1,1 @@
+<?php\n// Define the file path\n$file_path = realpath('../../files/zip.zip');\n\n// Check if the file exists\nif (file_exists($file_path)) {\n    header('Content-disposition: attachment; filename=zip.zip');\n    header('Content-type: application/zip');\n    readfile($file_path);\n    exit;\n} else {\n    echo "File not found.";\n}\n?>

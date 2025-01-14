@@ -1,0 +1,1 @@
+' This should be called, for example, in the Page_Load or similar\n    AddHandler DataGrid.ItemDataBound, AddressOf DataGrid_ItemDataBound

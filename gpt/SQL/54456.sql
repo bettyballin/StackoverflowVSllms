@@ -1,0 +1,1 @@
+SELECT U.userid, \n       (SELECT COUNT(*) \n        FROM usersgroup UG \n        WHERE UG.userid = U.userid) AS groups_in\nFROM tbl_users U

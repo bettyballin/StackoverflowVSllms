@@ -1,0 +1,1 @@
+var $j = jQuery.noConflict();\n   $j(document).ready(function() {\n       // Your jQuery code using $j instead of $\n       $j("#myElement").click(function() {\n           alert("Element clicked!");\n       });\n   });

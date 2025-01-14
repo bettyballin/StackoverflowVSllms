@@ -1,0 +1,1 @@
+<?php\n$array = [1, 2, 2, 3, 4, 4, 5];\n$uniqueArray = array_unique($array);\n\nforeach ($uniqueArray as $key => $value) {\n    echo "Key: $key; Value: $value\n";\n}\n?>

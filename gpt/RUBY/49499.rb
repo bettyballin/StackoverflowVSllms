@@ -1,0 +1,1 @@
+require 'benchmark'\n\n   time = Benchmark.measure do\n     # Your code here\n   end\n\n   puts time

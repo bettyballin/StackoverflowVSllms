@@ -1,0 +1,1 @@
+def create\n     @image = Image.new(params[:image])\n\n     if @image.save \n       Rails.logger.debug "Redirecting to image_url with ID: #{@image.id}"\n       redirect_to image_url(@image)\n     else\n       flash[:notice] = 'Your image did not pass validation.'\n       render :action => 'new'\n     end\n   end

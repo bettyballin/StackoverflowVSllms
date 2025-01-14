@@ -1,0 +1,1 @@
+EXEC sp_addpublication_snapshot \n       @publication = 'YourPublicationName', \n       @frequency_type = 1; -- Run snapshot agent once

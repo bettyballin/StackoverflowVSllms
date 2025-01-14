@@ -1,0 +1,1 @@
+DECLARE @weekNumber INT = 1\nDECLARE @year INT = 2009\n\n-- Calculate the Start Date\nDECLARE @startDate DATE = DATEADD(WEEK, @weekNumber - 1, DATEADD(YEAR, @year - 1900, 0) - DATEPART(WEEKDAY, DATEADD(YEAR, @year - 1900, 0)) + 1)\n\n-- Calculate the End Date\nDECLARE @endDate DATE = DATEADD(DAY, 6, @startDate)\n\nSELECT @startDate AS StartDate, @endDate AS EndDate

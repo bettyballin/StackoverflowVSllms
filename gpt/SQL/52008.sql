@@ -1,0 +1,1 @@
+SELECT \n    DateOfBirth,\n    FLOOR(DATEDIFF(DAY, DateOfBirth, GETDATE()) / 365.25) AS Age\nFROM \n    YourTableName;

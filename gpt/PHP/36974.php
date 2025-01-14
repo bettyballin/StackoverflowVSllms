@@ -1,0 +1,1 @@
+$output = null;\n$return_var = null;\nexec('wget --no-cache -O - http://www.iac.ethz.ch/php/chn_meteo_roof/', $output, $return_var);\n\nif ($return_var === 0) {\n    $fileContents = implode("\n", $output);\n    // Process the file contents\n    echo $fileContents;\n} else {\n    // Handle error\n}

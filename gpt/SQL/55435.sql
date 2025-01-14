@@ -1,0 +1,1 @@
+-- Assuming you are using SQL Server\nCREATE INDEX idx_bit_column ON your_table_name (c);

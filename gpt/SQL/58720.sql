@@ -1,0 +1,1 @@
+CREATE TABLE ExampleTable (\n    Id int,\n    Value int\n);

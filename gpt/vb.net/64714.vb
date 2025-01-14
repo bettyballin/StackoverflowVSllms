@@ -1,0 +1,1 @@
+Private Sub QResultButton_Click()\n    DoCmd.OpenQuery "Readings2009", acViewNormal, acReadOnly\nEnd Sub

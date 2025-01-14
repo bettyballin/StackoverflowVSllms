@@ -1,0 +1,1 @@
+UPDATE Product_Attribute SET is_deleted = FALSE WHERE id = :attribute_id;

@@ -1,0 +1,1 @@
+Public Class HomeController\n    Inherits System.Web.Mvc.Controller\n\n    Function Index() As ActionResult\n        Dim myPortfolio As New Defaultdb()\n        Dim projectsList As List(Of portfolio_project) = myPortfolio.getProjects()\n        Return PartialView("_IndexProjects", projectsList)\n    End Function\nEnd Class

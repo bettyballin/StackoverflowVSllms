@@ -1,0 +1,1 @@
+$requestedFile = $_SERVER['SCRIPT_NAME'];\necho $requestedFile;

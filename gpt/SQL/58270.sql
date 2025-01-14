@@ -1,0 +1,1 @@
+-- Refactored example from CURSOR to set-based operation\n    UPDATE employees\n    SET salary = salary * 1.10\n    WHERE performance_rating = 'Excellent';

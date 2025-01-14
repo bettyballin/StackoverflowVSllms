@@ -1,0 +1,1 @@
+$input = $_POST['user_input'];\n$sanitized_input = filter_var($input, FILTER_SANITIZE_STRING);\n$escaped_input = mysql_real_escape_string($sanitized_input);\n\n// Now $escaped_input can be safely used in an SQL query

@@ -1,0 +1,1 @@
+$uip = 'some_ip_address'; // Replace with the actual IP address\n$tim = date('Y-m-d H:i:s', time());\n\nmysql_query("REPLACE INTO users SET ip = '$uip', lastcheck = '$tim'") or throwerror("part2 ".mysql_error());

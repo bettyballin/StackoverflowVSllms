@@ -1,0 +1,1 @@
+function domainname($link) {\n    $parsedUrl = parse_url($link);\n    return isset($parsedUrl['host']) ? $parsedUrl['host'] : '';\n}\n\necho domainname("http://example.com/index.html?a=123%1231");

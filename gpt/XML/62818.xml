@@ -1,0 +1,1 @@
+<configuration>\n       <system.web>\n           <globalization\n               requestEncoding="utf-8"\n               responseEncoding="utf-8"\n               fileEncoding="utf-8"\n               culture="auto"\n               uiCulture="auto" />\n       </system.web>\n   </configuration>

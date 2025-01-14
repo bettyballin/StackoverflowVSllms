@@ -1,0 +1,1 @@
+// Example in PHP with Doctrine\n   $user = new User();\n   $user->setName('Fred');\n   $entityManager->persist(user);\n   $entityManager->flush();

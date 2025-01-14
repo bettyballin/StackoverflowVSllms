@@ -1,0 +1,1 @@
+const xhr = new XMLHttpRequest();\nxhr.open("POST", "your_server_endpoint", true);\nxhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");\nxhr.send("your_data=" + encodeURIComponent(your_data));

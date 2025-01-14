@@ -1,0 +1,1 @@
+class YourController < ApplicationController\n  skip_before_action :verify_authenticity_token\n  \n  # your actions here\nend

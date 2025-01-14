@@ -1,0 +1,1 @@
+WITH RECURSIVE connections AS (\n  SELECT user1 AS start_user, user2 AS connected_user, 1 AS depth\n  FROM user_connections\n  WHERE user1 = 'YOU'\n  UNION ALL\n  SELECT c.start_user, uc.user2, c.depth + 1\n  FROM connections c\n  JOIN user_connections uc ON c.connected_user = uc.user1\n)\nSELECT * FROM connections WHERE connected_user = 'Person Z';

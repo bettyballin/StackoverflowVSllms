@@ -1,0 +1,1 @@
+<?php\n$var = 5; // binary: 101\n$result = $var & 1; // binary: 001, result: 1 (true)\n\n$var = 4; // binary: 100\n$result = $var & 1; // binary: 000, result: 0 (false)\n?>

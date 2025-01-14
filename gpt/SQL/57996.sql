@@ -1,0 +1,1 @@
+-- Release jobs that have been claimed for more than 30 minutes\nUPDATE tbl\nSET owner = NULL, available = TRUE\nWHERE claimed_at < NOW() - INTERVAL 30 MINUTE;

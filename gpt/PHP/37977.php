@@ -1,0 +1,1 @@
+$gate = "00332";\n$this->_gate = $this->_linkID->QuoteSmart($gate); // Keep it as a string to preserve leading zeros

@@ -1,0 +1,1 @@
+public $debug = '1';\n   public $error_reporting = 'maximum';

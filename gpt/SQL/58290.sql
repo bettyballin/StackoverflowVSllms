@@ -1,0 +1,1 @@
+USE master;\n    DROP LOGIN LimitedAccessLogin;\n    DROP CERTIFICATE LimitedAccessCert;

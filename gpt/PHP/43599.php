@@ -1,0 +1,1 @@
+function someFunction() {\n    try {\n        User::loginRequired();\n        // Rest of the function code\n    } catch (LoginRequiredException $e) {\n        return; // Exit the function if the user is not logged in\n    }\n}

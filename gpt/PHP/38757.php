@@ -1,0 +1,1 @@
+class MyClass {\n    // Your class properties and methods\n}\n\n$obj1 = new MyClass();\n$obj2 = new MyClass();\n\necho "Object 1 ID: " . spl_object_hash($obj1) . PHP_EOL;\necho "Object 2 ID: " . spl_object_hash($obj2) . PHP_EOL;

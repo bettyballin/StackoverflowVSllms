@@ -1,0 +1,1 @@
+SELECT p.id, p.name\nFROM products p\nINNER JOIN properties attr1 ON p.id = attr1.product_id AND attr1.property = 'gender' AND attr1.value = 'male'\nINNER JOIN properties attr2 ON p.id = attr2.product_id AND attr2.property = 'brand' AND attr2.value = 'nike'\nINNER JOIN options opt ON p.id = opt.product_id AND opt.property = 'size' AND opt.value = 'small';

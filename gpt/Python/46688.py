@@ -1,0 +1,1 @@
+text = "my_name_is_fred"\n\n# Converting to PascalCase\npascal_case = to_pascal_case(text)\nprint("Pascal:", pascal_case)\n\n# Converting to camelCase\ncamel_case = to_camel_case(text)\nprint("Camel:", camel_case)

@@ -1,0 +1,1 @@
+CREATE SYNONYM [schema].[TableAlias] FOR [db1-development].[schema].[table];

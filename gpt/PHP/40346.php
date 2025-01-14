@@ -1,0 +1,1 @@
+$data = $this->$model_name->get();

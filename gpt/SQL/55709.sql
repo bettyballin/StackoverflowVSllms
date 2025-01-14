@@ -1,0 +1,1 @@
+-- Hash password\n   DECLARE @Password NVARCHAR(50) = 'UserPassword';\n   DECLARE @HashedPassword VARBINARY(8000);\n\n   SET @HashedPassword = HASHBYTES('SHA2_512', @Password);\n\n   -- Store @HashedPassword in the database

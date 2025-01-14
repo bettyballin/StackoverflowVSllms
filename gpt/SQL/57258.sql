@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTable\nWHERE CONTAINS(Address3, 'Street')

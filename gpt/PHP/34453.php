@@ -1,0 +1,1 @@
+<?php\n// Release the lock\n$sql = "UPDATE records SET locked_by = NULL, lock_time = NULL WHERE id = :id AND locked_by = :user_id";\n$stmt = $pdo->prepare($sql);\n$stmt->execute(['user_id' => $userId, 'id' => $recordId]);\n\nif ($stmt->rowCount() > 0) {\n    // Lock released successfully\n}\n?>

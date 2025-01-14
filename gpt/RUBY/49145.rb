@@ -1,0 +1,1 @@
+atom_feed do |feed|\n  @stories.each do |story|\n    feed.entry story do |entry|\n      entry.title story.title\n      entry.content "<b>foo</b>", type: 'html'\n    end\n  end\nend

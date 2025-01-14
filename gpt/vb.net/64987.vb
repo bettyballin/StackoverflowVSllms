@@ -1,0 +1,1 @@
+<MyCustomAttribute(GetType(SomeClassImplementingIInterface))>\nPublic Sub SomeMethod()\n    ' Method implementation\nEnd Sub

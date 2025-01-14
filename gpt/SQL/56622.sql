@@ -1,0 +1,1 @@
+GRANT EXECUTE ON [Admin].[STORED_PROC] TO [LimitedUser];

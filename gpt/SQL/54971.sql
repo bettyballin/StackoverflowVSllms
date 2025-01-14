@@ -1,0 +1,1 @@
+-- Good use of composite index\nCREATE INDEX idx_user_activity ON user_activity(user_id, activity_date);\n\n-- Avoid redundant composite index\nCREATE INDEX idx_user_activity_redundant ON user_activity(user_id, activity_date, activity_type);

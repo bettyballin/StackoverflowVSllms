@@ -1,0 +1,1 @@
+DECLARE @string VARCHAR(100)\nSET @string = 'sfdasadhfasjfdlsajflsadsadsdadsa'\n\nSELECT LEN(@string) - LEN(REPLACE(@string, 'd', ''))\nAS NumberOfOccurrences

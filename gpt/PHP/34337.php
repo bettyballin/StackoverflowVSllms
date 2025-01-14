@@ -1,0 +1,1 @@
+$line = "Some text with Ê in it.";\n$line = str_replace('Ê', '', $line);\necho $line;

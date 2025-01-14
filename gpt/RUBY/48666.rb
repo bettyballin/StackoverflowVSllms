@@ -1,0 +1,1 @@
+# Ensure the text is properly encoded in UTF-8\ntext = "C__O__?__P__L__E__T__E".encode('UTF-8', invalid: :replace, undef: :replace, replace: '')

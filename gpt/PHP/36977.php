@@ -1,0 +1,1 @@
+<?php\n// Get today's date\n$today = date('Y-m-d');\n\n// Get the date of last week's Tuesday\n$lastTuesday = date('Y-m-d', strtotime('last tuesday', strtotime($today)));\n\n// Output the result\necho "Last week's Tuesday date was: " . $lastTuesday;\n?>

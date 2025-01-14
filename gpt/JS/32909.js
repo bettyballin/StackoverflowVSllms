@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('.show-comments').on('click', function(event) {\n        event.preventDefault();\n        var newsId = $(this).data('id');\n        showhideComments(newsId);\n    });\n});

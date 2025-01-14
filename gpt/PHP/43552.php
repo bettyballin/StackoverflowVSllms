@@ -1,0 +1,1 @@
+use Symfony\Component\Form\Extension\Core\Type\TextType;\n   use Symfony\Component\Form\Extension\Core\Type\SubmitType;\n   use Symfony\Component\Form\Forms;\n\n   $formFactory = Forms::createFormFactory();\n   $form = $formFactory->createBuilder()\n       ->add('name', TextType::class)\n       ->add('save', SubmitType::class, ['label' => 'Submit'])\n       ->getForm();

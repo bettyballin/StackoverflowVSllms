@@ -1,0 +1,1 @@
+CREATE PROCEDURE dbo.UpdateTable\nAS\nBEGIN\n    -- SQL code for the specific task\n    UPDATE dbo.YourTable SET ColumnName = 'NewValue' WHERE Condition = 'SomeCondition';\nEND;\nGO\n\nGRANT EXECUTE ON dbo.UpdateTable TO [ClientUser];

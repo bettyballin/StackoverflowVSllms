@@ -1,0 +1,1 @@
+#!/usr/bin/php\n<?php\n// Your PHP code here

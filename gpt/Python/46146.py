@@ -1,0 +1,1 @@
+items_iterator = iter(my_dict.items())

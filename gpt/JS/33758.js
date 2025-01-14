@@ -1,0 +1,1 @@
+// Getting the value of an input element\n   var inputValue = $('#myInput').val();\n   \n   // Setting the value of an input element\n   $('#myInput').val('new value');

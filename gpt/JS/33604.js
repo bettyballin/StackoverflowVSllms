@@ -1,0 +1,1 @@
+function exampleFunction() {\n  console.time('exampleFunction');\n  // Your code to profile\n  console.timeEnd('exampleFunction');\n}\n\nexampleFunction();

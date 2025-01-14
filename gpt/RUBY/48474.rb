@@ -1,0 +1,1 @@
+class Employee < ActiveResource::Base\n  self.site = "http://example.com"\n\n  def save\n    if new?\n      self.class.site = "http://example.com/companies/#{self.company_id}"\n    else\n      self.class.site = "http://example.com"\n    end\n\n    super\n  ensure\n    self.class.site = "http://example.com"  # Reset site after save operation\n  end\nend

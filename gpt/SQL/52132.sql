@@ -1,0 +1,1 @@
+-- Using VALUES\nINSERT INTO table (a, b, c) VALUES (1, 2, 3);\n\n-- Using SET\nINSERT INTO table SET a = 1, b = 2, c = 3;

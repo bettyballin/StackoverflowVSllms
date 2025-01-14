@@ -1,0 +1,1 @@
+$itemRegex = "/item(35[5-9]|3[6-9][0-9]|4[0-9][0-9]|50[0-2])/";\n\n$string = "item355 item360 item499 item502 item503";\n\npreg_match_all($itemRegex, $string, $matches);\n\nprint_r($matches[0]);

@@ -1,0 +1,1 @@
+set_exception_handler(function ($exception) {\n         error_log($exception->getMessage());\n         http_response_code(500);\n         echo "An unexpected error occurred. Please try again later.";\n     });

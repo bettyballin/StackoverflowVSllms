@@ -1,0 +1,1 @@
+CREATE TABLE widgets (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(255) NOT NULL,\n    column_position INT NOT NULL,\n    display_order INT NOT NULL\n);

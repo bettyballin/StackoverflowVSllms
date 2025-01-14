@@ -1,0 +1,1 @@
+<A>\n    <id>1</id>\n    <name>Example A</name>\n    <Bs>\n        <B>\n            <link href="http://localhost/B/1" rel="b1"/>\n        </B>\n        <B>\n            <link href="http://localhost/B/2" rel="b2"/>\n        </B>\n    </Bs>\n</A>

@@ -1,0 +1,1 @@
+from bcrypt import hashpw, gensalt\n\npassword = b"super_secure_password"\nhashed = hashpw(password, gensalt())\n\nprint(hashed)

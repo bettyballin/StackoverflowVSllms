@@ -1,0 +1,1 @@
+var _specialVariable = "This is a special variable";\nvar $anotherSpecial = "This is another special variable";

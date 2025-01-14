@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX IX_ApprovalTaskID ON dbo.SomeOtherTable(SomeColumn);

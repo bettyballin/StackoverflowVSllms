@@ -1,0 +1,1 @@
+my_array = [1, 1, 1, 2, 4, 6, 3, 3]\n\nrepeated_elements = my_array.each_with_object(Hash.new(0)) { |element, counts| counts[element] += 1 }\n                             .select { |element, count| count > 1 }\n                             .keys\n\nputs repeated_elements

@@ -1,0 +1,1 @@
+CREATE TEMPORARY TABLE temp_b AS (SELECT id FROM b);\nSELECT a.* \nFROM a \nWHERE a.id IN (SELECT id FROM temp_b);

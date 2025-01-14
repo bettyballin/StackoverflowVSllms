@@ -1,0 +1,1 @@
+CREATE TABLE orders (\n         order_id INT PRIMARY KEY,\n         tenant_id INT,\n         order_details TEXT,\n         ...\n     );

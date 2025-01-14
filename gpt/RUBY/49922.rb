@@ -1,0 +1,1 @@
+resources :messages do\n  get 'new_messages', on: :collection\nend

@@ -1,0 +1,1 @@
+$filename = 'example.txt';\nif (preg_match('/^[^\/\?\*\:\;\{\}\\]+\.[^\/\?\*\:\;\{\}\\]+$/', $filename)) {\n    echo "Valid filename";\n} else {\n    echo "Invalid filename";\n}

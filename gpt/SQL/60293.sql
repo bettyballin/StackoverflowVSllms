@@ -1,0 +1,1 @@
+-- Execute the stored procedure with a search term\nEXEC GetSimilarArticles 'your search term';

@@ -1,0 +1,1 @@
+SELECT\n    customer_number,\n    LISTAGG(customer_name, ', ') WITHIN GROUP (ORDER BY customer_name) AS customer_names,\n    LISTAGG(customer_address, ', ') WITHIN GROUP (ORDER BY customer_address) AS customer_addresses\nFROM\n    customers\nGROUP BY\n    customer_number\nHAVING\n    COUNT(DISTINCT customer_name) = 1\n    AND COUNT(DISTINCT customer_address) = 1;

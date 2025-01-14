@@ -1,0 +1,1 @@
+Dim originalDate As String\nDim formattedDate As String\n\n' Example date in "MM/DD/YYYY" format\noriginalDate = "2/31/2006"\n\n' Convert the date to "DD-MMM-YYYY" format\nformattedDate = Format(CDate(originalDate), "DD-MMM-YYYY")\n\n' Print the formatted date\nDebug.Print formattedDate

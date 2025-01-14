@@ -1,0 +1,1 @@
+SELECT dbo.CheckWord('apple');  -- Returns 1 if the word exists, else 0

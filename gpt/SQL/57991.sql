@@ -1,0 +1,1 @@
+INSERT INTO tags (name, lft, rgt) VALUES\n   ('Electronics', 1, 12),\n   ('Computers', 2, 7),\n   ('Laptops', 3, 4),\n   ('Desktops', 5, 6),\n   ('Mobile Phones', 8, 11),\n   ('Smartphones', 9, 10);

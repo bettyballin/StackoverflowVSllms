@@ -1,0 +1,1 @@
+SELECT T.Post_ID AS ID, P.DATE, T.Title, P.Text\nFROM Top_Level T\nJOIN Post P ON T.Post_ID = P.ID\n\nUNION ALL\n\nSELECT C.TopLv_ID AS ID, P.DATE, T.Title, P.Text\nFROM Comment C\nJOIN Top_Level T ON C.TopLv_ID = T.Post_ID\nJOIN Post P ON T.Post_ID = P.ID\n\nORDER BY DATE DESC;

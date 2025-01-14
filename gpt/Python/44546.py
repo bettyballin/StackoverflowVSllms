@@ -1,0 +1,1 @@
+import subprocess\n\n# Detach the process from the parent\nsubprocess.Popen(\n    ["../bin/producenotify.py", "xx"],\n    env=os.environ,\n    stdout=subprocess.DEVNULL,\n    stderr=subprocess.DEVNULL,\n    preexec_fn=os.setpgrp\n)

@@ -1,0 +1,1 @@
+-- Create a table to hold the imported data\nCREATE TABLE YourDatabase.dbo.YourTable_YYYYMM (\n    -- Define your columns here\n);\n\n-- Import data from CSV file\nBULK INSERT YourDatabase.dbo.YourTable_YYYYMM\nFROM 'C:\Backup\YourTable_YYYYMM.csv'\nWITH (\n    FIELDTERMINATOR = ',',\n    ROWTERMINATOR = '\n'\n);

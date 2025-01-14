@@ -1,0 +1,1 @@
+CREATE PROCEDURE YourStoredProc\nWITH RECOMPILE\nAS\nBEGIN\n    -- Your SP code here\nEND

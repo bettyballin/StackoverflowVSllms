@@ -1,0 +1,1 @@
+<%= Html.RouteLink(Model.Name, "SomeRoute", New With { .id = Model.Id }) %>

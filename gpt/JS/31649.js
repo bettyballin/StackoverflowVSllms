@@ -1,0 +1,1 @@
+// Example in JavaScript using async/await\n    async function fetchData() {\n        let response = await fetch('https://api.example.com/data');\n        let data = await response.json();\n        console.log(data);\n    }\n\n    fetchData();

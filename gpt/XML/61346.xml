@@ -1,0 +1,1 @@
+<servlet>\n  <servlet-name>ArtsController</servlet-name>\n  <servlet-class>org.forstackoverflow.ArticlesController</servlet-class>\n</servlet>\n<servlet-mapping>\n  <servlet-name>ArtsController</servlet-name>\n  <url-pattern>/articles/*</url-pattern>\n</servlet-mapping>

@@ -1,0 +1,1 @@
+<?php\nfunction includeNavigation() {\n    echo '<nav>';\n    echo '<ul>';\n    echo '<li><a href="/index.php">Home</a></li>';\n    echo '<li><a href="/about.php">About</a></li>';\n    echo '<li><a href="/contact.php">Contact</a></li>';\n    echo '</ul>';\n    echo '</nav>';\n}

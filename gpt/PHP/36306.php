@@ -1,0 +1,1 @@
+'providers' => [\n        // Other service providers...\n        Collective\Html\HtmlServiceProvider::class,\n    ],\n\n    'aliases' => [\n        // Other aliases...\n        'Form' => Collective\Html\FormFacade::class,\n        'Html' => Collective\Html\HtmlFacade::class,\n    ],

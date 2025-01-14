@@ -1,0 +1,1 @@
+from flask import jsonify\n\n@app.route('/myendpoint')\ndef my_endpoint():\n    return jsonify(title="One", key="1")

@@ -1,0 +1,1 @@
+$acl->add(new Zend_Acl_Resource('announcement_gallery'), 'gallery');\n$acl->add(new Zend_Acl_Resource('exclusive_gallery'), 'announcement_gallery');

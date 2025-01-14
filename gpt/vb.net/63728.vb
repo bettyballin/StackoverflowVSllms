@@ -1,0 +1,1 @@
+<AttributeUsage(AttributeTargets.Property)>\nPublic Class MyCustomAttribute\n    Inherits Attribute\n\n    Public Property Description As String\n\n    Public Sub New(description As String)\n        Me.Description = description\n    End Sub\nEnd Class

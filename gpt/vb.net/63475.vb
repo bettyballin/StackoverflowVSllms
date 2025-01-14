@@ -1,0 +1,1 @@
+Private button1 As System.Windows.Forms.Button\n\nPrivate Sub OK_ButtonClick(sender As Object, e As EventArgs)\n    Me.DialogResult = System.Windows.Forms.DialogResult.OK\n    Me.Close()\nEnd Sub\n\nPrivate Sub InitializeComponent()\n    Me.button1 = New System.Windows.Forms.Button()\n    AddHandler Me.button1.Click, AddressOf Me.OK_ButtonClick\nEnd Sub

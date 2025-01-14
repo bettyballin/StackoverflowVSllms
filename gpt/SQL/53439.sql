@@ -1,0 +1,1 @@
+SELECT *\nFROM Tbl1\nJOIN Tbl2 \nON Tbl1.col1 = Tbl2.col1 AND Tbl1.col2 = Tbl2.col3;

@@ -1,0 +1,1 @@
+EXEC sp_addsrvrolemember 'your_domain\your_username', 'sysadmin';

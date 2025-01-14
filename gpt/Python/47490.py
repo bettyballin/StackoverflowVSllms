@@ -1,0 +1,1 @@
+# Example Locustfile for Locust\n   from locust import HttpUser, TaskSet, task\n\n   class UserBehavior(TaskSet):\n       @task\n       def my_task(self):\n           self.client.get("/my_endpoint")\n\n   class WebsiteUser(HttpUser):\n       tasks = [UserBehavior]\n       min_wait = 5000\n       max_wait = 9000

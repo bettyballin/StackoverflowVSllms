@@ -1,0 +1,1 @@
+Public Class MainApp\n    Public Sub Run()\n        Using _class As New SomeClass()\n            _class.SomeMethod()\n        End Using\n    End Sub\nEnd Class

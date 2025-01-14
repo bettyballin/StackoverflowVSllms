@@ -1,0 +1,1 @@
+BEGIN\n    EXECUTE IMMEDIATE 'ALTER TABLE YourTable ADD NewColumn NUMBER';\n    EXECUTE IMMEDIATE 'ALTER TABLE YourTable RENAME COLUMN OldColumn TO NewColumnName';\n    -- Add other schema changes here\n\n    COMMIT;\nEXCEPTION\n    WHEN OTHERS THEN\n        ROLLBACK;\n        -- Handle errors here (e.g., log the error, notify the user)\nEND;

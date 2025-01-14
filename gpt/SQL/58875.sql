@@ -1,0 +1,1 @@
+-- This query is likely to be faster if my_field is indexed\nWHERE my_field LIKE 'search%'\n\n-- This query is less likely to benefit from an index on my_field\nWHERE SUBSTR(my_field, 1, 6) = 'search'

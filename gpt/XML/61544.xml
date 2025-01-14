@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <rewrite>\n      <rules>\n        <rule name="RedirectStuff" stopProcessing="true">\n          <match url="^stuff/(.*)" />\n          <action type="Redirect" url="http://stuff.mysite.org.uk/{R:1}" redirectType="Permanent" appendQueryString="true" />\n        </rule>\n      </rules>\n    </rewrite>\n  </system.webServer>\n</configuration>

@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open("GET", "destination_page_url", true);\nxhr.setRequestHeader("X-Custom-Referer", "http://fake-referer.com");\nxhr.onreadystatechange = function () {\n    if (xhr.readyState === 4 && xhr.status === 200) {\n        console.log(xhr.responseText);\n    }\n};\nxhr.send();

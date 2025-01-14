@@ -1,0 +1,1 @@
+INSERT INTO your_table (column1, column2, column3, ...)\n    VALUES (:bind1_1, :bind1_2, :bind1_3, ...),\n           (:bind2_1, :bind2_2, :bind2_3, ...),\n           (:bind3_1, :bind3_2, :bind3_3, ...);

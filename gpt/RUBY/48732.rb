@@ -1,0 +1,1 @@
+<h1>Upcoming Birthdays</h1>\n<ul>\n  <% @upcoming_birthdays.each do |user| %>\n    <li><%= user.name %> - <%= user.date_of_birth.strftime("%B %d") %></li>\n  <% end %>\n</ul>

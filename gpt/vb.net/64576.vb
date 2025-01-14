@@ -1,0 +1,1 @@
+Dim o\nSet o = CreateObject("MyNamespace.MyClass")\nMsgBox o.Test()

@@ -1,0 +1,1 @@
+<h1><?= htmlspecialchars($title, ENT_QUOTES, 'UTF-8') ?></h1>\n<ul>\n  <?php foreach ($items as $item): ?>\n  <li><?= htmlspecialchars($item, ENT_QUOTES, 'UTF-8') ?></li>\n  <?php endforeach; ?>\n</ul>

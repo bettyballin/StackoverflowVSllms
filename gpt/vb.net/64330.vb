@@ -1,0 +1,1 @@
+Dim str As String = "this is " & vbCrLf & _\n                    "            some preformatted " & vbCrLf & _\n                    "            text"

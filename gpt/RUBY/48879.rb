@@ -1,0 +1,1 @@
+<% if approved then %>\n  <td>Flow Number</td>\n<% end %>

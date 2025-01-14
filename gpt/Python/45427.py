@@ -1,0 +1,1 @@
+from tasks import send_email, zip_files\n\n   send_email.delay({'to': 'user@example.com', 'subject': 'Hello'})\n   zip_files.delay(['/path/to/file1', '/path/to/file2'])

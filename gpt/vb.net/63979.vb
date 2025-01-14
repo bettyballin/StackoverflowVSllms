@@ -1,0 +1,1 @@
+' AssemblyInfo.vb\n<Assembly: CLSCompliant(False)>

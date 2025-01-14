@@ -1,0 +1,1 @@
+CREATE PROCEDURE MyStoredProcedure\n    @MyTableType MyCustomTableType READONLY\nAS\nBEGIN\n    SELECT * FROM @MyTableType\nEND

@@ -1,0 +1,1 @@
+Class Foo\n    Implements IBar\nEnd Class\n\nInterface IBar\nEnd Interface\n\nSub DoIt(ByVal l As List(Of IBar))\nEnd Sub\n\nSub Main()\n    Dim FooList As New List(Of Foo)\n    Dim IBarList As List(Of IBar) = FooList.Cast(Of IBar)().ToList()\n    DoIt(IBarList)\nEnd Sub

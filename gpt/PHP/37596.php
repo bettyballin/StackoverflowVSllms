@@ -1,0 +1,1 @@
+<?php if ($this->form->hasErrors()): ?>\n       <div class="errors">\n           <?php echo $this->form->getMessages(); ?>\n       </div>\n   <?php endif; ?>

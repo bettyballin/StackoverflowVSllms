@@ -1,0 +1,1 @@
+$str1 = 'Hello ';\n   $str2 = '{a}World!';\n   $output4 = str_replace('{a}', $str1, $str2);

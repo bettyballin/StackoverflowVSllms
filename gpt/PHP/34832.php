@@ -1,0 +1,1 @@
+class Cache {\n    public function __construct($source) {\n        // Determine if $source is a URL, file path, or a string\n        if (filter_var($source, FILTER_VALIDATE_URL)) {\n            // Handle URL\n        } elseif (is_file($source)) {\n            // Handle file path\n        } else {\n            // Handle string\n        }\n    }\n}

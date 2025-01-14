@@ -1,0 +1,1 @@
+WITH RandomNumbers AS\n(\n    SELECT TOP 10\n        ABS(CHECKSUM(NEWID())) % 100 AS Value  -- Generate a random number between 0 and 99\n    FROM\n        sys.objects a\n        CROSS JOIN sys.objects b\n)\nSELECT Value\nFROM RandomNumbers;

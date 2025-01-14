@@ -1,0 +1,1 @@
+# your_main_script.py\n\nimport os\n\ndef modify_hosts_file():\n    hosts_path = r"C:\Windows\System32\drivers\etc\hosts"\n    with open(hosts_path, 'a') as hosts_file:\n        hosts_file.write("\n# Added by Python script\n127.0.0.1 example.com\n")\n\nif __name__ == "__main__":\n    modify_hosts_file()

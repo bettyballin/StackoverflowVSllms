@@ -1,0 +1,1 @@
+// index.php (Front Controller)\n    require 'vendor/autoload.php';\n    \n    $router = new Router();\n    $router->dispatch($_SERVER['REQUEST_URI']);

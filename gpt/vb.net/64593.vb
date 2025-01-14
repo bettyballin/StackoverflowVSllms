@@ -1,0 +1,1 @@
+Imports CSharpLibrary\n\nModule VbNetModule\n    Sub Main()\n        Dim calculator As New Calculator()\n        Dim result As Integer = calculator.Add(5, 10)\n        Console.WriteLine("Result: " & result)\n    End Sub\nEnd Module

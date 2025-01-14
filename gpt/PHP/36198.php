@@ -1,0 +1,1 @@
+<?php\n$title = trim(wp_title('', false));\n?>\n<body id="<?php echo $title; ?>">

@@ -1,0 +1,1 @@
+SELECT type, craft, SUM(NVL(regular, 0) + NVL(overtime, 0)) AS total_hours\nFROM hours_t\nGROUP BY type, craft\nORDER BY type, craft;

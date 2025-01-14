@@ -1,0 +1,1 @@
+CREATE SECURITY POLICY sec_policy\n       ADD FILTER PREDICATE dbo.fn_securitypredicate() \n       ON dbo.Orders;

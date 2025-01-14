@@ -1,0 +1,1 @@
+import sys\n\ndef do_something():\n    print("Not in debug mode!")\n\nif not hasattr(sys, 'gettrace') or sys.gettrace() is None:\n    do_something()

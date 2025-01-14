@@ -1,0 +1,1 @@
+BEGIN\n   FOR r IN (SELECT sid, serial# FROM v$session WHERE username = 'YOUR_SCHEMA_NAME') LOOP\n      EXECUTE IMMEDIATE 'ALTER SYSTEM KILL SESSION ''' || r.sid || ',' || r.serial# || ''' IMMEDIATE';\n   END LOOP;\nEND;\n/\nDROP USER YOUR_SCHEMA_NAME CASCADE;

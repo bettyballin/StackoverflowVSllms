@@ -1,0 +1,1 @@
+// Example AJAX request using jQuery\n   $.ajax({\n       url: 'your_php_file.php',\n       method: 'GET',\n       success: function(response) {\n           $('#result').html(response);\n       }\n   });

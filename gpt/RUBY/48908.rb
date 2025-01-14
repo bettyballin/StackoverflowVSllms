@@ -1,0 +1,1 @@
+<!-- app/views/multi_step_forms/address_info.html.erb -->\n<%= form_with model: @form, url: multi_step_forms_path(step: 'address_info'), method: :post do |f| %>\n  <%= f.label :address %>\n  <%= f.text_field :address %>\n  <%= f.submit 'Finish' %>\n<% end %>

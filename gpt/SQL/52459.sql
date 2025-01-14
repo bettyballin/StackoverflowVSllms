@@ -1,0 +1,1 @@
+BEGIN\n  FOR t IN (SELECT table_name FROM user_tables) LOOP\n    EXECUTE IMMEDIATE 'TRUNCATE TABLE ' || t.table_name;\n  END LOOP;\nEND;\n/

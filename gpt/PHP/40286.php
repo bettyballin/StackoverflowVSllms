@@ -1,0 +1,1 @@
+$this->load->view($module_name . '_view', $data);

@@ -1,0 +1,1 @@
+RESTORE DATABASE [YourDatabase] FROM DISK = 'C:\Backups\YourDatabase.bak' WITH NORECOVERY;

@@ -1,0 +1,1 @@
+<?php\nfunction loop($start, $end, $callback) {\n    for ($i = $start; $i < $end; $i++) {\n        $callback($i);\n    }\n}\n\n// Example usage:\n$array = [1, 2, 3, 4, 5];\n$y = count($array);\n\nloop(0, $y, function($x) use ($array) {\n    // Do something with $x and $array\n    echo $array[$x] . "\n";\n});\n?>

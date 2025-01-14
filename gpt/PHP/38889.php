@@ -1,0 +1,1 @@
+class MyClass {\n       public int $myInt;\n       private string $myString;\n       protected array $myArray;\n\n       public function __construct(int $myInt, string $myString, array $myArray) {\n           $this->myInt = $myInt;\n           $this->myString = $myString;\n           $this->myArray = $myArray;\n       }\n   }\n\n   $obj = new MyClass(5, "example", [1, 2, 3]);

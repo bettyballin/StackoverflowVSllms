@@ -1,0 +1,1 @@
+CREATE TABLE YourTable (\n    Id CHAR(36) NOT NULL,\n    -- other columns\n    PRIMARY KEY (Id)\n);

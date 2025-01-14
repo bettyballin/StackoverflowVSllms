@@ -1,0 +1,1 @@
+// Getting the input\n    $title = filter_input(INPUT_POST, 'title', FILTER_SANITIZE_STRING);\n\n    // Saving in the database\n    $stmt = $pdo->prepare("INSERT INTO posts (title) VALUES (:title)");\n    $stmt->execute(['title' => $title]);\n\n    // Displaying\n    echo htmlspecialchars($title, ENT_QUOTES, 'UTF-8');

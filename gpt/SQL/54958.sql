@@ -1,0 +1,1 @@
+CREATE DATABASE dbpedia;\n\nUSE dbpedia;\n\nCREATE TABLE infoboxes (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    column1 VARCHAR(255),\n    column2 VARCHAR(255),\n    column3 VARCHAR(255),\n    -- Add more columns based on your CSV structure\n);

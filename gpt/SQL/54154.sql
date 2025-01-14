@@ -1,0 +1,1 @@
+PRAGMA synchronous = OFF;\n   PRAGMA journal_mode = MEMORY;

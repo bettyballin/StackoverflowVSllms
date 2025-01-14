@@ -1,0 +1,1 @@
+use Cake\Core\Configure;\n    use Cake\Error\Middleware\ErrorHandlerMiddleware;\n    use App\Controller\AppErrorController;\n\n    (new ErrorHandlerMiddleware(Configure::read('Error')))\n        ->setErrorHandler(AppErrorController::class);

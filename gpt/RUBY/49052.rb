@@ -1,0 +1,1 @@
+@if (!ViewData.ModelState.IsValid)\n{\n    <div class="error-summary">\n        <ul>\n        @foreach (var modelState in ViewData.ModelState.Values)\n        {\n            foreach (var error in modelState.Errors)\n            {\n                <li>@error.ErrorMessage</li>\n            }\n        }\n        </ul>\n    </div>\n}

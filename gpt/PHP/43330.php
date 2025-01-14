@@ -1,0 +1,1 @@
+echo json_encode(json_decode($a), JSON_UNESCAPED_SLASHES);

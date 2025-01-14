@@ -1,0 +1,1 @@
+CREATE SCHEMA Sales;\n   GO\n\n   CREATE PROCEDURE Sales.GetOrderDetails\n   AS\n   BEGIN\n       -- Procedure logic here\n   END\n   GO

@@ -1,0 +1,1 @@
+echo '<input type="text" name="username" value="' . htmlspecialchars($userInput, ENT_QUOTES, 'UTF-8') . '">';

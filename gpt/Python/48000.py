@@ -1,0 +1,1 @@
+from database import client, staff, order\n\nc = client()\ns = staff()\no = order()

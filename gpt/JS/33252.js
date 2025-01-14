@@ -1,0 +1,1 @@
+const discountTable = {\n    'electronics': {\n        'regular': 5,\n        'premium': 10\n    },\n    'clothing': {\n        'regular': 2,\n        'premium': 5\n    }\n};\n\nfunction getDiscount(category, customerType) {\n    return (discountTable[category] && discountTable[category][customerType]) || 0;\n}

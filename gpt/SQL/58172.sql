@@ -1,0 +1,1 @@
+SELECT * FROM dfs.`/path/to/your_file.csv`;

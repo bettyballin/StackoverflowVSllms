@@ -1,0 +1,1 @@
+// Example using Jest for a simple function\n    function sum(a, b) {\n      return a + b;\n    }\n\n    test('adds 1 + 2 to equal 3', () => {\n      expect(sum(1, 2)).toBe(3);\n    });

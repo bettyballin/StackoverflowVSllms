@@ -1,0 +1,1 @@
+// Example configuration for an 8 vCPU VM in VMware ESXi\n   vm.create(\n       name="scientific_vm",\n       num_cpus=8,\n       memory=32 * 1024 // 32 GB of memory\n   );

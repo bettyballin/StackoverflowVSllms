@@ -1,0 +1,1 @@
+$array = [\n    1 => 'integer key',\n    '1' => 'string key with integer value',\n    true => 'boolean key true',\n    false => 'boolean key false',\n    '' => 'empty string key',\n    'key' => 'regular string key',\n    1.5 => 'float key cast to integer'\n];\n\nprint_r($array);

@@ -1,0 +1,1 @@
+-- Using VARCHAR in PostgreSQL\nCREATE TABLE example (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(255)\n);\n\n-- Using TEXT in PostgreSQL (for large text)\nCREATE TABLE example_large (\n    id SERIAL PRIMARY KEY,\n    description TEXT\n);

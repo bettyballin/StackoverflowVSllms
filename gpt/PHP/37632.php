@@ -1,0 +1,1 @@
+$number = "0001";\n$incrementedNumber = (int)$number + 1; // Perform the addition\n$paddedNumber = sprintf("%04d", $incrementedNumber); // Format the result as a zero-padded string\n\necho $paddedNumber; // Outputs: 0002

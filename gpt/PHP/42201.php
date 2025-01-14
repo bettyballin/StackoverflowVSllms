@@ -1,0 +1,1 @@
+$query = "SELECT COUNT(*) as row_count FROM your_table WHERE your_condition";\n$result = $mysqli->query($query);\n\nif ($result) {\n    $row = $result->fetch_assoc();\n    if ($row['row_count'] > 0) {\n        // Entry exists\n    } else {\n        // Entry does not exist\n    }\n}

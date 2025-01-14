@@ -1,0 +1,1 @@
+function removeBOM(content) {\n    if (content.charCodeAt(0) === 0xFEFF) {\n        content = content.slice(1);\n    }\n    return content;\n}

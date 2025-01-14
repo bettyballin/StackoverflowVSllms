@@ -1,0 +1,1 @@
+USE [master];\n    CREATE LOGIN [Test] WITH PASSWORD = 'YourPassword';\n    USE [Mydatabase];\n    CREATE USER [Test] FOR LOGIN [Test];

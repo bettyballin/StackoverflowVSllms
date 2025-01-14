@@ -1,0 +1,1 @@
+-- Example of shared core procedure\nCREATE PROCEDURE GetCommonData\nAS\nBEGIN\n    SELECT * FROM CommonTable;\nEND;\n\n-- Example of application-specific procedure\nCREATE PROCEDURE App1_GetData\nAS\nBEGIN\n    -- Application-specific logic here\n    SELECT * FROM App1Table;\nEND;

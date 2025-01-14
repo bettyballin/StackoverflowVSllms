@@ -1,0 +1,1 @@
+Dim adminDb As New AdminDatabase()\nadminDb.SetConnectionString("Your_Connection_String_Here")\n\n' Now you can use the data sets which will use the updated connection string

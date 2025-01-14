@@ -1,0 +1,1 @@
+from itertools import product\n\ndef cartesian_product(*sets):\n    return list(product(*sets))\n\n# Example usage:\nsets = [[1, 2], ['a', 'b'], [True, False]]\nresult = cartesian_product(*sets)\nprint(result)

@@ -1,0 +1,1 @@
+-- Assume we are merging customer with id 2 into customer with id 1\nUPDATE CustomerContacts\nSET idCustomer = 1\nWHERE idCustomer = 2;\n\nUPDATE CustomerNotes\nSET idCustomer = 1\nWHERE idCustomer = 2;

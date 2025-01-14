@@ -1,0 +1,1 @@
+DECLARE @Date DATETIME = '2000-01-14T13:42:00';\n\nSELECT FORMAT(@Date, 'yyyy-MM-ddTHH:mm:ss') + 'Z' AS ISO8601_ExtendedDate;

@@ -1,0 +1,1 @@
+CREATE OR REPLACE PACKAGE testPackage AS\n    PROCEDURE publicProc;\nEND testPackage;\n/\n\nCREATE OR REPLACE PACKAGE BODY testPackage AS\n\n    PROCEDURE privateProc IS\n    BEGIN\n        DBMS_OUTPUT.PUT_LINE('test');\n    END privateProc;\n\n    PROCEDURE publicProc IS\n    BEGIN\n        privateProc;\n    END publicProc;\n\nEND testPackage;\n/

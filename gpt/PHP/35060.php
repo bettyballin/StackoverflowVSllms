@@ -1,0 +1,1 @@
+<?php\n/*\nTemplate Name: Events Calendar\n*/\nget_header();\n?>\n\n<div class="events-calendar">\n    <?php echo do_shortcode('[tribe_events]'); ?>\n</div>\n\n<?php\nget_footer();\n?>

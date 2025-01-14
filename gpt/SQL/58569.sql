@@ -1,0 +1,1 @@
+CREATE TABLE users (\n    id INT PRIMARY KEY,\n    username VARCHAR(255) UNIQUE,\n    avatar_filename VARCHAR(255)\n);\n\n-- Example query to get avatar filename\nSELECT avatar_filename FROM users WHERE username = 'john_doe';

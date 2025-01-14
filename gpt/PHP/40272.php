@@ -1,0 +1,1 @@
+Array ( [q] => home/blablabla )

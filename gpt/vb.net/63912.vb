@@ -1,0 +1,1 @@
+Public Shared Function ChangeColor(ByVal value As String) As String\n    If value.Contains("Others") Then\n        Return "Red"\n    Else\n        Return "Black"\n    End If\nEnd Functio

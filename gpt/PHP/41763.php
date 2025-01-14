@@ -1,0 +1,1 @@
+<?php\nheader('Content-Type: application/pdf');\nheader('Content-Disposition: inline; filename="generated.pdf"');\nreadfile('path/to/generated.pdf');\n?>

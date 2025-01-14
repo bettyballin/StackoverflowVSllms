@@ -1,0 +1,1 @@
+BEGIN\n      DBMS_SESSION.KILL_SESSION('sid,serial#');\n   END;

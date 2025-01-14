@@ -1,0 +1,1 @@
+const wrappedText = updatedText.replace(/(http:\/\/[^\s]+\.(jpg|png|gif))/ig, '<div style="background: url($1)"></div>');\n\nconsole.log(wrappedText); // Output: <div style="background: url(http://site.com/site.com/files/images/img%202%20(5).jpg)"></div>

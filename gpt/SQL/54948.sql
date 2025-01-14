@@ -1,0 +1,1 @@
+WHERE CASE \n          WHEN grp1 = 0 THEN grp2 = 0 AND grp3 = 0 AND ... AND grpn = 0\n          WHEN grp2 = 0 THEN grp3 = 0 AND ... AND grpn = 0\n          WHEN grp3 = 0 THEN ... AND grpn = 0\n          ...\n          ELSE 1 = 1\n      END

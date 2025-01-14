@@ -1,0 +1,1 @@
+$search_term = $_POST['search_term'];\n$sql = "SELECT * FROM table WHERE first_name LIKE CONCAT('%', ?, '%') OR last_name LIKE CONCAT('%', ?, '%') OR CONCAT_WS(' ', first_name, last_name) LIKE CONCAT('%', ?, '%')";\n$stmt = $pdo->prepare($sql);\n$stmt->execute([$search_term, $search_term, $search_term]);\n$results = $stmt->fetchAll();

@@ -1,0 +1,1 @@
+SELECT DATENAME(MONTH, DATEADD(MONTH, month_number - 1, '1900-01-01')) AS MonthName\nFROM your_table;

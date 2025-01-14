@@ -1,0 +1,1 @@
+' Inside your main project file\n    Imports UtilityNamespace\n\n    Public Class MainClass\n        Public Sub TestMethod()\n            ' Call the method from the UtilityModule\n            UtilityModule.SampleMethod()\n        End Sub\n    End Class

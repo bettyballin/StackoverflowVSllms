@@ -1,0 +1,1 @@
+CREATE TABLE BoxLocations (\n    Floor INT,\n    Row INT,\n    Column INT,\n    Shelf INT,\n    Box INT,\n    Status VARCHAR(20), -- 'Empty', 'Filled'\n    Timestamp SMALLDATETIME\n);

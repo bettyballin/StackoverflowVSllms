@@ -1,0 +1,1 @@
+ALTER SYSTEM SET sga_target = 2G SCOPE = SPFILE;\n   ALTER SYSTEM SET pga_aggregate_target = 1G SCOPE = SPFILE;

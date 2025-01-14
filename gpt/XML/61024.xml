@@ -1,0 +1,1 @@
+<dependency>\n       <groupId>org.springframework.security</groupId>\n       <artifactId>spring-security-ldap</artifactId>\n       <version>2.0.3</version>\n   </dependency>

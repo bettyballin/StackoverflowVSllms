@@ -1,0 +1,1 @@
+select\n        b.B_data,\n        c.C_data\n    from\n        tableB b\n        inner join tableC c\n            on b.A_id = c.A_id;

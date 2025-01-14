@@ -1,0 +1,1 @@
+// Page1.php\n<?php\n$var = 'Hello, World!';\n?>\n\n// Page2.php\n<?php\nerror_reporting(E_ALL);\nini_set('display_errors', 1);\n\ninclude('Page1.php');\necho $var;\n?>

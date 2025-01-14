@@ -1,0 +1,1 @@
+INSERT INTO TargetTable (Column1, Column2, Column3, ...)\nSELECT Column1, Column2, Column3, ...\nFROM SourceTable\nWHERE ID > 100;

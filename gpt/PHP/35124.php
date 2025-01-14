@@ -1,0 +1,1 @@
+$yesterday = date('F jS, Y', strtotime('-1 day'));\necho $yesterday;

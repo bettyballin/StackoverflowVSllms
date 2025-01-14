@@ -1,0 +1,1 @@
+-- Enable RLS on the table\nALTER TABLE employees ENABLE ROW LEVEL SECURITY;\n\n-- Create a policy that allows users to see only their own records\nCREATE POLICY employee_policy ON employees\nUSING (user_id = current_user_id);\n\n-- Apply the policy\nGRANT SELECT ON employees TO regular_user;

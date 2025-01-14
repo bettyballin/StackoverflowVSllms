@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    if (isset($_POST['value'])) {\n        $value = $_POST['value'];\n        // Process the value as needed\n        echo "Received value: " . htmlspecialchars($value);\n    } else {\n        echo "No value received.";\n    }\n} else {\n    echo "Invalid request method.";\n}\n?>

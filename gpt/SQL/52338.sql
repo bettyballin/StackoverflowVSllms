@@ -1,0 +1,1 @@
+CREATE CONTRACT [Contract]\n([MessageType] SENT BY INITIATOR);

@@ -1,0 +1,1 @@
+Public Async Function FetchDataAsync() As Task(Of String)\n    Dim client As New HttpClient()\n    Dim result As String = Await client.GetStringAsync("https://example.com/data")\n    Return result\nEnd Functio

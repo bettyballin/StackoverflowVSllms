@@ -1,0 +1,1 @@
+<?php\n// proxy.php\nheader("Content-Type: application/json");\n\n$target_url = "http://code.katzenbach.com/Default.aspx?callback=?";\n\n$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, $target_url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);\n$response = curl_exec($ch);\ncurl_close($ch);\n\necho $response;\n?>

@@ -1,0 +1,1 @@
+CREATE TABLE table1 (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    month INT NOT NULL,\n    year INT NOT NULL,\n    info VARCHAR(255) NOT NULL,\n    UNIQUE (month, year) -- Ensures no duplicate month/year combinations\n);

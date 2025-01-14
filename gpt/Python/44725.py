@@ -1,0 +1,1 @@
+from ansi2html import Ansi2HTMLConverter\n\nansi_text = "\033[01;34mbin\033[00m\n\033[01;34mcode\033[00m\n\033[01;31mdropbox-lnx.x86-0.6.404.tar.gz\033[00m\nfoo"\nconverter = Ansi2HTMLConverter()\nhtml_output = converter.convert(ansi_text)\n\nprint(html_output)

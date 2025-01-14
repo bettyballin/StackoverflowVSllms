@@ -1,0 +1,1 @@
+$array = array(\n    'key1' => 'value1',\n    'key2' => 'value2',\n    'key3' => 'value3',\n    // ... other keys and values\n    'key57' => 'value57'\n);\n\n$keys_to_keep = array('key2', 'key57');\n\n$result = array_intersect_key($array, array_flip($keys_to_keep));\n\nprint_r($result);

@@ -1,0 +1,1 @@
+$("[name='tcol1']").hide(); // Selects by name and hides the elements

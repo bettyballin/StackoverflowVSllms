@@ -1,0 +1,1 @@
+<settings>\n     <servers>\n       <server>\n         <id>your-repo-id</id>\n         <configuration>\n           <trustStore>/path/to/custom/truststore</trustStore>\n           <trustStorePassword>yourpassword</trustStorePassword>\n         </configuration>\n       </server>\n     </servers>\n   </settings>

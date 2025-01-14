@@ -1,0 +1,1 @@
+WITH RankedData AS (\n    SELECT\n        userId,\n        date,\n        otherData,\n        ROW_NUMBER() OVER (PARTITION BY userId ORDER BY date DESC) AS row_num\n    FROM\n        your_table\n)\nSELECT\n    userId,\n    date,\n    otherData\nFROM\n    RankedData\nWHERE\n    row_num = 1;

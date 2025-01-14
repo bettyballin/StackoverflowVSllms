@@ -1,0 +1,1 @@
+$myOrder = 'burrito';\n$methodName = 'order_' . $myOrder;\n\nif (method_exists($lunch, $methodName)) {\n    $lunch->$methodName();\n} else {\n    echo "Method $methodName does not exist.";\n}

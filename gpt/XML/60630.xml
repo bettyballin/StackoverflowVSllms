@@ -1,0 +1,1 @@
+<staticContent>\n       <mimeMap fileExtension=".application" mimeType="application/x-ms-application" />\n       <mimeMap fileExtension=".manifest" mimeType="application/x-ms-manifest" />\n       <mimeMap fileExtension=".deploy" mimeType="application/octet-stream" />\n   </staticContent>

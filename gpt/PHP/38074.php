@@ -1,0 +1,1 @@
+<?php\nif (isset($_POST['csv'])) {\n    $csvData = $_POST['csv'];\n    $csvFile = fopen('edited_file.csv', 'w');\n\n    foreach ($csvData as $row) {\n        fputcsv($csvFile, $row);\n    }\n\n    fclose($csvFile);\n    echo 'CSV file saved successfully!';\n} else {\n    echo 'No data to save!';\n}\n?>

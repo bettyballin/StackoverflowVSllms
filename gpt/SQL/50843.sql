@@ -1,0 +1,1 @@
+SELECT /*+ INDEX(Bookmarks idx_url_hash) */ bookmarkid \n    FROM Bookmarks \n    WHERE URL = '<some url>';

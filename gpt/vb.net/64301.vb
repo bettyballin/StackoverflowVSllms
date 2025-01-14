@@ -1,0 +1,1 @@
+Dim a() As Integer\na = New Integer() {1, 2, 3}

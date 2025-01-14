@@ -1,0 +1,1 @@
+<p>\n  <%= link_to 'Previous', foo_path(@previous_foo, type: @previous_foo.type) %>\n  |\n  <%= link_to 'Next', foo_path(@next_foo, type: @next_foo.type) %>\n</p>

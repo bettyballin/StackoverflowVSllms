@@ -1,0 +1,1 @@
+$sites = ['site1.com', 'site2.com', 'site3.com']; // Add your sites here\n\nforeach ($sites as $site) {\n    $command = "php check_update.php $site";\n    exec($command . " > /dev/null &");\n}

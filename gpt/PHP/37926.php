@@ -1,0 +1,1 @@
+$time = microtime(true);\n$datetime = DateTime::createFromFormat('U.u', $time);\necho $datetime->format("H:i:s.u") . " this step time\n";

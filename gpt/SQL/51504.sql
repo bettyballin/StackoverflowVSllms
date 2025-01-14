@@ -1,0 +1,1 @@
+-- Query 1 with DISTINCT\nSELECT DISTINCT col1, col2, col3\nFROM your_table\nWHERE some_condition\nORDER BY col1, col2, col3;\n\n-- Query 2 with DISTINCT\nSELECT DISTINCT col1, col2\nFROM your_table\nWHERE some_condition\nORDER BY col1, col2;

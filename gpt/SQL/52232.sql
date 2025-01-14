@@ -1,0 +1,1 @@
+ALTER TABLE stock_items\n   ADD CONSTRAINT FK_StockItems_Parts\n   FOREIGN KEY (partnr) REFERENCES parts(partnr);

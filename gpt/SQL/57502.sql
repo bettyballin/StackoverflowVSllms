@@ -1,0 +1,1 @@
+CREATE ASSEMBLY MyWcfClientAssembly\n   FROM 'C:\Path\To\Your\Dll\WcfClientSqlClr.dll'\n   WITH PERMISSION_SET = UNSAFE;\n\n   CREATE FUNCTION dbo.CallWcfService()\n   RETURNS NVARCHAR(MAX)\n   AS EXTERNAL NAME MyWcfClientAssembly.[Namespace.WcfClientSqlClr].CallWcfService;

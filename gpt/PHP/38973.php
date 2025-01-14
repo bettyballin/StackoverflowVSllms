@@ -1,0 +1,1 @@
+<?php\n$session_count_file = '/path/to/sessioncount.txt';\nif (file_exists($session_count_file) && is_readable($session_count_file)) {\n    $number_of_users = file_get_contents($session_count_file);\n    echo "Number of active users: " . intval($number_of_users);\n} else {\n    echo "Unable to read session count.";\n}\n?>

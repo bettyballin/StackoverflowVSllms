@@ -1,0 +1,1 @@
+SELECT *\nFROM users\nWHERE TIMESTAMPDIFF(SECOND, last_login, NOW()) <= 600;

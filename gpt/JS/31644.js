@@ -1,0 +1,1 @@
+try {\n       // Your jQuery/JavaScript code here\n   } catch (e) {\n       alert('Error: ' + e.message);\n   }

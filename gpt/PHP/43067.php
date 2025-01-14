@@ -1,0 +1,1 @@
+<?php\nif (isset($_COOKIE['js_enabled'])) {\n    echo "JavaScript is enabled.";\n} else {\n    echo "JavaScript is disabled.";\n}\n?>

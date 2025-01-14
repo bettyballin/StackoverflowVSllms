@@ -1,0 +1,1 @@
+from django.contrib.auth.models import User\nfrom yourapp.models import Model\n\n# Query to get all distinct users who are watchers\ndistinct_watchers = User.objects.filter(boardShot_watchers__isnull=False).distinct()\n\n# If you need to access the users\nfor user in distinct_watchers:\n    print(user.username)

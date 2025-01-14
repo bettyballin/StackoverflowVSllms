@@ -1,0 +1,1 @@
+SELECT TO_DATE('31-DEC-9999', 'DD-MON-YYYY') AS max_date FROM dual;

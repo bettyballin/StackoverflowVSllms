@@ -1,0 +1,1 @@
+SELECT id, somedate, somevalue,\n       SUM(somevalue) OVER (ORDER BY somedate) AS runningtotal\nFROM TestTable\nORDER BY somedate;

@@ -1,0 +1,1 @@
+use Aura\Session\SessionFactory;\n\n   $session_factory = new SessionFactory;\n   $session = $session_factory->newInstance($_COOKIE);\n\n   $segment = $session->getSegment('Vendor\Package\ClassName');\n   $segment->set('foo', 'bar');\n   $value = $segment->get('foo');

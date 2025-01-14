@@ -1,0 +1,1 @@
+document.querySelector('input[b]').addEventListener('click', function(event) {\n    var inputA = event.target.previousElementSibling;\n    if (inputA) {\n        // Manipulate inputA as needed\n        inputA.value = "New Value"; // Example manipulation\n    }\n});

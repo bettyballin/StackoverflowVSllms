@@ -1,0 +1,1 @@
+// core/Model.php\nclass Model {\n    protected $db;\n\n    public function __construct() {\n        $this->db = new PDO('mysql:host=localhost;dbname=your_db', 'username', 'password');\n    }\n\n    public function query($sql, $params = []) {\n        $stmt = $this->db->prepare($sql);\n        $stmt->execute($params);\n        return $stmt;\n    }\n}

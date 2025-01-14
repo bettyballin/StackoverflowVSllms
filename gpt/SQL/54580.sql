@@ -1,0 +1,1 @@
+DECLARE\n       v_blob BLOB;\n       v_part BLOB;\n   BEGIN\n       SELECT raw_data INTO v_blob FROM RAW_DATA WHERE measurement_id = :measurement_id;\n       DBMS_LOB.SUBSTR(v_part, v_blob, 4, 4000);\n       -- Process the retrieved part as needed\n   END;

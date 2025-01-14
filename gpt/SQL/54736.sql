@@ -1,0 +1,1 @@
+WITH NumberedRows AS (\n    SELECT *, ROW_NUMBER() OVER (ORDER BY some_column) AS RowNum\n    FROM table\n)\nSELECT *\nFROM NumberedRows\nWHERE RowNum > 10 AND RowNum <= 30;

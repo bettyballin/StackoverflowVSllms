@@ -1,0 +1,1 @@
+import brotli\n\n# Compressing a string\ninput_string = "https://example.com/some/very/long/url"\ncompressed_data = brotli.compress(input_string.encode('utf-8'))\n\n# Decompressing the string\ndecompressed_data = brotli.decompress(compressed_data)\noutput_string = decompressed_data.decode('utf-8')\n\nprint(output_string)  # Should output the original URL

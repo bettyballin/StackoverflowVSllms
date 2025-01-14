@@ -1,0 +1,1 @@
+CREATE TRIGGER before_insert_transactions\nBEFORE INSERT ON transactions\nFOR EACH ROW\nSET NEW.cleaned_desc = REGEXP_REPLACE(NEW.desc, '[^a-zA-Z0-9 ]', '');

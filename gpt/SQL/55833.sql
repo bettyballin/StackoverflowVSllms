@@ -1,0 +1,1 @@
+UPDATE FieldLabels\nSET fieldLabel = 'New Label'\nWHERE fieldName = 'height';

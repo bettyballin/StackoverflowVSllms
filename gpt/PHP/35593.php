@@ -1,0 +1,1 @@
+objSlash( $obj, false );

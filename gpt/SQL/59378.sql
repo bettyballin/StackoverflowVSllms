@@ -1,0 +1,1 @@
+-- Example of Keyset Pagination\nDECLARE @PageSize INT = 100;\nDECLARE @LastId INT = 0; -- This would come from the client for subsequent pages\n\nSELECT TOP (@PageSize) *\nFROM YourTable\nWHERE Id > @LastId\nORDER BY Id;

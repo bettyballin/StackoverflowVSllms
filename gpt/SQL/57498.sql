@@ -1,0 +1,1 @@
+SPOOL data_dump.csv\n   SELECT c1, c5, c6 FROM SRC_Table;\n   SPOOL OFF

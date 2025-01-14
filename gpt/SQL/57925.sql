@@ -1,0 +1,1 @@
+EXEC xp_cmdshell 'C:\path\to\cleanup.bat';

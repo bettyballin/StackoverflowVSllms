@@ -1,0 +1,1 @@
+Dim employeeList = GetEmployees()\n    Dim activeEmployees = From emp In employeeList Where emp.IsActive Select emp

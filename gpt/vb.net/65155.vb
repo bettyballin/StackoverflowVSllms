@@ -1,0 +1,1 @@
+Dim dateTimeValue As DateTime = DateTime.Parse("12/31/2008 12:00:00 AM")\nDim dateOnly As String = dateTimeValue.ToString("MM/dd/yyyy")\nConsole.WriteLine(dateOnly) ' Output: 12/31/2008

@@ -1,0 +1,1 @@
+CREATE TABLE example_table (\n    id NUMBER GENERATED ALWAYS AS IDENTITY,\n    name VARCHAR2(100)\n);

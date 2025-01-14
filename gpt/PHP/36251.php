@@ -1,0 +1,1 @@
+(($request_type == 'SSL') ? HTTPS_SERVER : HTTP_SERVER)

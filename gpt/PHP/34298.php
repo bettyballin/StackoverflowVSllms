@@ -1,0 +1,1 @@
+$hashedPassword = password_hash($plainPassword, PASSWORD_DEFAULT);

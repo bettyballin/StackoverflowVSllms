@@ -1,0 +1,1 @@
+var elements = document.querySelectorAll('.your-class-name');\nvar elementsArray = Array.from(elements); // Convert NodeList to Array

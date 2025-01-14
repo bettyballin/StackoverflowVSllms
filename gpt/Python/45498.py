@@ -1,0 +1,1 @@
+import xsd2xml\n\n# Path to your XSD file\nxsd_file = 'your_schema.xsd'\n\n# Generate the XML sample\nxml_sample = xsd2xml.xsd2xml(xsd_file)\n\n# Output the XML sample to a file\nwith open('sample.xml', 'w') as f:\n    f.write(xml_sample)

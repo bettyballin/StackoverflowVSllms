@@ -1,0 +1,1 @@
+SELECT * FROM `#__config` WHERE `value` LIKE '%BradPPresents.com%';

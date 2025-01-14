@@ -1,0 +1,1 @@
+<?php\n// Check current working directory\necho "Current working directory: " . getcwd() . "\n";\n\n// Check if the file exists\nif (file_exists('../Connections/connComparisonLogin.php')) {\n    echo "File exists\n";\n} else {\n    echo "File does not exist\n";\n}\n\nrequire_once('../Connections/connComparisonLogin.php');\n?>

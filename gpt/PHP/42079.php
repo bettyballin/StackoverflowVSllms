@@ -1,0 +1,1 @@
+echo "Unencrypted path: $unenc_path\nEncrypted path: $enc_path\n";

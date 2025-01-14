@@ -1,0 +1,1 @@
+var flashvars = {};\nvar params = {\n    wmode: "transparent"\n};\nvar attributes = {};\n\nswfobject.embedSWF("your_flash_file.swf", "flash_content_id", "550", "400", "9.0.0", "expressInstall.swf", flashvars, params, attributes);

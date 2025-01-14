@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <modules>\n      <add name="YourModule" type="YourNamespace.YourModule, YourAssembly" />\n    </modules>\n    <handlers>\n      <add name="YourHandler" path="*.yourExtension" verb="*" type="YourNamespace.YourHandler, YourAssembly" resourceType="Unspecified" />\n    </handlers>\n  </system.webServer>\n</configuration>

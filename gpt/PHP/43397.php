@@ -1,0 +1,1 @@
+echo SOMETHING; // Outputs: 1 (true)

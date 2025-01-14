@@ -1,0 +1,1 @@
+<!-- Example SAML Configuration Snippet -->\n    <saml:Subject>\n      <saml:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">user@example.com</saml:NameID>\n    </saml:Subject>

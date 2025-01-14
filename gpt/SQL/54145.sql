@@ -1,0 +1,1 @@
+SELECT a.name, b.name \nFROM a, b \nWHERE a.id = b.id \nAND a.id = 1;

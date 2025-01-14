@@ -1,0 +1,1 @@
+SELECT Tags.tag_id, Tags.tag_name\nFROM Tags\nJOIN ItemTags ON Tags.tag_id = ItemTags.tag_id\nJOIN Items ON ItemTags.item_id = Items.item_id\nWHERE Items.item_id = 1;

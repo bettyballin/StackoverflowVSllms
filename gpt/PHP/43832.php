@@ -1,0 +1,1 @@
+<?php\n   apc_store('foo', 'bar');\n   echo apc_fetch('foo');\n   ?>

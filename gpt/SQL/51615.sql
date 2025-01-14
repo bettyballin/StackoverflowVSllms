@@ -1,0 +1,1 @@
+CREATE PROCEDURE [dbo].[msp_AssociateEvent]\n(\n    @EventId int\n)\nAS\nBEGIN\n    UPDATE tblFoodMenus\n    SET EventID = @EventId\n    WHERE FoodMenuID = IDENT_CURRENT('tblFoodMenus');\nEND

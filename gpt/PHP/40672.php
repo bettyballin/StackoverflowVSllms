@@ -1,0 +1,1 @@
+$json = file_get_contents('settings.json');\n$config = json_decode($json, true);\n$uploadDir = $config['upload_dir'];\n$displayNum = $config['display_num'];\n$names = $config['names'];

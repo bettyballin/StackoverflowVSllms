@@ -1,0 +1,1 @@
+CREATE TABLE pk_mapping (\n    old_pk INT,\n    new_pk INT,\n    region_id VARCHAR(2)\n);

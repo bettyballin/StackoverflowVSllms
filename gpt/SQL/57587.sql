@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE YEAR(stored_datetime) = YEAR(GETDATE())

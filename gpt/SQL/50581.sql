@@ -1,0 +1,1 @@
+CREATE TABLE Tracker (\n       TrackerID INT PRIMARY KEY,\n       UserName VARCHAR(50),\n       TotalRequests INT,\n       LastRequest DATETIME,\n       Status VARCHAR(50)\n   );

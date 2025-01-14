@@ -1,0 +1,1 @@
+CREATE PROCEDURE DeleteOldRecords\n   AS\n   BEGIN\n       -- Define the interval (e.g., 30 days)\n       DECLARE @Interval INT = 30;\n\n       -- Delete records older than the interval\n       DELETE FROM YourTable\n       WHERE YourTimestampColumn < DATEADD(DAY, -@Interval, GETDATE());\n   END;

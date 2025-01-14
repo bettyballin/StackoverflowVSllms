@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\n   xhr.onreadystatechange = function() {\n       if (xhr.readyState == 4 && xhr.status == 200) {\n           var jsonResponse = JSON.parse(xhr.responseText);\n           // Handle the JSON response\n       }\n   };\n   xhr.open("GET", "your-url", true);\n   xhr.send();

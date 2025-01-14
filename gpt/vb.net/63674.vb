@@ -1,0 +1,1 @@
+' Assuming you have a TextBox named TextBox1 bound to a data source\nTextBox1.DataBindings.Clear()

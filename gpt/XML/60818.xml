@@ -1,0 +1,1 @@
+<bean id="userDao" class="com.example.UserDaoHibernateImpl" />\n<bean id="userService" class="com.example.UserServiceImpl">\n    <property name="userDao" ref="userDao" />\n</bean>\n<bean id="userAction" class="com.example.web.UserAction">\n    <property name="userService" ref="userService" />\n</bean>

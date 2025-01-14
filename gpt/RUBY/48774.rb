@@ -1,0 +1,1 @@
+rails generate migration AddMessagesCountToUsers messages_count:integer

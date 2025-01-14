@@ -1,0 +1,1 @@
+ew Ajax.Autocompleter("input_field_id", "suggestions_div_id", "/autocomplete_url", {\n  select: false\n});

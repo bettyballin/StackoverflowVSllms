@@ -1,0 +1,1 @@
+CREATE TABLE email_queue (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    recipient VARCHAR(255) NOT NULL,\n    subject VARCHAR(255) NOT NULL,\n    body TEXT NOT NULL,\n    attachments TEXT, -- JSON encoded array of attachment paths\n    scheduled_time DATETIME NOT NULL,\n    status ENUM('pending', 'sent') DEFAULT 'pending'\n);

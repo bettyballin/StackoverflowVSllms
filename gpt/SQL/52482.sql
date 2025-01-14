@@ -1,0 +1,1 @@
+declare @bitHaveRows bit\n\nselect @bitHaveRows = \n    case \n        when count(*) > 0 then 1 \n        else 0 \n    end\nfrom table\nwhere (predicate)

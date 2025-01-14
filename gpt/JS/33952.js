@@ -1,0 +1,1 @@
+// The steps above do not involve any code, but here is a visualization of the process in steps:\nopenToolsOptions();\nnavigateTo("Environment", "Keyboard");\nsearchForCommand("Edit.LineStart");\nassignShortcutKey("Home");\nsaveChanges();

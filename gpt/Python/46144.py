@@ -1,0 +1,1 @@
+from google.appengine.ext import ndb\n\n   class User(ndb.Model):\n       name = ndb.StringProperty()\n       email = ndb.StringProperty()\n\n   class Message(ndb.Model):\n       user = ndb.KeyProperty(kind=User)\n       content = ndb.StringProperty()\n       timestamp = ndb.DateTimeProperty(auto_now_add=True)

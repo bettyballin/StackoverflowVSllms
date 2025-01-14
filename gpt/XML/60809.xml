@@ -1,0 +1,1 @@
+<product id="prod1">\n         <name>Laptop</name>\n     </product>\n     <accessory id="acc1">\n         <name>Mouse</name>\n         <compatible-with refid="prod1"/>\n     </accessory>

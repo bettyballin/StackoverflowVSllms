@@ -1,0 +1,1 @@
+from scapy.all import TCP_SERVICES\n\n# Example port number\nport = 80\n\n# Convert port number to service name\nservice_name = TCP_SERVICES.get(str(port), "Unknown Service")\n\nprint(service_name)

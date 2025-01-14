@@ -1,0 +1,1 @@
+ActionController::Base.session = {\n  :key         => '_your_app_session',\n  :secret      => 'your_secret_key_here',\n  :domain      => :all # default - can be overridden dynamically\n}\n\nclass ActionController::Base\n  before_filter :set_session_domain\n\n  private\n\n  def set_session_domain\n    request.session_options[:domain] = request.host\n  end\nend

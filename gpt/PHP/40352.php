@@ -1,0 +1,1 @@
+// /app/views/museum/gallery.php\n   echo _("Welcome to the gallery!");

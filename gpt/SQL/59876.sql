@@ -1,0 +1,1 @@
+CREATE TABLE orders (\n       order_id INT,\n       order_date DATE,\n       customer_id INT\n   ) PARTITION BY RANGE (order_date);

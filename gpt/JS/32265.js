@@ -1,0 +1,1 @@
+function Person(name) {\n     this.name = name;\n   }\n   const person = new Person("Bob");\n   console.log(person.name); // logs "Bob"

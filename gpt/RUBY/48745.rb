@@ -1,0 +1,1 @@
+<!DOCTYPE html>\n   <html>\n   <head>\n       <title>My ERB Template</title>\n   </head>\n   <body>\n       <h1>Welcome, <%= @name %>!</h1>\n       <p>The current time is: <%= Time.now %></p>\n   </body>\n   </html>

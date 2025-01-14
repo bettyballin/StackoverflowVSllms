@@ -1,0 +1,1 @@
+USE msdb;\nGO\n\nDECLARE @job_name NVARCHAR(128);\nSET @job_name = 'YourJobName'; -- Replace with your SQL Server job name\n\nEXEC sp_delete_job\n    @job_name = @job_name;\nGO

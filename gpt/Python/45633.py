@@ -1,0 +1,1 @@
+from flask import request\n\ndef is_secure():\n    return request.headers.get('X-Forwarded-Proto', 'http') == 'https'

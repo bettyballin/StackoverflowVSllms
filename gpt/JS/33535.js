@@ -1,0 +1,1 @@
+function MyObject(data) {\n    var myData = data;\n\n    this.doSomething = function() {\n        alert("I did something!");\n    };\n}\n\n// Usage\nvar obj = new MyObject('some data');\nobj.doSomething(); // Alerts "I did something!"

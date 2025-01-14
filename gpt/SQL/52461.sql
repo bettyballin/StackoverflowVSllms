@@ -1,0 +1,1 @@
+-- User submits an item (25 points)\nINSERT INTO score_events (user_id, event_type, points) VALUES (1, 'submit_item', 25);\n\n-- User comments (1 point each)\nINSERT INTO score_events (user_id, event_type, points) VALUES (1, 'comment', 1);\n\n-- User receives a bonus (10 points)\nINSERT INTO score_events (user_id, event_type, points) VALUES (1, 'bonus', 10);

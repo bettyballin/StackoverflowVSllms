@@ -1,0 +1,1 @@
+ALTER TABLE articles ADD FULLTEXT(ocr_text);

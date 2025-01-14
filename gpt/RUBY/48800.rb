@@ -1,0 +1,1 @@
+<%= form_with url: items_path, method: :get do %>\n  <%= text_field_tag :name, nil, autocomplete: 'off', data: { autocomplete_source: autocomplete_item_name_items_path } %>\n<% end %>

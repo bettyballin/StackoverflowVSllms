@@ -1,0 +1,1 @@
+SELECT 'INSERT INTO TABLE1 (f1, f2, f3, f4 ...) VALUES ('\n       || t.f1 || ','\n       || CASE\n            WHEN t.f2 > 0 THEN '1'\n            ELSE '0'\n          END\n       || ',' || t.f3 || ','\n       || t.f4 || ');'\nFROM table2 t, table3 t3\nWHERE t.some_column = t3.some_column;

@@ -1,0 +1,1 @@
+class Customer < ApplicationRecord\n     validates :name, presence: true\n   end

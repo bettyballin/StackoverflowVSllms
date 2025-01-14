@@ -1,0 +1,1 @@
+<ItemGroup>\n  <Reference Include="Gallio">\n    <HintPath>path\to\gallio.dll</HintPath>\n  </Reference>\n  <Reference Include="MbUnit">\n    <HintPath>path\to\mbunit.dll</HintPath>\n  </Reference>\n</ItemGroup>

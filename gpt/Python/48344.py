@@ -1,0 +1,1 @@
+import requests\n\n# Replace 'YOUR_API_KEY' with your actual Alpha Vantage API key\napi_key = 'YOUR_API_KEY'\nsymbol = 'MSFT'\nurl = f'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={symbol}&interval=5min&apikey={api_key}'\n\nresponse = requests.get(url)\ndata = response.json()\n\nprint(data)

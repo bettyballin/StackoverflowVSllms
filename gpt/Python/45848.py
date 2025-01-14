@@ -1,0 +1,1 @@
+print "%2d. %8.2f %8.2f %8.2f" % (i, payment, interest, monthPayment)

@@ -1,0 +1,1 @@
+CREATE TABLE shopping_cart (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    session_id VARCHAR(255) NOT NULL,\n    product_id INT NOT NULL,\n    quantity INT NOT NULL,\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);

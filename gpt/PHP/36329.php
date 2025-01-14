@@ -1,0 +1,1 @@
+// core/Controller.php\nclass Controller {\n    public function model($model) {\n        require_once '../app/models/' . $model . '.php';\n        return new $model();\n    }\n\n    public function view($view, $data = []) {\n        require_once '../app/views/' . $view . '.php';\n    }\n}

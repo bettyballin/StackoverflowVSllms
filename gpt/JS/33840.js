@@ -1,0 +1,1 @@
+window.onload = function() {\n    // Your code to add HTML elements\n    var newElement = document.createElement('div');\n    newElement.innerHTML = 'New Element';\n    document.body.appendChild(newElement);\n};

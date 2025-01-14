@@ -1,0 +1,1 @@
+if ($('#input-name').length) {\n    var name = $('#input-name').attr("value");\n    // You can safely use the 'name' variable here\n} else {\n    // Handle the case when the element does not exist\n    console.log("Element with ID 'input-name' does not exist.");\n}

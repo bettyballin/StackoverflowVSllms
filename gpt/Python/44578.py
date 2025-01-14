@@ -1,0 +1,1 @@
+import os\n\n# Get file status\nfile_status = os.stat('yourfile.txt')\n\n# Get modification time in seconds\nmod_time_seconds = file_status.st_mtime\n\n# Get modification time in nanoseconds\nmod_time_nanoseconds = file_status.st_mtime_ns\n\nprint("Modification time in seconds: ", mod_time_seconds)\nprint("Modification time in nanoseconds: ", mod_time_nanoseconds)

@@ -1,0 +1,1 @@
+$('a.button:has(img)').corner('tl bl 10px');

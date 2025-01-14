@@ -1,0 +1,1 @@
+SELECT id, COALESCE(translations->>'de', name) as name\n   FROM products;

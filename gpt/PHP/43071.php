@@ -1,0 +1,1 @@
+require_once 'vendor/autoload.php';\n\n   use PhpOffice\PhpWord\PhpWord;\n   use PhpOffice\PhpWord\IOFactory;\n\n   $phpWord = new PhpWord();\n   $section = $phpWord->addSection();\n   $section->addText('Hello World');\n   $objWriter = IOFactory::createWriter($phpWord, 'Word2007');\n   $objWriter->save('helloWorld.docx');

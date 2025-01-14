@@ -1,0 +1,1 @@
+Public Property Name As String

@@ -1,0 +1,1 @@
+<?php\ninclude("conn.php");\n\n$query = "SELECT * FROM sggame";\n$result = mysqli_query($conn, $query);\n\nif (!$result) {\n    die("Query failed: " . mysqli_error($conn));\n}\n\nwhile ($row = mysqli_fetch_assoc($result)) {\n    $id = $row['id'];\n    echo $id;\n    echo 'working?';\n}\n\nmysqli_close($conn);\n?>

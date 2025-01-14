@@ -1,0 +1,1 @@
+DECLARE @CurrentLvlNum INT;\n   SET @CurrentLvlNum = @LVL_NUM;\n\n   INSERT INTO ALLOCS\n   SELECT 'OUT', *\n   FROM BALANCES(@CurrentLvlNum)\n   INNER JOIN ALLOCN_SUMRY(@CurrentLvlNum);\n\n   INSERT INTO ALLOCS\n   SELECT 'IN', *\n   FROM BALANCES(@CurrentLvlNum)\n   INNER JOIN ALLOCNS(@CurrentLvlNum)\n   INNER JOIN ALLOCN_SUMRY(@CurrentLvlNum);

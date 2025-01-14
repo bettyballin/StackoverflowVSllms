@@ -1,0 +1,1 @@
+SELECT 'Hello' || NVL(NULL, '') || 'World' AS concatenated_string FROM dual;

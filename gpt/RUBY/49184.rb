@@ -1,0 +1,1 @@
+# Using multi-line syntax\nif 1 == 1\n  puts "true"\nend\n\n# Using modifier if\nputs "true" if 1 == 1\n\n# Using then on a single line\nif 1 == 1 then puts "true" end

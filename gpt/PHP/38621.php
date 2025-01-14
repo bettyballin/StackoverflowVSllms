@@ -1,0 +1,1 @@
+amespace Entities;\n\n/**\n * @Entity\n * @Table(name="users")\n */\nclass User\n{\n    /** \n     * @Id \n     * @Column(type="integer") \n     * @GeneratedValue \n     */\n    private $id;\n\n    /** @Column(type="string") */\n    private $name;\n\n    // Getters and setters\n}

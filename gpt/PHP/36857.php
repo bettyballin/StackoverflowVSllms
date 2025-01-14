@@ -1,0 +1,1 @@
+// Define the path to the Dompdf directory\ndefine("DOMPDF_DIR", realpath(APPPATH . '../system/plugins/dompdf'));

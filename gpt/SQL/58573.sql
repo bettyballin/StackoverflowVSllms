@@ -1,0 +1,1 @@
+CREATE TRIGGER RestrictApplication\nON ALL SERVER\nFOR LOGON\nAS\nBEGIN\n    DECLARE @AppName NVARCHAR(128)\n    SELECT @AppName = PROGRAM_NAME FROM sys.dm_exec_sessions WHERE session_id = @@SPID\n\n    IF @AppName <> 'YourApplicationName'\n    BEGIN\n        ROLLBACK;\n        PRINT 'Login attempt from unauthorized application detected and blocked.'\n    END\nEND;\nGO

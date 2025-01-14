@@ -1,0 +1,1 @@
+Dim User As New Employee()\nUser.ID = 1\nUser.FirstName = ""\nUser.Surname = ""\n\nCall SomeFunction(User)

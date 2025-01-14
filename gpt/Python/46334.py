@@ -1,0 +1,1 @@
+# Reading a file with specified encoding\nwith open("file.txt", "r", encoding="utf-8") as file:\n    content = file.read()

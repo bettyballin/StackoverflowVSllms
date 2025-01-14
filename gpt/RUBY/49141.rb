@@ -1,0 +1,1 @@
+# In your model or controller\n   ImageOptim.new.optimize_image!(image_path)

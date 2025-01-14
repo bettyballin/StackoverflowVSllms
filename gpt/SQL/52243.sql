@@ -1,0 +1,1 @@
+ALTER TABLE dbo.users\nADD auid CHAR(9);

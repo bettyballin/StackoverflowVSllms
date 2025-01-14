@@ -1,0 +1,1 @@
+// Source frame (example.com)\nvar targetFrame = document.getElementById('targetFrame');\ntargetFrame.contentWindow.postMessage('Hello from example.com', 'https://anotherdomain.com');

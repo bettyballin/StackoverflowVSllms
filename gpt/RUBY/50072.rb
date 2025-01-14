@@ -1,0 +1,1 @@
+class ApplicationController < ActionController::Base\n  def hello_world\n    render plain: "Hello, World!"\n  end\nend

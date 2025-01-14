@@ -1,0 +1,1 @@
+<dependency>\n       <groupId>org.mindrot</groupId>\n       <artifactId>jbcrypt</artifactId>\n       <version>0.4</version>\n   </dependency>

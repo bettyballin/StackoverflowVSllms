@@ -1,0 +1,1 @@
+SELECT\n    r.session_id,\n    r.command,\n    r.percent_complete,\n    r.start_time,\n    r.estimated_completion_time,\n    r.total_elapsed_time,\n    r.reads,\n    r.writes,\n    r.logical_reads\nFROM\n    sys.dm_exec_requests AS r\nWHERE\n    r.command IN ('BACKUP DATABASE', 'RESTORE DATABASE');

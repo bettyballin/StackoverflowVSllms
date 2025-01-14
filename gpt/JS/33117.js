@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    function showSpinner() {\n        // Your spinner show logic here\n        console.log("Spinner is shown");\n        // Example: document.getElementById('spinner').style.display = 'block';\n    }\n</script>

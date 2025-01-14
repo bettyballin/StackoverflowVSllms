@@ -1,0 +1,1 @@
+$example1 = "Côte d'Ivoire";\n$example2 = "ÖFB Stiegl Cup";\n\n$utf8_example1 = convert_to_utf8($example1);\n$utf8_example2 = convert_to_utf8($example2);\n\n$xml_safe_example1 = create_xml_safe_string($utf8_example1);\n$xml_safe_example2 = create_xml_safe_string($utf8_example2);\n\necho $xml_safe_example1; // C&#244;te d'Ivoire\necho $xml_safe_example2; // &#214;FB Stiegl Cup

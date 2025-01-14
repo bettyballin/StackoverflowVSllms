@@ -1,0 +1,1 @@
+class UserTest extends TestCase {\n       public function testUserCreation() {\n           $user = new User(['name' => 'John Doe']);\n           $this->assertEquals('John Doe', $user->name);\n       }\n   }

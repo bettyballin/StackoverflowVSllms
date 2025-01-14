@@ -1,0 +1,1 @@
+WITH NumberedAccounts AS (\n       SELECT accountID, ROW_NUMBER() OVER (ORDER BY accountID) AS NewAccountID\n       FROM accounts\n   )\n   INSERT INTO AccountIDMapping (OldAccountID, NewAccountID)\n   SELECT accountID, NewAccountID\n   FROM NumberedAccounts;

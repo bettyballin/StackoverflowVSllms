@@ -1,0 +1,1 @@
+# app/models/rating.rb\n    class Rating < ApplicationRecord\n      belongs_to :rateable, polymorphic: true\n    end\n\n    # app/models/post.rb (example model to be rated)\n    class Post < ApplicationRecord\n      has_many :ratings, as: :rateable\n    end

@@ -1,0 +1,1 @@
+use Symfony\Component\Validator\Validation;\n   use Symfony\Component\Validator\Constraints as Assert;\n\n   $validator = Validation::createValidator();\n   $violations = $validator->validate($input, [\n       new Assert\NotBlank(),\n       new Assert\Email(),\n   ]);\n\n   if (count($violations) > 0) {\n       // Handle validation errors\n   }

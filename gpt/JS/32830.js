@@ -1,0 +1,1 @@
+javascript:(function() {\n    var allScripts = document.getElementsByTagName('script');\n    for (var i = 0; i < allScripts.length; i++) {\n        allScripts[i].type = 'javascript/disabled';\n    }\n    alert('JavaScript is now disabled.');\n})();

@@ -1,0 +1,1 @@
+$xml = simplexml_load_file('settings.xml');\n$uploadDir = (string) $xml->upload_dir;\n$displayNum = filter_var($xml->display_num, FILTER_VALIDATE_BOOLEAN);\n$names = [];\nforeach ($xml->names->name as $name) {\n    $names[(string) $name['key']] = (string) $name;\n}

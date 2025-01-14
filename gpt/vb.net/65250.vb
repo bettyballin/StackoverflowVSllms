@@ -1,0 +1,1 @@
+<Extension()>\nPublic Function HasID(Of T)(ByVal query As IQueryable(Of T), ByVal id As Long?) As IQueryable(Of T)\n    If id.HasValue Then\n        Return query.Where(Function(o) o.ID.Equals(id.Value))\n    Else\n        Return query\n    End If\nEnd Functio

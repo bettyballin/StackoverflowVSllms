@@ -1,0 +1,1 @@
+-- Create a message type\nCREATE MESSAGE TYPE AuditMessage\n    VALIDATION = NONE;\n\n-- Create a contract\nCREATE CONTRACT AuditContract\n    (AuditMessage SENT BY INITIATOR);

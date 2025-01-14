@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open("GET", "https://api.example.com/data", true); // true for asynchronous\nxhr.onreadystatechange = function() {\n    if (xhr.readyState == 4 && xhr.status == 200) {\n        console.log(xhr.responseText); // Handle the response text\n    }\n};\nxhr.send(null);

@@ -1,0 +1,1 @@
+from django.urls import path\nfrom . import views\n\nurlpatterns = [\n    path('chat-room/', views.chat_room, name='chat_room'),\n    path('get-updates/', views.get_updates, name='get_updates'),\n]

@@ -1,0 +1,1 @@
+import requests\n\nAPI_KEY = 'your_api_key_here'  # Replace with your WOT API key\nurl_to_check = 'http://example.com'\n\nresponse = requests.get(f'https://api.mywot.com/0.4/public_link_json2?hosts={url_to_check}/&key={API_KEY}')\n\nif response.status_code == 200:\n    result = response.json()\n    print(result)\nelse:\n    print(f"Error: {response.status_code}")

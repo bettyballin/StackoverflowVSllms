@@ -1,0 +1,1 @@
+SELECT \n    ColA,\n    ColB,\n    DateDiff("d", \n        DateSerial(Mid(ColA, 1, 4), Mid(ColA, 5, 2), Mid(ColA, 7, 2)), \n        DateSerial(Mid(ColB, 1, 4), Mid(ColB, 5, 2), Mid(ColB, 7, 2))\n    ) AS DateDifference\nFROM \n    YourTableName;

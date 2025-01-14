@@ -1,0 +1,1 @@
+my_list = [i for i in range(1000)]  # Example list with 1000 elements\n\nstart_index = 400\nend_index = 500\n\nfor i in range(start_index, end_index):\n    print(my_list[i])

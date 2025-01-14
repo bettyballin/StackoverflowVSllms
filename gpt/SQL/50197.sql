@@ -1,0 +1,1 @@
+CREATE TABLE new_table (\n       index_id INT AUTO_INCREMENT PRIMARY KEY,\n       record_id INT,\n       data_field VARCHAR(255),\n       UNIQUE (record_id, data_field)\n   );\n\n   CREATE TABLE new_table_index (\n       date DATE,\n       index_id INT,\n       FOREIGN KEY (index_id) REFERENCES new_table(index_id)\n   );

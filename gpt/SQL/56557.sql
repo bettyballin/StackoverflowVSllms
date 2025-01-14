@@ -1,0 +1,1 @@
+SELECT `c`.* FROM (SELECT `projects`.* FROM `projects` WHERE (cid = 1) ORDER BY RAND() LIMIT 3) AS `c` ORDER BY `name` ASC

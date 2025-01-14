@@ -1,0 +1,1 @@
+-- Example: Adding an index to improve query performance\nCREATE INDEX idx_table_column ON YourTable(YourColumn);

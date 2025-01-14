@@ -1,0 +1,1 @@
+class Default_Model_Guestbook extends Zend_Db_Table_Abstract\n{\n    protected $_name = 'guestbook';\n\n    public function addEntry($data)\n    {\n        // Business logic and database interaction combined\n        $this->insert($data);\n    }\n\n    // Other methods\n}

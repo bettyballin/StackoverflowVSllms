@@ -1,0 +1,1 @@
+<?php\ninclude 'header.php';\n?>\n<p>You have been logged out.</p>

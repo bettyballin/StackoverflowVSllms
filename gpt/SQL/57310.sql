@@ -1,0 +1,1 @@
+UPDATE comments\nSET is_read = TRUE\nWHERE id = :comment_id AND user_id = :user_id;

@@ -1,0 +1,1 @@
+class Foo\n{\n    protected $bar = array();\n\n    public function &getBar()\n    {\n        return $this->bar;\n    }\n}\n\nclass Foo2\n{\n    public $blip;\n\n    public function __construct(Foo $foo)\n    {\n        $this->blip = &$foo->getBar();\n    }\n}\n\n$foo = new Foo();\n$foo2 = new Foo2($foo);

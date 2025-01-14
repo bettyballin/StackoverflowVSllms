@@ -1,0 +1,1 @@
+class MyClass\n{\n    function myFunction()\n    {\n        // code\n    }\n}

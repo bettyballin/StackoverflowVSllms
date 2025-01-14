@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() {\n  document.getElementById('open-new-tab').addEventListener('click', function(event) {\n    event.preventDefault(); // Prevent the default link behavior\n\n    browser.tabs.create({\n      url: event.target.href // Open the link in a new tab\n    });\n  });\n});

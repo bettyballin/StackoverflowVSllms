@@ -1,0 +1,1 @@
+ALTER TABLE Orders\nADD CloseReasonID INT NULL;\n\nCREATE TABLE OrderCloseReasons (\n    CloseReasonID INT PRIMARY KEY,\n    ReasonDescription VARCHAR(255)\n);\n\n-- Optionally, add a foreign key constraint if you want to enforce referential integrity\nALTER TABLE Orders\nADD CONSTRAINT FK_CloseReason FOREIGN KEY (CloseReasonID) REFERENCES OrderCloseReasons(CloseReasonID);

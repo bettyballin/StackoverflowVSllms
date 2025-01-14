@@ -1,0 +1,1 @@
+DECLARE @TagID INT;\nEXEC GetOrCreateTagID @TagName = 'exampleTagName', @TagID = @TagID OUTPUT;\nSELECT @TagID;

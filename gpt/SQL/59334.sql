@@ -1,0 +1,1 @@
+WITH RankedEmployees AS (\n    SELECT emp_id, name, occupation,\n           ROW_NUMBER() OVER (PARTITION BY occupation ORDER BY emp_id) AS rn\n    FROM Employees\n)\nSELECT emp_id, name, occupation\nFROM RankedEmployees\nWHERE rn <= 3;

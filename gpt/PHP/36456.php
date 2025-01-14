@@ -1,0 +1,1 @@
+<?php\n// Assume $filename is a user-provided filename, sanitize it\n$filename = escapeshellarg('yourfile.tex'); // Replace 'yourfile.tex' with your variable\n\n// Construct the command\n$command = "pdflatex $filename";\n\n// Execute the command and capture the output\n$output = shell_exec($command);\n\n// Display the output\necho $output;\n?>

@@ -1,0 +1,1 @@
+CREATE TYPE store_opening_hours AS (\n    col1 text,\n    col2 text,\n    col3 text\n);

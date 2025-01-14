@@ -1,0 +1,1 @@
+import win32api\nimport win32con\n\n# Open a registry key\nkey = win32api.RegOpenKey(win32con.HKEY_CURRENT_USER, 'Software\\Microsoft\\Windows\\CurrentVersion\\Run', 0, win32con.KEY_READ)\n\n# Query a value\nvalue, reg_type = win32api.RegQueryValueEx(key, 'SomeValueName')\nprint(f'SomeValueName: {value}')\n\n# Close the key\nwin32api.RegCloseKey(key)

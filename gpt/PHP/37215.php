@@ -1,0 +1,1 @@
+$array = [\n    'name' => 'aalaap',\n    'age' => 29,\n    'location' => 'mumbai'\n];\n\n$flattened = array_merge(...array_map(null, array_keys($array), array_values($array)));\n\nprint_r($flattened);

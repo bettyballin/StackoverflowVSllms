@@ -1,0 +1,1 @@
+-- Get the old server name\n   SELECT @@SERVERNAME;\n\n   -- Drop the old server name\n   EXEC sp_dropserver 'MyServerABC';\n\n   -- Add the new server name\n   EXEC sp_addserver 'MyServerDEF', 'local';\n\n   -- Restart SQL Server service

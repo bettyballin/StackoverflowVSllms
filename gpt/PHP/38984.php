@@ -1,0 +1,1 @@
+echo "\n<form name=\"userForm\">\n    Username:\n    <input type=\"text\" name=\"username\" />\n    <br />\n    First name:\n    <input type=\"text\" name=\"firstname\" />\n    <br />\n    Last name:\n    <input type=\"text\" name=\"lastname\" />\n    <br />\n    <input name=\"Submit\" type=\"submit\" value=\"Update\" onclick=\"submitUserInfo();return false\"/>\n</form>";

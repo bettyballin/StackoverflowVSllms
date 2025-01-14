@@ -1,0 +1,1 @@
+-- Extract attribute names from all elements in the <doc>\nSELECT \n    T.N.value('local-name(.)', 'nvarchar(100)') AS AttributeName\nFROM \n    @xml.nodes('/doc/*/@*') AS T(N)

@@ -1,0 +1,1 @@
+class Menus:\n    def __init__(self, builder, controller):\n        self.builder = builder\n        self.controller = controller\n        self.menubar = self.builder.get_object('menubar')\n\n        # Connect menu signals to controller callbacks\n        self.builder.get_object('some_menu_item').connect('activate', self.controller.on_some_menu_item_activated)

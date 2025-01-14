@@ -1,0 +1,1 @@
+-- To export a DAC file:\n   -- 1. Right-click on the database in SSMS.\n   -- 2. Go to Tasks -> Extract Data-tier Application.\n   -- 3. Follow the wizard to create a .bacpac file.\n\n   -- To import a DAC file:\n   -- 1. Right-click on the Databases node in SSMS.\n   -- 2. Go to Import Data-tier Application.\n   -- 3. Follow the wizard to import the .bacpac file.

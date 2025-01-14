@@ -1,0 +1,1 @@
+<?php\n   // Load the DLL\n   $ffi = FFI::cdef("\n       // Define the function signatures from the DLL\n       int your_function_name(int arg1, double arg2);\n       // Add more function signatures as needed\n   ", "path/to/your.dll");\n\n   // Call a function from the DLL\n   $result = $ffi->your_function_name(42, 3.14);\n   echo "Result: $result\n";\n   ?>

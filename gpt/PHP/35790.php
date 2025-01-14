@@ -1,0 +1,1 @@
+$formatter = new IntlDateFormatter('fr_FR', IntlDateFormatter::LONG, IntlDateFormatter::SHORT);\n     echo $formatter->format(new DateTime());

@@ -1,0 +1,1 @@
+DECLARE\n    CURSOR c IS\n        SELECT NEEDED_FIELD FROM table_name WHERE condition;\n    var NEEDED_FIELD_TYPE;\nBEGIN\n    OPEN c;\n    FETCH c INTO var;\n    IF c%FOUND THEN\n        -- Process the found record\n    ELSE\n        -- Handle no data found\n    END IF;\n    CLOSE c;\nEXCEPTION\n    WHEN OTHERS THEN\n        -- Handle other exceptions\nEND;

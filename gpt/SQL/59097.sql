@@ -1,0 +1,1 @@
+SELECT prodid, issue\nFROM Sales \nWHERE custid = @custid \nAND datesold = (SELECT MAX(datesold) \n                FROM Sales s \n                WHERE s.prodid = Sales.prodid\n                  AND s.issue = Sales.issue\n                  AND s.custid = @custid)

@@ -1,0 +1,1 @@
+// Only for debugging purposes, ensure to remove or secure this code properly\n$raw_post_data = file_get_contents('php://input');\nvar_dump($raw_post_data);

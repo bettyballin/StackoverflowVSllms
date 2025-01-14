@@ -1,0 +1,1 @@
+MERGE INTO target_table t\nUSING (SELECT :key AS key, :value AS value FROM dual) s\nON (t.key = s.key)\nWHEN MATCHED THEN\n    UPDATE SET t.value = s.value\nWHEN NOT MATCHED THEN\n    INSERT (key, value) VALUES (s.key, s.value);

@@ -1,0 +1,1 @@
+DELETE FROM orders\nWHERE order_date IS NULL;

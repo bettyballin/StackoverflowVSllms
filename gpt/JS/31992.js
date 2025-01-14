@@ -1,0 +1,1 @@
+$(document).ready(function(){\n    $('#myAnchor').attr('href', '#').addClass('disabled');\n});

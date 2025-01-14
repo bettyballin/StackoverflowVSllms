@@ -1,0 +1,1 @@
+<!-- In the View script -->\n    <?php if ($this->canViewSegment): ?>\n        <!-- Segment that requires permissions -->\n    <?php endif; ?>

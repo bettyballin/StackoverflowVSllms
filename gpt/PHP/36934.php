@@ -1,0 +1,1 @@
+// In UsersController\npublic function register() {\n    $userId = $this->User->registerUser($this->request->getData());\n    $this->request->getSession()->write('User.UserId', $userId);\n\n    return $this->redirect(['controller' => 'Forms', 'action' => 'homepage']);\n}

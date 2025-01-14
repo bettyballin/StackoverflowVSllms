@@ -1,0 +1,1 @@
+<configuration>\n  <appSettings>\n    <add key="conStrVirtual" value="Provider=Microsoft.Jet.OleDb.4.0;Data Source=\\databaseServerName\databaseFolder$\databaseName.MDB;Jet OLEDB:Database Password=dumbPassword;"/>\n  </appSettings>\n  <system.web>\n    <identity impersonate="true" userName="yourDomain\yourUsername" password="yourPassword" />\n  </system.web>\n</configuration>

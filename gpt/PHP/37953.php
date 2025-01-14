@@ -1,0 +1,1 @@
+<?php\nsession_start();\n$_SESSION['msg'] = "ABC Message";\n?>

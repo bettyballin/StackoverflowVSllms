@@ -1,0 +1,1 @@
+import requests\n   \n   api_key = 'YOUR_API_KEY'\n   symbol = 'AAPL'\n   url = f'https://www.alphavantage.co/query?function=BALANCE_SHEET&symbol={symbol}&apikey={api_key}'\n   \n   response = requests.get(url)\n   data = response.json()\n   \n   print(data)

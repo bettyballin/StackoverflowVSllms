@@ -1,0 +1,1 @@
+BEGIN;\n\n-- Insert into table A and get the generated ID\nINSERT INTO table_a (column1, column2) VALUES ('value1', 'value2') RETURNING id;\n\n-- Use the generated ID to insert into table B\nINSERT INTO table_b (table_a_id, column3) VALUES (currval(pg_get_serial_sequence('table_a', 'id')), 'value3');\n\nCOMMIT;

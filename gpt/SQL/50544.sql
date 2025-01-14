@@ -1,0 +1,1 @@
+SELECT \n    [order], \n    CASE \n        WHEN ISDATE(orderDate) = 1 THEN CONVERT(DATETIME, orderDate)\n        ELSE NULL -- or some default value\n    END AS ConvertedOrderDate\nFROM orders;

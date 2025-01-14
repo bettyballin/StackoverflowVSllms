@@ -1,0 +1,1 @@
+<?php\n$handle = popen('python last 2>&1', 'r');\n$output = '';\n\nif (is_resource($handle)) {\n    while (!feof($handle)) {\n        $output .= fread($handle, 4096);\n    }\n    pclose($handle);\n}\n\nprint_r($output);\n?>

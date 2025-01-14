@@ -1,0 +1,1 @@
+class User {\n       public $name;\n       public $email;\n   }\n\n   $user = new User();\n   $property = 'name';\n   $$property = 'John Doe';\n   $user->$property = $$property;\n\n   echo $user->name; // Outputs 'John Doe'

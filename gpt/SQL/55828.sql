@@ -1,0 +1,1 @@
+WITH cte AS (\n     SELECT ...\n     FROM table2\n     WHERE ...\n   )\n   SELECT ...\n   FROM table1\n   JOIN cte ON table1.id = cte.id;

@@ -1,0 +1,1 @@
+EXEC DBMS_AQADM.GRANT_QUEUE_PRIVILEGE (\n       privilege      => 'DEQUEUE',\n       queue_name     => 'OWNER.YOUR_QUEUE_NAME',\n       grantee        => 'SUBSCRIBER'\n   );\n\n   EXEC DBMS_AQADM.GRANT_QUEUE_PRIVILEGE (\n       privilege      => 'ENQUEUE',\n       queue_name     => 'OWNER.YOUR_QUEUE_NAME',\n       grantee        => 'SUBSCRIBER'\n   );

@@ -1,0 +1,1 @@
+RESTORE LOG YourDatabaseName\n    FROM DISK = 'Path\To\Your\TransactionLogBackup1.trn'\n    WITH NORECOVERY;\n\n    RESTORE LOG YourDatabaseName\n    FROM DISK = 'Path\To\Your\TransactionLogBackup2.trn'\n    WITH STOPAT = 'YYYY-MM-DDTHH:MM:SS' -- specify the exact time you want to restore to\n    , NORECOVERY;

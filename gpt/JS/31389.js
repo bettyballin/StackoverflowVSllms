@@ -1,0 +1,1 @@
+$(document).ready(function(){\n    $('.image-scroller').slick({\n        dots: true,\n        infinite: true,\n        speed: 300,\n        slidesToShow: 1,\n        adaptiveHeight: true\n    });\n});

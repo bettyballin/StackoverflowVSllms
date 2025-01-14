@@ -1,0 +1,1 @@
+CREATE INDEX idx_example ON table_name (a ASC, b ASC, c ASC);

@@ -1,0 +1,1 @@
+// In a view script\n    <?php\n    // Set a breakpoint here\n    echo $this->escape($this->someVariable);\n    ?>

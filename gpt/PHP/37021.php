@@ -1,0 +1,1 @@
+if (!preg_match("/^\d{10}$|^\d{6}-\d{4}$/", $var)) {\n    // The entry didn't match\n}

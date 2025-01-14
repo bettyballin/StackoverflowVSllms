@@ -1,0 +1,1 @@
+ALTER TABLE CALLS ADD version INT DEFAULT 0;\n\n-- When reading the row\nSELECT amount, version FROM CALLS WHERE callId=1213;\n\n-- When updating the row\nUPDATE CALLS\nSET amount = new_amount, version = version + 1\nWHERE callId = 1213 AND version = current_version;

@@ -1,0 +1,1 @@
+<configuration>\n     <system.webServer>\n       <modules>\n         <add name="DynamicModuleLoader" type="Namespace.DynamicModuleLoader, YourAssemblyName"/>\n       </modules>\n     </system.webServer>\n   </configuration>

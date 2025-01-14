@@ -1,0 +1,1 @@
+<?php\n    echo "mod_rewrite is enabled";\n    ?>

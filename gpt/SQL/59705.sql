@@ -1,0 +1,1 @@
+SELECT kt.KeyField\nFROM KeyTable kt\nJOIN KeywordTable kwt ON kt.KeyID = kwt.KeyID\nWHERE kwt.Keyword IN ('keyword1', 'keyword2', 'keyword3')\nGROUP BY kt.KeyField\nHAVING COUNT(DISTINCT kwt.Keyword) = 3; -- Adjust this number based on the number of keywords

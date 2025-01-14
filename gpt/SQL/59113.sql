@@ -1,0 +1,1 @@
+-- insert_default_data.sql\nINSERT INTO example_table (id, name) VALUES (1, 'Default Name');\n-- Add more insert statements as needed

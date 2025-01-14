@@ -1,0 +1,1 @@
+-- Replace 'YourDatabase' with the name of your database\n   USE master;\n   GO\n   EXEC sp_detach_db @dbname = N'YourDatabase';

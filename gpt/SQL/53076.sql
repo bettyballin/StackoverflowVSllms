@@ -1,0 +1,1 @@
+SELECT * \nFROM tblTransaction AS tt\nWHERE EXISTS (\n    SELECT 1\n    FROM tblTenantTransCode AS tttc\n    WHERE tttc.ID = tt.TransactionCode\n      AND tttc.CheckbookCode = (\n          SELECT c.ID \n          FROM tblCheckbookCode AS c \n          WHERE c.Description = 'Rent Income'\n      )\n);

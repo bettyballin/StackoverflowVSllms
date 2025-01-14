@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\nBEGIN TRY\n    ALTER TABLE YourTable ADD NewColumn INT;\n    ALTER TABLE YourTable RENAME COLUMN OldColumn TO NewColumnName;\n    -- Add other schema changes here\n\n    COMMIT TRANSACTION;\nEND TRY\nBEGIN CATCH\n    ROLLBACK TRANSACTION;\n    -- Handle errors here (e.g., log the error, notify the user)\nEND CATCH;

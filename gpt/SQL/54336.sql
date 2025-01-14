@@ -1,0 +1,1 @@
+CREATE OR REPLACE PACKAGE my_package AS\n  TYPE my_type_map IS TABLE OF VARCHAR2(10) INDEX BY VARCHAR2(10);\n  \n  TYPE my_other_type IS OBJECT (\n    id NUMBER(15),\n    MEMBER PROCEDURE initialize(p_my_type_map my_type_map)\n  );\nEND my_package;\n/

@@ -1,0 +1,1 @@
+CREATE TYPE dbo.TagTableType AS TABLE \n(\n    Name NVARCHAR(255)\n);

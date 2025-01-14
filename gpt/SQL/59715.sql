@@ -1,0 +1,1 @@
+-- Check for triggers on the table\n   SELECT name \n   FROM sys.triggers \n   WHERE parent_id = OBJECT_ID('tablename');

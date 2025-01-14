@@ -1,0 +1,1 @@
+CREATE TABLE SpecialValues (\n        id INT PRIMARY KEY,\n        description VARCHAR(255)\n    );\n\n    INSERT INTO SpecialValues (id, description) VALUES (1234, 'No'), (1235, 'No');

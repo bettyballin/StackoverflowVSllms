@@ -1,0 +1,1 @@
+var myObject = new ActiveXObject("MyNamespace.MyClass");\nvar stringArray = myObject.GetArrayOfStrings();\n\nfor (var i = 0; i < stringArray.length; i++) {\n    WScript.Echo(stringArray[i]);\n}

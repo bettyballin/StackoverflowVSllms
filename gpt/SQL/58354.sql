@@ -1,0 +1,1 @@
+CREATE TABLE orders (\n      order_id INT,\n      order_date DATE,\n      customer_id INT,\n      amount DECIMAL(10,2)\n  )\n  PARTITION BY RANGE (YEAR(order_date)) (\n      PARTITION p0 VALUES LESS THAN (2022),\n      PARTITION p1 VALUES LESS THAN (2023)\n  );

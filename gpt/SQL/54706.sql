@@ -1,0 +1,1 @@
+-- Enable the STATISTICS TIME option\nSET STATISTICS TIME ON;\n\n-- Your query\nSELECT * FROM @search_temp_table;\n\n-- Disable the STATISTICS TIME option\nSET STATISTICS TIME OFF;

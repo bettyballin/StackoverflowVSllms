@@ -1,0 +1,1 @@
+CREATE TABLE transactions (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    amount DECIMAL(19, 4) NOT NULL\n);

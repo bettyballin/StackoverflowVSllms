@@ -1,0 +1,1 @@
+USE [master]\n   GO\n   CREATE LOGIN [DOMAIN\domain_admin] FROM WINDOWS;\n   GO

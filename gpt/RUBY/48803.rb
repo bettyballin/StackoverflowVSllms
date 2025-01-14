@@ -1,0 +1,1 @@
+<%= link_to "Delete", phone_number_path(phone_number_display), method: :delete, remote: true, data: { confirm: "Are you sure?" }, id: "delete_phone_number_link" %>

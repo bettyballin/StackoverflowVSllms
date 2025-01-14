@@ -1,0 +1,1 @@
+DECLARE @DateOnly DATE = '2008-12-25';\n   DECLARE @TimeOnly TIME = '14:30:00';

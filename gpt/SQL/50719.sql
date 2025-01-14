@@ -1,0 +1,1 @@
+SELECT \n    FilePath,\n    Mid(FilePath, InStrRev(FilePath, "\") + 1) AS FileName\nFROM \n    FileTable;

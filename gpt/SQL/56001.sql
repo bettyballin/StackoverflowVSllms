@@ -1,0 +1,1 @@
+CREATE TABLE y.a LIKE x.a;\nINSERT INTO y.a SELECT * FROM x.a;

@@ -1,0 +1,1 @@
+// Set execution time limit to 5 seconds\nini_set('max_execution_time', 5);\n\n// Set memory limit to 64MB\nini_set('memory_limit', '64M');\n\n// Disable dangerous functions\nini_set('disable_functions', 'exec,shell_exec,system,passthru,popen,proc_open');

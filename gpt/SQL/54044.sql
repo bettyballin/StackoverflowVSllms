@@ -1,0 +1,1 @@
+SELECT *\n   FROM YourTable\n   WHERE RowHash != dbo.GenerateRowHash(Column1, Column2, ...);

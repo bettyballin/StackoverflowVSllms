@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    // Your JavaScript code here\n    var example = "<div>Example</div>";\n    console.log(example);\n</script>

@@ -1,0 +1,1 @@
+-- Create a temporary table to hold intermediate results\nCREATE TEMPORARY TABLE temp_result AS\nSELECT column1, column2\nFROM original_table\nWHERE condition;\n\n-- Perform operations on the temporary table\nSELECT column1, COUNT(*)\nFROM temp_result\nGROUP BY column1;\n\n-- Drop the temporary table explicitly when done\nDROP TEMPORARY TABLE IF EXISTS temp_result;

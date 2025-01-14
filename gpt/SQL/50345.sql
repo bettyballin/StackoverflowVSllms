@@ -1,0 +1,1 @@
+SELECT DISTINCT i.*\nFROM Item i\nJOIN GroupItem gi ON i.ItemKey = gi.ItemKey\nJOIN (\n    SELECT gi.GroupKey\n    FROM GroupItem gi\n    WHERE gi.ItemKey = 1  -- Replace 1 with the given ItemKey\n) g ON gi.GroupKey = g.GroupKey;

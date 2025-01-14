@@ -1,0 +1,1 @@
+$fp = fopen($_SESSION['filename'], "r");\n\nif ($fp !== FALSE) {\n    // Skip the first line\n    fgetcsv($fp, 1000, ",");\n\n    while (($data = fgetcsv($fp, 1000, ",")) !== FALSE) {\n        $import = "INSERT INTO csv_table(name, address, age) VALUES ('$data[0]', '$data[1]', '$data[2]')";\n        mysql_query($import) or die(mysql_error());\n    }\n\n    fclose($fp);\n}

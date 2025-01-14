@@ -1,0 +1,1 @@
+function checkPassword(inputPassword, correctPassword) {\n    if (inputPassword == correctPassword) {\n        return true; // Correct password, grant access immediately\n    } else {\n        sleep(2); // Introduce a delay for incorrect password\n        return false; // Deny access\n    }\n}

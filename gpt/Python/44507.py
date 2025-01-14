@@ -1,0 +1,1 @@
+import PyPDF2\n\ndef extract_text_from_first_page(pdf_path):\n    with open(pdf_path, 'rb') as file:\n        reader = PyPDF2.PdfFileReader(file)\n        first_page = reader.getPage(0)\n        text = first_page.extract_text()\n        return text\n\npdf_path = 'example.pdf'\ntext = extract_text_from_first_page(pdf_path)\nprint(text)

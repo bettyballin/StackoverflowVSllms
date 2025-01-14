@@ -1,0 +1,1 @@
+<?php\nfunction TestBlockHTML($replStr) {\n    ob_start(); // Start output buffering\n    ?>\n    <html>\n    <body><h1><?php echo htmlspecialchars($replStr, ENT_QUOTES, 'UTF-8'); ?></h1>\n    </body>\n    </html>\n    <?php\n    $html = ob_get_contents(); // Get the contents of the buffer\n    ob_end_clean(); // End buffering and clean up\n    return $html;\n}\n?>

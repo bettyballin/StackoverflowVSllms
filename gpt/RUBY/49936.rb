@@ -1,0 +1,1 @@
+gem 'rspec', '~> 1.1.11'\n    gem 'rspec-rails', '~> 1.1.11'

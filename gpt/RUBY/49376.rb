@@ -1,0 +1,1 @@
+gem 'guard'\n    gem 'guard-rspec', require: false

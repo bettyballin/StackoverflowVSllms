@@ -1,0 +1,1 @@
+$data = file_get_contents('https://example.com/data.json');\n$json = json_decode($data, true);

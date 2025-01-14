@@ -1,0 +1,1 @@
+if (file_exists('something.php')) {\n    include_once('something.php');\n} else {\n    // Handle the error appropriately or log it\n}

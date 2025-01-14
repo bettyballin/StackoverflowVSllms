@@ -1,0 +1,1 @@
+<?php\n$pythonScript = 'path/to/your_script.py';\n$output = shell_exec("python3 $pythonScript 2>&1");\necho $output;\n?>

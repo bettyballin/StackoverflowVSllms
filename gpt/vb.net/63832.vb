@@ -1,0 +1,1 @@
+<%\nDim conn, sql\nSet conn = Server.CreateObject("ADODB.Connection")\nconn.Open "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\path\to\your\database.mdb;"\n\nsql = "ALTER TABLE YourTableName ADD COLUMN NewFieldName TEXT(50);"\nconn.Execute(sql)\n\nconn.Close\nSet conn = Nothing\n\nResponse.Write("Field added successfully.")\n%>

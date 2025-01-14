@@ -1,0 +1,1 @@
+// Assuming $DB is your Zend_Db_Adapter instance and $input is your user input\n$input = '%'.$input.'%';\n$sql = $DB->quoteInto("SELECT * FROM t WHERE myname LIKE ?", $input);\n\n// Execute the query\n$results = $DB->fetchAll($sql);

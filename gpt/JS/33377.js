@@ -1,0 +1,1 @@
+/**\n    * Makes an AJAX request to fetch user data.\n    * @param {number} userId - The ID of the user.\n    * @returns {Promise} - A promise that resolves with the user data.\n    */\n   function fetchUserData(userId) {\n       return $.ajax({\n           url: 'getUserData.php',\n           method: 'GET',\n           data: { id: userId }\n       });\n   }

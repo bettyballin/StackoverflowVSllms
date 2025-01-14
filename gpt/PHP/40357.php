@@ -1,0 +1,1 @@
+foreach ($_POST as $key => $value) {\n       $$key = $value;\n   }\n\n   // Now you can access form fields as variables\n   echo $username; // Assuming there was a form field named 'username'\n   echo $email;    // Assuming there was a form field named 'email'

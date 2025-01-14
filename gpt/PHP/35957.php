@@ -1,0 +1,1 @@
+use Phinx\Migration\AbstractMigration;\n\nclass MyNewMigration extends AbstractMigration\n{\n    public function change()\n    {\n        // Example: Add a new column to the users table\n        $table = $this->table('users');\n        $table->addColumn('new_column', 'string', ['limit' => 255])\n              ->update();\n    }\n}

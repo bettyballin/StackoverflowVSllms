@@ -1,0 +1,1 @@
+<%\nSession.Timeout = 20 ' Session timeout in minutes\n%>

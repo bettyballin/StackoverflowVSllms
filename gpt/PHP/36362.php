@@ -1,0 +1,1 @@
+define('DEFAULT_CONTROLLER', 'home');\n   define('DEFAULT_ACTION', 'defaultAction');\n   define('DEFAULT_SHOP_CONTROLLER', 'store');

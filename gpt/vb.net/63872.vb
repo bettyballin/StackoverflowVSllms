@@ -1,0 +1,1 @@
+<%\n' Setting session expiration\nSession("Expires") = DateAdd("n", 30, Now())\n\n' Checking session expiration\nDim expirationTime\nexpirationTime = Session("Expires")\nIf Now() > expirationTime Then\n    ' Handle session expiration\n    Session.Abandon()\nEnd If\n%>

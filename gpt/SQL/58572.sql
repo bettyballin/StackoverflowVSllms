@@ -1,0 +1,1 @@
+SELECT TRIM(\n       COALESCE(FirstName + ' ', '') + \n       COALESCE(MiddleName + ' ', '') + \n       COALESCE(LastName, '')\n      ) AS FullName\nFROM YourTable

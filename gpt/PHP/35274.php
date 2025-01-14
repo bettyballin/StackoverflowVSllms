@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $basePrice = 10;\n    $colorPrice = isset($_POST['color']) ? intval($_POST['color']) : 0;\n    $sizePrice = isset($_POST['size']) ? intval($_POST['size']) : 0;\n\n    $totalPrice = $basePrice + $colorPrice + $sizePrice;\n    echo json_encode(['totalPrice' => $totalPrice]);\n    exit;\n}\n?>

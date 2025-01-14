@@ -1,0 +1,1 @@
+for product in products_with_ranks:\n    ranks = product.productrank_set.all()\n    for rank in ranks:\n        print(product.name, rank.rank)

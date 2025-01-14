@@ -1,0 +1,1 @@
+<?php\n$arg1 = "initial";\n$arg3 = "middle";\n\n// Correct concatenation\n$arg1 .= "arg2" . $arg3 . "arg4";\n\necho $arg1; // Output: initialarg2middlearg4\n?>

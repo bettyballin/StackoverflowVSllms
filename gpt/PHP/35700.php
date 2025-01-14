@@ -1,0 +1,1 @@
+// In a view script (e.g., layout.phtml or a specific view script)\n   echo $this->navigation()->breadcrumbs();

@@ -1,0 +1,1 @@
+def anagram_signature(word)\n  sorted_word = word.chars.sort.join\n  sorted_word.gsub(/(.)\1+/) { |match| match.length.to_s + match[0] }\nend\n\n# Example usage\nword = "mississippi"\nsignature = anagram_signature(word)\nputs signature  # Output: "4impp4s"

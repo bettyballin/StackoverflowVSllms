@@ -1,0 +1,1 @@
+User.left_joins(:roles)\n    .where('roles.id IS NULL OR roles.id != ?', Role[:admin].id)

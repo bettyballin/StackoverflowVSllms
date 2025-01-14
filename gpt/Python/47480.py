@@ -1,0 +1,1 @@
+from fastapi import FastAPI\n\n   app = FastAPI()\n\n   @app.get('/api')\n   def read_api():\n       return {'message': 'Hello, World!'}\n\n   if __name__ == '__main__':\n       import uvicorn\n       uvicorn.run(app, host='127.0.0.1', port=8000)

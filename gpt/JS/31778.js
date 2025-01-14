@@ -1,0 +1,1 @@
+import './styles/main.css';  // Import your CSS file\n\n   // Your JavaScript code here

@@ -1,0 +1,1 @@
+-- 20231010_add_users_table.sql\n    CREATE TABLE users (\n        id INT PRIMARY KEY,\n        username VARCHAR(50) NOT NULL,\n        email VARCHAR(100) NOT NULL\n    );\n\n    -- 20231011_add_index_to_users_email.sql\n    CREATE INDEX idx_users_email ON users(email);

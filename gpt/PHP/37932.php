@@ -1,0 +1,1 @@
+// progress.php\nsession_start();\necho isset($_SESSION['progress']) ? $_SESSION['progress'] : 0;

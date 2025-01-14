@@ -1,0 +1,1 @@
+class Activity < ActiveRecord::Base\n  # Ensure you update any references to `context` to `activity_context`\nend

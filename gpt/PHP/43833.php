@@ -1,0 +1,1 @@
+$wsdl = 'http://172.27.7.123:8000/WordService?wsdl';\n    $client = new SoapClient($wsdl);

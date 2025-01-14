@@ -1,0 +1,1 @@
+from stegano import lsb\n\n# Path to the image with the hidden message\nimage_with_secret = "output.jpg"\n\n# Reveal the hidden message\nrevealed_message = lsb.reveal(image_with_secret)\nprint(revealed_message)  # This will print "This is a hidden message."

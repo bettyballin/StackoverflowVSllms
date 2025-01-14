@@ -1,0 +1,1 @@
+Namespace Acme.Business\n       Public Class User\n           ' Class implementation\n       End Class\n   End Namespace

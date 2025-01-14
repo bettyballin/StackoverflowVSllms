@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE S_S_TEST(\n  test_OUT OUT OAS_TYPES.REFCURSOR\n) \nAS\nBEGIN\n  OPEN test_OUT FOR      \n      SELECT *\n      FROM table_p;\n  -- Do not close the cursor here\nEND S_S_TEST;

@@ -1,0 +1,1 @@
+Dim myControl As New MyControl()\nDim originalSheep As Sheep = myControl.SheepProperty\nDim clonedSheep As Sheep = myControl.CloneSheepProperty()\n\n' Now you can modify myControl.SheepProperty and still have the clonedSheep as the original copy.

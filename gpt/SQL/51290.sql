@@ -1,0 +1,1 @@
+DECLARE @a INT\nDECLARE @sql NVARCHAR(MAX)\nDECLARE @b NVARCHAR(10)\n\nSET @a = 1\nWHILE @a < 30\nBEGIN\n    SET @b = CAST(@a AS NVARCHAR(10))\n    SET @sql = N'UPDATE source SET h = h + x_' + @b +\n               ' WHERE y_' + @b + ' = ''Sold'''\n               \n    EXEC sp_executesql @sql\n    SET @a = @a + 1\nEND

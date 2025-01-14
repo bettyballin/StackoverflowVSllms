@@ -1,0 +1,1 @@
+include 'file.php'; // valid\n      include('file.php'); // also valid\n      echo 'Hello, ', 'World!'; // valid\n      echo('Hello, ', 'World!'); // invalid

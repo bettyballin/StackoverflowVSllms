@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n    SELECT "Ugly OLAP name" as "Value"\n    FROM OpenQuery( OLAP, 'OLAP Query')\n) AS SubQuery\nWHERE "Value" > 0

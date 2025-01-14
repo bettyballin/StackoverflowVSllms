@@ -1,0 +1,1 @@
+<metadata>\n  <property xpath="customer/firstName" nillable="false" minOccurs="1" maxOccurs="1"/>\n  <property xpath="customer/lastName" nillable="false" minOccurs="1" maxOccurs="1"/>\n  <property xpath="customer/age" nillable="true"/>\n</metadata>

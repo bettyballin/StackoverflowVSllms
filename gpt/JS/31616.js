@@ -1,0 +1,1 @@
+function KeyPress() {\n    // Create a promise for the click event\n    const clickPromise = new Promise((resolve) => {\n        $("#" + HiddenButtonId).click(() => {\n            resolve();\n        });\n    });\n\n    // When the click event is resolved, load the content\n    clickPromise.then(() => {\n        $("#test").load("TempJumpToAJAX.aspx");\n    });\n}

@@ -1,0 +1,1 @@
+module Loggable\n     def log(message)\n       puts "LOG: #{message}"\n     end\n   end\n\n   class MyClass\n     include Loggable\n   end\n\n   class AnotherClass\n     include Loggable\n   end

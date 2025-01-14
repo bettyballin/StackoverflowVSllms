@@ -1,0 +1,1 @@
+// Debugging\nfile_put_contents('debug.log', $message);\n\nmail($to, $subject, $message, $headers);

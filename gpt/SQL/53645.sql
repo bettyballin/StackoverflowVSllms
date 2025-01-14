@@ -1,0 +1,1 @@
+CREATE TABLE prizes (\n       id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,\n       content BLOB\n   );

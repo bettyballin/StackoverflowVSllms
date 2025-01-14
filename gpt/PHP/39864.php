@@ -1,0 +1,1 @@
+<?php\n// Long-running process simulation\nfor ($i = 0; $i < 100; $i++) {\n    // Check if the connection has been aborted\n    if (connection_aborted()) {\n        // Clean up and exit\n        error_log("Client disconnected. Stopping processing.");\n        exit;\n    }\n    \n    // Simulate some processing\n    sleep(1);\n    echo "Processing chunk $i\n";\n    flush();\n}\n?>

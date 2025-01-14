@@ -1,0 +1,1 @@
+-- Create the new table\nCREATE TABLE NewTable (\n    Id NVARCHAR(255),\n    Name NVARCHAR(255)\n);\n\n-- Insert data into the new table\nINSERT INTO NewTable (Id, Name)\nSELECT\n    CASE\n        WHEN LeftId IS NOT NULL THEN LeftId\n        ELSE RightId\n    END AS Id,\n    Name\nFROM SourceTable\nWHERE LeftId IS NOT NULL OR RightId IS NOT NULL;

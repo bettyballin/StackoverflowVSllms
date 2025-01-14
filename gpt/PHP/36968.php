@@ -1,0 +1,1 @@
+class Relation_Model extends CI_Model {\n    private $user_model;\n\n    public function __construct(User_Model $user_model) {\n        parent::__construct();\n        $this->user_model = $user_model;\n    }\n\n    public function getRelation($userID) {\n        // Use $this->user_model instance here\n    }\n}

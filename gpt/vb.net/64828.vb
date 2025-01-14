@@ -1,0 +1,1 @@
+Using form As New YourFormWithFancyLabel()\n    form.ShowDialog()\nEnd Using

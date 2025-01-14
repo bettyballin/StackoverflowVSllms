@@ -1,0 +1,1 @@
+//= require jquery\n//= require jquery_ujs\n//= require jquery-ui/widgets/autocomplete\n//= require autocomplete-rails

@@ -1,0 +1,1 @@
+<?php\ndefine('DB_NAME', 'DB_NAME_HERE');\ndefine('DB_USER', 'DB_USER_HERE');\ndefine('DB_PASSWORD', 'DB_PASSWORD_HERE');\ndefine('DB_HOST', 'DB_HOST_HERE');

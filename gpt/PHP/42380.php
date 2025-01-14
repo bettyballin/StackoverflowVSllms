@@ -1,0 +1,1 @@
+// Accessing text field\n$field1Content = $_POST['field1'];\n\n// Accessing uploaded files\n$file1 = $_FILES['file1'];\n$file2 = $_FILES['file2'];

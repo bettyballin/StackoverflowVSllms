@@ -1,0 +1,1 @@
+// PUT request\nfetch('/MyController/Update/1', {\n    method: 'PUT',\n    headers: {\n        'Content-Type': 'application/json'\n    },\n    body: JSON.stringify({ /* data */ })\n}).then(response => {\n    // Handle response\n});\n\n// DELETE request\nfetch('/MyController/Delete/1', {\n    method: 'DELETE'\n}).then(response => {\n    // Handle response\n});

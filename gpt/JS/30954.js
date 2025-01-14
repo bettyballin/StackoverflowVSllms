@@ -1,0 +1,1 @@
+Event.observe('txtStartDate', 'input', function() {\n    alert('change ' + $F('txtStartDate'));\n});

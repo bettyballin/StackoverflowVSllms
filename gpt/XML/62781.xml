@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <compilation debug="true" targetFramework="2.0" />\n    <!-- Additional settings specific to ASP.NET 2.0 -->\n  </system.web>\n</configuration>

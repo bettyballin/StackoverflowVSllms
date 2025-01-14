@@ -1,0 +1,1 @@
+SELECT p.personName, c.companyName\nFROM Person p\nCROSS APPLY (\n    SELECT companyName\n    FROM Company c\n    WHERE p.companyId = c.companyId\n) Czip;

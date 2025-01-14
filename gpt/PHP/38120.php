@@ -1,0 +1,1 @@
+$regex = '/<img src="\\/foldera\\/folderb\\/folderc\\/images\\/([^"]*)" \\/>/';\n$replacement = '<img src="$1" />';\n$content = '<img src="/foldera/folderb/folderc/images/imgxyz.jpg" />'; // Example content\n\n$result = preg_replace($regex, $replacement, $content);\necho $result; // Outputs: <img src="imgxyz.jpg" />

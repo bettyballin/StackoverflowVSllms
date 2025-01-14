@@ -1,0 +1,1 @@
+# dir1.py\n    from mod_python import apache\n\n    class Dir1:\n        def dir2(self, req):\n            req.content_type = 'text/plain'\n            req.write("Hello from dir2")\n            return apache.OK

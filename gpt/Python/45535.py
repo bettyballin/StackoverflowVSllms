@@ -1,0 +1,1 @@
+value = b"\xff\x00\xff\x00"\n    self.connection.execute("INSERT INTO bin_test (b) VALUES (?))", (value,))

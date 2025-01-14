@@ -1,0 +1,1 @@
+-- Query to determine the role of the server in a failover setup\nSELECT \n    mirroring_role_desc,\n    database_id,\n    database_name = DB_NAME(database_id)\nFROM \n    sys.database_mirroring\nWHERE \n    mirroring_guid IS NOT NULL;

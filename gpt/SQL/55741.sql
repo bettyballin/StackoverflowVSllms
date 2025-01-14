@@ -1,0 +1,1 @@
+SELECT \n    s.sid,\n    s.serial#,\n    s.username,\n    s.program,\n    su.tablespace,\n    COUNT(su.segblk#) AS extents_in_use\nFROM \n    v$session s,\n    v$sort_usage su\nWHERE \n    s.saddr = su.session_addr\nGROUP BY \n    s.sid, s.serial#, s.username, s.program, su.tablespace\nORDER BY \n    su.tablespace, s.sid;

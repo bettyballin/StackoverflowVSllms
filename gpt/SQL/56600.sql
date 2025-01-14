@@ -1,0 +1,1 @@
+-- Example of dynamic SQL with OPTION (RECOMPILE)\n   DECLARE @sql NVARCHAR(MAX);\n   SET @sql = N'SELECT columns INTO #TempTable FROM LargeTable OPTION (RECOMPILE);';\n   EXEC sp_executesql @sql;

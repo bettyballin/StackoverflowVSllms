@@ -1,0 +1,1 @@
+<?php\n    $dsn = 'odbc:MSSQLServer';\n    $username = 'your_username';\n    $password = 'your_password';\n\n    $conn = odbc_connect($dsn, $username, $password);\n\n    if ($conn) {\n        echo "Connected successfully";\n        odbc_close($conn);\n    } else {\n        echo "Connection failed: " . odbc_errormsg();\n    }\n    ?>

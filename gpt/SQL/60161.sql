@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION PORTAL.md5hash (v_input_string IN VARCHAR2) RETURN VARCHAR2\nIS\n    v_checksum RAW(16);\nBEGIN\n    v_checksum := dbms_obfuscation_toolkit.md5(input_string => UTL_RAW.cast_to_raw(v_input_string));\n    RETURN RAWTOHEX(v_checksum);\nEND;\n/

@@ -1,0 +1,1 @@
+# Server and Client\nsock.setsockopt(socket.SOL_SOCKET, socket.SO_RCVBUF, 65536)\nsock.setsockopt(socket.SOL_SOCKET, socket.SO_SNDBUF, 65536)

@@ -1,0 +1,1 @@
+INSERT INTO map_lookup (map)\n   SELECT DISTINCT map FROM your_table;

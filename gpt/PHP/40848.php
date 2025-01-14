@@ -1,0 +1,1 @@
+$notFound = 0;\nfor ($i = 14; $i >= 2; $i--) {\n    if ($num % $i != 0) {\n        $notFound = 1;\n        break; // Exit the loop immediately when a non-divisible number is found\n    }\n}

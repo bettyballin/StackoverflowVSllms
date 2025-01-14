@@ -1,0 +1,1 @@
+Public Function convert(ByVal robert As String) As String\n    Try\n        robert = Replace(robert, "U", "A")\n        robert = Replace(robert, """", "A")\n    Catch ex As Exception\n        ' Handle exceptions\n    End Try\n    Return robert\nEnd Functio

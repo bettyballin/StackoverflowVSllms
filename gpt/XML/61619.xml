@@ -1,0 +1,1 @@
+<!-- Example of an acknowledgement message -->\n   <Acknowledgement>\n       <Status>Success</Status>\n       <MessageID>12345</MessageID>\n       <Timestamp>2023-10-01T12:34:56Z</Timestamp>\n   </Acknowledgement>

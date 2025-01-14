@@ -1,0 +1,1 @@
+<?php\n// submit.php\n\nif ($_SERVER["REQUEST_METHOD"] == "POST") {\n    // Retrieve the content from the editor\n    $content = $_POST['content'];\n\n    // Process the content as needed\n    // For example, save it to the database\n\n    echo "Content received: " . htmlspecialchars($content);\n}\n?>

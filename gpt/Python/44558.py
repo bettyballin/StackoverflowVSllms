@@ -1,0 +1,1 @@
+import pyautogui\nfrom PIL import Image\n\n# Take a screenshot of the entire screen\nscreenshot = pyautogui.screenshot()\n\n# Save the screenshot to a file\nscreenshot.save("full_screenshot.png")

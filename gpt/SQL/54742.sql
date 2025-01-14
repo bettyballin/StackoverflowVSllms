@@ -1,0 +1,1 @@
+-- Example of using an INT as the primary key\n   CREATE TABLE MyTable (\n       ID INT IDENTITY(1,1) PRIMARY KEY CLUSTERED,\n       GUID UNIQUEIDENTIFIER NOT NULL,\n       -- other columns\n   );

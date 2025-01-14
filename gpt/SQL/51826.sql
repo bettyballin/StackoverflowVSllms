@@ -1,0 +1,1 @@
+INSERT INTO example (hash) VALUE (MD5('hello'));

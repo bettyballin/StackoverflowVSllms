@@ -1,0 +1,1 @@
+CREATE TABLE bar (\n    column1 VARCHAR2(1) -- Adjust based on your actual column names and types\n);\n\nINSERT INTO bar (column1)\nSELECT column1 FROM #link#.foo;

@@ -1,0 +1,1 @@
+import time, sys\n   for i in range(200):\n       sys.stdout.write('reading %i\n' % i)\n       sys.stdout.flush()  # Add this line to flush the output\n       time.sleep(.02)

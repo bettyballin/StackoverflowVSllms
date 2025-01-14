@@ -1,0 +1,1 @@
+SELECT component_id, array_agg(set_id ORDER BY set_id) AS sets\n   FROM component_sets\n   GROUP BY component_id;

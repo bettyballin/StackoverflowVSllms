@@ -1,0 +1,1 @@
+try {\n    core_oo('post', 'arg1', 'arg2');\n} catch (Exception $e) {\n    echo 'Error: ',  $e->getMessage(), "\n";\n}

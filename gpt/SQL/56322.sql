@@ -1,0 +1,1 @@
+SELECT list_id, address_id, COUNT(*) as count\nFROM lnk_lists_addresses\nGROUP BY list_id, address_id\nHAVING COUNT(*) > 1\nORDER BY count DESC

@@ -1,0 +1,1 @@
+ob_start();\n   // Generate output\n   $output = ob_get_clean();\n   echo $output;

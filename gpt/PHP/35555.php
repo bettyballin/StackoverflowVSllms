@@ -1,0 +1,1 @@
+<?php\n$apiUrl = "http://your-dotnet-api-url/api/data";\n$response = file_get_contents($apiUrl);\n$data = json_decode($response, true);\n\nif ($data && is_array($data)) {\n    foreach ($data as $item) {\n        echo "Item: " . $item['your_field'] . "<br>";\n    }\n} else {\n    echo "Failed to retrieve data.";\n}\n?>

@@ -1,0 +1,1 @@
+import socket\n\n# Create a socket\nsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n\n# Set the SO_REUSEADDR option\nsock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)\n\n# Bind the socket to an address and port\nsock.bind(('0.0.0.0', 8080))\n\n# Listen for incoming connections\nsock.listen(5)\n\nprint("Server is listening on port 8080")

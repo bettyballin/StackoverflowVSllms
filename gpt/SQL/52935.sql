@@ -1,0 +1,1 @@
+SELECT field_a\nFROM my_table\nWHERE field_b IN (SELECT unnest(my_function(field_c)));

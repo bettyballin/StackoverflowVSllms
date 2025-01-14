@@ -1,0 +1,1 @@
+-- Convert Unix timestamp to MySQL DATETIME\nSELECT FROM_UNIXTIME(your_timestamp) AS mysql_datetime;\n\n-- Convert MySQL DATETIME to Unix timestamp\nSELECT UNIX_TIMESTAMP(your_datetime) AS php_timestamp;

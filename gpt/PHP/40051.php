@@ -1,0 +1,1 @@
+<?php\n// Call a Python script to control a USB fan\n$output = shell_exec('python3 control_usb_fan.py --speed 5');\necho $output;\n?>

@@ -1,0 +1,1 @@
+CREATE PROCEDURE SafeProcedure\nAS\nBEGIN\n    IF IS_ROLEMEMBER('db_datareader') = 1\n    BEGIN\n        -- The user can read data\n        SELECT * FROM SomeTable;\n    END\n    ELSE\n    BEGIN\n        -- Deny access\n        RAISERROR('Permission denied.', 16, 1);\n    END\nEND;

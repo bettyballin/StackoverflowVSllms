@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetUserDetails\n   @UserId INT\n   AS\n   BEGIN\n       SELECT * FROM Users WHERE id = @UserId;\n   END;\n\n   -- Call the stored procedure\n   EXEC GetUserDetails @UserId = 1;

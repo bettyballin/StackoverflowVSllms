@@ -1,0 +1,1 @@
+require 'socket'\n\nserver = TCPServer.new('localhost', 2000)\nputs "Server is running on port 2000..."\n\nloop do\n  client = server.accept\n  puts "Client connected..."\n\n  File.open('received_file', 'wb') do |file|\n    while chunk = client.read(1024)\n      file.write(chunk)\n    end\n  end\n\n  puts "File received successfully."\n  client.close\nend

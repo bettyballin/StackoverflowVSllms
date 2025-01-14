@@ -1,0 +1,1 @@
+function forceRepaint() {\n    var body = document.body;\n    body.style.display = 'none';\n    body.offsetHeight; // Trigger reflow\n    body.style.display = 'block';\n}\n\ndocument.ondblclick = forceRepaint;

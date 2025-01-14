@@ -1,0 +1,1 @@
+EXEC sp_fulltext_catalog 'YourCatalogName', 'start_full'

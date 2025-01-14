@@ -1,0 +1,1 @@
+Imports AutoMapper\n\nPublic Class MappingProfile\n    Inherits Profile\n\n    Public Sub New()\n        ' Example mapping configuration\n        CreateMap(Of POCOMyEntity, EFMyEntity)().ReverseMap()\n        ' Add other mappings here\n    End Sub\nEnd Class

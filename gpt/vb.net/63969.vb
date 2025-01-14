@@ -1,0 +1,1 @@
+Imports System.Threading.Tasks\n\nPublic Async Function IsCDInsertedAsync() As Task(Of Boolean)\n    Return Await Task.Run(Function() IsCDInserted())\nEnd Functio

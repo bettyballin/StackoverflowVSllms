@@ -1,0 +1,1 @@
+Dim defaultValue As Integer = -1\nDim parseResult As Integer\nDim parseSuccess As Boolean = Integer.TryParse("", parseResult)\n\nIf parseSuccess Then\n    defaultValue = parseResult\nEnd If\n\nDebug.Print("defaultValue {0}", defaultValue)\nDebug.Print("parseSuccess {0}", parseSuccess)

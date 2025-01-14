@@ -1,0 +1,1 @@
+amespace :api do\n     namespace :v1 do\n       resources :foos, only: [:update]\n     end\n   end

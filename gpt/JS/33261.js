@@ -1,0 +1,1 @@
+const wkhtmltopdf = require('wkhtmltopdf');\nconst fs = require('fs');\n\nwkhtmltopdf('<html>Your HTML content</html>', { output: 'example.pdf' });

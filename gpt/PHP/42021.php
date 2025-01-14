@@ -1,0 +1,1 @@
+<?php\n$ratings = array(\n    1 => 1,\n    2 => 3,\n    3 => 6,\n    4 => 3,\n    5 => 3\n);\n\n$weightedSum = 0;\n$totalWeight = 0;\n\nforeach ($ratings as $rating => $count) {\n    $weightedSum += $rating * $count;\n    $totalWeight += $count;\n}\n\n$weightedMean = $weightedSum / $totalWeight;\n\necho "The weighted mean is: " . $weightedMean;\n?>

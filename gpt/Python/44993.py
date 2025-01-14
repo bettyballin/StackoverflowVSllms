@@ -1,0 +1,1 @@
+import mysql.connector\n\n    conn = mysql.connector.connect(\n        host="your_host",\n        user="your_user",\n        password="your_password",\n        database="your_database",\n        charset="utf8mb4"\n    )

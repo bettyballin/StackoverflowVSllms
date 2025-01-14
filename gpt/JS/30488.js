@@ -1,0 +1,1 @@
+$("#UserSearchBox").autocomplete('FindUser.ashx', \n{\n  minChars: 2,\n  width: 400,\n  max: 5,\n  parse: function(data) \n  {\n    return $.map(eval(data), function(row) \n    {\n      return {\n        data: row,\n        value: row.UserID,\n        result: "" \n      };\n    });\n  },\n  formatItem: function(item) \n  {\n    return FormatUser(item);\n  }\n});

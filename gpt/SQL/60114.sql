@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetEmployeeDetails\n    @EmployeeID INT\nAS\nBEGIN\n    SELECT FirstName, LastName, Department\n    FROM Employees\n    WHERE EmployeeID = @EmployeeID;\nEND;

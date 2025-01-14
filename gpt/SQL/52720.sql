@@ -1,0 +1,1 @@
+WITH SelectedPosts AS (\n    SELECT p.id, p.title\n    FROM posts p\n    ORDER BY p.id -- or any other criteria for selecting posts\n    LIMIT 10\n)\nSELECT sp.id, sp.title, c.category_name\nFROM SelectedPosts sp\nINNER JOIN post_to_category ptc ON sp.id = ptc.post_id\nINNER JOIN categories c ON ptc.category_id = c.id;

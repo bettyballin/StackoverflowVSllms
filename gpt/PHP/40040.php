@@ -1,0 +1,1 @@
+echo '<form action="main.php" method="get">';\necho '  <input type="hidden" name="selected" value="user_manager_main" />';\necho '  <input type="hidden" name="mode" value="set_inactive" />';\necho '  <input type="hidden" name="set_this_id" value="'.$row['USER_ID'].'" />';\necho '  <input type="submit" value="Submit" />';\necho '</form>';

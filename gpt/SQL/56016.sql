@@ -1,0 +1,1 @@
+CREATE INDEX genuser.idx$$_0bdd0011 ON your_table(your_column);

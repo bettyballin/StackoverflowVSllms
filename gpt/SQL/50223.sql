@@ -1,0 +1,1 @@
+UPDATE my_table\nSET day = DATE(FROM_UNIXTIME(date)),\n    month = DATE_FORMAT(FROM_UNIXTIME(date), '%Y-%m'),\n    week = DATE_FORMAT(FROM_UNIXTIME(date), '%Y-%u'),\n    year = YEAR(FROM_UNIXTIME(date));

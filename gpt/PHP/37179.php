@@ -1,0 +1,1 @@
+function setAge($age) {\n    if ($age < 0 || $age > 120) {\n        throw new DomainException('Age must be between 0 and 120.');\n    }\n    // Proceed with setting the age\n}\n\ntry {\n    setAge(150);\n} catch (DomainException $e) {\n    echo 'Caught exception: ' . $e->getMessage();\n}

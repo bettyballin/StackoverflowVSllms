@@ -1,0 +1,1 @@
+// Include the CSRF token in AJAX requests\n   $.ajax({\n       type: 'POST',\n       url: 'your_script.php',\n       data: {cmd: 'your_command', csrf_token: csrf_token},\n       success: function(response) {\n           // handle response\n       }\n   });

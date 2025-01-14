@@ -1,0 +1,1 @@
+$redis = new Redis();\n    $redis->connect('127.0.0.1', 6379);\n\n    $tree = $redis->get('decision_tree');\n    if ($tree === false) {\n        $tree = createDecisionTree(); // Your function to create the tree\n        $redis->set('decision_tree', serialize($tree));\n    } else {\n        $tree = unserialize($tree);\n    }

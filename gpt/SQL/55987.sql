@@ -1,0 +1,1 @@
+SELECT \n    i.id,\n    i.title,\n    s.score\nFROM \n    illustrations i\nJOIN \n    illustration_scores s ON i.id = s.illustration_id\nORDER BY \n    s.score DESC\nLIMIT 20;

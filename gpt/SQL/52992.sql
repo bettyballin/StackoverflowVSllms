@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table_name\nWHERE YEAR(date_field) = your_year\nAND MONTH(date_field) = your_month;

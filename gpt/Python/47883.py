@@ -1,0 +1,1 @@
+import ctypes\nimport _ctypes\n\n# Load the DLL\ndll = ctypes.CDLL('your_dll.dll')\n\n# Perform your operations with the DLL\n# ...\n\n# Unload the DLL\n_ctypes.FreeLibrary(dll._handle)\n\n# Optionally set dll to None to help the garbage collector\ndll = None

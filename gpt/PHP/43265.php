@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\nif (!isset($_SESSION['formData'])) {\n    // Redirect to buy.php if no session data is found\n    header('Location: buy.php');\n    exit;\n}\n\n// Process the final confirmation and clear session\n// ...\n\n// Clear session data\nunset($_SESSION['formData']);\n\necho "Thank you for your purchase!";\n?>

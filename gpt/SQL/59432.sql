@@ -1,0 +1,1 @@
+CREATE TRIGGER monitor_field_update\nAFTER UPDATE ON your_table\nFOR EACH ROW\nWHEN (OLD.your_field != NEW.your_field)\nBEGIN\n    UPDATE another_table\n    SET another_field = NEW.your_field\n    WHERE condition_to_identify_record;\nEND;

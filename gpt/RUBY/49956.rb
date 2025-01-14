@@ -1,0 +1,1 @@
+# images_controller.rb\n\n   private\n\n   def image_params\n     params.require(:image).permit(:filename, :image_file, :image_file_url, :image_file_temp, :description)\n   end

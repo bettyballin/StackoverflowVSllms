@@ -1,0 +1,1 @@
+# settings.py\n\n# Ensure all apps use the same SECRET_KEY\nSECRET_KEY = 'your-shared-secret-key'\n\n# Ensure the session cookie is shared across the subdomain\nSESSION_COOKIE_DOMAIN = '.example.com'\n\n# Use the database-backed session engine\nSESSION_ENGINE = 'django.contrib.sessions.backends.db'\n\n# Ensure the session cookie name is the same\nSESSION_COOKIE_NAME = 'sessionid'

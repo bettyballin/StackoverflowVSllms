@@ -1,0 +1,1 @@
+DBCC CHECKIDENT (SyncSession, RESEED, 0);

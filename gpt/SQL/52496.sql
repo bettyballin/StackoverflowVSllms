@@ -1,0 +1,1 @@
+-- Export data to a CSV file\nEXEC xp_cmdshell 'bcp "SELECT * FROM YourDatabase.dbo.YourTable_YYYYMM" queryout "C:\Backup\YourTable_YYYYMM.csv" -c -t, -T -S your_server_name';

@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\nUPDATE mytable WITH (UPDLOCK)\nSET counter = counter + 1;\n\nCOMMIT TRANSACTION;

@@ -1,0 +1,1 @@
+// Webhook handler example\n   $input = @file_get_contents("php://input");\n   $event = json_decode($input);\n\n   if ($event->type == 'charge.succeeded') {\n       $userEmail = $event->data->object->billing_details->email;\n       $user = User::newFromName($userEmail);\n       if ($user->isLoggedIn()) {\n           $user->addGroup('paid');\n       }\n   }

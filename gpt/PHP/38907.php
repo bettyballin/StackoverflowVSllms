@@ -1,0 +1,1 @@
+global $orderDate;\n$orderDate = strftime('%c');\n$orderTimestamp = strtotime($orderDate);\nprint("Order Date: " . date("M/d/y h:i a", $orderTimestamp) . "<br />");

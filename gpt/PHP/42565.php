@@ -1,0 +1,1 @@
+// Set the session cookie lifetime to 7 days (604800 seconds)\nini_set('session.cookie_lifetime', 604800);\n\n// Start the session\nsession_start();

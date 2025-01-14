@@ -1,0 +1,1 @@
+// Example for JavaScript context\n    echo '<script>var userInput = ' . json_encode($userInput) . ';</script>';

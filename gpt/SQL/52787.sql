@@ -1,0 +1,1 @@
+-- Add the new column to the table\nALTER TABLE table1 ADD COLUMN field2 TEXT;\n\n-- Update the existing rows to set the value for the new column\nUPDATE table1 SET field2 = 'value';

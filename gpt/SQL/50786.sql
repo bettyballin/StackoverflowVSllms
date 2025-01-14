@@ -1,0 +1,1 @@
+-- Check if the global temp table exists\nSELECT * FROM tempdb.sys.tables WHERE name LIKE '##temptable%'

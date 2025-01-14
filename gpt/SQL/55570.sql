@@ -1,0 +1,1 @@
+CREATE TEMPORARY TABLE temp_table2 AS\nSELECT person_uid, period\nFROM table2\nWHERE period IN (SELECT DISTINCT period FROM table1);\n\nSELECT t1.col1, t1.col2\nFROM table1 t1\nLEFT OUTER JOIN temp_table2 t2\nON t1.person_uid = t2.person_uid\nAND t1.period = t2.period;

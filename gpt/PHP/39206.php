@@ -1,0 +1,1 @@
+try {\n    // some code\n} catch (Exception $e) {\n    // Log the exception details\n    error_log("Exception caught: " . $e->getMessage() . " in " . $e->getFile() . " on line " . $e->getLine());\n    \n    // Optionally rethrow the exception\n    throw $e;\n}

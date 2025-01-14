@@ -1,0 +1,1 @@
+<?php\ndefined('BASEPATH') OR exit('No direct script access allowed');\n\n// Include the original string helper functions\ninclude_once(APPPATH . 'helpers/string_helper.php');\n\n// Add your custom functions\nif (!function_exists('my_custom_function')) {\n    function my_custom_function($param) {\n        return 'This is a custom function with parameter: ' . $param;\n    }\n}

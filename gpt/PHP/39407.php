@@ -1,0 +1,1 @@
+http_response_code(404);\ninclude('error/notfound.php');\nexit;

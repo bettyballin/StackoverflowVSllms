@@ -1,0 +1,1 @@
+WITH RECURSIVE RedirectCTE AS (\n    SELECT id, redirectid, data\n    FROM your_table\n    WHERE id = :start_id  -- Replace :start_id with the starting id\n\n    UNION ALL\n\n    SELECT t.id, t.redirectid, t.data\n    FROM your_table t\n    INNER JOIN RedirectCTE r\n        ON t.id = r.redirectid\n)\nSELECT id, data\nFROM RedirectCTE\nWHERE redirectid IS NULL;

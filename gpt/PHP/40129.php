@@ -1,0 +1,1 @@
+$articleName = $this->uri->segment('articles');\n\n$article = new Articles_Model();\n\n$data = $article->getArticleUsingSlug($articleName);\n\nif (!$data) {\n    throw new HTTP_Exception_404('Article not found');\n}

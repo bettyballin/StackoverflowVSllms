@@ -1,0 +1,1 @@
+SELECT \n      blocking_session_id AS BlockerSessionID,\n      session_id AS BlockedSessionID,\n      wait_type,\n      wait_time / 1000 AS WaitTime_ms,\n      blocking_session_id\n  FROM \n      sys.dm_exec_requests\n  WHERE \n      blocking_session_id <> 0;

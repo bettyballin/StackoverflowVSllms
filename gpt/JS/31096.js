@@ -1,0 +1,1 @@
+// Sending window (iframe or parent):\nwindow.postMessage('message', 'https://target-domain.com');\n\n// Receiving window (target domain):\nwindow.addEventListener('message', (event) => {\n  if (event.origin === 'https://source-domain.com') {\n    console.log(event.data);\n  }\n});

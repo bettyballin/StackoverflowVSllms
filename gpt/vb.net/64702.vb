@@ -1,0 +1,1 @@
+Sub UseDllFunction()\n    SetDllPath\n    Dim result As Long\n    result = FortranCall(1, "Test")\n    MsgBox result\nEnd Sub

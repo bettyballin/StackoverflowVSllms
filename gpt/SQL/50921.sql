@@ -1,0 +1,1 @@
+SELECT \n    id, \n    address, \n    latitude, \n    longitude,\n    ( 3959 * acos( cos( radians(37.7749) ) * cos( radians( latitude ) ) * cos( radians( longitude ) - radians(-122.4194) ) + sin( radians(37.7749) ) * sin( radians( latitude ) ) ) ) AS distance \nFROM \n    addresses \nHAVING \n    distance < 20\nORDER BY \n    distance;

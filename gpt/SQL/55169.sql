@@ -1,0 +1,1 @@
+SELECT constraint_name\nFROM user_constraints\nWHERE table_name = 'CHILD_TABLE' AND constraint_type = 'R';

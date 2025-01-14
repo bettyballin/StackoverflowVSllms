@@ -1,0 +1,1 @@
+SELECT * FROM your_table WHERE REGEXP_LIKE(your_column, 'your_regex');

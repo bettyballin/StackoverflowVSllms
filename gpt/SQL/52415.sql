@@ -1,0 +1,1 @@
+CREATE TABLE Employee (\n    id INT PRIMARY KEY,\n    name VARCHAR(100),\n    department_id INT\n);\n\nINSERT INTO Employee (id, name, department_id) VALUES (1, 'John Doe', 101);

@@ -1,0 +1,1 @@
+SELECT *\nFROM group_table\nWHERE ArrivalDate <= 'given_date' AND DepartureDate >= 'given_date';

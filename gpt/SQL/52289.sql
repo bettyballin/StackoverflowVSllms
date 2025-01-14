@@ -1,0 +1,1 @@
+CREATE TABLE MyEntityTable (\n    Id INT IDENTITY PRIMARY KEY,\n    MyData VARBINARY(MAX)\n);

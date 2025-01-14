@@ -1,0 +1,1 @@
+-- Example of using a temporary table\n   SELECT 'OUT', *\n   INTO #TempOut\n   FROM BALANCES(@LVL_NUM)\n   INNER JOIN ALLOCN_SUMRY(@LVL_NUM);\n\n   INSERT INTO ALLOCS\n   SELECT * FROM #TempOut;\n\n   -- Clean up\n   DROP TABLE #TempOut;

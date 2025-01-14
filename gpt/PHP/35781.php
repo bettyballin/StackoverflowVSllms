@@ -1,0 +1,1 @@
+$url = 'https://www.example.com';\n   if (filter_var($url, FILTER_VALIDATE_URL)) {\n       echo "Valid URL.";\n   } else {\n       echo "Invalid URL.";\n   }

@@ -1,0 +1,1 @@
+public function setChangeSort($changeSort) { self::$changeSort = $changeSort; }\npublic function getChangeSort() { return self::$changeSort; }

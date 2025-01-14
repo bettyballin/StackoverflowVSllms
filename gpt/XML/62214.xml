@@ -1,0 +1,1 @@
+<InstallExecuteSequence>\n     <RemoveExistingProducts After="InstallInitialize"/>\n   </InstallExecuteSequence>

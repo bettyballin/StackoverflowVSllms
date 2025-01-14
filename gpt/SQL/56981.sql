@@ -1,0 +1,1 @@
+LOAD DATA\n   INFILE 'data_dump.csv'\n   INTO TABLE DEST_Table\n   FIELDS TERMINATED BY ',' \n   (c1, c5, c6)

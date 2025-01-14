@@ -1,0 +1,1 @@
+class ProductController {\n    private $model;\n    private $view;\n\n    public function __construct($model, $view) {\n        $this->model = $model;\n        $this->view = $view;\n    }\n\n    public function display($params) {\n        $products = $this->model->getProducts($params);\n        $this->view->render($products);\n    }\n}

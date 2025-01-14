@@ -1,0 +1,1 @@
+rails action_text:install\n    rails db:migrate

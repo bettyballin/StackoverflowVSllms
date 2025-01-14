@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_check_salary\nBEFORE INSERT OR UPDATE ON employees\nFOR EACH ROW\nBEGIN\n  IF :NEW.salary <= 0 THEN\n    RAISE_APPLICATION_ERROR(-20001, 'Salary must be greater than 0');\n  END IF;\nEND;

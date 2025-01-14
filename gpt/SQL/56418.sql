@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS total_books\nFROM books_audit\nWHERE operation_time <= LAST_DAY(DATE_SUB(CURDATE(), INTERVAL 1 MONTH)) \n  AND id NOT IN (\n      SELECT id\n      FROM books_audit\n      WHERE operation = 'D' \n        AND operation_time <= LAST_DAY(DATE_SUB(CURDATE(), INTERVAL 1 MONTH))\n);

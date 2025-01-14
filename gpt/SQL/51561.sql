@@ -1,0 +1,1 @@
+WITH LatestRecords AS (\n    SELECT\n        ID,\n        Name,\n        Timestamp,\n        Data,\n        ROW_NUMBER() OVER (PARTITION BY Name ORDER BY Timestamp DESC) AS rn\n    FROM\n        YourTableName\n)\nSELECT\n    ID,\n    Name,\n    Timestamp,\n    Data\nFROM\n    LatestRecords\nWHERE\n    rn = 1;

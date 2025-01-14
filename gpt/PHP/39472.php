@@ -1,0 +1,1 @@
+Array\n(\n    [0] => Some\n    [1] => terms\n    [2] => with\n    [3] => spaces\n    [4] => between\n)

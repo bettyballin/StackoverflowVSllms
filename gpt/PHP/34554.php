@@ -1,0 +1,1 @@
+// Example discount application\nfunction applyDiscount($total, $discountCode) {\n    $discount = getDiscountValue($discountCode);\n    if ($discount >= $total) {\n        logError("Discount greater than or equal to total detected. Discount Code: " . $discountCode);\n        return $total; // or handle appropriately\n    }\n    return $total - $discount;\n}

@@ -1,0 +1,1 @@
+# config/routes.rb\nRails.application.routes.draw do\n  resources :movies do\n    resources :filming_locations, only: [:index, :show]\n    resources :characters, only: [:index, :show]\n  end\n  resources :actors, only: [:index, :show]\n  resources :users, only: [:show]\nend

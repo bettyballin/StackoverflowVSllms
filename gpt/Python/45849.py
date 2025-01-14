@@ -1,0 +1,1 @@
+import base64\n\ndef binary_file_to_ascii(file_path):\n    with open(file_path, 'rb') as binary_file:\n        binary_data = binary_file.read()\n        ascii_data = base64.b64encode(binary_data).decode('ascii')\n    return ascii_data\n\n# Example usage:\nfile_path = 'path/to/your/binaryfile'\nascii_characters = binary_file_to_ascii(file_path)\nprint(ascii_characters)

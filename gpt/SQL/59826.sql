@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION before_insert_trigger_function()\nRETURNS TRIGGER AS $$\nBEGIN\n    IF NEW.some_column < 0 THEN\n        RAISE EXCEPTION 'some_column cannot be negative';\n    END IF;\n    RETURN NEW;\nEND;\n$$ LANGUAGE plpgsql;\n\nCREATE TRIGGER before_insert_trigger\nBEFORE INSERT ON your_table\nFOR EACH ROW\nEXECUTE FUNCTION before_insert_trigger_function();

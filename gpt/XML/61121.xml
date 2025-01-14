@@ -1,0 +1,1 @@
+<sessionState mode="Custom" customProvider="OracleSessionStateStore">\n  <providers>\n    <add name="OracleSessionStateStore"\n         type="Oracle.Web.SessionState.OracleSessionStateStore, Oracle.DataAccess"\n         connectionString="Data Source=MyOracleDB;User Id=myUsername;Password=myPassword;" />\n  </providers>\n</sessionState>

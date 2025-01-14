@@ -1,0 +1,1 @@
+DECLARE @value INT\nSET @value = 14\n\nSELECT \n    Table1.[id] AS ID,\n    Table2_1.[name] AS column1,\n    Table2_2.[name] AS column2\nFROM \n    Table1\nLEFT JOIN \n    Table2 AS Table2_1 ON Table1.column1 = Table2_1.id\nLEFT JOIN \n    Table2 AS Table2_2 ON Table1.column2 = Table2_2.id\nWHERE \n    Table1.[id] = @value

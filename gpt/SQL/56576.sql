@@ -1,0 +1,1 @@
+CREATE OR REPLACE PACKAGE BODY MyPackage AS\n    PROCEDURE process_numbers(p_numbers IN t_numbers) IS\n    BEGIN\n        -- Your processing logic here\n        FOR indx IN p_numbers.FIRST .. p_numbers.LAST LOOP\n            DBMS_OUTPUT.PUT_LINE('Number: ' || p_numbers(indx));\n        END LOOP;\n    END process_numbers;\nEND MyPackage;\n/

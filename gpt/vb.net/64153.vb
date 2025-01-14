@@ -1,0 +1,1 @@
+Dim dict As New Dictionary(Of String, String)()\ndict.Add("key1", value1)\ndict.Add("key2", value2)\n\n' later...\nFor Each kvp As KeyValuePair(Of String, String) In dict\n    Dim key As String = kvp.Key\n    Dim value As String = kvp.Value\n    ' Now you have both key and value\nNext

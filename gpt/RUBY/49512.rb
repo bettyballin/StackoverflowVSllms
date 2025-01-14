@@ -1,0 +1,1 @@
+require 'sinatra'\nrequire 'open3'\n\nget '/' do\n  url = 'http://example.com'\n  \n  Thread.new do\n    Open3.popen3("curl -0 #{url}") do |stdin, stdout, stderr, thread|\n      puts stdout.read\n      puts stderr.read\n    end\n  end\n  \n  "Job started"\nend\n\n# Start the Sinatra application\nrun!

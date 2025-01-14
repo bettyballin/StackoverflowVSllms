@@ -1,0 +1,1 @@
+CREATE PROCEDURE InsertHtmlContent\n    @HtmlData TEXT\nAS\nBEGIN\n    INSERT INTO HtmlContent (HtmlData)\n    VALUES (@HtmlData)\nEND\nGO

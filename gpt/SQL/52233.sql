@@ -1,0 +1,1 @@
+-- On the Teacher server\nEXEC sp_addlinkedserver \n   @server='StudentServer', \n   @srvproduct='', \n   @provider='SQLNCLI', \n   @datasrc='StudentServerName';\n\n-- On the Student server\nEXEC sp_addlinkedserver \n   @server='TeacherServer', \n   @srvproduct='', \n   @provider='SQLNCLI', \n   @datasrc='TeacherServerName';

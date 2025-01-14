@@ -1,0 +1,1 @@
+<?php\n  print "<b>Template is working!</b>";\n  print_r($form);\n?>

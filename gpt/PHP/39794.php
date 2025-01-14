@@ -1,0 +1,1 @@
+$input = '%'.$input.'%';\n$sql = $DB->quoteInto("SELECT * FROM t WHERE myname LIKE ?", $input);

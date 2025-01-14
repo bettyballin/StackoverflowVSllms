@@ -1,0 +1,1 @@
+var table = document.getElementById('yourTableId');\n   table.style.display = 'none';\n   table.offsetHeight; // trigger reflow\n   table.style.display = '';

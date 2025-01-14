@@ -1,0 +1,1 @@
+function myHappyFunction(...$vars) {\n    foreach ($vars as $var) {\n        if (isset($var)) {\n            echo "Variable is set and its value is: " . $var . "\n";\n        } else {\n            echo "Variable is not set.\n";\n        }\n    }\n}\n\n// Example usage\n$someVar = "Hello";\nmyHappyFunction($someVar, $someBogusVar);

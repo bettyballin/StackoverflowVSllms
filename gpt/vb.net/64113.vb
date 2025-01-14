@@ -1,0 +1,1 @@
+Dim razzies As List(Of Razzie) = (From b In bloops\n                                  Where b.SomeCondition ' Replace with your condition\n                                  Select New Razzie With {\n                                      .FirstName = b.FirstName,\n                                      .LastName = b.LastName\n                                  }).ToList()

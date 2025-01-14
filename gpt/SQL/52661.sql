@@ -1,0 +1,1 @@
+WITH Pieces AS\n(\n    SELECT itemid, REPLACE(REPLACE(description, 'DESC_A', 'NEW_1'), 'DESC_B', 'NEW_2') AS newdesc\n    FROM myTable\n    WHERE description LIKE '%DESC_A%DESC_B%'\n)\nUPDATE myTable\nSET description = Pieces.newdesc\nFROM myTable\nJOIN Pieces ON myTable.itemid = Pieces.id;

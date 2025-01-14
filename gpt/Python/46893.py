@@ -1,0 +1,1 @@
+import os\nimport time\n\n# Specify the file path\nfile_path = 'example.txt'\n\n# Define the new access and modification times (in seconds since the epoch)\nnew_time = time.mktime((2023, 10, 1, 12, 0, 0, 0, 0, 0))\n\n# Apply the new times to the file\nos.utime(file_path, (new_time, new_time))

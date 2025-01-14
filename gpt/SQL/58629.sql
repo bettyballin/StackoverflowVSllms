@@ -1,0 +1,1 @@
+SHOW PARAMETER processes;\n   SHOW PARAMETER sessions;

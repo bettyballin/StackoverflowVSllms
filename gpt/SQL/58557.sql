@@ -1,0 +1,1 @@
+CREATE TABLE uploaded_files (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    filename VARCHAR(255) NOT NULL\n);

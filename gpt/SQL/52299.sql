@@ -1,0 +1,1 @@
+SELECT (xpath('/my/xpath/expr', my_table.my_xml))[1]\nFROM my_table;

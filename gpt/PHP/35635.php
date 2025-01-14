@@ -1,0 +1,1 @@
+// main.php\n$mysqli = new mysqli("localhost", "username", "password", "database");\n$query = "SELECT term FROM terms";\n$result = $mysqli->query($query);\n$terms = [];\nwhile ($row = $result->fetch_assoc()) {\n    $terms[] = $row['term'];\n}\necho json_encode($terms);

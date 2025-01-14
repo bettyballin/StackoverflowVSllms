@@ -1,0 +1,1 @@
+WITH FilteredIndexes AS (\n    SELECT DISTINCT Index\n    FROM myTable\n    WHERE [Date] BETWEEN '2000-01-01' AND '2000-12-31'\n)\nSELECT \n    t.Index,\n    MIN(t.[Date]) AS MinDate,\n    MAX(t.[Date]) AS MaxDate\nFROM myTable t\nJOIN FilteredIndexes f ON t.Index = f.Index\nGROUP BY t.Index\nORDER BY t.Index ASC

@@ -1,0 +1,1 @@
+For Each ch As Char In strTag\n    Console.WriteLine(AscW(ch))\nNext\n\nFor Each ch As Char In tmp\n    Console.WriteLine(AscW(ch))\nNext

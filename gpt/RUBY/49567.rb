@@ -1,0 +1,1 @@
+def test_adding_task_to_project\n  p = Project.new\n  task_attributes = [{ "name" => "paint fence" }]\n  p.new_task_attributes = task_attributes\n  p.save\n  assert_equal 1, p.tasks.length\nend

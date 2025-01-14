@@ -1,0 +1,1 @@
+$router->get('/users', 'UserController@index');\n$router->get('/users/{id}', 'UserController@view');\n$router->get('/users/{id}/friends', 'FriendController@index');\n$router->get('/account/friends/edit', 'AccountController@editFriends');\n$router->post('/photos/{id}/delete', 'PhotoController@delete'); // Preferred structure

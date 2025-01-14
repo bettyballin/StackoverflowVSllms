@@ -1,0 +1,1 @@
+$query = "SELECT id, title FROM your_table";\n$stmt = $pdo->query($query);\n$rows = $stmt->fetchAll(PDO::FETCH_ASSOC);\n\nforeach ($rows as $row) {\n    $sortValue = generateSortValue($row['title']);\n    $updateQuery = "UPDATE your_table SET sort_value = ? WHERE id = ?";\n    $updateStmt = $pdo->prepare($updateQuery);\n    $updateStmt->execute([$sortValue, $row['id']]);\n}

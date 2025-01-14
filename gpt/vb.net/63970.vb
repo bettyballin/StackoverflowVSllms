@@ -1,0 +1,1 @@
+Imports System.Drawing.Printing\n\nModule Module1\n    Sub Main()\n        Dim printerSettings As New PrinterSettings()\n        Dim defaultPrinter As String = printerSettings.PrinterName\n\n        Console.WriteLine("Default Printer: " & defaultPrinter)\n    End Sub\nEnd Module

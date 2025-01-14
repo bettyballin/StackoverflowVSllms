@@ -1,0 +1,1 @@
+-- Example illustrating data type handling difference\nSELECT NVL(1, 'A') FROM dual; -- This will result in an error because 'A' cannot be converted to a number.\nSELECT COALESCE(1, 'A') FROM dual; -- This will result in 1, as COALESCE will return the first non-null value and handle type precedence.

@@ -1,0 +1,1 @@
+// Assume $db is your database connection\n$query = $db->prepare("SELECT email FROM users WHERE DATE_FORMAT(birthday, '%m-%d') = DATE_FORMAT(NOW(), '%m-%d')");\n$query->execute();\n$users = $query->fetchAll();\n\nforeach ($users as $user) {\n    // Send email\n    mail($user['email'], 'Happy Birthday!', 'Wishing you a wonderful birthday!');\n}

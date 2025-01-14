@@ -1,0 +1,1 @@
+<%\nSub Session_OnStart\n    ' Set the session timeout to your desired value\n    Session.Timeout = 20 ' Timeout in minutes\n\n    ' Create a persistent cookie for the session ID\n    Response.Cookies("ASPSESSIONID") = Session.SessionID\n    Response.Cookies("ASPSESSIONID").Expires = DateAdd("d", 30, Now()) ' Set expiration to 30 days from now\nEnd Sub\n%>

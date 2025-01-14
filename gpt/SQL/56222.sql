@@ -1,0 +1,1 @@
+DECLARE\n       v_employee_name employees.last_name%TYPE;\n     BEGIN\n       SELECT last_name INTO v_employee_name FROM employees WHERE employee_id = 100;\n     END;

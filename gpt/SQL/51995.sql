@@ -1,0 +1,1 @@
+SELECT TO_NUMBER('1A', 'XXXX') AS decimal_value FROM dual;

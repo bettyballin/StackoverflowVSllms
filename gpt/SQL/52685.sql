@@ -1,0 +1,1 @@
+SELECT fnc_getReadableSize(documents.doc) AS readable_size\nFROM documents\nWHERE id = :id;

@@ -1,0 +1,1 @@
+class SessionManagerTest extends \PHPUnit\Framework\TestCase\n{\n    /**\n     * @runInSeparateProcess\n     */\n    public function testSessionManagerStartsSession()\n    {\n        // Assume SessionManager class is autoloaded\n        $sessionManager = new SessionManager();\n        $this->assertNotEmpty(session_id());\n    }\n}

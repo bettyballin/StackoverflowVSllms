@@ -1,0 +1,1 @@
+ALTER TABLE `table` ADD COLUMN `rand_value` DOUBLE;\n    UPDATE `table` SET `rand_value` = RAND();\n    CREATE INDEX idx_rand_value ON `table` (rand_value);

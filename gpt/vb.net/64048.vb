@@ -1,0 +1,1 @@
+Public Interface IFoo\n    ReadOnly Property MyProperty As Boolean\nEnd Interface

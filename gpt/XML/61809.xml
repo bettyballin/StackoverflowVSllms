@@ -1,0 +1,1 @@
+<!-- Example JBoss datasource configuration -->\n   <datasource jndi-name="java:/MyDS" pool-name="MyDS">\n       <connection-url>jdbc:oracle:thin:@//localhost:1521/orcl</connection-url>\n       <driver>oracle</driver>\n       <security>\n           <user-name>dbuser</user-name>\n           <password>dbpassword</password>\n       </security>\n   </datasource>

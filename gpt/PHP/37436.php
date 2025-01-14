@@ -1,0 +1,1 @@
+$myqr = mysql_query('SELECT * FROM news ORDER BY time DESC LIMIT 10') or die("Error running news query: ". mysql_error());\nwhile($myres = mysql_fetch_array($myqr))\n{\n    addnews($myres['id'], $myres['title'], "admin", date('l jS F Y - H:i:s', $myres['time']), $myres['text']);\n}

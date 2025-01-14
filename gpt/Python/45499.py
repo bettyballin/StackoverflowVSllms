@@ -1,0 +1,1 @@
+def generate_subsets(s):\n    n = len(s)\n    subsets = []\n    for i in range(1 << n):\n        subset = ""\n        for j in range(n):\n            if i & (1 << j):\n                subset += s[j]\n        subsets.append(subset)\n    return subsets\n\n# Example usage\nstring = "abc"\nsubsets = generate_subsets(string)\nprint(subsets)

@@ -1,0 +1,1 @@
+example_method(*[1, 2, 3])  # Outputs: [1, 2, 3]

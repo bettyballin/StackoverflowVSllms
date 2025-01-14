@@ -1,0 +1,1 @@
+print_r($array1);\nprint_r($array2);\n$keywords = array_merge($array1, $array2);\nprint_r($keywords);

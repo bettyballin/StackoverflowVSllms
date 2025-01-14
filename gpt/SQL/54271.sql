@@ -1,0 +1,1 @@
+BEGIN\n      DBMS_STATS.GATHER_TABLE_STATS('your_schema', 'tbl1');\n      DBMS_STATS.GATHER_TABLE_STATS('your_schema', 'tbl2');\n      DBMS_STATS.GATHER_TABLE_STATS('your_schema', 'tbl3');\n   END;

@@ -1,0 +1,1 @@
+SELECT trigger_name, status FROM dba_triggers WHERE trigger_name = 'ALTERSESSION_TRG';

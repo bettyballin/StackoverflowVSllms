@@ -1,0 +1,1 @@
+Dim value As Object = "123"\nDim result As Integer = CType(value, Integer)

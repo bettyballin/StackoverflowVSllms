@@ -1,0 +1,1 @@
+try:\n    i = intList.index(13)\nexcept ValueError:\n    i = -1  # or any other value that indicates 'not found'

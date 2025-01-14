@@ -1,0 +1,1 @@
+class Acct < ActiveRecord::Base\n  validates_confirmation_of :password, :email_address, :on => :create\nend

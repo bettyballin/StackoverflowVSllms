@@ -1,0 +1,1 @@
+Public Async Function ProcessDataAsync() As Task\n    ' Simulate asynchronous work\n    Await Task.Delay(1000)\n    ' Continue with more work\nEnd Functio

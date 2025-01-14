@@ -1,0 +1,1 @@
+' Form1 Code\nPublic Class Form1\n    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click\n        Dim frm2 As New Form2()\n        frm2.TextBox2.Text = Me.TextBox1.Text\n        frm2.Show()\n    End Sub\nEnd Class

@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    // Your enhancement code here\n\n    // Show elements after enhancements are applied\n    $('.hidden-until-loaded').removeClass('hidden-until-loaded');\n});

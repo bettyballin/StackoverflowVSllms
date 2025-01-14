@@ -1,0 +1,1 @@
+SELECT btv.id_user, btv.id_zavod, btv.cas\nFROM btv\nJOIN (\n    SELECT id_user, MIN(cas) as min_cas\n    FROM btv\n    GROUP BY id_user\n) as sub_btv ON btv.id_user = sub_btv.id_user AND btv.cas = sub_btv.min_cas\nJOIN btu ON btv.id_user = btu.id_user\nJOIN race ON btv.id_zavod = race.id_zavod\nWHERE race.type = '8' AND btv.id_user = '607';

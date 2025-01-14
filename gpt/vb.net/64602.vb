@@ -1,0 +1,1 @@
+' VB.NET Class Library (MyVBClassLibrary)\n    Public Class MyVBClass\n        Public Sub New()\n        End Sub\n\n        Public Function SayHello(name As String) As String\n            Return $"Hello, {name}!"\n        End Function\n    End Class

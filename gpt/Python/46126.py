@@ -1,0 +1,1 @@
+# Binary literals in Python\nbinary_value1 = 0b1101   # equivalent to 13 in decimal\nbinary_value2 = 0B1010   # equivalent to 10 in decimal\n\nprint(binary_value1)  # Output: 13\nprint(binary_value2)  # Output: 10

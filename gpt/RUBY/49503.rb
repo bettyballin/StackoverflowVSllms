@@ -1,0 +1,1 @@
+class SearchController < ApplicationController\n  def index\n    search_term = params[:q] || ''\n    last_id = params[:last_id] || 0\n\n    @results = TwitterSearchService.new(search_term, last_id).fetch_results\n\n    respond_to do |format|\n      format.html # index.html.erb\n      format.json { render json: @results }\n    end\n  end\nend

@@ -1,0 +1,1 @@
+var currency = '\u20AC';\nvar totalSum = "Total Sum: " + currency + "123.45"; // Example sum

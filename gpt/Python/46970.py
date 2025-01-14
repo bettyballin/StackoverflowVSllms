@@ -1,0 +1,1 @@
+from pdf2image import convert_from_path\n\n    # Path to the PDF file\n    pdf_path = 'path/to/your/pdf_file.pdf'\n\n    # Convert PDF to images\n    images = convert_from_path(pdf_path)\n\n    # Save images\n    for i, image in enumerate(images):\n        image.save(f'page_{i+1}.jpg', 'JPEG')

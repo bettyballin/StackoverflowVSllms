@@ -1,0 +1,1 @@
+// Assuming you have an array or any iterable object\n$items = new ArrayIterator(['item1', 'item2', 'item3']);\n\nforeach ($items as $item) {\n    // Do something with $item\n    echo $item . "\n";\n}

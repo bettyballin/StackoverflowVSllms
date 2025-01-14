@@ -1,0 +1,1 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>\n   <script>\n     $.get('/api/data', function(response) {\n       console.log(response);\n     });\n   </script>

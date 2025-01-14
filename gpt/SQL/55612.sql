@@ -1,0 +1,1 @@
+SELECT * FROM YourView\n      WHERE DateColumn BETWEEN ? AND ?

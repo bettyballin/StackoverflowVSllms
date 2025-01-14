@@ -1,0 +1,1 @@
+$output = shell_exec('dir 2>&1');\n   echo "<pre>$output</pre>";

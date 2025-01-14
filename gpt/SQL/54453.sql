@@ -1,0 +1,1 @@
+BULK INSERT YourTable\n   FROM 'C:\path\to\yourfile.csv'\n   WITH\n   (\n     FIELDTERMINATOR = ',',\n     ROWTERMINATOR = '\n',\n     MAXERRORS = 0,\n     ERRORFILE = 'C:\path\to\errorfile.txt',\n     FORMATFILE = 'C:\path\to\MyFormatFile.fmt'\n   );

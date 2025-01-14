@@ -1,0 +1,1 @@
+<add name="YourDbContext" connectionString="Data Source=your_server;Initial Catalog=your_database;Integrated Security=True;ConnectRetryCount=3;ConnectRetryInterval=10" providerName="System.Data.SqlClient" />

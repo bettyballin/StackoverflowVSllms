@@ -1,0 +1,1 @@
+DECLARE @fixedDate DATETIME;\nSET @fixedDate = GETDATE();\n\n-- Now, @fixedDate is deterministic within the context of this session/query.\nSELECT @fixedDate AS DeterministicDate;

@@ -1,0 +1,1 @@
+# Ensure the string is correctly encoded in UTF-8\nName = 'w\xc3\xb6rner'.decode('utf-8')\nprint('Name: %s - %s' % (Name, type(Name)))

@@ -1,0 +1,1 @@
+Dim db As New DataContext\nDim targetDate As Date = New Date(2009, 5, 5)\nDim users = From u In db.Users\n            Where u.signUpTime.Date = targetDate\n            Select u

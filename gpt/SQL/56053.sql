@@ -1,0 +1,1 @@
+SELECT * FROM log_entries ORDER BY entry_date DESC LIMIT ? OFFSET ?;

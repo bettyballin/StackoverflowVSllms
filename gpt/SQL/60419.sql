@@ -1,0 +1,1 @@
+SELECT A.itemid, A.mark AS 'A.mark', B.mark AS 'B.mark'\nFROM A\nLEFT JOIN B ON A.itemid = B.itemid\nUNION\nSELECT B.itemid, A.mark AS 'A.mark', B.mark AS 'B.mark'\nFROM B\nLEFT JOIN A ON A.itemid = B.itemid;

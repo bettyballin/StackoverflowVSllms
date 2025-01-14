@@ -1,0 +1,1 @@
+UPDATE YourTableName\nSET YourColumnName = REPLACE(YourColumnName, 'find_string', 'replace_string')\nWHERE YourColumnName LIKE '%find_string%';

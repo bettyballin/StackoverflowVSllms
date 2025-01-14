@@ -1,0 +1,1 @@
+CREATE TABLE Cache (\n        CacheKey NVARCHAR(100) PRIMARY KEY,\n        CacheValue NVARCHAR(MAX),\n        ExpirationTime DATETIME\n    );

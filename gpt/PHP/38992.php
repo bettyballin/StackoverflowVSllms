@@ -1,0 +1,1 @@
+class foo {\n    public static $bar = 'hi';\n} \n\n$class = 'foo';\n$reflection = new ReflectionClass($class);\n$staticProperty = $reflection->getStaticPropertyValue('bar');\necho $staticProperty; // Outputs 'hi'

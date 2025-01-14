@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $pageUrl = $_POST['pageUrl'];\n    // Log the URL or perform other actions as needed\n    file_put_contents('log.txt', $pageUrl . PHP_EOL, FILE_APPEND);\n    // Respond to the request\n    echo 'URL logged successfully';\n}\n?>

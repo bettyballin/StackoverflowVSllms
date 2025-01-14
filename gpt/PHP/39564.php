@@ -1,0 +1,1 @@
+session.bug_compat_42 = Off\nsession.bug_compat_warn = Off

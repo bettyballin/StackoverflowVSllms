@@ -1,0 +1,1 @@
+INSERT INTO new_table (record_id, data_field)\n   SELECT DISTINCT record_id, data_field\n   FROM old_table\n   ON DUPLICATE KEY UPDATE record_id = record_id;

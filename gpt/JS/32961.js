@@ -1,0 +1,1 @@
+window.onbeforeunload = function(event) {\n    // Display a confirmation dialog to the user\n    const message = "Are you sure you want to leave?";\n    \n    // For most modern browsers\n    event.preventDefault();\n    event.returnValue = message;\n    \n    // For some older browsers\n    return message;\n};

@@ -1,0 +1,1 @@
+<dependency>\n       <groupId>com.amazonaws</groupId>\n       <artifactId>aws-java-sdk-s3</artifactId>\n       <version>1.12.118</version>\n   </dependency>

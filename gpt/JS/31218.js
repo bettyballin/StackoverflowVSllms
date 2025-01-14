@@ -1,0 +1,1 @@
+$('.block:has(div)').each(function() {\n    // `this` refers to the current .block element\n    $(this).find('div').each(function() {\n        // `this` refers to the current item element within the block\n        // Do something with each item\n        console.log($(this).attr('id')); // Example action: logging the id of each item\n    });\n});

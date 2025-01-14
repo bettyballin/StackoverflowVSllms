@@ -1,0 +1,1 @@
+RESTORE LOG your_database_name \n    FROM DISK = 'path_to_log_backup.trn' \n    WITH STANDBY = 'standby_file_name';

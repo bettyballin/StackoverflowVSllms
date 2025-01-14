@@ -1,0 +1,1 @@
+SELECT a.Name, b.Status \nFROM a\nINNER JOIN b\nON b.ID = a.StatusID;

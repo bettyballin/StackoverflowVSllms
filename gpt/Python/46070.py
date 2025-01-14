@@ -1,0 +1,1 @@
+# urls.py\nfrom django.urls import path\nfrom .views import upload_document\n\nurlpatterns = [\n    path('upload/', upload_document, name='upload_document'),\n]

@@ -1,0 +1,1 @@
+BEGIN\n    DBMS_STATS.GATHER_TABLE_STATS('your_schema', 'NAME_PARTS');\n    DBMS_STATS.GATHER_INDEX_STATS('your_schema', 'index_name_for_person_id');\n    DBMS_STATS.GATHER_INDEX_STATS('your_schema', 'index_name_for_name_part_id');\nEND;\n/

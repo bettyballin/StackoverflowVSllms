@@ -1,0 +1,1 @@
+BEGIN\n     DBMS_STATS.GATHER_TABLE_STATS('your_schema', 'your_table');\n   END;\n   /\n\n   BEGIN\n     DBMS_STATS.GATHER_INDEX_STATS('your_schema', 'idx_not_null_ourcolumn');\n   END;\n   /

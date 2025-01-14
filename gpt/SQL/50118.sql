@@ -1,0 +1,1 @@
+-- Assuming TypeB and TypeC tables with Id columns\nINSERT INTO TypeA (Id, ParentId, ParentType)\nVALUES \n(1, '123', 'TypeB'),  -- Assuming TypeB.Id is an integer\n(2, 'abc', 'TypeC');  -- Assuming TypeC.Id is a string

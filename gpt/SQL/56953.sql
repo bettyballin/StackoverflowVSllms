@@ -1,0 +1,1 @@
+CREATE PROCEDURE dbo.FilterResults\n    @FilterValues dbo.FilterTableType READONLY\nAS\nBEGIN\n    SELECT *\n    FROM YourTable AS yt\n    JOIN @FilterValues AS fv\n    ON yt.ColumnToFilter = fv.FilterValue;\nEND

@@ -1,0 +1,1 @@
+<!-- UserMapper.xml -->\n<mapper namespace="com.example.UserMapper">\n    <insert id="insertUser" parameterType="User">\n        INSERT INTO users (name) VALUES (#{name})\n    </insert>\n</mapper>

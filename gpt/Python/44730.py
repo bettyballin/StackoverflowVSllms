@@ -1,0 +1,1 @@
+def extract_first_n_unique(arr, n):\n    unique_elements = set()\n    result = []\n\n    for element in arr:\n        if element not in unique_elements:\n            unique_elements.add(element)\n            result.append(element)\n            if len(result) == n:\n                break\n\n    return result

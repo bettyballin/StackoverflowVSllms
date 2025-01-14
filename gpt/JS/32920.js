@@ -1,0 +1,1 @@
+let dynamicObject = {};\ndynamicObject.color = 'red';\ndynamicObject.size = 'large';\n\nconsole.log(dynamicObject.color); // Output: red\nconsole.log(dynamicObject.size);  // Output: large\nconsole.log(dynamicObject.weight); // Output: undefined

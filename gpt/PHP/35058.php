@@ -1,0 +1,1 @@
+// Controller file\nclass Page extends CI_Controller {\n\n   public function index()\n   {\n      $data['page_title'] = 'Your title';\n      $this->load->view('content', $data);\n   }\n\n}\n\n// View file (content.php)\n<?php $this->load->view('header'); ?>\n\n<p>The data from the controller</p>\n\n<?php $this->load->view('footer'); ?>

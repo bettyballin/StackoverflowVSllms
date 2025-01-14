@@ -1,0 +1,1 @@
+SET @makTipi = (SELECT MIN(maktipi) FROM TH_Islem WHERE refNo = @refNo)

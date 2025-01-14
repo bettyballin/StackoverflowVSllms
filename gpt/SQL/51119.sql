@@ -1,0 +1,1 @@
+SELECT * \nFROM t1 \nWHERE MATCH (t1.foo_desc, t1.bar_desc) AGAINST ('+foo* +bar*' IN BOOLEAN MODE);

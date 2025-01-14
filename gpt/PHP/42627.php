@@ -1,0 +1,1 @@
+function contractToTinyURL($url) {\n    $apiUrl = "http://tinyurl.com/api-create.php?url=" . urlencode($url);\n    $tinyurl = file_get_contents($apiUrl);\n    return $tinyurl ? $tinyurl : false;\n}\n\n$url = "https://www.example.com";\n$tinyurl = contractToTinyURL($url);\necho "TinyURL: " . $tinyurl;

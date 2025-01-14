@@ -1,0 +1,1 @@
+var content = tinymce.get('content').getContent(); // Get TinyMCE content\n$("#edititem").load("editItem.php", {content: content}); // jQuery post\ntinymce.get('content').remove(); // Remove the TinyMCE instance

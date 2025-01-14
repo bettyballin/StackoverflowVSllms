@@ -1,0 +1,1 @@
+CREATE TABLE eav_data (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    entity_type VARCHAR(50),\n    entity_id INT,\n    attribute_name VARCHAR(50),\n    attribute_value TEXT\n);

@@ -1,0 +1,1 @@
+WITH OrderedQueue AS (\n    SELECT\n        id,\n        identifier,\n        priority_number,\n        timestamp,\n        description,\n        ROW_NUMBER() OVER (ORDER BY priority_number ASC, timestamp ASC) AS row_num\n    FROM queue_manager\n)\nSELECT \n    id,\n    identifier,\n    priority_number,\n    timestamp,\n    description\nFROM OrderedQueue\nWHERE row_num = 1;

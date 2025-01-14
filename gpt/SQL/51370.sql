@@ -1,0 +1,1 @@
+ALTER DATABASE YourDatabaseName COLLATE Latin1_General_BIN;

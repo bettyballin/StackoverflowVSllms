@@ -1,0 +1,1 @@
+<?php\ninclude(__DIR__ . '/assets/inc/base/error.inc.php');\n?>

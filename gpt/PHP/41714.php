@@ -1,0 +1,1 @@
+$string = "Äpfel";\n   $transliterated = iconv('UTF-8', 'ASCII//TRANSLIT', $string);\n   echo $transliterated; // Outputs: "Aepfel"

@@ -1,0 +1,1 @@
+import os\n\n# Execute the pmset command to put the system to sleep\nos.system("pmset sleepnow")

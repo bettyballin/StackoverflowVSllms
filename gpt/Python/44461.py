@@ -1,0 +1,1 @@
+data = [{'id': 1, 'name': 'paul'}, {'id': 2, 'name': 'john'}]\n\n# Remove dictionary where id is 2\nfiltered_data = [d for d in data if d['id'] != 2]\n\n# Or remove dictionary where name is 'john'\n# filtered_data = [d for d in data if d['name'] != 'john']\n\nprint(filtered_data)

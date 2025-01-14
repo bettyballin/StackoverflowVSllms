@@ -1,0 +1,1 @@
+SELECT *\n  FROM your_table\n  WHERE DATE(date_of_birth) = DATE('1950-01-01 10:22:06.010101120');

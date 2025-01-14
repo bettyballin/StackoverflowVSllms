@@ -1,0 +1,1 @@
+<ItemGroup>\n     <Reference Include="TestLibrary">\n       <HintPath>..\lib\test.dll</HintPath>\n     </Reference>\n   </ItemGroup>

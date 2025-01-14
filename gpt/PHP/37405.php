@@ -1,0 +1,1 @@
+print_r($keywords);\nextract($product);\n\nif (is_array($keywords)) {\n    foreach ($keywords as $k => $v) {\n        // stuff here\n    }\n} else {\n    echo 'Error: $keywords is not an array';\n}

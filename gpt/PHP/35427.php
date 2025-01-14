@@ -1,0 +1,1 @@
+// Example of fixing a deprecated "new by reference" error\n   $cache = & new Cache(); // Deprecated\n   $cache = new Cache(); // Fixed

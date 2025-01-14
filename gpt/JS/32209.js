@@ -1,0 +1,1 @@
+$$('div a[href="http://google.com"]').each(function(element) {\n    element.up('div').hide();\n});

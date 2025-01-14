@@ -1,0 +1,1 @@
+window.onbeforeunload = function(event) {\n    var message = "Are you sure you want to leave this page?";\n    event.returnValue = message; // For most browsers\n    return message;              // For some older browsers\n};

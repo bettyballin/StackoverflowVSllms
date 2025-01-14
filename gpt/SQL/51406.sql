@@ -1,0 +1,1 @@
+SELECT document.*, \n       (2 * (SELECT SCORE(1) FROM dual)) + \n       (1 * (SELECT SCORE(2) FROM dual)) AS CombinedScore\nFROM document\nWHERE CONTAINS(documentTitle, 'the_keyword', 1) > 0\n   OR CONTAINS(documentContent, 'the_keyword', 2) > 0\nORDER BY CombinedScore DESC;

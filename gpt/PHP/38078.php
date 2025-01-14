@@ -1,0 +1,1 @@
+$mysqli = new mysqli("localhost", "user", "password", "database");\n\nif ($mysqli->connect_error) {\n    die("Connection failed: " . $mysqli->connect_error);\n}\n\n$stmt = $mysqli->prepare("INSERT INTO table_name (column_name) VALUES (?)");\n$stmt->bind_param("s", $_POST['var']);\n$stmt->execute();\n\n$stmt->close();\n$mysqli->close();

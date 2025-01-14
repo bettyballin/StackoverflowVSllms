@@ -1,0 +1,1 @@
+SELECT t.tag, MAX(a.date_time) as last_published_date\nFROM articles a\nJOIN articletags t ON a.id = t.id\nGROUP BY t.tag;

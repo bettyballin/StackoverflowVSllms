@@ -1,0 +1,1 @@
+Dim xS As XDocument\n   xS = XDocument.Load("yourXmlFilePath.xml")

@@ -1,0 +1,1 @@
+Label1.Text = My.Computer.Clock.LocalTime.ToLongTimeString()

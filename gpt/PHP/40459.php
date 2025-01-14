@@ -1,0 +1,1 @@
+if (!preg_match('~^\d{10}$~', $_POST['isbn'])) {\n    $warnings[] = 'ISBN should be 10 digits';\n}

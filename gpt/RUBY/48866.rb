@@ -1,0 +1,1 @@
+<%= form_with(url: login_path, local: false, id: "login-form") do |form| %>\n  <%= form.label :username %>\n  <%= form.text_field :username %>\n\n  <%= form.label :password %>\n  <%= form.password_field :password %>\n\n  <%= form.submit "Login" %>\n<% end %>

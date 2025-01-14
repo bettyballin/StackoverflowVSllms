@@ -1,0 +1,1 @@
+SELECT \n    (EXTRACT(HOUR FROM (end_date - start_date) DAY TO SECOND) * 60 +\n     EXTRACT(MINUTE FROM (end_date - start_date) DAY TO SECOND)) AS difference_in_minutes\nFROM \n    your_table;

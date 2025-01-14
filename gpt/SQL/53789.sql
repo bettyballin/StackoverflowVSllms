@@ -1,0 +1,1 @@
+select\n  level,\n  empid, \n  parentid\nfrom usertable\nconnect by nocycle prior parentid = empid\nstart with empid = 50\nunion all\nselect\n  4 as level,\n  empid,\n  parentid\nfrom usertable\nwhere empid = parentid\n  and empid = 17839

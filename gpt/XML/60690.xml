@@ -1,0 +1,1 @@
+<system.web>\n       <sessionState mode="InProc" cookieless="false" timeout="20" />\n       <authentication mode="Forms">\n           <forms loginUrl="~/Account/Login.aspx" timeout="2880" />\n       </authentication>\n   </system.web>

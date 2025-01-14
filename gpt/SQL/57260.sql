@@ -1,0 +1,1 @@
+expdp your_user/your_password@zeus DIRECTORY=dump_dir DUMPFILE=dumpfile.dmp LOGFILE=export.log FULL=Y

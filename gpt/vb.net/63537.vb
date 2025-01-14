@@ -1,0 +1,1 @@
+Private Function IsNumeric(ByVal str As String) As Boolean\n    Dim result As Double\n    Return Double.TryParse(str, result)\nEnd Functio

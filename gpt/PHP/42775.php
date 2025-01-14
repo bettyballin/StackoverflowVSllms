@@ -1,0 +1,1 @@
+<?php if ($a): ?>\n    <div>[SOME MARKUP]</div>\n<?php else: ?>\n    <div>[OTHER MARKUP]</div>\n<?php endif; ?>

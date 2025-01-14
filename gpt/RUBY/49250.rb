@@ -1,0 +1,1 @@
+#!C:/path/to/ruby.exe\n    # test.cgi\n\n    print "Content-type: text/html\r\n\r\n"\n    print "Mares eat oats and does eat oats and I'll be home for Christmas."

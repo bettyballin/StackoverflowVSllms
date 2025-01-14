@@ -1,0 +1,1 @@
+-- Denormalized Schema Example\nCREATE TABLE Orders (\n    OrderID INT PRIMARY KEY,\n    UserID INT,\n    UserName VARCHAR(100),\n    Email VARCHAR(100),\n    OrderDate DATE\n);

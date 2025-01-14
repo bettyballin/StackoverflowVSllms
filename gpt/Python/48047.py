@@ -1,0 +1,1 @@
+list_of_lists = [['a','b'], ['a','c'], ['b','d']]\nsearch = 'c'\n\nfound = any(sublist[1] == search for sublist in list_of_lists)\nprint(found)  # This will print True if the search string is found in the second position, otherwise False.

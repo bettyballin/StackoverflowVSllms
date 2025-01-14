@@ -1,0 +1,1 @@
+CREATE LOGIN [NewLogin] WITH PASSWORD = 'SecurePassword';

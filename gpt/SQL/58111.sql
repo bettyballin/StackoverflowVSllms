@@ -1,0 +1,1 @@
+INSERT INTO MyTable (ID, Column1, Column2)\nVALUES (NEXT VALUE FOR MySequence, 'Value1', 'Value2');

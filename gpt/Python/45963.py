@@ -1,0 +1,1 @@
+employee_satisfaction_score = average(survey_responses);

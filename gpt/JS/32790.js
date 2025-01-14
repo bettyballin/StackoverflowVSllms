@@ -1,0 +1,1 @@
+document.getElementById('yourIframeId').contentWindow.location.replace('newPage.html');

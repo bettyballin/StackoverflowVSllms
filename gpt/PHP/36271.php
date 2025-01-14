@@ -1,0 +1,1 @@
+$user_input = mysql_real_escape_string($_POST['user_input']);\n    $query = "SELECT * FROM table_name WHERE column_name = '$user_input'";\n    $result = mysql_query($query);

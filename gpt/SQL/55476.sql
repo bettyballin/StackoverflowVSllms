@@ -1,0 +1,1 @@
+SELECT c.name, o.product  \nFROM customer c  \nINNER JOIN order o ON c.id = o.cust_id  \nWHERE o.value = 150;

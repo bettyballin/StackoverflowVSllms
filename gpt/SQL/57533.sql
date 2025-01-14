@@ -1,0 +1,1 @@
+SELECT ABS(CHECKSUM(NEWID())) % 11 - 5 AS Random\nFROM YourTable

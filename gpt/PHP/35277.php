@@ -1,0 +1,1 @@
+$fields = [\n    'table_of_contents',\n    'length',\n    'lossless_copy',\n    // Add other fields here\n];\n\n$data = [];\n\nforeach ($fields as $field) {\n    if (isset($_POST[$field])) {\n        $data[$field] = $_POST[$field];\n    }\n}\n\n// Now $data contains only the fields that are set in $_POST

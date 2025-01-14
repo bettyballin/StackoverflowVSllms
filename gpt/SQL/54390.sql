@@ -1,0 +1,1 @@
+SELECT [description] \nFROM MyTable \nWHERE CONTAINS(REPLACE([description], '/', ''), '3/4 and bear')

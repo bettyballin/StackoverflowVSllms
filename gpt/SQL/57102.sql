@@ -1,0 +1,1 @@
+DECLARE\n      TYPE t_numbers IS TABLE OF NUMBER;\n      l_numbers t_numbers;\n   BEGIN\n      SELECT employee_id BULK COLLECT INTO l_numbers FROM employees;\n      \n      FORALL i IN l_numbers.FIRST..l_numbers.LAST\n         UPDATE employees SET salary = salary + 1000 WHERE employee_id = l_numbers(i);\n   END;

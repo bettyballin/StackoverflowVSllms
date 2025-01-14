@@ -1,0 +1,1 @@
+$('#showlink').click(function() {\n    $('#linkwindow').fadeIn('fast', function() {\n        $('#linkwindow input').focus();\n    });\n});

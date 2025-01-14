@@ -1,0 +1,1 @@
+SELECT DISTINCT column_name1, column_name2, ...\nFROM your_table_name;

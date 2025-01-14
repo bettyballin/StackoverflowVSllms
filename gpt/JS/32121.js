@@ -1,0 +1,1 @@
+// Save state\n   localStorage.setItem('domState', JSON.stringify(domState));\n\n   // Load state\n   const savedState = JSON.parse(localStorage.getItem('domState'));\n   if (savedState) {\n       // Restore the DOM state\n   }

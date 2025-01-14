@@ -1,0 +1,1 @@
+use Zend\Config\Config;\n   use Zend\Config\Writer\PhpArray;\n\n   $config = new Config(include 'path/to/config.php');\n   $writer = new PhpArray();\n   $writer->toFile('path/to/cached.config.php', $config);

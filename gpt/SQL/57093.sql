@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE update_security_training_question(v_qstns_to_delete IN VARCHAR2) IS\nBEGIN\n    EXECUTE IMMEDIATE 'UPDATE org.security_training_question a \n                       SET a.actv_indr = ''N'' \n                       WHERE a.qstn_id IN (' || v_qstns_to_delete || ')';\nEND;\n/

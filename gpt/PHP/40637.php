@@ -1,0 +1,1 @@
+// include_file.php\n    <?php\n    $var1 = "blablablah....";\n    // other variables...\n    ?>\n\n    // main_script.php\n    <?php\n    include 'include_file.php';\n    echo $var1;\n    ?>

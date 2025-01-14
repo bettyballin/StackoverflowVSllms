@@ -1,0 +1,1 @@
+<Import Include="System.Linq" />\n<Import Include="System.Xml.Linq" />

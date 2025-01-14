@@ -1,0 +1,1 @@
+// Generate a CSRF token\n   session_start();\n   if (empty($_SESSION['csrf_token'])) {\n       $_SESSION['csrf_token'] = bin2hex(random_bytes(32));\n   }\n   $csrf_token = $_SESSION['csrf_token'];

@@ -1,0 +1,1 @@
+// In your app/Config/routes.php file\n\n// Other specific routes here\n\n// Catch-all route\nRouter::connect('/*', array('controller' => 'files', 'action' => 'index'));

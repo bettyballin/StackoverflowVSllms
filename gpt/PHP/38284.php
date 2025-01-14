@@ -1,0 +1,1 @@
+$stringVar = "Hello, World!";\n  $intVar = 42;

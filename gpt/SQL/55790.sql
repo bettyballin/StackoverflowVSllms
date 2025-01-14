@@ -1,0 +1,1 @@
+DECLARE @xmlString NVARCHAR(MAX)\nSET @xmlString = '<name>Spolsky & Atwood</name>'\n\n-- Replace ampersand with its XML escaped counterpart\nSET @xmlString = REPLACE(@xmlString, '&', '&amp;')\n\n-- Cast to XML\nSELECT CAST(@xmlString AS xml)

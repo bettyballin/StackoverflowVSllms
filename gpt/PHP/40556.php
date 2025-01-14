@@ -1,0 +1,1 @@
+$filteredNodes = array_filter($nodes, function($node) {\n    return empty($node['Child']);\n});\n\n$leafNodes = array_column(array_map(function($node) {\n    return $node['Category'];\n}, $filteredNodes), 'name', 'id');\n\nprint_r($leafNodes);

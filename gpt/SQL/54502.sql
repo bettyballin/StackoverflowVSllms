@@ -1,0 +1,1 @@
+SELECT /*+ OPTIMIZER_MODE(FIRST_ROWS) */ *\nFROM your_table\nWHERE your_column = :your_parameter;

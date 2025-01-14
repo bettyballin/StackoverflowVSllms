@@ -1,0 +1,1 @@
+<?php\nsession_start();\n// Your code to set $salary\necho $salary;\n?>

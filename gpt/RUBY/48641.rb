@@ -1,0 +1,1 @@
+def function\n  basic_stuff\n\n  respond_to do |format|\n    format.js\n    format.html { user_redirect }\n  end\nend

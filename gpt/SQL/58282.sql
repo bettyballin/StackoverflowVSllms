@@ -1,0 +1,1 @@
+CREATE PROCEDURE dbo.MyStoredProcedure\nWITH ENCRYPTION\nAS\nBEGIN\n    -- Your SQL code here\n    SELECT * FROM dbo.MyTable;\nEND

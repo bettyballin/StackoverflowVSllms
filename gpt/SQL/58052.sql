@@ -1,0 +1,1 @@
+CREATE PROCEDURE YourStoredProcedure\n   AS\n   BEGIN\n       IF APP_NAME() <> 'YourAppName'\n       BEGIN\n           RAISERROR('Unauthorized application.', 16, 1);\n           RETURN;\n       END\n\n       -- Actual stored procedure code goes here\n   END

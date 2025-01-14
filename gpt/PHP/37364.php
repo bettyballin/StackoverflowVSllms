@@ -1,0 +1,1 @@
+// Assuming this code is in a file within httpdocs or httpsdocs\n    include_once $_SERVER['DOCUMENT_ROOT'] . '/../shared/navigation.php';

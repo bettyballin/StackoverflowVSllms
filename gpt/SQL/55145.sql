@@ -1,0 +1,1 @@
+.tables\n     PRAGMA table_info(table_name);

@@ -1,0 +1,1 @@
+SELECT c.*, o.*\nFROM Customers c\nJOIN Orders o ON c.Id = o.CustomerID\nWHERE o.EntryTime = (\n    SELECT MAX(EntryTime)\n    FROM Orders\n    WHERE CustomerID = c.Id\n);

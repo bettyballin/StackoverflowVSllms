@@ -1,0 +1,1 @@
+set_time_limit(300); // 5 minutes\nexec('java -jar "/opt/flex3/lib/mxmlc.jar" +flexlib "/opt/flex3/frameworks" MyAS3App.as -default-size 360 280 -output MyAS3App.swf > /dev/null 2>&1 &');

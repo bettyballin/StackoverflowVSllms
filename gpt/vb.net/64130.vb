@@ -1,0 +1,1 @@
+Dim objCommand As New SqlCommand("UPDATE MyTable SET MyBinaryColumn = @Data WHERE Id = @Id")\n\nobjCommand.Parameters.Add("@Data", SqlDbType.VarBinary)\nobjCommand.Parameters("@Data").Value = BinaryData\n\nobjCommand.Parameters.Add("@Id", SqlDbType.Int)\nobjCommand.Parameters("@Id").Value = rowId

@@ -1,0 +1,1 @@
+-- Pseudo-code for MySQL 4.1\nSTART TRANSACTION;\nSELECT COUNT(*) INTO @count FROM table_name WHERE key_column = value1;\nIF @count = 0 THEN\n    INSERT INTO table_name (key_column, column2) VALUES (value1, value2);\nELSE\n    UPDATE table_name SET column2 = value2 WHERE key_column = value1;\nEND IF;\nCOMMIT;

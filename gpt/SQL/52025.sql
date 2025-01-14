@@ -1,0 +1,1 @@
+BEGIN\n    DBMS_FGA.add_policy(\n        object_schema   => 'schema',\n        object_name     => 'table',\n        policy_name     => 'audit_revoke_policy',\n        audit_condition => 'SYS_CONTEXT(''USERENV'',''CURRENT_SQL'') LIKE ''%REVOKE%''',\n        audit_column    => NULL\n    );\nEND;\n/

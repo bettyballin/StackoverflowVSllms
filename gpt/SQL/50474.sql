@@ -1,0 +1,1 @@
+CREATE TRIGGER update_total_votes\nAFTER INSERT OR UPDATE ON votes\nFOR EACH ROW\nBEGIN\n    DECLARE total INT;\n    SELECT IFNULL(SUM(vote), 0) INTO total FROM votes WHERE comment_id = NEW.comment_id;\n    UPDATE comments SET total_votes = total WHERE comment_id = NEW.comment_id;\nEND;

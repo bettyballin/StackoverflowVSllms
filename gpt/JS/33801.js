@@ -1,0 +1,1 @@
+// Assuming 'winner' is a jQuery object containing the elements\nvar winner = $('.winner'); // Example class selector\n\n// Remove anchors and get the resulting HTML\nvar resultHtml = winner.not('a').clone().find('a').remove().end().html();

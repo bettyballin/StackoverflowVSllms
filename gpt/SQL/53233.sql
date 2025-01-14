@@ -1,0 +1,1 @@
+SET ANSI_NULLS OFF\n\nDECLARE @MiddleName VARCHAR(20);\nSET @MiddleName = NULL;\n\nSELECT * FROM [Customer]\nWHERE [LastName] = 'Torres'\nAND (\n    @MiddleName IS NULL AND [MiddleName] IS NULL OR\n    @MiddleName IS NOT NULL AND [MiddleName] = @MiddleName\n);

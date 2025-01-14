@@ -1,0 +1,1 @@
+<configuration>\n       <connectionStrings>\n           <add name="MyDB" connectionString="Data Source=.;Initial Catalog=MyDB;Integrated Security=True" />\n       </connectionStrings>\n       ...\n   </configuration>

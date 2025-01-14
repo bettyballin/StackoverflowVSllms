@@ -1,0 +1,1 @@
+<?php\n// Concatenation\n$string = "Hello";\n$string .= " World";\n\n// Heredoc\n$largeText = <<<EOT\nThis is an example of a\nlarge block of text using heredoc syntax.\nEOT;\n\necho $string; // Outputs: Hello World\necho $largeText;\n?>

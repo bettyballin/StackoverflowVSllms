@@ -1,0 +1,1 @@
+SELECT * FROM v$sql WHERE elapsed_time > 10000000 ORDER BY elapsed_time DESC;

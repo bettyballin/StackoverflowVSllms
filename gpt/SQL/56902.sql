@@ -1,0 +1,1 @@
+INSERT INTO DOC_Documents (DOC_Name) VALUES ('ddd');\nINSERT INTO DOC_Documents (DOC_Name) VALUES ('eee');

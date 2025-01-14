@@ -1,0 +1,1 @@
+WHERE (EventDate >= @DateStart AND EventDate < @DateEnd)

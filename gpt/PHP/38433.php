@@ -1,0 +1,1 @@
+<?php\n// Read the raw POST data\n$rawData = file_get_contents('php://input');\n\n// Specify the path where you want to save the image\n$imagePath = 'path/to/save/image.jpg';\n\n// Write the raw data to the specified file\nfile_put_contents($imagePath, $rawData);\n\necho "Image saved successfully!";\n?>

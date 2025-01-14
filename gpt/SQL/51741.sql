@@ -1,0 +1,1 @@
+SELECT \n    SoftwareName,\n    ISNULL([Canada], 0) AS Canada,\n    ISNULL([USA], 0) AS USA,\n    ISNULL([Canada], 0) + ISNULL([USA], 0) AS Total\nFROM \n    (SELECT SoftwareName, Count, Country FROM YourTable) AS SourceTable\nPIVOT \n    (SUM(Count) FOR Country IN ([Canada], [USA])) AS PivotTable\nORDER BY \n    SoftwareName;

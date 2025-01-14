@@ -1,0 +1,1 @@
+<div>\n    <h1><?php echo htmlspecialchars($data['title']); ?></h1>\n    <p><?php echo htmlspecialchars($data['content']); ?></p>\n</div>

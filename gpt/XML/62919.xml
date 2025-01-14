@@ -1,0 +1,1 @@
+<PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">\n  <Optimize>true</Optimize>\n  <DebugType>pdbonly</DebugType>\n  <DebugSymbols>false</DebugSymbols>\n  <OutputPath>bin\Release\</OutputPath>\n</PropertyGroup>

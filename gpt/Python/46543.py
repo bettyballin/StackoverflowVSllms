@@ -1,0 +1,1 @@
+import re\n\ninput_string = 'Two words,Word,Word,Word,"Number, number"'\noutput_string = re.sub(r',([^ ])', r'","\1', input_string)\nprint(output_string)  # Output: "Two words","Word","Word","Word","Number, number"

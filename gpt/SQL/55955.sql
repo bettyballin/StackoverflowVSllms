@@ -1,0 +1,1 @@
+SELECT user_name, product\nFROM user_orders;

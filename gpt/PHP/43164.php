@@ -1,0 +1,1 @@
+<?php\n$keyword = "MixedCaseKeyword";\n$lowercased_keyword = strtolower($keyword);\necho $lowercased_keyword; // Output: mixedcasekeyword\n?>

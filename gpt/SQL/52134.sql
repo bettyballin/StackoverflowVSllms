@@ -1,0 +1,1 @@
+-- Singular table name\nCREATE TABLE User (\n    id INT PRIMARY KEY,\n    name VARCHAR(100)\n);\n\n-- Plural table name\nCREATE TABLE Users (\n    id INT PRIMARY KEY,\n    name VARCHAR(100)\n);

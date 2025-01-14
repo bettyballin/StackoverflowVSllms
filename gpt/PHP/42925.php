@@ -1,0 +1,1 @@
+<?php\n$content = $post->post_content;\nif (preg_match('/src="(https?:\/\/[\S\w]+)"/i', $content, $match)) {\n    $imageUrl = $match[1];\n    echo '<img src="http://site/scripts/timthumb.php?src=' . urlencode($imageUrl) . '&h=320&w=214&zc=1" title="" alt="">';\n}\n?>

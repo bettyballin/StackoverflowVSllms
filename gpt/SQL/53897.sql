@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count, TRUNC(created) AS created\nFROM ABC\nGROUP BY TRUNC(created)\nORDER BY created DESC;

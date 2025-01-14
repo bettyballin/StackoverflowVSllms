@@ -1,0 +1,1 @@
+$content = '...'; // your HTML content\n\n$dom = new DOMDocument;\nlibxml_use_internal_errors(true); // to suppress HTML parsing errors\n$dom->loadHTML($content);\nlibxml_clear_errors();\n\n$links = [];\nforeach ($dom->getElementsByTagName('a') as $node) {\n    $links[] = $node->nodeValue;\n}\n\nforeach ($links as $link) {\n    echo $link . "\n";\n}

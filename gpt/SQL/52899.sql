@@ -1,0 +1,1 @@
+BEGIN\n    DBMS_RESOURCE_MANAGER.switch_consumer_group_for_user(USER => 'SCOTT', CONSUMER_GROUP => 'OLTP_GROUP');\n    DBMS_RESOURCE_MANAGER.switch_consumer_group_for_user(USER => 'HR', CONSUMER_GROUP => 'BATCH_GROUP');\nEND;\n/

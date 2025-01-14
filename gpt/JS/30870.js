@@ -1,0 +1,1 @@
+let source = "1234";\nlet comparison = "1000 12345 112345 1234 2000";\n\nlet regex = new RegExp(`\\b${source}\\b`);\nlet match = comparison.match(regex);\n\nif (match) {\n    console.log("Match found:", match[0]);\n} else {\n    console.log("No match found");\n}

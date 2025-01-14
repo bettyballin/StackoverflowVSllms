@@ -1,0 +1,1 @@
+# Example of a simple power analysis attack\ndef power_analysis_attack(device):\n    power_consumption = []\n    for i in range(256):\n        device.input(i)\n        power_consumption.append(device.measure_power())\n    return power_consumptio

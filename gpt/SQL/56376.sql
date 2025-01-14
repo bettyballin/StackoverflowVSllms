@@ -1,0 +1,1 @@
+CREATE INDEX idx_tabletoupdate_endtime ON TableToUpdate(EndTime);\nCREATE INDEX idx_dates_date ON Dates(DATE);

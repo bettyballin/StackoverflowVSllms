@@ -1,0 +1,1 @@
+x = [1, 2, 3, 4, 5, 11]\ny = [f'{num:02}' for num in x]\nprint(y)

@@ -1,0 +1,1 @@
+$post_data = $this->input->post();

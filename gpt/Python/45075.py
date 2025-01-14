@@ -1,0 +1,1 @@
+from distutils.core import setup\n    import py2exe, sys\n\n    sys.argv.append('py2exe')\n\n    setup(\n        options={\n            'py2exe': {\n                'bundle_files': 2,\n                'compressed': True,\n                'includes': ['py2exe_runtime_hooks']\n            }\n        },\n        console=[{'script': "testora.py"}],\n        zipfile=None,\n    )

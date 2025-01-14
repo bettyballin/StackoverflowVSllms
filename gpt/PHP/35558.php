@@ -1,0 +1,1 @@
+try {\n        // Code that may throw an exception\n    } catch (Exception $e) {\n        // Handle exception\n        error_log($e->getMessage());\n    }

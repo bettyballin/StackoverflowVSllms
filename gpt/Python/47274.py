@@ -1,0 +1,1 @@
+import logging\n\n     logging.basicConfig(filename='login_attempts.log', level=logging.INFO)\n\n     def log_attempt(username, ip, status):\n         logging.info(f'Username: {username}, IP: {ip}, Status: {status}')

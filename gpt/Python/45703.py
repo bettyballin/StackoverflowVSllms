@@ -1,0 +1,1 @@
+import math\nprint(math.factorial(5))

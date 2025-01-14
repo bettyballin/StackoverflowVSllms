@@ -1,0 +1,1 @@
+<rule name="Rewrite to clean URLs" enabled="true" stopProcessing="true">\n    <match url="^(.*)\.aspx$" ignoreCase="true" />\n    <action type="Rewrite" url="{R:1}/" />\n</rule>

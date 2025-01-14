@@ -1,0 +1,1 @@
+Private Sub Form_Load()\n       Me.cboUser = Null\n       Me.[Users subform].Form.Filter = ""\n       Me.[Users subform].Form.FilterOn = False\n   End Sub

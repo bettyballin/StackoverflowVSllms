@@ -1,0 +1,1 @@
+<?php\necho PHP_OS;\n?>

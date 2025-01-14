@@ -1,0 +1,1 @@
+class Product < ApplicationRecord\n  def brand\n    original_brand = read_attribute(:brand)\n    original_brand.split('_').map(&:capitalize).join(' ')\n  end\nend

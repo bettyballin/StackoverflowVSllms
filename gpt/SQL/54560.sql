@@ -1,0 +1,1 @@
+CREATE INDEX idx_stock_orderid ON Stock(OrderID);\nCREATE INDEX idx_order_customer ON [Order](Customer);\nCREATE INDEX idx_order_orderdate ON [Order](OrderDate);\nCREATE INDEX idx_items_productcode ON Items(ProductCode);

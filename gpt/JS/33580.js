@@ -1,0 +1,1 @@
+function parseBaseTenInt(str) {\n  return parseInt(str, 10);\n}\n\n// Usage\nlet number = parseBaseTenInt("123");\nconsole.log(number); // 123

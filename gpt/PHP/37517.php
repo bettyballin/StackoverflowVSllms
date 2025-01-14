@@ -1,0 +1,1 @@
+$autoloader = new \Zend\Loader\ClassMapAutoloader(array(\n       'path/to/classmap.php',\n   ));

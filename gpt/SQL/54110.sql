@@ -1,0 +1,1 @@
+CREATE INDEX idx_name ON YourTable (Name);\nCREATE INDEX idx_name_pref ON YourTable (Name, PreferenceFactor);

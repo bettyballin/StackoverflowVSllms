@@ -1,0 +1,1 @@
+list($encryptedData, $iv) = array_pad(explode('::', base64_decode($encryptedPassword), 2), 2, null);\n$decryptedPassword = openssl_decrypt($encryptedData, 'aes-256-cbc', $encryptionKey, 0, $iv);

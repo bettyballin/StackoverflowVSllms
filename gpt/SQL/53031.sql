@@ -1,0 +1,1 @@
+SELECT id, name\nFROM mv_table1_id_name;

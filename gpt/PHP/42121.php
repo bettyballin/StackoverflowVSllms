@@ -1,0 +1,1 @@
+$doc = new DOMDocument('1.0');\n$doc->standalone = true;\n\n// Add your XML content here\n// For example: $doc->appendChild($doc->createElement('root'));\n\n$xml_content = $doc->saveXML();\necho $xml_content;

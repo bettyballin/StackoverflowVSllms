@@ -1,0 +1,1 @@
+import requests\nfrom datetime import datetime\n\nbase_url = "https://api.example.com/feeds"\nresponse = requests.get(base_url)\nfeeds = response.json()\n\ntoday_date = datetime.now().strftime("%Y-%m-%d")\ntoday_feeds = [feed for feed in feeds if feed['date'] == today_date]\n\n# Process today's feeds as needed\nfor feed in today_feeds:\n    print(feed)

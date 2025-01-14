@@ -1,0 +1,1 @@
+if ($stmt = $mysqli->prepare("SELECT foo FROM bar WHERE id=? AND baz=?")) {\n    $stmt->bind_param('is', $id, $baz);\n    $stmt->execute();\n    \n    // Process the result\n    $stmt->bind_result($foo);\n    while ($stmt->fetch()) {\n        echo $foo;\n    }\n    \n    $stmt->close();\n}

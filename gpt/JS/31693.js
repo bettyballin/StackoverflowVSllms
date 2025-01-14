@@ -1,0 +1,1 @@
+var dataObject = { name: "John", time: "2pm" };\n\n$.post("test.php", dataObject, function(data) {\n    alert("Data Loaded: " + data);\n    // Now you can access properties of dataObject\n    console.log("Name: " + dataObject.name);\n    console.log("Time: " + dataObject.time);\n});

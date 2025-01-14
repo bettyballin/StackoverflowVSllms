@@ -1,0 +1,1 @@
+<configuration>\n  <system.web.webPages.razor>\n    <pages>\n      <namespaces>\n        <add namespace="YourNamespace" />\n      </namespaces>\n    </pages>\n  </system.web.webPages.razor>\n</configuration>

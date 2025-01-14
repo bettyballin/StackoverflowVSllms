@@ -1,0 +1,1 @@
+<!-- hibernate.cfg.xml -->\n   <property name="hibernate.show_sql">true</property>\n   <property name="hibernate.format_sql">true</property>\n   <property name="hibernate.use_sql_comments">true</property>

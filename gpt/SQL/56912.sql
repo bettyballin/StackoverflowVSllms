@@ -1,0 +1,1 @@
+WITH age_count AS (\n    SELECT \n        age, \n        COUNT(*) AS age_group_count\n    FROM \n        tbl_students\n    GROUP BY \n        age\n)\nSELECT \n    s.name, \n    s.age, \n    ac.age_group_count\nFROM \n    tbl_students s\nJOIN \n    age_count ac ON s.age = ac.age\nWHERE \n    s.city = 'ny';

@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\n\napp.get('/', (req, res) => {\n  const hasNoScript = req.headers['user-agent'].includes('NoScript'); // Simplified check\n  res.render('index', { hasNoScript });\n});\n\napp.listen(3000, () => {\n  console.log('Server running on port 3000');\n});

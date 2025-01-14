@@ -1,0 +1,1 @@
+<package name="default" extends="struts-default">\n    <action name="submitInvoice" class="com.example.InvoiceAction">\n        <result name="success">/success.jsp</result>\n        <result name="input">/invoiceForm.jsp</result>\n    </action>\n</package>

@@ -1,0 +1,1 @@
+MERGE INTO destination AS target\nUSING (SELECT a1, b1, c1 FROM source WHERE (selectconditions)) AS source\nON (target.A = source.a1)\nWHEN NOT MATCHED BY TARGET THEN\n    INSERT (A, B, C) VALUES (source.a1, source.b1, source.c1);

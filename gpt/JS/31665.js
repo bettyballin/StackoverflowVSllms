@@ -1,0 +1,1 @@
+function setBooleanAttribute(element, attribute, value) {\n  if (value) {\n    element.setAttribute(attribute, "");\n  } else {\n    element.removeAttribute(attribute);\n  }\n}\n\n// Usage\nsetBooleanAttribute(option, "selected", false);

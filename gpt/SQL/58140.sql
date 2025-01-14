@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX IX_ProductBOM_ParentProductID ON product_bill_of_materials(parent_product_id);\nCREATE NONCLUSTERED INDEX IX_ProductBOM_ChildProductID ON product_bill_of_materials(child_product_id);

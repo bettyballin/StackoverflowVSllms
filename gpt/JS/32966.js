@@ -1,0 +1,1 @@
+$(document).ready(function() {\n       console.log('jQuery is ready!');\n   });

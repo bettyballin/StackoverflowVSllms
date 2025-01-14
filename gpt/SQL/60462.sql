@@ -1,0 +1,1 @@
+-- Create a directory object\nCREATE OR REPLACE DIRECTORY my_dir AS '/path/to/your/directory';\n\n-- Grant read and write privileges on the directory to the user\nGRANT READ, WRITE ON DIRECTORY my_dir TO your_user;

@@ -1,0 +1,1 @@
+setup do\n  post :create, :user => Factory.attributes_for(:user)\n  \n  # Check if the response was successful\n  assert_response :success\n  \n  # Retrieve the instance variable from the controller\n  user = assigns(:user)\n  \n  # Log or inspect the errors on the model object\n  puts user.errors.full_messages unless user.valid?\nend

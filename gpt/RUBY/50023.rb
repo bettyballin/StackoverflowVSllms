@@ -1,0 +1,1 @@
+Patient.joins(:events)\n       .select("patients.lname, events.patient_id, events.event_type, MAX(events.event_date) AS event_date")\n       .group("patients.lname, events.patient_id, events.event_type")

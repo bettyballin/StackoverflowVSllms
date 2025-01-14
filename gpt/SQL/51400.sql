@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE Testing (\n  iKey IN VARCHAR2,\n  result OUT INTEGER\n)\nAS\nBEGIN\n  DELETE FROM MyTable WHERE TheKey = iKey;\n  \n  -- Check how many rows were deleted\n  IF SQL%ROWCOUNT > 0 THEN\n    result := 1; -- Success\n  ELSE\n    result := 0; -- No rows deleted\n  END IF;\nEXCEPTION\n  WHEN OTHERS THEN\n    result := -1; -- Error occurred\nEND Testing;

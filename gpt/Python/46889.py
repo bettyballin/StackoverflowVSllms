@@ -1,0 +1,1 @@
+import socket\n\n# Create a socket object\nserver_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n\n# Bind the socket to an address and port\nserver_socket.bind(('localhost', 8080))\n\n# Start listening with a backlog of 128\nbacklog = 128\nserver_socket.listen(backlog)\n\nprint(f"Server listening with a backlog of {backlog}")

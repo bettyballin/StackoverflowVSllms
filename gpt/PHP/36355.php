@@ -1,0 +1,1 @@
+$array = array();\n$array[2000] = 5;\n$array[3000] = 7;\n$array[3500] = 9;\n\n$squashed_array = array_values($array);\n\n// $squashed_array now contains [5, 7, 9]

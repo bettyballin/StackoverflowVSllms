@@ -1,0 +1,1 @@
+module HelloWorld\n\nsyntax Hello = "hello" Name;\nsyntax Name = /[a-z]+/;\n\npublic Hello parseHello(str input) {\n    return parse(#Hello, input);\n}

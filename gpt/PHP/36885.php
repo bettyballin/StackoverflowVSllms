@@ -1,0 +1,1 @@
+include 'Foo2.php'; // <--- Better practice\n   \n   class Foo {\n       function doFoo() {\n           // Use functionality from Foo2.php\n       }\n   }

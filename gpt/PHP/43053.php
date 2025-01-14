@@ -1,0 +1,1 @@
+$a = true;\n  $b = false;\n  $result = $a || $b; // result is true

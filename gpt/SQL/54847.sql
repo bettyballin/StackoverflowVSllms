@@ -1,0 +1,1 @@
+-- SQL Server example for creating a sequential GUID\n   CREATE TABLE MyTable (\n       ID UNIQUEIDENTIFIER DEFAULT NEWSEQUENTIALID() PRIMARY KEY CLUSTERED,\n       -- other columns\n   );

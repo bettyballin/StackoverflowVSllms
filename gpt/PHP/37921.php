@@ -1,0 +1,1 @@
+$productName = $products[$thisProd]['name'];

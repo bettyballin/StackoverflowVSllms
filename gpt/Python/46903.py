@@ -1,0 +1,1 @@
+import unicodedata\n   normalized_text = unicodedata.normalize('NFC', text)

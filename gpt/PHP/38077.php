@@ -1,0 +1,1 @@
+<?php\n   // Install phpMyFAQ via Composer\n   composer create-project phpmyfaq/phpmyfaq phpmyfaq

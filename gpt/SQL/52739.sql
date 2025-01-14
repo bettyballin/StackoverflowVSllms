@@ -1,0 +1,1 @@
+UPDATE FUNCTIONS\nSET Func_TaxRef = (\n    SELECT Min(TAX.Tax_Code)\n    FROM TAX\n    WHERE FUNCTIONS.Func_Pure <= TAX.Tax_ToPrice\n      AND FUNCTIONS.Func_Year = TAX.Tax_Year\n)

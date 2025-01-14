@@ -1,0 +1,1 @@
+CREATE VIEW dbo.YourView AS\nSELECT \n    Column1,\n    Column2,\n    TO_CHAR(DateColumn, 'YYYY-MM-DD') AS DateColumn\nFROM \n    OPENQUERY(ORACLE_LINKED_SERVER, 'SELECT Column1, Column2, TO_DATE(DateColumn, ''YYYY-MM-DD'') AS DateColumn FROM DB.TABLE');

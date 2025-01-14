@@ -1,0 +1,1 @@
+SELECT count(*) \nFROM Table1 t1\nLEFT JOIN Table2 t2 ON t1.Table1Id = t2.Table1Id AND t2.id_user = 1\nWHERE t2.Table1Id IS NULL;

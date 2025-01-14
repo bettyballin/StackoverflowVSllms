@@ -1,0 +1,1 @@
+from bs4 import BeautifulSoup\n\nhtml_content = """\n<HTML>\n    <HEAD>\n        <TITLE>Title</TITLE>\n        <HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">\n    </HEAD>\n    <BODY>\n        ...\n        ...\n    </BODY>\n</HTML>\n"""\n\nsoup = BeautifulSoup(html_content, 'html5lib')\nprint(soup.prettify())

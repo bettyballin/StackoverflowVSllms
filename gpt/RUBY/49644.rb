@@ -1,0 +1,1 @@
+# Add to Gemfile\n   gem 'bullet'\n   \n   # Run bundle install\n\n   # Configure Bullet in an initializer file\n   # config/initializers/bullet.rb\n   if defined?(Bullet)\n     Bullet.enable = true\n     Bullet.alert = true\n     Bullet.bullet_logger = true\n     Bullet.console = true\n     Bullet.rails_logger = true\n   end

@@ -1,0 +1,1 @@
+$.ajax({\n         url: 'http://localhost:3000/api/osm',\n         method: 'GET',\n         dataType: 'xml',\n         success: function(data) {\n             console.log(data);\n             // Process the XML data here\n         },\n         error: function(error) {\n             console.error('Error fetching data:', error);\n         }\n     });

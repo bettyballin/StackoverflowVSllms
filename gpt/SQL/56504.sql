@@ -1,0 +1,1 @@
+INSERT INTO Entity1_Entity2 (Entity1ID, Entity2ID, ValidStart, ValidEnd)\nVALUES (1, 2, '2023-01-01', '2023-12-31');

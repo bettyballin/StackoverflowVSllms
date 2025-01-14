@@ -1,0 +1,1 @@
+<users>\n    <user>\n        <id>1</id>\n        <name>John Doe</name>\n        <email>john.doe@example.com</email>\n    </user>\n    <user>\n        <id>2</id>\n        <name>Jane Smith</name>\n        <email>jane.smith@example.com</email>\n    </user>\n</users>

@@ -1,0 +1,1 @@
+SELECT TO_CHAR(SYSDATE, 'YYYY-MONTH') AS FormattedDate\n-- Replace SYSDATE with your datetime column, e.g., your_column_name

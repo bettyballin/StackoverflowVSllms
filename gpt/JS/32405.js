@@ -1,0 +1,1 @@
+// preload.js\n    const { contextBridge, ipcRenderer } = require('electron');\n    const addon = require('./build/Release/myaddon');\n\n    contextBridge.exposeInMainWorld('myAPI', {\n        runCppCode: () => addon.hello()\n    });\n\n    ipcRenderer.on('run-cpp-code', () => {\n        console.log(window.myAPI.runCppCode());\n    });

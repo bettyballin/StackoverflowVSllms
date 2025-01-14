@@ -1,0 +1,1 @@
+SELECT site_id, hit_type, COUNT(*) as hit_count\n   FROM hits\n   WHERE hit_timestamp >= NOW() - INTERVAL 24 HOUR\n   GROUP BY site_id, hit_type;

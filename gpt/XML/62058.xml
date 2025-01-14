@@ -1,0 +1,1 @@
+<ItemGroup>\n     <Reference Include="A">\n       <HintPath>..\path\to\A.dll</HintPath>\n       <Private>true</Private>\n     </Reference>\n     <Reference Include="B">\n       <HintPath>..\path\to\B.dll</HintPath>\n       <Private>true</Private>\n     </Reference>\n   </ItemGroup>

@@ -1,0 +1,1 @@
+-- Enable the slow query log\nSET GLOBAL slow_query_log = 'ON';\n\n-- Set the long query time threshold (e.g., 1 second)\nSET GLOBAL long_query_time = 1;\n\n-- Specify the location of the slow query log file\nSET GLOBAL slow_query_log_file = '/var/log/mysql/slow-queries.log';\n\n-- Optionally, log queries that do not use indexes\nSET GLOBAL log_queries_not_using_indexes = 'ON';

@@ -1,0 +1,1 @@
+SELECT name, \n       resolve, \n       source \nFROM all_java_classes \nWHERE name = 'YourJavaClassName';

@@ -1,0 +1,1 @@
+<%= link_to 'Delete', contact_company_join_path(contact_company_join, context: 'contact'), method: :delete, remote: true, class: 'edit_contact_join_delete' %>

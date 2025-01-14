@@ -1,0 +1,1 @@
+-- Preview rows that would be deleted\nSELECT * FROM your_table WHERE your_conditions;

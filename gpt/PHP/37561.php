@@ -1,0 +1,1 @@
+<?php\n// Start session at the beginning\nsession_start();\n\n// Your existing amfphp code for handling requests\nrequire_once 'Amfphp/ClassLoader.php';\n$config = new Amfphp_Core_Config();\n// further configuration if needed...\n\n$gateway = Amfphp_Core_HttpRequestGatewayFactory::createGateway($config);\n$gateway->service();\n\n?>

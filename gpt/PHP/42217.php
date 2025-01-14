@@ -1,0 +1,1 @@
+<?php\n$db = new SQLite3('users.db');\n$db->exec('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, username TEXT, password TEXT)');\n?>

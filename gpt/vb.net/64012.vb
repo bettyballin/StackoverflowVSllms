@@ -1,0 +1,1 @@
+<ComVisible(True)>\n   Public Class MyClass\n       ' Your methods here\n   End Class

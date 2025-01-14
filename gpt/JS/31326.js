@@ -1,0 +1,1 @@
+const regex = /<a\b[^>]*>(.*?)<\/a>/gs;\nconst str = '<p>ex: <code><a><strike>example data in here</strike></a></code></p>\n\n<p>I want everything inside the a tag, to the end </p>';\nconst matches = [...str.matchAll(regex)];\n\nmatches.forEach(match => {\n    console.log(match[1]); // Outputs: <strike>example data in here</strike>\n});

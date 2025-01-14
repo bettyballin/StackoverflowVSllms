@@ -1,0 +1,1 @@
+<deployment ...>\n  <deploymentProvider codebase="file:///i:/ApplicationDirectory/ApplicationName.application" />\n  ...\n</deployment>

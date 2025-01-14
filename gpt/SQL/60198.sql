@@ -1,0 +1,1 @@
+-- Using INNER JOIN\nSELECT * \nFROM Table1 T1 \nINNER JOIN Table2 T2 \nON T1.ID = T2.ID;

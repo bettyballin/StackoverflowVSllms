@@ -1,0 +1,1 @@
+ALTER SESSION ENABLE PARALLEL DML;\n\n-- Perform the data load here with parallel hints\nINSERT /*+ PARALLEL(your_table, degree_of_parallelism) */ INTO your_table (column_list)\nSELECT * FROM source_table;

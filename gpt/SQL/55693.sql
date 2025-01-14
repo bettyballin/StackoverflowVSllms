@@ -1,0 +1,1 @@
+DECLARE @localVariable INT\n\nEXEC GetMyValue @newvalue = @localVariable OUTPUT\n\n-- Now @localVariable contains the value returned by GetMyValue

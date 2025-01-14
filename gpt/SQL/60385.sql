@@ -1,0 +1,1 @@
+select * from a\nleft outer join b on a.id = b.id

@@ -1,0 +1,1 @@
+INSERT INTO reports (report_name, report_sql) \n     VALUES ('List All Tables', 'SELECT tablename FROM pg_tables WHERE schemaname = ''public'';');

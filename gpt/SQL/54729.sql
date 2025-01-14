@@ -1,0 +1,1 @@
+SQL> RECOVER AUTOMATIC DATABASE;\n   SQL> ALTER DATABASE RECOVER LOGFILE '/path/to/oracle_redo_logs/redo01.log';\n   SQL> ALTER DATABASE RECOVER LOGFILE '/path/to/oracle_redo_logs/redo02.log';\n   -- Continue for all redo logs

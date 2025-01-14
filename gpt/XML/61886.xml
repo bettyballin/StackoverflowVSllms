@@ -1,0 +1,1 @@
+<servlet>\n    <servlet-name>jsp</servlet-name>\n    <servlet-class>oracle.jsp.JspServlet</servlet-class>\n    <init-param>\n        <param-name>debug_mode</param-name>\n        <param-value>true</param-value>\n    </init-param>\n    <!-- other configurations -->\n</servlet>

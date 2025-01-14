@@ -1,0 +1,1 @@
+SELECT streetNames\nFROM Customers\nORDER BY \n  CAST(SUBSTRING(streetNames, 7, LEN(streetNames) - 6) AS INT),\n  SUBSTRING(streetNames, PATINDEX('%[0-9]%', streetNames) + LEN(CAST(SUBSTRING(streetNames, 7, LEN(streetNames) - 6) AS INT)), LEN(streetNames))

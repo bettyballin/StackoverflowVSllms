@@ -1,0 +1,1 @@
+template_values = {\n    'allowed_voters': allowed_voters,\n    'last_voter': last_voter,\n}

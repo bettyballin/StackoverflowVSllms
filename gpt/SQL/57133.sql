@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION bitwise_left_shift(p_value IN PLS_INTEGER, p_shift IN PLS_INTEGER) RETURN PLS_INTEGER IS\nBEGIN\n    RETURN p_value * POWER(2, p_shift);\nEND;\n/\n\nCREATE OR REPLACE FUNCTION bitwise_right_shift(p_value IN PLS_INTEGER, p_shift IN PLS_INTEGER) RETURN PLS_INTEGER IS\nBEGIN\n    RETURN TRUNC(p_value / POWER(2, p_shift));\nEND;\n/

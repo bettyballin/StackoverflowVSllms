@@ -1,0 +1,1 @@
+<?php\n// front-controller.php\n\nrequire 'CustomSessionHandler.php';\n\n$handler = new CustomSessionHandler();\nsession_set_save_handler($handler, true);\nsession_start();\n\n// Include your application logic here\nrequire 'app.php';\n?>

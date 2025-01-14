@@ -1,0 +1,1 @@
+CREATE PROCEDURE LandData_Update\n    @MyFirstName NVARCHAR(50),\n    @MyLastName NVARCHAR(50)\n    -- other parameters\nAS\nBEGIN\n    -- Update logic here\nEND;

@@ -1,0 +1,1 @@
+CHECK TABLE jos_content;\n   REPAIR TABLE jos_content;

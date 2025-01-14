@@ -1,0 +1,1 @@
+WITH OrderedTable AS (\n    SELECT rowInt, Value,\n           ROW_NUMBER() OVER(ORDER BY rowInt) AS rn\n    FROM myTable\n)\nSELECT t1.rowInt, t1.Value,\n       t1.Value - COALESCE(t2.Value, 0) AS Diff\nFROM OrderedTable t1\nLEFT JOIN OrderedTable t2 ON t1.rn = t2.rn + 1\nORDER BY t1.rowInt;

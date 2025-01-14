@@ -1,0 +1,1 @@
+(function() {\n       // code\n   })();

@@ -1,0 +1,1 @@
+WITH CTE AS (\n    SELECT \n        *,\n        COUNT(*) OVER() AS TotalCount\n    FROM \n        YourTable\n    WHERE \n        -- your complex where conditions\n)\nSELECT TOP 1000 *\nFROM CTE;

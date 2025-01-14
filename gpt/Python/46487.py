@@ -1,0 +1,1 @@
+import re\n\ndef remove_excessive_line_returns(text):\n    # Replace three or more consecutive line returns with two\n    return re.sub(r'\n{3,}', '\n\n', text)\n\ninput_text = """i like cats\n\n\nmy cat is happy\ni love my cat\n\n\n\nhope you have a nice day\n"""\n\noutput_text = remove_excessive_line_returns(input_text)\nprint(output_text)

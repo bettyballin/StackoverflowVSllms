@@ -1,0 +1,1 @@
+SELECT \n    id,\n    STRING_AGG(Name + ':' + CAST(Value AS VARCHAR), ', ') AS [Column]\nFROM \n    your_table\nGROUP BY \n    id;

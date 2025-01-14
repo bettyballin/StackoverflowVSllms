@@ -1,0 +1,1 @@
+SELECT c.CategoryNumber, c.Desc\nFROM Category c\nLEFT JOIN Media m ON c.CategoryNumber = m.CategoryNumber\nLEFT JOIN Sales s ON m.MediaID = s.MediaID AND s.EmployeeID = ? -- Use the given employee's ID here\nWHERE s.MediaID IS NULL;

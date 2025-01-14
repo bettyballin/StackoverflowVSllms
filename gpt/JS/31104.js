@@ -1,0 +1,1 @@
+// Send verification email\n   sendVerificationEmail(email);

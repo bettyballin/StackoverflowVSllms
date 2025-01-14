@@ -1,0 +1,1 @@
+// Assume $db is an instance of Zend_Db_Adapter_Abstract\n$sql = 'SELECT * FROM your_table';\n$result = $db->fetchAll($sql);\n$rowCount = count($result);\n\necho "Number of rows: " . $rowCount;

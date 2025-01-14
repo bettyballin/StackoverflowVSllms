@@ -1,0 +1,1 @@
+<?php\n// Path to the image file\n$imagePath = 'path/to/your/folder/image.jpg';\n\n// Check if the file exists\nif (file_exists($imagePath)) {\n    // Attempt to delete the file\n    if (unlink($imagePath)) {\n        echo 'File deleted successfully.';\n    } else {\n        echo 'Error deleting the file.';\n    }\n} else {\n    echo 'File does not exist.';\n}\n?>

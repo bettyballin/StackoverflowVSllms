@@ -1,0 +1,1 @@
+DECLARE @givenDate DATE = '2009-06-12'; -- Replace with your given date\nDECLARE @firstEverPayment DATE = '2009-06-01';\n\nSELECT DATEADD(DAY, 14 * ((DATEDIFF(DAY, @firstEverPayment, @givenDate) / 14) + 1), @firstEverPayment) AS NextPaymentDate

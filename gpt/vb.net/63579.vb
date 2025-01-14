@@ -1,0 +1,1 @@
+<TestClass>\nPublic Class DataProcessorTests\n    <TestMethod>\n    Public Sub ProcessData_ShouldProcessCorrectly()\n        ' Arrange\n        Dim processor As New DataProcessor()\n\n        ' Act\n        processor.ProcessData()\n\n        ' Assert\n        ' Add assertions to verify the results\n    End Sub\nEnd Class

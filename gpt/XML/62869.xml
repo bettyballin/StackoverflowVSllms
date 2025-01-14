@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <security>\n      <ipSecurity allowUnlisted="false">\n        <add ipAddress="192.168.0.0" subnetMask="255.255.0.0" allowed="true" />\n        <add ipAddress="10.0.0.0" subnetMask="255.0.0.0" allowed="true" />\n      </ipSecurity>\n    </security>\n  </system.webServer>\n</configuration>

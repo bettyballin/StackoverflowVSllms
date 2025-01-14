@@ -1,0 +1,1 @@
+SELECT\n    column1,\n    column2,\n    column1 / NULLIF(column2, 0) AS result\nFROM\n    your_table;

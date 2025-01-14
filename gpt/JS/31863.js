@@ -1,0 +1,1 @@
+function a(b, c) {\n  return b + c;\n}\n\nconst result = a(...[4, 5]);\nconsole.log(result);  // Output: 9

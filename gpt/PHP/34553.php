@@ -1,0 +1,1 @@
+<?php\nclass MyClass {\n    public function sayHello() {\n        return "Hello, World!";\n    }\n}\n?>

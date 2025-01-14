@@ -1,0 +1,1 @@
+=System.Text.RegularExpressions.Regex.Replace(Fields!YourFieldName.Value, "<[^>]+>", "")

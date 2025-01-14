@@ -1,0 +1,1 @@
+SELECT Field1\n     , Field2\n  -- , Field3\nFROM [some_table] AS ST\nINNER JOIN [other_table] AS OT\n    ON ST.PKID = OT.FKID\nWHERE [this] = [that]\n  AND [one_other] > 53;

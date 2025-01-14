@@ -1,0 +1,1 @@
+CREATE SEQUENCE EmployeeSeq\n    START WITH 1\n    INCREMENT BY 1;\n\nCREATE TABLE Employees (\n    EmployeeID INT DEFAULT NEXT VALUE FOR EmployeeSeq PRIMARY KEY,\n    FirstName NVARCHAR(50),\n    LastName NVARCHAR(50),\n    Position NVARCHAR(50)\n);

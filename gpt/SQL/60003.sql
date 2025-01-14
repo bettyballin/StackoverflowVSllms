@@ -1,0 +1,1 @@
+CREATE DATABASE tomcat_sessions;\n\nUSE tomcat_sessions;\n\nCREATE TABLE tomcat_sessions (\n  session_id VARCHAR(36) NOT NULL,\n  app_name VARCHAR(255) NOT NULL,\n  last_accessed BIGINT NOT NULL,\n  max_inactive INT NOT NULL,\n  session_data MEDIUMBLOB,\n  PRIMARY KEY (session_id, app_name)\n);

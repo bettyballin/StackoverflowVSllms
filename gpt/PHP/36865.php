@@ -1,0 +1,1 @@
+require_once 'Foo2.php'; // Ensures the file is included only once\n\nclass Foo {\n    function doFoo() {\n        // Use functionality from Foo2.php\n    }\n}

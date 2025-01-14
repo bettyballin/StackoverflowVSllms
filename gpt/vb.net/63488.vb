@@ -1,0 +1,1 @@
+Private Function Foo(ByVal param1 As String, ByVal param2 As Integer)

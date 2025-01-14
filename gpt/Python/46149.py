@@ -1,0 +1,1 @@
+from webob import Response\n\n# Create a Response object\nresponse = Response()\n\n# Set cookies using the set_cookie method\nresponse.set_cookie('uniqueid', unique_identifier)\nresponse.set_cookie('nickname', nickname)\n\n# To send the response back to the client with the cookies\nreturn response

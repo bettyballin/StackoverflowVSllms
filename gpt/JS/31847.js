@@ -1,0 +1,1 @@
+$("#yourDialog").dialog({\n       close: function(event, ui) {\n           // Close the autocomplete dropdown\n           $($.jqId("requestQueuesText")).autocomplete("close");\n       }\n   });

@@ -1,0 +1,1 @@
+SELECT * FROM html WHERE url="http://example.com" AND xpath="//img"

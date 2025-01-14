@@ -1,0 +1,1 @@
+ALTER INDEX IX_TypeName ON types REORGANIZE;

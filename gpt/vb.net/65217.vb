@@ -1,0 +1,1 @@
+Dim add = Function(x As Integer, y As Integer) x + y\nDim result = add(5, 3)\nConsole.WriteLine(result) ' Outputs: 8

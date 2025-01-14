@@ -1,0 +1,1 @@
+<nav>\n    <page>\n        <label>Contact</label>\n        <module>contact</module>\n        <controller>index</controller>\n        <action>view</action>\n        <params>\n            <id>123</id>\n        </params>\n    </page>\n</nav>

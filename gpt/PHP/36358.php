@@ -1,0 +1,1 @@
+$largeArray = range(1, 10000);\n\n// Freeing memory with unset()\nunset($largeArray);\n// $largeArray is now undefined\n\n// Freeing memory with setting to null\n$largeArray = range(1, 10000);\n$largeArray = null;\n// $largeArray is still defined but holds null

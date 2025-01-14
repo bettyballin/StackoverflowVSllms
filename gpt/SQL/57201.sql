@@ -1,0 +1,1 @@
+SET GLOBAL foreign_key_checks = 0;\n     SET GLOBAL innodb_flush_log_at_trx_commit = 2;

@@ -1,0 +1,1 @@
+SELECT \n    p.name AS ProcedureName,\n    t.name AS TableName\nFROM \n    sys.procedures AS p\nJOIN \n    sys.sql_dependencies AS d\n    ON p.object_id = d.object_id\nJOIN \n    sys.tables AS t\n    ON d.referenced_major_id = t.object_id\nWHERE \n    p.name = 'YourStoredProcedureName';

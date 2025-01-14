@@ -1,0 +1,1 @@
+# Gemfile\n     gem 'redis'\n     gem 'sidekiq'

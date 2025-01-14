@@ -1,0 +1,1 @@
+console.log(Object.getOwnPropertyNames(obj));\nconsole.log(Object.getOwnPropertyDescriptors(obj));

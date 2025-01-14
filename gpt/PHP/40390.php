@@ -1,0 +1,1 @@
+if (file_exists('../images/' . $pk . '.jpg')) {\n    $imageSrc = "../images/" . $pk . ".jpg";\n    $imagehtml = json_encode('<img src="' . $imageSrc . '" >');\n    $screenshotLink = '<p><a href="#" onclick="makewindows(' . htmlspecialchars($imagehtml, ENT_QUOTES) . '); return false;">View Screenshot</a></p>';\n} else {\n    $screenshotLink = '';\n}

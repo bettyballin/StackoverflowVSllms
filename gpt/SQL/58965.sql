@@ -1,0 +1,1 @@
+-- Assuming you are using a SQL database like SQLite, MySQL, or PostgreSQL\nSELECT * FROM your_table\nLIMIT 100 OFFSET 0;  -- For the first 100 results\n\n-- For the next 100 results, increase the offset by 100\nSELECT * FROM your_table\nLIMIT 100 OFFSET 100;

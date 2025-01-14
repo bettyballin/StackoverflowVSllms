@@ -1,0 +1,1 @@
+DELETE FROM Address\nWHERE address_id NOT IN (\n    SELECT billing_address_id FROM PurchaseOrder\n    UNION\n    SELECT delivery_address_id FROM PurchaseOrder\n    UNION\n    SELECT address_id FROM Supplier\n);

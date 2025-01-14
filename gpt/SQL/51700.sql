@@ -1,0 +1,1 @@
+WITH MissingNumbers AS (\n    SELECT ROW_NUMBER() OVER (ORDER BY document_number) AS expected_number, document_number\n    FROM YourTable\n),\nUnmatched AS (\n    SELECT expected_number\n    FROM MissingNumbers\n    WHERE expected_number <> document_number\n)\nSELECT MIN(expected_number) AS smallest_unused_number\nFROM Unmatched

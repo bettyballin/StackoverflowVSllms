@@ -1,0 +1,1 @@
+EXEC sp_generate_inserts \n       @table_name = 'YourTableName',\n       @from = 'SELECT * FROM YourTableName WHERE YourCondition',\n       @identity = 1, -- Include identity columns\n       @include_column_list = 1, -- Include column names in the insert statement\n       @include_timestamp = 0; -- Exclude timestamp columns

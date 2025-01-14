@@ -1,0 +1,1 @@
+<XmlFile.SetAttribute Path="$(MSBuildProjectDirectory)\TestProduct.wxs"\n                          XPath="/wix:Wix/wix:Product" \n                          Namespaces="@(Namespaces)" \n                          Name="Name" \n                          Value="MODIFIED"/>

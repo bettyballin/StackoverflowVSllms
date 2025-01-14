@@ -1,0 +1,1 @@
+if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) {\n    ob_start("ob_gzhandler");\n    header('Content-Encoding: gzip');\n} else {\n    ob_start();\n}\n\n// Set the content type to application/json\nheader('Content-Type: application/json');\n\n// Your JSON output\n$data = array("key" => "value");\necho json_encode($data);\n\nob_end_flush();

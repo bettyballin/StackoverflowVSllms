@@ -1,0 +1,1 @@
+SELECT * FROM Employees WHERE LastName LIKE 'S%'; -- Assuming LastName is indexed but the predicate is not highly selective

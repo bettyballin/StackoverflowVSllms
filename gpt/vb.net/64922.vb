@@ -1,0 +1,1 @@
+Protected Sub Button_Click(sender As Object, e As EventArgs)\n    Dim sourceFolder As String = "c:\test"\n    Dim destinationZipFile As String = "c:\test.zip"\n    ZipFolder(sourceFolder, destinationZipFile)\nEnd Sub

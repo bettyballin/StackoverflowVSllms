@@ -1,0 +1,1 @@
+-- Table creation\nCREATE TABLE documents (\n    id SERIAL PRIMARY KEY,\n    name TEXT,\n    content BYTEA\n);\n\n-- Inserting a blob\nINSERT INTO documents (name, content) VALUES ('example.pdf', pg_read_binary_file('/path/to/example.pdf'));\n\n-- Retrieving a blob\nSELECT name, content FROM documents WHERE id = 1;

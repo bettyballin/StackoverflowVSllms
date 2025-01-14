@@ -1,0 +1,1 @@
+$('#searchButton').click(function() {\n    var timestamp = new Date().getTime(); // Get the current timestamp\n    var query = $('#query').val();\n    $('#inquiry').load('/portal/?f=searchBilling&pid=' + query + '&_=' + timestamp);\n});

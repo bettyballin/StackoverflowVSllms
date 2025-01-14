@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\nUPDATE YourTable\nSET YourColumn = 'NewValue'\nWHERE YourCondition;\n\n-- If something goes wrong\nROLLBACK;\n\n-- If everything is fine and you want to commit the changes\n-- COMMIT;

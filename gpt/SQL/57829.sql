@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n    SELECT EmployeeID, SaleAmount, SaleDate\n    FROM Sales\n) src\nPIVOT (\n    SUM(SaleAmount)\n    FOR EmployeeID IN (SELECT DISTINCT EmployeeID FROM Employees)\n) pvt;

@@ -1,0 +1,1 @@
+CREATE TABLE table (\n    name NVARCHAR(100) COLLATE Latin1_General_BIN\n)

@@ -1,0 +1,1 @@
+<SubSonicService defaultProvider="MySqlDataProvider">\n  <providers>\n    <add name="MySqlDataProvider" type="SubSonic.MySqlDataProvider, SubSonic" connectionStringName="MySqlConnectionString" generatedNamespace="YourNamespace" />\n  </providers>\n  <settings>\n    <log enabled="true" logProvider="Console"/>\n  </settings>\n</SubSonicService>

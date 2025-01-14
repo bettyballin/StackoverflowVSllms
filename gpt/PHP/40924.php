@@ -1,0 +1,1 @@
+<?php\n// Your PHP logic for posting the tweet\n$user = $_GET['user'];\n$pass = $_GET['pass'];\n$message = $_GET['message'];\n\n// Assuming you have a function to post the tweet\npost_tweet($user, $pass, $message);\n\n// Use JavaScript to go back to the previous page\necho '<script type="text/javascript">\n        window.history.back();\n      </script>';\n?>

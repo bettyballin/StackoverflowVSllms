@@ -1,0 +1,1 @@
+DECLARE @BaseDate DATE = '2005-02-01';\nDECLARE @Today DATE = GETDATE();\nDECLARE @DayCount INT = 7;\n\nSELECT ((DATEDIFF(DAY, @BaseDate, @Today)) % @DayCount) AS Offset;

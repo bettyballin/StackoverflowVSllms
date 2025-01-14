@@ -1,0 +1,1 @@
+public function logout()\n{\n    $this->load->library('session');\n    $this->load->helper('cookie');\n\n    $this->session->sess_destroy();\n    delete_cookie('remember_me');\n    redirect('login');\n}

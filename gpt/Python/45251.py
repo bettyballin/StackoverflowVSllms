@@ -1,0 +1,1 @@
+from flask import request\n\ndef is_ajax_request():\n    return request.headers.get('X-Requested-With') == 'XMLHttpRequest'

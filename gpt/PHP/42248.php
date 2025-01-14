@@ -1,0 +1,1 @@
+$array = array("a", "b", "c", "d");\n\n// Delete the element with index 1 (which is "b")\nunset($array[1]);\n\n// Re-index the array if you want the indices to be sequential\n$array = array_values($array);\n\n// Now, foreach will not include the deleted element\nforeach ($array as $element) {\n    echo $element . "\n";\n}

@@ -1,0 +1,1 @@
+require_once '/path/to/your/application/mediawiki/includes/WebStart.php';\n\n   $text = "'''Bold Text'''";\n   $parser = new Parser();\n   $options = new ParserOptions();\n   $parsedText = $parser->parse($text, Title::newFromText('Main Page'), $options)->getText();\n\n   echo $parsedText;  // Output: <b>Bold Text</b>

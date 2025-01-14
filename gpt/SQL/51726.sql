@@ -1,0 +1,1 @@
+-- Dropping a table\nDROP TABLE report_rollup_table;\n\n-- Truncating a table\nTRUNCATE TABLE report_rollup_table;

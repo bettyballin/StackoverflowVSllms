@@ -1,0 +1,1 @@
+import numpy as np\n\ndef generate_psd_matrix(n):\n    # Step 1: Generate a random matrix A\n    A = np.random.rand(n, n)\n    \n    # Step 2: Compute the product A * A.T\n    psd_matrix = np.dot(A, A.T)\n    \n    return psd_matrix\n\n# Example usage\nn = 3  # dimension of the matrix\npsd_matrix = generate_psd_matrix(n)\nprint(psd_matrix)

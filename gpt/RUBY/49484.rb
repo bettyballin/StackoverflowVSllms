@@ -1,0 +1,1 @@
+# Assuming you have a model named MyModel\n\n# Iterate through all relevant records\nMyModel.find_each do |record|\n  # Do some processing with the record\n  \n  # Manually update the `updated_at` column\n  record.updated_at = Time.current\n  \n  # Save the record\n  record.save(false) # Save without validations if necessary, otherwise use `record.save`\nend

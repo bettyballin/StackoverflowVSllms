@@ -1,0 +1,1 @@
+import socket\n\n# Create a socket object\nclient_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n\n# Define the server address and port\nserver_address = ('localhost', 8080)\n\n# Connect to the server\nclient_socket.connect(server_address)\n\nprint("Connected to server")\n\n# Remember to close the socket when done\nclient_socket.close()

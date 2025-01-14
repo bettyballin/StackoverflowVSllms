@@ -1,0 +1,1 @@
+<div class="validation-summary-wrapper">\n    <%= Html.ValidationSummary("There were some errors...") %>\n</div>

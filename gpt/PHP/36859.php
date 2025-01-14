@@ -1,0 +1,1 @@
+class Foo {\n       function doFoo() {\n           include 'Foo2.php'; // <--- Not recommended\n           // Use functionality from Foo2.php\n       }\n   }

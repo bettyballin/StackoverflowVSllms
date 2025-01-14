@@ -1,0 +1,1 @@
+var MyLibrary = new function(){\n    // init code\n}

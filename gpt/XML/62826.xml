@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.openjdk.jmh</groupId>\n    <artifactId>jmh-core</artifactId>\n    <version>1.32</version>\n</dependency>\n<dependency>\n    <groupId>org.openjdk.jmh</groupId>\n    <artifactId>jmh-generator-annprocess</artifactId>\n    <version>1.32</version>\n    <scope>provided</scope>\n</dependency>

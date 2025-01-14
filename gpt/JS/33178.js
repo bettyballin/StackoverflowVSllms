@@ -1,0 +1,1 @@
+// For obj1\nvar meta1 = document.querySelector('#obj1 #Meta meta');\nconsole.log(meta1.innerHTML);\n\n// For obj2\nvar meta2 = document.querySelector('#obj2 #Meta meta');\nconsole.log(meta2.innerHTML);

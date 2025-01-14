@@ -1,0 +1,1 @@
+function outerFunction(outerVariable) {\n    return function innerFunction(innerVariable) {\n        console.log('Outer Variable:', outerVariable);\n        console.log('Inner Variable:', innerVariable);\n    };\n}\n\nconst newFunction = outerFunction('outside');\nnewFunction('inside');

@@ -1,0 +1,1 @@
+parameters = [\n    ("param1", "value1"),\n    ("param2", "value2"),\n    ("param1", "value3"),\n    ("param3", "value1")\n]\n\n# Sort parameters by name first, then by value if names are the same\nsorted_parameters = sorted(parameters, key=lambda x: (x[0], x[1]))\n\nprint(sorted_parameters)

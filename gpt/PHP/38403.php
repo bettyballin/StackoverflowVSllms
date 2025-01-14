@@ -1,0 +1,1 @@
+// application/bootstrap.php\n   Kohana::init(array(\n       'base_url'   => '/your_project_folder/',\n   ));

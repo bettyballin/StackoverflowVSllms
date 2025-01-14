@@ -1,0 +1,1 @@
+$go->setAttrib('id', 'gogogo');

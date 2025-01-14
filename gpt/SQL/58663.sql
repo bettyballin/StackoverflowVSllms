@@ -1,0 +1,1 @@
+SELECT * FROM sys.fulltext_catalogs\nSELECT * FROM sys.fulltext_indexes

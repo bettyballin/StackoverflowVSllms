@@ -1,0 +1,1 @@
+class YourModel < ActiveRecord::Base\n  validate :custom_validation\n\n  def custom_validation\n    valid_values = OtherModel.pluck(:valid_value_column)\n    Rails.logger.debug "Valid values: #{valid_values}"\n    unless valid_values.include?(self.some_attribute)\n      errors.add(:some_attribute, "is not included in the list")\n    end\n  end\nend

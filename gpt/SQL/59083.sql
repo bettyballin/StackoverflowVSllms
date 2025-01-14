@@ -1,0 +1,1 @@
+CREATE PROCEDURE TransferData\nAS\nBEGIN\n    -- Insert data from table A to table B\n    INSERT INTO tableB (col1, col2, col3)\n    SELECT col1, col2, col3\n    FROM tableA\n    WHERE <condition>;\nEND;

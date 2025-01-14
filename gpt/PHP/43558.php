@@ -1,0 +1,1 @@
+<?php\nrequire_once('/path/to/your/Connections/connComparisonLogin.php');\n?>

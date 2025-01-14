@@ -1,0 +1,1 @@
+<?php\nob_start(); // Start output buffering\n\n// Your code here\nheader('Location: http://example.com');\n\n// Flush the buffer and send output\nob_flush();\n?>

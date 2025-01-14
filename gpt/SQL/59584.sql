@@ -1,0 +1,1 @@
+CREATE TABLE FailedLogins (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    ip_address VARCHAR(45) NOT NULL,\n    username VARCHAR(255) NOT NULL,\n    attempt_time DATETIME NOT NULL,\n    INDEX (username),\n    INDEX (ip_address),\n    INDEX (attempt_time)\n);

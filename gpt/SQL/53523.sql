@@ -1,0 +1,1 @@
+CREATE TABLE example_table (\n    example_column NUMBER\n);

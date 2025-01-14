@@ -1,0 +1,1 @@
+CREATE PROCEDURE InsertEmployee\n    @Name NVARCHAR(50),\n    @Position NVARCHAR(50),\n    @Salary DECIMAL(10, 2)\nAS\nBEGIN\n    INSERT INTO Employees (Name, Position, Salary)\n    VALUES (@Name, @Position, @Salary);\nEND

@@ -1,0 +1,1 @@
+<?php\n$code = file_get_contents($argv[1]); // Read the PHP file passed as an argument\n$ast = ast\parse_code($code, $version=50);\n\nfunction traverse($node) {\n    if ($node instanceof ast\Node) {\n        foreach ($node->children as $child) {\n            traverse($child);\n        }\n    }\n    echo $node->kind, "\n";\n}\n\ntraverse($ast);\n?>

@@ -1,0 +1,1 @@
+RENAME employee_view TO staff_view;

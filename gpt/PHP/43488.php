@@ -1,0 +1,1 @@
+class MyClass {\n    public static function __callStatic($name, $arguments) {\n        echo "Calling static method '$name' "\n             . implode(', ', $arguments). "\n";\n    }\n}\n\n// Calling an undefined static method\nMyClass::undefinedStaticMethod('arg1', 'arg2');

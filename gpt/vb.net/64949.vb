@@ -1,0 +1,1 @@
+Imports System.Collections.Generic\n\nPublic Sub YourFunction(Optional ByVal dict As Dictionary(Of String, String) = Nothing)\n    If dict Is Nothing Then\n        dict = New Dictionary(Of String, String)()\n    End If\n\n    ' Your function logic here\nEnd Sub

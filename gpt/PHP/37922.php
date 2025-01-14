@@ -1,0 +1,1 @@
+$exceptionCaught = false;\n\ntry {\n    // Do something\n} catch (Exception $ex) {\n    // Handle the error\n    $exceptionCaught = true;\n} finally {\n    // Clean up after yourself\n    cleanup();\n}\n\nfunction cleanup() {\n    // Your cleanup code here\n}

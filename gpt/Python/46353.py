@@ -1,0 +1,1 @@
+myDict = {'item1': [7, 1, 9], 'item2': [8, 2, 3], 'item3': [9, 3, 11]}\n\nsorted_items = sorted(myDict.items(), key=lambda item: item.value[2])\n\nfor key, value in sorted_items:\n    print(f'{key}: {value}')

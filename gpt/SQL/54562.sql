@@ -1,0 +1,1 @@
+CREATE PROCEDURE [dbo].[GetData]\n    @ServerName NVARCHAR(128)\nAS\nBEGIN\n    DECLARE @SQL NVARCHAR(MAX)\n\n    SET @SQL = N'\n        SELECT * \n        FROM ' + QUOTENAME(@ServerName) + '.ClientDataBase.dbo.Client'\n\n    EXEC sp_executesql @SQL\nEND

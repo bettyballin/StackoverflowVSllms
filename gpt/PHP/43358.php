@@ -1,0 +1,1 @@
+$this->Session->setFlash('Record edited successfully.', 'default', array('element' => 'flash_message'));

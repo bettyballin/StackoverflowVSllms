@@ -1,0 +1,1 @@
+SELECT *\nFROM Records\nWHERE StartDate <= GETDATE() AND (EndDate IS NULL OR EndDate >= GETDATE());

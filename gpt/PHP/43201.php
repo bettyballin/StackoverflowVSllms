@@ -1,0 +1,1 @@
+<?php\n    $request = &$this->request;\n    $user = &$this->user;\n    // This is comment\n    return false;\n?>

@@ -1,0 +1,1 @@
+function foo(c) {\n    return [a, b];\n}\n\nconst [a, b] = foo(c);

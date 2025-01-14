@@ -1,0 +1,1 @@
+class UserRepository {\n         public function getBasicUserInfo($id) {\n             return DB::table('users')->select('id', 'name')->where('id', $id)->first();\n         }\n\n         public function getDetailedUserInfo($id) {\n             return DB::table('users')->select('id', 'name', 'email', 'address', 'phone')->where('id', $id)->first();\n         }\n     }

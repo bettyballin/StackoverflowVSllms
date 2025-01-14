@@ -1,0 +1,1 @@
+<?php\n// Set timezone to GMT+8\ndate_default_timezone_set('Asia/Singapore');\n\n// Get current time\n$current_time = new DateTime();\n\n// Add 30 minutes\n$current_time->modify('+30 minutes');\n\n// Display the new time\necho $current_time->format('Y-m-d H:i:s');\n?>

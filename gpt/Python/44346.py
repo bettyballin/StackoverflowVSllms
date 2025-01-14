@@ -1,0 +1,1 @@
+# Simple single-line lambda\nadd = lambda a, b: a + b\nprint(add(5, 3))  # Output: 8

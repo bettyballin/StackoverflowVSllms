@@ -1,0 +1,1 @@
+CREATE PROCEDURE GrantPermission (IN userId INT, IN permission VARCHAR(50))\n   BEGIN\n       -- Add logic to grant permission\n       INSERT INTO user_permissions (user_id, permission) VALUES (userId, permission);\n   END;

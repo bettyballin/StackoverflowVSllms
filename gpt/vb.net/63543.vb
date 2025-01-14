@@ -1,0 +1,1 @@
+Imports log4net\n\n      Public Class Logger\n          Private Shared ReadOnly log As ILog = LogManager.GetLogger(GetType(Logger))\n\n          Public Shared Sub LogException(ex As Exception)\n              log.Error("Exception Occurred", ex)\n          End Sub\n      End Class

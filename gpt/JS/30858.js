@@ -1,0 +1,1 @@
+function pollServer() {\n    $.ajax({\n        url: 'your-server-endpoint',\n        method: 'GET',\n        success: function(data) {\n            // Handle the response data\n        },\n        complete: function() {\n            // Schedule the next request after 3 seconds\n            setTimeout(pollServer, 3000);\n        }\n    });\n}\n\n// Start polling\npollServer();

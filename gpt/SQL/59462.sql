@@ -1,0 +1,1 @@
+DECLARE @String NVARCHAR(MAX)\nSET @String = N'First Line' + CHAR(13) + CHAR(10) + N'Second Line'\nPRINT @String

@@ -1,0 +1,1 @@
+Public Class BaseClass\n    Public Overridable Sub Display()\n        Console.WriteLine("BaseClass Display")\n    End Sub\nEnd Class\n\nPublic Class DerivedClass\n    Inherits BaseClass\n\n    Public Overrides Sub Display()\n        Console.WriteLine("DerivedClass Display")\n    End Sub\nEnd Class

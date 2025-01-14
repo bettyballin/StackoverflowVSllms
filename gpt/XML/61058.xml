@@ -1,0 +1,1 @@
+<CustomAction Id="RemoveOldDLLs" Execute="immediate" Directory="INSTALLDIR" ExeCommand="cmd /c del /f /q &quot;[INSTALLDIR]YourDLLName.dll&quot;" Return="ignore" />\n<InstallExecuteSequence>\n    <Custom Action="RemoveOldDLLs" Before="InstallFiles">NOT Installed</Custom>\n</InstallExecuteSequence>

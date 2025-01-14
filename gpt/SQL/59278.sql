@@ -1,0 +1,1 @@
+CREATE DATABASE LINK sqlserver_link CONNECT TO "your_user" IDENTIFIED BY "your_password" USING 'SQLSERVER_DB';

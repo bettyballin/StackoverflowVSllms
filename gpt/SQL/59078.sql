@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_update_timestamp\n     ON your_table\n     AFTER UPDATE\n     AS\n     BEGIN\n         SET NOCOUNT ON;\n         UPDATE your_table\n         SET updated_date = GETDATE()\n         FROM inserted\n         WHERE your_table.id = inserted.id;\n     END;

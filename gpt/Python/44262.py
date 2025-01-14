@@ -1,0 +1,1 @@
+import sys\n\nif 'x' not in sys.modules:\n    import x\nif 'y' not in sys.modules:\n    import y

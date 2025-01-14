@@ -1,0 +1,1 @@
+$.ajax({\n  url: o.url,\n  type: 'POST',\n  dataType: 'json',\n  data: { method: 'getStates', program: 'EXPLORE' },\n  success: function (data, status) {\n    console.log("Success!!");\n    console.log(data);\n    console.log(status);\n  },\n  error: function (xhr, desc, err) {\n    console.log(xhr);\n    console.log("Desc: " + desc + "\nErr:" + err);\n  }\n});

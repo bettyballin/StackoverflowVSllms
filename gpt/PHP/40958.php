@@ -1,0 +1,1 @@
+function browse() {\n    $categories = new categories;\n    $categories_list = $categories->build_list();\n\n    foreach($categories_list as $c) {\n        echo $c['c_name'] . "<br>";\n    }\n}

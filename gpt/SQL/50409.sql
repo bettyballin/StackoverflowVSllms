@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetPrefixedUniqueID \n    @ObjectType VARCHAR(50),\n    @Prefix CHAR(1),\n    @NewID VARCHAR(50) OUTPUT\nAS\nBEGIN\n    DECLARE @NumericID INT;\n    \n    INSERT INTO MasterIDs (ObjectType)\n    VALUES (@ObjectType);\n\n    SET @NumericID = SCOPE_IDENTITY();\n    SET @NewID = @Prefix + CAST(@NumericID AS VARCHAR);\nEND;

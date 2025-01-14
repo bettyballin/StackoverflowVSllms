@@ -1,0 +1,1 @@
+WITH Numbers AS (\n    SELECT 1 AS n\n    UNION ALL\n    SELECT n + 1\n    FROM Numbers\n    WHERE n < 1000\n)\nSELECT SUM(n) AS SumOfNumbers\nFROM Numbers\nWHERE n BETWEEN 100 AND 200\nOPTION (MAXRECURSION 0);

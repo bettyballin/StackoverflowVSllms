@@ -1,0 +1,1 @@
+// Assuming $result is the result of a mysqli query\nwhile ($row = mysqli_fetch_assoc($result)) {\n    foreach ($row as $key => $value) {\n        if ($key == 'email') {\n            $row[$key] .= "@gmail.com";\n        }\n        $row[$key] = str_replace(["\n", "\r"], " ", $value);\n    }\n    // Do something with the modified $row\n}

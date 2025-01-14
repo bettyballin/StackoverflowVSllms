@@ -1,0 +1,1 @@
+$blahOptions = array(\n    'option_1' => true,\n);\nBlahArray($blahOptions);\n\nfunction BlahArray($options = array()) {\n    $defaults = array(\n        'option_1' => false,\n        'option_2' => 'blah',\n    );\n    $options = array_merge($defaults, $options); // Merges defaults with provided options\n    // Now $options contains all parameters with defaults applied\n}

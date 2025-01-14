@@ -1,0 +1,1 @@
+if ($queryFailed) {\n         error_log("Database query failed: " . $db->error);\n         echo "An error occurred while processing your request. Please try again later.";\n     }

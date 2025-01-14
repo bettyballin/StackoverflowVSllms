@@ -1,0 +1,1 @@
+CREATE TABLE Users (\n    UserID INT PRIMARY KEY,\n    UserName VARCHAR(50) NOT NULL,\n    CreatedDate DATETIME DEFAULT GETDATE()\n);

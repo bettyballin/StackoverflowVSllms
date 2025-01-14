@@ -1,0 +1,1 @@
+CREATE TABLE your_table (\n       id BIGINT AUTO_INCREMENT PRIMARY KEY,\n       ...\n   );

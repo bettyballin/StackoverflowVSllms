@@ -1,0 +1,1 @@
+// login.php\nsession_start();\n// Perform login logic here\nif (/* login is successful */) {\n    $redirect_to = isset($_SESSION['redirect_after_login']) ? $_SESSION['redirect_after_login'] : 'default_page.php';\n    unset($_SESSION['redirect_after_login']);\n    header("Location: " . $redirect_to);\n    exit();\n}

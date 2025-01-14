@@ -1,0 +1,1 @@
+<?php\n\nclass RedirectException extends Exception\n{\n    protected $redirectUrl;\n\n    public function __construct($redirectUrl)\n    {\n        $this->redirectUrl = $redirectUrl;\n        parent::__construct("Redirecting to: $redirectUrl");\n    }\n\n    public function getRedirectUrl()\n    {\n        return $this->redirectUrl;\n    }\n}

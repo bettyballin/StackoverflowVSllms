@@ -1,0 +1,1 @@
+BEGIN\n    ALTER TABLE SampleTable ADD ColumnThree int\nEND\nGO\n\nIF EXISTS (SELECT * FROM sys.columns WHERE name = 'ColumnThree' AND object_id = OBJECT_ID('SampleTable'))\nBEGIN\n    UPDATE SampleTable SET ColumnThree = 0\nEND\nGO

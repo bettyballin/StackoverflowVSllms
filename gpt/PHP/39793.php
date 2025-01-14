@@ -1,0 +1,1 @@
+$date = '2009-01-01 10:30:00';\n$date = new Zend_Date($date, Zend_Date::ISO_8601);\necho $date->get(Zend_Date::TIME_MEDIUM); // Output will be adjusted to the default timezone

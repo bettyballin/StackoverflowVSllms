@@ -1,0 +1,1 @@
+// Get the currently focused element\nconst focusedElement = document.activeElement;\n\n// Log the focused element to the console\nconsole.log(focusedElement);

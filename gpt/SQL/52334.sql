@@ -1,0 +1,1 @@
+ALTER SYSTEM SET UNDO_RETENTION = 900; -- Set to 15 minutes (900 seconds)

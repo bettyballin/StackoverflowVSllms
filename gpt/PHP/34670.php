@@ -1,0 +1,1 @@
+$files = array();\n\nif ($handle = opendir($path)) {\n    while (false !== ($szFilename = readdir($handle))) {\n        if ($szFilename[0] !== '.' && is_file($path . $szFilename)) {\n            $files[] = $szFilename;\n        }\n    }\n    closedir($handle);\n}\n\nsort($files);\n\nforeach ($files as $file) {\n    // do stuff with $file\n}

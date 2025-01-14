@@ -1,0 +1,1 @@
+source 'https://rubygems.org'\n\n   gemspec

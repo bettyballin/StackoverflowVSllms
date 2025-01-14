@@ -1,0 +1,1 @@
+CREATE TABLE date_range (\n       id NUMBER PRIMARY KEY,\n       start_date TIMESTAMP,\n       end_date TIMESTAMP\n   );\n\n   INSERT INTO date_range (id, start_date, end_date) VALUES (\n       1,\n       TO_TIMESTAMP('2023-09-29 00:00:00', 'YYYY-MM-DD HH24:MI:SS'),\n       TO_TIMESTAMP('2023-10-01 00:00:00', 'YYYY-MM-DD HH24:MI:SS')\n   );

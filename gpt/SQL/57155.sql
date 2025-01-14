@@ -1,0 +1,1 @@
+INSERT INTO YourTable (YourColumn)\nVALUES (47306832975095894070.85314746810624532);\n\nSELECT CONVERT(varchar(50), YourColumn) AS ExactNumber\nFROM YourTable;

@@ -1,0 +1,1 @@
+SELECT UserId, Value, Date\nFROM (\n    SELECT \n        UserId, \n        Value, \n        Date, \n        ROW_NUMBER() OVER (PARTITION BY UserId ORDER BY Date DESC) as rn\n    FROM YourTable\n)\nWHERE rn = 1;

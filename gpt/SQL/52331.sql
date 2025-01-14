@@ -1,0 +1,1 @@
+DECLARE @lid NVARCHAR(MAX) = '33, 234'; -- Example input\nDECLARE @sql NVARCHAR(MAX);\n\nSET @sql = '\nSELECT TOP 20 application_id, [name], location_id\nFROM apps\n';\n\nIF @lid IS NOT NULL AND @lid <> ''\nBEGIN\n    SET @sql = @sql + ' WHERE location_id IN (' + @lid + ')';\nEND\n\nEXEC sp_executesql @sql;

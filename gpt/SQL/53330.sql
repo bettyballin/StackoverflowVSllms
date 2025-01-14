@@ -1,0 +1,1 @@
+CREATE TABLE user_sessions (\n       user_id INT PRIMARY KEY,\n       session_id VARCHAR(255) NOT NULL,\n       last_activity TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\n   );

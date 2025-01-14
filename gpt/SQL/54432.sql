@@ -1,0 +1,1 @@
+-- Increase key buffer size in MySQL configuration\n-- key_buffer_size = 256M\n\n-- Add covering index\nALTER TABLE page ADD INDEX idx_sourceid_pageid (sourceid, pageid);\n\n-- Analyze and optimize the table\nANALYZE TABLE page;\nOPTIMIZE TABLE page;\n\n-- Consider switching to InnoDB\nALTER TABLE page ENGINE=InnoDB;

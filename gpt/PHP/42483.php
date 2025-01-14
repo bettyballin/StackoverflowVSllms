@@ -1,0 +1,1 @@
+// src/Controller/EntriesController.php\nnamespace App\Controller;\n\nuse App\Controller\AppController;\n\nclass EntriesController extends AppController\n{\n    public function popular()\n    {\n        $popularEntries = $this->Entries->getPopularEntries()->all();\n\n        $this->set(compact('popularEntries'));\n    }\n}

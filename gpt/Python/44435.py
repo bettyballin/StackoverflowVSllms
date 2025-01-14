@@ -1,0 +1,1 @@
+from django.test.runner import DiscoverRunner\n\n   class ReuseDBTestRunner(DiscoverRunner):\n       def setup_databases(self, **kwargs):\n           self.keepdb = True\n           return super().setup_databases(**kwargs)

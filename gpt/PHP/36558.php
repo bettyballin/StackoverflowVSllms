@@ -1,0 +1,1 @@
+[\n    'user_id' => 1,\n    'block_id' => 2,\n    'b_price' => 100\n]

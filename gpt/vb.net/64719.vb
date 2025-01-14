@@ -1,0 +1,1 @@
+Dim y As Object\n\nSet y = CreateObject("SomeType")\n\nDebug.Print TypeName(y)

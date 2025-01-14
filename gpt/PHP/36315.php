@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\nclass MyClass {\n    public $property = 'Hello, World!';\n}\n\n$myObject = new MyClass();\n$_SESSION['myObject'] = serialize($myObject); // Store the object in the session\n\necho "Object stored in session.";\n?>

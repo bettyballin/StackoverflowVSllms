@@ -1,0 +1,1 @@
+<?php\n// Create the XML structure\n$xml = new SimpleXMLElement('<ul></ul>');\n$xml->addChild('li', 'Item 1');\n$xml->addChild('li', 'Item 2');\n\n// Convert the XML to a string\n$xmlString = $xml->asXML();\n\n// Strip the XML declaration/header\n$xmlStringWithoutHeader = preg_replace('/<\?xml.*?\?>/', '', $xmlString);\n\n// Output the result\necho $xmlStringWithoutHeader;\n?>

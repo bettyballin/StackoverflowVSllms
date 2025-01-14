@@ -1,0 +1,1 @@
+function showAlert() {\n    const userInput = document.getElementById('userInput').value;\n    const sanitizedInput = document.createTextNode(userInput).textContent;\n\n    alert(sanitizedInput);\n}

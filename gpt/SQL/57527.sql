@@ -1,0 +1,1 @@
+SELECT dogId, rownum\nFROM (\n    SELECT dog.id as dogId, ROW_NUMBER() OVER (ORDER BY dog.codename ASC) AS rownum\n    FROM CANINES dog\n)\nWHERE dogId = 206;

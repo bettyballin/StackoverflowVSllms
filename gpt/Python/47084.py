@@ -1,0 +1,1 @@
+import win32com.client\n\n   interpreter = win32com.client.Dispatch("Python.Interpreter")\n   result = interpreter.Execute("print('Hello from COM')")\n   print(result)

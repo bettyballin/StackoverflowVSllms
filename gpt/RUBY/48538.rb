@@ -1,0 +1,1 @@
+class DashboardController < ApplicationController\n  def graph1\n    @data = fetch_graph1_data\n    render partial: 'graph1'\n  end\n\n  def graph2\n    @data = fetch_graph2_data\n    render partial: 'graph2'\n  end\n\n  private\n\n  def fetch_graph1_data\n    # Perform data lookup for graph1\n  end\n\n  def fetch_graph2_data\n    # Perform data lookup for graph2\n  end\nend

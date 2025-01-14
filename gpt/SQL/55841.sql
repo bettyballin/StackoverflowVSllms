@@ -1,0 +1,1 @@
+-- Direct query without view\nSELECT * FROM myTable WHERE someCondition = true;

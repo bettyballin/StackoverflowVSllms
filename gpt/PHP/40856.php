@@ -1,0 +1,1 @@
+class MyClass {\n    public function func1() {\n        $test = array(1, 2, 3);\n        return $test;\n    }\n\n    public function func2() {\n        $newarray = $this->func1();\n        print_r($newarray);\n    }\n}\n\n// Example usage\n$instance = new MyClass();\n$instance->func2();

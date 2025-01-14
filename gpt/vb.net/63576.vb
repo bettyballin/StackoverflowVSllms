@@ -1,0 +1,1 @@
+Public MasterList As IEnumerable(Of MasterItem(Of T))\n\nPublic Class MasterItem(Of T)\n    Public SubItems As IEnumerable(Of T)\nEnd Class\n\n' Assuming you have defined your MasterList somewhere in your code\nDim aggregatedList As IEnumerable(Of T) = MasterList.SelectMany(Function(masterItem) masterItem.SubItems)

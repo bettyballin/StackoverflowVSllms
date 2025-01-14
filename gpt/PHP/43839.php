@@ -1,0 +1,1 @@
+<?php\n$file = 'path/to/your/file.txt';\n$content = 'Your content here';\n\n// Create the file with file_put_contents\nfile_put_contents($file, $content);\n\n// Set the file permissions to 0664 (read and write for owner and group, read for others)\nchmod($file, 0664);\n?>

@@ -1,0 +1,1 @@
+class ApplicationController < ActionController::Base\n  before_action :ensure_domain\n\n  def ensure_domain\n    if request.host == 'site.com'\n      redirect_to "http://www.site.com#{request.fullpath}", status: :moved_permanently\n    end\n  end\nend

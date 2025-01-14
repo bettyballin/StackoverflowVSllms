@@ -1,0 +1,1 @@
+import atexit\nimport os\nimport readline\n\nhistory_file = os.path.expanduser("~/.python_history")\n\ndef load_history():\n    if os.path.exists(history_file):\n        readline.read_history_file(history_file)\n\ndef save_history():\n    readline.write_history_file(history_file)\n\nload_history()\natexit.register(save_history)

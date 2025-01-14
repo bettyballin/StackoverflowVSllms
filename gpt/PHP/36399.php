@@ -1,0 +1,1 @@
+// Storing arrays in session\nsession_start();\n$_SESSION['array1'] = $array1;\n$_SESSION['array2'] = $array2;\n$_SESSION['array3'] = $array3;\n\n// Retrieving arrays from session\n$array1 = $_SESSION['array1'];\n$array2 = $_SESSION['array2'];\n$array3 = $_SESSION['array3'];

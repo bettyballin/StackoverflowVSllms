@@ -1,0 +1,1 @@
+UPDATE YourTable\nSET YourColumn = CONCAT(UPPER(REPLACE(SUBSTRING(YourColumn, 1, 2), ' ', '')), SUBSTRING(YourColumn, 3));

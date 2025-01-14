@@ -1,0 +1,1 @@
+CREATE TABLE prospect (\n    prospect_id INT AUTO_INCREMENT PRIMARY KEY,\n    ext_status_1_id INT,\n    ext_status_2_id INT,\n    FOREIGN KEY (ext_status_1_id) REFERENCES status_1(id),\n    FOREIGN KEY (ext_status_2_id) REFERENCES status_2(id),\n    CHECK (ext_status_1_id != 1 OR ext_status_2_id IS NOT NULL)\n);

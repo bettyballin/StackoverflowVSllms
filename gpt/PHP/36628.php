@@ -1,0 +1,1 @@
+function escCtrlChars($str) {\n    return preg_replace_callback('/[\0\t\n\v\f\r\xa0\'\"!-]/', function ($matches) {\n        return '!' . ord($matches[0]) . '!';\n    }, $str);\n}\n\n// Example usage\n$input = "Hello\nWorld!";\n$output = escCtrlChars($input);\necho $output;

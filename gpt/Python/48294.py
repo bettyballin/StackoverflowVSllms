@@ -1,0 +1,1 @@
+import base64\n\n    # Read the XML file and encode it in Base64\n    with open('config.xml', 'rb') as file:\n        encoded_string = base64.b64encode(file.read()).decode('utf-8')

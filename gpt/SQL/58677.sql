@@ -1,0 +1,1 @@
+CREATE TABLE ExpensiveQueriesLog (\n    LogID INT IDENTITY(1,1) PRIMARY KEY,\n    LogDate DATETIME DEFAULT GETDATE(),\n    SqlHandle VARBINARY(64),\n    ExecutionCount BIGINT,\n    CPU_Time BIGINT,\n    Physical_Reads BIGINT,\n    Logical_Writes BIGINT,\n    Total_Elapsed_Time BIGINT,\n    Query_Text NVARCHAR(MAX),\n    Query_Plan XML\n);

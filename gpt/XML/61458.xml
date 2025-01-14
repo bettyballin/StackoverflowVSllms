@@ -1,0 +1,1 @@
+<property name="hibernate.show_sql">true</property>\n   <property name="hibernate.format_sql">true</property>

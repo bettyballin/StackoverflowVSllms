@@ -1,0 +1,1 @@
+ini_set('sendmail_path', '/usr/sbin/sendmail -ti -f you@example.com');\n   mail('recipient@example.com', 'Subject', 'Message body', 'From: you@example.com');

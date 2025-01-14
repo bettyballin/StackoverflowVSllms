@@ -1,0 +1,1 @@
+function decrypt($data, $key) {\n    $cipher = "aes-256-cbc";\n    $data = base64_decode($data);\n    $iv_length = openssl_cipher_iv_length($cipher);\n    $iv = substr($data, 0, $iv_length);\n    $encrypted = substr($data, $iv_length);\n    return openssl_decrypt($encrypted, $cipher, $key, 0, $iv);\n}

@@ -1,0 +1,1 @@
+Dim Letters = New String() {"a", "b", "c", "d", "e"}\n\nDim IndexedLetters = From index In Enumerable.Range(0, Letters.Length)\n                     Let aLetter = Letters(index)\n                     Select New With {.Index = index + 1, .Letter = aLetter}\n\n' For LINQPad users : IndexedLetters.Dump()

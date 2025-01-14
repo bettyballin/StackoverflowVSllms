@@ -1,0 +1,1 @@
+SELECT * FROM some_table WHERE ID = ANY(ARRAY[1001, 1002, 1003, ...]);

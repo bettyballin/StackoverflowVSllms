@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\nforeach ($data as $key => $val) {\n    $_SESSION['key'] = $key; // Store the key in the session\n    echo '<tr><td><a href="nextpage.php"> ' . htmlspecialchars($val) . '</a></td></tr>';\n}\n?>

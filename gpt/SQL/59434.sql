@@ -1,0 +1,1 @@
+-- Example of saving trace results to a table\n   SELECT TextData INTO TraceResults FROM fn_trace_gettable('C:\TraceFiles\TraceFile.trc', DEFAULT);\n   \n   -- Analyze the results\n   SELECT DISTINCT ObjectName\n   FROM TraceResults\n   WHERE EventClass IN (45, 46) -- Event classes for SQL:BatchStarting and SQL:BatchCompleted

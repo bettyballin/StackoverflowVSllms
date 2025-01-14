@@ -1,0 +1,1 @@
+DECLARE\n    RecordIDList RecordIDListType := RecordIDListType(1, 2, 3, 4);\nBEGIN\n    SELECT * \n    FROM Table \n    WHERE RecordID IN (SELECT COLUMN_VALUE FROM TABLE(RecordIDList));\nEND;

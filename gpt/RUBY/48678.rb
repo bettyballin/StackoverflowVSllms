@@ -1,0 +1,1 @@
+# Avoid overly complex DSL constructs\nscope :active, -> { where(active: true) }\n\n# Ensure clarity in scopes and other DSLs\nscope :active_users, -> { where(active: true) }

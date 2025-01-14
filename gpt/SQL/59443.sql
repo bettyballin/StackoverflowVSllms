@@ -1,0 +1,1 @@
+CREATE VIEW VehicleData AS\nSELECT \n    period,\n    NameOfVehicle,\n    Value\nFROM \n    (SELECT period, Truck, Car, Boat FROM YourTableName) p\nUNPIVOT\n    (Value FOR NameOfVehicle IN (Truck, Car, Boat)) AS unpvt;

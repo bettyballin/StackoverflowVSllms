@@ -1,0 +1,1 @@
+SELECT \n    title, \n    `desc`, \n    `date` \nFROM \n    tablename \nORDER BY \n    CASE \n        WHEN `date` = '0000-00-00' THEN 1 \n        ELSE 0 \n    END ASC, \n    `date` ASC, \n    title ASC;

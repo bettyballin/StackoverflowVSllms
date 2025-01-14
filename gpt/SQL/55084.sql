@@ -1,0 +1,1 @@
+SELECT DISTINCT p1.Branch, p1.Patient\nFROM prescriptions p1\nJOIN prescriptions p2\nON p1.Patient = p2.Patient\nAND p1.Branch = p2.Branch\nAND p1.DateOfTest < p2.DateOfTest\nAND p1.DateOfTest >= DATE_SUB(p2.DateOfTest, INTERVAL 6 MONTH);

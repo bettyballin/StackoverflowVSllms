@@ -1,0 +1,1 @@
+SELECT perm_id \nFROM permissions \nINNER JOIN actions ON actions.action_id = permissions.perm_action \nWHERE permissions.perm_role = 1 AND actions.action_name = 'add' AND actions.action_module = 'employee';

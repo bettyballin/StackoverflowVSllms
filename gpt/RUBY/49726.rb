@@ -1,0 +1,1 @@
+def update_states\n  q = params[:country]\n  states = Carmen::states(Carmen::country_code(q))\n\n  respond_to do |format|\n    format.js { render partial: 'states', locals: { states: states, form: form_for(@person) } }\n  end\nend

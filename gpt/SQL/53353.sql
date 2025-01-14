@@ -1,0 +1,1 @@
+CREATE TABLE entities (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    name VARCHAR(255) UNIQUE NOT NULL\n);\n\nCREATE TABLE aliases (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    entity_id INT,\n    alias VARCHAR(255) NOT NULL,\n    FOREIGN KEY (entity_id) REFERENCES entities(id),\n    UNIQUE (entity_id, alias)\n);

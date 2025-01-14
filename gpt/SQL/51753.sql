@@ -1,0 +1,1 @@
+CREATE INDEX idx_orderid ON Transactions (OrderId);\nCREATE INDEX idx_date ON Transactions (Date);

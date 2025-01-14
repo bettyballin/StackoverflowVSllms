@@ -1,0 +1,1 @@
+from flask import Flask, request, abort\n\napp = Flask(__name__)\n\n@app.before_request\ndef block_suspicious_user_agents():\n    user_agent = request.headers.get('User-Agent')\n    if user_agent == "Mozilla/4.0":\n        abort(403)  # Forbidden\n\n@app.route('/')\ndef index():\n    return "Hello, World!"\n\nif __name__ == '__main__':\n    app.run()

@@ -1,0 +1,1 @@
+window.addEventListener('popstate', function (event) {\n    if (event.state && event.state.partialUrl) {\n        $.get(event.state.partialUrl, function (data) {\n            $('#partialViewContainer').html(data);\n        });\n    }\n});

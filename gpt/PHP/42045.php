@@ -1,0 +1,1 @@
+$foo = $cat ?? $dog;\n   $bar = $fruit ?? $vegetable;

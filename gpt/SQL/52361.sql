@@ -1,0 +1,1 @@
+CREATE TABLE Email_Blacklist (\n    email VARCHAR(255) PRIMARY KEY\n);

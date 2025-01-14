@@ -1,0 +1,1 @@
+// Hashing a password securely\n$hashedPassword = password_hash($password, PASSWORD_BCRYPT);\n\n// Storing $hashedPassword in the database

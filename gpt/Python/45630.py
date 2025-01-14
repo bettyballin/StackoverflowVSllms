@@ -1,0 +1,1 @@
+import cherrypy\n\nclass HelloWorld:\n    @cherrypy.expose\n    def index(self):\n        return "Hello World!"\n\nif __name__ == '__main__':\n    cherrypy.config.update({\n        'tools.sessions.on': True,\n        'tools.sessions.name': 'special_session_name'\n    })\n    cherrypy.quickstart(HelloWorld())

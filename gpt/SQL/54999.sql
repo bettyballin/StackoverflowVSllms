@@ -1,0 +1,1 @@
+CREATE TABLE your_table (\n        id NUMBER,\n        data VARCHAR2(100)\n    )\n    PARTITION BY HASH (id)\n    PARTITIONS 4;

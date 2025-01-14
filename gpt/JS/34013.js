@@ -1,0 +1,1 @@
+<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n    var form = document.querySelector('form');\n    var submitButton = form.querySelector('input[type="submit"]');\n\n    form.addEventListener('submit', function(event) {\n        submitButton.disabled = true;\n    });\n});\n</script>

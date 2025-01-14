@@ -1,0 +1,1 @@
+ALTER DATABASE [YourDatabaseName] SET EMERGENCY;

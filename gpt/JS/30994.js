@@ -1,0 +1,1 @@
+var elem = document.getElementById('the_id');\nif (elem && elem.nextElementSibling) {\n    elem.nextElementSibling.style.display = 'none';\n}

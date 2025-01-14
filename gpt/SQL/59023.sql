@@ -1,0 +1,1 @@
+CREATE TABLE YourTable (\n    YourDateTimeField datetime2(0) -- Adjust the precision as needed\n);

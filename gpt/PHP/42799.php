@@ -1,0 +1,1 @@
+$v8 = new V8Js();\n   $result = $v8->executeString('your JavaScript code here');

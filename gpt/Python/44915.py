@@ -1,0 +1,1 @@
+import ctypes\n\n# Call SetSuspendState function\nctypes.windll.powrprof.SetSuspendState(0, 1, 0)

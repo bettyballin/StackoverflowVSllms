@@ -1,0 +1,1 @@
+$pattern = '@<a\s+[^>]*href="http[s]?://([^"]*)"[^>]*>(.*?)</a>@siU';\n\n// Example usage with preg_replace\n$text = '<p>Your HTML content with links</p>';\n$result = preg_replace($pattern, '<a href="http://$1" target="_blank">$2</a>', $text);\necho $result;

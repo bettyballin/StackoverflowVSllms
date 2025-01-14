@@ -1,0 +1,1 @@
+ALTER TABLE your_table\nADD is_active CHAR(1) \nCHECK (is_active IN ('Y', 'N'));

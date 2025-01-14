@@ -1,0 +1,1 @@
+<?php\nfunction isAlphanumeric($string) {\n    return ctype_alnum($string);\n}\n\n// Example usage\n$string = "abc123";\nif (isAlphanumeric($string)) {\n    echo "The string is alphanumeric.";\n} else {\n    echo "The string is not alphanumeric.";\n}\n?>

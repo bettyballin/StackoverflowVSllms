@@ -1,0 +1,1 @@
+CREATE TABLE example_table (\n    id NUMBER PRIMARY KEY,\n    double_value BINARY_DOUBLE\n);

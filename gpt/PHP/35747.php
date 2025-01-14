@@ -1,0 +1,1 @@
+if ($form->isValid($_POST)) {\n    $data = $form->getValues();\n    // $data['dateField'] is now in 'yyyy-mm-dd' format\n    $db->update('my_table', $data, 'id = ' . (int)$id);\n}

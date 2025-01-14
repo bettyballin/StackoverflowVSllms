@@ -1,0 +1,1 @@
+SELECT TimeStamp, SpeedMax AS Speed, HeightMax AS Height\nFROM YourTable\nUNION ALL\nSELECT TimeStamp, SpeedMin AS Speed, HeightMin AS Height\nFROM YourTable\nORDER BY TimeStamp, Speed DESC;

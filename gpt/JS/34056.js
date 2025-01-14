@@ -1,0 +1,1 @@
+$.ajax({\n    url: 'your-url-here',\n    type: 'GET',\n    success: function(data) {\n        // handle success\n    },\n    error: function(jqXHR, textStatus, errorThrown) {\n        // handle error\n    }\n});

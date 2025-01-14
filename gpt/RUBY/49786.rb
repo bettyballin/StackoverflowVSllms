@@ -1,0 +1,1 @@
+require 'savon'\n\nclient = Savon.client(\n  wsdl: 'https://yourserver.example.com:1234/?wsdl',\n  ssl_verify_mode: :none # for self-signed certificates, use :none (not recommended for production)\n)\n\nresponse = client.call(:some_method)\nputs response.body

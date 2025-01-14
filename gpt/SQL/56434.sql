@@ -1,0 +1,1 @@
+SELECT * \nFROM events \nWHERE DATEDIFF(day, CAST(date AS DATE), GETDATE()) <= 31\nORDER BY CAST(date AS DATE) ASC;

@@ -1,0 +1,1 @@
+$string = 'word1#$word2#$word3';\n$pattern = '/(.*?)#\$(.*?)#\$(.*)/u';\n\nif (preg_match($pattern, $string, $matches)) {\n    $word1 = $matches[1];\n    $word2 = $matches[2];\n    $word3 = $matches[3];\n\n    echo "Word 1: $word1\n";\n    echo "Word 2: $word2\n";\n    echo "Word 3: $word3\n";\n} else {\n    echo "No match found.";\n}

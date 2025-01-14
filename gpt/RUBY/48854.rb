@@ -1,0 +1,1 @@
+<%= @your_model.sanitized_content.html_safe %>

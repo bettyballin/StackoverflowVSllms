@@ -1,0 +1,1 @@
+EXPLAIN PLAN FOR\n   SELECT * FROM your_table WHERE your_conditions;\n   SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);

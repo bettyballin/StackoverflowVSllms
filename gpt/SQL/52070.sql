@@ -1,0 +1,1 @@
+:setvar BaseDirectory "$(SolutionDir)Scripts\"

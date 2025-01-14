@@ -1,0 +1,1 @@
+from lxml.builder import E\n\n    root = E.root(\n                E.element("text", key="value"),\n                E.subelement("more text")\n             )

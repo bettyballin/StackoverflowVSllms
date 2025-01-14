@@ -1,0 +1,1 @@
+function getUniqueTempFilename($prefix = 'tmp_', $suffix = '.tmp') {\n    $tempDir = sys_get_temp_dir();\n    $uniqueName = $prefix . uniqid() . $suffix;\n    return $tempDir . DIRECTORY_SEPARATOR . $uniqueName;\n}\n\n// Example usage\n$tempFilename = getUniqueTempFilename('pdf_', '.pdf');\necho $tempFilename;

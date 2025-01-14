@@ -1,0 +1,1 @@
+const obj = {\n     name: "Alice",\n     greet: function() {\n       console.log(this.name); // refers to obj\n     }\n   };\n   obj.greet(); // logs "Alice"

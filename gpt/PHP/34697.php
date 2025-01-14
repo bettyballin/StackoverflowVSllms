@@ -1,0 +1,1 @@
+<?php\n$headers = getallheaders();\n\nif (isset($headers['X-Requested-With'])) {\n    $requestedWith = $headers['X-Requested-With'];\n    echo 'X-Requested-With: ' . $requestedWith;\n} else {\n    echo 'X-Requested-With header is not set.';\n}\n?>

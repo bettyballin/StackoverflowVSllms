@@ -1,0 +1,1 @@
+DBCC CHECKTABLE('your_table_name');

@@ -1,0 +1,1 @@
+from django.conf.urls import url, include\n   from django.contrib import admin\n\n   urlpatterns = [\n       url(r'^admin/', admin.site.urls),\n       url(r'^home/', include('yourapp.urls')),  # Adjust as necessary\n   ]

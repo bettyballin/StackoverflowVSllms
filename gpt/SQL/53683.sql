@@ -1,0 +1,1 @@
+-- Example to decrypt data\nDECLARE @decryptedData VARCHAR(8000)\nEXEC xp_crypt_decrypt 'YourSecretKey', EncryptedColumn, @decryptedData OUTPUT\nSELECT @decryptedData

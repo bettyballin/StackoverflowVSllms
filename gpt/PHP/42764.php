@@ -1,0 +1,1 @@
+<?php\nheader("Content-type: application/blahtype");\nheader("Content-Disposition: attachment; filename=config.xml");\necho file_get_contents('path/to/your/config.xml');\n?>

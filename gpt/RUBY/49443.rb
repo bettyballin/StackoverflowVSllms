@@ -1,0 +1,1 @@
+Rails.application.routes.draw do\n  resources :as do\n    resources :bs, only: [:index, :new, :create, :destroy]\n  end\n\n  resources :bs do\n    resources :as, only: [:index, :new, :create, :destroy]\n  end\nend

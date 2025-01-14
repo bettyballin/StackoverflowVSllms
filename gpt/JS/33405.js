@@ -1,0 +1,1 @@
+$.post("<%=Response.ApplyAppPathModifier("~/ajax/getsomedata.aspx")%>", \n    { 'id': id }, \n    function(data) {\n        dosomething(data);\n    }\n);

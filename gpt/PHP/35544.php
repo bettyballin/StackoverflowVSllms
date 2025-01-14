@@ -1,0 +1,1 @@
+use Carbon\Carbon;\n\n   $now = Carbon::now();\n   echo $now->toDateTimeString(); // Outputs: current date and time

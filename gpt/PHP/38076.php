@@ -1,0 +1,1 @@
+define('DB_SERVER', 'your_server');\ndefine('DB_UserName', 'your_username');\ndefine('DB_Password', 'your_password');

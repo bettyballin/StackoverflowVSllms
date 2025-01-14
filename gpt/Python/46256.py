@@ -1,0 +1,1 @@
+# Example using Python in TestComplete\n   def test_notepad():\n       notepad = Sys.Process("notepad")\n       notepad.MainWindow.Edit.Keys("Hello, TestComplete!")

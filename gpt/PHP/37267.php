@@ -1,0 +1,1 @@
+require_once 'Zend/Gdata/YouTube.php';\n\n$yt = new Zend_Gdata_YouTube();\n$query = $yt->newVideoQuery();\n$query->setVideoQuery('Zend Framework');\n$videoFeed = $yt->getVideoFeed($query);\n\nforeach ($videoFeed as $videoEntry) {\n    echo $videoEntry->getVideoTitle() . "\n";\n}

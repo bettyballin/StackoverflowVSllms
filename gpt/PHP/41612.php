@@ -1,0 +1,1 @@
+class Foo implements IteratorAggregate\n{\n    protected $_array = array('foo' => 'bar', 'baz' => 'quux');\n\n    public function getIterator()\n    {\n        return new ArrayIterator($this->_array);\n    }\n}

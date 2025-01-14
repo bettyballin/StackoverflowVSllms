@@ -1,0 +1,1 @@
+-- Example to execute a DTS package using the DTS runtime\nDECLARE @hr int\nEXEC @hr = sp_OACreate 'DTS.Package', @oPKG OUTPUT\nEXEC @hr = sp_OAMethod @oPKG, 'LoadFromSQLServer', NULL, 'YourServer', 'YourUser', 'YourPassword', '', '', 'YourDTSName'\nEXEC @hr = sp_OAMethod @oPKG, 'Execute'\nEXEC @hr = sp_OADestroy @oPKG

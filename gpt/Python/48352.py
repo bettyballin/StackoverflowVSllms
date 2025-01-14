@@ -1,0 +1,1 @@
+from packaging import version\n\nold_version = version.parse("1.38")\nnew_version = version.parse("1.4")\n\nif old_version < new_version:\n    print("Old version is less than new version")\nelse:\n    print("Old version is greater than or equal to new version")

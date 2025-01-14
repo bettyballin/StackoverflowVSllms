@@ -1,0 +1,1 @@
+SELECT RIGHT('0' + CONVERT(VARCHAR(2), DATEPART(hh, timecolumn)), 2) +\n       RIGHT('0' + CONVERT(VARCHAR(2), DATEPART(mi, timecolumn)), 2) +\n       RIGHT('0' + CONVERT(VARCHAR(2), DATEPART(ss, timecolumn)), 2) AS TIME\nFROM your_table;

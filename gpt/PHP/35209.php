@@ -1,0 +1,1 @@
+<?php\nrequire 'vendor/autoload.php';\n\nuse Text_LanguageDetect\LanguageDetect;\n\n// Initialize the language detector\n$ld = new LanguageDetect();\n\n// Sample text\n$text = "Ceci est un texte d'exemple en français.";\n\n// Detect the language\n$result = $ld->detectSimple($text);\n\necho "Detected language: " . $result . "\n";\n?>

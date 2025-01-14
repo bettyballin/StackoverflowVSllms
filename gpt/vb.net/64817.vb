@@ -1,0 +1,1 @@
+Public Shared Sub CheckFileIfFileIsInUse(thefilename As String)\n    Dim testfile As String = thefilename & ".tst"\n    If IO.File.Exists(testfile) Then\n        IO.File.Delete(testfile)\n    End If\nEnd Sub

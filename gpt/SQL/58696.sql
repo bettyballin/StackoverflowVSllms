@@ -1,0 +1,1 @@
+SELECT [t0].[Id], [t0].[Expires], ...\n   FROM [dbo].[Subscriptions] AS [t0]\n   WHERE [t0].[Expires] > DATEADD(day, 2, GETDATE())

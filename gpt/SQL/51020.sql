@@ -1,0 +1,1 @@
+CREATE TABLE DistinctTypeNames (\n        typeName NVARCHAR(255) PRIMARY KEY\n    );

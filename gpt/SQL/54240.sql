@@ -1,0 +1,1 @@
+SELECT *\nFROM a\nWHERE a.c IN (SELECT d FROM b)

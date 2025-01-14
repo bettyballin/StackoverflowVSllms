@@ -1,0 +1,1 @@
+$settings['site_name'] = 'New Application Name';\n$content = '';\nforeach ($settings as $key => $value) {\n    $content .= "$key = \"$value\"\n";\n}\nfile_put_contents('settings.ini', $content);

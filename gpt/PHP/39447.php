@@ -1,0 +1,1 @@
+function isAssociativeArray(array $array) {\n    if (array() === $array) return false;\n    return array_keys($array) !== range(0, count($array) - 1);\n}\n\n// Example usage\n$arr1 = [1, 2, 3]; // Indexed array\n$arr2 = ['a' => 1, 'b' => 2, 'c' => 3]; // Associative array\n\nvar_dump(isAssociativeArray($arr1)); // bool(false)\nvar_dump(isAssociativeArray($arr2)); // bool(true)

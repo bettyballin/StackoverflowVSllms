@@ -1,0 +1,1 @@
+<?php\n$action = null;\n\nif (isset($_POST['action']) && !empty($_POST['action'])) {\n    $action = $_POST['action'];\n}\n\nif ($action) {\n    echo htmlspecialchars($action, ENT_QUOTES, 'UTF-8');\n} else {\n    echo 'No variable';\n}\n?>

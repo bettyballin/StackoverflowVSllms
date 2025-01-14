@@ -1,0 +1,1 @@
+# app/models/concerns/the_model_helpers.rb\nmodule TheModelHelpers\n  class DependencyClassOne\n    # Class code here\n  end\n\n  class DependencyClassTwo\n    # Class code here\n  end\nend

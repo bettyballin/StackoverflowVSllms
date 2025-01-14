@@ -1,0 +1,1 @@
+SELECT *\n   FROM (SELECT id, name FROM users) AS subquery;

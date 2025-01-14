@@ -1,0 +1,1 @@
+ALTER TABLE important_table ADD sensitive_column NVARCHAR(255);

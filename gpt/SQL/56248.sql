@@ -1,0 +1,1 @@
+SELECT title\nFROM games\nORDER BY \n    CAST(SUBSTRING_INDEX(SUBSTRING_INDEX(title, ' ', -1), ':', 1) AS UNSIGNED),\n    title;

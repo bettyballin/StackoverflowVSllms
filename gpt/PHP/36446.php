@@ -1,0 +1,1 @@
+$str = "blahblah\n\nblahblah\n\n   adsa \n\n\nsad asdasd\n";\n\n// Use preg_replace to remove blank lines\n$str = preg_replace('/^\s*[\r\n]/m', '', $str);\n\necho $str;

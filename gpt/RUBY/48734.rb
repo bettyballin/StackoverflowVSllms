@@ -1,0 +1,1 @@
+<!-- This is the "index" view -->\n<% @story.memberships.each do |membership| %>\n  <%= form_for membership, remote: true do |f| %>\n    <%= f.select :permissions, [['none', 0], ['admin', 9]], {}, { id: "membership_permissions_#{membership.id}" } %>\n  <% end %>\n<% end %>

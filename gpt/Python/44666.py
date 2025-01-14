@@ -1,0 +1,1 @@
+import ftplib\nimport os\n\ndef download_file(ftp_server, username, password, remote_path, local_path):\n    with ftplib.FTP(ftp_server) as ftp:\n        ftp.login(user=username, passwd=password)\n        with open(local_path, 'wb') as local_file:\n            ftp.retrbinary('RETR ' + remote_path, local_file.write)

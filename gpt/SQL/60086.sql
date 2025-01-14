@@ -1,0 +1,1 @@
+CREATE INDEX idx_metadata ON images(metadata) INDEXTYPE IS CTXSYS.CONTEXT;

@@ -1,0 +1,1 @@
+UPDATE content \nSET file_path = REPLACE(file_path, '/files/', '/sites/default/files/')\nWHERE file_path LIKE '%/files/%';

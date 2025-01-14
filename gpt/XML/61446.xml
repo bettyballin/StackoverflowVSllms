@@ -1,0 +1,1 @@
+<root xmlns:ns="http://example.com/ns">\n    <html xmlns="http://www.w3.org/1999/xhtml">\n        <body>\n            <p>Content of body</p>\n        </body>\n    </html>\n    <ns:element>\n        <ns:child>Content of namespaced element</ns:child>\n    </ns:element>\n</root>

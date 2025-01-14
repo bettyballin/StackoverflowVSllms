@@ -1,0 +1,1 @@
+<configuration>\n     <system.web>\n       <sessionState mode="StateServer" stateConnectionString="tcpip=127.0.0.1:42424" />\n       <!-- OR -->\n       <!-- <sessionState mode="SQLServer" sqlConnectionString="data source=127.0.0.1;Integrated Security=SSPI;" /> -->\n     </system.web>\n   </configuration>

@@ -1,0 +1,1 @@
+// Fetch members once and store in session\nsession_start();\nif (!isset($_SESSION['members'])) {\n    $members = fetchMembersFromDatabase(); // Your function to fetch data from DB\n    $_SESSION['members'] = $members;\n} else {\n    $members = $_SESSION['members'];\n}\n\n// Use $members as needed

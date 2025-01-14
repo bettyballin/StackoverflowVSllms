@@ -1,0 +1,1 @@
+<?php\n$config = parse_ini_file('/var/www/config/App.yml');\n// Use $config as needed\n?>

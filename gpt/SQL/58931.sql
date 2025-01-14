@@ -1,0 +1,1 @@
+CREATE TABLE transactions (\n    transaction_id INT PRIMARY KEY,\n    amount DECIMAL(19,4),\n    currency VARCHAR(3),\n    conversion_rate FLOAT\n);

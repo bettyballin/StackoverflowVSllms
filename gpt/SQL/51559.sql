@@ -1,0 +1,1 @@
+-- Tags: customer, sales\n    -- Description: Retrieves the top 10 customers by sales\n    SELECT customer_id, customer_name, total_sales\n    FROM customers\n    ORDER BY total_sales DESC\n    LIMIT 10;

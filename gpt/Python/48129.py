@@ -1,0 +1,1 @@
+# life.py\n\nfrom ... import nib\n\n# Your code that uses the nib module

@@ -1,0 +1,1 @@
+<?php\ninclude("base.php");\ninclude("userclass.php");\n\n$User = new User();\n$User->loggedin = false;\n\n$_SESSION = array();\nsession_destroy();\n?>

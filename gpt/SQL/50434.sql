@@ -1,0 +1,1 @@
+CREATE TABLE Clients (\n    ClientID INT IDENTITY(1,1) PRIMARY KEY,\n    ClientName NVARCHAR(255) NOT NULL\n);\n\nCREATE TABLE Projects (\n    ProjectID INT IDENTITY(1,1) PRIMARY KEY,\n    ClientID INT NOT NULL,\n    ProjectName NVARCHAR(255) NOT NULL,\n    -- Other columns...\n    FOREIGN KEY (ClientID) REFERENCES Clients(ClientID)\n);

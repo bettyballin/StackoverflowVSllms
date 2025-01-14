@@ -1,0 +1,1 @@
+if (!isset($_SESSION['initiated'])) {\n       session_regenerate_id(true);\n       $_SESSION['initiated'] = true;\n   }

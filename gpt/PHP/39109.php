@@ -1,0 +1,1 @@
+$password = "YourPassword123!";\n$pattern = '/^([a-zA-Z0-9!@#$%^&*|()_\-+=\[\]{}:;\"\',<.>?\/~`]{4,})$/';\n\nif (preg_match($pattern, $password)) {\n    echo "Password is valid.";\n} else {\n    echo "Password is invalid.";\n}

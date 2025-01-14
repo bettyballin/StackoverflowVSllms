@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTable\nWHERE CHARINDEX('search term', dbo.StripHtml(HtmlColumn)) > 0;

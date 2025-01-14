@@ -1,0 +1,1 @@
+$stmt = $DB->connection->prepare("SELECT * FROM table WHERE var_x = ? AND another_var = ? AND some_string = ?");\n$stmt->bind_param("sss", $var_x, $another_var, $some_string);\n$stmt->execute();\n$result = $stmt->get_result();\n\nwhile ($row = $result->fetch_assoc()) {\n    print_r($row);\n}\n\n$stmt->close();

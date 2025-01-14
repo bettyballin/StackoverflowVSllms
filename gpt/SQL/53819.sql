@@ -1,0 +1,1 @@
+CREATE TABLE file_metadata (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    file_name VARCHAR(255) NOT NULL,\n    file_url VARCHAR(1024) NOT NULL,\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);\n\nINSERT INTO file_metadata (file_name, file_url)\nVALUES ('example.xls', 'https://intranet.company.com/files/example.xls');

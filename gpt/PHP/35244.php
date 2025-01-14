@@ -1,0 +1,1 @@
+$myArray = [3, 1, 2];\narray_multisort($myArray);\n$firstElement = $myArray[0];

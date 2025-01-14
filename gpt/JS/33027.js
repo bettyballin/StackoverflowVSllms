@@ -1,0 +1,1 @@
+<script>\n  document.getElementById('popoverTrigger').addEventListener('click', function() {\n    // Open your popover logic here\n\n    // Track the event in Google Analytics\n    gtag('event', 'page_view', {\n      'page_path': '/salesAssistance.html',\n      'page_title': 'Sales Assistance Popover'\n    });\n  });\n</script>

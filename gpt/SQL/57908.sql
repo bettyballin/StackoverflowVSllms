@@ -1,0 +1,1 @@
+CREATE FUNCTION my_group_concat(param1 VARCHAR(255), param2 VARCHAR(255))\nRETURNING VARCHAR(255);\n    DEFINE result VARCHAR(255);\n    IF param1 IS NULL THEN\n        RETURN param2;\n    ELSE\n        RETURN param1 || ',' || param2;\n    END IF;\nEND FUNCTION;

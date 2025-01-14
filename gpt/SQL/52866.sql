@@ -1,0 +1,1 @@
+-- MySQL example\n   REVOKE ALL PRIVILEGES ON acl_table FROM 'user';\n   GRANT SELECT, INSERT, UPDATE, DELETE ON acl_table TO 'admin_user';

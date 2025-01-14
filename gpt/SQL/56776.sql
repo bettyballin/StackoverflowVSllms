@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_UpdateLastUpdatedDate\nBEFORE UPDATE ON YourTableName\nFOR EACH ROW\nBEGIN\n    SET NEW.LastUpdatedDate = NOW();\nEND;

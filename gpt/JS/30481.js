@@ -1,0 +1,1 @@
+// Assuming `myServices` is a proxy object for your web service\nfunction getNameFromServer(userId) {\n    myServices.getName(userId, onSuccess, onFailure);\n}\n\nfunction onSuccess(result) {\n    alert(result);\n}\n\nfunction onFailure(error) {\n    alert("Error: " + error.get_message());\n}\n\n// Call the function to get the name\ngetNameFromServer(yourUserId);

@@ -1,0 +1,1 @@
+CREATE INDEX idx_airports_iata ON airports (IATA);

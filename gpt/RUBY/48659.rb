@@ -1,0 +1,1 @@
+respond_to do |format|\n  format.xml { head :ok }\nend\n\n# Ensure no further code is executed after sending the response\nretur

@@ -1,0 +1,1 @@
+# config/routes.rb\nnamespace :ajax do\n  get 'posts/preview/:id', to: 'posts#preview'\nend\n\n# app/controllers/ajax/posts_controller.rb\nclass Ajax::PostsController < ApplicationController\n  def preview\n    @post = Post.find(params[:id])\n    render json: @post\n  end\nend

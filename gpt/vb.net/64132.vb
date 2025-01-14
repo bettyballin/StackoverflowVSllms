@@ -1,0 +1,1 @@
+Dim myValueList As New Infragistics.Win.ValueList()\nmyValueList.ValueListItems.Add(1, "Option 1")\nmyValueList.ValueListItems.Add(2, "Option 2")\nmyValueList.ValueListItems.Add(3, "Option 3")

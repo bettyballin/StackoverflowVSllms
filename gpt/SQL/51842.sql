@@ -1,0 +1,1 @@
+SHOW VARIABLES LIKE 'ndb_max_no_of_ordered_indexes';

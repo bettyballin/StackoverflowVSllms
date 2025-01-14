@@ -1,0 +1,1 @@
+function &getValue(&$array, $key) {\n       return $array[$key];\n   }\n   \n   $arr = array('a' => 1, 'b' => 2);\n   $val =& getValue($arr, 'a');\n   $val = 10;\n   echo $arr['a']; // Outputs 10

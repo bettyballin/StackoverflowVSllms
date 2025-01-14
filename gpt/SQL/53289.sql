@@ -1,0 +1,1 @@
+select\n    this.Column1,\n    case when this.Column2 is null then 0 else this.Column2 end\nfrom dbo.SomeTable this\n    inner join dbo.AnotherTable another on this.id = another.id\nwhere\n    this.Price > 100;

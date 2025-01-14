@@ -1,0 +1,1 @@
+UPDATE im\nSET im.mf_item_number = mm.ManufacturerName  -- Example of using a field from the joined table\nFROM item_master im\nJOIN group_master gm ON im.sku = gm.sku\nJOIN Manufacturer_Master mm ON gm.ManufacturerID = mm.ManufacturerID\nWHERE im.mf_item_number like 'STA%'\n  AND gm.ManufacturerID = 34;

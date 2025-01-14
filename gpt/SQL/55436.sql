@@ -1,0 +1,1 @@
+-- Assuming you are using SQL Server\nUPDATE STATISTICS your_table_name WITH FULLSCAN;

@@ -1,0 +1,1 @@
+WITH CTE AS (\n    SELECT \n        username, \n        email_activation_code, \n        email,\n        ROW_NUMBER() OVER (PARTITION BY email ORDER BY username) AS row_num\n    FROM \n        users\n    WHERE\n        email_activated = 0\n)\nSELECT \n    username, \n    email_activation_code, \n    email\nFROM \n    CTE\nWHERE \n    row_num = 1;

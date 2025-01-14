@@ -1,0 +1,1 @@
+document.getElementById('field2').style.display = 'block';\ndocument.getElementById('email_visibility').value = 'visible';\n\n// Similarly, when hiding a field\ndocument.getElementById('field2').style.display = 'none';\ndocument.getElementById('email_visibility').value = 'hidden';

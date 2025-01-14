@@ -1,0 +1,1 @@
+from faker import Faker\n\n   fake = Faker()\n   for _ in range(1000):\n       print(f"INSERT INTO your_table (name, address) VALUES ('{fake.name()}', '{fake.address()}');")

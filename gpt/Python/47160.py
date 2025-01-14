@@ -1,0 +1,1 @@
+oldList = [1, 2, 3]\nnewList_copy = oldList[:]  # shallow copy\nnewList_ref = oldList      # reference\n\nnewList_copy.append(4)\nnewList_ref.append(5)\n\nprint("oldList:", oldList)         # Output: oldList: [1, 2, 3, 5]\nprint("newList_copy:", newList_copy)  # Output: newList_copy: [1, 2, 3, 4]\nprint("newList_ref:", newList_ref)    # Output: newList_ref: [1, 2, 3, 5]

@@ -1,0 +1,1 @@
+$queryLower = mb_strtolower($query, 'UTF-8');\n$result = $xml->xpath("//StopPoint[contains(translate(StopName, 'ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ', 'abcdefghijklmnopqrstuvwxyzæøå'), '$queryLower')]");

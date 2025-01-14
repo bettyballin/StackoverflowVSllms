@@ -1,0 +1,1 @@
+UPDATE second_table st\nJOIN lookup_table lt ON st.key_column = lt.key_column\nSET st.value_column = lt.value_column;

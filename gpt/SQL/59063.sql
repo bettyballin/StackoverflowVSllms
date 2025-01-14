@@ -1,0 +1,1 @@
+CREATE TABLE Advertisements (\n    Id INT PRIMARY KEY,\n    Type VARCHAR(50), -- e.g., 'single-unit', 'horizontal-2-unit', 'vertical-2-unit'\n    Content TEXT\n);

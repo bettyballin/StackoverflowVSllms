@@ -1,0 +1,1 @@
+<WebMethod()> _\nPublic Function dosomething() As Boolean\n    If successful Then\n        Return True\n    Else\n        Return False\n    End If\nEnd Functio

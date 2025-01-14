@@ -1,0 +1,1 @@
+SELECT empno, deptno, \n       COUNT(*) OVER (PARTITION BY deptno) AS DEPT_COUNT\nFROM emp;

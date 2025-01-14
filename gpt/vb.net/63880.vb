@@ -1,0 +1,1 @@
+<%\nDim conn, rs, sql, userName\nSet conn = Server.CreateObject("ADODB.Connection")\nconn.Open "your_connection_string"\n\nsql = "SELECT UserName FROM UserSessions WHERE SessionID = '" & Session.SessionID & "'"\nSet rs = conn.Execute(sql)\nIf Not rs.EOF Then\n    userName = rs("UserName")\nEnd If\n\nrs.Close\nconn.Close\nSet rs = Nothing\nSet conn = Nothing\n%>

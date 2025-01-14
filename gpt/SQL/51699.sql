@@ -1,0 +1,1 @@
+UPDATE feeds f\nJOIN public_feeds pf ON f.feed_id = pf.feed_id\nSET f.feed_type = 'public';\n\nUPDATE feeds f\nJOIN private_feeds prf ON f.feed_id = prf.feed_id\nSET f.feed_type = 'private';\n\nUPDATE feeds f\nJOIN generated_feeds gf ON f.feed_id = gf.feed_id\nSET f.feed_type = 'generated';

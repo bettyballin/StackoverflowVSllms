@@ -1,0 +1,1 @@
+if (Sys.WebForms.PageRequestManager.getInstance().get_isInAsyncPostBack()) {\n    // Code to execute during an async postback\n    console.log("Async postback is in progress.");\n} else {\n    // Code to execute during a normal postback or initial page load\n    console.log("No async postback is in progress.");\n}

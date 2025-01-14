@@ -1,0 +1,1 @@
+MustInherit Class BaseClass\n       Public Sub LogMessage(message As String)\n           ' Logging logic here\n       End Sub\n   End Class\n\n   Class DerivedClass\n       Inherits BaseClass\n\n       Public Shared Sub Log(instance As DerivedClass, message As String)\n           instance.LogMessage(message)\n       End Sub\n   End Class

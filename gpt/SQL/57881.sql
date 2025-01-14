@@ -1,0 +1,1 @@
+SELECT \n    OBJECT_DEFINITION (OBJECT_ID('YourStoredProcedureName')) AS ProcedureDefinition;

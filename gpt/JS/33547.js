@@ -1,0 +1,1 @@
+// Example of IDOR protection\n   const resourceId = getResourceIdFromUser(); // Validate this input securely

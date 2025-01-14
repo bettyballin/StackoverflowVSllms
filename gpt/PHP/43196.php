@@ -1,0 +1,1 @@
+<?php\n$url = "http://www.address.com";\n$response = @file_get_contents($url);\n\nif ($response !== false) {\n    $results = "it worked";\n} else {\n    $results = "it didnt";\n}\n\nreturn $results;\n?>

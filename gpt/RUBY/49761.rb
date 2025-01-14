@@ -1,0 +1,1 @@
+class ImagesController < ApplicationController\n  def show\n    image = Image.find(params[:id])\n    send_data image.data, type: image.content_type, disposition: 'inline'\n  end\nend

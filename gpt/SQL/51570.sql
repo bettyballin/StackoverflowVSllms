@@ -1,0 +1,1 @@
+CALL another_database.STORED_PROCEDURE(arg);

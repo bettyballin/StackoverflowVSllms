@@ -1,0 +1,1 @@
+CREATE FULLTEXT INDEX ON YourTableName (Keywords)\n   KEY INDEX YourPrimaryKeyIndexName\n   WITH STOPLIST = OFF;

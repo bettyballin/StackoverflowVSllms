@@ -1,0 +1,1 @@
+# Example with different powers\nresult1 = 3**3 * 2  # 3 raised to the power of 3, then multiplied by 2\nresult2 = 3*3*3*2  # 3 multiplied by itself three times, then by 2\n\nprint(result1)  # Output will be 54\nprint(result2)  # Output will also be 54

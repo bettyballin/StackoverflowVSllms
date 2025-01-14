@@ -1,0 +1,1 @@
+-- Insert a new response from a user\nINSERT INTO Responses (SurveyID, UserID) VALUES (1, 123);\n\n-- Assume the new response has ResponseID = 1\nINSERT INTO Answers (ResponseID, QuestionID, AnswerText) VALUES\n(1, 1, 'Very satisfied'),\n(1, 2, 'Yes');

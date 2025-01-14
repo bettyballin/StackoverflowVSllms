@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    var contextPath = '${pageContext.request.contextPath}';\n</script>

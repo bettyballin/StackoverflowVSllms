@@ -1,0 +1,1 @@
+Public Function IsStringHello(ByVal test As String) As Boolean \n    Return (String.Compare(test, "Hello") = 0)    \nEnd Function\n\nSub Main()\n    Dim myWord As String = "Blah"\n    Dim matchesHello As Boolean = IsStringHello(myWord)\nEnd Sub

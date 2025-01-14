@@ -1,0 +1,1 @@
+SELECT DISTINCT b.*\nFROM Boy b\nJOIN Kite k ON b.id = k.boyId\nWHERE k.length >= 1\nAND b.name = 'Huck';

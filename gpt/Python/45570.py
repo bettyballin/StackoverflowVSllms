@@ -1,0 +1,1 @@
+from weasyprint import HTML\n\n    # Path to your HTML file\n    html_file = 'path/to/your/file.html'\n\n    # Path to the output PDF file\n    pdf_file = 'output.pdf'\n\n    # Generate the PDF\n    HTML(html_file).write_pdf(pdf_file)

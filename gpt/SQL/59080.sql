@@ -1,0 +1,1 @@
+CALL normalize_table();

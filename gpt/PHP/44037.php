@@ -1,0 +1,1 @@
+ob_clean();\nflush();\nreadfile('path_to_your_pdf_file.pdf');

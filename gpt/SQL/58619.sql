@@ -1,0 +1,1 @@
+USE [master]\nGO\nCREATE LOGIN [localmachine\Scott] FROM WINDOWS;\nGO\nUSE [ReportServer]\nGO\nCREATE USER [localmachine\Scott] FOR LOGIN [localmachine\Scott];\nGO\nALTER ROLE [RSExecRole] ADD MEMBER [localmachine\Scott];\nGO

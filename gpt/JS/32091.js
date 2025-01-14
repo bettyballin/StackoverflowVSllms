@@ -1,0 +1,1 @@
+var imgSrc = 'http://example.com/image.jpg';

@@ -1,0 +1,1 @@
+CASE \n    WHEN SUM(ExtPrice) * .01 < 0 AND RecordNum BETWEEN 4000 AND 5999 \n        THEN ABS(SUM(ExtPrice) * .01)\n    ELSE SUM(ExtPrice) * .01 \nEND AS Totals

@@ -1,0 +1,1 @@
+WHERE \n    LEN(Word) > 0 AND Word NOT IN ('and', 'the', 'a', 'an')

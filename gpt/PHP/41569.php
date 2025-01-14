@@ -1,0 +1,1 @@
+$source_file = 'your_database.sqlite';\n$backup_file = 'backup.sqlite';\n\nif (copy($source_file, $backup_file)) {\n    echo "Backup successful!";\n} else {\n    echo "Backup failed!";\n}

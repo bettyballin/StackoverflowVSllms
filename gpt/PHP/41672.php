@@ -1,0 +1,1 @@
+function generatePassword($length = 12) {\n    return bin2hex(random_bytes($length));\n}

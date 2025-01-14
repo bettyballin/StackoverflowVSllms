@@ -1,0 +1,1 @@
+amespace CustomUser;\n\nuse User\Module as UserModule;\n\nclass Module extends UserModule\n{\n    public function getConfig()\n    {\n        $config = parent::getConfig();\n        // Customize or extend the configuration here\n        return $config;\n    }\n}

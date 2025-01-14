@@ -1,0 +1,1 @@
+SELECT \n    d.Data,\n    MAX(CASE WHEN m.MetaName = 'Date' THEN m.MetaData END) AS Date,\n    MAX(CASE WHEN m.MetaName = 'Name' THEN m.MetaData END) AS Name\nFROM \n    DataTable d\nLEFT JOIN \n    MetaTable m\nON \n    d.DataID = m.DataID\nGROUP BY \n    d.DataID, d.Data;

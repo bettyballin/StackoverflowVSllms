@@ -1,0 +1,1 @@
+var inputConfig = {\n    tag: "input",\n    type: "text",\n    size: "25",\n    value: "",\n    cls: "x-grid-filter"\n};\n\n// Use Ext.DomHelper to insert the input field into the toolbar\nvar inputEl = Ext.DomHelper.append(gridToolbar.el, inputConfig, true);\n\n// Add focus event listener to the input field\ninputEl.on("focus", function() {\n    this.dom.select();\n});

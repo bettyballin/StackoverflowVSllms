@@ -1,0 +1,1 @@
+SHOW VARIABLES LIKE 'key_buffer_size';\nSHOW VARIABLES LIKE 'query_cache_size';\nSHOW VARIABLES LIKE 'tmp_table_size';\n\nSET GLOBAL key_buffer_size = 512M;\nSET GLOBAL query_cache_size = 128M;\nSET GLOBAL tmp_table_size = 256M;

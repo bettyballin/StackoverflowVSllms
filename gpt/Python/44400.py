@@ -1,0 +1,1 @@
+old_list.clear()  # Clears the list in place

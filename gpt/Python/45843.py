@@ -1,0 +1,1 @@
+column_data = df['col']

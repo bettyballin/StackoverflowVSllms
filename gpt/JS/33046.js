@@ -1,0 +1,1 @@
+stcML = GetPrompts({ Template: "Label", Language: "en" });

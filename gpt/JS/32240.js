@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#myButton').on('click', function() {\n        $('#dialog').toggle();\n    });\n\n    $(document).on('click', function(event) {\n        if (!$(event.target).closest('#myButton, #dialog').length) {\n            $('#dialog').hide();\n        }\n    });\n});

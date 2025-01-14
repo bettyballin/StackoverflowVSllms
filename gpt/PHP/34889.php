@@ -1,0 +1,1 @@
+if (version_compare(PHP_VERSION, '7.4.0', '<')) {\n       die('PHP 7.4.0 or higher is required.');\n   }

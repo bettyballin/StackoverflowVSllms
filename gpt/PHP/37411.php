@@ -1,0 +1,1 @@
+public function process() {\n    if ($this->request->is('post')) {\n        $action = $this->request->data('action');\n        if ($action === 'register') {\n            // Handle registration logic\n        } elseif ($action === 'login') {\n            // Handle login logic\n        }\n    }\n}

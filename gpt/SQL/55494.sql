@@ -1,0 +1,1 @@
+SELECT column1 AS foo\nFROM (VALUES (5), (6), (7)) AS t(column1);

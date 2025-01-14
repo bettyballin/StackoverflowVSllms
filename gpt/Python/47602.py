@@ -1,0 +1,1 @@
+[u'1 x Affinity for war', u'4 x Affinity for the land', u'2 x Charisma', u'1 x Intellect', u'5 x Morale', u'3 x Population growth', u'2 x Perception']

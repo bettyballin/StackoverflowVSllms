@@ -1,0 +1,1 @@
+CREATE TABLE Node (\n    NodeId INT PRIMARY KEY,\n    Title NVARCHAR(255)\n);

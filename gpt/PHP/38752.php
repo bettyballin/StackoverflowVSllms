@@ -1,0 +1,1 @@
+$tagService = new TagService();\n$tagCloud = $tagService->getTagCloud();

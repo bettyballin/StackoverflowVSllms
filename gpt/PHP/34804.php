@@ -1,0 +1,1 @@
+<?php\nrequire_once('arraytest.php');\nsession_start();\n$bob = unserialize($_SESSION['bob']);\n$bob->foo();\nprint_r($bob->poop->getarray()); // This should now work correctly.\n?>

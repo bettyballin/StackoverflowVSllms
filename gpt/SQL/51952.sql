@@ -1,0 +1,1 @@
+declare @firstId int\ndeclare @lastId int\n\nset @firstId = 5461094\nset @lastId = 5461097\n\nSELECT * \nFROM YourTable\nWHERE id BETWEEN @firstId AND @lastId\nOPTION (OPTIMIZE FOR (@firstId = 5461094, @lastId = 5461097))

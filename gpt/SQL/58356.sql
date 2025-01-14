@@ -1,0 +1,1 @@
+SELECT \n    CONCAT(FLOOR(score / 10) * 10, '-', FLOOR(score / 10) * 10 + 9) AS score_range,\n    COUNT(*) AS number_of_occurrences\nFROM \n    your_table_name\nGROUP BY \n    FLOOR(score / 10)\nORDER BY \n    score_range;

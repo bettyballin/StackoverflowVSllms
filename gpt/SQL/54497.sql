@@ -1,0 +1,1 @@
+SELECT result\nFROM (SELECT result, test_id FROM result_tbl) r\nJOIN (SELECT test_id, sample_id FROM test_tbl) t USING (test_id)\nJOIN (SELECT sample_id FROM sample_tbl) s USING (sample_id)\nJOIN (SELECT request_id FROM request_tbl WHERE request_status='A') req USING (request_id);

@@ -1,0 +1,1 @@
+SET @user = 'foo';\nSET @host = 'localhost';\nSET @password = 'password';\n\nSET @user_host = CONCAT('\'', @user, '\'@\'', @host, '\'');\n\nGRANT USAGE ON *.* TO @user_host;\nDROP USER @user_host;\nCREATE USER @user_host IDENTIFIED BY @password;

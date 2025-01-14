@@ -1,0 +1,1 @@
+MERGE INTO HasViewed hv\nUSING (SELECT :ObjectID AS ObjectID, :UserID AS UserID FROM dual) src\nON (hv.ObjectID = src.ObjectID AND hv.UserID = src.UserID)\nWHEN NOT MATCHED THEN\nINSERT (ObjectID, UserID)\nVALUES (src.ObjectID, src.UserID);

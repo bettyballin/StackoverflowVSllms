@@ -1,0 +1,1 @@
+CREATE TEMPORARY TABLE temp AS\n   SELECT u1.name as UserName, COUNT(m1.UserFromId) as SentCount\n   FROM Message m1, User u1\n   WHERE u1.uid = m1.UserFromId\n   GROUP BY u1.name\n   HAVING SentCount > 3;\n\n   CREATE VIEW my_view AS\n   SELECT UserName\n   FROM temp;

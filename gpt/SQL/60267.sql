@@ -1,0 +1,1 @@
+CREATE TABLE sha2_hashes (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    hash BINARY(64) NOT NULL\n);

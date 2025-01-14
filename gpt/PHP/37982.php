@@ -1,0 +1,1 @@
+<?php\n$original_string = "こんにちは世界"; // "Hello World" in Japanese\n$length = mb_strlen($original_string, 'UTF-8');\necho "The length of the string is: " . $length;\n?>

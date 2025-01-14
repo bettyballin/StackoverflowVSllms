@@ -1,0 +1,1 @@
+$ip = '127.0.0.1';\n   if (filter_var($ip, FILTER_VALIDATE_IP)) {\n       echo "Valid IP address.";\n   } else {\n       echo "Invalid IP address.";\n   }

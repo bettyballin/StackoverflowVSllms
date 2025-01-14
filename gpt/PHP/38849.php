@@ -1,0 +1,1 @@
+echo "Title: <input type=\"text\" name=\"title\" value=\"" . htmlspecialchars($row['Title'], ENT_QUOTES, 'UTF-8') . "\"></input><br>";

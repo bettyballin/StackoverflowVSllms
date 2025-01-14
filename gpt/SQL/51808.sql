@@ -1,0 +1,1 @@
+ALTER PROC [dbo].[web_GetMyStuffFool]\n       (@UserID BIGINT)\n    AS\n    SELECT Col1, Col2, Col3, Col3, Col3, Col3, Col3, Col3, Col3\n    FROM [Table]\n    WHERE UserID = @UserID\n    OPTION (RECOMPILE)

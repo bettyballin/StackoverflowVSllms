@@ -1,0 +1,1 @@
+GRANT SELECT ON your_table TO your_user;

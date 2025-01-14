@@ -1,0 +1,1 @@
+<?php\n\nclass MyForm extends Zend_Form\n{\n    public function process()\n    {\n        // Your form processing logic\n\n        if ($someCondition) {\n            throw new RedirectException('/');\n        }\n\n        // More form processing logic\n    }\n}

@@ -1,0 +1,1 @@
+// Set the character set for the database connection\n    $db->query("SET NAMES 'utf8'");

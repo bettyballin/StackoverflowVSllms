@@ -1,0 +1,1 @@
+SELECT *\nFROM FILM\nWHERE FILM.FILM_TITLE = 'Some Film Title';  -- Replace with an actual film title from your database

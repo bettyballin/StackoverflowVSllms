@@ -1,0 +1,1 @@
+SELECT\n    cons.constraint_name,\n    cons.constraint_type,\n    cols.table_name,\n    cols.column_name,\n    cons.search_condition\nFROM\n    dba_constraints cons\nJOIN\n    dba_cons_columns cols\nON\n    cons.constraint_name = cols.constraint_name\nWHERE\n    cons.constraint_name = 'SYS_C003415';

@@ -1,0 +1,1 @@
+required_values = ['A', 'B', 'C']\nsome_map = {'A': 1, 'B': 2, 'C': 3, 'D': 4}\n\nif all(value in some_map for value in required_values):\n    print("All required values exist")\n    result = True\nelse:\n    print("It Doesn't Exist")\n    result = False

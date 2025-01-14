@@ -1,0 +1,1 @@
+SELECT question, answer\nFROM faqs\nWHERE MATCH(question, answer) AGAINST('how to bla bla bla' IN NATURAL LANGUAGE MODE);

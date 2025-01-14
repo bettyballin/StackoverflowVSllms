@@ -1,0 +1,1 @@
+RESTORE DATABASE Test FROM DISK = 'C:\Backups\Test1.bak' WITH REPLACE;

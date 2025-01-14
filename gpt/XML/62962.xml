@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <profile>\n      <properties>\n        <add name="FirstName" type="String" />\n        <add name="LastName" type="String" />\n        <add name="Age" type="Int32" />\n      </properties>\n    </profile>\n  </system.web>\n</configuration>

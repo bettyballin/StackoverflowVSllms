@@ -1,0 +1,1 @@
+if ($smarty->getTemplateVars('test') === null) {\n    $smarty->assign('test', 'Default value');\n}

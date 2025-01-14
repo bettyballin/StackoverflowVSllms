@@ -1,0 +1,1 @@
+class YourModel < ApplicationRecord\n      def sanitized_content\n        renderer = Redcarpet::Render::HTML.new\n        markdown = Redcarpet::Markdown.new(renderer, extensions = {})\n        raw_html = markdown.render(self.content)\n        Sanitize.fragment(raw_html, Sanitize::Config::RESTRICTED)\n      end\n    end

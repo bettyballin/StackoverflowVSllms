@@ -1,0 +1,1 @@
+<%= form_with(model: [@user, @user.publicprofile, Email.new], local: true) do |form| %>\n  <div class="field">\n    <%= form.label :address %>\n    <%= form.text_field :address %>\n  </div>\n\n  <div class="actions">\n    <%= form.submit 'Add Email' %>\n  </div>\n<% end %>

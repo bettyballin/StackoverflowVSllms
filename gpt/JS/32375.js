@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    // Get the values of all checked radio buttons\n    var checkedValues = [];\n    $('input[type="radio"]:checked').each(function() {\n        checkedValues.push($(this).val());\n    });\n\n    // Output the values (for demonstration purposes)\n    console.log(checkedValues);\n});

@@ -1,0 +1,1 @@
+<?php\nfunction external_helper_function() {\n    echo "This is an external helper function.";\n}\n?>

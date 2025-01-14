@@ -1,0 +1,1 @@
+// jQuery\n$(document).ready(function() {\n    $('.js-toggle').on('click', function() {\n        var dataValue = $(this).data('toggle');\n        console.log(dataValue);\n        // Your JavaScript functionality here\n    });\n});

@@ -1,0 +1,1 @@
+SELECT u.[User], t.Application, t.Task, tl.Description\nFROM SY.Users u\nCROSS JOIN SY.Tasks t\nLEFT OUTER JOIN SY.TaskLevels tl \nON t.Application = tl.Application AND t.Task = tl.Task AND t.DftAccessLevel = tl.AccessLevel

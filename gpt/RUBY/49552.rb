@@ -1,0 +1,1 @@
+require 'axlsx'\n\n   Axlsx::Package.new do |p|\n     p.workbook.add_worksheet(name: "My Worksheet") do |sheet|\n       sheet.add_row ["Name", "City", "Age"]\n       sheet.add_row ["Jürgen", "München", 33]\n       sheet.add_row ["Øyvind", "Oslo", 28]\n       sheet.add_row ["李", "上海", 25]\n     end\n     p.serialize('utf8_data.xlsx')\n   end

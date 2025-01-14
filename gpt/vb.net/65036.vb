@@ -1,0 +1,1 @@
+MyGenericSub(123) ' Integer\nMyGenericSub("Hello World") ' String\nMyGenericSub(New List(Of String)) ' List of Strings\n\nDim result As Integer = MyGenericFunction(456)\nDim result2 As String = MyGenericFunction("Test")

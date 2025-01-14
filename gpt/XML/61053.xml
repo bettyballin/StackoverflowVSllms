@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.jkiss.dbeaver</groupId>\n    <artifactId>dbeaver-model</artifactId>\n    <version>21.0.3</version> <!-- Use the latest version -->\n</dependency>

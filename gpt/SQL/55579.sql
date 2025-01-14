@@ -1,0 +1,1 @@
+CREATE PROCEDURE SampleStoredProc\nAS\nBEGIN\n    DECLARE @AppUserID NVARCHAR(50)\n    SELECT @AppUserID = SESSION_CONTEXT(N'AppUserID')\n\n    -- Log the AppUserID and the action\n    INSERT INTO AuditLog (AppUserID, Action)\n    VALUES (@AppUserID, 'Performed an action')\n\n    -- Rest of your stored procedure logic\nEND

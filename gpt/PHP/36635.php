@@ -1,0 +1,1 @@
+<?php\n// Original array\n$array = array(\n    0 => 'Text1',\n    1 => 'World',\n    2 => 'Hello'\n);\n\n// Swap the values of key 1 and key 2\n$temp = $array[1];\n$array[1] = $array[2];\n$array[2] = $temp;\n\n// Print the modified array\nprint_r($array);\n?>

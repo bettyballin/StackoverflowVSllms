@@ -1,0 +1,1 @@
+echo '<input type="text" name="myname" value="myvalue">';

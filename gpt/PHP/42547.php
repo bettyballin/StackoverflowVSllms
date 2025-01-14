@@ -1,0 +1,1 @@
+$input = "your_input_string_here";\n\nif (preg_match($rex, $input)) {\n    echo "Error: Input contains invalid characters.";\n} else {\n    echo "Input is valid.";\n}

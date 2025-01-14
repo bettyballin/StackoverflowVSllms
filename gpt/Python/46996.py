@@ -1,0 +1,1 @@
+try:\n       with open('file.txt', 'r') as file:\n           contents = file.read()\n   except FileNotFoundError:\n       print("File not found")\n   except IOError:\n       print("Error reading file")

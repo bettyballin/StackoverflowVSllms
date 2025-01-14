@@ -1,0 +1,1 @@
+<?php\n\n$categories = new Default_Model_ProjectCategories();\n$category = $categories->find('1')->current();\n$projects = $categories->findProjects('1');

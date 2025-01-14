@@ -1,0 +1,1 @@
+read_file('example.txt');       // delete_after will be false\nread_file('example.txt', true); // delete_after will be true

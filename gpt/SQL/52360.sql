@@ -1,0 +1,1 @@
+CREATE TABLE Users (\n    UserID INT PRIMARY KEY,\n    Email VARCHAR(255) UNIQUE,\n    Age INT CHECK (Age >= 18),\n    CountryCode CHAR(2) NOT NULL\n);

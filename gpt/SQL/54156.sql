@@ -1,0 +1,1 @@
+RESTORE DATABASE TempDB FROM DISK = 'PathToYourBackupFile.bak'\n   WITH MOVE 'YourDataFile' TO 'PathToYourTempDataFile.mdf',\n        MOVE 'YourLogFile' TO 'PathToYourTempLogFile.ldf',\n        REPLACE;

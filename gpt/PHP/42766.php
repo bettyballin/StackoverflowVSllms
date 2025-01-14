@@ -1,0 +1,1 @@
+<?php\n// Define a whitelist of allowed files\n$whitelist = array('home', 'about', 'contact');\n\n// Check if 'page' parameter is set and is in the whitelist\nif (isset($_GET['page']) && in_array($_GET['page'], $whitelist)) {\n    include($_GET['page'] . ".php");\n} else {\n    // Default to 'home.php' if 'page' is not set or not in the whitelist\n    include("home.php");\n}\n?>

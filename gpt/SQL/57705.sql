@@ -1,0 +1,1 @@
+CREATE TABLE searches (\n       id SERIAL PRIMARY KEY,\n       user_id INT NOT NULL,\n       creation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n   );

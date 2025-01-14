@@ -1,0 +1,1 @@
+CREATE INDEX IX_BlogPost ON YourTableName (BlogPost);

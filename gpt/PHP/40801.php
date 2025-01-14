@@ -1,0 +1,1 @@
+// Create a SQLite database and table if they don't exist\nfunction initialize_cache_db() {\n    $db = new PDO('sqlite:cache.sqlite3');\n    $db->exec("CREATE TABLE IF NOT EXISTS cache (\n        id INTEGER PRIMARY KEY,\n        key TEXT UNIQUE,\n        value TEXT,\n        timestamp INTEGER\n    )");\n    return $db;\n}

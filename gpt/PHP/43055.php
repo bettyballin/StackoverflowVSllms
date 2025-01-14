@@ -1,0 +1,1 @@
+$callback = $_GET['callback'];\n   $data = array('content' => 'Your dynamic content here');\n   echo $callback . '(' . json_encode($data) . ');';

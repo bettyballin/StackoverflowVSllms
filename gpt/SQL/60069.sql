@@ -1,0 +1,1 @@
+CREATE FULLTEXT INDEX ON customer (fname) \n    KEY INDEX PK_customer -- assuming PK_customer is the primary key of your customer table\n    WITH STOPLIST = OFF;

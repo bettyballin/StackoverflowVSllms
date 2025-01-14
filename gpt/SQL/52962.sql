@@ -1,0 +1,1 @@
+UPDATE t1\n    SET t1.groupId = t2.groupId\n    FROM table t1\n    JOIN newtable t2 ON t1.email = t2.email;

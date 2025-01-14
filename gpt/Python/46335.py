@@ -1,0 +1,1 @@
+import os\nimport binascii\n\ndef generate_session_id():\n    # Generate 16 random bytes (128 bits)\n    random_bytes = os.urandom(16)\n    # Convert the bytes to a hexadecimal string\n    session_id = binascii.hexlify(random_bytes).decode('utf-8')\n    return session_id\n\n# Generate a session ID\nsession_id = generate_session_id()\nprint(session_id)

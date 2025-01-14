@@ -1,0 +1,1 @@
+WITH RECURSIVE OrgHierarchy AS (\n    SELECT Id, Name, ParentId\n    FROM Organizations\n    WHERE Id = ?  -- Replace this with the topmost Organization Id you want to query\n\n    UNION ALL\n\n    SELECT o.Id, o.Name, o.ParentId\n    FROM Organizations o\n    INNER JOIN OrgHierarchy oh ON o.ParentId = oh.Id\n)\nSELECT * FROM OrgHierarchy;

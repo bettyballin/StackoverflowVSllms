@@ -1,0 +1,1 @@
+pivot = array[array.length - 1];

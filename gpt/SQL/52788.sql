@@ -1,0 +1,1 @@
+CREATE TABLE XmlData (\n    Item NVARCHAR(255),\n    Link NVARCHAR(MAX)\n);

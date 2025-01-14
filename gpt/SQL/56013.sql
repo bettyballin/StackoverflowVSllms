@@ -1,0 +1,1 @@
+SELECT [ColumnName]\nFROM [SheetName$]\nWHERE ROWID = RowIndex;

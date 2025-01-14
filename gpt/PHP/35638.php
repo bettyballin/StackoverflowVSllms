@@ -1,0 +1,1 @@
+function getUserData(): array {\n    return [\n        'id' => 1,\n        'name' => 'John Doe',\n        'email' => 'john.doe@example.com'\n    ];\n}

@@ -1,0 +1,1 @@
+from django.urls import path\nfrom .views import get_service, get_item\n\nurlpatterns = [\n    path('services/<str:service_name>/', get_service, name='get_service'),\n    path('services/<str:service_name>/<int:item_id>/', get_item, name='get_item'),\n]

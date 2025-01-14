@@ -1,0 +1,1 @@
+<configuration>\n        <appSettings>\n            <add key="ShowLogin" value="true" />\n        </appSettings>\n    </configuration>

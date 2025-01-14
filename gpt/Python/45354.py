@@ -1,0 +1,1 @@
+from formencode import Schema, validators\n\nclass MyFormSchema(Schema):\n    allow_extra_fields = True\n    filter_extra_fields = True\n\n    name = validators.String(not_empty=True, min=3, max=50)\n    email = validators.Email(not_empty=True)\n    age = validators.Int(min=18, max=100)

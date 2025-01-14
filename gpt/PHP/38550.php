@@ -1,0 +1,1 @@
+function safeCalculator($str) {\n    $str = sanitizeInput($str);\n    $evaluator = new MathEvaluator();\n    try {\n        $result = $evaluator->evaluate($str);\n        return $result;\n    } catch (Exception $e) {\n        return "Error in expression: " . $e->getMessage();\n    }\n}

@@ -1,0 +1,1 @@
+<?php\nrequire 'vendor/autoload.php';\nrequire 'config/config.php';\n\nuse App\Controllers\HomeController;\n\n$controller = new HomeController();\n$controller->index();

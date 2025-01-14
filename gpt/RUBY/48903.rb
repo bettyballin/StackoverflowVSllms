@@ -1,0 +1,1 @@
+require 'docx'\n\n# Create a new Document\ndoc = Docx::Document.new\n\n# Add some text to the document\ndoc.paragraphs << 'Hello, this is a sample text in the Word document.'\n\n# Save the document to a file\ndoc.save('output.docx')

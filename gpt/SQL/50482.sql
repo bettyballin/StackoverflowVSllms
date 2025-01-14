@@ -1,0 +1,1 @@
+SELECT (date_column - TO_DATE('1899-12-31', 'YYYY-MM-DD')) AS days_since_base FROM table_name;

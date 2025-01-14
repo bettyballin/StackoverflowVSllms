@@ -1,0 +1,1 @@
+SELECT t1.ID, t1.Date_Created\nFROM Table1 t1\nJOIN Table1 t2\nON ABS(DATEDIFF(day, t1.Date_Created, t2.Date_Created)) = 2\nORDER BY t1.ID;

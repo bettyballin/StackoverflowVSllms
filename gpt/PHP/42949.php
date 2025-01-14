@@ -1,0 +1,1 @@
+<?php\n$hash = md5('hello');\n$sql = "INSERT INTO example (hash) VALUE ('$hash')";\n// Execute the SQL statement using your database connection\n?>

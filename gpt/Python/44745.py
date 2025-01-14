@@ -1,0 +1,1 @@
+string_value = default_string if other_string is None or other_string == '' else other_string

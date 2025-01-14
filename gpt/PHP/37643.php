@@ -1,0 +1,1 @@
+'Session' => [\n    'defaults' => 'php',\n    'timeout' => 120, // set this to the desired number of minutes\n    // other session settings\n],

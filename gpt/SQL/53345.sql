@@ -1,0 +1,1 @@
+SELECT id, custId, order_date\nFROM t_order\nWHERE order_date IS NULL\n  AND custId NOT IN (\n    SELECT custId\n    FROM t_order\n    WHERE order_date IS NOT NULL\n  )\nGROUP BY custId\nORDER BY id;

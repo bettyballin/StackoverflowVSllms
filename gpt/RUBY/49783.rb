@@ -1,0 +1,1 @@
+otification_type_id = NotificationType.find_by(name: 'type1').id\n\nbooks_to_consider = Book.joins("LEFT JOIN notifications ON notifications.book_id = books.id AND notifications.notification_type_id = #{notification_type_id}")\n                        .where("notifications.id IS NULL AND books.created_at BETWEEN ? AND ?", min_date, max_date)

@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <httpProtocol>\n      <customHeaders>\n        <add name="X-UA-Compatible" value="IE=edge" />\n      </customHeaders>\n    </httpProtocol>\n  </system.webServer>\n</configuration>

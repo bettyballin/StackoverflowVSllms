@@ -1,0 +1,1 @@
+USE msdb;\nGO\n\n-- Assuming 'username' is the login of the user you want to grant the permission to\nEXEC sp_adduser 'username', 'username';\nGO\n\n-- Add the user to the TargetServersRole role\nEXEC sp_addrolemember 'TargetServersRole', 'username';\nGO

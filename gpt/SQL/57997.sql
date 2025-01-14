@@ -1,0 +1,1 @@
+START TRANSACTION;\n\n-- Step 1: Claim a job\nUPDATE tbl\nSET owner = CONNECTION_ID(), available = FALSE\nWHERE available = TRUE AND owner IS NULL\nLIMIT 1;\n\n-- Step 2: Retrieve the claimed job\nSELECT *\nFROM tbl\nWHERE owner = CONNECTION_ID();\n\nCOMMIT;

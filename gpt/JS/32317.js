@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    var element = $('#yourElementId'); // Replace with your element's ID or selector\n    var offset = element.offset();\n    var x = offset.left;\n    var y = offset.top;\n\n    console.log('X: ' + x + ', Y: ' + y);\n});

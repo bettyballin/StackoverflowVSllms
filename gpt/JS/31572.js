@@ -1,0 +1,1 @@
+$.ajax({\n    url: 'http://myapp.com/catalog/products/categories/',\n    data: {\n        max_results: 20,\n        start_index: 5\n    },\n    success: function(response) {\n        // Handle the response\n    }\n});

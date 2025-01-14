@@ -1,0 +1,1 @@
+-- V3__Initial_schema.sql\n    CREATE TABLE example_table (\n        id INT PRIMARY KEY,\n        name VARCHAR(255)\n    );\n\n    -- V4__Add_new_table.sql\n    CREATE TABLE new_table (\n        id INT PRIMARY KEY,\n        description TEXT\n    );\n\n    -- V5__Alter_existing_table.sql\n    ALTER TABLE example_table\n    ADD COLUMN created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;

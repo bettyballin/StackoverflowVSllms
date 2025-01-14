@@ -1,0 +1,1 @@
+class Application_Model_User\n{\n    // Model properties and methods\n}

@@ -1,0 +1,1 @@
+# setup.py\n   from setuptools import setup\n   from Cython.Build import cythonize\n\n   setup(\n       ext_modules = cythonize("example.pyx")\n   )

@@ -1,0 +1,1 @@
+def tidy_html(input)\n  cleaned_html = Tidy.open(:show_warnings => false) do |tidy|\n    tidy.options.show_body_only = true\n    tidy.options.output_html = true\n    tidy.options.wrap = 0\n    tidy.options.char_encoding = 'utf8'\n    tidy.clean(input)\n  end\n  Sanitize.fragment(cleaned_html, Sanitize::Config::CUSTOM)\nend

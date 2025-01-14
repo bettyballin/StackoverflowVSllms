@@ -1,0 +1,1 @@
+user_input = '</body>Foo "Linkname":http://www.wheretogo.com/'\n    safe_output = process_textile(user_input)\n    puts safe_output

@@ -1,0 +1,1 @@
+WITH CTE AS (\n    SELECT \n        *,\n        ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS RowNum\n    FROM \n        YourTableName\n)\nUPDATE CTE\nSET \n    ColumnX = 'NewValue'\nWHERE \n    RowNum = Y;

@@ -1,0 +1,1 @@
+$("#yourFormId").validate({\n    rules: {\n        checkboxes: {\n            required: true,\n            minlength: 3\n        }\n    },\n    messages: {\n        checkboxes: {\n            required: "Please check at least 3 boxes",\n            minlength: "Please check at least 3 boxes"\n        }\n    }\n});

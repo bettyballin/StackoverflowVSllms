@@ -1,0 +1,1 @@
+Dim number As Integer = 123\nDim result1 As String = number.ToString\nDim result2 As String = number.ToString()

@@ -1,0 +1,1 @@
+Public Interface IMapinfoWrapper\n       Sub OpenTable(ByVal path As String)\n       Function EvaluateExpression(ByVal expression As String) As String\n   End Interface

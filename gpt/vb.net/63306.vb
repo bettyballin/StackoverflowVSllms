@@ -1,0 +1,1 @@
+Public Sub New()\n    ' This call is required by the designer.\n    InitializeComponent()\n\n    ' Add any initialization after the InitializeComponent() call.\n    AddHandler Me.FormClosed, AddressOf Form_FormClosed\nEnd Sub

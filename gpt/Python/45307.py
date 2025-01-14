@@ -1,0 +1,1 @@
+from django.http import JsonResponse\nfrom django.core.serializers import serialize\nfrom .models import YourGeoModel  # Replace with your actual model\n\ndef geojson_view(request):\n    data = serialize('geojson', YourGeoModel.objects.all())\n    return JsonResponse(data, safe=False)

@@ -1,0 +1,1 @@
+<component name="com.example.ComponentB" factory="com.example.ComponentBFactory">\n       <implementation class="com.example.ComponentB"/>\n       <service>\n           <provide interface="com.example.ComponentB"/>\n       </service>\n       <reference name="ComponentA" interface="com.example.ComponentA" bind="bindComponentA" unbind="unbindComponentA"/>\n   </component>

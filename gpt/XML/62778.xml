@@ -1,0 +1,1 @@
+<Project ...>\n  <!-- Other configurations -->\n  \n  <PropertyGroup>\n    <!-- Add the warning numbers you want to disable -->\n    <NoWarn>1</NoWarn>\n  </PropertyGroup>\n  \n  <!-- Other configurations -->\n</Project>

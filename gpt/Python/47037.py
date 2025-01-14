@@ -1,0 +1,1 @@
+def find_unique_number(arr):\n    unique = 0\n    for num in arr:\n        unique ^= num\n    return unique\n\n# Example usage:\narr = [2, 3, 5, 4, 5, 3, 4]\nprint(find_unique_number(arr))  # Output: 2

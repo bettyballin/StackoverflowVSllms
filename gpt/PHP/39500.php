@@ -1,0 +1,1 @@
+include_path = ".;C:\xampplite\php\pear"

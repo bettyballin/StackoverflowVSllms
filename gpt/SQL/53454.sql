@@ -1,0 +1,1 @@
+-- Create a new table for the matching records\nCREATE TABLE matching_records AS\nSELECT p.*\nFROM temp_progress_records p\nINNER JOIN temp_proper_records pr ON p.subsNumber = pr.subsNumber;

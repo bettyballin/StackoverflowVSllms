@@ -1,0 +1,1 @@
+$.ajax({\n    url: "https://same-domain.com/api/data",\n    method: "GET",\n    success: function(data) {\n        $('#content').html(data);\n    },\n    error: function(xhr, status, error) {\n        console.error("AJAX request failed:", status, error);\n    }\n});

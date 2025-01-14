@@ -1,0 +1,1 @@
+// Global function\nfunction my_global_function() {\n    // Function logic\n}\n\n// Global variable\n$global_variable_name = 'value';

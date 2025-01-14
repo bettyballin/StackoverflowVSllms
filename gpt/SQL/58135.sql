@@ -1,0 +1,1 @@
+WITH ProductAlias AS (\n  SELECT \n    ID_PRODUCT, \n    PRODUCT_NAME, \n    SUBSTR(PRODUCT_NAME, 1, 30) AS SHORT_NAME\n  FROM \n    PRODUCT\n)

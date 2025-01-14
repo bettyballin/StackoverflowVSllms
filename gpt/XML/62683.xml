@@ -1,0 +1,1 @@
+<system.serviceModel>\n    <serviceHostingEnvironment>\n        <serviceActivations>\n            <add service="YourNamespace.YourService" factory="YourNamespace.CustomServiceHostFactory" />\n        </serviceActivations>\n    </serviceHostingEnvironment>\n</system.serviceModel>

@@ -1,0 +1,1 @@
+Dim q = From s In dc.STOCKs _\n        Select s.ID, MemberPrice = _\n          If((From mp In dc.STOCKPRICEs \n              Where mp.NUMBER = s.NUMBER \n              Order By mp.date Descending \n              Select CType(mp.PRICE, Decimal?)).FirstOrDefault(), 0D)

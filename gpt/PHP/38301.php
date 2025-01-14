@@ -1,0 +1,1 @@
+<?php\n// Check if it is the blog index page, a blog archive, or a single blog post\nif ( is_home() || is_archive() || is_single() ) {\n    // Echo your div or perform any action you want here\n    echo '<div>Your content here</div>';\n}\n?>

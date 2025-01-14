@@ -1,0 +1,1 @@
+Dim someDate As Date = New Date(2023, 10, 10)\nDim yyww As String = DateToYYWW(someDate)\nConsole.WriteLine($"YYWW: {yyww}")\n\nDim saturdayDate As Date = YYWWToDate(yyww)\nConsole.WriteLine($"Saturday Date: {saturdayDate.ToShortDateString()}")

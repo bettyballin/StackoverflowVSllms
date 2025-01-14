@@ -1,0 +1,1 @@
+$query = 'SELECT (COUNT(*) AS ?count) WHERE { <http://kjkhlsa.net> <http://lkasdjlkjas.com> "Test" }';\necho $query;

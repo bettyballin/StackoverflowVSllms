@@ -1,0 +1,1 @@
+INSERT INTO availability (availability_string) VALUES\n('available 01/JAN/2021 to 10/JAN/2021, exclude holiday, weekend'),\n('available 15/FEB/2021, exclude maintenance');

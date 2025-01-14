@@ -1,0 +1,1 @@
+$.getJSON('http://example.com/getData.php?act=data', function(json) {\n    $("#devMessage").html(json.message);\n    if (json.version != version) {\n        $("#latestVersion").css("color", "red");\n    }\n    $("#latestVersion").html(json.version);\n});

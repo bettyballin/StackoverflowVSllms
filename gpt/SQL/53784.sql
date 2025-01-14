@@ -1,0 +1,1 @@
+-- Declare a table variable to hold the output identities\nDECLARE @NewIdentities TABLE (ID INT);\n\n-- Perform the insert and capture the identities\nINSERT INTO tbl_xyz (field1)\nOUTPUT inserted.ID INTO @NewIdentities\nSELECT field1\nFROM tbl_abc;\n\n-- Retrieve the new identities\nSELECT ID FROM @NewIdentities;

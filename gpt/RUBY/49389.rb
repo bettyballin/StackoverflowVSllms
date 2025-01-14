@@ -1,0 +1,1 @@
+require 'yaml'\n\n# Read the YAML file with UTF-8 encoding\nyaml_content = File.read('path/to/your_file.yaml', encoding: 'UTF-8')\ndata = YAML.safe_load(yaml_content)\n\nputs data

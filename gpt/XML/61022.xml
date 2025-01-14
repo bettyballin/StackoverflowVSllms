@@ -1,0 +1,1 @@
+<!-- web.xml -->\n   <error-page>\n       <error-code>500</error-code>\n       <location>/error/500.jsp</location>\n   </error-page>\n   <error-page>\n       <exception-type>java.lang.Throwable</exception-type>\n       <location>/error/general.jsp</location>\n   </error-page>

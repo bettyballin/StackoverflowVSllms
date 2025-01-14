@@ -1,0 +1,1 @@
+<xsl:template match="your-element[@name and @area]">\n    <!-- Your processing logic here -->\n</xsl:template>

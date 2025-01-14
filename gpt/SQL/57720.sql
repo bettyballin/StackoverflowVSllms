@@ -1,0 +1,1 @@
+-- Anti-pattern\n   CREATE TABLE orders (\n       id INT PRIMARY KEY,\n       customer_id INT,\n       order_date DATE\n   );\n\n   -- Better approach\n   CREATE TABLE orders (\n       id INT PRIMARY KEY,\n       customer_id INT,\n       order_date DATE,\n       INDEX (customer_id)\n   );

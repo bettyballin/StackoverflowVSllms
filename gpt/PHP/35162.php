@@ -1,0 +1,1 @@
+$formatted = sprintf("Hello, %s!", "world");\n    // Output: Hello, world!

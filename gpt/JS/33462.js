@@ -1,0 +1,1 @@
+$(document).ready(function(){\n        $('.thumbnail').on('click', function(event){\n            event.stopPropagation();\n            console.log('Thumbnail clicked');\n            // Your Ajax call here\n        });\n    });

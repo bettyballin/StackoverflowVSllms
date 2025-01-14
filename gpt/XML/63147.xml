@@ -1,0 +1,1 @@
+<bag name="BList" table="A_TABLE" inverse="true" lazy="true" cascade="all-delete-orphan">\n  <key column="A_ID"/>\n  <one-to-many class="B, Model" />\n</bag>

@@ -1,0 +1,1 @@
+<web-app>\n    ...\n    <listener>\n        <listener-class>com.example.SessionListener</listener-class>\n    </listener>\n    ...\n</web-app>

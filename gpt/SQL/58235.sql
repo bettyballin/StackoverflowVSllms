@@ -1,0 +1,1 @@
+SELECT date_column, nullable_column FROM your_table;

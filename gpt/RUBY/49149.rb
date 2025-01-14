@@ -1,0 +1,1 @@
+# Enable Gzip\n   config.middleware.use Rack::Deflater

@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\nif (isset($_SESSION['path'])) {\n    echo $_SESSION['path'];\n} else {\n    echo 'No session path set.';\n}\n?>

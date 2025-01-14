@@ -1,0 +1,1 @@
+if (appState.invalidStep) {\n       window.location.href = '/error-page';\n   }

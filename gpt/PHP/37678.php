@@ -1,0 +1,1 @@
+if (headers_sent()) {\n    // Headers have already been sent\n    echo "Headers already sent. Cannot send new headers.";\n} else {\n    // Headers have not been sent yet\n    header('Content-Type: application/json');\n    echo json_encode(['message' => 'Headers successfully sent.']);\n}

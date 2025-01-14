@@ -1,0 +1,1 @@
+<?php\n$string = "We've got some fraction information stored in the database, e.g. ¾ ½";\n\n// Convert specific fractions to HTML entities\n$string = mb_convert_encoding($string, 'HTML-ENTITIES', 'UTF-8');\n\necho $string;\n?>

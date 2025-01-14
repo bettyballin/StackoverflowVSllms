@@ -1,0 +1,1 @@
+CREATE VIEW PeopleView\nAS\nSELECT\n    id, \n    name, \n    birthdate \nFROM SomeTable

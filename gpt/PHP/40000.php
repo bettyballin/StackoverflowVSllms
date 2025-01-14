@@ -1,0 +1,1 @@
+<?php\n// At the beginning of your main PHP script\ninclude('check_cookies.php');\n\n// Continue with the rest of your application logic\n?>

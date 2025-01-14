@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n<catalog>\n   <book id="bk101">\n      <author>Gambardella, Matthew</author>\n      <title>XML Developer's Guide</title>\n      <genre>Computer</genre>\n      <price>44.95</price>\n      <publish_date>2000-10-01</publish_date>\n   </book>\n</catalog>

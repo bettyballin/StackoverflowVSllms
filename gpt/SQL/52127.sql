@@ -1,0 +1,1 @@
+GRANT FLASHBACK ANY TABLE TO developer_role;

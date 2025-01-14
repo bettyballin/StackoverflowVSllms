@@ -1,0 +1,1 @@
+<?php\n// script.php\nif (isset($argv[1])) {\n    parse_str($argv[1], $_GET);\n}\n\n$var = isset($_GET['var']) ? $_GET['var'] : null;\necho "Variable value: " . $var . PHP_EOL;\n?>

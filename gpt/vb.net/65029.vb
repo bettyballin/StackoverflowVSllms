@@ -1,0 +1,1 @@
+Dim userGuidePath As String = "C:\path\to\userguide.html"\n    If System.IO.File.Exists(userGuidePath) Then\n        Process.Start("iexplore.exe", userGuidePath)\n    Else\n        MessageBox.Show("User Guide file not found.")\n    End If

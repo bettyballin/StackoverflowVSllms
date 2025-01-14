@@ -1,0 +1,1 @@
+CREATE INDEX idx_customers_name ON customers (last_name, first_name);

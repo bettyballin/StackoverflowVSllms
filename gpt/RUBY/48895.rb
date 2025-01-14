@@ -1,0 +1,1 @@
+renderer = Redcarpet::Render::HTML.new(filter_html: true, hard_wrap: true)\n    markdown = Redcarpet::Markdown.new(renderer, extensions = {})\n    safe_html = sanitize(markdown.render(user_input))

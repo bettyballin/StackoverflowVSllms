@@ -1,0 +1,1 @@
+CREATE TABLE your_table (\n  id CHAR(36) PRIMARY KEY,\n  fieldA VARCHAR(12) NOT NULL,\n  fieldB VARCHAR(36) NOT NULL,\n  UNIQUE KEY unique_fieldA_fieldB (fieldA, fieldB)\n);

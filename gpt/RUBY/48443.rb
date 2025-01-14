@@ -1,0 +1,1 @@
+#!/usr/bin/env ruby\nputs (1..5).inject(:*) || 1

@@ -1,0 +1,1 @@
+GRANT SELECT ON [UnderlyingTable] TO [Public];

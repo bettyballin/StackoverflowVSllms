@@ -1,0 +1,1 @@
+<h:html xmlns:h="http://xmlns.jcp.org/jsf/html">\n    <h:head>\n        <title>Hello JSF</title>\n    </h:head>\n    <h:body>\n        <h:form>\n            <h:outputText value="Hello, #{user.name}!" />\n            <h:inputText value="#{user.name}" />\n            <h:commandButton value="Submit" action="#{user.submit}" />\n        </h:form>\n    </h:body>\n</h:html>

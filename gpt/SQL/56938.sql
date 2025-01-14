@@ -1,0 +1,1 @@
+CREATE MATERIALIZED VIEW emp_dept_view AS\nSELECT Employers.name, Depts.deptName\nFROM Employers\nJOIN Depts ON Employers.deptId = Depts.id;

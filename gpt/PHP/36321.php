@@ -1,0 +1,1 @@
+// public/index.php\nrequire_once '../config/config.php';\nrequire_once '../core/App.php';\nrequire_once '../core/Controller.php';\n\n$app = new App();

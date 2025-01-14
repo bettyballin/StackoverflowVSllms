@@ -1,0 +1,1 @@
+SELECT * FROM your_table;\n    // Filter the results in your application logic

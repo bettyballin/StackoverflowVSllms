@@ -1,0 +1,1 @@
+Public Class WebForm1\n    Inherits System.Web.UI.Page\n\n    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load\n        ' Your VB.NET code here\n    End Sub\nEnd Class

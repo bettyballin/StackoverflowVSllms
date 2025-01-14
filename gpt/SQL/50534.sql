@@ -1,0 +1,1 @@
+CREATE DATABASE LINK pg_link\nCONNECT TO "your_pg_user" IDENTIFIED BY "your_pg_password"\nUSING 'pg';

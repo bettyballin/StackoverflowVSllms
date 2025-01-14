@@ -1,0 +1,1 @@
+import requests\n\naccount_sid = 'YOUR_ACCOUNT_SID'\nauth_token = 'YOUR_AUTH_TOKEN'\nphone_number = '+14158586273'  # Example phone number\n\nurl = f'https://lookups.twilio.com/v1/PhoneNumbers/{phone_number}?Type=carrier'\nresponse = requests.get(url, auth=(account_sid, auth_token))\ndata = response.json()\n\nprint(data)

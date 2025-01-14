@@ -1,0 +1,1 @@
+my_list = [1, 2, 3, 4, 5]\n\ntry:\n    index = my_list.index(6)\n    print(f"Found at index: {index}")\nexcept ValueError:\n    print("Value not found in the list")

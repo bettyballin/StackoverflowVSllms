@@ -1,0 +1,1 @@
+# app/models/oracle/legacy_data_class.rb\n\nclass LegacyDataClass < ActiveRecord::Base\n  establish_connection :oracle_db\n\n  self.primary_key = :legacy_data_class_id\n\n  has_one :other_legacy_class, foreign_key: :other_legacy_class_id_with_funny_column_name\n  # Other associations and methods\nend

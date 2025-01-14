@@ -1,0 +1,1 @@
+$link = mysqli_connect("hostname", "username", "password", "database");\n\nif (!$link) {\n    die("Connection failed: " . mysqli_connect_error());\n}\n\n$sql = "INSERT INTO table VALUES ('', ...)";\nif (mysqli_query($link, $sql)) {\n    $id = mysqli_insert_id($link);\n    echo $id . "\nDone";\n} else {\n    die("Error: " . mysqli_error($link));\n}\n\nmysqli_close($link);

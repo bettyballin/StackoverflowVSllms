@@ -1,0 +1,1 @@
+DELETE FROM table\nWHERE id NOT IN (\n    SELECT id FROM (\n        SELECT id FROM table\n        ORDER BY id DESC\n        LIMIT N\n    ) AS temp_table\n);

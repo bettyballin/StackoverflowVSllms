@@ -1,0 +1,1 @@
+Dim qdf As QueryDef\n   Set qdf = CurrentDb.CreateQueryDef("", sSQL)\n   Set rsServiceSched = qdf.OpenRecordset()

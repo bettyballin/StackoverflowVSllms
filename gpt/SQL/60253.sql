@@ -1,0 +1,1 @@
+-- Create a user-defined table type\nCREATE TYPE MyTableType AS TABLE\n(\n    Id INT,\n    Name NVARCHAR(50)\n);

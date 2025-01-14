@@ -1,0 +1,1 @@
+DECLARE @N INT = 3; -- Change this value to get the N'th maximum salary\n\nSELECT DISTINCT salary\nFROM Employee\nORDER BY salary DESC\nOFFSET (@N - 1) ROWS\nFETCH NEXT 1 ROW ONLY;

@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>com.github.waffle</groupId>\n    <artifactId>jcifs-ng</artifactId>\n    <version>2.1.0</version>\n</dependency>

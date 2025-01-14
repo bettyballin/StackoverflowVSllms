@@ -1,0 +1,1 @@
+Imports System.Diagnostics\n\n<DebuggerDisplay("{ToString()}")>\nPublic Structure MyGuid\n    Public Property Value As Guid\n\n    Public Overrides Function ToString() As String\n        Return Value.ToString()\n    End Function\nEnd Structure

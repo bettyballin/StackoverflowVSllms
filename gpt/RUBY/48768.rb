@@ -1,0 +1,1 @@
+<%= form_with model: @your_model do |form| %>\n      <%= form.rich_text_area :content %>\n      <%= form.submit %>\n    <% end %>

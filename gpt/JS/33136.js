@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    window.onbeforeunload = function (e) {\n        // Make an AJAX call to log out the user\n        var xhr = new XMLHttpRequest();\n        xhr.open("GET", "/Account/Logout", false);\n        xhr.send();\n    };\n</script>

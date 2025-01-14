@@ -1,0 +1,1 @@
+<system.applicationHost>\n      <applicationPools>\n          <add name="YourAppPoolName">\n              <processModel idleTimeout="00:60:00" /> <!-- 60 minutes idle timeout -->\n          </add>\n      </applicationPools>\n  </system.applicationHost>

@@ -1,0 +1,1 @@
+if ($facebook) {\n    $fb_active_session = $facebook->fbc_is_session_active();\n} else {\n    $fb_active_session = false;\n}

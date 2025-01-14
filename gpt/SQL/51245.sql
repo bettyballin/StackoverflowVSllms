@@ -1,0 +1,1 @@
+-- Redundant Join\n   SELECT e.name\n   FROM employees e\n   JOIN departments d ON e.department_id = d.id\n   JOIN departments d2 ON e.department_id = d2.id\n   WHERE d.name = 'Sales';\n   \n   -- Simplified\n   SELECT e.name\n   FROM employees e\n   JOIN departments d ON e.department_id = d.id\n   WHERE d.name = 'Sales';

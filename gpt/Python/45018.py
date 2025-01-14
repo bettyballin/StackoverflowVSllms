@@ -1,0 +1,1 @@
+for i in big_list:\n    glist[:] = []  # Clear the list\n\n    for j in range(val):  # Use range(val) instead of range(0:val)\n        glist.append(blah[j])

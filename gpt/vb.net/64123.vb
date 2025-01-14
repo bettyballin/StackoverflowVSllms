@@ -1,0 +1,1 @@
+Public Sub YourMethod(ByVal target As ListControl, ByVal obj As Object)\n    ' Assuming obj is of a type that can be cast to the desired structure type T\n    If obj IsNot Nothing Then\n        Dim value As Nullable(Of Integer) = DirectCast(obj, Nullable(Of Integer))\n        SetDropDownValue(target, value)\n    Else\n        SetDropDownValue(target, Nothing)\n    End If\nEnd Sub

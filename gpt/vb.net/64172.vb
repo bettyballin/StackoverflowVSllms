@@ -1,0 +1,1 @@
+Imports System.DirectoryServices.AccountManagement\n\nPublic Function ValidateUser(username As String, password As String) As Boolean\n    Using context As New PrincipalContext(ContextType.Domain)\n        Return context.ValidateCredentials(username, password)\n    End Using\nEnd Functio

@@ -1,0 +1,1 @@
+CREATE TABLE form_data (\n        entity_id INT,\n        attribute_name VARCHAR(255),\n        attribute_value TEXT\n    );

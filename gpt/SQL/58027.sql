@@ -1,0 +1,1 @@
+-- Enable CDC for the database\n   EXEC sys.sp_cdc_enable_db;\n\n   -- Enable CDC for a specific table\n   EXEC sys.sp_cdc_enable_table\n       @source_schema = N'dbo', \n       @source_name = N'YourBillTable', \n       @role_name = NULL;

@@ -1,0 +1,1 @@
+CREATE TABLE `hindi` (\n     `data` varchar(1000) CHARACTER SET utf8 COLLATE utf8_bin DEFAULT NULL\n   ) ENGINE=InnoDB DEFAULT CHARSET=utf8;\n   \n   INSERT INTO `hindi` VALUES ('सूर्योदय');

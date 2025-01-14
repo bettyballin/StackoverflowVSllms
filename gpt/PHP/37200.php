@@ -1,0 +1,1 @@
+<?php\n$folder = '/path/to/your/folder';\n$files = scandir($folder);\necho '<ul>';\nforeach ($files as $file) {\n    if ($file !== '.' && $file !== '..') {\n        echo '<li>' . htmlspecialchars($file) . '</li>';\n    }\n}\necho '</ul>';\n?>

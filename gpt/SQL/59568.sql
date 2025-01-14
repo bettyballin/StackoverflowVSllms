@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT column_name) AS distinct_count\nFROM table_name;

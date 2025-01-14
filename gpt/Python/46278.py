@@ -1,0 +1,1 @@
+def format_name(fname, lname):\n    formatted_fname = fname.capitalize()\n    formatted_lname = lname.capitalize()\n    return f"{formatted_fname} {formatted_lname}"\n\n# Example usage\nfname = "jOHN"\nlname = "dOE"\nformatted_name = format_name(fname, lname)\nprint(formatted_name)  # Output: John Doe

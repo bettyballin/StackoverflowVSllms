@@ -1,0 +1,1 @@
+<?php\nsession_start();\n// Store session ID in a JavaScript variable\necho "<script>var sessionId = '" . session_id() . "';</script>";\n?>\n<script>\nfunction openChildWindow() {\n    var childWindow = window.open('oauth.php?session_id=' + sessionId, 'childWindow');\n}\n</script>\n<button onclick="openChildWindow()">Login with Twitter</button>

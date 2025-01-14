@@ -1,0 +1,1 @@
+<%= Html.RouteLink(Html.Raw(Html.Encode(Model.NAME)), "RouteName", new { /* route params */ }) %>

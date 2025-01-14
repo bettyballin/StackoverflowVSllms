@@ -1,0 +1,1 @@
+CREATE TABLE Emails\n(\n    EmailId INT IDENTITY PRIMARY KEY,\n    CompressedBody VARBINARY(MAX)\n);

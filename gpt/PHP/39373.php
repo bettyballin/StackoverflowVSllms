@@ -1,0 +1,1 @@
+<?php\n// Example of obtaining the latitude and longitude from an IP geolocation service\n$ip = $_SERVER['REMOTE_ADDR'];\n$geo = json_decode(file_get_contents("http://ip-api.com/json/{$ip}"));\n$latitude = $geo->lat;\n$longitude = $geo->lon;\n?>

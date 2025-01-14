@@ -1,0 +1,1 @@
+Public Function IDFromObject(Of ID_TYPE)(ByVal value As ID_TYPE) As String\n    Return value.ToString()\nEnd Functio

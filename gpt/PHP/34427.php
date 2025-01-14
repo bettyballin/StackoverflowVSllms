@@ -1,0 +1,1 @@
+function callFunction($functionToBeCalled, ...$params)\n{\n    call_user_func($functionToBeCalled, ...$params);\n}\n\nfunction exampleFunction($param1, $param2)\n{\n    echo "Function called with parameters: $param1, $param2\n";\n}\n\n// Usage\ncallFunction('exampleFunction', 'value1', 'value2');

@@ -1,0 +1,1 @@
+CREATE TABLE Products (\n    ProductCode VARCHAR(10) PRIMARY KEY,\n    ProductName VARCHAR(100) NOT NULL\n);\n\nCREATE TABLE OrderDetails (\n    OrderDetailID INT PRIMARY KEY AUTO_INCREMENT,\n    ProductCode VARCHAR(10),\n    Quantity INT,\n    FOREIGN KEY (ProductCode) REFERENCES Products(ProductCode)\n);

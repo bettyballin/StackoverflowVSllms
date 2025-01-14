@@ -1,0 +1,1 @@
+<?php\n$xml = simplexml_load_file('path/to/your/articles.xml');\n\nforeach ($xml->article as $article) {\n    echo '<h2>' . htmlspecialchars($article->title) . '</h2>';\n    echo '<p>' . htmlspecialchars($article->content) . '</p>';\n    echo '<small>Published on: ' . htmlspecialchars($article->date) . '</small><br>';\n}\n?>

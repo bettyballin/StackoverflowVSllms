@@ -1,0 +1,1 @@
+CREATE TABLE audit_log (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    timestamp DATETIME NOT NULL,\n    user_id INT NOT NULL,\n    event VARCHAR(50) NOT NULL,\n    object_type VARCHAR(50) NOT NULL,\n    object_id INT NOT NULL,\n    details TEXT,\n    INDEX (timestamp),\n    INDEX (user_id),\n    INDEX (event),\n    INDEX (object_type),\n    INDEX (object_id)\n);

@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <authentication mode="Windows" />\n    <authorization>\n      <allow users="DOMAIN\User1,DOMAIN\User2" />\n      <deny users="*" />\n    </authorization>\n  </system.web>\n</configuration>

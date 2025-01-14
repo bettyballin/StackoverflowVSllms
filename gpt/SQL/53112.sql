@@ -1,0 +1,1 @@
+-- Preliminary connection to DB2 to ensure it is recovered\nUSE DB2;\nGO\nSELECT TOP 1 * FROM SomeTableInDB2;\nGO\n\n-- Main transaction in DB1\nUSE DB1;\nGO\nSET TRANSACTION ISOLATION LEVEL SNAPSHOT;\nBEGIN TRANSACTION;\nDECLARE @sQuery VARCHAR(MAX);\nSET @sQuery = 'SELECT * FROM synToSomeTableInDB2';\nEXEC (@sQuery);\nCOMMIT TRANSACTION;\nGO

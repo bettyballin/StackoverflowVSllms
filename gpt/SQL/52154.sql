@@ -1,0 +1,1 @@
+CREATE PROCEDURE your_procedure_name (parameters)\nMODIFIES SQL DATA\nBEGIN\n    -- Your procedure code here\nEND;

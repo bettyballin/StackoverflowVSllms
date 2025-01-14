@@ -1,0 +1,1 @@
+$string_1 = "a4nas60dj71wiena15sdl1131kg12b";\n$string_2 = '';\n\n$length = strlen($string_1);\n\nfor ($i = 0; $i < $length; $i++) {\n    if (ctype_alpha($string_1[$i]) && $i % 2 == 1) {\n        $string_2 .= strtoupper($string_1[$i]);\n    } else {\n        $string_2 .= $string_1[$i];\n    }\n}\n\necho $string_2;

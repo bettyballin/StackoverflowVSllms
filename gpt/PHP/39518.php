@@ -1,0 +1,1 @@
+include_path = ".;C:\path\to\your\zend-server-library;C:\path\to\your\zend-server-library\Zend"

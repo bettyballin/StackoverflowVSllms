@@ -1,0 +1,1 @@
+def average_time_it(f, *args, runs=1000):\n    total_time = 0\n    for _ in range(runs):\n        total_time += time_it(f, *args)\n    return total_time / runs

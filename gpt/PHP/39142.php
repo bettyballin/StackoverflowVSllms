@@ -1,0 +1,1 @@
+foreach ($patterns as $pattern) {\n    if (preg_match($pattern, $PageContent) === false) {\n        error_log("Error in pattern: " . $pattern);\n    } else {\n        $PageContent = preg_replace($pattern, '', $PageContent);\n    }\n}

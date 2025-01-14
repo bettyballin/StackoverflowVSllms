@@ -1,0 +1,1 @@
+// Disable session encryption\n   $settings['session_encrypt'] = FALSE;

@@ -1,0 +1,1 @@
+import lzma\n\nwith lzma.LZMAFile('example.xz', 'r') as file:\n    file.seek(1000)  # Seek to 1000 bytes in the compressed file\n    data = file.read(100)\n    print(data)

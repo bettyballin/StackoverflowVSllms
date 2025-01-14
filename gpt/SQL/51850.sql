@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX idx_example\nON table_name (column1, column2);

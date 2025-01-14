@@ -1,0 +1,1 @@
+Dim obj As MyClass\n' Using obj without setting it to a new instance of MyClass\nobj.DoSomething()

@@ -1,0 +1,1 @@
+$results = [];\nforeach ($curlHandles as $ch) {\n    $results[] = curl_multi_getcontent($ch);\n    curl_multi_remove_handle($multiHandle, $ch);\n    curl_close($ch);\n}\ncurl_multi_close($multiHandle);

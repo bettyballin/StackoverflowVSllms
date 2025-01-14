@@ -1,0 +1,1 @@
+proc sql;\n   drop table work.table_name;\nquit;

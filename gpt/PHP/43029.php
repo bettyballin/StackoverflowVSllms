@@ -1,0 +1,1 @@
+<?php\nfunction functionThatReturnsAnArray() {\n    return [1, 2, 3, 4, 5];\n}\n\n$firstElement = functionThatReturnsAnArray()[0];\necho $firstElement; // Outputs: 1\n?>

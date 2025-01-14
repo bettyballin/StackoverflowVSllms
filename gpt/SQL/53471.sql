@@ -1,0 +1,1 @@
+UPDATE databasename..VersionedFields\nSET Value = REPLACE(Value, '<iframe src="yadayada"> </iframe>', '<a>iframe src="yadayada"</a>')\nWHERE Value LIKE '%<iframe%';

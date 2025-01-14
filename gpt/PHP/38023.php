@@ -1,0 +1,1 @@
+<?php\n$var1 = "";\n$var2 = null;\n$var3 = "Hello";\n\necho isset($var1); // true\necho empty($var1); // true\necho is_null($var1); // false\n\necho isset($var2); // false\necho empty($var2); // true\necho is_null($var2); // true\n\necho isset($var3); // true\necho empty($var3); // false\necho is_null($var3); // false\n?>

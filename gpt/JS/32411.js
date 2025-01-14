@@ -1,0 +1,1 @@
+// screenshot.js\nconst puppeteer = require('puppeteer');\n\n(async () => {\n    const browser = await puppeteer.launch();\n    const page = await browser.newPage();\n    await page.goto('http://example.com'); // Replace with the URL you want to screenshot\n    await page.screenshot({ path: 'screenshot.png' });\n    await browser.close();\n})();

@@ -1,0 +1,1 @@
+(function() {\n       // Your widget code here\n       var uniqueVariable = 'value';\n       function uniqueFunction() {\n           // Function logic here\n       }\n   })();

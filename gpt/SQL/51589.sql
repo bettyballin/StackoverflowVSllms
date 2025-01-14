@@ -1,0 +1,1 @@
+SELECT \n    c.customer_id, \n    a.age_group\nFROM \n    customers c\nINNER JOIN \n    age_groups a\nON \n    c.age BETWEEN a.min_age AND a.max_age;

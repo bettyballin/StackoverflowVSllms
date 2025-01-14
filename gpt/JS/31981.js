@@ -1,0 +1,1 @@
+const highestZIndex = getMaxZIndex();\nconst myElement = document.getElementById('myElement');\nmyElement.style.zIndex = highestZIndex + 1;

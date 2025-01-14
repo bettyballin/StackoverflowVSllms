@@ -1,0 +1,1 @@
+// Select all radio buttons with the name 'shipType' inside the form with id 'billship'\n$('#billship input[name="shipType"]').css({\n    // Your styling here\n});

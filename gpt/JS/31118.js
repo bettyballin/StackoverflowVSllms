@@ -1,0 +1,1 @@
+~sitecollection/SiteAssets/CustomIcon.js

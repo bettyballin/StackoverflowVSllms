@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTable\nWHERE CONVERT(time, YourDateTimeField) > '17:00:00'

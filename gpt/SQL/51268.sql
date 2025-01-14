@@ -1,0 +1,1 @@
+-- Union\n   SELECT name FROM employees WHERE department_id = 1\n   UNION\n   SELECT name FROM employees WHERE department_id = 2;\n   \n   -- Equivalent OR\n   SELECT name FROM employees WHERE department_id = 1 OR department_id = 2;

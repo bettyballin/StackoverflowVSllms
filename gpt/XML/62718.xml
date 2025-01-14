@@ -1,0 +1,1 @@
+<target name="create-virtual-dir">\n    <exec program="runas" commandline="/user:DOMAIN\adminuser \"nscript.bat\"">\n        <environment>\n            <variable name="PATH" value="C:\path\to\NAnt;C:\path\to\IIS\scripts" />\n        </environment>\n    </exec>\n</target>

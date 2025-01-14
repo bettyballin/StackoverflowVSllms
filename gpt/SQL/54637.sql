@@ -1,0 +1,1 @@
+UPDATE Tree\nSET NodeName = @NewNodeName\nWHERE NodeID = @NodeID;

@@ -1,0 +1,1 @@
+rails generate scaffold Album name:string artist:string release_date:date

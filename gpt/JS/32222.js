@@ -1,0 +1,1 @@
+document.documentElement.setAttribute("xmlns:fb", "http://www.facebook.com/2008/fbml");

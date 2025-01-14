@@ -1,0 +1,1 @@
+CREATE TABLE Users (\n        UserId INT PRIMARY KEY,\n        Username NVARCHAR(50) NOT NULL,\n        HashedPassword NVARCHAR(256) NOT NULL,\n        Salt NVARCHAR(128) NOT NULL\n    );

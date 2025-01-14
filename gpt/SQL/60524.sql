@@ -1,0 +1,1 @@
+SELECT productID, SUM(quantity) as totalQuantity\n    FROM sales\n    GROUP BY productID\n    HAVING SUM(quantity) > 100;

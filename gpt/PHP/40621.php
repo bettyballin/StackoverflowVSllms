@@ -1,0 +1,1 @@
+require_once('MimeMailParser.class.php');\n\n$parser = new MimeMailParser();\n$parser->setStream(fopen('path_to_eml_file.eml', 'r'));\n\n$text = $parser->getMessageBody('text');\n$html = $parser->getMessageBody('html');\n\necho $text;

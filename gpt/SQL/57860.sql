@@ -1,0 +1,1 @@
+SELECT u.*, ip.* \nFROM users u \nLEFT JOIN individual_profiles ip ON u.user_id = ip.user_id \nWHERE u.user_id = ? AND u.user_type = 'individual';\n\nSELECT u.*, cp.*\nFROM users u\nLEFT JOIN company_profiles cp ON u.user_id = cp.user_id\nWHERE u.user_id = ? AND u.user_type = 'company';

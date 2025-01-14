@@ -1,0 +1,1 @@
+DECLARE\n  numbers number_table := number_table(1, 2, 3, 4, 5);\nBEGIN\n  process_numbers(numbers);\nEND;\n/

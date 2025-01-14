@@ -1,0 +1,1 @@
+$w_time_no = '22:00:00'; // Only the time part\necho '<br />1. '.$w_time_no;\necho '<br />2. '.strtotime(date('Y-m-d').' '.$w_time_no);\necho '<br />3. '.date('G:i', strtotime(date('Y-m-d').' '.$w_time_no));

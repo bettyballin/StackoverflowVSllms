@@ -1,0 +1,1 @@
+header('Transfer-Encoding: chunked');\n   while ($chunk = get_next_chunk($xmlFile)) {\n       echo dechex(strlen($chunk)) . "\r\n";\n       echo $chunk . "\r\n";\n   }\n   echo "0\r\n\r\n";

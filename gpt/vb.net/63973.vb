@@ -1,0 +1,1 @@
+Dim myObj As ctrObj\nmyObj.HorizontalPosition = 100  ' Updated from myObj.Left_Renamed

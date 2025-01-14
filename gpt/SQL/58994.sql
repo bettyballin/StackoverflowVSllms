@@ -1,0 +1,1 @@
+CREATE TABLE user_data (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    user_id INT,\n    data VARCHAR(255),\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);

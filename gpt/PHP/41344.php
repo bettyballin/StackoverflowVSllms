@@ -1,0 +1,1 @@
+$apiKey = "YOUR_API_KEY";\n$symbol = "AAPL";\n$url = "https://cloud.iexapis.com/stable/stock/$symbol/quote?token=$apiKey";\n\n$response = file_get_contents($url);\n$data = json_decode($response, true);\n\nprint_r($data);

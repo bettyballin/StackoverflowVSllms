@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] == 'POST') {\n    $width = intval($_POST['width']);\n    $height = intval($_POST['height']);\n\n    // Now you can use $width and $height as needed\n    // For example, save them to a database or perform other operations\n}\n?>

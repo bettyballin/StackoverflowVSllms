@@ -1,0 +1,1 @@
+SELECT i\nFROM Image i\nJOIN i.imageToTags it\nJOIN it.tag t\nWHERE t.name IN (:tagNames)\nGROUP BY i\nHAVING COUNT(DISTINCT t.id) = :tagCount

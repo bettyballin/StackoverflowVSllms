@@ -1,0 +1,1 @@
+$c = new Criteria();\n$criterion = $c->getNewCriterion(FoobarPeer::CREATED_AT, 'DATE_SUB(curdate(), INTERVAL 1 MONTH)', Criteria::GREATER_THAN);\n$c->add($criterion);

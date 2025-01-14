@@ -1,0 +1,1 @@
+<?php\n// index.php\necho "Hello, World!";\n?>

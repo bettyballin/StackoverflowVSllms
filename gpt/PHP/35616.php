@@ -1,0 +1,1 @@
+header('Content-Encoding: gzip');\n   echo gzencode($xmlContent);

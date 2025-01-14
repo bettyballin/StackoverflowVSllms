@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?>\n<Database xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">\n  <Table Name="dbo.Products" Member="Products">\n    <Type Name="Product">\n      <Column Name="Price" Member="Price" DbType="Money NOT NULL" \n              Type="System.Double" />\n    </Type>\n  </Table>\n</Database>

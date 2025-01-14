@@ -1,0 +1,1 @@
+import sqlparse\n\nsql_code = """\nCREATE PROCEDURE MyProcedure\nAS\nBEGIN\n    SELECT * FROM MyTable;\nEND;\n"""\n\nformatted_sql = sqlparse.format(sql_code, reindent=True, keyword_case='upper')\nprint(formatted_sql)

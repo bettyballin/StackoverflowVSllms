@@ -1,0 +1,1 @@
+// In your PHP code\n   $db_host = getenv('DB_HOST');\n   $db_user = getenv('DB_USER');\n   $db_password = getenv('DB_PASSWORD');\n   $db_name = getenv('DB_NAME');

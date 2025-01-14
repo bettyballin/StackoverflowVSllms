@@ -1,0 +1,1 @@
+UPDATE images\nSET filename = CONCAT(filename, '.jpg')\nWHERE id IN (1, 2, 3);

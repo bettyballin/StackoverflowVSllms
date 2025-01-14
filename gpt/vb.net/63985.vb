@@ -1,0 +1,1 @@
+Public Function Details(ByVal id As Integer) As ActionResult\n       Dim c As Models.Client = SomeGetClientFunction(id)\n       Return View(New Views.Client.Details(c))\n   End Functio

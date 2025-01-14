@@ -1,0 +1,1 @@
+gc_enable();\n    gc_collect_cycles();

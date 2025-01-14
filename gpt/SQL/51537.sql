@@ -1,0 +1,1 @@
+CREATE PROCEDURE dbo.InsertMyTableType\n(\n    @MyTable dbo.MyTableType READONLY\n)\nAS\nBEGIN\n    INSERT INTO MyTable (Id, Name)\n    SELECT Id, Name\n    FROM @MyTable;\nEND

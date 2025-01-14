@@ -1,0 +1,1 @@
+import random\n\ndef unique_random_numbers(n):\n    numbers = list(range(1, n + 1))\n    random.shuffle(numbers)\n    return numbers\n\n# Example usage:\nprint(unique_random_numbers(10))

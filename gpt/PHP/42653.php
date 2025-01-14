@@ -1,0 +1,1 @@
+<?php\n// Assume you have a database connection established\n\n// Fetch data from the database\n$query = "SELECT * FROM your_table";\n$result = mysqli_query($connection, $query);\n\n$data = array();\nwhile($row = mysqli_fetch_assoc($result)) {\n    $data[] = $row;\n}\n\n// Encode the data to JSON\n$json_data = json_encode($data);\n?>

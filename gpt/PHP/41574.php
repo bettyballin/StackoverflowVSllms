@@ -1,0 +1,1 @@
+// Enable gettext in your PHP configuration\nextension=gettext\n\n// Example usage\nputenv('LC_ALL=es_ES');\nsetlocale(LC_ALL, 'es_ES');\nbindtextdomain('messages', './locale');\ntextdomain('messages');\n\n// locale/es_ES/LC_MESSAGES/messages.po\nmsgid "Welcome"\nmsgstr "Bienvenido"\n\necho gettext("Welcome"); // Outputs: Bienvenido

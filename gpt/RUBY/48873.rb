@@ -1,0 +1,1 @@
+<div id="content">\n     <%= render 'some_partial' %>\n   </div>\n\n   <%= link_to 'Link Text', some_path, class: 'ajax-link' %>

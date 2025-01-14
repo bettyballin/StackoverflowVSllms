@@ -1,0 +1,1 @@
+if (strlen($comment) > 2) {\n    // Your code here\n}

@@ -1,0 +1,1 @@
+ChangeDasPanel("../Home/Test", {}, function() {\n    // Do some stuff on callback\n    console.log("Callback executed after panel change!");\n});

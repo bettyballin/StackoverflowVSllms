@@ -1,0 +1,1 @@
+import requests\n\n    response = requests.get('http://your_django_server/api/yourmodel/')\n    data = response.json()\n    print(data)

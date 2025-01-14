@@ -1,0 +1,1 @@
+SELECT CAST([tstamp] AS DATE) AS DateOnly\nFROM YourTable

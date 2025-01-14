@@ -1,0 +1,1 @@
+global $user;\n   if ($user->uid == 0) {\n       $key = 'foo';\n       if (isset($_SESSION[$key])) {\n           $value = $_SESSION[$key];\n           echo $value; // Outputs: bar\n       } else {\n           echo 'Session variable not set.';\n       }\n   }

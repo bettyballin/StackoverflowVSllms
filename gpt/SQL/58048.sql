@@ -1,0 +1,1 @@
+SELECT *\nFROM V$LOCK\nWHERE id1 = (SELECT object_id FROM dba_objects WHERE object_name = 'your_table_name');

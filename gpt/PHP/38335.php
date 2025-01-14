@@ -1,0 +1,1 @@
+<?php\n    echo ini_get('allow_url_fopen');\n    echo ini_get('allow_url_include');\n    ?>

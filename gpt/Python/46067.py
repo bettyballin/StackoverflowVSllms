@@ -1,0 +1,1 @@
+# Create a User\n   user = User(name="John Doe", email="john.doe@example.com")\n   user_key = user.put()\n\n   # Create a Message linked to the User\n   message = Message(user=user_key, content="Hello, this is a test message!")\n   message.put()

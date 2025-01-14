@@ -1,0 +1,1 @@
+import win32file\n\nfile_handle = win32file.CreateFile(\n    'path_to_file', \n    win32file.GENERIC_READ, \n    win32file.FILE_SHARE_READ, \n    None, \n    win32file.OPEN_EXISTING, \n    0, \n    None\n)\n\ndata = win32file.ReadFile(file_handle, 4096)\nprint(data)\n\nwin32file.CloseHandle(file_handle)

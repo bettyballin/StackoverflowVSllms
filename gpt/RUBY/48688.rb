@@ -1,0 +1,1 @@
+# Replace unprintable characters with a placeholder\ntext = text.gsub(/[^[:print:]]/, '?')

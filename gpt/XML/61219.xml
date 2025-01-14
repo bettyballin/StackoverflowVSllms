@@ -1,0 +1,1 @@
+<category>\n    <pattern>ANSWER MY QUESTION</pattern>\n    <template>\n        <think>\n            <set name="it">your question</set>\n        </think>\n        Please try asking <get name="it" /> another way.\n    </template>\n</category>

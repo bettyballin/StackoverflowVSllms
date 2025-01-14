@@ -1,0 +1,1 @@
+CREATE PROCEDURE UpdateMyTable\n    @Id INT,\n    @NewValue NVARCHAR(50),\n    @OldValue NVARCHAR(50)\nAS\nBEGIN\n    UPDATE MyTable\n    SET Value = @NewValue\n    WHERE Id = @Id AND Value = @OldValue;\n\n    IF @@ROWCOUNT = 0\n    BEGIN\n        -- Handle concurrency conflict\n        RAISERROR('Concurrency conflict detected.', 16, 1);\n    END\nEND

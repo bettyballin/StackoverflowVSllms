@@ -1,0 +1,1 @@
+CREATE TABLE albums (\n       id INT PRIMARY KEY AUTO_INCREMENT,\n       name VARCHAR(255),\n       secret_key VARCHAR(255) UNIQUE\n   );\n\n   CREATE TABLE photos (\n       id INT PRIMARY KEY AUTO_INCREMENT,\n       album_id INT,\n       url VARCHAR(255),\n       secret_key VARCHAR(255) UNIQUE,\n       FOREIGN KEY (album_id) REFERENCES albums(id)\n   );

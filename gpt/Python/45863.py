@@ -1,0 +1,1 @@
+import re\n\nhtml = '''<a href="javascript:ProcessQuery('report_drilldown',145817)">text</a>'''\nmatch = re.search(r'<a\s+href="javascript:ProcessQuery\(.+?\)">(.+?)</a>', html)\n\nif match:\n    text = match.group(1)\n    print(text)

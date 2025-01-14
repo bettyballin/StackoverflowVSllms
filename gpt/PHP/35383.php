@@ -1,0 +1,1 @@
+foreach (getData() as $data) {\n    echo $data;\n}

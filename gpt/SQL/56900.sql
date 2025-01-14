@@ -1,0 +1,1 @@
+SELECT\n    ID,\n    Col1,\n    Col2,\n    Col3,\n    CASE\n        WHEN Col1 <= Col2 AND Col1 <= Col3 THEN Col1\n        WHEN Col2 <= Col1 AND Col2 <= Col3 THEN Col2\n        ELSE Col3\n    END AS TheMin\nFROM TestTable

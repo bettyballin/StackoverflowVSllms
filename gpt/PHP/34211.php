@@ -1,0 +1,1 @@
+<?php\nheader('Content-Type: text/html; charset=windows-1255');\n\n// Your content generation logic here\necho "<p>Some Hebrew text here...</p>";\n?>

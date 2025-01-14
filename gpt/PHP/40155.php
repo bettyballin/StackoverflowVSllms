@@ -1,0 +1,1 @@
+try {\n    // Some database operations\n} catch (PDOException $e) {\n    // Log the error and show a generic error message to the user\n}

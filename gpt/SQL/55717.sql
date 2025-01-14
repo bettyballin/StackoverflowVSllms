@@ -1,0 +1,1 @@
+SELECT e.*, t.*\nFROM (\n    SELECT * \n    FROM expense \n    ORDER BY expense_id \n    LIMIT 1\n) AS e\nINNER JOIN transaction AS t ON e.expense_id = t.transaction_expense_id;

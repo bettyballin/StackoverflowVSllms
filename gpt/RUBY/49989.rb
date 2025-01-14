@@ -1,0 +1,1 @@
+class Event < ApplicationRecord\n  has_many :recurrences, dependent: :destroy\n  has_many :exceptions, dependent: :destroy\nend

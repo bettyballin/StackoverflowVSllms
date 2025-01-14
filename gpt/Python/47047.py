@@ -1,0 +1,1 @@
+# test_my_module.py\nimport unittest\nfrom my_module import _inner\n\nclass TestInnerFunction(unittest.TestCase):\n    def test_inner(self):\n        # Add your test cases here\n        result = _inner()\n        self.assertIsNone(result)  # Example assertion\n\nif __name__ == '__main__':\n    unittest.main()

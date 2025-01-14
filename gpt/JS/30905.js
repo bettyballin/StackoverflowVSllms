@@ -1,0 +1,1 @@
+$.ajax({\n    url: '/YourController/GetPartialViewHtml',\n    type: 'GET',\n    success: function(data) {\n        $('#yourDivId').html(data.html);\n    }\n});

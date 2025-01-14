@@ -1,0 +1,1 @@
+$var = "some value";\nunset($var); // $var is now undefined

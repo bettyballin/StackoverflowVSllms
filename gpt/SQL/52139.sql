@@ -1,0 +1,1 @@
+CREATE INDEX idx_a_id ON a(id);\nCREATE INDEX idx_b_id ON b(id);

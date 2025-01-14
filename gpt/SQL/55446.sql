@@ -1,0 +1,1 @@
+-- This SQL statement will cause a delay of 1 minute (00:01:00)\nWAITFOR DELAY '00:01:00';

@@ -1,0 +1,1 @@
+# config/initializers/custom_parsers.rb\nActionDispatch::Request.parameter_parsers[:foo_json] = lambda do |body|\n  JSON.parse(body).with_indifferent_access\nend

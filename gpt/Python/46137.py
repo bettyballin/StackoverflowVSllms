@@ -1,0 +1,1 @@
+CPUID = create_string_buffer(b"\x53\x31\xc0\x40\x0f\xa2\x5b\xc3")

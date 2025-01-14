@@ -1,0 +1,1 @@
+Module Module1\n    Sub Main()\n        Dim MyString As String = "16,7,99,1456,1,3"\n        Dim MyArr() As String = MyString.Split(",")\n\n        For Each S As String In MyArr\n            Console.WriteLine(S)\n        Next\n    End Sub\nEnd Module

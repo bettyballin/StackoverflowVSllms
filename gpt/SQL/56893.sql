@@ -1,0 +1,1 @@
+UPDATE shop_user_rights\nSET expiration = ADDDATE(GREATEST(expiration, CURDATE()), INTERVAL 1 MONTH);

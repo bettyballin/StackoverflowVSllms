@@ -1,0 +1,1 @@
+<?php\n$array = [1, 2, 2, 3, 4, 4, 5];\n$uniqueArray = array_unique($array);\n$reIndexedArray = array_values($uniqueArray);\n\nforeach ($reIndexedArray as $key => $value) {\n    echo "Key: $key; Value: $value\n";\n}\n?>

@@ -1,0 +1,1 @@
+<?php\nnamespace App\Model\Entity;\n\nuse Cake\ORM\Entity;\n\nclass User extends Entity\n{\n    protected $_accessible = [\n        '*' => true,\n        'user_id' => false,\n    ];\n\n    // Custom getter for 'generated' field if necessary\n    protected function _getGenerated()\n    {\n        return $this->_properties['generated'];\n    }\n}

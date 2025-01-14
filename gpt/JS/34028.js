@@ -1,0 +1,1 @@
+$(document).ready(function() {\n       $(".js_disabled_only").hide();\n   });

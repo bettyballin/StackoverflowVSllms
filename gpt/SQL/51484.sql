@@ -1,0 +1,1 @@
+-- Check the service account\nEXEC xp_logininfo 'STAR\moorer7', 'all';

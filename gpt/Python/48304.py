@@ -1,0 +1,1 @@
+# Connect to your SQLite database\nconn = sqlite3.connect('your_database.db')\ncursor = conn.cursor()\n\n# Retrieve all index names\ncursor.execute("SELECT name FROM sqlite_master WHERE type='index';")\nindexes = cursor.fetchall()\n\n# Drop all indexes\nfor index in indexes:\n    cursor.execute(f"DROP INDEX IF EXISTS {index[0]};")\n\nconn.commit()\nconn.close()

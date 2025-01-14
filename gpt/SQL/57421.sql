@@ -1,0 +1,1 @@
+CREATE TABLE YourTable (\n    ID int NOT NULL,\n    Name varchar(255),\n    PRIMARY KEY (ID) -- This will create a clustered index by default\n);

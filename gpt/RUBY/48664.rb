@@ -1,0 +1,1 @@
+# app/channels/events_channel.rb\n     class EventsChannel < ApplicationCable::Channel\n       def subscribed\n         stream_from "events_channel"\n       end\n     end

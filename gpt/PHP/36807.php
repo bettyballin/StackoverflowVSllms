@@ -1,0 +1,1 @@
+$filePath = 'path' . DIRECTORY_SEPARATOR . 'to' . DIRECTORY_SEPARATOR . 'file.php';

@@ -1,0 +1,1 @@
+$autoload['config'] = array('my_config', 'environment');

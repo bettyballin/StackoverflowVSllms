@@ -1,0 +1,1 @@
+var add = function(a, b) {\n    return a + b;\n};\nconsole.log(add(2, 3)); // Works fine only after the definitio

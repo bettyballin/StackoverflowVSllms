@@ -1,0 +1,1 @@
+// Storing encrypted phone number in the database\n   $user = new User();\n   $user->phone_number = Crypt::encryptString('123-456-7890');\n   $user->save();

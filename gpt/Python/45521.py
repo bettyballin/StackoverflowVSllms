@@ -1,0 +1,1 @@
+import os\nimport random\n\n# Specify the directory\ndirectory = 'some/directory'\n\n# List all files in the directory\nfiles = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]\n\n# Choose a random file\nfilename = random.choice(files)\n\n# Get the full path of the chosen file\npath = os.path.join(directory, filename)\n\nprint(path)

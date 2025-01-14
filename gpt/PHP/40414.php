@@ -1,0 +1,1 @@
+$name = "Alice";\necho "Hello, $name\n"; // Output: Hello, Alice (followed by a newline)

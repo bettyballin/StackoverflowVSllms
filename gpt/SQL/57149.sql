@@ -1,0 +1,1 @@
+CREATE CLUSTERED INDEX idx_your_table ON your_table (keyA, keyB);

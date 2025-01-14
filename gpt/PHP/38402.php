@@ -1,0 +1,1 @@
+// application/classes/Controller/Welcome.php\n   class Controller_Welcome extends Controller {\n       public function action_index() {\n           $this->response->body('Hello, Kohana!');\n       }\n   }

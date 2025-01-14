@@ -1,0 +1,1 @@
+EXEC sp_addlinkedserver \n    @server = 'LinkedServerName', \n    @srvproduct = '', \n    @provider = 'SQLOLEDB', \n    @datasrc = 'SecondaryServerNameOrIP';\n\nEXEC sp_addlinkedsrvlogin \n    @rmtsrvname = 'LinkedServerName', \n    @useself = 'false', \n    @rmtuser = 'RemoteUsername', \n    @rmtpassword = 'RemotePassword';

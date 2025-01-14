@@ -1,0 +1,1 @@
+// Install Laravel using Composer\n   composer create-project --prefer-dist laravel/laravel myproject\n\n   // routes/web.php\n   Route::get('/api', function () {\n       return response()->json(['message' => 'Hello, World!']);\n   });\n\n   // Run the Artisan server\n   php artisan serve --host=0.0.0.0 --port=8000

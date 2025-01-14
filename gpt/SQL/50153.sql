@@ -1,0 +1,1 @@
+UPDATE your_table_name\nSET number = id;

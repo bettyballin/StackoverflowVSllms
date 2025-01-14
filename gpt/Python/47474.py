@@ -1,0 +1,1 @@
+# my_module.py\ndef add(a, b):\n    return a + b\n\n# test_my_module.py\nimport unittest\nfrom my_module import add\n\nclass TestMyModule(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(add(2, 3), 5)\n        self.assertEqual(add(-1, 1), 0)\n\nif __name__ == '__main__':\n    unittest.main()

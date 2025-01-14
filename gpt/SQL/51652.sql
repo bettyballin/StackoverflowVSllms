@@ -1,0 +1,1 @@
+CREATE TABLE xyz_new AS SELECT * FROM xyz WHERE 1 = 0;

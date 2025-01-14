@@ -1,0 +1,1 @@
+// Initialize i18next\ni18next.init({\n  lng: 'en', // language to use\n  resources: {\n    en: {\n      translation: {\n        "key": "Hello World"\n      }\n    },\n    fr: {\n      translation: {\n        "key": "Bonjour le monde"\n      }\n    }\n  }\n}, function(err, t) {\n  // initialized and ready to go!\n  console.log(i18next.t('key')); // output: Hello World\n});

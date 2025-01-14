@@ -1,0 +1,1 @@
+CREATE TABLE Warehouse.FactSales (\n       SaleID INT PRIMARY KEY,\n       ProductID INT,\n       CustomerID INT,\n       SaleDate DATE,\n       SaleAmount DECIMAL(10, 2),\n       ...\n   );

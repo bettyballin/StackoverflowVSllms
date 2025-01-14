@@ -1,0 +1,1 @@
+var head = document.getElementsByTagName('head')[0];\nvar link = document.createElement('link');\n\nlink.rel = 'stylesheet';\nlink.type = 'text/css';\nlink.href = '../../mz/mz.css';\n\n// Append the link element to the head\nhead.appendChild(link);

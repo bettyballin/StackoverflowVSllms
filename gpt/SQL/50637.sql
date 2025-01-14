@@ -1,0 +1,1 @@
+-- Check for corruption\n    DBCC CHECKTABLE ('Department');

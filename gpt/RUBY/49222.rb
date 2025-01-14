@@ -1,0 +1,1 @@
+require 'test_helper'\n\n   class SessionsControllerTest < ActionController::TestCase\n     context "on GET to :new" do\n       setup do\n         get :new\n         puts @response.body  # This will output the response body to help with debugging\n       end\n\n       should_render_template :new\n       should_not_set_the_flash\n     end\n   end

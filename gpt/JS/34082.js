@@ -1,0 +1,1 @@
+var myjson = {};\n\nfunction pass(a) {\n    myjson = a;\n\n    // Loop through each object in the array and access its properties\n    myjson.forEach(function(item) {\n        console.log("Name: " + item.name);\n        console.log("Distance: " + item.distance);\n        console.log("Code: " + item.code);\n    });\n}

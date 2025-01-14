@@ -1,0 +1,1 @@
+rails new myapp\n    cd myapp\n    rails generate scaffold Post title:string body:text\n    rake db:migrate

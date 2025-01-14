@@ -1,0 +1,1 @@
+$str = '';\n$ignore = array('.', '..');\n\n$dh = @opendir($path);\nif ($dh === FALSE) {\n    // error\n}\n\nwhile (($file = readdir($dh)) !== FALSE) {\n    if (in_array($file, $ignore, TRUE)) {\n        continue; // Skip the ignored files\n    }\n    $str .= $file . "\n";\n}\nclosedir($dh);

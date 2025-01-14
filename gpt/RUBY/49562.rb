@@ -1,0 +1,1 @@
+# app/models/post.rb\nclass Post < ApplicationRecord\n  include Archivable\nend\n\n# app/models/comment.rb\nclass Comment < ApplicationRecord\n  include Archivable\nend

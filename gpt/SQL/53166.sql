@@ -1,0 +1,1 @@
+UPDATE your_table\nSET column_name = new_value\nWHERE <condition that ensures constraints are not violated>;

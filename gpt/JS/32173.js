@@ -1,0 +1,1 @@
+$('someElement').each(function () {\n    $(this).mouseover(function () {\n        $(this).css({\n            // change color\n        });\n    }).mouseout(function () {\n        $(this).css({\n            // return to previous state\n        });\n    }).click(function () {\n        $(this).css({\n            // do something\n        });\n    });\n});

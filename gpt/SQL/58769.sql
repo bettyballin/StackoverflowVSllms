@@ -1,0 +1,1 @@
+-- Use the undocumented fn_dblog function to read the transaction log\nSELECT \n    [Current LSN],\n    [Transaction ID],\n    [Operation],\n    [Transaction Name],\n    [Begin Time],\n    [End Time]\nFROM \n    ::fn_dblog(NULL, NULL)\nWHERE \n    [Operation] IN ('LOP_INSERT_ROWS', 'LOP_MODIFY_ROW', 'LOP_DELETE_ROWS')\nORDER BY \n    [Begin Time] DESC;

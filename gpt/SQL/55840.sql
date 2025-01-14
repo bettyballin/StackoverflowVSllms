@@ -1,0 +1,1 @@
+DECLARE @Data TABLE (FieldValue VARCHAR(100))\n\nINSERT INTO @Data\nEXEC MyProcedure 'Person.Address', 'AddressID'\n\n-- Now you can use @Data table variable in your stored procedure\nSELECT * FROM @Data

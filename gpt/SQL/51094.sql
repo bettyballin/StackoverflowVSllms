@@ -1,0 +1,1 @@
+CREATE TABLE your_table (\n       id BINARY(16) PRIMARY KEY,\n       ...\n   );\n   \n   INSERT INTO your_table (id, ...)\n   VALUES (UUID_TO_BIN(UUID()), ...);

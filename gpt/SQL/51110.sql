@@ -1,0 +1,1 @@
+DBCC CHECKTABLE('your_table_name', REPAIR_ALLOW_DATA_LOSS);

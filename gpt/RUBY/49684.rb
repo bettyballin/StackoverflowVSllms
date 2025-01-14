@@ -1,0 +1,1 @@
+module Api\n     module V1\n       class FoosController < ApplicationController\n         skip_before_action :verify_authenticity_token\n\n         def update\n           # Your update logic here\n         end\n       end\n     end\n   end

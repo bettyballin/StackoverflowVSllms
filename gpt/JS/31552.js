@@ -1,0 +1,1 @@
+const eventSource = new EventSource('http://yourserveraddress/sse');\n\neventSource.onmessage = function(event) {\n    console.log('Message from server: ', event.data);\n};

@@ -1,0 +1,1 @@
+header('Content-Type: application/vnd.ms-excel');\nheader('Content-Disposition: attachment; filename="report.csv"');\nreadfile('path/to/report.csv');

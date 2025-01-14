@@ -1,0 +1,1 @@
+default_value = 0\nlength = 10\nmy_list = [default_value] * length\n\nprint(my_list)

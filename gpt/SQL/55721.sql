@@ -1,0 +1,1 @@
+CREATE INDEX idx_logtable_regioncode ON LogTable(regionCode);\nCREATE INDEX idx_logtable_districtcode ON LogTable(districtCode);

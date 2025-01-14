@@ -1,0 +1,1 @@
+class SecondController extends AppController {\n    public function indexAction() {\n        // Call function from the base controller\n        $this->memberFunction();\n    }\n}

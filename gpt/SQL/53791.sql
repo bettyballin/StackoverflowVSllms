@@ -1,0 +1,1 @@
+SELECT \n    l.locationid, \n    s.sessionid, \n    d.date\nFROM \n    locations l\nJOIN \n    sessions s ON l.locationid = s.locationid\nJOIN \n    dates d ON s.sessionid = d.sessionid\nWHERE \n    s.courseid = :courseid\nORDER BY \n    l.locationid, s.sessionid, d.date;

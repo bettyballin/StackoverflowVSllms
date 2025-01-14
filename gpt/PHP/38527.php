@@ -1,0 +1,1 @@
+$stmt->bind_param('i', $_GET['article_id']);

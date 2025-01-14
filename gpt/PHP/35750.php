@@ -1,0 +1,1 @@
+<?php\n    $timestamp = $row['eventtime']; // Assuming $row['eventtime'] is a UNIX timestamp\n    $formatter = new IntlDateFormatter('it_IT', IntlDateFormatter::FULL, IntlDateFormatter::NONE);\n    echo $formatter->format($timestamp * 1000); // Multiply by 1000 to convert to milliseconds\n?>

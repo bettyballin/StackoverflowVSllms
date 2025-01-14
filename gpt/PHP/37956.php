@@ -1,0 +1,1 @@
+// Controller code\n   $tableInfo = $obj->getTableInfo();\n   $smarty->assign('tableInfo', $tableInfo);\n   $smarty->display('template.tpl');

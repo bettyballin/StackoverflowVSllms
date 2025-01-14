@@ -1,0 +1,1 @@
+class ImageHosting {\n    // Existing code...\n\n    public function upload($image) {\n        // Image hosting script's upload code...\n    }\n}

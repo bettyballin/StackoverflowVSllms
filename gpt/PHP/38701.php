@@ -1,0 +1,1 @@
+<?php\necho PHP_INT_MAX;\n?>
