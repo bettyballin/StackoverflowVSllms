@@ -1,0 +1,1 @@
+<system.web>\n      <authentication mode="Forms">\n        <forms name="YourAuthCookie" timeout="30" path="/" />\n      </authentication>\n      <authorization>\n        <deny users="?" />\n        <allow users="*" />\n      </authorization>\n    </system.web>

@@ -1,0 +1,1 @@
+continueTime = setTimeout(getStatus, 3000);

@@ -1,0 +1,1 @@
+$(document).ready(function(){\n    $("a.ajax").click(function(event){\n        event.preventDefault(); // Prevents the default link behavior\n        $("#content").load("data.html #test");\n    });\n});

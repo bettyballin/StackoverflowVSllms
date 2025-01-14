@@ -1,0 +1,1 @@
+Imports System.ServiceProcess\n\nPublic Class MyService\n    Inherits ServiceBase\n\n    Private _logic As New BusinessLogic.BusinessLogic()\n\n    Protected Overrides Sub OnStart(ByVal args() As String)\n        _logic.Execute()\n    End Sub\n\n    ' Other service methods...\nEnd Class

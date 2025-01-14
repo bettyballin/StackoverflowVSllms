@@ -1,0 +1,1 @@
+protect_from_forgery with: :exception # CSRF protection in controllers\n     check_token_in_param = true # Prevent session fixatio

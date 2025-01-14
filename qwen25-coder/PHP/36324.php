@@ -1,0 +1,1 @@
+// Assuming $front is an instance of Zend_Controller_Front\n/** @var My_Controller_Plugin_ActionStackLogger $actionStackLogger */\n$actionStackLogger = $front->getPlugin('My_Controller_Plugin_ActionStackLogger');\n$allActions = $actionStackLogger->getAllStackedActions();\nprint_r($allActions);

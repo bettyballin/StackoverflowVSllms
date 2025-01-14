@@ -1,0 +1,1 @@
+.replace(/(https?:\/\/[^ ]+\/)(.*?)(\.(jpe?g|png|gif))/ig, function(match, prefix, filename, suffix) {\n    return prefix + filename.replace(/\s/g, '%20') + suffix;\n})

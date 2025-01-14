@@ -1,0 +1,1 @@
+// Assuming $sqlDateTime is the datetime string fetched from MSSQL\n$sqlDateTime = '2023-10-05 14:48:00';\n\n// Convert to UNIX timestamp\n$unixTimestamp = strtotime($sqlDateTime);\n\n// Output the UNIX timestamp\necho "UNIX Timestamp: " . $unixTimestamp;

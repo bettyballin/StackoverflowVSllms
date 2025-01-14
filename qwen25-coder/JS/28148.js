@@ -1,0 +1,1 @@
+// Clear any previous error messages\n     $('#flash-messages').html('');\n\n     // Display success message\n     $('#flash-messages').html('<%= j(flash.now[:success]) %>');\n\n     // Optionally, update the UI to reflect login state change

@@ -1,0 +1,1 @@
+INSERT INTO Alias (alias_name, canonical_name) VALUES\n('microsft', 'microsoft'),\n('ms', 'microsoft'),\n('m$', 'microsoft');

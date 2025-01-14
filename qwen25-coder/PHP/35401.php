@@ -1,0 +1,1 @@
+// Load settings\n$settingsFilePath = '/path/to/settings.json';\n$settings = loadSettings($settingsFilePath);\n\n// Modify settings - e.g., set a new theme\n$settings['theme'] = 'dark';\n\n// Save changes\nsaveSettings($settingsFilePath, $settings);

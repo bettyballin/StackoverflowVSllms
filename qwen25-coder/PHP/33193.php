@@ -1,0 +1,1 @@
+<?php\n    // db.php\n\n    $dbconn = pg_connect("host=localhost port=5432 dbname=masi user=masi password=123");\n    \n    if (!$dbconn) {\n        die('Could not connect: ' . pg_last_error());\n    }\n    ?>

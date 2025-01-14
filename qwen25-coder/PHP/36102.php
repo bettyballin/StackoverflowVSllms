@@ -1,0 +1,1 @@
+<?php\n$array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];\n$elementToInsert = 'newElement';\n$index = 3;\n\n// Use array_splice to insert the element at the specified index\narray_splice($array, $index, 0, $elementToInsert);\n\nprint_r($array);\n?>

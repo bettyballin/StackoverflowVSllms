@@ -1,0 +1,1 @@
+enum Status {\n    case Active;\n    case Inactive;\n    case Pending;\n}\n\n// Usage\n$status = Status::Active;\necho $status->name; // Outputs: Active

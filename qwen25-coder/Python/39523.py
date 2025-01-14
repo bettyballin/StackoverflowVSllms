@@ -1,0 +1,1 @@
+import array\n\n# Example of using list\nlist_example = [1, 2.5, "three"]\nprint("List:", list_example)\n\n# Example of using array for integers\nint_array = array.array('i', [1, 2, 3])\nprint("Integer Array:", int_array)\n\n# Example of using array for floats\nfloat_array = array.array('f', [1.0, 2.5, 3.5])\nprint("Float Array:", float_array)

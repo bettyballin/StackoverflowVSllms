@@ -1,0 +1,1 @@
+CREATE TABLE business_locations (\n    id INT PRIMARY KEY,\n    name VARCHAR(255),\n    address VARCHAR(255),\n    city VARCHAR(255),\n    state VARCHAR(255),\n    zip_code VARCHAR(10),\n    latitude DECIMAL(9, 6),\n    longitude DECIMAL(9, 6)\n);

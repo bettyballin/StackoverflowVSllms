@@ -1,0 +1,1 @@
+TIME = RIGHT('0' + CAST(DATEPART(hh, timecolumn) AS VARCHAR(2)), 2) +\n       RIGHT('0' + CAST(DATEPART(mi, timecolumn) AS VARCHAR(2)), 2) +\n       RIGHT('0' + CAST(DATEPART(ss, timecolumn) AS VARCHAR(2)), 2)

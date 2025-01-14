@@ -1,0 +1,1 @@
+<connectionStrings>\n    <add name="LocalAD" connectionString="LDAPS://example.com:636/dc=example,dc=com" />\n</connectionStrings>

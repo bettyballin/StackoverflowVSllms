@@ -1,0 +1,1 @@
+ROW_KEY            | CF:FNAME | CF:LNAME | TICKETS_TICKET_ID | TICKETS_FLIGHT_NO |\nUSER#1             | John     | Doe      | TKT-001           | FLT-101           |\nUSER#1             |          |          | TKT-002           | FLT-102           |

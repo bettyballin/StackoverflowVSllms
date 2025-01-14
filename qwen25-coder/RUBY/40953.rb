@@ -1,0 +1,1 @@
+<%= link_to 'Current Week', current_week_path, remote: true %>

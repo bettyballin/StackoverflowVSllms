@@ -1,0 +1,1 @@
+import boto3\n\ns3_client = boto3.client('s3')\n\ndef upload_file_with_content_type(bucket, file_path, object_name, content_type):\n    s3_client.upload_file(file_path, bucket, object_name, ExtraArgs={'ContentType': content_type})\n\n# Usage:\nupload_file_with_content_type('your-bucket-name', 'local_image.jpg', 'remote_image.jpg', 'image/jpeg')

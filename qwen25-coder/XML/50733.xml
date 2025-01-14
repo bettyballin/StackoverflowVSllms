@@ -1,0 +1,1 @@
+<!-- Disable connection pooling in web.config -->\n   <connectionStrings>\n       <add name="YourConnectionString" \n            connectionString="Server=yourserver;Database=yourdatabase;User Id=youruser;Password=yourpassword;Encrypt=True;Connection Timeout=30;Pooling=false;" \n            providerName="System.Data.SqlClient" />\n   </connectionStrings>

@@ -1,0 +1,1 @@
+-- Example of possible refactor to reduce multiple evaluations of a CTE\nWITH MyCTE AS (\n    SELECT * FROM SomeComplexQuery\n)\nSELECT * \nFROM MyCTE mc1\nJOIN MyCTE mc2 ON mc1.id = mc2.id\nWHERE YourCondition;

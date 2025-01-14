@@ -1,0 +1,1 @@
+<!-- Example snippet not directly executable, illustrative of .csproj file configuration -->\n<Project ...>\n  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">\n    <Optimize>true</Optimize>\n    <DebugSymbols>false</DebugSymbols>\n    <!-- Other settings for Release mode -->\n  </PropertyGroup>\n</Project>

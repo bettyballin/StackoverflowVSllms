@@ -1,0 +1,1 @@
+import ipaddress\n\n# Define the IP address and the network range\nip = ipaddress.ip_address(u'192.168.0.1')\nnetwork = ipaddress.ip_network(u'192.168.0.0/24')\n\n# Check if the IP address is in the network\nif ip in network:\n    print(f"{ip} is within {network}")\nelse:\n    print(f"{ip} is NOT within {network}")

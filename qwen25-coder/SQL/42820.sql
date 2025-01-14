@@ -1,0 +1,1 @@
+SELECT CONVERT(varchar, YourDateColumn, 103) + ' ' + CONVERT(varchar, YourDateColumn, 8) AS FormattedDateTime\nFROM YourTable;

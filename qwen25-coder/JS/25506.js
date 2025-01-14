@@ -1,0 +1,1 @@
+// Example using jQuery for a POST request\n$.ajax({\n    url: "https://example.com/api",\n    type: "POST",\n    data: {\n        confidentialData: "SensitiveInformation"\n    },\n    success: function(response) {\n        console.log("Success:", response);\n    },\n    error: function(error) {\n        console.error("Error:", error);\n    }\n});

@@ -1,0 +1,1 @@
+<?php\n\n$data = array(\n    'casi' => $_POST['casi'],\n    'nada' => $_POST['nada'],\n    'nuevo' => $_POST['nuevo'],\n    'perfecto' => $_POST['perfecto'],\n    'vales' => $_POST['vales'],\n    'apenas' => $_POST['apenas'],\n    'yeah' => $_POST['yeah']\n);\n\necho json_encode($data);\n?>

@@ -1,0 +1,1 @@
+-- Create an archived version of the June 2009 table\nSELECT * INTO MyDatabase.dbo.Archived_June2009 \nFROM MyDatabase.dbo.June2009;\n\n-- Optionally, remove constraints and indexes for archival to save storage space\nALTER TABLE MyDatabase.dbo.Archived_June2009 DROP CONSTRAINT PK_June2009;\nDROP INDEX IX_June2009 ON MyDatabase.dbo.Archived_June2009;

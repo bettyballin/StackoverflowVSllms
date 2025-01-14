@@ -1,0 +1,1 @@
+' VB.NET Code\nPublic Function AddNumbers(ByVal a As Integer, ByVal b As Integer) As Integer\n    Return a + b\nEnd Functio

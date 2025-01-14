@@ -1,0 +1,1 @@
+SELECT \n    m.id, \n    m.title, \n    m.sentAt, \n    u.username\nFROM \n    message m\nJOIN \n    [user] u ON u.id = 1 -- @userId parameter\nLEFT JOIN \n    read_messages rm ON rm.message_id = m.id AND rm.user_id = u.id\nWHERE \n    rm.message_id IS NULL;

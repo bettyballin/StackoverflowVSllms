@@ -1,0 +1,1 @@
+select len(cast('the quick brown fox jumped over the lazy dog' as varchar(50)))

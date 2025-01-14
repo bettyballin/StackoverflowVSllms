@@ -1,0 +1,1 @@
+$rows = array();\n$res = mysql_query($someQuery);\n\nif (is_resource($res)) {\n    while ($row = mysql_fetch_assoc($res)) {\n        $rows[] = $row;\n    }\n} elseif ($someQuery !== "" && mysql_errno()) {\n    // Handle SQL error here, e.g., log it or display a user-friendly message\n    echo "SQL Error: " . mysql_error();\n}

@@ -1,0 +1,1 @@
+list_of_pairs = [['a', 'b'], ['a', 'c'], ['b', 'd']]\nsearch = 'c'\nfound = any(pair[1] == search for pair in list_of_pairs)

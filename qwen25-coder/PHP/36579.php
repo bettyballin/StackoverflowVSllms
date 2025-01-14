@@ -1,0 +1,1 @@
+// config.inc.php\n<?php\n$config = [\n    'dbname' => 'mydatabase',\n    'dbuser' => 'root',\n    'dbpassword' => 'password'\n];

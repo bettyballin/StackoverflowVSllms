@@ -1,0 +1,1 @@
+<?php\n$sourceFile = 'input.spx';\n$outputFile = 'output.mp3';\n\n// Command to convert speex to mp3\n$command = "ffmpeg -i $sourceFile $outputFile";\n\n// Execute the command\nexec($command, $output, $returnVar);\n\nif ($returnVar === 0) {\n    echo "Conversion successful!";\n} else {\n    echo "Error during conversion: ";\n    print_r($output);\n}\n?>

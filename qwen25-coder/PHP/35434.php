@@ -1,0 +1,1 @@
+$string_html = preg_replace('/<!-- start_ticker -->.*?<!-- end_ticker -->/is', "bla bla", $string_html);

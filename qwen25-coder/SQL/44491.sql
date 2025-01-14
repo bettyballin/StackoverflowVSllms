@@ -1,0 +1,1 @@
+DBCC CHECKIDENT ('YourTableName', RESEED, -1); \n-- This makes the next inserted row ID start at 1

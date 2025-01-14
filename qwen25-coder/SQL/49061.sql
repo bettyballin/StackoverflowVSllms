@@ -1,0 +1,1 @@
+SELECT *\nFROM Vehicles\nWHERE DKID IN (69954)\nORDER BY \n    CASE \n        WHEN ImageName1 = 'na' THEN 0 \n        ELSE 1 \n    END, \n    Make, \n    Model, \n    Year DESC;

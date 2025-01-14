@@ -1,0 +1,1 @@
+import multiprocessing\n\ndef child_process(conn):\n    conn.send('Hello from child')\n    conn.close()\n\nif __name__ == '__main__':\n    parent_conn, child_conn = multiprocessing.Pipe()\n    p = multiprocessing.Process(target=child_process, args=(child_conn,))\n    p.start()\n    print(parent_conn.recv())  # Prints 'Hello from child'\n    p.join()

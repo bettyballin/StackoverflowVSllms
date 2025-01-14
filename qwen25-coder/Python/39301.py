@@ -1,0 +1,1 @@
+# Recommended if using numbers or strings\nnumbers = [0] * 10\nstrings = ["default"] * 5\n\n# Use list comprehension for more clarity, especially with mutable objects\nobjects = [[0]*2 for _ in range(3)]  # Creates a 3x2 list without shared inner lists

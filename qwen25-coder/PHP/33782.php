@@ -1,0 +1,1 @@
+// PHP 4\n  session_register('variable_name');

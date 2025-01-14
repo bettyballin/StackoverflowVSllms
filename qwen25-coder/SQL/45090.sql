@@ -1,0 +1,1 @@
+SELECT REPLACE(\n           REPLACE(\n               TRANSLATE(your_string, CHR(0) || CHR(9) || CHR(10), \n                                         '\x00' || '\t' || '\n'),\n               CHR(26), -- assuming 26 is one of your non-trivial replacements\n               '\x1A'\n           ),\n           CHR(31),\n           ''\n       ) AS translated_string\nFROM your_table;

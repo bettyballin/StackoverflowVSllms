@@ -1,0 +1,1 @@
+Route::get('/hello', function () {\n    return 'Hello, World!';\n});

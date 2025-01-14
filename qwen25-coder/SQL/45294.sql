@@ -1,0 +1,1 @@
+CREATE TRIGGER RemoveChildren\nON YourTable\nAFTER DELETE\nAS\nBEGIN\n    -- Recursively delete children\n    DELETE FROM YourTable\n    WHERE ID IN (\n        SELECT ID FROM deleted AS d\n            JOIN YourTable AS t ON d.ID = t.PARENT_ID\n    );\nEND;

@@ -1,0 +1,1 @@
+Imports System.Web.UI\n\nPublic Class SafeHtmlTextBox\n    Inherits TextBox\n    \n    Protected Overrides Sub Render(writer As HtmlTextWriter)\n        ' Disable request validation for this specific field\n        Page.ValidateRequest = False\n        \n        MyBase.Render(writer)\n    End Sub\nEnd Class

@@ -1,0 +1,1 @@
+select *\nfrom vehicles\nwhere reg_num >= 'DD'   -- this value is user supplied\nand reg_num < 'DF';     -- adjusted top boundary

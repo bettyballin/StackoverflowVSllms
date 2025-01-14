@@ -1,0 +1,1 @@
+<?php\nfunction createSecureChecksum($message, $time, $password) {\n    return hash('sha256', $message . $time . $password);\n}\n\n$message = "exampleMessage";\n$time = time();\n$password = "securePassword";\n\n$checksum = createSecureChecksum($message, $time, $password);\n\necho "Checksum: " . $checksum;\n?>

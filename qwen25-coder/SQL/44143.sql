@@ -1,0 +1,1 @@
+WITH DuplicateRecords AS (\n    SELECT ROWID,\n           ROW_NUMBER() OVER (PARTITION BY column1, column2 ORDER BY ROWID) AS rn\n      FROM your_table_name\n)\nDELETE FROM your_table_name\n WHERE ROWID IN (SELECT ROWID FROM DuplicateRecords WHERE rn > 1);

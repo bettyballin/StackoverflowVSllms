@@ -1,0 +1,1 @@
+t=lambda n:n*[1]and[t(n-1)[:i]+[sum(x)for x in zip((t(n-1)+[0])[i:],([0]+t(n-1))[i:])]for i in range(n)]or[[1]]

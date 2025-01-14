@@ -1,0 +1,1 @@
+$test = '';\nforeach ($items as $item) {\n    $test .= "<div>$item</div>";\n}

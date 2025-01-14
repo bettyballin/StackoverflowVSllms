@@ -1,0 +1,1 @@
+<?php\n// Set the default timezone to the system's timezone if not already set\n$timezone = new DateTimeZone(date_default_timezone_get());\n$dateTime = new DateTime('now', $timezone);\n\n// Get the UTC offset in seconds\n$utcOffset = $timezone->getOffset($dateTime);\n\necho "UTC Offset: " . ($utcOffset / 3600) . " hours\n";\n?>

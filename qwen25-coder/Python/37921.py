@@ -1,0 +1,1 @@
+# Example of a linear equation\n   y = 2 * x + 3

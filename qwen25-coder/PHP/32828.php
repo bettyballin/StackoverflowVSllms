@@ -1,0 +1,1 @@
+define('DIR_APP', 'app/');\n\nclass Questions\n{\n    const QUESTIONS_FILE_SUFFIX = 'questions.xml';\n\n    public static function getQuestionsFilePath()\n    {\n        return DIR_APP . self::QUESTIONS_FILE_SUFFIX;\n    }\n}\n\n// Usage\necho Questions::getQuestionsFilePath();

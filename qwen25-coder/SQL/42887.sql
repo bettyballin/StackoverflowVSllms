@@ -1,0 +1,1 @@
+update b\nset b.col1 = case when 1 <= 0 then \n                   (select 1 as bal)\n                 else \n                   (select 0 as bal) \n             end\nfrom dbo.table1 b\ninner join dbo.table1 a\non b.id = a.id\nand b.date = a.date;

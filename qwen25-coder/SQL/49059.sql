@@ -1,0 +1,1 @@
+SELECT \n    TO_CHAR(Registered_on, 'DD Mon RR : HH24 - HH24 AM') AS Hourly_Interval,\n    COUNT(employeeNo) AS Registrations\nFROM \n    employeeReg\nGROUP BY \n    TRUNC(Registered_on, 'HH24')\nORDER BY \n    TRUNC(Registered_on, 'HH24');

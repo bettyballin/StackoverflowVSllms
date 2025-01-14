@@ -1,0 +1,1 @@
+// PHP\n$json = '{"name": "John", "age": 30}';\n$obj = json_decode($json);\necho $obj->name; // Outputs: Joh

@@ -1,0 +1,1 @@
+#!/usr/bin/env python\n\nfrom datetime import datetime\n\n# Example timestamp in milliseconds\ntimestamp_ms = 1241711346274\n\n# Convert milliseconds to seconds\ntimestamp_s = timestamp_ms / 1000.0\n\n# Convert seconds since epoch to UTC date and time\ndt_object = datetime.utcfromtimestamp(timestamp_s)\n\nprint(dt_object)

@@ -1,0 +1,1 @@
+#!/usr/bin/env python3\nimport subprocess\n\ncmd = ["waitsome.py"]  # Avoid using shell=True for security reasons\nproc = subprocess.Popen(cmd, bufsize=1, stdout=subprocess.PIPE, text=True)\n\nfor line in proc.stdout:\n    print(">>> " + line.rstrip())\n\nproc.stdout.close()\nproc.wait()  # Ensure that the process has completed

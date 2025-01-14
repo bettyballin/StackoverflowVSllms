@@ -1,0 +1,1 @@
+-- Disable the foreign key constraint\nALTER TABLE table_name DISABLE CONSTRAINT fk_constraint_name;\n\n-- Modify the column size to match the referenced column (20 characters)\nALTER TABLE table_name MODIFY column_name VARCHAR2(20);\n\n-- Re-enable the foreign key constraint\nALTER TABLE table_name ENABLE CONSTRAINT fk_constraint_name;

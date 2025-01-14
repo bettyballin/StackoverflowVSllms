@@ -1,0 +1,1 @@
+<modules>\n    <add name="CustomFormsAuthenticationModule1" type="YourNamespace.CustomFormsAuthenticationModule1" preCondition="managedHandler" />\n    <add name="CustomFormsAuthenticationModule2" type="YourNamespace.CustomFormsAuthenticationModule2" preCondition="managedHandler" />\n</modules>

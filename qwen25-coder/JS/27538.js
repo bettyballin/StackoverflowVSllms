@@ -1,0 +1,1 @@
+// Using closest()\n$(".meuble-tab").closest('li').addClass("active");\n\n// Alternatively, using parent()\n$(".meuble-tab").parent('li').addClass("active");

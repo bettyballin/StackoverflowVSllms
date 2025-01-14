@@ -1,0 +1,1 @@
+x = "%s %s"\ny = "x"\nz = "y"\nw = "z"\nprint (y + " " + z + " ") % x, w

@@ -1,0 +1,1 @@
+// Example for Eastern Standard Time (EST)\ndate_default_timezone_set('America/New_York');

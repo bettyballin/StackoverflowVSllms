@@ -1,0 +1,1 @@
+class View {\n    private $vars = [];\n\n    public function __set($name, $value) {\n        $this->vars[$name] = $value;\n    }\n\n    public function display($templateView) {\n        extract($this->vars); // This line imports the variables into the local symbol table\n\n        include $templateView; // Include your view file\n    }\n}

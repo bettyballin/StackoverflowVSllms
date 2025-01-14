@@ -1,0 +1,1 @@
+class User < ActiveRecord::Base\n  scope :active_users_with_custom_filter, -> { where("some_complex_sql_condition") }\nend

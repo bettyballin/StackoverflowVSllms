@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", function() {\n     var xmlEditor = CodeMirror.fromTextArea(document.getElementById('xml-input'), {\n       lineNumbers: true,\n       mode:  "application/xml",\n       theme: "default"\n     });\n     \n     // Optional: Add keymap or other features if needed\n   });

@@ -1,0 +1,1 @@
+from lxml import etree, html\n\n# Sample non-well-formed HTML\nnon_well_formed_html = '''\n<html>\n<body>\n<div>\n<p>Some text <a href='example.com'>Link</p></div>\n'''\n\n# Parse the non-well-formed HTML with lxml's html parser\ntree = html.fromstring(non_well_formed_html)\n\n# Use XPath to find elements\nlinks = tree.xpath('//a/@href')\n\nprint(links)  # Output: ['example.com']

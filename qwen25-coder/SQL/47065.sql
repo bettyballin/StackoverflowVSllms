@@ -1,0 +1,1 @@
+SELECT \n    s.Sale_ID,\n    s.Product_ID,\n    s.Sale_Date,\n    p.Price\nFROM \n    Sales s\nJOIN (\n    SELECT \n        Product_ID, \n        Sale_Date, \n        Price,\n        ROW_NUMBER() OVER (PARTITION BY Product_ID ORDER BY Sale_Date DESC) as rn\n    FROM \n        Prices\n) p ON s.Product_ID = p.Product_ID AND s.Sale_Date >= p.Sale_Date\nWHERE \n    p.rn = 1;

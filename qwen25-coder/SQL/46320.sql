@@ -1,0 +1,1 @@
+SELECT tagtext FROM tag;

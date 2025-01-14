@@ -1,0 +1,1 @@
+SELECT \n    t1.*, \n    t2.*\nFROM \n    table1 AS t1\nJOIN \n    table2 AS t2 ON t1.common_column = t2.common_column;

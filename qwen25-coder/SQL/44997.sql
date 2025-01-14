@@ -1,0 +1,1 @@
+SELECT \n    Main.ID,\n    First(IIF(Rel.Value = "Foo", Rel.Value, Null)) AS Foo,\n    First(IIF(Rel.Value = "Bar", Rel.Value, Null)) AS Bar,\n    First(IIF(Rel.Value = "Baz", Rel.Value, Null)) AS Baz\nFROM \n    MainTable AS Main\nLEFT JOIN \n    RelatedTable AS Rel ON Main.ID = Rel.MainTableID\nGROUP BY \n    Main.ID;

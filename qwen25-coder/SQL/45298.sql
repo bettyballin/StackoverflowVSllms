@@ -1,0 +1,1 @@
+UPDATE people p1\nSET prize = CASE \n    WHEN p1.id = <person_id> THEN 'Gold'\n    WHEN p1.prize = 'Gold' AND p2.class IS NOT NULL THEN ''\n    ELSE p1.prize\nEND\nFROM (\n    SELECT class FROM people WHERE id = <person_id>\n) AS p2\nWHERE p1.class = p2.class;

@@ -1,0 +1,1 @@
+-- Revoke the DENY CONTROL permission to restore normal behavior\nREVOKE CONTROL ON OBJECT::dbo.tblFoo FROM PUBLIC;\nGO\n\n-- If other roles or users need specific permissions, grant them explicitly after revoking denied control\nGRANT SELECT ON OBJECT::dbo.tblFoo TO [BUILTIN\Users];\nGO

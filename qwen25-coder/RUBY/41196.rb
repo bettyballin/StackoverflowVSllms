@@ -1,0 +1,1 @@
+class QuestionsController < ApplicationController\n  def fetch_by_level\n    @questions = Question.where(level_id: params[:level_id])\n    respond_to do |format|\n      format.json { render json: @questions }\n    end\n  end\nend

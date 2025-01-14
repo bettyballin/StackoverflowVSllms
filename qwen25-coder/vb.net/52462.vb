@@ -1,0 +1,1 @@
+On Error Resume Next\nconvertedDate = Format(CDate(originalDate), "dd-mmm-yyyy")\nIf Err.Number <> 0 Then\n    ' Handle the error (e.g., log it or skip the date)\n    Debug.Print "Invalid date: " & originalDate\n    convertedDate = ""  ' Or set it to a default value\nEnd If\nOn Error GoTo 0

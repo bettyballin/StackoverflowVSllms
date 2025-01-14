@@ -1,0 +1,1 @@
+-- Up: \n   DROP TABLE example_table;\n\n   -- Down: Cannot fully undo as structure is lost

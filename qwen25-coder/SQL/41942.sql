@@ -1,0 +1,1 @@
+WITH RandomSample AS (\n       SELECT TOP (5000) *\n       FROM YourTable \n       ORDER BY YourIndexedColumn * NEWID()\n   )\n   SELECT *\n   FROM RandomSample;

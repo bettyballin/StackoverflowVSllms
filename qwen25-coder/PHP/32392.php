@@ -1,0 +1,1 @@
+<?php\nini_set('session.use_cookies', 0);\nini_set('session.use_only_cookies', 0); // Important for security to be set properly in production environments\nini_set('session.use_trans_sid', 1);\n\nsession_start();\n\n// The rest of your session code remains the same.\n?>

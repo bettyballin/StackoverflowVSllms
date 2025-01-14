@@ -1,0 +1,1 @@
+// Example of adding a reference to STS in web.config\n   <identityFederation \n       relyingPartyApplicationPath="path/to/your/app"\n       issuer="http://your-sts-url/"\n       realm="http://your-realm/"\n       mode="On" />

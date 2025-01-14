@@ -1,0 +1,1 @@
+WITH NumberedEntries AS (\n    SELECT \n        timefield,\n        ROW_NUMBER() OVER (ORDER BY timefield) as row_num\n    FROM entries \n    WHERE uid = ?\n)\nSELECT timefield\nFROM NumberedEntries\nWHERE MOD(row_num, 150) = 1;

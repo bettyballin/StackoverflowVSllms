@@ -1,0 +1,1 @@
+INSERT INTO Table1 (id, data_field)\nSELECT MAX(id) + 1, '[blob of data]'\nFROM Table1;

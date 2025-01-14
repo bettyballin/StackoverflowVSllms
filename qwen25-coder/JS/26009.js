@@ -1,0 +1,1 @@
+window.addEventListener('beforeunload', function (e) {\n  // Cancel the event as stated by the standard.\n  e.preventDefault();\n  // Chrome requires returnValue to be set.\n  e.returnValue = '';\n});

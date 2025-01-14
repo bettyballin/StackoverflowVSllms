@@ -1,0 +1,1 @@
+CREATE DATABASE MyDatabase\nON PRIMARY (\n    NAME = 'MyDatabase_data',\n    FILENAME = 'C:\Data\MyDatabase.mdf',\n    SIZE = 5GB, -- Initial size considering data and indexes\n    MAXSIZE = UNLIMITED,\n    FILEGROWTH = 10%\n)\nLOG ON (\n    NAME = 'MyDatabase_log',\n    FILENAME = 'C:\Logs\MyDatabase.ldf',\n    SIZE = 2GB,\n    MAXSIZE = 20GB,\n    FILEGROWTH = 5%\n);

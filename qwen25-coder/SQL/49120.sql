@@ -1,0 +1,1 @@
+CREATE TABLE players (\n    player_id INT PRIMARY KEY AUTO_INCREMENT,\n    username VARCHAR(50) NOT NULL UNIQUE,\n    level INT DEFAULT 1,\n    experience_points INT DEFAULT 0,\n    inventory JSON -- or use another table to manage items if complexity increases\n);

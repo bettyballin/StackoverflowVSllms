@@ -1,0 +1,1 @@
+UPDATE Users SET weight = 160, desiredWeight = 145 WHERE id = 1;

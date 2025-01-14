@@ -1,0 +1,1 @@
+class CreateTriggersAndProcedures < ActiveRecord::Migration[6.0]\n  def up\n    sql_file = File.join(Rails.root, 'db', 'migrate_files', 'triggers_and_procedures.sql')\n    sql = File.read(sql_file)\n    execute sql\n  end\n\n  def down\n    # Define how to revert the changes if necessary\n    # For example, drop triggers and procedures here.\n  end\nend

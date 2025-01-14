@@ -1,0 +1,1 @@
+SET TIMER ON\n  -- Run your query here

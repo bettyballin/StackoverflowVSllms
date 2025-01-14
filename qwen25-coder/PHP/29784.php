@@ -1,0 +1,1 @@
+while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {\n    // Accessing 'Post Content' and 'Post Title'\n    $postContent = $row['value'];\n    \n    // Output or process the values\n    echo "Post Content: " . htmlspecialchars($postContent) . "\n";\n}

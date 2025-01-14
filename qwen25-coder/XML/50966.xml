@@ -1,0 +1,1 @@
+<system.webServer>\n    <security>\n      <requestFiltering maxAllowedContentLength="4294967295" />\n    </security>\n    <serverRuntime maxConcurrentConnections="50000" maxConcurrentRequestsPerCPU="12000" appConcurrentRequestLimit="10000" />\n  </system.webServer>

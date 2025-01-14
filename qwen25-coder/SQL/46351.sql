@@ -1,0 +1,1 @@
+CREATE TABLE JournalEntries (\n    entry_id INT PRIMARY KEY AUTO_INCREMENT,\n    transaction_date DATE NOT NULL,\n    account_code VARCHAR(10) NOT NULL,  -- Code/ID of the account being debited or credited\n    description TEXT,                   -- Description of the transaction\n    amount DECIMAL(15,2) NOT NULL       -- Positive for debit, negative for credit\n);

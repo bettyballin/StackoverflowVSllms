@@ -1,0 +1,1 @@
+WITH Numbers AS (\n    SELECT 1 AS Period\n    UNION ALL\n    SELECT Period + 1 FROM Numbers WHERE Period < 24\n)\n\nSELECT \n    N.Period, \n    COALESCE(P.Profit, 0) AS Profit\nFROM \n    Numbers N\nLEFT JOIN \n    Projections P ON N.Period = P.Period;

@@ -1,0 +1,1 @@
+// Compile this code to Wasm with a tool like Emscripten\nfunction protectedLogic() {\n    console.log("Critical logic here.");\n}\nprotectedLogic();

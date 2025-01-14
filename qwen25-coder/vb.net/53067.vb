@@ -1,0 +1,1 @@
+For Each ListDef As KeyValuePair(Of String, List(Of MyClass)) In MasterDictionary\n       Dim ThisList As List(Of MyClass) = ListDef.Value\n       ThisList.Clear()\n   Next\n   MasterDictionary.Clear()

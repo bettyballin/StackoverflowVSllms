@@ -1,0 +1,1 @@
+<?php\n$target_url = 'https://example.com';\n\n// Clear any potential referrer\nheader('Location: ' . $target_url, true, 302);\nexit();\n?>

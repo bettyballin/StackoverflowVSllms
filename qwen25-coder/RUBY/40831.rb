@@ -1,0 +1,1 @@
+def test_adding_task_to_project\n  p = Project.new\n  task_attributes = [{ "name" => "paint fence"}] # This should be an array of hashes\n  p.new_tasks_attributes=(task_attributes)       # Pass directly the array of attributes\n  p.save\n  assert_equal 1, p.tasks.length\nend

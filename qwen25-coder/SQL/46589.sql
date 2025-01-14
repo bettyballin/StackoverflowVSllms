@@ -1,0 +1,1 @@
+SELECT dbo.udf_StripHTML(YourColumn)\nFROM YourTable;

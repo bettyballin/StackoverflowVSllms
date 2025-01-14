@@ -1,0 +1,1 @@
+<configuration>\n  <runtime>\n    <AppContextSwitchOverrides value="Switch.System.Runtime.JitOptimizationSSE=false" />\n  </runtime>\n</configuration>

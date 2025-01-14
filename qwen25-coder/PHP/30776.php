@@ -1,0 +1,1 @@
+<?php\n  // SOMETHING DONE THAT SETS $url\n  $url = 'http://example.com/thankyou.php';\n\n  // Make sure to use double quotes or properly concatenate with single quotes\n  header("Location: $url");\n\n  // Always exit after sending a location header\n  exit();\n?>

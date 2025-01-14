@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>com.twelvemonkeys.imageio</groupId>\n    <artifactId>imageio-tiff</artifactId>\n    <version>3.9</version>\n</dependency>

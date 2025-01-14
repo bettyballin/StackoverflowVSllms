@@ -1,0 +1,1 @@
+$messageNumber = "00023460";\n$noZerosMessageNumber = str_replace("0", "", $messageNumber);\necho $noZerosMessageNumber; // Outputs: 2346

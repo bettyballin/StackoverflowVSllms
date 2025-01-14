@@ -1,0 +1,1 @@
+WITH RankedStops AS (\n    SELECT \n        shipment_id,\n        time,\n        MIN(time) OVER (PARTITION BY shipment_id) AS start_time,\n        MAX(time) OVER (PARTITION BY shipment_id) AS end_time\n    FROM test\n)\nSELECT DISTINCT \n    shipment_id, \n    start_time, \n    end_time\nFROM RankedStops;

@@ -1,0 +1,1 @@
+body.gsub(/(<ul\b[^>]*?>.*?)(\n+)(.*?<\/ul>)/m) do |match|\n  "#{$1}#{$3}"\nend

@@ -1,0 +1,1 @@
+alist = [1, 2, 3, 4, 5]\nlast_element_negative_indexing = alist[-1]\nlast_element_length_method = alist[len(alist) - 1]\n\nprint(last_element_negative_indexing)  # Output: 5\nprint(last_element_length_method)      # Output: 5

@@ -1,0 +1,1 @@
+SELECT get_digits('ABC1234YY') FROM Dual; -- Returns: 1234\nSELECT get_digits('D456YD') FROM Dual;    -- Returns: 456\nSELECT get_digits('455PN') FROM Dual;     -- Returns: 455

@@ -1,0 +1,1 @@
+<?php\n   // prepend.php\n   $GLOBALS['mySuperGlobal'] = 'your_value_here';

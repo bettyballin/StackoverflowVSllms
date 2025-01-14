@@ -1,0 +1,1 @@
+SELECT Name, Age, ROW_NUMBER() OVER (ORDER BY Age) AS Ranking\nFROM your_table_name\nORDER BY Age;

@@ -1,0 +1,1 @@
+const xmlString = "<note><to>Tove</to><from>Jani</from><heading>Reminder</heading><body>Don't forget me this weekend!</body></note>";\n\n$($.parseXML(xmlString)).find("to").each(function() {\n    console.log($(this).text());\n});

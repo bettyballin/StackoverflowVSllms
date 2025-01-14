@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\n// Check if the user is logged in, redirect to login page if not\nif (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {\n    header("Location: login.php");\n    exit;\n}\n\n$imagePath = "path/to/your/image.jpg";\n\nheader('Content-Type: image/jpeg'); // Change MIME type according to your image file type\nreadfile($imagePath);\n?>

@@ -1,0 +1,1 @@
+// src/Model/Table/MenuItemsTable.php\nnamespace App\Model\Table;\n\nuse Cake\ORM\Table;\n\nclass MenuItemsTable extends Table\n{\n    public function getMenuItems()\n    {\n        return $this->find('all')->toArray();\n    }\n}

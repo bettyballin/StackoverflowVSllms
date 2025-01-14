@@ -1,0 +1,1 @@
+const obj = {\n    greet: function(name) {\n        console.log(`Hello, ${name}!`);\n    }\n};\n\nobj.greet('Alice'); // Outputs: Hello, Alice!

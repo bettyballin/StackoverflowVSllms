@@ -1,0 +1,1 @@
+# Example for current trend from the last 24 hours\ncurrent_trend = hits("Jan 11, 3:45", "Jan 12, 3:45")\n\n# Historic trends for each of the preceding days at the same intervals before the current time\nhistoric_trends = [\n    hits("Jan 10, 3:45", "Jan 11, 3:45"),\n    hits("Jan 9, 3:45", "Jan 10, 3:45"),\n    # Add more days as needed\n]

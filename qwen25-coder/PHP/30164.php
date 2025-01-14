@@ -1,0 +1,1 @@
+$myArray = array('apple', 'orange', 'grape');\n$values = array_map(function($item) {\n    return "'" . mysqli_real_escape_string($connection, $item) . "'";\n}, $myArray);\n\n$query = "INSERT INTO `Fruits` (`FruitName`) VALUES (" . implode("),(", $values) . ")";\nmysqli_query($connection, $query);

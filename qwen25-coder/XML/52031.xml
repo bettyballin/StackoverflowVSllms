@@ -1,0 +1,1 @@
+<uses-permission android:name="android.permission.INTERNET"/>\n   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>\n\n   <meta-data\n       android:name="com.google.android.geo.API_KEY"\n       android:value="YOUR_API_KEY_HERE"/>

@@ -1,0 +1,1 @@
+RESTORE LOG [DB-Name] \n   FROM DISK = 'C:\Path\To\TailLogBackup.trn'\n   WITH RECOVERY, STOPAT = 'YYYY-MM-DD HH:MM:SS';

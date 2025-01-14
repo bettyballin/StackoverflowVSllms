@@ -1,0 +1,1 @@
+from flask_limiter import Limiter\n   from flask_limiter.util import get_remote_address\n\n   limiter = Limiter(\n       get_remote_address,\n       default_limits=["200 per day", "50 per hour"]\n   )\n\n   @app.route("/products")\n   @limiter.limit("10 per minute")\n   def products():\n       # Your endpoint logic

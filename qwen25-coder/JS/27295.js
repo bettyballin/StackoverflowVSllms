@@ -1,0 +1,1 @@
+// Listen for messages from the parent\nwindow.addEventListener('message', function(event) {\n    if (event.origin !== "https://yourparentpage.com") return; // Ensure the message is only handled from the expected origin\n    var parentUrl = event.data.parentUrl;\n    console.log("Received parent URL:", parentUrl);\n    // Verify the received URL here\n});

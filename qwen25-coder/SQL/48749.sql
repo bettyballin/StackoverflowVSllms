@@ -1,0 +1,1 @@
+-- Drop the original table in your primary database\n   USE YourOriginalDatabaseName;\n   GO\n   DROP TABLE YourLargeTableName;\n   \n   -- Create a view that points to the new table in the secondary database\n   CREATE VIEW YourLargeTableName AS\n   SELECT * FROM LargeTableDB.dbo.YourLargeTableName;

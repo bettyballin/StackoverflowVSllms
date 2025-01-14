@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTable AS T\nINNER JOIN (\n    SELECT KEY_TBL.[KEY] \n    FROM CONTAINSTABLE(YourTable, (YourPrimaryKeyColumn), '"*" + REPLACE("abcdef12345", " ", "<>") + "*"') AS KEY_TBL\n) AS FTT ON T.PrimaryKeyColumn = FTT.[KEY];

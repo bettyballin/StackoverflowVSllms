@@ -1,0 +1,1 @@
+SELECT * FROM YourTable WITH (UPDLOCK, HOLDLOCK)\nWHERE RowID = @YourRowId;

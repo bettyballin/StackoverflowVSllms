@@ -1,0 +1,1 @@
+-- Immediate query for top 1000 rows\nSELECT TOP 1000 *\nFROM YourViewOrTable\nWHERE ...\nORDER BY ...;\n\n-- Asynchronous query for total count (this should be run in background)\nSELECT COUNT(*)\nFROM YourViewOrTable\nWHERE ...;

@@ -1,0 +1,1 @@
+DECLARE @PageSize INT = 10;\nDECLARE @PageNumber INT = 1;\n\n-- Query with OFFSET FETCH for Pagination\nSELECT * \nFROM YourTable\nORDER BY YourOrderColumn\nOFFSET (@PageNumber-1) * @PageSize ROWS FETCH NEXT @PageSize ROWS ONLY\n\n-- For the total count\nSELECT COUNT(*) AS TotalCount\nFROM YourTable;

@@ -1,0 +1,1 @@
+$columnValues = ['value1', 'value2', 'value3'];\n$key = md5(implode('_', $columnValues));\n\n$array[$key] = 'your data';

@@ -1,0 +1,1 @@
+SELECT ID, GREATEST(Date1, Date2) AS MostRecentDate\nFROM your_table_name;

@@ -1,0 +1,1 @@
+SET DATEFORMAT ymd;\n-- Your SQL operations here

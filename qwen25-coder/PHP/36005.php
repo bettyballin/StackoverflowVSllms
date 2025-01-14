@@ -1,0 +1,1 @@
+$array = ['a', 'b', 'c'];\n\n$lastIndex = count($array) - 1;\n$key = key($array); // Get the current key of the array\n\nforeach ($array as $index => $element) {\n    if ($index === 0) {\n        echo "First iteration: $element\n";\n    }\n    \n    if ($index === $lastIndex) {\n        echo "Last iteration: $element\n";\n    }\n    \n    // Other code\n}

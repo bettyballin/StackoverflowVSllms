@@ -1,0 +1,1 @@
+// Full tag\n<?php echo $session_id; ?>\n\n// Shorthand tag\n<?= $session_id; ?>

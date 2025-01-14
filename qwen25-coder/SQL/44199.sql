@@ -1,0 +1,1 @@
+SELECT id,\n       CASE \n           WHEN (SELECT MAX(value) FROM my_table WHERE other_value = 1) IS NOT NULL\n               THEN (SELECT MAX(value) FROM my_table WHERE other_value = 1)\n           ELSE 0\n       END AS max_value\nFROM other_table;

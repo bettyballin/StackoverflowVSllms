@@ -1,0 +1,1 @@
+$cl = new SphinxClient();\n   $cl->SetSelect("title");\n   $result = $cl->Query('your search term', 'books');

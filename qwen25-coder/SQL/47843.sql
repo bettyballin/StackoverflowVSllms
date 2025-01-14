@@ -1,0 +1,1 @@
+WITH HistoricalData AS (\n    SELECT *\n    FROM YourTable\n    AS OF TIMESTAMP TO_TIMESTAMP('2023-10-01 12:00:00', 'YYYY-MM-DD HH24:MI:SS')\n)\nSELECT \n    HD.*,\n    TO_TIMESTAMP('2023-10-01 12:00:00', 'YYYY-MM-DD HH24:MI:SS') AS historical_timestamp\nFROM HistoricalData HD;

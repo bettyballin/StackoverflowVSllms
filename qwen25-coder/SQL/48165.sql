@@ -1,0 +1,1 @@
+CREATE FUNCTION [dbo].[fComputeValue] (@data XML)\nRETURNS datetime\nWITH SCHEMABINDING\nAS\nBEGIN\n  RETURN CONVERT(datetime, @data.value('(/Metadata/Value[@Key="StartDate"])[1]', 'varchar'), 126);\nEND

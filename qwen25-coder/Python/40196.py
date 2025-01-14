@@ -1,0 +1,1 @@
+sage: original_list = [1, 2, 3]\nsage: multiplied_list = [2 * x for x in original_list]\nsage: multiplied_list\n[2, 4, 6]

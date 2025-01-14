@@ -1,0 +1,1 @@
+// Example JDBC data source configuration snippet\n   <dataSource id="yourDataSource" jndiName="jdbc/YourDS">\n       <containerAuthData alias="yourDBAlias"/>\n       <connectionManager maxPoolSize="200" minPoolSize="10" agedTimeout="30"/>\n   </dataSource>

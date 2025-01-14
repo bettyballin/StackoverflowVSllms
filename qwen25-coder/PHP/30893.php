@@ -1,0 +1,1 @@
+<?php if (is_single()) : ?>\n    <div>\n        <!-- Your HTML content that should only appear on blog posts -->\n        This is a blog post!\n    </div>\n<?php endif; ?>

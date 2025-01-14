@@ -1,0 +1,1 @@
+<?php\n$requestHeader = $_SERVER['HTTP_X_REQUESTED_WITH'] ?? null;\nif ($requestHeader !== null) {\n    echo "The value of X-Requested-With header is: " . $requestHeader;\n} else {\n    echo "X-Requested-With header is not set.";\n}\n?>

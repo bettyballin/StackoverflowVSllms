@@ -1,0 +1,1 @@
+import sys\n\n# Ensure stdout is using utf-8 encoding\nsys.stdout.reconfigure(encoding='utf-8')\n\nprint(mytext)

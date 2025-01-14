@@ -1,0 +1,1 @@
+EXPLAIN PLAN FOR SELECT * FROM employees WHERE department_id = 5;

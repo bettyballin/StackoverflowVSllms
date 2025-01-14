@@ -1,0 +1,1 @@
+require 'humanize'\n\nnumber = 123\nputs number.humanize # Outputs: "one hundred twenty-three"

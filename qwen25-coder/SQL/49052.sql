@@ -1,0 +1,1 @@
+SELECT DISTINCT a.*\nFROM TableA a\nINNER JOIN TableB b ON a.Id = b.TableAId;

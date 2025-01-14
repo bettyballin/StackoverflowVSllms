@@ -1,0 +1,1 @@
+WITH MostRecentData AS (\n    SELECT f1, f2, f3,\n           ROW_NUMBER() OVER (PARTITION BY f1 ORDER BY f3 DESC) as rn\n    FROM Server.DB.dbo.Table2\n    WHERE f3 IS NOT NULL\n)\nUPDATE Table1\nSET f2 = m.f2,\n    f3 = CONVERT(varchar, m.f3, 101)\nFROM Table1 t1\nINNER JOIN MostRecentData m \nON t1.f1 = m.f1 AND m.rn = 1;

@@ -1,0 +1,1 @@
+-- Check current process and session limits\nSHOW PARAMETER processes;\nSHOW PARAMETER sessions;\n\n-- Alter system parameters (requires SYSDBA privileges)\nALTER SYSTEM SET processes=2048 SCOPE=SPFILE;\nALTER SYSTEM SET sessions=2561 SCOPE=SPFILE; -- sessions = 1.1 * processes + 5\n\n-- Restart the database for changes to take effect\nSHUTDOWN IMMEDIATE;\nSTARTUP;

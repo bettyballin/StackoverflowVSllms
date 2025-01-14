@@ -1,0 +1,1 @@
+window.addEventListener('wheel', (event) => {\n    if (event.deltaY < 0) {\n        console.log('Scrolling up');\n    } else if (event.deltaY > 0) {\n        console.log('Scrolling down');\n    }\n});

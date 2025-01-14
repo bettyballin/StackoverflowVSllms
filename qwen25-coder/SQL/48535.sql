@@ -1,0 +1,1 @@
+IF exists (select * from syscolumns\n    WHERE id=object_id('Table_MD') and name='timeout')\nBEGIN\n    EXEC sp_executesql N'ALTER TABLE [dbo].[Table_MD] DROP COLUMN timeout'\nEND\nGO

@@ -1,0 +1,1 @@
+$('.blueBoxMid ul li').each(function() {\n  var hoverText = $(this).find('em').text(); // Get the text from <em>\n  $(this).attr('title', hoverText) // Set the title attribute of the <li> element\n         .hover(function() { $(this).css('cursor', 'help'); }) // Change cursor on hover\n         .children('em').hide(); // Hide the <em> element\n});

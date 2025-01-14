@@ -1,0 +1,1 @@
+getIncr: function(parameters, success){\n    $.ajax({\n        async: false,\n        type: 'GET',\n        url: getTarget,\n        data: "n=" + parameters,\n        dataType: "json",\n        crossDomain: true,\n        success: success,\n        error: function(xhr, status, error) {\n            console.error("Error:", status, error);\n        }\n    });\n}

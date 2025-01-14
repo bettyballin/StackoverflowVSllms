@@ -1,0 +1,1 @@
+Dim greeting1 As String = GetGreeting()          ' Returns "Hello, Guest!"\nDim greeting2 As String = GetGreeting("Alice")   ' Returns "Hello, Alice!"

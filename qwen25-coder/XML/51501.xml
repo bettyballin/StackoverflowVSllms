@@ -1,0 +1,1 @@
+<configuration>\n   <system.webServer>\n      <handlers>\n         <add name="AllRequests" path="*" verb="*" type="System.Web.UI.PageHandlerFactory"/>\n      </handlers>\n   </system.webServer>\n</configuration>

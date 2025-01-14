@@ -1,0 +1,1 @@
+CREATE INDEX idx_upperdeptid ON cust_dept_roll_up_tbl (UPPER(dept_id));

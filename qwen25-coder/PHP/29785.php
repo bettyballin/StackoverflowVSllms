@@ -1,0 +1,1 @@
+use Symfony\Component\Form\Extension\Core\Type\ChoiceType;\n\npublic function buildForm(FormBuilderInterface $builder, array $options)\n{\n    $builder->add('field', ChoiceType::class, [\n        'choices'  => [\n            'test1' => '1',\n            'test2' => '2',\n        ],\n        'data' => '2', // Default value for the field\n    ]);\n}

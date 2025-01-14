@@ -1,0 +1,1 @@
+CREATE TABLE server_configs (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    hostname VARCHAR(255) NOT NULL UNIQUE,\n    ip_address VARCHAR(45),\n    role ENUM('master', 'slave') NOT NULL DEFAULT 'slave',\n    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\n);

@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS `data` (\n    `id` BIGINT NOT NULL AUTO_INCREMENT UNIQUE,\n    `field1` VARCHAR(255),  -- Adjust data type according to your field1 expected values\n    `field2` VARCHAR(255),  -- Adjust data type according to your field2 expected values\n    PRIMARY KEY (`id`)\n)

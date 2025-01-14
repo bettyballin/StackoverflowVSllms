@@ -1,0 +1,1 @@
+$url = "http://example.com/data";\n$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, $url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);\n$data = curl_exec($ch);\ncurl_close($ch);\n\necho $data;

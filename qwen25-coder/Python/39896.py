@@ -1,0 +1,1 @@
+threshold = 0.5  # You might want to adjust this\n\nclassified_words = {\n    'common': {word: score for word, score in weighted_scores.items() if score >= threshold},\n    'rare': {word: score for word, score in weighted_scores.items() if score < threshold}\n}\n\nprint("Common Words:", classified_words['common'])\nprint("Rare Words:", classified_words['rare'])

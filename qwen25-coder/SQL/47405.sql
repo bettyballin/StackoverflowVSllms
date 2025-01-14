@@ -1,0 +1,1 @@
+-- Set audit trail parameter\n   ALTER SYSTEM SET AUDIT_TRAIL = XML, DB SCOPE=SPFILE;\n   \n   -- Restart the database for changes to take effect\n   SHUTDOWN IMMEDIATE;\n   STARTUP;

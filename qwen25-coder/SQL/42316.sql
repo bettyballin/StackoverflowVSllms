@@ -1,0 +1,1 @@
+SELECT \n    d.referenced_entity_name AS TableName,\n    o.type_desc AS ObjectType\nFROM \n    sys.sql_modules sm\nCROSS APPLY \n    sys.dm_sql_referenced_entities(OBJECT_NAME(sm.object_id), 'OBJECT') d\nJOIN \n    sys.objects o ON d.referenced_minor_id = o.object_id\nWHERE \n    OBJECT_NAME(sm.object_id) = 'YourStoredProcedureName'

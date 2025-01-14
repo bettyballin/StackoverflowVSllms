@@ -1,0 +1,1 @@
+# User model snippet\n   after_commit :broadcast_online, on: [:create, :update]\n\n   def broadcast_online\n     ActionCable.server.broadcast 'users', user_id: id, online: (last_visited > 10.minutes.ago)\n   end\n\n   # Controller or model method to query online users\n   def self.online\n     where("last_visited > ?", 10.minutes.ago).map(&:id)\n   end

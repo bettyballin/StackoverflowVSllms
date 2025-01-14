@@ -1,0 +1,1 @@
+function doSomething() {\n    document.body.className += ' wait';\n    // Perform your AJAX call here\n    // Example using setTimeout to simulate an AJAX call\n    setTimeout(function() {\n        document.body.classList.remove('wait');\n        // Handle response or failure\n    }, 2000);\n}

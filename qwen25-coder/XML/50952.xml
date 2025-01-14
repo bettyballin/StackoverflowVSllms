@@ -1,0 +1,1 @@
+<action path="/exampleAction"\n        type="com.example.ExampleAction"\n        name="ExampleForm"\n        scope="request"\n        validate="true"\n        input="/WEB-INF/pages/examplePage.vm">\n    <forward name="success" path="/WEB-INF/pages/success.vm"/>\n    <forward name="failure" path="/WEB-INF/pages/failure.vm"/>\n</action>

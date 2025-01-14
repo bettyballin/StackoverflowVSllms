@@ -1,0 +1,1 @@
+' In your VB.NET code-behind\nProtected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load\n    If Not IsPostBack Then\n        ' Set the height of the div dynamically\n        myDiv.Style("height") = "200px"\n    End If\nEnd Sub

@@ -1,0 +1,1 @@
+-- Create a role that has only the necessary permissions\nCREATE ROLE MyAppUserRole;\nGRANT SELECT, INSERT, UPDATE ON SchemaName.TableName TO MyAppUserRole;\n\n-- Add Active Directory users or groups to this role\nALTER ROLE MyAppUserRole ADD MEMBER Domain\User1;\nALTER ROLE MyAppUserRole ADD MEMBER Domain\GroupName;

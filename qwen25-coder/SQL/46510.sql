@@ -1,0 +1,1 @@
+select c from Car c\nleft join fetch c.owner\nwhere c.type in (?1)\norder by c.model

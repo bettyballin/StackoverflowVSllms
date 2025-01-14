@@ -1,0 +1,1 @@
+-- Assuming 'data' is an xml column in your table 'documents'\nSELECT (xpath('/root/elementname/@attributename', data))[1]::text FROM documents;

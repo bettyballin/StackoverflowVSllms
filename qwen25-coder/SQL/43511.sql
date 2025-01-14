@@ -1,0 +1,1 @@
+SELECT \n    session_id,\n    MIN(created) AS start_time,\n    last_page_viewed.page_id AS last_page_viewed\nFROM \n    your_table_name t1\nJOIN (\n    SELECT \n        session_id, MAX(page_id) as page_id\n    FROM \n        your_table_name\n    GROUP BY \n        session_id\n) last_page_viewed ON t1.session_id = last_page_viewed.session_id\nGROUP BY \n    t1.session_id;

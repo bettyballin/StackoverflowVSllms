@@ -1,0 +1,1 @@
+// In your controller method:\npublic function show_view() {\n    $data['formatted_string'] = $this->format_string('Your original string');\n    $this->load->view('your_view', $data);\n}\n\nprivate function format_string($string) {\n    // Your formatting logic here\n    return strtoupper($string); // Example: convert to uppercase\n}

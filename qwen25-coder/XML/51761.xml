@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.slf4j</groupId>\n    <artifactId>slf4j-api</artifactId>\n    <version>2.0.7</version>\n</dependency>\n<dependency>\n    <groupId>ch.qos.logback</groupId>\n    <artifactId>logback-classic</artifactId>\n    <version>1.4.8</version>\n</dependency>

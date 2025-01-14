@@ -1,0 +1,1 @@
+COMMIT;\n   ALTER TABLE MY_TABLE DROP CONSTRAINT c_name;\n\n   -- Wait a moment to ensure all metadata changes are processed\n\n   ALTER TABLE MY_TABLE ADD CONSTRAINT c_unique_new_name PRIMARY KEY (COLUMN_NAME) ENABLE;

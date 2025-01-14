@@ -1,0 +1,1 @@
+WITH RankedItems AS (\n    SELECT \n        *,\n        ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY post_date DESC) as item_rank\n    FROM \n        items\n)\nSELECT *\nFROM RankedItems\nWHERE item_rank <= 3\nORDER BY post_date DESC\nLIMIT 10;

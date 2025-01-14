@@ -1,0 +1,1 @@
+SELECT * \n   FROM sys.triggers \n   WHERE parent_id = OBJECT_ID('dbo.Sessions');

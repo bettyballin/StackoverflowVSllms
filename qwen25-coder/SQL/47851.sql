@@ -1,0 +1,1 @@
+select * from widget\n       where lower(name) >= 'ba'\n         and lower(name) < 'bj';

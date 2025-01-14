@@ -1,0 +1,1 @@
+// index.php\nrequire_once '/path/to/vendor/autoload.php';\n\n$loader = new \Twig\Loader\FilesystemLoader('/path/to/templates');\n$twig = new \Twig\Environment($loader, ['cache' => false]);\n\n$template_data['editable_content'] = 'Welcome to our website!';\n$template_data['title'] = 'Home Page';\n\necho $twig->render('index.html.twig', $template_data);

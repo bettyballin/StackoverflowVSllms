@@ -1,0 +1,1 @@
+BEGIN\n  FOR c IN (SELECT constraint_name, table_name\n            FROM user_constraints) LOOP\n    EXECUTE IMMEDIATE 'ALTER TABLE ' || c.table_name || \n                      ' DISABLE CONSTRAINT ' || c.constraint_name;\n  END LOOP;\nEND;\n/

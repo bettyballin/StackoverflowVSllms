@@ -1,0 +1,1 @@
+CREATE TABLE Fractions (\n    Numerator float,\n    Denominator float\n);\n\nINSERT INTO Fractions VALUES (1, 0);\nSELECT Numerator, Denominator,\n    COALESCE(CASE WHEN Denominator = 0 THEN NULL ELSE 1 / Denominator END, 0) as Result\nFROM Fractions;\n\nDROP TABLE Fractions;

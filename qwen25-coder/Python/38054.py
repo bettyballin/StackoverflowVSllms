@@ -1,0 +1,1 @@
+# This is a simple Python script (e.g., example.py)\ndef greet(name):\n    print(f"Hello, {name}!")\n\ngreet("World")

@@ -1,0 +1,1 @@
+<%= form_for(:session, remote: true) do |f| %>\n     <%= f.label :email %>\n     <%= f.email_field :email %>\n\n     <%= f.label :password %>\n     <%= f.password_field :password %>\n\n     <%= f.submit "Login" %>\n   <% end %>

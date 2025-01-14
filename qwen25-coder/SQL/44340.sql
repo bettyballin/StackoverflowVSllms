@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n    SELECT category, row_data, value FROM table1\n    UNION ALL\n    SELECT category, row_data, value FROM table2\n    UNION ALL\n    SELECT category, row_data, value FROM table3\n) AS CombinedData\nPIVOT (\n    MAX(value)\n    FOR row_data IN ([Column1], [Column2], [Column3])\n) AS PivotTable;

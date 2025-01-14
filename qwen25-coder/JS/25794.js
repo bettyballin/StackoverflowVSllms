@@ -1,0 +1,1 @@
+var startTime = new Date().getTime();\n\n// Your script logic here\n\nvar endTime = new Date().getTime();\nWScript.Echo("Execution time: " + (endTime - startTime) + " ms");

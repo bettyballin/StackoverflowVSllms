@@ -1,0 +1,1 @@
+SELECT \n    G.GroupName,\n    COUNT(JAG.AID) AS AccountCount,\n    SUM(A.Balance) AS TotalBalance\nFROM \n    AccountGroups G\nLEFT JOIN \n    JoinAccountsGroups JAG ON G.ID = JAG.GID\nLEFT JOIN \n    Accounts A ON JAG.AID = A.ID\nGROUP BY \n    G.GroupName;

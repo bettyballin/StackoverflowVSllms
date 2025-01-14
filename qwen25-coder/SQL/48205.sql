@@ -1,0 +1,1 @@
+SELECT c.*\nFROM Call c\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM Phone_book p\n    WHERE p.phone_number = c.phone_number\n);

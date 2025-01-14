@@ -1,0 +1,1 @@
+$conf['theme_default'] = 'bartik';

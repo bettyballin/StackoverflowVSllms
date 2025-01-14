@@ -1,0 +1,1 @@
+<?php\n$url = $_SERVER['PHP_SELF'];\n?>\n<script>\n    window.ajaxUrl = "<?php echo htmlspecialchars($url, ENT_QUOTES, 'UTF-8'); ?>";\n</script>

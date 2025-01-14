@@ -1,0 +1,1 @@
+class Meal < ApplicationRecord\n  has_many :foods, inverse_of: :meal, dependent: :destroy\n  accepts_nested_attributes_for :foods, allow_destroy: true\nend\n\nclass Food < ApplicationRecord\n  belongs_to :meal\nend

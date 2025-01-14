@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX idx_cities_state_slug ON cities (state_id, slug);\nCREATE INDEX idx_cities_state_id ON cities (state_id);

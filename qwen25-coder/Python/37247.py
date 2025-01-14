@@ -1,0 +1,1 @@
+# forms.py\nfrom django import forms\nfrom .models import Person\n\nclass PersonForm(forms.ModelForm):\n    class Meta:\n        model = Person\n        fields = ['name', 'age']

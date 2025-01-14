@@ -1,0 +1,1 @@
+STATE CHAR(2),

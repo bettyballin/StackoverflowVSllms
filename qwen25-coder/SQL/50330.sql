@@ -1,0 +1,1 @@
+-- Using INT for unsigned values with manual constraint checks\nDECLARE @unsignedInt INT;\nSET @unsignedInt = 2147483647; -- Maximum positive signed int\n\n-- Using BIGINT to simulate UNSIGNED INT\nDECLARE @bigUnsignedInt BIGINT;\nSET @bigUnsignedInt = 4294967295; -- Maximum unsigned 4-byte value

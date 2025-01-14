@@ -1,0 +1,1 @@
+-- Switching database to BULK_LOGGED mode\nALTER DATABASE YourDatabase SET RECOVERY BULK_LOGGED;\n\n-- Perform your delete operations\n\n-- Switch back to FULL or SIMPLE mode based on your needs\nALTER DATABASE YourDatabase SET RECOVERY FULL;

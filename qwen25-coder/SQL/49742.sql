@@ -1,0 +1,1 @@
+update prospekts set sni_kod = case\n\nwhen \n    t.sniInt >= 1000 and t.sniInt <= 1499 \n    or t.sniInt >= 1600 and t.sniInt <= 2439\nthen '1'\nwhen \n    t.sniInt >= 7000 and t.sniInt <= 7499 \nthen 'W'\nelse\n     sni_kod\nend\nfrom prospekts p\ninner join (select id, cast(sni_kod as int) as sniInt from prospekts) t on p.id = t.id;

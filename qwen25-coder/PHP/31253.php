@@ -1,0 +1,1 @@
+$url = "http://www.foo.com/bar/baz";\npreg_match('/^(https?:\/\/)?([^\/]+)\/?(.*)$/', $url, $matches);\n\nprint_r($matches);

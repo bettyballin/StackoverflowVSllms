@@ -1,0 +1,1 @@
+<?php\n$image = 'path/to/your/image.jpg';\n// Set headers to allow browser caching\nheader('Content-type: image/jpeg');\nheader('Cache-Control: max-age=2592000'); // Cache for a month\nreadfile($image);\n?>

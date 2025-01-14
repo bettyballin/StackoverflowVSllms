@@ -1,0 +1,1 @@
+Dim str As String = "Hello, World!"\n    Dim midStr As String = str.Substring(7, 5) ' Outputs: World

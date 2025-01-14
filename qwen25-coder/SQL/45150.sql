@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTable\nWHERE PrimaryKeyColumn LIKE '%abcd%'\n   OR PrimaryKeyColumn LIKE '%12345%';

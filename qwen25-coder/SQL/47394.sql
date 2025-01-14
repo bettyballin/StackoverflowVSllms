@@ -1,0 +1,1 @@
+SELECT t2.id, t2.name\nFROM tbl2 t2\nLEFT JOIN tbl3 t3 ON t2.id = t3.tbl2_id AND t3.tbl1_id = ?\nWHERE t3.id IS NULL;

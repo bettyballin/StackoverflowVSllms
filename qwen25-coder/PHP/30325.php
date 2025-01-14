@@ -1,0 +1,1 @@
+// In processForm.php\n   <?php\n     session_start();\n     if (!isset($_SESSION['form_submitted'])) {\n       header("HTTP/1.0 403 Forbidden");\n       die("Access Denied: You cannot access this file directly.");\n     }\n     unset($_SESSION['form_submitted']); // Clean up\n     // Process form data here...\n   ?>

@@ -1,0 +1,1 @@
+-- Assuming you have a table with VFP uniqueidentifier as strings\nCREATE TABLE FoxProGuids\n(\n    VfpGuidId CHAR(38)\n);\n\nINSERT INTO FoxProGuids (VfpGuidId)\nVALUES ('12345678-9ABC-DEF0-1234-56789ABCDEF0'); -- Example GUID\n\n-- Converting to SQL Server uniqueidentifier\nSELECT \n    VfpGuidId,\n    CONVERT(uniqueidentifier, VfpGuidId) AS SqlGuid\nFROM FoxProGuids;

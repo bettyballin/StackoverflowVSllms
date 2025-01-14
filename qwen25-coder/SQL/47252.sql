@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE next_working_day = DATEADD(\n    DAY,\n    CASE \n        WHEN DATENAME(WEEKDAY, your_date_column) = 'Friday' THEN 3\n        WHEN DATENAME(WEEKDAY, your_date_column) = 'Saturday' THEN 2\n        ELSE 1\n    END,\n    your_date_column\n)

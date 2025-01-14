@@ -1,0 +1,1 @@
+CREATE TABLE data_log (\n         log_id NUMBER GENERATED ALWAYS AS IDENTITY,\n         log_time TIMESTAMP(3),\n         data_value NUMBER\n     ) COMPRESS;

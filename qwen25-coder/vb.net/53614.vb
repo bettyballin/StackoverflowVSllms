@@ -1,0 +1,1 @@
+Public Const MaxValue As Integer = 100

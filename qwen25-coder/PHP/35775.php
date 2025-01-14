@@ -1,0 +1,1 @@
+require_once 'path/to/lightopenid/openid.php';

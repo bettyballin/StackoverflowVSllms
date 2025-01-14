@@ -1,0 +1,1 @@
+WITH RankedListings AS (\n    SELECT \n        id, -- Assuming there is a unique identifier column like 'id'\n        city,\n        creation,\n        ROW_NUMBER() OVER (PARTITION BY city ORDER BY creation DESC) as rn\n    FROM \n        tREaltyTrac\n)\nDELETE FROM tREaltyTrac\nWHERE id IN (\n    SELECT id FROM RankedListings WHERE rn > 10\n);

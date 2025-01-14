@@ -1,0 +1,1 @@
+def hash_integers(a, b):\n    # Convert a and b to non-negative numbers\n    a += 1\n    b += 1\n    return cantor_pairing_function(a, b)\n\n# Example usage with negative integers:\nA = -5\nB = -3\nC = hash_integers(A, B)\nprint(f"The unique integer for ({A}, {B}) is {C}")

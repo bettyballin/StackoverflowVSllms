@@ -1,0 +1,1 @@
+<?php $_option = $this->getOption() ?>\n<?php echo htmlspecialchars_decode($_option->getTitle()) ?>

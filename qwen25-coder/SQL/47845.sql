@@ -1,0 +1,1 @@
+CREATE VIEW vw_EmployeeDetails AS\nSELECT e.EmployeeID, e.FirstName, e.LastName, d.DepartmentName\nFROM Employees e\nJOIN Departments d ON e.DepartmentID = d.DepartmentID;

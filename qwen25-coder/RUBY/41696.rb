@@ -1,0 +1,1 @@
+require 'yaml'\n\ndata = YAML.load("\nis_something:\n  values: ['yes', 'no']\n")\n\ndef customize_yaml(data)\n  data.to_yaml.gsub(/\n\s+-/, ', ').gsub(/[,\s]+$/, '').gsub(/(\[|,)(?=\[\w+\])/m, '\1 ')\nend\n\nputs customize_yaml(data)

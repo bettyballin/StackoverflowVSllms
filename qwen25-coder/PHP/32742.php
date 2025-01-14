@@ -1,0 +1,1 @@
+$query = "SELECT descendant AS id, GROUP_CONCAT(ancestor) as ancestors FROM closure GROUP BY (descendant);";\n$result = $mysqli->query($query);\n\n$data = [];\nwhile ($row = $result->fetch_assoc()) {\n    $data[$row['id']] = explode(',', $row['ancestors']);\n}

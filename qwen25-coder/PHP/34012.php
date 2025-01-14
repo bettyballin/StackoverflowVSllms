@@ -1,0 +1,1 @@
+<?php\nheader("Cache-Control: public, max-age=31536000"); // Cache for one year\nheader("Expires: " . gmdate('D, d M Y H:i:s \G\M\T', time() + 31536000)); // Set expiration date

@@ -1,0 +1,1 @@
+SELECT *\nFROM Activities A\nJOIN Followers F ON A.user_id = F.follower_id\nWHERE F.user_id = ?\nORDER BY A.id DESC;

@@ -1,0 +1,1 @@
+<system.serviceModel>\n    <services>\n      <service name="YourNamespace.DataService">\n        <endpoint address="" \n                  binding="netNamedPipeBinding" \n                  contract="YourNamespace.IDataService"/>\n      </service>\n    </services>\n</system.serviceModel>

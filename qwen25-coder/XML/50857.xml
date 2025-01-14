@@ -1,0 +1,1 @@
+<!-- Add this within your .vcxproj file under <ItemDefinitionGroup> -->\n<Link>\n  <AdditionalDependencies>NAME_OF_YOUR_LIBRARY.lib;%(AdditionalDependencies)</AdditionalDependencies>\n</Link>

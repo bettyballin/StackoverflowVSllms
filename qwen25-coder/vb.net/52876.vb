@@ -1,0 +1,1 @@
+<%\n' Set a cookie value\nResponse.Cookies("MyCookie") = "Value"\n\n' Create the 'Set-Cookie' header with HttpOnly flag\nDim cookieName, cookieValue\ncookieName = "MyCookie"\ncookieValue = Request.Cookies(cookieName)\nIf Not IsEmpty(cookieValue) Then\n    Response.AddHeader "Set-Cookie", cookieName & "=" & Server.HTMLEncode(cookieValue) & "; path=/; HttpOnly"\nEnd If\n%>

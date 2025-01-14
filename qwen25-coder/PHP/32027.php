@@ -1,0 +1,1 @@
+$stats = $memcache->getExtendedStats();\n   print_r($stats);

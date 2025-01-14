@@ -1,0 +1,1 @@
+$students = $db->query('SELECT id FROM students');\n    $teachers = $db->query('SELECT id FROM teachers');\n\n    // Perform other operations...\n\n    $db->disconnectFromDB();

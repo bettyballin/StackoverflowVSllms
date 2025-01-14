@@ -1,0 +1,1 @@
+<?PHP\n    ob_start(); // Start output buffering\n\n    include $_SERVER['DOCUMENT_ROOT'] . "/myfile2.php"; // Include your file\n\n    $root_var = ob_get_clean(); // Capture the buffer and clean (flush) the buffer\n\n    echo $root_var; // If you want to see the content, just echo it\n?>

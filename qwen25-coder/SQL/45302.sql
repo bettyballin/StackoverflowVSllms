@@ -1,0 +1,1 @@
+WITH RECURSIVE cte AS (\n    SELECT ID FROM your_table WHERE ID = :target_id -- Start with the target row\n    UNION ALL\n    SELECT t.ID FROM your_table t\n    INNER JOIN cte ON cte.ID = t.ParentId -- Find all children\n)\nDELETE FROM your_table \nWHERE ID IN (SELECT ID FROM cte);

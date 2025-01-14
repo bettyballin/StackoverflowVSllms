@@ -1,0 +1,1 @@
+<?php\n    // test.php\n    $config_key_security = "test";\n?>

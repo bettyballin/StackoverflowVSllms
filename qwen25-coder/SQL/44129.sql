@@ -1,0 +1,1 @@
+sp_configure 'Cross DB Ownership Chaining', 1;\nRECONFIGURE;\nGO

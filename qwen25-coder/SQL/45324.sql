@@ -1,0 +1,1 @@
+BEGIN\n  DBMS_SCHEDULER.create_job (\n    job_name        => 'reset_my_sequence_yearly',\n    job_type        => 'PLSQL_BLOCK',\n    job_action      => 'BEGIN RESET_SEQUENCE_YEARS; END;',\n    start_date      => TO_TIMESTAMP('2024-01-01 00:00:00', 'YYYY-MM-DD HH24:MI:SS'),\n    repeat_interval => 'FREQ=YEARLY',\n    enabled         => TRUE\n  );\nEND;\n/

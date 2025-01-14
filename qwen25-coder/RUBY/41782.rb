@@ -1,0 +1,1 @@
+# app/jobs/send_email_job.rb\nclass SendEmailJob < ApplicationJob\n  queue_as :default\n\n  def perform(user, subject, body)\n    UserMailer.notify(user, subject, body).deliver_now\n  rescue => e\n    # Handle exceptions (e.g., log them)\n  end\nend

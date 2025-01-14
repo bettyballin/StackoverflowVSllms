@@ -1,0 +1,1 @@
+function pageLoad() {\n    // Your code here will run after asynchronous postbacks.\n    \n    // You can execute your custom function call here:\n    myCustomSuccessFunction();\n}\n\nfunction myCustomSuccessFunction() {\n    // Code to execute on AJAX success.\n    console.log('AJAX call succeeded within UpdatePanel!');\n}

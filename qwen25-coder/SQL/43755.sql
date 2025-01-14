@@ -1,0 +1,1 @@
+SELECT cost,\n       total,\n       per,\n       SUM(per) OVER (ORDER BY cost DESC) AS per_sum\nFROM (\n    SELECT cost, \n           SUM(cost) OVER() AS total, \n           cost / SUM(cost) OVER() AS per\n    FROM my_table\n) subquery\nORDER BY cost DESC;

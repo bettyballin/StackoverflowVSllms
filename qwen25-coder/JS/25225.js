@@ -1,0 +1,1 @@
+function scrollToBottom() {\n    var chatBox = $('#chatbox'); // Adjust the selector as necessary\n    chatBox.scrollTop(chatBox.prop("scrollHeight"));\n}\n\n// Example usage: Call this function after each new message is added.\n$('<div>New Message!</div>').appendTo(chatBox).hide().fadeIn();\nscrollToBottom();

@@ -1,0 +1,1 @@
+UPDATE YourTableName\nSET [YourDateField] = CDate([YourDateField]);

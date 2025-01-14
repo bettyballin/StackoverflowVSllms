@@ -1,0 +1,1 @@
+function ltrim_chars($str, $num) {\n    if ($num <= 0) return $str;\n    return substr($str, $num);\n}\n\nfunction rtrim_chars($str, $num) {\n    if ($num <= 0) return $str;\n    return substr($str, 0, -$num);\n}\n\n$str = "[test]";\n$str = ltrim_chars($str, 1); // Becomes 'test]'\n$str = rtrim_chars($str, 1); // Becomes 'test'\necho $str; // Outputs: test

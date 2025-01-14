@@ -1,0 +1,1 @@
+class ApplicationController < ActionController::Base\n     around_action :log_performance\n\n     def log_performance\n       start_time = Time.now\n       yield\n       duration = Time.now - start_time\n       Rails.logger.info "Performance: #{params[:controller]}##{params[:action]} took #{duration}s"\n     end\n   end

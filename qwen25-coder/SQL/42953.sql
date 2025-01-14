@@ -1,0 +1,1 @@
+-- Example Fact Table\nCREATE TABLE ReservationFact (\n    ReservationID INT PRIMARY KEY,\n    RoomNumber INT,\n    Status VARCHAR(10) CHECK (Status IN ('occupied', 'vacant')),\n    CheckInDate DATE,\n    CheckOutDate DATE\n);

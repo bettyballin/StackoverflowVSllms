@@ -1,0 +1,1 @@
+<?php\n// Ensure the path to your .cmd file is correct\n$command = escapeshellcmd('C:/path/to/your/script.cmd');\n\n// Execute the command and capture the output\n$output = shell_exec($command);\n\n// Display the output on the web page\necho "<pre>$output</pre>";\n?>

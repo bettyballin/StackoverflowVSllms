@@ -1,0 +1,1 @@
+// Create a new div element\nvar paddingDiv = document.createElement('div');\n\n// Set the style properties for the div\npaddingDiv.style.height = '150px';\npaddingDiv.style.clear = 'both';\n\n// Append the newly created div to the body of the document\ndocument.body.appendChild(paddingDiv);

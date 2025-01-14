@@ -1,0 +1,1 @@
+<?php\nreturn [\n    'hostname' => 'localhost',\n    'dbname'   => 'your_database_name',\n    'username' => 'your_username',\n    'password' => 'your_password'\n];

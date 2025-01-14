@@ -1,0 +1,1 @@
+<?php\n    // index.php or any other script needing db access\n\n    session_start();\n    \n    if (!isset($_SESSION["logged_in"]) || $_SESSION["logged_in"] !== true) {\n        header("Location: login.php");\n        exit;\n    }\n\n    require_once 'db.php'; // Include the database connection\n\n    // Your code here that uses $dbconn\n    ?>

@@ -1,0 +1,1 @@
+<?php\n// Database connection setup here\n\n$query = "SELECT * FROM my_table"; // Replace with your query\n$result = mysqli_query($conn, $query);\n\n$output = '';\nwhile ($row = mysqli_fetch_assoc($result)) {\n    $output .= "<p>" . htmlspecialchars($row['column_name']) . "</p>"; // Append data to output\n}\n\necho $output; // Send response back to client\n?>

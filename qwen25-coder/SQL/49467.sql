@@ -1,0 +1,1 @@
+SELECT b.*\nFROM friend_bulletin b\nJOIN friend_friend f1 ON b.user_id = f1.friendid AND f1.userid = ?\nWHERE f1.status = '1';

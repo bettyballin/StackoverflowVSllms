@@ -1,0 +1,1 @@
+START TRANSACTION;\n\nSELECT count FROM tag_data WHERE tagId = your_tag_id FOR UPDATE;\n-- At this point, the row with the given tagId is locked\n\nUPDATE tag_data\nSET count = count + 1\nWHERE tagId = your_tag_id;\n\nCOMMIT; -- This will release the lock and make the change visible to other transactions.

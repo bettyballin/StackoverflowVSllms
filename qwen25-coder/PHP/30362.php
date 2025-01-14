@@ -1,0 +1,1 @@
+if (isset($myvariable) && $myvariable !== "") {\n    // do something\n}\nif (isset($othervar) && $othervar !== "") {\n    // do something\n}\nif (isset($anothervar) && $anothervar !== "") {\n    // do something\n}

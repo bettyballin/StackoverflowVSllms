@@ -1,0 +1,1 @@
+// Old Code\n$servername = "localhost";\n$username = "root";\n$password = "old_root_password";\n$dbname = "your_database";\n\n// Updated Code\n$servername = "localhost";\n$username = "root";\n$password = "new_root_password"; // Update this line with your new root password\n$dbname = "your_database";

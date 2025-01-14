@@ -1,0 +1,1 @@
+<Serializable()>\nPartial Public Class Customers\n    ' Methods and properties specific to this file\nEnd Class

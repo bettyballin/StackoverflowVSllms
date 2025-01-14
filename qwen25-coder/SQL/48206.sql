@@ -1,0 +1,1 @@
+SELECT t.id AS topic_id\nFROM topics t\nJOIN topic_tags tt ON t.id = tt.topicFk\nJOIN tags g ON tt.tagFk = g.id\nWHERE g.name IN ('a', 'b', 'c')\nGROUP BY t.id\nHAVING COUNT(DISTINCT g.name) = 3\nAND NOT EXISTS (\n    SELECT 1\n    FROM topic_tags tt2\n    JOIN tags b ON tt2.tagFk = b.id\n    WHERE t.id = tt2.topicFk AND b.name IN ('d', 'e', 'f')\n);

@@ -1,0 +1,1 @@
+SELECT LENGTH(your_blob_column) FROM your_table WHERE some_condition;

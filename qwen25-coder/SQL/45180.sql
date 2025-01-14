@@ -1,0 +1,1 @@
+USE msdb;\n   SELECT * FROM restorehistory WHERE destination_database_name = 'YourDatabaseName';\n   SELECT * FROM backupset WHERE database_name = 'YourDatabaseName' ORDER BY backup_start_date, backup_finish_date;

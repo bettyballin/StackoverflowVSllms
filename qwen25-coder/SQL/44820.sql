@@ -1,0 +1,1 @@
+SELECT expense.*, transaction.*\nFROM (\n    SELECT * FROM expense LIMIT 5\n) AS limited_expense\nINNER JOIN transaction ON limited_expense.expense_id = transaction.transaction_expense_id;

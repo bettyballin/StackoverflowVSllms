@@ -1,0 +1,1 @@
+$k = null;\n$v = null;\n\n$dn=Zend_Ldap_Dn::explodeDn('CN=Alice Baker,CN=Users,DC=example,DC=com', $k, null, Zend_Ldap_Dn::ATTR_CASEFOLD_UPPER);\n$dn=Zend_Ldap_Dn::explodeDn('CN=Alice Baker,CN=Users,DC=example,DC=com', null, $v);

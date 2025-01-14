@@ -1,0 +1,1 @@
+Dim currentTime As DateTime = DateTime.Now\nDim periodOfDay As String\n\nIf currentTime.TimeOfDay < TimeSpan.FromHours(12) Then\n    periodOfDay = "AM"\nElse\n    periodOfDay = "PM"\nEnd If\n\nResponse.Write(periodOfDay)

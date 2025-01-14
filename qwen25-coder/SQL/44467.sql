@@ -1,0 +1,1 @@
+SELECT * \nFROM your_table\nORDER BY CONVERT(numeric_column, UNSIGNED);

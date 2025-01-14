@@ -1,0 +1,1 @@
+CREATE MATERIALIZED VIEW vw_complete_items AS\n   SELECT item_id, is_complete(your_function_params) as complete_status\n   FROM your_table;\n\n   -- To refresh the materialized view (schedule this as needed)\n   REFRESH MATERIALIZED VIEW CONCURRENTLY vw_complete_items;

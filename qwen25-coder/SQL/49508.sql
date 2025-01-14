@@ -1,0 +1,1 @@
+BEGIN TRY\n    BEGIN TRANSACTION;\n\n    -- Call package 1\n    EXEC Package1;\n\n    -- Call package 2\n    EXEC Package2;\n\n    -- Call package 3\n    EXEC Package3;\n\n    -- Call package 4\n    EXEC Package4;\n\n    COMMIT TRANSACTION;\nEND TRY\nBEGIN CATCH\n    ROLLBACK TRANSACTION;\n    THROW; -- or use another error handling mechanism as appropriate\nEND CATCH;

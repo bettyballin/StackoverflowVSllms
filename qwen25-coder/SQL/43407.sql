@@ -1,0 +1,1 @@
+SELECT DISTINCT [typeName] \nFROM [types]\nWITH (nolock)\nOPTION (RECOMPILE);

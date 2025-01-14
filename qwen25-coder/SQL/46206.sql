@@ -1,0 +1,1 @@
+SELECT owner, sequence_name, tablespace_name \nFROM dba_sequences \nWHERE sequence_name = 'YOUR_SEQUENCE_NAME';

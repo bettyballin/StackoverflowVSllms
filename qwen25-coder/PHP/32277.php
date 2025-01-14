@@ -1,0 +1,1 @@
+public function show($file) {\n       $viewObject = $this;\n       include($file.'.php');\n   }

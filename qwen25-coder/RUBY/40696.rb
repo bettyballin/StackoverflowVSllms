@@ -1,0 +1,1 @@
+safe_html = sanitize(\n  user_input,\n  tags: %w[strong em b i p code pre],\n  attributes: { 'a' => ['href', 'title'], 'img' => ['src', 'alt'] }\n)

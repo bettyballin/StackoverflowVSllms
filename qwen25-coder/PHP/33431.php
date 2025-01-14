@@ -1,0 +1,1 @@
+$allowed_classes = ['SomeClassName', 'AnotherClass'];\n$class_name = 'SomeClassName';\n\nif (in_array($class_name, $allowed_classes)) {\n    $object = new $class_name();\n} else {\n    throw new Exception("Invalid class name provided.");\n}

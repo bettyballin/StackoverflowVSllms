@@ -1,0 +1,1 @@
+<receiver android:name=".MissedCallReceiver">\n    <intent-filter>\n        <action android:name="android.intent.action.PHONE_STATE" />\n    </intent-filter>\n</receiver>

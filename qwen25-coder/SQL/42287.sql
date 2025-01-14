@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\n-- Your UPDATE statement goes here\nUPDATE YourTableName\nSET ColumnName = 'NewValue'\nWHERE SomeCondition;\n\n-- If everything is correct and you want to commit the changes, use:\n-- COMMIT TRANSACTION;\n\n-- If something went wrong and you want to undo the changes, use:\nROLLBACK TRANSACTION;

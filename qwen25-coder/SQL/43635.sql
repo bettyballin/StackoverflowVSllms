@@ -1,0 +1,1 @@
+UPDATE your_table_name\nSET "Student Code" = SUBSTRING("Student Code", 5);

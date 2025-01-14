@@ -1,0 +1,1 @@
+magnitude = np.abs(fft_result)

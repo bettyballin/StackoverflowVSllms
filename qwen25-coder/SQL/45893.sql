@@ -1,0 +1,1 @@
+-- Example SQL script for creating a table for external users\nCREATE TABLE ExternalUsers (\n    UserID NVARCHAR(100) PRIMARY KEY,\n    PasswordHash NVARCHAR(MAX),\n    Email NVARCHAR(256)\n);

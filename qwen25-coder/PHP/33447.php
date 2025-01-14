@@ -1,0 +1,1 @@
+preg_match_all("|<p class=\"(simple)?comment(.*)?\">(.*?)<\/p>|ism", $fcon, $desc);

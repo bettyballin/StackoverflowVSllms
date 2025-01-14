@@ -1,0 +1,1 @@
+UPDATE statuses \nSET status = 0 \nWHERE word_id = (\n    SELECT word_id \n    FROM statuses \n    WHERE status = -1 \n    ORDER BY RANDOM() \n    LIMIT 1\n);

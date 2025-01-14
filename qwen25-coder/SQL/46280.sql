@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\nINSERT INTO table_a (column1, column2) OUTPUT INSERTED.id INTO @LastInsertedId VALUES ('value1', 'value2');\n\nDECLARE @last_id INT;\nSELECT @last_id = id FROM @LastInsertedId;\n\nINSERT INTO table_b (a_id, other_column) VALUES (@last_id, 'other_value');\n\nCOMMIT TRANSACTION;

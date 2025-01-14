@@ -1,0 +1,1 @@
+<target name="validate">\n    <echo message="Validating ${input}"/>\n    <xmlvalidate file="${input}" failonerror="yes"\n                 classname="org.apache.xml.resolver.tools.ResolvingXMLReader"\n                 errorHandler="com.yourpackage.CustomErrorHandler">\n        <classpath refid="xslt.processor.classpath"/>\n    </xmlvalidate>\n</target>

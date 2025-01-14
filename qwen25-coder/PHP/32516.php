@@ -1,0 +1,1 @@
+function isValidUrl($url) {\n    return preg_match('/\b(?:(?:https?|ftp):\/\/)?[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i', $url);\n}

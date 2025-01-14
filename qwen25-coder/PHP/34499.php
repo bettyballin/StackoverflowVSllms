@@ -1,0 +1,1 @@
+$str = 'Me meets smeg';\n$pattern = '/\bme\b/i'; // The \b ensures that we match the whole word, and /i makes it case-insensitive\n$replacement = 'xxx';\n\n$result = preg_replace($pattern, $replacement, $str);\necho $result; // Outputs: xxx meets smeg

@@ -1,0 +1,1 @@
+DECLARE @value INT\nSET @value = 14\n\nSELECT \n    t1.[id] AS ID,\n    t2_1.[name] AS column1,\n    t2_2.[name] AS column2\nFROM \n    Table1 t1\nLEFT JOIN \n    Table2 t2_1 ON t1.column1 = t2_1.id\nLEFT JOIN \n    Table2 t2_2 ON t1.column2 = t2_2.id\nWHERE  \n    t1.[id] = @value\nAND\n    (t2_1.name IS NOT NULL OR t2_2.name IS NOT NULL)

@@ -1,0 +1,1 @@
+$(document).on('click', 'a.order_by', function(e) {\n     e.preventDefault();\n \n     $.getJSON(this.href, function(data) {\n       $('#posts').html(data.posts_html);\n       $('#sorting').html(data.sorting_html);\n     });\n     \n     return false;\n   });

@@ -1,0 +1,1 @@
+USE master;\nGO\nSELECT request_session_id \nFROM sys.dm_tran_locks \nWHERE request_mode = 'X' AND resource_type = 'DATABASE';

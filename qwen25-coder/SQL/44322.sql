@@ -1,0 +1,1 @@
+-- For quick username lookup by userid\nSELECT username \nFROM table1 \nWHERE userid = ?;\n\n-- For fetching detailed user information (username + other details)\nSELECT t1.username, t2.userpass_salthash, t2.user_someopt1, t2.user_sig \nFROM table1 AS t1 \nJOIN table2 AS t2 ON t1.userid = t2.userid\nWHERE t1.userid = ?;

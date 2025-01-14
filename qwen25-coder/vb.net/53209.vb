@@ -1,0 +1,1 @@
+Public Class Form1\n    Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing\n        Application.Exit()\n    End Sub\nEnd Class\n\nPublic Class Form2\n    Private Sub Form2_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing\n        Application.Exit()\n    End Sub\nEnd Class

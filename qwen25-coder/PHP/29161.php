@@ -1,0 +1,1 @@
+// Verifying a user's password\n$inputPassword = "userpassword"; // Password from login form\n$storedHashedPassword = "$2y$10$vI8aWBnW3fID.ZQ4/zo1G.q1lRps.9cGLcZEiGDMVr5yUP1KUOYTa"; // Example hashed password\n\nif (password_verify($inputPassword, $storedHashedPassword)) {\n    echo 'Password is valid!';\n} else {\n    echo 'Invalid password.';\n}

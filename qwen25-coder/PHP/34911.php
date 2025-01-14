@@ -1,0 +1,1 @@
+<?php\n// get the IP address of the client\n$ipAddress = $_SERVER['REMOTE_ADDR'];\n\n// Optionally, you could apply additional checks and sanitization here to ensure security\n\n// Return the IP address back to ActionScript\necho $ipAddress;\n?>

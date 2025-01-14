@@ -1,0 +1,1 @@
+[/]\n     @dev_team = rw\n     @read_only_users = r\n     \n     [/sensitive_area]\n     @read_only_users =

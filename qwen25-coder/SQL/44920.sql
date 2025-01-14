@@ -1,0 +1,1 @@
+SELECT t.teamID, COUNT(m.memberID) AS [noOfMembers]\nFROM team t\nLEFT JOIN member m ON t.teamID = m.teamID\nGROUP BY t.teamID;

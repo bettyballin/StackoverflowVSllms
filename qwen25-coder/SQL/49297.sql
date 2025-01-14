@@ -1,0 +1,1 @@
+SELECT * FROM Items WHERE User_ID = ?;

@@ -1,0 +1,1 @@
+import os\n\ndef find_777_files(path):\n    for root, dirs, files in os.walk(path):\n        for file in files:\n            full_path = os.path.join(root, file)\n            if os.stat(full_path).st_mode & 0o777 == 0o777:\n                print(full_path)\n\nfind_777_files('/path/to/search')

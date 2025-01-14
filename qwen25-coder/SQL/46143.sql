@@ -1,0 +1,1 @@
+START TRANSACTION;\n\nUPDATE your_queue_table\nSET processing = 1\nWHERE id IN (\n    SELECT id FROM your_queue_table \n    WHERE processing = 0 AND scheduled_time <= NOW() \n    ORDER BY scheduled_time LIMIT 25 FOR UPDATE\n);\n\nSELECT * FROM your_queue_table WHERE processing = 1;\n\nCOMMIT;

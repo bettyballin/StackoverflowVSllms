@@ -1,0 +1,1 @@
+DECLARE @myVarcharMax VARCHAR(MAX);\n\nDECLARE myCursor CURSOR FOR \nSELECT largeTextColumn\nFROM YourTable;\n\nOPEN myCursor;\n\nFETCH NEXT FROM myCursor INTO @myVarcharMax;\n\nWHILE @@FETCH_STATUS = 0\nBEGIN\n    -- Process your data here\n    PRINT @myVarcharMax;\n\n    FETCH NEXT FROM myCursor INTO @myVarcharMax;\nEND;\n\nCLOSE myCursor;\nDEALLOCATE myCursor;

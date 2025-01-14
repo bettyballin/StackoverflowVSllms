@@ -1,0 +1,1 @@
+function myFunction($callingClassName, $callingMethodName) {\n    // Use $callingClassName and $callingMethodName as needed\n}\n\n// Usage from another class/method\nmyFunction(__CLASS__, __FUNCTION__);

@@ -1,0 +1,1 @@
+# config/initializers/load_validation_rules.rb\nVALIDATION_RULES = YAML.safe_load(File.read(Rails.root.join('config', 'validation_rules.yml')))

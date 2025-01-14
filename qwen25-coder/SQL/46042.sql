@@ -1,0 +1,1 @@
+-- Assigning a value to a variable using SET\nSET @user_variable = (SELECT COUNT(*) FROM your_table_name);\n\n-- Using the user-defined variable in another query\nSELECT * FROM another_table WHERE id = @user_variable;

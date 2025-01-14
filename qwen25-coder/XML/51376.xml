@@ -1,0 +1,1 @@
+<!-- In your EXE project's app.config (or MyApp.exe.config) -->\n   <configuration>\n     <appSettings>\n       <add key="IPAddress" value="192.168.0.1"/>\n     </appSettings>\n   </configuration>

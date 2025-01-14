@@ -1,0 +1,1 @@
+''' <summary>\n''' This method needs refactoring.\n''' </summary>\n''' <remarks>TODO: Refactor this method to improve performance.</remarks>\nPublic Sub ExampleMethod()\n    ' Method implementation\nEnd Sub

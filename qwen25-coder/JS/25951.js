@@ -1,0 +1,1 @@
+// Select the checked radio button with the original name\n$("input:radio[name='original_name']:checked").attr("name", "new_name");

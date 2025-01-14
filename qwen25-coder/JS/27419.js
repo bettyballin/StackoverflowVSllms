@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#s4').before('<div id="nav"></div>').cycle({\n        fx:     'turnDown',\n        speed:  'fast',\n        timeout: 3000,\n        pager:  '#nav'\n    });\n});

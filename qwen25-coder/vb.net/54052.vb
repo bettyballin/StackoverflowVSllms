@@ -1,0 +1,1 @@
+Public Class ActiveLots\n    Public Property LotNumber As String\n    Public Property Quantity As Integer\n    Public Property Item As String\n    Public Property Uom As String\n    Public Property Description As String\nEnd Class

@@ -1,0 +1,1 @@
+<?php defined('SYSPATH') or die('No direct script access.');\n\nclass Controller_Welcome extends Controller {\n\n    public function action_index()\n    {\n        $this->response->body('<h1>Hello, world!</h1>');\n    }\n\n}

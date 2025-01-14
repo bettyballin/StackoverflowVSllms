@@ -1,0 +1,1 @@
+var fullHtmlContent = $('html').prop('outerHTML');\nconsole.log(fullHtmlContent);

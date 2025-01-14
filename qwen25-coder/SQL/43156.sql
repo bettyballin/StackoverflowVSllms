@@ -1,0 +1,1 @@
+-- Using a Table Variable\nDECLARE @SelectedComputers TABLE (ID INT);\n\nINSERT INTO @SelectedComputers (ID)\nVALUES (1), (7), (34), (56), (67), -- Example IDs\n       (89), (102), (120), (135),\n       -- Add the rest of your 400 IDs here\n;\n\nSELECT c.*\nFROM Computers c\nJOIN @SelectedComputers sc ON c.ComputerID = sc.ID;

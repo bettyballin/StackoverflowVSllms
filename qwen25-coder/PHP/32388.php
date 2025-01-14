@@ -1,0 +1,1 @@
+$input = "This costs $10 but was originally $20.";\n// Escape $ in the input string\n$output = preg_replace('/\$/', '\\$', $input);\necho $output; // Outputs: This costs \$10 but was originally \$20.

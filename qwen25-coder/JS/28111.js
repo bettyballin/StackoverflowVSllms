@@ -1,0 +1,1 @@
+<script type="text/javascript">\n       var contextPath = "${pageContext.request.contextPath}";\n       document.getElementById('myImage').src = contextPath + "/myimage.gif";\n   </script>

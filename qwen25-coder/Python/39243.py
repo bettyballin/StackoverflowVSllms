@@ -1,0 +1,1 @@
+import win32com.client\n\n   # Replace 'YourApplication.YourComponent' with the actual ProgID\n   com_object = win32com.client.Dispatch('YourApplication.YourComponent')

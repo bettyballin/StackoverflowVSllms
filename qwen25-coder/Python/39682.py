@@ -1,0 +1,1 @@
+from weasyprint import HTML, CSS\n\n# Basic usage\nHTML('input.html').write_pdf('output.pdf', stylesheets=[CSS(string='''@page { size: A4; margin: 1cm } table { width: 100%; border-collapse: collapse; page-break-inside:auto } thead { display: table-header-group }''')])

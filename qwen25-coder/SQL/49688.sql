@@ -1,0 +1,1 @@
+SELECT CONCAT_WS(' ', \n                 NULLIF(FirstName, ''), \n                 NULLIF(MiddleName, ''), \n                 NULLIF(LastName, '')) AS FullName\nFROM YourTableName;

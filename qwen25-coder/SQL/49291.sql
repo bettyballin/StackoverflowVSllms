@@ -1,0 +1,1 @@
+SELECT SUM(foo), TRUNC(mydate) AS date_only \nFROM a_table \nGROUP BY TRUNC(a_table.mydate);

@@ -1,0 +1,1 @@
+-- Suppose your table is named 'your_table' and the column you want to 'hide' is 'hidden_col'\nALTER TABLE your_table MODIFY hidden_col DEFAULT NULL;\n\nCREATE OR REPLACE TRIGGER prevent_insert_hidden_col\nBEFORE INSERT ON your_table\nFOR EACH ROW\nBEGIN\n  :NEW.hidden_col := NULL;\nEND;\n/

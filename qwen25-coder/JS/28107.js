@@ -1,0 +1,1 @@
+<script>\n$(document).ready(function(){\n    $('.dismiss').click(function(e){\n        e.preventDefault();\n        $(this).parent().fadeOut('slow');\n    });\n});\n</script>

@@ -1,0 +1,1 @@
+function getDBConnection() {\n    $host = 'localhost';\n    $dbname = 'your_database_name';\n    $username = 'your_username';\n    $password = 'your_password';\n\n    try {\n        return new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);\n    } catch (PDOException $e) {\n        die('Database connection failed: ' . $e->getMessage());\n    }\n}

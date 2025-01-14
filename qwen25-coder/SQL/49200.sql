@@ -1,0 +1,1 @@
+-- Assume we have a table named 'employees' with a column 'email'\nCREATE INDEX idx_upper_email ON employees (UPPER(email));

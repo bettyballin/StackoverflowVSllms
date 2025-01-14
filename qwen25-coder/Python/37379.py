@@ -1,0 +1,1 @@
+import io\n\n# Define your string\nmy_string = "Hello, this is a test string."\n\n# Create a StringIO object\nfile_like_object = io.StringIO(my_string)\n\n# Now you can use file_like_object as if it were a file\ncontent = file_like_object.read()\nprint(content)

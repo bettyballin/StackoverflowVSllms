@@ -1,0 +1,1 @@
+For i As Integer = 0 To MyProperty.PropertyActors.Count - 1\n    Dim PropertyActor As JCPropertyActor = MyProperty.PropertyActors(i)\n    ' Now you have both the index (i) and the object (PropertyActor)\nNext

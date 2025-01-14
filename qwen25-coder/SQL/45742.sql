@@ -1,0 +1,1 @@
+CREATE FULLTEXT INDEX ON YourTable(YourColumnName)\n       KEY INDEX idx_sometable_yourcolumnname ON ftCatalog;

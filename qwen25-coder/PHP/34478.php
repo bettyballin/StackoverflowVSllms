@@ -1,0 +1,1 @@
+// Example of using JMESPath in PHP\n  require 'vendor/autoload.php';\n\n  use JmesPath\Search;\n\n  $data = ['posts' => [['title' => 'Example', 'tags' => ['example', 'jmespath']]]];\n  $search = new Search();\n  $result = $search->search('posts[?contains(title, `Example`)].tags[][0]', $data);\n  echo implode(', ', $result); // Outputs: example

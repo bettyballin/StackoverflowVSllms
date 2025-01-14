@@ -1,0 +1,1 @@
+import winerror\n\n# Your error code from the stack trace\nhresult = -2146788248\n\ndef get_error_description(error_code):\n    return winerror.HRESULT.error_string(error_code)\n\ndescription = get_error_description(hresult)\nprint(f"HRESULT: {hresult}, Error Description: {description}")

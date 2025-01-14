@@ -1,0 +1,1 @@
+# spec/factories/users.rb\nFactoryBot.define do\n  factory :user do\n    name { "John Doe" }\n    email { "john@example.com" }\n    password { "12345678" }\n  end\nend

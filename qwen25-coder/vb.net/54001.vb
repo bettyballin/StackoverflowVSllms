@@ -1,0 +1,1 @@
+Public Function Blah(t As Type) As Object\n    If Not t.IsSubclassOf(GetType(String)) Then\n        Throw New ArgumentException("The provided type must be a subclass of String.")\n    End If\n    \n    ' Additional implementation here\n\nEnd Functio

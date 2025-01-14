@@ -1,0 +1,1 @@
+UPDATE [myDB].[mySchema].[myServers]\nSET [ServerName] = ?\nWHERE ConnectionString = ?

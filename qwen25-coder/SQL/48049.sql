@@ -1,0 +1,1 @@
+UPDATE employees\nSET salary = salary * 1.10\nWHERE performanceRating > 85;

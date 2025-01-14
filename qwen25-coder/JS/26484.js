@@ -1,0 +1,1 @@
+// Sample JSON data\nvar jsonData = [\n    {"name": "John Doe", "age": 30},\n    {"name": "Jane Smith", "age": 25}\n];\n\n// HTML container to append data\n$(document).ready(function() {\n    $.each(jsonData, function(key, value) {\n        $('#container').append('<p>Name: ' + value.name + ', Age: ' + value.age + '</p>');\n    });\n});

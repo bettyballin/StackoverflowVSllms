@@ -1,0 +1,1 @@
+UPDATE music_table\nSET content_url = REPLACE(content_url, '/band%20albums/', '/bands/studio%20albums/')\nWHERE content_url LIKE 'file:///c:/users/nazgulled/music/band%20albums/%';

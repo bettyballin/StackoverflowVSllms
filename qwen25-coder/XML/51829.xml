@@ -1,0 +1,1 @@
+<system.net>\n        <mailSettings>\n            <smtp from="info@eatrightamerica.com">\n                <network host="localhost" port="25" userName="yourusername" password="yourpassword" defaultCredentials="false"/>\n            </smtp>\n        </mailSettings>\n    </system.net>

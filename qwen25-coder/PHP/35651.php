@@ -1,0 +1,1 @@
+// Set the locale \nputenv('LC_ALL=fr_FR');\nsetlocale(LC_ALL, 'fr_FR');\n\n// Specify the directory containing the translation files and the domain\nbindtextdomain("messages", "./LocaleData");\ntextdomain("messages");\n\n// Use gettext\necho _("Hello"); // Outputs "Bonjour" if the French translation is available

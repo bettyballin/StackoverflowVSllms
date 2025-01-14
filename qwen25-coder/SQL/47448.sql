@@ -1,0 +1,1 @@
+SELECT \n    a.table_name AS referencing_table,\n    c.constraint_name\nFROM \n    all_constraints a\nJOIN \n    all_constraints c ON a.r_constraint_name = c.constraint_name\nWHERE \n    c.table_name = 'EMP'\n    AND a.constraint_type = 'R';

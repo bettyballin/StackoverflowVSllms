@@ -1,0 +1,1 @@
+$(document).ready(function () {\n    // To restore scroll position\n    var scrollPosition = $('#scroll-position').val();\n    if (scrollPosition) {\n        $(window).scrollTop(scrollPosition);\n    }\n\n    // To save scroll position before postback\n    $('form').on('submit', function () {\n        $('#scroll-position').val($(window).scrollTop());\n    });\n});

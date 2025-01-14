@@ -1,0 +1,1 @@
+CREATE OR REPLACE DIRECTORY my_documents_dir AS '/path/to/document/storage';

@@ -1,0 +1,1 @@
+$query = "SELECT * FROM table WHERE thing = 'whatever'";\n$results = mysqli_query($connection, $query);\n\nif ($row = mysqli_fetch_assoc($results)) {\n    do {\n        echo "<p>{$row['whatever']}</p>";\n    } while ($row = mysqli_fetch_assoc($results));\n} else {\n    echo "<p>No results found</p>";\n}

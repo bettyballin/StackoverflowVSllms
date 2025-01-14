@@ -1,0 +1,1 @@
+<?php\n  header('HTTP/1.1 404 Not Found');\n  echo '<h1>404 Not Found</h1><p>The requested resource could not be found.</p>';\n?>

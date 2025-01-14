@@ -1,0 +1,1 @@
+SELECT * FROM Sales \n   WHERE Sales.sold_on_is_null = 1\n   AND Sales.total = 9.99;

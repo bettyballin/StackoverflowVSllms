@@ -1,0 +1,1 @@
+SELECT {cols} FROM Customer WHERE ((CAST(CHARINDEX(@term, EmailDomain) AS int)) = 1)

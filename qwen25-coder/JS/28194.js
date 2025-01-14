@@ -1,0 +1,1 @@
+$.ajax({\n    url: '/YourController/GetPersonDetails',\n    type: 'GET',\n    data: { personId: 1 },\n    success: function(response) {\n        $('#personContainer').html(response.HtmlContent);\n        var modelData = JSON.parse(response.ModelData);\n        // Use modelData as needed\n        console.log(modelData);\n    }\n});

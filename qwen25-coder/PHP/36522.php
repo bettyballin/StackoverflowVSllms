@@ -1,0 +1,1 @@
+<?php\n$pdo = new PDO('mysql:host=your_host;dbname=your_db', 'username', 'password');\n$stmt = $pdo->query("SELECT * FROM mydb");\n$num_rows = $stmt->rowCount();\necho "<h1>$num_rows</h1><h2>rows</h2>";\n?>

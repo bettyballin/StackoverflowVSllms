@@ -1,0 +1,1 @@
+// Example of a simple GET request in Postman's code view\n   pm.test("Status code is 200", function () {\n       pm.response.to.have.status(200);\n   });

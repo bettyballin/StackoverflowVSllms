@@ -1,0 +1,1 @@
+<?php\n// Assuming $rows is an array containing your query results\nheader('Content-Type: application/json');\necho json_encode($rows);\n?>

@@ -1,0 +1,1 @@
+// Risky query example with potential for SQL Injection\n$query = "SELECT * FROM users WHERE id = $id"; // If $id is not properly sanitized\n\n// Safe ORM usage avoids such risks\n$user = $entityManager->find(User::class, $id);

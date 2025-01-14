@@ -1,0 +1,1 @@
+SELECT \n    SERVERPROPERTY('MachineName') AS ActiveNode;

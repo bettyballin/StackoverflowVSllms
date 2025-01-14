@@ -1,0 +1,1 @@
+// Session configuration example\n    ini_set('session.use_cookies', 1); \n    ini_set('session.cookie_lifetime', 0); // This should already be set as no expiry, but check just in case.

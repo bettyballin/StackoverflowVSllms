@@ -1,0 +1,1 @@
+<system.web>\n        <sessionState cookieless="false" />\n        <!-- Other configurations -->\n    </system.web>

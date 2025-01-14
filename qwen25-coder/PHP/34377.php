@@ -1,0 +1,1 @@
+<?php\n$allowed_pages = ['home', 'about', 'contact']; // Define an array of allowed pages\n\nif (isset($_GET['page']) && in_array($_GET['page'], $allowed_pages)) {\n    include($_GET['page'] . ".php");\n} else {\n    include("home.php"); // Default page\n}\n?>

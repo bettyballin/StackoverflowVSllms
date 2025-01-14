@@ -1,0 +1,1 @@
+CREATE TABLE preferences (\n    id INT PRIMARY KEY,\n    is_active BIT NOT NULL,          -- Using BIT\n    preference_flag TINYINT CHECK (preference_flag IN (0, 1)),  -- Using integer with constraint\n    opt_in_status VARCHAR(5) CHECK (opt_in_status IN ('true', 'false'))  -- Using string with constraint\n);

@@ -1,0 +1,1 @@
+SELECT DISTINCT r.idCustomer \nFROM reservations r\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM reservations\n    WHERE idCustomer = r.idCustomer AND DATEPART(hour, insertDate) < 2\n);

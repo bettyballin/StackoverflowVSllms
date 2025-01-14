@@ -1,0 +1,1 @@
+class Dog\n  def speak\n    "Woof!"\n  end\nend\n\nmy_dog = Dog.new\nputs my_dog.speak  # Outputs: Woof!

@@ -1,0 +1,1 @@
+$('#buttoncancel').click(function() {\n    // Apply grayscale and other styles to make the div appear disabled\n    $('#radiodj').css({\n        'filter': 'grayscale(100%)',\n        'pointer-events': 'none',  // Disables all PointerEvents on the element\n        'opacity': '0.5'            // Optionally reduce opacity for a stronger disabled look\n    });\n});

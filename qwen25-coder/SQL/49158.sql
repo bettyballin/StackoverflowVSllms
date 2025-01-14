@@ -1,0 +1,1 @@
+-- List active connections for the database\nEXEC sp_who 'YourDatabaseName';\n\n-- For each SPID (Process ID) obtained from sp_who, kill it\nKILL <SPID1>;\nKILL <SPID2>;\n-- Repeat for all SPIDs related to YourDatabaseName\n\n-- After killing all connections, you can restore your database\nRESTORE DATABASE YourDatabaseName FROM DISK = 'C:\Backups\YourBackupFile.bak' WITH REPLACE;

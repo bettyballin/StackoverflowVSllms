@@ -1,0 +1,1 @@
+CREATE TABLE DimTime (\n    TimeKey INT PRIMARY KEY,  -- Unique identifier for each time\n    FullDateTime DATETIME2,   -- The full date and time\n    Hour TINYINT,             -- Extracted hour for easy filtering\n    DayOfWeekName NVARCHAR(10),\n    DayOfMonth TINYINT,\n    MonthOfYear TINYINT,\n    Year INT,\n    IsWeekend BIT\n);

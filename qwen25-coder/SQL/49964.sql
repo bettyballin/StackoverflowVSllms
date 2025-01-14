@@ -1,0 +1,1 @@
+SELECT * FROM tableNames ORDER BY Name COLLATE NOCASE;

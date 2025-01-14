@@ -1,0 +1,1 @@
+// In application/config/config.php\n\n$config['sess_regenerate_destroy'] = TRUE;\n$config['csrf_protection'] = TRUE;\n$config['global_xss_filtering'] = TRUE;\n\nif (defined('ENVIRONMENT') && ENVIRONMENT === 'production')\n{\n    ini_set('display_errors', 0);\n}

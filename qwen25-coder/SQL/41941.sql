@@ -1,0 +1,1 @@
+CREATE EXTENSION postgis;\n\nSELECT name,\n       ST_Distance(geog::geography, ST_SetSRID(ST_MakePoint(-71.35368, 42.290763), 4326)::geography) AS distance_in_meters\nFROM locations\nWHERE active = 1 AND geog && ST_Expand(ST_SetSRID(ST_MakePoint(-71.35368, 42.290763), 4326)::geography, 10000)\nORDER BY distance_in_meters\nLIMIT 1;

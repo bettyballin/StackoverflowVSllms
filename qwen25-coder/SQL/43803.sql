@@ -1,0 +1,1 @@
+SELECT parent.id AS parent_id, \n       parent.first_name AS parent_first_name,\n       child.id AS child_id, \n       child.first_name AS child_first_name\nFROM PEOPLE parent\nJOIN PEOPLE child ON parent.profile_id = child.id;

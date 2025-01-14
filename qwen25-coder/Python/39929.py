@@ -1,0 +1,1 @@
+import subprocess\nimport time\n\ndef run_php_script():\n    while True:\n        # Run the php script using subprocess\n        subprocess.run(["php", "/path/to/your.script.php"])\n        \n        # Wait for an hour before running again\n        time.sleep(3600)

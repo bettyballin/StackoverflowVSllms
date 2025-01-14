@@ -1,0 +1,1 @@
+# urls.py\nfrom django.conf.urls import url\nfrom . import views\n\nurlpatterns = [\n    url(r'^$', views.post_list, name='post_list'),\n    url(r'^post/new/$', views.post_create, name='post_create'),\n    url(r'^post/(?P<pk>\d+)/edit/$', views.post_edit, name='post_edit'),\n    url(r'^post/(?P<pk>\d+)/delete/$', views.post_delete, name='post_delete'),\n]

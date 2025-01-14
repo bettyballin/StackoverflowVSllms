@@ -1,0 +1,1 @@
+SELECT * INTO TempTable\nFROM OPENROWSET('Microsoft.ACE.OLEDB.12.0',\n    'Excel 12.0;Database=C:\path\to\yourfile.xlsx;HDR=YES',\n    'SELECT * FROM [Sheet1$]');

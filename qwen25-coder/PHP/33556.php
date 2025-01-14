@@ -1,0 +1,1 @@
+$route = new Zend_Controller_Router_Route_Regex(\n    '([a-z0-9]+)$', // regex pattern to match routes without trailing slash\n    array(\n        'controller' => 'redirect',\n        'action'     => 'redirect'\n    ),\n    array(1 => 'redirectid'), // maps the matched group to a parameter\n    '%s' // URL generation pattern (optional)\n);\n\n$router->addRoute('custom', $route);

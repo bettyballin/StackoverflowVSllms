@@ -1,0 +1,1 @@
+SELECT * FROM your_table_name WHERE name REGEXP '^[^a-zA-Z0-9]';

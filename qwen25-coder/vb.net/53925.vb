@@ -1,0 +1,1 @@
+If InStr(stringA, "d") > 0 OrElse (Not IsNothing(stringB) AndAlso InStr("y,z", stringB) > 0 AndAlso value = 0) Then\n    Console.WriteLine("Condition met")\nEnd If

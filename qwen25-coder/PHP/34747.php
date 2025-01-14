@@ -1,0 +1,1 @@
+function example() {\n       $bar; // Local variable declaration\n   }

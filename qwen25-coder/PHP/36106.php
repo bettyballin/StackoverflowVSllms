@@ -1,0 +1,1 @@
+class test {\n       public function sayHi() {\n           echo 'hi';\n       }\n   }\n\n   $obj = new test();\n   $obj->sayHi(); // Correct way to call an instance method

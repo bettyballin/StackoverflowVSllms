@@ -1,0 +1,1 @@
+abstract class ParentObj {\n    public function __construct() { /* constructor logic */ }\n\n    public static function factory() {\n        $class = get_called_class();\n        return new $class();\n    }\n}

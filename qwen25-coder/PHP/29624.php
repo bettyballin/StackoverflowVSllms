@@ -1,0 +1,1 @@
+$latitude = "41.331304";\n$longitude = "-72.921438";\n$title = "Albertus Magnus College";\n\necho <<<MARKER\n<marker lat="$latitude" lng="$longitude" html="$title<br><a href='http://www.albertus.edu/admission/index.shtml'>Admissions</a>" label="$title" />\nMARKER;

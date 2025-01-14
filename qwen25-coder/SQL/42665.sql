@@ -1,0 +1,1 @@
+CREATE TABLE Employee_Audit (\n    Audit_ID INT AUTO_INCREMENT PRIMARY KEY,\n    EmployeeID INT NOT NULL,\n    -- other fields that mirror the main Employee table...\n    ChangeDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    OperationType ENUM('INSERT', 'UPDATE', 'DELETE') NOT NULL\n);

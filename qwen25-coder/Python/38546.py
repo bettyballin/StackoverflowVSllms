@@ -1,0 +1,1 @@
+import yfinance as yf\n\n     ticker = "IBM"\n     stock = yf.Ticker(ticker)\n     balance_sheet = stock.balance_sheet\n     print(balance_sheet)

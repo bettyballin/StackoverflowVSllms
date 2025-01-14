@@ -1,0 +1,1 @@
+SELECT * FROM your_table \nWHERE timestamp_column = STR_TO_DATE('2023-10-15', '%Y-%m-%d');

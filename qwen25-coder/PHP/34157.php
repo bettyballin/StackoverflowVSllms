@@ -1,0 +1,1 @@
+sendmail_path = "/usr/local/bin/ssmtp -t"

@@ -1,0 +1,1 @@
+// Using $.getJSON\n$.getJSON('example.json', function(data) {\n    console.log(data);\n});\n\n// Using $.get for JSON data\n$.get('example.json', function(data) {\n    console.log(data);\n}, 'json');\n\n// Or using options object with $.get\n$.get({\n    url: 'example.json',\n    dataType: 'json'\n}).done(function(data) {\n    console.log(data);\n});

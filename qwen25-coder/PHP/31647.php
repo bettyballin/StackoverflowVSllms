@@ -1,0 +1,1 @@
+$fullString = "ignore everything except this (text)";\n$start = strpos($fullString, '(');\n$end = strrpos($fullString, ')');\n\nif ($start !== false && $end !== false && $start < $end) {\n    $shortString = substr($fullString, $start + 1, $end - $start - 1);\n} else {\n    $shortString = ''; // or handle the error\n}\n\necho $shortString; // Outputs: text

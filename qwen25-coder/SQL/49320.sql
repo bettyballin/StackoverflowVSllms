@@ -1,0 +1,1 @@
+START TRANSACTION;\n\nDELETE FROM messages WHERE messageid = 1;\nDELETE FROM usersmessages WHERE messageid = 1;\n\nCOMMIT;

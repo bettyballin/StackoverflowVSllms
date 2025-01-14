@@ -1,0 +1,1 @@
+SELECT v.tabname AS view_name,\n       sr.reftabname AS referenced_table\nFROM sysviews v\nJOIN syssubreferences sr ON v.tabid = sr.mastertabid\nWHERE v.tabtype = 'V' AND sr.subflag = 'I'\nORDER BY v.tabname;

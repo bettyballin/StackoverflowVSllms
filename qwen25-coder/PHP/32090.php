@@ -1,0 +1,1 @@
+$url = 'https://example.com/search?q=hello world&foo=bar+baz';\necho "Using urlencode: " . urlencode($url) . "\n";\necho "Using rawurlencode: " . rawurlencode($url) . "\n";

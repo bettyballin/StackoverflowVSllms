@@ -1,0 +1,1 @@
+SELECT name, collation_name \nFROM sys.databases \nWHERE name = 'YourDatabaseName';

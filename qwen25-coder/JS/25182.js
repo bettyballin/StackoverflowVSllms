@@ -1,0 +1,1 @@
+$.when(\n  $.getJSON("/values/1"),\n  $.getJSON("/values/2")\n).done(function(response1, response2) {\n    var value_1 = response1[0].value;\n    var value_2 = response2[0].value;\n\n    var sum = value_1 + value_2;\n\n    $('#mynode').html(sum);\n}).fail(function() {\n    console.error("One or more requests failed.");\n});

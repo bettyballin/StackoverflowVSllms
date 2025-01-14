@@ -1,0 +1,1 @@
+WITH RankedRows AS (\n    SELECT MyField1, MyField2, MyField3, MyField4, MyField5,\n           ROW_NUMBER() OVER (PARTITION BY MyField1, MyField2, MyField3 ORDER BY (SELECT NULL)) as rn\n    FROM TableA\n)\nINSERT INTO TableB (MyField1, MyField2, MyField3, MyField4, MyField5)\nSELECT MyField1, MyField2, MyField3, MyField4, MyField5\nFROM RankedRows\nWHERE rn = 1;

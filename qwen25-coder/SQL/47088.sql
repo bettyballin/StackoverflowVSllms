@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE DATE(dateField1) >= CURDATE() AND DATE(dateField2) >= CURDATE();

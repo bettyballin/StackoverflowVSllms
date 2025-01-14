@@ -1,0 +1,1 @@
+USE msdb;\nGO\n\nSELECT name, enabled \nFROM sysjobs \nWHERE name LIKE '%Log Shipping Backup Job%';\nGO

@@ -1,0 +1,1 @@
+select HALID, count(HALID) as CH \nfrom Outages.FaultsInOutages\ngroup by HALID\nhaving count(HALID) > 3;

@@ -1,0 +1,1 @@
+(function(ns) {\n    let localVar = 'I am local';\n    ns.publicMethod = function() {\n        console.log(localVar);\n    };\n})(myUniqueWidgetNamespace);

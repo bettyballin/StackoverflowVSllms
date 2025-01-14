@@ -1,0 +1,1 @@
+// Check current serializer\necho ini_get('session.serialize_handler');\n\n// Set the serializer to php if it's not already set\nif (ini_get('session.serialize_handler') !== 'php_serialize') {\n    ini_set('session.serialize_handler', 'php_serialize');\n}

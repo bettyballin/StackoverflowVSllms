@@ -1,0 +1,1 @@
+from docx import Document\n\n   document = Document()\n   document.add_paragraph('Hello World !')\n   document.save('hello world.docx')

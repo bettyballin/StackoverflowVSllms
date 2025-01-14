@@ -1,0 +1,1 @@
+<Context>\n    <Manager className="com.example.CustomSessionIdLengthManager" />\n</Context>

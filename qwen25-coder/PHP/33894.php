@@ -1,0 +1,1 @@
+$dom = new DOMDocument();\n$dom->loadXML('<root><message>Hello, World!</message></root>');\n$message = $dom->getElementsByTagName('message')->item(0)->nodeValue;\necho $message; // Outputs: Hello, World!

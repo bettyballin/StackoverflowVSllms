@@ -1,0 +1,1 @@
+UPDATE TOP (100) T1\nSET F1 = 'NewValue' -- or any other value or logic as needed\nFROM T1\nORDER BY SomeColumn; -- Replace with the column based on which you want to order the top 100 records

@@ -1,0 +1,1 @@
+CREATE view pivmehis WITH ENCRYPTION\nas \nSELECT \n    MAX(CASE WHEN MgtApproval = 'Approved' THEN SchedId END) AS APPROVED,\n    MAX(CASE WHEN MgtApproval = 'Reject' THEN SchedId END) AS REJECT,\n    MAX(CASE WHEN MgtApproval IS NULL OR MgtApproval = '' THEN SchedId END) AS [NULL]\nFROM \n    (SELECT MgtApproval, SchedId\n     FROM LeaveRequest) l\nGROUP BY SchedId;

@@ -1,0 +1,1 @@
+<!-- XML Example -->\n<data>\n    <user id="1">\n        <name>John Doe</name>\n        <contactInfo type="email">johndoe@example.com</contactInfo>\n        <contactInfo type="phone">+1234567890</contactInfo>\n        <roles>\n            <role name="editor" level="admin"/>\n            <role name="contributor"/>\n        </roles>\n    </user>\n    <!-- More users -->\n</data>

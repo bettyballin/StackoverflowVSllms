@@ -1,0 +1,1 @@
+<?php\n// Set the default timezone to Eastern Standard Time (EST)\ndate_default_timezone_set('America/New_York');\n\n// Fetching datetime from database\n$datetimeFromDB = '2023-10-05 12:34:56'; // Example value\n\n// Convert and format the date\n$formattedDate = date('Y-m-d H:i:s', strtotime($datetimeFromDB));\n\necho "Formatted Date and Time in EST: " . $formattedDate;\n?>

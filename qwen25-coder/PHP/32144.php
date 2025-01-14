@@ -1,0 +1,1 @@
+$stmt->bindParam(4, $this->latitude, PDO::PARAM_STR);

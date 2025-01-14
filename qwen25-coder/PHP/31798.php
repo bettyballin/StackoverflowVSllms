@@ -1,0 +1,1 @@
+<?php\n    // Simulate processing and respond back\n    $response = "Registration successful!";\n    echo $response;\n?>

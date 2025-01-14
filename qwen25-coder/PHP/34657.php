@@ -1,0 +1,1 @@
+$result = mysqli_query($db, "SELECT `online` FROM `tbl_system` WHERE `property` = 'extranet'");\nif ($result) {\n    $row = mysqli_fetch_assoc($result);\n    if ($row) {\n        $online = $row['online'];\n        echo $online;\n    } else {\n        echo "No results found.";\n    }\n} else {\n    echo "Query failed: " . mysqli_error($db);\n}

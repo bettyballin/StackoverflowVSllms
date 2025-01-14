@@ -1,0 +1,1 @@
+# Example of ZeroMQ usage (Python):\nimport zmq\n\ncontext = zmq.Context()\nsocket = context.socket(zmq.REP)\nsocket.bind("tcp://*:5555")\n\nwhile True:\n    message = socket.recv()\n    print(f"Received request: {message}")\n    socket.send(b"World")

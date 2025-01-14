@@ -1,0 +1,1 @@
+ALTER TABLE notes DROP INDEX title_body_ft_index;\n  ALTER TABLE notes ADD FULLTEXT(title, body);

@@ -1,0 +1,1 @@
+WITH NumberedUrls AS (\n    SELECT \n        url,\n        ROW_NUMBER() OVER (PARTITION BY site ORDER BY url) as site_rank,\n        COUNT(*) OVER (PARTITION BY site) as site_count,\n        site\n    FROM urls\n)\nSELECT url\nFROM NumberedUrls\nORDER BY site_rank, site;

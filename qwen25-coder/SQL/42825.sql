@@ -1,0 +1,1 @@
+WITH ColumnsToSelect AS (\n    SELECT columnA\n         , columnB\n         , columnC\n    FROM Data\n)\nSELECT * \nFROM ColumnsToSelect\n\nUNION ALL\n\nWITH ColumnsToSelect AS (\n    SELECT columnA\n         , columnB\n         , columnC\n    FROM DataArchive\n)\nSELECT * \nFROM ColumnsToSelect;

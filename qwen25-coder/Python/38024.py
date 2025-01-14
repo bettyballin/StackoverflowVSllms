@@ -1,0 +1,1 @@
+import time\n\nstart_time = time.monotonic()\nsomeSQLOrSomething()\nprint("That took {:.3f} seconds".format(time.monotonic() - start_time))

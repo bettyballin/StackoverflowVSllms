@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE S_S_TEST( \n  test_OUT OUT SYS_REFCURSOR -- Use SYS_REFCURSOR instead of OAS_TYPES.REFCURSOR if not defined.\n) \nAS\nBEGIN\n  OPEN test_OUT FOR      \n    SELECT *\n    FROM table_p;\nEND S_S_TEST;

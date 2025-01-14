@@ -1,0 +1,1 @@
+If dbValue Is DBNull.Value Then\n    ' Handle DBNull case\nEnd If

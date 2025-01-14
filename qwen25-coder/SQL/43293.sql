@@ -1,0 +1,1 @@
+DBCC SHRINKFILE(N'FogBugzDB_Log', 1024); -- Adjust the size (in MB) as needed\n   GO

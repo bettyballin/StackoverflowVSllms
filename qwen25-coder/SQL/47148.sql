@@ -1,0 +1,1 @@
+SELECT t1.Field1, t2.Field2\n   FROM Table1 t1 \n   INNER JOIN Table2 t2 ON t1.ID = t2.Table1ID\n   WHERE CONTAINS((t1.TextCol1, t1.TextCol2, t2.TextCol3), 'word1 OR word2');

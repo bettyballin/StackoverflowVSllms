@@ -1,0 +1,1 @@
+<?php\n// Assuming your text file is located in the same directory as this script\n$filePath = __DIR__ . '/yourfile.txt';\n\nif (file_exists($filePath)) {\n    $content = file_get_contents($filePath);\n    // Process the content here\n} else {\n    die('File not found.');\n}\n?>

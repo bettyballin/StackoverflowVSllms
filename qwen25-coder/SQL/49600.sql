@@ -1,0 +1,1 @@
+CREATE TABLE UserA_Table1 (...);\n   CREATE TABLE UserA_Table2 (...);\n\n   CREATE TABLE UserB_Table1 (...);\n   CREATE TABLE UserB_Table2 (...);

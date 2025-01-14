@@ -1,0 +1,1 @@
+<system.net>\n    <mailSettings>\n        <smtp from="no-reply@yourwebsite.com">\n            <network host="smtp.yourserver.com" port="587" userName="username" password="password" enableSsl="true" />\n        </smtp>\n    </mailSettings>\n</system.net>

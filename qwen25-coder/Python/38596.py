@@ -1,0 +1,1 @@
+def pad_jpeg(file_path, pad_size=8):\n    padding = b'\x00' * (pad_size - 1)  # Adjusting for the existing FF D9 marker length\n    with open(file_path, 'ab') as f:\n        f.write(padding)\n\n# Usage example\npad_jpeg('example.jpg', 8)

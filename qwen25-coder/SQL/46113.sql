@@ -1,0 +1,1 @@
+LOWER([sourceColumnName])\n  LOWER([destinationColumnName])

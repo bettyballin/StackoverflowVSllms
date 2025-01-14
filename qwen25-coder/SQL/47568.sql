@@ -1,0 +1,1 @@
+BEGIN\n    DBMS_JAVA.GRANT_PERMISSION(\n        GRANTEE => '<your_schema>',\n        PERMISSION_TYPE => 'SYS:java.util.PropertyPermission',\n        PERMISSION_NAME => '*.read',\n        FLAGS => NULL);\nEND;\n/

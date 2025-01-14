@@ -1,0 +1,1 @@
+CREATE TABLE session_tokens (\n    username VARCHAR2(50),\n    token VARCHAR2(100),\n    created TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    PRIMARY KEY (username)\n);

@@ -1,0 +1,1 @@
+$mainArray = [\n    'kanye' => ['Kanya', 'Janaye', 'Kayne', 'Kane', 'Kaye'],\n    'wst' => ['ST', 'St', 'st', 'EST', 'West']\n];\n\nforeach ($mainArray as $arrayName => $subArray) {\n    echo "Array name: $arrayName\n";\n    foreach ($subArray as $item) {\n        echo "$item\n";\n    }\n    echo "\n"; // for a newline between arrays\n}

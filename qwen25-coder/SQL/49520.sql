@@ -1,0 +1,1 @@
+-- Assuming you have an XML column named 'Data' in a table called 'Documents'\nSELECT\n    Data.value('(/Document/User/Name)[1]', 'varchar(50)') AS UserName,\n    Data.value('(/Document/User/Age)[1]', 'int') AS UserAge\nFROM Documents;

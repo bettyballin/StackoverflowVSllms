@@ -1,0 +1,1 @@
+impdp username/password@database_service_name directory=data_pump_dir dumpfile=export.dmp logfile=import.log

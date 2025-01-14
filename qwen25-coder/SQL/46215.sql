@@ -1,0 +1,1 @@
+SELECT id, data FROM events FOR SYSTEM_TIME ALL WHERE event_type = 'login';

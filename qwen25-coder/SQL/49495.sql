@@ -1,0 +1,1 @@
+SELECT t.Name, t.XX\nFROM your_table_name t\nJOIN (\n    SELECT Name, MAX(Date) as MaxDate\n    FROM your_table_name\n    GROUP BY Name\n) subq ON t.Name = subq.Name AND t.Date = subq.MaxDate;

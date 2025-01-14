@@ -1,0 +1,1 @@
+// Using DOMPurify to sanitize the HTML content before rendering\nconst dirty = '<img src=x onerror=alert(1)>';\nconst clean = DOMPurify.sanitize(dirty);\n\ndocument.getElementById('content-block').innerHTML = clean;

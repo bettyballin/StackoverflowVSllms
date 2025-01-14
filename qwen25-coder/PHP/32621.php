@@ -1,0 +1,1 @@
+<?php\nheader("Content-type: text/plain");\necho "Hello world!\n";\n?>

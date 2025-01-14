@@ -1,0 +1,1 @@
+rails generate scaffold Admin::Order item:string quantity:integer

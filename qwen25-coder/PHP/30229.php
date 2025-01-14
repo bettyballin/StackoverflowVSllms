@@ -1,0 +1,1 @@
+public function getServiceConfig()\n   {\n       return [\n           'factories' => [\n               Application\Mvc\Route\DatabaseRoute::class => function ($container) {\n                   $adapter = $container->get('Laminas\Db\Adapter\Adapter');\n                   return new Application\Mvc\Route\DatabaseRoute($adapter);\n               }\n           ]\n       ];\n   }

@@ -1,0 +1,1 @@
+function check_dns_using_get_record($hostname, $recordType = 'MX') {\n    if (!empty(dns_get_record($hostname, constant('DNS_' . strtoupper($recordType))))) {\n        return true;\n    }\n    return false;\n}\n\n// Usage\necho "test.com dns check: " . (check_dns_using_get_record("test.com", "NS") ? 'true' : 'false');

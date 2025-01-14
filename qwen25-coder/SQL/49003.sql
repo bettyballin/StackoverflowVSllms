@@ -1,0 +1,1 @@
+-- SQL using a prepared statement with an array in PostgreSQL\nPREPARE get_some_rows(ids integer[]) AS\nSELECT * FROM some_table WHERE id = ANY($1);\nEXECUTE get_some_rows(ARRAY[1001, 1002, 1003]);

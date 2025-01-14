@@ -1,0 +1,1 @@
+require_relative '../lib/middlewares/cgi_handler'\n\n  module YourApplication\n    class Application < Rails::Application\n      config.middleware.use CgiHandler\n      # other configurations...\n    end\n  end

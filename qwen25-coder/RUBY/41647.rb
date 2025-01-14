@@ -1,0 +1,1 @@
+FactoryBot.define do\n       factory :user do\n         name { "John Doe" }\n         email { "john.doe@example.com" }\n         password { "password123" }\n       end\n     end

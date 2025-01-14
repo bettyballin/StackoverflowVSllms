@@ -1,0 +1,1 @@
+GRANT USAGE ON SCHEMA dbo TO special_user;\n   GRANT USAGE ON SCHEMA newrole TO special_user;

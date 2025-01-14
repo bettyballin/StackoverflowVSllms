@@ -1,0 +1,1 @@
+// Set the default timezone (e.g., UTC)\ndate_default_timezone_set('UTC');\n\necho '<p>' . mktime(24, 0,0, 8,29,2009) . ' - 12pm</p>';\necho '<p>' . mktime(23, 0,0, 8,29,2009) . ' - 11pm</p>';\necho '<p>' . mktime(22, 0,0, 8,29,2009) . ' - 10pm</p>';

@@ -1,0 +1,1 @@
+from flask import request\n\n@app.route('/')\ndef index():\n    user_agent = request.headers.get('User-Agent')\n    server_name = request.host_url\n    return f"User Agent: {user_agent}, Server Name: {server_name}"

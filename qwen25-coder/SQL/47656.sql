@@ -1,0 +1,1 @@
+SELECT \n    CASE \n        WHEN x < -708 THEN 'Underflow risk'\n        ELSE EXP(x)\n    END AS result\nFROM your_table;

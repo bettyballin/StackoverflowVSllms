@@ -1,0 +1,1 @@
+WITH RankedPosts AS (\n    SELECT \n        post_id,\n        ROW_NUMBER() OVER (ORDER BY post_date ASC) as row_num\n    FROM \n        forum_posts\n    WHERE \n        topic_id = :topic_id  -- or whatever criteria defines the scope of your search\n)\nSELECT \n    row_num\nFROM \n    RankedPosts\nWHERE \n    post_id = :specific_post_id;

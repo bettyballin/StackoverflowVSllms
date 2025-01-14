@@ -1,0 +1,1 @@
+# Define policy class\nclass ArticlePolicy\n  attr_reader :user, :article\n\n  def initialize(user, article)\n    @user = user\n    @article = article\n  end\n\n  def update?\n    user.admin? || !article.published? && user == article.user\n  end\nend\n\n# Check policy in controller\ndef update\n  authorize @article\n  # rest of the action...\nend

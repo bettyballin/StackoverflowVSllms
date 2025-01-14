@@ -1,0 +1,1 @@
+curl_setopt($ch, CURLOPT_VERBOSE, true);

@@ -1,0 +1,1 @@
+<script type="text/javascript">\n//<![CDATA[\nfunction display() {\n    var message = "<p>Hello & welcome!</p>";\n    document.write(message);\n}\n//]]>\n</script>

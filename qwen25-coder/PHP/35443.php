@@ -1,0 +1,1 @@
+$file_path = '"d:\Prog Files\foo.exe"';\n$data_path = '-p "d:\data path\datadir"';\n\n$cmd = "$file_path $data_path";\n\n$out = `$cmd`;

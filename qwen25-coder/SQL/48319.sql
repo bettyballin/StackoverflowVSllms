@@ -1,0 +1,1 @@
+SELECT @table_exists := COUNT(*)\nFROM information_schema.TABLES\nWHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'country';\n\nINSERT INTO country (name) \nSELECT 'Afghanistan'\nUNION ALL\nSELECT 'Aland Islands'\nWHERE @table_exists > 0;

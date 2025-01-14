@@ -1,0 +1,1 @@
+SELECT DISTINCT Latitude, Longitude \nFROM zip_codes;

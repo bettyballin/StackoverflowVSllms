@@ -1,0 +1,1 @@
+Dim goodCustObjList As New List(Of CustomerObj)\ngoodCustObjList = DataBLLModule.GetCustomerRecordList(String.Empty)\nDim custList = From t In goodCustObjList \n               Where t.ID <> Guid.Empty\n               Select t

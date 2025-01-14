@@ -1,0 +1,1 @@
+WITH OrderedRecords AS (\n    SELECT ROW_NUMBER() OVER(ORDER BY YourColumn) as RowNum, *\n    FROM YourTable\n)\nSELECT * \nFROM OrderedRecords \nWHERE RowNum BETWEEN ((@PageNumber - 1) * @PageSize + 1) AND (@PageNumber * @PageSize);

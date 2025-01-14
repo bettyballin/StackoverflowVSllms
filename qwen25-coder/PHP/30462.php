@@ -1,0 +1,1 @@
+<?php\n$baseUrl = $this->url(array(\n    'controller' => 'my.controller',\n    'action' => 'my.action'\n));\n$anchor = '#myanchor';\n?>\n<a href="<?= $baseUrl . $anchor ?>">Link to Anchor</a>

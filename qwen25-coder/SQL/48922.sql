@@ -1,0 +1,1 @@
+SELECT YourTable.YourPrimaryKeyField,\n       (\n           SELECT COUNT(*)\n           FROM [YourAttachmentSubdatasheet]\n       ) AS AttachmentCount\nFROM YourTable;

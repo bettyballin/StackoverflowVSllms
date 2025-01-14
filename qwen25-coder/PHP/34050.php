@@ -1,0 +1,1 @@
+function returnsAnArray()\n{\n    return array('test');\n}\n\n$temp = returnsAnArray();\necho $temp[0];

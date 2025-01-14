@@ -1,0 +1,1 @@
+Function GetUserName() As String\n    ' Retrieve the Windows login name of the user\n    GetUserName = Environ("USERNAME")\nEnd Functio

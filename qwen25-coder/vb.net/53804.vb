@@ -1,0 +1,1 @@
+Public Class ConcreteFileManager\n    Inherits DBFileManager(Of DBFile, DBFileContent, DBFileThumb)\nEnd Class

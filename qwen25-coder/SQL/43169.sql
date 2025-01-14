@@ -1,0 +1,1 @@
+SELECT \n    refID,\n    CASE \n        WHEN newFirstName IS NOT NULL OR \n             newLastName IS NOT NULL THEN 1 \n        ELSE 0 \n    END AS HasSuggestedChanges\nFROM \n    TEST_TABLE\nWHERE \n    refID = @refID;

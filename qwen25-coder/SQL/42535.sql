@@ -1,0 +1,1 @@
+CREATE PROCEDURE find_root (\n    @id INT,\n    @variant_output INT OUTPUT\n) AS\nBEGIN\n    -- Your logic to calculate created_in_variant goes here\n    SET @variant_output = <calculated_value>\nEND;

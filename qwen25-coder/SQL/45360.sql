@@ -1,0 +1,1 @@
+SELECT id, \n       (SELECT COUNT(*) FROM tableA a2 WHERE a2.value < a1.id) AS count_values_less_than_id\nFROM tableA a1 \nWHERE id < 5;

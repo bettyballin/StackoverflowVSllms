@@ -1,0 +1,1 @@
+import pandas as pd\n\n# Assuming you know the actual column widths (modify according to your needs)\ncolumn_widths = [10, 25, 15]  # Example column widths for a fixed-width text file\n\ndata = pd.read_fwf('yourfile.txt', widths=column_widths)\n\nprint(data.head())

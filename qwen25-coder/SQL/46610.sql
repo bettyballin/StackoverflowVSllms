@@ -1,0 +1,1 @@
+CREATE INDEX IX_GuidColumn\nON YourTableName (GuidColumn);

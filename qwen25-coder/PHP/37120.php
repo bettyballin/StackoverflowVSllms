@@ -1,0 +1,1 @@
+$data = preg_replace_callback("/\[\[(.*?)\]\]/", function($matches) {\n    return "https://example.com/" . urlencode($matches[1]);\n}, $data);

@@ -1,0 +1,1 @@
+# Example set\nmy_set = {'a', 'b', 'c'}\n\n# Convert set to list\nmy_list = list(my_set)\n\nprint(my_list)  # Output will be ['a', 'b', 'c'] or any permutation due to the unordered nature of sets

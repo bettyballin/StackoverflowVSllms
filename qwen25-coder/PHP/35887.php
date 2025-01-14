@@ -1,0 +1,1 @@
+if (Request::instance()->is_ajax())\n{\n    // The request was made via AJAX\n} else {\n    // This is a regular HTTP request\n}

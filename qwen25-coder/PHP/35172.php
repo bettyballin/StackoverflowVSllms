@@ -1,0 +1,1 @@
+// Assuming $image_data is your binary image data from a source like file_get_contents.\n$size = getimagesizefromstring($image_data);\n\nif ($size === false) {\n    die('Invalid image data.');\n}\n\nlist($width, $height, $type, $attr) = $size;\n\necho "Image width: $width\n";\necho "Image height: $height\n";

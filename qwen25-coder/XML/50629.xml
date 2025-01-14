@@ -1,0 +1,1 @@
+<!-- jboss-web.xml -->\n   <context-root>yourapp</context-root>\n   <reloadable>true</reloadable>\n\n   <!-- standalone.xml or server/XXX/conf/login-config.xml -->\n   <subsystem xmlns="urn:jboss:domain:deployment-scanner:1.0">\n       <deployment-scanner path="deploy" relative-to="jboss.server.base.dir" scan-interval="5000" runtime-failures-are-fatal="false"/>\n   </subsystem>

@@ -1,0 +1,1 @@
+$line = "Your string containing Ê";\n $cleanedLine = str_replace('Ê', '', $line);\n echo $cleanedLine;

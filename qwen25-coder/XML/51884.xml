@@ -1,0 +1,1 @@
+<system.web>\n  <webServices>\n    <soapExtensionTypes>\n      <add type="Namespace.CustomSoapExtension, AssemblyName"\n           group="High"\n           priority="1"/>\n    </soapExtensionTypes>\n  </webServices>\n</system.web>

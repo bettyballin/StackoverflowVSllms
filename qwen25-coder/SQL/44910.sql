@@ -1,0 +1,1 @@
+INSERT INTO users (username, password, salt) VALUES \n('exampleUser', 'some_sha256_hashed_password_here', 'unique_salt_for_this_user');

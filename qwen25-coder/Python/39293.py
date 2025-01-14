@@ -1,0 +1,1 @@
+import inspect\n\ndef __id_from_function(f):\n    try:\n        source = inspect.getsourcefile(f)\n        lineno = inspect.getsourcelines(f)[1]\n        return ".".join([source, str(lineno), f.__name__])\n    except TypeError:\n        return f.__name__

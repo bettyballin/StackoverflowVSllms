@@ -1,0 +1,1 @@
+<Resource name="jdbc/MyDataSource"\n             auth="Container"\n             type="javax.sql.DataSource"\n             maxTotal="100"\n             maxIdle="30"\n             maxWaitMillis="10000"\n             username="dbuser" password="dbpass"\n             driverClassName="com.mysql.cj.jdbc.Driver"\n             url="jdbc:mysql://localhost:3306/my_database_name"/>

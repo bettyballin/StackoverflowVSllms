@@ -1,0 +1,1 @@
+const parsedData = JSON.parse(jsonString);

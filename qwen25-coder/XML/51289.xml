@@ -1,0 +1,1 @@
+<filter>\n    <filter-name>CacheFilter</filter-name>\n    <filter-class>com.example.CacheFilter</filter-class>\n</filter>\n\n<filter-mapping>\n    <filter-name>CacheFilter</filter-name>\n    <url-pattern>/images/*</url-pattern>\n</filter-mapping>

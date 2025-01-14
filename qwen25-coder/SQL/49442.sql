@@ -1,0 +1,1 @@
+SELECT FirstName, LastName\nFROM Employees\nWHERE Department = 'Sales';

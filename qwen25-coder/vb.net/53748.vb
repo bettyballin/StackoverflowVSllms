@@ -1,0 +1,1 @@
+Public Property TransactionType As String\n    Get\n        Return m_TransactionType\n    End Get\n    Private Set(ByVal value As String)\n        m_TransactionType = value\n    End Set\nEnd Property\n\nPrivate m_TransactionType As String

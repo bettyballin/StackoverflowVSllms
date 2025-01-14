@@ -1,0 +1,1 @@
+try {\n    $pdo = new PDO('mysql:host=your_host;dbname=your_db', 'your_user', 'your_password');\n    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);\n\n    $stmt = $pdo->query($someQuery);\n    $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);\n} catch (PDOException $e) {\n    // Handle error\n    echo "PDO Error: " . $e->getMessage();\n}

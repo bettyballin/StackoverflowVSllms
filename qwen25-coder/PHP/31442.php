@@ -1,0 +1,1 @@
+// es.php\n<?php\nreturn [\n    'first_name' => 'Nombre',\n    'last_name' => 'Apellido',\n    'operation_not_allowed' => 'Esta operación no está permitida!',\n];

@@ -1,0 +1,1 @@
+<?php\n$referer = $_SERVER['HTTP_REFERER'] ?? null;\nif ($referer) {\n    echo "The request came from: " . htmlspecialchars($referer);\n} else {\n    echo "No referer found.";\n}\n?>

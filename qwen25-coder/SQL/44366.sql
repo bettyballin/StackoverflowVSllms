@@ -1,0 +1,1 @@
+select  *\n   from    B\n   where   exists (select 1 from A where A.ID = B.AID)\n   OPTION (RECOMPILE);

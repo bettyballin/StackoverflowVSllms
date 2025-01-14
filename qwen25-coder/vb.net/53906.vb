@@ -1,0 +1,1 @@
+' This code snippet is a placeholder to represent setting Target CPU to x86.\n' It's actually done through the project properties UI as described above.

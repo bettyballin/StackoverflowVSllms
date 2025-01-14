@@ -1,0 +1,1 @@
+const https = require('https');\nconst fs = require('fs');\n\nconst options = {\n  key: fs.readFileSync('/path/to/your/private.key'),\n  cert: fs.readFileSync('/path/to/your/certificate.crt')\n};\n\nhttps.createServer(options, (req, res) => {\n  res.writeHead(200);\n  res.end('Hello secure world\n');\n}).listen(443);\n\nconsole.log('Server running on https://localhost:443/');

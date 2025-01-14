@@ -1,0 +1,1 @@
+-- Bitmap join indexes are database-specific features, not a standard SQL feature.\n   -- Example in Oracle for illustration: \n   CREATE BITMAP INDEX emp_dept_bi ON employees (department_id)\n   FROM employees e JOIN departments d\n   ON e.department_id = d.department_id;

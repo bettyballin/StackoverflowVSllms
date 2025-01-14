@@ -1,0 +1,1 @@
+SELECT n.nodeid, n.node_title, n.node_lastupdated, n.node_created\n   FROM (\n       SELECT DISTINCT lp.nodeid\n       FROM lookup lp\n       WHERE lp.usergroup IN (2, 3)\n       LIMIT 1000 -- Set a reasonable limit to avoid fetching all rows\n   ) AS validNodes\n   INNER JOIN node n ON validNodes.nodeid = n.node_id\n   ORDER BY n.node_lastupdated DESC\n   LIMIT 20;

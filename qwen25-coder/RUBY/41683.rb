@@ -1,0 +1,1 @@
+IRB.conf[:PROMPT][:MY_PROMPT] = {\n  :PROMPT_I => "irb(main):%03n:%i> ",\n  :PROMPT_S => "%l>",\n  :PROMPT_C => "%l?",\n  :RETURN   => "=> %s\n"\n}\nIRB.conf[:PROMPT_MODE] = :MY_PROMPT

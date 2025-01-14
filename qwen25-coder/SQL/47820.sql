@@ -1,0 +1,1 @@
+-- Not following the advice\nCREATE TABLE MyTable (\n    USER_ID INT NOT NULL,\n    UserName VARCHAR(255)\n);\n\n-- Following the advice\ncreate table mytable (\n    user_id int not null,\n    username varchar(255)\n);

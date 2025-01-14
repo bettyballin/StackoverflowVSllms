@@ -1,0 +1,1 @@
+INSERT INTO tableA (Col1, Col2, insert_time)\nSELECT Col1, Col2, NOW()\nFROM tableB\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM tableA a\n    WHERE a.Col1 = tableB.Col1\n);

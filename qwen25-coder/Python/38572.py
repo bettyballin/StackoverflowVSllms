@@ -1,0 +1,1 @@
+from django.http import JsonResponse\n    from django.contrib.auth.decorators import login_required\n\n    @login_required\n    def check_session(request):\n        if not request.user.is_authenticated:\n            return JsonResponse({'session_expired': True})\n        return JsonResponse({'session_expired': False})

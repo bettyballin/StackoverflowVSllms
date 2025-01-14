@@ -1,0 +1,1 @@
+try {\n    $issue = new DM_Issue($core->db->escape_string($_GET['issue']));\n} catch (DM_Exception $e) {\n    renderErrorPage($tpl, ERR_NOT_FOUND, $e->getMessage());\n    die();\n}\n\nfunction renderErrorPage($tpl, $errorCode, $message) {\n    // Logic to compile and display error page\n}

@@ -1,0 +1,1 @@
+BULK INSERT foo FROM 'C:\path\to\data.txt' WITH (FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');

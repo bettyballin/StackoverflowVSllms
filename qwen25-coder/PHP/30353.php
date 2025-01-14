@@ -1,0 +1,1 @@
+$a = 10;\n     $b =& $a;\n     $a = 20;\n     echo $b; // Outputs: 20, since $b is a reference to $a

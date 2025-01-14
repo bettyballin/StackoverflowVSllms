@@ -1,0 +1,1 @@
+return {\n  imprt: function(prefix, object) { ... }\n}

@@ -1,0 +1,1 @@
+SELECT LEN(your_column_name) AS CharLength\nFROM your_table_name;

@@ -1,0 +1,1 @@
+<%= button_to 'Log out', sessions_path, method: :delete %>

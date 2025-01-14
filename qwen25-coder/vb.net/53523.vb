@@ -1,0 +1,1 @@
+' Example of how to insert/update with adjusted values for PercentSuccess\nstrSql7 = "INSERT INTO analyzedCopy3 (PercentSuccess, Success, prem_addr1) VALUES (" & _\n          "0.75 * 100, 42, 'Some Address')"\nDoCmd.RunSQL strSql7

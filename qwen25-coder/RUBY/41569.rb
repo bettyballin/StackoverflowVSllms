@@ -1,0 +1,1 @@
+@roles = Role.where(simulation_id: session[:sim_id]).pluck(:id)\n@messages = RolesMessages.select('DISTINCT sender_id, message_id, *')\n                        .where(sender_id: @roles)\n                        .order(created_at: :desc)

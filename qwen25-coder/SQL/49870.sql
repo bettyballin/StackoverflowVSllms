@@ -1,0 +1,1 @@
+IF OBJECT_ID('dbo.YourTableName', 'U') IS NOT NULL\n    DROP TABLE dbo.YourTableName;

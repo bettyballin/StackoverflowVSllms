@@ -1,0 +1,1 @@
+<?php\n   if (class_exists('PDO') && in_array('sqlite', PDO::getAvailableDrivers())) {\n       echo 'SQLite is available via PDO.';\n   } else {\n       echo 'SQLite NOT available via PDO.';\n   }\n   ?>

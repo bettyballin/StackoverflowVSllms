@@ -1,0 +1,1 @@
+SELECT TOP 5000 *\nFROM YourTableName\nORDER BY NEWID();

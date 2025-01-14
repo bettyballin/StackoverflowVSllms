@@ -1,0 +1,1 @@
+def is_valid_jpeg(mime_type):\n    valid_types = {'image/jpeg', 'image/pjpeg', 'image/x-citrix-pjpeg'}\n    return mime_type in valid_types\n\nmime_type = "image/x-citrix-pjpeg"\nif is_valid_jpeg(mime_type):\n    print("The file is a valid JPEG.")\nelse:\n    print("The file MIME type is not recognized as a JPEG.")

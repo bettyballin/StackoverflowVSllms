@@ -1,0 +1,1 @@
+SELECT DISTINCT ResponseFormParent.Column1, ResponseFormParent.Column2, ...\n   FROM ResponseFormParent \n   INNER JOIN ResponseForm \n     ON ResponseFormParent.ResponseFormParentId = ResponseForm.ResponseFormParentId \n   WHERE ResponseForm.RegistrationDeadline >= '5/1/2009'

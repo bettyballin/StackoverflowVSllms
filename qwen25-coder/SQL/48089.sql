@@ -1,0 +1,1 @@
+-- Example SQL query to be saved in the Reports Database\nSELECT \n    relname AS table_name, \n    pg_size_pretty(pg_total_relation_size(quote_ident(relname))) AS size \nFROM \n    pg_class \nWHERE \n    relkind = 'r' \nORDER BY \n    pg_total_relation_size(relname) DESC;

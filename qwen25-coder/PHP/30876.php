@@ -1,0 +1,1 @@
+<?php\ndefined('BASEPATH') OR exit('No direct script access allowed');\n\nclass Form_model extends CI_Model {\n\n    function insert_data($data)\n    {\n        $insert = $this->db->insert('your_table_name', $data);\n        if ($insert) {\n            return true;\n        } else {\n            return false;\n        }\n    }\n}

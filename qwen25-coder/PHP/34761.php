@@ -1,0 +1,1 @@
+class Example {\n       var $foo; // This is public but considered old style\n       public $bar; // Recommended way to declare a property\n   }

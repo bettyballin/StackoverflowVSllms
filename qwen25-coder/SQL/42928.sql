@@ -1,0 +1,1 @@
+SELECT id, name, lft, rgt\nFROM your_table_name\nWHERE parent_id = (\n    SELECT id FROM your_table_name WHERE lft < :target_lft AND rgt > :target_rgt\n)\nAND lft BETWEEN :target_lft + 1 AND :target_rgt - 1;

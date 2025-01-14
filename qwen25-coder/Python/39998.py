@@ -1,0 +1,1 @@
+# Encode the Unicode string to Latin-1, replacing errors with '?'\nencoded_string = 'add \x93Monitoring\x93 to list'.encode('latin-1', 'replace')\nprint(encoded_string)

@@ -1,0 +1,1 @@
+# Check if the first_name input field exists and optionally has an empty value\nassert_select '#first_name' do |elements|\n  elements.any? { |element| element['value'].blank? } ||\n    elements.none? { |element| element.has_attribute?('value') }\nend

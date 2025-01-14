@@ -1,0 +1,1 @@
+ALTER DATABASE FogBugzDB SET RECOVERY SIMPLE WITH NO_WAIT;\n   GO\n   -- Then perform another backup:\n   BACKUP LOG FogBugzDB TO DISK = 'NUL';  -- Simulates a log backup without saving it to disk

@@ -1,0 +1,1 @@
+<?php header('Content-type: text/javascript') ?>\nfunction handleLoad() {\n    var userData = <?php echo json_encode($userData); ?>;\n    alert('User loaded: ' + userData.name);\n}

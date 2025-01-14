@@ -1,0 +1,1 @@
+function getSessionID() {\n    return document.cookie.match(/PHPSESSID=[^;]+/)[0].split('=')[1];\n}\nExternalInterface.addCallback("getSessionID", getSessionID);

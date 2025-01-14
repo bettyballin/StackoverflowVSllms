@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTable\nWHERE CAST(YourDateColumn AS date) BETWEEN '2023-10-01' AND '2023-10-31'

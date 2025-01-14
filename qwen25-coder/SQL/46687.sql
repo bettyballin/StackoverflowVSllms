@@ -1,0 +1,1 @@
+-- Character Data Type Conversion Functions:\nCAST()\nCONVERT()\n\n-- String Functions:\nASCII()\nCHAR()\nCHARINDEX()\nDATALENGTH()\nLEN()\nLOWER()\nLTRIM()\nNCHAR()\nPATINDEX()\nREPLACE()\nREPLICATE()\nREVSE()\nRIGHT()\nRTRIM()\nSOUNDEX()\nSPACE()\nSTR()\nSTUFF()\nSUBSTRING()\nUNICODE()\nUPPER()

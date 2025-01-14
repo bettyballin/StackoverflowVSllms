@@ -1,0 +1,1 @@
+$output = shell_exec('java -cp /path/to/your_classpath com.yourdomain.YourMainClass argument1 argument2');\necho "<pre>$output</pre>";

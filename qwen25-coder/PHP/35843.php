@@ -1,0 +1,1 @@
+// redirect_script.php\nsession_start();\n$foo = $_SESSION['foo'] ?? 'default';\nheader("Location: folder/$foo/file.png");\nexit;

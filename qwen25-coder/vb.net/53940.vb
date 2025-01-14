@@ -1,0 +1,1 @@
+Public Class ExampleClass\n    ' Private field with underscore prefix\n    Private _foo As String\n\n    ' Public property exposing the private field\n    Public Property Foo As String\n        Get\n            Return _foo\n        End Get\n        Set(value As String)\n            _foo = value\n        End Set\n    End Property\nEnd Class

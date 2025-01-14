@@ -1,0 +1,1 @@
+Dim text As String = <![CDATA[\n    This is \n    some preformatted \n    text\n]]>.Value

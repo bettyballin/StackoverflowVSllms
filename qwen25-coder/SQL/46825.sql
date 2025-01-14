@@ -1,0 +1,1 @@
+ALTER INDEX your_index_name UNUSABLE;\n   -- Perform update\n   ALTER INDEX your_index_name REBUILD;

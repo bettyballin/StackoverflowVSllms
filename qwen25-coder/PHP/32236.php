@@ -1,0 +1,1 @@
+// index.php\n<?php\ninclude 'about.php';\ninclude 'profile.php';\n\nif (isset($_GET['user'])) {\n    $user = $_GET['user'];\n} else {\n    // Handle case where user is not set\n}\n?>

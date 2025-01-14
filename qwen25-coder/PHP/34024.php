@@ -1,0 +1,1 @@
+echo "Initial Memory Usage: ".memory_get_usage()." bytes \n";\n// ... your code ...\necho "Final Memory Usage: ".memory_get_usage()." bytes \n";

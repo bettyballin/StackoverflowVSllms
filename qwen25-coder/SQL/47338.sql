@@ -1,0 +1,1 @@
+CREATE TABLE MismatchedBalances (\n    AccountNo INT,\n    Balance1 FLOAT,\n    Balance2 FLOAT\n);\n\nINSERT INTO MismatchedBalances (AccountNo, Balance1, Balance2)\nSELECT\n    T1.AccountNo,\n    T1.Balance,\n    T2.Balance\nFROM Temp1 T1\nINNER JOIN Temp2 T2 ON T1.AccountNo = T2.AccountNo\nWHERE ABS(T1.Balance - T2.Balance) / NULLIF(MAX(T1.Balance, T2.Balance), 0) > 0.10;

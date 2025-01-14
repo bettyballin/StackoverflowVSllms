@@ -1,0 +1,1 @@
+DELIMITER //\n\nCREATE PROCEDURE GetEmployeeDetails()\nBEGIN\n    SELECT EmployeeID, Name, Department\n    FROM Employees;\nEND //\n\nDELIMITER ;

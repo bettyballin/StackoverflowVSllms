@@ -1,0 +1,1 @@
+beforeSend: function (req) { \n       req.setRequestHeader('Authorization', auth); \n   }

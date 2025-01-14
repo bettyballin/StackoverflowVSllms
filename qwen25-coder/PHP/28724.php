@@ -1,0 +1,1 @@
+<?php\n   define('APP_VERSION', '1.0.0');\n   \n   // Or using a class\n   namespace App;\n\n   class Version {\n       const APP_VERSION = '1.0.0';\n   }

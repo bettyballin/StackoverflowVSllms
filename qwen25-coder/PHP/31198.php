@@ -1,0 +1,1 @@
+// Example Model in application/shared/models/User.php\n\nclass Shared_Model_User extends Zend_Db_Table_Abstract {\n    protected $_name = 'users';\n}

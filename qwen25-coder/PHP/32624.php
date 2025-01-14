@@ -1,0 +1,1 @@
+$conn = ADONewConnection('pdo_mysql');

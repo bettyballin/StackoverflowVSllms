@@ -1,0 +1,1 @@
+<%\nFunction FormatToFiveDigits(num)\n    Dim paddedNum\n    paddedNum = Right(String(5, "0") & num, 5)\n    FormatToFiveDigits = paddedNum\nEnd Function\n\nDim myInteger\nmyInteger = 999\nDim formattedInteger\nformattedInteger = FormatToFiveDigits(myInteger)\n\nResponse.Write(formattedInteger) ' Output will be: 00999\n%>

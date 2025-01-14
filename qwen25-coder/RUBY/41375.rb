@@ -1,0 +1,1 @@
+require 'csv'  # Use 'fastercsv' if Ruby < 1.9\n\n# Initialize an empty hash to store counts\nid_counts = Hash.new(0)\n\nCSV.foreach('yourfile.csv', headers: true) do |row|\n  id = row['ID']\n  id_counts[id] += 1\nend\n\nputs id_counts

@@ -1,0 +1,1 @@
+def example_algorithm(data):\n         # Simple algorithm\n         return sorted(data)

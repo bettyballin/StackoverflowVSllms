@@ -1,0 +1,1 @@
+def call_php_method\n  name = "World"\n  response = `php script.php?name=#{ERB::Util.url_encode(name)}`\n  render plain: response\nend

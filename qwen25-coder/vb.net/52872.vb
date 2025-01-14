@@ -1,0 +1,1 @@
+<%\nResponse.ExpiresAbsolute = DateAdd("d",30,Now())\nResponse.Expires = 60 * 24 * 30 ' expire in 30 days (seconds)\nResponse.AddHeader "Cache-Control", "public"\nResponse.ContentType = "text/css"\n\n' Output the CSS content\n%>\nbody {\n    background-color: #fff;\n}

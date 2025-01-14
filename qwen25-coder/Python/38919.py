@@ -1,0 +1,1 @@
+# Assuming the database returns a byte string encoded in ISO-8859-1 or Latin-1\nvalue = 'w\xf6rner'\ndecoded_value = value.decode('latin1')  # Decode using latin1\n\nprint('Decoded Name: %s - %s' % (decoded_value, type(decoded_value)))\n\n# If the string is actually UTF-8 encoded, use:\n# decoded_value = value.decode('utf-8')

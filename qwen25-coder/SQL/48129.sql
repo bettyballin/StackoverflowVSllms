@@ -1,0 +1,1 @@
+SELECT teacher \nFROM classes \nWHERE LOWER(class) = 'math101';

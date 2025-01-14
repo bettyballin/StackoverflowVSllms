@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#fixedDiv').css({\n        'position': 'fixed',\n        'top': 0,\n        'left': 0\n    });\n});

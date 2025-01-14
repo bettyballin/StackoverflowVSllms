@@ -1,0 +1,1 @@
+curl_setopt($ch, CURLOPT_VERBOSE, true);\n   $verbose = fopen('php://temp', 'rw+');\n   curl_setopt($ch, CURLOPT_STDERR, $verbose);\n   // ... after exec() ...\n   rewind($verbose);\n   $verInfo = stream_get_contents($verbose);\n   echo nl2br($verInfo); \n   fclose($verbose);

@@ -1,0 +1,1 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">\n    <type name="Vendor\Module\Model\ResourceModel\Custom">\n        <arguments>\n            <argument name="connection" xsi:type="string">default</argument>\n        </arguments>\n    </type>\n</config>

@@ -1,0 +1,1 @@
+CREATE TABLE "USER" (\n        "Name" VARCHAR2(50),\n        "Surname" VARCHAR2(50),\n        "Dt_Birth" DATE\n    );

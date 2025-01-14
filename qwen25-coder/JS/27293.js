@@ -1,0 +1,1 @@
+<script type="text/javascript">\nfunction runFunction() {\n    // Your function logic here\n}\n\nwindow.onload = function () {\n    runFunction();\n};\n</script>

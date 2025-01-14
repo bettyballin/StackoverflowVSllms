@@ -1,0 +1,1 @@
+<id name="Id" column="Id">\n    <generator class="guid.comb"/>\n    <type name="System.Guid, System"/>\n</id>

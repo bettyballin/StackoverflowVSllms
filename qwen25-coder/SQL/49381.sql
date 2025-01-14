@@ -1,0 +1,1 @@
+SELECT \n    process_info.*\nFROM sys.dm_exec_process_memory AS memory_info\nCROSS APPLY (\n    SELECT \n        cpu_time \n    FROM sys.dm_exec_requests \n    WHERE session_id = @@SPID\n) AS process_info;

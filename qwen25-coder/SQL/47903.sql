@@ -1,0 +1,1 @@
+SELECT \n    TABLE_NAME AS 'Table',\n    TABLE_ROWS AS 'Number of Rows'\nFROM \n    INFORMATION_SCHEMA.TABLES\nWHERE \n    TABLE_SCHEMA = 'your_database_name';

@@ -1,0 +1,1 @@
+-- Inserting data with circular references\nBEGIN;\n\nINSERT INTO question (text, correct_answer) VALUES ('What is the first letter of the alphabet?', NULL) RETURNING id INTO question_id;\nINSERT INTO answer (text, question) VALUES ('A', question_id) RETURNING id INTO answer_id;\n\nUPDATE question SET correct_answer = answer_id WHERE id = question_id;\n\nCOMMIT;

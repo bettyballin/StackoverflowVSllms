@@ -1,0 +1,1 @@
+<?php\nif (isset($_POST['pk'])) {\n    $pk = $_POST['pk'];\n    // Further processing...\n}\n?>

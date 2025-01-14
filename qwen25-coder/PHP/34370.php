@@ -1,0 +1,1 @@
+if (condition here) {\n    // Set the variable that you want to pass\n    $id = $someVar;\n    \n    // Include the file\n    include "myFile.php";\n}

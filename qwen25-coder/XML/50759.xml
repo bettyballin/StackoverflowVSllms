@@ -1,0 +1,1 @@
+<!-- For project references -->\n<Reference Include="NLog">\n  <Condition> '$(Configuration)' == 'Debug' </Condition>\n</Reference>\n\n<!-- For PackageReferences -->\n<ItemGroup Condition=" $(Configuration) == 'Debug' ">\n  <PackageReference Include="NLog" Version="YOUR_NLOG_VERSION_HERE" />\n</ItemGroup>

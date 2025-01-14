@@ -1,0 +1,1 @@
+SELECT \n    Type,\n    Cash,\n    [Check]\nFROM (\n    SELECT \n        Type,\n        Method,\n        Amount\n    FROM YourTableName -- Replace with your actual table name\n) AS SourceTable\nPIVOT (\n    MAX(Amount)\n    FOR Method IN (Cash, [Check])\n) AS PivotTable;

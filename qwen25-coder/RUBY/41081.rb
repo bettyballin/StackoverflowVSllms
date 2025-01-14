@@ -1,0 +1,1 @@
+https_client.ssl_config.verify_mode = OpenSSL::SSL::VERIFY_PEER\nhttps_client.ssl_config.set_trust_ca('path_to_your_ca_certificate.pem')

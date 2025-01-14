@@ -1,0 +1,1 @@
+# Gemfile\n   gem 'activerecord'\n   gem 'sinatra-activerecord'\n\n   # Example Usage\n   require 'sinatra/activerecord'\n   class User < ActiveRecord::Base\n   end

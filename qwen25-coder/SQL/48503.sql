@@ -1,0 +1,1 @@
+SELECT DISTINCT t1.ID AS First_ID, t2.ID AS Second_ID\nFROM Table1 t1\nJOIN Table1 t2 ON DATEDIFF(t2.Date_Created, t1.Date_Created) = 2\nORDER BY t1.ID;

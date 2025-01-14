@@ -1,0 +1,1 @@
+SELECT * FROM sys.dm_clr_memory_usage;\n     SELECT * FROM sys.dm_clr_appdomains;

@@ -1,0 +1,1 @@
+SELECT owner, object_name, last_ddl_time\nFROM all_objects\nWHERE object_type = 'PROCEDURE'\nORDER BY last_ddl_time;

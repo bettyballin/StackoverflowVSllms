@@ -1,0 +1,1 @@
+Public Interface ICode(Of T)\n    Property CodeKey As T\n    Property Description As String\n\n    Function GetList() As IEnumerable(Of T)\n    Function GetSpecific(key As T) As T\n    Sub SetProperties(code As T, description As String)\nEnd Interface

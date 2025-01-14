@@ -1,0 +1,1 @@
+<uses-permission android:name="android.permission.RECEIVE_SMS"/>\n<uses-permission android:name="android.permission.SEND_SMS"/>\n<uses-permission android:name="android.permission.INTERNET"/>

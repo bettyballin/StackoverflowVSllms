@@ -1,0 +1,1 @@
+CREATE TABLE itineraries (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    items JSON\n);

@@ -1,0 +1,1 @@
+# Assuming 'legacy_created_at' and 'legacy_updated_at' are your legacy column names\nyour_model.update_columns(\n  created_at: your_model.legacy_created_at,\n  updated_at: your_model.legacy_updated_at,\n  # other attributes you want to set\n)\n\n# After this, Rails will resume automatically managing the timestamps for subsequent updates

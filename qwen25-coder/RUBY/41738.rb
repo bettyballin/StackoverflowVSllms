@@ -1,0 +1,1 @@
+files = %w[yes.rar yes.part1.rar yes.part01.rar yes.part001.rar no.part2.rar no.part02.rar no.part002.rar no.part011.rar]\n\nfirst_in_set = files.select { |file| file.match(/^(.*)\.(rar|part0*1\.rar)$/) }\n\nputs first_in_set

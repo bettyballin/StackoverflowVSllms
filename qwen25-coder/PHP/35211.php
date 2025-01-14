@@ -1,0 +1,1 @@
+<?php\n// Check if a specific cookie is set\nif(isset($_COOKIE["user"])) {\n    // Retrieve the value of the cookie\n    $cookieValue = $_COOKIE["user"];\n    echo "Welcome back! Your username is: " . htmlspecialchars($cookieValue);\n} else {\n    echo "No cookies were found.';\n}\n?>

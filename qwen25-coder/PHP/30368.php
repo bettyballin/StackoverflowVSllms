@@ -1,0 +1,1 @@
+$html = '<select>\n<option value="abc">Test - 123</option>\n<option value="def">Test - 456</option>\n<option value="ghi">Test - 789</option>\n</select>';\n\n$dom = new DOMDocument;\n@$dom->loadHTML($html);\n\n$options = $dom->getElementsByTagName('option');\n$texts = [];\n\nforeach ($options as $option) {\n    $texts[] = trim($option->nodeValue);\n}\n\nprint_r($texts);

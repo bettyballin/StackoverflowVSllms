@@ -1,0 +1,1 @@
+<script>\n$(function() {\n  $("#dialog").dialog({\n    autoOpen: false,\n    show: {\n      effect: "blind",\n      duration: 1000\n    },\n    hide: {\n      effect: "explode",\n      duration: 1000\n    }\n  });\n\n  $("#opener").on("click", function() {\n    $("#dialog").dialog("open");\n  });\n});\n</script>

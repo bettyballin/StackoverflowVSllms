@@ -1,0 +1,1 @@
+<?php\nfunction isIE6() {\n    $userAgent = $_SERVER['HTTP_USER_AGENT'];\n    return strpos($userAgent, 'MSIE 6') !== false && strpos($userAgent, 'Opera') === false;\n}\n\nif (isIE6()) {\n    echo "You are using Internet Explorer 6.";\n} else {\n    echo "You are not using Internet Explorer 6.";\n}\n?>

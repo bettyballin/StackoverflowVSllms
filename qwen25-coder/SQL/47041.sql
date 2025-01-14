@@ -1,0 +1,1 @@
+Proc SQL;\n   /* Drop index if needed */\n   Alter Table Server003.CustomerList Drop Constraint <index_name>;\n   Delete From Server003.CustomerList;\n   /* Recreate index after deletion if dropped */\n   Alter Table Server003.CustomerList Add Constraint <index_name> ...;\n   Quit;

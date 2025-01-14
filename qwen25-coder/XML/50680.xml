@@ -1,0 +1,1 @@
+<target name="backup-web-config">\n    <copy file="path/to/web.config" tofile="path/to/web-backup.config"/>\n</target>

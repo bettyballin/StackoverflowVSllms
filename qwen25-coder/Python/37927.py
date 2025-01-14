@@ -1,0 +1,1 @@
+# Example usage of BeautifulSoup with lxml parser\nfrom bs4 import BeautifulSoup\nimport requests\n\nurl = 'https://example.com'\nresponse = requests.get(url)\nsoup = BeautifulSoup(response.text, 'lxml')\nprint(soup.title.string)

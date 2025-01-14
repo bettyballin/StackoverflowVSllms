@@ -1,0 +1,1 @@
+foreach ($data as $item) {\n    // Your processing logic here\n    echo "Processing item: $item\n";\n    \n    // Flush output buffer to send data immediately to the browser\n    ob_flush();\n    flush();\n\n    // Optional: Sleep for a short period if you want to simulate delay or reduce server load\n    // sleep(1);\n}

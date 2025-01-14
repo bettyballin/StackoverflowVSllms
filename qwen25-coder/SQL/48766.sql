@@ -1,0 +1,1 @@
+CREATE TABLE User_Specific_Permissions (\n        UserID INT,\n        Permissions BIT(64), -- Assuming 64-bit for more flexibility\n        PRIMARY KEY (UserID),\n        FOREIGN KEY (UserID) REFERENCES Users(UserID)\n    );

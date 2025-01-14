@@ -1,0 +1,1 @@
+WITH RECURSIVE NumberedRows AS (\n    SELECT ID, COL2, ROW_NUMBER() OVER (ORDER BY ID) AS RowNum\n    FROM MYTABLE\n    WHERE ID IN (1, 2, 3, 4, 5)\n),\nUpdatedValues AS (\n    SELECT Nr.ID, (SELECT MAX(T.COL2) FROM MYTABLE T) + Nr.RowNum AS NewCOL2\n    FROM NumberedRows Nr\n)\nUPDATE MYTABLE AS M\nSET COL2 = U.NewCOL2\nFROM UpdatedValues U\nWHERE M.ID = U.ID;

@@ -1,0 +1,1 @@
+define('DB_NAME', 'wordpress_db');\n     define('DB_USER', 'wordpress_user');\n     define('DB_PASSWORD', 'password');\n     define('DB_HOST', 'localhost');

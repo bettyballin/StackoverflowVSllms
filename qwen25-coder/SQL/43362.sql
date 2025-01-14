@@ -1,0 +1,1 @@
+BEGIN\n    DBMS_SCHEDULER.CREATE_JOB (\n      job_name => 'PROCESS_STAGING_QUEUE_JOB',\n      job_type => 'PLSQL_BLOCK',\n      job_action => 'BEGIN PROCESS_STAGING_QUEUE; END;',\n      start_date => SYSTIMESTAMP,\n      repeat_interval => 'FREQ=SECONDS; INTERVAL=30',\n      enabled => TRUE);\nEND;

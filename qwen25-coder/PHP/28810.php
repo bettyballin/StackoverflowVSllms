@@ -1,0 +1,1 @@
+class User {\n    public function __construct(\n        public readonly string $name,\n        public readonly int $id,\n    ) {}\n}\n\n$user = new User('John Doe', 1);\necho $user->name; // Outputs: John Doe\n// $user->name = 'Jane Doe'; // This will cause a fatal error

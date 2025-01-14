@@ -1,0 +1,1 @@
+ALTER TABLE YourTableName\nALTER COLUMN YourColumnName VARCHAR(255)\nCOLLATE Latin1_General_CS_AS;

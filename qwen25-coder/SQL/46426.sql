@@ -1,0 +1,1 @@
+CREATE INDEX idx_column_name ON table_name USING btree(column_name);

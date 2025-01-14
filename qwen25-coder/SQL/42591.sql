@@ -1,0 +1,1 @@
+SELECT \n    e.name,\n    STRING_AGG(p.email, ';') AS emails\nFROM \n    PERSON p\nINNER JOIN \n    EMPLOYEE e ON p.agentofrecord_id = e.employee_id \nWHERE \n    dbo.GetPersonMember(p.person_id) = 1\n    AND p.isactive = 1\n    AND p.email <> ''\nGROUP BY \n    e.name\nORDER BY \n    e.name;

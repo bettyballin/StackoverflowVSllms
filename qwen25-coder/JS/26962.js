@@ -1,0 +1,1 @@
+function expandContent() {\n    // Your code to expand the page content\n\n    // Reapply the background image\n    document.body.style.background = "#000000 url(images/back_all.gif) repeat-x top";\n}

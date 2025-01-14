@@ -1,0 +1,1 @@
+SELECT * FROM (VALUES ('aa'), ('bb'), ('cc')) AS my_list(value);

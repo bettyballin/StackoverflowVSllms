@@ -1,0 +1,1 @@
+$url = str_replace("%3A", ":", $row['url']);\necho htmlspecialchars($url);

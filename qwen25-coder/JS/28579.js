@@ -1,0 +1,1 @@
+var s = document.createElement('script');\n   s.src='https://example.com/path/to/tracking.min.js';\n   s.async=true;\n   document.head.appendChild(s);

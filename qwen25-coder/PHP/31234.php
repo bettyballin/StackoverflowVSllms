@@ -1,0 +1,1 @@
+$fmt = new IntlDateFormatter(\n       'de_DE',\n       IntlDateFormatter::LONG,\n       IntlDateFormatter::FULL,\n       'Europe/Berlin',\n       IntlDateFormatter::GREGORIAN\n   );\n   echo $fmt->format(time());

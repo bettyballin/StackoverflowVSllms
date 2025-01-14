@@ -1,0 +1,1 @@
+<?php\n   // Command to execute the script, ensure you escape and sanitize inputs in a real scenario!\n   $output = shell_exec('/path/to/knock_apache.sh');\n\n   echo "<pre>$output</pre>";\n   ?>

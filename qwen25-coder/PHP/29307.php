@@ -1,0 +1,1 @@
+// One true brace form (Zend Framework Style)\nclass MyClass\n{\n    function myFunction()\n    {\n        // code here\n    }\n}\n\n// K&R style (brace on same line)\nclass OtherClass {\n    function myOtherFunction() {\n        // code here\n    }\n}

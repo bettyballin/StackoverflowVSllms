@@ -1,0 +1,1 @@
+<!-- Add this to your nbproject/build-impl.xml if needed -->\n<target name="-pre-dist">\n    <war destfile="${dist.dir}/${application.name}.war" webxml="web/WEB-INF/web.xml">\n        <classes dir="${build.classes.dir}"/>\n        <fileset dir="${web.docbase.dir}">\n            <include name="**/*.*"/>\n        </fileset>\n    </war>\n</target>

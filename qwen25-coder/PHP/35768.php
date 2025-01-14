@@ -1,0 +1,1 @@
+session_start([\n    'cookie_secure' => false,\n    'cookie_httponly' => true // Consider setting this to true for better security\n]);

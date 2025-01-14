@@ -1,0 +1,1 @@
+-- MSSQL\nALTER TABLE YourTable\nADD BlobData VARBINARY(MAX) NULL;\n\n-- Oracle\nALTER TABLE YourTable\nADD BlobData BLOB;

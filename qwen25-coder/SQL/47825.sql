@@ -1,0 +1,1 @@
+CREATE OR REPLACE TRIGGER MYTRIGGER\nAFTER INSERT ON SOMETABLE\nFOR EACH ROW  \nDECLARE\n    v_emplid varchar2(10);\nBEGIN\n    SELECT personnum INTO v_emplid\n    FROM PERSON\n    WHERE PERSONID = :NEW.EMPLOYEEID;\n\n    dbms_output.put_line(v_emplid);\n\n    -- Additional INSERT statement can be added here using v_emplid and other values\n\nEND MYTRIGGER;\n/

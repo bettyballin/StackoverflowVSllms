@@ -1,0 +1,1 @@
+app.use((err, req, res, next) => {\n    console.error(err.stack);\n    if (res.headersSent) return next(err);\n    res.status(500).json({ error: 'Something broke!' });\n});

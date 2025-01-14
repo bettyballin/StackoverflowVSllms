@@ -1,0 +1,1 @@
+# Gemfile\ngroup :development, :test do\n  gem 'rspec-rails', '~> 3.0'\nend

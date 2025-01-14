@@ -1,0 +1,1 @@
+-- Enable Ad Hoc Distributed Queries if it's not already enabled\nEXEC sp_configure 'Ad Hoc Distributed Queries', 1;\nRECONFIGURE;

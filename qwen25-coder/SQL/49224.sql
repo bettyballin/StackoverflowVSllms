@@ -1,0 +1,1 @@
+-- Example of using VARCHAR2 in a table creation\nCREATE TABLE example_table (\n    description VARCHAR2(100)\n);

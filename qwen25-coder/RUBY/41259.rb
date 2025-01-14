@@ -1,0 +1,1 @@
+def example_method(default_value = 'default', *args)\n        puts "Default value: #{default_value}"\n        args.each { |arg| puts "Argument: #{arg}" }\n    end\n\n    example_method('custom', 1, 2, 3)

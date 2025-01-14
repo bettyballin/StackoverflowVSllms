@@ -1,0 +1,1 @@
+curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);\n// ...\ncurl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 1); // Enable peer verification\ncurl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 2); // Verify the host's CN (Common Name)

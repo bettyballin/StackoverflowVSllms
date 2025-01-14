@@ -1,0 +1,1 @@
+function truncateURL(url, maxLength) {\n       if (url.length > maxLength) {\n           const partLength = Math.floor((maxLength - 3) / 2);\n           return url.substring(0, partLength) + '...' + url.slice(-partLength);\n       }\n       return url;\n   }

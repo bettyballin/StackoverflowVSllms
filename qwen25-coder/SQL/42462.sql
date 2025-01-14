@@ -1,0 +1,1 @@
+WITH NumberedRows AS (\n    SELECT \n        value,\n        ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS rn\n    FROM \n        your_table\n)\nSELECT \n    current.value - previous.value AS difference\nFROM \n    NumberedRows current\nLEFT JOIN \n    NumberedRows previous ON current.rn = previous.rn + 1;

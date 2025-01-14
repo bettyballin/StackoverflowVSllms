@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX idx_mytable_fieldname\nON mytable (myvarcharcolumn);

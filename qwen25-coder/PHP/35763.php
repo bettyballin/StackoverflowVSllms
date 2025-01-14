@@ -1,0 +1,1 @@
+function join_strings($glue, ...$strings) {\n    return implode($glue, $strings);\n}\n\n$title = "Mr.";\n$fname = "Jonathan";\n$lname = "Sampson";\n\nprint join_strings(" ", $title, $fname, $lname); // Outputs: Mr. Jonathan Sampso

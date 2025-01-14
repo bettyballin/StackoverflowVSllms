@@ -1,0 +1,1 @@
+$output = preg_replace("/(\w+(\s+\w+)+)(\s+)(\d+);/", "$1,$4;", $output);

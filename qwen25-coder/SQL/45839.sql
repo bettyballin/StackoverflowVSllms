@@ -1,0 +1,1 @@
+CREATE TABLE dbo.Numbers (n INT PRIMARY KEY);\n\n   INSERT INTO dbo.Numbers VALUES (1);\n   INSERT INTO dbo.Numbers VALUES (2);\n   INSERT INTO dbo.Numbers VALUES (3);\n   -- Insert more values up to the maximum possible quantity in your table.

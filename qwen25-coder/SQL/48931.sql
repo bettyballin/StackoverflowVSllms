@@ -1,0 +1,1 @@
+USE tempdb\n\nWITH RankedTbl AS (\n    SELECT\n        TblID,\n        AuditFieldID,\n        AuditValue,\n        AuditDate,\n        ROW_NUMBER() OVER (PARTITION BY AuditFieldID ORDER BY AuditDate DESC) as rn\n    FROM\n        Tbl\n)\nSELECT \n    AuditFieldID,\n    AuditValue,\n    AuditDate\nFROM\n    RankedTbl\nWHERE\n    rn = 1;

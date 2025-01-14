@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE p_getdate\nIS\nBEGIN\n   dbms_output.put_line(TO_CHAR(SYSDATE, 'MM-DD-YYYY HH24:MI:SS'));\nEND;

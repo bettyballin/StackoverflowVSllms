@@ -1,0 +1,1 @@
+const bcrypt = require('bcrypt');\n\nconst saltRounds = 10;\n\nasync function hashPassword(plainTextPassword) {\n    const hashedPassword = await bcrypt.hash(plainTextPassword, saltRounds);\n    return hashedPassword;\n}\n\nasync function checkPassword(inputPassword, storedHash) {\n    const match = await bcrypt.compare(inputPassword, storedHash);\n    return match;\n}

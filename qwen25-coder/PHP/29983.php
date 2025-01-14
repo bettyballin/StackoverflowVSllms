@@ -1,0 +1,1 @@
+// Retrieve a session variable\n   if (isset($_SESSION['foo'])) {\n     echo $_SESSION['foo'];\n   }\n   else {\n     echo 'Session variable does not exist.';\n   }

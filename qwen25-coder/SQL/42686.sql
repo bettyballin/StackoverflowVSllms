@@ -1,0 +1,1 @@
+-- Create a temp table or load it from a file\nCREATE TEMPORARY TABLE IF NOT EXISTS id_list (\n  CUSTOMER_ID INT\n);\n\n-- Insert all customer IDs with duplicates as needed\nINSERT INTO id_list (CUSTOMER_ID) VALUES (130), (130); -- Repeat for your list\n\nSELECT c.NAME\nFROM CUSTOMERS c\nJOIN id_list i ON c.CUSTOMER_ID = i.CUSTOMER_ID;

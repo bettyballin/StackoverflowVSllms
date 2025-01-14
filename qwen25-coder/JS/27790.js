@@ -1,0 +1,1 @@
+const path = require('path');\nconsole.log(path.sep);

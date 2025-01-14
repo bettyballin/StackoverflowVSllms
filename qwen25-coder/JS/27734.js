@@ -1,0 +1,1 @@
+function removeSwf() {\n       var swfObject = document.getElementById('mySwfObject');\n       if (swfObject) {\n           swfObject.parentNode.removeChild(swfObject);\n       }\n   }

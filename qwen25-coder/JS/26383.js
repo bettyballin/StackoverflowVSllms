@@ -1,0 +1,1 @@
+const csrfToken = document.querySelector('input[name="csrf_token"]').value;\n\n   fetch('/your-action-url', {\n       method: 'POST',\n       headers: {\n           'Content-Type': 'application/json',\n           'X-CSRF-Token': csrfToken\n       },\n       body: JSON.stringify({ /* your data */ })\n   });

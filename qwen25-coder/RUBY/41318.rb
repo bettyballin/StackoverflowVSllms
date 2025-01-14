@@ -1,0 +1,1 @@
+# Assuming 'doc' is your parsed Hpricot document\naccounts = doc.search("//section[@description='YYYYY']//account")

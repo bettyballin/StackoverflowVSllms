@@ -1,0 +1,1 @@
+#!/usr/bin/python\n\n     import os\n     import time\n     import sys\n\n     os.environ['PYTHONUNBUFFERED'] = '1'\n\n     print("Content-type: text/plain")\n     print()\n     \n     for i in range(1, 10):\n         print(i)\n         sys.stdout.flush()\n         time.sleep(1)\n\n     print("Done.")

@@ -1,0 +1,1 @@
+function detectPrefix($filePath, $prefix) {\n    // Use glob to find all files with the given prefix\n    $pattern = rtrim($filePath, '/') . '/' . $prefix . '*';\n    $files = glob($pattern);\n\n    // Return the array of matched files or null if none found\n    return $files ? $files : null;\n}

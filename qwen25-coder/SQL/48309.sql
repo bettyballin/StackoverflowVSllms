@@ -1,0 +1,1 @@
+SELECT id, band_name, song_name, album_name, genre \nFROM us_music \nWHERE `genre` = 'punk'\nUNION ALL\nSELECT id, band_name, song_name, album_name, genre \nFROM de_music \nWHERE `genre` = 'punk';

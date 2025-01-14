@@ -1,0 +1,1 @@
+Sub Main()\n    Dim intValue? As Integer ' Nullable Integer\n    Dim obj As Object = Nothing\n    Dim dbValue As String = Convert.DBNull\n\n    Console.WriteLine(IsNull(intValue)) ' True if not set\n    Console.WriteLine(IsNull(obj))      ' True\n    Console.WriteLine(IsNull(dbValue))  ' False, but if explicitly checked against DBNull.Value would be true\nEnd Sub

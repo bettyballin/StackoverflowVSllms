@@ -1,0 +1,1 @@
+-- Example: Subquery to Join transformation\n   SELECT * FROM Orders o WHERE EXISTS (SELECT 1 FROM Customers c WHERE c.id = o.customer_id AND c.status = 'active');\n   \n   -- Equivalent using JOIN\n   SELECT DISTINCT o.* FROM Orders o JOIN Customers c ON o.customer_id = c.id WHERE c.status = 'active';

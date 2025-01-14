@@ -1,0 +1,1 @@
+-- Example SQL Server Agent Job Step command:\nEXEC LogExpensiveQueries;

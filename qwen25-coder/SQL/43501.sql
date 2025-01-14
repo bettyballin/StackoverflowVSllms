@@ -1,0 +1,1 @@
+-- Find all foreign key constraints referencing the 'address' table\nSELECT \n    TABLE_NAME, \n    COLUMN_NAME \nFROM \n    INFORMATION_SCHEMA.KEY_COLUMN_USAGE \nWHERE \n    REFERENCED_TABLE_NAME = 'address' \n    AND REFERENCED_COLUMN_NAME = 'id'  -- Assuming the primary key of address is 'id'\nORDER BY \n    TABLE_NAME;

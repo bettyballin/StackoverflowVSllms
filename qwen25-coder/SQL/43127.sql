@@ -1,0 +1,1 @@
+SELECT extract(\n           XMLTYPE.CREATEXML(\n               xmlparse(content doc.payload DISABLE ENTITY SUBSTITUTION)\n           ),\n       '/SHOW_SHIPMENT_005/DATAAREA/SHOW_SHIPMENT/SHIPMENT/SHIPITEM/DOCUMNTREF/DOCUMENTID'\n       ) AS document_id\nFROM your_table_name;

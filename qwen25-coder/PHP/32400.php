@@ -1,0 +1,1 @@
+// routes/web.php\nRoute::get('/', function () {\n    return view('welcome');\n});

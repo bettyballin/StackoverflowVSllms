@@ -1,0 +1,1 @@
+<Placemark>\n  <name>Example Placemark</name>\n  <description><![CDATA[\n    Click <a href="http://example.com/your-detailed-content.html">here</a> for more information.\n  ]]></description>\n  <Point>\n    <coordinates>-120,37,0</coordinates>\n  </Point>\n</Placemark>

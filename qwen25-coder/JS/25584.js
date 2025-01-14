@@ -1,0 +1,1 @@
+make_request_async('http://www.externalsite.com/script1.php?variable=45');

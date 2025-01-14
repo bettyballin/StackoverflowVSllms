@@ -1,0 +1,1 @@
+SELECT \n    t1.friendly_email,\n    t2.plain_email,\n    CASE \n        WHEN SUBSTRING_INDEX(SUBSTRING_INDEX(t1.friendly_email, '<', -1), '>', 1) = t2.plain_email THEN 'Match'\n        ELSE 'No Match'\n    END as match_status\nFROM \n    your_table_with_friendly_emails t1\nJOIN \n    your_table_with_plain_emails t2;

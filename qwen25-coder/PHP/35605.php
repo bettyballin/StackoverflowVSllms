@@ -1,0 +1,1 @@
+$city_id = (int)$_POST['city']; // Assuming city_id should be an integer\n$this->db->where('city_to_zip.city_id', $city_id);

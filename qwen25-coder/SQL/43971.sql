@@ -1,0 +1,1 @@
+SELECT b.Book_Title,\n       COUNT(s.Transaction_ID) AS Total_Sales\nFROM Book b\nLEFT JOIN Sold s ON b.Book_ID = s.Book_ID\nGROUP BY b.Book_Title;

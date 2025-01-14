@@ -1,0 +1,1 @@
+class Company_SpecialCheckout_Checkout_CartController extends Mage_Checkout_CartController {\n    public function addAction() {\n        // Redirect to custom image upload page\n        $this->_redirect('specialcheckout/image/upload');\n        return;\n        \n        // Continue with parent action if conditions are met\n        // parent::addAction();\n    }\n}

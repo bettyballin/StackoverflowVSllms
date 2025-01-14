@@ -1,0 +1,1 @@
+Public Class MyClass\n    Public Sub MyMethod()\n        ' Method implementation\n    End Sub\n    \n    Public Function MyFunction() As String\n        Return "Hello, World!"\n    End Function\nEnd Class\n\n' Manually extracted interface\nPublic Interface IMyInterface\n    Sub MyMethod()\n    Function MyFunction() As String\nEnd Interface

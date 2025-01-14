@@ -1,0 +1,1 @@
+# app/helpers/application_helper.rb\nmodule ApplicationHelper\n  def post_classes(post)\n    [cycle('even', 'odd'), ('recent' if post.recent?), ('replied_to' if post.replied_to?), ('author_is_admin' if post.author_is_admin?)].compact.join(' ')\n  end\nend

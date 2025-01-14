@@ -1,0 +1,1 @@
+// Assuming $password is obtained from POST data after AJAX request\n$password = $_POST['password'];\n\n// Hashing the password with a strong algorithm and salt\n$hashedPassword = password_hash($password, PASSWORD_BCRYPT);\n\n// Store $hashedPassword in your database

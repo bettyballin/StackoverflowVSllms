@@ -1,0 +1,1 @@
+def foo(value):\n      value = value + 1\n  \n  count = 2\n  foo(count)\n  print(count) # Outputs: 2

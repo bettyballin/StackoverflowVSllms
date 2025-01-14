@@ -1,0 +1,1 @@
+# settings.py\n\nCACHES = {\n    'default': {\n        'BACKEND': 'django_redis.cache.RedisCache',\n        'LOCATION': 'redis://127.0.0.1:6379/1',\n        'OPTIONS': {\n            'CLIENT_CLASS': 'django_redis.client.DefaultClient',\n        }\n    }\n}

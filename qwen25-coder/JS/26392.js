@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    var baseUrl = 'http://www.domain.com'; // Set your domain here\n\n    $('a').each(function() {\n        var href = $(this).attr('href');\n        if (href && !/^(?:[a-z]+:)?\/\//i.test(href)) { // Check if the URL is not absolute\n            $(this).attr('href', baseUrl + href);\n        }\n    });\n});

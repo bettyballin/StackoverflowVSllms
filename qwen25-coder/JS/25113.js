@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#dropdownTrigger').click(function(e) {\n        e.preventDefault();\n        $('.menu_body').slideToggle();\n    });\n});

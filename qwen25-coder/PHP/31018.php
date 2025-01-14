@@ -1,0 +1,1 @@
+<?php\n$text = $_GET['text'];\n// Decode any URL encoding\n$decodedText = urldecode($text);\n\n// If the text contains HTML entities, decode those as well\n$finalText = html_entity_decode($decodedText);\n\necho $finalText; // Outputs 'w'\n?>

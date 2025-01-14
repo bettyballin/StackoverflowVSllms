@@ -1,0 +1,1 @@
+function is_a_valid_static_object($className) {\n    return class_exists($className);\n}\n\n// Example usage:\nif (is_a_valid_static_object('bob')) {\n    bob::yippie();\n} else {\n    echo "Class 'bob' not found.";\n}

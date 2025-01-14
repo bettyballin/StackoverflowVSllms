@@ -1,0 +1,1 @@
+-- Example of a single statement executed with "Run Statement"\nSELECT * FROM employees WHERE department_id = 10;\n\n-- Example of a script executed with "Run Script"\nCREATE TABLE temp_employees AS\nSELECT * FROM employees;\n\nUPDATE temp_employees\nSET salary = salary * 1.10\nWHERE department_id = 10;\n\nDROP TABLE temp_employees;

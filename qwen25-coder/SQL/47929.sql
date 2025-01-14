@@ -1,0 +1,1 @@
+CREATE USER MAPPING FOR CURRENT_USER\n     SERVER other_server\n     OPTIONS (user '<username>', password '<password>');

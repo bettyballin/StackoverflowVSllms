@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $dataFromFlash = $_POST['dataFromFlash'];\n    \n    // 处理数据，比如存入数据库或进行其他操作\n    echo "Received: $dataFromFlash";\n\n    // 如果需要向Flash返回数据，则在此处输出\n    // 例如：\n    // echo json_encode(array("response" => "some response data"));\n}\n?>

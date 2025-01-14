@@ -1,0 +1,1 @@
+Dim encodedUrl = Uri.EscapeDataString("your url here")

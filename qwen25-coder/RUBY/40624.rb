@@ -1,0 +1,1 @@
+page.call("buildYUITreeView", "project_tree", raw(array.to_json))

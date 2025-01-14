@@ -1,0 +1,1 @@
+CREATE TABLE Advertisements (\n    AdvertisementID INT PRIMARY KEY,\n    AdvertiserID INT,\n    Category VARCHAR(100),\n    ImageURL VARCHAR(255),\n    Width IN,  -- number of units wide\n    Height INT   -- number of units tall\n);

@@ -1,0 +1,1 @@
+WITH RankedRows AS (\n    SELECT id, name, ROW_NUMBER() OVER (ORDER BY name) as rn\n    FROM your_table\n)\nSELECT rn\nFROM RankedRows\nWHERE id = 47;

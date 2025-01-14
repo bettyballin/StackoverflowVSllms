@@ -1,0 +1,1 @@
+class RenameTimestampColumnsInYourTable < ActiveRecord::Migration[6.0]\n     def change\n       rename_column :your_table, :created_at, :new_created_at_name\n       rename_column :your_table, :updated_at, :new_updated_at_name\n     end\n   end

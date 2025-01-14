@@ -1,0 +1,1 @@
+class AppController extends Controller {\n    public $components = array('Auth');\n\n    public function beforeFilter() {\n        parent::beforeFilter();\n        if ($this->Auth->user()) {\n            $this->set('authUser', $this->Auth->user());\n        }\n    }\n}

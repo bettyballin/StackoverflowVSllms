@@ -1,0 +1,1 @@
+// Example in PHP: Exchanging a short-lived token for a long-lived token.\n$token_url = "https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token&client_id={app-id}&client_secret={app-secret}&fb_exchange_token={short-lived-token}";\n$app_token = file_get_contents($token_url);

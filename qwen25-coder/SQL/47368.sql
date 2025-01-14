@@ -1,0 +1,1 @@
+SELECT field1 AS field,\n       ... -- other fields\nFROM table1\nWHERE @Flag = 1\n\nUNION ALL\n\nSELECT field2 AS field,\n       ... -- other fields\nFROM table2\nWHERE @Flag = 2\n\nUNION ALL\n\nSELECT field3 AS field,\n       ... -- other fields\nFROM table3\nWHERE @Flag = 3;

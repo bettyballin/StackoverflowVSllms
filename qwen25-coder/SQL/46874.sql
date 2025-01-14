@@ -1,0 +1,1 @@
+WITH RankedPurchases AS (\n    SELECT \n        CustomerID,\n        Date,\n        ROW_NUMBER() OVER (PARTITION BY CustomerID, DATEADD(month, DATEDIFF(month, 0, Date), 0)\n                              ORDER BY Date DESC) as rn\n    FROM Purchase\n)\nSELECT \n    CustomerID,\n    Date\nFROM RankedPurchases\nWHERE rn = 1;

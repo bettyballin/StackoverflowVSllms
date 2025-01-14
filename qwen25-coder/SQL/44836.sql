@@ -1,0 +1,1 @@
+BACKUP DATABASE [YourDatabase]\n   TO DISK = 'C:\Backups\YourDatabase.bak'\n   WITH COMPRESSION;

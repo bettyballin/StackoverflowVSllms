@@ -1,0 +1,1 @@
+def count_lines(filename):\n    with open(filename, 'r') as file:\n        return sum(1 for _ in file)

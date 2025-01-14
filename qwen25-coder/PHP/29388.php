@@ -1,0 +1,1 @@
+$currency = new Zend_Currency(array(\n    'locale' => 'en_GB',\n    'position' => \Zend_Currency::RIGHT,\n    'format' => '#0.00 ¤'\n));\n$amount = $currency->toCurrency($value);

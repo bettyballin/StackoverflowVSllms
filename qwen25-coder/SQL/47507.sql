@@ -1,0 +1,1 @@
+$IF $$debug_mode $THEN\n       dbms_output.put_line('Debugging is on.');\n   $ELSE\n       NULL;\n   $END

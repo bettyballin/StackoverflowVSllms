@@ -1,0 +1,1 @@
+window.addEventListener('message', receiveMessage, false);\n\nfunction receiveMessage(event) {\n    var height = event.data.split(':')[1];\n    if (height && !isNaN(height)) {\n        document.getElementById('myIframe').style.height = parseInt(height, 10) + 'px';\n    }\n}

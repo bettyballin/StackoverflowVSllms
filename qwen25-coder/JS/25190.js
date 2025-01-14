@@ -1,0 +1,1 @@
+// Client-side script to disable a validator\ndocument.getElementById('<%= myValidator.ClientID %>').enabled = false;

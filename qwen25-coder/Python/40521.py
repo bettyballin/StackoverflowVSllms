@@ -1,0 +1,1 @@
+import json\n\nself.response.headers['Content-Type'] = 'application/json'\njsonData = {"foo": "bar"}\nself.response.out.write(json.dumps(jsonData))

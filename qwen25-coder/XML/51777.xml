@@ -1,0 +1,1 @@
+<!-- Define tag in tld file -->\n<tag>\n    <name>myTag</name>\n    <tag-class>com.example.MyTagHandler</tag-class>\n    <body-content>empty</body-content>\n    <attribute>\n        <name>message</name>\n        <required>true</required>\n        <rtexprvalue>true</rtexprvalue>\n    </attribute>\n</tag>

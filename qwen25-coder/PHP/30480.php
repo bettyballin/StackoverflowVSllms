@@ -1,0 +1,1 @@
+Configure::write('Log', array(\n    'debug' => array(\n        'engine' => 'FileLog',\n        'types' => array('notice', 'info', 'debug'),\n        'file' => 'debug',\n    ),\n    'error' => array(\n        'engine' => 'FileLog',\n        'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),\n        'file' => 'error',\n    )\n));

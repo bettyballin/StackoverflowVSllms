@@ -1,0 +1,1 @@
+CREATE TABLE ExampleTable (\n    ID INT PRIMARY KEY,\n    Percentage DECIMAL(5, 2) -- This allows for up to 3 digits before the decimal point and 2 after\n);

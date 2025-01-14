@@ -1,0 +1,1 @@
+$config = parse_ini_file('config.ini');\n\nprint_r($config);

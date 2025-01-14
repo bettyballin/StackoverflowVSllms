@@ -1,0 +1,1 @@
+Function Index() As ActionResult\n    Dim myPortfolio As New Defaultdb()\n    Dim projectsList As List(Of portfolio_project) = myPortfolio.getProjects()\n\n    Return PartialView("Indexprojects", projectsList)\nEnd Functio

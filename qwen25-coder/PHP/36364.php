@@ -1,0 +1,1 @@
+// Generate 16 cryptographically secure random bytes\n   $secureRandomBytes = random_bytes(16);\n\n   // Convert to a hexadecimal string for representation (optional)\n   $hexString = bin2hex($secureRandomBytes);

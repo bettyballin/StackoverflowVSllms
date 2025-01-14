@@ -1,0 +1,1 @@
+<servlet>\n    <servlet-name>DataViewer</servlet-name>\n    <servlet-class>path.to.DataViewerServlet</servlet-class>\n</servlet>\n<servlet-mapping>\n    <servlet-name>DataViewer</servlet-name>\n    <url-pattern>/data-viewer</url-pattern>\n</servlet-mapping>

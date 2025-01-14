@@ -1,0 +1,1 @@
+-- ROWNUM example:\nSELECT * FROM employees WHERE ROWNUM <= 5;\n\n-- ROW_NUMBER() example:\nSELECT \n    employee_id, \n    first_name, \n    last_name,\n    ROW_NUMBER() OVER (ORDER BY salary DESC) as row_num\nFROM employees;

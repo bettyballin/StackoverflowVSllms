@@ -1,0 +1,1 @@
+CREATE TABLE measurement (\n       logdate         date not null,\n       peaktemp        int,\n       unitsales       int\n   ) PARTITION BY RANGE (logdate);\n   CREATE TABLE measurement_y2021m01 PARTITION OF measurement\n       FOR VALUES FROM ('2021-01-01') TO ('2021-02-01');

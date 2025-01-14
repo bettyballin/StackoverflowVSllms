@@ -1,0 +1,1 @@
+-- To check recent deadlock alerts\n    SELECT * FROM v$alert_extended;

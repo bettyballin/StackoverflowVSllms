@@ -1,0 +1,1 @@
+-- Adding a new role\nINSERT INTO aspnet_Roles (ApplicationId, RoleName)\nSELECT ApplicationId, 'NewRoleName'\nFROM aspnet_Applications\nWHERE LOWER(ApplicationName) = LOWER('YourAppName');

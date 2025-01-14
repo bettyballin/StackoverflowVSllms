@@ -1,0 +1,1 @@
+function isValidUtf8($string) {\n    return mb_check_encoding($string, 'UTF-8');\n}

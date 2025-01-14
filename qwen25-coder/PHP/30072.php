@@ -1,0 +1,1 @@
+$str = "blahblah\n\nblahblah\n\n   adsa \n\n\nsad asdasd\n";\n$result = preg_replace('/^[ \t]*\R/', '', $str);\necho $result;

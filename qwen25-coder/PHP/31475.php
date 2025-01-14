@@ -1,0 +1,1 @@
+// In your view script (e.g., login.phtml)\necho $this->form;\n\n// Or specifically for global errors:\nif ($this->form->hasErrors()) {\n    echo $this->form->getMessages();\n}

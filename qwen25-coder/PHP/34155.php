@@ -1,0 +1,1 @@
+$start = 10; // Starting from the 11th row (0-based index)\n$count = 10; // Number of rows to retrieve\n\n$query = "\n    SELECT * FROM `picdb`\n    WHERE `username` = '$username'\n    ORDER BY `picid` DESC\n    LIMIT $start, $count\n";

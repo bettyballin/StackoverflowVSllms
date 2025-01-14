@@ -1,0 +1,1 @@
+-- Assuming 'id' is the unique identifier for each question and it's monotonically increasing\nSELECT *\nFROM questions\nWHERE id > :last_seen_id\nORDER BY id ASC\nLIMIT 10;

@@ -1,0 +1,1 @@
+<?php\n   $p = new Net_Pinion_Beanstalk();\n   if ($p->connect('localhost')) {\n       $job_id = $p->put('{"image_path":"/path/to/image.jpg"}');\n       echo "Job ID: " . $job_id;\n   }\n   $p->disconnect();

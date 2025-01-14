@@ -1,0 +1,1 @@
+function renderPage($title, $viewContent) {\n    global $page_title;\n    $page_title = $title;\n    include 'template.php';\n}\n\n// Usage in another script\nrenderPage('Home', 'home.content.view.php');

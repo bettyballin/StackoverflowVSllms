@@ -1,0 +1,1 @@
+// Assuming $form is your Zend_Form instance and 'mySelectElement' is the name of your select element.\n$selectElement = $form->getElement('mySelectElement');\nif ($selectElement) {\n    echo $selectElement->render();\n}

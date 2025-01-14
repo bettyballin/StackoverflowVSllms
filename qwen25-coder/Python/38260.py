@@ -1,0 +1,1 @@
+args = ['a', 'b', 'c', 'd']\nresult = 'function(' + ', '.join(args) + ')'

@@ -1,0 +1,1 @@
+Dim text As String = <xml>This is \n            some preformatted \n            text</xml>.Value

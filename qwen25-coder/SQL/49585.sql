@@ -1,0 +1,1 @@
+CREATE CERTIFICATE MyAppCert WITH SUBJECT = 'MyApp Certificate';\n   BACKUP CERTIFICATE MyAppCert TO FILE = 'C:\MyAppCert.cer';\n   \n   ADD SIGNATURE TO dbo.YourSP BY CERTIFICATE MyAppCert;

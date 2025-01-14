@@ -1,0 +1,1 @@
+$("#test2").click(function() {\n    $.getJSON("data.json", // Ensure this URL points to a valid JSON resource\n        function(response) {\n            alert('hi');\n            console.log(response); // Log the response for debugging\n        }\n    )\n    .fail(function(jqXHR, textStatus, errorThrown) {\n        console.error("Error: " + textStatus, errorThrown);\n    });\n});

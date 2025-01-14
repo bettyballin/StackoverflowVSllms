@@ -1,0 +1,1 @@
+<?php\necho "Please enter details about the release:\n";\n$input = trim(fgets(STDIN));\n\n// Example action with the input\n$changelogFile = 'CHANGELOG.md';\nfile_put_contents($changelogFile, date('Y-m-d') . ": $input\n", FILE_APPEND);\n\nexec('git add ' . escapeshellarg($changelogFile));\necho "Changes to CHANGELOG have been staged. Commit will proceed.\n";\n?>

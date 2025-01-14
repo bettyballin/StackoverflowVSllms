@@ -1,0 +1,1 @@
+# Improved code using parameter filtering/sanitization\ndef log_visit\n  referer = request.referer.presence || 'Unknown'\n  # Use URI parsing to ensure the referer is a proper URL\n  sanitized_url = URI.parse(referer).to_s rescue nil\n  @visit = Visit.new(url: sanitized_url)\n  @visit.save\nend

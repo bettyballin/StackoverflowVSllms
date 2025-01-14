@@ -1,0 +1,1 @@
+CREATE PROCEDURE YourProcedure\n   WITH EXECUTE AS OWNER\n   AS\n   BEGIN\n       TRUNCATE TABLE #Table1;\n       DBCC CHECKIDENT('#Table1', RESEED, @SequenceNumber) WITH NO_INFOMSGS;\n   END;

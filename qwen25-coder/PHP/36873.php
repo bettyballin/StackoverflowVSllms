@@ -1,0 +1,1 @@
+class MyClass {\n       public function __toString() {\n           return "MyClass instance";\n       }\n   }

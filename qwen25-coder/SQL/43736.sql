@@ -1,0 +1,1 @@
+CREATE TABLE ExampleTable (\n       SurrogateKey int PRIMARY KEY IDENTITY(1,1) CHECK (SurrogateKey > 0),\n       ...\n   );

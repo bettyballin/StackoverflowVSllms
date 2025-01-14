@@ -1,0 +1,1 @@
+exec('nohup php log_task_processor.php > /dev/null 2>&1 &');

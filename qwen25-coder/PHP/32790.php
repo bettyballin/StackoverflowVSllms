@@ -1,0 +1,1 @@
+$request = new HttpRequest('http://example.com/api/resource', HttpRequest::METH_PUT);\n$request->setHeader('x-example-info', '2342342');\n$request->addPostFields(['data' => $var]);\ntry {\n    $response = $request->send();\n    if ($response->getResponseCode() == 200) {\n        echo $response->getBody();\n    }\n} catch (HttpException $ex) {\n    echo $ex;\n}

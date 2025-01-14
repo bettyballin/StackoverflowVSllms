@@ -1,0 +1,1 @@
+DECLARE @CSV NVARCHAR(MAX)\n\nSELECT @CSV = COALESCE(@CSV + ',', '') + carModels\nFROM (\n    SELECT TOP 4 carModels\n    FROM dbo.Models\n) AS Models\n\nSELECT @CSV AS CsvResult

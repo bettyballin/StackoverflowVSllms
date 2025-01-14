@@ -1,0 +1,1 @@
+-- Connection to server A (via tunnel)\nmysql --protocol=TCP -h 127.0.0.1 -P 3307 -u user -p Test\n\n-- Execute select query and save result in a variable for example purposes.\nSELECT * INTO OUTFILE '/tmp/results.csv' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n' FROM your_table;

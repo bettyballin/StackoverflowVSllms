@@ -1,0 +1,1 @@
+<p>Simulated Action: <%= @simulated_action_name %></p>

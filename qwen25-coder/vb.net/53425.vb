@@ -1,0 +1,1 @@
+Sub SetDefaultDateCreated()\n    Dim strSQL As String\n    strSQL = "ALTER TABLE tblLogs ALTER COLUMN date_created DATETIME DEFAULT NOW() NOT NULL;"\n    CurrentProject.Connection.Execute strSQL\nEnd Sub

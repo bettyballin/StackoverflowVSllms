@@ -1,0 +1,1 @@
+DECLARE @str NVARCHAR(MAX)\nSET @str = 'Your string &lt here&lttest&lt;&lt;'\n\n-- Replace &lt that is not followed by ;\nSET @str = REPLACE(@str, '&lt', '&lt;')\n\nSELECT @str

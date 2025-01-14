@@ -1,0 +1,1 @@
+jQuery("#id_of_anchor").click(function(event) { \n    event.preventDefault(); // Prevent the default anchor behavior\n    Function_that_does_ajax(); // Call your AJAX function\n});

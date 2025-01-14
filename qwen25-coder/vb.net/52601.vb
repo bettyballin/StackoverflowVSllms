@@ -1,0 +1,1 @@
+Dim db As New LINQtoSQLDataContext\n\nDim oArticle As New article() ' Ensure this matches the name of your entity class\noArticle.Body = "Some Text"\noArticle.Title = "Some Title"\noArticle.Author = "Some Author"\n\ndb.articles.InsertOnSubmit(oArticle) ' Use InsertOnSubmit instead of Add\ndb.SubmitChanges() ' This will save the changes to the database

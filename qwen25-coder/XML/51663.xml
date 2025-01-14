@@ -1,0 +1,1 @@
+// You need to install ConfuserEx tool first.\n// Example config.xml snippet for ConfuserEx configuration:\n<project baseDir="path\to\source" outputDir="path\to\output">\n  <rule pattern="true" preset="normal" />\n</project>

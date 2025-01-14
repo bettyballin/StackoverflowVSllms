@@ -1,0 +1,1 @@
+CREATE DIRECTORY my_dir AS '/path/to/directory';\n  GRANT READ, WRITE ON DIRECTORY my_dir TO your_user;

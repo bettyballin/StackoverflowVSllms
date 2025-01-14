@@ -1,0 +1,1 @@
+if (strlen($input) > 100) {\n       // Input is too long\n   }

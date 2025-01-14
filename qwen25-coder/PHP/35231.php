@@ -1,0 +1,1 @@
+include_once __DIR__ . '/libs/helper/utility_functions.inc';\nsome_utility_function();

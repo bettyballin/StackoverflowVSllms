@@ -1,0 +1,1 @@
+USE ReportServer;\nGO\n\nUPDATE Users SET Email = 'username@domain.com' WHERE UserName = 'username';

@@ -1,0 +1,1 @@
+// Example PHP code to use Redis for caching in WordPress\nfunction activate_redis_cache() {\n    if (!defined('WP_REDIS_DISABLED') && !empty(getalloptions()['wp-redis-config'])) {\n        define('WP_CACHE', true);\n        // Other redis config may be defined here\n    }\n}\nadd_action('plugins_loaded', 'activate_redis_cache');

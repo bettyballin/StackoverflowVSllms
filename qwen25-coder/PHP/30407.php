@@ -1,0 +1,1 @@
+function showFields($selClient) {\n    $result = mysql_query("SELECT * FROM project WHERE projectid = $selClient");\n    $values = array();\n    while ($row = mysql_fetch_assoc($result)) { // Use mysql_fetch_assoc for associative array\n        $values[] = $row; // Each row is an associative array with column names as keys\n    }\n    return $values;\n}

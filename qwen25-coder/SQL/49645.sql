@@ -1,0 +1,1 @@
+SELECT \n    COLUMN_NAME,\n    REFERENCED_TABLE_NAME,\n    REFERENCED_COLUMN_NAME\nFROM \n    INFORMATION_SCHEMA.KEY_COLUMN_USAGE\nWHERE \n    TABLE_SCHEMA = 'your_database_name' -- replace with your database name\n    AND TABLE_NAME = 'MyTableName'      -- replace with your table name\n    AND REFERENCED_TABLE_NAME IS NOT NULL;

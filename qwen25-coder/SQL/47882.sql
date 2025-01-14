@@ -1,0 +1,1 @@
+SELECT * \n   FROM Car c\n   INNER JOIN ManufacturerLookup m ON c.ManufacturerId = m.ManufacturerId\n   WHERE m.Code = 'Nissan';

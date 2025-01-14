@@ -1,0 +1,1 @@
+<%= datetime_select 'reservation', :pick_up_time, id: "#{prefix}_pick_up_time" %>\n<%= datetime_select 'reservation', :return_time, id: "#{prefix}_return_time" %>

@@ -1,0 +1,1 @@
+function decodeHtmlEntities(str) {\n    const txt = document.createElement("textarea");\n    txt.innerHTML = str;\n    return txt.value;\n}\n\nconst object = {};\nobject.Text = decodeHtmlEntities("&#97;");\nconsole.log(object.Text); // Outputs: "a"

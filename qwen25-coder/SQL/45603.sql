@@ -1,0 +1,1 @@
+SELECT \n    SUM(qty) AS total_qty,\n    SUM(qty * price) AS total_value\nFROM \n    cartcontents\nWHERE \n    cart_id = 4;

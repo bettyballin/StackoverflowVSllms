@@ -1,0 +1,1 @@
+words = ["Hello", "world"]\nsentence = "-".join(words)\nprint(sentence)  # Output: Hello-world

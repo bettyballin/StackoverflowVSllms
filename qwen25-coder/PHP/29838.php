@@ -1,0 +1,1 @@
+function isUserAuthorizedToUpdate() {\n    // Check if the user has permissions to perform an update\n    return isset($_SESSION['user_role']) && $_SESSION['user_role'] === 'admin';\n}

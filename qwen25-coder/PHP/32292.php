@@ -1,0 +1,1 @@
+<?php\n   /*\n   * Copyright (c) 2023 Your Name\n   * All rights reserved.\n   * Do not redistribute or modify this code without explicit permission.\n   */

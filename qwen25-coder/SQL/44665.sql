@@ -1,0 +1,1 @@
+SELECT questions.question_id,\n       questions.question_body,\n       GROUP_CONCAT(tag_id ORDER BY tag_id SEPARATOR ' ') AS 'tags_ids'\nFROM questions\nJOIN tag_question ON questions.question_id = tag_question.question_id\nGROUP BY questions.question_id\nLIMIT 15;

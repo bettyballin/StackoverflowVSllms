@@ -1,0 +1,1 @@
+function mymodule_my_form_submit($form, &$form_state) {\n  // Process the uploaded file and update your data structure.\n  // ...\n\n  // Indicate that the form needs to be rebuilt to reflect the changes.\n  $form_state['rebuild'] = TRUE;\n}

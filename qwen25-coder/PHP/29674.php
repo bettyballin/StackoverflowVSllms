@@ -1,0 +1,1 @@
+$registry = new stdClass();\n$registry->helper = new Helper();\n\n// Load the helper function file\n$registry->helper->load('external_helper_function_file.php');\n\n// Call the dynamically loaded helper function\necho $registry->helper->external_helper_function_file(); // Outputs: Function loaded successfully!

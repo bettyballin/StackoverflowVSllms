@@ -1,0 +1,1 @@
+function isNotEmpty($input) \n{\n    $strTemp = $input;\n    $strTemp = trim($strTemp);\n\n    if ($strTemp != '') // Corrected this line by adding a dollar sign before strTemp\n    {\n         return true;\n    }\n\n    return false;\n}

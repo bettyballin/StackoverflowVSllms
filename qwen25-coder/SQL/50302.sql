@@ -1,0 +1,1 @@
+DO $$\nDECLARE \n    DateTimeVar timestamp := '2023-10-05 14:35:00';\n    VarcharVar varchar(10);\nBEGIN\n    VarcharVar := to_char(DateTimeVar, 'YYYY-MM-DD');\n    RAISE NOTICE '%', VarcharVar;\nEND $$;\n-- Or as a query:\nSELECT TO_CHAR(NOW(), 'YYYY-MM-DD') AS formatted_date;

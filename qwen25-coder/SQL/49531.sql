@@ -1,0 +1,1 @@
+CREATE TABLE Emails (\n    EmailID INT IDENTITY(1,1) PRIMARY KEY,\n    RecipientEmail NVARCHAR(256),\n    Subject NVARCHAR(256),\n    Body TEXT,\n    ScheduledDateTime DATETIME,\n    IsSent BIT DEFAULT 0\n);

@@ -1,0 +1,1 @@
+-- Sample query using XQuery to filter by a typed value\nSELECT *\nFROM MyTable\nWHERE XmlData.exist('/Root[IntValue > 10]') = 1;

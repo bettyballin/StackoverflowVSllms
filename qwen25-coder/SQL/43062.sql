@@ -1,0 +1,1 @@
+GRANT USAGE ON DATABASE LINK remote_db_link TO anotheruser;

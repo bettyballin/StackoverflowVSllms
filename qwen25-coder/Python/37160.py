@@ -1,0 +1,1 @@
+list_of_pairs = [(0, 1), (2, 3), (5, 7), (2, 1)]\ntotal_sum = sum(pair[0] for pair in list_of_pairs)\nprint(total_sum)

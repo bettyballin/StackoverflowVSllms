@@ -1,0 +1,1 @@
+import hashlib\n\n# Example of using SHA-1 to hash a message\nmessage = "Secure Message"\nsha1_hash = hashlib.sha1(message.encode()).hexdigest()\nprint("SHA-1 Hash:", sha1_hash)

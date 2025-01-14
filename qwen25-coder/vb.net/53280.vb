@@ -1,0 +1,1 @@
+Dim myObject As Object = Nothing\n\nIf myObject Is Nothing Then\n    Console.WriteLine("myObject is Nothing")\nEnd If

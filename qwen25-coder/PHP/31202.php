@@ -1,0 +1,1 @@
+$lastInsertId = $db->lastInsertId(null, 'users_userid_seq'); // or use the actual sequence name

@@ -1,0 +1,1 @@
+SELECT \n    entry.*\nFROM \n    entry\nINNER JOIN \n    entry_locations ON entry.id = entry_locations.entry_id\nWHERE \n    entry_locations.location = 'France';

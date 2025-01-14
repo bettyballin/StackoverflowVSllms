@@ -1,0 +1,1 @@
+<!-- smtpSettings.config -->\n   <system.net>\n       <mailSettings>\n           <smtp from="noreply@example.com">\n               <network host="smtp.example.com" port="587" userName="user@example.com" password="password" enableSsl="true"/>\n           </smtp>\n       </mailSettings>\n   </system.net>

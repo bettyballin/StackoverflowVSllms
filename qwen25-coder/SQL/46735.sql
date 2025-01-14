@@ -1,0 +1,1 @@
+SELECT name \nFROM Table1 \nWHERE (@param IS NULL OR EXISTS (\n    SELECT 1 \n    FROM table2 \n    WHERE param = @param \n      AND ... -- other conditions here\n)) \nAND ... -- other conditions for Table1 here

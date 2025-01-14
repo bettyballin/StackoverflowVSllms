@@ -1,0 +1,1 @@
+postscript(filename, width=6, height=6, pointsize=8)\nqqnorm(n, main=title)\nqqline(n)\ndev.off()

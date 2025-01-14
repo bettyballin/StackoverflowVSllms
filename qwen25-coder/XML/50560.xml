@@ -1,0 +1,1 @@
+<configuration>\n  <appSettings>\n    <add key="MyQuery" value="SELECT * FROM Users WHERE Id=@Id;" />\n  </appSettings>\n</configuration>

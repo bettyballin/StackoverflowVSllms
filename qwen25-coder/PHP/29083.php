@@ -1,0 +1,1 @@
+require 'path/to/mime-detection-library.php';\n\nfunction detectMimeType($filePath) {\n    return MimeDetector::detect($filePath);\n}\n\n$mimeType = detectMimeType('example.pdf');\necho "Detected MIME type: $mimeType";

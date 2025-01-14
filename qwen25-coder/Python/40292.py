@@ -1,0 +1,1 @@
+# Example of using raw SQL in Django\n   people = MyModel.objects.raw('SELECT * FROM myapp_mymodel WHERE some_condition')

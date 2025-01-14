@@ -1,0 +1,1 @@
+SELECT \n       request_session_id AS SPID,\n       OBJECT_NAME(resource_associated_entity_id) AS TableName,\n       request_mode,\n       request_status,\n       request_type\n   FROM \n       sys.dm_tran_locks\n   WHERE \n       resource_database_id = DB_ID()\n       AND request_mode != 'S'

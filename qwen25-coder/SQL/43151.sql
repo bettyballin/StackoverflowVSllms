@@ -1,0 +1,1 @@
+-- Insert the album on a date or update if it already exists.\nINSERT INTO albums (album_date) VALUES (CURDATE()) \nON DUPLICATE KEY UPDATE album_date = CURDATE();\n\n-- Then select the correct album ID.\nSELECT album_id FROM albums WHERE album_date = CURDATE();

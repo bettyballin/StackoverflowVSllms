@@ -1,0 +1,1 @@
+ALTER TABLE [table-name] ADD COLUMN [column-name] HYPERLINK;

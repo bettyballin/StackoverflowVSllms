@@ -1,0 +1,1 @@
+var scaleSelectElements = document.getElementsByName('scale_select');\nfor (var i = 0; i < scaleSelectElements.length; i++) {\n    scaleSelectElements[i].onclick = vSetScale;\n}

@@ -1,0 +1,1 @@
+var f=function(x){return x*x};alert(f(5));

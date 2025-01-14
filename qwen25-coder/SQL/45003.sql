@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n    SELECT @row := @row + 1 AS num, your_table.*\n    FROM your_table,\n          (SELECT @row:=0) r\n    WHERE created_at <= NOW() - INTERVAL 6 HOUR\n    ORDER BY created_at\n) t\nWHERE t.num % 30 = 1;

@@ -1,0 +1,1 @@
+<system.web>\n       <sessionState timeout="60" /> <!-- Timeout is in minutes -->\n   </system.web>

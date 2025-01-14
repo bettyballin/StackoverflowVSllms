@@ -1,0 +1,1 @@
+DBCC CHECKIDENT ('YourTableName', RESEED, 0); \n-- This sets the next Identity value to 1 (RESEED + 1)

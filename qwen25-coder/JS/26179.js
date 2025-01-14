@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", function() {\n       // Your init functions here\n   });

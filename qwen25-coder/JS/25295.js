@@ -1,0 +1,1 @@
+// Example of fetching data from a server-side script\n$.ajax({\n    url: 'saveToFile.php',\n    method: 'GET',\n    success: function(response) {\n        console.log('File content:', response);\n    },\n    error: function(xhr, status, error) {\n        console.error('Error reading file:', error);\n    }\n});

@@ -1,0 +1,1 @@
+CALL FindByXPath('<root><customer><country attribute="value">USA</country></customer></root>', '/root/customer/country');

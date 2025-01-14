@@ -1,0 +1,1 @@
+INSERT INTO your_table_name (userid, courseid)\nSELECT DISTINCT userid, 11\nFROM your_table_name\nWHERE courseid = 6\nAND NOT EXISTS (\n    SELECT 1 \n    FROM your_table_name t2 \n    WHERE t2.userid = your_table_name.userid AND t2.courseid = 11\n);

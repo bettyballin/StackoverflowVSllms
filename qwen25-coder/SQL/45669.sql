@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetUserByPassword(IN pwd VARCHAR(255))\nBEGIN\n    SELECT important_data FROM users WHERE password = pwd;\nEND;

@@ -1,0 +1,1 @@
+SELECT * FROM T WHERE C LIKE '%a%b%' -- Simple pattern matching

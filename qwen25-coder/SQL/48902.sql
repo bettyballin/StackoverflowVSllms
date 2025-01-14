@@ -1,0 +1,1 @@
+SELECT Int(num1)+IIf(Frac(num1)>0,1,0) AS CeilingValue FROM t1;

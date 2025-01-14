@@ -1,0 +1,1 @@
+CREATE OR REPLACE TYPE employee_table_type AS TABLE OF employees%ROWTYPE;\n\nCREATE OR REPLACE FUNCTION get_employees_tf (p_deptno IN NUMBER)\nRETURN employee_table_type PIPELINED IS \nBEGIN\n  FOR e IN (SELECT * FROM employees WHERE department_id = p_deptno) LOOP\n    PIPE ROW(e);\n  END LOOP;\n  RETURN;\nEND get_employees_tf;

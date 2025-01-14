@@ -1,0 +1,1 @@
+Dim pattern As String = "'(?:(?!').|''')*$"\nRegExp = System.Text.RegularExpressions.Regex.Matches(rtbMain.Text, pattern)\nFor Each RegExpMatch In RegExp\n    rtbMain.Select(RegExpMatch.Index, RegExpMatch.Length)\n    rtbMain.SelectionColor = ColorTranslator.FromHtml(frmColors.lbHexColors.Items(PassNumber))\nNext\nPassNumber += 1

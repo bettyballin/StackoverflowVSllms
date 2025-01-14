@@ -1,0 +1,1 @@
+-- Truncate the log first (if needed), as shown above.\nDBCC SHRINKFILE(YourLogFileName);

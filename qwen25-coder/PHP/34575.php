@@ -1,0 +1,1 @@
+<!-- sess1.php -->\n<?php\nsession_start();\n\n// No need for session_register\n$_SESSION['userid'] = 10333;\n$_SESSION['textvar'] = 'TextVariable'; // Properly quoted string\n\necho "<p>User ID is: " . $_SESSION['userid'] . "</p>";\necho "<p>Another variable is: " . $_SESSION['textvar'] . "</p>";\n?>\n<p>Go to the <a href="sess2.php">next page</a>.</p>

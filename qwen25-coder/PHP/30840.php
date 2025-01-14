@@ -1,0 +1,1 @@
+// Example of simple pattern matching in PHP\n   function isDirty($text) {\n       $patterns = ['/a[s$5]{2}/i', '/p[e3]{2}n[i!1]/i']; // Simple examples\n       foreach ($patterns as $pattern) {\n           if (preg_match($pattern, $text)) {\n               return true;\n           }\n       }\n       return false;\n   }

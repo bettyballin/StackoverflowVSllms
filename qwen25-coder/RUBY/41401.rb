@@ -1,0 +1,1 @@
+ActionView::Base.field_error_proc = Proc.new do |html_tag, instance|\n  if html_tag.match?(/\b(select)\b/)\n    "<span class='fieldWithErrors'>#{html_tag}</span>"\n  else\n    "<span class='fieldWithErrors'>#{html_tag}</span>"\n  end\nend

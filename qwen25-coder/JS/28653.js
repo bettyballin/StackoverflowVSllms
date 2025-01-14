@@ -1,0 +1,1 @@
+// Assuming you have a validator with the ID 'YourValidatorID'\nvar validator = document.getElementById('YourValidatorID');\nif (validator) {\n    ValidatorEnable(validator, false);\n}

@@ -1,0 +1,1 @@
+SELECT P.*\nFROM people P\nJOIN (\n    SELECT City, MIN(Birthyear) AS MinBirthyear\n    FROM people \n    GROUP BY City\n) P2 ON P.City = P2.City AND P.Birthyear = P2.MinBirthyear\nORDER BY P.Birthyear ASC \nLIMIT 3;

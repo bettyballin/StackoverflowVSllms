@@ -1,0 +1,1 @@
+setcookie($cookieName, $cookieValue, [\n      'expires' => time() + (86400 * 30),\n      'path' => '/',\n      'secure' => true,\n      'httponly' => true,\n      'samesite' => 'Strict'\n  ]);

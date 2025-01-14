@@ -1,0 +1,1 @@
+CREATE TABLE Foo (\n    FooID SERIAL PRIMARY KEY,\n    -- Other columns...\n);\n\nCREATE SEQUENCE BarSequence START WITH 1 INCREMENT BY 1;\n\nCREATE TABLE Bar (\n    FooID INT NOT NULL,\n    BarID INT DEFAULT nextval('BarSequence') NOT NULL,\n    PRIMARY KEY (FooID, BarID),\n    FOREIGN KEY (FooID) REFERENCES Foo(FooID)\n);

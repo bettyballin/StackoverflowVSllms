@@ -1,0 +1,1 @@
+class G {\n    public static function Loading($value) {\n        // Some processing related to loading $value\n        echo "Loading value: " . $value;\n    }\n}\n\n// Usage of the method without creating an instance of G due to it being static\nG::Loading('example');

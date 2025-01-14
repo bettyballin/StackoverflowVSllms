@@ -1,0 +1,1 @@
+CREATE PROCEDURE SearchProcedure\n    @MyParameter INT\nAS\nBEGIN\n    SELECT *\n    FROM YourTable\n    WHERE (@MyParameter = 1 AND MyColumn IS NULL)\n       OR (@MyParameter = 2 AND MyColumn IS NOT NULL)\n       OR (@MyParameter = 3) -- This condition essentially omits any filter on MyColumn\nEND

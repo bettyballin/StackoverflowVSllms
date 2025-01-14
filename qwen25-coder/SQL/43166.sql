@@ -1,0 +1,1 @@
+SELECT Field1 + '-' + FORMAT(Field2, 'D5') AS FormattedField\nFROM YourTable;

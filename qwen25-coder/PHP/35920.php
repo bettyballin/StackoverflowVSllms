@@ -1,0 +1,1 @@
+function foo($params = []) {\n    $defaults = [\n        'firstName' => 'john',\n        'lastName' => 'doe'\n    ];\n\n    // Merge user-provided parameters with defaults\n    $options = array_merge($defaults, $params);\n\n    echo $options['firstName'] . " " . $options['lastName'];\n}\n\n// Usage:\nfoo(['lastName' => 'smith']); // Output: john smith

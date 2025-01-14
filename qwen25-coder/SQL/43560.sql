@@ -1,0 +1,1 @@
+SELECT * \nFROM bb_topics\nWHERE topic_poster = 5 AND (\n    topic_id = (SELECT MIN(topic_id) FROM bb_topics WHERE topic_poster = 5 AND topic_id > 123)\n    OR topic_id = (SELECT MAX(topic_id) FROM bb_topics WHERE topic_poster = 5 AND topic_id < 123)\n);

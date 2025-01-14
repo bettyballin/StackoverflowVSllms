@@ -1,0 +1,1 @@
+Public Property WillAttend As Nullable(Of Boolean)

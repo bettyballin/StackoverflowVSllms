@@ -1,0 +1,1 @@
+// Incorrect usage that can add '1' in the output\n$_SESSION['myArray'] = echo print_r($array, true);

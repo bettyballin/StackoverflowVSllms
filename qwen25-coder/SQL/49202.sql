@@ -1,0 +1,1 @@
+ALTER SYSTEM SET optimizer_features_enable = '10.2.0.5' SCOPE=BOTH;

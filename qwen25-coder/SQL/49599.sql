@@ -1,0 +1,1 @@
+CREATE VIEW UserA_VwTables AS\n   SELECT 'Table1' as TableName, * FROM UserA.Table1\n   UNION ALL\n   SELECT 'Table2' as TableName, * FROM UserA.Table2;

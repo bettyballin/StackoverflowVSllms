@@ -1,0 +1,1 @@
+-- Oracle example\nALTER TABLE your_table\nMODIFY (column_name DEFAULT 'default_value' NOT NULL);\n\n-- MS SQL Server example\nALTER TABLE your_table\nALTER COLUMN column_name VARCHAR(255) NOT NULL;

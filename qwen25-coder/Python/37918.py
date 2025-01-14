@@ -1,0 +1,1 @@
+# Example of a non-linear equation\n   y = x**2 + 3*x + 1

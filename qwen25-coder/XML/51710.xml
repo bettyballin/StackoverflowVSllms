@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.renjin</groupId>\n    <artifactId>renjin-script-engine</artifactId>\n    <version>3.6-beta81</version> <!-- Check for the latest version -->\n</dependency>

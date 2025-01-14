@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <rewrite>\n      <rules>\n        <rule name="Proxy to Apache for PHP" stopProcessing="true">\n          <match url="^(.*)\.php$" />\n          <action type="Rewrite" url="http://localhost:8080/{R:1}.php" logRewrittenUrl="true" />\n        </rule>\n      </rules>\n    </rewrite>\n  </system.webServer>\n</configuration>

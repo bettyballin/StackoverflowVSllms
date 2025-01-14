@@ -1,0 +1,1 @@
+$("input[name^=myboxes]").click(function() {\n    // Extracting the number from the name attribute\n    var element_id = parseInt(this.name.match(/\[(\d+)\]/)[1], 10);\n    alert(element_id); // This will now alert 3, 8, or 10 based on which input is clicked\n});

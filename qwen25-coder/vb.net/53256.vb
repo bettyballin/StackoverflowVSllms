@@ -1,0 +1,1 @@
+Imports System.Diagnostics\n\nSub OpenPdfDocument(filePath As String)\n    Process.Start(New ProcessStartInfo With {\n        .FileName = filePath,\n        .UseShellExecute = True\n    })\nEnd Sub

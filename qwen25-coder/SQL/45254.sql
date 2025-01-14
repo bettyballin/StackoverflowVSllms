@@ -1,0 +1,1 @@
+SELECT Name FROM Employees\nUNION\nSELECT Name FROM Contractors;

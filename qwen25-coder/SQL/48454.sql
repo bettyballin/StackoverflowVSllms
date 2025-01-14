@@ -1,0 +1,1 @@
+CREATE TABLE locations (\n    id INT PRIMARY KEY,\n    name VARCHAR(255),\n    latitude DECIMAL(9, 6),\n    longitude DECIMAL(10, 7)\n);

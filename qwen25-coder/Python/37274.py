@@ -1,0 +1,1 @@
+um_str = "123"\nnum_int = int(num_str)  # Convert string to integer\nnum_float = float(num_str)  # Convert string to float\n\nint_to_str = str(num_int)  # Convert integer back to string

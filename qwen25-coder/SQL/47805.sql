@@ -1,0 +1,1 @@
+SELECT /*+ INDEX(table1 idx_col1) */ table1.col1\n   FROM table1;

@@ -1,0 +1,1 @@
+load 'setup.rb' # Load setup.rb every time without checking if it was previously loaded

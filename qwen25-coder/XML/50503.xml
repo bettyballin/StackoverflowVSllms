@@ -1,0 +1,1 @@
+<dependency>\n       <groupId>org.hibernate</groupId>\n       <artifactId>hibernate-envers</artifactId>\n       <version>6.2.7.Final</version>\n   </dependency>

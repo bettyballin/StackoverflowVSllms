@@ -1,0 +1,1 @@
+INSERT INTO contract (name, contract_parent_id)\nSELECT t1.contract_name,\n       COALESCE(t2.id, NULL) AS contract_parent_id\nFROM tbl_contract t1\nLEFT JOIN contract t2 ON t1.contract_parent = t2.contract_pk;

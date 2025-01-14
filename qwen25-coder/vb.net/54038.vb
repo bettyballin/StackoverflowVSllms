@@ -1,0 +1,1 @@
+Dim myVar As String() = New String() {"a", "b", "c"}

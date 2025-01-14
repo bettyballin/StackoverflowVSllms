@@ -1,0 +1,1 @@
+SET @required_dept_ids = '1,2,3'; -- Change these values as needed\n\nSELECT EmpID\nFROM EmployeesDepts\nWHERE FIND_IN_SET(DeptID, @required_dept_ids) > 0\nGROUP BY EmpID\nHAVING COUNT(DISTINCT DeptID) = \n    (SELECT COUNT(*) FROM (VALUES ROW(1), (2), (3)) AS RequiredDeptIDs(dept_id)); -- Replace with your dynamic dept ids

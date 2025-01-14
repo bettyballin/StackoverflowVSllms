@@ -1,0 +1,1 @@
+INSERT INTO Sequences (Name, CurrentValue) VALUES ('Group', 0);\n   INSERT INTO Sequences (Name, CurrentValue) VALUES ('Unit', 0);\n   INSERT INTO Sequences (Name, CurrentValue) VALUES ('Staff', 0);

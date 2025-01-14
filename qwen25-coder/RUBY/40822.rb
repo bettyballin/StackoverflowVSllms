@@ -1,0 +1,1 @@
+class KeyValuePair < ApplicationRecord\n     self.primary_key = 'key_column'\n     # Use this line if you want to indicate there is no primary key at all:\n     # self.primary_keys = nil  # Rails 6+\n   end

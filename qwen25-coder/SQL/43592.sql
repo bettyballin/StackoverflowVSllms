@@ -1,0 +1,1 @@
+SELECT *\nFROM [dbo].[RealTime]\n\nUNION ALL\n\nSELECT a.*\nFROM [dbo].[Query] a\nLEFT JOIN [dbo].[RealTime] b ON a.Id = b.Id\nWHERE b.Id IS NULL;

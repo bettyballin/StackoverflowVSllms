@@ -1,0 +1,1 @@
+LOAD DATA INFILE '/path/to/your/file.csv'\n   INTO TABLE YourTableName\n   FIELDS TERMINATED BY ','\n   OPTIONALLY ENCLOSED BY '"'\n   LINES TERMINATED BY '\n'\n   IGNORE 1 ROWS;

@@ -1,0 +1,1 @@
+<?php if ($output) { echo "<h2>".$output."</h2>"; } ?>

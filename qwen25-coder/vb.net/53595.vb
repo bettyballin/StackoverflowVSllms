@@ -1,0 +1,1 @@
+Sub GetSQLQuery()\n    Dim cn As Object\n    Set cn = ThisWorkbook.Connections("YourConnectionName").OLEDBConnection\n    \n    MsgBox "The SQL query is: " & vbCrLf & cn.CommandText\nEnd Sub

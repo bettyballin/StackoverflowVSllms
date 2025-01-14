@@ -1,0 +1,1 @@
+# mod_call.py\nclass ModuleLike:\n    def __call__(self):\n        return 42\n\nmod_call = ModuleLike()

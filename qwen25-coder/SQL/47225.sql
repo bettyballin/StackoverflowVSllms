@@ -1,0 +1,1 @@
+-- Populate GENOTYPE table with foreign keys from IND and MARKER tables\nINSERT INTO GENOTYPE (fk_ind, fk_rsid, call)\nSELECT i.id AS fk_ind, m.id AS fk_rsid, td.genotype\nFROM temp_data AS td\nJOIN IND AS i ON td.individual = i.name\nJOIN MARKER AS m ON td.marker = m.rsid;

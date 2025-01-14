@@ -1,0 +1,1 @@
+DROP SEQUENCE your_sequence;\n   \n   CREATE SEQUENCE your_sequence\n       START WITH 1; -- Change as needed

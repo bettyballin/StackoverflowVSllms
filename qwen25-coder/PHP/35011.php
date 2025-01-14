@@ -1,0 +1,1 @@
+use Doctrine\Common\Collections\ArrayCollection;\n\n$values = new ArrayCollection();\n$stmt = $pdo->query("YOUR_SQL_QUERY"); // Use a prepared statement for safety\nwhile ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {\n    $values->add([\n        $stmt->rowCount(),\n        $row['userlevel'],\n        $row['email'],\n        $row['member_id']\n    ]);\n}\nreturn $values;

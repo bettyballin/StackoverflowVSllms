@@ -1,0 +1,1 @@
+DECLARE\n    v_surname VARCHAR2(100);\nBEGIN\n    v_surname := 'O''Keefe';\n    EXECUTE IMMEDIATE 'SELECT * FROM PEOPLE WHERE SURNAME = :surname' \n        USING v_surname;\nEND;

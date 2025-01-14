@@ -1,0 +1,1 @@
+document.getElementById('renderButton').addEventListener('click', function() {\n     html2canvas(document.getElementById('myTable')).then(function(canvas) {\n       var imgData = canvas.toDataURL();\n       var newImg = document.createElement('img');\n       newImg.src = imgData;\n       document.body.appendChild(newImg);\n     });\n   });

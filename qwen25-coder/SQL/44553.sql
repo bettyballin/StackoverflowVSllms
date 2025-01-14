@@ -1,0 +1,1 @@
+SELECT * FROM faq \nWHERE document @@ to_tsquery('blur & blah');

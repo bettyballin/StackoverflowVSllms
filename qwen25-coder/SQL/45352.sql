@@ -1,0 +1,1 @@
+CREATE TABLE SharedSession (\n    SessionID VARCHAR(255) PRIMARY KEY,\n    UserID INT,\n    LastUpdated DATETIME,\n    Data NVARCHAR(MAX)\n);

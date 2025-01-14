@@ -1,0 +1,1 @@
+def touch_updated_at\n  self.updated_at = Time.current\n  save(:validate => false) # This bypasses validation but still updates timestamps\nend\n\n# Usage in your process loop\nmodels.each do |model|\n  model.process # Your custom processing logic here\n  model.touch_updated_at unless model.changed?\nend

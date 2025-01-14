@@ -1,0 +1,1 @@
+import smtplib\n\n   smtp_server = 'localhost'\n   smtp_port = 1025\n\n   # Example of sending an email\n   server = smtplib.SMTP(smtp_server, smtp_port)\n   server.starttls()  # Start TLS encryption (if needed by your setup)\n   message = "Hello, this is a test message"\n   server.sendmail('from@example.com', 'to@example.com', message)\n   server.quit()

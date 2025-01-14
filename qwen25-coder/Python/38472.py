@@ -1,0 +1,1 @@
+def number_of_ones(n):\n    c = 0\n    while n:\n        n &= (n - 1)  # Flip the least significant bit set to '1'\n        c += 1\n    return c\n\n# Test cases\nprint(number_of_ones(5))  # Output: 2\nprint(number_of_ones(4))  # Output: 1

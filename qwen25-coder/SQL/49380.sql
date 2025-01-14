@@ -1,0 +1,1 @@
+-- Example assuming TableA and TableB are the tables involved\n\n-- In all transactions, access TableA first, then TableB\n\nBEGIN TRANSACTION;\n\n-- First table accessed in both transactions\nUPDATE TableA SET col1 = 'value' WHERE id = 1;\n-- Second table accessed in both transactions\nUPDATE TableB SET col2 = 'value' WHERE id = 2;\n\nCOMMIT TRANSACTION;

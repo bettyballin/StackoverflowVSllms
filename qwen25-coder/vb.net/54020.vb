@@ -1,0 +1,1 @@
+Sub PrintDetails(ByVal name As String, ByVal age As Integer)\n      Console.WriteLine("Name: " & name & ", Age: " & age)\n  End Sub\n\n  ' Using named parameters\n  PrintDetails(age:=30, name:="John")

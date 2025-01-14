@@ -1,0 +1,1 @@
+<?php\n\n$sql = mysql_query("SELECT body FROM comments");\n\nwhile ($r = mysql_fetch_assoc($sql)) {\n   $body .= $r['body'] . "\n"; // Adding a newline after each body\n}\n\n?>\n\n<?php echo nl2br($body); ?><br />

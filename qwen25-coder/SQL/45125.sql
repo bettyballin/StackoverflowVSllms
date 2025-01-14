@@ -1,0 +1,1 @@
+SELECT * FROM tbl_dict WHERE lock='0' ORDER BY RAND() LIMIT 1;

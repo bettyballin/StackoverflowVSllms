@@ -1,0 +1,1 @@
+# Python example\ndef add(x, y):\n    return x + y\n\nresult = add(*[3, 4])  # Unpacks the list [3, 4] into two arguments\nprint(result)  # Outputs: 7

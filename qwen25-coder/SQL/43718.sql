@@ -1,0 +1,1 @@
+SET STATISTICS PROFILE ON;\n   GO\n   \n   -- Run your problematic SQL statement here\n   SELECT * FROM YourTable WHERE Column = 'Value';\n   GO\n   \n   SET STATISTICS PROFILE OFF;

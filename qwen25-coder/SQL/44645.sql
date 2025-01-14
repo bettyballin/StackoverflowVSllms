@@ -1,0 +1,1 @@
+USE YourDatabaseName;\nGO\n\nDROP TABLE IF EXISTS [dbo].[aspnet_Paths];\nDROP TABLE IF EXISTS [dbo].[aspnet_PersonalizationAllUsers];\nDROP TABLE IF EXISTS [dbo].[aspnet_PersonalizationPerUser];\nDROP TABLE IF EXISTS [dbo].[aspnet_Profile];\nDROP TABLE IF EXISTS [dbo].[aspnet_WebEventEvents];\nGO

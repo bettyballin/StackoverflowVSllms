@@ -1,0 +1,1 @@
+$(document).ready(function(){\n    // Store all contents of body\n    var contents = $("body").contents();\n    \n    // Create a new div with id 'wrapper'\n    $('<div id="wrapper"></div>')\n        .append(contents)  // Append all contents to the wrapper\n        .appendTo('body');  // Append the wrapper to the body\n});

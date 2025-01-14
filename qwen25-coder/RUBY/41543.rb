@@ -1,0 +1,1 @@
+require 'active_record'\n\n# Assuming you have established a database connection\n源表 = SourceTable.select(:myfield1, :myfield2, :id, :blobfield)\n源表.each do |record|\n  DestTable.create!(\n    field1: record.myfield1,\n    field2: record.myfield2,\n    field3: record.id,\n    blobfield: record.blobfield,\n    field4: 'SomeConstant'\n  )\nend

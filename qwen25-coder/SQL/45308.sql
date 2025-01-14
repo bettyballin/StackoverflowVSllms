@@ -1,0 +1,1 @@
+CREATE TABLE ExampleTable (\n    ID INT PRIMARY KEY IDENTITY(1,1),\n    FloatValue FLOAT,\n    OtherData NVARCHAR(255)\n);

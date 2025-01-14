@@ -1,0 +1,1 @@
+setlocale(LC_ALL, 'en_US.UTF-8');\n   bindtextdomain('your-text-domain', './path/to/locales');\n   textdomain('your-text-domain');

@@ -1,0 +1,1 @@
+function isElementSelfClosing(element) {\n    const outerHtml = element.outerHTML;\n    return !outerHtml.includes(`</${element.tagName.toLowerCase()}>`);\n}\n\nconst imgElement = document.querySelector('img');\nconsole.log(isElementSelfClosing(imgElement));  // Returns true or false

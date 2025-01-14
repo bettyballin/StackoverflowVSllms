@@ -1,0 +1,1 @@
+INSERT INTO stats_table (id, data)\nVALUES (123, 'example_data')\nON DUPLICATE KEY UPDATE data = VALUES(data);

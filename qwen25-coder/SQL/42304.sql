@@ -1,0 +1,1 @@
+-- Create an ascending index\nCREATE INDEX idx_ascending\nON YourTableName (ColumnName ASC);\n\n-- Create a descending index\nCREATE INDEX idx_descending\nON YourTableName (ColumnName DESC);

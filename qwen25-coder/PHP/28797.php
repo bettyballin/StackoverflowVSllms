@@ -1,0 +1,1 @@
+<?php\n$uncPath = '//ServerName/Folder/file.txt';\n$content = file_get_contents($uncPath);\nif ($content === FALSE) {\n    die('Error reading the file.');\n}\necho $content;\n?>

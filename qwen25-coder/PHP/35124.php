@@ -1,0 +1,1 @@
+<?php\n$allowedReferrer = 'http://foobar/path/page-containing-frame.aspx';\n\nif (isset($_SERVER['HTTP_REFERER']) && $_SERVER['HTTP_REFERER'] !== $allowedReferrer) {\n    // Not coming from the allowed referrer, redirect to login or error page\n    header('Location: http://foobar/login');\n    exit();\n}\n\n// Continue with wiki content loading\n?>

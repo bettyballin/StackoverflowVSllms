@@ -1,0 +1,1 @@
+# Warning: This should be used with caution.\nrequire 'rails/console/app'\nRails::Console.start(Rails.application)

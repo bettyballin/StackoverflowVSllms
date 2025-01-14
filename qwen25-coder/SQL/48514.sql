@@ -1,0 +1,1 @@
+-- Multiple queries (assuming no logical relationships needed)\nSELECT column1 FROM table1 WHERE id = 1;\nSELECT column2 FROM table2 WHERE foreign_id = 1;\nSELECT column3 FROM table3 WHERE foreign_id = 2;\nSELECT column4 FROM table4 WHERE foreign_id = 3;

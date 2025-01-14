@@ -1,0 +1,1 @@
+import fitz  # PyMuPDF\n\n   def split_pdf(input_path, output_folder):\n       doc = fitz.open(input_path)\n       for page_num in range(len(doc)):\n           out_path = f"{output_folder}/page_{page_num + 1}.pdf"\n           doc1 = fitz.open()  # new document\n           doc1.insert_pdf(doc, from_page=page_num, to_page=page_num)\n           doc1.save(out_path)

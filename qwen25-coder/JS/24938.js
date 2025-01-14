@@ -1,0 +1,1 @@
+var myjson = [];\n\nfunction pass(a) {\n    myjson = a;\n\n    // Iterate over each object in the array\n    for (var i = 0; i < myjson.length; i++) {\n        var item = myjson[i];\n        console.log("Name: " + item.name);\n        console.log("Distance: " + item.distance);\n        console.log("Code: " + item.code);\n    }\n}

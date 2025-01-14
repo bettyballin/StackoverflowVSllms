@@ -1,0 +1,1 @@
+Namespace YourCompanyName.FixedIncome.DataAccess.WebFocusIntegration\n       Public Class WebFocusDataAccess\n           ' Methods to interact with WebFocus reporting and data retrieval\n       End Class\n   End Namespace

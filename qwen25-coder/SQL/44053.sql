@@ -1,0 +1,1 @@
+SELECT DISTINCT U.userid, U.username\nFROM User U\nLEFT JOIN Key K ON U.userid = K.userid\nLEFT JOIN Laptop L ON U.userid = L.userid\nWHERE K.keyid IS NOT NULL OR L.laptopid IS NOT NULL;

@@ -1,0 +1,1 @@
+SELECT DISTINCT e1.source, e1.destination\nFROM edges e1\nJOIN edges e2 ON e1.source = e2.destination AND e1.destination = e2.source;

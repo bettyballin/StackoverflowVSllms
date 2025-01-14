@@ -1,0 +1,1 @@
+IF NOT EXISTS (SELECT 1 \n               FROM sys.database_principals \n               WHERE name = N'role' AND type_desc = 'DATABASE_ROLE')\nBEGIN\n    CREATE ROLE role\n    AUTHORIZATION MyUser;\nEND

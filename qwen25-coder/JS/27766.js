@@ -1,0 +1,1 @@
+// Open F12 Developer Tools and navigate to the Console tab to see error messages

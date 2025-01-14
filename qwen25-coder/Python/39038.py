@@ -1,0 +1,1 @@
+import hashlib\n\ndef generate_hash(text):\n    return hashlib.sha256(text.encode()).hexdigest()\n\n# Example usage:\nurl = "https://example.com/news/article"\ntitle = "Breaking News: Tech Update"\n\nurl_hash = generate_hash(url)\ntitle_hash = generate_hash(title)\n\n# Store url_hash and title_hash in your database along with other fields

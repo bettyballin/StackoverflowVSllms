@@ -1,0 +1,1 @@
+INSERT INTO your_table (your_timestamp_column)\nVALUES (TO_TIMESTAMP_TZ('2009-02-13T11:46:40+00:00', 'YYYY-MM-DD"T"HH24:MI:SSTZH:TZM'));

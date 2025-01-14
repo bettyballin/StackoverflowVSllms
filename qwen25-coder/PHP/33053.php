@@ -1,0 +1,1 @@
+$computedHash = sha1($binaryData);

@@ -1,0 +1,1 @@
+# config/initializers/mime_types.rb\n   Mime::Type.register "application/vnd.oasis.opendocument.formula", :odf\n   Mime::Type.register "application/vnd.openofficeorg.presentation", :odp

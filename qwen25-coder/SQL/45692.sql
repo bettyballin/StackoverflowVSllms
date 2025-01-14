@@ -1,0 +1,1 @@
+SELECT wb.*\nFROM warehouse_box wb\nINNER JOIN warehouse_box_status_vw wbsv ON wb.id = wbsv.warehouse_box_id \nINNER JOIN pallet_warehouse_box pwb ON wbsv.warehouse_box_id = pwb.warehouse_box_id \nINNER JOIN routing_shipment_pallet rsp ON pwb.pallet_id = rsp.pallet_id\nWHERE rsp.date_removed IS NULL\nAND pwb.date_unpalletized IS NULL\nAND rsp.routing_shipment_id = 100002;

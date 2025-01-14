@@ -1,0 +1,1 @@
+use Dompdf\Dompdf;\n\n   // Create an instance of Dompdf\n   $dompdf = new Dompdf();

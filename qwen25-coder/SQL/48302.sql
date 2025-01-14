@@ -1,0 +1,1 @@
+UPDATE Tasks\nSET Task1 = REPLACE(Task1, 'OldEmployeeID', 'NewEmployeeID'),\n    Task2 = REPLACE(Task2, 'OldEmployeeID', 'NewEmployeeID'),\n    Task3 = REPLACE(Task3, 'OldEmployeeID', 'NewEmployeeID')\nWHERE Task1 LIKE '%OldEmployeeID%'\n   OR Task2 LIKE '%OldEmployeeID%'\n   OR Task3 LIKE '%OldEmployeeID%';

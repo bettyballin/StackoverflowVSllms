@@ -1,0 +1,1 @@
+SELECT \n    Name AS 'name',\n    (\n        SELECT Age AS '@xsi:type', (SELECT 'me:age' FOR XML PATH(''), TYPE) AS '@xmlns:xsi'\n        FOR XML PATH('description'), TYPE\n    ),\n    (\n        SELECT Height AS '@xsi:type', (SELECT 'me:height' FOR XML PATH(''), TYPE) AS '@xmlns:xsi'\n        FOR XML PATH('description'), TYPE\n    )\nFOR XML PATH('person'), ROOT('root')

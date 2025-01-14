@@ -1,0 +1,1 @@
+$env = getenv('ENVIRONMENT') ?: 'development';\nif ($env === 'production') {\n    include_once 'config.prod.php';\n} else {\n    include_once 'config.dev.php';\n}

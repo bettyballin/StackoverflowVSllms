@@ -1,0 +1,1 @@
+SELECT u.user_id, u.pic_url, u.name, a.auto_id, a.userid, a.type, a.subject, a.body, a.datetime\nFROM actions AS a\nJOIN users AS u ON u.user_id = a.userid\nJOIN friends AS f1 ON f1.friendid = a.userid AND f1.userid = 1 AND f1.status = 'active'\nWHERE (f1.friendid IS NOT NULL OR a.userid = 1)\nORDER BY a.datetime DESC;

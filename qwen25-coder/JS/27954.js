@@ -1,0 +1,1 @@
+function showErrorDiv(show) {\n    document.getElementById("username_div").style.visibility = show ? "visible" : "hidden";\n}

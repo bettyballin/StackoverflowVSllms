@@ -1,0 +1,1 @@
+header("HTTP/1.0 404 Not Found");\n// Optionally, include your custom 404 page\ninclude '404.php';\n// Alternatively, to make sure Apache handles it:\nhttp_response_code(404);\nrequire_once('/path/to/document_root/.htaccess'); // Note: Including .htaccess directly is not typical or recommended.

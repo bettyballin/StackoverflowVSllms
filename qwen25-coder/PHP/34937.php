@@ -1,0 +1,1 @@
+$newArr = [];\n\n// Find the maximum length of sub-arrays\n$max_length = max(array_map('count', $arr));\n\nfor ($i = 0; $i < $max_length; $i++) {\n    foreach ($arr as $param => $values) {\n        if (isset($values[$i])) {\n            $newArr[$i][$param] = $values[$i];\n        }\n    }\n}\n\nprint_r($newArr);

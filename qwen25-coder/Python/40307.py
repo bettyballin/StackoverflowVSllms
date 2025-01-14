@@ -1,0 +1,1 @@
+# Example of a hypothetical scrambler function (Pseudo code)\n   def scramble(data):\n       key = "some_generated_key"\n       scrambled_data = [d ^ ord(k) for d, k in zip(data, itertools.cycle(key))]\n       return bytes(scrambled_data)\n\n   def unscramble(data):\n       # Same as scramble since XOR is symmetrical\n       return scramble(data)

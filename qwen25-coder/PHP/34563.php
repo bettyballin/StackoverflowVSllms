@@ -1,0 +1,1 @@
+<?php\n// Get the absolute path of the directory where the script is located\n$scriptDirectory = dirname(__FILE__);\n\n// Change the current working directory to the script's directory\nchdir($scriptDirectory);\n\n// Your code here...\n?>

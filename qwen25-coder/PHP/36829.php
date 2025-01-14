@@ -1,0 +1,1 @@
+ini_set('log_errors', 'on');\n   ini_set('error_log', '/path/to/your/logfile.log'); // Adjust this path accordingly

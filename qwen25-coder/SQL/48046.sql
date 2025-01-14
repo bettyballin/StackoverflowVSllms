@@ -1,0 +1,1 @@
+SELECT SUM(CASE WHEN operation = 'I' THEN 1 ELSE -1 END) as net_count_last_month\nFROM books_audit_log\nWHERE DATE(timestamp) BETWEEN \n    DATE_SUB_LAST_DAY(CURDATE(), INTERVAL 1 MONTH) + INTERVAL 1 DAY \n    AND LAST_DAY(DATE_SUB(CURDATE(), INTERVAL 1 MONTH));

@@ -1,0 +1,1 @@
+CREATE TABLE addresses (\n    address_id NUMBER PRIMARY KEY,\n    postal_code CHAR(12)\n);

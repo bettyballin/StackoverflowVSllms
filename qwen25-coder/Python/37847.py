@@ -1,0 +1,1 @@
+# Fibonacci sequence using dynamic programming (memoization)\ndef fibonacci(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fibonacci(n-1, memo) + fibonacci(n-2, memo)\n    return memo[n]\n\n# Example usage\nprint(fibonacci(50))  # Output will be much faster than a naive recursive approach

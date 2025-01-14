@@ -1,0 +1,1 @@
+Imports CrystalDecisions.Shared\n\nPublic Sub ConfigureCrystalReportsLogging()\n    Dim config As New ReportAppServer.ClientDoc.ISCDReportClientDocumentHandler\n    config.EnableTrace = True\n    config.TraceLevel = 3 ' Detailed Trace\n    config.TraceFileName = "C:\CrystalReportsLogs\DebugLog.txt"\nEnd Sub

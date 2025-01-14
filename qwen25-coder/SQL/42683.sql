@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n    SELECT *, RAND() as rand_num\n    FROM products\n) AS randomized_products\nORDER BY rand_num\nLIMIT 10 OFFSET 0; -- Change LIMIT and OFFSET for different pages

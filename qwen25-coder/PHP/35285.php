@@ -1,0 +1,1 @@
+<?php\nfunction generateSecureToken($length = 64) {\n    return bin2hex(random_bytes($length));\n}\n\n// Example of a 128-character URL-safe token\n$token = generateSecureToken(64);\necho $token;\n?>

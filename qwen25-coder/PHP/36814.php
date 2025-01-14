@@ -1,0 +1,1 @@
+<?php\n$isAjax = isset($_GET['ajax']) && $_GET['ajax'] == 'true';\n\nif (!$isAjax) {\n    include 'header.php';\n}\n?>\n\n<!-- Your main content here -->\n<div id="mainContentDiv">\n    <h1>Welcome!</h1>\n</div>\n\n<?php\nif (!$isAjax) {\n    include 'footer.php';\n}\n?>

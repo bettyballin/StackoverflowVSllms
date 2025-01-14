@@ -1,0 +1,1 @@
+// Insert example\n$data = array('first_name' => $firstName, 'last_name' => $lastName);\n$handle->insert('user_id', $data);\n\n// Update example\n$data = array('first_name' => $newFirstName, 'last_name' => $newLastName);\n$where = $handle->quoteInto('user_id = ?', $userId);\n$handle->update('user_id', $data, $where);

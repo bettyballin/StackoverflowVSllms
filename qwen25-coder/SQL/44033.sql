@@ -1,0 +1,1 @@
+RESTORE DATABASE [xxxxx]\nFROM DISK = 'C:\Backups\LiveDb_Full.bak'\nWITH REPLACE;

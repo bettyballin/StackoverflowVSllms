@@ -1,0 +1,1 @@
+use PhpOffice\PhpSpreadsheet\IOFactory;\n\n  $inputFileName = 'example.xlsx';\n  $spreadsheet = IOFactory::load($inputFileName);\n  $worksheet = $spreadsheet->getActiveSheet();\n  $formula = $worksheet->getCell('A1')->getValue();\n  $calculatedValue = $worksheet->getCell('A1')->getCalculatedValue();

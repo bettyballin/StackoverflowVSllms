@@ -1,0 +1,1 @@
+window.myAlias = document.getElementById.bind(document);

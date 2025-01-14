@@ -1,0 +1,1 @@
+ALTER TABLE your_table \nADD CONSTRAINT fk_parent_id \nFOREIGN KEY (parent_id) \nREFERENCES your_table(id) \nON DELETE CASCADE;

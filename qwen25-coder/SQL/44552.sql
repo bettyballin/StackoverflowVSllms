@@ -1,0 +1,1 @@
+-- Example: If 'order' is a column name in MySQL 4\n   SELECT order FROM products;\n   \n   -- In MySQL 5, you need to enclose 'order'\n   SELECT `order` FROM products;

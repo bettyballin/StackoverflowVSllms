@@ -1,0 +1,1 @@
+document.querySelectorAll('.custom-select').forEach(selectContainer => {\n  const select = selectContainer.querySelector('select');\n  select.addEventListener('change', () => {\n    console.log(`Selected ${select.value}`);\n    // Update the UI or perform actions based on selection\n  });\n});

@@ -1,0 +1,1 @@
+Public Sub GenericSub(Of T)(input As T)\n    Console.WriteLine($"The input was: {input}")\nEnd Sub

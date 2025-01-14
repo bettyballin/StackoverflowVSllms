@@ -1,0 +1,1 @@
+function functionTwo() {\n    // Some code\n}

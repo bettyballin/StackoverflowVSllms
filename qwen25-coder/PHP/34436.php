@@ -1,0 +1,1 @@
+include(__DIR__ . '/../base/error.inc.php');

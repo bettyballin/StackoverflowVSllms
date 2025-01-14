@@ -1,0 +1,1 @@
+DECLARE @count int = 20;\nDECLARE @sql NVARCHAR(MAX);\n\nSET @sql = N'SELECT TOP ' + CAST(@count AS NVARCHAR(10)) + N' * FROM SomeTable';\n\nEXEC sp_executesql @sql;

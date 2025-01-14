@@ -1,0 +1,1 @@
+var someText = 'anotherText"); alert("the nextText'; // User provided input\nalert(someText);

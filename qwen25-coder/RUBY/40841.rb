@@ -1,0 +1,1 @@
+q = Question.find(1)\n    q.category_list.add("Halloween", "Movie")\n    q.quiz_list.add("Christmas Quiz")\n    q.save

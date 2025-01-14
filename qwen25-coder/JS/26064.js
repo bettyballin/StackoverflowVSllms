@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    var itemCount = $('#mylist li').length;\n    console.log('Number of items in the list: ' + itemCount);\n});

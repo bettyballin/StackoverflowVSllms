@@ -1,0 +1,1 @@
+<!-- Example of IIS feature enabling in web.config -->\n<system.webServer>\n    <applicationInitialization dontStart="[true|false]">\n        <add initializationPage="/" hostName="[hostname]" />\n    </applicationInitialization>\n</system.webServer>

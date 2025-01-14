@@ -1,0 +1,1 @@
+var response = ajaxMethod.call(presenter, parameters);

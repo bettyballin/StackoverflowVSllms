@@ -1,0 +1,1 @@
+document.querySelector('#container').addEventListener('mouseenter', function() {\n    document.getElementById('overlay').style.display = 'block';\n});\n\ndocument.querySelector('#container').addEventListener('mouseleave', function() {\n    document.getElementById('overlay').style.display = 'none';\n});

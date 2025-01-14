@@ -1,0 +1,1 @@
+INSERT INTO dest_table(field1, field2, field3, blobfield, field4) \nSELECT t.myfield1, t.myfield2, t.id, IFNULL(t.blobfield, ''), 'SomeConstant' \nFROM tablename t;

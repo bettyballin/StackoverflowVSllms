@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    function focusEvent() {\n        var flashMovie = document.getElementById("flashContent");\n        if (flashMovie) {\n            flashMovie.playVideo(); // Assuming playVideo is an exported function in your SWF\n        }\n    }\n\n    window.onfocus = focusEvent;\n</script>

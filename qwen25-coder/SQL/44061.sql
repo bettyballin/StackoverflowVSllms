@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetRecordsForMonth(IN pYear INT, IN pMonth INT)\nBEGIN\n    SELECT *\n    FROM YourTable\n    WHERE YEAR(YourDateTimeColumn) = pYear AND MONTH(YourDateTimeColumn) = pMonth;\nEND//

@@ -1,0 +1,1 @@
+Dim LTest2 As IEnumerable = From e1 As QNCEntity In Shape.Entities _\n                            Join e2 As QNCEntity In Shape.Entities _\n                            Let x1 = CDbl(e1.EntObj.X2), x2 = CDbl(e2.EntObj.X1) _\n                            Let y1 = CDbl(e1.EntObj.Y2), y2 = CDbl(e2.EntObj.Y1) _\n                            Where x1 = x2 And y1 = y2

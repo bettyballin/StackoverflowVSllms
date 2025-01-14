@@ -1,0 +1,1 @@
+$stmt = $db->prepare("SQL QUERY WITH ? PLACEHOLDERS");\n$stmt->bind_param("s", $input_variable);\n$stmt->execute();\n$result = $stmt->get_result();\n\nwhile ($row = $result->fetch_assoc()) {\n    # Do something with $row['fieldname'];\n}

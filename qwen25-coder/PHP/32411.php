@@ -1,0 +1,1 @@
+$length = mb_strlen('Hello, 你好!', 'UTF-8');

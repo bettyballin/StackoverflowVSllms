@@ -1,0 +1,1 @@
+-- To find all related entities for entity_id = 4\nSELECT e2.id, e2.name\nFROM entity_entity ee1\nJOIN entities e2 ON ee1.entity_id_b = e2.id\nWHERE ee1.entity_id_a = 4\n\nUNION\n\nSELECT e2.id, e2.name\nFROM entity_entity ee2\nJOIN entities e2 ON ee2.entity_id_a = e2.id\nWHERE ee2.entity_id_b = 4;

@@ -1,0 +1,1 @@
+<ItemGroup>\n  <Content Include="..\..\Includes\*.dll">\n    <CopyToOutputDirectory>Always</CopyToOutputDirectory>\n    <Link>%(FileName)%(Extension)</Link>\n  </Content>\n</ItemGroup>

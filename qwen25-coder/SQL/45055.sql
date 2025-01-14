@@ -1,0 +1,1 @@
+SELECT TRY_CONVERT(DATETIME, \n                   RIGHT('0' + REPLACE(your_date_column, '-', ''), 7) + '-15', 120) AS ConvertedDate\nFROM your_table;

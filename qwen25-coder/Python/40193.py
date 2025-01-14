@@ -1,0 +1,1 @@
+def parse_id(data, var_name):\n      print(f"The value of {var_name} is {data}")\n\n  # Usage\n  my_id = "12345"\n  parse_id(my_id, var_name='myId')

@@ -1,0 +1,1 @@
+Dim tProcess As New Process()\ntProcess.StartInfo = New ProcessStartInfo("path_to_executable", "arguments") With {.UseShellExecute = False}\ntProcess.Start()\ntProcess.WaitForExit() ' This will now work if the process is controllable by your app

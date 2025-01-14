@@ -1,0 +1,1 @@
+UPDATE Hierarchy SET NodeName = 'NewChild1'\nWHERE NodeID = 2;

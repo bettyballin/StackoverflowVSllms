@@ -1,0 +1,1 @@
+function getLastElement(arr) {\n    if (arr.length === 0) {\n        throw new Error("Array is empty");\n    }\n    return arr[arr.length - 1];\n}\n\nconst myArray = ['a', 'b', 'c'];\nconsole.log(getLastElement(myArray)); // Output: c

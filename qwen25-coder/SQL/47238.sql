@@ -1,0 +1,1 @@
+GRANT CREATE TRIGGER TO your_user;

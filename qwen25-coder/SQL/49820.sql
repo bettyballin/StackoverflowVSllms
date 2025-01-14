@@ -1,0 +1,1 @@
+DECLARE @GivenDate DATETIME = '2005-03-03 14:23:00';\nSELECT EOMONTH(@GivenDate, -1) + 1 AS FirstDayOfMonth;

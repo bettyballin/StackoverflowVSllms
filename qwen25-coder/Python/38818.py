@@ -1,0 +1,1 @@
+print("Status: 301 Moved Permanently")  # Send HTTP status code 301\nprint("Location: http://www.example.com/new-location")  # URL of the new location\nprint()  # Important! Ends headers

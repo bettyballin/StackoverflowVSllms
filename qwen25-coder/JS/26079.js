@@ -1,0 +1,1 @@
+function steps(){\n       stepOne(); // Takes 30 seconds (blocking operation)\n       stepTwo(); // Takes < 1 second\n   }

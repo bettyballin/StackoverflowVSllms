@@ -1,0 +1,1 @@
+p = Post.find(1)\n    p.comments.reload.size  # This should force a DB query to get the latest count

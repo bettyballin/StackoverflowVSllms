@@ -1,0 +1,1 @@
+FROM incidents inc\nFROM cause_attack cau_att\nFROM obscure_table obs_tab

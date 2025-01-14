@@ -1,0 +1,1 @@
+<Target Name="ValidateMarkupFiles" BeforeTargets="Build">\n  <Exec Command="for %f in (*.aspx *.ascx *.html) do tidy -q -e %f || exit /b %errorlevel%" WorkingDirectory="$(ProjectDir)YourFolder\" Condition="'$(Configuration)' == 'Debug'" />\n</Target>

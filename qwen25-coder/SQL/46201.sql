@@ -1,0 +1,1 @@
+SELECT NEWSEQUENTIALID() AS SequentialGuid;

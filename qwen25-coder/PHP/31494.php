@@ -1,0 +1,1 @@
+protected function _initView() {\n    $view = new Zend_View();\n    \n    // Add the path to your partials directory\n    $view->addScriptPath(APPLICATION_PATH . '/views/partials');\n    \n    // Initialize ViewRenderer with the specified view object\n    $viewRenderer = Zend_Controller_Action_HelperBroker::getStaticHelper('ViewRenderer');\n    $viewRenderer->setView($view);\n}

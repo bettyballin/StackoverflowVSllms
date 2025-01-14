@@ -1,0 +1,1 @@
+interface Flyable {\n    public function fly();\n}\n\ninterface Swimmable {\n    public function swim();\n}\n\nclass Duck implements Flyable, Swimmable {\n    public function fly() {\n        // Flying logic here\n    }\n\n    public function swim() {\n        // Swimming logic here\n    }\n}

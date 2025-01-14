@@ -1,0 +1,1 @@
+SELECT \n    RunOutDate,\n    ResupplyDate,\n    DATEDIFF(day, CONVERT(DATE, RunOutDate), CONVERT(DATE, DATEADD(day, 1, ResupplyDate))) AS DaysOutOfFuel\nFROM \n    FuelAvailability;

@@ -1,0 +1,1 @@
+$this->db->simple_query("SET NAMES 'utf8'");

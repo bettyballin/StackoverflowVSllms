@@ -1,0 +1,1 @@
+sp_rename: Renames user-created objects such as tables or columns.\nsp_tableoption: Sets and unsets table options for a specified table.\nsp_tables: Returns information about all tables that can be queried by the current user.\nsp_columns: Returns column information for a single table or view.\nsp_helpindex: Displays index information for a table.

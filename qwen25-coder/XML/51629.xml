@@ -1,0 +1,1 @@
+<applicationPool>\n    <recycling periodicTime="24:00:00" />\n    <!-- Adjust based on your traffic patterns -->\n</applicationPool>

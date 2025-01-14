@@ -1,0 +1,1 @@
+<?xml version="1.0"?>\n<config>\n    <modules>\n        <YourCompany_Feedback>\n            <active>true</active>\n            <codePool>local</codePool>\n        </YourCompany_Feedback>\n    </modules>\n</config>

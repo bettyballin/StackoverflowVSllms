@@ -1,0 +1,1 @@
+abstract class Program {\n    // This would cause a strict standards warning in PHP 5.2+\n    // public abstract static function getSelectSQL();\n\n    // Correct approach using instance method\n    abstract public function getSelectSQL();\n}\n\nclass TVProgram extends Program {\n    public function getSelectSQL() {\n        return "SELECT * FROM tv_programs";\n    }\n}

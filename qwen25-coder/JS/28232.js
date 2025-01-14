@@ -1,0 +1,1 @@
+// Assuming you have a dropdown with id 'searchType'\n   document.getElementById('searchType').addEventListener('change', function() {\n       localStorage.setItem('selectedSearchType', this.value);\n   });

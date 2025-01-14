@@ -1,0 +1,1 @@
+$pdo = new PDO('mysql:host=your_host;dbname=your_db', 'username', 'password');\n$stmt = $pdo->query("SELECT * FROM project ORDER BY projectid");\n$allRows = $stmt->fetchAll(PDO::FETCH_ASSOC);\n\nreturn $allRows;

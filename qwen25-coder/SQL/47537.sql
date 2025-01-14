@@ -1,0 +1,1 @@
+Database: SalesDB\n\n     Table: Orders\n     Description: Stores customer order information.\n\n     Field Name | Data Type | Nullable | Description\n     -----------|-----------|----------|-------------\n     OrderID    | int       | No       | Unique identifier for the order.\n     CustomerID | int       | No       | ID of the customer who placed the order.

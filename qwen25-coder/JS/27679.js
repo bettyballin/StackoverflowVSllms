@@ -1,0 +1,1 @@
+try {\n       MyCC.attachEvent("OnCardInserted", OnCardInserted);\n       MyCC.attachEvent("OnCardRemoved", OnCardRemoved);\n   } catch (e) {\n       alert('Error setting events: ' + e.message);\n   }

@@ -1,0 +1,1 @@
+# Example of logging access in code\n   import os\n   import logging\n\n   logging.basicConfig(filename='access.log', level=logging.INFO)\n\n   def log_access(user, file):\n       logging.info(f"User {user} accessed {file}")

@@ -1,0 +1,1 @@
+$xml = simplexml_load_string('<root><message>Hello, World!</message></root>');\necho $xml->message; // Outputs: Hello, World!

@@ -1,0 +1,1 @@
+INSERT INTO x(a, b, c) VALUES (@a, @b, @c);\nSELECT @affected = @@ROWCOUNT;\nSELECT @newID = SCOPE_IDENTITY();

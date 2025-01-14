@@ -1,0 +1,1 @@
+select * from table where sStatus not in ('status1','status2','status3')

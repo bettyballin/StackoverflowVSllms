@@ -1,0 +1,1 @@
+UPDATE LinkedServer_Name.DatabaseName.SchemaName.TableName\n   SET Column1 = 'NewValue'\n   WHERE Condition;

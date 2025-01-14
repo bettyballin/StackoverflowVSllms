@@ -1,0 +1,1 @@
+-- Switch to Simple Recovery Model\nALTER DATABASE YourDatabase SET RECOVERY SIMPLE;\n\n-- Run your job here\nEXEC sp_start_job 'YourNightlyJob';\n\n-- Switch back to Full Recovery Model\nALTER DATABASE YourDatabase SET RECOVERY FULL;

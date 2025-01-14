@@ -1,0 +1,1 @@
+<rule ref="Generic.CodeAnalysis.UndefinedVariable">\n    <properties>\n        <property name="ignoreUnused" value="false"/>\n    </properties>\n</rule>

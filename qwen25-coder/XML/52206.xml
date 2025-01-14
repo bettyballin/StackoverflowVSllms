@@ -1,0 +1,1 @@
+<personalization defaultProvider="SqlPersonalizationProvider">\n  <providers>\n    <add name="SqlPersonalizationProvider" type="System.Web.Profile.SqlProfileProvider" connectionStringName="LocalSqlServer" applicationName="/" />\n  </providers>\n</personalization>

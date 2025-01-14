@@ -1,0 +1,1 @@
+-- Assuming -1 is used instead of NULLs for unwanted items\nSELECT   *\nFROM     MyTable\nWHERE    QuickPickOrder >= 0\nORDER BY QuickPickOrder;

@@ -1,0 +1,1 @@
+<?php\n// Build the Docker image (if not already built)\nshell_exec('docker build -t my-php-sandbox .');\n\n// Run the Docker container\n$output = shell_exec('docker run --rm my-php-sandbox');\n\necho $output;\n?>

@@ -1,0 +1,1 @@
+SELECT Name, Street, City, State\nFROM Addresses a\nWHERE NOT EXISTS (\n    SELECT 1 \n    FROM Addresses b \n    WHERE b.Name = a.Name AND b.Street < a.Street\n);

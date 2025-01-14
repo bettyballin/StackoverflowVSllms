@@ -1,0 +1,1 @@
+UPDATE YourTable\nSET YourColumn = LTRIM(RTRIM(CONVERT(nvarchar(max), YourColumn)))\n-- OR using CAST\n-- SET YourColumn = LTRIM(RTRIM(CAST(YourColumn AS nvarchar(max))))

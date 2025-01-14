@@ -1,0 +1,1 @@
+CREATE TABLE Alias (\n    alias_name VARCHAR(50) PRIMARY KEY,\n    canonical_name VARCHAR(50),\n    FOREIGN KEY (canonical_name) REFERENCES Alias(alias_name)\n);

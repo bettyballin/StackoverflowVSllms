@@ -1,0 +1,1 @@
+-- Creating a sequence with NOCACHE to prevent gaps on rollback\nCREATE SEQUENCE my_sequence\nSTART WITH 1\nINCREMENT BY 1\nNOCACHE\nNOORDER;\n\n-- Using the sequence in an INSERT statement\nINSERT INTO employees (employee_id, first_name, last_name)\nVALUES (my_sequence.NEXTVAL, 'John', 'Doe');

@@ -1,0 +1,1 @@
+echo '<a href="../" title="link title">' . htmlspecialchars($link_text, ENT_QUOTES, 'UTF-8') . '</a>';

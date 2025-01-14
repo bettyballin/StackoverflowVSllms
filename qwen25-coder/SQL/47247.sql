@@ -1,0 +1,1 @@
+CREATE INDEX idx_user_id ON survey_responses (user_id);\nCREATE INDEX idx_questionnaire_id ON questionnaire_module (questionnaire_id);

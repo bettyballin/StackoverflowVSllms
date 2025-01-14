@@ -1,0 +1,1 @@
+<!-- resources/views/partials/menu.blade.php -->\n<ul>\n    @foreach($menuItems as $item)\n        <li>{{ $item->name }}</li>\n    @endforeach\n</ul>\n\n<!-- resources/views/partials/ads.blade.php -->\n<div>Ad Content Here</div>

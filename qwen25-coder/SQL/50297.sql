@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW limited_view AS\n   SELECT * FROM (SELECT * FROM your_table ORDER BY some_column) WHERE ROWNUM <= 2;

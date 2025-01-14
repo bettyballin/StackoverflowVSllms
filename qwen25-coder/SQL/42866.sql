@@ -1,0 +1,1 @@
+WITH DoctorPatient AS (\n    SELECT hospital, doctor, MIN(id) AS min_id\n    FROM your_table_name\n    GROUP BY hospital, doctor\n)\nSELECT t.id, t.hospital, t.doctor, t.patient\nFROM your_table_name t\nJOIN DoctorPatient dp ON t.id = dp.min_id AND t.hospital = dp.hospital AND t.doctor = dp.doctor;

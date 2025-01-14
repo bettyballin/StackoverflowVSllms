@@ -1,0 +1,1 @@
+<?php\n// functions.php\n\n// Function to sanitize input data\nfunction sanitize_input($data) {\n    $data = trim($data);\n    $data = stripslashes($data);\n    $data = htmlspecialchars($data);\n    return $data;\n}\n\n// Function to check if the user is logged in\nfunction is_user_logged_in() {\n    return isset($_SESSION['user_id']);\n}\n\n// Additional functions...\n?>

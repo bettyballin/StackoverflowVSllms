@@ -1,0 +1,1 @@
+DECLARE @count INT;\n   CREATE TABLE #temp(id INT);\n   INSERT INTO #temp (id) SELECT 1 FROM Department;\n   SET @count = (SELECT COUNT(*) FROM #temp);\n   DROP TABLE #temp;\n   PRINT @count;

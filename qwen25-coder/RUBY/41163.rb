@@ -1,0 +1,1 @@
+class EventsController < ApplicationController\n  def index\n    @events = Event.all\n    @markers = @events.map { |event| [event.name, event.start_time] }\n  end\nend

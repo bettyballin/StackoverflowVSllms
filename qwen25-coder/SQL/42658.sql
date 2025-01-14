@@ -1,0 +1,1 @@
+UPDATE QuestionTrackings\nSET QuestionID = (\n    SELECT Answers.QuestionID\n    FROM Answers\n    WHERE Answers.AnswerID = QuestionTrackings.AnswerID\n)\nWHERE QuestionTrackings.QuestionID IS NULL;

@@ -1,0 +1,1 @@
+$myEmployee->Address->Street = "123 Main St";\n$street = $myEmployee->Address->Street;\n\necho $street; // This will output: 123 Main St

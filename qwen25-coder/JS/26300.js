@@ -1,0 +1,1 @@
+$.ajax({\n    url: '/your/action',\n    type: 'POST',\n    headers: { "RequestVia": "jQuery" },\n    success: function(response) {\n        // Handle the response\n    }\n});

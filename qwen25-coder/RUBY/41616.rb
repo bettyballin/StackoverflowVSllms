@@ -1,0 +1,1 @@
+# Assuming there is a file named 'my_module.rb'\n# my_module.rb\nmodule MyModule\n  def say_hello\n    "Hello!"\n  end\nend\n\n# In another file, you would do:\nrequire './my_module'  # Load the file containing MyModule\n\nclass MyClass\n  include MyModule  # Include methods from MyModule in MyClass\nend\n\ninstance = MyClass.new\nputs instance.say_hello  # Outputs: Hello!

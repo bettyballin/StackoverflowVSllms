@@ -1,0 +1,1 @@
+<ItemGroup>\n  <EmbeddedResource Include="SomeFolder\YourFile.xaml" />\n</ItemGroup>

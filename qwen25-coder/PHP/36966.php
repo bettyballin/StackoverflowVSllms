@@ -1,0 +1,1 @@
+class Utility {\n       public static function performTask() {\n           // Perform task here\n       }\n   }\n\n   // Usage\n   Utility::performTask();

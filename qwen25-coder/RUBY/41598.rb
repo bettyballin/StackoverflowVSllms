@@ -1,0 +1,1 @@
+class ArticlesController < ApplicationController\n  def index\n    @articles = Article.all\n  end\nend

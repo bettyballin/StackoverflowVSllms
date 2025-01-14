@@ -1,0 +1,1 @@
+$myApp->handleRequest($_SERVER['REQUEST_METHOD'], $_POST);

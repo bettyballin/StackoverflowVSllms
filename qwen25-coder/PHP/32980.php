@@ -1,0 +1,1 @@
+// In src/Model/Table/UsersTable.php\nnamespace App\Model\Table;\n\nuse Cake\ORM\Table;\n\nclass UsersTable extends Table\n{\n    public function initialize(array $config): void\n    {\n        parent::initialize($config);\n\n        $this->setTable('users');\n        $this->setDisplayField('name');\n        $this->setPrimaryKey('id');\n    }\n}

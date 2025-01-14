@@ -1,0 +1,1 @@
+$(document).ready(function(){\n    var $lis = $('ul > li');\n    for(var i=0; i<$lis.length; i+=2){\n        $lis.slice(i, i+2).wrapAll('<li class="li_group"><ul></ul></li>');\n    }\n});

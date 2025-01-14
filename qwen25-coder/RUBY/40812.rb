@@ -1,0 +1,1 @@
+# config/routes.rb\nresources :products do\n  member do\n    post :rate\n  end\nend

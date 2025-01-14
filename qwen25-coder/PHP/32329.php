@@ -1,0 +1,1 @@
+// Load the helper in a controller method or autoload it\n$this->load->helper('my_string');\n\n$slug = custom_slugify('Hello World');\n$reversedString = another_custom_function('example');

@@ -1,0 +1,1 @@
+bundle install\n   rails generate devise:install

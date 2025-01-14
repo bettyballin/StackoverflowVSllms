@@ -1,0 +1,1 @@
+var sourceDiv = '#aSpecificDivinThatPage'; // This is your dynamic variable\n\n$('#somediv').load('somefile.html ' + sourceDiv);

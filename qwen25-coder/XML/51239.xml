@@ -1,0 +1,1 @@
+<configuration>\n  <appSettings>\n    <add key="LibraryConfigKey" value="LibraryConfigValue"/>\n  </appSettings>\n</configuration>

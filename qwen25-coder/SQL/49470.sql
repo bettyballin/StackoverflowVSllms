@@ -1,0 +1,1 @@
+USE your_database_name;\n   EXEC sp_fulltext_catalog 'your_catalog', 'drop';\n   EXEC sp_fulltext_catalog 'your_catalog', 'create';

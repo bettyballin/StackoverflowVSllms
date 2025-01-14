@@ -1,0 +1,1 @@
+$dom = new DOMDocument('1.0', 'UTF-8');\n$dom->loadHTML(mb_convert_encoding($raw2, 'HTML-ENTITIES', 'UTF-8'));\n$xpath = new DOMXPath($dom);\n$query = '//td/text()';\n$nodes = $xpath->query($query);\nforeach ($nodes as $node) {\n    var_dump($node->wholeText);\n}

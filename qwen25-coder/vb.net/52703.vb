@@ -1,0 +1,1 @@
+Dim certContent As String = My.Computer.FileSystem.ReadAllText(Server.MapPath("\cert_key_pem.txt"))\n   Console.WriteLine(certContent) ' or use a logger\n   dp.SSLCertStore = certContent

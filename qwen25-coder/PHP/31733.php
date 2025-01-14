@@ -1,0 +1,1 @@
+// Include New Relic PHP Agent SDK for more detailed metrics\n   require_once('/path/to/newrelic.php');\n   newrelic_background_job(true);

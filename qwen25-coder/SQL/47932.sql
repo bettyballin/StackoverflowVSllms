@@ -1,0 +1,1 @@
+-- Creating a temporary table in MS-SQL\nCREATE TABLE #TempTable (ID INT PRIMARY KEY, Name VARCHAR(50));\n\n-- Creating a temporary table in PostgreSQL\nCREATE TEMPORARY TABLE TempTable (ID SERIAL PRIMARY KEY, Name VARCHAR(50));

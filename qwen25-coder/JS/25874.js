@@ -1,0 +1,1 @@
+Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function() {\n    // Recall your function or script here if needed\n    Mesaj('Your default message');\n});

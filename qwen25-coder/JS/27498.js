@@ -1,0 +1,1 @@
+// Using Lodash to create a reusable filter function\nconst _ = require('lodash');\n\nconst gtThreshold = _.curry((threshold, val) => val > threshold);\nconst isOverTen = gtThreshold(10);\n\nconsole.log([1, 5, 20].filter(isOverTen)); // [20]

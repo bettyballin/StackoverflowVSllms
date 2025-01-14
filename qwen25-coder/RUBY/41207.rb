@@ -1,0 +1,1 @@
+Post.reset_counters(1, :comments)  # Reset comments_count for post with id = 1

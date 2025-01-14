@@ -1,0 +1,1 @@
+SET ARITHABORT ON;\n-- other SQL statements\nEXEC sp_Stat @DepartmentID=NULL;

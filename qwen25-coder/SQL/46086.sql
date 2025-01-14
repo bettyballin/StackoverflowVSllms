@@ -1,0 +1,1 @@
+SELECT * FROM (\n    IF <SomeCondition>\n        SELECT * FROM TABLE1\n    ELSE\n        SELECT * FROM TABLE2\n) AS DerivedTable\nUNION\nSELECT * FROM TABLE3;

@@ -1,0 +1,1 @@
+import re\n\na_list = [\n    'HELLO',\n    'FOO',\n    'FO1BAR',\n    'ROOBAR',\n    'SHOEBAR'\n]\n\nregex_list = [lambda x: re.search(r'FOO', x, re.IGNORECASE),\n              lambda x: re.search(r'RO', x, re.IGNORECASE)]\n\n# Using list comprehension\nnewlist = [item for item in a_list if all(regex(item) is None for regex in regex_list)]

@@ -1,0 +1,1 @@
+SELECT \n    (end_date - start_date) * 24 * 60 AS minute_difference\nFROM \n    your_table_name;

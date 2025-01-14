@@ -1,0 +1,1 @@
+RESTORE DATABASE [YourDatabaseName] \n     FROM DISK = N'C:\Backups\YourDatabaseName.bak' \n     WITH FILE = 1,  \n     MOVE N'YourLogicalDataFile' TO N'D:\MSSQLSERVER\Data\YourDatabaseName.mdf', \n     MOVE N'YourLogicalLogfile' TO N'E:\MSSQLSERVER\Log\YourDatabaseName_log.ldf',  \n     NOUNLOAD, REPLACE, STATS = 10

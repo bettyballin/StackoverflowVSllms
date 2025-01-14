@@ -1,0 +1,1 @@
+<servlet-mapping>\n       <servlet-name>default</servlet-name>\n       <url-pattern>/cgi-bin/*.jpg</url-pattern>\n   </servlet-mapping>

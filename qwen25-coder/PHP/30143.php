@@ -1,0 +1,1 @@
+$mysqli = new mysqli("localhost", "username", "password", "database");\n\n// Assuming no errors in the connection\n\n// Execute SELECT statement\n$resultSelect = $mysqli->query("SELECT itemid, points FROM items WHERE id='1'");\n\n// Execute UPDATE statement\n$mysqli->query("UPDATE accounts SET userpoints = '1000'");

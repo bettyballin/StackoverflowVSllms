@@ -1,0 +1,1 @@
+WITH WorkingDays AS (\n    SELECT calendar_date\n    FROM CalendarTable\n    WHERE is_working_day = 1 AND calendar_date >= (SELECT order_date FROM Order WHERE product_id = 9)\n    ORDER BY calendar_date\n    LIMIT 1 OFFSET (SELECT leadtime_days - 1 FROM LeadTime WHERE product_id = 9)\n)\n\nSELECT calendar_date AS effective_date\nFROM WorkingDays;

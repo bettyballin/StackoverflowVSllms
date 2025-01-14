@@ -1,0 +1,1 @@
+$.ajax({\n    url: 'proxy.php?url=http://example.com/api',\n    dataType: 'json', // Now you can use json if your server supports it\n    success: function(response) {\n        console.log(response);\n    },\n    error: function() {\n        console.error('Error with proxy request');\n    }\n});

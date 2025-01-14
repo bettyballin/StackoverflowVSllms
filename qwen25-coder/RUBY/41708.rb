@@ -1,0 +1,1 @@
+# config/routes.rb\nRails.application.routes.draw do\n  root 'home#index'\n  \n  # Define RESTful routes for articles\n  resources :articles\nend

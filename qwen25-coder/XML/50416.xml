@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.apache.pdfbox</groupId>\n    <artifactId>pdfbox</artifactId>\n    <version>2.0.27</version>\n</dependency>

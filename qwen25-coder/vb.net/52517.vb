@@ -1,0 +1,1 @@
+' Assuming timReminder is an instance of System.Windows.Forms.Timer and timReminder_Tick is your existing method\n\n' Add the event handler at runtime\nAddHandler timReminder.Tick, AddressOf timReminder_Tick\n\n' When you need to remove the event handler (if necessary)\nRemoveHandler timReminder.Tick, AddressOf timReminder_Tick

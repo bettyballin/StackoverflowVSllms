@@ -1,0 +1,1 @@
+// Assuming $pdo is your database connection object\n$pdo = new PDO('mysql:host=localhost;dbname=test', 'user', 'pass');\n\nfunction doDatabaseOperation($connection) {\n    // Use $connection to perform a database operation\n    $stmt = $connection->query("SELECT * FROM table_name");\n    return $stmt->fetchAll();\n}\n\n// Usage\n$result = doDatabaseOperation($pdo);

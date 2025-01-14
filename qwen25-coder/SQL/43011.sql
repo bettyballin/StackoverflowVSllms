@@ -1,0 +1,1 @@
+CREATE TABLE PlayerToPlayer (\n    PlayerId1 INT,  -- References Players.Id (First player in the relation)\n    PlayerId2 INT,  -- References Players.Id (Second player in the relation)\n    PRIMARY KEY (PlayerId1, PlayerId2),\n    FOREIGN KEY (PlayerId1) REFERENCES Players(Id),\n    FOREIGN KEY (PlayerId2) REFERENCES Players(Id)\n);

@@ -1,0 +1,1 @@
+$templatePath = JPATH_SITE . DS . 'templates' . DS . $mainframe->getTemplate();

@@ -1,0 +1,1 @@
+select * from mytable sample(0.1) order by dbms_random.value;

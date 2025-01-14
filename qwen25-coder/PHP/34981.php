@@ -1,0 +1,1 @@
+echo pow(10, -0.01); // Using pow() function for exponentiatio

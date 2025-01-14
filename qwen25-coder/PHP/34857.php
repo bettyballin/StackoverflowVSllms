@@ -1,0 +1,1 @@
+foreach ($rss->items as &$item) { // use & to pass by reference\n    $item['feed_id'] = $feed_id;\n    echo $item['feed_id'] . "<br/>"; // works as expected\n}\n\n// Clean up the reference after foreach loop\nunset($item);\n\nforeach ($rss->items as $item) {\n    echo $item['feed_id'] . "<br/>"; // will now correctly display the feed_id\n}

@@ -1,0 +1,1 @@
+$site = "http://www.google.com";\n$ch = curl_init();\n\ncurl_setopt($ch, CURLOPT_URL, $site);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);\n\n$content = curl_exec($ch);\nif (curl_errno($ch)) {\n    // Handle the error condition\n    echo 'Curl error: ' . curl_error($ch);\n} else {\n    // Content was successfully retrieved\n    echo $content;\n}\n\ncurl_close($ch);

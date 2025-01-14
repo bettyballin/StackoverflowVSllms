@@ -1,0 +1,1 @@
+try {\n    $client = new SoapClient("http://www.example.com/service?wsdl");\n    \n    // Replace 'getMyData' with the actual method name and pass parameters as needed\n    $result = $client->getMyData(array('param1' => 'value1'));\n    \n    print_r($result);\n} catch (SoapFault $e) {\n    echo "SOAP Fault: {$e->faultstring}";\n}

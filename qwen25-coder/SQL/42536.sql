@@ -1,0 +1,1 @@
+SELECT \n    t.Name,\n    t.Candy,\n    t.PreferenceFactor\nFROM \n    (SELECT \n        Name,\n        Candy,\n        PreferenceFactor,\n        ROW_NUMBER() OVER (PARTITION BY Name ORDER BY PreferenceFactor DESC) as RowNum\n     FROM \n         YourTableName) as t\nWHERE \n    t.RowNum = 1;

@@ -1,0 +1,1 @@
+Sub Main()\n    Console.WriteLine("Hello World")\n    Return ' <--- Resharper would highlight the following line as unreachable\n    Console.WriteLine("Unreachable code, will never run")\nEnd Sub

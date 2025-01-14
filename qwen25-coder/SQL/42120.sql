@@ -1,0 +1,1 @@
+DENY SELECT ON YourTableName TO [SomeUser];\n     GRANT SELECT ON YourTableName TO [SomeOtherUser] (column1, column2);

@@ -1,0 +1,1 @@
+function myFunc(requiredArg, optionalArg = 'defaultValue') {\n  // Do stuff\n}

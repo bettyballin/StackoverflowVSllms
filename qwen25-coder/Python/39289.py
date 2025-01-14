@@ -1,0 +1,1 @@
+# Example of setting cache in Python using Redis\n   import redis\n   r = redis.Redis(host='localhost', port=6379, db=0)\n   r.set('my_key', 'value')

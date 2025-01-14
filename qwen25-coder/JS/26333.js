@@ -1,0 +1,1 @@
+$.post($('#' + e.currentTarget.id).attr('action'), $('#' + e.currentTarget.id).serialize(), function (data) {\n    var response = JSON.parse(data);\n    if (response.status === 'success') {\n        alert(response.data);\n    } else {\n        alert('Error: ' + response.message);\n    }\n});

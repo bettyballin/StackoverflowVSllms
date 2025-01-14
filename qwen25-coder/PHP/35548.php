@@ -1,0 +1,1 @@
+$tempDir = sys_get_temp_dir();\n$uniqueFileName = uniqid('temp_file_', true) . '.pdf';\n$tempFilePath = $tempDir . DIRECTORY_SEPARATOR . $uniqueFileName;\n\n// Example usage: $fp = fopen($tempFilePath, 'w+'); to create the file when needed.\necho "Temporary file path: " . $tempFilePath;

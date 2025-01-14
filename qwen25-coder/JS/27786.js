@@ -1,0 +1,1 @@
+// Example in Node.js with 'validator' library\n   const validator = require('validator');\n\n   if (validator.isEmail(userInput)) {\n       console.log("Valid Email");\n   }

@@ -1,0 +1,1 @@
+SELECT * FROM messages\nWHERE messageTime >= NOW() - INTERVAL 1 DAY;

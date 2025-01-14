@@ -1,0 +1,1 @@
+import bcrypt\n\n# User's password input\npassword = b"supersecret123"\n\n# Hash the password for storage (one way function)\nhashed_password = bcrypt.hashpw(password, bcrypt.gensalt())\n\n# To check a password against the stored hash:\nif bcrypt.checkpw(password, hashed_password):\n    print("Password matches!")\nelse:\n    print("Invalid password.")

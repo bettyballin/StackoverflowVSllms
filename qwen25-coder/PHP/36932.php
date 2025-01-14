@@ -1,0 +1,1 @@
+<?php\n\n   namespace YourCompany\HelloWorld\Controller\Index;\n\n   use Magento\Framework\App\Action\Context;\n\n   class Index extends \Magento\Framework\App\Action\Action\n   {\n       public function execute()\n       {\n           $this->_view->loadLayout();\n           $this->_view->renderLayout();\n       }\n   }

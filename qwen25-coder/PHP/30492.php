@@ -1,0 +1,1 @@
+// Database connection code here (assuming $mysqli is a mysqli object)\n   $stmt = $mysqli->prepare("INSERT INTO table_name (column_name) VALUES (?)");\n   $input = $_POST['input_field'];\n   $stmt->bind_param("s", $input);\n   $stmt->execute();

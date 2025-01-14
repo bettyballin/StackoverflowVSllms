@@ -1,0 +1,1 @@
+$arrayOne = array('0003', '0004', '0005');\n$arrayTwo = array(4, 5, 6);\n\n// Convert $arrayOne elements to integers\n$arrayOneAsIntegers = array_map('intval', $arrayOne);\n\n// Find the intersection\n$intersect = array_intersect($arrayOneAsIntegers, $arrayTwo);\n\n// Output: Array ( [1] => 4 [2] => 5 )\nprint_r($intersect);

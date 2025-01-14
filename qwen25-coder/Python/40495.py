@@ -1,0 +1,1 @@
+import pprint\n\nvariable = {'key': [1, 2, 'three'], 'another_key': {'nested_key': 'value'}}\npprint.pprint(variable)

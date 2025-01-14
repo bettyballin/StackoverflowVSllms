@@ -1,0 +1,1 @@
+SELECT COUNT(1)\nFROM records r\nJOIN addresses a ON r.address_id = a.address_id\nJOIN person p ON r.some_person_id = p.person_id -- Assuming there's a foreign key for person in the records table\nWHERE status = 1\nAND code = 1\nAND state = 'TN';

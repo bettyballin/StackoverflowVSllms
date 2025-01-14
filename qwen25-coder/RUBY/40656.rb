@@ -1,0 +1,1 @@
+# config.ru\nrequire 'rack'\nrequire_relative 'ruby/my_rack_app'\n\nuse Rack::CommonLogger\n\nrun MyRackApp.new

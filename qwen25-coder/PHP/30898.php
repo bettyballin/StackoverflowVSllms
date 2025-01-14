@@ -1,0 +1,1 @@
+class FriendController {\n    public function index($user_id) {\n        // Logic to list friends of the given user\n        echo "Listing friends of user id: $user_id";\n    }\n}

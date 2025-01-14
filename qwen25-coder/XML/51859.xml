@@ -1,0 +1,1 @@
+<bag name="lines" access="field">\n    <key column="OrderId"/>\n    <one-to-many class="OrderLine"/>\n</bag>

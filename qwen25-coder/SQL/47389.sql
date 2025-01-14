@@ -1,0 +1,1 @@
+CREATE TABLE example_table (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    data VARCHAR(255),\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,  -- Automatically set on insert\n    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP  -- Updates on every update\n);

@@ -1,0 +1,1 @@
+SELECT perm_id \nFROM permissions \nLEFT JOIN actions ON action_id = perm_action \nWHERE perm_role = 1 AND action_name = 'add' AND action_module = 'employee';

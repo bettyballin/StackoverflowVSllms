@@ -1,0 +1,1 @@
+<!-- Add StyleCop target to your .csproj file -->\n   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v90\Team Tools\Static Analysis Tools\StyleCop\v4.7\StyleCop.targets" />

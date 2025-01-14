@@ -1,0 +1,1 @@
+INSERT INTO States (StateName, StateCode) VALUES \n('Alabama', 'AL'),\n('Alaska', 'AK'),\n('Arizona', 'AZ'),\n-- ... (other states)\n('Wyoming', 'WY');

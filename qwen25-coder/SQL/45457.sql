@@ -1,0 +1,1 @@
+ALTER TABLE events\nDROP FOREIGN KEY `events_ibfk_1`, -- This name might differ, check via SHOW CREATE TABLE events;\nADD CONSTRAINT `events_ibfk_1`\nFOREIGN KEY (`adr_id`)\nREFERENCES `addresses`(`adr_id`) ON DELETE CASCADE;

@@ -1,0 +1,1 @@
+# Example Ruby on Rails controller action\nclass ApiServiceController < ApplicationController\n  def get_data\n    data = YourModel.all.to_json\n    render json: data\n  end\nend

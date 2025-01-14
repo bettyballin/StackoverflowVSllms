@@ -1,0 +1,1 @@
+<?php \nob_start(); // Start output buffering\nwp_title(''); // Capture wp_title output into the buffer\n$title = ob_get_clean(); // Retrieve the buffered content and end buffering\n$title = trim($title); // Trim leading and trailing whitespace\n?>\n<body id="<?php echo htmlspecialchars($title, ENT_QUOTES, 'UTF-8'); ?>">

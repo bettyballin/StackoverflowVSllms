@@ -1,0 +1,1 @@
+// Converting dollars to cents\n$value1Cents = 1050; // $10.50\n$value2Cents = 325; // $3.25\n\n// Integer addition\n$totalCents = $value1Cents + $value2Cents;\n\n// Convert back to dollars for display\n$totalDollars = number_format($totalCents / 100, 2);\n\necho "Total: $" . $totalDollars; // Outputs: Total: $13.75

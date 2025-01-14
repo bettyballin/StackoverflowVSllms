@@ -1,0 +1,1 @@
+SELECT \n    id, \n    name, \n    ROW_NUMBER() OVER (ORDER BY id) AS counter\nFROM \n    users \nWHERE \n    group = 2;

@@ -1,0 +1,1 @@
+$stmt = $pdo->query('SELECT SQL_CALC_FOUND_ROWS * FROM your_table LIMIT 10');\n$results = $stmt->fetchAll();\n$numRowsTotal = $pdo->query('SELECT FOUND_ROWS()')->fetchColumn();\necho "Number of rows returned: " . count($results);\necho "Number of total rows: " . $numRowsTotal;

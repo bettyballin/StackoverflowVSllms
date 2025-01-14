@@ -1,0 +1,1 @@
+# JRuby/Ruby example: Simple method definition with dynamic typing\ndef greet(name)\n  "Hello, #{name}!"\nend\nputs greet("JRuby")

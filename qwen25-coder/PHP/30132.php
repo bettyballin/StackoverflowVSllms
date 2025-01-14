@@ -1,0 +1,1 @@
+$string = "hello123!";\n$pattern = "/([0-9]*)/";\n\nif (preg_match($pattern, $string, $matches)) {\n    echo $matches[1];\n}

@@ -1,0 +1,1 @@
+UPDATE Students SET Name = @Name, Age = @Age WHERE StudentID = @StudentID

@@ -1,0 +1,1 @@
+def remove_duplicates_preserve_order(lst):\n    seen = set()\n    result = []\n    for item in lst:\n        if item not in seen:\n            seen.add(item)\n            result.append(item)\n    return result\n\n# Example usage:\noriginal_list = [1, 2, 3, 2, 1, 4, 5]\ncleaned_list = remove_duplicates_preserve_order(original_list)\nprint(cleaned_list)  # Output: [1, 2, 3, 4, 5]

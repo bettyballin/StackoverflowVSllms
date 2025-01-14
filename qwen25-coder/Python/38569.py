@@ -1,0 +1,1 @@
+x = 1       # Definition D1\ny = x + 2   # Uses D1 (D1 reaches here)\nx = 3       # Definition D2\nz = x * 4   # Uses D2 (D2 reaches here, not D1)

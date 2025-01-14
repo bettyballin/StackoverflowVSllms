@@ -1,0 +1,1 @@
+Dim SortedFields = From field In feedXML.Descendants("fields")\nDim sFieldList = From field In SortedFields.Descendants("field") \n                 Order By Convert.ToInt32(field.@position.Trim("'"))

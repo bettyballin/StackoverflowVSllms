@@ -1,0 +1,1 @@
+$a = new SimpleXMLElement('<a/>');\n\n// Manually escaping for addChild\n$a->addChild('c', htmlspecialchars('Three & Four', ENT_XML1));\n\n// Direct assignment also requires manual escaping\n$a->d = htmlspecialchars('Five & Six', ENT_XML1);\n\nprint($a->asXML());

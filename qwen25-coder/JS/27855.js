@@ -1,0 +1,1 @@
+$('#searchbox input').bind('keypress', function(e) {\n    if (e.which === 13) { // 13 is the ASCII code for ENTER\n        this.form.submit(); // Trigger form submission\n    }\n});

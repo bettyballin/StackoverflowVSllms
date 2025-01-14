@@ -1,0 +1,1 @@
+# A simple Rails controller action\n     class PagesController < ApplicationController\n       def home\n         @message = "Hello from Rails!"\n       end\n     end\n\n     # Corresponding view (home.html.erb)\n     <%= @message %>

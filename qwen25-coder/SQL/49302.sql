@@ -1,0 +1,1 @@
+SELECT SUM(foo), DATE(mydate) AS date_only \nFROM a_table \nGROUP BY DATE(a_table.mydate);

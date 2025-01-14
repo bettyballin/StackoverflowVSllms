@@ -1,0 +1,1 @@
+SELECT * FROM my_view WHERE a.id = 123;

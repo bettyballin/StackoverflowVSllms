@@ -1,0 +1,1 @@
+-- Example: Using int for a bitmask\nCREATE TABLE Flags (\n    ID INT PRIMARY KEY,\n    BitMask INT\n);

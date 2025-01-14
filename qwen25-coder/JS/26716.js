@@ -1,0 +1,1 @@
+MyService.getObjects(function(objects) {\n    // 'objects' is now a JavaScript array where each element is an object with properties corresponding to MyObject fields.\n    for (var i = 0; i < objects.length; i++) {\n        console.log(objects[i].name, objects[i].value);\n    }\n});

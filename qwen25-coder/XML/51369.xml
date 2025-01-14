@@ -1,0 +1,1 @@
+<IIsWebHeaders Location="/LM/W3SVC/1/ROOT/images" LockInherited="FALSE">\n    <CustomHeaders>\n        <Item Name="Cache-Control" Value="public, max-age=2592000" />\n    </CustomHeaders>\n</IIsWebHeaders>

@@ -1,0 +1,1 @@
+SELECT pt.*\nFROM ParentTable pt\nJOIN SecondTable st ON pt.Office_Code LIKE st.Code_Wildcard;

@@ -1,0 +1,1 @@
+ALTER TABLE pivot_table\nADD UNIQUE KEY unique_pair (table1ID, table2ID);

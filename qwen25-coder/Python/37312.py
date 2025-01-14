@@ -1,0 +1,1 @@
+import uuid\nfrom urllib.parse import quote\n\n# Generate a random UUID\nrandom_uuid = uuid.uuid4()\n\n# Convert UUID to string\nuuid_str = str(random_uuid)\n\n# Encode the UUID string for URL safety\nencoded_uuid = quote(uuid_str, safe='')\n\nprint(f"Original UUID: {uuid_str}")\nprint(f"URL Encoded UUID: {encoded_uuid}")

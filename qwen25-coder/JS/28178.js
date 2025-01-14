@@ -1,0 +1,1 @@
+setInterval(function() {\n    $.ajax({\n        url: '/KeepSessionAlive',\n        method: 'GET'\n    }).fail(function() {\n        console.error("Failed to keep session alive");\n    });\n}, 10 * 1000); // every 10 seconds

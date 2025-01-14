@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.GetNextSequenceValue()\nRETURNS INT\nAS\nBEGIN\n    RETURN (NEXT VALUE FOR dbo.MySequence);\nEND;\nGO\n\n-- Usage:\nSELECT dbo.GetNextSequenceValue() AS NextSequenceValue;

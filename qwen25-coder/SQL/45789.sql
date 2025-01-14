@@ -1,0 +1,1 @@
+-- Connection to server B (via tunnel)\nmysql --protocol=TCP -h 127.0.0.1 -P 3308 -u user -p Test\n\n-- Load data from the file into the second database\nLOAD DATA INFILE '/tmp/results.csv' INTO TABLE your_table FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n';

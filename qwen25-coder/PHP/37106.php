@@ -1,0 +1,1 @@
+public function someAction()\n   {\n       if (!$userAccess) {\n           throw new \Cake\Http\Exception\ForbiddenException('You do not have access.');\n       }\n       // Continue with the rest of the action\n   }

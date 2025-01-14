@@ -1,0 +1,1 @@
+ini_set('session.cookie_domain', '.yourdomain.com'); // Adjust as necessary\n     session_start();

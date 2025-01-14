@@ -1,0 +1,1 @@
+ALTER TABLE mydatabase.page \nADD INDEX idx_sourceid_processed (sourceid, processed);

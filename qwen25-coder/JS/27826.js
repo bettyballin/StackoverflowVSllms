@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    // Use event delegation for dynamically added elements\n    $('#yourContainer').on('focus', '#birthdate', function() {\n        $(this).datepicker({showOn: 'focus'}).focus();\n    });\n});

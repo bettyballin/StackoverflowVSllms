@@ -1,0 +1,1 @@
+ANALYZE TABLE Event, Item, Seat;

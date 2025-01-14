@@ -1,0 +1,1 @@
+SELECT STUFF((\n    SELECT ', ' + Name\n    FROM (VALUES ('Peter'), ('Paul'), ('Mary')) AS Names(Name)\n    FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), 1, 2, '') AS ConcatenatedNames;

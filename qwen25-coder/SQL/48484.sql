@@ -1,0 +1,1 @@
+SELECT 1 \nFROM x \nWHERE EXISTS (\n    SELECT 1 \n    FROM x \n    WHERE col_a = :value_a AND col_b = :value_b\n);

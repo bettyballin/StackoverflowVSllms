@@ -1,0 +1,1 @@
+$jsonData = json_encode(nestify($yourNestedSetArray));\necho $jsonData;

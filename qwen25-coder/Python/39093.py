@@ -1,0 +1,1 @@
+# Converting iterator to list\nlist_from_iterator = list(my_iterator)\n\n# Converting generator expression to list\nlist_from_gen_expr = list(gen_expr)

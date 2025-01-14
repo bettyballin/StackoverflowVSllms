@@ -1,0 +1,1 @@
+<?php \n    include("/SSI/test.php");\n?>

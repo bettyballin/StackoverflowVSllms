@@ -1,0 +1,1 @@
+<%\n' Page 1: Set a session variable and redirect\nIf Not IsPostBack Then\n    Session("TestSession") = "Enabled"\n    Response.Redirect("CheckSession.asp")\nEnd If\n%>

@@ -1,0 +1,1 @@
+-- On Oracle, check for dates outside valid range\n   SELECT * FROM DB.TABLE WHERE <date_column> NOT BETWEEN 1 AND 5373484;

@@ -1,0 +1,1 @@
+$searches = [\n    [ "part0" => "value0", "part1" => "value1"],\n    [ "part0" => "value2", "part1" => "value3", "part2" => "value4"],\n    // more elements...\n];\n\nforeach ($searches as $index => $parts) {\n    echo "Processing entry index: $index\n";\n    foreach ($parts as $partIndex => $value) {\n        echo "Part $partIndex has value: $value\n";\n    }\n}

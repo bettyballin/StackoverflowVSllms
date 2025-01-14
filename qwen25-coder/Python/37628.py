@@ -1,0 +1,1 @@
+def DFS_recursive(graph, vertex, visited=None):\n    if visited is None:\n        visited = set()\n    \n    visited.add(vertex)\n    print(vertex)  # Process the vertex (e.g., print it)\n    for neighbor in graph[vertex]:\n        if neighbor not in visited:\n            DFS_recursive(graph, neighbor, visited)

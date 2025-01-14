@@ -1,0 +1,1 @@
+# Example of using a library like PyCryptodome for basic encryption\n   from Crypto.Cipher import AES\n   key = b'Sixteen byte key'\n   cipher = AES.new(key, AES.MODE_EAX)\n   nonce = cipher.nonce\n   ciphertext, tag = cipher.encrypt_and_digest(b'My secret message')

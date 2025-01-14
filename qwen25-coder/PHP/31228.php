@@ -1,0 +1,1 @@
+// -- parser.php --\n$pet = "lamb";\n\n$fileContents = file_get_contents('myFile.txt');\n\nob_start();\nextract(get_defined_vars());\neval("echo \"$fileContents\";");\n$newContents = ob_get_clean();\n\necho $newContents; // Outputs: Mary had a little lamb.

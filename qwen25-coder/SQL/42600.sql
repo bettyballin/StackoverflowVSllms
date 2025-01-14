@@ -1,0 +1,1 @@
+ALTER DATABASE tempdb \n     ADD FILE ( NAME = N'tempdev2', \n                FILENAME = N'C:\SQLData\tempdb2.ndf', \n                SIZE = 100MB, FILEGROWTH = 5% );

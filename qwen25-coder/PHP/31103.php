@@ -1,0 +1,1 @@
+$pdo = new PDO('mysql:host=your_host;dbname=your_db', 'username', 'password');\n$stmt = $pdo->prepare("SELECT * FROM news ORDER BY time DESC LIMIT 10");\n$stmt->execute();\nwhile ($myres = $stmt->fetch()) {\n    addnews($myres['id'], $myres['title'], "admin", date('l jS F Y - H:i:s', $myres['time']), $myres['text']);\n}

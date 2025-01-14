@@ -1,0 +1,1 @@
+<?php \necho '<input type="text" name="makeupassignment" size="50" value="' . date("m/d/y") . '">';\n?>

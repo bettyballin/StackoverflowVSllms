@@ -1,0 +1,1 @@
+WITH RankedItems AS (\n    SELECT \n        ci.cart_id,\n        ci.item_id,\n        iv.value,\n        ROW_NUMBER() OVER (PARTITION BY ci.cart_id ORDER BY iv.value DESC) as rn\n    FROM \n        CartItems ci\n    INNER JOIN \n        ItemValues iv ON ci.item_id = iv.item_id\n)\nSELECT \n    cart_id, \n    item_id, \n    value\nFROM \n    RankedItems\nWHERE \n    rn = 1;

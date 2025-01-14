@@ -1,0 +1,1 @@
+where period_aded = to_char(paramDate,'mm/yyyy')

@@ -1,0 +1,1 @@
+if (isset($_GET['x']) && isset($_GET['y'])) {\n    // These values are the coordinates of where the user clicked on the image.\n    // You can log them, ignore them, or use them as needed.\n}

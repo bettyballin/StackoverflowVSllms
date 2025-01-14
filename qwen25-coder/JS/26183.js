@@ -1,0 +1,1 @@
+function getParentSelectors(selector) {\n    return $(selector).parents().map(function() {\n        return this.tagName.toLowerCase();\n    }).get().reverse().join(' ');\n}\n\n// Usage:\nvar parentSelectors = getParentSelectors('#myImg');\nconsole.log(parentSelectors); // Outputs: "div a"

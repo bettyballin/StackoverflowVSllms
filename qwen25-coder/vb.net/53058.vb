@@ -1,0 +1,1 @@
+Private Sub Form1_MdiChildActivate(sender As Object, e As EventArgs) Handles MyBase.MdiChildActivate\n    ' Reset AutoScrollPosition to prevent scroll bars from appearing\n    Me.AutoScrollPosition = New Point(0, 0)\nEnd Sub

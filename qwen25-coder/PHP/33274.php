@@ -1,0 +1,1 @@
+$this->_gate = (string) $this->_linkID->QuoteSmart($gate);

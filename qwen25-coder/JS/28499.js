@@ -1,0 +1,1 @@
+var singleton = (function() {\n       // code\n   })();

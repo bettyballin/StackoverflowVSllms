@@ -1,0 +1,1 @@
+DECLARE @xmlData xml = N'<root><element>Value</element></root>';\n\nSELECT @xmlData.value(N'(/root/element/text())[1]', 'nvarchar(50)') AS ExtractedValue;

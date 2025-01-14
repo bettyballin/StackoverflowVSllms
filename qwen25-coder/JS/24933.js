@@ -1,0 +1,1 @@
+// Defining a class in ES6+\nclass ArticleVote {\n    static submitVote(vote) {\n        // Logic to handle the vote submission\n        console.log('Vote submitted:', vote);\n    }\n}\n\n// Calling the static method on the class\nArticleVote.submitVote('no');

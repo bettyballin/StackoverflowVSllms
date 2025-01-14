@@ -1,0 +1,1 @@
+# Directly select related rank if there's always one-to-one relationship\nproducts_with_ranks = Product.objects.filter(categories=cat).select_related('productrank')

@@ -1,0 +1,1 @@
+window.onerror = function(error, url, line) {\n    alert('Error: ' + error + '\nURL: ' + url + '\nLine Number: ' + line);\n};

@@ -1,0 +1,1 @@
+$array1 = [\n    'Bob' => [\n        'BobsDetails' => [\n            'Title' => 'Mr'\n        ]\n    ]\n];\n\n$array2 = [\n    'Bob' => [\n        'BobsDetails' => [\n            'Surname' => 'Smith'\n        ]\n    ]\n];\n\n$result = array_merge_recursive($array1, $array2);\n\nprint_r($result);

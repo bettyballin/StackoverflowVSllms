@@ -1,0 +1,1 @@
+def dampenN(lr, x, n):\n    return ((1 - lr) ** n) * (x - 1) + 1\n\n# Example usage:\nlr = 0.5\nx = 2.0\nn = 3\nprint(dampenN(lr, x, n))  # Output the result after applying dampen N times

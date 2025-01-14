@@ -1,0 +1,1 @@
+-- Pseudo-code logic in application\nBEGIN TRANSACTION;\n    INSERT INTO SourceTable VALUES(...);\n    -- Other operations\nCOMMIT TRANSACTION;\n\n-- Log changes after committing transaction\nINSERT INTO ChangeTrackingTable(OldValues, NewValues) \nSELECT ..., ... ;

@@ -1,0 +1,1 @@
+encoded_text = '66756e637469'\ndecoded_text = bytes.fromhex(encoded_text).decode('utf-8')\nprint(decoded_text)

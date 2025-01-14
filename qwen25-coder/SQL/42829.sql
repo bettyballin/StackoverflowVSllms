@@ -1,0 +1,1 @@
+-- Add this line at the beginning of dumpfile.sql if not already present\nCREATE DATABASE IF NOT EXISTS database_name;\nUSE database_name;\n\n/* Rest of the SQL dump */\n-- Tables and data insertion statements here

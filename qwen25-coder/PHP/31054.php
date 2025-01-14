@@ -1,0 +1,1 @@
+// Check current cron frequency in settings.php\n   $conf['cron_safe_threshold'] = 3600; // Adjust based on your needs

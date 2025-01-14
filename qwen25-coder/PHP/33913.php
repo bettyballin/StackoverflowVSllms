@@ -1,0 +1,1 @@
+try {\n    // Code block\n} catch (Exception $e) {\n    if ($debugMode) {\n        echo 'Caught exception: ',  $e->getMessage(), "\n";\n    } else {\n        error_log($e->getMessage());\n        echo "An error occurred and it has been logged.";\n    }\n}

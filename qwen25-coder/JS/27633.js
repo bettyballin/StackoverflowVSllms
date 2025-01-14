@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#someElementID').off('click').on('click', function() {\n        // Your code here\n    });\n});

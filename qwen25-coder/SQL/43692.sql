@@ -1,0 +1,1 @@
+SELECT \n    PurchaseOrderNo, \n    PurchaseOrderDate, \n    Description, \n    Quantity,\n    ContractName & 'delimiter' & ContractNo AS LinePrimaryKeys\nFROM [POImport baseline.csv]

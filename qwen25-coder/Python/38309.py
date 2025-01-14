@@ -1,0 +1,1 @@
+from transformers import pipeline\n     sentiment_pipeline = pipeline("sentiment-analysis")\n     print(sentiment_pipeline("I love using Hugging Face's Transformers!"))

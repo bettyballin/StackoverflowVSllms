@@ -1,0 +1,1 @@
+SELECT i.id, i.name\nFROM item i\nJOIN tree t ON i.tree_id = t.id\nWHERE EXISTS (\n    SELECT 1\n    FROM tree t2\n    WHERE t2.type = x\n    AND t.lft BETWEEN t2.lft AND t2.rgt\n);

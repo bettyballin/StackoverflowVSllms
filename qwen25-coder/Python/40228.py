@@ -1,0 +1,1 @@
+# Preallocate a list with None or any placeholder value\nn = 1000  # known number of items\npreallocated_list = [None] * n\n\n# Now you can fill in the values without causing reallocations\nfor i in range(n):\n    preallocated_list[i] = i  # replace 'i' with your actual data

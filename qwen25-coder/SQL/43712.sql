@@ -1,0 +1,1 @@
+-- Create a table with compression enabled (available in MySQL 8.0 and later)\nCREATE TABLE user_activity_logs (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    activity_data BLOB,\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n) COMPRESSION='zlib';

@@ -1,0 +1,1 @@
+<?php\n    $str   = "My name is jingle " . PHP_EOL;\n    $str2  = "I am a boy" . PHP_EOL;\n\n    echo $str . $str2;\n    echo "This line is below.";\n?>

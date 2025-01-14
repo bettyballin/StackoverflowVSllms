@@ -1,0 +1,1 @@
+SELECT * FROM OPENROWSET('MSDAORA', 'user/pass@tnsname', 'SELECT * FROM DB.TABLE');

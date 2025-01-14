@@ -1,0 +1,1 @@
+SET profiling = 1;\n   -- Run your queries here\n   SHOW PROFILES;\n   SHOW PROFILE FOR QUERY x; -- replace 'x' with the Query ID

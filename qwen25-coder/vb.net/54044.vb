@@ -1,0 +1,1 @@
+' Using HiddenField server control directly without additional encoding\nDim hiddenField As New HiddenField()\nhiddenField.ID = "yourFieldName"\nhiddenField.Value = encodedXmlString  ' ensure this is already HTML-encoded once\nPlaceHolder1.Controls.Add(hiddenField)

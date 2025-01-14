@@ -1,0 +1,1 @@
+SELECT wm.TownID, MAX(wm.Date) AS LatestDate, wm.Temp \nFROM WeatherMeasurement wm \nGROUP BY wm.TownID, wm.Temp;

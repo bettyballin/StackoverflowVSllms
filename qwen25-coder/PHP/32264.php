@@ -1,0 +1,1 @@
+function isInternationalAlphaWithSpaces($string) {\n    return preg_match('/^\p{L}+ [\p{L} ]*$/u', $string);\n}\n\n// Example usage:\n$string = "Héllo Wørld";\nif (isInternationalAlphaWithSpaces($string)) {\n    echo "String contains only international letters and spaces.";\n} else {\n    echo "String contains invalid characters.";\n}

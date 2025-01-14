@@ -1,0 +1,1 @@
+DECLARE @SQL1 NVARCHAR(MAX)\nSET @SQL1 = N'SELECT * INTO #temp FROM SomeTable WHERE SomeCondition;\n                SELECT * FROM #temp;'\n\n-- Use sp_executesql to ensure the same context\nEXEC sp_executesql @SQL1

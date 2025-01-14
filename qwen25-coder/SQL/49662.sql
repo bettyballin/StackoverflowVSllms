@@ -1,0 +1,1 @@
+DECLARE @sql NVARCHAR(MAX) = N'';\n\nSELECT @sql += N'\nUNION ALL\nSELECT ''' + QUOTENAME(name) + ''' AS DatabaseName\nFROM ' + QUOTENAME(name) + '.sys.tables\nWHERE name = ''MyTable'''\nFROM sys.databases\nWHERE state_desc = 'ONLINE';\n\n-- Remove the leading UNION ALL\nSET @sql = STUFF(@sql, 1, 10, '');\n\n-- Execute the dynamic SQL\nEXEC sp_executesql @sql;

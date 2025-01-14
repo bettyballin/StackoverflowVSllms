@@ -1,0 +1,1 @@
+<?php include 'header.php'; ?>\n<!-- Your unique page content -->\n<?php include 'footer.php'; ?>

@@ -1,0 +1,1 @@
+if (typeof Prototype !== 'undefined') {\n       $j = jQuery.noConflict();\n   }

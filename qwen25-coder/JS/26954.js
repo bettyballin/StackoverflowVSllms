@@ -1,0 +1,1 @@
+// Example initialization snippet for Leadtools\n   var lt = require('leadtools');\n   lt.RasterSupport.setLicenseUri("https://LEADTOOLSURL", "LEADKEY");

@@ -1,0 +1,1 @@
+SELECT \n    CAST(DateColumn AS DATE) AS Date,\n    MAX(ValueColumn) AS MaxDailyValue\nFROM \n    YourTable\nWHERE \n    DateColumn >= '2023-01-01' AND DateColumn < '2024-01-01'\nGROUP BY \n    CAST(DateColumn AS DATE)\nORDER BY \n    Date;

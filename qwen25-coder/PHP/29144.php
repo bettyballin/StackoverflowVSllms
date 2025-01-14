@@ -1,0 +1,1 @@
+// Example of ensuring unique entries in insert operation:\n$userhash = mysqli_real_escape_string($connection, $userhash); // Always escape inputs\n$songId = (int)$songId; // assuming $songId is an integer\n\n$query = sprintf(\n    "INSERT INTO favorites (userid, favorite) VALUES (%s, %d) ON DUPLICATE KEY UPDATE userid=VALUES(userid)",\n    $userhash,\n    $songId\n);

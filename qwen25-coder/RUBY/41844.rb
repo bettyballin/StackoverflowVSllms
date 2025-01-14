@@ -1,0 +1,1 @@
+company.emails.each do |email|\n  puts email.email_address\nend

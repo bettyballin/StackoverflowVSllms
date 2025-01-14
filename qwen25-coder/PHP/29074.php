@@ -1,0 +1,1 @@
+// src/Controller/DefaultController.php\nnamespace App\Controller;\n\nuse Symfony\Component\HttpFoundation\Response;\nuse Symfony\Bundle\FrameworkBundle\Controller\AbstractController;\n\nclass DefaultController extends AbstractController\n{\n    public function index(): Response\n    {\n        return new Response('Hello World!');\n    }\n}

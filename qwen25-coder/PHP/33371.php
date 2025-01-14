@@ -1,0 +1,1 @@
+ini_set('memory_limit', '512M'); // Adjust based on your server's capabilities

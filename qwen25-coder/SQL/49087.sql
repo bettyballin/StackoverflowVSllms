@@ -1,0 +1,1 @@
+CREATE TABLE locations (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(255),\n    latitude DECIMAL(9, 6),\n    longitude DECIMAL(10, 6)\n);

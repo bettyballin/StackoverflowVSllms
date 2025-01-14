@@ -1,0 +1,1 @@
+from django.views.generic import TemplateView\n   from .mixins import SessionUserMixin\n\n   class HomeView(SessionUserMixin, TemplateView):\n       template_name = 'home.html'

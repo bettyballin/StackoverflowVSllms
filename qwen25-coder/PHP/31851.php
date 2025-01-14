@@ -1,0 +1,1 @@
+$originalArray = [\n    0 => ['ClientID' => 'ec2173de2134fdsfg4fsdffcb4b5205', 'Name' => 'ABC Widgets'],\n    1 => ['ClientID' => 'e5dfgfdg2d760f640aadfgdfgdfg47b', 'Name' => 'Acme Co'],\n    2 => ['ClientID' => 'b9dfgsdfg419085c3sdgffdsgfdg313', 'Name' => '4321 Corp']\n];\n\n$transformedArray = array_column($originalArray, 'Name', 'ClientID');\n\nprint_r($transformedArray);

@@ -1,0 +1,1 @@
+SELECT * \nFROM YourTable\nORDER BY timestamp_column_descending;

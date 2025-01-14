@@ -1,0 +1,1 @@
+CREATE TABLE ChecklistMonthQuestion (\n    ChecklistMonthID INT,\n    ChecklistQuestionID INT,\n    PRIMARY KEY (ChecklistMonthID, ChecklistQuestionID)\n);

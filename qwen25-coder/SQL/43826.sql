@@ -1,0 +1,1 @@
+SELECT ne1.name, ne1.email\nFROM name_email ne1\nWHERE NOT EXISTS (\n    SELECT 1 \n    FROM name_email ne2 \n    WHERE ne1.name = ne2.name AND ne1.email <> ne2.email AND ne2.email LIKE '%@yahoo.com'\n);

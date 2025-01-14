@@ -1,0 +1,1 @@
+WITH RankedEntries AS (\n    SELECT id,\n           ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY created DESC) as rn\n    FROM entries\n)\nUPDATE entries e\nSET processed = true\nWHERE e.id NOT IN (\n    SELECT id FROM RankedEntries WHERE rn <= 3\n);

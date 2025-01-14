@@ -1,0 +1,1 @@
+<?php\n$perlOutput = file_get_contents('http://localhost:5000/perl-script/');\necho $perlOutput;\n?>

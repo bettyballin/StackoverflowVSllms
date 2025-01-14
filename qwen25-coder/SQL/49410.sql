@@ -1,0 +1,1 @@
+INSERT INTO [dbo].[RoleDisplayOrder] (RoleName, DisplayOrder)\nVALUES ('Admin', 1), ('Editor', 2), ('Viewer', 3);

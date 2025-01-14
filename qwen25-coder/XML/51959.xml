@@ -1,0 +1,1 @@
+<security>\n    <applicationRequestMinimum>\n        <PermissionSet version="1" Unrestricted="true">\n            <!-- Explicitly request any necessary permissions here -->\n        </PermissionSet>\n    </applicationRequestMinimum>\n</security>

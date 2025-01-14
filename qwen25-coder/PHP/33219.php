@@ -1,0 +1,1 @@
+$output = preg_replace("/([a-zA-Z]+)(\s+)(\d+);/", "$1,$3;", $output);

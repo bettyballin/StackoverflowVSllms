@@ -1,0 +1,1 @@
+var xml = "<xml></xml>"; // Example XML string\n\n// Set the value of the hidden input\n$("#data").val(xml);\n\n// Submit the form\n$("#form").submit();

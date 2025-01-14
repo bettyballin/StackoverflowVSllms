@@ -1,0 +1,1 @@
+ALTER TABLE your_table_name\nADD COLUMN IF NOT EXISTS sorted_teamA VARCHAR(255) GENERATED ALWAYS AS (LEAST(TeamA, TeamB)) STORED,\nADD COLUMN IF NOT EXISTS sorted_teamB VARCHAR(255) GENERATED ALWAYS AS (GREATEST(TeamA, TeamB)) STORED;\n\nCREATE UNIQUE INDEX idx_unique_teams ON your_table_name(sorted_teamA, sorted_teamB);

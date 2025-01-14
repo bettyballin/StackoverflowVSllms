@@ -1,0 +1,1 @@
+$doc = new \SimpleXMLElement('<root/>');\n$myToken = $doc->addChild('myToken');\n$myToken[0] = ''; // Add an empty text node\n\necho $doc->asXML();

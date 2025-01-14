@@ -1,0 +1,1 @@
+-- Example SQL command run in testing environment\nALTER TABLE user ADD COLUMN email_verified BOOLEAN DEFAULT FALSE;

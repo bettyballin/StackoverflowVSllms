@@ -1,0 +1,1 @@
+SELECT * FROM tProject\nWHERE CONTAINS((name, Goal, Activities, Result, MonName, MonGoal, MonActivities, MonResult), 'your_search_term');

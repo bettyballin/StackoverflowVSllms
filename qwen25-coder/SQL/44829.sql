@@ -1,0 +1,1 @@
+SELECT sdo_geom.sdo_pointonsurface(\n           SDO_UTIL.apex(spatial_column, offset),\n           0.05) AS internal_point\nFROM     your_table;

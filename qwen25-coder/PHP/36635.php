@@ -1,0 +1,1 @@
+<?php\n$username = exec('whoami');\necho "The web server is running as user: $username";\n?>

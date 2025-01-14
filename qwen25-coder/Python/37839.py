@@ -1,0 +1,1 @@
+import secrets\nimport hashlib\n\ndef generate_api_key():\n    return secrets.token_hex(32)  # Generates a secure random hex token\n\ndef hash_api_key(api_key):\n    return hashlib.sha256(api_key.encode()).hexdigest()\n\n# Example usage\napi_key = generate_api_key()\nhashed_api_key = hash_api_key(api_key)\n\nprint("API Key:", api_key)\nprint("Hashed API Key:", hashed_api_key)

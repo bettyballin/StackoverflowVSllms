@@ -1,0 +1,1 @@
+// Example of potentially breaking a circular reference\n   firstObject.secondObject = null;\n   secondObject.firstObject = null;

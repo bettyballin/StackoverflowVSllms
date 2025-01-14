@@ -1,0 +1,1 @@
+SELECT CONVERT(datetime, GETUTCDATE()) AS UtcDate;

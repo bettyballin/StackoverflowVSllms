@@ -1,0 +1,1 @@
+// For obj1's meta content\nvar metaContentObj1 = document.querySelector('#obj1 #Meta meta');\nconsole.log(metaContentObj1.outerHTML); // Use outerHTML to see the whole tag including <meta>\n\n// For obj2's meta content\nvar metaContentObj2 = document.querySelector('#obj2 #Meta meta');\nconsole.log(metaContentObj2.outerHTML);

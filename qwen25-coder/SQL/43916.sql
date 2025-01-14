@@ -1,0 +1,1 @@
+CREATE TABLE Countries (\n    Code CHAR(2) PRIMARY KEY,\n    Name VARCHAR(100) NOT NULL\n);\n\nCREATE TABLE Currencies (\n    Code CHAR(3) PRIMARY KEY,\n    Name VARCHAR(100) NOT NULL\n);

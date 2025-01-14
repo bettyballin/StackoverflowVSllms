@@ -1,0 +1,1 @@
+class ApplicationController < ActionController::Base\n     before_action :check_origin_header\n     \n     private\n     \n     def check_origin_header\n       unless request.origin == root_url.chomp('/')\n         render json: { message: 'Invalid origin' }, status: 403\n       end\n     end\n   end

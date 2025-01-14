@@ -1,0 +1,1 @@
+' Create a new query that formats the output\nstrSql6 = "SELECT PercentSuccess*100 AS PercentSuccessFormatted, Success, prem_addr1 " & _\n          "FROM analyzedCopy3"\n\nDoCmd.OpenQuery "YourNewQueryName", acViewNormal

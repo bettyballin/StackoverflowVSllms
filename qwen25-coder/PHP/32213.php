@@ -1,0 +1,1 @@
+$array = array("hello");\n  $integer = (int)$array; // $integer will be 1, but with a notice

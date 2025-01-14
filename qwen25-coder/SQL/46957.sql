@@ -1,0 +1,1 @@
+CREATE VIEW IndexedCustomerView AS\n   SELECT CustomerID, FirstName, LastName, Email\n   FROM Customers\n   WHERE Status = 'Active'\n   WITH CHECK OPTION;\n   GO\n   CREATE UNIQUE CLUSTERED INDEX idx_view ON IndexedCustomerView(CustomerID);

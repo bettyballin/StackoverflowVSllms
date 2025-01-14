@@ -1,0 +1,1 @@
+WITH RankedData AS (\n    SELECT \n        a.*, \n        b.priority,\n        ROW_NUMBER() OVER (PARTITION BY a.duplicateId ORDER BY b.priority DESC) as rn\n    FROM tableA as a\n    JOIN tableB as b ON b.sourceId = a.sourceId\n)\nSELECT *\nFROM RankedData\nWHERE rn = 1;

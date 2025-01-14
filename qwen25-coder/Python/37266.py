@@ -1,0 +1,1 @@
+import yaml\n\n# Use yaml.SafeLoader for safety\ndata = yaml.load(open('config.yaml'), Loader=yaml.SafeLoader)

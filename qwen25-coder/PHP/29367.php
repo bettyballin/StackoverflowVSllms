@@ -1,0 +1,1 @@
+<div id="header">\n    <?= $this->partial('index/header.phtml', $this->headerContentData) ?>\n</div>\n\n<div id="main">\n    <?= $this->partial('index/main.phtml', $this->mainContentData) ?>\n</div>\n\n<div id="footer">\n    <?= $this->partial('index/footer.phtml', $this->footerContentData) ?>\n</div>

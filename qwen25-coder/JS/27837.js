@@ -1,0 +1,1 @@
+// For selecting the second from last <li>\nvar N = 2; // Change this to your desired Nth position from last\n$('ul').find('li').eq(-N).css('color', 'red'); // Example action: change color

@@ -1,0 +1,1 @@
+#!/usr/bin/env python3 -u\n\n   import sys\n   import time\n\n   for i in range(1, 101):\n       print(f"[download] {i}% of 10.09M at 3.30M/s ETA 00:02")\n       sys.stdout.flush()\n       time.sleep(0.1)  # Simulate download process

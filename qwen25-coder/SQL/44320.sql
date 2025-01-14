@@ -1,0 +1,1 @@
+DROP SYNONYM myview_syn;\n   CREATE SYNONYM myview_syn FOR myview@dblink;

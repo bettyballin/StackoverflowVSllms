@@ -1,0 +1,1 @@
+class MyClass {\n    private $property;\n\n    public function __construct($value) {\n        $this->property = $value;\n    }\n\n    public function __toString() {\n        return (string)$this->property; // Convert property to string\n    }\n}\n\n$myObject = new MyClass(42);\necho $myObject; // Outputs: 42

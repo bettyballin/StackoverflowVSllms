@@ -1,0 +1,1 @@
+$key = array_keys($_GET);\nif (!empty($key)) {\n    echo $key[0];\n} else {\n    echo "No key provided.";\n}

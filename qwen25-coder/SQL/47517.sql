@@ -1,0 +1,1 @@
+BEGIN\n  :SYSTEM.MODE := 'ENTER-QUERY';\n  SHOW_QUERY_WINDOW; -- This displays the Query/Where dialog.\nEND;

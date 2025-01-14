@@ -1,0 +1,1 @@
+$select = $this->q->select()\n    ->from('clubs', '*')\n    ->join('club_photos_default', 'clubs.id = club_photos_default.c_id', array())\n    ->group('clubs.id');\n\n$results = $this->q->fetchAll($select);

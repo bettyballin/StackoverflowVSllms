@@ -1,0 +1,1 @@
+require 'rgl/adjacency'\ngraph = RGL::AdjacencyGraph.new\n    \nv1 = graph.add_vertex('Vertex 1')\nv2 = graph.add_vertex('Vertex 2')\n\ngraph.add_edge(v1, v2)\ngraph.add_edge(graph.add_vertex('Vertex 3'), v1)\n\n# Perform operations on the graph\nputs graph.has_cycle? # false in this case

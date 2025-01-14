@@ -1,0 +1,1 @@
+from premailer import transform\n\nsource_html = """\n<html>\n  <head>\n    <style>\n      body { color: blue; }\n      h1 { font-size: large; }\n    </style>\n  </head>\n  <body>\n    <h1>This is a heading</h1>\n    <p>This is a paragraph with some text.</p>\n  </body>\n</html>"""\n\nresult_html = transform(source_html)\nprint(result_html)

@@ -1,0 +1,1 @@
+SELECT DISTINCT p.product_id\nFROM products p\nWHERE p.product_id IN (\n    SELECT ap1.product_id\n    FROM attribproducts ap1\n    WHERE ap1.attribute_id IN (9, 10, 11)\n)\nAND p.product_id IN (\n    SELECT ap2.product_id\n    FROM attribproducts ap2\n    WHERE ap2.attribute_id IN (60, 61)\n);

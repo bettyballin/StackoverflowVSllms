@@ -1,0 +1,1 @@
+SELECT <column>, count('x')\nFROM <table>\nGROUP BY <column> HAVING COUNT('x') > 1;

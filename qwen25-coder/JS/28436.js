@@ -1,0 +1,1 @@
+alert(o.replace(/<\/?\s*script([^>]*)>/gi, function(match, attrs) {\n    return match.startsWith('</') ? '</div>' : '<div' + attrs + '>';\n}));

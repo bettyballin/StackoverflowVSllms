@@ -1,0 +1,1 @@
+function changeBG(element_id) {\n    document.getElementById(element_id).className = "arrowActive";\n    setTimeout(() => {\n        document.getElementById(element_id).className = 'arrow';\n    }, 300);\n}

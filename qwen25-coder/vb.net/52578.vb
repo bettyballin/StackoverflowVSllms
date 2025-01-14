@@ -1,0 +1,1 @@
+Public Sub SomeProcedure()\n    Try\n        ' Your code here that might throw an exception\n    Catch ex As Exception\n        ' Handle the exception\n        Console.WriteLine("An error occurred: " & ex.Message)\n    Finally\n        ' Optional: Code to run whether or not an exception was thrown\n    End Try\nEnd Sub

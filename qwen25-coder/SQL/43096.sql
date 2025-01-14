@@ -1,0 +1,1 @@
+EXEC DBMS_MONITOR.SESSION_TRACE_ENABLE(session_id => <session_id>);

@@ -1,0 +1,1 @@
+ws = new WebSocket('wss://api.example.com/socket');\n\nws.onopen = function() {\n    console.log("Connected to WebSocket");\n};\n\nfunction sendData(data) {\n    if (ws.readyState === WebSocket.OPEN) {\n        ws.send(JSON.stringify(data));\n    }\n}\n\n// Example usage: sendData({ key: 'value' });

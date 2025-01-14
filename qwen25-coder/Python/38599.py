@@ -1,0 +1,1 @@
+# Example of a simple PyQt5 app using a .ui file designed in Designer\n   from PyQt5 import uic\n   from PyQt5.QtWidgets import QApplication\n   \n   def main():\n       app = QApplication([])\n       window = uic.loadUi('your_ui_file.ui')\n       window.show()\n       return app.exec_()\n   \n   if __name__ == '__main__':\n       main()

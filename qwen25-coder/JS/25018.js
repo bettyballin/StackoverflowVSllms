@@ -1,0 +1,1 @@
+$.ajax({\n    url: '/Content/file.html', // Correct relative path\n    type: 'GET',\n    success: function (data) {\n        $('#yourDiv').html(data);\n    },\n    error: function () {\n        alert('Failed to load file.');\n    }\n});

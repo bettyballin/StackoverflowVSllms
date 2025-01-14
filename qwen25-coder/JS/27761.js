@@ -1,0 +1,1 @@
+function getBaseURL() {\n    // Use window.location.origin to handle protocol and host\n    return window.location.origin + '/data.json';\n}\n\n// Example usage with Fetch API for AJAX request\nfetch(getBaseURL())\n    .then(response => response.json())\n    .then(data => console.log(data))\n    .catch(error => console.error('Error:', error));

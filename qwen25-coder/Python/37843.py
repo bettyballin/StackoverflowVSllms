@@ -1,0 +1,1 @@
+from sqlalchemy import create_engine\nfrom sqlalchemy.orm import sessionmaker\n\n# Create an engine connected to the MySQL database\nengine = create_engine('mysql+pymysql://username:password@localhost/dbname')\n\n# Create a configured "Session" class\nSession = sessionmaker(bind=engine)\n\n# Create a session\nsession = Session()\n\n# Use 'session' for database interactions

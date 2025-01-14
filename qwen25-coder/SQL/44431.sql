@@ -1,0 +1,1 @@
+CREATE TABLE Movies (\n    MovieID INT PRIMARY KEY,\n    Title VARCHAR(100),\n    Director VARCHAR(100),\n    LeadingMale VARCHAR(100),\n    LeadingFemale VARCHAR(100),\n    Villain VARCHAR(100)\n);

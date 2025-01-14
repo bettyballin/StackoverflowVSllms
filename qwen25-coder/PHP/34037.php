@@ -1,0 +1,1 @@
+// script.php\necho "This is a message.\n";\n\n// main.php\ninclude 'script.php'; // Output: This is a message.\ninclude 'script.php'; // Output: This is a message. (Procedural code runs again)

@@ -1,0 +1,1 @@
+<?php \nif (isset($_GET['session_id'])) {\n    session_id($_GET['session_id']);\n}\n\nsession_start();\n\n$_SESSION['screen_name'] = $twitterInfo->screen_name;\n$_SESSION['profile_image_url'] = $twitterInfo->profile_image_url;\n\n// Optionally, close the child window after processing\necho '<script>window.close();</script>';\n?>

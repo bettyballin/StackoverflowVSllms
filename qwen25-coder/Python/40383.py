@@ -1,0 +1,1 @@
+# Constants for IPv4 and UDP header sizes\nIPV4_HEADER_SIZE = 20\nUDP_HEADER_SIZE = 8\n\n# Minimum MTU on the Internet\nMINIMUM_MTU = 576\n\n# Calculate maximum payload size\nmax_udp_payload = MINIMUM_MTU - IPV4_HEADER_SIZE - UDP_HEADER_SIZE\n\nprint(f"Maximum safe UDP payload: {max_udp_payload} bytes")

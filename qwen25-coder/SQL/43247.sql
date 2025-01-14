@@ -1,0 +1,1 @@
+SELECT 1 INTO OUTFILE '/tmp/test_simple.csv';

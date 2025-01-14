@@ -1,0 +1,1 @@
+do {\n       $ret = ftp_nb_put($conn_id, $remote_file, $local_file, FTP_BINARY);\n       if ($ret == FTP_FAILED) {\n           die("There was an error while uploading $local_file");\n       }\n   } while ($ret == FTP_MOREDATA);\n\n   ftp_close($conn_id);

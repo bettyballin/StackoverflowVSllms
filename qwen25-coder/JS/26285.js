@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() {\n    var inputs = document.querySelectorAll('input.email, input.url');\n    inputs.forEach(function(input) {\n        input.setAttribute('autocapitalize', 'off');\n    });\n});

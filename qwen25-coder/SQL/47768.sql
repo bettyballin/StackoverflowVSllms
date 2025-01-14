@@ -1,0 +1,1 @@
+SELECT MAX(value) AS SecondLargest\nFROM (\n    SELECT DISTINCT value\n    FROM your_table_name\n    ORDER BY value DESC\n    LIMIT 2 OFFSET 1\n) AS subquery;

@@ -1,0 +1,1 @@
+-- MySQL example\nCREATE TABLE example (\n    id INT PRIMARY KEY,\n    short_description VARCHAR(255), -- Efficient for shorter descriptions\n    long_content TEXT               -- Use for potentially large content like articles or logs\n);

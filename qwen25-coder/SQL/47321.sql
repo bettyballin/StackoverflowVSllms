@@ -1,0 +1,1 @@
+CREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    username VARCHAR(50) NOT NULL UNIQUE,\n    email VARCHAR(100) NOT NULL UNIQUE,\n    password_hash CHAR(32) NOT NULL, -- MD5 hash is always 32 characters long\n    status ENUM('active', 'inactive') DEFAULT 'active'\n);

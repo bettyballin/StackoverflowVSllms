@@ -1,0 +1,1 @@
+function login() {\n    const token = localStorage.getItem('deviceIdentifier');\n    fetch('/login.php', {\n        method: 'POST',\n        headers: {\n            'Content-Type': 'application/x-www-form-urlencoded'\n        },\n        body: `token=${encodeURIComponent(token)}`\n    }).then(response => response.text())\n      .then(data => console.log(data));\n}

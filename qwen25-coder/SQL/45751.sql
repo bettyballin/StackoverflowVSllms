@@ -1,0 +1,1 @@
+CREATE TABLE Film_Actors (\n       filmid INT,\n       actor_id INT,\n       PRIMARY KEY (filmid, actor_id),\n       FOREIGN KEY (filmid) REFERENCES Films(filmid),\n       FOREIGN KEY (actor_id) REFERENCES Actors(actor_id)\n     );

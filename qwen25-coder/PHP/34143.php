@@ -1,0 +1,1 @@
+<?php\n// Using file_get_contents\n$externalContent = file_get_contents('http://api.ipify.org?format=json');\nif ($externalContent) {\n    $ipData = json_decode($externalContent, true);\n    echo "Your public IP is: {$ipData['ip']}\n";\n}\n?>

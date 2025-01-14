@@ -1,0 +1,1 @@
+UPDATE Users\nSET Status = 'Offline'\nWHERE LastActivityTime < DATEADD(MINUTE, -5, GETDATE());

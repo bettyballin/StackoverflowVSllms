@@ -1,0 +1,1 @@
+WITH RankedDescriptions AS (\n    SELECT\n        id,\n        description,\n        COUNT(*) OVER (PARTITION BY id, description) AS times_appeared,\n        ROW_NUMBER() OVER (PARTITION BY id ORDER BY COUNT(*) DESC) AS rn\n    FROM your_table_name\n)\nSELECT\n    id,\n    description AS most_popular_description,\n    times_appeared\nFROM RankedDescriptions\nWHERE rn = 1;

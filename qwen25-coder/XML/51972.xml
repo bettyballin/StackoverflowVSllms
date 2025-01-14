@@ -1,0 +1,1 @@
+<system.serviceModel>\n  <bindings>\n    <netTcpBinding>\n      <binding name="secureNetTcpBinding">\n        <security mode="TransportWithMessageCredential">\n          <transport clientCredentialType="Certificate" />\n          <message clientCredentialType="Certificate" />\n        </security>\n      </binding>\n    </netTcpBinding>\n  </bindings>\n</system.serviceModel>

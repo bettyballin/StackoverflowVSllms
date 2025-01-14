@@ -1,0 +1,1 @@
+SET time_zone = 'my/timezone';

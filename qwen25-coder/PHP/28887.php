@@ -1,0 +1,1 @@
+if (!isset($_SERVER['PHP_AUTH_USER'])) {\n    header('WWW-Authenticate: Basic realm="My Realm"');\n    header('HTTP/1.0 401 Unauthorized');\n    echo 'Text to send if user hits Cancel button';\n    exit;\n} else {\n    echo "<p>Hello, {$_SERVER['PHP_AUTH_USER']}.</p>";\n}

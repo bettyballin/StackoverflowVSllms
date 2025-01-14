@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <pages enableSessionState="true" />\n  </system.web>\n</configuration>

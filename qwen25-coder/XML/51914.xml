@@ -1,0 +1,1 @@
+<siteMap>\n  <providers>\n    <add name="DynamicArticleSiteMapProvider" type="YourNamespace.DynamicArticleSiteMapProvider, YourAssemblyName"/>\n  </providers>\n</siteMap>

@@ -1,0 +1,1 @@
+// Hashing a password with bcrypt\n$passwordHash = password_hash($pwd, PASSWORD_BCRYPT);\n\n// Verifying a password against a hash\nif (password_verify($userInputPassword, $storedHash)) {\n    echo 'Password is valid!';\n} else {\n    echo 'Invalid password.';\n}

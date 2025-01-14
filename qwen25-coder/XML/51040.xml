@@ -1,0 +1,1 @@
+<!-- Example snippet from .csproj or .vbproj file -->\n<Target Name="AfterBuild">\n    <Exec Command="&quot;$(FxCopCmdPath)&quot; /file:$(TargetPath) /ruleset:&quot;$(SolutionDir)\CodeAnalysis.ruleset&quot; /out:$(MSBuildProjectDirectory)\FxCopResults.xml" />\n</Target>

@@ -1,0 +1,1 @@
+try {\n       // Code that might throw an exception\n   } catch (Exception $e) {\n       logError($e);\n       echo 'An error occurred, please contact support.';\n   }

@@ -1,0 +1,1 @@
+// Example of setting up session handling with Redis in PHP\n   ini_set('session.save_handler', 'redis');\n   ini_set('session.save_path', 'tcp://127.0.0.1:6379');

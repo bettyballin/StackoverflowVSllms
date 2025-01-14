@@ -1,0 +1,1 @@
+$data = $obj->getTableInfo();\n$this->view->assign('tableData', $data);

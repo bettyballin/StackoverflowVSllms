@@ -1,0 +1,1 @@
+function generateRegistrationKey($length = 32) {\n    return substr(str_replace(['+', '/', '='], '', base64_encode(random_bytes($length))), 0, $length);\n}\n\n$registrationKey = generateRegistrationKey();\necho "Generated Registration Key: " . $registrationKey;

@@ -1,0 +1,1 @@
+$db = Zend_Db_Table::getDefaultAdapter();\n$select = $db->select()->from('bar');\n\n$subSelect = $db->quoteInto('a = 1 AND (b = ? OR b = ?)', array(2, 3));\n$select->where($subSelect);\n\n// This will generate a query like: SELECT * FROM bar WHERE a = 1 AND (b = 2 OR b = 3)

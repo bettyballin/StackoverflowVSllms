@@ -1,0 +1,1 @@
+<?php\n$output = shell_exec('/usr/bin/pdflatex /path/to/yourfile.tex');\necho "<pre>$output</pre>";\n?>

@@ -1,0 +1,1 @@
+SELECT name, dbo.myFunction(@areas) AS CustomFunctionResult\nFROM regions \nWHERE areas IN (SELECT Value FROM dbo.fn_Split(@areas, ','))

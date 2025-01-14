@@ -1,0 +1,1 @@
+CREATE TABLE cache_metadata (\n        resource_id VARCHAR(255) PRIMARY KEY,\n        access_time TIMESTAMP\n    );

@@ -1,0 +1,1 @@
+<b:loop values='data:post.labels' var='label' index='i'>\n  <b:if cond='data:i == 0'> <img src="your-image-url.jpg" alt="<data:label.name/>" </b:if>\n  <b:else/>\n    expr:alt='data:image.@alt + ", " + data:label.name'/>\n  </b:else>\n</b:loop>\n/>

@@ -1,0 +1,1 @@
+$('<div id="box" />').load('my.html div#content', function(response, status, xhr) {\n    if (status === "success") {\n        console.log("Content loaded successfully");\n    } else {\n        console.error("Error loading content: ", status);\n    }\n});

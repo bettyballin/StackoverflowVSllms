@@ -1,0 +1,1 @@
+Dim db As DAO.Database\nSet db = CurrentDb\n\ndb.Execute "UPDATE tbltesting SET IsDiff = 'Yes' WHERE empid= '" & Me.txtEmpId.Value & "' AND testid = '" & Me.txtAutoNumber.Value & "'", dbFailOnError

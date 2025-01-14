@@ -1,0 +1,1 @@
+INSERT INTO my_table (f1, f2, ..., f_date, status)\nSELECT f1, f2, ..., ADD_MONTHS(f_date, 1), status\nFROM my_table\nWHERE status = 'your_status_condition';

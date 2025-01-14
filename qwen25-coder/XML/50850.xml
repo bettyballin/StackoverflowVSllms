@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <handlers>\n      <add name="PHP_via_FastCGI" path="*.php" verb="*" modules="FastCgiModule" resourceType="Either" />\n    </handlers>\n  </system.webServer>\n</configuration>

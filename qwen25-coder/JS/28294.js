@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() {\n    // Your initialization code here\n    main();\n});

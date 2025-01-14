@@ -1,0 +1,1 @@
+-- SQL Create Stored Procedure\nCREATE PROCEDURE InsertUser(\n    IN username VARCHAR(50),\n    IN email VARCHAR(100)\n)\nBEGIN\n    INSERT INTO users (username, email) VALUES (username, email);\nEND;

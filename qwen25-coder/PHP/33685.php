@@ -1,0 +1,1 @@
+session_start([\n      'cookie_secure' => true,\n      'cookie_httponly' => true,\n  ]);

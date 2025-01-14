@@ -1,0 +1,1 @@
+Dim fred As Integer\n\nIf True Then fred = 5 : fred = 3 : fred = 6 Else fred = 4 : fred = 2 : fred = 1

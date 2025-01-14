@@ -1,0 +1,1 @@
+<body>\n  <div> <?= htmlspecialchars($_POST['msg'], ENT_QUOTES, 'UTF-8') ?> </div>\n  <form id="frm" method="post">\n    <input type="hidden" name='msg' value='{"field0": "Im a string", "field1": 84, "field3": "so am I"}' />\n    <input type="submit" value="test" />\n  </form>\n</body>

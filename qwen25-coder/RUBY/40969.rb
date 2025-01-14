@@ -1,0 +1,1 @@
+<%= form_with url: search_path, local: false do %>\n  <%= text_field_tag :query %>\n  <%= submit_tag "Search" %>\n<% end %>\n\n<div id="search_results">\n</div>

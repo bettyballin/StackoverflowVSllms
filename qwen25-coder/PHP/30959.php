@@ -1,0 +1,1 @@
+$orderedpairs = ''; // Initialize the variable before the loop\nforeach($pairs as $d => $m) {\n    $orderedpairs .= "[".$d."],[".$m."]". "<br />";\n}\necho $orderedpairs;

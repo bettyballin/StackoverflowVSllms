@@ -1,0 +1,1 @@
+from flup.server.fcgi import WSGIServer\n\ndef myapp(environ, start_response):\n    status = '200 OK'\n    output = b'Hello World!'\n    response_headers = [('Content-type', 'text/plain'),\n                        ('Content-Length', str(len(output)))]\n    start_response(status, response_headers)\n    return [output]\n\nif __name__ == '__main__':\n    WSGIServer(myapp).run()

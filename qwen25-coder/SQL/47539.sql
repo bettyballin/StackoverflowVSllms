@@ -1,0 +1,1 @@
+DO $$\nDECLARE\n    i INTEGER;\nBEGIN\n    FOR i IN 1..10 LOOP -- Creates tables from table_1 to table_10\n        EXECUTE format('CREATE TABLE table_%s (id SERIAL PRIMARY KEY, data TEXT)', i);\n    END LOOP;\nEND $$;

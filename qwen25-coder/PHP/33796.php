@@ -1,0 +1,1 @@
+// Assume $term contains the search term and $userId contains the logged-in user's ID, if any\n$term = $_GET['query'];\n$userId = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : null;\n$ipAddress = $_SERVER['REMOTE_ADDR'];\n\n$stmt = $pdo->prepare("INSERT INTO search_terms (term, user_id, ip_address) VALUES (?, ?, ?)");\n$stmt->execute([$term, $userId, $ipAddress]);

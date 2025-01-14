@@ -1,0 +1,1 @@
+module ApplicationHelper\n  def html_stylesheet_link_tag(source)\n    tag('link', rel: 'stylesheet', type: 'text/css', href: stylesheet_path(source))\n  end\nend

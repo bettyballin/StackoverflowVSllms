@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    if ($.browser.msie) {\n        $(":input").wrap("<span></span>");\n    }\n});

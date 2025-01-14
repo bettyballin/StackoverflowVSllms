@@ -1,0 +1,1 @@
+$doc = domxml_new_doc("1.0");\n$root = $doc->create_element("root");\n$doc->append_child($root);\n\n$child = $doc->create_element("child", "data");\n$root->append_child($child);\n\necho $doc->dump_mem();

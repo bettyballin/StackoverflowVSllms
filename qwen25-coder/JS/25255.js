@@ -1,0 +1,1 @@
+var self = this;\n   this.someMethod = function() {\n       setTimeout(function() { \n           self.anotherMethod(); \n       }, 1000);\n   };

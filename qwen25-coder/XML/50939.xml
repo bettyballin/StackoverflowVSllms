@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>com.github.john-kenyon-turner</groupId>\n    <artifactId>ds-trie</artifactId>\n    <version>1.0.2</version>\n</dependency>

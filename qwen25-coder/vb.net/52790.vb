@@ -1,0 +1,1 @@
+Imports System.Runtime.CompilerServices\n\nModule CollectionExtensions\n    <Extension()>\n    Public Sub AddRange(Of T)(collection As Collection(Of T), items As IEnumerable(Of T))\n        For Each item In items\n            collection.Add(item)\n        Next\n    End Sub\nEnd Module

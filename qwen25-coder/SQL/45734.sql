@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX idx_columnName ON YourTable (YourColumnName);

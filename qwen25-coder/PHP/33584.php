@@ -1,0 +1,1 @@
+header('X-Sendfile: ' . $flv);\nheader('Content-Type: application/octet-stream');\nheader('Content-Disposition: attachment; filename=' . basename($flv));\nexit;

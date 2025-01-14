@@ -1,0 +1,1 @@
+<system.web>\n      <membership defaultProvider="SQLiteMembershipProvider">\n        <providers>\n          <add name="SQLiteMembershipProvider"\n               type="YourNamespace.SQLiteMembershipProvider, YourAssembly"\n               connectionStringName="" />\n        </providers>\n      </membership>\n    </system.web>

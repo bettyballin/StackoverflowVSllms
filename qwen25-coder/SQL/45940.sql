@@ -1,0 +1,1 @@
+SELECT *\nFROM TableA\nINNER JOIN TableB ON \n    CASE\n        WHEN TableA.Column1 = 0 THEN 1\n        ELSE CAST(TableA.Column1 AS INT)\n    END =\n    CASE\n        WHEN TableA.Column1 = 0 THEN 1\n        ELSE CAST(TableB.Column1 AS INT)\n    END;

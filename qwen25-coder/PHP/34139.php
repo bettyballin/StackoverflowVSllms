@@ -1,0 +1,1 @@
+<?php\n// Set the date for Cache-Control\n$date = gmdate("D, d M Y H:i:s", time() + 86400) . " GMT"; // expires header: one day\n\n// Send cache headers\nheader('Expires: ' . $date);\nheader('Cache-Control: max-age=86400'); // cache for one day\n?>

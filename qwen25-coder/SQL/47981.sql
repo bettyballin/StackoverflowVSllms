@@ -1,0 +1,1 @@
+CREATE TABLE PurchaseOrders (\n    PurchaseOrderID UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),\n    -- Other columns...\n);

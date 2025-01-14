@@ -1,0 +1,1 @@
+Dim x As Decimal = 12.34D\nDim y As Integer = CInt(Math.Floor(x)) ' Gets the integer part\nDim z As Decimal = x - y ' Subtracts the integer part from the original number to get the fractional part\n\nConsole.WriteLine("Integer Part: " & y)\nConsole.WriteLine("Fractional Part: " & z)

@@ -1,0 +1,1 @@
+<?php\nheader('P3P: CP="DEV PSAi NAV STP DEM OTRo NOI IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"');\nsetcookie('hello', 'poopoo', 0, '/', null, false, true); // Adjust path and domain as needed\n\nif (isset($_COOKIE['hello'])) {\n    echo $_COOKIE['hello'];\n} else {\n    echo "fail";\n}\n?>

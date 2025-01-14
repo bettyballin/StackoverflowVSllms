@@ -1,0 +1,1 @@
+CREATE INDEX idx_topic_info_id ON topic_info(id);\nCREATE INDEX idx_topic_data_id ON topic_data(id);

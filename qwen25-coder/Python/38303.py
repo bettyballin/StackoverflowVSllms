@@ -1,0 +1,1 @@
+import os\n\n# Get the absolute path of the current script\ncurrent_file_path = os.path.abspath(__file__)\n\nprint("Current script path:", current_file_path)

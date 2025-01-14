@@ -1,0 +1,1 @@
+CREATE TABLE sessions (\n    session_id VARCHAR(255) PRIMARY KEY,\n    session_data TEXT NOT NULL,\n    last_modified INT UNSIGNED NOT NULL\n);

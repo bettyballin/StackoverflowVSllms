@@ -1,0 +1,1 @@
+container.innerHTML = content;\n\n// Force a reflow/redraw\nvoid container.offsetWidth;

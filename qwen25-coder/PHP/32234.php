@@ -1,0 +1,1 @@
+$client = new SoapClient('path_to_your_wsdl');\n\n$response = $client->GetStorageObjects();\nforeach ($response->GetStorageObjectsResult->StorageObject as $storage) {\n    echo $storage->Name . " - Hobbies: " . $storage->OtherInfo->attributes()->Hobbies . "\n";\n}

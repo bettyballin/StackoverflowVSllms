@@ -1,0 +1,1 @@
+// Example for SQL Server Connection String with Windows Authentication\n  "Server=your_server_name;Database=your_database_name;Trusted_Connection=True;";

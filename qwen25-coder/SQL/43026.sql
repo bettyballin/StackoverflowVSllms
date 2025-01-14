@@ -1,0 +1,1 @@
+INSERT INTO your_oracle_table (your_date_column)\nSELECT TO_DATE(your_mssql_date_column, 'YYYY.MM.DD HH24:MI:SS')\nFROM your_staging_table;

@@ -1,0 +1,1 @@
+# Start your rails console with `rails c`\ninclude ApplicationHelper\n\n# Use any helper method\nputs some_helper_method

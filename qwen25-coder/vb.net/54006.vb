@@ -1,0 +1,1 @@
+Dim o As Object = Nothing\nDim tType As Type = GetType(Point) ' or any other type T you want to use\n\n' Setting o as a nothing reference of type T\no = DirectCast(Nothing, tType)

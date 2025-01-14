@@ -1,0 +1,1 @@
+// Listen for window resize events\nwindow.addEventListener('resize', () => {\n    const viewportWidth = window.innerWidth;\n    const viewportHeight = window.innerHeight;\n\n    console.log(`Viewport resized - New Width: ${viewportWidth}px, New Height: ${viewportHeight}px`);\n});

@@ -1,0 +1,1 @@
+// Assuming $sender_id and $receiver_id are already set and sanitized\n$query = "SELECT * FROM tblusers WHERE usrID IN ('$sender_id', '$receiver_id')";\n$data = mysql_query($query) or die(mysql_error());\n\nwhile ($row = mysql_fetch_array($data)) {\n    echo $row['usrFirstName'] . ' ' . $row['usrLastName'] . '<br>';\n}

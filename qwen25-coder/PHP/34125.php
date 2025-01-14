@@ -1,0 +1,1 @@
+# Check the current php.ini path in CLI\nphp --ini\n\n# To check within a web script\n<?php\nphpinfo();\n?>

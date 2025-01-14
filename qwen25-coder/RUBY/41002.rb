@@ -1,0 +1,1 @@
+<!-- app/views/documents/show.odf.erb -->\n   <office:document-content>\n     <%= @document.content %>\n   </office:document-content>\n\n   <!-- app/views/documents/show.odp.erb -->\n   <office:presentation>\n     <%= @document.presentation_content %>\n   </office:presentation>

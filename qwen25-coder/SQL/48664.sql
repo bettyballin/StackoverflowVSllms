@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.GetInvoicesByFilter(@filterQuery NVARCHAR(MAX)) RETURNS @ret TABLE(InvoiceID INT, -- other columns)\nAS\nBEGIN\n    INSERT INTO @ret EXEC sp_executesql @filterQuery;\n    RETURN;\nEND

@@ -1,0 +1,1 @@
+# Example of writing human-readable JSON vs binary pickle in Python\n\nimport json\nimport pickle\n\ndata = {'key': 'value', 'numbers': [1, 2, 3]}\n\n# Writing as JSON (human-readable)\nwith open('data.json', 'w') as f:\n    json.dump(data, f, indent=4)\n\n# Writing as binary pickle (not human-readable)\nwith open('data.pkl', 'wb') as f:\n    pickle.dump(data, f)

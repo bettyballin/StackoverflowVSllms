@@ -1,0 +1,1 @@
+from django.db import connection\n\n   # ... some code ...\n\n   obj = YourModel(field1='value1', field2='value2')\n   with connection.cursor() as cursor:\n       obj.save()\n   for query in connection.queries:\n       print(query['sql'])

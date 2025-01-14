@@ -1,0 +1,1 @@
+<ItemGroup>\n  <None Include="Documents\README.pdf" />\n  <None Include="Spreadsheets\data.xlsx" CopyToOutputDirectory="PreserveNewest" />\n</ItemGroup>

@@ -1,0 +1,1 @@
+CHANGE MASTER TO\n   MASTER_HOST='master_host_name',\n   MASTER_USER='replica',\n   MASTER_PASSWORD='password',\n   MASTER_LOG_FILE='recorded_log_file_name',\n   MASTER_LOG_POS=recorded_log_position;

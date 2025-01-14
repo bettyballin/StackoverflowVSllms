@@ -1,0 +1,1 @@
+SELECT \n    p.PRPT_Id, \n    p.PRPT_Name, \n    COALESCE(COUNT(pi.PIMG_Id), 0) AS ImageCount,\n    COALESCE(MIN(CASE WHEN pi.PIMG_Status = 1 THEN pi.PIMG_ImageName END), '') AS FirstImageName\nFROM \n    Property p\nLEFT JOIN \n    PropertyImages pi ON p.PRPT_Id = pi.PRPT_Id AND pi.PIMG_Status = 1\nWHERE \n    p.PRPT_Status = 1\nGROUP BY \n    p.PRPT_Id, p.PRPT_Name;

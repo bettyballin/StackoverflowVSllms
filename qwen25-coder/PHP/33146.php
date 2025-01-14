@@ -1,0 +1,1 @@
+class UserController {\n    private $userModel;\n    \n    public function __construct(UserModel $model) {\n        $this->userModel = $model;\n    }\n    \n    public function create($data) {\n        return $this->userModel->createUser($data);\n    }\n    \n    public function read() {\n        return $this->userModel->getUsers();\n    }\n}

@@ -1,0 +1,1 @@
+ALTER TABLE MyTable\nADD ColX int NOT NULL DEFAULT 0;\n\n-- Update the primary key constraint to include the new column\nALTER TABLE MyTable\nDROP CONSTRAINT PK_MyTable; -- Replace 'PK_MyTable' with your actual PK constraint name\n\nALTER TABLE MyTable\nADD CONSTRAINT PK_MyTable PRIMARY KEY (ColA, ColB, ColX, ColC);

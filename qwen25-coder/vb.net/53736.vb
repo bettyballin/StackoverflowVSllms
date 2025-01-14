@@ -1,0 +1,1 @@
+Public Shared Function CleanHtml(input As String) As String\n    ' Simple HTML tag stripping for demonstration; consider using libraries like HtmlSanitizer.\n    Return Regex.Replace(input, "<[^>]*>", String.Empty)\nEnd Functio

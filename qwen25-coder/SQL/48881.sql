@@ -1,0 +1,1 @@
+-- Ensure there is an index on Auditdata_sms_12.id if not already present\nCREATE INDEX IF NOT EXISTS idx_auditdata_sms_12_id ON Auditdata_sms_12(id);\n\n-- The main update statement\nUPDATE auditdata\nSET TATCallType = '12', \n    TATCallUnit = '1'\nFROM auditdata a\nINNER JOIN Auditdata_sms_12 a_sns\nON a.ID = a_sns.id;

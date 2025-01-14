@@ -1,0 +1,1 @@
+test "should get index" do\n  require 'byebug'; byebug # pauses execution here\n  get :index\n  assert_response :success\nend\n\n# Or with pry:\ntest "should get index" do\n  binding.pry # opens a pry console at this point in the test\n  get :index\n  assert_response :success\nend

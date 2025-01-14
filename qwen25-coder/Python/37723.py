@@ -1,0 +1,1 @@
+from bulk_update.helper import bulk_update\n\nitems = list(Something.objects.filter(x='y'))\nfor item in items:\n    item.a = "something"\n\nbulk_update(items)

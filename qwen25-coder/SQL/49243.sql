@@ -1,0 +1,1 @@
+CREATE TABLE user_images (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    user_id INT NOT NULL,\n    original_image_url VARCHAR(255) NOT NULL,\n    thumbnail_url VARCHAR(255),\n    upload_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    file_size_kb INT,\n    mime_type VARCHAR(100),\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);

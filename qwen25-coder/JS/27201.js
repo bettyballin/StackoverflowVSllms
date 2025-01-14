@@ -1,0 +1,1 @@
+function MyObject(data) {\n    this.myData = data;\n}\n\nMyObject.prototype.doSomething = function() {\n    alert("I did something with myData: " + this.myData);\n};\n\n// Usage\nvar obj = new MyObject('data');\nobj.doSomething();

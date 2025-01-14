@@ -1,0 +1,1 @@
+module MyApp\n  class Application < Rails::Application\n    config.middleware.use Rack::Attack\n\n    # Security Headers\n    config.action_dispatch.default_headers = {\n      'X-Frame-Options' => 'DENY',\n      'X-XSS-Protection' => '1; mode=block',\n      'X-Content-Type-Options' => 'nosniff'\n    }\n  end\nend

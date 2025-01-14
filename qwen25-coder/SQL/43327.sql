@@ -1,0 +1,1 @@
+CREATE TABLE message (\n       id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,\n       content TEXT NOT NULL,\n       PRIMARY KEY (id)\n   );

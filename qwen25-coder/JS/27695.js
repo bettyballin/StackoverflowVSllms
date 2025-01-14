@@ -1,0 +1,1 @@
+// Using the automatically generated proxy class\nTickets.GetTickets(onSuccess, onError);\n\nfunction onSuccess(result) {\n    console.log(result);\n}\n\nfunction onError(error) {\n    console.error('Service error: ' + error.get_message());\n}

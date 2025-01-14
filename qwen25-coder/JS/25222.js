@@ -1,0 +1,1 @@
+var original = $('#yourElementId');\nvar clone = original.clone(true); // The true argument copies event handlers, which is usually desirable\nclone.attr('data-custom', original.attr('data-custom'));

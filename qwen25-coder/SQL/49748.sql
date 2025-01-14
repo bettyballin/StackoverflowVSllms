@@ -1,0 +1,1 @@
+ALTER SERVER ROLE [sysadmin] DROP MEMBER [DOMAIN\domainAdmin];\n    GO

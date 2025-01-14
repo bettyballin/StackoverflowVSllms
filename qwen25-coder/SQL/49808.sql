@@ -1,0 +1,1 @@
+DECLARE @profit DECIMAL(18, 2) = 350.00; -- Example profit value\n\nSELECT \n    CASE \n        WHEN @profit BETWEEN ProfitStartRange AND ProfitEndRange THEN CommPct\n        ELSE NULL -- Handle cases where profit doesn't fall into any range\n    END AS ApplicableCommPct\nFROM \n    CommissionTable;

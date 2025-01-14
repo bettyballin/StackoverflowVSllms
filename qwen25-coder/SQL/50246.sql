@@ -1,0 +1,1 @@
+-- Example of auditing login activity, using system views that can help monitor activities:\nSELECT \n    login_name, \n    host_name, \n    program_name, \n    last_login_time\nFROM sys.dm_exec_sessions;

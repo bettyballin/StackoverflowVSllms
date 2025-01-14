@@ -1,0 +1,1 @@
+$xmlContent = str_replace(["<$node->nodeName>", "</$node->nodeName>"], '', $dom->saveXML($node));\necho htmlspecialchars(trim($xmlContent));

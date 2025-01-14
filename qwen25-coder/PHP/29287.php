@@ -1,0 +1,1 @@
+$query = "SELECT SQL_CALC_FOUND_ROWS * FROM Users WHERE active = 1 LIMIT ?, ?";\n$stmt = $db->prepare($query);\n$stmt->execute([$limitOffset, $itemsPerPage]);\n\n$noOfRows = $db->fetchOne('SELECT FOUND_ROWS()');\n\nwhile ($row = $stmt->fetch()) {\n    // processing\n}

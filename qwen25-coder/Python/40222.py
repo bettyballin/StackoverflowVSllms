@@ -1,0 +1,1 @@
+def __init__(self, *args, **kwargs):\n    super(IssuesForm, self).__init__(*args, **kwargs)\n    # Make the widget read-only\n    self.fields['vehicle'].widget.attrs['readonly'] = True\n\ndef clean_vehicle(self):\n    # Return the initial data for the vehicle field to ensure it is submitted unchanged\n    return self.initial.get('vehicle')

@@ -1,0 +1,1 @@
+class Band < ApplicationRecord\n  validate :name_must_be_unique_per_city\n\n  private\n\n  def name_must_be_unique_per_city\n    if Band.where(name: name, city: city).exists?\n      errors.add(:base, "A band with this name already exists in that city.")\n    end\n  end\nend

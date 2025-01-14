@@ -1,0 +1,1 @@
+ALTER TABLE [dbo].[Users]\nADD EmailHash AS HASHBYTES('SHA2_256', Email);\n\nALTER TABLE [dbo].[Users]\nADD CONSTRAINT UC_Email UNIQUE (EmailHash);

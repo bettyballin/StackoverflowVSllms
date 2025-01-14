@@ -1,0 +1,1 @@
+var myObject = new MyClass()\n    .SetProperty1(value1)\n    .SetProperty2(value2)\n    .CallMethod1();

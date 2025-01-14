@@ -1,0 +1,1 @@
+-- After dropping the partition, revalidate the synonym\nVALIDATE PUBLIC SYNONYM part_test;

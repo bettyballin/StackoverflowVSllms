@@ -1,0 +1,1 @@
+UPDATE t1 SET t1.t2ID = TempUpdateTable.NewID\n   INNER JOIN TempUpdateTable ON t1.DD = TempUpdateTable.DD AND t1.TN = TempUpdateTable.TN;

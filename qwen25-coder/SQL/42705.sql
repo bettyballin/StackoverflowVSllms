@@ -1,0 +1,1 @@
+-- This is an example command for generating scripts in SSMS.\n-- It's usually done through the GUI steps mentioned above.

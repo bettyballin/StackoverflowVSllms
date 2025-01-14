@@ -1,0 +1,1 @@
+<body class="<?php echo $sf_context->getConfiguration()->getHelper('Partial')->getSlot('body_class') ?>">\n    <?php echo $sf_content ?>\n</body>

@@ -1,0 +1,1 @@
+foreach ($results as $row) {\n    echo "<tr>";\n    echo "<td>{$row['player_name']}</td>";\n    echo "<td>{$row['base_name']}</td>";\n    echo "<td>{$row['location']}</td>";\n    echo "<td>{$row['calculated_value']}</td>";\n    echo "<td><a href='delete.php?id={$row['id']}'>Delete</a></td>";\n    echo "</tr>";\n}

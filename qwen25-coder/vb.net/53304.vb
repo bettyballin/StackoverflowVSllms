@@ -1,0 +1,1 @@
+Delegate Sub MessageDelegate(ByVal message As String)\n\nModule Module1\n    Sub PrintMessage(ByVal msg As String)\n        Console.WriteLine(msg)\n    End Sub\n\n    Sub Main()\n        Dim del As New MessageDelegate(AddressOf PrintMessage)\n        del("Hello, this is a message using delegates!")\n    End Sub\nEnd Module

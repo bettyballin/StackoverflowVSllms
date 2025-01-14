@@ -1,0 +1,1 @@
+SELECT p.*\nFROM posts p\nLEFT JOIN comments c ON p.post_id = c.post_id AND c.comment_date > '2023-10-01'\nWHERE c.comment_id IS NULL;

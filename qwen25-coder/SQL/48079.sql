@@ -1,0 +1,1 @@
+SELECT \n    ('0 second'::interval + your_seconds_field * '1 second'::interval) AS formatted_duration\nFROM \n    your_table;

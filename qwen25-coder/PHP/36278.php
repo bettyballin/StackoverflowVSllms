@@ -1,0 +1,1 @@
+$array = ['a', 'b', 'c'];\n$firstElement = true;\n$lastIndex = count($array) - 1;\n\nforeach ($array as $index => $element) {\n    if ($firstElement) {\n        echo "First iteration: $element\n";\n        $firstElement = false;\n    }\n    \n    if ($index === $lastIndex) {\n        echo "Last iteration: $element\n";\n    }\n    \n    // Other code\n}

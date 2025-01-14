@@ -1,0 +1,1 @@
+$.getJSON("http://localhost/OutVoice/services/test.php", { id: 15 }, function(json) {\n       alert("JSON Data: " + json.result);\n   });

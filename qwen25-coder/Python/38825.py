@@ -1,0 +1,1 @@
+def sum_array(arr):\n    total = 0\n    for element in arr:\n        total += element\n    return total

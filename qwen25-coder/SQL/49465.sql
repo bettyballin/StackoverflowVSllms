@@ -1,0 +1,1 @@
+WITH table1 AS (\n    SELECT 'gumby' AS word\n),\ntable2 AS (\n    SELECT unnest(ARRAY['g', 'ga', 'gam', 'go', 'ha', 'hi']) AS prefix\n)\nSELECT t1.word, t2.prefix\nFROM table1 t1\nJOIN table2 t2 ON t1.word >= t2.prefix\nORDER BY LENGTH(t2.prefix) DESC\nLIMIT 1;

@@ -1,0 +1,1 @@
+print "<script type=\"text/javascript\">flashPreloadFinish\n".\n      "('http://www.myurl.com/mysite.html');</script>\n";\nprint "</body></html>\n";

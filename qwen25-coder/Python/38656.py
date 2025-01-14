@@ -1,0 +1,1 @@
+import random\n\ndef naive_shuffle(deck):\n    for i in range(len(deck)):\n        swap_index = random.randint(0, len(deck) - 1)\n        deck[i], deck[swap_index] = deck[swap_index], deck[i]

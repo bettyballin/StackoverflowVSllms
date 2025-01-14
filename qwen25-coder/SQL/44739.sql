@@ -1,0 +1,1 @@
+-- Example of creating a table in PostgreSQL\n   CREATE TABLE MyTable (\n       ID SERIAL PRIMARY KEY,\n       Description TEXT NOT NULL\n   );

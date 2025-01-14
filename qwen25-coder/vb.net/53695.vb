@@ -1,0 +1,1 @@
+strTag = strTag.Trim()\ntmp = tmp.Trim()\n\n' Now compare\nIf strTag.Equals(tmp) Then\n    Console.WriteLine("Strings are equal.")\nElse\n    Console.WriteLine("Strings are not equal.")\nEnd If

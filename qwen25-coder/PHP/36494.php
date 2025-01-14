@@ -1,0 +1,1 @@
+$data = array(\n    'key1' => 'value1',\n    'key2' => array('subkey1' => 'subvalue1', 'subkey2' => 'subvalue2')\n);\n$file = session_id() . '.txt'; // Assuming you're using sessions for filenames\n\n// Convert array to JSON\n$jsonData = json_encode($data, JSON_PRETTY_PRINT);\n\n// Write data to file\nfile_put_contents($file, $jsonData);

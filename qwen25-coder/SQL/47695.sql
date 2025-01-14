@@ -1,0 +1,1 @@
+SELECT t.tag_name, COUNT(vt.video_id) AS tag_count \n   FROM tags t \n   INNER JOIN videotags vt ON t.id = vt.tag_id \n   GROUP BY t.id \n   ORDER BY tag_count DESC;

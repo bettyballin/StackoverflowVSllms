@@ -1,0 +1,1 @@
+<filter>\n    <filter-name>NoCacheFilter</filter-name>\n    <filter-class>com.example.NoCacheFilter</filter-class>\n</filter>\n<filter-mapping>\n    <filter-name>NoCacheFilter</filter-name>\n    <url-pattern>/yourJspPages/*</url-pattern>\n</filter-mapping>

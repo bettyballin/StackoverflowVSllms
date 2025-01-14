@@ -1,0 +1,1 @@
+SELECT \n    table1.price AS price,\n    table2.price AS other_price\nFROM \n    table1\nJOIN \n    table2 ON some_join_condition;

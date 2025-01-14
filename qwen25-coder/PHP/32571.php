@@ -1,0 +1,1 @@
+DEFINE('SITENAME', 'stackoverflow.com');

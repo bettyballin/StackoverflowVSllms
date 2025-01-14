@@ -1,0 +1,1 @@
+map.resources :users, path: '', only: [] do |user|\n  user.resources :workouts, only: [:show]\nend\n\nmap.resources :users, path_names: { new: 'signup', edit: 'profile' } do |user|\n  user.resources :workouts, except: [:show] # Excluding show for authenticated users to avoid conflict\n  user.resource :account, only: [:show, :update, :destroy]\nend

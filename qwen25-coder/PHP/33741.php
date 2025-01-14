@@ -1,0 +1,1 @@
+// Staff_Base.php (Automatically generated, do not modify manually)\nclass Staff_Base {\n    // Automatically generated properties and methods\n}\n\n// Staff.php\nclass Staff extends Staff_Base {\n    use Pagination;\n\n    // Custom methods specific to Staff class can go here\n}

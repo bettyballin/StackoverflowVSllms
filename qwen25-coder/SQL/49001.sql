@@ -1,0 +1,1 @@
+WITH PrioritizedConverts AS (\n  SELECT \n    *,\n    ROW_NUMBER() OVER (PARTITION BY date ORDER BY priority DESC) as rn,\n    LAG(date, 1) OVER (ORDER BY date) as prev_date\n  FROM converts \n  WHERE email='myemail@googlemail.com' AND status!='1'\n)\nSELECT *\nFROM PrioritizedConverts\nWHERE rn = 1 OR (EXTRACT(EPOCH FROM (date - prev_date)) < 600)\nORDER BY date, priority DESC;

@@ -1,0 +1,1 @@
+CREATE TABLE [dbo].[TypeTable] (\n    [TypeId] INT NOT NULL,\n    [TypeName] NVARCHAR(100) NOT NULL,\n    [Description] NVARCHAR(MAX),\n    PRIMARY KEY ([TypeId])\n);

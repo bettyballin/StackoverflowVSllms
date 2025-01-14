@@ -1,0 +1,1 @@
+SELECT table_name \nFROM information_schema.tables\nWHERE table_type = 'BASE TABLE' AND table_schema = 'dbo';

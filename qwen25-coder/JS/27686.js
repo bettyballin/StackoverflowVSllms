@@ -1,0 +1,1 @@
+function findWordInHTML(word) {\n    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);\n    let node;\n    while (node = walker.nextNode()) {\n        if (node.textContent.includes(word)) {\n            console.log("Found word in:", node.parentNode.outerHTML);\n        }\n    }\n}\n\n// Use the function like this:\nfindWordInHTML('yourSearchWord');

@@ -1,0 +1,1 @@
+$hash = array('name' => 'John', 'age' => 30);\nprint_r(array_keys($hash)); // Outputs: Array ( [0] => name [1] => age )

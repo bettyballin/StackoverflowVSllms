@@ -1,0 +1,1 @@
+<?php\n// Convert uploaded video to FLV format using FFmpeg.\n$input = "uploads/" . $_FILES['file']['name'];\n$output = "processed/" . pathinfo($_FILES['file']['name'], PATHINFO_FILENAME) . ".flv";\nshell_exec("ffmpeg -i $input -c:v flv -c:a copy $output");\n?>

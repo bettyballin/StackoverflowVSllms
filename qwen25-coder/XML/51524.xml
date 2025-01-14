@@ -1,0 +1,1 @@
+<system.net>\n  <mailSettings>\n    <smtp from="your-email@example.com">\n      <network host="smtp.example.com" port="25" userName="your-username" password="your-password"/>\n    </smtp>\n  </mailSettings>\n</system.net>

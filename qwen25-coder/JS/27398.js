@@ -1,0 +1,1 @@
+function redirectAfterDownload() {\n    setTimeout(function () {\n        window.history.pushState({page: 'download'}, 'Download', '/download-page.php');\n    }, 100); // Timeout duration in milliseconds\n}\n\nwindow.onload = function() {\n    try {\n        redirectAfterDownload();\n    } catch(e) {\n        console.error('Error with redirection:', e);\n    }\n};

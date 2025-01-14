@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\n-- Perform some database operations\nINSERT INTO Table1 (Column1) VALUES ('Value1');\n\nCOMMIT;

@@ -1,0 +1,1 @@
+# config/application.rb or config/initializers/time_zone.rb\n   Rails.application.config.time_zone = 'Your/Timezone'  # Example: 'Eastern Time (US & Canada)'

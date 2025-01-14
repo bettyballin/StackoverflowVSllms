@@ -1,0 +1,1 @@
+const express = require('express');\n   const cors = require('cors');\n   const app = express();\n\n   app.use(cors());\n\n   app.get('/api/content', (req, res) => {\n       const content = { message: 'Hello from your server!' };\n       res.json(content);\n   });\n\n   app.listen(3000, () => console.log('Server running on port 3000'));

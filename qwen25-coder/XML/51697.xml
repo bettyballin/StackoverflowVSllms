@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>commons-dbutils</groupId>\n    <artifactId>commons-dbutils</artifactId>\n    <version>1.7</version>\n    <scope>test</scope>\n</dependency>

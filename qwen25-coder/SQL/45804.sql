@@ -1,0 +1,1 @@
+CREATE ROLE [UserRole];\nGRANT EXECUTE ON [dbo].[ProcedureName] TO [UserRole];\nALTER ROLE [UserRole] ADD MEMBER [User_123];

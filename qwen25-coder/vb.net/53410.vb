@@ -1,0 +1,1 @@
+' In MyBusinessLogic.dll\nPublic Class BusinessLogic\n    Public Sub Execute()\n        ' Your business logic here\n    End Sub\nEnd Class

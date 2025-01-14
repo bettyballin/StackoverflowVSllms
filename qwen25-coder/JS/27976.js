@@ -1,0 +1,1 @@
+function ajax_cb() {\n    setTimeout(function() {\n        window.close();\n    }, 10);  // Delay of 10 milliseconds\n}\n\n// Send a POST request, ajax_cb will be called when readystate == 4.\nfunction test_ajax_close() {\n    Request.sendPOST("file:///test.html", "", ajax_cb);\n}

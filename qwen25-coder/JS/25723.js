@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    // Ensure the iframe's content is fully loaded\n    $('#log').on('load', function() {\n        function scrollLog(line) {\n            frames['log'].find(line);\n        }\n\n        // Example of how you might call the function\n        // scrollLog(someLine);\n    });\n});

@@ -1,0 +1,1 @@
+function oldFunction($arg = null, $unused){ // This definition will trigger an E_STRICT warning about unused parameters and default value for first parameter which comes before non-default one.\n      if ($unused === null) return;\n      echo 'This works';\n  }

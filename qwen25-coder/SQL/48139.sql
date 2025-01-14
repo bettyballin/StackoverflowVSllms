@@ -1,0 +1,1 @@
+INSERT INTO target_table (id, name, value)\nSELECT id, name, value \nFROM source_table \nWHERE some_condition = 'desired_value';

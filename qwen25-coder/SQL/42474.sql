@@ -1,0 +1,1 @@
+CREATE TABLE LookUpValues (\n    LookUpID INT PRIMARY KEY,\n    Description VARCHAR(255),\n    IsActive BIT DEFAULT 1 -- To indicate if this value is currently in use\n);\n\nINSERT INTO LookUpValues (LookUpID, Description)\nVALUES (1234, 'No'), \n       (1235, 'No');

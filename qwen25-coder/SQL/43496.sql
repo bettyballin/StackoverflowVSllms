@@ -1,0 +1,1 @@
+SELECT b.BOOK, b.PRICE, \n    (SELECT COUNT(*) FROM Books AS b2 \n     WHERE b2.BOOK = b.BOOK AND b2.PRICE <= b.PRICE) as PriceRank,\n    (SELECT COUNT(*)+1 FROM Books AS b3 \n     WHERE b3.BOOK = b.BOOK AND b3.PRICE < b.PRICE) as ReversePriceRank\nFROM Books AS b;

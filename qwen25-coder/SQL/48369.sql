@@ -1,0 +1,1 @@
+SELECT column1, column2, column3\nFROM your_table;

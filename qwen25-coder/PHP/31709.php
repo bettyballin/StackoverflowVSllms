@@ -1,0 +1,1 @@
+$hostname = php_uname('n');\necho "Hostname: " . $hostname;

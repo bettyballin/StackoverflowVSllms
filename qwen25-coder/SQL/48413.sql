@@ -1,0 +1,1 @@
+WITH RankedNames AS (\n    SELECT \n        UniqueName,\n        ROW_NUMBER() OVER (PARTITION BY UniqueName ORDER BY (SELECT NULL)) - 1 AS RowNum\n    FROM Persons\n)\nSELECT \n    CASE \n        WHEN RowNum = 0 THEN UniqueName \n        ELSE UniqueName + CAST(RowNum AS VARCHAR(10)) \n    END AS NewUniqueName\nFROM RankedNames;

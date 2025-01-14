@@ -1,0 +1,1 @@
+$n = 5; // Example value\n$n <<= 1;\necho $n; // Outputs: 10

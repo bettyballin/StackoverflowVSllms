@@ -1,0 +1,1 @@
+$joinedString = implode(",", $array);

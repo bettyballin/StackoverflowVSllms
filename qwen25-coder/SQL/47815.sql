@@ -1,0 +1,1 @@
+SELECT *\nFROM YourLoggingTable\nWHERE DATEPART(HOUR, YourDateTimeField) >= 17;

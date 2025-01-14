@@ -1,0 +1,1 @@
+DECLARE @encrypted VARBINARY(MAX);\nEXEC EncryptData N'SensitiveData', N'YourSecretKey', @encrypted OUTPUT;\n\nSELECT @encrypted AS EncryptedData;\n\nDECLARE @decrypted NVARCHAR(MAX);\nEXEC DecryptData @encrypted, N'YourSecretKey', @decrypted OUTPUT;\n\nSELECT @decrypted AS DecryptedData;

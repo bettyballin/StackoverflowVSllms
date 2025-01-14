@@ -1,0 +1,1 @@
+$lines = preg_split('/\r\n|\n|\r/', $string);

@@ -1,0 +1,1 @@
+AttID = Request("EMAIL_LETTERS_HOLD_ID")\nIf Not IsNumeric(AttID) Then\n    Response.Write "Invalid AttID"\n    Response.End\nEnd If

@@ -1,0 +1,1 @@
+DECLARE @MyBoolean bit;\nSET @MyBoolean = 0;\nSET @MyBoolean = CAST((1 - @MyBoolean) AS bit);\nSELECT @MyBoolean;

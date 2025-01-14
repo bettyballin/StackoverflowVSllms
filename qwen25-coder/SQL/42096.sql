@@ -1,0 +1,1 @@
+SELECT request_session_id AS SPID,\n          resource_type,\n          request_mode,\n          request_status \n   FROM sys.dm_tran_locks;

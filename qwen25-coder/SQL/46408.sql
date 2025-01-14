@@ -1,0 +1,1 @@
+-- Creating a stored procedure\nDELIMITER //\nCREATE PROCEDURE GetAverageData()\nBEGIN\n    SELECT AVG(data_value) AS average_data FROM data_table;\nEND //\nDELIMITER ;

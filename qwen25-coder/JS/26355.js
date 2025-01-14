@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    // Select the list items from #move-me and remove them\n    var $listItems = $('#move-me ul').children().detach();\n    \n    // Append the list items to #sidebar-list in the sidebar\n    $('#sidebar-list').append($listItems);\n    \n    // Optionally, remove the original container if it's no longer needed\n    $('#move-me').remove();\n});

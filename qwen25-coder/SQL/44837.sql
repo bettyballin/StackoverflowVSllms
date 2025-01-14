@@ -1,0 +1,1 @@
+SELECT FORMAT(your_date_column, 'yyyy-MMMM') AS formatted_date\nFROM your_table;

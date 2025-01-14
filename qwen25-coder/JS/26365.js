@@ -1,0 +1,1 @@
+var infowindow = new google.maps.InfoWindow({\n  content: '<div class="info-window-content">Your long content here...</div>'\n});

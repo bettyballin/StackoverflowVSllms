@@ -1,0 +1,1 @@
+rman target /\n   RMAN> restore database;

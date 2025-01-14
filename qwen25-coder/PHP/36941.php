@@ -1,0 +1,1 @@
+<?php\n// index.php - Single Entry Point\n\nrequire 'router.php'; // Assume you have a simple router to handle requests\n\n// Handle routes\n$uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);\n$method = $_SERVER['REQUEST_METHOD'];\n\nRouter::route($uri, $method);\n?>

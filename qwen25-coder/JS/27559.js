@@ -1,0 +1,1 @@
+function sanitizeHTML(input) {\n    let tmp = document.createElement("div");\n    tmp.textContent = input;\n    return tmp.innerHTML;\n}\n\n// Usage:\nlet userInput = "<script>alert('xss');</script><p>This is a test.</p>";\nlet safeInput = sanitizeHTML(userInput);\nconsole.log(safeInput); // Outputs: &lt;script&gt;alert(&#39;xss&#39;);&lt;/script&gt;<p>This is a test.</p>

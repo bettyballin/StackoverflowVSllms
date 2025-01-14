@@ -1,0 +1,1 @@
+const data = [\n  { name: 'Product A', price: 30 },\n  { name: 'Product B', price: 20 },\n  { name: 'Product C', price: 50 }\n];\n\ndata.sort((a, b) => a.price - b.price);\nconsole.log(data);

@@ -1,0 +1,1 @@
+CREATE PROCEDURE UpdateEmployeeSalary\n    @EmpId INT,\n    @NewSalary DECIMAL(10,2)\nAS\nBEGIN\n    UPDATE Employees\n    SET Salary = @NewSalary\n    WHERE EmployeeId = @EmpId;\nEND;

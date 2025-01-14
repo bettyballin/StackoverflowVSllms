@@ -1,0 +1,1 @@
+// In your controller method enable the profiler like this:\n$this->output->enable_profiler(TRUE);

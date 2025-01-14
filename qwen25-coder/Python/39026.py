@@ -1,0 +1,1 @@
+import os\n\ndef download_patch(url, target_file):\n    response = requests.get(url)\n    if response.status_code == 200:\n        with open(target_file, 'wb') as file:\n            file.write(response.content)

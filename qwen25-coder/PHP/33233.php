@@ -1,0 +1,1 @@
+function nextStageInput() {\n    global $stage;\n    echo '<input type="hidden" name="stage" value="' . ($stage + 1) . '" />';\n}\n\n// Later in your code where you set $stage\n$stage = 2;\n\n// Call the function\nnextStageInput(); // This will output: <input type="hidden" name="stage" value="3" />

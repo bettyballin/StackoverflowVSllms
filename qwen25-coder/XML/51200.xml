@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">\n  <Product Id="*" Name="YourWCFServiceInstanceNameProperty" Language="1033" Version="1.0.0.0" Manufacturer="YourCompany" UpgradeCode="PUT-YOUR-UPGRADE-GUID-HERE">\n    <!-- Your Product elements here -->\n  </Product>\n</Wix>

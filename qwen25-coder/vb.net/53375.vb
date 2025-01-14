@@ -1,0 +1,1 @@
+While reader.Read()\n    HydrateBookFromReader(reader:=reader)\nEnd While

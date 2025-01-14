@@ -1,0 +1,1 @@
+// Ensure mb_string extension is activated in your php.ini\n\n$utf8String = "こんにちは";\necho mb_strlen($utf8String, 'UTF-8'); // Outputs: 5 (correct character count)

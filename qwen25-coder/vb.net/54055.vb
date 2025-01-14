@@ -1,0 +1,1 @@
+Dim obj As Object = "Hello"\n   Dim str As String = DirectCast(obj, String) ' "Hello"

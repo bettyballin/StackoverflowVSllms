@@ -1,0 +1,1 @@
+// Example route configuration in Kohana (config/routes.php)\nRoute::set('default', '(<controller>(/<action>(/<id>(/<title>))))')\n    ->defaults(array(\n        'controller' => 'articles',\n        'action'     => 'index',\n    ));

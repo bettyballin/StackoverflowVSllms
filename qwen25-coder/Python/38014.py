@@ -1,0 +1,1 @@
+from django import template\n\nregister = template.Library()\n\n@register.simple_tag\ndef link_to(text, url):\n    return f'<a href="{url}">{text}</a>'

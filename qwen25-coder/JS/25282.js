@@ -1,0 +1,1 @@
+// Open Developer Tools (F12) and go to the Console tab, then type:\nconsole.log(document.querySelectorAll("*").length);\n// This will log the total number of tags on the page. If this doesn't run or returns an error, it points to JS issues.

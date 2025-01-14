@@ -1,0 +1,1 @@
+// Check if safe_mode is enabled (for older PHP versions)\necho ini_get('safe_mode'); // Should return false or 0

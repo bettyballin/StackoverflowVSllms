@@ -1,0 +1,1 @@
+SELECT systemUsers.name,\n       (SELECT COUNT(id)\n        FROM userIncidences\n        WHERE idUser = systemUsers.id) AS incidenceCount\nFROM systemUsers;

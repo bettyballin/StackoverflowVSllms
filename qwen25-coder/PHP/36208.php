@@ -1,0 +1,1 @@
+function readLines($filename) {\n    if (($handle = fopen($filename, "r")) === FALSE) {\n        return;\n    }\n    \n    while (($line = fgets($handle)) !== FALSE) {\n        yield $line;\n    }\n    \n    fclose($handle);\n}\n\nforeach (readLines("largefile.csv") as $line) {\n    // Process the line\n    echo $line;\n}

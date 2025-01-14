@@ -1,0 +1,1 @@
+SELECT * \nFROM appts \nWHERE $timeStart < timeEnd  -- New start is before existing end\nAND $timeEnd > timeStart    -- New end is after existing start\nAND dayappt = '$boatdate';

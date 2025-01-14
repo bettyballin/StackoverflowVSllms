@@ -1,0 +1,1 @@
+SELECT COALESCE(t.ValueColumn, 'DefaultValue') AS ValueColumn\nFROM (SELECT TOP 1 'DefaultRow' AS RowName) d -- derived table with default row\nLEFT JOIN YourTable t ON 1=0; -- intentionally makes the join condition false to get no rows from real table

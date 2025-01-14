@@ -1,0 +1,1 @@
+CREATE TABLE InternalMail (\n    ID INT PRIMARY KEY,\n    FromID UNIQUEIDENTIFIER,\n    ToID UNIQUEIDENTIFIER,\n    FromType VARCHAR(10),  -- Can be 'Employee' or 'Company'\n    ToType VARCHAR(10),    -- Can be 'Employee' or 'Company'\n    Message TEXT,          -- Or NVARCHAR(MAX) depending on your database\n    SentDate DATETIME,\n    IsRead BIT DEFAULT 0,\n    ...\n);

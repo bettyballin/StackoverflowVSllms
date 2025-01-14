@@ -1,0 +1,1 @@
+<Binary Id="EnableAspNetCA" SourceFile="[PATH_TO_YOUR_SCRIPT]\EnableAspNetV20.ps1" />\n<CustomAction Id="EnableAspNetV20" BinaryKey="EnableAspNetCA" VBScriptCall="Execute" />\n\n<InstallExecuteSequence>\n    <Custom Action='EnableAspNetV20' After='InstallFinalize'>NOT Installed</Custom>\n</InstallExecuteSequence>

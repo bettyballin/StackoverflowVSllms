@@ -1,0 +1,1 @@
+CREATE TABLE people_active (\n     id       INTEGER PRIMARY KEY,\n     name     VARCHAR(100),\n     ...\n   );\n\n   CREATE TABLE people_inactive (\n     id       INTEGER PRIMARY KEY,\n     name     VARCHAR(100),\n     archived_date DATE,\n     ...\n   );

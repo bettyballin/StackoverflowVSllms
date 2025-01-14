@@ -1,0 +1,1 @@
+// Start the session\nsession_start();\n\n// Use a unique namespace for your application\n$_SESSION['MY_APP_NAME'] = [\n    'username' => 'myusername',\n    // other variables...\n];\n\n// Accessing session variable\necho $_SESSION['MY_APP_NAME']['username'];

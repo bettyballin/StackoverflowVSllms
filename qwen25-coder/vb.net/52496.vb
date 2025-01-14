@@ -1,0 +1,1 @@
+Public Static Class GlobalVariables\n    Public Shared Property CurrentUser As User\n\n    ' You can extend this with other properties as needed\nEnd Class

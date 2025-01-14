@@ -1,0 +1,1 @@
+<?php\nif (isset($_GET['lat']) && isset($_GET['lng'])) {\n    $lat = $_GET['lat'];\n    $lng = $_GET['lng'];\n\n    // Process your data here\n    // For example, return a simple message with the lat and lng\n    echo "Marker moved to Latitude: $lat, Longitude: $lng";\n}\n?>

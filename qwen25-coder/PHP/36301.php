@@ -1,0 +1,1 @@
+<?php\nerror_reporting(0);\nini_set('display_errors', 0);\n\n// Output current settings to verify\necho "Error Reporting: " . error_reporting() . "\n"; // Should be 0\necho "Display Errors: " . ini_get('display_errors') . "\n"; // Should be Off or ''\n?>

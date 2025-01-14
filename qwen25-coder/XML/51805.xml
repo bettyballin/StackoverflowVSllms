@@ -1,0 +1,1 @@
+<property\n    name="tin"\n    type="com.yourpackage.NonTrimmingString"\n    column="TIN"\n    not-null="true"\n    length="9">\n</property>

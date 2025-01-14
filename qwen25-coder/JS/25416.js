@@ -1,0 +1,1 @@
+(function() {\n       var links = document.querySelectorAll('a');\n       var result = [];\n       for (var i = 0; i < links.length; i++) {\n           result.push(links[i].href);\n       }\n       alert(result.join('\n'));\n   })();

@@ -1,0 +1,1 @@
+$result = mysqli_query($connection, "SELECT COUNT(*) as total FROM your_table");\n$row = mysqli_fetch_assoc($result);\n$total_records = $row['total'];

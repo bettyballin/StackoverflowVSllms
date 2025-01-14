@@ -1,0 +1,1 @@
+def spearman_footrule_distance(x, y):\n    rank_x = {v: i for i, v in enumerate(x)}\n    rank_y = {v: j for j, v in enumerate(y)}\n    \n    distance = sum(abs(rank_x[v] - rank_y[v]) for v in x)\n    return distance\n\nprint(spearman_footrule_distance(list1, list2))  # Output should reflect small differences

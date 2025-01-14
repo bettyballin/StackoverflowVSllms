@@ -1,0 +1,1 @@
+CREATE MEMORY TABLE FooMapping (\n       foo CHAR(1),\n       result VARCHAR(255)\n   );

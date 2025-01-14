@@ -1,0 +1,1 @@
+$userId = sfContext::getInstance()->getUser()->getProfile()->getAccountId();\n$sql = sprintf("SELECT * FROM pet_info pi LEFT JOIN lost_pet lp ON pi.pet_info_id = lp.pet_info_id WHERE pi.account_id = %s AND lp.pet_info_id IS NULL", $userId);\n\n$stmt = PetInfoPeer::doSelectStmt($sql);\n$results = PetInfoPeer::populateObjects($stmt);

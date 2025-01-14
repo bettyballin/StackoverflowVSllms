@@ -1,0 +1,1 @@
+select ttg.*\nfrom tblTagGlass ttg\ninner join tblTagGlass ttgC ON \n    ttg.JobID = ttgC.JobID\n    AND ttg.PartCode = ttgC.PartCode\n    AND ttg.UnitCode < ttgC.UnitCode  -- Ensures each pair is compared only once\nwhere (ttg.TagHeight != ttgC.TagHeight\nor ttg.TagWidth != ttgC.TagWidth)\norder by ttg.PartCode;

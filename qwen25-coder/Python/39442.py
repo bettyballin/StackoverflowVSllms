@@ -1,0 +1,1 @@
+function send(data):\n    if packetBuffer has significant amount of data:\n        sendPacket(packetBuffer)\n    elif packetBuffer is not empty and there is unacknowledgedData:\n        enqueueToBuffer(data)\n    elif data contains urgent characters or small enough to send immediately:\n        sendPacket(data)\n    else:\n        appendToBuffer(data)

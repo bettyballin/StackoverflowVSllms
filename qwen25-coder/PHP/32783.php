@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare("UPDATE users SET reset_key = NULL WHERE email = :email");\n    $stmt->execute([':email' => $email]);

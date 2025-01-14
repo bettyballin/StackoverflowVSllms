@@ -1,0 +1,1 @@
+import html\n\n# Example string with HTML entities\nhtml_string = "&lt;Hello&gt; &amp; welcome to the world of &quot;coding&quot;!"\n\n# Convert HTML entities to Unicode\nunicode_string = html.unescape(html_string)\n\nprint(unicode_string)  # Output: <Hello> & welcome to the world of "coding"!

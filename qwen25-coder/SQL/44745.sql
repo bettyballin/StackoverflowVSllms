@@ -1,0 +1,1 @@
+SELECT * \nFROM Table t \nWHERE @key IS NULL OR (@key IS NOT NULL AND @key = t.Key)

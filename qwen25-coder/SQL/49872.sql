@@ -1,0 +1,1 @@
+DECLARE @TableName NVARCHAR(128) = 'YourTableName';\n\nSELECT DISTINCT o.name AS ProcedureName\nFROM sys.procedures o\nINNER JOIN sys.sql_modules m ON o.object_id = m.object_id\nWHERE m.definition LIKE '%' + QUOTENAME(@TableName, '[') + '.[Ii][Nn][Ss][Ee][Rr][Tt]%'\n   OR m.definition LIKE '%' + QUOTENAME(@TableName, '[') + '.[Uu][Pp][Dd][Aa][Tt][Ee]%';

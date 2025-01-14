@@ -1,0 +1,1 @@
+import os\n\ndef ping_service(service_url):\n    response = os.system("ping -c 1 " + service_url)\n    if response == 0:\n        print(f"Service {service_url} is up!")\n    else:\n        print(f"Service {service_url} down!")\n\n# Example usage\nping_service('example.com')

@@ -1,0 +1,1 @@
+select t.CourseNr, t.StudentsPerCourse, g.StudentCount,\n       (t.StudentsPerCourse::numeric / g.StudentCount) as Marketshare\nfrom (\n    select CourseNr, count(*) as StudentsPerCourse\n    from taking\n    group by CourseNr\n) t,\n(\n    select count(*) as StudentCount\n    from Students\n) g;

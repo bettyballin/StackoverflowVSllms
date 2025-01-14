@@ -1,0 +1,1 @@
+import os\n\ndef run_quick_scan():\n    # Command to execute a quick scan using Bitdefender CLI\n    os.system('bdc scan -quick')\n    print("Quick virus scan initiated.")\n\nif __name__ == "__main__":\n    run_quick_scan()

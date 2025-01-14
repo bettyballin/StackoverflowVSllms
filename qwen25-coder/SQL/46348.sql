@@ -1,0 +1,1 @@
+CREATE TABLE OrderCloseReasons (\n    CloseReasonID INT PRIMARY KEY,\n    ReasonDescription VARCHAR(255) NOT NULL\n);\n\nCREATE TABLE Orders (\n    OrderID INT PRIMARY KEY,\n    CustomerID INT NOT NULL,\n    CustomerOrderN VARCHAR(255),\n    Closed BOOLEAN DEFAULT FALSE,\n    CloseReasonID INT,\n\n    FOREIGN KEY (CloseReasonID) REFERENCES OrderCloseReasons(CloseReasonID)\n);

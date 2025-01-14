@@ -1,0 +1,1 @@
+SELECT TOP 1 *\nFROM (\n    SELECT * FROM UserTable WHERE Name = @UserName\n    UNION ALL\n    SELECT * FROM UserTable WHERE Name = 'Jon Skeet' AND NOT EXISTS (SELECT 1 FROM UserTable WHERE Name = @UserName)\n) AS CombinedResults;

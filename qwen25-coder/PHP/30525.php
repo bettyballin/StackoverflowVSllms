@@ -1,0 +1,1 @@
+$domain = explode(".", $this->domain);

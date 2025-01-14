@@ -1,0 +1,1 @@
+SELECT TIMESTAMPDIFF(SECOND, stardate, enddate) AS difference_in_seconds;

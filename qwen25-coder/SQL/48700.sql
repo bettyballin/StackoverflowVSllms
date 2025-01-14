@@ -1,0 +1,1 @@
+-- Example of a scheduled batch job that updates completeness status\n   UPDATE item_status\n   SET is_complete = is_complete(your_table.your_function_params)\n   FROM your_table\n   WHERE item_status.item_id = your_table.item_id;

@@ -1,0 +1,1 @@
+<system.webServer>\n     <applicationInitialization doAppInitAfterRestart="true">\n       <add initializationPage="/" hostName="[YourSiteHost]" />\n     </applicationInitialization>\n   </system.webServer>\n\n   <system.web>\n     <compilation debug="false" targetFramework="4.7.2" preloadEnabled="true" />\n   </system.web>

@@ -1,0 +1,1 @@
+-- Stored Procedure using TVP\nCREATE PROCEDURE InsertContacts\n    @ContactDetails dbo.ContactDetails READONLY\nAS\nBEGIN\n    INSERT INTO YourTableName (ContactName, Designation)\n    SELECT ContactName, Designation FROM @ContactDetails;\nEND\nGO

@@ -1,0 +1,1 @@
+DECLARE @searchTerms NVARCHAR(MAX) = 'word office microsoft';\nSELECT col1 \nFROM myTable \nWHERE CONTAINS(fts_column, '"' + REPLACE(@searchTerms, ',', '" AND "') + '"');

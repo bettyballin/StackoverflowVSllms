@@ -1,0 +1,1 @@
+-- Initialize the sequence and get the first value\nSELECT MySequence.NEXTVAL INTO v_dummy FROM DUAL;\n\n-- Now you can safely access CURRVAL\nSELECT MySequence.CURRVAL FROM DUAL;

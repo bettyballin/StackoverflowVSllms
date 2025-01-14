@@ -1,0 +1,1 @@
+if (extension_loaded('suhosin')) {\n    echo "Suhosin extension is loaded.";\n} else {\n    echo "Suhosin extension is not loaded.";\n}

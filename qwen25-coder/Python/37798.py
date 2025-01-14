@@ -1,0 +1,1 @@
+import urllib.request\n\n# Open the URL\nwith urllib.request.urlopen('http://example.com') as response:\n    # Read the content of the response\n    html_content = response.read().decode('utf-8')\n\n# Now html_content is a string which you can use with regex or any other string operations\nprint(html_content)

@@ -1,0 +1,1 @@
+DECLARE @tasktype INT; -- Adjust the type based on your actual data type\n\nSELECT @tasktype = tasktype \nFROM YourTable \nWHERE id = @ProvidedID;\n\nEXEC getrecords\n    @arg1 = @KnownArg1,\n    @arg2 = @KnownArg2,\n    @tasktype = @tasktype;

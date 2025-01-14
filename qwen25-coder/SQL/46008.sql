@@ -1,0 +1,1 @@
+SELECT e.idProtocol, \n       e.idEquip, \n       MAX(t.readDate) OVER (PARTITION BY t.idEquip) AS maxReadDate\nFROM    Equip e\nJOIN    Totalizer t ON t.idEquip = e.idEquip\nWHERE   e.idEquip = xxx;

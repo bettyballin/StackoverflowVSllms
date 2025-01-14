@@ -1,0 +1,1 @@
+SELECT \n    t.amount, \n    (SELECT SUM(amount) FROM table) AS total_sum\nFROM \n    (SELECT TOP 5 amount \n     FROM table \n     ORDER BY amount DESC) t;

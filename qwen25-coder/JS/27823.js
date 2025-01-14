@@ -1,0 +1,1 @@
+window.onload = function() {\n    document.getElementById('myForm').reset();\n};\n\nwindow.onbeforeunload = function() {\n    document.getElementById('myForm').reset();\n};

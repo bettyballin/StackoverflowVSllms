@@ -1,0 +1,1 @@
+<?php\n$filename = 'LVD 2-1133 - Ändring av dumpningslina (1984-11-20).pdf';\n$urlEncodedFilename = urlencode($filename);\necho '<a href="path/to/file/' . $urlEncodedFilename . '">' . htmlspecialchars($filename) . '</a>';\n?>

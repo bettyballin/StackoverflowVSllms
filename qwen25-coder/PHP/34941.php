@@ -1,0 +1,1 @@
+echo "<form name=\"statusForm\" action=\"edit_status.php\" method=\"post\" enctype=\"multipart/form-data\">\n";\necho "  <input type=\"hidden\" name=\"cmd\" value=\"submitinfo\">\n";\n// Add other form fields here\necho "  <input type=\"submit\" value=\"Submit\">\n";\necho "</form>";

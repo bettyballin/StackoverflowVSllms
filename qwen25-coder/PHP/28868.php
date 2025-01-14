@@ -1,0 +1,1 @@
+<?php\nfunction sayHello($name) {\n    return "Hello, " . $name;\n}\n\nif (isset($_GET['name'])) {\n    echo sayHello($_GET['name']);\n}\n?>

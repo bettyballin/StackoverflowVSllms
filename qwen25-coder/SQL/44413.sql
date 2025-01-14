@@ -1,0 +1,1 @@
+SELECT * FROM your_table LIMIT 0, 100; // Fetch first 100 rows

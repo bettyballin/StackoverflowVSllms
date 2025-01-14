@@ -1,0 +1,1 @@
+IF EXISTS (SELECT * FROM msdb.dbo.sysjobs WHERE name = N'YourJobName')\nBEGIN\n    EXEC msdb.dbo.sp_delete_job @job_name = N'YourJobName'\nEND

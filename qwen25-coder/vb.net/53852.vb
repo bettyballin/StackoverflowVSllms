@@ -1,0 +1,1 @@
+Private Sub FocusAndMoveCursorToEnd()\n    ' Ensure the TextBox is focused\n    TextBox1.Focus()\n\n    ' Set the SelectionStart to the length of the text to move the cursor to the end\n    TextBox1.SelectionStart = TextBox1.Text.Length\n\n    ' Optionally, set SelectionLength to 0 if you don't want any text selected\n    TextBox1.SelectionLength = 0\nEnd Sub

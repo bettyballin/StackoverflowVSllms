@@ -1,0 +1,1 @@
+class ApplicationController < ActionController::Base\n  before_action :set_show_feedback_tab\n\n  def set_show_feedback_tab\n    @show_feedback_tab = false # default value\n  end\nend\n\nclass SpecificController < ApplicationController\n  def specific_action\n    @show_feedback_tab = true # enable feedback tab for this action\n  end\nend

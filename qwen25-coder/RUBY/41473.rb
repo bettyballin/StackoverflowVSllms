@@ -1,0 +1,1 @@
+class Api::V1::UsersController < ApplicationController\n     include ActionController::RateLimiting\n     rate_limit :create, limit: 50, period: 2.minutes\n   end

@@ -1,0 +1,1 @@
+-- Example of a table with a surrogate key\nCREATE TABLE Products (\n    ProductID INT IDENTITY(1,1) PRIMARY KEY,\n    ProductName NVARCHAR(255) NOT NULL,\n    Category VARCHAR(100),\n    Price DECIMAL(18, 2)\n);

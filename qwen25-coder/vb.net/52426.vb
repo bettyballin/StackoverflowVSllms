@@ -1,0 +1,1 @@
+Public Class Calculator\n    Public Function Add(ByVal x As Integer, ByVal y As Integer) As Integer\n        Return x + y\n    End Function\nEnd Class

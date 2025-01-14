@@ -1,0 +1,1 @@
+SELECT val FROM predefined_order;\n-- Returns: val1, val3, val5, val2, val4

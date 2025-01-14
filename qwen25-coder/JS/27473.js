@@ -1,0 +1,1 @@
+// Example of basic server-side validation in Node.js with Express\n   app.post('/submit', (req, res) => {\n       const userInput = req.body.input;\n       if (/[^a-zA-Z0-9]/.test(userInput)) {  // simple regex to check only alphanumeric characters\n           return res.status(400).send('Invalid input');\n       }\n       // Proceed with further processing\n   });

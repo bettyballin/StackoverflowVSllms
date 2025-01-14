@@ -1,0 +1,1 @@
+sp_set_session_context @key=N'Recipient', @value=ORIGINAL_LOGIN();

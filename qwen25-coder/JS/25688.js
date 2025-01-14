@@ -1,0 +1,1 @@
+fetch('url_to_your_php_script')\n    .then(response => response.blob())\n    .then(blob => {\n        const imageUrl = URL.createObjectURL(blob);\n        const img = document.createElement('img');\n        img.src = imageUrl;\n        document.body.appendChild(img); // Assuming you want to append the image to the body\n    })\n    .catch(error => console.error('Error:', error));

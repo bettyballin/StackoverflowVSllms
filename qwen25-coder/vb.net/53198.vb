@@ -1,0 +1,1 @@
+Dim currentDate As DateTime = Today\nConsole.WriteLine("Current Date: " & currentDate.ToShortDateString())

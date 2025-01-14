@@ -1,0 +1,1 @@
+<?php\n// Clear all caches (opcode, user, and system)\nif (function_exists('apc_clear_cache')) {\n    // First parameter 'user' clears the user cache\n    apc_clear_cache('user');\n    \n    // If you want to clear opcode as well, call it again with 'opcode'\n    apc_clear_cache();\n}\n?>

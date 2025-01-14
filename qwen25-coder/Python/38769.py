@@ -1,0 +1,1 @@
+# Using python to filter after querying the database\nfiltered_objects = [obj for obj in MyModel.objects.all() if obj.myproperty == value]

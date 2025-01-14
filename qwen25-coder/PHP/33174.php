@@ -1,0 +1,1 @@
+$var = ["apple", "banana"];\necho var_export($var, true);\n// Outputs:\n// array (\n//   0 => 'apple',\n//   1 => 'banana',\n// )

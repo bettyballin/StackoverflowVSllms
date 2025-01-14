@@ -1,0 +1,1 @@
+-- Check for any locked tables or rows\nSELECT s.sid, s.serial#, l.type, l.lmode, l.request, o.object_name \nFROM v$lock l \nJOIN dba_objects o ON l.id1 = o.object_id \nLEFT JOIN v$session s ON l.sid = s.sid;

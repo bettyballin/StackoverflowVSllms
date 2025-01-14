@@ -1,0 +1,1 @@
+CREATE CLUSTERED INDEX CIX_YourTableName_keyB_keyA\nON YourTableName (keyB ASC, keyA ASC);

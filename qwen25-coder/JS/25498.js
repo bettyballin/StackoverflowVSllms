@@ -1,0 +1,1 @@
+$('#section-one').html('<%= j render(partial: "content/section_one_content", locals: { data: @data }) %>');

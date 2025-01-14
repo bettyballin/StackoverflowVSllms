@@ -1,0 +1,1 @@
+UPDATE YourTableName SET ColumnName = 'NewValue' WHERE ConditionColumn = 'ConditionValue';

@@ -1,0 +1,1 @@
+With Me.Elements\n    .PropertyA = True\n    .PropertyB = "Inactive"\n    ' Additional property assignments\nEnd With

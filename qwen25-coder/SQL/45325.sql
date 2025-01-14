@@ -1,0 +1,1 @@
+CREATE TABLE ErrorLog (\n    LogID INT IDENTITY(1,1) PRIMARY KEY,\n    ErrorMessage NVARCHAR(MAX),\n    RecordData NVARCHAR(MAX),\n    LogTime DATETIME DEFAULT GETDATE()\n);

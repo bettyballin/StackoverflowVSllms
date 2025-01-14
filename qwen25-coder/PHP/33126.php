@@ -1,0 +1,1 @@
+if ($result instanceof \PDOStatement) {\n    // Safe to fetch rows\n    while ($row = $result->fetch(\PDO::FETCH_ASSOC)) {\n        // Process each row\n    }\n} else {\n    echo "Error: Not a valid PDO statement.";\n}

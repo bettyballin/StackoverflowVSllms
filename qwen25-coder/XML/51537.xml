@@ -1,0 +1,1 @@
+<system.webServer>\n  <validation validateIntegratedModeConfiguration="false" />\n  <modules runAllManagedModulesForAllRequests="true" />\n  <!-- Other configurations -->\n</system.webServer>

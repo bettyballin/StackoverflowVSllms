@@ -1,0 +1,1 @@
+Dim email As String = "foo@bar.com"\nDim atIndex As Integer = email.IndexOf("@")\n\nIf atIndex <> -1 Then\n    Dim domainPart As String = email.Substring(atIndex)\n    Console.WriteLine(domainPart)  ' Outputs: @bar.com\nEnd If

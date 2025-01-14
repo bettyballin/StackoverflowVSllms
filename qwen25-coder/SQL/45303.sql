@@ -1,0 +1,1 @@
+SELECT AVG(CAST(variable AS FLOAT)) AS AvgValue, SUM(variable) AS TotalSum\nFROM ......;

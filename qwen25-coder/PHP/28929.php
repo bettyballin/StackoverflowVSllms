@@ -1,0 +1,1 @@
+$lookup = array(\n    "a" => 1,\n    "b" => 2,\n    "c" => 3,\n    // ... more entries\n);\n\nfunction getValue($key, $lookupArray) {\n    return isset($lookupArray[$key]) ? $lookupArray[$key] : null; // Default to null if key not found\n}\n\n// Usage:\n$value = getValue("a", $lookup);

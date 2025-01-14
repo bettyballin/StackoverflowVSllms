@@ -1,0 +1,1 @@
+Dim found As Boolean = False\nFor Each role As String In selectedUsersRoles\n    If role.Equals(RoleCheckBox.Text) Then\n        found = True\n        Exit For\n    End If\nNext\n\nRoleCheckBox.Checked = found

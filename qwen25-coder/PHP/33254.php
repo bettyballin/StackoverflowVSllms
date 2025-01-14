@@ -1,0 +1,1 @@
+$typeMap = [\n    1 => 'gif',\n    2 => 'jpg',\n    3 => 'png',\n];\n\n$type = 2;\n\n// Use the array to get the corresponding file type, with a default if not found.\n$fileType = $typeMap[$type] ?? 'jpg';\n\necho $fileType; // Outputs: jpg

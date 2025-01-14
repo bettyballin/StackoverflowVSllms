@@ -1,0 +1,1 @@
+SELECT DATE(Timestamp) as Date, COUNT(DISTINCT UserID) as UniqueUsers \n   FROM SearchStatistics \n   WHERE UserID IS NOT NULL \n   GROUP BY Date;

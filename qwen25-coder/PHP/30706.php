@@ -1,0 +1,1 @@
+<!-- In your view file -->\n    <p><?php echo format_string($original_string); ?></p>

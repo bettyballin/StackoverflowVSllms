@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE LOWER(column_name) REGEXP '(^|[[:space:]])a[[:word:]]*'\n   OR LOWER(column_name) REGEXP '(^|[[:space:]])c[[:word:]]*'\n   OR LOWER(column_name) REGEXP '(^|[[:space:]])g[[:word:]]*'\n   OR LOWER(column_name) REGEXP '(^|[[:space:]])j[[:word:]]*';

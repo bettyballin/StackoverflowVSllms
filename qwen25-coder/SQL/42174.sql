@@ -1,0 +1,1 @@
+-- Example of database operation that benefits\n   SELECT * FROM large_table WHERE indexed_column = 'value';

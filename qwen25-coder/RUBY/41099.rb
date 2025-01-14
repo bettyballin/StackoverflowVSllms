@@ -1,0 +1,1 @@
+# app/models/customer.rb\nclass Customer < ApplicationRecord\n  has_many :notes, as: :noteable\nend\n\n# app/models/job.rb\nclass Job < ApplicationRecord\n  has_many :notes, as: :noteable\nend\n\n# app/models/note.rb\nclass Note < ApplicationRecord\n  belongs_to :noteable, polymorphic: true\nend

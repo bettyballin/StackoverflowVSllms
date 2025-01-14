@@ -1,0 +1,1 @@
+use Zend\Escaper\Escaper;\n\n$escaper = new Escaper('utf-8');\n$safeOutput = $escaper->escapeHtml($userInput);\n\necho $safeOutput;

@@ -1,0 +1,1 @@
+# In config/routes.rb\n\nRails.application.routes.draw do\n  resources :users do\n    get 'events/:month.html', on: :member, action: 'events'\n  end\n\n  # Other routes...\nend

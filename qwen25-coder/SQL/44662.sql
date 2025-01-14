@@ -1,0 +1,1 @@
+SELECT TRY_PARSE('1.000,00' AS FLOAT USING 'de-de') AS ConvertedValue;

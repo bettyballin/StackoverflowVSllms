@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetRecordsSafely\n    @Param INT = NULL  -- Assuming @Param is an integer ID\nAS\nBEGIN\n    DECLARE @SQL NVARCHAR(MAX) = N'SELECT * FROM Table';\n    \n    IF @Param IS NOT NULL\n        SET @SQL += N' WHERE id = @Id';\n\n    EXEC sp_executesql @SQL, N'@Id INT', @Param;\nEND

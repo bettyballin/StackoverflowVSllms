@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $swipeData = $_POST['swipeData'] ?? '';\n    \n    // Process your data (e.g., validate, query database for user)\n    $response = "Received Swipe Data: " . htmlspecialchars($swipeData);\n\n    echo $response;\n}\n?>

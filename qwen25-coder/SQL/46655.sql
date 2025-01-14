@@ -1,0 +1,1 @@
+CREATE TABLE timespan (\n    id SERIAL PRIMARY KEY,\n    event_id INTEGER REFERENCES events(id) ON DELETE CASCADE,\n    day DATE NOT NULL,\n    start_time TIME NOT NULL,\n    end_time TIME NOT NULL,\n    CHECK (start_time <= end_time)\n);

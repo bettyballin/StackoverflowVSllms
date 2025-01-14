@@ -1,0 +1,1 @@
+<?php\n   function getMacAddress() {\n       return shell_exec('getmac');\n   }\n   $macAddress = trim(getMacAddress());\n   ?>

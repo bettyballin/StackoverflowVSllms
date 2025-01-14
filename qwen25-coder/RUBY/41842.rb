@@ -1,0 +1,1 @@
+# Find a specific company by id or any other attribute\ncompany = Company.find(1)\n\n# Fetch all email addresses associated with this company\nemail_addresses = company.emails.pluck(:email_address)

@@ -1,0 +1,1 @@
+UPDATE table_paid\nSET delta_balance = (\n    SELECT post_balance - t1.balance_due\n    FROM table_snapshot t1\n    WHERE table_paid.account_no = t1.account_no\n)\nWHERE EXISTS (\n    SELECT 1\n    FROM table_snapshot t2\n    WHERE table_paid.account_no = t2.account_no\n);

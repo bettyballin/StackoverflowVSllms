@@ -1,0 +1,1 @@
+class MyModel(ndb.Model):\n    fixed_property = ndb.StringProperty()\n    dynamic_properties = ndb.JsonProperty()\n\n# Usage example:\nentity = MyModel(\n    fixed_property='value',\n    dynamic_properties={\n        'attribute1': 'value1',\n        'attribute2': 'value2',\n        # Add other attributes as needed\n    }\n)\nentity.put()

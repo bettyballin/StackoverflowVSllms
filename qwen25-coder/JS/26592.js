@@ -1,0 +1,1 @@
+if (typeof(Storage) !== "undefined") {\n    // Code for localStorage/sessionStorage.\n    sessionStorage.setItem('key', 'value');\n} else {\n    // No Web Storage support, use an alternative method like cookies or server-side storage.\n    document.cookie = "key=value; path=/";\n}

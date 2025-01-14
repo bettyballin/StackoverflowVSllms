@@ -1,0 +1,1 @@
+DECLARE @email_address VARCHAR(200) = 'test@example.com';\n\n-- Simple pattern check for email\nIF @email_address LIKE '%_@__%.__%'\nBEGIN\n    PRINT 'Email format is valid.';\nEND\nELSE\nBEGIN\n    PRINT 'Email format is invalid.';\nEND

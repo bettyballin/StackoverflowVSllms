@@ -1,0 +1,1 @@
+<?php\nnamespace MyNamespace1;\n\nclass MyClass {\n    public function sayHello() {\n        echo 'Hello from namespace 1';\n    }\n}\n\n// In another file or within the same file\n\nnamespace MyNamespace2;\n\nclass MyClass {\n    public function sayHello() {\n        echo 'Hello from namespace 2';\n    }\n}

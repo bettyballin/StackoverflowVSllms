@@ -1,0 +1,1 @@
+(is_array($settings_array) && isset($settings_array[$setting_name]) && strlen($settings_array[$setting_name])) \n    ? $settings_array[$setting_name] \n    : $default_value;

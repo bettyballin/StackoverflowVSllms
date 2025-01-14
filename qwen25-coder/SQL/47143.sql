@@ -1,0 +1,1 @@
+WITH UserCTE AS (\n    SELECT \n        ROW_NUMBER() OVER (ORDER BY Username) AS RowNum,\n        UserID,\n        Username\n    FROM \n        Users\n)\nSELECT \n    UserID, Username\nFROM \n    UserCTE\nWHERE \n    RowNum BETWEEN 1 AND 10; -- Change the range for different pages

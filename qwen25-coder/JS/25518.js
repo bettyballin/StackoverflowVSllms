@@ -1,0 +1,1 @@
+function remove_deposit() {\n    document.getElementById('deposit').checked = false;\n}

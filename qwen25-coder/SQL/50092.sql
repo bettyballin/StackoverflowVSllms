@@ -1,0 +1,1 @@
+SELECT title FROM games ORDER BY sorted_title;

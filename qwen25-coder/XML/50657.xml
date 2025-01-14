@@ -1,0 +1,1 @@
+<listener>\n    <listener-class>org.apache.tiles.extras.complete.CompleteAutoloadTilesListener</listener-class>\n</listener>\n<context-param>\n    <param-name>tiles.definitions</param-name>\n    <param-value>/WEB-INF/tiles.xml</param-value>\n</context-param>

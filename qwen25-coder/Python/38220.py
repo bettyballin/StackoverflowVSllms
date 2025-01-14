@@ -1,0 +1,1 @@
+from setuptools import setup\n\nAPP = ['your_script.py']\nDATA_FILES = []\nOPTIONS = {'argv_emulation': True}\n\nsetup(\n    app=APP,\n    data_files=DATA_FILES,\n    options={'py2app': OPTIONS},\n    setup_requires=['py2app'],\n)

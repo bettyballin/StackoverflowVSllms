@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "<%=Response.ApplyAppPathModifier(\"/ajax/getsomedata.aspx\") %>",\n    data: { 'id': id },\n    success: function(data) {\n        dosomething(data);\n    },\n    error: function(xhr, status, error) {\n        console.error("AJAX Error: " + status + error);\n    }\n});

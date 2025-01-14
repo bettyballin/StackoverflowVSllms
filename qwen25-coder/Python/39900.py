@@ -1,0 +1,1 @@
+y = '10.1.1.'  # /24 network\nwith open('a.txt', 'w') as file:\n    for x in range(1, 256):  # start from 1 to 255 directly\n        ip_address = y + str(x)\n        file.write(ip_address + '\n')  # write each IP address with a newline

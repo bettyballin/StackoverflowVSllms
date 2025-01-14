@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    // Assuming there is a method like `.setJVal()` provided by the jVal plugin\n    $("#subJobName").setJVal({\n        valid: function(val) { \n            return validateSubJobName(val); \n        },\n        message: "Name already exists or is longer than 14 characters.",\n        styleType: 'cover'\n    });\n});

@@ -1,0 +1,1 @@
+$imageSize = imageResize($PIC_URL, 250, 300);

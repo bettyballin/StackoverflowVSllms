@@ -1,0 +1,1 @@
+$escapedCode = htmlspecialchars($_code, ENT_QUOTES, 'UTF-8');\necho "<a href=\"javascript:pop_item('{$escapedCode}', 1)\">Link</a>";

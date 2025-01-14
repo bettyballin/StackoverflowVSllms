@@ -1,0 +1,1 @@
+public function someAction()\n{\n    $object = new Object();\n    $object->setName('Foo Bar');\n    \n    $viewModel = new ObjectViewModel($object);\n    $this->view->title = $viewModel->getTitle();\n}

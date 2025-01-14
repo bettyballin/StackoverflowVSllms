@@ -1,0 +1,1 @@
+ALTER TABLE texts ADD FULLTEXT(text_column);

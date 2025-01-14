@@ -1,0 +1,1 @@
+WITH RankedComments AS (\n    SELECT pri_id,\n           ROW_NUMBER() OVER (PARTITION BY item_id ORDER BY date DESC) AS rn\n    FROM comments\n    WHERE item_id = :item_id AND date < NOW() - INTERVAL '1 YEAR'\n)\nDELETE FROM comments\nWHERE pri_id IN (\n    SELECT pri_id\n    FROM RankedComments\n    WHERE rn > 15\n);

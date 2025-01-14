@@ -1,0 +1,1 @@
+UPDATE Cities\nSET CityName = REPLACE(REPLACE(REPLACE(CityName, 'FT', 'Fort'), 'Ft.', 'Fort'), 'Ft', 'Fort')\nWHERE CityName LIKE '*Ft*' OR CityName LIKE '*FT*';

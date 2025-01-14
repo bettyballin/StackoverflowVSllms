@@ -1,0 +1,1 @@
+class AdminController < ApplicationController\n  before_action :require_admin_http_basic_auth\n\n  private\n\n  def require_admin_http_basic_auth\n    authenticate_or_request_with_http_basic do |username, password|\n      User.exists?(username: username, admin: true) && User.find_by(username: username).valid_password?(password)\n    end\n  end\nend

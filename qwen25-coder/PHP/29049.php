@@ -1,0 +1,1 @@
+function max_length($string, $length) {\n      return (strlen($string) > $length) ? substr($string, 0, $length) : $string;\n    }

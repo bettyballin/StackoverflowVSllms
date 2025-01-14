@@ -1,0 +1,1 @@
+<?php\n// String containing an XML document\n$xmlStr = <<<XML\n<person>\n    <name>John Doe</name>\n    <age>30</age>\n    <city>New York</city>\n</person>\nXML;\n\n// Convert the string into a SimpleXML object\n$xmlData = simplexml_load_string($xmlStr);\n\n// Access elements\necho $xmlData->name; // Output: John Doe\n?>

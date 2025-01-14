@@ -1,0 +1,1 @@
+<system.webServer>\n  <handlers>\n    <add name="PageHandlerFactory-ISAPI-2.0" path="*.aspx" verb="*" modules="IsapiModule"\n         scriptProcessor="%windir%\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll"\n         resourceType="Unspecified" requireAccess="Script" preCondition="classicMode,runtimeVersionv2.0,bitness32" />\n  </handlers>\n</system.webServer>

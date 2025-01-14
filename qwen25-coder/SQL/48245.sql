@@ -1,0 +1,1 @@
+CREATE MATERIALIZED VIEW mv_example AS \n   SELECT * FROM your_table;\n   \n   REFRESH TABLE mv_example;

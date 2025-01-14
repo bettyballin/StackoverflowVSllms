@@ -1,0 +1,1 @@
+// Example: Using TCPDF (you would need to include the library)\n   require_once('tcpdf/tcpdf.php');\n   $pdf = new TCPDF();\n   $pdf->AddPage();\n   $pdf->Write(0, 'Sample PDF content.');\n   $pdf->Output('downloadedFile.pdf', 'I'); // Output as a file

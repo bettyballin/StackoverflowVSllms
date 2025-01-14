@@ -1,0 +1,1 @@
+<?php\n// Load WordPress environment\nrequire_once __DIR__ . '/wp-load.php';\n\n// Start the interactive shell\nrequire "phar://path/to/php-console.phar";\n\n$shell = new PHPConsole\Console();\n$shell->start();\n?>

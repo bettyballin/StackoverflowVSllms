@@ -1,0 +1,1 @@
+from sklearn.svm import OneClassSVM\n   \n   # Assuming `insect_sound_features` are your processed sound features for training.\n   model = OneClassSVM(nu=0.1, kernel="rbf", gamma='scale')\n   model.fit(insect_sound_features)\n   \n   # For prediction\n   predictions = model.predict(new_sound_features)  # +1 for in-class and -1 for out-of-class

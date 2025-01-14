@@ -1,0 +1,1 @@
+Dim reversedList As List(Of String) = New List(Of String)(myStringList)\nreversedList.Reverse()\nFor Each s As String In reversedList\n    ' Do stuff here\nNext

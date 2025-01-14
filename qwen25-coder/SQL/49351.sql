@@ -1,0 +1,1 @@
+CREATE PROCEDURE DeleteArchivedRecords\nAS\nBEGIN\n    DECLARE @ArchiveDate datetime;\n    SET @ArchiveDate = DATEADD(day, -n, GETDATE()); -- replace n with the number of days\n\n    DELETE FROM YourArchiveTable\n    WHERE ArchiveDate < @ArchiveDate;\n\n    PRINT 'Old records deleted successfully.';\nEND;

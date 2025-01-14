@@ -1,0 +1,1 @@
+SELECT *\nFROM Customers\nWHERE dbo.NormalizeApostrophe(LastName)\nLIKE '%'+dbo.NormalizeApostrophe('O'Brien')+'%'

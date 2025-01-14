@@ -1,0 +1,1 @@
+-- Using IFNULL\nSELECT IFNULL(column_name, 'value_if_null') FROM table_name;\n\n-- Using COALESCE\nSELECT COALESCE(column_name, 'value_if_null') FROM table_name;

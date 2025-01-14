@@ -1,0 +1,1 @@
+<?php\n// This is a full opening tag which is always recognized by PHP.\necho "Hello, world!";\n?>

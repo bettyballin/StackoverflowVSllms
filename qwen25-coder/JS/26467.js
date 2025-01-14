@@ -1,0 +1,1 @@
+function isFunction(fn) {\n    return Object.prototype.toString.call(fn) === "[object Function]";\n}

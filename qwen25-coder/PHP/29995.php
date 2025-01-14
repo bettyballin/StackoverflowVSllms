@@ -1,0 +1,1 @@
+$value = $_GET['value'];\n$anothervalue = $_GET['anothervalue'];\n\n// Check for additional parameters if needed\nif (isset($_GET['otherParam'])) {\n    $otherParam = $_GET['otherParam'];\n}

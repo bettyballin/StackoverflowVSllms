@@ -1,0 +1,1 @@
+ALTER TABLE videotags ADD INDEX idx_tag_id (tag_id);\n   ALTER TABLE tags ADD INDEX idx_tags_id (id);

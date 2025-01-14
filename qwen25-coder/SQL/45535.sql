@@ -1,0 +1,1 @@
+CREATE INDEX idx_prefix_file_path ON filesystem_data.$tablename (file_path(255));

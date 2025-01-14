@@ -1,0 +1,1 @@
+CREATE INDEX idx_foo_a ON foo(a);\n    CREATE INDEX idx_bar_a ON bar(a);

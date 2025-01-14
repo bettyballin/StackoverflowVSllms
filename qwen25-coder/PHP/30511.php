@@ -1,0 +1,1 @@
+<?php\nheader('Content-Type: application/x-javascript');\n// JavaScript code follows here\nvar Totoro = {}, $t = Totoro;

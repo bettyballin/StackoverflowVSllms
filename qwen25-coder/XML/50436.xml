@@ -1,0 +1,1 @@
+<!-- Example XML Send Port Configuration -->\n<SendPortConfig>\n  <TargetTransportType Name="FILE" />\n  <FileName>c:\Program Files\Microsoft BizTalk Server 2006 \EDI\Adapter\Getting Started with EDI\Northwind\In\output.xml</FileName>\n  <Filter>bts.OperationLocation=="http://schemas.microsoft.com/BizTalk/XPath/Query/"</Filter>\n</SendPortConfig>

@@ -1,0 +1,1 @@
+// Example of entity mapping in Doctrine\n  /** @Entity */\n  class User {\n      /** @Id @GeneratedValue @Column(type="integer") */\n      private $id;\n      \n      /** @Column(type="string") */\n      private $email;\n      \n      // getters and setters...\n  }

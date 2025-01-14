@@ -1,0 +1,1 @@
+function copyTextToClipboard(text) {\n    navigator.clipboard.writeText(text).then(function() {\n        console.log('Text copied to clipboard');\n    }, function(err) {\n        console.error('Could not copy text: ', err);\n    });\n}

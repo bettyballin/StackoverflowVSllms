@@ -1,0 +1,1 @@
+<configuration>\n  <startup useLegacyV2RuntimeActivationPolicy="true">\n    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/>\n  </startup>\n</configuration>

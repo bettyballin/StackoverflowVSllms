@@ -1,0 +1,1 @@
+<?php\nsession_name('MySessID');\n// Start the session normally\nsession_start();\n// Session can now be used as needed\n?>

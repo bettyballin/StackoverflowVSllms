@@ -1,0 +1,1 @@
+SELECT f.id, f.feed_type, s.user_id\nFROM subscriptions s\nJOIN feeds f ON s.feed_id = f.id;

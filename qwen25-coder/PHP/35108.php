@@ -1,0 +1,1 @@
+echo constant($class . "::" . 'bar'); // prints hi

@@ -1,0 +1,1 @@
+$("label").attr("for", "targetName").addClass("something");

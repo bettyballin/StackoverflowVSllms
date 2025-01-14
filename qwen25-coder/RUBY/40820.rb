@@ -1,0 +1,1 @@
+rails generate migration CreateKeyValuePairs key_column:string value_column:string

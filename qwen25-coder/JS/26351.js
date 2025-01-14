@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#hoverButton').on('mouseenter', function() {\n        $('#popup').show();\n    });\n\n    $('#hoverButton, #popup').on('mouseleave', function() {\n        $('#popup').hide();\n    });\n});

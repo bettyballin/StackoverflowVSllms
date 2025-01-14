@@ -1,0 +1,1 @@
+<System.Web.Services.WebMethod()> _\n<System.Web.Script.Services.ScriptService()> _\nPublic Shared Function GetMailPieceGroupsByAdFundTypeId(adFundTypeId As Integer) As String()\n    ' Your method implementation here\nEnd Functio

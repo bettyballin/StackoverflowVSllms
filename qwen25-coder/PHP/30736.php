@@ -1,0 +1,1 @@
+// In PHP 4\n   function test(&$foo) {\n       $foo++;\n   }\n\n   // This remains the same in PHP 5

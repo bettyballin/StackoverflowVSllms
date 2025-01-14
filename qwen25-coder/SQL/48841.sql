@@ -1,0 +1,1 @@
+BEGIN\n   FOR sess IN (SELECT sid, serial#\n                FROM v$session\n                WHERE username NOT IN ('SYS', 'SYSTEM') -- Exclude system users\n                  AND status = 'ACTIVE') LOOP\n      EXECUTE IMMEDIATE 'ALTER SYSTEM KILL SESSION ''' || sess.sid || ',' || sess.serial# || ''' IMMEDIATE';\n   END LOOP;\nEND;\n/

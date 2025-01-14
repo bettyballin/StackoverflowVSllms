@@ -1,0 +1,1 @@
+UPDATE SomeTable\nSET \n    Created = DATEADD(day, CAST(CHECKSUM(NEWID()) % 365 AS int), GETDATE()),\n    LastUpdated = DATEADD(day, CAST(CHECKSUM(NEWID()) % 365 AS int), GETDATE())

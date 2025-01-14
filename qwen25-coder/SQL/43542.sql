@@ -1,0 +1,1 @@
+SELECT tabx.col1 AS 'tabx_col1', tabx.col2 AS 'tabx_col2', taby.coln AS 'taby_coln'\nFROM tabx, taby\nWHERE ...;

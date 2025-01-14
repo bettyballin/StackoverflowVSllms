@@ -1,0 +1,1 @@
+DECLARE @InsertedIDs TABLE (NewID INT);\n\nINSERT INTO tbl_xyz (field1)\nOUTPUT INSERTED.ID INTO @InsertedIDs\nSELECT field1 \nFROM tbl_abc;\n\n-- Now you can select from the table variable to get the new IDs\nSELECT * FROM @InsertedIDs;

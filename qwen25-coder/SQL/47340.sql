@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.CalculateBonus\n(\n    @Salary DECIMAL(10,2)\n)\nRETURNS DECIMAL(10,2)\nAS\nBEGIN\n    DECLARE @Bonus DECIMAL(10,2);\n    SET @Bonus = @Salary * 0.10;\n    RETURN @Bonus;\nEND;

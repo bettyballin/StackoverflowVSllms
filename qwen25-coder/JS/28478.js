@@ -1,0 +1,1 @@
+function normalizeLineBreaks(input) {\n    return input.replace(/\r\n/g, '\n').replace(/\r/g, '\n');\n}\n\n// Example usage:\nconst textAreaValue = document.getElementById('yourTextAreaId').value;\nconst normalizedText = normalizeLineBreaks(textAreaValue);\ndocument.getElementById('hiddenFieldForPosting').value = normalizedText;

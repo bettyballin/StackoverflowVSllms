@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    // Check if all divs with class 'test' are hidden\n    if ($('.test').filter(':visible').length === 0) {\n        $('#wrap1').hide(); // Hide wrap1 if all test elements are hidden\n    }\n});

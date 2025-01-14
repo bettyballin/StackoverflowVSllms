@@ -1,0 +1,1 @@
+// Using an arrow function to create a new object based on a prototype in ES6+\nconst createObject = (prototype) => {\n    return Object.create(prototype);\n};\n\nconst parentObject = { greet: () => 'Hello!' };\nconst childObject = createObject(parentObject);\n\nconsole.log(childObject.greet()); // Outputs: Hello!

@@ -1,0 +1,1 @@
+WITH max_value_cte AS (\n    SELECT MAX(value) AS max_value\n    FROM my_table\n    WHERE other_value = 1\n)\nSELECT id,\n       CASE \n           WHEN max_value IS NOT NULL THEN max_value\n           ELSE 0\n       END AS final_max_value\nFROM other_table, max_value_cte;

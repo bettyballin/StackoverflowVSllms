@@ -1,0 +1,1 @@
+-- Using TOP\nSELECT TOP 10 * FROM YourTable ORDER BY SomeColumn;\n\n-- Using SET ROWCOUNT\nSET ROWCOUNT 10;\nSELECT * FROM YourTable ORDER BY SomeColumn; -- This will limit to 10 rows, but ORDER BY with SET ROWCOUNT is not typical and might not work as expected in all scenarios.\nSET ROWCOUNT 0; -- Resets the row count setting

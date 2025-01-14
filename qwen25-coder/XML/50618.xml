@@ -1,0 +1,1 @@
+<httpHandlers>\n  <!-- Ensure no custom compressing httpHandler is configured here -->\n</httpHandlers>

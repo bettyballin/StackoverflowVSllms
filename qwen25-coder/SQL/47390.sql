@@ -1,0 +1,1 @@
+UPDATE sometable \nSET \n    price1 = CASE WHEN @param1 IS NOT NULL THEN @param1 ELSE price1 END,\n    price2 = CASE WHEN @param2 IS NOT NULL THEN @param2 ELSE price2 END,\n    price3 = CASE WHEN @param3 IS NOT NULL THEN @param3 ELSE price3 END,\n    price4 = CASE WHEN @param4 IS NOT NULL THEN @param4 ELSE price4 END\nWHERE\n    ID = @param5;

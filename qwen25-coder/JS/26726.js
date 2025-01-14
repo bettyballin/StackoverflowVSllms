@@ -1,0 +1,1 @@
+// Example of storing data in localStorage\n   localStorage.setItem('userPreferences', JSON.stringify({ theme: 'dark', notifications: true }));

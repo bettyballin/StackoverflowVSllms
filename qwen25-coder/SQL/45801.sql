@@ -1,0 +1,1 @@
+SELECT p.ParentId, p.Name AS ParentName\nFROM Parent p\nJOIN ParentChildXref x ON p.ParentId = x.ParentId\nWHERE x.ChildId IN (/* Your list of ChildIds */)\nGROUP BY p.ParentId, p.Name\nHAVING COUNT(DISTINCT x.ChildId) = (SELECT COUNT(*) FROM (SELECT DISTINCT ChildId FROM ParentChildXref WHERE ChildId IN (/* Your list of ChildIds */) ) AS distinctChildren);

@@ -1,0 +1,1 @@
+USE master;\nGO\nDROP DATABASE YourDatabaseName;\nGO

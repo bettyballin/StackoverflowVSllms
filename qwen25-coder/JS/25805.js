@@ -1,0 +1,1 @@
+function sendAjaxRequest() {\n       var xhr = new XMLHttpRequest();\n       xhr.onreadystatechange = function () {\n           if (xhr.readyState == 4 && xhr.status == 200) {\n               document.getElementById("response").innerHTML = xhr.responseText;\n           }\n       };\n       xhr.open("GET", "/myapp/myresource.faces", true);\n       xhr.send(null);\n   }

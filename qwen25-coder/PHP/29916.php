@@ -1,0 +1,1 @@
+// Example of using Redis to cache data\n   $redis = new Redis();\n   $redis->connect('127.0.0.1', 6379);\n   $data = fetchDataFromDatabase();\n   $redis->set('table_structure', serialize($data));

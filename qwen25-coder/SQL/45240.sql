@@ -1,0 +1,1 @@
+CREATE TABLE types (\n    type_id INT PRIMARY KEY,\n    name VARCHAR(255)\n);\n\nCREATE TABLE components (\n    component_id INT PRIMARY KEY,\n    type_id INT,\n    description VARCHAR(255),\n    FOREIGN KEY (type_id) REFERENCES types(type_id) ON DELETE CASCADE\n);

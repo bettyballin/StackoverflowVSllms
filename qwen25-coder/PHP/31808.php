@@ -1,0 +1,1 @@
+if(($country == 224 || $country == 223) && $zip == '') {\n    $_SESSION['sess_msg'] = "Please enter a Valid zipcode";\n    header("location: $SITE_PATH?p=account.profile.name");\n    exit;\n}

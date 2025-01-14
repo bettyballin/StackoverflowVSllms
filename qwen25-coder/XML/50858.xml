@@ -1,0 +1,1 @@
+<configuration>\n    <system.webServer>\n        <handlers>\n            <add name="MvcHttpHandler" preCondition="" verb="*" path="*.mvc" type="System.Web.Mvc.MvcHttpHandler, System.Web.Mvc"/>\n        </handlers>\n    </system.webServer>\n</configuration>

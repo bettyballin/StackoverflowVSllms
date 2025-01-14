@@ -1,0 +1,1 @@
+Public Class ServerAccessViewModel\n    Public Property AvailableServerList As SelectList\n    Public Sub New()\n        SelectedServerList = New List(Of SelectListItem)() ' Initialize as empty list\n    End Sub\n\n    Public Property SelectedServerList As IEnumerable(Of SelectListItem)\nEnd Class

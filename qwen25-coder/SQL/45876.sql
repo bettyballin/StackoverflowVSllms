@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX IX_ClientDefinitionEntry_ProcessPath ON dbo.ClientDefinitionEntry (processPath);

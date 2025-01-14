@@ -1,0 +1,1 @@
+$numbers = [1, 2, 3];\n   $doubledNumbers = array_map(function($num) {\n       return $num * 2;\n   }, $numbers);

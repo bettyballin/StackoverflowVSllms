@@ -1,0 +1,1 @@
+DATE\nDATETIME [(fsp)]\nTIMESTAMP [(fsp)]\nTIME [(fsp)]\nYEAR [4]

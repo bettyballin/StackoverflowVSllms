@@ -1,0 +1,1 @@
+DELETE FROM FactTable\nWHERE DateColumn < DATEADD(MONTH, -2, GETDATE());

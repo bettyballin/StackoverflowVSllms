@@ -1,0 +1,1 @@
+<?php\n$name = $_POST['name'];\n$email = $_POST['email'];\n$comments = $_POST['comment'];\n\n// Assume you insert the data into the database here\n\n$response = [\n    'message' => 'comment updated',\n    'comment' => htmlspecialchars($comments) // Use htmlspecialchars to prevent XSS\n];\n\necho json_encode($response);\n?>

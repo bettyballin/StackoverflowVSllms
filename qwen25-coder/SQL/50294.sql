@@ -1,0 +1,1 @@
+WITH RankedAddresses AS (\n    SELECT \n        ROW_NUMBER() OVER (PARTITION BY SpouseID ORDER BY FromDate DESC) AS rn,\n        *\n    FROM \n        SpousePreviousAddresses\n    WHERE \n        CountryID = 181\n)\nUPDATE RankedAddresses\nSET AddressTypeID = 1\nWHERE rn = 1;

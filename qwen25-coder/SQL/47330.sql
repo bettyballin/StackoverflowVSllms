@@ -1,0 +1,1 @@
+SELECT A, B, C, 1 AS priority FROM table WHERE field LIKE 'query%'\nUNION ALL\nSELECT A, B, C, 2 AS priority FROM table WHERE field LIKE '%query'\nUNION ALL\nSELECT A, B, C, 3 AS priority FROM table WHERE field LIKE '%query%'\nORDER BY priority, B ASC\nLIMIT 5;

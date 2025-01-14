@@ -1,0 +1,1 @@
+<?php\nheader('Content-Type: text/event-stream');\nheader('Cache-Control: no-cache');\n\nwhile (true) {\n    echo "data: hello\n\n";\n    flush();\n    sleep(5);\n}\n?>

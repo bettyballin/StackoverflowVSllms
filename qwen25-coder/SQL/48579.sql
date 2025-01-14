@@ -1,0 +1,1 @@
+CREATE VIEW today_records AS\nSELECT *\nFROM `table`\nWHERE DATE(`Date`) = CURDATE();

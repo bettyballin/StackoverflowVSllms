@@ -1,0 +1,1 @@
+SELECT TO_CHAR(TO_DATE('01/09', 'MM/DD') + INTERVAL '2000 years', 'Month YYYY');

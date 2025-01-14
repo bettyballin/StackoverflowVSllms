@@ -1,0 +1,1 @@
+DROP TEMPORARY TABLE temp_data;\n-- Optionally add indices after loading data if necessary\nALTER TABLE GENOTYPE ADD INDEX (fk_ind);\nALTER TABLE GENOTYPE ADD INDEX (fk_rsid);

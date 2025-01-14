@@ -1,0 +1,1 @@
+-- Example: Check data types for parameters in a stored procedure\nSELECT \n    p.name AS ParameterName,\n    t.name AS TypeName,\n    p.system_type_id\nFROM \n    sys.procedures sp\nINNER JOIN \n    sys.parameters p ON sp.object_id = p.object_id\nINNER JOIN \n    sys.types t ON p.user_type_id = t.user_type_id\nWHERE \n    sp.name = 'YourStoredProcedureName';

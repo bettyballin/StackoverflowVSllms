@@ -1,0 +1,1 @@
+<system.webServer>\n    <modules runAllManagedModulesForAllRequests="true" />\n    <rewrite>\n        <rules>\n            <rule name="Remove .svc extension">\n                <match url="^Service/(.*)$" />\n                <action type="Rewrite" url="Service.svc/{R:1}" />\n            </rule>\n        </rules>\n    </rewrite>\n</system.webServer>

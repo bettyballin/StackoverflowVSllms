@@ -1,0 +1,1 @@
+class Book extends AppModel {\n    public function isAvailable($bookId) {\n        $loanedBooks = $this->find('all', [\n            'conditions' => ['Book.id' => $bookId, 'Loan.return_date IS NULL'],\n            'recursive' => 0\n        ]);\n        return empty($loanedBooks);\n    }\n}

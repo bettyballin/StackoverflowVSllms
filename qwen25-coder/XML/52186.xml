@@ -1,0 +1,1 @@
+<parameters>\n  <setParameter name="IIS Web Application Name" value="Default Web Site/MyApp" />\n  <setParameter name="DatabaseServerConnectionString-Web.config Connection String" value="Data Source=myserver;Initial Catalog=MyDB;Integrated Security=True;" />\n</parameters>

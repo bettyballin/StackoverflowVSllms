@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#generated_rows td.row_class').each(function() {\n        var x = Number($(this).text()).toFixed(2);\n        $(this).text(x);\n    });\n});

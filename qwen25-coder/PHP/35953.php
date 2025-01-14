@@ -1,0 +1,1 @@
+$name = 'StaticClass';\ncall_user_func([$name, 'foo']);

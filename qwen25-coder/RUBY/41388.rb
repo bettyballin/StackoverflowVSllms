@@ -1,0 +1,1 @@
+ActionCable.server.broadcast("events_channel", event_data)

@@ -1,0 +1,1 @@
+SELECT T.column_name\nFROM (\n    SELECT foo AS column_name\n    FROM R\n    UNION\n    SELECT bar AS column_name\n    FROM S\n) AS T;

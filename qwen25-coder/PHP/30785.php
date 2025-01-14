@@ -1,0 +1,1 @@
+$this->load->helper('my_custom_helper'); // Ensure to load the helper before using it\n\n// Use your helper function\n$result = my_login_helper_function('username', 'password');

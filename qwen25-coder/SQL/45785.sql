@@ -1,0 +1,1 @@
+SELECT * FROM dba_sys_privs WHERE grantee = 'PUBLIC';

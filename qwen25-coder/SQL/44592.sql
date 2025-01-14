@@ -1,0 +1,1 @@
+CREATE INDEX IX_tblinvoices_CustomerID_InvoiceTotal_AmountPaid \n   ON tblInvoices (CustomerID) INCLUDE (InvoiceTotal, AmountPaid);

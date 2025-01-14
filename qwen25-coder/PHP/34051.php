@@ -1,0 +1,1 @@
+// Start session with the PHPSESSID from request if exists\nif (isset($_REQUEST['PHPSESSID'])) {\n    session_id($_REQUEST['PHPSESSID']);\n}\nsession_start();\n\n// Now you can use $_SESSION["uploaded_ids"] as intended\n$_SESSION["uploaded_ids"][] = $inserted_id;

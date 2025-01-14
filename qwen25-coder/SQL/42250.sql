@@ -1,0 +1,1 @@
+INSERT INTO product_variations (product_id, variation_id) VALUES\n(1, 1), -- Cup has Green Color\n(1, 2), -- Cup has Glass Texture\n(1, 3); -- Cup has Blue Color

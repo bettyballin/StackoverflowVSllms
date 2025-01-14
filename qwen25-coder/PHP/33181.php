@@ -1,0 +1,1 @@
+try {\n    $pdo = new PDO("mysql:host=localhost;dbname=db", "username", "password");\n    $stmt = $pdo->prepare('SELECT * FROM users WHERE login=:login AND pass=:pass');\n    $stmt->execute([':login' => $login, ':pass' => $password]);\n} catch (PDOException $e) {\n    echo 'Connection failed: ' . $e->getMessage();\n}

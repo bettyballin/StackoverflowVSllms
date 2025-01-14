@@ -1,0 +1,1 @@
+# Example integer\nnumber = 12345\n\n# Convert integer to a binary string (using network byte order)\nbinary_string = [number].pack('N')\n\nputs binary_string.inspect  # Output will be in binary format, not human-readable ASCII.\n\n# To see the hexadecimal representation for understanding:\nputs binary_string.unpack('H*')  # This will print something like ["3039"]

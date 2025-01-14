@@ -1,0 +1,1 @@
+SELECT \n  Title,\n  SUM(CASE WHEN CategoryID = 1 THEN 1 ELSE 0 END) AS 'Category 1 Total',\n  SUM(CASE WHEN CategoryID = 2 THEN 1 ELSE 0 END) AS 'Category 2 Total',\n  SUM(CASE WHEN CategoryID IS NULL THEN 1 ELSE 0 END) AS 'Unknown Category Total'\nFROM \n  entries\nWHERE \n  Date >= @StartDate AND Date <= @EndDate\nGROUP BY \n  Title;

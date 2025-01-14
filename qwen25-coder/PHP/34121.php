@@ -1,0 +1,1 @@
+#!/usr/local/bin/php -q -d display_errors=Off\n   <?php\n   \n   // This shouldn't display any errors\n   $test = $foo;\n   \n   ?>

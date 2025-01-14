@@ -1,0 +1,1 @@
+<bean id="user" class="com.example.User" scope="session">\n    <aop:scoped-proxy proxy-target-class="true"/>\n</bean>

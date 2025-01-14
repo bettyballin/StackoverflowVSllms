@@ -1,0 +1,1 @@
+SELECT c.*, SUM(ABS(v.vote)) AS score\nFROM categories c\nJOIN items i ON c.id = i.category_id\nJOIN votes v ON i.id = v.voteable_id\nWHERE v.created_at > NOW() - INTERVAL '1 week'\nGROUP BY c -- or expand to GROUP BY c.id, c.name, c.[other fields] if using an earlier version of PostgreSQL\nORDER BY score DESC\nLIMIT 8;

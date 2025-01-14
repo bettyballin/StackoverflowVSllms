@@ -1,0 +1,1 @@
+# Add only needed Rails components\n     gem 'actionpack'\n     gem 'activesupport'

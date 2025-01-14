@@ -1,0 +1,1 @@
+SELECT DISTINCT LEFT(name, 1) AS first_character FROM mydatabase;

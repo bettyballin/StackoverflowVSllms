@@ -1,0 +1,1 @@
+SELECT \n    A.BankName AS Bank,\n    A.AcctNumber AS AcctNum,\n    A.Balance,\n    IIF(GROUP_CONCAT(G.GroupName) IS NULL, '-', GROUP_CONCAT(G.GroupName)) AS Groups\nFROM \n    Accounts A\nLEFT JOIN \n    JoinAccountsGroups JAG ON A.ID = JAG.AID\nLEFT JOIN \n    AccountGroups G ON JAG.GID = G.ID\nGROUP BY \n    A.BankName, A.AcctNumber, A.Balance;

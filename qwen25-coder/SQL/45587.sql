@@ -1,0 +1,1 @@
+-- Using JOIN\nSELECT * FROM table JOIN otherTable ON table.ID = otherTable.FK;\n\n-- Using INNER JOIN\nSELECT * FROM table INNER JOIN otherTable ON table.ID = otherTable.FK;

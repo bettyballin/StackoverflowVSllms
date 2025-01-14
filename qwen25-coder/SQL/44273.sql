@@ -1,0 +1,1 @@
+DELETE FROM your_table\n     WHERE NOT EXISTS (\n       SELECT 1\n       FROM (\n         SELECT MIN(id) keep(dense_rank first order by id) as min_id\n         FROM your_table\n         GROUP BY column_name\n       )\n       WHERE id = your_table.id\n     );

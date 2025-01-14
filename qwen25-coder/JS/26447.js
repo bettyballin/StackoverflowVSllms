@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#answers div').click(function() {\n        // Find the radio button inside the clicked div and check it\n        $(this).find('input[type="radio"]').prop('checked', true);\n    });\n});

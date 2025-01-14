@@ -1,0 +1,1 @@
+SELECT TRY_CONVERT(DATETIME, 'Feb-09', 106) AS ConvertedDate;

@@ -1,0 +1,1 @@
+# Example of how it would look in requests\nimport requests\n\nproxies = {\n    "http": "http://%(host)s:%(port)s" % proxy_info,\n    "https": "http://%(host)s:%(port)s" % proxy_info  # Note: use http, not https\n}\n\nresponse = requests.get(fullurl, proxies=proxies)

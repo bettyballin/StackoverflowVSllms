@@ -1,0 +1,1 @@
+sIFR.replace(MyFont, {\n    selector: 'p.right-align',\n    css: [\n        '.sIFR-root { font-size: 14px; color: #000000; text-align: right; }'\n    ]\n});

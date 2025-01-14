@@ -1,0 +1,1 @@
+<ItemGroup>\n    <!-- Sources are automatically added here -->\n    <Compile Include="**\*.cs">\n      <SubType>Compiled</SubType>\n    </Compile>\n  </ItemGroup>

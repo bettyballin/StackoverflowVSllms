@@ -1,0 +1,1 @@
+CREATE TABLE LibraryBooks (\n       BookID INT PRIMARY KEY,\n       Title NVARCHAR(100),\n       Author NVARCHAR(100),\n       PublishedYear INT,\n       genre NVARCHAR(50)\n   );

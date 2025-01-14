@@ -1,0 +1,1 @@
+$sigma = "σ";\necho $sigma;

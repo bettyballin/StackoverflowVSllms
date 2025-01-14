@@ -1,0 +1,1 @@
+// view/scripts/index.phtml\n<?php echo $this->form; ?>

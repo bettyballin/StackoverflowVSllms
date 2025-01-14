@@ -1,0 +1,1 @@
+function callFlash() {\n    // Call the Flash function that saves data\n    flashObject.saveData(function() {\n        window.location.href = "page2.php";\n    });\n}

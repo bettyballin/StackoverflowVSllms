@@ -1,0 +1,1 @@
+$mock = $this->getMock('\\MyNamespace\\NonPersistentStorage');

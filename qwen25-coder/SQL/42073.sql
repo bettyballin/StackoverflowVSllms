@@ -1,0 +1,1 @@
+CREATE VIEW SalesSummary AS\n  SELECT product_id, SUM(sales_amount) as TotalSales\n  FROM Sales\n  GROUP BY product_id;

@@ -1,0 +1,1 @@
+function generateRandomString($length = 7) {\n    return substr(bin2hex(openssl_random_pseudo_bytes(ceil($length / 2))), 0, $length);\n}\n\necho generateRandomString(); // Example output: 'd79jd8c'

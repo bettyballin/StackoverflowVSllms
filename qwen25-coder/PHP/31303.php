@@ -1,0 +1,1 @@
+include_once\("/home/bgarch/public_html/[^"]+/loadscripts\.html"\);

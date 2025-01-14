@@ -1,0 +1,1 @@
+BULK INSERT YourTableName\nFROM 'C:\path\to\your\datafile.csv'\nWITH (FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');\n\nDECLARE @RowsInserted INT;\nSET @RowsInserted = @@ROWCOUNT;\n\nSELECT @RowsInserted AS NumberOfRowsInserted;

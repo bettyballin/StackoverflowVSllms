@@ -1,0 +1,1 @@
+$array = [0=>4, 1=>3, 2=>2];\n$serialized = serialize($array);\necho $serialized; // Outputs: a:3:{i:0;i:4;i:1;i:3;i:2;i:2;}\n\n$unserialized = unserialize($serialized);\nprint_r($unserialized); // Outputs: Array ( [0] => 4 [1] => 3 [2] => 2 )

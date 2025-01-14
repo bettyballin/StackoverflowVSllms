@@ -1,0 +1,1 @@
+// Maven dependency for Spring Security OAuth2 Client\n   <dependency>\n       <groupId>org.springframework.security</groupId>\n       <artifactId>spring-security-oauth2-client</artifactId>\n   </dependency>

@@ -1,0 +1,1 @@
+<Window x:Class="GraphPaperApp.MainWindow"\n        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"\n        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"\n        Title="Graph Paper Example" Height="450" Width="800">\n    <Grid>\n        <Rectangle Fill="{StaticResource GraphPaperBrush}" />\n    </Grid>\n</Window>

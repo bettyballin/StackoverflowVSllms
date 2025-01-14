@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS c \nFROM BANS \nWHERE typeid=6 AND \n  INET6_TO_NMBR(ipaddr) & ((1 << (128 - cidr)) - 1) = \n  INET6_TO_NMBR('::1') & ((1 << (128 - cidr)) - 1);

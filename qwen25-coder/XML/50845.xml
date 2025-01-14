@@ -1,0 +1,1 @@
+<settings>\n       <serverPort>80</serverPort>\n       <logLevel>INFO</logLevel>\n       <features>\n           <feature enabled="true">SSL</feature>\n           <feature enabled="false">Caching</feature>\n       </features>\n   </settings>

@@ -1,0 +1,1 @@
+class Test {\n    private $systime;\n    \n    public function get_systime() {\n        $this->systime = time();\n        echo $this->systime;\n    }\n}

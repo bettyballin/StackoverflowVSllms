@@ -1,0 +1,1 @@
+SELECT STRING_AGG(col1::text, '-') AS concatenated_result\nFROM table1\nWHERE cond1 = true;

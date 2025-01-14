@@ -1,0 +1,1 @@
+CREATE TABLE items (\n       itemid VARCHAR(32) NOT NULL PRIMARY KEY,\n       attributes JSONB NOT NULL\n   );

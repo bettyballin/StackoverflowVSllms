@@ -1,0 +1,1 @@
+USE db2;  -- Make sure you're in the correct target database\n\nUPDATE t2\nSET t2.value = t1.value\nFROM db1.dbo.TableName AS t1\nJOIN db2.dbo.TableName AS t2\nON t1.uniqueConst = t2.uniqueConst;

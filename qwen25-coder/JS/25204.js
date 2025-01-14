@@ -1,0 +1,1 @@
+function a() {\n    console.log('Function a is called.');\n}

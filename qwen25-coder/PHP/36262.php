@@ -1,0 +1,1 @@
+$query = "SELECT * FROM your_table"; // Fetch a subset or all records if necessary\n$result = mysqli_query($connection, $query);\n$records = [];\nwhile ($row = mysqli_fetch_assoc($result)) {\n    $records[] = $row;\n}\n\nshuffle($records); // Randomize the array of results\n\n// Use the shuffled records as needed

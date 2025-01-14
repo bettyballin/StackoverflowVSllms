@@ -1,0 +1,1 @@
+$query = "SELECT * FROM info ORDER BY id DESC LIMIT 10";\n$result = mysql_query($query);\n\nif ($result) {\n    while ($row = mysql_fetch_array($result)) {\n        print_r($row);\n    }\n} else {\n    echo "Error: " . mysql_error();\n}

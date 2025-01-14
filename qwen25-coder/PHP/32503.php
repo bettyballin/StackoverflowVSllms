@@ -1,0 +1,1 @@
+$frontController = Zend_Controller_Front::getInstance();\n$frontController->setBaseUrl('/subfolder');

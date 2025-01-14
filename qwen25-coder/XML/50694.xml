@@ -1,0 +1,1 @@
+<filter>\n    <filter-name>StaticFileHeaderFilter</filter-name>\n    <filter-class>com.example.StaticFileHeaderFilter</filter-class>\n</filter>\n\n<filter-mapping>\n    <filter-name>StaticFileHeaderFilter</filter-name>\n    <url-pattern>/path/to/static/files/*</url-pattern>\n</filter-mapping>

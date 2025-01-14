@@ -1,0 +1,1 @@
+Route::set('posts_index', 'posts')\n    ->defaults(array(\n        'controller' => 'Posts',\n        'action'     => 'index',\n    ))\n    ->method(Request::GET);\n\nRoute::set('posts_create', 'posts')\n    ->defaults(array(\n        'controller' => 'Posts',\n        'action'     => 'create',\n    ))\n    ->method(Request::POST);

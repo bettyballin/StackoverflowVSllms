@@ -1,0 +1,1 @@
+SELECT column_name, data_type, nullable \nFROM USER_TAB_COLUMNS \nWHERE table_name = 'YOUR_TABLE_NAME';

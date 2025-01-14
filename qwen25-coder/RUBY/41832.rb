@@ -1,0 +1,1 @@
+ActionMailer::Base.smtp_settings = {\n  address:              'smtp.gmail.com',\n  port:                 587,\n  domain:               'yourdomain.com', # Replace with your actual domain or full email address\n  user_name:            'YOUR_GMAIL_USERNAME@gmail.com',\n  password:             'YOUR_GMAIL_PASSWORD',\n  authentication:       'plain',\n  enable_starttls_auto: true\n}

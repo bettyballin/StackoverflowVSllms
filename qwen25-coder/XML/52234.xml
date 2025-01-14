@@ -1,0 +1,1 @@
+<MODE NAME="php" FILE_NAME_GLOB="*.{php,inc,phtml}" FILE_NAME_REGEX="" FIRST_LINE_GLOB="">\n    <PROPS>\n        <PROPERTY NAME="lineCommentStart" VALUE="//"/>\n        <PROPERTY NAME="blockCommentStart" VALUE="/*"/>\n        <PROPERTY NAME="blockCommentEnd" VALUE="*/"/>\n        <PROPERTY NAME="wordStart" VALUE="\$-@a-zA-Z0-9_]"/> <!-- Modified line -->\n    </PROPS>\n</MODE>

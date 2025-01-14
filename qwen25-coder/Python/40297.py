@@ -1,0 +1,1 @@
+from datetime import datetime\n\n# Example Python datetime object\npy_datetime = datetime.now()\n\n# Convert to .NET DateTime\nnet_datetime = System.DateTime(py_datetime.year, py_datetime.month, py_datetime.day,\n                               py_datetime.hour, py_datetime.minute, py_datetime.second)

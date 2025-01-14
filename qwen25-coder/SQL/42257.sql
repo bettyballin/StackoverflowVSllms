@@ -1,0 +1,1 @@
+CREATE INDEX idx_topic_poster_status_id ON gallery_topics (topic_poster, topic_status, topic_id);

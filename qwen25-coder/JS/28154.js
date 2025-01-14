@@ -1,0 +1,1 @@
+<script type="text/javascript">\nfunction resizeImage(imgElement) {\n    imgElement.style.width = '100px';  // New width\n    imgElement.style.height = '100px'; // New height\n}\n\nfunction resetSize(imgElement) {\n    imgElement.style.width = '50px';   // Original width\n    imgElement.style.height = '50px';  // Original height\n}\n</script>

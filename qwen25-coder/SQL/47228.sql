@@ -1,0 +1,1 @@
+USE master;\n   EXEC sp_getrepldboption 'publications', N'security_Mode', @security=N'';

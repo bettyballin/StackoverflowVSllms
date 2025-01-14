@@ -1,0 +1,1 @@
+// Example: Storing data as an object\n$("#div_id").data("info", {foo: 1, bar: 2});\n\n// Accessing data\nvar foo = $("#div_id").data("info").foo;\n\n// Updating data\nvar info = $("#div_id").data("info");\ninfo.foo = 3;\n$("#div_id").data("info", info);

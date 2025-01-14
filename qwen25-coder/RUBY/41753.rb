@@ -1,0 +1,1 @@
+before_destroy :remove_email\n\ndef remove_email\n  self.update_columns(email: '[deleted]')\nend

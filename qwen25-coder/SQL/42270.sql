@@ -1,0 +1,1 @@
+CREATE TABLE Dim_Date (\n    DateKey INT PRIMARY KEY, -- format YYYYMMDD e.g., 20231015\n    FullDate DATE,\n    YearPart INT,\n    MonthPart INT,\n    DayPart INT,\n    WeekNumber INT,\n    QuarterOfYear INT,\n    DayOfWeekName NVARCHAR(10)\n);

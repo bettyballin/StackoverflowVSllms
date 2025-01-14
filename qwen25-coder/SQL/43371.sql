@@ -1,0 +1,1 @@
+SELECT t.* FROM Table1 t\nJOIN Friends f ON t.ID = f.PersonID\nWHERE f.FriendID = 3;

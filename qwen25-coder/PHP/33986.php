@@ -1,0 +1,1 @@
+$frontController = Zend_Controller_Front::getInstance();\n   $router = $frontController->getRouter();\n\n   $route = new Zend_Controller_Router_Route_Hostname(\n       ':username.mywebapp.com',\n       array('controller' => 'user', 'action' => 'profile')\n   );\n\n   $router->addRoute('user_profile', $route);

@@ -1,0 +1,1 @@
+<?php\n   $url = "https://example.com/some-page";\n   $html = file_get_contents($url);\n   // Use DOMDocument or similar library to extract the section you want\n   echo $html; // Output the cleaned up HTML\n   ?>

@@ -1,0 +1,1 @@
+/// <reference path="path/to/jquery-1.3.2-vsdoc.js" />

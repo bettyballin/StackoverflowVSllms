@@ -1,0 +1,1 @@
+SELECT col1, ..., points\nFROM \n    (SELECT tbl1.col1, ..., tbl1.points,\n            RANK() OVER (ORDER BY tbl1.points DESC) as rank_number\n     FROM table1 tbl1\n     JOIN table2 tbl2 ON tbl1.tbl2FK = tbl2.PK\n     WHERE tbl2.col1 = someNumber AND\n           tbl1.dateColumn = TO_DATE('27-10-2008','dd-mm-yyyy'))\nWHERE rank_number <= 3;

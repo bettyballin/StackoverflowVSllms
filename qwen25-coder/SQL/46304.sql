@@ -1,0 +1,1 @@
+UPDATE your_table_name\nSET your_field_name = REPLACE(your_field_name, 'foo', 'bar')\nWHERE your_field_name LIKE '%foo%';

@@ -1,0 +1,1 @@
+CREATE TABLE movie2person (\n    id INT AUTO_INCREMENT PRIMARY KEY,  -- Add an auto-increment primary key\n    movieID INT NOT NULL,\n    personID INT NOT NULL,\n    role VARCHAR(255) NOT NULL,\n    FOREIGN KEY (movieID) REFERENCES movies(movieID),\n    FOREIGN KEY (personID) REFERENCES persons(personID)\n);

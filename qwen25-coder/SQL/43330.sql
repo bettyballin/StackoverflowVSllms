@@ -1,0 +1,1 @@
+SELECT TO_CHAR(your_column, '9999999990.00') AS formatted_value\nFROM your_table;

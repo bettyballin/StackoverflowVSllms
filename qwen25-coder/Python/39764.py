@@ -1,0 +1,1 @@
+evolutions = [u'1 x Affinity for war', u'1 x Intellect', u'2 x Charisma', u'2 x Perception', u'3 x Population growth', u'4 x Affinity for the land', u'5 x Morale']\n\n# Sort by the name of the evolution\nsorted_evolutions = sorted(evolutions, key=lambda item: item.split(' x ')[1])\n\nprint(sorted_evolutions)

@@ -1,0 +1,1 @@
+-- Disable the foreign key check constraint\nALTER TABLE infoblocks DISABLE TRIGGER cs_ibreq;\n\n-- Perform the delete operation\nDELETE FROM infoblocks WHERE template_id = 112;\n\n-- Re-enable the foreign key check constraint\nALTER TABLE infoblocks ENABLE TRIGGER cs_ibreq;

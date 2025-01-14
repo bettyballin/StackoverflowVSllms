@@ -1,0 +1,1 @@
+// Normal anchor handling without interference\ndocument.getElementById('myLink').addEventListener('click', function(event) {\n    // Intentionally left empty or other logic that does not prevent default action\n});

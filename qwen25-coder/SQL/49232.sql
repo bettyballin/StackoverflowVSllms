@@ -1,0 +1,1 @@
+SELECT player_name, base_name, location, AB, CD, EF,\n       (AB + :globalValue * CD) AS calculated_value\nFROM players\nORDER BY calculated_value DESC;

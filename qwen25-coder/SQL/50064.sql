@@ -1,0 +1,1 @@
+-- Creating a login at the server level\nCREATE LOGIN JohnDoe WITH PASSWORD = 'StrongP@ssw0rd!';\n\n-- Using the login to create a user in a database\nUSE MyDatabase;\nGO\n\nCREATE USER JohnDoe FOR LOGIN JohnDoe;\nGO\n\n-- Granting permissions to the user on a specific table\nGRANT SELECT ON dbo.MyTable TO JohnDoe;

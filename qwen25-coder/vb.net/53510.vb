@@ -1,0 +1,1 @@
+Dim safeVillageName As String\nsafeVillageName = EscapeSingleQuotes(txtVillage)\n\nDim result As Variant\nresult = DLookup("island", "villages", "village = '" & safeVillageName & "'")

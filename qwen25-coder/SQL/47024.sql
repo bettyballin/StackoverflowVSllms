@@ -1,0 +1,1 @@
+SELECT name \nFROM aggregations \nWHERE element IN (2, 3, 5)\nGROUP BY name\nHAVING COUNT(DISTINCT element) = 3\nAND NOT EXISTS (\n    SELECT 1 \n    FROM aggregations a2 \n    WHERE a2.name = aggregations.name \n    AND a2.element NOT IN (2, 3, 5)\n);

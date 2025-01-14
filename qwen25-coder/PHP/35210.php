@@ -1,0 +1,1 @@
+var_dump(1 === "1"); // bool(false) - different types (integer vs string)\nvar_dump("0" === false); // bool(false) - different types (string vs boolean)\nvar_dump(null === ""); // bool(false) - different types (null vs string)

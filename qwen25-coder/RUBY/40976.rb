@@ -1,0 +1,1 @@
+<div id="message-list">\n  <%= render partial: 'messages/message', collection: @user.messages %>\n</div>\n\n<!-- Ensure jQuery is included -->\n<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

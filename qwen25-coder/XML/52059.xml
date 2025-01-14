@@ -1,0 +1,1 @@
+<system.web>\n    <sessionState cookieName="FooSessionId" />\n</system.web>

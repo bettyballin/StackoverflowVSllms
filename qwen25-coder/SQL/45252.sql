@@ -1,0 +1,1 @@
+CREATE TABLE Numbers (n INT PRIMARY KEY);\nINSERT INTO Numbers VALUES (1),(2),(3),(4),(5), ...; -- insert enough numbers

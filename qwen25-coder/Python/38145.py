@@ -1,0 +1,1 @@
+import win32com.client\n\n   obj = win32com.client.Dispatch("My.Python.Component")\n   print(obj.TestMethod())

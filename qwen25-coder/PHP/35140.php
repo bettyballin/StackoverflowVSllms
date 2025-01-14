@@ -1,0 +1,1 @@
+if (isset($_GET['id'])) {\n    $id = intval($_GET['id']);\n    try {\n        $sql = "DELETE FROM players WHERE id = :id";\n        $stmt = $pdo->prepare($sql);\n        $stmt->execute([':id' => $id]);\n    } catch (Exception $e) {\n        echo "Error deleting record: " . $e->getMessage();\n    }\n}

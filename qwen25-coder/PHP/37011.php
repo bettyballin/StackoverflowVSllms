@@ -1,0 +1,1 @@
+// models/Model.php (Sample Model logic)\nclass Model {\n    public static function getHomeData() {\n        return "Data for Home Page";\n    }\n}

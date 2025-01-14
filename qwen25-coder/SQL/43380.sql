@@ -1,0 +1,1 @@
+-- Example SQL for adding timestamp columns in Oracle database tables\n   ALTER TABLE customers ADD created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;\n   ALTER TABLE customers ADD updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;

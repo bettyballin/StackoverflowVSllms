@@ -1,0 +1,1 @@
+Public Function GetCache(Of T)(ByVal tag As String) As T\n    Dim curCache As Object = System.Web.HttpContext.Current.Cache(tag)\n    Return If(Not IsNothing(curCache), DirectCast(curCache, T), Nothing)\nEnd Functio

@@ -1,0 +1,1 @@
+<?php\ndefined('BASEPATH') OR exit('No direct script access allowed');\n\nclass Welcome extends CI_Controller {\n\n    public function index()\n    {\n        echo 'Hello World!';\n    }\n}

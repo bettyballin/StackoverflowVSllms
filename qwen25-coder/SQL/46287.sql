@@ -1,0 +1,1 @@
+SELECT * FROM attached_db.my_table;

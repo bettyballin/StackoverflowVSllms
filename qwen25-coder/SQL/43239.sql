@@ -1,0 +1,1 @@
+-- Example function to generate checksum\nCREATE FUNCTION dbo.GetEventChecksum (@PK INT, @DateTime DATETIME, @Value1 NVARCHAR(255), @Value2 NVARCHAR(255), @Value3 NVARCHAR(255))\nRETURNS CHAR(32)\nAS\nBEGIN\n    RETURN (HASHBYTES('MD5', CONVERT(NVARCHAR(MAX), @PK) + CONVERT(NVARCHAR(MAX), @DateTime) + @Value1 + @Value2 + @Value3));\nEND;

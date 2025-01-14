@@ -1,0 +1,1 @@
+For Each x As BusObj In _BusObjList\n  x.BlockIsInserted = True\nNext

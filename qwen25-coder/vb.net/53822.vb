@@ -1,0 +1,1 @@
+Dim a As Boolean = False\nDim b As Boolean\n\n' Using And\nb = a And LogEvaluation() ' LogEvaluation() will be called even if 'a' is False\n\n' Using AndAlso\nb = a AndAlso LogEvaluation() ' LogEvaluation() will NOT be called since 'a' is False

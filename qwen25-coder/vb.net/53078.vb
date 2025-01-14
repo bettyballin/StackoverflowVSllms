@@ -1,0 +1,1 @@
+Imports System.Runtime.CompilerServices\nImports System.Web.Mvc\n\nNamespace HtmlHelpers\n\n    Public Module HelpExtensions\n\n        <Extension()> _\n        Public Function HelpMe(ByVal HtmlHelper As HtmlHelper(Of Object)) As String\n            Return "<a>HELP</a>"\n        End Function\n\n    End Module\n\nEnd Namespace

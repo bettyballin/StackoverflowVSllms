@@ -1,0 +1,1 @@
+<?php\n$requestBody = file_get_contents('php://input');\n$data = json_decode($requestBody, true);\n\n$response = [\n    "message" => "Hello, " . htmlspecialchars($data['name']) . "! You are " . intval($data['age']) . " years old."\n];\n\nheader('Content-Type: application/json');\necho json_encode($response);\n?>

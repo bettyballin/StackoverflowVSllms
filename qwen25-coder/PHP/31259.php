@@ -1,0 +1,1 @@
+$text = "This is a test & string with &nbsp; and & other entities.";\n$result = preg_replace('/&(?!#\d+|[a-zA-Z]{2,5};)/', '&amp;', $text);\necho $result;

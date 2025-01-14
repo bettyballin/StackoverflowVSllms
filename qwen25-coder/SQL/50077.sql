@@ -1,0 +1,1 @@
+SELECT COUNT(*) \nFROM (\n    SELECT col1, col2 \n    FROM table1 \n    JOIN table2 ON table1.id = table2.fk_id \n    WHERE some_condition \n    GROUP BY col1, col2 \n) AS subquery;

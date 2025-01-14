@@ -1,0 +1,1 @@
+Dim s As String = "test this function"

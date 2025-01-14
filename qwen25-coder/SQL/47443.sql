@@ -1,0 +1,1 @@
+CREATE TABLE dbo.Numbers (\n    n INT PRIMARY KEY CLUSTERED\n);\n\n-- Assuming we want numbers from 1 to 1000\nINSERT INTO dbo.Numbers (n)\nSELECT TOP (1000) ROW_NUMBER() OVER(ORDER BY s1.[object_id])\nFROM sys.objects AS s1\nCROSS JOIN sys.objects AS s2;

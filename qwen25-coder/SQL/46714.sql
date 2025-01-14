@@ -1,0 +1,1 @@
+DECLARE @Date DATETIME;\nSET @Date = '2023-10-15'; -- Example date\n\nSELECT DATEADD(DAY, -1, DATEADD(MONTH, DATEDIFF(MONTH, 0, @Date) + 1, 0)) AS LastDayOfMonth;

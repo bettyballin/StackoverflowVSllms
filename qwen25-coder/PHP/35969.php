@@ -1,0 +1,1 @@
+$sql = "INSERT INTO table VALUES ('', ...)"; // Make sure your query is correct and safe\n$result = mysql_query($sql, $link) or die(mysql_error($link));\n$id = mysql_insert_id($link); // Use the connection resource here\nif ($id == 0) {\n    die('Failed to get insert id');\n}\necho $id . "\nDone";

@@ -1,0 +1,1 @@
+// Example of an infinite loop in PHP, do not use in production!\nwhile (true) {\n    echo "This will run forever until manually stopped!";\n}

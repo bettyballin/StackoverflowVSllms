@@ -1,0 +1,1 @@
+<tag>\n    <name>customFormat</name>\n    <tag-class>com.example.CustomFormatTag</tag-class>\n    <body-content>empty</body-content>\n    <attribute>\n        <name>value</name>\n        <required>true</required>\n    </attribute>\n    <attribute>\n        <name>format</name>\n        <required>true</required>\n    </attribute>\n</tag>

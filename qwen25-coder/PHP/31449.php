@@ -1,0 +1,1 @@
+$doc = new DOMDocument();\n// Set standalone to true\n$doc->xmlStandalone = true;\n...\n$xml_content = $doc->saveXML();

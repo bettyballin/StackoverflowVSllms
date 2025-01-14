@@ -1,0 +1,1 @@
+# db/seeds.rb\n\nunless Region.exists?(uri: "whistler")\n  Region.create!(uri: "whistler", name: "Whistler") # Ensure all necessary fields are set\nend

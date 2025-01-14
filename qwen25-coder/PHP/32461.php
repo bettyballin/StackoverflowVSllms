@@ -1,0 +1,1 @@
+if (preg_match('/^[\p{L}0-9\n\'\?\!\.,]+$/u', $input)) {\n    // OK\n}

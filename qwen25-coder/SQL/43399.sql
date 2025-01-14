@@ -1,0 +1,1 @@
+INSERT INTO YourTable (YourDateColumn)\nVALUES (CONVERT(datetime, CONVERT(varchar(10), GETDATE(), 120)))

@@ -1,0 +1,1 @@
+SELECT DISTINCT A, ConcatenateValues(A) AS Result\nFROM TBL;

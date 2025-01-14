@@ -1,0 +1,1 @@
+ALTER TABLE myTable \n    ALTER COLUMN Name NVARCHAR(256) COLLATE Cyrillic_General_CI_AS NOT NULL;

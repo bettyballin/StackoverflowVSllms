@@ -1,0 +1,1 @@
+SELECT owner,\n       name,\n       type,\n       line,\n       text\nFROM all_source\nWHERE instr(upper(text), upper('YOUR_SEARCH_PHRASE')) > 0;

@@ -1,0 +1,1 @@
+<httpCompression>\n       <dynamicTypes>\n           <clear />\n           <add mimeType="text/*" enabled="false" />\n           <add mimeType="message/*" enabled="false"/>\n           <add mimeType="application/javascript" enabled="false" />\n           <add mimeType="*/*" enabled="false" />\n       </dynamicTypes>\n   </httpCompression>

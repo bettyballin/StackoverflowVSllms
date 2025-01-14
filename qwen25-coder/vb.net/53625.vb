@@ -1,0 +1,1 @@
+Dim FundSourceList = _\n    (From result In dsResult.Tables(0)\n     Select New FundSource With {\n         .FundID = result.Item("strFundID"),\n         .FundDescription = result.Item("txtFundIDDescr"),\n         .ShortFundDescription = result.Item("txtFundIDDescrShort")\n     }).ToList()\n\nReturn FundSourceList

@@ -1,0 +1,1 @@
+try {\n    $client = new SoapClient("your_wsdl_file.wsdl");\n    $result = $client->select_query(array('param1' => 'value1'));\n} catch (SoapFault $e) {\n    // Handle soap fault exception here.\n    echo "SOAP Fault: (faultcode: {$e->faultcode}, faultstring: {$e->faultstring})";\n}

@@ -1,0 +1,1 @@
+ALTER SYSTEM SET optimizer_dynamic_sampling = 2 SCOPE=BOTH;

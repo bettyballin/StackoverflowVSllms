@@ -1,0 +1,1 @@
+EXEC DBMS_STATS.GATHER_TABLE_STATS('YourSchema', 'YourTable', CASCADE => TRUE);

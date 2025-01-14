@@ -1,0 +1,1 @@
+Public Sub LogError(errorMessage As String)\n       Dim fso As Object\n       Set fso = CreateObject("Scripting.FileSystemObject")\n       With fso.CreateTextFile("C:\errorlog.txt", True)\n           .WriteLine Now & " - Error: " & errorMessage\n       End With\n       Set fso = Nothing\n   End Sub

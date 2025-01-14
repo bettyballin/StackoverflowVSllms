@@ -1,0 +1,1 @@
+WITH DuplicateDewey AS (\n    SELECT dewey_number, COUNT(dewey_number) AS NumOccurrences\n    FROM book\n    GROUP BY dewey_number\n    HAVING COUNT(dewey_number) > 1\n)\nSELECT a.author_last_name, dd.dewey_number, dd.NumOccurrences\nFROM author a\nJOIN book b ON a.author_id = b.author_id\nJOIN DuplicateDewey dd ON b.dewey_number = dd.dewey_number;

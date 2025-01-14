@@ -1,0 +1,1 @@
+import requests\n\n# Define the URL and the proxy server\nurl = 'http://www.google.com'\nproxies = {\n    'http': 'http://your_proxy_server:port',\n    'https': 'https://your_proxy_server:port',\n}\n\n# Make the HTTP request using the proxies\nresponse = requests.get(url, proxies=proxies)\n\n# Print the response content\nprint(response.text)

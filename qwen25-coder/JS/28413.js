@@ -1,0 +1,1 @@
+success: function(response) {\n       var txt = response;\n       $.prompt(txt, { opacity: 0.2 });\n   }

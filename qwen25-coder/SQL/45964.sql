@@ -1,0 +1,1 @@
+-- Example: Calculate average sales per quarter\n   SELECT \n       YEAR(sale_date) AS sale_year,\n       DATEPART(QUARTER, sale_date) AS sale_quarter, \n       AVG(amount) OVER (PARTITION BY YEAR(sale_date), DATEPART(QUARTER, sale_date)) AS avg_sales_per_quarter\n   FROM \n       sales;

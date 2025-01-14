@@ -1,0 +1,1 @@
+UPDATE your_table_name\nSET Field1 = CONCAT(\n    SUBSTRING_INDEX(Field1, '-', -1),  -- This gets the part after the dash\n    '_',\n    SUBSTRING_INDEX(Field1, '-', 1)    -- This gets the part before the dash\n);

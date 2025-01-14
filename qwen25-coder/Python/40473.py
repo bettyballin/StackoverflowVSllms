@@ -1,0 +1,1 @@
+# Generate random samples based on the fitted distribution\nrandom_samples = expon.rvs(loc=loc, scale=scale, size=1000)\n\n# Plotting to verify the fit\nplt.hist(data, bins=30, alpha=0.5, label='Original Data')\nplt.hist(random_samples, bins=30, alpha=0.5, label='Generated Samples')\nplt.legend()\nplt.show()

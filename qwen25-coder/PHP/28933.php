@@ -1,0 +1,1 @@
+try {\n    if (!is_array($users)) {\n        throw new MyWrongTypeException('$users', $users, 'array');\n    }\n} catch (MyWrongTypeException $e) {\n    // Handle the exception in your global handler or specific block.\n    error_log($e->getMessage());\n}

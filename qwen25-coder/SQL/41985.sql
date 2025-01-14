@@ -1,0 +1,1 @@
+CREATE PROCEDURE UpdateDataWithinTransaction\nAS\nBEGIN TRANSACTION;\nBEGIN TRY\n    UPDATE Table1 SET Column1 = 'NewValue' WHERE Condition = 'SomeCondition';\n    UPDATE Table2 SET Column2 = 'AnotherValue' WHERE Condition = 'SomeOtherCondition';\n    COMMIT TRANSACTION;\nEND TRY\nBEGIN CATCH\n    ROLLBACK TRANSACTION;\n    -- Error Handling\nEND CATCH;

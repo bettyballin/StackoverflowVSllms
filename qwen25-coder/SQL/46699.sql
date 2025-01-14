@@ -1,0 +1,1 @@
+-- Create a new login with a strong password\nCREATE LOGIN AppUser WITH PASSWORD = 'StrongPassword123!';\n\n-- Use your database\nUSE YourDatabaseName;\n\n-- Create a user from the login and assign it to the db_datareader and db_datawriter roles\nCREATE USER AppUser FOR LOGIN AppUser;\nALTER ROLE db_datareader ADD MEMBER AppUser;\nALTER ROLE db_datawriter ADD MEMBER AppUser;

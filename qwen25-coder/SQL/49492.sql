@@ -1,0 +1,1 @@
+CREATE TABLE AuditLog (\n    log_id SERIAL PRIMARY KEY,\n    entity_type VARCHAR(100) NOT NULL, -- e.g., 'User', 'Customer'\n    entity_id INT NOT NULL,\n    recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    action VARCHAR(50), -- e.g., 'CREATE', 'UPDATE', 'DELETE'\n    details JSONB -- optional: to store additional information about the change\n);

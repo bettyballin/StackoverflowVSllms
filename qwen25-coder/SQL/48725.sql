@@ -1,0 +1,1 @@
+UPDATE mytable_optimized SET counter += 1 WHERE somecondition;

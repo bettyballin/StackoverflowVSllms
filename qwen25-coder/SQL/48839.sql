@@ -1,0 +1,1 @@
+SELECT YourTable.YourPrimaryKeyField,\n       (\n           SELECT IIF(COUNT(*) > 0, 'Yes', 'No')\n           FROM [YourAttachmentSubdatasheet]\n       ) AS HasAttachments\nFROM YourTable;

@@ -1,0 +1,1 @@
+const express = require('express');\nconst mysql = require('mysql');\n\n// Create connection to database\nconst db = mysql.createConnection({\n  host: process.env.DB_HOST,\n  user: process.env.DB_USER,\n  password: process.env.DB_PASS,\n  database: process.env.DB_NAME\n});\n\ndb.connect((err) => {\n  if (err) throw err;\n  console.log('Connected to the MySQL server.');\n});

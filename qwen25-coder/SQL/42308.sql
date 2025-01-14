@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.RoundToNearestFiveCents (@amount DECIMAL(18, 4))\nRETURNS DECIMAL(18, 2)\nAS\nBEGIN\n    RETURN ROUND(@amount * 20) / 20.0;\nEND;

@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table_name\nWHERE DAYOFWEEK(your_date_column) = 2;

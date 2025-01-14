@@ -1,0 +1,1 @@
+// Example of setting preference in a Firefox extension\nComponents.utils.import("resource://gre/modules/Services.jsm");\nServices.prefs.setBoolPref("browser.cache.disk_cache_ssl", true);

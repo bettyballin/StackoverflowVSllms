@@ -1,0 +1,1 @@
+<?php\necho <<<EOT\nsome text here "and more text\nsomething;\nEOT;\n?>

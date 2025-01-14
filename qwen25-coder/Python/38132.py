@@ -1,0 +1,1 @@
+import requests\n\n# Example GET request to a secure REST endpoint\nresponse = requests.get('https://api.example.com/data', headers={'Authorization': 'Bearer YOUR_ACCESS_TOKEN'})\nprint(response.text)

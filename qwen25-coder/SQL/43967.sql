@@ -1,0 +1,1 @@
+BEGIN\n  DECLARE msg VARCHAR(100);\n  SET msg = 'TableName:X';\n  CALL SYSPROC.WRITE_MESSAGE(msg);\nEND;

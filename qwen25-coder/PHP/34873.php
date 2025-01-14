@@ -1,0 +1,1 @@
+function cleanup() {\n    // Cleanup code here, such as closing database connections\n}\n\nregister_shutdown_function('cleanup');

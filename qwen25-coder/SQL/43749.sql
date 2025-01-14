@@ -1,0 +1,1 @@
+SELECT T1.Id\nFROM S1.Table1 T1, Table2_External T2\nWHERE T1.Id = T2.refId;

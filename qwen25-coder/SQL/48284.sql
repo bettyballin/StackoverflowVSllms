@@ -1,0 +1,1 @@
+SELECT \n   G.GroupId,\n   U.*\nFROM\n   Groups G\nLEFT JOIN\n   GroupUsers GU ON G.GroupID = GU.GroupID AND U.UserID = GU.UserID\nJOIN\n   Users U ON G.GroupID <> GU.GroupID OR GU.GroupID IS NULL\nWHERE\n   GU.GroupID IS NULL OR GU.GroupID = GU.GroupID\nGROUP BY \n   G.GroupId,\n   U.*

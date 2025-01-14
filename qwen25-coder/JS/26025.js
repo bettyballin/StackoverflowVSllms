@@ -1,0 +1,1 @@
+function start () {\n    var myspan = document.getElementById("myspan");\n    myspan.onclick = function() { alert ("hi"); };\n\n    var mydiv = document.getElementById("mydiv");\n    var newTextNode = document.createTextNode("bar");\n    mydiv.appendChild(newTextNode);\n}

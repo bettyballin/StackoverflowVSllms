@@ -1,0 +1,1 @@
+CREATE TABLE tree (\n    id INT PRIMARY KEY,\n    name VARCHAR(255),\n    left_node INT NOT NULL UNIQUE,\n    right_node INT NOT NULL UNIQUE,\n    level INT NOT NULL\n);

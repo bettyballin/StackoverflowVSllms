@@ -1,0 +1,1 @@
+$db = NewADOConnection('access');\n   $db->Connect($dsn, $user, $password);\n   $db->Execute("SET NAMES 'utf8'");

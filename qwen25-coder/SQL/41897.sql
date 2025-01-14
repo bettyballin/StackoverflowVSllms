@@ -1,0 +1,1 @@
+CREATE VIEW lastOrders AS \nSELECT id, customerID, timestamp\nFROM (\n  SELECT id, customerID, timestamp,\n         ROW_NUMBER() OVER (PARTITION BY customerID ORDER BY timestamp DESC) as rn\n  FROM orders\n) o\nWHERE rn = 1;

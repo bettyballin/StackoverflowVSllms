@@ -1,0 +1,1 @@
+import time\n\n# Get current time in seconds since the epoch\ncurrent_time_seconds = time.time()\n\n# Convert to milliseconds\ncurrent_time_milliseconds = int(current_time_seconds * 1000)\n\nprint(f"Current time in milliseconds: {current_time_milliseconds}")

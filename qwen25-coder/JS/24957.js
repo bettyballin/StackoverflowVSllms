@@ -1,0 +1,1 @@
+function MyLongRunningMethod() {\n    // Your sorting logic here...\n}\n\ndocument.body.style.cursor = "progress";\n\n// Use setTimeout to allow the DOM updates first\nsetTimeout(() => {\n    MyLongRunningMethod();\n    document.body.style.cursor = "auto";\n}, 0);

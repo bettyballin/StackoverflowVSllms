@@ -1,0 +1,1 @@
+<script>\n  $(document).ready(function(){\n    $("button").click(function () {\n      $("#layoutDiv").css('visibility', function(index, visibility){\n        return (visibility === 'hidden') ? 'visible' : 'hidden';\n      });\n    });\n  });\n</script>

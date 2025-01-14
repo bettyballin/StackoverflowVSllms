@@ -1,0 +1,1 @@
+ALTER TABLE your_table ADD blobColIsNull AS (CASE WHEN blobCol IS NULL THEN 1 ELSE 0 END);\n\nCREATE INDEX idx_blobcol_is_null ON your_table(blobColIsNull);

@@ -1,0 +1,1 @@
+<?php\n// Example: Retrieve data from a database or any other source\n$data = "This is the content of the file.\nYou can modify this string to include your actual data.";\n\n// Set headers to download the file as a text file\nheader('Content-Type: text/plain');\nheader('Content-Disposition: attachment; filename="exported_data.txt"');\n\n// Output the data\necho $data;\n?>

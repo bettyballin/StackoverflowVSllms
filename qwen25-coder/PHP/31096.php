@@ -1,0 +1,1 @@
+// Example: Basic routing in Laravel\nRoute::get('/community', function () {\n    return view('welcome');\n});

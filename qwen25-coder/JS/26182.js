@@ -1,0 +1,1 @@
+// Select the element with the id "MonitorInformation"\nvar monitorInfo = document.getElementById("MonitorInformation");\n\n// Set the text color to blue\nmonitorInfo.style.color = "blue";\n\n// Set the font size to 24 pixels\nmonitorInfo.style.fontSize = "24px";

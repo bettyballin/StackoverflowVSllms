@@ -1,0 +1,1 @@
+function fn() {\n    return +new Date;\n}\nconsole.log(fn()); // Outputs the current timestamp in milliseconds

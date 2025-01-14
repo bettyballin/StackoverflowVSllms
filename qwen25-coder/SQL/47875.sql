@@ -1,0 +1,1 @@
+SELECT OBJECT_NAME(OBJECT_ID) as ProcedureName,\n       definition as ProcedureDefinition \nFROM sys.sql_modules \nWHERE is_recompiled = 1;

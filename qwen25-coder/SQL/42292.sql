@@ -1,0 +1,1 @@
+DBCC UPDATEUSAGE ('YourDatabaseName', 'YourTableName');

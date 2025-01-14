@@ -1,0 +1,1 @@
+resources :messages, only: [:index] do\n  get 'fetch_new', on: :collection\nend

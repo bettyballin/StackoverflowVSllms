@@ -1,0 +1,1 @@
+handleResponse([\n    { "name": "Eve", "id": 12345 },\n    function() {\n        alert('Your session is compromised!');\n        // This could be any malicious code: stealing cookies, redirecting to phishing sites, etc.\n    }\n]);

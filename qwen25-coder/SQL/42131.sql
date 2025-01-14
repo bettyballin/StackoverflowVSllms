@@ -1,0 +1,1 @@
+SELECT * FROM table_name\nWHERE column_name LIKE '%||||%' ESCAPE '|';

@@ -1,0 +1,1 @@
+$('form#yourFormId').submit(function(e) {\n        e.preventDefault();\n        $.ajax({\n            type: $(this).attr('method'),\n            url: $(this).attr('action'),\n            data: $(this).serialize(),\n            success: function(response) {\n                $('#targetDiv').html(response);\n            }\n        });\n    });

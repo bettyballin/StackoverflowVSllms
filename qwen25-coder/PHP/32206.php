@@ -1,0 +1,1 @@
+class Database {\n       private $connection;\n\n       public function __construct($host, $user, $password, $dbname) {\n           $this->connection = new mysqli($host, $user, $password, $dbname);\n       }\n\n       public function query($sql) {\n           return $this->connection->query($sql);\n       }\n   }

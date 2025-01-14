@@ -1,0 +1,1 @@
+$('input[name="shipType"]:radio').css({\n    // Your styles here\n    'border': '2px solid blue'\n});

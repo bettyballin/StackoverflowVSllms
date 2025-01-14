@@ -1,0 +1,1 @@
+// Disable display of all errors on the page\nini_set('display_errors', 0);\nerror_reporting(E_ALL);\n\n// Log errors in a file instead\nini_set('log_errors', 1);\nini_set('error_log', '/path/to/php-error.log');

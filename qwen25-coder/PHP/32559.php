@@ -1,0 +1,1 @@
+<?php\n// Accessing raw POST data\n$input = file_get_contents('php://input');\n\n// Assuming your form sends JSON-encoded data, decode it\n$data = json_decode($input, true);\n\nif ($data && isset($data['text'])) {\n    $value = $data['text'];\n} else {\n    // Handle the case where 'text' is not set or data is not as expected\n    $value = null;\n}\n?>

@@ -1,0 +1,1 @@
+function getHtmlEditorContent() {\n    var editor = $find('<%= HTMLEditor1.ClientID %>');\n    if (editor) {\n        return editor.get_content();\n    }\n    return '';\n}

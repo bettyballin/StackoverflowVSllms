@@ -1,0 +1,1 @@
+require 'capybara/rails'\n    require 'capybara/rspec'\n    require 'selenium/webdriver'\n\n    Capybara.default_driver = :selenium_chrome_headless # or :rack_test if you prefer

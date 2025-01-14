@@ -1,0 +1,1 @@
+<%\n' Page 2: Check for the session variable\nDim isSessionEnabled\nisSessionEnabled = False\n\nIf Session("TestSession") <> "" And Session("TestSession") = "Enabled" Then\n    isSessionEnabled = True\nEnd If\n\nIf isSessionEnabled Then\n    Response.Write("Session cookies are enabled.")\nElse\n    Response.Write("Session cookies are disabled.")\nEnd If\n%>

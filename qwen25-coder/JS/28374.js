@@ -1,0 +1,1 @@
+window.onload = function() {\n       var frames = document.getElementsByTagName('frame');\n       for (var i = 0; i < frames.length; i++) {\n           frames[i].style.width = '100%';\n           frames[i].style.height = '48px'; // Adjust height as necessary\n       }\n   };

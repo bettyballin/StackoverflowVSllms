@@ -1,0 +1,1 @@
+// Assuming $xml is an instance of SimpleXMLElement containing your response data\n$recentTracks = new SimpleXMLElement($xml);\n\nforeach ($recentTracks->track as $track) {\n    if ((string)$track->attributes()->nowplaying === 'true') {\n        echo "Currently playing: " . (string)$track->name;\n    }\n}

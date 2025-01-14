@@ -1,0 +1,1 @@
+if ( $test == 1 ) :\n    if ( $test2 == 'a' ) :\n        if ( $test3 == 'A' ) :\n            // do something\n        else :\n            // do something else\n        endif;\n    endif;\nelse :\n    echo 'test2';\nendif;

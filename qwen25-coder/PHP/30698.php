@@ -1,0 +1,1 @@
+// Enable caching for 30 minutes (1800 seconds)\n$this->output->cache(30);\n\npublic function news()\n{\n    // Your code to fetch and generate the news page\n}

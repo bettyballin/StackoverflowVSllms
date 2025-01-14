@@ -1,0 +1,1 @@
+(function($) {\n    $.fn.vAlign = function() {\n        return this.each(function(i) {\n            var $this = $(this);\n            var parentHeight = $this.parent().height();\n            $this.css('position', 'absolute');\n            var offsetTop = (parentHeight - $this.outerHeight()) / 2;\n            $this.css("top", offsetTop + "px");\n        });\n    };\n})(jQuery);

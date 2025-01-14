@@ -1,0 +1,1 @@
+CREATE VIEW RecentRecordSum AS\nWITH DateParameters AS (\n    SELECT DATEADD(d, -7, GETDATE()) AS SevenDaysAgo,\n           7 AS DayWindow\n)\nSELECT      t.ID,   \n            SUM(t.SomeValue) AS ValueSum,\n            dp.DayWindow\nFROM        SomeTable t\nCROSS JOIN  DateParameters dp\nWHERE       t.RecordDate >= dp.SevenDaysAgo\nGROUP BY    t.ID, dp.DayWindow;

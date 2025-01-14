@@ -1,0 +1,1 @@
+date_str = '2009-05-06'\nsql_query = "<Table>.find_by_sql(\"select * from <table> where create_date = TO_DATE('#{date_str}', 'YYYY-MM-DD')\")"

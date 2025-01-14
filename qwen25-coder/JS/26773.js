@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    // Check first div\n    var firstDivContainsP = $('div:first').find('p').length > 0;\n    console.log(firstDivContainsP); // true\n\n    // Check second div\n    var secondDivContainsP = $('div:eq(1)').find('p').length > 0;\n    console.log(secondDivContainsP); // false\n});

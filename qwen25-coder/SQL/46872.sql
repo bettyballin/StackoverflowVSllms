@@ -1,0 +1,1 @@
+SELECT SUM(\n    DATEDIFF(day, FromDate, ToDate) / 365.25  -- Using 365.25 to account for leap years\n) AS TotalYears\nFROM your_table_name;

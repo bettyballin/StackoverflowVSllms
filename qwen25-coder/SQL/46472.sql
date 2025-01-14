@@ -1,0 +1,1 @@
+SELECT c.name AS category_name, COUNT(v.item_id) AS total_votes\nFROM categories c\nJOIN items i ON c.id = i.category_id\nJOIN votes v ON i.id = v.item_id\nWHERE v.created_at > NOW() - INTERVAL 1 WEEK\nGROUP BY c.name\nORDER BY total_votes DESC;

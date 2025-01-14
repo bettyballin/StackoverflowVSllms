@@ -1,0 +1,1 @@
+SELECT \n    pod.PurchaseOrderDetailID,\n    cn.s AS ContractName,\n    cno.s AS ContractNo\nFROM \n    dbo.PurchaseOrderDetail AS pod\nCROSS APPLY \n    (SELECT s FROM dbo.Split(';', pod.Comments) WHERE pn = 1) cn\nLEFT JOIN \n    (SELECT s FROM dbo.Split(';', pod.Comments) WHERE pn = 2) cno ON pod.PurchaseOrderDetailID = pod.PurchaseOrderDetailID;

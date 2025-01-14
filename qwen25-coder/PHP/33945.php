@@ -1,0 +1,1 @@
+if($info['rights'] == "m") {\n    $status = '<font color="#FFFFFF">(mod)</font>';\n} elseif ($info['rights'] == "a") { // Removed the semicolon here\n    $status = '<font color="#FFFFFF">(admin)</font>';\n}

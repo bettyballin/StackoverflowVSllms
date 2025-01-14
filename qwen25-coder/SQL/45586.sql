@@ -1,0 +1,1 @@
+BEGIN TRANSACTION testTransaction\nINSERT INTO tbTableOne VALUES ('1', '2')\nSELECT * FROM vwIndexedView\nCOMMIT TRANSACTION\n\nSELECT * FROM vwIndexedView

@@ -1,0 +1,1 @@
+function sub_d() {\n    var checkboxes = document.checks.OGname;\n    for (var i = checkboxes.length - 1; i >= 0; i--) { // Iterate in reverse order\n        if (checkboxes[i].checked) {\n            checkboxes[i].name = "newname"; // Change name of input \n        }\n    }\n    document.checks.submit();\n}

@@ -1,0 +1,1 @@
+if (isset($_SESSION['user_id'])) {\n       // User is logged in\n   } else {\n       // User is not logged in\n   }

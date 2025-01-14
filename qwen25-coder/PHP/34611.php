@@ -1,0 +1,1 @@
+$messages = $this->_messages->getMessages();\n$formattedMessages = array_map(function($message) {\n    return ['message' => $message];\n}, $messages);\n\n$this->view->messages = $formattedMessages;

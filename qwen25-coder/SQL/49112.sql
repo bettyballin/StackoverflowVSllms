@@ -1,0 +1,1 @@
+SELECT \n    SUM((LEN(RequestedReportParams) - LEN(REPLACE(RequestedReportParams, ',', '')))) AS CommaCount,\n    COUNT(*) AS RecordsWithMoreThanTwoIDs\nFROM \n    [table]\nWHERE \n    LEN(RequestedReportParams) - LEN(REPLACE(RequestedReportParams, ',', '')) > 1;

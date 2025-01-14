@@ -1,0 +1,1 @@
+' Suppose you have a property snippet that looks like this after expansion:\nPublic Property [PropertyType Goes Here] As [FieldType Goes Here]\n\n' After typing your.PropertyType and FieldType, press Tab to jump out of those fields.\n' Pressing Tab again will exit the snippet and place the cursor on the next line.

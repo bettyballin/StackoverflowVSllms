@@ -1,0 +1,1 @@
+function generateSecureToken() {\n    return bin2hex(random_bytes(32));\n}

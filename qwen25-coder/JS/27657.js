@@ -1,0 +1,1 @@
+let count = 0;\nconst maxAlerts = 5; // Limit the number of alert() calls\n\nwhile (true) { // Hypothetical infinite loop\n    if (count >= maxAlerts) {\n        console.log("Maximum alerts reached. Exiting loop.");\n        break;\n    }\n    alert('This is an alert!');\n    count++;\n}

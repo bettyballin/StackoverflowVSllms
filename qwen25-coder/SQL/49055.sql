@@ -1,0 +1,1 @@
+DECLARE @ids dbo.IDListType;\n\nINSERT INTO @ids (ID) VALUES (1);\nINSERT INTO @ids (ID) VALUES (2);\n-- Add more IDs as needed\n\nEXEC DeleteExceptIDs @ids;

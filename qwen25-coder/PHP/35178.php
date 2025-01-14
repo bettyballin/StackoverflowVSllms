@@ -1,0 +1,1 @@
+<?php\n// Example: Add file using SVN command line in a server-side script\n$fileToAdd = '/path/to/repository/file.txt';\nshell_exec("svn add {$fileToAdd}");\n// Remember, this requires proper setup and security measures\n?>

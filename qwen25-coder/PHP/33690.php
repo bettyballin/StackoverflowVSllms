@@ -1,0 +1,1 @@
+function divide($a, $b) {\n    try {\n        if ($b == 0) {\n            throw new InvalidArgumentException('Division by zero.');\n        }\n        return $a / $b;\n    } catch (InvalidArgumentException $e) {\n        echo 'Error: ' . $e->getMessage();\n    }\n}\n\n// Usage\ndivide(10, 0);

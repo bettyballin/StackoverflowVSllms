@@ -1,0 +1,1 @@
+p = Play.objects.get(id=8581)\np.playparticipant_set.create(player_id=2383)  # This should correctly set play_id to p.id (which is 8581)

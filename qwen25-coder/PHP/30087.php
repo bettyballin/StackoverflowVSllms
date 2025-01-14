@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\n// Check if session variable exists\nif (!isset($_SESSION['user_id'])) {\n    echo "expired";\n} else {\n    echo "active";\n}\n?>

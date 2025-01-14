@@ -1,0 +1,1 @@
+SELECT A.name, B.marks \nFROM A\nJOIN B ON A.num = B.num\n\nUNION ALL\n\nSELECT A.name, B.marks \nFROM A\nJOIN B ON (A.num = 0 OR B.num IN (\n    SELECT num FROM A WHERE num = 0\n))\nWHERE A.num = 0;

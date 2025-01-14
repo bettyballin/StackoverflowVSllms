@@ -1,0 +1,1 @@
+def operation(originalElement, anotherVar):\n    # Example operation: return originalElement * anotherVar + 5\n    return originalElement * anotherVar + 5\n\nnumbers = [1, 2, 3, ..., 100]  # Your list of numbers\nanotherVar = 2  # This is your second parameter for the operation\n\nresult = [operation(number, anotherVar) for number in numbers]\nprint(result)

@@ -1,0 +1,1 @@
+Imports System.Xml.Linq\n\nDim myNS As XNamespace = "mynamespace"\nDim originalRoot = XML.Root\nDim xmlWithNamespace As New XElement(myNS + originalRoot.Name.LocalName, _\n                                       New XAttribute(XNamespace.Xmlns + "xmlns", myNS), _\n                                       originalRoot.Nodes)\n\nXML = New XDocument(xmlWithNamespace)

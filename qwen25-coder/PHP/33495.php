@@ -1,0 +1,1 @@
+<?php\n$xml = simplexml_load_file("file.xml", "SimpleXMLElement", LIBXML_NOCDATA);\n$xml->registerXPathNamespace("xhtml", "http://www.w3.org/1999/xhtml");\n$entries = $xml->xpath('//entry');\nforeach ($entries as $entry) {\n    echo htmlspecialchars_decode((string)$entry, ENT_QUOTES);\n}\n?>

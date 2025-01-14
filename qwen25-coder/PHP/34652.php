@@ -1,0 +1,1 @@
+function stripClassesFromPTags($html) {\n    // Use a regular expression to remove class attributes from <p> tags\n    return preg_replace('/<p\s+class="[^"]*">/', '<p>', $html);\n}\n\n// Example usage\n$html = '<p class="example">This is a paragraph.</p>';\n$cleanHtml = stripClassesFromPTags($html);\necho $cleanHtml; // Outputs: <p>This is a paragraph.</p>

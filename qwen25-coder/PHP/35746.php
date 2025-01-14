@@ -1,0 +1,1 @@
+<?php\n// header.php\nfunction renderHeader() {\n    echo "<header>\n            <h1>My Website</h1>\n            <nav><a href='/'>Home</a></nav>\n          </header>";\n}

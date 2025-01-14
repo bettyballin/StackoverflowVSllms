@@ -1,0 +1,1 @@
+<?php \nfunction foo_user ($op) {\n    switch ($op) {\n        case 'login':\n            // Some other Stuff\n            break;\n        case 'after_update':\n            // Some Stuff\n            break;\n    }\n}

@@ -1,0 +1,1 @@
+BACKUP DATABASE YourDatabaseName\nTO DISK = 'C:\Backups\YourDatabaseName.bak'\nWITH INIT;

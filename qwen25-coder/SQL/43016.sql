@@ -1,0 +1,1 @@
+SELECT \n    EXTRACT(WEEK FROM eDate) AS Week,\n    SUM(CASE WHEN category = 'Category1' THEN 1 ELSE 0 END) AS Category1,\n    SUM(CASE WHEN category = 'Category2' THEN 1 ELSE 0 END) AS Category2\nFROM errors\nGROUP BY EXTRACT(YEAR FROM eDate), Week\nORDER BY Week;

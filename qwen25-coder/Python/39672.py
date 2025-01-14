@@ -1,0 +1,1 @@
+# Example of a simple API endpoint in Django REST Framework\nfrom rest_framework.views import APIView\nfrom rest_framework.response import Response\n\nclass DataAPI(APIView):\n    def get(self, request, format=None):\n        data = {'message': 'Hello, world!'}\n        return Response(data)

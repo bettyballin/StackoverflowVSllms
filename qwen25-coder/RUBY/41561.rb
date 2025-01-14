@@ -1,0 +1,1 @@
+# Assuming you receive the date in params[:your_date_param]\nreceived_date_string = params[:your_date_param]\n\nbegin\n  parsed_date = Time.iso8601(received_date_string)\n  # Use parsed_date as needed\nrescue ArgumentError => e\n  # Handle invalid date format\n  render json: { error: 'Invalid date format' }, status: :bad_request\nend

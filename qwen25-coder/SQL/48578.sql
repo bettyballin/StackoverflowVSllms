@@ -1,0 +1,1 @@
+CREATE INDEX idx_user_session_page ON views (user_id, session, page);

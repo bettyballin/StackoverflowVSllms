@@ -1,0 +1,1 @@
+EXEC master..xp_cmdshell 'bcp "SELECT * FROM YourDatabase.YourSchema.YourTable" queryout "D:\path\to\yourfile.csv" -c -t\t -T'

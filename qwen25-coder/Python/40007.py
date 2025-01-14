@@ -1,0 +1,1 @@
+import x\ny = x  # Now y refers to the same module object that x does\n\n# This will print True indicating they are now the same module\nprint(x is y)

@@ -1,0 +1,1 @@
+<dependency>\n       <groupId>com.github.oshi</groupId>\n       <artifactId>oshi-core</artifactId>\n       <version>6.4.0</version> <!-- Check for the latest version -->\n   </dependency>

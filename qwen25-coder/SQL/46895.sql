@@ -1,0 +1,1 @@
+ALTER TABLE YourTableName\nADD CONSTRAINT UQ_YourConstraintName UNIQUE (Column1, Column2);

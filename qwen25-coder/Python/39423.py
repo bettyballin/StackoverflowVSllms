@@ -1,0 +1,1 @@
+from Crypto.PublicKey import RSA\nfrom Crypto.Cipher import PKCS1_OAEP\n\nkey = RSA.generate(2048)  # Generate RSA key pair\ncipher = PKCS1_OAEP.new(key.publickey())\nmessage = b'Encrypt this message'\nciphertext = cipher.encrypt(message)\n\n# To decrypt:\ndecrypt_cipher = PKCS1_OAEP.new(key)\nplaintext = decrypt_cipher.decrypt(ciphertext)\nprint(plaintext.decode('utf-8'))

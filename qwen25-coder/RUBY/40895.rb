@@ -1,0 +1,1 @@
+<%= sanitize @user.profile %> <!-- Safely renders HTML -->

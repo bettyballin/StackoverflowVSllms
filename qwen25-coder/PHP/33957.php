@@ -1,0 +1,1 @@
+function isValidDate($date, $format = 'Y-m-d H:i:s') {\n    $d = DateTime::createFromFormat($format, $date);\n    return $d && $d->format($format) === $date;\n}\n\n// Usage:\n$date = '0000-00-00 00:00:00';\n$isValid = isValidDate($date);\n\nif ($isValid) {\n    echo "The date is valid.";\n} else {\n    echo "The date is invalid.";\n}

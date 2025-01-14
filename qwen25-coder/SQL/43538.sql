@@ -1,0 +1,1 @@
+CREATE PROCEDURE [dbo].[GetNumberToProcess]\n    @returnValue INT OUTPUT\nAS\nBEGIN\n    SET @returnValue = 999;\nEND;

@@ -1,0 +1,1 @@
+<constant name="struts.multipart.maxSize" value="10485760"/>

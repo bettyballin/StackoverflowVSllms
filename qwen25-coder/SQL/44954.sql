@@ -1,0 +1,1 @@
+SELECT AVG(ResultsCount) AS AverageResultsPerSearch \n   FROM SearchStatistics;

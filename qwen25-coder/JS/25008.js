@@ -1,0 +1,1 @@
+QUnit.test("getPersons", function(assert) {\n  var done = assert.async(); // Declare asynchronous test\n\n  getPersons(function(response) {\n    assert.equal("boo", "Foo", "The name is valid");\n    done(); // Notify QUnit that the async operation has completed\n  });\n});

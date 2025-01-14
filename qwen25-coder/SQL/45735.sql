@@ -1,0 +1,1 @@
+-- Example of the original and updated schema\nCREATE TABLE Transactions (\n    id INT PRIMARY KEY CLUSTERED,\n    details VARCHAR(50)\n);\n\n-- After adding new columns\nALTER TABLE Transactions\nADD date DATETIME,\ncomment VARCHAR(255);

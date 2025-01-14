@@ -1,0 +1,1 @@
+SELECT \n    p.title,\n    MIN(im.image_url) AS image_url -- or any other column from the images table\nFROM \n    posts p\nLEFT JOIN \n    postimages pi ON p.id = pi.post_id\nLEFT JOIN \n    images im ON pi.image_id = im.image_id\nGROUP BY \n    p.id, p.title\nORDER BY \n    p.created_at\nLIMIT 10;

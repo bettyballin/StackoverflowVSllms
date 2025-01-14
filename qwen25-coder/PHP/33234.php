@@ -1,0 +1,1 @@
+<?php echo $this->paginationControl(\n       $this->grid->getPaginator(),\n       'Sliding',\n       'partial/paginator.phtml'\n   ); ?>\n\n   <div id="user-grid">\n       <?= $this->grid->render() ?>\n   </div>

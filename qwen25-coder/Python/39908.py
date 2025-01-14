@@ -1,0 +1,1 @@
+intList = [5, 8, 13, 21]\ntarget = 13\n\n# Try to find the index of 'target' in intList\nindex = next((i for i, x in enumerate(intList) if x == target), -1)\n\nif index != -1:\n    print(f"The number {target} is at index {index}.")\nelse:\n    print(f"The number {target} is not in the list.")

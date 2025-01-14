@@ -1,0 +1,1 @@
+<?php\n// db_config.php for stardust.mysite.com\nreturn [\n    'database' => [\n        'host' => 'localhost',\n        'name' => 'stardust_db',\n        'user' => 'stardust_user',\n        'password' => 'strong_password'\n    ],\n    // Additional settings can be added here\n];

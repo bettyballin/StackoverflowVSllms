@@ -1,0 +1,1 @@
+WITH RankedValueSets AS (\n    SELECT \n        OriginatingObjectID,\n        ID AS ValueSetID,\n        DateStamp,\n        ROW_NUMBER() OVER (PARTITION BY OriginatingObjectID ORDER BY DateStamp DESC) AS rn\n    FROM \n        ValueSet\n)\nSELECT \n    OriginatingObjectID,\n    ValueSetID,\n    DateStamp\nFROM \n    RankedValueSets\nWHERE \n    rn = 1;

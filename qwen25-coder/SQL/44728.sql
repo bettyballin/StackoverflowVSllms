@@ -1,0 +1,1 @@
+CREATE TYPE dbo.ItemListTableType AS TABLE (ItemID INT);

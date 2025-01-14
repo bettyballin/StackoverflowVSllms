@@ -1,0 +1,1 @@
+BEGIN\n  DBMS_SCHEDULER.create_job (\n    job_name        => 'GATHER_DB_STATS_JOB',\n    job_type        => 'PLSQL_BLOCK',\n    job_action      => 'BEGIN DBMS_STATS.GATHER_DATABASE_STATS; END;',\n    start_date      => SYSTIMESTAMP,\n    repeat_interval => 'FREQ=WEEKLY; BYDAY=SUN', -- Adjust as needed\n    enabled         => TRUE);\nEND;\n/

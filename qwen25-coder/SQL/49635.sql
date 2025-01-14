@@ -1,0 +1,1 @@
+CREATE TABLE main_entity (\n    id SERIAL PRIMARY KEY,\n    type VARCHAR(50) NOT NULL\n);\n\nCREATE TABLE additional_properties (\n    entity_id INT REFERENCES main_entity(id) ON DELETE CASCADE,\n    properties JSONB NOT NULL,\n\n    PRIMARY KEY (entity_id)\n);

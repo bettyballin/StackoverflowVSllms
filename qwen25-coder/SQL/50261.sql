@@ -1,0 +1,1 @@
+SELECT \n    (COUNT(o.order_id) * 100.0 / (SELECT COUNT(*) FROM orders)) AS customer_sales_percentage\nFROM \n    orders o\nWHERE \n    o.cust_id = 541;

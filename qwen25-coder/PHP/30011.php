@@ -1,0 +1,1 @@
+<?php\n$string = "my name is xyz(25)";\nif (preg_match('/\((\d+)\)/', $string, $matches)) {\n    $number = $matches[1];\n    echo "The extracted number is: " . $number;\n} else {\n    echo "No number found in parentheses.";\n}\n?>

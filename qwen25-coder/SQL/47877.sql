@@ -1,0 +1,1 @@
+BEGIN TRAN A\n\nSET TRANSACTION ISOLATION LEVEL REPEATABLE READ;\n\nSELECT id\nFROM Inventory WITH (UPDLOCK, ROWLOCK)\nWHERE material_id = 25 AND quantity > 10\n\n-- Process some things using the inventory record and\n-- eventually write some updates that are dependent on the fact that\n-- that specific inventory record had sufficient quantity (greater than 10).\n\nCOMMIT TRAN A

@@ -1,0 +1,1 @@
+<!-- Example App.config -->\n<configuration>\n  <appSettings>\n    <add key="AdminEmail" value="admin@example.com"/>\n    <add key="SupportEmail" value="support@example.com"/>\n  </appSettings>\n</configuration>

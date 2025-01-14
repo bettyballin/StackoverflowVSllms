@@ -1,0 +1,1 @@
+SELECT \n    empName,\n    STUFF((\n        SELECT ' / ' + projID\n        FROM project_members AS PM2\n        WHERE PM2.empName = PM1.empName\n        FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), 1, 3, '') AS ProjectIDs\nFROM \n    (SELECT DISTINCT empName FROM project_members) AS PM1

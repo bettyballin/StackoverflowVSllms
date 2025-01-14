@@ -1,0 +1,1 @@
+<receiver android:name=".SentSMSReceiver">\n    <intent-filter>\n        <action android:name="android.provider.Telephony.SMS_SENT" />\n    </intent-filter>\n</receiver>

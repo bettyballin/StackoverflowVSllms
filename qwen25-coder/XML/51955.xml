@@ -1,0 +1,1 @@
+<configuration>\n  <runtime>\n    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">\n      <probing privatePath="cgi-bin" />\n    </assemblyBinding>\n  </runtime>\n</configuration>

@@ -1,0 +1,1 @@
+<dependency>\n       <groupId>com.github.stephanenicolas</groupId>\n       <artifactId>jdbcinterceptor-core</artifactId>\n       <version>0.1.2</version>\n   </dependency>

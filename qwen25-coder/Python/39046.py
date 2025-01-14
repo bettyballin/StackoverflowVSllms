@@ -1,0 +1,1 @@
+import mido\n\ndef on_message(msg):\n    print(f"Received message: {msg}")\n\nwith mido.open_input() as port:\n    for msg in port:\n        if not msg.is_meta:\n            on_message(msg)

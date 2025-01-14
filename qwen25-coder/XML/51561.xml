@@ -1,0 +1,1 @@
+<!-- Add this in your log4j.xml or log4j.properties -->\n<logger name="org.apache.logging.log4j.core.config.Configurator">\n    <level value="DEBUG"/>\n</logger>\n\n<!-- For properties file -->\nlog4j.logger.org.apache.logging.log4j.core.config.Configurator=DEBUG

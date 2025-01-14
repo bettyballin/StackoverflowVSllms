@@ -1,0 +1,1 @@
+use Zend\Loader\StandardAutoloader;\n\n$loader = new StandardAutoloader();\n$loader->registerNamespace('YourApp', __DIR__ . '/src/YourApp');\n$loader->setFallbackAutoloader(true);\n$loader->register();

@@ -1,0 +1,1 @@
+CALL UpdateOrInsertValue('a', 1, 2.124);

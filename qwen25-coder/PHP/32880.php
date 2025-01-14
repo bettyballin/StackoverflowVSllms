@@ -1,0 +1,1 @@
+<html>\n   <head>\n       <title><?= $this->e($title) ?></title>\n   </head>\n   <body>\n       <?= $this->section('content') ?>\n   </body>\n   </html>

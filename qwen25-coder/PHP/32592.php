@@ -1,0 +1,1 @@
+<?php\n   $outputFile = "/path/to/output/screenshot.png";\n\n   exec("node /path/to/capture.js", $output, $returnVar);\n\n   if($returnVar == 0) {\n       rename('screenshot.png', $outputFile); // Move screenshot to desired location\n       echo "Screenshot taken successfully.";\n   } else {\n       echo "Failed to take screenshot: " . implode('\n', $output);\n   }\n   ?>

@@ -1,0 +1,1 @@
+function isElementDisplayed(element) {\n    const style = window.getComputedStyle(element);\n    return style.display !== 'none';\n}\n\n// Usage example:\nconst myElement = document.getElementById('my-element');\nconsole.log(isElementDisplayed(myElement)); // true/false based on display style

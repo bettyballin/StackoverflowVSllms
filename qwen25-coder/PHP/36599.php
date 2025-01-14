@@ -1,0 +1,1 @@
+function setdefault(&$var, $default="") {\n    if (! isset($var)) {\n        $var = $default;\n    }\n}

@@ -1,0 +1,1 @@
+SELECT \n    MAX(CASE WHEN metadata_field_id = 90 THEN text_value END) AS volume_value,\n    MAX(CASE WHEN metadata_field_id = 91 THEN text_value END) AS issue_value\nFROM metadatavalue\nWHERE metadata_field_id IN (90, 91)\nGROUP BY item_id;

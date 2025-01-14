@@ -1,0 +1,1 @@
+# lxml is a powerful library for processing XML and HTML in Python.\nfrom lxml import html\n\ntree = html.fromstring('<html><body><div>Hello World</div></body></html>')\nresult = tree.xpath('//div/text()')\nprint(result)  # Output: ['Hello World']

@@ -1,0 +1,1 @@
+CREATE TABLE ValidationRules (\n    RuleID INT PRIMARY KEY AUTO_INCREMENT,\n    FieldName VARCHAR(100) NOT NULL,\n    RuleType VARCHAR(50) NOT NULL,  -- e.g., 'minLength', 'maxLength', 'regex'\n    RuleValue TEXT NOT NULL,         -- the value to apply for this rule, such as '8' for minLength\n    ErrorMessage VARCHAR(255) NOT NULL\n);

@@ -1,0 +1,1 @@
+SELECT owner, synonym_name, table_owner, table_name FROM dba_synonyms WHERE synonym_name LIKE 'MYTABLE%';

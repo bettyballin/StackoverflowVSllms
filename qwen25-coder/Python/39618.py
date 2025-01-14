@@ -1,0 +1,1 @@
+def add_numbers(a, b):\n    return a + b\n\nresult = add_numbers(3, 4)  # Outputs: 7

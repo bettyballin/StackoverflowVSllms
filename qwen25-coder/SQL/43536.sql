@@ -1,0 +1,1 @@
+CREATE FUNCTION GetEmployeeDetails (\n    @employeeId INT = NULL,\n    @departmentName NVARCHAR(50) = NULL\n)\nRETURNS TABLE\nAS\nRETURN \n(\n    SELECT *\n    FROM Employees\n    WHERE (@employeeId IS NOT NULL AND EmployeeID = @employeeId)\n       OR (@departmentName IS NOT NULL AND Department = @departmentName)\n);

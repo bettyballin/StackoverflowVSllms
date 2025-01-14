@@ -1,0 +1,1 @@
+$stmt = $pdo->query('SELECT * FROM your_table');\n$results = $stmt->fetchAll();\n$numRows = count($results);\necho "Number of rows: " . $numRows;

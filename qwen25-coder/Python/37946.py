@@ -1,0 +1,1 @@
+from imagehash import perceptual_hash\n\n   def phash_difference(image_path1, image_path2):\n       hash1 = perceptual_hash(Image.open(image_path1))\n       hash2 = perceptual_hash(Image.open(image_path2))\n       return hash1 - hash2

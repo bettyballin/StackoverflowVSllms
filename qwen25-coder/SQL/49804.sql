@@ -1,0 +1,1 @@
+EXEC sp_helpindex 'PartEvent';\n  EXEC sp_helpindex 'Part';

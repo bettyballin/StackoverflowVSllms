@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    function forcePostBack() {\n        // Trigger postback to server without considering the validation result.\n        __doPostBack('<%= SubmitButton.ClientID %>', '');\n    }\n</script>

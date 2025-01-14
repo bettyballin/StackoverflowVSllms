@@ -1,0 +1,1 @@
+window.location.href = "myapp://print?data=yourData";

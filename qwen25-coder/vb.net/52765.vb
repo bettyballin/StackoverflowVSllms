@@ -1,0 +1,1 @@
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load\n    If Not IsPostBack Then\n        ' Your data loading and binding logic here\n    End If\nEnd Sub

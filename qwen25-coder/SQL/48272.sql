@@ -1,0 +1,1 @@
+SELECT DISTINCT c.valueC\nFROM (\n    SELECT DISTINCT b.lookupC\n    FROM B b\n    WHERE b.id IN (\n        SELECT DISTINCT a.lookupB\n        FROM A a\n    )\n) subquery_b\nINNER JOIN C c ON c.id = subquery_b.lookupC;

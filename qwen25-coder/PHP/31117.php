@@ -1,0 +1,1 @@
+$string = 'hi how are you';\n$firstSpacePos = strpos($string, ' ');\n\nif ($firstSpacePos !== false) {\n    $array = [\n        substr($string, 0, $firstSpacePos),\n        substr($string, $firstSpacePos + 1)\n    ];\n} else {\n    // If there's no space, the whole string is the first element\n    $array = [$string];\n}\n\nprint_r($array);

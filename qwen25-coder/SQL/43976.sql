@@ -1,0 +1,1 @@
+WITH RankedData AS (\n    SELECT \n        ID,\n        Rank,\n        Type,\n        Status,\n        Amount,\n        ROW_NUMBER() OVER (PARTITION BY ID ORDER BY Rank ASC) as rn\n    FROM \n        YourTableName\n)\nSELECT \n    ID,\n    Rank,\n    Type,\n    Status,\n    Amount\nFROM \n    RankedData\nWHERE \n    rn = 1;

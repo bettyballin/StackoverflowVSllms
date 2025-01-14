@@ -1,0 +1,1 @@
+Namespace Nation\n    Namespace State\n        Namespace City\n            Public Module Restaurant\n                ' You can add methods, properties, or classes here.\n                Public Sub MakeReservation()\n                    Console.WriteLine("Reservation made.")\n                End Sub\n            End Module\n        End Namespace\n    End Namespace\nEnd Namespace

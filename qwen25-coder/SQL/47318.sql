@@ -1,0 +1,1 @@
+UPDATE YourTableName\nSET YourNewField = LEFT(NEWID(), 10)

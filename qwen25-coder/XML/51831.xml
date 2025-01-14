@@ -1,0 +1,1 @@
+<system.net>\n        <mailSettings>\n            <smtp from="info@eatrightamerica.com">\n                <network host="smtp.gmail.com" port="587" userName="yourgoogleaccount@gmail.com" password="yourpassword" enableSsl="true"/>\n            </smtp>\n        </mailSettings>\n    </system.net>

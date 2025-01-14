@@ -1,0 +1,1 @@
+<script>\n    var appData = {{ data|raw }};\n    console.log(appData.message);\n    console.log(appData.user);\n</script>

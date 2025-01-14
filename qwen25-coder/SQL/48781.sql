@@ -1,0 +1,1 @@
+-- Create a temporary table to store the IDs from the view\nCREATE TEMPORARY TABLE temp_ids AS\nSELECT id FROM myview WHERE ...;\n\n-- Use the temporary table in your update statement\nUPDATE mytable.myfield t\nSET f = 'blah'\nWHERE t.id IN (SELECT id FROM temp_ids);\n\n-- Drop the temporary table after use\nDROP TEMPORARY TABLE temp_ids;

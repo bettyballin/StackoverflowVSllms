@@ -1,0 +1,1 @@
+WITH AccountDetails AS (\n    EXEC mystoredproc_sp\n)\nSELECT AccountNumber, COUNT(*) as AccountCount\nFROM AccountDetails\nGROUP BY AccountNumber;

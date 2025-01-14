@@ -1,0 +1,1 @@
+if complexcondition():\n       from providers.acme5 import get\n       print(get())

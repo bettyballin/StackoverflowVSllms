@@ -1,0 +1,1 @@
+BULK INSERT YourTableName\nFROM 'C:\path\to\yourfile.csv'\nWITH (\n    FIRSTROW = 2, -- Assuming the first row is a header\n    FIELDTERMINATOR = ',',\n    ROWTERMINATOR = '\n'\n);

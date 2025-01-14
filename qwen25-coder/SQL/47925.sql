@@ -1,0 +1,1 @@
+GRANT EXECUTE ON msdb.dbo.sp_add_job TO JobEditors;\n   GRANT EXECUTE ON msdb.dbo.sp_update_job TO JobEditors;\n   -- Other necessary job-manipulating SPs can be granted here as needed.

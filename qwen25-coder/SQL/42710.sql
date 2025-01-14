@@ -1,0 +1,1 @@
+ALTER TABLE your_table MODIFY COLUMN timestamp_column BIGINT;

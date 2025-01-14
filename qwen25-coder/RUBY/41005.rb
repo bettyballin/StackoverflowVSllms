@@ -1,0 +1,1 @@
+= content_tag :div, '', class: ["post", *([cycle('even', 'odd')] + ['recent'] * post.recent? + ['replied_to'] * post.replied_to? + ['author_is_admin'] * post.author_is_admin?).compact]

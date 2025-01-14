@@ -1,0 +1,1 @@
+<?php\nif (isset($_GET['subdomain'])) {\n    $subdomain = $_GET['subdomain'];\n    // Check if the subdomain corresponds to a valid user and serve content accordingly.\n    echo "Welcome to {$subdomain}.mywebsite.example";\n} else {\n    header("HTTP/1.0 404 Not Found");\n    echo "Subdomain not found.";\n}\n?>

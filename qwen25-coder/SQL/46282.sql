@@ -1,0 +1,1 @@
+-- Assuming Oracle SQL, the basic command is:\nEXPLAIN PLAN FOR SELECT * FROM your_table WHERE condition;\n\n-- Then retrieve and analyze the execution plan:\nSELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);

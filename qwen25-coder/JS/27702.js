@@ -1,0 +1,1 @@
+// Using native JavaScript to get an element by its ID\nvar updateProgressDiv = document.getElementById('updateProgressDiv');

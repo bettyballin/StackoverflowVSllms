@@ -1,0 +1,1 @@
+<?php\n// Assume this value comes from your session or authentication logic\n$isLoggedIn = false;\n\nif ($isLoggedIn) {\n    include 'login.html';\n} else {\n    include 'guest.html';\n}\n?>

@@ -1,0 +1,1 @@
+// PHP4 - No warnings about & being deprecated\n  $b = &$a;

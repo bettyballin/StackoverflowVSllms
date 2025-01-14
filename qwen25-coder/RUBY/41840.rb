@@ -1,0 +1,1 @@
+require 'breadcrumbs_on_rails'\n\n   class ApplicationController < ActionController::Base\n     add_breadcrumb I18n.t('home'), :root_path\n   end

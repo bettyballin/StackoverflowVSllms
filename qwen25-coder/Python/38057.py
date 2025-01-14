@@ -1,0 +1,1 @@
+import shelve\n   \n   with shelve.open('data.db') as db:\n       db['key1'] = {'subkey': 'value'}\n

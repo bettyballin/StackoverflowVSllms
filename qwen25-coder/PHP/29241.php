@@ -1,0 +1,1 @@
+$referers = array(\n       'localhost',\n       // Add your domain here\n   );

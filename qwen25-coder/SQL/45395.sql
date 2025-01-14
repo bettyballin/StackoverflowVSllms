@@ -1,0 +1,1 @@
+SELECT * FROM your_table_name ORDER BY primary_key_column_name;

@@ -1,0 +1,1 @@
+$tidier = new Tidy();\n     $config = ['option' => 'value'];\n     $tidier->setConfig($config);\n     $cleanedData = $tidier->tidy($data);

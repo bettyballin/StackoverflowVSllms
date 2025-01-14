@@ -1,0 +1,1 @@
+# Python 2 example\nmy_dict = {'a': 1, 'b': 2}\nfor key in my_dict:  # Iterates over keys by default\n    print(key)\n\n# Python 3 example\nmy_dict = {'a': 1, 'b': 2}\nfor item in my_dict.items():  # Explicitly use items() to iterate over key-value pairs\n    print(item)\nfor key in my_dict.keys():  # Use keys() for just the keys\n    print(key)

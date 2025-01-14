@@ -1,0 +1,1 @@
+$value = [1, 2, 3];\n$stringRepresentation = print_r($value, true); // The second parameter (true) makes it return the result as a string

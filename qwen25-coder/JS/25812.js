@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", function() {\n  var selectElement = document.querySelector('select');\n  selectElement.value = '-1'; // Sets the default option as '--'\n});

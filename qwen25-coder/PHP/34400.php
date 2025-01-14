@@ -1,0 +1,1 @@
+<?php\n   // Define a new tokenizer\n   class MyTokenizer extends \SebastianBergmann\PHPSyntaxHighlighter\Tokenizer {}\n   \n   // Register the tokenizer\n   $geshi->addTokenizer(new MyTokenizer());\n   ?>

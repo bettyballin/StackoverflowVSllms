@@ -1,0 +1,1 @@
+<?php if ($page): ?>\n  <h1><?php print $title; ?></h1>\n  <div class="node-content">\n    <?php print $content['name']; ?><br />\n    <?php print 'Email: '. check_plain($content['mail']); ?>\n    <?php print $content['body']; ?>\n  </div>\n<?php endif; ?>

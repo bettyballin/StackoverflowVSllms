@@ -1,0 +1,1 @@
+:setvar Db1Name "db1-development"\n\nSELECT * FROM [$(Db1Name)].[schema].[table];

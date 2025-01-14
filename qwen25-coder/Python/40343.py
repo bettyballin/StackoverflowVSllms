@@ -1,0 +1,1 @@
+import xlwings as xw\n\n   # Connect to an existing workbook or create a new one\n   wb = xw.Book('example.xlsx')\n\n   # Run a macro\n   wb.macro('MyMacro')()\n\n   # Access and modify sheet data\n   sheet = wb.sheets['Sheet1']\n   print(sheet.range('A1').value)\n   sheet.range('A1').value = 'Hello, world!'\n\n   # Close the workbook\n   wb.close()

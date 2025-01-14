@@ -1,0 +1,1 @@
+function isValidXML($xmlString) {\n       libxml_use_internal_errors(true);\n       $doc = new DOMDocument();\n       $doc->loadXML($xmlString);\n       $errors = libxml_get_errors();\n       libxml_clear_errors();\n       return empty($errors);\n   }

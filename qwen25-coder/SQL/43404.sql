@@ -1,0 +1,1 @@
+SELECT * \nFROM TableName \nWHERE MATCH(Name) AGAINST('spa' IN BOOLEAN MODE)\nORDER BY \n    CASE \n        WHEN Name = 'spa' THEN 1\n        WHEN Name LIKE 'spa %' OR Name LIKE '% spa %' THEN 2\n        WHEN Name LIKE '% spa' THEN 3\n        ELSE 4\n    END,\n    MATCH(Name) AGAINST('spa' IN BOOLEAN MODE) DESC;

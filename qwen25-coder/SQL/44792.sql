@@ -1,0 +1,1 @@
+-- Example of creating a table and inserting data in SQLite\n   CREATE TABLE Users (ID INTEGER PRIMARY KEY, Name TEXT NOT NULL);\n   INSERT INTO Users (Name) VALUES ('John Doe');

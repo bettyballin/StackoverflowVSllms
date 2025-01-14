@@ -1,0 +1,1 @@
+require_once __DIR__ . '/vendor/autoload.php';\n   $mpdf = new \Mpdf\Mpdf();\n   $mpdf->WriteHTML('<h1>Hello world</h1>');\n   $mpdf->Output();

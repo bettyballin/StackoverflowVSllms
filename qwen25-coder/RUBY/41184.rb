@@ -1,0 +1,1 @@
+class Band < ApplicationRecord\n  validates :genre, presence: { message: "can't be blank" }\nend

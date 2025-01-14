@@ -1,0 +1,1 @@
+function different_explode($delimiter, $string) {\n    // Use explode to split the string by the delimiter\n    $parts = explode($delimiter, $string);\n    // Filter out any empty strings\n    return array_filter($parts, function($value) { return !empty($value); });\n}\n\n// Example usage\nvar_dump(different_explode('/', '1/2//3/'));

@@ -1,0 +1,1 @@
+SELECT SUM(TIMESTAMPDIFF(SECOND, start_time, end_time)) AS total_duration_seconds\nFROM your_table_name;

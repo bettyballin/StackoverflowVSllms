@@ -1,0 +1,1 @@
+BACKUP DATABASE [AMS_Prod_log] TO DISK = 'C:\Backups\AMS_Prod_log_Full.bak' WITH INIT;

@@ -1,0 +1,1 @@
+<?php\n$userName = "James Smith";\n$parsedUserName = str_replace(' ', '.', $userName);\necho $parsedUserName; // Outputs: James.Smith\n?>

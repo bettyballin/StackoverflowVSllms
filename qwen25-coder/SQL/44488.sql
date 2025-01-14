@@ -1,0 +1,1 @@
+SELECT \n    UID, \n    COUNT(UID) AS TotalRecords, \n    SUM(ContractDollars) AS ContractDollars,\n    (CAST(SUM(CASE WHEN MyColumn = 1 THEN 1 ELSE 0 END) AS FLOAT) / COUNT(UID) * 100) AS PercentageOfOnes\nFROM    \n    dbo.AD_CurrentView\nGROUP BY \n    UID\nHAVING  \n    SUM(ContractDollars) >= 500000

@@ -1,0 +1,1 @@
+ALTER TABLE `content_link`\nDROP PRIMARY KEY,\nADD PRIMARY KEY (`category_id`, `content_id`),\nDROP INDEX content_id;

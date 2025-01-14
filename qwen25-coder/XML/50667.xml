@@ -1,0 +1,1 @@
+<authentication mode="Windows"/>\n   <authorization>\n       <deny users="?"/> <!-- Deny anonymous -->\n   </authorization>

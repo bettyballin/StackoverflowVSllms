@@ -1,0 +1,1 @@
+WITH ObsMax AS (\n    SELECT \n        o.pId, \n        o.hdId,\n        MAX(o.obsDate) as maxDate\n    FROM ml.Obs o\n    WHERE o.obsDate < {?EndDate}\n    GROUP BY o.pId, o.hdId\n)\nSELECT Person.*, Obs.*, Om.maxDate\nFROM ml.Person Person\nJOIN ml.Obs ON Person.pID = Obs.pId\nJOIN ObsMax Om \nON Obs.pId = Om.pId AND Obs.hdId = Om.hdId AND Obs.obsDate = Om.maxDate;

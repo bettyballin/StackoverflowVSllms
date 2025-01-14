@@ -1,0 +1,1 @@
+SET SERVEROUTPUT ON\nBEGIN\n  FOR indx IN 1 .. 5\n  LOOP\n    DBMS_OUTPUT.put_line(indx || ': ' || SYS_GUID());\n    dbms_lock.sleep(0.1); -- Introduce a small delay to increase variability\n  END LOOP;\nEND;\n/

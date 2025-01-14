@@ -1,0 +1,1 @@
+SELECT *\nFROM users\nWHERE TIMESTAMPDIFF(SECOND, login_time, NOW()) <= 600; -- 600 seconds is equivalent to 10 minutes

@@ -1,0 +1,1 @@
+$.post("ajax.php", {}, function(data) {\n    // Using standard JavaScript forEach method\n    data.ids.forEach(function(id, index) {\n        alert(data.names[index]);\n    });\n\n    // Alternatively, using jQuery's each method\n    /*\n    $.each(data.ids, function(index, id) {\n        alert(data.names[index]);\n    });\n    */\n}, "json");

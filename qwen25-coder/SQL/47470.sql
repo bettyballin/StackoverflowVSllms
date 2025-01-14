@@ -1,0 +1,1 @@
+CREATE TABLE recent_downloads (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    filename VARCHAR(255) NOT NULL,\n    download_date DATETIME DEFAULT CURRENT_TIMESTAMP\n);

@@ -1,0 +1,1 @@
+$('#catalogButton').click(function() {\n         $.ajax({\n             url: '/GetCatalogContent',\n             success: function(data) {\n                 $('#contentRegion').html(data);\n             }\n         });\n     });

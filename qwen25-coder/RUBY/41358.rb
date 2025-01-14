@@ -1,0 +1,1 @@
+# In your model (e.g., app/models/user.rb)\nclass User < ApplicationRecord\n  attr_accessor :submit_action\n\n  validates_uniqueness_of :value1, :value2, unless: :resubmit?\n\n  def resubmit?\n    submit_action == 'resubmit'\n  end\nend

@@ -1,0 +1,1 @@
+CREATE OR REPLACE TYPE varray_numbers AS VARRAY(10000) OF NUMBER;\n/\n\nCREATE TABLE large_array_table (\n    id NUMBER PRIMARY KEY,\n    numbers varray_numbers\n);\n/

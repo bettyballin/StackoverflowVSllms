@@ -1,0 +1,1 @@
+SELECT Alternative, SUM(Total) AS Total, SUM(Male) AS Male, SUM(Female) AS Female\nFROM your_table_name\nWHERE Alternative = 'c'\nGROUP BY Alternative\n\nUNION ALL\n\nSELECT Alternative, Total, Male, Female\nFROM your_table_name\nWHERE Alternative <> 'c';

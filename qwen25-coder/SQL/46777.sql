@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nORDER BY some_column\nOFFSET 10 ROWS FETCH NEXT 10 ROWS ONLY;

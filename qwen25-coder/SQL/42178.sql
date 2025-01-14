@@ -1,0 +1,1 @@
+-- Check status of population\nSELECT \n    fulltextCatalogProperty('HtmlSearch', 'PopulateStatus') AS PopulateStatus;\n\n-- If it's not 1 (or 2 for Throttled), start a manual population:\nALTER FULLTEXT INDEX ON docs START FULL POPULATION;

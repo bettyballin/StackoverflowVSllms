@@ -1,0 +1,1 @@
+#!/usr/bin/php\n<?php\n// Read POST data\n$postData = file_get_contents("php://input");\n\n// Call the C++ executable and provide input via echo or by redirecting\n$output = shell_exec('echo -n "' . escapeshellarg($postData) . '" | /path/to/cpp_binary');\n\nheader('Content-Type: text/plain');\necho $output;\n?>

@@ -1,0 +1,1 @@
+SELECT \n    InvoiceID AS 'Invoice/@ID',\n    InvoiceDate AS 'Invoice/Date',\n    TotalAmount AS 'Invoice/Total'\nFROM Invoices\nWHERE Month(InvoiceDate) = 1 AND Year(InvoiceDate) = 2023\nFOR XML PATH ('Document'), ROOT('Invoices')

@@ -1,0 +1,1 @@
+# If a Bug can have only one Status and each Status can belong to many Bugs\nclass Bug < ApplicationRecord\n  belongs_to :status\nend\n\nclass Status < ApplicationRecord\n  has_many :bugs\nend\n\n# This setup is less common but illustrates the difference\n# class Bug < ApplicationRecord\n#   has_one :status\n# end\n#\n# class Status < ApplicationRecord\n# belongs_to :bug\n# end

@@ -1,0 +1,1 @@
+<filter>\n    <filter-name>PathAndInterfaceFilter</filter-name>\n    <filter-class>com.example.PathAndInterfaceFilter</filter-class>\n</filter>\n\n<filter-mapping>\n    <filter-name>PathAndInterfaceFilter</filter-name>\n    <url-pattern>/a/b/*</url-pattern>\n</filter-mapping>

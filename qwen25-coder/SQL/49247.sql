@@ -1,0 +1,1 @@
+INSERT IGNORE INTO table1 (col1, col2)\nSELECT t2.col1, dist_col2.value\nFROM (\n    SELECT DISTINCT col2 AS value FROM table1\n) AS dist_col2\nCROSS JOIN table2 t2;

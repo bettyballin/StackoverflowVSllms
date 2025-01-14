@@ -1,0 +1,1 @@
+$sugar_config['logger']['level'] = 'debug';

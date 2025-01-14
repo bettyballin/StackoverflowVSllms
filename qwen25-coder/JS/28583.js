@@ -1,0 +1,1 @@
+<script>\n    document.addEventListener("DOMContentLoaded", function() {\n        // Selects the first input, select, or textarea element in the document\n        var firstInput = document.querySelector('input, select, textarea');\n        \n        // Sets focus if an element is found\n        if (firstInput) {\n            firstInput.focus();\n        }\n    });\n</script>

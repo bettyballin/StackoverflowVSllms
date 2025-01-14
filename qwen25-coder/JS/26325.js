@@ -1,0 +1,1 @@
+var args = {\n    Foo: 4,\n    Bar: "test"\n};\n\nnew Ajax.Request(baseurl + 'MyMethod', {\n    method: 'POST',\n    contentType: 'application/json',\n    postBody: Object.toJSON(args),\n    onSuccess: jadda,\n    onFailure: jidda\n});

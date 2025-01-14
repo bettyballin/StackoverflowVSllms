@@ -1,0 +1,1 @@
+SELECT 'User' AS source, name \nFROM users \nWHERE name LIKE '%alex%'\n\nUNION \n\nSELECT 'Admin' AS source, name \nFROM admins \nWHERE name LIKE '%alex%';

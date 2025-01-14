@@ -1,0 +1,1 @@
+def create_user\n  user = User.new(email: params[:email])\n  if user.save\n    # handle successful save\n  else\n    respond_to do |format|\n      format.js { render json: { errors: user.errors.full_messages }, status: :unprocessable_entity }\n    end\n  end\nend

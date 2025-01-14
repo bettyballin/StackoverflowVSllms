@@ -1,0 +1,1 @@
+DECLARE @locationType VARCHAR(50);\nDECLARE @locationID INT;\n\nSELECT column1, column2\nFROM viewWhatever\nWHERE \n    (@locationType = 'location' AND account_location = @locationID)\n    OR (@locationType = 'area' AND xxx_location_area = @locationID)\n    OR (@locationType = 'division' AND xxx_location_division = @locationID);

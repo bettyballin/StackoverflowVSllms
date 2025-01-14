@@ -1,0 +1,1 @@
+$.ajax({\n  url: "X.asp",\n  cache: false,\n  type: "POST",\n  data: queryString,\n  success: function(response){\n    // Assuming the response is a JSON object with status and message properties\n    var jsonResponse = JSON.parse(response);\n    $('#x_'+Num).append(jsonResponse.message); // or jsonResponse.status\n  }\n});

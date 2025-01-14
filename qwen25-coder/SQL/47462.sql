@@ -1,0 +1,1 @@
+SELECT find_final_redirect(<your_starting_id>);

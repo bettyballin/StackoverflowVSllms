@@ -1,0 +1,1 @@
+-- Example of creating a similar table in PostgreSQL.\n   CREATE TABLE Items (\n     ItemID SERIAL PRIMARY KEY,\n     Name VARCHAR(255) NOT NULL,\n     Description TEXT,\n     Price NUMERIC(10, 2) NOT NULL,\n     Stock INTEGER DEFAULT 0\n   );

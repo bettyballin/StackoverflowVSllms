@@ -1,0 +1,1 @@
+<?php\n$filePath = __DIR__ . '/.htMyClass.inc.php';\nif (file_exists($filePath)) {\n    require_once $filePath;\n} else {\n    throw new Exception('File not found: ' . $filePath);\n}\n?>

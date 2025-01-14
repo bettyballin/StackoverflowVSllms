@@ -1,0 +1,1 @@
+# Add this line to your Gemfile if not already present for jQuery\n   gem 'jquery-rails'

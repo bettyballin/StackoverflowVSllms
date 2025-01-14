@@ -1,0 +1,1 @@
+SELECT \n    name AS JobName,\n    next_run_date AS NextRunDate,\n    next_run_time AS NextRunTime\nFROM msdb.dbo.sysjobs_view \nWHERE (next_run_date != 0 OR next_run_time != 0)\nORDER BY next_run_date, next_run_time;

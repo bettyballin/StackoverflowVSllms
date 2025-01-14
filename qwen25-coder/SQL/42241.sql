@@ -1,0 +1,1 @@
+UPDATE your_table \nSET statustime = getdate() \nWHERE id = 2009;\n\nUPDATE your_table \nSET duration = datediff(ss, statustime, getdate()) \nWHERE id = 2009;

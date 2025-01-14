@@ -1,0 +1,1 @@
+-- Assuming you want to drop the existing clustered index and create a new one on I3_Identity\nALTER TABLE YourTableName DROP CONSTRAINT YourCurrentClusteredIndexName;\nCREATE CLUSTERED INDEX I3_Identity_Clustered ON YourTableName(I3_Identity);

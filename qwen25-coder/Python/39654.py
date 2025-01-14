@@ -1,0 +1,1 @@
+import win32con\n\nprint(win32con.MB_OK)

@@ -1,0 +1,1 @@
+pairs = [(1, 'one'), (2, 'two'), (3, 'three')]\n   sorted_pairs = sorted(pairs, key=lambda pair: pair[1])

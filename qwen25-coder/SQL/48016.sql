@@ -1,0 +1,1 @@
+category_id INT PRIMARY KEY,\nname VARCHAR(255) NOT NULL

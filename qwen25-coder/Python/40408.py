@@ -1,0 +1,1 @@
+import cProfile\nimport pstats\n\ndef your_function_to_profile():\n    # Your code here\n    pass\n\n# Profiling the function\nprofiler = cProfile.Profile()\nprofiler.enable()\n\nyour_function_to_profile()\n\nprofiler.disable()\nstats = pstats.Stats(profiler).sort_stats('cumtime')\nstats.print_stats(10)  # Print top 10 functions by cumulative time

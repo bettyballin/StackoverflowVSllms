@@ -1,0 +1,1 @@
+abstract class BaseClass {\n    abstract public function methodOne();\n    abstract public function methodTwo($param);\n}\n\nclass ChildClass extends BaseClass {\n    // The child class must adhere to the signature in the parent.\n    public function methodOne() { /* implementation here */ }\n    \n    public function methodTwo($param) { /* implementation here */ }\n}

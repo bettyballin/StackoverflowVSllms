@@ -1,0 +1,1 @@
+ALTER TABLE Table1\nADD DateChanged DATETIME DEFAULT GETDATE(),\n    CONSTRAINT UpdateDateChanged\n    DEFAULT (GETDATE()) FOR DateChanged;

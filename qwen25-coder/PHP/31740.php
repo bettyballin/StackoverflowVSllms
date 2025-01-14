@@ -1,0 +1,1 @@
+function logArray($array) {\n    error_log(print_r($array, true));\n}\n\n// Usage\nlogArray(array(1, 2, 4));

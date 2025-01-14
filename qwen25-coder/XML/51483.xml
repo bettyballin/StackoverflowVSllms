@@ -1,0 +1,1 @@
+<xs:element name="ColumnName" type="xs:int" nillable="true" minOccurs="0"/>

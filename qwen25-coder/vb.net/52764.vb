@@ -1,0 +1,1 @@
+Public Class Parameters\n    Public Property Param1 As Object\n    Public Property Param2 As Object\n    Public Property ReportStatus As Action(Of String)\nEnd Class

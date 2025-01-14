@@ -1,0 +1,1 @@
+// Attach keydown event listener to the document using jQuery\n$(document).on('keydown', function(event) {\n    console.log('Key pressed:', event.key);\n    // You can also use event.keyCode or event.which for older browsers compatibility\n});

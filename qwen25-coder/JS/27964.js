@@ -1,0 +1,1 @@
+document.getElementById('closeButton').addEventListener('click', function() {\n    document.getElementById('dialogBox').style.display = 'none';\n});

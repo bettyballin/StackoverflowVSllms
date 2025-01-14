@@ -1,0 +1,1 @@
+Imports System.Configuration\n\nPublic Class MyWebServiceClient : Inherits MyWebService\n    Public Sub New()\n        MyBase.New()\n        ' Load the URL from appSettings.\n        Me.Url = ConfigurationSettings.AppSettings("MyWebServiceUrl")\n    End Sub\nEnd Class

@@ -1,0 +1,1 @@
+class User < ApplicationRecord\n  validate :password_different_from_login\n\n  private\n\n  def password_different_from_login\n    if login.present? && password == login\n      errors.add(:password, "can't be the same as login")\n    end\n  end\nend

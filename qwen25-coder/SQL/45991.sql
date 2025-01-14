@@ -1,0 +1,1 @@
+INSERT INTO answered_questions (user_id, question_id) VALUES (?, ?);

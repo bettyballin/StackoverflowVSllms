@@ -1,0 +1,1 @@
+echo htmlspecialchars($row['your_column'], ENT_QUOTES, 'UTF-8');

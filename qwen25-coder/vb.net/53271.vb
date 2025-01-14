@@ -1,0 +1,1 @@
+Public Class MathOperations\n    Public Function Add(x As Integer, y As Integer) As Integer\n        Return x + y\n    End Function\nEnd Class

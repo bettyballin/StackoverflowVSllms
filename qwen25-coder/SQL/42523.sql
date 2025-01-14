@@ -1,0 +1,1 @@
+SELECT \n    t1.id,\n    t1.text AS 'lang A',\n    t2.text AS 'lang B'\nFROM \n    YourTableName t1\nINNER JOIN \n    YourTableName t2\nON \n    t1.id = t2.id AND t1.lang < t2.lang;

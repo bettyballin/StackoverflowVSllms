@@ -1,0 +1,1 @@
+from django.contrib import messages\n\ndef my_view(request):\n    # some processing\n    messages.success(request, 'Your operation was successful!')\n    return redirect('some-view-name')

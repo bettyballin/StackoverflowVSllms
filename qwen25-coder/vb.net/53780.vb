@@ -1,0 +1,1 @@
+Dim ResultString As String\nTry\n    Dim RegexObj As New System.Text.RegularExpressions.Regex("[^\d]")\n    ResultString = RegexObj.Replace(SubjectString, "")\nCatch ex As ArgumentException\n    ' Syntax error in the regular expression\nEnd Try

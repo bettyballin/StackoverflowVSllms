@@ -1,0 +1,1 @@
+SELECT * FROM dba_role_privs WHERE grantee = 'YOUR_USER';

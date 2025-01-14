@@ -1,0 +1,1 @@
+$url = "http://example.com?param1=value1&param2=value2";\ncurl_setopt($curl_handle, CURLOPT_URL, $url);

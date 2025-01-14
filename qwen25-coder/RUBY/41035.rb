@@ -1,0 +1,1 @@
+<% @created = scenario.created_at.strftime("%B %d, %Y at %H:%M") %>

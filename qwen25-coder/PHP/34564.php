@@ -1,0 +1,1 @@
+session_set_cookie_params([\n       'samesite' => 'None'\n   ]);

@@ -1,0 +1,1 @@
+// src/Controller/Component/MenuComponent.php\nnamespace App\Controller\Component;\n\nuse Cake\Controller\Component;\n\nclass MenuComponent extends Component\n{\n    public function getMenu()\n    {\n        $menuItemsTable = \Cake\ORM\TableRegistry::getTableLocator()->get('MenuItems');\n        return $menuItemsTable->getMenuItems();\n    }\n}

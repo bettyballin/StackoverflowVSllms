@@ -1,0 +1,1 @@
+import html\n\ndef convert_entities_to_numeric(xml_content):\n    return html.escape(html.unescape(xml_content))\n\n# Example usage\nxml_content = '<root>&Aring;</root>'\nconverted_xml = convert_entities_to_numeric(xml_content)\nprint(converted_xml)  # Output: <root>Å</root>

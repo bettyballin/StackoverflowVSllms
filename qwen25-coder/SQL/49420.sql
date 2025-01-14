@@ -1,0 +1,1 @@
+SELECT \n    startTime, \n    endTime,\n    CASE \n        WHEN startTime <= endTime THEN\n            CAST(DATEDIFF(HOUR, startTime, endTime) AS VARCHAR) + ':' +\n            RIGHT('0' + CAST((DATEDIFF(MINUTE, startTime, endTime) % 60) AS VARCHAR), 2)\n        ELSE '0:00'\n    END AS RUNTIME\nFROM \n    applog\nWHERE \n    runID = 33871\nORDER BY \n    startTime DESC;

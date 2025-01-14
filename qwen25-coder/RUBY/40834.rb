@@ -1,0 +1,1 @@
+group :development, :production do\n  gem 'facebooker'\n  gem 'flickraw'\nend\n\n# Or alternatively, use an environment variable or different groups if you want more control\nif ENV['RAILS_ENV'] != 'test'\n  gem 'facebooker'\n  gem 'flickraw'\nend

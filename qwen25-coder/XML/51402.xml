@@ -1,0 +1,1 @@
+<module>\n  <!-- Other module settings -->\n\n  <extend-property name="serializer" values="com.yourpackage.SqlDate_CustomFieldSerializer"/>\n</module>

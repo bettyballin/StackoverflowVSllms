@@ -1,0 +1,1 @@
+sendKeys(locator, "\\13");

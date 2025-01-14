@@ -1,0 +1,1 @@
+CREATE TABLE sizes (\n   id NUMBER,\n   name VARCHAR2(10),\n   CONSTRAINT fk_size_option FOREIGN KEY (name) REFERENCES size_options(size_name)\n);

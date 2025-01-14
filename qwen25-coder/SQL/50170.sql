@@ -1,0 +1,1 @@
+ALTER TABLE table_name ALTER COLUMN old_column_name TYPE column_definition; -- change definition if needed, then rename\nEXEC sp_rename 'table_name.old_column_name', 'new_column_name';

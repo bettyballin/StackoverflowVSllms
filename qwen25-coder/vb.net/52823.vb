@@ -1,0 +1,1 @@
+Imports System.Xml.Linq\n\nDim kml As XDocument = XDocument.Load(Server.MapPath("../kmlimport/ga.kml"))\nDim ns As XNamespace = "http://earth.google.com/kml/2.0"\n\nDim Placemarks = From p In kml.Descendants(ns + "Placemark")\n                 Select Name = p.Element(ns + "name").Value\n\nFor Each placemark In Placemarks\n    Console.WriteLine(placemark.Name)\nNext

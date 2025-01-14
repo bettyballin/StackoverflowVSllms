@@ -1,0 +1,1 @@
+gem install prawn mini_magick

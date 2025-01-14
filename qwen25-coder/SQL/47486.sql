@@ -1,0 +1,1 @@
+SELECT \n    SoftwareName,\n    Canada,\n    USA,\n    (Canada + USA) AS Total\nFROM (\n    SELECT \n        SoftwareName, \n        Count, \n        Country\n    FROM YourTableName\n) AS SourceTable\nPIVOT\n(\n    SUM(Count)\n    FOR Country IN (Canada, USA)\n) AS PivotTable;

@@ -1,0 +1,1 @@
+-- Using v$sql in Oracle\nSELECT sql_text \nFROM v$sql \nWHERE last_active_time >= SYSDATE - 1 -- Check the last day's activity\nORDER BY last_active_time;

@@ -1,0 +1,1 @@
+CREATE TRIGGER [dbo].[Documents_InsertTrigger]\nON [dbo].[Documents]\nINSTEAD OF INSERT\nAS\nBEGIN\n    SET NOCOUNT ON;\n\n    -- Insert with calculated order\n    INSERT INTO dbo.Documents (Doc_Id, Doc_Value, Doc_Order)\n    SELECT i.Doc_Id, i.Doc_Value,\n           (SELECT ISNULL(MAX(d.DOC_ORDER), 0) + 1 FROM dbo.Documents d)\n    FROM inserted i;\nEND;

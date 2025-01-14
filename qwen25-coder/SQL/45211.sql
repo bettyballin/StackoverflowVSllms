@@ -1,0 +1,1 @@
+SELECT \n  CASE WHEN @current_year = Year THEN '' ELSE Year END AS DisplayYear,\n  Quarter,\n  Total,\n  @current_year := Year\nFROM \n  your_table_name,\n  (SELECT @current_year := NULL) as var_init\nORDER BY\n  Year, Quarter;

@@ -1,0 +1,1 @@
+CREATE TABLE YourTableName (\n    YourColumnName INT,\n    CONSTRAINT chk_YourColumnName CHECK (YourColumnName > 0)\n);

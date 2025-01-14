@@ -1,0 +1,1 @@
+ALTER TABLE jnrvwchnglst ADD (jnrvwchnglst_userid NUMBER(10) DEFAULT 1 NOT NULL)

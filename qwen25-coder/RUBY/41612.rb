@@ -1,0 +1,1 @@
+# Load the Rails environment\nrequire File.expand_path('../../config/environment', __FILE__)\n\n# Access a model inside the rails application\nUser.all.each do |user|\n  # Your logic here, for example:\n  puts "Processing user: #{user.name}"\nend

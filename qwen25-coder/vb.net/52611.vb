@@ -1,0 +1,1 @@
+Public Class MyClass\n    Public Property MyProperty As String\nEnd Class\n\nSub Main()\n    Dim myObject = New MyClass With {\n        .MyProperty = "Hello World"\n    }\nEnd Sub

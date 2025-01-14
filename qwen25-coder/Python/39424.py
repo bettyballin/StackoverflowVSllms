@@ -1,0 +1,1 @@
+from functools import reduce\nimport operator\nfrom django.db.models import Q\n\nq_list = [Q(xyz__isnull=True), Q(x__startswith='x')]\n\n# Combine the list of Q objects with OR\ncombined_q = reduce(operator.or_, q_list)\n\n# Apply the combined Q object to your filter\nresults = Model.objects.filter(combined_q)

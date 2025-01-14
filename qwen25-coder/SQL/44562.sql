@@ -1,0 +1,1 @@
+CREATE TABLE Statuses (\n       StatusID INT PRIMARY KEY IDENTITY(1,1),\n       Description NVARCHAR(50)\n     );\n     \n     CREATE TABLE Orders (\n       OrderID int PRIMARY KEY,\n       CustomerID int,\n       StatusID int,\n       FOREIGN KEY (StatusID) REFERENCES Statuses(StatusID)\n     );

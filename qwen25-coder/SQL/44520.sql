@@ -1,0 +1,1 @@
+SELECT DATEADD(day, 7 - (DATEPART(dw, GETDATE()) + @@DATEFIRST) % 7, CONVERT(date, GETDATE())) AS NextSunday;

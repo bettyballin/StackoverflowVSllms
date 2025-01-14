@@ -1,0 +1,1 @@
+EXEC xp_instance_regread \n    N'HKEY_LOCAL_MACHINE', \n    N'Software\Microsoft\Microsoft SQL Server\MSSQL10.MSQLSERVER\MSSQLServer', \n    N'ServiceAccount'

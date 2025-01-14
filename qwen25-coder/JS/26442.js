@@ -1,0 +1,1 @@
+// Example: Get all <p> tags\n   const paragraphs = document.querySelectorAll('p');

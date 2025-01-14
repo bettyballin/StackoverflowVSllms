@@ -1,0 +1,1 @@
+-- Table structure for example purposes\nCREATE TABLE Assets (\n    AssetId INT PRIMARY KEY,\n    AssetName VARCHAR(50)\n);\n\nCREATE TABLE Attributes (\n    AttributeId INT PRIMARY KEY,\n    AssetId INT,\n    AttributeValue VARCHAR(50),\n    FOREIGN KEY (AssetId) REFERENCES Assets(AssetId)\n);

@@ -1,0 +1,1 @@
+def immediate_subdirectories(dir_path)\n  Dir.glob(File.join(dir_path, '*')).select { |entry| File.directory?(entry) && File.symlink?(entry).! }\nend\n\n# Example usage:\nsource_file = 'path/to/your/source/file'\ntarget_directory = 'path/to/target/directory'\n\nimmediate_subdirectories(target_directory).each do |subdir|\n  FileUtils.copy(source_file, subdir)\nend

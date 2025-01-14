@@ -1,0 +1,1 @@
+<class name="Document" table="Documents">\n  <id name="Id">\n    <generator class="identity"/>\n  </id>\n  <property name="Name"/>\n  <property name="Content" type="BinaryBlob"/> <!-- Maps byte[] -->\n</class>

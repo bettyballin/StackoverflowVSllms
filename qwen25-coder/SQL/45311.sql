@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS record_count FROM your_table_name;\n\nIF record_count > 10000 THEN\n    -- Consider adding an index on frequently queried columns\nEND IF;

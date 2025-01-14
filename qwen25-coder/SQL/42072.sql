@@ -1,0 +1,1 @@
+-- Example of creating a cube using SQL Server Analysis Services would involve more detailed steps in SSAS interface or similar OLAP tool.\n  CREATE CUBE SalesCube AS\n  SELECT [Measures].[TotalSales],\n         DIMENSION [Products].[ProductID]\n  FROM Sales;

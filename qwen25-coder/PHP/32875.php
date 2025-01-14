@@ -1,0 +1,1 @@
+@imagejpeg($img_copy, $newFilename, 70); // Lowered quality from 80 to 70

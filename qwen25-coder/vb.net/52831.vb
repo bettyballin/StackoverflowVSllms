@@ -1,0 +1,1 @@
+' Assuming 'desiredOrder' is a List(Of String) with the names of columns in desired order.\nDim desiredOrder As New List(Of String)({"InboundDate", "Zip", "manifestID", ..., "LTL"})\n\nFor i As Integer = 0 To desiredOrder.Count - 1\n    YourDataGrid.Columns(desiredOrder(i)).DisplayIndex = i\nNext

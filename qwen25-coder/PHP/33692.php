@@ -1,0 +1,1 @@
+// Explicitly using $_POST\nif (isset($_POST['foo'])) {\n    $value = $_POST['foo'];\n}\n\n// Explicitly using $_GET\nif (isset($_GET['foo'])) {\n    $value = $_GET['foo'];\n}\n\n// Explicitly using $_COOKIE\nif (isset($_COOKIE['foo'])) {\n    $value = $_COOKIE['foo'];\n}

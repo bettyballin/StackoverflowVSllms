@@ -1,0 +1,1 @@
+EXEC sp_adddistributor @distributor = 'YourDistributorServerName';\n   EXEC sp_adddistributiondb @database = 'distribution';

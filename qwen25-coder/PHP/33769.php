@@ -1,0 +1,1 @@
+ini_set('session.save_path', '/path/to/shared/session/directory');

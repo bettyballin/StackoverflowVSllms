@@ -1,0 +1,1 @@
+CREATE TABLE entries (\n    id INT IDENTITY PRIMARY KEY,\n    entry_name VARCHAR(255) NOT NULL\n);

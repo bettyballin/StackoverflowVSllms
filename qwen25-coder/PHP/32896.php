@@ -1,0 +1,1 @@
+include 'inc.php'; // Include the inc.php file which starts the session\n\nif (isset($_SESSION['shared_var'])) {\n    $retrieved_variable = $_SESSION['shared_var']; // Access the shared variable\n} else {\n    $retrieved_variable = null; // Default value if not set\n}\n\n// Use $retrieved_variable as needed here

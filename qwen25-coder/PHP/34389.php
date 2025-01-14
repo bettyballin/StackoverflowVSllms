@@ -1,0 +1,1 @@
+// Example: Function to submit an expense request\n   function submitExpenseRequest($userId, $amount, $description) {\n       if (validateAmount($amount)) {\n           // Store the expense request in the database linked to userId\n       } else {\n           throw new Exception("Invalid amount.");\n       }\n   }

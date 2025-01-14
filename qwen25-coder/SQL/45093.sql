@@ -1,0 +1,1 @@
+CREATE VIEW PetsView AS\nSELECT PetId, Name \nFROM Pets\nUNION ALL\nSELECT PetID, Name \nFROM PetOtherNames;

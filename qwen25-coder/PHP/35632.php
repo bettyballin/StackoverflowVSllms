@@ -1,0 +1,1 @@
+require_once 'path/to/HTMLPurifier.auto.php';\n\n$config = HTMLPurifier_Config::createDefault();\n$config->set('Core.Encoding', 'UTF-8');\n$config->set('Cache.DefinitionImpl', null); // Enables auto-cleanup of cache\n\npurifier = new HTMLPurifier($config);\n$safeHtml = $purifier->purify($safeMarkdownHtml);

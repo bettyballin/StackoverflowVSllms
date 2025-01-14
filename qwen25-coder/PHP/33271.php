@@ -1,0 +1,1 @@
+<?php\n$servername = "uuuq.com";\n$username = "paulasplace_sudo";\n$password = "mypassword";\n\n// Create connection\n$conn = mysqli_connect($servername, $username, $password);\n\n// Check connection\nif (!$conn) {\n    die("Connection failed: " . mysqli_connect_error());\n}\necho "mysql connected successfully!";\n?>

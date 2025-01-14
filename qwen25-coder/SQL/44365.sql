@@ -1,0 +1,1 @@
+alter table B WITH CHECK check constraint FKBtoA;

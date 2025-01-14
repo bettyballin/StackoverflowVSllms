@@ -1,0 +1,1 @@
+function getMovieDetails($movieId) {\n         global $conn; // Assuming $conn is your mysqli object\n         $stmt = $conn->prepare("SELECT * FROM movies WHERE id=?");\n         $stmt->bind_param("i", $movieId);\n         $stmt->execute();\n         return $stmt->get_result();\n     }

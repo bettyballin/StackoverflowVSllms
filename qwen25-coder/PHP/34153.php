@@ -1,0 +1,1 @@
+# Example setting in settings.php for enabling page caching\n$conf['cache'] = 1;

@@ -1,0 +1,1 @@
+use Carbon\Carbon;\n\necho Carbon::parse('last monday')->toDateTimeString(); // Outputs something like: 2023-04-17 00:00:00\necho Carbon::parse('first day of next month')->toDateTimeString(); // Outputs something like: 2023-06-01 00:00:00

@@ -1,0 +1,1 @@
+$post = [];\nwhile ($row = $result->fetch(PDO::FETCH_ASSOC)) {\n    $post[] = [\n        'id' => $row['id'],\n        'title' => $row['title']\n    ];\n}

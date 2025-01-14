@@ -1,0 +1,1 @@
+from sympy import symbols, diff\n\n# Define symbol\nx = symbols('x')\n\n# Create an algebraic expression\nexpression = x**2 + 3*x + 4\n\n# Differentiate the expression with respect to x\ndifferentiated_expr = diff(expression, x)\n\nprint("Original Expression:", expression)\nprint("Differentiated Expression:", differentiated_expr)

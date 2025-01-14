@@ -1,0 +1,1 @@
+// Example of checking browser capability using feature detection\nif ('WebGLRenderingContext' in window) {\n    console.log('This browser supports WebGL for advanced graphics rendering.');\n} else {\n    console.warn('This browser may have limitations with rendering complex graphics.');\n}

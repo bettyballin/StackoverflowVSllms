@@ -1,0 +1,1 @@
+function generateProfileForm() {\n    return '<form method="POST" action="profile.php">\n                <input type="text" name="username" required>\n                <!-- Additional form fields -->\n                <input type="hidden" name="action" value="update_profile">\n                <button type="submit">Update Profile</button>\n            </form>';\n}

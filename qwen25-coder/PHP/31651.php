@@ -1,0 +1,1 @@
+class SomeOtherClass {\n    private $db;\n\n    public function __construct(Database $db) {\n        $this->db = $db;\n    }\n\n    // Use $this->db as needed\n}\n\n// Usage in index.php\n$db = new Database();\n$otherClass = new SomeOtherClass($db);

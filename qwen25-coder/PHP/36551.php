@@ -1,0 +1,1 @@
+<?php\n// Read the text from the file\n$textFromFile = file_get_contents('path/to/your/file.txt');\n\n// Output the text inside a <pre> tag to preserve formatting\necho "<pre>" . htmlspecialchars($textFromFile) . "</pre>";\n?>

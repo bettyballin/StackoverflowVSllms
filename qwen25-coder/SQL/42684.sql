@@ -1,0 +1,1 @@
+SELECT \n    EmployeeID,\n    Salary,\n    dbo.ufn_CalculateBonus(Salary) AS BonusAmount\nFROM \n    Employees;

@@ -1,0 +1,1 @@
+SELECT dbo.udf_YearFrac('2000-01-01', '2005-06-30') AS YearFraction;

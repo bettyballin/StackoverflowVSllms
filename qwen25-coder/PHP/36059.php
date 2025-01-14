@@ -1,0 +1,1 @@
+<ul>\n<?php foreach($navitems as $nav): ?>\n<li><?=$nav?></li>\n<?php endforeach; ?>\n</ul>

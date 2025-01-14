@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#example').DataTable({\n        "ajax": 'data.json', // Your data source\n        "columns": [\n            { "data": "name" },\n            { "data": "position" },\n            { "data": "office" }\n        ]\n    });\n});

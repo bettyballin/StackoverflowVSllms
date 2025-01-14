@@ -1,0 +1,1 @@
+var elementsArray = Array.from(document.querySelectorAll('.your-class-name'));

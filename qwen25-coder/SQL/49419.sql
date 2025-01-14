@@ -1,0 +1,1 @@
+SELECT column_name, REPLACE(column_name, '/files/', '/sites/default/files/')\n    FROM your_table_name\n    WHERE column_name LIKE '%/files/%';

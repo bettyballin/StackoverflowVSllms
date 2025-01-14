@@ -1,0 +1,1 @@
+' Global.asa\n   Sub Session_OnStart()\n       Session.Timeout = 20 ' Set timeout if needed\n       Response.Write("Session started at " & Now() & "<br>")\n   End Sub

@@ -1,0 +1,1 @@
+<?php\n$internalHost = 'yourdomain.com'; // Replace with your domain\n\nif (!isset($_SERVER['HTTP_REFERER']) || strpos($_SERVER['HTTP_REFERER'], $internalHost) === false) {\n    header('Location: index.php'); // Redirect to index.php if not coming from the internal domain\n    exit;\n}\n\n// Your page content here\n?>

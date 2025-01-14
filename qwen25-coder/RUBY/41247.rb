@@ -1,0 +1,1 @@
+respond_to do |format|\n  format.html\n  format.pdf {\n    render pdf: "file_name",\n           template: "controller/action"\n  }\nend

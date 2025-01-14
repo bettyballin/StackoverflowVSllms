@@ -1,0 +1,1 @@
+<?php\n    $user = CakeSession::read('Auth.User');\n    echo "Welcome " . h($user['username']);\n?>

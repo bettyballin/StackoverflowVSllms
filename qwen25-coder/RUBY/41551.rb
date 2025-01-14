@@ -1,0 +1,1 @@
+Widget.where("name LIKE ?", "%awesome%")

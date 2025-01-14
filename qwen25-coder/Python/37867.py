@@ -1,0 +1,1 @@
+import setproctitle\n\n# Set the new process name\nsetproctitle.setproctitle('my_new_process_name')\n\n# Example of an infinite loop to keep the process running for testing purposes\nfrom time import sleep\nwhile True:\n    sleep(60)

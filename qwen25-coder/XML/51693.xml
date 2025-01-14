@@ -1,0 +1,1 @@
+<item>\n    <title>Item Title</title>\n    <description>\n        <![CDATA[\n            <p>This is an example of an image with text:</p>\n            <img src="http://example.com/image_script.php" alt="Dynamic Image">\n        ]]>\n    </description>\n</item>

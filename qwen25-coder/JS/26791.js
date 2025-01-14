@@ -1,0 +1,1 @@
+// Open DevTools (F12), navigate to 'Device toolbar' and select your desired device size here or add custom resolution.\n   var emulateNokia6630Width = 176;\n   var emulateNokia6630Height = 208;

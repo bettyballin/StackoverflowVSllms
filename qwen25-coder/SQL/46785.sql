@@ -1,0 +1,1 @@
+SELECT * \nFROM TABLE \nWHERE REPLACE(REPLACE(Phonenumber, '-', ''), '(', '') = REPLACE(REPLACE('555123456', '-', ''), '(', '');

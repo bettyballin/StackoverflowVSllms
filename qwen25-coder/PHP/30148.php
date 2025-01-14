@@ -1,0 +1,1 @@
+$xml = simplexml_load_string($yourXmlString);\n\n// Register the default namespace used in the XML\n$xml->registerXPathNamespace('ns', 'http://iptc.org/std/NewsML/2003-10-10/');\n\n// Use the namespace prefix in your XPath query\n$results = $xml->xpath('/ns:NewsML');

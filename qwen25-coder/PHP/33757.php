@@ -1,0 +1,1 @@
+<?php\nob_start();\n// Your PHP code here, before sending headers\nheader('Location: http://example.com/newpage');\nob_end_flush();\nexit;\n?>

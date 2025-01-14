@@ -1,0 +1,1 @@
+$this->set(compact('variableName'));\n// In view, access it as $variableName

@@ -1,0 +1,1 @@
+SELECT \n    (SELECT COUNT(*) FROM YourTable AS T2 WHERE T2.YourCol <= T1.YourCol) AS RowNum,\n    T1.*\nFROM \n    YourTable AS T1\nORDER BY \n    T1.YourCol;

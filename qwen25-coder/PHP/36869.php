@@ -1,0 +1,1 @@
+imagejpeg($resizedImage, $outputFile, 75); // Adjust quality as needed

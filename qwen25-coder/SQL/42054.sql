@@ -1,0 +1,1 @@
+ALTER TABLE User \nALTER COLUMN sign varbinary(512) NULL;

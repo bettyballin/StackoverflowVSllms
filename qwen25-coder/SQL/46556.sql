@@ -1,0 +1,1 @@
+WITH dept_info AS (\n     SELECT department_id, AVG(salary) AS avg_salary \n     FROM employees GROUP BY department_id\n   )\n   SELECT e.first_name, e.last_name, dept.avg_salary\n   FROM employees e JOIN dept_info dept ON e.department_id = dept.department_id;

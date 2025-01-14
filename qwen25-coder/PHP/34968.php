@@ -1,0 +1,1 @@
+try {\n    $pdo = new PDO('mysql:host=localhost;dbname=yourDatabaseName', 'mexautos', 'yourPassword');\n    // Set the PDO error mode to exception\n    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);\n} catch (PDOException $e) {\n    die("Could not connect to the database: " . $e->getMessage());\n}

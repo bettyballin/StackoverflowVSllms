@@ -1,0 +1,1 @@
+CREATE TABLE Users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    firstName VARCHAR(50),\n    lastName VARCHAR(50),\n    email VARCHAR(255) UNIQUE NOT NULL,\n    passwordHash VARCHAR(60) NOT NULL  -- Assuming bcrypt for hashing\n);

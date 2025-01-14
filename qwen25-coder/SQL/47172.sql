@@ -1,0 +1,1 @@
+SELECT MAX(session_count) AS max_concurrent_users\n   FROM session_counts;

@@ -1,0 +1,1 @@
+<nav>\n    <pages>\n        <page1>\n            <label>Example Page</label>\n            <module>users</module>\n            <controller>profile</controller>\n            <action>view</action>\n            <params>\n                <id>123</id>\n            </params>\n        </page1>\n    </pages>\n</nav>

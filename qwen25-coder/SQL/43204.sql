@@ -1,0 +1,1 @@
+-- Create roles if they don't exist\nCREATE ROLE book_adder;\nGO\n\n-- Grant insert permission on Books table to the role\nGRANT INSERT ON BOOKS TO book_adder;\nGO\n\n-- Add users to the role (replace [DOMAIN\Bob] with actual domain user accounts)\nEXEC sp_addrolemember 'book_adder', '[DOMAIN\Bob]';\nEXEC sp_addrolemember 'book_adder', '[DOMAIN\Jim]';

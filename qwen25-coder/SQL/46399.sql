@@ -1,0 +1,1 @@
+SELECT Sender, COUNT(*) AS NumberOfEmails\nFROM EmailsTable\nGROUP BY Sender;

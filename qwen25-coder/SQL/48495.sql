@@ -1,0 +1,1 @@
+SELECT CONVERT(NVARCHAR(MAX), a.notes) + 'SomeText' AS CombinedText\nFROM NotesTable a

@@ -1,0 +1,1 @@
+<xs:element name="YourColumnName" msprop:Generator_ColumnPropSet="ColumnName=YourColumnName;IsKey=false;AllowDBNull=true;DefaultValue=;DbType=String;ProviderType=NVarChar;NVarCharLength=50;Precision=0;Scale=0;IsUnique=false;Expression=;ColumnMapping=Unspecified;" type="xs:string" msprop:DisplayRule="Caption" caption="User-Friendly Caption">

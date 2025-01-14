@@ -1,0 +1,1 @@
+$('.article').on('click', function() {\n    var articleId = $(this).data('articleid');\n    // Now use articleId to fetch the content via AJAX or manipulate as needed.\n});

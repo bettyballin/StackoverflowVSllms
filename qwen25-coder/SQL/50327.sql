@@ -1,0 +1,1 @@
+DECLARE \n    DateTimeVar DATE := SYSDATE;\n    VarcharVar VARCHAR2(10);\nBEGIN\n    VarcharVar := TO_CHAR(DateTimeVar, 'YYYY-MM-DD');\n    DBMS_OUTPUT.PUT_LINE(VarcharVar);\nEND;\n-- Or as a query:\nSELECT TO_CHAR(SYSDATE, 'YYYY-MM-DD') AS formatted_date FROM dual;

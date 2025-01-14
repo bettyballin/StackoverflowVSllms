@@ -1,0 +1,1 @@
+<?php\n$jsonData = '{"name": "John", "age": 30, "city": "New York"}';\n$xmlData = '<root><name>John</name><age>30</age><city>New York</city></root>';\n\n// JSON decoding\n$decodedJson = json_decode($jsonData, true);\n\n// XML parsing and decoding\n$xmlObj = simplexml_load_string($xmlData);\n$decodedXml = (array) $xmlObj;\n\nprint_r($decodedJson);\nprint_r($decodedXml);\n?>

@@ -1,0 +1,1 @@
+SELECT apps.isavailable\nFROM dbo.Applications apps\nLEFT JOIN dbo.Holidays hol ON apps.applicationid = hol.applicationid \n    AND CONVERT(VARCHAR, CAST(GETDATE() AS DATE), 101) = CONVERT(VARCHAR, CAST(hol.holidaydate AS DATE), 101)\nWHERE apps.applicationname = @appname\nAND hol.applicationid IS NULL;

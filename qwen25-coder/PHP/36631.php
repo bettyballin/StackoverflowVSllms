@@ -1,0 +1,1 @@
+// In a controller method of one of your modules\n   public function index() {\n       add_css('your-module/css/style.css');\n       $this->load->view('your-module/view_name');\n   }

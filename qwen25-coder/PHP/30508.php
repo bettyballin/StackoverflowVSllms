@@ -1,0 +1,1 @@
+$var = '<tr>\n    [LOOP]<th scope="col">%Gdata_All%</th>[/LOOP]\n</tr>';\n\npreg_match('/\[LOOP\](.*?)\[\/LOOP\]/s', $var, $matches);\nif (!empty($matches[1])) {\n    $gloop = $matches[1];\n    echo htmlspecialchars($gloop); // Use htmlspecialchars to safely output the content\n} else {\n    echo "No match found.";\n}

@@ -1,0 +1,1 @@
+<View>\n  <Query><OrderBy><FieldRef Name="ID"/></OrderBy></Query>\n  <ViewFields>\n    <!-- Show Fields for all users -->\n    <FieldRef Name="Title"/>\n    <FieldRef Name="UserComments"/>\n    <!-- Hide Admin fields from this view -->\n    <FieldRef Name="AdminNotes" Hidden="TRUE"/>\n  </ViewFields>\n</View>

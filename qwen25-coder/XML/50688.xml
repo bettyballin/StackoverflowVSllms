@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>com.oracle</groupId>\n    <artifactId>ojdbc7</artifactId>\n    <version>12.1.0.2</version>\n</dependency>

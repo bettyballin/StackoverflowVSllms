@@ -1,0 +1,1 @@
+try {\n    $conn = new PDO("odbc:Driver={Oracle in ODBC};Dsn=your_dsn;Uid=your_username;Pwd=your_password;");\n    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);\n    echo "Connected successfully";\n} catch (PDOException $e) {\n    echo "Connection failed: " . $e->getMessage();\n}

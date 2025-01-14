@@ -1,0 +1,1 @@
+module MyModule\n  def method_a(param)\n    @var ||= 0\n    # other logic goes here\n  end\nend\n\nclass MyClass\n  include MyModule\nend\n\n# Usage\nobj = MyClass.new\nobj.method_a(10)  # This will initialize @var the first time it's accessed

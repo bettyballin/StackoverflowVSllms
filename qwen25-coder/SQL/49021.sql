@@ -1,0 +1,1 @@
+UPDATE YourTableName\nSET DateTimeColumn = DATEADD(DAY, RAND() * 36500, '1980-01-01')

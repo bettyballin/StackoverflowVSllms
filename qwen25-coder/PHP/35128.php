@@ -1,0 +1,1 @@
+<!-- application/views/template.php -->\n<html>\n<head>\n    <title>MySite</title>\n</head>\n<body>\n    <?php $this->load->view('partials/navbar'); ?>\n    <div class="content">\n        <?php echo $yield; ?>\n    </div>\n    <?php $this->load->view('partials/footer'); ?>\n</body>\n</html>

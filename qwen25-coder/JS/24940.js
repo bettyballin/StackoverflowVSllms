@@ -1,0 +1,1 @@
+if (window.self !== window.top) {\n    console.log("I am in an iframe");\n} else {\n    console.log("I am not in an iframe");\n}

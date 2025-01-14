@@ -1,0 +1,1 @@
+' Create a new PictureBox programmatically and set its properties\nDim pictureBox1 As New PictureBox()\npictureBox1.Image = Image.FromFile("path_to_your_icon.png")\npictureBox1.SizeMode = PictureBoxSizeMode.AutoSize  ' Adjust the size mode as needed\n\n' Add PictureBox to your form\nMe.Controls.Add(pictureBox1)

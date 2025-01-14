@@ -1,0 +1,1 @@
+<?php \nif (get_the_ID() % 3 == 0) { \n    // ad code \n} \n?>

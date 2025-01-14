@@ -1,0 +1,1 @@
+<add key="hibernate.connection.connection_string" value="your_connection_string_here" />

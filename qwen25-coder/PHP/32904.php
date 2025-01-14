@@ -1,0 +1,1 @@
+// Assuming $conn is your MySQLi connection object\n$stmt = $conn->prepare("INSERT INTO project (clientname, salesperson, prospect) VALUES (?, ?, ?)");\n$stmt->bind_param("sss", $clientName, $salesPer, $prospectVal);\n$stmt->execute();\n\n$projectID = $stmt->insert_id;\n\nreturn $projectID;

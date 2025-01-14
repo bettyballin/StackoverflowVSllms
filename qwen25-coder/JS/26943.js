@@ -1,0 +1,1 @@
+var store = encodeURIComponent('11200');\nvar product = encodeURIComponent('Meat');\nvar ajax = new Ajax.Request('server.php?store=' + store + '&product=' + product, {\n    onSuccess: function(myData){ /* process data */ }\n});

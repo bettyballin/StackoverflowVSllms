@@ -1,0 +1,1 @@
+CREATE INDEX IX_KeywordID ON Keywords(KeywordID);\nCREATE INDEX IX_KeyID ON Key Fields(KeyID);

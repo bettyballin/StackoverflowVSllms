@@ -1,0 +1,1 @@
+// Example: Util class using namespace for custom library\nnamespace App\Libraries;\n\nclass Util {\n    public static function formatDate($date) { ... }\n}

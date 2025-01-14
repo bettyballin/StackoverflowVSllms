@@ -1,0 +1,1 @@
+WITH RankedEntries AS (\n    SELECT \n        id,\n        ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY timestamp DESC) as rn\n    FROM \n        foo\n)\nDELETE FROM foo\nWHERE id NOT IN (SELECT id FROM RankedEntries WHERE rn <= N);

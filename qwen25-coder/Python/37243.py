@@ -1,0 +1,1 @@
+from django.db import transaction\n\n# Create a list of Entry objects\nentries = [Entry(a1=item.a1, a2=item.a2) for item in items]\n\n# Use bulk_create inside a transaction for efficiency\nwith transaction.atomic():\n    # bulk_create returns the list of created objects (if it includes auto-generated fields)\n    Entry.objects.bulk_create(entries, batch_size=1000)

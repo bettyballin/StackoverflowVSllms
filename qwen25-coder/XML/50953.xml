@@ -1,0 +1,1 @@
+<system.web>\n     <httpCookies httpOnlyCookies="true" requireSSL="true" />\n   </system.web>

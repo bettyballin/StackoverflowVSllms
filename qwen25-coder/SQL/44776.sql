@@ -1,0 +1,1 @@
+SELECT \n    entity_id,\n    MAX(CASE WHEN attribute_name = 'first_name' THEN value END) AS first_name,\n    MAX(CASE WHEN attribute_name = 'last_name' THEN value END) AS last_name,\n    MAX(CASE WHEN attribute_name = 'email' THEN value END) AS email\nFROM \n    form_data_table\nGROUP BY \n    entity_id;

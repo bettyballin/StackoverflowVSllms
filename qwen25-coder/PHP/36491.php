@@ -1,0 +1,1 @@
+function filterPhoneNumber($input) {\n    // Use preg_replace to keep only digits\n    return preg_replace('/[^0-9]/', '', $input);\n}\n\n$phoneNumber = "0333 452-123-4";\n$filteredNumber = filterPhoneNumber($phoneNumber);\n\necho $filteredNumber; // Outputs: 03334521234

@@ -1,0 +1,1 @@
+SELECT DISTINCT e.id\nFROM Event e, \n     (SELECT LEVEL - 1 AS day_offset FROM dual CONNECT BY LEVEL <= 365)\nWHERE TO_CHAR(e.start_date + day_offset, 'DY', 'NLS_DATE_LANGUAGE=ENGLISH') = 'MON'\nAND e.start_date + day_offset <= e.end_date;

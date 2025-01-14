@@ -1,0 +1,1 @@
+class ClassA {\n    private $collection = array();\n    public $value;\n\n    function __get($item) {\n        if (array_key_exists($item, $this->collection)) {\n            return $this->collection[$item];\n        }\n        // Optionally throw an exception or handle the error\n        trigger_error("Undefined property: '$item'", E_USER_WARNING);\n        return null;\n    }\n}

@@ -1,0 +1,1 @@
+<connectionStrings>\n       <add name="MyDbConnectionString" connectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\yourdb.mdf;Integrated Security=True;User Instance=True;" providerName="System.Data.SqlClient" />\n     </connectionStrings>

@@ -1,0 +1,1 @@
+CREATE TABLE ExpensiveQueriesLog (\n    QueryId INT IDENTITY(1,1) PRIMARY KEY,\n    ExecutionTime DATETIME,\n    TextData NVARCHAR(MAX),\n    TotalLogicalReads BIGINT,\n    TotalPhysicalReads BIGINT,\n    TotalWorkerTime BIGINT,\n    SQLHandle VARBINARY(64)\n);

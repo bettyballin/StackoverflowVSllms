@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetItemsByIds\n    @myList NVARCHAR(MAX)\nAS\nBEGIN\n    SELECT  *\n    FROM    tbl\n    WHERE   Id IN (SELECT ID FROM dbo.SplitToIntList(@myList))\nEND

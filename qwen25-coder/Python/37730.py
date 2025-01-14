@@ -1,0 +1,1 @@
+from sqlobject import LIKE\n\ndef search1():\n    # Perform the search query directly within the database using SQLObject's filtering\n    items = Item.select(OR(\n        Item.q.name.contains('foo'),\n        Item.q.skim.contains('foo')\n    ))\n    \n    for item in items:\n        print(item.name)

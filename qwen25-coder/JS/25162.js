@@ -1,0 +1,1 @@
+// Example Gulpfile.js setup\n   const gulp = require('gulp');\n   const htmlmin = require('gulp-htmlmin');\n\n   gulp.task('minify', function() {\n     return gulp.src('src/*.html')\n      .pipe(htmlmin({ collapseWhitespace: true }))\n      .pipe(gulp.dest('dist'));\n   });

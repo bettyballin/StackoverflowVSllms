@@ -1,0 +1,1 @@
+def diamond_square(size, roughness=11/24.0, seed=None):\n       if seed is not None:\n           np.random.seed(seed)\n       # ... (diamond-square algorithm logic)

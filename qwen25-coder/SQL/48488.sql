@@ -1,0 +1,1 @@
+CREATE PROCEDURE dbo.GetEmployeeDetails\nAS\nBEGIN\n    SET NOCOUNT ON;\n    SELECT EmployeeId, EmployeeName FROM Employees;\n END;

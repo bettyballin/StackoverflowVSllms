@@ -1,0 +1,1 @@
+gem install ocra\n     ocra your_ruby_script.rb

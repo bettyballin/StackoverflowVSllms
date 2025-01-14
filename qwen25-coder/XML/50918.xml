@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n<interface>\n  <requires lib="gtk+" version="3.0"/>\n  <object class="GtkWindow" id="window">\n    <property name="can_focus">False</property>\n    <child>\n      <placeholder/>\n    </child>\n  </object>\n</interface>

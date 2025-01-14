@@ -1,0 +1,1 @@
+$conf['theme_default'] = 'your_theme_name';

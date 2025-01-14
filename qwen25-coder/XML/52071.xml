@@ -1,0 +1,1 @@
+<Resource name="UserDatabase" auth="Container"\n          type="org.apache.catalina.UserDatabase"\n          description="User database that can be updated and saved"\n          factory="org.apache.catalina.users.MemoryUserDatabaseFactory"\n          pathname="conf/tomcat-users.xml"/>

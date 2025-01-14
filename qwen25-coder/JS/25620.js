@@ -1,0 +1,1 @@
+/(?<selector>[A-Za-z0-9#._\[\]=]+)\s*{(?:(?:\s*(?<properties>[A-Za-z0-9-_]+)\s*:\s*(?<values>[^;]+);\s*)+)/g

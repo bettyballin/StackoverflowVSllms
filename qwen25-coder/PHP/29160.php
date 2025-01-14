@@ -1,0 +1,1 @@
+// Hashing a user's password before storing it\n$password = "userpassword"; // Password provided by user\n$hashedPassword = password_hash($password, PASSWORD_BCRYPT);\n\n// Store $hashedPassword in your database

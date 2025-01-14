@@ -1,0 +1,1 @@
+// In actions.class.php:\npublic function executeIndex(sfWebRequest $request)\n{\n    $userData = 'User specific data';\n    $this->getUser()->setAttribute('user_data', $userData);\n}

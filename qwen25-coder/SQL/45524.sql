@@ -1,0 +1,1 @@
+CREATE INDEX IDX_LogEntries_EntryTime ON LogEntries (EntryTime);

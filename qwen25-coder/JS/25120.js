@@ -1,0 +1,1 @@
+$(function () {\n    $('#yourCalendarId').datepicker({\n        dateFormat: 'dd/mm/yy', // set date format\n        changeMonth: true,      // add month navigation\n        changeYear: true        // add year navigation\n    });\n});

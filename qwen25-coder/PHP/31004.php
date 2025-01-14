@@ -1,0 +1,1 @@
+$url = "http://example.com";\n$hash = hash('blake2b', $url);\necho $hash;

@@ -1,0 +1,1 @@
+class CreateEdges < ActiveRecord::Migration[6.0]\n  def change\n    create_table :edges do |t|\n      t.references :vertex1, null: false, foreign_key: { to_table: :vertices }\n      t.references :vertex2, null: false, foreign_key: { to_table: :vertices }\n\n      # add necessary fields for an edge here\n\n      t.timestamps\n    end\n  end\nend

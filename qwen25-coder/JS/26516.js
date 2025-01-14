@@ -1,0 +1,1 @@
+$.ajax({\n     url: 'http://localhost:3000/proxy',\n     data: { path: '/api/0.6/map?bbox=-0.12755,51.49809,-0.12705,51.49859' }, // modify the bbox or any other query as needed\n     success: function(data) {\n       console.log('Success:', data);\n     },\n     error: function(error) {\n       console.error('Error:', error);\n     }\n   });

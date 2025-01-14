@@ -1,0 +1,1 @@
+# fooext.py\n    class FooAddonClass:\n        def __init__(self, framework):\n            self.framework = framework\n        \n        def activate(self):\n            print("Foo addon activated")

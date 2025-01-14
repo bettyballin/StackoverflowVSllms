@@ -1,0 +1,1 @@
+resource_owner_authenticator do\n     User.find_by(id: session[:user_id]) || redirect_to(new_user_session_path)\n   end

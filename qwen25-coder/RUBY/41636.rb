@@ -1,0 +1,1 @@
+# Gemfile\n   gem 'rack-mini-profiler', require: false\n\n   # config/initializers/rack_profiler.rb\n   if defined?(Rack::MiniProfiler)\n     Rack::MiniProfilerRails.initialize!(Rails.application)\n   end

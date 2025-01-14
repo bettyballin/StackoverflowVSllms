@@ -1,0 +1,1 @@
+import random\n\nnumber = None\nwhile number is None or number % 9 == 0:\n    number = random.randint(0, 99)\n\nprint(f"Random number that is not divisible by 9: {number}")

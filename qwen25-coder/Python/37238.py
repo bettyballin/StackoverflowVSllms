@@ -1,0 +1,1 @@
+from bs4 import BeautifulSoup\n\ndef sanitize_html(html):\n    soup = BeautifulSoup(html, "html.parser")\n    return str(soup)\n\n# Example usage\nunclean_html = "<p><ul><li>Foo</ul></p>"\nclean_html = sanitize_html(unclean_html)\nprint(clean_html)  # Output: <p><ul><li>Foo</li></ul></p>

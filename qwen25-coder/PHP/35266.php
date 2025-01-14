@@ -1,0 +1,1 @@
+$content = "<html><body>Some content here.</body></html>";\n\n// Regex pattern to match the content within <body> tags\npreg_match("/<body[^>]*>(.*?)<\/body>/is", $content, $matches);\n\nif (!empty($matches)) {\n    print_r($matches[1]);\n} else {\n    echo "No matches found.";\n}

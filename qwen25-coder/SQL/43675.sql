@@ -1,0 +1,1 @@
+SELECT \n  someKey,\n  bool_and(someBool) AS all_true\nFROM \n  myTable\nGROUP BY \n  someKey;

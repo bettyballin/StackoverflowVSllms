@@ -1,0 +1,1 @@
+CREATE TABLE your_table (\n    id INT PRIMARY KEY,\n    percentage DECIMAL(5,2) CHECK (percentage >= 0 AND percentage <= 100)\n);

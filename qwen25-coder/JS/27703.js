@@ -1,0 +1,1 @@
+// Using Prototype.js $get method which is equivalent to document.getElementById\nvar updateProgressDiv = $get('updateProgressDiv');

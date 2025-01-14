@@ -1,0 +1,1 @@
+$doba = explode("/", $dob);\n$date = date("Y-m-d", mktime(0, 0, 0, $doba[1], $doba[0], $doba[2]));

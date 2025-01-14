@@ -1,0 +1,1 @@
+SELECT * FROM myTable WHERE myTable.columnA LIKE 'bobo'

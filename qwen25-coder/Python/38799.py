@@ -1,0 +1,1 @@
+def is_prime(x):\n    if x <= 1:\n        return False\n    if x == 2:\n        return True  # 2 is the only even prime number\n    if x % 2 == 0:\n        return False  # other even numbers are not primes\n\n    # Check for factors from 3 to sqrt(x)\n    limit = int(x**0.5) + 1\n    for i in range(3, limit, 2):\n        if x % i == 0:\n            return False\n    return True

@@ -1,0 +1,1 @@
+SELECT * \nFROM (\n    SELECT ROW_NUMBER() OVER(PARTITION BY Team ORDER BY NEWID()) AS RN, Question, Answer, Team\n    FROM YourTableName -- Replace 'YourTableName' with the actual name of your table\n) AS RandomizedQuestions\nWHERE RN = 1\nORDER BY NEWID()\nLIMIT 5;  -- Use LIMIT for MySQL. For SQL Server, use TOP 5

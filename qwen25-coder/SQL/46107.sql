@@ -1,0 +1,1 @@
+-- Replace 'YourXmlSchemaCollectionName' with the name of your XML Schema Collection\nSELECT \n    xml_collection_definition\nFROM \n    sys.xml_schema_collections\nWHERE \n    [name] = N'YourXmlSchemaCollectionName';

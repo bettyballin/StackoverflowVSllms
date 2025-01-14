@@ -1,0 +1,1 @@
+Dim pdfDocument As Object = CreateObject("YourProgID")\n   ' Use the pdfDocument object...\n   \n   ' Release all references\n   If Not pdfDocument Is Nothing Then\n       System.Runtime.InteropServices.Marshal.ReleaseComObject(pdfDocument)\n       pdfDocument = Nothing\n   End If\n   GC.Collect()\n   GC.WaitForPendingFinalizers()

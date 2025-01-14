@@ -1,0 +1,1 @@
+WITH ids AS (\n  SELECT 130 AS id\n  UNION ALL\n  SELECT 130\n  -- Repeat this pattern for all your customer IDs\n)\nSELECT c.NAME\nFROM CUSTOMERS c\nJOIN ids ON c.CUSTOMER_ID = ids.id;

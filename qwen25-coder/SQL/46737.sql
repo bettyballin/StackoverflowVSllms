@@ -1,0 +1,1 @@
+SELECT COUNT(*)\n   FROM failed_login_attempts\n   WHERE (ip_address = 'user_ip' OR username = 'attempted_username')\n     AND attempt_time > NOW() - INTERVAL 5 MINUTE;

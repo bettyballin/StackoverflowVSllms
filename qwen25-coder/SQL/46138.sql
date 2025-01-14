@@ -1,0 +1,1 @@
+CREATE OR REPLACE PACKAGE BODY my_package AS\n\n  -- Existing PROCA and PROCB procedures would be defined here...\n\n  PROCEDURE batch_procedures IS\n  BEGIN\n    FOR i IN 1..5000 LOOP\n      PROCA(:value_a(i), :value_b(i));\n      PROCB(:value_c(i), :value_d(i), :value_e(i));\n    END LOOP;\n  END batch_procedures;\n\nEND my_package;

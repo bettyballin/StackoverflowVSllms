@@ -1,0 +1,1 @@
+CREATE TABLE test_number (\n    num_default NUMBER,\n    num_integer NUMBER(*,0),\n    num_total PRECISION NUMBER(38)\n);

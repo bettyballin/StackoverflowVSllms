@@ -1,0 +1,1 @@
+-- Start capturing using SQL Profiler\n   xp_trace_generateevent 82;  -- Example: RPC:Starting Event

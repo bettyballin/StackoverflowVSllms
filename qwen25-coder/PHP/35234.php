@@ -1,0 +1,1 @@
+<?php\nif (extension_loaded('soap')) {\n    die('SOAP extension is enabled. Please disable it to avoid conflicts with NuSOAP.');\n}

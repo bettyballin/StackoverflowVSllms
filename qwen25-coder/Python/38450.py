@@ -1,0 +1,1 @@
+# In __init__.py file\n\n# Declare public API for the module\n__all__ = ['my_function', 'MyClass']\n\ndef my_function():\n    pass\n\nclass MyClass:\n    pass\n\ndef internal_function():\n    # This function will not be exported with `from package import *`\n    pass

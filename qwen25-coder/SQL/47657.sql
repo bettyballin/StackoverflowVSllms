@@ -1,0 +1,1 @@
+-- Inserting date from PHP timestamp into MySQL table\nINSERT INTO your_table (datetime_column) VALUES (FROM_UNIXTIME(1672531200));\n\n-- Selecting date to convert MySQL datetime to PHP timestamp\nSELECT UNIX_TIMESTAMP(datetime_column) AS php_timestamp FROM your_table;

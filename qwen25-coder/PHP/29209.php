@@ -1,0 +1,1 @@
+$username = isset($_GET['username']) ? filter_input(INPUT_GET, 'username', FILTER_SANITIZE_STRING) : '';\n$password = isset($_GET['password']) ? filter_input(INPUT_GET, 'password', FILTER_SANITIZE_STRING) : '';

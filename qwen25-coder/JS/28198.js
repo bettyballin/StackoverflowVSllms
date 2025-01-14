@@ -1,0 +1,1 @@
+<script>\n    $(document).ready(function () {\n        // Listen for the custom event 'selectionUpdated'\n        $(document).on('selectionUpdated', function (event, redirectUrl) {\n            // Perform the required actions based on the host page logic\n            window.location.href = redirectUrl;  // Redirect to URL provided by AJAX response\n        });\n    });\n</script>

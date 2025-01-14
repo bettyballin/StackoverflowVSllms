@@ -1,0 +1,1 @@
+ALTER TABLE test ALTER COLUMN dob TYPE timestamp without time zone;

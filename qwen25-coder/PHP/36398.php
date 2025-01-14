@@ -1,0 +1,1 @@
+<?php\n    // Use double quotes for the key 'msg'\n    $return["msg"] = "Testing, testing.";\n    echo json_encode($return);\n?>

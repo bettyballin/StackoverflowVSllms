@@ -1,0 +1,1 @@
+<?php\n// Attempt to use ini_set\n$testSetting = @ini_set('display_errors', 'Off');\n\nif ($testSetting === false) {\n    echo "ini_set() is disabled.";\n} else {\n    echo "ini_set() is enabled.";\n}\n?>

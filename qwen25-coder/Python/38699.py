@@ -1,0 +1,1 @@
+def format_name(fname, lname):\n    # Capitalize the first letter of each name and make the rest lowercase\n    formatted_fname = fname.capitalize()\n    formatted_lname = lname.capitalize()\n    return f"{formatted_fname} {formatted_lname}"\n\n# Example usage\nfname = "JoHN"\nlname = "dOE"\nprint(format_name(fname, lname))  # Output: John Doe

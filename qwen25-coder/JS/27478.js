@@ -1,0 +1,1 @@
+const createAPI = (baseURL) => (endpoint) => fetch(`${baseURL}/${endpoint}`)\n   \n   const getFromGitHub = createAPI('https://api.github.com');\n   const usersResponse = await getFromGitHub('users');

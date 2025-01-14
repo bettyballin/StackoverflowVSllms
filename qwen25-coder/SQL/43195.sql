@@ -1,0 +1,1 @@
+WITH RECURSIVE NumberSeries (n) AS (\n    SELECT 2 AS n FROM SYSIBM.SYSDUMMY1\n    UNION ALL\n    SELECT n + 1\n    FROM NumberSeries\n    WHERE n < 4\n)\nSELECT * FROM NumberSeries;

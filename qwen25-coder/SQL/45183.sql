@@ -1,0 +1,1 @@
+WITH RankedT AS (\n    SELECT ColA, ColB, ColC,\n           ROW_NUMBER() OVER(PARTITION BY ColA ORDER BY TopColumn DESC) as rn\n    FROM T -- Assuming T is your right hand table here for the purpose of this example\n)\nSELECT T.ColA, T.ColB, T.ColC, RankedT.ColB AS OrderedColB, RankedT.ColC AS OrderedColC \nFROM T\nLEFT JOIN RankedT ON T.ColA = RankedT.ColA AND RankedT.rn = 1;

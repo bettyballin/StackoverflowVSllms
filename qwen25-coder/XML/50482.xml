@@ -1,0 +1,1 @@
+<SafeControl Assembly="YourAssemblyName, Version=1.0.0.0, Culture=neutral, PublicKeyToken=yourPublicKeyToken" Namespace="YourNamespace" TypeName="*" Safe="True" />

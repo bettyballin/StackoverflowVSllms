@@ -1,0 +1,1 @@
+SELECT \n    SUM(CASE WHEN Price >= 50 AND Price < 100 THEN 1 ELSE 0 END) AS Count_50_100,\n    SUM(CASE WHEN Price >= 100 AND Price < 500 THEN 1 ELSE 0 END) AS Count_100_500,\n    SUM(CASE WHEN Price >= 500 AND Price < 1000 THEN 1 ELSE 0 END) AS Count_500_1000\nFROM \n    Products;

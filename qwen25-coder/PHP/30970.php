@@ -1,0 +1,1 @@
+/**\n * Name\n *\n * Desc\n *\n * This class is part of both Sub1 and Sub2, hence the dual documentation.\n *\n * @package    Core\n * @subpackage Sub1\n */\nclass MyClass {\n}\n\n// Optionally, you can repeat the documentation with a different subpackage in another file if needed

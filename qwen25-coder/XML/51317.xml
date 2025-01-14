@@ -1,0 +1,1 @@
+<TextBox Name="EuroValue">\n  <Style>\n    <FontFamily>Arial Unicode MS</FontFamily>\n    <!-- Ensure to keep other styles as necessary -->\n  </Style>\n  <!-- Existing content (Value and FormatCurrency) -->\n</TextBox>

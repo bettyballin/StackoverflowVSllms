@@ -1,0 +1,1 @@
+CREATE FOREIGN TABLE some_table (\n       -- Define the columns here, matching the structure of the table in databaseB\n       id int,\n       name text\n   ) SERVER other_server\n     OPTIONS (schema_name 'public', table_name 'someTableName');

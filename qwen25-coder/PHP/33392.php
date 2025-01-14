@@ -1,0 +1,1 @@
+// At the beginning of each test file, include the autoloader\n  require 'vendor/autoload.php';

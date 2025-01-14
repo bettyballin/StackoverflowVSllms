@@ -1,0 +1,1 @@
+$('.parentClass > td > a.leftmenuitem:last, .parentClass > div > a.leftmenuitem:last')

@@ -1,0 +1,1 @@
+(pid = fork) ? Process.detach(pid) : exec("foo")

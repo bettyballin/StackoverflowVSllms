@@ -1,0 +1,1 @@
+# module1.py\nimport config\n\ndef print_foo():\n    print(config.foo)\n\n# some_other_module.py\nimport config\n\nconfig.foo = 'a_new_value'\n\n# This will reflect the change in other modules that also import and reference it.

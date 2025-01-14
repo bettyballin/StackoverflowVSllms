@@ -1,0 +1,1 @@
+Dim formatValue As Foo.FORMAT = Foo.FORMAT.ONE

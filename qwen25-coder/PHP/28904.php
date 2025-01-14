@@ -1,0 +1,1 @@
+// array of letters\n$letters = array('a', 'b', 'c');\n\n// loop through array and create empty arrays with names like $a, $b, $c\nforeach ($letters as $letter) {\n    $$letter = array();\n}\n\n// Example of accessing the dynamically created variables\nprint_r($a); // Outputs: Array ( )\nprint_r($b); // Outputs: Array ( )\nprint_r($c); // Outputs: Array ( )

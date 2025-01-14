@@ -1,0 +1,1 @@
+<%= form_with model: @resource, remote: true do |form| %>\n     <!-- Form fields here -->\n     <%= form.submit 'Submit' %>\n   <% end %>

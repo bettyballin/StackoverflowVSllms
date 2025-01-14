@@ -1,0 +1,1 @@
+CREATE TABLE employees (\n    id            INT PRIMARY KEY,\n    first_name    VARCHAR(50) NULL,\n    last_name     VARCHAR(75) NOT NULL,\n    date_of_birth DATE        NULL\n);

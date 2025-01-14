@@ -1,0 +1,1 @@
+<?php\nif (!empty($_POST['PHPSESSID'])) {\n    session_id($_POST['PHPSESSID']);\n}\nsession_start();\n\n// Now you can safely access your session variables\nif (isset($_SESSION['var'])) {\n    // Proceed with your code\n} else {\n    echo "Session variable is not set.";\n}\n?>

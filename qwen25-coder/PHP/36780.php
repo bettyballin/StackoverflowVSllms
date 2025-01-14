@@ -1,0 +1,1 @@
+<?php\n$name = "Alice";\n$greeting = <<<EOB\n<html>\n<head>\n    <title>Welcome</title>\n</head>\n<body>\n    <h1>Hello, $name!</h1>\n    <p>This is a demonstration of PHP's Heredoc syntax.</p>\n</body>\n</html>\nEOB;\n\necho $greeting;\n?>

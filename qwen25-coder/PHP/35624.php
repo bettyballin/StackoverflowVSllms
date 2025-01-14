@@ -1,0 +1,1 @@
+// Example array with duplicate elements\n$arrayWithDuplicates = [1, 2, 2, 3, 4, 4, 5];\n\n// Use array_unique to filter out duplicates\n$uniqueArray = array_unique($arrayWithDuplicates);\n\nprint_r($uniqueArray);

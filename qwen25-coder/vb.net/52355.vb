@@ -1,0 +1,1 @@
+Public Sub New()\n    InitializeComponent() ' Make sure this line comes first\n    _LoginErrorProvider = New ErrorLogErrorProvider(Me.components)\nEnd Sub

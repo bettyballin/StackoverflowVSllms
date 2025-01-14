@@ -1,0 +1,1 @@
+SELECT \n    (LENGTH(your_column) - LENGTH(REPLACE(your_column, 'one', ''))) / LENGTH('one') AS count_of_one\nFROM \n    your_table;

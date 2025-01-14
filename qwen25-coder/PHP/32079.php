@@ -1,0 +1,1 @@
+<?php\n$url = "https://stackoverflow.com/questions/ask";\n$htmlContent = @file_get_contents($url);\n\nif ($htmlContent === FALSE) {\n    die("Error fetching the URL");\n}\n\necho $htmlContent;\n?>

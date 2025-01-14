@@ -1,0 +1,1 @@
+usort($unsortedObjectArray, function($a, $b) {\n    return $b->weight <=> $a->weight; // Descending order\n});

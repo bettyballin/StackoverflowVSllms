@@ -1,0 +1,1 @@
+function showName() {\n    var id = 12;\n\n    display(id, function(salary) {\n        console.log('Salary from PHP:', salary);\n        // Here you can use the `salary` variable returned from the server.\n    });\n}

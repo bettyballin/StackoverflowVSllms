@@ -1,0 +1,1 @@
+var temp_date = "<?php echo($row); ?>";\nalert(temp_date);

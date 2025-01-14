@@ -1,0 +1,1 @@
+CREATE VIEW vw_Support_YourTableName\nAS\nSELECT * FROM YourTableName WITH (NOLOCK)

@@ -1,0 +1,1 @@
+$handle = @fopen($fullPath, "r");\nif ($handle) {\n    while (!feof($handle)) {\n        $buffer = fgets($handle);\n        $buffer = str_replace("\n", "\r\n", $buffer);\n        echo $buffer;\n    }\n    fclose($handle);\n}

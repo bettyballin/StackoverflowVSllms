@@ -1,0 +1,1 @@
+<?php\n$pipe = fopen('\\\\.\\pipe\\CSharpPipe', 'w');\nif ($pipe) {\n    fwrite($pipe, "Your data here");\n    fclose($pipe);\n}\n?>

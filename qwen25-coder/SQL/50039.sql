@@ -1,0 +1,1 @@
+SELECT table_name, num_rows\nFROM user_tables\nORDER BY num_rows DESC\nFETCH FIRST 1 ROW ONLY;

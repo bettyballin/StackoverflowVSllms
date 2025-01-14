@@ -1,0 +1,1 @@
+-- Connect to your SSRS database and check for schedules that might be incorrect\n   SELECT * FROM msdb.dbo.sysschedules WHERE name LIKE '%YourSubscriptionName%'

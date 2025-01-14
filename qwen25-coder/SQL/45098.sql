@@ -1,0 +1,1 @@
+CREATE PROCEDURE dbo.YourMessyProcedure\nAS\nBEGIN\n\n    SELECT * \n    FROM   Table1 \n    WHERE  Column1 = 'Value';\n\n    IF EXISTS (SELECT 1 \n               FROM   Table2)\n    BEGIN\n\n        DELETE \n        FROM   Table3;\n\n    END\n\n    UPDATE Table4 \n    SET    ColumnX = 'Updated' \n    WHERE  ColumnY = 'Criteria';\n\n    RETURN;\n\nEND

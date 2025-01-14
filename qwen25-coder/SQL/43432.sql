@@ -1,0 +1,1 @@
+CREATE TEMP TABLE temp_data (id SERIAL PRIMARY KEY, value INT);\n   INSERT INTO temp_data (value) VALUES (1), (2);

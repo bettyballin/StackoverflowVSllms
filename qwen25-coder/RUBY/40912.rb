@@ -1,0 +1,1 @@
+<%= form_with model: @news, url: news_path(@news), local: false, html: { :'data-remote-before' => 'myFunction()' } do |f| %>\n  <!-- your form fields here -->\n<% end %>

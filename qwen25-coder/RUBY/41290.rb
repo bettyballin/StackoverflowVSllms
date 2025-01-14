@@ -1,0 +1,1 @@
+if params[:upload].present?\n  params[:upload].each do |uploaded_image|\n    next if uploaded_image.blank?\n\n    # do something with uploaded_image\n    # For example, saving the file:\n    File.open(Rails.root.join('public', 'uploads', uploaded_image.original_filename), 'wb') do |file|\n      file.write(uploaded_image.read)\n    end\n  end\nend

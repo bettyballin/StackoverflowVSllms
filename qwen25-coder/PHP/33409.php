@@ -1,0 +1,1 @@
+// INDEX.PHP:\n$db = new database();\n$thing = new anything($db);\n\nclass anything {\n    private $db;\n\n    function __construct($databaseObject){\n        $this->db = $databaseObject;\n    }\n\n    public function executeSomething($something) {\n        $this->db->execute($something);\n    }\n}

@@ -1,0 +1,1 @@
+echo $_SERVER['PATH_INFO']; // Outputs: /faq/whatever

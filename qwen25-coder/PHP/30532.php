@@ -1,0 +1,1 @@
+chmod('/path/to/your/directory', 0755);

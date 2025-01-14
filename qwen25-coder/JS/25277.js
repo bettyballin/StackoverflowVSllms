@@ -1,0 +1,1 @@
+document.addEventListener('load', function(event) {\n    if (!event.target.src.match(/^https/)) {\n        console.log('Non-secure item: ', event.target.src);\n    }\n}, true);

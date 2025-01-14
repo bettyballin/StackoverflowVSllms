@@ -1,0 +1,1 @@
+SELECT yt.*\nFROM your_table yt\nJOIN TABLE(split_csv('1,2,3,4')) csv_ids ON yt.id = csv_ids.COLUMN_VALUE;

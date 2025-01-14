@@ -1,0 +1,1 @@
+$pdo = new PDO('mysql:host=localhost;dbname=test', 'username', 'password');\n$stmt = $pdo->query("SELECT * FROM users");\nwhile ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {\n    echo $row['username'];\n}

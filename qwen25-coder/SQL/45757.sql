@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS wp_change_log (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    object_type VARCHAR(255) NOT NULL,\n    object_id INT NOT NULL,\n    action VARCHAR(255) NOT NULL,\n    user_id INT NOT NULL,\n    changes TEXT,\n    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP\n);

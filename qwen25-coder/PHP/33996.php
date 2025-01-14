@@ -1,0 +1,1 @@
+<?php\nsession_start();\n$link = "page2.php?session_id=" . session_id();\necho '<br /><a href="' . htmlspecialchars($link) . '">page 2</a>';\n?>

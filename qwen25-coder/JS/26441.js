@@ -1,0 +1,1 @@
+// Example: Get the element with id="example"\n   const exampleElement = document.getElementById('example');

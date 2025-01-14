@@ -1,0 +1,1 @@
+<?php\n// Assuming your root is C:\xampp\htdocs\\ninclude("C:/xampp/htdocs/root/includes/header.php");\n?>

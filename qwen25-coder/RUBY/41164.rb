@@ -1,0 +1,1 @@
+if val.in?([nil, 0])\n  # Is nil or zero\nend

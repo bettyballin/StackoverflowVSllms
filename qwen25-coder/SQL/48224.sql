@@ -1,0 +1,1 @@
+-- Enable SQL Trace\nALTER SESSION SET sql_trace = TRUE;\n\n-- Execute the operation from the front end\n\n-- Disable SQL Trace\nALTER SESSION SET sql_trace = FALSE;\n\n-- Check the trace files for executed queries

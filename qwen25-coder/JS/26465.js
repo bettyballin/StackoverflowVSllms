@@ -1,0 +1,1 @@
+$('.a_s_trigger')\n    .on('mouseover', function(e) {\n        $(this).css({background: '#F3F3F3', cursor: 'pointer'});\n    })\n    .on('mouseout', function(e) {\n        $(this).css({background: '#E6E6E6'});\n    })\n    .on('click', function(e) {\n        var targetId = $(this).data('target');\n        $('#' + targetId).slideToggle();\n    });

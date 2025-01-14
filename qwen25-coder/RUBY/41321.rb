@@ -1,0 +1,1 @@
+class User < ApplicationRecord\n  with_options if: :step_one? do |user|\n    user.validates :email, presence: true\n    user.validates :first_name, presence: true\n  end\n\n  private\n\n  def step_one?\n    # logic to determine if this is the first step in your form workflow\n  end\nend

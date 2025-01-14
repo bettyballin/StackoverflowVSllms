@@ -1,0 +1,1 @@
+echo $undefinedVariable; // This will trigger an E_NOTICE\n\n  $array = ['key' => 'value'];\n  echo $array['missingKey']; // This will also trigger an E_NOTICE

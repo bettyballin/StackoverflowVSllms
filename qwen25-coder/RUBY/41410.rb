@@ -1,0 +1,1 @@
+# app/channels/user_channel.rb\n   class UserChannel < ApplicationCable::Channel\n     def subscribed\n       stream_from "users"\n       current_user.update(online: true)\n     end\n\n     def unsubscribed\n       current_user.update(online: false)\n     end\n   end

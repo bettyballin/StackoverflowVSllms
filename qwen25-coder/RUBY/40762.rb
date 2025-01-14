@@ -1,0 +1,1 @@
+# Assuming you have a model called User and you want to see the query for all users\nquery = User.all.to_sql\nputs query

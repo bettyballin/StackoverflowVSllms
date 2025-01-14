@@ -1,0 +1,1 @@
+# Example of securing MySQL connections in PHP\n   $conn = new mysqli($servername, $username, $password, $dbname);\n   if ($conn->connect_error) {\n       die("Connection failed: " . $conn->connect_error);\n   }

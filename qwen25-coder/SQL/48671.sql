@@ -1,0 +1,1 @@
+-- For page 2, showing rows 501 to 1000\nSELECT folio \nFROM (\n    SELECT folio, (SELECT COUNT(*) FROM regularTable AS rt2 WHERE rt2.folio <= rt1.folio) as row_number\n    FROM regularTable AS rt1\n    ORDER BY folio\n) AS numbered_table\nWHERE row_number BETWEEN 501 AND 1000;

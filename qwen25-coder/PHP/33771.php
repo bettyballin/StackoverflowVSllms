@@ -1,0 +1,1 @@
+task('deploy:vcs_info', function () {\n    $revision = run("svnversion -n .")->toString();\n    file_put_contents(__DIR__ . '/../shared/release_revision.txt', "Revision: {$revision}\n");\n})->desc('Get and share the SVN revision number');

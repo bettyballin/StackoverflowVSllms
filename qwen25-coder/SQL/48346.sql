@@ -1,0 +1,1 @@
+-- Adding a new column\nALTER TABLE your_table_name ADD new_column VARCHAR(255) NULL;\n\n-- Changing data type (ensure no data loss)\nALTER TABLE your_table_name ALTER COLUMN existing_column NEW_DATA_TYPE;

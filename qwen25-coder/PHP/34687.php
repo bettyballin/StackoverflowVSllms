@@ -1,0 +1,1 @@
+<article>\n    <h1><?php echo isset($title) ? html::specialchars($title) : 'Default Article Title'; ?></h1>\n    <p><?php echo isset($content) ? nl2br(html::specialchars($content)) : ''; ?></p>\n</article>

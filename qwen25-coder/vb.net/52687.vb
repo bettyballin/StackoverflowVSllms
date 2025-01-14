@@ -1,0 +1,1 @@
+Dim currentRow As YourDataSetName.YourTableNameRow = CType(yourDataTableNameBindingSource.Current, YourDataSetName.YourTableNameRow)\ncurrentRow.yourColumnName1 = "newValue"\nyourTableNameAdapter.Update(YourDataSetName.YourTableName) ' Updates the database with the changes in memory.

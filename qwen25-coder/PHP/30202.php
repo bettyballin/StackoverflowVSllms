@@ -1,0 +1,1 @@
+// Ensure a fresh template object if desired\n    $template = new Template(); // Assuming Template class exists and has no state\n    $_SESSION['template'] = serialize($template);

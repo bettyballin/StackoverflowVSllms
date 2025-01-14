@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare('UPDATE your_table SET column1 = ? WHERE id = ?');\n$stmt->execute(['value', $id]);\n$numRowsAffected = $stmt->rowCount();\necho "Number of rows updated: " . $numRowsAffected;

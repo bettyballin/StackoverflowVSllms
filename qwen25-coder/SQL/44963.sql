@@ -1,0 +1,1 @@
+CREATE TABLE calendar (\n       `date` DATE PRIMARY KEY\n   );

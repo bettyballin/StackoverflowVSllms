@@ -1,0 +1,1 @@
+SELECT *\nFROM auctions\nWHERE \n    status = '0'\nAND \nTIMEDIFF(\n    CONCAT(start_date, ' ', start_time), \n    NOW()\n) < SEC_TO_TIME(X * 3600)\nAND\nTIMEDIFF(\n    CONCAT(start_date, ' ', start_time), \n    NOW()\n) > SEC_TO_TIME((X - 1) * 3600);

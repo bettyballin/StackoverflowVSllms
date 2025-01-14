@@ -1,0 +1,1 @@
+SELECT title1 || '' || title2 || '' || title3 AS combined_title\nFROM your_table;

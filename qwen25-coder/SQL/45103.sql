@@ -1,0 +1,1 @@
+CREATE TABLE CourseRequirements (\n       requirement_id INT PRIMARY KEY AUTO_INCREMENT,\n       prerequisite_id INT,\n       course_id INT,\n       FOREIGN KEY (prerequisite_id) REFERENCES Prerequisites(prerequisite_id),\n       FOREIGN KEY (course_id) REFERENCES Courses(course_id)\n   );

@@ -1,0 +1,1 @@
+CREATE TABLE DimDepartment (\n         DepartmentID INT PRIMARY KEY,\n         DepartmentName VARCHAR(100),\n         DepartmentLeader VARCHAR(50)\n     );

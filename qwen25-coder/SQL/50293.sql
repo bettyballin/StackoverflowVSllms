@@ -1,0 +1,1 @@
+SELECT CAST(TO_CHAR(your_timestamp_column, 'YYYY-MM-DD HH24:MI:SS') AS TIMESTAMP) \nFROM your_table;

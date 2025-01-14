@@ -1,0 +1,1 @@
+<?php\nsession_start();\n$filename = 'download_progress_' . session_id() . '.txt';\n\nif (file_exists($filename)) {\n    readfile($filename);\n} else {\n    echo "Starting...";\n}\n?>

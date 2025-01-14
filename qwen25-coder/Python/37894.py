@@ -1,0 +1,1 @@
+# This is a simple Python script that demonstrates line-by-line execution\n\nprint("This is the first line.")\nprint("This is the second line.")\nx = 5\ny = 10\nprint(f"The sum of x and y is {x + y}.")

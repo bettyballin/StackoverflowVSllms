@@ -1,0 +1,1 @@
+# Ruby on Rails Model Example (ActiveRecord)\n   class User < ApplicationRecord\n     has_many :posts\n   end

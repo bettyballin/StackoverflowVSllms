@@ -1,0 +1,1 @@
+<?php\n$handle = fsockopen("tcp://xxx.xxx.xxx.xxx", 12345);\nfwrite($handle, "ls\n");\n\n$output = '';\nwhile (!feof($handle)) {\n    $buffer = fgets($handle, 4096);\n    \n    // Break on the custom delimiter\n    if (strpos($buffer, 'END_OF_OUTPUT') !== false) {\n        break;\n    }\n    \n    $output .= $buffer;\n}\n\necho $output;\n\nfclose($handle);\n?>

@@ -1,0 +1,1 @@
+<?php\n$jj = <<<END\n<h1>blah blah</h1>\n<p> blah blah blah blah blah blah blah <?php include("file.php"); ?> blah blah</p>\nEND;\n\n// Use output buffering for safer execution\nob_start();\neval('?>'.$jj.'<?php ');\n$content = ob_get_clean();\n\necho $content;\n?>

@@ -1,0 +1,1 @@
+...\n   WHERE DATE(NOW()) BETWEEN p.date_start AND p.date_end\n     AND r.id = MYID;

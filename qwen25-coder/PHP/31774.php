@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id'])) {\n    $id = $_POST['id'];\n    // Use the ID for SQL or other operations\n}\n?>

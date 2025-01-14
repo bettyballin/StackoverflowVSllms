@@ -1,0 +1,1 @@
+SELECT * FROM your_table_name\nORDER BY your_column_name\nLIMIT 10 OFFSET 20;

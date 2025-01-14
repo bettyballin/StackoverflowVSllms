@@ -1,0 +1,1 @@
+<?php echo "Hello, World!";\n?>\n<p>This is HTML content.</p>

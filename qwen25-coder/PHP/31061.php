@@ -1,0 +1,1 @@
+<?php\n\nfunction getNewlineCharacter() {\n    if (strpos(PHP_OS, 'WIN') !== false) {\n        return "\r\n"; // Windows newline character\n    }\n    // Unix-based systems including Linux and macOS use \n\n    return "\n";\n}\n\n// Usage example:\n$newline = getNewlineCharacter();\necho "This is a new line.$newlineAnd here is another one.";\n\n?>

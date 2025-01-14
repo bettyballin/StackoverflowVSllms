@@ -1,0 +1,1 @@
+SELECT 1\nFROM information_schema.tables\nWHERE table_name = 'YOUR_TABLE_NAME'\nAND table_schema = 'YOUR_SCHEMA_NAME'\nLIMIT 1;

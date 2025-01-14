@@ -1,0 +1,1 @@
+# Install scapy\n  pip install scapy\n\n  # Example: Sniff packets on the loopback interface\n  from scapy.all import sniff\n\n  def packet_callback(packet):\n      print(packet.summary())\n\n  sniff(iface='lo', prn=packet_callback)

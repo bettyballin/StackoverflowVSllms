@@ -1,0 +1,1 @@
+CREATE TABLE PRODUCT (\n    PROD_NUM CHAR(9) NOT NULL,\n    CONSTRAINT chk_prod_num CHECK (REGEXP_LIKE(PROD_NUM, '^\d{9}$'))\n    -- ETC.\n);

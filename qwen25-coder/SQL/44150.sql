@@ -1,0 +1,1 @@
+-- Example T-SQL command to import an Excel file\nINSERT INTO YourTableName (Column1, Column2)\nSELECT * FROM OPENROWSET(\n    'Microsoft.Jet.OLEDB.4.0', \n    'Excel 8.0;Database=C:\Path\To\YourFile.xls;HDR=YES',\n    'SELECT * FROM [Sheet1$]')

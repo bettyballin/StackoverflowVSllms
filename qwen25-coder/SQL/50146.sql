@@ -1,0 +1,1 @@
+USE [master];\nGO\n\nCREATE DATABASE MyDatabase\nON PRIMARY (\n    NAME = 'MyDatabase_Data',\n    FILENAME = 'C:\Path\To\DataFiles\MyDatabase.mdf'\n)\nLOG ON (\n    NAME = 'MyDatabase_Log',\n    FILENAME = 'C:\Path\To\LogFiles\MyDatabase_log.ldf'\n);\nGO

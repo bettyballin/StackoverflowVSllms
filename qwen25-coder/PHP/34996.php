@@ -1,0 +1,1 @@
+<?php\n// Start output buffering\nob_start();\n\n// Include the PHP file, which will execute and generate output\ninclude("yourfile.php");\n\n// Capture the buffered output and store it in a variable\n$Vdata = ob_get_clean();\n\n// Now $Vdata contains the generated content from yourfile.php\necho $Vdata; // or use it as needed\n?>

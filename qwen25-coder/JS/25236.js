@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#numericInput').on('input', function(event) {\n        // This regex allows only numbers (0-9)\n        this.value = this.value.replace(/[^0-9]/g, '');\n    });\n});

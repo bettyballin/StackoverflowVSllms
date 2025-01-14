@@ -1,0 +1,1 @@
+$array = array();\n$array[7] = 37;\n$array[19] = 98;\n$array[42] = 22;\n$array[68] = 14;\n\n$maxValue = max($array);\necho $maxValue; // Outputs: 98

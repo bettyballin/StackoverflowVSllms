@@ -1,0 +1,1 @@
+<?php\nclass Test\n{\n    /** @var SomeObj[] */\n    private $someObjsArray;\n}\n?>

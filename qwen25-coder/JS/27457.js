@@ -1,0 +1,1 @@
+// Assuming you have an input field with id 'offset'\ndocument.getElementById('offset').value = new Date().getTimezoneOffset();

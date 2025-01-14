@@ -1,0 +1,1 @@
+$query = "SELECT DATE(your_datetime_column) as date_only FROM your_table";\n$result = $mysqli->query($query);\n\nwhile ($row = $result->fetch_assoc()) {\n    echo $row['date_only'];\n}

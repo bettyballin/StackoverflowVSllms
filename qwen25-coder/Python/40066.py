@@ -1,0 +1,1 @@
+import logging\n\n# Configure logging to show all messages from BeautifulSoup parser\nlogging.basicConfig(level=logging.DEBUG)\n\n# Parse with BeautifulSoup with lxml parser\nsoup = BeautifulSoup(c, 'lxml')\n\n# Print prettified output\nprint(soup.prettify())

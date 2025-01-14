@@ -1,0 +1,1 @@
+sqlplus / as sysdba\n   SQL> startup nomount;\n   SQL> alter system set control_files='/path/to/controlfile/autobackup/control01.ctl' scope=spfile;\n   SQL> shutdown immediate;\n   SQL> startup mount;

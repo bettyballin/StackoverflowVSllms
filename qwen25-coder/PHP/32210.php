@@ -1,0 +1,1 @@
+<?php\n$data = [\n    "title" => "Hello <script>alert('XSS');</script> World",\n    "description" => "This is a test with special characters: \" ' \\ / \n \r"\n];\n\n$jsonResponse = json_encode($data);\necho $jsonResponse;\n?>

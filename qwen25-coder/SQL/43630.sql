@@ -1,0 +1,1 @@
+INSERT INTO NewTable (Id, Name)\nSELECT \n    COALESCE(CONVERT(INT, NULLIF(LeftId, '')), CONVERT(INT, NULLIF(RightId, ''))) AS Id,\n    Name\nFROM SourceTable;

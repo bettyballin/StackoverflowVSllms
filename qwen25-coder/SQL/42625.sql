@@ -1,0 +1,1 @@
+DECLARE @recipients VARCHAR(MAX) = 'person1@yahoo.com;person2@hotmail.com;person1@yahoo.com';\n\nSELECT DISTINCT Recipient\nFROM dbo.SplitStrings_XML(@recipients, ';');

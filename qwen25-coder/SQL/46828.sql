@@ -1,0 +1,1 @@
+SELECT \n    p.id AS person_id,\n    a.address_1,\n    c.city_name\nFROM \n    person p\nINNER JOIN \n    address a ON p.id = a.person_id\nLEFT JOIN \n    city c ON a.city_id = c.id\nWHERE \n    p.status = 'ACTIVE'

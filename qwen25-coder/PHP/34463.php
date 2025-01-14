@@ -1,0 +1,1 @@
+function trimLastOctet($ip) {\n    $parts = explode('.', $ip);\n    array_pop($parts); // Remove the last element (the last octet)\n    return implode('.', $parts);\n}\n\n// Example usage:\n$ipAddress = "192.168.1.10";\n$trimmedIp = trimLastOctet($ipAddress);\necho $trimmedIp; // Outputs: 192.168.1

@@ -1,0 +1,1 @@
+CREATE TABLE ExampleTable (\n    ID INT PRIMARY KEY CLUSTERED,\n    Name NVARCHAR(100)\n);

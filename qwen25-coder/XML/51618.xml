@@ -1,0 +1,1 @@
+// For Word, use the following dependency in Maven\n<dependency>\n    <groupId>org.docx4j</groupId>\n    <artifactId>docx4j-core</artifactId>\n    <version>8.1.6</version>\n</dependency>

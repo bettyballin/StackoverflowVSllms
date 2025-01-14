@@ -1,0 +1,1 @@
+<configuration>\n  <applicationSettings>\n    <YourApplication.Properties.Settings>\n      <setting name="MySetting" serializeAs="String">\n        <value>SomeValue</value>\n      </setting>\n    </YourApplication.Properties.Settings>\n  </applicationSettings>\n</configuration>

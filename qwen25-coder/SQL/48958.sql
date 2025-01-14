@@ -1,0 +1,1 @@
+CREATE TABLE project_data (\n    project_id INT PRIMARY KEY,\n    project_name VARCHAR(255),\n    workbook_url VARCHAR(255) -- Store URL pointing to the location of the BLOB/Excel file\n);

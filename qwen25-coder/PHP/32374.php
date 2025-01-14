@@ -1,0 +1,1 @@
+class Product {\n    private $price;\n\n    public function setPrice($price) {\n        if ($price < 0) {\n            throw new DomainException("Price cannot be negative.");\n        }\n        $this->price = $price;\n    }\n}

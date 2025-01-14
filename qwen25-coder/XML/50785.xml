@@ -1,0 +1,1 @@
+<class name="SpaceLocation" table="SpaceLocations">\n  <component name="Coordinates" class="SpaceCoordinate">\n    <property name="x" />\n    <property name="y" />\n    <property name="z" />\n  </component>\n</class>

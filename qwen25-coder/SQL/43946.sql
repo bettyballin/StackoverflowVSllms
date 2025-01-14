@@ -1,0 +1,1 @@
+SELECT \n  tbl_1.id, \n  COALESCE(tbl_1.price_brl, tbl_1.price_usd * tbl_2.conversion_value) as final_price\nFROM \n  tbl_1\nLEFT JOIN \n  tbl_2 ON tbl_2.some_key = tbl_1.ID;  -- Ensure you're joining on the correct key

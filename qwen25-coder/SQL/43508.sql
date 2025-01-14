@@ -1,0 +1,1 @@
+CREATE INDEX idx_post_category ON postCategory (idCategory, idPost);

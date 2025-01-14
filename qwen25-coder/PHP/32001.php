@@ -1,0 +1,1 @@
+// Load the XML file into DOMDocument\n$dom = new DOMDocument();\n$dom->load('yourfile.xml');\n\n// Get all comment nodes within the document\n$xpath = new DOMXPath($dom);\n$commentNodes = $xpath->query("//comment()");\n\nforeach ($commentNodes as $node) {\n    echo "Comment: " . $node->nodeValue . "\n";\n}

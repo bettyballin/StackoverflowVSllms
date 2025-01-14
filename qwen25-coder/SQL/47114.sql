@@ -1,0 +1,1 @@
+DECLARE @UniqueID INT;\n\n   EXEC GetNextUniqueID 'AssetInfrastructure', @UniqueID OUTPUT;\n\n   -- Use @UniqueID in your INSERT statements as needed\n   INSERT INTO YourTable1 (IDColumn, OtherColumns)\n   VALUES (@UniqueID, 'OtherValues');\n\n   -- Do the same for other tables using the same ID

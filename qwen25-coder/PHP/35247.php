@@ -1,0 +1,1 @@
+'Session' => [\n    'defaults' => 'php', // or 'cake', 'database', 'cache'\n    'timeout' => 4320,   // Timeout in minutes (72 hours = 4320 minutes)\n],

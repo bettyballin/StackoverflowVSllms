@@ -1,0 +1,1 @@
+<script>\nfunction handleResponse(data) {\n    console.log(data);\n}\n</script>\n<!-- Server must wrap data in a function call: handleResponse({...}) -->\n<script src="http://www.example.com/api?callback=handleResponse"></script>

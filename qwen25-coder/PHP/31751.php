@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\n// Logout functionality\nif (isset($_GET['logout'])) {\n    session_unset();\n    session_destroy();\n    header("Location: login.php");\n    exit;\n}\n\n// Check if user is logged in\nif (!isset($_SESSION['user_id'])) {\n    header("Location: login.php");\n    exit;\n}\n?>

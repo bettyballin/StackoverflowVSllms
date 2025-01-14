@@ -1,0 +1,1 @@
+// In your second script: accessing the value\necho $_GLOBALS['myCustomVar']; // Outputs: This is my custom variable value

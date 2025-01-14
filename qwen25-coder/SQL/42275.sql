@@ -1,0 +1,1 @@
+SELECT b.*\nFROM [SQL_Server_Table] a\nINNER JOIN [Progress_Database_Table] b ON a.subsNumber = b.subsNumber;

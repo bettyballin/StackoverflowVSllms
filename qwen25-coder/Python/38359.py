@@ -1,0 +1,1 @@
+import csv\n\nwith open('example.csv', 'r') as file:\n    reader = csv.reader(file)\n    data = list(reader)  # Converts the iterator to a list\n\nprint(len(data))  # Now you can use len()\nprint(data[0:5])   # And slice it

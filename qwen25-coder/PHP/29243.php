@@ -1,0 +1,1 @@
+$referers = array(\n       'localhost',\n       'mywebsite.com',  // Ensure this matches exactly with your site\n   );

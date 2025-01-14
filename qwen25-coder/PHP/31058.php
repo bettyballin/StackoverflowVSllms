@@ -1,0 +1,1 @@
+function lcfirst($str) {\n    $str[0] = strtolower($str[0]);\n    return $str;\n}

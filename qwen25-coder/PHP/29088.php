@@ -1,0 +1,1 @@
+<?php\nforeach (glob("*.txt") as $filename) {   \n    $file = $filename;\n    $contents = file($file); \n    $string = implode("", $contents); \n    // Convert new line characters to <br> for HTML display\n    $string = nl2br($string);\n    echo $string;\n    echo "<br><br>";\n}\n?>

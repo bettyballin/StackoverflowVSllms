@@ -1,0 +1,1 @@
+class sic:\n    def f(cls):\n        print cls.__name__\n    \n    f = classmethod(f)\n\n# Testing the class and method\nsic().f()  # This should print 'sic'\nsic.f()    # This should also print 'sic'

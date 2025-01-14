@@ -1,0 +1,1 @@
+SELECT date, symbol, MPR\nFROM YourTableName\nWHERE (\n    SELECT COUNT(*)\n    FROM YourTableName t2\n    WHERE t2.date = YourTableName.date AND t2.MPR >= YourTableName.MPR\n) <= 2\nORDER BY date, MPR DESC;

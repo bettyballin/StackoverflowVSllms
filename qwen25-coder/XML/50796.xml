@@ -1,0 +1,1 @@
+<!-- Example for Maven -->\n   <dependency>\n       <groupId>org.flywaydb</groupId>\n       <artifactId>flyway-core</artifactId>\n       <version>LATEST_VERSION</version>\n   </dependency>

@@ -1,0 +1,1 @@
+INSERT INTO your_table (date_column)\nVALUES (TO_DATE('03JUN2008', 'DDMONYYYY'));

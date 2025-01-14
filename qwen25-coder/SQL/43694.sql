@@ -1,0 +1,1 @@
+-- Assuming you have a table named `articles` and searches are performed on the `title` column\nCREATE INDEX idx_title ON articles (title);

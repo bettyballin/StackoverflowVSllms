@@ -1,0 +1,1 @@
+// Configuration in web.config for basic settings (not specifically for IIS, but useful for your app)\n<configuration>\n  <system.web>\n    <compilation debug="true" targetFramework="4.5"/>\n    <!-- Other settings -->\n  </system.web>\n</configuration>\n\n// Note: Adjust IP and port settings as needed in IIS Manager

@@ -1,0 +1,1 @@
+$handle = fopen('output.php', 'w');\nfwrite($handle, "<?php \$var = \$var2 ?>");\nfclose($handle);

@@ -1,0 +1,1 @@
+CREATE VIEW NoValuesView AS\nSELECT *\nFROM myTbl\nWHERE (myValue = 1234) OR (myValue = 1235);

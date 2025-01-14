@@ -1,0 +1,1 @@
+request_sent_time = getCurrentTime()\nresolve_dns()  // Could be part of latency shown by blue line\nestablish_connection()  // Also part of blue line if SSL/TLS handshake etc.\nblue_line_start = getCurrentTime()\n\nwait_for_response()  // Latency, still part of blue line\n\nred_line_start = getCurrentTime()\nreceive_data()  // Red line - data transfer time

@@ -1,0 +1,1 @@
+function generateToken($length = 32) {\n    return bin2hex(random_bytes($length));\n}\n\n$token = generateToken();\n// Store $token securely on server, associate with session data or 'remember me' information.

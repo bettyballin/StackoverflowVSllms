@@ -1,0 +1,1 @@
+$errors = reset_password($_GET['key']);

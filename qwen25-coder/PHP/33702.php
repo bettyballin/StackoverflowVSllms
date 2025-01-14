@@ -1,0 +1,1 @@
+function foo(&$value) {\n    $value++;\n}\n\n$count = 2;\nfoo($count);\necho $count; // Outputs: 3

@@ -1,0 +1,1 @@
+require 'vendor/autoload.php';\n\n   use Respect\Validation\Validator as v;\n\n   $email = "test@example.com";\n   if (v::email()->validate($email)) {\n       // email is valid\n   } else {\n       // email is not valid\n   }

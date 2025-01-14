@@ -1,0 +1,1 @@
+<security mode="Message">\n  <message clientCredentialType="UserName"/>\n</security>

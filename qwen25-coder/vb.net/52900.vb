@@ -1,0 +1,1 @@
+Partial Public Class Product\n\n    Private Partial Sub OnValidate(ByVal action As ChangeAction)\n        ' Your business logic here\n    End Sub\n\nEnd Class

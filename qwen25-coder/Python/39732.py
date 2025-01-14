@@ -1,0 +1,1 @@
+# Simple example of an ABAC decision rule in Python\n   def can_access(user, resource):\n       if user.role == 'admin' or (user.department == resource.owner and resource.visibility == 'private'):\n           return True\n       return False

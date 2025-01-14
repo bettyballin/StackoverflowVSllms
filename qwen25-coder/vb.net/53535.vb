@@ -1,0 +1,1 @@
+' Ensure the report source is properly set\nCrystalReportViewer1.ReportSource = CustomerReport1\n\n' Set the specific parameter value after setting the report source\nCustomerReport1.SetParameterValue("CustomerID", txtCustID.Text)\n\n' Refresh the report to apply changes\nCrystalReportViewer1.RefreshReport()

@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetLeadsCountLast10Days\nAS\nBEGIN\n    SELECT \n        COUNT(id) AS counted_leads, \n        CAST(created_date AS DATE) AS count_date\n    FROM \n        tbl_leads\n    WHERE \n        created_date >= DATEADD(DAY, -10, GETDATE())\n    GROUP BY \n        CAST(created_date AS DATE)\n    ORDER BY \n        count_date DESC;\nEND

@@ -1,0 +1,1 @@
+function fetchData() {\n       fetch('your-data-endpoint')\n           .then(response => response.json())\n           .then(data => visualizeData(data));\n   }

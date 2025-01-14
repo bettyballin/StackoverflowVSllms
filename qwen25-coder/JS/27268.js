@@ -1,0 +1,1 @@
+// Without caching the object\n$('.myClass').css('color', 'red').find('.subClass').css('font-weight', 'bold');\n\n// With caching the object\nvar $myClass = $('.myClass');\n$myClass.css('color', 'red');\n$myClass.find('.subClass').css('font-weight', 'bold');

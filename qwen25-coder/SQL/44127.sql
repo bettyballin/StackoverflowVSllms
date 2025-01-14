@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n    SELECT row_number() OVER(ORDER BY ID) rn,\n           -- Select only the necessary columns here\n           id, other_columns\n    FROM your_table\n)\nWHERE rn BETWEEN :start AND :end;

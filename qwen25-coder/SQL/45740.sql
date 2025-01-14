@@ -1,0 +1,1 @@
+-- Using '=' for an exact match\nSELECT * FROM users WHERE username = 'john_doe';\n\n-- Using 'LIKE' for pattern matching\nSELECT * FROM users WHERE email LIKE '%@example.com';

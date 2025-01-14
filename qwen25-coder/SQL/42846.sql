@@ -1,0 +1,1 @@
+CREATE TABLE strings (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    string_value VARCHAR(255) UNIQUE\n);\n\nCREATE TABLE example (\n    string_id INT,\n    int_column INT,\n    PRIMARY KEY (string_id, int_column),\n    FOREIGN KEY (string_id) REFERENCES strings(id)\n);

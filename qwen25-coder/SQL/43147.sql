@@ -1,0 +1,1 @@
+WITH NumberedTable1 AS (\n    SELECT \n        Name AS Name1,\n        ROW_NUMBER() OVER (ORDER BY ID) AS RowNum\n    FROM Table1\n),\nNumberedTable2 AS (\n    SELECT \n        Name AS Name2,\n        ROW_NUMBER() OVER (ORDER BY ID) AS RowNum\n    FROM Table2\n)\nSELECT \n    nt1.Name1,\n    nt2.Name2\nFROM NumberedTable1 nt1\nJOIN NumberedTable2 nt2 ON nt1.RowNum = nt2.RowNum;

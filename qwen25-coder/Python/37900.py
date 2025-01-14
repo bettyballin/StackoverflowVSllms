@@ -1,0 +1,1 @@
+from myapp.models import MyModel\n\n# Executing a raw SQL query\nsql_query = "SELECT * FROM myapp_mymodel WHERE some_field = %s"\nparams = ['some_value']\nresults = MyModel.objects.raw(sql_query, params)\n\nfor result in results:\n    print(result)  # This will be an instance of MyModel

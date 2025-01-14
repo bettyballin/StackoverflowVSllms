@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <httpRuntime requestValidationMode="2.0" enableVersionHeader="false" />\n    <trace enabled="true" pageOutput="false" localOnly="false" traceMode="SortByTime" requestLimit="40"/>\n  </system.web>\n</configuration>

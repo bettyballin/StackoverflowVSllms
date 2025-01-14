@@ -1,0 +1,1 @@
+<?php\nfunction delChar($str, $index) {\n    if ($index < 0 || $index >= strlen($str)) {\n        return $str; // Return the original string if index is out of bounds\n    }\n    return substr($str, 0, $index) . substr($str, $index + 1);\n}\n\n$s = "waseem";\n$s = delChar($s, 2); // This will remove the character at index 2\necho $s; // Outputs: waesm\n?>

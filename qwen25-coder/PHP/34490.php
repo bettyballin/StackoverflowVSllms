@@ -1,0 +1,1 @@
+$obj = new stdClass();\n$obj->id = 3;\n$obj->lines = array(\n    array('character' => 'Name', 'dialogue' => "Something including \"quotes\"")\n);\n\nobjSlash($obj, false); // Removes slashes\n\n// Check to see if slashes are removed\necho "Object after stripping slashes:\n";\nprint_r($obj);

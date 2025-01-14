@@ -1,0 +1,1 @@
+<customBinding>\n  <binding name="MyCustomTcp">\n    <binaryMessageEncoding/>\n    <tcpTransport/>\n  </binding>\n</customBinding>

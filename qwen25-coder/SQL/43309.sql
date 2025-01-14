@@ -1,0 +1,1 @@
+ANALYZE core_item;\nANALYZE core_item_in_basket;

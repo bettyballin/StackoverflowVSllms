@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', (event) => {\n    document.querySelectorAll('pre code').forEach((block) => {\n        hljs.highlightBlock(block);\n    });\n});

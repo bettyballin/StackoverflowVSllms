@@ -1,0 +1,1 @@
+WITH OrderedTable1 AS (\n    SELECT id, date, ROW_NUMBER() OVER (ORDER BY date) as rn\n    FROM table_1\n),\nOrderedTable2 AS (\n    SELECT id, date, ROW_NUMBER() OVER (ORDER BY date) as rn\n    FROM table_2\n)\nSELECT t1.id\nFROM OrderedTable1 t1\nJOIN OrderedTable2 t2 ON t1.id = t2.id\nWHERE t1.rn <> t2.rn;

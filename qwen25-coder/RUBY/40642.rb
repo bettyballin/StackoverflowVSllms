@@ -1,0 +1,1 @@
+def clear_specific_session_data\n  session[:specific_key] = nil\nend

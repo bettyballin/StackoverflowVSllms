@@ -1,0 +1,1 @@
+$this->db->select('accessid');\n$this->db->distinct();\n$this->db->from('accesslog');\n$this->db->where('record', '123');\n\n$query = $this->db->count_all_results();\n\necho $query;

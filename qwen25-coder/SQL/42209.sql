@@ -1,0 +1,1 @@
+CREATE PROCEDURE UpdateEmployeeStatus\n       @EmpID INT,\n       @NewStatus VARCHAR(50)\n   AS\n   BEGIN\n       UPDATE Employees\n       SET Status = @NewStatus\n       WHERE EmployeeId = @EmpID;\n   END;

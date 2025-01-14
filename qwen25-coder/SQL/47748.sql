@@ -1,0 +1,1 @@
+impdp user/password@database directory=DPUMP_DIR dumpfile=EXPORT.DMP logfile=METADATA_LOG.log sqlfile=METADATA.SQL CONTENT=METADATA_ONLY

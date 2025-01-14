@@ -1,0 +1,1 @@
+// Open your browser's console (usually F12 or right click -> Inspect)\n   console.log('Hello, world!');

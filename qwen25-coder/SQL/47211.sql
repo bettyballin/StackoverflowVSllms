@@ -1,0 +1,1 @@
+SELECT \n    p.*,\n    c.name AS city_name,\n    s.name AS state_name,\n    co.name AS country_name\nFROM \n    people p\nLEFT JOIN \n    cities c ON p.city_id = c.id\nLEFT JOIN \n    states s ON p.state_id = s.id\nLEFT JOIN \n    countries co ON p.country_id = co.id;

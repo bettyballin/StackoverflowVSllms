@@ -1,0 +1,1 @@
+$utf8String = "Your UTF-8 string here";\n$iso88591String = mb_convert_encoding($utf8String, "ISO-8859-1", "UTF-8");

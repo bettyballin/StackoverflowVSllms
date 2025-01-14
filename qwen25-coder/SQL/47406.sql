@@ -1,0 +1,1 @@
+SELECT *\nFROM users\nLEFT JOIN suspensions ON suspensions.user_id = users.id AND suspensions.suspended_date > now();

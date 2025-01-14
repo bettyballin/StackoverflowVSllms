@@ -1,0 +1,1 @@
+class Rack::Attack\n  # Allow all local traffic\n  safelist('allow-localhost') do |req|\n    req.ip == "127.0.0.1" || req.ip == "::1"\n  end\n\n  throttle('/api/v1/*', limit: 300, period: 5.minutes) do |req|\n    req.ip\n  end\nend

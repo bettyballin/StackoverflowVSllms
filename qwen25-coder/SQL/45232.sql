@@ -1,0 +1,1 @@
+SELECT \n    TABLE_NAME = t.name,\n    COLUMN_NAME = c.name\nFROM \n    sysobjects t\nINNER JOIN \n    syscolumns c ON t.id = c.id\nWHERE \n    t.type = 'U' -- User tables\nAND \n    c.isnullable = 1\nORDER BY \n    TABLE_NAME, COLUMN_NAME;

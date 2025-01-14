@@ -1,0 +1,1 @@
+$.ajax({\n    url: '/YourService/GetData',\n    method: 'GET',\n    dataType: 'json',\n    success: function(data) {\n        console.log(data);\n    },\n    error: function(xhr, status, error) {\n        console.error('Error:', error);\n    }\n});

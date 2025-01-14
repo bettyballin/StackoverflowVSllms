@@ -1,0 +1,1 @@
+// Example: Function to generate a secure password\n   function generateStrongPassword($length = 12) {\n       $characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+';\n       return substr(str_shuffle($characters), 0, $length);\n   }

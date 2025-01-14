@@ -1,0 +1,1 @@
+SELECT * \nFROM MyTable \nORDER BY SomeColumn -- You must specify an ORDER BY clause\nOFFSET 50 ROWS FETCH NEXT 25 ROWS ONLY;

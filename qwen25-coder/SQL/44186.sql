@@ -1,0 +1,1 @@
+CREATE TABLE UserWeddingDate (\n    UserID INT PRIMARY KEY,\n    Year INT,\n    Month INT NULL,\n    Day INT NULL,\n    DatePrecision ENUM('YEAR', 'MONTH', 'DAY') NOT NULL\n);

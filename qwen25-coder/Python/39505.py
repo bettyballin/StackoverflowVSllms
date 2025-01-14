@@ -1,0 +1,1 @@
+d = {name: globals()[name] for name in list_of_variable_names if name in globals()}

@@ -1,0 +1,1 @@
+require 'open-uri'\nrequire 'uri'\n\nurl = URI.parse("http://www.minscandboo.com/minscgame/001-Title01.jpg")\n\n# Open the URL and read the data\nimage_data = open(url)\n\n# Now create a Bitmap from the downloaded image data\n@sprite.bitmap = Bitmap.new(image_data)

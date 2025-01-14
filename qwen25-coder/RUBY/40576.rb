@@ -1,0 +1,1 @@
+module Authentication\n  mattr_accessor :current_user\n\n  def self.login(session)\n    @@current_user = session[:user_id] || nil\n  end\nend

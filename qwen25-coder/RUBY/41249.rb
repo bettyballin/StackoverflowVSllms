@@ -1,0 +1,1 @@
+# config/initializers/pdfkit.rb\nif Rails.env.development?\n  Pdfkit.configure do |config|\n    config.wkhtmltopdf = '/usr/local/bin/wkhtmltopdf' # Change this path!\n    config.default_options = {\n      :page_size => 'Letter',\n      :print_media_type => true,\n      :disable_smart_shrinking => false,\n      :quiet => ''\n    }\n  end\nend

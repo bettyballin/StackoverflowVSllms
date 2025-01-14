@@ -1,0 +1,1 @@
+resource :countries do\n     resources :comments, only: [:create, :destroy]\n   end

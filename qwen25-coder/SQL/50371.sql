@@ -1,0 +1,1 @@
+-- Fetching all rows at once\nSELECT * FROM your_table;

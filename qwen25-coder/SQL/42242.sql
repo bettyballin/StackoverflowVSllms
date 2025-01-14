@@ -1,0 +1,1 @@
+CREATE TABLE `product_variations` (\n  `product_id` int NOT NULL,\n  `variation_id` int NOT NULL,\n  PRIMARY KEY (`product_id`, `variation_id`),\n  FOREIGN KEY (`product_id`) REFERENCES `products`(`product_id`),\n  FOREIGN KEY (`variation_id`) REFERENCES `variations`(`variation_id`)\n);

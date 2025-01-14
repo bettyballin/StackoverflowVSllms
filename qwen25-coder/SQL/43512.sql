@@ -1,0 +1,1 @@
+-- Example connection string in Oracle SQL Developer:\n(SELECT * FROM your_table_name);

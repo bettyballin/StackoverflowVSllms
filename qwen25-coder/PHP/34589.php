@@ -1,0 +1,1 @@
+<?php\n$to = "chris.mahan@gmail.com";\n$subject = "test";\n$body = "this is a test";\n\nif (mail($to, $subject, $body)){\n    echo "Mail sent successfully.";\n} else {\n    echo "Failed to send mail. Check SMTP configuration and relay settings.";\n}\n?>

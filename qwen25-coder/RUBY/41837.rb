@@ -1,0 +1,1 @@
+class YourModel < ApplicationRecord\n  before_validation :normalize\n\n  def normalize\n    self.thenumber = thenumber.to_s.gsub(',', '') if thenumber.present?\n  end\nend

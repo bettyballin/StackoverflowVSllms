@@ -1,0 +1,1 @@
+Try\n    ObjRapi.Connect()\n    ' Use a specific folder path on the device\n    ObjRapi.CopyFileToDevice("C:\results.txt", "\Storage Card\results.txt")\nCatch ex As Exception\n    Console.WriteLine("An error occurred: " & ex.Message)\nFinally\n    ' Ensure resources are released even if an exception occurs\n    ObjRapi.Dispose()\n    ObjRapi.Disconnect()\nEnd Try

@@ -1,0 +1,1 @@
+a = {'one': 1, 'two': 2}\nreversed_dict = {value: key for key, value in a.items()}\nprint(reversed_dict)

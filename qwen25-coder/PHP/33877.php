@@ -1,0 +1,1 @@
+$ret = preg_replace('/(^|[^\w])(@[a-zA-Z0-9\-]+)/', '\\1<a href="http://twitter.com/' . substr('$2', 1) . '" rel="nofollow noreferrer">$2</a>', $ret);

@@ -1,0 +1,1 @@
+<?php // config.php\nreturn [\n    'username' => 'admin',\n    'password' => 'supersecret',\n    // Add other settings here with comments\n];

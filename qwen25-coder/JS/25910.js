@@ -1,0 +1,1 @@
+function QuestionSuggestions() {\n    var s = $("#Summary").val();\n    if (s.length > 2) {\n        $("#question-suggestions").load("/Issue/Titles?like=" + encodeURIComponent(s));\n    }\n}

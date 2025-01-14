@@ -1,0 +1,1 @@
+protected function _initModules() {\n    $front = Zend_Controller_Front::getInstance();\n    $front->addModuleDirectory(APPLICATION_PATH . '/modules');\n}

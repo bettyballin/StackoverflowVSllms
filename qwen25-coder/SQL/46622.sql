@@ -1,0 +1,1 @@
+SELECT P.ProductID, PT.TypeName as ProductType, A.AttributeName, PA.AttributeValue\nFROM Products P\nJOIN ProductTypes PT ON P.ProductTypeID = PT.ProductTypeID\nJOIN ProductAttributes PA ON P.ProductID = PA.ProductID\nJOIN Attributes A ON PA.AttributeID = A.AttributeID\nWHERE PT.TypeName = @ProductType AND (A.AttributeName = @AttributeName OR @AttributeName IS NULL);

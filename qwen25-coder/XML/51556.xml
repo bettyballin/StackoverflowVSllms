@@ -1,0 +1,1 @@
+<system.web>\n     <authentication mode="Windows" />\n     <authorization>\n       <deny users="?" /> <!-- Deny unauthenticated users -->\n     </authorization>\n     \n     <roleManager enabled="true" defaultProvider="AspNetWindowsTokenRoleProvider" />\n   </system.web>

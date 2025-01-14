@@ -1,0 +1,1 @@
+# config/environments/production.rb\nRails.application.configure do\n  # Ensure sessions expire in 12 hours if no activity\n  config.session_store :cookie_store, key: '_myapp_session', expire_after: 12.hours\n\n  # Optionally set your server error log level to debug for more detailed output.\n  config.log_level = :debug\n\n  # Other configurations...\nend

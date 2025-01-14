@@ -1,0 +1,1 @@
+# This line creates a hash and passes it as an argument to Ramaze.start\nRamaze.start :port => 80\n\n# Alternatively, using curly braces explicitly for the hash\nRamaze.start({:port => 80})

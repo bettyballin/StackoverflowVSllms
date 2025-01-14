@@ -1,0 +1,1 @@
+EXPLAIN SELECT p.*,\n                  ...\n           FROM products p\n                  JOIN stores s ON (s.id = p.store_id)\n               ...\n           WHERE DATE(NOW()) BETWEEN p.date_start AND p.date_end;

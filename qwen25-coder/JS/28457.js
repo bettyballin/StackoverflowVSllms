@@ -1,0 +1,1 @@
+$("#button_holder > span").each(function () {\n    var doThis = window[this.id]; // Access the function via its name stored in 'this.id'\n    if (typeof doThis === 'function') { // Check if it is indeed a function\n        $(this).click(doThis);\n    }\n});

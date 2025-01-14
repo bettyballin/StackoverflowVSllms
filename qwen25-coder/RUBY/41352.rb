@@ -1,0 +1,1 @@
+foo = [1, 2, 3, 4, 5, 6]\nbar = [10, 20, 30, 40, 50, 60]\nhalf = foo.length / 2\n\nfoobar = foo[0, half] + bar[half..-1]

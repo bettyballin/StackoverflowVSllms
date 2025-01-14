@@ -1,0 +1,1 @@
+CREATE TABLE OneToOneMapping (\n    FirstID INT NOT NULL,\n    SecondID INT NOT NULL,\n    CONSTRAINT PK_OneToOneMapping PRIMARY KEY (FirstID),\n    CONSTRAINT UQ_SecondID UNIQUE (SecondID)\n);

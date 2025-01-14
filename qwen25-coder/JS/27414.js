@@ -1,0 +1,1 @@
+// Using the addEventListener method for modern browsers\nif (document.addEventListener) {\n    window.addEventListener('load', function() {\n        alert("LOADED!");\n    });\n} \n// Using attachEvent for older versions of Internet Explorer\nelse if (window.attachEvent) {\n    window.attachEvent('onload', function() {\n        alert("LOADED!");\n    });\n}

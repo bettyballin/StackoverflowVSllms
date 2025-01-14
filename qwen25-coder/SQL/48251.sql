@@ -1,0 +1,1 @@
+CREATE OR REPLACE DIRECTORY data_pump_dir AS '/path/to/your/directory';

@@ -1,0 +1,1 @@
+SELECT DISTINCT s.id, s.title\nFROM Section AS s\nINNER JOIN (\n    SELECT Sec_id\n    FROM [Quest-Ans]\n) AS q ON s.id = q.Sec_id

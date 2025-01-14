@@ -1,0 +1,1 @@
+let d = {\n    func: alert.bind(window)\n};\n\nd.func("Hello World!");  // This also works!

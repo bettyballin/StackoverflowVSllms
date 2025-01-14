@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] == 'POST') {\n    $fileName = basename($_FILES['file']['name']);\n    $filePath = "uploads/" . $fileName;\n\n    if (move_uploaded_file($_FILES['file']['tmp_name'], $filePath)) {\n        echo "File uploaded successfully.";\n    } else {\n        echo "There was an error uploading the file.";\n    }\n}\n?>

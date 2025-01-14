@@ -1,0 +1,1 @@
+// In web.config for ASP.NET Web Forms or MVC\n   <system.web>\n       <authentication mode="Windows" />\n       <authorization>\n           <deny users="?" /> <!-- Deny anonymous users -->\n       </authorization>\n   </system.web>

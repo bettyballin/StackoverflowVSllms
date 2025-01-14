@@ -1,0 +1,1 @@
+SELECT * FROM T WHERE REPLACE(C, '&', 'and') LIKE '%aandb%'

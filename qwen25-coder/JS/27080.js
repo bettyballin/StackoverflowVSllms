@@ -1,0 +1,1 @@
+var newRow = '<tr>' +\n                '<td><input type="text" name="Items[' + nextIndex + '].PropertyName" /></td>' +\n                '</tr>';

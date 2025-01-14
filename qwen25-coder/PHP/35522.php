@@ -1,0 +1,1 @@
+function sanitizeInput($input) {\n    return htmlspecialchars($input, ENT_QUOTES, 'UTF-8');\n}\n\n$_GET = array_map('sanitizeInput', $_GET);\n$_POST = array_map('sanitizeInput', $_POST);\n$_COOKIE = array_map('sanitizeInput', $_COOKIE);

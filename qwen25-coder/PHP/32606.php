@@ -1,0 +1,1 @@
+<?php\n$html = '<div class="articleTitle">Your article title here</div>';\n\n// Regex pattern to match content inside <div class="articleTitle"> and </div>\n$pattern = '/<div class="articleTitle">(.*?)<\/div>/';\n\nif (preg_match($pattern, $html, $matches)) {\n    echo "Extracted Text: " . htmlspecialchars($matches[1]);\n} else {\n    echo "No match found.";\n}\n?>

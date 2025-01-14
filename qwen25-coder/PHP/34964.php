@@ -1,0 +1,1 @@
+// update the login count\n$n = $db->query("UPDATE users SET logins = logins + 1 WHERE user_id = ?", $_userId);

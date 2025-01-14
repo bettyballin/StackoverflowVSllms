@@ -1,0 +1,1 @@
+$html = new HTML;\n\n$html->tag("html")\n     ->tag("head")\n         ->tag("title", ["lang" => "en"])->text("Document")->close()\n     ->close()\n     ->tag("body", [], "<p>Hello World!</p>");\n\necho $html; // Outputs: <html><head><title lang="en">Document</title></head><body><p>Hello World!</p></body></html>

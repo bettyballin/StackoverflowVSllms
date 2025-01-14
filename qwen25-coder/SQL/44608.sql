@@ -1,0 +1,1 @@
+SELECT MIN(NVL(LEAST(A.id, B.id), A.id)) AS min_id\nFROM tableA A\nLEFT JOIN tableB B ON a.name = b.name;

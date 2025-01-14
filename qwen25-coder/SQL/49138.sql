@@ -1,0 +1,1 @@
+-- Switch to the Simple Recovery Model (if not already)\nALTER DATABASE YourDatabaseName SET RECOVERY SIMPLE;\n\n-- Perform a backup to truncate the log\nBACKUP LOG YourDatabaseName TO DISK = 'NUL:';

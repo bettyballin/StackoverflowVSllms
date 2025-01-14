@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE DBMS_LOB.ISINITIALIZE(foo) = 0;

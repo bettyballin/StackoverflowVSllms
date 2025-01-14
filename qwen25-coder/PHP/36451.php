@@ -1,0 +1,1 @@
+<?php\n$data = array("result" => ["lunch", '"Show"']);\n$jsonData = json_encode($data);\n$safeJsonData = addslashes($jsonData);\n?>\n<script>\nvar testJson = '<?=$safeJsonData?>';\nvar tags = JSON.parse(testJson);\nalert(tags.result[1]);\n</script>

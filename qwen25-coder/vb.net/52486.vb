@@ -1,0 +1,1 @@
+Sub InitializeApplication()\n    ' Assuming MyClassLibrary is a reference to your class library project.\n    MyClassLibrary.My.MySettings.Default.RunTimeConnectionString = "Your New Connection String"\n    \n    ' Optionally save settings if they are user-scoped and need to persist.\n    MyClassLibrary.My.MySettings.Default.Save()\nEnd Sub

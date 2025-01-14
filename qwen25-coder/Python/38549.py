@@ -1,0 +1,1 @@
+import bcrypt\n\n# Hashing a password\npassword = b"supersecret"\nhashed_password = bcrypt.hashpw(password, bcrypt.gensalt())\n\n# Checking hashed password\nif bcrypt.checkpw(b"supersecret", hashed_password):\n    print("Password matches!")\nelse:\n    print("Does not match")

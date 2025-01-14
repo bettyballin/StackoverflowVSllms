@@ -1,0 +1,1 @@
+Dim i As Integer = 0\nFor Each s As String In stringList\n    ' do stuff with s\n    i += 1\nNext

@@ -1,0 +1,1 @@
+SELECT \n    TYPE,\n    SUM(CASE WHEN STATUS = 'A' THEN 1 ELSE 0 END) AS "Count A",\n    SUM(CASE WHEN STATUS = 'I' THEN 1 ELSE 0 END) AS "Count I",\n    SUM(CASE WHEN STATUS = 'F' THEN 1 ELSE 0 END) AS "Count F"\nFROM \n    your_table_name\nGROUP BY \n    TYPE;

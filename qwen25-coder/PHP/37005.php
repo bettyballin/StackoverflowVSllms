@@ -1,0 +1,1 @@
+// Example of password hashing in PHP\n$password = 'user_password_here';\n$hashedPassword = password_hash($password, PASSWORD_BCRYPT);

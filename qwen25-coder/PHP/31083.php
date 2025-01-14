@@ -1,0 +1,1 @@
+if (!headers_sent()) {\n    // It is safe to send headers\n    header('Content-Type: application/json');\n} else {\n    // Headers have already been sent, handle accordingly\n    echo "Headers already sent. Cannot modify them.";\n}

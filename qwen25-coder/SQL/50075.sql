@@ -1,0 +1,1 @@
+SELECT t1.index, t1.value\nFROM your_table t1\nLEFT JOIN your_table t2 ON t1.index = t2.index - 1\nLEFT JOIN your_table t3 ON t1.index = t3.index + 1\nWHERE (t2.value IS NULL OR t1.value > t2.value)\nAND   (t3.value IS NULL OR t1.value > t3.value);

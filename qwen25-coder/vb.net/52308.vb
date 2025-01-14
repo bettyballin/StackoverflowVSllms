@@ -1,0 +1,1 @@
+<AttributeUsage(AttributeTargets.Method)>\nPublic Class IncludeInCodeSamplesAttribute\n    Inherits System.Attribute\nEnd Class

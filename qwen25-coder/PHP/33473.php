@@ -1,0 +1,1 @@
+$username = $_POST['username']; // form user input\n   $password = $_POST['password'];\n\n   if (authenticate($username, $password)) {\n       echo json_encode(['status' => 'success', 'message' => 'Login successful']);\n   } else {\n       echo json_encode(['status' => 'error', 'message' => 'Wrong username and/or password']);\n   }

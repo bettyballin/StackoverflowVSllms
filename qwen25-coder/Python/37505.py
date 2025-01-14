@@ -1,0 +1,1 @@
+#!/usr/bin/env python3\n\n   import cgi\n   import cgitb\n\n   cgitb.enable()\n\n   print("Content-Type: text/html")  # HTTP header\n   print()                             # Blank line at the end of headers\n\n   form = cgi.FieldStorage()\n   path_info = form.getvalue('PATH_INFO')\n\n   print(f"<h1>Path Info is: {path_info}</h1>")

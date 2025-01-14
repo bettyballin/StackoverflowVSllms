@@ -1,0 +1,1 @@
+// Example of using the console.profile API if you need programmatic control over profiling:\nconsole.profile("MyProfile");\n// Code you want to profile here...\nconsole.profileEnd();

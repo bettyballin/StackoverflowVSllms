@@ -1,0 +1,1 @@
+$user_agent = strtolower($user_agent);\n$query = sprintf("SELECT robot FROM robots WHERE robot LIKE '%%%s%%'", $user_agent);

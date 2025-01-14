@@ -1,0 +1,1 @@
+WITH OrderedRows AS (\n    SELECT \n        ROW_NUMBER() OVER (ORDER BY your_column_name) AS RowNumber,\n        *\n    FROM \n        your_table_name\n)\nSELECT *\nFROM OrderedRows\nWHERE RowNumber = n; -- Replace 'n' with the row number you want to select

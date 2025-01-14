@@ -1,0 +1,1 @@
+$str = 'result: %d';\n$count = 5;\necho sprintf($str, $count); // result: 5

@@ -1,0 +1,1 @@
+SELECT dt_hash, MIN(pk) AS min_pk\n   FROM data\n   WHERE dt_hash IS NOT NULL\n   GROUP BY dt_hash\n   HAVING COUNT(dt_hash) > 1;

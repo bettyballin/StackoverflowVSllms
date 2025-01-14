@@ -1,0 +1,1 @@
+DECLARE @Location geography;\nSET @Location = geography::Point(47.68392, -122.30706, 4326) -- Latitude, Longitude, SRID\n\nSELECT *\nFROM YourTable\nWHERE LocationColumn.STDistance(@Location) <= 50 * 1609.34; -- Convert miles to meters

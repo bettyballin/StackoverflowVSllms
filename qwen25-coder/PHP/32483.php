@@ -1,0 +1,1 @@
+$myArray = [3, 1, 2];\n$firstElement = array_values(sort($myArray) ? $myArray : [])[0];\n\necho $firstElement; // Outputs: Notice: Only variables should be passed by reference

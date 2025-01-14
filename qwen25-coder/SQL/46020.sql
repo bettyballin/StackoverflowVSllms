@@ -1,0 +1,1 @@
+CREATE USER new_user IDENTIFIED BY secure_password;\nGRANT CONNECT TO new_user;

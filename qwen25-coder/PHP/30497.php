@@ -1,0 +1,1 @@
+$body = $mail->getFile('contents.html');

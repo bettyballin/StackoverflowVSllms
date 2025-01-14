@@ -1,0 +1,1 @@
+<add key="conStrVirtual" value="Provider=Microsoft.Jet.OleDb.4.0;Data Source=\\databaseServerName\databaseFolder$\databaseName.MDB;Jet OLEDB:Database Password=dumbPassword;"/>

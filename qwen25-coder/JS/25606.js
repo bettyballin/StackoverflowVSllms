@@ -1,0 +1,1 @@
+const WebSocket = require('ws');\n\nconst wss = new WebSocket.Server({ port: 8080 });\n\nwss.on('connection', function connection(ws) {\n    ws.on('message', function incoming(message) {\n        console.log('received: %s', message);\n        // Echo the message back to the client\n        ws.send(`Server received: ${message}`);\n    });\n});

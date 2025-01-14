@@ -1,0 +1,1 @@
+SELECT * FROM school WHERE address_id = 1;\nSELECT * FROM park WHERE address_id = 1;\n-- Repeat for all other tables identified.

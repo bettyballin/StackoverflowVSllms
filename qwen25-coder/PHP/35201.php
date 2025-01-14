@@ -1,0 +1,1 @@
+<?php\ninclude_once 'basemodel.php';\n\n// Your other code here\n?>

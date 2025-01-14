@@ -1,0 +1,1 @@
+ALTER TABLE YourTableName\nALTER COLUMN YourColumnName BIGINT;

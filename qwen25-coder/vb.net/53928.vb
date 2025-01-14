@@ -1,0 +1,1 @@
+Dim product As New Product With {.Id = 1, .Name = "New Product Name"}\nUpdate(product)\n\nDim customer As New Customer With {.Id = 2, .Name = "New Customer Name"}\nUpdate(customer)

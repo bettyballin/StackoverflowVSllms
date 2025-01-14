@@ -1,0 +1,1 @@
+SELECT \n    BinaryString,\n    CONVERT(BINARY(20), STUFF(BinaryString, 1, 2, ''), 2) AS BinaryValue\nFROM #T;

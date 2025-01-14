@@ -1,0 +1,1 @@
+SELECT \n    CONVERT(VARCHAR(MAX), field_column, 1) AS HexadecimalRepresentation\nFROM \n    your_table_name;

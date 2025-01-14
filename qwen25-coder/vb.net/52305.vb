@@ -1,0 +1,1 @@
+' Declare an event that matches the signature\nPublic Event PropagatedEvent As EventHandler\n\nProtected WithEvents ChildB As ChildControl\n\nPrivate Sub ChildB_CustomEvent(sender As Object, e As EventArgs) Handles ChildB.CustomEvent\n    ' Re-raise the event received from Child Control B\n    RaiseEvent PropagatedEvent(Me, EventArgs.Empty)\nEnd Sub

@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", function() {\n    var topicsControl = document.querySelector('[data-controlid="Topics"]');\n    if (topicsControl) {\n        // ... rest of your code ...\n    }\n});

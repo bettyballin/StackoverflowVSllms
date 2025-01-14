@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT C.customer_id) as numCustomers \nFROM CUSTOMER C \nJOIN RENTS R ON C.customer_id = R.customer_id \nWHERE C.ST = ? AND R.mid = ?

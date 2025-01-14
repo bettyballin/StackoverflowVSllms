@@ -1,0 +1,1 @@
+mylist = ['abc', 'abcdef', 'abcd']\n\n# Find the maximum length of strings in the list\nmax_length = max(len(item) for item in mylist)\n\nfor each in mylist:\n    if condition1:\n        do_something()\n    elif len(each) == max_length:  # Check if the current string is the longest\n        do_something_else()

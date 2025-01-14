@@ -1,0 +1,1 @@
+INSERT INTO actors(forename, surname) VALUES ('Stack', 'Overflow');

@@ -1,0 +1,1 @@
+EXEC sp_reset_connection;\n-- Your SQL operations go here

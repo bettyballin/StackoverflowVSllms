@@ -1,0 +1,1 @@
+SELECT * FROM (VALUES (5), (6), (7)) AS foo_list(foo);

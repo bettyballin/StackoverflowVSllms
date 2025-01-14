@@ -1,0 +1,1 @@
+SELECT \n       CONVERT(date, DateTime) AS Date,\n       ApplicationName,\n       MethodName,\n       AVG(TimeInMs) AS AverageTimeInMs\n   FROM YourTable\n   WHERE DateTime >= DATEADD(week, -10, GETDATE())\n   GROUP BY CONVERT(date, DateTime), ApplicationName, MethodName\n   ORDER BY Date, ApplicationName, MethodName;

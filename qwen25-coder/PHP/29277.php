@@ -1,0 +1,1 @@
+$pageContent = $bigArr['pageContent'];\necho $pageContent;

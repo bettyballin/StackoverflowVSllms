@@ -1,0 +1,1 @@
+if ($_FILES["file"]["type"] == "image/jpeg") {\n         move_uploaded_file($_FILES["file"]["tmp_name"], "/var/www/uploads/" . basename($_FILES["file"]["name"]));\n     }

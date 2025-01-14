@@ -1,0 +1,1 @@
+Dim db As DAO.Database\nDim rs As DAO.Recordset\n\nSet db = CurrentDb()\nSet rs = db.OpenRecordset("SELECT TOP 5 * FROM news_table ORDER BY news_date DESC", dbOpenSnapshot)\n\nDo While Not rs.EOF\n    Debug.Print rs!news_date & " - " & rs!<field_name>\n    rs.MoveNext\nLoop\n\nrs.Close\nSet rs = Nothing\nSet db = Nothing

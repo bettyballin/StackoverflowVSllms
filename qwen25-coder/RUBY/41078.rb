@@ -1,0 +1,1 @@
+# List local variables\nputs "Local Variables: #{local_variables}"\n\n# List all constants to see loaded modules and classes\nputs "Constants: #{Object.constants}"

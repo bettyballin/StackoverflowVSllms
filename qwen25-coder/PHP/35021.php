@@ -1,0 +1,1 @@
+use Doctrine\Common\Collections\ArrayCollection;\n\n$values = new ArrayCollection();\nwhile ($row = mysql_fetch_array($result)) {\n    $values->add([\n        mysql_num_rows($result),\n        $row['userlevel'],\n        $row['email'],\n        $row['member_id']\n    ]);\n}\nreturn $values;

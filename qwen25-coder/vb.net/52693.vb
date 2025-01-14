@@ -1,0 +1,1 @@
+Try\n    ' Code that may throw exceptions\nCatch ex As Exception\n    Dim aggregateEx = New AggregateException("Multiple errors occurred", ex)\n    Throw aggregateEx\nEnd Try

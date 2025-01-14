@@ -1,0 +1,1 @@
+<?php\nrequire_once('path/to/PclZip.php');\n\n// Create an instance of the PclZip class\n$archive = new PclZip('example.zip');\n\nif ($archive->extract(PCLZIP_OPT_PATH, 'target_directory') == 0) {\n    die("Error : " . $archive->errorInfo(true));\n}\n?>

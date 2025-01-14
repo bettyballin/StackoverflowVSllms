@@ -1,0 +1,1 @@
+window.onload = function() {\n    // Your code that makes the page expand vertically\n\n    // Reapply the background image\n    document.body.style.background = "#000000 url(images/back_all.gif) repeat-x top";\n};

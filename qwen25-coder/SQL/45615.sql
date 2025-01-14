@@ -1,0 +1,1 @@
+SELECT * \nFROM produto \nINNER JOIN pt ON produto.refPT = pt.ref \nWHERE produto.refPT IN (SELECT idProduto FROM amb_prod WHERE idAmbiente = '1');

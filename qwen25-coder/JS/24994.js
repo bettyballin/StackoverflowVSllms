@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('.container').append('<div class="some_class"><img src="../images.jpg" alt="images" /><strong>text</strong></div>');\n});

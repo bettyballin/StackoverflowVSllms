@@ -1,0 +1,1 @@
+SELECT * \nFROM headlines \nWHERE category_id IN (1, 2, 3)\nORDER BY some_column;

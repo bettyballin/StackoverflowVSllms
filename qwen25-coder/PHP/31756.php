@@ -1,0 +1,1 @@
+<?php\n// Set the Content-Type to text/csv\nheader('Content-Type: text/csv');\n\n// Specify that the content-disposition is an attachment and give it a filename\nheader('Content-Disposition: attachment; filename="report.csv"');\n\n// Output the CSV file content\necho $csvData;\n?>

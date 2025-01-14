@@ -1,0 +1,1 @@
+tuples_list = [(1, 4), (2, 4), (3, 4), (4, 15), (5, 15), (6, 23), (7, 23), (8, 23), (9, 15), (10, 23), (11, 15), (12, 15)]\n\nresult_dict = {}\nfor first, second in tuples_list:\n    if second not in result_dict:\n        result_dict[second] = []\n    result_dict[second].append(first)\n\nprint(result_dict)

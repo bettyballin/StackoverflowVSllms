@@ -1,0 +1,1 @@
+ALTER DATABASE YourDatabaseName\nSET AUTO_SHRINK ON;

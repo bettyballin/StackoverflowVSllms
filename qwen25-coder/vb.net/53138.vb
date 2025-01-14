@@ -1,0 +1,1 @@
+Imports System.IO\n\nModule Logger\n    Public Sub LogMessage(ByVal message As String)\n        Dim logFilePath As String = "C:\YourApp\debug.log"\n        Using writer As New StreamWriter(logFilePath, True)\n            writer.WriteLine($"{DateTime.Now}: {message}")\n        End Using\n    End Sub\nEnd Module

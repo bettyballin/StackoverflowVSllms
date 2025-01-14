@@ -1,0 +1,1 @@
+<?php\nsession_start();\ninclude_once 'path/to/functions.php';\n\nif (is_user_logged_in()) {\n    echo "Welcome back!";\n} else {\n    echo "Please log in.";\n}\n\n// Use other functions...\n$safe_input = sanitize_input($_POST['user_input']);\n?>

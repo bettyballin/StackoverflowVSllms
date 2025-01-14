@@ -1,0 +1,1 @@
+const observer = new MutationObserver(mutations => {\n     mutations.forEach(mutation => console.log(mutation.type));\n   });\n\n   observer.observe(document.body, { childList: true });

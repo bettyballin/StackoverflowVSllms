@@ -1,0 +1,1 @@
+import datetime\n\n# Unix timestamp\nunix_timestamp = 1251783433\n\n# Convert to readable date and time\nreadable_date = datetime.datetime.utcfromtimestamp(unix_timestamp).strftime('%Y-%m-%d %H:%M:%S')\nprint("Expiration Date:", readable_date)

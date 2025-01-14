@@ -1,0 +1,1 @@
+function getFractionalPart($float) {\n    return $float - intval($float);\n}\n\n// Example usage:\n$value = 1.25;\n$fractionalPart = getFractionalPart($value);\necho $fractionalPart; // Outputs: 0.25

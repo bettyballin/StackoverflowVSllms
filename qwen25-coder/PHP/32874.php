@@ -1,0 +1,1 @@
+$imagick = new Imagick($filename);\n    $imagick->cropThumbnailImage($w, $h);\n    $imagick->writeImage($newFilename);\n    $imagick->clear();\n    $imagick->destroy();

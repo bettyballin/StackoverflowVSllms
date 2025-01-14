@@ -1,0 +1,1 @@
+<?php\n$some_php_document = $_POST["some_value_submitted_via_ajax"];\n\n// Regular expression to match only relative paths\nif (preg_match('/^[a-zA-Z0-9\/\-_.]+$/', $some_php_document) !== 1 || preg_match('/^\.\.|^\//', $some_php_document)) {\n    $some_php_document = null;\n} else {\n    // Further processing or inclusion of the file\n    include($some_php_document);\n}\n?>

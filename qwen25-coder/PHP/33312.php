@@ -1,0 +1,1 @@
+// Assuming $db is an instance of Zend_Db_Adapter_Abstract\n\n$messageId = 1;\n$userId = 2;\n\n// Correctly formulating the condition\n$condition = sprintf('message_id = %d AND user_id = %d', (int)$messageId, (int)$userId);\n\n// Executing the delete operation\n$n = $db->delete('messages', $condition);\n\necho "Number of rows deleted: " . $n;

@@ -1,0 +1,1 @@
+-- Query to select articleID where the tag is 'apple'\nSELECT a.articleID \nFROM Article a \nINNER JOIN Article_tag at ON a.articleID = at.articleID \nJOIN Tag t ON at.TagID = t.TagID\nWHERE t.tag = 'apple';\n\n-- Query to get all unique tags from Tags table\nSELECT DISTINCT tag FROM Tag;

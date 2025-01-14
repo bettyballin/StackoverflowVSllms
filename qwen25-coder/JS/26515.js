@@ -1,0 +1,1 @@
+// Example using ES6 template literals\n  const data = {name: "World"};\n  console.log(`Hello, ${data.name}!`); // Outputs: Hello, World!

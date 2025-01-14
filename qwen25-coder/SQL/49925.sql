@@ -1,0 +1,1 @@
+SELECT ID, Code\nFROM your_table_name\nORDER BY \n  CASE Code \n    WHEN 'Health' THEN 1\n    WHEN 'Phone' THEN 2\n    WHEN 'Freeze' THEN 3\n    WHEN 'Hot' THEN 4\n    ELSE 5 -- For any other values not listed\n  END;

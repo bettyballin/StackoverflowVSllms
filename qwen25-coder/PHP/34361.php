@@ -1,0 +1,1 @@
+$userInput = "<script>alert('xss');</script>";\n$safeOutput = htmlspecialchars($userInput, ENT_QUOTES, 'UTF-8');\necho $safeOutput; // Outputs: &lt;script&gt;alert(&#039;xss&#039;);&lt;/script&gt;

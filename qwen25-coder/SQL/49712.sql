@@ -1,0 +1,1 @@
+BULK INSERT LibraryBooks\n   FROM 'C:\path\to\your\data.csv'\n   WITH\n       (\n         FIELDTERMINATOR = ',',\n         ROWTERMINATOR = '\n'\n       );

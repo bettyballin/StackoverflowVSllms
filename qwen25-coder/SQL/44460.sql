@@ -1,0 +1,1 @@
+SELECT Ident2 FROM YourTableName WHERE Ident1 = ? AND MapId = 1

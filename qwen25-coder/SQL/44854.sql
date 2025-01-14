@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n    -- Intentional full update with WHERE clause for clarity\n    UPDATE MyTable \n    SET MyColumn = 0 \n    WHERE SomeCondition = 'SomeValue';\nCOMMIT TRANSACTION;

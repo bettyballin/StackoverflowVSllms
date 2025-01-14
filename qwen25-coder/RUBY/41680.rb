@@ -1,0 +1,1 @@
+require 'openssl'\nrequire 'base64'\n\ndef encrypt(message, key, iv)\n  cipher = OpenSSL::Cipher.new('aes-256-cbc')\n  cipher.encrypt\n  cipher.key = Base64.decode64(key)\n  cipher.iv = Base64.decode64(iv)\n\n  encrypted = cipher.update(message) + cipher.final\n\n  Base64.encode64(encrypted).strip()\nend

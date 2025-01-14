@@ -1,0 +1,1 @@
+if (preg_match('/^[a-z0-9._\/-]+$/', $uri) && !preg_match('/^\.\./', $uri)) {

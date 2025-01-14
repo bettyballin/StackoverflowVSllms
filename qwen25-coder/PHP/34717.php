@@ -1,0 +1,1 @@
+// Set the actual cookie to be expired\nsetcookie('your_cookie_name', '', time() - 3600, '/');

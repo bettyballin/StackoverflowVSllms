@@ -1,0 +1,1 @@
+<?php\n$page = basename($_SERVER['PHP_SELF']);\n\nswitch ($page) {\n    case 'home.php':\n        include 'functions_home.php';\n        break;\n    case 'about.php':\n        include 'functions_about.php';\n        break;\n    // Add more cases as needed\n}\n?>

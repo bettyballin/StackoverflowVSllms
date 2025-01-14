@@ -1,0 +1,1 @@
+SELECT \n    SUBSTRING(column, LOCATE('news', column) - 10, 50) AS teaser\nFROM \n    table\nWHERE \n    column LIKE '%news%';

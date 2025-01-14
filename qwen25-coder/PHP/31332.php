@@ -1,0 +1,1 @@
+<?php\n$page_title = 'About Us - Our Company';\n$page_keywords = 'about us, company history, team';\n$page_description = 'Learn more about our company, its history, and the dedicated team behind it.';\ninclude('header.php');\n?>\n<!-- rest of your page content goes here -->

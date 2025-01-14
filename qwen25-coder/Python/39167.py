@@ -1,0 +1,1 @@
+# Use dir to list available methods and properties\n   print(dir(com_object))\n   \n   # Or use an interactive environment like IPython for tab completio

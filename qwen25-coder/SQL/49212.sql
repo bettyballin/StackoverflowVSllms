@@ -1,0 +1,1 @@
+create index idx_child_product_id \non product_bill_of_materials(child_product_id);

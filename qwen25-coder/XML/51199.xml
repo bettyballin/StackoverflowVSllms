@@ -1,0 +1,1 @@
+<CustomAction Id="RegisterPrinterDll" BinaryKey="YourBinaryForRegistration" DllEntry="RegisterFunction" Execute="deferred" Return="check"/>\n\n<InstallExecuteSequence>\n    <Custom Action='RegisterPrinterDll' After='InstallFiles'>\n        <![CDATA[PRINTERDRIVERINSTALLED]]>\n    </Custom>\n</InstallExecuteSequence>

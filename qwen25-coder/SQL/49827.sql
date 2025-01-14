@@ -1,0 +1,1 @@
+WITH RankedRecords AS (\n  SELECT \n    Date,\n    LocationID,\n    Account,\n    ROW_NUMBER() OVER (PARTITION BY LocationID ORDER BY Date DESC) as rn\n  FROM \n    YourTableName\n)\nSELECT \n  Date,\n  LocationID,\n  Account\nFROM \n  RankedRecords\nWHERE \n  rn = 1;

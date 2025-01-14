@@ -1,0 +1,1 @@
+Array\n(\n    [TTO] => 1031\n    [187] => 187\n    [TWO] => 2SK8\n    [411] => 411\n    [AEL] => Abec 11\n    [ABE] => Abec11\n    [ACE] => Ace\n    [ADD] => Addikt\n    [AFF] => Affiliate\n    [ALI] => Alien Workshop\n    [ALG] => Alligator\n    [ALM] => Almost\n)

@@ -1,0 +1,1 @@
+<?php\n$loaded_extensions = get_loaded_extensions();\nif (in_array('soap', $loaded_extensions)) {\n    echo 'SOAP extension is loaded';\n} else {\n    echo 'SOAP extension is not loaded';\n}

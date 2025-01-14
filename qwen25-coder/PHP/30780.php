@@ -1,0 +1,1 @@
+function my_module_menu() {\n    $items['some/path/%'] = array(\n        'title' => 'Custom Page',\n        'page callback' => 'my_custom_page_callback',\n        'page arguments' => array(2), // Passes the third part of the path as an argument.\n        'access callback' => TRUE,   // Set to your appropriate access control function.\n    );\n    return $items;\n}

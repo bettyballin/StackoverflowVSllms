@@ -1,0 +1,1 @@
+$_SESSION['user'] = array('username' => 'admin', 'role' => 'admin');\n   // Data is automatically serialized and stored by PHP's session handling

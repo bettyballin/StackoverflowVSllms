@@ -1,0 +1,1 @@
+a = 52500\nb = 5\nformatted = f'{b:>{len(str(a))}}/{a}'\n# formatted looks like: '     5/52500'

@@ -1,0 +1,1 @@
+SELECT t.name AS tag_name, COUNT(DISTINCT CASE WHEN ti.blog_post_id IS NOT NULL THEN ti.blog_post_id ELSE bc.blog_post_id END) AS popularity_count\nFROM Tags t\nJOIN Taggings ti ON t.id = ti.tag_id\nLEFT JOIN BlogComments bc ON ti.blog_comment_id = bc.id\nGROUP BY t.name\nORDER BY popularity_count DESC;

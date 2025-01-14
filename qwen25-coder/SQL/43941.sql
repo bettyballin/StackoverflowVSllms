@@ -1,0 +1,1 @@
+EXEC GetItemDetails @itemNumber = 12345, @ItemType = 'A';

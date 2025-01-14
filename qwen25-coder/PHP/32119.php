@@ -1,0 +1,1 @@
+function isValidEmailDomain($email) {\n    $host = explode('@', trim($email));\n    if (count($host) !== 2) return false;\n\n    // Perform DNS checks for MX, A, or CNAME records\n    return checkdnsrr($host[1], 'MX') || \n           checkdnsrr($host[1], 'A') || \n           checkdnsrr($host[1], 'CNAME');\n}

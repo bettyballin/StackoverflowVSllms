@@ -1,0 +1,1 @@
+array(1,2,3)\nParentObj::method()\narray(1,2,3)

@@ -1,0 +1,1 @@
+<?php\nif (!$something_important) {\n    include 'somehereharmless.php';\n    exit();\n}\n?>

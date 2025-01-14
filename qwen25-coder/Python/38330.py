@@ -1,0 +1,1 @@
+# Constructing a query string from sorted parameters\nquery_string = '&'.join([f'{key}={value}' for key, value in sorted_params])\n\nprint(query_string)

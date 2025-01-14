@@ -1,0 +1,1 @@
+SELECT Id, Name, Description\nFROM dbo.Card\nWHERE CONTAINS(Description, 'warrior OR fiend OR damage');

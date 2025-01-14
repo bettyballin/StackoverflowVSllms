@@ -1,0 +1,1 @@
+EXEC master.dbo.xp_cmdshell 'C:\path\to\your\cleanup_backups.bat';

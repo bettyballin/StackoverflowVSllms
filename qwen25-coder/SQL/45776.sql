@@ -1,0 +1,1 @@
+SELECT \n    thread.due_date \nFROM\n    product \nINNER JOIN \n    thread ON product.id = thread.prod_id\nWHERE \n    thread.user_id = '5' \nOR \n    product.user_id = '5';

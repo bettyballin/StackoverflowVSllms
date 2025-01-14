@@ -1,0 +1,1 @@
+// Copy the entire page's HTML\ncopy(document.documentElement.outerHTML);\n\n// Alternatively, for a specific element, replace 'your-element-selector' with your selector.\ncopy(document.querySelector('your-element-selector').outerHTML);

@@ -1,0 +1,1 @@
+define('APP', '/home/yourusername/app/');\n   define('ROOT', dirname(APP));\n   define('CAKE_CORE_INCLUDE_PATH', ROOT . '/cakephp/lib');

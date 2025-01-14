@@ -1,0 +1,1 @@
+SELECT TRY_CONVERT(DATETIME, \n                   REPLACE(your_date_column + '-15', '-', ' '), 106) AS ConvertedDate\nFROM your_table;

@@ -1,0 +1,1 @@
+SELECT REPLACE(REPLACE(Fieldname, CHAR(13), ''), CHAR(10), ' ') AS new_Fieldname\nFROM YourTableName;

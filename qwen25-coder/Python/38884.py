@@ -1,0 +1,1 @@
+import time\n\ndef fibonacci():\n    a, b = 0, 1\n    while True:\n        print(a, end=' ')\n        a, b = b, a + b\n        time.sleep(1)  # Sleep for one second between prints\n\ntry:\n    fibonacci()\nexcept KeyboardInterrupt:\n    print("\nStopped by user")

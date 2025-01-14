@@ -1,0 +1,1 @@
+<?php\n$pdo = new PDO('mysql:host=your_host;dbname=your_db', 'username', 'password');\n\n$query = "SELECT COUNT(DISTINCT country) AS unique_country_count FROM table";\n$stmt = $pdo->query($query);\n$result = $stmt->fetch();\n\necho $result['unique_country_count'];\n?>

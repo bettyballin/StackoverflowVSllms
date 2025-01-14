@@ -1,0 +1,1 @@
+def get_last_element(lst):\n    if not lst:\n        raise ValueError("List is empty")\n    return lst[-1]\n\nmy_list = ['a', 'b', 'c']\nprint(get_last_element(my_list))  # Output: c

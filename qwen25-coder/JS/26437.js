@@ -1,0 +1,1 @@
+//= require cocoon\n// Additional custom scripts can be written here.\n$(document).on('cocoon:after-insert', function(e, insertedItem) {\n  console.log("A new item was added!");\n});\n\n$(document).on('cocoon:before-remove', function(e, element_to_remove) {\n  return confirm("Are you sure?");\n});

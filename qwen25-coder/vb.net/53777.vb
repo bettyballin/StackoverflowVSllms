@@ -1,0 +1,1 @@
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load\n    If Not IsPostBack Then\n        ' Initial settings if needed\n    Else\n        Dim currentClass As String = divClass.Value\n        ' Do something with the class value obtained from client-side\n    End If\nEnd Sub

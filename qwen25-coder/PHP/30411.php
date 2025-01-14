@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $key1 = $_POST['key1'];\n    $key2 = $_POST['key2'];\n\n    // Process data\n    echo "Received key1: $key1 and key2: $key2";\n}\n?>

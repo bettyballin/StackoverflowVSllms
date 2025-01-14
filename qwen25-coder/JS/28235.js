@@ -1,0 +1,1 @@
+$.validator.addMethod(\n    'myEqual', \n    function (value, element) {\n        var beginValue = $(element.form).find('#txt_begin').val(); // Retrieve the value of #txt_begin\n        return value == beginValue; // Compare with #txt_begin's value\n    }, \n    'Please enter a year equal to the start year!'\n);

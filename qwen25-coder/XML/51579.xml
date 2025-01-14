@@ -1,0 +1,1 @@
+// In your web.config, enable detailed exceptions for debugging purposes\n   <system.web>\n       <customErrors mode="Off"/>\n   </system.web>

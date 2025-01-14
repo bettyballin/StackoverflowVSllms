@@ -1,0 +1,1 @@
+# Storing data in Redis using Python redis-py client\n     import redis\n     r = redis.Redis()\n     r.set('foo', 'bar')\n     print(r.get('foo'))

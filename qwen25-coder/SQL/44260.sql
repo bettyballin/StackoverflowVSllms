@@ -1,0 +1,1 @@
+UPDATE [AccountsDimension]\n    SET AccountName = 'Unknown'\n    WHERE AccountName IS NULL OR TRIM(AccountName) = '';

@@ -1,0 +1,1 @@
+class MyClass {\n    public $myInstanceProperty = 'instance property';\n\n    public function myInstanceMethod() {\n        return $this->myInstanceProperty;\n    }\n}\n\n$obj = new MyClass();\necho $obj->myInstanceMethod(); // Calling a method on an instance

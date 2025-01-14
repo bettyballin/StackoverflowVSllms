@@ -1,0 +1,1 @@
+# Example of a simple model in Django\n   from django.db import models\n\n   class User(models.Model):\n       firstName = models.CharField(max_length=255)\n       lastName = models.CharField(max_length=255)

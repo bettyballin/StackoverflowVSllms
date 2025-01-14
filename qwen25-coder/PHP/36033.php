@@ -1,0 +1,1 @@
+<ul>\n<?= implode("\n", array_map(function($nav) { return "  <li>$nav</li>"; }, $navitems)); ?>\n</ul>

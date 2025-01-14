@@ -1,0 +1,1 @@
+CREATE TABLE Prerequisites (\n       prerequisite_id INT PRIMARY KEY AUTO_INCREMENT,\n       course_id INT,\n       type ENUM('AND', 'OR') DEFAULT 'AND',\n       FOREIGN KEY (course_id) REFERENCES Courses(course_id)\n   );

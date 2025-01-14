@@ -1,0 +1,1 @@
+<?php\nheader('Content-type: application/javascript');\n\n$data = array('one', 'two');\n\nforeach($data as $d){\n    echo "document.write('This is a test for array item ".$d."');\r\n";\n}\n?>

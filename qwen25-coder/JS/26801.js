@@ -1,0 +1,1 @@
+function openNetworkFolder() {\n    var folderPath = '\\\\Server-1\\Folder-1\\Folder-2';\n    // Convert backslashes to forward slashes for URL format\n    var url = 'file://///' + folderPath.replace(/\\/g, '/');\n\n    window.open(url, '_blank');\n}

@@ -1,0 +1,1 @@
+<assemblies>\n       <!-- Old -->\n       <!-- <add assembly="Foo" /> -->\n       \n       <!-- New -->\n       <add assembly="MyCompany.Foo" />\n   </ assemblies>

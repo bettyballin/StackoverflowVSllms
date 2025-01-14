@@ -1,0 +1,1 @@
+CREATE TABLE events (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    title VARCHAR(255),\n    start_date DATETIME NOT NULL,\n    end_date DATETIME NOT NULL\n);

@@ -1,0 +1,1 @@
+CREATE TRIGGER [dbo].[trg_TrackAccess_YourTable]\n   ON [dbo].[YourTableName]\n   FOR SELECT, INSERT, UPDATE, DELETE \n   AS \n   BEGIN\n       UPDATE AccessLog\n       SET LastAccessed = GETDATE()\n       WHERE TableName = 'YourTableName';\n\n       IF @@ROWCOUNT = 0 INSERT INTO AccessLog(TableName) VALUES('YourTableName');\n   END

@@ -1,0 +1,1 @@
+UPDATE tbFoo\nSET Sector = B.Sector\nFROM tbFoo A\nINNER JOIN (\n    SELECT DISTINCT SectorKey, Sector \n    FROM tbFoo \n    WHERE Sector IS NOT NULL\n) B ON A.SectorKey = B.SectorKey \nWHERE A.Sector IS NULL;

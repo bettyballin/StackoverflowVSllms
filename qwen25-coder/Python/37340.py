@@ -1,0 +1,1 @@
+from math import sqrt\n\ndef dist(p1, p2):\n    return sqrt((p2[0] - p1[0]) ** 2 + (p2[1] - p1[1]) ** 2)\n\npoints = [[x1, y1], [x2, y2], [x3, y3], ...]\npointToCompare2 = [X, Y]\n\nclosest_point = min(points, key=lambda point: dist(point, pointToCompare2))

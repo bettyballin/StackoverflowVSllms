@@ -1,0 +1,1 @@
+Dim X As Y = New Y()

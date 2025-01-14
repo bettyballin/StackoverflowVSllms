@@ -1,0 +1,1 @@
+SELECT \n    v.VehicleID,\n    v.Name,\n    STUFF((\n        SELECT ', ' + l.City\n        FROM Locations l\n        WHERE l.VehicleID = v.VehicleID\n        FOR XML PATH(''), TYPE).value(N'.[1]', N'nvarchar(max)'), 1, 2, '') AS Locations\nFROM \n    Vehicles v

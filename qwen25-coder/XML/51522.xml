@@ -1,0 +1,1 @@
+<!-- Example of a safer approach using an API key instead -->\n<feedUrl>https://example.com/rss?apikey=your_api_key</feedUrl>

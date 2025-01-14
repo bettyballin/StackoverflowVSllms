@@ -1,0 +1,1 @@
+from PIL import Image\n\n# Open an existing image or create a new one\nimage = Image.new('RGB', (800, 600))  # Example: creating a new 800x600 pixel image\n\n# Specify the resolution in DPI\nresolution = 300  # Common for high-quality prints\nimage.info['dpi'] = (resolution, resolution)\n\n# Save the image as a PNG file\nimage.save('output.png', dpi=image.info['dpi'])

@@ -1,0 +1,1 @@
+CREATE TABLE Tags (\n        TagID INT IDENTITY(1,1) PRIMARY KEY,\n        TagValue NVARCHAR(255) NOT NULL UNIQUE\n    );

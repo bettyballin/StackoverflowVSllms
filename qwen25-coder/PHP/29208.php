@@ -1,0 +1,1 @@
+echo $this->navigation()->breadcrumbs()->setLinkLast(false)->render();

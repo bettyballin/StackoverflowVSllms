@@ -1,0 +1,1 @@
+SELECT * FROM YourTable ORDER BY RowVersion;

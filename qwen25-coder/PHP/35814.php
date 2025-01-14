@@ -1,0 +1,1 @@
+ini_set('display_errors', 1);\nini_set('display_startup_errors', 1);\nerror_reporting(E_ALL);\n\n$connection_str = "host=your_host port=5432 dbname=your_db user=your_user password=your_password";\n$db_crm = pg_connect($connection_str, PGSQL_CONNECT_FORCE_NEW);\n\nif (!$db_crm) {\n    die("connection failed: " . pg_last_error());\n} else {\n    echo "Connected successfully!";\n}

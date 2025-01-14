@@ -1,0 +1,1 @@
+CREATE TABLE Users (\n    UserID INT IDENTITY(1,1) PRIMARY KEY,\n    Username NVARCHAR(50) NOT NULL\n);

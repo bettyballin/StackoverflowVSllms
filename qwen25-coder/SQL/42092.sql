@@ -1,0 +1,1 @@
+SELECT col1, col2,\n       CASE WHEN col3 = 'E01089001' THEN 1 ELSE 2 END AS new_col1,\n       CASE WHEN col3 = 'E01089001' THEN 3 ELSE 4 END AS new_col2\nFROM Table1\nWHERE col1 = 'A0529';

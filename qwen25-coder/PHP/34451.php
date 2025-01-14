@@ -1,0 +1,1 @@
+$conn = new mysqli($servername, $username, $password, $dbname);\n   if ($conn->connect_error) {\n       die("Connection failed: " . $conn->connect_error);\n   }\n   // Set character set to utf8mb4\n   $conn->set_charset("utf8mb4");

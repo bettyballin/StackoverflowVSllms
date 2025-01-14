@@ -1,0 +1,1 @@
+SELECT * \nFROM TableName \nWHERE Name LIKE '%spa%' \nORDER BY \n    CASE \n        WHEN LOWER(Name) = 'spa' THEN 1\n        WHEN LOWER(Name) LIKE 'spa %' OR LOWER(Name) LIKE '% spa %' THEN 2\n        WHEN LOWER(Name) LIKE '% spa' THEN 3\n        ELSE 4\n    END,\n    Name;

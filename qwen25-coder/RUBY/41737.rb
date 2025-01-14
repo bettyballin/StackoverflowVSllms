@@ -1,0 +1,1 @@
+# Task model\nclass Task < ApplicationRecord\n  belongs_to :project\n\n  validates :name, presence: true, uniqueness: { scope: :project_id }\nend

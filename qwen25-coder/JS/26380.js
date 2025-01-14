@@ -1,0 +1,1 @@
+var odv = $('<div>').css('display', 'none');\nthis.OuterDiv = odv[0]; // if you need the DOM element\n\nvar t = $('<table/>', {\n    cellspacing: 0,\n    class: 'text'\n}).appendTo(odv);\n\n// If you want to append odv to the body or another element\n$('body').append(odv);

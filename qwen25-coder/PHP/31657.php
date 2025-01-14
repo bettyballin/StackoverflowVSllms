@@ -1,0 +1,1 @@
+$id = isset($_GET['id']) ? intval($_GET['id']) : null;\n   if ($id !== null) {\n       // Do something with $id\n   }

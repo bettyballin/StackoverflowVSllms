@@ -1,0 +1,1 @@
+CREATE INDEX idx_Products_CategoryId ON Products(CategoryId);

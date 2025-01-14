@@ -1,0 +1,1 @@
+var sessionValue = document.getElementById('<%= hidSessionValue.ClientID %>').value;

@@ -1,0 +1,1 @@
+// Example usage of htmlspecialchars() with ENT_QUOTES to handle both double and single quotes.\necho htmlspecialchars($user_data, ENT_QUOTES, 'UTF-8');

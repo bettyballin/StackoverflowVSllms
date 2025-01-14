@@ -1,0 +1,1 @@
+CREATE VIEW dbo.UniqueCategoryValue\n    WITH SCHEMABINDING\n    AS\n    SELECT \n        Category, \n        Value, \n        COUNT_BIG(*) AS cntBig\n    FROM \n        dbo.TestTable\n    GROUP BY \n        Category, \n        Value\n    HAVING \n        COUNT_BIG(*) > 1;

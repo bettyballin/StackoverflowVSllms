@@ -1,0 +1,1 @@
+// Load XML with specified encoding\n   $xmlString = file_get_contents("yourfile.xml");\n   libxml_use_internal_errors(true);\n   $dom = new DOMDocument('1.0', 'UTF-8');\n   $dom->loadXML($xmlString, LIBXML_NOENT | LIBXML_DTDLOAD);

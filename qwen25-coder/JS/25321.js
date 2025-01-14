@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    $(document).ready(function() {\n        $("#openLink").click(function() {\n            $("#message").slideDown("fast");\n        });\n\n        // Correctly reference the function here\n        $("#closeLink").click(closeIt);\n    });\n\n    function closeIt() {\n        $("#message").slideUp("slow");\n    }\n</script>

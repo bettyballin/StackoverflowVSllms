@@ -1,0 +1,1 @@
+Dim _StreamReader As StreamReader = New StreamReader(mystream)

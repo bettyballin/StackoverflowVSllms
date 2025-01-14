@@ -1,0 +1,1 @@
+<p>Current Time: <%= DateTime.Now %></p>

@@ -1,0 +1,1 @@
+/migrations/20231001_initial_setup.sql\n/migrations/20231002_update_sp2.sql

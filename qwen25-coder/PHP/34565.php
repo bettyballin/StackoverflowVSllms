@@ -1,0 +1,1 @@
+session_set_cookie_params([\n       'lifetime' => 0,\n       'path'     => '/',\n       'domain'   => '.example.com',\n       'secure'   => true, // Use HTTPS only\n       'httponly' => true\n   ]);

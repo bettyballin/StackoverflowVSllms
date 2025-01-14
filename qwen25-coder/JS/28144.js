@@ -1,0 +1,1 @@
+const\n  vsViewKindDesigner = '{1B4E0382-765D-11D3-9C9F-00C04F798F88}';

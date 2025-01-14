@@ -1,0 +1,1 @@
+SELECT \n    c.ID,\n    c.Name,\n    c.Address,\n    STUFF((\n        SELECT ', ' + r.Name\n        FROM ContactRole cr\n        JOIN Role r ON cr.RoleID = r.ID\n        WHERE cr.ContactID = c.ID\n        FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), 1, 2, '') AS Roles\nFROM \n    Contact c;

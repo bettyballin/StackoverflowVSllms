@@ -1,0 +1,1 @@
+# This will show the aliasing problem\nmatrix = [[0] * 2] * 3\nprint("Original:", matrix)\nmatrix[1][1] = 9\nprint("After modification:", matrix)\n\n# Correct way to create a matrix without aliasing\ncorrect_matrix = []\nfor _ in range(3):\n    correct_matrix.append([0] * 2)\ncorrect_matrix[1][1] = 9\nprint("Correct matrix:", correct_matrix)

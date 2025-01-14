@@ -1,0 +1,1 @@
+SELECT CharId, ItemId\nFROM (\n    SELECT INVITEM.CharId AS CharId, \n           INVITEM.ItemId AS InvItemId, \n           SHOPITEM.ItemId AS ShopItemId\n    FROM INVITEM\n    INNER JOIN SHOPITEM ON SHOPITEM.ItemId = INVITEM.ItemId\n) AS SubQuery\nWHERE InvItemId = 3;

@@ -1,0 +1,1 @@
+EXEC sp_spaceused 'TableName';\n   EXEC sp_spaceused;

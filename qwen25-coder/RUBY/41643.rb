@@ -1,0 +1,1 @@
+# Add this to your Gemfile:\n   gem 'skylight'\n   \n   # And then configure it in config/skylight.yml

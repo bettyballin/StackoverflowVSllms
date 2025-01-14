@@ -1,0 +1,1 @@
+import timeit\n\ndef my_function():\n    # Code you want to profile\n    sum(x*x for x in range(10000))\n\n# Timing the function\nexecution_time = timeit.timeit(my_function, number=100)\nprint(f"Execution time: {execution_time} seconds")

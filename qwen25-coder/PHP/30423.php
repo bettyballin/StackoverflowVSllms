@@ -1,0 +1,1 @@
+// Define the function directly in your script using a closure\n$DebugR = function($data) {\n    echo "<pre>";\n    print_r($data);\n    echo "</pre>";\n};\n\n// Use the function as you would normally\n$DebugR(['key' => 'value']);

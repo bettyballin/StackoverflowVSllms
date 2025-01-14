@@ -1,0 +1,1 @@
+SELECT o1.id, o1.custId, o1.order\nFROM t_order o1\nWHERE o1.order IS NULL AND o1.custId NOT IN (\n    SELECT DISTINCT custId\n    FROM t_order\n    WHERE order IS NOT NULL\n) GROUP BY o1.custId;

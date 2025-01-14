@@ -1,0 +1,1 @@
+SELECT a.col, remote_b.col\n   FROM local_db.a,\n        (SELECT col, id FROM remote_db.b) remote_b\n   WHERE a.b_id = remote_b.id;

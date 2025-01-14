@@ -1,0 +1,1 @@
+def function(a, c, b=None, *d):\n    # Handle the case where b is not provided\n    if b is None:\n        b = 0  # Default value for b\n    print(f"a={a}, b={b}, c={c}, d={d}")\n\nfunction(1, 2)\nfunction(1, 3, 2)\nfunction(1, 4, 2, 5, 6)

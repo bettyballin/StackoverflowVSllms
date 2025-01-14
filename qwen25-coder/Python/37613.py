@@ -1,0 +1,1 @@
+from django.shortcuts import render\nfrom .models import blogPosts\n\ndef your_view(request):\n    # Assuming 'post_time' is the field name representing the timestamp of posts\n    blog_post_list = blogPosts.objects.order_by('-post_time')[:5]\n    return render(request, 'your_template.html', {'blog_post_list': blog_post_list})

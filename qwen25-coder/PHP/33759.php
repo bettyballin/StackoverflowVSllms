@@ -1,0 +1,1 @@
+// Example of sanitizing BBCode using a hypothetical BBCodeParser class\nrequire_once 'BBCodeParser.php';\n\n$bbcodeInput = $_POST['user_input'];\n$parser = new BBCodeParser();\n$safeHtmlOutput = $parser->parse($bbcodeInput);\n\n// Additional sanitization can be done here if needed\necho htmlspecialchars($safeHtmlOutput, ENT_QUOTES, 'UTF-8');

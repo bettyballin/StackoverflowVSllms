@@ -1,0 +1,1 @@
+$sql = "UPDATE users SET name = ?, email = ? WHERE id = ?";\n$params = ['Jane Doe', 'jane@example.com', 1];\n$types = 'ssi';  // string, string, integer\n\n$this->queryPrepared($sql, $params, $types);

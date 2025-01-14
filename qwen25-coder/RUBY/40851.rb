@@ -1,0 +1,1 @@
+class Vertex < ApplicationRecord\n  has_many :edges, dependent: :destroy\nend

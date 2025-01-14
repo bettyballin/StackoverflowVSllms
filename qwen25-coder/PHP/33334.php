@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    parse_str(file_get_contents('php://input'), $postData);\n    echo $postData['x.y']; // Outputs: value of x.y if sent\n}\n?>

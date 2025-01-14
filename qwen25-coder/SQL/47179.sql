@@ -1,0 +1,1 @@
+SELECT manufacturer_id, name \n  FROM vw_manufacturers\n  WHERE customer_id = 1;

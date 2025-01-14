@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\nif (!isset($_SESSION['upload_data'])) {\n    die("No upload data found.");\n}\n\n$csvData = $_SESSION['upload_data'];\n\n// Proceed with column mapping and database operations here\n\n// After processing, clear the session data (optional)\nunset($_SESSION['upload_data']);\n\n?>

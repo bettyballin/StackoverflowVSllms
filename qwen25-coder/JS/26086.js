@@ -1,0 +1,1 @@
+document.getElementById('ctl00_ValidationSummary1').dispose = function() {\n       Array.remove(Page_ValidationSummaries, document.getElementById('ctl00_ValidationSummary1'));\n   }

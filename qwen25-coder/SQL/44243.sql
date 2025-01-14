@@ -1,0 +1,1 @@
+-- Assume Table name is Product and Primary Key is ProductNumber\nINSERT INTO Product (ProductNumber, TestResults, OtherColumns)\nSELECT \n    CONCAT(ProductNumber, 'B', ROW_NUMBER() OVER(ORDER BY (SELECT NULL))), \n    TestResults, \n    OtherColumns\nFROM \n    Product\nWHERE \n    ProductNumber = '26273'\nLIMIT 1;

@@ -1,0 +1,1 @@
+# spec/spec_helper.rb or spec/rails_helper.rb\ndef log_in(user)\n  session[:user_id] = user.id\nend

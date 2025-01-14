@@ -1,0 +1,1 @@
+$filter = "content:%s title:%s^4.0 path.title:%s^4.0 description:%s ...";\n$term = "Cheese";\n\n$result = vsprintf($filter, array_fill(0, substr_count($filter, '%s'), $term));\necho $result;

@@ -1,0 +1,1 @@
+function start_connection() {\n    global $config;\n    // Now you can access $config['db_host']\n}

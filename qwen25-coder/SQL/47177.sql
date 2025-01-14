@@ -1,0 +1,1 @@
+SELECT * \n  FROM vw_models\n  WHERE customer_id = 2;

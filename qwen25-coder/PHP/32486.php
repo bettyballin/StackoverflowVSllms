@@ -1,0 +1,1 @@
+// Allow multiple domains or just one\nheader("Content-Security-Policy: frame-ancestors 'none';"); // for direct access blocking\nheader("Content-Security-Policy: frame-ancestors https://approved-site1.com https://approved-site2.com;");

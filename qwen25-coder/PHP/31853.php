@@ -1,0 +1,1 @@
+use Symfony\Component\Validator\Constraints as Assert;\n\nclass YourEntity\n{\n    /**\n     * @Assert\NotBlank(message="Please enter a valid name.")\n     * @Assert\Type(type="string", message="The {{ value }} is not a valid string. Please provide a correct one.")\n     */\n    private $name;\n}

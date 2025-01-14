@@ -1,0 +1,1 @@
+from urllib.parse import quote\n\nfilename = "my file name.txt"\nencoded_filename = quote(filename)\nprint(encoded_filename)

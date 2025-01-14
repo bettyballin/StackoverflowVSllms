@@ -1,0 +1,1 @@
+-- Create a new schema\nCREATE SCHEMA Sales AUTHORIZATION [SalesTeam];\n\n-- Create a table within that schema\nCREATE TABLE Sales.SalesData (\n    SalesID INT PRIMARY KEY,\n    ProductName NVARCHAR(50),\n    SaleAmount DECIMAL(18, 2)\n);\n\n-- Grant permissions on the schema to specific users or roles\nGRANT SELECT ON SCHEMA::Sales TO [SalesAnalysts];

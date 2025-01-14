@@ -1,0 +1,1 @@
+SELECT * \nFROM tasks \nORDER BY \n    done ASC,\n    CASE \n        WHEN done = 0 THEN priority \n        ELSE -1 -- or any value that will not interfere with priority sorting\n    END DESC,\n    CASE \n        WHEN done = 1 THEN date \n        ELSE '9999-12-31' -- a date far in the future to ensure it sorts last if unused\n    END DESC;

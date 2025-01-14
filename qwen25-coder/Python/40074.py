@@ -1,0 +1,1 @@
+import array\n\n# Assuming the expected elements are all integers\nl = array.array('i', [0] * initial_capacity)\n\nindex = 0\nwhile foo:\n    # baz\n    l[index] = bar\n    index += 1\n    # qux\n\n# Similarly, slice if you appended fewer elements\nl = l[:index]

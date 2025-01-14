@@ -1,0 +1,1 @@
+-- Assuming the original data is in ISO-8859-1 encoding.\nSELECT ID, QID,\n       CONVERT(nvarchar, \n               CONVERT(varbinary(MAX), [Data], 0), -- Convert string to binary based on current collation\n               65001) AS CorrectedFrenchText -- Convert binary back to nvarchar using UTF-8 (close equivalent for ISO-8859-1 to UCS2)\nFROM tblData\nWHERE LEN([Data]) > 0;

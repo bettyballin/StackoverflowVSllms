@@ -1,0 +1,1 @@
+function get_feed() {\n    include_once(ABSPATH . WPINC . '/feed.php');\n    $rss = fetch_feed('http://dorar.shamekh.ws/?feed=rss2');\n\n    if (is_wp_error($rss)) {\n        return [];\n    }\n\n    $maxitems = 1;\n    $items = $rss->get_items(0, $maxitems);\n\n    return $items;\n}

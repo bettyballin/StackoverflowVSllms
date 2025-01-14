@@ -1,0 +1,1 @@
+ALTER TABLE your_table\n   ADD CONSTRAINT df_created_date DEFAULT GETDATE() FOR created_date;

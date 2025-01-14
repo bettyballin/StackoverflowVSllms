@@ -1,0 +1,1 @@
+$input = "Your string here., @#$(*)810";\n$cleanedString = preg_replace("/[^a-zA-Z0-9.]/", "", $input);\necho $cleanedString;

@@ -1,0 +1,1 @@
+if (window.parent !== window) {\n    try {\n        var parentUrl = window.parent.location.href;\n        console.log("Parent URL is: " + parentUrl);\n        // Here you can add logic to verify if the URL is approved\n    } catch (e) {\n        console.error("Error accessing parent URL:", e.message);\n    }\n}

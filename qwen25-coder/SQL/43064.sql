@@ -1,0 +1,1 @@
+CREATE TABLE ArtistFans (\n    ArtistID INT,\n    UserID INT,\n    PRIMARY KEY (ArtistID, UserID)\n);

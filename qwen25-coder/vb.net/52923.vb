@@ -1,0 +1,1 @@
+oClients = (From P In ERM.Parties \n            Where TypeOf(P) Is Organisation \n            Let org = DirectCast(P, Organisation)\n            Order By org.CoName)\n            .ToList()

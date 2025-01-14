@@ -1,0 +1,1 @@
+SELECT DISTINCT \n    CASE WHEN Person1 < Person2 THEN Person1 ELSE Person2 END AS SmallerID,\n    CASE WHEN Person1 >= Person2 THEN Person1 ELSE Person2 END AS LargerID\nFROM \n    Relationship\nWHERE \n    RelationshipType = 'Married';

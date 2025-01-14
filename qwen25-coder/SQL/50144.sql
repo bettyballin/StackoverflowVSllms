@@ -1,0 +1,1 @@
+DELETE a\nFROM A a\nJOIN B b ON a.id = b.a_id\nWHERE b.date < '2008-10-10';

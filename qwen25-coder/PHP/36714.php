@@ -1,0 +1,1 @@
+$siteID = $_GET['siteID'];\n$intSiteID = filter_var($siteID, FILTER_VALIDATE_INT);\n\nif ($intSiteID === false) {\n    // Handle the case where siteID is not a valid integer\n    echo "Invalid siteID";\n} else {\n    // Use $intSiteID as an integer\n    echo "Valid siteID: " . $intSiteID;\n}

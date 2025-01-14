@@ -1,0 +1,1 @@
+SELECT p.projectID\nFROM Projects p\nJOIN Roofing r ON p.projectID = r.projectID\nJOIN Siding s ON p.projectID = s.projectID\nJOIN Gutters g ON p.projectID = g.projectID\nJOIN Misc m ON p.projectID = m.projectID\nGROUP BY p.projectID\nHAVING MAX(r.status) = 'completed'\n   AND MAX(s.status) = 'completed'\n   AND MAX(g.status) = 'completed'\n   AND MAX(m.status) = 'completed';

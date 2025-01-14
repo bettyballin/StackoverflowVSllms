@@ -1,0 +1,1 @@
+// Efficient creation and manipulation of HTML using jQuery\nvar newElements = $('<div/>', {\n    id: 'modalPopup',\n    class: 'modal-content',\n    html: [\n        '<h1>Modal Title</h1>',\n        '<p>This is the content of the modal.</p>'\n    ].join('')\n});\n\n// Append all elements at once to the body or another container\n$('body').append(newElements);

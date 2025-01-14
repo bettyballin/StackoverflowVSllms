@@ -1,0 +1,1 @@
+CREATE TABLE Friends (\n    PersonID INT,\n    FriendID INT,\n    PRIMARY KEY (PersonID, FriendID),\n    FOREIGN KEY (PersonID) REFERENCES Table1(ID),\n    FOREIGN KEY (FriendID) REFERENCES Table1(ID)\n);

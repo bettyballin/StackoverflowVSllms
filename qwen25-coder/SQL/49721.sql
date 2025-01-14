@@ -1,0 +1,1 @@
+ALTER TABLE MyTable DROP COLUMN MyField;

@@ -1,0 +1,1 @@
+DELETE t1 \nFROM your_table t1\nJOIN (\n    SELECT MIN(id) as id, column1, column2, ...\n    FROM your_table\n    GROUP BY column1, column2, ...\n    HAVING COUNT(*) > 1\n) t2\nON t1.column1 = t2.column1 AND t1.column2 = t2.column2 AND ... \nWHERE t1.id <> t2.id;

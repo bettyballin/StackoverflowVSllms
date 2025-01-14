@@ -1,0 +1,1 @@
+SELECT * \nFROM your_table \nWHERE first_name LIKE '%$search_term%' \n   OR last_name LIKE '%$search_term%' \n   OR CONCAT(first_name, ' ', last_name) LIKE '%$search_term%';

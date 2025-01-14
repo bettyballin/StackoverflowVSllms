@@ -1,0 +1,1 @@
+import quopri\n\nencoded_text = b"some text some text some text some=\nsome text some text some text some text som<ta=\nable>some text some text some text some text <t=\nr><td..."\ndecoded_text = quopri.decodestring(encoded_text)\n\nprint(decoded_text.decode('utf-8'))

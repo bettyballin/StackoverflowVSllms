@@ -1,0 +1,1 @@
+// Similarly, using dirname(__FILE__)\ninclude dirname(__FILE__) . '/anotherfile.php';

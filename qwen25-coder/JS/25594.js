@@ -1,0 +1,1 @@
+// Create a temporary <a> element\nvar downloadLink = document.createElement('a');\ndownloadLink.href = data.link;\ndownloadLink.download = 'filename'; // You might want to set the correct filename here\n\n// Append and trigger click, then remove from DOM\ndocument.body.appendChild(downloadLink);\ndownloadLink.click();\ndocument.body.removeChild(downloadLink);

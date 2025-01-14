@@ -1,0 +1,1 @@
+$articleName = $this->request->param('id'); // Assuming the slug is passed as a route parameter\n\n$article = ORM::factory('Articles');\n$data = $article->where('slug', '=', $articleName)->find();\n\nif (!$data->loaded()) {\n    Request::instance()->response->status(404);\n    throw new HTTP_Exception_404();\n}

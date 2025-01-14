@@ -1,0 +1,1 @@
+$data = array('key' => 'value', 'timestamp' => time());\n   $serializedData = serialize($data);\n   file_put_contents('cache.txt', $serializedData);

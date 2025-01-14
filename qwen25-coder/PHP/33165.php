@@ -1,0 +1,1 @@
+$list[0][0] = "2009-09-09";\n$list[0][1] = "2009-05-05";\n$list[0][2] = "2009-09-09";\n\n$valueToFind = "2009-09-09";\n$keys = array_keys(array_filter($list[0], function($value) use ($valueToFind) {\n    return $value === $valueToFind;\n}));\n\nprint_r($keys);

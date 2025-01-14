@@ -1,0 +1,1 @@
+Public Class Group\n    Public Property Id As String\n    Public Property Children As New List(Of Child)\n\n    Sub New(id As String)\n        Me.Id = id\n    End Sub\nEnd Class\n\nPublic Class Child\n    Public Property Id As String\n\n    Sub New(id As String)\n        Me.Id = id\n    End Sub\nEnd Class

@@ -1,0 +1,1 @@
+SELECT \n    Category,\n    SUM(CASE WHEN GroupType = 'Group1' THEN Value ELSE 0 END) AS Group1_Value,\n    SUM(CASE WHEN GroupType = 'Group2' THEN Value ELSE 0 END) AS Group2_Value\nFROM \n    YourTableName\nGROUP BY \n    Category;

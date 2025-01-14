@@ -1,0 +1,1 @@
+// Example YAML config file parsing with a hypothetical YAML parser\n   use Symfony\Component\Yaml\Yaml;\n\n   $config = Yaml::parseFile('config.yaml');

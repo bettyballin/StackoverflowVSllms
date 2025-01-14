@@ -1,0 +1,1 @@
+define('ROLE_CLIENT_MANAGEMENT', 1); // 001 in binary\ndefine('ROLE_INVOICE_MANAGEMENT', 2); // 010 in binary\ndefine('ROLE_VIEW_REPORT', 4); // 100 in binary

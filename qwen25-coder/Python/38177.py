@@ -1,0 +1,1 @@
+from PIL import Image\n\ndef resize_image(input_path, output_path, size=(800, 600)):\n    with Image.open(input_path) as img:\n        resized_img = img.resize(size)\n        resized_img.save(output_path)\n\n# Example usage\nresize_image('input.jpg', 'output_resized.jpg')

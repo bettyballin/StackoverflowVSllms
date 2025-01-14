@@ -1,0 +1,1 @@
+SELECT\n    DATEADD(SECOND, SUM(DATEDIFF(SECOND, 0, runtime)), 0) AS TotalTime\nFROM your_table_name;

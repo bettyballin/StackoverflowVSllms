@@ -1,0 +1,1 @@
+# forms.py\nfrom django import forms\n\nclass EventForm(forms.Form):\n    name = forms.CharField(max_length=100)\n    event_date = forms.CharField(widget=forms.HiddenInput(), required=False)  # Hidden field to store selected date(s)

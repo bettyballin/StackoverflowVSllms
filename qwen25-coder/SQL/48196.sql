@@ -1,0 +1,1 @@
+DECLARE @targetDate datetime = '2008-12-20';\nDECLARE @nextDay datetime = DATEADD(day, 1, @targetDate);\n\nSELECT id, message, timestamp\nFROM YourTableName\nWHERE timestamp >= @targetDate AND timestamp < @nextDay;

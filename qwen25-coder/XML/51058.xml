@@ -1,0 +1,1 @@
+<!-- Add these dependencies to your project's build configuration (e.g., Maven POM) -->\n<dependency>\n    <groupId>javax.servlet</groupId>\n    <artifactId>jstl</artifactId>\n    <version>1.1.2</version>\n</dependency>

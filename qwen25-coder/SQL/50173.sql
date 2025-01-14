@@ -1,0 +1,1 @@
+SELECT t1.*\nFROM Table1 t1\nJOIN ThresholdTable tt ON t1.SomeColumn = tt.SomeColumn -- Adjust this join condition accordingly\nORDER BY \n    CASE WHEN t1.Value < tt.Threshold THEN 0 ELSE 1 END,\n    t1.Id; -- or another column to maintain order among records with the same value comparison result

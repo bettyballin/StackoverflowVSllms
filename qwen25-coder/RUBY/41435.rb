@@ -1,0 +1,1 @@
+<%= Html.Raw(Html.ValidationMessageFor(m => m.Name).ToString()) %>

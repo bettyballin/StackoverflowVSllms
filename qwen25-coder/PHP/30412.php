@@ -1,0 +1,1 @@
+<?php\nnamespace Wordpress;\n\nfunction is_admin() {\n    // original function logic from Wordpress\n}

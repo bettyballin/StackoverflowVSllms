@@ -1,0 +1,1 @@
+SELECT \n    CONVERT(date, Time15) AS DateOnly,\n    MAX(UserCount) AS PeakUserCount\nFROM \n    YourTableName -- Replace with your actual table name\nGROUP BY \n    CONVERT(date, Time15)\nORDER BY \n    DateOnly;

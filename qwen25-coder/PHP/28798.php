@@ -1,0 +1,1 @@
+class User {\n       public static function loginRequired() {\n           if (!/* your logic to check if user is logged in */) {\n               // Add error message to your Error class here\n               throw new LoginRequiredException("You must be logged in to view this content.");\n           }\n           return false;\n       }\n   }

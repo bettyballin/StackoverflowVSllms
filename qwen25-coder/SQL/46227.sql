@@ -1,0 +1,1 @@
+CREATE TABLE example (\n    id INTEGER PRIMARY KEY,\n    data TEXT\n);\n\nINSERT INTO example (id, data) VALUES (1, 'This is some text data.');

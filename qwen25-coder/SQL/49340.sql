@@ -1,0 +1,1 @@
+CREATE VIEW dbo.ViewDatesAndAvailability AS\nSELECT \n    d.DateValue AS date,\n    COALESCE(t2.available, t1.available) AS available\nFROM \n    dbo.DateGenerator('2008-01-01', DATEADD(year, 1, '2007-12-31')) d\nLEFT JOIN \n    table1 t1 ON DATEPART(weekday, d.DateValue) = t1.weekday -- Adjust weekday mapping if needed\nLEFT JOIN \n    table2 t2 ON d.DateValue = t2.date;

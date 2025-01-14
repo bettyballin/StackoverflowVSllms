@@ -1,0 +1,1 @@
+select 'Query 1', b.B_data, c.C_data from tableB b inner join tableC c on b.A_id = c.A_id\nunion\nselect 'Query 2', b.B_data, c.C_data from tableB b inner join tableA a on b.A_id = a.A_id inner join tableC c on a.A_id = c.A_id;

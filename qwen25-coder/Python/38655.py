@@ -1,0 +1,1 @@
+def knuth_fisher_yates_shuffle(deck):\n    for i in range(len(deck) - 1, 0, -1):\n        swap_index = random.randint(0, i)\n        deck[i], deck[swap_index] = deck[swap_index], deck[i]

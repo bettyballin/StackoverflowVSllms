@@ -1,0 +1,1 @@
+SELECT \n    C.contact_id,\n    I.name,\n    A.address_details\nFROM \n    Contacts AS C\nJOIN \n    Information AS I ON C.info_id = I.info_id\nLEFT JOIN \n    Contact_Addresses AS CA ON C.contact_id = CA.contact_id\nLEFT JOIN \n    Addresses AS A ON CA.address_id = A.address_id;

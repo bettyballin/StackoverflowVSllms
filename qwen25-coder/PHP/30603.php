@@ -1,0 +1,1 @@
+exec("/usr/bin/unrar e file.rar", $ret, $code);

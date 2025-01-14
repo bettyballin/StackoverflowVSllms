@@ -1,0 +1,1 @@
+LIST(\n    CASE \n        WHEN tblWOService.PricePerVehicle IS NULL THEN ' '\n        ELSE TO_CHAR(tblWOService.PricePerVehicle, 'FM999999999999999990.00')\n    END,\n    ';'\n) AS PriceList

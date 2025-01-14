@@ -1,0 +1,1 @@
+SELECT c.companyID, c.companyName, c.dateAdded, count(cm.maxID) as NumDirect\nFROM RussoundGeneral.dbo.Company c  \nLEFT JOIN RussoundGeneral.dbo.CompanyMax cm\n       ON (cm.companyId = c.companyId and cm.maxID is not null)  \nWHERE CONTAINS(c.companyName, '"BLA ""BLAHBLAH"" Ltd.*"')\nGROUP BY c.companyID, c.companyName, c.dateAdded  \nORDER BY c.companyName ASC

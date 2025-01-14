@@ -1,0 +1,1 @@
+CREATE PROCEDURE MyProc\n       @MyDate DATETIME = NULL\n   AS\n       DECLARE @MyDate_Copy DATETIME\n       SET @MyDate_Copy = ISNULL(@MyDate, CURRENT_TIMESTAMP)\n       -- Do Something using @MyDate_Copy

@@ -1,0 +1,1 @@
+$escaped_input = mysqli_real_escape_string($mysqli, $_POST['input_field']);\n   $sql = "INSERT INTO table_name (column_name) VALUES ('$escaped_input')";\n   $result = $mysqli->query($sql);

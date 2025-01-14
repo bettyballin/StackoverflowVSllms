@@ -1,0 +1,1 @@
+'name' => array(\n    'Name has to be comprised of letters and contain at least two words.' =>array(\n        'rule' => array('custom', '/^[A-Za-z]+(\s[A-Za-z]+)+$/'),\n        'message' => 'Please enter a valid first and last name with alphabetic characters only.',\n    ),\n),

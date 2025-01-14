@@ -1,0 +1,1 @@
+# Export from remote database\n   expdp userid=remote_user/remote_password@remotedb directory=data_pump_dir dumpfile=b_schema.dmp schemas=b\n\n   # Import into your local database\n   impdp userid=local_user/local_password@localdb directory=data_pump_dir dumpfile=b_schema.dmp remap_schema=b:local_b

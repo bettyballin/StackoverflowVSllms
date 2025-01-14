@@ -1,0 +1,1 @@
+select a.Name, b.Status \nfrom a\ninner join b\non a.StatusID = b.ID and a.SomeOtherColumn = b.MatchColum

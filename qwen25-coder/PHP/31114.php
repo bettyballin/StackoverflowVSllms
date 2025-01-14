@@ -1,0 +1,1 @@
+<?php\n   require_once '/path/to/whoops.phar';\n  \n   $run = new \Whoops\Run;\n   $errorHandler = new \Whoops\Handler\PrettyPageHandler;\n   $run->pushHandler($errorHandler);\n   $run->register();

@@ -1,0 +1,1 @@
+CREATE INDEX IF NOT EXISTS idx_subscribers_id ON Subscribers(ID);

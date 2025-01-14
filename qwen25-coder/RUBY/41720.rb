@@ -1,0 +1,1 @@
+# Example usage of Nokogiri\nrequire 'nokogiri'\nrequire 'open-uri'\n\nurl = 'https://example.com'\ndoc = Nokogiri::HTML(URI.open(url))\nputs doc.title

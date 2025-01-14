@@ -1,0 +1,1 @@
+import numpy as np\n\nverts = np.zeros(1000)  # Creates an array of 1000 zeros

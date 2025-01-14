@@ -1,0 +1,1 @@
+WITH name_parts AS (\n    SELECT \n        LOWER(SUBSTR(name_str, REGEXP_INSTR(name_str, ',') + 2, 1)) || \n        LOWER(SUBSTR(name_str, 1, REGEXP_INSTR(name_str, ',') - 1)) AS formatted_name\n    FROM \n        (SELECT 'Smith, John R' AS name_str FROM dual)\n)\nSELECT formatted_name FROM name_parts;

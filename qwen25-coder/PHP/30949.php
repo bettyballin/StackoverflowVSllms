@@ -1,0 +1,1 @@
+<?php\nob_start(); // Start output buffering\n\n// Page content goes here\n?>\n<!-- Your HTML content -->\n\n<?php\n$content = ob_get_clean();\n$cache_file = 'cached_page.html';\nfile_put_contents($cache_file, $content);\n\nheader('Content-Type: text/html; charset=utf-8');\necho $content;\nexit;

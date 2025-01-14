@@ -1,0 +1,1 @@
+$.ajax({\n    url: 'your-url-here',\n    type: 'GET', // or POST, etc.\n    beforeSend: function(xhr) {\n        xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");\n    },\n    success: function(response) {\n        console.log('Success:', response);\n    },\n    error: function(error) {\n        console.error('Error:', error);\n    }\n});

@@ -1,0 +1,1 @@
+DBCC INDEXDEFRAG (YourDatabaseName, 'tablename', ALL);

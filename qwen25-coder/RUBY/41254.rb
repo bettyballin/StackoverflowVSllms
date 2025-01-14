@@ -1,0 +1,1 @@
+puts "Hello"\n    # same as \n    puts("Hello")

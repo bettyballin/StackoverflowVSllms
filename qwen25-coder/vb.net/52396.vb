@@ -1,0 +1,1 @@
+Private Sub Window_Closing(sender As Object, e As ComponentModel.CancelEventArgs) Handles Me.Closing\n    If Application.Current.Windows.Count = 1 Then\n        ' Only hide if this is the last window\n        e.Cancel = True\n        Me.Hide()\n    End If\nEnd Sub

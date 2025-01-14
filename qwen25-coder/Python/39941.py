@@ -1,0 +1,1 @@
+# foo.py\n\n# simple function that does something:\ndef myFunction(a, b, c):\n    print("call to myFunction:", a, b, c)  # Use parentheses for print in Python 3\n\n# class used to store some data:\nclass Data:  # Capitalize the class name\n    fn = None\n\n# assign function to the class for storage.\nData.fn = myFunctio

@@ -1,0 +1,1 @@
+Public Sub New(ByVal Reference As ReferenceClass)\n    myReference = Reference\nEnd Sub

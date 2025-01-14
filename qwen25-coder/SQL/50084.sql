@@ -1,0 +1,1 @@
+EXEC sp_addlinkedserver \n       @server = 'LinkedServer_Name', -- Name for this Linked Server\n       @srvproduct = '',             -- Product name; not used in SQL Server 2000\n       @provider = 'SQLOLEDB',\n       @datasrc = 'Server_B';        -- SQL Server instance of the remote server

@@ -1,0 +1,1 @@
+// In your layout.phtml or appropriate layout file\n   echo $this->renderCategories();

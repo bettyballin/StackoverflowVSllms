@@ -1,0 +1,1 @@
+CREATE EXTENSION pg_stat_statements;\n   SELECT query, calls, total_time FROM pg_stat_statements ORDER BY total_time DESC LIMIT 10;

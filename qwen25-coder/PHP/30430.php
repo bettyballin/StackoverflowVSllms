@@ -1,0 +1,1 @@
+// base.php\n\n// Use the passed variable\necho "The value of myVariable is: " . htmlspecialchars($myVariable);

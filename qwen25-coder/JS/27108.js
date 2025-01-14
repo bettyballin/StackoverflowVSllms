@@ -1,0 +1,1 @@
+// Select all <div> elements on the page\nconst divs = document.querySelectorAll('div');\n\n// Iterate over each <div> element\ndivs.forEach(div => {\n    // Check if a specific property exists and log it\n    if (div.hasAttribute('some-attribute')) {\n        console.log('This div has the attribute:', div.getAttribute('some-attribute'));\n    }\n});

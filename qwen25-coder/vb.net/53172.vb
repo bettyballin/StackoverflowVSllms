@@ -1,0 +1,1 @@
+Public Class YourFormName\n\n    Private Sub YourFormName_Deactivate(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Deactivate\n        ' Hide the form when it loses focus\n        Me.Hide()\n    End Sub\n\nEnd Class

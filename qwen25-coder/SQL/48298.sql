@@ -1,0 +1,1 @@
+WITH RankedOrders AS (\n    SELECT \n        OrderDate,\n        OrderTotal,\n        Customer#,\n        ROW_NUMBER() OVER (PARTITION BY Customer# ORDER BY OrderDate DESC) as rn\n    FROM Orders\n)\nSELECT \n    Customer#,\n    AVG(OrderTotal) AS AvgOrderTotal\nFROM RankedOrders\nWHERE rn <= 2\nGROUP BY Customer#

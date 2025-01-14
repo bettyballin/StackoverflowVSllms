@@ -1,0 +1,1 @@
+$client = current($CLIENT->find($options));

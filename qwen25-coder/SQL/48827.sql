@@ -1,0 +1,1 @@
+SELECT w.WorkerID, w.ManagerID\nFROM tb_Worker w\nWHERE w.ManagerID IN (\n    SELECT m.ManagerID\n    FROM tb_Manager m\n    WHERE m.HeadID = @GivenHeadID\n);

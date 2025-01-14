@@ -1,0 +1,1 @@
+// JavaScript with DOMParser\nconst xmlString = '<root><name>John</name><age>30</age></root>';\nconst parser = new DOMParser();\nconst xmlDoc = parser.parseFromString(xmlString, "application/xml");\nconsole.log(xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue); // Outputs: Joh

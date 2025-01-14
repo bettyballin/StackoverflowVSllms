@@ -1,0 +1,1 @@
+class QuestionMembership < ActiveRecord::Base\n  belongs_to :form\n  belongs_to :question\n  acts_as_list\n\n  default_scope { order(:position) }\nend

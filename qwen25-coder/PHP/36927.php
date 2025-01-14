@@ -1,0 +1,1 @@
+<?php\n   \Magento\Framework\Component\ComponentRegistrar::register(\n       \Magento\Framework\Component\ComponentRegistrar::MODULE,\n       'YourCompany_HelloWorld',\n       __DIR__\n   );

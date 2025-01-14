@@ -1,0 +1,1 @@
+<object data="musicplayer.swf?autostart=true&playlist=playlist.php?song=<?=urlencode(implode(',', $_POST['song'])); ?>" \n        type="application/x-shockwave-flash" width="400" height="300">\n    <param name="movie" value="musicplayer.swf?autostart=true&playlist=playlist.php?song=<?=urlencode(implode(',', $_POST['song'])); ?>"/></object>

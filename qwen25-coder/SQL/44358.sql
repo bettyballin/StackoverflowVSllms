@@ -1,0 +1,1 @@
+DECLARE @DefaultDataPath NVARCHAR(4000);\nEXEC xp_instance_regread \n    N'HKEY_LOCAL_MACHINE', \n    N'Software\Microsoft\MSSQLServer\MSSQLServer', \n    N'DefaultData',\n    @DefaultDataPath OUTPUT\n\nSELECT @DefaultDataPath + '\Backup' AS DefaultBackupPath;

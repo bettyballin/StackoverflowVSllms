@@ -1,0 +1,1 @@
+// db1.php\n\nrequire_once ROOT . 'utils/util1.php';

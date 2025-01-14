@@ -1,0 +1,1 @@
+document.observe("dom:loaded", function() {\n  $$('table#yourTableId tr').each(function(row) {\n    row.observe('mouseover', function(event) {\n      this.setStyle({'background-color': '#f0f0f0'});\n    });\n    \n    row.observe('mouseout', function(event) {\n      this.setStyle({'background-color': ''}); // Reset to default\n    });\n  });\n});

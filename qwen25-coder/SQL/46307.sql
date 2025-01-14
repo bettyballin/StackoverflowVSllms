@@ -1,0 +1,1 @@
+SELECT t.*\nFROM your_table t\nJOIN (\n    SELECT client_id\n    FROM your_table\n    GROUP BY client_id\n    LIMIT 5\n) distinct_clients ON t.client_id = distinct_clients.client_id;

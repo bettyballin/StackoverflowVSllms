@@ -1,0 +1,1 @@
+$path = '/srv/www/site.com/htdocs/system/application/views/';\n$pattern = '/(?<=\/)[^\/]+/';\n\nif (preg_match_all($pattern, $path, $matches)) {\n    print_r($matches[0]);\n}

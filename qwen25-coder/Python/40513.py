@@ -1,0 +1,1 @@
+from pypostscript import epsfile\n\n   ef = epsfile.EPSFile('example.ps')\n   ef.comment("Example Comment")\n   ef.save()

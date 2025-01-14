@@ -1,0 +1,1 @@
+SET @user_region='myregion';\n\nSELECT * FROM regional_view WHERE region=@user_region;

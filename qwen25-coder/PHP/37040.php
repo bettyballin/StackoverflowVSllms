@@ -1,0 +1,1 @@
+<?php\n$file = '/path/to/your/file';\n$output = [];\nexec('stat -c %i ' . escapeshellarg($file), $output);\n$inode = isset($output[0]) ? trim($output[0]) : null;\necho $inode;\n?>

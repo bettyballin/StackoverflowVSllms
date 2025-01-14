@@ -1,0 +1,1 @@
+$logFile = 'eval_log.txt';\n\n$codeToEval = '\n    function myevalfunction() {\n        echo "Test";\n    }\n';\n\n// Log the code before execution\nfile_put_contents($logFile, $codeToEval . PHP_EOL, FILE_APPEND);\n\neval($codeToEval);

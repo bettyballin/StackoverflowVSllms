@@ -1,0 +1,1 @@
+<function>\n       <name>formatDate</name>\n       <function-class>com.example.DateUtil</function-class>\n       <function-signature>java.lang.String formatDate(java.util.Date, java.lang.String)</function-signature>\n   </function>

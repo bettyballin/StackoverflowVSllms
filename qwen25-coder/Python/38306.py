@@ -1,0 +1,1 @@
+from asteval import Interpreter\n\nae = Interpreter()\nresult = ae("1 + 2 * (3 + 4)")\nprint(result)  # Output: 15

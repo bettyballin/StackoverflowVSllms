@@ -1,0 +1,1 @@
+CREATE TABLE Users (\n    UserID INT PRIMARY KEY,\n    -- other user fields\n);\n\nCREATE TABLE Groups (\n    GroupID INT PRIMARY KEY,\n    -- other group fields\n);\n\nCREATE TABLE UserGroups (\n    UserID INT,\n    GroupID INT,\n    PRIMARY KEY (UserID, GroupID),\n    FOREIGN KEY (UserID) REFERENCES Users(UserID),\n    FOREIGN KEY (GroupID) REFERENCES Groups(GroupID)\n);

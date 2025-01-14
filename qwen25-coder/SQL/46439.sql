@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS changelog_users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    user_id INT NOT NULL,\n    operation CHAR(1) NOT NULL COMMENT 'I for insert, U for update, D for delete',\n    data JSON DEFAULT NULL,\n    sync_status ENUM('pending', 'done') DEFAULT 'pending'\n);

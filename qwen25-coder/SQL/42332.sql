@@ -1,0 +1,1 @@
+CREATE INDEX idx_ourcolumn_not_null ON YourTable (CASE WHEN OurColumn IS NOT NULL THEN 1 ELSE 0 END);

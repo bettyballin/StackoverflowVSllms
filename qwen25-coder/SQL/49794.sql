@@ -1,0 +1,1 @@
+SELECT DATE_FORMAT(your_time_column, '%h:%i %p') AS formatted_time\nFROM your_table;

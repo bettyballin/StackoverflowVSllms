@@ -1,0 +1,1 @@
+CREATE PROCEDURE dbo.CalculateData\n   AS EXTERNAL NAME CalculationEngineAssembly.[Namespace.ClassName].CalculateMethod;

@@ -1,0 +1,1 @@
+// At the top of your main PHP files\n    session_start();

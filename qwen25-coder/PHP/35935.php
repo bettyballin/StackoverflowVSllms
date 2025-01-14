@@ -1,0 +1,1 @@
+// app/Controller/Component/ShortFactComponent.php\nApp::uses('Component', 'Controller');\n\nclass ShortFactComponent extends Component {\n    public function getRandom() {\n        // Fetch a random short fact from the database\n    }\n}

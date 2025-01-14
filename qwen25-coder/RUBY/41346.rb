@@ -1,0 +1,1 @@
+# Gemfile\nsource 'https://rubygems.org'\ngem 'rails', '~> 6.1'\n\n# app/controllers/hello_controller.rb\nclass HelloController < ApplicationController\n  def world\n    render plain: "Hello World"\n  end\nend\n\n# config/routes.rb\nRails.application.routes.draw do\n  get '/hello/world', to: 'hello#world'\nend

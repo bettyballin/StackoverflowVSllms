@@ -1,0 +1,1 @@
+fetch('https://api.example.com/data')\n    .then(response => {\n        if (!response.ok) {\n            throw new Error('Network response was not ok ' + response.statusText);\n        }\n        return response.json();\n    })\n    .then(data => console.log(data))\n    .catch(error => console.error('There has been a problem with your fetch operation:', error));

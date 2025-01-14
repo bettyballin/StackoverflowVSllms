@@ -1,0 +1,1 @@
+<target name="run">\n    <subant target="run" failonerror="true" verbose="true">\n        <fileset dir="${projects.root}" includes="*/build.xml"/>\n    </subant>\n</target>

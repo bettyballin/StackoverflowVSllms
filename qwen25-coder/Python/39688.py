@@ -1,0 +1,1 @@
+escaped_string = '\\u003cfoo\\u003e'\nunescaped_string = escaped_string.encode().decode('unicode_escape')\nprint(unescaped_string)  # Output: <foo/>

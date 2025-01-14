@@ -1,0 +1,1 @@
+import fitz  # PyMuPDF\n\ndef pdf_to_text(file_path):\n    doc = fitz.open(file_path)\n    text = ""\n    for page_num in range(len(doc)):\n        page = doc.load_page(page_num)\n        text += page.get_text()\n    return text\n\n# Usage\nfile_path = 'example.pdf'\nprint(pdf_to_text(file_path))

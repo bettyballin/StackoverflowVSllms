@@ -1,0 +1,1 @@
+$.post("", {message: msg}, function(response) {\n    console.log("Server response:", response);\n}).fail(function() {\n    console.error("Error sending message.");\n});

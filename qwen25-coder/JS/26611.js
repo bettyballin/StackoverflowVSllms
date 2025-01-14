@@ -1,0 +1,1 @@
+// Example of secure request using HTTPS (if your local service supports it)\n   fetch('https://localhost:8443/status')\n     .then(response => response.json())\n     .then(data => console.log(data))\n     .catch(error => console.error('Error:', error));

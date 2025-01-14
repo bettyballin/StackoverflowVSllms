@@ -1,0 +1,1 @@
+email_regex = /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i\n\n# Example usage\nputs "Valid" if "example@example.com" =~ email_regex\nputs "Invalid" if "invalid-email@" !~ email_regex

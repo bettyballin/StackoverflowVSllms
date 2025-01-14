@@ -1,0 +1,1 @@
+WITH counted_things AS (\n    SELECT t1.id,\n           COUNT(t2.id) as num_things\n    FROM t1\n    LEFT JOIN t2 ON t2.id = t1.id\n    GROUP BY t1.id\n)\nSELECT id\nFROM counted_things\nWHERE num_things = 5;

@@ -1,0 +1,1 @@
+$i = '76561197961384956'; // Use a string for precision\n$result = bcadd($i, '0', 0); // Example operation: add 0 to maintain type and precision\n$s = "i = $result";\n\necho $s; // Outputs: i = 76561197961384956

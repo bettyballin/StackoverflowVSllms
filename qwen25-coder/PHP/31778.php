@@ -1,0 +1,1 @@
+<?php\n$x = 5;\n$y = 10;\n// Set a breakpoint below this line in your IDE\n$result = $x + $y;\necho "The result is: " . $result;\n?>

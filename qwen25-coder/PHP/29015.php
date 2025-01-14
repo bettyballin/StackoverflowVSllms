@@ -1,0 +1,1 @@
+<?php\nclass myClass {\n    public static function myStaticFunction() {\n        $backtrace = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS, 2);\n        // The first index is the current function call,\n        // so we need to go to the second element for the caller.\n        return isset($backtrace[1]) ? $backtrace[1]['file'] : 'Unknown file';\n    }\n}\n?>

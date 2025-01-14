@@ -1,0 +1,1 @@
+var clonedElement = $("#MainConfig").clone(false).removeAttr("id").find("*").removeAttr("id").end();\nclonedElement.appendTo($("#smallConfig"));

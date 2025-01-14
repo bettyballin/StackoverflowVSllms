@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    function acceptAgreement() {\n        // Close the modal programmatically, if applicable\n        $('#yourModalId').modal('hide');\n        \n        // Optionally, perform any additional client-side actions here\n    }\n</script>

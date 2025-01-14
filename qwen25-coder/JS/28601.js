@@ -1,0 +1,1 @@
+const express = require('express');\nconst router = express.Router();\n\n// Define tasks-specific routes here\nrouter.get('/', (req, res) => {\n    res.send('Tasks Home Page');\n});\n\nrouter.post('/create', (req, res) => {\n    res.send('Create New Task');\n});\n\nmodule.exports = router;

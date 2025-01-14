@@ -1,0 +1,1 @@
+<script type="text/javascript">\n   function repositionAd() {\n       var adFrame = document.getElementById('google_ads_frame1');\n       if (adFrame) {\n           // Apply styles or logic to adjust position as needed\n           adFrame.style.position = 'relative';\n       }\n   }\n\n   // Call this function after AJAX updates complete\n   </script>

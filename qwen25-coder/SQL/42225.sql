@@ -1,0 +1,1 @@
+-- Disable foreign key check\nALTER TABLE your_table DISABLE TRIGGER ALL;\n\n-- Re-enable foreign key check\nALTER TABLE your_table ENABLE TRIGGER ALL;

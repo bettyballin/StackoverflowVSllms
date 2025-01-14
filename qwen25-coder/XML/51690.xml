@@ -1,0 +1,1 @@
+<system.webServer>\n    <security>\n        <requestFiltering>\n            <requestLimits maxAllowedContentLength="104857600" />\n        </requestFiltering>\n    </security>\n    <handlers>\n        <!-- Ensure no custom handlers are interfering with POST requests -->\n    </handlers>\n</system.webServer>

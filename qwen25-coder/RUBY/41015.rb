@@ -1,0 +1,1 @@
+<!-- Razor View with AntiForgeryToken -->\n@model SecureViewModel\n\n<form method="post">\n    @Html.AntiForgeryToken() <!-- CSRF protection -->\n    <input type="text" name="SomeField" />\n    <button type="submit">Submit</button>\n</form>\n\n<p>@Html.Encode(Model.SomeOutput)</p> <!-- Protect against XSS with Html.Encode -->

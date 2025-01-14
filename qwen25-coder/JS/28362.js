@@ -1,0 +1,1 @@
+function isSecure() {\n    return window.location.protocol === 'https:';\n}\n\nconsole.log(isSecure()); // This will log true if secure, false if not.

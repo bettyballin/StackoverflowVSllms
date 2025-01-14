@@ -1,0 +1,1 @@
+// Set the text domain\n    putenv('LC_ALL=en_US.UTF-8');\n    setlocale(LC_ALL, 'en_US.UTF-8');\n\n    bindtextdomain("myapp", "./LocaleData");\n    textdomain("myapp");

@@ -1,0 +1,1 @@
+# Model X -> M\nM_model <- lm(prestige ~ income, data = RD46)\n\n# Model Y ~ X + M\nY_model <- lm(education ~ income + prestige, data = RD46)

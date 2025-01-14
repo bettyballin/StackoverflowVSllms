@@ -1,0 +1,1 @@
+CREATE TABLE EventLog (\n    LogID INT IDENTITY(1,1) PRIMARY KEY,\n    EntryDate DATETIME2(7),\n    Message NVARCHAR(MAX)\n)\nON psDateTimeLeftRange(GETDATE());

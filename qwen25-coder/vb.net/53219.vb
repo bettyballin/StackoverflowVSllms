@@ -1,0 +1,1 @@
+Public Class Form1\n\n    Private Sub ChangeBackgroundColor()\n        ' Assuming there is a TextBox control named 'documentTextBox'\n        documentTextBox.BackColor = Color.LightBlue\n    End Sub\n\n    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load\n        ChangeBackgroundColor()\n    End Sub\nEnd Class

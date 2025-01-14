@@ -1,0 +1,1 @@
+if(!eregi("^([0-9a-z_\[\]\-\*\ ])+$", $subuser))\n    $form->setError($field, "* Username not alphanumeric");

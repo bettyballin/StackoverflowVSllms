@@ -1,0 +1,1 @@
+// Prism.js\n// Highly customizable and widely used for syntax highlighting.\n// Website: https://prismjs.com/

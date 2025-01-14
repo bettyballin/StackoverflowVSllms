@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#hidden-items').hide();\n    $('a#myList-toggle').click(function(event) {\n        event.preventDefault(); // Prevent the default anchor behavior\n        $('#hidden-items').slideToggle(400);\n    });\n});

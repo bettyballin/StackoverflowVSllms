@@ -1,0 +1,1 @@
+USE [YourTargetDatabaseName];\nGO\n\n-- Check if schema exists and create if not\nIF NOT EXISTS (SELECT * \n               FROM INFORMATION_SCHEMA.SCHEMATA \n               WHERE SCHEMA_NAME = N'DataWarehouseReports')\nBEGIN\n    EXEC('CREATE SCHEMA [DataWarehouseReports]');\nEND\nGO

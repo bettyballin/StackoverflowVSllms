@@ -1,0 +1,1 @@
+CREATE TABLE Total AS\nSELECT Name AS Title, PublisherID FROM Articles\nUNION ALL\nSELECT Title, PublisherID FROM Books;

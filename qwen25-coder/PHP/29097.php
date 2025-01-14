@@ -1,0 +1,1 @@
+<?php\n$string = 'Feugiat <em>hendrerit</em> sit iriuredolor aliquam.';\n$string = preg_replace("~<em\b[^>]*>(.*?)</em>~", "\\1", $string);\necho $string;\n?>

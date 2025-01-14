@@ -1,0 +1,1 @@
+SELECT DATE, SUM(hits) as total_hits\n   FROM your_table_name\n   WHERE date >= CURDATE() - INTERVAL 14 DAY\n   GROUP BY DATE;

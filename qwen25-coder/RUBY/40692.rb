@@ -1,0 +1,1 @@
+# Add gem to Gemfile\n   gem 'ruby-odbc'\n   \n   require 'odbc' \n   \n   db = ODBC.connect('DSN_NAME', 'username', 'password')\n   result = db.do( "SELECT * FROM table_name" )

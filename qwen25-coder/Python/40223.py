@@ -1,0 +1,1 @@
+import os\n\ndef is_pid_valid(pid):\n    try:\n        # Check if the process ID exists in the /proc filesystem\n        return os.path.isdir(f"/proc/{pid}")\n    except OSError:\n        return False\n\n# Example usage\npid = 1234  # Replace with your PID\nif is_pid_valid(pid):\n    print("Process exists")\nelse:\n    print("Process does not exist")

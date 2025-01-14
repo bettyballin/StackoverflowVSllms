@@ -1,0 +1,1 @@
+# Nokogiri is a popular library for parsing HTML and XML documents in Ruby.\nrequire 'nokogiri'\n\ndoc = Nokogiri::HTML('<html><body><div>Hello World</div></body></html>')\nresult = doc.xpath('//div/text()').map(&:text)\nputs result # Output: ["Hello World"]

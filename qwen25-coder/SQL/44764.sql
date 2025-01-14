@@ -1,0 +1,1 @@
+CREATE TRIGGER tr_UpdateGlobalMiles\nON Miles\nAFTER INSERT\nAS\nBEGIN\n    UPDATE GlobalMiles\n    SET Miles = Miles + (SELECT SUM(Miles) FROM inserted)\nEND;

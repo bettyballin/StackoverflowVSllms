@@ -1,0 +1,1 @@
+from collections import Counter\n   word_counts = Counter('hello world'.split())

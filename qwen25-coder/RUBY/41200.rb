@@ -1,0 +1,1 @@
+# app/controllers/suggestions_controller.rb\nclass SuggestionsController < ApplicationController\n  def autocomplete\n    render json: YourModel.where('name LIKE ?', "%#{params[:query]}%").limit(5)\n  end\nend

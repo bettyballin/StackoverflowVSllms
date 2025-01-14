@@ -1,0 +1,1 @@
+-- Example of using int and bigint in SQL Server\nCREATE TABLE SampleTable_int (\n    ID INT PRIMARY KEY,\n    Name NVARCHAR(100)\n);\n\nCREATE TABLE SampleTable_bigint (\n    ID BIGINT PRIMARY KEY,\n    Name NVARCHAR(100)\n);

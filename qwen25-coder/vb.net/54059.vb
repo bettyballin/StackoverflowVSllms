@@ -1,0 +1,1 @@
+Friend Const xxx As UInt64 = 400UL * 365UL * 24UL * 60UL * 60UL ' Number of secs in 400 years

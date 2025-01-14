@@ -1,0 +1,1 @@
+INSERT INTO FooMapping (foo, result) VALUES ('a', 'bar');\n   INSERT INTO FooMapping (foo, result) VALUES ('b', 'biz');\n   -- Add all your mappings here ...\n   INSERT INTO FooMapping (foo, result) VALUES ('z', 'fin');

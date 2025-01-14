@@ -1,0 +1,1 @@
+if (foo() === NULL) {\n         // Your code here\n     }

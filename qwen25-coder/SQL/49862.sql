@@ -1,0 +1,1 @@
+CREATE PROCEDURE [dbo].[Search]\n    @Col1 INT = NULL,\n    @Col2 INT = NULL,\n    @Col3 INT = NULL,\n    @Col4 INT = NULL\nAS\n\nSET TRANSACTION ISOLATION LEVEL READ COMMITTED\n\nSELECT *\nFROM [dbo].[TestTable]\nWHERE (@Col1 IS NULL OR Col1 = @Col1)\n  AND (@Col2 IS NULL OR Col2 = @Col2)\n  AND (@Col3 IS NULL OR Col3 = @Col3)\n  AND (@Col4 IS NULL OR Col4 = @Col4);

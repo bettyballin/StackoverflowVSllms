@@ -1,0 +1,1 @@
+# Define a base ORM class that inherits from ActiveRecord::Base\nclass ORM < ActiveRecord::Base\n  self.abstract_class = true\nend\n\n# Project class now inherits from ORM instead of directly from ActiveRecord::Base\nclass Project < ORM\nend

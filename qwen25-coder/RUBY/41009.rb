@@ -1,0 +1,1 @@
+<!-- app/views/layouts/application.html.erb -->\n\n<a href="#" onclick="navigateTo('/some/path'); return false;">Go to Some Path</a>\n<div id='content'>\n  <%= yield %>\n</div>\n\n<script src="<%= javascript_include_tag 'application' %>"></script>

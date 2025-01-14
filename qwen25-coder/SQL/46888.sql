@@ -1,0 +1,1 @@
+-- Read contents of stored procedures\n   SELECT * FROM sys.sql_modules WHERE object_id = OBJECT_ID('dbo.SensitiveProcedure');

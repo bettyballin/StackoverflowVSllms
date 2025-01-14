@@ -1,0 +1,1 @@
+CREATE INDEX idx_question_id ON votes(question_id);

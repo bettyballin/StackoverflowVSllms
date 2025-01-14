@@ -1,0 +1,1 @@
+<system.web>\n     <authentication mode="Windows" />\n     <identity impersonate="true" userName="DOMAIN\YourUser" password="password" />\n   </system.web>

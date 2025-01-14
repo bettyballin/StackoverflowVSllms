@@ -1,0 +1,1 @@
+// Example: Basic note storage function with encryption\n   function storeNote($userId, $noteContent) {\n       $encryptedNote = openssl_encrypt($noteContent, "AES-256-CBC", $encryptionKey);\n       // Store encryptedNote in the database associated with userId\n   }

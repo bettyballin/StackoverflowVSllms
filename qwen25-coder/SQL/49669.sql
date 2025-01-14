@@ -1,0 +1,1 @@
+SELECT a.column1, b.column2, c.column3, d.column4, e.column5, f.column6, g.column7\nFROM tableA a\nINNER JOIN tableB b ON a.id = b.a_id\nINNER JOIN tableC c ON b.b_id = c.b_id\nINNER JOIN tableD d ON c.c_id = d.c_id\nINNER JOIN tableE e ON d.d_id = e.d_id\nINNER JOIN tableF f ON e.e_id = f.e_id\nINNER JOIN tableG g ON f.f_id = g.f_id;

@@ -1,0 +1,1 @@
+Function InitCap(strText As String) As String\n    Dim i As Integer\n    For i = 1 To Len(strText)\n        If Mid$(strText, i, 1) Like "[a-zA-Z]" Then\n            Mid$(strText, i, 1) = UCase$(Mid$(strText, i, 1))\n            Exit For\n        End If\n    Next\n    InitCap = strText\nEnd Functio

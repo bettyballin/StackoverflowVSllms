@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE process_data AS\nBEGIN\n    -- Insert data into the global temporary table\n    INSERT INTO temp_table (column1, column2)\n    SELECT id, name FROM some_source_table;\n\n    -- Perform operations on the temporary table\n    UPDATE temp_table SET column2 = UPPER(column2);\n\n    -- Commit to clean up rows for this session\n    COMMIT;\nEND process_data;

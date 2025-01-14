@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW login_session_view AS\nSELECT * FROM login_session\nWHERE (EXTRACT(EPOCH FROM (now() - modified))) > timeout;

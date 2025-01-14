@@ -1,0 +1,1 @@
+include 'external.php'; // Preferable way to include files

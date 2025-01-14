@@ -1,0 +1,1 @@
+<?php\nsession_start();\nheader('Content-Type: text/html; charset=utf-8');\necho nl2br(file_get_contents('messages.txt'));\n?>

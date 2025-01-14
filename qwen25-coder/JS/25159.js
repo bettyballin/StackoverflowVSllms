@@ -1,0 +1,1 @@
+function functionFromScriptJS() {\n    alert('inside functionFromScriptJS');\n}

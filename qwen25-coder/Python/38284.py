@@ -1,0 +1,1 @@
+# Assuming you are using a library like sqlite3, pymysql, psycopg2, etc.\ncursor.execute("INSERT INTO table (column1, column2, column3) VALUES (?, ?, ?)", (var1, var2, var3))

@@ -1,0 +1,1 @@
+SELECT person_id, LISTAGG(country_name, ', ') WITHIN GROUP (ORDER BY country_name) AS citizenships\nFROM people_citizenships\nGROUP BY person_id;

@@ -1,0 +1,1 @@
+ALTER INDEX [IX_typeName] ON [types] REBUILD;

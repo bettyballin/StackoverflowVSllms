@@ -1,0 +1,1 @@
+def counter():\n       if not hasattr(counter, "count"):\n           counter.count = 0\n       counter.count += 1\n       return counter.count\n   \n   print(counter())  # Outputs: 1\n   print(counter())  # Outputs: 2

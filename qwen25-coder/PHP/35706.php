@@ -1,0 +1,1 @@
+echo '<li><a href="#" onclick="update(\'Layer3\', {part: \'2\', pk: \'0\', query: \'hello\'})">Link 1</a></li>' . "\n";

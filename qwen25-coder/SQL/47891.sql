@@ -1,0 +1,1 @@
+ALTER TABLE your_table_name\nADD CONSTRAINT check_not_sunday \nCHECK (TO_CHAR(your_date_column, 'DY') != 'SUN');

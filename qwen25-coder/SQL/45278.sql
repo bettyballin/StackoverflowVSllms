@@ -1,0 +1,1 @@
+SELECT * FROM DBC.LocksV\nWHERE TableName = 'YourTableName'\nAND DatabaseName = 'YourDatabaseName';

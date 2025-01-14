@@ -1,0 +1,1 @@
+UPDATE your_table_name\nSET date_column = TO_DATE('2023-01-01', 'YYYY-MM-DD')\nWHERE date_column IS NULL;

@@ -1,0 +1,1 @@
+document.cookie.split(';').forEach(function(cookie) {\n    var parts = cookie.trim().split('=');\n    if (parts[0] === 'sessionid') {  // Adjust the cookie name as necessary\n        console.log('Session ID:', parts[1]);\n    }\n});

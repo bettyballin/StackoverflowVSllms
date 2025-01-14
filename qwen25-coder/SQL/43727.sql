@@ -1,0 +1,1 @@
+SELECT \n       SUM(weight) AS total_score,\n       COUNT(*) AS total_votes\n   FROM votes\n   WHERE question_id = ?;

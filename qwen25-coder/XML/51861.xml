@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <httpRuntime enableAutoRestartOnConfigChange="false" />\n  </system.web>\n</configuration>

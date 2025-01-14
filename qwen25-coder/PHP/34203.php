@@ -1,0 +1,1 @@
+// Initialize SOAP client\n$client = new soapclient('http://example.com/YourService.asmx?WSDL', true);\n\n// Set soap action explicitly\n$yourSoapAction = "http://example.com/YourNamespace/YourOperationName";\n\n// Call the operation\n$result = $client->call('YourOperationName', array(), '', $yourSoapAction);

@@ -1,0 +1,1 @@
+class SomeModel < ApplicationRecord\n  def self.find_by_time_window\n    start_time, end_time = DateTimeUtils.calculate_start_and_end_times\n    where('created_at >= ? AND created_at <= ?', start_time, end_time)\n  end\nend\n\n# Usage:\nSomeModel.find_by_time_window

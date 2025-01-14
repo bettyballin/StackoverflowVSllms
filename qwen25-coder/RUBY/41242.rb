@@ -1,0 +1,1 @@
+# Block in each loop\n    [1, 2, 3].each { |num| puts num }\n\n    # Lambda\n    square = ->(n) { n * n }\n    p square.call(5)\n\n    # Proc\n    double = Proc.new { |x| x * 2 }\n    p double.call(4)

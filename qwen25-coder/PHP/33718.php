@@ -1,0 +1,1 @@
+<?php\n// Define a path using DIRECTORY_SEPARATOR for cross-platform compatibility\n$filePath = 'folder' . DIRECTORY_SEPARATOR . 'file.txt';\n\n// Use realpath for resolving absolute path with platform-independent behavior\n$realPath = realpath($filePath);\n\necho "The file path is: " . $realPath;\n?>

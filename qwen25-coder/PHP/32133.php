@@ -1,0 +1,1 @@
+<?php\nheader('Content-type: text/csv');\nheader('Content-Disposition: attachment; filename=filename.dat');\n\n// Make sure no whitespace before this echo statement\necho $data;\nexit();

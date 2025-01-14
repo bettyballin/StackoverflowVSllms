@@ -1,0 +1,1 @@
+$booleanValue = true; // This could be your database result\n   $displayText = $booleanValue ? 'Yes' : 'No';\n   echo $displayText;\n\n   // Or using HTML entities for tick and cross\n   $displaySymbol = $booleanValue ? '&check;' : '&#x2718;';\n   echo $displaySymbol;

@@ -1,0 +1,1 @@
+-- Recreate the view after modifying the table schema\nIF OBJECT_ID('dbo.vStartest', 'V') IS NOT NULL\n    DROP VIEW dbo.vStartest;\nGO\n\nCREATE VIEW dbo.vStartest AS\nSELECT A, B, C FROM dbo.starTest;

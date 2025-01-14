@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>commons-fileupload</groupId>\n    <artifactId>commons-fileupload</artifactId>\n    <version>1.4</version>\n</dependency>\n<dependency>\n    <groupId>commons-io</groupId>\n    <artifactId>commons-io</artifactId>\n    <version>2.11.0</version>\n</dependency>

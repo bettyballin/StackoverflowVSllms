@@ -1,0 +1,1 @@
+class Admin extends User {\n       private $permissions;\n\n       public function __construct($name, $email, $permissions) {\n           parent::__construct($name, $email);\n           $this->permissions = $permissions;\n       }\n   }

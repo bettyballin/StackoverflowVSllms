@@ -1,0 +1,1 @@
+WITH RankedURLs AS (\n    SELECT \n        url,\n        feed_id,\n        timestamp,\n        ROW_NUMBER() OVER (PARTITION BY feed_id ORDER BY timestamp DESC) as rn\n    FROM urls\n)\nSELECT\n    url,\n    feed_id,\n    timestamp\nFROM \n    RankedURLs\nWHERE \n    rn = 1\nORDER BY \n    timestamp DESC\nLIMIT 10;

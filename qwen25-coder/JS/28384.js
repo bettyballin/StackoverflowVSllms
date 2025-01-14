@@ -1,0 +1,1 @@
+document.body.addEventListener('click', function(event) {\n    // Check if the clicked element is not an anchor tag\n    if (event.target.tagName.toLowerCase() !== 'a') {\n        // Your JavaScript code here for non-link clicks\n        console.log("Clicked on a non-link element.");\n    }\n});

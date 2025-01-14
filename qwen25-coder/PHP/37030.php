@@ -1,0 +1,1 @@
+$string = "R 124 This is my message";\n$result = preg_replace('/^\S+\s+\S+/', '', $string);\necho trim($result); // Output: "This is my message"

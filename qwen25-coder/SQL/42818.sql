@@ -1,0 +1,1 @@
+SELECT DATE_FORMAT(YourDateColumn, '%d/%m/%Y %H:%i:%s') AS FormattedDateTime\nFROM YourTable;

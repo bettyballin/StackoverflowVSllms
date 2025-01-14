@@ -1,0 +1,1 @@
+Dim subject As String = "Information regarding John Doe sent."\nDim nameMatch As Match = Regex.Match(subject, "regarding\s+(.*?)\s+sent")\nIf nameMatch.Success Then\n    Dim name As String = nameMatch.Groups(1).Value\n    Console.WriteLine(name) ' Outputs: John Doe\nEnd If

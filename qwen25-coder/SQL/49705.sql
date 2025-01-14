@@ -1,0 +1,1 @@
+-- At the start of the range\nSELECT * FROM (\n    SELECT *\n    FROM sometable\n    WHERE some_condition\n)\nAS OF TIMESTAMP SYSDATE - 2;\n\n-- At the end of the range\nSELECT * FROM (\n    SELECT *\n    FROM sometable\n    WHERE some_condition\n)\nAS OF TIMESTAMP SYSDATE - 1;

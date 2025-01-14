@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "MyWebService.asmx/GetData",\n    contentType: "application/json; charset=utf-8",\n    dataType: "json",\n    success: function(response) {\n        console.log("Data retrieved:", response.d);\n    },\n    error: function(error) {\n        console.error("Error fetching data:", error);\n    }\n});

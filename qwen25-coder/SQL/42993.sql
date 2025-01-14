@@ -1,0 +1,1 @@
+-- Create message type for change data\nCREATE MESSAGE TYPE [ChangeDataMessage]\nVALIDATION = WELL_FORMED_XML;\n\n-- Create contract\nCREATE CONTRACT [ChangeTrackingContract] (\n    [ChangeDataMessage] SENT BY INITIATOR,\n);\n\n-- Create queue and service\nCREATE QUEUE ChangeQueue;\nCREATE SERVICE ChangeService ON QUEUE ChangeQueue ([ChangeTrackingContract]);

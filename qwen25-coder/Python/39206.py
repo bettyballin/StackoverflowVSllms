@@ -1,0 +1,1 @@
+# A simple view in Django\n     from django.http import HttpResponse\n\n     def home(request):\n         return HttpResponse("Hello from Django!")\n\n     # urls.py configuration\n     from django.urls import path\n     from . import views\n\n     urlpatterns = [\n         path('', views.home, name='home'),\n     ]

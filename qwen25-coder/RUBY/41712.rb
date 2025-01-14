@@ -1,0 +1,1 @@
+class AggregatedDataController < ApplicationController\n  def show\n    user = User.find_by(username: params[:username])\n    article = Article.find(params[:id])\n\n    render json: { user: user, article: article }\n  end\nend

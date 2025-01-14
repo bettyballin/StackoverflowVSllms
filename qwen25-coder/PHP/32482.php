@@ -1,0 +1,1 @@
+$myArray = [3, 1, 2];\nsort($myArray);\n[$firstElement] = $myArray ?? [];\n\necho $firstElement; // Outputs: 1

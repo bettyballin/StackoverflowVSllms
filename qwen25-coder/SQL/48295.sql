@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetTagsByNames\n       @TagNames dbo.TagNameList READONLY\n   AS\n   BEGIN\n       SELECT * \n       FROM Tags \n       WHERE Name IN (SELECT TagName FROM @TagNames)\n       ORDER BY Count DESC;\n   END;

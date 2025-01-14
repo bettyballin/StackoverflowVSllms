@@ -1,0 +1,1 @@
+CREATE FUNCTION [dbo].[ufn_GIS_GET_LAT_LON]\n(\n    @City VARCHAR(30),\n    @State CHAR(2)\n)\nRETURNS TABLE \nAS\nRETURN (\n    SELECT TOP 1 LAT, LON \n    FROM GIS_Location WITH(NOLOCK) \n    WHERE [State] = @State AND [City] = @City\n);

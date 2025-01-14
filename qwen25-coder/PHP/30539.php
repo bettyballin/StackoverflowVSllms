@@ -1,0 +1,1 @@
+$config = [\n       'host' => $_POST['db_host'],\n       'username' => $_POST['db_username'],\n       'password' => $_POST['db_password'],\n       'database' => $_POST['db_name']\n   ];\n\n   $config_content = "<?php\n";\n   $config_content .= "return " . var_export($config, true) . ";\n";\n\n   file_put_contents('path/to/config.php', $config_content);

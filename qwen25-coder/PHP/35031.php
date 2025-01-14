@@ -1,0 +1,1 @@
+static public function urlExists($url) {\n    $ch = curl_init($url);\n    curl_setopt($ch, CURLOPT_NOBODY, true); // Exclude body from output\n    curl_exec($ch);\n    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);\n    curl_close($ch);\n\n    return ($httpCode >= 200 && $httpCode < 300); // Check for successful HTTP status code range\n}

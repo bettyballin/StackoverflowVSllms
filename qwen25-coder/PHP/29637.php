@@ -1,0 +1,1 @@
+// PHP example\nheader("Access-Control-Allow-Origin: http://www.blah.com");

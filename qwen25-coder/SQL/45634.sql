@@ -1,0 +1,1 @@
+CREATE VIEW dbo.PeopleView AS\nSELECT * FROM dbo.People\nUNION ALL\nSELECT * FROM LINKEDSERVERNAME.DatabaseName.dbo.People;

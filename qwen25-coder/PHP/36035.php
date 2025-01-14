@@ -1,0 +1,1 @@
+$pattern = '/item(\d+)/';\n$input = 'your input string here';\n\npreg_match($pattern, $input, $matches);\nif (isset($matches[1])) {\n    $number = (int)$matches[1];\n    if ($number >= 355 && $number <= 502) {\n        echo "Number is within range: $number\n";\n    } else {\n        echo "Number is out of range.\n";\n    }\n}

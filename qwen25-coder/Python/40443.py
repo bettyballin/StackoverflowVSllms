@@ -1,0 +1,1 @@
+from sqlalchemy import select\n\n# Assuming you have a session object named 'session'\nquery = select(Ticker.ticker).distinct()\ntickers = session.execute(query).scalars().all()\n\n# Convert list to set if needed\nticker_set = set(tickers)\n\n# Now ticker_set contains unique tickers from the Ticker table

@@ -1,0 +1,1 @@
+class A: pass\n  class B(A): pass\n  class C(A): pass\n  class D(B, C): pass

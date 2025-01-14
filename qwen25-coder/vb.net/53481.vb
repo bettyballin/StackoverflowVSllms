@@ -1,0 +1,1 @@
+Imports System.Linq\n\nSub Main2()\n    Dim FooList As New List(Of Foo)\n    DoIt(FooList.Cast(Of IBar).ToList())\nEnd Sub

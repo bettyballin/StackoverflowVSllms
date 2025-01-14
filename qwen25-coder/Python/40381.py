@@ -1,0 +1,1 @@
+from sympy import symbols, Function, sequence\n\nn = symbols('n')\nseq = [1, 3, 6, 10, 15]\n\n# Using the findsimple function from the sympy.sequence module to find a closed form\ng = Function('g')(n)\nclosed_form = sequence.findsimple(g, seq)\n\nprint(closed_form)

@@ -1,0 +1,1 @@
+SELECT * FROM BusinessDirectory\nWHERE CompanyName LIKE 'plu%';

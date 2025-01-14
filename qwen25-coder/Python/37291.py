@@ -1,0 +1,1 @@
+from django.db import models\n\nclass Project(models.Model):\n    name = models.CharField(max_length=100)\n\nclass ToDoItem(models.Model):\n    project = models.ForeignKey(Project, on_delete=models.CASCADE, related_name='todo_items')\n    title = models.CharField(max_length=255)\n    order = models.IntegerField()

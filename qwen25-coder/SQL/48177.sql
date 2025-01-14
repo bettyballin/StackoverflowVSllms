@@ -1,0 +1,1 @@
+-- Create an index if not already present\nCREATE INDEX IF NOT EXISTS idx_Employee_EmployeeTypeId \nON Employee (EmployeeTypeId);\n\n-- Run the query with execution plan to see if the index is used\nSET SHOWPLAN_ALL ON;\n\nSELECT EmployeeId \nFROM Employee \nWHERE EmployeeTypeId IN (1, 2, 3);\n\nSET SHOWPLAN_ALL OFF;

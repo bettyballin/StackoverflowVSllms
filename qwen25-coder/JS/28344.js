@@ -1,0 +1,1 @@
+<script>\ndocument.addEventListener("DOMContentLoaded", function() {\n    var fullUrl = window.location.href;\n    console.log(fullUrl);\n});\n</script>

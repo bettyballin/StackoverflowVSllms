@@ -1,0 +1,1 @@
+SELECT \n       u1.id AS creator,\n       u2.id AS updater,\n       u3.id AS owner,\n       a.[name]\n   FROM asset a\n   LEFT JOIN user u1 ON a.created_by = u1.user_pk\n   LEFT JOIN user u2 ON a.updated_by = u2.user_pk\n   LEFT JOIN user u3 ON a.owned_by = u3.user_pk;

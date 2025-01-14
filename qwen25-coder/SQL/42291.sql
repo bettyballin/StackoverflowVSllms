@@ -1,0 +1,1 @@
+WITH Total AS (\n    SELECT COUNT(*) AS TotalCount FROM MyTable\n),\nQualified AS (\n    SELECT COUNT(*)\n    AS QualifiedCount \n    FROM MyTable mt\n    JOIN MyOtherTable mot ON mt.id = mot.id\n    WHERE {conditions}\n)\nSELECT Total.TotalCount, Qualified.QualifiedCount\nFROM Total, Qualified;

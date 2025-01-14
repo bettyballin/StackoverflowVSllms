@@ -1,0 +1,1 @@
+SELECT number, COUNT(*) as frequency\nFROM (\n    SELECT n1 AS number FROM lottery\n    UNION ALL\n    SELECT n2 FROM lottery\n    UNION ALL\n    SELECT n3 FROM lottery\n    UNION ALL\n    SELECT n4 FROM lottery\n    UNION ALL\n    SELECT n5 FROM lottery\n    UNION ALL\n    SELECT n6 FROM lottery\n) as all_numbers\nGROUP BY number\nORDER BY frequency DESC;

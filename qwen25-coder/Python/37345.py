@@ -1,0 +1,1 @@
+# Example of TDD with Python and pytest\n\n# test_example.py (step 1: write the test)\ndef test_add():\n    assert add(2, 3) == 5\n\n# example.py (step 2: implement the minimal code to make the test pass)\ndef add(a, b):\n    return a + b\n\n# Refactoring can occur after the tests are passing to improve the implementation.

@@ -1,0 +1,1 @@
+def func(files):\n    # Check if files is an instance of str\n    if isinstance(files, str):\n        files = [files]  # Convert to a list with one element\n    \n    for f in files:\n        doSomethingWithFile(f)\n\ndef doSomethingWithFile(filename):\n    print(f"Processing {filename}")\n\n# Example usage:\nfunc(['file1', 'file2', 'file3'])\nfunc('file1')

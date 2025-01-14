@@ -1,0 +1,1 @@
+# config/application.rb\n   class Application < Rails::Application\n     config.encoding = "utf-8"\n   end

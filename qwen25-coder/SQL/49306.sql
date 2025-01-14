@@ -1,0 +1,1 @@
+-- Example of DISTINCT\nSELECT DISTINCT column FROM table;\n\n-- Example of GROUP BY (without additional processing, not common usage)\nSELECT column FROM table GROUP BY column;

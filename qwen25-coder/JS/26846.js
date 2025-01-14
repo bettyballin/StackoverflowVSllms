@@ -1,0 +1,1 @@
+$(document).ready(function () {\n    $.get('/YourController/YourAction', { param1: 'value1' }, function (data) {\n        console.log('Response received:', data);\n    }).fail(function (jqXHR, textStatus, errorThrown) {\n        console.error('Error occurred:', textStatus, errorThrown);\n    });\n});

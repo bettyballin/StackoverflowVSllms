@@ -1,0 +1,1 @@
+insert into table1 (col1, col2) values ('1', '2')\nGO\n\nif exists(select * from table1 where col1 = '1')\nBEGIN\n    RAISERROR('Duplicate record found. Script execution halted.', 16, 1)\n    RETURN;\nEND\nGO\n\n-- This will not run if the error is raised above\ninsert into table1 (col1, col2) values ('1', '2')

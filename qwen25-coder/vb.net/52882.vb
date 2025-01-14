@@ -1,0 +1,1 @@
+<%\nDim objMyDotNetLibrary\nSet objMyDotNetLibrary = Server.CreateObject("MyDotNetLibrary.MyDotNetLibrary")\nobjMyDotNetLibrary.SetData "Hello from Classic ASP"\nResponse.Write "The data is: " & objMyDotNetLibrary.GetData()\nSet objMyDotNetLibrary = Nothing\n%>

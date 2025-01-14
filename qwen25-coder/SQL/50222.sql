@@ -1,0 +1,1 @@
+UPDATE foo\nSET Sync = ~Sync;

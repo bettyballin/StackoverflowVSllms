@@ -1,0 +1,1 @@
+BEGIN;\n\n-- Make schema modifications here.\nALTER TABLE users ADD COLUMN last_login TIMESTAMP;\n\nCOMMIT;

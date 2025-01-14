@@ -1,0 +1,1 @@
+-- Create a table with full-text index\nCREATE TABLE newspaper_pages (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    newspaper VARCHAR(255),\n    issue VARCHAR(255),\n    date DATE,\n    page_number INT,\n    ocred_text TEXT,\n    FULLTEXT(ocr_content)\n);

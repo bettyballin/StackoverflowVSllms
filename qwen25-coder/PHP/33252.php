@@ -1,0 +1,1 @@
+App::uses('MyModel', 'Model');

@@ -1,0 +1,1 @@
+IF EXISTS(SELECT * FROM sys.objects WHERE OBJECT_ID = OBJECT_ID(N'[dbo].[myStoredProc]',N'P'))\n  DROP PROCEDURE dbo.myStoredProc;

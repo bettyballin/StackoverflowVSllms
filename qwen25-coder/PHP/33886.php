@@ -1,0 +1,1 @@
+$x = 996;\n\n// Assuming a database connection is already established with $connection\n$result = mysql_query("SELECT aString FROM table1", $connection);\n\nif ($result) {\n    $row = mysql_fetch_assoc($result);\n    $x = $row['aString']; // now $x holds the string from the query\n} else {\n    echo "Query failed: " . mysql_error();\n}

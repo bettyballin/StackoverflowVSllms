@@ -1,0 +1,1 @@
+SELECT usename AS owner FROM pg_database WHERE datname = 'YourDatabaseName';

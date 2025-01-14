@@ -1,0 +1,1 @@
+UPDATE threads SET post_count = post_count + 1 WHERE id = :thread_id;

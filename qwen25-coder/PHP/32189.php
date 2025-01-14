@@ -1,0 +1,1 @@
+// about.php or profile.php (start session and access user)\n<?php\nsession_start();\n\nif (isset($_SESSION['user'])) {\n    $user = $_SESSION['user'];\n} else {\n    // Handle case where user is not set\n}\n?>

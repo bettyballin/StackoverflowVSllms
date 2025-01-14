@@ -1,0 +1,1 @@
+SELECT count(*) FROM AUCTIONS WHERE SUBCAT = 'fake';\n   SELECT count(*) FROM AUCTIONS WHERE USERNAME = 'testuser';\n   SELECT count(*) FROM AUCTIONS WHERE SUBCAT = 'fake' AND USERNAME = 'testuser';

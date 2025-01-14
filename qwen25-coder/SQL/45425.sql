@@ -1,0 +1,1 @@
+UPDATE STATISTICS adminuser.station;\nUPDATE STATISTICS adminuser.base;

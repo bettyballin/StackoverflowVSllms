@@ -1,0 +1,1 @@
+DELIMITER $$\n\nCREATE TRIGGER after_insert_example_trigger\nAFTER INSERT ON your_table\nFOR EACH ROW\nBEGIN\n    -- Example: Just log to a table or perform other actions\n    -- No need to return values here\nEND$$\n\nDELIMITER ;

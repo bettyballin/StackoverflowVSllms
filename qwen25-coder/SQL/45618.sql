@@ -1,0 +1,1 @@
+-- Assuming we have a table named 'transactions' with a column 'processed_date'\nINSERT INTO archive_transactions (SELECT * FROM transactions WHERE processed_date < DATE_SUB(CURDATE(), INTERVAL 60 DAY));\nDELETE FROM transactions WHERE processed_date < DATE_SUB(CURDATE(), INTERVAL 60 DAY);

@@ -1,0 +1,1 @@
+<Target Name="Obfuscate" AfterTargets="AfterBuild">\n  <Exec Command="$(ObfuscatorExe) /config:obfuscator.config -in:"$(TargetDir)" -out:"$(OutputPath)"/>\n</Target>

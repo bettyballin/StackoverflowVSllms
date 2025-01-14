@@ -1,0 +1,1 @@
+ALTER SYSTEM SET UNDO_RETENTION = 3600 SCOPE=BOTH; -- Example: set to 1 hour

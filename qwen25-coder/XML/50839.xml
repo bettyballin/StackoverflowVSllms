@@ -1,0 +1,1 @@
+<dependency>\n        <groupId>com.opencsv</groupId>\n        <artifactId>opencsv</artifactId>\n        <version>5.6</version>\n    </dependency>\n    <dependency>\n        <groupId>com.fasterxml.jackson.dataformat</groupId>\n        <artifactId>jackson-dataformat-csv</artifactId>\n        <version>2.15.2</version>\n    </dependency>

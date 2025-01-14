@@ -1,0 +1,1 @@
+// Using htmlspecialchars to encode output\n$safeOutput = htmlspecialchars($userInput, ENT_QUOTES, 'UTF-8');\n\n// Using prepared statements with mysqli\n$stmt = $connection->prepare("SELECT * FROM users WHERE username=?");\n$stmt->bind_param("s", $safeUsername);\n$stmt->execute();

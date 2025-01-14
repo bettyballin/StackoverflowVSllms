@@ -1,0 +1,1 @@
+"UPDATE authors SET author=UPPER(author) WHERE id=1;UPDATE authors SET author=LOWER(author) WHERE id=2;"

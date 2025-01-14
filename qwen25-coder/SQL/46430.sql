@@ -1,0 +1,1 @@
+SELECT (@row_number:=@row_number + 1) AS RowIndex, your_column\nFROM your_table, (SELECT @row_number:=0) AS t;

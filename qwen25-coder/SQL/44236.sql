@@ -1,0 +1,1 @@
+INSERT INTO Hierarchy (NodeID, ParentNodeID, NodeName)\nVALUES \n(1, NULL, 'Root'),  -- Root node\n(2, 1, 'Child1'),\n(3, 1, 'Child2'),\n(4, 2, 'GrandChild1');

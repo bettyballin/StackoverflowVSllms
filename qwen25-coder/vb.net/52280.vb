@@ -1,0 +1,1 @@
+Dim rightArrow\nrightArrow = ChrW(&H2192)

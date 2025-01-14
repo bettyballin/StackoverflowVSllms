@@ -1,0 +1,1 @@
+// public/index.php\n\ndefine('ROOT', __DIR__ . '/../');\n\nfunction myAutoloader($class) {\n    $file = ROOT . str_replace('\\', '/', $class) . '.php';\n    if (file_exists($file)) {\n        require_once $file;\n    }\n}\n\nspl_autoload_register('myAutoloader');

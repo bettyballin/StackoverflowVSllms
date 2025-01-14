@@ -1,0 +1,1 @@
+function storeCache($file, $data) {\n       file_put_contents($file, igbinary_serialize($data));\n   }\n\n   function retrieveCache($file) {\n       return igbinary_unserialize(file_get_contents($file));\n   }

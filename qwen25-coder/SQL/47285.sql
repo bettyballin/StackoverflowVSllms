@@ -1,0 +1,1 @@
+-- First logical section\nBEGIN\n    DECLARE @localVar_A INT = 1;\n    DECLARE @localVar_B INT = 2;\n\n    -- Do something with localVar_A and localVar_B\nEND\n\n-- Second logical section\nBEGIN\n    DECLARE @anotherLocalVar_A INT = 3;\n    DECLARE @anotherLocalVar_B INT = 4;\n\n    -- Do something with anotherLocalVar_A and anotherLocalVar_B\nEND

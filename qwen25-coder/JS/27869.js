@@ -1,0 +1,1 @@
+// menu.js\n\ndocument.write('<nav>');\ndocument.write('    <ul>');\ndocument.write('        <li><a href="index.html">Home</a></li>');\ndocument.write('        <li><a href="about.html">About</a></li>');\ndocument.write('        <li><a href="contact.html">Contact</a></li>');\ndocument.write('    </ul>');\ndocument.write('</nav>');

@@ -1,0 +1,1 @@
+# In your controller action\ndef create\n  @comment = Comment.create!(params[:comment])\n  respond_to do |format|\n    format.html { redirect_to posts_path }\n    format.js   # This will render create.js.rjs by default\n  end\nend\n\n# Inside app/views/comments/create.js.rjs\npage.insert_html :bottom, 'comments', partial: 'comments/comment', object: @comment

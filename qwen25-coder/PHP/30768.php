@@ -1,0 +1,1 @@
+amespace Vendor\Module\Model;\n\nuse Magento\Framework\Model\AbstractModel;\n\nclass Custom extends AbstractModel {\n    protected function _construct() {\n        $this->_init(\Vendor\Module\Model\ResourceModel\Custom::class);\n    }\n}

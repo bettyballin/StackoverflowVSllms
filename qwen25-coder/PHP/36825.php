@@ -1,0 +1,1 @@
+$result = $db->query($sql); // Ensure this query is prepared and bound properly for security\nif ($result) {\n    while ($myData = $result->fetch_assoc()) {\n        // Use $myData as an associative array here\n    }\n} else {\n    // Handle query error\n}

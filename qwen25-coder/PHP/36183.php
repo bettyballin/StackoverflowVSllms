@@ -1,0 +1,1 @@
+// Load the Session Component if not already loaded\n$this->loadComponent('Session');\n\n// Fetch the current user data from Auth\n$user = $this->Auth->user();\n\n// Update the customer_id or any other field as needed\n$user['User']['customer_id'] = 4;\n\n// Write the updated user data back into the session under Auth key\n$this->Session->write('Auth.User', $user);

@@ -1,0 +1,1 @@
+SELECT sid, serial#, username FROM v$session WHERE username IS NOT NULL;

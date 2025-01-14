@@ -1,0 +1,1 @@
+<Host name="localhost" autoDeploy="true" deployOnStartup="true" configClass="org.jboss.web.tomcat.service.WebCtxLoader"\n         deployDirectory="${jboss.home.dir}/server/default/deploy/static">\n     ...\n   </Host>

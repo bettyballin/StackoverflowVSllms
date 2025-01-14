@@ -1,0 +1,1 @@
+SELECT OBJECT_NAME(OBJECT_ID) as ProcedureName,\n       definition as ProcedureDefinition \nFROM sys.sql_modules m \nWHERE OBJECTPROPERTY(OBJECT_ID('m.object_id'), 'IsProcedure') = 1\nAND PATINDEX('%WITH%RECOMPILE%', REPLACE(definition, '--', '')) > 0;

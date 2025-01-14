@@ -1,0 +1,1 @@
+<project name="master-build" default="run">\n    <property name="projects.to.build" value="projectA,projectB"/>\n\n    <target name="run">\n        <subant target="run" failonerror="true" verbose="true">\n            <fileset dir="${projects.root}" includes="${string:replace(',', '/build.xml,', projects.to.build)}build.xml"/>\n        </subant>\n    </target>\n</project>

@@ -1,0 +1,1 @@
+echo memory_get_usage() . "\n"; // Outputs current memory usage in bytes

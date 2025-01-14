@@ -1,0 +1,1 @@
+$color = "orange";\n$newColorExpression = strtolower($color) . 'ish';\necho "My favorite color is $newColorExpression -- at least for now.";

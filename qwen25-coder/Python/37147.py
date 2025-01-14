@@ -1,0 +1,1 @@
+from django.contrib.auth.models import User, Group\n\n# Get the group by its name\ngroup = Group.objects.get(name='blogger')\n\n# Get all users that belong to this group\nuser_dict = {\n    'queryset': User.objects.filter(groups=group)\n}

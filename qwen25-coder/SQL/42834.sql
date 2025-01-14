@@ -1,0 +1,1 @@
+RESTORE DATABASE YourDatabaseName \nFROM DISK = 'PathToYourBackupFile.bak' \nWITH REPLACE, RECOVERY;\nGO

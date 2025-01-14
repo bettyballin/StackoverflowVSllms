@@ -1,0 +1,1 @@
+// Example: Using JavaScript with the Webflow CMS to dynamically create an element\ndocument.addEventListener("DOMContentLoaded", function() {\n    var newElement = document.createElement('div');\n    newElement.className = 'w-dyn-item';\n    newElement.innerHTML = '<h1>Hello, World!</h1>';\n    document.getElementById('dynamic-content').appendChild(newElement);\n});

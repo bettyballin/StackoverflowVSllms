@@ -1,0 +1,1 @@
+-- Assuming you have columns col1, col2 in the CSV and an ID column in the SQL table\nLOAD DATA INFILE 'yourfile.csv'\nINTO TABLE yourtable\nFIELDS TERMINATED BY ','\nLINES TERMINATED BY '\n'\nIGNORE 1 ROWS -- if you have a header row\n(col1, col2, @dummy) -- assuming CSV has only two columns\nSET ID = 2;

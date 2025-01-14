@@ -1,0 +1,1 @@
+SELECT \n    Account, \n    Bookdate, \n    Amount,\n    SUM(Amount) OVER (PARTITION BY Account ORDER BY Bookdate) AS Running_total\nFROM \n    your_table_name\nORDER BY \n    Account ASC, \n    Bookdate ASC;

@@ -1,0 +1,1 @@
+MY_SMTP_SETTINGS = {\n     :address => 'oz.some.server.edu',\n     :port => 465,\n     :user_name => MY_USERNAME,\n     :authentication => :login,\n     :password => MY_PASSWORD,\n     :ssl => true # Or use :enable_starttls_auto for port 587\n   }

@@ -1,0 +1,1 @@
+<?php\necho "Session data is stored in: " . session_save_path();\n?>

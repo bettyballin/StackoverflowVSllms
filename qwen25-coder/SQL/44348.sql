@@ -1,0 +1,1 @@
+BEGIN\n     EXECUTE IMMEDIATE 'DROP VIEW your_oracle_view';\n     EXECUTE IMMEDIATE 'CREATE OR REPLACE VIEW your_oracle_view AS SELECT * FROM myview@dblink JOIN ...';\n   END;

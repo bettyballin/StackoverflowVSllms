@@ -1,0 +1,1 @@
+# Array usage with []\narray = [1, 2, 3]\nputs array[0] # Output: 1\n\n# Hash usage with {}\nhash = {"key" => "value"}\nputs hash["key"] # Output: value\n\n# Code block usage with {}\n[1, 2, 3].each { |num| puts num }

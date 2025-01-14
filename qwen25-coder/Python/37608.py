@@ -1,0 +1,1 @@
+from sleekxmpp.xmlstream.cert import SSLTransportFactory\n\n# Using a valid SSL certificate and key file\nSSLTransportFactory.use_tls = 'required'\nSSLTransportFactory.certfile = '/path/to/your/server.crt'\nSSLTransportFactory.keyfile = '/path/to/your/server.key'

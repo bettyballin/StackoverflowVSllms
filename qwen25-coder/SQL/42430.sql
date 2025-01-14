@@ -1,0 +1,1 @@
+CREATE TABLE sessions (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    user_id INT NOT NULL,\n    token CHAR(64) UNIQUE NOT NULL, -- Use for session identification\n    created TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);

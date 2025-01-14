@@ -1,0 +1,1 @@
+Dim n As Integer = 10 ' Example upper limit for randomness, replace with your desired value\nDim rand As New Random()\nDim randomNumber As Integer = rand.Next(1, n + 1)\n\nConsole.WriteLine("Random Number: " & randomNumber)

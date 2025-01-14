@@ -1,0 +1,1 @@
+<?php\n// Assuming script.php is at the root of your project structure.\n$projectRoot = __DIR__; // This will give you the path to where script.php is located.\n\n// Include inc/include1.php\ninclude $projectRoot . '/inc/include1.php';\n\n// Include objects/object1.php\ninclude $projectRoot . '/objects/object1.php';\n?>

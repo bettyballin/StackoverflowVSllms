@@ -1,0 +1,1 @@
+$extract = extracting_comments($table, $fields, $condition, $order, $limit);

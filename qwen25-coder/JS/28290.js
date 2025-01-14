@@ -1,0 +1,1 @@
+url: 'index.php?module=product&popup=on ', // Remove the trailing space

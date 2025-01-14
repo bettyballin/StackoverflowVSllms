@@ -1,0 +1,1 @@
+-- Take a transaction log backup which truncates the log\n   BACKUP LOG YourDatabaseName TO DISK = 'C:\Backups\YourDatabaseName_LogBackup.trn';

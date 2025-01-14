@@ -1,0 +1,1 @@
+<system.web>\n     <authentication mode="Forms">\n       <forms loginUrl="login.aspx" timeout="28080"/>\n     </authentication>\n     <!-- Other settings as before -->\n   </system.web>

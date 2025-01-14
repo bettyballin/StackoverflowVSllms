@@ -1,0 +1,1 @@
+# Example of using Sequel Model to define a model and its associations\nclass User < Sequel::Model\n  one_to_many :posts\nend\n\nclass Post < Sequel::Model\n  many_to_one :user\nend

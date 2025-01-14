@@ -1,0 +1,1 @@
+-- V1__Initial_Setup.sql\nCREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    username VARCHAR(50) NOT NULL,\n    email VARCHAR(50)\n);

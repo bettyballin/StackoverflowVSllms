@@ -1,0 +1,1 @@
+# config/routes.rb\nget '/data.js', to: 'your_controller#your_action'

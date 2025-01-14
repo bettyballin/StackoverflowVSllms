@@ -1,0 +1,1 @@
+xmlhttp.timeout = 5000; // timeout after 5 seconds\n\nxmlhttp.ontimeout = function() {\n    element(id).innerHTML = "Request timed out";\n};

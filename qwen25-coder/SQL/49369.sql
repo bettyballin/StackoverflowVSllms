@@ -1,0 +1,1 @@
+-- T-SQL Code to create a view equivalent of an Access Query\nUSE MigratedDB\nGO\n\nCREATE VIEW [dbo].[vw_EmployeeDetails]\nAS\nSELECT EmployeeID, FirstName, LastName, Department \nFROM Employees;

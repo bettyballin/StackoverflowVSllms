@@ -1,0 +1,1 @@
+SELECT DATE_FORMAT(order_placed_date, '%Y-%m-%d') AS order_date, order_total \nFROM orders \nORDER BY order_placed_date;

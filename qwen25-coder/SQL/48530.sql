@@ -1,0 +1,1 @@
+select nameid from othertable o where t.nameid = o.nameid and otherdesc = 'SomeOtherDesc'

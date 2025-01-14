@@ -1,0 +1,1 @@
+CREATE TABLE YourTable (\n    ID INT PRIMARY KEY,\n    XHTMLContent TEXT -- Use NTEXT if the content is Unicode\n);

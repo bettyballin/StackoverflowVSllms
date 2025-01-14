@@ -1,0 +1,1 @@
+<?php\nif (extension_loaded('Zend OPcache')) {\n    echo "Opcache is enabled.";\n} else {\n    echo "Opcache is not enabled. Consider enabling it for better performance.";\n}\n?>

@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.GetEmployeeDetails()\nRETURNS @Employees TABLE (Id INT, Name NVARCHAR(100))\nAS\nBEGIN\n    INSERT INTO @Employees(Id, Name)\n    SELECT EmployeeId, EmployeeName FROM Employees;\n    RETURN;\nEND;

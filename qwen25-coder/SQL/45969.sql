@@ -1,0 +1,1 @@
+ALTER PROCEDURE GetMyValue\n        @NewValue INT OUTPUT\n    AS\n    BEGIN\n        -- Example of setting a value for demonstration; replace with actual logic\n        SELECT @NewValue = SomeColumn FROM SomeTable WHERE SomeCondition;\n    END;

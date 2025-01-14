@@ -1,0 +1,1 @@
+Public Class Whatever\n    Public Property Id As String\n    Public Property Name As String\n    Public Property Date As String\nEnd Class\n\n' Usage\nDim personList As New List(Of Whatever)()\n\nDim person As New Whatever()\nperson.Id = "1"\nperson.Name = "bozo"\nperson.Date = "6-6-6"\npersonList.Add(person)\n\nGridView1.DataSource = personList\nGridView1.DataBind()

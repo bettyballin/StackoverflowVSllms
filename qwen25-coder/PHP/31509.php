@@ -1,0 +1,1 @@
+<?php\n// protected.php\nsession_start();\nif (!isset($_SESSION['auth']) || $_SESSION['auth'] !== true) {\n    header("Location: login.php");\n    exit();\n}\n?>\n<h1>Welcome to the Protected Area</h1>\n<!-- Add links to your .pdf and .doc files here -->\n<a href="document.pdf">Document 1 (PDF)</a><br>\n<a href="document1.doc">Document 2 (DOC)</a>

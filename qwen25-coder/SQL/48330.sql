@@ -1,0 +1,1 @@
+SELECT [Phone]\nFROM [Table]\nWHERE (\n    [Phone] LIKE '%[A-Za-z]%'\n    OR [Phone] = 'N/A'\n    OR (LEN([Phone]) > 0 AND REPLACE([Phone], '0', '') = '')\n)

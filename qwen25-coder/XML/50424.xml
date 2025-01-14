@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <handlers>\n      <add name="FileHandler" path="*.jpg" verb="GET" type="Namespace.FileHandler, AssemblyName" resourceType="Unspecified"/>\n      <!-- Add more handlers as needed for different file types -->\n    </handlers>\n  </system.webServer>\n</configuration>

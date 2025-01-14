@@ -1,0 +1,1 @@
+// Assuming $mysqli is your MySQLi connection object\n$query = "SELECT task_id, parent_id, task FROM tasks";\n$r = mysqli_query($mysqli, $query);\n\nwhile (list($task_id, $parent_id, $task) = mysqli_fetch_array($r, MYSQLI_NUM)) {\n    // Process each row here\n    echo "Task ID: $task_id, Parent ID: $parent_id, Task: $task\n";\n}\n\n// Free result set\nmysqli_free_result($r);

@@ -1,0 +1,1 @@
+-- Enable mixed mode (SQL Server and Windows Authentication)\n   USE [master]\n   GO\n   EXEC xp_instance_regwrite \n     N'HKEY_LOCAL_MACHINE', \n     N'SOFTWARE\Microsoft\MSSQLServer\MSSQLServer', \n     N'LoginMode', \n     REG_DWORD, 2\n   GO\n\n   -- Restart SQL Server to apply changes

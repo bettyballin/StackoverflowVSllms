@@ -1,0 +1,1 @@
+function toConv(string) {\n    const gogo = { "a": "b", "cd": "e" };\n    const regex = new RegExp(Object.keys(gogo).map(key => key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|'), 'g');\n    \n    return string.replace(regex, matched => gogo[matched]);\n}\n\n// Example usage:\nconsole.log(toConv("acdcd")); // Output: "bbecd"

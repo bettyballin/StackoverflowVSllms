@@ -1,0 +1,1 @@
+<sca:component name="MyServiceComponent">\n    <sca:implementation.java class="com.example.MyServiceImpl"/>\n    <sca:service interface="com.example.MyServiceInterface">\n        <sca:binding.ws/>\n    </sca:service>\n</sca:component>

@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open('HEAD', 'https://example.com/resource', true);\n\nxhr.onreadystatechange = function() {\n    if (xhr.readyState === XMLHttpRequest.DONE) {\n        console.log('Status:', xhr.status);\n        console.log('Headers:', xhr.getAllResponseHeaders());\n    }\n};\n\nxhr.send();

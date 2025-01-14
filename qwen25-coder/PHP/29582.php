@@ -1,0 +1,1 @@
+// Interface for data getters\ninterface DataGetterInterface {\n    public function getData(): string;\n}\n\n// Interface for data handlers\ninterface DataHandlerInterface {\n    public function handle(string $data): array;\n}\n\n// Interface for data writers\ninterface DataWriterInterface {\n    public function write(array $data): void;\n}

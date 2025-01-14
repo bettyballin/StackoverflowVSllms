@@ -1,0 +1,1 @@
+class Database {\n    const CONNECTION_PERSISTENT = 1;\n    const CONNECTION_NON_PERSISTENT = 2;\n    const FILTER_INPUT_ON_WRITE = 4;\n    const FILTER_INPUT_ON_READ = 8;\n\n    // ... other class methods ...\n}

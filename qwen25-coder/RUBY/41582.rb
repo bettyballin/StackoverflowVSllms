@@ -1,0 +1,1 @@
+require 'yaml'\n\n# Ensure the string is UTF-8 encoded\nutf8_string = "café".force_encoding('UTF-8')\n\n# Use YAML.dump with an appropriate Hash containing your UTF-8 string\nyaml_output = YAML.dump(data: utf8_string)\n\n# Output will show original signs instead of escape sequences\nputs yaml_output

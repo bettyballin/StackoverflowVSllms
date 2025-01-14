@@ -1,0 +1,1 @@
+Public Async Function DoWorkAsync() As Task\n    Console.WriteLine("Starting work...")\n    Await Task.Delay(1000) ' Simulate asynchronous work\n    Console.WriteLine("Work completed.")\nEnd Functio

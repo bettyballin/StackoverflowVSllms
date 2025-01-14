@@ -1,0 +1,1 @@
+WITH UniqueChecks AS (\n    SELECT \n        customer_number,\n        customer_name,\n        customer_address,\n        COUNT(*) as occurrence_count\n    FROM unprocessed_invoices\n    GROUP BY \n        customer_number, \n        customer_name, \n        customer_address\n)\nSELECT *\nFROM UniqueChecks\nWHERE occurrence_count > 1\nHAVING COUNT(*) = 0;

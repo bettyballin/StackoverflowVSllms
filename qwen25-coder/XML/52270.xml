@@ -1,0 +1,1 @@
+<wsdl:operation name="YourOperationName">\n    <soap:operation soapAction="http://example.com/YourNamespace/YourOperationName" style="document"/>\n</wsdl:operation>

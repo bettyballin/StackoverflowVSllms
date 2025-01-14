@@ -1,0 +1,1 @@
+SELECT \n    Ingredients,\n    (LENGTH(Ingredients) - LENGTH(REPLACE(Ingredients, '\n', ''))) AS LineBreakCount\nFROM \n    recipes\nORDER BY \n    LineBreakCount;

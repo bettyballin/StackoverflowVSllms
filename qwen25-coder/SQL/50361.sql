@@ -1,0 +1,1 @@
+SELECT ValueColumn\nFROM YourTable\nWHERE <YourCondition>\nUNION ALL\nSELECT 'DefaultValue'\nWHERE NOT EXISTS (SELECT 1 FROM YourTable WHERE <YourCondition>);

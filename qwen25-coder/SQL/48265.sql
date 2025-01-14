@@ -1,0 +1,1 @@
+MERGE INTO table2 AS Target\nUSING (SELECT ID, OtherColumns FROM table1) AS Source\nON Target.ID = Source.ID -- Assuming ID is the key to identify rows\nWHEN MATCHED THEN \n    UPDATE SET UpdateTimestamp = GETDATE()\nWHEN NOT MATCHED BY TARGET THEN\n    INSERT (ID, OtherColumns, InsertTimestamp, UpdateTimestamp)\n    VALUES (Source.ID, Source.OtherColumns, GETDATE(), GETDATE());

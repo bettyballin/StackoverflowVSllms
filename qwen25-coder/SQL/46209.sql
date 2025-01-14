@@ -1,0 +1,1 @@
+CREATE FULLTEXT INDEX ON dbo.Card(Description)\nKEY INDEX PK_Card -- assuming you have a primary key index named PK_Card on Card table\nON card_catalog;

@@ -1,0 +1,1 @@
+my_array = ["value1", "value2", "value3"]\nputs my_array.inspect\n\nmy_hash = {"key1" => "value1"}\nputs my_hash.inspect

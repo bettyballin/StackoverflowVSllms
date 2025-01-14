@@ -1,0 +1,1 @@
+import pymysql\npymysql.install_as_MySQLdb()

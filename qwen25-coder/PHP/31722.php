@@ -1,0 +1,1 @@
+function restrict_subscriber_access() {\n    // Check if the current user has the 'subscriber' role.\n    if( current_user_can('read') && !current_user_can('edit_posts') ) {\n        wp_redirect(home_url('/')); // Redirect to home page or any other URL you prefer.\n        exit;\n    }\n}\nadd_action('template_redirect', 'restrict_subscriber_access');

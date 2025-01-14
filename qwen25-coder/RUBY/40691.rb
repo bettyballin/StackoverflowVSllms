@@ -1,0 +1,1 @@
+# Returning XML in a controller action\n  def show\n    @user = User.find(params[:id])\n    respond_to do |format|\n      format.xml { render xml: @user }\n    end\n  end

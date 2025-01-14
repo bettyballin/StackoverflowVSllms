@@ -1,0 +1,1 @@
+// Example using React for building a component-based web UI\nimport React from 'react';\nimport ReactDOM from 'react-dom';\n\nclass HelloUser extends React.Component {\n  render() {\n    return <h1>Hello, {this.props.name}!</h1>;\n  }\n}\n\nReactDOM.render(<HelloUser name="World" />, document.getElementById('app'));

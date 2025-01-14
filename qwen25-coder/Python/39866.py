@@ -1,0 +1,1 @@
+for index, x in enumerate(xs):\n    print("item #{} = {}".format(index + 1, x))

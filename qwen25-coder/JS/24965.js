@@ -1,0 +1,1 @@
+function MyLongRunningMethod() {\n    // Your sorting logic here...\n}\n\ndocument.body.style.cursor = "progress";\n\n// Use requestAnimationFrame to ensure the DOM updates first\nrequestAnimationFrame(() => {\n    MyLongRunningMethod();\n    document.body.style.cursor = "auto";\n});

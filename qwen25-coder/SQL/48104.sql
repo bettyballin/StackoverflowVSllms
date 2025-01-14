@@ -1,0 +1,1 @@
+-- Example of using a natural key as PK\nCREATE TABLE Orders (\n    OrderNumber INT PRIMARY KEY,  -- Assuming OrderNumber is unique and stable\n    CustomerID INT,\n    OrderDate DATE,\n    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)\n);

@@ -1,0 +1,1 @@
+$array = [3, 0, 2, 5, -1, 4];\nsort($array); // Sorts in ascending order\nprint_r($array);

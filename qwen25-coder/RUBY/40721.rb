@@ -1,0 +1,1 @@
+def sort_posts\n     @posts = Post.order(params[:order]).limit(10)\n     render json: {\n       posts_html: render_to_string(partial: 'posts/post_list', locals: { posts: @posts }),\n       sorting_html: render_to_string(partial: 'shared/sorting_links')\n     }\n   end

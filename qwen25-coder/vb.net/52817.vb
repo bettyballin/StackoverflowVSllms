@@ -1,0 +1,1 @@
+Imports System.Runtime.InteropServices\n\n<ComVisible(True)>\nPublic Class MyComClass\n    Public Sub New()\n        \n    End Sub\n    \n    Public Function Greet() As String\n        Return "Hello, COM!"\n    End Function\nEnd Class

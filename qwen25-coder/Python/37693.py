@@ -1,0 +1,1 @@
+from django.db.models import F, Value\nfrom django.db.models.functions import Cast\n\n# Assuming reputation involves some database fields\nProfile.objects.annotate(\n    reputation=Cast(F('some_field') + F('another_field'), output_field=models.IntegerField())\n).order_by('-reputation')

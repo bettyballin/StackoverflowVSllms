@@ -1,0 +1,1 @@
+import requests\nfrom html import unescape\n\n# Example URL, replace with your target page\nurl = 'https://example.com/football-players'\n\n# Fetch the web page\nresponse = requests.get(url)\n\n# Ensure the response is in text format and decode HTML entities\ndecoded_html = unescape(response.text)\n\nprint(decoded_html)

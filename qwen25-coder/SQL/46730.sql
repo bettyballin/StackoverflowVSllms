@@ -1,0 +1,1 @@
+SET @search_letter = 'a';\n\nSELECT *\nFROM your_table\nWHERE LOWER(column_name) REGEXP CONCAT('(^|[[:space:]]), LOWER(@search_letter), '[[:word:]]*');

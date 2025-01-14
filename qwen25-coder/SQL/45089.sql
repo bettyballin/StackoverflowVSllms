@@ -1,0 +1,1 @@
+SELECT * FROM your_table WHERE your_column REGEXP 'your_regex_pattern';

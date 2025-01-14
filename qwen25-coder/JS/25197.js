@@ -1,0 +1,1 @@
+// Setting a custom attribute using setAttribute\nvar element = document.getElementById('yourElementId');\nelement.setAttribute('data-custom', 'value');\n\n// Accessing the custom attribute\nvar value = element.getAttribute('data-custom');

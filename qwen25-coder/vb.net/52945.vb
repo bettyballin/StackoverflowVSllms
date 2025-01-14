@@ -1,0 +1,1 @@
+Dim printerSettings1 As New Printing.PrinterSettings()\nprinterSettings1.PrinterName = "Printer1"\n\nDim printerSettings2 As New Printing.PrinterSettings()\nprinterSettings2.PrinterName = "Printer2"\n\nDim receipt1 As New Receipt("Text for Printer 1", printerSettings1)\nreceipt1.Print()\n\nDim receipt2 As New Receipt("Text for Printer 2", printerSettings2)\nreceipt2.Print()

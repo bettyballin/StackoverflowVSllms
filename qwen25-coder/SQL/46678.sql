@@ -1,0 +1,1 @@
+DECLARE @tempIDs IDListTableType;\n\nINSERT INTO @tempIDs (ID)\nVALUES (25), (26);\n\nEXEC DeleteUnusedRelations 1, 2, @tempIDs;

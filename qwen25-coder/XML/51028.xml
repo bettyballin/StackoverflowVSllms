@@ -1,0 +1,1 @@
+<aop:aspectj-autoproxy />\n<context:component-scan base-package="com.yourpackage" />

@@ -1,0 +1,1 @@
+# A simple DSL-like structure within Ruby\ndef config(&block)\n  instance_eval &block\nend\n\nconfig do\n  start_at "10:00 AM"\n  end_at "5:00 PM"\nend

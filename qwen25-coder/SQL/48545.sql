@@ -1,0 +1,1 @@
+-- Assuming YourTable has columns ID, Field1, Field2\nUPDATE YourTable\nSET \n    Field1 = CASE WHEN ID = 1 THEN 10 ELSE Field1 END,\n    Field2 = CASE WHEN ID = 1 THEN 20 ELSE Field2 END,\n    Field1 = CASE WHEN ID = 2 THEN 30 ELSE Field1 END,\n    Field2 = CASE WHEN ID = 2 THEN 40 ELSE Field2 END\nWHERE \n    ID IN (1, 2);

@@ -1,0 +1,1 @@
+<?php\n// Within a PHP script, using ini_set\nini_set('include_path', 'C:/xampp/htdocs/root/includes' . PATH_SEPARATOR . get_include_path());\n\n// Now you can use include() without specifying the full path\ninclude("header.php");\n?>

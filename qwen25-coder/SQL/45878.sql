@@ -1,0 +1,1 @@
+CREATE INDEX idx_recent_transactions\nON transactions (transaction_date DESC);

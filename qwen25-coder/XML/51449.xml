@@ -1,0 +1,1 @@
+<system.web>\n        <sessionState mode="SQLServer" sqlConnectionString="data source=YOUR_SQL_SERVER;Integrated Security=False;User ID=YourUserID;Password=YourPassword;" cookieless="false"/>\n      </system.web>

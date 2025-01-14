@@ -1,0 +1,1 @@
+<?php\n   $ip = '128.101.101.101';\n   $json = file_get_contents("https://ipinfo.io/{$ip}/json");\n   $data = json_decode($json, true);\n   \n   if (isset($data['loc'])) {\n       list($latitude, $longitude) = explode(',', $data['loc']);\n       echo "Location: {$latitude}, {$longitude}\n";\n   } else {\n       echo "Location not found.\n";\n   }

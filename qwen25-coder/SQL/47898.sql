@@ -1,0 +1,1 @@
+SELECT \n       c.id AS ContactID, \n       c.ContactName AS ForeName,\n       c.xmlvaluesn.value('(/contact/ref)[1]', 'VARCHAR(40)') AS ref\n   FROM \n       Contacts c\n   INNER JOIN \n       ParticipantContactMap pcm \n       ON c.id = pcm.contactid AND pcm.participantid = 2140\n   WHERE \n       c.xmlvaluesn.exist('/contact[ref="118985"]') = 1

@@ -1,0 +1,1 @@
+if (!mysql_ping($link)) {\n    // Handle error directly, log it, etc.\n}

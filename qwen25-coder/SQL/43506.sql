@@ -1,0 +1,1 @@
+SELECT department_id,\n       LISTAGG(employee_name, ', ') WITHIN GROUP (ORDER BY employee_name) AS employees\nFROM employees\nGROUP BY department_id;

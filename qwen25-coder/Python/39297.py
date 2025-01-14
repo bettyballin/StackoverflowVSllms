@@ -1,0 +1,1 @@
+from rest_framework import generics\n   from .models import Item\n   from .serializers import ItemSerializer\n\n   class ItemList(generics.ListCreateAPIView):\n       queryset = Item.objects.all()\n       serializer_class = ItemSerializer\n\n   class ItemDetail(generics.RetrieveUpdateDestroyAPIView):\n       queryset = Item.objects.all()\n       serializer_class = ItemSerializer

@@ -1,0 +1,1 @@
+<?php $baseUrl = $block->escapeUrl($this->_scopeConfig->getValue('general/corporate_website/base_url', \Magento\Store\Model\ScopeInterface::SCOPE_STORE)); ?>

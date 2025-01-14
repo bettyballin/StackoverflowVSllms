@@ -1,0 +1,1 @@
+<?php\n$input = "asd";\n$hash = md5($input, true); // Compute MD5 hash, second parameter as true to get raw output\n$output = base64_encode($hash); // Encode the raw binary data with Base64\necho $output;\n?>

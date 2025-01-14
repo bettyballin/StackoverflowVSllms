@@ -1,0 +1,1 @@
+function zoomElement(element, scale) {\n    element.style.transform = `scale(${scale})`;\n    element.style.transformOrigin = '0 0';\n}\n\n// Usage:\nconst myElement = document.querySelector('.your-element-class');\nzoomElement(myElement, 1.2); // Zoom in by 20%

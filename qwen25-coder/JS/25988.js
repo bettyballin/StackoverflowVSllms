@@ -1,0 +1,1 @@
+document.getElementById('myinput').style.border = '1px solid';

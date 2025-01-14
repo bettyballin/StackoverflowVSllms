@@ -1,0 +1,1 @@
+Public Class frmMyForm\n    Inherits BaseForm\n\n    ' You can still use the designer here\n\nEnd Class

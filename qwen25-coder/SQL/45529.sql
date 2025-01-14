@@ -1,0 +1,1 @@
+CREATE TABLE UserSettings (\n    UserID INT NOT NULL,\n    Set VARCHAR(50) NOT NULL,\n    Key VARCHAR(50) NOT NULL,\n    Value NVARCHAR(MAX),\n    TimeStamp DATETIME,\n    PRIMARY KEY (UserID, Set, Key),\n    FOREIGN KEY (UserID) REFERENCES Users(UserID)\n);

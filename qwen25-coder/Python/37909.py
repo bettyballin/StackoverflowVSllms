@@ -1,0 +1,1 @@
+# Example of using a polynomial kernel (simulating higher-dimensional feature mapping)\n   def polynomial_kernel(x, y, p=3):\n       return np.dot(x, y)**p  # Simulates dot product in polynomial space

@@ -1,0 +1,1 @@
+$("li").click(function(event){\n    event.stopPropagation(); // Stop the event from bubbling up\n    var current_id = $(this).attr('id');\n    if (current_id) {\n        alert(current_id);\n    }\n});

@@ -1,0 +1,1 @@
+function linearSearch(array, target):\n    for i from 0 to length(array) - 1:\n        if array[i] == target:\n            return i\n    return -1

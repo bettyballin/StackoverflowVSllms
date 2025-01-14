@@ -1,0 +1,1 @@
+$html = "<br/><br/><br/><br/><br/>";\n$singleBrHtml = preg_replace('/<br\s*\/?>\s*<br\s*\/?>/i', '<br/>', $html);\necho $singleBrHtml;

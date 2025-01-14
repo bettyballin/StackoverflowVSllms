@@ -1,0 +1,1 @@
+UPDATE tbl\nSET title = CASE\n    WHEN title = 'a-1' THEN 'a1'\n    WHEN title = 'a.1' THEN 'a1'\n    WHEN title = 'b-1' THEN 'b1'\n    WHEN title = 'b.1' THEN 'b1'\n    -- Add more conditions as necessary\n    ELSE title  -- Keep the original value if no condition matches\nEND;

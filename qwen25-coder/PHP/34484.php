@@ -1,0 +1,1 @@
+ini_set('memory_limit', '2G'); // Adjust according to your server's capacity

@@ -1,0 +1,1 @@
+Dim foo As Integer = If(bar = buz, cat, dog)

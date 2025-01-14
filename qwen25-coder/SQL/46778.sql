@@ -1,0 +1,1 @@
+WITH OldestRecords AS (\n    SELECT TOP (@X) Id, Title, Comments, CreatedDate\n    FROM MyTable\n    WHERE CreatedDate < @OlderThanDate\n    ORDER BY CreatedDate ASC\n)\nSELECT Id, Title, Comments, CreatedDate\nFROM OldestRecords\nORDER BY CreatedDate DESC;

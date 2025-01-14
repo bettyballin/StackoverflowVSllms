@@ -1,0 +1,1 @@
+const range = require('regexp-range');\n\n// Generate a regex to match numbers between 5 and 150\nconst re = new RegExp('^' + range(5, 150) + '$', 'g');\nconsole.log(re.test('100')); // true\nconsole.log(re.test('200')); // false

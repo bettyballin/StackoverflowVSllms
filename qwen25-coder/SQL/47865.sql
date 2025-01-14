@@ -1,0 +1,1 @@
+-- Grant execute rights specifically to a user for an internal procedure\n   GRANT EXEC ON [InternalSchema].[InternalProcedure] TO [SpecificUser];\n\n   -- Deny execute rights on a public schema for the same user\n   DENY EXEC ON SCHEMA::[dbo] TO [SpecificUser];

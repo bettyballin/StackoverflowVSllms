@@ -1,0 +1,1 @@
+# app/controllers/pages_controller.rb\n\n   class PagesController < ApplicationController\n     def index\n       @images = Image.all.order('created_at DESC').map { |image| { url: image.url } }\n     end\n   end

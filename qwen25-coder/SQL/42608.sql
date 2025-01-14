@@ -1,0 +1,1 @@
+(VoidedIndicator <> 1 OR VoidedIndicator IS NULL)

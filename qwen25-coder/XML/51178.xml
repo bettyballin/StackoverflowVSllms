@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n     <!DOCTYPE MIME-resolver PUBLIC "-//NetBeans//DTD MIME Resolver 2.0//EN"\n       "http://www.netbeans.org/dtds/mime-resolver-2_0.dtd">\n     <MIME-resolver>\n         <file>\n             <extension name="tpl"/>\n             <resolver mime-type="text/x-php5"/>\n         </file>\n     </MIME-resolver>

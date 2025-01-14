@@ -1,0 +1,1 @@
+import sys\n\nif sys.stdout.isatty():\n    print("Output is on a console terminal.")\nelse:\n    print("Output is redirected or piped.")

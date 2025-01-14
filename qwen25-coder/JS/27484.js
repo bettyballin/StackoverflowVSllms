@@ -1,0 +1,1 @@
+Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function(sender, args) {\n    // Reinitialize nicEdit.\n    new nicEditor({fullPanel : true}).panelInstance('yourTextAreaId');\n});

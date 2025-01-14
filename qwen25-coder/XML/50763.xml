@@ -1,0 +1,1 @@
+<class name="ComponentGroup" table="ComponentGroups">\n    <id name="Id" column="Id">\n        <generator class="native"/>\n    </id>\n\n    <!-- Only root components are mapped here -->\n    <bag name="Components" cascade="all-delete-orphan">\n        <key column="GroupId"/>\n        <one-to-many class="Component"/>\n    </bag>\n</class>

@@ -1,0 +1,1 @@
+<?php\n// download.php?file=document.pdf\nsession_start();\nif (!isset($_SESSION['auth']) || $_SESSION['auth'] !== true) {\n    header("HTTP/1.0 403 Forbidden");\n    echo "Access denied.";\n    exit();\n}\n\n$file = basename(realpath('protected/' . $_GET['file']));\nheader("Content-Type: application/octet-stream");\nreadfile('protected/' . $file);\n?>

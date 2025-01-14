@@ -1,0 +1,1 @@
+function handleEnterKeyPress(e) {\n    if (e.code === 'Enter') { // Modern way to check key press\n        document.getElementById('desiredSubmit').click();\n        return false; // Prevent the default form submission\n    }\n    return true; // Allow other key presses to proceed as normal\n}

@@ -1,0 +1,1 @@
+Public Function MyMethod(ByVal param1 As Integer, Optional ByVal param2 As Integer = 0, Optional ByVal param3 As Integer = 1) As Integer\n    Return param1 + param2 + param3\nEnd Functio

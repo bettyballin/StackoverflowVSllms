@@ -1,0 +1,1 @@
+// Example: Filling form fields manually via the browser console\ndocument.querySelector('input[name="username"]').value = 'testuser';\ndocument.querySelector('input[name="password"]').value = 'securePassword123!';\ndocument.querySelector('form').submit();

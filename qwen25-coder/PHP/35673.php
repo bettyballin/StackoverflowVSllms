@@ -1,0 +1,1 @@
+<?php\n// Assuming $rows is an array of data fetched from the database with column headers as keys.\n$fp = fopen('path_to_file.csv', 'w');\n\n// Write the header row\n$header = array("id", "name");\nfputcsv($fp, $header);\n\nforeach ($rows as $row) {\n    // Ensure each row is an indexed array in the correct order.\n    fputcsv($fp, $row);\n}\n\nfclose($fp);\n?>

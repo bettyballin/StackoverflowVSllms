@@ -1,0 +1,1 @@
+module Utils\n  def self.my_utility_method\n    # Your utility method logic here\n  end\nend

@@ -1,0 +1,1 @@
+$somevalue = $_GET['product'];\n// Sanitize the input value\n$somevalue = strtolower(str_replace([' ', ',', '/', '&', '+'], '-', $somevalue));

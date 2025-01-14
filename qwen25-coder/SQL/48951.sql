@@ -1,0 +1,1 @@
+SELECT STRING_AGG(ColumnName, ',') AS CommaDelimitedOutput\nFROM YourTableName;

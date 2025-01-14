@@ -1,0 +1,1 @@
+WITH RankedValues AS (\n    SELECT \n        c1,\n        ROW_NUMBER() OVER(ORDER BY (SELECT NULL)) AS NewSequence\n    FROM [dbo].[t1]\n)\nUPDATE RankedValues\nSET c1 = NewSequence;

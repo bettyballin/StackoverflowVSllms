@@ -1,0 +1,1 @@
+# If getConnection() returns a cursor\ncursor = dbao.getConnection()\nwith cursor:\n    conn = cursor.connection  # Access the underlying connection if needed\n    # Do stuff with cursor or conn as required

@@ -1,0 +1,1 @@
+SELECT b.profname\nFROM committee b\nJOIN (\n    SELECT commname\n    FROM committee\n    WHERE profname = 'piper'\n) p ON b.commname = p.commname\nGROUP BY b.profname\nHAVING COUNT(DISTINCT b.commname) = (\n    SELECT COUNT(DISTINCT commname)\n    FROM committee\n    WHERE profname = 'piper'\n);

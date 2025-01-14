@@ -1,0 +1,1 @@
+if (request::is_ajax())\n{\n  header('HTTP/1.1 403 Forbidden');\n  return;\n}

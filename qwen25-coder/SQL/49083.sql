@@ -1,0 +1,1 @@
+SELECT OBJECT_NAME(object_id) AS ROUTINE_NAME, \n       definition AS ROUTINE_DEFINITION \nFROM sys.sql_modules \nWHERE definition LIKE '%EffectiveDate%' \nAND OBJECT_NAME(object_id) LIKE '%NET%'

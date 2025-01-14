@@ -1,0 +1,1 @@
+UPDATE credits \nSET creds = GREATEST(0, new_creds_value), \n    version = version + 1 \nWHERE user_id = 1 AND version = current_version_from_select;

@@ -1,0 +1,1 @@
+If someCondition Then\n    RotatePictureBox(yourPictureBoxControl)\nEnd If

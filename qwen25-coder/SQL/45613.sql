@@ -1,0 +1,1 @@
+select count(*) \nfrom \n    (select idCover \n     from x90..dimCover \n     group by idCover \n     having count(*) > 1) as DerivedTableAlias

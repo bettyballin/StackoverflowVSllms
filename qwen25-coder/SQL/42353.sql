@@ -1,0 +1,1 @@
+SELECT * \nFROM Table1 t1 \nJOIN Table2 t2 \nON t1.Table2Id = t2.Id \nWHERE StartTime < :starttime AND EndTime > :endtime;

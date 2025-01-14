@@ -1,0 +1,1 @@
+CREATE TYPE dbo.DT_TableType AS TABLE (\n    DeviceID INT,\n    Location VARCHAR(255),\n    UpdateTime DATETIME\n);

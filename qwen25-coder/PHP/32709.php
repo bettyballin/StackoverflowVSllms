@@ -1,0 +1,1 @@
+if (extension_loaded('eaccelerator')) {\n    echo 'eAccelerator is loaded!';\n} else {\n    echo 'eAccelerator is not loaded.';\n}

@@ -1,0 +1,1 @@
+$array = [\n    'id' => 123,\n    'name' => 'John',\n    'address' => '123 Elm St'\n];\n\n$filteredArray = array_filter($array, function ($value, $key) {\n    return $key !== 'id';\n}, ARRAY_FILTER_USE_BOTH);\n\nforeach ($filteredArray as $key => $value) {\n    // Do whatever you need with key and value\n    echo "$key: $value\n";\n}

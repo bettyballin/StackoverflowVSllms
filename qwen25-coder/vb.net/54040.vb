@@ -1,0 +1,1 @@
+Public Enum Gender\n    NotDefined\n    Male\n    Female\nEnd Enum\n\nModule Module1\n    Sub Main()\n        Dim genderString As String = "Male"\n        Dim genderValue As Gender = CType([Enum].Parse(GetType(Gender), genderString, True), Gender)\n        \n        Console.WriteLine(genderValue)  ' Output will be: Male\n    End Sub\nEnd Module

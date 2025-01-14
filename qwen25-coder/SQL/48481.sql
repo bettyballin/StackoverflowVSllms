@@ -1,0 +1,1 @@
+SELECT * FROM cdc.fn_cdc_get_all_changes_dbo_YourTableName(\n      'all', \n      0, \n      sys.maxutes());

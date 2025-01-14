@@ -1,0 +1,1 @@
+DROP TABLE foo PURGE;\nCREATE TABLE foo (\n    id NUMBER,\n    title VARCHAR2(4000) DEFAULT 'Default Title'\n);

@@ -1,0 +1,1 @@
+import os\nimport msvcrt\n\n# Opening a file used by another process on Windows\nfile_handle = msvcrt.open_osfhandle(\n    os.open('C:\\path\\to\\file', os.O_RDONLY | os.O_BINARY), \n    os.O_RDONLY)\n\nwith os.fdopen(file_handle) as f:\n    data = f.read()\n    print(data)

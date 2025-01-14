@@ -1,0 +1,1 @@
+SELECT TOP 10 name\nFROM sys.procedures AS p\nJOIN sys.sql_modules AS m ON p.object_id = m.object_id\nWHERE m.definition LIKE '%Your Comment Here%'\nORDER BY p.name;

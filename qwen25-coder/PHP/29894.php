@@ -1,0 +1,1 @@
+// Example of using sleep with execution time limitation\nset_time_limit(30); // Set max execution time to 30 seconds\n\necho "Script is starting...\n";\nsleep(31); // This will cause the script to exceed its execution time limit\necho "This line will not be executed.";

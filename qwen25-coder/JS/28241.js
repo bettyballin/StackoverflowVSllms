@@ -1,0 +1,1 @@
+<script type="text/javascript">\n       window.history.forward();\n       function noBack() { window.history.forward(); }\n   </script>

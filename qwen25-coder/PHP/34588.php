@@ -1,0 +1,1 @@
+class Tacobell {\n    public function order_taco() {\n        echo "3 Tacos, thank you.";\n    }\n\n    public function order_burrito() {\n        echo "Cheesy bean and rice, please";\n    }\n}\n\n$lunch = new Tacobell;\n$myOrder = 'burrito';\n\n// Use variable method calling\n$lunch->{'order_' . $myOrder}();

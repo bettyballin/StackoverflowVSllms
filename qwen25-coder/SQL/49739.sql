@@ -1,0 +1,1 @@
+CALL GetAncestors(20);

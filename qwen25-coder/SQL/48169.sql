@@ -1,0 +1,1 @@
+-- For MySQL:\n   SHOW CREATE DATABASE your_database_name;\n   SHOW CREATE TABLE your_table_name;\n\n   -- Look for `CHARSET=utf8mb4` or similar in the output.

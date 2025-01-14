@@ -1,0 +1,1 @@
+-- Update statistics for the table underlying the view\n   UPDATE STATISTICS a_table;

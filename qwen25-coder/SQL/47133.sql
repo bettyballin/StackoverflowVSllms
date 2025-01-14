@@ -1,0 +1,1 @@
+CREATE DEFAULT POLICY regional_policy\nON YourSchema.YourTable\nTO YourUser\nUSING (region = SUBSTRING_INDEX(CURRENT_USER(), '@', -1));

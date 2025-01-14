@@ -1,0 +1,1 @@
+INSERT INTO TEST VALUES (153, 'test', 'test', 1, 1, 1.11, 1.11);

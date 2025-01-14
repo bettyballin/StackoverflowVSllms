@@ -1,0 +1,1 @@
+' Explicitly typing a variable as String\nDim myName As String = "John Doe"\n\n' Using Object for demonstrative purposes (not recommended unless necessary)\nDim objMyName As Object = "John Doe"

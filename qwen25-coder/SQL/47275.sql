@@ -1,0 +1,1 @@
+ALTER TABLE exhibitions ADD INDEX idx_active_ends (active, ends);

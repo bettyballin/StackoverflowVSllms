@@ -1,0 +1,1 @@
+DECLARE @Year INT = 2009;\nDECLARE @Month INT = 11;\nDECLARE @Day INT = 12;\n\nSELECT DATEFROMPARTS(@Year, @Month, @Day) AS constructedDate;

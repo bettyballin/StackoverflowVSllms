@@ -1,0 +1,1 @@
+ALTER TABLE hits ADD INDEX (timestamp);

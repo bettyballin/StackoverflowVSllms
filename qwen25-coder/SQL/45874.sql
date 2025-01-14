@@ -1,0 +1,1 @@
+WITH RECURSIVE DateRange AS (\n    SELECT CURRENT_DATE - INTERVAL '1' DAY * generate_series(0, 364) AS date_value\n)\nSELECT date_value\nFROM DateRange;

@@ -1,0 +1,1 @@
+# In your controller before action if needed\n@form_builder_instance = ActionView::Helpers::FormBuilder.new(:staff_member, @staff_member, self.view_context, {}, builder: MyFormBuilder)

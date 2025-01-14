@@ -1,0 +1,1 @@
+ALTER TABLE YourTableName\nADD CONSTRAINT chk_YourColumnName_Range CHECK (YourColumnName >= 1 AND YourColumnName <= 5);

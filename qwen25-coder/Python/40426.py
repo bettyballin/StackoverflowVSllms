@@ -1,0 +1,1 @@
+import pyarmor\n\n   # Obfuscate a single script:\n   pyarmor.pack('myscript.py')

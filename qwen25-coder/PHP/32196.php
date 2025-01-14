@@ -1,0 +1,1 @@
+<?php\n$url = 'http://example.com/'; // URL of the page you want to take a screenshot of\n$outputPath = '/var/www/html/screenshot.png'; // Path where to save the output file\n\n// Execute wkhtmltoimage\nexec('wkhtmltoimage ' . escapeshellarg($url) . ' ' . escapeshellarg($outputPath));\n\necho "Screenshot saved to $outputPath";\n?>

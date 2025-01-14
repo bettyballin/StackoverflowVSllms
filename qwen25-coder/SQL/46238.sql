@@ -1,0 +1,1 @@
+-- A simple stored procedure in T-SQL\nCREATE PROCEDURE GetUserDetails\n    @UserID INT\nAS\nBEGIN\n    IF EXISTS (SELECT 1 FROM Users WHERE UserID = @UserID)\n        SELECT * FROM Users WHERE UserID = @UserID;\n    ELSE\n        PRINT 'User does not exist';\nEND;

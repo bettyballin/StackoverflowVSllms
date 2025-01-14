@@ -1,0 +1,1 @@
+-- src/main/resources/db/migration/V1__Create_person_table.sql\nCREATE TABLE person (\n  id INT AUTO_INCREMENT PRIMARY KEY,\n  name VARCHAR(255) NOT NULL\n);

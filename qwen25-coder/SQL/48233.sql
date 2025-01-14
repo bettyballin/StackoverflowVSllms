@@ -1,0 +1,1 @@
+SELECT DISTINCT\n  A.APP_NO AS app_no,\n  A.STATE AS state,\n  ... -- Add other necessary fields here\nFROM \n  TABLE_A A\nLEFT OUTER JOIN  \n  TABLE_B HIST ON HIST.COL1 = A.COL1\nLEFT OUTER JOIN\n  TABLE_C B ON <condition for joining TABLE_A with TABLE_C>\nLEFT OUTER JOIN\n  TABLE_D H ON H.COL2 = B.COL2 AND H.COL3 = A.STATE\nWHERE\n  A.BRANCH = 'Data'

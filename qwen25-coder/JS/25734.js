@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", function() {\n    highlightKeywords(['Google', 'example']);\n});

@@ -1,0 +1,1 @@
+' Module1.bas\nPublic CallStack As String\n\nSub LogFunctionEntry(functionName As String)\n    CallStack = CallStack & " -> " & functionName\nEnd Sub\n\nSub LogFunctionExit(functionName As String)\n    Dim pos As Integer\n    pos = InStrRev(CallStack, " -> ")\n    If pos > 0 Then\n        CallStack = Left(CallStack, pos - 4)\n    End If\nEnd Sub

@@ -1,0 +1,1 @@
+header('Cache-Control: no-store, no-cache, must-revalidate');\n   header('Pragma: no-cache');

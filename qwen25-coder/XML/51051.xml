@@ -1,0 +1,1 @@
+<target name="run-tests">\n    <junit printsummary="yes" haltonfailure="no" fork="true">\n        <classpath>\n            <!-- Include your test and production class paths here -->\n        </classpath>\n\n        <test name="MyPackage.AllTests" />\n    </junit>\n</target>

@@ -1,0 +1,1 @@
+// Writing a blog post to a file\n$postData = "Title: Sample Post\nContent: This is a sample content of a blog post.";\nfile_put_contents('posts/post_' . time() . '.txt', $postData);\n\n// Reading all blog posts from files\n$postsDirectory = 'posts/';\n$postsList = glob($postsDirectory . '*.txt');\nforeach ($postsList as $postFile) {\n    echo file_get_contents($postFile);\n}

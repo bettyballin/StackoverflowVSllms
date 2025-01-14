@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTableName t\nINNER JOIN CONTAINSTABLE(YourTableName, *, '*') AS keys ON t.YourColumn = keys.[KEY];

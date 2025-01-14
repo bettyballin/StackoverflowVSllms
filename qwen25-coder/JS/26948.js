@@ -1,0 +1,1 @@
+let bar = { baz: "qqqq" };\n\nfunction callableObject(obj) {\n    let f = function() {\n        console.log("Called as function!");\n    };\n    Object.keys(obj).forEach(key => f[key] = obj[key]);\n    return f;\n}\n\nbar = callableObject(bar);\n\nconsole.log(bar.baz); // Outputs: qqqq\nbar(); // Outputs: Called as function!

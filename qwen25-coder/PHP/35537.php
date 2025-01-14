@@ -1,0 +1,1 @@
+echo realpath('some_path/db-com.php');

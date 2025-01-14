@@ -1,0 +1,1 @@
+# Show full backtrace on failures to help debugging, remove when not needed\nCucumber::Formatter::Console.backtrace_level = "normal"\nrequire 'capybara/rspec'\nrequire_relative '../spec_helper'

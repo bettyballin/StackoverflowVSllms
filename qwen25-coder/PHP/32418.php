@@ -1,0 +1,1 @@
+// application/controllers/Calendar.php\n\nclass Calendar extends CI_Controller {\n\n    public function get_data_for_date($date) {\n        // Assume you have a model named 'calendar_model'\n        $data = $this->calendar_model->get_events_by_date($date);\n        echo json_encode($data);\n    }\n}

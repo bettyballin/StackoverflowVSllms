@@ -1,0 +1,1 @@
+# Example in Python using Flask\n   from flask import session\n\n   @app.route('/store_arrays', methods=['POST'])\n   def store_arrays():\n       array1 = request.form.get('array1')\n       array2 = request.form.get('array2')\n       array3 = request.form.get('array3')\n       session['arrays'] = [array1, array2, array3]\n       return redirect('/display')

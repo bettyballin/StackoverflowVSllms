@@ -1,0 +1,1 @@
+Private Declare Sub Sleep Lib "kernel32" (ByVal dwMilliseconds As Long)\n\nSub Example()\n    Call ExternalLongRunningProcess\n    Sleep 5000 ' Waits for 5000 milliseconds or 5 seconds\n    Call DoOtherStuff\nEnd Sub

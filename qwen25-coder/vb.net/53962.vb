@@ -1,0 +1,1 @@
+Public Function Blah(Foo As IInterface) As Object\n    ' Implementation here\nEnd Functio

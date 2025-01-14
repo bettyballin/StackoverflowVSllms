@@ -1,0 +1,1 @@
+// Assuming this.whereAreWe refers to the anchor tag element\nthis.whereAreWe = document.getElementById('where_are_we');\n\nthis.whereAreWe.onclick = function(event) {\n    event.preventDefault(); // Prevents the default action of the anchor tag (navigating if href is set)\n    // Your code here\n    console.log("Anchor was clicked!");\n};

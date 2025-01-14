@@ -1,0 +1,1 @@
+$array = [\n    '' => 1,\n    'other_key' => 'value'\n];\n\n// Iterate over the array to find and remove the entry with an empty key\nforeach ($array as $key => $value) {\n    if ($key === "") { // Check for an exact empty string match\n        unset($array[$key]);\n        break; // Exit loop after removal, assuming only one such entry exists\n    }\n}\n\nvar_dump($array);

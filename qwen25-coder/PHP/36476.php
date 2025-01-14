@@ -1,0 +1,1 @@
+<?php\necho "Hello, world!";\n?>

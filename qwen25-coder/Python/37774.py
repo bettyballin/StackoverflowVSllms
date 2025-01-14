@@ -1,0 +1,1 @@
+import uuid\n\ndef generate_unique_id():\n    return str(uuid.uuid4()).replace('-', '')\n\n# Example usage\nunique_id = generate_unique_id()\nprint(unique_id)

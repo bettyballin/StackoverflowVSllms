@@ -1,0 +1,1 @@
+// Extend jQuery prototype with a new method 'bar'\n$.fn.bar = function() {\n    return this.html();\n};\n\n// Usage\nalert($('#foo').bar());

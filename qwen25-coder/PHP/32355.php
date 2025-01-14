@@ -1,0 +1,1 @@
+$node = /* Assume this is your SimpleXMLElement object */;\n$idAttribute = $node['id']; // Access the attribute, still a SimpleXMLElement\n$idString = (string)$idAttribute; // Cast to string

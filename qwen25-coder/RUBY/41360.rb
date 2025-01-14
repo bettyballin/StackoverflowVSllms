@@ -1,0 +1,1 @@
+require 'erb'\n\ntemplate = ERB.new(<<~HTML)\n<html>\n<head><title><%= title %></title></head>\n<body>\n  <h1>Welcome, <%= username %>!</h1>\n  <p>This is a dynamically generated page.</p>\n</body>\n</html>\nHTML\n\ndata = { title: 'My Page', username: 'Alice' }\nputs template.result(binding)

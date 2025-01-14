@@ -1,0 +1,1 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">\n  <ItemGroup>\n    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">\n      <Project>{GUID-OF-BUSINESSLOGIC-PROJECT}</Project>\n      <Name>BusinessLogic</Name>\n    </ProjectReference>\n  </ItemGroup>\n</Project>

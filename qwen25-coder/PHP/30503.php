@@ -1,0 +1,1 @@
+// Add models, helpers, etc., required by Ion Auth:\n$autoload['libraries'] = array('database', 'session');\n$autoload['helper'] = array('url', 'form', 'language');\n$autoload['config'] = array('ion_auth');

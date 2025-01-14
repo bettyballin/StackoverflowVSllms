@@ -1,0 +1,1 @@
+// Example of configuring trust level in web.config for a more restricted environment\n<configuration>\n  <system.web>\n    <trust level="Medium" originUrl="" />\n  </system.web>\n</configuration>

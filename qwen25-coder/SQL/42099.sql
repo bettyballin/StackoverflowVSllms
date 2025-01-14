@@ -1,0 +1,1 @@
+SELECT ...\nFROM main\n...\nLEFT JOIN (\n    SELECT a.col1, a.col2\n    FROM a\n    INNER JOIN b ON (a.col3 = b.col3)\n) sub_a ON (main.col2 = sub_a.col2);

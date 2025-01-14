@@ -1,0 +1,1 @@
+$validator = Validator::make($inputs, [\n       'email' => 'required|email',\n       'age' => 'required|integer|min:18',\n   ]);\n\n   if ($validator->fails()) {\n       return redirect('form')\n                   ->withErrors($validator)\n                   ->withInput();\n   }

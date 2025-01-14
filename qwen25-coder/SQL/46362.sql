@@ -1,0 +1,1 @@
+SELECT DISTINCT i.*\nFROM items i\nJOIN item_words iw ON i.item_id = iw.item_id\nWHERE iw.word = 'specific_word';

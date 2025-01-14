@@ -1,0 +1,1 @@
+Public Interface IReadOnlyContainer(Of Out T As BaseClass)\n    Function ToList() As List(Of T)\nEnd Interface

@@ -1,0 +1,1 @@
+<!-- Layout file: res/layout/activity_maps.xml -->\n   <fragment\n       xmlns:android="http://schemas.android.com/apk/res/android"\n       android:id="@+id/map"\n       android:name="com.google.android.gms.maps.SupportMapFragment"\n       android:layout_width="match_parent"\n       android:layout_height="match_parent"/>

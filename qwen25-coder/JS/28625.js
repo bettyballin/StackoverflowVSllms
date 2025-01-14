@@ -1,0 +1,1 @@
+<script>\ndocument.addEventListener('DOMContentLoaded', (event) => {\n    fetch('/yourContextRoot/yourPath')\n        .then(response => response.json())\n        .then(data => {\n            // Process your data here\n            console.log(data);\n        })\n        .catch(error => {\n            console.error('Error:', error);\n        });\n});\n</script>

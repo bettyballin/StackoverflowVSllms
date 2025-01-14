@@ -1,0 +1,1 @@
+$string = "first past/ going beyond & then turn";\n// Use preg_split with a regex pattern to split by '/', ',', 'with', or '&'\n$splitString = preg_split('/[\/,&]| with /', $string, -1, PREG_SPLIT_NO_EMPTY);\n\n// Trim each element of the resulting array\n$trimmedArray = array_map('trim', $splitString);\n\nprint_r($trimmedArray);

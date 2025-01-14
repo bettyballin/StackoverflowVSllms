@@ -1,0 +1,1 @@
+-- Example Oracle trigger to convert NULL back to '' upon selection\nCREATE OR REPLACE TRIGGER before_select_trigger\nBEFORE SELECT ON your_table\nFOR EACH ROW\nBEGIN\n    IF :NEW.char_column IS NULL THEN\n        :NEW.char_column := '';\n    END IF;\nEND;

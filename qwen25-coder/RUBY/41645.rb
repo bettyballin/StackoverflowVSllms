@@ -1,0 +1,1 @@
+def feed_for_user(current_user)\n  Follow.joins(:followee)\n        .where(follower_id: current_user.id)\n        .joins(:messages)\nend

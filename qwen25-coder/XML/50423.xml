@@ -1,0 +1,1 @@
+<system.web>\n  <authentication mode="Forms">\n    <forms loginUrl="~/Account/Login" timeout="2880" requireSSL="true" />\n  </authentication>\n</system.web>

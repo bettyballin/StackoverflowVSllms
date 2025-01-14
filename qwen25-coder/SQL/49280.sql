@@ -1,0 +1,1 @@
+ALTER TABLE YourTableName\nADD CONSTRAINT chk_magicvalue\nCHECK (magicvalue >= 0 AND magicvalue <= 100);

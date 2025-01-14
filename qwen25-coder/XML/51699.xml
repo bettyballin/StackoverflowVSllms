@@ -1,0 +1,1 @@
+<Realm \n    className="org.apache.catalina.realm.JNDIRealm"\n    connectionURL="ldap://adserver.example.com:389/"\n    userPattern="uid={0},ou=Users,dc=example,dc=com"\n    roleBase="ou=Rights,dc=example,dc=com"\n    roleName="cn" \n    roleSearch="(uniqueMember={0})"\n    userSubtree="true"\n    roleSubtree="true"\n/>

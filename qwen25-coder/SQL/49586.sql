@@ -1,0 +1,1 @@
+SELECT \n    (SELECT col1 AS [YourDesiredColumnName]\n     FROM table1\n     WHERE col2 = 'x'\n     ORDER BY col3\n     FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)') AS YourDesiredColumnName

@@ -1,0 +1,1 @@
+import re\n\ntext = "Here is a URL http://example.com and another one http://test.org in this line."\nurl_pattern = r"http://[a-zA-Z0-9\/\.\-]+"\n\n# Find all URLs\nurls = re.findall(url_pattern, text)\n\n# Remove URLs from the original text\nresult = text\nfor url in urls:\n    result = result.replace(url, '')\n\nprint(result)

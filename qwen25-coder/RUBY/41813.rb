@@ -1,0 +1,1 @@
+require 'json'\n\n# Unsafe\n# config = eval(File.read('config.cfg'))\n\n# Safer\nconfig = JSON.parse(File.read('config.json'))

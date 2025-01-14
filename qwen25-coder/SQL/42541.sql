@@ -1,0 +1,1 @@
+-- Example SQL table creation with NULL allowed for meaningful fields\nCREATE TABLE products (\n    id INT PRIMARY KEY,\n    name VARCHAR(100) NOT NULL,\n    stock_quantity INT -- can be NULL if the quantity is unknown\n);

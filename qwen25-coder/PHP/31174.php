@@ -1,0 +1,1 @@
+// aop.php\n   namespace Aspects;\n\n   use Go\Core\AspectKernel;\n   use Go\Core\AspectContainer;\n\n   class ApplicationAspectKernel extends AspectKernel {\n\n       protected function configureAop(AspectContainer $container)\n       {\n           $container->registerAspect(new LoggerAspect());\n       }\n   }

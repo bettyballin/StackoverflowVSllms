@@ -1,0 +1,1 @@
+SELECT id, name, (6371 * acos(cos(radians(:userLat)) * \n                               cos(radians(lat)) * \n                               cos(radians(lng) - radians(:userLng)) + \n                               sin(radians(:userLat)) * \n                               sin(radians(lat)))) AS distance\nFROM businesses\nHAVING distance <= 20\nORDER BY distance;

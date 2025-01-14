@@ -1,0 +1,1 @@
+CREATE TABLE categories (\n    id SERIAL PRIMARY KEY,\n    title VARCHAR(255) NOT NULL\n);\n\nCREATE TABLE category_closure (\n    ancestor INT REFERENCES categories(id),\n    descendant INT REFERENCES categories(id),\n    depth INT, -- optional; useful for sorting or querying by distance in hierarchy\n    PRIMARY KEY (ancestor, descendant)\n);

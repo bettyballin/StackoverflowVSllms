@@ -1,0 +1,1 @@
+require_once 'path/to/htmlpurifier/HTMLPurifier.auto.php';\n\n$config = HTMLPurifier_Config::createDefault();\n$purifier = new HTMLPurifier($config);\n\n$dirty_html = "<p>This is an <b>example</b>. <script>alert('XSS');</script></p>";\n$clean_html = $purifier->purify($dirty_html);\n\necho $clean_html; // Outputs: <p>This is an <b>example</b>.</p>

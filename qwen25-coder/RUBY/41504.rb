@@ -1,0 +1,1 @@
+Project.configure do |project|\n     project.build_command = "rake build"\n     project.test_command  = "rake test"\n   end

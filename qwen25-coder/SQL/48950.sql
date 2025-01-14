@@ -1,0 +1,1 @@
+SELECT \n    s.sid,\n    s.serial#,\n    s.username,\n    s.status,\n    s.osuser,\n    s.machine,\n    s.program,\n    s.logon_time\nFROM \n    v$session s\nWHERE \n    s.type = 'USER';

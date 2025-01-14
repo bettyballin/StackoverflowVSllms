@@ -1,0 +1,1 @@
+<?php\n$tempFilePath = '/path/to/your/tempfile.ext';\n$durationInSeconds = 120; // 2 minutes\n\n// Create a temporary file (example)\nfile_put_contents($tempFilePath, 'Temporary content');\n\necho "File created at: " . $tempFilePath . "\n";\n\n// Schedule deletion of the file\nexec("php -r \"sleep({$durationInSeconds}); unlink('{$tempFilePath}');\" > /dev/null 2>&1 &");\n\n?>

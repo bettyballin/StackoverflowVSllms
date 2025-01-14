@@ -1,0 +1,1 @@
+function myFunction() {\n  // Your code before the AJAX request\n}

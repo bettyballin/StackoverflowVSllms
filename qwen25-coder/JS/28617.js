@@ -1,0 +1,1 @@
+switch (type) {\n    case "admin":\n        // admin specific code\n        break;\n    case "user":\n        // user specific code\n        break;\n    default:\n        // default code\n}

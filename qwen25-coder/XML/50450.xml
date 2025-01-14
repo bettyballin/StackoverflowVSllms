@@ -1,0 +1,1 @@
+<class name="Game">\n    <!-- other properties -->\n    <many-to-one name="Event" fetch="join" column="eventId"/>\n</class>

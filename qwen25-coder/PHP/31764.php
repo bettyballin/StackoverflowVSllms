@@ -1,0 +1,1 @@
+$curl = curl_init();\ncurl_setopt($curl, CURLOPT_URL, 'http://rss.news.yahoo.com/rss/topstories');\ncurl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);\n$result = curl_exec($curl);\ncurl_close($curl);\n\n// Output the XML string directly\necho $result;

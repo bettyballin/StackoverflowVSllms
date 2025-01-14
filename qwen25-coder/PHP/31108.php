@@ -1,0 +1,1 @@
+<?php\nheader('Content-Type: application/json');\n\ntry {\n    // Your regular code here\n    echo json_encode(['status' => 'success', 'data' => 'Test']);\n} catch (Exception $e) {\n    // Catch exceptions and send them as JSON\n    echo json_encode(['status' => 'error', 'message' => $e->getMessage()]);\n}\n?>

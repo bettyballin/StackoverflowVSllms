@@ -1,0 +1,1 @@
+<exec program="msbuild">\n    <arg value="YourProject.vbproj" />\n    <arg value="/p:Configuration=Release" />\n    <arg value="/p:Platform=x86" />\n</exec>

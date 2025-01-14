@@ -1,0 +1,1 @@
+# This is for Python 2 compatibility\nresult = 4 / float(100)\nprint(result)  # This will output: 0.04

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<Message>\n    <mmtag name="Version">1.0</mmtag>\n    <mmtag name="ClientID">1001</mmtag>\n    <mmtag name="RefNO">120</mmtag>\n    <mmtag name="Encoding">base64</mmtag>\n    <mmtag name="Type">SMS</mmtag>\n    <mmtag name="Content">hello world</mmtag>\n    <mmtag name="MSISDN">27781010102</mmtag>       \n</Message>

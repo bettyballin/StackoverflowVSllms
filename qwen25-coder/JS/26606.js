@@ -1,0 +1,1 @@
+// Assuming your form has an ID of 'myForm'\nvar formData = Form.serialize('myForm', true); // Serializes form data as key-value pairs\nvar jsonString = Object.toJSON(formData); // Converts the object to a JSON string\n\n// Set the cookie with the serialized data\ndocument.cookie = "form_data=" + encodeURIComponent(jsonString) + "; path=/";

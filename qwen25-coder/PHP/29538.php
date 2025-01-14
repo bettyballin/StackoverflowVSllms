@@ -1,0 +1,1 @@
+class CustomController extends Zend_Controller_Action\n  {\n      public function init()\n      {\n          // Set a breakpoint here or in any method that gets executed after authentication\n      }\n\n      public function indexAction()\n      {\n          // Your logic here\n      }\n  }

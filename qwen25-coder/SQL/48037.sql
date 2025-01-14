@@ -1,0 +1,1 @@
+INSERT INTO yourtable (ID, col1, col2)\nSELECT 2, col1, col2 \nFROM (\n    LOAD DATA INFILE 'yourfile.csv'\n    INTO TABLE temp_table\n    FIELDS TERMINATED BY ','\n    LINES TERMINATED BY '\n'\n    IGNORE 1 ROWS -- if you have a header row\n    (col1, col2)\n) AS subquery;

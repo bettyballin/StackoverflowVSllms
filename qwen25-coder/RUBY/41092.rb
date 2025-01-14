@@ -1,0 +1,1 @@
+require 'openssl'\n\npassphrase = '123456'\nprivate_key_path = 'path/to/private_key.pem'\n\n# Providing passphrase directly\nrsa_key = OpenSSL::PKey::RSA.new(File.read(private_key_path), passphrase)

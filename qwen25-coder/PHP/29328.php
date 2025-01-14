@@ -1,0 +1,1 @@
+[59] => Array(\n    [title] => artistic\n    [path] => features/artistic/\n    [type] => 374\n    [pid] => 54\n    [mid] => 59\n    [hasChildren] => 1\n    [depth] => 2\n    [count] =>  2\n    [children] => Array(\n        [62] => Array(...),\n        [69] => Array(...)\n    )\n)

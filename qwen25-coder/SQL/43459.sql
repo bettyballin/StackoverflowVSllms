@@ -1,0 +1,1 @@
+CREATE TABLE entities (\n       id SERIAL PRIMARY KEY,\n       name VARCHAR(255),\n       dynamic_fields JSONB -- or JSON\n   );

@@ -1,0 +1,1 @@
+use Symfony\Component\VarDumper\Dumper\CliDumper;\n   use Symfony\Component\VarDumper\VarDumper;\n\n   $dumper = new CliDumper();\n   VarDumper::setHandler([$dumper, 'dump']);\n   dump($entity);

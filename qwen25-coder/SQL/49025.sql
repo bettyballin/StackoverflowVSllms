@@ -1,0 +1,1 @@
+SELECT t1.x, t2.y from t1 join t2 on t1.a=t2.a where t1.b=t2.b and t1.c = t2.c;

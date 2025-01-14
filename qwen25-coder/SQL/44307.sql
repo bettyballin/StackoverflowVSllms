@@ -1,0 +1,1 @@
+WITH NumberedRows AS (\n    SELECT id,\n           length,\n           ROW_NUMBER() OVER (ORDER BY id) as rn\n    FROM foo\n)\nSELECT n1.id,\n       n1.length,\n       COALESCE(n1.length - n2.length, n1.length) as difference\nFROM NumberedRows n1\nLEFT JOIN NumberedRows n2 ON n1.rn = n2.rn + 1;

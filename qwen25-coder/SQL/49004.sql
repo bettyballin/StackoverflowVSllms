@@ -1,0 +1,1 @@
+SELECT * \nFROM (\n    SELECT EMPLID, EFFDT, ACTION, ACTION_REASON, ROWNUM AS rnum\n    FROM (\n        SELECT EMPLID, EFFDT, ACTION, ACTION_REASON\n        FROM JOB \n        WHERE emplid = '12345'\n        ORDER BY EMPLID, EFFDT -- Ensure you have an ORDER BY clause to get consistent results\n    ) t\n    WHERE ROWNUM <= 60\n)\nWHERE rnum >= 50;

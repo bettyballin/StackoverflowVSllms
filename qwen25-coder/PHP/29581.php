@@ -1,0 +1,1 @@
+preg_match_all("/\[cid:([^@\]]+)\@/", $string, $matches);\n\necho "<pre>";\nprint_r($matches[1]);\necho "</pre>";

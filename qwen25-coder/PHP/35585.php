@@ -1,0 +1,1 @@
+echo $event->getEditLink()->href;

@@ -1,0 +1,1 @@
+use App\Http\Controllers\PostController;\n\n   Route::resource('posts', PostController::class);

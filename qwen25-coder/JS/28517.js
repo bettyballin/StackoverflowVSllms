@@ -1,0 +1,1 @@
+$.ajax({\n    url: '/my-url/',\n    method: 'GET',\n    dataType: 'json',\n    success: function(data) {\n        // Insert the rendered HTML into your webpage\n        $('#target-div').html(data.html);\n    },\n    error: function(xhr, status, error) {\n        console.error('Error:', error);\n    }\n});

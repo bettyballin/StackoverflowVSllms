@@ -1,0 +1,1 @@
+try {\n       // Database operation\n   } catch (\Exception $e) {\n       error_log('Database operation failed: ' . $e->getMessage());\n       flashMessage("We're sorry, there was an issue processing your request. Please try again later.");\n   }\n   \n   function flashMessage($message) {\n       $_SESSION['flash_message'] = $message;\n   }

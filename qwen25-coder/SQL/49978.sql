@@ -1,0 +1,1 @@
+-- Create a sequence with a specified range\nCREATE SEQUENCE MySequence AS INT\n    START WITH 100\n    INCREMENT BY 1\n    MINVALUE 100\n    MAXVALUE 999\n    CYCLE;\n\n-- Use the sequence in a DEFAULT constraint of a column\nCREATE TABLE MyTable (\n    Id INT PRIMARY KEY DEFAULT (NEXT VALUE FOR MySequence),\n    Name NVARCHAR(50)\n);

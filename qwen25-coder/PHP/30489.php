@@ -1,0 +1,1 @@
+$body = file_get_contents(__DIR__ . '/contents.html');

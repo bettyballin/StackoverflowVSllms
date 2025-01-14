@@ -1,0 +1,1 @@
+CREATE TABLE Table2_External (\n  refId NUMBER,\n  -- Add other required columns here\n)\nORGANIZATION EXTERNAL (\n  TYPE ORACLE_LOADER\n  DEFAULT DIRECTORY data_dir\n  ACCESS PARAMETERS (\n    RECORDS DELIMITED BY NEWLINE\n    FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'\n    SKIP 1 ROWS\n  )\n  LOCATION ('table2.csv')\n);

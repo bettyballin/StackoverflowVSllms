@@ -1,0 +1,1 @@
+<?php\n   class InterfaceClass {\n       // ...\n   }\n\n   class UsesInterfaceClass {\n       function SetObject(InterfaceClass $obj) { \n           // Now $obj must be an instance of InterfaceClass or its subclass.\n       }\n   }\n   \n   class ConcreteClass extends InterfaceClass {\n       // ...\n   }\n   ?>

@@ -1,0 +1,1 @@
+<action name="action1" class="Action1">\n    <result type="redirectAction">\n        <param name="actionName">action2</param>\n        <param name="receivedParam">${param}</param>\n    </result>\n</action>\n\n<action name="action2" class="Action2">\n    <result>/pages/action2.jsp</result>\n</action>

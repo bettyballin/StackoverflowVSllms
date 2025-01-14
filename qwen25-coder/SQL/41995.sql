@@ -1,0 +1,1 @@
+SELECT iot_type\nFROM all_tables\nWHERE table_name = 'YOUR_TABLE_NAME';\n\nSELECT index_name\nFROM all_ind_columns\nWHERE table_name = 'YOUR_TABLE_NAME'\nAND column_position = 1;

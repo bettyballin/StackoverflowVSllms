@@ -1,0 +1,1 @@
+# Gemfile\n   gem 'rom-sql'\n   gem 'rom-repository'\n\n   # Example Usage\n   ROM.setup(:sql, "sqlite:/memory")\n   configuration = ROM::Configuration.new(\n     :sql,\n     "sqlite:/memory"\n   )

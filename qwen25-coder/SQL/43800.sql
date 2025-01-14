@@ -1,0 +1,1 @@
+SELECT name,pwd FROM users WHERE name = 'admin' --' AND pwd = 'anything'

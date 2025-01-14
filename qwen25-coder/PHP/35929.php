@@ -1,0 +1,1 @@
+<?php\n// Use include_once or require_once to avoid redeclaration errors\ninclude_once 'path/to/your-class-file.php';

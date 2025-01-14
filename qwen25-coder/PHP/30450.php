@@ -1,0 +1,1 @@
+$byteValue = 1;\n$socket->send(chr($byteValue));

@@ -1,0 +1,1 @@
+Partial Public Class Customers\n    Implements ICustomersLists\n\n    Private Function GetSomeList() As List(Of String) Implements ICustomersLists.GetSomeList\n        ' Implementation here\n    End Function\n\n    Private Function GetAnotherList() As List(Of Integer) Implements ICustomersLists.GetAnotherList\n        ' Implementation here\n    End Function\nEnd Class

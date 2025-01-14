@@ -1,0 +1,1 @@
+$basePath = "C:\\Documents and Settings\\kasper\\Bureaublad\\24.jpg";\n$fixedPath = str_replace("\\\\", "\\", $basePath);\necho $fixedPath;

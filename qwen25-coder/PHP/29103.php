@@ -1,0 +1,1 @@
+protected static function factory(Zend_Db_Table_Row $row) \n{\n    $class = 'Model_' . ucfirst($row->personType);\n    if (class_exists($class)) {\n        return new $class($row);\n    } else {\n        throw new Exception('Unknown person type: ' . $row->personType);\n    }\n}

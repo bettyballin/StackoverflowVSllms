@@ -1,0 +1,1 @@
+<script type="text/javascript">\n$(document).ready(function()\n{\n    $('#fileUpload').uploadify({\n        'uploader'  : '/Scripts/uploadify.swf',\n        'script'    : '/FileUpload/ReceiveFile?userToken=@ViewBag.UserToken'\n        // other configuration options...\n    });\n});\n</script>

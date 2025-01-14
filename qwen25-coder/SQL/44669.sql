@@ -1,0 +1,1 @@
+-- Assuming you have a table called `items` with columns `item_id` and 40 boolean columns named `var1`, `var2`, ..., `var40`\nSELECT item_id, \n       (var1 = user_choice_var1) + (var2 = user_choice_var2) + ... + (var40 = user_choice_var40) AS score\nFROM items\nORDER BY score DESC\nLIMIT 1;

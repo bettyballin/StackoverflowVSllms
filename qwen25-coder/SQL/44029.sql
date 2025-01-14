@@ -1,0 +1,1 @@
+BACKUP DATABASE [LiveDb]\nTO DISK = 'C:\Backups\LiveDb_Full.bak'\nWITH FORMAT,\n     MEDIANAME = 'SQLServerBackups',\n     NAME = 'Full Backup of LiveDb';

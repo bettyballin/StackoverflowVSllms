@@ -1,0 +1,1 @@
+<html>\n<head>\n    <title><?php echo isset($title) ? html::specialchars($title) : 'Default Title'; ?></title>\n</head>\n<body>\n    <!-- Header here -->\n\n    <?php echo $innerView; ?>\n\n    <!-- Footer here -->\n</body>\n</html>

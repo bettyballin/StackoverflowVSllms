@@ -1,0 +1,1 @@
+-- Ensure OLEDB connection strings and formats are correct for CSV files if using this method\nBULK INSERT TempTable\nFROM 'C:\path\to\file.csv'\nWITH (\n    FIELDTERMINATOR = ',',\n    ROWTERMINATOR = '\n',\n    FIRSTROW = 2 -- Assumes header row is present\n);

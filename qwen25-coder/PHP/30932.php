@@ -1,0 +1,1 @@
+ini_set('soap.wsdl_cache_enabled', 0);\n\n$options = [\n    'cache_wsdl' => WSDL_CACHE_NONE,\n];\n\n$client = new SoapClient('http://your-service-url?wsdl', $options);

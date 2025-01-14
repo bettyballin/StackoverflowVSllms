@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION update_balance(account_id INTEGER, amount NUMERIC)\nRETURNS VOID AS $$\nBEGIN\n    UPDATE accounts SET balance = balance + amount WHERE id = account_id;\nEND;\n$$ LANGUAGE plpgsql;

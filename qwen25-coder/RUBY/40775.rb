@@ -1,0 +1,1 @@
+group :development, :test do\n     gem 'rspec-rails'\n   end

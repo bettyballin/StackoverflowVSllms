@@ -1,0 +1,1 @@
+function summarizeData(data) {\n        const summary = {};\n        data.forEach(row => {\n            // Aggregate logic here\n        });\n        return summary;\n    }

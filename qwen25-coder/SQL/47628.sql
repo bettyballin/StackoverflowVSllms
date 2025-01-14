@@ -1,0 +1,1 @@
+SELECT page.name, COUNT(page_attachment.id) AS attachmentsnumber \nFROM page \nLEFT JOIN page_attachment ON page.id = page_attachment.page_id\nGROUP BY page.id;

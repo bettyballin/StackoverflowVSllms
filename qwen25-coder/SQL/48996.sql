@@ -1,0 +1,1 @@
+ALTER TABLE your_table_name MODIFY COLUMN your_column_name datatype COMMENT 'DEPRECATED';

@@ -1,0 +1,1 @@
+SELECT \n    r.ID AS ShippingRateID, \n    r.Name AS ShippingRateName,\n    CASE \n        WHEN e.ProductID IS NOT NULL THEN e.PriceOverride\n        ELSE r.DefaultPrice\n    END AS ShippingPrice\nFROM \n    shipping r\nLEFT JOIN \n    shippingexceptions e ON r.ID = e.ShippingRateID AND e.ProductID = 48;

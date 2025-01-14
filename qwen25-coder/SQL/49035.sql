@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetRecords\n    @Param INT = NULL  -- Assuming @Param is an integer ID\nAS\nBEGIN\n    IF @Param IS NULL\n        SELECT * FROM Table;\n    ELSE\n        SELECT * FROM Table WHERE id = @Param;\nEND

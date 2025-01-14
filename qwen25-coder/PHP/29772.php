@@ -1,0 +1,1 @@
+$trimmedInput = trim($input);

@@ -1,0 +1,1 @@
+// Example command to execute mysqldump (backup)\n$command = escapeshellcmd('mysqldump -u username -ppassword dbname > db-backup.sql');\nexec($command, $output);\n\n// Example command to execute mysql restore\n$commandRestore = escapeshellcmd('mysql -u username -ppassword dbname < db-backup.sql');\nexec($commandRestore, $output);

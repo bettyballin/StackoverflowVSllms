@@ -1,0 +1,1 @@
+$query = "SELECT * FROM your_table WHERE DATE(dateField1) >= CURDATE() AND DATE(dateField2) >= CURDATE();";\n$result = mysqli_query($connection, $query);\n\nif (!$result) {\n    die('Invalid query: ' . mysqli_error($connection));\n}\n\nwhile ($row = mysqli_fetch_assoc($result)) {\n    echo "dateField1: " . $row['dateField1'] . ", dateField2: " . $row['dateField2'] . "<br>";\n}

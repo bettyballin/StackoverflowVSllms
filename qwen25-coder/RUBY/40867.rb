@@ -1,0 +1,1 @@
+Given 'I have an existing article' do\n  # Reset sequence to ensure no conflicts if running multiple tests\n  reset_article_sequence\n  \n  # Create article with specific id\n  @article = Article.create!(id: 1, name: "Article Title")\nend

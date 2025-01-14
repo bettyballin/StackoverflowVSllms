@@ -1,0 +1,1 @@
+// Client-side WebSocket code\nconst socket = new WebSocket('ws://example.com/socket');\n\nsocket.addEventListener('open', function (event) {\n    socket.send('Hello Server!');\n});\n\nsocket.addEventListener('message', function (event) {\n    console.log('Message from server ', event.data);\n});

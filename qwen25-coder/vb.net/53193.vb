@@ -1,0 +1,1 @@
+AddHandler MyBase.KeyDown, AddressOf Form1_KeyDow

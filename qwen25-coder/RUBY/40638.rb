@@ -1,0 +1,1 @@
+require 'fileutils'\n\nDir.glob('./**/*.tex') do |file|\n  FileUtils.mv(file, file.chomp('.tex'))\nend

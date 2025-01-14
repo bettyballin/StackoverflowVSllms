@@ -1,0 +1,1 @@
+CREATE TRIGGER UpdateTimestamp \n   ON your_table\n   FOR UPDATE  \n   AS   \n   BEGIN\n       SET NOCOUNT ON;\n       UPDATE T \n       SET T.updated_date = GETDATE()\n       FROM inserted I INNER JOIN your_table T \n       ON I.id = T.id;      -- Assuming 'id' is the primary key\n   END

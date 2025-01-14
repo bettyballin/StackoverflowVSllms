@@ -1,0 +1,1 @@
+-- Example SQL command for storing BLOB\n     INSERT INTO documents (id, file_content)\n     VALUES (1, EMPTY_BLOB()) \n     RETURNING file_content INTO :blob_locator;

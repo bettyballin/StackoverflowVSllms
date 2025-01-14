@@ -1,0 +1,1 @@
+ALTER TABLE your_table_name \nADD COLUMN new_column_name INT DEFAULT 0,\nALGORITHM=INPLACE, LOCK=NONE;

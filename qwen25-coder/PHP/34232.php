@@ -1,0 +1,1 @@
+<?php\nif(class_exists('SimpleXMLElement')) {\n    echo "SimpleXML is enabled.";\n} else {\n    echo "SimpleXML is not available.";\n}\n?>

@@ -1,0 +1,1 @@
+<%\nDim objCom\nSet objCom = Server.CreateObject("YourNamespace.YourClass")\nResponse.Write(objCom.YourMethod())\nSet objCom = Nothing\n%>

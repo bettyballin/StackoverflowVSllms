@@ -1,0 +1,1 @@
+// Find an element by its ID and change its content\ndocument.getElementById('yourElementId').innerHTML = 'New Content';\n\n// Or create new elements dynamically\nlet newDiv = document.createElement('div');\nnewDiv.textContent = 'This is a new div';\ndocument.body.appendChild(newDiv);

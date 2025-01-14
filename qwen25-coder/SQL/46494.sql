@@ -1,0 +1,1 @@
+UPDATE your_table\nSET attribute1 = 'new_value',\n    attribute2 = 'another_new_value'\nWHERE id = 123 AND locked = FALSE;

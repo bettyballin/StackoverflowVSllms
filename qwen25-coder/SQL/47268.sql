@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW meas_pnt AS\nSELECT \n    ..., \n    CAST(m.position.SDO_POINT.X AS NUMBER(10, 5)) AS x_coordinate,\n    CAST(m.position.SDO_POINT.Y AS NUMBER(10, 5)) AS y_coordinate\nFROM \n    meas_pnt_tab m;

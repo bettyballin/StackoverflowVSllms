@@ -1,0 +1,1 @@
+UPDATE employees\nSET salary = 70000\nWHERE employee_id = 5;

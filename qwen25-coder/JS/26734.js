@@ -1,0 +1,1 @@
+// Example: Enabling device toolbar in Chrome DevTools via console (though generally done manually)\n   DevToolsAPI.enterMobileMode(true);

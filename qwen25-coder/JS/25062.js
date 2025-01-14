@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $.get("source.html", function(data) {\n        // Use find to search within all descendants of the loaded data\n        $(data).find(".spad").appendTo("#loadArea");\n    });\n});

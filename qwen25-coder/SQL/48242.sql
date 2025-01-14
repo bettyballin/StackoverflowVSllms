@@ -1,0 +1,1 @@
+CREATE TABLE customized_pages (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    page_name VARCHAR(50),\n    content TEXT\n);

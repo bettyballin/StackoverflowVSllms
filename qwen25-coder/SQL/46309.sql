@@ -1,0 +1,1 @@
+SELECT c.character_count, s.name as strip, ch.name as character\nFROM \n    (SELECT character.id, COUNT(*) AS character_count\n     FROM appearances\n     GROUP BY character.id) c\nJOIN appearances a ON c.id = a.character_id\nJOIN strips s ON a.strip_id = s.id\nJOIN characters ch ON a.character_id = ch.id\nWHERE a.date IN (...) AND c.id = ch.id;

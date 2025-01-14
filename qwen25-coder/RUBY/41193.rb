@@ -1,0 +1,1 @@
+# Add this before line 55 in your view file to inspect activity's methods\n<% puts activity.methods.sort.inspect %>

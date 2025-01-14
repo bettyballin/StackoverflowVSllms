@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE update_balance (account_id IN NUMBER, amount IN NUMBER) IS\nBEGIN\n    UPDATE accounts SET balance = balance + amount WHERE id = account_id;\nEND;

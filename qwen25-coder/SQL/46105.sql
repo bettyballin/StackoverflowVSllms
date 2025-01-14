@@ -1,0 +1,1 @@
+SELECT TableA.*, TableB.*\nFROM TableA\nINNER JOIN TableB ON TableA.Column1 = TableB.Column1\n\nUNION ALL\n\nSELECT TableA.*, TableB.*\nFROM TableA\nINNER JOIN TableB ON TableA.Column1 = 0;

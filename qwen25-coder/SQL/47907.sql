@@ -1,0 +1,1 @@
+SELECT VARCHAR_FORMAT(v_date, 'YYYY-MM-DD') FROM your_table;

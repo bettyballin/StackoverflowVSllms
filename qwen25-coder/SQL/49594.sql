@@ -1,0 +1,1 @@
+WITH RankedRecords AS (\n    SELECT \n        RecordID,\n        Row_Number() OVER (Partition BY BusinessName, latitude, longitude, Phone \n                           ORDER BY webaddress DESC, caption1 DESC, caption2 DESC) as rn\n    FROM tl_acxiomimport.dbo.tblacxiomlistings\n)\nDELETE FROM RankedRecords WHERE rn > 1;

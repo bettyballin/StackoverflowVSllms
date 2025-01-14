@@ -1,0 +1,1 @@
+-- Example SQL Script to be executed\nCREATE TABLE TestTable (\n    ID INT PRIMARY KEY,\n    Name NVARCHAR(50)\n);

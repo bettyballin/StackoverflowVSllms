@@ -1,0 +1,1 @@
+# Create a new OHS component with WLST (WebLogic Scripting Tool)\nconnect('weblogic', 'password', 't3://localhost:7001')\nedit()\nstartEdit()\ncd('/')\ncmo.createOracleHTTPServer('ohs_instance_1')\ncmo.createOracleHTTPServer('ohs_instance_2')\nsave()\nactivate(block='true')

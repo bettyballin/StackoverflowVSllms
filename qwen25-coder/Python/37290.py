@@ -1,0 +1,1 @@
+from django.db import transaction\n\ndef reorder_todo_items(project_id, new_order):\n    # new_order should be a list of tuples (item_id, new_order_value)\n    with transaction.atomic():\n        for item_id, order in new_order:\n            ToDoItem.objects.filter(id=item_id).update(order=order)\n\n# Example usage\nreorder_todo_items(1, [(1, 1), (2, 3), (3, 2)])

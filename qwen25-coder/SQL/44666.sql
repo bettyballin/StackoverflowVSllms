@@ -1,0 +1,1 @@
+SELECT \n       DATE_FORMAT(c.`date`, '%Y-%m') AS month,\n       COALESCE(SUM(mt.important_data), 0) as important_data\n   FROM \n       calendar c\n   LEFT JOIN \n       my_table mt ON DATE_FROM_UNIXTIME(mt.date) = c.`date`\n   WHERE \n       c.`date` BETWEEN '2009-01-30' AND '2024-12-31'\n   GROUP BY \n       month\n   ORDER BY \n       month;

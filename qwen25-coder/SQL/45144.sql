@@ -1,0 +1,1 @@
+ALTER TABLE bigbigtable ADD KEY idx_category_element_source_prefix_source_name (category, element_id, source_prefix, source_name);\n    ALTER TABLE bigbigtable ADD KEY idx_category_element_date_updated (category, element_id, date_updated);

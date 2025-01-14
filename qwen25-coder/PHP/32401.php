@@ -1,0 +1,1 @@
+<?php\nfunction hexDump($data) {\n    return bin2hex((string)$data);\n}\n\n$string = "Hello, World!";\necho hexDump($string);\n?>

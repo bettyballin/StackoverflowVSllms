@@ -1,0 +1,1 @@
+<% form_for @post, url: { action: :createInnovation } do |form| %>\n  <fieldset>\n    <p> Title: <br/><%= form.text_field :title, class: "text ui-widget_content ui-corner-all" %> </p>\n    <p> Description: <br/> <%= form.text_area :body, class: "text ui-widget_content ui-corner-all" %> </p>\n  </fieldset>\n<% end %>

@@ -1,0 +1,1 @@
+import subprocess\nimport os\n\n# Use subprocess to spawn the process detaching it from the parent\nwith open(os.devnull, 'w') as devnull:\n    subprocess.Popen(\n        ['../bin/producenotify.py', 'xx'],\n        stdout=devnull,\n        stderr=subprocess.STDOUT,\n        close_fds=True,\n        env=os.environ\n    )

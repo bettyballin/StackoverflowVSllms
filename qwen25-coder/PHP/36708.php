@@ -1,0 +1,1 @@
+function invokeOnArray(array $array, $methodName) {\n    return array_map(function($obj) use ($methodName) {\n        return $obj->$methodName();\n    }, $array);\n}\n\n// Usage:\n$array2 = invokeOnArray($array, 'myMethod');

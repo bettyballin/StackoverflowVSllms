@@ -1,0 +1,1 @@
+trait LoggerTrait {\n    protected $log = [];\n\n    protected function log(string $message) {\n        // Log message\n    }\n}

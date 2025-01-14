@@ -1,0 +1,1 @@
+SELECT \n    DATEADD(MINUTE, DATEDIFF(MINUTE, 0, your_time_column) / 15 * 15, 0) AS RoundedTime\nFROM \n    your_table;

@@ -1,0 +1,1 @@
+const eventSource = new EventSource('/status-stream');\n\neventSource.onmessage = function(event) {\n    const data = JSON.parse(event.data);\n    console.log('Status update:', data);\n    // Update your UI here\n};\n\neventSource.onerror = function(err) {\n    console.error("EventSource failed:", err);\n};

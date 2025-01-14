@@ -1,0 +1,1 @@
+Dim reportDoc As New ReportDocument()\nTry\n    ' Work with your report here.\nFinally\n    reportDoc.Dispose()\nEnd Try

@@ -1,0 +1,1 @@
+<?php\n$alphabets = range('A', 'Z');\nforeach ($alphabets as $letter) {\n    echo $letter . "\n";\n}\n?>

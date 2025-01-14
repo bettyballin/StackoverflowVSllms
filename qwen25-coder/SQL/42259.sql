@@ -1,0 +1,1 @@
+MERGE INTO Table1 AS Target\nUSING Table2 AS Source\nON Target.ID = Source.ID\nWHEN MATCHED THEN\n    UPDATE SET Target.Name = Source.Name;

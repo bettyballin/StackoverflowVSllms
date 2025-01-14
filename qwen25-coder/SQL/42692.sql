@@ -1,0 +1,1 @@
+SELECT * \nFROM your_table \nWHERE posted >= '2009-06-01' AND posted < '2009-07-01';

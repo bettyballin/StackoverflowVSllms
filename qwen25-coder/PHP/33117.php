@@ -1,0 +1,1 @@
+<?php\nsession_start();\n$tmp = "index";\n\necho "A: " . $_SESSION['page_loaded']['index']; // returns 1\necho "B: {$_SESSION['page_loaded'][$tmp]}\n"; // Correct way using curly braces to reference array key variable\n?>

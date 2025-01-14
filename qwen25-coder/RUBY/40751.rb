@@ -1,0 +1,1 @@
+# Define a FactoryBot factory\nFactoryBot.define do\n  factory :user do\n    name { "John Doe" }\n    email { "john.doe@example.com" }\n    password { "password123" }\n  end\nend\n\n# Using the factory in a test\nRSpec.describe User, type: :model do\n  it "is valid with valid attributes" do\n    expect(build(:user)).to be_valid\n  end\nend

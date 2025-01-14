@@ -1,0 +1,1 @@
+If (string1 = string2) AndAlso (string3 = string4) Then\n    'perform operation\nElse\n    'perform another operation\nEnd If

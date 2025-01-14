@@ -1,0 +1,1 @@
+// Example of using mb_strlen instead of strlen to handle Unicode characters properly\n$title = "こんにちは世界";\necho mb_strlen($title, 'UTF-8'); // Outputs 10, not 20 as strlen would

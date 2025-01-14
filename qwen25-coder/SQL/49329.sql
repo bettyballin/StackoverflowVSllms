@@ -1,0 +1,1 @@
+-- Create Linked Server\nEXEC sp_addlinkedserver \n    @server = 'LinkToSourceServer', \n    @srvproduct = 'SQL Server';\n\n-- Security Context for Linked Server\nEXEC sp_addlinkedsrvlogin \n    @rmtsrvname = 'LinkToSourceServer',\n    @useself = 'False',\n    @locallogin = NULL,\n    @rmtuser = 'your_username',\n    @rmtpassword = 'your_password';

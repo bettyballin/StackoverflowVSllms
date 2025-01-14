@@ -1,0 +1,1 @@
+CREATE TABLE Users (\n    UserID int PRIMARY KEY IDENTITY,\n    Username nvarchar(100),\n    Email nvarchar(150) ENCRYPTED WITH (ENCRYPTION_TYPE = DETERMINISTIC, \n                                         ALGORITHM = AEAD_AES_256_CBC_HMAC_SHA_256, \n                                         COLUMN_ENCRYPTION_KEY = CEK_Store)\n);

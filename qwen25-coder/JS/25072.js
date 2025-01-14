@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#numberInput').on('input', function() {\n        var value = $(this).val();\n        if (/^[+]?[0-9]*\.?[0-9]+$/.test(value)) {\n            console.log("Positive number!");\n        } else {\n            console.log("Invalid or negative number!");\n        }\n    });\n});

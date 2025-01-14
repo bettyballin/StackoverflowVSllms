@@ -1,0 +1,1 @@
+if ($sql_id->connect_error) {\n      error_log("Database connection failed: " . $sql_id->connect_error);\n      header('HTTP/1.1 500 Internal Server Error');\n      exit();\n  }

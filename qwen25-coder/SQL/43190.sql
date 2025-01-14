@@ -1,0 +1,1 @@
+SELECT u.*\nFROM user u\nJOIN (\n    SELECT ip\n    FROM user\n    WHERE banned = 1\n    GROUP BY ip\n    HAVING COUNT(*) >= 5\n) AS banned_ips ON u.ip = banned_ips.ip\nWHERE u.banned = 0;

@@ -1,0 +1,1 @@
+SELECT \n    t.a, \n    t.b, \n    COALESCE(sub.x, 'DefaultValue') AS c\nFROM \n    table t\nLEFT OUTER APPLY (\n    SELECT TOP 1 z.x FROM z WHERE z.some_condition = t.some_key\n) sub;

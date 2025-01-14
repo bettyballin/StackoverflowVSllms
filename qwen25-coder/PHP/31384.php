@@ -1,0 +1,1 @@
+$searchParams = [\n    'index' => 'forum_posts',\n    'body'  => [\n        'query' => [\n            'match' => ['post_text' => $searchTerm]\n        ]\n    ]\n];\n\n$queryResponse = $client->search($searchParams);

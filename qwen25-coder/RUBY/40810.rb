@@ -1,0 +1,1 @@
+# post_process.rb\nhtml_content = File.read('output.html')\nhtml_content.gsub!("'", '"')\nFile.write('output_cleaned.html', html_content)

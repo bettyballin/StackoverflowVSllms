@@ -1,0 +1,1 @@
+<%\nIf Request.ServerVariables("HTTPS") = "on" Then\n    Response.Write("YES")\nElse\n    Response.Write("NO")\nEnd If\n%>

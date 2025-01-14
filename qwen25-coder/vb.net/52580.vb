@@ -1,0 +1,1 @@
+<Assembly: System.Reflection.AssemblyKeyFileAttribute("..\YourStrongNameKey.snk")> \n   <Assembly: ComVisible(True)>

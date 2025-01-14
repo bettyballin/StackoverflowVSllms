@@ -1,0 +1,1 @@
+INSERT INTO lngnottranslated (lngId, engDef)\nSELECT lngId, 'Welcome' AS engDef\nFROM lnglngdef;

@@ -1,0 +1,1 @@
+from lxml import etree\n\n# Parse the XML data with lxml\nroot = etree.fromstring(xml_data)\n\n# Iterate over each book in the XML\nfor book in root.findall('book'):\n    title = book.findtext('title')\n    author = book.findtext('author')\n    print(f'Title: {title}, Author: {author}')

@@ -1,0 +1,1 @@
+var currency = '\u20AC'; // Euro symbol\nvar totalSum = 100; // Example value for demonstration\nconsole.log(totalSum + ' ' + currency);

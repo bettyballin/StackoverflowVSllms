@@ -1,0 +1,1 @@
+$ch = curl_init();\n   curl_setopt($ch, CURLOPT_URL, "http://rss.fok.nl/feeds/nieuws");\n   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);\n   curl_setopt($ch, CURLOPT_TIMEOUT, 30); // Timeout after 30 seconds\n   $data = curl_exec($ch);\n   if (curl_errno($ch)) {\n       echo 'Error:' . curl_error($ch);\n   }\n   curl_close($ch);

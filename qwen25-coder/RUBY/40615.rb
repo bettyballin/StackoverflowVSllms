@@ -1,0 +1,1 @@
+resource :countries do\n     collection do\n       get 'search'\n     end\n\n     member do\n       get 'details' # Custom member actions if needed\n     end\n   end

@@ -1,0 +1,1 @@
+Private tags As KeywordTag() = New KeywordTag() {\n    New KeywordTag With {.Tag = "test", .IncidenceCount = 2076},\n    New KeywordTag With {.Tag = "oi", .IncidenceCount = 2052},\n    New KeywordTag With {.Tag = "hmm", .IncidenceCount = 1887},\n    New KeywordTag With {.Tag = "grr", .IncidenceCount = 1414},\n    New KeywordTag With {.Tag = "thanks", .IncidenceCount = 1166}\n}

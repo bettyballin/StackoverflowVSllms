@@ -1,0 +1,1 @@
+# Example Capfile\n   require "capistrano/setup"\n   require "capistrano/deploy"\n\n   set :application, "my_php_app"\n   set :repo_url, "git@github.com:yourusername/my-php-app.git"\n   set :deploy_to, "/var/www/html/#{fetch(:application)}"\n   set :user, 'ec2-user'

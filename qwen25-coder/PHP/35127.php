@@ -1,0 +1,1 @@
+public function _initLayout()\n{\n    $layout = Zend_Layout::startMvc(array(\n        'layoutPath' => APPLICATION_PATH . '/layouts/scripts',\n        'layout' => 'layout'\n    ));\n}

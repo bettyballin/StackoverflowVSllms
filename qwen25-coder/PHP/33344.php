@@ -1,0 +1,1 @@
+$dateString = '2008-02-28T07:56:35.263';\n$dateObject = DateTime::createFromFormat('Y-m-d\TH:i:s.u', $dateString);\n\nif ($dateObject) {\n    echo "Date parsed successfully: " . $dateObject->format('Y-m-d H:i:s.u');\n} else {\n    echo "Failed to parse date.";\n}

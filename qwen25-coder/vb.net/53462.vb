@@ -1,0 +1,1 @@
+Sub ResetTestDatabase()\n         Dim shell\n         Set shell = CreateObject("WScript.Shell")\n         shell.Run "sqlplus yourUsername/yourPassword @reset_script.sql"\n     End Sub

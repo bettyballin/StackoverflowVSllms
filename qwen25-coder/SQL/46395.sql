@@ -1,0 +1,1 @@
+DECLARE @SearchString NVARCHAR(MAX);\nSET @SearchString = 'John Q Smith';\n\nSELECT *\nFROM Customers c\nWHERE EXISTS (\n    SELECT 1\n    FROM dbo.fn_SplitString(@SearchString, ' ') s\n    WHERE CHARINDEX(s.words, c.CustomerName) > 0\n)

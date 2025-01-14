@@ -1,0 +1,1 @@
+require 'irb'\n\ndef some_method\n  # Some code before dropping into IRB\n\n  puts "Dropping into IRB..."\n  binding.irb\nend\n\nsome_method

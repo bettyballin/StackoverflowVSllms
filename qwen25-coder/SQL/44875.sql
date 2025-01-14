@@ -1,0 +1,1 @@
+CREATE FUNCTION [dbo].[SetDBNullNvarChar] \n(\n    @input nvarchar(1000)\n)\nRETURNS nvarchar(1000) -- This is already nullable by default in SQL Server functions\nAS\nBEGIN\n    IF (@input = '' OR @input = '0') -- Note: Changed 0 to '0' for string comparison\n        RETURN NULL\n\n    RETURN @input\nEND

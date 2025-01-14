@@ -1,0 +1,1 @@
+$logData = htmlspecialchars($data);\nfile_put_contents('debug.log', $logData, FILE_APPEND);

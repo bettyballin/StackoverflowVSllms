@@ -1,0 +1,1 @@
+use Microsoft\Graph\Http\GraphRequest;\n   use Microsoft\Graph\Http\GraphParameterCollection;\n\n   $request = new GraphRequest($accessToken, "GET", "/me/messages");\n   $response = $request->execute();

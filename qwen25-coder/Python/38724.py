@@ -1,0 +1,1 @@
+# myapp.py\n   def application(environ, start_response):\n       status = '200 OK'\n       output = b'Hello World!'\n       response_headers = [('Content-type', 'text/plain'),\n                         ('Content-Length', str(len(output)))]\n       start_response(status, response_headers)\n       return [output]

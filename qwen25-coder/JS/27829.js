@@ -1,0 +1,1 @@
+// Bind all links with a namespace\n$('a').on("click.myNamespace", handleLinks);\n\n// Later, unbind only the links within #navbar with that specific namespace\n$('#navbar a').off("click.myNamespace");

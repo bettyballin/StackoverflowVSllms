@@ -1,0 +1,1 @@
+// Example of checking the AJAX URL\nconsole.log( bp_ajax_request.ajaxurl ); // Ensure this logs a valid URL on both dev and live.

@@ -1,0 +1,1 @@
+-- Example of storing raw signals in a RESULTS_SIGNALS table\nCREATE TABLE RESULTS_SIGNALS (\n    signal_id NUMBER PRIMARY KEY,\n    result_id NUMBER,\n    raw_signal BLOB,\n    FOREIGN KEY (result_id) REFERENCES RESULTS(result_id)\n);

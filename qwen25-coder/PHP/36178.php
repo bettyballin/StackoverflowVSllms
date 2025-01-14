@@ -1,0 +1,1 @@
+<?php\necho $_SERVER['REMOTE_ADDR'];\n?>

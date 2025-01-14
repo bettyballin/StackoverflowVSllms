@@ -1,0 +1,1 @@
+from faker import Faker\nimport random\n\nfake = Faker()\n\ndef generate_test_data(size_kb):\n    size_bytes = size_kb * 1024\n    data = ''\n    while len(data) < size_bytes:\n        data += fake.text(max_nb_chars=100)\n    return data[:size_bytes]\n\n# Generate a 5KB text file\ntest_data = generate_test_data(5)\n\nwith open('test_data.txt', 'w') as f:\n    f.write(test_data)

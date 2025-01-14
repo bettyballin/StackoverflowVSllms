@@ -1,0 +1,1 @@
+declare @s varchar(100);\nset @s = '';\nselect @s = @s + Sub.s\nfrom (\n    select s from #test order by dbo.wtfunc(s)\n) as Sub;\nselect @s;

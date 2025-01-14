@@ -1,0 +1,1 @@
+def recent_posts_on_class\n  Post.where(author_id: self.id).order(created_at: :asc).limit(5)\nend\n\ndef all_recent_posts_on_class\n  Post.order(created_at: :asc).limit(5)\nend

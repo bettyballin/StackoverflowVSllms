@@ -1,0 +1,1 @@
+SELECT \n    C.ID,\n    C.NAME,\n    GROUP_CONCAT(P.VALUE SEPARATOR '/') AS SPECIALTYPE\nFROM \n    CardProperty CP\nJOIN \n    Property P ON CP.PropertyID = P.ID\nJOIN \n    Card C ON CP.CardID = C.ID\nWHERE \n    P.Keyword = 'SpecialType'\nGROUP BY \n    C.ID, C.NAME;

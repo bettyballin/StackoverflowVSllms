@@ -1,0 +1,1 @@
+$User = new User();\nif ($User->loggedin) header('Location: MyAccountNEW.php');

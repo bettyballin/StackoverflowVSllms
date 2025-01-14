@@ -1,0 +1,1 @@
+SELECT CASE \n       WHEN TRY_CONVERT(FLOAT, Replace(Column1, '"', '')) IS NOT NULL \n       THEN TRY_CONVERT(FLOAT, Replace(Column1, '"', ''))\n       ELSE 0\n   END AS NumericValue\nFROM YourTable;

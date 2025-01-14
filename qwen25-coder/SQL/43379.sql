@@ -1,0 +1,1 @@
+-- Example SQL for creating an audit log table\n   CREATE TABLE customer_audit (\n       id NUMBER PRIMARY KEY,\n       operation CHAR(1),\n       changed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n       old_values CLOB,\n       new_values CLOB\n   );

@@ -1,0 +1,1 @@
+SELECT DISTINCT YEAR(your_date_column) AS year \nFROM your_table;

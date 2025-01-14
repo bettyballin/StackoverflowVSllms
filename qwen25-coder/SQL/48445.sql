@@ -1,0 +1,1 @@
+-- Using JOIN\nSELECT a.*\nFROM TableA a\nJOIN TableB b ON a.ID = b.AID;\n\n-- Using IN with a subquery\nSELECT a.*\nFROM TableA a\nWHERE a.ID IN (SELECT AID FROM TableB);

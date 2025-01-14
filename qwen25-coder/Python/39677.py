@@ -1,0 +1,1 @@
+import textwrap\n   text = "This is a long string that we want to wrap after every 7 characters"\n   result = textwrap.fill(text, width=7)\n   print(result)

@@ -1,0 +1,1 @@
+import itertools\n\ndef permutations(lst):\n    return list(itertools.permutations(lst))\n\n# Example usage:\nprint(permutations([]))        # []\nprint(permutations([1]))       # [(1,)]\nprint(permutations([1, 2]))    # [(1, 2), (2, 1)]\nprint(permutations([1, 2, 3])) # [(1, 2, 3), (1, 3, 2), (2, 1, 3), (2, 3, 1), (3, 1, 2), (3, 2, 1)]

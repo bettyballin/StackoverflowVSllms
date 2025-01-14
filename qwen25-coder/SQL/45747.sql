@@ -1,0 +1,1 @@
+SELECT \n    ID,\n    AssnDate,\n    AssnTxt,\n    MAX(Sally) AS Sally,\n    MAX(Ted) AS Ted,\n    MAX(Bob) AS Bob\nFROM \n    vwGrades\nGROUP BY \n    ID, \n    AssnDate, \n    AssnTxt;

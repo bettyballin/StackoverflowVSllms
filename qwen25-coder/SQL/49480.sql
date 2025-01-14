@@ -1,0 +1,1 @@
+ALTER TABLE log ADD INDEX idx_type_playdate_email (type, play_date, email);

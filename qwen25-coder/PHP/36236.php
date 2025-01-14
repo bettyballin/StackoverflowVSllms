@@ -1,0 +1,1 @@
+// Assuming $conn is your database connection handle\n$sql = "INSERT INTO your_table (column1, column2) VALUES ('value1', 'value2') RETURNING id";\n$result = pg_query($conn, $sql);\n\nif ($result) {\n    $row = pg_fetch_row($result);\n    $inserted_id = $row[0];\n    // Use the inserted_id as needed\n} else {\n    // Handle error\n}

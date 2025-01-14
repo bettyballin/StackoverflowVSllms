@@ -1,0 +1,1 @@
+<?php\n$request_uri = $_SERVER['REQUEST_URI'];\nif ($request_uri == '/') {\n    $controller = new IndexController();\n    $controller->homeAction();\n} else {\n    echo "404 Not Found";\n}\n?>

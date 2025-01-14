@@ -1,0 +1,1 @@
+CREATE INDEX idx_document_data ON documents USING GIST (data);

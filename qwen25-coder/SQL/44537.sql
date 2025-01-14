@@ -1,0 +1,1 @@
+UPDATE Address\nSET Street_Name = \n    (SELECT unnest(regexp_matches(Street_Address_1, '\d+\s+(\w+)\s+(Street|Avenue|Road|Boulevard|Lane|Court|Terrace|Place)')))\nWHERE Street_Name IS NULL;

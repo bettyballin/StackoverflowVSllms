@@ -1,0 +1,1 @@
+-- SQL Query Example\nSELECT a \nFROM table \nWHERE c = 1 AND d = 2;

@@ -1,0 +1,1 @@
+-- Replace 'YourTraceTable' with the name of your table containing the trace data\nSELECT TextData, EventClass, StartTime, EndTime, SPID, TransactionID\nFROM YourTraceTable\nWHERE TransactionID = <YourTransactionID>\nORDER BY StartTime;

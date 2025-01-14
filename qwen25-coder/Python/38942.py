@@ -1,0 +1,1 @@
+import os\nfrom glob import glob\n\n# Get list of all files in a directory matching a pattern\nfiles = glob('path/to/directory/*')\n\n# Sort the list based on the last modified time, newest first\nsorted_files = sorted(files, key=os.path.getmtime)\n\nfor file_path in sorted_files:\n    print(file_path)

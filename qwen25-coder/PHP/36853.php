@@ -1,0 +1,1 @@
+<?php\n$dbconn = pg_connect("host=localhost dbname=mydb user=myuser password=mypass");\n\nif (!$dbconn) {\n    echo "An error occurred.\n";\n    exit;\n}\n\n$result = pg_query($dbconn, "SELECT * FROM my_table");\n\nwhile ($row = pg_fetch_row($result)) {\n    echo "Row: $row[0] $row[1]\n";\n}\n\npg_free_result($result);\npg_close($dbconn);\n?>

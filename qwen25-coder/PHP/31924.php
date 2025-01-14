@@ -1,0 +1,1 @@
+// Example configuration in wp-config.php for WordPress Multisite\n   define( 'WP_ALLOW_MULTISITE', true );

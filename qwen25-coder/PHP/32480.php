@@ -1,0 +1,1 @@
+shell_exec("nohup php doTask.php $arg1 $arg2 $arg3 > /dev/null 2>&1 &");

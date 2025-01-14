@@ -1,0 +1,1 @@
+def find_user\n  # Ensure the session is securely stored and encrypted.\n  session[:user_id] ||= create_new_anonymous_user.id\n  User.find(session[:user_id])\nend\n\nprivate\n\ndef create_new_anonymous_user\n  User.create(is_anonymous: true, name: 'Anonymous')\nend

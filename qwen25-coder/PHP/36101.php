@@ -1,0 +1,1 @@
+<?php\n   // Include configuration file\n   require_once 'path/to/config.php';\n\n   // Use $EL variable as needed\n   echo "Blah blah blah{$EL}";

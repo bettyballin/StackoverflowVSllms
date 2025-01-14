@@ -1,0 +1,1 @@
+module Admin\n  module Blog\n    class EntriesController < ApplicationController\n      def index\n        @blog_entries = ::Blog::Entry.find(:all)\n      end\n    end\n  end\nend

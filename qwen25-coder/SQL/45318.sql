@@ -1,0 +1,1 @@
+CREATE TABLE DebugLog (\n    ID INT IDENTITY(1,1) PRIMARY KEY,\n    Username NVARCHAR(256),\n    RunTime DATETIME\n);

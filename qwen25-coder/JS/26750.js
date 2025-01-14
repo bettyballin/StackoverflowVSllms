@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $.getJSON('/Localization/GetLocalizedScript', function(data) {\n        window.localization = data;\n    });\n});

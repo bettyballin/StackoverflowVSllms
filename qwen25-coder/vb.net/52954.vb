@@ -1,0 +1,1 @@
+Private Sub SetContactNumber(sender As Object, e As EventArgs)\n    Dim textBox As TextBox = CType(sender, TextBox)\n    Dim recordID As String = CType(textBox.Tag, String)\n    \n    ' Use the recordID as needed, for example:\n    MessageBox.Show("The control with Record ID " & recordID & " has gained focus.")\nEnd Sub

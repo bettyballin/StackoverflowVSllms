@@ -1,0 +1,1 @@
+SELECT foo.a, bar.c\nFROM foo\nJOIN bar ON foo.a = bar.a;

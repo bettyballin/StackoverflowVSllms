@@ -1,0 +1,1 @@
+// Use a build tool like Webpack or Parcel to automatically compress your files.\n// Example in Webpack configuration:\nmodule.exports = {\n  optimization: {\n    minimize: true,\n    minimizer: [new TerserPlugin()], // TerserPlugin is used for minifying JavaScript\n  },\n};

@@ -1,0 +1,1 @@
+USE CMSNET_DEV;\nGO\n\n-- Grant SELECT permissions on the specific table to ReadUser\nGRANT SELECT ON [dbo].[hbl_clnt_cat] TO [ReadUser];\nGO

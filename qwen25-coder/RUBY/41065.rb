@@ -1,0 +1,1 @@
+results = User.select(:name, :age).map(&:attributes)\n\n# results is now an array of hashes where each hash represents a row with columns in the order specified by your query.

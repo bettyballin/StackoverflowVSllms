@@ -1,0 +1,1 @@
+var content = $('.leftpanel_keywords').text();\nconsole.log(content);

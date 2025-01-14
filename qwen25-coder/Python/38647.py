@@ -1,0 +1,1 @@
+myDict = {'bubba': 'some_value', ...}\nmyFunction(myDict, 'bubba')

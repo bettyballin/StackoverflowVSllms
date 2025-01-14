@@ -1,0 +1,1 @@
+SELECT \n       numerator / NULLIF(denominator, 0) AS result\n   FROM your_table\n   WHERE denominator IS NOT NULL;

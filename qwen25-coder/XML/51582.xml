@@ -1,0 +1,1 @@
+# Create or edit the VM XML file and set vcpus to 8\n   <vcpu placement='static'>8</vcpu>

@@ -1,0 +1,1 @@
+CREATE INDEX idx_pageid ON userdata(pageid);\nCREATE INDEX idx_pagegroupid ON pagegroup(pagegroupid);

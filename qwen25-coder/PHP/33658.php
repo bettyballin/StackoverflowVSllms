@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\n// Check if trans sid is enabled\nif (!ini_get('session.use_cookies')) {\n    ini_set('session.use_trans_sid', true);\n}\n\n// Example usage in a link\n$url = htmlspecialchars($_SERVER['PHP_SELF']);\necho "<a href=\"$url\">Click Here</a>";\n?>

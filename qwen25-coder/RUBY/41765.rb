@@ -1,0 +1,1 @@
+class Animal\n  def eat\n    "Eating food"\n  end\nend\n\nmodule Flaggable\n  def flag\n    "#{self.class} is flagged"\n  end\nend\n\nclass Dog < Animal\n  include Flaggable\n\n  def bark\n    "Woof!"\n  end\nend\n\ndog = Dog.new\nputs dog.eat      # => Eating food\nputs dog.bark     # => Woof!\nputs dog.flag     # => Dog is flagged

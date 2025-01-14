@@ -1,0 +1,1 @@
+$site = "http://www.google.com";\n\n// Use @ to suppress the warning (optional but can be useful in production)\n$content = @file_get_contents($site);\n\nif ($content === FALSE) {\n    // Handle the error condition\n    echo "Failed to retrieve content from $site.";\n} else {\n    // Content was successfully retrieved\n    echo $content;\n}

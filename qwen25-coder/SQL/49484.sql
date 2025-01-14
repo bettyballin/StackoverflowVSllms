@@ -1,0 +1,1 @@
+SELECT name, plsql_code_type FROM user_plsql_object_settings WHERE name = 'YOUR_PACKAGE_NAME';

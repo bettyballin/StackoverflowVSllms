@@ -1,0 +1,1 @@
+<!-- Example of setting up client and server side caching for static content -->\n   <configuration>\n     <system.webServer>\n       <staticContent>\n         <clientCache cacheControlMode="UseMaxAge" cacheControlMaxAge="15.00:00:00"/>\n         <serverRuntime enabled="true" frequentHitThreshold="1" />\n       </staticContent>\n     </system.webServer>\n   </configuration>

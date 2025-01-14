@@ -1,0 +1,1 @@
+SELECT t.memId, userDetails.title, userDetails.lname \nFROM (\n    SELECT CONVERT(int, SUBSTRING(accountingTab.id, PATINDEX('%[0-9]%', accountingTab.id), 999)) AS memId\n    FROM accountingTab\n) AS t\nINNER JOIN (SELECT id, title, last AS lname FROM memDetTab) AS userDetails ON t.memId = userDetails.id;

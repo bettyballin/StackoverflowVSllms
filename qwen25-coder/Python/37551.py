@@ -1,0 +1,1 @@
+def log_messages(*messages):\n    """Log any number of messages."""\n    for message in messages:\n        print("Log:", message)\n\n# Usage is flexible:\nlog_messages("Starting process")\nlog_messages("Error", "Warning: Low disk space")

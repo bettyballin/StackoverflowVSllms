@@ -1,0 +1,1 @@
+<?php\n\nuse SebastianBergmann\Diff\Differ;\n\n$old = "Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.";\n$new = "Lorem ipsum dolor sit amet,\nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";\n\n$differ = new Differ;\necho $differ->diff($old, $new);

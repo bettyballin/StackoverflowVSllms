@@ -1,0 +1,1 @@
+private $radioDecorators = array(\n    'Label',\n    'ViewHelper',\n    array(array('data' => 'HtmlTag'), array('tag' => 'div', 'class' => 'radio')),\n    // Modify the row decorator to use a span tag or remove it\n    array(array('row' => 'HtmlTag'), array('tag' => 'span')), // Changed from li to span\n);

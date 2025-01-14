@@ -1,0 +1,1 @@
+class ContactForm\n  attr_accessor :subject, :message\n\n  def initialize(params = {})\n    @subject = params[:subject]\n    @message = params[:message]\n  end\n\n  def valid?\n    errors.empty?\n  end\n\n  def errors\n    @errors ||= []\n    @errors << "Subject can't be blank" if subject.blank?\n    @errors << "Message can't be blank" if message.blank?\n    @errors\n  end\nend

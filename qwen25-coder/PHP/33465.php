@@ -1,0 +1,1 @@
+<?php \n    print link_to('Register', 'register/index', array('absolute' => true, 'query_string' => '/trevelyan.alumni/register'));\n?>

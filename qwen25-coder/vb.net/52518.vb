@@ -1,0 +1,1 @@
+Dim Allow As Boolean = CurrentPage.Roles.Select(Function(r) r.Id).Intersect(CurrentUser.Roles.Select(Function(r) r.Id)).Any()

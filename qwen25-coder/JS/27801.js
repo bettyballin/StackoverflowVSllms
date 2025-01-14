@@ -1,0 +1,1 @@
+document.querySelectorAll('P[ALIGN="LEFT"] FONT').forEach(function(fontTag) {\n    if (fontTag.innerHTML.trim().length === 0) {\n        fontTag.innerHTML = '<br />';\n    }\n});

@@ -1,0 +1,1 @@
+$salt = 'your_secret_salt_here';\n$uniqueIdComponent = $salt . uniqid(microtime(true), true); // Combines time with microsecond precision and a salt for high entropy.\n$userIdHash = hash('sha256', $uniqueIdComponent);

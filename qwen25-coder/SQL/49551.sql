@@ -1,0 +1,1 @@
+-- Creating a new schema\n  CREATE SCHEMA myschema;\n  \n  -- Creating a table within the new schema\n  CREATE TABLE myschema.mytable (\n      id SERIAL PRIMARY KEY,\n      name TEXT NOT NULL\n  );

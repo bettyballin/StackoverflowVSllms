@@ -1,0 +1,1 @@
+Shoes.app{\n  para "Text", :fill => rgba(1.0, 0.0, 0.0, 0.5), :size => 100\n}

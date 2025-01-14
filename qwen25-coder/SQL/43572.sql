@@ -1,0 +1,1 @@
+CREATE INDEX idx_car_version_time ON Cars(CarId, VersionTime);\nCREATE INDEX idx_wheel_version_time ON Wheels(WheelId, VersionTime);

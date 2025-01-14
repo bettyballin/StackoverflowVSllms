@@ -1,0 +1,1 @@
+from bs4 import BeautifulSoup\n\nhtml_content = '''<HTML><BODY>Some content here.</BODY></HTML>'''\n\n# Parse the HTML\nsoup = BeautifulSoup(html_content, 'html.parser')\n\n# Get the text within body tags\nbody_content = soup.body.get_text() if soup.body else "No body tag found."\n\nprint(body_content)

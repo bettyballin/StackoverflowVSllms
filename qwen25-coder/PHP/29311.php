@@ -1,0 +1,1 @@
+$xmlData = <<<XML\n<root>\n    <person>\n        <name>John Doe</name>\n        <age>30</age>\n    </person>\n    <person>\n        <name>Jane Doe</name>\n        <age>10</age>\n    </person>\n</root>\nXML;\n\n$xml = simplexml_load_string($xmlData);\n$names = $xml->xpath('//name');\necho (string) $names[0]; // Output: John Doe

@@ -1,0 +1,1 @@
+<Obsolete("This method is obsolete. Use NewMethod() instead.", False)>\nPublic Sub OldMethod()\n    ' Method implementation\nEnd Sub\n\nPublic Sub NewMethod()\n    ' Implementation of the new method\nEnd Sub

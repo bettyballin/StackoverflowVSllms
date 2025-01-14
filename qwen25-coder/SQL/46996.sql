@@ -1,0 +1,1 @@
+DECLARE @MySpExecuteSql NVARCHAR(MAX) = \n'exec sp_executesql \nN''SELECT * FROM dbo.MyTable WHERE StatusId=@myStatus'', \nN''@myStatus tinyint'',\n@ myStatus =1';\n\nEXEC ConvertSpExecuteSqlToQuery @Input = @MySpExecuteSql;

@@ -1,0 +1,1 @@
+SELECT v1.Id\nFROM ViewEntity v1\nLEFT JOIN FETCH v1.SourceView v2\nORDER BY v1.Positio

@@ -1,0 +1,1 @@
+SELECT SSLOTMAK, \n       SSLOTMDL, \n       SSLOTYER, \n       CAST(SUM(SSCOUNT) AS CHAR(10)) AS SUM_SSOUNT  \nFROM prqhdrss                                              \nGROUP BY SSLOTMAK, SSLOTMDL, SSLotyer \nHAVING SUM(SSCOUNT) > 4 \nORDER BY SSLOTMAK, SSLOTMDL, SSLOTYER

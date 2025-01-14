@@ -1,0 +1,1 @@
+-- Example of creating a table in MySQL\n   CREATE TABLE MyTable (\n       ID INT PRIMARY KEY,\n       Name VARCHAR(255) NOT NULL\n   );

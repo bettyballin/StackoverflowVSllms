@@ -1,0 +1,1 @@
+# Get unique seconds from each tuple\ns = {t[1] for t in l}\n\nprint(s)  # Output: {'b', 'e'}

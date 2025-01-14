@@ -1,0 +1,1 @@
+require_once 'shared_file.php';

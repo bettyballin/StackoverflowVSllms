@@ -1,0 +1,1 @@
+CREATE TABLE answered_questions (\n    user_id INT NOT NULL,\n    question_id INT NOT NULL,\n    PRIMARY KEY (user_id, question_id),\n    FOREIGN KEY (user_id) REFERENCES users(user_id),\n    FOREIGN KEY (question_id) REFERENCES questions(question_id)\n);

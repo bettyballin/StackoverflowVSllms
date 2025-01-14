@@ -1,0 +1,1 @@
+echo "Current memory usage: " . memory_get_usage() / 1024 . " KB\n";

@@ -1,0 +1,1 @@
+function countImagesInDirectory($dir) {\n    // Use glob to find all image files in the directory\n    $images = glob("$dir/*.{jpg,jpeg,png,gif,bmp}", GLOB_BRACE);\n    // Return the count of images found\n    return count($images);\n}

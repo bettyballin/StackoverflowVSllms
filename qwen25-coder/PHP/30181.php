@@ -1,0 +1,1 @@
+error_log('Before: ' . print_r($_SESSION, true));\n    $template = unserialize($_SESSION['template']);\n    $prodid = $_GET['product_id'];\n    $template->addItem($prodid);\n    echo var_dump($template->getItems());\n    $_SESSION['template'] = serialize($template);\n    error_log('After: ' . print_r($_SESSION, true));

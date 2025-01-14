@@ -1,0 +1,1 @@
+SELECT DISTINCT \n    CONVERT(NVARCHAR(MAX), MEMO_TEXT) AS MemoTextConverted\nFROM \n    YourTableName;

@@ -1,0 +1,1 @@
+import requests\n\n   def get_timezone(ip_address):\n       response = requests.get(f'http://ip-api.com/json/{ip_address}')\n       data = response.json()\n       return data.get('timezone')\n\n   # Example usage\n   # timezone = get_timezone(user_ip)

@@ -1,0 +1,1 @@
+ALTER DATABASE dbname CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci;\nALTER TABLE tablename CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;

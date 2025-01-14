@@ -1,0 +1,1 @@
+SELECT \n    t1.name,\n    (SELECT COUNT(*) + 1 FROM your_table AS t2 WHERE t2.points > t1.points) AS rank\nFROM \n    your_table AS t1\nWHERE \n    t1.id = 3;

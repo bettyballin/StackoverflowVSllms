@@ -1,0 +1,1 @@
+Private _item As Collection(Of Customer)\n\nPublic Function GetAllCustomers() As Collection(Of Customer)\n    If _item Is Nothing Then\n        _item = LoadCustomersFromDAL()\n    End If\n    Return _item\nEnd Function\n\nPrivate Function LoadCustomersFromDAL() As Collection(Of Customer)\n    ' Logic to load customers from the data access layer.\nEnd Functio

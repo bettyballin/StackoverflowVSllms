@@ -1,0 +1,1 @@
+$applicationSchema = 'YOUR_SCHEMA_PREFIX'; // Replace with your actual schema prefix\n$sql = "SELECT view_name AS name FROM all_views WHERE owner = '{$applicationSchema}' \n        UNION SELECT table_name AS name FROM all_tables WHERE owner = '{$applicationSchema}'";\n\nif (!$this->execute($sql)) {\n    return false;\n}

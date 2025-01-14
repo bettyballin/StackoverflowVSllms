@@ -1,0 +1,1 @@
+DELETE FROM Customers WHERE idCustomer IN (SELECT OldId FROM CustomerMergeMap);

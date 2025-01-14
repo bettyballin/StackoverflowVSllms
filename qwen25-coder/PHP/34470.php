@@ -1,0 +1,1 @@
+$output = [];\n    $return_var = 0;\n    exec('/usr/local/bin/convert input.pdf output.jpg 2>&1', $output, $return_var);\n    echo "<pre>";\n    print_r($output); // Displays error messages if any\n    echo "Return code: " . $return_var; // Useful to see if the command executed successfully (0 on success)\n    echo "</pre>";

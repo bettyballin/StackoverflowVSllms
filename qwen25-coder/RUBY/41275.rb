@@ -1,0 +1,1 @@
+# Example in Ruby on Rails\n   def employee_name(schedule)\n     schedule.assignment&.employee&.name || 'No Assignment'\n   end

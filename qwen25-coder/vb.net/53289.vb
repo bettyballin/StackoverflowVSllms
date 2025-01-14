@@ -1,0 +1,1 @@
+Dim csv As String = Textbox1.Text\nDim listOfStrings As New List(Of String)(csv.Split(","c, StringSplitOptions.RemoveEmptyEntries))

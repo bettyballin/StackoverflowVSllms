@@ -1,0 +1,1 @@
+Public Function GetDefault(Of T)() As T\n    Return If(TypeOf DirectCast(New Object(), T).GetType().IsValueType, CType(0, T), Nothing)\nEnd Functio

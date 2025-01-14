@@ -1,0 +1,1 @@
+Dim duplicates = From d In MyDataTable\n                 Group By Key = d("LookupValue").ToString() Into g = Group\n                 Where g.Select(Function(x) x("SortOrder")).Distinct().Count() > 1\n                 Select Key\n\nFor Each duplicate In duplicates\n    'Found a LookupValue with different SortOrders'\nNext

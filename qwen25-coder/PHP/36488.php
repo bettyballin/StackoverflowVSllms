@@ -1,0 +1,1 @@
+$key = 1; // example key\necho array('a', 'b', 'c')[$key]; // outputs: b

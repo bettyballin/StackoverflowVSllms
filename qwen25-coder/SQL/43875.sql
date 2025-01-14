@@ -1,0 +1,1 @@
+SELECT DATEDIFF(day, datefrom, dateto) AS booking_days\nFROM bookings;

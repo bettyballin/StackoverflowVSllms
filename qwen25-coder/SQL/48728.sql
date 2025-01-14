@@ -1,0 +1,1 @@
+ALTER TABLE your_table\n   ADD CONSTRAINT fk_created_by FOREIGN KEY (created_by) REFERENCES user (user_id);\n\n   ALTER TABLE your_table\n   ADD CONSTRAINT fk_updated_by FOREIGN KEY (updated_by) REFERENCES user (user_id);

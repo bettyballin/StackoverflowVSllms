@@ -1,0 +1,1 @@
+impdp username/password@database directory=DATA_PUMP_DIR dumpfile=data_dump.dmp \\n    TABLES=(schema.table1, schema.table2) \\n    EXCLUDE=TABLE_DATA:"IN (table3, table4)"

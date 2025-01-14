@@ -1,0 +1,1 @@
+// load_data.php\n<?php\n$file = $_GET['file'];\n$data = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);\n$parsedData = [];\nforeach ($data as $line) {\n    $parts = preg_split('/\s+/', trim($line));\n    if (count($parts) == 3) {\n        $parsedData[] = [$parts[0], $parts[1], $parts[2]];\n    }\n}\necho json_encode($parsedData);\n?>

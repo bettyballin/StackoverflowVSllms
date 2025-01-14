@@ -1,0 +1,1 @@
+$sql_id = new mysqli($server, $user, $pwd);\n  if ($sql_id->connect_error) {\n      trigger_error("[Error connecting to database server]: " . $sql_id->connect_error, E_USER_ERROR);\n  }

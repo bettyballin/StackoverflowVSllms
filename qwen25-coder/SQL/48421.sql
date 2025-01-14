@@ -1,0 +1,1 @@
+WITH RankedFoods AS (\n    SELECT\n        a.id AS aid,\n        b.id AS bid,\n        ROW_NUMBER() OVER (PARTITION BY a.id ORDER BY b.sort_key DESC) as rn\n    FROM A a\n    JOIN B b ON a.id = b.aid\n    -- Optionally add WHERE clause here to filter specific people\n)\nSELECT \n    rf.aid AS person_id,\n    rf.bid AS food_id\nFROM RankedFoods rf\nWHERE rf.rn <= 5;

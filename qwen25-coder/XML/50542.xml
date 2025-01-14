@@ -1,0 +1,1 @@
+<system.serviceModel>\n  <services>\n    <service name="YourServiceNamespace.YourService">\n      <host>\n        <throttling maxConcurrentCalls="100"\n                     maxConcurrentInstances="50"\n                     maxConcurrentSessions="20"/>\n      </host>\n      <!-- Other service configuration -->\n    </service>\n  </services>\n</system.serviceModel>

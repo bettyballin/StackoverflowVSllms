@@ -1,0 +1,1 @@
+procedure dbo.p_get_user_by_username(\n    @username      nvarchar(256)\nas\nbegin\n    select\n        u.username\n        ,u.email\n        --,etc\n    from\n        sampleUserTable u\n    where\n        LOWER(LTRIM(RTRIM(u.username))) = LOWER(LTRIM(RTRIM(@username)))\nend

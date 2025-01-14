@@ -1,0 +1,1 @@
+' Declare the DLL function\nPrivate Declare Function Inp Lib "inpout32.dll" (ByVal PortAddress As Integer) As Byte\n\nSub ReadFromParallelPort()\n    Dim portAddress As Integer = &H379  ' Status register for SPP mode\n    Dim dataRead As Byte\n\n    dataRead = Inp(portAddress)\n    MsgBox("Data read: " & dataRead)\nEnd Sub

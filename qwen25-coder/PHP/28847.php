@@ -1,0 +1,1 @@
+function sum($a, $b, $c) {\n    return $a + $b + $c;\n}\n\n$values = [1, 2, 3];\necho sum(...$values); // Outputs: 6

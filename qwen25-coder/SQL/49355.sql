@@ -1,0 +1,1 @@
+SELECT \n    session_id,\n    login_name,\n    client_interface_name,\n    program_name,\n    host_name\nFROM sys.dm_exec_sessions;

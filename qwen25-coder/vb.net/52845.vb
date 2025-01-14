@@ -1,0 +1,1 @@
+<%\nOn Error Resume Next\nstrServerName = Request.ServerVariables("SERVER_NAME")\nIf Err.Number <> 0 Then\n    Response.Write("Error: " & Err.Description)\nElse\n    strServerName = UCase(strServerName)\n    Response.Write("Server Name: " & strServerName)\nEnd If\n%>

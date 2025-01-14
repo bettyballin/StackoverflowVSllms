@@ -1,0 +1,1 @@
+CREATE TABLE Files (\n      FileID INT PRIMARY KEY,\n      FileName VARCHAR(255) NOT NULL\n  );

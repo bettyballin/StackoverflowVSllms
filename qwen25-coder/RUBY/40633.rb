@@ -1,0 +1,1 @@
+# config/routes.rb\n   patch 'items/:id/update_status', to: 'items#update_status'

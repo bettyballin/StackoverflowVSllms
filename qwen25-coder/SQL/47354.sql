@@ -1,0 +1,1 @@
+sp_configure 'show advanced options', 1;\nGO\nRECONFIGURE;\nGO\nsp_configure 'Ole Automation Procedures', 1;\nGO\nRECONFIGURE;\nGO

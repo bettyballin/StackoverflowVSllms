@@ -1,0 +1,1 @@
+-- Example of using standard SQL for better portability\nSELECT column_name\nFROM table_name\nWHERE condition;

@@ -1,0 +1,1 @@
+from lxml import etree\n\n# Load the XML document and XSLT stylesheet\ndoc = etree.parse('document.xhtml')\nxslt_root = etree.parse('transform.xsl')\ntransform = etree.XSLT(xslt_root)\n\n# Perform transformation\nresult_tree = transform(doc)\n\n# Save or print transformed document\nprint(etree.tostring(result_tree, pretty_print=True).decode())

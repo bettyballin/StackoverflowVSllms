@@ -1,0 +1,1 @@
+import pandas as pd\n\n# Sample data for the new row\nnew_row = {'Column1': 'value1', 'Column2': 'value2', 'Column3': 'value3'}\n\n# Adding the new row to the DataFrame\ndf = df.append(new_row, ignore_index=True)

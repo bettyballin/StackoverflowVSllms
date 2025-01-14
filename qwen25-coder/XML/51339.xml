@@ -1,0 +1,1 @@
+<!DOCTYPE root [\n    <!ENTITY % commonDTD SYSTEM "common.dtd">\n    %commonDTD;\n    <!-- Additional declarations here -->\n]>\n<root>\n    <element>Content</element>\n</root>

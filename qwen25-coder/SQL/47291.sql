@@ -1,0 +1,1 @@
+SELECT  *\nFROM    Orders\nWHERE   (id_order = @id_order) OR\n        (IsFor LIKE '%' + @word1 + '%') OR\n        (IsFor LIKE '%' + @word2 + '%') OR\n        (IsFrom LIKE '%' + @word1 + '%') OR\n        (IsFrom LIKE '%' + @word2 + '%')

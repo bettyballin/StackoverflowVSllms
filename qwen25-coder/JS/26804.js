@@ -1,0 +1,1 @@
+function makeBold() {\n    document.execCommand('bold', false, null);\n}\n\nfunction makeItalic() {\n    document.execCommand('italic', false, null);\n}\n\nfunction underlineText() {\n    document.execCommand('underline', false, null);\n}

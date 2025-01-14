@@ -1,0 +1,1 @@
+constraints(id: /[^\/]+/) do\n      get 'identity/:id', to: 'identities#show'\n      get 'identity/:id.xml', to: 'identities#show', defaults: { format: :xml }\n    end

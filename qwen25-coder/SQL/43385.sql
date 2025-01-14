@@ -1,0 +1,1 @@
+-- Cross join with a WHERE clause\nSELECT User.*\nFROM User, Address\nWHERE User.addressId = Address.id;\n\n-- Explicit INNER JOIN\nSELECT User.*\nFROM User\nINNER JOIN Address ON (User.addressId = Address.id);

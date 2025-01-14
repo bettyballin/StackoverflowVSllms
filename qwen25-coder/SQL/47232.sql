@@ -1,0 +1,1 @@
+SELECT * \nFROM your_table\nWHERE FIELD(status, 'alpha', 'beta', 'gamma', 'delta', 'omega') < FIELD('delta', 'alpha', 'beta', 'gamma', 'delta', 'omega');

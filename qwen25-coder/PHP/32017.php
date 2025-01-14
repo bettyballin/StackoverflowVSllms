@@ -1,0 +1,1 @@
+echo '<script type="text/javascript" src="//www.google-analytics.com/ga.js"></script>\n<script type="text/javascript">\n    try {\n        var pageTracker = _gat._getTracker("UA-7623457-2");\n        pageTracker._trackPageview();\n    } catch(err) {}\n</script>';

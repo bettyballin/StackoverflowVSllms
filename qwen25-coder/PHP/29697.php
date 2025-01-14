@@ -1,0 +1,1 @@
+header('Content-Type: text/html; charset=utf-8');\n// Assuming $file contains a filename that is already UTF-8 encoded:\necho htmlspecialchars($file, ENT_QUOTES, 'UTF-8') . "\n";

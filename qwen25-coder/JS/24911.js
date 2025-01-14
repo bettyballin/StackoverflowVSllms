@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open('GET', 'example.xml', true);\nxhr.onload = function () {\n    if (this.status === 200) {\n        // XML parsing happens here, when responseXML is accessed\n        var xmlDoc = this.responseXML;\n        console.log(xmlDoc);\n    }\n};\nxhr.send();

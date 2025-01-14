@@ -1,0 +1,1 @@
+EXPLAIN QUERY PLAN INSERT OR IGNORE INTO MailQueue(SubscriberID, TemplateID)\n   SELECT S.ID, '1' AS TemplateID\n   FROM Subscribers S \n   INNER JOIN SubscriberGroups SG1 ON S.ID=SG1.SubscriberID AND SG1.GroupID IN ('1', '2', '3')\n   LEFT JOIN SubscriberGroups SG2 ON S.ID=SG2.SubscriberID AND SG2.GroupID IN ('4', '5', '6')\n   WHERE SG2.SubscriberID IS NULL;

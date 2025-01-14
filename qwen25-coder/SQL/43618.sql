@@ -1,0 +1,1 @@
+-- Example of a MERGE statement in SQL Server or PostgreSQL (with slight syntax variations)\nMERGE INTO stats_table AS target\nUSING (SELECT 123 AS id, 'example_data' AS data) AS source\nON target.id = source.id\nWHEN MATCHED THEN \n    UPDATE SET data = source.data\nWHEN NOT MATCHED THEN   \n    INSERT (id, data)\n    VALUES (source.id, source.data);

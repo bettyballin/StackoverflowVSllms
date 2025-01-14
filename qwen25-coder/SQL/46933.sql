@@ -1,0 +1,1 @@
+UPDATE btd.dbo.tblpayroll\nSET empname = (\n    SELECT b.Legal_Name\n    FROM (\n        SELECT Legal_Name, Employee_ID\n        FROM Com.dbo.Workers\n        WHERE Employee_ID LIKE '[0-9]%' -- Ensure starts with a digit\n          AND ISNUMERIC(Employee_ID) = 1\n    ) b\n    WHERE b.Employee_ID = empnum\n      AND b.Legal_Name IS NOT NULL\n)\nWHERE empname IS NULL;

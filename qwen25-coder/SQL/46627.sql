@@ -1,0 +1,1 @@
+SELECT name, create_date \nFROM sys.objects \nWHERE type = 'U';

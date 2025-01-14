@@ -1,0 +1,1 @@
+WITH RankedValues AS (\n    SELECT\n        column_name,\n        DENSE_RANK() OVER (ORDER BY column_name DESC) as drn\n    FROM\n        your_table\n)\nSELECT\n    column_name\nFROM\n    RankedValues\nWHERE\n    drn = n;

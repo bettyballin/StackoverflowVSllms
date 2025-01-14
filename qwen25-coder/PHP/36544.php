@@ -1,0 +1,1 @@
+<?php\n$fileContent = file_get_contents('/path/to/local/script.php');\necho $fileContent;\n?>

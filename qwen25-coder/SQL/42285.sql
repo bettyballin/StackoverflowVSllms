@@ -1,0 +1,1 @@
+SELECT `content`.* \nFROM   `content` \nWHERE  user_id = "1" \nAND    ( id = "4" OR id = "7" OR id = "5" OR id = "8" )\nORDER BY \n    CASE \n        WHEN id = 4 THEN 1\n        WHEN id = 7 THEN 2\n        WHEN id = 5 THEN 3\n        WHEN id = 8 THEN 4\n        ELSE 99 -- for any other cases, if there are any\n    END;

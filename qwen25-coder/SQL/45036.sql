@@ -1,0 +1,1 @@
+SELECT timeEvent \nFROM tbEvents \nWHERE CONVERT(TIME, startHour) >= CONVERT(TIME, @startHour)

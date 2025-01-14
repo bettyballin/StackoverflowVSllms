@@ -1,0 +1,1 @@
+INSERT INTO tblExcel ([ename], [position], [phone], [email]) VALUES ('Burton, Andrew', 'Web Developer / Network Assistant', '876-9259', 'aburton@wccs.edu')

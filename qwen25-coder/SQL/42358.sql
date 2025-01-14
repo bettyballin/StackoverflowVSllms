@@ -1,0 +1,1 @@
+SELECT DISTINCT\n    a.*,\n    b.catname\nFROM\n    job a\nINNER JOIN\n    category b ON a.catid = b.catid\nWHERE\n    a.jobsalrange = '15001-20000' AND\n    a.jobloc = 'Berkshire' AND\n    (\n        a.jobpos LIKE '%sales%' OR\n        a.jobloc LIKE '%sales%' OR\n        a.description LIKE '%sales%' OR\n        a.refno LIKE '%sales%' OR\n        b.catname LIKE '%sales%'\n    );

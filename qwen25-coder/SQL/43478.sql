@@ -1,0 +1,1 @@
+SELECT \n    pg_stat_activity.pid, \n    pg_stat_activity.query, \n    age(now(), pg_stat_activity.query_start), \n    state \nFROM \n    pg_stat_activity \nWHERE \n    pg_stat_activity.wait_event_type = 'Lock';

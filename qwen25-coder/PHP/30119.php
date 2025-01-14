@@ -1,0 +1,1 @@
+if (strpos($string, "_archived") !== false) {\n    echo "The string contains '_archived'.";\n} else {\n    echo "The string does not contain '_archived'.";\n}

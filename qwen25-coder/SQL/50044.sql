@@ -1,0 +1,1 @@
+CREATE PROCEDURE dbo.ExportDataByDate (@dateValue datetime)\nAS\nBEGIN\n    SELECT * FROM YourTableName WHERE DateColumn = @dateValue;\nEND\nGO

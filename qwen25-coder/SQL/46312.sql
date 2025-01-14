@@ -1,0 +1,1 @@
+-- Assuming you have a temporary column or another way to store intermediate data\nALTER TABLE tablename ADD tempField varchar(max)\n\nUPDATE tablename SET tempField = CAST(fieldname AS varchar(max))\nUPDATE tablename SET tempField = tempField + 'appended string'\nUPDATE tablename SET fieldname = CAST(tempField AS text)\nALTER TABLE tablename DROP COLUMN tempField

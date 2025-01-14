@@ -1,0 +1,1 @@
+' Declare a DataSet without explicitly setting it to Nothing initially\nDim ds As New DataSet()

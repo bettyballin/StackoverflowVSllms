@@ -1,0 +1,1 @@
+-- Example of appending a suffix to make unique\n     UPDATE your_table t1\n     SET column_name = t1.column_name || '_' || t2.rn\n     FROM (\n       SELECT id, column_name,\n              ROW_NUMBER() OVER (PARTITION BY column_name ORDER BY id) as rn\n       FROM your_table\n     ) t2\n     WHERE t1.id = t2.id AND t2.rn > 1;

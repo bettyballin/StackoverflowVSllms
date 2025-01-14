@@ -1,0 +1,1 @@
+<?php\nsession_start();\nif (isset($_SESSION['username'])) {\n    session_unset();\n    session_destroy();\n    echo "Logged out successfully!";\n} else {\n    echo "You are not logged in.";\n}\n?>\n<a href="login.php">Login</a>

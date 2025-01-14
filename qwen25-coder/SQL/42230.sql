@@ -1,0 +1,1 @@
+SELECT \n    grade,\n    COUNT(*) * 100.0 / SUM(COUNT(*)) OVER() AS percentage\nFROM \n    your_table_name\nGROUP BY \n    grade;

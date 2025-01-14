@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk">\n\n  <PropertyGroup>\n    <OutputType>WinExe</OutputType> <!-- Changed from Exe -->\n    <TargetFramework>net5.0</TargetFramework> <!-- Or whatever framework you are targeting -->\n  </PropertyGroup>\n\n  <!-- Other project settings -->\n\n</Project>

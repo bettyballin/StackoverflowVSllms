@@ -1,0 +1,1 @@
+echo $this->Html->script('jquery');\n    echo $this->Html->script('your-custom-jquery-script');

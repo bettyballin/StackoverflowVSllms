@@ -1,0 +1,1 @@
+<binding name="WSDualHttpBinding_SportRadarDCS" \n       openTimeout="00:10:00"\n       receiveTimeout="00:10:00" \n       sendTimeout="00:10:00"\n       ...\n   />

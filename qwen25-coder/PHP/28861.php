@@ -1,0 +1,1 @@
+// Simple example of setting up a basic controller in CodeIgniter\nclass Home extends CI_Controller {\n    public function index() {\n        $this->load->view('welcome_message');\n    }\n}

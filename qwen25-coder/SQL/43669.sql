@@ -1,0 +1,1 @@
+SELECT datecol, timecol\nFROM OldTable\nWHERE \n    -- Check if concatenating the date and time doesn't form a valid datetime\n    ISDATE(datecol + ' ' + substring(timecol, 1, 2) + ':' + substring(timecol, 3, 2)) = 0

@@ -1,0 +1,1 @@
+# Using append\nlist1 = [1, 2, 3]\nlist1.append([4, 5])\nprint(list1)  # Output: [1, 2, 3, [4, 5]]\n\n# Using extend\nlist2 = [1, 2, 3]\nlist2.extend([4, 5])\nprint(list2)  # Output: [1, 2, 3, 4, 5]

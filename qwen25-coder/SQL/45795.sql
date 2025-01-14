@@ -1,0 +1,1 @@
+SELECT replace_control_chars(your_string) AS translated_string \nFROM your_table;

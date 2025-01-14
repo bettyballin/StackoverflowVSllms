@@ -1,0 +1,1 @@
+-- Example of Attribute Table in Relational Databases\n   CREATE TABLE product_attributes (\n       product_id INT,\n       attribute_name VARCHAR(255),\n       attribute_value TEXT,\n       FOREIGN KEY (product_id) REFERENCES products(id)\n   );\n\n   -- This allows storing various attributes as rows

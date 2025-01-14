@@ -1,0 +1,1 @@
+Imports System.Net\n\nDim client As New WebClient()\nclient.UploadFile("http://yourserver/upload.php", "POST", "C:\path\to\your\file.png")

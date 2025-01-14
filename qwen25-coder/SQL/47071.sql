@@ -1,0 +1,1 @@
+DECLARE\n       v_bfile BFILE;\n   BEGIN\n       v_bfile := BFILENAME('MY_DOCUMENTS_DIR', 'sample.pdf');\n       INSERT INTO my_documents (id, document_name, file_path)\n       VALUES (1, 'Sample PDF', v_bfile);\n       COMMIT;\n   END;

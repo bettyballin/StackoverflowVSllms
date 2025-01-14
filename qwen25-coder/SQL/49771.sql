@@ -1,0 +1,1 @@
+-- Create a view in the master DB with limited columns from sysprocesses\nUSE [master]\nGO\n\nCREATE VIEW dbo.vw_BlockedProcesses AS\nSELECT sp.spid, sp.blocked\nFROM master.dbo.sysprocesses (NOLOCK) AS sp\nWHERE sp.blocked > 0;\nGO\n\n-- Grant SELECT permission on the view to Webserver account\nGRANT SELECT ON dbo.vw_BlockedProcesses TO [Webserver];\nGO

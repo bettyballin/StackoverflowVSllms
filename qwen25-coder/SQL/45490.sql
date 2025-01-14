@@ -1,0 +1,1 @@
+ALTER PROCEDURE [dbo].[my_sp]\n    @currentDate datetime = NULL\nAS\nBEGIN\n    -- Check if @currentDate is NULL and set it to GETDATE() if true\n    IF @currentDate IS NULL\n    BEGIN\n        SET @currentDate = GETDATE();\n    END\n\n    -- Your procedure logic here...\nEND

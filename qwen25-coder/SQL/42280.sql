@@ -1,0 +1,1 @@
+ALTER TABLE YourTableName DROP CONSTRAINT PK_YourPrimaryKeyConstraintName;

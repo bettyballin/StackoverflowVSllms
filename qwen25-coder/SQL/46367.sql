@@ -1,0 +1,1 @@
+SELECT COALESCE(fm.result, 'fin') AS mapped_result\n   FROM MyTable mt\n   LEFT JOIN FooMapping fm ON mt.foo = fm.foo\n   LIMIT 1;

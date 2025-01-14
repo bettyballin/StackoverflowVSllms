@@ -1,0 +1,1 @@
+window.onload = function() {\n       setTimeout(foo, 500);\n   };

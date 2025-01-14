@@ -1,0 +1,1 @@
+import json\nfrom django.http import JsonResponse\n\ndef tag_lookup(request):\n    results = []\n    if request.method == "GET":\n        value = request.GET.get('q', '')\n        if len(value) > 2:\n            TI = Tag.objects.filter(name__icontains=value)\n            results = [x.name for x in TI]\n    return JsonResponse(results, safe=False)

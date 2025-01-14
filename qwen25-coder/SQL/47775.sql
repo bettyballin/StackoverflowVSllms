@@ -1,0 +1,1 @@
+SELECT * \nFROM Projects P\nWHERE P.OfficeID = @SomeOfficeID;

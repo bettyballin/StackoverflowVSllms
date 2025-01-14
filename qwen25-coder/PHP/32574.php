@@ -1,0 +1,1 @@
+// PHP example to serve files securely\n   if (user_has_permission()) {\n       $file = "/path/outside/webroot/" . basename($_GET['file']);\n       header('Content-Description: File Transfer');\n       header('Content-Type: application/octet-stream');\n       header("Content-Disposition: attachment; filename=\"" . basename($file) . "\"");\n       readfile($file);\n   }

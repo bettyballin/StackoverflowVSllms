@@ -1,0 +1,1 @@
+ini_set("log_errors", 1);\nini_set("error_log", "/path/to/your/error-log-file.log"); // Specify a path to your error log file

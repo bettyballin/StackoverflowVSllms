@@ -1,0 +1,1 @@
+SELECT item_id\nFROM ItemTags\nWHERE tag_id IN (t1, t2, ..., tn)\nGROUP BY item_id\nHAVING COUNT(DISTINCT tag_id) = n;

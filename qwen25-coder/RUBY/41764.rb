@@ -1,0 +1,1 @@
+def get_user_miniature_counts(user, miniatures)\n  Ownership\n    .where(miniature_id: miniatures.pluck(:id), user_id: user.id)\n    .select("miniature_id, COALESCE(have_count, 0) AS have_count")\n    .each_with_object({}) { |o, hash| hash[o.miniature_id] = o.have_count }\nend

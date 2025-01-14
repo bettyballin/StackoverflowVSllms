@@ -1,0 +1,1 @@
+from your_project.parent_module.parent_class import ParentClass\n\nclass ChildClass(ParentClass):\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)

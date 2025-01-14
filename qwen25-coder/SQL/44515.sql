@@ -1,0 +1,1 @@
+SELECT DATALENGTH(YourVarBinaryColumn) AS SizeInBytes\nFROM YourTableName;

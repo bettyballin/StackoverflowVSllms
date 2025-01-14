@@ -1,0 +1,1 @@
+<gresources>\n  <gresource prefix="/com/yourapp">\n    <file>Resources/html/en/welcome.html</file>\n    <file>Resources/html/fr/welcome.html</file>\n    <!-- Add other files as needed -->\n  </gresource>\n</gresources>

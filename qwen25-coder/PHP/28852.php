@@ -1,0 +1,1 @@
+<?php\nexec("/usr/bin/sudo /path/to/start.sh");\n?>

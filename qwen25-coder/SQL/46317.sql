@@ -1,0 +1,1 @@
+-- Assume we have a table named 'employees':\nCREATE TABLE employees (\n    id INT PRIMARY KEY,\n    first_name VARCHAR(50),\n    last_name VARCHAR(50),\n    department_id INT,\n    salary DECIMAL(10, 2)\n);\n\n-- A covered index for queries that retrieve the first and last names by department\nCREATE INDEX idx_covered ON employees (department_id, first_name, last_name);

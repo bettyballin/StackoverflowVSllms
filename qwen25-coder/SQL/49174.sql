@@ -1,0 +1,1 @@
+SELECT \n    CASE \n        WHEN value = 0.25 THEN CEIL(value)\n        ELSE value\n    END AS rounded_value\nFROM your_table_name;

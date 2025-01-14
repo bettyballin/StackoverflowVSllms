@@ -1,0 +1,1 @@
+if (!isUserAuthorized($action)) {\n       http_response_code(403);\n       exit('Forbidden');\n   }

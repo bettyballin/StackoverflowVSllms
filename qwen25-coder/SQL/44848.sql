@@ -1,0 +1,1 @@
+SELECT \n    SEC_TO_TIME(AVG(TIMESTAMPDIFF(SECOND, date_two, date_one))) AS avg_time_diff\nFROM \n    some_table\nWHERE \n    some-restriction-applies;

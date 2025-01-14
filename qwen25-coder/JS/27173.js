@@ -1,0 +1,1 @@
+app.get('/api/suggestions', function(req, res) {\n       var query = req.query.query;\n       // Logic to fetch suggestions based on the query from your dataset\n       var suggestions = [{ id: 1, name: 'Option 1' }, { id: 2, name: 'Option 2' }];\n       res.json(suggestions);\n   });

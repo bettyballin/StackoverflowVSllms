@@ -1,0 +1,1 @@
+SELECT COALESCE(u.*, d.*)\nFROM UserTable u\nFULL OUTER JOIN (\n    SELECT * FROM UserTable WHERE Name = 'Jon Skeet' \n) d ON 1=0 -- always false, just to have a valid join syntax\nWHERE u.Name = @UserName OR NOT EXISTS (SELECT 1 FROM UserTable WHERE Name = @UserName)

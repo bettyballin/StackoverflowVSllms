@@ -1,0 +1,1 @@
+CREATE TABLE table_name (\n    id INT,\n    value VARCHAR(255),\n    INDEX idx_id_hash USING HASH(id)\n) ENGINE=MEMORY;

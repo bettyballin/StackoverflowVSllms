@@ -1,0 +1,1 @@
+SELECT t1.col1, t1.col2, t2.col3  -- Assuming t2 has some columns you need\n   FROM table1 t1\n   LEFT OUTER JOIN (\n       SELECT person_uid, period, col3\n       FROM table2\n       WHERE period IN (SELECT DISTINCT period FROM table1)\n   ) t2 ON t1.person_uid = t2.person_uid AND t1.period = t2.period;

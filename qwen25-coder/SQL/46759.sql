@@ -1,0 +1,1 @@
+CREATE INDEX IX_WeatherMeasurement_TownID_Date ON WeatherMeasurement(TownID, Date DESC);

@@ -1,0 +1,1 @@
+CREATE TABLE example_table (\n    id RAW(16) NOT NULL PRIMARY KEY,\n    -- other columns...\n);

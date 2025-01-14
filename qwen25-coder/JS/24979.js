@@ -1,0 +1,1 @@
+$.get(sourceUrl, data, function(response) {\n    // Assuming 'response' is already parsed as JSON by jQuery\n    console.log(response);\n}, 'json');

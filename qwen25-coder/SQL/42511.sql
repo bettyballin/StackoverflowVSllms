@@ -1,0 +1,1 @@
+CREATE TABLE custom_field_definitions (\n    id INT PRIMARY KEY,\n    entity_type VARCHAR(255), -- e.g., 'users', 'items'\n    field_name VARCHAR(255),\n    data_type VARCHAR(255) -- e.g., 'string', 'integer', 'email'\n);

@@ -1,0 +1,1 @@
+CREATE TABLE test_enum (\n    small_enum ENUM('apple', 'banana'),\n    large_enum ENUM('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t',\n                     'u','v','w','x','y','z','aa','ab','ac','ad','ae','af','ag','ah','ai','aj','ak','al',\n                     'am','an','ao','ap','aq','ar','as','at','au','av','aw','ax','ay','az')\n);

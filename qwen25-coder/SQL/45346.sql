@@ -1,0 +1,1 @@
+-- Example of opening a symmetric key protected by a certificate\nOPEN SYMMETRIC KEY YourSymmetricKey\nDECRYPTION BY CERTIFICATE YourCertificate;\n\n-- Your encryption/decryption operations here\n\nCLOSE SYMMETRIC KEY YourSymmetricKey;

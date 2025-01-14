@@ -1,0 +1,1 @@
+# Initialize an empty dictionary\nmy_dict = {}\n\nfor row in rows:\n    c = list_of_categories.index(row["id"])\n    my_dict[c] = row["name"]\n\n# Now my_dict contains your values with keys as specified indices

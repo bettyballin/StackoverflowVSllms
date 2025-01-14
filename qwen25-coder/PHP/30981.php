@@ -1,0 +1,1 @@
+// Using bcrypt for hashing passwords with built-in salt generation\n$password = "bar";\n$hashedPassword = password_hash($password, PASSWORD_BCRYPT);\n\n// Store $hashedPassword securely in your database\n\n// To verify:\nif (password_verify("bar", $hashedPassword)) {\n    echo 'Password is valid!';\n} else {\n    echo 'Invalid password.';\n}

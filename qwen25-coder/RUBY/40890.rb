@@ -1,0 +1,1 @@
+use Dancer2;\n\nget '/' => sub {\n    return 'Hello, World!';\n};\n\ndance;

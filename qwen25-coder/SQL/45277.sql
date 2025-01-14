@@ -1,0 +1,1 @@
+-- Set context to your target database\nUSE YourTargetDatabase;\nGO\n\n-- Paste your generated script here

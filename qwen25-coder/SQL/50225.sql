@@ -1,0 +1,1 @@
+declare @data xml = \n    '<DOD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />'\n\nselect  \n    Value1 = case \n                when @data.exist('/DOD[1][@xsi:nil="true"]') = 1 then cast(null as datetime)\n                else @data.value('/DOD[1]', 'datetime')\n             end

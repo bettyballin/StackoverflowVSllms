@@ -1,0 +1,1 @@
+from django.db import models\n\nclass MyModel(models.Model):\n    name = models.CharField(max_length=100)\n    data = models.JSONField(default=dict, blank=True)\n\n# Example usage in the shell or views:\ndef create_object():\n    obj = MyModel(name="Example", data={"key": "value"})\n    obj.save()

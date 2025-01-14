@@ -1,0 +1,1 @@
+Dim provider As New CultureInfo("en-US")\nDim d As DateTime = DateTime.ParseExact(value, "dd/MMM/yyyy:HH:mm:ss zz00", provider)

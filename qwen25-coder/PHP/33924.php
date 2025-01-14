@@ -1,0 +1,1 @@
+echo $this->Ajax->autoComplete(\n    'YourModel.fieldName',\n    array('controller' => 'yourController', 'action' => 'yourAction'),\n    array(\n        'update' => 'divToUpdate',\n        'success' => "$('#feedback').html(data); console.log('Request completed successfully');",\n        'afterUpdate' => "console.log('Update finished');"\n    )\n);

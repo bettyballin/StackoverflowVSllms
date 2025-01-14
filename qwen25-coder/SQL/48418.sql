@@ -1,0 +1,1 @@
+SELECT x \nFROM (\n    SELECT (field1 + 10) AS x \n    FROM mytable\n) AS derived_table \nWHERE x < 50;

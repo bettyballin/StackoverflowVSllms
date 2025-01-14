@@ -1,0 +1,1 @@
+$(function() {\n    // Initial positions of icons\n    $("#icon1").css({"top": "50px", "left": "20px"});\n    $("#icon2").css({"top": "150px", "left": "130px"});\n    $("#icon3").css({"top": "250px", "left": "240px"});\n\n    // Make each icon draggable\n    $(".draggable-icon").draggable({\n        containment: "#springboard",\n        stack: ".draggable-icon"\n    });\n});

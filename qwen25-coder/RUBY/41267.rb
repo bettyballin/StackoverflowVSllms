@@ -1,0 +1,1 @@
+ActionMailer::Base.smtp_settings = MY_SMTP_SETTINGS.merge({\n     open_timeout: 5,\n     read_timeout: 30\n   })

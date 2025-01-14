@@ -1,0 +1,1 @@
+sqlplus / as sysdba\n   SQL> select status from v$instance;

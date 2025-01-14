@@ -1,0 +1,1 @@
+# Example of using PostgreSQL with Rails:\ngem 'pg'

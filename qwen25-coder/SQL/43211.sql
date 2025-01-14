@@ -1,0 +1,1 @@
+-- Adding an index on a column that is frequently used in WHERE clauses, JOIN conditions, or ORDER BY\nCREATE INDEX idx_lastname ON employees(lastname);

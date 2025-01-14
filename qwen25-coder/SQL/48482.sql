@@ -1,0 +1,1 @@
+BACKUP DATABASE YourDatabaseName TO DISK = 'D:\Backups\YourDatabaseName.bak' WITH FULL

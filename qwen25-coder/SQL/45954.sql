@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.NormalizeApostrophe(@input NVARCHAR(4000))\nRETURNS NVARCHAR(4000)\nAS\nBEGIN\n    DECLARE @output NVARCHAR(4000)\n    SET @output = REPLACE(REPLACE(REPLACE(@input,'&apos;',''), '&#39;',''), '''','')\n    RETURN @output\nEND

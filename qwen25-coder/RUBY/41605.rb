@@ -1,0 +1,1 @@
+# config/routes.rb\nresources :students do\n  resources :class_memberships, only: [:create, :destroy]\nend\n\nresources :classes do\n  resources :student_memberships, only: [:create, :destroy]\nend

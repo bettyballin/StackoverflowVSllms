@@ -1,0 +1,1 @@
+DELIMITER //\n\nCREATE TRIGGER set_stage_name_before_insert\nBEFORE INSERT ON actors\nFOR EACH ROW\nBEGIN\n    SET NEW.stage_name = CONCAT(NEW.forename, ' ', NEW.surname);\nEND;//\n\nDELIMITER ;

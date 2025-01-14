@@ -1,0 +1,1 @@
+DECLARE @N INT = 3; -- Replace with your desired N value\n\nSELECT DISTINCT Salary\nFROM Employee\nORDER BY Salary DESC\nOFFSET @N - 1 ROWS FETCH NEXT 1 ROW ONLY;

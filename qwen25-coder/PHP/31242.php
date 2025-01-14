@@ -1,0 +1,1 @@
+$query = $this->db->get('my_table');\nforeach ($query->result() as $row) {\n    // Process the row ...\n}\n$query->free_result(); // Manually free the result set

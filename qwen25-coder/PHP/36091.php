@@ -1,0 +1,1 @@
+$currentTimeWithMicroseconds = microtime(true); // Current time in seconds and microseconds\n$unixTimestampInMilliseconds = (int)($currentTimeWithMicroseconds * 1000); // Convert to milliseconds\necho $unixTimestampInMilliseconds;

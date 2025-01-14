@@ -1,0 +1,1 @@
+// Assuming $sqlArray is your associative array from Zend_Table_Row_Abstract\n$indexedArray = array_values($sqlArray);\n\n// Now, $indexedArray will have numeric keys starting from 0

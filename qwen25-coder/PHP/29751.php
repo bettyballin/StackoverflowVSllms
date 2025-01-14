@@ -1,0 +1,1 @@
+function my_htmlentities($string) {\n    return htmlentities($string, ENT_QUOTES | ENT_HTML5, 'UTF-8');\n}\n\n$array = ['some "text"', "<b>bold</b>", "&entity;"];\n$safeArray = array_map('my_htmlentities', $array);\n\nprint_r($safeArray);

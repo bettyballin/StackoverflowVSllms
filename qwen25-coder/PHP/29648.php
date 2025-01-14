@@ -1,0 +1,1 @@
+$conn = mysqli_connect("host", "user", "password", "database") or die(mysqli_error($conn));\n$query = "SELECT $param FROM issues WHERE $param >= 0";\n$result = mysqli_query($conn, $query) or showError("query failed");\n$numbers = [];\n\nwhile ($record = mysqli_fetch_assoc($result)) {\n    $numbers[] = $record[$param];\n}\n\nmysqli_close($conn);\nreturn $numbers;

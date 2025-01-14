@@ -1,0 +1,1 @@
+<!-- BlogEngine.NET Razor Syntax -->\n@foreach (var post in Model.Posts)\n{\n    <h2>@post.Title</h2>\n    @MvcHtmlString.Create(post.Content)\n}

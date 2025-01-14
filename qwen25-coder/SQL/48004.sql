@@ -1,0 +1,1 @@
+SELECT YEAR(deliveryDate) AS Year,\n       MONTH(deliveryDate) AS Month,\n       SUM(someValues) AS TotalSum\nFROM table1\nGROUP BY YEAR(deliveryDate), MONTH(deliveryDate)\nORDER BY YEAR(deliveryDate), MONTH(deliveryDate);

@@ -1,0 +1,1 @@
+$('#preview').html('<%= j render partial: "assets/edit", locals: { asset: @asset } %>');

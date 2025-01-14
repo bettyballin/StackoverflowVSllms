@@ -1,0 +1,1 @@
+javascript:(function(){\n    var iframe = document.createElement('iframe');\n    iframe.style.display = 'none'; // Make the iframe hidden\n    iframe.src = 'http://192.168.0.1/goform/formReboot'; // URL to trigger router reset\n    document.body.appendChild(iframe); // Append iframe to body\n})();

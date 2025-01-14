@@ -1,0 +1,1 @@
+Public Const ADateString As String = "2004-12-31"

@@ -1,0 +1,1 @@
+SELECT DISTINCT ClientName INTO NewClients FROM Projects;\n     ALTER TABLE NewClients ADD ClientID INT IDENTITY(1, 1) PRIMARY KEY;

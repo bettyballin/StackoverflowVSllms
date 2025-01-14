@@ -1,0 +1,1 @@
+-- This example shows how to check the file system allocation unit size on Windows.\nEXEC xp_cmdshell 'fsutil fsinfo ntfsinfo C:';

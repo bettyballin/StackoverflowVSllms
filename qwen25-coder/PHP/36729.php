@@ -1,0 +1,1 @@
+<?php\n\n$testglobal = 1;\nfunction cmp($a, $b) {\n    global $testglobal;\n    echo 'hi' . $testglobal; // This should print "hi1"\n}\n\n// Example array to sort (since your variable $topics was not defined)\n$topics = [3, 2, 1];\n\nusort($topics, "cmp");\n\n?>

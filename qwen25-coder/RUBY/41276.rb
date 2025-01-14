@@ -1,0 +1,1 @@
+# Example in Ruby on Rails\n   class Schedule < ApplicationRecord\n     belongs_to :assignment, optional: true\n\n     def safe_assignment\n       assignment || NullAssignment.new\n     end\n   end\n\n   class NullAssignment\n     def employee\n       NullEmployee.new\n     end\n   end\n\n   class NullEmployee\n     def name\n       'No Employee Assigned'\n     end\n   end

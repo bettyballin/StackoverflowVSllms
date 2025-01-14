@@ -1,0 +1,1 @@
+SELECT s.game_id, s.user_id, s.thescore\nFROM (\n    SELECT \n        game_id,\n        user_id,\n        thescore,\n        ROW_NUMBER() OVER (PARTITION BY game_id ORDER BY thescore DESC) as rank\n    FROM score\n) s\nWHERE s.rank <= 3 AND s.user_id = your_user_id;

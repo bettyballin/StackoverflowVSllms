@@ -1,0 +1,1 @@
+SELECT name, period, value, '1' AS category\nFROM A\n\nUNION ALL\n\nSELECT name, period, value, '2' AS category\nFROM B;

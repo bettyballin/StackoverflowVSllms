@@ -1,0 +1,1 @@
+$page = new PageControl($_SERVER['REQUEST_URI']);

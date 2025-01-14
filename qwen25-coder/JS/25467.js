@@ -1,0 +1,1 @@
+document.querySelectorAll('a').forEach(link => {\n    link.setAttribute('tabindex', '-1');\n});

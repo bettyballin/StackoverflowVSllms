@@ -1,0 +1,1 @@
+WITH RankedRecords AS (\n    SELECT \n        ID,\n        InsertedDate,\n        Name,\n        ROW_NUMBER() OVER (PARTITION BY ID ORDER BY InsertedDate DESC) as rn\n    FROM \n        dbo.TestTable\n)\nDELETE \nFROM RankedRecords\nWHERE rn > 1;

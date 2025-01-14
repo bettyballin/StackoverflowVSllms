@@ -1,0 +1,1 @@
+# Ensure you have something like this in your settings.py, adjusting the path as necessary:\n   HANDLER500 = 'myapp.views.custom_500_page'

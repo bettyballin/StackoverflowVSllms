@@ -1,0 +1,1 @@
+-- If creating a new table\nCREATE TABLE tags (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    tag_name VARCHAR(255) NOT NULL UNIQUE\n);\n\n-- If altering an existing table\nALTER TABLE tags\nADD CONSTRAINT unique_tag_name UNIQUE (tag_name);

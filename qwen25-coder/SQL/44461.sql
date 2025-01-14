@@ -1,0 +1,1 @@
+-- Example of setting up a foreign key with cascade in HSQLDB\nALTER TABLE child_table \nADD CONSTRAINT fk_child_parent \nFOREIGN KEY (parent_id) REFERENCES parent_table(id) \nON DELETE CASCADE ON UPDATE CASCADE;

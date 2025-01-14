@@ -1,0 +1,1 @@
+$modules = array(\n    'home'      => 'home',\n    'login'     => 'login',\n    'forum'     => 'forum',\n    // other modules...\n);\n\nif (isset($_GET['module']) && in_array($_GET['module'], array_keys($modules))) {\n    $module = $_GET['module'];\n    include $module . '.php';\n} else {\n    echo "Invalid module";\n}

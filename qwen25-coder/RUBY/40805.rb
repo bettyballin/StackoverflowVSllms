@@ -1,0 +1,1 @@
+# Using named route (assuming a route is defined for 'home')\nlink_to 'Home', home_path\n\n# Using url_for\nurl_for(controller: 'home', action: 'index')\n\n# Routes definition in config/routes.rb\nget '/some/thing' => 'controller#action', as: :custom_route

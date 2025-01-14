@@ -1,0 +1,1 @@
+USE msdb;\nGO\n\nEXECUTE sp_helprolemember 'sysadmin';\nEXECUTE sp_helprolemember 'msdb_owner';\nEXECUTE sp_helprolemember 'SQLAgentReaderRole';

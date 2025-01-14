@@ -1,0 +1,1 @@
+' Enable Option Infer to allow type inference\nOption Infer On\n\nModule Module1\n    Sub Main()\n        ' The compiler will infer the data type of foo as Whatever\n        Dim foo = New Whatever()\n        ' Use foo here with its inferred type\n    End Sub\nEnd Module\n\nClass Whatever\n    ' Class definition\nEnd Class

@@ -1,0 +1,1 @@
+If Not String.IsNullOrEmpty(myString) AndAlso myString = "desiredValue" Then\n    ' code\nEnd If

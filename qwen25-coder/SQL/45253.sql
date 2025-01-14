@@ -1,0 +1,1 @@
+SELECT \n    albums.aid,\n    albums.name AS album_name,\n    songs.sid,\n    songs.length AS song_length\nFROM \n    albums\nJOIN \n    songs ON albums.aid = songs.aid;

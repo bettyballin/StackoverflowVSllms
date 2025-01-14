@@ -1,0 +1,1 @@
+<?php\n$input = "example";\n$hash = sha1($input);\necho $hash;\n?>

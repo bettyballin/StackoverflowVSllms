@@ -1,0 +1,1 @@
+Private Sub ExampleUsage()\n    Dim settingsManager As New SettingsManager()\n\n    ' Load settings\n    Dim myDictionary = settingsManager.LoadSettings()\n\n    ' Modify dictionary\n    myDictionary("exampleKey") = "exampleValue"\n\n    ' Save settings back to application settings\n    settingsManager.SaveSettings(myDictionary)\nEnd Sub

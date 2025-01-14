@@ -1,0 +1,1 @@
+$email = 'example@example.com';\n  echo "Contact us at: $email"; // Variable interpolation needed

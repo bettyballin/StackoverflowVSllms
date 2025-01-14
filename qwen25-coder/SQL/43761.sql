@@ -1,0 +1,1 @@
+CREATE TABLE URL_Rewrite (\n    URLRewitten VARCHAR(MAX) PRIMARY KEY,\n    OriginalURL VARCHAR(MAX) NOT NULL,\n    INDEX idx_Original (OriginalURL)\n);

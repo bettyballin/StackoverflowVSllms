@@ -1,0 +1,1 @@
+Dim aggregatedItems As IEnumerable(Of T) = _\n    MasterList.SelectMany(Function(masterItem As MasterItem(Of T)) masterItem.SubItems)\n\n' To convert the result to a List if needed (since it's an IEnumerable)\nDim aggregatedItemsList As List(Of T) = aggregatedItems.ToList()

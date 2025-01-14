@@ -1,0 +1,1 @@
+Dim str1 As String = "Hello"\nDim str2 As [String] = "World"\n\nConsole.WriteLine(str1 & " " & str2) ' Outputs: Hello World

@@ -1,0 +1,1 @@
+ALTER PROCEDURE [usp_debug_fails]\n       @DATA_DT_ID AS int = 20081130\n   WITH RECOMPILE\n   AS\n   BEGIN\n       -- Your code here\n       SELECT ... FROM ... WHERE DATA_DT_ID = @DATA_DT_ID OPTION (RECOMPILE);\n   END

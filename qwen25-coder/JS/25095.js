@@ -1,0 +1,1 @@
+function DeleteItem(deleteUrl) {\n    // Perform your AJAX call here to delete the item\n    alert('Deleting item at URL: ' + deleteUrl);\n\n    // Prevent postback\n    return false;\n}

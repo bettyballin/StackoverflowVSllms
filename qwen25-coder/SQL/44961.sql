@@ -1,0 +1,1 @@
+ALTER TABLE [Production].[ProductCostHistory] WITH NOCHECK ADD \nCONSTRAINT [FK_ProductCostHistory_Product_ProductID] FOREIGN KEY([ProductID])\n  REFERENCES [Production].[Product] ([ProductID])\nGO\n\n-- Later, activate the constraint checks:\nALTER TABLE [Production].[ProductCostHistory] CHECK CONSTRAINT \n[FK_ProductCostHistory_Product_ProductID]\nGO

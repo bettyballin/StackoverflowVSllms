@@ -1,0 +1,1 @@
+SELECT \n    grade, \n    COUNT(*) AS frequency\nFROM (\n    -- Simulate the rows of your grades table\n    SELECT 1 AS grade UNION ALL\n    SELECT 2 UNION ALL\n    SELECT 1 UNION ALL\n    SELECT 3 UNION ALL\n    SELECT 4 UNION ALL\n    SELECT 5\n) AS GradesTable\nGROUP BY \n    grade\nORDER BY \n    grade;

@@ -1,0 +1,1 @@
+SELECT table_name, column_name\nFROM all_tab_columns\nWHERE column_name = 'PROJECTID'\nAND owner = 'YOUR_SCHEMA_NAME'; -- Replace YOUR_SCHEMA_NAME with the schema name you are checking

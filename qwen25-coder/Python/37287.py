@@ -1,0 +1,1 @@
+import json\n\ndef load_labels_from_json(file_path):\n    with open(file_path, 'r') as file:\n        config = json.load(file)\n    return config['field_label_map']\n\nlabels = load_labels_from_json('config.json')\nprint(labels)

@@ -1,0 +1,1 @@
+import React from 'react';\nimport ReactDOM from 'react-dom';\n\nfunction Hello() {\n    return <h1>Hello, world!</h1>;\n}\n\nReactDOM.render(<Hello />, document.getElementById('root'));

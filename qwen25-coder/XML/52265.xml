@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <handlers>\n      <!-- Ensure that script processing is enabled for put/delete verbs -->\n      <add name="ScriptHandlerFactory" path="*.aspx" verb="GET,HEAD,POST,DEBUG,PUT,DELETE" type="System.Web.UI.PageHandlerFactory"/>\n    </handlers>\n  </system.webServer>\n</configuration>

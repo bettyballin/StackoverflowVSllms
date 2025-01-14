@@ -1,0 +1,1 @@
+select\n    records.id,\n    contacts.name + \n        CASE \n            WHEN contacts.organization IS NOT NULL AND contacts.organization <> '' \n            THEN ' (' + contacts.organization + ')' \n            ELSE ''\n        END as contact\nfrom records\nleft join contacts on records.contact = contacts.contactid;

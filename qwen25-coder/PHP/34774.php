@@ -1,0 +1,1 @@
+// Example of simple error logging in PHP\n   error_log('Error: ' . $message, 3, "/var/tmp/my-errors.log");

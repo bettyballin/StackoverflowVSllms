@@ -1,0 +1,1 @@
+with open(file1, "r", encoding="ISO-8859-1") as f:\n    text = f.read()

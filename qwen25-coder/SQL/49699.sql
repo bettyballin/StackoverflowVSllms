@@ -1,0 +1,1 @@
+-- Up: \n   ALTER TABLE old_name RENAME TO new_name;\n\n   -- Down: Can only be undone if old_name is known\n   ALTER TABLE new_name RENAME TO old_name;

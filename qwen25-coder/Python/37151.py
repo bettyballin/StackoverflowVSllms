@@ -1,0 +1,1 @@
+# common_functions.py\ndef get_shell_command():\n    return '!ls'\n\n# In your IPython notebook/script cell\n%run common_functions.py\n\nfrom IPython import get_ipython\nget_ipython().run_line_magic('ls', '')

@@ -1,0 +1,1 @@
+// main.php using include_once\ninclude_once 'script.php'; // Output: This is a message.\ninclude_once 'script.php'; // No additional output (procedural code does not run again)

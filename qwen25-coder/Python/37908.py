@@ -1,0 +1,1 @@
+# Linear classifier using dot product\n   prediction = np.dot(weights, features) + bias

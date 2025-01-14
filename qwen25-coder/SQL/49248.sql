@@ -1,0 +1,1 @@
+INSERT IGNORE INTO table1 (col1, col2)\nSELECT t2.col1, t1.col2\nFROM table1 t1\nCROSS JOIN table2 t2;

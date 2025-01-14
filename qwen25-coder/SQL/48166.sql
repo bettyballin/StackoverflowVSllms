@@ -1,0 +1,1 @@
+SELECT HEX(id) AS uuid, name FROM example_table;

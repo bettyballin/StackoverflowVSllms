@@ -1,0 +1,1 @@
+<?php\n$largenum = '95635000009453274121700'; // Use a string for large numbers with GMP as well\n$modulus = gmp_init(97);\n\necho gmp_strval(gmp_mod($largenum, $modulus)); // Outputs the modulus\n?>

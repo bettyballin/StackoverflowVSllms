@@ -1,0 +1,1 @@
+WITH RankedEmp AS (\n    SELECT \n        DENSE_RANK() OVER (ORDER BY EmpGroupID) AS Counter,\n        EmpID,\n        EmpGroupID\n    FROM Emp\n)\nSELECT \n    Counter,\n    EmpID,\n    EmpGroupID\nFROM RankedEmp\nORDER BY \n    EmpGroupID, \n    EmpID;

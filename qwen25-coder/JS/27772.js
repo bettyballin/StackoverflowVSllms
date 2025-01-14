@@ -1,0 +1,1 @@
+var parserErrors = xmlDoc.getElementsByTagName("parsererror");\n   if (parserErrors.length > 0) {\n       console.error("XML Parsing Error", parserErrors[0].textContent);\n       return;\n   }

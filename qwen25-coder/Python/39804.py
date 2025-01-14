@@ -1,0 +1,1 @@
+c.connect(hostname=hostname, username=username, password=password)

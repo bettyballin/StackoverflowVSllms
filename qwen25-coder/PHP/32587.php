@@ -1,0 +1,1 @@
+class Blog {\n    public static $template = [\n        'content' => '<p>This is the blog content.</p>'\n    ];\n}\n\n$class = 'Blog';\n$action = 'content';\n\n// Accessing the static variable correctly\necho $class::$template[$action];

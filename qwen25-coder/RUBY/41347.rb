@@ -1,0 +1,1 @@
+user = User.new; user.username = "John"; hashed_password = "John"; first_name = "John"; \nlast_name = "coltrane"; email = "John@coltrane.com"; display_name = "Johndispay"; \nuser_level = 9; user.save

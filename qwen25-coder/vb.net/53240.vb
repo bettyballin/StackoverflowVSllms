@@ -1,0 +1,1 @@
+Sub ExampleMethod(ByRef refParam As Integer, ByRef outParam As Integer)\n    refParam = 10 ' Changes the original value of refParam\n    outParam = 20 ' Assigns a value to outParam\nEnd Sub\n\nDim a As Integer = 5\nDim b As Integer\nExampleMethod(a, b)\n' After calling ExampleMethod, a is 10 (changed by ByRef), and b is 20 (assigned by ByRef)

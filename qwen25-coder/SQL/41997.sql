@@ -1,0 +1,1 @@
+CREATE VIEW my_view AS\nSELECT a.id, b.name, c.value\nFROM table_a a\nJOIN table_b b ON a.b_id = b.id\nJOIN table_c c ON b.c_id = c.id;

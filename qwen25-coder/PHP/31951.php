@@ -1,0 +1,1 @@
+exec('java -jar "/opt/flex3/lib/mxmlc.jar" +flexlib "/opt/flex3/frameworks" MyAS3App.as -default-size 360 280 -output MyAS3App.swf 2>&1', $output, $returnVar);\n   print_r($output);\n   echo "Return code: $returnVar";

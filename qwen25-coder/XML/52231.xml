@@ -1,0 +1,1 @@
+<services>\n     <service name="[YourServiceImpl]">\n       <endpoint address="" binding="wsHttpBinding" bindingConfiguration="WSHttpsTransport"\n                 contract="[YourContract]"/>\n     </service>\n   </services>

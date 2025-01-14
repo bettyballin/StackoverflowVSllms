@@ -1,0 +1,1 @@
+SELECT STRING_AGG(username, ', ') AS usernames FROM Users;

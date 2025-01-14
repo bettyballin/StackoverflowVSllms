@@ -1,0 +1,1 @@
+SELECT \n    name,\n    distinguishedName\nFROM         OPENQUERY(ADSI, \n                      '\n select\n     name,\n     distinguishedName\n from ''LDAP://DC=name,DC=local''\n where objectClass = ''organizationalUnit''\n order by name\n ')\nAS derivedtbl_1

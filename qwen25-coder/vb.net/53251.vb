@@ -1,0 +1,1 @@
+Imports System.Environment\n\nDim currentUserFolder As String = GetFolderPath(SpecialFolder.MyDocuments)\nDim filePath As String = Path.Combine(currentUserFolder, "YourFileName_" & Today.ToString("yyyyMMdd") & ".txt")\nFile.WriteAllText(filePath, "Your content here.")

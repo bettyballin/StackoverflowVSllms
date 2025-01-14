@@ -1,0 +1,1 @@
+UPDATE forge..dimInteg2\nSET duplicates = (\n    SELECT COUNT(*)\n    FROM (\n        SELECT idCover\n        FROM x90..dimCover\n        GROUP BY idCover\n        HAVING COUNT(*) > 1\n    ) AS DuplicateCount\n)\nWHERE dimTable = 'dimCover'

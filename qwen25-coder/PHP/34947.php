@@ -1,0 +1,1 @@
+// Instantiated Usage\n     $post1 = new BlogPost('Title', 'Content');\n     $post2 = new BlogPost('Another Title', 'More Content');

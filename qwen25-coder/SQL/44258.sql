@@ -1,0 +1,1 @@
+INSERT INTO [TimeDimension] (DateID, DateValue, Description)\n    VALUES (-1, '0001-01-01', 'Unknown/Not Applicable');

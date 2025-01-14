@@ -1,0 +1,1 @@
+SELECT `username`, `cardName`, MIN(`timeStamp`) AS firstViewTime\nFROM `usercardinfo`\nWHERE `timeStamp` BETWEEN '2009-04-01' AND '2009-06-01'\nGROUP BY `username`, `cardName`;

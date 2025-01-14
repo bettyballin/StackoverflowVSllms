@@ -1,0 +1,1 @@
+SELECT s.studentname \nFROM Students s\nLEFT JOIN Student_Class sc ON s.studentid = sc.studentid\nWHERE sc.studentid IS NULL;

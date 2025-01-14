@@ -1,0 +1,1 @@
+function myAutoload($className) {\n    // Custom include path and pattern for class files ending with .class.php\n    $file = '/path/to/your/classes/' . $className . '.class.php';\n    if (file_exists($file)) {\n        require_once($file);\n    }\n}\n\nspl_autoload_register('myAutoload');

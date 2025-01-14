@@ -1,0 +1,1 @@
+$titleValid = $validator->valid("title");\n$textValid = $validator->valid("text");\n\nif ($titleValid && $textValid) {\n    // Both conditions are true\n}

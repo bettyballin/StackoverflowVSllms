@@ -1,0 +1,1 @@
+<?php\n// Simulate fetching data from a database or any other source\necho rand(0, 10000);\n?>

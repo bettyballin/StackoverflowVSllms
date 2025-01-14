@@ -1,0 +1,1 @@
+ALTER TABLE wikilinks ADD INDEX idx_topage_frompage (topage, frompage);

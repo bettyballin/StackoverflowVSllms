@@ -1,0 +1,1 @@
+const array2 = ['apple', 'banana', 'cherry'];\nconst valueToFind = 'banana';\n\nif (array2.indexOf(valueToFind) !== -1) {\n    console.log('Value exists in the array');\n} else {\n    console.log('Value does not exist in the array');\n}

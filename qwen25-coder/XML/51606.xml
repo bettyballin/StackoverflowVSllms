@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.lwjgl</groupId>\n    <artifactId>lwjgl</artifactId>\n    <version>3.3.0</version>\n</dependency>\n<!-- Add other necessary modules like lwjgl-opengl, lwjgl-glfw based on your needs -->

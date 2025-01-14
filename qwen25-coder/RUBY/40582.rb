@@ -1,0 +1,1 @@
+class PicturesController < ApplicationController\n  def picture\n    @image = Image.find(params[:id])\n    send_data(@image.data, type: @image.content_type, disposition: 'inline')\n  end\nend

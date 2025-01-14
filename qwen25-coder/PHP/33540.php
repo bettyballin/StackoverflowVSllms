@@ -1,0 +1,1 @@
+<select>\n<?php\nfor ($hour = 0; $hour < 24; $hour++) {\n    for ($minute = 0; $minute < 60; $minute += 15) {\n        $time = sprintf("%02d:%02d %s", ($hour > 12 ? $hour - 12 : $hour), $minute, $hour >= 12 ? 'PM' : 'AM');\n        echo "<option value=\"$time\">$time</option>\n";\n    }\n}\n?>\n</select>

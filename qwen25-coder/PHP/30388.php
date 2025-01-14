@@ -1,0 +1,1 @@
+<?php\n// Fetch data from database\n$products = fetchProductsFromDatabase();\n\n// Render directly in HTML\necho '<ul>';\nforeach ($products as $product) {\n    echo "<li>{$product['name']} - {$product['price']}</li>";\n}\necho '</ul>';\n?>

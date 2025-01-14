@@ -1,0 +1,1 @@
+class Admin_Profile extends CI_Controller {\n\n    public function view($username)\n    {\n        // Logic to administer user's profile (e.g., viewing with edit options)\n    }\n\n    public function create()\n    {\n        // Logic to create a new user profile\n    }\n\n    public function edit($username)\n    {\n        // Logic to edit an existing user profile\n    }\n}

@@ -1,0 +1,1 @@
+$amount1 = "10.50";\n  $amount2 = "3.75";\n  \n  // Convert string to bc style\n  $total = bcadd($amount1, $amount2, 2); // The last parameter is the number of decimal places\n  \n  echo $total; // Outputs: 14.25

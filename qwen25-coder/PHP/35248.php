@@ -1,0 +1,1 @@
+public function beforeFilter(Event $event) {\n    parent::beforeFilter($event);\n    \n    // Set timeout to 72 hours (in minutes)\n    ini_set('session.gc_maxlifetime', 2592000); // 30 days in seconds\n    ini_set('session.cookie_lifetime', 2592000);\n}

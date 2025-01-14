@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\nGO\nDBCC DROPCLEANBUFFERS;\nGO\nSET STATISTICS TIME ON;\nGO\n\n-- Example heavy query here\nSELECT \n    [CustomerID], \n    COUNT(*)\nFROM \n    [Orders]\nGROUP BY \n    [CustomerID]\nHAVING \n    COUNT(*) > 5;\n\nGO\nSET STATISTICS TIME OFF;\nGO\nCOMMIT;

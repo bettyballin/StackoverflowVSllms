@@ -1,0 +1,1 @@
+$.getJSON('<%= Url.Action("DoSearch") %>?Query=' + encodeURIComponent('some query'),\n    function(data) {\n        if (data.Result == "OK") {\n            location.href = location.href;\n        }\n    });

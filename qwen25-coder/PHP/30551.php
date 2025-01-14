@@ -1,0 +1,1 @@
+try {\n    $stmt = $mysqli->prepare('INSERT INTO tblUser (email) VALUES (?) ON DUPLICATE KEY UPDATE email=VALUES(email)');\n    $stmt->bind_param('s', $email);\n    $email = 'foo@bar.org';\n    $stmt->execute();\n} catch (Exception $e) {\n    // Handle error: duplicate entry or other issues\n    echo "Error: " . $e->getMessage();\n}

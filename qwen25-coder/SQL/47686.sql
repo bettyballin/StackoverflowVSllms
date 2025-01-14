@@ -1,0 +1,1 @@
+SELECT e FROM YourEntity e \nWHERE e.date >= :startDate AND e.date < :endDate

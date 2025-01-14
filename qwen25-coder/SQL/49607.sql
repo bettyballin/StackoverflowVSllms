@@ -1,0 +1,1 @@
+GRANT CREATE TABLE TO userA;

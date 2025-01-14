@@ -1,0 +1,1 @@
+ew Ajax.Request('testurl', {\n    method: 'post',\n    parameters: {param1:"A", param2:"B", param3:"C"},\n    onSuccess: fnSccs.bind(this, "additionalArg"),\n    onFailure: fnFail\n});

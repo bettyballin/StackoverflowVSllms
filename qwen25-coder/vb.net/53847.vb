@@ -1,0 +1,1 @@
+' In your Utility Class Library, ensure your Module is declared like this:\nNamespace MyUtilityNamespace\n    Public Module UtilityModule\n        ' Extension method or other utility methods go here.\n    End Module\nEnd Namespace

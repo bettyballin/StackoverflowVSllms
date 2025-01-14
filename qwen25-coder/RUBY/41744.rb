@@ -1,0 +1,1 @@
+# Start an animation\n  anim = animate(100) {|frame| }\n  \n  # List all public methods for the animate object\n  puts anim.public_methods.sort - Object.methods

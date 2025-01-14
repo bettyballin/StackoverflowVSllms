@@ -1,0 +1,1 @@
+(function() { \n       var fn = function() {\n           AjaxControlToolkit.ModalPopupBehavior.invokeViaServer('ctl00_c1_componentCategoryListUC_componentCategoryGrid_modalPopupExtender', true);\n           Sys.Application.remove_load(fn);\n       };\n       Sys.Application.add_load(fn);\n   })();

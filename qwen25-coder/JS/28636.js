@@ -1,0 +1,1 @@
+if (isExactMatch) {\n    query = "SELECT * FROM FOO WHERE BAR = ?";\n} else {\n    query = "SELECT * FROM FOO WHERE BAR LIKE ?";\n}

@@ -1,0 +1,1 @@
+SELECT DATE(`when`) AS date, GROUP_CONCAT(DISTINCT `ip`) AS ips\nFROM `metrics`\nWHERE `vidID` = '1'\nGROUP BY DATE(`when`);

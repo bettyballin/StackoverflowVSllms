@@ -1,0 +1,1 @@
+$pdo = new PDO('mysql:host=localhost;dbname=your_database_name;charset=utf8mb4', 'username', 'password');\n// Or for mysqli\n$mysqli = new mysqli("localhost", "username", "password", "your_database_name");\n$mysqli->set_charset("utf8mb4");

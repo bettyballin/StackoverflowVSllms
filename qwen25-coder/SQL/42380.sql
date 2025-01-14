@@ -1,0 +1,1 @@
+CREATE TABLE MyImages (\n       ImageID NUMBER PRIMARY KEY,\n       ImageData BLOB\n   );

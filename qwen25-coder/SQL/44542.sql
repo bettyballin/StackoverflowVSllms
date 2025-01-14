@@ -1,0 +1,1 @@
+CREATE TABLE HistoricalEvents (\n    EventID int PRIMARY KEY,\n    StartYear int,\n    StartMonth int,\n    StartDay int,\n    EndYear int,\n    EndMonth int,\n    EndDay int\n);\n\nINSERT INTO HistoricalEvents (EventID, StartYear, StartMonth, StartDay, EndYear, EndMonth, EndDay) VALUES\n(1, 1692, 04, 19, 1692, 09, 22),\n(2, 1066, 10, 14, 1066, 10, 14);

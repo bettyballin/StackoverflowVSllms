@@ -1,0 +1,1 @@
+SELECT \n    u.user,\n    (\n        CAST(\n            (SELECT COUNT(*)\n             FROM scores s\n             WHERE s.score > u.score) AS FLOAT\n         ) * 100 / \n         (SELECT COUNT(*) FROM scores)\n    ) AS faster_than_percentage\nFROM \n    scores u\nWHERE \n    u.user = 'john';

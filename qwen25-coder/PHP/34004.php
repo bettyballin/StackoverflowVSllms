@@ -1,0 +1,1 @@
+try {\n       $result = $client->CreateAdvertiser($params);\n       print_r($result);\n   } catch (SoapFault $e) {\n       echo "SOAP Fault: (faultcode: {$e->faultcode}, faultstring: {$e->faultstring})";\n   }

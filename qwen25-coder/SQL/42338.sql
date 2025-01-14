@@ -1,0 +1,1 @@
+SELECT 'INSERT INTO YourTableName (Col1, Col2) VALUES (' + \n       QUOTENAME(Col1, '''') + ', ' +\n       QUOTENAME(Col2, '''') + ');'\nFROM YourTableName;

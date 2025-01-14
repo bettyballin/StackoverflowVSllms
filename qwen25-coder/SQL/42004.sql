@@ -1,0 +1,1 @@
+-- Connect to the database using SQL*Plus\nsqlplus username/password@hostname:port\n\n-- Execute the following SQL command\nselect name from v$database;

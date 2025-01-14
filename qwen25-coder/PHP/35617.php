@@ -1,0 +1,1 @@
+class A {\n    private $to_construct = 'B'; \n    \n    function make_class() {\n        // Use an intermediate variable to hold the class name\n        $constructor = $this->to_construct;\n        $myClass = new $constructor(); \n    }\n\n}\n\nclass B {\n    function __construct() {\n        echo 'class constructed';\n    }\n}\n\n$myA = new A();\n$myA->make_class();

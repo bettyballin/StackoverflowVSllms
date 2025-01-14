@@ -1,0 +1,1 @@
+SELECT ProductId, Nz(Price, 0)\nFROM Products

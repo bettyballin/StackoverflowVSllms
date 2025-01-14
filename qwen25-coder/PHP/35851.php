@@ -1,0 +1,1 @@
+ini_set('display_errors', 1);\n   error_reporting(E_ALL);\n\n   $url = 'http://example.com/your/xmlfile.xml';\n   $xmlString = @file_get_contents($url);\n   if ($xmlString === FALSE) {\n       die("Failed to retrieve XML content: " . implode(", ", error_get_last()));\n   } elseif (!isValidXML($xmlString)) {\n       die("Invalid XML format");\n   }

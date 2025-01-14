@@ -1,0 +1,1 @@
+CASE expression\n    WHEN value1 THEN result1\n    [WHEN ...]\n    ELSE default_result\nEND

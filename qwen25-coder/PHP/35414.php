@@ -1,0 +1,1 @@
+// Use the Form facade to create forms\nuse Collective\Html\FormFacade as Form;\n\necho Form::open(['url' => 'foo/bar', 'class' => 'my-custom-class']);\necho Form::label('name', 'Name');\necho Form::text('name', null, ['class' => 'form-control']);\necho Form::submit('Submit', ['class' => 'btn btn-primary']);\necho Form::close();

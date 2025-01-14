@@ -1,0 +1,1 @@
+<!-- src/Template/Element/menu.ctp -->\n<nav>\n    <ul>\n        <?php foreach ($menuItems as $item): ?>\n            <li><?= $this->Html->link($item['name'], [$item['controller'], $item['action']]) ?></li>\n        <?php endforeach; ?>\n    </ul>\n</nav>

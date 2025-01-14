@@ -1,0 +1,1 @@
+-- Assuming the table is named 'your_table' and the column is named 'your_column'\nUPDATE your_table\nSET your_column = CONCAT(\n    LEFT(your_column, 3), '/', \n    SUBSTRING(your_column, 4, 3), '/',\n    SUBSTRING(your_column, 7, 3), '/',\n    RIGHT(your_column, 4)\n)\nWHERE your_column REGEXP '^[A-Z]{3}\\d{9}\\.\\d$';

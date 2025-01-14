@@ -1,0 +1,1 @@
+# Suppose you expect to append about 1000 elements\ninitial_capacity = 1000\nl = [None] * initial_capacity\n\nindex = 0\nwhile foo:\n    # baz\n    l[index] = bar\n    index += 1\n    # qux\n\n# If the loop appends fewer elements, you can slice to remove None values\nl = l[:index]

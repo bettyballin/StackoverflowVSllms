@@ -1,0 +1,1 @@
+// Avoid this\nif ($variable == 'setvalue')\n    $variable = executefunctiononvariable($variable);\nelse\n    $variable = executedifferentfunctiononvariable($variable);\n\n// Prefer using braces\nif ($variable == 'setvalue') {\n    $variable = executefunctiononvariable($variable);\n} else {\n    $variable = executedifferentfunctiononvariable($variable);\n}

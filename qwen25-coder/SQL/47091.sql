@@ -1,0 +1,1 @@
+DELIMITER //\n\nCREATE TRIGGER prevent_invalid_insert\nBEFORE INSERT ON your_table\nFOR EACH ROW\nBEGIN\n    IF NEW.your_column < 0 THEN -- Example condition for validation failure\n        SIGNAL SQLSTATE '45000'\n        SET MESSAGE_TEXT = 'Invalid data: Value cannot be negative';\n    END IF;\nEND;\n\n//\n\nDELIMITER ;

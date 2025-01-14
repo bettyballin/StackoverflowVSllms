@@ -1,0 +1,1 @@
+const express = require('express');\nconst path = require('path');\n\nconst app = express();\nconst PORT = process.env.PORT || 3000;\n\n// Serve static files from the specified directory (e.g., served by NAS/SAN)\napp.use(express.static(path.join(__dirname, 'public')));\n\napp.listen(PORT, () => {\n    console.log(`Server is running on port ${PORT}`);\n});

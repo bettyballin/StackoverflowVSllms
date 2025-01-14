@@ -1,0 +1,1 @@
+import re\n\nurl = "http://www.domain.com/folder1/folder2/file_path.txt"\npattern = r'(?<=://[^/]+)/.*'\nmatch = re.search(pattern, url)\nif match:\n    print(match.group(0))

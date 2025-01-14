@@ -1,0 +1,1 @@
+-- Assume Key is the column used in the join conditions\nCREATE INDEX idx_OriginalTable_Key\nON dbo.OriginalTable (Key);  -- Replace with actual table name\n\n-- Ensure similar indexes on other tables involved in the join conditions.

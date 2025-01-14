@@ -1,0 +1,1 @@
+def join_with_commas(lst):\n    return ','.join(lst)\n\n# Example usage:\nexample_list = ['a', 'b', 'c']\nresult = join_with_commas(example_list)\nprint(result)  # Output: 'a,b,c'

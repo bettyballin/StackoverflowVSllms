@@ -1,0 +1,1 @@
+function printROnPage(obj) {\n    let str = JSON.stringify(obj, null, 4);\n    document.body.innerHTML += "<pre>" + str + "</pre>";\n}\n\n// Example usage:\nprintROnPage(data);

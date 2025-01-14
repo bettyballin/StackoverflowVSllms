@@ -1,0 +1,1 @@
+SELECT * \nFROM your_table\nWHERE field LIKE '%,1,%'\n   OR field LIKE '1,%'\n   OR field LIKE '%,1'\n   OR field = '1';

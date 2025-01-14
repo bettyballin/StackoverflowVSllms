@@ -1,0 +1,1 @@
+function boolToText($value) {\n    return $value == 1 ? "Yes" : "No";\n}\n\n$paypal = boolToText($row['PAYPAL_ACCEPT']);

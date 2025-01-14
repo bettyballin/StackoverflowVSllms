@@ -1,0 +1,1 @@
+function add(a, b) {\n    var result = a + b;\n    // Log the result to the console using console.log()\n    console.log('The result is: ' + result);\n    return result;\n}\n\n// Call the function with arguments\nadd(5, 3);

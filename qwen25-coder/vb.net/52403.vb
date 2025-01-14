@@ -1,0 +1,1 @@
+Dim strCADataCookie As String = Regex.Replace(strCookies, "(.<em>)cadata=""(.(<em>))""(.*)", "$2")

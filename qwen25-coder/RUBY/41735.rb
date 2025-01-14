@@ -1,0 +1,1 @@
+def debug(*args)\n  puts args.map(&:inspect).join(" ")\nend\n\n# Usage\ndebug("The temperature is", temperature)

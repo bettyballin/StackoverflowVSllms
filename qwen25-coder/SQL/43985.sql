@@ -1,0 +1,1 @@
+SELECT CAST(your_money_column_name AS DECIMAL(19,8)) / 10000000 AS result\nFROM your_table_name;

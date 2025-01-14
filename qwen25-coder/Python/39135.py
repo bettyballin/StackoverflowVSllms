@@ -1,0 +1,1 @@
+import numpy as np\n\n# Define your matrix\nmatrix = np.array([[4, 7], [2, 6]])\n\n# Calculate the inverse\ninverse_matrix = np.linalg.inv(matrix)\n\nprint("Original Matrix:")\nprint(matrix)\nprint("\nInverse of the Matrix:")\nprint(inverse_matrix)

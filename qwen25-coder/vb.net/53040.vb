@@ -1,0 +1,1 @@
+Dim custList = From t In goodCustObjList \n               Where t.SomeIntegerProperty <> 1 AndAlso t.SomeIntegerProperty <> 2\n               Select t

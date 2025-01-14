@@ -1,0 +1,1 @@
+<?php\n// Example sum in Euros\n$sumInEuro = 150;\n\n// Correctly set header with UTF-8 encoding\n$header_reply = "Content-Type: text/plain; charset=utf-8\r\n";\n\n// Use htmlspecialchars to prevent output issues\n$mail_body_reply = htmlspecialchars("Total Sum = $sumInEuro €", ENT_QUOTES, 'UTF-8');\n\nmail($email, $subject_reply, $mail_body_reply, $header_reply);\n?>

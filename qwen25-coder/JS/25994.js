@@ -1,0 +1,1 @@
+$(document).ready(function(){\n    $('#accordion li h3').click(function(){\n        var aId = $(this).find('a').attr('id');\n        alert(aId);\n    });\n});

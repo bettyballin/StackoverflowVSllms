@@ -1,0 +1,1 @@
+CREATE VIEW category_list AS \nSELECT \n    forum_categories.*, \n    MAX(forum_answer.a_id) AS latest_answer_id\nFROM \n    forum_categories\nLEFT JOIN \n    forum_question ON forum_question.catid = forum_categories.id \nLEFT JOIN \n    forum_answer ON forum_answer.question_id = forum_question.id\nGROUP BY \n    forum_categories.id;

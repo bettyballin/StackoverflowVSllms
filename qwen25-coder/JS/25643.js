@@ -1,0 +1,1 @@
+function getIssuanceTime(validationType) {\n    switch (validationType) {\n        case 'DV':\n            return "_minutes";\n        case 'OV':\n            return "1-2_days";\n        case 'EV':\n            return "5-10_days";\n        default:\n            return "Unknown_validation_type";\n    }\n}

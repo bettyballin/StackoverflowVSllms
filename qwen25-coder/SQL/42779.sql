@@ -1,0 +1,1 @@
+SELECT SUM(TIMESTAMPDIFF(MINUTE, start_time, end_time)) AS total_duration_minutes\nFROM your_table_name;

@@ -1,0 +1,1 @@
+-- Example of a simple query to check CPU usage over time\n   SELECT cpu_time FROM sys.dm_exec_requests ORDER BY cpu_time DESC;

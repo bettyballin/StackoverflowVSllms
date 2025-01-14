@@ -1,0 +1,1 @@
+SELECT * \nFROM Orders \nORDER BY OrderID \nLIMIT n-1, 1; -- Replace 'n' with the row number you want to select

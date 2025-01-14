@@ -1,0 +1,1 @@
+<script type="text/javascript">\n$(document).ready(function(){\n    $(".editme1").editInPlace({\n        url: "http://www.mysite.com/update.php",\n        params: 'ajax=yes&', // Ensure to append '&' if adding more parameters\n        paramName: 'update_value' // Specify the parameter name for the updated value\n    });\n});\n</script>

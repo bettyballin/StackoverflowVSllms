@@ -1,0 +1,1 @@
+from a import name, age\n\nif name == "Michael":\n    if age == 15:\n        print("Simple!")

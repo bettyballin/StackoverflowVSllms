@@ -1,0 +1,1 @@
+def operation(originalElement, anotherVar):\n    return originalElement * anotherVar + 5\n\nnumbers = [1, 2, 3, ..., 100]  # Your list of numbers\nanotherVar = 2\n\nresult = list(map(lambda x: operation(x, anotherVar), numbers))\nprint(result)

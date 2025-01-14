@@ -1,0 +1,1 @@
+$obj = new stdClass();\n$obj->{"foo"} = "bar";\n$obj->{"0"} = "zero";\n\n// Use get_object_vars() to convert the object to an associative array\n$arr = get_object_vars($obj);\n\nforeach ($arr as $key => $value) {\n    echo "$key -- " . $arr[$key] . "\n";\n}

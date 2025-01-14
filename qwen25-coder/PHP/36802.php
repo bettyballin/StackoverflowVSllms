@@ -1,0 +1,1 @@
+$var = "";\n  var_dump(empty($var)); // Outputs: bool(true)

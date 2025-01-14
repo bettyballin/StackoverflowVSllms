@@ -1,0 +1,1 @@
+SELECT \n       t1.ColumnA, \n       t2.ColumnB\n   FROM \n       LocalDB.dbo.Table1 AS t1\n   INNER JOIN \n       SecondServer.RemoteDB.dbo.Table2 AS t2\n   ON \n       t1-commonColumn = t2.commonColumn;

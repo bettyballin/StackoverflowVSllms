@@ -1,0 +1,1 @@
+<?xml version="1.0"?>\n   <config>\n       <modules>\n           <YourNamespace_CategoryFilter>\n               <active>true</active>\n               <codePool>local</codePool>\n               <depends>\n                   <Mage_Catalog />\n               </depends>\n           </YourNamespace_CategoryFilter>\n       </modules>\n   </config>

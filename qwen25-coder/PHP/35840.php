@@ -1,0 +1,1 @@
+// Example in PHP for a CSS file\n<?php\nheader('Content-type: text/css;');\nheader("Cache-Control: public");\n$expires = 60 * 60 * 24 * 30; // Cache expire in one month\nheader("Expires: " . gmdate("D, d M Y H:i:s", time() + $expires) . " GMT");\n?>\n/* CSS code here */

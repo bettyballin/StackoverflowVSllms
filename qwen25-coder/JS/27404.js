@@ -1,0 +1,1 @@
+$.ajax({\n    url: 'http://example.com/api',\n    dataType: 'jsonp', // Specify jsonp type\n    success: function(response) {\n        console.log(response);\n    },\n    error: function() {\n        console.error('Error with JSONP request');\n    }\n});

@@ -1,0 +1,1 @@
+from collections import Counter\n\ndef are_permutations(a, b):\n    return Counter(a) == Counter(b)

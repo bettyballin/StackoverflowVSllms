@@ -1,0 +1,1 @@
+// Example using FB SDK to refresh the session\nFB.getLoginStatus(function(response) {\n  if (response.status === 'connected') {\n    // The user is logged into your app and Facebook.\n    console.log('Logged in:', response.authResponse);\n  } else {\n    // The user isn't logged in to your app or we can't tell. \n    FB.login();\n  }\n});

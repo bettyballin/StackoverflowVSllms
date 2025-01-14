@@ -1,0 +1,1 @@
+INSERT INTO MY_DATA.TARGET_TABLE (\n    column1,\n    column2,\n    column3\n)\nSELECT \n    column1,\n    column2,\n    column3\nFROM CORE_DATA.SOURCE_TABLE;

@@ -1,0 +1,1 @@
+<?php\n// Set environment variable for potential use by other processes or scripts\nputenv('BUGZILLA_USER=your_username');\n\n// For Apache, you can also try setting it using apache_setenv if needed\napache_setenv('BUGZILLA_USER', 'your_username');\n?>

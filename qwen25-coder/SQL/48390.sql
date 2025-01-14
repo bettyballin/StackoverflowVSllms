@@ -1,0 +1,1 @@
+@?/rdbms/admin/prvtfil.plb\n@?/rdbms/admin/utlfdir.sql

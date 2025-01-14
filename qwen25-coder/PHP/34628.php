@@ -1,0 +1,1 @@
+<?php\n$osInfo = php_uname('s n'); // Fetches OS name and hostname\necho $osInfo;\n\n// For all available information\n$allInfo = php_uname('a');\necho "\n" . $allInfo;\n?>

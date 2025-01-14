@@ -1,0 +1,1 @@
+SELECT word_id, count_sids\nFROM (\n    SELECT word_id, COUNT(sentence_id) AS count_sids\n    FROM sentence_word\n    GROUP BY word_id\n) AS counts\nWHERE count_sids > 100;

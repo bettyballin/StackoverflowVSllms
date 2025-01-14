@@ -1,0 +1,1 @@
+// Example of AngularJS data binding\n   var app = angular.module('myApp', []);\n   app.controller('myCtrl', function($scope) {\n       $scope.user = { name: "John", age: 25 };\n   });

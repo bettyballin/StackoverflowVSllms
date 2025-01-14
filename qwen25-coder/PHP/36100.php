@@ -1,0 +1,1 @@
+function extract_images_sources(&$post) {\n    $content = $post->post_content;\n    // Use preg_match_all instead of preg_match\n    if (preg_match_all('/<img[^>]+src="(.*?)"[^>]*>/', $content, $matches)) {\n        // Return the array of sources from the matches\n        return $matches[1];\n    }\n    // Return an empty array if no images are found\n    return [];\n}

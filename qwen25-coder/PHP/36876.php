@@ -1,0 +1,1 @@
+setlocale(LC_ALL, 'zh_CN.UTF-8');\n   bindtextdomain("myPHPApp", "./LocaleData");\n   textdomain("myPHPApp");\n   echo gettext("Hello"); // Should output the corresponding Chinese translation defined in LocaleData files

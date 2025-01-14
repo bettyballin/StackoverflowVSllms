@@ -1,0 +1,1 @@
+CREATE TABLE PricingFormulas (\n    FormulaID INT AUTO_INCREMENT PRIMARY KEY,\n    Description VARCHAR(255),\n    FormulaText TEXT\n);

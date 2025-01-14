@@ -1,0 +1,1 @@
+Dim stringDN As String = "Programmers/DBAs,OU=User Groups,DC=mydomain,DC=local"\n' Escape the '/' character with a backslash\nstringDN = stringDN.Replace("/", "\/")\nDim de As New DirectoryEntry("LDAP://" & stringDN)\nReturn CType(de.Properties("samaccountname")(0), String)

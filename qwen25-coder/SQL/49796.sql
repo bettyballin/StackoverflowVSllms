@@ -1,0 +1,1 @@
+CREATE VIEW YourView AS\nSELECT \n    t1.Column1,\n    t2.Column2\nFROM \n    Table1 WITH (NOLOCK) t1\nJOIN \n    Table2 WITH (NOLOCK) t2 ON t1.ID = t2.T1ID;

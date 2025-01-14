@@ -1,0 +1,1 @@
+function getCurrentFullUrl() {\n    $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";\n    $host = $_SERVER['HTTP_HOST'];\n    $script_name = $_SERVER['SCRIPT_NAME'];\n    $request_uri = $_SERVER['REQUEST_URI'];\n\n    return $protocol . $host . $script_name;\n}\n\necho getCurrentFullUrl();

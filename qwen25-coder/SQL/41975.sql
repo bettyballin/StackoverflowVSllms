@@ -1,0 +1,1 @@
+SET @n := 0;\nUPDATE wp_posts\nSET post_date = DATE_ADD(post_date, INTERVAL (@n:=@n + 1) SECOND),\n    post_modified = DATE_ADD(post_modified, INTERVAL (@n:=@n + 1) SECOND)\nWHERE post_type = 'post';

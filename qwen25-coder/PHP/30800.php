@@ -1,0 +1,1 @@
+// Example of changing deprecated function usage in Symfony 1.2\n\n// Before Symfony 1.2\n$context = sfContext::getInstance();\n$request = $context->getRequest();\n\n// After Symfony 1.2 (using new static method)\n$request = sfContext::getInstance()->getRequest();\n\n// Check for more changes by consulting the official upgrade notes

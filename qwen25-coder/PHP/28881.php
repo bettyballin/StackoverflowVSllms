@@ -1,0 +1,1 @@
+$cfg['ExecTimeLimit'] = 600;  // Execution time limit, default is 30\n     $cfg['MemoryLimit'] = '256M'; // Memory limit for large exports or imports

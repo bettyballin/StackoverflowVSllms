@@ -1,0 +1,1 @@
+DECLARE\n    l_oracle_home VARCHAR2(300);\nBEGIN\n    l_oracle_home := Utils.getOracleHome();\n    DBMS_OUTPUT.PUT_LINE('ORACLE_HOME: ' || l_oracle_home);\nEND;\n/

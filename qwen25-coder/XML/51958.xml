@@ -1,0 +1,1 @@
+<phpunit>\n    <testsuites>\n        <testsuite name="All Tests">\n            <!-- Add paths to your specific test files here -->\n            <file>path/to/your/test/file1.php</file>\n            <file>path/to/your/test/file2.php</file>\n        </testsuite>\n    </testsuites>\n</phpunit>

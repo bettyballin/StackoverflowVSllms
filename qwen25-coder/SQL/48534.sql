@@ -1,0 +1,1 @@
+SELECT * \nFROM table1 \nINNER JOIN table2 \nON TRY_CAST(table1.ID AS INT) = TRY_CAST(table2.ID AS INT);

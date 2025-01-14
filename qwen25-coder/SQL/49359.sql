@@ -1,0 +1,1 @@
+SELECT a.* \nFROM a\nLEFT JOIN b ON b.a_id = a.id\nWHERE b.a_id IS NULL;

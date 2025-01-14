@@ -1,0 +1,1 @@
+if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] != "on") {\n       $url = "https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];\n       header("Location: $url");\n       exit();\n   }

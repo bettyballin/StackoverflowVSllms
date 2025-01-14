@@ -1,0 +1,1 @@
+ALTER TABLE your_table MODIFY COLUMN column_name INT FIRST;\nALTER TABLE your_table MODIFY COLUMN another_column VARCHAR(255) AFTER column_name;

@@ -1,0 +1,1 @@
+update mytable set counter = counter + 1;

@@ -1,0 +1,1 @@
+header('Content-Type: text/event-stream');\nheader('Cache-Control: no-cache');\n\nwhile (true) {\n    // Send data to clients\n    echo "data: " . json_encode(['message' => 'Hello!']) . "\n\n";\n    \n    // Simulate waiting\n    sleep(5);\n    \n    // Flush output buffer\n    flush();\n}

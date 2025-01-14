@@ -1,0 +1,1 @@
+// Select the element\nvar element = document.getElementById('yourElementId');\n\n// Add or update a standard attribute like 'class'\nelement.className = 'newClass';\n\n// For non-standard attributes, you can use setAttribute\nelement.setAttribute('nonStandardAttribute', 'value');

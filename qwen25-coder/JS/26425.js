@@ -1,0 +1,1 @@
+function logout() {\n    // Perform logout actions like clearing local storage or cookies\n    localStorage.clear();\n    \n    // Navigate away from the current page using location.replace which leaves no entry in the browser's session history stack.\n    window.location.replace('/logout');\n}

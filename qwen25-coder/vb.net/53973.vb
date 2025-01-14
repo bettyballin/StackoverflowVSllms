@@ -1,0 +1,1 @@
+Dim oCommand As SqlCommand = Nothing

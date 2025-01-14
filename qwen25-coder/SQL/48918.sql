@@ -1,0 +1,1 @@
+BEGIN\n  DBMS_APPLICATION_INFO.SET_MODULE(\n    module_name => 'MyApplicationModule',\n    action_name => 'ExecutingCriticalQuery'\n  );\nEND;\n/\n\n-- Your critical SQL statement here\nSELECT * FROM my_table WHERE condition = value;\n\nBEGIN\n  DBMS_APPLICATION_INFO.SET_ACTION(NULL);\nEND;\n/

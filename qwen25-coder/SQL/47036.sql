@@ -1,0 +1,1 @@
+SELECT column_name, data_type, nullable, data_length \nFROM all_tab_columns \nWHERE owner = 'BOB' AND table_name = 'STUDENTS';

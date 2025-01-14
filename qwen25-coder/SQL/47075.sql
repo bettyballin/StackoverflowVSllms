@@ -1,0 +1,1 @@
+SELECT b.id, b.name\nFROM boxes AS b\nJOIN thingsinboxes AS tib ON b.id = tib.box_id\nGROUP BY b.id, b.name\nHAVING COUNT(tib.thing) > 0 AND SUM(CASE WHEN tib.thing <> 'orange' THEN 1 ELSE 0 END) = 0;

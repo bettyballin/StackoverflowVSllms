@@ -1,0 +1,1 @@
+document.querySelector('.toolbar').addEventListener('click', function(event) {\n    if (event.target.tagName === 'BUTTON') {\n        alert(`Button ${event.target.textContent} clicked!`);\n    }\n});

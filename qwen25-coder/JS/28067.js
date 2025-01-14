@@ -1,0 +1,1 @@
+// Using .on() for static elements\n$("#myButton").on("click", function() {\n    console.log("Button clicked using on!");\n});\n\n// Using .on() with event delegation for dynamic elements\n$(document).on("click", "a.offsite", function(event) {\n    event.preventDefault();\n    alert("You have tried to navigate to: " + this.href);\n});

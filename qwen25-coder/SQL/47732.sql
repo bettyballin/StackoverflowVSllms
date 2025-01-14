@@ -1,0 +1,1 @@
+UPDATE CALLS \nSET amount = newAmount, version = version + 1 \nWHERE callId=1213 AND version = currentVersion;\n\n// If update affects no rows, it means another transaction updated the row before you, so you should retry or handle accordingly\n\nCOMMIT;

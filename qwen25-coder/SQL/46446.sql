@@ -1,0 +1,1 @@
+WHERE \n    CAST(DATEADD(HOUR, tz.Offset + CASE WHEN ds.LocalTimeZone IS NOT NULL THEN 1 ELSE 0 END, t.TheDateINeedToCheck) AS DATE)\n    = CAST(@ActivityDate AS DATE);

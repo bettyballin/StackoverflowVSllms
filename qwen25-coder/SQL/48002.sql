@@ -1,0 +1,1 @@
+SELECT CAST(deliveryDate AS DATE) AS Date,\n       SUM(someValues) AS TotalSum\nFROM table1\nGROUP BY CAST(deliveryDate AS DATE)\nORDER BY CAST(deliveryDate AS DATE);

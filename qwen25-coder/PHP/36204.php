@@ -1,0 +1,1 @@
+// Using buffered result set\n$result = mysqli_query($conn, $query);\nif ($result) {\n    while ($row = mysqli_fetch_assoc($result)) {\n        // Process each row\n    }\n    mysqli_free_result($result);\n}

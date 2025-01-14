@@ -1,0 +1,1 @@
+echo \String\match("Hello", "hello"); // Use backslash for the global namespace

@@ -1,0 +1,1 @@
+<p>\n    <label for="email">\n        Email:</label>\n    <%= Html.TextBox("email") %>\n    <%= Html.ValidationMessage("email", new { id = "email-validation-message" }) %>\n</p>

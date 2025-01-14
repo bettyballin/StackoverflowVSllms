@@ -1,0 +1,1 @@
+if(!empty($_GET['gender'])) {\n    // The 'gender' parameter is non-empty, do something with its value.\n}

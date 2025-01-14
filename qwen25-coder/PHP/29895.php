@@ -1,0 +1,1 @@
+<?php\n// Assume some long-running process here\n$totalSteps = 10;\nfor ($step = 1; $step <= $totalSteps; $step++) {\n    usleep(200000); // Simulate delay\n    echo json_encode(['progress' => ($step / $totalSteps) * 100]);\n    ob_flush();\n    flush();\n}\n?>

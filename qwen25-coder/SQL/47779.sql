@@ -1,0 +1,1 @@
+create or replace procedure testproc(arg1 in varchar2(32767)) is\nbegin\n  null;\nend;

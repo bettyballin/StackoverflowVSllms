@@ -1,0 +1,1 @@
+<?php\nif (extension_loaded('sockets')) {\n    echo 'Sockets extension is available.';\n} else {\n    echo 'Sockets extension is not available.';\n}\n?>

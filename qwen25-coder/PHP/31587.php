@@ -1,0 +1,1 @@
+<?php\n// Example setup for enqueueing tasks (pseudo-code)\nuse Enqueue\Client\ProducerInterface;\n\nclass CronJob {\n    public function __construct(private ProducerInterface $producer) {}\n    \n    public function triggerCron() {\n        // Enqueue a job to be processed asynchronously\n        $this->producer->sendEvent('cron.event');\n    }\n}

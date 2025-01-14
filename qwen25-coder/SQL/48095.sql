@@ -1,0 +1,1 @@
+UPDATE your_table t1 \nJOIN (\n    SELECT @rownum:=@rownum+1 as row_number, id -- assuming 'id' is the primary key\n    FROM your_table, (SELECT @rownum:=0) r \n    WHERE products_parent_id = 2\n    ORDER BY id\n) t2 ON t1.id = t2.id AND t2.row_number = 3\nSET t1.products_quantity = t1.products_quantity + your_value,\n    t1.products_ordered = t1.products_ordered - your_value;

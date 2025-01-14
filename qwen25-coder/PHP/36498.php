@@ -1,0 +1,1 @@
+$remove_array = array('http://www.', 'http://', 'https://', 'https://www.', 'www.');\n$site = str_replace($remove_array, "", $_POST['site']);\n$site = rtrim($site, '/');

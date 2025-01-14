@@ -1,0 +1,1 @@
+tags = [Tag.new(name: "Ruby"), Tag.new(name: "Rails")]\nnames = tags.map(&:name)\n# names will be ["Ruby", "Rails"]

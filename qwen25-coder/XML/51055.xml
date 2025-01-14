@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>com.helger</groupId>\n    <artifactId>schematron-validator</artifactId>\n    <version>9.4.2</version>\n</dependency>

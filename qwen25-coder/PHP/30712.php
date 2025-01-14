@@ -1,0 +1,1 @@
+foreach ($header as $idx => $field) {\n    if (stripos($field, 'foo') !== false) {\n        $cols['foo'] = $idx;\n    } else if (stripos($field, 'bar') !== false) {\n        $cols['bar'] = $idx;\n    } else if (stripos($field, 'brr') !== false) {\n        $cols['brr'] = $idx;\n    } else if (stripos($field, 'ffo') !== false) {\n        $cols['ffo'] = $idx;\n    }\n}

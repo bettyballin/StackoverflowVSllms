@@ -1,0 +1,1 @@
+SELECT COUNT(*) INTO @record_count FROM your_table_name;\n\nIF @record_count > 10000 THEN\n    -- Execute code to add index\n    ALTER TABLE your_table_name ADD INDEX idx_column_name (column_name);\nEND IF;

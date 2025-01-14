@@ -1,0 +1,1 @@
+<dependency>\n       <groupId>com.yourcompany</groupId>\n       <artifactId>your-jsp-module</artifactId>\n       <version>1.0-SNAPSHOT</version>\n       <type>war</type>\n       <scope>provided</scope>\n   </dependency>

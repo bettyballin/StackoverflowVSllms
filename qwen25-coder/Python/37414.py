@@ -1,0 +1,1 @@
+def cantor_pairing_function(a, b):\n    return (a + b) * (a + b + 1) // 2 + b\n\n# Example usage:\nA = 5\nB = 3\nC = cantor_pairing_function(A, B)\nprint(f"The unique integer for ({A}, {B}) is {C}")

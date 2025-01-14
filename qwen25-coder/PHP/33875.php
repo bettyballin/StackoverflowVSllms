@@ -1,0 +1,1 @@
+class UserRepository extends Doctrine\Repository\AbstractRepository\n{\n    public function register($username, $password, $email)\n    {\n        // Registration logic here\n    }\n}

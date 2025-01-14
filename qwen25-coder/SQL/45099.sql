@@ -1,0 +1,1 @@
+CREATE TABLE Courses (\n       course_id INT PRIMARY KEY AUTO_INCREMENT,\n       course_name VARCHAR(255) NOT NULL\n   );

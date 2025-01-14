@@ -1,0 +1,1 @@
+DECLARE @variableOne DECIMAL(10, 4);\nDECLARE @variableTwo DECIMAL(10, 4);\n\nSELECT \n    @variableOne = AVG(someColumn),\n    @variableTwo = AVG(otherColumn)\nFROM tblTable;

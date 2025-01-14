@@ -1,0 +1,1 @@
+ALTER TABLE files ALTER COLUMN date_uploaded TYPE timestamp USING date_uploaded + '2000-01-01';

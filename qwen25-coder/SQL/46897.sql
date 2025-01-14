@@ -1,0 +1,1 @@
+SELECT 'First Line' || CHAR(13) || CHAR(10) || 'Second Line' AS Result;

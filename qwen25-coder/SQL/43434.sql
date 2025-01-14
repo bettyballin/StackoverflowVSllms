@@ -1,0 +1,1 @@
+CREATE MATERIALIZED VIEW mv_high_sales AS\n   SELECT * FROM sales WHERE amount > 1000;\n   REFRESH MATERIALIZED VIEW mv_high_sales;

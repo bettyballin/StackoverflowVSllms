@@ -1,0 +1,1 @@
+SELECT rc.*\nFROM RegisteredCodes rc\nWHERE EXISTS (\n    SELECT 1\n    FROM CodeVariations cv\n    WHERE rc.CODE LIKE REPLACE(cv.CODE, '_', '%')\n);

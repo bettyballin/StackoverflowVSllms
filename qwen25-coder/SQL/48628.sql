@@ -1,0 +1,1 @@
+SELECT \n    '2009-08-12 02:59:59'::timestamp - '2009-08-12 02:59:10'::timestamp AS time_difference\nFROM \n    your_table\nWHERE \n    ('2009-08-12 02:59:59'::timestamp - '2009-08-12 02:59:10'::timestamp) = INTERVAL '30 seconds';

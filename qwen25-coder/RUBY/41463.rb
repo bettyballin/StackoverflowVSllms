@@ -1,0 +1,1 @@
+# spec_helper.rb\n   require 'spec/rails'

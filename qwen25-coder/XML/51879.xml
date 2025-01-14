@@ -1,0 +1,1 @@
+<!-- Example of how to add a Picture field in list settings -->\n<Field Type="URL" DisplayName="Image" Format="HyperlinkPicture" Name="Image" Required="FALSE"></Field>

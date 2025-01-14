@@ -1,0 +1,1 @@
+Dim cCode As String\ncCode = "YourVariableValue" ' Replace with your actual variable\n\n' Correctly formatting the script string with the variable value\nCall .Document.parentWindow.execScript("FillVendorNames('" & cCode & "')", "javascript")

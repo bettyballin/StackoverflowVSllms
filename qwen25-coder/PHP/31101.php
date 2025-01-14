@@ -1,0 +1,1 @@
+<?php\n$pccode = escapeshellarg($_POST['pccode']); // Assume pccode is taken from a POST request\n$command = "keygen AB3554C1D1971DB7 {$pccode} 365";\n\nexec($command, $output, $return_var);\n\nif ($return_var === 0) {\n    echo "Command executed successfully. Output:\n";\n    print_r($output);\n} else {\n    echo "Error executing command.\n";\n}\n?>

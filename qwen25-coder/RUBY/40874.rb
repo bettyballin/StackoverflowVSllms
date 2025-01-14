@@ -1,0 +1,1 @@
+user = User.find_by(email: 'example@example.com')\nuser.update(password: 'newtempassword123', password_confirmation: 'newtempassword123')

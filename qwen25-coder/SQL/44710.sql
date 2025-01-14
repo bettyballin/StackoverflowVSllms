@@ -1,0 +1,1 @@
+CREATE TABLESPACE expl_tablespace MANAGED SYSTEM USING ('/path/to/expl/data') EXTENTSIZE 4;\n   CREATE TABLE db2inst1.expln_table (EXPLAIN_OBJECT VARCHAR(1024)) DATA CAPTURE NONE IN expl_tablespace;\n   \n   -- Create additional necessary tables as required by your DB2 versio

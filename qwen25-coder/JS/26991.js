@@ -1,0 +1,1 @@
+// Using Fetch API to send POST request\nfetch('somepage.php', {\n  method: 'POST',\n  headers: {\n    'Content-Type': 'application/x-www-form-urlencoded'\n  },\n  body: 'data=1'\n})\n.then(response => response.text())\n.then(data => console.log(data))\n.catch(error => console.error('Error:', error));

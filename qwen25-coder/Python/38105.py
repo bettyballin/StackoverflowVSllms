@@ -1,0 +1,1 @@
+# Creating a list with 12,000 elements\nlarge_list = list(range(12000))\n\n# Shuffling the list to simulate random data\nimport random\nrandom.shuffle(large_list)\n\n# Sorting the list\nsorted_list = sorted(large_list)\n\nprint("First 10 elements of sorted list:", sorted_list[:10])

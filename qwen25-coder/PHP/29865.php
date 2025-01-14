@@ -1,0 +1,1 @@
+$query = "SELECT * FROM table WHERE thing = 'whatever'";\n$results = $pdo->query($query);\n\nif ($row = $results->fetch(PDO::FETCH_ASSOC)) {\n    do {\n        echo "<p>{$row['whatever']}</p>";\n    } while ($row = $results->fetch(PDO::FETCH_ASSOC));\n} else {\n    echo "<p>No results found</p>";\n}

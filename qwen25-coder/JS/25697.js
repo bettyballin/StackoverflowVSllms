@@ -1,0 +1,1 @@
+<script language="javascript">\n    var str = "a$b";\n    alert(str.replace(/\$/g, 'k')); // Ensure only one backslash is used here\n</script>

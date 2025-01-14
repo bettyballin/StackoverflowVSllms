@@ -1,0 +1,1 @@
+<% @resource.versions.each do |version| %>\n  <%= link_to "Revert to version #{version.version}", revert_to_version_your_resource_path(@resource, version_number: version.version), method: :patch,\n            data: { confirm: 'Are you sure you want to revert this resource to the selected version?' } %>\n<% end %>

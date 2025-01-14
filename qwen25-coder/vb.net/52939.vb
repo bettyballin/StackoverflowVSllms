@@ -1,0 +1,1 @@
+="This is text" & vbCrLf & "This is the second line"

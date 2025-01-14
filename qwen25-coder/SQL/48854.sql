@@ -1,0 +1,1 @@
+SELECT cc.ancestor AS parent_id, c.title FROM categories c JOIN category_closure cc ON c.id = cc.ancestor WHERE cc.descendant = 3 ORDER BY cc.depth DESC;

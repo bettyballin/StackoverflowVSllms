@@ -1,0 +1,1 @@
+SELECT \n  A.id AS aid,\n  GROUP_CONCAT(B.id ORDER BY B.id SEPARATOR ',') AS bid,\n  GROUP_CONCAT(C.id ORDER BY C.id SEPARATOR ',') AS cid\nFROM \n  A\nLEFT JOIN \n  B ON B.aid = A.id\nLEFT JOIN \n  C ON C.aid = A.id\nWHERE \n  A.id = 1\nGROUP BY \n  A.id;

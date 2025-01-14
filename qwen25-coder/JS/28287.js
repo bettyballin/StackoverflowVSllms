@@ -1,0 +1,1 @@
+_onFocus: function(evt) {\n    // Use evt.target to get the source element\n    var target = evt.target || evt.srcElement;  // For compatibility with older versions of IE\n    if (target && target.tagName.toLowerCase() === 'input') {\n        target.select();\n    }\n}

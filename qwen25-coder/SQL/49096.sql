@@ -1,0 +1,1 @@
+SELECT b.name, COUNT(*) AS orders, COUNT(DISTINCT(a.customer_id)) AS leads\nFROM medie a\nJOIN katalogbestilling_katalog b ON a.id = b.offlineid\nGROUP BY a.id;

@@ -1,0 +1,1 @@
+session_start();\n   session_unset();\n   session_destroy();\n   setcookie(session_name(), '', time() - 42000, '/');

@@ -1,0 +1,1 @@
+DELETE FROM log_table WHERE log_timestamp < SYSDATE - 1; -- Keeps logs for one day only\nCOMMIT;

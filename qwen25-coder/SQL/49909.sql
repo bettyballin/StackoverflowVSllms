@@ -1,0 +1,1 @@
+DECLARE\n    v_id NUMBER;\nBEGIN\n    INSERT INTO your_table (id_column, other_columns)\n    VALUES (your_sequence.NEXTVAL, 'other_values')\n    RETURNING id_column INTO v_id;\n\n    -- Now v_id contains the sequence number of the row just inserted.\n    DBMS_OUTPUT.PUT_LINE('The ID of the inserted row is: ' || v_id);\nEND;

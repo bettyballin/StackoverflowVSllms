@@ -1,0 +1,1 @@
+select t1.id, t2.id from mytable as t2, mytable as t1 where t2.id > t1.id;

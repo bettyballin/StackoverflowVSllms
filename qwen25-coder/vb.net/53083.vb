@@ -1,0 +1,1 @@
+' Comment in VB.NET\nDim x As Integer = 5 ' Variable declaration\nFunction MyMethod(param As String) As Boolean\n    ' Function with parameter and return type\n    Return param.Length > 0\nEnd Function\n\nSub Main()\n    Dim result As Boolean = MyMethod("Test")\n    If result Then\n        Console.WriteLine("String is not empty.")\n    End If\nEnd Sub

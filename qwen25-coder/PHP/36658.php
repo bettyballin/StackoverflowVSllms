@@ -1,0 +1,1 @@
+$pwd = filter_input(INPUT_POST, 'pwd', FILTER_SANITIZE_STRING, array('flags' => FILTER_FLAG_NO_ENCODE_QUOTES));\nif ($pwd === false || $pwd === null) {\n    // Handle the error (e.g., input was not set or did not match format expectations)\n}

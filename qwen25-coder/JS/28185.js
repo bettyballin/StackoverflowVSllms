@@ -1,0 +1,1 @@
+app.post('/submit', (req, res) => {\n    const { userInput } = req.body;\n\n    // Example of server-side validation\n    if (!userInput || typeof userInput !== 'string' || userInput.length < 5) {\n        return res.status(400).send('Invalid input');\n    }\n\n    // Proceed with processing the valid data\n    // ...\n});

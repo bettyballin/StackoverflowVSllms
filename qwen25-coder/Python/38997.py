@@ -1,0 +1,1 @@
+import requests\n\ndef search_web_services(query):\n    url = "https://www.programmableweb.com/api/search"\n    params = {'q': query}\n    response = requests.get(url, params=params)\n    if response.status_code == 200:\n        return response.json()\n    else:\n        return None\n\n# Example usage\nservices = search_web_services("weather")\nprint(services)

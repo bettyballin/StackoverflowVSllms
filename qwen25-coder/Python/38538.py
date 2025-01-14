@@ -1,0 +1,1 @@
+def compact(*args, local_vars=None):\n    if local_vars is None:\n        local_vars = locals()\n    return {key: value for key, value in local_vars.items() if key in args}\n\n# Example usage\nfoo = 'what'\nbar = 'ever'\na = compact('foo', 'bar')\nprint(a['foo'])  # Output: what

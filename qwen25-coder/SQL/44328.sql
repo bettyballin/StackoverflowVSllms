@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS messages (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    sender VARCHAR(255),\n    content TEXT,\n    received_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);

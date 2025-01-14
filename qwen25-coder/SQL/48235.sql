@@ -1,0 +1,1 @@
+SET DEFINE OFF;\n\n-- Your SQL script goes here, including comments with ampersands.\n\n-- Remember to turn DEFINE back ON if needed after running your script.\nSET DEFINE ON;

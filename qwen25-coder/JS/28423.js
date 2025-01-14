@@ -1,0 +1,1 @@
+error: function() {\n       window.location.href = "ERRoR";\n   }

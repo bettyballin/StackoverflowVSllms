@@ -1,0 +1,1 @@
+#!/usr/bin/env python3\nimport sys\nfrom bs4 import BeautifulSoup\n\nsoup = BeautifulSoup(sys.stdin, 'html.parser')\nfor div in soup.find_all('div'):\n    # Extract text content without tags\n    print(div.get_text(strip=True))

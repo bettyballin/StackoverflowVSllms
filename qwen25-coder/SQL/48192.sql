@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.SplitString(@str NVARCHAR(MAX))\nRETURNS @split TABLE (CharPos INT IDENTITY(1,1), Character CHAR(1)) AS \nBEGIN \n    DECLARE @c BIT = 1;\n    WHILE (@c > 0) \n    BEGIN \n        INSERT INTO @split(Character)\n        SELECT LEFT(@str, 1)\n\n        SET @str = SUBSTRING(@str, 2, LEN(@str))\n        SET @c = (SELECT LEN(@str)) \n    END; \n    RETURN; \nEND;

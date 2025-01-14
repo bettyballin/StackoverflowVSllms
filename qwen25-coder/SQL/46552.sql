@@ -1,0 +1,1 @@
+SELECT \n    substring(availability from 'available ([0-9]{2}/[A-Z]{3}/[0-9]{4})') AS startdate\nFROM your_table;

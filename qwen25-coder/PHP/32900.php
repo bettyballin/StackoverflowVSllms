@@ -1,0 +1,1 @@
+if(extension_loaded('gd')) {\n    echo 'GD library is loaded.';\n} else {\n    echo 'GD library is not loaded.';\n}\n\nif(extension_loaded('imagick')) {\n    echo 'ImageMagick extension is loaded.';\n} else {\n    echo 'ImageMagick extension is not loaded.';\n}

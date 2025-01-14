@@ -1,0 +1,1 @@
+SELECT \n    DATEADD(SECOND, AVG(DATEDIFF(SECOND, '1899-12-30', YourDateTimeColumn)) * 24 * 3600, '1899-12-30') AS AverageDate\nFROM \n    YourTable;

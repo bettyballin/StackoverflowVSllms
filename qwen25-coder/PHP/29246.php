@@ -1,0 +1,1 @@
+<?php\n$config = require_once 'config.php';\n\n// Use the configuration values like so:\necho $config['hostname'];

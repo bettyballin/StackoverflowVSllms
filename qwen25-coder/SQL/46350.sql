@@ -1,0 +1,1 @@
+DECLARE @startDate DATETIME\nDECLARE @endDate DATETIME\nSET @startDate = '01/01/2008 00:00:00'\nSET @endDate = DATEADD(DAY, 1, CAST('04/01/2008' AS DATETIME))\n\n-- Test what are the start and end dates\nSELECT MIN([date]), MAX([date]) \nFROM view_Inspections \nWHERE [date] >= @startDate AND [date] < @endDate

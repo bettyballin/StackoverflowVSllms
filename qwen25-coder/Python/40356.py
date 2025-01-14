@@ -1,0 +1,1 @@
+import html\n\ntext = "<script>alert('xss');</script>"\nescaped_text = html.escape(text)\nprint(escaped_text)  # Output: &lt;script&gt;alert(&#x27;xss&#x27;);&lt;/script&gt;

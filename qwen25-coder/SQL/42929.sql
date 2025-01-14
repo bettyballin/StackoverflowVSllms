@@ -1,0 +1,1 @@
+SELECT id, name, lft, rgt\nFROM your_table_name AS child\nJOIN (\n    SELECT lft AS parent_lft, rgt AS parent_rgt\n    FROM your_table_name\n    WHERE id = :target_id -- Replace :target_id with the ID of the node whose children you want\n) AS parent ON child.lft BETWEEN parent.parent_lft + 1 AND parent.parent_rgt - 1;

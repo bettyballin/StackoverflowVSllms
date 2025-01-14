@@ -1,0 +1,1 @@
+my_list = [2]\nmy_list.extend([])\nresult = my_list == [2]\nprint(result)  # This will print True

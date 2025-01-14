@@ -1,0 +1,1 @@
+function searchCallback(html) {\n    var $searchResults = $("#divSearchResults");\n    \n    // Slide up the div before changing its content\n    $searchResults.slideUp('fast', function() {\n        // Update the HTML content\n        $(this).html(html);\n        \n        // Slide down the div with new content\n        $(this).slideDown('fast');\n    });\n}

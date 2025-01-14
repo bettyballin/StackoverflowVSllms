@@ -1,0 +1,1 @@
+-- Get tables and columns information in a specific schema (e.g., public)\nSELECT table_name, column_name, data_type, is_nullable \nFROM information_schema.columns \nWHERE table_schema = 'public'\nORDER BY table_name, ordinal_position;

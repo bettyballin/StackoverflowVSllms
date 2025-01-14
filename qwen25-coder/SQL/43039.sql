@@ -1,0 +1,1 @@
+-- First, ensure table2's primary keys are unique by updating them\nALTER TABLE table2 MODIFY COLUMN id INT;\n\nUPDATE table2 SET id = id + 10000; -- Assuming table1's IDs are less than 10000\n\n-- Now insert all rows from table2 into table1\nINSERT INTO table1 (id, column1, column2, column3) \nSELECT id, column1, column2, column3 FROM table2;

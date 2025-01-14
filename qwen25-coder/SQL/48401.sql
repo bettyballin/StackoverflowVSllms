@@ -1,0 +1,1 @@
+EXPLAIN PLAN FOR \n    SELECT foo.a, bar.c\n    FROM foo\n    JOIN bar ON foo.a = bar.a;\n\n    SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);

@@ -1,0 +1,1 @@
+CREATE PROCEDURE InsertLocationUpdates\n    @LocationUpdates dbo.DT_TableType READONLY\nAS\nBEGIN\n    INSERT INTO DeviceLocations (DeviceID, Location, UpdateTime)\n    SELECT DeviceID, Location, UpdateTime FROM @LocationUpdates;\nEND;

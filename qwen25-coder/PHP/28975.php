@@ -1,0 +1,1 @@
+function getNewArticlesForUser($userId) {\n        global $conn;\n        $result = $conn->query("SELECT * FROM news_items WHERE id NOT IN (SELECT news_item_id FROM user_reading_status WHERE user_id = $userId)");\n        return $result;\n    }

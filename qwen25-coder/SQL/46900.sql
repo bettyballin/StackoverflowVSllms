@@ -1,0 +1,1 @@
+UPDATE my_table \nSET count = GREATEST(count - 1, 0) \nWHERE token = 'my_token';\n\nDELETE FROM my_table \nWHERE token = 'my_token' AND count = 0;

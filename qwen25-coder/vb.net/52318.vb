@@ -1,0 +1,1 @@
+' In generated foo.vb:\nPartial Public Class Foo\n    Inherits BaseClass\nEnd Class\n\n' In manually-created foo.vb:\nPartial Public Class Foo\n    ' Additional class members go here\nEnd Class

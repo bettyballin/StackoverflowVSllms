@@ -1,0 +1,1 @@
+list_2 = [0 for i in range(10)]

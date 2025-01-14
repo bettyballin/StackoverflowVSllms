@@ -1,0 +1,1 @@
+DBCC opentran('ByBox');\n    GO

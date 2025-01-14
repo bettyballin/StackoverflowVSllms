@@ -1,0 +1,1 @@
+SELECT MAX(videoId) AS prevVideoId \nFROM videos \nWHERE videoId < 234 AND IsActive = 1;

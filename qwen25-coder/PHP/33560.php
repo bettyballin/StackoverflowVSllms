@@ -1,0 +1,1 @@
+echo ini_get('variables_order'); // Outputs: EGPCS by default

@@ -1,0 +1,1 @@
+global $orderDate;\n$orderDate = time(); // Use time() to get the current timestamp\necho "Order Date: ".date("M/d/y h:i A", $orderDate)."<br />";

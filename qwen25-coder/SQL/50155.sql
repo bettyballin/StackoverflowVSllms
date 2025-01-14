@@ -1,0 +1,1 @@
+SELECT RIGHT(REPLICATE(@padchar, @len) + @str, @len)

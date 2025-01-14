@@ -1,0 +1,1 @@
+<?php\n\n$message = "example"; // Example message\n$actiona = "Action A: Message length is 7 characters or less.";\n$actionb = "Action B: Message length exceeds 7 characters.";\n\nif (strlen($message) <= 7) {\n    echo $actiona;\n} else {\n    echo $actionb;\n}\n\n?>

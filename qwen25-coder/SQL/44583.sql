@@ -1,0 +1,1 @@
+SELECT \n    @total_count:=COUNT(*) AS TotalCount,\n    Id, \n    Name \nFROM my_table \nWHERE Name LIKE '%prashant%' \nLIMIT 0, 10;

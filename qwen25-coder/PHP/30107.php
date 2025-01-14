@@ -1,0 +1,1 @@
+// Send output and finish request to the client\n    echo "Hello World";\n    fastcgi_finish_request();\n\n    // Do other tasks like logging, cleanup, etc.\n    log_to_database();

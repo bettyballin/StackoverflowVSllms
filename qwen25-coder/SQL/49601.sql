@@ -1,0 +1,1 @@
+CREATE SCHEMA UserA;\n   CREATE TABLE UserA.Table1 (...);\n   CREATE TABLE UserA.Table2 (...);\n\n   CREATE SCHEMA UserB;\n   CREATE TABLE UserB.Table1 (...);\n   CREATE TABLE UserB.Table2 (...);

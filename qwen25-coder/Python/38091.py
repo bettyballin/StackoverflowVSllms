@@ -1,0 +1,1 @@
+from myapp.models import Question\n\n# Using filter() with 'AND' conditions\nquestions = Question.objects.filter(\n    question__icontains='software',\n    question__icontains='java'\n)

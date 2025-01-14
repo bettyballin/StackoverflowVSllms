@@ -1,0 +1,1 @@
+<servlet path="/greet" class="com.google.gwt.sample.stockwatcher.server.GreetingServiceImpl"/>

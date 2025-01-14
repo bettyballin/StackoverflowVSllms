@@ -1,0 +1,1 @@
+SELECT INET6_BIN('2001:db8::1'); -- Converts IPv6 address to binary\n  SELECT INET6_NTOA(ip_address); -- Converts binary back to readable format

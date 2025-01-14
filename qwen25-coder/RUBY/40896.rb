@@ -1,0 +1,1 @@
+<% unless states.nil? or states.empty? %>\n    <%= form.label :state, 'Select your state' %>*<br />\n    <%= form.select :state, states.collect{|s| [s[0], s[1]]} %>\n<% else %>\n    <%= form.label :state, 'Please enter state or province' %>*<br />\n    <%= form.text_field :state %>\n<% end %>

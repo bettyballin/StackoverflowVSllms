@@ -1,0 +1,1 @@
+<!-- sess2.php -->\n<?php\nsession_start();\n\necho "<p>The userid session variable is: " . (isset($_SESSION['userid']) ? $_SESSION['userid'] : 'undefined') . "</p>";\n// Corrected the variable name here to match what was set in sess1.php\necho "<p>The other session variable is: " . (isset($_SESSION['textvar']) ? $_SESSION['textvar'] : 'undefined') . "</p>";\n?>

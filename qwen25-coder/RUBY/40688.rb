@@ -1,0 +1,1 @@
+test "the truth" do\n  assert true\nend

@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nORDER BY \n    CASE WHEN special = 1 THEN 0 ELSE 1 END,\n    date_column DESC;

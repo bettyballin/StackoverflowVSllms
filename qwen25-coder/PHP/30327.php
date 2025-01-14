@@ -1,0 +1,1 @@
+// In processForm.php\n   <?php\n     if (!isset($_POST['token']) || $_POST['token'] !== 'uniqueTokenValue') {\n       header("HTTP/1.0 403 Forbidden");\n       die("Access Denied: You cannot access this file directly.");\n     }\n     // Process form data here...\n   ?>

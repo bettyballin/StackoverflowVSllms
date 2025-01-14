@@ -1,0 +1,1 @@
+try {\n    $pdo = new PDO('your_connection_string');\n    $stmt = $pdo->prepare("SELECT * FROM your_table");\n    $stmt->execute();\n} catch (PDOException $e) {\n    echo "Database error: " . $e->getMessage();\n}

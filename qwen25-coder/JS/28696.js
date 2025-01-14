@@ -1,0 +1,1 @@
+const targetDiv = document.querySelector(`#10 div:nth-child(5)`);

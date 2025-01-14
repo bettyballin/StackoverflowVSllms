@@ -1,0 +1,1 @@
+<site name="YourSiteName" id="1">\n    <bindings>\n      <binding protocol="http" bindingInformation="*:55307:localhost" />\n      <binding protocol="https" bindingInformation="*:44302:localhost" sslFlags="1" />\n    </bindings>\n  </site>

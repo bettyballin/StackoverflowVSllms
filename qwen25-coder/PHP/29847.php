@@ -1,0 +1,1 @@
+$maxSize = 1024 * 1024; // Set max size to 1MB (adjust as needed)\nforeach (glob("*.png") as $filename) {\n    $fileSize = filesize($filename);\n    echo "$filename size " . $fileSize . "\n";\n    if ($fileSize > $maxSize) { // Check if file size is greater than max size\n        unlink($filename);\n        echo "$filename deleted.\n";\n    }\n}

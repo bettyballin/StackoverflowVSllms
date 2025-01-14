@@ -1,0 +1,1 @@
+-- Find the top 10 most resource-intensive queries in the past hour\nSELECT sql_id, elapsed_time, buffer_gets, executions\nFROM v$sqlarea\nWHERE last_active_time >= SYSTIMESTAMP - INTERVAL '1' HOUR\nORDER BY elapsed_time / NULLIF(executions, 0) DESC\nFETCH FIRST 10 ROWS ONLY;

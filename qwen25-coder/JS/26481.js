@@ -1,0 +1,1 @@
+// Use jQuery to select the element by its ID and get the scroll top position\nvar scrollTopPosition = $('#box').scrollTop();\n\nconsole.log(scrollTopPosition);

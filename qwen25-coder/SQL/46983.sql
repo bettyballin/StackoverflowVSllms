@@ -1,0 +1,1 @@
+CREATE TABLE Customers (\n    CustomerSurrogateID INT IDENTITY(1,1) PRIMARY KEY,\n    CustomerNaturalKey VARCHAR(15) UNIQUE NOT NULL,\n    -- Other columns...\n);

@@ -1,0 +1,1 @@
+-- Setting transaction isolation level to READ UNCOMMITTED for the entire session\nSET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;\nSELECT * FROM YourTable;\n\n-- Using NOLOCK hint on a per-query basis\nSELECT * FROM YourTable WITH (NOLOCK);

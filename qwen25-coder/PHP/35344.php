@@ -1,0 +1,1 @@
+<?php\n$url = 'http://localhost:5000/perl-script/';\n$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$response = curl_exec($ch);\ncurl_close($ch);\n\nif ($response === false) {\n    die('Error fetching data from Perl script.');\n}\n\necho $response;\n?>

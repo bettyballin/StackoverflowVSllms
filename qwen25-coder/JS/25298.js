@@ -1,0 +1,1 @@
+// This is just an example of what TinyMCE's configuration might look like if you were editing it directly.\ntinyMCE.init({\n    editor_selector : "mceEditor",\n    extended_valid_elements : "iframe[src|name|width|height|scrolling|frameborder]",\n});

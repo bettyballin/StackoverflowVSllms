@@ -1,0 +1,1 @@
+function sayHello() {\n    console.log(this.name);\n}\n\nconst person = { name: 'Alice' };\nperson.greet = sayHello; // sayHello is added as a method of person\n\nperson.greet(); // Outputs: Alice\n// Here, `this` in sayHello refers to the person object because it's called by the person object.

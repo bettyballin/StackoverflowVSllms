@@ -1,0 +1,1 @@
+// Assuming there is an image with id 'myImage'\nvar img = document.getElementById('myImage');\n\n// To hide the image completely (not taking space)\nimg.style.display = 'none';\n\n// Alternatively, to make it invisible but still take space in layout\n// img.style.visibility = 'hidden';

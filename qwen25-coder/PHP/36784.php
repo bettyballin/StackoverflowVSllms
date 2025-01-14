@@ -1,0 +1,1 @@
+$c = json_encode($b, JSON_UNESCAPED_SLASHES); // Output: {"tag":"<b></b>"}

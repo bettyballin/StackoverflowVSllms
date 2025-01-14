@@ -1,0 +1,1 @@
+import requests\n\ndef get_data(url):\n    response = requests.get(url)\n    return response.json()\n\nurl = 'https://api.example.com/data'\ndata = get_data(url)\nprint(data)

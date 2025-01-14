@@ -1,0 +1,1 @@
+USE master;\nGO\n\nBACKUP DATABASE [YourDBName] \nTO DISK = N'C:\Path\To\YourDatabase.bak'\nWITH NOFORMAT,\nNOINIT,  \nNAME = N'YourDatabase-Full Database Backup',\nSKIP,\nNOREWIND,  \nNOUNLOAD,\nSTATS = 10;

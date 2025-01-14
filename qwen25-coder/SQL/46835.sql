@@ -1,0 +1,1 @@
+-- This query selects products with a price greater than 10 and then groups them by category,\n-- displaying only those categories where the total price of products is more than 50.\nSELECT Category, SUM(Price) as TotalPrice\nFROM Products\nWHERE Price > 10\nGROUP BY Category\nHAVING SUM(Price) > 50;

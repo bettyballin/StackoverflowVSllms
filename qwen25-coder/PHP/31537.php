@@ -1,0 +1,1 @@
+<?php\n$url = "http://example.com/file.flv";\n$file = 'file.flv';\nfile_put_contents($file, file_get_contents($url));\n?>

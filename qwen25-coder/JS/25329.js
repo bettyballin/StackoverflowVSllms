@@ -1,0 +1,1 @@
+window.location.href = window.origin + window.pathname;\nlocation.reload(true); // try to reload from the server, not cache

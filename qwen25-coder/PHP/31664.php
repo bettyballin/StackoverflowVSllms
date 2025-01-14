@@ -1,0 +1,1 @@
+class Database {\n    // Your database methods here\n}

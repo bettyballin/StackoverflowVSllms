@@ -1,0 +1,1 @@
+$output = curl_exec($ch);\n   if (curl_errno($ch)) {\n       echo 'Curl error: ' . curl_error($ch);\n   } else {\n       $info = curl_getinfo($ch);\n       print_r($info); // Check for HTTP status codes, content type, etc.\n   }

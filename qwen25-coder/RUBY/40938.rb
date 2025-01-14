@@ -1,0 +1,1 @@
+gem install bundler\n    bundle install\n    gem install win32-service

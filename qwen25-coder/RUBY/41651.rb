@@ -1,0 +1,1 @@
+class UsersController < ApplicationController\n  def index\n    @upcoming_birthday_users = User.upcoming_birthdays\n  end\nend

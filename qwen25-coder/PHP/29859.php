@@ -1,0 +1,1 @@
+<!-- In your view file -->\n   <h1><?php echo $this->translate('Hello'); ?></h1>\n   <p><?php echo $this->translate('Welcome to our website.'); ?></p>

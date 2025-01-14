@@ -1,0 +1,1 @@
+proxies = {\n    'http': 'http://username:password@your_proxy_server:port',\n    'https': 'https://username:password@your_proxy_server:port',\n}

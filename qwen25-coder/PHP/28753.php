@@ -1,0 +1,1 @@
+// Example of using password_hash() in PHP for secure password storage\n$password = "user_password";\n$hashedPassword = password_hash($password, PASSWORD_BCRYPT);\n\n// To verify a password on login\nif (password_verify("input_user_password", $storedHash)) {\n    echo 'Password is valid!';\n} else {\n    echo 'Invalid password.';\n}

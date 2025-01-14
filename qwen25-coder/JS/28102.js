@@ -1,0 +1,1 @@
+<script>\nwindow.addEventListener('message', function(event) {\n    if (event.data.startsWith("hashUpdated#")) {\n        var hashValue = event.data.split("#")[1];\n        window.location.hash = hashValue;\n    }\n}, false);\n</script>

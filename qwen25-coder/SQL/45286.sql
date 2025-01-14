@@ -1,0 +1,1 @@
+CREATE TABLE [dbo].[YourTableName](\n    [ID] [int] IDENTITY(1,1) NOT NULL,\n    [Name] [nvarchar](50),\n    CONSTRAINT [PK_YourTableName] PRIMARY KEY CLUSTERED \n(\n    [ID] ASC\n)\n)\n\nINSERT INTO [dbo].[YourTableName] ([Name]) VALUES ('Example');

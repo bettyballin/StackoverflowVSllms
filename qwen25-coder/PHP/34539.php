@@ -1,0 +1,1 @@
+$value = ($conditionMet) ? null : '';\n$stmt->bindValue(':param', $value, is_null($value) ? PDO::PARAM_NULL : PDO::PARAM_STR);

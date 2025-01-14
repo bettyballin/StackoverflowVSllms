@@ -1,0 +1,1 @@
+<?php\n// Turn on implicit flushing so the buffer outputs immediately.\nob_implicit_flush(true);\n\n// Alternatively, use explicit flush calls after each echo.\necho "This will print right away\n";\nflush();\n\necho "And this will also print right away\n";\nflush();\n?>

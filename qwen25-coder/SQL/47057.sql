@@ -1,0 +1,1 @@
+DECLARE @param1 integer;\nDECLARE @ignoreParam2 nvarchar(50); -- or any appropriate type for your output param\n\nEXEC mystoredprocedure \n    @in_param_1, \n    @in_param2_, \n    @param1 OUTPUT, \n    @ignoreParam2 OUTPUT; \n\n-- Now you can use @param1 as needed.

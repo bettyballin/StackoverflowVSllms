@@ -1,0 +1,1 @@
+WITH RankedEntries AS (\n    SELECT \n        FooId, \n        Data, \n        CreatedTime,\n        ROW_NUMBER() OVER (PARTITION BY FooId ORDER BY CreatedTime DESC) as rn\n    FROM YourTableName\n    WHERE CAST(CreatedTime AS DATE) = '2000-01-01'\n)\nSELECT \n    FooId, \n    Data, \n    CreatedTime\nFROM RankedEntries\nWHERE rn = 1;

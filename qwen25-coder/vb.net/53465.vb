@@ -1,0 +1,1 @@
+' Define constants for clarity\nConst FirstOption = 1\nConst SecondOption = 2\n\nDim myObject\nSet myObject = CreateObject("MyNamespace.MyComVisibleClass")\n\nmyObject.SomeMethodThatUsesEnum FirstOptio

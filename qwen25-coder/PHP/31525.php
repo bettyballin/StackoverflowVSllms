@@ -1,0 +1,1 @@
+// In both parent.php and child.php files\n\nif (session_status() == PHP_SESSION_NONE) {\n    session_start();\n}

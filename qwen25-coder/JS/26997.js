@@ -1,0 +1,1 @@
+// Slant a div using JavaScript\ndocument.querySelector('.slanted-div').style.transform = 'skew(20deg, 10deg)';\n\n// Rotate an image\ndocument.querySelector('.slanted-image').style.transform = 'rotate(-45deg)';

@@ -1,0 +1,1 @@
+Public Interface ILanguagePreferenceProvider\n    Function GetUserPreferredLanguage() As String\nEnd Interface

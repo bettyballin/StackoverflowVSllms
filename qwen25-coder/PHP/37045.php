@@ -1,0 +1,1 @@
+<?php // appA.php\n\nfunction sayHello($name) {\n    return "Hello, $name!";\n}\n\nfunction calculateSum($a, $b) {\n    return $a + $b;\n}\n?>

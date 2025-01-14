@@ -1,0 +1,1 @@
+<?php\n\n$guest = 1;\n$editor = 2;\n$admin = 4;\n\n$user = $editor; // This user has editor permissions\n\nif ($user & $editor) {\n    echo "User is an Editor\n";\n}\n\nif ($user & $admin) {\n    echo "User is an Admin\n";\n}\n\n// If you want to check if the user is either an editor or an admin\nif ($user & ($editor | $admin)) {\n    echo "Test";    \n}\n?>

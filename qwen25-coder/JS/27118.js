@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() {\n    document.getElementById('bar').addEventListener('click', doBar);\n});\n\nfunction doBar(event) {\n    event.preventDefault(); // Prevent default action of the link\n    // Your code here\n}

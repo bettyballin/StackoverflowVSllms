@@ -1,0 +1,1 @@
+Imports System.Environment\n\nModule Module1\n    Sub Main()\n        Dim currentUserName As String = UserDomainName & "\" & UserName\n        Console.WriteLine("Current Logged On User: " & currentUserName)\n    End Sub\nEnd Module

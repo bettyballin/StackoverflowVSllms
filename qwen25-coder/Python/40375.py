@@ -1,0 +1,1 @@
+from scapy.all import *\n\n   def replay_packets(pcap_file):\n       packets = rdpcap(pcap_file)\n       for packet in packets:\n           send(packet)\n\n   replay_packets('captured_traffic.pcap')

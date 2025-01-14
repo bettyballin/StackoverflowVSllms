@@ -1,0 +1,1 @@
+ALTER TABLE Projects ADD OfficeID INT;\nUPDATE Projects P\nJOIN Employees E   ON P.CreatedBY = E.EmpID\nJOIN Departments D ON E.DepID = D.DepID\nSET P.OfficeID = D.OfficeID;

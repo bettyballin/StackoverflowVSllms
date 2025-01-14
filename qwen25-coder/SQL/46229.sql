@@ -1,0 +1,1 @@
+UPDATE WebbikesProducts \nSET Price = CASE \n            WHEN ISNUMERIC(SubString(UniqueID, 3, 3)) = 1 \n                 AND SubString(UniqueID, 3, 3) LIKE '[0-9][0-9][0-9]' \n            THEN Price * 1.05 \n            ELSE Price\n        END\nWHERE ISNUMERIC(SubString(UniqueID, 3, 3)) = 1 \n      AND SubString(UniqueID, 3, 3) LIKE '[0-9][0-9][0-9]';

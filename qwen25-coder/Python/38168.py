@@ -1,0 +1,1 @@
+import pandas as pd\n\n# Load data\ndata = pd.read_csv('your_data.csv')\n\n# Generate summary statistics\nsummary = data.describe()\n\n# Export to Excel\nsummary.to_excel('report.xlsx')

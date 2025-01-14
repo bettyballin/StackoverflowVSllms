@@ -1,0 +1,1 @@
+INSERT INTO tags(name, lft, rght) VALUES ('Root', 1, 2);

@@ -1,0 +1,1 @@
+table problems\n  int id\n\ntable attributes\n  int id | int thing_id | string thing_type | string name | string value | datetime created_at | int previous_version_id\n\nforeign key (thing_id, thing_type) -> problems.id or solutions.id\nforeign key previous_version_id -> attributes.id

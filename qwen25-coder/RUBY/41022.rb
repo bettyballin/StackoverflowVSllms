@@ -1,0 +1,1 @@
+<% if @bunny.carrots.any? %>\n  <strong>Yay! Carrots!</strong>\n  <% @bunny.carrots.each do |carrot| %>\n    You got a <%=h carrot.color %> carrot!<br />\n  <% end %>\n<% end %>

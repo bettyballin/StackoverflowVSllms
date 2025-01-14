@@ -1,0 +1,1 @@
+$orders = Mage::getModel('sales/order')->getCollection();\n$orders->getSelect()->where('main_table.total_paid = main_table.grand_total');

@@ -1,0 +1,1 @@
+SELECT rp.BOOK,\n       AVG(rp.PRICE) as MedianPRICE\nFROM RankedPrices as rp\nWHERE rp.PriceRank = rp.ReversePriceRank OR rp.PriceRank + 1 = rp.ReversePriceRank\nGROUP BY rp.BOOK;

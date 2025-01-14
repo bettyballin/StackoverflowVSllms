@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "YourPage.aspx/YourMethodName",\n    data: JSON.stringify({ parameterName: 'value' }),\n    contentType: "application/json; charset=utf-8",\n    dataType: "json",\n    success: function(response) {\n        alert(response.d);\n    },\n    error: function(xhr, status, error) {\n        console.error(error);\n    }\n});

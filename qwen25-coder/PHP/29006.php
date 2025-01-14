@@ -1,0 +1,1 @@
+<?php // js.php\n   header('Content-Type: application/javascript');\n   $dynamicValue = "Hello, World!"; // Example dynamic value\n   echo "console.log('$dynamicValue');";\n   ?>

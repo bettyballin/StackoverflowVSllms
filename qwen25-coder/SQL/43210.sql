@@ -1,0 +1,1 @@
+Select field1 as 'node1/field1',\n       field2 as 'node1/field2',\n  (Select field3 as 'child1/field3',\n          field4 as 'child1/field4'\n   From table2 AS T2\n   WHERE T2.id = Table1.id -- Ensure proper relationship between tables\n   FOR XML PATH(''), TYPE, ELEMENTS)\nFROM Table1 \nFOR XML PATH('Root'), ELEMENTS

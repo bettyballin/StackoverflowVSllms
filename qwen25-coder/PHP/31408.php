@@ -1,0 +1,1 @@
+class Greeting {\n       private $name;\n\n       public function __construct($name) {\n           $this->name = $name;\n       }\n\n       public function __invoke() {\n           echo "Hello, {$this->name}!";\n       }\n   }\n\n   $sayHello = new Greeting('World');\n   call_user_func($sayHello); // Outputs: Hello, World!

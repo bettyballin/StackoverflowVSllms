@@ -1,0 +1,1 @@
+SELECT s.sid, s.serial# \nFROM v$session s \nWHERE s.username = 'YOUR_SCHEMA_NAME';

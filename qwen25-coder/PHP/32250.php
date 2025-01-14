@@ -1,0 +1,1 @@
+require 'vendor/autoload.php';\n\n  $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');\n  $dotenv->load();\n\n  // Access credentials securely\n  $this->credentials = [\n      "hostname" => $_ENV['DB_HOSTNAME'],\n      "username" => $_ENV['DB_USERNAME'],\n      "password" => $_ENV['DB_PASSWORD'],\n      "database" => $_ENV['DB_DATABASE']\n  ];

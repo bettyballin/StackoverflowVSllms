@@ -1,0 +1,1 @@
+<?php\n// logout.php\nsession_start();\nsession_unset();  // unset $_SESSION variable for the run-time\nsession_destroy(); // destroy session data in storage\n\nheader("location:login.php");\nexit();\n?>

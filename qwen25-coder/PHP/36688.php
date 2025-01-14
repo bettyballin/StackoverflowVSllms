@@ -1,0 +1,1 @@
+try {\n    // Using Easy Connect string\n    $dsn = 'oci:dbname=//your_server:port/service_name';\n    $pdo = new PDO($dsn, 'username', 'password');\n    // Set the PDO error mode to exception\n    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);\n} catch (PDOException $e) {\n    echo "Connection failed: " . $e->getMessage();\n}

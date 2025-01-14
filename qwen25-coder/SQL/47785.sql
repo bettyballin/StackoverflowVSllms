@@ -1,0 +1,1 @@
+CREATE TEXT SEARCH DICTIONARY nickname (TEMPLATE = synonym, SYNONYMS = nickname);\nCREATE TEXT SEARCH CONFIGURATION dxp_name (COPY = simple);\nALTER TEXT SEARCH CONFIGURATION dxp_name ALTER MAPPING FOR asciiword WITH nickname, simple;

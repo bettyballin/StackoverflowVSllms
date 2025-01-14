@@ -1,0 +1,1 @@
+SELECT COUNT(*)\nFROM addresses a\nWHERE SOUNDEX(a.street_address) = SOUNDEX(:newStreetAddress)\n  AND a.postal_code ILIKE :newPostalCode -- ILIKE is case-insensitive LIKE in PostgreSQL\n  AND a.city ILIKE :newCity;

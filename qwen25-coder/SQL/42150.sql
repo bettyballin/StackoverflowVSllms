@@ -1,0 +1,1 @@
+SELECT *, \n       CASE \n           WHEN translation = 'word' THEN 1\n           ELSE 2\n       END AS exact_match,\n       MATCH(translation) AGAINST('word') AS relevance_score\nFROM vocabulary\nWHERE MATCH(translation) AGAINST('word')\nORDER BY exact_match, relevance_score DESC;

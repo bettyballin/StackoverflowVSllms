@@ -1,0 +1,1 @@
+// In application/config/routes.php\n\n$route['hotels/(:num)/rooms/(:num)'] = 'Hotel/room_availability/$1/$2';

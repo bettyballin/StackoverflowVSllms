@@ -1,0 +1,1 @@
+$model = new stdClass();\n$model->title = "My Page Title";\n\n$template = new Template($model);\necho $template->parse();

@@ -1,0 +1,1 @@
+SELECT LEAST(\n    (SELECT MIN(Value) FROM your_table WHERE Value > :your_parameter),\n    (SELECT MAX(Value) FROM your_table)\n) AS SelectedValue\nFROM dual;

@@ -1,0 +1,1 @@
+SELECT \n    CASE \n        WHEN ISNUMERIC(T.Value) = 1 AND CHARINDEX('.', T.Value) = 0 THEN SomeConversionFunction(T.Value)\n        ELSE T.Value\n    END AS SomeAlias\nFROM \n    SomeTable T;

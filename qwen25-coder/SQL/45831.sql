@@ -1,0 +1,1 @@
+SET IDENTITY_INSERT YourTableName ON;\n   -- Insert your data here\n   SET IDENTITY_INSERT YourTableName OFF;

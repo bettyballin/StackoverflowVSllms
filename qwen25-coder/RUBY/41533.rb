@@ -1,0 +1,1 @@
+# config/routes.rb\nnamespace :admin do\n  resources :banners\nend

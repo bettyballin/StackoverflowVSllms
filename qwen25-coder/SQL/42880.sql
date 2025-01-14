@@ -1,0 +1,1 @@
+DECLARE cur CURSOR FOR SELECT id FROM your_table;\n     OPEN cur;\n     FETCH cur INTO var_id;\n     CLOSE cur;\n     DEALLOCATE cur;

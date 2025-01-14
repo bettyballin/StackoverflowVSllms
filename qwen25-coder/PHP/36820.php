@@ -1,0 +1,1 @@
+$count_query = "SELECT COUNT(*) AS record_count FROM Main";\n$rs_count = $odbc_con->execute($count_query);\n$record_count = $rs_count->Fields['record_count']->Value;\necho $record_count;

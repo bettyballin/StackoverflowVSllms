@@ -1,0 +1,1 @@
+// pgettext: Different error types for the login page\n   // pgettext: page-error-invalid-credentials\n   // pgettext: page-error-account-disabled\n   $this->translate('page-error-' . $error);

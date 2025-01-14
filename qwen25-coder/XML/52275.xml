@@ -1,0 +1,1 @@
+<AppPoolConfig name="YourAppPool">\n    <WorkerProcesses>4</WorkerProcesses>\n    <!-- Other settings -->\n</AppPoolConfig>

@@ -1,0 +1,1 @@
+$var = isset($_POST['myPOSTvar']) ? $_POST['myPOSTvar'] : null;\n\n// Use $var as needed...\nif ($var === null) {\n    // Handle the case where myPOSTvar is not set\n}

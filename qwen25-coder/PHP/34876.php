@@ -1,0 +1,1 @@
+<?php\nrequire_once 'database.php'; // Assume this file handles your DB connection\n\n$stmt = $pdo->query("SELECT username, content FROM chat_messages ORDER BY id DESC LIMIT 10");\n$msgs = $stmt->fetchAll();\n\n$output = '';\nforeach (array_reverse($msgs) as $msg) {\n    $output .= "<strong>{$msg['username']}</strong>: {$msg['content']}<br>";\n}\n\necho $output;\n?>

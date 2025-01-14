@@ -1,0 +1,1 @@
+<Query>\n  <OrderBy Override="TRUE">\n    <FieldRef Name="FirstLetterTitle"/>\n    <FieldRef Name="Title"/>\n  </OrderBy>\n</Query>\n<GroupBy Collapse="FALSE" GroupLimit="30">\n  <FieldRef Name="FirstLetterTitle"/>\n</GroupBy>

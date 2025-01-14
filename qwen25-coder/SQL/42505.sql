@@ -1,0 +1,1 @@
+BEGIN;\n\nUPDATE accounts SET balance = balance - amount WHERE ac_num = 101;\n-- Assume an error occurs here\nROLLBACK;

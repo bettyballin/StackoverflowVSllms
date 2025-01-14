@@ -1,0 +1,1 @@
+Dim dynColumn As String\ndynColumn = GetSanitizedUserInput() ' Assume this function safely gets and sanitizes user input\n\n' Validate the input against known safe values\nIf Not isInArray(dynColumn, Array("Col1", "Col2", "Col3")) Then\n    ' Handle error or exit as necessary\nEnd If\n\n' Construct your query here using dynColumn where safe to do so

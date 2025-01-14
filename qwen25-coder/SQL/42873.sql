@@ -1,0 +1,1 @@
+CREATE OR REPLACE TRIGGER replace_empty_strings_before_insert\nBEFORE INSERT ON your_table\nFOR EACH ROW\nBEGIN\n  IF :NEW.your_varchar2_column = '' THEN\n    :NEW.your_varchar2_column := 'EMPTY';  -- or any other sentinel value\n  END IF;\nEND;\n/

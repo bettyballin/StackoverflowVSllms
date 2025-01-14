@@ -1,0 +1,1 @@
+DELETE FROM student s\nWHERE EXISTS (\n    SELECT 1 \n    FROM schedule sc\n    WHERE s.course = sc.course AND s.major = sc.major\n);

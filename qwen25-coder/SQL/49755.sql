@@ -1,0 +1,1 @@
+SELECT DATEADD(dd, DATEDIFF(dd, 0, getdate()), 0)

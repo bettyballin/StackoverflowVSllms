@@ -1,0 +1,1 @@
+SELECT CONVERT_TZ(NOW(),'+00:00','America/New_York') AS est_time;

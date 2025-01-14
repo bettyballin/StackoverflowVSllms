@@ -1,0 +1,1 @@
+EXEC SAFE_DROP_TABLE 'YourTableName';

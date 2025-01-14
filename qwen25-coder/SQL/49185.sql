@@ -1,0 +1,1 @@
+SELECT T1.column_name, T2.another_column\nFROM large_table_1 T1\nJOIN large_table_2 T2 ON T1.id = T2.foreign_id\nWHERE T1.condition = 'value'\nORDER BY T1.column_name;

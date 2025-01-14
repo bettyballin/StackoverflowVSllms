@@ -1,0 +1,1 @@
+<?php\nextension_loaded('sharedmem') or die("Shared memory extension is not loaded.");\n\n$data = read_shared_memory();\nif ($data !== null) {\n    echo "Data from shared memory: $data";\n} else {\n    echo "Failed to read data.";\n}\n?>

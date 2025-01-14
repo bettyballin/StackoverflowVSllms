@@ -1,0 +1,1 @@
+SELECT * FROM your_table WHERE YEAR(posted) = 2009 AND MONTH(posted) = 6;

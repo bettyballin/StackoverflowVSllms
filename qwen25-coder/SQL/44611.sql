@@ -1,0 +1,1 @@
+-- Query for limited results\nSELECT Id, Name \nFROM my_table \nWHERE Name LIKE '%prashant%' \nLIMIT 0, 10;\n\n-- Separate query for total count\nSELECT COUNT(*) AS TotalCount \nFROM my_table \nWHERE Name LIKE '%prashant%';

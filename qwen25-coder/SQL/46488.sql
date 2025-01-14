@@ -1,0 +1,1 @@
+CREATE TABLE UserSessions (\n    UserId INT NOT NULL,\n    SessionId NVARCHAR(256) NOT NULL,\n CONSTRAINT PK_UserSessions PRIMARY KEY (UserId)\n);

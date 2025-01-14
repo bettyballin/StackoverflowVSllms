@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('a[id^="show"]').click(function() {\n        var target = $(this).data('target');\n        $('.' + target).toggle(1000);\n        return false;\n    });\n});

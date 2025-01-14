@@ -1,0 +1,1 @@
+WITH ranked_names AS (\n    SELECT \n        name, \n        position(lower($1) in lower(name)) as pos,\n        similarity(lower($1), lower(name)) as sim\n    FROM names\n    WHERE name ilike '%' || $1 || '%'\n)\nSELECT * \nFROM ranked_names\nORDER BY pos ASC, sim DESC\nLIMIT 10;

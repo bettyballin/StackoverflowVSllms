@@ -1,0 +1,1 @@
+SELECT \n    DateColumn AS [Date],\n    Value,\n    CASE \n        WHEN Value = 0 THEN 'Small'\n        WHEN Value = 50 THEN 'Medium'\n        WHEN Value = 100 THEN 'Large'\n    END as [ValueLabel]\nFROM \n    YourDataTable

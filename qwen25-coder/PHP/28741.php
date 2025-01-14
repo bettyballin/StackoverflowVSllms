@@ -1,0 +1,1 @@
+<?php\n$password = 'my_password';\n$salt = '$6$rounds=4096$' . substr(str_replace('+', '.', base64_encode(random_bytes(16))), 0, 16);\n$UX_PW = crypt($password, $salt);\n\nexec("useradd -p '{$UX_PW}' newusername");\n?>

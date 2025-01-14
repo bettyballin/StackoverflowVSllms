@@ -1,0 +1,1 @@
+<?php\n\nini_set('display_errors', 1);\nerror_reporting(E_ALL);\n\n$testglobal = 1;\nfunction cmp($a, $b) {\n    global $testglobal;\n    echo 'hi' . $testglobal; // This should print "hi1"\n}\n\n// Example array to sort\n$topics = [3, 2, 1];\n\nusort($topics, "cmp");\n\nprint_r($topics);\n\n?>

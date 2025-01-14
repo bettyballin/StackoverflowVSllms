@@ -1,0 +1,1 @@
+<?php\n\n// Start output buffering\nob_start();\n\necho 'a';\nprint 'b';\n\ninclude('somefile.php');\n\n$allOutput = ob_get_contents(); // Capture all output so far\n\n// Check $allOutput for unwanted content if necessary\n\n// Clean the buffer, discarding contents\nob_end_clean();\n\n// Now echo what you want to appear in the final output\necho 'c';\n\n?>

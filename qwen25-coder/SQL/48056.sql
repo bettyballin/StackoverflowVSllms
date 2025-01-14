@@ -1,0 +1,1 @@
+SELECT \n    CONCAT(\n        FLOOR(your_seconds_field / 3600), ':',\n        LPAD(FLOOR((your_seconds_field % 3600) / 60), 2, '0')\n    ) AS hh_mm,\n    CONCAT(\n        FLOOR(your_seconds_field / 86400), ':',\n        LPAD(FLOOR((your_seconds_field % 86400) / 3600), 2, '0')\n    ) AS dd_hh\nFROM \n    your_table;

@@ -1,0 +1,1 @@
+Public Class DomainClass\n    ' Other properties...\nEnd Class

@@ -1,0 +1,1 @@
+WITH RankedMinutes AS (\n    SELECT \n        *,\n        RANK() OVER (ORDER BY MessageCount DESC) AS Rank\n    FROM \n        #MinuteAggregation\n)\nSELECT TOP 10 *\nFROM \n    RankedMinutes;

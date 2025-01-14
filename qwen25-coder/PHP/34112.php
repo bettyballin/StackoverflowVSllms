@@ -1,0 +1,1 @@
+<img src="<?php echo PATH_ROOT.'classes/testeur_classe.php'; ?>" alt="Captcha Image"/>

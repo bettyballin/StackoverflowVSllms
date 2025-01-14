@@ -1,0 +1,1 @@
+$result = mysql_query($query);\n     if ($result === false) {\n         // Handle error, e.g., log it or show an error message.\n         die(mysql_error());\n     }\n     $numRows = mysql_num_rows($result);

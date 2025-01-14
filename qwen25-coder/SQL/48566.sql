@@ -1,0 +1,1 @@
+SET search_path TO your_schema_name, public;

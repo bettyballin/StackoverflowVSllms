@@ -1,0 +1,1 @@
+CREATE TABLE entity_data\n(\n    id       UInt64,\n    entity_id UInt32,\n    date_id   UInt16,\n    value_1   UInt32,\n    value_2   UInt32\n) ENGINE = MergeTree()\nORDER BY (entity_id, date_id)\nPRIMARY KEY (entity_id, date_id);

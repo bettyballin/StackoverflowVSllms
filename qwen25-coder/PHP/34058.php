@@ -1,0 +1,1 @@
+$fpr = fopen($out, 'r+');\nfseek($fpr, 1); // seek to second byte\nfwrite($fpr, chr(0x63)); // write the byte with hex value 0x63\nfclose($fpr);

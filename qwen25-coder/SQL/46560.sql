@@ -1,0 +1,1 @@
+INSERT INTO status_log (userid, status, start_date) VALUES (1, 's', '2008-01-01');\nUPDATE status_log SET end_date = '2008-02-01' WHERE userid = 1 AND status = 's';\nINSERT INTO status_log (userid, status, start_date) VALUES (1, 'a', '2008-02-01');

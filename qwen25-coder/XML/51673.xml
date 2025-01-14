@@ -1,0 +1,1 @@
+// Example of how to disable Code Analysis in a project file\n<Project>\n  <PropertyGroup>\n    <RunCodeAnalysis>false</RunCodeAnalysis>\n  </PropertyGroup>\n</Project>

@@ -1,0 +1,1 @@
+CREATE TABLE #TempIDs (ID INT PRIMARY KEY);\nINSERT INTO #TempIDs VALUES (123), (124), -- ... (222);\n\nSELECT * FROM table t\nJOIN #TempIDs temp ON t.Col = temp.ID;\n\nDROP TABLE #TempIDs;

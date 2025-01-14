@@ -1,0 +1,1 @@
+$(document).ready(function () {\n    $("#dialog").dialog({\n        autoOpen: false,\n        modal: true,\n        open: function () {\n            // Move dialog to inside form tag\n            $(this).parent().appendTo("form");\n        }\n    });\n\n    $("#opener").click(function () {\n        $("#dialog").dialog("open");\n        return false;\n    });\n});

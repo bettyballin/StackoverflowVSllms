@@ -1,0 +1,1 @@
+// In the original window, store a value\nlocalStorage.setItem('sessionData', JSON.stringify(sessionObject));\n\n// In the new window, retrieve the value\nlet sessionData = localStorage.getItem('sessionData');\nif (sessionData) {\n    let sessionObject = JSON.parse(sessionData);\n    // Use the session object here\n}

@@ -1,0 +1,1 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>\n<script type="text/javascript">\n    $(document).ready(function() {\n        $('ul.image-list li:even').addClass('even');\n        $('ul.image-list li:odd').addClass('odd');\n    });\n</script>

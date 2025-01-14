@@ -1,0 +1,1 @@
+require 'logger'\n\nclass ActiveSupport::TestCase\n  def logger\n    @logger ||= Logger.new(STDOUT)\n  end\n\n  test "should get index" do\n    get :index\n    logger.info(response.body)\n    logger.info(flash[:notice])\n    assert_response :success\n  end\nend

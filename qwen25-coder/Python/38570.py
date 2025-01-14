@@ -1,0 +1,1 @@
+# IronPython example - Dynamic, interpretive, object-oriented and functional features\nclass Calculator:\n    def add(self, a, b):\n        return a + b

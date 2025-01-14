@@ -1,0 +1,1 @@
+INSERT INTO ExampleTable (ID, Value) VALUES (1, 40.33);

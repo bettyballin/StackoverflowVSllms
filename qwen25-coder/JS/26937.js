@@ -1,0 +1,1 @@
+function doSomething(url, elem) {\n   $.ajax({\n      type: "GET",\n      url: url,\n      dataType: "xml",\n      success: rssToTarget.bind(null, elem)\n   });\n}\n\n// In your callback function, expect elem to be the first argument\nfunction rssToTarget(elem, data) {\n    // Use elem and data here\n}

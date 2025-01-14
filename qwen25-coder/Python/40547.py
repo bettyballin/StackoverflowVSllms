@@ -1,0 +1,1 @@
+with open('input.csv', 'r', encoding='utf-16') as fread:\n    mytext = fread.read()\n\n# Writing back to a new file in ASCII, ignoring errors\nwith open('input-ascii.csv', 'w', encoding='ascii', errors='ignore') as fwrite:\n    fwrite.write(mytext)

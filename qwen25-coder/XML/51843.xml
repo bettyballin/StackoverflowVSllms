@@ -1,0 +1,1 @@
+<property name="dialect">NHibernate.Dialect.MsSql2005Dialect</property>\n<property name="connection.provider">NHibernate.Connection.DriverConnectionProvider</property>\n<property name="command_timeout">30</property>

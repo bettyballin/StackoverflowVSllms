@@ -1,0 +1,1 @@
+PRINT 'Current Value of @var: ' + CAST(@var AS VARCHAR(10));\n   \n   RAISERROR ('An error occurred while processing record %d', 16, 1, @recordId);

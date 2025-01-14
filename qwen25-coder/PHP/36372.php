@@ -1,0 +1,1 @@
+Array\n(\n    [0] => Array\n        (\n            [id] => 1\n            [name] => Cat\n            [age] => 123\n        )\n\n    [1] => Array\n        (\n            [id] => 2\n            [name] => Mouse\n            [age] => 321\n        )\n)

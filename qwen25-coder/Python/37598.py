@@ -1,0 +1,1 @@
+# Inside new_module.py\nif __name__ == "__main__":\n    print("Running as main")\nelse:\n    __name__ = "old_module"  # This changes what __name__ reports to be but doesn't change how it's imported\n\ndef some_function():\n    print("This is a function in:", __name__)

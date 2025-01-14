@@ -1,0 +1,1 @@
+SELECT TOP 1 @SearchID = SearchID\n   FROM tblSearches \n   WHERE SessionID = @SessionID\n     AND KeywordID = @KeywordID\n   OPTION (RECOMPILE);

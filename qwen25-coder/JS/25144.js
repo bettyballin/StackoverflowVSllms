@@ -1,0 +1,1 @@
+ew nicEditor({\n    buttonList : ['fontSize','fontFamily','fontFormat','bold','italic','underline','strikethrough','forecolor','bgcolor','removeformat'],\n    iconsPath : "<%= iconsAbsolutePath %>" // Use the resolved URL here\n}).panelInstance('<%= txtDescription.ClientID %>');

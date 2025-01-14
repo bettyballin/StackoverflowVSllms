@@ -1,0 +1,1 @@
+function myFunction($name = 'Jon skeet', $age = 30) {\n    // Function body\n}\n\n// Call function with named parameters\nmyFunction(age: 45, name: 'John Doe');

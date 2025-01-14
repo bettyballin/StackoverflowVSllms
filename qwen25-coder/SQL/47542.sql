@@ -1,0 +1,1 @@
+DO $$\nDECLARE\n    l_query TEXT := 'SELECT * FROM table_name WHERE id = $1';\nBEGIN\n    EXECUTE format('EXPLAIN %s', l_query) USING 123;\nEND $$;

@@ -1,0 +1,1 @@
+import sys\n\nif 'win' in sys.platform:\n    import ntpath as _path_impl\nelse:\n    import posixpath as _path_impl\n\nclass os:\n    path = _path_impl

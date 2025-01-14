@@ -1,0 +1,1 @@
+VARIABLE v_ID VARCHAR2(10);\nEXEC :v_ID := '12345';\n\nSELECT * FROM theTable WHERE ID = :v_ID;

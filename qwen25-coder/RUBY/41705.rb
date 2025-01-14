@@ -1,0 +1,1 @@
+class YourMailer < ActionMailer::Base\n  def your_email_method\n    recipients "recipient@example.com"\n    from       "your-gmail-address@gmail.com"\n    reply_to   "me@mydomain.com"\n    subject    "Your Subject Here"\n    body       "Your email content here"\n  end\nend

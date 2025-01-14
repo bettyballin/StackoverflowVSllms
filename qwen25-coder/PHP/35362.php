@@ -1,0 +1,1 @@
+function createCounter() {\n       $count = 0;\n       return function() use (&$count) {\n           return ++$count;\n       };\n   }\n\n   $counter = createCounter();\n   echo $counter(); // Outputs: 1\n   echo $counter(); // Outputs: 2

@@ -1,0 +1,1 @@
+var url = // some dynamically generated URL\nvar sb = "<a href='" + url + "'>click here</a>";

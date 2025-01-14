@@ -1,0 +1,1 @@
+Imports Aspose.Tasks\n\n   Module Module1\n       Sub Main()\n           Dim project As New Project("path/to/project.mpp")\n           For Each tsk As Task In project.RootTask.Children\n               Console.WriteLine($"{tsk.Get(Tsk.Id)} - {tsk.Get(Tsk.Name)}")\n           Next\n       End Sub\n   End Module

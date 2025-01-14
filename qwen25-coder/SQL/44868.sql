@@ -1,0 +1,1 @@
+-- Using SELECT DISTINCT\nSELECT DISTINCT u.profession FROM users u;\n\n-- Using GROUP BY\nSELECT u.profession FROM users u GROUP BY u.profession;

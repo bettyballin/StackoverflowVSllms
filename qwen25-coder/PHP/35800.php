@@ -1,0 +1,1 @@
+<?php require_once('C:\\wamp\\www\\myPhotosWebsite\\getPhotos.php'); ?>

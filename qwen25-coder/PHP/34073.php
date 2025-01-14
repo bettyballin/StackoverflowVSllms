@@ -1,0 +1,1 @@
+$user_list = [\n    'john_doe' => 'password123',\n    'jane_smith' => 'secret456'\n];

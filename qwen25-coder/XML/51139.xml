@@ -1,0 +1,1 @@
+<server name="YourServerName" address="backend-server-address">\n    <application hostHeader="backend-host" />\n    <proxySettings httpPort="<http-port>" useSsl="false" />\n</server>

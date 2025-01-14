@@ -1,0 +1,1 @@
+$testArray = ['key' => 'value'];\n   $serialized = base64_encode(serialize($testArray));\n   $decoded = base64_decode($serialized);\n   var_dump(unserialize($decoded)); // Should output Array ( [key] => value )

@@ -1,0 +1,1 @@
+<SafeControls>\n        <!-- Existing SafeControls entries -->\n        <SafeControl Assembly="YourAssemblyName, Version=1.0.0.0, Culture=neutral, PublicKeyToken=yourPublicKeyToken"\n                     Namespace="PeopleAdWebPart"\n                     TypeName="*"\n                     Safe="True" />\n    </SafeControls>

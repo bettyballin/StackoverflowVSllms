@@ -1,0 +1,1 @@
+DELETE t1 FROM `my_table` t1\n   INNER JOIN (\n       SELECT MIN(`id`) as min_id, `ref_id`, `type`\n       FROM `my_table`\n       GROUP BY `ref_id`, `type`\n       HAVING COUNT(*) > 1\n   ) dup ON t1.`ref_id` = dup.`ref_id` AND t1.`type` = dup.`type`\n   WHERE t1.`id` != dup.min_id;

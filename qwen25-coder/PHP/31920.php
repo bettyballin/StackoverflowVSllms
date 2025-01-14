@@ -1,0 +1,1 @@
+ini_set('max_execution_time', 300); // Set to 5 minutes for testing

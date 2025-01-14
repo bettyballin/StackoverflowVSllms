@@ -1,0 +1,1 @@
+-- Using CROSS APPLY to perform a row-wise operation\nSELECT p.PersonName, s.CharPos, s.Character\nFROM Person p\nCROSS APPLY dbo.SplitString(p.personName) AS s\nORDER BY p.PersonId, s.CharPos;

@@ -1,0 +1,1 @@
+<?php\n// Set the default timezone to Pacific Daylight Time/Standard Time\ndate_default_timezone_set('America/Los_Angeles');\n\n// Echo the current date and time formatted as specified\necho date('D j M Y, G:ia');\n?>

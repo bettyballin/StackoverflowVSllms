@@ -1,0 +1,1 @@
+SELECT \n    name AS TypeName,\n    system_type_id,\n    user_type_id,\n    schema_id,\n    create_date,\n    modify_date\nFROM \n    sys.types\nWHERE \n    is_user_defined = 1;

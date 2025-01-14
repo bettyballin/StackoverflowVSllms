@@ -1,0 +1,1 @@
+Declare Function GetExcelApp Lib "YourDllName.dll" (xlApp As Object) As Long\n\nSub TestDLL()\n    Dim result As Long\n    ' Pass Application object to the DLL function.\n    result = GetExcelApp(Application)\nEnd Sub

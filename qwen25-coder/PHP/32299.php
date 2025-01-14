@@ -1,0 +1,1 @@
+$var = 'test5';\n// Using multiple comparisons\nif ($var != 'test1' && $var != 'test2' && $var != 'test3' && $var != 'test4') {\n    echo "Not in the list using multiple comparisons.\n";\n}\n\n// Using in_array()\nif (!in_array($var, array('test1', 'test2', 'test3', 'test4'))) {\n    echo "Not in the list using in_array().\n";\n}

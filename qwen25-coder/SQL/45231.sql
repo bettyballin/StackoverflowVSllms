@@ -1,0 +1,1 @@
+SELECT Employees.Name, Departments.DepartmentName \nFROM Employees \nJOIN Departments ON Employees.DepartmentID = Departments.DepartmentID;

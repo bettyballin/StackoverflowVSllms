@@ -1,0 +1,1 @@
+var canvas = document.getElementById('myCanvas');\n   var ctx = canvas.getContext('2d');\n   // Example: Draw a rectangle\n   ctx.fillStyle = "#FF0000";\n   ctx.fillRect(10, 10, 50, 50);

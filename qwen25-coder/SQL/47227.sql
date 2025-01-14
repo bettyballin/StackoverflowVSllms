@@ -1,0 +1,1 @@
+BEGIN\n  DBMS_STATS.GATHER_TABLE_STATS(\n    ownname => 'YOUR_SCHEMA_NAME',\n    tabname => 'YOUR_TABLE_NAME',\n    method_opt => 'FOR ALL COLUMNS SIZE AUTO',\n    estimate_percent => 50,\n    cascade => TRUE);\nEND;\n/

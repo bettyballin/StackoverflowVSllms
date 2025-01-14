@@ -1,0 +1,1 @@
+<ComVisible(True)>\n  <Guid("your-guid-here")>\n  Public Class YourClass\n      ' ...\n  End Class

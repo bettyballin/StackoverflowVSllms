@@ -1,0 +1,1 @@
+SELECT \n    A.*, D.*, E.*\nFROM \n    (\n        SELECT \n            A.*, B.*, C.*\n        FROM \n            A\n            LEFT JOIN B ON A.b = B.b\n            LEFT JOIN C ON A.c = C.c\n    ) AS ABC\n    INNER JOIN D ON A.a = D.a\n    INNER JOIN E ON B.e = E.e;

@@ -1,0 +1,1 @@
+SELECT *\nFROM events\nWHERE MBRContains(\n    period_start_end,\n    POINT(UNIX_TIMESTAMP('2009-02-18 16:27:12'), UNIX_TIMESTAMP('2009-02-18 16:27:12'))\n);

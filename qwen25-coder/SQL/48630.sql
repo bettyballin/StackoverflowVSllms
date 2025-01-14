@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE (timestamp_column1 - timestamp_column2) = INTERVAL '30 seconds';

@@ -1,0 +1,1 @@
+SELECT name, obj_type, text\nFROM sysobjects\nWHERE id IN (\n    SELECT id \n    FROM sysobjects \n    WHERE type = 'TR' AND parent_obj = OBJECT_ID('YourTableName')\n)

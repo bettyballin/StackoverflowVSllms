@@ -1,0 +1,1 @@
+$collator = new Collator('af-ZA');\n   $arr = ['é', 'e', 'ê', 'a'];\n   $collator->sort($arr);\n   // $arr is now ['a', 'e', 'ê', 'é']

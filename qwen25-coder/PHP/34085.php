@@ -1,0 +1,1 @@
+$advertiser = array(\n       'Property1' => 'value1',\n       'Property2' => 'value2'\n       // Add other properties as per WSDL definition\n   );\n\n   $params = array('advertiser' => new SoapVar($advertiser, SOAP_ENC_OBJECT, 'Advertiser', 'http://yourwebservice.com/'));

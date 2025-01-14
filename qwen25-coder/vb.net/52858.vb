@@ -1,0 +1,1 @@
+<%\nDim id = Request.ServerVariables("PATH_INFO")\nIf id <> "" Then\n    Response.Status = "302 Moved Temporarily"\n    Response.AddHeader "Location", "http://someotherserver/applications/something/modules/default.aspx?id=" & Mid(id, 2)\nEnd If\n%>

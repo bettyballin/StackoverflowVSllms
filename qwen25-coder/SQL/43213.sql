@@ -1,0 +1,1 @@
+-- SQL command to view the encryption algorithm of the Database Master Key\n   SELECT thumbprint, encryption_algorithm_desc FROM sys.dm_database_encryption_keys;

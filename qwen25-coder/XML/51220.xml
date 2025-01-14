@@ -1,0 +1,1 @@
+<Command>\n  <CommandText>UPDATE Table2 SET ValueForKeyField = @ValueForKeyField WHERE IntPrimaryKey1 = @Original_IntPrimaryKey1</CommandText>\n  <!-- Parameters should be defined here -->\n</Command>

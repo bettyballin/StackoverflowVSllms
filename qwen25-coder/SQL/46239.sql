@@ -1,0 +1,1 @@
+DECLARE @VarcharTimestamp VARCHAR(20) = '0x0000000002C490C8';\nDECLARE @BinaryTimestamp VARBINARY(8);\n\nSET @BinaryTimestamp = CONVERT(VARBINARY(8), @VarcharTimestamp, 1);\n-- OR\nSET @BinaryTimestamp = CAST(@VarcharTimestamp AS VARBINARY(8));\n\nSELECT @BinaryTimestamp AS BinaryTimestamp;

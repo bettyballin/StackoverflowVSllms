@@ -1,0 +1,1 @@
+def processThis(string, lst):\n    for find, replace in lst:\n        string = string.replace(find, replace)\n    return string\n\nx = 'find1, find2, find3'\ny = [('find1', 'replace1'), ('find2', 'replace2'), ('find3', 'replace3')]\n\nprint(processThis(x, y))  # Output: 'replace1, replace2, replace3'

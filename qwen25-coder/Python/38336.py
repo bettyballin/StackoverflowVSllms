@@ -1,0 +1,1 @@
+from django.db.models import Q\n\n# Assuming 'user_instance' is the instance of User for whom you want to find projects.\nprojects = Project.objects.filter(\n    Q(donation__user=user_instance) | \n    Q(campaign__user=user_instance)\n).distinct()

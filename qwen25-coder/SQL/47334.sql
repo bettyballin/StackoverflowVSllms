@@ -1,0 +1,1 @@
+BEGIN\n   FOR rec IN (SELECT sid, serial#\n               FROM v$session\n               WHERE username = 'YOUR_SCHEMA_NAME') LOOP\n      EXECUTE IMMEDIATE 'ALTER SYSTEM KILL SESSION ''' || rec.sid || ',' || rec.serial# || '''';\n   END LOOP;\nEND;

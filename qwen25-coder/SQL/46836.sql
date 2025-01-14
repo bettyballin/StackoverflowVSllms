@@ -1,0 +1,1 @@
+DECLARE @session_id INT;\nSET @session_id = @@SPID; -- or specify any other session_id\n\nSELECT \n    'CLOSE ' + name + ';' +\n    'DEALLOCATE ' + name + ';'\nFROM  \n    sys.dm_exec_cursors (@session_id)\nWHERE \n	open_status = 1;

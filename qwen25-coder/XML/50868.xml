@@ -1,0 +1,1 @@
+<configuration>\n  <system.diagnostics>\n    <switches>\n      <add name="System.Security" value="Verbose"/>\n    </switches>\n  </system.diagnostics>\n</configuration>

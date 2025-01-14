@@ -1,0 +1,1 @@
+import pandas as pd\n\n   # Read from Excel\n   df = pd.read_excel('example.xlsx')\n\n   # Modify the dataframe\n   df['NewColumn'] = 'Data'\n\n   # Write to Excel\n   df.to_excel('modified_example.xlsx', index=False)

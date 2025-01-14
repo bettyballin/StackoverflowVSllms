@@ -1,0 +1,1 @@
+imagedestroy($originalImage);\n    imagedestroy($resizedImage);

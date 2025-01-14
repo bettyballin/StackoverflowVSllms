@@ -1,0 +1,1 @@
+-- Create this as a user with SELECT ANY DICTIONARY privilege\nCREATE OR REPLACE FUNCTION get_data_type RETURN VARCHAR2 IS\n    dataType VARCHAR2(128);\nBEGIN\n    SELECT t.data_type INTO dataType FROM sys.dba_tab_cols t\n    WHERE\n        t.table_name = 'ACCOUNTTYPE' AND \n        t.column_name = 'ACCESSEDBY';\n    \n    RETURN dataType;\nEND;\n/

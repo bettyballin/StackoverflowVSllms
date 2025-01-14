@@ -1,0 +1,1 @@
+<?php\n// Array to JSON\n$data = ["name" => "John Doe", "age" => 30, "city" => "New York"];\n$jsonData = json_encode($data);\necho $jsonData; // Output: {"name":"John Doe","age":30,"city":"New York"}\n\n// JSON to Array\n$decodedData = json_decode($jsonData, true);\nprint_r($decodedData); \n?>

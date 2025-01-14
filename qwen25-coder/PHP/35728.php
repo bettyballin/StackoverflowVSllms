@@ -1,0 +1,1 @@
+// Assuming $imageUrl is the path to your image and you have some method to get a unique identifier like timestamp\n$uniqueIdentifier = time(); // or any other function that provides a unique value\n$newImageUrl = $imageUrl . "?v=" . $uniqueIdentifier;\necho "<img src='{$newImageUrl}' alt='Newsletter Image'>";

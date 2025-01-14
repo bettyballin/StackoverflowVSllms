@@ -1,0 +1,1 @@
+<?php\n$http_host = $_SERVER['HTTP_HOST'];\n\nif ($http_host === 'www.abc.com') {\n    echo "Welcome to ABC!";\n} elseif ($http_host === 'www.def.com') {\n    echo "Welcome to DEF!";\n} else {\n    echo "Welcome to our site!";\n}\n?>

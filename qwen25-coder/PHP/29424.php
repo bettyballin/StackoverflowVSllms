@@ -1,0 +1,1 @@
+$jsonData = '{\n    "name": "John Doe",\n    "age": 30,\n    "children": [\n        {\n            "name": "Jane Doe",\n            "age": 10\n        }\n    ]\n}';\n\n$obj = json_decode($jsonData);\necho $obj->name; // Output: John Doe\necho $obj->children[0]->name; // Output: Jane Doe

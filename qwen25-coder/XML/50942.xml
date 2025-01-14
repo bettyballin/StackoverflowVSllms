@@ -1,0 +1,1 @@
+<plugin>\n         <groupId>org.apache.maven.plugins</groupId>\n         <artifactId>maven-dependency-plugin</artifactId>\n         <version>3.1.2</version>\n     </plugin>

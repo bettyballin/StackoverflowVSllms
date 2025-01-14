@@ -1,0 +1,1 @@
+<Reference Include="AssemblyB">\n  <HintPath>..\SomeFolder\AssemblyB.dll</HintPath>\n  <Private>true</Private>\n</Reference>

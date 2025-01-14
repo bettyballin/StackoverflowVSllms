@@ -1,0 +1,1 @@
+Using sr As New System.IO.StreamReader("file.txt")\n    ' Use the StreamReader variable named sr.\nEnd Using

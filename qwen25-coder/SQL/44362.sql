@@ -1,0 +1,1 @@
+UPDATE YourTableName\nSET YourColumnName = REPLACE(YourColumnName, 'OldPath', 'NewPath')\nWHERE YourColumnName LIKE '%OldPath%';

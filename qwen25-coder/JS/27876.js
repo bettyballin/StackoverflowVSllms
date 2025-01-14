@@ -1,0 +1,1 @@
+const { mix } = require('laravel-mix');\n   require('@symfony/webpack-encore');\n\n   Encore\n     .setOutputPath('public/build/')\n     .setPublicPath('/build')\n     .addStyleEntry('css/app', './assets/styles/app.scss')\n     .enableSassLoader()\n     .enableBuildNotifications();\n   \n   module.exports = Encore.getWebpackConfig();

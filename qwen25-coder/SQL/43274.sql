@@ -1,0 +1,1 @@
+WHILE (SELECT COUNT(*) FROM YourTable WHERE YourCondition) > 0\n    BEGIN\n        DELETE TOP (1000) FROM YourTable\n        WHERE YourCondition;\n    END

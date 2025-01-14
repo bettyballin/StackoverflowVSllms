@@ -1,0 +1,1 @@
+SELECT \n    timestamp AS gmt_timestamp,\n    datetime(timestamp, 'localtime') AS local_time,\n    datetime(timestamp, '-6 hours') AS cst_time -- Adjust for CST (UTC-6)\nFROM \n    your_table_name;

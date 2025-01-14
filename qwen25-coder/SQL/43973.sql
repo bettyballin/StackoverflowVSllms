@@ -1,0 +1,1 @@
+SELECT * \nFROM user_info ui\nLEFT OUTER JOIN addresses a ON a.user_id = ui.user_id \nAND CASE \n    WHEN dbo.fnGetAppId(ui.user_id) = 'is null' THEN 1 \n    ELSE dbo.fnGetAppId(ui.user_id) \nEND = CASE \n        WHEN dbo.fnGetAppId(ui.user_id) = 'is null' THEN (CASE WHEN a.app_id IS NULL THEN 1 END)\n        ELSE a.app_id\n    END;

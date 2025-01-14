@@ -1,0 +1,1 @@
+-- Step 3: Deny specific permissions to a login in a particular database.\nUSE YourDatabaseName;\nGO\n\nDENY CONNECT TO [DOMAIN\domainAdmin];\nGO

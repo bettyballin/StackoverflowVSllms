@@ -1,0 +1,1 @@
+ALTER TABLE `filesystem_data`.`$tablename` \n   ADD FULLTEXT INDEX idx_file_path (`file_path`);

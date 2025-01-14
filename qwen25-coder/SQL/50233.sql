@@ -1,0 +1,1 @@
+-- List of active sessions that are not idle\n    SELECT s.sid, s.serial#, s.username, s.osuser, s.status, s.module, s.sql_id\n    FROM v$session s\n    WHERE s.status != 'INACTIVE'\n      AND s.username IS NOT NULL;

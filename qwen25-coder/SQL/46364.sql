@@ -1,0 +1,1 @@
+WHERE (Column1 = @Param1 OR Column1 LIKE @Param1 + '%')\nAND Column2 LIKE ISNULL(@Param2, '') + '%'

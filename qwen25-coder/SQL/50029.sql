@@ -1,0 +1,1 @@
+-- Assuming you have a table 'your_table' with a SERIAL column 'id'\nINSERT INTO your_table (column1, column2) VALUES ('value1', 'value2');\n\n-- Retrieve the last inserted ID\nSELECT DBINFO('sqlca.sqlerrd1') FROM systables WHERE tabid = 1;

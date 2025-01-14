@@ -1,0 +1,1 @@
+class Document < ApplicationRecord\n     include ImageProcessing::MiniMagick\n\n     attacher :file\n   end

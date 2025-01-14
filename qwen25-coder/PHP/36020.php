@@ -1,0 +1,1 @@
+// In your PHP file, get environment variables instead of using a file.\n$host = getenv('DB_HOST');\n$dbname = getenv('DB_NAME');\n$username = getenv('DB_USERNAME');\n$password = getenv('DB_PASSWORD');

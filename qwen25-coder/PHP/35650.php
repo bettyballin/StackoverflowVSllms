@@ -1,0 +1,1 @@
+$stmt = $conn->prepare("UPDATE qotwVote1a SET Vote1a = ? WHERE QuestionId = ? AND MemberId = ?");\n$stmt->bind_param("iis", $newVote, $questionId, $id);\nif (!$stmt->execute()) {\n    die("Error executing query: " . $stmt->error);\n}

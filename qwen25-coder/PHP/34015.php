@@ -1,0 +1,1 @@
+<?php\n// Set the session save path to a custom directory\nini_set('session.save_path', 'c:\tmp');\nsession_start();\n?>

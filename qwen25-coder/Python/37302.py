@@ -1,0 +1,1 @@
+# Example: O(n) vs O(0.001n)\n   def slow_linear(data):\n       result = 0\n       for i in range(len(data)):\n           result += data[i] * 1000  # Large constant factor\n       return result\n\n   def fast_linear(data):\n       result = 0\n       for i in range(len(data)):\n           result += data[i]\n       return result

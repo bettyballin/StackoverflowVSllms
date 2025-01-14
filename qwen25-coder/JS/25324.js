@@ -1,0 +1,1 @@
+let myArray = ['a', 'b', 'c', 'd'];\n  delete myArray[1];\n  console.log(myArray); // Output: ["a", undefined, "c", "d"]\n  console.log(myArray.length); // Output: 4

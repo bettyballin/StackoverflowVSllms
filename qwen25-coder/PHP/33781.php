@@ -1,0 +1,1 @@
+// Example of creating a new Excel file\n   require 'PHPExcel.php';\n   $objPHPExcel = new PHPExcel();\n   $objPHPExcel->getActiveSheet()->setCellValue('A1', 'Hello World !');\n   $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');\n   $objWriter->save('hello world.xlsx');

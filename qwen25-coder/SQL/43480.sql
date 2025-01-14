@@ -1,0 +1,1 @@
+CREATE TABLE FolderTemplate\n(\n    ID INT IDENTITY PRIMARY KEY,\n    StaticFolderName NVARCHAR(50),\n    DynamicFieldID INT NULL FOREIGN KEY REFERENCES dynamicField(ID),\n    ParentID INT NULL FOREIGN KEY REFERENCES FolderTemplate(ID),\n    CHECK ((StaticFolderName IS NOT NULL AND DynamicFieldID IS NULL) OR (StaticFolderName IS NULL AND DynamicFieldID IS NOT NULL))\n);

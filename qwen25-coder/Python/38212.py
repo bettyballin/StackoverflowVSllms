@@ -1,0 +1,1 @@
+def naive_search(text, pattern):\n    n = len(text)\n    m = len(pattern)\n    for i in range(n - m + 1):\n        if text[i:i + m] == pattern:\n            return i\n    return -1\n\n# Example usage\ntext = "hello world"\npattern = "world"\nindex = naive_search(text, pattern)\nprint(index)  # Output: 6

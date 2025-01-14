@@ -1,0 +1,1 @@
+(DT_WSTR,8) DATEPART("hh", [YourDateTimeColumn] >= (DT_DATE)"12:00 PM" ? [YourDateTimeColumn] - (DT_I4)12 : [YourDateTimeColumn]) + ":" \n+ RIGHT("0" + (DT_STR, 2, 1252)DATEPART("mi", [YourDateTimeColumn]), 2) + ":"\n+ RIGHT("0" + (DT_STR, 2, 1252)DATEPART("ss", [YourDateTimeColumn]), 2) \n+ " " + (DT_WSTR,2)([YourDateTimeColumn] >= (DT_DATE)"12:00 PM" ? "PM" : "AM")

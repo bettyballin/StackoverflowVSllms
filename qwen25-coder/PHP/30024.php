@@ -1,0 +1,1 @@
+$link = mysql_connect('localhost:3309', 'root', 'your_password');\n   if (!$link) {\n       die('Could not connect: ' . mysql_error());\n   }

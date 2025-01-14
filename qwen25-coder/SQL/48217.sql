@@ -1,0 +1,1 @@
+LOAD DATA\nINFILE 'your_data_file.csv'\nINTO TABLE your_table_name\nAPPEND\nFIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'\nTRAILING NULLCOLS\n(\n    -- other columns...\n    timestamp_column "TO_TIMESTAMP(:timestamp_column, 'YYYY-MM-DD HH24:MI:SS.FF')"\n)

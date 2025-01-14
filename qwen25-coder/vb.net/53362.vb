@@ -1,0 +1,1 @@
+' Assuming 'webBrowser1' is the name of your WebBrowser control on the form.\nwebBrowser1.DocumentText = "<html><body><b>Hello</b> World</body></html>"

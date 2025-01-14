@@ -1,0 +1,1 @@
+$type = "enum('a','b','c')";\n\n// Remove 'enum(' from the start and ');' from the end, then split by ','\npreg_match('/^enum\((.*)\)$/', $type, $matches);\n$result = explode("','", $matches[1]);\n\necho print_r($result, true); // Outputs: Array ( [0] => a [1] => b [2] => c )

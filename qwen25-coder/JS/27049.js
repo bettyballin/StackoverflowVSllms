@@ -1,0 +1,1 @@
+$(function() {\n    $('#tabs').tabs({\n        activate: function(event, ui) {\n            DD_roundies.refreshAll(); // Refresh all rounded corners after tab change\n        }\n    });\n});\n\n// Ensure no border on inactive tabs\n.ui-state-default a,\n.ui-widget-header .ui-icon {\n    border-style: none;\n}

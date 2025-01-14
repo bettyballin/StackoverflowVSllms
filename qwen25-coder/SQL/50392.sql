@@ -1,0 +1,1 @@
+-- Using NUMBER for exact calculation\nSELECT 0.1 * 10 AS exact_result FROM dual;\n\n-- Using FLOAT might lead to inexact results in other systems, but Oracle treats it as BINARY_FLOAT/BINARY_DOUBLE\nSELECT CAST(0.1 AS FLOAT) * 10 AS float_result FROM dual;

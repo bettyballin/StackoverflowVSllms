@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\nSELECT name, balance FROM accounts WHERE user_id = 12345;\nROLLBACK; -- This will not make any changes but demonstrates transaction structure

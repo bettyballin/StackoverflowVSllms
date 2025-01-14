@@ -1,0 +1,1 @@
+SELECT CHAR(v_date, ISO) AS formatted_date FROM your_table;

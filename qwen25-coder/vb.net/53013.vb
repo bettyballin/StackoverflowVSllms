@@ -1,0 +1,1 @@
+Dim lqPatientName = (From lqp In lqPatientTable.Patients _\n                     Where lqp.PatientID = strPatientId _\n                     Select lqp.FirstName, lqp.LastName)

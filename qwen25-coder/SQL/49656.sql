@@ -1,0 +1,1 @@
+SELECT\n  COUNT(*) as occurrences,\n  file_path,\n  content\nFROM\n  `bigquery-public-data.github_repos.contents`\nWHERE\n  REGEXP_CONTAINS(content, r'\.myMethodName\(') AND path LIKE '%.java'\nGROUP BY\n  file_path, content\nORDER BY\n  occurrences DESC\nLIMIT 10;

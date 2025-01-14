@@ -1,0 +1,1 @@
+MERGE INTO someTable st\nUSING (\n    SELECT id, field1, field2, etc \n    FROM otherTable\n    ORDER BY id  -- Ensure ordering by id\n) ot ON st.field1 = ot.field1\nWHEN NOT MATCHED THEN\n    INSERT (field1, field2, etc)\n    VALUES (ot.field1, ot.field2, ot.etc);

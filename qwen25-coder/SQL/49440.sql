@@ -1,0 +1,1 @@
+-- This is not run directly in SSMS but shows how filters can be set up programmatically if needed.\nexec sp_trace_setfilter trace_id, columnid, operator, @value = N'YourAppName'

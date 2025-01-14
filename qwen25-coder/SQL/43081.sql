@@ -1,0 +1,1 @@
+(DT_WSTR,8) DATEPART("hh", [YourDateTimeColumn]) + ":" \n+ (DT_WSTR,2) DATEPART("mi", [YourDateTimeColumn]) + ":"\n+ (DT_WSTR,2) DATEPART("ss", [YourDateTimeColumn])

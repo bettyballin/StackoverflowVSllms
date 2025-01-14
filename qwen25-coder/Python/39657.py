@@ -1,0 +1,1 @@
+other_string = None  # Example value\ndefault_string = "Default"\n\nstring_value = other_string if other_string else default_string\n\n# Alternatively, to closely mimic C#'s string.IsNullOrEmpty:\n# This checks if the string is either None or empty.\nstring_value = default_string if not other_string else other_string

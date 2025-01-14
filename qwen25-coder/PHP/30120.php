@@ -1,0 +1,1 @@
+$reader = new XMLReader();\n   $reader->XML($xml);\n   while ($reader->read()) {\n       if ($reader->nodeType == XMLReader::ELEMENT && $reader->name === 'my-root-element') {\n           // Process the element\n       }\n   }

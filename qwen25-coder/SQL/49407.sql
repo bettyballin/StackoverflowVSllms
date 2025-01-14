@@ -1,0 +1,1 @@
+SELECT TOP (100) PERCENT ID, TRY_CAST(MyCol AS bigint) AS MyCol\nFROM MyTable\nWHERE isnumeric(MyCol) = 1 AND TRY_CAST(MyCol AS bigint) IS NOT NULL

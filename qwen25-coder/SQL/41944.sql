@@ -1,0 +1,1 @@
+-- Check current privileges\n   SELECT * FROM DBA_TAB_PRIVS WHERE GRANTEE = 'YOUR_USER' AND TABLE_NAME = 'PROBLEMATICTABLE';\n\n   -- Grant select privilege if needed\n   GRANT SELECT ON problematicTable TO your_user;

@@ -1,0 +1,1 @@
+SELECT p.id, r.title, r.number\nFROM page p\nINNER JOIN revision r ON p.id = r.pageId\nWHERE r.number = (\n    SELECT MAX(r2.number)\n    FROM revision r2\n    WHERE r2.pageId = p.id\n);

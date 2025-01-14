@@ -1,0 +1,1 @@
+// Example of using filter_var for different types\n$userId = filter_input(INPUT_GET, 'user_id', FILTER_VALIDATE_INT);\n$email  = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);\n\nif ($userId === false) {\n    // Handle invalid user ID\n}\n\nif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {\n    // Handle invalid email\n}

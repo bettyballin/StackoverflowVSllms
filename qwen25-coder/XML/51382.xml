@@ -1,0 +1,1 @@
+<compilation debug="false" targetFramework="2.0">\n        <assemblies>\n            <!-- Ensure necessary assemblies are listed -->\n        </assemblies>\n    </compilation>

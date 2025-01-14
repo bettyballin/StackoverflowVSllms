@@ -1,0 +1,1 @@
+WITH RECURSIVE_DATE_RANGE AS (\n    SELECT id, start_date AS dt\n    FROM Event\n    UNION ALL\n    SELECT r.id, r.dt + 1\n    FROM RECURSIVE_DATE_RANGE r\n    JOIN Event e ON r.id = e.id\n    WHERE r.dt < e.end_date\n)\nSELECT DISTINCT er.id\nFROM RECURSIVE_DATE_RANGE er\nWHERE TO_CHAR(er.dt, 'DY', 'NLS_DATE_LANGUAGE=ENGLISH') = 'MON';

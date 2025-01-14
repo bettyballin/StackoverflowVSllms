@@ -1,0 +1,1 @@
+DECLARE @startDate datetime = CAST(GETDATE() AS DATE),\n        @endDate datetime = DATEADD(DAY, 1, CAST(GETDATE() AS DATE));\n\nSELECT COUNT(Job) AS Jobs\nFROM dbo.Job\nWHERE Received >= @startDate AND Received < @endDate;

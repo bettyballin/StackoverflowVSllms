@@ -1,0 +1,1 @@
+SELECT table_name, column_name, column_comment \nFROM information_schema.columns \nWHERE table_schema = 'your_database_name' \nAND (table_name LIKE '%contest%' OR column_name LIKE '%contest%');

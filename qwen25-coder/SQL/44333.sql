@@ -1,0 +1,1 @@
+SELECT \n  (EXTRACT(DAY FROM (enddate - stardate)) * 24 * 60 * 60 +\n   EXTRACT(HOUR FROM (enddate - stardate)) * 60 * 60 +\n   EXTRACT(MINUTE FROM (enddate - stardate)) * 60 +\n   EXTRACT(SECOND FROM (enddate - stardate))) AS difference_in_seconds;

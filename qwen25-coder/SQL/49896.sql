@@ -1,0 +1,1 @@
+SELECT name + ' ' + species AS pet_info\nFROM your_table_name\nWHERE petid = 1000; -- Assuming you want to filter for a specific petid

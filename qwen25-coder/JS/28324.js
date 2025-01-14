@@ -1,0 +1,1 @@
+<script type="text/javascript">\nfunction setSWFHeight(height) {\n    var swfElement = document.getElementById('your_swfid');\n    if (swfElement && (swfElement.style.height !== height + 'px')) {\n        swfElement.style.height = height + 'px';\n    }\n}\n</script>

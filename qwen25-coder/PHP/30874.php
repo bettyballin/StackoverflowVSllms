@@ -1,0 +1,1 @@
+public function get_field2_options()\n{\n    $value = $this->input->post('field1_value');\n    // Fetch options from database based on the value selected for field1\n    $data['options'] = $this->Form_model->get_field2_options($value);\n    \n    foreach ($data['options'] as $row)\n    {\n        echo "<option value='$row->id'>$row->name</option>";\n    }\n}

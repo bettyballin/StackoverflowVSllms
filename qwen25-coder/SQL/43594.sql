@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM your_table_name;

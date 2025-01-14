@@ -1,0 +1,1 @@
+window.addEventListener('beforeunload', function() {\n    navigator.sendBeacon('/api/logout');\n});

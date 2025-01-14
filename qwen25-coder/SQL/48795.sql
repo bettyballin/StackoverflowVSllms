@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTable\nWHERE \n    (IsNumeric(@OrderNumber) = 1 AND OrderNumber = @OrderNumber)\n    OR\n    (IsNumeric(@OrderNumber) <> 1 AND OrderNumber LIKE '%' + @OrderNumber + '%')

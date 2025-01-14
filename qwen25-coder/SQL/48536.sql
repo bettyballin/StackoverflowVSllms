@@ -1,0 +1,1 @@
+DECLARE @result NVARCHAR(MAX)\nSET @result = dbo.ValidateAndTransformInput('example')\n\n-- Check for error and handle accordingly\nIF CHARINDEX('ERROR:', @result) > 0\nBEGIN\n    PRINT 'Error encountered: ' + @result\nEND\nELSE\nBEGIN\n    PRINT 'Valid result: ' + @result\nEND

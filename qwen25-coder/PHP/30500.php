@@ -1,0 +1,1 @@
+// Example of mixed approach in a legacy system\n   require_once('util/html/HTMLParser.php');

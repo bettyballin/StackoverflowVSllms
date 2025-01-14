@@ -1,0 +1,1 @@
+import zipfile\n\nwith zipfile.ZipFile('documents.zip', 'w', zipfile.ZIP_DEFLATED) as zipf:\n    zipf.write('document1.xml')\n    zipf.write('document2.xml')

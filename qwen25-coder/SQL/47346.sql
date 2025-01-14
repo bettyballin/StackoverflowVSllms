@@ -1,0 +1,1 @@
+BEGIN\n      DBMS_STATS.GATHER_INCREMENTAL_TABLE_STATS(\n        ownname => 'YOUR_SCHEMA_NAME',\n        tabname => 'YOUR_TABLE_NAME');\n    END;\n    /

@@ -1,0 +1,1 @@
+const regex = /@|at/;\nconst text = "Contact me at support@example.com or via @support";\n\nconsole.log(text.match(regex)); // Outputs: ["@"]

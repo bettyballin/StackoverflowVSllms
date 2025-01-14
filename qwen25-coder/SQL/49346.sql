@@ -1,0 +1,1 @@
+SELECT \n    et.ActivityKey,\n    et.ActivityDesc,\n    e.EventKey,\n    e.EventDesc\nFROM \n    EventTask et\nJOIN \n    Event e ON e.EventKey BETWEEN et.StartEventKey AND et.EndEventKey\nORDER BY \n    et.ActivityKey, e.EventKey;

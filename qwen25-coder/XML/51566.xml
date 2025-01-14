@@ -1,0 +1,1 @@
+<!-- Example snippet to ensure no conflicting settings -->\n   <configuration>\n       <system.webServer>\n           <security>\n               <authorization>\n                   <allow users="*" />\n               </authorization>\n           </security>\n       </system.webServer>\n   </configuration>

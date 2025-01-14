@@ -1,0 +1,1 @@
+CREATE TABLE transactions (\n    transaction_id INT PRIMARY KEY,\n    account_id INT,\n    transaction_amount DECIMAL(19,4),\n    conversion_rate FLOAT,\n    currency_code CHAR(3) -- Assuming you'll use ISO 4217 currency codes\n);

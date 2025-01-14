@@ -1,0 +1,1 @@
+const numbersIntArray = numbersArray.map(Number);\n\nconsole.log(numbersIntArray);

@@ -1,0 +1,1 @@
+-- Disable the trigger before your INSERT\nDISABLE TRIGGER YourTableName_YourTriggerName ON YourTableName;\n\n-- Perform your INSERT here\nINSERT INTO YourTableName (Columns) VALUES (Values);\n\n-- Re-enable the trigger after your INSERT\nENABLE TRIGGER YourTableName_YourTriggerName ON YourTableName;

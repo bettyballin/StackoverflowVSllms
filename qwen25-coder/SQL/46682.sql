@@ -1,0 +1,1 @@
+CREATE OR ALTER PROCEDURE DeleteUnusedRelations\n    @productid bigint,\n    @attributetypeid bigint,\n    @includedids IDListTableType READONLY\nAS\nBEGIN\n    DELETE FROM reltable \n    WHERE productid = @productid AND \n          attributetypeid = @attributetypeid AND \n          attributeid NOT IN (SELECT ID FROM @includedids);\nEND;

@@ -1,0 +1,1 @@
+// Get the user's language preference\nconst userLanguage = navigator.language || navigator.userLanguage;\nconsole.log("User's preferred language:", userLanguage);

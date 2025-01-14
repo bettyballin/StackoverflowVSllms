@@ -1,0 +1,1 @@
+<form action="your-upload-url" method="POST">\n    <input type="hidden" name="PHPSESSID" value="<?php echo session_id(); ?>">\n    <!-- other form fields -->\n    <button type="submit">Upload</button>\n</form>

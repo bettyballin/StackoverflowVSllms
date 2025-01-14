@@ -1,0 +1,1 @@
+CREATE CLUSTERED INDEX IX_Clustered ON Table \n    (\n        ColC ASC,\n        ColA ASC,\n        ColD ASC,\n        ColE ASC,\n        ColF ASC,\n        ColG ASC\n    )\n    WITH (DROP_EXISTING = ON, PAD_INDEX  = ON, STATISTICS_NORECOMPUTE  = OFF, SORT_IN_TEMPDB = OFF, \n          FILLFACTOR = 90, ONLINE = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = OFF) ON [PRIMARY]

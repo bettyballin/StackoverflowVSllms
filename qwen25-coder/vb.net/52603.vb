@@ -1,0 +1,1 @@
+Dim byteArray As Byte() = {1, 2, 3, 4} ' Example byte array\nDim integerResult As Integer = BitConverter.ToInt32(byteArray, 0)

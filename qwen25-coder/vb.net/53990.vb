@@ -1,0 +1,1 @@
+' Assuming 'TextBox1' is the TextBox control containing the number\nDim textFromTextBox As String = TextBox1.Text\nIf Decimal.TryParse(textFromTextBox, number) Then\n    Dim formattedPercent As String = String.Format("{0:P}", number)\n    ' Output: 50.5 as "50.50 %"\n    MessageBox.Show(formattedPercent)\nElse\n    MessageBox.Show("Please enter a valid number.")\nEnd If

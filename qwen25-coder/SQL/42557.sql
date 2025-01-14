@@ -1,0 +1,1 @@
+CREATE TABLE `your_table` (\n  `id` INT AUTO_INCREMENT PRIMARY KEY,\n  `user_id` INT NOT NULL, -- Assuming you store user ID as well\n  `info_column` VARCHAR(255)\n);

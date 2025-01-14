@@ -1,0 +1,1 @@
+class UserActionsController < ApplicationController\n  before_action :authenticate_user!\n  force_ssl if: :ssl_required?\n\n  def ssl_required?\n    Rails.env.production? # Use SSL in production only\n  end\n\n  def create\n    # Action to handle creation\n  end\n\n  def update\n    # Action to handle updating\n  end\n\n  def destroy\n    # Action to handle destroying\n  end\nend

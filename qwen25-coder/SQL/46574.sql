@@ -1,0 +1,1 @@
+select * from parents p\ninner join children c on p.id = c.pid\nwhere p.x = 2

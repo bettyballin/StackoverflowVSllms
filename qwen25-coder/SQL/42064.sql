@@ -1,0 +1,1 @@
+-- When inserting a new parent, always ensure a default child is created\nINSERT INTO ParentTable (parent_column) VALUES ('value');\n\nDECLARE @ParentID int;\nSET @ParentID = SCOPE_IDENTITY();\n\n-- Insert default child\nINSERT INTO ChildTable (parent_id, child_columns) VALUES (@ParentID, 'default values');

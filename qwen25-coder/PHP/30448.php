@@ -1,0 +1,1 @@
+var_dump(locale_get_available_locales());

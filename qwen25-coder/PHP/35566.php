@@ -1,0 +1,1 @@
+function safeShiftLeft($a, $b) {\n    $result = $a << $b;\n    // Mask the result to simulate 32-bit behavior if necessary\n    return ($result & 0xFFFFFFFF);\n}\n\nfunction safeShiftRight($a, $b) {\n    $result = $a >> $b;\n    // Handle sign extension for negative numbers if necessary\n    return ($result & 0x7FFFFFFF) - ($result & 0x80000000 ? 0x100000000 : 0);\n}

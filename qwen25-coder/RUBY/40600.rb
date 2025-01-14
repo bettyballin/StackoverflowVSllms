@@ -1,0 +1,1 @@
+Version.joins("JOIN editions ON versions.edition_id = editions.id JOIN products ON editions.product_id = products.id")\n       .select("products.name AS product_name, versions.name AS version_name")

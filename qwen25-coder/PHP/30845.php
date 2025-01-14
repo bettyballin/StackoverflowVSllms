@@ -1,0 +1,1 @@
+<!DOCTYPE html>\n<html>\n<head>\n    <?= $this->Html->meta('icon') ?>\n    <title><?= $this->fetch('title') ?></title>\n    <!-- Common or specific styles/scripts for this set of pages -->\n</head>\n<body class="normal">\n    <?php echo $this->element('parent_layout', ['content' => $this->fetch('content')]); ?>\n</body>\n</html>

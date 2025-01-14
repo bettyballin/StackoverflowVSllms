@@ -1,0 +1,1 @@
+SELECT LENGTH('Hello World') AS LengthInBytes,\n       CHAR_LENGTH('Hello World') AS LengthInCharacters\nFROM DUMMY;

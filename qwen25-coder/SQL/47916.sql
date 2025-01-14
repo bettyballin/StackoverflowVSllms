@@ -1,0 +1,1 @@
+DECLARE @chunkSize INT = 1024 * 1024; -- 1 MB chunk size\nDECLARE @offset INT = 0;\nSELECT SUBSTRING(data, @offset + 1, @chunkSize) AS dataChunk\nFROM Documents\nWHERE id = yourDocumentId;

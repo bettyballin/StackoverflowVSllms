@@ -1,0 +1,1 @@
+SELECT \n    MAX(CASE WHEN ID = 1 THEN ContactName END) AS ContactName1,\n    MAX(CASE WHEN ID = 2 THEN ContactName END) AS ContactName2,\n    MAX(CASE WHEN ID = 3 THEN ContactName END) AS ContactName3,\n    MAX(CASE WHEN ID = 4 THEN ContactName END) AS ContactName4\nFROM \n    YourTableName;

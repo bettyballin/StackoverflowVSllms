@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION my_function RETURN NUMBER IS\n  -- Your PL/SQL code here\nBEGIN\n  -- Example logic\n  NULL;\n  RETURN 1; -- or any other appropriate value\nEND;\n/\nSET SERVEROUTPUT ON;\n\n-- Call the function like this\nDECLARE\n  l_dummy NUMBER;\nBEGIN\n  l_dummy := my_function;\n  DBMS_OUTPUT.PUT_LINE('Function executed.');\nEND;\n/

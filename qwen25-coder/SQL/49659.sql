@@ -1,0 +1,1 @@
+TRANSFORM First(YourTable.YourField) AS FirstOfYourField\nSELECT YourTable.MainField\nFROM YourTable\nWHERE (((YourTable.SomeConditionField)=True))\nGROUP BY YourTable.MainField\nPIVOT IIf(YourTable.PivotField In ("Col1", "Col2", "Col3"), YourTable.PivotField, Null);

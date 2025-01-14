@@ -1,0 +1,1 @@
+<?php\n$password = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_STRING);\n$hashedPassword = password_hash($password, PASSWORD_BCRYPT);

@@ -1,0 +1,1 @@
+SET @ids = '1001,1002,1003';\nSET @query = CONCAT('SELECT * FROM some_table WHERE id IN (', @ids, ')');\nPREPARE stmt FROM @query;\nEXECUTE stmt;\nDEALLOCATE PREPARE stmt;

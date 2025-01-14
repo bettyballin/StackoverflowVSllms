@@ -1,0 +1,1 @@
+original = [('a', 1), ('b', 2), ('c', 3), ('d', 4)]\nresult = list(zip(*original))\ntuple_of_lists = (list(result[0]), list(result[1]))

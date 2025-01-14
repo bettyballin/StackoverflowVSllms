@@ -1,0 +1,1 @@
+SELECT * \nFROM my_table\nORDER BY some_column -- Important: You must have an ORDER BY clause\nOFFSET 300009 ROWS FETCH NEXT 10 ROWS ONLY;

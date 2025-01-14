@@ -1,0 +1,1 @@
+<?php\n\n$pdo = new PDO('mysql:host=localhost;dbname=your_database', 'username', 'password');\n$statement = $pdo->prepare("INSERT INTO your_table (text_column) VALUES (:text)");\n$statement->execute([':text' => $_POST['your_textarea_name']]);\n\n?>

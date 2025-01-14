@@ -1,0 +1,1 @@
+// Using PDO\n   $stmt = $pdo->prepare('SELECT * FROM users WHERE username = :username AND password = :password');\n   $stmt->execute(['username' => $userInputUsername, 'password' => $userInputPassword]);

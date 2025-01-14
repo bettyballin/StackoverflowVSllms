@@ -1,0 +1,1 @@
+EXPLAIN SELECT A.id, B.id \n   FROM A\n   INNER JOIN B ON A.event_time BETWEEN B.start_time AND B.end_time;

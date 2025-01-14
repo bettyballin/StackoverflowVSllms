@@ -1,0 +1,1 @@
+// Create a new MySQLi connection\n$connection = new mysqli("hostname", "username", "password", "database");\n\n// Check for errors\nif ($connection->connect_error) {\n    die("Connection failed: " . $connection->connect_error);\n}\n\n// Perform queries...\n\n// Close the connection when done\n$connection->close();

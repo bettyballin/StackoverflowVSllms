@@ -1,0 +1,1 @@
+# routes.rb [revised]\nresources :images

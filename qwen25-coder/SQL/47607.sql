@@ -1,0 +1,1 @@
+SELECT DISTINCT upcase(country) as country_upper,\n              country as original_country\nFROM companies;

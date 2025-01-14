@@ -1,0 +1,1 @@
+$epsilon = 0.01; // Define a tolerance or epsilon\n\nif (abs($storedTotal - $calculatedTotal) > $epsilon) {\n    // Send an alert if the difference is greater than the allowable error\n    mail("admin@domain.com", "Total check fail", "Stored total: $storedTotal\n\nCalculated total: $calculatedTotal\n\n");\n}

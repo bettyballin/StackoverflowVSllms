@@ -1,0 +1,1 @@
+import random\n\n   def test_random_data(self):\n       for _ in range(100):\n           items = [random.randint(1, 100) for _ in range(20)]\n           my_btree = BTree()\n           for item in items:\n               my_btree.insert(item)\n           # Check if tree constructed correctly

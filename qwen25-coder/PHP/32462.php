@@ -1,0 +1,1 @@
+class MyClass {\n       public function __call($method, $arguments) {\n           if ($method === 'setValue') {\n               [$property, $value] = $arguments;\n               $this->$property = $value;\n           } else {\n               throw new \BadMethodCallException("Method {$method} does not exist");\n           }\n       }\n   }

@@ -1,0 +1,1 @@
+function validateEmail($email) {\n    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {\n        return true;\n    }\n    // Handle invalid email\n}

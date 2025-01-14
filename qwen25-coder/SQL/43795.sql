@@ -1,0 +1,1 @@
+INSERT INTO YourTable (YourDateTimeOffsetColumn)\nVALUES (SYSDATETIMEOFFSET());

@@ -1,0 +1,1 @@
+<script>\n  document.addEventListener('DOMContentLoaded', function() {\n    // Select all <a> elements in the iframe document\n    var links = document.querySelectorAll('a');\n    \n    // Loop through each link and set its target to _parent\n    links.forEach(function(link) {\n      link.setAttribute('target', '_parent');\n    });\n  });\n</script>

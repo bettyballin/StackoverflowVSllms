@@ -1,0 +1,1 @@
+SELECT B.unitNo, B.BuildingNo\n   FROM DB2.dbo.B AS B\n   LEFT JOIN DB1.dbo.A AS A ON B.unitNo = A.unitNo AND B.BuildingNo = A.BuildingNo\n   WHERE A.unitNo IS NULL;

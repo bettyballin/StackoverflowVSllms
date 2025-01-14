@@ -1,0 +1,1 @@
+fetch('https://example.com')\n    .then(response => {\n        if (!response.ok) {\n            throw new Error(`HTTP error! Status: ${response.status}`);\n        }\n        return response.text();\n    })\n    .then(data => console.log(data))\n    .catch(error => console.error('There was a problem with the fetch operation:', error));

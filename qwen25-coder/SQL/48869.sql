@@ -1,0 +1,1 @@
+CREATE VIEW ArticlesWithViewCounts AS\nSELECT \n    a.ID,\n    a.Name,\n    COUNT(av.ViewID) AS ViewCount\nFROM \n    Articles a\nLEFT JOIN \n    ArticleViews av ON a.ID = av.ArticleID\nGROUP BY \n    a.ID, a.Name;

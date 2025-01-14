@@ -1,0 +1,1 @@
+CREATE PROCEDURE DeleteExceptIDs\n    @ids dbo.IDListType READONLY\nAS\nBEGIN\n    DELETE FROM YourTable\n    WHERE ID NOT IN (SELECT ID FROM @ids)\nEND;

@@ -1,0 +1,1 @@
+from functools import reduce\nimport operator\n\nvalues = [True, True, False]\nresult = reduce(operator.or_, values)\nprint(result)  # Output: True

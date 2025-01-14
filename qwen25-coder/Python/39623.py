@@ -1,0 +1,1 @@
+# urls.py\nfrom django.urls import re_path\nfrom .views import books_view\n\nurlpatterns = [\n    re_path(r'^(?P<lang_word>[^/]+)/$', books_view, name='books'),\n]\n\n# In your views.py, ensure you validate lang_word as needed.

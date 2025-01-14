@@ -1,0 +1,1 @@
+class Payment < ApplicationController\n  before_action :login_required\n\n  def new\n    if @order.is_free?\n      redirect_to some_other_path and return\n    end\n\n    @payment = Payment.new\n  end\nend

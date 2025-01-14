@@ -1,0 +1,1 @@
+<?php\n@$doc = new DOMDocument();\n@$doc->loadHTMLFile('http://foo.com');\n@$tags = $doc->getElementsByTagName('body');\nforeach ($tags as $tag) {\n    // Use innerHTML to preserve HTML formatting\n    $htmlContent = $doc->saveHTML($tag);\n    print nl2br(html_entity_decode($htmlContent)) . '<br />';\n}\n?>

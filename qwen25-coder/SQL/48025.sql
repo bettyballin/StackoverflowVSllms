@@ -1,0 +1,1 @@
+ALTER TABLE schema.table_name MOVE PCTFREE 10;

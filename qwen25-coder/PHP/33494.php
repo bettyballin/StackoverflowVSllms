@@ -1,0 +1,1 @@
+try {\n       $smarty->display('your_template.tpl');\n   } catch (Exception $e) {\n       error_log('Smarty Exception: ' . $e->getMessage() . ' in ' . $e->getFile() . ':' . $e->getLine());\n   }

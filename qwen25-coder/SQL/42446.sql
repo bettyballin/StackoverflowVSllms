@@ -1,0 +1,1 @@
+SELECT t1.id, t1.name, t1.parent_id\nFROM your_table t1\nLEFT JOIN your_table t2 ON t1.parent_id = t2.id\nWHERE t2.id IS NULL;

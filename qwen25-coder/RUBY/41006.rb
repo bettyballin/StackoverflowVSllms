@@ -1,0 +1,1 @@
+<%= link_to "Delete",\n            phone_number_path(phone_number_display),\n            method: :delete,\n            data: { confirm: 'Are you sure?', remote: true },\n            class: 'section_phone_link' %>

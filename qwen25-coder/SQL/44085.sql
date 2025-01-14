@@ -1,0 +1,1 @@
+RESTORE DATABASE YourDatabaseName FROM DISK = 'D:\FullBackup.bak' WITH NORECOVERY;

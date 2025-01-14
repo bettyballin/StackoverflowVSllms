@@ -1,0 +1,1 @@
+SELECT       \n    CASE\n        WHEN LastName IS NULL THEN FirstName\n        ELSE LastName + ', ' + FirstName\n    END AS FullName\nFROM         \n    customers\nGROUP BY     \n    CASE\n        WHEN LastName IS NULL THEN FirstName\n        ELSE LastName + ', ' + FirstName\n    END;

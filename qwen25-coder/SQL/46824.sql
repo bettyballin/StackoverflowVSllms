@@ -1,0 +1,1 @@
+ALTER TABLE [TableName]\nCHECK CONSTRAINT [FK_YourConstraintName];

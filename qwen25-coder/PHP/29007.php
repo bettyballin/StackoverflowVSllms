@@ -1,0 +1,1 @@
+function applyToVariables($func, &$...$variables) {\n    foreach ($variables as &$var) {\n        $var = $func($var);\n    }\n}\n\n$a = [1, 2, 3];\n$b = [4, 5];\n$c = [6];\n$d = [];\n\napplyToVariables('count', $a, $b, $c, $d);\n\n// Now $a, $b, $c, $d contain the count of their respective arrays

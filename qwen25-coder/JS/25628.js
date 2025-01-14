@@ -1,0 +1,1 @@
+<h:outputScript target="body">\n       document.title = "Your Current Page Title";\n       // WebTrends tag or other tracking scripts can be placed here\n   </h:outputScript>

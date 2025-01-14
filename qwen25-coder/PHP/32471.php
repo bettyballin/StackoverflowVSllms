@@ -1,0 +1,1 @@
+$defaults = [\n      'pref1' => 'default_value'\n  ];\n\n  // Load the prefs file if it exists and is readable, otherwise use defaults\n  if (file_exists($file) && is_readable($file)) {\n      include($file);\n  } else {\n      extract($defaults);\n  }

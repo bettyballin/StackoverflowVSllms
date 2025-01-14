@@ -1,0 +1,1 @@
+// Use htmlspecialchars to encode <script> tag content before submission\n$encodedData = htmlspecialchars("<script>alert('test');</script>", ENT_QUOTES, 'UTF-8');\necho $encodedData; // Output: &lt;script&gt;alert(&#039;test&#039;);&lt;/script&gt;

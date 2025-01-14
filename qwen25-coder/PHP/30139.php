@@ -1,0 +1,1 @@
+$dom = new DOMDocument();\n     @$dom->loadXML($response);\n     // Now you can process your XML data.

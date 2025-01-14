@@ -1,0 +1,1 @@
+<?php \nfunction TestBlockHTML($replStr) {\n    ob_start(); // Start output buffering\n    ?>\n    <html>\n    <body><h1><?php echo htmlspecialchars($replStr); ?></h1></body> <!-- Always escape user input -->\n    </html>\n    <?php\n    $output = ob_get_clean(); // Capture the buffer and clean the buffer\n    return $output;\n}

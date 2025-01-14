@@ -1,0 +1,1 @@
+$imageInfo = @getimagesize($filePath);\n   if ($imageInfo === false) {\n       die('Error getting image size.');\n   }

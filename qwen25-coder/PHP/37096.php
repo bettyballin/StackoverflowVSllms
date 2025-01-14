@@ -1,0 +1,1 @@
+// Example snippet for wp-config.php\n    define('DB_NAME', 'your_database_name');\n    define('DB_USER', 'your_database_username');\n    define('DB_PASSWORD', 'your_database_password');\n    define('DB_HOST', 'localhost'); // Or the IP address of your MySQL server

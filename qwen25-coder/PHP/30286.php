@@ -1,0 +1,1 @@
+<?php\n// Start another PHP script in the background\nexec('nohup php /path/to/your/background-script.php > /dev/null 2>&1 &');\n?>

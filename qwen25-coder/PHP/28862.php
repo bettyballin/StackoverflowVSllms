@@ -1,0 +1,1 @@
+<?php\n    require('sites/includes/Sajax.inc.php');\n\n    function str_length_test($str){\n        return strlen($str);\n    } \n\n    sajax_init();\n    $sajax_request_type = "POST"; // Ensure the request type is set to POST\n    sajax_export("str_length_test");\n    sajax_handle_client_request();\n\n?>

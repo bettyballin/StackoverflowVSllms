@@ -1,0 +1,1 @@
+SELECT \n    CONVERT(varchar(4), DATEPART(year, YourDateTimeColumn)) + ' ' +\n    LEFT(DATENAME(month, YourDateTimeColumn), 3) AS MonthYear\nFROM \n    YourTableName;

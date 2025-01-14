@@ -1,0 +1,1 @@
+import zlib\n\n# Initial CRC value\ncrc = 0\n\n# Simulate streaming data in chunks\ndata_chunks = [b'abcdef', b'ghijkl']\n\nfor chunk in data_chunks:\n    crc = zlib.crc32(chunk, crc) & 0xFFFFFFFF  # Update the CRC with each chunk\n\nprint(f"The final CRC is: {crc}")

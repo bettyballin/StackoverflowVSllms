@@ -1,0 +1,1 @@
+$("[id$=" + endOfIdToMatch + "]").each(function () {\n    var tagName = this.tagName.toLowerCase(); // Get the tag name in lowercase\n    if (tagName === 'input' && $(this).attr('type') === 'text') {\n        // It's a textbox\n        console.log($(this).val());\n    } else if (tagName === 'label') {\n        // It's a label\n        console.log($(this).html());\n    }\n});

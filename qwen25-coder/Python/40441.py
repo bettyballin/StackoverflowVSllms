@@ -1,0 +1,1 @@
+cursor.close()\nconnection.close()

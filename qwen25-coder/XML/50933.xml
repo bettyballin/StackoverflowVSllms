@@ -1,0 +1,1 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >\n<suite name="RegressionSuite">\n  <test name="ApplicationTests">\n    <classes>\n      <!-- Include all test classes from this package -->\n      <class name="com.example.regression.*"/>\n    </classes>\n  </test>\n</suite>

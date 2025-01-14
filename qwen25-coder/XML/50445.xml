@@ -1,0 +1,1 @@
+<file name="Server.exe">\n    <comClass clsid="{your-clsid-here}" tlbid="{your-tlb-id-here}" threadingModel="Apartment" />\n</file>

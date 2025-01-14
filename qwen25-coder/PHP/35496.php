@@ -1,0 +1,1 @@
+// Assuming $array is your main array\n$user_id = $array[2]->user_id;\necho $user_id; // This should output: 71

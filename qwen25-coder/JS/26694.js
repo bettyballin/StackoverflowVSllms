@@ -1,0 +1,1 @@
+var registeredSymbol = decodeURIComponent("%C2%AE");

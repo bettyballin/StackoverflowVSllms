@@ -1,0 +1,1 @@
+<schema version="1">\n    <field name="iterativeNumber" type="int" startIndex="0" endIndex="5"/>\n    <field name="customerId" type="int" startIndex="6" endIndex="12"/>\n    <field name="date" type="date" format="dd.MM.yy HH:mm:ss" startIndex="13" endIndex="27"/>\n    <!-- More fields with flexible length can be defined with dynamic parsing logic -->\n</schema>

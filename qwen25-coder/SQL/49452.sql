@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetXByDate\n    @Date DATE\nAS\nBEGIN\n    SELECT *\n    FROM XTable\n    WHERE CAST(DateColumn AS DATE) = @Date;\nEND;\n\nCREATE PROCEDURE GetXByUser\n    @UserID INT\nAS\nBEGIN\n    SELECT *\n    FROM XTable\n    WHERE UserID = @UserID;\nEND;

@@ -1,0 +1,1 @@
+class Home extends MY_Controller {\n\n    public function __construct()\n    {\n        parent::__construct();\n    }\n\n    public function index() {\n        $this->require_login(); // Ensure user is logged in to access this method\n        $this->load->view('home');\n    }\n}

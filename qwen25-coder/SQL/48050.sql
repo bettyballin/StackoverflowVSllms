@@ -1,0 +1,1 @@
+-- Avoid this\n   SELECT * FROM orders WHERE SUBSTRING(order_number, 1, 3) = 'ORD';\n   \n   -- Prefer a stored column or prefix pattern matching if possible\n   SELECT * FROM orders WHERE order_number LIKE 'ORD%';

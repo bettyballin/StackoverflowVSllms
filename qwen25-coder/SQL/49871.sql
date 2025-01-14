@@ -1,0 +1,1 @@
+CREATE FUNCTION [udf_YearFromDataDtID]\n(\n    @DATA_DT_ID int\n)\nRETURNS int\nWITH SCHEMABINDING -- Ensures that the schema bound to the function cannot be modified\nAS\nBEGIN\n    RETURN (@DATA_DT_ID / 10000)\nEND

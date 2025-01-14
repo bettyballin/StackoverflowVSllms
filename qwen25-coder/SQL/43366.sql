@@ -1,0 +1,1 @@
+SELECT \n    Customers.CustomerName,\n    Orders.OrderDate\nFROM \n    Customers,\n    Orders\nWHERE \n    Customers.CustomerID = Orders.CustomerID AND\n    Orders.OrderDate > (SELECT MIN(Orders2.OrderDate) FROM Orders AS Orders2 WHERE Orders2.CustomerID = Customers.CustomerID)

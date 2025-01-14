@@ -1,0 +1,1 @@
+CREATE OR REPLACE TRIGGER log_delete_trigger\nAFTER DELETE ON your_target_table\nFOR EACH ROW\nBEGIN\n    INSERT INTO delete_audit_log (operation, schema_name, table_name, row_id, app_user_id)\n    VALUES ('DELETE', USER, 'your_target_table', :OLD.ROWID, SYS_CONTEXT('USER_CTX', 'app_user_id'));\nEND;

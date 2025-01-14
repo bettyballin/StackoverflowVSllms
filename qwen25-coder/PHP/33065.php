@@ -1,0 +1,1 @@
+<?php\n\nclass Response {\n    private $statusCode = 200;\n\n    public function setStatusCode($code) {\n        $this->statusCode = $code;\n        http_response_code($code);\n    }\n\n    public function getStatusCode() {\n        return $this->statusCode;\n    }\n}\n\n?>

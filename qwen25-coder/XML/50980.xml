@@ -1,0 +1,1 @@
+<system.web>\n  <sessionState mode="SQLServer" sqlConnectionString="Data Source=your_sql_server;Initial Catalog=aspnetdb;" cookieless="false" timeout="20"/>\n</system.web>

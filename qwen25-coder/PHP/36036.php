@@ -1,0 +1,1 @@
+$string_1 = "a4nas60dj71wiena15sdl1131kg12b";\n$length = strlen($string_1);\n$result = '';\n\nfor ($i = 0; $i < $length; $i++) {\n    if ($i % 2 == 0) {\n        $result .= strtoupper($string_1[$i]);\n    } else {\n        $result .= strtolower($string_1[$i]);\n    }\n}\n\necho $result;

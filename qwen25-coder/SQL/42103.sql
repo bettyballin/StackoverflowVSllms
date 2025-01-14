@@ -1,0 +1,1 @@
+CREATE TABLE AtoB (\n    Aid INT NOT NULL,\n    Bid INT NOT NULL,\n    PRIMARY KEY CLUSTERED (Aid ASC, Bid ASC),\n    FOREIGN KEY (Aid) REFERENCES A(id),\n    FOREIGN KEY (Bid) REFERENCES B(id)\n);\n\n-- Additional index for reverse lookups\nCREATE INDEX idx_B_A ON AtoB (Bid ASC, Aid ASC);

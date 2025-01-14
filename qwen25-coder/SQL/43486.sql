@@ -1,0 +1,1 @@
+DECLARE @RequiredDeptIDs TABLE (DeptID INT);\nINSERT INTO @RequiredDeptIDs VALUES (1), (2), (3); -- Change these values as needed\n\nSELECT EmpID\nFROM EmployeesDepts\nJOIN @RequiredDeptIDs ON EmployeesDepts.DeptID = @RequiredDeptIDs.DeptID\nGROUP BY EmpID\nHAVING COUNT(DISTINCT @RequiredDeptIDs.DeptID) = (SELECT COUNT(*) FROM @RequiredDeptIDs);

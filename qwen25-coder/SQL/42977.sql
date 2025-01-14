@@ -1,0 +1,1 @@
+-- Example of checking SQL Server edition using T-SQL\nSELECT SERVERPROPERTY('Edition') AS SQLServerEdition;

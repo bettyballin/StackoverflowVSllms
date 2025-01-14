@@ -1,0 +1,1 @@
+SET STATISTICS XML ON;\n   -- run your query here\n   SET STATISTICS XML OFF;

@@ -1,0 +1,1 @@
+@Html.ActionLink(Of Controllers.YourController)("Click here", Function(x) x.ActionResultName())

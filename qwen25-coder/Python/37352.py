@@ -1,0 +1,1 @@
+# Example representation in Python for illustrative purposes\n\ndef get_estimated_js_usage():\n    # Estimated percentage of websites using JavaScript as of recent HTTP Archive data\n    estimated_percentage = 95.0\n    return f"Estimated {estimated_percentage}% of web pages use JavaScript."\n\nprint(get_estimated_js_usage())

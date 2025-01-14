@@ -1,0 +1,1 @@
+$('a').filter(function() {\n    return this.href.match(/\.jpg$/i);\n}).each(function() {\n    console.log($(this).attr('href')); // or any other operation you want to perform\n});

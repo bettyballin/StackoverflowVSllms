@@ -1,0 +1,1 @@
+-- SQL example for altering a column length in SQL Server 2005\nALTER TABLE YourTableName\nALTER COLUMN NameColumn VARCHAR(75) NOT NULL;

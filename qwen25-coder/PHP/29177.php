@@ -1,0 +1,1 @@
+<?php\nrequire 'vendor/autoload.php'; // Assuming you installed Parsedown via Composer\n\n$markdown = "# Hello World\nThis is a test.";\n$parsedown = new Parsedown();\necho $parsedown->text($markdown);\n?>

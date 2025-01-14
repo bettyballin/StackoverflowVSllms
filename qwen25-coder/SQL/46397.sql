@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\n-- First, get the count\nSELECT COUNT(my_table.my_col) AS row_count\nFROM my_table\nWHERE my_table.foo = 'bar';\n\n-- Then, select your data\nSELECT my_table.my_col\nFROM my_table\nWHERE my_table.foo = 'bar';\n\nCOMMIT;

@@ -1,0 +1,1 @@
+SELECT CustomerNumber, CustomerName\nFROM Customer\nWHERE User = ?\nORDER BY \n  CAST(LEFT(CustomerNumber, LOCATE('-', CONCAT(CustomerNumber, '-'))-1) AS UNSIGNED) NULLS FIRST,\n  SUBSTRING(CustomerNumber, LOCATE('-', CONCAT(CustomerNumber, '-')))

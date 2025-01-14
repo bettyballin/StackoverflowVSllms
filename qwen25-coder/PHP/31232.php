@@ -1,0 +1,1 @@
+class Model_name extends CI_Model {\n\n    private $param_var;\n\n    public function __construct() {\n        parent::__construct();\n    }\n\n    public function initialize($param_var) {\n        // Initialize your parameters here\n        $this->param_var = $param_var;\n        \n        // Do other initialization if necessary\n    }\n}

@@ -1,0 +1,1 @@
+Private Sub cmdSubmit_Click()\n    DoCmd.RunCommand acCmdSaveRecord ' This will save the current record if the form is properly set up.\nEnd Sub

@@ -1,0 +1,1 @@
+SELECT \n    APEX_ITEM.LINK(p_idx => 1, p_value => 'Edit', p_attributes => 'href="f?p=&APP_ID.:2:&SESSION.:P2_ROW_ID:' || row_id || '"') AS "Edit",\n    col1,\n    col2,\n    -- other columns\nFROM \n    your_table;

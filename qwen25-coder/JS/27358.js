@@ -1,0 +1,1 @@
+// Example of secure coding practices: use constants for sensitive data\n   const SENSITIVE_API_KEY = process.env.API_KEY;\n   fetch(`https://api.example.com?apiKey=${SENSITIVE_API_KEY}`)\n       .then(response => response.json())\n       .catch(error => console.error('Error:', error));

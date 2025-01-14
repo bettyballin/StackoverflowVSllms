@@ -1,0 +1,1 @@
+-- Stored Procedure to select data (acting as a function)\nCREATE PROCEDURE GetData\nAS\nBEGIN\n    SELECT ID, Name FROM SomeTable;\nEND;\n\n-- Procedural code using INSERT-EXEC\nDECLARE @ResultTable TABLE (ID INT, Name NVARCHAR(100));\nINSERT INTO @ResultTable EXEC GetData;\nSELECT * FROM @ResultTable;

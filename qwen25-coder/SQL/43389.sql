@@ -1,0 +1,1 @@
+WITH Hierarchy AS (\n    SELECT PageID, ParentId, Title, 0 as Level\n    FROM YourTable\n    WHERE ParentId IS NULL\n    UNION ALL\n    SELECT t.PageID, t.ParentId, t.Title, h.Level + 1\n    FROM YourTable t\n    INNER JOIN Hierarchy h ON t.ParentId = h.PageID\n)\nSELECT PageID, ParentId, Title, Level\nFROM Hierarchy\nORDER BY Level ASC, ParentId ASC;

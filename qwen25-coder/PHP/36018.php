@@ -1,0 +1,1 @@
+$doc = new DOMDocument("1.0");\n$root = $doc->createElement("root");\n$doc->appendChild($root);\n\n$child = $doc->createElement("child", "data");\n$root->appendChild($child);\n\necho $doc->saveXML();

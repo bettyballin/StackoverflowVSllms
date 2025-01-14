@@ -1,0 +1,1 @@
+$url = 'http://example.com';\n$htmlContent = file_get_contents($url);\n\n// Use the above code to parse $htmlContent instead of the hardcoded $html string

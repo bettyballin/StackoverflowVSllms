@@ -1,0 +1,1 @@
+-- Example of covering index in SQL Server or MySQL\n   CREATE INDEX idx_covering_columns ON table_name (column1, column2);

@@ -1,0 +1,1 @@
+$smarty->force_compile = true; // Force compile every time (useful during development)\n   $smarty->compile_check = true;  // Recheck templates on each invocatio

@@ -1,0 +1,1 @@
+<add name="MappingAssistantGui2.Properties.Settings.maConnectionStringOracle"\n     connectionString="Driver={Microsoft ODBC for Oracle};Server=your_oracle_server;Uid=ma;Pwd=ma;"\n     providerName="System.Data.Odbc" />

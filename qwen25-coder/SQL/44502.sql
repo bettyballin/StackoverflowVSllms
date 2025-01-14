@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_YourTable_Delete\nON YourSchema.YourTable\nFOR DELETE\nAS\nBEGIN\n    INSERT INTO AuditTable (UserID, Action, ActionTime)\n    SELECT \n        SUSER_SNAME(), -- Gets current user executing statement\n        'DELETE',\n        GETDATE()\n    FROM \n        DELETED;\nEND;

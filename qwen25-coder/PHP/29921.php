@@ -1,0 +1,1 @@
+<?php\n$command = escapeshellarg('your_game_server_command_here');\n$output = shell_exec("$command 2>&1");\n\nforeach (explode("\n", trim($output)) as $line) {\n    if (preg_match('/player finished track in (\d+)s/', $line, $matches)) {\n        $time = $matches[1];\n        // Send request to Web server here\n        echo "Player finished in $time seconds\n";\n    }\n}\n?>

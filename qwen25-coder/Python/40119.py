@@ -1,0 +1,1 @@
+import unittest\n\n   class TestDataProcessing(unittest.TestCase):\n       def test_data_cleanup(self):\n           cleaner = DataCleaningTool()\n           self.assertEqual(cleaner.clean(' raw data '), 'raw data')\n\n   if __name__ == '__main__':\n       unittest.main()

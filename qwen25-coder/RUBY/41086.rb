@@ -1,0 +1,1 @@
+# Use MiniTest directly instead of the Test::Unit emulator\nrequire 'minitest/autorun'\n\nclass MyFirstTest < Minitest::Test\n  def test_sample\n    assert true # replace with actual assertions and tests\n  end\nend

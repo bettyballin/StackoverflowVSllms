@@ -1,0 +1,1 @@
+var foo = {"bar": "123"};\nfoo.bar = +foo.bar; // Converts "123" to 123 (integer)

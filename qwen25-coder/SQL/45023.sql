@@ -1,0 +1,1 @@
+SELECT \n       CASE \n           WHEN denominator = 0 THEN NULL -- or any other default value/message\n           ELSE numerator / denominator\n       END AS result\n   FROM your_table;

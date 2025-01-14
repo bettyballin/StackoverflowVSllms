@@ -1,0 +1,1 @@
+# Assuming the image is located in Rails.root/public/images/\nimage_path = File.join(Rails.root, 'public', 'images', 'header.jpg')\nif FileTest.exists?(image_path)\n  render :text => "yes"\nelse  \n  render :text => "no <img src='/images/header.jpg' />"\nend

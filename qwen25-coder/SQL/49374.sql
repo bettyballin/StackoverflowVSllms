@@ -1,0 +1,1 @@
+LOAD DATA LOCAL INFILE 'C:/Dokumente und Einstellungen/hom/Desktop/tblAuction.txt'\nINTO TABLE Auctions\nFIELDS TERMINATED BY ';' \nENCLOSED BY '"'\nLINES TERMINATED BY '\n'\nIGNORE 1 ROWS;

@@ -1,0 +1,1 @@
+SELECT CASE \n         WHEN your_column = REPLICATE('0', LEN(your_column)) THEN ''\n         ELSE SUBSTRING(your_column, PATINDEX('%[^0]%', your_column), LEN(your_column))\n       END AS TrimmedColumn\nFROM your_table;

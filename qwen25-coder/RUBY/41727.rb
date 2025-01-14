@@ -1,0 +1,1 @@
+<% ViewData.Model = Model; %>\n\n<%= ViewData.Model.ToString() %> <!-- or whatever property you need -->

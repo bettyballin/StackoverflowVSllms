@@ -1,0 +1,1 @@
+<class name="EntityA" table="entity_a">\n    <!-- Other properties -->\n    <one-to-one name="entityB" \n             class="EntityB" \n             cascade="all-delete-orphan"\n             constrained="true"/>\n</class>

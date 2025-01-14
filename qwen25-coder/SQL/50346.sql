@@ -1,0 +1,1 @@
+DECLARE @email NVARCHAR(MAX);\nSELECT @email = STUFF((\n    SELECT N'; ' + EmailAddress\n    FROM accounts\n    FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), 1, 2, '');

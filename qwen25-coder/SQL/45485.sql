@@ -1,0 +1,1 @@
+SELECT * FROM Person WHERE name = 'Joe'\n  UNION ALL\n  SELECT * FROM Person WHERE name = 'Jane'\n  UNION ALL\n  SELECT * FROM Person WHERE name = 'Bob'\n  UNION ALL\n  SELECT * FROM Person WHERE name = 'Alice';

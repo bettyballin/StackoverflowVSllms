@@ -1,0 +1,1 @@
+SELECT Labour_Cost, Labour_Hours, VAT,\n       (Labour_Hours * Labour_Cost) + VAT AS Total\nFROM Costs;

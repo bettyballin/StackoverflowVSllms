@@ -1,0 +1,1 @@
+REPLACE(REPLACE(col_name, CHR(10), '_'), CHR(13), '_')

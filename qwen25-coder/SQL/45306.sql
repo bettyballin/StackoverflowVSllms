@@ -1,0 +1,1 @@
+SELECT T1.ID, T1.Column1\nFROM Table1 AS T1\nWHERE EXISTS (\n    SELECT 1\n    FROM dbo.SplitStringToTable(T1.Column1, ';') AS splitVals\n    LEFT JOIN Table2 AS T2 ON t2.Column2 = RTRIM(splitvals.SplitVal)\n    WHERE T2.ID IS NULL\n);

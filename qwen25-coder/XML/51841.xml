@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.codehaus.groovy</groupId>\n    <artifactId>groovy-all</artifactId>\n    <version>3.0.9</version> <!-- Check for the latest version -->\n</dependency>

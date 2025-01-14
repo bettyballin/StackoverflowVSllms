@@ -1,0 +1,1 @@
+CREATE TABLE my_objects (\n    id NUMBER PRIMARY KEY,\n    object_name VARCHAR2(255),\n    data BLOB\n) LOB (data) STORE AS SECUREFILE my_securefile;

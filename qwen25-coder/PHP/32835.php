@@ -1,0 +1,1 @@
+<?php\ninclude 'inc/image.functions.php';\necho getRandomImages(7);\n?>

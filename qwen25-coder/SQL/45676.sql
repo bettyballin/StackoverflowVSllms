@@ -1,0 +1,1 @@
+ALTER VIEW [dbo].[v_users]\nAS\nSELECT \n    RIGHT('000000000' + CAST(dbo.users.user_id AS VARCHAR(9)), 9) AS auid, \n    user_id, \n    dbo.users.username \nFROM dbo.users

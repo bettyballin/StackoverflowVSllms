@@ -1,0 +1,1 @@
+$_POST['login']['username'];\n$_POST['login']['email'];\n$_POST['login']['password'];

@@ -1,0 +1,1 @@
+Private Async Sub LoadDataEntriesAsync()\n       Dim dataEntryList As List(Of DataEntry) = Await Task.Run(Function() DataEntry.LoadDataEntries())\n       For Each dataentry As Models.DataEntry In dataEntryList\n           Dispatcher.Invoke(Sub() _entries.Add(New DataEntryViewModel(dataentry)))\n       Next\n   End Sub

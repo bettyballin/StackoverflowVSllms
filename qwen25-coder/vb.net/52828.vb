@@ -1,0 +1,1 @@
+Public Class Asset\n    Implements ICloneable\n\n    Public Property CurrentLocationID As Integer\n    ' Other properties...\n\n    Public Function Clone() As Object Implements System.ICloneable.Clone\n        Return Me.MemberwiseClone()\n    End Function\nEnd Class

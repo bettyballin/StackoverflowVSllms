@@ -1,0 +1,1 @@
+# lib/tasks/db_seed.rake\n   namespace :db do\n     desc "load the seed data"\n     task seed: :environment do\n       load(Rails.root.join('db', 'seeds.rb'))\n     end\n   end

@@ -1,0 +1,1 @@
+$relative_url = "/about/about-main.php?ajax=yes";\n$content = "\n    <p>Some Text</p>\n    <p><a onClick=\"loadContent('$relative_url', 'col2_2_content');\">Back</a></p>\n";

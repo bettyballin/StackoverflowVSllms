@@ -1,0 +1,1 @@
+SELECT DISTINCT c.CategoryNumber, c.Desc\nFROM Category c\nLEFT JOIN Media m ON c.CategoryNumber = m.CategoryNumber\nLEFT JOIN Sales s ON m.MediaID = s.MediaID\nWHERE s.EmployeeID IS NULL OR s.EmployeeID <> :givenEmployeeID;

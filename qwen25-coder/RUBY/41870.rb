@@ -1,0 +1,1 @@
+gem 'bullet', group: :development

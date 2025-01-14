@@ -1,0 +1,1 @@
+// Insert the new elements at the beginning of the container in the correct order\ncontainer.insertBefore(newFreeformSpacer, container.firstChild);\ncontainer.insertBefore(newFreeformField, newFreeformSpacer);\ncontainer.insertBefore(newFreeformLabel, newFreeformField);

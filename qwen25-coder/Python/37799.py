@@ -1,0 +1,1 @@
+import urllib2\n\n# Open the URL\nresponse = urllib2.urlopen('http://example.com')\n\n# Read the content of the response\nhtml_content = response.read()\n\n# Now html_content is a string which you can use with regex or any other string operations\nprint(html_content)

@@ -1,0 +1,1 @@
+preg_match("/abcd(™)?/giu","AbCd™  U9+",$matches);\nprint_r($matches);

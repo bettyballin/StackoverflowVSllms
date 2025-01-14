@@ -1,0 +1,1 @@
+def create_tracking_link(base_url, email_id, recipient_email):\n    return f"http://yourserver.com/track/click?url={base_url}&emailid={email_id}&recipient={recipient_email}"\n\n# Usage\ntrackable_link = create_tracking_link("http://example.com/somepage", "12345", "user@example.com")\nprint(trackable_link)

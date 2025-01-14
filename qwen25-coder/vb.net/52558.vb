@@ -1,0 +1,1 @@
+Imports System.Globalization\n\nDim amount As Decimal = 12345.67D\nDim usNumberFormat As New CultureInfo("en-US")\nDim formattedAmount As String = amount.ToString("#,0.00", usNumberFormat)\n\nConsole.WriteLine(formattedAmount) ' Outputs: 12,345.67

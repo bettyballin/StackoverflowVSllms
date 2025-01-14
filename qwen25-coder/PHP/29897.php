@@ -1,0 +1,1 @@
+// Path to the uploaded file\n$filePath = '/path/to/your/uploaded/file';\n\n// Create a new finfo resource\n$finfo = new finfo(FILEINFO_MIME_TYPE);\n\n// Get the mime type of the file\n$mimeType = $finfo->file($filePath);\n\n// Close the finfo resource\n$finfo->close();\n\necho "The MIME type is: " . $mimeType;

@@ -1,0 +1,1 @@
+// prepend.php\n\nfunction customEcho($string) {\n    pre_echo();\n    echo $string;\n    post_echo();\n}\n\nfunction pre_echo() {\n    // Your code here\n    do_something();\n}\n\nfunction post_echo() {\n    // Your code here\n    do_something_else();\n}

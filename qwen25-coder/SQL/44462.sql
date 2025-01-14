@@ -1,0 +1,1 @@
+WITH RECURSIVE cte AS (\n    SELECT id, category_name, parent_id, 0 as level\n    FROM your_table\n    WHERE parent_id IS NULL\n\n    UNION ALL\n    \n    SELECT t.id, t.category_name, t.parent_id, cte.level + 1\n    FROM your_table t \n    INNER JOIN cte ON t.parent_id = cte.id\n)\nSELECT * FROM cte;

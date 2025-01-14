@@ -1,0 +1,1 @@
+DECLARE\n  FUNCTION factorial(n NUMBER) RETURN NUMBER IS\n  BEGIN\n    IF n <= 1 THEN\n      RETURN 1;\n    ELSE\n      RETURN n * factorial(n - 1); -- Tail call\n    END IF;\n  END factorial;\nBEGIN\n  DBMS_OUTPUT.PUT_LINE('Factorial of 5 is ' || factorial(5));\nEND;

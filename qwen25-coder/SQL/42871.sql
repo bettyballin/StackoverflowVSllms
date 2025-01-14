@@ -1,0 +1,1 @@
+SELECT \n    strftime('%Y-%W', datetime(time_column, 'unixepoch')) AS week,\n    org,\n    COUNT(*) as count\nFROM \n    your_table_name\nGROUP BY \n    week, \n    org;

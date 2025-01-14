@@ -1,0 +1,1 @@
+Dim request As HttpWebRequest = WebRequest.Create("http://example.com/api/getdata")\n  Dim response As HttpWebResponse = CType(request.GetResponse(), HttpWebResponse)\n  Using reader As New StreamReader(response.GetResponseStream())\n      Dim data FromJson = JsonConvert.DeserializeObject(reader.ReadToEnd())\n      ' Process data...\n  End Using

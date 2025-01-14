@@ -1,0 +1,1 @@
+use Vendor\ClassName\Helper;\nuse Vendor\ClassName\HelperOptions;\n\n$options = new HelperOptions(HelperOptions::FIRST_OPTION, $var);\n$obj = new Helper($options);

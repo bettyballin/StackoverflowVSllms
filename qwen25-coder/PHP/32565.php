@@ -1,0 +1,1 @@
+// Using Stored Procedures with PDO\n$pdo = new PDO('mysql:host=localhost;dbname=test', 'username', 'password');\n$stmt = $pdo->prepare('CALL GetUserByEmail(:email)');\n$stmt->execute(['email' => 'example@example.com']);\n$user = $stmt->fetch();

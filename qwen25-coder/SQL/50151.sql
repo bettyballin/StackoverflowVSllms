@@ -1,0 +1,1 @@
+SELECT \n    e.eventId,\n    e.eventName,\n    GROUP_CONCAT(ea.artistName SEPARATOR ', ') AS ArtistLineup\nFROM \n    event e\nINNER JOIN \n    event_artist ea ON e.eventId = ea.eventId\nGROUP BY \n    e.eventId, e.eventName;

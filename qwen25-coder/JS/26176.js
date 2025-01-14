@@ -1,0 +1,1 @@
+$.ajax({\n    url: '/your-controller/update',\n    type: 'POST',\n    dataType: 'json',\n    data: { /* Your data here */ },\n    success: function(response) {\n        if (response.url) {\n            window.location.href = response.url;\n        } else {\n            // Handle other responses\n        }\n    }\n});

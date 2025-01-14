@@ -1,0 +1,1 @@
+WITH all_keys AS (\n  SELECT DISTINCT someKey FROM myTable\n)\nSELECT \n  ak.someKey,\n  bool_and(mt.someBool) AS all_true\nFROM \n  all_keys ak\nLEFT JOIN \n  myTable mt ON ak.someKey = mt.someKey\nGROUP BY \n  ak.someKey;

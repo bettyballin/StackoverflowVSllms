@@ -1,0 +1,1 @@
+$xmlObject = simplexml_load_string($response);\n$arrayData = json_decode(json_encode((array)$xmlObject), true);\n\n// Example of accessing data in the array\necho $arrayData['data'];

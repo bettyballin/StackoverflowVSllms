@@ -1,0 +1,1 @@
+$('#selectBox').append($('<option>', {\n    value: 'newOption',\n    text : 'New Option Text'\n}));

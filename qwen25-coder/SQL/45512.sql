@@ -1,0 +1,1 @@
+SELECT c.CityName, s.StateName\n   FROM ZipCode z\n   JOIN City c ON z.CityID = c.CityID\n   JOIN State s ON c.StateID = s.StateID\n   WHERE z.ZipCode = '12345';

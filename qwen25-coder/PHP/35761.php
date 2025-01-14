@@ -1,0 +1,1 @@
+$arrayname = [];\n$query = "SELECT * FROM your_table";\n$result = odbc_exec($connection, $query);\nwhile ($row = odbc_fetch_array($result)) {\n    $arrayname[] = $row;\n}\nusort($arrayname, function($a, $b) {\n    return strcmp($a['first_val'], $b['first_val']);\n});

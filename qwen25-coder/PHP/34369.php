@@ -1,0 +1,1 @@
+// Assuming $timestamp is a UNIX timestamp\n$timestamp = 1696498080;\n\n// Convert to YYYY-MM-DD HH:MM:SS format (SQL Server datetime format)\n$sqlDateTimeString = date('Y-m-d H:i:s', $timestamp);\n\n// Output the SQL DateTime string\necho "SQL DateTime: " . $sqlDateTimeString;

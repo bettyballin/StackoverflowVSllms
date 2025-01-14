@@ -1,0 +1,1 @@
+// Attach keydown event listener to the document\ndocument.addEventListener('keydown', function(event) {\n    console.log('Key pressed:', event.key);\n    // You can also use event.keyCode or event.which for older browsers compatibility\n});

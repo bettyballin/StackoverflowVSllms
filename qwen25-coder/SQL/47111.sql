@@ -1,0 +1,1 @@
+SELECT \n    EmpID, \n    FirstName, \n    LastName, \n    Email, \n    Phone, \n    OtherName\nFROM \n    EMPLOYEE\nINNER JOIN \n    OTHERNAME ON EMPLOYEE.FirstName = OTHERNAME.Name;

@@ -1,0 +1,1 @@
+// Example: Connecting to multiple databases in PHP\n     $conn1 = new mysqli("host1", "user1", "password1", "database_user");\n     $conn2 = new mysqli("host1", "user2", "password2", "database_content");

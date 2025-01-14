@@ -1,0 +1,1 @@
+CREATE INDEX idx_username_actiondate ON actions (username, actiondate);

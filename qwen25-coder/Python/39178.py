@@ -1,0 +1,1 @@
+file = open('helloworld', 'r+')\ncontent = file.read()\nprint(content)\nfile.close()  # Remember to close the file when done

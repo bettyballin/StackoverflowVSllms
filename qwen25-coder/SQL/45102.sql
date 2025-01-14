@@ -1,0 +1,1 @@
+CREATE TABLE RequirementTypes (\n       type_id INT PRIMARY KEY AUTO_INCREMENT,\n       type_name VARCHAR(255) NOT NULL\n   );

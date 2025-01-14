@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n    SELECT * \n    FROM your_table \n    ORDER BY id DESC \n    LIMIT n\n) AS sub\nORDER BY id;

@@ -1,0 +1,1 @@
+# Assign a role to user\nuser.add_role :admin\n\n# Check if user has a specific role\nuser.has_role? :admin\n\n# Define Ability with Rolify\ndef initialize(user)\n  if user.has_role? :admin\n    can :manage, :all\n  else\n    can [:read], Article\n    cannot [:update, :destroy], Article # by default\n  end\nend

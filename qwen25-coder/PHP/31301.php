@@ -1,0 +1,1 @@
+Find:     \$checked\{'?([^']+)'?\}->\{'?([^']+?)'\}\nReplace:  <?php echo checked('$1', '$2'); ?>

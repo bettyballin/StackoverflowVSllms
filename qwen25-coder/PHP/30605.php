@@ -1,0 +1,1 @@
+<?php\n$variable1 = 1;\n$variable2 = (sprintf('%04d', $variable1 + 1));\necho $variable2;\n?>

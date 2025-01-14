@@ -1,0 +1,1 @@
+Dim appPath As String = Application.StartupPath\nDim xmlFilePath As String = Path.Combine(appPath, "XmlFiles", "mail.xml")

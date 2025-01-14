@@ -1,0 +1,1 @@
+if ($subdom == 'www' || $subdom == 'nosub') {\n    // do some stuff if any of the two are met\n}

@@ -1,0 +1,1 @@
+INSERT INTO [DB1].[dbo].[TempTable]\nSELECT * FROM [DB2].[dbo].[TempTable];

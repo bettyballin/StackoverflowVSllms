@@ -1,0 +1,1 @@
+var pattern = /\{([a-zA-Z]+)\}/g;\nvar str = '<h2>{title}</h2>\n<p><a href="{url}">{content}</a></p>';\nvar matches = str.match(pattern);\n\n// Extracting just the words from the matched strings\nif (matches) {\n    var result = matches.map(match => match.slice(1, -1));\n    console.log(result); // Output: ['title', 'url', 'content']\n}

@@ -1,0 +1,1 @@
+from pathlib import Path\n\ndef list_subdirectories(path=Path.cwd()):\n    return [p.name for p in path.iterdir() if p.is_dir()]\n\nsubdirectories = list_subdirectories()\nprint(subdirectories)

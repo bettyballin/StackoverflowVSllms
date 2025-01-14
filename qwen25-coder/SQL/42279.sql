@@ -1,0 +1,1 @@
+BEGIN;\n\n-- Select and lock the first available message\nWITH claimed_message AS (\n    UPDATE messages\n    SET status = 'claimed'\n    WHERE status = 'available'\n    LIMIT 1\n    RETURNING *\n)\nSELECT * FROM claimed_message;\n\nCOMMIT;

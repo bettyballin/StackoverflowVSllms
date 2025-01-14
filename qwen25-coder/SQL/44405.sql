@@ -1,0 +1,1 @@
+CREATE OR REPLACE TYPE refcur_type AS REF CURSOR; \n/\n\nCREATE OR REPLACE PROCEDURE get_info ( \n   o_cursor            OUT      refcur_type \n) AS\nBEGIN\n   OPEN o_cursor FOR\n     SELECT * FROM v$database;\nEND get_info;\n/

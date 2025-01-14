@@ -1,0 +1,1 @@
+<div class="form-container">\n      <h1><?php echo $this->escape($this->element->getTitle()); ?></h1>\n      <?php foreach ($this->element as $name => $element): ?>\n          <div class="form-field">\n              <?php echo $this->formRow($element); ?>\n          </div>\n      <?php endforeach; ?>\n      <?php echo $this->formSubmit($this->element->submit); ?>\n  </div>

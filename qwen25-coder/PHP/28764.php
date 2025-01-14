@@ -1,0 +1,1 @@
+$date = '1977';\nif (preg_match('~^(\d\d\d\d)(-(\d{1,2})(-(\d{1,2}))?)?$~', trim($date), $dateParts)) {\n    echo "Date parts: ";\n    print_r($dateParts);\n} else {\n    echo "The date is formatted wrong.";\n}

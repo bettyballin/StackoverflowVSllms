@@ -1,0 +1,1 @@
+$array = [\n    0 => 'Apple',\n    2 => 'Orange',\n    5 => 'Pear',\n    8 => 'Pear'\n];\n\n$default_value = '';\n$result_array = [];\n\nfor ($i = 0; $i <= max(array_keys($array)); $i++) {\n    if (!isset($array[$i])) {\n        $result_array[$i] = $default_value;\n    } else {\n        $result_array[$i] = $array[$i];\n    }\n}\n\nprint_r($result_array);

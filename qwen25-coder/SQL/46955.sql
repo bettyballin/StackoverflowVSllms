@@ -1,0 +1,1 @@
+DELIMITER //\n\n   CREATE TRIGGER before_insert_your_table\n   BEFORE INSERT ON your_table\n   FOR EACH ROW\n   BEGIN\n       IF NEW.id < x THEN\n           SIGNAL SQLSTATE '45000'\n           SET MESSAGE_TEXT = 'Cannot insert with id less than x.';\n       END IF;\n   END //\n\n   DELIMITER ;

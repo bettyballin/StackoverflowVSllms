@@ -1,0 +1,1 @@
+$tweets = $twitter->GetFriendsTimeline(array("count" => 1));\n\nif (!empty($tweets)) {\n    $tweet = $tweets[0];\n    echo clickable_link($tweet['text']);\n}

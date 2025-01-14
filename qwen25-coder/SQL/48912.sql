@@ -1,0 +1,1 @@
+CREATE TABLE Employees (\n    EmployeeID INT PRIMARY KEY,\n    Name NVARCHAR(100)\n);\n\nCREATE TABLE EmployeeDetails (\n    DetailID INT PRIMARY KEY,\n    EmployeeID INT UNIQUE FOREIGN KEY REFERENCES Employees(EmployeeID),\n    Address NVARCHAR(255)\n);

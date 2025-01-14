@@ -1,0 +1,1 @@
+<system.web>\n     <authentication mode="Forms">\n       <forms loginUrl="~/login.aspx" cookieless="UseCookies" requireSSL="true"></forms>\n     </authentication>\n   </system.web>

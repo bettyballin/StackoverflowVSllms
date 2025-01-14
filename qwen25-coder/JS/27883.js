@@ -1,0 +1,1 @@
+function refreshThumbnail() {\n    var timestamp = new Date().getTime(); // current timestamp\n    $.ajax({\n        url: 'path/to/your/image thumbnail.jpg?' + timestamp, // append timestamp to URL\n        method: 'GET',\n        success: function(data) {\n            $('#thumbnail').attr('src', 'path/to/your/image_thumbnail.jpg?' + timestamp);\n        }\n    });\n}

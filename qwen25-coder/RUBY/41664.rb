@@ -1,0 +1,1 @@
+# spec/factories/users.rb\n   FactoryBot.define do\n     factory :user do\n       name { "John Doe" }\n       email { Faker::Internet.email }\n     end\n   end

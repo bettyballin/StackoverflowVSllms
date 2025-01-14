@@ -1,0 +1,1 @@
+Sub Main()\n    Dim dateValue = New DateTime(2023, 1, 15)\n    Console.WriteLine("Date => yyww: " & GetIosYearAndWeek(dateValue)) ' Output: 2302\n    \n    Dim year = 23\n    Dim week = 2\n    Console.WriteLine("yyww => Saturday Date: " & GetSaturdayFromIsoWeek(year, week).ToString("yyyy-MM-dd")) ' Output: 2023-01-14\nEnd Sub

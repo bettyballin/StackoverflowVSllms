@@ -1,0 +1,1 @@
+DECLARE @BackupPath NVARCHAR(256)\nSET @BackupPath = N'\\FileServer\Backups\DatabaseName.bak'\n\nBACKUP DATABASE [YourDatabaseName]\nTO DISK = @BackupPath WITH NOFORMAT, INIT, NAME = N'DatabaseName-Full Database Backup', SKIP, NOREWIND, NOUNLOAD, STATS = 10

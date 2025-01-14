@@ -1,0 +1,1 @@
+Public Class MyTreeItem\n    Public Property Name As String\n    Public Property IsSelected As Boolean\n    Public Property Children As New List(Of MyTreeItem)\nEnd Class

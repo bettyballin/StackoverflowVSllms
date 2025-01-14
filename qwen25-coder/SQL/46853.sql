@@ -1,0 +1,1 @@
+CREATE TABLE employees (\n    employee_id NUMBER GENERATED ALWAYS AS IDENTITY,\n    first_name VARCHAR2(50),\n    last_name VARCHAR2(50)\n);

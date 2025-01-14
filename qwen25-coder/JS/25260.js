@@ -1,0 +1,1 @@
+function replaceDescription() {\n    header.ondblclick = editDescription;\n    description.removeChild(editor);\n    // Use textContent instead of innerHTML to avoid executing scripts\n    description.textContent = editor.value;\n}

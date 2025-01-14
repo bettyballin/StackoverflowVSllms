@@ -1,0 +1,1 @@
+DECLARE\n    v_ID VARCHAR2(10);\nBEGIN\n    v_ID := '12345';\n    \n    SELECT *\n    INTO some_table_variable -- You need to select into a variable or explicitly use a cursor\n    FROM theTable \n    WHERE ID = v_ID;\nEND;\n/

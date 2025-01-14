@@ -1,0 +1,1 @@
+require 'oga'\n\n   def validate_atom(file_path)\n     begin\n       Oga.parse_xml(File.read(file_path))\n       puts "#{file_path} is a valid ATOM feed."\n     rescue => e\n       puts "Error validating #{file_path}: #{e}"\n     end\n   end\n\n   validate_atom('path/to/your/atom_file.xml')

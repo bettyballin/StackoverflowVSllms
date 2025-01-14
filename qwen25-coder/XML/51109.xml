@@ -1,0 +1,1 @@
+<exec program="aspnet_compiler" basedir="MyWebsitePath">\n  <arg value="-nologo" />\n  <arg value="/vpath:/" />\n  <arg value="/physicalpath:${basedir}/MyWebsitePath" />\n  <arg value="${basedir}/MyWebsitePath/PrecompiledWeb" />\n</exec>

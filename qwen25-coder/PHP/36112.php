@@ -1,0 +1,1 @@
+try {\n       $im = new Imagick($pdf_file);\n       // Your existing code to process the image...\n   } catch (ImagickException $e) {\n       echo "Error: " . $e->getMessage();\n   }

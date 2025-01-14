@@ -1,0 +1,1 @@
+SELECT * \nFROM your_table \nWHERE DATE_FORMAT(your_time_column, '%Y-%m-%d %H:%i') = DATE_FORMAT(UTC_TIMESTAMP(), '%Y-%m-%d %H:%i');

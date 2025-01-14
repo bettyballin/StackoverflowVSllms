@@ -1,0 +1,1 @@
+# Example in Ruby on Rails\n   class Schedule < ApplicationRecord\n     validate :assignment_must_exist\n\n     private\n\n     def assignment_must_exist\n       errors.add(:assignment_id, "can't be blank") unless assignment.present?\n     end\n   end

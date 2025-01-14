@@ -1,0 +1,1 @@
+<ItemGroup>\n  <Compile Include="Inspector.aspx" Condition="'$(Configuration)' == 'Debug'" />\n  <Compile Include="Inspector.aspx.cs" Condition="'$(Configuration)' == 'Debug'" />\n</ItemGroup>\n\n<ItemGroup>\n  <Content Include="Inspector.aspx" Condition="'$(Configuration)' == 'Debug'" />\n</ItemGroup>

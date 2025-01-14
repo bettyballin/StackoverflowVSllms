@@ -1,0 +1,1 @@
+<b:loop values='data:post.labels' var='label'>\n  <img expr:src='"your-image-url.jpg"' expr:alt='data:label.name'/><br/>\n</b:loop>

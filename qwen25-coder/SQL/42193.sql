@@ -1,0 +1,1 @@
+-- First, update NULLs to 0 (assumes this has been done)\nUPDATE YourTableName\nSET ColumnA = 0\nWHERE ColumnA IS NULL;\n\n-- Then, alter the column to NOT NULL\nALTER TABLE YourTableName\nALTER COLUMN ColumnA INT NOT NULL;

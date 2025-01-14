@@ -1,0 +1,1 @@
+rspec ./spec/db_spec.rb

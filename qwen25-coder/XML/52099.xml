@@ -1,0 +1,1 @@
+<jboss-web>\n       <resource-env-ref>\n           <resource-env-ref-name>java:comp/env/soap/endpoint</resource-env-ref-name>\n           <resource-env-ref-type>java.lang.String</resource-env-ref-type>\n           <lookup-name>/env/soap/endpoint</lookup-name>\n       </resource-env-ref>\n   </jboss-web>

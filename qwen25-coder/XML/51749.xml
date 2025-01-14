@@ -1,0 +1,1 @@
+<!-- Web.config example -->\n   <system.webServer>\n     <security>\n       <requestFiltering>\n         <ipSecurity allowUnlisted="true">\n           <clear/>\n           <add ipAddress="192.168.0.1" allowed="false" subnetMask="255.255.0.0"/>\n         </ipSecurity>\n       </requestFiltering>\n     </security>\n   </system.webServer>

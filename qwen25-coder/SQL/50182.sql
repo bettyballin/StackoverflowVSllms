@@ -1,0 +1,1 @@
+UPDATE t2\nSET pubVisited = NULL\nFROM table2 t2\nJOIN table1 t1 ON t2.playerID = t1.playerID\nWHERE t1.nationalities = 'England';

@@ -1,0 +1,1 @@
+# config/initializers/session_store.rb\n   require 'active_record/store_session'\n\n   Rails.application.config.session_store :active_record_store, key: '_app1_session', database: 'App1DB'

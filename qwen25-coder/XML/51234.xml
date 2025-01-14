@@ -1,0 +1,1 @@
+<!-- XSLT 2.0 variable declaration with a specific type -->\n   <xsl:variable name="count" as="xs:integer" select="count(items/item)"/>

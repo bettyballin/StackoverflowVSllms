@@ -1,0 +1,1 @@
+SELECT * FROM [LinkedServerName].[DatabaseName].[SchemaName].[TableName];

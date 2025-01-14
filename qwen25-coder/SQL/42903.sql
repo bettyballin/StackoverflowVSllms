@@ -1,0 +1,1 @@
+WITH NumberedRecords AS (\n    SELECT *, ROW_NUMBER() OVER (ORDER BY some_column) as RowNum\n    FROM your_table_name\n)\nSELECT *\nFROM NumberedRecords\nWHERE RowNum BETWEEN 20 AND 30;

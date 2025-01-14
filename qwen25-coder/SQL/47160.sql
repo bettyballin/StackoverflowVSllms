@@ -1,0 +1,1 @@
+SELECT productName, SUM(salesAmount) AS TotalSales\n   FROM sales\n   GROUP BY productName\n   HAVING SUM(salesAmount) > 1000;

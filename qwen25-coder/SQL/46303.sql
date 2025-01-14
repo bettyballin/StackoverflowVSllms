@@ -1,0 +1,1 @@
+BEGIN;\n\n-- Simulate delete on table1\nWITH affected_rows AS (\n    SELECT t1.*\n    FROM table1 t1\n    JOIN table2 t2 ON t1.foreign_key = t2.id\n    WHERE t1.condition_to_delete\n)\nSELECT * FROM affected_rows;\n\n-- If you are satisfied with the results, proceed with DELETE\nDELETE FROM table1 t1\nUSING affected_rows ar\nWHERE t1.id = ar.id;\n\nCOMMIT;

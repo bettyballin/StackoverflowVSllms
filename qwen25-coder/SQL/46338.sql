@@ -1,0 +1,1 @@
+CREATE TABLE user_group_access (\n    group_id INT NOT NULL,\n    resource_id INT NOT NULL,\n    permission VARCHAR(10) CHECK (permission IN ('Allow', 'Deny')) NOT NULL,\n    PRIMARY KEY (group_id, resource_id),\n    FOREIGN KEY (group_id) REFERENCES groups(group_id),\n    FOREIGN KEY (resource_id) REFERENCES resources(resource_id)\n);

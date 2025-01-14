@@ -1,0 +1,1 @@
+from setuptools import setup\nfrom Cython.Build import cythonize\n\nsetup(\n    ext_modules = cythonize("your_module.py")\n)

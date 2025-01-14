@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $(".thumbnail-container").hover(\n        function() { // Mouse in handler\n            $(this).find(".overlay-text").fadeIn("fast");\n        }, \n        function() { // Mouse out handler\n            $(this).find(".overlay-text").fadeOut("fast");\n        }\n    );\n});

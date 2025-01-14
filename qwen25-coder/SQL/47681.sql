@@ -1,0 +1,1 @@
+select id,\n       CONVERT(CHAR(5), timeFrom, 8) as timeFrom,\n       CONVERT(CHAR(5), timeTo, 8) as timeTo\nFROM dbo.Availability\nwhere id = @id\nand dayName = @weekday;

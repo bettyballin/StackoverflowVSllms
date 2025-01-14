@@ -1,0 +1,1 @@
+<ItemGroup Condition=" '$(Configuration)' == 'Debug' ">\n       <Reference Include="CodeSite">\n           <HintPath>...\CodeSite.dll</HintPath>\n       </Reference>\n   </ItemGroup>

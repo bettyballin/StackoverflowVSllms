@@ -1,0 +1,1 @@
+class MyClass {\n      private static $staticProperty = 'Static Value';\n\n      public function getStaticProperty() {\n          return self::$staticProperty; // Using self to access a static property\n      }\n\n      public static function getStaticPropertyStatically() {\n          return self::$staticProperty;\n      }\n  }

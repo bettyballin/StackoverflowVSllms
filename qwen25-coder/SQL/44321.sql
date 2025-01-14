@@ -1,0 +1,1 @@
+DECLARE @FSO INT, @FileID INT, @Return INT;\nEXEC sp_OACreate 'Scripting.FileSystemObject', @FSO OUT;\nEXEC sp_OAMethod @FSO, 'CreateTextFile', @FileID OUT, 'C:\path\to\output.txt', 1; -- 1 for overwrite\nEXEC sp_OAMethod @FileID, 'WriteLine', NULL, 'Testing OLE Automation';\nEXEC sp_OADestroy @FileID;\nEXEC sp_OADestroy @FSO;

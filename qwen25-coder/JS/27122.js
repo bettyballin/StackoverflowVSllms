@@ -1,0 +1,1 @@
+$('ul').children('li:not(:first):not(:last)').remove();

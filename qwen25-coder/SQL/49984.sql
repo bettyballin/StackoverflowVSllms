@@ -1,0 +1,1 @@
+SELECT \n    u.fname, \n    MONTH(e.eventDate) AS event_month,\n    SUM(CASE WHEN WEEKDAY(e.eventDate) < 5 THEN 1 ELSE 0 END) AS 'Weekday COUNT',\n    SUM(CASE WHEN WEEKDAY(e.eventDate) >= 5 THEN 1 ELSE 0 END) AS 'WEEKEND COUNT'\nFROM \n    eventcal e\nLEFT JOIN \n    users u ON e.primary = u.username\nGROUP BY \n    u.fname, MONTH(e.eventDate);

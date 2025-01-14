@@ -1,0 +1,1 @@
+<Property Name="QueryOverride" Type="string"><![CDATA[<OrderBy><FieldRef Name='ContentType' /><FieldRef Name='SiteName' /></OrderBy>]]></Property>

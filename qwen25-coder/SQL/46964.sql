@@ -1,0 +1,1 @@
+SELECT \n    DB_NAME(qs.database_id) AS DatabaseName,\n    SUM(qsp.total_worker_time) / 1000000.0 AS Total_CPU_Time_Seconds\nFROM \n    sys.dm_exec_query_stats qs\nJOIN \n    sys.dm_exec_procedure_stats qsp ON qs.sql_handle = qsp.sql_handle\nGROUP BY \n    DB_NAME(qs.database_id)\nORDER BY \n    SUM(qsp.total_worker_time) DESC;

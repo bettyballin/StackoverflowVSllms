@@ -1,0 +1,1 @@
+// For reports, you might use:\n<dependency>\n    <groupId>org.jfree</groupId>\n    <artifactId>jfreereport-fx</artifactId>\n    <version>1.4.8</version>\n</dependency>

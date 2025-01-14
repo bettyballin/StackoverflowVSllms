@@ -1,0 +1,1 @@
+// Example: Accessing DevTools programmatically (this is more of a conceptual idea than practical use)\nconsole.log("Use Ctrl+Shift+I or Cmd+Option+I to open Chrome Developer Tools for inspecting and debugging.");

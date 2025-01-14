@@ -1,0 +1,1 @@
+$somefile = 'path/to/your/file'; // Make sure to set the correct file path\n$LastModified = filemtime($someFile);\n$tenMinutesLater = $LastModified + (5 * 60); // Adding five minutes\n\nif ($tenMinutesLater <= time()) { // Compare with current time\n    unlink($somefile); // Delete the file if condition is true\n}

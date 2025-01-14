@@ -1,0 +1,1 @@
+-- Example: Check the current Agent account (run in SQL Server Management Studio)\nEXEC msdb.dbo.sp_get_sqlagent_properties;

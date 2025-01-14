@@ -1,0 +1,1 @@
+UPDATE feeds SET feed_type = 'public' WHERE id IN (SELECT public_feed_id FROM public_feeds);\nUPDATE feeds SET feed_type = 'private' WHERE id IN (SELECT private_feed_id FROM private_feeds);\nUPDATE feeds SET feed_type = 'generated' WHERE id IN (SELECT generated_feed_id FROM generated_feeds);

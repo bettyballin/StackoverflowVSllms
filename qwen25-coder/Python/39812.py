@@ -1,0 +1,1 @@
+# Simple in-memory "database"\ndb = {\n    'users': {\n        'id': [1, 2],\n        'name': ['Alice', 'Bob'],\n        'age': [30, 25]\n    }\n}

@@ -1,0 +1,1 @@
+SELECT first 1 NULL AS mynullvalue FROM systables;

@@ -1,0 +1,1 @@
+STOP SLAVE;\n    RESET MASTER;

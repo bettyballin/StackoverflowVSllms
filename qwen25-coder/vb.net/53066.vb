@@ -1,0 +1,1 @@
+Dim opt As New Compiler.CodeGeneratorOptions()\nopt.CompilerOptions = "/langversion:latest"

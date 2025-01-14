@@ -1,0 +1,1 @@
+function sendEmail(encodedMail) {\n    var decodedMail = atob(encodedMail); // Decodes Base64 encoded string\n    window.location.href = "mailto:" + decodedMail;\n}

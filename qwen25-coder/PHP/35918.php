@@ -1,0 +1,1 @@
+/**\n * @var array A list of user IDs.\n */\n$userIds = [1, 2, 3];

@@ -1,0 +1,1 @@
+Private Sub cmdRefresh_Click()\n    Me.Requery\nEnd Sub

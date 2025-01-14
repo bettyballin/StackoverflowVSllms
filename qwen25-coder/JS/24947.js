@@ -1,0 +1,1 @@
+// Creating an object with a method\nvar ArticleVote = {\n    submitVote: function(vote) {\n        // Logic to handle the vote submission\n        console.log('Vote submitted:', vote);\n    }\n};\n\n// Calling the method on the object\nArticleVote.submitVote('no');

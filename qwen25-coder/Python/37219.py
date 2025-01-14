@@ -1,0 +1,1 @@
+from bcrypt import hashpw, gensalt, checkpw\n\n# Hashing a password\npassword = b"supersecret"\nhashed_password = hashpw(password, gensalt())\n\n# Verifying a password\nif checkpw(b"supersecret", hashed_password):\n    print("Password matches!")\nelse:\n    print("Invalid password!")

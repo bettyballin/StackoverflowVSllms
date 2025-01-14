@@ -1,0 +1,1 @@
+<script language="javascript">\n    var str = "a$b";\n    alert(str.split('$').join('k'));\n</script>

@@ -1,0 +1,1 @@
+-- Example of changing column types in SQL Server\n   ALTER TABLE tbl_Customer\n   ALTER COLUMN Name NVARCHAR(255);

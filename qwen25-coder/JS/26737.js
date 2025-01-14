@@ -1,0 +1,1 @@
+// script.js\ndocument.addEventListener("DOMContentLoaded", function() {\n    const sections = document.querySelectorAll('section');\n    sections.forEach(function(section) {\n        section.addEventListener('click', function() {\n            alert('Section clicked: ' + this.querySelector('h2').textContent);\n        });\n    });\n});

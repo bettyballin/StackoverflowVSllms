@@ -1,0 +1,1 @@
+ALTER SYSTEM SET "_oracle_text_enabled" = FALSE SCOPE=SPFILE;

@@ -1,0 +1,1 @@
+Imports System.Linq\n\n' Using LINQ to add all items from hostCollection1 to hostCollection2\nFor Each item As Host In hostCollection1\n    hostCollection2.Add(item)\nNext

@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE process_numbers (\n    numbers IN NUMBER_ARRAY\n) IS\nBEGIN\n    FOR i IN 1..numbers.COUNT LOOP\n        DBMS_OUTPUT.PUT_LINE('Number ' || i || ': ' || numbers(i));\n    END LOOP;\nEND;\n/

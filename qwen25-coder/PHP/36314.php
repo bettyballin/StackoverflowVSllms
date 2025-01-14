@@ -1,0 +1,1 @@
+$upload_dir = __DIR__ . "/upload/";

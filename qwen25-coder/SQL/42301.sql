@@ -1,0 +1,1 @@
+SELECT * \nFROM widsys.train trn \nWHERE trn.WID_DATE >= NEXT_DAY(TO_DATE('2008', 'YYYY') - 1, 'MONDAY') + (13 - 1) * 7\nAND   trn.WID_DATE < NEXT_DAY(TO_DATE('2008', 'YYYY') - 1, 'MONDAY') + 13 * 7\nORDER BY trn.wid_date;

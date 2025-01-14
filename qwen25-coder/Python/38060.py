@@ -1,0 +1,1 @@
+from operator import itemgetter\n\ndata = [\n    {'Name': 'TOTAL', 'Rank': 100},\n    {'Name': 'Woo Company', 'Rank': 15},\n    {'Name': 'ABC Company', 'Rank': 20}\n]\n\nsorted_data = sorted(data, key=lambda x: (x['Name'] == 'TOTAL', x['Name']))\n\nprint(sorted_data)

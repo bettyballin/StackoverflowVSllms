@@ -1,0 +1,1 @@
+# Example using pika (RabbitMQ)\nimport pika\n\nconnection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))\nchannel = connection.channel()\n\nchannel.queue_declare(queue='hello')\nchannel.basic_publish(exchange='',\n                      routing_key='hello',\n                      body='Hello World!')\n\nprint(" [x] Sent 'Hello World!'")\nconnection.close()

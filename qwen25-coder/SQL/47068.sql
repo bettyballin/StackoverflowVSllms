@@ -1,0 +1,1 @@
+CREATE TABLE my_documents (\n       id NUMBER PRIMARY KEY,\n       document_name VARCHAR2(255),\n       file_path BFILE\n   );

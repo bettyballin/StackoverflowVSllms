@@ -1,0 +1,1 @@
+<?php\n$status = opcache_get_status();\necho "<pre>";\nprint_r($status);\necho "</pre>";\n?>

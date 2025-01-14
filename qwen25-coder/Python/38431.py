@@ -1,0 +1,1 @@
+def gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a\n\ndef lcm(a, b):\n    return a * b // gcd(a, b)\n\ndef lcm_of_numbers(numbers):\n    current_lcm = numbers[0]\n    for number in numbers[1:]:\n        current_lcm = lcm(current_lcm, number)\n    return current_lcm\n\n# Example usage:\nnumbers = [3, 4, 5]\nprint(lcm_of_numbers(numbers))  # Output will be 60

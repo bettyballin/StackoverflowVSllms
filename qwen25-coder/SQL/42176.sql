@@ -1,0 +1,1 @@
+SET GLOBAL innodb_buffer_pool_size = 768M; -- Adjust based on system capabilities

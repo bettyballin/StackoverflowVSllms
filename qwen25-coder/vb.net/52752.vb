@@ -1,0 +1,1 @@
+<Serializable>\nPublic Class Caption\n    ' Your properties and methods here\nEnd Class

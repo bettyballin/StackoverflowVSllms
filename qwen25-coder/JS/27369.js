@@ -1,0 +1,1 @@
+// Get the div element\nvar div = document.querySelector('div');\n\n// Find all input elements inside the div\nvar inputs = div.querySelectorAll('input');\n\n// Count the number of input elements\nvar numberOfInputs = inputs.length;\n\n// Log the result to the console\nconsole.log("Number of <input> tags in the <div>: " + numberOfInputs);

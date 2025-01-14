@@ -1,0 +1,1 @@
+<connectionStrings>\n     <add name="OracleConnectionString" connectionString="Data Source=myDataSource;User Id=myUsername;Password=myEncryptedPassword;" providerName="System.Data.OracleClient"/>\n   </connectionStrings>

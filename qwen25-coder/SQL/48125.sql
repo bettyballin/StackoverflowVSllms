@@ -1,0 +1,1 @@
+USE [master]\nGO\nALTER LOGIN [YourLoginName] WITH PASSWORD = 'NewStrongPassword!';\nGO

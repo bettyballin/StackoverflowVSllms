@@ -1,0 +1,1 @@
+# main.rb\n    require_relative 'my_class'\n\n    my_object = MyClass.new\n    my_object.say_hello

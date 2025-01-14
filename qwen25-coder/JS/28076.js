@@ -1,0 +1,1 @@
+// Validate for US currency allowing whole numbers and numbers with two decimal places\njQuery.validator.addMethod("decimalTwo", function(value, element) {\n    return this.optional(element) || /^(\d{1,3}(?:,\d{3})*)(\.\d{2})?$/.test(value);\n}, "Must be in US currency format or a whole number");

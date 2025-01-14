@@ -1,0 +1,1 @@
+CREATE TABLE my_table (\n    id SERIAL PRIMARY KEY,\n    username VARCHAR(50) NOT NULL\n);

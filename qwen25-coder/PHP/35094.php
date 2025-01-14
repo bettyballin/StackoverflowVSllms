@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\n$response = [\n    'success' => false,\n];\n\nif (isset($_SESSION['screen_name'])) {\n    $response['success'] = true;\n}\n\nheader('Content-Type: application/json');\necho json_encode($response);\n?>

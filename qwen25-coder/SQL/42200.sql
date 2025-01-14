@@ -1,0 +1,1 @@
+SELECT \n    CONSTRAINT_NAME, \n    TABLE_NAME, \n    COLUMN_NAME\nFROM \n    INFORMATION_SCHEMA.KEY_COLUMN_USAGE\nWHERE \n    REFERENCED_TABLE_SCHEMA = 'your_database_name' -- Replace with your database name\n    AND REFERENCED_TABLE_NAME = 'user'\nORDER BY \n    TABLE_NAME;

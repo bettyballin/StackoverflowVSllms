@@ -1,0 +1,1 @@
+sqlplus / as sysdba\n     SQL> SHUTDOWN IMMEDIATE;\n     SQL> STARTUP MOUNT;

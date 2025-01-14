@@ -1,0 +1,1 @@
+from frechetdist import frdist\n\n# Define two line strings (example coordinates)\nline_string1 = [(0, 0), (1, 1), (2, 2)]\nline_string2 = [(0.5, 0.5), (1.5, 1.5), (2.5, 2.5)]\n\n# Calculate the Discrete Fréchet Distance\ndistance = frdist(line_string1, line_string2)\n\nprint(f"Discrete Fréchet Distance: {distance}")

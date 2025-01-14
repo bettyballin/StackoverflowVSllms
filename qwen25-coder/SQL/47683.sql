@@ -1,0 +1,1 @@
+SELECT * FROM table WHERE timestamp = (SELECT MAX(timestamp) FROM table);

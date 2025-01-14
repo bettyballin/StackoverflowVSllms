@@ -1,0 +1,1 @@
+INSERT INTO timesheet (datebeginning, jobid, dateending)\nVALUES ('2023-10-01 08:00:00', 123, '2023-10-01 17:00:00')\nON DUPLICATE KEY UPDATE\ndateending = VALUES(dateending);

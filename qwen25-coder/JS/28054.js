@@ -1,0 +1,1 @@
+// Attach the focus event handler to an existing parent element\n$('body').on('focus', '#filterdiv input', function() {\n    alert('Hello');\n});

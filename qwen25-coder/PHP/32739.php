@@ -1,0 +1,1 @@
+class Model_User extends ORM {\n    protected $_table_name = 'users';\n\n    public function get_user($id) {\n        return DB::select()->from('users')->where('user_id', '=', $id)->execute()->as_array();\n    }\n}

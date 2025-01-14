@@ -1,0 +1,1 @@
+<?php\nrequire('fpdf.php');\n\n$pdf = new FPDF();\n$pdf->AddPage();\n$pdf->SetFont('Arial','B',16);\n$pdf->Cell(40,10,'Hello World!');\n$pdf->Output();\n\n// If the script runs without any errors, your setup is likely correct.

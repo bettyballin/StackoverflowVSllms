@@ -1,0 +1,1 @@
+# In your views.py\nfrom django.shortcuts import render\n\ndef my_view(request):\n    has_permission = request.user.has_perm('myapp.custom_permission')\n    return render(request, 'my_template.html', {'has_permission': has_permission})

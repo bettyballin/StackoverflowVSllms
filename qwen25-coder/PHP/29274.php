@@ -1,0 +1,1 @@
+class YourController {\n    private $model;\n\n    public function __construct($model) {\n        $this->model = $model;\n    }\n\n    public function getDivContent() {\n        // Fetch data using the model\n        $data = $this->model->getData();\n\n        // Load and render view\n        $view = new View();\n        echo $view->render('div_template.php', $data);\n    }\n}

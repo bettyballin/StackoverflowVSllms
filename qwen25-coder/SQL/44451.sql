@@ -1,0 +1,1 @@
+-- Check current time zone setting:\n   SELECT @@global.time_zone, @@session.time_zone;\n\n   -- Set the time zone to a specific value (e.g., Europe/London):\n   SET GLOBAL time_zone = 'Europe/London';\n   SET time_zone = 'Europe/London';

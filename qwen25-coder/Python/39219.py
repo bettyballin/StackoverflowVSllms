@@ -1,0 +1,1 @@
+import re\n\nhtml_content = '''\n<html>\n    <body>\n        <img src="http://example.com/g.jpg" alt="" />\n        <div>Some text and another <img src='https://another-example.org/image.png' /></div>\n    </body>\n</html>\n'''\n\n# Regular expression to find all image sources\nimg_srcs = re.findall(r'<img\s+[^>]*src=["\']?([^"\'>]+)', html_content)\n\nprint(img_srcs)

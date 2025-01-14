@@ -1,0 +1,1 @@
+select\n   location,\n   count(case when type = 'X' then 1 end) as count_X,\n   sum(case when type = 'X' then duration else 0 end) as sum_duration_X,\n   count(case when type = 'Y' then 1 end) as count_Y,\n   sum(case when type = 'Y' then duration else 0 end) as sum_duration_Y\nfrom my.table a\nwhere location = @location\n  and date(a.some_tstamp) = @date\ngroup by location;

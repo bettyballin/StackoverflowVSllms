@@ -1,0 +1,1 @@
+-- Assuming 'another_table' is the name of the table whose row count you want to log\nDELIMITER $$\n\nCREATE TRIGGER before_log_insert\nBEFORE INSERT ON log\nFOR EACH ROW\nBEGIN\n    SET NEW.count = (SELECT COUNT(*) FROM another_table);\nEND$$\n\nDELIMITER ;

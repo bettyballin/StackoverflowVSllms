@@ -1,0 +1,1 @@
+<?php\n$today = new DateTime();\n$dateToCalculate = new DateTime('2024-12-31'); // Replace with your target date\n\n$difference = $dateToCalculate->diff($today);\necho "There are " . $difference->days . " days until " . $dateToCalculate->format('Y-m-d') . ".";\n?>

@@ -1,0 +1,1 @@
+// PHP side (Your Zend_Rest_Server setup)\nrequire_once 'Zend/Rest/Server.php';\n\n$server = new Zend_Rest_Server();\n$server->setClass('YourServiceClass');\n$server->getOptions()->setParam('format', 'json'); // Force JSON format\n$server->handle();

@@ -1,0 +1,1 @@
+SELECT * \nFROM table \nWHERE id < (SELECT id FROM table WHERE name = 'Joe')\nORDER BY id ASC \nLIMIT 2;

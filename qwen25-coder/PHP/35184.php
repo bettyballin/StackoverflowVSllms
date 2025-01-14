@@ -1,0 +1,1 @@
+<?php\n$x = 36; // Example value for x\nfor ($i = 1; $i <= $x; $i++) {\n    echo str_pad(dechex($i), 2, '0', STR_PAD_LEFT) . "\n";\n}\n?>

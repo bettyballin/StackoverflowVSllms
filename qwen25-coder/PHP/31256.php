@@ -1,0 +1,1 @@
+function onThisPageFunction($fileNameFromFunction) {\n    // Get just the filename part from the current file path\n    $currentFileName = basename(__FILE__);\n    \n    if ($currentFileName === $fileNameFromFunction) {\n        // do stuff\n        echo "The specified file is being processed.";\n    }\n}

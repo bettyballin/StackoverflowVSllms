@@ -1,0 +1,1 @@
+If nullId.HasValue Then\n    areEqual = (nullId.Value = id)\nElse\n    areEqual = False ' or handle as needed\nEnd If

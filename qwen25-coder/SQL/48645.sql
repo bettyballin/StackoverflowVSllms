@@ -1,0 +1,1 @@
+CREATE GLOBAL TEMPORARY TABLE temp_table (\n    column1 NUMBER,\n    column2 VARCHAR2(50)\n) ON COMMIT DELETE ROWS;

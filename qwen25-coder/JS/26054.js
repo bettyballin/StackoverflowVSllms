@@ -1,0 +1,1 @@
+// Import ava as an ES module or using CommonJS\nconst test = require('ava');\n\ntest('simple arithmetic', t => {\n    t.is(1 + 1, 2);\n    t.not(1 + 1, 4);\n});

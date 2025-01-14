@@ -1,0 +1,1 @@
+rake test specific_test_file -v

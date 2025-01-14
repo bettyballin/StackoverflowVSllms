@@ -1,0 +1,1 @@
+# Avoid using this method\nwith file('example.txt', 'r') as f:\n    content = f.read()

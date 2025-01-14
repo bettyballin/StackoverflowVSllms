@@ -1,0 +1,1 @@
+-- Consider using a version control table to track script execution\n   CREATE TABLE DB_SCRIPT_VERSIONS (\n       SCRIPT_NAME VARCHAR2(1000),\n       EXECUTION_DATE TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n       STATUS VARCHAR2(10) -- SUCCESS/FAILURE/CANCELLED\n   );\n   \n   INSERT INTO DB_SCRIPT_VERSIONS (SCRIPT_NAME, STATUS)\n   VALUES ('script_name_here', 'SUCCESS');

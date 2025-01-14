@@ -1,0 +1,1 @@
+$uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);\n\nif ($uri === '/user') {\n    $controller = new UserController();\n    $controller->showUser();\n} else if ($uri === '/') {\n    renderPage('Home', 'home.view.php');\n}

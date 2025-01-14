@@ -1,0 +1,1 @@
+# In your controller action to generate URLs\n    encoded_openid = Base64.urlsafe_encode64(plain_openid)\n    \n    # To decode it when retrieving data\n    plain_openid = Base64.urlsafe_decode64(encoded_openid)

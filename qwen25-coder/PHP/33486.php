@@ -1,0 +1,1 @@
+$array1 = [false, 200];\n$array2 = [true, 80, 60, 75, 50, 0, 0, 30, 40];\n\n$array3 = $array2; // Start with all values from Array2\n\nforeach ($array1 as $index => $value) {\n    if ($value !== false && $value !== null) { // Check if the value is set in Array1\n        $array3[$index] = $value;\n    }\n}\n\nprint_r($array3);

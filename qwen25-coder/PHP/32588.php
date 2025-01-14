@@ -1,0 +1,1 @@
+$class = 'Blog';\n$action = 'content';\n\n// Correctly use the curly braces for dynamic access\necho $class::${$action};

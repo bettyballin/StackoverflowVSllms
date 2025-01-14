@@ -1,0 +1,1 @@
+ALTER INDEX index_name UNUSABLE;\n   -- After loading data\n   ALTER INDEX index_name REBUILD;

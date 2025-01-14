@@ -1,0 +1,1 @@
+require 'vendor/autoload.php';\n\nuse MathParser\StdMathInterpreter;\n\nfunction calc($equation) {\n    $interpreter = new StdMathInterpreter();\n    return $interpreter->interpret($equation);\n}\n\necho calc("(((4 * 5) + 6) * 2) / 8"); // Outputs: 11

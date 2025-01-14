@@ -1,0 +1,1 @@
+<authorization>\n    <deny users="?"/> <!-- Deny anonymous access -->\n    <allow roles="DOMAIN\YourActiveDirectoryGroup"/>\n  </authorization>

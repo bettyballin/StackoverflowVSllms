@@ -1,0 +1,1 @@
+// Listen for messages from the parent\nwindow.addEventListener("message", function(event) {\n    if (event.origin !== "http://yourdomain.com") return; // Always check origin\n\n    if (event.data.method === 'findComponent') {\n        var component = $find(event.data.id);\n        event.source.postMessage({ result: component }, event.origin);\n    }\n});

@@ -1,0 +1,1 @@
+SELECT TimeStamp, SpeedMax AS Speed, HeightMax AS Height\nFROM your_table_name\n\nUNION ALL\n\nSELECT TimeStamp, SpeedMin AS Speed, HeightMin AS Height\nFROM your_table_name;

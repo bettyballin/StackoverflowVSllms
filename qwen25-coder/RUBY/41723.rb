@@ -1,0 +1,1 @@
+class BinaryFile < ApplicationRecord\n  # Assuming 'data' is the column for storing BLOB data\nend

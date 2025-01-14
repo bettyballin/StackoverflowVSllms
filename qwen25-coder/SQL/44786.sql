@@ -1,0 +1,1 @@
+WITH distinct_ids AS (\n    SELECT DISTINCT id FROM table1\n)\nSELECT d.id, t.name\nFROM distinct_ids d\nJOIN table1 t ON d.id = t.id;

@@ -1,0 +1,1 @@
+function checkDOMLevel2Support() {\n    if (document.addEventListener) {\n        console.log('This browser supports DOM Level 2 Events module.');\n    } else {\n        console.log('This browser does not fully support DOM Level 2 Events module.');\n    }\n}\n\ncheckDOMLevel2Support();

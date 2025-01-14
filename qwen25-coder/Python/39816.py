@@ -1,0 +1,1 @@
+from collections import namedtuple\n\nResult = namedtuple('Result', ['value1', 'value2'])\n\ndef foo(c):\n    return Result(c + 1, c * 2)\n\nresult = foo(5)\na = result.value1\nb = result.value2

@@ -1,0 +1,1 @@
+Dim groupedResults = enumerable.GroupBy(Function(x) Tuple.Create(x.Item("A").ToString(), x.Item("B").ToString()))

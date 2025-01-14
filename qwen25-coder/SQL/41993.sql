@@ -1,0 +1,1 @@
+-- Version 1: V1__Initial_schema.sql\n   CREATE TABLE example (\n       id INT PRIMARY KEY,\n       name VARCHAR(255)\n   );\n\n   -- Version 2: V2__Add_description_to_example.sql\n   ALTER TABLE example ADD COLUMN description TEXT;

@@ -1,0 +1,1 @@
+function stripJunk($string) {\n    $string = str_replace(" ", "-", $string);\n    // Remove any character that is not a-z, A-Z, 0-9, or -\n    $string = preg_replace("/[^a-zA-Z0-9-]/", "", $string);\n    $string = strtolower($string);\n    return $string;\n}\n\n$string = "Hello World!";\necho stripJunk($string); // Outputs: hello-world

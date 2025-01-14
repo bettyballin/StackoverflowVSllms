@@ -1,0 +1,1 @@
+group :test do\n  gem 'rspec-rails', '~> 4.0'\n  gem 'cucumber-rails', '~> 2.4', require: false\n  gem 'selenium-webdriver'\nend

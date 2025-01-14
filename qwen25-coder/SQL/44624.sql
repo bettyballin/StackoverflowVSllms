@@ -1,0 +1,1 @@
+EXEC xp_msver 'ProductName';\nEXEC xp_msver 'CurrentVersion';\nEXEC xp_msver 'CurrentBuildNumber';

@@ -1,0 +1,1 @@
+<?php\n// Prevent sending any headers\nheader_remove();\nhttp_response_code(204); // Send a 204 No Content status code\n\n// Terminate the script execution\nexit;

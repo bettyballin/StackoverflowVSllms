@@ -1,0 +1,1 @@
+BEGIN TRAN\n\n    -- Disable constraint\n    ALTER TABLE tblForeignKey NOCHECK CONSTRAINT fk_tblForeignKey;\n\n    DELETE tblPrimaryKey WHERE PkId = 3;\n    INSERT INTO tblPrimaryKey (PkId) VALUES (3);\n\n    -- Re-enable and check constraint\n    ALTER TABLE tblForeignKey WITH CHECK CHECK CONSTRAINT fk_tblForeignKey;\n\nCOMMIT TRAN;

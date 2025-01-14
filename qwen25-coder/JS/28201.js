@@ -1,0 +1,1 @@
+function renderItems(items) {\n  items.forEach(function(item) {\n    document.getElementById("itemContainer").innerHTML += item.html;\n  });\n}

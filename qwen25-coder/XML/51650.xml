@@ -1,0 +1,1 @@
+<!-- Example ESI include for static content -->\n<esi:include src="/path/to/static/content/myimage.gif" />

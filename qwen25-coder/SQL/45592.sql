@@ -1,0 +1,1 @@
+SELECT \n    OBJECT_NAME(object_id) AS TableName,\n    MAX(last_user_update) AS LastUserUpdate \nFROM \n    sys.dm_db_index_usage_stats \nWHERE \n    index_id IN (0, 1) -- 0 is heap, 1 is clustered index\nGROUP BY \n    OBJECT_NAME(object_id)\nORDER BY \n    LastUserUpdate DESC;

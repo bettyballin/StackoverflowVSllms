@@ -1,0 +1,1 @@
+// A simple route in Laravel\n     use Illuminate\Support\Facades\Route;\n\n     Route::get('/', function () {\n         return 'Hello from Laravel!';\n     });

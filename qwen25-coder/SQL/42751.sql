@@ -1,0 +1,1 @@
+SELECT TOP 1 * FROM RemoteLinkedServer.YourRemoteDB.dbo.TableName;

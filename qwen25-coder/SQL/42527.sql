@@ -1,0 +1,1 @@
+SELECT n.* \n   FROM tbl_news n\n   JOIN tbl_tag_relations tr ON n.news_id = tr.news_id\n   WHERE tr.tag_id = 20;

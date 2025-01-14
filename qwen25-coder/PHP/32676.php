@@ -1,0 +1,1 @@
+$clients = $CLIENT->find($options);\n$client = !empty($clients) ? current($clients) : null;

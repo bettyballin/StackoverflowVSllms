@@ -1,0 +1,1 @@
+SELECT a.*\nFROM Articles a\nJOIN ArticleKeywords ak ON a.id = ak.article_id\nWHERE ak.keyword_id IN ('25', '566', '156', '166', '7345')\nGROUP BY a.id\nHAVING \n  (SUM(ak.keyword_id = '25') > 0 AND SUM(ak.keyword_id = '566') > 0) OR\n  (SUM(ak.keyword_id = '156') > 0 AND SUM(ak.keyword_id = '166') > 0);

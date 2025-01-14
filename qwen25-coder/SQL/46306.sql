@@ -1,0 +1,1 @@
+SELECT * \nFROM person \nWHERE UPPER(last_name) LIKE 'P%' AND last_name IS NOT NULL;

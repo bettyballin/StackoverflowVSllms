@@ -1,0 +1,1 @@
+DECLARE @userGroup NVARCHAR(256)\nSET @userGroup = 'DOMAIN\YourUserGroup'\n\nEXEC sp_MSforeachproc '\n    GRANT EXECUTE ON ? TO [' + @userGroup + ']'

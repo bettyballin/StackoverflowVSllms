@@ -1,0 +1,1 @@
+-- Enable deadlock graph capture in SQL Server Profiler to capture more details about deadlocks\n   SELECT * FROM sys.dm_os_waiting_tasks WHERE wait_type LIKE 'LCK%';

@@ -1,0 +1,1 @@
+<?php\n$string = "djriojnrwadoiaushd";\n$charToRemove = 'j';\n\n// Remove only the first occurrence of 'j'\n$resultString = str_replace($charToRemove, '', $string, 1);\n\necho $resultString; // Outputs: driojnrwadoiaushd\n?>

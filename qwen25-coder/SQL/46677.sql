@@ -1,0 +1,1 @@
+ALTER TABLE mytable MODIFY COLUMN mycolumn varchar(255) NULL;

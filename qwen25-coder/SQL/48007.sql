@@ -1,0 +1,1 @@
+SELECT YEAR(deliveryDate) AS Year,\n       SUM(someValues) AS TotalSum\nFROM table1\nGROUP BY YEAR(deliveryDate);

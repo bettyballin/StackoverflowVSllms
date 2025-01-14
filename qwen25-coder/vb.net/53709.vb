@@ -1,0 +1,1 @@
+Dim x As String = "123.45" ' Example string\nDim current As Double\nIf Double.TryParse(x, current) Then\n    ' The conversion succeeded.\n    current = Math.Round(current, d)\n    Return current\nElse\n    ' The conversion failed; leave as a string or handle accordingly.\n    Return x\nEnd If

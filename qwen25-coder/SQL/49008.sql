@@ -1,0 +1,1 @@
+SELECT A.* FROM A INNER JOIN B ON A.id = B.a_id

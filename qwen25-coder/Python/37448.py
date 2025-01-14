@@ -1,0 +1,1 @@
+words = ['apple', 'banana', 'cherry']\nfrequencies = [40, 30, 30]\n\nprob, alias = prepare_alias_method(frequencies)\n\n# To select a word based on frequency:\nselected_index = select_word(prob, alias)\nselected_word = words[selected_index]\nprint(selected_word)

@@ -1,0 +1,1 @@
+<?php foreach ($this->items as $item): ?>\n  <h2><?php echo $item->title; ?></h2>\n  <p><?php echo JHtml::_('string.truncate', strip_tags($item->introtext), 100, true); ?></p>\n  <a href="<?php echo $item->link; ?>" class="readmore">Read more</a>\n<?php endforeach; ?>

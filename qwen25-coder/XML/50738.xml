@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.jooq</groupId>\n    <artifactId>jool-sql-formatter</artifactId>\n    <version>0.5.2</version>\n</dependency>

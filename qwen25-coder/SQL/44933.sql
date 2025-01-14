@@ -1,0 +1,1 @@
+SELECT STRING_AGG(CONCAT(FName, ' ', LName), ', ') AS FullNameList\nFROM Employees;

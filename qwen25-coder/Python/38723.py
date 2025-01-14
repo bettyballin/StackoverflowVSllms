@@ -1,0 +1,1 @@
+import webbrowser\n\ndef open_podcast_search(podcast_name):\n    base_url = "https://podcasts.apple.com/search?q="\n    full_url = f"{base_url}{podcast_name}"\n    webbrowser.open(full_url)\n\n# Example usage\nopen_podcast_search("DBA Kevlar")

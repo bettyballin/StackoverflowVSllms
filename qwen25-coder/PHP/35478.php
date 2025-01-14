@@ -1,0 +1,1 @@
+<?php\nheader('Content-Type: text/plain; charset=utf-8');\necho "Your Data Here"; // Ensure this is the correct output\n?>

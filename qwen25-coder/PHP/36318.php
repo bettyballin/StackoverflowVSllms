@@ -1,0 +1,1 @@
+<?php\n   include 'zendframework.phar';\n\n   use Zend\Framework\Component;\n   // Use any part of Zend Framework as usual

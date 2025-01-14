@@ -1,0 +1,1 @@
+class Invoice < ApplicationRecord\n  def address_id=(value)\n    if new_record?\n      super(value)\n    else\n      raise "address_id cannot be changed"\n    end\n  end\nend

@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.ccil.cowan.tagsoup</groupId>\n    <artifactId>tagsoup</artifactId>\n    <version>1.2.1</version>\n</dependency>

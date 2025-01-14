@@ -1,0 +1,1 @@
+class MyClass {\n      private function myPrivateMethod() {\n          // This method is only accessible within MyClass\n      }\n  }

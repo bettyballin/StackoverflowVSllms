@@ -1,0 +1,1 @@
+-- Hinting Oracle to use a hash join\nSELECT /*+ HASH_JOIN(employees departments) */ *\nFROM employees e, departments d\nWHERE e.department_id = d.department_id;\n\n-- Hinting Oracle to use a merge join\nSELECT /*+ MERGE_JOIN(employees departments) */ *\nFROM employees e, departments d\nWHERE e.department_id = d.department_id;

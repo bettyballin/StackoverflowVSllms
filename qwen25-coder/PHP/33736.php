@@ -1,0 +1,1 @@
+// Pagination.php\ntrait Pagination {\n    // Your pagination and sorting methods go here\n    public function paginateData($data, $page, $limit) {\n        // Pagination logic\n    }\n    \n    public function sortData($data, $column, $order = 'ASC') {\n        // Sorting logic\n    }\n}

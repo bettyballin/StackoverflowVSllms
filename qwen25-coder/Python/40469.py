@@ -1,0 +1,1 @@
+from rest_framework import serializers\n   from .models import Media  # Replace with your actual model\n\n   class MediaSerializer(serializers.ModelSerializer):\n       class Meta:\n           model = Media\n           fields = '__all__'  # Adjust fields as needed

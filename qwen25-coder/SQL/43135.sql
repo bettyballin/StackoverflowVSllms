@@ -1,0 +1,1 @@
+SELECT *\nFROM users\nWHERE TIMESTAMPDIFF(MINUTE, login_time, NOW()) <= 10;

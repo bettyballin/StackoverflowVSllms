@@ -1,0 +1,1 @@
+def is_safe_file(filename):\n    safe_extensions = ['txt', 'pdf', 'jpg', 'jpeg', 'png', 'gif', 'docx', 'xlsx']\n    return filename.split('.')[-1].lower() in safe_extensions\n\n# Example usage\nfilename = "example.docx"\nif is_safe_file(filename):\n    print("This file is allowed.")\nelse:\n    print("This file type is not allowed.")

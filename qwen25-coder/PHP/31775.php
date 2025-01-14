@@ -1,0 +1,1 @@
+class Constants {\n    const EH_MAILER = 1;\n    // You can add more constants here\n}

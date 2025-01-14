@@ -1,0 +1,1 @@
+INSERT INTO ReportingHierarchy (RecordID, ParentID, LevelID, Name, DataField)\nVALUES \n(1, NULL, 0, 'Top Level', 100.00),\n(2, 1, 1, 'Sub-Level 1a', 45.00),\n(3, 1, 1, 'Sub-Level 1b', 55.00),\n(4, 2, 2, 'Sub-Sub-Level 1a', 45.00);

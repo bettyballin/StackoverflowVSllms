@@ -1,0 +1,1 @@
+<Target Name="AfterBuild">\n    <!-- Copy DLLs from ControlsLib\bin to MainGUI\bin -->\n    <Copy SourceFiles="$([System.IO.Path]::GetFullPath('..\ControlsLib\bin\$(Configuration)\*.dll'))" DestinationFolder="$(OutputPath)" SkipUnchangedFiles="true" />\n  </Target>

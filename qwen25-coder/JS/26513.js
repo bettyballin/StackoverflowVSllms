@@ -1,0 +1,1 @@
+$$('input[name=shipType][type=radio]').each(function(element) {\n    element.setStyle({\n        // Your styles here\n        'border': '2px solid blue'\n    });\n});

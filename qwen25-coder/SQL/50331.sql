@@ -1,0 +1,1 @@
+-- sql/migrations/V1__Initial_schema.sql\n   CREATE TABLE IF NOT EXISTS users (\n       id INT PRIMARY KEY,\n       name VARCHAR(50)\n   );

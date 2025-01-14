@@ -1,0 +1,1 @@
+ALTER SYSTEM SET user_dump_dest='/path/to/dump/directory' SCOPE=SPFILE;

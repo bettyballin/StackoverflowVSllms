@@ -1,0 +1,1 @@
+echo $this->Html->script('prototype');

@@ -1,0 +1,1 @@
+file_put_contents('output.bin', $str . $id);

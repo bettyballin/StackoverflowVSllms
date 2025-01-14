@@ -1,0 +1,1 @@
+WITH CalculatedValues AS (\n    SELECT \n        ((amount1 - amount2) / amount1) AS chg\n    FROM \n        t1\n)\nSELECT \n    chg\nFROM \n    CalculatedValues\nWHERE \n    chg > 1 OR\n    chg < 0.3;

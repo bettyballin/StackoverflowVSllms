@@ -1,0 +1,1 @@
+$db = DB::connect('mysql://$user:$password@$db_host/$db_name');\n   if (PEAR::isError($db)) {\n       die($db->getMessage());\n   }

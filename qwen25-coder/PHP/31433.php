@@ -1,0 +1,1 @@
+header('P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"');\nsetcookie('user_id', $userId, time() + 1209600, '/', '.example.com', true, true);

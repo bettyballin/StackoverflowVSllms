@@ -1,0 +1,1 @@
+$('a').filter(function() {\n    return this.hostname && this.hostname !== location.hostname;\n})\n.removeAttr('target')\n.attr('rel', 'external')\n.attr('title', function () {\n    return $(this).attr('href');\n});\n\n$('a[rel="external"]').click(function() {\n    window.open($(this).attr('href'));\n    return false;\n});

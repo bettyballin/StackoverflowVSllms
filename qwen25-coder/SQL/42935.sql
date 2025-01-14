@@ -1,0 +1,1 @@
+USE MyDatabase\nBACKUP DATABASE [MyDatabase] TO DISK='C:\Path\To\Backup.bak';

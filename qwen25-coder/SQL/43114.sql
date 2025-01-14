@@ -1,0 +1,1 @@
+proc sql;\n    drop table libname.tablename nowarn;  /* Use NOWARN to suppress warnings if the table does not exist */\nquit;

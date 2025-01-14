@@ -1,0 +1,1 @@
+CREATE TABLE content (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       title VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,\n       text TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci\n   ) DEFAULT CHARACTER SET utf8mb4;

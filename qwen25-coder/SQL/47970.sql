@@ -1,0 +1,1 @@
+-- Full-Text Search query\nSELECT * FROM YourTable\nWHERE CONTAINS(Keywords, 'endorse')

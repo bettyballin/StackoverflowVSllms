@@ -1,0 +1,1 @@
+Dim number As Integer = 10\n\nSelect Case True\n    Case number < 5\n        Console.WriteLine("Number is less than 5")\n    Case number >= 5 And number < 10\n        Console.WriteLine("Number is between 5 and 9")\n    Case Else ' Equivalent to an else statement\n        Console.WriteLine("Number is 10 or more")\nEnd Select

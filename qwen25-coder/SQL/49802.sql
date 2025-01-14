@@ -1,0 +1,1 @@
+SELECT A.value, A.attribute_definition_id, A.value_rk\nFROM attribute_values A\nJOIN (\n    SELECT value, MAX(value_rk) as max_value_rk\n    FROM attribute_values\n    GROUP BY value\n) B ON A.value = B.value AND A.value_rk = B.max_value_rk;

@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() {\n    // Your JavaScript code here will run after the document is fully loaded.\n    console.log("Page has fully loaded!");\n});

@@ -1,0 +1,1 @@
+ALTER TABLE myTable ADD FULLTEXT(title, description, keywords);

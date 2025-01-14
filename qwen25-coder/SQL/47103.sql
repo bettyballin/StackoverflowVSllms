@@ -1,0 +1,1 @@
+DECLARE\n     l_stmt VARCHAR2(500);\n   BEGIN\n     l_stmt := 'BEGIN NULL; END;';\n     remote_exec.execute_dynamic_sql@dblink(l_stmt);\n   END;

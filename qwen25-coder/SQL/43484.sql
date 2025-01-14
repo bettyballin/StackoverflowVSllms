@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE insert_log(p_message IN VARCHAR2) IS\nBEGIN\n    INSERT INTO log_table (message) VALUES (p_message);\nEND;\n/

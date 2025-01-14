@@ -1,0 +1,1 @@
+<script type='text/javascript'>\n  if (typeof window['jQuery'] == 'undefined') \n    document.write('<scr' + 'ipt type="text/javascript" src="http://example.com/path/to/jquery.min.js"></sc' + 'ript>');\n</script>

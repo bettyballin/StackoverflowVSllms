@@ -1,0 +1,1 @@
+-- Example: Encrypting a column with a passphrase\n   ALTER TABLE YourTable ADD EncryptedColumn VARBINARY(MAX) NULL;\n   UPDATE YourTable \n      SET EncryptedColumn = ENCRYPTBYPASSPHRASE('Your Strong PassPhrase', CAST(SensitiveData AS NVARCHAR(MAX)));

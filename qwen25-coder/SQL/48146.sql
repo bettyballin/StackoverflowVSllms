@@ -1,0 +1,1 @@
+SELECT COUNT(*) \nFROM (\n    SELECT DISTINCT a, b \n    FROM MyTable \n    WHERE c = 'foo'\n) AS SubTable;

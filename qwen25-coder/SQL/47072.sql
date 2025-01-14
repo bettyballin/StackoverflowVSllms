@@ -1,0 +1,1 @@
+CREATE TABLE Entities (\n    EntityID INT PRIMARY KEY AUTO_INCREMENT,\n    EntityType VARCHAR(255),\n    -- other fields...\n);\n\nCREATE TABLE Votes (\n    VoteID INT PRIMARY KEY AUTO_INCREMENT,\n    EntityID INT,\n    UserID INT,\n    VoteTimestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    FOREIGN KEY (EntityID) REFERENCES Entities(EntityID)\n);

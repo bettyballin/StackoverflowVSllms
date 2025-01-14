@@ -1,0 +1,1 @@
+EXEC sp_addlinkedsrvlogin \n       @rmtsrvname = 'LinkedServer_Name',\n       @useself = 'false',         -- Use false for custom login mapping\n       @locallogin = NULL,\n       @rmtuser = 'remote_user',     -- Remote user on Server B\n       @rmtpassword = 'remote_pass';-- Remote password on Server B

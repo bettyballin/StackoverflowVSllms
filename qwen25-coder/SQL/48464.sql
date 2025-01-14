@@ -1,0 +1,1 @@
+SELECT 1 FROM your_table WHERE your_column = 'your_value' LIMIT 1;

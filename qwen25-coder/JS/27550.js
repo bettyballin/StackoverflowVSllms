@@ -1,0 +1,1 @@
+(function() {\n    var open = XMLHttpRequest.prototype.open;\n    XMLHttpRequest.prototype.open = function() {\n        console.log('AJAX request intercepted!');\n        // Optionally, you can add conditions to allow certain requests if needed\n        return open.apply(this, arguments);\n    };\n})();

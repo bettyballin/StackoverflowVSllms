@@ -1,0 +1,1 @@
+SET @variable_name = value;\n     SELECT @variable_name;

@@ -1,0 +1,1 @@
+# Assuming this is your step 2 migration\nclass CreateInitialUser < ActiveRecord::Migration[6.0]\n  def up\n    User.new(name: 'Admin', email: 'admin@example.com').save(validate: false)\n  end\n\n  def down\n    User.find_by(email: 'admin@example.com')&.destroy\n  end\nend

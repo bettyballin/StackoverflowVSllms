@@ -1,0 +1,1 @@
+<iis:WebAppPool \n    Id="AP_MyApp" \n    Name="My Application Pool" \n    ManagedPipelineMode="Integrated"\n    Identity="networkService" />\n\n<iis:WebApplication \n    Id="WA_MyApp" \n    Name="MyApp" \n    WebAppPool="AP_MyApp" \n    SiteId="*" />

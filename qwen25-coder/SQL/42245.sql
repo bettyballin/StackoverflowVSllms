@@ -1,0 +1,1 @@
+SELECT ID, Cat, Price, NULL as Name, NULL as Abbrv, 1 AS SourceOrder\nFROM t1 \nUNION ALL\nSELECT ID, NULL as Cat, NULL as Price, Name, Abbrv, 2 AS SourceOrder\nFROM t2\n\nORDER BY \n    CASE WHEN SourceOrder = 1 THEN MAX(Price) OVER (PARTITION BY ID ORDER BY Price DESC) ELSE NULL END DESC,\n    CASE WHEN SourceOrder = 1 THEN '' ELSE Abbrv END ASC;

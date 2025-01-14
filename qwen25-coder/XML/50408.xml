@@ -1,0 +1,1 @@
+<applicationInitialization doAppInitAfterRestart="true">\n     <add initializationPage="/" hostName="[YourSiteHost]" />\n   </applicationInitialization>

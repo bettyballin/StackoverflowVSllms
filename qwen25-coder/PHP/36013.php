@@ -1,0 +1,1 @@
+<?php\n   $conn = new mysqli('127.0.0.1', 'root', 'yourpassword');\n   if ($conn->connect_error) {\n       die("Connection failed: " . $conn->connect_error);\n   }\n   echo "Connected successfully";\n   ?>

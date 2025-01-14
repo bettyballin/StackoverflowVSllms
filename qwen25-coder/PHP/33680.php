@@ -1,0 +1,1 @@
+// At the beginning of your script\n\n$domain = $_SERVER['HTTP_HOST']; // Get the current domain\n\nsession_set_cookie_params(0, '/', $domain); // Set cookie params for session cookies\nsession_start(); // Start the sessio

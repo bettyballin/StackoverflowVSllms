@@ -1,0 +1,1 @@
+SELECT Nz(SomeBooleanField, 0) AS SafeBooleanField FROM YourTable;

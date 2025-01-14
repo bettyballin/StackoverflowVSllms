@@ -1,0 +1,1 @@
+INSERT INTO your_table (column1, column2, optional_column)\nVALUES ('value1', 'value2', NULL);

@@ -1,0 +1,1 @@
+CREATE PROCEDURE Dummy \n    @ID INT NOT NULL\nAS\nBEGIN\n    -- Procedure logic here\nEND

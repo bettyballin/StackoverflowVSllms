@@ -1,0 +1,1 @@
+CREATE TABLE transactions (\n    id INT PRIMARY KEY,\n    amount DECIMAL(19, 4) -- This example uses 19 digits total with 4 after the decimal\n);

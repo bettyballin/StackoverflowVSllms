@@ -1,0 +1,1 @@
+function fnSccs(additionalArg, response) {\n    alert("Additional Argument: " + additionalArg);\n    alert(response.responseText);\n}

@@ -1,0 +1,1 @@
+<asp:ScriptManager EnablePartialRendering="true" ID="ScriptManager1" runat="server"/>

@@ -1,0 +1,1 @@
+WITH XMLNAMESPACES('http://tempuri.org/' AS ns)\nSELECT \n    TransactionID, \n    T2.Loc.query('data(Request/SubscriberCode)') as 'SubscriberCode'\nFROM \n    TempWorksRequest\nCROSS APPLY \n    RequestXML.nodes('/soap:Envelope/soap:Body/ns:RunPackage/xmlDoc') as T2(Loc)\nWITH XMLNAMESPACES('http://schemas.xmlsoap.org/soap/envelope/' AS soap);

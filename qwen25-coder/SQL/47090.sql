@@ -1,0 +1,1 @@
+CREATE TABLE Product (\n    ProductID VARCHAR(255) PRIMARY KEY,\n    Name VARCHAR(255),\n    SafetyDataSheetID INT NOT NULL,\n    FOREIGN KEY (SafetyDataSheetID) REFERENCES SafetyDataSheet(SafetyDataSheetID)\n);\n\nCREATE TABLE SafetyDataSheet (\n    SafetyDataSheetID AUTO_INCREMENT PRIMARY KEY,\n    Ingredients TEXT,\n    Hazards TEXT\n);

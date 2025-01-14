@@ -1,0 +1,1 @@
+$CFG->wwwroot = 'https://yourdomain.com/moodle';

@@ -1,0 +1,1 @@
+# Example of setting up a simple viewset with DRF\nfrom rest_framework import viewsets\nfrom .models import MyModel\nfrom .serializers import MyModelSerializer\n\nclass MyModelViewSet(viewsets.ModelViewSet):\n    queryset = MyModel.objects.all()\n    serializer_class = MyModelSerializer

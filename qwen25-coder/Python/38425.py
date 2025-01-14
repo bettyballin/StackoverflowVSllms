@@ -1,0 +1,1 @@
+import re\n\nhtml_content = '''<HTML><BODY>Some content here.</BODY></HTML>'''\n\n# Regex pattern\npattern = r'(?i)<body(?:\s+[^>]*)?>(.*?)</body>'\n\n# Search for the body content\nmatch = re.search(pattern, html_content)\n\nif match:\n    body_content = match.group(1)\n    print(body_content)\nelse:\n    print("No body tag found.")

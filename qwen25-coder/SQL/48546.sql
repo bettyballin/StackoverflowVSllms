@@ -1,0 +1,1 @@
+SELECT needed_column1, needed_column2 \nFROM large_table \nWHERE specific_condition = 'value';

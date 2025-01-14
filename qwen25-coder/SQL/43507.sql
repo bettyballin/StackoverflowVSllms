@@ -1,0 +1,1 @@
+SELECT \n    TABLE_NAME, \n    COLUMN_NAME, \n    IS_NULLABLE\nFROM \n    INFORMATION_SCHEMA.COLUMNS\nWHERE \n    TABLE_NAME = 'YourTableName' AND\n    COLUMN_NAME = 'YourColumnName';

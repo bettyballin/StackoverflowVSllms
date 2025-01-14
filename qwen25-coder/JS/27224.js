@@ -1,0 +1,1 @@
+ew Ajax.Request('http://url.com', {\n  method: 'get',\n  requestHeaders: {\n    'Authorization': 'Basic ' + btoa('user:pass')\n  },\n  onSuccess: function(response) {\n    // Handle success\n  },\n  onFailure: function(response) {\n    // Handle failure\n  }\n});

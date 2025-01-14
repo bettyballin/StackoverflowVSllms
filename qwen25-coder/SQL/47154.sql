@@ -1,0 +1,1 @@
+-- Example DDL for Data Export Task in SSIS\nSELECT * FROM dbo.YourTable WHERE OwnershipCriteria = 'OwnerA';

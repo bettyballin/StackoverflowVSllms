@@ -1,0 +1,1 @@
+<urlrewrite>\n    <!-- Other rules... -->\n    \n    <rule>\n        <from>^/([^\s]+)$</from>\n        <to>/handle-$1</to>\n    </rule>\n\n    <outbound-rule>\n        <from>/handle-(.*)</from>\n        <to>/index.jsp?param=$1</to>\n    </outbound-rule>\n</urlrewrite>

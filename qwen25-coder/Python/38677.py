@@ -1,0 +1,1 @@
+ame_of_list = [3, 7, 19]\nfor i, value in enumerate(name_of_list):\n    # Do something with i (index) and value\n    name_of_list[i] = value + 1  # Example operation\n\nprint(name_of_list)

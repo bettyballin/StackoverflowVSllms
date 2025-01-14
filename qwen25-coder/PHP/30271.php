@@ -1,0 +1,1 @@
+$url = 'http://WwW.ExAmPLe.COm/';\n$standardizedUrl = strtolower($url);

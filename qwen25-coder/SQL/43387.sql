@@ -1,0 +1,1 @@
+select * from table \nwhere (col1 != 'blah' or col1 is null) and col2 = 'something';

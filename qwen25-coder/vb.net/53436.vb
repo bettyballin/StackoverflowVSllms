@@ -1,0 +1,1 @@
+Sub AdjustColumnWidthsAfterPaste()\n    ' Assuming data starts at cell A1\n    Dim lastCol As Long\n    lastCol = Cells(1, Columns.Count).End(xlToLeft).Column\n    \n    ' Loop through each column and set width\n    For i = 1 To lastCol\n        Columns(i).AutoFit\n    Next i\nEnd Sub

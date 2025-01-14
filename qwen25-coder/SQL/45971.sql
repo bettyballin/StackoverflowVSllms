@@ -1,0 +1,1 @@
+-- Example: Calculate running total of sales per product\n   SELECT \n       product_id, \n       sale_date, \n       amount,\n       SUM(amount) OVER (PARTITION BY product_id ORDER BY sale_date) AS running_total\n   FROM \n       sales;

@@ -1,0 +1,1 @@
+CREATE INDEX IX_Appointment_FranchiseId_AppointmentTypeId_ApptDateTime_CustomerId\nON dbo.Appointment (FranchiseId, AppointmentTypeId)\nINCLUDE (CustomerId, ApptDateTime);

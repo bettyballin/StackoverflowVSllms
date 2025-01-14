@@ -1,0 +1,1 @@
+SELECT \n    DATEADD(SECOND, unix_time, CAST('1970-01-01' AS DATETIME)) AT TIME ZONE 'UTC' AT TIME ZONE 'W. Europe Standard Time' AS LocalDateTime\nFROM \n    your_table_name;

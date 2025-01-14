@@ -1,0 +1,1 @@
+MyCC.attachEvent("OnCardInserted", OnCardInserted);\n   MyCC.attachEvent("OnCardRemoved", OnCardRemoved);

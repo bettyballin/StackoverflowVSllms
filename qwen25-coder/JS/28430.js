@@ -1,0 +1,1 @@
+const text = "abcde  email: asdf@gfds.com  email: fake@mail.net  sdfsdaf...";\nconst emailPattern = /email:\s*([\w.-]+@[\w.-]+\.\w+)/g;\n\nlet match, emails = [];\nwhile ((match = emailPattern.exec(text)) !== null) {\n    emails.push(match[1]);\n}\n\nconsole.log(emails); // Output will be ["asdf@gfds.com", "fake@mail.net"]

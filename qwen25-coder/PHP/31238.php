@@ -1,0 +1,1 @@
+<?php\n\nrequire 'vendor/autoload.php';\n\n$myClass = new App\MyClass();

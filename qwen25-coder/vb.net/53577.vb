@@ -1,0 +1,1 @@
+Declare Function Ping Lib "icmpdll.dll" Alias "IcmpCreateFile" () As Long\n    \n    Public Function IsServerReachable(serverName As String) As Boolean\n        Dim hICMP As Long\n        hICMP = Ping()\n        If hICMP Then\n            IsServerReachable = True\n        Else\n            IsServerReachable = False\n        End If\n    End Functio

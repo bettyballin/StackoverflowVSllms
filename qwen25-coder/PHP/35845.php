@@ -1,0 +1,1 @@
+if ($detect->isiOS()){\n      echo "It's an iOS device.";\n   }\n   \n   if($detect->isAndroidOS()){\n     echo "It's an Android device.";\n   }

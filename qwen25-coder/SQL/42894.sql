@@ -1,0 +1,1 @@
+-- Example of how you might adjust your query based on EXPLAIN PLAN results\nEXPLAIN PLAN FOR SELECT * FROM employees WHERE department_id = 50;\nSELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);

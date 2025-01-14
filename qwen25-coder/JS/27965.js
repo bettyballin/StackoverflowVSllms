@@ -1,0 +1,1 @@
+let intervalId = window.setInterval(checkUpdates, 5 * 1000);\n\nfunction checkUpdates() {\n    // Your existing function code\n\n    if (/* some condition when you want to stop checking updates */) {\n        clearInterval(intervalId);\n    }\n}

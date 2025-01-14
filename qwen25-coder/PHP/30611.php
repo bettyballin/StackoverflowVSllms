@@ -1,0 +1,1 @@
+header('Content-Type: text/html; charset=utf-8');\nini_set('default_charset', 'UTF-8');

@@ -1,0 +1,1 @@
+<?php\n// Enable error reporting for debugging\nini_set('display_errors', 1);\nerror_reporting(E_ALL);\n\necho 'START START START';\n\n// Your rest of the code here...\n?>

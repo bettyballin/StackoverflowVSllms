@@ -1,0 +1,1 @@
+import requests\n\ndef get_public_ip():\n    response = requests.get('https://api.ipify.org')\n    return response.text\n\nprint("Your public IP is:", get_public_ip())

@@ -1,0 +1,1 @@
+ISNULL([YourColumnName]) ? "" : [YourColumnName] == (expression for comparison)

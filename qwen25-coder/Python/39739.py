@@ -1,0 +1,1 @@
+import pandas as pd\n\n# Sample DataFrame creation\ndata = {'Category': ['foo', 'bar', 'foo', 'bar', 'foo', 'bar'],\n        'Values': [10, 20, 30, 40, 50, 60]}\ndf = pd.DataFrame(data)\n\n# Efficient Group By operation\ngrouped = df.groupby('Category').sum()\n\nprint(grouped)

@@ -1,0 +1,1 @@
+# Using pybricks to make the EV3 brick beep\n  from pybricks.hubs import EV3Brick\n  ev3 = EV3Brick()\n  ev3.speaker.beep(1000, 200)  # Frequency in Hz and duration in ms.

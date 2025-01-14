@@ -1,0 +1,1 @@
+<id name="Id" type="int">\n     <column name="ID"/>\n     <generator class="YourNamespace.SequenceIdGenerator, YourAssemblyName"\n                param-sequence-name="Group"/>\n   </id>

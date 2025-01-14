@@ -1,0 +1,1 @@
+SELECT p.project_id, e.employee_id\n   FROM projects p\n   JOIN availability e ON NOT (p.end_date < e.start_date OR p.start_date > e.end_date);

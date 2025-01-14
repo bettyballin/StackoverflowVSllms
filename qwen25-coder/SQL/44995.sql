@@ -1,0 +1,1 @@
+WITH RankedRows AS (\n    SELECT id, name, ROW_NUMBER() OVER (ORDER BY name) as rn\n    FROM your_table\n)\nSELECT *\nFROM RankedRows\nWHERE rn BETWEEN (\n    SELECT rn - 2 -- to get two rows before the target row\n    FROM RankedRows\n    WHERE id = 47\n) AND (\n    SELECT rn + 2 -- to get two rows after the target row\n    FROM RankedRows\n    WHERE id = 47\n);

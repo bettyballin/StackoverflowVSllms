@@ -1,0 +1,1 @@
+function insertFieldEntry() {\n    $this->data['Attribute']['type'] = $this->params['form']['type'];\n    $this->data['Attribute']['sequence_no'] = $this->params['form']['sequence_no'];\n    // Ensure other required data is set if necessary\n    $this->Form->saveFieldEntries($this->data);\n}

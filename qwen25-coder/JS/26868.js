@@ -1,0 +1,1 @@
+axios.get('your-url')\n    .then(function (response) {\n      // handle success\n    })\n    .catch(function (error) {\n      // handle error\n    });

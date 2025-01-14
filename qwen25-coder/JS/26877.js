@@ -1,0 +1,1 @@
+window.addEventListener('message', function(event) {\n    // Assuming you trust the source of the iframe!\n    if (event.origin !== "http://expected-origin.com") {\n        return;\n    }\n\n    var dataFromIframe = event.data;\n    console.log(dataFromIframe);\n    \n    // You can now use `dataFromIframe` in your parent window\n}, false);

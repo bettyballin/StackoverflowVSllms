@@ -1,0 +1,1 @@
+SELECT DISTINCT id \nFROM identity i\nWHERE EXISTS (\n    SELECT 1 \n    FROM task t\n    WHERE t.identityid = i.id\n      AND t.groupid IN (78, 122, 345, 12, 234, 778, 233, 123, 33)\n);

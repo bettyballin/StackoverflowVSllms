@@ -1,0 +1,1 @@
+$content = @file_get_contents("http://*******.org/ti.php?i=".$i."&s=".$s);\n   if (substr($content, 0, 3) == pack('CCC', 239, 187, 191)) {\n       // It's a UTF-8 BOM so we strip it\n       $content = substr($content, 3);\n   }\n   echo $content;

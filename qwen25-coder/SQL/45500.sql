@@ -1,0 +1,1 @@
+SELECT g.GroupId, g.GroupName -- replace GroupName with the actual column name\nFROM Group g\nLEFT JOIN People p ON g.GroupId = p.GroupId\nWHERE p.GroupId IS NULL;

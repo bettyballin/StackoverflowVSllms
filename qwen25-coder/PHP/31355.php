@@ -1,0 +1,1 @@
+$pattern = '/(\p{L}+)(?:#\$)(\p{L}+)(?:#\$)(\p{L]+)/u';\n$string = 'word1#$word2#$word3';\n\nif (preg_match($pattern, $string, $matches)) {\n    echo "First word: " . $matches[1] . "\n";\n    echo "Second word: " . $matches[2] . "\n";\n    echo "Third word: " . $matches[3] . "\n";\n}

@@ -1,0 +1,1 @@
+SELECT a.*, b.*\nFROM table a\nINNER JOIN table b ON a.id = b.id;

@@ -1,0 +1,1 @@
+SELECT TableName, MAX(LastAccessed) AS LastUsed\n   FROM AccessLog\n   GROUP BY TableName\n   HAVING MAX(LastAccessed) < DATEADD(month, -6, GETDATE())

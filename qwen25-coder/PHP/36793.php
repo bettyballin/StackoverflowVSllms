@@ -1,0 +1,1 @@
+$data = http_build_query(array('foo' => 'bar', 'ninja' => 'pirate'));\n   $ch = curl_init();\n   curl_setopt($ch, CURLOPT_URL, "http://example.com/api");\n   curl_setopt($ch, CURLOPT_POST, 1);\n   curl_setopt($ch, CURLOPT_POSTFIELDS, $data); // Pass the encoded string\n   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n   $response = curl_exec($ch);\n   curl_close($ch);

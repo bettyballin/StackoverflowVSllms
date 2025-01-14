@@ -1,0 +1,1 @@
+// Example PHP code snippet for displaying posts\n   foreach ($posts as $post) {\n       $displayName = (existsUser($post['user_id'])) ? getUsernameById($post['user_id']) : "Deleted User";\n       echo "Post by: " . htmlspecialchars($displayName);\n   }

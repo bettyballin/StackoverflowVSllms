@@ -1,0 +1,1 @@
+CREATE VIEW CommonColumnView AS\nSELECT columnA, columnB, columnC\nFROM Data\n\nUNION ALL\n\nSELECT columnA, columnB, columnC\nFROM DataArchive;

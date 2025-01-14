@@ -1,0 +1,1 @@
+const express = require('express');\nconst router = express.Router();\n\n// Define site admin-specific routes here\nrouter.get('/', (req, res) => {\n    res.send('Site Admin Home Page');\n});\n\nrouter.put('/settings', (req, res) => {\n    res.send('Update Site Settings');\n});\n\nmodule.exports = router;

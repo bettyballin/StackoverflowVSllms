@@ -1,0 +1,1 @@
+SELECT \n    Month(eventDate) AS EventMonth,\n    SUM(IIf(lunch = True, 1, 0)) AS LunchCount,\n    SUM(IIf(snacks = True, 1, 0)) AS SnacksCount,\n    SUM(IIf(Tea = True, 1, 0)) AS TeaCount\nFROM \n    YourTableName\nWHERE \n    Month(eventDate) = [EnterMonth] AND Year(eventDate) = [EnterYear]\nGROUP BY \n    Month(eventDate);

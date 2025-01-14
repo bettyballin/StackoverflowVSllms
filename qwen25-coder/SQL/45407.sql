@@ -1,0 +1,1 @@
+CREATE INDEX IX_Vehicle_Radio ONVehicle(RadioID);\nCREATE INDEX IX_Vehicle_Cupholder ON Vehicle(CupholderID);\nCREATE INDEX IX_Vehicle_TyreType ON Vehicle(TyreTypeID);

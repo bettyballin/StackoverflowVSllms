@@ -1,0 +1,1 @@
+-- For a numeric column\ninsert into blah (blah1) values (-1)\n\n-- For a string column\ninsert into blah (blah2) values ('')\n\n-- For a datetime column\ninsert into blah (blah3) values ('1753-01-01')

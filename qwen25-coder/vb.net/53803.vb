@@ -1,0 +1,1 @@
+Public MustInherit Class DBFileManager(Of F As IDBFile, FC As IDBFileContent, FT As IDBFileThumb)

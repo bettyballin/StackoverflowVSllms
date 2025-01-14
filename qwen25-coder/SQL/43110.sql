@@ -1,0 +1,1 @@
+SELECT FLOOR(your_column_name) AS IntegerPart\nFROM your_table_name;

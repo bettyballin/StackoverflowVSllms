@@ -1,0 +1,1 @@
+DECLARE @edition NVARCHAR(256);\nSET @edition = CONVERT(NVARCHAR, SERVERPROPERTY('Edition'));\n\nIF CHARINDEX('Express', @edition) > 0\n    PRINT 'This is SQL Server Express';\nELSE \n    PRINT 'This is NOT SQL Server Express';

@@ -1,0 +1,1 @@
+If ( condition1 AND condition2 AND condition3 )

@@ -1,0 +1,1 @@
+-- Standard SQL query to select employee names from an employees table\nSELECT employee_name FROM employees;\n\n-- Using standard SQL CASE statement for conditional logic\nSELECT \n    employee_name, \n    CASE \n        WHEN department = 'Sales' THEN 'Marketing Department'\n        ELSE department \n    END AS department_adjusted\nFROM \n    employees;

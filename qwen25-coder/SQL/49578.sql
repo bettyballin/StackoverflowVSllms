@@ -1,0 +1,1 @@
+SELECT Table1.ColumnA, Table1.ColumnB, Table2.ColumnX\nFROM Table1\nINNER JOIN Table2 ON Table1.CommonField = Table2.CommonField;

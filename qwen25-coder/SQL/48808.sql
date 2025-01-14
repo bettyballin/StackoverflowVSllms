@@ -1,0 +1,1 @@
+CREATE DATABASE LargeTableDB;\n   GO

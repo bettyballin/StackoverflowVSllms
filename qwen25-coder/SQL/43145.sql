@@ -1,0 +1,1 @@
+UPDATE Keyword\nSET IsBlacklisted = CASE \n    WHEN EXISTS (\n        SELECT 1 FROM BlackList\n        WHERE Keyword.Keyword LIKE CONCAT('%', BlackList.Keyword, '%')\n    ) THEN 1\n    ELSE 0\nEND;

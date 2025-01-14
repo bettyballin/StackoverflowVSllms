@@ -1,0 +1,1 @@
+os.read(some_socket.fileno(), 1024)

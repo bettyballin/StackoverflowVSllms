@@ -1,0 +1,1 @@
+<?php \n    echo "Welcome " . h($authUser['username']); \n?>

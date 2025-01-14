@@ -1,0 +1,1 @@
+CREATE TABLE TableA (\n    col1 INT,\n    col2 VARCHAR(50),\n    col3 DATE,\n    PRIMARY KEY (col1, col2, col3)\n);\n\nCREATE TABLE TableB (\n    id INT PRIMARY KEY,\n    col1_ref INT,\n    col2_ref VARCHAR(50),\n    col3_ref DATE,\n    FOREIGN KEY (col1_ref, col2_ref, col3_ref) REFERENCES TableA(col1, col2, col3)\n);

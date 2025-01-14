@@ -1,0 +1,1 @@
+// Read the raw request data\n$rawData = file_get_contents('php://input');\n\n// Output the raw request data\necho $rawData;

@@ -1,0 +1,1 @@
+# In routes.rb\nresources :users do\n  collection do\n    get 'find_by_credentials'\n    get 'find_by_email'\n  end\nend\n\n# Controller actions:\ndef find_by_credentials\n  @user = User.find_by(username: params[:username], password: params[:password])\nend\n\ndef find_by_email\n  @user = User.find_by(email: params[:email])\nend

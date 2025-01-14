@@ -1,0 +1,1 @@
+$text = 'test1:[[link]] test2:[[gold|silver]] test3:[[out1[[inside]]out2]] test4:this|not';\n\n// Step 1: Handle the option split, choose the latter option if | exists\n$text = preg_replace("/\\[\\[(.*?)(?:\\|(.*?))?\\]\\]/", '$2', $text);\n\n// Step 2: Remove any remaining [[ and ]] brackets\n$text = str_replace(['[[', ']]'], '', $text);\n\necho $text;

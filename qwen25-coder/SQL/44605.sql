@@ -1,0 +1,1 @@
+INSERT INTO customreports (study, type, mode, `select`, description)\nVALUES ('1', '2', '3', '4', '5');

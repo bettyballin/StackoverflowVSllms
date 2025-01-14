@@ -1,0 +1,1 @@
+CREATE TABLE StandardTable (\n    Col1 INT,\n    Col2 NVARCHAR(100),\n    -- Define up to 1023 more columns here\n    Col1024 BIT\n);

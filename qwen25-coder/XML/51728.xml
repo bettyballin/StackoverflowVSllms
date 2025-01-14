@@ -1,0 +1,1 @@
+<rule name="Remove extra slashes">\n  <match url="(.*)//(.*)" />\n  <action type="Redirect" url="{R:1}/{R:2}" redirectType="Permanent" />\n</rule>

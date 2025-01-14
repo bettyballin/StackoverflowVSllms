@@ -1,0 +1,1 @@
+document.getElementById('uniqueElement1').style.color = 'red';\ndocument.getElementById('uniqueElement2').innerHTML = 'Content changed!';

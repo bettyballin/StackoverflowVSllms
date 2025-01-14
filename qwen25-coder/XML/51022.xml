@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <rewrite>\n      <rules>\n        <rule name="RedirectToDefault" stopProcessing="true">\n          <match url=".*" />\n          <action type="Rewrite" url="/Default.aspx" />\n        </rule>\n      </rules>\n    </rewrite>\n  </system.webServer>\n</configuration>

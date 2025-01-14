@@ -1,0 +1,1 @@
+<property name="show_sql">true</property>\n   <property name="logFormatter">NHibernate.LogFormatter</property>\n   <property name="hbm2ddl.auto">update</property>

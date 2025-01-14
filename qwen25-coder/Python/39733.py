@@ -1,0 +1,1 @@
+# Example of RBAC role checking in Python\n   class Role:\n       def __init__(self, name, permissions):\n           self.name = name\n           self.permissions = permissions\n\n   user_role = Role('editor', ['read', 'write'])\n   if 'write' in user_role.permissions:\n       print("User can write to the resource.")

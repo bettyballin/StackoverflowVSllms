@@ -1,0 +1,1 @@
+SELECT DISTINCT field1, field2\nFROM your_table_name;

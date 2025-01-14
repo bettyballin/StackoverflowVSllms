@@ -1,0 +1,1 @@
+WITH LocalCalculation AS (\n    SELECT column1 * column2 AS calculatedValue\n    FROM yourTable\n)\nSELECT calculatedValue\nFROM LocalCalculation;

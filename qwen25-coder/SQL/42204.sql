@@ -1,0 +1,1 @@
+UPDATE YourTable\nSET field1 = COALESCE(field1, '') + ' - ' + COALESCE(field2, '')\nWHERE field1 = 'somevalue';

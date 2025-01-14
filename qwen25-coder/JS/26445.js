@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", function() {\n    setTimeout(function() {\n        var input = document.getElementById('yourInputId');\n        if (input) {\n            input.focus();\n        }\n    }, 500); // Delay in milliseconds before focusing the input\n});

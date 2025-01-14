@@ -1,0 +1,1 @@
+<?php\necho "<script>\n    if (typeof loadxml === 'function') {\n        loadxml();\n    } else {\n        console.error('loadxml function is not defined');\n    }\n</script>";\n?>

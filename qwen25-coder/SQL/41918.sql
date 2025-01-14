@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT country) AS unique_country_count FROM table;

@@ -1,0 +1,1 @@
+<?php\n// At the very top of each PHP file that uses sessions, include:\nsession_start();\n\n// Now you can access or modify your session variables\necho $_SESSION['user_id'];\n?>

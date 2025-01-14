@@ -1,0 +1,1 @@
+import pkgutil\n\ndef package_contents(package_name):\n    return [name for _, name, _ in pkgutil.iter_modules([package_name])]\n\n# Example usage\nprint(package_contents('testpkg'))

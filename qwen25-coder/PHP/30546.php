@@ -1,0 +1,1 @@
+<?php\n// bar.php\necho $x; // should echo 42\n?>

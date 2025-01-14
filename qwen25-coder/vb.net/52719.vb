@@ -1,0 +1,1 @@
+Public Class MyClass\n    ' Implementation here\nEnd Class

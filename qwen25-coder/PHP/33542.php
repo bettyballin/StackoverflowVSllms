@@ -1,0 +1,1 @@
+$dom = new DOMDocument();\n@$dom->loadHTML($blog_post); // Use @ to suppress warnings from malformed HTML\n$paragraphs = $dom->getElementsByTagName('p');\n\nif ($paragraphs->length > 0) {\n    echo "<p>" . htmlspecialchars(trim($paragraphs->item(0)->nodeValue)) . "</p>";\n} else {\n    echo $blog_post;\n}

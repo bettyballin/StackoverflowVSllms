@@ -1,0 +1,1 @@
+SELECT tabname AS table_name,\n       idxname AS index_name\nFROM sysindexes\nWHERE partnum = 0\nORDER BY table_name;

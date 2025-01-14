@@ -1,0 +1,1 @@
+SELECT \n    t1.session_id,\n    t2.transaction_id,\n    t2.name AS transaction_name,\n    t2.transaction_begin_time\nFROM \n    sys.dm_tran_session_transactions AS t1\nJOIN \n    sys.dm_tran_active_transactions AS t2 ON t1.transaction_id = t2.transaction_id\nWHERE \n    t1.is_local = 1;

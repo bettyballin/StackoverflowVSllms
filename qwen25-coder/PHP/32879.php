@@ -1,0 +1,1 @@
+class Base {\n    public static function create() {\n        return new static(); // Late static binding here\n    }\n}\n\nclass Derived extends Base {}\n\n$obj = Derived::create();\necho get_class($obj); // Outputs: Derived

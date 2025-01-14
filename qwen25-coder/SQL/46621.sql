@@ -1,0 +1,1 @@
+CREATE TYPE dbo.MyTableType AS TABLE (\n    ID INT PRIMARY KEY,\n    Name NVARCHAR(50)\n);\nGO

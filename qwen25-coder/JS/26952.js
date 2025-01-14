@@ -1,0 +1,1 @@
+window.onload = function() {\n    setTimeout(function() {\n        // Your code to add HTML elements asynchronously goes here\n        var newElement = document.createElement('div');\n        newElement.innerHTML = 'Your content here';\n        document.body.appendChild(newElement);\n    }, 0);\n};

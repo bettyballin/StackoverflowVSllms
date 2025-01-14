@@ -1,0 +1,1 @@
+<?php\n\nuse App\Controllers\MuseumController;\n\n$router->get('/{lang}/museum/gallery/{exhibition}', [MuseumController::class, 'gallery']);

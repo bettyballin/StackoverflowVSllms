@@ -1,0 +1,1 @@
+DECLARE @TargetOrder INT = 100; -- Set this to the order value you want\n\nSELECT *\nFROM SCHOOL_DATA\nWHERE ORDER = @TargetOrder;

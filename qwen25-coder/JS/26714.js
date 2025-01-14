@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('.number-input').on('input', function(event) {\n        // Allow digits, decimal point, backspace, delete, arrow keys, and control keys (like cmd/ctrl for copy/paste)\n        if (!/^-?\d*(\.\d*)?$/.test(this.value)) {\n            this.value = this.value.slice(0, -1);\n        }\n    });\n});

@@ -1,0 +1,1 @@
+function hideElementWithoutCollapsing(elementId) {\n    const element = document.getElementById(elementId);\n    if (element) {\n        element.style.visibility = 'hidden';\n    }\n}\n\n// Usage\nhideElementWithoutCollapsing('inputField');

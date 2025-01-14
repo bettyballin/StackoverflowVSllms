@@ -1,0 +1,1 @@
+$myvar =& usethisfunction();\n     usethisfunction() = 'changed';\n     echo $myvar; // Outputs: changed

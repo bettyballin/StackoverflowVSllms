@@ -1,0 +1,1 @@
+CREATE TABLE forms (\n      id SERIAL PRIMARY KEY,\n      name VARCHAR(255),\n      structure JSONB,\n      submissions JSONB[] DEFAULT ARRAY[]\n  );

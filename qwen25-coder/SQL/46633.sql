@@ -1,0 +1,1 @@
+CREATE INDEX IX_YourTable_YourColumn\nON YourDatabaseSchema.YourTable (YourColumn)\nWITH (FILLFACTOR = 80);

@@ -1,0 +1,1 @@
+models = ApplicationRecord.descendants\nmodels.each do |model|\n  puts model.name\nend

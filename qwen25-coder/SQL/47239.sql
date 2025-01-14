@@ -1,0 +1,1 @@
+SELECT * FROM your_table WHERE some_condition FETCH FIRST 10 ROWS ONLY;

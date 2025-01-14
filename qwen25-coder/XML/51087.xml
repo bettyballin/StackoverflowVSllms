@@ -1,0 +1,1 @@
+<bean id="dataSource" class="oracle.jdbc.pool.OracleDataSource">\n    <property name="URL" value="jdbc:oracle:thin:@hostname:port:SID"/>\n    <property name="user" value="yourUsername"/>\n    <property name="password" value="yourPassword"/>\n</bean>

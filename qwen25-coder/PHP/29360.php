@@ -1,0 +1,1 @@
+<?php\n\n$newPasswd = $inputPasswd; // This will be the raw password input\n\n// Hash the password\n$hashedPassword = password_hash($newPasswd, PASSWORD_BCRYPT);\n\n// Write the hashed password to your .htpasswd file securely\nfile_put_contents($passwd_file, "$username:$hashedPassword\n", FILE_APPEND | LOCK_EX);\n\n?>

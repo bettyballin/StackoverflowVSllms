@@ -1,0 +1,1 @@
+SELECT CAST(REPLACE(\n    (SELECT 'http://foosite.com/' + RTRIM(li.imageStore)\n            + '/ImageStore.dll?id=' + RTRIM(li.imageID)\n            + '&raw=1&rev=' + RTRIM(li.imageVersion) AS imageUrl\n     FROM ListingImages li\n     FOR XML PATH ('image'), ROOT ('images'), TYPE).value('.', 'varchar(max)'),\n    '&amp;', '&') AS xml) AS finalXml

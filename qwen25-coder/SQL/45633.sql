@@ -1,0 +1,1 @@
+EXEC sp_addlinkedserver \n    @server = N'LINKEDSERVERNAME', \n    @srvproduct=N' ', \n    @provider=N'SQLNCLI', \n    @datasrc=N'OTHER_SERVER_NAME';

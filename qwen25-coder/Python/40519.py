@@ -1,0 +1,1 @@
+import uuid\n\ndef generate_uuid():\n    return str(uuid.uuid4())\n\n# Example usage\nunique_id = generate_uuid()\nprint("Generated UUID:", unique_id)

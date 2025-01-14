@@ -1,0 +1,1 @@
+import time\nimport sys\n\nfor i in range(10):\n    # Overwrite the current line with the new content\n    sys.stdout.write(f"\rProcessing {i+1}")\n    sys.stdout.flush()\n    time.sleep(1)\n\n# Move to the next line after completion\nprint("\nDone!")

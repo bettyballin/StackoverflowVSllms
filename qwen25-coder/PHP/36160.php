@@ -1,0 +1,1 @@
+try {\n    if (!$this->connection[0]->query($this->query)) {\n        throw new Exception("Database Error: " . $this->connection[0]->error);\n    }\n} catch (Exception $e) {\n    error_log("Error Message: " . $e->getMessage());\n    // Optionally, you can return a user-friendly message or redirect\n    exit; // Terminate the script execution after logging the error\n}

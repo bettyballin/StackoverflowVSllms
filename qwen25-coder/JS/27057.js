@@ -1,0 +1,1 @@
+// cheerio is a fast, flexible, and lean implementation of core jQuery designed specifically for the server.\nconst cheerio = require('cheerio');\n\nconst $ = cheerio.load('<html><body><div>Hello World</div></body></html>');\nconst result = $('div').text();\nconsole.log(result); // Output: Hello World

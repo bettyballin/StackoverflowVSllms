@@ -1,0 +1,1 @@
+query = Entry.objects \\n    .values('name', 'name_slug') \\n    .filter(is_published=True, comment__approved='Y') \\n    .annotate(latest_comment=Max('comment__date_published')) \\n    .order_by('-latest_comment')[:6]\n\n# Print the raw SQL query\nprint(query.query)

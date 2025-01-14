@@ -1,0 +1,1 @@
+DROP INDEX temp_table_idx;

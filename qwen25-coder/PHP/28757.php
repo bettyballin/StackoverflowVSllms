@@ -1,0 +1,1 @@
+function modify(&$var) {\n      $var += 1;\n  }\n  $num = 5;\n  modify($num); // $num is now 6

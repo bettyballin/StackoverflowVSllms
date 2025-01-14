@@ -1,0 +1,1 @@
+import re\n\nhtmlText = '<p data="5" size="4">item1</p><p size="4">item2</p><p size="4">item3</p>'\n# Use findall to capture all matches\nresults = re.findall(r'<p[^>]*size="[0-9]">(.*?)</p>', htmlText)\n\nprint(results)

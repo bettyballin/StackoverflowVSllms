@@ -1,0 +1,1 @@
+CREATE PROCEDURE Add_Account\n       @user VARCHAR(50),\n       @account_name VARCHAR(100)\n   AS\n   BEGIN\n       IF EXISTS (SELECT 1 FROM role_table WHERE user = @user AND role = 'manager')\n       BEGIN\n           -- Add the account logic here\n       END\n       ELSE\n       BEGIN\n           SELECT 'Access Denied' AS Message;\n           RETURN;\n       END\n   END

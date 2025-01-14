@@ -1,0 +1,1 @@
+insert into table1 ([column-name], [Date]) values ('value1', '2023-10-15')

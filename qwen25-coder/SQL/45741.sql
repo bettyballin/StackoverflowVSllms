@@ -1,0 +1,1 @@
+CREATE TABLE SparseTable (\n    ID INT PRIMARY KEY,\n    DenseCol1 NVARCHAR(50),\n    SparseCol1 NVARCHAR(MAX) SPARSE,\n    SparseCol2 NVARCHAR(MAX) SPARSE\n);

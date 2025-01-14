@@ -1,0 +1,1 @@
+DECLARE @GivenDate DATE = '2009-02-19';\n\nSELECT User\nFROM YourTableName\nWHERE Date = (\n    SELECT MAX(Date)\n    FROM YourTableName\n    WHERE Date <= @GivenDate\n);

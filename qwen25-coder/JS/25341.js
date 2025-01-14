@@ -1,0 +1,1 @@
+// Example of an asynchronous AJAX request using jQuery\n$.ajax({\n    url: 'your-url-here',\n    method: 'GET',\n    async: true, // Default is true, but explicitly set to demonstrate\n    success: function(response) {\n        console.log('Success:', response);\n    },\n    error: function(xhr, status, error) {\n        console.error('Error:', error);\n    }\n});

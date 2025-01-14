@@ -1,0 +1,1 @@
+CREATE TABLE message_favorites (\n    message_id INT,\n    user_id INT,\n    PRIMARY KEY (message_id, user_id),\n    FOREIGN KEY (message_id) REFERENCES messages(id),\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);

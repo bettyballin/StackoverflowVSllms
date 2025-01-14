@@ -1,0 +1,1 @@
+define('BASE_PATH', realpath(__DIR__ . '/..'));\n   \n   // Use it in includes\n   include BASE_PATH . '/config/config.php';

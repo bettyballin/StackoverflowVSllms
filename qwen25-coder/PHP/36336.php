@@ -1,0 +1,1 @@
+$var = 5; // Binary: 0101\n$result = $var & 1; // Binary: 0001, Result: 1 (odd)\n\n$var = 4; // Binary: 0100\n$result = $var & 1; // Binary: 0001, Result: 0 (even)

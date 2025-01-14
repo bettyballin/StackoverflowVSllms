@@ -1,0 +1,1 @@
+<xsl:variable name="original">Mixed Case</xsl:variable>\n<xsl:variable name="upper" select="translate($original,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')"/>\n<xsl:variable name="lower" select="translate($original,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')"/>

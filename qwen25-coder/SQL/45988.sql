@@ -1,0 +1,1 @@
+CREATE INDEX idx_table1_id ON table1(id);\nCREATE INDEX idx_tableA_t1id ON tableA(t1id);\nCREATE INDEX idx_tableA_t2id ON tableA(t2id);

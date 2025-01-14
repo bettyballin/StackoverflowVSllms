@@ -1,0 +1,1 @@
+if ($_SERVER["REQUEST_METHOD"] == "POST") {\n    $message .= "Name: " . htmlspecialchars($_POST['fname']) . " " \n              . htmlspecialchars($_POST['mname']) . " " \n              . htmlspecialchars($_POST['lname']) . "\n";\n}

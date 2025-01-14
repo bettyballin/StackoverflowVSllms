@@ -1,0 +1,1 @@
+$headers .= 'From: mail@mailmaster.com' . "\r\n";

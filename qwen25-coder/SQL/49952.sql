@@ -1,0 +1,1 @@
+CREATE TABLE SessionData (\n    SessionID VARCHAR(50) PRIMARY KEY,\n    FirstName NVARCHAR(50),\n    -- Add other necessary fields\n);

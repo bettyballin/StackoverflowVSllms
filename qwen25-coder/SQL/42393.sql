@@ -1,0 +1,1 @@
+SELECT SUM(b134_nettpay) AS Total, b134_rmcid, b134_recdate \nFROM B134HREC \nWHERE b134_recdate < DATE_SUB((SELECT MAX(b134_recdate) FROM B134HREC), INTERVAL 90 DAY)\nGROUP BY b134_rmcid, b134_recdate \nORDER BY b134_recdate DESC, b134_rmcid;

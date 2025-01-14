@@ -1,0 +1,1 @@
+// Using PDO with prepared statement\n$pdo = new PDO('mysql:host=hostname;dbname=database', 'username', 'password');\n$stmt = $pdo->prepare("SELECT * FROM users WHERE username = :username AND password = :password");\n$stmt->execute([':username' => $_POST['username'], ':password' => $_POST['password']]);

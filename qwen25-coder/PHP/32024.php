@@ -1,0 +1,1 @@
+<?php\nfunction getFile($url) {\n    $ch = curl_init();\n    curl_setopt($ch, CURLOPT_URL, $url);\n    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n    $output = curl_exec($ch);\n    curl_close($ch);\n    return $output;\n}\n\n$url = 'http://somewebsite.com';\n$htmlContent = getFile($url);\n\necho htmlspecialchars($htmlContent);\n?>

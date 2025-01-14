@@ -1,0 +1,1 @@
+echo "Pattern: ".$result->module_pregmatch.PHP_EOL;\n$PageContent = preg_replace($result->module_pregmatch, '', $PageContent);

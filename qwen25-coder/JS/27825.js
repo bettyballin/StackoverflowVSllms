@@ -1,0 +1,1 @@
+const now = new Date();\nconsole.log("Local time:", now.toLocaleString());\nconsole.log("UTC time components - Hours:", now.getUTCHours(), "Minutes:", now.getUTCMinutes(), "Seconds:", now.getUTCSeconds());

@@ -1,0 +1,1 @@
+let d = {\n    func: (message) => alert(message)\n};\n\nd.func("Hello World!");  // This works!

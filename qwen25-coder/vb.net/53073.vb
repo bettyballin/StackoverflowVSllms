@@ -1,0 +1,1 @@
+Dim data = New With {\n    .total = totalPages,\n    .page = page,\n    .records = totalRecords,\n    .rows = {\n        New With {.id = 1, .cell = {"1", "-7", "Is this a good question?"}},\n        New With {.id = 2, .cell = {"2", "15", "Is this a blatant ripoff?"}},\n        New With {.id = 3, .cell = {"3", "23", "Why is the sky blue?"}}\n    }\n}

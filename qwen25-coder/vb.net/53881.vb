@@ -1,0 +1,1 @@
+' Presetting capacity can reduce rehashing overhead\nDim largeIndex As New Dictionary(Of String, SomeReferenceType)(expectedNumberOfEntries)

@@ -1,0 +1,1 @@
+-- Disable Mixed authentication if not needed and use only Windows Authentication (more secure)\n  sp_configure 'Mixed Mode', 0;\n  RECONFIGURE WITH OVERRIDE;

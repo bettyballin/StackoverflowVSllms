@@ -1,0 +1,1 @@
+-- Declare a table variable of user-defined type\nDECLARE @MyTable dbo.MyTableType;\n\n-- Insert sample data into the table variable\nINSERT INTO @MyTable (ID, Name) VALUES (1, 'John');\nINSERT INTO @MyTable (ID, Name) VALUES (2, 'Jane');\n\n-- Execute stored procedure with table variable as input\nEXEC GetProcessedData @InputTableVariable = @MyTable;

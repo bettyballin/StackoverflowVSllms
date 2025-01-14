@@ -1,0 +1,1 @@
+CREATE TABLE Revisions (\n      RevisionID INT PRIMARY KEY,\n      -- Other metadata fields like timestamp, author, etc.\n  );

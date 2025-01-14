@@ -1,0 +1,1 @@
+<?php\n$text = "example-tag_name+value#hashtag";\n// Use preg_split with a custom pattern to include -, _, +, # as valid characters in tags\n$tags = preg_split('/[^\w\-_+\#]+/', $text);\n\nprint_r($tags);\n?>

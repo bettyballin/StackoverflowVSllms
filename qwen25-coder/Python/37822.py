@@ -1,0 +1,1 @@
+from sqlalchemy import create_engine, inspect\n   \n   # Example connection string to SQL Server\n   engine = create_engine('mssql+pyodbc://user:password@server/dbname')\n   inspector = inspect(engine)\n   tables = inspector.get_table_names()

@@ -1,0 +1,1 @@
+<?php defined('SYSPATH') OR die('No direct script access.');\n\nclass Helper_Menu {\n\n    public static function is_active($uri)\n    {\n        // Get the current request URI\n        $request_uri = Request::current()->uri();\n\n        // Check if the current URI starts with the menu item's URI\n        return strpos($request_uri, $uri) === 0;\n    }\n}

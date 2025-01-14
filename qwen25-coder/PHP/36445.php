@@ -1,0 +1,1 @@
+// Path to the dompdf library\n   define("DOMPDF_DIR", realpath(APPPATH . '../third_party/dompdf'));\n\n   // Include the main dompdf class file\n   require_once(realpath(DOMPDF_DIR) . '/dompdf/autoload.inc.php');

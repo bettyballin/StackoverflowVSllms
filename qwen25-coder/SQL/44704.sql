@@ -1,0 +1,1 @@
+-- Update statistics for a specific table\nUPDATE STATISTICS MyTable;\n\n-- If you need to update stats for all tables in the database\nEXEC sp_updatestats;

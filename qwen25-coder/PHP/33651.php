@@ -1,0 +1,1 @@
+function remove_myspace_urls($content) {\n    // Regular expression to match myspace.com and all its subpaths\n    $pattern = '/https?:\/\/(?:www\.)?myspace\.com(\/[^\s]*)?/i';\n    $replacement = ''; // Replace with an empty string\n\n    return preg_replace($pattern, $replacement, $content);\n}\n\nadd_filter('the_content', 'remove_myspace_urls');

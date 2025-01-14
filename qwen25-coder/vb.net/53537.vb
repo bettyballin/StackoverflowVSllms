@@ -1,0 +1,1 @@
+Private Sub YourTextBox_KeyDown(sender As Object, e As KeyEventArgs) Handles YourTextBox.KeyDown\n    ' Check if the Tab key is pressed\n    If e.KeyCode = Keys.Tab Then\n        ' Let the default behavior handle this (moving focus)\n        e.Handled = False\n    End If\nEnd Sub

@@ -1,0 +1,1 @@
+<?php\n$cache_info = apc_cache_info();\n\nif ($cache_info['memory_free'] < $your_data_size) {\n    // Cache is almost full, consider clearing or optimizing\n    apc_clear_cache('user');\n}\n\napc_store('your_key', 'your_value');\n?>

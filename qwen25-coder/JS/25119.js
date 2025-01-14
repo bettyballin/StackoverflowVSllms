@@ -1,0 +1,1 @@
+function showLocalVariable() {\n    let myLocalVar = "I am local";\n    console.log(myLocalVar); // Accessible here\n}\n\nshowLocalVariable(); // Outputs: I am local\nconsole.log(myLocalVar); // ReferenceError: myLocalVar is not defined (not accessible outside the function)

@@ -1,0 +1,1 @@
+function getCookie(name) {\n    const value = `; ${document.cookie}`;\n    const parts = value.split(`; ${name}=`);\n    if (parts.length === 2) return parts.pop().split(';').shift();\n}\n\nconst myVariableValue = getCookie('MyVariable');\nconsole.log(myVariableValue);

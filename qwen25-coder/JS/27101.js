@@ -1,0 +1,1 @@
+var url = // some dynamically generated URL\nvar parts = [];\nparts.push("<a href='");\nparts.push(url);\nparts.push("'>click here</a>");\nvar result = parts.join('');

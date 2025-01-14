@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION add_numbers(a INTEGER, b INTEGER)\n  RETURNS INTEGER AS $$\n  BEGIN\n      RETURN a + b;\n  END\n  $$ LANGUAGE plpgsql;

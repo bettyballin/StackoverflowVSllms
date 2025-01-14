@@ -1,0 +1,1 @@
+<?php\n$a1 = array('foo');\n$a2 = $a1; // Reference to same data\n\necho memory_get_usage() . "\n";\n\n$a2[0] = 'bar'; // Array is now copied\n\necho memory_get_usage() . "\n";\n?>

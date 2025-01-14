@@ -1,0 +1,1 @@
+my_list = [1, 2, 3, 4, 5]\nmy_list.remove(3)  # Removes the first occurrence of 3

@@ -1,0 +1,1 @@
+-- Up:\n   ALTER TABLE child_table ADD CONSTRAINT fk_parent FOREIGN KEY (parent_id) REFERENCES parent_table(id);\n\n   -- Down: \n   ALTER TABLE child_table DROP CONSTRAINT fk_parent;  -- This is generally reversible but can be complex depending on DBMS and constraints.

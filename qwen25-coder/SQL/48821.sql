@@ -1,0 +1,1 @@
+SELECT activity_type, COUNT(*) AS count\nFROM Activities A\nJOIN Followers F ON A.user_id = F.follower_id\nWHERE F.user_id = ?\nGROUP BY activity_type;

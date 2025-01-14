@@ -1,0 +1,1 @@
+Public Class Global.MyOtherNamespace.MyClass\n    ' Your class code here\nEnd Class

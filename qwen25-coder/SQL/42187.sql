@@ -1,0 +1,1 @@
+CREATE TABLE pages (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       slug VARCHAR(255) UNIQUE NOT NULL,\n       layout_config TEXT\n   );\n\n   CREATE TABLE modules (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       name VARCHAR(255) NOT NULL,\n       // other module-specific fields\n   );

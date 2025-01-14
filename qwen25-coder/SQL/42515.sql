@@ -1,0 +1,1 @@
+-- Connect as SYSDBA\nCONNECT sys AS SYSDBA;\n\n-- Create a new user/schema\nCREATE USER new_user IDENTIFIED BY password;\nGRANT DBA TO new_user;

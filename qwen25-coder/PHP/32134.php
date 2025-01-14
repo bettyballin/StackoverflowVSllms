@@ -1,0 +1,1 @@
+// Set the default timezone to the server's local time\ndate_default_timezone_set(date_default_timezone_get());\n\n// Write the error with local time and a proper newline at the end\nerror_log('[' . date("F j, Y, g:i a") . '] ' . $msg . PHP_EOL, 3, $phperrorPath);

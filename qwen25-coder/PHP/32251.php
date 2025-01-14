@@ -1,0 +1,1 @@
+<?php\nsession_start();\n// Store data in session variables\n$_SESSION['username'] = 'JohnDoe';\n?>

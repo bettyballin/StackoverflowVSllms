@@ -1,0 +1,1 @@
+Dim myList As New List(Of String) From {"Item1", "Item2", "Item3"}\nDim observableCollection As New ObservableCollection(Of String)(myList)

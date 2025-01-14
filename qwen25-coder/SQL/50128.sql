@@ -1,0 +1,1 @@
+EXEC Dummy @ID = NULL; -- This will raise an error\n-- OR\nEXEC Dummy; -- This will also raise an error if no default value is provided

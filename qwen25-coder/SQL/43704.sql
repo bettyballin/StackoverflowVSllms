@@ -1,0 +1,1 @@
+SELECT STUFF((SELECT '-' + CAST(col1 AS VARCHAR)\n              FROM table1 \n              WHERE cond1 = 1\n              FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), 1, 1, '') AS concatenated_result;

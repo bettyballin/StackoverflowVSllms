@@ -1,0 +1,1 @@
+Private Declare Sub SysFreeString Lib "oleaut32.dll" (ByVal bstr As Long)

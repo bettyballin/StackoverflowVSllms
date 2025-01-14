@@ -1,0 +1,1 @@
+DECLARE @start_time DATETIME\n\nSET @start_time = GETUTCDATE()\n\n-- Your query here\nSELECT * FROM @search_temp_table\n\nSELECT RTRIM(CAST(DATEDIFF(MS, @start_time, GETUTCDATE()) AS CHAR(10))) AS 'TimeTaken'

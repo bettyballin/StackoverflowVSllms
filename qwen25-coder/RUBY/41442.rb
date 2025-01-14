@@ -1,0 +1,1 @@
+<%= form_with(url: some_path) do |f| %>\n  <!-- Your form fields here -->\n<% end %>

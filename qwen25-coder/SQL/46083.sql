@@ -1,0 +1,1 @@
+SELECT Column1, Column2 -- List your actual columns here\nFROM (\n    SELECT *, 1 AS TableSource FROM TABLE1 WHERE <SomeCondition>\n    UNION ALL\n    SELECT *, 2 AS TableSource FROM TABLE2 WHERE NOT <SomeCondition>\n) AS DerivedTable\nUNION ALL\nSELECT Column1, Column2 -- Repeat the same column list here\nFROM TABLE3;

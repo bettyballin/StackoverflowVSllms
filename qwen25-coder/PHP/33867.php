@@ -1,0 +1,1 @@
+$plaintext = " Routing and Account Number here ";\n   $key = openssl_random_pseudo_bytes(32); // A key for AES-256-CBC must be 32 bytes long\n   $iv_length = openssl_cipher_iv_length('aes-256-cbc');\n   $civ = openssl_random_pseudo_bytes($iv_length);\n   $cipher_text = openssl_encrypt($plaintext, 'aes-256-cbc', $key, OPENSSL_RAW_DATA|OPENSSL_ZERO_PADDING,$civ);

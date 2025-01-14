@@ -1,0 +1,1 @@
+SELECT * \nFROM crosstab(\n    'SELECT EXTRACT(WEEK FROM eDate) AS Week,\n             category,\n             COUNT(*) AS errorCount\n      FROM errors\n      GROUP BY EXTRACT(YEAR FROM eDate), Week, category\n      ORDER BY 1,2'\n)\nAS (\n    "Week" integer,\n    "Category1" integer,\n    "Category2" integer\n);

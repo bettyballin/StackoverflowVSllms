@@ -1,0 +1,1 @@
+DECLARE\n  v_max_value NUMBER;\nBEGIN\n  SELECT NVL(MAX(trans_seq_no), 0) + 1 INTO v_max_value FROM TRANSACTION_LOG;\n  \n  EXECUTE IMMEDIATE 'CREATE SEQUENCE transaction_sequence \n                     MINVALUE 0 \n                     START WITH ' || v_max_value || '\n                     INCREMENT BY 1 \n                     CACHE 20';\nEND;\n/

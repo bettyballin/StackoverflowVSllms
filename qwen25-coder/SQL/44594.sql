@@ -1,0 +1,1 @@
+EXEC sp_dbcmptlevel 'your_database_name';

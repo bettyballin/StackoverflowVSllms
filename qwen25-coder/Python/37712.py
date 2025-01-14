@@ -1,0 +1,1 @@
+import idlelib.idle\nmodule_name = '<module_name>'\nfile_path = __import__(module_name).__file__\n\n# Importing IDLE's RunScript to open a file in the editor\nfrom idlelib.idle import EditWindow, EditorWindow\n\n# Opening the file in IDLE\nEditorWindow.edit(file_path)

@@ -1,0 +1,1 @@
+// Define the base directory (put this in a root file like index.php)\ndefine('BASE_PATH', __DIR__);\n\n// Usage in admin/index.php\ninclude(BASE_PATH . '/path/to/include/file.php');

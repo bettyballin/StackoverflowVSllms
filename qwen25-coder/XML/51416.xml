@@ -1,0 +1,1 @@
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">\n    <Optimize>true</Optimize>\n    <DebugSymbols>true</DebugSymbols>\n    <DebugType>PdbOnly</DebugType>\n    <DefineConstants>TRACE</DefineConstants>\n    <ErrorReport>prompt</ErrorReport>\n    <WarningLevel>4</WarningLevel>\n</PropertyGroup>

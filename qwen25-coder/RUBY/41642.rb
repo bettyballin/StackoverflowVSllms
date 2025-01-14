@@ -1,0 +1,1 @@
+class User < ApplicationRecord\n  enum status: { invited: 0, registered: 1 }\nend

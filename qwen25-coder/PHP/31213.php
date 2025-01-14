@@ -1,0 +1,1 @@
+$firstDayOfMonth = date('Y-m-01');\n   $lastDayOfMonth = date('Y-m-t');\n   \n   $x->set_range(\n       strtotime($firstDayOfMonth),\n       strtotime($lastDayOfMonth)\n   );

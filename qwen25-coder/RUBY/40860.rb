@@ -1,0 +1,1 @@
+def new\n     logger.debug("Rendering new view")\n     # rest of action...\n   end

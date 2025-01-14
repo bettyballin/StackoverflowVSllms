@@ -1,0 +1,1 @@
+// Example monetary values in string format to avoid float conversion issues\n$value1 = "10.50";\n$value2 = "3.25";\n\n// Addition with scale of 2 decimal places\n$total = bcadd($value1, $value2, 2);\n\necho "Total: $" . $total; // Outputs: Total: $13.75

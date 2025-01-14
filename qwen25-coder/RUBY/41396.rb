@@ -1,0 +1,1 @@
+class EventsChannel < ApplicationCable::Channel\n  def subscribed\n    # Stream specific events to this channel\n    stream_from "events_channel"\n  end\n\n  def unsubscribed\n    stop_all_streams\n  end\nend

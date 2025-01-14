@@ -1,0 +1,1 @@
+require 'socket'\n\n   # Simple example of connecting to an IRC server\n   irc_server = "irc.example.com"\n   port = 6667\n\n   socket = TCPSocket.open(irc_server, port)

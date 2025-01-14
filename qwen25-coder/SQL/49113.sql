@@ -1,0 +1,1 @@
+SELECT s.sid, \n       s.serial#, \n       s.username, \n       s.status, \n       s.machine, \n       s.program, \n       sql.sql_text,\n       p.spid AS os_pid,\n       s.logon_time\nFROM v$session s\nJOIN v$sqlarea sql ON s.sql_id = sql.sql_id\nJOIN v$process p ON s.paddr = p.addr\nWHERE status != 'IDLE'\nAND username IS NOT NULL;

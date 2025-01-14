@@ -1,0 +1,1 @@
+CREATE TABLE [dbo].[ApplicationLicense](\n       [ExpirationDate] DATETIME NOT NULL\n   );\n   \n   INSERT INTO [dbo].[ApplicationLicense] ([ExpirationDate])\n   VALUES ('2023-12-31'); -- Example expiration date

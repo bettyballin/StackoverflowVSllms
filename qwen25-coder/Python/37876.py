@@ -1,0 +1,1 @@
+from django.db import models\nfrom mptt.models import MPTTModel, TreeForeignKey\n\nclass Category(MPTTModel):\n    name = models.CharField(max_length=50)\n    parent = TreeForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='children')\n\n    class MPTTMeta:\n        order_insertion_by = ['name']\n\n    def __str__(self):\n        return self.name

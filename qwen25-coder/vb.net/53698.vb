@@ -1,0 +1,1 @@
+Dim roundedInvValue As Decimal = Math.Round(nInvValue, 2)\nDim roundedCreditValue As Decimal = Math.Round(nCreditValue, 2)

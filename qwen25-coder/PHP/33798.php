@@ -1,0 +1,1 @@
+<?php\n// Read the file's contents into a string\n$htmlContent = file_get_contents('yourfile.html');\n\n// Use preg_replace to modify all <a href=" entries\n$modifiedHtmlContent = preg_replace('/<a\s+href="([^"]*)"/i', '<a href="site.php?url=$1"', $htmlContent);\n\n// Output the modified HTML content\necho $modifiedHtmlContent;\n?>

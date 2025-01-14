@@ -1,0 +1,1 @@
+ALTER TABLE `escolaterrafir`.`t23_aluno` DROP FOREIGN KEY `FK_t23_aluno_8`;\nALTER TABLE `escolaterrafir`.`t23_aluno`\nADD CONSTRAINT `FK_t23_aluno_8` \nFOREIGN KEY (`a21_saida_id`) \nREFERENCES `escolaterrafir`.`t21_turma`(`A21_ID`);

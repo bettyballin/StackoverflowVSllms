@@ -1,0 +1,1 @@
+CREATE TABLE syns (\n    synsetid BIGINT PRIMARY KEY,\n    word VARCHAR(255),\n    lexicat VARCHAR(32)\n);\n\nCREATE TABLE words (\n    wid INT PRIMARY KEY AUTO_INCREMENT,\n    word VARCHAR(255),\n    lexicat VARCHAR(16),\n    defid INT\n);

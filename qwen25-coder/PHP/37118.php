@@ -1,0 +1,1 @@
+$xpath = new DOMXPath($dom);\n$nodes = $xpath->query('//element');\nforeach ($nodes as $node) {\n    echo $node->nodeValue;\n}

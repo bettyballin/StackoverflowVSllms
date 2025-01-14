@@ -1,0 +1,1 @@
+function crypto_rand_secure_bytes($length) {\n    if (!function_exists('random_bytes')) {\n        throw new Exception('Your system does not support the random_bytes() function.');\n    }\n    return random_bytes($length);\n}

@@ -1,0 +1,1 @@
+// Example of input validation in a CodeIgniter controller method\npublic function getUserData() {\n    $this->request->validate([\n        'id' => 'required|integer'\n    ]);\n\n    // Proceed with fetching user data...\n}

@@ -1,0 +1,1 @@
+$('ul > li > a').each(function() {\n    // Your code here\n});

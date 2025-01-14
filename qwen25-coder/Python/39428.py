@@ -1,0 +1,1 @@
+from M2Crypto import RSA\n\nkey = RSA.gen_key(2048, 65537)  # Generate RSA key pair\nmessage = b'Encrypt this message'\n\n# Manually pad the message\npadded_message = key.public_encrypt(message, RSA.pkcs1_padding)\n\n# To decrypt:\ndecrypted_message = key.private_decrypt(padded_message, RSA.pkcs1_padding)\nprint(decrypted_message.decode('utf-8'))

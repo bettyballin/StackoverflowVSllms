@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>de.schlichtherle.truezip</groupId>\n    <artifactId>truezip-file</artifactId>\n    <version>7.9.10</version>\n</dependency>

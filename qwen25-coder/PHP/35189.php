@@ -1,0 +1,1 @@
+class Model extends BaseModel\n{\n    public function save($conn = null)\n    {\n        if (!$this->getId())\n        {\n            // do stuff\n        }\n        return parent::save($conn);\n    }\n}

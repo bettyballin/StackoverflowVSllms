@@ -1,0 +1,1 @@
+# Podfile entry for CocoaPods\npod 'MailCore', '~> 3.0'

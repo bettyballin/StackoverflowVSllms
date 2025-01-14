@@ -1,0 +1,1 @@
+DECLARE @string NVARCHAR(50) = 'Hello John Smith';\nDECLARE @index INT = 2; -- Index is 1-based for "John"\n\nWITH SplitString AS (\n    SELECT value, ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS RowNum\n    FROM STRING_SPLIT(@string, ' ')\n)\nSELECT value AS ItemAtIndex\nFROM SplitString\nWHERE RowNum = @index;

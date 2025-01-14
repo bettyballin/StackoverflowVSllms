@@ -1,0 +1,1 @@
+function stopTrackForPlayer(playerID) {\n    var flashObject = document.getElementById("flashPlayer" + playerID);\n    if (flashObject && typeof(flashObject.stopTrack_" + playerID) == "function") {\n        flashObject["stopTrack_" + playerID]();\n    }\n}\n\n// To stop track for a specific player, e.g., player 1\nstopTrackForPlayer("1");

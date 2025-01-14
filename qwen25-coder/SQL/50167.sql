@@ -1,0 +1,1 @@
+SELECT * FROM transactions WHERE created_on > SYSDATE - 7;

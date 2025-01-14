@@ -1,0 +1,1 @@
+Public Class CompanyDTO\n    Public Property Name As String\n    Public Property Id As Integer ' Assuming Id is a unique identifier\nEnd Class\n\nPublic Class IndividualDTO\n    Public Property FirstName As String\n    Public Property LastName As String\n    Public Property Id As Integer ' Assuming Id is a unique identifier\nEnd Class

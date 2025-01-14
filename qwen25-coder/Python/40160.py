@@ -1,0 +1,1 @@
+from memory_profiler import memory_usage\n\n   def my_heavy_function():\n       a = [1] * (10**6)\n       b = [2] * (2 * 10**7)\n       del b\n       return a\n\n   mem_usage = memory_usage(my_heavy_function, max_iterations=1)\n\n   print(f'Peak memory usage: {max(mem_usage)} MiB')

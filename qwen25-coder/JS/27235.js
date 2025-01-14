@@ -1,0 +1,1 @@
+<script type="text/javascript">\nfunction update() {\n  $.get("get_row_count.php", function(data) {\n    $("#uploadcount").html(data);\n    window.setTimeout(update, 5000);\n  });\n}\n$(document).ready(function() {\n  update(); // Call update initially\n});\n</script>

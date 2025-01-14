@@ -1,0 +1,1 @@
+<?php\n// Log message to a file\n$logFile = '/path/to/your/logfile.log';\n$message = 'This is a debug message from your PHP script.' . PHP_EOL;\n\nfile_put_contents($logFile, $message, FILE_APPEND);\n?>

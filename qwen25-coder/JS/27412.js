@@ -1,0 +1,1 @@
+window.addEventListener('resize', function() {\n    setTimeout(function() {\n        window.scrollTo(window.scrollX, window.scrollY);\n    }, 50); // Small delay to allow rendering to catch up\n});

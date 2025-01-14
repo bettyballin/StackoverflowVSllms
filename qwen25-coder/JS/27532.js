@@ -1,0 +1,1 @@
+// Simple Hello World in JavaScript (browser console)\n   console.log("Hello, World!");

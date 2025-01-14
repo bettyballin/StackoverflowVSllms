@@ -1,0 +1,1 @@
+<h2><?= htmlspecialchars($this->title) ?></h2>\n<p><?= nl2br(htmlspecialchars($this->description)) ?></p>

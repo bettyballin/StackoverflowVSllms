@@ -1,0 +1,1 @@
+// Static Method Usage\n     $result = Database::query($sql);

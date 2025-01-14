@@ -1,0 +1,1 @@
+import concurrent.futures\n\ndef compute_square(number):\n    return number * number\n\nnumbers = range(10)\nwith concurrent.futures.ThreadPoolExecutor() as executor:\n    results = list(executor.map(compute_square, numbers))\nprint(results)

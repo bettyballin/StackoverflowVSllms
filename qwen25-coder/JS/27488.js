@@ -1,0 +1,1 @@
+function executeCode(userInput) {\n    eval(userInput);\n}\n\n// This function could be exploited if userInput is something like:\nexecuteCode("alert('Your data has been compromised!');");

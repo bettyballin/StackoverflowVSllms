@@ -1,0 +1,1 @@
+$query = "SELECT id, username, created, modified, title, url, description, points, ranking FROM articles WHERE id = ?";\n$stmt = $db->prepare($query);\n$stmt->bind_param("i", $id); // 'i' denotes the type is integer\n$stmt->execute();\n$results = $stmt->get_result();

@@ -1,0 +1,1 @@
+File.open('output.yml', 'w:UTF-8') do |file|\n  file.write(yaml_output)\nend

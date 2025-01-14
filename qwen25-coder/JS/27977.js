@@ -1,0 +1,1 @@
+// Built-in JavaScript RegExp object\nconst text = "There are 123 numbers in this sentence";\nconst pattern = /\d+/g;\n\nlet match;\nwhile ((match = pattern.exec(text)) !== null) {\n    console.log("JavaScript:", match[0]);\n}

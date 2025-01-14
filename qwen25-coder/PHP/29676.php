@@ -1,0 +1,1 @@
+$users->fetchRow('userID = ' . $users->getAdapter()->quote($userID, 'INTEGER'));

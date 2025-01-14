@@ -1,0 +1,1 @@
+<set name="Projects" inverse="true" cascade="all-delete-orphan" batch-size="25">\n    <key column="AccountId"/>\n    <one-to-many class="Project"/>\n</set>

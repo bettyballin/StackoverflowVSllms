@@ -1,0 +1,1 @@
+SELECT TIMESTAMPADD(MONTH,\n                     -1,\n                     FIRST_DAY(CURRENT DATE))\nFROM SYSIBM.SYSDUMMY1;

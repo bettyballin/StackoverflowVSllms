@@ -1,0 +1,1 @@
+function &usethisfunction() {\n       static $var = 'test';\n       return $var;\n   }

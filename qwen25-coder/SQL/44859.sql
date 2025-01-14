@@ -1,0 +1,1 @@
+WITH RankedDistances AS (\n    SELECT \n        id, \n        ROW_NUMBER() OVER (PARTITION BY a_id ORDER BY distance ASC) as row_num\n    FROM \n        mytable\n)\nUPDATE \n    mytable\nSET \n    delete = 1\nWHERE \n    id NOT IN (SELECT id FROM RankedDistances WHERE row_num <= 10);

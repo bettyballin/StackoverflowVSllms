@@ -1,0 +1,1 @@
+# Add these gems to your Gemfiles in both apps\ngem 'devise'\ngem 'doorkeeper' # For the authentication server (App-A)\ngem 'omniauth-oauth2-provider' # or appropriate client strategy, for App-B

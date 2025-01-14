@@ -1,0 +1,1 @@
+// Using window.onload for clarity and explicitness\nwindow.onload = function() {\n    console.log('The page has fully loaded');\n};\n\n// Using onload assuming global scope\nonload = function() {\n    console.log('The page has fully loaded');\n};

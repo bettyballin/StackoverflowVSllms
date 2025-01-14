@@ -1,0 +1,1 @@
+exec("whatever --take-very-long") if fork.nil?\nProcess.detach($$)

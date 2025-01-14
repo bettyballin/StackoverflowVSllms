@@ -1,0 +1,1 @@
+if (!$conn) {\n       $e = oci_error();\n       trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);\n   }

@@ -1,0 +1,1 @@
+$cfg['Servers'][$i]['password'] = 'your_new_password'; // change 'your_new_password' to your actual password

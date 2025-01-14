@@ -1,0 +1,1 @@
+function findPos(obj) {\n       var curleft = obj.offsetLeft || 0;\n       var curtop = obj.offsetTop || 0;\n       while (obj = obj.offsetParent) { // Traverse up to find all offsets\n           curleft += obj.offsetLeft;\n           curtop += obj.offsetTop;\n       }\n       return {x:curleft, y:curtop}; // Return the calculated position as an object\n   }

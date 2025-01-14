@@ -1,0 +1,1 @@
+Using db As New YourDataContext()\n    Try\n        Dim result = db.spName(parameter1, parameter2)\n        ' Handle the result as needed\n    Catch ex As Exception\n        ' Log and handle exceptions securely\n    End Try\nEnd Using

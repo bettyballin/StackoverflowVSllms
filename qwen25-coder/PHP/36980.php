@@ -1,0 +1,1 @@
+<?php\necho 'Current PHP version: ' . phpversion();\n?>

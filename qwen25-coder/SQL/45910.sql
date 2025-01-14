@@ -1,0 +1,1 @@
+ALTER PROCEDURE Get_Some_Data\nWITH EXECUTE AS 'dbo'\nAS\nBEGIN\n    SELECT * FROM Internal..Stuff;\nEND

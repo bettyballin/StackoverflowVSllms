@@ -1,0 +1,1 @@
+Private Sub CheckForItemSelection()\n    If MyControl.IsItemSelectedPending Then\n        ' Handle item selection\n        MyControl.IsItemSelectedPending = False\n    End If\nEnd Sub\n\n' Call this periodically from VB6\nPrivate Sub Timer1_Timer()\n    CheckForItemSelection\nEnd Sub

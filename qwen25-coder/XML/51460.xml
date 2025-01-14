@@ -1,0 +1,1 @@
+<project name="customBuildCallbacks" default="default">\n    <target name="preFetch">\n        <!-- Custom step before fetching -->\n        <echo message="Executing pre-fetch custom build step."/>\n    </target>\n    <target name="postFetch">\n        <!-- Custom step after fetching -->\n        <echo message="Executing post-fetch custom build step."/>\n    </target>\n</project>

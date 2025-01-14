@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetTopRows\n    @NumberOfResultsToReturn INT\nAS\nBEGIN\n    DECLARE @SQL NVARCHAR(MAX);\n\n    SET @SQL = N'SELECT TOP ' + CAST(@NumberOfResultsToReturn AS NVARCHAR(10)) + N' * FROM YourTable';\n\n    EXEC sp_executesql @SQL;\nEND

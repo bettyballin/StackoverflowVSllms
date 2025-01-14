@@ -1,0 +1,1 @@
+CREATE TABLE timezones (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    city_name VARCHAR(255),\n    iana_timezone_id VARCHAR(100),  -- IANA Time Zone Database ID\n    windows_time_zone_key VARCHAR(100)  -- Windows Registry Key\n);

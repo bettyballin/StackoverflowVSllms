@@ -1,0 +1,1 @@
+def calculate_bpp(bits_per_component, color_components):\n    return bits_per_component * color_components\n\n# Example usage:\nbits_per_component = 8  # Given in the PDF properties\ncolor_components = 3  # Assuming it is an RGB image\n\nbpp = calculate_bpp(bits_per_component, color_components)\nprint(f"Bits Per Pixel: {bpp}")

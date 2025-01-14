@@ -1,0 +1,1 @@
+ALTER TABLE Dimension_Time\nADD IsBusinessHour BIT;\n\nUPDATE Dimension_Time\nSET IsBusinessHour = CASE \n    WHEN DayOfWeek NOT IN (0, 6) -- Assuming weekend days are Saturday (6) and Sunday (0)\n    AND HourOfDay BETWEEN 9 AND 17 -- Business hours from 9 AM to 5 PM\n    THEN 1\n    ELSE 0\nEND;

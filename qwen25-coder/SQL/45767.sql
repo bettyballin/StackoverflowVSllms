@@ -1,0 +1,1 @@
+-- Using BETWEEN\nSELECT * FROM Orders WHERE OrderDate BETWEEN '2023-01-01' AND '2023-12-31';\n\n-- Equivalent using comparison operators\nSELECT * FROM Orders WHERE OrderDate >= '2023-01-01' AND OrderDate <= '2023-12-31';

@@ -1,0 +1,1 @@
+// public/index.php || public/blah/page.php\n\ndefine('ROOT', __DIR__ . '/../');\n\nrequire ROOT . 'utils/util1.php';\nrequire ROOT . 'dbaccess/db1.php';

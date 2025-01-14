@@ -1,0 +1,1 @@
+<!-- app/views/pages/index.html.erb -->\n   <div id="image-slider">\n     <%= image_tag @images.first, id: "dynamic-image" %>\n   </div>\n\n   <%= javascript_include_tag 'slideshow' %>

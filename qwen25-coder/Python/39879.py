@@ -1,0 +1,1 @@
+def my_random_method(self):\n    return f"Random method called on {self}"\n\n# Add the method to int\nint.my_random_method = my_random_method\n\n# Now you can use it as if it was part of the original class\nmy_int = 10\nprint(my_int.my_random_method())

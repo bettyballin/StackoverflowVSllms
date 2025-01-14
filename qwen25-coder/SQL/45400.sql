@@ -1,0 +1,1 @@
+WITH DistinctPosts AS (\n    SELECT DISTINCT p.post_id, p.title  -- Add other necessary columns here\n    FROM posts p\n    LIMIT 10\n)\nSELECT dp.*, c.category_name  -- Adjust column names as per your schema\nFROM DistinctPosts dp\nJOIN post_to_category pct ON dp.post_id = pct.post_id\nJOIN categories c ON pct.category_id = c.category_id;

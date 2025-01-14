@@ -1,0 +1,1 @@
+ingredient_names = Ingredient.objects.filter(recipe__book=book).values_list('text', flat=True)

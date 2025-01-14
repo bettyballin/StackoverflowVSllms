@@ -1,0 +1,1 @@
+function waste_a_little_less_memory($iters) {\n    $i = 0;\n    while ($i < $iters) {\n        $object = new StdClass();\n        $object->{"member_" . $i} = array("blah blah blha" => 12345);\n        $object->{"membersonly_" . $i} = new StdClass();\n        unset($object->{"membersonly_". $i});\n        unset($object->{ "member_" . $i });\n        $i++;\n    }\n}

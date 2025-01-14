@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <!-- Deny all users direct web access to this directory -->\n    <authorization>\n      <deny users="*" />\n    </authorization>\n  </system.web>\n</configuration>

@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER["REQUEST_METHOD"] == "POST") {\n    // Access the data sent from file1.php\n    $username = htmlspecialchars($_POST['username']);\n    \n    echo "Username received: " . $username;\n} else {\n    echo "Invalid request method.";\n}\n?>

@@ -1,0 +1,1 @@
+SELECT flag\nFROM your_table\nORDER BY COALESCE(flag, 'Z') ASC;

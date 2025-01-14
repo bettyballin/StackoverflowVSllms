@@ -1,0 +1,1 @@
+SELECT ISNULL(CAST(your_column AS MONEY), 0) AS ConvertedValue\nFROM your_table;

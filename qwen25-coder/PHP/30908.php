@@ -1,0 +1,1 @@
+abstract class ParentObj {\n    public function __construct() { /* constructor logic */ }\n\n    // Pass the class name as a parameter\n    public static function factory($class = 'ParentObj') {\n        return new $class();\n    }\n}\n\nclass Child extends ParentObj {}\n\n// Usage\n$child = Child::factory('Child');

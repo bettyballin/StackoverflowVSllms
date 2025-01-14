@@ -1,0 +1,1 @@
+// configLive.php (not tracked by git, add to .gitignore)\n<?php\n$servername = "live_server";\n$username = "live_user";\n$password = "secret_password";\n$dbname = "myapp_live";

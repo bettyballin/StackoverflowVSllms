@@ -1,0 +1,1 @@
+class MyClass {\n       constructor() {}\n   }

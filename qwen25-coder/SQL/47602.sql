@@ -1,0 +1,1 @@
+/* Assume there's some code with an unbalanced quote here */\nproc sql;\nselect * from have where name = 'John; /* missing closing quote */\n\n%abort cancel;\nquit;\n\n/* Now you can safely start over or fix the issue and rerun your code */

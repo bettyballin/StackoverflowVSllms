@@ -1,0 +1,1 @@
+# Example of feature engineering: Calculate average power per kilometer\n   ride_data['avg_power_per_km'] = ride_data['total_power'] / ride_data['route_distance']

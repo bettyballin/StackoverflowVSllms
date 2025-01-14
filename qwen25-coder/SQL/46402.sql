@@ -1,0 +1,1 @@
+SELECT ID, \n       CASE WHEN Date1 > Date2 THEN Date1 ELSE Date2 END AS MostRecentDate\nFROM your_table_name;

@@ -1,0 +1,1 @@
+$originalArray = [1, 2, 2, 3, 4, 4, 5];\n$uniqueArray = array_unique($originalArray);\n$reindexedArray = array_values($uniqueArray);\n\n// Now you can use a for loop if needed\nfor ($i = 0; $i < count($reindexedArray); $i++) {\n    // Process each value by index\n    echo $reindexedArray[$i] . "\n";\n}

@@ -1,0 +1,1 @@
+SELECT n.*, c.*\nFROM news n\nLEFT JOIN comments c ON (c.news_id = n.id)\nORDER BY n.id, c.id;

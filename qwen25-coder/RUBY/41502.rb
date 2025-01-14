@@ -1,0 +1,1 @@
+def process_alive?(pid)\n  !(`pgrep -x "#{pid}"`.empty?)\nend

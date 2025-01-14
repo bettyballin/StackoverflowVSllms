@@ -1,0 +1,1 @@
+-- Assume we have a table named 'Users' with an IDENTITY column\n\nINSERT INTO Users (Username) VALUES ('exampleUser');\n\nSELECT @@IDENTITY AS LastInsertedId;\nSELECT SCOPE_IDENTITY() AS LastInsertedIdInScope;\nSELECT IDENT_CURRENT('Users') AS LastInsertedIdentityForUsers;

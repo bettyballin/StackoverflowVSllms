@@ -1,0 +1,1 @@
+function strpbrk(haystack, charList) {\n    for (let i = 0; i < haystack.length; i++) {\n        if (charList.includes(haystack[i])) {\n            return haystack.substring(i);\n        }\n    }\n    return false;\n}\n\n// Example usage:\nconsole.log(strpbrk("hello world", "abcde")); // Outputs: "ello world"\nconsole.log(strpbrk("goodbye universe", "xyz")); // Outputs: false

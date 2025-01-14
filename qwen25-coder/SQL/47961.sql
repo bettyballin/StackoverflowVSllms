@@ -1,0 +1,1 @@
+SELECT component, current_size/1024 "Size(KB)"\nFROM v$sga_dynamic_components\nWHERE name = 'shared pool'\nAND component LIKE '%kglsim%';

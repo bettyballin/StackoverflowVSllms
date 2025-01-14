@@ -1,0 +1,1 @@
+-- Check column sizes\n    EXEC sp_help 'YourTableName';

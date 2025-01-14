@@ -1,0 +1,1 @@
+Dim value As String = Nothing\nDim defaultValue As String = "Default Value"\nDim result As String = If(value, defaultValue)

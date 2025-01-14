@@ -1,0 +1,1 @@
+$user = new User("John Doe", "john@example.com");\n   echo $user->getName(); // Outputs: John Doe

@@ -1,0 +1,1 @@
+const amount = 1234.56;\n   const formattedAmount = amount.toLocaleString('en-US', { style: 'currency', currency: 'USD' });\n   console.log(formattedAmount); // Outputs $1,234.56

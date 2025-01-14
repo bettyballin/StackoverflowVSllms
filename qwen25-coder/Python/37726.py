@@ -1,0 +1,1 @@
+# Update all items with x='y' to have a="something"\nSomething.objects.filter(x='y').update(a="something")\n\n# For bulk update with conditions like where x in ('a', 'b', 'c', ...)\nSomething.objects.filter(x__in=['a', 'b', 'c']).update(a="something")

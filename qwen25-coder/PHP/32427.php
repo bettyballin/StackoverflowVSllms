@@ -1,0 +1,1 @@
+<?php\n  $out = '';\n  \n  if ($a) {\n    $out = '<p>This is some markup</p>';\n  } else {\n    $userContent = "<script>alert('XSS');</script>"; // Example of untrusted user input\n    $safeUserContent = htmlspecialchars($userContent, ENT_QUOTES, 'UTF-8');\n    $out = "<p>This is other markup with safe content: {$safeUserContent}</p>";\n  }\n  \n  print $out;\n?>

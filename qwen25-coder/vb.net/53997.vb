@@ -1,0 +1,1 @@
+' Example of Decimal usage in VB.NET\nDim amount As Decimal = 1234567.89D\nConsole.WriteLine(amount.ToString("C"))  ' Output: $1,234,567.89

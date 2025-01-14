@@ -1,0 +1,1 @@
+SELECT filetype, MY_FUNCTION(filename) AS processed_filename FROM your_table_name;

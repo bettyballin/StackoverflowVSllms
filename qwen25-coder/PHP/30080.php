@@ -1,0 +1,1 @@
+function generateUrl($baseSlug, $modules) {\n       $urlParts = [$baseSlug];\n       foreach ($modules as $module => $details) {\n           $urlParts[] = implode('/', array_merge([$module], $details));\n       }\n       return '/'.implode('/', $urlParts);\n   }

@@ -1,0 +1,1 @@
+SELECT \n    s.record_id,\n    GROUP_CONCAT(CONCAT('Additional detail #', ad.detail_number, ': ', ad.detail) ORDER BY ad.detail_number SEPARATOR '; ') AS additional_details\nFROM \n    sales_records s\nLEFT JOIN \n    additional_details ad ON s.record_id = ad.record_id\nGROUP BY \n    s.record_id;

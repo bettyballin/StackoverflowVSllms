@@ -1,0 +1,1 @@
+CREATE TRIGGER [dbo].[SecondTable_InsertTrigger]\nON [dbo].[SecondTable]\nINSTEAD OF INSERT\nAS\nBEGIN\n    SET NOCOUNT ON;\n\n    -- Insert with calculated order\n    INSERT INTO dbo.SecondTable (Col_Id, Col_Value, Col_Order)\n    SELECT i.Col_Id, i.Col_Value,\n           (SELECT ISNULL(MAX(s.COL_ORDER), 0) + 1 FROM dbo.SecondTable s)\n    FROM inserted i;\nEND;

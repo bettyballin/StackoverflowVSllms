@@ -1,0 +1,1 @@
+<!-- insert.php -->\n<?php\n    header('Location: index.php');\n    $xmldoc = new DOMDocument();\n    $xmldoc->load('sample.xml');\n\n    $newAct = $_POST['activity'];\n\n    $root = $xmldoc->firstChild;\n\n    $newElement = $xmldoc->createElement('activity', htmlspecialchars($newAct));\n    $root->appendChild($newElement);\n\n    $xmldoc->save('sample.xml');\n?>

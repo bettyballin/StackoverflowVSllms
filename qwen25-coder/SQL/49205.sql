@@ -1,0 +1,1 @@
+ALTER SYSTEM SET _optimizer_cost_model = 'IO' SCOPE=BOTH;

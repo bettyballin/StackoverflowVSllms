@@ -1,0 +1,1 @@
+DECLARE @StartDate DATE = '2009-04-16';\nDECLARE @EndDate DATE = '2009-05-15';\n\nSELECT \n    DATEDIFF(MONTH, @StartDate, @EndDate) - \n    CASE WHEN DAY(@EndDate) < DAY(@StartDate) THEN 1 ELSE 0 END AS FullMonths;

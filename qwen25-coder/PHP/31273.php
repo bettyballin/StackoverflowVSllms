@@ -1,0 +1,1 @@
+function my_custom_body_classes( $classes ) {\n  // Add a custom body class for easier debugging\n  if ( defined('WP_DEBUG') && WP_DEBUG ) {\n    $classes[] = 'debug-mode';\n  }\n  return $classes;\n}\nadd_filter('body_class', 'my_custom_body_classes');

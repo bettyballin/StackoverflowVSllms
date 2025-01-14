@@ -1,0 +1,1 @@
+// This assumes the server configuration allows runtime changes\nini_set('suhosin.post.max_value_length', 195000);

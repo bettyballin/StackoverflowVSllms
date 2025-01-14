@@ -1,0 +1,1 @@
+For i = 0 To dtResult.Rows.Count - 1 Step 1\n    ' Access the "verse" column directly from each row\n    Dim strTemp As String = CType(dtResult.Rows(i)("verse"), String)\n    Dim strVerse As String = blHelper.Highlight(s, strTemp)\n    dtResult.Rows(i)("verse") = strVerse\nNext

@@ -1,0 +1,1 @@
+<?php\n// Determine the base directory dynamically\n$baseDir = dirname(__DIR__, 2); // Moves up two directories from the current script\n\n// Use the $baseDir to construct a full path for included files\ninclude_once($baseDir . '/path/to/your/file.php');\n\n// Continue with your script logic...\n?>

@@ -1,0 +1,1 @@
+function cleanString($input) {\n    // Remove <br> tags and &nbsp; entities from the start and end of the string\n    return trim(preg_replace('/^(<br\s*\/?>|&nbsp;)+|(<br\s*\/?>|&nbsp;)+$/iu', '', $input));\n}\n\n// Example usage\n$string = '&nbsp;<p>This is a test.</p><br><br>';\n$cleanedString = cleanString($string);\necho $cleanedString;

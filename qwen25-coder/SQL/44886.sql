@@ -1,0 +1,1 @@
+CREATE TABLE MyTable (\n    Col1 VARCHAR(50),\n    Col2 VARCHAR(50) NULL,\n    Col3 VARCHAR(50) NULL,\n    Col4 VARCHAR(50) NULL,\n    PRIMARY KEY (Col1)\n);

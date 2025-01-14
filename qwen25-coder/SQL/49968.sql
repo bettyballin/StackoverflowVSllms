@@ -1,0 +1,1 @@
+SELECT *\nFROM Blah\nORDER BY CASE \n           WHEN ID IN (1, 2, 3) THEN 0\n           ELSE 1\n         END,\n         AnotherColumnToSort;

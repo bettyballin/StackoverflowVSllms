@@ -1,0 +1,1 @@
+INSERT INTO tbltable1 (Column1, Column2, Column3)  -- Specify column names if necessary\nSELECT Column1, Column2, Column3                 -- Match the columns in both tables\nFROM tbltable1_Link;

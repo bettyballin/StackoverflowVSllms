@@ -1,0 +1,1 @@
+WITH NumberSeries AS (\n    SELECT 1 AS n UNION ALL\n    SELECT n + 1\n    FROM NumberSeries\n    WHERE n < 200\n)\nSELECT SUM(n) AS SumOfNumbers\nFROM NumberSeries\nWHERE n BETWEEN 100 AND 200\nOPTION (MAXRECURSION 0);

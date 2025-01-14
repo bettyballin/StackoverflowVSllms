@@ -1,0 +1,1 @@
+Function CreateGUID() As String\n    Dim guid As Object\n    Set guid = CreateObject("System.Guid")\n    CreateGUID = "{ " & guid.ToString & " }"\nEnd Functio

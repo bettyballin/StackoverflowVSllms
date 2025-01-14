@@ -1,0 +1,1 @@
+sp_configure 'show advanced options', 1;\nRECONFIGURE;\n\nsp_configure 'Ad Hoc Distributed Queries', 1;\nRECONFIGURE;

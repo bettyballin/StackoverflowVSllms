@@ -1,0 +1,1 @@
+# config/routes.rb\nRails.application.routes.draw do\n  get 'signup', to: 'signup#index', as: :signup_index\n  patch 'signup/:step', to: 'signup#update', as: :signup_update\nend

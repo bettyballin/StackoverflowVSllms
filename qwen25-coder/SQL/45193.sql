@@ -1,0 +1,1 @@
+DECLARE @SQL NVARCHAR(MAX);\nDECLARE @ParamDefinition NVARCHAR(MAX);\nDECLARE @UserInput INT; -- or appropriate data type\n\nSET @SQL = N'SELECT * FROM MyTable WHERE Column1 = @Input';\nSET @ParamDefinition = N'@Input INT'; -- adjust the parameter definition as needed\nEXEC sp_executesql @SQL, @ParamDefinition, @Input = @UserInput;

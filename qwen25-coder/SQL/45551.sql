@@ -1,0 +1,1 @@
+-- Customers Table\nCREATE TABLE Customers (\n    CustomerID INT PRIMARY KEY,\n    Name VARCHAR(100),\n    Email VARCHAR(150)\n);\n\n-- Orders Table\nCREATE TABLE Orders (\n    OrderID INT PRIMARY KEY,\n    CustomerID INT,\n    OrderDate DATE,\n    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)\n);

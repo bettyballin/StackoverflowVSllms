@@ -1,0 +1,1 @@
+-- Check user status in SQL Server\nSELECT \n    name,\n    type_desc AS UserType,\n    is_disabled AS IsDisabled\nFROM sys.sql_logins;

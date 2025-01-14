@@ -1,0 +1,1 @@
+class My_Validate_NotEmpty extends Zend_Validate_NotEmpty {\n       protected $_messageTemplates = array(\n           self::IS_EMPTY => 'Please enter a value, this field cannot be left blank.',\n       );\n   }

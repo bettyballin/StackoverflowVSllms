@@ -1,0 +1,1 @@
+<!-- view/application/calendar.phtml -->\n<table>\n    <?php foreach ($this->dates as $dateStr => $event): ?>\n        <tr style="<?php echo $event ? 'background-color: #f0d7d7;' : '' ?>">\n            <td><?php echo $dateStr ?></td>\n            <td><?php if ($event) echo htmlspecialchars($event) ?></td>\n        </tr>\n    <?php endforeach; ?>\n</table>

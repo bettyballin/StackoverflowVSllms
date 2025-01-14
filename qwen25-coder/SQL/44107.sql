@@ -1,0 +1,1 @@
+INSERT INTO TargetTable (Column1, Column2)\n   SELECT s.Column1, s.Column2\n   FROM SourceTable s\n   LEFT JOIN Validation v ON s.Key = v.Key\n   WHERE v.Key IS NULL;

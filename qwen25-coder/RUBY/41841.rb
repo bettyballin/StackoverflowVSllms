@@ -1,0 +1,1 @@
+class SomeController < ApplicationController\n  include OpenFlashChartWrapper\n\n  def some_action\n    chart = create_line_chart([1, 2, 3], title: "Sample Line Chart")\n    render json: chart.to_json\n  end\nend

@@ -1,0 +1,1 @@
+// Define the Post model in app/Model/Post.php\nclass Post extends AppModel {\n    // Model logic goes here\n}\n\n// Usage in a Controller\npublic function view($id) {\n    $post = $this->Post->findById($id);\n    if (!$post) {\n        throw new NotFoundException(__('Invalid post'));\n    }\n    $this->set('post', $post);\n}

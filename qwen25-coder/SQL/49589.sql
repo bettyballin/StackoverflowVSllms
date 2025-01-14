@@ -1,0 +1,1 @@
+CREATE TABLE userA.test_table (\n    column1 datatype PRIMARY KEY,\n    column2 datatype\n)\nCLUSTER userB.your_cluster_name(column1);

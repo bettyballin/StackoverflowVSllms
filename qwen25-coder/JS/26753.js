@@ -1,0 +1,1 @@
+$.ajax({\n        type: "POST",\n        url: "test.php",\n        data: { not: showcase_current_id, x: x },\n        ...\n    });

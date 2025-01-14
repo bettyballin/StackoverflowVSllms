@@ -1,0 +1,1 @@
+' Decide on one ContentType and stick with it throughout the response\nResponse.ContentType = "text/html"\n%>\n<!-- Add your HTML content here -->\n<html>\n<head><title>My Page</title></head>\n<body>\n    <h1>This is an HTML page</h1>\n</body>\n</html>

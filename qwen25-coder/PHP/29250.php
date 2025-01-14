@@ -1,0 +1,1 @@
+// This is an example of basic obfuscation (which can be easily reversed)\neval(gzinflate(base64_decode('dXNlcl9lcnJvckJhY2tyZXF1ZXN0KEBleHJvZChndmpmcmVncWxqaGYpbWhramVpYWhrbGFpbmdlaWhtaWNoa2VhbGluaGllbXJsaWlnLHRycnRjbmx5dGNsbnl0cm9yaXRzKSk7')));\n\n// Note: The above encoded string is not secure and serves only as an example.

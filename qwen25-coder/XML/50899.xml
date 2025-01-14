@@ -1,0 +1,1 @@
+<system.web>\n    <authentication mode="Windows"/>\n  </system.web>

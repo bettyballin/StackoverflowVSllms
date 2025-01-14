@@ -1,0 +1,1 @@
+$plainText = strip_tags($htmlContent);\necho $plainText;

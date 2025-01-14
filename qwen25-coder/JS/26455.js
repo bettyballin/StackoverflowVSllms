@@ -1,0 +1,1 @@
+// Example of using localStorage\nlocalStorage.setItem('userData', JSON.stringify({ key: 'value' }));\nconst userData = JSON.parse(localStorage.getItem('userData'));\nconsole.log(userData);

@@ -1,0 +1,1 @@
+$num_one = rand() % 10; // Remainder of random number divided by 10\n$num_two = rand() & 10; // Bitwise AND of random number with 10

@@ -1,0 +1,1 @@
+from fastdtw import fastdtw\nimport numpy as np\n\n# Define two line strings (example coordinates)\nline_string1 = np.array([(0, 0), (1, 1), (2, 2)])\nline_string2 = np.array([(0.5, 0.5), (1.5, 1.5), (2.5, 2.5)])\n\n# Calculate the Dynamic Time Warping Distance\ndistance, path = fastdtw(line_string1, line_string2)\n\nprint(f"Dynamic Time Warping Distance: {distance}")

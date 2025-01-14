@@ -1,0 +1,1 @@
+CREATE TABLE my_entity (\n       name VARCHAR(255),\n       version INT,\n       -- other fields...\n       PRIMARY KEY (name, version)\n   );

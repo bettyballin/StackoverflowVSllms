@@ -1,0 +1,1 @@
+// Variable naming in cakePHP logic (camelCase)\n$activeSites = $this->Site->find('all', array('conditions' => array('Site.active' => '1'), 'recursive' => -1));\n\n// Data passed to the view (snake_case)\n$this->set('active_sites', $activeSites);

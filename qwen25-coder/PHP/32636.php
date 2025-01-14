@@ -1,0 +1,1 @@
+$safeFileNames = ['example.txt', 'document.doc']; // Add valid filenames here for demonstration\n$safeFileName = isset($_GET['filename']) ? $_GET['filename'] : '';\n\nif (in_array($safeFileName, $safeFileNames)) {\n    outputFile("/the/file/path/{$safeFileName}", $safeFileName);\n} else {\n    die('Invalid file request.');\n}

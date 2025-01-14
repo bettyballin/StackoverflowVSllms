@@ -1,0 +1,1 @@
+DECLARE @xmlContent XML = '<doc><a>1</a><b ba="1" bb="2" bc="3" /><c bd="3"/></doc>';\n\nSELECT \n    x.value('local-name(.)', 'NVARCHAR(50)') AS AttributeName\nFROM \n    @xmlContent.nodes('/doc/*/@*') AS Attr(x)

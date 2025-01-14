@@ -1,0 +1,1 @@
+$unsortedObjectArray = [\n    (object) ['weight' => 10],\n    (object) ['weight' => 5],\n    (object) ['weight' => 20]\n];\n\nusort($unsortedObjectArray, function($a, $b) {\n    return $a->weight <=> $b->weight; // Use the spaceship operator for comparison\n});\n\nprint_r($unsortedObjectArray);

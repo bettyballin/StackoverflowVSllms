@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\n\napp.use((req, res, next) => {\n    if (req.get('X-Forwarded-Proto') !== 'https' && process.env.NODE_ENV === 'production') {\n        return res.redirect(`https://${req.get('Host')}${req.url}`);\n    }\n    next();\n});\n\n// Your other routes and middleware

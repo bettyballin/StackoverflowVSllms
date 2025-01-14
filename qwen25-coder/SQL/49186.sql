@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW my_user_objects AS\n   SELECT object_name, object_type\n   FROM user_objects\n   WHERE object_type IN ('TABLE', 'VIEW');

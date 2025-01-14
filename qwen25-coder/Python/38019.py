@@ -1,0 +1,1 @@
+def find_single_number(nums):\n    unique_num = 0\n    for num in nums:\n        unique_num ^= num\n    return unique_num\n\n# Example usage:\nnums = [4, 1, 2, 1, 2]\nprint(find_single_number(nums))  # Output will be 4

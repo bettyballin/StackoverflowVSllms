@@ -1,0 +1,1 @@
+var $$ = window.MooTools ? window.MooTools.$ : null;\n   var $M = MooTools;\n\n   // No conflict Mootools\n   MooTools.noConflict();\n\n   // Restore the previous value of $\n   if ($) window.$ = $$;\n\n   // Use MooTools functions with a prefix\n   $M('elementId');  // Instead of $('elementId')

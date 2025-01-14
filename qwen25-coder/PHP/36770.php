@@ -1,0 +1,1 @@
+<?php\n   $host = getenv('DB_HOST');\n   $user = getenv('DB_USER');\n   $password = getenv('DB_PASSWORD');\n\n   // Use the credentials to create a database connection\n   $conn = new mysqli($host, $user, $password);\n\n   if ($conn->connect_error) {\n       die("Connection failed: " . $conn->connect_error);\n   }

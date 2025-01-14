@@ -1,0 +1,1 @@
+SELECT COL1, COL2, COL3\nFROM your_table_name\nWHERE (COL1, COL2) IN (\n    SELECT COL1, COL2\n    FROM your_table_name\n    GROUP BY COL1, COL2\n    HAVING COUNT(*) > 1\n);

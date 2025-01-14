@@ -1,0 +1,1 @@
+header('Cache-Control: no-cache, must-revalidate');\n   header('Pragma: no-cache'); // For HTTP/1.0 compatibility

@@ -1,0 +1,1 @@
+if not a:\n    print("The list is empty")\nelse:\n    print("The list is not empty")

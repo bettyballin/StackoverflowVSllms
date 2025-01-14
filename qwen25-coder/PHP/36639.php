@@ -1,0 +1,1 @@
+$basePath = __DIR__; // This gives the directory of the current script\n$configPath = $basePath . '/foo.ini';\nparse_ini_file($configPath);

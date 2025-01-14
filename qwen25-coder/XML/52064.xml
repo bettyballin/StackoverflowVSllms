@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.locationtech.jts</groupId>\n    <artifactId>jts-core</artifactId>\n    <version>1.18.2</version>\n</dependency>

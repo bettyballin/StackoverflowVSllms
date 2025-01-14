@@ -1,0 +1,1 @@
+Public Property MyProperty As Integer

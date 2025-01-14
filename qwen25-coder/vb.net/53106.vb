@@ -1,0 +1,1 @@
+Public Function CalcSqSum(Of T)(ByVal list As IEnumerable(Of T)) As T\n    Dim sumSq = CType(0, T)\n\n    For Each item In list\n        Dim dynamicItem As Dynamic = item\n        sumSq += (dynamicItem * dynamicItem)\n    Next\n\n    Return sumSq\nEnd Functio

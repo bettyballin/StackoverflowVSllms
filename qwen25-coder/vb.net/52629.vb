@@ -1,0 +1,1 @@
+Dim emailClient As New SmtpClient(My.Settings.EmailServerAddress)\nemailClient.Credentials = New System.Net.NetworkCredential("username", "password")\nemailClient.EnableSsl = True ' if SSL/TLS is required by your relay server

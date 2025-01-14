@@ -1,0 +1,1 @@
+# Example Locust script for stress testing your ASP.NET/IIS application\n   from locust import HttpUser, task\n\n   class WebsiteUser(HttpUser):\n       @task\n       def load_test(self):\n           self.client.get("/your-endpoint")

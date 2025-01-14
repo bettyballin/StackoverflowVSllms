@@ -1,0 +1,1 @@
+SELECT owner, table_name FROM all_tables WHERE table_name = 'THE_TABLE';

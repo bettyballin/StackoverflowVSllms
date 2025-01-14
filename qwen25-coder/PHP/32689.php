@@ -1,0 +1,1 @@
+<p class="preserve-whitespace">\n    <?php echo htmlspecialchars($textFromDatabase, ENT_QUOTES, 'UTF-8'); ?>\n</p>

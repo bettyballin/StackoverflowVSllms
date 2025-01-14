@@ -1,0 +1,1 @@
+CREATE TABLE php_sessions (\n     id varchar(255) NOT NULL primary key,\n     access int(10) unsigned,\n     data text\n   );

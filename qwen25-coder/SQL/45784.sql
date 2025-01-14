@@ -1,0 +1,1 @@
+-- Check server version which can give hints about the database type\nSELECT version();\n\n-- Connect to the appropriate database, e.g., \c <database_name> from command line\n\n-- List all tables in selected schema (public is default)\n\d\n\n-- Describe table structure\n\d+ <table_name>;

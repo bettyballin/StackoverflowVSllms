@@ -1,0 +1,1 @@
+<?php\n$data = file_get_contents("php://stdin"); // Read compressed data from stdin\n\n// Assuming the first 8 bytes are ignored or managed by your logic \n$decompressedData = gzinflate($data);\n\nif ($decompressedData === false) {\n    die('Decompression failed');\n}\n\necho $decompressedData;\n?>

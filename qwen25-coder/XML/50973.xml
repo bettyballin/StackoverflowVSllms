@@ -1,0 +1,1 @@
+<system.web>\n  <sessionState \n      mode="SQLServer"\n      sqlConnectionString="data source=myDatabaseServer;Integrated Security=SSPI;" \n      cookieless="false" \n      timeout="20"/>\n</system.web>

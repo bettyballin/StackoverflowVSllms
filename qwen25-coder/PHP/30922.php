@@ -1,0 +1,1 @@
+function getItemsByTag($tagName, $pdo) {\n    $stmt = $pdo->prepare("\n        SELECT i.*\n        FROM items i\n        JOIN item_tags it ON i.item_id = it.item_id\n        JOIN tags t ON it.tag_id = t.tag_id\n        WHERE t.name = :tag_name\n    ");\n    $stmt->execute([':tag_name' => $tagName]);\n    return $stmt->fetchAll(PDO::FETCH_ASSOC);\n}

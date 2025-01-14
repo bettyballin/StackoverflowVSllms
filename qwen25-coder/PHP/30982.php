@@ -1,0 +1,1 @@
+<?php\n// votes.php\n\nsession_start();\n\nif (!isset($_SESSION['userid'])) {\n    // Session has expired, return 401\n    http_response_code(401);\n    echo json_encode(['error' => 'Session expired. Please log in again.']);\n    exit;\n}\n\n$userId = $_SESSION['userid'];\n// Proceed with voting logic here...\n?>

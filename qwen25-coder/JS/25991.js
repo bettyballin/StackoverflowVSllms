@@ -1,0 +1,1 @@
+// Assuming you have a jQuery selector like $('#myElement')\nvar element = $('#myElement');\nvar position = element.offset();\n\nconsole.log('X (Left): ' + position.left);\nconsole.log('Y (Top): ' + position.top);

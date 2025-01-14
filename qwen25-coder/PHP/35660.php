@@ -1,0 +1,1 @@
+<?php if ($condition) { ?>\n         <div>A block of HTML</div>\n     <?php } ?>

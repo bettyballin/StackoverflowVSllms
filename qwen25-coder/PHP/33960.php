@@ -1,0 +1,1 @@
+function isValidDate($date, $format = 'Y-m-d H:i:s') {\n    if (preg_match("/^{$format}$/", date($format, strtotime($date)), $matches)) {\n        return true;\n    }\n    return false;\n}\n\n// Usage:\n$date = '0000-00-00 00:00:00';\n$isValid = isValidDate($date);\n\nif ($isValid) {\n    echo "The date is valid.";\n} else {\n    echo "The date is invalid.";\n}

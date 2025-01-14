@@ -1,0 +1,1 @@
+SELECT "EVENTID", "GROUPID", "TYPEID"\nFROM (\n    SELECT "EVENTID", "GROUPID", "TYPEID",\n           COUNT(*) OVER (PARTITION BY "GROUPID") AS group_count\n    FROM "EVENT"\n) \nWHERE group_count <> 5;

@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    const $list = $('<ul></ul>'); // Create a new <ul> element\n\n    numbersIntArray.forEach(num => {\n        $list.append(`<li>${num}</li>`); // Append each number as an <li>\n    });\n\n    $('body').append($list); // Add the list to the body\n});

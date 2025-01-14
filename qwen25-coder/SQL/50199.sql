@@ -1,0 +1,1 @@
+SELECT \n    CASE WHEN YourColumn IS NULL THEN 0 ELSE 1 END AS IsNotNull\nFROM \n    YourView;

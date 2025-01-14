@@ -1,0 +1,1 @@
+If Not (OldCheckedItems Is CurCheckedItems) Then\n    ' They are different references\nEnd If

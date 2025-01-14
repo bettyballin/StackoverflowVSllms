@@ -1,0 +1,1 @@
+<!-- ExampleConnectionString with Timeout -->\n   <add name="MyDbConn" connectionString="Data Source=ServerName;Initial Catalog=Database;User Id=User;Password=Pass;Connect Timeout=30;" />

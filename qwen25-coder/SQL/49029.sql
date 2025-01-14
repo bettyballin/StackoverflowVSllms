@@ -1,0 +1,1 @@
+SELECT name, create_date\nFROM sys.procedures\nORDER BY create_date;

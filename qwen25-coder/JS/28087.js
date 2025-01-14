@@ -1,0 +1,1 @@
+document.getElementById('<%= j @chart_id %>').innerHTML = `<%= j render "charts/#{@chart_id}" %>`;\n\n// Example: You could also include JavaScript to render the chart using libraries like Chart.js.\n<% if @chart_id == 'graph1' %>\n  // JavaScript code for graph1\n<% elsif @chart_id == 'graph2' %>\n  // JavaScript code for graph2\n<% end %>

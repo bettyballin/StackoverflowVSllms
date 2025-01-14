@@ -1,0 +1,1 @@
+# Example of using Redis with Rails:\ngem 'redis-rails'

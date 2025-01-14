@@ -1,0 +1,1 @@
+function isValidEmail($email) {\n    return filter_var($email, FILTER_VALIDATE_EMAIL) !== false;\n}

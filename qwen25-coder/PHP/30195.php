@@ -1,0 +1,1 @@
+$requestArray = [\n    "totalRooms" => [\n        "Room" => [\n            [\n                // Room 1 data\n                "attribute1" => "value1",\n                "attribute2" => "value2"\n            ],\n            [\n                // Room 2 data\n                "attribute1" => "value3",\n                "attribute2" => "value4"\n            ]\n        ]\n    ]\n];

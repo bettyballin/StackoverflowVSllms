@@ -1,0 +1,1 @@
+SELECT LogEntry, COUNT(*) AS EntryCount\nFROM LogEntries\nGROUP BY LogEntry;

@@ -1,0 +1,1 @@
+-- Example in PostgreSQL:\n     ALTER TABLE projects ENABLE ROW LEVEL SECURITY;\n     CREATE POLICY my_policy ON projects\n     USING (user_id = current_setting('app.current_user')::int);

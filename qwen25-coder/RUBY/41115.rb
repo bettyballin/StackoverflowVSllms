@@ -1,0 +1,1 @@
+require 'csv'\n\ns = "'apples,bananas','lemons'"\nresult = CSV.parse(s.tr("'", '"'), headers: false).flatten\n\n# result is ["apples,bananas", "lemons"]

@@ -1,0 +1,1 @@
+// Example using Modernizr\n   if (Modernizr.flexbox) {\n       console.log('Flexbox is supported');\n   } else {\n       console.log('Flexbox is not supported, use fallbacks');\n   }

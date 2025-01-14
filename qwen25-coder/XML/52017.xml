@@ -1,0 +1,1 @@
+<asmv1:assemblyIdentity name="ExampleApp.publish" version="0.0.0.2" publisher="CN=example.com" />\n<!-- Additional lines omitted for brevity -->\n<publishProviderOptions codeBase="http://intranet/exampleapp/ExampleApp.application" userName="yourdomain\username" password="encryptedpassword" />

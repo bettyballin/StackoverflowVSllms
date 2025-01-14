@@ -1,0 +1,1 @@
+// Assuming $form is an instance of Zend_Form\n$formElements = $form->getElements();\n\nforeach ($formElements as $element) {\n    $element->addFilter(new lib_filters_Stripslashes());\n}

@@ -1,0 +1,1 @@
+// Assume $user_timezone is determined by visitor, e.g., 'America/New_York'\n$user_timezone = new DateTimeZone($user_timezone);\n$utc_date = new DateTime($row['event_datetime'], new DateTimeZone('UTC'));\n$utc_date->setTimezone($user_timezone);\n\necho "Event Time: " . $utc_date->format('Y-m-d H:i:s');

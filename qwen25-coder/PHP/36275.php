@@ -1,0 +1,1 @@
+$xml = new SimpleXMLElement('<root/>');\n$value = 'Some <data> that needs escaping';\n$xml->addChild('tag', $value);\n\necho $xml->asXML();

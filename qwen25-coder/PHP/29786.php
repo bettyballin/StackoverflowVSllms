@@ -1,0 +1,1 @@
+// some_page.php\ninclude BASE_PATH . '/includes/header.php';\n\n// Your page-specific code goes here\n\ninclude BASE_PATH . '/includes/footer.php';

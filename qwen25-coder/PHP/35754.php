@@ -1,0 +1,1 @@
+$query = "SELECT * FROM your_table ORDER BY first_val";\n$result = odbc_exec($connection, $query);\nwhile ($row = odbc_fetch_array($result)) {\n    // Process each row as needed\n}

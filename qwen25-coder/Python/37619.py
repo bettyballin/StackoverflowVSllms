@@ -1,0 +1,1 @@
+import random\nimport string\n\ndef generate_message_id(domain):\n    local_part = ''.join(random.choices(string.ascii_letters + string.digits + '!#$%&\'*+-/=?^_`{|}~', k=20))\n    return f"<{local_part}@{domain}>"\n\n# Example usage\nmessage_id = generate_message_id("example.com")\nprint(message_id)

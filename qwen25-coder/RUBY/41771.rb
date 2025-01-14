@@ -1,0 +1,1 @@
+# Set the session value\nself.app_session = "some_value"\n\n# Get the session value\nputs app_session # => Outputs: some_value

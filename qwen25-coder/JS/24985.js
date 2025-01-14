@@ -1,0 +1,1 @@
+// Get the currently focused element\nvar focusedElement = document.activeElement;\n\n// Log the tag name of the focused element to the console\nconsole.log(focusedElement.tagName);\n\n// Optionally, log the id or other attributes of the focused element\nconsole.log(focusedElement.id);

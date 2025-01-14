@@ -1,0 +1,1 @@
+<!-- app/views/layouts/crud.html.erb -->\n<%= yield :header %>\n <%= yield do |page| %>\n   <div class="content">\n     <%= page.content rescue '' %>\n   </div>\n <% end %>\n\n<%= yield :footer %>

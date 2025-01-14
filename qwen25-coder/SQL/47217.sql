@@ -1,0 +1,1 @@
+DELIMITER $$\n\nCREATE TRIGGER after_update_table1\nAFTER UPDATE ON table1\nFOR EACH ROW\nBEGIN\n    IF OLD.field_to_monitor <> NEW.field_to_monitor THEN\n        UPDATE table2\n        SET related_field = NEW.field_to_monitor\n        WHERE some_condition = OLD.referencing_column;\n    END IF;\nEND $$\n\nDELIMITER ;

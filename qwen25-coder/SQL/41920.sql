@@ -1,0 +1,1 @@
+SELECT buildings.id\n   FROM buildings\n   JOIN regions ON st_intersects(regions.geom, buildings.geom);

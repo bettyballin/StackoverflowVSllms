@@ -1,0 +1,1 @@
+$startTime = microtime(true);\n// Code to benchmark\n$endTime = microtime(true);\n\necho "Execution time: " . ($endTime - $startTime) . " seconds.";

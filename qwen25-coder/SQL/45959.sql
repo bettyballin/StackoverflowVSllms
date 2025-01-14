@@ -1,0 +1,1 @@
+CREATE TABLE Categories (\n    id int PRIMARY KEY,\n    parent_id int,\n    name VARCHAR(100),\n    FOREIGN KEY (parent_id) REFERENCES Categories(id)\n);

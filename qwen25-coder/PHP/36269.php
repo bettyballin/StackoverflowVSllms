@@ -1,0 +1,1 @@
+require_once 'magpierss/rss_fetch.inc';\n\n   $url = 'http://example.com/your_rss_feed.xml';\n   $rss = fetch_rss($url);\n\n   foreach ($rss->items as $item) {\n       $description = $item['description'];\n       $decodedEmbedCode = htmlspecialchars_decode($description, ENT_XML1 | ENT_QUOTES);\n       echo $decodedEmbedCode;\n   }

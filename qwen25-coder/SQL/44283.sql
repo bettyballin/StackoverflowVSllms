@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.CalculateLog(@value FLOAT) \n   RETURNS FLOAT AS \n   BEGIN  \n       RETURN LOG(@value) \n   END;

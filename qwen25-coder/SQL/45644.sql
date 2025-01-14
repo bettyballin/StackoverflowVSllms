@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION my_function(val INT)\nRETURNS SETOF INT AS $$\nBEGIN\n    RETURN QUERY SELECT unnest(ARRAY[1, 2, 3]) WHERE val = 5; -- Example logic\nEND;\n$$ LANGUAGE plpgsql;

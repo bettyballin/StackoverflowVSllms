@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n    SELECT * FROM posts \n    WHERE timestamp > NOW() - INTERVAL 1 MONTH\n    ORDER BY timestamp DESC\n\n    UNION ALL\n\n    SELECT * FROM posts \n    ORDER BY timestamp DESC\n) AS combined_posts\nORDER BY timestamp DESC\nLIMIT 10;

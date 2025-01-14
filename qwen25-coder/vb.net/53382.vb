@@ -1,0 +1,1 @@
+Dim newCaller As New NewCallerType() ' Replace with your initialization\nDim oldCaller As OldCallerType ' Assume this is fetched from your database\n\n' Map properties from newCaller to oldCaller\nmapper.Map(newCaller, oldCaller)

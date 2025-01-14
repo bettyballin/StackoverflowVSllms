@@ -1,0 +1,1 @@
+$lock_id = sem_get(ftok('tmp/this.lock', 'r'));\n\ndo {\n    $acquired = @sem_acquire($lock_id);\n} while (!$acquired && errno == EINTR);\n\nif ($acquired) {\n    // Do something with the shared resource\n\n    sem_release($lock_id);  // Always release the semaphore after acquiring it\n} else {\n    error_log("Failed to acquire semaphore: " . strerror(errno));\n}

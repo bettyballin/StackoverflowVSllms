@@ -1,0 +1,1 @@
+I'm experiencing poor performance with a specific SQL query in my Oracle 19c database environment. The system has 8 CPUs, 32GB RAM, and SSD storage configured in RAID 0. Below are the details:\n\n**Query:**

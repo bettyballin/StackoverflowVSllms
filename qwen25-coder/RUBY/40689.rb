@@ -1,0 +1,1 @@
+class FoosController < ApplicationController\n  skip_before_action :verify_authenticity_token, if: -> { request.format.xml? }\n\n  # Your other actions like put, post, etc.\nend

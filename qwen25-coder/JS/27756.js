@@ -1,0 +1,1 @@
+$(document).ready(function() {                 \n    $('#mylist').sortable({ \n        update: function() {\n            var order = $('#mylist').sortable('serialize');\n            alert(order); // This should now show a serialized string like "item[]=1&item[]=2"\n        }                         \n    });\n});

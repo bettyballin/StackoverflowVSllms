@@ -1,0 +1,1 @@
+<bindings>\n     <binding protocol="http" bindingInformation="*:53289:localhost" />\n     <binding protocol="http" bindingInformation="[::1]:53289:" />\n   </bindings>

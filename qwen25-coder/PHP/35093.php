@@ -1,0 +1,1 @@
+$connection = mysql_connect($host, $username, $password);\nmysql_select_db($database, $connection);\nmysql_set_charset('utf8mb4', $connection);

@@ -1,0 +1,1 @@
+require('rtf.php');\n\n// Load your RTF file\n$document = new Rtf();\n$document->load($pathToRtf);\n\n// Merge data, add logic to handle multiple records\n$mergedContent = $document->getContent();\n\n// Save the merged document\nfile_put_contents($outputPath, $mergedContent);

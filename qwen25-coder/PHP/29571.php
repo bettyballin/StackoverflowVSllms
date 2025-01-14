@@ -1,0 +1,1 @@
+$method_name = 'getUserInfo';\n   $object->$method_name();

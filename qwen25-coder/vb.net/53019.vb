@@ -1,0 +1,1 @@
+Dim Letters = New String() {"a", "b", "c", "d", "e"}\nDim IndexedLetters = _\n    From letter In Letters.Select(Function(l, i) Tuple.Create(i + 1, l))\n    Let Index = letter.Item1\n    Let Letter = letter.Item2\n    Select New With {.Index = Index, .Letter = Letter}\n\n' For LINQPad users : IndexedLetters.Dump()

@@ -1,0 +1,1 @@
+# Example in Python\ncolumns = ['first_name', 'last_name', 'email', 'phone']  # Add your column names here\nsearch_term = '%re%'\n\nquery_parts = [f"{col} like '{search_term}'" for col in columns]\nfull_query = f"SELECT * FROM contacts WHERE {' OR '.join(query_parts)}"\n\nprint(full_query)

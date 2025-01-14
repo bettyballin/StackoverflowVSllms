@@ -1,0 +1,1 @@
+// Assuming you have a reference to the row element\nvar row = document.querySelector('table tr:last-child'); // selects the second row\n\n// Add the 'red' class to the selected row\nrow.className += ' red';

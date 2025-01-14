@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER["REQUEST_METHOD"] == "POST") {\n    $value = $_POST['value'];\n    echo "Received: " . htmlspecialchars($value); // Always sanitize input\n}\n?>

@@ -1,0 +1,1 @@
+CREATE TABLE field_label_mapping (\n    db_field_name VARCHAR(255) PRIMARY KEY,\n    gui_label TEXT NOT NULL\n);

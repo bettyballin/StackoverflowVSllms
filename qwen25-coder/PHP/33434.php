@@ -1,0 +1,1 @@
+class Welcome extends CI_Controller {\n \n    public function index()\n    {\n        $this->load->view('welcome_message');\n    }\n}

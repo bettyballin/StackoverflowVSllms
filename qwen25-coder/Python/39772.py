@@ -1,0 +1,1 @@
+import string\n\nletter_count = {letter: 0 for letter in string.ascii_lowercase}\nprint(letter_count)

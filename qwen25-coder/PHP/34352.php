@@ -1,0 +1,1 @@
+$output = '';\nforeach ($files as $filename) {\n    $content = file_get_contents($filename);\n    // Check for BOM and remove if present\n    if (substr($content, 0, 3) === pack("CCC", 0xEF, 0xBB, 0xBF)) {\n        $content = substr($content, 3);\n    }\n    $output .= $content . "\n";\n}\nfile_put_contents('combined.txt', $output);

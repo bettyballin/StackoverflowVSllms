@@ -1,0 +1,1 @@
+INSERT INTO target_table (column1, column2, column3)\nSELECT columnA, columnB, columnC\nFROM flat_table\nWHERE some_condition;

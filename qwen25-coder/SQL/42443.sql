@@ -1,0 +1,1 @@
+WITH LatestDates AS (\n    SELECT MAX(C) as LatestDate \n    FROM TableA \n    WHERE A >= 0\n)\nSELECT A, C \nFROM TableA, LatestDates\nWHERE A >= 0 AND TableA.C = LatestDates.LatestDate;

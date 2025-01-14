@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE DATE(your_timestamp_column) = DATE(:selected_date_param)

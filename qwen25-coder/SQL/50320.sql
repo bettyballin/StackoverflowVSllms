@@ -1,0 +1,1 @@
+CREATE TABLE itinerary_items (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(255) NOT NULL,\n    value INT NOT NULL,\n    FOREIGN KEY (itinerary_id) REFERENCES itineraries(id)\n);

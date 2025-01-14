@@ -1,0 +1,1 @@
+SELECT \n    Country,\n    City,\n    COUNT(City) AS Count\nFROM \n    YourTableName\nGROUP BY \n    Country, City\nORDER BY \n    Country, City;

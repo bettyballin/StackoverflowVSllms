@@ -1,0 +1,1 @@
+-- Example of a situation that might lead to Index Scan\n  SELECT * FROM Employees;

@@ -1,0 +1,1 @@
+SELECT \n    ID, \n    Value, \n    COALESCE(LAG(Value) OVER (ORDER BY ID), 0) AS Prev_Value\nFROM \n    FollowUp;

@@ -1,0 +1,1 @@
+$.ajax({\n    url: 'save.php',\n    method: 'POST',\n    data: { someData: 'value' },\n    success: function(response) {\n        console.log('Data saved successfully:', response);\n    },\n    error: function(xhr, status, error) {\n        console.error('Error saving data:', error);\n    }\n});

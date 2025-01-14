@@ -1,0 +1,1 @@
+class Sample {\n    function createNewRecord($title) {\n        if (!$title) {\n            throw new InvalidArgumentException("A title must be provided.");\n        }\n        // Proceed with creating a record...\n    }\n}\n\ntry {\n    $sample = new Sample();\n    $sample->createNewRecord("");\n} catch (InvalidArgumentException $e) {\n    echo "Error: " . $e->getMessage();\n}

@@ -1,0 +1,1 @@
+output = String.new\noutput << part_one\noutput << part_two\noutput << "\n"

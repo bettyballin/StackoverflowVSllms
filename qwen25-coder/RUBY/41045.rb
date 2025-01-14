@@ -1,0 +1,1 @@
+def indifferent_compare(a, b)\n  case a\n  when Integer, Float\n    a == b.to_i rescue false\n  when String\n    a.to_i == b.to_i rescue false\n  else\n    false\n  end\nend\n\n# Examples:\nputs indifferent_compare(5, "5") # true\nputs indifferent_compare("10", 10) # true\nputs indifferent_compare("abc", 10) # false

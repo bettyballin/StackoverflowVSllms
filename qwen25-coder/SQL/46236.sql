@@ -1,0 +1,1 @@
+CREATE OR REPLACE DIRECTORY output_dir AS '/path/to/output/directory';

@@ -1,0 +1,1 @@
+echo "Before loop\n";\n   foreach($clientFact as $line)\n   {\n       echo "Inside loop, processing: " . $line["idcliente"] . "\n";\n       $cliTemp1[] = $line["idcliente"];\n   }\n   echo "After loop\n";

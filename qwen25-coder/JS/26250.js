@@ -1,0 +1,1 @@
+$(".delete-icon").live("click", function(event){\n  event.stopPropagation(); // Prevents the click event from propagating to the parent <a>\n  $(this).closest('li').remove(); // Deletes the list item\n});\n\n$("a").live("click", function(event){\n  alert( "Edit: " + $(this).text() ); // Edits the item\n});

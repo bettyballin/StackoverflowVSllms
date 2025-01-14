@@ -1,0 +1,1 @@
+$db = new PDO("mysql:host={$config['host']};dbname={$config['database']}", $config['username'], $config['password']);\n   $queries = file_get_contents('path/to/setup.sql');\n   $stmt = $db->prepare($queries);\n   $stmt->execute();

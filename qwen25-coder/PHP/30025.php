@@ -1,0 +1,1 @@
+$cfg['Servers'][$i]['host'] = 'localhost';\n   $cfg['Servers'][$i]['port'] = '3309';

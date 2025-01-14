@@ -1,0 +1,1 @@
+$val = 5;\n     usethisfunction($val);\n     echo $val; // Outputs: 6, as $val was modified by the functio

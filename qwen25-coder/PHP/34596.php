@@ -1,0 +1,1 @@
+<?php\n   $order = $this->getData('order');\n   echo $this->helper(\Vendor\Module\Helper\Data::class)->formatDate($order->getShippingDate(), 'd M Y');\n   ?>

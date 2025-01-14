@@ -1,0 +1,1 @@
+// HTML part of the code\necho '<input type="hidden" name="ORDER_VALUE[]" value="34" />';\necho '<input type="hidden" name="ORDER_VALUE[]" value="17" />';\n\n// PHP processing part\nif (isset($_REQUEST["ORDER_VALUE"])) {\n    foreach ($_REQUEST["ORDER_VALUE"] as $order_value) {\n        echo "Order Value: " . htmlspecialchars($order_value) . "<br>";\n    }\n}

@@ -1,0 +1,1 @@
+var triggerDivs = $('[id^="triger"]');

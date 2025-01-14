@@ -1,0 +1,1 @@
+UPDATE table_name\nSET single_cost = CEIL(cost::float / participant)::int;

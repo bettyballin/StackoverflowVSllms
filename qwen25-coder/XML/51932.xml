@@ -1,0 +1,1 @@
+<class name="Benefit" table="Promo_Benefit" abstract="true">\n    <id name="mapId" type="integer">\n        <column name="map_id"/>\n        <generator class="native"/>\n    </id>\n    <discriminator column="type_id" type="integer"/>\n\n    <!-- common properties mappings -->\n</class>

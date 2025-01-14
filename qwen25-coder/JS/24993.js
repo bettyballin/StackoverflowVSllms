@@ -1,0 +1,1 @@
+// Assuming 'element' is your target div element\nelement.innerHTML = '';

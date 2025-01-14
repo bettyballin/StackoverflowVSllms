@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    // Use delegated events\n    $(document).on('click', '.klik', function() {\n        alert("test");\n        // You can open your popup/lightbox here\n    });\n});

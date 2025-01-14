@@ -1,0 +1,1 @@
+include 'inc.php'; // Include the inc.php file which starts the session\n\n$your_variable = "Your Value"; // The variable to be shared\n\n$_SESSION['shared_var'] = $your_variable; // Store the variable in a sessio

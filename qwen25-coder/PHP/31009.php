@@ -1,0 +1,1 @@
+<?php\n\n$input = "word 1\nword 2\nword 3\nword 4";\n$items = explode("\n", $input);\n\nprint_r($items); // This will output: Array ( [0] => word 1 [1] => word 2 [2] => word 3 [3] => word 4 )\n\n?>

@@ -1,0 +1,1 @@
+(CAST([TotalVisit1] AS DECIMAL(10, 1)) * 100) / [TotalVisits] AS Visit1percent

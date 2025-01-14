@@ -1,0 +1,1 @@
+UPDATE t1\n   SET t1.column = t2.column  -- Adjust as necessary\n   FROM Table1 t1\n   INNER JOIN Table2 t2 ON t1.key = t2.key;

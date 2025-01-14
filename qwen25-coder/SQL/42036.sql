@@ -1,0 +1,1 @@
+WITH MaxSignal AS (\n    SELECT ID, MAX(Signal) AS MaxSig\n    FROM your_table_name\n    GROUP BY ID\n)\nSELECT t.ID, t.Signal, t.Station, t.OwnerID\nFROM your_table_name t\nJOIN MaxSignal ms ON t.ID = ms.ID AND t.Signal = ms.MaxSig;

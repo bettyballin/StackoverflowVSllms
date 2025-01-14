@@ -1,0 +1,1 @@
+# config/initializers/remove_x_runtime.rb\n\n# If using Rails\nRails.application.config.middleware.delete(Rack::Runtime)\n\n# Alternatively, if using ActionDispatch directly (without a full Rails app)\nActionDispatch::MiddlewareStack.remove(Rack::Runtime)

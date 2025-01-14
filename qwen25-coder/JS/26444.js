@@ -1,0 +1,1 @@
+// Disable console.log\nconsole.log = function() {};

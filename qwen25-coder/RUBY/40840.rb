@@ -1,0 +1,1 @@
+def order_params\n  params.require(:order).permit(:field1, :field2, :field3) # list all permitted fields here\nend\n\n@order = Order.new(order_params)

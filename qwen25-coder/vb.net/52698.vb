@@ -1,0 +1,1 @@
+Private Declare Sub CoInitialize Lib "ole32" (ByVal pvReserved As Long) As Long\n   Call CoInitialize(0)

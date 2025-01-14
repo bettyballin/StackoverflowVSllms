@@ -1,0 +1,1 @@
+<siteMapNode url="~/MyPageFromPage1" title="Page 1 My Page">\n    <!-- Other nodes -->\n</siteMapNode>\n\n<siteMapNode url="~/MyPageFromPage2" title="Page 2 My Page">\n    <!-- Other nodes -->\n</siteMapNode>\n\n<siteMapNode url="~/MyPageFromPage3" title="Page 3 My Page">\n    <!-- Other nodes -->\n</siteMapNode>

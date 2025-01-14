@@ -1,0 +1,1 @@
+// config.php\n<?php\nreturn [\n    'host' => '127.0.0.1',\n    'username' => 'user',\n    'password' => 'pass',\n    'database' => 'mydb'\n];

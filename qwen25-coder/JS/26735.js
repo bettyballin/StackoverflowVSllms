@@ -1,0 +1,1 @@
+$.ajax({\n    url: 'your-url',\n    success: function(data) {\n        // Insert the new content into the div\n        $('#targetDiv').html(data);\n\n        // Run your jQuery code here instead of within a <script> tag\n        $('#targetDiv input').myFunction('param');\n    },\n    error: function() {\n        console.error("Failed to fetch data.");\n    }\n});

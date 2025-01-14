@@ -1,0 +1,1 @@
+# Importing necessary library\nfrom werkzeug.security import generate_password_hash\n\n# Example function to hash a password securely\ndef secure_hash_password(password):\n    return generate_password_hash(password, method='bcrypt')\n\n# Usage of the function\npassword = "supersecret"\nhashed_password = secure_hash_password(password)\nprint("Hashed Password:", hashed_password)

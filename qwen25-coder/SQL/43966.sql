@@ -1,0 +1,1 @@
+CALL sysproc.admin_cmd('message ''TableName:X'' to server console');

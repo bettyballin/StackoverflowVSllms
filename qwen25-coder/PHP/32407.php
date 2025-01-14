@@ -1,0 +1,1 @@
+putenv('LANG=es_ES.UTF-8');\n   setlocale(LC_ALL, 'es_ES.UTF-8');\n   bindtextdomain("myapp", "./LocaleData");\n   textdomain("myapp");\n   \n   echo gettext("Hello World!"); // Outputs translation based on language setting

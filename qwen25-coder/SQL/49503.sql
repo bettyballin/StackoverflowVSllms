@@ -1,0 +1,1 @@
+EXEC sp_executesql N'SELECT * FROM YourTable WHERE Column = @param OPTION(RECOMPILE)', \n    N'@param INT', \n    @paramValue;

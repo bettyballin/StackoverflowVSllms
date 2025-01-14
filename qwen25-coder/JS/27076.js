@@ -1,0 +1,1 @@
+function playsong(song) {\n    parent.document.getElementById('player').innerHTML = \n        '<object width="199" height="26"><param name="movie" value="audio_player_black.swf">' +\n        '<embed src="audio_player_black.swf?audio_file=upload/' + song + '&color=00000" width="199" height="26"></embed></object>';\n}

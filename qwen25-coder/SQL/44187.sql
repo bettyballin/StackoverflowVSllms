@@ -1,0 +1,1 @@
+ALTER TABLE Users \nALTER COLUMN UserName nvarchar(250) COLLATE SQL_Latin1_General_CP1_CS_AS;

@@ -1,0 +1,1 @@
+-- Grant only SELECT permission on specific tables to a user/role.\n   GRANT SELECT ON [dbo].[Events] TO [SomeLimitedUser];

@@ -1,0 +1,1 @@
+<security>\n       <authentication mode="Forms">\n           <forms loginUrl="~/Login.aspx" timeout="30" slidingExpiration="true" />\n       </authentication>\n       <authorization>\n           <deny users="?" />\n       </authorization>\n   </security>

@@ -1,0 +1,1 @@
+# Simple lambda (Python style)\nadd = lambda x, y: x + y\n\n# Hypothetical multiline lambda (not Python)\n# add = lambda x, y:\n#     if x > 0 and y > 0:\n#         return x + y\n#     return 0\n\n# Using def for more complex logic (Python style)\ndef add(x, y):\n    if x > 0 and y > 0:\n        return x + y\n    return 0

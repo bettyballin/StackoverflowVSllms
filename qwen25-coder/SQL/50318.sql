@@ -1,0 +1,1 @@
+SELECT name\nFROM vocabulary v\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM collapse_menu cm\n    WHERE cm.vid = v.vid\n);

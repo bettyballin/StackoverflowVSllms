@@ -1,0 +1,1 @@
+var $ipAddresses = $('#ipAddresses');\n    $ipAddresses.empty();\n    var options = [];\n    $.each(data.d, function(){ \n        options.push('<option value="' + this.toString() + '">' + this.toString() + '</option>');\n    });\n    $ipAddresses.append(options.join(''));

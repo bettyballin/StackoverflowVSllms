@@ -1,0 +1,1 @@
+Declare\n    v_count NUMBER;\nBegin\n    Select count(*) into v_count from Table1; -- Assign the result to a variable\n    If v_count > 0 then\n        dbms_output.put_line('Test');\n    end if;\nend;

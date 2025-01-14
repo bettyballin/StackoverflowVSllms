@@ -1,0 +1,1 @@
+SELECT key \nFROM ubis \nWHERE MemberID = '144'\nAND To >= '2009-11-07T21:11:23'\nAND From <= '2009-11-07T21:11:23'

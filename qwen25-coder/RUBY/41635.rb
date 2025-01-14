@@ -1,0 +1,1 @@
+def create\n  item_with_ratings = current_user.items.build(item_params)\n  \n  if item_with_ratings.save\n    redirect_to items_path\n  else\n    # Handle error\n    render action: :new\n  end\nend\n\nprivate\n\ndef item_params\n  params.require(:item).permit(:name, ratings_attributes: [:score])\nend

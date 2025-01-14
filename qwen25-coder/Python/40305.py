@@ -1,0 +1,1 @@
+import sys\nimport cgi\n\n# Read data as bytes directly from stdin\ninput_data = sys.stdin.read()\n\n# Create FieldStorage instance with the correct parameters\nform = cgi.FieldStorage(\n    fp=sys.stdin.buffer, \n    environ={'REQUEST_METHOD': 'POST'},\n    keep_blank_values=True,\n    strict_parsing=False\n)

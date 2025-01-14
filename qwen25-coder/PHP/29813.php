@@ -1,0 +1,1 @@
+include 'path/to/your/file.php';\n\n/**\n * @var Whatever $blah\n */\n$blah = getBlahInstanceFromSomewhere();\n\n// Autocomplete should now work for $blah methods.

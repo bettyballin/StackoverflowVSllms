@@ -1,0 +1,1 @@
+$notFound = 0;\nfor ($i = 14; $i >= 2 && !$notFound; $i--) {\n    if ($num % $i !== 0) {\n        $notFound = 1;\n    }\n}

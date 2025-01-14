@@ -1,0 +1,1 @@
+-- Replace 'YourTableName' with the name of your table\nSELECT OBJECT_SCHEMA_NAME(object_id) + '.' + OBJECT_NAME(object_id) AS ProcedureName\nFROM sys.sql_modules\nWHERE definition LIKE '%YourTableName%';\n\n-- Once you have identified the procedures, use sp_recompile for each one.\nEXEC sp_recompile 'SchemaName.ProcedureName1';\nEXEC sp_recompile 'SchemaName.ProcedureName2';

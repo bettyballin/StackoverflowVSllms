@@ -1,0 +1,1 @@
+trait A { /* methods */ }\n  trait B { /* methods */ }\n  class D {\n      use A, B;\n  }

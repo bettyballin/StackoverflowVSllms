@@ -1,0 +1,1 @@
+SELECT COUNT(EventID) AS EventCount, #T.Customer, #T.Year, #T.Month\nFROM [Event]\nJOIN #T ON [Event].CustomerID = #T.CustomerID \n    AND YEAR([Event].DateOpened) = #T.Year\n    AND MONTH([Event].DateOpened) = #T.Month\nWHERE [Event].DateOpened BETWEEN '2008-12-01' AND '2008-12-31'\nGROUP BY #T.Customer, #T.Year, #T.Month\nORDER BY #T.Year, #T.Month;

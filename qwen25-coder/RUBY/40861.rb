@@ -1,0 +1,1 @@
+class ResourcesController < ApplicationController\n  def show\n    @resource = Resource.find(params[:id])\n\n    respond_to do |format|\n      format.html # This will render the default show.html.erb view if the request is accepted as HTML.\n      format.json { render json: @resource } # This will return JSON if the request is accepted as JSON.\n    end\n  end\nend

@@ -1,0 +1,1 @@
+<?php\n// Set headers\nheader('Content-Type: application/blahtype');\nheader('Content-Disposition: attachment; filename="config.xml"');\n\n// Output the file content (assuming $fileContent holds the configuration file data)\necho $fileContent;\nexit();\n?>

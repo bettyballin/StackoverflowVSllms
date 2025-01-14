@@ -1,0 +1,1 @@
+SELECT j.email \nFROM jobseeker j\nLEFT JOIN aspnet_Membership m ON j.email = m.Email\nWHERE m.UserId IS NULL;  -- Assuming UserId is the primary key in aspnet_Membership

@@ -1,0 +1,1 @@
+// save this as capture.js\n   const puppeteer = require('puppeteer');\n\n   (async () => {\n     const browser = await puppeteer.launch();\n     const page = await browser.newPage();\n     await page.goto('http://example.com');\n     await page.screenshot({ path: 'screenshot.png' });\n\n     await browser.close();\n   })();

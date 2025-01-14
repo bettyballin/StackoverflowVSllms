@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $serializedOptions = $_POST['serializedOptions'];\n    $optionsArray = json_decode($serializedOptions, true);\n\n    // Now, $optionsArray contains all the selected checkbox values.\n    print_r($optionsArray);\n}\n?>

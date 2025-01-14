@@ -1,0 +1,1 @@
+CREATE TABLE map_lookup (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    map_value VARCHAR(255) UNIQUE NOT NULL\n);\n\nCREATE TABLE your_main_table (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    map_id INT,\n    other_columns ...,\n    FOREIGN KEY (map_id) REFERENCES map_lookup(id)\n);

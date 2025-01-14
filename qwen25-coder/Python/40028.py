@@ -1,0 +1,1 @@
+def my_view(request):\n    custom_header = request.META.get('HTTP_SOMETHING')\n    # Use custom_header as needed

@@ -1,0 +1,1 @@
+from django.db.models import Q\n\n# Assuming 'Sales' is your model name, and fields are defined accordingly.\nqueryset = Sales.objects.filter(\n    Q(is_paid=False) | Q(status='toship', otherfield='FOO', anotherfield='BAR')\n)

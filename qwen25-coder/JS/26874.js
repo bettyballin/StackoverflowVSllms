@@ -1,0 +1,1 @@
+document.getElementById('myTextarea').value = "<p>text</p>".replace(/</g, "&lt;").replace(/>/g, "&gt;");

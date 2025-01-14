@@ -1,0 +1,1 @@
+CREATE TABLE Addresses (\n    AddressID INT PRIMARY KEY AUTO_INCREMENT,\n    StreetNumber VARCHAR(255),\n    StreetName VARCHAR(255),\n    AdditionalStreetInfo TEXT,\n    PostalCode VARCHAR(20),\n    City VARCHAR(100),\n    Region VARCHAR(100),\n    Country VARCHAR(100),\n    Geolocation POINT\n);

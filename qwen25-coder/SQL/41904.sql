@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION test_multipe_refcursor() \nRETURNS SETOF refcursor AS $$\nDECLARE\n    parentRC refcursor;\n    childRC refcursor;\nBEGIN\n    OPEN parentRC FOR SELECT * FROM parent;\n    RETURN NEXT parentRC;\n\n    OPEN childRC FOR SELECT * FROM child;\n    RETURN NEXT childRC;\n\n    RETURN;\nEND;\n$$ LANGUAGE plpgsql;

@@ -1,0 +1,1 @@
+ew Ajax.Autocompleter('my_input_field', 'autocomplete_choices', '/url/to/choices', {\n  frequency: 0.2 // Adjust this value as needed; 0.2s is a common setting for faster response.\n});

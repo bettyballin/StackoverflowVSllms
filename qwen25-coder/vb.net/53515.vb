@@ -1,0 +1,1 @@
+Dim db As DAO.Database\nSet db = CurrentDb()\n\n' Execute the Update query\ndb.Execute "UPDATE analyzedCopy2 SET analyzedCopy2.DateRange = Format(#4/21/2009#, ""mm/dd/yyyy"") & ' to ' & Format(#4/29/2009#, ""mm/dd/yyyy""), dbFailOnError\n\n' Clean up\nSet db = Nothing

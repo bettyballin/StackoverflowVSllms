@@ -1,0 +1,1 @@
+<authentication mode="None" />\n   <authorization>\n       <allow users="*" />\n   </authorization>

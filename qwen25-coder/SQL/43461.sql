@@ -1,0 +1,1 @@
+EXPLAIN SELECT *\n   FROM content_link FORCE INDEX(content_id)\n   STRAIGHT_JOIN content ON link.content_id = content.id\n   WHERE 1=1 -- or any other suitable condition\n   LIMIT 10;

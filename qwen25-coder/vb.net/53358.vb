@@ -1,0 +1,1 @@
+<CLSCompliant(True)>\nPublic Interface IDbId\n\n    ' Assume we are using a more specific type here, for example IntPtr for native objects.\n    Function GetNativeObject() As IntPtr\n    Function Equals(ByVal compObj As IDbId) As Boolean\n    Function CompareTo(ByVal compObj As IDbId) As Integer\n    Function ToString() As String\n\nEnd Interface

@@ -1,0 +1,1 @@
+Public Class ClassA\n    Public Property ClassB As New ClassB()\nEnd Class\n\nPublic Class ClassB\n    Public Property SomeProperty As String = "Sample Value"\nEnd Class

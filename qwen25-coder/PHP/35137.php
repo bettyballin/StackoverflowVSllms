@@ -1,0 +1,1 @@
+$output = shell_exec('curl http://someplace.com');

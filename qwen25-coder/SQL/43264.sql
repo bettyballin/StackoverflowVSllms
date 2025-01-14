@@ -1,0 +1,1 @@
+SELECT LD.loanType, COUNT(*) AS contract_count\nFROM LoanContract LC\nJOIN LoanFact LF ON LF.contractNo = LC.contractNo\nGROUP BY LD.loanType\nHAVING COUNT(LC.contractNo) > 10;

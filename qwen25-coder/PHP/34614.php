@@ -1,0 +1,1 @@
+<?php if (isset($this->messages) && count($this->messages) > 0): ?>\n    <?php echo $this->partialLoop('partials/messages.phtml', $this->messages); ?>\n<?php endif; ?>

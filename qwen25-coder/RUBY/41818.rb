@@ -1,0 +1,1 @@
+# Start IRB by typing `irb` in the terminal\n\n>> def greet(name)\n>>   "Hello, #{name}!"\n>> end\n=> :greet\n>> greet("Alice")\n=> "Hello, Alice!"

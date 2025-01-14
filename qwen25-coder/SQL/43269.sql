@@ -1,0 +1,1 @@
+ALTER DATABASE YourDatabaseName SET COMPATIBILITY_LEVEL = 140; -- Example for SQL Server 2017

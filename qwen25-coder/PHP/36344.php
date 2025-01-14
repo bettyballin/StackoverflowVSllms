@@ -1,0 +1,1 @@
+// Generate a cryptographically secure integer between 0 and 100\n   $secureRandomInt = random_int(0, 100);

@@ -1,0 +1,1 @@
+// On a.aspx after form submission\n   window.location.href = "b.aspx?fileid=yourFileIdValue";\n   \n   // On b.aspx if you want to programmatically go back\n   function goBack() {\n       window.history.back();\n   }

@@ -1,0 +1,1 @@
+CREATE TABLE audit_log (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    event_time DATETIME NOT NULL,\n    user_id INT NOT NULL,\n    action VARCHAR(50) NOT NULL, -- e.g., 'create', 'update', 'delete'\n    object_type VARCHAR(100) NOT NULL, -- e.g., 'user', 'document', 'project'\n    object_id INT NOT NULL,\n    details TEXT -- additional information about the event\n);

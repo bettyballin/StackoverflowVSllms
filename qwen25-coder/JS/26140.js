@@ -1,0 +1,1 @@
+// Example function to get base64 encoded string length\nfunction getBase64StringLength(base64String) {\n    return base64String.length;\n}\n\n// Usage\nconst base64EncodedData = 'your_base64_encoded_string_here';\nconsole.log('Length of base64 data:', getBase64StringLength(base64EncodedData));

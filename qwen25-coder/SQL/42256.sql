@@ -1,0 +1,1 @@
+SELECT w.*\nFROM WIDGET w\nJOIN WIDGETATTRIBUTEJUNCTION waj ON w.widget_id = waj.widget_id\nWHERE waj.attribute_id IN (1, 2, 3) -- replace with actual attribute IDs from the user's selection\nGROUP BY w.widget_id\nHAVING COUNT(DISTINCT waj.attribute_id) = 3; -- this number should match the count of attributes in the IN clause

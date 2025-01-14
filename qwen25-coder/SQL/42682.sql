@@ -1,0 +1,1 @@
+SELECT *\nFROM products\nORDER BY FIND_IN_SET(id, (SELECT GROUP_CONCAT(ids ORDER BY RAND()) FROM (\n    SELECT DISTINCT id FROM products\n) AS distinct_products)) DESC\nLIMIT 10 OFFSET 0;

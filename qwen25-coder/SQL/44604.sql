@@ -1,0 +1,1 @@
+SELECT \n    @@SERVERNAME AS CurrentServerName,\n    ISNULL((SELECT @@servername FROM msdb..sysmaintplan_log WHERE subsystem = 'DatabaseMaintenance' ORDER BY start_time DESC LIMIT 1), N'Not in cluster or No data') AS ActiveNodeName

@@ -1,0 +1,1 @@
+// Find the label containing specific text and apply some style or action\n$('label[for="myCb1"]:contains("test")').css('color', 'green');\n\n// Or for "test1"\n$('label[for="myCb1"]:contains("test1")').css('color', 'purple');

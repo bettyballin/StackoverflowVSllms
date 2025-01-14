@@ -1,0 +1,1 @@
+' Using Module\nModule MathOperationsModule\n    Public Function Add(a As Integer, b As Integer) As Integer\n        Return a + b\n    End Function\nEnd Module\n\n' Using Class with Shared Members\nPublic Class MathOperationsClass\n    Public Shared Function Add(a As Integer, b As Integer) As Integer\n        Return a + b\n    End Function\nEnd Class

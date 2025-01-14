@@ -1,0 +1,1 @@
+/**\n * @type {HTMLDocument}\n */\nvar controlForm;\n\n/**\n * @type {Window}\n */\nvar chatwindow;\n\nfunction messageArrival(message) {\n    chatwindow.contentWindow.document.write(message);\n}\n\nfunction makeNetMeetingCall() {\n    controlForm.Status.value = "Connecting...";\n}

@@ -1,0 +1,1 @@
+<?php\n// index.php\ninclude 'header.php';\nrenderHeader();\n\necho "<main>\n        <h2>Welcome to the Home Page</h2>\n        <p>This is the home page content.</p>\n      </main>";\n\ninclude 'footer.php';\nrenderFooter();\n?>

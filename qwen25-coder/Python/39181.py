@@ -1,0 +1,1 @@
+# Model/base_model.py\n\nclass BaseModel:\n    @classmethod\n    def save(cls, data):\n        # Shared functionality to save data to the DB\n        pass\n    \n    @staticmethod\n    def validate_params(data):\n        # Shared functionality for parameter validation\n        pass

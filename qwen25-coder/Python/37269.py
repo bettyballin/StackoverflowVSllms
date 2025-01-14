@@ -1,0 +1,1 @@
+import os\nfrom django.core.files.storage import FileSystemStorage\n\ndef handle_uploaded_file(f):\n    fs = FileSystemStorage()\n    filename = fs.save(f.name, f)\n    # Set the file permission to 644 (read/write for owner, read-only for group/others)\n    uploaded_file_path = fs.path(filename)\n    os.chmod(uploaded_file_path, 0o644)\n    return uploaded_file_path

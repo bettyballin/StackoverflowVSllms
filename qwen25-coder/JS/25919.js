@@ -1,0 +1,1 @@
+var table = $("table#output");\nfor (let i in items) {\n    let thisItem = items[i];\n    $.getJSON("myService", { "itemID": thisItem }, function(json) {\n        var str = "<tr>";\n        str += "<td>" + thisItem + "</td>";\n        str += "<td>" + json.someMember + "</td>";\n        str += "</tr>";\n        table.append(str);\n    });\n}

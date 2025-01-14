@@ -1,0 +1,1 @@
+CREATE TABLE tree (\n    id INT PRIMARY KEY,\n    name VARCHAR(255),\n    parent_id INT,\n    FOREIGN KEY (parent_id) REFERENCES tree(id)\n);

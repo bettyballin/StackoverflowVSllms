@@ -1,0 +1,1 @@
+INSERT INTO tbl (hat, mittens, name) \nVALUES ('blue', 'green', 'betty') \nON DUPLICATE KEY UPDATE \nname = CASE WHEN name <> VALUES(name) THEN VALUES(name) ELSE name END,\nstamp = CASE WHEN name <> VALUES(name) THEN CURRENT_TIMESTAMP ELSE stamp END;

@@ -1,0 +1,1 @@
+// Example string containing HTML entity for apostrophe\n$text = "Don&#39;t forget to replace &apos;this&apos; as well.";\n\n// Replace numeric HTML entity and named entity with an actual apostrophe\n$safeText = str_replace(array("&#39;", "&apos;"), "'", $text);\n\necho $safeText;

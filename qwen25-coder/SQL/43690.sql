@@ -1,0 +1,1 @@
+WITH RankedTopTen AS (\n    SELECT \n        id,\n        home,\n        datetime,\n        player,\n        resource,\n        ROW_NUMBER() OVER (PARTITION BY home ORDER BY datetime DESC) AS rn\n    FROM TopTen\n)\nSELECT \n    id,\n    home,\n    datetime,\n    player,\n    resource\nFROM RankedTopTen\nWHERE rn = 1;

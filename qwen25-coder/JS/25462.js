@@ -1,0 +1,1 @@
+$("#formId1").validate({...});\n$("#formId2").validate({...});

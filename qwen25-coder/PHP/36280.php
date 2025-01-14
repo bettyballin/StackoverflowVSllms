@@ -1,0 +1,1 @@
+$objectsAndMethods = [\n    [$obj, 'getData'],\n    [$othObj, 'getThisData'],\n    [$anothObj, 'getTheData'],\n    [$anothOne, 'getAData'],\n];\n\n$data = null;\n\nforeach ($objectsAndMethods as list($object, $method)) {\n    if (isset($data)) {\n        break;\n    }\n    $data = $object->$method();\n}\n\nprocess($data);

@@ -1,0 +1,1 @@
+public function processXmlData($xml_data) {\n    // Process the XML data\n    $this->load->library('simple_xml');\n    $data = simplexml_load_string($xml_data);\n    // Further processing...\n}

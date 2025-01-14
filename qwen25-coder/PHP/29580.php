@@ -1,0 +1,1 @@
+// config.php\n  <?php\n  $dbHost = trim(getenv('DB_HOST')) ?: 'localhost';\n  $dbName = trim(getenv('DB_NAME')) ?: 'your_database';\n  $dbUser = trim(getenv('DB_USERNAME')) ?: 'your_username';\n  $dbPassword = trim(getenv('DB_PASSWORD')) ?: 'your_password';\n  ?>

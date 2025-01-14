@@ -1,0 +1,1 @@
+var $live_site = 'https://BradP.com';\n   var $force_ssl = 2; // Use SSL for both site and administrator

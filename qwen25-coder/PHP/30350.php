@@ -1,0 +1,1 @@
+$var1 = 0;\n$var2 = null;\n\nif ($var1) {\n    echo "This will not print because 0 is falsy.";\n}\n\nif (isset($var1)) {\n    echo "This will print because var1 is set, even though it's 0.";\n}\n\nif ($var2) {\n    echo "This will not print because var2 is null, which is falsy.";\n}\n\nif (isset($var2)) {\n    echo "This will not print because var2 is explicitly set as null.";\n}

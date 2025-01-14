@@ -1,0 +1,1 @@
+-- Sample query to find discrepancies\n   SELECT * \n   FROM YourTableName \n   WHERE DataHash <> HASHBYTES('SHA1', \n     ISNULL(CONVERT(VARCHAR(MAX), t.Column1), '') + \n     ISNULL(CONVERT(VARCHAR(MAX), t.Column2), '')\n     -- Add more columns as necessary\n   );

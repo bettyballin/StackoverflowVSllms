@@ -1,0 +1,1 @@
+-- Check database size before running VACUUM\nSELECT pg_size_pretty(pg_database_size('your_db_name'));\n\n-- Run a VACUUM (consider VACUUM FULL if necessary but be aware of locking side effects)\nVACUUM ANALYZE pagelinks;\n\n-- Check for bloat after the operation\nSELECT * FROM public.pg_table_bloat ORDER BY bloat_pct DESC LIMIT 10;

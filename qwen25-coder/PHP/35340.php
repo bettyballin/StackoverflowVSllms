@@ -1,0 +1,1 @@
+<?php if ($output) { ?>\n     <h2><?=$output;?></h2>\n   <?php } ?>

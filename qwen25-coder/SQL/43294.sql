@@ -1,0 +1,1 @@
+SELECT \n    f.*, \n    COUNT(fi.id) AS FilesCount\nFROM \n    folders f\nLEFT JOIN \n    files fi ON f.id = fi.Folder\nWHERE \n    f.userId = 16\nGROUP BY \n    f.id, f.name, f.path; -- Adjust the columns based on your folder table schema

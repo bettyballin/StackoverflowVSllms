@@ -1,0 +1,1 @@
+-- For table1: Getting info for January 2023\nSELECT info FROM table1 WHERE year = 2023 AND month = 'January';\n\n-- For table2: Getting info for January 2023\nSELECT jan_info FROM table2 WHERE year = 2023;

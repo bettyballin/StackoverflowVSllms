@@ -1,0 +1,1 @@
+// server.php\nif (isset($_POST['set_cookie'])) {\n    $cookie_name = "testCookie";\n    $cookie_value = $_POST['cookie_value'];\n    setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day\n    echo json_encode(['status' => 'success', 'message' => 'Cookie has been set.']);\n}

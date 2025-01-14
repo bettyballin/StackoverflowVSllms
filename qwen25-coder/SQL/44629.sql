@@ -1,0 +1,1 @@
+SELECT \n    id.owner_name,\n    book_name1.name AS book1_name,\n    book_name2.name AS book2_name\nFROM \n    id\nJOIN \n    book_name book_name1 ON id.book_id1 = book_name1.id\nJOIN \n    book_name book_name2 ON id.book_id2 = book_name2.id;

@@ -1,0 +1,1 @@
+CREATE FUNCTION "log_update" () RETURNS trigger AS $$\nBEGIN\n    -- Example of logging instead of modifying:\n    RAISE NOTICE 'Row updated: %', OLD.id;\n    RETURN NULL;\nEND;\n$$ LANGUAGE plpgsql;\n\n-- The trigger:\nCREATE TRIGGER test_log_update AFTER UPDATE ON contact FOR EACH ROW EXECUTE PROCEDURE log_update();

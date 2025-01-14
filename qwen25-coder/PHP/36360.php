@@ -1,0 +1,1 @@
+<?php\n// Read the file first\n$arr = file('test.txt');\n\n// Now open the file in write mode (this will truncate the file)\n$filec = fopen('test.txt', 'w');\n\n// Write the contents back to the file\nforeach ($arr as $value) {\n    fwrite($filec, $value);\n}\n\n// Close the file\nfclose($filec);\n?>

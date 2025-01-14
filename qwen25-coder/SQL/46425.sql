@@ -1,0 +1,1 @@
+-- Without specified precision\nCREATE TABLE example1 (\n    id NUMBER PRIMARY KEY,\n    name VARCHAR2(30)\n);\n\n-- With specified precision\nCREATE TABLE example2 (\n    id NUMBER(7,0) PRIMARY KEY,\n    name VARCHAR2(30)\n);

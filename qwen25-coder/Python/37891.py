@@ -1,0 +1,1 @@
+lines = ["Line 1", "Line 2"]  # Only two lines in this list\n\ntry:\n    print(lines[52])  # Trying to access the 53rd line (index 52)\nexcept IndexError as e:\n    print(e)  # This will output: list index out of range

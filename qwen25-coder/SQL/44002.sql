@@ -1,0 +1,1 @@
+EXEC sp_addlinkedserver \n       @server = 'ExtranetServer',\n       @srvproduct = '',\n       @provider = 'SQLOLEDB', \n       @datasrc = 'ExtranetServerIPAddress';

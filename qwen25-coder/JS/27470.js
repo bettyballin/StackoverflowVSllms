@@ -1,0 +1,1 @@
+const eventSource = new EventSource("/send-data.php");\n\neventSource.onmessage = function(event) {\n    console.log("New message", event.data);\n};

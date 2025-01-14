@@ -1,0 +1,1 @@
+-- Check server details which can give hints about the database type\nSELECT @@VERSION;\n\n-- Use a specific database\nUSE <database_name>;\n\n-- List all tables\nSELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE';\n\n-- Get schema info\nEXEC sp_help <table_name>;

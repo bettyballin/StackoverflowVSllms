@@ -1,0 +1,1 @@
+-- Connect to the database\ndbisql -c "CONNECTION_STRING" -nogui -on myschema.sql\n\n-- Export schema commands\nSELECT * FROM SYSTABLE;\nSELECT * FROM SYSCOLUMN;

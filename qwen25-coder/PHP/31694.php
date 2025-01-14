@@ -1,0 +1,1 @@
+// Example of using Blackfire to profile your code\n   echo "Starting Profiling\n";\n   blackfire_start();\n   \n   // Your function or block of code here\n   \n   blackfire_stop();

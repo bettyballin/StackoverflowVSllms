@@ -1,0 +1,1 @@
+// validators.js\nexport function isValidDate(dateString) {\n    const regEx = /^\d{4}-\d{2}-\d{2}$/;\n    if(!dateString.match(regEx)) return false;  // Invalid format\n    const d = new Date(dateString);\n    const dNum = d.getTime();\n    if(!dNum && dNum !== 0) return false; // NaN value, invalid date\n    return d.toISOString().slice(0,10) === dateString;\n}

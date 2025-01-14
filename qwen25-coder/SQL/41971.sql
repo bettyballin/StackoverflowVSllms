@@ -1,0 +1,1 @@
+-- Run these commands to check table stats and optimize tables if necessary\nANALYZE TABLE your_table_name;\nOPTIMIZE TABLE your_table_name;\nSHOW TABLE STATUS LIKE 'your_table_name';

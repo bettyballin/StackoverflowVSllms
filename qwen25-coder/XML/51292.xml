@@ -1,0 +1,1 @@
+<dependencies>\n    <dependency>\n        <groupId>com.framework.generic.api</groupId>\n        <artifactId>generic-api</artifactId>\n    </dependency>\n    <!-- Add other runtime-specific dependencies if necessary -->\n</dependencies>

@@ -1,0 +1,1 @@
+CREATE PROCEDURE spGetOrders\n    @startdate DATETIME,\n    @enddate DATETIME,\n    @Closed BIT\nAS\nBEGIN\n    SELECT * \n    FROM orders o\n    WHERE o.orderdate BETWEEN @startdate AND @enddate\n    AND (@Closed = 0 AND o.ClosedDate IS NOT NULL OR @Closed = 1 AND o.ClosedDate IS NULL)\nEND

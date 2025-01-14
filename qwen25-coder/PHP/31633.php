@@ -1,0 +1,1 @@
+$sql = "UPDATE users SET age=30, name='John Doe' WHERE id=5";\n   $parsedQuery = \Doctrine\DBAL\Query\QueryBuilder::parse($sql);

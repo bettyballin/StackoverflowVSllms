@@ -1,0 +1,1 @@
+CREATE VIEW my_view AS \nSELECT \n    table1.id AS table1_id,\n    table2.id AS table2_id,\n    -- other necessary columns with similar aliasing\nFROM \n    table1, \n    table2 \nWHERE \n    table1.id = table2.id;

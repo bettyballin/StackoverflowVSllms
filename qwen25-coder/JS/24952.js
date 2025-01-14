@@ -1,0 +1,1 @@
+success: function(data) {\n    // Wrap data to ensure it's treated as a fragment\n    var $data = $('<div>').html(data);\n\n    alert($data.find('#wrapper').html()); // This should now work and return "test"\n}

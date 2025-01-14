@@ -1,0 +1,1 @@
+-- Example conversion\n     INT UNSIGNED -> BIGINT UNSIGNED\n     TINYTEXT/TXT -> STRING\n     DATETIME -> TIMESTAMP

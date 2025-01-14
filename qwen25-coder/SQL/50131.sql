@@ -1,0 +1,1 @@
+WITH test_values AS (\n    SELECT 19 AS num FROM dual UNION ALL\n    SELECT 20 FROM dual UNION ALL\n    SELECT 21 FROM dual\n)\nSELECT tv.num, f.y AS mapped_value\nFROM test_values tv\nJOIN foo f ON tv.num >= f.x AND (tv.num < NVL((SELECT MIN(x) FROM foo WHERE x > f.x), tv.num + 1));

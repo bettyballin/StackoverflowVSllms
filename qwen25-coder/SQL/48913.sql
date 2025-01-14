@@ -1,0 +1,1 @@
+SELECT TOP 5 PERCENT *\n   INTO #temp_sampled_data\n   FROM YourTable;\n   \n   -- Perform your logic and count on sampled data\n   DECLARE @estimatedCount INT;\n   SET @estimatedCount = (SELECT COUNT(*) * 20 FROM #temp_sampled_data WHERE ...);\n   DROP TABLE #temp_sampled_data;

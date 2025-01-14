@@ -1,0 +1,1 @@
+<mx:RemoteObject id="conn" destination="ColdFusion" source="bulkmail"\n    result="orderGrid.dataProvider = event.result;" showBusyCursor="true">\n</mx:RemoteObject>

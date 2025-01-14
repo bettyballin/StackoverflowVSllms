@@ -1,0 +1,1 @@
+SELECT (your_binary_column & (1 << index_position)) = 0 AS is_zero\nFROM your_table;

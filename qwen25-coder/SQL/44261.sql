@@ -1,0 +1,1 @@
+ALTER TABLE lookup ADD INDEX idx_usergroup_nodeid (usergroup, nodeid);

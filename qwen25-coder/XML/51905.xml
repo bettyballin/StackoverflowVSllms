@@ -1,0 +1,1 @@
+<applicationPools>\n   <add name="DefaultAppPool" managedRuntimeVersion="v4.0">\n      <recycling idleTimeout="24.00:00:00"/>\n   </add>\n</applicationPools>

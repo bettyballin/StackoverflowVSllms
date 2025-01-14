@@ -1,0 +1,1 @@
+// Example using jQuery AJAX for pagination\n   function loadMoreData(pageNumber) {\n     $.ajax({\n       url: "get-more-data.php?page=" + pageNumber,\n       method: "GET",\n       success: function(data) {\n         $("#content").append(data);\n       },\n       error: function(xhr, status, error) {\n         console.error(error);\n       }\n     });\n   }

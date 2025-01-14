@@ -1,0 +1,1 @@
+import requests\n\nurl = "http://yourwebsite.com/trace.axd"\nresponse = requests.get(url)\nwith open("trace_output.html", "w") as file:\n    file.write(response.text)

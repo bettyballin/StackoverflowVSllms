@@ -1,0 +1,1 @@
+SELECT ntbl1.number, \n       (ntbl1.[index] + ntbl2.[index]) AS IndexSum\nFROM QryNumberedTable1 ntbl1\nINNER JOIN QryNumberedTable2 ntbl2 ON ntbl1.RowID = ntbl2.RowID;

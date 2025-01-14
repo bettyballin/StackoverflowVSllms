@@ -1,0 +1,1 @@
+CREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    first_name VARCHAR(255),\n    last_name VARCHAR(255),\n    INDEX idx_first_name (first_name)\n);

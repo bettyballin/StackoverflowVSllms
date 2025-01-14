@@ -1,0 +1,1 @@
+-- Example for ISO 8601 Extended Date: 2000-01-14T13:42Z\nDECLARE @dt DATETIME = '2000-01-14T13:42:00';\nSELECT FORMAT(@dt, 'yyyy-MM-ddTHH:mm') + 'Z' AS ISO8601_Extended;\n\n-- Example for ISO 8601 Basic Date: 20090123T105321Z\nDECLARE @dt2 DATETIME = '2009-01-23T10:53:21';\nSELECT FORMAT(@dt2, 'yyyyMMddTHHmmss') + 'Z' AS ISO8601_Basic;

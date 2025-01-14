@@ -1,0 +1,1 @@
+// Example of receiving permissions in JSON format from server\n   const userPermissions = {\n       "canRead": true,\n       "canWrite": false,\n       "canDelete": false\n   };

@@ -1,0 +1,1 @@
+class MyClass {\n    public function __construct(array $config) {}\n    public function handleRequest($requestMethod, array $data) {\n        // Process POST/GET data here\n    }\n}

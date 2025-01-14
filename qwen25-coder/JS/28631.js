@@ -1,0 +1,1 @@
+if (category == "0" || category == null) {\n    // validation logic\n}

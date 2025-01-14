@@ -1,0 +1,1 @@
+import html\n\nencoded_string = "&#39;"\ndecoded_string = html.unescape(encoded_string)\nprint(decoded_string)  # Output will be: '

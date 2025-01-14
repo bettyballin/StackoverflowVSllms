@@ -1,0 +1,1 @@
+var log = function(arg1, arg2){\n    console.log("inside :" + arg1 + " / " + arg2);\n};\n\nvar wrap = function(fn){\n    return function(...args){ // Use rest parameter syntax\n        console.log("before :");\n        fn.apply(null, args); // Use apply to pass arguments as an array\n        console.log("after :");\n    }\n};\n\nvar fn = wrap(log);\nfn(1,2);

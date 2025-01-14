@@ -1,0 +1,1 @@
+<pages enableViewStateMac="false" validateRequest="true" maintainScrollPositionOnPostBack="false" enableEventValidation="true" clientIDMode="AutoID">\n       <controls>\n           <add tagPrefix="asp" namespace="System.Web.UI.WebControls" assembly="System.Web"/>\n       </controls>\n   </pages>

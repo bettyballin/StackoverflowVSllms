@@ -1,0 +1,1 @@
+SELECT SUM(n) AS SumOfNumbers\nFROM dbo.Numbers\nWHERE n BETWEEN 100 AND 200;

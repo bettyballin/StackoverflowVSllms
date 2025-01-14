@@ -1,0 +1,1 @@
+BEGIN;\nSELECT 'DROP INDEX IF EXISTS "' || name || '";' FROM sqlite_master WHERE type = 'index';\nCOMMIT;

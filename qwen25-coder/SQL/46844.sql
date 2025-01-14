@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table_name\nWHERE your_timestamp_column < CURDATE()

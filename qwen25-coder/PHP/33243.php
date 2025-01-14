@@ -1,0 +1,1 @@
+<?php\n$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, "http://example.com");\ncurl_setopt($ch, CURLOPT_PROXY, 'http://your-proxy:port');\ncurl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);\n$output = curl_exec($ch);\ncurl_close($ch);\n\necho $output;\n?>

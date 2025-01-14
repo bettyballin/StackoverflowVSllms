@@ -1,0 +1,1 @@
+DECLARE\n  v_year NUMBER := 1940; -- Example year value\n  v_sql VARCHAR2(1000);\nBEGIN\n  IF v_year < 1950 THEN\n    v_sql := 'SELECT year AS OldYear FROM your_table';\n  ELSE\n    v_sql := 'SELECT year AS NewYear FROM your_table';\n  END IF;\n\n  -- Execute the dynamic SQL\n  EXECUTE IMMEDIATE v_sql;\nEND;\n/

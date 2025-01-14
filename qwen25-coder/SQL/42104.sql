@@ -1,0 +1,1 @@
+SELECT 1 \nFROM Options \nWHERE user_id = 1 AND option = 'AD3';

@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() {\n    const textboxes = document.querySelectorAll('input[type="text"]');\n\n    textboxes.forEach(function(textbox) {\n        textbox.addEventListener('blur', function() {\n            // Reset scroll position to the beginning\n            this.scrollLeft = 0;\n        });\n    });\n});

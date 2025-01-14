@@ -1,0 +1,1 @@
+class UserController {\n    private $userModel;\n\n    public function __construct($database) {\n        $this->userModel = new User($database);\n    }\n\n    public function displayUsers() {\n        $users = $this->userModel->getAllUsers(); // Fetch and process data in the controller\n        include 'views/user_view.php'; // Pass data to view\n    }\n}

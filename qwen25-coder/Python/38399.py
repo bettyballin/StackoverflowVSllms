@@ -1,0 +1,1 @@
+chars = #some list\nx = #element to find\n\nif x in chars:\n    indx = chars.index(x)\n    #doSomethingElse\nelse:\n    #doSomething

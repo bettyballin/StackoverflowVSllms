@@ -1,0 +1,1 @@
+import zlib\n\n# Assuming 'compressed_data' is your byte array of compressed data\nuncompressed_data = zlib.decompress(compressed_data)\nuncompressed_size = len(uncompressed_data)\n\nprint(f"Uncompressed size: {uncompressed_size} bytes")

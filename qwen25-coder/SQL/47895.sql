@@ -1,0 +1,1 @@
+CREATE TABLE summary_data AS SELECT column1, SUM(column2) as total FROM main_table GROUP BY column1;

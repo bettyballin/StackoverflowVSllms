@@ -1,0 +1,1 @@
+class YourController < ApplicationController\n  before_action :login_required, unless: -> { should_skip_login? }\n\n  private\n\n  def login_required\n    # Your logic to enforce login\n  end\n\n  def should_skip_login?\n    action_name == 'index' && request.format.js?\n  end\nend

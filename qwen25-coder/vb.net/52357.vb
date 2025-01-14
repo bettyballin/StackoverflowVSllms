@@ -1,0 +1,1 @@
+Imports System.Diagnostics\n\n<DebuggerDisplay("X = {X} Y = {Y} Width = {Width} Height = {Height}")>\nPublic Structure RectangleF\n    Public X As Single\n    Public Y As Single\n    Public Width As Single\n    Public Height As Single\nEnd Structure

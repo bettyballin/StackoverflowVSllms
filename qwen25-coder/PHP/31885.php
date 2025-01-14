@@ -1,0 +1,1 @@
+<?php\n   if (isset($_GET['page']) && $_GET['page'] == 'member' && isset($_GET['username'])) {\n       $username = htmlspecialchars($_GET['username']);\n       // Process to load member data based on username\n       echo "Loading profile for: " . $username;\n   }\n   ?>

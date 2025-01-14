@@ -1,0 +1,1 @@
+$email = new Zend_Form_Element_Text('email');\n$email->setLabel('E-mail')\n      ->setDecorators(array(\n          'ViewHelper', // this renders the input tag\n          array('LabelWrapper', array('tag' => false)), // your custom decorator\n      ));\n\n$form->addElement($email);

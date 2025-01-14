@@ -1,0 +1,1 @@
+<jsp-config>\n    <jsp-property-group>\n        <url-pattern>*.jsp</url-pattern>\n        <buffer>8192</buffer> <!-- Set buffer size as needed -->\n    </jsp-property-group>\n</jsp-config>

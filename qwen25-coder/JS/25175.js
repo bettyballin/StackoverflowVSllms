@@ -1,0 +1,1 @@
+var b;\nb = alert('test'), 6; // alert('test') is executed, but b gets assigned to 6\nalert(b);  // alerts 'undefined' was incorrect, it will alert 6

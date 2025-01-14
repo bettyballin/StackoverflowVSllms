@@ -1,0 +1,1 @@
+fetch('https://api.anyorigin.com/get?url=https%3A%2F%2Fwww.random.org%2Fintegers%2F%3Fnum%3D10%26min%3D1%26max%3D100%26col%3D1%26base%3D10%26format%3Dplain%26rnd%3Dnew', {\n    method: 'GET',\n})\n.then(response => response.json())\n.then(data => {\n    console.log('Random numbers:', data.contents);\n})\n.catch(error => {\n    console.error('Error:', error);\n});

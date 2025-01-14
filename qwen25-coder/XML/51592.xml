@@ -1,0 +1,1 @@
+<!-- CustomLinkerSettings.props -->\n<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">\n  <ItemDefinitionGroup>\n    <Link>\n      <AdditionalOptions>/NODEFAULTLIB:msvcrt.lib %(AdditionalOptions)</AdditionalOptions>\n    </Link>\n  </ItemDefinitionGroup>\n</Project>

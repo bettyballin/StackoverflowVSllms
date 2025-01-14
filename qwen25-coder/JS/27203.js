@@ -1,0 +1,1 @@
+{\n       text: 'Associated Model Name',\n       dataIndex: 'associated_model_name', // This should match the mapping in your model\n       width: 150\n   }

@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>eu.agno3.jcifs</groupId>\n    <artifactId>jcifs-ng2</artifactId>\n    <version>2.1.9</version>\n</dependency>

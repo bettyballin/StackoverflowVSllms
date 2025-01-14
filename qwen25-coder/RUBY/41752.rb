@@ -1,0 +1,1 @@
+def setup\n  @thing = Factory(:thing)\n  assert(@thing.id, "Virtual fixture not valid.")\nend\n\ndef test_create_valid\n  Thing.any_instance.stubs(:valid?).returns(true)\n  post :create, params: { thing: { /* provide the attributes here */ } }\n  \n  # Find the last created record in the database\n  new_thing = Thing.last\n  \n  assert_redirected_to thing_url(new_thing)\nend

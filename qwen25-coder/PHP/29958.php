@@ -1,0 +1,1 @@
+// template.php\n<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <title><?php echo $page_title; ?></title>\n</head>\n<body>\n<?php include 'header.view.php'; ?>\n<?php include $content_view; ?>\n<?php include 'footer.view.php'; ?>\n</body>\n</html>

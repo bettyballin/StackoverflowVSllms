@@ -1,0 +1,1 @@
+from django import forms\n\nclass MyForm(forms.Form):\n    my_integer_field = forms.IntegerField(label='Enter an Integer', help_text='Only integers are allowed.')

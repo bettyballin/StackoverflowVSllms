@@ -1,0 +1,1 @@
+Dim tStartParameter As String = "https://mail.google.com/?view=cm&fs=1&tf=1&to={0}&su={1}"\ntStartParameter = String.Format(tStartParameter, tTo, tSubject)\nSystem.Diagnostics.Process.Start(tStartParameter) ' This will open the URL in a browser

@@ -1,0 +1,1 @@
+function modifyString(&$str) {\n       $str .= ' modified';\n   }\n   $string = "original";\n   modifyString($string);\n   echo $string; // Outputs: original modified

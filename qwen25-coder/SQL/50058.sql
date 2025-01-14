@@ -1,0 +1,1 @@
+SELECT \n    v.`date`, \n    IF(p.price IS NOT NULL, p.price, @price := @price) AS price,\n    v.volume_amt\nFROM \n    VOLUME v\nJOIN (\n    SELECT @price := NULL) r\nLEFT JOIN \n    (SELECT `date`, itemid, price FROM PRICE ORDER BY `date`) p\nON \n    v.`date` >= p.`date` AND v.itemid = p.itemid\nGROUP BY \n    v.`date`;

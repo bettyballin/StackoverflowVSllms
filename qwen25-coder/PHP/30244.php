@@ -1,0 +1,1 @@
+$filename = '../' . $_GET['file'];\n$properFilename = $_GET['properFilename'] . '.mp3';\n\nheader("Content-Disposition: attachment; filename=\"" . basename($properFilename) . "\";");\nheader("Content-Transfer-Encoding: binary");\nheader("Content-Length: " . filesize($filename));\nreadfile("$filename");\nexit();

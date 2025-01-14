@@ -1,0 +1,1 @@
+def reverse_words(input_string):\n    words = input_string.split()  # Split the string into words\n    reversed_words = words[::-1]  # Reverse the list of words\n    return ' '.join(reversed_words)  # Join them back into a string\n\ninput_string = "Hello everybody in stackoverflow"\noutput_string = reverse_words(input_string)\nprint(output_string)

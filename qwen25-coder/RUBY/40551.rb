@@ -1,0 +1,1 @@
+require 'net/https'\nrequire 'uri'\n\nuri = URI.parse('https://example.com')\n\nhttp = Net::HTTP.new(uri.host, uri.port)\nhttp.use_ssl = true\nhttp.verify_mode = OpenSSL::SSL::VERIFY_NONE\n\nresponse = http.get('/')\nputs response.body

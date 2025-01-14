@@ -1,0 +1,1 @@
+from collections import OrderedDict\n\nstateOrderedDict = OrderedDict([\n    ("ALABAMA", "AL"),\n    ("ALASKA", "AK"),\n    # continue with other states...\n    ("WYOMING", "WY")\n])\n\nfor stateName, stateAbbreviation in stateOrderedDict.items():\n    print(f"The abbreviation for {stateName} is {stateAbbreviation}.")

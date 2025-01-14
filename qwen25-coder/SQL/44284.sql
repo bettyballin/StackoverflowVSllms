@@ -1,0 +1,1 @@
+DELETE FROM YourTableName\nWHERE CreatedDate < DATEADD(DAY, -30, GETDATE())

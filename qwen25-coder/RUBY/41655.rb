@@ -1,0 +1,1 @@
+class User < ApplicationRecord\n  enum status: { invited: 0, registered: 1 }\n\n  after_initialize :set_default_status\n\n  protected\n\n  def set_default_status\n    self.status ||= :invited\n  end\n\n  public\n\n  def register!(password)\n    self.password = password\n    self.status = :registered\n    save!\n  end\nend

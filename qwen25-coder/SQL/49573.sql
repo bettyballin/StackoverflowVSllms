@@ -1,0 +1,1 @@
+RESTORE LOG [DB-Name] \n   FROM DISK = 'C:\Path\To\LogBackup1.trn'\n   WITH NORECOVERY;\n\n   RESTORE LOG [DB-Name] \n   FROM DISK = 'C:\Path\To\LogBackup2.trn'\n   WITH NORECOVERY;

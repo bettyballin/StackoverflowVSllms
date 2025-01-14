@@ -1,0 +1,1 @@
+ame = "John Doe"\n   age = 30\n   city = "New York"

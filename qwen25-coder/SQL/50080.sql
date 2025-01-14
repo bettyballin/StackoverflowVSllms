@@ -1,0 +1,1 @@
+INSERT INTO LinkedServer_Name.DatabaseName.SchemaName.TableName (Column1, Column2)\n   VALUES ('Value1', 'Value2');

@@ -1,0 +1,1 @@
+var text = $('a.Tag.Resource').text();\nconsole.log(text); // This will output: "test"

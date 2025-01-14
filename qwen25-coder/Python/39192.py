@@ -1,0 +1,1 @@
+some_list1 = []\nsome_list1.append("something")  # Adds 'something' as a single element\n# some_list1 is now: ['something']\n\nsome_list2 = []\nsome_list2 += ["something"]     # Extends the list by adding each element from ["something"]\n# some_list2 is also: ['something']

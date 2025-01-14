@@ -1,0 +1,1 @@
+SELECT 10 / (2 * 3); -- This will evaluate as (10 / (2 * 3)) resulting in approximately 1.67

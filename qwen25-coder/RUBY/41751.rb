@@ -1,0 +1,1 @@
+FactoryBot.define do\n  factory :transporter do\n    sequence(:company_name) { |n| "transporter_company#{n}" }\n    # Default status can be set here if needed\n    # status 'created'\n  end\nend

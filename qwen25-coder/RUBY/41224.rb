@@ -1,0 +1,1 @@
+# config/routes.rb\nresources :as do\n  resources :bs, only: [:index, :create, :destroy], controller: "a_bs"\nend\n\nresources :bs do\n  resources :as, only: [:index, :create, :destroy], controller: "b_as"\nend

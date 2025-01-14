@@ -1,0 +1,1 @@
+$archive = new Phar('application.phar');\n   $build = glob('src/**/*.php');\n   foreach ($build as $file) {\n       $localName = substr($file, strlen(__DIR__) + 1);\n       if (strpos($localName, '.DS_Store') !== false) {\n           continue;\n       }\n       $archive[$localName] = file_get_contents($file);\n   }

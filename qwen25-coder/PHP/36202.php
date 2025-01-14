@@ -1,0 +1,1 @@
+// Fetch all rows into an array first\n$allRows = [];\nwhile ($row2 = pg_fetch_row($result_tags)) {\n    $allRows[] = $row2;\n}\n\n// Now iterate over the array with a for-loop\nfor ($i = 0; $i < count($allRows); $i++) {\n    $row2 = $allRows[$i];\n    // Perform your operations here using $row2\n}

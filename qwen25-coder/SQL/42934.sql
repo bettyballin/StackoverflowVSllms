@@ -1,0 +1,1 @@
+SELECT \n    u.username AS username,\n    a.name AS activity_name\nFROM \n    user u\nJOIN \n    session s ON u.user_id = s.user_id\nJOIN \n    user_activity ua ON s.session_id = ua.session_id\nJOIN \n    activity a ON ua.activity_id = a.activity_id;

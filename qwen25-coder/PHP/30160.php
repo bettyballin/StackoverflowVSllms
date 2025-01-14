@@ -1,0 +1,1 @@
+// Execute the SELECT statement\n$mySqlSelect = mysql_query("SELECT itemid, points FROM items WHERE id='1'");\n\n// Execute the UPDATE statement separately\nmysql_query("UPDATE accounts SET userpoints = '1000'");

@@ -1,0 +1,1 @@
+Public Function IsValidValue(ByVal type As Type, ByVal value As String) As Boolean\n    Dim fields = type.GetFields(BindingFlags.Public Or BindingFlags.Static)\n    For Each field As FieldInfo In fields\n        If CType(field.GetValue(Nothing), String) = value Then\n            Return True\n        End If\n    Next\n    Return False\nEnd Functio

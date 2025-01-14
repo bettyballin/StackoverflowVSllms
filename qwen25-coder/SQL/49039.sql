@@ -1,0 +1,1 @@
+DECLARE @ResultingTagID int;\n\nEXEC GetOrInsertTagID 'YourTagNameHere', @ResultingTagID OUTPUT;\n\nSELECT @ResultingTagID AS ResultingTagID;

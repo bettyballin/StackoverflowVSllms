@@ -1,0 +1,1 @@
+// pages/index.js\nimport React from 'react';\n\nconst Home = () => {\n  return (\n    <div>\n      <h1>Hello, World!</h1>\n      <p>This is a simple example using React with Next.js.</p>\n    </div>\n  );\n};\n\nexport default Home;

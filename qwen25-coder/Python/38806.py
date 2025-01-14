@@ -1,0 +1,1 @@
+mytuple = (\n    ["tomato", 3],\n    ["say", 2],\n    ["say", 5],\n    ["I", 4],\n    ["you", 1],\n    ["tomato", 6],\n)\n\n# Convert the tuple to a list and sort it by the second element of each list\nsorted_list = sorted(mytuple, key=lambda x: x[1])\n\nprint(sorted_list)

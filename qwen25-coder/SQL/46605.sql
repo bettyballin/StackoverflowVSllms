@@ -1,0 +1,1 @@
+SELECT \n    PersonID,\n    MAX(CASE WHEN ApplicationID = 1 THEN PersonApplicationID END) AS DRIMaster, \n    MAX(CASE WHEN ApplicationID = 6 THEN PersonApplicationID END) AS DRIclient\nFROM \n    [OtherDB].dbo.tblApplicationAssociation  -- Ensure you reference the correct database and schema\nWHERE \n    ApplicationID IN (1, 6)\nGROUP BY \n    PersonID;

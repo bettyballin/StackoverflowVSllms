@@ -1,0 +1,1 @@
+$.post(url, params, function(data) {\n    // Assuming data is an XML document\n    var xml = $(data);\n    var tableContent = xml.find('table#test').html();\n    \n    $('#queryresultsblock').html(tableContent);\n}, "xml");

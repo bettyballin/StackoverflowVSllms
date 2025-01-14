@@ -1,0 +1,1 @@
+IF 1 = 0 -- This condition is false, so this block will never execute at runtime\n   BEGIN\n       CREATE TABLE #xxxx\n       (\n           Column1 INT,\n           Column2 VARCHAR(50)\n           -- Add all other columns here\n       )\n       \n       DROP TABLE #xxxx\n   END\n\n   -- Actual stored procedure logic starts here

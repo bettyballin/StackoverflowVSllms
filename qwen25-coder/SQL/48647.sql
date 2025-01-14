@@ -1,0 +1,1 @@
+CREATE PROCEDURE YourStoredProcedureName\nAS\nBEGIN\n    -- Your INSERT or other operations here\n\n    DECLARE @IdentityValue INT;\n    SELECT @IdentityValue = SCOPE_IDENTITY();\n\n    RETURN @IdentityValue;  -- Return the value using a variable\nEND

@@ -1,0 +1,1 @@
+$type = 'example';\n$example_method = 'Hello, World!';\n\n// Dynamically constructs $example_method variable name and gets its value\necho ${"{$type}_method"}; // Outputs: Hello, World!

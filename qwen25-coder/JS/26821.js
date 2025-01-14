@@ -1,0 +1,1 @@
+// MyCustomScript.js\ndocument.addEventListener('DOMContentLoaded', function() {\n    var divElement = document.getElementById('interactive-element');\n    // Add interactivity to the div element\n});

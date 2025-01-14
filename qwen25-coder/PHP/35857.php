@@ -1,0 +1,1 @@
+$a = "example";\n$b = $a; // No copying happens here\n$b .= " of usage"; // Now $b is modified, so a copy is made

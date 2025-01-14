@@ -1,0 +1,1 @@
+CREATE TABLE Parent (\n    ID INT PRIMARY KEY,\n    Value VARCHAR(50)\n);\n\nCREATE TABLE Child (\n    ID INT PRIMARY KEY,\n    ParentID INT,\n    FOREIGN KEY (ParentID) REFERENCES Parent(ID)\n    ON DELETE CASCADE -- This will delete child rows when parent is deleted.\n    ON UPDATE CASCADE -- This will update child ParentID as parent ID changes.\n);

@@ -1,0 +1,1 @@
+// data.php\n   <?php\n   header('Content-Type: application/json');\n   echo json_encode(['post_url' => '/post_handler.php']);\n   ?>

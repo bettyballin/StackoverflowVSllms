@@ -1,0 +1,1 @@
+UPDATE inventoryDetails idet\nINNER JOIN (\n    SELECT bomModelNumber, FIRST(bomItemDesc) AS bomItemDescription\n    FROM BOM_TEMPLATES\n    GROUP BY bomModelNumber\n) bt ON idet.modelNumber = bt.bomModelNumber\nSET idet.item_desc = bt.bomItemDescription;

@@ -1,0 +1,1 @@
+var triggerDivArray = $('[id^="triger"]').get();

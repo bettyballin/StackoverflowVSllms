@@ -1,0 +1,1 @@
+class MyClass {\n    const MY_CONSTANT = 'constant value';\n    public static $myStaticProperty = 'static property';\n\n    public static function myStaticMethod() {\n        return self::$myStaticProperty;\n    }\n}\n\necho MyClass::MY_CONSTANT; // Accessing a constant\necho MyClass::myStaticMethod(); // Calling a static method

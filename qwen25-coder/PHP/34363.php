@@ -1,0 +1,1 @@
+<?php\n// myFile.php\necho "The ID is: " . htmlspecialchars($id, ENT_QUOTES, 'UTF-8');\n?>

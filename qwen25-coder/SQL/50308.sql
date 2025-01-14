@@ -1,0 +1,1 @@
+WITH LatestActiveObjects AS (\n    SELECT Id, MAX(GenerationId) AS LatestGenID\n    FROM MyObjects\n    WHERE GenerationId <= <YourTargetGeneration>\n      AND DeleteAction = 0\n    GROUP BY Id\n)\nSELECT mo.Id, mo.GenerationId, mo.Value\nFROM MyObjects mo\nJOIN LatestActiveObjects lao ON mo.Id = lao.Id AND mo.GenerationType = lao.LatestGenID;

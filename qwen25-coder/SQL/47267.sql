@@ -1,0 +1,1 @@
+UPDATE your_table_name SET datetime_column = NOW();

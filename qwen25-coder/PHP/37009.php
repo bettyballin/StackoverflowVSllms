@@ -1,0 +1,1 @@
+wfLoadExtension( 'PluggableAuth' );\nwfLoadExtension( 'SAML2' );\n\n$wgPluggableAuth_EnableAutoCreate = true;\n$wgPluggableAuth_AllowLinkExistingAccounts = true;\n\n$wgSAML_IdP_EntityId = '<YourIDPEntityId>';\n$wgSAML_SP_EntityId = '<YourSPEntityId>';\n$wgSAML_SSO_Url = '<YourSSOServiceURL>';\n$wgSAML_CertificateFingerprint = '<YourCertificateFingerprint>';

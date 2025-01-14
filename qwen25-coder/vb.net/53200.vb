@@ -1,0 +1,1 @@
+Public Class WinFormsLanguagePreferenceProvider Implements ILanguagePreferenceProvider\n    Public Function GetUserPreferredLanguage() As String Implements ILanguagePreferenceProvider.GetUserPreferredLanguage\n        ' Example of getting the language from user settings or system locale\n        Return My.Settings.PreferredLanguage ' Example setting\n    End Function\nEnd Class

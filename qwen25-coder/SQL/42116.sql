@@ -1,0 +1,1 @@
+UPDATE table\nSET status = 1\nWHERE id IN (\n    SELECT id\n    FROM table\n    WHERE status = 2\n    LIMIT 400\n);

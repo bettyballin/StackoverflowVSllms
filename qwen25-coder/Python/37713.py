@@ -1,0 +1,1 @@
+import subprocess\nmodule_name = '<module_name>'\nfile_path = __import__(module_name).__file__\n\n# Using subprocess to call IDLE with the file to open\nsubprocess.run(['idle', '-e', f'open("{file_path}")'])

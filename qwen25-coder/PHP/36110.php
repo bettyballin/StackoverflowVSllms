@@ -1,0 +1,1 @@
+<?php\necho "Hello, this is data fetched via Ajax!";\n?>

@@ -1,0 +1,1 @@
+<% Using Html.BeginForm("Create", "Model", Nothing, New With {.id = "CreateForm"}, Nothing) %>\n    <!-- Form elements go here -->\n<% End Using %>

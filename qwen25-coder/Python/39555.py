@@ -1,0 +1,1 @@
+from os.path import dirname, basename, isfile, join\n   import glob\n   modules = glob.glob(join(dirname(__file__), "*.py"))\n   __all__ = [ basename(f)[:-3] for f in modules if isfile(f) and not f.endswith('__init__.py')]\n\n   # Optionally, auto-import all modules into package namespace\n   from . import *

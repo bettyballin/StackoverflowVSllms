@@ -1,0 +1,1 @@
+DECLARE\n  v_qstns_to_delete VARCHAR2(100) := '24, 43, 23, 44, 21';\nBEGIN\n  UPDATE org.security_training_question a\n  SET a.actv_indr = 'N'\n  WHERE a.qstn_id IN (\n    SELECT TO_NUMBER(REGEXP_SUBSTR(v_qstns_to_delete, '[^,]+', 1, LEVEL))\n    FROM dual\n    CONNECT BY REGEXP_SUBSTR(v_qstns_to_delete, '[^,]+', 1, LEVEL) IS NOT NULL\n  );\nEND;\n/

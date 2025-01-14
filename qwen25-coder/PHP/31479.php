@@ -1,0 +1,1 @@
+// Example usage in index.php\nrequire 'config.php';\nrequire 'MyClass.php';\n\n$myApp = new MyClass($config);\necho $myApp->renderForm();

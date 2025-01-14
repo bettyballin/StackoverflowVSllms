@@ -1,0 +1,1 @@
+ALTER TABLE assignment DROP COLUMN locationID;

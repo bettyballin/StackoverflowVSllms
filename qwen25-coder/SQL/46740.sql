@@ -1,0 +1,1 @@
+GO\n-- Enable execution plan XML output\nSET SHOWPLAN_XML ON;\n-- Execute the stored procedure with sample parameters\nEXEC YourStoredProcedure @param1 = 1, @param2 = 'someValue';\n-- Turn off execution plan output\nSET SHOWPLAN_XML OFF;\nGO

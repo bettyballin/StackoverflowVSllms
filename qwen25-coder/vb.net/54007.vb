@@ -1,0 +1,1 @@
+Private Sub RichTextBox1_KeyDown(sender As Object, e As KeyEventArgs) Handles RichTextBox1.KeyDown\n    If e.KeyCode = Keys.Enter Then\n        ' Insert a new line into the RichTextBox\n        RichTextBox1.AppendText(Environment.NewLine)\n\n        ' Prevent the default behavior (like dialog closing)\n        e.SuppressKeyPress = True\n    End If\nEnd Sub

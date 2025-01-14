@@ -1,0 +1,1 @@
+Dim Parts As SubSonic.PartCollection\n' Assume Parts is populated...\nParts.ForEach(Sub(p) TestMethod(p))

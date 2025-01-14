@@ -1,0 +1,1 @@
+function removeBOM($filename){\n    $content = file_get_contents($filename);\n    if(substr($content, 0,3) == pack("CCC",0xef,0xbb,0xbf)) {\n        file_put_contents($filename, substr($content, 3));\n        echo "BOM removed from the file\n";\n    } else {\n        echo "No BOM found in the file\n";\n    }\n}

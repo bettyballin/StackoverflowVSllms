@@ -1,0 +1,1 @@
+# Example of a simple Hypothesis test\n   from hypothesis import given\n   from hypothesis.strategies import text\n\n   def greet(name):\n       return f"Hello {name}!"\n\n   @given(text())\n   def test_greeter(name):\n       assert isinstance(greet(name), str)

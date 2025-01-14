@@ -1,0 +1,1 @@
+select @s = @s + s from #test order by dbo.wtfunc(s);

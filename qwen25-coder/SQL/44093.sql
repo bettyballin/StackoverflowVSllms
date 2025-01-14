@@ -1,0 +1,1 @@
+SELECT comment_id, parent_id, author, content, created_at\nFROM comments\nWHERE parent_id IS NULL\nORDER BY created_at DESC\nLIMIT :offset, :limit;

@@ -1,0 +1,1 @@
+# You need to install WeasyPrint first: pip install weasyprint\nfrom weasyprint import HTML\n\ndef generate_pdf_from_html(url_or_path, output_filename='output.pdf'):\n    # Load the document and write it as PDF file\n    HTML(filename=url_or_path).write_pdf(output_filename)\n\ngenerate_pdf_from_html('http://example.com', 'example_print_output.pdf')

@@ -1,0 +1,1 @@
+<configuration>\n  <unity xmlns="http://schemas.microsoft.com/practices/2010/unity">\n    <container name="MyContainer">\n      <register type="IOperation" mapTo="Add"/>\n      <register type="IOperation" mapTo="Subtract"/>\n      <register type="IOperation" mapTo="Multiply"/>\n    </container>\n  </unity>\n</configuration>

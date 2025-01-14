@@ -1,0 +1,1 @@
+DELIMITER //\n\nCREATE PROCEDURE `blah`\n(\n  myDefaultParam INT DEFAULT 0\n)\nBEGIN\n  -- Do something here\nEND //\n\nDELIMITER ;

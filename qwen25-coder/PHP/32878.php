@@ -1,0 +1,1 @@
+<?php\n$date = '2008-09-28 9:19 pm';\n$newDate = preg_replace('/ /', '<br>', $date, 1);\necho $newDate;\n?>

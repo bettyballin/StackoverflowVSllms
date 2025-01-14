@@ -1,0 +1,1 @@
+from googletrans import Translator\n\ntranslator = Translator()\n\n# Translate from English to French\nresult = translator.translate('Hello world', src='en', dest='fr')\nprint(result.text)  # Output: Bonjour le monde\n\n# Detect the source language\ndetected_language = translator.detect('Bonjour tout le monde')\nprint(detected_language.lang)  # Output: fr

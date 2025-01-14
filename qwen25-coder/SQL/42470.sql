@@ -1,0 +1,1 @@
+ALTER TABLE products \n       ADD INDEX idx_store_id (store_id), \n       ADD INDEX idx_subcategory_id (subcategory_id),\n       ADD INDEX idx_date_range (date_start, date_end);

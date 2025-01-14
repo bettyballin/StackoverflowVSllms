@@ -1,0 +1,1 @@
+SELECT DISTINCT order_no\nFROM orders\nGROUP BY order_no\nHAVING SUM(CASE WHEN finished IS NULL THEN 1 ELSE 0 END) = 0;

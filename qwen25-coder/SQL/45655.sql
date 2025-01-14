@@ -1,0 +1,1 @@
+SELECT DateDiff("d", CDate(Mid([ColA], 1, 4) & "-" & Mid([ColA], 5, 2) & "-" & Mid([ColA], 7, 2)),\n              CDate(Mid([ColB], 1, 4) & "-" & Mid([ColB], 5, 2) & "-" & Mid([ColB], 7, 2))) AS DaysDifference\nFROM YourTableName;

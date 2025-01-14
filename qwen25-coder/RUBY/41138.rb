@@ -1,0 +1,1 @@
+require 'rmagick'\n\ndef capture_screen(region)\n  # region = [100, 100, 200, 300] => x, y, width, height\n  img = Magick::Image.read("screencapture -R#{region.join(',')} png:-")[0]\n  return img\nend\n\n# Example usage\nimg = capture_screen([100, 100, 200, 300])\npixel_value = img.pixel_color(x, y) # Get pixel value at (x, y)

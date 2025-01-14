@@ -1,0 +1,1 @@
+Dim base64EncodedString As String = "[Base64EncodedString from PHP]"\n   Dim byteArray() As Byte = Convert.FromBase64String(base64EncodedString)\n   Dim strCryptedString As String = System.Text.Encoding.UTF8.GetString(byteArray)

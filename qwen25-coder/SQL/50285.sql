@@ -1,0 +1,1 @@
+-- If BlogPost or StreetAddress has high selectivity, you might want to consider an index\nCREATE INDEX idx_blogpost ON YourTable(BlogPost);\nCREATE INDEX idx_streetaddress ON YourTable(StreetAddress);\n\n-- For columns with low selectivity (e.g., only 20 unique values in 10,000 rows)\n-- Likely unnecessary unless extremely used in specific scenarios like joins or filtering

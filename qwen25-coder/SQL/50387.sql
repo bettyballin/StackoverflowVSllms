@@ -1,0 +1,1 @@
+DECLARE\n    CURSOR emp_cursor IS\n      SELECT * FROM employees;\n    v_employee employees%ROWTYPE;\n  BEGIN\n    OPEN emp_cursor;\n    LOOP\n      FETCH emp_cursor INTO v_employee;\n      EXIT WHEN emp_cursor%NOTFOUND;\n      -- Process the data\n    END LOOP;\n    CLOSE emp_cursor;\n  END;

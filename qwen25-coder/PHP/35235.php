@@ -1,0 +1,1 @@
+<?php\n// This will attempt to unload the soap module if loaded.\nif (extension_loaded('soap')) {\n    // Unfortunately, there's no way in PHP to unload an extension at runtime, but you can warn about it or handle fallbacks.\n    trigger_error('SOAP extension is enabled. Consider disabling it.', E_USER_WARNING);\n}

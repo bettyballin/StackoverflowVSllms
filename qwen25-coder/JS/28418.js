@@ -1,0 +1,1 @@
+window.myUniqueWidgetNamespace = window.myUniqueWidgetNamespace || {};\n\nmyUniqueWidgetNamespace.config = {};\nmyUniqueWidgetNamespace.init = function() {\n    // Initialization code here\n};

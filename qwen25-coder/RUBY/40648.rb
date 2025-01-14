@@ -1,0 +1,1 @@
+resource :countries do\n     get 'show_by_name/:name', action: :show_by_name, on: :collection\n   end

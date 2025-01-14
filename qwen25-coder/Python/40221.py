@@ -1,0 +1,1 @@
+initial_data = {'vehicle': instance.vehicle} if instance else {}\nform = IssuesForm(request.POST or None, instance=instance, initial=initial_data)

@@ -1,0 +1,1 @@
+CREATE INDEX idx_event_eventkey ON Event(EventKey);\nCREATE INDEX idx_eventtask_range ON EventTask(StartEventKey, EndEventKey);

@@ -1,0 +1,1 @@
+-- Example: Using varbinary for a bitmask that might grow\nCREATE TABLE Flags (\n    ID INT PRIMARY KEY,\n    BitMask VARBINARY(MAX)\n);

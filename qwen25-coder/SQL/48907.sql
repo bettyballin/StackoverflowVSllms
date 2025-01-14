@@ -1,0 +1,1 @@
+SELECT COUNT(*) \nFROM people\nWHERE CASE \n        WHEN (<condition A>) THEN 1 \n        ELSE 0 \n      END = 1\nAND (NOT (<condition B>) OR <condition B> IS NULL);

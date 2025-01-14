@@ -1,0 +1,1 @@
+CKEDITOR.replace('mytextarea', {\n    autoParagraph: false, // Prevents automatic <p> wrapping for fragments\n    allowedContent: true  // Allows custom control over what HTML tags are accepted\n});

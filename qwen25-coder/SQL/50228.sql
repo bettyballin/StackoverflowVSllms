@@ -1,0 +1,1 @@
+-- Example SQL commands to create a table and perform read/write\nCREATE TABLE IF NOT EXISTS object_states (\n    id INTEGER PRIMARY KEY,\n    state TEXT NOT NULL\n);\n\n-- Insert or update an item\nINSERT INTO object_states (id, state) VALUES (?, ?) \nON CONFLICT(id) DO UPDATE SET state = excluded.state;\n\n-- Read an item\nSELECT state FROM object_states WHERE id = ?;

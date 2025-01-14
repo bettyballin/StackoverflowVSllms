@@ -1,0 +1,1 @@
+/* EventType Table Creation */\n\nCREATE TABLE [EventType]\n(\n [pkEventID]  [int] IDENTITY(1,1) NOT NULL,\n [Description] [nvarchar](50) NOT NULL,\n [BeginDate]  [datetime] NOT NULL,\n [EndDate]  [datetime] NOT NULL,\n [Comments]  [nvarchar](500) NOT NULL,\n CONSTRAINT [PK_EventType] PRIMARY KEY CLUSTERED \n (\n  [pkEventID] ASC\n ) \n ON [PRIMARY]\n)\nON [PRIMARY]\nGO

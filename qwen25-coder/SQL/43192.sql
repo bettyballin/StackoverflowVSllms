@@ -1,0 +1,1 @@
+SELECT \n    m.id AS main_id,\n    m.meta_data,\n    GROUP_CONCAT(s.another_table_id ORDER BY s.another_table_id SEPARATOR ',') AS concatenated_another_table_ids\nFROM main m\nJOIN sub s ON m.id = s.main_id\nGROUP BY m.id, m.meta_data;

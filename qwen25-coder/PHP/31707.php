@@ -1,0 +1,1 @@
+$login = $_SESSION['login'];\n$cleanLogin = trim($login, "'");\necho "Welcome $cleanLogin!";

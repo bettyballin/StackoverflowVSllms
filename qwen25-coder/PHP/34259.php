@@ -1,0 +1,1 @@
+// Example of securing file access in PHP:\n$file = basename($_GET['file']); // Use basename to prevent directory traversal\n$fullPath = "/safe/directory/{$file}";\n\nif (is_readable($fullPath)) {\n    readfile($fullPath);\n} else {\n    http_response_code(403); // Forbidden\n    echo "Access denied.";\n}

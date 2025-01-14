@@ -1,0 +1,1 @@
+class MemberService {\n    public function sharedLogic() {\n        // reusable functionality here\n    }\n}\n\n// In FirstController and SecondController\n$memberService = new MemberService();\n$result = $memberService->sharedLogic();

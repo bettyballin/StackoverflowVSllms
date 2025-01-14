@@ -1,0 +1,1 @@
+DELETE FROM LinkedServer_Name.DatabaseName.SchemaName.TableName\n   WHERE Condition;

@@ -1,0 +1,1 @@
+SELECT HASHBYTES('SHA1', 'YourStringHere') AS SHA1Hash;

@@ -1,0 +1,1 @@
+$query = 'SELECT mydb.CALC_IT(`Flag`, `One`, `Two`) FROM `mydb`.`table` WHERE `Condition` = 1';

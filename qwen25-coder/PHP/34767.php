@@ -1,0 +1,1 @@
+$text = 'John Doe was born on... <img src="/jd.jpg" alt="John Doe at the beach" />';\n\n// Use preg_replace with negative lookahead and lookbehind to ensure "John Doe" is not inside a tag.\n$newText = preg_replace('/(?!<[^>]*)>John Doe(?<!<\/[^>]*>)/', 'Jane Smith', $text);\n\necho $newText;

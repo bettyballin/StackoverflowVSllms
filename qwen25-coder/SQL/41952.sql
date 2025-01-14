@@ -1,0 +1,1 @@
+CREATE TYPE person_type AS OBJECT (\n    name VARCHAR(100),\n    age NUMBER(3)\n);

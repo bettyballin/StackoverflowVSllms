@@ -1,0 +1,1 @@
+INSERT INTO YourTable (Column1, Column2)\nOUTPUT INSERTED.YourGuidColumn\nVALUES (@column1, @column2);

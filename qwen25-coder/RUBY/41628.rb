@@ -1,0 +1,1 @@
+def feed_for_user(current_user)\n  Message.joins(user: :followers)\n         .where(follows: { follower_id: current_user.id })\nend

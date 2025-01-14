@@ -1,0 +1,1 @@
+<PropertyGroup>\n       <AssemblyOriginatorKeyFile>yourkeyfile.snk</AssemblyOriginatorKeyFile>\n       <SignAssembly>true</SignAssembly>\n       <DelaySign>false</DelaySign>\n       <CertificateThumbprint>{THUMBPRINT}</CertificateThumbprint> <!-- Use this if you have a specific thumbprint -->\n     </PropertyGroup>

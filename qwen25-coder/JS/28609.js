@@ -1,0 +1,1 @@
+const express = require('express');\nconst router = express.Router();\n\n// Define calendar-specific routes here\nrouter.get('/', (req, res) => {\n    res.send('Calendar Home Page');\n});\n\nrouter.post('/event', (req, res) => {\n    res.send('Create Calendar Event');\n});\n\nmodule.exports = router;

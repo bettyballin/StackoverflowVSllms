@@ -1,0 +1,1 @@
+SELECT \n    a.id AS article_id,\n    i.id AS issue_id,\n    LEAST(a.release_date, i.release_date) AS earliest_release_date\nFROM \n    articles a\nJOIN \n    issues i ON some_join_condition -- Replace with your actual join condition\nORDER BY \n    earliest_release_date;

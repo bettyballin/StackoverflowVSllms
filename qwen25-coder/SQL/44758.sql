@@ -1,0 +1,1 @@
+WITH CTE AS (\n    SELECT *, \n           ROW_NUMBER() OVER (ORDER BY creation DESC) AS rn\n    FROM tRealtyTrac\n)\nDELETE FROM CTE WHERE rn > 3000;

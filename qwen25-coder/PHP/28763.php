@@ -1,0 +1,1 @@
+<?php\n\nrequire 'vendor/autoload.php';\n\nuse SebastianBergmann\Diff\Differ;\nuse SebastianBergmann\Diff\Output\UnifiedDiffOutputBuilder;\nuse SebastianBergmann\Diff\Output\InlineHtmlDiffOutputBuilder;\n\n$old = "Hello World";\n$new = "Hello beautiful World";\n\n$differ = new Differ(new InlineHtmlDiffOutputBuilder());\n\necho $differ->diff($old, $new);\n\n?>

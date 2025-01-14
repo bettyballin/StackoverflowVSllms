@@ -1,0 +1,1 @@
+old_array = [1, 2, 4, 7]\nnew_array = old_array.each_cons(2).map { |a, b| b - a }\nputs new_array.inspect

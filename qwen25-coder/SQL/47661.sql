@@ -1,0 +1,1 @@
+SELECT DATE(timestamp) AS date, COUNT(DISTINCT email) AS count\nFROM log\nWHERE timestamp > '2009-02-23'\nAND timestamp < '2020-01-01'\nAND TYPE = 'play'\nGROUP BY DATE(timestamp)\nORDER BY DATE(timestamp) DESC;

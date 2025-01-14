@@ -1,0 +1,1 @@
+CREATE DATABASE LINK remote_db_link\n   CONNECT TO remote_user IDENTIFIED BY remote_password\n   USING 'remote_db';

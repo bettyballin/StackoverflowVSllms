@@ -1,0 +1,1 @@
+-- Example with explicit PK/FK indicators\nselect \n    orders.order_id_pk, \n    customers.customer_name,\n    orders.order_date,\n    order_details.product_name,\n    order_details.quantity\nfrom \n    orders\ninner join \n    customers on orders.customer_id_fk = customers.customer_id_pk\ninner join \n    order_details on orders.order_id_pk = order_details.order_id_fk;

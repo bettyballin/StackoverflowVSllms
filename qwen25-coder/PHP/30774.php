@@ -1,0 +1,1 @@
+echo sprintf("%s\n%s\n%s\n%s\n%s\n%s\n",\n    '<html>',\n    '<head>',\n    '</head>',\n    '<body>',\n    '</body>',\n    '</html>'\n);

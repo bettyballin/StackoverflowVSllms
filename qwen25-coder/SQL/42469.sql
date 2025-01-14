@@ -1,0 +1,1 @@
+SELECT AVG(\n    1 + \n    (LENGTH(content) - LENGTH(REPLACE(content, ' ', '')) \n    - LENGTH(TRIM(content)) + 1)\n) AS avg_words\nFROM documents;

@@ -1,0 +1,1 @@
+# Very basic example that echoes input to output\nwhile line = gets\n  puts line\nend

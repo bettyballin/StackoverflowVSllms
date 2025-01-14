@@ -1,0 +1,1 @@
+<pre id="putItHere" style="white-space: pre;"></pre>\n\n<script>\nfunction putText() {\n   document.getElementById("putItHere").textContent = "first line\nsecond line";\n}\n</script>

@@ -1,0 +1,1 @@
+<configuration>\n     <system.webServer>\n       <asp scriptErrorSentToBrowser="true" />\n       <httpErrors existingResponse="PassThrough" />\n     </system.webServer>\n   </configuration>

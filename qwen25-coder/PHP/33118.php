@@ -1,0 +1,1 @@
+define('WP_DEBUG', true);\n   error_reporting(E_ALL);\n   define('WP_DEBUG_LOG', true);

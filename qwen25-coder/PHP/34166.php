@@ -1,0 +1,1 @@
+function isRequestFromLocalhost() {\n    $remoteAddr = $_SERVER['REMOTE_ADDR'] ?? '';\n    // Check for both IPv4 and IPv6 loopback addresses\n    return ($remoteAddr === '127.0.0.1' || $remoteAddr === '::1');\n}\n\nif (isRequestFromLocalhost()) {\n    echo "The request is coming from the same server.";\n} else {\n    echo "The request is not coming from the same server.";\n}

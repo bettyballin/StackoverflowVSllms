@@ -1,0 +1,1 @@
+SET @SomeVariable = @AnotherVariable / \n                    CASE \n                        WHEN @VariableEqualToZero IS NULL OR @VariableEqualToZero = 0 THEN 1\n                        ELSE @VariableEqualToZero\n                    END - 1

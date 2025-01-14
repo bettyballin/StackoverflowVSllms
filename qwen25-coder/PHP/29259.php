@@ -1,0 +1,1 @@
+// Before learning about prepared statements and parameterized queries\n$query = "SELECT * FROM users WHERE username = '" . $_GET['username'] . "'";\n\n// After learning the importance of prepared statements from the guide\n$stmt = $pdo->prepare("SELECT * FROM users WHERE username = :username");\n$stmt->execute(['username' => $_GET['username']]);\n$user = $stmt->fetch();

@@ -1,0 +1,1 @@
+SELECT  *\nFROM    (\n        SELECT  *\n        FROM    mytable\n        ORDER BY dbms_random.value\n) \nWHERE rownum <= 1000

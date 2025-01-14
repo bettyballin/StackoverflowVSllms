@@ -1,0 +1,1 @@
+SELECT items.id, ranges.range_name\n   FROM items\n   JOIN ranges ON items.value >= ranges.min_value AND items.value <= ranges.max_value;

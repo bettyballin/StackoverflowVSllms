@@ -1,0 +1,1 @@
+SELECT * FROM OPENQUERY(MyLinkedServerName, 'SELECT TOP 10 * FROM MyDatabase.dbo.MyTable');

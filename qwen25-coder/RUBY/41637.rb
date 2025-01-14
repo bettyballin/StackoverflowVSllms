@@ -1,0 +1,1 @@
+require 'benchmark/ips'\n\n   Benchmark.ips do |x|\n     x.report("test") { # Some code here }\n   end

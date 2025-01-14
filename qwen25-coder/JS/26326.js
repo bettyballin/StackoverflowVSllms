@@ -1,0 +1,1 @@
+function IssueDescValidation(sender, args) {\n    var issuedesc = document.getElementById(sender.controltovalidate);\n    // Check if the value is not empty after trimming whitespace\n    if (issuedesc.value.trim().length > 0) {\n        args.IsValid = true; // Set to true if there's text\n    } else {\n        args.IsValid = false; // Set to false if no text\n    }\n}

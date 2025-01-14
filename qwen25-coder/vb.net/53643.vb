@@ -1,0 +1,1 @@
+For Each I As Item In Items\n\n    If I = x Then \n        Continue For ' Move to next item\n    End If\n\n    ' Do something\n\nNext

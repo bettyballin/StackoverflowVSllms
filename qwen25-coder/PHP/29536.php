@@ -1,0 +1,1 @@
+function sanitizeHTML($input) {\n    $dom = new DOMDocument();\n    // Suppress errors due to malformed HTML\n    @$dom->loadHTML('<!DOCTYPE html><html><head><title>Temp</title></head><body>' . $input . '</body></html>');\n    return $dom->saveHTML($dom->getElementsByTagName('body')->item(0));\n}\n\n$cleanHtml = sanitizeHTML($row['article_Desc']);\necho $cleanHtml;

@@ -1,0 +1,1 @@
+CREATE TABLE LicenseOveruseEvents (\n      EventId INT PRIMARY KEY IDENTITY,\n      ExceedTimeStart DATETIME NOT NULL,\n      ExceedTimeEnd DATETIME, -- use NULL if overuse hasn't ended yet\n      ExceedCount INT NOT NULL -- how many users were over the limit\n  );

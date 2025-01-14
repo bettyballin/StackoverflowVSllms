@@ -1,0 +1,1 @@
+<?php\n// Example of basic input sanitization\n$input = filter_input(INPUT_GET, 'param', FILTER_SANITIZE_STRING);\n\nif ($input !== false) {\n    // Process the sanitized input\n} else {\n    // Handle error or missing input\n}\n?>

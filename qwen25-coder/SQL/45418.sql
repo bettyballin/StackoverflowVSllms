@@ -1,0 +1,1 @@
+CREATE INDEX idx_text_prefix ON some_table(some_field) WHERE some_field LIKE 'text%';

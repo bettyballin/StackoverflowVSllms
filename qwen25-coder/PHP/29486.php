@@ -1,0 +1,1 @@
+<script>\n<?php\n$constantsClassReflection = new ReflectionClass('Constants');\n$constants = $constantsClassReflection->getConstants();\necho "const AppConstants = ", json_encode($constants), ";";\n?>\n</script>

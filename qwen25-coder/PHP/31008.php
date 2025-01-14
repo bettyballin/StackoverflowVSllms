@@ -1,0 +1,1 @@
+public function TestAction()\n{\n    $startTime = microtime(true);\n\n    // Simulate some processing logic here\n    for ($i = 0; $i < 1000; $i++) {\n        sqrt($i);\n    }\n\n    $executionTime = (microtime(true) - $startTime) * 1000;\n    return view('test', ['executionTime' => $executionTime]);\n}

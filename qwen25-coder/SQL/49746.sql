@@ -1,0 +1,1 @@
+SELECT username, \n       AVG(rating) AS TheAverage, \n       COUNT(*) AS TheCount\nFROM ratings\nWHERE month = 'Aug'\nGROUP BY username\nHAVING COUNT(*) > 1\nORDER BY TheAverage DESC, TheCount DESC;

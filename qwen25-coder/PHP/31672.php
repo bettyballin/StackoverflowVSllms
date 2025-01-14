@@ -1,0 +1,1 @@
+if (!function_exists('alphanumeric')) {\n    function alphanumeric($str) {\n        return strtolower(preg_replace("/[^A-Za-z0-9]/",'',$str));\n    }\n}

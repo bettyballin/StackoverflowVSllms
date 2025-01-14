@@ -1,0 +1,1 @@
+Public Function ValidateAmount(ByVal amount As Decimal) As String\n    If amount < 0 Then\n        Return "Error: Amount must be a non-negative value."\n    Else\n        Return ""\n    End If\nEnd Functio

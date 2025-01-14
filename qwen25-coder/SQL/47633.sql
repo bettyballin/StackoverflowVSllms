@@ -1,0 +1,1 @@
+SELECT *\nFROM Document, DocumentStats\nWHERE DocumentStats.DocumentId = Document.Id -- Corrected line\n  AND DocumentStats.NbViews > 500;

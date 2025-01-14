@@ -1,0 +1,1 @@
+# Example of how to use NewsAPI in Python for general news filtering by category or keywords\n   import requests\n\n   api_key = 'YOUR_API_KEY'\n   url = f'https://newsapi.org/v2/top-headlines?category=business&country=us&apiKey={api_key}'\n   response = requests.get(url)\n   data = response.json()\n   print(data)

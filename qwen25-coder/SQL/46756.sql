@@ -1,0 +1,1 @@
+INSERT /*+ APPEND */ INTO mytable SELECT * FROM some_other_table;

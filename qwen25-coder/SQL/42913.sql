@@ -1,0 +1,1 @@
+-- Assuming you have your list of integers in a variable or can be passed as part of the query\nWITH friend_ids (id) AS (\n    VALUES (1), (2), (3), (4) -- replace these with your actual IDs\n)\nSELECT *\nFROM table t\nJOIN friend_ids f ON t.x = f.id;

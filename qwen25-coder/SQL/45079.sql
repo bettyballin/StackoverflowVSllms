@@ -1,0 +1,1 @@
+SELECT BIT_XOR(some_column) AS aggregate_checksum\nFROM your_table;

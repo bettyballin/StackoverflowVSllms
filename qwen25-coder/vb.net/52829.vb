@@ -1,0 +1,1 @@
+If tempPanelLabel IsNot Nothing AndAlso tempPanelInputBox IsNot Nothing AndAlso tempPanelDropDownBox IsNot Nothing Then\n    tempCollector = tempCollector + "<br>" + tempPanelLabel.Text\n    tempCollector = tempCollector + ": " + tempPanelDropDownBox.SelectedValue\nEnd If

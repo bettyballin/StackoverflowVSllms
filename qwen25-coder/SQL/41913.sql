@@ -1,0 +1,1 @@
+CREATE MINING MODEL [VendorPerformanceModel]\n(\n    [Geography] TEXT DISCRETE,\n    [Size] TEXT DISCRETE,\n    [Age] LONG CONTINUOUS,\n    [VendorID] LONG KEY,\n    [PerformanceScore] DOUBLE PREDICT\n)\nUSING Microsoft_Decision_Trees;

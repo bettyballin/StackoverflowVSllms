@@ -1,0 +1,1 @@
+ALTER TABLE YourTableName\nADD CONSTRAINT DF_YourColumnName DEFAULT ((0)) FOR YourColumnName;

@@ -1,0 +1,1 @@
+$region = isset($_POST['region']) ? $_POST['region'] : null;\n\n     $stmt = $pdo->prepare("INSERT INTO users (fname, lname, role, region, username, password) VALUES (?, ?, ?, ?, ?, ?)");\n     $stmt->execute([$fname, $lname, $role, $region, $username, $hashedPassword]);

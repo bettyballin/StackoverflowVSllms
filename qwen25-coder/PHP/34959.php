@@ -1,0 +1,1 @@
+function page_properties($objPortal, $myrow) {\n    // Assuming $objPortal is an instance of PageAtrributes\n    if ($objPortal instanceof PageAtrributes) {\n        $objPortal->set_page_title($myrow['title']);\n    } else {\n        throw new Exception('Invalid object passed as parameter');\n    }\n}

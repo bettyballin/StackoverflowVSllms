@@ -1,0 +1,1 @@
+WITH CustomerDataWithTransactionCount AS (\n    select \n        customerName, \n        customerId,\n        (\n            select count(*) \n            from Purchases \n            where Purchases.customerId = customerData.customerId\n        ) as numberTransactions\n    from customerData\n)\nSELECT * FROM CustomerDataWithTransactionCount\nORDER BY numberTransactions;

@@ -1,0 +1,1 @@
+$ php -a\nInteractive shell\n\nphp > // Include a file containing a class or function\nphp > require 'path/to/your/file.php';\n\nphp > // Assuming there is a class named MyClass in the included file\nphp > $object = new MyClass();\n\nphp > // Use methods from classes, etc.\nphp > echo $object->someMethod();

@@ -1,0 +1,1 @@
+Public Class Form1\n    Private Sub btnGreet_Click(sender As Object, e As EventArgs) Handles btnGreet.Click\n        Dim userName As String = txtName.Text\n        lblGreeting.Text = "Hello, " & userName & "! Nice to meet you."\n    End Sub\nEnd Class

@@ -1,0 +1,1 @@
+Dim s as new something

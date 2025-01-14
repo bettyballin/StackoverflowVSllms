@@ -1,0 +1,1 @@
+// Assuming dropDownId is the ClientID of your DropDownList\nvar dropDownId = document.getElementById('<%= myDropDown.ClientID %>');\ndropDownId.value = '2'; // Set to the desired value\n\n// Trigger postback\n__doPostBack(dropDownId.name, '');

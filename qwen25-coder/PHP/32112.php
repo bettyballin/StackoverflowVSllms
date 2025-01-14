@@ -1,0 +1,1 @@
+<?php\n   $Config['UserFilesPath'] = '/uploads/';\n   $Config['UserFilesAbsolutePath'] = $_SERVER['DOCUMENT_ROOT'] . '/uploads/';

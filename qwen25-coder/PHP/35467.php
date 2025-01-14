@@ -1,0 +1,1 @@
+// ORM example with Doctrine\n$userRepository = $entityManager->getRepository(User::class);\n$user = $userRepository->findOneBy(['email' => $email]);

@@ -1,0 +1,1 @@
+WITH IndexedItems AS (\n    SELECT id, date,\n           ROW_NUMBER() OVER (ORDER BY date, id) as index_val\n    FROM items\n)\nSELECT curr.id, curr.date,\n       prev.id AS prev_key,\n       next.id AS next_key\nFROM IndexedItems curr\nLEFT JOIN IndexedItems prev ON curr.index_val = prev.index_val + 1\nLEFT JOIN IndexedItems next ON curr.index_val = next.index_val - 1;

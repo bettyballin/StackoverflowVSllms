@@ -1,0 +1,1 @@
+<?php\nheader('Content-Type: text/plain');\necho "Server activity log entry";\n?>

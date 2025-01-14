@@ -1,0 +1,1 @@
+# Define the path to your directory\ndirectory_path = File.expand_path('path/to/your/directory')\n\n# Use Dir.glob to find all .rb files in the directory and require them\nDir.glob(File.join(directory_path, '**', '*.rb')).each do |file|\n  require file\nend

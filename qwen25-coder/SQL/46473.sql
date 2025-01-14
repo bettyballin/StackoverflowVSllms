@@ -1,0 +1,1 @@
+UPDATE nations n\nJOIN (\n    SELECT nation, COUNT(*) AS poet_count\n    FROM poets\n    GROUP BY nation\n) p ON n.id = p.nation\nSET n.count = p.poet_count;

@@ -1,0 +1,1 @@
+class ClassA {\n      public $publicVar = 'I am Public';\n      protected $protectedVar = 'I am Protected';\n      private $privateVar = 'I am Private';\n  }

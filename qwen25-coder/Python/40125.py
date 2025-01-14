@@ -1,0 +1,1 @@
+def add_numbers(a, b, c):\n    return a + b + c

@@ -1,0 +1,1 @@
+SELECT AVG(col1) AS median_value\n     FROM (\n       SELECT col1\n       FROM tbl\n       ORDER BY col1\n       LIMIT 2 - (SELECT COUNT(*) FROM tbl) % 2    -- Handles odd/even count of rows\n       OFFSET (SELECT (COUNT(*) - 1) / 2 FROM tbl) -- Finds the middle point\n     ) AS median_values;

@@ -1,0 +1,1 @@
+CREATE TABLE code_samples (\n    id INT PRIMARY KEY,\n    language VARCHAR(50),\n    code_content TEXT -- Use CLOB if your database system supports and requires it for large text\n);

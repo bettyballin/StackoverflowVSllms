@@ -1,0 +1,1 @@
+SELECT f.name\nFROM Foo f\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM Bar b\n    WHERE b.fooId = f.id AND b.value > 0\n);

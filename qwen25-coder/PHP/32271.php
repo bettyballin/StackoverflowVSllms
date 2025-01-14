@@ -1,0 +1,1 @@
+<option value="http://domain.com/<?php print $k; ?>/" \n        <?php if (isset($_GET['t']) && $_GET['t'] == $k) print 'selected'; ?>>\n    <?php print $v; ?>\n</option>

@@ -1,0 +1,1 @@
+<?php\n// Initialize numbers from integer values\n$a = gmp_init(62574);\n$e = gmp_init(2); // Exponent for squaring\n$n = gmp_init(104659);\n\n// Perform modular exponentiation: (a^e) % n\n$result = gmp_modpow($a, $e, $n);\n\n// Convert result to string and print it\necho gmp_strval($result); // Outputs the correct modulus value\n?>

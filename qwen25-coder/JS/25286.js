@@ -1,0 +1,1 @@
+const htmlSnippet = `\n<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <title>Document</title>\n    <!-- You can include comments here -->\n</head>\n<body>\n    <h1>Main Heading</h1>\n    <p>This is a paragraph in the HTML snippet.</p>\n    <!-- Large content can go here -->\n</body>\n</html>\n`;\n\nconsole.log(htmlSnippet);

@@ -1,0 +1,1 @@
+<?php\n$data = array();\nforeach (array('HTTP_CLIENT_IP', 'HTTP_X_FORWARDED_FOR', 'HTTP_X_FORWARDED', 'HTTP_FORWARDED_FOR', 'HTTP_FORWARDED', 'REMOTE_ADDR') as $key){\n    if (isset($_SERVER[$key]))\n        $data[$key] = $_SERVER[$key];\n}\nprint_r($data);\n?>

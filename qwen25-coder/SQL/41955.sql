@@ -1,0 +1,1 @@
+-- As a DBA, you can flush the shared pool (use cautiously)\n   ALTER SYSTEM FLUSH SHARED_POOL;

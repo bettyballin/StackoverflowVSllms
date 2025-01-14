@@ -1,0 +1,1 @@
+// Assuming $_POST['items'] contains your form data as an array\n$filteredItems = array_filter($_POST['items'], function($value) {\n    return !is_null($value) && $value !== ''; // Remove null and empty string values\n});\n\n$_SESSION['items'] = $filteredItems;

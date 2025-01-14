@@ -1,0 +1,1 @@
+Dim _q As New PriorityQueue(Of Integer)\n_q.Enque(1)\n_q.Enque(2)\nMsgBox(_q.Count())  ' This should now display 2

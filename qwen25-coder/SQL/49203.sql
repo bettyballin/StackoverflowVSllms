@@ -1,0 +1,1 @@
+ALTER SYSTEM SET cursor_sharing = 'SIMILAR' SCOPE=BOTH;

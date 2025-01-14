@@ -1,0 +1,1 @@
+if(hasError == false) {\n    $.post("/process-email-signups", {email_address: email_addressVal},\n        function(data){\n            $("#email_signup_form").hide("slide", { direction: "left" }, 1000, function() {\n                $("#thank_you_message").show("slide", { direction: "right" }, 1000);\n            });\n        }\n    );\n}

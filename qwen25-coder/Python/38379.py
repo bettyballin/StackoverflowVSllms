@@ -1,0 +1,1 @@
+import stat\nimport os\n\npath = 'your_file_path.txt'\nst = os.stat(path)\nmod_time_ns = st.st_mtime_ns  # nanoseconds since epoch\nprint(mod_time_ns)

@@ -1,0 +1,1 @@
+SELECT * \nFROM table1 \nWHERE table1.ID = table2.ID \n   OR table1.ID LIKE '%' + table2.ID;

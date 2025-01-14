@@ -1,0 +1,1 @@
+<?php\n// Check if the variable 'var' is set and assign it to $_GET['var']\nif (isset($params[0])) {\n    $_GET['var'] = $params[0];\n} else {\n    $_GET['var'] = null; // Default value if not provided\n}\n\n// Now you can use $_GET['var'] in your script as normal\necho "The value of var is: " . htmlspecialchars($_GET['var']);\n?>

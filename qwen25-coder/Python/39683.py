@@ -1,0 +1,1 @@
+def burninate(b):\n    c = list(b)  # Create a shallow copy of the list\n    d = []\n    for i in range(3):\n        d.append(c.pop())  # Pop items from the copied list\n    return d\n\na = list(range(6))  # Convert range to list\nd = burninate(a)\nprint(a, d)  # Original list is unchanged

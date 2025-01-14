@@ -1,0 +1,1 @@
+function replaceTextWithJQuery(elementId, newText) {\n    $('#' + elementId).text(newText);\n}\n\n// Usage:\nreplaceTextWithJQuery('myElementId', 'This is the new text.');

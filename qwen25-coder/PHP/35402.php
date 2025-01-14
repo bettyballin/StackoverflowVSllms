@@ -1,0 +1,1 @@
+<?php\n$param1 = 'value1';\n$param2 = 'value2';\n\n// Sanitize the inputs if they come from user input\n$param1 = escapeshellarg($param1);\n$param2 = escapeshellarg($param2);\n\n$output = shell_exec("/path/to/cgi-script.cgi $param1 $param2");\n\necho "<pre>$output</pre>";\n?>

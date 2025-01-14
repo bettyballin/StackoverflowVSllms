@@ -1,0 +1,1 @@
+$xml = simplexml_load_string($xmlstring);\n$title = (string) $xml->channel->item->title;\n$foo = array($title);

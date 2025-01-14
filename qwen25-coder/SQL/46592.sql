@@ -1,0 +1,1 @@
+-- Example of altering a column from numeric(12, 0) to int\nALTER TABLE YourTableName\nALTER COLUMN YourIDColumn INT;

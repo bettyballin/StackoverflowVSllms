@@ -1,0 +1,1 @@
+SELECT Product_Id, CategoryField, category_priority, atribute1, atribute2\nFROM YourTableName\nORDER BY CategoryField,\n         IIF(IsNull(category_priority), 99999, category_priority) DESC;

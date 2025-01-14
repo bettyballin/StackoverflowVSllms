@@ -1,0 +1,1 @@
+delete from @O \nwhere ACount = 0 \n    and Month in (\n        select o2.Month \n        from @O o2 \n        where o2.ACount > 0\n    );

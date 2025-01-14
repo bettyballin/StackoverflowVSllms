@@ -1,0 +1,1 @@
+# Iterator example\nmy_list = [1, 2, 3]\nmy_iterator = iter(my_list)\n\n# Generator expression example\ngen_expr = (x * x for x in my_list)

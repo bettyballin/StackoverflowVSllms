@@ -1,0 +1,1 @@
+-- SQL Command to detach a database named SharePoint_ContentDB\nsp_detach_db SharePoint_ContentDB, 'true'

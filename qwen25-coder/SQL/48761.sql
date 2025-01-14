@@ -1,0 +1,1 @@
+CREATE TABLE replay_rounds (\n    replay_id INT UNSIGNED NOT NULL,\n    round SMALLINT UNSIGNED NOT NULL,\n    winning_id INT UNSIGNED NOT NULL,\n    game_mode ENUM('team', 'individual') NOT NULL,\n    PRIMARY KEY (replay_id, round),\n    FOREIGN KEY (replay_id) REFERENCES replays(id),\n    INDEX (game_mode)\n);

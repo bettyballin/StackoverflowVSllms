@@ -1,0 +1,1 @@
+-- Assuming 'users' table is indexed on the 'email' column\nSELECT name FROM users WHERE email = 'example@example.com';

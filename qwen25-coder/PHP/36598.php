@@ -1,0 +1,1 @@
+function t1() {\n    echo 1;\n}\nfunction t2() { \n    echo 2;\n}\n\n$funcs = array('t1', 't2');\n\nforeach ($funcs as $func) {\n    call_user_func($func); // Use foreach for cleaner code and call_user_func\n}

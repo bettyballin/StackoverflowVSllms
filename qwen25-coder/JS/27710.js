@@ -1,0 +1,1 @@
+import React from 'react';\nimport ReactDOM from 'react-dom';\n\nfunction Welcome(props) {\n  return <h1>Hello, {props.name}</h1>;\n}\n\nconst element = <Welcome name="Sara" />;\nReactDOM.render(\n  element,\n  document.getElementById('root')\n);

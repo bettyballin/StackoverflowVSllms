@@ -1,0 +1,1 @@
+# Python 3.x code to start a simple HTTP server for testing\nimport http.server\nimport socketserver\n\nPORT = 8000\n\nHandler = http.server.SimpleHTTPRequestHandler\n\nwith socketserver.TCPServer(("", PORT), Handler) as httpd:\n    print("Serving at port", PORT)\n    httpd.serve_forever()

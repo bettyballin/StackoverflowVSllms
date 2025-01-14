@@ -1,0 +1,1 @@
+// In modules/mod_breadcrumbs/helper.php, add these lines after $items = $pathway->getPathWay();\necho '<pre>';\nprint_r($items);\necho '</pre>';

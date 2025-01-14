@@ -1,0 +1,1 @@
+UPDATE Sales SET sold_on_is_null = CASE WHEN sold_on IS NULL THEN 1 ELSE 0 END;

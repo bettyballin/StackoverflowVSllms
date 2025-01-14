@@ -1,0 +1,1 @@
+UPDATE voterfile_household vh\nJOIN (\n    SELECT v.ID as PrecID, vf.Precnum\n    FROM voterfile_precienct v\n    INNER JOIN voterfile_household vf ON v.PREC_ID = vf.Precnum\n) t ON vh.Precnum = t.Precnum\nSET vh.PrecID = t.PrecID;

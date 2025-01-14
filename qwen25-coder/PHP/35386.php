@@ -1,0 +1,1 @@
+session_start();\nsession_regenerate_id(true); // true ensures that the old session is deleted and a new one is created with a unique id.

@@ -1,0 +1,1 @@
+CREATE USER 'replica'@'%' IDENTIFIED BY 'password';\n   GRANT REPLICATION SLAVE ON *.* TO 'replica'@'%';\n   FLUSH PRIVILEGES;

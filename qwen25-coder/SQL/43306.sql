@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX idx_bookmarks_url ON Bookmarks(URL) COMPRESS 1;

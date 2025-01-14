@@ -1,0 +1,1 @@
+WITH MaxPayments AS (\n    SELECT CustomerID, MAX(Value) AS MaxValue\n    FROM Payments\n    GROUP BY CustomerID\n)\nSELECT p.*\nFROM Payments p\nJOIN MaxPayments mp ON p.CustomerID = mp.CustomerID AND p.Value = mp.MaxValue;

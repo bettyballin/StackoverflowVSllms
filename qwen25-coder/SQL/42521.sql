@@ -1,0 +1,1 @@
+SELECT * \nFROM RULES \nWHERE (A IS NULL OR A = :a)\n  AND (B IS NULL OR B = :b)\n  AND (C IS NULL OR C = :c);

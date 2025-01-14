@@ -1,0 +1,1 @@
+SELECT \n    TIME_FORMAT(event_time, '%h:%i %p') AS formatted_event_time,\n    other_event_details\nFROM \n    events;

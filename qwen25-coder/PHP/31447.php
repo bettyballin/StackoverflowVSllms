@@ -1,0 +1,1 @@
+// Bootstrap.php\n   protected function _initPlugins()\n   {\n       $frontController = Zend_Controller_Front::getInstance();\n       $sidebarPlugin = new Application_Controller_Plugin_Sidebar();\n       $frontController->registerPlugin($sidebarPlugin);\n   }

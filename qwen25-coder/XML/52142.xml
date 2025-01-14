@@ -1,0 +1,1 @@
+<?xml version="1.0"?>\n<cross-domain-policy>\n    <allow-access-from domain="http://mysite.com" secure="false"/>\n</cross-domain-policy>

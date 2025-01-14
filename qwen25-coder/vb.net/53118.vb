@@ -1,0 +1,1 @@
+Dim objCommand As New SqlCommand("UPDATE " & Tablename & " SET " & column & " = @Data WHERE " & criteria, Connection)\nobjCommand.Parameters.Add("@Data", SqlDbType.VarBinary, -1).Value = BinaryData\nobjCommand.ExecuteNonQuery()

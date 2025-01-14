@@ -1,0 +1,1 @@
+$.post(url, params, function(data) {\n    // Use .html() to insert the response as HTML\n    $('#queryresultsblock').html(data);\n}, "xml"); // or "text", depending on what you server returns

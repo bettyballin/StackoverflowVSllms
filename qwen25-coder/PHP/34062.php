@@ -1,0 +1,1 @@
+<?PHP\nif (isset($_POST['message'])) {\n    // Return a JSON string\n    $response = array('status' => 'success', 'message_received' => $_POST['message']);\n    echo json_encode($response);\n} else {\n    $response = array('status' => 'error', 'message' => 'No message received');\n    echo json_encode($response);\n}\n?>

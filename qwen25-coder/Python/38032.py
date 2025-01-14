@@ -1,0 +1,1 @@
+from bitstring import BitArray\n\n# Example byte data (replace with your actual data)\nbyte_data = b'\x12\x34\x56\x78'\n\n# Create a BitArray from the bytes\nbit_array = BitArray(bytearray(byte_data))\n\n# Interpret the first 13 bits as an unsigned integer\nvalue_13_bits = bit_array[:13].uint\n\nprint(f"The value of the first 13 bits is: {value_13_bits}")

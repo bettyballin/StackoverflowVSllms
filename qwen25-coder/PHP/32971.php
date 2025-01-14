@@ -1,0 +1,1 @@
+public function get_data() {\n    $data = array("attributes" => array(array("type" => "Text", "labels" => "Untitled1")));\n    \n    // No layout and set the response type to JSON\n    $this->layout = 'ajax'; // or false if you have no special ajax layout\n    $this->autoRender = false;\n    $this->response->type('json');\n    \n    echo json_encode($data);\n}

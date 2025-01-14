@@ -1,0 +1,1 @@
+rake db:export_table_to_yaml

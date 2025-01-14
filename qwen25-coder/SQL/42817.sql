@@ -1,0 +1,1 @@
+SELECT BITXOR(column1, column2) FROM your_table;

@@ -1,0 +1,1 @@
+SELECT Category, SUM(CASE WHEN Category <> 'ExcludeThis' THEN Value ELSE 0 END) AS ConditionalSum\nFROM YourTable\nGROUP BY Category;

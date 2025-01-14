@@ -1,0 +1,1 @@
+from django.test import TestCase, override_settings\n\n@override_settings(DATABASES={\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': 'test_db',\n        'USER': 'user',\n        'PASSWORD': 'password',\n        'HOST': 'localhost',\n        'PORT': '',\n    }\n})\nclass MyTestCase(TestCase):\n    # Your test cases here

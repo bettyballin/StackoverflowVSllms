@@ -1,0 +1,1 @@
+onComplete: function(response) {\n    // Assuming response.responseText contains the new log entry\n    $('console').insert({bottom: response.responseText});\n    \n    // Use setTimeout to ensure the scroll happens after the DOM update\n    window.setTimeout(function() {\n        $('console').scrollTop = $('console').scrollHeight;\n    }, 0);\n}

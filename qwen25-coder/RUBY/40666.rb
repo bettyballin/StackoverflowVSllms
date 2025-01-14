@@ -1,0 +1,1 @@
+def sum(*numbers)\n     numbers.reduce(0) { |acc, num| acc + num }\n   end\n\n   puts sum(1, 2, 3) # => 6

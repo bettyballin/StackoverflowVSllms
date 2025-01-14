@@ -1,0 +1,1 @@
+<s:select name="city" list="cities" listKey="name" listValue="name">\n   </s:select>

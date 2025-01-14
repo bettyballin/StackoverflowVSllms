@@ -1,0 +1,1 @@
+// Example: Incorrect function usage leading to syntax error\n  echo "This is a test";  // Missing semicolon might not always trigger E_PARSE but wrong PHP structure will.

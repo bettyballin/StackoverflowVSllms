@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <security>\n      <authorization>\n        <deny users="?"/>\n      </authorization>\n    </security>\n  </system.webServer>\n  <location path="issues/rss">\n    <system.web>\n      <authorization>\n        <allow users="*" />\n      </authorization>\n    </system.web>\n  </location>\n</configuration>

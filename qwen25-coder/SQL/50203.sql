@@ -1,0 +1,1 @@
+SELECT \n    CONCAT(\n        IFNULL(address, ''), \n        CASE WHEN address != '' AND city != '' THEN ', ' ELSE '' END, \n        IFNULL(city, '')\n    ) AS full_address\nFROM locals;

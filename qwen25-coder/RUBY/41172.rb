@@ -1,0 +1,1 @@
+class AddBodyToPosts < ActiveRecord::Migration[7.0]\n  def change\n    add_column :posts, :body, :text\n\n    # Optionally, populate the new column using data from another source if needed.\n    Post.find_each do |post|\n      post.update(body: post.description)\n    end\n  end\n\n  def down\n    remove_column :posts, :body\n  end\nend

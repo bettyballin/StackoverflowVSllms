@@ -1,0 +1,1 @@
+$dateString = "2007-02-28";\n$date = new DateTime($dateString);\n$date->modify('+1 day');\necho $date->format('Y-m-d'); // Outputs: 2007-03-01

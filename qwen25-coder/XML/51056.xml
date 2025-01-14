@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>xalan</groupId>\n    <artifactId>xalan</artifactId>\n    <version>2.7.2</version>\n</dependency>

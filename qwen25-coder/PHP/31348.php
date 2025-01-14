@@ -1,0 +1,1 @@
+$var = preg_replace(\n    '/%Data_Index\[([0-9]+)\]/',\n    '$this->resultGData[$key][$1]',\n    $var\n);

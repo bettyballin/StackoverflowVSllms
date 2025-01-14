@@ -1,0 +1,1 @@
+document.getElementById('yourFormId').addEventListener('submit', function(event) {\n       event.preventDefault(); // Prevent default action for debugging\n       console.log(document.getElementById('txtDescription').value);\n   });

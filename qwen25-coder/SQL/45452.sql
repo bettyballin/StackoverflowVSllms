@@ -1,0 +1,1 @@
+CREATE TABLE Orders (\n    CustomerID INT,\n    ProductID INT,\n    OrderDate DATETIME,\n    PRIMARY KEY (CustomerID, ProductID),\n    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),\n    FOREIGN KEY (ProductID) REFERENCES Products(ProductID)\n);

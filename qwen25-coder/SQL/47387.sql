@@ -1,0 +1,1 @@
+REVOKE ALL PRIVILEGES ON TABLE dbo.mytable FROM special_user;\n   GRANT SELECT ON TABLE newrole.mytable TO special_user;

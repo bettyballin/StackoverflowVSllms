@@ -1,0 +1,1 @@
+# In your_controller.rb\n   def autocomplete\n     @items = YourModel.where("name LIKE ?", "%#{params[:term]}%").limit(5)\n\n     respond_to do |format|\n       format.json { render json: @items.map(&:attributes) }\n     end\n   end

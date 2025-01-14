@@ -1,0 +1,1 @@
+SELECT CASE WHEN col1 = 1 OR col2 = 1 THEN 1 ELSE 0 END AS combined_column\nFROM myTable;

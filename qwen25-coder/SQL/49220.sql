@@ -1,0 +1,1 @@
+DECLARE @result NVARCHAR(MAX);\nEXEC dbo.GetConcatenatedField \n    N'SELECT ColumnName FROM YourTable WHERE Condition', -- Replace with your query\n    N'ColumnName', -- The column to concatenate\n    N', ', -- Separator\n    @result OUTPUT;\n\nSELECT @result AS ConcatenatedResult;

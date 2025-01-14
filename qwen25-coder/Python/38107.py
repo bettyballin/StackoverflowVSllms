@@ -1,0 +1,1 @@
+# Example of handling missing values using pandas\n   import pandas as pd\n\n   ride_data.fillna(ride_data.mean(), inplace=True)

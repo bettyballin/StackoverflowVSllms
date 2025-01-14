@@ -1,0 +1,1 @@
+<?php\n$page = file_get_contents('http://domain.com/page.html');\n$page = str_replace('href="/', 'href="http://www.domain.com/', $page);\necho $page;\n?>

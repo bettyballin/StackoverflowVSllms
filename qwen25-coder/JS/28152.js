@@ -1,0 +1,1 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>\n   <script>\n       $(document).ready(function() {\n           $('#add-item-button').click(function() {\n               $.get('add_item.asp', function(data) {\n                   $('#item-list').append(data);\n               });\n           });\n       });\n   </script>

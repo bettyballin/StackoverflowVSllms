@@ -1,0 +1,1 @@
+DECLARE @Table TABLE(\n       [ID] int,\n       [CostA] real,\n       [CostB] real,\n       [CostC] real\n   );\n\n   INSERT INTO @Table([ID], [CostA], [CostB], [CostC])\n   EXECUTE [dbo].[CostProcedure]\n           @RootId = 123,\n           @Rate = 20;\n\n   SELECT * FROM @Table;

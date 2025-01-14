@@ -1,0 +1,1 @@
+SELECT CAST(CONVERT(INTEGER, SUBSTRING((CONVERT(VARCHAR(10), signal_data, 1)), 5, 2), 1) AS INT) AS Signal\nFROM your_table;

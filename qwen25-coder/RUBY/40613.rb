@@ -1,0 +1,1 @@
+class Product < ApplicationRecord\n  def brand\n    # Modify the stored value before returning it\n    read_attribute(:brand).tr('_', ' ').capitalize\n  end\n\n  def brand=(value)\n    # Store the original format but modify the returned format when accessing the attribute\n    write_attribute(:brand, value.downcase.tr(' ', '_'))\n  end\nend

@@ -1,0 +1,1 @@
+import xml.etree.ElementTree as ET\n\n# Load and parse the XML file\ntree = ET.parse('MyData.xml')\nroot = tree.getroot()\n\n# Change the text value of the first child element (in this case, 'foo' to 'bar')\nif root is not None:\n    root.text = 'bar'\n\n# Write the modified XML back to the file\ntree.write('MyData.xml', encoding='utf-8', xml_declaration=True)

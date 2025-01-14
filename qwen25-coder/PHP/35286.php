@@ -1,0 +1,1 @@
+<?php\n$directory = '/path/to/directory';\n\nif (is_writable($directory)) {\n    echo "The directory is writeable.";\n} else {\n    echo "The directory is not writeable.";\n}\n?>

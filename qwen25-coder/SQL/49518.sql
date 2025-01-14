@@ -1,0 +1,1 @@
+sp_settriggerorder @triggername = 'first_trigger',\n  @sequence = 'FIRST', @stmttype = 'INSERT';\n\nsp_settriggerorder @triggername = 'second_trigger',\n  @sequence = 'LAST', @stmttype = 'INSERT';

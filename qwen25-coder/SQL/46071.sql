@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n    SELECT 'Dataset1' AS DataSetType, Column1, Column2 FROM Table1\n    UNION ALL\n    SELECT 'Dataset2', ColumnA, ColumnB FROM Table2\n) X\nWHERE DataSetType = IIF(Parameters!YourParameter.Value = "ValueForSet1", 'Dataset1', 'Dataset2')

@@ -1,0 +1,1 @@
+SELECT  \n  *\nFROM\n  table_a \nINNER JOIN table_b ON\n  table_a.id = table_b.id\nINNER JOIN table_c ON\n  table_a.id = table_c.id\nWHERE\n  table_a.create_date > DATE('1998-01-01');

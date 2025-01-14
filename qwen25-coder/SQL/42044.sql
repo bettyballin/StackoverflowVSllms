@@ -1,0 +1,1 @@
+-- Check distinct Y_ID_F values from X where Y.Y_Value = 'A'\nSELECT DISTINCT X.y_id_f \nFROM X \nINNER JOIN Y ON x.y_id_f = y.y_id\nWHERE Y.y_value = 'A';\n\n-- Directly check records in x and related y_value being 'A'\nSELECT * FROM X AS X \nJOIN Y AS Y ON X.Y_ID_F = Y.Y_ID \nWHERE Y.Y_Value = 'A';

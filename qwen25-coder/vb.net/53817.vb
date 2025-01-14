@@ -1,0 +1,1 @@
+Imports System.Net\n\nPrivate Async Sub MakeRequest()\n    Dim myRequest As WebRequest = WebRequest.Create("http://foo.com/bar")\n    Dim myResponse As WebResponse = Await myRequest.GetResponseAsync()\n\n    ' Process the response here\nEnd Sub

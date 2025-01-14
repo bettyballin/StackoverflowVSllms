@@ -1,0 +1,1 @@
+// Assuming $pdo is your PDO instance and you want to insert into 'artists' table\n$stmt = $pdo->prepare("INSERT INTO artists (name) VALUES (:name)");\n\nforeach ($artists as $artist) {\n    // Sanitize the artist name if necessary, here assumed already clean\n    $stmt->execute(['name' => $artist]);\n}

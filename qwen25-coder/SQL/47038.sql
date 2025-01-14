@@ -1,0 +1,1 @@
+CREATE TABLE content_blocks (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    block_name VARCHAR(255) NOT NULL,\n    title TEXT,\n    description TEXT\n);

@@ -1,0 +1,1 @@
+SELECT \n    list_id,\n    address_id,\n    COUNT(*) AS occurrence_count\nFROM \n    LIST_MEMBERSHIPS\nGROUP BY \n    list_id, address_id\nORDER BY \n    occurrence_count DESC;

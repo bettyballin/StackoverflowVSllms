@@ -1,0 +1,1 @@
+CREATE TABLE sitePage (\n     id INT PRIMARY KEY AUTO_INCREMENT,\n     pageName VARCHAR(255) UNIQUE NOT NULL,\n     controller VARCHAR(255) NOT NULL,\n     module VARCHAR(255),\n     view VARCHAR(255)\n   );

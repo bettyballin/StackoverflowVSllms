@@ -1,0 +1,1 @@
+import io\n\n# Define your byte string (note the b prefix for bytes)\nmy_byte_string = b"Hello, this is a test string."\n\n# Create a BytesIO object\nfile_like_binary_object = io.BytesIO(my_byte_string)\n\n# Read from the file-like object\ncontent_bytes = file_like_binary_object.read()\nprint(content_bytes)

@@ -1,0 +1,1 @@
+function GetInt4d($data, $pos) {\n       if ($pos + 3 >= strlen($data)) {\n           return null; // or some default value/error handling\n       }\n       return ord($data[$pos]) | (ord($data[$pos+1]) << 8) | \n              (ord($data[$pos+2]) << 16) | (ord($data[$pos+3]) << 24);\n   }

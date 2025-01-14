@@ -1,0 +1,1 @@
+function isIE6() {\n    var userAgent = window.navigator.userAgent;\n    return /MSIE 6\.0/.test(userAgent) && !/MSIE 7.0/.test(userAgent) && !/MSIE 8.0/.test(userAgent);\n}\n\nif (isIE6()) {\n    console.log("User is using Internet Explorer 6");\n} else {\n    console.log("User is not using Internet Explorer 6");\n}

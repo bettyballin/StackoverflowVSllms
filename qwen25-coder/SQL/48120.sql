@@ -1,0 +1,1 @@
+EXPLAIN SELECT * FROM employees WHERE date_of_birth > '1980-01-01';

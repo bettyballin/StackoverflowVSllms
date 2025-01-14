@@ -1,0 +1,1 @@
+gem 'byebug'\n# or\ngem 'pry-rails'

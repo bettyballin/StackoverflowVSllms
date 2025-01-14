@@ -1,0 +1,1 @@
+-- Example of using varchar in SQL Server\nCREATE TABLE ExampleTable (\n    ShortDescription VARCHAR(100),\n    LongDescription VARCHAR(MAX)\n);

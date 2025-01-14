@@ -1,0 +1,1 @@
+Dim test As String = "ΓΕΡ"\nDim encodedFileName As String = Uri.EscapeDataString(test) & ".gif"\nMy.Computer.Network.DownloadFile("http://www.example.com/Images/" & encodedFileName, Application.StartupPath & ImageDir & fileName)

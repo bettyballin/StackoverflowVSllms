@@ -1,0 +1,1 @@
+Sub ForceRepaint()\n    Application.Calculate\nEnd Sub

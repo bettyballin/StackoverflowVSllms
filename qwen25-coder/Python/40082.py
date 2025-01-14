@@ -1,0 +1,1 @@
+from collections import defaultdict\n\nd = defaultdict(list)\nfor line in data_lines:\n    t, x, y = map(int, line.split(','))\n    d[t].append((x, y))\n\nprint(d)

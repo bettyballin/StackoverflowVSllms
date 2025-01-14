@@ -1,0 +1,1 @@
+BEGIN\n       EXECUTE IMMEDIATE 'ALTER SEQUENCE your_sequence INCREMENT BY -' || (your_sequence.CURRVAL - 1);\n       your_sequence.NEXTVAL;\n       EXECUTE IMMEDIATE 'ALTER SEQUENCE your_sequence INCREMENT BY 1';\n   END;\n   /

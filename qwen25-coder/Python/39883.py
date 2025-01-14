@@ -1,0 +1,1 @@
+import array\n\n# 'd' is a type code for double precision float\nverts = array.array('d', [0.0] * 1000)

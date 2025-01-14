@@ -1,0 +1,1 @@
+if (php_sapi_name() == "cli") {\n    // Script is running from the command line\n    echo "Invoked from command-line\n";\n} else if (php_sapi_name() == "apache2handler" || php_sapi_name() == "fpm-fcgi") {\n    // Script is likely being served by a web server like Apache or Nginx with FPM\n    echo "Invoked via web server\n";\n}

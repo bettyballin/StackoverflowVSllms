@@ -1,0 +1,1 @@
+<?php\necho "Enter something: ";\n$line = fgets(STDIN);\necho "You entered: $line";\n?>

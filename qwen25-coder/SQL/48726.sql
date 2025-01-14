@@ -1,0 +1,1 @@
+SELECT \n    id,\n    SUBSTRING(text_column, GREATEST(1, LOCATE('$keyword', text_column) - 100), LEAST(200, LENGTH(text_column))) AS summary\nFROM\n    your_table\nWHERE\n    text_column LIKE '%$keyword%'

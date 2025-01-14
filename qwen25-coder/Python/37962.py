@@ -1,0 +1,1 @@
+# Test before implementing the function\ndef test_sum():\n    assert sum([1, 2, 3]) == 6, "Should be 6"\n    assert sum([1, 2, 4]) == 7, "Should be 7"\n\nif __name__ == "__main__":\n    test_sum()\n    print("Everything passed")\n\n# After running the tests, you write the function\ndef sum(numbers):\n    return sum(numbers)\n\n# Run the tests agai

@@ -1,0 +1,1 @@
+<?php\n$templateContent = "<?php include('template.html'); ?>";\n$pageContent = "Hello! " . $templateContent;\n\n// Write to a new PHP file\n$fileHandle = fopen("generatedPage.php", "w");\nfwrite($fileHandle, $pageContent);\nfclose($fileHandle);\n?>

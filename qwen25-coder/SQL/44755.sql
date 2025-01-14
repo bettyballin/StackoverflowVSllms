@@ -1,0 +1,1 @@
+-- Inserting a new record\nINSERT INTO items (name) VALUES ('Sample Item');\n\n-- Retrieving the last inserted ID\nSET @last_id = LAST_INSERT_ID();\n\n-- Inserting another record with the same ID in another field\nINSERT INTO related_items (item_id, description) VALUES (@last_id, 'Description of the item');

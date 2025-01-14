@@ -1,0 +1,1 @@
+// jQuery code\n$(".toggle-link").click(function (event) {\n    event.preventDefault(); // Prevent the default link behavior\n\n    $(".myDiv").hide(); // Hide all divs with class myDiv\n    var target = $(this).data("target"); // Get the target div from data attribute\n    $(target).toggle(); // Toggle the visibility of the target div\n});

@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    // Use event delegation to handle clicks on dynamically added links\n    $(document).on('click', 'a', function() {\n        alert("Hello world!");\n    });\n\n    // Your existing form submission code\n    $("#new_ride_form").submitWithAjax();\n});

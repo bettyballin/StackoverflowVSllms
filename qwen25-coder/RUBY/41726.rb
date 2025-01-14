@@ -1,0 +1,1 @@
+# Example of a potential issue...\n   session.clear  # This would clear all session data!

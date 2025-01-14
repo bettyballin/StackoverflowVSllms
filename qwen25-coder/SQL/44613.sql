@@ -1,0 +1,1 @@
+UPDATE [dbo].[ApplicationLicense]\nSET [ExpirationDate] = '2024-12-31';

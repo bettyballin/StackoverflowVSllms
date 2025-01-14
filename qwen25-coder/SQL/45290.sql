@@ -1,0 +1,1 @@
+-- Example of rebuilding all indexes in a database\n   EXEC sp_updatestats;\n   DBCC DBREINDEX ([YourTableName],' ',80);

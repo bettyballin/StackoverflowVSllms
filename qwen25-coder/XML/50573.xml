@@ -1,0 +1,1 @@
+<!-- Inside your .csproj or equivalent file, set a different Output Path -->\n<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">\n  <OutputPath>..\Build\Debug\</OutputPath>\n</PropertyGroup>\n<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">\n  <OutputPath>..\Build\Release\</OutputPath>\n</PropertyGroup>

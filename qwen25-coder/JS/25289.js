@@ -1,0 +1,1 @@
+// Assume some response logic determines the outcome\n   var responseStatus = 'success'; // or whatever status your app logic determines\n\n   // Sending message to parent window\n   window.parent.postMessage(responseStatus, 'http://yourdomain.com');

@@ -1,0 +1,1 @@
+' Using an anonymous delegate (for .NET 2.0 compatibility)\nDim numbers As List(Of Integer) = New List(Of Integer)({1, 2, 3, 4, 5})\nnumbers.Find(Function(ByVal number As Integer) number > 3)\n\n' Equivalent lambda expression in VB.NET 9.0+ (requires .NET 3.5+)\nDim foundNumber As Integer\nfoundNumber = numbers.Find(Function(num) num > 3)

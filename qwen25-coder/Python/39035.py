@@ -1,0 +1,1 @@
+import subprocess\n\ndef get_idle_duration():\n    return float(subprocess.check_output(['xprintidle']).decode('utf-8')) / 1000\n\nprint(f"Idle time on Linux: {get_idle_duration()} seconds")

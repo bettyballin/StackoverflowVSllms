@@ -1,0 +1,1 @@
+class ClassA:\n      public_var = 'I am Public'\n      _protected_var = 'I am Protected'\n      __private_var = 'I am Private'

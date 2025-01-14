@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.openid4java</groupId>\n    <artifactId>openid4java</artifactId>\n    <version>1.0.6</version>\n</dependency>

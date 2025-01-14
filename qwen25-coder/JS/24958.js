@@ -1,0 +1,1 @@
+window.addEventListener('contextmenu', (event) => {\n    event.preventDefault(); // Prevent the default context menu from opening\n    console.log('Right-click detected');\n});

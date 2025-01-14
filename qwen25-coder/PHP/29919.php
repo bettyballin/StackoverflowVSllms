@@ -1,0 +1,1 @@
+$path = "/home/mike/whatever/test_1.txt";\n$filename = basename($path);\necho $filename; // Outputs: test_1.txt

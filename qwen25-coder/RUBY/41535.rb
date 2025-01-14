@@ -1,0 +1,1 @@
+class Category < ApplicationRecord\n  has_many :subcategories, class_name: "Category", foreign_key: "parent_id"\n  belongs_to :parent_category, class_name: "Category", optional: true\n  has_many :product_blocks\nend\n\nclass ProductBlock < ApplicationRecord\n  belongs_to :category\nend

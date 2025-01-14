@@ -1,0 +1,1 @@
+BEGIN\n    DBMS_AQADM.CREATE_QUEUE(\n        queue_name  => 'STAGING_QUEUE',\n        queue_table => 'STAGING_QUEUE_TAB');\nEND;

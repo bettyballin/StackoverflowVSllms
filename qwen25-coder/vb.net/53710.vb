@@ -1,0 +1,1 @@
+Private Sub PopulateComboBox()\n    Dim myCollection As New List(Of MyObject) From {\n        New MyObject("Object1", 1),\n        New MyObject("Object2", 2),\n        New MyObject("Object3", 3)\n    }\n\n    ComboBox1.DataSource = myCollection\nEnd Sub\n\nPrivate Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load\n    PopulateComboBox()\nEnd Sub

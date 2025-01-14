@@ -1,0 +1,1 @@
+unless ($ftp->put($my_file)) {\n    log("Couldn't upload $my_file");\n    return(-1);\n}\n\nlog("$my_file uploaded");

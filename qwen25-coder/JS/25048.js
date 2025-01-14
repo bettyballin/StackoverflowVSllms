@@ -1,0 +1,1 @@
+// Example code snippet for sending raw data (hypothetical)\nfunction sendDataToPrinter(rawData) {\n    // Code to send rawData to the printer\n    // Note: This is a placeholder and requires implementation with appropriate permissions\n    console.log('Sending raw data:', rawData);\n}

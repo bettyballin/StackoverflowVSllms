@@ -1,0 +1,1 @@
+Imports System\n\nNamespace YourNamespace\n    Public Class YourClass\n        \n        Public Sub New()\n            ' Constructor code\n        End Sub\n\n        Public Function ExampleMethod() As String\n            Return "This is an example method without using My."\n        End Function\n    End Class\nEnd Namespace

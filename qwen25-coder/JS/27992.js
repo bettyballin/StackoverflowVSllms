@@ -1,0 +1,1 @@
+self.puff({\n    duration: 0,\n    queue: 'end',\n    afterFinish: function() {\n        if (self && self.parentNode) {\n            self.remove();\n        }\n    }\n});

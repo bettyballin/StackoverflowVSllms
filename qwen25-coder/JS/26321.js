@@ -1,0 +1,1 @@
+function opposite(number) {\n    return -number;\n}

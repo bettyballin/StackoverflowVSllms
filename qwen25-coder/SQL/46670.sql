@@ -1,0 +1,1 @@
+-- Perform an initial transaction log backup after switching back\nBACKUP LOG YourDatabase TO DISK = 'C:\Backups\YourDatabase_Log.bak';

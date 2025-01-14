@@ -1,0 +1,1 @@
+/**\n * Name\n *\n * Desc\n *\n * @package    Core\n * @subpackage Sub1\n * @customsubpkg Sub2\n */\nclass MyClass {\n}

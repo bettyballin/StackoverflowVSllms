@@ -1,0 +1,1 @@
+INSERT INTO Ordre (CPR, Dato, SamletPris) VALUES (123456789, 'now', 0); -- Assuming you have a customer with CPR 123456789 and setting the total price to be calculated later

@@ -1,0 +1,1 @@
+UPDATE forge..dimInteg2\nSET duplicates = DuplicateCount.CoverCount\nFROM (\n    SELECT idCover, COUNT(*) AS CoverCount\n    FROM x90..dimCover\n    GROUP BY idCover\n    HAVING COUNT(*) > 1\n) AS DuplicateCount\nWHERE forge..dimInteg2.dimTable = 'dimCover'\nAND DuplicateCount.idCover = forge..dimInteg2.idCover -- Assuming idCover is the correct linking colum

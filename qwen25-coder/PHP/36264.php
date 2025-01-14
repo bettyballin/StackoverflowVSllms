@@ -1,0 +1,1 @@
+$pattern = '/^[a-zA-Z0-9 .\_\-]+$/';\n$username = 'te\\st';\n\nif (preg_match($pattern, $username)) {\n    echo "Match found!";\n} else {\n    echo "No match.";\n}

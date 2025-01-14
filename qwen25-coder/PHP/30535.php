@@ -1,0 +1,1 @@
+<?php\n\n// Include the DataStrip class\ninclude_once ('lib/php/com/DataStrip.php');\n\n// Assuming $projCat is defined somewhere in your code\n$projCat = "some data to strip";\n\necho($projCat);\n\n// Create an instance of DataStrip\n$a = new DataStrip();\n\n// Call stripVars and store the result\n$result = $a->stripVars($projCat);\n\n// Now echo the result\necho($result);\n\n?>

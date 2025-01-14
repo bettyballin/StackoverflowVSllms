@@ -1,0 +1,1 @@
+Private Sub chklColumns_ItemCheck(ByVal sender As Object, ByVal e As ItemCheckEventArgs) Handles chklColumns.ItemCheck\n    ' Update the ComboBox dataSource on each item check change\n    cmbSort.DataSource = New BindingSource(chklColumns.CheckedItems, Nothing)\nEnd Sub

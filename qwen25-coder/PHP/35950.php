@@ -1,0 +1,1 @@
+<?php\n$questionId = 57;\n$id = "zee";\n\n// Assuming $mysqli is your mysqli connection object\n$stmt = $mysqli->prepare("SELECT 1 FROM qotwVote1a WHERE QuestionId = ? AND MemberId = ?");\n$stmt->bind_param("is", $questionId, $id);\n$stmt->execute();\n$result2 = $stmt->get_result();\n\n$j = ($result2->num_rows > 0) ? 1 : 0;\n\necho $j;\n?>

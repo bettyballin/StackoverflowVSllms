@@ -1,0 +1,1 @@
+require 'vendor/autoload.php';\n\nuse Fastknife\Ld;\n\n$detector = new Ld();\n$text = "Ceci est un texte en français. Voici quelques phrases supplémentaires pour la détection de langue.";\n$language = $detector->detect($text);\n\necho "Detected language: " . ($language ? $language : 'Unknown');

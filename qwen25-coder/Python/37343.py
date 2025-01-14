@@ -1,0 +1,1 @@
+import numpy as np\n\ndef sine_wave_with_noise(n, noise_scale=2.0, frequency=0.1):\n    t = np.linspace(0, n - 1, n)\n    return np.sin(frequency * t) + noise_scale * np.random.randn(n)\n\n# Example usage\nsw_data = sine_wave_with_noise(100)

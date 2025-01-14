@@ -1,0 +1,1 @@
+ALTER TABLE db.main ENGINE=InnoDB;

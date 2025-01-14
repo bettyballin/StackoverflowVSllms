@@ -1,0 +1,1 @@
+$oldArray = array(0.00,1000.11,988.92,978.22,964.01,953.07,948.82,917.26,902.56,913.21,904.08,898.86,892.79);\n$myVar = 0.0;\nfor($k=0;$k<10;$k++) { // Start loop from index 0 to include the first element\n    $myVar += $oldArray[$k]; // Sum up the elements\n}\necho "Sum: " . number_format($myVar, 4); // Format output to 4 decimal places

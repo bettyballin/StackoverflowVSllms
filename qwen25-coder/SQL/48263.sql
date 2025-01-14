@@ -1,0 +1,1 @@
+SELECT \n    SEC_TO_TIME(your_seconds_field) AS formatted_duration\nFROM \n    your_table;

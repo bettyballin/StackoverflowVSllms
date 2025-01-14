@@ -1,0 +1,1 @@
+$videoId = $database->lastInsertId(); // Assuming you're using PDO and the last inserted ID is the video ID\n$directoryPath = __DIR__ . '/videos/' . $videoId;\n\nif (!file_exists($directoryPath)) {\n    mkdir($directoryPath, 0755, true);\n}

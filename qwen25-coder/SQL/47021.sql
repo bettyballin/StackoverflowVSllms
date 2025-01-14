@@ -1,0 +1,1 @@
+ALTER DATABASE YourDatabaseName SET QUERY_STORE = ON;\n   -- After enabling, analyze the data:\n   SELECT * FROM sys.query_store_runtime_stats;

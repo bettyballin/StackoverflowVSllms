@@ -1,0 +1,1 @@
+EXEC sys.sp_cdc_enable_table \n       @source_schema = N'dbo', \n       @source_name   = N'YourTableName', \n       @role_name     = NULL,\n       @capture_mode  = N'schema_only';

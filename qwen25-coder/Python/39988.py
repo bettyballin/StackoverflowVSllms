@@ -1,0 +1,1 @@
+from geopy.geocoders import Nominatim\n\ndef get_coordinates(city):\n    geolocator = Nominatim(user_agent="geoapiExercises")\n    location = geolocator.geocode(city)\n    if location:\n        return (location.latitude, location.longitude)\n    else:\n        return None\n\n# Example usage\ncoordinates = get_coordinates("Bloomington, IN")\nprint(coordinates)

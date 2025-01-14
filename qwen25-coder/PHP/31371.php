@@ -1,0 +1,1 @@
+function containsNumber($string) {\n    return preg_match('/\d/', $string) === 1;\n}\n\n// Test cases\n$tests = [\n    "abc",\n    "!./#()",\n    "!./#()abc",\n    "123",\n    "abc123",\n    "!./#()123",\n    "abc !./#() 123"\n];\n\nforeach ($tests as $test) {\n    echo "$test - " . (containsNumber($test) ? 'true' : 'false') . "\n";\n}

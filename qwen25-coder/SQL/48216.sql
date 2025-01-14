@@ -1,0 +1,1 @@
+DECLARE @ID INT\nDECLARE myCursor CURSOR FAST_FORWARD FOR\n    SELECT ID FROM MyTable\n\nOPEN myCursor\nFETCH NEXT FROM myCursor INTO @ID\n\nWHILE @@FETCH_STATUS = 0\nBEGIN\n    -- Process each row\n    PRINT @ID\n    FETCH NEXT FROM myCursor INTO @ID\nEND\n\nCLOSE myCursor\nDEALLOCATE myCursor

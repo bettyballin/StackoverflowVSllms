@@ -1,0 +1,1 @@
+$this->headStyle()->prependStyle('div.stuff { background-image: none; }',\n                                 array('conditional' => 'lt IE 7')\n                                );

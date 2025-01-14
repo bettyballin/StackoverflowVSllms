@@ -1,0 +1,1 @@
+-- Example SQL update command\n   UPDATE forum_posts SET user_id = (SELECT id FROM users WHERE username = 'deleted_user') WHERE user_id = [user_to_delete];

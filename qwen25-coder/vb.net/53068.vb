@@ -1,0 +1,1 @@
+Dim tasks = New List(Of Action)()\ntasks.Add(Sub()\n              Dim data As List(Of String) = GetData()\n              For Each item In data\n                  Console.WriteLine(item)\n              Next\n          End Sub)\n\n' Execute the task\nFor Each task In tasks\n    task.Invoke()\nNext

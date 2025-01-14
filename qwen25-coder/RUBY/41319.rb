@@ -1,0 +1,1 @@
+# In your Gemfile\ngem 'sidekiq'

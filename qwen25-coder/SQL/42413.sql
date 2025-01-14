@@ -1,0 +1,1 @@
+DELIMITER //\n\nCREATE PROCEDURE example_proc()\nBEGIN\n    DECLARE ID INT;\n    SET ID = 10;\n    -- Use ID as needed\nEND //\n\nDELIMITER ;

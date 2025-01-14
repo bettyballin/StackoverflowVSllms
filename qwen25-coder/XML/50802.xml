@@ -1,0 +1,1 @@
+<add name="Clr4IntegratedAppPool" managedRuntimeVersion="v4.0" managedPipelineMode="Integrated" CLRConfigFile="%IIS_USER_HOME%\config\aspnet.config.v4.0" autoStart="true">\n    <processModel idleTimeout="00:01:30" />\n</add>
