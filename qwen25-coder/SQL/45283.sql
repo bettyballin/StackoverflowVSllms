@@ -1,1 +1,0 @@
--- Example of a multi-server query joining tables from Server1 and Server2\nSELECT \n    s1.Data AS Server1Data,\n    s2.Data AS Server2Data\nFROM \n    [Server1].[DatabaseName].[SchemaName].[TableName] s1\nJOIN \n    [Server2].[DatabaseName].[SchemaName].[TableName] s2\nON \n    s1.ID = s2.ID;

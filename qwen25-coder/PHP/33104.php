@@ -1,1 +1,0 @@
-<?php\n$url = 'http://www.something.com/myOwnScript.php';\n$xmlContent = file_get_contents($url);\n\nif ($xmlContent === FALSE) {\n    die('Error downloading XML content.');\n}\n\n// Now you can manipulate the XML data, e.g., using SimpleXML\n$xmlObject = simplexml_load_string($xmlContent);\nprint_r($xmlObject);\n?>

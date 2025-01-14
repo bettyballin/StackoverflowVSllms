@@ -1,1 +1,0 @@
--- Example using a hypothetical clr_sp_hash_password stored procedure for bcrypt\nUPDATE Users\nSET PasswordHash = dbo.clr_sp_hash_password(Password)\nWHERE Password IS NOT NULL;

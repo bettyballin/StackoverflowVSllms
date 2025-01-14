@@ -1,1 +1,0 @@
-<property name="YourPropertyName" not-null="false">\n  <column name="YourColumnName"/>\n  <type name="Namespace.DateTimeRangeUserType, AssemblyName"/>\n</property>

@@ -1,1 +1,0 @@
-$resultSet = $table->fetchAll();\n$indexedArray = array_map('array_values', $resultSet->toArray());\n\n// Now, $indexedArray is an array of indexed arrays corresponding to each row

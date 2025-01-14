@@ -1,1 +1,0 @@
-SELECT \n    CASEID,\n    GetNoteText(CASEID)\nFROM \n( \n    SELECT \n        CASEID \n    FROM \n        ATTACHMENTS \n    GROUP BY \n        CASEID \n) i  -- 'i' is the alias for this subquery

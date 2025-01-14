@@ -1,1 +1,0 @@
-// This will open the dev tools in most modern browsers.\nvar devtools = /(^|\s)((Chrome|Safari)[/\d]+)/.test(navigator.userAgent) ? 'CmdOrCtrl+Shift+I' : 'F12';\nalert('To open Developer Tools, press: ' + devtools);

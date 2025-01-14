@@ -1,1 +1,0 @@
-GRANT ALL PRIVILEGES ON mydatabase.* TO 'root'@'your_remote_ip' IDENTIFIED BY 'your_password';\n   FLUSH PRIVILEGES;

@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('#content').html('');\n    $.ajax({\n        url: '/api', // points to the local proxy server\n        dataType: "json",\n        success: function(data) {\n            $('#content').append('<p>' + data.rank + '</p>');\n        }\n    });\n});

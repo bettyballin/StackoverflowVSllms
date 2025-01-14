@@ -1,1 +1,0 @@
-WITH ids_list AS (\n    SELECT id_value FROM your_id_table WHERE condition = 'some_condition'\n)\nSELECT * \nFROM tab1 \nWHERE.tab1.id IN (SELECT id_value FROM ids_list);

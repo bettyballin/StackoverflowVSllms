@@ -1,1 +1,0 @@
-test "should render new template" do\n     get :new\n     assert_template :new\n   end

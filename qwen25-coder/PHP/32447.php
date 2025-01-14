@@ -1,1 +1,0 @@
-class MyClass {\n       public function __construct($value) {\n           $this->property = $value;\n       }\n   }

@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <security>\n      <authentication>\n        <anonymousAuthentication enabled="true" />\n        <windowsAuthentication enabled="false" />\n        <!-- Disable other authentication modes as necessary -->\n      </authentication>\n    </security>\n  </system.webServer>\n</configuration>

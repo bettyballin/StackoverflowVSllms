@@ -1,1 +1,0 @@
-<?php\nif (!empty($_POST['PHPSESSID'])) {\n    session_id($_POST['PHPSESSID']);\n}\nsession_start();\n\n// Proceed with your file upload handling here...\n?>

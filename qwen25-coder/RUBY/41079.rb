@@ -1,1 +1,0 @@
-# To set up RSpec, add it to your Gemfile:\ngem 'rspec'\n\n# Then run bundle install and setup RSpec by running:\n# rspec --init\n\n# Example of a simple RSpec test:\nRSpec.describe "Something" do\n  it "does something" do\n    expect(2 + 2).to eq(4) # replace with actual expectations\n  end\nend

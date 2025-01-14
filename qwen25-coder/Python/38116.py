@@ -1,1 +1,0 @@
-good = []\nbad = []\n\nfor x in mylist:\n    if x in goodvals:\n        good.append(x)\n    else:\n        bad.append(x)

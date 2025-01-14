@@ -1,1 +1,0 @@
-// Example using PDO\ntry {\n    $pdo = new PDO("mysql:host=your_host;dbname=your_db", "username", "password");\n    $stmt = $pdo->prepare("SELECT column_name FROM your_table WHERE id = ?");\n    $stmt->execute([$some_id]);\n    $result = $stmt->fetchColumn(0);\n} catch(PDOException $e) {\n    echo "Error: " . $e->getMessage();\n}

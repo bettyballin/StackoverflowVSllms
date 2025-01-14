@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n    SELECT your_table.*\n    FROM your_table\n    ORDER BY DBMS_RANDOM.VALUE\n)\nWHERE ROWNUM <= 1000;

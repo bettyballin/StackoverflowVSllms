@@ -1,1 +1,0 @@
-require 'sinatra'\n\nget '/' do\n  link_to_home = url('/')\nend\n\ndef link_to_home\n  "<a href='#{url('/')}'>Home</a>"\nend

@@ -1,1 +1,0 @@
-CREATE TABLE Receivable (\n    RefNo NUMBER PRIMARY KEY,\n    Date DATE NOT NULL,\n    TrnType VARCHAR2(50) CHECK (TrnType IN ('Tax', 'Fee', 'Premium')) NOT NULL,\n    Amount DECIMAL(18, 2) NOT NULL\n);

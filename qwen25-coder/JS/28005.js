@@ -1,1 +1,0 @@
-// Option 1: Instruct users to visit a webpage using an alert dialog\nalert("There was an error. Go to this page to fix it:\nhttps://TheWebPageToFix.com");\n\n// Option 2: Open the webpage in a new tab/window\nif (confirm("There was an error. Would you like to go to the page that can help you fix it?")) {\n    window.open("https://TheWebPageToFix.com", "_blank");\n}

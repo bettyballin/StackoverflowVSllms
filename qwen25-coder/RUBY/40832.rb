@@ -1,1 +1,0 @@
-Rails.application.routes.draw do\n     get 'assets/download_swf', to: 'assets#download_swf'\n   end

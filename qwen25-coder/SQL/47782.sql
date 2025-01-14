@@ -1,1 +1,0 @@
--- Table: Orders\n     -- Stores customer order information.\n     CREATE TABLE Orders (\n         OrderID int NOT NULL,\n         CustomerID int NOT NULL,\n         OrderDate datetime NOT NULL,\n\n         -- Unique identifier for the order\n         PRIMARY KEY (OrderID)\n     );\n\n     COMMENT ON COLUMN Orders.CustomerID IS 'Unique ID of the customer who placed the order.';

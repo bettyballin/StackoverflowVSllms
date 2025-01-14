@@ -1,1 +1,0 @@
-# Example Python script to list files in an S3 bucket:\n   import boto3\n\n   s3 = boto3.client('s3')\n   response = s3.list_objects_v2(Bucket='your-bucket-name')\n   for obj in response['Contents']:\n       print(obj['Key'])

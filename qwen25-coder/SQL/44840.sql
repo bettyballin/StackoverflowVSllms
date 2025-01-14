@@ -1,1 +1,0 @@
-set @sQuery = 'Select * from DB2.dbo.synToSomeTableInDB2'\n   exec (@sQuery)

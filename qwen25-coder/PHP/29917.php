@@ -1,1 +1,0 @@
-$viewRenderer = Zend_Controller_Action_HelperBroker::getStaticHelper('ViewRenderer');\n   $view = $viewRenderer->view;\n   $view->registerHelper(new My_View_Helper_Translate($translate), 'translate');

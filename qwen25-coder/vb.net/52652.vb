@@ -1,1 +1,0 @@
-Imports System.IO\n\nDim myStream As New MemoryStream() ' Example of using a concrete class

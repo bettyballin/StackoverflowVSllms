@@ -1,1 +1,0 @@
-SELECT /*+ RESULT_CACHE */ *\nFROM static_data_table;

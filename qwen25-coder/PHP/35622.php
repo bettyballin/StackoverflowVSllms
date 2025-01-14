@@ -1,1 +1,0 @@
-// Example snippet to demonstrate MySQL native types using PDO\n$stmt = $pdo->query('SELECT id, price FROM products');\n$meta = $stmt->getColumnMeta(0);\necho "MySQL ID column type: {$meta['native_type']}\n"; // Likely 'long'

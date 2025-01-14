@@ -1,1 +1,0 @@
-CREATE TABLE MyTable (\n    Col1 VARCHAR(50),\n    Col2 VARCHAR(50) NULL,\n    Col3 VARCHAR(50) NULL,\n    Col4 VARCHAR(50) NULL,\n    UNIQUE (Col1, Col2)\n);

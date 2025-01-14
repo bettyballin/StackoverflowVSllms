@@ -1,1 +1,0 @@
-package My::Package;\n  sub new {\n      my ($class) = @_;\n      return bless {}, $class;\n  }

@@ -1,1 +1,0 @@
-class MY_Controller extends CI_Controller {\n\n    protected $auth;\n\n    function __construct()\n    {\n        parent::__construct();\n        $this->load->library('auth', array(), 'auth');\n    }\n\n    protected function require_login() {\n        if (!$this->auth->check_login()) {\n            redirect('/login/show'); // Redirect to login page\n        }\n    }\n}

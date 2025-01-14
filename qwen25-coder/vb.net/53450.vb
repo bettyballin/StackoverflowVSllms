@@ -1,1 +1,0 @@
-Dim shortValue As Short? = "".ToNullable(Of Short)("123")\nDim byteValue As Byte? = "".ToNullable(Of Byte)("45")\nDim longValue As Long? = "".ToNullable(Of Long)("67890123456")

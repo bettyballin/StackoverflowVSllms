@@ -1,1 +1,0 @@
-SELECT s.Column1, s.Column2\n   INTO #TempTable\n   FROM SourceTable s\n   WHERE NOT EXISTS (SELECT 1 FROM Validation v WHERE s.Key = v.Key);\n\n   INSERT INTO TargetTable (Column1, Column2)\n   SELECT Column1, Column2 FROM #TempTable;\n\n   DROP TABLE #TempTable;

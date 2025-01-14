@@ -1,1 +1,0 @@
-CREATE MATERIALIZED VIEW employee_mv\n  BUILD IMMEDIATE\n  REFRESH FAST ON DEMAND\n  ENABLE QUERY REWRITE AS\n  SELECT employee_id, first_name, last_name, department_id\n  FROM employees;

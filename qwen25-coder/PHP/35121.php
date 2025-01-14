@@ -1,1 +1,0 @@
-$userService = new UserService();\n$user = $userService->getUserById(123);\n$userService->updateUser(123, ['email' => 'newemail@example.com']);

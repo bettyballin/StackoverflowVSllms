@@ -1,1 +1,0 @@
-DECLARE\n  FUNCTION factorial(n NUMBER) RETURN NUMBER IS\n    result NUMBER := 1;\n  BEGIN\n    FOR i IN 2..n LOOP\n      result := result * i;\n    END LOOP;\n    RETURN result;\n  END factorial;\nBEGIN\n  DBMS_OUTPUT.PUT_LINE('Factorial of 5 is ' || factorial(5));\nEND;

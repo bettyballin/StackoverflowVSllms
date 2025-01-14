@@ -1,1 +1,0 @@
-UPDATE ValTable v\nJOIN StrTable s ON v.str_key = s.str_key\nSET v.val = 2.124\nWHERE s.string = 'a' AND v.other_key = 1;

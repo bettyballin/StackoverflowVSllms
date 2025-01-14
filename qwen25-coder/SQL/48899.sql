@@ -1,1 +1,0 @@
-CREATE TABLE civil_status (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    status VARCHAR(20) NOT NULL UNIQUE\n);\n\nINSERT INTO civil_status (status) VALUES ('Single'), ('Married'), ('Separated'), ('Widow/Widower');

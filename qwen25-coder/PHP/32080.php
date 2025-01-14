@@ -1,1 +1,0 @@
-<?php\n   // script.php\n\n   // Include necessary Zend Framework components if needed\n   require_once 'Zend/Loader/Autoloader.php';\n   $autoloader = Zend_Loader_Autoloader::getInstance();\n   $autoloader->registerNamespace('YourApp');\n\n   // Your logic here\n   echo "Cron job executed at: " . date("Y-m-d H:i:s") . "\n";

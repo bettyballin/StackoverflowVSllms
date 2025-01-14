@@ -1,1 +1,0 @@
-SELECT 'user' AS type, id, name FROM users WHERE name LIKE '%search_term%'\nUNION ALL\nSELECT 'group' AS type, id, name FROM groups WHERE name LIKE '%search_term%';

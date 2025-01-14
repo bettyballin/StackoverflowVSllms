@@ -1,1 +1,0 @@
-SELECT * FROM picdb ORDER BY views DESC LIMIT 10;

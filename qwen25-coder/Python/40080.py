@@ -1,1 +1,0 @@
-def ascii_reversible(text):\n    return ''.join(chr(127 - ord(c)) if 33 <= ord(c) <= 126 else c for c in text)\n\n# Example usage\noriginal_text = "Hello, World!"\nencoded_text = ascii_reversible(original_text)\ndecoded_text = ascii_reversible(encoded_text)\n\nprint(f"Original: {original_text}")\nprint(f"Encoded: {encoded_text}")\nprint(f"Decoded: {decoded_text}")

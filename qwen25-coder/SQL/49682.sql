@@ -1,1 +1,0 @@
-CREATE TYPE dbo.MyTableType AS TABLE (\n    Column1 INT,\n    Column2 VARCHAR(50)\n);

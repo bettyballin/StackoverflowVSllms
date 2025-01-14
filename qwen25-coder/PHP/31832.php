@@ -1,1 +1,0 @@
-$url = urldecode($row['url']);\necho htmlspecialchars($url);

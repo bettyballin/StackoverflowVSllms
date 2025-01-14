@@ -1,1 +1,0 @@
-SELECT DISTINCT h.*\nFROM hardware h\nWHERE h.tag IN (\n    SELECT i.hardware_tag\n    FROM incidents i\n    WHERE i.status = 'unresolved'\n);

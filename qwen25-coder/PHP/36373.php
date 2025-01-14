@@ -1,1 +1,0 @@
-echo "Initial memory: " . ini_get('memory_limit') . "\n";\n$startMem = memory_get_usage();\n// Your application code here\n$endMem = memory_get_usage();\n\necho "Peak memory used: " . ($endMem - $startMem) . " bytes\n";

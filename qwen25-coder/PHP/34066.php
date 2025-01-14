@@ -1,1 +1,0 @@
-<?php\n// Simulate fetching progress from your data processing\n$currentLine = 500; // This should be dynamically fetched based on actual progress\n$totalLines = 20000;\n\necho json_encode(['progress' => $currentLine < $totalLines, 'currentLine' => $currentLine, 'totalLines' => $totalLines]);\n?>

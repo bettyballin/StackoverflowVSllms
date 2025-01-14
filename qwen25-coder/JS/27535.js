@@ -1,1 +1,0 @@
-$(document).ready(function(){\n    $('#phone').inputmask("(999) 999-9999 Ext. 999999");\n});

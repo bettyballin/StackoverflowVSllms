@@ -1,1 +1,0 @@
-A = [\n    [0, 1, 0, 1, 1],  // Node 1 connections to nodes 2, 4, and 5\n    [1, 0, 1, 0, 0],  // Node 2 connections to node 1 and 3\n    [0, 1, 0, 0, 0],  // Node 3 connection to node 2\n    [1, 0, 0, 0, 0],  // Node 4 connection to node 1\n    [1, 0, 0, 0, 0]   // Node 5 connection to node 1\n]

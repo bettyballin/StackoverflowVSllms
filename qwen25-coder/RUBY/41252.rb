@@ -1,1 +1,0 @@
-def show\n  html = render_to_string(action: "show.html.erb")\n  kit = PDFKit.new(html, page_size: 'Letter')\n  \n  send_data(kit.to_pdf, filename: "document.pdf", type: "application/pdf",\n            disposition: 'inline') # or 'attachment'\nend

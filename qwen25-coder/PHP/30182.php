@@ -1,1 +1,0 @@
-function mymodule_my_form_submit($form, &$form_state) {\n  // Process the uploaded file and update your data structure.\n  // ...\n\n  // Set a URL path for redirection if needed.\n  $form_state['redirect'] = 'path/to/your/page';\n}

@@ -1,1 +1,0 @@
-if (preg_match("/[\\s]*<p>[\\s]*(?<firstparagraph>[\\s\\S]+?>)[\\s]*<\/p>/", $blog_post, $blog_paragraph))\n   echo "<p>" . trim($blog_paragraph["firstparagraph"]) . "</p>";\nelse\n  echo $blog_post;

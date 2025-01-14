@@ -1,1 +1,0 @@
-Dim currentDate As Date = My.Computer.Clock.LocalTime

@@ -1,1 +1,0 @@
-<navigation from-action="#{fooHome.update}">\n    <rule if-outcome="updated">\n        <redirect view-id="/foo.xhtml">\n            <param name="id" value="#{fooHome.instance.id}"/>\n        </redirect>\n    </rule>\n</navigation>

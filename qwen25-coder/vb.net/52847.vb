@@ -1,1 +1,0 @@
-<%\n   Dim objDotNetClass\n   Set objDotNetClass = Server.CreateObject("MyComLibrary.MyClass")\n   Response.Write(objDotNetClass.SayHello())\n   Set objDotNetClass = Nothing\n   %>

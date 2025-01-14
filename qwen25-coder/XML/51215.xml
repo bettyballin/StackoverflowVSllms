@@ -1,1 +1,0 @@
-<destination id="ColdFusion">\n    <properties>\n        <source>*</source>\n        <cf>\n            <!-- Path to CF server or application context -->\n            <cfc>http://{server-ip}:{port}/{app-context}/</cfc>\n        </cf>\n    </properties>\n</destination>

@@ -1,1 +1,0 @@
-SELECT \n    splits.items AS SplitValue, \n    t.ValueColumn1, \n    t.ValueColumn2\nFROM \n    MyTable t\nCROSS APPLY dbo.Split(t.CommaColumn, ',') AS splits;

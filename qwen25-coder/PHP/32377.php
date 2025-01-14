@@ -1,1 +1,0 @@
-<!-- application/views/scripts/_login_form.phtml -->\n<?php echo $this->form; ?>

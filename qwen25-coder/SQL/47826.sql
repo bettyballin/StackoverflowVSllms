@@ -1,1 +1,0 @@
-SELECT id AS children\nFROM your_table_name\nWHERE parent_id = 3\n\nUNION ALL\n\nSELECT id AS children\nFROM your_table_name\nWHERE id = 3 AND NOT EXISTS (\n    SELECT 1 \n    FROM your_table_name \n    WHERE parent_id = 3\n);

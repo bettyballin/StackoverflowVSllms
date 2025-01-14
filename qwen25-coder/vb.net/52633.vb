@@ -1,1 +1,0 @@
-Private Sub MSFlexGrid1_FormatRow()\n    ' Example: Color alternate rows\n    If MSFlexGrid1.Row Mod 2 = 0 Then\n        MSFlexGrid1.RowSel = MSFlexGrid1.Row\n        MSFlexGrid1.CellBackColor = RGB(255, 240, 240) ' Light pink color\n    Else\n        MSFlexGrid1.RowSel = MSFlexGrid1.Row\n        MSFlexGrid1.CellBackColor = vbWhite ' White color\n    End If\nEnd Sub

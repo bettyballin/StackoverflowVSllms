@@ -1,1 +1,0 @@
-For Each item In query\n    Console.WriteLine($"Product Name: {item.ProductName}")\n    Console.WriteLine($"Expiration Date: {item.ExpirationDate}")\n    Console.WriteLine($"% of Sales: {item.PctOfSales}%")\nNext

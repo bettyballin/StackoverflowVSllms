@@ -1,1 +1,0 @@
-error_log('Script started executing', 3, '/var/log/my_script.log');\n// ... your script logic ...\nerror_log('Script execution finished', 3, '/var/log/my_script.log');

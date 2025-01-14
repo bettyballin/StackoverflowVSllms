@@ -1,1 +1,0 @@
--- To decrease the count by 1 for a specific tagId\nUPDATE tag_data\nSET count = GREATEST(count - 1, 0) -- Ensures count does not go below zero\nWHERE tagId = your_tag_id;

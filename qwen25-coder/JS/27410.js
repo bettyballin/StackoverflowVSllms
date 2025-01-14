@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\n   xhr.open('GET', 'https://api.example.com/data', true);\n   xhr.onload = function () {\n     if (xhr.status === 200) {\n       console.log(JSON.parse(xhr.responseText));\n     }\n   };\n   xhr.send(null);

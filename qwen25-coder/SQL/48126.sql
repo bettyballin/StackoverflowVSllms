@@ -1,1 +1,0 @@
--- Avoid this\n   SELECT e.name \n   FROM employees e \n   WHERE (SELECT COUNT(*) FROM sales s WHERE s.employee_id = e.id) > 5;\n   \n   -- Prefer this\n   SELECT e.name \n   FROM employees e \n   JOIN (SELECT employee_id, COUNT(*) as sale_count FROM sales GROUP BY employee_id HAVING COUNT(*) > 5) s ON e.id = s.employee_id;

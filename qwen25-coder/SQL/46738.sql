@@ -1,1 +1,0 @@
-CREATE TABLE ExampleTable (\n    ID INT PRIMARY KEY,\n    Description NVARCHAR(100) NOT NULL DEFAULT ''\n);

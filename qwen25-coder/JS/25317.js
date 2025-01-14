@@ -1,1 +1,0 @@
-// Assume we want to insert a new row before the second row in the table with id 'mytable'\nvar newRow = $("<tr><td>New Row Data 1</td><td>New Row Data 2</td></tr>");\n$("#mytable tbody tr:eq(1)").before(newRow);

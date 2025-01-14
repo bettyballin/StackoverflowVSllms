@@ -1,1 +1,0 @@
-spl_autoload_register(function ($class) {\n    $baseDir = __DIR__ . '/path/to/classes/';\n    $file = $baseDir . str_replace('\\', '/', $class) . '.php';\n\n    if (is_readable($file)) {\n        require_once $file;\n    }\n});

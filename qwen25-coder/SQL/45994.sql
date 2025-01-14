@@ -1,1 +1,0 @@
-DELETE FROM analyzedCopy2\nWHERE ID NOT IN (\n    SELECT MIN(ID)\n    FROM analyzedCopy2\n    GROUP BY readings_miu_id\n);

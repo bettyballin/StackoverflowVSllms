@@ -1,1 +1,0 @@
-<application name="YourWebService" deployment-directory="${oracle.home}/user_projects/applications/YourDomain">\n  <module-context path="/your-web-service"/>\n</application>

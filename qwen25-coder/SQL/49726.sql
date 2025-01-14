@@ -1,1 +1,0 @@
-CREATE TABLE example_table (\n    id INT,\n    status CHAR(1)\n);

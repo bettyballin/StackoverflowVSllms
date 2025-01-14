@@ -1,1 +1,0 @@
-SELECT \n    startTime, \n    endTime,\n    CAST(DATEDIFF(HOUR, startTime, endTime) % 24 AS VARCHAR) + ':' +\n    RIGHT('0' + CAST((DATEDIFF(MINUTE, startTime, endTime) % 60) AS VARCHAR), 2) AS RUNTIME\nFROM \n    applog\nWHERE \n    runID = 33871\nORDER BY \n    startTime DESC;

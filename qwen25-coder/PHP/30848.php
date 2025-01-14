@@ -1,1 +1,0 @@
-<?php\n// Start output buffering\nob_start();\n\n// Include the PHP file whose output you want to capture\ninclude 'subtemplate.php';\n\n// Get the output and store it in a variable\n$subTemplateOutput = ob_get_clean();\n\n// Now $subTemplateOutput contains the output of subtemplate.php\necho "Subtemplate Output: " . $subTemplateOutput;\n?>

@@ -1,1 +1,0 @@
-import re\n\nhtml_content = '<link href="http://example.com/style.css" rel="stylesheet">'\n\n# Regex pattern to find all href attributes in link tags\npattern = r'(?i)<link\s+(?:[^>]*?\s+)?href=["\'](.*?)["\']'\nmatches = re.findall(pattern, html_content)\n\nfor match in matches:\n    print(match)

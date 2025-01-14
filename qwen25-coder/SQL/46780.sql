@@ -1,1 +1,0 @@
-SELECT * \nFROM TABLE \nWHERE regexp_replace(Phonenumber, '\D', '', 'g') = '555123456';

@@ -1,1 +1,0 @@
-<?php\nprintf("This is a %s with %d elements.", $stringVar, $intVar);\n?>

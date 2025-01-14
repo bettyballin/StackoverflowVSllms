@@ -1,1 +1,0 @@
-try:\n    # Example of handling exceptions when calling a method\n    result = com_object.SomeMethod(param1, param2)\nexcept Exception as e:\n    print(f"An error occurred: {e}")

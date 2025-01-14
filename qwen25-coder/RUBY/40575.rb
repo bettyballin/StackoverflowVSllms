@@ -1,1 +1,0 @@
-require 'ffi'\n\nmodule DotNetLibrary\n  extend FFI::Library\n  ffi_lib './path/to/your/DotNetLibrary.dll'\n  \n  attach_function :HelloWorld, [], :string\nend\n\nputs DotNetLibrary.HelloWorld

@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE CAST(your_timestamp_column AS DATE) = CAST(:selected_date_param AS DATE)

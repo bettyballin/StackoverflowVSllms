@@ -1,1 +1,0 @@
-Using conn As New OleDbConnection("YourConnectionString")\n    Using cmd As New OleDbCommand("SELECT ColumnName FROM TableName", conn)\n        conn.Open()\n        Dim reader As OleDbDataReader = cmd.ExecuteReader()\n        While reader.Read()\n            ' Process data\n        End While\n    End Using\nEnd Using

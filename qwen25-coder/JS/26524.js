@@ -1,1 +1,0 @@
-var serviceUrl = "http://localhost:3011"; // Adjust if running on a different port\nvar payload = "<myRequest><content>Some content</content></myRequest>";\nvar request = new XMLHttpRequest();\nrequest.open("POST", serviceUrl, true);\nrequest.setRequestHeader("Content-type", "text/xml");\nrequest.send(payload);

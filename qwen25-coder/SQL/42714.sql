@@ -1,1 +1,0 @@
-ALTER TABLE YourTableName\n    ADD ColorTypeID INT;\n\n    ALTER TABLE YourTableName\n    ADD CONSTRAINT FK_ColorType_ForeignKey FOREIGN KEY (ColorTypeID)\n        REFERENCES ColorTypes(ColorID);

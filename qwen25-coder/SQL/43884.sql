@@ -1,1 +1,0 @@
-SELECT CONVERT(VARCHAR(10), signal_data, 1) AS hex_value\nFROM your_table;

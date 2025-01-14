@@ -1,1 +1,0 @@
-$categories = $db->query("\n    SELECT * FROM forum_categories WHERE fk_site = :site_id\n", ['site_id' => $this->site_id]);

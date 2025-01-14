@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <customErrors mode="On" defaultRedirect="~/ErrorPage.aspx"/>\n  </system.web>\n</configuration>

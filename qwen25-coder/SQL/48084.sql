@@ -1,1 +1,0 @@
--- Avoid this, could return different product_name for the same category if not deterministic\n   SELECT category_id, max(price), product_name \n   FROM products \n   GROUP BY category_id;\n   \n   -- Prefer this or ensure all non-aggregated columns are part of a proper grouping logic\n   SELECT category_id, max(price)\n   FROM products \n   GROUP BY category_id;

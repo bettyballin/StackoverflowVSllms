@@ -1,1 +1,0 @@
-SELECT T1.Balance / NULLIF(T2.Balance, 0) AS SafeDivisionResult\nFROM Temp1 T1\nJOIN Temp2 T2 ON T1.AccountNo = T2.AccountNo;

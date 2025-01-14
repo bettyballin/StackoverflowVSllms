@@ -1,1 +1,0 @@
-$isAjax = !empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest';\n\nif ($isAjax) {\n    // Serve only the content required for the AJAX call.\n} else {\n    // Serve full page content.\n}

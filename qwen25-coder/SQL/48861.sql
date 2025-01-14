@@ -1,1 +1,0 @@
-DECLARE @SqlCommand NVARCHAR(MAX) = N''\nSELECT @SqlCommand += 'ALTER TABLE [' + SCHEMA_NAME(t.schema_id)\n        + '].[' + t.name + '] DROP CONSTRAINT [' + dc.name + '];'\nFROM sys.tables AS t\nJOIN sys.default_constraints dc ON t.object_id = dc.parent_object_id\nWHERE t.name = 'YourTableName' -- Replace with your table name\n\nEXEC sp_executesql @SqlCommand

@@ -1,1 +1,0 @@
-UPDATE tbl_dest\nSET tbl_dest.Title = tbl_source.title\nFROM tbl_dest\nINNER JOIN tbl_source ON tbl_dest.ID = tbl_source.ID\nWHERE tbl_source.title IS NOT NULL AND tbl_source.title <> ''

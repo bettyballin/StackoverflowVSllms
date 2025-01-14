@@ -1,1 +1,0 @@
-' Example of early binding - Option Strict On required explicit casting\nDim obj As MyType = CType(CreateObject("MyProgID"), MyType)\n\n' Example of late binding - works with Option Strict Off\nDim objLateBound As Object = CreateObject("MyProgID")\nobjLateBound.SomeMethod()

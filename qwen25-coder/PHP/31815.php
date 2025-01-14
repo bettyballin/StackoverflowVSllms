@@ -1,1 +1,0 @@
-// Ensure the URL starts with https://\n   $url = "https://example.com/largefile.xml";\n   $xmlContent = file_get_contents($url);

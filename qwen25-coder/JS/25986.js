@@ -1,1 +1,0 @@
-var $table = $('#' + tableId);\nvar $rows = $();\n\nfor (var i = 0; i < arrCSV.length; i++) {\n    var $row = $table.find('[fname="' + arrCSV[i] + '"]').eq(0).closest('tr');\n    if ($row.length) {\n        $rows = $rows.add($row);\n    }\n}\n\n$table.empty().append($rows);

@@ -1,1 +1,0 @@
-function initializeTopics(controlId) {\n    var list = document.getElementById(controlId);\n    // ... rest of your code ...\n}

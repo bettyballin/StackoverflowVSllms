@@ -1,1 +1,0 @@
-SELECT CONVERT(varchar(32), HASHBYTES('SHA1', NEWID()), 2) AS HexNumber;

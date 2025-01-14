@@ -1,1 +1,0 @@
-If d Is Nothing Then\n   TextValue = "nada"\nElse\n   TextValue = FormatDateTime(d)\nEnd If

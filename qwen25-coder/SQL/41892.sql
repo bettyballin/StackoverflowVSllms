@@ -1,1 +1,0 @@
--- This assumes you have a way to handle the XML output outside SQL, like piping it through a shell command.\nSELECT XMLELEMENT(\n       "primaryKeys",\n          XMLAGG(XMLELEMENT("key", primary_key_column_name) ORDER BY primary_key_column_name)\n     ).EXTRACT('//text()').GETCLOBVAL() AS key_data\nFROM your_table;

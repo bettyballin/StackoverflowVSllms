@@ -1,1 +1,0 @@
-WITH user_tags AS (\n    SELECT tag\n    FROM JSON_TABLE(\n        '["tag1", "tag2", "tag3"]',  -- Replace with your JSON array of tags\n        '$[*]' COLUMNS (tag VARCHAR(255) PATH '$')\n    ) AS jt\n)\nSELECT ut.tag\nFROM user_tags ut\nLEFT JOIN tags t ON ut.tag = t.tag\nWHERE t.id IS NULL;

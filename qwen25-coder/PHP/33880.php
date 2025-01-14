@@ -1,1 +1,0 @@
-// PHP4 Style (will not be treated as constructor in PHP5)\n  class MyClass {\n      function MyClass() { }\n  }

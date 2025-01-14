@@ -1,1 +1,0 @@
-SELECT id FROM plants \nWHERE Flower REGEXP CONCAT('[[:<:]]', ?, '[[:>:]]');

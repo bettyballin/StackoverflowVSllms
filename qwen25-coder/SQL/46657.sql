@@ -1,1 +1,0 @@
-INSERT INTO [MyExcelWorkbook]...[Sheet1$A1:H25]\nSELECT * FROM OtherDataSource;

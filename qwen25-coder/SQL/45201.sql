@@ -1,1 +1,0 @@
-CREATE TABLE media (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    article_id INT,\n    image_url VARCHAR(255),  -- Store URL to where the image is saved on filesystem\n    caption TEXT,\n    uploaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    FOREIGN KEY (article_id) REFERENCES articles(id)\n);

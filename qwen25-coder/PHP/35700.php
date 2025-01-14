@@ -1,1 +1,0 @@
-$view->headMeta()->appendName('keywords', 'global,generic,keywords');

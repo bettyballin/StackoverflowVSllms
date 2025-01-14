@@ -1,1 +1,0 @@
-CREATE TABLE your_table (\n    guid CHAR(36) NOT NULL,\n    increment_id INT AUTO_INCREMENT UNIQUE NOT NULL,\n    -- other columns...\n    PRIMARY KEY (guid)\n);

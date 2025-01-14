@@ -1,1 +1,0 @@
-SELECT *\nFROM YourLoggingTable\nWHERE HOUR(YourDateTimeField) >= 17;

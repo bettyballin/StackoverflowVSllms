@@ -1,1 +1,0 @@
-Module Module1\n    Sub Main()\n        Dim startingDirectory As String = Environment.CurrentDirectory\n        Console.WriteLine("Application started from: " & startingDirectory)\n        \n        ' Add your logic to handle the directory here.\n    End Sub\nEnd Module

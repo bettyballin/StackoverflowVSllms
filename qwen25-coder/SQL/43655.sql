@@ -1,1 +1,0 @@
--- When recording only the date without time\nINSERT INTO events (event_date, is_time_specified)\nVALUES ('2023-11-15', FALSE);\n\n-- When recording both date and time\nINSERT INTO events (event_date, is_time_specified)\nVALUES ('2023-11-15 14:00:00', TRUE);

@@ -1,1 +1,0 @@
-SELECT bk.*, bc.books_sold\nFROM books_book bk\nINNER JOIN (\n    SELECT bk2.id_book, COUNT(*) books_sold\n    FROM books_book bk2 \n    INNER JOIN orderdetails_orddetails ord \n    ON (bk2.id_book = ord.id_book_orddetails)\n    GROUP BY bk2.id_book\n) bc\nON (bk.id_book = bc.id_book)\nORDER BY books_sold DESC;

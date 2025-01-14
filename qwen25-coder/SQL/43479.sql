@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE date_column > (\n    SELECT date_column\n    FROM your_table\n    WHERE id = :your_arbitrary_id -- replace with your specific ID\n)\nORDER BY date_column ASC\nLIMIT 1;

@@ -1,1 +1,0 @@
--- NVL Example: Returns 10 if val is NULL, otherwise returns val\nSELECT NVL(val, 10) FROM your_table;\n\n-- COALESCE Example: Returns the first non-NULL value from val1, val2, or val3, or NULL if all are NULL\nSELECT COALESCE(val1, val2, val3) FROM your_table;

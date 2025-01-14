@@ -1,1 +1,0 @@
-ALTER TABLE feeds\nADD COLUMN feed_type ENUM('public', 'private', 'generated') NOT NULL;

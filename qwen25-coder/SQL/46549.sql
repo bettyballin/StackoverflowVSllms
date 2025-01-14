@@ -1,1 +1,0 @@
-SELECT \n    department_id,\n    employee_name,\n    salary,\n    ROW_NUMBER() OVER (PARTITION BY department_id ORDER BY salary DESC) AS row_num,\n    RANK() OVER (PARTITION BY department_id ORDER BY salary DESC) AS rank_val,\n    DENSE_RANK() OVER (PARTITION BY department_id ORDER BY salary DESC) AS dense_rank_val\nFROM \n    employees;

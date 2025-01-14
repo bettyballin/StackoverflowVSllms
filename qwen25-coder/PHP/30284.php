@@ -1,1 +1,0 @@
-// Assuming $pdo is your PDO database connection object\n$stmt = $pdo->prepare("SELECT * FROM $tbl_name WHERE username=:username AND pwd=:pwd AND priv_level=:privlevel");\n$stmt->execute([':username' => $myusername, ':pwd' => $pass, ':privlevel' => $privlevel]);\n$results = $stmt->fetchAll();

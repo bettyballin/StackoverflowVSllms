@@ -1,1 +1,0 @@
-# Assuming you are using RODBC library\nlibrary(RODBC)\n\n# Connect to your Excel file\nchannel <- odbcConnectExcel("yourfile.xls")\n\n# Fetch the data\ndf <- sqlQuery(channel, "SELECT * FROM [SheetName$]")\n\n# Close the channel\nodbcClose(channel)\n\n# Now subset in R\ndesired_row <- df[3, ]  # Adjust index as needed

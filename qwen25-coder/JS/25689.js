@@ -1,1 +1,0 @@
-// Client-side: Assume mapping of userId to token is stored or generated\nlet userId = 123;\nlet tokenId = generateToken(userId); // Function to generate a token\n\nPageMethods.GetUserData(tokenId, onSuccess, onError);\n\nfunction onSuccess(data) {\n    console.log("Data received:", data);\n}\n\nfunction onError(error) {\n    console.error("Error occurred:", error);\n}

@@ -1,1 +1,0 @@
-$chunkSize = 1000;\n   for ($i = 0; $i < 60000; $i += $chunkSize) {\n       $rQuery = $Database->query("SELECT id FROM mytable LIMIT " . $chunkSize . " OFFSET " . $i);\n       foreach ($rQuery as $aRow) {\n           print_r($aRow);\n       }\n   }

@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.apache.xmlgraphics</groupId>\n    <artifactId>batik-transcoder</artifactId>\n    <version>1.16</version>\n</dependency>

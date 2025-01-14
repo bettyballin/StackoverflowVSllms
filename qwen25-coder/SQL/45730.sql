@@ -1,1 +1,0 @@
-CREATE TABLE `hits` (\n     `id` INT AUTO_INCREMENT PRIMARY KEY,\n     `site_id` INT NOT NULL,\n     `hit_type` ENUM('in', 'out') NOT NULL,\n     `timestamp` TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n   );

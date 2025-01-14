@@ -1,1 +1,0 @@
-SELECT \n    DATEADD(SECOND, DATEDIFF(SECOND, CAST('1899-12-30 00:00:00.000' AS DATETIME), timeField), dateField) AS combinedDateTime\nFROM \n    yourTableName;

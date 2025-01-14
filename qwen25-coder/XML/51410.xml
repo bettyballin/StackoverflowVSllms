@@ -1,1 +1,0 @@
-<Solution SolutionId="GUID" SharePointProductVersion="12.0">\n       <FeatureManifests>\n           <FeatureManifest Location="MyWebPart\Feature.xml"/>\n       </FeatureManifests>\n   </Solution>

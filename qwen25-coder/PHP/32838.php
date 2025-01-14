@@ -1,1 +1,0 @@
-$uid = $this->Session->read('uid');\n  \n  if ($uid) {\n      echo "uid: " . h($uid);\n  } else {\n      debug("No uid found in session.");\n  }

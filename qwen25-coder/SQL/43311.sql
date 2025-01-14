@@ -1,1 +1,0 @@
-SELECT *\n   INTO #TempTable\n   FROM YourTableName WITH (NOLOCK)\n   WHERE PrimaryKeyField = TroubleRowID;

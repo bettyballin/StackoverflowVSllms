@@ -1,1 +1,0 @@
--- To see existing indexes\nSHOW INDEX FROM routes;\nSHOW INDEX FROM airports;\n\n-- Ensure these are indexed:\n-- Index on routes.origin\nALTER TABLE routes ADD INDEX idx_origin (origin);\n-- Index on routes.destination\nALTER TABLE routes ADD INDEX idx_destination (destination);

@@ -1,1 +1,0 @@
-class UserController {\n    public function showUser() {\n        $userId = $_GET['id'];\n        $model = new UserModel();\n        $user = $model->getUser($userId);\n        include 'views/user.view.php';\n    }\n}

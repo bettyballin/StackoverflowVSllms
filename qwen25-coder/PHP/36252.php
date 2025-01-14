@@ -1,1 +1,0 @@
-class SimpleLogger {\n    private $filePath;\n\n    public function __construct($path) {\n        $this->filePath = $path;\n    }\n\n    public function log($message, $level = 'INFO') {\n        file_put_contents(\n            $this->filePath,\n            date('Y-m-d H:i:s') . " [$level] $message\n",\n            FILE_APPEND\n        );\n    }\n}

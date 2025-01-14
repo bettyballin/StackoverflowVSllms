@@ -1,1 +1,0 @@
-"string".each_char do |char|\n  ascii = char.ord\n  puts "Character: #{char}, ASCII: #{ascii}"\nend

@@ -1,1 +1,0 @@
--- Create a temporary table\nCREATE TEMPORARY TABLE IF NOT EXISTS TempUsers AS\nSELECT * FROM Users WHERE age > 18;\n\n-- Use the temporary table\nSELECT * FROM TempUsers ORDER BY last_name;\n\n-- The temporary table will be automatically dropped at the end of the connectio

@@ -1,1 +1,0 @@
--- Drop the existing procedure\nDROP PROCEDURE my_procedure;\n\n-- Recreate the procedure with MODIFIES SQL DATA\nCREATE PROCEDURE my_procedure (\n    -- Define your parameters here\n)\nMODIFIES SQL DATA\nBEGIN\n    -- Your SQL logic here\nEND;

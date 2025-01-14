@@ -1,1 +1,0 @@
-<!-- In your .csproj file -->\n<PropertyGroup>\n  <DevelopmentServerPort>50000</DevelopmentServerPort>\n  <UseIISExpress>false</UseIISExpress>\n</PropertyGroup>

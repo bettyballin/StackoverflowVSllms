@@ -1,1 +1,0 @@
-Imports System.Text.RegularExpressions\n\nModule Module1\n    Sub Main()\n        Dim html As String = "<tr>\n    <td>\n</td>\n</tr>"\n        Dim pattern As String = ">(\s+)<"\n        Dim replacement As String = "><"\n\n        Dim cleanedHtml As String = Regex.Replace(html, pattern, replacement)\n\n        Console.WriteLine(cleanedHtml)\n    End Sub\nEnd Module

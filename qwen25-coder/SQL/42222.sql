@@ -1,1 +1,0 @@
-SELECT \n    d.*, \n    c.*\nFROM \n    D \nLEFT JOIN \n    "Junction" j ON d.id = j."D.id"\nLEFT JOIN \n    C c ON j."C.id" = c.id;

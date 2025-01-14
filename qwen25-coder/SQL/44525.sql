@@ -1,1 +1,0 @@
-WITH NumberedRecords AS (\n    SELECT r.*, ROW_NUMBER() OVER (ORDER BY some_column) as rn\n    FROM records r\n)\nSELECT * FROM NumberedRecords WHERE rn >= 5 AND rn <= 10;

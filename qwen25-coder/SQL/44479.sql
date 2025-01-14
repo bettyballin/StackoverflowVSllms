@@ -1,1 +1,0 @@
-CREATE PROCEDURE SearchMoviesByTitle\n    @SearchTerm1 NVARCHAR(50),\n    @SearchTerm2 NVARCHAR(50)\nAS\nBEGIN\n    SELECT TITLE\n    FROM MOVIES\n    WHERE CONTAINS(TITLE, QUOTENAME(@SearchTerm1 + '*', '''[]'''))\n      AND CONTAINS(TITLE, QUOTENAME(@SearchTerm2 + '*', '''[]'''));\nEND;

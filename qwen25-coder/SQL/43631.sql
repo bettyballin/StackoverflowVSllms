@@ -1,1 +1,0 @@
-INSERT INTO NewTable (Id, Name)\nSELECT \n    CASE \n        WHEN NULLIF(LeftId, '') IS NOT NULL THEN CONVERT(INT, LeftId)\n        ELSE CONVERT(INT, RightId)\n    END AS Id,\n    Name\nFROM SourceTable;

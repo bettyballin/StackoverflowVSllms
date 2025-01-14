@@ -1,1 +1,0 @@
-$iterator = $modelName->find('all', [\n    'iterator' => true,\n    // other options like conditions, fields, etc.\n]);\n\nforeach ($iterator as $row) {\n    // Process each row here\n}

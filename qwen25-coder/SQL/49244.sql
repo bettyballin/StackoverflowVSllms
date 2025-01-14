@@ -1,1 +1,0 @@
-WITH RECURSIVE CategoryTree AS (\n    SELECT id FROM categories WHERE id = :category_id\n    UNION ALL\n    SELECT categories.id FROM categories INNER JOIN CategoryTree ON categories.parent_id = CategoryTree.id\n)\nSELECT DISTINCT items.*\nFROM items\nJOIN items_categories ON items.id = items_categories.item_id\nWHERE items_categories.category_id IN (SELECT id FROM CategoryTree);

@@ -1,1 +1,0 @@
-// Simple peer connection setup pseudo code\n   const configuration = { iceServers: [{ urls: 'stun:stun.l.google.com:19302' }] };\n   const peerConnection = new RTCPeerConnection(configuration);

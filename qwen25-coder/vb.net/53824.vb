@@ -1,1 +1,0 @@
-Dim groupedResults = enumerable.GroupBy(Function(x) (x.Item("A").ToString(), x.Item("B").ToString()))

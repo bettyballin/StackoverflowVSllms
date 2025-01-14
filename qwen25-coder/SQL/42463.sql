@@ -1,1 +1,0 @@
-SELECT * \nFROM table \nWHERE name COLLATE Latin1_General_BIN LIKE '%ß%';

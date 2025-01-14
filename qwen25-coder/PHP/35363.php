@@ -1,1 +1,0 @@
-require_once "XML/RPC/Server.php";\n\nfunction add_handler($m) {\n    $params = $m->getParam();\n    $a = $params[0];\n    $b = $params[1];\n    $sum = $a + $b;\n    return new XML_RPC_Response(new XML_RPC_Value($sum, 'int'));\n}\n\n$server = new XML_RPC_Server(array(\n    "sample.add" => array("function" => "add_handler", "signature" => array('int', 'int', 'int'))\n));

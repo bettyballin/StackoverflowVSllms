@@ -1,1 +1,0 @@
-Public Class Customers\n    Implements ICustomersData, ICustomersLists, ICustomersMaintenance\n\n    ' Common private methods can go here or in a different shared class\nEnd Class

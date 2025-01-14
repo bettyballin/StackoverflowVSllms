@@ -1,1 +1,0 @@
-class OnlineUsersWorker\n     include Sidekiq::Worker\n\n     def perform\n       Timeout.timeout(5.seconds) do\n         User.where("last_visited < ?", 10.minutes.ago).update_all(online: false)\n       end\n     rescue Timeout::Error => e\n       Rails.logger.error "OnlineUsersWorker timed out"\n     ensure\n       self.class.perform_in(1.minute)\n     end\n   end

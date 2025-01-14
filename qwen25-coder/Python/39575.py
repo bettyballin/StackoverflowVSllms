@@ -1,1 +1,0 @@
-import multiprocessing\n\ndef child_process(q):\n    q.put('Hello from child')\n    q.put(42)\n\nif __name__ == '__main__':\n    queue = multiprocessing.Queue()\n    p = multiprocessing.Process(target=child_process, args=(queue,))\n    p.start()\n    print(queue.get())  # Prints 'Hello from child'\n    print(queue.get())  # Prints 42\n    p.join()

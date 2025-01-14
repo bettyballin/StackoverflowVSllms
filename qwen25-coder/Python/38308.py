@@ -1,1 +1,0 @@
-import spacy\n     nlp = spacy.load("en_core_web_sm")\n     doc = nlp("Hello, world!")

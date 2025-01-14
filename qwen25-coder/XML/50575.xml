@@ -1,1 +1,0 @@
-<behaviors>\n      <serviceBehaviors>\n        <behavior name="YourBehavior">\n          <serviceThrottling maxConcurrentCalls="100" \n                               maxConcurrentSessions="100"\n                               maxConcurrentInstances="100"/>\n        </behavior>\n      </serviceBehaviors>\n    </behaviors>

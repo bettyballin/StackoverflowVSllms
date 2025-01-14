@@ -1,1 +1,0 @@
-function generateSecureToken() {\n    return window.btoa(Array.from(window.crypto.getRandomValues(new Uint8Array(16)), byte => String.fromCharCode(byte)).join('')).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/g, '');\n}

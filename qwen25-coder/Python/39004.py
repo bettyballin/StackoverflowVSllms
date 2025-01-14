@@ -1,1 +1,0 @@
-import requests\n\ndef test_charles_proxy():\n    url = "https://www.example.com"\n    proxies = {\n        "http": "http://localhost:8888",\n        "https": "http://localhost:8888",\n    }\n    response = requests.get(url, proxies=proxies)\n    print(response.status_code)\n\ntest_charles_proxy()

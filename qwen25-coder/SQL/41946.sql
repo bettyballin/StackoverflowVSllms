@@ -1,1 +1,0 @@
--- Check for object validity\n   SELECT status FROM user_objects WHERE name = 'PROBLEMATICTABLE';\n\n   -- If status is INVALID, compile it explicitly\n   ALTER TABLE problematicTable COMPILE;

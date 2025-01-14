@@ -1,1 +1,0 @@
-SELECT LOWER(firstname) FROM Person;

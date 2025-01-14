@@ -1,1 +1,0 @@
-function DeleteItem(anchorElement, deleteUrl) {\n    // Find the row element\n    var tr = anchorElement.parentNode.parentNode;\n\n    // Perform your AJAX call here to delete the item\n\n    // Optionally animate the removal of the row\n    $(tr).fadeOut(function() {\n        tr.remove();\n    });\n\n    // Prevent postback\n    return false;\n}

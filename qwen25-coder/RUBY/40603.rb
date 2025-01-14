@@ -1,1 +1,0 @@
-class User < ApplicationRecord\n  has_many :posts, -> {\n    def recent\n      order(created_at: :desc).limit(12)\n    end\n  }, dependent: :destroy\n\n  # You can also define other associations similarly:\n  has_many :documents, dependent: :delete_all\nend

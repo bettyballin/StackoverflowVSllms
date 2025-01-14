@@ -1,1 +1,0 @@
-SELECT category, SUM(price) as total_price \nFROM products \nGROUP BY category \nORDER BY total_price;

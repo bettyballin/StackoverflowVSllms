@@ -1,1 +1,0 @@
-var textContent = document.getElementById("test").innerText;\ntextContent = textContent.replace(/a/, "<span style=\"color:red;\">$&</span>");\ntextContent = textContent.replace(/\n/g, '<br>');\n\ndocument.getElementById("test").style.whiteSpace = "pre-wrap";\ndocument.getElementById("test").innerHTML = textContent;

@@ -1,1 +1,0 @@
--- Instead of making multiple queries for each user, use JOINs for related data retrieval\n\n-- Poor practice:\nSELECT * FROM users WHERE id = 1;\nSELECT * FROM posts WHERE user_id = 1;\n\n-- Better practice with a JOIN (assuming you want to get posts of a specific user):\nSELECT u.*, p.* \nFROM users u\nJOIN posts p ON u.id = p.user_id\nWHERE u.id = 1;

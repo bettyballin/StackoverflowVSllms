@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>\n<aop>\n    <aspect class="com.example.monitoring.MethodExecutionTimeAspect"/>\n\n    <bind pointcut="execution(* com.yourpackage..*.*(..))">\n        <advice name="logExecutionTime" aspect="com.example.monitoring.MethodExecutionTimeAspect"/>\n    </bind>\n</aop>

@@ -1,1 +1,0 @@
-$widget = new ProductWidget();\nif (isset($_GET['category_id'])) {\n    $widget->display((int)$_GET['category_id']);\n} else {\n    // Handle no category ID provided\n}

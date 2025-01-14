@@ -1,1 +1,0 @@
-// Assuming 'imgElement' is the DOM element for the image\nimgElement.src = "Pics/Image123.jpg?" + new Date().getTime();

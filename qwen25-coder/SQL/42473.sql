@@ -1,1 +1,0 @@
-LOAD DATA\n  INFILE 'your_data_file.csv'\n  CONTINUEIF NEXT PRESERVE (1:'!')\n    INTO TABLE your_table\n    FIELDS TERMINATED BY "~" OPTIONALLY ENCLOSED BY '"'\n  (\n    column1,\n    column2,\n    column3\n  )

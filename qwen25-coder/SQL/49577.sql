@@ -1,1 +1,0 @@
-SELECT date_time_posting \nFROM table \nWHERE DATE_FORMAT(CONVERT_TZ(FROM_UNIXTIME(date_time_posting), 'UTC', '+06:00'), '%d-%m-%Y') = '$c_day_date'

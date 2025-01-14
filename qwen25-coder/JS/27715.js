@@ -1,1 +1,0 @@
-fetch('https://api.example.com/resource', {\n    method: 'GET',\n    headers: new Headers({\n        'Accept': 'application/json'\n    })\n})\n.then(response => response.json())\n.then(data => console.log(data))\n.catch(error => console.error('Error:', error));

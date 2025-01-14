@@ -1,1 +1,0 @@
-const fullHtml = document.documentElement.outerHTML;\nconsole.log(fullHtml);

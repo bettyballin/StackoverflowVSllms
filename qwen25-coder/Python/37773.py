@@ -1,1 +1,0 @@
-import uuid\nfrom datetime import datetime\n\ndef generate_sequential_id():\n    return f"{datetime.now().strftime('%Y%m%d%H%M%S%f')}_{str(uuid.uuid4()).replace('-', '')}"\n\n# Example usage\nsequential_id = generate_sequential_id()\nprint(sequential_id)

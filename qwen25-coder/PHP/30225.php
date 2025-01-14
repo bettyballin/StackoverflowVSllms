@@ -1,1 +1,0 @@
-// Example of using prepared statements in PHP to prevent SQL injection\n$dbh = new PDO('mysql:host=localhost;dbname=testdb', $user, $pass);\n$stmt = $dbh->prepare("SELECT * FROM users WHERE email = :email");\n$email = "example@example.com";\n$stmt->bindParam(':email', $email, PDO::PARAM_STR);\n$stmt->execute();

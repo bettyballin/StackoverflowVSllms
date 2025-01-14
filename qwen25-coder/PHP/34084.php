@@ -1,1 +1,0 @@
-<!-- resources/views/home.blade.php -->\n@extends('layouts.app')\n\n@section('content')\n    <h1>Welcome to Home Page</h1>\n@endsection\n\n// In your HomeController, pass data to the view:\npublic function index() {\n    $menuItems = Item::get(); // Fetch menu items from database\n    return view('home', compact('menuItems'));\n}

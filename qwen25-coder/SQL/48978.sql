@@ -1,1 +1,0 @@
-CREATE TABLE ExampleTable (\n    ID INT PRIMARY KEY IDENTITY(1,1),\n    Description NVARCHAR(MAX)\n);

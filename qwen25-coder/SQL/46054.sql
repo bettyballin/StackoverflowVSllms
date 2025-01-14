@@ -1,1 +1,0 @@
-UPDATE table_name\nSET single_cost = (cost + participant - 1) / participant;

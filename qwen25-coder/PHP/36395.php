@@ -1,1 +1,0 @@
-$file = '/var/www/myapp/data/writable_file.txt';\n$data = "Some data.\n";\n\nif (file_put_contents($file, $data, FILE_APPEND) === false) {\n    error_log("Failed to write to $file");\n} else {\n    echo "Data written successfully.";\n}

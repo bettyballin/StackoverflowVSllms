@@ -1,1 +1,0 @@
-$content = "Some text [flv:example.flv 465 301] more text.";\nif (preg_match('/\[flv:([^ ]+) ([0-9]+) ([0-9]+)\]/', $content, $matches)) {\n    echo "File name: " . $matches[1]; // This will be 'example.flv'\n    echo "\nWidth: " . $matches[2];   // This will be '465'\n    echo "\nHeight: " . $matches[3];  // This will be '301'\n}

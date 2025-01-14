@@ -1,1 +1,0 @@
-UPDATE sysdba.ADDRESS\nSET Address1 = '123 Tech Parway'\nWHERE AddressID IN (\n    SELECT AddressID\n    FROM sysdba.CONTACT\n    WHERE contactID = 'CRBD'\n);

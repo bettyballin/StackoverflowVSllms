@@ -1,1 +1,0 @@
-CREATE PROCEDURE updateCustomerBalance (\n    IN customerId INT,\n    IN amount DECIMAL(10, 2)\n) \nBEGIN\n    UPDATE Customers SET balance = balance + amount WHERE id = customerId;\nEND;

@@ -1,1 +1,0 @@
-var MyLibrary = new function() {\n    var privateVar = 'I am private';\n\n    function privateMethod() {\n        console.log(privateVar);\n    }\n\n    this.publicMethod = function() {\n        privateMethod();  // Accessible within the object\n    };\n\n    // Additional initialization code can go here\n};\n\nMyLibrary.publicMethod();  // Outputs: I am private

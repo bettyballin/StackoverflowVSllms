@@ -1,1 +1,0 @@
-# No need to import mod1 here, as long as the object passed has an 'answer' method\n\ndef show_answer(thing):\n    print(thing.answer())  # Dynamically checks if 'thing' has an 'answer' method

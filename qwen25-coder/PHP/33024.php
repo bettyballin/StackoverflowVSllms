@@ -1,1 +1,0 @@
-<?php\n$string = "{123} and {4567} are examples.";\n$pattern = '/\{[0-9]*\}/'; // Notice the single quotes and delimiters\n\npreg_match_all($pattern, $string, $matches);\n\nprint_r($matches);\n?>

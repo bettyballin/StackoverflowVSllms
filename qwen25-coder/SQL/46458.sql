@@ -1,1 +1,0 @@
-UPDATE YourTableName\nSET YourColumnName = UPPER(LEFT(REPLACE(YourColumnName, ' ', ''), 1)) + \n                     UPPER(SUBSTRING(REPLACE(YourColumnName, ' ', ''), 2, 1)) + \n                     SUBSTRING(YourColumnName, PATINDEX('%[^ ]%', REPLACE(YourColumnName, ' ', '')) + 1, LEN(YourColumnName))\nWHERE YourColumnName IS NOT NULL;

@@ -1,1 +1,0 @@
-function vars() {\n       return array('sitename' => 'stackoverflow');\n   }

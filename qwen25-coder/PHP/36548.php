@@ -1,1 +1,0 @@
-public function init()\n{\n    $ajaxContext = $this->_helper->getHelper('AjaxContext');\n    // Only these actions will handle Ajax\n    $ajaxContext->addActionContext('myaction', 'html')\n                ->addActionContext('anotherAction', 'html')\n                ->initContext();\n}

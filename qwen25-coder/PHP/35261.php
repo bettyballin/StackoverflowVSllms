@@ -1,1 +1,0 @@
-// .env.php file or loaded via dotenv package\n$envEncryptionKey = getenv('ENCRYPTION_KEY');\n\nif ($envEncryptionKey === false) {\n    die('Encryption key not set');\n}\n\n$encryptionKey = base64_decode($envEncryptionKey);\n\n// Use $encryptionKey for AES_ENCRYPT/AES_DECRYPT

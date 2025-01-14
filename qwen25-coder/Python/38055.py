@@ -1,1 +1,0 @@
-import redis\n   \n   r = redis.Redis()\n   r.hset('key1', 'subkey', 'value')\n   r.hgetall('key1')

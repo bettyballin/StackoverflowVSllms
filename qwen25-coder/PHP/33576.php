@@ -1,1 +1,0 @@
-$router = $frontController->getRouter();\n   $route = new Zend_Controller_Router_Route_Static('foo/DEFAULT.ASP', array('controller' => 'redirect', 'action' => 'defaultasp'));\n   $router->addRoute('legacy-redirect', $route);

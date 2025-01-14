@@ -1,1 +1,0 @@
-foreach ($xml->children() as $child) {\n    echo $child->getName() . ": " . (string)$child;\n}

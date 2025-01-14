@@ -1,1 +1,0 @@
-$file = 'non_existent_file.txt'; // Example file that doesn't exist\n\n$fh = @fopen($file, 'r');\n\nif (!$fh) {\n    $error = error_get_last();\n    echo "Unable to open the file: " . $error['message'];\n} else {\n    // Proceed with file operations\n    fclose($fh);\n}

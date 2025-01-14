@@ -1,1 +1,0 @@
-// Attach event listener using the data attribute\ndocument.addEventListener('click', function(e) {\n    if (e.target && e.target.getAttribute('data-action') === 'triggerFunction') {\n        // Call your function here\n        myJavaScriptFunction();\n    }\n});

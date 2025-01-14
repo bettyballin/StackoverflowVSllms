@@ -1,1 +1,0 @@
--- Example of configuring a firewall rule in Azure SQL Database\n   CREATE FIREWALL RULE [WebServerAccess]\n       WITH START_IP_ADDRESS = '192.168.1.100',\n            END_IP_ADDRESS = '192.168.1.100';

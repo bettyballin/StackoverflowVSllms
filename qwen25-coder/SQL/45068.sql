@@ -1,1 +1,0 @@
-Name varchar(50) -- For ASCII characters\n     Description nvarchar(MAX) -- For potential Unicode text

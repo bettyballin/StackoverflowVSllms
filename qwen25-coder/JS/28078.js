@@ -1,1 +1,0 @@
-jQuery.getJSON(callUrl, function(data) {\n  console.log(typeof data); // Should be object\n  jQuery.each(data.items, function(i, item) {\n    console.log(item.src);\n  });\n}).fail(function(jqxhr, textStatus, error) {\n  console.error('Error fetching data: ', textStatus, error);\n});

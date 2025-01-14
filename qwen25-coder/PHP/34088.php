@@ -1,1 +1,0 @@
-protected function _initPlugins() {\n    $frontController = Zend_Controller_Front::getInstance();\n    $plugin = new Application_Plugin_InitView();\n    $frontController->registerPlugin($plugin);\n}

@@ -1,1 +1,0 @@
-ALTER TABLE YourTableName DROP COLUMN RowID;

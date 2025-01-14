@@ -1,1 +1,0 @@
-<?php\ninclude ('AClass.php');\n\nclass Auto_Cart {\n    private $aclass; // Declare as a property\n\n    function __construct() { // Use __construct for the constructor in PHP5+\n        $this->aclass = new AClass(); // Store it as a property of the class\n    }\n\n    function DoSomething() {\n        $this->aclass->amemberfunction(); // Access the stored object\n    }\n}\n?>

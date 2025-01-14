@@ -1,1 +1,0 @@
-function post(divId, url, formId) {\n    var formData = $('#' + formId).serialize();\n    $.post(url, formData, function(response) {\n        $('#' + divId).html(response);\n    }).fail(function(jqXHR, textStatus, errorThrown) {\n        console.error('Error:', textStatus, errorThrown);\n    });\n}

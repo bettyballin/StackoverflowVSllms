@@ -1,1 +1,0 @@
-$.ajax({\n    url: 'https://example.com/api/data',\n    type: 'GET',\n    success: function(data) {\n        console.log('Data received:', data);\n    },\n    error: function() {\n        console.error('Failed to fetch data.');\n    }\n});

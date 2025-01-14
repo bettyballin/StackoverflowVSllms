@@ -1,1 +1,0 @@
-// Inside your BookingsController.php or another Controller file\nclass BookingsController extends AppController {\n    public function someAction() {\n        $addressId = 1; // Example address ID\n        $addressModel = ClassRegistry::init('Address');\n        $mapUrl = $addressModel->generateMapUrl($addressId);\n\n        // Use $mapUrl as needed\n    }\n}

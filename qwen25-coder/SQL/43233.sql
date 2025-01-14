@@ -1,1 +1,0 @@
-UPDATE tblStarting_Data SD\nSET CustomerID = (\n    SELECT ID\n    FROM qryIDPerCustomer QIPC\n    WHERE QIPC.CustomerName = SD.TEMPCustomer\n)\nWHERE TEMPCustomer IS NOT NULL\nAND EXISTS (\n    SELECT 1\n    FROM qryIDPerCustomer QIPC\n    WHERE QIPC.CustomerName = SD.TEMPCustomer\n);

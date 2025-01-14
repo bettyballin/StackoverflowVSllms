@@ -1,1 +1,0 @@
-<connectionStrings>\n        <add name="MyDatabaseConnectionString" connectionString="Data Source=mydatabase.db;" providerName="VistaDB.Provider" />\n    </connectionStrings>

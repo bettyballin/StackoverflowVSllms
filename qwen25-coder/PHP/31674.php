@@ -1,1 +1,0 @@
-spl_autoload_register(function ($class) {\n         include 'inc/' . $class . '.class.php';\n     });

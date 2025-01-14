@@ -1,1 +1,0 @@
-import csv\n\n# Sample data with commas in some fields\ndata = [\n    ["Name", "Company"],\n    ["John Doe", "Tech Inc."],\n    ["Jane Smith", "Data, Inc."]\n]\n\n# Writing to a file\nwith open('output.csv', mode='w', newline='') as file:\n    writer = csv.writer(file, quoting=csv.QUOTE_MINIMAL)\n    for row in data:\n        writer.writerow(row)

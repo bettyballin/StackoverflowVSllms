@@ -1,1 +1,0 @@
-CREATE TABLE Foo (\n    MyIdField INTEGER PRIMARY KEY,\n    MyTextField TEXT(255),\n    MyDateField DATE.TIME\n);

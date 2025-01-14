@@ -1,1 +1,0 @@
-ALTER TABLE Employees\nADD IsActive BIT DEFAULT 1;

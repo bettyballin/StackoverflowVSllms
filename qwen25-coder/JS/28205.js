@@ -1,1 +1,0 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>\n<script src="<%= Url.Content("~/Scripts/MicrosoftAjax.js") %>"></script>\n<script src="<%= Url.Content("~/Scripts/MicrosoftMvcAjax.js") %>"></script>

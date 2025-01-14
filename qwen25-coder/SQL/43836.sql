@@ -1,1 +1,0 @@
-ALTER TABLE table1\nADD col3 AS CAST((col1 / col2) AS INT);

@@ -1,1 +1,0 @@
-add_action('the_content', 'my_plugin');\n\nfunction my_plugin($content) {\n    // Check if we are on a single post page\n    if (is_single()) {\n        // Your plugin logic here\n        // For example, let's assume you want to append some text\n        $content .= "<p>This is additional content for the single post.</p>";\n    }\n    \n    return $content;\n}

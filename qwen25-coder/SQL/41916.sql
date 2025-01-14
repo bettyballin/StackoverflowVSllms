@@ -1,1 +1,0 @@
-CREATE TABLE IF NOT EXISTS php_sessions (\n    id CHAR(32) NOT NULL,\n    access INT(10) UNSIGNED DEFAULT 0 NOT NULL,\n    data TEXT NOT NULL,\n    UNIQUE (id)\n);

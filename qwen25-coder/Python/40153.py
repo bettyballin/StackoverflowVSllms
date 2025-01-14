@@ -1,1 +1,0 @@
-import os\n\n   EMAIL_ACCOUNT = os.getenv('EMAIL_USER')\n   EMAIL_PASSWORD = os.getenv('EMAIL_PASS')

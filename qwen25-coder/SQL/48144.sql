@@ -1,1 +1,0 @@
--- Example for an R-tree index creation in PostgreSQL with PostGIS extension\n   CREATE INDEX idx_rtree_geom ON geom_table USING GIST (geom);

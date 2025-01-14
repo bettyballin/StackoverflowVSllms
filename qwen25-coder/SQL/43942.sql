@@ -1,1 +1,0 @@
-WITH RankedAddresses AS (\n    SELECT \n        Name,\n        Street,\n        City,\n        State,\n        ROW_NUMBER() OVER (PARTITION BY Name ORDER BY (SELECT NULL)) AS RowNum\n    FROM Addresses\n)\nSELECT\n    Name,\n    Street,\n    City,\n    State\nFROM RankedAddresses\nWHERE RowNum = 1;

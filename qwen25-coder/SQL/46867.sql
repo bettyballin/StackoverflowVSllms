@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN FC.CourseId IS NOT NULL THEN dbo.GetBitFromInt(1)\n        ELSE dbo.GetBitFromInt(0)\n    END\nAS IsCourseBased\nFROM YourTable AS FC;

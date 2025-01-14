@@ -1,1 +1,0 @@
-SELECT r.*, a1.name AS origin_name, a2.name AS destination_name \nFROM routes r\nLEFT JOIN airports a1 ON a1.IATA = r.origin\nLEFT JOIN airports a2 ON a2.IATA = r.destination\nWHERE r.carrier = 'Carrier Name';

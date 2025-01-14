@@ -1,1 +1,0 @@
-' ExampleFunction.bas\nSub MyFunction()\n    On Error GoTo ErrorHandler\n\n    LogFunctionEntry "MyFunction"\n    \n    ' Your function logic here\n    \n    LogFunctionExit "MyFunction"\n    Exit Sub\n\nErrorHandler:\n    MsgBox "Error in " & CallStack & vbCrLf & Err.Description\n    LogFunctionExit "MyFunction"\nEnd Sub

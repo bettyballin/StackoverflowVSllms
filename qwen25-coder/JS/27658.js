@@ -1,1 +1,0 @@
-// Select your target element using any selector method, e.g., getElementById\nvar element = document.getElementById('your-element-id');\n\n// Iterate through all attributes of the element\nfor (var i = 0; i < element.attributes.length; i++) {\n    var attr = element.attributes[i];\n    console.log(attr.name + ': ' + attr.value);\n}

@@ -1,1 +1,0 @@
-' Example of Explicit Typing - preferred for clarity\nDim number As Integer = 42\n\n' Example of Implicit Typing with LINQ - convenient but clear context\nOption Infer On\nDim numbers = {1, 2, 3, 4, 5}\nDim evenNumbers = From num In numbers Where num Mod 2 = 0 Select num

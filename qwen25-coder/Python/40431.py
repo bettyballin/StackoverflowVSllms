@@ -1,1 +1,0 @@
-# config.py\nimport os\n\nclass Config(object):\n    SECRET_KEY = 'your_secret_key_here'\n    SQLALCHEMY_DATABASE_URI = 'mysql+mysqlconnector://user:password@localhost/database_name'\n    SQLALCHEMY_TRACK_MODIFICATIONS = False

@@ -1,1 +1,0 @@
-SELECT \n    t.name AS TableName,\n    CASE WHEN i.index_id = 0 THEN 'Heap'\n         WHEN i.index_id > 0 AND i.type = 1 THEN 'Clustered Index'\n         ELSE 'Non-Clustered Index' END AS IndexType\nFROM sys.tables t\nLEFT JOIN sys.indexes i ON t.object_id = i.object_id\nWHERE t.name = 'YourTableName';

@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET TestTime = @NewTestTime,\n    Version = Version + 1\nWHERE ProductionCode = @ProductionCode\nAND Version = @ExpectedVersion;

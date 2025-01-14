@@ -1,1 +1,0 @@
-INSERT INTO friend_locations \n(user_id, lat, `long`) \nVALUES \n('82441', '28.665899', '-81.359756');

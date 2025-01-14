@@ -1,1 +1,0 @@
-document.querySelector('div').addEventListener('mouseup', function(e) {\n    const selectedText = window.getSelection().toString();\n    if (selectedText.length > 0) {\n        console.log('Selected text:', selectedText);\n        // Trigger your custom logic here\n    }\n});

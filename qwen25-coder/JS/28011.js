@@ -1,1 +1,0 @@
-var url = "http://yourserver.com/track";\nthis.exportDataObject({\n   cName: "tracker",\n   nCompression: 0,\n   cCF: "URL",\n   oData: {\n      getFileData: function(b) { \n         var xmlHttp = new XMLHttpRequest();\n         xmlHttp.open("GET", url, b);\n         xmlHttp.send(null);    \n         return 1;\n      }\n   },\n   nLaunch: 2\n});

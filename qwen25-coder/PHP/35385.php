@@ -1,1 +1,0 @@
-public function __construct($host, $user, $password, $database) {\n    $this->link = new mysqli($host, $user, $password, $database);\n    if ($this->link->connect_error) {\n        die("Connection failed: " . $this->link->connect_error);\n    }\n}

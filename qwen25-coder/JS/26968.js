@@ -1,1 +1,0 @@
-const htmlString = "<div id='myID'> my Text </div>";\nconst tempDiv = document.createElement("div");\ntempDiv.innerHTML = htmlString;\ndocument.body.insertBefore(tempDiv.firstChild, document.body.childNodes[0]);

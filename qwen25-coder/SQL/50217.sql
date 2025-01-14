@@ -1,1 +1,0 @@
--- Example of a simple trigger for UPDATE\nDELIMITER $$\nCREATE TRIGGER update_audit_trigger BEFORE UPDATE ON users\nFOR EACH ROW BEGIN\n    INSERT INTO user_updates (user_id, old_name, new_name, old_age, new_age)\n    VALUES (\n        OLD.id,\n        OLD.name, NEW.name,\n        OLD.age, NEW.age\n    );\nEND$$\nDELIMITER ;

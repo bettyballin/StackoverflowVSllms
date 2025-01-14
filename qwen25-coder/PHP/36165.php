@@ -1,1 +1,0 @@
-/**\n * @param string $url\n * @return array|null\n */\nstatic function getTestData($url) {\n    // ...\n}

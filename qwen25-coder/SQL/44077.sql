@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE your_procedure (\n    p_ids IN NUMBER_TABLE\n) IS\nBEGIN\n    FOR rec IN (SELECT * FROM YOUR_TABLE yt WHERE yt.id MEMBER OF p_ids) LOOP\n        -- Process each row as needed\n    END LOOP;\nEND your_procedure;

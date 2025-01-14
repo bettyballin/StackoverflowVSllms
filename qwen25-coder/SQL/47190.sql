@@ -1,1 +1,0 @@
--- SQL standard compliant example\nSELECT x, y, \n       CASE WHEN y != 0 THEN x / y ELSE NULL END AS quot_safe\nFROM t;

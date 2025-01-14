@@ -1,1 +1,0 @@
--- Add a lock_time field to your table\nALTER TABLE records ADD COLUMN lock_time TIMESTAMP NULL;

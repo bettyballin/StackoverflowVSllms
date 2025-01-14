@@ -1,1 +1,0 @@
-// global.js\n\n// Ensure that all jQuery code is within a single document-ready handler\n$(document).ready(function(){\n    // Your existing click event for #more element\n    $("#more").click(function(){\n        $("#morediv").slideToggle("slow");\n        return false;\n    });\n\n    // You can add other document-ready specific code here\n});

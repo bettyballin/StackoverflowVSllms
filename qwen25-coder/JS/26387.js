@@ -1,1 +1,0 @@
-Ext.onReady(function() {\n    Ext.create('Ext.panel.Panel', {\n        title: 'Hello World',\n        width: 200,\n        html: '<h1>Welcome to Ext JS</h1>',\n        renderTo: Ext.getBody()\n    });\n});

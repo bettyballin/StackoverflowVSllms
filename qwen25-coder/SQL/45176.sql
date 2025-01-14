@@ -1,1 +1,0 @@
-SELECT DATEPART(HOUR, event_time) AS HourPart FROM your_table_name;

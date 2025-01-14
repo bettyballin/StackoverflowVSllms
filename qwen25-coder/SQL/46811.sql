@@ -1,1 +1,0 @@
-CREATE TABLE People (\n    id int IDENTITY(1,1) PRIMARY KEY,\n    name varchar(10),\n    DoB datetime,\n    Height int\n);\n\nCREATE TABLE Phone_Number (\n    id int IDENTITY(1,1) PRIMARY KEY,\n    people_id int,\n    number varchar(15),\n    FOREIGN KEY (people_id) REFERENCES People(id)\n);

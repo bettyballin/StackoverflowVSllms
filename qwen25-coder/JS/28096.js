@@ -1,1 +1,0 @@
-// Example of calling an internal method instead of a web service\n   var clientInfo = DAL.GetInnerClient(...);

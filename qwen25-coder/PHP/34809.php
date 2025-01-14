@@ -1,1 +1,0 @@
-<?php\n// Execute the PHP file and capture its output\n$xhtml = shell_exec('php myfile.php');\n\n// Process $xhtml as needed\necho htmlspecialchars($xhtml);\n?>

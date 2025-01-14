@@ -1,1 +1,0 @@
-// Basic usage of Leaflet.js\n  var map = L.map('map').setView([51.505, -0.09], 13);\n\n  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {\n      attribution: '© OpenStreetMap contributors'\n  }).addTo(map);

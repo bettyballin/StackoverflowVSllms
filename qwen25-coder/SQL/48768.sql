@@ -1,1 +1,0 @@
-INSERT INTO SOMETABLE (Field1, Field2, Field3, Field4, Field5)\n   SELECT \n     Field1 = 'FieldOneValue',\n     Field2 = 'FieldTwoValue',\n     Field3 = 3,\n     Field4 = 4.55,\n     Field5 = '10/10/2008 16:42:00.000';

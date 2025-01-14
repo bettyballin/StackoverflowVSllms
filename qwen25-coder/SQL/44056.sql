@@ -1,1 +1,0 @@
-SELECT name, age FROM users1\nUNION\nSELECT name, age FROM users2;

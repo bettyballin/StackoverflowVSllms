@@ -1,1 +1,0 @@
-// Sanitize the domain name to prevent HTTP Response Splitting\n$sanitizedDomain = filter_var($_SESSION['domainname'], FILTER_SANITIZE_STRING);\n\n// Construct the URL safely\nheader("Location: http://www." . $sanitizedDomain);\nexit; // Ensure no further output is sent after the header call

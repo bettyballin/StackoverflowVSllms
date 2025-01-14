@@ -1,1 +1,0 @@
-$.ajax({\n    type: 'POST',\n    url: 'your-php-script.php',\n    data: { sample_field: document.getElementById('sample').value },\n    success: function(response) {\n        document.getElementById('str_length').value = response;\n    }\n});

@@ -1,1 +1,0 @@
-For i As Integer = 1 To 10\n    If i = 5 Then\n        Exit For\n    End If\n    Console.WriteLine(i)\nNext

@@ -1,1 +1,0 @@
-import unittest\n\ndef add(a, b):\n    return a + b\n\nclass TestAddFunction(unittest.TestCase):\n    def test_add_positive_numbers(self):\n        self.assertEqual(add(1, 2), 3)\n\n    def test_add_negative_and_positive_number(self):\n        self.assertEqual(add(-1, 2), 1)\n\nif __name__ == '__main__':\n    unittest.main()

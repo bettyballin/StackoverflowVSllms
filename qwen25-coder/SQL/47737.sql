@@ -1,1 +1,0 @@
-from Contest C \nwhere exists elements(C.RequiredCountries) r\n      and r.CountryCode = :CountryCode

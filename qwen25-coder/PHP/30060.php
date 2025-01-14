@@ -1,1 +1,0 @@
-<?php\ntry {\n    // Assuming $pdo is an already established PDO object connection\n    $stmt = $pdo->prepare("REPLACE INTO users (ip, lastcheck) VALUES (:ip, NOW())");\n\n    // Bind parameters\n    $stmt->bindParam(':ip', $uip);\n\n    // Execute statement\n    $stmt->execute();\n} catch(PDOException $e) {\n    throwerror("Database error: " . $e->getMessage());\n}\n?>

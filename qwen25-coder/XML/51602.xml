@@ -1,1 +1,0 @@
-<action name="myAction" class="com.example.MyAction">\n       <result name="success">/WEB-INF/pages/success.jsp</result>\n       <result name="input">/WEB-INF/pages/myForm.jsp</result> <!-- Ensure this matches your form's JSP -->\n       <result name="error">/WEB-INF/pages/error.jsp</result>\n   </action>

@@ -1,1 +1,0 @@
-// Check if the site is in trusted sites zone in Internet Explorer settings

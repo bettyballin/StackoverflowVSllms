@@ -1,1 +1,0 @@
-SELECT * \nFROM tblTransaction t\nWHERE EXISTS (\n    SELECT 1\n    FROM tblTenantTransCode tt\n    JOIN tblCheckbookCode cb ON tt.CheckbookCode = cb.ID\n    WHERE cb.Description = 'Rent Income'\n      AND t.TransactionCode = tt.ID\n);

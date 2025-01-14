@@ -1,1 +1,0 @@
-SELECT SUM(min_value) AS total\nFROM (\n    SELECT MIN(f.total_points - 20, a.activity) AS min_value\n    FROM (\n        SELECT name_id, SUM(points) AS total_points\n        FROM foods f\n        JOIN dates d ON f.name_id = d.pk AND d.weekly = 1\n        GROUP BY f.name_id\n        HAVING SUM(f.points) > 20\n    ) f\n    JOIN activities a ON f.name_id = a.activity_id\n);

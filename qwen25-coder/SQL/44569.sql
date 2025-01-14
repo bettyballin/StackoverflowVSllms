@@ -1,1 +1,0 @@
-CREATE PROCEDURE CreateLocalTempTable\nAS\nBEGIN\n    CREATE TABLE #MyTempTable (\n        ID INT PRIMARY KEY,\n        Value NVARCHAR(100)\n    );\n\n    INSERT INTO #MyTempTable (ID, Value) VALUES (1, 'TestValue');\n\n    SELECT * FROM #MyTempTable;\nEND

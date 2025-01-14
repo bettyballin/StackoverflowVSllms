@@ -1,1 +1,0 @@
-EXEC sp_who2;\n   DBCC INPUTBUFFER(<SPID>);

@@ -1,1 +1,0 @@
-<STAThread>\n   Public Function TestMethod1() As Boolean\n       Dim ie8 As New IE("http://[some website]")\n       Login(ie8)\n       Logout(ie8)\n       Return True\n   End Functio

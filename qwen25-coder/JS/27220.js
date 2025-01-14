@@ -1,1 +1,0 @@
-const parser = new DOMParser();\nconst doc = parser.parseFromString("<div id='myID'> my Text </div>", "text/html");\ndocument.body.insertBefore(doc.body.firstChild, document.body.childNodes[0]);

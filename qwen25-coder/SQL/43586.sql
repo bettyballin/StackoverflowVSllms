@@ -1,1 +1,0 @@
-CREATE INDEX idx_abc ON table_name (a ASC, b ASC, c ASC);

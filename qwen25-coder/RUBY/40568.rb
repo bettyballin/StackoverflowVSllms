@@ -1,1 +1,0 @@
-def edit_form\n     @asset = Asset.find(params[:id])\n     respond_to do |format|\n       format.js { render 'edit_partial', layout: false }\n     end\n   end

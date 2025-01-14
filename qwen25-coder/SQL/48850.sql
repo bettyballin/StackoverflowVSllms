@@ -1,1 +1,0 @@
-B AND C AND D AND (\n    A1\n    OR (A2 OR (A3 AND A3a)) AND E AND F1 AND G\n    OR A4 AND F2\n)

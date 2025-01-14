@@ -1,1 +1,0 @@
-// Queuing for asynchronous handling (basic example)\nfunction queueEmail($emailData) {\n    file_put_contents('path/to/email_queue.json', json_encode($emailData, JSON_PRETTY_PRINT), FILE_APPEND);\n}\n\n// Assume you would handle this queue periodically with a cron job or an HTTP endpoint triggered by your server

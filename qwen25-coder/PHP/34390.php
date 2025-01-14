@@ -1,1 +1,0 @@
-// Example: Function to cast a vote securely\n   function castVote($userId, $candidateId) {\n       if (isVotingAllowed($userId)) {\n           // Log vote securely in the database with necessary validations\n       } else {\n           throw new Exception("Voting not allowed.");\n       }\n   }

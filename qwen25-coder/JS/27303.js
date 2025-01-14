@@ -1,1 +1,0 @@
-frm.submit(function () {\n    if (frm.validate()) {\n        var data = frm.serialize();\n        jQuery.ajax({\n            url: window.ajaxUrl,\n            type: 'POST',\n            data: data,\n            dataType: "html",\n            success: function (data) {\n                // Handle the response here\n            }\n        });\n    }\n    return false;\n});

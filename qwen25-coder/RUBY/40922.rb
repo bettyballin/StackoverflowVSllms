@@ -1,1 +1,0 @@
-# Install JRuby and Warbler\n   gem install warbler\n\n   # Navigate to your application dir and generate a config file\n   warble config\n\n   # Modify the generated `config/warble.rb` if necessary, then:\n   warble executable

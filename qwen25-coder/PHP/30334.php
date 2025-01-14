@@ -1,1 +1,0 @@
-// index.php\ninclude 'utils.php';\n\n$result = calculateSum(10, 5);\necho "The sum is: " . formatNumber($result);

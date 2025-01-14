@@ -1,1 +1,0 @@
-// This script will log all resources and their protocols to the console.\ndocument.querySelectorAll('link, script, img, iframe').forEach(element => {\n    const url = new URL(element.src || element.href);\n    console.log(`${element.tagName}: ${url.protocol}`);\n});

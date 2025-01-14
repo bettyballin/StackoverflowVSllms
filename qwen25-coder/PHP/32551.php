@@ -1,1 +1,0 @@
-<?php\nrequire 'IXR_Lib.php'; // Make sure to have IXR_Library (http://xmlrpc-epi.sourceforge.net/specs/rfc/xmlrpc-php.tar.gz)\n\nfunction multiply($x, $y) {\n    return $x * $y;\n}\n\n$server = new IXR_Server(array('sample.multiply' => 'multiply'));\n?>

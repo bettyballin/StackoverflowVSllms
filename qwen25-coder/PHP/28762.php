@@ -1,1 +1,0 @@
-<table>\n    <?php foreach ($users as $user): ?>\n    <tr>\n        <td><?php echo htmlspecialchars($user['Username']); ?></td> <!-- Prevent XSS -->\n        <!-- Add other user details here -->\n    </tr>\n    <?php endforeach; ?>\n</table>

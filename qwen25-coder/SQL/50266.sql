@@ -1,1 +1,0 @@
-CREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    username VARCHAR(255) NOT NULL UNIQUE,\n    password_hash VARCHAR(255) NOT NULL,\n    role TINYINT UNSIGNED DEFAULT 0 -- Bitmask for roles\n);

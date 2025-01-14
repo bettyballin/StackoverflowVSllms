@@ -1,1 +1,0 @@
-$search = 'hello "this" is regular expressions "and this here"';\n$pattern = '/"(.*?)"/'; // Non-greedy match\n\npreg_match_all($pattern, $search, $matches); // Use preg_match_all to find all matches\n\nprint_r($matches[1]); // Access the captured groups

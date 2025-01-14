@@ -1,1 +1,0 @@
-class Customer extends AppModel {\n       public $belongsTo = array(\n           'MailingAddress' => array(\n               'className' => 'Address',\n               'foreignKey' => 'mailing_address_id'\n           ),\n           'BillingAddress' => array(\n               'className' => 'Address',\n               'foreignKey' => 'billing_address_id'\n           )\n       );\n   }

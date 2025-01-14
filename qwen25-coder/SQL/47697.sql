@@ -1,1 +1,0 @@
--- Create control file (loader.ctl)\nLOAD DATA\nINFILE 'datafile.csv'\nINTO TABLE YourTable\nFIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'\nTRAILING NULLCOLS (\n    Column1,\n    Column2\n)

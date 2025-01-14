@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER["REQUEST_METHOD"] == "POST") {\n    $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);\n    $confirmEmail = filter_input(INPUT_POST, 'confirmEmail', FILTER_SANITIZE_EMAIL);\n\n    if ($email !== $confirmEmail) {\n        die("Email addresses do not match.");\n    }\n    \n    // Further processing, e.g., saving to database\n}\n?>

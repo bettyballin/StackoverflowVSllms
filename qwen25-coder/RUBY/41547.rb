@@ -1,1 +1,0 @@
-Item.pluck(:status).uniq

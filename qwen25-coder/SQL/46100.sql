@@ -1,1 +1,0 @@
-CREATE OR REPLACE TYPE ID_TYPE AS NUMBER(7);\n/\n\nCREATE TABLE Person (\n    PersonID ID_TYPE,\n    Name VARCHAR2(31)\n);

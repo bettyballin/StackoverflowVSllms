@@ -1,1 +1,0 @@
-CREATE TABLE schedule (\n    event_date TIMESTAMP,\n    CONSTRAINT check_event_time CHECK (TO_CHAR(event_date, 'HH24') >= '09' AND TO_CHAR(event_date, 'HH24') <= '17')\n);

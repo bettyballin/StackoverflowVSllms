@@ -1,1 +1,0 @@
-SELECT * INTO #TempResults\nFROM [YourTable]\nWHERE [SomeCondition];\n\nSELECT * FROM #TempResults; -- Review the data\n\n-- If satisfied, perform the DELETE operation\nDELETE FROM [YourTable]\nWHERE [SomeCondition];

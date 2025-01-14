@@ -1,1 +1,0 @@
-from djorm_expressions import models\n\nclass MyModel(models.Model):\n    # your fields here\n    pass\n\n# Using custom SQL with expressions\nresults = MyModel.objects.filter(raw_sql="some_field = %s", raw_params=['some_value'])

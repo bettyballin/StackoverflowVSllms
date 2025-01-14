@@ -1,1 +1,0 @@
-Dim rng As New Random()\nIf rng.Next(100) < 4 Then\n    Return True\nElse\n    Return False\nEnd If

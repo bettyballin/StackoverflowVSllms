@@ -1,1 +1,0 @@
-<a href="#" class="select-survey-item" data-id="<%= encodeURIComponent('%itemid%').replace(/'/g, "\\'").replace(/"/g, '\\\"') %>" data-name="<%= encodeURIComponent('%itemname%').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') %>">Select</a>

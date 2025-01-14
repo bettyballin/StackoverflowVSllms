@@ -1,1 +1,0 @@
-<?php\nif (isset($_GET['data'])) {\n    // Decode the URL-encoded data\n    $decodedData = urldecode($_GET['data']);\n    \n    // Convert the JSON string back to a PHP array\n    $objects = json_decode($decodedData, true);\n    \n    // Now you can work with the $objects array\n    print_r($objects);\n}\n?>

@@ -1,1 +1,0 @@
-# lib/currency_formatter.rb\nmodule CurrencyFormatter\n  # Formats a given amount as US dollars.\n  def self.format_usd(amount)\n    sprintf('$%.2f', amount.round(2))\n  end\n\n  # Converts cents to dollars before formatting.\n  def self.cents_to_dollars(cents)\n    format_usd((cents.to_f / 100.0).round(2))\n  end\nend

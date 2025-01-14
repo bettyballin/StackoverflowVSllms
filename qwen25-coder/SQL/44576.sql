@@ -1,1 +1,0 @@
--- First, find the max ID from your table\nSELECT MAX(id_column) FROM your_table;\n\n-- Assuming the result is 201 or greater, set the sequence to start from a number higher than that\nALTER SEQUENCE seq_name RESTART WITH 202;

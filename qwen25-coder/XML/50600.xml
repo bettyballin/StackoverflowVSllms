@@ -1,1 +1,0 @@
-<!-- CometD dependencies -->\n<dependency>\n    <groupId>org.cometd.java</groupId>\n    <artifactId>cometd-java-server</artifactId>\n    <version>4.0.12</version>\n</dependency>\n\n<dependency>\n    <groupId>org.cometd.java</groupId>\n    <artifactId>cometd-java-websocket-javax-server</artifactId>\n    <version>4.0.12</version>\n</dependency>

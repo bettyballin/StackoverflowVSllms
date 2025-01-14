@@ -1,1 +1,0 @@
-<?php // Instead of this\n     echo '<div class="container">';\n     echo '  <p>Content</p>';\n     echo '</div>'; ?>\n     \n     <!-- Do this -->\n     <?php if ($showContainer): ?>\n         <div class="container">\n             <p>Content</p>\n         </div>\n     <?php endif; ?>

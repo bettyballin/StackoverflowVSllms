@@ -1,1 +1,0 @@
-SELECT \n    TableName = OBJECT_NAME(parent_object_id),\n    SchemaName = SCHEMA_NAME(SCHEMA_ID(OBJECT_NAME(parent_object_id)))\nFROM sys.objects \nWHERE object_id = @@PROCID;

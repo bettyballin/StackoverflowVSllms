@@ -1,1 +1,0 @@
-$query = "SELECT some_really_really_long_field_name AS srlfn FROM ...";\n...\nprint_r($row);

@@ -1,1 +1,0 @@
-EXPLAIN ANALYZE SELECT a, b FROM products WHERE (a = 1 OR b = 2);\nEXPLAIN ANALYZE SELECT a, b FROM products WHERE NOT (a != 1 AND b != 2);

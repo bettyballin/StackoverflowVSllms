@@ -1,1 +1,0 @@
-SELECT id, date_time \nFROM table \nWHERE id = your_specific_id;

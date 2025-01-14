@@ -1,1 +1,0 @@
-<?php\n   function getLocalHash() {\n       // Example hash generation (use a more secure hashing algorithm)\n       return md5(getMacAddress());\n   }\n\n   $expectedHash = 'your-expected-hash'; // Store this securely\n   if (getLocalHash() !== $expectedHash) {\n       die('Unauthorized usage.');\n   }\n   ?>

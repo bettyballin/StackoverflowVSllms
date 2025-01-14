@@ -1,1 +1,0 @@
-DECLARE @Db1Name VARCHAR(255), @query NVARCHAR(MAX);\n\n-- Determine the environment, here it's hardcoded for example purposes\nDECLARE @Environment VARCHAR(50) = 'Development'; \n\nSELECT @Db1Name = Db1Name FROM Config WHERE Environment = @Environment;\n\nSET @query = N'SELECT * FROM [' + @Db1Name + '].[schema].[table]';\n\nEXEC sp_executesql @query;

@@ -1,1 +1,0 @@
-// utils.php\nfunction calculateSum($a, $b) {\n    return $a + $b;\n}\n\nfunction formatNumber($number) {\n    return number_format($number, 2);\n}

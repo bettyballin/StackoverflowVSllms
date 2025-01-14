@@ -1,1 +1,0 @@
-# Create a Rails migration file:\nrails generate migration ChangeVariantsToJSON\n\n# Then run\nclass ChangeVariantsToJson < ActiveRecord::Migration[6.0]\n  def change\n    # Convert to jsonb (PostgreSQL) or json for other databases:\n    change_column :polls, :variants, :jsonb  # Use :json if not using PostgreSQL\n  end\nend\n\n# Migrate the database\nrails db:migrate

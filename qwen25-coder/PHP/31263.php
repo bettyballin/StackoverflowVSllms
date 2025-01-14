@@ -1,1 +1,0 @@
-<?php\n$username = $_POST['username'];\n$password = $_POST['password'];\n\n// Mock authentication check\nif ($username === 'admin' && $password === 'admin123') {\n    echo "Login successful";\n} else {\n    echo "Incorrect password";  // Ensure this matches exactly\n}\n?>

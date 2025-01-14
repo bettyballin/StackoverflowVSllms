@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE get_info ( \n   o_cursor            OUT      SYS_REFCURSOR \n) AS\nBEGIN\n   OPEN o_cursor FOR\n     SELECT * FROM v$database;\nEND get_info;\n/

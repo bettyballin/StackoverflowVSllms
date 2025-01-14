@@ -1,1 +1,0 @@
--- Example of using EXPLAIN PLAN to analyze query performance\n   EXPLAIN ANALYZE SELECT * FROM your_table WHERE condition;

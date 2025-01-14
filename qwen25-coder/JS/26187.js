@@ -1,1 +1,0 @@
-window.history.pushState({}, document.title, "?rssFeedPath=" + encodeURIComponent(serverResponse.rssLink));

@@ -1,1 +1,0 @@
-# car.rb\nclass Car\nend\n\n# electric/car.rb\nrequire_relative '../../car' # Adjust the path relative to the position of electric/car.rb in your project structure\n\nmodule Electric\n  class Car < ::Car # Use ::Car to refer to the top-level Car\n  end\nend

@@ -1,1 +1,0 @@
-models = ActiveRecord::Base.descendants\nmodels.each do |model|\n  puts model.name\nend

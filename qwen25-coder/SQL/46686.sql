@@ -1,1 +1,0 @@
-SELECT create_date \nFROM sys.objects \nWHERE type = 'U' AND name = 'YourTableName';

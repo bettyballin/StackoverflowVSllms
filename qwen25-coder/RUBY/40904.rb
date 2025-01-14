@@ -1,1 +1,0 @@
-<%= check_box_tag 'approved', item.id, item.approved?, data: { remote: true } %>

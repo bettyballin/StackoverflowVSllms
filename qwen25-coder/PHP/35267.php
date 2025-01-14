@@ -1,1 +1,0 @@
-function [yourtheme]_preprocess_node(&$vars) {\n       if (isset($vars['node']) && $vars['node']->type == 'fund' && arg(0) == 'print' && arg(1) == 'fund') {\n         $vars['template_files'][] = 'print-fund-node';\n       }\n     }

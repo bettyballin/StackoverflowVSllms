@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- Insert some data into a table\nINSERT INTO my_table (column1) VALUES ('data');\n\n-- Truncate the table - this will implicitly commit the transaction and remove the inserted data\nTRUNCATE TABLE my_table;\n\nCOMMIT;  -- This line is technically redundant after a DDL command like TRUNCATE

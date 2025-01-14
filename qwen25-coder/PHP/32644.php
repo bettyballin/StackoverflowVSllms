@@ -1,1 +1,0 @@
-$x[1] = []; // Initialize $x[1] as an empty array\n$x[1][] = 'child'; // Now you can append elements to this array

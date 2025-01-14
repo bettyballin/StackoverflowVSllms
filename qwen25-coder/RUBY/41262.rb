@@ -1,1 +1,0 @@
-class TranItem < ActiveRecord::Base\n     belongs_to :item\n     belongs_to :order\n   end

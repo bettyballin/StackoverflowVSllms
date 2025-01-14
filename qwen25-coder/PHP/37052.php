@@ -1,1 +1,0 @@
-header("X-Frame-Options: SAMEORIGIN");\n   header('Strict-Transport-Security: max-age=31536000; includeSubDomains');

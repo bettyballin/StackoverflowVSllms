@@ -1,1 +1,0 @@
-SELECT * FROM tblTest WHERE testid = @ParamName_123

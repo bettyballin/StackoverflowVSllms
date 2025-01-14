@@ -1,1 +1,0 @@
--- Find distance between two locations\nDECLARE @StartLocation NVARCHAR(255) = 'Sydney';\nDECLARE @DestinationLocation NVARCHAR(255) = 'Melbourne';\n\nSELECT Distance\nFROM Distances d\nJOIN Locations r ON d.RowLocationID = r.LocationID\nJOIN Locations c ON d.ColumnLocationID = c.LocationID\nWHERE r.Name = @StartLocation AND c.Name = @DestinationLocation;

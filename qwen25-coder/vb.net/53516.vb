@@ -1,1 +1,0 @@
-Sub CopyDisplayedValue()\n    Dim originalCell As Range\n    Dim targetCell As Range\n    Set originalCell = ActiveSheet.Range("A1") ' Change A1 to your source cell\n    Set targetCell = ActiveSheet.Range("B1")  ' Change B1 to your target cell\n    \n    ' Retrieve the displayed value and paste it into the target cell\n    targetCell.Value = originalCell.Text\nEnd Sub

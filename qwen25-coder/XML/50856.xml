@@ -1,1 +1,0 @@
-<configuration>\n    <system.webServer>\n        <handlers>\n            <add name="CustomHandler" path="*.aspx" verb="*" type="YourNamespace.YourHandler, YourAssembly" resourceType="Unspecified"/>\n        </handlers>\n    </system.webServer>\n</configuration>

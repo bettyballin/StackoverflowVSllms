@@ -1,1 +1,0 @@
-SELECT rank\nFROM (\n  SELECT \n    id, \n    name,\n    @rank:=@rank + 1 AS rank\n  FROM \n    people, (SELECT @rank:=0) r\n  ORDER BY \n    name ASC\n) ranked_people\nWHERE id = 1; -- or 'name = "Steve"' to find the rank of Steve

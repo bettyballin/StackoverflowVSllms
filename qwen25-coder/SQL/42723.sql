@@ -1,1 +1,0 @@
-SELECT name AS [FilegroupName], state_desc AS [State] \n   FROM sys.filegroups;

@@ -1,1 +1,0 @@
-function changeTheme(theme) {\n       document.body.className = 'theme-' + theme;\n       localStorage.setItem('selectedTheme', theme);\n   }

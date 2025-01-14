@@ -1,1 +1,0 @@
-<!-- In Web.config -->\n<appSettings>\n    <add key="TempFilePath" value="~/App_Data/Temp"/>\n</appSettings>

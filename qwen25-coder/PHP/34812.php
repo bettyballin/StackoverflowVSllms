@@ -1,1 +1,0 @@
-// Single large echo\n$output = '';\nfor ($i = 0; $i < 10000; $i++) {\n    $output .= "Some text here\n";\n}\necho $output;\n\n// Multiple smaller echos\nfor ($i = 0; $i < 10000; $i++) {\n    echo "Some text here\n";\n}

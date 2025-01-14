@@ -1,1 +1,0 @@
-$string = "apple,banana,cherry";\n$array = explode(",", $string);

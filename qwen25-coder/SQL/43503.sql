@@ -1,1 +1,0 @@
-ALTER VIEW old_view_name RENAME TO new_view_name;

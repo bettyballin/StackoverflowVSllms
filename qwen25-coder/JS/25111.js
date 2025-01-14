@@ -1,1 +1,0 @@
-document.addEventListener('click', function(event) {\n    if (event.target.tagName.toLowerCase() === 'a') {\n        event.preventDefault(); // Prevent default action\n        window.open(event.target.href, '_blank'); // Open in new tab/window\n    }\n});

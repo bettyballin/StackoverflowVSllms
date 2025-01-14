@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <!-- This setting should be avoided in production code -->\n    <httpRuntime requestValidationMode="2.0" />\n    <pages validateRequest="false" />\n  </system.web>\n</configuration>

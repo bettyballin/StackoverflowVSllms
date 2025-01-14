@@ -1,1 +1,0 @@
-SELECT \n    (DATEDIFF(DAY, 0, ADateTimeColumn) % 7 + 1 - DATEPART(WEEKDAY, CAST(CAST(0 AS DATETIME) + (@@DATEFIRST - 2) % 7 AS DATETIME))) % 7 + 1 AS MondayBasedDate\nFROM \n    famousShipwrecks

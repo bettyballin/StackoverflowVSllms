@@ -1,1 +1,0 @@
-class UserController {\n    public function index() {\n        echo 'User List';\n    }\n\n    public function view($id) {\n        echo "Viewing User ID: $id";\n    }\n}

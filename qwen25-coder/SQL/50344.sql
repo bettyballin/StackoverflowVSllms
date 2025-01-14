@@ -1,1 +1,0 @@
-SELECT t1.colors AS color1, t2.colors AS color2\nFROM colors_table t1\nJOIN colors_table t2 ON t1.colors < t2.colors;

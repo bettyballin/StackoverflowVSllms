@@ -1,1 +1,0 @@
-<system.webServer>\n     <urlCompression doStaticCompression="true" doDynamicCompression="true"/>\n   </system.webServer>

@@ -1,1 +1,0 @@
-function sanitize_input($input) {\n    // Use PDO or similar feature in production to avoid SQL injection\n    $search = array("\\", "\n", "\r", "'", '"', ";", "--", "/*", "*/");\n    $replace = array("\\\\","\\n","\\r","\'",'\"'," ";" "," /\" "," \" ");\n    return str_replace($search, $replace, $input);\n}

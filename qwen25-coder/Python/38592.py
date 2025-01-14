@@ -1,1 +1,0 @@
-import re\n\ndef is_valid_tnt_tracking_number(tracking_number):\n    # Regular expression for TNT tracking numbers\n    pattern = r'^1[A-Za-z0-9]{10}$'\n    return bool(re.match(pattern, tracking_number))\n\n# Example usage\ntracking_number = "1AABCCDDEE"\nprint(is_valid_tnt_tracking_number(tracking_number))  # Output: True or False

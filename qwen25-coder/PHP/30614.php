@@ -1,1 +1,0 @@
-<?php\n$pageTitle = 'Contact Page';\n$content = '<h2 class="clear">This is the contact page</h2><p>Main content here...</p>';\ninclude "template.php";\n?>

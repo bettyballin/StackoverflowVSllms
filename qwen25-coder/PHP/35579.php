@@ -1,1 +1,0 @@
-$escapedInput = $DB->quote('%' . $input . '%', 'STRING');\n$sql = "SELECT *\nFROM t\nWHERE myname LIKE $escapedInput";

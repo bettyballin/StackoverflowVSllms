@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION plperl_test(text)\nRETURNS text AS $$\n    my ($text) = @_;\n    # Simple text transformation: uppercase conversion\n    return uc($text);\n$$ LANGUAGE plperl;

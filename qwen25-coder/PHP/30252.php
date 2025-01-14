@@ -1,1 +1,0 @@
-<?php\nnamespace SMF;\n\nfunction is_admin() {\n    // original function logic from SMF\n}

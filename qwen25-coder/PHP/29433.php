@@ -1,1 +1,0 @@
-function process($data) {\n    // Helper function to validate data\n    function validate() use ($data) {\n        if (empty($data)) {\n            return false;\n        }\n        return true;\n    }\n\n    if (!validate()) {\n        throw new Exception("Invalid data");\n    }\n\n    // Further processing logic\n    echo "Data processed.";\n}\n\nprocess(['key' => 'value']);

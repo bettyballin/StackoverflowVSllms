@@ -1,1 +1,0 @@
-document.getElementById('itemstable').querySelectorAll('div').forEach(function(div) {\n    div.style.backgroundImage = 'url(images/type1.giff)';\n});

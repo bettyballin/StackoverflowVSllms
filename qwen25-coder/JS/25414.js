@@ -1,1 +1,0 @@
-var objMap = function(fn, obj, a) {\n    for (var i = 0; i < a.length; i++) {\n        fn.call(obj, a[i]);\n    }\n}\n\n// Usage:\nobjMap(translateMenu.add, translateMenu, languages.map(function(language) { \n    return new MenuItem(language[0], 'http://translate.google.com/translate?u=www.example.com&hl=en&ie=UTF-8&tl=en&sl=' + language[1], "", null); \n}));

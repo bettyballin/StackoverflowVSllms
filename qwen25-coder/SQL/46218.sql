@@ -1,1 +1,0 @@
--- Example of a simple COUNT(*) query\nSELECT COUNT(*) FROM your_table;

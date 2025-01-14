@@ -1,1 +1,0 @@
-// Clear any previous messages\n     $('#flash-messages').html('');\n\n     // Display error message\n     $('#flash-messages').html('<%= j(flash.now[:danger]) %>');

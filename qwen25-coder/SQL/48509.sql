@@ -1,1 +1,0 @@
-CREATE TRIGGER dbo.UpdateLastUpdateTrigger\nON dbo.Profiles\nAFTER UPDATE\nAS\nBEGIN\n    SET NOCOUNT ON;\n\n    -- Update the LastUpdate column to the current datetime for all rows affected by the update.\n    UPDATE P\n    SET P.LastUpdate = GETDATE()\n    FROM dbo.Profiles AS P\n    INNER JOIN inserted AS I ON P.UserName = I.UserName;\nEND;

@@ -1,1 +1,0 @@
-$nom = '250 GTO';\n$stmt->bindParam(':nom', (int)$nom, PDO::PARAM_INT);

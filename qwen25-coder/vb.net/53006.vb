@@ -1,1 +1,0 @@
-' Example of async/await in VB.NET\nImports System.Threading.Tasks\n\nModule Module1\n    Async Function FetchDataAsync() As Task(Of String)\n        Await Task.Delay(1000) ' Simulate a delay\n        Return "Data fetched asynchronously"\n    End Function\n\n    Sub Main()\n        Dim result = FetchDataAsync().Result\n        Console.WriteLine(result)\n    End Sub\nEnd Module

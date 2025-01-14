@@ -1,1 +1,0 @@
-$pdo = new PDO('mysql:host=localhost;dbname=testdb;charset=utf8', 'username', 'password');\n$stmt = $pdo->prepare('SELECT * FROM users WHERE username = :username AND password = :password');\n$stmt->execute([':username' => $username, ':password' => $password]);

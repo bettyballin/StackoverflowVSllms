@@ -1,1 +1,0 @@
-$var = '';\n...\n$var .= sprintf('%s%s%s', 'blah blah', $var2, 'more text here');

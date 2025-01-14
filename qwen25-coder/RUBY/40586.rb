@@ -1,1 +1,0 @@
-def logout\n  # Clear all session data to prevent stale sessions\n  reset_session\n  @current_user = nil\n  redirect_to login_path, notice: 'Logged out!'\nend

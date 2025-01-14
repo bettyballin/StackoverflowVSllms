@@ -1,1 +1,0 @@
-SELECT \n    username,\n    attribute,\n    op,\n    value,\n    'Cleartext-Password' AS replyitem1,\n    userpassword AS replyvalue1\nFROM \n    radcheck\nWHERE \n    username = '%{SQL-User-Name}'\nUNION\nSELECT \n    username,\n    attribute,\n    op,\n    value \nFROM \n    radreply \nWHERE \n    username = '%{SQL-User-Name}'

@@ -1,1 +1,0 @@
-// index.php (example for linking to another profile)\n<a href="profile.php?user=otherUsername">View Other User's Profile</a>

@@ -1,1 +1,0 @@
-$(document).ready(function () {\n    $("#yourFormId").validate({\n        errorPlacement: function (error, element) {\n            // Place the error message directly after the input element it corresponds to\n            error.insertAfter(element);\n        }\n    });\n});

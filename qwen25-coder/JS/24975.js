@@ -1,1 +1,0 @@
-if (true) {\n    let blockScopedVar = "I am block-scoped";\n    console.log(blockScopedVar); // Accessible here\n}\n\nconsole.log(blockScopedVar); // ReferenceError: blockScopedVar is not defined (not accessible outside the block)

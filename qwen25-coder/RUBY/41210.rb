@@ -1,1 +1,0 @@
-class Comment < ActiveRecord::Base\n  belongs_to :posts\n\n  validates_presence_of :post_id, :name, :email, :comment\n  validates_numericality_of :post_id\nend

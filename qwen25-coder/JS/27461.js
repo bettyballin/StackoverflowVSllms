@@ -1,1 +1,0 @@
-// Get the <html> element\nconst htmlElement = document.documentElement;\n\n// Retrieve the lang attribute\nconst langAttribute = htmlElement.getAttribute('lang');\n\nconsole.log(langAttribute); // Outputs: "en"

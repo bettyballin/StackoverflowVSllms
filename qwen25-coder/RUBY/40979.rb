@@ -1,1 +1,0 @@
-script/performance/request session_script.rb -n test_request_profiling

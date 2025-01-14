@@ -1,1 +1,0 @@
-SELECT LISTAGG(TO_CHAR(col1), '-') WITHIN GROUP (ORDER BY col1) AS concatenated_result\nFROM table1\nWHERE cond1 = true;

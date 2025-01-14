@@ -1,1 +1,0 @@
-foreach ($item as $key => $value) {\n    if ($arr[$key] == null) {\n        $arr[$key] = 0;\n    }\n    $arr[$key] += $other_arr[$value];\n}

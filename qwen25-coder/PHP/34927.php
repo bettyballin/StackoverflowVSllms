@@ -1,1 +1,0 @@
-$dbhost = 'p:'.$dbhost; // Prefix 'p:' to make it a persistent connection\n$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);\n\nif (!$conn) {\n    die('Could not connect: ' . mysqli_error());\n}\n\n// Perform database operations...\n\n// Close the connection when done (though less critical with persistent connections)\nmysqli_close($conn);

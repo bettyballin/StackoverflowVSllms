@@ -1,1 +1,0 @@
-# lib/tasks/skip_schema_dump.rake\n  Rake::Task['db:migrate'].enhance do\n    ActiveRecord::Base.schema_format = :sql if Rails.env.development?\n  end

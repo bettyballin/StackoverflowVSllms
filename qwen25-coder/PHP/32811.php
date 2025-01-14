@@ -1,1 +1,0 @@
-$List = ["1", "2", "3"];\nif (in_array($row['name'], $List) && $Cond2) {\n    doThis();\n}

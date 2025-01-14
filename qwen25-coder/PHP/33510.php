@@ -1,1 +1,0 @@
-$smarty->setCaching(Smarty::CACHING_OFF); // Disable caching during debugging\n   $smarty->error_reporting = E_ALL | E_STRICT;\n   $smarty->debugging = true;

@@ -1,1 +1,0 @@
-ALTER TRIGGER YourUpdateTrigger\nON YourTable\nAFTER UPDATE\nAS\nBEGIN\n    SET NOCOUNT ON;\n    -- Ensure that all changes are rolled back if error occurs\n    SET XACT_ABORT ON;\n\n    IF EXISTS (SELECT * FROM inserted WHERE testcol = 7)\n    BEGIN\n        RAISERROR ('My Custom Error', 16, 1);\n        -- Optional: ROLLBACK TRANSACTION; if needed\n    END;\nEND;

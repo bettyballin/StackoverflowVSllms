@@ -1,1 +1,0 @@
-SELECT TOP 2 c1.Price, c2.Price, c3.Price, c49.Price, c50.Price\nFROM Table1 AS c1 \nINNER JOIN Table2 AS c2 ON c1.Date = c2.Date\nINNER JOIN Table3 AS c3 ON c2.Date = c3.Date\n-- continue inner joins up to\nINNER JOIN Table49 AS c49 ON c48.Date = c49.Date\nINNER JOIN Table50 AS c50 ON c49.Date = c50.Date\nORDER BY c1.ID DESC;

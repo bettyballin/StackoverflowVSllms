@@ -1,1 +1,0 @@
-SELECT p.idPost, p.post \n    FROM post p\n    INNER JOIN postCategory pc ON p.idPost = pc.idPost\n    WHERE pc.idCategory = <myCategoryId>\n      AND EXISTS (\n          SELECT 1 \n          FROM comment c \n          WHERE c.idPost = p.idPost \n            AND c.inputDate >= DATE_SUB(CURDATE(), INTERVAL <time range>)\n      )

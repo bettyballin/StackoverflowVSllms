@@ -1,1 +1,0 @@
-import html\n\ndef convert_html_entities(text):\n    return html.unescape(text)\n\n# Example usage:\nhtml_text = "&lt; &amp;"\nnormal_text = convert_html_entities(html_text)\nprint(normal_text)  # Output: < &

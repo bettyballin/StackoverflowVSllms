@@ -1,1 +1,0 @@
-function isArrayMultidimensional($array): bool {\n       return count(array_filter($array, 'is_array')) > 0;\n   }\n\n   $flatArray = [1, 2, 3];\n   $multiArray = [[1], [2, 3]];\n\n   var_dump(isArrayMultidimensional($flatArray)); // bool(false)\n   var_dump(isArrayMultidimensional($multiArray)); // bool(true)

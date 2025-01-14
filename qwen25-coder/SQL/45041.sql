@@ -1,1 +1,0 @@
-GROUP_CONCAT(\n    IFNULL(FORMAT(tblWOService.PricePerVehicle, 2), ' ')\n    SEPARATOR ';'\n) AS PriceList

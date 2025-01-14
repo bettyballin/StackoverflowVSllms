@@ -1,1 +1,0 @@
-SELECT email, COUNT(*) AS occurs\nFROM USERS\nWHERE provider = x AND MONTH(date) = y\nGROUP BY email;

@@ -1,1 +1,0 @@
-CREATE TABLE Hierarchy (\n    NodeID INT PRIMARY KEY,\n    ParentNodeID INT, -- NULL indicates no parent (root node)\n    EffectiveFrom DATE NOT NULL,\n    EffectiveTo DATE DEFAULT '9999-12-31',\n    UNIQUE(NodeID, EffectiveFrom),\n    FOREIGN KEY (ParentNodeID) REFERENCES Hierarchy(NodeID)\n);

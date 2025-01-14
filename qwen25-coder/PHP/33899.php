@@ -1,1 +1,0 @@
-$stmt = $dbh->query('SELECT field1 FROM tbl1 WHERE id=1');\nwhile ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {\n    // Convert fetched string to UTF-8 if necessary.\n    echo mb_convert_encoding($row['field1'], 'UTF-8', 'Windows-1251');\n}

@@ -1,1 +1,0 @@
-"string".each_byte do |ascii|\n  puts ascii\nend

@@ -1,1 +1,0 @@
-CREATE TABLE events_pending (\n    id INT PRIMARY KEY,\n    event_id INT NOT NULL,\n    name VARCHAR(255),\n    start_date DATETIME,\n    guest INTEGER,\n    modified_by_user_id INT NOT NULL,\n    modification_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    FOREIGN KEY (event_id) REFERENCES events(id)\n);

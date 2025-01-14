@@ -1,1 +1,0 @@
-amespace App\Controller;\n\n  use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;\n  use Symfony\Component\HttpFoundation\Response;\n  class DefaultController extends AbstractController\n  {\n      public function index(): Response\n      {\n          return $this->render('default/index.html.twig');\n      }\n  }

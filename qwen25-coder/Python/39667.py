@@ -1,1 +1,0 @@
-import xmlrpc.client\n\nserver = xmlrpc.client.ServerProxy('http://your-server-endpoint')\nresponse = server.processXmlData('<your-xml-data></your-xml-data>')\nprint(response)

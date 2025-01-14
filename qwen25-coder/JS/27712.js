@@ -1,1 +1,0 @@
-$("#myDialog").dialog({\n    open: function(event, ui) {\n        $(this).parent().find(".ui-dialog-titlebar-close").hide();\n    }\n});

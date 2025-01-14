@@ -1,1 +1,0 @@
-class MyInt(int):\n    def my_random_method(self):\n        return f"Random method called on {self}"\n\nmy_int = MyInt(10)\nprint(my_int.my_random_method())

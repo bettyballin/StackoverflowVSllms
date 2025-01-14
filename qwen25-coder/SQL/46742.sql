@@ -1,1 +1,0 @@
-CREATE EVENT refresh_view_event\nON SCHEDULE EVERY 1 HOUR -- or as needed\nDO \nCALL RefreshDynamicView();

@@ -1,1 +1,0 @@
-<configuration>\n  <appSettings>\n    <add key="MyWebServiceUrl" value="http://example.com/YourService.asmx"/>\n  </appSettings>\n</configuration>

@@ -1,1 +1,0 @@
-function validate() {\n    // Your validation logic here\n    var isValid = false; // Replace with actual validation check\n\n    if (isValid) {\n        WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$cphMain$pra1$btnSubmit", "", false, "", "Result.aspx", false, false));\n        return true;\n    } else {\n        return false;\n    }\n}

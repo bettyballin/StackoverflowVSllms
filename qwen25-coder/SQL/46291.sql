@@ -1,1 +1,0 @@
-UPDATE (\n  SELECT a.COL1\n  FROM TABLE1 a\n  JOIN TABLE2 b ON a.FK = b.PK\n  WHERE b.COL2 IN ('SET OF VALUES')\n) update_tbl\nSET COL1 = 'VALUE';

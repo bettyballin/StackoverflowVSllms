@@ -1,1 +1,0 @@
-// Example: Include a file that does not exist\n  include('non_existent_file.php'); // This will trigger an E_WARNING

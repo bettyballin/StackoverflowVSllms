@@ -1,1 +1,0 @@
-# In Rakefile or test_helper.rb\ntest_files = FileList['test/**/*_test.rb']\nRake::TestTask.new do |t|\n  t.libs << 'lib'\n  t.test_files = test_files.to_a\n  t.verbose = true\nend

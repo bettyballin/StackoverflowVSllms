@@ -1,1 +1,0 @@
-var chkResult = Validation();\n\n// Pause execution for 10 seconds (10,000 milliseconds)\nsetTimeout(function() {\n    document.getElementById('abc').innerHTML = chkResult;\n}, 10000);

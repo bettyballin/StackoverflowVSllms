@@ -1,1 +1,0 @@
-create table credits (\n  id int,\n  creds int,\n  user_id int,\n  version int default 0\n);

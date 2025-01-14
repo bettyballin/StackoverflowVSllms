@@ -1,1 +1,0 @@
-$n = node_load($nid); // Load your node object if not already loaded.\n$teaser = TRUE; // Set to TRUE to get only the teaser.\n$node_view = node_view($n, 'teaser', FALSE, $teaser);\n\nprint render($node_view);

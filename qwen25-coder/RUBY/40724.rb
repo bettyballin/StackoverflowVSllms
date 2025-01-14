@@ -1,1 +1,0 @@
-gem 'capybara'\n    gem 'selenium-webdriver' # or another driver you prefer\n    gem 'webmock'

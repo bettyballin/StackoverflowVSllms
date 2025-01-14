@@ -1,1 +1,0 @@
-while ($row = mysqli_fetch_assoc($result)) {\n    $newsId = $row['news_id'];\n    $userId = $row['user_id'];\n    // Use $newsId and $userId as needed...\n}

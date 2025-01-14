@@ -1,1 +1,0 @@
-// Example of sanitizing HTML using DOMPurify\nvar clean = DOMPurify.sanitize(dirty);

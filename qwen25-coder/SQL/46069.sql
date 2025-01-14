@@ -1,1 +1,0 @@
-CREATE TABLE Configurations (\n       Key NVARCHAR(255) PRIMARY KEY,\n       Value TEXT NOT NULL,\n       LastUpdated DATETIME DEFAULT GETDATE()\n   );

@@ -1,1 +1,0 @@
-CREATE TYPE [dbo].[parseInputFile] AS TABLE(\n    [NumCols] [int] NOT NULL,\n    [strRow] [varchar](500) NOT NULL,\n    PRIMARY KEY CLUSTERED \n    ([NumCols])\n)

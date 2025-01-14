@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN @Amount < 0 THEN 'Error: Amount must be a non-negative value.'\n        ELSE CAST(@Amount AS NVARCHAR) -- Or your actual data retrieval logic here\n    END AS Result\nFROM \n    YourTable\nWHERE \n    @Amount >= 0

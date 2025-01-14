@@ -1,1 +1,0 @@
-INSERT INTO mytable (col1, col2, ..., wholenodecolumn)\nSELECT  \n    doc.col.value('node1[1]', 'int') AS column1,\n    doc.col.value('node2[1]', 'varchar(50)') AS column2,\n    -- ... other columns ...\n    doc.col.query('.') AS wholenodecolumn\nFROM @xml.nodes('/xml/Items/Item') AS doc(col);

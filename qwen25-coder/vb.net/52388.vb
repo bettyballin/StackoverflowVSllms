@@ -1,1 +1,0 @@
-Dim xmlString As XElement = <element>This is a non-breaking&nbsp;space</element>

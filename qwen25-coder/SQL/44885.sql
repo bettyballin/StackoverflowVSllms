@@ -1,1 +1,0 @@
-suminsured BIGINT PRIMARY KEY -- where $1.00 would be stored as 100

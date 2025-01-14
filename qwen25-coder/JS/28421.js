@@ -1,1 +1,0 @@
-$('#noActionLink').on('click', function(e) {\n    e.preventDefault();\n});

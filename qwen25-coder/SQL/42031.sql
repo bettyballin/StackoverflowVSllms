@@ -1,1 +1,0 @@
-ALTER TABLE ForeignKeyTable CHECK CONSTRAINT FK_YourTable_ForeignKeyTable;

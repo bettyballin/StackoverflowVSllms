@@ -1,1 +1,0 @@
-SELECT \n    id,\n    name, -- Assuming there is a name column or another field to select along with priority.\n    CASE WHEN priority IS NULL THEN 10 ELSE priority END AS display_priority,\n    priority\nFROM \n    your_table_name\nORDER BY \n    CASE WHEN priority IS NULL THEN 10 ELSE priority END DESC;

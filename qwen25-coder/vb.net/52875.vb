@@ -1,1 +1,0 @@
-<%\nDim startTime, endTime\nstartTime = Timer()\n\n' Insert your code here\n\nendTime = Timer()\nResponse.Write("Execution time: " & (endTime - startTime) & " seconds.<br />")\n%>

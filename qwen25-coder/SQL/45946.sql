@@ -1,1 +1,0 @@
--- Example of creating an encrypted stored procedure\nCREATE PROCEDURE usp_SensitiveOperation\nWITH ENCRYPTION\nAS\nBEGIN\n    -- Sensitive code here\n    SELECT 'Sensitive Data';\nEND;

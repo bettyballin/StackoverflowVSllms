@@ -1,1 +1,0 @@
-ascii_value = ?A\nputs ascii_value # This should output: 65

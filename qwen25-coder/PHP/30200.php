@@ -1,1 +1,0 @@
-// Assuming $conn is your database connection\n$query = "SELECT SUM(points) as total_points FROM data";\n$result = mysqli_query($conn, $query);\n\nif ($result) {\n    $row = mysqli_fetch_assoc($result);\n    $totalPoints = $row['total_points'];\n    echo "Total Points: " . $totalPoints;\n} else {\n    echo "Error: " . mysqli_error($conn);\n}

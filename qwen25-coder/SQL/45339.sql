@@ -1,1 +1,0 @@
--- Example of altering a table to use INT instead of UNIQUEIDENTIFIER\n   ALTER TABLE Users ALTER COLUMN UserId INT NOT NULL IDENTITY(1,1);

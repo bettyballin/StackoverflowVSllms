@@ -1,1 +1,0 @@
-SELECT DISTINCT sl.userid\nFROM status_log sl\nWHERE sl.start_date <= '2008-01-15'\n  AND (sl.end_date IS NULL OR sl.end_date > '2008-01-15')\n  AND sl.status = 'a';

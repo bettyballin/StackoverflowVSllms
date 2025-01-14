@@ -1,1 +1,0 @@
--- Example: Creating a user with controlled privileges\n   CREATE LOGIN UserForApp WITH PASSWORD = 'StrongPassword';\n   CREATE USER UserForApp FOR LOGIN UserForApp;\n   GRANT SELECT, INSERT, UPDATE ON YourTable TO UserForApp;

@@ -1,1 +1,0 @@
-import webbrowser\n\n   client_id = 'your_client_id'\n   redirect_uri = 'http://yourapp.com/auth/callback'\n\n   authorization_url = f"https://stackoverflow.com/oauth/dialog?client_id={client_id}&scope=read_inbox&redirect_uri={redirect_uri}"\n   webbrowser.open(authorization_url)

@@ -1,1 +1,0 @@
-protected function _initPlugins() {\n    $frontController = Zend_Controller_Front::getInstance();\n    $sslEnforcer = new My_Controller_Plugin_SslEnforcer();\n    $frontController->registerPlugin($sslEnforcer);\n}

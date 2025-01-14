@@ -1,1 +1,0 @@
--- Bitmap indexes are not directly supported by all SQL databases but are a concept:\n   CREATE BITMAP INDEX idx_bitmap_column ON table_name (column);

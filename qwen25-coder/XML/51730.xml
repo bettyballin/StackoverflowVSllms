@@ -1,1 +1,0 @@
-<rule name="Default page to myApplication" stopProcessing="true">\n  <match url="^$" />\n  <action type="Rewrite" url="/myApplication/" appendQueryString="false" />\n</rule>

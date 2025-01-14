@@ -1,1 +1,0 @@
--- Example SQL with pg_trgm extension\nSELECT similarity('kitten', 'sitting') * 100 AS similarity_percentage;

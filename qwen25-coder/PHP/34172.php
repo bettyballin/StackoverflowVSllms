@@ -1,1 +1,0 @@
-// Suppress warning for malformed XML which will be cleaned later\n$xml = new DOMDocument();\n@$xml->loadXML($malformedXml);\n\nif (!$xml) {\n    // Clean or correct $malformedXml here before loading it again\n}

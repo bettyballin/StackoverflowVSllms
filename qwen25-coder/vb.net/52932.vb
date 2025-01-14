@@ -1,1 +1,0 @@
-Dim ServicesId As Integer = ...\nDim KeywordStatus As Integer = ...\n\nDim FoundPolicyholders = From p In db.PolicyholderSet.Include("Keywords").Include("Services")\n                         Where p.Services.Any(s => s.Id = ServicesId) AndAlso\n                               p.Keywords.Any(k => k.Status = KeywordStatus)\n                         Select p

@@ -1,1 +1,0 @@
-BULK INSERT YourTargetTable\nFROM 'C:\Path\To\Your\File.txt'\nWITH (\n    FIELDTERMINATOR = ',',\n    ROWTERMINATOR = '\n',\n    FIRSTROW = 2 -- Set this if your file has headers and you want to skip them.\n);

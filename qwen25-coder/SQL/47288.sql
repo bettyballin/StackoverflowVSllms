@@ -1,1 +1,0 @@
-SET GLOBAL transaction_isolation='READ-COMMITTED';

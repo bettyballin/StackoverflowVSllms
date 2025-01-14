@@ -1,1 +1,0 @@
-' Example conversion of DataGridView in WinForms to GridView in ASP.NET\n     ' WinForms: Dim dataGridView1 As New DataGridView()\n     ' ASP.NET equivalent: <asp:GridView ID="GridView1" runat="server"></asp:GridView>

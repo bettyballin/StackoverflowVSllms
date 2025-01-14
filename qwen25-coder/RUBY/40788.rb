@@ -1,1 +1,0 @@
-line.split("\t").each do |section|\n  # Do something with each section\nend

@@ -1,1 +1,0 @@
--- Dropping Clustered Index\nDROP INDEX [Log_Seiten_archiv].[IX_Log_Seiten_archive_Datum];\n\n-- Dropping Partition Function\nDROP PARTITION FUNCTION [PartitionMonthlyCurrentYear];\n\n-- Dropping Partition Scheme\nDROP PARTITION SCHEME [SchemeMonthlyCurrentYear];

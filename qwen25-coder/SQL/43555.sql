@@ -1,1 +1,0 @@
-BEGIN TRANSACTION OuterTransaction;\n\n-- Some operations...\n\nBEGIN TRANSACTION InnerTransaction;\n\n-- More operations...\n\nCOMMIT TRANSACTION InnerTransaction;  -- Decreases @@TRANCOUNT by one\n\n-- Additional operations...\n\nCOMMIT TRANSACTION OuterTransaction;  -- Decreases @@TRANCOUNT to zero, commits all changes from both transactions

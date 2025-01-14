@@ -1,1 +1,0 @@
-import os\n\ndef generate_secure_password(length=32):\n    # Generate a secure random byte string of the specified length and encode it as hexadecimal.\n    return os.urandom(length).hex()\n\n# Example usage:\nprint(generate_secure_password())

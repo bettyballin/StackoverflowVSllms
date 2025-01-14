@@ -1,1 +1,0 @@
-<ItemGroup>\n    <Reference Include="log4net">\n      <HintPath>..\path\to\your\lib\log4net.dll</HintPath>\n      <Private>true</Private>\n    </Reference>\n</ItemGroup>

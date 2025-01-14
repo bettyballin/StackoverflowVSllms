@@ -1,1 +1,0 @@
-<Target Name="UpdateProductVersion">\n  <XmlPoke XmlInputPath="$(ProjectDir)\YourFile.wxs" Query="/w:Wix/w:Product/w:Package/@Version"\n           Value="$(NewProductVersion)" Namespaces="<Namespace Prefix='w' Uri='http://schemas.microsoft.com/wix/2006/wi'/>" />\n</Target>

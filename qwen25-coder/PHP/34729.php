@@ -1,1 +1,0 @@
-session_start(); // Start sessions\n// Your database connection code here

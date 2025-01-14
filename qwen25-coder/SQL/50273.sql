@@ -1,1 +1,0 @@
-SELECT * FROM login_session_view;

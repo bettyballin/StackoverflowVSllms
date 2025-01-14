@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN dbo.TryConvertToInt(T.Value) IS NOT NULL THEN SomeConversionFunction(T.Value)\n        ELSE T.Value\n    END AS SomeAlias\nFROM \n    SomeTable T;

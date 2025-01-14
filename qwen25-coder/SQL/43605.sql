@@ -1,1 +1,0 @@
-SET @column_part = (SELECT mytable.mycolumn FROM mytable WHERE some_condition);\nSET @query = CONCAT('SELECT `column', @column_part, '` FROM your_table');\n\nPREPARE stmt FROM @query;\nEXECUTE stmt;\nDEALLOCATE PREPARE stmt;

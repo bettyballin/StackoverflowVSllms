@@ -1,1 +1,0 @@
-SELECT \n    Users.MemberId, \n    PremiumUsers.IsActive \nFROM \n    Users\nLEFT JOIN \n    PremiumUsers ON PremiumUsers.UserId = Users.Id\nORDER BY \n    CASE \n        WHEN PremiumUsers.IsActive = 1 AND PremiumUsers.UserId IS NOT NULL THEN 0\n        ELSE 1\n    END,\n    PremiumUsers.IsActive DESC;

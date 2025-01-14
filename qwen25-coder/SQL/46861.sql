@@ -1,1 +1,0 @@
-select count(*) from a where b_id IS NOT NULL;\n   select count(*) from a join b on a.b_id = b.id;

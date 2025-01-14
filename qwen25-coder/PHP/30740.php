@@ -1,1 +1,0 @@
-foreach ($post as $blogPost) {\n    echo "ID: " . $blogPost['id'] . ", Title: " . $blogPost['title'];\n}

@@ -1,1 +1,0 @@
-var surrogate = surrogatePair(c);\nvar hi = surrogate[0];\nvar lo = surrogate[1];

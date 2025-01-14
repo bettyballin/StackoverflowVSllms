@@ -1,1 +1,0 @@
-$partnername22 = "Discover<sup>tm</sup> Magazine";\n$titleSafePartnerName = strip_tags($partnername22);\n\necho "<title>$titleSafePartnerName</title>";

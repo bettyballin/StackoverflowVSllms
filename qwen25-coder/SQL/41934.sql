@@ -1,1 +1,0 @@
-ALTER TRIGGER [MyTableInsertDeleteUpdate] \n  ON  [dbo].[MyTable]\n AFTER  INSERT,DELETE,UPDATE\nAS \nBEGIN\n   -- Insert new records into an audit table for each affected row.\n   INSERT INTO AuditTable (OriginalID, Action)\n   SELECT id, 'INSERTOrUpdate' AS Action FROM inserted;\n\n   PRINT 'Multiple rows may have been affected.';\nEND

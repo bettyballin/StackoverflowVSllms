@@ -1,1 +1,0 @@
-UPDATE A\nSET type = $1, sub_type = $2, filename = $3, filepath = $4, filesize = $5\nWHERE id = $6 AND lock_status = 0;

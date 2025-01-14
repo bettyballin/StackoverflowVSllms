@@ -1,1 +1,0 @@
-<profileService enabled="true"\n                readAccessProperties="propertyname1,propertyname2"\n                writeAccessProperties="propertyname1,propertyname2" />

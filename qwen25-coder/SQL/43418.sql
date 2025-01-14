@@ -1,1 +1,0 @@
-SELECT data->>'name' AS name, data->>'age' AS age\n   FROM users WHERE data @> '{"status": "active"}';

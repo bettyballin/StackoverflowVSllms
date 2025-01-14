@@ -1,1 +1,0 @@
-SELECT tabx.*, taby.*\nFROM tabx\nJOIN taby ON ... -- specify your join condition here\nWHERE ...;

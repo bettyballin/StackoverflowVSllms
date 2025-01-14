@@ -1,1 +1,0 @@
-<?php\n$hostname = getenv('DB_HOSTNAME');\n$dbname   = getenv('DB_NAME');\n$username = getenv('DB_USERNAME');\n$password = getenv('DB_PASSWORD');\n\n// Use the variables as needed\necho $hostname;

@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE Testing (\n  iKey   IN  VARCHAR2,\n  oResult OUT INTEGER\n) AS\nBEGIN\n  DELETE FROM MyTable WHERE TheKey = iKey;\n  \n  -- Get the number of rows affected by the last operation\n  oResult := SQL%ROWCOUNT;\nEXCEPTION\n  WHEN OTHERS THEN\n    -- In case of an error, set the result to -1 or some other error code\n    oResult := -1;\nEND Testing;

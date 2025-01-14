@@ -1,1 +1,0 @@
-function func() {\n    // Get all the arguments passed to the function\n    $args = func_get_args();\n\n    // Loop over each argument\n    foreach ($args as $arg) {\n        echo "Argument: " . $arg . "\n";\n    }\n}\n\n// Example usage\nfunc("hello", "ya", "hi", "blah", "test", "go");

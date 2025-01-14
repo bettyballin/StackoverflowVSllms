@@ -1,1 +1,0 @@
-from pwn import *\n\n   # Connect to gdbserver\n   io = process(["gdbserver", ":1234", "/path/to/binary"])\n   remote = gdbserver(io)\n\n   # Send commands\n   remote.send("c")

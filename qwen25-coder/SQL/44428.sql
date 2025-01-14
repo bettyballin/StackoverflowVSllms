@@ -1,1 +1,0 @@
-CREATE TABLE MovieMetaData (\n    MovieID INT,\n    AttributeID INT,\n    Source VARCHAR(100),\n    Journalist VARCHAR(100),\n    FOREIGN KEY (MovieID) REFERENCES Movies(MovieID),\n    FOREIGN KEY (AttributeID) REFERENCES MovieAttributes(AttributeID)\n);

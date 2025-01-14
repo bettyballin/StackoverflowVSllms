@@ -1,1 +1,0 @@
-Private Sub Method1(intParam As Integer)\n    Call InnerMethod(intParam)\nEnd Sub\n\nPrivate Sub Method2(intParam As Integer)\n    InnerMethod intParam\nEnd Sub

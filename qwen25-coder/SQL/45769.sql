@@ -1,1 +1,0 @@
-SELECT *\nFROM T1\nLEFT JOIN T2 ON (T1.value = T2.value AND T1.use_t2_values = 1)\nWHERE T2.value2 = 'variable2'\nAND T2.value3 = 'variable3'

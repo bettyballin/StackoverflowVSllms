@@ -1,1 +1,0 @@
-ALTER TABLE Chapters\nADD CONSTRAINT UK_Chapter_Title_Per_Book UNIQUE (Book, Title);

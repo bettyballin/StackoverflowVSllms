@@ -1,1 +1,0 @@
-SELECT emp_id, name, occupation\nFROM (\n  SELECT emp_id, name, occupation,\n         ROW_NUMBER() OVER (PARTITION BY occupation ORDER BY emp_id) AS rn\n  FROM employees\n)\nWHERE rn <= 3;

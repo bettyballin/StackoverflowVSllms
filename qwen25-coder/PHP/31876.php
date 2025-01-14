@@ -1,1 +1,0 @@
-// Example of session start\n    session_start();

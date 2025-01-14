@@ -1,1 +1,0 @@
--- Using UNION\nSELECT column1 FROM table1\nUNION\nSELECT column1 FROM table2;\n\n-- Using UNION ALL\nSELECT column1 FROM table1\nUNION ALL\nSELECT column1 FROM table2;

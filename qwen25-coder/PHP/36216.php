@@ -1,1 +1,0 @@
-$value = 123;\n$stringValue = (string)$value; // Outputs: "123"\n\n$array = [1, 2, 3];\n$stringFromArr = json_encode($array); // Converts array to JSON string: "[1,2,3]"

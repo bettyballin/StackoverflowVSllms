@@ -1,1 +1,0 @@
-$putData = file_get_contents('php://input');\n   if (empty($putData)) {\n       error_log("Failed to read PUT data");\n   } else {\n       // Process your image data here\n   }

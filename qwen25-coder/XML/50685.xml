@@ -1,1 +1,0 @@
-<filter>\n       <filter-name>UrlRewriteFilter</filter-name>\n       <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>\n   </filter>\n   <filter-mapping>\n       <filter-name>UrlRewriteFilter</filter-name>\n       <url-pattern>/*</url-pattern>\n       <dispatcher>REQUEST</dispatcher>\n       <dispatcher>FORWARD</dispatcher>\n   </filter-mapping>

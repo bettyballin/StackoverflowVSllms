@@ -1,1 +1,0 @@
-SELECT * FROM LinkedServer_Name.DatabaseName.SchemaName.TableName;

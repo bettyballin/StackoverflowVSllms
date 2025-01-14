@@ -1,1 +1,0 @@
-<!-- web.xml configuration -->\n<servlet-mapping>\n    <servlet-name>MyServlet</servlet-name>\n    <url-pattern>/something_*</url-pattern>\n</servlet-mapping>

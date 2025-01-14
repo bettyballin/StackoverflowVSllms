@@ -1,1 +1,0 @@
-Public Class SampleClass\n    Private m_InternalVariable As String\n\n    Public Function ProcessData(ByVal input As String) As String\n        Dim localVariable As String = "Processed: " & input\n        Return localVariable\n    End Function\nEnd Class

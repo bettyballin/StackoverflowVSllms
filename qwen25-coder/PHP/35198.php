@@ -1,1 +1,0 @@
-require_once 'path/to/jsonrpc.php';\n\nclass MyServer {\n    public function add($a, $b) {\n        return $a + $b;\n    }\n}\n\n$server = new jsonRPCServer(new MyServer());

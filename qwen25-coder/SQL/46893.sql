@@ -1,1 +1,0 @@
--- Drop the temporary database\n   DROP DATABASE TempDB_Restore;\n   GO

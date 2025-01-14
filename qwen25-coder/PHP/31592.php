@@ -1,1 +1,0 @@
-header('Content-type: text/html; charset=utf-8');\n   echo mb_convert_encoding($output, 'UTF-8', 'auto');

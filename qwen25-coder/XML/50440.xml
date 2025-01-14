@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>com.ibm.icu</groupId>\n    <artifactId>icu4j</artifactId>\n    <version>71.1</version>\n</dependency>

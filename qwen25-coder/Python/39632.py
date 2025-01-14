@@ -1,1 +1,0 @@
-import xml.etree.ElementTree as ET\n\n# Parse the XML file and get the root element\ntree = ET.parse('PathFile')  # Use the correct path to your XML file\nroot = tree.getroot()\n\n# XPath search for a child with text "Two"\nchild_with_two = root.find('.//child[text()="Two"]')\n\n# Return True if found, False otherwise\nresult = child_with_two is not None\nprint(result)

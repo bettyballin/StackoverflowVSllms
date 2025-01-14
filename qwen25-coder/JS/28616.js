@@ -1,1 +1,0 @@
-<script>\n    var hasFlash = 0;\n    try {\n        var fo = new ActiveXObject('ShockwaveFlash.ShockwaveFlash');\n        if(fo) hasFlash = 1;\n    } catch (e) {\n        if(navigator.mimeTypes ["application/x-shockwave-flash"] != undefined) hasFlash = 1;\n    }\n    window.location.href += "?flash=" + hasFlash;\n</script>

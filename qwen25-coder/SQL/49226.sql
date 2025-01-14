@@ -1,1 +1,0 @@
-CREATE TABLE YourTableName (\n       Id BIGINT IDENTITY(1,1) PRIMARY KEY,\n       -- other columns...\n   );

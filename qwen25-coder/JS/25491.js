@@ -1,1 +1,0 @@
-function generateSnapshot(url) {\n    var snapshotUrl = "https://snap.com/api/snapshot?url=" + encodeURIComponent(url);\n    var imgElement = document.createElement('img');\n    imgElement.src = snapshotUrl;\n    document.body.appendChild(imgElement);\n}\n\n// Example usage\ngenerateSnapshot("http://premshree.livejournal.com/66129.html");

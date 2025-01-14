@@ -1,1 +1,0 @@
--- Creating a unique index (key) on the base table for efficient retrieval\nCREATE UNIQUE INDEX MyTableIdx ON MyTable(MyFieldWithoutSpaces);

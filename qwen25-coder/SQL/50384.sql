@@ -1,1 +1,0 @@
--- Query for SQL Server to check if a table is in use\nSELECT \n    request_session_id ,  \n    OBJECT_NAME(resource_associated_entity_id) AS TableName,\n    request_mode ,\n    request_status\nFROM \n    sys.dm_tran_locks \nWHERE \n    resource_type = 'OBJECT'\nAND\n    OBJECT_NAME(resource_associated_entity_id) = 'YourTableName';

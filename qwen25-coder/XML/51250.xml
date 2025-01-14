@@ -1,1 +1,0 @@
-<project baseDir="path\to\your\builds" outputDir="obfuscated">\n  <rule pattern="true">\n    <option name="preset" value="normal"/>\n    <option name="rename" value="all"/>\n    <option name="anti de4dot" value="true"/>\n  </rule>\n\n  <module path="YourAssembly.dll" />\n</project>

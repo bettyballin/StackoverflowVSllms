@@ -1,1 +1,0 @@
-# Ruby on Rails Controller Example\n   class UsersController < ApplicationController\n     def index\n       @users = User.all\n     end\n   end

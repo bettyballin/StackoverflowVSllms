@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET YourColumn = NewValue\nWHERE SomeCondition\nOPTION (MAXRECURSION 1);

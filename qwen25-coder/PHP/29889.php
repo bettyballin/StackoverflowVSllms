@@ -1,1 +1,0 @@
-$translate = new Zend_Translate('array', './languages/en.php', 'en');\n   $translate->addTranslation('./languages/de.php', 'de');

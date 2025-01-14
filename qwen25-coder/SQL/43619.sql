@@ -1,1 +1,0 @@
--- Assuming 'department' is the primary table and we want all departments with their employees.\nSELECT department.name as DepartmentName, employee.name as EmployeeName\nFROM department\nRIGHT OUTER JOIN employee ON department.id = employee.department_id;

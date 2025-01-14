@@ -1,1 +1,0 @@
-function firstShutdownFunction() {\n    echo "First shutdown function called.\n";\n}\n\nfunction secondShutdownFunction() {\n    echo "Second shutdown function called.\n";\n}\n\nregister_shutdown_function('firstShutdownFunction');\nregister_shutdown_function('secondShutdownFunction');\n\n// Output will be:\n// Second shutdown function called.\n// First shutdown function called.

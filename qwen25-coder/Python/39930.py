@@ -1,1 +1,0 @@
-# foo.py\n\ndef myFunction(a, b, c):\n    print("call to myFunction:", a, b, c)\n\nclass Data:\n    def __init__(self):\n        self.fn = myFunction  # Store function in instance attribute\n\n# bar.py\n\nimport foo\n\nd = foo.Data()  # Create an instance of the class\nd.fn(1, 2, 3)   # Call the function using the instance

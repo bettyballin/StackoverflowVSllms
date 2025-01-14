@@ -1,1 +1,0 @@
-for each user in users {\n    if(user.contentId == 11) {\n        // Add new row to TableB\n        insertIntoTableB(userId);\n    }\n}

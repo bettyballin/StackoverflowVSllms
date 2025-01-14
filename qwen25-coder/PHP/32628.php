@@ -1,1 +1,0 @@
-// Page2.php\nerror_reporting(E_ALL);\nini_set('display_errors', 1);\n\ninclude('Page1.php');\n\nif (isset($var)) {\n    echo $var;\n} else {\n    echo "Variable \$var is not set.";\n}

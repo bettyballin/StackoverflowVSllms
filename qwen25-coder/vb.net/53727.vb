@@ -1,1 +1,0 @@
-Public Const SIF_GENERAL As UInteger = &H08000000UI\nPublic Const SIF_CONFIGURATION As UInteger = &H08010000UI\nPublic Const SIF_ARCHIVE As UInteger = &H08020000UI\nPublic Const SIF_SEARCH As UInteger = &H08030000UI\nPublic Const SIF_REPLAY As UInteger = &H08040000UI\nPublic Const SIF_STATISTICS As UInteger = &H08050000UI\nPublic Const SIF_ENGINEER As UInteger = &H08060000UI

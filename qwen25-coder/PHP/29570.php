@@ -1,1 +1,0 @@
-// Using full anonymous function\n$rand_place = (function() {\n    $placesArray = explode(",", loadFile("csvOf20000places.txt"));\n    return $placesArray[rand(0, 1000)];\n})();\n\n// Using PHP 7.4+ short arrow function syntax\n$rand_place = ($fn = fn() => {\n    $placesArray = explode(",", loadFile("csvOf20000places.txt"));\n    return $placesArray[rand(0, 1000)];\n})();

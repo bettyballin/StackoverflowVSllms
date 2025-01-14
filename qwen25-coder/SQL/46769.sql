@@ -1,1 +1,0 @@
-UPDATE CustomerContacts cc\n   JOIN CustomerMergeMap cmm ON cc.idCustomer = cmm.OldId\n   SET cc.idCustomer = cmm.NewId;\n\n   UPDATE CustomerNotes cn\n   JOIN CustomerMergeMap cmm ON cn.idCustomer = cmm.OldId\n   SET cn.idCustomer = cmm.NewId;

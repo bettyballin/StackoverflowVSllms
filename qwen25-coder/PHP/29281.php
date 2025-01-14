@@ -1,1 +1,0 @@
-<?php\nrequire 'vendor/autoload.php';\n$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);\n$dotenv->load();\n\n// Access your environment variables\necho $_ENV['DB_HOSTNAME'];

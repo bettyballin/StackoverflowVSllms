@@ -1,1 +1,0 @@
-<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesign" \n           Name="YourReportName">\n     <InteractiveSize>\n       <Height>11in</Height>\n       <Width>8.5in</Width>\n     </InteractiveSize>\n     <!-- ...rest of your report configuration... -->\n   </Report>

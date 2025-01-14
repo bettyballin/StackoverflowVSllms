@@ -1,1 +1,0 @@
-class Template {\n       private $view;\n\n       public function __construct($templateName) {}\n       public function setVar($name, $value) {}\n       public function render() {}\n   }

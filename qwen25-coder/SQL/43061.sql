@@ -1,1 +1,0 @@
-CONNECT anotheruser/another_password;\n\n   CREATE SYNONYM remote_db_link FOR your_user.remote_db_link;

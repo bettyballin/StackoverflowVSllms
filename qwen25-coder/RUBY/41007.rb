@@ -1,1 +1,0 @@
-<%= link_to edit_asset_path(asset), remote: true, class: 'thumbnail-link' do %>\n     <%= image_tag asset.thumbnail.url, alt: asset.name %>\n   <% end %>

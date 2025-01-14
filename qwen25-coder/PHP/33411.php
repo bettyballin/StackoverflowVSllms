@@ -1,1 +1,0 @@
-class Cls {\n  function fun($php) {\n    return 'The rain in Spain.';\n  }\n}\n\n$ar = array(1, 2, 3);\n$instance = new Cls();\nprint_r(array_map([$instance, 'fun'], $ar));

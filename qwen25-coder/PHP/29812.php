@@ -1,1 +1,0 @@
-/**\n * @param Whatever $blah\n */\nfunction doSomething($blah) {\n    // Autocomplete should work for $blah methods.\n}

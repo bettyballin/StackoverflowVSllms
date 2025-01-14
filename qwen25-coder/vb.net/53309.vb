@@ -1,1 +1,0 @@
-Public Function CalculateSalary() As Decimal

@@ -1,1 +1,0 @@
-USE mysql;\n   SELECT user, host FROM user WHERE user = 'root';\n   GRANT ALL ON *.* TO 'root'@'localhost:3309' IDENTIFIED BY 'your_password' WITH GRANT OPTION;\n   FLUSH PRIVILEGES;

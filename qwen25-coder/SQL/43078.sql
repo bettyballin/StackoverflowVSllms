@@ -1,1 +1,0 @@
-SELECT s.sample_id,\n       s.created_on,\n       MAX(CASE WHEN t.tst_tmpl_id = 36 THEN t.status END) AS s_acid,\n       MAX(CASE WHEN t.tst_tmpl_id = 43 THEN t.status END) AS s_ph,\n       MAX(CASE WHEN t.tst_tmpl_id = 66 THEN t.status END) AS s_titr\nFROM sample s\nJOIN test t ON s.sample_id = t.sample_id\nWHERE s.sam_tmpl_id = 18\nGROUP BY s.sample_id, s.created_on;

@@ -1,1 +1,0 @@
-table problems\n  int id | string name | text description | datetime created_at\n\n-- Relationships table already exists; add versioning as an additional type of relationship

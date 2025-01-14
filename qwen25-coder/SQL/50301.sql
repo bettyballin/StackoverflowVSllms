@@ -1,1 +1,0 @@
-SELECT u.userid, u.username, lt.lastlogin\nFROM user u\nJOIN (\n    SELECT usrid, MAX(lastlogin) as lastlogin\n    FROM logintrack\n    GROUP BY usrid\n) lt ON u.userid = lt.usrid;

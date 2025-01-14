@@ -1,1 +1,0 @@
-return {\n    data: row,\n    value: row.UserID,\n    result: ""\n};

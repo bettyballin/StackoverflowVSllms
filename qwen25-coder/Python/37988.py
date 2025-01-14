@@ -1,1 +1,0 @@
-from bs4 import BeautifulSoup\n\nhtml = '''\n<p class="thisClass">this is nice <br /><br /> isn't it?</p>\n<!-- Add more paragraphs here -->\n'''\n\nsoup = BeautifulSoup(html, 'html.parser')\nparagraphs = soup.find_all('p', class_='thisClass')\n\nfor p in paragraphs:\n    print(p.get_text())

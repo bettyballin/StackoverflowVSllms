@@ -1,1 +1,0 @@
-SELECT \n    approved_flag, \n    COUNT(*) AS count\nFROM (\n    SELECT \n        user_id, \n        MAX(submitted_date) AS latest_submitted_date,\n        approved_flag\n    FROM \n        reports\n    GROUP BY \n        user_id\n    HAVING \n        MAX(submitted_date)\n) recent_reports\nGROUP BY \n    approved_flag;

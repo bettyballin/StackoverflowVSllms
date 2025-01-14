@@ -1,1 +1,0 @@
-$user = $entityManager->createQueryBuilder()\n         ->select('u.name', 'u.email')\n         ->from(User::class, 'u')\n         ->getQuery()\n         ->getResult();

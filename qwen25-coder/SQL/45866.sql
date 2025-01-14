@@ -1,1 +1,0 @@
-DECLARE @XML XML;\nSET @XML = '<root>Some text<!-- Comment 1 --><child><!-- Comment 2 -->Child content</child></root>';\n\n-- Use a FLWOR expression to delete all comments\nWHILE @XML.exist('comment()') > 0\nBEGIN\n    SET @XML.modify('delete (//comment()[1])');\nEND\n\nSELECT @XML;

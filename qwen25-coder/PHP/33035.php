@@ -1,1 +1,0 @@
-$url = filter_var($userInput, FILTER_SANITIZE_URL);

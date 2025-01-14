@@ -1,1 +1,0 @@
-<!-- MyPage.ui.xml -->\n<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">\n<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"\n             xmlns:g="urn:import:com.google.gwt.user.client.ui">\n\n    <g:HTMLPanel>\n        <div class="{style.myDiv}">\n            This is a static text inside a div.\n        </div>\n    </g:HTMLPanel>\n\n</ui:UiBinder>

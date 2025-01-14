@@ -1,1 +1,0 @@
--- Enable network encryption and integrity\nALTER SYSTEM SET sqlnet.encryption_server=REQUIRED SCOPE=BOTH;\nALTER SYSTEM SET sqlnet.integrity_server=HIGH SCOPE=BOTH;

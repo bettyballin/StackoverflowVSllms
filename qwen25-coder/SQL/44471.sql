@@ -1,1 +1,0 @@
-CREATE TYPE dbo.RecordIDTableType AS TABLE \n(\n    ID int\n);

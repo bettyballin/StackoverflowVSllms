@@ -1,1 +1,0 @@
-// Example of using Zend_Db_Table\nrequire_once 'Zend/Db.php';\n$adapter = Zend_Db::factory('Pdo_Mysql', array(\n    'host'     => $server,\n    'username' => $user,\n    'password' => $pass,\n    'dbname'   => $db,\n));\n$usersTable = new Users();\n$userRowSet = $usersTable->find(1);\n$userRow = $userRowSet->current();

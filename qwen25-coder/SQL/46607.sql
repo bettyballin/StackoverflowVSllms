@@ -1,1 +1,0 @@
-SELECT *\nFROM YourTableName\nWHERE VarcharGuidColumn NOT LIKE 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'\n  OR LEN(VarcharGuidColumn) != 36;

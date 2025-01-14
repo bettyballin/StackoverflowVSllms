@@ -1,1 +1,0 @@
-# Example integration test with requests\n   import requests\n\n   def test_api():\n       response = requests.get("http://yourapp.com/api/data")\n       assert response.status_code == 200\n       assert "key" in response.json()

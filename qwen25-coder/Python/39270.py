@@ -1,1 +1,0 @@
-def children(self):\n    stack = [self]\n    while stack:\n        node = stack.pop()\n        for e in node.entities:\n            yield e\n            if e.entities:\n                stack.append(e)

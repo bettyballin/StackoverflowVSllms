@@ -1,1 +1,0 @@
-SELECT \n    User_id,\n    CASE\n        WHEN YEAR(DOB) < 1980 AND Job_Title = 'manager' THEN 'Old Fart'\n        WHEN YEAR(DOB) < 1980 AND Job_Title = 'associate' THEN 'Old Timer'\n        WHEN YEAR(DOB) > 1980 AND Job_Title = 'manager' THEN 'Eager Beaver'\n        WHEN YEAR(DOB) > 1980 AND Job_Title = 'associate' THEN 'Slacker'\n    END AS Real_Title\nFROM \n    users;

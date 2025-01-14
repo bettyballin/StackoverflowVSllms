@@ -1,1 +1,0 @@
-var numberOfElements = Object.entries(obj).length;\nconsole.log(numberOfElements); // Output: 2

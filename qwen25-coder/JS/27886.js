@@ -1,1 +1,0 @@
-var div = $('#div');\n\n// First, slide up to hide the current content\ndiv.slideUp('slow', function() {\n    // After sliding up, update the HTML content\n    div.html('<div>one line replacement</div><div>another line replacement</div><div>third line</div>');\n    \n    // Then, slide down to reveal the new content\n    div.slideDown('slow');\n});

@@ -1,1 +1,0 @@
-function read_file(file, delete_after = false) {\n  // Code here will use delete_after value of "false" if no second argument is provided.\n}

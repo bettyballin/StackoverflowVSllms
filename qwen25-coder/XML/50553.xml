@@ -1,1 +1,0 @@
-<move todir="basedir">\n    <dirset dir="basedir/parentdir" includes="*"/>\n</move>

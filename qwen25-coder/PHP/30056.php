@@ -1,1 +1,0 @@
-$array = [1, 2, 3, 4, 5];\n\n// Let's say we want to remove the element with value 3\n$indexToRemove = array_search(3, $array);\nif ($indexToRemove !== false) {\n    unset($array[$indexToRemove]);\n}\n\n// Now, foreach will not include the removed element\nforeach ($array as $value) {\n    echo $value . "\n";\n}

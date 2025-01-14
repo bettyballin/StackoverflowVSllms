@@ -1,1 +1,0 @@
-import psutil\n\ndef get_cpu_usage_percent():\n    # Get the current process based on its PID\n    p = psutil.Process()\n    \n    # Return the CPU usage percentage of this process\n    return p.cpu_percent(interval=1)\n\nif __name__ == "__main__":\n    cpu_usage = get_cpu_usage_percent()\n    print(f"CPU Usage of the current process: {cpu_usage}%")

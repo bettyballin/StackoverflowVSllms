@@ -1,1 +1,0 @@
-// Safely parsing JSON with JSON.parse\ntry {\n    var data = '{ "someData": "value" }';\n    var parsedData = JSON.parse(data);\n    console.log(parsedData.someData); // Output: value\n} catch (e) {\n    console.error("Invalid JSON string:", e.message);\n}

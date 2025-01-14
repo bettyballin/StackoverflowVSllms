@@ -1,1 +1,0 @@
-$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;\n$args = array(\n    'category__not_in' => array($featured_cat->term_id),\n    'posts_per_page' => 10,\n    'post__not_in' => array($recent_post),\n    'paged' => $paged\n);\nquery_posts($args);

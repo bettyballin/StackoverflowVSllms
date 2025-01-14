@@ -1,1 +1,0 @@
-$this->view->navigation($container);

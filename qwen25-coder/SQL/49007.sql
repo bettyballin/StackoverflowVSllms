@@ -1,1 +1,0 @@
-CREATE TYPE dbo.IDListType AS TABLE\n(\n    ID INT PRIMARY KEY\n);

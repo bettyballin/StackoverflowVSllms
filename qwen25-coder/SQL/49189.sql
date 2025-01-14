@@ -1,1 +1,0 @@
--- Example of creating a basic trace in SQL Profiler\n-- This is an example script snippet, not directly executable within SQL Server Profiler\n\nCREATE TRACE MyTrace\nON SERVER\nADDFILE ('C:\tracefile.trc', MAXSIZE = 5MB, ROLLOVER = OFF)\nADD EVENT sql_batch_completed\nADD EVENT rpc_completed;\nGO

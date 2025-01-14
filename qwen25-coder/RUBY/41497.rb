@@ -1,1 +1,0 @@
-require 'gtk3'\n\nui = Gtk::Builder.new(file: "path_to_your_ui.glade")\n\n# Access widgets by their names (as set in Glade)\nwindow = ui["main_window"]\n\n# Connect signals and handlers\nui.connect_signals do |handler_name|\n  method(handler_name, false) || proc {}\nend\n\nwindow.show_all\n\nGtk.mai

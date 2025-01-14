@@ -1,1 +1,0 @@
-CREATE TABLE PersonTypes (\n    PersonTypeId tinyint PRIMARY KEY,\n    PersonTypeName varchar(50) NOT NULL\n);\n\nCREATE TABLE Person (\n    PersonId int PRIMARY KEY,\n    PersonTypeId tinyint FOREIGN KEY REFERENCES PersonTypes(PersonTypeId)\n);

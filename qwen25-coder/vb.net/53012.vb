@@ -1,1 +1,0 @@
-Function GetGreeting(Optional ByVal name As String = "Guest") As String\n    Return "Hello, " & name & "!"\nEnd Functio

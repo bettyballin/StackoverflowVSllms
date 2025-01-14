@@ -1,1 +1,0 @@
-<?php\n// Check if the 'x' parameter is set in the URL\nif (isset($_GET['x'])) {\n    $x = $_GET['x'];\n} else {\n    $x = 'default'; // Set default case if 'x' is not provided or invalid\n}\n\nswitch($x) {\n    case "products":\n        include("inc/products.php");\n        break;\n    default:\n        include("inc/main.php");\n        break;\n}\n?>

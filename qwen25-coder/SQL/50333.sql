@@ -1,1 +1,0 @@
-SELECT count(*), alias_column \nFROM (\n    SELECT (SELECT ... FROM ...) AS alias_column\n    FROM table\n) subquery\nGROUP BY alias_column;

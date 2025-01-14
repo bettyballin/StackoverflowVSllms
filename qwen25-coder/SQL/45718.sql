@@ -1,1 +1,0 @@
-CREATE UNIQUE CLUSTERED INDEX UC_UniqueCategoryValue ON dbo.UniqueCategoryValue (Category, Value);

@@ -1,1 +1,0 @@
-try {\n    if (!file_exists($filename)) {\n        throw new Exception("File does not exist.");\n    }\n} catch (Exception $e) {\n    echo 'Caught exception: ',  $e->getMessage(), "\n";\n}

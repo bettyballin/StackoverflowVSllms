@@ -1,1 +1,0 @@
-MyObject = function() {\n\n    this.function_one = function(param) {  \n        return param + param;\n    };\n\n    this.function_two = function(param) {\n        // Use 'this' to refer to the current object instance\n        return this.function_one(param) * this.function_one(param);\n    };\n\n}

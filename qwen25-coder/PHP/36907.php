@@ -1,1 +1,0 @@
-try {\n    $SQL = "INSERT"; // Your SQL query here\n    ExecuteQuery($SQL);\n} catch (Exception $e) {\n    echo "<p>There was an error.</p>";\n    echo $e->getMessage();\n}

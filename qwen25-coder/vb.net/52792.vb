@@ -1,1 +1,0 @@
-Dim regexPattern As String = "(?<=SendersTimeSeriesIdentification:\s+)(?!:)[^\w]+"\nDim fileContentString As String = "SendersTimeSeriesIdentification: COMPANY_A/COMPANY_B/REF_7/20090505"\nfileContentString = Regex.Replace(fileContentString, regexPattern, Function(m) New String("n"c, m.Value.Length))\nConsole.WriteLine(fileContentString)

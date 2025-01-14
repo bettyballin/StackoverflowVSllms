@@ -1,1 +1,0 @@
-<?php\n\n$file = 'http://file-managers.net/user/photos/1/23/45/34/filename.jpg';\n$pathinfo = pathinfo($file);\n$thumbPath = $pathinfo['dirname'] . '/' . $pathinfo['filename'] . '_thumb.' . $pathinfo['extension'];\n\n// will show:\n// http://file-managers.net/user/photos/1/23/45/34/filename_thumb.jpg\necho $thumbPath;\n\n?>

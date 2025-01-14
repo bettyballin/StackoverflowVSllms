@@ -1,1 +1,0 @@
-Dim result As List(Of Myclass) = (From c In db.Customers _\n                                  Where c.orders.Count > 1 _\n                                  Select New Myclass With {\n                                      .Id = c.customerID,\n                                      .Name = c.contactname\n                                  }).ToList()

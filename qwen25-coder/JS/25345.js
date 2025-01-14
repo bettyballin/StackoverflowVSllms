@@ -1,1 +1,0 @@
-window.location.href = window.origin + window.pathname + '?_=' + new Date().getTime();

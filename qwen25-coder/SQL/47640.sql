@@ -1,1 +1,0 @@
-RMAN> recover database;

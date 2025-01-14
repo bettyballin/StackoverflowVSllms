@@ -1,1 +1,0 @@
-function page_properties($db_connection, $myrow) {\n    // Create an instance of PageAtrributes with the database connection\n    $objPage = new PageAtrributes($db_connection);\n    \n    // Now you can safely call set_page_title on $objPage\n    $objPage->set_page_title($myrow['title']);\n}

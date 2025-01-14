@@ -1,1 +1,0 @@
-document.getElementById('fileInput').addEventListener('change', function(event) {\n    var fileList = event.target.files;\n    for (var i = 0; i < fileList.length; i++) {\n        console.log(fileList[i].name);\n    }\n});

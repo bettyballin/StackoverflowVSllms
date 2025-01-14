@@ -1,1 +1,0 @@
-class Object {\n    protected $name;\n\n    public function setName($name) {\n        $this->name = $name;\n    }\n\n    public function getName() {\n        return $this->name;\n    }\n}

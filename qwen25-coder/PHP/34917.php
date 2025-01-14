@@ -1,1 +1,0 @@
-// Example of setting cache headers in PHP for FLIR images\nheader("Cache-Control: max-age=86400"); // Cache for one day\nheader("Expires: " . gmdate("D, d M Y H:i:s", time() + 86400) . " GMT");

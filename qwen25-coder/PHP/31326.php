@@ -1,1 +1,0 @@
-$value = 'myvalue';\necho '<input type="text" name="myname" value="' . htmlspecialchars($value) . '">';

@@ -1,1 +1,0 @@
-function all_images(&$post){\n    $content = $post->post_content;\n    if(preg_match_all('/<img[^>]+src="(.*?)"[^>]*>/', $content, $results)){\n        // Loop through the matched image URLs\n        foreach($results[1] as $url){\n            echo $url . '<br>'; // Output each URL and optionally add <br> for readability\n        }\n    }\n}

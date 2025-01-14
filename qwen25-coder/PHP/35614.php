@@ -1,1 +1,0 @@
-use SomePrefix\FoobarQuery;\n\n$query = FoobarQuery::create()\n    ->where('created_at > DATE_SUB(curdate(), INTERVAL 1 MONTH)');\n\n$results = $query->find();

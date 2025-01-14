@@ -1,1 +1,0 @@
-// Assuming the iframe has an id of 'myIframe'\nvar iframe = document.getElementById('myIframe');\n\n// Make sure the iframe is fully loaded before accessing its contents\niframe.onload = function() {\n    // Access the div with id 'targetDiv' inside the iframe\n    var targetDiv = iframe.contentDocument.getElementById('targetDiv');\n    \n    console.log(targetDiv);\n};

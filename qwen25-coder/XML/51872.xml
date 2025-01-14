@@ -1,1 +1,0 @@
-<a>\n    <xsl:attribute name="href">\n        /newpage.aspx?\n        <xsl:call-template name="split-and-get-last">\n            <xsl:with-param name="string" select="someNode"/>\n        </xsl:call-template>\n    </xsl:attribute>\n    Link text\n</a>

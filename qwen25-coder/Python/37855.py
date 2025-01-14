@@ -1,1 +1,0 @@
-def logged(func):\n       func._logged = True\n       def wrapper(*args, **kwargs):\n           print(f"Calling {func.__name__}")\n           return func(*args, **kwargs)\n       return wrapper\n   \n   @logged\n   def add(a, b):\n       return a + b\n   \n   print(add(3, 4))  # Outputs: Calling add\n7\n   print(hasattr(add, '_logged'))  # Outputs: True

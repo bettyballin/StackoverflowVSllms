@@ -1,1 +1,0 @@
-$users = $this->User->find('all', array(\n    'conditions' => array('User.id' => $current_user_id),\n    'fields' => array('User.name'),  // Customize fields as needed\n    'recursive' => 2,\n));

@@ -1,1 +1,0 @@
-import win32api\nimport win32con\n\n# Get the screen width and height\nscreen_width = win32api.GetSystemMetrics(win32con.SM_CXSCREEN)\nscreen_height = win32api.GetSystemMetrics(win32con.SM_CYSCREEN)\n\nprint(f"Screen Width: {screen_width}, Screen Height: {screen_height}")

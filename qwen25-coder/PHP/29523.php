@@ -1,1 +1,0 @@
-function myadmintheme_theme(&$existing, $type, $theme, $path) {\n     return array(\n       'node_form__ccktype' => array( // This targets the ccktype specifically\n         'arguments' => array('form' => NULL),\n         'template' => 'ccktype',\n       ),\n     );\n   }

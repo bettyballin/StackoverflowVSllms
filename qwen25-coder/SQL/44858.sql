@@ -1,1 +1,0 @@
-SELECT FORMAT(CAST(your_float_column AS FLOAT), '#,##0.00000') AS formatted_number\nFROM your_table;

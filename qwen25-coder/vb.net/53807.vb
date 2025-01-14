@@ -1,1 +1,0 @@
-Dim obj As Object = ' some initialization...\nTry\n    Dim specificTypeObj As T = DirectCast(obj, T)\n    ' Work with specificTypeObj here\nCatch ex As InvalidCastException\n    ' Handle the exception if casting fails\nEnd Try

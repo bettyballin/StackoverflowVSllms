@@ -1,1 +1,0 @@
-<?php\n// procedural_code.php\n\nfunction add($a, $b) {\n    return $a + $b;\n}

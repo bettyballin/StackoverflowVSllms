@@ -1,1 +1,0 @@
--- Check if guest is enabled (returns 1 if enabled, 0 if disabled)\nSELECT is_disabled FROM sys.server_principals WHERE name = 'guest';\n\n-- Disable guest account (recommended for security reasons)\nALTER LOGIN guest DISABLE;"

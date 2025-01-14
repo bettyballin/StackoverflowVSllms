@@ -1,1 +1,0 @@
-document.getElementById('<%= hfControlData.ClientID %>').value = 'Height=100;Width=200';

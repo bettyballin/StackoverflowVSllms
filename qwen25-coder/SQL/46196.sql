@@ -1,1 +1,0 @@
-SELECT d.date, COUNT(s.slotID) AS slot_count\nFROM Dates AS d \nLEFT JOIN Slots AS s ON s.dateID = d.dateID \nGROUP BY d.date;

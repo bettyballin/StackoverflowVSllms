@@ -1,1 +1,0 @@
-# Example using Liquibase's XML for adding a column\n  <changeSet id="1" author="author">\n      <addColumn tableName="your_table_name">\n          <column name="new_column" type="VARCHAR(255)" />\n      </addColumn>\n  </changeSet>

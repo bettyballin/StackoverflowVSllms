@@ -1,1 +1,0 @@
-SELECT \n    p.Name AS ParentName,\n    c.Name AS ChildName\nFROM \n    Parent p\nINNER JOIN \n    Children c ON p.ParentID = c.ParentID;

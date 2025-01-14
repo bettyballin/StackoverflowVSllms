@@ -1,1 +1,0 @@
-SELECT DISTINCT A.id, A.columnName\nFROM MainTable A\nLEFT JOIN TableB B ON A.someColumn = B.anotherColumn\nLEFT JOIN TableC C ON A.someColumn = C.yetAnotherColumn\nLEFT JOIN TableF F ON A.someColumn = F.finalColumn\n-- Continue adding more LEFT JOINs as necessary\nWHERE (B.field IS NOT NULL OR C.field IS NOT NULL OR F.field IS NOT NULL);

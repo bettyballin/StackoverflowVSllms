@@ -1,1 +1,0 @@
-SELECT \n    p.content,\n    COUNT(CASE WHEN pt.tag_id IN (1, 3, 8) THEN 1 END) AS tag_count\nFROM \n    PAGE p\nJOIN \n    `PAGE-TAG` pt ON p.id = pt.page_id\nGROUP BY \n    p.id, p.content\nORDER BY \n    tag_count DESC;

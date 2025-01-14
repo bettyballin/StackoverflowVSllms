@@ -1,1 +1,0 @@
-query = "SELECT * FROM MyTable WHERE id = " + userId;

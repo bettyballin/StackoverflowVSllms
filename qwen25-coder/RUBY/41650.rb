@@ -1,1 +1,0 @@
-# To get the current time in your set time_zone (UTC)\nputs Time.current\n\n# Convert stored datetime to a particular time zone on the fly\nputs Feedback.last.created_at.in_time_zone('Pacific Time (US & Canada)').to_s

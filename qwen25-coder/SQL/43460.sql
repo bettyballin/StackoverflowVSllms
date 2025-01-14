@@ -1,1 +1,0 @@
--- If possible, change the table column definition to datetime2:\nALTER TABLE YourTableName\nALTER COLUMN YourDateTimeColumn datetime2;\n\n-- Alternatively, adjust your insert statement to include only valid datetime values:\nINSERT INTO YourTableName (YourDateTimeColumn)\nVALUES ('1900-01-01 00:00:00.000'); -- Example of a valid datetime value

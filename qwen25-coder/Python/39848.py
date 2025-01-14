@@ -1,1 +1,0 @@
-# dir1/file1.py\nfrom dir2.file2 import ClassOne\nimport importlib\n\nmyObject = ClassOne()\n\ndef reload_module():\n    import dir2.file2\n    importlib.reload(dir2.file2)

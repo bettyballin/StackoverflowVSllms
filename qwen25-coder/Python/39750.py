@@ -1,1 +1,0 @@
-import new_library as old_library  # Example of abstraction to ease transitio

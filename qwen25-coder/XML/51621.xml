@@ -1,1 +1,0 @@
-<telerik:RadFileExplorer ID="RadFileExplorer1" runat="server" Width="800px" Height="500px">\n    <Configuration ViewPaths="~/Files" UploadPaths="~/Files" DeletePaths="~/Files">\n        <ContentProvider Type="YourNamespace.CustomFileSystemContentProvider, YourAssembly"\n                         ParameterPrefix="~/Files/" />\n    </Configuration>\n</telerik:RadFileExplorer>

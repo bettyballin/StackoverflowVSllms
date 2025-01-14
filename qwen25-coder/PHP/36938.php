@@ -1,1 +1,0 @@
-class ClassName {\n    var $varName; // Property declaration\n\n    function __construct() {\n        // Constructor logic here\n    }\n}

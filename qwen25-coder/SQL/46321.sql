@@ -1,1 +1,0 @@
-SELECT DISTINCT tagtext FROM article_tags;

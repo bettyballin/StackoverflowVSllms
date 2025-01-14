@@ -1,1 +1,0 @@
-if (!mb_check_encoding($data, 'UTF-8')) {\n    // Handle invalid UTF-8 encoding\n}

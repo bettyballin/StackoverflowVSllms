@@ -1,1 +1,0 @@
-const htmlContent = '<a href="https://example.com/page?query=param">Link</a> <img src="http://image.example.com/img.jpeg?size=large" alt="">';\n\n// Replace query strings from URLs in the HTML content\nconst cleanedHtmlContent = htmlContent.replace(/(https?:\/\/[^\s\?]*)\?[^\s"]*/g, '$1');\n\nconsole.log(cleanedHtmlContent);

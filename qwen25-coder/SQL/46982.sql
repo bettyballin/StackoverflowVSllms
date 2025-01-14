@@ -1,1 +1,0 @@
-CREATE TABLE Customers (\n    CustomerID VARCHAR(15) PRIMARY KEY,\n    -- Other columns...\n);

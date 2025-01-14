@@ -1,1 +1,0 @@
-' VB.NET requires "Inherits"\n     Public Class ChildClass\n         Inherits ParentClass\n     End Class

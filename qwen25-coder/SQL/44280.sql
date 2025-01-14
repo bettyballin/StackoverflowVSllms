@@ -1,1 +1,0 @@
-SELECT t.name AS tag_name, COUNT(ti.tag_id) AS popularity_count\nFROM Tags t\nJOIN Taggings ti ON t.id = ti.tag_id\nGROUP BY t.name\nORDER BY popularity_count DESC;

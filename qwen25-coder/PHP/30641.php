@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\n// Check if the user is logged in by checking session variable\nif (!isset($_SESSION['user_id'])) {\n    die('User not logged in');\n}\n\n$user_id = $_SESSION['user_id'];\n// Proceed to save data, using $user_id as necessary\n?>

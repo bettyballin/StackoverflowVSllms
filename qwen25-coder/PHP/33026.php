@@ -1,1 +1,0 @@
-if (filter_var($ipAddress, FILTER_VALIDATE_IP)) {\n      echo "Valid IP address";\n  }

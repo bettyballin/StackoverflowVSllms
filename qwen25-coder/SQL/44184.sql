@@ -1,1 +1,0 @@
-SELECT * FROM directory_country_region WHERE country_id = 'GB';

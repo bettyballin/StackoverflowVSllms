@@ -1,1 +1,0 @@
-import tldextract\n\ndef get_main_domain(url):\n    extracted = tldextract.extract(url)\n    return f"{extracted.domain}.{extracted.suffix}"\n\n# Example usage:\nurl1 = "http://www.example.com"\nurl2 = "https://example.co.uk/path/script.php?=whatever"\n\nprint(get_main_domain(url1))  # Output: example.com\nprint(get_main_domain(url2))  # Output: example.co.uk

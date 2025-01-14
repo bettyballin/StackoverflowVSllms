@@ -1,1 +1,0 @@
--- Example of a table using a composite key\n   CREATE TABLE Orders (\n       OrderDate DATE NOT NULL,\n       CustomerID INT NOT NULL,\n       ProductID INT NOT NULL,\n       Quantity INT NOT NULL,\n       PRIMARY KEY (OrderDate, CustomerID, ProductID)\n   );

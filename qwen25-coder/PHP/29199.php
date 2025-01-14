@@ -1,1 +1,0 @@
-if(isset($newReplacement[1])){ // <--- ???

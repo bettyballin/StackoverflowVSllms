@@ -1,1 +1,0 @@
-CREATE TABLE people (\n     id       INTEGER PRIMARY KEY,\n     name     VARCHAR(100),\n     status   ENUM('active', 'inactive', 'pending'),\n     ...\n   );

@@ -1,1 +1,0 @@
-<!-- Example of a simple WCF service configuration -->\n   <system.serviceModel>\n     <services>\n       <service name="MyNamespace.MyService">\n         <endpoint \n           address="" \n           binding="basicHttpBinding" \n           contract="MyNamespace.IMyService" />\n       </service>\n     </services>\n   </system.serviceModel>

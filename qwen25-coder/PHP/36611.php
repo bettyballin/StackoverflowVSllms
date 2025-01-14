@@ -1,1 +1,0 @@
-function modifyValue(&$value) {\n    $value = $value * 10;\n}\n\n$number = 5;\nmodifyValue($number); // This changes the original value of $number\n\necho $number; // Outputs: 50

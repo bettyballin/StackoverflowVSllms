@@ -1,1 +1,0 @@
-<p><%= @post.title %></p>\n<p><%= @post.body %></p>

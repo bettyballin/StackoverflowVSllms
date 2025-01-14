@@ -1,1 +1,0 @@
-<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">\n       <!-- Copy properties from a similar AnyCPU block, ensuring PlatformTarget is set to x86 -->\n       <PlatformTarget>x86</PlatformTarget>\n     </PropertyGroup>

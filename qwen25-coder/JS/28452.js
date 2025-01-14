@@ -1,1 +1,0 @@
-document.getElementById('yourElementId').addEventListener('click', function() {\n    update('Layer3', '2', yourPkValue, null);\n});

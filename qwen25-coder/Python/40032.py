@@ -1,1 +1,0 @@
-from bs4 import BeautifulSoup\nimport requests\n\n# Fetch the content of a webpage\nresponse = requests.get('http://example.com')\nsoup = BeautifulSoup(response.text, 'html.parser')\n\n# Find all link tags\nlink_tags = soup.find_all('link', href=True)\n\nfor tag in link_tags:\n    print(tag['href'])

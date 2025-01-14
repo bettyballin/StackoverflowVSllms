@@ -1,1 +1,0 @@
-<ItemGroup>\n  <None Include="path\to\your\dll.dll">\n    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>\n  </None>\n</ItemGroup>

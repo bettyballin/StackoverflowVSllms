@@ -1,1 +1,0 @@
-x = [1, 2, 3, 4, 5, 11]\ny = [str(num).zfill(2) for num in x]\nprint(y)

@@ -1,1 +1,0 @@
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {\n       // Process your POST request here\n       header('Location: /thankyou.php');\n       exit;\n   }

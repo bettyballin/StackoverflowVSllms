@@ -1,1 +1,0 @@
-class MyClass {\n    public $existingProperty = 'I exist initially';\n}\n\n$obj = new MyClass();\n\n// Adding a dynamic property\n$obj->dynamicProperty = 'I was added dynamically';\n\necho $obj->dynamicProperty; // Outputs: I was added dynamically

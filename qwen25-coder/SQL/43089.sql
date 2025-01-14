@@ -1,1 +1,0 @@
-SELECT * FROM V$SESSION_LONGOPS WHERE ELAPSED_SECONDS > 10; -- Adjust the threshold as needed

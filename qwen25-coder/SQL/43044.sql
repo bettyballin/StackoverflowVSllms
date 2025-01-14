@@ -1,1 +1,0 @@
-SELECT \n    servicename, \n    startup_type, \n    status, \n    logon_account\nFROM sys.dm_server_registry\nWHERE registry_key LIKE N'%MSSQLServer\SuperSocketNetLib%'\nAND value_name = N'ObjectName';

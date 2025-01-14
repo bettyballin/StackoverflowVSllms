@@ -1,1 +1,0 @@
-public function show($file) {\n    $allowedFiles = ['someViewFile', 'anotherViewFile']; // Add allowed filenames\n\n    if (in_array($file, $allowedFiles)) {\n        $viewObject = $this;\n        include($file.'.php');\n    } else {\n        throw new Exception('Invalid file requested.');\n    }\n}

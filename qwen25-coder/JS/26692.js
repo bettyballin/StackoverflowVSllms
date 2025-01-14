@@ -1,1 +1,0 @@
-document.querySelector('.resizable-textarea').addEventListener('input', function() {\n    this.style.height = 'auto';\n    this.style.height = (this.scrollHeight) + "px";\n});

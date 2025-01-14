@@ -1,1 +1,0 @@
-SELECT \n        request_session_id AS SPID,\n        wait_type, \n        wait_time, \n        wait_resource,\n        blocking_session_id AS BlockedBy,\n        last_wait_type,\n        status\n    FROM sys.dm_exec_requests \n    WHERE blocking_session_id <> 0;

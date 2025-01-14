@@ -1,1 +1,0 @@
-// Simple PHP script for performance test\n$start = microtime(true);\nfor ($i = 0; $i < 100000; $i++) {\n    // Simulate some work\n    sqrt($i);\n}\n$end = microtime(true);\necho "Execution time: " . number_format(($end - $start), 5) . " s\n";

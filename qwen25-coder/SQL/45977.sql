@@ -1,1 +1,0 @@
--- Insert product with Vnr = 1 and quantity = 2\nINSERT INTO VareOrdre (Onr, Vnr, Antal) VALUES (100, 1, 2);\n\n-- Insert another product with Vnr = 3 and quantity = 1\nINSERT INTO VareOrdre (Onr, Vnr, Antal) VALUES (100, 3, 1);

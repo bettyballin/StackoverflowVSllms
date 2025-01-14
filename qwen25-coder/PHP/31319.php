@@ -1,1 +1,0 @@
-use Drupal\comment\Entity\Comment;\n\nfunction get_comment_id_from_nid($nid) {\n  $query = \Drupal::entityQuery('comment')\n    ->condition('field_name_of_node', $nid)\n    ->range(0, 1);\n\n  $cids = $query->execute();\n  \n  if (empty($cids)) {\n    return NULL;\n  }\n\n  return reset($cids); // Returns the first comment ID.\n}

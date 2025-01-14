@@ -1,1 +1,0 @@
-import numpy as np\n\n# Assuming m is a list of lists and row_indices is a list of indices\nm = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nrow_indices = [0, 2]\n\n# Convert the list of lists to a NumPy array\nmatrix = np.array(m)\n\n# Use NumPy's advanced indexing to get the rows\nselected_rows = matrix[row_indices]\n\nprint(selected_rows)

@@ -1,1 +1,0 @@
-$.ajax({\n    url: 'your-asp-page.asp', // This could be any endpoint returning JSON\n    type: 'GET',\n    dataType: 'json',\n    success: function(data) {\n        // Handle the data received from the server\n        console.log(data);\n    },\n    error: function(xhr, status, error) {\n        console.error('AJAX Error: ' + status + error);\n    }\n});

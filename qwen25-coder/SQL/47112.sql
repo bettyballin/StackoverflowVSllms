@@ -1,1 +1,0 @@
-DELETE FROM entity_entity WHERE entity_id_a = 3 AND entity_id_b = 5;

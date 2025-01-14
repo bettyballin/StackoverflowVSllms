@@ -1,1 +1,0 @@
-<?php\nheader('Location: login.html');\necho "Authentication error. Please login to continue.";\nexit();\n?>

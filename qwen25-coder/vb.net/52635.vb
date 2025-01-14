@@ -1,1 +1,0 @@
-Dim query2 = MasterCalendarInstance _\n             .OrderBy(Function(x) x.Key) _\n             .Select(Function((x, i), Iterator) New With {\n                                                .CalendarId = x.Key, \n                                                .Iter = Iterator + 1 ' Adjust if you want to start from 1 instead of 0\n                                             })

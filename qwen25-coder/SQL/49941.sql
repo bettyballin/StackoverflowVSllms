@@ -1,1 +1,0 @@
--- Grant SELECT privilege on each table in a different schema to the user executing the view\nGRANT SELECT ON schema_name.table_name TO your_user;

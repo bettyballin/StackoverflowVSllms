@@ -1,1 +1,0 @@
-echo "<input type='button' value='send mails' onclick=\"sendmails('" . addslashes($sendQuestion) . "');\">";

@@ -1,1 +1,0 @@
-SELECT * \nFROM table_name \nWHERE 'www.google.com' REGEXP CONCAT('(^|\\.)', domain, '$');

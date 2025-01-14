@@ -1,1 +1,0 @@
-ALTER INDEX ALL ON [dbo].[YourTransactionTable] REORGANIZE;

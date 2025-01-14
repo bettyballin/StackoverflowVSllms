@@ -1,1 +1,0 @@
-select \n    MyValInt\nfrom\n    (\n        select \n            TRY_CONVERT(int, MyVal) as MyValInt\n        from \n            dbo.TestTable\n    ) tabela\nwhere \n    tabela.MyValInt > 6

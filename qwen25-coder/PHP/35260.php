@@ -1,1 +1,0 @@
-function encrypt($plaintext, $key, $iv) {\n    $ciphertext_raw = openssl_encrypt(\n        $plaintext,\n        'AES-256-CBC',\n        base64_decode($key),\n        OPENSSL_RAW_DATA,\n        base64_decode($iv)\n    );\n    \n    // Return the base64-encoded ciphertext\n    return base64_encode($ciphertext_raw);\n}

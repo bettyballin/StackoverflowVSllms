@@ -1,1 +1,0 @@
-// Example of PHP-only file without closing ?>\n<?php\necho "This is PHP code only!";

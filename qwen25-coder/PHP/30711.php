@@ -1,1 +1,0 @@
-ini_set('assert.active', 1); // Ensure assert() is active\nini_set('error_reporting', E_ALL | E_STRICT); // Report all errors\n\n$str = $post->post_content;\nassert( isset($str), 'Failed at line 2' ); // Add message to assertions for clarity\nassert( is_string($str), 'Failed at line 3' );\necho $str;\n\n// Comment out or test with $str reassignment as needed

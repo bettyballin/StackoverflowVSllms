@@ -1,1 +1,0 @@
--- Example SQL function definition with annotations for clarity\nCREATE FUNCTION example_function(param1 INT)\nRETURNS INT\nDETERMINISTIC  -- Ensures that the function is deterministic\nBEGIN\n    DECLARE result INT;\n    -- Some operations within a transaction scope\n    SELECT some_column FROM some_table WHERE id = param1 INTO result;\n    RETURN result;\nEND;

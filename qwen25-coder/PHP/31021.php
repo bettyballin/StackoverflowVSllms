@@ -1,1 +1,0 @@
-<?php\n// PHP code to execute a Python script\nexec("python3 /path/to/device_control_script.py", $output, $return_var);\n\nif ($return_var === 0) {\n    echo "Command executed successfully: ";\n    print_r($output);\n} else {\n    echo "Failed to execute command.";\n}\n?>

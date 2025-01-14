@@ -1,1 +1,0 @@
-DBCC CHECKIDENT ('SyncSession', NORESEED);

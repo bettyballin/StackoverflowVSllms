@@ -1,1 +1,0 @@
-// Define base path constants\ndefine('APP_ROOT', realpath(__DIR__) . '/');\ndefine('CONTROLLER_PATH', APP_ROOT . 'controller/');\n\n// Usage with require_once or include_once\nrequire_once CONTROLLER_PATH . 'SomeController.php';

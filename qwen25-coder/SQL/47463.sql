@@ -1,1 +1,0 @@
-WHERE (@ContractNo = 0 AND tblContracts.ContractNo IS NOT NULL)\n   OR (@ContractNo <> 0 AND tblContracts.ContractNo = @ContractNo)

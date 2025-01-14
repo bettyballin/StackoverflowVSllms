@@ -1,1 +1,0 @@
-<?php if (false) { ?>\n   <?xml version="1.0" encoding="utf-8"?>\n   <!-- Your XML content here -->\n   <?php } ?>

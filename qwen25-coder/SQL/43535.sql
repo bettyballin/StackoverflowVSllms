@@ -1,1 +1,0 @@
-CREATE FUNCTION GetEmployeeById (@employeeId INT)\nRETURNS TABLE\nAS\nRETURN \n(\n    SELECT *\n    FROM Employees\n    WHERE EmployeeID = @employeeId\n);\n\nCREATE FUNCTION GetEmployeesByDepartment (@departmentName NVARCHAR(50))\nRETURNS TABLE\nAS\nRETURN \n(\n    SELECT *\n    FROM Employees\n    WHERE Department = @departmentName\n);

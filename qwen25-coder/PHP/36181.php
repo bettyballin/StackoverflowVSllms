@@ -1,1 +1,0 @@
-// In a common include file or at the top of login.php and members.php:\nset_include_path('../ZendGdata-1.8.4PL1/library' . PATH_SEPARATOR . get_include_path());\n\nrequire_once 'Zend/Loader/Autoloader.php';\n$autoloader = Zend_Loader_Autoloader::getInstance();\n\nsession_start();

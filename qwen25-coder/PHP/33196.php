@@ -1,1 +1,0 @@
-// Assuming $connection is your ADOdb connection object\n$userId = 123;\n$query = 'SELECT * FROM users WHERE id = ?';\n\n$stmt = &$connection->Prepare($query);\n$result = $connection->Execute($stmt, array($userId));\n\nif ($result !== false) {\n    while (!$result->EOF) {\n        // Process each row\n        print_r($result->fields);\n        $result->MoveNext();\n    }\n}

@@ -1,1 +1,0 @@
-SELECT DATEPART(dw, '01/01/2009') AS DayOfWeekInt;

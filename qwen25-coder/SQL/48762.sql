@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n        UserID INT PRIMARY KEY,\n        Username VARCHAR(255) UNIQUE NOT NULL,\n        RoleID INT,\n        FOREIGN KEY (RoleID) REFERENCES Roles(RoleID)\n    );

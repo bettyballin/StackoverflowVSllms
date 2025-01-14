@@ -1,1 +1,0 @@
-$print = "50 days,7 hours";\n$result = strstr($print, ',', true);\necho $result; // Outputs: 50 days

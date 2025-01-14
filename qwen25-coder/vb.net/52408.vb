@@ -1,1 +1,0 @@
-' Assuming you have a DataTable dt filled with data\nDim dt As New DataTable()\n' Fill the DataTable here...\n\nDim bs As New BindingSource(dt.DefaultView, Nothing)\n\n' Navigate to the first record\nbs.MoveFirst()\n\n' Navigate to the next record\nbs.MoveNext()\n\n' Navigate to the previous record\nbs.MovePrevious()\n\n' Navigate to the last record\nbs.MoveLast()

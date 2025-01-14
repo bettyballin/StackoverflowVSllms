@@ -1,1 +1,0 @@
-foreach ($_POST['tasks'] as $task_id => $v) {

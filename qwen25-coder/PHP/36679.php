@@ -1,1 +1,0 @@
-$inputStream = fopen('php://input', 'r');\n   while ($line = stream_get_line($inputStream, 1024*1024)) { // Adjust buffer size as needed\n       // Process each line or block of data\n   }\n   fclose($inputStream);

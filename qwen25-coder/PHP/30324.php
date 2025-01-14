@@ -1,1 +1,0 @@
-// In form.html or in the PHP file that generates it\n   <?php\n     session_start();\n     $_SESSION['form_submitted'] = true;\n   ?>

@@ -1,1 +1,0 @@
-$allViews = [];\nwhile ($resultV = mysql_fetch_assoc($metQueryViews)) {\n    // Assuming 'date' and 'Count' are the correct column names in your result set\n    if (!is_null($resultV['date'])) { // Exclude NULL dates if you don't want them in the array\n        $allViews[$resultV['date']] = $resultV['Count'];\n    }\n}

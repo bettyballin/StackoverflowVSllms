@@ -1,1 +1,0 @@
-// Assuming 'textfield' is your input element\nvar textfield = document.getElementById('yourTextFieldId');\ntextfield.focus(); // Ensure the field is focused to see the selection\ntextfield.setSelectionRange(2, 10); // Selects characters from index 2 to 9 (end index is exclusive)

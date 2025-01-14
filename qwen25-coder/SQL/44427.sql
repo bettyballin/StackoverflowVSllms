@@ -1,1 +1,0 @@
-INSERT INTO large_array_table (id, numbers)\nVALUES (1, NUMBER_TABLE(1, 2, 3, 4, ..., 10000));\n/\n\nSELECT * FROM TABLE(SELECT numbers FROM large_array_table WHERE id = 1);\n/

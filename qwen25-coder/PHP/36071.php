@@ -1,1 +1,0 @@
-<?php\n    class MyClass\n    {\n        const CONSTANT = 'Const var';        \n    }\n\n    $classname = 'MyClass';\n    echo constant($classname . '::CONSTANT');\n?>

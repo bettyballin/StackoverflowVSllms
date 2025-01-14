@@ -1,1 +1,0 @@
-<validators>\n  <validator name="dateformat" \n             class="com.yourpackage.DateFormatValidator"/>\n</validators>

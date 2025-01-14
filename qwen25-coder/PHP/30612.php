@@ -1,1 +1,0 @@
-$conn = new mysqli($servername, $username, $password, $dbname);\nif (!$conn->set_charset("utf8")) {\n    printf("Error loading character set utf8: %s\n", $conn->error);\n}

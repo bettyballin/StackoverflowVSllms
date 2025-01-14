@@ -1,1 +1,0 @@
-<add name="MyConnectionString" connectionString="User Id=myusername;Password=mypassword;Data Source=myservice;Pooling=false;" providerName="Oracle.DataAccess.Client" />

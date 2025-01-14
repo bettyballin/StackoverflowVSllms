@@ -1,1 +1,0 @@
--- Storing boolean using BIT\nCREATE TABLE flags (\n    active BIT(1)\n);\n\n-- Storing boolean using TINYINT\nCREATE TABLE settings (\n    enabled TINYINT(1) NOT NULL DEFAULT 0\n);

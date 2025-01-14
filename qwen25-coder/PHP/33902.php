@@ -1,1 +1,0 @@
-$years = [\n    2005 => 0,\n    2006 => 0,\n    2007 => 0,\n    2008 => 0,\n    2009 => 0,\n];\n\n$values = [\n    2007 => 5,\n    2008 => 6.05,\n    2009 => 7,\n];\n\n$final = array_replace($years, $values);\n\nprint_r($final);

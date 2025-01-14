@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- Step 1: Delete related rows in Table2 where ID_XPTO matches.\nDELETE FROM Table2\nWHERE ID_XPTO = @ID_XPTO;\n\n-- Step 2: Delete the row in Table1 after all related records are removed.\nDELETE FROM Table1\nWHERE ID_XPTO = @ID_XPTO;\n\nCOMMIT TRANSACTION;

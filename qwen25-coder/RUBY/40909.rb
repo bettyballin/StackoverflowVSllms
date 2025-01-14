@@ -1,1 +1,0 @@
-<%= form_for(@your_model) do |f| %>\n     <%= f.text_field :name, id: 'your_input_field', placeholder: "Select a name" %>\n     <%= f.hidden_field :selected_item_id, id: 'your_hidden_field' %>\n     <%= f.submit "Submit" %>\n   <% end %>

@@ -1,1 +1,0 @@
-SELECT \n    EL.ID AS Expr1, JA.Job\nFROM (\n    SELECT \n        EL.ID,\n        JA.Job,\n        ROW_NUMBER() OVER (PARTITION BY EL.ID ORDER BY IIF(JA.[Date Returned] IS NULL OR JA.[Date Returned] = '', 1, 2)) AS rn\n    FROM \n        [Equipment List] EL\n    LEFT JOIN \n        [Job Assignments] JA ON EL.ID = JA.EquipmentID\n) AS SubQuery\nWHERE rn = 1;

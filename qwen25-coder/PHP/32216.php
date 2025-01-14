@@ -1,1 +1,0 @@
-// profile.php\n<?php\nsession_start();\n\nif (isset($_GET['user'])) {\n    $usernameToDisplay = $_GET['user'];\n    // Fetch and display data for this user\n} else {\n    // Handle case where user is not set\n}\n?>

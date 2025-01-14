@@ -1,1 +1,0 @@
-// config.php\n<?php\n\nfunction myAutoloader($class) {\n    // Assuming classes are in the 'classes' directory and named like ClassName.php\n    $file = __DIR__ . '/classes/' . $class . '.php';\n    \n    if (file_exists($file)) {\n        require_once $file;\n    }\n}\n\nspl_autoload_register('myAutoloader');

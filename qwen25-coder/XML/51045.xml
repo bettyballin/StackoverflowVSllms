@@ -1,1 +1,0 @@
-<transportConnectors>\n      <transportConnector name="stomp+ssl" uri="stomp+ssl://0.0.0.0:61612?needClientAuth=false"/>\n  </transportConnectors>

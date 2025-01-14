@@ -1,1 +1,0 @@
-DECLARE @myDoc xml;\nSET @myDoc = '<CustomerInfo><ID>1</ID></CustomerInfo>';\n\nSET @myDoc.modify('insert <Customer>{ /CustomerInfo/* }</Customer> as first into (/)');\nSET @myDoc.modify('delete /CustomerInfo');\n\nSELECT @myDoc AS ModifiedXML;

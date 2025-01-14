@@ -1,1 +1,0 @@
-// Example of setting a basic route that accepts both path params and query strings\n   $route = new Zend_Controller_Router_Route(\n       'index/:action/',\n       array('controller' => 'index', 'action' => 'default')\n   );\n   $frontController->getRouter()->addRoute('custom_route', $route);\n   \n   // Access params as shown earlier using getParam

@@ -1,1 +1,0 @@
-<Context>\n      <!-- Existing Context config -->\n      \n      <Resources cachingAllowed="true" cacheMaxSize="1024">\n          <PreResources className="org.apache.catalina.webresources.DirResourceSet"\n                          base="/path/to/member/data"\n                          webAppMount="/memberdata"/>\n      </Resources>\n  </Context>

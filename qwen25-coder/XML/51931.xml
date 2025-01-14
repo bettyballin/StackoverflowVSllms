@@ -1,1 +1,0 @@
-<stateful-cache passivation-store-ref="file" max-size="20"/>\n<pools>\n    <bean-instance-pools>\n        <strict-max-pool name="slsb-strict-max-pool" derive-size="from-cpu-count" max-pool-size="5" instance-acquisition-timeout="60" instance-acquisition-timeout-unit="SECONDS"/>\n    </bean-instance-pools>\n</pools>

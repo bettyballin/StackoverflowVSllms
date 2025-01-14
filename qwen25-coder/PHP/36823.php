@@ -1,1 +1,0 @@
-<?php\nsession_start(); // Start session at the beginning of your script\n\n// Set session variable\n$_SESSION['login']['email'] = "ntohuh";\n\n// Print session array to verify contents\necho '<pre>';\nprint_r($_SESSION);\necho '</pre>';\n\n// Optionally, close the session if writing\n// session_write_close();\n?>

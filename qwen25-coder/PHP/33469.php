@@ -1,1 +1,0 @@
-<!-- src/Template/Layout/default.ctp -->\n<!DOCTYPE html>\n<html>\n<head>\n    <title>My App</title>\n</head>\n<body>\n    <?= $this->element('menu') ?>\n    \n    <div id="content">\n        <?= $this->fetch('content'); ?>\n    </div>\n</body>\n</html>

@@ -1,1 +1,0 @@
-# Start Rails console with full environment\nrails console\n\n# Manually include url helpers\ninclude Rails.application.routes.url_helpers

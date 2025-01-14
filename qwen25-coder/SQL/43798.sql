@@ -1,1 +1,0 @@
--- Change the default collation of the entire database\nALTER DATABASE YourDatabaseName COLLATE Latin1_General_CI_AS;

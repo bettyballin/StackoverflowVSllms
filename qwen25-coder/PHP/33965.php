@@ -1,1 +1,0 @@
-session_start();\nrequire_once('core.php');\n\n// Use $inbox from session\nforeach ($inbox as $mail) {\n    echo "<a href='showmail.php?id={$mail['id']}'>{$mail['subject']}</a><br>";\n}

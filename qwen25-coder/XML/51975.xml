@@ -1,1 +1,0 @@
-<rule name="Redirect examples to main domain" stopProcessing="true">\n    <match url="(.*)" />\n    <conditions>\n        <add input="{HTTP_HOST}" pattern="^(www\.examples\.com|www\.ex\-ample\.com)$" />\n    </conditions>\n    <action type="Redirect" url="http://www.example.com/{R:0}" redirectType="Permanent" />\n</rule>

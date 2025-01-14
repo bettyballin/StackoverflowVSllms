@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.open('GET', 'https://example.com/image.png');\nxhr.responseType = 'blob'; // or 'arraybuffer' for binary data\n\nxhr.onload = function() {\n    if (this.status === 200) {\n        var blob = this.response;\n        // work with the Blob object\n    }\n};\nxhr.send();

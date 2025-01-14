@@ -1,1 +1,0 @@
-# Example: BFS using NetworkX in Python\n   import networkx as nx\n\n   G = nx.Graph()\n   edges = [(0, 1), (1, 2), (2, 3), (3, 4), (4, 0)]\n   G.add_edges_from(edges)\n\n   bfs_order = list(nx.bfs_tree(G, source=0))\n   print("BFS order:", bfs_order)

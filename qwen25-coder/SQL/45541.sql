@@ -1,1 +1,0 @@
-SELECT term, COUNT(*) as term_count \nFROM texts, \n     JSON_TABLE(\n         LOWER(text_column), '$[*]'\n         COLUMNS (\n             term VARCHAR(50) PATH '$'\n         )\n     ) AS words\nGROUP BY term\nHAVING LENGTH(term) > 2 -- avoid very short words like 'a', 'is', etc.\nORDER BY COUNT(*) DESC\nLIMIT 10;

@@ -1,1 +1,0 @@
--- Creating a compressed table\nCREATE TABLE emails (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    subject VARCHAR(255),\n    body TEXT COMPRESSED\n) COMPRESSION = 'zlib';

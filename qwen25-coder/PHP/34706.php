@@ -1,1 +1,0 @@
-<?php\n// Assuming you have already retrieved $data from your database\n\n// Output the data safely into a textarea\necho '<textarea>' . htmlspecialchars($data, ENT_QUOTES, 'UTF-8') . '</textarea>';\n?>

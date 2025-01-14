@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\nSELECT amount, version \nFROM CALLS \nWHERE callId=1213 FOR UPDATE; // Note: This lock is necessary if you have concurrent updates\n// Use JDBC to fetch the result set and store `amount` and `version`

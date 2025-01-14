@@ -1,1 +1,0 @@
-SELECT username, ip, time_stamp\nFROM (\n    SELECT username, ip, time_stamp,\n           ROW_NUMBER() OVER (PARTITION BY username ORDER BY time_stamp DESC) as rn\n    FROM your_table_name\n) subquery\nWHERE rn = 1;

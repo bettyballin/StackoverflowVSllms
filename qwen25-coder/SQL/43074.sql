@@ -1,1 +1,0 @@
-CREATE TABLE ArtistFans (\n    ArtistFanID INT AUTO_INCREMENT PRIMARY KEY,\n    ArtistID INT,\n    UserID INT,\n    UNIQUE (ArtistID, UserID)\n);

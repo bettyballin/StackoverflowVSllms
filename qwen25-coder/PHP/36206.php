@@ -1,1 +1,0 @@
-// Config/app.php\n\nreturn [\n    'Paypal.IPN_URL' => 'https://www.sandbox.paypal.com/cgi-bin/webscr',\n    'Paypal.HEADER' => "POST /cgi-bin/webscr HTTP/1.1\r\n",\n    'PAYPAL.TXN_TYPE_SUBSCRIBE' => 'subscr_signup',\n    'PAYPAL.TXN_TYPE_CANCEL' => 'subscr-cancel',\n    'PAYPAL.TXN_TYPE_EOT' => 'subscr_eot',\n];

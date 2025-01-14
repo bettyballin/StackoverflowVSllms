@@ -1,1 +1,0 @@
-echo _('Hello, World!');

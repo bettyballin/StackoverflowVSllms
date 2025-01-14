@@ -1,1 +1,0 @@
-document.getElementById('yourElementId').onclick = function() {\n    this.className = 'newClass';\n};

@@ -1,1 +1,0 @@
-resources :notes, only: [:index, :new, :create, :edit, :show, :update, :destroy]

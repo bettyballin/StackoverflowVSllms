@@ -1,1 +1,0 @@
-<?php\n// Start output buffering\nob_start();\n\n// Include the target file\ninclude "/path/to/index.html"; // Change to your actual path\n\n// Send the buffered output\nob_end_flush();\n?>

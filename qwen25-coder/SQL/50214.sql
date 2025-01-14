@@ -1,1 +1,0 @@
-SELECT \n    DATE(FROM_UNIXTIME(timecode)) AS date, \n    COUNT(*) AS count_per_day \nFROM \n    timecodeTable \nGROUP BY \n    DATE(FROM_UNIXTIME(timecode));

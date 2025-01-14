@@ -1,1 +1,0 @@
-SELECT * FROM all_tables FETCH FIRST 10 ROWS ONLY;

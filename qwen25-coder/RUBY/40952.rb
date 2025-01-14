@@ -1,1 +1,0 @@
-<div class="image_container">\n  <img src="<%= url_for(action: 'picture', id: object.id) %>" alt="Plant Image" />\n  <p class="image_caption"><%= object.comment %></p>\n</div>

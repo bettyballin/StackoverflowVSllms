@@ -1,1 +1,0 @@
-if ($_POST['submit'] == "Next") {\n    $info = array_slice($_POST['info'], 1); // Skip the first element\n    foreach($info as $key => $value) {\n        echo $value; // Process each item starting from the second\n    }\n}

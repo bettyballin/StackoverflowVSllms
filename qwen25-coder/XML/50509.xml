@@ -1,1 +1,0 @@
-<property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>\n<property name="connection.url">jdbc:sqlserver://localhost:1433;databaseName=yourDatabase</property>\n<property name="connection.username">yourUsername</property>\n<property name="connection.password">yourPassword</property>

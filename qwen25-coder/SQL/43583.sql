@@ -1,1 +1,0 @@
-CREATE TABLE YourTable (\n    ID INT PRIMARY KEY IDENTITY(1,1),\n    InsertTime smallDateTime DEFAULT GETDATE(),\n    RowVersion timeStamp,\n    -- other columns here\n);

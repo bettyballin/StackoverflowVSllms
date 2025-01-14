@@ -1,1 +1,0 @@
-app.post('/your-endpoint', (req, res) => {\n    const data = req.body.yourFieldName;\n    \n    // If there are escaped characters, ensure the request body parser is set up properly\n    console.log(`Received data: ${data}`);\n\n    res.send('Data received successfully');\n});

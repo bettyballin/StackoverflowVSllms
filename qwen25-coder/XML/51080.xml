@@ -1,1 +1,0 @@
-<pages>\n  <namespaces>\n    <!-- Other namespaces -->\n    <add namespace="YourNamespace.Helpers"/>\n  </namespaces>\n</pages>

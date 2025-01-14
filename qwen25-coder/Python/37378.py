@@ -1,1 +1,0 @@
-# Using Python and sqlite3 library for example\nids = ['1001', '1002', '1003']  # Your list of IDs\nplaceholders = ','.join('?' * len(ids))  # Create placeholders\n\nquery = f"SELECT * FROM some_table WHERE ID IN ({placeholders})"\nconnection.execute(query, ids)  # Pass the actual data separately for security

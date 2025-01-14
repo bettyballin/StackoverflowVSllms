@@ -1,1 +1,0 @@
-function a(p1, p2) {\n    // Your existing code here\n    console.log(`p1: ${p1}, p2: ${p2}`);\n}\n\nconst my1 = 'value1';\nconst my2 = 'value2';\n\nfunction createB() {\n    return function b() {\n        return a(my1, my2);\n    };\n}\n\nconst b = createB();\nb(); // Calls a with my1 and my2

@@ -1,1 +1,0 @@
-<!-- Add or change a line in web.config -->\n<compilation debug="true">\n  <assemblies>\n    <!-- Add a dummy assembly reference here or change version -->\n  </assemblies>\n</compilation>

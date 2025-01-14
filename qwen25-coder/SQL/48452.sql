@@ -1,1 +1,0 @@
-DECLARE @value DECIMAL(18,3) = 123.456;\n\n-- For positive numbers\nSELECT FLOOR(@value * 100) / 100 AS TruncatedValue;\n\n-- If you want a generic solution that handles both positive and negative numbers:\nSELECT CAST(FLOOR(ABS(@value * 100)) / 100 * SIGN(@value) AS DECIMAL(18,2)) AS TruncatedValue;

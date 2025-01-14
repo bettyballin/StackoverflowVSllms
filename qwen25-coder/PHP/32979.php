@@ -1,1 +1,0 @@
-// In application/config/routes.php\n$route['default_controller'] = 'welcome';

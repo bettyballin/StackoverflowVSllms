@@ -1,1 +1,0 @@
-# For Ruby 1.9.3+\nDir.glob(File.join(dir_path.encode('UTF-8'), '*'.encode('UTF-8'))).each do |file|\n  puts "Handling file: #{file}"\n  begin\n    File.rename(file, "D:/new/path/#{File.basename(file)}")\n  rescue => e\n    puts "Error moving file #{file}: #{e.message}"\n  end\nend

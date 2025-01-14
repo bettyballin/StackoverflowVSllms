@@ -1,1 +1,0 @@
-CREATE TABLE IF NOT EXISTS `users` (\n     `id` int(11) unsigned NOT NULL AUTO_INCREMENT,\n     `email` varchar(255) NOT NULL UNIQUE COLLATE utf8mb4_unicode_ci,\n     `password_hash` varchar(255) NOT NULL COLLATE utf8mb4_bin,\n     `status` BIT(1),\n     PRIMARY KEY (`id`)\n   ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

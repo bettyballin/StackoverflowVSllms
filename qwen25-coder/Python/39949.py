@@ -1,1 +1,0 @@
-import foo\n\nd = foo.Data  # Correctly reference the class if you want to use it as a class attribute\nd.fn(1, 2, 3)

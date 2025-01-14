@@ -1,1 +1,0 @@
-pt_register('post', 'username', 'password');\n// This would set $username and $password globally if they are present in the POST request.

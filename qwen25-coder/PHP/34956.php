@@ -1,1 +1,0 @@
-shell_exec('powershell -Command "Restart-Service Apache2.2"');

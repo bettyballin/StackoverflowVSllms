@@ -1,1 +1,0 @@
-<?php\n\nfunction strtr_custom($template, $vars) {\n    return strtr($template, array_map(function($key) { return '%'.$key.'%'; }, array_keys($vars)), array_values($vars));\n}\n\necho strtr_custom('The %site% site %adj% because it %adj%', array('site'=>'Stackoverflow', 'adj'=>'rocks'));\n\n?>

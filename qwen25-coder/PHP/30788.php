@@ -1,1 +1,0 @@
-<?php\nclass Login_model extends CI_Model {\n\n    public function authenticate($username, $password) {\n        // Your login logic here\n        return true; // or false depending on authentication result\n    }\n}

@@ -1,1 +1,0 @@
-$pattern = '/\[download\]\s+(?<percent>\d{1,3}\.\d{1,2})%\s+of\s+(?<filesize>[\d.]+[kBM]) at/';

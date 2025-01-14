@@ -1,1 +1,0 @@
-<?php\n$referer = $_SERVER['HTTP_REFERER'];\n$parsedUrl = parse_url($referer);\n\n$scheme = isset($parsedUrl['scheme']) ? $parsedUrl['scheme'] : '';\n$host = isset($parsedUrl['host']) ? $parsedUrl['host'] : '';\n\n// Combine scheme and host to get the desired result\n$schemeAndHost = $scheme && $host ? $scheme . '://' . $host : '';\n\necho $schemeAndHost;\n?>

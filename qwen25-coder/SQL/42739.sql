@@ -1,1 +1,0 @@
-WITH RankedMessages AS (\n    SELECT TOP 10 \n           message_id,\n           ROW_NUMBER() OVER (ORDER BY priority DESC) as rn\n    FROM messages\n    WHERE status = 0\n)\nUPDATE messages\nSET status = 10\nWHERE message_id IN (SELECT message_id FROM RankedMessages);

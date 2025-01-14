@@ -1,1 +1,0 @@
-def update_controls\n  @building = Building.find(params[:building_id])\n  respond_to do |format|\n    format.html # This will look for update_controls.html.erb\n    format.js   # This will look for update_controls.js.erb and can include RJS code\n  end\nend

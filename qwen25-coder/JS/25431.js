@@ -1,1 +1,0 @@
-$.post('your-server-endpoint.php', {name: 'John Doe', age: 30})\n        .done(function(response) {\n            console.log(response);\n        });

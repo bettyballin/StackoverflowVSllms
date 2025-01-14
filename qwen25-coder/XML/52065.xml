@@ -1,1 +1,0 @@
-<!-- web.config -->\n   <configuration>\n       <system.net>\n           <mailSettings configSource="smtpSettings.config"/>\n       </system.net>\n   </configuration>

@@ -1,1 +1,0 @@
-function a(p1, p2) {\n    // Your existing code here\n    console.log(`p1: ${p1}, p2: ${p2}`);\n}\n\nconst my1 = 'value1';\nconst my2 = 'value2';\n\nconst b = a.bind(null, my1, my2);\nb(); // Calls a with my1 and my2

@@ -1,1 +1,0 @@
-<?php\n// Your logic here\nif ($condition_for_no_change) {\n    // No need to change anything on the client side\n    http_response_code(204);\n} else {\n    // Send data back if there are changes\n    echo "<p>New content</p>";\n}\n?>

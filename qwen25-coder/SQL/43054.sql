@@ -1,1 +1,0 @@
-SELECT t1.*, t2.*\nFROM Table1 t1\nJOIN Table2 t2\nON t1.Sku = t2.Sku  -- ensure you have some common key to match rows, like SKU in this case\nAND DATEDIFF(SECOND, t1datetimefield, t2.datetimefield) BETWEEN 0 AND 3;

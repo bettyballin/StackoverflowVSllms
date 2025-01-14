@@ -1,1 +1,0 @@
-// File: js/lib.php\n\n<?php\nob_start("ob_gzhandler");\n\nheader('Content-type: application/javascript');\n\nif (strpos($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip') !== false) {\n    readfile('js/lib.js.gz');\n} else {\n    readfile('js/lib.js'); // Uncompressed file\n}\n?>

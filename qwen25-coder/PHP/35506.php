@@ -1,1 +1,0 @@
-'Datasources' => [\n    'default' => [\n        'className' => 'Cake\Database\Connection',\n        'driver' => 'Cake\Database\Driver\Mysql',\n        'url' => env('DATABASE_URL', 'mysql://<local-db-user>:<password>@localhost/<dev-database>'),\n        // ...other settings\n    ],\n],

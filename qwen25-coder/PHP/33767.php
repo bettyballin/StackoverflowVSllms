@@ -1,1 +1,0 @@
-'debug' => false, // Production environment must always use false.

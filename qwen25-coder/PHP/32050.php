@@ -1,1 +1,0 @@
-// Using mb_strlen for getting the length of a multibyte string\n$string = 'ä';\n$length = mb_strlen($string, 'UTF-8'); // 1\n\n// Using iconv_strlen, which is also capable but not as comprehensive\n$lengthIconv = iconv_strlen($string, 'UTF-8'); // 1

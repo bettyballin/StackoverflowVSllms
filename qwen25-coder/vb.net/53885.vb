@@ -1,1 +1,0 @@
-Module MyStaticClass\n    Public Sub MyStaticMethod()\n        ' Method body here\n    End Sub\n\n    Public Function MyStaticFunction() As String\n        Return "Return Value"\n    End Function\nEnd Module

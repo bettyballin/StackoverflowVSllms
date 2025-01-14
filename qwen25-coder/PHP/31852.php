@@ -1,1 +1,0 @@
-<?php\ndefined('BASEPATH') OR exit('No direct script access allowed');\n\n$config['template_vars'] = [\n    'default_template' => [\n        'header',\n        'content',\n        'footer'\n    ],\n    'special_template' => [\n        'banner',\n        'main_content',\n        'sidebar',\n        'footer_links'\n    ]\n];

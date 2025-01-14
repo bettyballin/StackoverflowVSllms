@@ -1,1 +1,0 @@
-WITH ranked_heights AS (\n  SELECT \n    height,\n    NTILE(10) OVER (ORDER BY height) as percentile_rank\n  FROM your_table_name\n)\nSELECT height\nFROM ranked_heights\nWHERE percentile_rank BETWEEN 3 AND 7;

@@ -1,1 +1,0 @@
-from django.db import models\n\nclass Person(models.Model):\n    name = models.CharField(max_length=100)\n    age = models.IntegerField()

@@ -1,1 +1,0 @@
-SELECT * FROM Users WITH (NOLOCK) WHERE Username = @Username AND HashedPassword = HASHBYTES('SHA2_512', @Password);

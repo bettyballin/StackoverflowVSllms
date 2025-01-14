@@ -1,1 +1,0 @@
-Begin\n    If (select count(*) from Table1) > 0 then -- Incorrect due to unnecessary parentheses\n        dbms_output.put_line('Test');\n    end if;\nend;

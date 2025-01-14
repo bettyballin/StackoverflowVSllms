@@ -1,1 +1,0 @@
-{php}\necho time();\n{/php}

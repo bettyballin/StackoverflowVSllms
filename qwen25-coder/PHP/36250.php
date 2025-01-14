@@ -1,1 +1,0 @@
-echo $this->Form->create(null, ['url' => Configure::read('Paypal.PAYPAL_URL'), 'type' => 'post', 'name' => 'form']);\nforeach ($data as $field => $value) {\n    echo $this->Form->hidden($field, ['value' => h($value)]);\n}\necho $this->Form->end();

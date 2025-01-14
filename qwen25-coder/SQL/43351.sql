@@ -1,1 +1,0 @@
-SELECT \n    p.id, \n    p.url, \n    p.created_at,\n    MAX(CASE WHEN pa.name = 'title' THEN pa.value END) AS title,\n    MAX(CASE WHEN pa.name = 'body' THEN pa.value END) AS body\nFROM \n    posts p\nJOIN \n    post_attributes pa ON p.id = pa.post_id\nWHERE \n    pa.name IN ('title', 'body')\nGROUP BY \n    p.id, p.url, p.created_at\nORDER BY \n    p.id;

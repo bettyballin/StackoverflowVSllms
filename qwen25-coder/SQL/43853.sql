@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetMessages\nAS\nBEGIN\n    DECLARE @Recipient AS NVARCHAR(128);\n    SET @Recipient = CAST(SESSION_CONTEXT(N'Recipient') AS NVARCHAR(128));\n    \n    EXEC sp_executesql N'SELECT * FROM users.MESSAGES WHERE RECIPIENT = @p_Recipient', \n        N'@p_Recipient NVARCHAR(128)', \n        @Recipient;\nEND;

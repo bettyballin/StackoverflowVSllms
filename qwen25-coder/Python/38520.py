@@ -1,1 +1,0 @@
-import subprocess\n\n     # Start your application first\n     app_process = subprocess.Popen(['python', 'your_app.py'])\n\n     # Then start your HTTP server\n     http_server_process = subprocess.Popen(['python', 'http_server.py'])

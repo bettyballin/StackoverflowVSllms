@@ -1,1 +1,0 @@
-echo '<form method="post" action="page.php">';\necho '<input type="hidden" name="token" value="' . htmlspecialchars(session_id()) . '">';\necho '<button type="submit">Submit</button>';\necho '</form>';

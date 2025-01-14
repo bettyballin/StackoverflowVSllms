@@ -1,1 +1,0 @@
-UPPER([sourceColumnName])\n  UPPER([destinationColumnName])

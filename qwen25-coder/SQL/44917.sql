@@ -1,1 +1,0 @@
-CREATE TABLE Employees (\n    EmployeeID INT PRIMARY KEY,\n    FirstName NVARCHAR(50),\n    LastName NVARCHAR(50),\n    Department NVARCHAR(50)\n);

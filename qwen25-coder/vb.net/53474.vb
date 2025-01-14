@@ -1,1 +1,0 @@
-Public Partial Class Window1\n    Inherits System.Windows.Window\n\n    Public Sub New()\n        InitializeComponent()\n\n        ' Service logic here\n    End Sub\n\n    ' Additional methods and properties\nEnd Class

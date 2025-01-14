@@ -1,1 +1,0 @@
--- Example for a full-text index creation in PostgreSQL\n   CREATE INDEX idx_fts_document ON document_table USING GIN (to_tsvector('english', document));

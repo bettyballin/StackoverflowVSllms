@@ -1,1 +1,0 @@
-<?php\n// Enable E_NOTICE along with other error types\nerror_reporting(E_ALL | E_STRICT);\nini_set('display_errors', 1);\n\n// Include your tests here or load the autoloader and run tests\n?>

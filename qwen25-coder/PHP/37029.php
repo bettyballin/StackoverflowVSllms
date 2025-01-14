@@ -1,1 +1,0 @@
-$key = "your-secure-key"; // Must be kept safe\n   $data = "sensitive data";\n\n   // Encrypt the data to a binary string\n   $encryptedData = openssl_encrypt($data, 'aes-256-cbc', $key);\n\n   // Decrypt the data back to string\n   $decryptedData = openssl_decrypt($encryptedData, 'aes-256-cbc', $key);

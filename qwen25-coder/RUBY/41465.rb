@@ -1,1 +1,0 @@
-# Assuming: module Admin; class User < ApplicationRecord; end; end\n   class Product < ApplicationRecord\n     belongs_to :user, class_name: 'Admin::User'\n     # OR using scope option\n     belongs_to :admin_user, class_name: 'User', foreign_key: 'admin_user_id'\n   end

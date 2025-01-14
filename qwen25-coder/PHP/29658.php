@@ -1,1 +1,0 @@
-$maxIterations = 1000; // Set a reasonable limit based on expected behavior\n$iterationCount = 0;\n\nwhile (/* your condition */) {\n    if ($iterationCount >= $maxIterations) {\n        throw new Exception("Infinite loop detected: Maximum iterations exceeded.");\n    }\n    \n    // Loop logic here\n    \n    $iterationCount++;\n}

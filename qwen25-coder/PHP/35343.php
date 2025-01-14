@@ -1,1 +1,0 @@
-<?php\n\n$a = "some_path1/some_path2/some_path3"; // Unix type path\n$b = "some_path1\\some_path2\\some_path3"; // MS-DOS type path\n\n$pattern = '/[\\\\\\/]/'; // Regular expression pattern to match either \ or /\n\n$fooA = preg_split($pattern, $a); // Split Unix style path\n$fooB = preg_split($pattern, $b); // Split MS-DOS style path\n\nprint_r($fooA);\nprint_r($fooB);\n\n?>

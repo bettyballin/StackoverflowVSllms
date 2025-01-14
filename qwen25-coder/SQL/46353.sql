@@ -1,1 +1,0 @@
-ALTER TABLE Orders ADD COLUMN CloseReasonID INT;\nALTER TABLE Orders ADD CONSTRAINT fk_CloseReasonID \n    FOREIGN KEY (CloseReasonID) REFERENCES OrderCloseReasons(CloseReasonID);

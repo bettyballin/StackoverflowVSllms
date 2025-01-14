@@ -1,1 +1,0 @@
-Function EscapeApostrophes(input As String) As String\n    Return input.Replace("'"c, "''"c)\nEnd Functio

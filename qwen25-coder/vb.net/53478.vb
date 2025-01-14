@@ -1,1 +1,0 @@
-For i As Integer = 0 To 19\n    Dim l As Integer = i ' or whatever relationship between i and l is needed\n    \n    ' Use i and l here\nNext

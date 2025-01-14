@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_EncryptCreditCard\nON YourTableName\nFOR INSERT\nAS\nBEGIN\n    UPDATE YourTableName\n    SET creditcard = CONVERT(varchar(max), EncryptByKey(Key_GUID('testKey'), inserted.creditcard), 1)\n    FROM YourTableName\n    INNER JOIN inserted ON YourTableName.id = inserted.id; -- Make sure to use a unique identifier here\nEND;

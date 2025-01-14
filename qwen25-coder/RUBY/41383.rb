@@ -1,1 +1,0 @@
-# Gemfile\ngem 'sprockets-rails'

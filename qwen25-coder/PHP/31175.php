@@ -1,1 +1,0 @@
-require_once 'vendor/autoload.php';\n\n$fb = new Facebook\Facebook([\n  'app_id' => '{your-app-id}',\n  'app_secret' => '{your-app-secret}',\n  'default_graph_version' => 'v14.0',\n]);

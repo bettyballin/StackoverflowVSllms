@@ -1,1 +1,0 @@
-SELECT s.sid, s.serial#, s.username, w.event, b.blocking_session\n   FROM v$session s JOIN v$session_wait w ON s.sid = w.sid\n                    JOIN v$lock b ON s.sid = b.requester\n   WHERE w.wait_class_name != 'Idle';

@@ -1,1 +1,0 @@
-// Example of using prepared statements to prevent SQL injection\n   $stmt = $pdo->prepare("SELECT * FROM users WHERE username = ?");\n   $stmt->execute(array($username));

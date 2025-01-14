@@ -1,1 +1,0 @@
-// jQuery to select the correct span within a unique structure\nvar targetSpan = $('#bodyContainer').find('#colorSwatchContent .product-color');\n\n// For selecting an element in a nested table structure with a class that uniquely identifies it\nvar targetTdInTable = $('table tr td table tr td table tr.unique-to-target td');

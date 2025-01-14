@@ -1,1 +1,0 @@
-<?php\n// includes.php\n$rows = 5; // Example value for $rows\n\n// main script\ninclude('includes.php'); // Ensure this is at the top to define $rows\n\nfunction table($rows) { // Accept $rows as a parameter\n    ot();\n    for($x=0; $x<$rows; $x++) {  \n        table_row($x);\n    }\n    ct();\n}\n\n// Call the function with $rows passed in\ntable($rows);\n?>

@@ -1,1 +1,0 @@
-SELECT MIN(LEAST(A.id, B.id)) AS min_id\nFROM tableA A\nLEFT JOIN tableB B ON a.name = b.name;

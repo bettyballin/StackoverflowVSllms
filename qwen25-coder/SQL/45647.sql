@@ -1,1 +1,0 @@
-SELECT A.colA, B.colB, C.colC\nFROM A\nINNER JOIN B ON A.id = B.id\nINNER JOIN C ON A.id = C.id;

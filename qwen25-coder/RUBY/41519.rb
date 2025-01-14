@@ -1,1 +1,0 @@
-Project.configure do |project|\n     project.source_control = :git\n     project.repository = 'https://github.com/your_username/your_project.git'\n     project.branch = 'main' # or 'master' depending on your setup\n     project.build_command = "rake build"\n     project.test_command  = "rake test"\n   end

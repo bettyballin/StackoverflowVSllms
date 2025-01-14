@@ -1,1 +1,0 @@
-SELECT *\n   FROM your_table\n   WHERE YEAR(your_datetime_column) = 2023 AND MONTH(your_datetime_column) = 10;

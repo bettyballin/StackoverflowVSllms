@@ -1,1 +1,0 @@
-import $ from 'jquery';\n   window.jQuery = $;\n   window.$ = $;\n\n   // Your custom scripts using jQuery can go here.\n   $(document).ready(function() {\n       console.log('jQuery is ready!');\n   });

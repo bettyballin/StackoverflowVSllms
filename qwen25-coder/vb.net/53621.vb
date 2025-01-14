@@ -1,1 +1,0 @@
-Dim targetHash As Byte() = TheData!Hash ' Assuming TheData is a DataRow containing the hash\n\n' Lambda expression for filtering data rows where the Hash matches targetHash\nDim filteredRows As DataRow() = dt.AsEnumerable().Where(Function(row) Enumerable.SequenceEqual(CByte()(row("Hash")), targetHash)).ToArray()

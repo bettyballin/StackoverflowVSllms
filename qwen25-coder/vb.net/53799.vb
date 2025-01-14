@@ -1,1 +1,0 @@
-' VB.NET using UTF-8 encoding explicitly for consistent results\nDim b As Char() = {Chr(149)}\nDim encoder As Encoding = Encoding.UTF8\nDim bytes As Byte() = encoder.GetBytes(b)\nConsole.WriteLine(bytes(0))

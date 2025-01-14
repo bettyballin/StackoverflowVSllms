@@ -1,1 +1,0 @@
-SELECT \n    SUM(CASE WHEN id1 = 1 THEN 1 ELSE 0 END) AS count_id1,\n    SUM(CASE WHEN id2 = 1 THEN 1 ELSE 0 END) AS count_id2,\n    SUM(CASE WHEN id3 = 1 THEN 1 ELSE 0 END) AS count_id3,\n    SUM(CASE WHEN id4 = 1 THEN 1 ELSE 0 END) AS count_id4\nFROM your_table_name;

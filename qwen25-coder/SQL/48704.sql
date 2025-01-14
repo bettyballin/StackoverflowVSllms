@@ -1,1 +1,0 @@
-SELECT \n    s.scaleID, \n    s.scaleParam1, \n    s.scaleParam2,\n    i.itemID,\n    i.itemParam1,\n    i.itemParam2\nFROM \n    scales AS s\nLEFT JOIN \n    items AS i ON s.scaleID = i.scaleID\nORDER BY \n    s.scaleID, i.itemID;

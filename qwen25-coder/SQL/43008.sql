@@ -1,1 +1,0 @@
-SELECT Left(field1, Len(field1) - 1) AS shortened_field\nFROM your_table_name;

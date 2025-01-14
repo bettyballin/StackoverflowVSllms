@@ -1,1 +1,0 @@
-SELECT * FROM sys.dm_os_performance_counters WHERE counter_name IN ('Page Life Expectancy', 'Lock Waits/sec', 'Latch Waits/sec');

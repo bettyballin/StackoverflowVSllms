@@ -1,1 +1,0 @@
-SELECT id \nFROM entries \nWHERE entries.date >= DATE_SUB(NOW(), INTERVAL 1 WEEK);

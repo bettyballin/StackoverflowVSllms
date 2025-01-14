@@ -1,1 +1,0 @@
-<?php\n   use Symfony\Component\VarDumper\VarDumper;\n  \n   VarDumper::dump($myVar);

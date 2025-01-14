@@ -1,1 +1,0 @@
-<script type="text/javascript">\n        document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');\n    </script>\n    <!--[if lte IE 8]><script src="excanvas.min.js"></script><![endif]-->

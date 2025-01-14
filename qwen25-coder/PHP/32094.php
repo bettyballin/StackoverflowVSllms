@@ -1,1 +1,0 @@
-function getTranslations($lang = 'en') {\n    $file = "lang/{$lang}.php";\n    \n    if (file_exists($file)) {\n        return include($file);\n    }\n    \n    // Default to English if the file doesn't exist\n    return include("lang/en.php");\n}\n\n$translations = getTranslations($_GET['lang'] ?? 'en');\n$smarty->assign('translations', $translations);

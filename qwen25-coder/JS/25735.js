@@ -1,1 +1,0 @@
-function generateUniqueId() {\n    const timestamp = Date.now().toString(36);\n    const randomPart = Math.random().toString(36).substr(2, 5); // Generates a string of 5 characters\n    return `id-${timestamp}-${randomPart}`; // Example output: "id-1a2b3c4d5-6f7g8"\n}\n\nconst uniqueId = generateUniqueId();\nconsole.log(uniqueId);

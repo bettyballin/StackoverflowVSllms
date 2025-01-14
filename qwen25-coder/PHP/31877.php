@@ -1,1 +1,0 @@
-$videoId = isset($_GET['id']) ? intval($_GET['id']) : null;

@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION get_custom_data(param1 INT) \n   RETURNS TABLE(id INT, name TEXT) AS $$\n   BEGIN\n       RETURN QUERY SELECT id, name FROM my_table WHERE condition = param1;\n   END; $$ LANGUAGE plpgsql;

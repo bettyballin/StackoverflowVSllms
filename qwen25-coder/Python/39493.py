@@ -1,1 +1,0 @@
-def swap_elements(lst, a, b):\n    lst[a], lst[b] = lst[b], lst[a]\n    return lst\n\n# Example usage:\nexample_list = [1, 2, 3, 4]\nswapped_list = swap_elements(example_list, 0, 2)  # Swapping elements at index 0 and 2\nprint(swapped_list)  # Output will be [3, 2, 1, 4]

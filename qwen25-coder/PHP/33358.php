@@ -1,1 +1,0 @@
-// Use Zend\Loader for autoloading instead of require_once('Zend/Loader.php')\n   require 'Zend/Loader/AutoloaderFactory.php';\n   Zend\Loader\AutoloaderFactory::factory(array(\n       'Zend\Loader\StandardAutoloader' => array(\n           'autoregister_zf' => true\n       )\n   ));

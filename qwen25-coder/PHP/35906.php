@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\n// Accessing session data (in-memory)\nif (!isset($_SESSION['counter'])) {\n    $_SESSION['counter'] = 0;\n}\n\n// Modifying session data (still in-memory)\n$_SESSION['counter']++;\n\necho "You have visited this page {$_SESSION['counter']} times during this session.\n";\n?>

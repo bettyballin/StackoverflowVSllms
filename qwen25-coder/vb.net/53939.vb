@@ -1,1 +1,0 @@
-' To use Fluent.Ribbon, install via NuGet:\n   ' Install-Package RibbonControlsWinForms\n\n   ' Example of adding a fluent ribbon to your form in VB.NET\n   Dim ribbon As New Fluent.RibbonControl()\n   Me.Controls.Add(ribbon)

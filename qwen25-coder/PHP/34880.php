@@ -1,1 +1,0 @@
-set_time_limit(30); // Limit script execution time to 30 seconds\n$response = file_get_contents('http://example.com/slow_response');

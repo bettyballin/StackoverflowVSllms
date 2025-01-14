@@ -1,1 +1,0 @@
-// Example of TDD in action\npublic function testCalculateDiscount() {\n    $expected = 18; // Expecting a 20% discount on an item priced at $22.50\n    $actual = $this->AppController->calculateDiscount(22.50, 20);\n    $this->assertEquals($expected, $actual);\n}

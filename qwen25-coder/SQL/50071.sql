@@ -1,1 +1,0 @@
-CREATE PROCEDURE TransferDataFromAToB\nAS\nBEGIN\n    -- Insert data from Table A to Table B\n    INSERT INTO TableB (Column1, Column2, Column3)\n    SELECT Column1, Column2, Column3\n    FROM TableA\n    WHERE SomeCondition = 'SomeValue';  -- Optional: Add conditions as needed\nEND;

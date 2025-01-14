@@ -1,1 +1,0 @@
-use Zend\Http\PhpEnvironment\Request;\n\n$request = new Request();\n$uri = $request->getUriString();\n\necho $uri;

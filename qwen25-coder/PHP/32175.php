@@ -1,1 +1,0 @@
-// Set the cache limiter to private and set the expire time to 15 minutes\nsession_cache_limiter('private');\n$cache_limit = 15;\nsession_cache_expire($cache_limit);\nsession_start();\n\necho "The session cache limiter is set to: " . session_cache_limiter();\necho "<br />";\necho "The session expires in " . session_cache_expire() . " minutes.";

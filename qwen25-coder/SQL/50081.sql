@@ -1,1 +1,0 @@
-DECLARE @MyTable TABLE (\n    -- Define columns here\n);\n\nINSERT INTO @MyTable\nSELECT * FROM SomeComplexQuery;\n\n-- Now use @MyTable in your query logic\nSELECT * \nFROM @MyTable mt1\nJOIN @MyTable mt2 ON mt1.id = mt2.id\nWHERE YourCondition;

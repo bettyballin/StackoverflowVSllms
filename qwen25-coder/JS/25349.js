@@ -1,1 +1,0 @@
-const cssCompatibilities = {\n  'border-spacing': {\n    'IE6': false,\n    'IE7': false,\n    'IE8': true,\n    'Firefox3': true\n  }\n};\n\nconsole.log(cssCompatibilities['border-spacing']);

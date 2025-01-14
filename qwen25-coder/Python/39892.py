@@ -1,1 +1,0 @@
-from scipy.special import hyp3f2\n\na, b = 1.5, 2.5  # Example values for a and b\nc, d = 4.0, 5.0  # Example values for c and d, ensuring c+d > a+b+1\n\n# Evaluate the hypergeometric function using scipy's implementation\nresult = hyp3f2([a, b, 1], [c, d], 1)\nprint("Result of {}_3F_2({}, {}, 1; {}, {}; 1):".format(3, a, b, c, d), result)

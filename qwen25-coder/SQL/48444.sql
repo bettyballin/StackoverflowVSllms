@@ -1,1 +1,0 @@
--- Enable full-text catalog if it doesn't exist\nIF NOT EXISTS(SELECT * FROM sys.fulltext_catalogs WHERE name = 'FTSCatalog')\n    CREATE FULLTEXT CATALOG FTSCatalog;\n\n-- Create a full-text index\nCREATE FULLTEXT INDEX ON customer (fname, email)\nKEY INDEX PK_customer -- Ensure you have a unique key on the table\nON FTSCatalog;

@@ -1,1 +1,0 @@
--- Assigning and using the variable in one query\nSELECT @user_variable := COUNT(*)\nFROM your_table_name;\n\n-- Using the previously assigned variable\nSELECT * FROM another_table WHERE id = @user_variable;

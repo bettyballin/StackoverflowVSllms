@@ -1,1 +1,0 @@
-<?php\n// Unsetting multiple variables at once\nunset($var1, $var2, $var3);\n\n// Example with an array and a database object\n$largeArray = range(1, 1000);\n$dbObject = new stdClass();\n\nunset($largeArray, $dbObject, $someStringVariable);\n?>

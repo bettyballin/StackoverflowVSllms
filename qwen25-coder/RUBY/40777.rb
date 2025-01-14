@@ -1,1 +1,0 @@
-get 'hide_div' => 'your_controller#hide_div'

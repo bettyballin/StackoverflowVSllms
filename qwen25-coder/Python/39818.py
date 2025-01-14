@@ -1,1 +1,0 @@
-umbers = list(range(0, 145, 6))\nprint(numbers)

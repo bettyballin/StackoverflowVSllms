@@ -1,1 +1,0 @@
-'Declaration followed by Instantiation\nDim commandObject As SqlCommand \ncommandObject = New SqlCommand("MadeUpCommand")\n\n'Combined Declaration and Instantiation\nDim commandObject As SqlCommand = New SqlCommand("MadeUpCommand")\n\n'Using As New syntax\nDim commandObject As New SqlCommand("MadeUpCommand")

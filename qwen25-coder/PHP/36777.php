@@ -1,1 +1,0 @@
-$a = '{ "tag": "<b></b>" }'; // Original JSON string\n$b = json_decode($a);       // Decoding JSON string into PHP object\n$c = json_encode($b);       // Encoding PHP object back to JSON string\n\necho $c;                    // Outputs: {"tag":"<b><\/b>"}

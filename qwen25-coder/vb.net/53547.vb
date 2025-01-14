@@ -1,1 +1,0 @@
-Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load\n    Me.CrystalReportViewer1.ReportSource = New CrystalReport11()\nEnd Sub

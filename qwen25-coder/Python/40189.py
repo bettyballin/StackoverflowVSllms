@@ -1,1 +1,0 @@
-import os\n\n# Path to the directory you want to inspect\npath = '/your/directory/path'\n\n# List all entries in the given directory\nentries = os.listdir(path)\n\n# Filter out directories\ndirectories = [entry for entry in entries if os.path.isdir(os.path.join(path, entry))]\n\n# Now directories contain only directory names from the path\nprint(directories)

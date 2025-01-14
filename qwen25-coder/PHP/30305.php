@@ -1,1 +1,0 @@
-<?php\n$userId = getUserIdFromDatabase();\nif ($userId) {\n    include "profile.php";\n}\n?>

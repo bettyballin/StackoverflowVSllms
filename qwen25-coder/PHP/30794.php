@@ -1,1 +1,0 @@
-class ArrayUtils {\n    public static function sort(array $array) {\n        // Sorting logic here\n    }\n\n    public static function merge(array $array1, array $array2) {\n        // Merge logic here\n    }\n}

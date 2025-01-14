@@ -1,1 +1,0 @@
-<?php\n$MYROOT = $_SERVER['DOCUMENT_ROOT'];\n$page = isset($_GET['page']) ? $_GET['page'] : 'races';\nrequire_once("$MYROOT/$page.php");\n?>

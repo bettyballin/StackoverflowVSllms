@@ -1,1 +1,0 @@
-$posts = array(\n    "message" => 'this is a test message'\n);\n\necho $posts['message'];

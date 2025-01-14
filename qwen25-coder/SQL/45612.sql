@@ -1,1 +1,0 @@
-SELECT \n       MethodName, \n       AVG(TimeInMs) AS AverageTimeInMs\n   FROM YourTable\n   WHERE DateTime >= DATEADD(minute, -60, GETDATE())\n   GROUP BY MethodName;

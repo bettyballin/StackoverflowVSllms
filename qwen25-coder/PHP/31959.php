@@ -1,1 +1,0 @@
-$idnum = 123; // This would be your dynamic ID from the database row\n\n// Using variable variables to create a variable with a name based on $idnum\n${"object_".$idnum} = new stdClass();\n\n// Accessing the dynamically named object\necho ${"object_".$idnum}; // Outputs: Object of class stdClass

@@ -1,1 +1,0 @@
-# Example in R\ndata <- data.frame(x = rnorm(100), y = runif(100))\nsummary(data)

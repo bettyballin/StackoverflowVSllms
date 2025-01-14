@@ -1,1 +1,0 @@
-$myObjectLikeArray = (object) [\n    'foo' => 'bla',\n    'bar' => 2,\n];\n\n// Accessing properties\necho $myObjectLikeArray->foo;

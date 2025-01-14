@@ -1,1 +1,0 @@
-<dependency>\n       <groupId>org.hibernate</groupId>\n       <artifactId>hibernate-tools</artifactId>\n       <version>5.6.8.Final</version>\n   </dependency>

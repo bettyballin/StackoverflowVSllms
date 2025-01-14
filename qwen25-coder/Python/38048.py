@@ -1,1 +1,0 @@
-# Original list of dictionaries\npeople = [{'id': 1, 'name': 'paul'}, {'id': 2, 'name': 'john'}]\n\n# Remove dictionary with id of 2\nfiltered_people = [person for person in people if person['id'] != 2]\n\n# Alternatively, remove dictionary with name 'john'\n# filtered_people = [person for person in people if person['name'] != 'john']\n\nprint(filtered_people)

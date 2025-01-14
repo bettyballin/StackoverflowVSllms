@@ -1,1 +1,0 @@
-<Resource name="jdbc/MyDB" auth="Container"\n          type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver"\n          url="jdbc:oracle:thin:@oracledb:1521:dbname" username="db_user" password="db_pass"/>

@@ -1,1 +1,0 @@
-SELECT * \nWHERE { ?s ?p ?o; :creationDate ?date }\nORDER BY DESC(?date)\nLIMIT 200

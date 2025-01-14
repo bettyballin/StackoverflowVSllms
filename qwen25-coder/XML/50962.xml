@@ -1,1 +1,0 @@
-<mbean code="org.jboss.tm.mbeans.TransactionManagerService"\n          name="jboss:service=TransactionManager">\n      <!-- Transaction timeout in seconds -->\n      <attribute name="TransactionTimeout">1800</attribute> <!-- 30 minutes -->\n   </mbean>

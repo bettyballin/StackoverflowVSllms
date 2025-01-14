@@ -1,1 +1,0 @@
-// Select the element\nvar element = document.getElementById('yourElementId');\n\n// Add or update an attribute\nelement.setAttribute('newAttribute', 'newValue');

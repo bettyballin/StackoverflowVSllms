@@ -1,1 +1,0 @@
-$form = getForm(); // Get your Zend_Form object with elements.\n$submitElement = $form->getElement('mySubmit');\n$submitElement->setLabel('new value'); // Change the label to 'new value'.\necho $form->render(); // This should now display 'new value' on the submit button.

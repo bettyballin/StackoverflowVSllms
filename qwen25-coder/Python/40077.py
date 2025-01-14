@@ -1,1 +1,0 @@
-from x12 import X12Parser\n\n# Load an X12 file\nwith open('yourfile.x12', 'r') as f:\n    data = f.read()\n\n# Parse the EDI file\nparsed_data = X12Parser().parse(data)\n\n# Accessing parsed data\nfor transaction in parsed_data['transactions']:\n    print(f"Transaction set ID: {transaction.transaction_set_id}")\n    for segment in transaction.segments:\n        print(segment)

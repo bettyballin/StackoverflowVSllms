@@ -1,1 +1,0 @@
-class Player extends AppModel {\n       public $hasAndBelongsTo = [\n           'Game' => [\n               'className' => 'Game',\n               'joinTable' => 'game_players',\n               'foreignKey' => 'player_id',\n               'associationForeignKey' => 'game_id'\n           ]\n       ];\n   }

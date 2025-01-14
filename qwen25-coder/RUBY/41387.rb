@@ -1,1 +1,0 @@
-def index\n     # Assuming you have a has_many :associated_models relation\n     @records = ParentModel.includes(:associated_models).all\n     render json: @records.as_json(include: { associated_model: { only: [:name] } })\n   end

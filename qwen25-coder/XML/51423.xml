@@ -1,1 +1,0 @@
-<?xml version="1.0"?>\n<?xml-stylesheet type="text/xsl" href="transform.xsl"?>\n<html xmlns="http://www.w3.org/1999/xhtml">\n    <head>\n        <title>Example Page</title>\n    </head>\n    <body>\n        <p>Original content here.</p>\n    </body>\n</html>

@@ -1,1 +1,0 @@
-// In your main HTML page\n   window.addEventListener('message', function(event) {\n       if (event.origin !== 'http://www.artlibrary.net') return; // Security check\n       document.getElementById('objid1').SVGsetDimension(event.data.width, event.data.height);\n   });\n\n   // In your SVG script\n   top.postMessage({width: 10, height: 10}, '*');

@@ -1,1 +1,0 @@
-CREATE TABLE ColorTypes (\n        ColorID INT PRIMARY KEY,\n        ColorName CHAR(50) UNIQUE NOT NULL\n    );\n\n    INSERT INTO ColorTypes (ColorID, ColorName)\n    VALUES (1, 'Black'), (2, 'White'), (3, 'Red'), (4, 'Blue');

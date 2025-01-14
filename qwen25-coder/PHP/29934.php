@@ -1,1 +1,0 @@
-if (!isset($_POST['myParam'])) {\n    // 'myParam' is not set in the POST request\n}

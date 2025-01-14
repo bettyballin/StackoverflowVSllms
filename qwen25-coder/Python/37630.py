@@ -1,1 +1,0 @@
-from django.db import models\n\nclass Profile(models.Model):\n    user_id = models.OneToOneField(User, on_delete=models.CASCADE)\n    image_path = models.CharField(max_length=255)\n\nclass Comment(models.Model):\n    user_id = models.ForeignKey(User, on_delete=models.CASCADE)\n    comment = models.TextField()

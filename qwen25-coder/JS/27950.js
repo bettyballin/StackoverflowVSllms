@@ -1,1 +1,0 @@
-// Create a div, add a class, set its text, and append it to the body\n$('<div></div>').addClass('my-class').text('Hello, World!').appendTo('body');

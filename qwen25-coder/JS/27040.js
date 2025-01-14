@@ -1,1 +1,0 @@
-document.addEventListener('input', function() {\n    var phoneNumberContainer = document.getElementById('phone-number-container');\n    var phoneNumberSpan = document.getElementById('phone-number');\n\n    // Scroll to the rightmost position each time new text is added\n    phoneNumberContainer.scrollLeft = phoneNumberSpan.offsetWidth;\n});

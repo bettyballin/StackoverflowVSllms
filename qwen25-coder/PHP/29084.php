@@ -1,1 +1,0 @@
-<?php\necho 'Current session save path: ' . session_save_path();\n?>

@@ -1,1 +1,0 @@
-SELECT t1.PersonCode, t1.Name, t2.Location, t2.ServiceDate\nFROM Table1 t1\nJOIN (\n    SELECT Table1ID, Location, MAX(ServiceDate) AS ServiceDate\n    FROM Table2\n    GROUP BY Table1ID, Location\n) t2_recent ON t1.ID = t2_recent.Table1ID AND t2.ServiceDate = t2_recent.ServiceDate\nWHERE t1.PersonCode = 'XYZ';

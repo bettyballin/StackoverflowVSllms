@@ -1,1 +1,0 @@
-SELECT TOP 50 username\nFROM table\nORDER BY userid DESC;

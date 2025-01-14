@@ -1,1 +1,0 @@
-$mail->SMTPDebug = 2; // Enable verbose debug output

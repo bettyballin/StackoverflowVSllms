@@ -1,1 +1,0 @@
-class Obj {\n    function populate($array) {\n        foreach ($array as $key => $value) {\n            $this->$key = $value;\n        }\n    }\n}\n\n// Example usage:\n$a = array('property1' => 1, 'property2' => 2);\n$o = new Obj();\n$o->populate($a);\n\necho $o->property1; // Outputs: 1\necho $o->property2; // Outputs: 2

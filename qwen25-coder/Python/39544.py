@@ -1,1 +1,0 @@
-import json\n\n     with open('/path/to/myfile.txt', 'r') as f:\n         config = json.load(f)\n     # Now you can access config['db_username'] etc.

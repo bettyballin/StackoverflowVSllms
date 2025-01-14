@@ -1,1 +1,0 @@
-SELECT \n    pd.Offset,\n    pd.Detail\nFROM \n    Pattern p\nJOIN \n    PatternDetail pd ON p.ID = pd.PID\nWHERE \n    pd.Offset = (MOD(TRUNC(SYSDATE) - p.BaseDate, p.DayCount))

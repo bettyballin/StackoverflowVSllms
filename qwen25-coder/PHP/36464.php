@@ -1,1 +1,0 @@
-// In application/bootstrap.php or index.php\n   error_reporting(E_ALL & ~E_NOTICE);\n   ini_set('display_errors', 0); // Disable outputting errors, good for productio

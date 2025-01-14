@@ -1,1 +1,0 @@
-$rawFeed = preg_replace_callback(\n    '/<description>(.*?)<\/description>/is',\n    function ($matches) {\n        return '<description>' . htmlentities($matches[1]) . '</description>';\n    },\n    $rawFeed\n);

@@ -1,1 +1,0 @@
-Dim oEncData As New Capicom.EncryptedData\noEncData.Algorithm.Name = CAPICOM_ENCRYPTION_ALGORITHM_3DES

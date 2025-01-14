@@ -1,1 +1,0 @@
-// Example of secure coding practice: Sanitize inputs\nfunction safeFunction(input) {\n    if (typeof input !== 'string') return;\n    const sanitizedInput = input.replace(/[^a-zA-Z0-9]/g, '');\n    // Proceed with processing the sanitized input\n}

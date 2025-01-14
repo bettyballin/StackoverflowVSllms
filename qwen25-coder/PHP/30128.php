@@ -1,1 +1,0 @@
-if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone') !== false) {\n    // Remove AJAX functionality or serve alternative content\n}

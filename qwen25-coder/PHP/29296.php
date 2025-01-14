@@ -1,1 +1,0 @@
-// In User Model\npublic $hasAndBelongsToMany = array(\n    'Site' =>\n        array(\n            'className' => 'Site',\n            'joinTable' => 'site_users', // CakePHP convention, adjust if needed\n            'foreignKey' => 'user_id',\n            'associationForeignKey' => 'site_id'\n        )\n);

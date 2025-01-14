@@ -1,1 +1,0 @@
-import tkinter as tk\n\ndef main():\n    root = tk.Tk()\n    root.title("My First Tkinter App")\n    label = tk.Label(root, text="Hello, World!")\n    label.pack()\n    button = tk.Button(root, text="Click Me!", command=lambda: print("Button clicked!"))\n    button.pack()\n    root.mainloop()\n\nif __name__ == "__main__":\n    main()

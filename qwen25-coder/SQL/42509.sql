@@ -1,1 +1,0 @@
-USE master;\nGO\n\n-- Restore the snapshot to a new database RM_DB_NEW\nRESTORE DATABASE [RM_DB_NEW]\nFROM DATABASE_SNAPSHOT = N'RM_DB_SnapshotName'\nWITH NORECOVERY; -- Remove if no additional operations are needed\n\n-- Optional: If you need to bring the database online immediately use RECOVERY\nALTER DATABASE [RM_DB_NEW] SET RECOVERY FULL;

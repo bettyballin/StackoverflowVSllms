@@ -1,1 +1,0 @@
-$route['(:any)/(:any)/page/(\d+)'] = '$1/$2/index';

@@ -1,1 +1,0 @@
-Public Class JCPropertyDB\n    ' Assumption that GetPropertyFromDataSource returns a populated JCPropertyDto\n    Public Shared Function GetProperty(propertyId As Integer) As JCPropertyDto\n        Dim propertyDto As New JCPropertyDto()\n        \n        ' Fetch data from database and populate DTO\n        ' ...\n\n        Return propertyDto\n    End Function\nEnd Class

@@ -1,1 +1,0 @@
-SELECT \n       c.*,\n       COALESCE(SUM(v.vote), 0) AS vote_tally,\n       IF(MAX(CASE WHEN v.user_id = ? THEN 1 ELSE 0 END), 1, 0) AS user_voted\n   FROM \n       comments c\n   LEFT JOIN \n       votes v ON c.id = v.comment_id\n   WHERE \n       c.object_id = ?\n   GROUP BY \n       c.id;

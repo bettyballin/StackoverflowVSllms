@@ -1,1 +1,0 @@
-SELECT \n    np.Description,\n    MAX(CASE WHEN p.promotionalCode = 'A' THEN p.Price END) AS A,\n    MAX(CASE WHEN p.promotionalCode = 'B' THEN p.Price END) AS B,\n    MAX(CASE WHEN p.promotionalCode = 'C' THEN p.Price END) AS C\nFROM \n    Price AS p \nINNER JOIN \n    nProduct AS np ON p.nProduct = np.Id\nGROUP BY \n    np.Description;

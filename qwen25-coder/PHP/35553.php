@@ -1,1 +1,0 @@
-$propName = 'user_id';\necho $this->_session->{$propName}; // user_id is stored in a variable and used dynamically

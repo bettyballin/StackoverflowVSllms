@@ -1,1 +1,0 @@
-const phoneElement = document.getElementById('phone');\nconst phoneMask = IMask(phoneElement, {\n  mask: '(000) 000-0000 Ext. 000000',\n  lazy: false,\n});

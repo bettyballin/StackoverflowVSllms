@@ -1,1 +1,0 @@
-import sqlparse\n\n   # Example SQL query\n   sql = "SELECT id, name FROM users WHERE age > 20 ORDER BY name;"\n\n   # Parse and format the SQL query\n   formatted_sql = sqlparse.format(sql, reindent=True, keyword_case='upper')\n\n   print(formatted_sql)

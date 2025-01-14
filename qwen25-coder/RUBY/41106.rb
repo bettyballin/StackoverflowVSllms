@@ -1,1 +1,0 @@
-require 'file-tail'\n\nmodule Autotest::Custom\n  def self.hook_before_run(files_to_test)\n    sleep(2) # wait for 2 seconds after a change before running tests\n  end\nend\n\nAutotest.add_hook :before_run, Autotest::Custom.method(:hook_before_run)

@@ -1,1 +1,0 @@
-// Example function to update code block while maintaining formatting\nfunction updateCodeBlock(newContent) {\n    var codeBlocks = document.getElementsByTagName('pre');\n    for (var i = 0; i < codeBlocks.length; i++) {\n        // Ensure that new lines and spaces are preserved\n        codeBlocks[i].textContent = newContent.replace(/\n/g, '\r\n');\n    }\n}

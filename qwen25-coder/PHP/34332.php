@@ -1,1 +1,0 @@
-// Check if the WYSIWYG module is active\nif (module_exists('wysiwyg')) {\n  // Configure CKEditor as the default editor for Filtered HTML\n  variable_set('wysiwyg_user_' . $format->fid, array(\n    'editor' => 'ckeditor',\n    'user_choose' => TRUE,\n  ));\n}

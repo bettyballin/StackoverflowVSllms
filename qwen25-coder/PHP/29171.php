@@ -1,1 +1,0 @@
-<?php\n$allowedReferrers = array("http://example.com", "https://another-example.com");\n\n// Get the referrer URL\n$referrer = (!empty($_SERVER['HTTP_REFERER'])) ? $_SERVER['HTTP_REFERER'] : '';\n\nif (in_array($referrer, $allowedReferrers)) {\n    echo "Access granted.";\n} else {\n    echo "Access denied. You are not coming from an allowed referrer.";\n}\n?>

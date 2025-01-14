@@ -1,1 +1,0 @@
-SELECT t2.*\nFROM Table2 AS t2\nINNER JOIN (\n    SELECT A1, B1, C1 \n    FROM Table1 \n    WHERE RowID = 'your_selected_row_id'\n) AS t1 ON 1=1\nWHERE (t1.A1 = False OR t2.A2 = True)\nAND (t1.B1 = False OR t2.B2 = True)\nAND (t1.C1 = False OR t2.C2 = True);

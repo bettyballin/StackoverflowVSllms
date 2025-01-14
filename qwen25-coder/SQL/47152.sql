@@ -1,1 +1,0 @@
-CREATE TABLE schedule (\n    event_date TIMESTAMP,\n    CONSTRAINT check_event_time CHECK (EXTRACT(HOUR FROM event_date) >= 9 AND EXTRACT(HOUR FROM event_date) < 17)\n);

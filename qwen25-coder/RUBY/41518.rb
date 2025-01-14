@@ -1,1 +1,0 @@
-require 'rouge'\nrequire 'rouge/plugins/redcarpet'\n\n# Example usage with a string containing code\ncode = %q(\ndef hello_world\n  puts "Hello, world!"\nend\n)\n\n# Use Rouge to highlight the code\nformatter = Rouge::Formatters::HTML.new\nlexer     = Rouge::Lexers:: guess(code)\nhtml_output = formatter.format(lexer.lex(code))\n\nputs html_output

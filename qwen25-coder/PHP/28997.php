@@ -1,1 +1,0 @@
-if (!$this->cismarty->getTemplateVars('test')) {\n    // This condition will also be true for empty strings or zero, which might not be what you want.\n    $this->cismarty->assign('test', 'Default value');\n}

@@ -1,1 +1,0 @@
-CREATE TABLE Table_parent (\n    pk_parent_surrogate INT PRIMARY KEY,\n    parent_natural_unique_key UNIQUE NOT NULL\n);\n\nCREATE TABLE Table_child (\n    pk_child_surrogate INT PRIMARY KEY,\n    child_foreign_key_column INT,\n    FOREIGN KEY (child_foreign_key_column) REFERENCES Table_parent(parent_natural_unique_key)\n);

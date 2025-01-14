@@ -1,1 +1,0 @@
-<?php\n// Set session cookie parameters\n$lifetime = 0; // Session cookie to last until browser closes\n$path = '/';\n$domain = '';\n$secure = true; // Use HTTPS if available\n$httpOnly = true; // Prevents client-side script access\n\nsession_set_cookie_params($lifetime, $path, $domain, $secure, $httpOnly);\nsession_start();\n?>

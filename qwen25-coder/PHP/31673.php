@@ -1,1 +1,0 @@
-<?php\n   exec("mysqldump --user=username --password='password' database_name > backup.sql", $output, $return_var);\n   if ($return_var == 0) {\n       echo "Backup successful";\n   } else {\n       echo "Error: Backup failed";\n   }\n   ?>

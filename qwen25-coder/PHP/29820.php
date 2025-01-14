@@ -1,1 +1,0 @@
-<?php\n// session_manager.php - This file starts a session.\nif (session_status() == PHP_SESSION_NONE) {\n    session_start();\n}\n?>

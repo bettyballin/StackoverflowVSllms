@@ -1,1 +1,0 @@
-$env = 'development'; // This could be dynamically set, e.g., from an environment variable\n   $$env . '_setting' = load_config($env);

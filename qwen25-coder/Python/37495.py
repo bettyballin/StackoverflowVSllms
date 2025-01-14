@@ -1,1 +1,0 @@
-# myapp/context_processors.py\n\ndef add_user_to_context(request):\n    # This is a placeholder for the actual logic to get the user.\n    # Replace it with how you are handling authentication and setting cookies.\n    user = request.COOKIES.get('user_cookie', 'Guest')\n    return {'user': user}

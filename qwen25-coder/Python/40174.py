@@ -1,1 +1,0 @@
-import socket\n\ndef get_ipv4_addresses():\n    hostname = socket.gethostname()\n    ip_info = socket.getaddrinfo(hostname, None)\n    ipv4_addresses = [ip[4][0] for ip in ip_info if ip[0] == socket.AF_INET]\n    return ipv4_addresses\n\nipv4s = get_ipv4_addresses()\nprint(ipv4s)

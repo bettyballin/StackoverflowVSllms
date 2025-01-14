@@ -1,1 +1,0 @@
-my_list = ["apple", "banana", "apple", "orange", "banana"]\nunique_sorted_list = sorted(set(my_list))\nprint(unique_sorted_list)

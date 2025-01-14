@@ -1,1 +1,0 @@
-function calculateArea(width, height) {\n    var area = width * height;\n    return area;\n}

@@ -1,1 +1,0 @@
-CREATE UNIQUE CLUSTERED INDEX IDX_PostHelpfulnessStatistics\nON dbo.VW_PostHelpfulnessStatistics (PostId);

@@ -1,1 +1,0 @@
-class SomeController < ApplicationController\n     before_action :authenticate_user!\n   \n     # your controller code\n   end

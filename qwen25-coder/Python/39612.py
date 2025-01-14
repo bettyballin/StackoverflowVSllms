@@ -1,1 +1,0 @@
-# Example of a function in Python\ndef add(a, b):\n    return a + b\n\nresult = add(3, 5)  # This will return 8

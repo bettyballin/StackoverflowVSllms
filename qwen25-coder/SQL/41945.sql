@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nSAMPLE (0.1);

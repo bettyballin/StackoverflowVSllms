@@ -1,1 +1,0 @@
-const express = require('express');\nconst cors = require('cors');\nconst app = express();\n\napp.use(cors({\n    origin: 'https://apps.facebook.com/yourappnamespace',\n    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204\n}));\n\n// your routes and other middleware\n\napp.listen(3000);

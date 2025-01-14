@@ -1,1 +1,0 @@
-$cart = array();\n$cart[] = 13;    // Adds integer 13\n$cart[] = "foo"; // Adds string "foo"

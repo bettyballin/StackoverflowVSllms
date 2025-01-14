@@ -1,1 +1,0 @@
-require 'Parsedown.php';\n\n$parsedown = new Parsedown();\n$safeMarkdownHtml = $parsedown->text($userInput);

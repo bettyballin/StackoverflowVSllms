@@ -1,1 +1,0 @@
-SELECT \n       t.Id, \n       t.description, \n       1 AS quantity\n   FROM \n       YourTableName t\n   INNER JOIN \n       dbo.Numbers n ON n.n <= t.quantity;

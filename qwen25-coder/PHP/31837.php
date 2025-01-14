@@ -1,1 +1,0 @@
-$input = "I'm a foo   bar newcomer to regular expressions.";\n$output = preg_replace('/foo\s+bar/', 'fubar', $input);\necho $output;

@@ -1,1 +1,0 @@
-<Target Name="RunWebTests" AfterTargets="Deploy">\n    <Exec Command="&quot;$(VSTestConsolePath)&quot; &quot;$(SolutionDir)YourLoadTestProject\bin\Debug\YourLoadTest.loadtest&quot;" />\n</Target>

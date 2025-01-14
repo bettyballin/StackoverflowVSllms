@@ -1,1 +1,0 @@
-SELECT * FROM dba_tab_privs WHERE grantee = 'YOUR_USER' AND owner = 'SCHEMA_NAME';

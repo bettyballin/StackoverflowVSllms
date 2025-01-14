@@ -1,1 +1,0 @@
-$messageNumber = "00023460";\n$trimmedMessageNumber = ltrim($messageNumber, "0");\necho $trimmedMessageNumber; // Outputs: 23460

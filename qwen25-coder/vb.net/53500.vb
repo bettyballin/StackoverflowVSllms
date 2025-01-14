@@ -1,1 +1,0 @@
-Public Class Example\n    Private bar As String = "Initial Value"\n\n    ' Readonly Property\n    Public ReadOnly Property Foo As String\n        Get\n            Return bar\n        End Get\n    End Property\n\n    ' Function equivalent\n    Public Function GetFoo() As String\n        Return bar\n    End Function\nEnd Class

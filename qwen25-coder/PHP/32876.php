@@ -1,1 +1,0 @@
-// For Magento 1.x, in your custom module or observer, modify the cart item rendering:\npublic function customizeDiscountDisplay(Varien_Event_Observer $observer)\n{\n    $quote = Mage::getSingleton('checkout/cart')->getQuote();\n    if ($quote->getCouponCode()) {\n        // Your logic to ensure coupon code is displayed\n    }\n}

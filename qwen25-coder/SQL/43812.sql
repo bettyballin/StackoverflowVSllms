@@ -1,1 +1,0 @@
-WHERE (grp1 = 0 AND grp2 = 0 AND grp3 = 0 AND ... AND grpn = 0)\n   OR (grp1 <> 0 AND grp2 = 0 AND grp3 = 0 AND ... AND grpn = 0)\n   OR (grp1 <> 0 AND grp2 <> 0 AND grp3 = 0 AND ... AND grpn = 0)\n   OR ...\n   OR (grp1 <> 0 AND grp2 <> 0 AND grp3 <> 0 AND ... AND grpn <> 0)

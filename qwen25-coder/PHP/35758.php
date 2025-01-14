@@ -1,1 +1,0 @@
-$firstTodoItemContent = $yourObject->{'todo-items'}->{'todo-item'}->content;

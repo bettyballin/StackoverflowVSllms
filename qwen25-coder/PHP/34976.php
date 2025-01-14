@@ -1,1 +1,0 @@
-// Instantiated Usage\n     $db1 = new Database($config1);\n     $db2 = new Database($config2);

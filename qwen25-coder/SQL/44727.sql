@@ -1,1 +1,0 @@
-INSERT INTO target_table (column1, column2, column3)\nSELECT column1, column2, column3\nFROM initial_Table;

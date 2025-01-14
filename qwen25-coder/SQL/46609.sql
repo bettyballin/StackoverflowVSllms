@@ -1,1 +1,0 @@
-SELECT COUNT(DISTINCT usename) AS "Active Users" \nFROM pg_stat_activity;

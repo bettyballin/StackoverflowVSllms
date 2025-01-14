@@ -1,1 +1,0 @@
-EXEC sp_defaultlanguage @loginame = N'YourLoginName', @language = N'British';

@@ -1,1 +1,0 @@
-def caller(func, *args, **kwargs):\n    return func(*args, **kwargs)\n\n# Example usage:\ndef example_function(x, y, z=0):\n    return x + y + z\n\nresult = caller(example_function, 1, 2, z=3)\nprint(result)  # Output: 6

@@ -1,1 +1,0 @@
-SELECT \n    e.entry_id,\n    COUNT(t.token) AS match_count,\n    e.date\nFROM \n    entries e\nJOIN \n    tokens t ON e.entry_id = t.entry_id\nWHERE \n    t.token IN ('see', 'spot', 'run') -- Replace with user's search terms\nGROUP BY \n    e.entry_id, e.date\nORDER BY \n    match_count DESC,\n    e.date ASC;

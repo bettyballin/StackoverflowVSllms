@@ -1,1 +1,0 @@
-DECLARE @dayName NVARCHAR(20)\nSET @dayName = 'Tuesday'\n\nSELECT \n    CASE @dayName\n        WHEN 'Sunday' THEN 1\n        WHEN 'Monday' THEN 2\n        WHEN 'Tuesday' THEN 3\n        WHEN 'Wednesday' THEN 4\n        WHEN 'Thursday' THEN 5\n        WHEN 'Friday' THEN 6\n        WHEN 'Saturday' THEN 7\n    END AS DayOfWeekNumber

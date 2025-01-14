@@ -1,1 +1,0 @@
-import random\n\nb = [object(), object()]\n\n# Shuffle the list in place\nrandom.shuffle(b)\n\n# Print the shuffled list\nprint(b)

@@ -1,1 +1,0 @@
-SELECT CAST(getdate() AS DATE) -- Use this if you're on SQL Server 2008 or later\n-- or\nSELECT CONVERT(DATE, getdate()) -- Use this if you're on SQL Server 2008 or later

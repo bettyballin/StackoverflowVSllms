@@ -1,1 +1,0 @@
-// Retrieve all users\n$users = User::all();\n\n// Find a user by ID\n$user = User::find(1);\n\n// Create a new user (assuming mass-assignment is enabled)\n$user = User::create(['name' => 'John Doe', 'email' => 'john@example.com']);

@@ -1,1 +1,0 @@
-$color = 'red';\n$red = 'yes, im red';\necho $$color; // Outputs: 'yes, im red'

@@ -1,1 +1,0 @@
-session_start();\nif (!isset($_SESSION['user_data'])) {\n    // Assume we fetched the user data during login or somewhere else\n    $_SESSION['user_data'] = fetchUserDataFromDatabase($userId);\n}\n\n// Use the data directly from session\n$userData = $_SESSION['user_data'];

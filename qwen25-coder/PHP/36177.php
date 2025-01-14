@@ -1,1 +1,0 @@
-// Example of using CakePHP's ORM to fetch data from a users table\nuse App\Model\Table\UsersTable;\nuse Cake\ORM\TableRegistry;\n\nclass UsersController extends AppController {\n    public function index() {\n        $this->loadComponent('Paginator');\n        $users = $this->paginate($this->Users);\n        $this->set(compact('users'));\n    }\n}

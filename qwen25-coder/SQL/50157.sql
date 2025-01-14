@@ -1,1 +1,0 @@
-ALTER TABLE table_name CHANGE COLUMN old_column_name new_column_name column_definition;

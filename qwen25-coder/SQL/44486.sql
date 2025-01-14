@@ -1,1 +1,0 @@
-ALTER TABLE TEST\nALTER COLUMN ColumnName1 decimal(18,2);\n\nALTER TABLE TEST\nALTER COLUMN ColumnName2 decimal(18,2);

@@ -1,1 +1,0 @@
-// In your main script (e.g., index.php)\ndefine('MY_APP', true);\n\n// Include other scripts safely\ninclude 'my-included-file.php';\n\n// Inside my-included-file.php, check for the constant\nif (!defined('MY_APP')) {\n    header("HTTP/1.1 403 Forbidden");\n    exit;\n}

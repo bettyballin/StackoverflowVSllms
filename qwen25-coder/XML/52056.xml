@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.xhtmlrenderer</groupId>\n    <artifactId>flying-saucer-pdf-itext5</artifactId>\n    <version>9.1.22</version>\n</dependency>

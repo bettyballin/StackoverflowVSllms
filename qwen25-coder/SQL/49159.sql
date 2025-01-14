@@ -1,1 +1,0 @@
-UPDATE sales s\nSET status = 'ACTIVE'\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM sales s2\n    WHERE s2.saleprice = s.saleprice AND s2.saledate = s.saledate\n    GROUP BY s2.saleprice, s2.saledate\n    HAVING COUNT(*) > 1\n);

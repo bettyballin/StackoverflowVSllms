@@ -1,1 +1,0 @@
--- Step 1: Drop the existing check constraint\nALTER TABLE [dbo].[table_name] DROP CONSTRAINT [constraint_name];\n\n-- Step 2: Recreate the check constraint without NOT FOR REPLICATION\nALTER TABLE [dbo].[table_name]\nADD CONSTRAINT [constraint_name] CHECK (constraint_expression);

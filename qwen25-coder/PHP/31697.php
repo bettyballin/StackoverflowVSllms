@@ -1,1 +1,0 @@
-$submit = new Zend_Form_Element_Submit('submit');\n  $submit->setLabel('Submit')\n         ->setDecorators([\n             'ViewHelper',\n             ['Description', ['escape' => false, 'placement' => 'prepend']],\n             ['HtmlTag', ['tag' => 'div', 'class' => 'my-custom-button']]\n         ]);

@@ -1,1 +1,0 @@
-<applicationPools>\n    <add name="YourAppPool" managedRuntimeVersion="v2.0" autoStart="true">\n      <recycling disallowOverlappingRotation="true" />\n    </add>\n  </applicationPools>

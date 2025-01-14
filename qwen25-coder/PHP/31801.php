@@ -1,1 +1,0 @@
-<?php\n$memcached = new Memcached();\n// Configure to use the consistent hashing with ketama\n$memcached->setOption(Memcached::OPT_LIBKETAMA_COMPATIBLE, true);\n\n$memcached->addServers([\n    ['127.0.0.1', 11211],\n    ['192.168.0.100', 11211]\n]);\n\n// Now you can use $memcached to store and retrieve data\n?>

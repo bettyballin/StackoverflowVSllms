@@ -1,1 +1,0 @@
-$links = mysql_query($querystring);\nforeach (mysql_fetch_array($links) as $key=>$value) \n{\n    $$key = $value;\n}

@@ -1,1 +1,0 @@
-function handleLogout() {\n    // Clear local storage if used for any session tokens or data\n    localStorage.clear();\n\n    // Optionally: Send request to server to delete server-side session\n    fetch('/logout', { method: 'POST' })\n        .then(() => {\n            // Redirect to login page or home page\n            window.location.href = '/login';\n        });\n}

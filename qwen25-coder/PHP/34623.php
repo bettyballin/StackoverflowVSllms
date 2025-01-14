@@ -1,1 +1,0 @@
-// Example of using ADODB with an Active Record style class\n$db = NewADOConnection('mysqli');\n$db->connect($server, $user, $pass, $db);\n$sql = "SELECT * FROM user WHERE id=1";\n$userData = $db->GetRow($sql);

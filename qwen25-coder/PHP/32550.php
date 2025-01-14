@@ -1,1 +1,0 @@
-<?php\nrequire 'IXR_Lib.php';\n\n$client = new IXR_Client('http://yourserver/xmlrpc.php');\n\nif (!$client->query('sample.multiply', 5, 3)) {\n    die('An error occurred - '.$client->getErrorCode().": ".$client->getErrorMessage());\n}\n\n$response = $client->getResponse();\necho $response; // Outputs: 15\n?>

@@ -1,1 +1,0 @@
-abstract class baseClass {\n    static function whoAmI() {\n        echo static::class; // This will output the name of the calling class\n    }\n}

@@ -1,1 +1,0 @@
-// Using loose comparison\nif ($str == '') {\n    // This block will execute for '' as well as false, 0, "0", null, etc.\n}\n\n// Using strlen to strictly check for empty string\nif (strlen($str) == 0) {\n    // This block executes only if $str is exactly an empty string.\n}

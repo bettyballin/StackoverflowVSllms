@@ -1,1 +1,0 @@
-ALTER TABLE WorkOrders ADD NewWorkOrderID INT IDENTITY(1, 1);

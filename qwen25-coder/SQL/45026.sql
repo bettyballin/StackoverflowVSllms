@@ -1,1 +1,0 @@
-SELECT SearchType, SearchTerm, COUNT(*) as count \n   FROM SearchStatistics \n   GROUP BY SearchType, SearchTerm \n   ORDER BY SearchType, count DESC;

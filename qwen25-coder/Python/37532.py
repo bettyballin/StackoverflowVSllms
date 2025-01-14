@@ -1,1 +1,0 @@
-def greet(name: str) -> str:\n      return f'Hello, {name}'

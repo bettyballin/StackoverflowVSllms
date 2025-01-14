@@ -1,1 +1,0 @@
-$pdo = new PDO('mysql:host=localhost;dbname=test', 'user', 'pass');\n$stmt = $pdo->prepare("INSERT INTO users (name) VALUES (:name)");\n$stmt->execute([':name' => $input]);

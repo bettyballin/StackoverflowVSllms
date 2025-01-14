@@ -1,1 +1,0 @@
-// Using Composer for dependency management which helps in version locking dependencies\n  require 'vendor/autoload.php';

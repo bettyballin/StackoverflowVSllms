@@ -1,1 +1,0 @@
-$text = '<p>This is a test &gt; and this is another &lt;</p><pre>&gt; should not be replaced</pre>';\n$newText = preg_replace_callback(\n    '/(^|>)[^<]*(?:(?!<\/?pre\b).)*/is',\n    function($matches) {\n        return preg_replace(['/&gt;/s', '/&lt;/s'], ['>', '<'], $matches[0]);\n    },\n    $text\n);\necho $newText;

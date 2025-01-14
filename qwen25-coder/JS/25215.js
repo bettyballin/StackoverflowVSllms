@@ -1,1 +1,0 @@
-const link = document.querySelector('a');\nconst hasTooltip = link.getAttribute('data-hastooltip'); // "yes"\nconst tipColor = link.getAttribute('data-tipcolour');   // "yellow"\n\n// Alternatively, using dataset property for easier access:\nconst hasTooltipDataset = link.dataset.hastooltip; // "yes"\nconst tipColorDataset = link.dataset.tipcolour;   // "yellow"

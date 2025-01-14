@@ -1,1 +1,0 @@
-<% @contact.companies.each do |company| %>\n  <tr data-cid="<%= @contact.id %> - <%= company.id %>">\n    <td><%= company.name %></td>\n    <!-- other columns -->\n    <td><a href="#" class="edit_contact_join_delete" data-method="delete">Delete</a></td>\n  </tr>\n<% end %>

@@ -1,1 +1,0 @@
--- Check existing indexes\n   EXEC sp_helpindex 'a_view';\n\n   -- If there's no proper index, consider creating one\n   CREATE INDEX idx_a_view_c ON a_view(c);

@@ -1,1 +1,0 @@
-SELECT \n    column1, column2, column3, column4, column5, column6, column7, column8, column9, column10,\n    COUNT(*) as DuplicateCount\nFROM \n    YourTableName\nGROUP BY \n    column1, column2, column3, column4, column5, column6, column7, column8, column9, column10\nHAVING \n    COUNT(*) > 1;

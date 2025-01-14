@@ -1,1 +1,0 @@
-class UserController extends Zend_Controller_Action {\n    public function displayAction() {\n        // Your logic here...\n\n        // Render a different view script\n        $this->render('custom-display');\n    }\n}

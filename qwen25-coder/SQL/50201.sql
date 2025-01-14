@@ -1,1 +1,0 @@
-SELECT CONCAT_WS(', ', IFNULL(address, ''), IFNULL(city, '')) AS full_address\nFROM locals;

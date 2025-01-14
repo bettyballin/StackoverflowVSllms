@@ -1,1 +1,0 @@
-import zipfile\n\negg_path = r'C:\Python25\lib\site-packages\stompservice-0.1.0-py2.5.egg'\nwith zipfile.ZipFile(egg_path, 'r') as egg_file:\n    for content in egg_file.namelist():\n        print(content)

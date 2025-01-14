@@ -1,1 +1,0 @@
-CREATE PROCEDURE DecryptDataFromColumn\n@ID INT\nAS\nBEGIN\n    SELECT CONVERT(VARCHAR(MAX), DECRYPTBYPASSPHRASE('YourStrongPassPhrase', SensitiveDataEncrypted)) AS DecryptedData\n    FROM YourTable\n    WHERE ID = @ID\nEND

@@ -1,1 +1,0 @@
-SET @queryText = 'John Smith,Peter Johnson,Best Friends';\n\nSELECT name \nFROM user \nWHERE FIND_IN_SET(name, REPLACE(@queryText, ' ', '')) > 0;

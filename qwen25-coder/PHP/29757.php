@@ -1,1 +1,0 @@
-<?php\n// Define the number of variables to echo\n$maxVariables = 5;\n\nfor ($i = 1; $i <= $maxVariables; $i++) {\n    // Create the variable name dynamically\n    $currentVariableName = 'variable' . $i;\n    \n    // Echo the value of the current variable\n    if (isset($$currentVariableName)) { // Check if the variable exists\n        echo $$currentVariableName;\n    }\n}\n?>

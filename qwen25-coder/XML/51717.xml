@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>de.rwth-acis</groupId>\n    <artifactId>php-serialization</artifactId>\n    <version>2.0.3</version>\n</dependency>

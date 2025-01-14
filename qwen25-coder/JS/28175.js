@@ -1,1 +1,0 @@
-$(function() {\n    $("#resizableBox2").resizable();\n});

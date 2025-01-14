@@ -1,1 +1,0 @@
-$connect = mysql_connect('localhost', 'root', 'password');\nif (!$connect) {\n    die('Could not connect: ' . mysql_error());\n}

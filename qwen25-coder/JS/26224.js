@@ -1,1 +1,0 @@
-var userInput = "<script>alert('XSS')</script>";\n$("#preview").text(userInput);

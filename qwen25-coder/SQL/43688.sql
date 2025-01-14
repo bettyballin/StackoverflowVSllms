@@ -1,1 +1,0 @@
-CREATE PROCEDURE MyProc1\n  @id int\nAS \nBEGIN\n    UPDATE MyTable\n    SET somevalue1 = ISNULL(somevalue1, 0) + 1,\n        somevalue2 = ISNULL(somevalue2, 0) + 1,\n        somevalue3 = ISNULL(somevalue3, 0) + 1,\n        -- ... continue for all values\n        somevalueN = ISNULL(somevalueN, 0) + 1\n    WHERE id = @id;\nEND

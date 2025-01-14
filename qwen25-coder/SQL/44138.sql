@@ -1,1 +1,0 @@
-SELECT rank_id, COUNT(*) as count\nFROM (\n    SELECT u.post_count,\n           (SELECT r.rank_id\n            FROM _ranks r\n            WHERE u.post_count >= r.min_posts\n            ORDER BY r.min_posts DESC LIMIT 1) as rank_id\n    FROM _users u\n) ranked_users\nGROUP BY rank_id;

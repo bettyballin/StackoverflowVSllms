@@ -1,1 +1,0 @@
--- Disable index\n    ALTER INDEX [YourIndexName] ON YourTable DISABLE;\n\n    DELETE FROM YourTable WHERE YourCondition;\n\n    -- Rebuild index with appropriate options\n    ALTER INDEX [YourIndexName] ON YourTable REBUILD;

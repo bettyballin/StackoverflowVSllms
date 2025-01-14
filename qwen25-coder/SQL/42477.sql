@@ -1,1 +1,0 @@
-DECLARE @NoValue1 INT = 1234;\nDECLARE @NoValue2 INT = 1235;\n\nSELECT ...\nFROM myTbl\nWHERE (myValue = @NoValue1) OR (myValue = @NoValue2)

@@ -1,1 +1,0 @@
-<?php\n   $p = new Net_Pinion_Beanstalk();\n   if ($p->connect('localhost')) {\n       list($id, $body) = $p->reserve();\n       echo "Processing job ID: " . $id;\n       // Process the body to process image\n       sleep(5); // Simulate processing time\n       echo "Job completed\n";\n       if ($id > 0){\n           $p->delete($id);\n       }\n   }\n   $p->disconnect();

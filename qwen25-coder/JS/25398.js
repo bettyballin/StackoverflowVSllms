@@ -1,1 +1,0 @@
-function sethash()\n{  \n  Count++;\n  window.location.hash = "hash" + Count;\n  window.parent.postMessage("hashUpdated#" + ("hash" + Count), "*"); // Send message to parent\n}

@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $.getJSON("your-url-here", {\n        // parameters if any\n    }, function(data) {\n        // Handle your data\n        console.log(data);\n    })\n    .beforeSend(function() {\n        $('#loadingMessage').show();\n    })\n    .complete(function() {\n        $('#loadingMessage').hide();\n    });\n});

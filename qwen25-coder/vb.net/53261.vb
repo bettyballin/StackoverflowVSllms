@@ -1,1 +1,0 @@
-Dim duplicatedSSN = _\n    From p In persons _\n    Group By ssnKey = p.SSN Into g = Group _\n    Where g.Count() > 1 _\n    Select ssnKey

@@ -1,1 +1,0 @@
-// Get the scrollWidth of the parent element\nvar overflowedWidth = $('#parent').get(0).scrollWidth;\n\nconsole.log('Overflowed Width: ' + overflowedWidth + 'px');

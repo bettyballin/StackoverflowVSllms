@@ -1,1 +1,0 @@
-SELECT DATEPART(WEEKDAY, DATEADD(DAY, 1 - DAY('2008-10-16') + \n       (WEEKDAY('2008-10-01', 2) + 5) % 7, '2008-10-16')) / 7 + 1 AS WeekOfMonth

@@ -1,1 +1,0 @@
--- Enable unified auditing policy\n   AUDIT POLICY your_policy_name WITH MANAGEMENT OPTIONS;\n   \n   -- Create a policy for specific actions or schemas\n   CREATE AUDIT POLICY my_audit_policy ACTIONS SELECT, INSERT ON my_schema.my_table;

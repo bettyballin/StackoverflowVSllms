@@ -1,1 +1,0 @@
-FROM incidents i\nFROM cause_attack att_cause\nFROM obscure_table otab

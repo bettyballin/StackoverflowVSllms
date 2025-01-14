@@ -1,1 +1,0 @@
-# Example of a simple custom function instead of a full library\n     def custom_functionality():\n         # Custom code here\n         pass

@@ -1,1 +1,0 @@
-<?php\n\n$tempTotal = 0;\n\nif ($_SERVER["REQUEST_METHOD"] == "POST") {\n    // Loop through each submitted balance\n    foreach ($_POST['balances'] as $balance) {\n        $tempTotal += (int)$balance; // Convert to integer and add to total\n    }\n}\n\necho "Total: " . $tempTotal;\n\n?>

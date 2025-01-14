@@ -1,1 +1,0 @@
-resources :checkouts do\n  member do\n    post 'submit', action: :checkout_submit\n  end\nend

@@ -1,1 +1,0 @@
-CREATE VIEW IndexedViewWithFrozenDate \nWITH SCHEMABINDING \nAS \nSELECT \n    ProductID,\n    Name,\n    -- Use GETUTCDATE() to simulate creation datetime once during row insertion and freeze it thereafter\n    DATEADD(second, DATEDIFF(second, '1970-01-01', CONVERT(datetime, '2023-10-01'))) AS FrozenCreationDate\nFROM \n    dbo.Products;

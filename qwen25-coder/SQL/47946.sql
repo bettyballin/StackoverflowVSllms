@@ -1,1 +1,0 @@
-GRANT EXECUTE ON PROCEDURE databasename.urlfriendly TO 'username'@'localhost';\nFLUSH PRIVILEGES;

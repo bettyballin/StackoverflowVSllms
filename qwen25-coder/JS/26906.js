@@ -1,1 +1,0 @@
-// Get the width and height of the viewport\nconst viewportWidth = window.innerWidth;\nconst viewportHeight = window.innerHeight;\n\nconsole.log(`Viewport Width: ${viewportWidth}px`);\nconsole.log(`Viewport Height: ${viewportHeight}px`);

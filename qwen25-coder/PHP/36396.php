@@ -1,1 +1,0 @@
-if ($_SERVER["REQUEST_METHOD"] == "POST") {\n    $userInput = substr($_POST['textarea_input'], 0, 500);\n}

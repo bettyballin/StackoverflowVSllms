@@ -1,1 +1,0 @@
-CREATE TABLE ExampleTable (\n    ID INT PRIMARY KEY,\n    Value DECIMAL(10, 2)  -- This allows for numbers up to 99999999.99\n);

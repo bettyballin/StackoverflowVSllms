@@ -1,1 +1,0 @@
-<!-- Example of conditional removal -->\n<compilation debug="true" targetFramework="2.0">\n  <!-- Optionally remove the following <assemblies> section after testing -->\n  <!--\n  <assemblies>\n    <add assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>\n  </assemblies>\n  -->\n</compilation>

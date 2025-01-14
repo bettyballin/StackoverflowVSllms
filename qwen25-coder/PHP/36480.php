@@ -1,1 +1,0 @@
-add_filter( 'max_srcset_image_width', function ( $size ) {\n       return 2000; // Set the size to whatever fits your needs\n   } );

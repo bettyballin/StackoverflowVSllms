@@ -1,1 +1,0 @@
-$.ajax({\n    type: "POST",\n    url: "MyService.aspx/GetDate",\n    data: JSON.stringify({ one: "value", two: "value" }), // Stringify the data\n    contentType: "application/json; charset=utf-8",\n    dataType: "json",\n    success: function(msg) {\n        alert(msg.d);\n    },\n    error: function() {\n        alert('error');\n    }\n});

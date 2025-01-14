@@ -1,1 +1,0 @@
-Dim message As String = "<strong>This is a test</strong>" ' Example HTML content\n\nDim x As System.Xml.Linq.XElement = _\n    <div>\n        <%= New System.Xml.Linq.XCData(message) %>\n    </div>\n\nDim m = x.ToString(System.Xml.Linq.SaveOptions.DisableFormatting)\nConsole.WriteLine(m)

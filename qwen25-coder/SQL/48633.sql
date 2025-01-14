@@ -1,1 +1,0 @@
-SELECT Department, Category\nFROM (\n    SELECT \n        Department,\n        Category,\n        ROW_NUMBER() OVER (PARTITION BY Department ORDER BY COUNT(Category) DESC, Category ASC) as rn\n    FROM your_table_name\n    GROUP BY Department, Category\n) subquery\nWHERE rn = 1;

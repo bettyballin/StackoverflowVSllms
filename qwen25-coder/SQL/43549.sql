@@ -1,1 +1,0 @@
-DECLARE\n    my_numbers NUMBER_ARRAY := NUMBER_ARRAY(10, 20, 30);\nBEGIN\n    process_numbers(my_numbers);\nEND;\n/

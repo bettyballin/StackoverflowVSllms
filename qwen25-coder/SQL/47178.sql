@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION check_insert() RETURNS TRIGGER AS $$\n  BEGIN\n      IF NEW.your_column < 0 THEN\n          RAISE EXCEPTION 'Invalid data: Value cannot be negative';\n      END IF;\n      RETURN NEW;\n  END;\n  $$ LANGUAGE plpgsql;\n\n  CREATE TRIGGER prevent_invalid_insert\n  BEFORE INSERT ON your_table\n  FOR EACH ROW EXECUTE FUNCTION check_insert();

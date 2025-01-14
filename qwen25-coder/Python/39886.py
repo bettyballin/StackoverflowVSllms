@@ -1,1 +1,0 @@
-def foo(c):\n    return c + 1, c * 2\n\na, b = foo(5)  # Unpacks the tuple into variables a and b\nmy_tuple = foo(5)  # Returns a tuple (6, 10)

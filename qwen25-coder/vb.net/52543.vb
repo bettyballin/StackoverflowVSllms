@@ -1,1 +1,0 @@
-Imports System.Web.UI.WebControls.WebParts\n   Imports Microsoft.SharePoint.WebPartPages\n\n   Public Class MyCustomWebPart \n       Inherits WebPart\n\n       Protected Overrides Sub CreateChildControls()\n           Dim myLiteral As New LiteralControl("Hello, SharePoint!")\n           Me.Controls.Add(myLiteral)\n       End Sub\n   End Class

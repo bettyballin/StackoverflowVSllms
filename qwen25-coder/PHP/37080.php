@@ -1,1 +1,0 @@
-function prevent_direct_access() {\n    if ($_SERVER['REQUEST_URI'] == $_SERVER['PHP_SELF']) {\n        http_response_code(404);\n        header("Content-Type: text/html; charset=UTF-8");\n        header("X-Robots-Tag: noindex, nofollow");\n        \n        include_once('404.php');\n        exit;\n    }\n}

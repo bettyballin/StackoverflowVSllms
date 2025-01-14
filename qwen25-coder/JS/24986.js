@@ -1,1 +1,0 @@
-function createA(given_id) {\n    var id = given_id;\n\n    function myMethod() {\n        alert(id);\n    }\n\n    // Return an object that exposes public methods\n    return {\n        // Add other methods here if needed\n        myMethod: myMethod\n    };\n}\n\nvar my_obj = createA('some_id');\nmy_obj.myMethod();  // This will work and alert 'some_id'

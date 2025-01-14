@@ -1,1 +1,0 @@
-DECLARE @Day INT = 12;\nDECLARE @Month INT = 1;\nDECLARE @Year INT = 2007;\n\n-- Construct datetime directly\nSELECT CAST(CAST(@Year AS VARCHAR(4)) + '-' \n            + RIGHT('0' + CAST(@Month AS VARCHAR(2)), 2) \n            + '-' + RIGHT('0' + CAST(@Day AS VARCHAR(2)), 2) AS DATETIME) AS ConvertedDateTime;

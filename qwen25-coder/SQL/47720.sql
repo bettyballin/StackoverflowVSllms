@@ -1,1 +1,0 @@
-SELECT \n    [Measures].[MeasureName] ON COLUMNS,\n    [Dimension1].[Hierarchy1].Members ON ROWS\nFROM \n    [YourCubeName]\nWHERE \n    [Dimension2].[SomeMember];

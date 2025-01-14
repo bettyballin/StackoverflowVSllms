@@ -1,1 +1,0 @@
-<?php\n$id1 = 1;\n$id2 = "module 1 loaded";\n\n$data = array(\n    "var1" => $id1,\n    "var2" => $id2\n);\n\nheader('Content-Type: application/json');\necho json_encode($data);\n?>

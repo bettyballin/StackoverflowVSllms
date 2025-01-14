@@ -1,1 +1,0 @@
-function serializeList(list) {\n    var result = [];\n    list.children('li').each(function() {\n        var item = { id: $(this).data('id'), children: [] };\n        if ($(this).children('ul').length > 0) {\n            item.children = serializeList($(this).children('ul'));\n        }\n        result.push(item);\n    });\n    return result;\n}

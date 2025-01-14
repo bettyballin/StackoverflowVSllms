@@ -1,1 +1,0 @@
-SELECT STUFF((\n    SELECT ', ' + FName + ' ' + LName \n    FROM Employees \n    FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), 1, 2, '') AS FullNameList;

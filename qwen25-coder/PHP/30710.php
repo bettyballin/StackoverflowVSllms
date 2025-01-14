@@ -1,1 +1,0 @@
-<?php if (count($_associatedProducts)): ?>\n    <?php foreach ($_associatedProducts as $_item): ?>\n        <tr>\n            <td><?php echo $this->htmlEscape($_item->getData('yearmade') ?: $_item->getAttributeText('yearmade')) ?></td>\n        </tr>\n    <?php endforeach; ?>\n<?php endif; ?>

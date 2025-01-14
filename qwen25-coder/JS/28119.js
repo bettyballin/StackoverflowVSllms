@@ -1,1 +1,0 @@
-function my_ajax(aurl, adata, aretfunc) {\n    $.ajax({\n        type: "POST",\n        url: aurl,\n        data: adata,\n        success: aretfunc  // Pass the function reference directly\n    });\n}\n\n// Usage example:\nmy_ajax('your_script.php', {key: 'value'}, function(response) {\n    console.log(response);  // Handle response here\n});

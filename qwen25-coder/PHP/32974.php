@@ -1,1 +1,0 @@
-// Register the autoload function\nspl_autoload_register(function ($class) {\n    $baseDir = __DIR__ . '/src/'; // Set your base directory here\n    $file = $baseDir . str_replace('\\', '/', $class) . '.php';\n\n    if (file_exists($file)) {\n        require $file;\n    }\n});

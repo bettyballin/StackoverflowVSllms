@@ -1,1 +1,0 @@
-DECLARE @tempString varchar(max)\n\nSELECT @tempString = CAST(fieldname AS varchar(max)) + 'appended string'\nFROM tablename WHERE id = your_id_value\n\nUPDATE tablename SET fieldname = CAST(@tempString AS text) WHERE id = your_id_value

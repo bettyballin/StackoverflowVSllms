@@ -1,1 +1,0 @@
-with open('english2german.txt', 'r') as file:\n    englist = []\n    gerlist = []\n\n    for line in file:\n        parts = line.split()\n        if len(parts) == 2:  # Ensure there are two parts to split\n            englist.append(parts[0])\n            gerlist.append(parts[1])\n\nprint("English list:", englist)\nprint("German list:", gerlist)

@@ -1,1 +1,0 @@
-Dim filePath As String = "path_to_your_file.txt"\nDim input As String = File.ReadAllText(filePath)

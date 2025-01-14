@@ -1,1 +1,0 @@
-<!-- Check for relevant settings in web.config -->\n<configuration>\n    <system.webServer>\n        <handlers>\n            <!-- Ensure no handlers are intercepting and causing issues -->\n        </handlers>\n    </system.webServer>\n</configuration>

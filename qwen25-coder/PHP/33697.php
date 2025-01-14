@@ -1,1 +1,0 @@
-function crypto_rand_secure($min, $max) {\n    if (!function_exists('random_int')) {\n        throw new Exception('Your system does not support the random_int() function.');\n    }\n    return random_int($min, $max);\n}

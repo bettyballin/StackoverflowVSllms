@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetInnerData\nAS\nBEGIN\n    -- Example operation, could be UPDATE/INSERT/DELETE/etc.\n    INSERT INTO YourTable (Column1, Column2) VALUES ('Value1', 'Value2');\nEND;

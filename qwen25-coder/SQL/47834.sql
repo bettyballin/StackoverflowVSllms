@@ -1,1 +1,0 @@
-SELECT * FROM sys.synonyms WHERE [name] = 'YourProcedureName';

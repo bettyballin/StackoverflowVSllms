@@ -1,1 +1,0 @@
-const lineItemTemplateNode = document.getElementById('lineItemTemplate').cloneNode(true);\ndocument.body.removeChild(lineItemTemplateNode); // Remove it from DOM if initially present

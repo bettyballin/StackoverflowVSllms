@@ -1,1 +1,0 @@
-<?php \n   // Original Code\n   function add($a, $b) {\n       // Adds two numbers\n       return $a + $b;\n   }\n\n   // Minified Code\n   function add($a,$b){return$a+$b;}

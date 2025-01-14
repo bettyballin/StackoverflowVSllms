@@ -1,1 +1,0 @@
-CREATE TABLE Resumes (\n        ResumeId INT IDENTITY(1,1) PRIMARY KEY,\n        FileName NVARCHAR(255),\n        FileContent IMAGE -- Consider using VARBINARY(MAX) in later versions of SQL Server\n    );

@@ -1,1 +1,0 @@
-// Assume $array is your array\nsession_start();\n$_SESSION['myArray'] = $array;\n\n// To debug and print without adding extra output\necho '<pre>';\nprint_r($_SESSION['myArray']);\necho '</pre>';

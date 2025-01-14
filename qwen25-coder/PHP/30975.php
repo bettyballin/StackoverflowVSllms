@@ -1,1 +1,0 @@
-$clob = oci_new_descriptor($conn, OCI_D_LOB);\n   $stid = oci_parse($conn, "INSERT INTO my_table (content) VALUES (:clobval)");\n   oci_bind_by_name($stid, ":clobval", $clob, -1, OCI_B_CLOB);\n   oci_execute($stid, OCI_NO_AUTO_COMMIT);\n   $clob->write("My large amount of text here");\n   oci_commit($conn);

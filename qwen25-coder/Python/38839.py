@@ -1,1 +1,0 @@
-import os\nimport sys\n\n# Add your application directory to the front of the PATH\napp_dir = os.path.abspath('path_to_your_app_directory')\nos.environ['PATH'] = app_dir + ';' + os.environ['PATH']\n\n# Now import the module, which should use the DLL from your app directory\nimport sqlite3

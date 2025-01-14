@@ -1,1 +1,0 @@
-<?php\n$response = [\n    'id' => 123, // Example ID\n    'name' => 'New Category Name' // Example name\n];\necho json_encode($response);\n?>

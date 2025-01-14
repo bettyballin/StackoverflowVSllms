@@ -1,1 +1,0 @@
-SELECT DISTINCT s.name AS SchemaName, o.name AS ObjectName\nFROM sys.objects o\nINNER JOIN sys.schemas s ON o.schema_id = s.schema_id\nWHERE o.type_desc LIKE '%YOUR_OBJECT_TYPE%' -- Replace with your specific object type filter if needed

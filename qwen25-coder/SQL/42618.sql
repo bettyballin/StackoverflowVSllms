@@ -1,1 +1,0 @@
-SELECT primary_key_id, serial_number, counter, selected_color\nFROM (\n    SELECT primary_key_id, serial_number, counter, selected_color,\n           ROW_NUMBER() OVER (PARTITION BY serial_number ORDER BY counter DESC) AS rn\n    FROM incoming_data\n    WHERE DATE(timestamp) = CURDATE()\n) ranked\nWHERE ranked.rn = 1;

@@ -1,1 +1,0 @@
-Example: CockroachDB, Google Spanner

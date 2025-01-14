@@ -1,1 +1,0 @@
-$(document).ready(function(){\n    $("#theLists img").click(function(){\n        var contentId = $(this).prev().prev().val();          \n        console.log(contentId); // This should log "64"\n    });\n});

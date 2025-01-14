@@ -1,1 +1,0 @@
-<action name="JobDashboard" class="your.package.JobDashboardAction">\n    <result name="customer_view">/WEB-INF/content/customer/dashboard.jsp</result>\n    <result name="employee_view">/WEB-INF/content/employee/dashboard.jsp</result>\n</action>

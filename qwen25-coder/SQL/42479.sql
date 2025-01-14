@@ -1,1 +1,0 @@
--- Insert new rows not existing in TableA (where there is no match on id)\nINSERT INTO TableA\nSELECT *\nFROM #TableB tb\nWHERE NOT EXISTS (\n    SELECT 1 FROM TableA ta \n    WHERE ta.id = tb.id\n);

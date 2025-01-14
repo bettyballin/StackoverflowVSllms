@@ -1,1 +1,0 @@
--- Avoid this\n   SELECT name FROM users WHERE LOWER(username) = 'john Doe';\n   \n   -- Prefer this (assuming you have a function-based index or stored the username in lowercase)\n   SELECT name FROM users WHERE username_lower = 'johndoe';

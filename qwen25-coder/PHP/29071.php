@@ -1,1 +1,0 @@
-// src/Application.php\nuse Cake\Http\BaseApplication;\nuse Cake\Routing\Middleware\AssetMiddleware;\n\nclass Application extends BaseApplication\n{\n    public function middleware($middlewareQueue)\n    {\n        $middlewareQueue->add(new AssetMiddleware());\n\n        return $middlewareQueue;\n    }\n}

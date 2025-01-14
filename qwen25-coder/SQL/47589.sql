@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE remove_last_foo(some_table IN OUT foo_table_t) IS\nBEGIN\n    some_table.DELETE(some_table.LAST);\nEND;\n\nCREATE OR REPLACE PROCEDURE remove_last_bar(some_table IN OUT bar_table_t) IS\nBEGIN\n    some_table.DELETE(some_table.LAST);\nEND;

@@ -1,1 +1,0 @@
-<?php\n$username = @$POST['username'] ?? null;\n$key = @$POST['key'] ?? null;\n\n// Your code here...\n?>

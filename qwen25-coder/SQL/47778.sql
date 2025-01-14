@@ -1,1 +1,0 @@
-SELECT definition \n   FROM sys.sql_modules \n   WHERE definition LIKE '%OLD_SSP_DATABASE%'

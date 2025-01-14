@@ -1,1 +1,0 @@
-<?php\n$text = 'This is a text, "Your Balance left $0.10", End 0';\npreg_match_all('/"([^"]*)"/', $text, $matches);\necho $matches[1][0]; // Outputs: Your Balance left $0.10\n?>

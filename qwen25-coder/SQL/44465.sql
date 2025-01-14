@@ -1,1 +1,0 @@
-SELECT * \nFROM table1\nORDER BY some_column -- You must specify an ORDER BY clause\nOFFSET 10 ROWS FETCH NEXT 20 ROWS ONLY;

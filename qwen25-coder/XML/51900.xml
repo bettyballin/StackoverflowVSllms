@@ -1,1 +1,0 @@
-<decorators defaultdir="/decorators">\n  <decorator name="layout-main" page="layout-main.jsp">\n    <pattern>/*</pattern>\n    <url-exclude>/jsp/error.jsp</url-exclude>\n    <url-exclude>/jsp/someOtherPage.jsp</url-exclude>\n    <!-- Add more excludes as needed -->\n  </decorator>\n</decorators>

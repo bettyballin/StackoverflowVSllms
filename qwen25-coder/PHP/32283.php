@@ -1,1 +1,0 @@
-// Setting session cookie parameters to avoid affecting the static subdomain\n   session_set_cookie_params(0, "/", "yourmaindomain.com", false, true);

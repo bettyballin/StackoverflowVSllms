@@ -1,1 +1,0 @@
-Imports NUnit.Framework\n\n<TestFixture()>\nPublic Class RecordTests\n\n    <Test()>\n    Public Sub TestLineNoExceedsMaxLength()\n        Dim ex = Assert.Throws(Of ArgumentOutOfRangeException)(Function() New X("aaaaa", "Test"))\n        Assert.AreEqual("Line No exceeds 4 characters", ex.Message, "Expected exception message does not match")\n    End Sub\nEnd Class

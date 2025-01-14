@@ -1,1 +1,0 @@
-ALTER TABLE `quotes` ADD FULLTEXT(`quote_text`);

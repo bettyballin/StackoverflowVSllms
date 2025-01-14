@@ -1,1 +1,0 @@
-<msbuild \n  project="MySolution.sln"\n  target="Rebuild">\n    <property name="Configuration" value="Release" />\n    <property name="OutputPath" value="bin/" />\n</msbuild>

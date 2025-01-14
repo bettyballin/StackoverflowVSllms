@@ -1,1 +1,0 @@
-<?php\nfunction greet($name) {\n    return "Hello, $name!";\n}\n\necho greet("World");\n?>

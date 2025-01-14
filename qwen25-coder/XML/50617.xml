@@ -1,1 +1,0 @@
-<system.webServer>\n  <httpCompression directory="%SystemDrive%\inetpub\temp\IIS Temporary Compressed Files">\n    <dynamicTypes>\n      <add mimeType="application/x-javascript" enabled="false"/>\n    </dynamicTypes>\n  </httpCompression>\n</system.webServer>

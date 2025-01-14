@@ -1,1 +1,0 @@
-document.getElementById('fancy_frame').onload = function() {\n    var ifrWindow = document.getElementById('fancy_frame').contentWindow;\n    ifrWindow.focus();\n    ifrWindow.print();\n};

@@ -1,1 +1,0 @@
-function computePhi(N):\n    phi = array of size N initialized to 1...N-1\n    primes = sieveOfEratosthenes up to sqrt(N)\n    \n    for each prime p in primes:\n        for multiple in range(p * p, N, p):\n            phi[multiple] -= phi[multiple] // p\n    \n    return phi[2:N]

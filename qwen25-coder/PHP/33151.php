@@ -1,1 +1,0 @@
-// PHP with SimpleXML\n$xmlString = '<root><name>John</name><age>30</age></root>';\n$xmlObj = simplexml_load_string($xmlString);\necho $xmlObj->name; // Outputs: Joh

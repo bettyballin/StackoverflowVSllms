@@ -1,1 +1,0 @@
--- Assuming each transaction has a unique transaction_id and it's auto-incrementing\nUPDATE transactions\nSET running_balance = running_balance + <AMOUNT>\nWHERE transaction_id > (SELECT transaction_id FROM transactions WHERE transaction_date <= <NEW_TRANSACTION_DATE> ORDER BY transaction_date DESC, transaction_id DESC LIMIT 1);

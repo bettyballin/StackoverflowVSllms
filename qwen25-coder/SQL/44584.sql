@@ -1,1 +1,0 @@
-SELECT * \nFROM (SELECT * FROM A WHERE date = 'Yesterday') AS A_filtered\nLEFT JOIN B\nON A_filtered.foo = B.foo;

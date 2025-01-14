@@ -1,1 +1,0 @@
-Dim result = 1 + 1

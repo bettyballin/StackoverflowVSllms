@@ -1,1 +1,0 @@
-SELECT title1 + SPACE(0) + title2 + SPACE(0) + title3 AS combined_title\nFROM your_table;

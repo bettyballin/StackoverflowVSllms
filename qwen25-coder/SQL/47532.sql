@@ -1,1 +1,0 @@
-Variable: ShouldSendFailureEmail (Boolean)\n\nPrecedence Constraint Expression on path from Check Task to Send Mail Task:\n@[User::ShouldSendFailureEmail] == True\n\nPrecedence Constraint Options:\n- Evaluates On: Completion\n- Value: Failure

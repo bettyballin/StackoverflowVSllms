@@ -1,1 +1,0 @@
-SELECT Co1, Co2, Co3, Co4\nFROM yourTable AS t1\nWHERE (Co3 = 't' OR Co3 = 'r')\n   OR EXISTS (\n       SELECT 1 \n       FROM yourTable AS t2 \n       WHERE t2.Co1 = t1.Co1 \n         AND t2.Co2 = t1.Co2 \n         AND (t2.Co3 = 't' OR t2.Co3 = 'r') \n   )\nORDER BY Co1, Co2, Val(Mid(Co4, 2)) DESC;

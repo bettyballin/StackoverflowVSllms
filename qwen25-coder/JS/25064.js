@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    function pageLoad() {\n        var checkboxes = document.querySelectorAll('[id$=yourCheckboxClientID]');\n        checkboxes.forEach(function (cb) {\n            cb.onclick = checkClick;\n        });\n    }\n\n    function checkClick(event) {\n        // Your event handling code here\n        console.log('Checkbox clicked!');\n    }\n</script>

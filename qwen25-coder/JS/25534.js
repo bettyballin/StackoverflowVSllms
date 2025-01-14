@@ -1,1 +1,0 @@
-$("a:contains('Link 2')").each(function(){\n   var title = $(this).closest('.row').find('b').text();\n   // Now you have the title in the variable 'title'\n   console.log(title); // Just to log for demonstration\n   $(this).after(' <a href="#">Link 3</a>');\n});

@@ -1,1 +1,0 @@
--- Example: Copy specific rows from SourceTable to DestinationTable\nINSERT INTO DestinationTable (Column1, Column2, Column3)\nSELECT Column1, Column2, Column3\nFROM SourceTable\nWHERE SomeCondition = SomeValue;

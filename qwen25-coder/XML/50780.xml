@@ -1,1 +1,0 @@
-<configuration>\n    <system.webServer>\n        <rewrite>\n            <rules>\n                <rule name="Redirect old page" stopProcessing="true">\n                    <match url="^oldpage\.html$" />\n                    <action type="Redirect" url="/newpage.html" />\n                </rule>\n            </rules>\n        </rewrite>\n    </system.webServer>\n</configuration>

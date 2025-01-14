@@ -1,1 +1,0 @@
-SELECT s.sid, s.serial#, s.username, t.trace_enabled\nFROM v$session s\nJOIN v$sess_io t ON s.sid = t.sid\nWHERE t.trace_enabled = 1;

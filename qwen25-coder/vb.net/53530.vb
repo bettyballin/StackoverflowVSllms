@@ -1,1 +1,0 @@
-Dim SomeID As Variant\nDim AnotherID As Variant\nSomeID = GetFirstFieldFromQuery(Connection, "SELECT SomeID FROM TableA")\nAnotherID = GetFirstFieldFromQuery(Connection, "SELECT AnotherID FROM TableB")

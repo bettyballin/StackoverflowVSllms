@@ -1,1 +1,0 @@
-// For PDF, use the following dependency in Maven\n<dependency>\n    <groupId>com.itextpdf</groupId>\n    <artifactId>itext7-core</artifactId>\n    <version>7.1.15</version>\n    <type>pom</type>\n</dependency>

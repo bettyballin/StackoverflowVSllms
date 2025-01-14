@@ -1,1 +1,0 @@
-ames_ages = User.pluck(:name, :age)\n\n# names_ages will be an array of arrays where each sub-array contains the values in the order specified.

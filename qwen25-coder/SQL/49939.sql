@@ -1,1 +1,0 @@
-CREATE VIEW employee_view AS\n  SELECT employee_id, first_name, last_name, department_id\n  FROM employees;

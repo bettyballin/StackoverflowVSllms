@@ -1,1 +1,0 @@
-SELECT Value\nFROM (\n    SELECT "Ugly OLAP name" as Value \n    FROM OpenQuery(OLAP, 'OLAP Query')\n) AS DerivedTable\nWHERE Value > 0;

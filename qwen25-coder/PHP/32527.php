@@ -1,1 +1,0 @@
-<?php\necho "Hello, World!\n";\necho "This is on a new line.\n";

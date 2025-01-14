@@ -1,1 +1,0 @@
-Dim myVar As String() = Array("a", "b", "c")

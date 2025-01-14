@@ -1,1 +1,0 @@
-// Using @ to suppress errors when accessing HTTP headers which may not always exist\n$userAgent = @$_SERVER['HTTP_USER_AGENT'];\nif (empty($userAgent)) {\n    $userAgent = 'Unknown';\n}

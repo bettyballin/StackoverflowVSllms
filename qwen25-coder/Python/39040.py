@@ -1,1 +1,0 @@
-# Model/__init__.py\n\nfrom . import user  # Import the User module so it's available when importing Model.User\nfrom .database import Database\n\n# Initialize the Database when Models are imported (if desired)\nDatabase.initialize()

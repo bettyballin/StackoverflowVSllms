@@ -1,1 +1,0 @@
-Using conn As New SqlConnection(connectionString)\n    Using command As New SqlCommand("SELECT foo FROM bar WHERE baz = @baz", conn)\n        command.Parameters.AddWithValue("@baz", fuz)\n        ' Execute the query\n    End Using\nEnd Using

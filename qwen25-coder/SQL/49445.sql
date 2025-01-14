@@ -1,1 +1,0 @@
-LENGTH(REPLACE(REPLACE(Ingredients, '\r', ''), '\n', ''))

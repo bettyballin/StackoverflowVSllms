@@ -1,1 +1,0 @@
-UPDATE your_table_name\nSET your_column_name = UPPER(substring(replace(your_column_name, ' ', ''), 1, 2)) || \n                       substring(replace(your_column_name, ' ', '') FROM 3);

@@ -1,1 +1,0 @@
-Private Sub InteropControl1_PassNames(ByVal names As Object)\n    Dim nameItem As Variant\n    For Each nameItem In names\n        MsgBox nameItem\n    Next nameItem\nEnd Sub

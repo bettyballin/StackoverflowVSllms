@@ -1,1 +1,0 @@
-SELECT a.foo, b.foo\nFROM a\nJOIN b ON a.x = b.x;

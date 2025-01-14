@@ -1,1 +1,0 @@
-INSERT INTO failed_login_attempts (ip_address, username) VALUES ('user_ip', 'attempted_username');

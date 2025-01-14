@@ -1,1 +1,0 @@
-// Example of include file naming\nrequire 'config.inc.php'; // Configuration settings\ninclude 'functions.inc.php'; // Utility functions\n\n// Example of class file naming with PSR-4 compatible paths\nuse Vendor\Package\SomeClass;\n\n$instance = new SomeClass();

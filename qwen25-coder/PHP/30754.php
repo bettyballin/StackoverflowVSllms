@@ -1,1 +1,0 @@
-// Set cookie parameters for a specific subdomain\n$cookieParams = session_get_cookie_params();\nsession_set_cookie_params(\n    $cookieParams["lifetime"],\n    $cookieParams["path"], \n    "subdomain.example.net", // Without leading dot\n    $cookieParams["secure"], \n    $cookieParams["httponly"]\n);\nsession_name('unique_subdomain_session');\nsession_start();

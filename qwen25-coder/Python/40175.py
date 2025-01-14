@@ -1,1 +1,0 @@
-from flask import Flask, jsonify\n\napp = Flask(__name__)\n\n@app.route('/api/finance/report', methods=['GET'])\ndef get_financial_report():\n    # Generate financial report logic here (simplified)\n    report_data = {\n        'report': 'Generated financial report data'\n    }\n    return jsonify(report_data)\n\nif __name__ == '__main__':\n    app.run(debug=True, host='0.0.0.0')

@@ -1,1 +1,0 @@
-CREATE TABLE my_table (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    year_month DATE NOT NULL CHECK (DAY(year_month) = 1)\n);

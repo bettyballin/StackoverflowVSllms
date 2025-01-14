@@ -1,1 +1,0 @@
-CREATE INDEX idx_adminuser_station_site_date ON adminuser.station (site, date);

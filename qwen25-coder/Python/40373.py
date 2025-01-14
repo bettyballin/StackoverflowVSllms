@@ -1,1 +1,0 @@
-def ColourCheck():\n    global backgroundr, backgroundg, backgroundb  # Declare these as global\n    checknumber = int(random.random()*50)+1\n    if checknumber == 50:\n        backgroundr = int(random.random()*255)+1\n        backgroundg = int(random.random()*255)+1\n        backgroundb = int(random.random()*255)+1

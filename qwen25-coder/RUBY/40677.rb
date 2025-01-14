@@ -1,1 +1,0 @@
-# config/initializers/session_store.rb\nYourApp::Application.config.session_store :cookie_store, key: '_your_app_session', secure: true

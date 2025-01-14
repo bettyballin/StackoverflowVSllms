@@ -1,1 +1,0 @@
-<class name="Resume" table="Resumes">\n        <id name="ResumeId" column="ResumeId" type="Int32">\n            <generator class="identity"/>\n        </id>\n        <property name="FileName" />\n        <property name="FileContent" type="BinaryBlob" length="2147483647" /> <!-- Adjust as necessary -->\n    </class>

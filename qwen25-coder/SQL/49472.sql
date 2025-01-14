@@ -1,1 +1,0 @@
-SELECT * FROM your_table_name\n    WHERE INSTR(column_name, CHR(13)) > 0;

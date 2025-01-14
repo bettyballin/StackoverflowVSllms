@@ -1,1 +1,0 @@
-class Item {\n    private $contents = array('id' => 1);\n\n    public function getContents() {\n        return $this->contents; // Use $this->contents to return the property\n    }\n}\n\n$i = new Item();\n$id = $i->getContents()['id']; // Now this is valid\n\necho $id; // Outputs: 1

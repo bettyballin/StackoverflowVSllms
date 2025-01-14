@@ -1,1 +1,0 @@
-SELECT \n    *,\n    CASE \n        WHEN title LIKE '%text%' THEN 0\n        ELSE 1\n    END AS priority_sort\nFROM \n    books\nWHERE \n    title LIKE '%text%' OR description LIKE '%text%'\nORDER BY \n    priority_sort, date;

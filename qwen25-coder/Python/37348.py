@@ -1,1 +1,0 @@
-import calendar\nimport time\n\nutc_timestamp = calendar.timegm(time.strptime("2009-06-16", "%Y-%m-%d"))\nprint(utc_timestamp)

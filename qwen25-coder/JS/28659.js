@@ -1,1 +1,0 @@
-function Store(id) {\n    this.id = id;\n    this.queryparam = 'blah';\n    this.items = null;\n}\n\nStore.prototype.fetch = function() {\n    $.get("/get_items", {q: this.queryparam}, (data) => {\n        this.items = data; // Here, `this` correctly refers to the Store instance\n    });\n}

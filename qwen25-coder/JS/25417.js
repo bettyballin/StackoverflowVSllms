@@ -1,1 +1,0 @@
-javascript:(function()%7Bvar%20links%3Ddocument.querySelectorAll('a')%3Bvar%20result%3D[]%3Bfor(var%20i%3D0%3Bi<links.length%3Bi%2B%2B)%7Bresult.push(links%5Bi%5D.href)%7Dalert(result.join('%5Cn'))%7D)()%3B

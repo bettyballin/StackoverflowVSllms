@@ -1,1 +1,0 @@
-ALTER TABLE my_table ADD CONSTRAINT PK_my_table PRIMARY KEY (region_id, original_primary_key);

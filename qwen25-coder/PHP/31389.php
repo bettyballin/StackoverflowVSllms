@@ -1,1 +1,0 @@
-$result = mysql_query("SELECT my_timestamp FROM some_table WHERE id=42", $DB_CONN);\n$row = mysql_fetch_array($result);\n\n// Convert the timestamp to a DateTime object\n$date_object = new DateTime($row['my_timestamp']);\n\n// Format the date in the desired format\n$formatted_date = $date_object->format('F j, Y');\n\necho $formatted_date;

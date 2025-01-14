@@ -1,1 +1,0 @@
-WHERE (grp1 = 0 OR grp2 * grp1 = 0 \n      OR grp3 * grp2 * grp1 = 0\n      ...\n      OR grpn * ... * grp2 * grp1 = 0)

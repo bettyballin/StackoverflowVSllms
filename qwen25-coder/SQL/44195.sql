@@ -1,1 +1,0 @@
-CREATE TABLE SomeIntersection \n(\n     ParentRecord INT REFERENCES TableA NOT NULL,\n     ChildRecord INT REFERENCES TableA NOT NULL,\n     PRIMARY KEY(ParentRecord, ChildRecord),\n     CONSTRAINT CK_NoCyclicalReference CHECK (ParentRecord <> ChildRecord)\n)

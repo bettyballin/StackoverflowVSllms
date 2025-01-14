@@ -1,1 +1,0 @@
-<?php\n$userId = posix_getuid();\n$userInfo = posix_getpwuid($userId);\n$username = $userInfo['name'];\n\necho "The web server is running as user: $username";\n?>

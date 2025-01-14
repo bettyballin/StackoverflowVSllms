@@ -1,1 +1,0 @@
-class Listing extends AppModel {\n        public $actsAs = array('Containable');\n        // Other associations...\n    }

@@ -1,1 +1,0 @@
--- Long Format Example\nCREATE TABLE record_key_values (\n    record_id INT,\n    key_name VARCHAR(255),\n    value TEXT,\n    PRIMARY KEY (record_id, key_name)\n);\n\n-- Wide Format Example\nCREATE TABLE records_wide (\n    record_id INT PRIMARY KEY,\n    key1 TEXT,\n    key2 TEXT,\n    -- ... more keys\n);

@@ -1,1 +1,0 @@
-// background_process.php\n   <?php\n   $lock_file = '/tmp/process_new_users.lock';\n\n   if (file_exists($lock_file)) {\n       exit;\n   }\n\n   touch($lock_file);\n\n   function processNewUsers() {\n       try {\n           // Your logic here\n       } finally {\n           unlink($lock_file);\n       }\n   }\n\n   processNewUsers();

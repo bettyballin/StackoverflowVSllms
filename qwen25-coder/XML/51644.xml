@@ -1,1 +1,0 @@
-// Example in web.config\n   <system.webServer>\n       <rewrite>\n           <rules>\n               <rule name="Rewrite to index">\n                   <match url="^products/(.*)" />\n                   <action type="Rewrite" url="/product.aspx?id={R:1}" />\n               </rule>\n           </rules>\n       </rewrite>\n   </system.webServer>

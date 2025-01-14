@@ -1,1 +1,0 @@
-WITH RankedDuplicates AS (\n    SELECT \n        *,\n        ROW_NUMBER() OVER (PARTITION BY Name ORDER BY Date ASC) as rn\n    FROM \n        YourTableName\n)\nDELETE FROM RankedDuplicates\nWHERE rn > 1;

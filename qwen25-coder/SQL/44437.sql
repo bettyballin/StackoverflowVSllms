@@ -1,1 +1,0 @@
-SELECT TOP 10 -- Adjust as needed\n    YourTable.SomeColumn,\n    FutureBusinessDate.Date\nFROM \n    YourTable, \n    dbo.GetDateInBusinessDays(YourTable.StartDate, 5) AS FutureBusinessDate;

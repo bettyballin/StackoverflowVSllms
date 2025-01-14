@@ -1,1 +1,0 @@
-list = ["Hello", "World", "This", "Is", "Python"]\nresult = ",".join(list)\nprint(result) # Outputs: Hello,World,This,Is,Pytho

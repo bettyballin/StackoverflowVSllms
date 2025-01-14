@@ -1,1 +1,0 @@
-// Sending a DELETE request using fetch\nfetch('https://example.com/resource', {\n  method: 'DELETE' // Specify the HTTP method\n})\n.then(response => response.json())\n.then(data => console.log('Success:', data))\n.catch((error) => console.error('Error:', error));

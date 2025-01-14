@@ -1,1 +1,0 @@
-' Using New\nSet xmlDocument = New MSXML2.DOMDocument\n\n' Using CreateObject\nSet xmlDocument = CreateObject("MSXML2.DOMDocument")

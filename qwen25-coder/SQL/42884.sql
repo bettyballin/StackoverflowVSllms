@@ -1,1 +1,0 @@
-ALTER TABLE your_table_name ADD COLUMN fire_trigger BOOLEAN DEFAULT FALSE;

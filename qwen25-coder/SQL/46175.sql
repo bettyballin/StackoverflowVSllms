@@ -1,1 +1,0 @@
-CREATE INDEX idx_pl_from ON pagelinks(pl_from);

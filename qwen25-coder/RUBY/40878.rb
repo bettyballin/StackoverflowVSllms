@@ -1,1 +1,0 @@
-<!-- app/views/albums/show.html.erb -->\n    <% @albums_feature.each do |album| %>\n      <div><%= album.name %></div> <!-- Assuming 'name' is a column in albums table -->\n    <% end %>

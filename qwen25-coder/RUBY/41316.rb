@@ -1,1 +1,0 @@
-str1 = "AAAA BBBB CCCC DDDD"\nstr1.gsub(/AAAA|CCCC/) { |match| match == "AAAA" ? "CCCC" : "AAAA" }

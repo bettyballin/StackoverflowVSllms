@@ -1,1 +1,0 @@
-var refresh = setInterval(function() {\n    $.ajax({\n        url: 'your_php_file.php', // Replace with your PHP file path\n        success: function(data) {\n            $("#recent_activity").html(data);\n        }\n    });\n}, 1000); // Refresh every 1000 milliseconds (1 second)

@@ -1,1 +1,0 @@
-// Ensure you have a function in your child window to accept and use the passed parts.\nvar receivedParts = [];\n\nfunction setParts(parts) {\n    receivedParts = parts;\n    // Now you can use receivedParts to display or process parts.\n    loadParts();\n}\n\nfunction loadParts() {\n    // Example usage of received parts\n    console.log(receivedParts);\n}

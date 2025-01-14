@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\nif (isset($_POST['token']) && isset($_SESSION['downloads'][$_POST['token']])) {\n    $_SESSION['downloads'][$_POST['token']]['completed'] = true;\n    echo "Download complete recorded.";\n} else {\n    http_response_code(400);\n    echo "Invalid or expired download token.";\n}\n?>

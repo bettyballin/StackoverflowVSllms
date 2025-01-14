@@ -1,1 +1,0 @@
-DECLARE @xmlCodes xml = '<codes><code>1</code><code>2</code>' -- Continue adding all codes here\n\nSELECT e.*\nFROM Employees e\nJOIN (\n    SELECT x.value('.', 'int') as code\n    FROM @xmlCodes.nodes('/codes/code') as T(x)\n) AS CodeList ON e.EmployeeCode = CodeList.code\nWHERE e.Department = 'YourDepartment'

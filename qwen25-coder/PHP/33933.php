@@ -1,1 +1,0 @@
-// Example using pseudo-code for Elasticsearch integration\nfunction indexArticleToElasticsearch($articleId, $text) {\n    // Index the article text into Elasticsearch for efficient searching\n}\n\nfunction searchTokensInElasticsearch($tokenName) {\n    // Search for token in Elasticsearch to find associated articles\n}

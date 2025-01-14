@@ -1,1 +1,0 @@
-SELECT UDF1Result.*, TBL1.Column3\nFROM TBL1\nCROSS APPLY UDF1(TBL1.Column1, TBL1.Column2) AS UDF1Result\nWHERE UDF1Result.Col3 = TBL1.Column3;

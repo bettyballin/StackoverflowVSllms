@@ -1,1 +1,0 @@
--- This is NOT a secure way to delete data, only an illustration.\n-- It does not actually overwrite the data storage on disk.\nBEGIN;\nUPDATE your_table SET personal_info = repeat('X', length(personal_info)) WHERE user_id = your_user_id;\nDELETE FROM your_table WHERE user_id = your_user_id;\nCOMMIT;\nVACUUM FULL your_table;

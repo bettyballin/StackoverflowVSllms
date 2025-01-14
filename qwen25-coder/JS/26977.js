@@ -1,1 +1,0 @@
-function reloadIframeWithoutHistory(iframeId, url) {\n    var iframe = document.getElementById(iframeId);\n    if (iframe) {\n        // Set src to a blank URL first\n        iframe.src = '';\n\n        // Then set src to the desired URL\n        iframe.src = url;\n    }\n}\n\n// Usage:\nreloadIframeWithoutHistory('yourIframeId', 'http://example.com/newpage.html');

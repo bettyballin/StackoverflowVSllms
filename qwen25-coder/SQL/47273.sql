@@ -1,1 +1,0 @@
-ANALYZE TABLE exhibitions;\n   ANALYZE TABLE venues;\n   ANALYZE TABLE temperatures;

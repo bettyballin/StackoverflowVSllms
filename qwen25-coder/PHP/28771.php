@@ -1,1 +1,0 @@
-private $checkboxDecorators = array(\n    'ViewHelper', // renders the form element (input)\n    array('Label', array('placement' => 'APPEND')), // appends the label after the element\n    array(array('data' => 'HtmlTag'), array('tag' => 'div', 'class' => 'checkbox')),\n    array(array('row' => 'HtmlTag'), array('tag' => 'li')),\n);

@@ -1,1 +1,0 @@
-<?php\necho "The user's IP address is: {$_SERVER['REMOTE_ADDR']}";\n?>

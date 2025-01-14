@@ -1,1 +1,0 @@
-SELECT \n    object_id,\n    SUM(score) AS total_score,\n    COUNT(CASE WHEN score = 1 THEN 1 END) AS positive_votes_count,\n    COUNT(CASE WHEN score = -1 THEN 1 END) AS negative_votes_count\nFROM \n    rating\nGROUP BY \n    object_id;

@@ -1,1 +1,0 @@
-// index.php\n\n   require 'vendor/autoload.php';\n\n   use Aspects\ApplicationAspectKernel;\n\n   $application = ApplicationAspectKernel::getInstance();\n   $application->init([]); // Pass needed options here\n\n   class TestClass {\n       public function tester($arg) {\n           echo "Doing some stuff...\n";\n       }\n   }\n\n   (new TestClass())->tester('test argument');

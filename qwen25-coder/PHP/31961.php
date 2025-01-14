@@ -1,1 +1,0 @@
-// Include the external PHP file\ninclude 'external_file.php';\n\n// After including, get the current domain from where the include was called\n$currentDomain = $_SERVER['HTTP_HOST'];\necho "The current domain is: " . $currentDomain;

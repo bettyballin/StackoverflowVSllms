@@ -1,1 +1,0 @@
-$userInput = filter_input(INPUT_POST, 'inputName', FILTER_SANITIZE_STRING);

@@ -1,1 +1,0 @@
-require 'rails_helper'\n\nRSpec.describe FooHelper do\n  it "renders a div with content bar" do\n    # Including Haml::Helpers to have access to `haml_tag`\n    include Haml::Helpers\n\n    expect(helper.foo).to match(%r{<div>bar</div>})\n  end\nend

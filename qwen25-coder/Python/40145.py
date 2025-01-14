@@ -1,1 +1,0 @@
-import subprocess\n\ndef check_for_updates(package_name):\n    return subprocess.run(['yum', 'check-update', package_name], capture_output=True, text=True)\n\n# Example usage\nresult = check_for_updates('your-package-name')\nprint(result.stdout)

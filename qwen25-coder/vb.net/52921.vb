@@ -1,1 +1,0 @@
-<%@ Page Language="VB" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>\n\n<%@ Import Namespace="YourNamespace.HtmlHelpers" %> ' Ensure this matches your actual namespace\n\n<asp:Content ID="indexContent" ContentPlaceHolderID="body" runat="server">\n    <%= Html.HelpMe() %>\n</asp:Content>

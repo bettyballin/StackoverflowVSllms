@@ -1,1 +1,0 @@
-<authentication mode="Forms">\n  <forms name="CTWebCookie" \n         loginUrl="https://www.domain.com/MVCapp/Account/Login" \n         defaultUrl="~/Home/Index" \n         slidingExpiration="true" \n         protection="All" \n         timeout="20"/>\n</authentication>

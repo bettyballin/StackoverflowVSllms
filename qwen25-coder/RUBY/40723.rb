@@ -1,1 +1,0 @@
-# db/seeds.rb\ndefault_themes = [\n  { name: 'Light', primary_color: '#FFFFFF', secondary_color: '#F0F0F0' },\n  { name: 'Dark', primary_color: '#333333', secondary_color: '#1A1A1A' },\n]\n\ndefault_themes.each do |theme|\n  Theme.find_or_create_by(name: theme[:name]) do |t|\n    t.primary_color = theme[:primary_color]\n    t.secondary_color = theme[:secondary_color]\n  end\nend

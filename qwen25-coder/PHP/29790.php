@@ -1,1 +1,0 @@
-$pdo = new PDO('mysql:host=your_host;dbname=your_db', 'user', 'password',\n    [\n        PDO::ATTR_EMULATE_PREPARES => false,\n        PDO::ATTR_STRINGIFY_FETCHES => false, // This should prevent string conversion of numeric values\n        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION\n    ]\n);

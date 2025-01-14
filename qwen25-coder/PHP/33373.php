@@ -1,1 +1,0 @@
-<?php\nset_time_limit(0); # Set time limit to infinite for external program\n\n$keyboard = fopen("php://stdin", "r");\nwhile (1) {\n    $line = trim(fgets($keyboard));\n    if ($line === '') break; // Exit loop on end of input\n    print "www.google.com\n";  // Output the new URL followed by a newline\n}\nfclose($keyboard);\n?>

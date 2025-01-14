@@ -1,1 +1,0 @@
-<Connector port="8009" protocol="AJP/1.3" redirectPort="8443"\n              connectionTimeout="60000"\n              keepAliveTimeout="-1"\n              maxKeepIdleTime="-1"/>

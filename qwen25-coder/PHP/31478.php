@@ -1,1 +1,0 @@
-function generatePassword($length = 12) {\n    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()';\n    return substr(str_shuffle(str_repeat($characters, ceil($length / strlen($characters)))), 1, $length);\n}

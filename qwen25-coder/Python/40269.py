@@ -1,1 +1,0 @@
-from django.contrib import messages\n\ndef my_view(request):\n    # Your view logic here...\n    \n    # Adding a message for anonymous users using sessions\n    messages.info(request, "This is a message for anonymous users.")\n    \n    # Rest of your view code...\n    return render(request, 'my_template.html')

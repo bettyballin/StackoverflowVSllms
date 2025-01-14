@@ -1,1 +1,0 @@
-SELECT * \nFROM user_info ui\nLEFT OUTER JOIN addresses a ON a.user_id = ui.user_id \nAND (a.app_id = dbo.fnGetAppId(ui.user_id) OR (dbo.fnGetAppId(ui.user_id) IS NULL AND a.app_id IS NULL));

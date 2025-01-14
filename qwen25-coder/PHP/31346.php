@@ -1,1 +1,0 @@
-<?php\nfunction generateProfileLink($id, $name) {\n    return "me.com/profile/" . $id . "/" . urlencode($name);\n}\n\nfunction generateStoreLink($id, $name) {\n    return "me.com/store/" . $id . "/" . urlencode($name);\n}\n?>

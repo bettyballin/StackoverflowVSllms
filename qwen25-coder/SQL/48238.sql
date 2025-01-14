@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.IsValidEmail(@email NVARCHAR(256))\nRETURNS BIT \nAS EXTERNAL NAME YourAssemblyName.[Namespace.Classname].IsValidEmail;\nGO

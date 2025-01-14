@@ -1,1 +1,0 @@
-CREATE TABLE AccessLog (\n       TableName NVARCHAR(255),\n       LastAccessed DATETIME DEFAULT GETDATE()\n   )

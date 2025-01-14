@@ -1,1 +1,0 @@
-import time\n\ndef calculate_sum(limit):\n    total = 0\n    for i in range(limit):\n        total += i * i\n    return total\n\nif __name__ == "__main__":\n    start_time = time.time()\n    result = calculate_sum(10**7)\n    end_time = time.time()\n    print(f"Result: {result}")\n    print(f"Time taken: {end_time - start_time} seconds")

@@ -1,1 +1,0 @@
--- Connecting as SYS with SYSDBA privilege\nsqlplus / as sysdba\n\n-- Connecting as SYSTEM with password\nsqlplus system@your_database_service_name

@@ -1,1 +1,0 @@
-SELECT cluster_name\nFROM all_indexes\nWHERE index_name = 'YOUR_INDEX_NAME';

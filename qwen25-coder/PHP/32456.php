@@ -1,1 +1,0 @@
-$wsdlUrl = 'http://example.com/service?WSDL'; // Your WSDL file location\n$options = array(\n    'location' => 'http://test.example.com/service' // Test endpoint URL\n);\n\n$client = new SoapClient($wsdlUrl, $options);\n\n// Now you can use $client to call SOAP methods using the specified test endpoint

@@ -1,1 +1,0 @@
-# views.py\nfrom django.shortcuts import render\n\ndef books_view(request):\n    return render(request, 'books.html', {'lang_word': request.language_word})\n\n# templates/books.html\n<a href="{% url 'books' %}">{{ lang_word }}</a>

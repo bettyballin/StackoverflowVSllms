@@ -1,1 +1,0 @@
-// src/View/Helper/MenuHelper.php\nnamespace App\View\Helper;\n\nuse Cake\View\Helper;\n\nclass MenuHelper extends Helper\n{\n    public function render(array $items)\n    {\n        $output = '<ul>';\n        foreach ($items as $item) {\n            $output .= '<li>' . h($item['name']) . '</li>';\n        }\n        return $output . '</ul>';\n    }\n}

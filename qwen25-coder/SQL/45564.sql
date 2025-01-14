@@ -1,1 +1,0 @@
-CREATE TABLE Documents (\n    DocumentID NUMBER PRIMARY KEY,\n    FileName VARCHAR2(1024),\n    FilePath VARCHAR2(1024), -- Store path to the document in NAS/SAN\n    -- Other metadata fields...\n    BlobContent BFILE -- Optional: if you occasionally need binary data within the database\n);

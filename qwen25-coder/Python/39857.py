@@ -1,1 +1,0 @@
-# Python example: Execution by the interpreter\ndef hello_world():\n    print("Hello, World!")\n\nhello_world()\n# Run directly in a Python environment: python script.py or interactively.

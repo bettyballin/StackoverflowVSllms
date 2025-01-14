@@ -1,1 +1,0 @@
-import inspect\nimport datetime\n\n# Using __file__\ntry:\n    print("Location using __file__:", datetime.__file__)\nexcept AttributeError:\n    print("Module does not have a __file__ attribute, likely built-in.")\n\n# Using inspect module\nprint("Location using inspect.getfile():", inspect.getfile(datetime))

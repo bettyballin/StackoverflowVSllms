@@ -1,1 +1,0 @@
-' Setting help text for various controls using the HelpProvider.\n   HelpProvider1.SetHelpString(Button1, "Click this button to save your changes.")\n   HelpProvider1.SetHelpString(TextBox1, "Enter your name here.")

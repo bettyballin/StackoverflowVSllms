@@ -1,1 +1,0 @@
-SELECT sc-status, COUNT(*) AS STATUS_COUNT \n   FROM ex*.log \n   GROUP BY sc-status \n   ORDER BY STATUS_COUNT DESC;

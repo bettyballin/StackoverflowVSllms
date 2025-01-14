@@ -1,1 +1,0 @@
-SELECT TOP 1 * FROM YourLinkedServerName.YourDatabaseName.dbo.SomeTable;

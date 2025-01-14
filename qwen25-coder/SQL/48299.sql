@@ -1,1 +1,0 @@
-DBCC CHECKDB ('master') WITH NO_INFOMSGS;

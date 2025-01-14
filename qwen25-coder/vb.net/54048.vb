@@ -1,1 +1,0 @@
-Imports System.Threading\n\nModule Module1\n    Private Shared _flag As Boolean\n\n    Sub Main()\n        ' Set a field as volatile equivalent\n        Volatile.Write(_flag, True)\n        \n        ' Read the field as volatile equivalent\n        Dim flagValue = Volatile.Read(_flag)\n        \n        Console.WriteLine(flagValue)\n    End Sub\nEnd Module

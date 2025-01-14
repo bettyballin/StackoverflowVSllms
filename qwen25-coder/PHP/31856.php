@@ -1,1 +1,0 @@
-function _login_error_translator($error) {\n       // pgettext: Different error types for the login page\n       // pgettext: page-error-invalid-credentials\n       // pgettext: page-error-account-disabled\n\n       return translate('page-error-' . $error);\n   }\n\n   // Usage\n   echo _login_error_translator($error);

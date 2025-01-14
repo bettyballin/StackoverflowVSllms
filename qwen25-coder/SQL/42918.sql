@@ -1,1 +1,0 @@
-GRANT SELECT ON SCHEMA::dbo TO [NewUser];\n   GO

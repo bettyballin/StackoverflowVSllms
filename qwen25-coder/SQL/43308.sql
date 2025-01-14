@@ -1,1 +1,0 @@
-SELECT request_session_id, resource_description, request_mode, request_status\n   FROM sys.dm_tran_locks\n   WHERE resource_type = 'PAGE'\n     AND OBJECT_NAME(resource_associated_entity_id) = 'YourTableName';

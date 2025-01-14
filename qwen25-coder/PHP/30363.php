@@ -1,1 +1,0 @@
-function isTrulyEmpty($var) {\n    return !isset($var) || $var === "";\n}\n\n// Usage:\nif (!isTrulyEmpty($myvariable)) {\n    // do something\n}\nif (!isTrulyEmpty($othervar)) {\n    // do something\n}\nif (!isTrulyEmpty($anothervar)) {\n    // do something\n}

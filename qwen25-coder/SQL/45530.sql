@@ -1,1 +1,0 @@
-SELECT event, COUNT(*)\n    FROM v$session_wait\n    WHERE waiting_session IS NOT NULL\n    GROUP BY event\n    ORDER BY 2 DESC;

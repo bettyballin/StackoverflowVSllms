@@ -1,1 +1,0 @@
-SELECT  gross_actual\nFROM    afe\nJOIN    afepartner ON afe.afeid = afepartner.afeid\nJOIN    users ON afe.userid = users.userid\nLEFT JOIN afe_accrual_totals_gross ON afe.afeid = afe_accrual_totals_gross.afeid;

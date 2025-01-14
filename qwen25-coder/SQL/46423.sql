@@ -1,1 +1,0 @@
-CREATE TYPE WordListType AS TABLE (word NVARCHAR(100));

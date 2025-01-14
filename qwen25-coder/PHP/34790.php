@@ -1,1 +1,0 @@
-<li><a href="#tab" <?php echo $class; ?>><span><?php echo 'Shout ' . $tabdate; ?></span><b></b></a></li>

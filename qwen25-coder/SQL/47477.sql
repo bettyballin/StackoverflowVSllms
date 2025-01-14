@@ -1,1 +1,0 @@
-select a.refnum, b.refnum, c.refnum\nfrom myTable a \nleft outer join myTable b \n    on (a.contid = b.contid and b.type = 10000) \nleft outer join myTable c \n    on (a.contid = c.contid and c.type = 20000) \nwhere a.type = 90000;

@@ -1,1 +1,0 @@
-SELECT T2.*\nFROM Table1 AS T1\nJOIN Table2 AS T2 ON T2.ColumnB LIKE CONCAT(T1.ColumnA, '%');

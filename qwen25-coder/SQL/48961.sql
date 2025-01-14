@@ -1,1 +1,0 @@
-WITH RankedProducts AS (\n    SELECT \n        ID,\n        Product,\n        Color,\n        ROW_NUMBER() OVER (PARTITION BY Product, Color ORDER BY ID) as rn\n    FROM \n        Products\n)\nSELECT \n    ID,\n    Product,\n    Color\nFROM \n    RankedProducts\nWHERE \n    rn = 1;

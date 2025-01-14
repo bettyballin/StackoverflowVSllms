@@ -1,1 +1,0 @@
-<configuration>\n    <system.webServer>\n        <httpErrors errorMode="Detailed" existingResponse="Replace">\n            <remove statusCode="404"/>\n            <error statusCode="404" path="/404.php" responseMode="ExecuteURL"/>\n        </httpErrors>\n    </system.webServer>\n</configuration>

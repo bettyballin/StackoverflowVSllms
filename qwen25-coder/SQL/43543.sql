@@ -1,1 +1,0 @@
-CREATE ROLE DataReader;\n    GRANT SELECT ON [dbo].[TableName] TO DataReader;\n    ALTER ROLE DataReader ADD MEMBER [username];

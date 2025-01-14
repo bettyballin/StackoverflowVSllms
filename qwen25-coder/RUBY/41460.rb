@@ -1,1 +1,0 @@
-# Initialize Redis client\n   REDIS = Redis.new\n\n   def update_online_status(user)\n     REDIS.setex "user:online:#{user.id}", 600, Time.now.to_i # expire in 10 minutes\n   end\n\n   def get_online_users\n     REDIS.keys("user:online:*").map do |key|\n       user_id = key.split(':').last\n       User.find(user_id)\n     end\n   end

@@ -1,1 +1,0 @@
-DECLARE\n  formattedDate VARCHAR2(7) := to_char(paramDate,'mm/yyyy');\nBEGIN\n  SELECT id, name\n  FROM customer\n  WHERE period_aded = formattedDate;\nEND;

@@ -1,1 +1,0 @@
-IF p_c_courtesies_cd \n   || p_c_language_cd \n   || v_c_name \n   || v_c_firstname \n   || v_c_function \n   || p_c_phone \n   || p_c_mobile \n   || p_c_fax \n   || v_c_email is not null\nTHEN\n     -- Do something\nEND IF;

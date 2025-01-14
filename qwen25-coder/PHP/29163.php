@@ -1,1 +1,0 @@
-mysqli_set_charset($connection, "utf8mb4");\n// or for PDO\n$pdo = new PDO('mysql:host=your_host;dbname=your_db_name;charset=utf8mb4', 'username', 'password');

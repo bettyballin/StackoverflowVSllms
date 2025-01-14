@@ -1,1 +1,0 @@
-SELECT foo.blah1, foo.blah2, foo.foreign_key, foo2.something\nFROM foo\nLEFT JOIN foo2 ON foo.foreign_key = foo2.key\nWHERE foo.key = bar;

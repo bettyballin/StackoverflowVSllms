@@ -1,1 +1,0 @@
-<% form_for([@network, @channel], url: network_channels_path(@network)) do |f| %>\n  ...\n<% end %>

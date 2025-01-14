@@ -1,1 +1,0 @@
-public function receive_url()\n{\n    $url = $this->input->get('url');\n    // Further processing of the URL\n    $data['url'] = $url;\n\n    // Assuming you want to return a simple message back\n    $callback = $this->input->get('callback', TRUE);\n    header('Content-Type: application/javascript');\n    echo $callback . '(' . json_encode($data) . ');';\n}

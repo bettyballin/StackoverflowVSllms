@@ -1,1 +1,0 @@
-<?php \n    setlocale(LC_TIME, 'it_IT.UTF-8'); // Use LC_TIME for date and time formatting\n    echo strftime("%a %d %b %Y", strtotime($row['eventtime'])); \n?>

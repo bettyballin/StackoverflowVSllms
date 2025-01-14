@@ -1,1 +1,0 @@
-WITH RankedRecords AS (\n    SELECT \n        *,\n        ROW_NUMBER() OVER (PARTITION BY name ORDER BY id) as rn -- Assuming 'id' is a unique identifier for each row\n    FROM \n        your_table_name\n)\nDELETE FROM RankedRecords\nWHERE rn > 1;

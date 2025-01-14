@@ -1,1 +1,0 @@
-INSERT INTO table1 (i, j, k, a, b, c, x, y, z)\nSELECT @i, @j, @k, t.a, t.b, t.c, @x, @y, @z\nFROM table2 t\nWHERE t.id = @id;

@@ -1,1 +1,0 @@
-function my_custom_page_callback($arg1) {\n    // Check if the argument leads to a "not found" condition.\n    if ($some_condition_based_on_arg1) {\n        return drupal_not_found();\n    }\n\n    // Proceed with normal page rendering logic.\n    // ...\n}

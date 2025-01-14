@@ -1,1 +1,0 @@
-SELECT COUNT(DISTINCT t3_id) AS total_count\nFROM (\n    SELECT t3.id AS t3_id \n    FROM t1 \n    JOIN t2 ON (t1.some_field = t2.some_field)\n    JOIN t3 ON (t2.some_other_field = t3.some_field)\n    WHERE (associate t1,t2, and t3 with each other)\n) AS subquery;

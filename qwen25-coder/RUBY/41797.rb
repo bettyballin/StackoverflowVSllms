@@ -1,1 +1,0 @@
-class BinaryFile < ApplicationRecord\n  has_one_attached :file\nend

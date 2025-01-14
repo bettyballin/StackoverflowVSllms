@@ -1,1 +1,0 @@
-Public Class MyCalculationProgressEventArgs : Inherits EventArgs\n    Public Property Percent As Integer\n\n    Sub New(obj As Object, myValue As Integer)\n        ' Initialize properties here if needed\n        Percent = myValue ' Assuming myValue is the percentage of progress\n    End Sub\nEnd Class

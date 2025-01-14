@@ -1,1 +1,0 @@
-BEGIN\n  -- Select with lock\n  INSERT INTO B (SELECT /*+ ROWID(B) */ * FROM A FOR UPDATE);\n\n  -- Delete rows that were locked and inserted into B\n  DELETE FROM A WHERE CURRENT OF cur;\n  \n  COMMIT;\nEND;

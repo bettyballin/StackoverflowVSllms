@@ -1,1 +1,0 @@
-<joined-subclass name="FreeMinutesBenefit" table="BenefitDetails_FreeMinutes">\n    <key column="map_id"/>\n    \n    <property name="freeMinutes" type="int" not-null="true">\n        <column name="minutes"/>\n    </property>\n</joined-subclass>

@@ -1,1 +1,0 @@
-USE master;\n  GO\n  CREATE LOGIN FileStreamUser WITH PASSWORD = 'SecurePassword123!';\n  GO\n  USE YourDatabaseName;\n  GO\n  CREATE USER FileStreamUser FOR LOGIN FileStreamUser;\n  GO\n  ALTER ROLE db_datareader ADD MEMBER FileStreamUser;\n  ALTER ROLE db_datawriter ADD MEMBER FileStreamUser;

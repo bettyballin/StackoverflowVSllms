@@ -1,1 +1,0 @@
-<?php\nclass Authentication {\n    function checkLogin() {\n        // Your login check logic here\n    }\n}\n\n// Instantiate the Authentication object in a global scope\n$auth = new Authentication();\n?>

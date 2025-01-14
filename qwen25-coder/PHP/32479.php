@@ -1,1 +1,0 @@
-setcookie("hello", "active", time() + 3600, '/');

@@ -1,1 +1,0 @@
-SELECT * FROM books \nWHERE bookid != 30 \nAND (tags LIKE '%one%' OR tags LIKE '% two%' OR tags LIKE '% three%') \nAND visible = '1' AND level = '2'\nLIMIT 3;

@@ -1,1 +1,0 @@
-for r in t(10):\n    print(' '.join(map(str,r)).center(39))

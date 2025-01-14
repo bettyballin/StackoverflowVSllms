@@ -1,1 +1,0 @@
-CREATE TABLE your_table (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    column1 VARCHAR(255),\n    column2 VARCHAR(255),\n    UNIQUE (column1, column2)\n);

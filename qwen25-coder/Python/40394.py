@@ -1,1 +1,0 @@
-# Example of how to use Financial Times News API in Python\n   import requests\n\n   api_key = 'YOUR_API_KEY'\n   url = f'https://api.ft.com/content/items?apiKey={api_key}&tag=financial-news'\n   response = requests.get(url)\n   data = response.json()\n   print(data)

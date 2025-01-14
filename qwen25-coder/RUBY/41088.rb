@@ -1,1 +1,0 @@
-# In spec_helper.rb or rspec configuration file\n    require 'webmock/rspec'\n    WebMock.disable_net_connect!(allow_localhost: true)

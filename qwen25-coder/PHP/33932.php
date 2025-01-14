@@ -1,1 +1,0 @@
-class Home extends Controller {\n    /**\n     * Constructor\n     */\n    function Home() { // Old style constructor\n        parent::Controller();\n    }\n\n    // Other functions...\n}

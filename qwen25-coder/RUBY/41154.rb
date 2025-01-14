@@ -1,1 +1,0 @@
-ew_hash = {"a" => "b", "c" => "d"}.transform_values(&:upcase)

@@ -1,1 +1,0 @@
-$genreList = [];\n\nfunction directorGen($array)\n{\n    global $genreList; // Declare $genreList as global to modify the external variable\n\n    foreach ($array as $value) {\n        $genreList[] = $value;\n    }\n}\n\n// later..\n\ndirectorGen($title->genres());

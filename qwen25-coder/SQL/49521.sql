@@ -1,1 +1,0 @@
-USE [YourDatabaseName];\nGO\nCREATE SCHEMA [YourSchemaName];  -- Optional: Create schema if needed\nGO\nCREATE USER [YourUserName] FOR LOGIN [YourLoginName];\nGO\nALTER ROLE [YourRoleName] ADD MEMBER [YourUserName];\nGO

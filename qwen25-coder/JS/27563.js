@@ -1,1 +1,0 @@
-document.addEventListener('dragstart', function(event) {\n    // Disable text selection\n    document.body.style.userSelect = 'none';\n}, false);\n\ndocument.addEventListener('dragend', function(event) {\n    // Re-enable text selection\n    document.body.style.userSelect = '';\n}, false);

@@ -1,1 +1,0 @@
-SELECT \n  (a IS NULL AND b IS NULL) OR (a IS NOT NULL AND b IS NOT NULL AND a = b) AS is_equal

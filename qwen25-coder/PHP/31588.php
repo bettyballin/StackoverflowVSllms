@@ -1,1 +1,0 @@
-$siteId = 1; // Example site ID\n   $hitType = 'in'; // Can be 'in' or 'out'\n   \n   $stmt = $pdo->prepare("INSERT INTO hits (site_id, hit_type) VALUES (?, ?)");\n   $stmt->execute([$siteId, $hitType]);

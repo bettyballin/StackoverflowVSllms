@@ -1,1 +1,0 @@
-header("Content-Type: application/json; charset=UTF-8");\n   header("Access-Control-Allow-Origin: *");

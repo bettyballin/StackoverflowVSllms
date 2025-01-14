@@ -1,1 +1,0 @@
-SELECT col1 | col2 AS combined_column\nFROM myTable;

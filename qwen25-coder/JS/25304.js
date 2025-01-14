@@ -1,1 +1,0 @@
-const connection = new signalR.HubConnectionBuilder()\n    .withUrl("/milesHub")\n    .build();\n\nconnection.on("ReceiveMiles", function (newMiles) {\n    document.getElementById('globalMilesCounter').innerText = `Global Miles: ${newMiles}`;\n});\n\nconnection.start().catch(err => console.error(err.toString()));

@@ -1,1 +1,0 @@
-$sql = "DELETE FROM users WHERE id = ?";\n$params = [1];\n$types = 'i';\n\n$this->queryPrepared($sql, $params, $types);

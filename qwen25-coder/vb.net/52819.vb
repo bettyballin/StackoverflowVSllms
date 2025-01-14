@@ -1,1 +1,0 @@
-' In VB, you can define optional parameters with a default value directly.\nFunction Greet(name As String, greeting As String = "Hello") As String\n    Return $"{greeting}, {name}!"\nEnd Functio

@@ -1,1 +1,0 @@
-composer require delight-im/auth

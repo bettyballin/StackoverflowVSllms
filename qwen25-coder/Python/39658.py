@@ -1,1 +1,0 @@
-x = ('a', 'b', 'c')\ny = ('d', 'e', 'f')\nz = ('g', 'e', 'i')\n\nl = [x, y, z]\n\n# Flatten the list of tuples and convert to a set for unique elements\ns = {element for tuple in l for element in tuple}\n\nprint(s)  # Output: {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'i'}

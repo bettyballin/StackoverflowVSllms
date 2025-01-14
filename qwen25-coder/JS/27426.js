@@ -1,1 +1,0 @@
-function parseAndExecute(data) {\n       const div = document.createElement('div');\n       div.textContent = data.message; // Safe as we're setting text content\n       document.body.appendChild(div);\n     }

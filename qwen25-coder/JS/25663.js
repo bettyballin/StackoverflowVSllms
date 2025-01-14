@@ -1,1 +1,0 @@
-$.ajax({\n      url: 'test.xml',\n      type: 'GET',\n      dataType: 'xml',\n      mimeType: 'text/xml',\n\n      error: function(XMLHttpRequest, textStatus, errorThrown) {\n          alert('Error: ' + textStatus + ", " + errorThrown);\n      },\n\n      success: function(xml){\n           ...\n      }\n   });

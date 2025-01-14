@@ -1,1 +1,0 @@
-$query = $xpath->query('//input[@name="' . $field . '"] | //select[@name="' . $field . '"] | //textarea[@name="' . $field . '"]');

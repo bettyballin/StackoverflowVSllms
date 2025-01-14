@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>com.fasterxml.jackson.core</groupId>\n    <artifactId>jackson-databind</artifactId>\n    <version>2.13.0</version>\n</dependency>

@@ -1,1 +1,0 @@
-import inflect\n\np = inflect.engine()\n\nwords = ["Types", "Categories", "Series", "News"]\n\nfor word in words:\n    print(f"Plural: {word}, Singular: {p.singular_noun(word) or word}")

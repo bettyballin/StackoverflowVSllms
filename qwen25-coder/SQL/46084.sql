@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n    SELECT *, 1 AS TableSource FROM TABLE1 WHERE <SomeCondition>\n    UNION ALL\n    SELECT *, 2 AS TableSource FROM TABLE2 WHERE NOT <SomeCondition>\n) AS DerivedTable\nUNION ALL\nSELECT *, 3 AS TableSource FROM TABLE3;

@@ -1,1 +1,0 @@
-EXEC sp_who;\n   EXEC sp_who2;

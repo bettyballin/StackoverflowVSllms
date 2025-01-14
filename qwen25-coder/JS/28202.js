@@ -1,1 +1,0 @@
-<script>\n    var displayItemUrl = '@Url.Action("DisplayItem", "Home")';\n</script>\n<script src="your-external-js-file.js"></script>

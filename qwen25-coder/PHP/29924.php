@@ -1,1 +1,0 @@
-<?php\n\n// Assuming you have an array or collection that needs iteration\n$collection = [1, 2, 3, 4, 5];\n\n// Create a new ArrayIterator object using the collection\n$iterator = new ArrayIterator($collection);\n\n// Iterate over the collection using foreach\nforeach ($iterator as $item) {\n    // do something with $item\n    echo $item . PHP_EOL;\n}

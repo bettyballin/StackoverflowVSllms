@@ -1,1 +1,0 @@
-INSERT /*+ APPEND */ INTO your_table(column1, column2, ...)\n   VALUES (...);

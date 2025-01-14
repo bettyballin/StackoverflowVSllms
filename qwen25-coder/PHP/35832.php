@@ -1,1 +1,0 @@
-ini_set('memory_limit', '512M'); // Increase as needed, but keep an eye on server resources.

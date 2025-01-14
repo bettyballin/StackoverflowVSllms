@@ -1,1 +1,0 @@
-rank = MathScore.find_by_sql(\n  "SELECT count(*) + 1 AS rank \n   FROM math_scores \n   WHERE score > (\n     SELECT score \n     FROM math_scores \n     WHERE test_id = 33 AND first_name = 'John' AND last_name = 'Doe'\n   )"\n).first&.rank || 0\n\nputs "Rank: #{rank}"

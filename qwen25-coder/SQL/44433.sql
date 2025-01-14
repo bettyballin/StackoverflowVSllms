@@ -1,1 +1,0 @@
-CREATE OR REPLACE TYPE NUMBER_TABLE AS TABLE OF NUMBER;\n/\n\nCREATE TABLE large_array_table (\n    id NUMBER PRIMARY KEY,\n    numbers NUMBER_TABLE\n) NESTED TABLE numbers STORE AS my_nested_table_store;\n/

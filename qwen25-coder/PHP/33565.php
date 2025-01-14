@@ -1,1 +1,0 @@
-function containsForbiddenPattern($username, $pattern) {\n    return strpos($username, $pattern) !== false;\n}\n\n$username = "Game_Admin";\n$forbiddenPattern = "Admin";\n\nif (containsForbiddenPattern($username, $forbiddenPattern)) {\n    echo "Username contains forbidden pattern.";\n} else {\n    echo "Username is valid.";\n}

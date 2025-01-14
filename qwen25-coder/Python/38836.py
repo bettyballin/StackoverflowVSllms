@@ -1,1 +1,0 @@
-import hashlib\n   # Example of hashing using SHA-256\n   message = "password123"\n   hash_object = hashlib.sha256(message.encode())\n   hex_dig = hash_object.hexdigest()\n   print(hex_dig)  # Output will be a hash value

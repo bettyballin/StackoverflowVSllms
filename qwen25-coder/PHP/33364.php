@@ -1,1 +1,0 @@
-function transliterateString($string) {\n    $transliterator = \Transliterator::create('Any-Latin; NFD; [:Nonspacing Mark:] Remove; NFC; Lower();');\n    return $transliterator->transliterate($string);\n}\n\n$input = "Café Münchner";\necho transliterateString($input); // Output: cafe munchner

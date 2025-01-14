@@ -1,1 +1,0 @@
-/**\n * Calculates the sum of two numbers.\n *\n * @param int $a The first number.\n * @param int $b The second number.\n * @return int The sum of the numbers.\n */\nfunction sum($a, $b) {\n    return $a + $b;\n}

@@ -1,1 +1,0 @@
-document.getElementById('parentElement').addEventListener('change', function(event) {\n    if (event.target.tagName === 'SELECT') {\n        console.log('Select changed:', event.target.value);\n    }\n});

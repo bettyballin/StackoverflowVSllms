@@ -1,1 +1,0 @@
-var myArray = [\n    [1, 2, 3],\n    [4, 5, 6]\n];\n\nnew Ajax.Request('your-php-file.php', {\n    method: 'post',\n    contentType: 'application/json;charset=UTF-8',\n    postBody: JSON.stringify(myArray),\n    onSuccess: function(response) {\n        console.log(response.responseText);\n    }\n});

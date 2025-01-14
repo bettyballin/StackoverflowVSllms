@@ -1,1 +1,0 @@
-preg_match_all('/\{CONSTANT_(.*?)\}/', $final, $result, PREG_SET_ORDER);\n$replacements = [];\n\nforeach ($result as $match) {\n    $constantName = $match[1];\n    $replacements['{' . $match[0] . '}'] = constant($constantName);\n}\n\n$final = str_replace(array_keys($replacements), array_values($replacements), $final);

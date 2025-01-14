@@ -1,1 +1,0 @@
-function &getReference() {\n    $largeArray = range(1, 10000); // Example of a large array\n    return $largeArray;\n}\n\n$ref = &getReference(); // Note the ampersand here as well

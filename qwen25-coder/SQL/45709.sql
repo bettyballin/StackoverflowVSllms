@@ -1,1 +1,0 @@
-CHAR[(M)] \nVARCHAR(M) \nTEXT \nTINYTEXT \nMEDIUMTEXT \nLONGTEXT\nENUM(value1,value2,...)\nSET(value1,value2,...)

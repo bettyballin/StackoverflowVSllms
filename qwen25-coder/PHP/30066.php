@@ -1,1 +1,0 @@
-$city = mysqli_real_escape_string($conn, $searchTerm);\n$query = "SELECT city, levenshtein(city, '$city') AS dist FROM $table ORDER BY dist LIMIT 5";\n$result = mysqli_query($conn, $query);\n\nwhile ($row = mysqli_fetch_assoc($result)) {\n    echo "City: " . htmlspecialchars($row['city']) . ", Distance: " . $row['dist'] . "<br>";\n}

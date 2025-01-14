@@ -1,1 +1,0 @@
-Public Const ADate As Date = #12/31/2004# ' Avoid using, as shown, due to locale issues\n\n' Use this approach instead:\nPublic Shared ReadOnly ADate As DateTime = New DateTime(2004, 12, 31)

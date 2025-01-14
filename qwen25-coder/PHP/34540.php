@@ -1,1 +1,0 @@
-function combineArrays($keys, $values) {\n    if (count($keys) !== count($values)) {\n        return false; // or handle the error as needed\n    }\n    return array_combine($keys, $values);\n}\n\n$array1 = ['key1', 'key2', 'key3'];\n$array2 = ['value1', 'value2', 'value3'];\n\n$result = combineArrays($array1, $array2);\nprint_r($result);

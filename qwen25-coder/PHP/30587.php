@@ -1,1 +1,0 @@
-<?php\n// foo.php\nfunction foo($p, $vars = []) {\n    extract($vars); // Extract array elements into symbols\n    include_once($p);\n}\n?>

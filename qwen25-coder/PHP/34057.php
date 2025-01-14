@@ -1,1 +1,0 @@
-$pattern = '/}\s*\\page\{.*?\}\\viewkind4/ims';\n$replacement = '}\page';\n$newContent = preg_replace($pattern, $replacement, $content);

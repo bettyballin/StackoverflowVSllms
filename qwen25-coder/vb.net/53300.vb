@@ -1,1 +1,0 @@
-Imports System.Net\n\nDim originalString As String = "<html> & <body>"\nDim encodedString As String = WebUtility.HtmlEncode(originalString)\n\nConsole.WriteLine(encodedString)  ' Output: &lt;html&gt; &amp; &lt;body&gt;

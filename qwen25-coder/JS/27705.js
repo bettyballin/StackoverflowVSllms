@@ -1,1 +1,0 @@
-// Example using DOMPurify to sanitize and then inject into shadow DOM\nimport DOMPurify from 'dompurify';\n\nlet userInput = '<p>User provided content with <b>bold</b> text.</p>';\nlet cleanContent = DOMPurify.sanitize(userInput);\n\nshadowRoot.innerHTML += `<style>\n  /* styles */\n</style>${cleanContent}`;

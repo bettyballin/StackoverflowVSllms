@@ -1,1 +1,0 @@
-SELECT b1.BillId AS FirstBillId, b2.BillId AS SecondBillId\nFROM Bills b1\nJOIN Bills b2 ON b1.BillId = b2.BillId - 1\nWHERE b1.Estimated = 1 AND b2.Estimated = 1;

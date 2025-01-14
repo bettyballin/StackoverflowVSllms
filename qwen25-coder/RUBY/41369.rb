@@ -1,1 +1,0 @@
-# Adding numbers 1 through 10 using splat with sum\nputs [1..10].flatten.sum\n\n# Passing multiple arguments from an array to a method\ndef greet(*names)\n  names.each { |name| puts "Hello, #{name}!" }\nend\n\ngreet *["Alice", "Bob", "Charlie"]\n\n# Merging arrays using splat\narray1 = [1, 2, 3]\narray2 = [*4..6]\ncombined_array = [*array1, *array2]\nputs combined_array.inspect

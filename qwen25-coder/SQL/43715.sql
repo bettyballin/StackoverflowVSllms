@@ -1,1 +1,0 @@
-SELECT \n    CAST(Date AS DATE) AS Date,\n    COUNT(*) AS Count\nFROM \n    YourTableName\nGROUP BY \n    CAST(Date AS DATE)\nORDER BY \n    CAST(Date AS DATE);

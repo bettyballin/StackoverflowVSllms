@@ -1,1 +1,0 @@
-CREATE TABLE contacts (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    user_id INT NOT NULL,\n    friend_id INT NOT NULL,\n    created DATETIME,\n    modified DATETIME,\n    FOREIGN KEY (user_id) REFERENCES users(id),\n    FOREIGN KEY (friend_id) REFERENCES users(id)\n);

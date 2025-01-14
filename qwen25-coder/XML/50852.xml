@@ -1,1 +1,0 @@
-<PropertyGroup>\n    <!-- Existing AssemblyVersion and AssemblyFileVersion settings -->\n    <AssemblyVersion>$(CCNetLabel)</AssemblyVersion>\n    <AssemblyFileVersion>$(CCNetLabel)</AssemblyFileVersion>\n\n    <!-- Disable specific warnings -->\n    <NoWarn>1607;$(NoWarn)</NoWarn>\n</PropertyGroup>

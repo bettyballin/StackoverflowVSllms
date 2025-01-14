@@ -1,1 +1,0 @@
-<!-- Example config snippet in terracotta.properties -->\n<tc-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" \n         xsi:noNamespaceSchemaLocation="http://www.terracotta.org/schema/terracotta-5.xsd">\n    <servers>\n        <server host="localhost" name="TSA"/>\n    </servers>\n</tc-config>

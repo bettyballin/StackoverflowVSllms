@@ -1,1 +1,0 @@
-// Example of creating a new Word file\n   require 'PhpWord/Autoloader.php';\n   PhpOffice\PhpWord\Autoloader::register();\n   $phpWord = new \PhpOffice\PhpWord\PhpWord();\n   $section = $phpWord->addSection();\n   $section->addText('Hello World !');\n   \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007')->save('hello world.docx');

@@ -1,1 +1,0 @@
-$fullUrl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" .\n           $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];\necho $fullUrl;

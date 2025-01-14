@@ -1,1 +1,0 @@
-SELECT * FROM sys.fulltext_indexes WHERE object_id = OBJECT_ID('YourTableName');

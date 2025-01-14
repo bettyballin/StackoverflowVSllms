@@ -1,1 +1,0 @@
-<?php\n$date = new DateTime('2009-07-01 12:00:00', new DateTimeZone('America/Los_Angeles'));\necho $date->format('P'); // Outputs: -07:00\n\n// To get the offset in hours:\n$offsetInSeconds = $date->getOffset();\n$offsetInHours = $offsetInSeconds / 3600;\necho $offsetInHours; // Outputs: -7\n?>

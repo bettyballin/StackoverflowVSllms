@@ -1,1 +1,0 @@
-SELECT name, description, ... \nFROM your_table\nWHERE id IN (id1, id2, id3)\nORDER BY FIELD(id, id1, id2, id3);

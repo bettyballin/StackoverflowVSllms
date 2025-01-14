@@ -1,1 +1,0 @@
-function isMobileBrowser() {\n    return /Mobi|Android/i.test(navigator.userAgent);\n}\n\nif (isMobileBrowser()) {\n    console.log("This is a mobile browser.");\n    // Redirect to mobile version or load mobile styles/scripts\n} else {\n    console.log("This is not a mobile browser.");\n}

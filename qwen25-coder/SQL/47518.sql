@@ -1,1 +1,0 @@
-BEGIN\n  FOR i IN 1..100 LOOP -- Adjust loop limit based on your batch size\n    INSERT INTO tablea (id, b, c) VALUES (tablea_seq.nextval, 1, 2);\n    INSERT INTO tablea (id, b, c) VALUES (tablea_seq.nextval, 3, 4);\n    -- Add more inserts as necessary within this loop to batch process\n  END LOOP;\nEND;\n/

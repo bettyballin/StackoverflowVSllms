@@ -1,1 +1,0 @@
-<!-- partials/messages.phtml -->\n<div class="messages">\n    <?php foreach ($this->messages as $msg): ?>\n        <p><?php echo htmlspecialchars($msg['message']); ?></p>\n    <?php endforeach; ?>\n</div>

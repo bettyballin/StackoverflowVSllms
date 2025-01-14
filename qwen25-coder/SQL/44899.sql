@@ -1,1 +1,0 @@
-CREATE PROCEDURE UpdateCountries\nAS\nBEGIN\n    UPDATE Data\n    SET Country = Translations.To\n    FROM Data\n    JOIN Translations ON Data.Country = Translations.From;\nEND;

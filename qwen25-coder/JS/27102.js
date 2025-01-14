@@ -1,1 +1,0 @@
-function isEmpty(str) {\n    return str == null || str.trim() === '';\n}\n\n// Example usage:\nconsole.log(isEmpty(""));        // true\nconsole.log(isEmpty(null));      // true\nconsole.log(isEmpty(undefined)); // true\nconsole.log(isEmpty("   "));     // true\nconsole.log(isEmpty("test"));    // false

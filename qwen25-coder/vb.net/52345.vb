@@ -1,1 +1,0 @@
-Namespace MySubNamespace\n    Public Class MyClass\n        ' Your class code here\n    End Class\nEnd Namespace

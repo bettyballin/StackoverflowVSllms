@@ -1,1 +1,0 @@
-DECLARE @bitPosition INT = 0; -- Position of the bit to flip, 0-based index\n\nUPDATE foo\nSET Sync = Sync ^ (1 << @bitPosition);

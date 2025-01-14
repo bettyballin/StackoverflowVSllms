@@ -1,1 +1,0 @@
-<?php\n$page_title = 'Contact Us - Get in Touch';\n$page_keywords = 'contact form, email us, phone number';\n$page_description = 'How to contact our customer support team through various channels including email and phone.';\ninclude('header.php');\n?>\n<!-- rest of your page content goes here -->

@@ -1,1 +1,0 @@
-$var = ["apple", "banana"];\nprint_r($var);\n// Outputs:\n// Array\n// (\n//     [0] => apple\n//     [1] => banana\n// )

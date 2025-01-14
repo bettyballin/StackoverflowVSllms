@@ -1,1 +1,0 @@
-CREATE TABLE IF NOT EXISTS secrets (\n       id INTEGER PRIMARY KEY AUTOINCREMENT,\n       service TEXT NOT NULL,\n       username TEXT NOT NULL,\n       password TEXT NOT NULL\n   );\n\n   INSERT INTO secrets (service, username, password) VALUES ('MyService', 'myusername', 'mypassword');\n   .quit

@@ -1,1 +1,0 @@
-include_once "Foo2.php"; // Ensures Foo2.php is included only once\n\n   class Foo {\n       function doFoo() {\n           include_once "Foo2.php"; // Not ideal but avoids duplication issues\n       }\n   }

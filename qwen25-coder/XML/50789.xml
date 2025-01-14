@@ -1,1 +1,0 @@
-<filter>\n    <filter-name>WhitespaceFilter</filter-name>\n    <filter-class>com.example.WhitespaceFilter</filter-class>\n</filter>\n\n<filter-mapping>\n    <filter-name>WhitespaceFilter</filter-name>\n    <url-pattern>*.jsp</url-pattern>\n</filter-mapping>

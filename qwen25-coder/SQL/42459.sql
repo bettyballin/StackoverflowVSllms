@@ -1,1 +1,0 @@
--- Change back to Full Recovery if needed\n    ALTER DATABASE ByBox SET RECOVERY FULL;\n    GO\n\n    -- Take a Full Backup\n    BACKUP DATABASE ByBox TO DISK = 'C:\path\to\bybox_full.bak';\n    GO\n\n    -- Schedule regular Log Backups\n    BACKUP LOG [ByBox] TO DISK = 'C:\path\to\bybox_log.trn';\n    GO

@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- Example: Alter table schema before SELECT INTO (do this with caution)\nALTER TABLE YourTable ADD NewColumn INT;\n\n-- Perform the SELECT INTO operation\nSELECT * INTO NewTable FROM YourTable;\n\nCOMMIT TRANSACTION;

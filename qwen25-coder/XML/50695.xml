@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>com.atlassian.commonmark</groupId>\n    <artifactId>atlassian-commonmark</artifactId>\n    <version>0.17.2</version>\n</dependency>\n<!-- Note: This is a placeholder; check for a correct library providing PluralizationService -->

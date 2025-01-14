@@ -1,1 +1,0 @@
-CREATE TABLE example_table (\n    id BINARY(16) PRIMARY KEY,\n    name VARCHAR(255)\n);

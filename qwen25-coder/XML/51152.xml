@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.apache.tika</groupId>\n    <artifactId>tika-core</artifactId>\n    <version>2.7.0</version>\n</dependency>\n<dependency>\n    <groupId>org.apache.tika</groupId>\n    <artifactId>tika-parsers</artifactId>\n    <version>2.7.0</version>\n</dependency>

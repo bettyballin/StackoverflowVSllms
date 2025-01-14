@@ -1,1 +1,0 @@
-CREATE PROCEDURE UpdateDailyPlayValues AS\nBEGIN\n    UPDATE tb_player\n    SET CalculatedPlayValue = DATEDIFF(day, DateOfBirth, GETDATE()) * TimesPlayed * Versions;\nEND;

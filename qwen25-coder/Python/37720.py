@@ -1,1 +1,0 @@
-import psutil\nimport time\n\ndef check_cpu_usage():\n    print(f"CPU Usage Per Core: {psutil.cpu_percent(percpu=True)}")\n\nprint("Current CPU usage:")\ncheck_cpu_usage()\ntime.sleep(10)  # Simulate the period of disabling a core\nprint("\nCPU usage after disabling one core (hypothetical):")\n# Note: Actual core disabling code would go here\ncheck_cpu_usage()

@@ -1,1 +1,0 @@
-select PTNO,PTNM,CATCD\n   from PARTS \n   left join CATEGORIES on (CATEGORIES.CATCD=PARTS.CATCD);

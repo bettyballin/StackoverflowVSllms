@@ -1,1 +1,0 @@
-function getvalue($array, $key) {\n    if (is_array($array) && array_key_exists($key, $array)) {\n        return $array[$key];\n    }\n    return null; // or throw an exception, based on your error handling preference\n}\n\n// Usage\n$currentRow = current($arr);\n$itemValue = getvalue($currentRow, 'item');

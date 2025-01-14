@@ -1,1 +1,0 @@
-<?php\n   $user = $_SERVER['REMOTE_USER'];\n   // Use this username for your authentication logic\n   ?>

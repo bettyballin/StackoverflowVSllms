@@ -1,1 +1,0 @@
--- Setting command timeout to 300 seconds (adjust as necessary)\nSET NOCOUNT ON;\nGO\n\n-- Use NOLOCK hint to reduce locking contention, but be aware of potential dirty reads\nSELECT \n    COUNT(DISTINCT Status) AS DistinctStatusCount\nFROM \n    [MyTable] WITH (NOLOCK)\nWHERE \n    MemberType = 6\nOPTION (MAXDOP 1); --限制并行度以减少资源竞争

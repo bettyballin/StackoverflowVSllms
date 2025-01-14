@@ -1,1 +1,0 @@
-import requests\n\ndef get_geocode(address, api_key):\n    base_url = "https://maps.googleapis.com/maps/api/geocode/json"\n    params = {\n        'address': address,\n        'key': api_key\n    }\n    response = requests.get(base_url, params=params)\n    return response.json()

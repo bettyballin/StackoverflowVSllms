@@ -1,1 +1,0 @@
-import numpy as np\n\n   def simulate_model(time_points):\n       # Example of a simple simulation model\n       return np.sin(time_points)

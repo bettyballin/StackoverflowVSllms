@@ -1,1 +1,0 @@
-SELECT userid\nFROM your_table_name\nWHERE roleid IN (1, 2, 3)\nGROUP BY userid\nHAVING COUNT(DISTINCT roleid) = 3;

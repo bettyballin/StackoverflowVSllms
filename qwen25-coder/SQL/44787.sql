@@ -1,1 +1,0 @@
-SELECT DISTINCT stay FROM stays ORDER BY stay;

@@ -1,1 +1,0 @@
-UPDATE analyzedCopy2 INNER JOIN (\n    SELECT readings_miu_id, AvgOfRSSI\n    FROM testQuery3\n) AS SubQry\nON analyzedCopy2.readings_miu_id = SubQry.readings_miu_id\nSET analyzedCopy2.RSSI = SubQry.AvgOfRSSI;

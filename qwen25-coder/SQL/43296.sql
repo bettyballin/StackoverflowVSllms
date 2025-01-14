@@ -1,1 +1,0 @@
-ALTER LOGIN sa WITH NAME = [your_new_name];

@@ -1,1 +1,0 @@
-$ requirelogin = 0

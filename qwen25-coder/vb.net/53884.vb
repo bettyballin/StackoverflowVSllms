@@ -1,1 +1,0 @@
-Dim myObject As New Object()\n\nSyncLock myObject\n    ' Your code that needs to be thread-safe\nEnd SyncLock

@@ -1,1 +1,0 @@
-<system.web>\n  <webServices>\n    <soapExtensionTypes>\n      <add \n        type="Namespace.TraceExtensionAttribute, AssemblyName" \n        priority="1"\n        group="0"/>\n    </soapExtensionTypes>\n  </webServices>\n</system.web>

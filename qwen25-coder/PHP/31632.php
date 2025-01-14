@@ -1,1 +1,0 @@
-require_once 'path/to/PHPSQLParser.php';\n   $parser = new PHPSQLParser();\n   $parsed = $parser->parse("UPDATE users SET age=30, name='John Doe' WHERE id=5");\n   print_r($parsed);

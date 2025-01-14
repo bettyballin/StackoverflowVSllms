@@ -1,1 +1,0 @@
-def create_ssh_client_with_key(server_ip, port, user, key_path):\n    client = paramiko.SSHClient()\n    client.set_missing_host_key_policy(paramiko.AutoAddPolicy())\n    private_key = paramiko.RSAKey.from_private_key_file(key_path)\n    client.connect(server_ip, port=port, username=user, pkey=private_key)\n    return client

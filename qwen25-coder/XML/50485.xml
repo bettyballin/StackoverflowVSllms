@@ -1,1 +1,0 @@
-<wsHttpBinding>\n       <binding name="wsHttpEndpoint" ...>\n           <security mode="TransportWithMessageCredential">\n               ...\n           </security>\n       </binding>\n   </wsHttpBinding>

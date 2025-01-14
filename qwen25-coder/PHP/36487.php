@@ -1,1 +1,0 @@
-// In config/routes.php\nuse Cake\Routing\Router;\n\n// Remove or comment out any existing routing rules that could conflict\n\n// Add a catch-all route\nRouter::connect('/*', ['controller' => 'Files', 'action' => 'index']);

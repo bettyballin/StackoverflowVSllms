@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER["REQUEST_METHOD"] == "POST") {\n    $action = $_POST['submitAction'];\n    \n    if ($action === 'submit1') {\n        // Handle submit 1\n        echo "Submit 1 was clicked.";\n    } elseif ($action === 'submit2') {\n        // Handle submit 2\n        echo "Submit 2 was clicked.";\n    }\n}\n?>

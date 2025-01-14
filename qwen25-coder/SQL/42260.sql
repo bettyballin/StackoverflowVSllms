@@ -1,1 +1,0 @@
-UPDATE your_table_name\nSET your_column_name = SUBSTRING(\n    your_column_name,\n    CHARINDEX('(', your_column_name) + 1,\n    CHARINDEX(')', your_column_name) - CHARINDEX('(', your_column_name) - 1\n)\nWHERE your_column_name LIKE '%(%' AND your_column_name LIKE '%)%';

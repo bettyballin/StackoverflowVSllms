@@ -1,1 +1,0 @@
-SELECT q.*\nFROM questions q\nLEFT JOIN answered_questions aq ON q.question_id = aq.question_id AND aq.user_id = ?\nWHERE aq.question_id IS NULL\nORDER BY RAND()\nLIMIT 1;

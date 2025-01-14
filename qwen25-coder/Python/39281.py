@@ -1,1 +1,0 @@
-my_dict = {'a': 1, 'b': 2, 'c': 3}\n   list_of_tuples = list(my_dict.items())\n   print(list_of_tuples)

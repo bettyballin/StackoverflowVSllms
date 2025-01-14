@@ -1,1 +1,0 @@
-if ($a == $b) {\n    $value = 'true value # 1';\n} elseif ($a == $c) {\n    $value = 'true value # 2';\n} else {\n    $value = 'false value';\n}

@@ -1,1 +1,0 @@
--- Example SQL query using join\nSELECT i.*, c.name AS categoryName\nFROM item i\nJOIN category c ON i.category_id = c.id\nWHERE i.item_id = ?

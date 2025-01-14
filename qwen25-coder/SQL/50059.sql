@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\nIF (SELECT COUNT(*) FROM your_table WHERE id = 1) > 0 THEN\n    UPDATE your_table SET column1 = 'value1', column2 = 'value2' WHERE id = 1;\nELSE\n    INSERT INTO your_table (id, column1, column2) VALUES (1, 'value1', 'value2');\nCOMMIT;

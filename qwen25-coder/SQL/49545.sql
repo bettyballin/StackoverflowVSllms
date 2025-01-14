@@ -1,1 +1,0 @@
-SELECT xmltype(xmldata, nls_params => 'AL32UTF8') FROM mytable;

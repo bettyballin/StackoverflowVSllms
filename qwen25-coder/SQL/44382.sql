@@ -1,1 +1,0 @@
-SELECT t.*\nFROM content t,\n     (SELECT case when EXISTS(SELECT 1 FROM table WHERE somereallycomplicatedclause = 'something') then 1 else 0 end as subselectresult) as subq\nWHERE t.somefield = somevalue AND subq.subselectresult = 1;

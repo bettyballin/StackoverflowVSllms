@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION storeopeninghours_tostring(numeric)\nRETURNS TABLE(col1 text, col2 text, col3 text) AS $$\nDECLARE\n    open_id ALIAS FOR $1;\nBEGIN\n    RETURN QUERY\n    SELECT '1', '2', '3' UNION ALL\n    SELECT '3', '4', '5' UNION ALL\n    SELECT '6', '7', '8';  -- Added another row for demonstration\nEND;\n$$ LANGUAGE plpgsql;

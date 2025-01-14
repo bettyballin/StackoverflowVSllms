@@ -1,1 +1,0 @@
-$newFiles = [];\n\n// Find the maximum number of files\n$max_files = count($_FILES['filedata']['name']);\n\nfor ($i = 0; $i < $max_files; $i++) {\n    foreach ($_FILES['filedata'] as $property => $values) {\n        if (isset($values[$i])) {\n            $newFiles[$i][$property] = $values[$i];\n        }\n    }\n}\n\nprint_r($newFiles);

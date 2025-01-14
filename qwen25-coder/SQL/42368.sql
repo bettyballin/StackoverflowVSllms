@@ -1,1 +1,0 @@
-ALTER TABLE Table2 ADD EndTime GENERATED ALWAYS AS (StartTime + Duration/24) VIRTUAL;\nCREATE INDEX idx_table2_endtime ON Table2(EndTime);

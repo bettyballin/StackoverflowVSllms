@@ -1,1 +1,0 @@
-function calc($equation) {\n    // Ensure only valid characters are present\n    if (!preg_match('/^[0-9+\-\*\/\(\) ]+$/', $equation)) {\n        throw new InvalidArgumentException("Invalid equation.");\n    }\n    \n    // Evaluate the expression\n    return eval('return ' . $equation . ';');\n}\n\necho calc("(((4 * 5) + 6) * 2) / 8"); // Outputs: 11

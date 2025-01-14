@@ -1,1 +1,0 @@
-class SomeController < ApplicationController\n     before_filter :set_custom_session_id\n\n     private\n\n     def set_custom_session_id\n       request.session_options[:id] = "#{request.env['HTTP_CLIENT_ID']}_#{session.id}"\n     end\n   end

@@ -1,1 +1,0 @@
-CREATE TABLE website_config (\n    config_key VARCHAR(100) PRIMARY KEY,\n    config_value TEXT NOT NULL\n);

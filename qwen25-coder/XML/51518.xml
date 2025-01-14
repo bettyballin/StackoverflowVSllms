@@ -1,1 +1,0 @@
-<diff>\n    <add path="/w:p/w:r/w:t">\n        <value>ASDF</value>\n    </add>\n    <remove path="/w:p/w:r/w:t">\n        <value>World</value>\n    </remove>\n    <!-- Other changes can be added here -->\n</diff>

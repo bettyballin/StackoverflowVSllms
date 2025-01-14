@@ -1,1 +1,0 @@
-// Example of inserting a document in MongoDB\n     db.users.insertOne({\n       name: "Alice",\n       age: 25,\n       interests: ["reading", "hiking"]\n     });

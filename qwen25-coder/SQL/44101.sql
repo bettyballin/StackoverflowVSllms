@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table_name\nORDER BY some_column\nFETCH FIRST 10 ROWS ONLY;

@@ -1,1 +1,0 @@
-# app/models/the_model.rb\n\n# Ensure these classes are loaded when TheModel is loaded.\nrequire_dependency 'the_model/dependency_class_one'\nrequire_dependency 'the_model/dependency_class_two'\n\nclass TheModel < ApplicationRecord\n  # TheModel's logic here\nend

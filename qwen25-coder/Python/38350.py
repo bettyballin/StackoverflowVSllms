@@ -1,1 +1,0 @@
-# Example for demonstration purposes only. Actual ISN generation mechanism is complex and managed by system/kernel.\nimport random\n\ndef generate_initial_sequence_number():\n    return random.randint(0, 2**32 - 1)  # TCP sequence numbers are 32 bits long\n\ninitial_sequence_number = generate_initial_sequence_number()\nprint("Initial Sequence Number:", initial_sequence_number)

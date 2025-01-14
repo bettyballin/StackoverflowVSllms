@@ -1,1 +1,0 @@
-class Item < ActiveRecord::Base\n     has_many :tran_items, dependent: :destroy\n     has_many :orders, through: :tran_items\n   end

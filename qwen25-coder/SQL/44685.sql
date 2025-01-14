@@ -1,1 +1,0 @@
-CREATE TABLE CustomerOrders (\n    OrderID INT,\n    CustomerName VARCHAR(100),\n    ProductName VARCHAR(100),\n    Quantity INT,\n    Price DECIMAL(10,2)\n);

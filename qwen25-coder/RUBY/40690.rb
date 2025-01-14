@@ -1,1 +1,0 @@
-puts ie.cell(:xpath, "//table//img[@src='3.jpg']/parent::td").text

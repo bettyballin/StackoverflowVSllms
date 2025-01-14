@@ -1,1 +1,0 @@
-def get_user_info(access_token):\n       headers = {'content-type': 'application/json'}\n       params = {'access_token': access_token}\n       response = requests.get('https://api.stackexchange.com/2.3/me', params=params, headers=headers)\n       return response.json().get('items')[0]

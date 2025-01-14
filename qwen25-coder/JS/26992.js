@@ -1,1 +1,0 @@
-function testPopupBlocker() {\n    var w = window.open('about:blank', 'testpopup');\n    if (!w) {\n        alert('Popup blocked!');\n    } else {\n        alert('Popup allowed.');\n        w.close();\n    }\n}

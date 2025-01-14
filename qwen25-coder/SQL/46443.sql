@@ -1,1 +1,0 @@
-CREATE TABLE item_flags (\n       item_id INT,\n       flag_name VARCHAR(50),\n       CONSTRAINT fk_item FOREIGN KEY(item_id) REFERENCES items(id)\n   );

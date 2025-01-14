@@ -1,1 +1,0 @@
-INSERT INTO your_table (column1, column2)\n   VALUES (value1a, value2a),\n          (value1b, value2b),\n          (value1c, value2c);

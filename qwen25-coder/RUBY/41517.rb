@@ -1,1 +1,0 @@
-def fetch_random_banner\n  Banner.order(Arel.sql('RANDOM()')).first # For SQLite\n  # Banner.order("RAND()").first # For MySQL\nend\nhelper_method :fetch_random_banner

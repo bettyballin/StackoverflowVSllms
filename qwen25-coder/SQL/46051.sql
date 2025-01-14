@@ -1,1 +1,0 @@
-CREATE GLOBAL TEMPORARY TABLE session.temp_table (\n    -- Define your columns here\n);\n\nINSERT INTO session.temp_table\nSELECT * FROM (\n    -- Your monster query here\n) AS subquery;\n\nDELETE FROM old_table\nWHERE EXISTS (SELECT 1 FROM session.temp_table temp WHERE old_table.some_column = temp.some_column);\n\nINSERT INTO different_table\nSELECT * FROM session.temp_table;

@@ -1,1 +1,0 @@
-CREATE TABLE user_favored_tags (\n    user_id INT,  -- Assuming each user has an ID\n    tag_id INT,\n    PRIMARY KEY (user_id, tag_id),\n    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,\n    FOREIGN KEY (tag_id) REFERENCES tags(id) ON DELETE CASCADE\n);

@@ -1,1 +1,0 @@
-SELECT \n    d.ID, \n    d.NAME, \n    h.USER_ID AS LAST_USER_ID\nFROM \n    DOCUMENTS d\nLEFT JOIN \n    (SELECT \n         DOC_ID, \n         USER_ID, \n         MAX(TIMESTAMP) AS TIMESTAMP \n     FROM \n         HISTORY \n     GROUP BY \n         DOC_ID) h ON d.ID = h.DOC_ID;

@@ -1,1 +1,0 @@
-class MyClass {\n    private $property;\n\n    public function getProperty() {\n        return $this->property;\n    }\n\n    public function someMethod() {\n        $property = $this->getProperty();\n        // Rest of the method logic...\n    }\n}

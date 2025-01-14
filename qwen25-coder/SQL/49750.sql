@@ -1,1 +1,0 @@
--- Step 1: Connect to your SQL Server instance\n\n-- Step 2: Deny access to all databases on the server for a specific login.\nUSE master;\nGO\n\nDENY CONNECT ANY DATABASE TO [DOMAIN\domainAdmin];\nGO

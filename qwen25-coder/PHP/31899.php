@@ -1,1 +1,0 @@
-// In your index.ctp file\n   echo $this->Html->link('Edit', ['action' => 'edit', $item->id, '?' => ['page' => $this->Paginator->param('page')]]);

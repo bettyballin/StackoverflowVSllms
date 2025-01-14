@@ -1,1 +1,0 @@
-' To use RibbonControlsLibrary, first add the reference to your project.\n   ' Then, you can start defining your ribbon in XAML or programmatically.

@@ -1,1 +1,0 @@
-def current_week\n     @next_week = generate_next_week_data # Assuming this method generates the data for next week\n\n     respond_to do |format|\n       format.js { render json: { next_week: @next_week } }\n     end\n   end

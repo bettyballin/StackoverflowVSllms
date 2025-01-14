@@ -1,1 +1,0 @@
-Try\n    Dim db As New MilkModel()\n    db.Inventory_Snapshot_Create()\n    db.SaveChanges() ' If the stored procedure modifies data, ensure SaveChanges is called.\nCatch ex As Exception\n    Console.WriteLine(ex.Message)\nEnd Try

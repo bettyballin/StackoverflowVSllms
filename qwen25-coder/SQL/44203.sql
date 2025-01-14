@@ -1,1 +1,0 @@
-SELECT \n    TO_CHAR(event_time, 'HH12:MI AM') AS formatted_event_time,\n    other_event_details\nFROM \n    events;

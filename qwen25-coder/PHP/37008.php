@@ -1,1 +1,0 @@
-$safeField = htmlspecialchars($field, ENT_QUOTES, 'UTF-8');\n$query = $xpath->query('//input[@name="' . $safeField . '"] | //select[@name="' . $safeField . '"] | //textarea[@name="' . $safeField . '"]');

@@ -1,1 +1,0 @@
-SELECT 'Hello' || NVL(NULL, '') AS Greeting FROM dual; -- This will return 'Hello'\nSELECT 'Hello' || COALESCE(NULL, '') AS Greeting FROM dual; -- This will also return 'Hello'

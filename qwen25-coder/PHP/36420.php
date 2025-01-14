@@ -1,1 +1,0 @@
-function _verifywebsite($id) {\n    $query = $this->websites->getAdapter()->quoteInto("UPDATE websites SET verified_date = NOW() WHERE id = ?", $id);\n    $this->websites->getAdapter()->query($query);\n}

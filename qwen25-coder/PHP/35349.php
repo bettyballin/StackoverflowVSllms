@@ -1,1 +1,0 @@
-$query = "\n    (SELECT * FROM friend_friend_1_to_20k WHERE userid = $_SESSION[auto_id] OR friendid = $_SESSION[auto_id])\n    UNION\n    (SELECT * FROM friend_friend_20k_to_40k WHERE userid = $_SESSION[auto_id] OR friendid = $_SESSION[auto_id])\n    -- Add more if necessary\n";\n$result = executeQuery($query);

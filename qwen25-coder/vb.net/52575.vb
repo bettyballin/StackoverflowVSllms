@@ -1,1 +1,0 @@
-Public Class UtilityClass\n    Public Shared Function Method1() As String\n        ' Implementation here\n    End Function\n\n    Public Shared Sub Method2()\n        ' Implementation here\n    End Sub\n\n    Public Shared Function Method3(param As Integer) As Boolean\n        ' Implementation here\n    End Function\nEnd Class

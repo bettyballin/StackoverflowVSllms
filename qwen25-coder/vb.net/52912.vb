@@ -1,1 +1,0 @@
-Dim result As String\nDim bstr as Long\n\nbstr = Foo()\nIf bstr <> 0 Then\n    result = CStr(ByVal bstr)\n    SysFreeString bstr\nEnd If

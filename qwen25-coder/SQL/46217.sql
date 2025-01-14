@@ -1,1 +1,0 @@
-USE msdb;\nGO\nEXEC sp_addrolemember 'SQLAgentUserRole', '<username>';\nGO

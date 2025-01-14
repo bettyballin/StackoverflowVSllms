@@ -1,1 +1,0 @@
-dp[n][k] = sum(dp[n-1][k-i] for i in range(min(n, k+1)))

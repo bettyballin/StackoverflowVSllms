@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n        UserID INTEGER PRIMARY KEY AUTOINCREMENT,\n        Username TEXT NOT NULL UNIQUE,\n        PasswordHash TEXT NOT NULL,\n        Email TEXT NOT NULL UNIQUE\n    );

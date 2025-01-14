@@ -1,1 +1,0 @@
-# Assume your models are named Question and LevelsQuestion\n\ndef get_questions_excluding_level\n  excluded_question_ids = LevelsQuestion.where(level_id: 15).select(:question_id)\n  \n  questions = Question.where.not(id: excluded_question_ids).select(:id, :name)\n\n  # Render or return the questions as needed\n  render json: questions\nend

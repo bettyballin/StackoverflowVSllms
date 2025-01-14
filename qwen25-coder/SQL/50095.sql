@@ -1,1 +1,0 @@
--- Example of querying data from two different servers\n   SELECT \n       A.Column1,\n       B.Column2\n   FROM \n       LocalDatabase.dbo.TableA AS A\n   INNER JOIN \n       LINKED_SERVER_51.RemoteDatabase.dbo.TableB AS B\n   ON \n       A.CommonColumn = B.CommonColumn;

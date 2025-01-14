@@ -1,1 +1,0 @@
-// Assume code is in some intermediate language (IL)\nintermediateCode = loadIntermediateCode("myProgram.il")\n\njitCompiler = new JITCompiler()\n\nwhile programRunning:\n    instruction = getInstruction(intermediateCode)\n    \n    if instruction not compiled yet:\n        nativeCode = jitCompiler.compile(instruction, currentSystemState)\n    \n    execute(nativeCode)

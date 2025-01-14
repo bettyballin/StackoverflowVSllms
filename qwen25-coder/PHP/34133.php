@@ -1,1 +1,0 @@
-<{if $ishtml == true}>\n    <font face="Verdana, Arial, Helvetica" size="2">\n        <{$contentshtml}>\n    </font>\n<{/if}>

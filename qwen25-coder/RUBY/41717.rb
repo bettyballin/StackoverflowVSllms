@@ -1,1 +1,0 @@
-class MyDateOnlyModel < ActiveRecord::Base\n  def effective_date\n    read_attribute(:effective_date).to_date if attribute_present?(:effective_date)\n  end\n\n  private\n\n  def attribute_present?(attribute)\n    !read_attribute(attribute).nil?\n  end\nend

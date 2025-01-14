@@ -1,1 +1,0 @@
-// PHP client to call the Lisp server\n   $response = file_get_contents('http://localhost:4242/hello');\n   echo $response;

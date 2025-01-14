@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table_name\nWHERE mydate <= '2008-11-25';

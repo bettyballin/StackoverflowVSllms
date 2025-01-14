@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <rewrite>\n      <rules>\n        <rule name="Redirects" stopProcessing="true">\n          <match url="^oldpage.aspx$" />\n          <action type="Redirect" url="/newpage.aspx" redirectType="Permanent" />\n        </rule>\n      </rules>\n    </rewrite>\n  </system.webServer>\n</configuration>

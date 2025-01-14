@@ -1,1 +1,0 @@
-SELECT dbo.IntegerToBinaryString(5) AS BinaryRepresentatio

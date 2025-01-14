@@ -1,1 +1,0 @@
-// Example of extending a class\nclass A extends B {\n    // Inherits all public/protected properties and methods from B\n    public function __construct() {\n        parent::__construct(); // Call the constructor of B if needed\n        $this->a = new B();   // This is unusual but possible; creating an instance within the subclass\n    }\n}

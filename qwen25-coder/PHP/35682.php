@@ -1,1 +1,0 @@
-<?php\n$query = "\n-- This is a sample comment\nSELECT user_id, username \nFROM users \nWHERE active = 1;\n";\n\n// Sending query to MySQL\n$result = $mysqli->query($query);\n?>

@@ -1,1 +1,0 @@
-CREATE TABLE Person (\n        PersonID INT PRIMARY KEY,\n        Name VARCHAR(255),\n        DateOfBirth DATE,\n        Type CHAR(1) CHECK (Type IN ('S', 'E')) -- S for Student, E for Employee\n    );

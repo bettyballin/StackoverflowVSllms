@@ -1,1 +1,0 @@
-<?php\nif (isset($_GET['query'])) {\n    $query = $_GET['query'];\n    // Perform your search logic here\n    // For example:\n    $results = "<ul><li>Result 1 for: {$query}</li><li>Result 2 for: {$query}</li></ul>";\n    echo $results;\n}\n?>

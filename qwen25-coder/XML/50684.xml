@@ -1,1 +1,0 @@
-<database>\n    <host>localhost</host>\n    <port>5432</port>\n    <tables>\n      <table>\n        <name>users</name>\n        <columns>\n          <column>id</column>\n          <column>username</column>\n          <column>email</column>\n        </columns>\n      </table>\n    </tables>\n  </database>

@@ -1,1 +1,0 @@
-SELECT \n    t2.Text,\n    s1.Desc AS Desc_ID1,\n    s1.AAAA AS AAAA_ID1,\n    s2.Desc AS Desc_ID2,\n    s2.AAAA AS AAAA_ID2,\n    s3.Desc AS Desc_ID3,\n    s3.AAAA AS AAAA_ID3\nFROM \n    Table2 t2\nLEFT JOIN \n    Source s1 ON t2.ID1 = s1.ID\nLEFT JOIN \n    Source s2 ON t2.ID2 = s2.ID\nLEFT JOIN \n    Source s3 ON t2.ID3 = s3.ID;

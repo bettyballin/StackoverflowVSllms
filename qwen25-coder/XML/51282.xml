@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>com.google.zxing</groupId>\n    <artifactId>core</artifactId>\n    <version>3.4.1</version> <!-- Check for the latest version -->\n</dependency>

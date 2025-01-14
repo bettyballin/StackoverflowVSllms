@@ -1,1 +1,0 @@
-public function executeIndex(sfWebRequest $request)\n{\n    // Set the slot with the desired class name\n    $this->getResponse()->setSlot('body_class', 'inner-page');\n\n    // Your other code\n}

@@ -1,1 +1,0 @@
-// Start the session with some security measures\n   ini_set('session.cookie_httponly', 1);       // Prevents JavaScript from accessing cookies\n   ini_set('session.use_only_cookies', 1);      // Forces PHP to use only cookies for sessions\n   ini_set('session.cookie_secure', 1);         // Sends cookie over HTTPS only\n   session_start();

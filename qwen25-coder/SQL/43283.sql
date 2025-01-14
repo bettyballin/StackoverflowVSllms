@@ -1,1 +1,0 @@
-SELECT DISTINCT p1.uid\nFROM profile_values p1\nJOIN profile_values p2 ON p1.uid = p2.uid\nWHERE p1.fid = 1 AND p1.value LIKE 'S%'\nAND p2.fid = 11 AND p2.value LIKE 'D%';

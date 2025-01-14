@@ -1,1 +1,0 @@
--- To show the current setting for case sensitivity\nSHOW GLOBAL VARIABLES LIKE 'lower_case_table_names';\n\n-- Setting lower_case_table_names=1 makes table names and database names lowercase in the metadata stored on disk. \nSET GLOBAL lower_case_table_names = 1;

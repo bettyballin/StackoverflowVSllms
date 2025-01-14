@@ -1,1 +1,0 @@
--- Sample Setup Script\n--\n-- Set filters in profiler:\n-- EventClass: RPC:Completed, SQL:BatchCompleted\n-- Filter on Duration > 10000 (for queries greater than 10 seconds)\n\n-- This part is done via GUI, not T-SQL. Use the above instructions to set up events and columns.

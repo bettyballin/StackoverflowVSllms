@@ -1,1 +1,0 @@
-var htmltag = document.getElementsByTagName('html')[0];\nhtmltag.setAttribute("xmlns:fb", "http://www.facebook.com/2008/fbml");

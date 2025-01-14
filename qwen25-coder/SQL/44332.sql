@@ -1,1 +1,0 @@
-SELECT DATEDIFF(second, stardate, enddate) AS difference_in_seconds;

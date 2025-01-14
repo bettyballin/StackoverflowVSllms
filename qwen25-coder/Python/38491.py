@@ -1,1 +1,0 @@
-def divide(a, b):\n    return a / b\n\n# Normal operation\nprint(divide(10, 2))  # Expected output: 5.0\n\n# Edge case (Turkeys testing)\ntry:\n    print(divide(10, 0))\nexcept ZeroDivisionError as e:\n    print("Caught an error:", e)  # This is the "Turkey" edge case being handled

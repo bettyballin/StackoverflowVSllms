@@ -1,1 +1,0 @@
-'Datasources' => [\n    'default' => [\n        // Other configurations...\n        'log' => true,\n    ],\n],

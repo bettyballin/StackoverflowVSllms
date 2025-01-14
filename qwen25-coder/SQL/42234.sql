@@ -1,1 +1,0 @@
-SELECT min(`topic_id`) FROM `gallery_topics` \nWHERE `topic_id` > 11 AND `topic_poster` = 5 AND `topic_status` = 0;

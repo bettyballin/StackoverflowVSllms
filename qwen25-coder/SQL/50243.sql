@@ -1,1 +1,0 @@
--- To see locks held by a session\n    SELECT l.session_id "SID", s.serial#, locked_mode, o.object_name\n    FROM v$locked_object l, dba_objects o, v$session s\n    WHERE l.object_id = o.object_id AND s.sid = l.session_id;\n\n    -- To identify blocking and waiting sessions\n    SELECT waiter_sid, holder_sid, lockwait\n    FROM V$SESSION_WAIT\n    WHERE event LIKE '%enqueue%';

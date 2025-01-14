@@ -1,1 +1,0 @@
-gem 'rails', '~> 6.1'\ngem 'jbuilder', '~> 2.7'

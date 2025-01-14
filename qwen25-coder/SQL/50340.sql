@@ -1,1 +1,0 @@
-SELECT dt_hash, GROUP_CONCAT(pk) AS pks\n   FROM data\n   WHERE dt_hash IS NOT NULL\n   GROUP BY dt_hash\n   HAVING COUNT(dt_hash) > 1;

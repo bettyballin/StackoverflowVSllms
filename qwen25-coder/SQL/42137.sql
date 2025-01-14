@@ -1,1 +1,0 @@
-select \n    * \nfrom\n    (\n        select \n            CAST(MyVal as int) as MyValInt\n        from \n            dbo.TestTable\n        where \n            IsNumeric(MyVal) = 1\n    ) tabela\nwhere \n    tabela.MyValInt > 6

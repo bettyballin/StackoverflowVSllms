@@ -1,1 +1,0 @@
-Function EscapeJSString(str As String) As String\n    EscapeJSString = Replace(Replace(str, "\", "\\"), "'", "\'")\nEnd Function\n\n' Use the function to ensure the string is safe for JavaScript context\nCall .Document.parentWindow.execScript("FillVendorNames('" & EscapeJSString(cCode) & "')", "javascript")

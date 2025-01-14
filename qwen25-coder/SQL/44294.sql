@@ -1,1 +1,0 @@
-select \n      order_id,\n      NULLIF(to_timestamp(orderDate, 'YYYY-MM-DD HH24:MI:SS'), Null) as convertedOrderDate\n  from orders;

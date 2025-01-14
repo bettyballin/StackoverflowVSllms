@@ -1,1 +1,0 @@
-require 'sinatra'\nrequire 'thread'\n\npost '/run-job' do\n  url = params[:url] || 'http://example.com' # Ensure to validate and sanitize this!\n\n  Thread.new do\n    `curl -0 #{url}`\n  end\n\n  "Job started. Check your server logs for output."\nend

@@ -1,1 +1,0 @@
-def myFunction(newDict, key):\n    value = newDict[key]\n    # some code to process the parameter

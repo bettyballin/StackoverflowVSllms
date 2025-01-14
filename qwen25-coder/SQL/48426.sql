@@ -1,1 +1,0 @@
-WITH RankedValues AS (\n    SELECT \n        "Category",\n        "Timestamp",\n        "Value",\n        ROW_NUMBER() OVER (PARTITION BY "Category" ORDER BY "Timestamp" DESC) as rn\n    FROM \n        "Table"\n)\nSELECT \n    "Category",\n    "Timestamp",\n    "Value"\nFROM \n    RankedValues\nWHERE \n    rn <= 5;

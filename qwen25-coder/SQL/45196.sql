@@ -1,1 +1,0 @@
-CREATE TABLE xml_documents (\n    doc_id NUMBER PRIMARY KEY,\n    xml_data XMLType NOT NULL\n);

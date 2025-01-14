@@ -1,1 +1,0 @@
-document.querySelectorAll('.vote-button').forEach(button => {\n    button.addEventListener('click', function() {\n        var sel = this.previousElementSibling; // Finds the select element right before the button\n        alert(sel.options[sel.selectedIndex].value);\n    });\n});

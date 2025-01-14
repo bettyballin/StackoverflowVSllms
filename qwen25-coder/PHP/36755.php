@@ -1,1 +1,0 @@
-function draw_select($options) {\n    $html = '<select';\n    \n    // Iterate over the options array and add attributes to the <select> tag\n    foreach ($options as $key => $value) {\n        $html .= " $key=\"$value\"";\n    }\n    \n    $html .= '></select>';\n    return $html;\n}\n\n// Usage\necho draw_select(['name' => 'id', 'onclick' => 'alert(this.value)']);

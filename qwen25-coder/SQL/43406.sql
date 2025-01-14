@@ -1,1 +1,0 @@
-SELECT * \nFROM TableName \nWHERE Name LIKE '%spa%' \nORDER BY \n    CASE \n        WHEN Name LIKE 'spa%' OR Name LIKE '% spa%' THEN 1\n        ELSE 2\n    END,\n    Name;

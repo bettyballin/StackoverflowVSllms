@@ -1,1 +1,0 @@
-class Object\n  def in?(array)\n    array.include?(self)\n  end\nend\n\nif val.in?([nil, 0])\n  # Is nil or zero\nend

@@ -1,1 +1,0 @@
-WITH OrderedOperators AS (\n    SELECT \n        colname,\n        CAST(REPLACE(REPLACE(colname, 'Operator (', ''), ')', '') AS INT) AS NumericPart\n    FROM \n        your_table_name\n)\nSELECT colname \nFROM OrderedOperators\nORDER BY NumericPart;

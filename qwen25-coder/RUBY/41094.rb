@@ -1,1 +1,0 @@
-resource :countries do\n     collection do\n       get 'search'\n       get 'full_index' # Use a more idiomatic name if possible\n     end\n   end

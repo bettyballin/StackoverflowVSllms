@@ -1,1 +1,0 @@
-<?php\ninclude_once 'path/to/session_config.php';\nsession_start();\n// Rest of your code\n?>

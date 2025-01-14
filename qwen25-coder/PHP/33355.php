@@ -1,1 +1,0 @@
-$sanitizedUserInput = mysqli_real_escape_string($connection, $userInput);\n$stmt = $connection->prepare("SELECT id FROM plants WHERE Flower REGEXP CONCAT('[[:<:]]', ?, '[[:>:]])");\n$stmt->bind_param("s", $sanitizedUserInput);\n$stmt->execute();\n$result = $stmt->get_result();\n\nwhile ($row = $result->fetch_assoc()) {\n    // Process your result row\n}

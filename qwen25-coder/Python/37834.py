@@ -1,1 +1,0 @@
-import spacy\n\n# Load pre-trained model for English language\nnlp = spacy.load("en_core_web_sm")\n\n# Example sentence\ntext = "Last year, I was in London where I saw Barack Obama."\n\n# Process the text\ndoc = nlp(text)\n\n# Print named entities and their types\nfor ent in doc.ents:\n    print(ent.text, ent.label_)\n\n# Output: (London GPE), (Barack Obama PERSON)

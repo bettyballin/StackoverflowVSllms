@@ -1,1 +1,0 @@
-// application/config/config.php\n$config['sess_driver'] = 'database';\n$config['sess_cookie_name'] = 'cisession';\n$config['sess_expiration'] = 7200;\n$config['sess_save_path'] = 'ci_sessions'; // Table name in your database where sessions are stored\n$config['sess_match_ip'] = TRUE;           // Extra security: Match IP address\n$config['sess_time_to_update'] = 300;

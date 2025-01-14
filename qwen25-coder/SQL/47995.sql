@@ -1,1 +1,0 @@
-SELECT * FROM books \nWHERE (bookid != 30 \n       AND tags LIKE '%one%') \nOR (tags LIKE '% two%' \n    OR tags LIKE '% three%' \n    AND visible = '1' \n    AND level = '2')\nLIMIT 3;

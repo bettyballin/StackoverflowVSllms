@@ -1,1 +1,0 @@
-<Endpoints>\n       <InputEndpoint name="HttpsIn" protocol="https" port="443" />\n   </Endpoints>\n   \n   <Certificates>\n       <Certificate name="YourCertName" storeLocation="LocalMachine" storeName="My" />\n   </Certificates>

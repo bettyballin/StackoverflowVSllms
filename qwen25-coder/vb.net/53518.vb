@@ -1,1 +1,0 @@
-Private Sub Table_AfterUpdate()\n       ' Code to log changes or notify an application\n   End Sub

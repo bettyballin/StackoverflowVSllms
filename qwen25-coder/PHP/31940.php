@@ -1,1 +1,0 @@
-$username = trim($this->users->getUsernameById($file->user));\n$sessionuser = trim($this->session->userdata('username'));\n\nif ($username === $sessionuser) {\n    // Your code here\n}

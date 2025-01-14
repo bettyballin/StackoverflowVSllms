@@ -1,1 +1,0 @@
-from django_comments.models import Comment\nfrom myapp.models import Profile\n\n# Fetch comments along with the corresponding profile image paths\ncomments_with_profiles = (\n    Comment.objects.select_related('user_id')\n                  .values('user_id__id', 'user_id__profile__image_path', 'comment')\n)\n\nfor comment in comments_with_profiles:\n    print(comment)

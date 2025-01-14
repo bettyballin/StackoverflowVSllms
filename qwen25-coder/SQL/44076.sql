@@ -1,1 +1,0 @@
-SELECT *\nFROM YourTable\nWHERE YourDateColumn BETWEEN @StartDate AND @EndDate;

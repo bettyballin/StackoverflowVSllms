@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare("SELECT tags.tag FROM tags JOIN image_tags ON tags.ID = image_tags.tagID WHERE image_tags.imageID = ?");\n$stmt->execute([$imageId]);\n$tags = $stmt->fetchAll(PDO::FETCH_COLUMN);\nprint_r($tags); // Outputs array of tag names

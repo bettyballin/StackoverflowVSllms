@@ -1,1 +1,0 @@
-SQL> alter database open resetlogs;

@@ -1,1 +1,0 @@
-SELECT name FROM attached_db.sqlite_master WHERE type='table';

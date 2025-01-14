@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.GetBitFromInt(@intValue INT)\nRETURNS BIT\nAS\nBEGIN\n    RETURN CAST(@intValue AS BIT);\nEND;

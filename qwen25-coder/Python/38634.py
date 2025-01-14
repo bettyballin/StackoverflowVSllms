@@ -1,1 +1,0 @@
-class DSequence:\n    def __init__(self, sid, seq):\n        """Sequence object for a dummy dna string"""\n        self.sid = sid\n        self.seq = seq\n\n    def __str__(self):\n        return '[' + str(self.sid) + '] -> [' + str(self.seq) + ']'

@@ -1,1 +1,0 @@
-import copy\n\n# Create a deep copy of the sliced part of origList\ntempList = copy.deepcopy(origList[0:10])\n\n# Verify that tempList contains independent copies\nid(origList[0])  # This will give you the original id\nid(tempList[0])  # This should give you a different id, confirming a deep copy

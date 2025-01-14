@@ -1,1 +1,0 @@
-var targetOrigin = "https://yourchildapp.com"; // Must specify the origin of the iframe\nwindow.addEventListener('message', function(event) {\n    if (event.origin !== targetOrigin) return; // Only trust messages from the specified origin\n    event.source.postMessage({parentUrl: window.location.href}, event.origin);\n});

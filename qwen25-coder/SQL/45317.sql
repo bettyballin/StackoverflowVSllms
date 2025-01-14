@@ -1,1 +1,0 @@
-CREATE TABLE NonCourseRequirements (\n       requirement_id INT PRIMARY KEY AUTO_INCREMENT,\n       prerequisite_id INT,\n       type_id INT,\n       value VARCHAR(255),  -- Can store values like '600' or '90 days'\n       FOREIGN KEY (prerequisite_id) REFERENCES Prerequisites(prerequisite_id),\n       FOREIGN KEY (type_id) REFERENCES RequirementTypes(type_id)\n   );

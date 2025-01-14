@@ -1,1 +1,0 @@
-USE YourDatabaseName;\nGO\n\n-- Creating the role if it doesn't exist\nIF NOT EXISTS (SELECT 1 FROM sys.database_principals WHERE name = N'YourRoleName')\n    CREATE ROLE YourRoleName;\nGO\n\n-- Adding the NT user to the role\nCREATE USER [DOMAIN\UserName] FOR LOGIN [DOMAIN\UserName];\nALTER ROLE YourRoleName ADD MEMBER [DOMAIN\UserName];

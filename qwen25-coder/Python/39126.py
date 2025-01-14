@@ -1,1 +1,0 @@
-# Simplified logic for understanding\ntry:\n    # Try to connect to the specified database\n    connection = DatabaseWrapper(self._get_credentials())\n    with transaction.atomic():\n        connection.cursor()\nexcept Exception as e:\n    raise ImproperlyConfigured(\n        "Your test database settings are invalid: %s" % str(e)\n    )

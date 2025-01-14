@@ -1,1 +1,0 @@
-// In config/config.php or use an array as needed in your code\n$config['sess_expiration'] = 7200; // 2 hours by default

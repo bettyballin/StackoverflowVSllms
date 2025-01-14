@@ -1,1 +1,0 @@
-Rails.application.routes.draw do\n  # Public pages without SSL\n  resources :static_pages, only: [:index, :about]\n\n  # Secure pages with SSL\n  scope constraints: { protocol: 'https' } do\n    devise_for :users\n    resources :user_actions, only: [:create, :update, :destroy]\n  end\nend

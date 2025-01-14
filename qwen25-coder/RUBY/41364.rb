@@ -1,1 +1,0 @@
-page.replace_html 'feeds', :partial => 'main/feeds', :locals => {:feed => @feed_data }

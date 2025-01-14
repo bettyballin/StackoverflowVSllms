@@ -1,1 +1,0 @@
-class MyClass {\n       private $data = [];\n\n       public function __set($name, $value) {\n           if (in_array($name, ['age', 'weight'])) {\n               if ($value < 0) throw new \InvalidArgumentException("Negative values not allowed");\n               $this->data[$name] = $value;\n           }\n       }\n   }

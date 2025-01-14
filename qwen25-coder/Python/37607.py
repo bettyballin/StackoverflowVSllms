@@ -1,1 +1,0 @@
-# Creating a list and a tuple\nexample_list = [1, 2, 3, 4]\nexample_tuple = (1, 2, 3, 4)\n\n# Modifying a list\nexample_list.append(5)  # This is allowed\n\n# Trying to modify a tuple\ntry:\n    example_tuple[2] = 5  # This will raise an error: TypeError: 'tuple' object does not support item assignment\nexcept TypeError as e:\n    print(e)

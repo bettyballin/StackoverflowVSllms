@@ -1,1 +1,0 @@
-// Assuming $result is your mysqli result variable from a query\n$multidimensionalArray = mysqli_fetch_all($result, MYSQLI_ASSOC);

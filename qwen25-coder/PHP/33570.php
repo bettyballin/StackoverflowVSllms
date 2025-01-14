@@ -1,1 +1,0 @@
-$safeOutput = htmlspecialchars($userInput, ENT_QUOTES, 'UTF-8');\necho $safeOutput;

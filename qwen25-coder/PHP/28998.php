@@ -1,1 +1,0 @@
-if ($this->cismarty->getTemplateVars('test') === null) {\n    $this->cismarty->assign('test', 'Default value');\n}

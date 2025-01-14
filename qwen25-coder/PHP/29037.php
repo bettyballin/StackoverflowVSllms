@@ -1,1 +1,0 @@
-$array = array();\n\nif ($array) {\n    echo 'the array has items'; // This will NOT be executed\n}\n\n$array = array(1, 2, 3);\n\nif (count($array)) {\n    echo 'the array has items'; // This WILL be executed\n}

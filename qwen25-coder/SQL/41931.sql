@@ -1,1 +1,0 @@
-ALTER SYSTEM SET undo_retention=3600 SCOPE=BOTH;  -- Retain undo data for at least an hour (3600 seconds)

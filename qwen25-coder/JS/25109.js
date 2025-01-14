@@ -1,1 +1,0 @@
-// scripts/example.js\ndocument.addEventListener('DOMContentLoaded', function() {\n    alert('Hello from separate JS file!');\n});

@@ -1,1 +1,0 @@
-from datetime import datetime, timedelta\n\ndef next_release_date(last_release):\n    # Assuming the last release was on an exact date\n    return (last_release.replace(day=1) + timedelta(days=32)).replace(day=1)\n\n# Example usage:\nlast_release = datetime(2023, 10, 1)\nprint("Next release is on:", next_release_date(last_release))

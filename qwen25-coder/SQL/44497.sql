@@ -1,1 +1,0 @@
-CREATE TABLE UserReadThreads (\n    UserID INT,\n    ThreadID INT,\n    LastReadDateTime DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\n    PRIMARY KEY (UserID, ThreadID),\n    FOREIGN KEY (UserID) REFERENCES Users(UserID),\n    FOREIGN KEY (ThreadID) REFERENCES Threads(ThreadID)\n);

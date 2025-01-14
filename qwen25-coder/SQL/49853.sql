@@ -1,1 +1,0 @@
-SELECT \n    us.user_id,\n    us.score\nFROM \n    user_scores us\nWHERE (\n    SELECT COUNT(*)\n    FROM user_scores us2\n    WHERE us2.user_id = us.user_id AND us2.score > us.score\n) = 0\nORDER BY \n    us.score DESC\nLIMIT 5;

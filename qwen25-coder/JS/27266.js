@@ -1,1 +1,0 @@
-// Using pure JavaScript Fetch API\n   fetch('http://your-proxy-server/api')\n       .then(response => response.json())\n       .then(data => console.log(data))\n       .catch(error => console.error('Error:', error));

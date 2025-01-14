@@ -1,1 +1,0 @@
-def update_partial\n  respond_to do |format|\n    format.js # Will look for 'update_partial.js.rjs' template\n  end\nend

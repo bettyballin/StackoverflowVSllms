@@ -1,1 +1,0 @@
--- Disabling foreign key constraints\nALTER TABLE ForeignKeyTableNOCHECK CONSTRAINT FK_CONSTRAINTNAME;

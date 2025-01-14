@@ -1,1 +1,0 @@
-SELECT EmployeeId\nFROM dbo.EmpDept\nWHERE DeptId IN (1, 2, 3) -- specify your department IDs here\nGROUP BY EmployeeId\nHAVING COUNT(DISTINCT DeptId) = 3; -- must match the number of departments specified in the IN clause

@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('#myTable').DataTable({\n        // Add options here if needed\n        "paging": true,\n        "searching": true,\n        "info": true,\n        "autoWidth": false\n    });\n});

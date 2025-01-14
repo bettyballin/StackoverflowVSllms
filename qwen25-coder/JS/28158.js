@@ -1,1 +1,0 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/microAjax/0.9/microajax.min.js"></script>\n   <script>\n       function addItem() {\n           microAjax.get('add_item.asp', function(data) {\n               document.getElementById('item-list').innerHTML += data;\n           });\n       }\n   </script>

@@ -1,1 +1,0 @@
-SELECT DATABASEPROPERTYEX('YourDatabaseName', 'Collation') AS Collation;

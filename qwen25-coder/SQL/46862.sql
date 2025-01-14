@@ -1,1 +1,0 @@
-EXPLAIN select * \n   from a, b, c, d\n   where a.b_id = b.id and b.c_id = c.id and c.d_id = d.id;

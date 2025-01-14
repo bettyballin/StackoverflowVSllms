@@ -1,1 +1,0 @@
-from sqlalchemy.orm import sessionmaker\nfrom myapp.model import Project, Entry  # Adjust the import according to your setup\n\n# Assuming Session is already configured\nSession = sessionmaker()\n\nsession = Session()\nprojects_with_entries = session.query(Project).filter(Project.entries.any()).all()

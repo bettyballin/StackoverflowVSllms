@@ -1,1 +1,0 @@
-def my_method\n  if some_condition\n    process_while_another_condition\n  end\nend\n\ndef process_while_another_condition\n  while another_condition\n    process_case(variable)\n  end\nend\n\ndef process_case(var)\n  case var\n  when 'value1'\n    do_something\n  when 'value2'\n    do_something_else\n  end\nend

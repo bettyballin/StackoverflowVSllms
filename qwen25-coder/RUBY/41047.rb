@@ -1,1 +1,0 @@
-x = [2, 5, 8, 33, 58]\ndistances = []\n\n(0...x.length).each do |i|\n  (i+1...x.length).each do |j|\n    distances << (x[i] - x[j]).abs\n  end\nend\n\nputs distances.inspect

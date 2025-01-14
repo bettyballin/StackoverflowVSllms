@@ -1,1 +1,0 @@
-import qrcode\n\ndef generate_qr_code(data):\n    img = qrcode.make(data)\n    img.save("my_qr.png")\n\ngenerate_qr_code("https://www.example.com")

@@ -1,1 +1,0 @@
-import pythoncom\n   import win32com.client\n\n   # Using ProgID and Moniker binding for RegFree COM\n   prog_id = "Your.Application.Moniker"\n   application = win32com.client.Dispatch(prog_id)

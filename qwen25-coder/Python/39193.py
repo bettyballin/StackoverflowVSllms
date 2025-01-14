@@ -1,1 +1,0 @@
-import xml.etree.ElementTree as ET\n\nxml = '''<node attribute1="10" attribute2="0" />'''\nroot = ET.fromstring(xml)\n\nfiltered_attributes = [f"{key}={value}" for key, value in root.attrib.items() if int(value) > 0]\nprint(filtered_attributes)

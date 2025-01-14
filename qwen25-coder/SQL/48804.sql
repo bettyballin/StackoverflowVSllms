@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n    SELECT column1 + column2 AS alias_column\n    FROM your_table\n) AS subquery\nWHERE subquery.alias_column > 10

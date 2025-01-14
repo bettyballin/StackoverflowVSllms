@@ -1,1 +1,0 @@
-import requests\n\n# Define the proxies\nproxies = {\n    'http': 'http://10.10.1.10:3128',\n    'https': 'http://10.10.1.10:1080',\n}\n\n# Make a GET request using the proxy\nresponse = requests.get('https://api.example.com/data', proxies=proxies)\n\nprint(response.text)

@@ -1,1 +1,0 @@
-SELECT AVG(1 + LENGTH(content) - LENGTH(REPLACE(content, ' ', '')) \n       - LENGTH(REGEXP_REPLACE(content, '<[^>]+>', '')) \n       + LENGTH(REGEXP_REPLACE(content, '[^ ]+', '')))\nAS average_words\nFROM documents;

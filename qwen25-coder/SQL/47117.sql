@@ -1,1 +1,0 @@
-CREATE TABLE UniqueIDGenerator (\n       KeyName VARCHAR(50) PRIMARY KEY,\n       LastUsedID INT NOT NULL DEFAULT 0\n   );\n\n   -- Add an entry for your group of tables\n   INSERT INTO UniqueIDGenerator (KeyName, LastUsedID)\n   VALUES ('AssetInfrastructure', 0);

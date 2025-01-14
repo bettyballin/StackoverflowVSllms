@@ -1,1 +1,0 @@
-CREATE FULLTEXT CATALOG card_catalog;

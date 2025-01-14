@@ -1,1 +1,0 @@
-<filter>\n    <filter-name>DownloadFilter</filter-name>\n    <filter-class>com.example.DownloadFilter</filter-class>\n</filter>\n\n<filter-mapping>\n    <filter-name>DownloadFilter</filter-name>\n    <url-pattern>/foo.zip</url-pattern>\n</filter-mapping>

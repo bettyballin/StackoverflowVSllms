@@ -1,1 +1,0 @@
-CREATE TABLE ApplicationOptions (\n    OptionID SERIAL PRIMARY KEY,\n    OptionName VARCHAR(255) NOT NULL UNIQUE,\n    OptionValue TEXT NOT NULL\n);

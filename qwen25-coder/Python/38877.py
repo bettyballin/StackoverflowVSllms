@@ -1,1 +1,0 @@
-# Pseudo-code for searching Amazon Product Advertising API\ndef search_amazon(query):\n    # Implement logic to call Amazon Product Advertising API with query\n    pass\n\nbooks = search_amazon("java api programming language")\nfor book in books:\n    print(f"Title: {book['title']}, URL: {book['url']}")

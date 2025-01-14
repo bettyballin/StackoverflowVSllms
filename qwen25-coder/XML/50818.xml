@@ -1,1 +1,0 @@
-<connectionStrings>\n    <add name="YourConnectionStringName"\n         connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\path\to\App_Data\yourdatabase.mdb;Persist Security Info=False"\n         providerName="System.Data.OleDb" />\n</connectionStrings>

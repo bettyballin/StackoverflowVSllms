@@ -1,1 +1,0 @@
-SELECT t1.*, tempt2.col2 \nFROM t1 \nJOIN (\n    SELECT 'value1' AS col1, 'mappedValue1' AS col2 FROM dual UNION ALL\n    SELECT 'value2' AS col1, 'mappedValue2' AS col2 FROM dual\n) tempt2 ON t1.col1 = tempt2.col1;

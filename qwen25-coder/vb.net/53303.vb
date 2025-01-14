@@ -1,1 +1,0 @@
-Dim dateString As String = Request.Form("hiddenField")\nIf DateTime.TryParse(dateString, Globalization.CultureInfo.InvariantCulture.DateTimeFormat, Globalization.DateTimeStyles.RoundtripKind, New Date()) Then\n    Dim vbDate As DateTime = DateTime.ParseExact(dateString, "O", CultureInfo.InvariantCulture)\n    ' Use vbDate as needed\nElse\n    ' Handle parsing error\nEnd If

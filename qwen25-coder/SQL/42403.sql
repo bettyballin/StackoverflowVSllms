@@ -1,1 +1,0 @@
-WITH \n  Calculations AS (\n    SELECT \n      SL / SQRT(AB) AS ALPHA,\n      5 * LOG(10, SL / SQRT(AB)) AS B,\n      2.5 * LOG(10, 1 - EXP(-5 / (SL / SQRT(AB))) * ((5 / (SL / SQRT(AB))) + 1)) AS D\n    FROM tablename\n)\nSELECT \n  ALPHA,\n  B,\n  D,\n  BS - 2.74 + B + D AS BSA\nFROM Calculations;

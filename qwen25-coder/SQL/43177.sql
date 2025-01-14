@@ -1,1 +1,0 @@
-SELECT \n    CONVERT(CHAR(8), DATEADD(MINUTE, (DATEDIFF(MINUTE, 0, DATEADD(n, SUM(DATEDIFF(n, starttime, stoptime)), 0)) / 15 * 15), 0), 108) AS RoundedTime\nFROM \n    your_table;

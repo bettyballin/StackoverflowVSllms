@@ -1,1 +1,0 @@
-CREATE TABLE Dim_RoleType (\n    RoleTypeSK INT IDENTITY(1,1) PRIMARY KEY,\n    RoleTypeID INT NOT NULL UNIQUE,\n    RoleTypeName NVARCHAR(255)\n);

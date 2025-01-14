@@ -1,1 +1,0 @@
--- Assuming you have a table named Emails with a column EmailBody of type VARCHAR(MAX)\nALTER TABLE Emails \nREBUILD WITH (DATA_COMPRESSION = PAGE);

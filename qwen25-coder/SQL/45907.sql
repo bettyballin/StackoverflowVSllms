@@ -1,1 +1,0 @@
-SELECT GROUP_CONCAT(value SEPARATOR ', ') AS result\nFROM simpleTable;

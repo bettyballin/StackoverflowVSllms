@@ -1,1 +1,0 @@
-class ORM {\n       protected $tableName;\n\n       public function __construct($tableName) {\n           $this->tableName = $tableName;\n       }\n\n       public function create(array $data) {}\n       public function read(int $id = null, array $conditions = []) {}\n       public function update(int $id, array $data) {}\n       public function delete(int $id) {}\n   }

@@ -1,1 +1,0 @@
-class Invoice < ApplicationRecord\n  attr_readonly :address_id\nend

@@ -1,1 +1,0 @@
-$(function() {\n    $( "#sortable" ).sortable({\n        items: "li:not(.locked)", // Prevents locked elements from being sorted\n        placeholder: "ui-state-highlight",\n        axis: 'y', // Restricts sorting to vertical movement only\n    });\n    $( "#sortable" ).disableSelection();\n});

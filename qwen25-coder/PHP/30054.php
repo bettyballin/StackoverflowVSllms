@@ -1,1 +1,0 @@
-class Users extends My_Db_Table_Abstract {\n    protected $_name = 'users';\n}\n\n$usersTable = new Users();\n$user = $usersTable->findByEmail('example@example.com');

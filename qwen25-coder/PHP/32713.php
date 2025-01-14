@@ -1,1 +1,0 @@
-$array = ["apple", "banana", "kiwi", "cherry", "mango"];\n\n// Custom comparison function to sort by string length\nfunction compareStringLength($a, $b) {\n    return strlen($b) - strlen($a);\n}\n\nusort($array, "compareStringLength");\n\nprint_r($array);

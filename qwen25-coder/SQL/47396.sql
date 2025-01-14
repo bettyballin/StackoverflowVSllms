@@ -1,1 +1,0 @@
-CREATE TABLE tbl3 (\n  id INT PRIMARY KEY,\n  tbl1_id INT,\n  tbl2_id INT,\n  FOREIGN KEY (tbl1_id) REFERENCES tbl1(id),\n  FOREIGN KEY (tbl2_id) REFERENCES tbl2(id)\n);

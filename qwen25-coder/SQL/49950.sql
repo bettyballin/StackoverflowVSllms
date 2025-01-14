@@ -1,1 +1,0 @@
-WITH RankedOrders AS (\n    SELECT \n        o.*,\n        ROW_NUMBER() OVER (PARTITION BY o.CustomerID ORDER BY o.EntryTime DESC) as rn\n    FROM \n        Orders o\n)\nSELECT \n    c.*, ro.*\nFROM \n    Customers c\nINNER JOIN \n    RankedOrders ro ON ro.CustomerId = c.Id AND ro.rn = 1;

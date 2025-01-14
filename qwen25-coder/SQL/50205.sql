@@ -1,1 +1,0 @@
-SELECT NEXT VALUE FOR dbo.MySequence AS NextSequenceValue;

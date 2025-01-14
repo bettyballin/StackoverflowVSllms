@@ -1,1 +1,0 @@
-' Correct way to declare and initialize a variable in VB.NET\nDim myVariable As Integer = 10\n\n' Using As New for objects\nDim myObject As New MyClass()

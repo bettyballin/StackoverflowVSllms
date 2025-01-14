@@ -1,1 +1,0 @@
-echo htmlspecialchars($row2["ARTICLE_DESC"]);

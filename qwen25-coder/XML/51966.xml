@@ -1,1 +1,0 @@
-<Binary Id="CustomActionDll" SourceFile="path\to\your\customaction.dll"/>\n<CustomAction Id="SetPermissionsOnCertPrivKey" BinaryKey="CustomActionDll" DllEntry="SetPermissionsOnCertPrivKey" Execute="deferred" Impersonate="no"/>\n\n<InstallExecuteSequence>\n  <Custom Action="SetPermissionsOnCertPrivKey" Before="InstallFinalize">NOT Installed</Custom>\n</InstallExecuteSequence>

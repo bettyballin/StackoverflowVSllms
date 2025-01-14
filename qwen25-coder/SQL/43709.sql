@@ -1,1 +1,0 @@
-CREATE LOGIN [username] WITH PASSWORD = 'StrongP@ssword123!';

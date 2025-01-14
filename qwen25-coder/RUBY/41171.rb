@@ -1,1 +1,0 @@
-my_array = [1, 1, 1, 2, 4, 6, 3, 3]\nrepeated_elements = my_array.tally.select { |_, count| count > 1 }.keys\n\nputs repeated_elements.inspect

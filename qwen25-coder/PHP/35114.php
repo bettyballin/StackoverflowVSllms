@@ -1,1 +1,0 @@
-// In Laravel/Eloquent example for comparison\n$orders = Order::whereRaw('total_paid = grand_total')->get();

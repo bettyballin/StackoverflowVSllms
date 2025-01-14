@@ -1,1 +1,0 @@
-function requirePear($fileName) {\n    $pearPath = '/path/to/pear'; // Ensure this is set to your PEAR directory\n    require_once($pearPath . DIRECTORY_SEPARATOR . $fileName);\n}\n\n// Usage:\nrequirePear('Mail.php');

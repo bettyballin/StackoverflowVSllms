@@ -1,1 +1,0 @@
-Public Function GenericFunction(Of T)(input As T) As String\n    Return $"The input was: {input}"\nEnd Functio

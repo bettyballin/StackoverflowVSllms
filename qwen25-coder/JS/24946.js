@@ -1,1 +1,0 @@
-ArticleVote.submitVote('no');return false;

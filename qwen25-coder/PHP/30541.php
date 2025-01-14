@@ -1,1 +1,0 @@
-if (!empty($_POST['day'])) {\n    $days = $_POST['day'];\n    foreach ($days as $day) {\n        echo "Selected day: " . htmlspecialchars($day) . "<br>";\n    }\n} else {\n    echo "No days were selected.";\n}

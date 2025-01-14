@@ -1,1 +1,0 @@
-import math\n\ndef weighting_function(d, c=1):\n    if d == float('inf'):\n        return 0.0\n    return math.exp(-c * (d - 1))\n\n# Example usage:\nprint(weighting_function(1))      # Output: Approximately 1.0\nprint(weighting_function(float('inf')))  # Output: 0.0\nprint(weighting_function(2, c=1)) # You can adjust the constant 'c' to change sensitivity

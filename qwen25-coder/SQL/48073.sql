@@ -1,1 +1,0 @@
--- Insert the record\ninsert into recon values(1,'sri',-1,'20090806');\n\n-- Commit the transaction\ncommit;\n\n-- Immediately check if the record exists\nselect * from recon;

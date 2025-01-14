@@ -1,1 +1,0 @@
-import fileinput\n   for line in fileinput.input(['file1.txt', 'file2.txt']):\n       print(line.strip())

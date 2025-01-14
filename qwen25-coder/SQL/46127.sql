@@ -1,1 +1,0 @@
--- Altering a table to change the data type of BusinessDate from nvarchar(10) to datetime\nALTER TABLE YourTableName\nALTER COLUMN BusinessDate datetime;\n\n-- Or, if you only need date part without time, use date type\nALTER TABLE YourTableName\nALTER COLUMN BusinessDate date;

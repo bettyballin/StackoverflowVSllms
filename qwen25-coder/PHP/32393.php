@@ -1,1 +1,0 @@
-// application/views/helpers/LoginForm.php\n\nclass App_View_Helper_LoginForm extends Zend_View_Helper_Abstract\n{\n    public function loginForm()\n    {\n        $form = new Application_Form_Login();\n        return $this->view->render('_login_form.phtml', array('form' => $form));\n    }\n}

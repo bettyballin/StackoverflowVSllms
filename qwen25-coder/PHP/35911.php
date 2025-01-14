@@ -1,1 +1,0 @@
-set_include_path(__DIR__ . '/../libs' . PATH_SEPARATOR . get_include_path());

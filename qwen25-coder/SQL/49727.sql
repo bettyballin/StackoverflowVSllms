@@ -1,1 +1,0 @@
--- Inefficient queries that could consume excessive resources\n   WHILE 1=1 BEGIN\n       SELECT * INTO #TempTable FROM sys.objects;\n       DROP TABLE #TempTable;\n   END;

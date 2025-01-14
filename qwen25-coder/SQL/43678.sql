@@ -1,1 +1,0 @@
-SELECT o.*\nFROM accounts o\nJOIN db2_user.accounts@db2_link d ON o.accountnum = d.accountnum;

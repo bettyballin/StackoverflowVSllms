@@ -1,1 +1,0 @@
-function GetQueryStringValue(key) {\n    var urlParams = new URLSearchParams(window.location.search);\n    return urlParams.get(key);\n}

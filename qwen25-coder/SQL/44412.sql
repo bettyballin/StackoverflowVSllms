@@ -1,1 +1,0 @@
-TRANSFORM Max(t.setuptime) AS MaxSetupTime\nSELECT t.plant, \n       t.material\nFROM tmp t\nGROUP BY t.plant, \n         t.material\nPIVOT "Workcenter" & t.workcenter;

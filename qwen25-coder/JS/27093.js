@@ -1,1 +1,0 @@
-$(function () {\n  // Define the function outside of the click handlers\n  function doosomething() {\n    // Doo something\n    alert("Something is done!");\n  }\n\n  // Attach the function to click events for both selectors\n  $("div.class").click(doosomething);\n  $("div.secondclass").click(doosomething);\n});

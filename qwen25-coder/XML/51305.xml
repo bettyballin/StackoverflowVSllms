@@ -1,1 +1,0 @@
-<field name="birthDate">\n  <field-validator type="dateformat">\n    <param name="format">yyyy-MM-dd</param>\n    <message>Invalid date format. Please enter the date in yyyy-MM-dd format.</message>\n  </field-validator>\n</field>

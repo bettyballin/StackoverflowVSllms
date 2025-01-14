@@ -1,1 +1,0 @@
-SELECT COUNT(*)\nFROM TableA A\nJOIN TableB B ON A.Id = B.Id\nWHERE ABS(A.timestamp - B.timestamp) > 1000;

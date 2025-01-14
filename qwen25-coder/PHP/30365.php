@@ -1,1 +1,0 @@
-function validateNotNull($value) {\n    if ($value === null || $value === '') {\n        throw new InvalidArgumentException('Value cannot be null or empty');\n    }\n}

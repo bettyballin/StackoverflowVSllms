@@ -1,1 +1,0 @@
-cursor.execute("SELECT * FROM your_table")\n     for row in cursor:\n         print(row)

@@ -1,1 +1,0 @@
-// Example string\n$html = '<a href="../" title="link title">example link</a>';\n\n// Regex to escape double quotes inside HTML attribute values\n$escapedHtml = preg_replace('/(?<=["\'][^"\']*?)(["])(?=[^"\']*?["\'])/', '\\\$1', $html);\n\necho $escapedHtml;

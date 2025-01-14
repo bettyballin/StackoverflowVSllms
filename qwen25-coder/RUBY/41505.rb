@@ -1,1 +1,0 @@
-def import\n  recipe = Recipe.find(params[:id])\n  if recipe.valid?\n    render json: { status: 'success', content: render_to_string(partial: 'form_successful_part') }\n  else\n    render json: { status: 'error', message: recipe.errors.full_messages.join('<br>') }\n  end\nend

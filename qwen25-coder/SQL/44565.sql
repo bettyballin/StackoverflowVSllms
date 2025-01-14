@@ -1,1 +1,0 @@
-SELECT \n    LTRIM(RTRIM(w.Word)) AS Word, \n    COUNT(*) AS Frequency\nFROM \n    YourTableName t\nCROSS APPLY \n    dbo.SplitStringToWords(t.Response, ' ') w\nGROUP BY \n    RTRIM(LTRIM(w.Word))\nORDER BY \n    Frequency DESC;

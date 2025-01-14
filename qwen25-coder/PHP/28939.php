@@ -1,1 +1,0 @@
-$var = '';\n...\n$var .= 'blah blah';\n$var .= $var2;\n$var .= 'more text here';

@@ -1,1 +1,0 @@
-UPDATE your_table_name\nSET column_name = REPLACE(column_name, '/files/', '/sites/default/files/')\nWHERE column_name LIKE '%/files/%';

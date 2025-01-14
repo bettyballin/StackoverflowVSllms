@@ -1,1 +1,0 @@
-ALTER TABLE your_table ADD login_id UNIQUEIDENTIFIER NULL;

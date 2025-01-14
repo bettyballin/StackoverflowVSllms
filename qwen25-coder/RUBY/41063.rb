@@ -1,1 +1,0 @@
-text.encode('UTF-8', invalid: :replace, undef: :replace, replace: '')

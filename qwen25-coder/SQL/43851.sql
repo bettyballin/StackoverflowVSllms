@@ -1,1 +1,0 @@
-CREATE INDEX idx_name_collate ON your_table (name COLLATE NOCASE);

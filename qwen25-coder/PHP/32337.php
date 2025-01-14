@@ -1,1 +1,0 @@
-// Assuming $node is your DOMNode and it is also a DOMElement\nif ($node instanceof DOMElement) {\n    $attributeName = 'nameOfAttributeToRemove'; // Replace with the name of the attribute you want to remove\n    $node->removeAttribute($attributeName);\n} else {\n    // Handle the case where the node is not an element\n    echo "The given node is not a DOMElement.";\n}

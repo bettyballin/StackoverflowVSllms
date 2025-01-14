@@ -1,1 +1,0 @@
-if defined?(Pry)\n  require 'awesome_print'\n  AwesomePrint.pry!\nend

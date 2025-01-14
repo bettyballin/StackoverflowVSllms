@@ -1,1 +1,0 @@
-SELECT departmentName, COUNT(employeeID) AS NumberOfEmployees\nFROM employees\nGROUP BY departmentName;

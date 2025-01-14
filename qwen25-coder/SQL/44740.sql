@@ -1,1 +1,0 @@
-CREATE TABLE ApplicationSettings (\n        SettingName NVARCHAR(256) PRIMARY KEY,\n        SettingValue NVARCHAR(MAX)\n    );

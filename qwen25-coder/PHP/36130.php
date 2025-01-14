@@ -1,1 +1,0 @@
-$array = [/* Your 13 elements here */];\n$count = count($array);\n\n// Start from index 1 and iterate over every other element\nfor ($i = 1; $i < $count; $i += 2) {\n    // Perform your operation on the element at index $i\n    echo "Processing element at index $i: " . $array[$i] . "\n";\n}

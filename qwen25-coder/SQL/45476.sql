@@ -1,1 +1,0 @@
-SELECT myschema.mytable.field FROM myschema.myview;

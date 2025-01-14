@@ -1,1 +1,0 @@
-$document->setMimeEncoding('application/pdf');\n$document->setName('filename'); // Optional: Sets the name of the file for download\n\n// Manually set other headers if necessary\nheader('Content-Disposition: attachment; filename="yourfile.pdf"');

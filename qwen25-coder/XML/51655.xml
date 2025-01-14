@@ -1,1 +1,0 @@
-<system.web>\n    <pages enableViewStateMac="false" viewStateEncryptionMode="Never" />\n  </system.web>

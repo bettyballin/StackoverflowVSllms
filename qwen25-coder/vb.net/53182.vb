@@ -1,1 +1,0 @@
-Imports CoreNamespace ' Replace with the actual namespace of your C# Core project

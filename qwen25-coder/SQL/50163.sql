@@ -1,1 +1,0 @@
--- This is a simple example assuming you want to do something for each row in a set\nWITH yourCTE AS (\n    SELECT ID, ROW_NUMBER() OVER (ORDER BY ID) as RowNum FROM YourTable\n)\nSELECT ID\nFROM yourCTE\nOPTION(MAXRECURSION 0); -- Adjust max recursion if necessary

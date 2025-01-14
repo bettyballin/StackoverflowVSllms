@@ -1,1 +1,0 @@
-$stmt = $this->link->prepare($sql);\nif ($stmt === false) {\n    die("Failed to prepare statement: " . $this->link->error);\n}

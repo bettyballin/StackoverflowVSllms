@@ -1,1 +1,0 @@
-echo $_SERVER['PHP_SELF']; // Outputs: /index.php/faq/whatever if configured to do so

@@ -1,1 +1,0 @@
-data = [['dog', 1], ['cat', 2, 'a'], ['rat', 3, 4], ['bat', 5]]\n\n# Convert each sublist into a tab-separated string and then join them with newlines\nresult = '\n'.join(['\t'.join(map(str, row)) for row in data])\n\nprint(result)

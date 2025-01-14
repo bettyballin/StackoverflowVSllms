@@ -1,1 +1,0 @@
-Public Event CustomEvent As EventHandler\n\nProtected Sub TriggerCustomEvent()\n    RaiseEvent CustomEvent(Me, EventArgs.Empty)\nEnd Sub

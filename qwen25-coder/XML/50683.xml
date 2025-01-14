@@ -1,1 +1,0 @@
-<!-- Sample Web.config entries for a web service -->\n<system.web>\n  <webServices>\n    <!-- Custom settings here if needed -->\n  </webServices>\n</system.web>\n\n<system.web.services>\n  <protocols>\n    <add name="HttpSoap"/>\n    <!-- Add other protocols as necessary -->\n  </protocols>\n</system.web.services>

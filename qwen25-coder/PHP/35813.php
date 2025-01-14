@@ -1,1 +1,0 @@
-$foobarobject = new FoobarClass();\n$method_name = 'foomethod';\n$foobarobject->$method_name();  // Directly calling the method\n\n// Alternatively, using call_user_func:\ncall_user_func([$foobarobject, $method_name]);

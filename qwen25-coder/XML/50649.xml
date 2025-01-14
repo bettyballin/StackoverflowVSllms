@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>\n<plugin>\n   <extension point="org.eclipse.pde.ui.project.nature">\n      <projectNature id="org.eclipse.jdt.core.javanature"/>\n      <projectNature id="org.eclipse.pde.PluginNature"/>\n   </extension>\n</plugin>

@@ -1,1 +1,0 @@
-// In your .csproj file, ensure this setting is used for Release\n<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">\n    <DebugType>pdbonly</DebugType>\n    <Optimize>true</Optimize>\n    <DefineConstants>TRACE;RELEASE</DefineConstants>\n    <DebugSymbols>false</DebugSymbols>\n</PropertyGroup>

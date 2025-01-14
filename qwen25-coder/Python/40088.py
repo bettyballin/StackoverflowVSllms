@@ -1,1 +1,0 @@
-# Python 3 example:\nimport http.server\nimport socketserver\n\nclass Handler(http.server.CGIHTTPRequestHandler):\n    cgi_directories = ["."]  # directory where CGI scripts are stored\n\nPORT = 8000\nhttpd = socketserver.TCPServer(("", PORT), Handler)\nprint(f"Serving at port {PORT}")\nhttpd.serve_forever()

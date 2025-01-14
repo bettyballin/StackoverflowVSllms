@@ -1,1 +1,0 @@
-for char in text:\n    print(f"'{char}' : {ord(char)}")

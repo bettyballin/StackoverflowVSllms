@@ -1,1 +1,0 @@
--- Assuming table1 has 3 rows and table2 has 4 rows\nSELECT * FROM table1, table2;

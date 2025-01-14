@@ -1,1 +1,0 @@
-SELECT COUNT(SomeColumn) AS TotalCount, AVG(SomeColumn) AS AverageValue, \n       MAX(SomeColumn) AS MaxValue, MIN(SomeColumn) AS MinValue\nFROM YourTableName;

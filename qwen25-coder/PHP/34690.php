@@ -1,1 +1,0 @@
-<?php\n$dbHost = getenv('DB_HOST');\n$dbUsername = getenv('DB_USERNAME');\n$dbPassword = getenv('DB_PASSWORD');\n\n// Use the credentials to connect to your database\n?>

@@ -1,1 +1,0 @@
-$doc = new DOMDocument('1.0', 'UTF-8');\n@$doc->loadHTML($text, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);\n\n$anchors = $doc->getElementsByTagName('a');\n\nforeach ($anchors as $a) {\n    $a->setAttribute('href', 'http://google.com');\n}\n\n// Save XML in UTF-8 and then convert to HTML entities minimal\nreturn mb_convert_encoding($doc->saveXML(), 'HTML-ENTITIES', 'UTF-8');

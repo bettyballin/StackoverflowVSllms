@@ -1,1 +1,0 @@
-UPDATE employees\nSET salary = (SELECT CASE \n                      WHEN new_salary >= 1000 THEN new_salary \n                      ELSE salary \n                   END)\nWHERE id IN (\n    SELECT id \n    FROM some_source_table\n);

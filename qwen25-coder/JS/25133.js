@@ -1,1 +1,0 @@
-document.write('\u2220');

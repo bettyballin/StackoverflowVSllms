@@ -1,1 +1,0 @@
-ActionView::Base.field_error_proc = Proc.new do |html_tag, instance|\n  if instance && instance.error_message.kind_of?(String)\n    "<span class='fieldWithErrors'>#{html_tag}</span>".html_safe\n  else\n    html_tag\n  end\nend

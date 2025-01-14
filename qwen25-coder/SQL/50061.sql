@@ -1,1 +1,0 @@
-SELECT DISTINCT c.CustomerID, c.CustomerName\nFROM Customers c\nWHERE NOT EXISTS (\n    SELECT p.ProductID\n    FROM Products p\n    WHERE NOT EXISTS (\n        SELECT o.OrderID\n        FROM Orders o\n        WHERE o.CustomerID = c.CustomerID AND o.ProductID = p.ProductID\n    )\n);

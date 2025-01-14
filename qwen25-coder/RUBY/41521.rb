@@ -1,1 +1,0 @@
-def user_params\n     params.require(:user).permit(:name, :email)\n   end

@@ -1,1 +1,0 @@
-let numbers = [40, 100, 1, 5, 25, 10];\nnumbers.sort((a, b) => a - b);\nconsole.log(numbers); // Output: [1, 5, 10, 25, 40, 100]\n\nlet words = ['banana', 'apple', 'cherry'];\nwords.sort();\nconsole.log(words); // Output: ['apple', 'banana', 'cherry']

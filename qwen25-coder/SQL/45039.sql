@@ -1,1 +1,0 @@
-DROP TABLE IF EXISTS temp_table_name;\n-- Note: In PostgreSQL, temporary tables are automatically prefixed with a prefix and suffix, so you might need to specify the exact name as returned by \dt or similar.

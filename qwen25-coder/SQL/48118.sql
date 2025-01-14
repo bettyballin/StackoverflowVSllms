@@ -1,1 +1,0 @@
--- Declaring a column as primary key in SQL Server automatically creates a clustered index on that column\n   CREATE CLUSTERED INDEX idx_clustered_column ON table_name (column);

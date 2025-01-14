@@ -1,1 +1,0 @@
-// In your config.php\n'translations' => [\n    'en' => [\n        'wrong_password' => 'Sorry, wrong password.',\n        // Add other strings here\n    ],\n    'fr' => [\n        'wrong_password' => 'Désolé, mot de passe incorrect.',\n        // French translations\n    ]\n]

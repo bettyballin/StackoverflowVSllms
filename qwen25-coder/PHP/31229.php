@@ -1,1 +1,0 @@
-// PHPUnit Example\n    public function testFeatureFunctionality() {\n        $this->assertTrue($condition);\n    }

@@ -1,1 +1,0 @@
-CREATE TABLE your_table_name (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    url VARCHAR(255) NOT NULL UNIQUE,\n    -- other columns...\n);

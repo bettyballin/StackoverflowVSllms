@@ -1,1 +1,0 @@
-var jobValue = document.getElementById('txtJob').value;\nconsole.log(jobValue); // This should output: software engineer

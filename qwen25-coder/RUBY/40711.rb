@@ -1,1 +1,0 @@
-gem 'bundler-audit'

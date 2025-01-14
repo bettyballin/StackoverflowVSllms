@@ -1,1 +1,0 @@
-<?php\n$html = '<div><p>Hello, World!</p></div>';\n$domDocument = new DOMDocument();\n@$domDocument->loadHTML($html); // Suppress errors due to malformed HTML\n\nforeach ($domDocument->getElementsByTagName('p') as $node) {\n    echo $node->nodeValue . "\n";\n}\n?>

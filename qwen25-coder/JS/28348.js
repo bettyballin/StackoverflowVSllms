@@ -1,1 +1,0 @@
-<script>\nlet index = 0;\n\nfunction getNextQuestionID() {\n    return index++;\n}\n\n// Example usage:\nconsole.log('quizID=' + getNextQuestionID()); // Outputs: quizID=0\nconsole.log('quizID=' + getNextQuestionID()); // Outputs: quizID=1\n</script>

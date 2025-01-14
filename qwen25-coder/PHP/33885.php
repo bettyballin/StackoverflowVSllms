@@ -1,1 +1,0 @@
-<?php\nfunction is_buggy_ie() {\n    $userAgent = $_SERVER['HTTP_USER_AGENT'] ?? '';\n    // Check if the user agent indicates an old version of IE that has known issues with gzip.\n    return preg_match('/MSIE [5-6]\./i', $userAgent) === 1;\n}\n\nif (!is_buggy_ie()) {\n    ob_start('ob_gzhandler');\n} else {\n    ob_start();\n}\n?>

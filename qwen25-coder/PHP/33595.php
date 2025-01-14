@@ -1,1 +1,0 @@
-$sql = "INSERT INTO users (name, email) VALUES (?, ?)";\n$params = ['John Doe', 'john@example.com'];\n$types = 'ss';  // string, string\n\n$this->queryPrepared($sql, $params, $types);

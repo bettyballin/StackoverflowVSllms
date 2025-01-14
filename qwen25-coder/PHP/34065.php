@@ -1,1 +1,0 @@
-header('Content-Type: text/event-stream');\nheader('Cache-Control: no-cache');\n\nwhile (/* condition */) {\n    // Your processing logic here\n\n    echo "data: " . $message . "\n\n";\n    flush();\n    sleep(2); // Wait for a while before sending new data\n}

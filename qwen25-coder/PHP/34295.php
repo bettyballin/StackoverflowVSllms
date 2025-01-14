@@ -1,1 +1,0 @@
-return [\n    'translator' => [\n        'locale' => 'en_US', // Default locale\n        'translation_file_patterns' => [\n            [\n                'type'     => 'phpArray',\n                'base_dir' => __DIR__ . '/../module/Application/language/',\n                'pattern'  => '%s.php',\n            ],\n        ],\n    ],\n];

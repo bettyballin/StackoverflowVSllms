@@ -1,1 +1,0 @@
-class SampleTest extends PHPUnit\Framework\TestCase {\n    protected $object;\n\n    protected function setUp(): void\n    {\n        // Setup code here\n        $this->object = new stdClass();\n        $this->object->text = 'blah';\n    }\n\n    public function testTextIsBlah()\n    {\n        $this->assertEquals('blah', $this->object->text);\n    }\n}

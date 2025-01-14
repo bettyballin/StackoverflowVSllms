@@ -1,1 +1,0 @@
-SELECT afield1, afield2, COUNT(*)\nFROM afile\nGROUP BY afield1, afield2\nHAVING COUNT(*) > 1;

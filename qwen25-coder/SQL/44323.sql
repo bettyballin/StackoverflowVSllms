@@ -1,1 +1,0 @@
-EXEC xp_cmdshell 'echo Testing > C:\path\to\output.txt';

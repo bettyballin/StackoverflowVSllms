@@ -1,1 +1,0 @@
-YUI().use('node', 'event', function(Y) {\n    // Select the button using YUI's Node module\n    var button = Y.one('#basic-button');\n\n    // Add a click event to handle interactions\n    button.on('click', function() {\n        // Change content dynamically with JavaScript\n        Y.one('#content').setContent('<p>Button clicked! Enhanced feature is active.</p>');\n    });\n});

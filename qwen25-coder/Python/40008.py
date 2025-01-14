@@ -1,1 +1,0 @@
-# Assume y.py is a symlink to x.py\nimport x  # This will execute once and load the contents of x.py\nimport y  # This imports as a separate module because Python treats it by filename\n\n# To check if they are indeed different modules:\nprint(x)\nprint(y)\n\nprint(x is y)  # This prints False indicating that they are treated as different modules

@@ -1,1 +1,0 @@
-SELECT Name,\n       MAX(CASE WHEN Date = '2009-06-02' THEN Price END) AS Price_06/02/09,\n       MAX(CASE WHEN Date = '2009-06-03' THEN Price END) AS Price_06/03/09,\n       MAX(CASE WHEN Date = '2009-06-04' THEN Price END) AS Price_06/04/09\nFROM your_table_name\nGROUP BY Name;

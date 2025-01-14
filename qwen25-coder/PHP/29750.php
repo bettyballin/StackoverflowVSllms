@@ -1,1 +1,0 @@
-$asd['a'] = 10;\n$asd['b'] = 1;\n$asd['c'] = 6;\n$asd['d'] = 3;\n\n// Sort the array by values in ascending order while preserving key association\nasort($asd);\n\n// Get the first four elements after sorting\n$firstFour = array_slice($asd, 0, 4, true);\n\nprint_r($firstFour);

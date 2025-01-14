@@ -1,1 +1,0 @@
-UPDATE your_table_name\nSET user_timezone = CASE \n    WHEN user_timezone = '+10' THEN 'Australia/Sydney'\n    WHEN user_timezone = '-1' THEN 'America/Puerto_Rico'\n    -- Add more mappings as necessary\n    ELSE user_timezone -- Leave unchanged if no match found\nEND\nWHERE user_timezone IN ('+10', '-1');-- Ensure only desired rows are updated

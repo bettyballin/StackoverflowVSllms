@@ -1,1 +1,0 @@
-# Example in Ruby on Rails\n   def employee_name(schedule)\n     assignment = schedule.assignment\n     return 'No Assignment' unless assignment.present?\n     assignment.employee.name\n   end

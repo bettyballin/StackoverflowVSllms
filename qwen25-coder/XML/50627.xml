@@ -1,1 +1,0 @@
-<Window ...>\n    <DockPanel LastChildFill="False">\n        <Button DockPanel.Dock="Top">b1</Button>\n        <Button DockPanel.Dock="Top">b2</Button>\n    </DockPanel>\n</Window>

@@ -1,1 +1,0 @@
-$username = addslashes($_POST['username']);\n$password = addslashes($_POST['password']);\n\n$query = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";\n$result = mysql_query($query);

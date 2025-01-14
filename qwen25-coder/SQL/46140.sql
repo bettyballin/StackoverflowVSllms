@@ -1,1 +1,0 @@
-UPDATE table_name\nSET single_cost = CEIL(CAST(cost AS FLOAT) / CAST(participant AS FLOAT))::int;

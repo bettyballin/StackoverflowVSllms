@@ -1,1 +1,0 @@
-DECLARE @targetValue NVARCHAR(MAX);\nSET @targetValue = dbo.GetFoo();\n\nEXEC AssertEqual @targetValue, 'S', 'Check If S';

@@ -1,1 +1,0 @@
-puts sprintf("The temperature is %d.", temperature)

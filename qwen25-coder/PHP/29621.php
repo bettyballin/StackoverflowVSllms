@@ -1,1 +1,0 @@
-// Assume $datetime is your datetime string fetched from MySQL\n$datetime = "2023-10-05 14:30:00";\n\n// Create a DateTime object\n$dateObject = new DateTime($datetime);\n\n// Format the date as desired\n$formattedDate = $dateObject->format('Y-m-d');\n\necho $formattedDate; // Outputs: 2023-10-05

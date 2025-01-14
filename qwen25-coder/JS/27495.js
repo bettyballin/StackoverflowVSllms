@@ -1,1 +1,0 @@
-const mapWith = (fn) => (arr) => arr.map(fn);\n\n   const double = (x) => x * 2;\n   const doubleAll = mapWith(double);\n\n   console.log(doubleAll([1, 2, 3])); // [2, 4, 6]

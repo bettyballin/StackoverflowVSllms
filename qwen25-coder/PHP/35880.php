@@ -1,1 +1,0 @@
-$result = preg_replace('/href\s*=\s*"([^"\shttp])/i', 'href="bla?id=$1', $result);

@@ -1,1 +1,0 @@
-<configuration>\n    <database>\n        <host>localhost</host>\n        <port>5432</port>\n    </database>\n    <services>\n        <service>\n            <type>http</type>\n            <port>8080</port>\n        </service>\n        <service>\n            <type>https</type>\n            <port>8443</port>\n        </service>\n    </services>\n</configuration>

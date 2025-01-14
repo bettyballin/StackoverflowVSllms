@@ -1,1 +1,0 @@
-SELECT xpath('/my/xpath/expr//text()', my_xml)::text[1] FROM my_table;

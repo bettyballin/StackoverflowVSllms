@@ -1,1 +1,0 @@
-// Assuming you have a child object named 'myObject'\nmyObject.alpha = 0.5; // Set opacity of myObject to 50%

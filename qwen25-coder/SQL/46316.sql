@@ -1,1 +1,0 @@
-SELECT /*+ INDEX(person idx_person_upper_last_name) */ * \nFROM person \nWHERE UPPER(last_name) LIKE 'P%' AND last_name IS NOT NULL;

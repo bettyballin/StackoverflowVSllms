@@ -1,1 +1,0 @@
-SELECT dbo.GetUtcTimestampForYearStart('America/Chicago') AS ChicagoYTD;\n-- This will return '2008-01-01 06:00:00' or '2009-01-01 06:00:00', depending on the current year.\n\nSELECT dbo.GetUtcTimestampForYearStart('America/New_York') AS NewYorkYTD;\n-- This will return '2008-01-01 05:00:00' or '2009-01-01 05:00:00', depending on the current year.

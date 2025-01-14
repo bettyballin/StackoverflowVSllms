@@ -1,1 +1,0 @@
-$products = $dbc->getAll("select xproductid, xproductname FROM xxproduct WHERE xsubcatid='$subcatid'");

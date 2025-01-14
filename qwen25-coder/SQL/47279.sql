@@ -1,1 +1,0 @@
--- Get table names in a specific database\nSELECT TABLE_NAME \nFROM INFORMATION_SCHEMA.TABLES \nWHERE TABLE_SCHEMA = 'your_database_name';\n\n-- Get columns of each table in a specific database\nSELECT TABLE_NAME, COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH, IS_NULLABLE\nFROM INFORMATION_SCHEMA.COLUMNS \nWHERE TABLE_SCHEMA = 'your_database_name';

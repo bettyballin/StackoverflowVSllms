@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_check_max_children_per_parent\nBEFORE INSERT OR UPDATE ON Children\nFOR EACH ROW\nBEGIN\n    DECLARE child_count INT;\n    SELECT COUNT(*) INTO child_count FROM Children WHERE ParentID = NEW.ParentID;\n    IF child_count >= 2 THEN\n        SIGNAL SQLSTATE '45001'\n        SET MESSAGE_TEXT = 'A parent can have only up to 2 children';\n    END IF;\nEND;

@@ -1,1 +1,0 @@
-function FindProxyForURL(url, host) {\n    console.log("URL: " + url);\n    console.log("Host: " + host);\n    // Your logic here\n    return "PROXY proxy.example.com:8080";\n}

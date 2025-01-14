@@ -1,1 +1,0 @@
-SELECT title\nFROM your_table_name\nORDER BY \n  CASE \n    WHEN SUBSTRING(title, 1, 4) = 'The ' THEN SUBSTRING(title, 5)\n    ELSE title\n  END;

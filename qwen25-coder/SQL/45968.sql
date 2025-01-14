@@ -1,1 +1,0 @@
-DECLARE @localVariable INT;\n\n    BEGIN TRANSACTION;\n    -- ... other transactional work ...\n\n    -- Call the proc with an output variable\n    EXEC GetMyValue @NewValue = @localVariable OUTPUT;\n\n    -- Use the value as needed...\n    -- ... more transactional work ...\n\n    COMMIT TRANSACTION;

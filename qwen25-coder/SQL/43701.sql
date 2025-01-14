@@ -1,1 +1,0 @@
-CREATE TABLE singleton_job_control (\n       job_name  VARCHAR2(30),\n       running   NUMBER(1),\n       CONSTRAINT pk_sjc PRIMARY KEY (job_name)\n   );\n   \n   INSERT INTO singleton_job_control (job_name, running)\n   VALUES ('YOUR_JOB_NAME', 0); -- 0: not running, 1: running

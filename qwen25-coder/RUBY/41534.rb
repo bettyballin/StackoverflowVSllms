@@ -1,1 +1,0 @@
-# Add CSP to your Rails application configuration in an initializer\nclass CSP::PolicyDirective\n  def call(env)\n    env['Content-Security-Policy'] = "default-src 'self'; script-src 'self' https://trusted.cdn.com"\n  end\nend\n\n# config/application.rb, or a relevant initializer\nconfig.middleware.use CSP::PolicyDirective

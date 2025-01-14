@@ -1,1 +1,0 @@
-USE master;\nGO\nCREATE DATABASE [ASPNETDB]\nON (FILENAME = 'C:\path_to_your_folder\ASPNETDB.mdf'),\n(FILENAME = 'C:\path_to_your_folder\ASPNETDB_log.ldf')\nFOR ATTACH;

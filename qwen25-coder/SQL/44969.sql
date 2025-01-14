@@ -1,1 +1,0 @@
-CREATE TABLE bins_videos (\n       bin_id CHAR(36) NOT NULL,\n       video_id CHAR(36) NOT NULL,\n       sort_order INT DEFAULT 0,\n       PRIMARY KEY(bin_id, video_id),\n       FOREIGN KEY (bin_id) REFERENCES bins(id),\n       FOREIGN KEY (video_id) REFERENCES videos(id)\n   );

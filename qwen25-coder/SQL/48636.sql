@@ -1,1 +1,0 @@
-SELECT *\nFROM Product\nORDER BY featured = 'Y' DESC\nLIMIT 1;

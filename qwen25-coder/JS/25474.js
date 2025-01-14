@@ -1,1 +1,0 @@
-var a = function(b, c) {\n    return b + c;\n};\n\nvar d = [1, 2, 3];\nvar e = [4, 5, 6];\n\nconsole.log(a(d[0], e[0])); // Outputs 5

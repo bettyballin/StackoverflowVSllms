@@ -1,1 +1,0 @@
-function toggleShowPassword() {\n    var input = document.getElementById('PASSWORD_TEXTBOX_ID'); // Get the password input element\n    \n    if (input) { // Check if the input element exists\n        // Toggle the type attribute between 'password' and 'text'\n        input.type = (input.type === 'password') ? 'text' : 'password';\n    }\n}

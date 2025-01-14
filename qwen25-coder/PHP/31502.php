@@ -1,1 +1,0 @@
-// In your controller, where you would process the query.\n   $decodedQuery = urldecode($this->uri->segment(4)); // Adjust the segment number according to your routing

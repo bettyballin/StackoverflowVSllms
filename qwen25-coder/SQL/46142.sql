@@ -1,1 +1,0 @@
-DECLARE @FirstDayOfLastMonth DATE = DATEADD(MONTH, DATEDIFF(MONTH, 0, GETDATE()) - 1, 0);\nDECLARE @LastDayOfLastMonth DATE = EOMONTH(GETDATE(), -1);\n\nSELECT *\nFROM YourTable S\nWHERE S.DATEENTERED >= @FirstDayOfLastMonth AND S.DATEENTERED <= @LastDayOfLastMonth;

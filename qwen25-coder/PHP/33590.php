@@ -1,1 +1,0 @@
-<?php\n$fname = "проба.xml";\n// Convert from UTF-8 to the system's code page (e.g., Windows-1251)\n$res = iconv("UTF-8", "CP1251", $fname);\n$content = file_get_contents($res);\nif ($content === FALSE) {\n    echo "Error opening file.";\n} else {\n    echo $content;\n}\n?>

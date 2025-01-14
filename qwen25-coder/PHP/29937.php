@@ -1,1 +1,0 @@
-include("conn.php"); // Assume this sets up a PDO connection object\n\n$stmt = $conn->query("SELECT * FROM sggame");\n\nwhile($row = $stmt->fetch(PDO::FETCH_ASSOC)) {\n    $id = $row['id'];\n    echo $id;\n    echo 'working?';\n}

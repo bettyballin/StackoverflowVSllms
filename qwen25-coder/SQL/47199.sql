@@ -1,1 +1,0 @@
-INSERT INTO entity_entity (entity_id_a, entity_id_b) VALUES (3, 5);

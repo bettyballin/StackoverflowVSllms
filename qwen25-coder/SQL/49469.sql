@@ -1,1 +1,0 @@
-WITH Statistics AS (\n    SELECT AVG(x) AS avg_x,\n           STDDEV_SAMP(x) AS stddev_x\n    FROM y\n),\nFilteredData AS (\n    SELECT x\n    FROM y, Statistics\n    WHERE x BETWEEN (avg_x - 2 * stddev_x) AND (avg_x + 2 * stddev_x)\n)\nSELECT AVG(x) AS filtered_avg\nFROM FilteredData;

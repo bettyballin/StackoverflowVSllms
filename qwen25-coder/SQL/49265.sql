@@ -1,1 +1,0 @@
-SELECT \n    @row_number:=@row_number + 1 AS row_number,\n    name\nFROM \n    friends,\n    (SELECT @row_number:=0) AS t\nORDER BY \n    name;

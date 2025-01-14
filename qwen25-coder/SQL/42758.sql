@@ -1,1 +1,0 @@
-SELECT \n    (SELECT column_name FROM your_table ORDER BY id ASC LIMIT 1) AS first_element,\n    (SELECT column_name FROM your_table ORDER BY id DESC LIMIT 1) AS last_element;

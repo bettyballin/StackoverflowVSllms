@@ -1,1 +1,0 @@
-<?php\n$str = "Hello";\n\n// Standard way\necho $str[1]; // Outputs: e\n\n// Non-standard syntax that works but is not recommended\necho ${str{1}}; // This will likely throw an error or behave unexpectedly\n?>

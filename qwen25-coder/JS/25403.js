@@ -1,1 +1,0 @@
-var map = L.map('map').setView([latitude, longitude], 13);\n   \n   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {\n       attribution: '© OpenStreetMap contributors'\n   }).addTo(map);\n\n   // Add your PNG tiles here

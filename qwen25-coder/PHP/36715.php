@@ -1,1 +1,0 @@
-require_once 'path/to/HTMLPurifier.auto.php';\n   $config = HTMLPurifier_Config::createDefault();\n   $config->set('Core.Encoding', 'UTF-8');\n   $config->set('Cache.DefinitionImpl', null); // for development only, remove in production\n   $purifier = new HTMLPurifier($config);\n   $clean_html = $purifier->purify($_POST['your_input']);

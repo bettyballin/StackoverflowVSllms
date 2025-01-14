@@ -1,1 +1,0 @@
-SELECT TOP 500 \n       ABS(CHECKSUM(NewId())) % 11 - 5 AS RandomNumber\nFROM \n       YourTableName;

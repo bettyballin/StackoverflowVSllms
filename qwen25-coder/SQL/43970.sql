@@ -1,1 +1,0 @@
-DECLARE @Num VARCHAR(20);\nSET @Num = ' + (82) 468 6152 ';\n\nSELECT dbo.[RemoveNonNumericCharacters](@Num) AS CleanedNumber;

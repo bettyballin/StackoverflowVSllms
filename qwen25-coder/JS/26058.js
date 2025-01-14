@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.open('GET', 'https://example.com/data.json', true);\nxhr.onreadystatechange = function() {\n    if (xhr.readyState === 4 && xhr.status === 200) {\n        console.log(xhr.responseText);\n    }\n};\nxhr.send();

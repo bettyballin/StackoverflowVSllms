@@ -1,1 +1,0 @@
-SELECT \n  t1.attrib1, \n  t1.attrib2,\n  ta.attrib1 \nFROM \n  table1 t1\nJOIN \n  tableA ta ON t1.id = ta.t1id\nWHERE \n  ta.t2id IN (x, ..., z)\nGROUP BY \n  t1.id;

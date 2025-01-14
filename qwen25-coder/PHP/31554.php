@@ -1,1 +1,0 @@
-<div><input type="checkbox" tabindex="1" name="permission[$app]" value="1" <? if ($currentperms['newapp'] == "1") {echo " checked ";}?> />New Application</label></div>

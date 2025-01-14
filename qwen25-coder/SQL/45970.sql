@@ -1,1 +1,0 @@
--- Example: Calculate the row number for each order by customer\n   SELECT \n       order_id, \n       customer_id, \n       order_date,\n       ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY order_date) AS order_number\n   FROM \n       orders;

@@ -1,1 +1,0 @@
-SELECT SQL_NO_CACHE * FROM your_table;

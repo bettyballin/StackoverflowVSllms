@@ -1,1 +1,0 @@
-$mysqlPass = getenv('MYSQL_PASSWORD');

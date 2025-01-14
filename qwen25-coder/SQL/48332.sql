@@ -1,1 +1,0 @@
-CREATE TABLE serialized_data (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    data JSON\n);\n\nINSERT INTO serialized_data (data) VALUES (\n    (SELECT JSON_ARRAYAGG(\n        JSON_OBJECT('id', id, 'name', name, 'position', position)\n    ) AS employees_json FROM employee)\n);

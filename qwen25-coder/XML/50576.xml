@@ -1,1 +1,0 @@
-<fo:block>\n    This is some content on one page.\n</fo:block>\n<!-- This block will start on a new page -->\n<fo:block break-before="page">\n    This content starts on a new page.\n</fo:block>

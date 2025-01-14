@@ -1,1 +1,0 @@
-$("[data-behavior*='clickHandler']").click(toolWindow_click);\n$("[data-behavior*='keyPressHandler']").keypress(toolWindow_keypress);

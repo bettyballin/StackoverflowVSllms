@@ -1,1 +1,0 @@
-import filecmp\n\ndef files_are_identical(file1, file2):\n    return filecmp.cmp(file1, file2)\n\n# Usage\nprint(files_are_identical('file1.txt', 'file2.txt'))

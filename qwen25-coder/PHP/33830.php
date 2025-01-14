@@ -1,1 +1,0 @@
-// Assuming $var contains an array of strings with {#VAR#} placeholders\n$translatedVar = [];\n\nforeach ($var as $line) {\n    // Use Smarty's fetch method to parse each line\n    $translatedLine = $smarty->fetch('string:' . $line);\n    $translatedVar[] = $translatedLine;\n}\n\n// Assign the preprocessed array to the template\n$smarty->assign('var', $translatedVar);

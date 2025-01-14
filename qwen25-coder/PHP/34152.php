@@ -1,1 +1,0 @@
-session.bug_compat_warn = off

@@ -1,1 +1,0 @@
-echo "Current User: ". get_current_user() . "\n";\n   echo "Owner of file: ". fileowner("list".$counterDate.".txt") . "\n";

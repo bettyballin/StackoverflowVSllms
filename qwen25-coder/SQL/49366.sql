@@ -1,1 +1,0 @@
-EXEC sp_configure 'locks';\n   EXEC sp_configure 'lock escalation';\n   RECONFIGURE;

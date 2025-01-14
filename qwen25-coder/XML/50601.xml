@@ -1,1 +1,0 @@
-<classpathentry kind="lib" path="/path/to/plugin.jar">\n       <attributes>\n           <attribute name="javadoc_location" value="/path/to/javadoc/"/>\n       </attributes>\n   </classpathentry>

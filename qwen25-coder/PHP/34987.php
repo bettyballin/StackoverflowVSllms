@@ -1,1 +1,0 @@
-if (session_status() == PHP_SESSION_NONE) {\n    session_start();\n}

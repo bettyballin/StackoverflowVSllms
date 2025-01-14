@@ -1,1 +1,0 @@
-<?php\n$filePath = "C:\\inetpub\\wwwroot\\example.com\\data\\334480\\test.jpg";\nchmod($filePath, 0664); // Set permissions to allow read/write by owner and group\n?>

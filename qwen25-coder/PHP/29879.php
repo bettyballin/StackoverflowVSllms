@@ -1,1 +1,0 @@
-ini_set('display_errors', 1);\nerror_reporting(E_ALL);

@@ -1,1 +1,0 @@
-WHERE Table1.StartTime < ISNULL(Table2.EndTime, '9999-12-31')\nAND Table1.EndTime > Table2.StartTime

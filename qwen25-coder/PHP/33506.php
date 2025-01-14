@@ -1,1 +1,0 @@
-<?php\nrequire_once 'autoload.php'; // Assuming you have an autoloader set up.\nrequire_once 'routes.php';

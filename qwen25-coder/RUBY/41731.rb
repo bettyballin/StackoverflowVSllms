@@ -1,1 +1,0 @@
-require 'erb'\n   require 'sinatra/base'\n\n   class MyApp < Sinatra::Base\n     get '/' do\n       template = File.read('index.html.erb')\n       ERB.new(template).result(binding)\n     end\n\n     run! if app_file == $0\n   end

@@ -1,1 +1,0 @@
-def index\n     @users = User.page(params[:page]).per(10)\n   end

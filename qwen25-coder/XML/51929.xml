@@ -1,1 +1,0 @@
-<stateful-session-store>\n    <max-pool-size>5</max-pool-size>\n    <resizer>\n        <!-- Configure resizers here -->\n    </resizer>\n    <cache-type>LFU</cache-type>\n</stateful-session-store>

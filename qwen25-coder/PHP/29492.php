@@ -1,1 +1,0 @@
-$foo = $cat ? $dog : $cat; // If $cat is falsy, assign $cat to $foo; otherwise, assign $dog.\n$bar = $fruit ?: $vegetable; // If $fruit is falsy, assign $vegetable to $bar; otherwise, keep it as $fruit.

@@ -1,1 +1,0 @@
--- Example command to drop an index\nDROP INDEX TableName.IndexName ON TableName;

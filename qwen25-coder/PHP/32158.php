@@ -1,1 +1,0 @@
-$result = call_user_func([$object, 'methodName'], $arg1, $arg2);\n   // or\n   $result = call_user_func_array([$object, 'methodName'], [$arg1, $arg2]);

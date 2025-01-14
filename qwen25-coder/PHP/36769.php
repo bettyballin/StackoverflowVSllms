@@ -1,1 +1,0 @@
-spl_autoload_register(function ($class) {\n    $paths = [\n        __DIR__ . '/libs/model/' . $class . '.php',\n        __DIR__ . '/libs/controller/' . $class . 'Controller.php'\n    ];\n\n    foreach ($paths as $path) {\n        if (file_exists($path)) {\n            require_once($path);\n            return;\n        }\n    }\n});

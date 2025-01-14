@@ -1,1 +1,0 @@
-document.getElementById("ifrm").addEventListener('load', function() {\n    var iframe = document.getElementById("ifrm");\n    if (iframe.contentWindow.document) {\n        var iframeContent = iframe.contentWindow.document.body.innerHTML;\n        console.log(iframeContent);\n        // Store the `iframeContent` in your DB as needed.\n    }\n});

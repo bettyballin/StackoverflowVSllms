@@ -1,1 +1,0 @@
-SELECT BIT_XOR(CRC32(some_string_column)) AS aggregate_checksum\nFROM your_table;

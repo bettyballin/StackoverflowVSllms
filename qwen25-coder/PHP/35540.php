@@ -1,1 +1,0 @@
-// Assume $pdo is your PDO database connection object\n$stmt = $pdo->prepare("DELETE FROM users WHERE id IN (". implode(',', array_fill(0, count($userIds), '?')) . ")");\n$stmt->execute($userIds);

@@ -1,1 +1,0 @@
-SELECT p.post_id, c.comment_id, c.created_at\nFROM Post p\nJOIN (\n    SELECT post_id, MAX(created_at) AS max_created_at\n    FROM Comment\n    GROUP BY post_id\n) latest_comments ON p.post_id = latest_comments.post_id\nJOIN Comment c ON latest_comments.post_id = c.post_id AND latest_comments.max_created_at = c.created_at;

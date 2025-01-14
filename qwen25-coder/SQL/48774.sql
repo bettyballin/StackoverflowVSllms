@@ -1,1 +1,0 @@
-select\n    c.Name as 'CountryName',\n    COALESCE(sp.[Name], '') as 'StateOrProvinceName' -- Use COALESCE for SQL Server or ISNULL if you prefer\nfrom\n    Country c \nleft outer join \n    (select [ID], [Name], 'State' as Type from State\n     union all\n     select [ID], [Name], 'Province' as Type from Province) sp \non \n    sp.[CountryID] = c.[ID]

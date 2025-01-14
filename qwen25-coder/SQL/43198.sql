@@ -1,1 +1,0 @@
-SELECT Format([YourNumericField], "0.000") AS FormattedNumber, OtherFields\nFROM YourTable;

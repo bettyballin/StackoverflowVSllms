@@ -1,1 +1,0 @@
-require 'daru'\n\n# Create sample DataFrames\ndf1 = Daru::DataFrame.new({a: ['A0', 'A1'], b: ['B0', 'B1']})\ndf2 = Daru::DataFrame.new({a: ['A2', 'A3'], c: ['C2', 'C3']})\n\n# SQL-like join operation (Daru does not support it directly, so a simple example of merge)\nresult = df1.merge(df2, on: :a)\nputs result

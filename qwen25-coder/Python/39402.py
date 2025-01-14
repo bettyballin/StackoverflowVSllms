@@ -1,1 +1,0 @@
-The `calculate_area(width, height)` function computes the area of a rectangle.

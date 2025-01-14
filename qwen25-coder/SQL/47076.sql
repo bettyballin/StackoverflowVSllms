@@ -1,1 +1,0 @@
-UPDATE YourTableName\nSET Amount = (SELECT Amount FROM YourTableName WHERE AccNo = 2040)\nWHERE AccNo = 1020;

@@ -1,1 +1,0 @@
-SELECT articles.*, people.*\nFROM articles\nJOIN people ON articles.spubid = people.spubid\nWHERE (articles.skeywords_auto ilike '%pm2%')\n  AND (people.slast ilike 'chow');

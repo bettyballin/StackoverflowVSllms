@@ -1,1 +1,0 @@
-import time\n\ndef time_it(f, *args, num_runs=100):\n    total_time = 0\n    for _ in range(num_runs):\n        start = time.perf_counter()\n        f(*args)\n        end = time.perf_counter()\n        total_time += (end - start) * 1000  # sum up the times in milliseconds\n    return total_time / num_runs  # average time per ru

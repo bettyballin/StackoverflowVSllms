@@ -1,1 +1,0 @@
-let myList = [1, 2, 3, 4, 5];\nmyList.splice(2, 1);  // Removes 1 element at index 2 (which is 3)

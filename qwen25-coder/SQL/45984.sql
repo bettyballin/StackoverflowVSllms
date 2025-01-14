@@ -1,1 +1,0 @@
-DELIMITER //\n\nCREATE EVENT IF NOT EXISTS move_old_data_to_history\nON SCHEDULE EVERY X DAY\nDO\nBEGIN\n  INSERT INTO B (column1, column2, ..., timestamp_column)\n  SELECT column1, column2, ..., timestamp_column FROM A\n  WHERE DATE(timestamp_column) < CURDATE() - INTERVAL Y DAY;\n  \n  DELETE FROM A\n  WHERE timestamp_column < CURDATE() - INTERVAL Y DAY;\nEND //\n\nDELIMITER ;

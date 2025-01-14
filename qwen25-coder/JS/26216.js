@@ -1,1 +1,0 @@
-// Example of using mustache.js for simplicity\nconst template = '<div><img src="{{url}}" alt="{{name}}" />{{name}}</div>';\nconst renderedHTML = data.map(item => Mustache.render(template, item)).join('');\ndocument.getElementById('your-container-id').innerHTML = renderedHTML;

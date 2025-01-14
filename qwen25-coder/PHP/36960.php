@@ -1,1 +1,0 @@
-$a = 5;\n$b = "5";\n\nvar_dump($a == $b); // Outputs: bool(true) - because values are equal after type juggling\nvar_dump($a === $b); // Outputs: bool(false) - because types are different (int vs string)

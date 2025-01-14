@@ -1,1 +1,0 @@
-# Readable nested function\n   def b(x):\n       return 1 + x\n   \n   # Less readable with additional operations using lambda would be cumbersome\n   a = lambda x: (x if x > 0 else -x) * 2 + 5

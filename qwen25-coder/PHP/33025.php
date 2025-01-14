@@ -1,1 +1,0 @@
-$email = filter_var($userInput, FILTER_SANITIZE_EMAIL);

@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE (@bit = 0) OR (column = @bit)

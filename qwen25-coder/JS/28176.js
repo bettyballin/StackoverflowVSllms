@@ -1,1 +1,0 @@
-// Function to call the static method with parameters\n   function performSearch(query) {\n       var searchType = localStorage.getItem('selectedSearchType');\n       // Call your static method here, passing both query and searchType\n       YourNamespace.YourClass.StaticMethod(query, searchType);\n   }

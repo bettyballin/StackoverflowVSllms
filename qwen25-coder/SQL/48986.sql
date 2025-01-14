@@ -1,1 +1,0 @@
-CREATE TABLE records (\n    record_id INT PRIMARY KEY AUTO_INCREMENT,\n    filename VARCHAR(255),\n    filepath VARCHAR(255),\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);

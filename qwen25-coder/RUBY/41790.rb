@@ -1,1 +1,0 @@
-# app/rake/tasks/email.rake\nnamespace :email do\n  desc "Send bulk emails"\n  task send_bulk: :environment do\n    users = User.where(newsletter_opt_in: true)\n    subject = "Your Subject Here"\n    body = File.read("path/to/your/template.html")\n\n    users.each do |user|\n      SendEmailJob.perform_later(user, subject, body)\n    end\n  end\nend

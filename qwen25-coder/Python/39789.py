@@ -1,1 +1,0 @@
-from bs4 import BeautifulSoup\n\nhtml_content = '<a href="javascript:ProcessQuery(\'report_drilldown\',145817)">text</a>'\nsoup = BeautifulSoup(html_content, 'html.parser')\nlink_text = soup.a.text\nprint(link_text)

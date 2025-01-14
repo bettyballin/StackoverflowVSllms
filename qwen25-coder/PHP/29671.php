@@ -1,1 +1,0 @@
-// Include Parsedown via Composer or manually include it in your script\nrequire 'path/to/Parsedown.php';\n\n$text = "This is a **bold** text. Visit [Stack Overflow](https://stackoverflow.com) for more info.";\n$Parsedown = new Parsedown();\n\n$html = $Parsedown->text($text);\necho $html;

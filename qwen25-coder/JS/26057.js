@@ -1,1 +1,0 @@
-$('#showlink').click(function(){ \n    $('#linkwindow').show('fast', function() {\n        // This callback is executed after the show animation is complete.\n        $('#linkwindow input').focus();\n    });\n});

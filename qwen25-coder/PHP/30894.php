@@ -1,1 +1,0 @@
-<?php\n$pdfFilePath = 'path/to/your/file.pdf';\n$outputHtmlPath = 'path/to/output/file.html';\n\n// Call the pdftohtml command\nexec("pdftohtml -noframes {$pdfFilePath} {$outputHtmlPath}", $output, $return_var);\n\nif ($return_var == 0) {\n    echo "PDF has been converted to HTML and saved as {$outputHtmlPath}.";\n} else {\n    echo "An error occurred during conversion.";\n}\n?>

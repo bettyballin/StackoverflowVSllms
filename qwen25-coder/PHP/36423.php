@@ -1,1 +1,0 @@
-<?php\n// Sanitize input if necessary\n$input = escapeshellarg($userInput);\n\n// Execute the perl script and pass input\n$output = shell_exec("perl /path/to/your/perlscript.pl $input");\n\necho "Output from Perl script: <pre>$output</pre>";\n?>

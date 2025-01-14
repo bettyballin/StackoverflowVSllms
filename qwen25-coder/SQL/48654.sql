@@ -1,1 +1,0 @@
-DECLARE @RowsAffected INT;\n\nEXEC MyProcedure \n    @SomeParameter = 1,\n    @AffectedRows = @RowsAffected OUTPUT;\n\nSELECT @RowsAffected AS RowsAffected;

@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>com.google.code.gson</groupId>\n    <artifactId>gson</artifactId>\n    <version>2.8.6</version>\n</dependency>

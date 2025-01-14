@@ -1,1 +1,0 @@
--- Check data distribution\n   SELECT c, COUNT(*)\n   FROM a_view\n   GROUP BY c;

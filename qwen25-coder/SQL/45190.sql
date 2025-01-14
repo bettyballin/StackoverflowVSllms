@@ -1,1 +1,0 @@
-SELECT TOP 10 \n       PKID, ApplicationName, MethodName, TimeInMs, AdditionalInfo, DateTime\n   FROM YourTable\n   WHERE DateTime >= DATEADD(minute, -60, GETDATE())\n   ORDER BY TimeInMs ASC;

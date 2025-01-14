@@ -1,1 +1,0 @@
-// Set default timezone for PHP to UTC\ndate_default_timezone_set('UTC');\n\n$utc_time = date('Y-m-d H:i:s');

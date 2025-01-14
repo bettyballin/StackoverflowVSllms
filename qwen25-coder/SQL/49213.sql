@@ -1,1 +1,0 @@
-select t1.id, t2.id from mytable as t1, mytable as t2 where t2.id > t1.id;

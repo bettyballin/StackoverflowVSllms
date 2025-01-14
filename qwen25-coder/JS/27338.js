@@ -1,1 +1,0 @@
-function test(myParameter) {\n    alert(myParameter);\n}\n\n// Always use quotes to treat as string or explicitly use no leading zeros if it's a number\n<button onclick="test('044024');">Ok</button>\n<button onclick="test(44024);">Decimal Ok</button>

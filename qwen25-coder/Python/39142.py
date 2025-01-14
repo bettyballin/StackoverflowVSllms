@@ -1,1 +1,0 @@
-from yourapp.models import YourModel\n\n   # Example usage:\n   obj = YourModel.objects.create(name='example')\n   print(obj.name)

@@ -1,1 +1,0 @@
-WITH ProductCTE AS (\n    SELECT bundle_id, MIN(description) as description -- Ensure deterministic selection with MIN or any other logic\n    FROM products\n    GROUP BY bundle_id\n)\nUPDATE bundles_denormalized \nSET category = p.description\nFROM bundles_denormalized b\nJOIN ProductCTE p ON b.id = p.bundle_id;

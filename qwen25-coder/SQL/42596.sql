@@ -1,1 +1,0 @@
-CREATE TABLE #DebugTable (ID INT, Value VARCHAR(255));\n   INSERT INTO #DebugTable VALUES (@someVar, 'Some value was here');

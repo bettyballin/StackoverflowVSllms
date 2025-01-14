@@ -1,1 +1,0 @@
-ssh_client = create_ssh_client_with_key(server_ip, port, user, 'path/to/private/key')

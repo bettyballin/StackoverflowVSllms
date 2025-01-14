@@ -1,1 +1,0 @@
-<behaviors>\n     <serviceBehaviors>\n         <behavior name="">\n             <serviceMetadata httpGetEnabled="true"/>\n             <!-- Turn off this switch in production -->\n             <serviceDebug includeExceptionDetailInFaults="True"/>\n         </behavior>\n     </serviceBehaviors>\n   </behaviors>

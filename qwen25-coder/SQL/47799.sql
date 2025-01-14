@@ -1,1 +1,0 @@
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'your_new_password';\n     FLUSH PRIVILEGES;

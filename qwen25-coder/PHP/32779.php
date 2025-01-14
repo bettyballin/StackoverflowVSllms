@@ -1,1 +1,0 @@
-<!-- In homepage.ctp -->\n<p>Welcome, User ID: <?php echo h($userId); ?></p>

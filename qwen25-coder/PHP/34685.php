@@ -1,1 +1,0 @@
-// Method 1: String Concatenation\n$html = '';\n$html .= '<ul>';\nfor ($k = 1; $k <= 1000; $k++) {\n    $html .= '<li> This is list item #'.$k.'</li>';\n}\n$html .= '</ul>';\necho $html;\n\n// Method 2: Output Buffering\nob_start();\necho '<ul>';\nfor ($k = 1; $k <= 1000; $k++) {\n    echo '<li> This is list item #',$k,'</li>';\n}\necho '</ul>';

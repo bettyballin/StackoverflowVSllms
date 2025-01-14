@@ -1,1 +1,0 @@
-$results.css({\n         width: parseInt(iWidth) + "px", // Set the dropdown's width in pixels\n         top: (pos.y + input.offsetHeight) + "px", // Position it directly below the input field\n         left: pos.x + "px" // Align its left edge with the input field's left edge\n     }).show(); // Finally, display the dropdown element

@@ -1,1 +1,0 @@
-SELECT *\nFROM Document\nINNER JOIN DocumentStats ON Document.Id = DocumentStats.DocumentId -- Corrected join condition\nWHERE DocumentStats.NbViews > 500;

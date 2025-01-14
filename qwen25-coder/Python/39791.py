@@ -1,1 +1,0 @@
-import cProfile\n\ndef main(argv):\n    for i in range(1, 1000):\n        print(i)\n\nif __name__ == "__main__":\n    cProfile.run('main([])')

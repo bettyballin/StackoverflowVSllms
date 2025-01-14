@@ -1,1 +1,0 @@
-$this->Session->setFlash('This is a success message.');\n// or for error messages\n$this->Session->setFlash('This is an error message.', 'default', array(), 'error');

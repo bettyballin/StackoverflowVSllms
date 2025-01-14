@@ -1,1 +1,0 @@
-CREATE TABLE status_updates (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       user_who_posted VARCHAR(255),\n       update_text TEXT,\n       created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n       INDEX idx_user_who_posted (user_who_posted)\n   );

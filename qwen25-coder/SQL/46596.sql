@@ -1,1 +1,0 @@
-SELECT * \nFROM YourTableName \nWHERE YourDateColumn > DATEADD(year, -1, GETDATE());

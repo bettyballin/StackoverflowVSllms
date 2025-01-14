@@ -1,1 +1,0 @@
-error: function(jqXHR, textStatus, errorThrown) {\n        console.log("AJAX Error: " + textStatus + " - " + errorThrown);\n    }

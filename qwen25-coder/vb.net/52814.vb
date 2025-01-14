@@ -1,1 +1,0 @@
-' In VB, you can use AddressOf without explicit types.\nDim greetDelegate As Func(Of String, String) = AddressOf Greet\n\n' Or using a simple lambda expression\nDim simpleGreetingFunc = Function(name) $"Hi, {name}!"

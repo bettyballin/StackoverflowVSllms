@@ -1,1 +1,0 @@
-delete '/sessions', to: 'sessions#destroy'

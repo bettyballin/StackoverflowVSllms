@@ -1,1 +1,0 @@
-import calendar\n\n# Convert the datetime object to a Unix timestamp using timegm for UTC\nunix_timestamp = calendar.timegm(utc_datetime.utctimetuple())\n\nprint(unix_timestamp)

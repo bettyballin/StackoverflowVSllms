@@ -1,1 +1,0 @@
-SELECT id, score, accountid\nFROM (\n    SELECT id, score, accountid,\n           ROW_NUMBER() OVER (PARTITION BY accountid ORDER BY score DESC) as rn\n    FROM scores\n) subquery\nWHERE rn = 1\nORDER BY score DESC\nLIMIT 10;

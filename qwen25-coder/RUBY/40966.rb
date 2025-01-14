@@ -1,1 +1,0 @@
-<% @story.memberships.each do |membership| %>\n  <%= form_with(model: membership, remote: true) do |f| %>\n    <%= f.select :permissions, [['none', 0], ['admin', 9]], {}, { onchange: 'this.form.requestSubmit()' } %>\n  <% end %>\n<% end %>

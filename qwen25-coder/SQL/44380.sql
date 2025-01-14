@@ -1,1 +1,0 @@
--- Creating the DEPARTMENT table in SCHEMA1\nCREATE TABLE SCHEMA1.DEPARTMENT (\n    deptId INT PRIMARY KEY,\n    deptName VARCHAR(50)\n);\n\n-- Creating the EMPLOYEE table in SCHEMA2\nCREATE TABLE SCHEMA2.EMPLOYEE (\n    empID INT PRIMARY KEY,\n    empName VARCHAR(50),\n    deptId INT,\n    FOREIGN KEY (deptId) REFERENCES SCHEMA1.DEPARTMENT(deptId)\n);

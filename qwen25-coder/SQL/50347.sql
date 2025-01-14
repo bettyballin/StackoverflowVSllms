@@ -1,1 +1,0 @@
-SELECT ac.table_name, acc.column_name\nFROM all_constraints ac\nJOIN all_cons_columns acc ON ac.constraint_name = acc.constraint_name\nWHERE ac.r_constraint_name IN (\n    SELECT constraint_name\n    FROM all_constraints\n    WHERE table_name = 'PROJECT'\n    AND column_name = 'PROJECTID'\n    )\nAND ac.constraint_type = 'R';

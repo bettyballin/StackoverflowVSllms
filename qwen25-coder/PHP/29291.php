@@ -1,1 +1,0 @@
-$output = make_request('http://www.externalsite.com/script2.php?variable=45');\n  echo $output;

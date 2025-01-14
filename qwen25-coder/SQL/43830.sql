@@ -1,1 +1,0 @@
-CREATE TABLE Orders (\n    OrderID int PRIMARY KEY,\n    CustomerID int\n);\n\nCREATE TABLE Customers (\n    CustomerID int PRIMARY KEY,\n    Name varchar(255)\n);\n\n-- Creating foreign key constraints with specific names\nALTER TABLE Orders\nADD CONSTRAINT FK_Orders_Customers FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID);

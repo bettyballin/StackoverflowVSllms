@@ -1,1 +1,0 @@
-function stepOne(callback) {\n    setTimeout(() => { // Simulate async operation\n        console.log("Step one done");\n        if (typeof callback === 'function') callback();\n    }, 30000); // 30 seconds\n}\n\nfunction stepTwo() {\n    console.log("Step two done");\n}\n\nstepOne(stepTwo);

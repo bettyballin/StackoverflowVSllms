@@ -1,1 +1,0 @@
-$this->service = new SoapClient('your_wsdl_url', array('exceptions' => true));

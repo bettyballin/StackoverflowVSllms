@@ -1,1 +1,0 @@
-$directory = 'D:\setup program';\n$filename = 'mj.txt';\n\n// Combine directory and filename\n$fullPath = $directory . DIRECTORY_SEPARATOR . $filename;\n\necho $fullPath; // Outputs: D:\setup program\mj.txt on Windows, or D:/setup program/mj.txt on Unix-based systems

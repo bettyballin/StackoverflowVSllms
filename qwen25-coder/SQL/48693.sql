@@ -1,1 +1,0 @@
-UPDATE STATISTICS databaseA.dbo.table1;\n   UPDATE STATISTICS databaseA.dbo.table2;\n   UPDATE STATISTICS databaseB.dbo.table3;

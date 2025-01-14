@@ -1,1 +1,0 @@
--- Average rating for a specific game\nSELECT AVG(vote) FROM votes WHERE gid = $gid;\n\n-- Total number of votes for a specific game\nSELECT COUNT(*) FROM votes WHERE gid = $gid;

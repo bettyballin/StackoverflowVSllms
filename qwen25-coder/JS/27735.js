@@ -1,1 +1,0 @@
-function foo() {\n    alert('foo');\n}\n\n// Create an object that maps function names to the actual function references\nvar functions = {\n    'foo': foo\n};\n\nvar test = 'foo';\n\n// Call the function using the string key from the functions object\nif (functions[test]) {\n    functions[test]();  // This calls foo()\n} else {\n    console.log('Function not found');\n}

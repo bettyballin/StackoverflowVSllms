@@ -1,1 +1,0 @@
-<!-- Ensure this tag is present in your application.html.erb -->\n   <%= javascript_include_tag 'application' %>

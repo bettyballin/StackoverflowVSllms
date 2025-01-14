@@ -1,1 +1,0 @@
-const testString = 'ÓBill de hÓra';\n   const regex = /^[\w-\sÀÈÌÒÙàèìòùÁÉÍÓÚÝáéíóúýÂÊÎÔÛâêîôûÃÑÕãñõÄËÏÖÜäëïöüçÇßØøÅåÆæÞþÐð]+$/;\n   console.log(regex.test(testString)); // Should log: true

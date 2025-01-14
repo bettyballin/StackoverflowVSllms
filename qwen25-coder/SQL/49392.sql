@@ -1,1 +1,0 @@
-DECLARE @sql NVARCHAR(MAX);\n   SET @sql = N'SELECT * FROM YourTableName WHERE id BETWEEN ' + CAST(@firstId AS NVARCHAR(10)) + ' AND ' + CAST(@lastId AS NVARCHAR(10));\n   EXEC sp_executesql @sql;

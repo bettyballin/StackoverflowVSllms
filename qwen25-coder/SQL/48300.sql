@@ -1,1 +1,0 @@
-CREATE TABLE shared_session_data (\n     session_id VARCHAR(255) PRIMARY KEY,\n     user_id INT NOT NULL,\n     last_access TIMESTAMP NOT NULL\n   );

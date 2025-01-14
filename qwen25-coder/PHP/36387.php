@@ -1,1 +1,0 @@
-print_r($keywords);\n\nif (!is_array($keywords)) {\n    echo "\$keywords is not an array. Type: " . gettype($keywords);\n    exit;\n}\n\nforeach ($keywords as $k => $v) {\n    // stuff here\n}

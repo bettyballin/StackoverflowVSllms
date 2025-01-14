@@ -1,1 +1,0 @@
-function safeEscapeString($string) {\n    // Double the single quotes and backslashes\n    return str_replace(['\\', '\''], ['\\\\', '\\\''], $string);\n}

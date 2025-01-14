@@ -1,1 +1,0 @@
-$template->assign('current_time', time());

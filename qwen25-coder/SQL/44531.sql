@@ -1,1 +1,0 @@
--- Reconnect if needed\nCONNECT username/password@database\n\n-- Execute the modified script\n@my_stored_procedure.sql\n\n-- Verify the changes\nDESCRIBE OWNER_SCHEMA.STORED_PROC_NAME

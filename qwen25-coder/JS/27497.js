@@ -1,1 +1,0 @@
-const handleButtonClick = (event, buttonId) => {\n       console.log(`Button ${buttonId} clicked`);\n   };\n\n   document.getElementById('myButton').addEventListener(\n       'click', \n       handleButtonClick.bind(null, undefined, 'myButton')\n   );

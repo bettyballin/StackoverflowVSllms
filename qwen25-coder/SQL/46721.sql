@@ -1,1 +1,0 @@
-WITH LatestMeasurements AS (\n    SELECT TownID, Temp, Date,\n           ROW_NUMBER() OVER (PARTITION BY TownID ORDER BY Date DESC) as rn\n    FROM WeatherMeasurement\n)\nSELECT TownID, Temp, Date\nFROM LatestMeasurements\nWHERE rn = 1;

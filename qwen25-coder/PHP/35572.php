@@ -1,1 +1,0 @@
-$myString = "Your example string here";\n$charAtPosition20 = $myString[20];

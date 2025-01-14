@@ -1,1 +1,0 @@
-SELECT DATE '9999-12-31' AS max_date FROM dual;

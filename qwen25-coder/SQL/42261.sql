@@ -1,1 +1,0 @@
-BULK INSERT SwearWords (SwearWordColumn) -- Specify the column name here\nFROM 'c:\swears.txt'\nWITH (\n    FIELDTERMINATOR = '\n',  -- Treat each new line as a field terminator\n    ROWTERMINATOR = '\n'     -- Each row ends with a new line\n)

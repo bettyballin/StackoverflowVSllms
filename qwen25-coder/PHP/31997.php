@@ -1,1 +1,0 @@
-$_SESSION['user_ip'] = $_SERVER['REMOTE_ADDR'];

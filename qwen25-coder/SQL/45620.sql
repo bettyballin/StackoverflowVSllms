@@ -1,1 +1,0 @@
-SELECT * FROM TEST WHERE id = ? AND name = ?;

@@ -1,1 +1,0 @@
-Rails.application.routes.draw do\n  resources :fruits, only: [:index, :new, :create] # Include other actions if needed\n\n  get 'fruits/:id', to: 'fruits#display', as: 'fruit_display'\nend

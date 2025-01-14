@@ -1,1 +1,0 @@
-SELECT \n    Products.IdService,\n    p.*,\n    s.* \nFROM \n    Products AS p\nINNER JOIN \n    Services AS s ON p.IdService = s.IdService;

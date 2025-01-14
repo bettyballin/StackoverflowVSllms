@@ -1,1 +1,0 @@
--- When a vote is added\nUPDATE Question\nSET votes_count = votes_count + 1\nWHERE id = ?;\n\n-- When a vote is removed\nUPDATE Question\nSET votes_count = votes_count - 1\nWHERE id = ?;

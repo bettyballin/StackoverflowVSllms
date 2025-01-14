@@ -1,1 +1,0 @@
-create_table :city_permissions do |t|\n  t.integer :user_id, null: false\n  t.integer :city_id, null: false\n  # other fields...\nend\n\nadd_index :city_permissions, :user_id\nadd_index :city_permissions, :city_id\n# Composite index for queries that filter on both user_id and city_id\nadd_index :city_permissions, [:user_id, :city_id], unique: true

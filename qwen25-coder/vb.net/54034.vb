@@ -1,1 +1,0 @@
-Dim oCommand As New SqlCommand()

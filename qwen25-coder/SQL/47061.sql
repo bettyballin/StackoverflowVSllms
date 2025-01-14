@@ -1,1 +1,0 @@
-WITH JulieAndrewsMovies AS (\n    SELECT c.movieid\n    FROM casting c\n    JOIN actor a ON c.actorid = a.id\n    WHERE a.name = 'Julie Andrews'\n)\nSELECT m.title, a.name AS lead_actor\nFROM movie m\nJOIN casting c ON m.id = c.movieid\nJOIN actor a ON c.actorid = a.id\nWHERE c.ord = 1\nAND m.id IN (SELECT movieid FROM JulieAndrewsMovies);

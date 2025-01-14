@@ -1,1 +1,0 @@
-$this->output->enable_profiler(TRUE);

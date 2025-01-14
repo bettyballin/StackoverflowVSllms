@@ -1,1 +1,0 @@
-// /path/to/config/config.inc.php\n<?php\n\nreturn [\n    'database' => [\n        'host'     => getenv('DB_HOST') ?: 'localhost',\n        'name'     => getenv('DB_NAME') ?: 'my_database',\n        'user'     => getenv('DB_USER') ?: 'root',\n        'password' => getenv('DB_PASSWORD') ?: '',\n    ],\n];

@@ -1,1 +1,0 @@
-list($name, $age, $id) = array_values(array_intersect_key($data, array_flip($wanted_keys)));\n\necho "$name is $age years old and has ID $id.";  // Outputs: John is 99 years old and has ID 1.

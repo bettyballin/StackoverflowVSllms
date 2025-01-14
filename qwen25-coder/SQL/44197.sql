@@ -1,1 +1,0 @@
-SELECT a AS value, 1 AS ord FROM A LIMIT 1 \nUNION ALL\nSELECT b AS value, 2 AS ord FROM B LIMIT 1\nORDER BY ord;

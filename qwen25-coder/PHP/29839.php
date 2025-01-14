@@ -1,1 +1,0 @@
-// Example of filtering and validating an email address using PHP filter\n$email = "example@example.com";\nif (filter_var($email, FILTER_VALIDATE_EMAIL)) {\n    echo "Email is considered valid.";\n} else {\n    echo "Invalid email format"; \n}

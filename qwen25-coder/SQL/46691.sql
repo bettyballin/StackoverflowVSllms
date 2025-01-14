@@ -1,1 +1,0 @@
-ALTER TABLE mytable MODIFY mycolumn varchar(255) NULL;

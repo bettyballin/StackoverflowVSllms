@@ -1,1 +1,0 @@
-<!-- Example Tidy configuration XML snippet -->\n<tidy-config>\n    <show-warnings>no</show-warnings>\n    <indent-spaces>2</indent-spaces>\n    <!-- Disable trimming of empty elements -->\n    <trim-empty-elements>false</trim-empty-elements>\n</tidy-config>

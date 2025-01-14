@@ -1,1 +1,0 @@
-// Base URL\nconst baseUrl = "https://example.com/search";\n\n// Search term\nconst searchTerm = "yourSearchTerm";\n\n// Constructing the full URL\nconst urlWithParams = `${baseUrl}?query=${encodeURIComponent(searchTerm)}`;\n\nconsole.log(urlWithParams);

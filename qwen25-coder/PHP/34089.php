@@ -1,1 +1,0 @@
-$monthlybill = str_replace('$', '', $_GET['monthlybill']);\n$monthlybill = floatval($monthlybill); // Convert to a number\n\n// Now $monthlybill is a numeric value and can be used for calculations

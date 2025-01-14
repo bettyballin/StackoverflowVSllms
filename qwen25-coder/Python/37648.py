@@ -1,1 +1,0 @@
-from django.views.generic.base import ContextMixin\n\n   class SessionUserMixin(ContextMixin):\n       def get_context_data(self, **kwargs):\n           context = super().get_context_data(**kwargs)\n           user = self.request.session.get('user', None)\n           context['session_user'] = user\n           return context

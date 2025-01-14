@@ -1,1 +1,0 @@
-CREATE TABLE ExampleTable (\n    ID INT PRIMARY KEY,\n    ShortDescription VARCHAR(255),\n    LongDescription NVARCHAR(4000)\n);

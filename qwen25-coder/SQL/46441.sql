@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetEmployeeDetails\nAS\nBEGIN\n    SELECT EmployeeID, Name, Department\n    FROM Employees;\nEND;

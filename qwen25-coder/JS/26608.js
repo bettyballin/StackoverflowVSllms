@@ -1,1 +1,0 @@
-// Example of setting and getting sessionStorage\nsessionStorage.setItem('key', 'value');\nlet value = sessionStorage.getItem('key');\n\n// This data will be cleared when the browser tab is closed.

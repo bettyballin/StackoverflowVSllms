@@ -1,1 +1,0 @@
-CREATE TABLE #TempTable (\n    IDENTITY_COLUMN INT IDENTITY(1,1),\n    Column1 DataType,\n    Column2 DataType,\n    ...\n);\n\nINSERT INTO #TempTable (Column1, Column2, ...)\nSELECT \n    Column1, \n    Column2, \n    ...\nFROM \n    YourSourceTable;

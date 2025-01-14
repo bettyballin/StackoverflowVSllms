@@ -1,1 +1,0 @@
-CREATE TABLE Departments (\n    DepartmentID int PRIMARY KEY,\n    DepartmentName varchar(50)\n);\n\nCREATE TABLE Employees (\n    EmployeeID int PRIMARY KEY,\n    EmployeeName varchar(100),\n    DepartmentID int,\n    FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID)\n);

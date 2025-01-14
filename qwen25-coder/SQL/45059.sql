@@ -1,1 +1,0 @@
-REPAIR TABLE information_schema.tables;

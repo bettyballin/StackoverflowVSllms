@@ -1,1 +1,0 @@
-INSERT INTO Content (Text) VALUES ('<p>This is a paragraph.</p><ul><li>Item 1</li><li>Item 2</li></ul>');\n\nINSERT INTO Metadata (ContentID, Type, StyleKey) VALUES \n(1, 'paragraph', 'font-size-medium'),\n(1, 'unordered-list', 'color-blue');

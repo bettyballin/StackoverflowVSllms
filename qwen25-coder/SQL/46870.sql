@@ -1,1 +1,0 @@
-SELECT *\nFROM tasks\nORDER BY \n  CASE WHEN deadline_date IS NULL THEN 1 ELSE 0 END,\n  deadline_date ASC;

@@ -1,1 +1,0 @@
-function checkBOM($filename){\n    $content = file_get_contents($filename);\n    if(substr($content, 0,3) == pack("CCC",0xef,0xbb,0xbf)) {\n        echo "File has a BOM\n";\n    } else {\n        echo "File does not have a BOM\n";\n    }\n}

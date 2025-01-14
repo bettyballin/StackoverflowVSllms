@@ -1,1 +1,0 @@
-SELECT \n  sl / sqrt(ab) AS alpha,\n  5 * log(10, sl / sqrt(ab)) AS b,\n  2.5 * log(10, 1 - exp(-5 / (sl / sqrt(ab))) * ((5 / (sl / sqrt(ab))) + 1)) AS d,\n  bs - 2.74 + \n    5 * log(10, sl / sqrt(ab)) + \n    2.5 * log(10, 1 - exp(-5 / (sl / sqrt(ab))) * ((5 / (sl / sqrt(ab))) + 1)) AS bsa\nFROM tablename;

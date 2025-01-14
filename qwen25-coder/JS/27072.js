@@ -1,1 +1,0 @@
-var fullHostname = window.location.hostname;\nvar domainParts = fullHostname.split('.');\nvar subdomain = domainParts[0]; // This will give "sample"

@@ -1,1 +1,0 @@
-SELECT u.userId, u.date, u.otherData\nFROM your_table_name AS u\nJOIN (\n    SELECT userId, MAX(date) AS max_date\n    FROM your_table_name\n    WHERE date <= CURDATE()  -- Ensures the date is in the past or today\n    GROUP BY userId\n) AS latest ON u.userId = latest.userId AND u.date = latest.max_date;

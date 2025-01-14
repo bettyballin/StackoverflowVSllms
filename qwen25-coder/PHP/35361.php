@@ -1,1 +1,0 @@
-// Assuming $conn is your PDO connection object\n$stmt = $conn->prepare("INSERT INTO books(title, author, isbn, publisher, year, summary) VALUES (?, ?, ?, ?, ?, ?)");\n$stmt->execute([\n    $_POST['title'],\n    $_POST['author'],\n    $_POST['isbn'],\n    $_POST['publisher'],\n    $_POST['year'],\n    $_POST['summary']\n]);

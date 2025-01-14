@@ -1,1 +1,0 @@
-ob_start('ob_gzhandler');\n   header('Content-Type: application/xml; charset=utf-8');\n   header('Content-Encoding: gzip');\n   echo $xmlContent;

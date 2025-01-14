@@ -1,1 +1,0 @@
-INSTALLED_APPS = [\n       ...\n       'raven.contrib.django.raven_compat',\n   ]\n\n   RAVEN_CONFIG = {\n       'dsn': 'https://<key>@sentry.io/<project>',\n   }

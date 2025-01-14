@@ -1,1 +1,0 @@
-import win32com.server.register\n\n   class MyPythonComponent:\n       # same as above\n       pass\n\n   if __name__ == "__main__":\n       print("Registering COM server...")\n       win32com.server.register.UseCommandLine(MyPythonComponent)

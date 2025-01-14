@@ -1,1 +1,0 @@
-CREATE TRIGGER trigger_name\nBEFORE/AFTER action\nON table_name\n[FOR EACH ROW]\nBEGIN\n    -- SQL Statements\nEND;

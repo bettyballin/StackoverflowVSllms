@@ -1,1 +1,0 @@
-# Example of how to use Alpha Vantage News API in Python\n   import requests\n\n   api_key = 'YOUR_API_KEY'\n   url = f'https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers=AAPL&apikey={api_key}'\n   response = requests.get(url)\n   data = response.json()\n   print(data)

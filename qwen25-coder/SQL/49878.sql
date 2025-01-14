@@ -1,1 +1,0 @@
-UPDATE Contract c\nSET c.Contract_Comment = c.Contract_Comment || '; 12/29/2008 Password `' ||\n                         (SELECT w.Password FROM WLogin w WHERE w.default_customer_id = c.Customer_id) ||\n                         '`' || ' reinstated per Mickey Mouse;'\nWHERE c.Customer_id IN (SELECT Customer_id FROM temp_customer_ids);

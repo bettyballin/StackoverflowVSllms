@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table_name\nWHERE CONCAT(' ', your_text_column, ' ') REGEXP '[[:space:]]rid[[:space:]]';

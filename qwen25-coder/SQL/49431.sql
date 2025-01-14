@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE get_employee_data(p_cursor OUT SYS_REFCURSOR) IS\nBEGIN\n    OPEN p_cursor FOR SELECT * FROM employees;\nEND;\n/

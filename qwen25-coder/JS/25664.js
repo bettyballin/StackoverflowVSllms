@@ -1,1 +1,0 @@
-// Client-side pseudo code\n   function synchronizeEvent(serverTime) {\n       let clientTime = performance.now();\n       let offset = serverTime - clientTime;\n       setTimeout(triggerEvent, Math.max(0, offset));\n   }\n\n   function triggerEvent() {\n       console.log("Event triggered!");\n       // perform event action\n   }

@@ -1,1 +1,0 @@
-UPDATE Person2\nSET FirstName = CONVERT(NVARCHAR(MAX), DecryptByCert(Cert_ID('TestCertificate'), eFirstName)),\n    MiddleName = CONVERT(NVARCHAR(MAX), DecryptByCert(Cert_ID('TestCertificate'), eMiddleName)),\n    LastName = CONVERT(NVARCHAR(MAX), DecryptByCert(Cert_ID('TestCertificate'), eLastName));

@@ -1,1 +1,0 @@
-Imports System.Web\n\nPublic Shared Function GetAbsoluteUrl(virtualPath As String) As String\n    Return VirtualPathUtility.ToAbsolute(virtualPath)\nEnd Functio

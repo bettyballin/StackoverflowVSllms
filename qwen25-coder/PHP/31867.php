@@ -1,1 +1,0 @@
-$array = array("apple", "banana", "cap", "dog"); // example values up to 80 entries\n$str = "abc";\n\nif (in_array($str, $array)) {\n    echo "It exists";\n} else {\n    echo "It does not exist";\n}

@@ -1,1 +1,0 @@
--- Step 1: Insert the row without affecting the next increment\nSET foreign_key_checks = 0;\nINSERT INTO `your_table` (`id`, other_columns) VALUES (specific_id, values);\nSET foreign_key_checks = 1;\n\n-- Step 2: Update the auto-increment counter if needed\nALTER TABLE `your_table` AUTO_INCREMENT = specific_id + 1;

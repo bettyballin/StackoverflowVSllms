@@ -1,1 +1,0 @@
-$totalItems = count($items);\n$batchSize = 100;\n\nfor ($i = 0; $i < $totalItems; $i += $batchSize) {\n    // Process batch\n    processBatch(array_slice($items, $i, $batchSize));\n    \n    // Sleep for a short duration to avoid overloading CPU\n    sleep(1); // Sleep for 1 second between batches\n}

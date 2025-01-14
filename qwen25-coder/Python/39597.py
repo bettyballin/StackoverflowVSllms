@@ -1,1 +1,0 @@
-import requests\n   from bs4 import BeautifulSoup\n\n   url = "http://www.google.com/finance?fstype=ii&q=NYSE:GE"\n   response = requests.get(url)\n\n   # Check if the request was successful\n   if response.status_code == 200:\n       soup = BeautifulSoup(response.text, 'html.parser')\n   else:\n       print(f"Failed to retrieve data: HTTP Status Code {response.status_code}")

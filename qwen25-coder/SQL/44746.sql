@@ -1,1 +1,0 @@
-SELECT session_id, encrypt_option \n   FROM sys.dm_exec_connections \n   WHERE session_id = @@SPID;

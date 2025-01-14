@@ -1,1 +1,0 @@
-// Assuming $stmt is your prepared statement object\n$multidimensionalArray = $stmt->fetchAll(PDO::FETCH_ASSOC);

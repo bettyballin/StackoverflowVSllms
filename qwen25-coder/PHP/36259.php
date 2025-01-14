@@ -1,1 +1,0 @@
-function modifyValue(&$var) {\n    $var += 5;\n}\n\n$a = 10;\nmodifyValue($a);\n// Now, $a is 15 because it was passed by reference

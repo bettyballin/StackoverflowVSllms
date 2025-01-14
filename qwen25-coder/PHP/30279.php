@@ -1,1 +1,0 @@
-<?php\n// Assuming $data is what you receive from POST method\n$data = $_POST['yourFieldName'];\n\n// If $data contains escaped quotes, use stripslashes to remove them\n$safeData = stripslashes($data);\n\necho "Received data: $safeData";\n?>

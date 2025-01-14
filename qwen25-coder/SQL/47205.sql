@@ -1,1 +1,0 @@
-DECLARE @sql NVARCHAR(100);\nDECLARE @paramDefinition NVARCHAR(200);\nDECLARE @userId INT = 5;\nSET @sql = N'SELECT * FROM Users WHERE UserId = @UserId';\nSET @paramDefinition = N'@UserId INT';\n\nEXEC sp_executesql @sql, @paramDefinition, @UserId = @userId;

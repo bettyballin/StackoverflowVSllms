@@ -1,1 +1,0 @@
-reload_module()\nmyObject = ClassOne()  # Recreate myObject to use the updated class definition.

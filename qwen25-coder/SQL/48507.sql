@@ -1,1 +1,0 @@
-USE msdb;\nGO\n\nEXEC sp_generate_scripts @scripttype=N'creation';

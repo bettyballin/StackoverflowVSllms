@@ -1,1 +1,0 @@
-CREATE INDEX ix_profiles_name ON profiles(FirstName, LastName);

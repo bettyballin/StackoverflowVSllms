@@ -1,1 +1,0 @@
-SELECT * FROM articles WHERE LOCATE('search_term', content) > 0;

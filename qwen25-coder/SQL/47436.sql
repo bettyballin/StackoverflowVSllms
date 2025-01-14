@@ -1,1 +1,0 @@
-DECLARE @xmlData XML = '<root><item>ExampleWord</item></root>';\nDECLARE @searchTerm NVARCHAR(100) = 'exampleword';\n\nSELECT @xmlData.query('/root/item[contains(lower(text()), sql:variable("@lowerSearchTerm"))]')\nFROM (SELECT LOWER(@searchTerm) AS lowerSearchTerm) AS SearchVariables;

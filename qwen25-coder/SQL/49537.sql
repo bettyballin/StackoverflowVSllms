@@ -1,1 +1,0 @@
-SELECT \n    DATEDIFF(YEAR, DateOfBirth, GETDATE()) - \n    CASE \n        WHEN (MONTH(DateOfBirth) > MONTH(GETDATE())) OR \n             (MONTH(DateOfBirth) = MONTH(GETDATE()) AND DAY(DateOfBirth) > DAY(GETDATE())) \n        THEN 1 \n        ELSE 0 \n    END AS Age\nFROM \n    YourTableName;

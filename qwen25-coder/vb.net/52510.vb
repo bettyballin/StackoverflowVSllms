@@ -1,1 +1,0 @@
-<SuppressMessage("Microsoft.Usage", "BC30049:ObsoleteMember", Justification := "Legacy method requirement", Target :="Namespace+ClassName#MethodName")>\nPublic Sub ExampleObsoleteUsage()\n    LegacyClass.ObsoleteMethod() ' Assuming this is the obsolete call\nEnd Sub

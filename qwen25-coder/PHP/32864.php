@@ -1,1 +1,0 @@
-$cookie = "masi@gmail.com,777";\n$parts = explode(',', $cookie); // Split the string by comma\necho "Cookie: " . $parts[0];    // Output the first part

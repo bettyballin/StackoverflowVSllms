@@ -1,1 +1,0 @@
-const MY_CONSTANT = 42;

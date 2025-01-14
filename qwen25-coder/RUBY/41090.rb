@@ -1,1 +1,0 @@
-def clear_session\n  reset_session\nend

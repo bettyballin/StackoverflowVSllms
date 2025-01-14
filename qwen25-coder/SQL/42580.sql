@@ -1,1 +1,0 @@
-SELECT COUNT(*) AS open_cursors_count\nFROM v$open_cursor;

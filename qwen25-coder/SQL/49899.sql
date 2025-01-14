@@ -1,1 +1,0 @@
-UPDATE YourTableName\n    SET ColumnX = ColumnX / 2;

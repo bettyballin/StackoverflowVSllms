@@ -1,1 +1,0 @@
-xmlns:util="http://example.com/util"\n   ...\n   <h:outputText value="#{util:formatDate(yourBean.date, 'yyyy-MM-dd')}" />

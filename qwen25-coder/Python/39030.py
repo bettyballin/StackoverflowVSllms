@@ -1,1 +1,0 @@
-# Example Python code to list files in a directory\nimport os\n\ndef get_files_and_dirs(path):\n    return {\n        'files': sorted([f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]),\n        'dirs': sorted([d for d in os.listdir(path) if os.path.isdir(os.path.join(path, d))])\n}

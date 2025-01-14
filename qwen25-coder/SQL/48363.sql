@@ -1,1 +1,0 @@
--- Define a pass-through query in Access\nSELECT *\nFROM OPENQUERY([SQLServer], '\n    SELECT t1.Field1, t2.Field2 \n    FROM SQLServerDB.dbo.Table1 t1\n    JOIN OracleDBSchema.Table2 t2 ON t1.KeyField = t2.KeyField')

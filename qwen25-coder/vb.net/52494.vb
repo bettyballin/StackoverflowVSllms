@@ -1,1 +1,0 @@
-Try\n    'Do something that might throw an exception\nCatch ex As Exception\n    'Handle specific exception\nFinally\n    'Cleanup actions, this will run no matter what\nEnd Try

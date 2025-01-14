@@ -1,1 +1,0 @@
-$jsonString = json_encode($array);\n   // Store $jsonString in your database or file\n\n   // To retrieve and decode the array\n   $decodedArray = json_decode($jsonString, true);

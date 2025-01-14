@@ -1,1 +1,0 @@
-async function checkPassword(hashedPassword, plainPassword) {\n    try {\n        const match = await bcrypt.compare(plainPassword, hashedPassword);\n        return match; // returns true if they match, false otherwise\n    } catch (error) {\n        console.error("Error comparing password:", error);\n        throw error;\n    }\n}

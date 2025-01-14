@@ -1,1 +1,0 @@
-SELECT *\nFROM OPENQUERY(YourLinkedServerName, 'SELECT @@VERSION AS VersionInfo')

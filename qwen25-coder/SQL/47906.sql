@@ -1,1 +1,0 @@
-EXEC GetUserByUsername 'exampleUser';

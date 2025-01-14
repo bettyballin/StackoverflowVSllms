@@ -1,1 +1,0 @@
-<?php echo '<script src="https://example.com/path/to/tracking.min.js" async></script>'; ?>

@@ -1,1 +1,0 @@
-$a = "abc dec g (gold)";\n$result = strstr($a, '(', true);\necho $result; // Outputs: abc dec g

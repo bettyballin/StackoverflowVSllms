@@ -1,1 +1,0 @@
-use TYPO3\CMS\Core\Utility\GeneralUtility;\n\n$rid = GeneralUtility::_GP('rid');\nif ($rid === null) {\n    var_dump($_GET); // To inspect all GET parameters\n    error_log('RID is not set or cannot be accessed due to restrictions.');\n} else {\n    var_dump($rid);\n}

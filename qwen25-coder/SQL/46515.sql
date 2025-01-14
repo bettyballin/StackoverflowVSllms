@@ -1,1 +1,0 @@
-SELECT *, \n       CASE WHEN u.email = COALESCE((SELECT email FROM companies WHERE Id=1), '') THEN 0 ELSE 1 END AS SortMeFirst \nFROM Users u \nWHERE u.companyId = 1 \nORDER BY SortMeFirst;

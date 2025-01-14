@@ -1,1 +1,0 @@
-INSERT INTO cars (type, status_id)\nSELECT 'GM', status_id\nFROM car_status\nWHERE status = 'working'\nUNION ALL\nSELECT 'Toyota', status_id\nFROM car_status\nWHERE status = 'working'\nUNION ALL\nSELECT 'Honda', status_id\nFROM car_status\nWHERE status = 'working';

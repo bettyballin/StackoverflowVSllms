@@ -1,1 +1,0 @@
-SELECT /*+ DRIVING_SITE(a) */ a.col, b.col\n   FROM a, b\n   WHERE a.b_id = b.id;

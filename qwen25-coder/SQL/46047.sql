@@ -1,1 +1,0 @@
-DECLARE @inputValue BIGINT;\nSELECT @inputValue = dbo.test_2(4679); -- Using the scalar function to get the output\n\n-- Now use this value as input into your inline table function\nSELECT *\nFROM MM.test_1(@inputValue);

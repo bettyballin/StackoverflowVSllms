@@ -1,1 +1,0 @@
-<?php\n// Output the path to the loaded php.ini file\necho "Loaded PHP Configuration File: " . php_ini_loaded_file();\n?>

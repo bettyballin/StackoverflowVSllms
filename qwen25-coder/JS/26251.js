@@ -1,1 +1,0 @@
-const socket = io('http://yourserver.com');\n\nsocket.on('dataUpdated', function(data) {\n    // Update your page with the data here\n});

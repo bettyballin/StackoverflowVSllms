@@ -1,1 +1,0 @@
-Imports System.Xml.Linq\n\nDim text = "Line1<br/>Line2"\nDim markup = <span><%= XElement.Parse("<dummy>" & text & "</dummy>").Nodes %></span>.ToString()\n\n' Remove the outer dummy tags from the result\nmarkup = markup.Replace("<dummy>", "").Replace("</dummy>", "")

@@ -1,1 +1,0 @@
-var url = "/store/results/index.jsp";\nwindow.location.href = url;

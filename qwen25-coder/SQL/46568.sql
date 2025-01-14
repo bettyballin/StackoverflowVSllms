@@ -1,1 +1,0 @@
--- Assuming we have a table named 'sales' with columns 'amount' and 'product_id'\n-- If the query includes filtering by product_id, an index on it might be beneficial:\nSELECT SUM(amount) FROM sales WHERE product_id = 10;

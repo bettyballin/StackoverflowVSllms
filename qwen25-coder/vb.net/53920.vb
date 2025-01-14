@@ -1,1 +1,0 @@
-' Retrieve the user setting from Program A\nDim userNameFileSetting = ProgramA.Foo.GetUserSettings()\n\n' Use the retrieved setting to call GetStuff\nDim theStuffIWant = ProgramA.Foo.GetStuff(userNameFileSetting)

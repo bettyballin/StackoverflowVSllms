@@ -1,1 +1,0 @@
-$guests = array();\ntry {\n    $pdo = new PDO("mysql:host=localhost;dbname=your_database", "username", "password");\n    $stmt = $pdo->query("SELECT * FROM `guestlist`");\n    foreach ($stmt as $row) {\n        $guests[] = $row['name'];\n    }\n} catch (PDOException $e) {\n    echo 'Connection failed: ' . $e->getMessage();\n}

@@ -1,1 +1,0 @@
-# In your RJS template (e.g., update_content.rjs)\npage[:your_div_id].visual_effect :fade, duration: 0.5 do |effect|\n  effect.options[:afterFinish] = 'replaceContent(); growDiv()'\nend\n\n# JavaScript to replace content and then make the div appear agai

@@ -1,1 +1,0 @@
-SELECT * \nFROM table \nWHERE CAST((col1 / col2) AS INT) BETWEEN 1 AND 8;

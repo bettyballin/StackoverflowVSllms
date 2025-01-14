@@ -1,1 +1,0 @@
-setup do\n  referrer_host = ENV['TEST_HOST'] || 'http://localhost:3000'\n  @request.env['HTTP_REFERER'] = "#{referrer_host}/sessions/new"\n  post :create, params: { user: { email: 'invalid@abc' } }\nend

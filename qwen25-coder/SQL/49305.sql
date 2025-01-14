@@ -1,1 +1,0 @@
--- Change the column collation to a case-sensitive version\nALTER TABLE your_table MODIFY COLUMN your_column VARCHAR(255) CHARACTER SET latin1 COLLATE latin1_bin;

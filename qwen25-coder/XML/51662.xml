@@ -1,1 +1,0 @@
-// Ensure session ID is sent only over HTTPS\n<httpCookies httpOnlyCookies="true" requireSSL="true" />\n\n// Configure session timeout appropriately\n<sessionState timeout="20" />

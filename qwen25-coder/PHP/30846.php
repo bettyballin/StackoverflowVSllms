@@ -1,1 +1,0 @@
-// In App/Template/Element/header.ctp\n<header>\n    <!-- Common header content -->\n</header>\n\n// Include this element in the parent layout\n<?= $this->element('header') ?>

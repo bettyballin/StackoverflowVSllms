@@ -1,1 +1,0 @@
-INSERT INTO MainTable_Option ([MainTableID], [OptionID])\nSELECT dot.ID, o.OptionID\nFROM DodgyOldTable dot\nLEFT JOIN Option o ON (dot.OptionVal1 = 'y' AND o.OptionDesc = 'OptionVal1') OR\n                       (dot.OptionVal2 = 'y' AND o.OptionDesc = 'OptionVal2') OR\n                       (dot.OptionVal3 = 'y' AND o.OptionDesc = 'OptionVal3')\nWHERE o.OptionID IS NOT NULL;

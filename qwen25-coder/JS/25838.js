@@ -1,1 +1,0 @@
-if (!document.createElement('canvas').getContext) { // Example of feature detection\n       var myBorder = RUZEE.ShadedBorder.create({ corner: 8, shadow: 16 });\n       myBorder.render('my-border');\n       myBorder.render('my-border1');\n       myBorder.render('my-border2');\n   }

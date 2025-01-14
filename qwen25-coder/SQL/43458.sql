@@ -1,1 +1,0 @@
-SET DEFINE OFF;\n   -- Add any other initialization commands here

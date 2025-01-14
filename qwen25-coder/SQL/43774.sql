@@ -1,1 +1,0 @@
-SELECT uid, key, email\nFROM your_table_name\nWHERE email IN (\n    SELECT email\n    FROM your_table_name\n    GROUP BY email, key\n    HAVING COUNT(*) > 1\n);

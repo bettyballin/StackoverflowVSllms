@@ -1,1 +1,0 @@
-<?php\n$url = 'http://wapedia.mobi/sv/Gröt';\n$response = file_get_contents($url);\n\nif ($response === FALSE) {\n    die('Error retrieving data');\n}\n\necho $response;\n?>

@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <!-- Other settings -->\n    \n    <customErrors mode="Off"/>\n    \n    <!-- Other settings -->\n  </system.web>\n</configuration>

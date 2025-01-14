@@ -1,1 +1,0 @@
-$this->load->helper('loops');

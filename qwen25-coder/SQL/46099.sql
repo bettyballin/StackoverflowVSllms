@@ -1,1 +1,0 @@
-CREATE TABLE Person (\n    PersonID TYPES_PKG.ID_TYPE,\n    Name VARCHAR2(31)\n);

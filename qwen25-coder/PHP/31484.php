@@ -1,1 +1,0 @@
-$doc->addField(Zend_Search_Lucene_Field::Numeric('ts', $ts));

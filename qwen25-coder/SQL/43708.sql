@@ -1,1 +1,0 @@
--- Example SQL for SSRS Dataset, replace tags with actual formatting if needed\nSELECT \n    REPLACE(REPLACE([Description], '<b>', ''), '</b>', '') AS DescriptionFormattedBold,\n    REPLACE(REPLACE([Description], '<i>', ''), '</i>', '') AS DescriptionFormattedItalic\nFROM YourTable

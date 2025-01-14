@@ -1,1 +1,0 @@
-function getUserTimeZone() {\n    return Intl.DateTimeFormat().resolvedOptions().timeZone;\n}\n\nconsole.log(getUserTimeZone());

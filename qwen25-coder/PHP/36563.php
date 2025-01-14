@@ -1,1 +1,0 @@
-$text = 'This is an example with Microsoft quotes: “quoted text” and ‘single quoted’.';\n$cleanText = preg_replace([\n    '/\u{201C}/u', // Left double quotation mark\n    '/\u{201D}/u', // Right double quotation mark\n    '/\u{2018}/u', // Left single quotation mark\n    '/\u{2019}/u'  // Right single quotation mark\n], ['"', '"', "'", "'"], $text);\n\necho $cleanText;

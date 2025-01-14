@@ -1,1 +1,0 @@
-<configuration>\n     <system.web>\n       <compilation debug="true">\n         <assemblies>\n           <add assembly="*" />\n         </assemblies>\n       </compilation>\n     </system.web>\n   </configuration>

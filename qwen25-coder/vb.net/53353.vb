@@ -1,1 +1,0 @@
-Namespace MyApp\n    Public Class TestClass\n        Public Shared Function Somefunc() As Boolean\n            Return True\n        End Function\n    End Class\nEnd Namespace

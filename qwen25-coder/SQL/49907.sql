@@ -1,1 +1,0 @@
-SELECT STR_TO_DATE('06.10.2008 14:19:08', '%d.%m.%Y %T') AS converted_date;

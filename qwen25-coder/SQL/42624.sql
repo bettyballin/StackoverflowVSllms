@@ -1,1 +1,0 @@
-SELECT * FROM questions ORDER BY RAND() LIMIT 5;

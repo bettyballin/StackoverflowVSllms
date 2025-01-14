@@ -1,1 +1,0 @@
--- Enable certificate usage in SQL Server configuration manager\n   USE master;\n   GO\n   EXEC sp_configure 'remote access', 0;\n   RECONFIGURE WITH OVERRIDE;

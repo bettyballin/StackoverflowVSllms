@@ -1,1 +1,0 @@
-import hashlib\n\ndef compute_ha1(username, realm, password):\n    # Compute the MD5 hash of username:realm:password\n    ha1 = hashlib.md5(f"{username}:{realm}:{password}".encode()).hexdigest()\n    return ha1\n\n# Example usage\nha1_hash = compute_ha1("user", "example.com", "securePassword")\nprint(ha1_hash)

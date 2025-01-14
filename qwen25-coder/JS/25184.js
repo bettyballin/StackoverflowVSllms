@@ -1,1 +1,0 @@
-$(".entries a").hover(function () {\n    var $em = $(this).find("em");\n    $em.stop().animate({ height: "100%" }, 500);\n}, function () {\n    var $em = $(this).find("em");\n    $em.stop().animate({ height: "0%" }, 500);\n});

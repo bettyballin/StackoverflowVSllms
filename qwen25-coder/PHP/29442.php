@@ -1,1 +1,0 @@
-$names = array("Alice", "Bobby", "Charles");\n$bobbyName = $names[1]; // Accessing a single element from the plural-named array.

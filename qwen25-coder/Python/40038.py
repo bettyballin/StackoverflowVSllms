@@ -1,1 +1,0 @@
-class MyClass:\n    def __init__(self):\n        self.name = "Example"\n\nmy_class_instance = MyClass()\nmy_var = 'name'\n\nprint(getattr(my_class_instance, my_var))\n# This will print: Example

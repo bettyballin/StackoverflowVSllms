@@ -1,1 +1,0 @@
-// Scroll to the element with id 'branch1'\n$('html, body').animate({\n    scrollTop: $("#branch1").offset().top\n}, 1000); // Duration of the scroll in milliseconds

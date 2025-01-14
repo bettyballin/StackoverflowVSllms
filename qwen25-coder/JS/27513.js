@@ -1,1 +1,0 @@
-// Example Modularization\nimport { someFunction } from './module.js';\n\n$(document).ready(() => {\n    someFunction();\n});

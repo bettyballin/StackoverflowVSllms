@@ -1,1 +1,0 @@
-# settings.py\n\nMEDIA_ROOT = '/home/www/media/app/'\nMEDIA_URL = '/photos/'

@@ -1,1 +1,0 @@
-SELECT L.Id\nFROM Lists L\nJOIN ListHasNames LGN ON L.Id = LGN.ListsId\nJOIN Names N ON LGN.NamesId = N.Id\nWHERE N.Name IN ('Paul', 'Joe', 'Jenny')\nGROUP BY L.Id\nHAVING COUNT(DISTINCT N.Name) = 3 AND COUNT(LGN.NamesId) = 3;

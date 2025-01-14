@@ -1,1 +1,0 @@
-// Set a cookie valid for .example.com, making it accessible on account.example.com, domain1.example.com, etc.\nsetcookie('name', 'value', [\n    'expires' => time() + 86400, // Expire time + 24 hours\n    'path' => '/',\n    'domain' => '.example.com',\n    'secure' => true,\n    'httponly' => true,\n    'samesite' => 'Lax'\n]);

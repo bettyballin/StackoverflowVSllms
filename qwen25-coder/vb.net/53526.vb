@@ -1,1 +1,0 @@
-' This code would be run in a trusted environment where you can manually unlock the VBA project\nSub UnlockVBAPassword()\n    Dim vbp As Object\n    Set vbp = ActiveWorkbook.VBProject\n    ' Assuming you know the password, change it to something known or no password\n    vbp.VBE.Password = ""\nEnd Sub

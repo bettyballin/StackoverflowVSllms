@@ -1,1 +1,0 @@
-SELECT U.userid,\n       COALESCE(G.groups_in, 0) AS groups_in\nFROM tbl_users U\nLEFT JOIN (\n    SELECT userid, COUNT(*) AS groups_in\n    FROM usersgroup\n    GROUP BY userid\n) G ON G.userid = U.userid;

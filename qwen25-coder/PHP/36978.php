@@ -1,1 +1,0 @@
-function getConfigVars() {\n    $configFile = 'my_config.ini';\n    if (!file_exists($configFile)) {\n        throw new Exception("Configuration file not found.");\n    }\n    return parse_ini_file($configFile);\n}

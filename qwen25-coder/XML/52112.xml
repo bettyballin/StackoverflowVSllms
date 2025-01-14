@@ -1,1 +1,0 @@
-<appSettings>\n    <add key="StaticContentDomain" value="//static.yourdomain.com" xdt:Transform="SetAttributes" xdt:Locator="Match(key)" />\n</appSettings>

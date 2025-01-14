@@ -1,1 +1,0 @@
-import re\n\ndef strip_html_whitespace(html):\n    # Remove newlines, tabs, and extra spaces between tags\n    stripped_html = re.sub(r'>\s*<', '><', html)\n    return stripped_html\n\nhtml_content = """<html>\n   <head>\n     <title>\n           Some title\n       </title>\n    </head>\n</html>"""\n\nresult = strip_html_whitespace(html_content)\nprint(result)

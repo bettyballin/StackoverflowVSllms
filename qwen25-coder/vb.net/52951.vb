@@ -1,1 +1,0 @@
-If CType(sender, CheckBox).Checked Then\n    ' Do something...\nElse\n    ' Do something else...\nEnd If

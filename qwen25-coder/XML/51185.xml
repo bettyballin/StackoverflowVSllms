@@ -1,1 +1,0 @@
-<security>\n     <authentication>\n       <anonymousAuthentication enabled="true" />\n       <windowsAuthentication enabled="false" />\n     </authentication>\n   </security>

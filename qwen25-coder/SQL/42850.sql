@@ -1,1 +1,0 @@
-CREATE TABLE example (\n    string_column VARCHAR(255),\n    int_column INT,\n    PRIMARY KEY (string_column, int_column)\n);

@@ -1,1 +1,0 @@
-curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0');

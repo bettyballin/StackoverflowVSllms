@@ -1,1 +1,0 @@
-... setup $issue object ...\nnode_save($issue); // Save the node\n\n// After calling node_save(), the $issue object will be populated with the nid.\n$nid = $issue->nid;\n\nprint_r($node);

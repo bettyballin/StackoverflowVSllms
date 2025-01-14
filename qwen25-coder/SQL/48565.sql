@@ -1,1 +1,0 @@
-SELECT COUNT(*) AS count FROM your_schema_name.uvusers WHERE vdate IS NULL;

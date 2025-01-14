@@ -1,1 +1,0 @@
-$link = '/directory/link.php';\n$fixedLink = preg_replace('/^\//', '', $link);\necho $fixedLink; // Outputs: directory/link.php

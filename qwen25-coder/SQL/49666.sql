@@ -1,1 +1,0 @@
-UPDATE my_table m\n   JOIN mappings mp ON m.old_id = mp.old_id\n   SET m.fk_column = mp.new_id;

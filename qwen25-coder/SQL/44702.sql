@@ -1,1 +1,0 @@
-SELECT \n    cv.chg\nFROM (\n    SELECT \n        ((amount1 - amount2) / amount1) AS chg\n    FROM \n        t1\n) AS cv\nWHERE \n    cv.chg > 1 OR\n    cv.chg < 0.3;

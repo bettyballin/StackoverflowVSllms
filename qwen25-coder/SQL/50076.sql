@@ -1,1 +1,0 @@
--- Example of a snowflake schema\n   CREATE TABLE country (\n       country_id INT PRIMARY KEY,\n       name VARCHAR(100)\n   );\n\n   CREATE TABLE state (\n       state_id INT PRIMARY KEY,\n       country_id INT,\n       name VARCHAR(100),\n       FOREIGN KEY (country_id) REFERENCES country(country_id)\n   );

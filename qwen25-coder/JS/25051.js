@@ -1,1 +1,0 @@
-document.getElementById('RecurrenceProperties_TextBox57').addEventListener('change', function() {\n    console.log('Textbox value changed to: ' + this.value);\n});

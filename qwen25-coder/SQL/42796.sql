@@ -1,1 +1,0 @@
-SELECT CASE \n           WHEN str_col = REPLICATE('0', LEN(str_col)) THEN '0'\n           ELSE SUBSTRING(str_col, PATINDEX('%[^0]%', str_col), LEN(str_col))\n       END AS trimmed_str_col\nFROM your_table;

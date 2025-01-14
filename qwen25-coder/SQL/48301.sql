@@ -1,1 +1,0 @@
-UPDATE Tasks\nSET Task1 = 'NewEmployeeID',\n    Task2 = 'NewEmployeeID',\n    Task3 = 'NewEmployeeID'\nWHERE Task1 = 'OldEmployeeID'\n   OR Task2 = 'OldEmployeeID'\n   OR Task3 = 'OldEmployeeID';

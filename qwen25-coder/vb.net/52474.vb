@@ -1,1 +1,0 @@
-Private Function GetHtmlFromResource(ByVal ResourceID As Long) As String\n    Dim ResBlob() As Byte\n    Dim HtmlString As String\n    \n    ' Load the resource into a byte array\n    ResBlob = LoadResData(ResourceID, vbBinary)\n    \n    ' Convert the byte array to a string\n    HtmlString = StrConv(ResBlob, vbUnicode)\n    \n    GetHtmlFromResource = HtmlString\nEnd Functio

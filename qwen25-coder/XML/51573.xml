@@ -1,1 +1,0 @@
-<class name="com.example.User" table="users">\n    <id name="id" column="user_id" type="integer">\n        <generator class="increment"/>\n    </id>\n    <property name="name" type="string" not-null="true"/>\n    <property name="email" type="string" unique="true"/>\n</class>

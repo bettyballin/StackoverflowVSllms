@@ -1,1 +1,0 @@
-<?php\n$source = escapeshellarg('/path/to/source');\n$destination = escapeshellarg('/path/to/destination');\n\n// Execute the copy command in the background\nexec("cp -r $source $destination > /dev/null 2>&1 &");\n\necho "Directory copy started in the background.";\n?>

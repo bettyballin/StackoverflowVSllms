@@ -1,1 +1,0 @@
-$new_text = preg_replace('/^> (.+)/m', '<span style="color: grey;">$0</span>', $text);

@@ -1,1 +1,0 @@
-import psutil\nimport time\n\ndef wait_for_process(pid):\n    while True:\n        if not psutil.pid_exists(pid):\n            print(f"Process with PID {pid} has exited.")\n            break\n        time.sleep(1)  # Check every second\n\n# Usage: pass the PID of the process you want to monitor\nprocess_pid = 12345\nwait_for_process(process_pid)

@@ -1,1 +1,0 @@
-<dependency>\n       <groupId>org.apache.velocity</groupId>\n       <artifactId>velocity-engine-core</artifactId>\n       <version>2.1</version>\n   </dependency>

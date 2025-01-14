@@ -1,1 +1,0 @@
-<configuration>\n  <appSettings>\n    <add key="StartupForm" value="MainForm"/>\n  </appSettings>\n</configuration>

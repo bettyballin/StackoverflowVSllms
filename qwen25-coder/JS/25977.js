@@ -1,1 +1,0 @@
-var tbl = document.getElementById("myTable");\nvar tblWidth = tbl.offsetWidth;  // Width of the table\nalert(tblWidth);\n\n// To get the width of each column:\nvar columns = tbl.rows[0].cells;\nfor (var i = 0; i < columns.length; i++) {\n    var colWidth = columns[i].offsetWidth;\n    console.log("Column " + (i+1) + " Width: " + colWidth);\n}

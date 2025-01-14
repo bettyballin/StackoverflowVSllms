@@ -1,1 +1,0 @@
-SELECT \n    TABLE_NAME AS 'Table',\n    (SELECT COUNT(*)\n     FROM your_database_name.TABLE_NAME) AS 'Number of Rows'\nFROM \n    INFORMATION_SCHEMA.TABLES\nWHERE \n    TABLE_SCHEMA = 'your_database_name';

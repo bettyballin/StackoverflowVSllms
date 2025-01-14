@@ -1,1 +1,0 @@
-CREATE TABLE y.a AS SELECT * FROM x.a;

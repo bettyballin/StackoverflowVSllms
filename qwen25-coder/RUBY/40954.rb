@@ -1,1 +1,0 @@
-<!-- app/views/users/new.html.erb -->\n<%= form_for @user do |f| %>\n  <%= f.label :name %>\n  <%= f.text_field :name %>\n\n  <div>\n    <!-- Math question: What is 2 + 2? -->\n    What is 2 + 2?\n    <%= f.number_field :humanproof_answer, min: 0 %>\n  </div>\n\n  <%= f.submit "Register" %>\n<% end %>

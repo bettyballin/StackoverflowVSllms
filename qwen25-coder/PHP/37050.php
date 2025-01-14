@@ -1,1 +1,0 @@
-exec('sudo /path/to/processName');\n    exec('sudo killall processName');

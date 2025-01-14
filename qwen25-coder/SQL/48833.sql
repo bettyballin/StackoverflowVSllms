@@ -1,1 +1,0 @@
-SELECT streetNames\nFROM Customers\nORDER BY \n  CAST(SUBSTRING(streetNames FROM 'Street_([0-9]+)' FOR '\\1') AS INTEGER),\n  SUBSTRING(streetNames FROM 'Street_[0-9]+([A-Za-z]+)');

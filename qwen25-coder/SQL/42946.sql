@@ -1,1 +1,0 @@
-SELECT \n    email,\n    clear,\n    SUBSTRING(email, LOCATE('@', email) + 1) AS domain \nFROM \n    postfix_users;

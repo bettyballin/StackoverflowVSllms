@@ -1,1 +1,0 @@
-CREATE TABLE TestTable (\n    ID INT PRIMARY KEY IDENTITY(1,1),\n    Name NVARCHAR(50)\n);\n\nINSERT INTO TestTable (Name) VALUES ('Alice'), ('Bob');\nDELETE FROM TestTable WHERE Name = 'Alice';\n\n-- The next insert will use the next available number, not 1.\nINSERT INTO TestTable (Name) VALUES ('Charlie');

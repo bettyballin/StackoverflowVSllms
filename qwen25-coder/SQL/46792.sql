@@ -1,1 +1,0 @@
-CREATE TABLE uploaded_files (\n    file_id INT PRIMARY KEY,\n    filename VARCHAR(260) NOT NULL\n);

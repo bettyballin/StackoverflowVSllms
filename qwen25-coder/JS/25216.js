@@ -1,1 +1,0 @@
-// example.js\ndocument.getElementById('myButton').addEventListener('click', function() {\n    alert('Button was clicked!');\n});

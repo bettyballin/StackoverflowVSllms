@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\nBEGIN TRY\n    -- Execute the stored procedure\n    EXEC spStoredProcedure;\n\n    COMMIT TRANSACTION;\nEND TRY\nBEGIN CATCH\n    ROLLBACK TRANSACTION;\n    THROW;  -- Re-throw the error after rollback\nEND CATCH;

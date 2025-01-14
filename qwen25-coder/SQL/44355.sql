@@ -1,1 +1,0 @@
-SELECT MIN(videoId) AS nextVideoId \nFROM videos \nWHERE videoId > 234 AND IsActive = 1;

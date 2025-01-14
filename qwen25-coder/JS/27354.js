@@ -1,1 +1,0 @@
-// Accessing built-in DevTools (F12 or right-click -> Inspect Element)\nconsole.log("Using browser's native Developer Tools for structured HTML source view");

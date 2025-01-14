@@ -1,1 +1,0 @@
--- Set the lock wait time to 10 seconds (10 * 100 centiseconds)\nEXECUTE IMMEDIATE 'ALTER SESSION SET WAIT_TIMEOUT=10';

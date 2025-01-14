@@ -1,1 +1,0 @@
-public function _initRequest() {\n       $frontController = Zend_Controller_Front::getInstance();\n       $request = new Zend_Controller_Request_Http('/base/url/');\n       $request->setBaseUrl('/base/url/index.php');\n       $request->setBasePath(realpath(APPLICATION_PATH . '/../public'));\n\n       $frontController->setRequest($request);\n\n       return $request;\n   }

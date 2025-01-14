@@ -1,1 +1,0 @@
-document.getElementById("divDebug").innerHTML = rawResult;\ndocument.getElementById("divResult").innerHTML = processResult(rawResult);

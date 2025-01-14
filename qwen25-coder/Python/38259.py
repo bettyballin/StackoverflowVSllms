@@ -1,1 +1,0 @@
-assert(TaskConstants.EmptyID == 0)\nassert(TaskConstants.EmptyDescription == "No Description")

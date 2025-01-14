@@ -1,1 +1,0 @@
-// init.php\n\nfunction sanitize_input($input) {\n    return mysql_escape_string(stripslashes($input));\n}

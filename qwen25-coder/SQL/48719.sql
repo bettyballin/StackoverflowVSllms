@@ -1,1 +1,0 @@
--- Example SQL to cause a timeout exception\nBEGIN TRANSACTION;\nWAITFOR DELAY '00:01:30'; -- Waits for 1 minute and 30 seconds\n-- Make sure to include some actual work if needed to ensure the transaction doesn't get optimized away\nSELECT * FROM YourTable WHERE SomeColumn = 'SomeValue';\nCOMMIT TRANSACTION;

@@ -1,1 +1,0 @@
-$num = 15 / 4; // $num is 3.75\nlist($int, $dec) = explode('.', (string)$num);\n\necho "Integer part: $int\n"; // Outputs: Integer part: 3\necho "Decimal part: $dec\n"; // Outputs: Decimal part: 75

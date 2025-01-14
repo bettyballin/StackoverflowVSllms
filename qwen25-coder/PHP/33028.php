@@ -1,1 +1,0 @@
-$intOpt = [\n    'options' => [\n      'min_range' => 1,\n      'max_range' => 5\n    ]\n  ];\n  $id = filter_var($userInput, FILTER_VALIDATE_INT, $intOpt);

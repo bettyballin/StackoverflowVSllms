@@ -1,1 +1,0 @@
-$output = "Country=UNITED STATES (US) &City=Scottsdale, AZ &Latitude=33.686 &Longitude=-111.87";\n\n// Parse the entire string into an array\nparse_str($output, $params);\n\n// Extract Latitude and Longitude\n$latitude = $params['Latitude'];\n$longitude = $params['Longitude'];\n\necho "Latitude: " . $latitude . "\n";\necho "Longitude: " . $longitude . "\n";

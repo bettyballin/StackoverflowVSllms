@@ -1,1 +1,0 @@
--- Using parameterized query to prevent SQL Injection\n     DECLARE @EmployeeName NVARCHAR(50)\n     SET @EmployeeName = 'John Doe'\n     \n     SELECT EmployeeId, DepartmentID\n     FROM Employees\n     WHERE EmployeeName = @EmployeeName;

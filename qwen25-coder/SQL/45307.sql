@@ -1,1 +1,0 @@
-SELECT Name, LeftId, RightId\n   FROM your_table\n   WHERE (LeftID IS NOT NULL OR RightId IS NOT NULL)\n   UNION\n   SELECT Name, LeftId, RightId\n   FROM your_table\n   WHERE LeftID IS NULL AND RightId IS NULL;

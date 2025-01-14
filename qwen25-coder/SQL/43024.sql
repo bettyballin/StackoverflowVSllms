@@ -1,1 +1,0 @@
-DECLARE @ID INT = 27;\nDECLARE @Name NVARCHAR(100) = 'John Brown';\nDECLARE @ItemID INT = 102;\n\nIF EXISTS (SELECT 1 FROM TableName WHERE ID=@ID)\nBEGIN\n    UPDATE TableName \n    SET Name=@Name, ItemID=@ItemID \n    WHERE ID=@ID;\nEND\nELSE\nBEGIN\n    INSERT INTO TableName (ID, Name, ItemID) \n    VALUES (@ID, @Name, @ItemID);\nEND

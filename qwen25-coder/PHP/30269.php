@@ -1,1 +1,0 @@
-$array = ['param1', 'param2', 'param3'];\n$lastKey = key(array_slice($array, -1, 1, true));\n\nforeach ($array as $key => $value) {\n    if ($key == $lastKey) {\n        // This is the last element\n        echo "Last element: " . $value;\n    } else {\n        // Handle other elements if needed\n        echo $value . ", ";\n    }\n}

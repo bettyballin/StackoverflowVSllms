@@ -1,1 +1,0 @@
-SELECT d.*, lv.description AS dept_description\nFROM data d\nLEFT JOIN lookup_values lv ON lv.column_name = 'dept' AND lv.value = d.dept;

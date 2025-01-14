@@ -1,1 +1,0 @@
--- Assuming WidgetId is something that uniquely identifies each widget in your context\nMERGE INTO YourWidgetTable AS Target\nUSING (SELECT @WidgetId AS WidgetId) AS Source\nON Target.WidgetId = Source.WidgetId\nWHEN NOT MATCHED THEN \n    INSERT (WidgetId, OtherColumns)\n    VALUES (@WidgetId, @OtherValues);

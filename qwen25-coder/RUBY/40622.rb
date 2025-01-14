@@ -1,1 +1,0 @@
-require 'yaml'\n\ntest = "I'm a b&d string"\nyaml_output = YAML.dump(test, line_width: -1, default_style: '"')\n\n# To ensure single quotes, manually replace double quotes with single quotes\nyaml_output_with_single_quotes = yaml_output.gsub(/^--- "(.*)"/, "--- '\\1'")\n\nFile.open('test.yaml', 'w') do |out|\n  out.write(yaml_output_with_single_quotes)\nend

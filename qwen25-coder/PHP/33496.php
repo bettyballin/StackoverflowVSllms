@@ -1,1 +1,0 @@
-$url = "your original url here";\n// Replace spaces with dashes\n$url = str_replace(' ', '-', $url);\n// Remove any character that is not a letter, number, or dash\n$url = preg_replace('/[^a-zA-Z0-9\-]/', '', $url);

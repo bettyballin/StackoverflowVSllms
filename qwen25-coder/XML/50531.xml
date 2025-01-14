@@ -1,1 +1,0 @@
-<!-- Add to context.xml -->\n<Valve className="de.javakaffee.web.msm.MemcachedBackupSessionManager"\n       memcachedNodes="n1:localhost:11211" sticky="false" lockingMode="auto"/>

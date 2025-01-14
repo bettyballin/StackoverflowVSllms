@@ -1,1 +1,0 @@
-<?php\n$url = 'http://example.com/data.xml';\n\n$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n\n$response = curl_exec($ch);\n\nif(curl_errno($ch)) {\n    echo 'Curl error: ' . curl_error($ch);\n} else {\n    // Process your XML response here\n    echo $response;\n}\n\ncurl_close($ch);\n?>

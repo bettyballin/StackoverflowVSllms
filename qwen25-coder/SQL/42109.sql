@@ -1,1 +1,0 @@
-RMAN> CATALOG BACKUPPIECE '/path/to/backup/set';\n   RMAN> CATALOG ARCHIVELOG '/path/to/archive/log';

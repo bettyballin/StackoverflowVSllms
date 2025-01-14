@@ -1,1 +1,0 @@
-SELECT masklen(set_masklen('0.0.0.0/32', 32 - LOG((1 << 32) - ip_mask)::int)) AS cidr\nFROM subnets;

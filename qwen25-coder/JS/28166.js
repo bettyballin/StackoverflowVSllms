@@ -1,1 +1,0 @@
-function validateForm() {\n    // Validate a specific validation group\n    var isValid = Page_ClientValidate('ValidationGroupName');\n    \n    if (isValid) {\n        window.close();\n    } else {\n        alert('Please correct the errors in the form.');\n    }\n}

@@ -1,1 +1,0 @@
-// JavaScript to log root font size changes (for demonstration)\nfunction logRootFontSize() {\n    const rootStyle = getComputedStyle(document.documentElement);\n    console.log('Root Font Size:', rootStyle.fontSize);\n}\n\nwindow.addEventListener('resize', logRootFontSize);\nlogRootFontSize(); // Initial call

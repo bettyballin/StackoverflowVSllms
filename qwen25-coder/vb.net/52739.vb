@@ -1,1 +1,0 @@
-Dim foo As New Whatever()

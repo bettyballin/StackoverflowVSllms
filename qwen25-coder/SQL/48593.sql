@@ -1,1 +1,0 @@
--- Manual cascade delete example for child tables referencing parent_table\nDELETE FROM child_table WHERE parent_id = (SELECT id FROM parent_table WHERE condition);\nDELETE FROM parent_table WHERE condition;

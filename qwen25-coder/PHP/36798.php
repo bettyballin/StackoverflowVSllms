@@ -1,1 +1,0 @@
-// In your PHP logic file (controller)\n$title = "Welcome";\n$content = "<p>This is a sample content using a simple template.</p>";\n$templatePath = 'templates/main.php';\n\ninclude($templatePath);

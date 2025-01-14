@@ -1,1 +1,0 @@
-class Rating < ApplicationRecord\n  belongs_to :item\n  belongs_to :user\nend

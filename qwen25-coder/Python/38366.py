@@ -1,1 +1,0 @@
-# Example dictionary\ndata = {'username': 'john_doe', 'email': 'john@example.com'}\n\n# Update local variables\nlocals().update(data)\n\n# Now username and email are local variables\nprint(username)  # Output: john_doe\nprint(email)     # Output: john@example.com

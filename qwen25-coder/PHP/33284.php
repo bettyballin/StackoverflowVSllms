@@ -1,1 +1,0 @@
-$page = new Zend_Navigation_Page_Mvc(array(\n    'label' => 'Example Page',\n    'module' => 'users',\n    'controller' => 'profile',\n    'action' => 'view',\n    'params' => array('id' => 123)\n));

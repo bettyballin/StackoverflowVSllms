@@ -1,1 +1,0 @@
-INSERT INTO tableB (column1, column2, abc, ...)\nSELECT column1, column2, abc, ...\nFROM tableA\nWHERE abc > 10;

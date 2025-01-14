@@ -1,1 +1,0 @@
-<?php\nfor ($i = 0; $i < 10; $i++) {\n    if ($i === 5) {\n        goto end_loop;\n    }\n    echo $i . "\n";\n}\nend_loop:\necho "Loop ended at i = 5\n";\n?>

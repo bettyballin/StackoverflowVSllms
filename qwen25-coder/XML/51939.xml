@@ -1,1 +1,0 @@
-<applicationRequestRouting>\n  <serverFarm name="MyWebFarm">\n    <server address="Server1" />\n    <server address="Server2" />\n    <affinity>\n      <clientAffinity enabled="true" useHostHeader="false" />\n    </affinity>\n  </serverFarm>\n</applicationRequestRouting>

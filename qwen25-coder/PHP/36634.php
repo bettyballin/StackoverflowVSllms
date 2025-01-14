@@ -1,1 +1,0 @@
-<?php\n$keyword = $_GET['q'];\n$keyword = mysqli_real_escape_string($conn, $keyword);\n\n// Using SOUNDEX in MySQL query\n$sql = "SELECT mov_title FROM movies WHERE SOUNDEX(mov_title) LIKE SOUNDEX('%$keyword%')";\n\n$result = mysqli_query($conn, $sql);\nwhile ($row = mysqli_fetch_assoc($result)) {\n    echo $row['mov_title'] . "<br>";\n}\n?>

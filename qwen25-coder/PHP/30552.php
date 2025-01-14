@@ -1,1 +1,0 @@
-echo '<a href="Link.php?action=Delete">Delete</a>';

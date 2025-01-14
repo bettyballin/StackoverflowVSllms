@@ -1,1 +1,0 @@
-<%= render @building.controls %>

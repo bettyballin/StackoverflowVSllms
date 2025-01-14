@@ -1,1 +1,0 @@
-<Property Id="PRINTERDRIVERINSTALLED" Secure="yes">\n    <RegistrySearch Id="DetectPrinterDriver"\n                    Root="HKLM"\n                    Key="SOFTWARE\Manufacturer\PrinterDriver"\n                    Name="Version"\n                    Type="raw"/>\n</Property>

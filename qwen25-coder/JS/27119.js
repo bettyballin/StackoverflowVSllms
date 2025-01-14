@@ -1,1 +1,0 @@
-ew Ajax.Autocompleter("autocomplete", "autocomplete_choices",\n                        "http://localhost/FormBuilder/forms/autoComplete", {\n                            paramName: 'q' // Ensure the query parameter name is correct\n                        });

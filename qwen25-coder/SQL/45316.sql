@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- Insert into a debug/log table who is running this activation\nINSERT INTO DebugLog (Username, RunTime)\nVALUES (SUSER_SNAME(), GETDATE());\n\n-- Your existing logic here\ninsert into FileContent (filename, content)\nselect @filename, content\nfrom openrowset (bulk ...\n\nCOMMIT TRANSACTION;

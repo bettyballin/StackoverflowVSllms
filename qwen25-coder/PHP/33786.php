@@ -1,1 +1,0 @@
-<?php\nheader('Cache-Control: no-cache, must-revalidate');\nheader('Expires: Mon, 26 Jul 1997 05:00:00 GMT');\nheader('Content-type: application/json');\n\n// Correctly spelled 'response' key\n$arr = array ('response'=>'error','comment'=>'test comment here');\necho json_encode($arr);\n?>

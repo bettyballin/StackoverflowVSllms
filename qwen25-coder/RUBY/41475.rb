@@ -1,1 +1,0 @@
-describe YourController do\n  describe "your action" do\n    before do\n      get :your_action\n    end\n\n    it "sets the correct value for @variable" do\n      expect(controller.instance_variable_get(:@variable)).to eq('3.15')\n    end\n  end\nend

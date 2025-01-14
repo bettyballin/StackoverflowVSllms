@@ -1,1 +1,0 @@
-SELECT * FROM users WHERE username = 'admin' AND SUBSTRING(password, 1, 1) = 'a';

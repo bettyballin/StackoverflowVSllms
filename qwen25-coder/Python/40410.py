@@ -1,1 +1,0 @@
-records = [{"key1": "AAA", "key2": "BBB", "key3": "CCC", "key4": "AAA"}, {"key5": "DDD", "key6": "AAA"}]\n\n# Replace 'AAA' with 'XXX' in all dictionaries within the list\ncleaned_records = [\n    {k: ("XXX" if v == "AAA" else v) for k, v in record.items()}\n    for record in records\n]\n\nprint(cleaned_records)

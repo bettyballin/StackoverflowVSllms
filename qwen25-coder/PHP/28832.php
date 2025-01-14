@@ -1,1 +1,0 @@
-<?php\n$description = 'This is a "quoted" text and needs to be handled properly.';\n$safeDescription = htmlspecialchars($description, ENT_QUOTES, 'UTF-8');\n\necho '<meta name="description" content="' . $safeDescription . '">';\n?>

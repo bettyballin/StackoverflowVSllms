@@ -1,1 +1,0 @@
-SELECT col1 \nFROM tbl1 \nWHERE NOT REGEXP_LIKE(col1, '^[0-9]+$');

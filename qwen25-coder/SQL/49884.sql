@@ -1,1 +1,0 @@
-SELECT SUBSTRING(your_column, PATINDEX('%[^0]%', your_column), LEN(your_column))\nAS TrimmedColumn\nFROM your_table;

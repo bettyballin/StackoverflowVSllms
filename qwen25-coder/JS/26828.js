@@ -1,1 +1,0 @@
-// Example AJAX call to fetch content for a tab\n  $.ajax({\n    url: 'content1.html',\n    success: function(data) {\n      $('#tab-content').html(data);\n    }\n  });

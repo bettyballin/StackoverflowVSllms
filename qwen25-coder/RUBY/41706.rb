@@ -1,1 +1,0 @@
-Given 'an account is created' do\n     @account_id = create_account\n     # Assume create_account is a helper method that creates an account and returns its ID\n   end\n\n   When 'the next step in the workflow is taken' do\n     # Use @account_id here\n   end

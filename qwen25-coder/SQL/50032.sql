@@ -1,1 +1,0 @@
--- This could be slow on large tables, especially if using InnoDB\nDELETE FROM your_table;\n\n-- This is generally much faster\nTRUNCATE TABLE your_table;

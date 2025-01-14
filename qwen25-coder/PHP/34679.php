@@ -1,1 +1,0 @@
-$data = json_decode($jsonString, true);\necho $data['group1']['name1']; // Outputs: 3923

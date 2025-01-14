@@ -1,1 +1,0 @@
-import dawgdic\n\n# Example word list\nwords = ["hello", "world", "hi", "her", "he"]\n\n# Create DAWG dictionary\nd = dawgdic.DAWG(words)\n\n# Check if words exist in the dictionary\nprint(d.has_key("hello"))  # True\nprint(d.has_key("worl"))   # False\nprint(d.has_key("he"))     # True

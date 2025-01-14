@@ -1,1 +1,0 @@
-<action name="YourStrutsAction" class="com.yourpackage.YourActionClass">\n       <result type="json"></result> <!-- Use JSON plugin for JSON response -->\n   </action>

@@ -1,1 +1,0 @@
-SELECT TOP 1 *\nFROM YourTableName\nORDER BY id DESC;

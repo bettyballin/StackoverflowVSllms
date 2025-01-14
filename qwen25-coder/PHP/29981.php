@@ -1,1 +1,0 @@
-class SomeClass {\n    public $value = "Hello, world!";\n}\n\n// In PHP 4 or earlier, you would use:\n$someVar =& new SomeClass();\n\n// In PHP 5 and later, you can simply do:\n$anotherVar = new SomeClass();\n\necho $anotherVar->value; // Outputs: Hello, world!

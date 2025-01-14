@@ -1,1 +1,0 @@
-CREATE VIEW MonthlyReportView AS\nSELECT \n    CustomerID,\n    SUM(Orders.Amount) AS TotalSpent\nFROM \n    Customers\nINNER JOIN \n    Orders ON Customers.CustomerID = Orders.CustomerID\nWHERE \n    OrderDate >= DATEADD(month, DATEDIFF(month, 0, GETDATE()), 0)\nGROUP BY \n    CustomerID;

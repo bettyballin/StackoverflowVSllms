@@ -1,1 +1,0 @@
-CREATE TABLE UserSessions (\n    SessionID NVARCHAR(128) PRIMARY KEY,\n    UserID INT NOT NULL,\n    ActiveFlag BIT DEFAULT 1,\n    LastActivityTime DATETIME NOT NULL\n);

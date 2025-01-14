@@ -1,1 +1,0 @@
-SELECT * FROM your_table_name\nORDER BY some_column\nLIMIT 10 OFFSET :offset;

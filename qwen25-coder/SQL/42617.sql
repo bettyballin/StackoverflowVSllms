@@ -1,1 +1,0 @@
-IF TRY_CONVERT(int, @Criteria) IS NOT NULL\n    SET @Id = CONVERT(int, @Criteria)\nELSE\n    -- Handle the error or set @Id to a default value\n    SET @Id = 0

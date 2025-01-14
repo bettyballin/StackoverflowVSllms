@@ -1,1 +1,0 @@
-$document = new DOMDocument();\n// Assume $document has been loaded with HTML or XML content, e.g., $document->loadHTML($htmlContent);\n\n$xpath = new DOMXPath($document);\n$textNodes = $xpath->query('//text()');\n\n$nodes = [];\nforeach ($textNodes as $node) {\n    $nodes[] = $node;\n}\n\n// Now $nodes contains all the text nodes from the document

@@ -1,1 +1,0 @@
-$arr = array("z" => "z", "a" => "a", "b" => "b");\n\nforeach ($arr as $key => $val) { // Corrected 'val' to '$val'\n    print("$key: $val\n");\n}

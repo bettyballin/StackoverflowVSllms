@@ -1,1 +1,0 @@
-ALTER SYSTEM SET autovacuum = 'on';\n   ALTER SYSTEM SET autovacuum_max_workers = 3;

@@ -1,1 +1,0 @@
-<?php\n$ids = [1, 2, 3, 4, 5]; // Example array of IDs\n$csvIds = implode(',', $ids); // Convert the array into a comma-separated string\n\n// Now, you can use this in your SQL query\n$sqlQuery = "UPDATE table_name SET column_name = '$csvIds' WHERE condition;";\necho $sqlQuery;\n?>

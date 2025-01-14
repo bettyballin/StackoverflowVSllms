@@ -1,1 +1,0 @@
-class Action {\n    public static function getClassName() {\n        return static::class;\n    }\n}\n\nclass MyAction extends Action {\n    // You don't need to override anything for this functionality.\n    // Some methods here\n}\n\n// Usage:\necho MyAction::getClassName(); // Outputs: MyActio

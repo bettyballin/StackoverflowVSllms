@@ -1,1 +1,0 @@
-INSERT INTO #Validation (ItemID, ValidationResult)\nSELECT i.ItemID,\n       CASE \n           WHEN ValidateLogic(i.Column1, i.Column2) = 1 THEN 1 \n           ELSE 0 \n       END AS ValidationResult\nFROM #Items i;

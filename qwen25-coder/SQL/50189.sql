@@ -1,1 +1,0 @@
-GRANT FILE ON *.* TO 'your_user'@'localhost';\n   FLUSH PRIVILEGES;

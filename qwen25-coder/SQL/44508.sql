@@ -1,1 +1,0 @@
-Select TableA.*, TableB.*\nfrom TableA \nLeft Join (SELECT * FROM TableB WHERE fld4 = false) AS SubTableB \non TableA.fld1 = SubTableB.fld2\nwhere TableA.fld3 = True;

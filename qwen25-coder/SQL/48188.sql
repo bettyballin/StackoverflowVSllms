@@ -1,1 +1,0 @@
-COPY temp_table FROM '/path/to/logfile.csv' WITH (FORMAT csv, HEADER true);

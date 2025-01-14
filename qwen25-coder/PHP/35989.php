@@ -1,1 +1,0 @@
-<?php\n$Amp = $IsXhtml ? '&amp;' : '&';\n$Parameters = array('Action' => 'ShowList', 'Page' => '2');\n$QueryString = http_build_query($Parameters);\nif ($Amp === '&amp;') {\n    $QueryString = str_replace('&', '&amp;', $QueryString);\n}\n?>

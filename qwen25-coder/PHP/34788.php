@@ -1,1 +1,0 @@
-die("Error occurred in file " . __FILE__ . " on line " . __LINE__);

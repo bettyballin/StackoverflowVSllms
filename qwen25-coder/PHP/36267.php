@@ -1,1 +1,0 @@
-echo "<item>\n";\n   echo "  <title>Video Title</title>\n";\n   echo "  <description><![CDATA[" . $safeEmbedCode . "]]></description>\n";\n   echo "</item>\n";

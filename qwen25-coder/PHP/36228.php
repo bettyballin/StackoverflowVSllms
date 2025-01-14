@@ -1,1 +1,0 @@
-$w_time_no = '0000-00-00 22:00:00';\n\necho '<br />1. ' . $w_time_no;\n\n// Check if the date is not all zeros\nif (strpos($w_time_no, '0000-00-00') === false) {\n    echo '<br />2. ' . strtotime($w_time_no);\n    echo '<br />3. ' . date('G:i', strtotime($w_time_no));\n} else {\n    echo '<br />2. Invalid Date';\n    echo '<br />3. N/A';\n}

@@ -1,1 +1,0 @@
-document.querySelector('.your-element').addEventListener('mouseenter', function() {\n       console.log('Mouse entered');\n   });\n\n   document.querySelector('.your-element').addEventListener('mouseleave', function() {\n       console.log('Mouse left');\n   });

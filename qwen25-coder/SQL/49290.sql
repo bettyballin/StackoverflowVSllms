@@ -1,1 +1,0 @@
--- Subquery approach: can be slow if submission_tags is large\nSELECT * FROM submissions \nWHERE id IN (SELECT submission_id FROM submission_tags WHERE tag_id = 1);\n\n-- Join approach: generally faster and more efficient with indexed columns\nSELECT s.* \nFROM submissions s\nINNER JOIN submission_tags st ON s.id = st.submission_id \nWHERE st.tag_id = 1;

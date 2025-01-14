@@ -1,1 +1,0 @@
-SELECT category_id, category_name, item_id, itemname\nFROM (\n    SELECT c.id AS category_id, c.name AS category_name, i.id AS item_id, i.itemname,\n           ROW_NUMBER() OVER (PARTITION BY c.id ORDER BY RAND()) as rn\n    FROM Categories c\n    JOIN items i ON c.id = i.categoryid\n) subquery\nWHERE rn = 1;

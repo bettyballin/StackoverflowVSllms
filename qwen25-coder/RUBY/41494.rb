@@ -1,1 +1,0 @@
-Rails.application.config.session_store :file_store, path: "#{Rails.root}/tmp/sessions"

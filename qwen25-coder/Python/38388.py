@@ -1,1 +1,0 @@
-# Writing to a file using '|' as delimiter\nwith open('output_piped.csv', mode='w', newline='') as file:\n    writer = csv.writer(file, delimiter='|')\n    for row in data:\n        writer.writerow(row)

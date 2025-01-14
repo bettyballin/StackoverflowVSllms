@@ -1,1 +1,0 @@
-WITH RepeatingEmails AS (\n    SELECT email\n    FROM your_table_name\n    GROUP BY email\n    HAVING COUNT(DISTINCT key) > 1\n)\nSELECT uid, key, email\nFROM your_table_name\nWHERE email IN (SELECT email FROM RepeatingEmails);

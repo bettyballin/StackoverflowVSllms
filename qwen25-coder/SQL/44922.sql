@@ -1,1 +1,0 @@
-SELECT artOne AS compatibleArticle FROM Compatible WHERE artTwo = 1\n    UNION ALL\nSELECT artTwo AS compatibleArticle FROM Compatible WHERE artOne = 1\nINTERSECT\nSELECT artOne AS compatibleArticle FROM Compatible WHERE artTwo = 3\n    UNION ALL\nSELECT artTwo AS compatibleArticle FROM Compatible WHERE artOne = 3;

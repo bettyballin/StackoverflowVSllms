@@ -1,1 +1,0 @@
-SELECT \n    trtype,\n    trdate,\n    trvalue,\n    SUM(trvalue) OVER (PARTITION BY trtype ORDER BY trdate) AS running_total\nFROM \n    Transactions\nORDER BY \n    trtype, trdate;

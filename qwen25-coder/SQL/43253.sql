@@ -1,1 +1,0 @@
-SELECT * FROM status_updates WHERE user_who_posted="username" LIMIT 20 OFFSET 0;

@@ -1,1 +1,0 @@
-var xml = "<xml></xml>"; // Example XML string\n\n$.post("yourJspPage.jsp", { data: xml }, function(response){\n    console.log("Server response: " + response);\n});

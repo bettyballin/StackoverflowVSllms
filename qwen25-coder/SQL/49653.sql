@@ -1,1 +1,0 @@
-SELECT a.column1, b.column2\nFROM table_a a\nLEFT JOIN table_b b ON a.id = b.a_id;

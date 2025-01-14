@@ -1,1 +1,0 @@
-# Automatically included in form tags when using form_with or form_for\n<%= form_with(model: user) do |form| %>\n  <!-- Fields go here -->\n<% end %>\n\n# Or manually, if needed\n<%= form_tag(some_path, method: :post) do %>\n  <%= hidden_field_tag(:authenticity_token, form_authenticity_token) %>\n  <!-- Other fields -->\n<% end %>

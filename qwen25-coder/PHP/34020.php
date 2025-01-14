@@ -1,1 +1,0 @@
-<?php\n\nrequire 'vendor/autoload.php';\n\nuse PhpOffice\PhpSpreadsheet\IOFactory;\n\n// Load the Excel file\n$spreadsheet = IOFactory::load('path/to/your/file.xlsx');\n\n// Access the first worksheet\n$worksheet = $spreadsheet->getActiveSheet();\n\n// Get all rows in an array\n$dataArray = $worksheet->toArray();\n\n// Print the array\nprint_r($dataArray);

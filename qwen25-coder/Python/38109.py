@@ -1,1 +1,0 @@
-# Example of K-fold cross-validation in sklearn\n     from sklearn.model_selection import cross_val_score\n\n     scores = cross_val_score(model, X, y, cv=5)

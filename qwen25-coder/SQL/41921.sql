@@ -1,1 +1,0 @@
-SELECT products.product_id, inventory.date\n   FROM products\n   JOIN inventory ON inventory.date >= products.launch_date AND inventory.date <= products.removal_date;

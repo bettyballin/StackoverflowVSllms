@@ -1,1 +1,0 @@
-require 'text/wrap'\n\ntext = "This is a long piece of text that we want to wrap within a certain column width."\nwrapped_text = Text::Wrap.wrap('', '', 20, text)\nputs wrapped_text

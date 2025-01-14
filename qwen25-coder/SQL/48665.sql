@@ -1,1 +1,0 @@
-SELECT * FROM messages\nWHERE messageTime >= DATEADD(DAY, -1, CURRENT_TIMESTAMP);

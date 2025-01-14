@@ -1,1 +1,0 @@
-ALTER ROLE JobEditors ADD MEMBER [DOMAIN\DeveloperName];\n   GO

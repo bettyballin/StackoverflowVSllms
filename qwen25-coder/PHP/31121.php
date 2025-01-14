@@ -1,1 +1,0 @@
-<?php\n$url = "http://localhost/command?cmd=test";\n$response = file_get_contents($url);\necho $response;\n?>

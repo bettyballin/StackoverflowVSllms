@@ -1,1 +1,0 @@
-SELECT c.*\nFROM communication c\nJOIN base_actor ba ON c.base_actor_id = ba.id\nWHERE ba.type = 'worker';

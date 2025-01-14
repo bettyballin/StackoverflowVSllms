@@ -1,1 +1,0 @@
-// Example JSON config file parsing\n   $config = json_decode(file_get_contents('config.json'), true);

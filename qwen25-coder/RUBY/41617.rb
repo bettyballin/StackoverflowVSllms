@@ -1,1 +1,0 @@
-form = %r(\n  /\*\s+(\w+)\s+\((\d+)\)\d+\s+\*\/    # formId & edDate\n  \s*(.+?)                                # fieldText (non-greedy)\n  (?=\/\*\s+\w+\s+\(\d+\)\d+\s+\*\/|\Z) # stop at beginning of next form or end of string\n)mx\n\ntext.scan(form).map do |form_id, ed_date, fields|\n  [[form_id], [ed_date], ["/* #{fields.strip} */"]]\nend.each do |result|\n  p result\nend

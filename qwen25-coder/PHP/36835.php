@@ -1,1 +1,0 @@
-// Check current max execution time\n   echo ini_get('max_execution_time');\n\n   // Set a higher max execution time if necessary\n   set_time_limit(120);

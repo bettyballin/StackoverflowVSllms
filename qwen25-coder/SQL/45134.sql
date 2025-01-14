@@ -1,1 +1,0 @@
-SELECT t1.DD, t1.TN, Query1.ID AS NewID\n   INTO TempUpdateTable\n   FROM t1 INNER JOIN Query1 ON (t1.DD = Query1.DD) AND (t1.TN = Query1.TN);

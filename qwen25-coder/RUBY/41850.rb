@@ -1,1 +1,0 @@
-# Example of using Shoulda matchers in RSpec\nrequire 'rails_helper'\n\nRSpec.describe User, type: :model do\n  let(:user) { build(:user) }\n\n  it { should validate_presence_of(:username) }\n  it { should validate_uniqueness_of(:email).case_insensitive }\nend

@@ -1,1 +1,0 @@
-// Choose SDK based on target OS version\nif (targetOSVersion == "Windows Mobile 5") {\n    // Download and use Windows Mobile 5 SDK\n} else if (targetOSVersion == "Windows Mobile 6") {\n    // Download and use Windows Mobile 6 SDK\n}

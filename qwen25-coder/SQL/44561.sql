@@ -1,1 +1,0 @@
-WITH TicketsInRange AS (\n    SELECT DISTINCT ticket_id\n    FROM mytable\n    WHERE COMPLETIONDATE >= TO_DATE('01/06/09','DD/MM/YY')\n      AND COMPLETIONDATE <= TO_DATE('30/06/09','DD/MM/YY')\n)\nSELECT t.ticket_id, t.activity, t.COMPLETIONDATE\nFROM mytable t\nJOIN TicketsInRange tri ON t.ticket_id = tri.ticket_id;

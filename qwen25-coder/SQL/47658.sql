@@ -1,1 +1,0 @@
-ALTER TABLE your_table_name\nADD CONSTRAINT chk_your_column_name_range\nCHECK (your_column_name >= 0 AND your_column_name <= 100);

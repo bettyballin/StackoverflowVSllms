@@ -1,1 +1,0 @@
-class DataAccess {\n    private $factory;\n\n    public function __construct($factory) {\n        $this->factory = $factory;\n    }\n\n    public function getFoo($id) {\n        $MyTableRepresentation = call_user_func_array([$this->factory, 'create'], ["mytable"]);\n        $MyTableRepresentation->get($id);\n        ... do some stuff\n        return $somedata\n    }\n}

@@ -1,1 +1,0 @@
-spl_autoload_register(function ($class) {\n    $file = __DIR__ . '/' . str_replace('\\', '/', $class) . '.php';\n    if (file_exists($file)) {\n        require_once $file;\n    }\n});\n\n// Usage: You can then use classes without including them manually.\n$obj = new Namespace\Class();

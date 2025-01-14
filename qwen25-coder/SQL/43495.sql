@@ -1,1 +1,0 @@
--- Introduce a delay to simulate a long-running query\nBEGIN TRANSACTION;\nWAITFOR DELAY '00:02'; -- Adjust the time as necessary\nCOMMIT TRANSACTION;

@@ -1,1 +1,0 @@
-class User {\n    private $name;\n    private $email;\n\n    public function getName() {\n        return $this->name;\n    }\n\n    public function setName($name) {\n        $this->name = $name;\n    }\n\n    public function getEmail() {\n        return $this->email;\n    }\n\n    public function setEmail($email) {\n        $this->email = $email;\n    }\n}

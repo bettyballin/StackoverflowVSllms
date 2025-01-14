@@ -1,1 +1,0 @@
-class Example {\n    public static function getValue() {\n        $value = "Hello, World!";\n        return $value;\n    }\n}\n\n$ref = &Example::getValue();\necho $ref; // Outputs: Hello, World!

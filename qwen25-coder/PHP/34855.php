@@ -1,1 +1,0 @@
-<?php\n// Assume $conn is your database connection\n$username = mysqli_real_escape_string($conn, $_POST['username']);\n\n$query = "SELECT * FROM users WHERE username = '$username'";\n$result = mysqli_query($conn, $query);\n\nif (mysqli_num_rows($result) > 0) {\n    echo 'exists';\n} else {\n    echo '';\n}\n?>

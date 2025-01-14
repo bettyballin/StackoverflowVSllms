@@ -1,1 +1,0 @@
-set_time_limit(600); // 10 minutes

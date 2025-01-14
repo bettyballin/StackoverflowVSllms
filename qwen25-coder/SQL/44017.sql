@@ -1,1 +1,0 @@
-CREATE TABLE Hierarchy (\n    NodeID INT PRIMARY KEY,\n    ParentNodeID INT NULL, -- Root node has NULL here\n    NodeName NVARCHAR(100)\n);

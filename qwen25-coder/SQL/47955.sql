@@ -1,1 +1,0 @@
--- Using LIKE without leading wildcard for potentially better performance on indexed fields\nWHERE Keywords LIKE 'endorse%'

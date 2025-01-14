@@ -1,1 +1,0 @@
-function normalizeMimeType($mimeType) {\n    if ($mimeType === 'image/pjpeg') {\n        return 'image/jpeg';\n    }\n    return $mimeType;\n}\n\n// Example usage\n$uploadedMimeType = $_FILES['userfile']['type'];\n$normalizedType = normalizeMimeType($uploadedMimeType);

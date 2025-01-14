@@ -1,1 +1,0 @@
-CREATE TABLE people (\n    Name VARCHAR(100),\n    addresses XML -- XML column containing address nodes\n);

@@ -1,1 +1,0 @@
-# Single Quotes\n    greeting = 'Hello, world!'\n\n    # Double Quotes (with Interpolation)\n    name = "Alice"\n    personalized_greeting = "Hello, #{name}!"\n\n    # Here Document\n    long_text = <<~LONG_TEXT\n      This is a multi-line string that can be useful for large texts.\n      It preserves formatting and indentation.\n    LONG_TEXT

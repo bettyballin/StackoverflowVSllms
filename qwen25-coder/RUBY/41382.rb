@@ -1,1 +1,0 @@
-# test/models/user_test.rb\nrequire 'test_helper'\n\nclass UserTest < ActiveSupport::TestCase\n  test "user should be valid" do\n    user = User.new(name: "John Doe", email: "john@example.com")\n    assert user.valid?\n  end\nend

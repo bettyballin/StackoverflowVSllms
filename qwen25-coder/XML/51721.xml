@@ -1,1 +1,0 @@
-<many-to-one name="Backer" class="Backer" column="BackerId"/>

@@ -1,1 +1,0 @@
-<h1><?= htmlspecialchars($this->page_name) ?></h1>\n<p>Header Info Goes Here.</p>

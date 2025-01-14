@@ -1,1 +1,0 @@
-import random\n\ndef generate_passphrase(word_list, num_words=5):\n    return ' '.join(random.choice(word_list) for _ in range(num_words))\n\n# Example word list (you can use a larger and more diverse list)\nwords = ["apple", "banana", "cherry", "date", "elderberry", "fig", \n         "grape", "honeydew", "kiwi", "lemon", "mango", "nectarine"]\n\nprint(generate_passphrase(words))

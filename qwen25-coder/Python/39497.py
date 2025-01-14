@@ -1,1 +1,0 @@
-from flask import Flask, redirect, request\n\napp = Flask(__name__)\n\n@app.route('/')\ndef index():\n    if not request.is_secure:\n        url = request.url.replace('http://', 'https://', 1)\n        code = 301\n        return redirect(url, code=code)\n    return "Hello, secure world!"\n\nif __name__ == '__main__':\n    app.run(host='127.0.0.1', port=8080, debug=True)

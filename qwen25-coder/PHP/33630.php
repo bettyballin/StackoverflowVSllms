@@ -1,1 +1,0 @@
-<?php\n   echo 'hello!';\n   ?>

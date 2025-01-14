@@ -1,1 +1,0 @@
-<Subreport>\n    <ReportName>YourLogoSubreport</ReportName>\n    <!-- Set the Hidden property using an expression -->\n    <Hidden>=Not(Fields!LogoExists.Value)</Hidden>\n    <!-- Other subreport properties -->\n</Subreport>

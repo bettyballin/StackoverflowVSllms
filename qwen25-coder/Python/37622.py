@@ -1,1 +1,0 @@
-from hypothesis import given, strategies as st\n\n   @given(st.lists(st.integers()), st.integers())\n   def test_btree_insert_and_lookup(items, key):\n       btree = BTree()\n       for item in items:\n           btree.insert(item)\n       assert btree.lookup(key) == (key in items)

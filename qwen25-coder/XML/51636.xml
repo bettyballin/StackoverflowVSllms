@@ -1,1 +1,0 @@
-<dependency>\n       <groupId>org.owasp.esapi</groupId>\n       <artifactId>esapi</artifactId>\n       <version>2.5.2.1</version>\n   </dependency>

@@ -1,1 +1,0 @@
-class Address extends AppModel {\n       public $hasMany = array(\n           'CustomerMailing' => [\n               'className' => 'Customer',\n               'foreignKey' => 'mailing_address_id'\n           ],\n           'CustomerBilling' => [\n               'className' => 'Customer',\n               'foreignKey' => 'billing_address_id'\n           ]\n       );\n   }

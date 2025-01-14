@@ -1,1 +1,0 @@
-WITH RECURSIVE cte AS (\n    SELECT id, name, depth, CAST(name AS CHAR(100)) AS path FROM student_outcomes WHERE id = <node_id>\n    UNION ALL\n    SELECT t.id, t.name, t.depth, CONCAT(cte.path, ' -> ', t.name) \n    FROM student_outcomes t\n    INNER JOIN cte ON t.rgt > cte.lft AND t.lft < cte.lft\n)\nSELECT * FROM cte ORDER BY depth DESC;

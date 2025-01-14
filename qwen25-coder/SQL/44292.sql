@@ -1,1 +1,0 @@
-SELECT * FROM pages WHERE is_visible = $visibility OR is_visible = $invisibility OR is_visible = $somethingelse

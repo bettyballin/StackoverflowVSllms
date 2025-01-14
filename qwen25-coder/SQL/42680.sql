@@ -1,1 +1,0 @@
--- First, ensure the extension is available\n     CREATE EXTENSION pg_trgm;  -- Make sure to do this in your database\n\n     -- Then, create the index\n     CREATE INDEX idx_trgm ON your_table USING gin(your_column gin_trgm_ops);

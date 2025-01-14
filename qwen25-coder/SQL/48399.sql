@@ -1,1 +1,0 @@
-INSERT IGNORE INTO friends (requestor, buddy) VALUES (value1, value2), (value2, value1), (value3, value4), (value4, value3), ...;

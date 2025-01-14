@@ -1,1 +1,0 @@
-$allowed_pages = ['home', 'about', 'contact']; // Add all allowed pages here\n\n$page = $_GET['page'];\n\nif (in_array($page, $allowed_pages)) {\n    include sprintf("%s/%s.php", "pages", $page);\n} else {\n    echo "The page '$page' does not exist =(";\n}

@@ -1,1 +1,0 @@
-SELECT \n    Model.modelName,\n    Brand.brandName, \n    MobilePhoneFormFactor.formFactorName, \n    Year.yearValue \nFROM \n    Model, Brand, MobilePhoneFormFactor, Year;

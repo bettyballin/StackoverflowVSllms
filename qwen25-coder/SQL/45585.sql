@@ -1,1 +1,0 @@
-WHERE [tstamp] >= CAST(@dateParam AS DATETIME) \nAND [tstamp] < DATEADD(DAY, 1, CAST(@dateParam AS DATETIME))

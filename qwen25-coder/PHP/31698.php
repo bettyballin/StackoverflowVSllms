@@ -1,1 +1,0 @@
-$element->setDecorators([\n        ['ViewScript', ['viewScript' => 'form/elements/myButton.phtml']]\n    ]);\n    \n    $form->setDecorators([\n        ['ViewScript', ['viewScript' => 'form/myFormLayout.phtml']]\n    ]);

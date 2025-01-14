@@ -1,1 +1,0 @@
-profiles_list = sorted(Profile.objects.all(), key=lambda p: p.reputation)\n# Use profiles_list where needed

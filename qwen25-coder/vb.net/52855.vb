@@ -1,1 +1,0 @@
-<%\n' Setting a session variable\nSession("UserName") = "George"\n\n' Getting a session variable\nIf Not IsEmpty(Session("UserName")) Then\n    Dim userName\n    userName = Session("UserName")\nEnd If\n\n' Changing session timeout\nSession.Timeout = 60 ' Timeout after 60 minutes\n%>

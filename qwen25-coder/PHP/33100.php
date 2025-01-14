@@ -1,1 +1,0 @@
-// Store as JSON\n   $jsonData = json_encode($tree);\n   memcache_set($memc, 'decision_tree', $jsonData);\n\n   // Retrieve and decode from JSON\n   $jsonTreeData = memcache_get($memc, 'decision_tree');\n   $loadedTree = json_decode($jsonTreeData, true);

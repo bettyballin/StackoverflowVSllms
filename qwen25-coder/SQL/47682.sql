@@ -1,1 +1,0 @@
-CREATE PROCEDURE usp_FirstScript\nAS\nBEGIN\n    DECLARE @localVar_A INT = 1;\n    DECLARE @localVar_B INT = 2;\n\n    -- Script-specific logic here\nEND\n\nCREATE PROCEDURE usp_SecondScript\nAS\nBEGIN\n    DECLARE @localVar_A INT = 3;\n    DECLARE @localVar_B INT = 4;\n\n    -- Script-specific logic here\nEND

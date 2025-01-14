@@ -1,1 +1,0 @@
-Public Function ConvertToDate(dateText As String) As Date\n    ' Assuming your date field is consistently in mm/dd/yyyy hh:mm:ss AM/PM format\n    ConvertToDate = CDate(Mid(dateText, InStrRev(dateText, " ", -15)))\nEnd Functio

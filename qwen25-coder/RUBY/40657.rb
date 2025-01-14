@@ -1,1 +1,0 @@
-require 'some_library'

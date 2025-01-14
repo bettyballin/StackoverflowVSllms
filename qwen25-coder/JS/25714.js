@@ -1,1 +1,0 @@
-if (typeof jQuery === 'undefined') {\n    alert('Please enable JavaScript or use a standard web browser.');\n} else {\n    // Example jQuery code\n    $(document).ready(function() {\n        alert('jQuery is working in Netscape 7/8!');\n    });\n}

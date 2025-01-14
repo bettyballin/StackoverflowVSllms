@@ -1,1 +1,0 @@
-class Page {\n    private $attributes;\n\n    public function __construct() {\n        $this->attributes = [];\n    }\n\n    public function setAttribute($key, $value) {\n        $this->attributes[$key] = $value;\n    }\n\n    public function getAttribute($key) {\n        return isset($this->attributes[$key]) ? $this->attributes[$key] : null;\n    }\n}

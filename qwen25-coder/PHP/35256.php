@@ -1,1 +1,0 @@
-$personID = $_SESSION['personID'];\npublic static $people_address = "/v1/People/{$personID}/Addresses";

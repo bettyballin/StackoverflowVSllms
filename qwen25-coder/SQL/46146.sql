@@ -1,1 +1,0 @@
-CREATE TABLE email_opens (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       email_id VARCHAR(255) NOT NULL,\n       opened_at DATETIME NOT NULL\n   );

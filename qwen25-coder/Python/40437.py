@@ -1,1 +1,0 @@
-with open('yourfile.txt', 'r') as f:\n    for line in f:\n        line = line.rstrip('\n')\n        print(f'"{line}"')

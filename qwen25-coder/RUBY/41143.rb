@@ -1,1 +1,0 @@
-ew_hash = {"a" => "b", "c" => "d"}.each_with_object({}) do |(k, v), h|\n  h[k] = v.upcase\nend

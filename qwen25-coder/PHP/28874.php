@@ -1,1 +1,0 @@
-<?php\n// Define the path where you want to save the file\n$filePath = '/path/to/your/directory/filename.txt';\n\n// The data to write into the file\n$data = "This is some test data.\n";\n\n// Write data to the file\nif (file_put_contents($filePath, $data) !== false) {\n    echo 'Data written successfully.';\n} else {\n    echo 'Error writing data.';\n}\n?>

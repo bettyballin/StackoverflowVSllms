@@ -1,1 +1,0 @@
-UPDATE STATISTICS dbo.ClientDefinitionEntry;\n   UPDATE STATISTICS dbo.KeywordValueGroups;

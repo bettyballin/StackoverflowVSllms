@@ -1,1 +1,0 @@
-# spec/controllers/your_controller_spec.rb\nrequire 'rails_helper'\n\nRSpec.describe YourController, type: :controller do\n  describe "when not signed in" do\n    it "should redirect users" do\n      get :show, params: { id: 1 }\n      expect(response).to redirect_to(login_path)\n    end\n\n    # Add more unauthenticated test cases as needed\n  end\nend

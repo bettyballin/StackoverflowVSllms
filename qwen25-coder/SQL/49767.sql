@@ -1,1 +1,0 @@
-SELECT SUBSTRING(title1 FROM 1 FOR 32) \n       || SUBSTRING(title2 FROM 1 FOR 32) \n       || SUBSTRING(title3 FROM 1 FOR 32) AS combined_title\nFROM your_table;

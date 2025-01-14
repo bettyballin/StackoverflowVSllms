@@ -1,1 +1,0 @@
-<?php\n   $action = filter_input(INPUT_POST, 'action', FILTER_SANITIZE_STRING);\n\n   if ($action) {\n       echo htmlspecialchars($action);\n   } else { \n       echo 'No variable';\n   }\n   ?>

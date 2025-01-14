@@ -1,1 +1,0 @@
--- Adding indexes for faster join and concatenation\nCREATE INDEX idx_host_name ON hosts(name);\nCREATE INDEX idx_path_name ON paths(name);\n\n-- Ensure primary keys exist; they should be in place if not, create them\nALTER TABLE urls ADD PRIMARY KEY (host, path); -- if composite key is not set already

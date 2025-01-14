@@ -1,1 +1,0 @@
-Public Property TicketCharge() As Nullable(Of Decimal)\n    Get\n        Return _TicketCharge\n    End Get\n    Set(ByVal value As Nullable(Of Decimal))\n        ' Directly assign the value\n        _TicketCharge = value\n    End Set\nEnd Property

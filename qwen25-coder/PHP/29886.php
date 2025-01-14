@@ -1,1 +1,0 @@
-// languages/de.php\n   return array(\n       "Hello" => "Hallo",\n       "Welcome to our website." => "Willkommen auf unserer Website."\n   );

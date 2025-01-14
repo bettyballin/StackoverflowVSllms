@@ -1,1 +1,0 @@
-# Reading a file that is being used by another process on Unix/Linux\nwith open('/path/to/file', 'r') as f:\n    data = f.read()\n    print(data)

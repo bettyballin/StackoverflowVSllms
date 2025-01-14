@@ -1,1 +1,0 @@
-function echoIfSet($var, $defaultValue = '') {\n    return isset($var) ? $var : $defaultValue;\n}\n\n// Usage:\necho echoIfSet($variable);\necho echoIfSet($arrayVar['parameter']);

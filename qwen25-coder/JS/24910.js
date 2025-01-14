@@ -1,1 +1,0 @@
-$(".add").click(function(e) {\n    e.preventDefault(); // Prevents the default action (e.g., navigating if it was a link)\n    var dataText = $(this).find('a').text(); // Finds the <a> element within the clicked <li> and gets its text\n    alert(dataText); // Alerts the text of the clicked item\n});

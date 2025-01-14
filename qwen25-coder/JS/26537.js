@@ -1,1 +1,0 @@
-async function fetchItems(letter, status) {\n    const response = await fetch(`/items?letter=${encodeURIComponent(letter)}&status=${encodeURIComponent(status)}`);\n    const items = await response.json();\n    // Further filter on the client-side if needed\n    return items;\n}\n\n// Example usage:\nfetchItems('A', 'Active').then(items => console.log(items));

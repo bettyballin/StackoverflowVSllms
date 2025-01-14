@@ -1,1 +1,0 @@
-// Create a new session handler for an app with a unique identifier\n$session = new SessionHandler('my_custom_ticket_system');\n\n// Set and get session data\n$session->set('user', 'example_user');\n$user = $session->get('user');

@@ -1,1 +1,0 @@
-from django.urls import path, include\n   from rest_framework.routers import DefaultRouter\n   from .views import MediaViewSet\n\n   router = DefaultRouter()\n   router.register(r'media', MediaViewSet)\n\n   urlpatterns = [\n       path('api/', include(router.urls)),\n       ...\n   ]

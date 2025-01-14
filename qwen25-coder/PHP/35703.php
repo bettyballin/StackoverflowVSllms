@@ -1,1 +1,0 @@
-$q2 = "SELECT COUNT(*) FROM fruits WHERE name=:name";\n$s = $db->prepare($q2);\n$s->execute([':name' => 'apple']);\necho $s->fetchColumn();

@@ -1,1 +1,0 @@
-$(document).ready(function() {\n       var myTextBox = $('.unique-class');\n       // Now you can use myTextBox as needed with jQuery\n   });

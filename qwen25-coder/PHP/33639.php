@@ -1,1 +1,0 @@
-<?php\n$results = mysql_query("SELECT `category_id` FROM `categories` WHERE `category_parent_id` = '80'");\n$childrows = array();\nwhile ($row = mysql_fetch_array($results)) {\n    $childrows[] = $row['category_id'];\n}\n$clean = array_unique($childrows);\n$category_string = implode(",", $clean);\necho $category_string;\n?>

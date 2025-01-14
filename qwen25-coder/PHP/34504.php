@@ -1,1 +1,0 @@
-$data = "[    asdf asdf     asdf           asdf   ]";\n\n// Replace tabs with spaces (though there are none in your example, it's good practice)\n$data = str_replace("\t", " ", $data);\n\n// Remove multiple spaces and trim leading/trailing spaces\n$data = preg_replace('/\s+/', ' ', trim($data));\n\necho $data; // Outputs: [asdf asdf asdf asdf]

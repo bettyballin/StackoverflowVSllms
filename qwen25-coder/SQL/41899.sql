@@ -1,1 +1,0 @@
-WITH NumberedComments AS (\n    SELECT\n        *,\n        ROW_NUMBER() OVER (ORDER BY some_column) AS RowNum\n    FROM Comments\n)\nSELECT * FROM NumberedComments WHERE RowNum = 8;

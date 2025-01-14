@@ -1,1 +1,0 @@
-// Example of setting custom errors in web.config\n<configuration>\n  <system.web>\n    <customErrors mode="On" defaultRedirect="GenericErrorPage.aspx">\n      <error statusCode="403" redirect="NoAccess.htm"/>\n      <error statusCode="404" redirect="FileNotFound.htm"/>\n    </customErrors>\n  </system.web>\n</configuration>

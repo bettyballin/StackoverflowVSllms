@@ -1,1 +1,0 @@
-const fragment = document.createDocumentFragment();\n  data.forEach(row => {\n      const tr = document.createElement('tr');\n      // Create cells and content as needed...\n      fragment.appendChild(tr);\n  });\n  document.getElementById('container').appendChild(fragment);

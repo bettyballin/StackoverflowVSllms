@@ -1,1 +1,0 @@
-#!/usr/bin/env python3\n\nprint("Content-type: text/html\n")\nprint("<html><head><title>CGI Script Example</title></head>")\nprint("<body>")\nprint("<h1>Hello, world!</h1>")\nprint("</body></html>")

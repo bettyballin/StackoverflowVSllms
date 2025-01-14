@@ -1,1 +1,0 @@
-ALTER SESSION ENABLE PARALLEL DML;\n   INSERT /*+ APPEND PARALLEL(your_table) */ INTO your_table(column1, column2)\n   VALUES (...);

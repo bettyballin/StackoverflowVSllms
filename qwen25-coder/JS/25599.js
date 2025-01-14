@@ -1,1 +1,0 @@
-$(document).click(function (event) {\n    // Check if the clicked element is not #divInfoBox and not any of its descendants\n    if (!$(event.target).closest('#divInfoBox').length) {\n        // Your code here for clicks outside of #divInfoBox\n        console.log("Clicked outside of divInfoBox");\n    }\n});

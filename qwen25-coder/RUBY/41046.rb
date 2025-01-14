@@ -1,1 +1,0 @@
-# In your controller or any other part of your app\nsession_key = Rails.application.config.session_options[:key]\nputs session_key

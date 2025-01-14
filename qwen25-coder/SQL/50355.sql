@@ -1,1 +1,0 @@
-WITH CTE AS (\n    SELECT \n        *,\n        ROW_NUMBER() OVER (\n            PARTITION BY longitude, latitude, BusinessName, Phone \n            ORDER BY RecordID -- or some other criteria to determine the 'winner'\n        ) as RowNum\n    FROM MyTable\n)\nDELETE FROM CTE WHERE RowNum > 1;

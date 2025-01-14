@@ -1,1 +1,0 @@
-<system.webServer>\n     <handlers>\n       <!-- Ensure there are no handlers blocking elmah.axd -->\n     </handlers>\n   </system.webServer>

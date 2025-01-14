@@ -1,1 +1,0 @@
-fetch('https://example.com/wp-json/wp/v2/posts')\n    .then(response => response.json())\n    .then(data => {\n        console.log(data); // Output the data to the console for inspection\n    })\n    .catch(error => console.error('Error:', error));

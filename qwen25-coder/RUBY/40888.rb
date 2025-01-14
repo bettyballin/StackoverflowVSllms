@@ -1,1 +1,0 @@
-package My::Class;\n  \n  sub new {\n      my ($class, %args) = @_;\n      return bless \%args, $class;\n  }\n  \n  sub some_method {\n      my ($self) = @_;\n      # Method implementation\n  }\n\n  1; # End with a true value

@@ -1,1 +1,0 @@
-$sql = 'CREATE TABLE '.$table.' (\n            `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,\n            `name` VARCHAR(55) NOT NULL,\n            `venue` VARCHAR(55) NOT NULL,\n            `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n            `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\n            `desc` TEXT NOT NULL\n        )';

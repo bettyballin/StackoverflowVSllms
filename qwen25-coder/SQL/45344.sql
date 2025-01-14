@@ -1,1 +1,0 @@
-SELECT name\nFROM items\nORDER BY \n  CASE \n    WHEN position < (SELECT MAX(position) FROM items) - :offset THEN position + :offset\n    ELSE position - ((SELECT MAX(position) FROM items) - :offset + 1)\n  END;

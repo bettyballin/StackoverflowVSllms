@@ -1,1 +1,0 @@
-Using conn As New SqlConnection(connectionString)\n    Using command As New SqlCommand("foo_from_baz", conn)\n        command.CommandType = CommandType.StoredProcedure\n        command.Parameters.AddWithValue("@baz", fuz)\n        ' Execute the query\n    End Using\nEnd Using

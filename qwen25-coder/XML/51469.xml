@@ -1,1 +1,0 @@
-<connectionStrings>\n        <add name="connstr" connectionString="Data Source=myServerAddress;Initial Catalog=myDataBase;Integrated Security=True;Connect Timeout=60;" />\n    </connectionStrings>

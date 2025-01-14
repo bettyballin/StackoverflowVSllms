@@ -1,1 +1,0 @@
-CREATE PROCEDURE SearchArticlesByXMLData(@SearchString NVARCHAR(255))\n    AS\n    BEGIN\n        SELECT ID, LastName, FirstName\n        FROM Author\n        WHERE XMLField.value('(*:Root/*:CreatedAt)[1]', 'datetime') = @SearchString \n          AND LastName LIKE '%' + @SearchString + '%'\n          -- Add other conditions as necessary\n    END

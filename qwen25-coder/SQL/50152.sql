@@ -1,1 +1,0 @@
-WITH RECURSIVE number_series AS (\n    SELECT 1 as num\n    UNION ALL\n    SELECT num + 1\n    FROM number_series\n    WHERE num < (SELECT MAX(id) FROM table1)\n)\nSELECT ns.num as MissingID\nFROM number_series ns\nLEFT JOIN table1 t ON ns.num = t.id\nWHERE t.id IS NULL;

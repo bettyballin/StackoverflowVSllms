@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $encodedUrl = $_POST['fullUrl'];\n    $decodedUrl = urldecode($encodedUrl);\n\n    // Now you have the original URL in $decodedUrl\n    echo "Received URL: " . htmlspecialchars($decodedUrl, ENT_QUOTES, 'UTF-8');\n}\n?>

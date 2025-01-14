@@ -1,1 +1,0 @@
-try {\n    $vtest = '';\n    if (is_array($vtest)) {\n        print(array_pop($vtest));\n    } else {\n        // Handle the error silently or log it\n    }\n} catch (Exception $exx) {\n    // This will not be executed in this case because no exception is thrown\n}

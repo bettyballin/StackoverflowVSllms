@@ -1,1 +1,0 @@
-// index.php or any other entry script inside web root\n$config = include __DIR__ . '/../config/config.inc.php';

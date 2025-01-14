@@ -1,1 +1,0 @@
-<?php\nif (!empty($_SERVER['HTTP_REFERER']) && strpos($_SERVER['HTTP_REFERER'], 'google.') !== false) {\n    echo "The visitor came from a Google search result.";\n} else {\n    echo "The visitor did not come from a Google search result.";\n}\n?>

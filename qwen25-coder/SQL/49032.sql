@@ -1,1 +1,0 @@
--- Example: UNION to JOIN transformation\n   SELECT id FROM Employees WHERE department = 'Sales' UNION SELECT id FROM Employees WHERE department = 'Marketing';\n   \n   -- Equivalent using JOIN and IN condition\n   SELECT DISTINCT id FROM Employees WHERE department IN ('Sales', 'Marketing');

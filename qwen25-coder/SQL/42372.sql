@@ -1,1 +1,0 @@
-WITH RECURSIVE RowGenerator AS (\n    SELECT 1 AS LEVEL\n    UNION ALL\n    SELECT LEVEL + 1 FROM RowGenerator WHERE LEVEL < 10\n)\nSELECT LEVEL FROM RowGenerator;

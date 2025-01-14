@@ -1,1 +1,0 @@
-function deleteComment(id) {\n   $.post("ajax/comments.php", {"delete": id},\n      function (reply) {\n         if (reply == "true") {\n            alert("Comment deleted!");\n         }\n      }\n   );   \n}

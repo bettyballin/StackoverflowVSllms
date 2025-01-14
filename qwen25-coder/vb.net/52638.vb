@@ -1,1 +1,0 @@
-Catch ex As Exception\n    ' Log the exception for further analysis\n    EventLog.WriteEntry("Application", ex.ToString(), EventLogEntryType.Error)\n    Throw ' If you need to propagate the exception up the call stack\nEnd Try

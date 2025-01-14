@@ -1,1 +1,0 @@
-ob_start("ob_gzhandler");\nheader('Content-Type: application/json');\n\n$data = array(\n    'key' => 'value',\n    // other data items\n);\n\necho json_encode($data);

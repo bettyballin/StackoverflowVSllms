@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.GetCustomerTaskCount (@customerId INT)\n   RETURNS INT\n   AS\n   BEGIN\n       RETURN (SELECT COUNT(*) FROM Tasks WHERE CustomerId = @customerId);\n   END

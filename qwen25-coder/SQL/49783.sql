@@ -1,1 +1,0 @@
-WITH RankedCoordinates AS (\n    SELECT \n        intid,\n        ROW_NUMBER() OVER (PARTITION BY geoLng, geoLat ORDER BY NEWID()) as rn\n    FROM Documents d\n)\nSELECT TOP (@maxcount) intid\nFROM RankedCoordinates\nWHERE rn = 1;

@@ -1,1 +1,0 @@
-INSERT INTO CustomerMergeMap (OldId, NewId)\n   VALUES (2, 1); -- Merging customer ID 2 into customer ID 1

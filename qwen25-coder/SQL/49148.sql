@@ -1,1 +1,0 @@
-SELECT \n    COALESCE(RootId, Id) AS DistinctId,\n    DateTime\nFROM (\n    SELECT \n        RootId, \n        Id, \n        DateTime,\n        ROW_NUMBER() OVER (PARTITION BY COALESCE(RootId, Id) ORDER BY DateTime DESC) AS rn\n    FROM Posts\n) AS RankedPosts\nWHERE rn = 1\nORDER BY DateTime DESC\nLIMIT 20;

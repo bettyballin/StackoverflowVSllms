@@ -1,1 +1,0 @@
-<bean id="transactionManager1" class="org.springframework.orm.jpa.JpaTransactionManager">\n       <property name="entityManagerFactory" ref="entityManagerFactory1"/>\n   </bean>\n\n   <bean id="transactionManager2" class="org.springframework.orm.jpa.JpaTransactionManager">\n       <property name="entityManagerFactory" ref="entityManagerFactory2"/>\n   </bean>

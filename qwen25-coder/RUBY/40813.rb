@@ -1,1 +1,0 @@
-class User < ApplicationRecord\n  # Method to validate a specific attribute\n  def self.valid_attribute?(attribute, value)\n    user = new(attribute => value)  # Create a new instance with only the given attribute set\n    user.valid?                      # Validate the record\n    user.errors[attribute].none?     # Check if there are no errors for the given attribute\n  end\nend

@@ -1,1 +1,0 @@
-UPDATE shop_user_rights \nSET expiration = CASE \n    WHEN expiration < CURDATE() THEN DATE_ADD(CURDATE(), INTERVAL 1 MONTH)\n    ELSE DATE_ADD(expiration, INTERVAL 1 MONTH)\nEND;

@@ -1,1 +1,0 @@
-require 'vendor/autoload.php';\n\nuse Egulias\EmailValidator\EmailValidator;\nuse Egulias\EmailValidator\Validation\RFCValidation;\n\n$validator = new EmailValidator();\n$email = "user@example.com";\nif ($validator->isValid($email, new RFCValidation())) {\n    echo "Valid email!";\n} else {\n    echo "Invalid email!";\n}

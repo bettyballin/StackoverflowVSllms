@@ -1,1 +1,0 @@
-SELECT address_id, name, address_line1, city, state, zip_code,\n(6371 * acos(cos(radians(:latitude)) \n        * cos(radians(latitude)) \n        * cos(radians(longitude) - radians(:longitude))\n        + sin(radians(:latitude)) \n        * sin(radians(latitude)))) AS distance\nFROM addresses\nHAVING distance <= 20 -- radius in kilometers, adjust as needed\nORDER BY distance;

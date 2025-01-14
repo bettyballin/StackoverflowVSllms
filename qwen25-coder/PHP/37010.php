@@ -1,1 +1,0 @@
-$str = "bla bla here is my string";\n$length = mb_strlen($str, 'UTF-8');

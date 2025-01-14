@@ -1,1 +1,0 @@
-import os\nimport random\n\ndirectory = 'some/directory'\nfiles = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]\nif files:\n    filename = random.choice(files)\n    path = os.path.join(directory, filename)\n    print(path)\nelse:\n    print("No files found in the directory.")

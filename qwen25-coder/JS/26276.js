@@ -1,1 +1,0 @@
-$('*[id]').each(function() {\n    console.log(this);\n});

@@ -1,1 +1,0 @@
-# Load private key from file\nprivate_key = paramiko.RSAKey.from_private_key_file('/path/to/private/key')\n\ntry:\n    # Connect using key authentication\n    ssh_client.connect(hostname, port=port, username=username, pkey=private_key)

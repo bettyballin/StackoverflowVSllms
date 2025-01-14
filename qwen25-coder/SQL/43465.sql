@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table_name\nWHERE YEAR(date_column) = 2023 AND MONTH(date_column) = 5;

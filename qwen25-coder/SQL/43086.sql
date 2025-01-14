@@ -1,1 +1,0 @@
-ALTER TABLE MyTable \nADD CONSTRAINT UQ_MyUniqueIdentifier UNIQUE (ID);

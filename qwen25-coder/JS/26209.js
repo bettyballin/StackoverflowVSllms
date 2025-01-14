@@ -1,1 +1,0 @@
-// Using console.log()\nlet obj = { name: "John", age: 30 };\nconsole.log(obj);\n\n// Using JSON.stringify() - note this won't show functions/methods and requires the object to be serializable\nconsole.log(JSON.stringify(obj));\n\n// Using console.dir() for a detailed view in developer tools\nconsole.dir(obj);

@@ -1,1 +1,0 @@
-$contact_name = 'foo';\n\nfunction do_something($argument_value, $argument_name) {\n    echo $argument_name; // Outputs: contact_name\n}\n\ndo_something($contact_name, 'contact_name');

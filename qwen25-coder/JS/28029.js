@@ -1,1 +1,0 @@
-// JavaScript on the client side to receive server-sent events\nconst eventSource = new EventSource('/events');\n\neventSource.onmessage = function(event) {\n    const data = JSON.parse(event.data);\n    // Update your UI with the new data\n    console.log('New message:', data);\n};\n\neventSource.onerror = function(err) {\n    console.error("EventSource failed:", err);\n};

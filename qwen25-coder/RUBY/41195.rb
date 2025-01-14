@@ -1,1 +1,0 @@
-class Band < ApplicationRecord\n  validate :name_must_be_present\n\n  private\n\n  def name_must_be_present\n    errors.add(:name, "can't be blank") if name.blank?\n  end\nend

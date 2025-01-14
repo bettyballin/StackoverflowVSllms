@@ -1,1 +1,0 @@
-// Assuming $str is your search term\n$str = '%'. $str .'%';\n\n$query = $db->prepare("SELECT * FROM comments WHERE comment LIKE :search");\n$query->bindParam(':search', $str);\n$query->execute();

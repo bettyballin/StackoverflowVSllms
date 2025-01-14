@@ -1,1 +1,0 @@
-CREATE OR REPLACE PACKAGE AssocTypePackage AS\n  Type CursorType IS REF CURSOR;\n  PROCEDURE AssocTypeProcedure(name IN VARCHAR2);\nEND AssocTypePackage;

@@ -1,1 +1,0 @@
--- Copy and paste your messy stored procedure code here\nCREATE PROCEDURE dbo.YourMessyProcedure\nAS\nBEGIN\nSELECT * FROM Table1 WHERE Column1 = 'Value';\nIF EXISTS (SELECT 1 FROM Table2)\nBEGIN\nDELETE FROM Table3;\nEND\nUPDATE Table4 SET ColumnX = 'Updated' WHERE ColumnY = 'Criteria';\nRETURN\nEND

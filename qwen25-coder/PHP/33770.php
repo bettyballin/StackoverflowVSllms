@@ -1,1 +1,0 @@
-<?php\nsession_start(); // Start the session\n\n// Set or modify session variables\n$_SESSION['user_id'] = 123;\n$_SESSION['role'] = 'admin';\n\n// Commit changes to session storage\nsession_write_close();

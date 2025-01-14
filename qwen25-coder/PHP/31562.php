@@ -1,1 +1,0 @@
-// Change the search queries to string format if 'ts' is stored as strings\nrun_query($index, 'ts:"1236630752"'); // Use quotes to ensure it's treated as a phrase

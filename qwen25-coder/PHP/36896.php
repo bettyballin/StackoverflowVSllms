@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("SELECT * FROM pmessages WHERE status = ? AND (sentto = ? OR sentto = 'everyone')");\n$stmt->bind_param('ss', 'unread', $username);\n$stmt->execute();\n$result = $stmt->get_result();\n\nwhile ($row = $result->fetch_assoc()) {\n    // Process each row\n}\n\n$stmt->close();

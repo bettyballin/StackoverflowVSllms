@@ -1,1 +1,0 @@
-function getLastLine($filename) {\n    $handle = fopen($filename, "r");\n    if ($handle === FALSE) return "Error opening file.";\n\n    $line = "";\n    while (($temp_line = fgets($handle)) !== false) {\n        $line = $temp_line;\n    }\n    fclose($handle);\n    return trim($line);\n}\n\n$lastLine = getLastLine("$logfile");\necho $lastLine;

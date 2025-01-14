@@ -1,1 +1,0 @@
-for ($i = 0; $i < 51; $i++) {  \n  $j = rand($i, 51);       \n\n  // swap the items\n\n  $tmp = $arr[$j];\n  $arr[$j] = $arr[$i];\n  $arr[$i] = $tmp;\n}

@@ -1,1 +1,0 @@
-// Hashing a password\n$passwordHash = password_hash('foobar', PASSWORD_DEFAULT);\n\n// Verifying a password\nif (password_verify('foobar', $passwordHash)) {\n    echo 'Password is valid!';\n} else {\n    echo 'Invalid password.';\n}

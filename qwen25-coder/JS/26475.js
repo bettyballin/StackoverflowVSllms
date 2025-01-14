@@ -1,1 +1,0 @@
-// Example JavaScript array\nvar objects = [{ id: 1, name: 'Object1' }, { id: 2, name: 'Object2' }];\n\n// Convert array to JSON string and encode it\nvar jsonString = JSON.stringify(objects);\nvar encodedString = encodeURIComponent(jsonString);\n\n// Redirect using GET with the encoded data\ndocument.location = 'result.php?data=' + encodedString;

@@ -1,1 +1,0 @@
-<connectionStrings configProtectionProvider="RSAProtectedConfigurationProvider">\n  <EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element"\n                 xmlns="http://www.w3.org/2001/04/xmlenc#">\n    ...\n  </EncryptedData>\n</connectionStrings>

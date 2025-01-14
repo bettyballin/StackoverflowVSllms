@@ -1,1 +1,0 @@
-fields_array = ['field1', 'desc_field', 'fieldx']\nfields_array.each { |field| \n  self[field] = 'frog'\n}

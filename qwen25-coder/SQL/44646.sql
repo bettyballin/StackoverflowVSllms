@@ -1,1 +1,0 @@
-SELECT last_updated FROM table_update_log WHERE schema_name = 'public' AND table_name = 'your_table';

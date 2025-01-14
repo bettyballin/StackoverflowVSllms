@@ -1,1 +1,0 @@
-EXEC dbo.sp_PivotData @EntityTypeID = 1;

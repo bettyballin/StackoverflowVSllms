@@ -1,1 +1,0 @@
-# Get all orders whose newest shipment was created within the last hour\none_hour_ago = Time.now - 1.hour\n\norders_with_recent_shipments = Order.joins(:shipments)\n                                    .where('shipments.created_at >= ?', one_hour_ago)\n                                    .distinct

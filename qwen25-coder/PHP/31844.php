@@ -1,1 +1,0 @@
-<?php\n// Capture the output of svnversion command\n$revision = trim(shell_exec('svnversion -c . 2>&1'));\n\n// Check if the revision number is valid\nif (strpos($revision, ':') !== false) {\n    $revisions = explode(':', $revision);\n    $revision = array_pop($revisions); // Get the last committed revision\n}\n\necho "Current SVN Revision: " . htmlspecialchars($revision);\n?>

@@ -1,1 +1,0 @@
-EXPLAIN PLAN FOR\nBEGIN\n    YourStoredProcedure(:param1, :param2);\nEND;\n\nSELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);

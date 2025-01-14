@@ -1,1 +1,0 @@
--- In Procedure A\n  DECLARE @MyTable TABLE (ID INT, Value NVARCHAR(50));\n  INSERT INTO @MyTable (...) SELECT ...;\n  \n  EXEC ProcedureB @Parameter = @MyTable; -- Assuming you can pass tables as parameters or similar constructs

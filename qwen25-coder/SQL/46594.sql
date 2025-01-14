@@ -1,1 +1,0 @@
-SELECT eid\n   FROM t\n   WHERE fid = 'B'\n   EXCEPT\n   SELECT eid\n   FROM t\n   WHERE fid = 'A';

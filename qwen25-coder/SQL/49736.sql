@@ -1,1 +1,0 @@
-CREATE TABLE TEST (ID INT);\n\nDECLARE @myVar INT; -- Explicitly declare the variable with the same data type as the column\n\n-- Now you can use @myVar in your code\nBEGIN\n    SELECT @myVar = ID FROM TEST WHERE some_condition;\n    -- Other operations...\nEND;

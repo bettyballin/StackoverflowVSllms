@@ -1,1 +1,0 @@
-EXEC GetRecordsByTemplate 'YourTableName', 'YourProductionCode';

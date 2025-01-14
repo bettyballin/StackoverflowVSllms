@@ -1,1 +1,0 @@
--- Example: Aggregating user metrics by active status\nSELECT \n    COUNT(CASE WHEN IsActive = 1 THEN UserId END) AS ActiveUsers,\n    COUNT(CASE WHEN FirstLoginDate >= DATEADD(MONTH, -1, GETDATE()) THEN UserId END) AS NewLastMonth\nFROM Users;

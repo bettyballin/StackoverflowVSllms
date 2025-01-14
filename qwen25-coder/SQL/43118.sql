@@ -1,1 +1,0 @@
-SELECT\n  main.*\nFROM\n  main\nLEFT JOIN\n  child1\nON\n  main.id = child1.main_id\nLEFT JOIN\n  child2\nON\n  main.id = child2.main_id\nWHERE\n  (child1.name = 'child1' OR child2.name = 'DOES NOT EXIST') AND \n  (child1.id IS NOT NULL OR child2.id IS NOT NULL);

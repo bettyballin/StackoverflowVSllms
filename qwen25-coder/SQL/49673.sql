@@ -1,1 +1,0 @@
-SELECT \n    InstanceId, \n    StateMachineState, \n    CreationTime,\n    LastUpdatedTime,\n    SuspensionExceptionName,\n    SuspensionReason\nFROM \n    [System.Activities.DurableInstancing].[InstancesTable]

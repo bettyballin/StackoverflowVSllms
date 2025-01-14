@@ -1,1 +1,0 @@
-<!-- In a Maven POM.xml -->\n<properties>\n    <maven.compiler.source>1.6</maven.compiler.source>\n    <maven.compiler.target>1.6</maven.compiler.target>\n</properties>\n\n<!-- In an Ant build.xml -->\n<javac srcdir="src" destdir="build/classes" source="1.6" target="1.6">\n    <!-- Additional javac options here -->\n</javac>

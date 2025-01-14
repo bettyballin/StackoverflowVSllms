@@ -1,1 +1,0 @@
-<class name="Parent" table="Parents">\n  <id name="ID">\n    <generator class="identity"></generator>\n  </id>\n</class>\n\n<joined-subclass name="Child" extends="Parent" table="Children">\n  <key column="ParentID"/>\n  <!-- Child-specific properties -->\n</joined-subclass>

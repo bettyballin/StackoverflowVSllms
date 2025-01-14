@@ -1,1 +1,0 @@
-// Example of using a PHP script to view Git repository contents (simplified)\n$repoPath = '/path/to/your/repo';\n$output = shell_exec('git --git-dir='.$repoPath.'/.git log');\necho "<pre>$output</pre>";

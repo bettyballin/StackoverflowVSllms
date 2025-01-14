@@ -1,1 +1,0 @@
-UPDATE YourMainTable INNER JOIN EmployeeLookup ON YourMainTable.EmployeeName = EmployeeLookup.EmployeeName\n   SET YourMainTable.EmployeeIDField = EmployeeLookup.EmployeeID;

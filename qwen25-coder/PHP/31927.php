@@ -1,1 +1,0 @@
-ob_start();\n   // Your code here\n   echo $yourData; // Ensure this is the only output you intend to send\n   ob_end_clean();

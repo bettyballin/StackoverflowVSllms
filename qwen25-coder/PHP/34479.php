@@ -1,1 +1,0 @@
-// Example of using V8Js\n  $v8 = new V8Js();\n  $result = $v8->executeString('PHPJS.echo("Hello from JS in PHP!");');

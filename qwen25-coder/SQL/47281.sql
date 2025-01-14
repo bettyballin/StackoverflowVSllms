@@ -1,1 +1,0 @@
-ALTER TABLE YourTableName\nADD CONSTRAINT chk_YourColumnName CHECK (YourColumnName > 0);

@@ -1,1 +1,0 @@
-# Define the record separator\nRS = '\u001E'\n\n# Example user inputs\nuser_inputs = ["First input", "Second input", "Third input"]\n\n# Concatenate with record separator\nconcatenated_input = RS.join(user_inputs)\n\nprint(concatenated_input)

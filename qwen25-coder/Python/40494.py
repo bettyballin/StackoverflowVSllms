@@ -1,1 +1,0 @@
-import pdb\n\nvariable = {'key': [1, 2, 'three'], 'another_key': {'nested_key': 'value'}}\npdb.set_trace()  # This will start the debugger and allow you to inspect variable

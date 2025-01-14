@@ -1,1 +1,0 @@
-function fetchData() {\n    fetch('https://api.example.com/chat')\n        .then(response => response.json())\n        .then(data => console.log(data))\n        .catch(error => console.error('Error:', error));\n}\n\n// Recommended interval of at least 2 seconds (2000 milliseconds)\nsetInterval(fetchData, 2000);

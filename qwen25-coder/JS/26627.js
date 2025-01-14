@@ -1,1 +1,0 @@
-document.getElementById('yourElementId').addEventListener('click', function() {\n    this.classList.toggle('activeClass');\n});

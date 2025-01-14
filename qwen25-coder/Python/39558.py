@@ -1,1 +1,0 @@
-# models/user_model.py\nfrom google.appengine.ext import db\n\nclass User(db.Model):\n    name = db.StringProperty(required=True)\n    email = db.EmailProperty(required=True)

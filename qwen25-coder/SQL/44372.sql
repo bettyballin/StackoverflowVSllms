@@ -1,1 +1,0 @@
--- Example SQL for ensuring uniqueness if needed\nALTER TABLE ForumPosts ADD CONSTRAINT UC_UniquePost UNIQUE (UniqueIdValue);

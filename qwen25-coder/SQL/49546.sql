@@ -1,1 +1,0 @@
-INSERT INTO mytable (id, xmldata) \nVALUES (p_id, xmltype(p_xmldata, nls_params => 'AL32UTF8'));

@@ -1,1 +1,0 @@
-IF EXISTS (\n    SELECT 1 \n    FROM INFORMATION_SCHEMA.COLUMNS \n    WHERE TABLE_NAME = 'YourTableName' \n      AND COLUMN_NAME = 'YourColumnName'\n      AND IS_NULLABLE = 'NO'\n)\nBEGIN\n    ALTER TABLE YourTableName ALTER COLUMN YourColumnName YourColumnType NULL;\nEND

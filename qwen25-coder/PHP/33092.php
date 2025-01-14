@@ -1,1 +1,0 @@
-$headers[] = "Batch-Type: XML_SINGLE"; \n$headers[] = "Batch-Count: 1";\n$headers[] = "Vendor-ID: 54367";

@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $("#lowerLayer").click(function(event) {\n        // Check if the clicked element is the same as #lowerLayer\n        if (event.target.id === this.id) {\n            $(this).fadeTo("fast", 0, function() {\n                $(this).hide(0);\n            });\n        }\n    });\n});

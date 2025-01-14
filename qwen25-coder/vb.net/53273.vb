@@ -1,1 +1,0 @@
-Module Module1\n    Sub Main()\n        Dim letter As Char = "a"c\n        ' Convert char to ASCII, increment, convert back to char\n        Dim nextLetter As Char = Chr(Asc(letter) + 1)\n        Console.WriteLine(nextLetter) ' Outputs: b\n    End Sub\nEnd Module

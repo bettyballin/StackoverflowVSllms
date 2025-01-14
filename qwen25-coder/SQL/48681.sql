@@ -1,1 +1,0 @@
--- Example: Converting Decimal 6719 to Hexadecimal\nSELECT RAWTOHEX(TO_CLOB(CHR(mod(6719,256)) || CHR(trunc(6719/256)))) AS hex_value FROM dual;

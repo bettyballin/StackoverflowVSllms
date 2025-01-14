@@ -1,1 +1,0 @@
-class Admin_Bootstrap extends Zend_Application_Module_Bootstrap {\n      protected function _initAutoload() {\n          $autoloader = new Zend_Application_Module_Autoloader(array(\n              'namespace' => '',\n              'basePath'  => dirname(__FILE__),\n          ));\n          return $autoloader;\n      }\n  }

@@ -1,1 +1,0 @@
-<?php $pageTitle = 'Home'; include '../templates/header.php'; ?>\n<main>\n    <!-- Home page content -->\n</main>\n<?php include '../templates/navigation.php'; ?>\n<?php include '../templates/footer.php'; ?>

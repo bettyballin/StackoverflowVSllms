@@ -1,1 +1,0 @@
-WHERE \n  upper(Table.Column) = 'SOMETHING'

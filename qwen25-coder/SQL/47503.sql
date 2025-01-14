@@ -1,1 +1,0 @@
-DECLARE\n  v_guid RAW(16);\nBEGIN\n  -- Generate a new GUID\n  v_guid := SYS_GUID();\n  \n  -- Output the generated GUID\n  DBMS_OUTPUT.PUT_LINE('Generated GUID: ' || RawToHex(v_guid));\nEND;

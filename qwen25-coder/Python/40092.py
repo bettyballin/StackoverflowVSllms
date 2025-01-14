@@ -1,1 +1,0 @@
-from scipy import stats\n\n# Given probability P and interval bounds a\nP = 0.95  # Example: 95% confidence interval\na = 1.96  # Corresponding z-value for 95% interval, which is symmetric around the mean\n\n# Calculate standard deviation using the inverse of the CDF (percent point function)\nstd_dev = a / stats.norm.ppf((P + 1) / 2)\n\nprint(f"Standard Deviation: {std_dev}")

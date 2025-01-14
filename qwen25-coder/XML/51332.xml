@@ -1,1 +1,0 @@
-<!-- Example Ant build.xml snippet -->\n<target name="compile-server">\n    <javac srcdir="src/server"\n           destdir="war/WEB-INF/classes">\n        <classpath>\n            <!-- Add other necessary JARs -->\n            <pathelement path="${toplink.essentials.jar}"/>\n        </classpath>\n    </javac>\n</target>

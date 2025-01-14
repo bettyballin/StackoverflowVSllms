@@ -1,1 +1,0 @@
-- MySQL returns all specified fields, so you may need to use `SELECT DISTINCT` to avoid duplicates if both tables have the same column.\n\n### Your First Compariso

@@ -1,1 +1,0 @@
-<?php\n// Capture the start time\n$startTime = microtime(true);\n\n// Your code here...\n\n// Calculate page load time\n$pageLoadTime = microtime(true) - $startTime;\necho "Page generated in " . number_format($pageLoadTime, 4) . " seconds.";\n\n?>

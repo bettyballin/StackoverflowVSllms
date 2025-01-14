@@ -1,1 +1,0 @@
-CREATE INDEX idx_log_timestamp ON Logs (Timestamp);\n   CREATE INDEX idx_error_message_length ON Logs (LEN(ErrorMessage));

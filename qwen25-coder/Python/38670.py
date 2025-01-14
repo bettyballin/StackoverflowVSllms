@@ -1,1 +1,0 @@
-import os\n\ndef list_subdirectories(path='.'):\n    return [d for d in os.listdir(path) if os.path.isdir(os.path.join(path, d))]\n\nsubdirectories = list_subdirectories()\nprint(subdirectories)

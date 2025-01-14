@@ -1,1 +1,0 @@
-Array\n(\n    [0] => http://www.foo.com/bar/baz\n    [1] => http://\n    [2] => www.foo.com\n    [3] => bar/baz\n)

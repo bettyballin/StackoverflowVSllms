@@ -1,1 +1,0 @@
-ALTER DATABASE FogBugzDB SET RECOVERY FULL WITH NO_WAIT;\n   GO\n   -- Take a new full backup immediately following the switch.

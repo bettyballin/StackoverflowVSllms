@@ -1,1 +1,0 @@
-Imports System.IO\n\nModule Module1\n    Sub Main()\n        Dim startupPath As String = AppDomain.CurrentDomain.BaseDirectory\n        Console.WriteLine("Startup Path: " & startupPath)\n    End Sub\nEnd Module

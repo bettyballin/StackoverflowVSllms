@@ -1,1 +1,0 @@
-function replaceDescription() {\n    if (confirm("Are you sure you want to display this description? It may contain executable code.")) {\n        header.ondblclick = editDescription;\n        description.removeChild(editor);\n        description.innerHTML = editor.value;\n    }\n}

@@ -1,1 +1,0 @@
-WITH RankedEntries AS (\n    SELECT\n        ExamEntry,\n        Student_ID,\n        Grade,\n        ROW_NUMBER() OVER (PARTITION BY Student_ID ORDER BY ExamEntry DESC) as rn\n    FROM\n        data\n)\nSELECT\n    Student_ID\nFROM\n    RankedEntries\nWHERE\n    rn = 1 AND\n    Grade >= 50;

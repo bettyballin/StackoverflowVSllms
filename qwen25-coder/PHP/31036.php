@@ -1,1 +1,0 @@
-$query = "UPDATE your_table_name SET column1 = 'new_value', fire_trigger = TRUE WHERE condition";\n$stmt = $pdo->prepare($query);\n$stmt->execute();

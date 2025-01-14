@@ -1,1 +1,0 @@
-if ($test1 === "0")\n    echo "Test 1 is Equal!?"; // This will not be true\n\nif ($test2 === "0")\n    echo "Test 2 is Equal!?"; // This will also not be true

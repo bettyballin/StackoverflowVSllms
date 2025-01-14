@@ -1,1 +1,0 @@
-document.getElementById('add-item-button').addEventListener('click', function() {\n       fetch('add_item.asp')\n           .then(response => response.text())\n           .then(data => {\n               document.getElementById('item-list').innerHTML += data;\n           })\n           .catch(error => console.error('Error:', error));\n   });

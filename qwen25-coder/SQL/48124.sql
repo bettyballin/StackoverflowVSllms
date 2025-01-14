@@ -1,1 +1,0 @@
-UPDATE a\nSET a.SomeColumn = b.SomeValue\nFROM [MainDB].[dbo].[Company] a\nJOIN [AnotherDB].[dbo].[Details] b ON a.CompanyID = b.CompanyID\nWHERE a.[CompanyName] = 'StackOverflow';

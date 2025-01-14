@@ -1,1 +1,0 @@
-ALTER TABLE your_table ADD PRIMARY KEY (column_name);

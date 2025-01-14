@@ -1,1 +1,0 @@
-BEGIN WORK;\n\nLET id = 0;\nEXECUTE FUNCTION (insert_table_a('value1', 'value2'));\nLET id = dbinfo('sqlca.sqlerrd1');\n\nINSERT INTO table_b (a_id, other_column) VALUES (id, 'other_value');\n\nCOMMIT WORK;

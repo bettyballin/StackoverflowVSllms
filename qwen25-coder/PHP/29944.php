@@ -1,1 +1,0 @@
-$var = "World";\necho "Hello, ", $var; // Outputs: Hello, World\nprint "Hello, " . $var; // Outputs: Hello, World\n\n// Using return value of print\n$result = print "Test"; // Outputs: Test\necho $result; // Outputs: 1

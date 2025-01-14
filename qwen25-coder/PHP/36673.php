@@ -1,1 +1,0 @@
-$ldapserver = "mail";\n$ds = ldap_connect($ldapserver);\n$username = "cn=mynameHere,ou=domainIused,o=mygroup.com"; // Try with full DN if configured this way\n$passwd = "user's password";\n\n// Attempt to bind\nif (@ldap_bind($ds, $username, $passwd)) {\n    echo "Bind successful";\n} else {\n    echo "Bind failed: " . ldap_error($ds);\n}

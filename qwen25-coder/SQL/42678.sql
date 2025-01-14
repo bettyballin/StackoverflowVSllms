@@ -1,1 +1,0 @@
-CREATE TABLE UserProfile (\n    UserID INT PRIMARY KEY,\n    ProfilePicture VARBINARY(MAX)\n);

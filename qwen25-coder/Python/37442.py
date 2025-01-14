@@ -1,1 +1,0 @@
-from gensim.models import KeyedVectors\n\n# Load pre-trained model\nmodel = KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)\n\n# Find most similar words\nsimilar_words = model.most_similar('intel')\nprint(similar_words)

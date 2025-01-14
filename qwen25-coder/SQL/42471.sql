@@ -1,1 +1,0 @@
-SET @ID = NULL;

@@ -1,1 +1,0 @@
-SELECT \n    m.ID,\n    m.Signal,\n    m.RecBy AS MessageRecBy,\n    m.HQ,\n    c.SignalRec AS cfgSignalRec,\n    c.SignalOut AS cfgSignalOut\nFROM \n    messages m\nJOIN \n    bases b ON m.RecBy = b.Name\nJOIN \n    config c ON m.ID = c.ID AND b.NameNum = c.RecBy\nORDER BY \n    m.ID, c.HQ;

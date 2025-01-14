@@ -1,1 +1,0 @@
-open(ver_local_zip, "w+").write(open(remote_zip, :proxy=>ftp_proxy).read)

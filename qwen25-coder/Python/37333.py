@@ -1,1 +1,0 @@
-import numpy as np\n\ndef random_walk(n):\n    return np.cumsum(np.random.randn(n) * 10)\n\n# Example usage\nrw_data = random_walk(100)

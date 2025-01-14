@@ -1,1 +1,0 @@
-<?php\nfunction isAlphanumeric($string) {\n    return ctype_alnum($string);\n}\n\n// Example usage:\n$string1 = "Hello123";\n$string2 = "Hello 123!";\n\necho isAlphanumeric($string1) ? 'True' : 'False'; // Outputs: True\necho "\n";\necho isAlphanumeric($string2) ? 'True' : 'False'; // Outputs: False\n?>

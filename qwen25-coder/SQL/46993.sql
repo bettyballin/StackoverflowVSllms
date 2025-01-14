@@ -1,1 +1,0 @@
--- Before performing an operation\nSELECT rowid, employee_id FROM employees WHERE department_id = 10;\n\n-- Perform a partition maintenance or any of the above operations\n\n-- After performing an operation to verify ROWID change\nSELECT rowid, employee_id FROM employees WHERE department_id = 10;

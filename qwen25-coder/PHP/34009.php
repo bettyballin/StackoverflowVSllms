@@ -1,1 +1,0 @@
-<?php\n// proxy.php\n$url = $_GET['url'];\n$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$response = curl_exec($ch);\ncurl_close($ch);\n\nheader('Content-Type: application/json');\necho $response;\n?>

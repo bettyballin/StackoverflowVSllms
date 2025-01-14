@@ -1,1 +1,0 @@
-require 'yaml'\n\nclass Lock\n  def to_yaml(*args)\n    {} # Return an empty hash or any other representation you want\n  end\nend\n\n# Example usage\nlock_instance = Lock.new\ndata_to_serialize = { info: "Some info", lock: lock_instance }\nserialized_data = YAML.dump(data_to_serialize)\n\nputs serialized_data

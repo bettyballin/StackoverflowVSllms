@@ -1,1 +1,0 @@
--- Query 1 with NOEXPAND\nSELECT a.PostId\nFROM PostsCleanSubjectView WITH (NOEXPAND) a \nWHERE a.CleanedSubject = 'Just-out-of-town'\n\n-- Query 2 with NOEXPAND and an additional condition\nSELECT a.PostId\nFROM PostsCleanSubjectView WITH (NOEXPAND) a \nWHERE a.CleanedSubject = 'Just-out-of-town' AND a.PostTypeId = 1

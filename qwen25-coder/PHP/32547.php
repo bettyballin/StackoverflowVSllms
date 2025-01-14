@@ -1,1 +1,0 @@
-// Peach Pit is not as versatile as JMeter, but you can start small with scripts like:\n   <?php\n   function checkSite() {\n       $start = microtime(true);\n       file_get_contents('http://example.com');\n       $end=microtime(true)-$start;\n       return $end;\n   }\n\n   for ($i = 0; $i < 100; $i++) {\n       echo "Load test #".($i+1).": ".checkSite()."\n";\n   }\n   ?>

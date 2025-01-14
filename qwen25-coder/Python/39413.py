@@ -1,1 +1,0 @@
-BronKerbosch(R, P, X):\n    if P and X are both empty:\n        report R as a maximal clique\n    for vertex v in (choosePivot(P, X) \ N(v)):\n        BronKerbosch(R ∪ {v}, P ∩ N[v], X ∩ N[v])\n        move v from P to X

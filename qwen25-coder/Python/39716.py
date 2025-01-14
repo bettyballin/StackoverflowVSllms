@@ -1,1 +1,0 @@
-original_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nmodified_list = [[9] + sublist for sublist in original_list]\nprint(modified_list)

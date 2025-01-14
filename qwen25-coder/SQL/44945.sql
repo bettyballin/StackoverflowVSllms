@@ -1,1 +1,0 @@
--- Assuming your table is named 'your_table' and your id column uses a sequence called 'your_sequence'\nALTER SEQUENCE your_sequence RESTART WITH 100001;

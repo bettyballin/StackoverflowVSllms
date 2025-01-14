@@ -1,1 +1,0 @@
-if (function_exists('get_magic_quotes_gpc') && get_magic_quotes_gpc()) {\n    echo "Magic Quotes are enabled";\n} else {\n    echo "Magic Quotes are disabled";\n}

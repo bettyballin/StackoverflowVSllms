@@ -1,1 +1,0 @@
-<?php\n\n// routes.php\n\n$routes = [\n    'user' => function($username) {\n        // Include or handle your profile page logic here\n        echo "Profile for user: $username";\n    },\n    'home' => function() {\n        // Home page logic\n        echo "Welcome to the home page!";\n    }\n];\n\n// Export the routes array for use in index.php\nreturn $routes;

@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    // Disable autocomplete for fields with class 'no-autocomplete'\n    $('input.no-autocomplete').attr('autocomplete', 'off');\n});

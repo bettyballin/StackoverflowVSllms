@@ -1,1 +1,0 @@
-<?php\n    // config.php\n    return [\n        'dbName' => $_SESSION['mydatabase'],\n    ];

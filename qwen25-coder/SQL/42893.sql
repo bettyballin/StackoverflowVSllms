@@ -1,1 +1,0 @@
-SELECT name\nFROM your_table\nWHERE name NOT SIMILAR TO '[A-Za-z]%';

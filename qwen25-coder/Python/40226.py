@@ -1,1 +1,0 @@
-for directory in directories:\n    # Define the full path for the new file\n    file_path = os.path.join(path, directory, 'new_file.txt')\n    \n    # Write to a new file or perform other operations\n    with open(file_path, 'w') as f:\n        f.write('This is a test file.')

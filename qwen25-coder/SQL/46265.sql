@@ -1,1 +1,0 @@
-CREATE TABLE PreciseNumbers (\n    LargeNumber DECIMAL(26, 7)\n);\n\nINSERT INTO PreciseNumbers (LargeNumber) VALUES (47306832975095894070.85314746810624532);

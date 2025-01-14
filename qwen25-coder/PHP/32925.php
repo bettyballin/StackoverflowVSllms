@@ -1,1 +1,0 @@
-$arr = [\n    "#weight" => 0,\n    "#value" => "Some value."\n];\n\nprint $arr["#value"];

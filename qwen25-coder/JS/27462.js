@@ -1,1 +1,0 @@
-$(document).ready(function() {\n       // Ensure the toolbar is styled as sticky\n       $('.ms-listheader.ms-vh2').css({\n           'position': 'sticky',\n           'top': '0',\n           'background-color': 'white', // Adjust color to your theme\n           'z-index': '100'\n       });\n   });

@@ -1,1 +1,0 @@
-$headers = "MIME-Version: 1.0\r\n";\n$headers .= "Content-type: text/plain; charset=ISO-8859-1\r\n";\n$headers .= "Message-ID: <" . md5(uniqid(microtime())) . "@mysite.com>\r\n";\n$headers .= "Return-Path: admin@mysite.com\r\n";\n$headers .= "X-Mailer: PHP v" . phpversion() . "\r\n";\n$headers .= "From: admin@mysite.com\r\n";\n\nmail($to, $subject, $message, $headers);

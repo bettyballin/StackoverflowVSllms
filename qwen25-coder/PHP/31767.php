@@ -1,1 +1,0 @@
-// Set header for UTF-8 to ensure browser handles it correctly\nheader('Content-Type: text/html; charset=utf-8');

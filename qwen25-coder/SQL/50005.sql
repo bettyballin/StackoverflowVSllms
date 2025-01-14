@@ -1,1 +1,0 @@
--- Example with multi-byte characters\nSELECT object_name,\n       LENGTH(object_name) AS char_length,\n       VSIZE(object_name) AS byte_size\nFROM user_objects\nWHERE object_name LIKE '%ä%'; -- Assuming 'ä' is a character in your database and uses 2 bytes in your encoding

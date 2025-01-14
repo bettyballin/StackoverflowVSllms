@@ -1,1 +1,0 @@
-let floatNumber = 3.7;\n   let roundedNumber = Math.round(floatNumber);\n   console.log(roundedNumber); // Outputs: 4

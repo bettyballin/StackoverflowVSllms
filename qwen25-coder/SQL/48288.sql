@@ -1,1 +1,0 @@
-REFRESH FORCE ON DEMAND START WITH sysdate+0 NEXT (round(sysdate) + 1/24)

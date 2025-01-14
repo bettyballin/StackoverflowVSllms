@@ -1,1 +1,0 @@
-foreach ($contents as $content) {\n    echo "<tr>";\n    echo '<td>' . esc_html($content->MemberID) . '</td>';\n    echo '<td>' . esc_html($content->MemberName) . '</td>';\n    echo '<td>' . esc_html($content->FruitNames) . '</td>';\n    echo "</tr>";\n}

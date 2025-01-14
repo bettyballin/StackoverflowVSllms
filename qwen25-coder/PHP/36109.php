@@ -1,1 +1,0 @@
-$var1 = NULL;\n$var2 = null;\n\nif ($var1 === $var2) {\n    echo "Both are the same";\n}

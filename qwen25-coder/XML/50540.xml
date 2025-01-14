@@ -1,1 +1,0 @@
-<dependency>\n       <groupId>com.yourcompany</groupId>\n       <artifactId>your-dll-artifact</artifactId>\n       <version>1.0</version>\n       <type>dll</type>\n   </dependency>

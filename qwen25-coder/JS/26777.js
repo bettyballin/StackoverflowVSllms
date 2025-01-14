@@ -1,1 +1,0 @@
-$.ajax({\n    url: '/controller/get_data',\n    type: 'GET',\n    dataType: 'json', // expect a JSON response\n    success: function(msg) {\n        alert(JSON.stringify(msg));\n    },\n    error: function(xhr, status, err) {\n        console.error('Error:', status, err.toString());\n    }\n});

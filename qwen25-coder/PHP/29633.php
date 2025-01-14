@@ -1,1 +1,0 @@
-function sortByLength(&$array) {\n    usort($array, function($a, $b) {\n        return count($a) - count($b);\n    });\n}\n\n$parent = [];\n$parent[0] = array(0, 0, 0);\n$parent[2] = array("foo", "bar", "b", "a", "z");\n$parent[1] = array(4, 2);\n\nsortByLength($parent);\n\nprint_r($parent);

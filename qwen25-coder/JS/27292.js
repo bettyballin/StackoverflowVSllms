@@ -1,1 +1,0 @@
-function createXHRs(count) {\n    var xhrList = [];\n    for (var i = 0; i < count; i++) {\n        var xhr = new XMLHttpRequest();\n        xhrList.push(xhr);\n    }\n    return xhrList;\n}\n\n// Example usage: Create 10 XHR objects\nvar myXHRs = createXHRs(10);

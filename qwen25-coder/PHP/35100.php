@@ -1,1 +1,0 @@
-$isHttps = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on';\nif ($isHttps) {\n    // Handle HTTPS request\n} else {\n    // Handle HTTP request\n}

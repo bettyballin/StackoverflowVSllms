@@ -1,1 +1,0 @@
-class Person {\n    public $name;\n    public $age;\n\n    function __construct($name, $age) {\n        $this->name = $name;\n        $this->age = $age;\n    }\n\n    function display() {\n        echo "Name: " . $this->name . ", Age: " . $this->age;\n    }\n}

@@ -1,1 +1,0 @@
-CREATE TRIGGER update_modified_timestamp\nBEFORE UPDATE ON employees\nFOR EACH ROW\nBEGIN\n    SET NEW.modified_at = CURRENT_TIMESTAMP;\nEND;

@@ -1,1 +1,0 @@
-class Band < ApplicationRecord\n  validate :genres_cannot_overlap\n\n  private\n\n  def genres_cannot_overlap\n    if genre == 'Rock' && secondary_genre == 'Jazz'\n      errors.add(:base, "Genres Rock and Jazz cannot overlap.")\n    end\n  end\nend

@@ -1,1 +1,0 @@
-function showModal() {\n    // Your logic to open the modal, for example:\n    document.getElementById('hiddenButtonID').click();\n}

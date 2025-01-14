@@ -1,1 +1,0 @@
-<system.web>\n     <httpRuntime requireRootedSaveAsPath="true" />\n     <compilation debug="false" targetFramework="4.8" />\n     <authentication mode="Forms">\n       <forms cookieless="UseCookies" requireSSL="true" />\n     </authentication>\n     <httpCookies httpOnlyCookies="true" secure="true"/>\n   </system.web>

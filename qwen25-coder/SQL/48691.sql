@@ -1,1 +1,0 @@
-CREATE INDEX idx_table1_key ON databaseA.dbo.table1(key);\n   CREATE INDEX idx_table2_key ON databaseA.dbo.table2(key);

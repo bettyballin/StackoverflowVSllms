@@ -1,1 +1,0 @@
-from flask_limiter import Limiter\n   limiter = Limiter(app, key_func=get_remote_address)\n\n   @app.route('/post', methods=['POST'])\n   @limiter.limit("10 per day")\n   def post():\n       # Handle posting logic here

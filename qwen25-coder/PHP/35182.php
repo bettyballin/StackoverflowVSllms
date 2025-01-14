@@ -1,1 +1,0 @@
-<?php\nfunction testFunction() {\n    // Your function logic here\n}\n\n// Start timing\n$startTime = microtime(true);\n\ntestFunction();\n\n// End timing\n$endTime = microtime(true);\n\necho "Execution time: " . ($endTime - $startTime) . " seconds\n";\n?>

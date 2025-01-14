@@ -1,1 +1,0 @@
--- Avoid this\n   SELECT * FROM users;\n   \n   -- Prefer this\n   SELECT id, username, email FROM users;

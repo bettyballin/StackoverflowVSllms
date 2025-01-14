@@ -1,1 +1,0 @@
-<plugin>\n    <groupId>org.apache.maven.plugins</groupId>\n    <artifactId>maven-surefire-plugin</artifactId>\n    <version>2.22.2</version>\n    <configuration>\n        <forkCount>1C</forkCount>\n        <reuseForks>true</reuseForks>\n        <includes>\n            <include>**/*Test.java</include>\n        </includes>\n    </configuration>\n</plugin>

@@ -1,1 +1,0 @@
-CREATE TABLE your_table (\n    id NUMBER PRIMARY KEY,\n    flag VARCHAR2(3),\n    CONSTRAINT check_flag CHECK (flag IN ('YES', 'NO'))\n);\n\n-- Create a unique function-based index on the expression CASE WHEN flag = 'YES' THEN 1 END\nCREATE UNIQUE INDEX idx_unique_yes ON your_table (CASE WHEN flag = 'YES' THEN 1 END);

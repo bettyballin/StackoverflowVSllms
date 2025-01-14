@@ -1,1 +1,0 @@
-class RedirectController extends Zend_Controller_Action {\n       public function defaultaspAction() {\n           $this->_helper->getHelper('ViewRenderer')->setNoRender(true);\n           $this->_response->setHttpResponseCode(301);\n           $this->_response->setHeader('Location', 'http://www.example.com/foo');\n           return;\n       }\n   }

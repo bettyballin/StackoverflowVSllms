@@ -1,1 +1,0 @@
-$query = "SELECT * FROM table WHERE my_field = :field_value";\n$stmt = $pdo->prepare($query);\n$stmt->execute([':field_value' => $value]);

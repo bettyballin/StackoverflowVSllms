@@ -1,1 +1,0 @@
--- Always refresh views after schema changes\nEXEC sp_refreshview 'YourViewName';

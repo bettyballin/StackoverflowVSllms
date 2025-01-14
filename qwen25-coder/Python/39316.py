@@ -1,1 +1,0 @@
-# Example of a procedure in Python (similar to a function but no return value)\ndef print_message(message):\n    print(message)\n\nprint_message("Hello, World!")  # This will print "Hello, World!" to the console

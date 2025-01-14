@@ -1,1 +1,0 @@
-# Example of a simple Ruby script to check DB connection\nrequire 'pg'\n\nbegin\n  conn = PG.connect(dbname: "yourdbname", user: "username", password: "password")\n  puts "Database connected!"\nrescue => e\n  puts "Connection error: #{e.message}"\nend\n\nconn.close if co

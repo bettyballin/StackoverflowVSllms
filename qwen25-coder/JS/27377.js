@@ -1,1 +1,0 @@
-function htmlEncode(value) {\n    return String(value)\n        .replace(/&/g, '&amp;')\n        .replace(/</g, '&lt;')\n        .replace(/>/g, '&gt;')\n        .replace(/"/g, '&quot;')\n        .replace(/'/g, '&#39;');\n}\n\nvar originalValue = $('#hiddenId').attr('value');\nvar encodedValue = htmlEncode(originalValue);\n\n$('#textboxId').attr('value', encodedValue);

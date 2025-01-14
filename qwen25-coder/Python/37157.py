@@ -1,1 +1,0 @@
-from ctypes import *\n\n# Load the DLL\nring_bell_lib = CDLL("RingBell.dll")\n\n# Call the function using its name\nresult = ring_bell_lib.ringBell()\nprint(f"Function returned: {result}")

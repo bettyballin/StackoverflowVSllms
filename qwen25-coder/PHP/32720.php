@@ -1,1 +1,0 @@
-$arr = [];\n\nforeach ($nodes as $node) {\n    // Assign a custom key based on node properties or another logic\n    $key = $node->getAttribute('id'); // Example: using an attribute from $node as a key\n    if ($condition) { \n        $arr[$key] = array("value" => $node->nodeValue);\n    } else {\n        $arr[$key] = array("string" => $node->nodeValue);\n    }\n}

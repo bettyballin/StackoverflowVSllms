@@ -1,1 +1,0 @@
-IF (REGEXP('[^[:space:]]+', your_field)) AND NOT (REGEXP('\\[lang_[^]]*\\/lang_[^]]*]', your_field)):\n    print "Untagged text found!"

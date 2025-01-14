@@ -1,1 +1,0 @@
-USE YourDatabaseName;\nGO\n\nSELECT 'CREATE USER [' + name + '] FOR LOGIN [' + SUSER_SNAME(sid) + '];'\nFROM sys.database_principals\nWHERE type IN ('S', 'U') AND principal_id > 4

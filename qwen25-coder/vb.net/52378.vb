@@ -1,1 +1,0 @@
-Dim calculationText As String\ncalculationText = File.ReadAllText(fileName)\n\nDim fields() As String\nfields = calculationText.Split(vbCrLf)\n\nFor Each line In fields\n    Debug.WriteLine("Line: """ & line & """")\nNext

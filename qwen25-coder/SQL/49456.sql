@@ -1,1 +1,0 @@
-GRANT CREATE JOB TO your_user;\n    -- OR\n    GRANT MANAGE SCHEDULER TO your_user;

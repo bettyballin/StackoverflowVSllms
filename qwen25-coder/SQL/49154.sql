@@ -1,1 +1,0 @@
-SELECT * FROM songs\nWHERE upload_date >= CURDATE() - INTERVAL 1 MONTH;

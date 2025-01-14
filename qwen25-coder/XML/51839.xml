@@ -1,1 +1,0 @@
-<mxmlc file="src/Main.mxml" output="bin-debug/Main.swf"\n         additionalCompilerArguments="-services '${basedir}/services-config.xml'">\n    <load-config filename="${FLEX_HOME}/frameworks/flex-config.xml"/>\n</mxmlc>

@@ -1,1 +1,0 @@
-function fooCheck() {\n  // Declaration of internalFoo is "hoisted" to the top of this function, so:\n  \n  // function internalFoo() { return true; }\n  \n  alert(internalFoo()); \n  return internalFoo();\n  \n  function internalFoo() { return true; } \n}\n\nfooCheck();

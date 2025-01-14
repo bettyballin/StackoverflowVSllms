@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <sessionState \n      mode="InProc" \n      cookieless="false" \n      timeout="20"/>\n  </system.web>\n</configuration>

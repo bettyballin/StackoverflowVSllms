@@ -1,1 +1,0 @@
-// Clear existing options\n$('city').innerHTML = '';\n\n// Create a new option element\nvar option = document.createElement('option');\n\n// Set value and text for the new option\noption.value = 'test';\noption.text = 'This is a test';\n\n// Append the new option to the select\n$('city').appendChild(option);

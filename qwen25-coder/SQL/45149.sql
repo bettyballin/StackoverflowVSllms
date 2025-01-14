@@ -1,1 +1,0 @@
-SELECT CASE \n         WHEN (1 = 1) THEN 10 \n         ELSE dbo.at_Test_Function(5) \n       END AS Result

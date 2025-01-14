@@ -1,1 +1,0 @@
-<system.serviceModel>\n  <services>\n    <service name="QS.DialogManager.Communication.IISHost.RecipientService">\n      <endpoint address="" binding="basicHttpBinding" contract="QS.DialogManager.Communication.IISHost.RecipientService"/>\n    </service>\n  </services>\n</system.serviceModel>

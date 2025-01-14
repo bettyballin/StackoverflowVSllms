@@ -1,1 +1,0 @@
-MERGE INTO your_table target\nUSING (SELECT old_id, new_id,\n              ROW_NUMBER() OVER (ORDER BY old_id) as seq_num\n       FROM your_table) source\nON (target.old_id = source.old_id)\nWHEN MATCHED THEN\nUPDATE SET target.new_id = seq_num;

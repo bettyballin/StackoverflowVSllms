@@ -1,1 +1,0 @@
-<?php\nfunction stripBeforeHyphen($string) {\n    $hyphenPosition = strpos($string, '-');\n    if ($hyphenPosition !== false) {\n        return substr($string, $hyphenPosition + 1);\n    }\n    return $string; // Return the original string if no hyphen is found\n}\n\n$inputString = "15.11-101";\n$result = stripBeforeHyphen($inputString);\necho $result; // Outputs: 101\n?>

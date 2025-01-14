@@ -1,1 +1,0 @@
-var sampleItem = {\n    match_id: 1,\n    home_team: "Team A",\n    away_team: "Team B",\n    isSelected1: false,   // Initial selection state for column "1"\n    isSelectedStar: false,// Initial selection state for column "*"\n    isSelected2: false    // Initial selection state for column "2"\n};

@@ -1,1 +1,0 @@
-// Suppress warning and capture return value\n$records = @dns_get_record($hostname);\n\nif ($records === false) {\n    // Handle the case when DNS query fails gracefully\n    error_log("DNS lookup failed for $hostname");\n} else {\n    // Process records if available\n}

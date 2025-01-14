@@ -1,1 +1,0 @@
-document.querySelectorAll('.select-survey-item').forEach(link => {\n    link.addEventListener('click', function(event) {\n        event.preventDefault();\n        const itemId = this.getAttribute('data-id');\n        const itemName = decodeURIComponent(this.getAttribute('data-name'));\n        SelectSurveyItem(itemId, itemName);\n    });\n});

@@ -1,1 +1,0 @@
-$mysqli = new mysqli("p:your_mysql_host", "username", "password", "database_name", MYSQLI_CLIENT_COMPRESS);\n\nif ($mysqli->connect_error) {\n    die('Connect Error (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error);\n}\n\necho 'Success... ' . $mysqli->host_info;

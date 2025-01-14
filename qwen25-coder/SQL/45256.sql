@@ -1,1 +1,0 @@
-CREATE ROLE SecureRole;\nGRANT EXECUTE ON [dbo].[StoredProcedureXPTO] TO [SecureRole];

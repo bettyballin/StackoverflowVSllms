@@ -1,1 +1,0 @@
-def func(*params):\n    sanitized_params = [param or '' for param in params]\n    # You can then use sanitized_params as needed\n    return tuple(sanitized_params)\n\n# Example of calling the function\nresult = func(None, 'value', '', None)\nprint(result)  # Output: ('', 'value', '', '')

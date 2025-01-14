@@ -1,1 +1,0 @@
-Select * from Table1 T1 \n  Inner Join Table2 T2 On T1.ID = T2.ID;

@@ -1,1 +1,0 @@
-// Initiate an Ajax request\nnew Ajax.Request('your-url-here', {\n    method: 'get',\n    onSuccess: function(response) {\n        // Append the response text to the div with id "update"\n        $('update').insert({bottom: '<br/>' + response.responseText});\n    },\n    onFailure: function() {\n        alert('Error fetching data.');\n    }\n});

@@ -1,1 +1,0 @@
-SELECT ABS(DATEDIFF(DAY, [mytable].first_date, [mytable].second_date))\nFROM [mytable];

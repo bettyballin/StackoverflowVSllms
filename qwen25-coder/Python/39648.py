@@ -1,1 +1,0 @@
-def append_to_list(lst, element):\n    lst.append(element)  # O(1) amortized time complexity\n\n# Initialize an empty list\nmy_list = []\n\n# Append elements to the list\nfor i in range(1000):\n    append_to_list(my_list, i)

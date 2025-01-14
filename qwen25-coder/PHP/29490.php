@@ -1,1 +1,0 @@
-<?php\n// Get the callback parameter\n$callback = isset($_GET['callback']) ? $_GET['callback'] : 'callback';\n\n// Data to be returned\n$data = array(0 => 'test');\n\n// JSON encode your data and wrap it with the callback function name\n$response = json_encode($data);\n\n// Print response to the output stream\necho $callback . '(' . $response . ');';\n?>

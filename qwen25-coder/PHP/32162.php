@@ -1,1 +1,0 @@
-<?php\n// After encoding your script with ionCube's encoder,\n// use the ioncube_loader.so in your php.ini to decode and run the file.\ninclude('encoded_script.php');\n?>

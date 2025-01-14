@@ -1,1 +1,0 @@
-def files_are_equal(file1_path, file2_path):\n    # Open both files in binary mode\n    with open(file1_path, 'rb') as f1, open(file2_path, 'rb') as f2:\n        # Compare the contents\n        return f1.read() == f2.read()\n\n# Example usage\nfile1 = 'path/to/file1'\nfile2 = 'path/to/file2'\nare_equal = files_are_equal(file1, file2)\nprint("Files are equal:", are_equal)

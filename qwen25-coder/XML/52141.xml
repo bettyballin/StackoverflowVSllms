@@ -1,1 +1,0 @@
-<dependency>\n       <groupId>org.apache.sshd</groupId>\n       <artifactId>sshd-core</artifactId>\n       <version>2.8.0</version>\n   </dependency>

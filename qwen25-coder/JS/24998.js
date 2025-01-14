@@ -1,1 +1,0 @@
-// Example of an AJAX call using jQuery\n  $.ajax({\n      url: '/data',\n      method: 'GET',\n      dataType: 'json',\n      success: function(data) {\n          console.log('Data fetched successfully:', data);\n          // Update UI with the data\n      },\n      error: function() {\n          console.error('Failed to fetch data');\n      }\n  });

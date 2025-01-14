@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET StaticColumn = 'YourStaticString';

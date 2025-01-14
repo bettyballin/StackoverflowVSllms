@@ -1,1 +1,0 @@
-$binaryData = pack('vN', 1024, 512);\n\n// To see what it looks like as hexadecimal bytes:\necho bin2hex($binaryData);

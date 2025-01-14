@@ -1,1 +1,0 @@
-DECLARE @Keywords NVARCHAR(MAX) = 'Oakland;City;Planning';\n\nSELECT p.*\nFROM Projects p\nJOIN dbo.SplitStrings_XML(@Keywords, ';') s ON p.ProjectName LIKE '%' + s.Keyword + '%';

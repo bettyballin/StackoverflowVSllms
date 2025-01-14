@@ -1,1 +1,0 @@
-// Change a single letter function name to something meaningful\n// Original: a($b, $c)\n// Refactored: processItems($items, $config)

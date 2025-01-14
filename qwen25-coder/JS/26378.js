@@ -1,1 +1,0 @@
-// Example of using Modernizr for feature detection\n   if (Modernizr.canvas) {\n     // Let's play with canvas!\n   } else {\n     // No canvas :( Provide fallback\n   }

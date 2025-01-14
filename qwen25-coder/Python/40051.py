@@ -1,1 +1,0 @@
-import csv\nfrom cStringIO import StringIO  # Use io.StringIO in Python 3\n\nc = "1,2,3,4\n5,6,7,8\n"\n# Convert the string to a file-like object\nfile_like_object = StringIO(c)\n\ntest = csv.reader(file_like_object)\nfor t in test:\n    print(t)

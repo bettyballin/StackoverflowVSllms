@@ -1,1 +1,0 @@
--- Query for Message Types\nSELECT * FROM sys.service_message_types;\n\n-- Query for Contracts\nSELECT * FROM sys.service_contracts;\n\n-- Query for Services\nSELECT * FROM sys.services;\n\n-- Query for Queues\nSELECT * FROM sys.service_queues;

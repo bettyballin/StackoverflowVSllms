@@ -1,1 +1,0 @@
-https://phptherightway.com/pages/Design-Patterns.html

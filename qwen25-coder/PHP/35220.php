@@ -1,1 +1,0 @@
-$cached_file = 'cache/page-' . md5($request_url) . '.html';\n\nif (file_exists($cached_file)) {\n    readfile($cached_file);\n} else {\n    ob_start();\n    // Your page generation code here\n    $content = ob_get_clean();\n\n    file_put_contents($cached_file, $content);\n\n    echo $content;\n}

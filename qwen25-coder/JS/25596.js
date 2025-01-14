@@ -1,1 +1,0 @@
-// Send a message when the ad needs to resize\nfunction requestResize(width, height) {\n    var targetOrigin = "http://parent-site-domain.com";\n    window.parent.postMessage({action: 'resize', width: width, height: height}, targetOrigin);\n}\n\n// Example usage: Request a resize to 800x300\nrequestResize(800, 300);

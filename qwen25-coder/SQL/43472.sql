@@ -1,1 +1,0 @@
-ALTER DATABASE YourDBName COLLATE Latin1_General_CI_AS;\n-- Or for tables/columns\nALTER TABLE unit ALTER COLUMN UnitID VARCHAR(50) COLLATE Latin1_General_CI_AS;

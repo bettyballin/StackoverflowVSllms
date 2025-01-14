@@ -1,1 +1,0 @@
-SELECT \n    p.id AS profile_id,\n    MAX(CASE WHEN a.type = 'name' THEN a.value END) AS name,\n    MAX(CASE WHEN a.type = 'email' THEN a.value END) AS email,\n    MAX(CASE WHEN a.type = 'website' THEN a.value END) AS website\nFROM \n    contact_profiles p\nLEFT JOIN \n    contact_attributes a ON p.id = a.profile_id\nGROUP BY \n    p.id;

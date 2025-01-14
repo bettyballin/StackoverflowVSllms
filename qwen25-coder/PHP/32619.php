@@ -1,1 +1,0 @@
-// Embed the IPTC data\n$content = iptcembed($data, $path, 0);\n\n// Write IPTC embedded content directly to a file\nfile_put_contents('phplogo-edited.jpg', $content);

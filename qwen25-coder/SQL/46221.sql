@@ -1,1 +1,0 @@
-SET SESSION group_concat_max_len = 1024 * 1024; -- Adjust according to your needs

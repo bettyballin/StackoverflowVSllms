@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>com.google.guava</groupId>\n    <artifactId>guava</artifactId>\n    <version>32.1-jre</version> <!-- Use the latest version available -->\n</dependency>

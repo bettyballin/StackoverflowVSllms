@@ -1,1 +1,0 @@
-UPDATE t\nSET xml = insertChildXML(xml, '/a/b', 'text()', 'gaga')\nWHERE condition;

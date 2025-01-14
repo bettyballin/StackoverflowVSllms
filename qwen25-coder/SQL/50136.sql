@@ -1,1 +1,0 @@
-EXECUTE [dbo].[CostProcedure]\n           @RootId = 123,\n           @Rate = 20;

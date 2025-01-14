@@ -1,1 +1,0 @@
--- SQL Command to attach a previously detached database\nCREATE DATABASE SharePoint_ContentDB ON (FILENAME = 'D:\Path\To\DB.mdf'), (FILENAME = 'L:\Path\To\DB_log.ldf') FOR ATTACH

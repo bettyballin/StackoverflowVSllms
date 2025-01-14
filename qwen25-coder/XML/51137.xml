@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.javassist</groupId>\n    <artifactId>javassist</artifactId>\n    <version>3.28.0-GA</version>\n</dependency>

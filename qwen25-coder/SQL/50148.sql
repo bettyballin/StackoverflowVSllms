@@ -1,1 +1,0 @@
-SELECT data FROM LinkedList ORDER BY FIND_IN_SET(id, (\n    SELECT GROUP_CONCAT(l.id SEPARATOR ',') \n    FROM (\n        SELECT id, next_id FROM LinkedList ORDER BY id\n    ) AS l,\n    (SELECT @parent:=1) vars\n    WHERE FIND_IN_SET(@parent, path:=(id)) > 0 OR (@parent:=next_id) IS NOT NULL\n));

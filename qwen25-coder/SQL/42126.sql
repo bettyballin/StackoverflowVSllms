@@ -1,1 +1,0 @@
-SELECT 'INSERT INTO your_table (column1, column2, column3) VALUES (' ||\n      '''' || column1 || ''', ''' ||\n      '''' || column2 || ''', ''' ||\n      TO_CHAR(column3) || ');'\nFROM your_table;

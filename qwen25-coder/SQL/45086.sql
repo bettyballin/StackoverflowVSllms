@@ -1,1 +1,0 @@
-SELECT numerator / denominator AS result\n   FROM your_table\n   WHERE denominator <> 0;

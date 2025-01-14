@@ -1,1 +1,0 @@
-fetch('your-url')\n    .then(response => response.json())\n    .then(data => {\n      // Handle data\n    })\n    .catch(error => {\n      // Handle error\n    });

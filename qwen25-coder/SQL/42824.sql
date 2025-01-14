@@ -1,1 +1,0 @@
-WITH CommonColumns (columnA, columnB, columnC) AS (\n    SELECT columnA\n         , columnB\n         , columnC\n    FROM Data\n    \n    UNION ALL\n    \n    SELECT columnA\n         , columnB\n         , columnC\n    FROM DataArchive\n)\nSELECT * \nFROM CommonColumns;

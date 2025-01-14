@@ -1,1 +1,0 @@
--- Shrink data files\nDBCC SHRINKFILE (YourDatabaseLogicalName_Data, 1024); -- Target size in MB\n\n-- Shrink log file\nBACKUP LOG YourDatabaseName TO DISK = 'C:\Path\To\LogBackup.trn';\nDBCC SHRINKFILE (YourDatabaseLogicalName_Log, 128); -- Target size in MB

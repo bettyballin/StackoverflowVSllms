@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <staticContent>\n      <clientCache cacheControlMode="UseMaxAge" cacheControlMaxAge="30.00:00:00" />\n      <mimeMap fileExtension=".js" mimeType="application/javascript" />\n      <mimeMap fileExtension=".css" mimeType="text/css" />\n    </staticContent>\n  </system.webServer>\n</configuration>

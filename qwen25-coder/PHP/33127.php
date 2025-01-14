@@ -1,1 +1,0 @@
-<?php\nheader('Content-Type: application/json');\n\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $data = json_decode(file_get_contents("php://input"), true);\n    // Process the data...\n    echo json_encode(['status' => 'success', 'message' => 'Data received']);\n} else {\n    echo json_encode(['status' => 'error', 'message' => 'Invalid request method']);\n}\n?>

@@ -1,1 +1,0 @@
-# Example: Blink an LED using MicroPython on ESP8266/ESP32\n   from machine import Pin\n   import time\n\n   led = Pin(2, Pin.OUT)\n\n   while True:\n       led.on()\n       time.sleep_ms(500)\n       led.off()\n       time.sleep_ms(500)

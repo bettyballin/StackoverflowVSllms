@@ -1,1 +1,0 @@
-SELECT \n    s.student_name,\n    STRING_AGG(c.course_name, ', ') AS courses\nFROM \n    student s\nJOIN \n    student_courses sc ON s.student_id = sc.student_id\nJOIN \n    course c ON sc.course_id = c.course_id\nGROUP BY \n    s.student_name;

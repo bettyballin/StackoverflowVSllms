@@ -1,1 +1,0 @@
-// Example of using Axios with React to fetch data from REST API\n        import axios from 'axios';\n        \n        function fetchData() {\n            return axios.get('/api/data')\n                .then(response => response.data)\n                .catch(error => console.error('Error fetching data:', error));\n        }

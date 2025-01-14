@@ -1,1 +1,0 @@
-IF has_non_null_values THEN\n    -- Do something\nEND IF;

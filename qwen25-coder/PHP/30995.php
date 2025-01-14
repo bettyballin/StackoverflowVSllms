@@ -1,1 +1,0 @@
-<?php\nif ($_FILES["file"]["error"] == UPLOAD_ERR_OK) {\n    $tmp_name = $_FILES["file"]["tmp_name"];\n    // Validate the file extension before saving it permanently.\n    $name = basename($_FILES["file"]["name"]);\n    move_uploaded_file($tmp_name, "uploads/" . $_FILES['file']['name']);\n}\n?>

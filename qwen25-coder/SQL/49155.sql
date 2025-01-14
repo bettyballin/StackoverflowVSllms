@@ -1,1 +1,0 @@
-CREATE PROCEDURE UpdateBalance (\n    IN account_id INT,\n    IN transaction_amount DECIMAL(15, 2)\n)\nBEGIN\n    UPDATE Accounts\n    SET Current_Balance = Current_Balance + transaction_amount\n    WHERE Account_ID = account_id;\nEND;

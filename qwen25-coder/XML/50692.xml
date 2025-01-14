@@ -1,1 +1,0 @@
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">\n\n  <ItemGroup>\n    <Dll Include="<Path_to_DLLs>\*.dll" />\n  </ItemGroup>\n\n  <Target Name="ProcessDlls">\n    <Message Text="Processing DLL: %(Dll.Identity)" Importance="high"/>\n    <!-- ... do other stuff with the current DLL here -->\n  </Target>\n\n</Project>

@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('.lsHeader').each(function() {\n        var $nextSiblings = $(this).nextAll();\n        if ($nextSiblings.filter('.contact').length === 0) {\n            $(this).hide();\n        }\n    });\n});

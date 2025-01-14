@@ -1,1 +1,0 @@
-SELECT \n    LEFT(\n        COURSENAME, \n        LEN(COURSENAME) - CHARINDEX('-', REVERSE(COURSENAME)) - 1\n    ) AS TrimmedCourseName\nFROM YourTableName;

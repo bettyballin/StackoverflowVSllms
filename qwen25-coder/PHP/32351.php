@@ -1,1 +1,0 @@
-header("Cache-Control: no-store, no-cache, must-revalidate");\nheader("Pragma: no-cache"); // For HTTP/1.0 backward compatibility\nheader("Expires: 0"); // A date in the past

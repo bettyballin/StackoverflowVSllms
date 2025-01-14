@@ -1,1 +1,0 @@
-<?php\n// Start the session\nsession_start();\n\n// Store data in the session\n$_SESSION['user_id'] = 123;\n$_SESSION['username'] = 'john_doe';\n\n// Retrieve data from the session\necho $_SESSION['username'];\n\n// Destroy all session variables\nsession_unset();\nsession_destroy();\n?>

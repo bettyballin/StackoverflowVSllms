@@ -1,1 +1,0 @@
-CREATE TABLE paid AS\nSELECT DISTINCT acct_map.external_id, cmf.account_no, SUM(cmf.balance_due) AS postpaid_balance\nFROM bmf\nJOIN cmf ON bmf.account_no = cmf.account_no\nJOIN acct_map ON cmf.account_no = acct_map.account_no\nWHERE TO_CHAR(bmf.trans_date, 'YYYY MM DD') = '1996 08 14'\nGROUP BY acct_map.external_id, cmf.account_no;

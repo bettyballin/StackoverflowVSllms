@@ -1,1 +1,0 @@
-pid_string = java.lang.management.ManagementFactory.getRuntimeMXBean().getName().split("@")[0]\npid = pid_string.to_i\nputs "Current process PID: #{pid}"

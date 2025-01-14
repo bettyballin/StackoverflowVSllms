@@ -1,1 +1,0 @@
--- Subquery example:\n     SELECT EmployeeName\n     FROM Employees\n     WHERE DeptId = (SELECT Id FROM Departments WHERE Name = 'Sales');\n     \n     -- CTE example:\n     WITH SalesDepartment AS (\n         SELECT * \n         FROM Departments WHERE Name = 'Sales'\n     )\n     SELECT EmployeeName\n     FROM Employees e\n     INNER JOIN SalesDepartment sd ON e.DeptId = sd.Id;

@@ -1,1 +1,0 @@
-BEGIN\n  my_session_vars.myVar := TRUE;\nEND;

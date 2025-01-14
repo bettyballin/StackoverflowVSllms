@@ -1,1 +1,0 @@
--- For an individual query:\n   OPTION (MAXDOP 1);\n\n   -- Or for the entire session or database:\n   ALTER DATABASE SCOPED CONFIGURATION SET MAXDOP = 1;

@@ -1,1 +1,0 @@
-$result = mysql_query($query);\n$records = [];\nif ($result && mysql_num_rows($result)) {\n    while ($row = mysql_fetch_assoc($result)) {\n        $records[] = $row;\n    }\n}\necho json_encode($records);

@@ -1,1 +1,0 @@
-// more.php\n\n// Define the variable you want to pass\n$myVariable = 'Some Value';\n\n// Include base.php where $myVariable will now be accessible\ninclude 'base.php';

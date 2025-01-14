@@ -1,1 +1,0 @@
-// In index.php or wherever you initialize your app:\nputenv("LANG=en_US.UTF-8");\nsetlocale(LC_ALL, "en_US.UTF-8");\n\nbindtextdomain('messages', __DIR__ . '/../lang');\ntextdomain('messages');

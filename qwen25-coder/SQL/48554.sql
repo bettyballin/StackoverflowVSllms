@@ -1,1 +1,0 @@
-DECLARE @value NVARCHAR(100) = '   ';\n\nIF LTRIM(RTRIM(@value)) = ''\nBEGIN\n    PRINT 'The value is entirely whitespace or NULL.';\nEND\nELSE IF @value IS NULL\nBEGIN\n    PRINT 'The value is NULL.';\nEND\nELSE\nBEGIN\n    PRINT 'The value contains non-whitespace characters.';\nEND

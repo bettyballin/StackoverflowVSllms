@@ -1,1 +1,0 @@
-Zend_Registry::set('Zend_Translate', $translate);\n   $translate = Zend_Registry::get('Zend_Translate');\n   $translate->setLocale($lang); // Set language as per user preference

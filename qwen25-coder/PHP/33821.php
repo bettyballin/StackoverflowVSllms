@@ -1,1 +1,0 @@
-$route['user/(:any)'] = 'User/index/$1';

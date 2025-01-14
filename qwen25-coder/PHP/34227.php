@@ -1,1 +1,0 @@
-<?php\nuse PHPUnit\Framework\TestCase;\n\nrequire_once 'EvenNumber.php';\n\nclass EvenNumberTest extends TestCase {\n    public function testCheckWithEvenNumber() {\n        $this->assertTrue(EvenNumber::check(2));\n    }\n\n    public function testCheckWithOddNumber() {\n        $this->assertFalse(EvenNumber::check(3));\n    }\n}

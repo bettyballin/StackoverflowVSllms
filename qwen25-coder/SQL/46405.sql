@@ -1,1 +1,0 @@
-ALTER TABLE foo_table\nADD CONSTRAINT unique_permalink UNIQUE (permalink);

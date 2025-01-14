@@ -1,1 +1,0 @@
-SELECT dateColumn \nFROM someTable \nWHERE DATE(dateColumn) = '2009-04-30'

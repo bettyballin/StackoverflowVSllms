@@ -1,1 +1,0 @@
-# spec_helper.rb or rail_helper.rb\nrequire 'rspec'\nrequire 'your/app/library/file' # Adjust this to include the file where ScoringMethods is defined\n\nRSpec.configure do |config|\n  config.expect_with :rspec do |expectations|\n    expectations.include_chain_clauses_in_custom_matcher_descriptions = true\n  end\nend

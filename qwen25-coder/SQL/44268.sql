@@ -1,1 +1,0 @@
-SELECT id, title, date, grade\nFROM (\n    SELECT a.`id`, a.`title`, a.`date`,\n        (SELECT MAX(grade) FROM tests WHERE userid = 41 AND presid = a.`id`) AS grade\n    FROM `presentations` a\n    WHERE a.`visible` = 1\n) AS subquery\nWHERE grade >= 5\nORDER BY grade DESC;

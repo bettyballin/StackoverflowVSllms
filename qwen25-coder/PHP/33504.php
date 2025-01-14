@@ -1,1 +1,0 @@
-<?php\nclass IndexController {\n    public function homeAction() {\n        require_once __DIR__ . '/../views/home.php';\n    }\n}

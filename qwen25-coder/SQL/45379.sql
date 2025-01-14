@@ -1,1 +1,0 @@
-SELECT * FROM T WHERE CONTAINS(C, 'NEAR("a", "b")')

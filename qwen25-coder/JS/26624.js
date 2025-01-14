@@ -1,1 +1,0 @@
-function heartOver(id) {\n    var imgElement = document.getElementById('heart' + id);\n    \n    if (imgElement.src.includes('images/heart.png')) {\n        imgElement.src = 'images/unheart.png';\n    } else if (imgElement.src.includes('images/unheart.png')) {\n        imgElement.src = 'images/heart.png';\n    }\n}

@@ -1,1 +1,0 @@
-public function query($arg) {\n    $array = array('test', 'again');\n    return $array;\n}

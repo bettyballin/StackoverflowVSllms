@@ -1,1 +1,0 @@
-$result = mysql_query("SELECT * FROM project ORDER BY projectid");\n$allRows = array();\n\nwhile($row = mysql_fetch_array($result)) {\n    $allRows[] = array(\n        'projectid' => $row['projectid'],\n        'clientname' => $row['clientname'],\n        'salesperson' => $row['salesperson'],\n        'prospect' => $row['prospect']\n    );\n}\n\nreturn $allRows;

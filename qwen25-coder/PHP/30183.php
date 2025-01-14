@@ -1,1 +1,0 @@
-// Add this in your controller or beforeFilter() method\n   $this->response->disableCache();

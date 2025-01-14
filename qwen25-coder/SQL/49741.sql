@@ -1,1 +1,0 @@
--- SQL Server stored procedure that accepts XML\nCREATE PROCEDURE InsertDataFromXML\n    @XmlData XML\nAS\nBEGIN\n    -- Insert into target table from the parsed XML\n    INSERT INTO YourTable (YourColumn)\n    SELECT T.c.value('.', 'NVARCHAR(100)') AS ItemName\n    FROM @XmlData.nodes('/Items/Item') AS T(c);\nEND;\nGO

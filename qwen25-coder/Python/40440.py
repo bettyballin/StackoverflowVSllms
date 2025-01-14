@@ -1,1 +1,0 @@
-# Preparing a statement\ncursor.execute("PREPARE my_prepared_statement AS SELECT * FROM my_table WHERE id = $1")\n\n# Reusing the prepared statement with different parameters\nfor param in (1, 2, 3):\n    cursor.execute("EXECUTE my_prepared_statement (%s)", (param,))\n    print(cursor.fetchall())\n\n# Cleaning up\ncursor.execute("DEALLOCATE my_prepared_statement")

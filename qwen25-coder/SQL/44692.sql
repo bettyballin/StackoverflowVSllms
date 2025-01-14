@@ -1,1 +1,0 @@
-SELECT * FROM exe_metadata WHERE exe_name = 'example.exe';

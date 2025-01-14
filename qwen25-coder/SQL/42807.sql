@@ -1,1 +1,0 @@
-WITH DistinctUsernames AS (\n    SELECT DISTINCT Username\n    FROM tempUsers\n)\nSELECT tu.Username, tu.Firstname, tu.Lastname\nFROM DistinctUsernames du\nJOIN tempUsers tu ON du.Username = tu.Username;

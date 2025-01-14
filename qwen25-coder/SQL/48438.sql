@@ -1,1 +1,0 @@
-SELECT Name \nFROM A\nORDER BY \n    CASE WHEN PATINDEX('KL %', Name) = 1 THEN 0 ELSE 1 END, -- Order 'KL ' names first\n    CASE WHEN PATINDEX('KL %', Name) = 1 THEN CAST(SUBSTRING(Name, 4, LEN(Name)) AS BIGINT)\n         ELSE 0 END, -- Order the numeric part of 'KL ' names\n    Name; -- Order non-'KL ' names alphabetically

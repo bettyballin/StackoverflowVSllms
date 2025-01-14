@@ -1,1 +1,0 @@
-<xsl:template match="*[*[local-name()='foo' and not(namespace-uri())]]">\n    <!-- Your template logic here -->\n</xsl:template>

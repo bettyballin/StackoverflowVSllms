@@ -1,1 +1,0 @@
--- Original Query\nSELECT col1, col2\nFROM your_table\nWHERE condition\nORDER BY order_col;\n\n-- Modified Query (different number of columns)\nSELECT col1, col2, col3\nFROM your_table\nWHERE condition\nORDER BY order_col;

@@ -1,1 +1,0 @@
-CREATE INDEX IX_SIGN_DeptID_EndTime_StartTime_NEDStatusID ON SIGN (DeptID, StartTime, EndTime, NEDStatusID);

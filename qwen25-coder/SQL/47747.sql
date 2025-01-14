@@ -1,1 +1,0 @@
-uuid_generate_time(uuid);

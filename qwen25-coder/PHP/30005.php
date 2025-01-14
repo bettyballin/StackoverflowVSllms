@@ -1,1 +1,0 @@
-echo date("M", strtotime(date('Y-m-01') . " -3 month") );\necho date("M", strtotime(date('Y-m-01') . " -2 month") );\necho date("M", strtotime(date('Y-m-01') . " -1 month") );\necho date("M", time());

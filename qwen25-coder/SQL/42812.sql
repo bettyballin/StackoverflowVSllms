@@ -1,1 +1,0 @@
--- Example SQL to update 'IsDeleted' flag\nUPDATE YourTable\nSET IsDeleted = 1\nWHERE ... -- your condition\n\n-- Example SQL for periodic cleanup (permanent deletion)\nDELETE FROM YourTable\nWHERE IsDeleted = 1 AND DeletionDate < DATEADD(DAY, -30, GETDATE())

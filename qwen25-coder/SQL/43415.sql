@@ -1,1 +1,0 @@
-SELECT * FROM your_table FORCE INDEX (index_name) WHERE your_condition;

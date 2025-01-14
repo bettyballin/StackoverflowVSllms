@@ -1,1 +1,0 @@
-// Assuming user's locale is obtained by server-side code passed to JavaScript\nconst userLocale = 'fr-FR'; // Could be dynamically set\n\nfunction formatDate(date) {\n    return new Intl.DateTimeFormat(userLocale).format(new Date(date));\n}\n\nconsole.log(formatDate('2023-10-05')); // Outputs: 5/10/2023 for fr-FR

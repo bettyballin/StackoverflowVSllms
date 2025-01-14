@@ -1,1 +1,0 @@
-function checkLogin($user = '', $pass = '', $group = 10, $goodRedirect = '', $badRedirect = '')

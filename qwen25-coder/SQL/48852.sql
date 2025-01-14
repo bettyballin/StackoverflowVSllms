@@ -1,1 +1,0 @@
--- Categories\nINSERT INTO categories (title) VALUES ('Root'), ('Child A'), ('Subchild X'), ('Child B');\n\n-- Closure Table Setup\nINSERT INTO category_closure (ancestor, descendant, depth) VALUES\n(1, 1, 0), -- Root is a parent of itself\n(1, 2, 1),\n(2, 2, 0),\n(1, 3, 2),\n(2, 3, 1),\n(3, 3, 0),\n(1, 4, 1),\n(4, 4, 0);

@@ -1,1 +1,0 @@
-SELECT \n    c.main_cat_name,\n    COUNT(p.categoryid) AS product_count\nFROM \n    products p\nJOIN \n    category c ON p.categoryid = c.sub_cat_id OR p.categoryid = c.main_cat_id\nGROUP BY \n    c.main_cat_name\nORDER BY \n    product_count DESC;

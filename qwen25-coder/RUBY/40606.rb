@@ -1,1 +1,0 @@
-group :development do\n     gem 'guard'\n     gem 'guard-rspec'\n   end

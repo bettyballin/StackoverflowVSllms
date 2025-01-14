@@ -1,1 +1,0 @@
-SELECT (mytable.field1 + 10) AS x \nFROM `mytable` \nWHERE (mytable.field1 + 10) < 50;

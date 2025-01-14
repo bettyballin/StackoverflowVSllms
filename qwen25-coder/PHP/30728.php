@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    // Capture POST data from Page 2, including forwarded fields from Page 1\n    $param1 = $_POST['param1'];\n    $zoomLevel = $_POST['zoomLevel'];\n\n    // Generate graphs or other content here based on new and forwarded parameters\n\n    // You can continue forwarding any of these as needed for further pages\n}\n?>

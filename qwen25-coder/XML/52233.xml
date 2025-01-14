@@ -1,1 +1,0 @@
-<basicHttpBinding>\n        <binding name="ExtendedTimeout"\n                 openTimeout="00:10:00" \n                 sendTimeout="00:10:00" \n                 receiveTimeout="00:10:00" \n                 maxReceivedMessageSize="2147483647">\n        </binding>\n    </basicHttpBinding>

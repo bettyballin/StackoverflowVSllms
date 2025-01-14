@@ -1,1 +1,0 @@
-$reader = new XMLReader();\n$reader->open('file.xml');\n\nwhile ($reader->read()) {\n    if ($reader->nodeType == XMLReader::ELEMENT && $reader->localName == 'element_name') {\n        // Process each element here\n        echo "Found:", $reader->readInnerXML(), "\n";\n        // Optionally, break the loop if you find what you need\n    }\n}\n\n$reader->close();

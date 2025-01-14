@@ -1,1 +1,0 @@
-CREATE TABLE people (\n     id            INTEGER PRIMARY KEY,\n     name          VARCHAR(100),\n     start_date    DATE,  -- When record became active\n     end_date      DATE,  -- When record became inactive (NULL if currently active)\n     ...\n   );

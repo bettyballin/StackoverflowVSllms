@@ -1,1 +1,0 @@
-import re\n\ndef add_10000(match):\n    number = int(match.group())\n    return str(number + 10000)\n\ntext = "Photo.123.aspx\nPhoto.12.aspx"\n\n# Use regex to find all occurrences and replace them using the function\nresult = re.sub(r'\b(\d{2,3})\b', add_10000, text)\n\nprint(result)

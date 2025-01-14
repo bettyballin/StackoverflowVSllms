@@ -1,1 +1,0 @@
-SELECT document_id\nFROM your_table_name\nWHERE tag IN ('tag1', 'tag2')\nGROUP BY document_id\nHAVING COUNT(DISTINCT tag) = 2;

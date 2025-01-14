@@ -1,1 +1,0 @@
-WITH RankedRows AS (\n    SELECT \n        *,\n        ROW_NUMBER() OVER (PARTITION BY YourKeyColumn ORDER BY (SELECT NULL)) AS RowNum\n    FROM \n        YourTable\n)\nSELECT \n    *\nFROM \n    RankedRows\nWHERE \n    RowNum = 1;

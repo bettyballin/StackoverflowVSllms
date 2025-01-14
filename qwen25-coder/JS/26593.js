@@ -1,1 +1,0 @@
-// Store data\nlocalStorage.setItem('username', 'JohnDoe');\n\n// Retrieve data\nconst username = localStorage.getItem('username');\nconsole.log(username); // Output: JohnDoe\n\n// Remove data\nlocalStorage.removeItem('username');

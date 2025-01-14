@@ -1,1 +1,0 @@
-<bean id="menuService" class="br.com.autenticis.renacon.ejb.MenuBean"/>\n\n<bean id="menuAction" scope="prototype"\n      class="br.com.autenticis.renacon.actions.MenuAction"\n      autowire-candidate="true">\n    <constructor-arg ref="menuService"/>\n</bean>

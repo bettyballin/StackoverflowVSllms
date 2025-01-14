@@ -1,1 +1,0 @@
-// Assigning the value from GET to SESSION\n$_SESSION['myvar'] = $_GET['myvar'];\n\n// This will NOT change the value of $_SESSION['myvar']\n$myvar = 'a_new_string';\n\n// If you want to print or use the original value\necho $_SESSION['myvar']; // Outputs: oldvalue\n\n// And $myvar is a new variable with its own value\necho $myvar; // Outputs: a_new_string

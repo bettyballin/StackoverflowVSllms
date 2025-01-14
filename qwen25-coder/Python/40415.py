@@ -1,1 +1,0 @@
-setup(\n        name='fooext',\n        # other metadata,\n        entry_points={\n            'myframework.addons': [\n                'foo = fooext:FooAddonClass',  # Addon class reference\n            ]\n        }\n    )

@@ -1,1 +1,0 @@
-<applicationPools>\n     <add name="YourAppPool" managedRuntimeVersion="v4.0">\n       <recycling periodicRestart time="02:00:00" Requests="10000">\n         <memory limit="1024"/> <!-- Memory in MB -->\n       </recycling>\n     </add>\n   </applicationPools>

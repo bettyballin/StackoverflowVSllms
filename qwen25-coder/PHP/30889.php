@@ -1,1 +1,0 @@
-<?php\n// Ensure your script outputs UTF-8\nheader('Content-Type: text/html; charset=utf-8');\n\n// Correct Unicode character for 'š'\n$correctChar = "\u{0161}";\n\necho $correctChar;\n?>

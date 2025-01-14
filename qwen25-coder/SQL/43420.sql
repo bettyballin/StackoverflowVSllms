@@ -1,1 +1,0 @@
-UPDATE your_table\nSET email = REGEXP_REPLACE(email, '@domain\\.xx', '@domain.yy')\nWHERE email REGEXP '@domain\\.xx';

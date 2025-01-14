@@ -1,1 +1,0 @@
-$url = $_SERVER['REQUEST_URI']; // Use this variable for routing decisions

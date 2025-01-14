@@ -1,1 +1,0 @@
-public function update() {\n    // Your logic here...\n    \n    if ($someCondition) {\n        $this->response->withType('application/json');\n        $this->set(compact('url')); // assuming $url holds your target URL\n        $this->viewBuilder()->setOption('serialize', ['url']);\n    } else {\n        // Handle other cases\n    }\n}

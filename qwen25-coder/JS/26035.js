@@ -1,1 +1,0 @@
-fetch('https://example.com/resource/1', {\n    method: 'DELETE'\n})\n.then(response => response.statusText)\n.then(data => console.log(`Resource deleted successfully: ${data}`))\n.catch(error => console.error('Error:', error));

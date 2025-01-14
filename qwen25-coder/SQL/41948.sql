@@ -1,1 +1,0 @@
-CREATE TABLE tracks (\n       id SERIAL PRIMARY KEY,\n       name VARCHAR(255) NOT NULL,\n       artist_id INT REFERENCES artists(id)\n   );

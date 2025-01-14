@@ -1,1 +1,0 @@
-CREATE TABLE Organizations (\n    OrganizationId INT PRIMARY KEY,\n    Name VARCHAR(255),\n    ParentId INT, -- This refers to the OrganizationId of the parent.\n    FOREIGN KEY (ParentId) REFERENCES Organizations(OrganizationId)\n);

@@ -1,1 +1,0 @@
-import subprocess\n\n# Run perl --version to check if Perl is recognized by the system\nresult = subprocess.run(['perl', '--version'], capture_output=True, text=True)\nprint(result.stdout)  # This should print Perl's version informatio

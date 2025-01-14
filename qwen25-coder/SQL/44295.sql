@@ -1,1 +1,0 @@
-select \n      order_id, \n      STR_TO_DATE(orderDate, '%Y-%m-%d %H:%i:%s') as convertedOrderDate\n  from orders;

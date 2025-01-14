@@ -1,1 +1,0 @@
-config.action_links.add 'move', label: :move, url: { action: 'move' }, title: 'Move', type: :member\nconfig.action_links.add 'copy', label: :copy, url: { action: 'copy' }, title: 'Copy', type: :member

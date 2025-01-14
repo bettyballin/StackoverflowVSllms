@@ -1,1 +1,0 @@
-my_list = [x for x in range(1000)]  # Example list with 1000 elements\n\n# Loop through elements from index 400 to 499 (index 500 is not included)\nfor element in my_list[400:500]:\n    print(element)

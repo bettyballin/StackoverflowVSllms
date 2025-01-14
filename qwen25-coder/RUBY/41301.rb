@@ -1,1 +1,0 @@
-def html_escape(s)\n  s.to_s.gsub(/&/, "&amp;").gsub(/</, "&lt;")\nend\n\nescaped_string = html_escape(user_input)

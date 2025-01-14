@@ -1,1 +1,0 @@
-SELECT CustomerNumber, CustomerName\nFROM Customer\nWHERE User = ?\nORDER BY \n  TO_NUMBER(REGEXP_SUBSTR(CustomerNumber, '^\d+')) NULLS FIRST, -- numeric sort for leading numbers\n  REGEXP_REPLACE(CustomerNumber, '^\d+', '')                -- alphabetical sort after leading numbers

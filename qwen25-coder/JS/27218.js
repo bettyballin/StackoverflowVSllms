@@ -1,1 +1,0 @@
-// Manually trigger the MS AJAX form submit\n$("form").submit(function(event) {\n    event.preventDefault(); // Prevent default form submission\n\n    // Call the Microsoft AJAX handler directly\n    if (typeof Sys !== "undefined" && Sys.Mvc && Sys.Mvc.AsyncForm) {\n        var formElement = this;\n        Sys.Mvc.AsyncForm.handleSubmit(formElement, null, true);\n    }\n});

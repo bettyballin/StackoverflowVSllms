@@ -1,1 +1,0 @@
-require_once 'path/to/HTMLPurifier.auto.php';\n\n$config = HTMLPurifier_Config::createDefault();\n$purifier = new HTMLPurifier($config);\n\n$userHtmlInput = $_POST['content'];\n$safeHtmlOutput = $purifier->purify($userHtmlInput);

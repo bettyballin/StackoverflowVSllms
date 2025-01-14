@@ -1,1 +1,0 @@
--- Check current value\n     SHOW VARIABLES LIKE 'max_allowed_packet';\n     \n     -- Modify (if you have permissions, usually needs server restart)\n     SET GLOBAL max_allowed_packet = 128 * 1024 * 1024; -- Example: setting it to 128MB

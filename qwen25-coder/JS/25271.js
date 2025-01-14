@@ -1,1 +1,0 @@
-$.ajax({\n    url: '/api/data/',\n    method: 'GET',\n    success: function(response) {\n        console.log('Data retrieved:', response);\n    }\n});

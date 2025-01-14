@@ -1,1 +1,0 @@
-<a href="<?php echo page_link_by_title("Page_title"); ?>">Page title</a>

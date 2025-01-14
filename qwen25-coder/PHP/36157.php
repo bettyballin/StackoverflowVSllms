@@ -1,1 +1,0 @@
-$method = 'Your input string here which includes <li><p><!-- watermark --></p></li>';\n// Remove HTML comments\n$methodWithoutComments = preg_replace('/<!--.*?-->/s', '', $method);\n\n// Optionally, strip unwanted tags\n$cleanMethod = strip_tags($methodWithoutComments, '<p>'); // Allow only <p> tag if you need it\n\necho htmlspecialchars($cleanMethod);

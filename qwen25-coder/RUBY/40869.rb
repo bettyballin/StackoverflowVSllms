@@ -1,1 +1,0 @@
-# In a before action or helper\ndef reset_article_sequence\n  ApplicationRecord.connection.reset_pk_sequence!('articles')\nend

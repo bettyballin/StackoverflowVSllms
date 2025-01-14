@@ -1,1 +1,0 @@
-function force_link_target_blank($content) {\n    // Use regular expression to find all <a> tags and append the target="_blank" attribute\n    return preg_replace('/<a(?!.*?target=["\']_self["\']).*?>/i', '$0 target="_blank"', $content);\n}\nadd_filter('content_save_pre', 'force_link_target_blank');

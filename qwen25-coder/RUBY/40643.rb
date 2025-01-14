@@ -1,1 +1,0 @@
-class TableB < ApplicationRecord\n  self.table_name = 'your_actual_table_b_name'\nend

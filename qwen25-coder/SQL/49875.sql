@@ -1,1 +1,0 @@
-CREATE TABLE Departments (\n    DepartmentID INT PRIMARY KEY,\n    DepartmentName VARCHAR(100)\n);\n\nCREATE TABLE Employees (\n    EmployeeID INT PRIMARY KEY,\n    DepartmentID INT,\n    Name VARCHAR(100),\n    FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID) ON UPDATE CASCADE\n);

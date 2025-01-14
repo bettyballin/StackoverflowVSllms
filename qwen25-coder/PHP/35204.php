@@ -1,1 +1,0 @@
-$result = mysql_query("SELECT posts.*, users.image \n                       FROM listen \n                       JOIN posts ON posts.userid = listen.listenid \n                       JOIN users ON users.UserID = listen.listenid\n                       WHERE listen.userid = '$user_id' \n                       ORDER BY DATE(posts.created_at) DESC") or die(mysql_error());

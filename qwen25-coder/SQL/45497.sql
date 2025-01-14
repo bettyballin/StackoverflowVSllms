@@ -1,1 +1,0 @@
--- Capture execution plan in Management Studio\nEXPLAIN SELECT ...\nFROM (\n    -- your inner query 1\n) T1\nJOIN (\n    -- your inner query 2\n) T2 ON T1.key = T2.key\nGROUP BY ...;

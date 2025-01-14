@@ -1,1 +1,0 @@
-ALTER TABLE schema.table_name ENABLE ROW MOVEMENT;\n   ALTER TABLE schema.table_name SHRINK SPACE CASCADE;

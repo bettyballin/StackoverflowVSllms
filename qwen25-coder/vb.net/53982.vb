@@ -1,1 +1,0 @@
-Public ReadOnly y As Integer = 5

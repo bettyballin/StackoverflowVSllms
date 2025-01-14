@@ -1,1 +1,0 @@
-Dim MyAppBase As New OPSupport.App.AppBase() ' Ensure initialization\nDim writeFile As TWriteFileCommand\nwriteFile = DirectCast(MyAppBase.CommunicationLink.CreateCommand(TOPKernel.TCommand.CommandType.WriteFile), TWriteFileCommand)

@@ -1,1 +1,0 @@
-<system.serviceModel>\n     <diagnostics>\n       <messageLogging \n          logEntireMessage="true" \n          logMalformedMessages="false"\n          maxMessagesToLog="3000" \n          maxSizeOfMessageToLog="2048"/>\n     </diagnostics>\n   </system.serviceModel>

@@ -1,1 +1,0 @@
-DBCC CHECKDB ('YourDatabaseName', NOINDEX);

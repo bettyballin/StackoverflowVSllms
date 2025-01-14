@@ -1,1 +1,0 @@
-# features/support/env.rb\n   class MyWorld\n     attr_accessor :account_id\n   end\n\n   World do\n     MyWorld.new\n   end

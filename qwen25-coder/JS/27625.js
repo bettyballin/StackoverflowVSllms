@@ -1,1 +1,0 @@
-responseSchema = {\n       resultsList: "geneItemList",\n       fields: [\n           {key:"col", parser:"string"},\n           {key:"qv", parser:"string"},\n           // ... other fields\n       ]\n   };

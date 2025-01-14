@@ -1,1 +1,0 @@
-var divElements = document.getElementsByTagName("div");\nfor (var i = 0; i < divElements.length; i++) {\n    if (divElements[i].name === "txtState") {\n        alert("Found");\n        break;\n    }\n}

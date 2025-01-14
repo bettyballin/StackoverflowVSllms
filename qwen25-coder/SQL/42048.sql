@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.ufn_GetAllObjectIDs()\nRETURNS TABLE\nAS\nRETURN\n(\n    SELECT A AS ObjectID FROM object1\n    UNION\n    SELECT A FROM object2\n    UNION\n    SELECT B FROM object3\n    UNION\n    SELECT C FROM object4\n);\nGO\n\n-- Usage example:\nSELECT * FROM dbo.ufn_GetAllObjectIDs();

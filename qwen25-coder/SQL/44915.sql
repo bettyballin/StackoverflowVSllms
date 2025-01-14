@@ -1,1 +1,0 @@
-CREATE INDEX IX_Employees_Department_Name ON Employees (Department, FirstName, LastName);

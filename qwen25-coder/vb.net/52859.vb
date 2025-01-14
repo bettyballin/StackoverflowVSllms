@@ -1,1 +1,0 @@
-<%\n' Storing a value in session\nSession("Username") = "JohnDoe"\n\n' Retrieving a value from session\nResponse.Write("Welcome, " & Session("Username"))\n%>

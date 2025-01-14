@@ -1,1 +1,0 @@
-<%\n    Dim t = ViewData.Model\n%>\n<%= t %>

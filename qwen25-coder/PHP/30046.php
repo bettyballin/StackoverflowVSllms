@@ -1,1 +1,0 @@
-header("Pragma: public");\nheader("Expires: 0");\nheader("Cache-Control: private");\nheader("Content-type: application/octet-stream");\nheader("Content-Disposition: attachment; filename=$filename");\nreadfile($filePath);\nexit;

@@ -1,1 +1,0 @@
--- Find the current max id in the table and set it as the new value for the sequence\nSELECT SETVAL('your_table_id_seq', COALESCE((SELECT MAX(id) FROM your_table), 0) + 1);

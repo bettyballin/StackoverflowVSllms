@@ -1,1 +1,0 @@
-CREATE TABLE tree (\n    id INT PRIMARY KEY,\n    name VARCHAR(255)\n);\n\nCREATE TABLE tree_closure (\n    ancestor_id INT NOT NULL,\n    descendant_id INT NOT NULL,\n    depth INT NOT NULL,\n    PRIMARY KEY (ancestor_id, descendant_id),\n    FOREIGN KEY (ancestor_id) REFERENCES tree(id),\n    FOREIGN KEY (descendant_id) REFERENCES tree(id)\n);

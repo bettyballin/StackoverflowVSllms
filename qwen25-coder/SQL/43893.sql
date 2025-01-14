@@ -1,1 +1,0 @@
-CREATE INDEX idx_Stock_Items_Order ON Stock(SKU, ProductCode, Status)\n   INCLUDE (OrderID);\n\n   CREATE INDEX idx_Items_Name ON Items(ProductCode, Name);\n   \n   CREATE INDEX idx_Orders_CustomerDate ON Orders(Customer, OrderDate)\n   INCLUDE (OrderID, Status, Customer);

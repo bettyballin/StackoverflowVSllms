@@ -1,1 +1,0 @@
-Dim guidString As String = CType(e.CommandArgument, String)\nDim Id As Guid = New Guid(guidString)

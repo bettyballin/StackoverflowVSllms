@@ -1,1 +1,0 @@
-<?php\n$jj = <<<END\n?>\n<h1>blah blah</h1>\n<p> blah blah blah blah blah blah blah <?php include("file.php"); ?> blah blah</p>\n<?php\nEND;\n\n// Sanitize and limit the scope if necessary\n$jj = str_replace('<?php', '', $jj);\n$jj = str_replace('?>', '', $jj);\n\neval($jj);\n?>

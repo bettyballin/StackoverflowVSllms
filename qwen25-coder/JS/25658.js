@@ -1,1 +1,0 @@
-function sendData(socket) {\n    while (dataAvailable && socket.receiveWindowSize > 0) {\n        bytesToSend = min(dataAvailable, socket.receiveWindowSize)\n        socket.send(bytesToSend)\n        waitForAcknowledgement()\n        updateDataRemaining()\n    }\n}

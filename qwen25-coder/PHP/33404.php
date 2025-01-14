@@ -1,1 +1,0 @@
-$maxSize = array($new_width ? $new_width : $source_width, $new_height ? $new_height : $source_height);

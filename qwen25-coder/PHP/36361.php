@@ -1,1 +1,0 @@
-<?php\n\nrequire 'vendor/autoload.php'; // Include the autoload file from Composer\n\nuse \Sunra\PhpSimple\HtmlDomParser;\n\n// Fetch HTML from a URL\n$html = HtmlDomParser::file_get_html('http://example.com');\n\n// Find all links (a tags)\nforeach ($html->find('a') as $element) {\n    echo $element->href . '<br>';\n}\n\n?>

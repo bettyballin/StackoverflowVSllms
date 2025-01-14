@@ -1,1 +1,0 @@
-try {\n    updatePanelElement.innerHTML = rendering;\n} catch (e) {\n    console.error('Error updating UpdatePanel:', e);\n}

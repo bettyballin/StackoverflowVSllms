@@ -1,1 +1,0 @@
--- Be cautious with this procedure due to security implications.\n   EXEC xp_cmdshell 'dir c:\';

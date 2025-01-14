@@ -1,1 +1,0 @@
-BEGIN;\n\n-- Your update, insert, and delete statements here\n\nCOMMIT;

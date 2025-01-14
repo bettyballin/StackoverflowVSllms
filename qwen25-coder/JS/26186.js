@@ -1,1 +1,0 @@
-$(document).on('click', 'td', function() {\n    $(this).css('background-color', '#ffcccb');\n});

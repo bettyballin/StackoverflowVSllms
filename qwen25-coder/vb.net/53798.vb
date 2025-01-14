@@ -1,1 +1,0 @@
-myObjects.RemoveAll(AddressOf AnonymousMethod)\n\nDelegate Function MyObjectDelegate(ByVal m As MyObject) As Boolean\n\nPrivate Function AnonymousMethod(ByVal m As MyObject) As Boolean\n    Return m.X >= 10\nEnd Functio

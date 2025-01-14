@@ -1,1 +1,0 @@
-<?php\nheader('Content-Description: File Transfer');\nheader('Content-Type: application/octet-stream');\nheader('Content-Disposition: attachment; filename=myfile.zip');\nheader('Expires: 0');\nheader('Cache-Control: must-revalidate');\nheader('Pragma: public');\nreadfile("path/to/actual/myfile.zip"); // read the file from disk\nexit;\n?>

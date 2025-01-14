@@ -1,1 +1,0 @@
-$categories = new Default_Model_ProjectCategories();\n$categoryRowset = $categories->find('1');\nif ($categoryRowset->count()) {\n    $category = $categoryRowset->current();\n    $projects = $category->findProjects($category['id']); // Use the method you defined\n}

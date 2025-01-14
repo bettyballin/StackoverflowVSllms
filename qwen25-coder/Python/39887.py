@@ -1,1 +1,0 @@
-def foo(c):\n    return {'value1': c + 1, 'value2': c * 2}\n\nresult = foo(5)\na = result['value1']  # Access individual values by key\nb = result['value2']

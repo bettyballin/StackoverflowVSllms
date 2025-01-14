@@ -1,1 +1,0 @@
-SELECT a.*\nFROM TableA a\nWHERE EXISTS (\n    SELECT 1\n    FROM TableB b\n    WHERE b.TableAId = a.Id\n);

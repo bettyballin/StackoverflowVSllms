@@ -1,1 +1,0 @@
-SELECT el.Email\nFROM EmailList el\nLEFT JOIN Users u ON el.Email = u.Email\nWHERE u.Email IS NULL;

@@ -1,1 +1,0 @@
-class MyClass {\n    const MY_CONSTANT = 'constant value';\n\n    public static function myStaticMethod() {\n        return 'static method result';\n    }\n}\n\n// Correct way to access constant or static method\necho MyClass::MY_CONSTANT;\necho MyClass::myStaticMethod();

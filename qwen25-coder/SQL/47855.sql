@@ -1,1 +1,0 @@
-BEGIN\n  EXECUTE IMMEDIATE 'DROP ROLE role_name';\nEXCEPTION\n  WHEN OTHERS THEN\n    IF SQLCODE != -1918 THEN -- ORA-01918: user-defined role 'ROLE_NAME' does not exist\n      RAISE;\n    END IF;\nEND;\n/\n\nCREATE ROLE role_name;\n\nGRANT SELECT ON SCM1_VIEW_OBJECT_VW TO role_name;

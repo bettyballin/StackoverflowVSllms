@@ -1,1 +1,0 @@
--- Example for SQL Server, assuming Col is of type INT\nSELECT * FROM table WHERE Col IN (123, 124, ..., 999)\nUNION ALL\nSELECT * FROM table WHERE Col IN (1000, 1001, ..., 2000)\n-- Continue as necessary

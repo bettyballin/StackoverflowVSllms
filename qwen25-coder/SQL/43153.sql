@@ -1,1 +1,0 @@
-SELECT COUNT(*)\nFROM your_table_name\nWHERE ticket_id NOT LIKE '%_XYZ';

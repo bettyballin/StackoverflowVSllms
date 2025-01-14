@@ -1,1 +1,0 @@
-SELECT \n    SomeTable.*,\n    ct1.RANK AS Column1_Rank,\n    ct2.RANK AS Column2_Rank\nFROM \n    SomeTable\nINNER JOIN \n    CONTAINSTABLE(SomeTable, Column1, 'word1 OR word2') AS ct1\nON \n    ct1.[KEY] = SomeTable.ID\nINNER JOIN \n    CONTAINSTABLE(SomeTable, Column2, 'word3 OR word4') AS ct2\nON \n    ct2.[KEY] = SomeTable.ID;

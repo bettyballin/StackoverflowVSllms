@@ -1,1 +1,0 @@
-<?php\n$someVar = "Hello, World!";\n$currentVars = get_defined_vars();\n\nprint_r($currentVars);\n?>

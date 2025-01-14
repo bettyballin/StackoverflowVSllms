@@ -1,1 +1,0 @@
-SELECT * \nFROM main_table AS mt\nWHERE NOT EXISTS (\n    SELECT 1 \n    FROM referenced_table AS rt\n    WHERE rt.ID = mt.REF\n);

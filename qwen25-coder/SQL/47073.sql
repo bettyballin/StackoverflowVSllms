@@ -1,1 +1,0 @@
--- Increment vote count for an entity\nINSERT INTO Votes (EntityID, UserID) VALUES (?, ?);\n\n-- Get total votes for an entity\nSELECT COUNT(*) AS VoteCount FROM Votes WHERE EntityID = ?;

@@ -1,1 +1,0 @@
-<?php\n$requestUri = $_SERVER['REQUEST_URI'];\n\n// Example routing logic\nif ($requestUri == '/team-spirit/') {\n    include 'team_spirit.php';\n} else {\n    // handle other routes or 404\n}

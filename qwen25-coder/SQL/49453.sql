@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetX\n    @Date DATE = NULL,\n    @UserID INT = NULL\nAS\nBEGIN\n    SELECT *\n    FROM XTable x\n    WHERE (@Date IS NOT NULL AND CAST(x.DateColumn AS DATE) = @Date)\n       OR (@UserID IS NOT NULL AND x.UserID = @UserID);\nEND;

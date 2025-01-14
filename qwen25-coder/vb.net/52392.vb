@@ -1,1 +1,0 @@
-' Client\nUsing tcpC As New TcpClient()\n  tcpC.Connect(IPAddress.Loopback, 5000)\n  Using s As NetworkStream = tcpC.GetStream(),\n        sw As New StreamWriter(s, System.Text.Encoding.ASCII)\n     sw.AutoFlush = True\n     sw.Write("Hello there!" & vbCRLF) ' Use the CR+LF sequence to end the line properly\n     Console.ReadLine()\n  End Using\nEnd Using

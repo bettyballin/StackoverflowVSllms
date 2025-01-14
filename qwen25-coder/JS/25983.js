@@ -1,1 +1,0 @@
-$("select[name='patientlist']").transform({\n    xml: {\n        url: "/axis2/services/PatientService/getPatientsByDoctor",\n        data: {\n            docKey: "6"\n        },\n        type: "GET",\n        dataType: "xml"\n    },\n    xsl: "xsl/patients-option.xsl"\n});

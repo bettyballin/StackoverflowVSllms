@@ -1,1 +1,0 @@
-SELECT date, time, sc-status, c-ip, cs-uri-stem  \nFROM 'C:\Windows\System32\LogFiles\HTTPLog\httperr.log'\nWHERE sc-status = 503\nORDER BY date DESC, time DESC

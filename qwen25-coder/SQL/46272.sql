@@ -1,1 +1,0 @@
-SELECT name, description, ...\n  FROM your_table\n  WHERE id = ANY(ARRAY[id1, id2, id3])\n  ORDER BY array_position(ARRAY[id1, id2, id3], id);

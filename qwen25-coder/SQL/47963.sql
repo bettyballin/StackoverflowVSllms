@@ -1,1 +1,0 @@
--- Example SQL that could help in calculating necessary statistics for a box plot:\nSELECT \n    MIN(Value) AS MinValue,\n    PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY Value) AS Q1,\n    AVG(Value) AS MedianValue,\n    PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY Value) AS Q3,\n    MAX(Value) AS MaxValue\nFROM \n    YourDataTable;

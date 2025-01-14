@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.hibernate.validator</groupId>\n    <artifactId>hibernate-validator</artifactId>\n    <version>6.2.0.Final</version>\n</dependency>

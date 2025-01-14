@@ -1,1 +1,0 @@
-echo htmlspecialchars($user_input, ENT_QUOTES, 'UTF-8');

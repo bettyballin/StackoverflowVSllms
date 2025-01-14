@@ -1,1 +1,0 @@
-class AppController extends Controller {\n      public $components = array('Auth');\n      \n      public function beforeFilter() {\n          parent::beforeFilter();\n          // Additional auth actions.\n      }\n  }

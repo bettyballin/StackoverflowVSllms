@@ -1,1 +1,0 @@
-# Assuming @person is an instance of Person\ncar_names = @person.cars.pluck(:name)

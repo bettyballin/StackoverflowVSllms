@@ -1,1 +1,0 @@
-Private Sub exitNow()\n    Exit Sub\nEnd Sub\n\n' Alternatively using Return in a Sub (less common practice)\nPrivate Sub exitNow()\n    Return\nEnd Sub

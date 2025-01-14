@@ -1,1 +1,0 @@
-SELECT DISTINCT T1.*\nFROM Table1 AS T1\nINNER JOIN Table2 AS T2 ON T1.CommonField = T2.CommonField;

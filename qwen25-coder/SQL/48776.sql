@@ -1,1 +1,0 @@
-SELECT \n    ROW_NUMBER() OVER (PARTITION BY Category ORDER BY Value DESC) AS Rank,\n    User,\n    Category\nFROM \n    YourTableName\nORDER BY \n    Category,\n    Rank;

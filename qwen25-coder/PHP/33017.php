@@ -1,1 +1,0 @@
-// Example of using cURL in PHP to fetch a local resource\n$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, "http://localhost/resource");\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$response = curl_exec($ch);\n\nif(curl_errno($ch)) {\n    echo 'Error:' . curl_error($ch);\n}\ncurl_close($ch);\n\n// Process $response as needed

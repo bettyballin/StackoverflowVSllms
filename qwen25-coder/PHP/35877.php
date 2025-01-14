@@ -1,1 +1,0 @@
-// Example of include_once\ninclude_once 'classb.php';\nclass A {\n    public function __construct() {\n        $this->a = new B(); // Using class B after including its file\n    }\n}

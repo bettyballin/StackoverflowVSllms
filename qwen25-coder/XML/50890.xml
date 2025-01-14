@@ -1,1 +1,0 @@
-<!-- Example connectionStrings -->\n   <connectionStrings>\n     <add name="CruiseManager" connectionString="Server=.\sqlexpress;Database=CruiseControlNet;Trusted_Connection=True;" providerName="System.Data.SqlClient"/>\n   </connectionStrings>

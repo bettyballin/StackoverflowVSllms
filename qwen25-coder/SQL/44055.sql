@@ -1,1 +1,0 @@
--- Example of joining on INT\nSELECT *\nFROM employees emp\nJOIN departments dept ON emp.department_id = dept.id;\n\n-- Example of joining on VARCHAR\nSELECT *\nFROM employees emp\nJOIN departments dept ON emp.department_code = dept.code;

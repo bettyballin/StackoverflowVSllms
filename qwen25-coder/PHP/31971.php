@@ -1,1 +1,0 @@
-$testValue = storelistingUno();\necho $testValue;

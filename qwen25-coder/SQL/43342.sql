@@ -1,1 +1,0 @@
-CREATE PROCEDURE UpdateUserField\n    @UserFieldNumber INT,\n    @UserFieldNewValue INT\nAS\nBEGIN\n    DECLARE @SQL NVARCHAR(MAX)\n\n    SET @SQL = N'UPDATE MyTable \n                  SET UserField' + CAST(@UserFieldNumber AS NVARCHAR(10)) + N' = @Value'\n\n    EXEC sp_executesql @SQL, N'@Value INT', @Value = @UserFieldNewValue\nEND

@@ -1,1 +1,0 @@
--- Check if @a can be treated as an integer\nSELECT IF(@a = CAST(@a AS UNSIGNED), 'Integer', 'Not Integer');\n\n-- Check if @a can be treated as a date\nSELECT IF(STR_TO_DATE(@a, '%Y-%m-%d') IS NOT NULL, 'Date', 'Not Date');\n\n-- To check if it’s considered as string\nSELECT CONCAT('String: ', @a);

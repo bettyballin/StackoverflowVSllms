@@ -1,1 +1,0 @@
-// Encoding the value before sending it through AJAX\n   $encodedValue = urlencode("A+");\n   \n   // Decoding the received value in PHP\n   $decodedValue = urldecode($_POST['magazineName']);

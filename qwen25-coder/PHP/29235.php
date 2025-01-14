@@ -1,1 +1,0 @@
-$host = [\n    'host' => 'example.com', // replace with actual host\n    'port' => 12345          // replace with actual port\n];\n\n$socket = stream_socket_client("tcp://" . $host['host'] . ":" . $host['port'], $errno, $errstr);\nif (!$socket) {\n    die("Connection failed: [$errno] $errstr\n");\n}\n\nfwrite($socket, "I am a message\r\n" . chr(26));\nfclose($socket);

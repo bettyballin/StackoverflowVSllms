@@ -1,1 +1,0 @@
-// Basic usage example with runkit_sandbox\n$sandbox = new Runkit_Sandbox();\n$sandbox->ini_set('memory_limit', '1M'); // Low memory limit for security\n$result = $sandbox->eval('return 2 + 2;');\necho $result; // Outputs: 4

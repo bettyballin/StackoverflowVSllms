@@ -1,1 +1,0 @@
-<?php\n$referrerUrl = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'No Referrer';\n\n// Output the referrer URL\necho "Referrer URL: " . htmlspecialchars($referrerUrl, ENT_QUOTES, 'UTF-8');\n?>

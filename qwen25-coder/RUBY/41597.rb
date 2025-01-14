@@ -1,1 +1,0 @@
-def camel_to_snake(camel_str)\n  camel_str.gsub(/([a-z])([A-Z])/, '\1_\2').downcase\nend\n\nputs camel_to_snake("ThisIsMyString")

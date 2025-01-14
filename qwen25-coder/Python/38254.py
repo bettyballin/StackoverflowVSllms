@@ -1,1 +1,0 @@
-locations = ["New York", "NY", "10001"]\ncity, state, zip = locations

@@ -1,1 +1,0 @@
-SELECT HEX(uuid_column) AS uuid FROM your_table;

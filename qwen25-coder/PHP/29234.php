@@ -1,1 +1,0 @@
-$host = [\n    'host' => 'example.com', // replace with actual host\n    'port' => 12345          // replace with actual port\n];\n\n$socket = fsockopen($host['host'], $host['port']);\nif (!$socket) {\n    die("Could not open socket");\n}\n\nfputs($socket, "I am a message\r\n" . chr(26));\nfclose($socket);

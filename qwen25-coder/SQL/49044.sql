@@ -1,1 +1,0 @@
-SELECT dateColumn \nFROM someTable \nWHERE dateColumn <= '2009-04-30 23:59:59.999' \nAND dateColumn >= '2009-04-30 00:00:00'

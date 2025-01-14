@@ -1,1 +1,0 @@
-WITH RankedComments AS (\n    SELECT \n        replies.*,\n        ROW_NUMBER() OVER (PARTITION BY post_id ORDER BY comment_date DESC) as rn\n    FROM \n        replies\n)\nSELECT *\nFROM \n    RankedComments\nWHERE \n    rn <= 3\nORDER BY \n    post_id, comment_date;

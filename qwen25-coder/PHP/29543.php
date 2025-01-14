@@ -1,1 +1,0 @@
-require 'vendor/autoload.php';\n\n   $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);\n   $dotenv->load();\n\n   $environment = $_ENV['ENVIRONMENT'] ?? 'production';\n   $dbHost = $_ENV['DB_HOST'];\n\n   // Use these values in your application configuratio

@@ -1,1 +1,0 @@
-SELECT TOP (100) PERCENT ID, TRY_CONVERT(bigint, MyCol) AS MyCol\nFROM MyTable\nWHERE isnumeric(MyCol) = 1 AND TRY_CONVERT(bigint, MyCol) IS NOT NULL

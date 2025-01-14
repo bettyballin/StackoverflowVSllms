@@ -1,1 +1,0 @@
-WITH RankedPosts AS (\n    SELECT \n        topic_id, \n        topic_poster,\n        ROW_NUMBER() OVER (ORDER BY topic_id) as rn\n    FROM bb_topics\n    WHERE topic_poster = 5\n)\nSELECT * \nFROM RankedPosts\nWHERE rn IN (\n    SELECT rn - 1 FROM RankedPosts WHERE topic_id = 123,\n    SELECT rn + 1 FROM RankedPosts WHERE topic_id = 123\n);

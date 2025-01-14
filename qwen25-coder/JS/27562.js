@@ -1,1 +1,0 @@
-import { Calendar } from '@fullcalendar/core';\nimport dayGridPlugin from '@fullcalendar/daygrid';\n\ndocument.addEventListener('DOMContentLoaded', function() {\n  var calendarEl = document.getElementById('calendar');\n\n  var calendar = new Calendar(calendarEl, {\n    initialView: 'dayGridMonth',\n    events: '/events.json'\n  });\n\n  calendar.render();\n});

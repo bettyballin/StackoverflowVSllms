@@ -1,1 +1,0 @@
-Dim myString As String = ""\n\nIf String.IsNullOrEmpty(myString) Then\n    ' The string is either Nothing (null) or an empty string.\nEnd If\n\n' Or, if you also want to check for whitespace:\nIf String.IsNullOrWhiteSpace(myString) Then\n    ' The string is Nothing, an empty string, or contains only whitespace characters.\nEnd If

@@ -1,1 +1,0 @@
-ALTER TABLE dbo.Orders ADD Column UserID INT NULL;\n\n    -- Optionally, add a foreign key constraint\n    ALTER TABLE dbo.Orders ADD CONSTRAINT FK_Orders_UserMapping \n        FOREIGN KEY (UserID) REFERENCES dbo.UserMapping(UserID);

@@ -1,1 +1,0 @@
-// Assuming your radio buttons have a name attribute like 'options'\nvar selectedValue = $("form :radio[name='options']:checked").val();\n\nif (selectedValue) {\n    // A radio button is selected; you can now use the value\n    console.log("Selected Radio Button Value: " + selectedValue);\n} else {\n    console.log("No radio buttons are selected.");\n}

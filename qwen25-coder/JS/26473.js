@@ -1,1 +1,0 @@
-function myFunction() {}\n\n   const _privateVar = "I am private";\n   \n   function _myPrivateFunction() {}

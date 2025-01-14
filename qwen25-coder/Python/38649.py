@@ -1,1 +1,0 @@
-result = 4 / 100\nprint(result)  # This will output: 0.04

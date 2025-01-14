@@ -1,1 +1,0 @@
-class ObjectViewModel {\n    private $object;\n\n    public function __construct(Object $object) {\n        $this->object = $object;\n    }\n\n    public function getTitle() {\n        return $this->object->getName();\n    }\n}

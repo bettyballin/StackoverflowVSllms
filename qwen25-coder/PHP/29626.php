@@ -1,1 +1,0 @@
-$stmt = $pdo->query("SELECT DATE(your_datetime_column) as date_only FROM your_table");\nwhile ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {\n    echo $row['date_only'];\n}

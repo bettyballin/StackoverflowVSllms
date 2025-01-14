@@ -1,1 +1,0 @@
--- Sample SQL to check resource usage of OEM processes\nSELECT s.sid, s.username, p.spid, s.program, \n       p.cpu_time, p.memory_used\nFROM v$session s, v$process p\nWHERE s.paddr  = p.addr\nAND s.status = 'ACTIVE'\nAND (s.program LIKE '%emagent%' OR s.program LIKE '%oemapp%')\nORDER BY p.cpu_time DESC;

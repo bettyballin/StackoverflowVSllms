@@ -1,1 +1,0 @@
-$fields = array(\n  "f1" => array("test"),\n  "f2" => array("other" => "values")\n);\n\n$first_dimension = array_keys($fields);\n\nprint_r($first_dimension);

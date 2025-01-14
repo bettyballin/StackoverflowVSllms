@@ -1,1 +1,0 @@
-$.ajax({\n    type: "POST",\n    url: "/YourController/Create",\n    data: JSON.stringify({\n        FirstName: "John",\n        LastName: "Doe",\n        MyPetId: 1\n    }),\n    contentType: "application/json; charset=utf-8",\n    dataType: "json",\n    success: function(data){\n        // Handle the response here\n    }\n});

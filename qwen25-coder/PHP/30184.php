@@ -1,1 +1,0 @@
-$obj = new stdClass(); // or any other class\n$cart[] = $obj;        // Adds the object to the array

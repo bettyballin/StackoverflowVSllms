@@ -1,1 +1,0 @@
-SELECT \n    CONCAT(u.firstname, ' ', u.lastname) AS name, \n    u.id, \n    s.description, \n    s.shiftstart, \n    s.shiftend,\n    @total := SUM(TIME_TO_SEC(TIMEDIFF(shiftend, shiftstart)) / 3600) OVER () AS total\nFROM shifts s\nINNER JOIN users u ON (s.userid = u.id)\nWHERE u.id = '$user'\nAND DATE(s.shiftstart) BETWEEN '$start' AND '$end'\nORDER BY s.shiftstart;

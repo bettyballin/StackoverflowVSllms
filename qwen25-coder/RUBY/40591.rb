@@ -1,1 +1,0 @@
-# Accesses the current user from the session.\n# Future calls avoid the database because nil is not equal to false.\ndef current_user\n  Rails.logger.debug "Session data at current_user check: #{session.inspect}"\n  @current_user ||= (login_from_session || login_from_basic_auth || login_from_cookie) unless @current_user == false\nend

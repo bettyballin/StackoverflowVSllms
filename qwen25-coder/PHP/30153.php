@@ -1,1 +1,0 @@
-$years = array_keys($caption); // Extracts the year keys from $caption\n$maxYear = max($years); // Finds the maximum year\n\necho "The highest year is: " . $maxYear;

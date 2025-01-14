@@ -1,1 +1,0 @@
-CREATE NONCLUSTERED INDEX idx_DateColumn\nON YourTableName (YourDateColumn);

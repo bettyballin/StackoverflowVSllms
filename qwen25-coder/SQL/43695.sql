@@ -1,1 +1,0 @@
-SELECT s1.session_id, s1.file, s1.access_time\nFROM your_table_name s1\nJOIN (\n    SELECT session_id, MAX(access_time) AS max_access_time\n    FROM your_table_name\n    GROUP BY session_id\n) s2 ON s1.session_id = s2.session_id AND s1.access_time = s2.max_access_time;

@@ -1,1 +1,0 @@
-'Session' => [\n    'defaults' => 'php',\n    'timeout' => 4320,\n    'ini' => [\n        'session.cookie_lifetime' => 2592000, // Lifetime in seconds (30 days = 2592000 seconds)\n        'session.gc_maxlifetime' => 2592000\n    ]\n],

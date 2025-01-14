@@ -1,1 +1,0 @@
-SELECT r.name AS RoleName, m.name AS MemberName\nFROM sysusers m\nJOIN sysmembers sm ON m.uid = sm.memberuid\nJOIN syslogins r ON sm.groupuid = r.sid\nWHERE r.name = 'YourRoleName'\nORDER BY RoleName, MemberName;

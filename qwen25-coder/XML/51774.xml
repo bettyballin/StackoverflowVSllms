@@ -1,1 +1,0 @@
-<!-- formDefinition.xml -->\n<form name="exampleForm">\n    <field type="text" label="Name" required="true"/>\n    <field type="email" label="Email" required="false"/>\n</form>

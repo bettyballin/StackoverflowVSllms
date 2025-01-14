@@ -1,1 +1,0 @@
-SELECT URL, ID, XML\nFROM (\n    SELECT URL, ID, XML,\n           ROW_NUMBER() OVER (PARTITION BY URL ORDER BY ID DESC) as rn\n    FROM T1\n) AS subquery\nWHERE rn = 1;

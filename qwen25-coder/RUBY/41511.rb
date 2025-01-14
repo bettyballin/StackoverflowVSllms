@@ -1,1 +1,0 @@
-test "should get index" do\n  get :index\n  Rails.logger.debug(response.body)\n  Rails.logger.debug(flash[:notice])\n  assert_response :success\nend

@@ -1,1 +1,0 @@
-SELECT \n    c.category_name, \n    pr.score \nFROM \n    ProductRatings pr \nJOIN \n    Categories c ON pr.category_id = c.category_id \nWHERE \n    pr.product_id = ?;

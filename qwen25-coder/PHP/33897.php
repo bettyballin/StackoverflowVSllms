@@ -1,1 +1,0 @@
-<?php\n// Ensure the svn extension is enabled\n\n$entries = svn_ls('http://svn.example.com/repo/trunk');\nforeach ($entries as $entryName => $fileInfo) {\n    echo "File: $entryName\n";\n}\n?>

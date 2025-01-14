@@ -1,1 +1,0 @@
-CREATE TABLE geotable (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(255),\n    the_geom GEOMETRY(Point, 4326)\n);\n\n-- Inserting a point\nINSERT INTO geotable (name, the_geom) VALUES \n('Location1', ST_SetSRID(ST_MakePoint(-71.104761,42.315984), 4326));

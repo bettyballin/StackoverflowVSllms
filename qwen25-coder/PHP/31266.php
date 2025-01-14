@@ -1,1 +1,0 @@
-<?php\nob_start(); // Start output buffering\ninclude 'site_nav.php'; // Include your file\n$output = ob_get_clean(); // Get the buffer contents and clean (end) buffering\n\n// Now $list should be defined, and you can use it without the echo from site_nav.php\n$jsonData = json_encode($list);\n\n// Optionally, if you need to use $jsonData elsewhere or debug\necho $jsonData;\n?>

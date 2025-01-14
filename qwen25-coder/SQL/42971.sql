@@ -1,1 +1,0 @@
-UPDATE L \nINNER JOIN LA ON L.ID = LA.leadid\nSET L.status = 1\nWHERE L.status = 5 \nAND L.city = 'cityname' \nAND DATE(LA.Datetime) < DATE_SUB(NOW(), INTERVAL 6 MONTH);

@@ -1,1 +1,0 @@
-SELECT TOP 1 *\nFROM TestTable\nORDER BY CreatedDate DESC;

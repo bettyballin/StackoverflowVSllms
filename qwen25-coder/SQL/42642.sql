@@ -1,1 +1,0 @@
-SELECT id\nFROM your_table_name\nGROUP BY id\nHAVING COUNT(*) = SUM(CASE WHEN stat LIKE 'FN%' THEN 1 ELSE 0 END) + \n              SUM(CASE WHEN stat LIKE 'W%' THEN 1 ELSE 0 END);

@@ -1,1 +1,0 @@
-SELECT \n    pf.name AS PartitionFunctionName,\n    prv.boundary_value_as_varchar AS BoundaryValue\nFROM \n    sys.partition_range_values AS prv\nINNER JOIN \n    sys.partition_functions AS pf ON pf.function_id = prv.function_id\nWHERE \n    pf.name = 'YourPartitionFunctionName'\nORDER BY \n    prv.boundary_value;

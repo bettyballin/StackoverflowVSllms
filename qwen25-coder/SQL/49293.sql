@@ -1,1 +1,0 @@
--- Before (This will cause an error)\nUPDATE myTable \nSET uniquekeycol = oldValue, -- This line causes issues\n    column2 = newValue2,\n    column3 = newValue3\nWHERE actualPrimaryKey = @actualPrimaryKey;\n\n-- After (Corrected)\nUPDATE myTable \nSET column2 = newValue2,\n    column3 = newValue3\nWHERE actualPrimaryKey = @actualPrimaryKey;

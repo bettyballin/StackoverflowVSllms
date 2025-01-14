@@ -1,1 +1,0 @@
-TEMPLATES = [\n       {\n           # ... other settings ...\n           'OPTIONS': {\n               'context_processors': [\n                   # ... other context processors ...\n                   'myapp.context_processors.user_info',\n               ],\n           },\n       },\n   ]

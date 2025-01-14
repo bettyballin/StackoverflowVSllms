@@ -1,1 +1,0 @@
-DELIMITER //\n\nCREATE TRIGGER maintain_max_rows_before_insert\nBEFORE INSERT ON recent_downloads\nFOR EACH ROW\nBEGIN\n    IF (SELECT COUNT(*) FROM recent_downloads) >= 10 THEN\n        DELETE FROM recent_downloads ORDER BY download_date ASC LIMIT 1;\n    END IF;\nEND; //\n\nDELIMITER ;

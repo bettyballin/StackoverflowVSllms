@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>io.rest-assured</groupId>\n    <artifactId>rest-assured</artifactId>\n    <version>5.3.0</version>\n    <scope>test</scope>\n</dependency>

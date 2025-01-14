@@ -1,1 +1,0 @@
-# my_class.rb\n    class MyClass\n      def say_hello\n        puts "Hello from MyClass!"\n      end\n    end

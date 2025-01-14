@@ -1,1 +1,0 @@
-// Retrieve all keys from $_POST\n$postKeys = array_keys($_POST);\n\n// Print each key\nforeach ($postKeys as $key) {\n    echo "Key: " . htmlspecialchars($key) . "\n";\n}

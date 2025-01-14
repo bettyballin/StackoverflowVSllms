@@ -1,1 +1,0 @@
-class Permission:\n    def can_read(self):\n        # Implementation for current permission check\n        pass\n\n    def could_read(self):\n        # Implementation for past permission check (if applicable)\n        pass\n\n    def is_scheduled_to_read(self):\n        # Implementation for future permission check\n        pass

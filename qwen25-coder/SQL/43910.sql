@@ -1,1 +1,0 @@
--- This is a sample script run through the wizard, not manual T-SQL commands\n     -- The wizard will create tables and import data for you

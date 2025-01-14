@@ -1,1 +1,0 @@
-from rspython.client import GdbClient\n\n   # Connect to gdbserver\n   gdb = GdbClient(host='localhost', port=1234)\n   gdb.connect()\n\n   # Send commands\n   response = gdb.send_command('c')\n   print(response)

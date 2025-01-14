@@ -1,1 +1,0 @@
-CREATE TABLE example (\n    name TEXT,\n    value REAL\n);\n\nINSERT INTO example (name, value) VALUES ('test', 1.0);\nSELECT ROWID, * FROM example;

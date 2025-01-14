@@ -1,1 +1,0 @@
-import numpy as np\n\n   # Assuming 'data' is your array of PCM samples\n   fft_result = np.fft.rfft(data)

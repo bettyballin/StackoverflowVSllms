@@ -1,1 +1,0 @@
-$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, "http://www.example.com/");\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // To return the transfer as a string instead of outputting it directly.\n$output = curl_exec($ch);\nif (curl_errno($ch)) {\n    echo 'Error:' . curl_error($ch);\n}\ncurl_close($ch);

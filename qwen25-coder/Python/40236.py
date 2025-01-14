@@ -1,1 +1,0 @@
-CACHES = {\n       'default': {\n           'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',\n           'LOCATION': 'unique-snowflake',\n       }\n   }

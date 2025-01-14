@@ -1,1 +1,0 @@
-$value = ($a == $b) \n        ? 'true value # 1' \n        : (($a == $c) \n            ? 'true value # 2' \n            : 'false value');

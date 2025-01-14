@@ -1,1 +1,0 @@
-INSERT INTO ActualTable (DateOfService, ...)\n    SELECT CASE WHEN DATEOFSERVICE = '00000000' THEN NULL \n                ELSE CAST(DATEOFSERVICE AS DATETIME)\n           END as DateOfService,\n           ...\n    FROM StagingTable;

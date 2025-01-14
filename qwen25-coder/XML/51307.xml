@@ -1,1 +1,0 @@
-<id name="Id" column="Id">\n    <generator class="guid.comb"/>\n    <type name="GuidAsBinaryType, YourAssemblyName"/>\n</id>

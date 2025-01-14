@@ -1,1 +1,0 @@
-$allVariables = get_defined_vars();\nprint_r($allVariables);

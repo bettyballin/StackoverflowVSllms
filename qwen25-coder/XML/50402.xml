@@ -1,1 +1,0 @@
-<configuration>\n    <system.webServer>\n        <httpErrors errorMode="Custom" existingResponse="Replace">\n            <remove statusCode="400"/>\n            <error statusCode="400" path="/customerrors/badrequest.html" responseMode="File"/>\n        </httpErrors>\n    </system.webServer>\n</configuration>

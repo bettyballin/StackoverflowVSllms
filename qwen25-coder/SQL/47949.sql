@@ -1,1 +1,0 @@
-INSERT INTO Table2 (table1_id, field1, field2)  -- Ensure you replace field1, field2 with actual column names in Table2\nSELECT id, NULL AS field1, NULL AS field2      -- Replace NULLs and field1, field2 with actual values/columns as necessary\nFROM Table1;

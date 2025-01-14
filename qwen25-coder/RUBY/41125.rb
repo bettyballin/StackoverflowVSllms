@@ -1,1 +1,0 @@
-class ActiveSupport::TestCase\n  self.use_transactional_fixtures = true\n\n  setup do\n    DatabaseCleaner.strategy = :transaction\n    DatabaseCleaner.start\n  end\n\n  teardown do\n    Thread.current[:verified_transactional_fixtures] = true\n    DatabaseCleaner.clean\n  end\nend

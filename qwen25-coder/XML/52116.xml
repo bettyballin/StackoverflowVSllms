@@ -1,1 +1,0 @@
-<tc-config>\n  <servers>\n    <server name="ServerA"/>\n    <server name="ServerB"/>\n  </servers>\n  <offheap unit="gigabytes" permanent-enablement="true">\n    <size>15</size>\n    <!-- Off-heap storage settings -->\n  </offheap>\n  <roots>\n    <!-- Root objects that will be included in the clustered heap -->\n  </roots>\n</tc-config>

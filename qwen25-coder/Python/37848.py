@@ -1,1 +1,0 @@
-def f(x):\n    # Assigning an attribute to the function itself\n    f.thing = "hello!"\n    return x + 3\n\n# Call the function\nresult = f(5)\n\n# Access the attribute\nprint(f.thing)  # Output: hello!

@@ -1,1 +1,0 @@
-<?php\n     $link = mysql_connect('localhost', 'root', '');\n     if (!$link) {\n         die('Could not connect: ' . mysql_error());\n     }\n     echo 'Connected successfully';\n     mysql_close($link);\n     ?>

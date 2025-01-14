@@ -1,1 +1,0 @@
-ALTER TABLE table1\nADD col3 AS CASE \n               WHEN col2 = 0 THEN NULL -- Handle division by zero\n               ELSE CAST((col1 / col2) AS INT)\n            END;

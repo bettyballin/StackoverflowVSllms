@@ -1,1 +1,0 @@
-WITH RECURSIVE cte_categories AS (\n    SELECT category_id \n    FROM categories \n    WHERE category_id = 10\n\n    UNION ALL \n\n    SELECT c.category_id \n    FROM categories c\n    INNER JOIN cte_categories cc ON c.parent_id = cc.category_id OR c.category_id = cc.parent_id\n)\nSELECT a.*\nFROM articles a\nJOIN cte_categories c ON a.category_id = c.category_id;

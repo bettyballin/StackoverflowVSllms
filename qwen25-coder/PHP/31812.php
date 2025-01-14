@@ -1,1 +1,0 @@
-$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, $url);\ncurl_setopt($ch, CURLOPT_POST, 1);\ncurl_setopt($ch, CURLOPT_USERPWD, $pass);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // Capture the response instead of outputting it\n$result = curl_exec($ch);\n\nif ($result === false) {\n    echo 'Failed';\n} else {\n    echo 'Success';\n}\n\ncurl_close($ch);

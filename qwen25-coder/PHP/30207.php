@@ -1,1 +1,0 @@
-<?php\nif (!$something_important) {\n    echo '<script type="text/javascript">\n            window.location.href = "somehereharmless.php";\n          </script>';\n    exit();\n}\n?>

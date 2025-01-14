@@ -1,1 +1,0 @@
-<?php\necho "hello world\n";\n$json = file_get_contents('php://input');\n$data = json_decode($json, true);\nvar_dump($data);\n?>

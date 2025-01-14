@@ -1,1 +1,0 @@
-DECLARE @sql NVARCHAR(MAX);\n\nSET @sql = N'SELECT * FROM Data ORDER BY ' + \n            CASE WHEN @Direction = 1 THEN 'SortOrder DESC' ELSE 'SortOrder ASC' END;\n\nEXEC sp_executesql @sql;

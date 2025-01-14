@@ -1,1 +1,0 @@
-<me.biubiubiu.justifytext.library.JustifyTextView\n       android:id="@+id/justify_text_view"\n       android:layout_width="match_parent"\n       android:layout_height="wrap_content"\n       android:text="Your long text goes here..."\n       android:textSize="16sp" />

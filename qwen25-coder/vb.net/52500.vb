@@ -1,1 +1,0 @@
-Dim MyString As String = "16,7,99,1456,1,3"\nDim MyArr() As String = MyString.Split(",")\n\nFor Each S As String In MyArr\n    Console.WriteLine(S) ' This will print numbers in the order they appear in MyString\nNext

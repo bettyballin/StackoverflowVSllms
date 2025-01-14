@@ -1,1 +1,0 @@
-<location path="Page1.aspx">\n    <system.web>\n        <pages enableSessionState="false" />\n    </system.web>\n</location>

@@ -1,1 +1,0 @@
-<Playlist Version="1.0">\n    <Item>\n        <Ref URL="http://yourserver/protectedvideo.wmv" />\n        <ContentProtection Type="Digital Rights Management 4.0">\n            <DrmRights>\n                <Right KeyId="YourKeyIdHere">Play</Right>\n            </DrmRights>\n        </ContentProtection>\n    </Item>\n</Playlist>

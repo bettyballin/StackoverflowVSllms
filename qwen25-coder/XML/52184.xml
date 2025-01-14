@@ -1,1 +1,0 @@
-<!-- Example: Basic JGroups TCP Cluster configuration -->\n<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\n        xsi:schemaLocation="urn:org:jgroups XMLConfig-4.0.xsd"\n        name="my-cluster">\n    <TCP bind_port="7800"/>\n    <MERGE3/>\n    <NakAck/>\n    ...\n</config>

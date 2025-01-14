@@ -1,1 +1,0 @@
-App::import('Model', 'MyModel');

@@ -1,1 +1,0 @@
-# Example Django view handling a request\nfrom django.http import JsonResponse\nfrom .models import YourModel\n\ndef get_data(request):\n    data = list(YourModel.objects.all().values())\n    return JsonResponse(data, safe=False)

@@ -1,1 +1,0 @@
-ini_set('log_errors', 1);\n     ini_set('error_log', '/tmp/php_error.log');

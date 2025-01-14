@@ -1,1 +1,0 @@
-function my_login_helper_function($username, $password) {\n    // Get the CI instance\n    $CI = &get_instance();\n\n    // Load the model\n    $CI->load->model('login_model');\n\n    // Use the model function\n    return $CI->login_model->authenticate($username, $password);\n}

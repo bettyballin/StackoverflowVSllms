@@ -1,1 +1,0 @@
-<script id="mainScript" src="https://cdn.example.com/script.js"></script>\n<script>\ndocument.getElementById('mainScript').addEventListener('error', function() {\n    var script = document.createElement('script');\n    script.src = 'https://backup-example.com/script.js';\n    document.head.appendChild(script);\n});\n</script>

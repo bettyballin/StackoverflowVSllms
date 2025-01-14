@@ -1,1 +1,0 @@
-ALTER TABLE masterTable ADD TextFieldClean AS LTRIM(RTRIM(COALESCE(TextField,'')))\n    CREATE INDEX IX_masterTable_TextFieldClean ON masterTable(TextFieldClean)\n\n    ALTER TABLE incomingDataTable ADD TextFieldClean AS LTRIM(RTRIM(COALESCE(TextField,'')))\n    CREATE INDEX IX_incomingDataTable_TextFieldClean ON incomingDataTable(TextFieldClean)

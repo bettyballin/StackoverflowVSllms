@@ -1,1 +1,0 @@
-SELECT \n    value_name, \n    value_data\nFROM \n    sys.dm_server_registry\nWHERE \n    registry_key = N'Software\Microsoft\Windows NT\CurrentVersion' \n    AND VALUE_NAME IN ('ProductName', 'CurrentVersion', 'CurrentBuildNumber');

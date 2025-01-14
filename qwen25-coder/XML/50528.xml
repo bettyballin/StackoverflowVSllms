@@ -1,1 +1,0 @@
-<Rules>\n        <Rule>\n            <Name>CashPercentageRule</Name>\n            <Table>Customers</Table>\n            <Condition>Cash_Percentage < 50</Condition>\n        </Rule>\n    </Rules>

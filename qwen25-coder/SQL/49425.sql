@@ -1,1 +1,0 @@
-CREATE VIEW bob\nAS\nSELECT *\n\nFROM DUAL;

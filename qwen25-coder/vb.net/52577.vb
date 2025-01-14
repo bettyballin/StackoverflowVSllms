@@ -1,1 +1,0 @@
-Partial Public Class User\n    Public Function GetUser(ByVal dc As MyDataContext, ByVal UserID As Integer) As User\n        Return (From u In dc.Users Where u.ID = UserID).SingleOrDefault()\n    End Function\n\n    Public Function GetAllUsers(dc As MyDataContext) As IEnumerable(Of User)\n        Return From u In dc.Users\n    End Function\nEnd Class

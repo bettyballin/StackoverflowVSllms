@@ -1,1 +1,0 @@
-import re\n\ndata = """\nVALUES (12654, 'somestuff', 'some\ndescription here', 'filename.swf',\n'5', 0, 1, '', '500', '300',\n'filename.png', '3', '1');\n"""\n\n# Replace .swf files\ndata = re.sub(r"'([^']+?)\.swf'", r"'folder/\1.swf'", data)\n\n# Replace .png files\ndata = re.sub(r"'([^']+?)\.png'", r"'folder/\1.png'", data)\n\nprint(data)

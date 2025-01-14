@@ -1,1 +1,0 @@
-SELECT \n    ID,\n    CASE ValueType\n        WHEN 'int' THEN CAST(ValueInt AS NVARCHAR(50))\n        WHEN 'string' THEN ValueString\n        WHEN 'datetime' THEN CONVERT(NVARCHAR(50), ValueDateTime, 126)\n    END AS DisplayValue\nFROM Values;

@@ -1,1 +1,0 @@
-function categorizePost($postText) {\n    $output = shell_exec('python3 predict.py "'.escapeshellarg($postText).'"');\n    return trim($output);\n}\n\n$post = "I'm looking for a house";\n$category = categorizePost($post);\necho "Category: " . $category;

@@ -1,1 +1,0 @@
-def first_non_empty_string(strings):\n    return next((s for s in strings if s), None)\n\n# Example usage:\nstrings = ["", "hello", "", "world"]\nresult = first_non_empty_string(strings)\nprint(result)  # Output: hello

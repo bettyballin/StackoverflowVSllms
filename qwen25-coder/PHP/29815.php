@@ -1,1 +1,0 @@
-use MathPHP\LinearAlgebra\Matrix;\n\n$C = new Matrix([\n    [4, 7],\n    [2, 6]\n]);\n\n$invertedMatrix = $C->inverse();\n\necho $invertedMatrix;

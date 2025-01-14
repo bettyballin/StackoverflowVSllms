@@ -1,1 +1,0 @@
-def get_struct_module(self, name):\n    try:\n        # Correctly imports the submodule using fromlist\n        module = __import__(f"neoform.structures.{name}", fromlist=[name])\n        return getattr(module, name)\n    except ImportError as e:\n        self.out.add(f"Could not load struct: neoform.structure.{name}\n\nError {str(e)}")

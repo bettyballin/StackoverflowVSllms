@@ -1,1 +1,0 @@
-try {\n    $pdo = new PDO('mysql:host=localhost;dbname=testdb', 'username', 'password');\n    $stmt = $pdo->prepare('SELECT * FROM users WHERE id = :id');\n    $stmt->execute(['id' => 1]);\n    $user = $stmt->fetch(PDO::FETCH_ASSOC);\n} catch (PDOException $e) {\n    echo "Error: " . $e->getMessage();\n}

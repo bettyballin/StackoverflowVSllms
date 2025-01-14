@@ -1,1 +1,0 @@
-// Define your variable\nvar myAction = "something.html";\n\n// Get the form element by its ID or any other selector\nvar myForm = document.getElementById('myForm');\n\n// Set the form's action attribute\nmyForm.action = myAction;

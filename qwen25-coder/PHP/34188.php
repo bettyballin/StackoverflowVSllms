@@ -1,1 +1,0 @@
-$colId = new Zend_Form_Element_MultiCheckbox('colId');\n$colId->setLabel('Col ID')\n    ->setMultiOptions(array_flip(array('sadda', 'asss')))\n    ->setValue(array('sadda')) // Set default checked values if needed\n    ->setAttrib('disabled', array('sadda')); // Disable the checkbox with value 'sadda'

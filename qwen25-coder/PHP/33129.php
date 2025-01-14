@@ -1,1 +1,0 @@
-$logMessage = <<<LOGMSG\nself::$CLASS {$METHOD} entering\nLOGMSG;\n\n// If you need to replace self::$CLASS dynamically, you would still need some form of concatenation or formatting.

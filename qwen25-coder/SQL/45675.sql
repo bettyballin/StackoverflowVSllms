@@ -1,1 +1,0 @@
-SELECT mumble AS x\nFROM (VALUES ('_'), ('1'), ('2'), ('3')) AS V(mumble);

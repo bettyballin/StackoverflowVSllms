@@ -1,1 +1,0 @@
-SELECT id, band_name, song_name, album_name, genre \nFROM us_music \nWHERE `genre` = 'punk'\nUNION ALL\nSELECT id, band_name, song_name, album_name, genre \nFROM de_music \nWHERE `genre` = 'punk'\nORDER BY band_name;  -- or any other column you wish to sort by

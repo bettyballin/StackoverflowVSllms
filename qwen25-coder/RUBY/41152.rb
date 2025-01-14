@@ -1,1 +1,0 @@
-def index\n  @events = Event.all\n  respond_to do |format|\n    format.html\n    format.json { render json: @events }\n  end\nend

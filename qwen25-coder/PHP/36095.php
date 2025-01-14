@@ -1,1 +1,0 @@
-<?php\necho "Welcome to my PHP Application!";\n?>

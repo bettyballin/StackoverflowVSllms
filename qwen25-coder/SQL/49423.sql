@@ -1,1 +1,0 @@
-CREATE TABLE UserSettings (\n    UserId INT PRIMARY KEY,\n    FrameColor NVARCHAR(7) NOT NULL -- Stores hex color code, e.g., '#FF5733'\n);

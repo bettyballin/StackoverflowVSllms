@@ -1,1 +1,0 @@
-SELECT \n    employee_id,\n    department_id,\n    salary,\n    ROW_NUMBER() OVER (PARTITION BY department_id ORDER BY salary DESC) as rank_in_department\nFROM \n    employees;

@@ -1,1 +1,0 @@
-- **`WHERE` clause**: This filters rows after the join has been executed.\n  -

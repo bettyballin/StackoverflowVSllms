@@ -1,1 +1,0 @@
-// Modify quality in imagejpeg function\nimagejpeg($tmp, $destination_pic, 80);

@@ -1,1 +1,0 @@
-<?php\nfunction doSomething() {\n    global $con; // Access the global $con variable\n    // Do stuff with MySQL\n    $con->tralalala();\n}\n\n$con = connectToDatabase(); // Assuming this line initializes your database connection\ndoSomething();\n?>

@@ -1,1 +1,0 @@
-// Parsing XML in JavaScript\n   const parser = new DOMParser();\n   const xmlDoc = parser.parseFromString("<note><to>Tove</to></note>", "application/xml");\n   \n   // Accessing XML elements with XPath or direct access\n   console.log(xmlDoc.querySelector("to").textContent);

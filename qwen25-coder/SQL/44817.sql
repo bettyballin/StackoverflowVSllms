@@ -1,1 +1,0 @@
-WITH LatestCID AS (\n    SELECT \n        B.AID,\n        B.CID,\n        ROW_NUMBER() OVER (PARTITION BY B.AID ORDER BY C.CREATIONTIME DESC) as rn\n    FROM B\n    JOIN A ON B.AID = A.AID AND A.STATUS = 'OK'\n    JOIN C ON B.CID = C.CID\n)\nSELECT CID\nFROM LatestCID\nWHERE rn = 1;

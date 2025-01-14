@@ -1,1 +1,0 @@
-UPDATE your_table\nSET email = REPLACE(email, '@domain.xx', '@domain.yy')\nWHERE email LIKE '%@domain.xx';

@@ -1,1 +1,0 @@
-SELECT \n    o.name AS TableName,\n    o.type_desc AS ObjectType\nFROM \n    sys.sql_modules m\nJOIN \n    sys.objects o ON m.object_id = o.object_id\nWHERE \n    m.definition LIKE '%YourTableName%'\nAND \n    o.type IN ('U', 'V') -- U for user tables, V for views

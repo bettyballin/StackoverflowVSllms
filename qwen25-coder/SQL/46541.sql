@@ -1,1 +1,0 @@
-SELECT \n    id,\n    unnest(string_to_array(trim(substring(availability from 'exclude (.*)')), ', ')) AS exclusions\nFROM your_table\nWHERE availability LIKE '%exclude %';

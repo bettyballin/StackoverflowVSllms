@@ -1,1 +1,0 @@
-try {\n    $link = new PDO("mysql:dbname=$dbname;host=$servername", $username, $password);\n    // prepare statements, perform queries\n\n    // No need for an explicit close as PHP will handle it\n} catch (PDOException $e) {\n    echo "Connection failed: " . $e->getMessage();\n}

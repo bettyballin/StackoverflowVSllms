@@ -1,1 +1,0 @@
-ALTER ROLE special_user SET search_path TO newrole, dbo;

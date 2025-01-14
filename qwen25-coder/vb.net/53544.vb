@@ -1,1 +1,0 @@
-Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click\n    ' Set the new location for Label1\n    Label1.Location = New Point(50, 70)\nEnd Sub

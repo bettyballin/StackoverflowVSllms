@@ -1,1 +1,0 @@
-CREATE TABLE Folders (\n    FolderID INT PRIMARY KEY AUTO_INCREMENT,\n    Name VARCHAR(255) NOT NULL,\n    ParentFolderID INT,\n    FOREIGN KEY (ParentFolderID) REFERENCES Folders(FolderID)\n);

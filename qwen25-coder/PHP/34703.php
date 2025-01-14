@@ -1,1 +1,0 @@
-public function createShipment($startZip, $endZip, $weight = null) {\n    if ($weight === null) {\n        $weight = $this->getDefaultWeight();\n    }\n}

@@ -1,1 +1,0 @@
-foreach ($print as $value) {\n    $readyText .= '<div id="' . htmlspecialchars($value->post_id) . '">';\n    $readyText .= htmlspecialchars($value->first_name . ' ' . $value->last_name . ' posted the following:');\n    $readyText .= htmlspecialchars($value->post_text);\n    $readyText .= ' The post was made about ' . $time . ' ago.';\n    $readyText .= '</div>';\n}

@@ -1,1 +1,0 @@
-// config.php\n$env = isset($_ENV['APP_ENV']) ? $_ENV['APP_ENV'] : 'local';\n\nif ($env === 'live') {\n    require_once 'configLive.php';\n} else {\n    require_once 'configLocal.php';\n}

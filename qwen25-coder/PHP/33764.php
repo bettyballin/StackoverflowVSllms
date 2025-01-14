@@ -1,1 +1,0 @@
-$config = include('config.php');\necho $config['host']; // Outputs: 127.0.0.1

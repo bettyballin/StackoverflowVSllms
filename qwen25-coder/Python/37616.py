@@ -1,1 +1,0 @@
-class CustomException(Exception):\n    def __init__(self, value):\n        self.value = value\n        super().__init__(f"Value {value} is missing")\n\nfor value in required_values:\n    if value not in some_map:\n        raise CustomException(value)

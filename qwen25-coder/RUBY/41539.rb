@@ -1,1 +1,0 @@
-class WebsiteController < ApplicationController\n  def index\n    # Initial page load handling if needed\n  end\n\n  def chart\n    @chart_id = params[:id]\n    respond_to do |format|\n      format.js\n    end\n  end\nend

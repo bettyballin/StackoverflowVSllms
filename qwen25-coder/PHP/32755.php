@@ -1,1 +1,0 @@
-echo $_SESSION['name'];

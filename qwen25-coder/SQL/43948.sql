@@ -1,1 +1,0 @@
--- Example of adding a CHECK constraint to ensure data integrity\n     ALTER TABLE YourTableName ADD CONSTRAINT chk_YourColumnName CHECK (YourColumnName > 0);

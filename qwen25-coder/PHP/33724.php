@@ -1,1 +1,0 @@
-<?php\n\nnamespace MyProject;\n\nuse Recess\Framework\Cache as RecessCache;\nuse VCL4PHP\Application as VclApplication;\n\nclass MyApp {\n    public function run() {\n        // Use the Cache from Recess framework\n        $recessCache = new RecessCache();\n\n        // Use the Application from VCL4PHP framework\n        $vclApp = new VclApplication();\n    }\n}

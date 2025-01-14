@@ -1,1 +1,0 @@
-$find='/(?![^<]+>)\b(generative art console|Game of Life|framework notations|framework|Floating numbers|factorial|f5x5x3|f5x5x1|eversion|A-plus|16n)\b|\[DAM\]Berlin gallery/s';

@@ -1,1 +1,0 @@
-// Controller file\nclass Page extends CI_Controller {\n\n    function index() {\n        $data['page_title'] = 'Your title';\n        $this->load->view('header', $data);\n        $this->load->view('menu');\n        $this->load->view('content', $data);\n        $this->load->view('footer');\n    }\n\n}

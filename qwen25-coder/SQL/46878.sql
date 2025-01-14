@@ -1,1 +1,0 @@
-SELECT \n    p.id AS person_id,\n    p.name,\n    ph.id AS photo_id,\n    ph.path,\n    ph.title\nFROM \n    persons p\nLEFT JOIN \n    photos ph ON p.id = ph.person_id\nORDER BY \n    p.id,  -- Order by person to group their photos together\n    ph.title;  -- Order by photo title for each perso

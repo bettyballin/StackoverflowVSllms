@@ -1,1 +1,0 @@
-<?php\n   if ($_SERVER["REQUEST_METHOD"] == "POST") {\n       // Process the data here\n\n       // Redirect to another page\n       header("Location: thank_you.php");\n       exit();\n   }\n   ?>

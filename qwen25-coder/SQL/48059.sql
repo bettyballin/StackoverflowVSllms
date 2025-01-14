@@ -1,1 +1,0 @@
-CREATE TYPE symbol_record_table AS TABLE OF package_name.record_name;

@@ -1,1 +1,0 @@
-# Correct usage for writing to append text to a file in Python 2.4\nself.logfile = open(self.logfile_name, "wa")

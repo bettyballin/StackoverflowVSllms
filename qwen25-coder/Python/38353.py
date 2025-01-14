@@ -1,1 +1,0 @@
-import csv\n\nwith open('example.csv', 'r') as file:\n    reader = csv.reader(file)\n    for row in reader:\n        print(row)  # Process each row individually

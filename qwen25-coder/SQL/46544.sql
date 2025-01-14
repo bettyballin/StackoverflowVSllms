@@ -1,1 +1,0 @@
-SELECT e.first_name, d.department_name \n   FROM employees e \n   INNER JOIN departments d ON e.department_id = d.id;

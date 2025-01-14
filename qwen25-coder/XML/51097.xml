@@ -1,1 +1,0 @@
-<site name="YourSiteName">\n     ...\n     <security>\n       <authentication>\n         <windowsAuthentication enabled="true" />\n         <basicAuthentication enabled="true" realm="MyApplicationRealm" />\n       </authentication>\n     </security>\n     ...\n   </site>

@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetFilteredData\n(\n    @FilterValues dbo.StringListTableType READONLY\n)\nAS\nBEGIN\n    SELECT *\n    FROM your_table\n    WHERE EXISTS (\n        SELECT 1 \n        FROM @FilterValues AS fv\n        WHERE fv.value = your_table.your_column\n    );\nEND;

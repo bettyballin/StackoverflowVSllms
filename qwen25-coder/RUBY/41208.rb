@@ -1,1 +1,0 @@
-logger.debug "Comments count before: #{p.comments.count}"\n    p.reload\n    logger.debug "Comments count after reload: #{p.comments.count}"

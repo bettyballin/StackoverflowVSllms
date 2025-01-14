@@ -1,1 +1,0 @@
-SELECT DATENAME(dw, '01/01/2009') AS DayOfWeekName;

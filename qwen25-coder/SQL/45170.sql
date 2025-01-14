@@ -1,1 +1,0 @@
-SELECT \n    first_name,\n    last_name,\n    CONCAT(first_name, ' ', last_name) AS full_name  -- concatenates first and last names into a virtual column 'full_name'\nFROM \n    users;

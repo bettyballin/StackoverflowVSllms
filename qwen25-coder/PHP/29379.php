@@ -1,1 +1,0 @@
-$varInt = 123;\n$strDigit = "123";\n$notADigit = "123a";\n\necho is_int($varInt) ? 'true' : 'false'; // true\necho "\n";\necho ctype_digit($strDigit) ? 'true' : 'false'; // true\necho "\n";\necho ctype_digit($notADigit) ? 'true' : 'false'; // false\necho "\n";\necho is_int($strDigit) ? 'true' : 'false'; // false

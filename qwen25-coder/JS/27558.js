@@ -1,1 +1,0 @@
-const userDiv = document.getElementById('user');\nconsole.log(userDiv.dataset.userId); // "123"\nconsole.log(userDiv.dataset.role);   // "admin"

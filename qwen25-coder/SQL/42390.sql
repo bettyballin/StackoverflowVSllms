@@ -1,1 +1,0 @@
-SELECT COUNT(*) AS count, TRUNC(created) AS created_date\nFROM ABC\nGROUP BY TRUNC(created)\nORDER BY created_date DESC;

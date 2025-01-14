@@ -1,1 +1,0 @@
-SELECT get_bit(your_binary_column::bit(8), index_position) = 0 AS is_zero\nFROM your_table;

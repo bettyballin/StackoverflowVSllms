@@ -1,1 +1,0 @@
-define('WP_DEBUG', true);\n   define('WP_DEBUG_LOG', true); \n   define('WP_DEBUG_DISPLAY', false); // Set to true to display errors on the screen.

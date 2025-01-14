@@ -1,1 +1,0 @@
-$.ajax({\n    type: "POST",\n    url: "/MyController/MyAction",\n    data: "val1=test",\n    success: function(result) {\n        // Do stuff on success\n    },\n    error: function(xhr, status, errorThrown) {\n        console.error("Error: " + xhr.status + " - " + xhr.statusText);\n        alert(errorThrown); // Optionally display the error message to the user\n    }\n});

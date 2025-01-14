@@ -1,1 +1,0 @@
-$posts = array(\n    "message" => 'this is a test message'\n);\n\nforeach ($posts as $key => $post) {\n    if ($key === 'message') {\n        echo $post;\n    }\n}

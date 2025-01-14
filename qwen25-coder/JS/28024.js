@@ -1,1 +1,0 @@
-function togglePrintPreview() {\n    var element = document.querySelector('.print-preview');\n    if (element.classList.contains('print-preview-mode')) {\n        element.classList.remove('print-preview-mode');\n    } else {\n        element.classList.add('print-preview-mode');\n    }\n}

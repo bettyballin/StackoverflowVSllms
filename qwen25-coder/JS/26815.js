@@ -1,1 +1,0 @@
-setTimeout(function() {\n        document.getElementById('dest').value = document.getElementById('source').value;\n    }, 100); // Adjust delay time as necessary

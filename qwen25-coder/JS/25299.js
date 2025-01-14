@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    // Initialize Thickbox on page load for existing elements\n    $('a.thickbox').thickbox();\n\n    // Use .on with event delegation for dynamically added links\n    $(document).on('click', 'a.thickbox', function() {\n        $(this).thickbox();\n        return false; // Prevent default action to let Thickbox handle it\n    });\n});

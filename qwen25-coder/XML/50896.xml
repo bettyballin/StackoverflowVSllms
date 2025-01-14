@@ -1,1 +1,0 @@
-<configuration>\n     <runtime>\n       <memoryLeakThreshold>500</memoryLeakThreshold>\n       <tailCallOptimization enabled="true"/>\n       <synchronization useSyncPreciseTime=true/>\n     </runtime>\n   </configuration>

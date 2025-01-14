@@ -1,1 +1,0 @@
-CREATE VIEW aview AS\nSELECT \n    table1.id,\n    table1.name,\n    table2.address\nFROM \n    table1 \nINNER JOIN \n    table2 ON table1.id = table2.user_id;

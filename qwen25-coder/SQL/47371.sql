@@ -1,1 +1,0 @@
-WITH RECURSIVE redirect_chain AS (\n    SELECT id, redirectid FROM your_table WHERE id = <your_starting_id>\n    UNION ALL\n    SELECT t.id, t.redirectid\n    FROM your_table t\n    JOIN redirect_chain rc ON t.id = rc.redirectid\n    WHERE rc.redirectid IS NOT NULL\n)\nSELECT id\nFROM redirect_chain\nWHERE redirectid IS NULL;

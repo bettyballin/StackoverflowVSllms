@@ -1,1 +1,0 @@
-SELECT [ColumnName] \nFROM [SheetName$A1:A42] \nWHERE ROW_ID = 3

@@ -1,1 +1,0 @@
-$a = 0;\n$b = "0";\n\nif ($a != $b) {\n    echo "$a != $b : This will NOT print because they are considered equal after type juggling.";\n}\n\nif ($a !== $b) {\n    echo "$a !== $b : This WILL print because the types are different (integer vs string).";\n}

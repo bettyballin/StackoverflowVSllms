@@ -1,1 +1,0 @@
-WITH WeightedRecords AS (\n    SELECT \n        id,\n        some_column,\n        weight\n    FROM \n        your_table\n)\nSELECT \n    id, \n    some_column\nFROM \n    WeightedRecords\nORDER BY \n    RANDOM() ^ (1 / NULLIF(weight, 0))\nLIMIT 1;

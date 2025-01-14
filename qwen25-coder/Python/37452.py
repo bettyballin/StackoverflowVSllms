@@ -1,1 +1,0 @@
-sequences = [DSequence('seq1', 'ATCG'), DSequence('seq2', 'GCTA')]\nprint(sequences)

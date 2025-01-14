@@ -1,1 +1,0 @@
-chars = #some list\n\nif chars in chars:  # This will always be True if chars is a non-empty list.\n    try:\n        indx = chars.index(chars)\n        #doSomethingElse\n    except ValueError:\n        # This block should not be reached because we checked with 'in'\n        pass\nelse:\n    #doSomething

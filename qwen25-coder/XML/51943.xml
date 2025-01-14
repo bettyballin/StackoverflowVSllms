@@ -1,1 +1,0 @@
-<module>\n    <name>SimulationModule</name>\n    <class>com.example.simulation.SimulationModuleImpl</class>\n    <events>\n        <event type="simulation.started"/>\n        <event type="simulation.stopped"/>\n    </events>\n</module>

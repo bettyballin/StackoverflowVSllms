@@ -1,1 +1,0 @@
-Rails.application.routes.draw do\n  resources :questions, only: [] do\n    collection do\n      get 'fetch_by_level'\n    end\n  end\nend

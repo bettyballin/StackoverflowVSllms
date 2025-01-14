@@ -1,1 +1,0 @@
-// Using uniqid and md5\n$uniqueId = md5(uniqid(rand(), true));\n\n// Alternatively, a more secure way using hash\n$secureUniqueId = hash('sha256', uniqid(rand(), true) . microtime(true));

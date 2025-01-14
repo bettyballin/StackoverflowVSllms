@@ -1,1 +1,0 @@
-/**\n * @var Bur\n */\n$burObject = new Bur();

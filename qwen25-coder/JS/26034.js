@@ -1,1 +1,0 @@
-// Example of compressing HTML using pako (a JavaScript implementation of zlib)\nconst pako = require('pako');\nconst compressedData = pako.deflate(content, { to: 'string' });\nlocalStorage.setItem(key, compressedData);

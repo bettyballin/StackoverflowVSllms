@@ -1,1 +1,0 @@
-<?php\nclass EvenNumber {\n    public static function check($number) {\n        return $number % 2 === 0;\n    }\n}

@@ -1,1 +1,0 @@
-SELECT /*+ INDEX(employees idx_last_name) */ * FROM employees WHERE last_name = 'Smith';

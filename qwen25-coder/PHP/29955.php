@@ -1,1 +1,0 @@
-$test = '';\nforeach ($items as $item) {\n    $test .= sprintf('<div>%s</div>', htmlspecialchars($item));\n}

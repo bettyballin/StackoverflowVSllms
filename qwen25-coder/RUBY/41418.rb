@@ -1,1 +1,0 @@
-data(RD46)\nattach(RD46)

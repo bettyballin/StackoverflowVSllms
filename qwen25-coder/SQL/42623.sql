@@ -1,1 +1,0 @@
-CREATE TABLE Student_Course (\n         StudentID INT NOT NULL,\n         CourseID INT NOT NULL,\n         PRIMARY KEY (StudentID, CourseID),\n         FOREIGN KEY (StudentID) REFERENCES Students(StudentID),\n         FOREIGN KEY (CourseID) REFERENCES Courses(CourseID)\n     );

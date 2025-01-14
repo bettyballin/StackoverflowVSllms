@@ -1,1 +1,0 @@
-CREATE MATERIALIZED VIEW hierarchy_view\nBUILD IMMEDIATE\nREFRESH COMPLETE ON DEMAND\nAS\nSELECT FirstName, MiddleName, LastName,\n       FirstName || ' > ' || MiddleName || ' > ' || LastName AS search_string\nFROM your_table_name;

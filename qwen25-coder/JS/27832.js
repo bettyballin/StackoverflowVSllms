@@ -1,1 +1,0 @@
-window.onload = function() {\n       var savedTheme = localStorage.getItem('selectedTheme') || 'light'; // Default to light theme\n       document.body.className = 'theme-' + savedTheme;\n   };

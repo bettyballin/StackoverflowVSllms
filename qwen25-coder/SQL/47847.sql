@@ -1,1 +1,0 @@
-SELECT *\nFROM payment_line\nWHERE REGEXP_LIKE(check_num, '^\d+$')\nAND TO_NUMBER(check_num) > 12345;

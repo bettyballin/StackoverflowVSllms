@@ -1,1 +1,0 @@
-echo \strtolower("HELLO"); // Uses PHP's built-in strtolower function in the global namespace

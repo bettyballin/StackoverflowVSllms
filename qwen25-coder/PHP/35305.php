@@ -1,1 +1,0 @@
-$result = @mysql_ping($link);

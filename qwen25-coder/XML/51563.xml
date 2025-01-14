@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <modules runAllManagedModulesForAllRequests="true">\n      <add name="FormatModule" type="Namespace.FormatModule, AssemblyName"/>\n    </modules>\n  </system.webServer>\n</configuration>

@@ -1,1 +1,0 @@
-# Ruby example\ndef add(x, y)\n  x + y\nend\n\nresult = add(*[3, 4])  # Splat operator unpacks the array [3, 4]\nputs result  # Outputs: 7

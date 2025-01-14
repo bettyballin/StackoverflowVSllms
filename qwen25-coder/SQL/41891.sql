@@ -1,1 +1,0 @@
-CREATE SERVER AUDIT ServerAuditLog TO FILE (FILEPATH = 'C:\AuditLogs', MAXSIZE = 10 MB);

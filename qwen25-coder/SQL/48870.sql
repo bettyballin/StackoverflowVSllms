@@ -1,1 +1,0 @@
-CREATE PROCEDURE NotifyNonEmptyTable\n   AS\n   BEGIN\n       IF EXISTS (SELECT 1 FROM YourTableName)\n       BEGIN\n           -- Execute xp_cmdshell or sqlmail to run an external application/notify via email\n           EXEC master..xp_cmdshell 'C:\Path\To\Your\Executable.exe'\n       END\n   END

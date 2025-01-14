@@ -1,1 +1,0 @@
-$('[data-js-action="clickable"]').on('click', function() {\n    alert('Element clicked!');\n});

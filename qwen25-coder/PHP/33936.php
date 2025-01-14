@@ -1,1 +1,0 @@
-<?php ini_set('error_reporting', E_ALL); error_reporting(E_ALL);\n   error_log("Testing if errors go to log file.");\n   trigger_error("This is an intentional test error", E_USER_NOTICE);\n   ?>

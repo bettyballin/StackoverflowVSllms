@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <rewrite>\n      <rules>\n        <rule name="RedirectDefaultPage" stopProcessing="true">\n          <match url="^Default\.aspx$" />\n          <action type="Redirect" url="/" redirectType="Permanent" />\n        </rule>\n      </rules>\n    </rewrite>\n  </system.webServer>\n</configuration>

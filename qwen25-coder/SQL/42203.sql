@@ -1,1 +1,0 @@
-CREATE TRIGGER AccountChecker\nON student\nFOR DELETE \nAS\nBEGIN\n    DECLARE @acc CHAR(4)\n\n    SELECT @acc = account_number\n    FROM deleted d\n    JOIN account ON d.student_id = account.student_id\n\n    IF @acc IS NOT NULL\n    BEGIN\n        RAISERROR ('An associated account exists.', 16, 1)\n        ROLLBACK TRANSACTION\n    END\nEND

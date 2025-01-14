@@ -1,1 +1,0 @@
-CREATE TABLE words (\n    word_id INTEGER PRIMARY KEY AUTO_INCREMENT,\n    word VARCHAR(255) NOT NULL,\n    contributor INTEGER NOT NULL,\n    FOREIGN KEY (contributor) REFERENCES contributors(contributor_id)\n);

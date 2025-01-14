@@ -1,1 +1,0 @@
-// Example of using Medoo\n   require "vendor/autoload.php";\n   use Medoo\Medoo;\n\n   $database = new Medoo([\n       'type' => 'mysql',\n       'host' => '127.0.0.1',\n       'database' => 'my_database',\n       'username' => 'user',\n       'password' => 'secret'\n   ]);\n\n   $users = $database->select("users", "*", ["name" => $name]);

@@ -1,1 +1,0 @@
--- Create a database role\nCREATE ROLE YourDatabaseRole;\n\n-- Add user group to the role\nEXEC sp_addrolemember 'YourDatabaseRole', 'DOMAIN\YourUserGroup';\n\n-- Grant EXECUTE permission to the role on all stored procedures\nEXEC sp_MSforeachproc '\n    GRANT EXECUTE ON ? TO [YourDatabaseRole]'

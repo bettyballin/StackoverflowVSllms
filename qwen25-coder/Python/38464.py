@@ -1,1 +1,0 @@
-# Preferably absolute imports within package structure\n   from my_package.subpackage.module3 import MyClass\n\n   # Or short relative imports if necessary\n   from .module1 import some_functio

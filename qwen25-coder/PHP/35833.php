@@ -1,1 +1,0 @@
-class TEST {\n    public $value = 10;\n}\n\n$testObj1 = new TEST();\n$testObj2 =& $testObj1; // Explicit reference\n\n$testObj1->value = 20;\n\necho $testObj2->value; // Outputs: 20

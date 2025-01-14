@@ -1,1 +1,0 @@
-def magic(left, op, right):\n    print(f"{left} {op} {right}")\n\n# Call the function with separate arguments\nmagic(5, "==", 5)

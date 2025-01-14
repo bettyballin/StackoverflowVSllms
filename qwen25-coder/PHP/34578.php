@@ -1,1 +1,0 @@
-for($x = 0; $x < 12; $x++) {\n    // Set the day to 1 to avoid issues with rolling over to the next month\n    $month = mktime(0, 0, 0, date("m") + $x, 1,  date("Y"));\n    $key = date('m', $month);\n    $monthname = date('F', $month);\n    $months[$key] = $monthname;\n}

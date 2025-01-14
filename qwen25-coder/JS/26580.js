@@ -1,1 +1,0 @@
-Ext.ns('MyApp.utils');\n\nMyApp.utils.GridUtils = {\n    getColumnCount: function(grid) {\n        var columns = grid.getHeaderContainer().getColumns();\n        console.log('Column count:', columns.length);\n    }\n};

@@ -1,1 +1,0 @@
-// JavaScript\nconst message = "Hello, world!";

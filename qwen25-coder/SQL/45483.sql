@@ -1,1 +1,0 @@
-SET GLOBAL general_log = 'ON';\n   SET global log_output = 'table'; -- This can be 'FILE' if you prefer logging to a file.

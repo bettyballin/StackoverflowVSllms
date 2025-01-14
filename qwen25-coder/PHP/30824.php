@@ -1,1 +1,0 @@
-while($row = mysql_fetch_row($result)) {\n    echo '<tr>';\n    $pk = $row[0]; // Access the first element of the row correctly\n\n    foreach($row as $key => $value) {\n        echo '<td><a href="#" onclick="GetAuctionData(\''.$pk.'\')">' . htmlspecialchars($value) . '</a></td>'; // Use htmlspecialchars for output\n    }\n    echo '</tr>';\n}

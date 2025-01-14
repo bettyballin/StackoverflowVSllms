@@ -1,1 +1,0 @@
-Select * from Table1 T1, Table2 T2 \n  Where T1.ID = T2.ID;

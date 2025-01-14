@@ -1,1 +1,0 @@
-CREATE INDEX idx_commit_date ON subversion_commits(commit_date);\n\n-- Example query optimized with index usage\nSELECT * FROM subversion_commits\nWHERE commit_date >= SYSDATE - 7\nORDER BY commit_date DESC;

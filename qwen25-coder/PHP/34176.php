@@ -1,1 +1,0 @@
-function fetchData() {\n    $data = mysqli_query($connection, "SELECT * FROM users");\n    return $data;\n}\n\n$data = fetchData();\n// Process and output the data

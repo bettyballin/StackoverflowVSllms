@@ -1,1 +1,0 @@
-$mail->addBody(new MailWishListInquiry()->getBody(348));

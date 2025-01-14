@@ -1,1 +1,0 @@
-SELECT email\nFROM your_table_name\nWHERE NOT REGEXP_LIKE(email, '^[^@]+@[^@]+\.[^@]+$');

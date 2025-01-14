@@ -1,1 +1,0 @@
-// In your Controller (e.g., TypesController.php)\nfunction index() {\n    $types = $this->Type->find('all');\n    foreach ($types as &$type) {\n        // Assuming 'has_rtf' is a flag you set based on the RTF field not being empty or null.\n        $type['Type']['show_link'] = !empty($type['Type']['rtf_field']);\n    }\n    $this->set('types', $types);\n}

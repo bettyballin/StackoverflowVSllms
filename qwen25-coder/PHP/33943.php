@@ -1,1 +1,0 @@
-$fileContent = "First line" . PHP_EOL . "Second line";\n   file_put_contents('example.txt', $fileContent);

@@ -1,1 +1,0 @@
-try:\n    import gnureadline as readline\nexcept ImportError:\n    import readline

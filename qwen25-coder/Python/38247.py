@@ -1,1 +1,0 @@
--- Bloom filters are not directly supported by most SQL databases but can be used in memory solutions or additional layers.\n    -- Example Python-like pseudo-code:\n    bloom_filter = BloomFilter(size=10000, prob=0.01)

@@ -1,1 +1,0 @@
-$data = array(\n    'key1' => 'value1',\n    'key2' => array('subkey1' => 'subvalue1', 'subkey2' => 'subvalue2')\n);\n$file = session_id() . '.txt'; // Assuming you're using sessions for filenames\n\n// Serialize the array\n$serializedData = serialize($data);\n\n// Write data to file\nfile_put_contents($file, $serializedData);

@@ -1,1 +1,0 @@
-CREATE TABLE UserProfile (\n       UserId INT PRIMARY KEY,\n       Address NVARCHAR(MAX),\n       PhoneNumber NVARCHAR(50)\n       -- Add other fields as necessary\n       FOREIGN KEY (UserId) REFERENCES Users(UserId)\n   );

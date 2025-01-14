@@ -1,1 +1,0 @@
-Public Class YourPageName\n    Inherits System.Web.UI.Page\n\n    Public Sub InitializeStuff()\n        ' Your initialization logic here\n        Response.Write("InitializeStuff called!")\n    End Sub\nEnd Class

@@ -1,1 +1,0 @@
--- Update Ranks for All Players Based on Current Scores\nset @rank=0; \n\nupdate players \nset rank = (@rank:=@rank+1)\norder by top_score desc;

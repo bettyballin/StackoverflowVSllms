@@ -1,1 +1,0 @@
-// Dynamically adjusting UI based on user permissions\n   if (!userPermissions.canWrite) {\n       document.getElementById('editButton').disabled = true;\n   }\n\n   if (!userPermissions.canDelete) {\n       document.getElementById('deleteButton').style.display = 'none';\n   }

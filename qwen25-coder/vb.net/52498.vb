@@ -1,1 +1,0 @@
-Using connection As New SQLiteConnection("YourConnectionStringHere")\n    connection.Open()\n    Using transaction = connection.BeginTransaction()\n        ' Do your individual saves here\n        If allOK Then\n            transaction.Commit()\n        Else\n            transaction.Rollback()\n        End If\n    End Using\nEnd Using

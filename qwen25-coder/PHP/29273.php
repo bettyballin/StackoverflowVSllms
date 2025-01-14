@@ -1,1 +1,0 @@
-header('Content-Type: text/event-stream');\nheader('Cache-Control: no-cache');\n\nwhile (true) {\n    // The PHP loop simulates data being sent every second.\n    echo "data: " . time() . "\n\n";\n    ob_flush();\n    flush();\n    sleep(1);\n}

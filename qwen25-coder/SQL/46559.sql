@@ -1,1 +1,0 @@
-CREATE TABLE users (\n  userid SERIAL NOT NULL PRIMARY KEY,\n  name VARCHAR(40),\n  status CHAR NOT NULL\n);\n\nCREATE TABLE status_log (\n  logid SERIAL PRIMARY KEY,\n  userid INTEGER NOT NULL REFERENCES users(userid),\n  status CHAR NOT NULL,\n  start_date TIMESTAMP NOT NULL,\n  end_date TIMESTAMP -- NULL indicates current status\n);

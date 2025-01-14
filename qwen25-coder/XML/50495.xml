@@ -1,1 +1,0 @@
-<rollback>\n    <dropTable tableName="example_table"/>\n</rollback>

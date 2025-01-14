@@ -1,1 +1,0 @@
-<dependency>\n       <groupId>com.twilio.sdk</groupId>\n       <artifactId>twilio</artifactId>\n       <version>8.53.0</version>\n   </dependency>

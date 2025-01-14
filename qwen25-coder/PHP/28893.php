@@ -1,1 +1,0 @@
-// Example of basic validation and sanitization\nif (!isset($data['column1']) || !filter_var($data['column1'], FILTER_SANITIZE_STRING)) {\n    http_response_code(400); // Bad Request\n    echo json_encode(['message' => 'Invalid data']);\n    exit;\n}

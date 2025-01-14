@@ -1,1 +1,0 @@
-CREATE TABLE packages (\n  productCode CHAR(2) CHECK (productCode IN ('XJ', 'XD')),\n  name NVARCHAR(100),\n  ...\n);

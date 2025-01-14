@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    // Initialize Datepicker with hidden option\n    $('#birthdate').datepicker({showOn: 'none'});\n\n    // Bind click event to show datepicker\n    $('#birthdate').on('click', function (e) {\n        $(this).datepicker("show");\n    });\n});

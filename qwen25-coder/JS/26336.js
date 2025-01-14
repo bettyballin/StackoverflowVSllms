@@ -1,1 +1,0 @@
-// Example of setting an empty handler to prevent default actions\n   $('iframe').on('mouseover', function(e) {\n       e.stopPropagation();\n       // Do nothing or add logic if necessary\n   });

@@ -1,1 +1,0 @@
--- Always use explicit column names instead of SELECT *\nCREATE VIEW dbo.vStartest AS\nSELECT A, B, C FROM dbo.starTest;

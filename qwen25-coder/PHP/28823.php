@@ -1,1 +1,0 @@
-<?php\n\ndeclare(strict_types=1);\n\n$finder = PhpCsFixer\Finder::create()\n    ->notPath('vendor')\n    ->in(__DIR__)\n;\n\nreturn PhpCsFixer\Config::create()\n    ->setRules([\n        'array_syntax' => ['syntax' => 'short'],\n        'concat_space' => ['spacing' => 'one'],\n        // Add more rules as needed\n    ])\n    ->setFinder($finder)\n;

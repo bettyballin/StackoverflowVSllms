@@ -1,1 +1,0 @@
-// file: foo.php\n\nclass cBar {\n    public function foobar() {\n        // Call the independent function here\n        foobarFunction();\n    }\n}\n\n// Define an independent function\nfunction foobarFunction() {\n    // Code\n    echo "Function called!";\n}

@@ -1,1 +1,0 @@
-SELECT AttemptDate \nFROM dbo.ChangeAttempt\nWHERE CONVERT(VARCHAR(10), AttemptDate, 111) = CONVERT(VARCHAR(10), GETDATE(), 111)

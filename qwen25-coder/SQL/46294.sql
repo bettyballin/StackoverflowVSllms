@@ -1,1 +1,0 @@
-SELECT CONVERT(VARCHAR, LargeNumber) FROM PreciseNumbers;

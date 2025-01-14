@@ -1,1 +1,0 @@
-<class catalog="ariso" name="countaword.ariso.dao.Article" table="article">\n    <id name="srcUrl" type="java.lang.String">\n        <column length="2048" name="SrcUrl"/>\n        <generator class="assigned"/>\n    </id>\n    <property column="Article" generated="never" lazy="false"\n              name="articleBlob" type="blob" not-null="true" length="10485760"/>\n</class>

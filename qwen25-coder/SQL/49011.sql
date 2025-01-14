@@ -1,1 +1,0 @@
-DECLARE @emailHTML NVARCHAR(MAX);\nSET @emailHTML = N'<html><body>\n<h1>Report</h1>\n<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA..." alt="My Chart" />\n</body></html>';\n\nEXEC msdb.dbo.sp_send_dbmail\n  @recipients = 'example@example.com',\n  @subject = 'My Report with Image',\n  @body = @emailHTML, \n  @body_format = 'HTML';

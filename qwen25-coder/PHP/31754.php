@@ -1,1 +1,0 @@
-<?php\nerror_reporting(E_ALL);\nini_set('display_errors', 1);\n\nif ($_SERVER["REQUEST_METHOD"] == "POST") {\n    print_r($_POST);\n} else {\n    echo "Request method not POST.";\n}\n?>

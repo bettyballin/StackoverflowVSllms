@@ -1,1 +1,0 @@
-<configuration>\n     <system.web>\n       <webServices>\n         <protocols>\n           <add name="HttpPost"/>\n           <add name="HttpGet"/>\n         </protocols>\n       </webServices>\n     </system.web>\n   </configuration>

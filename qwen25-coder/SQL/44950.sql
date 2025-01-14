@@ -1,1 +1,0 @@
-CREATE TABLE flat_file_staging (\n       line_content VARCHAR2(4000)\n   )\n   ORGANIZATION EXTERNAL (\n       TYPE ORACLE_LOADER\n       DEFAULT DIRECTORY data_dir\n       ACCESS PARAMETERS (\n           RECORDS DELIMITED BY NEWLINE\n       )\n       LOCATION ('yourfile.txt')\n   );

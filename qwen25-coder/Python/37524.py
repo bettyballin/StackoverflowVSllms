@@ -1,1 +1,0 @@
-# Example using Falcon\nimport falcon\n\nclass HelloWorld:\n    def on_get(self, req, resp):\n        """Handles GET requests"""\n        resp.status = falcon.HTTP_200\n        resp.media = {'message': 'Hello world!'}\n        \napp = application = falcon.App()\napp.add_route('/', HelloWorld())

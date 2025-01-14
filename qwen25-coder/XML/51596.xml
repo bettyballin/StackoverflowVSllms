@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <handlers>\n      <add name="ResourceHandler" path="Views/*.aspx" verb="*" type="Namespace.ResourceHandler, AssemblyName" resourceType="Unspecified"/>\n      <!-- Add handlers for other resources -->\n    </handlers>\n  </system.webServer>\n</configuration>

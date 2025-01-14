@@ -1,1 +1,0 @@
-SELECT * FROM IPv6Addresses WHERE \n    (UpperBits = StartUpper AND LowerBits >= StartLower) OR \n    (UpperBits > StartUpper AND UpperBits < EndUpper) OR\n    (UpperBits = EndUpper AND LowerBits <= EndLower);

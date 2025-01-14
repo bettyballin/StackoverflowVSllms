@@ -1,1 +1,0 @@
-<example>\n    <!-- PCDATA example, note the escaped < and & -->\n    <parsed>This tag contains some special characters: &lt;a&gt;and&amp;b&lt;/a&gt;</parsed>\n\n    <!-- CDATA example, no need for escaping -->\n    <notParsed><![CDATA[This tag contains some special characters without escaping: <a>and&b</a>]]></notParsed>\n</example>

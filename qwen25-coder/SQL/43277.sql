@@ -1,1 +1,0 @@
--- To check for open transactions:\n   SELECT * FROM sys.dm_tran_database_transactions AS dbtran \n   JOIN sys.dm_tran_session_transactions AS sesstran ON dbtran.transaction_id = sesstran.transaction_id \n   JOIN sys.dm_exec_sessions AS sess ON sesstran.session_id = sess.session_id;

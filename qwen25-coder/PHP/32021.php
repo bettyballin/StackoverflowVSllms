@@ -1,1 +1,0 @@
-$conn = new mysqli('localhost', 'username', 'password', 'testdb');\n   if ($stmt = $conn->prepare('SELECT * FROM users WHERE email = ?')) {\n       $stmt->bind_param('s', $email);\n       $email = 'test@example.com';\n       $stmt->execute();\n       $result = $stmt->get_result();\n       $user = $result->fetch_assoc();\n   }

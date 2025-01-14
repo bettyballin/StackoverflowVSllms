@@ -1,1 +1,0 @@
-import sys\nimport os\n\n# Append the parent directory to sys.path\nsys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))\n\nfrom parent_module import ParentClass  # Adjust 'parent_module' and 'ParentClass' accordingly\n\nclass ChildClass(ParentClass):\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)

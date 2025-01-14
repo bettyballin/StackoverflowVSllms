@@ -1,1 +1,0 @@
-// Include axios via CDN or npm\naxios.get('/api/data/')\n    .then(function (response) {\n        console.log('Data retrieved:', response.data);\n    })\n    .catch(function (error) {\n        console.error('There was an error!', error);\n    });

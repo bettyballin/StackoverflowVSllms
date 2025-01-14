@@ -1,1 +1,0 @@
-FROM table1 LEFT JOIN table2 ON table1.col1 = table2.col2

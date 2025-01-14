@@ -1,1 +1,0 @@
-SELECT session_id \n   FROM sys.dm_exec_sessions\n   WHERE status = 'sleeping'\n   AND is_user_process = 1;

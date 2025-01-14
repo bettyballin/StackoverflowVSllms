@@ -1,1 +1,0 @@
-<?php\nheader('Content-Type: text/plain; charset=utf-8');\n// Ensure your MySQL connection uses UTF-8:\n$mysqli = new mysqli("localhost", "username", "password", "database");\nif (!$mysqli->set_charset("utf8")) {\n    printf("Error loading character set utf8: %s\n", $mysqli->error);\n} else {\n    // Your database interaction here\n}\n?>

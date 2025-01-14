@@ -1,1 +1,0 @@
-def outer_function(x):\n    def inner_function(y):\n        return x + y\n    return inner_function\n\nclosure = outer_function(10)\nprint(closure(5))  # Outputs: 15

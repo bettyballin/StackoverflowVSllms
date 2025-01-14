@@ -1,1 +1,0 @@
-SELECT \n    TaskID,\n    STUFF((\n        SELECT ', ' + Name\n        FROM YourTableName AS T2\n        WHERE T2.TaskID = T1.TaskID\n        FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), 1, 2, ''\n    ) AS PeopleAssigned\nFROM \n    YourTableName AS T1\nGROUP BY \n    TaskID;

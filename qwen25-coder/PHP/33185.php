@@ -1,1 +1,0 @@
-$remoteUser = $_SERVER['REDIRECT_REMOTE_USER'] ?? null;

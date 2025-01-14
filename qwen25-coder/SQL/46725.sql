@@ -1,1 +1,0 @@
-SELECT REGEXP('[^[:space:]]+',\n                 '[[^\\[lang_[^]]*\\/lang_[^]]*]]') AS match\nFROM your_table_name;

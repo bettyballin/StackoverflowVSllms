@@ -1,1 +1,0 @@
-function echoer() {\n    echo 'foo';\n}\n\n// Start output buffering\nob_start();\n\n// Call the function that echoes the content\nechoer();\n\n// Capture the output and store it in a variable\n$output = ob_get_clean();\n\n// Now $output contains 'foo'\necho "Captured: $output";

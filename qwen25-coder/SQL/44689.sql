@@ -1,1 +1,0 @@
-CREATE TABLE categories (\n  id SERIAL PRIMARY KEY,\n  name VARCHAR(255) NOT NULL,\n  description TEXT,\n  parent_id INTEGER REFERENCES categories(id)\n);\n\nCREATE TABLE product_blocks (\n  id SERIAL PRIMARY KEY,\n  category_id INTEGER REFERENCES categories(id),\n  long_description TEXT,\n  search_terms TEXT,\n  image_name VARCHAR(255)\n);

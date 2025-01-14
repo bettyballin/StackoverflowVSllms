@@ -1,1 +1,0 @@
-<?php\n$data = [\n    'name' => 'John Doe',\n    'email' => 'john.doe@example.com',\n    'city' => 'New York'\n];\n\n$queryString = http_build_query($data);\n\necho $queryString;\n// Output: name=John+Doe&email=john.doe%40example.com&city=New+York\n?>

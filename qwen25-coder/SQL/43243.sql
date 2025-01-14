@@ -1,1 +1,0 @@
--- Assuming there's a TVF named dbo.YourTableValuedFunction()\nSELECT \n    NEWID() AS FakeUniqueColumn,  -- Generate GUID here\n    tvf.*\nFROM \n    dbo.YourTableValuedFunction() tvf;

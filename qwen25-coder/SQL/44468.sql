@@ -1,1 +1,0 @@
--- First, create an object type without the collection\nCREATE TYPE Item AS OBJECT (\n    id NUMBER\n);\n/\n\n-- Then, create a nested table type that holds references to the Item type\nCREATE TYPE ItemTab AS TABLE OF REF Item;\n/\n\n-- Finally, alter the Item type to include the collection of references\nALTER TYPE Item ADD ATTRIBUTE subitems ItemTab CASCADE;\n/

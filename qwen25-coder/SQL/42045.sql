@@ -1,1 +1,0 @@
-SELECT DISTINCT old.STYLE_NBR, old.COLOR_NBR \nFROM LEGACY_PRODUCT_TABLE old\nWHERE NOT EXISTS (\n    SELECT 1 \n    FROM MARKETING_PRODUCT_TABLE new\n    WHERE old.STYLE_NBR = new.style_number \n      AND old.COLOR_NBR = new.colour_number\n);

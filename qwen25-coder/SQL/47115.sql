@@ -1,1 +1,0 @@
-SELECT * FROM documents WHERE json_col->>'status' = 'active';

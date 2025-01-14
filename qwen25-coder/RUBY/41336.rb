@@ -1,1 +1,0 @@
-resources :questions do\n  collection do\n    post 'update_positions'\n  end\nend

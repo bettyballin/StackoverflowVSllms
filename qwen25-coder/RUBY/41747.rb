@@ -1,1 +1,0 @@
-resources :your_resource do\n  member do\n    patch 'revert_to_version/:version_number', action: :revert_to_version\n  end\nend

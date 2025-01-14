@@ -1,1 +1,0 @@
-<p>If you wish to unsubscribe from our mailing list, please <a href="http://server.com/unsubscribe.php?email=<?=$row1['EmailId']?>">click here</a>.</p>

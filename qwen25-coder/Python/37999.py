@@ -1,1 +1,0 @@
-# config.py\nfoo = 'your_initial_value'

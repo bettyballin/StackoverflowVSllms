@@ -1,1 +1,0 @@
-$str = "Some text |123 more text";\n// Use () for grouping and $1 in the replacement string for back-reference\n$newStr = preg_replace("/([|]\d*)/", "$1;", $str);\necho $newStr; // Outputs: Some text |123; more text

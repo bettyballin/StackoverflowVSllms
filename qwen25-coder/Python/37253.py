@@ -1,1 +1,0 @@
-import subprocess\nfrom time import sleep, strftime\n\nwhile True:\n    # Simulate fetching some data\n    data_point = "N:" + str(10)  # Assume we're monitoring CPU usage at 10%\n    \n    # Update RRD with this value\n    command = ["rrdtool", "update", "monitor.rrd", data_point]\n    subprocess.call(command)\n    \n    sleep(300)  # Run the script every 5 minutes

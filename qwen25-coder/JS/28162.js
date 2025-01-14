@@ -1,1 +1,0 @@
-// Assuming you have a reference to an input element\nvar inputElement = document.querySelector('input');\n\n// Find the closest form element\nvar containingFormForInput = inputElement.closest('form');\n\nconsole.log(containingFormForInput); // This will log the <form> element if found

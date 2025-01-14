@@ -1,1 +1,0 @@
-while ($item = current($data)){\n    echo '<ATTR>',$item, '</ATTR>', "\n";\n    next($data);\n}

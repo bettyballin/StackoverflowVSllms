@@ -1,1 +1,0 @@
-CREATE USER 'username'@'webserver_ip' IDENTIFIED BY 'password';\n     GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'webserver_ip';\n     FLUSH PRIVILEGES;

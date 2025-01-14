@@ -1,1 +1,0 @@
-workers Integer(ENV['WEB_CONCURRENCY'] || 2)\nthreads_count = Integer(ENV['RAILS_MAX_THREADS'] || 5)\nthreads threads_count, threads_count\n\npreload_app!\n\nrackup      DefaultRackup\nport        ENV.fetch("PORT") { 3000 }\nenvironment ENV.fetch("RAILS_ENV") { "development" }\n\non_worker_boot do\n  ActiveRecord::Base.establish_connection\nend

@@ -1,1 +1,0 @@
-from ansi2html import Ansi2HTMLConverter\n\n   converter = Ansi2HTMLConverter()\n   html_output = converter.convert("ESC[00mESC[01;34mbinESC[00m\nESC[01;34mcodeESC[00m\nESC[01;31mdropbox-lnx.x86-0.6.404.tar.gzESC[00m\nESC[00mfooESC[00m")\n   print(html_output)

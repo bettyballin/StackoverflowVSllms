@@ -1,1 +1,0 @@
-# Example of a simple service object\nclass TransactionProcessor\n  def process(user_id, order_id)\n    user = User.find(user_id)\n    order = Order.find(order_id)\n\n    ActiveRecord::Base.transaction do\n      # Logic involving user and order models\n      user.update!(balance: user.balance - order.total)\n      order.update!(state: 'processed')\n    end\n  end\nend

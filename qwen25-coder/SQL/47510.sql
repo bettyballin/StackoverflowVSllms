@@ -1,1 +1,0 @@
-DECLARE\n    input_text VARCHAR2(100) := 'This is a test <tag> with special characters & more.';\n    xml_compliant_text VARCHAR2(100);\nBEGIN\n    xml_compliant_text := DBMS_XMLGEN.CONVERT(input_text, 1); -- 1 = XML format\n    DBMS_OUTPUT.PUT_LINE('Original: ' || input_text);\n    DBMS_OUTPUT.PUT_LINE('XML Compliant: ' || xml_compliant_text);\nEND;

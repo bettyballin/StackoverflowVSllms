@@ -1,1 +1,0 @@
-require 'rails_helper'\nrequire_relative 'support/matchers/have_access_control'\n\nRSpec.describe PostsController, type: :controller do\n  describe "GET #index" do\n    it { expect {\n      get :index\n    }.to have_access_control(\n      allowed: [:super_admin],\n      disallowed: [:admin, :editor, :user]\n    )}\n  end\nend

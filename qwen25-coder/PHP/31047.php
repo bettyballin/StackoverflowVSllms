@@ -1,1 +1,0 @@
-$batchSize = 100;\n   for ($i = 0; $i < count($records); $i += $batchSize) {\n       $batchRecords = array_slice($records, $i, $batchSize);\n       // Construct and execute batch insert query\n   }

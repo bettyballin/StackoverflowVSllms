@@ -1,1 +1,0 @@
-from django import forms\n\nclass CommentForm(forms.Form):\n    comment = forms.CharField(widget=forms.Textarea())\n\n    def __init__(self, *args, **kwargs):\n        super(CommentForm, self).__init__(*args, **kwargs)\n        # Remove the label for the 'comment' field\n        self.fields['comment'].label = ''

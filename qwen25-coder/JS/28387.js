@@ -1,1 +1,0 @@
-// Hides an element with the id 'myElement'\ndocument.getElementById('myElement').style.display = 'none';

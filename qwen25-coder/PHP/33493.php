@@ -1,1 +1,0 @@
-if (is_uploaded_file($_FILES['picture1']['tmp_name'])) {\n   move_uploaded_file($_FILES['picture1']['tmp_name'], $full_file_path);\n}

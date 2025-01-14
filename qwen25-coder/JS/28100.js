@@ -1,1 +1,0 @@
-/* views/buildings/create.js.erb */\n$('#buildings-list').append("<%= j render(@building) %>");\nalert("Building created successfully!");

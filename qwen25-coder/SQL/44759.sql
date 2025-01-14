@@ -1,1 +1,0 @@
-SELECT * , hxl.holiday_dt,\n       DATEDIFF(d, h.holiday_dt, hxl.holiday_dt)\nFROM holiday h\nJOIN Holiday_XL hxl ON h.currency_cd COLLATE SQL_Latin1_General_CP1_CI_AS = hxl.currency_cd COLLATE SQL_Latin1_General_CP1_CI_AS;

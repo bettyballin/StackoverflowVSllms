@@ -1,1 +1,0 @@
-javascript:(function(){\n    var url = encodeURIComponent(window.location.href);\n    var script = document.createElement('script');\n    script.src = 'https://yourserver.com/receive_url?url='+url+'&callback=myJsonpCallback';\n    document.body.appendChild(script);\n})();

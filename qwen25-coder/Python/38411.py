@@ -1,1 +1,0 @@
-def find_parent_index(i, k=4):\n    return (i - 1) // k\n\n# Example usage:\nparent_index_of_6 = find_parent_index(5)\nprint("Parent of Node at index 5 (Node value 6):", parent_index_of_6)  # Output: 1

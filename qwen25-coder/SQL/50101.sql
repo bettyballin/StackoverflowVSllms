@@ -1,1 +1,0 @@
-CREATE TABLE categories (\n         category_id INT PRIMARY KEY,\n         name VARCHAR(100),\n         lft INT NOT NULL,\n         rgt INT NOT NULL\n     );

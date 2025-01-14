@@ -1,1 +1,0 @@
-SELECT tp.person_id,\n       rp.related_person_id,\n       rp.relationship_type_id\nFROM (\n    SELECT p.person_id,\n           p.family_number\n    FROM people p\n    WHERE p.relationship_type_id = 1 -- parent\n) target_person tp\nJOIN people rp ON tp.family_number = rp.family_number\n             AND rp.person_id <> tp.person_id\nWHERE rp.relationship_type_id = 1;

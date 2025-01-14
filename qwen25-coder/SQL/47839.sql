@@ -1,1 +1,0 @@
-CREATE PROCEDURE SearchEmployees\n    @FirstName NVARCHAR(100) = NULL,\n    @Department NVARCHAR(50) = NULL\nAS\nBEGIN\n    SELECT \n        EmployeeID, FirstName, LastName, Department\n    FROM \n        Employees\n    WHERE \n        (@FirstName IS NULL OR FirstName = @FirstName)\n        AND (@Department IS NULL OR Department = @Department);\nEND;

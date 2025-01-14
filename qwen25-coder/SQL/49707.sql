@@ -1,1 +1,0 @@
-CREATE PROCEDURE InsertDataUsingTVP\n    @MyTableParam dbo.MyTableType READONLY\nAS\nBEGIN\n    -- Your logic here, for example:\n    INSERT INTO MyDestinationTable (Column1, Column2)\n    SELECT Column1, Column2 FROM @MyTableParam;\nEND;

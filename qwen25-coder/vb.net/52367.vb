@@ -1,1 +1,0 @@
-Dim sessionVar As Object = HttpContext.Current.Session("MySessionKey")\nIf sessionVar Is Nothing OrElse sessionVar Is DBNull.Value Then\n    ' Variable is not set or expired\nEnd If

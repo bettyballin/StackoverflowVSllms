@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER["REQUEST_METHOD"] == "POST") {\n    $user_input = $_POST['your_textarea_name'];\n    // Replace newlines with <br/>\n    $formatted_text = nl2br($user_input);\n    echo $formatted_text;\n}\n?>

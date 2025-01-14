@@ -1,1 +1,0 @@
-SELECT t1.* \nFROM mytree t1 \nWHERE NOT EXISTS (\n    SELECT 1 \n    FROM mytree t2 \n    WHERE t2.parentid = t1.id\n);

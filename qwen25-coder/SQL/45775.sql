@@ -1,1 +1,0 @@
--- Disable foreign key checks\nSET FOREIGN_KEY_CHECKS = 0;\n\n-- Insert data into parent table\nINSERT INTO parent_table (id, name) VALUES (1, 'ParentName');\n\n-- Insert data into child table with corresponding foreign key\nINSERT INTO child_table (id, parent_id, value) VALUES (1, 1, 'ChildValue');\n\n-- Re-enable foreign key checks\nSET FOREIGN_KEY_CHECKS = 1;

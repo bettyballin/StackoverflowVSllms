@@ -1,1 +1,0 @@
-# Second perpendicular point (x4, y4)\nx4 = x1 - scaled_perp_x\ny4 = y1 - scaled_perp_y\n\nprint(f"Opposite perpendicular point: ({x4}, {y4})")

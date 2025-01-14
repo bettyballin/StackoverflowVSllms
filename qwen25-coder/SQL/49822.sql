@@ -1,1 +1,0 @@
-ALTER TABLE YourTable ADD NewColumn DataType DEFAULT DefaultValue;

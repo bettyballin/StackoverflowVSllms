@@ -1,1 +1,0 @@
-# Ensure the default external encoding is UTF-8\nEncoding.default_external = Encoding::UTF_8\n\nrequire 'find'\n\ndirs = ["TestDir"]\nfor dir in dirs\n    Find.find(dir) do |path|\n        if File.directory?(path)\n            # Optionally print directories\n            # p path\n        else\n            p path\n        end\n    end\nend

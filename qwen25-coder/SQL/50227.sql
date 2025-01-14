@@ -1,1 +1,0 @@
-CAST(CONVERT(date, [datetime_column]) AS datetime)

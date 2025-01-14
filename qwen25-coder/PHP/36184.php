@@ -1,1 +1,0 @@
-$stmt = $db->prepare("SELECT items.* FROM items JOIN user_items ON items.item_id = user_items.item_id WHERE user_items.uid = ?");\n   $stmt->execute([$userId]);\n   $items = $stmt->fetchAll(PDO::FETCH_ASSOC);

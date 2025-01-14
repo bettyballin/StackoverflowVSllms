@@ -1,1 +1,0 @@
-header("HTTP/1.0 404 Not Found");\ninclude('error/notfound.php'); // Include your custom not found page\nexit;

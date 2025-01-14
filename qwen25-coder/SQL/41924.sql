@@ -1,1 +1,0 @@
-SELECT \n    MailAddress1 = ISNULL(NULLIF(RTRIM(LTRIM(Line2)), ''), Line3),\n    MailAddress2 = UPPER(ISNULL(NULLIF(RTRIM(LTRIM(City)), '') + ' ', '') +\n                         ISNULL(NULLIF(RTRIM(LTRIM(State)), '') + ' ', '') +\n                         ISNULL(PostalCode, '')),\n    MailAddress3 = '',\n    MailAddress4 = ''\nFROM \n    YourTableName AS eai

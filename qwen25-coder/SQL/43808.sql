@@ -1,1 +1,0 @@
-CREATE TABLE YourTableName (\n    ID INT PRIMARY KEY,\n    YourTextField VARCHAR(3000)\n);

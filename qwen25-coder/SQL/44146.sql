@@ -1,1 +1,0 @@
-CREATE PROCEDURE CleanupOldData\nAS\nBEGIN\n    DELETE FROM YourTableName\n    WHERE timestampColumn < DATEADD(day, -30, GETDATE()); -- Example: delete records older than 30 days\nEND;

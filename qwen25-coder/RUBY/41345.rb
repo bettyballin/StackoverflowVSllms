@@ -1,1 +1,0 @@
-class PostsController < ApplicationController\n  def archive\n    @posts_grouped_by_month = Post.order(created_at: :desc).group_by { |post| post.created_at.strftime("%B %Y") }\n  end\nend

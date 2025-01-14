@@ -1,1 +1,0 @@
-gem uninstall rspec rspec-rails rspec_generator\n   gem install rspec rspec-rails -v 1.3.2

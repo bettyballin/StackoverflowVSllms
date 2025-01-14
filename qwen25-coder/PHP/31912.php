@@ -1,1 +1,0 @@
-function get_change_log($object_type, $object_id) {\n    global $wpdb;\n    return $wpdb->get_results(\n        $wpdb->prepare("SELECT * FROM wp_change_log WHERE object_type = %s AND object_id = %d ORDER BY timestamp DESC", $object_type, $object_id)\n    );\n}

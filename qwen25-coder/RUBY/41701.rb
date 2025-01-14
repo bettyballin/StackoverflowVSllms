@@ -1,1 +1,0 @@
-require 'test_helper'\n\nclass UtilsTest < ActiveSupport::TestCase\n  test "my_utility_method should behave correctly" do\n    result = Utils.my_utility_method\n    assert_equal expected_result, result # Replace `expected_result` with what you expect\n  end\n\n  test "should be true" do\n    assert true # Change this to your actual assertions\n  end\nend

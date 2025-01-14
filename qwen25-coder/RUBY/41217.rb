@@ -1,1 +1,0 @@
-resources :users do\n  resource :publicprofile, shallow: true do\n    resources :emails\n    resources :phonenumbers\n  end\n\n  resource :privateprofile, shallow: true do\n    resources :addresses\n    resources :creditcards\n  end\nend

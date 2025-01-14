@@ -1,1 +1,0 @@
-var editorContent = tinymce.get('yourTextAreaId').getContent();

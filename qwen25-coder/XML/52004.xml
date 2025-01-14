@@ -1,1 +1,0 @@
-<location path="SecurePage.aspx">\n       <system.web>\n           <authorization>\n               <allow roles="MyDomain\My Secure Users" />\n               <deny users="*" />\n           </authorization>\n       </system.web>\n   </location>

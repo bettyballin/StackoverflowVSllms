@@ -1,1 +1,0 @@
-SELECT r.customers_id, COUNT(*) AS total_reviews\nFROM reviews r\nWHERE r.customers_id IN (\n    SELECT DISTINCT customers_id\n    FROM reviews\n    WHERE products_id = '170'\n)\nGROUP BY r.customers_id;

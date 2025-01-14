@@ -1,1 +1,0 @@
-CREATE TABLE articles (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       content LONGTEXT NOT NULL\n   );

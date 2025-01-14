@@ -1,1 +1,0 @@
-<?php\nlist($usec, $sec) = explode(" ", microtime());\n$dt = new DateTime("@$sec");\necho $dt->format('Y-m-d\TH:i:s') . substr((string)$usec, 1, 6);\n?>

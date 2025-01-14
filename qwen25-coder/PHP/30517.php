@@ -1,1 +1,0 @@
-function checkFileType($filePath) {\n    // Define allowed mime types as before\n    $allowedMimes = [\n        'image/jpeg' => 1,\n        'image/bmp' => 1,\n        // other mimes...\n    ];\n\n    $finfo = new finfo(FILEINFO_MIME_TYPE);\n    $fileType = $finfo->file($filePath);\n\n    return isset($allowedMimes[$fileType]) ? true : false;\n}

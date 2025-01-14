@@ -1,1 +1,0 @@
-$this->User->find('all', array(\n    'conditions' => array(\n        'not' => array(\n            'User.site_url' => null\n        )\n    )\n));

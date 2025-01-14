@@ -1,1 +1,0 @@
-SELECT TOP(6)\n    c.name,\n    COALESCE(f.description, e.description) AS description,\n    c.address\nFROM \n    company c\nLEFT JOIN \n    (SELECT * FROM company WHERE langid = 1) e ON c.id = e.id AND c.langid <> 1\nLEFT JOIN \n    (SELECT * FROM company WHERE langid = 2) f ON c.id = f.id\nWHERE \n    c.langid = 1 OR f.description IS NOT NULL\nORDER BY \n    c.id DESC;

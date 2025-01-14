@@ -1,1 +1,0 @@
-$db = new PDO('sqlite:test.db');\n     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

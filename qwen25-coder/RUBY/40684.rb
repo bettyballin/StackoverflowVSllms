@@ -1,1 +1,0 @@
-# Start your rails console with `rails c`\nrequire 'action_dispatch/testing/integration_test'\nclass TestRequest < ActionDispatch::IntegrationTest\n  fixtures :all\nend\ntest_request = TestRequest.new\n\n# Simulate a GET request\ntest_request.get '/your-path'\n\n# Check response\nputs test_request.response.body

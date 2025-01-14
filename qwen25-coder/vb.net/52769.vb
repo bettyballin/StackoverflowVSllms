@@ -1,1 +1,0 @@
-Function Details(ByVal id As Integer) As ActionResult\n    Dim c = SomeGetClientFunction(id)\n    ' Assuming SiteMaster is a class that initializes base layout, adjust accordingly.\n    Return New ActionResult(New Views.Client.Details(c))\nEnd Functio

@@ -1,1 +1,0 @@
-Private Sub Form1_KeyDown(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown\n    If e.KeyCode = Keys.Enter Then\n        MyButton.PerformClick()  ' Simulate a click on the button\n    End If\nEnd Sub

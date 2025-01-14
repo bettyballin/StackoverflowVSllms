@@ -1,1 +1,0 @@
-// Clear a cookie completely with all details matching the original setting\nsetcookie('your_cookie_name', '', time() - 3600, '/', 'yourdomain.com', false, true);

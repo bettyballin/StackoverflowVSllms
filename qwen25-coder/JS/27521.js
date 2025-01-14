@@ -1,1 +1,0 @@
-// jQuery simplifies DOM manipulation and event handling\n   $(document).ready(function() {\n       $("button").click(function() {\n           alert("Button clicked!");\n       });\n   });

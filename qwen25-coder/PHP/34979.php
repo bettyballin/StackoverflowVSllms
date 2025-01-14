@@ -1,1 +1,0 @@
-header("X-XSS-Protection: 1; mode=block");\n   header("X-Content-Type-Options: nosniff");\n   header("X-Frame-Options: SAMEORIGIN");

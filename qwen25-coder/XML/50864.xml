@@ -1,1 +1,0 @@
-<configuration>\n       <connectionStrings configProtectionProvider="DataProtectionConfigurationProvider">\n         <EncryptedData Type="http://schemas.microsoft.com/appSettingsSection"\n                        xmlns="http://schemas.microsoft.com/XMLCipher">\n           ...\n         </EncryptedData>\n         ...\n       </connectionStrings>\n     </configuration>

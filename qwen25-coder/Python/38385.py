@@ -1,1 +1,0 @@
-import pdfplumber\n\ndef pdf_to_text(file_path):\n    text = ""\n    with pdfplumber.open(file_path) as pdf:\n        for page in pdf.pages:\n            text += page.extract_text()\n    return text\n\n# Usage\nfile_path = 'example.pdf'\nprint(pdf_to_text(file_path))

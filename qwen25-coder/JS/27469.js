@@ -1,1 +1,0 @@
-// Using text content to find exact match\nvar specificSpan = $('#colorSwatchContent span:contains("Color Name")');\n\n// Ensure it's exactly the one by trimming possible spaces or additional characters\nspecificSpan = $('#colorSwatchContent span').filter(function() {\n  return $.trim($(this).text()) === 'Color Name';\n});

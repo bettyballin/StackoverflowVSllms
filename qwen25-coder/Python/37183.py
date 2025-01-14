@@ -1,1 +1,0 @@
-# Connect using an SSH key file\nclient.connect(hostname, port=port, username=username, key_filename='/path/to/private/key')

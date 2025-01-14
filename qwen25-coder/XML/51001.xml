@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>\n<project baseDir="{YourProjectDirectory}" outputDir="obfuscated">\n  <rule preset="normal">\n    <protection id="rename"/>\n    <protection id="antiildasm"/>\n  </rule>\n  <module path="yourproject.dll"/>\n</project>

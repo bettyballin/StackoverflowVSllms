@@ -1,1 +1,0 @@
--- Example of JOIN\nSELECT e.first_name, d.department_name\nFROM employees e\nJOIN departments d ON e.department_id = d.id;\n\n-- Example of Subquery\nSELECT e.first_name\nFROM employees e\nWHERE e.department_id IN (SELECT id FROM departments WHERE location = 'New York');

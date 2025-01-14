@@ -1,1 +1,0 @@
-// htdocs/index.php\n<?php\nrequire '../app/config/database.php';\nuse App\Controllers\HomeController;\n\n$controller = new HomeController();\n$controller->displayHome();

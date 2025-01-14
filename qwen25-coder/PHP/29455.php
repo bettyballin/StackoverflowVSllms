@@ -1,1 +1,0 @@
-ini_set('session.gc_maxlifetime', 1800);    // Sessions expire after 30 minutes\n   ini_set('session.cookie_lifetime', 1800);

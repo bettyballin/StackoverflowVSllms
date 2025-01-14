@@ -1,1 +1,0 @@
-if ((int)$myVal === 0) {\n    // Your logic here\n}

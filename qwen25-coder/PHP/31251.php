@@ -1,1 +1,0 @@
-$params['column1'] = $tempParams['newColumns'];

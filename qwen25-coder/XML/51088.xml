@@ -1,1 +1,0 @@
-<configuration>\n    <system.webServer>\n        <!-- Other settings -->\n        <applicationPools>\n            <add name="MyAppPool" autoStart="true" />\n        </applicationPools>\n    </system.webServer>\n</configuration>

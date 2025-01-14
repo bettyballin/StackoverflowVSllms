@@ -1,1 +1,0 @@
-SELECT *\nFROM users\nWHERE TRANSLATE(first_name, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', '') != first_name\n   OR TRANSLATE(last_name, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', '') != last_name;

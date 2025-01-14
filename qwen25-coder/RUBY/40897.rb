@@ -1,1 +1,0 @@
----\ntitle: Baxter the Dog\ntags: \n  - blog \n  - dog\n---\n\nHello, this is a blog post about <%= @metadata['title'] %>.

@@ -1,1 +1,0 @@
-CREATE SERVER other_server\n     FOREIGN DATA WRAPPER postgres_fdw\n     OPTIONS (dbname 'databaseB', host 'localhost');

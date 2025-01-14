@@ -1,1 +1,0 @@
-<dependencies>\n    <dependency>\n        <groupId>com.example</groupId>\n        <artifactId>shared-component</artifactId>\n        <version>[1.0,2.0)</version> <!-- Allows versions from 1.0 up to but not including 2.0 -->\n    </dependency>\n</dependencies>

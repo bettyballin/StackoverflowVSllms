@@ -1,1 +1,0 @@
-function mysql_date($php_date) {\n    return (new DateTime())->setTimestamp($php_date)->format('Y-m-d H:i:s');\n}\n\nfunction php_date($mysql_date) {\n    return (new DateTime($mysql_date))->getTimestamp();\n}

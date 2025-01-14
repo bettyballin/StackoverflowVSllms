@@ -1,1 +1,0 @@
-# This makes some_module and some_other_module available to import from my_package\n__all__ = ["some_module", "some_other_module"]\n\n# Initialization code can go here if needed\nprint("Initializing the package")

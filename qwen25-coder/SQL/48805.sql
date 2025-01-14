@@ -1,1 +1,0 @@
-CREATE INDEX idx_your_table_foreign_key_column\nON your_table (foreign_key_column);

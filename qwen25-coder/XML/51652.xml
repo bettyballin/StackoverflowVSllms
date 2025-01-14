@@ -1,1 +1,0 @@
-<img expr:src='"your-image-url.jpg"' \n     expr:alt='data:post.labels.toUrl.split(",").join(" ")'/>

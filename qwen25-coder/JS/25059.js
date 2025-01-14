@@ -1,1 +1,0 @@
-// Accessing the content attribute of the meta tag inside obj1\nvar metaContentObj1 = document.querySelector('#obj1 #Meta meta').getAttribute('content');\nconsole.log(metaContentObj1);\n\n// Accessing the content attribute of the meta tag inside obj2\nvar metaContentObj2 = document.querySelector('#obj2 #Meta meta').getAttribute('content');\nconsole.log(metaContentObj2);

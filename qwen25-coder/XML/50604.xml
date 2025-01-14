@@ -1,1 +1,0 @@
-<dependencies>\n    <dependency>\n        <groupId>net.sf.saxon</groupId>\n        <artifactId>Saxon-HE</artifactId>\n        <version>10.5</version>\n    </dependency>\n    <dependency>\n        <groupId>junit</groupId>\n        <artifactId>junit</artifactId>\n        <version>4.13.2</version>\n        <scope>test</scope>\n    </dependency>\n</dependencies>

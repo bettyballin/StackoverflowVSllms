@@ -1,1 +1,0 @@
-$headers = array(\n    "BATCH_TYPE: XML_SINGLE",\n    "BATCH_COUNT: 1",\n    "VENDOR_ID: 53906",\n    "Content-Type: application/xml", // Add this line to specify the content type\n    "User-Agent: MyCustomClient/1.0" // Optional, but recommended\n);

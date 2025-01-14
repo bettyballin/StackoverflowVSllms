@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("INSERT INTO users (name, email) VALUES (?, ?)");\n  $stmt->bind_param("ss", $name, $email);

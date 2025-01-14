@@ -1,1 +1,0 @@
-def gnome_terminal?\n  return true if ENV['TERM'] =~ /gnome/\n  return true if ENV['COLORTERM'] == 'gnome-terminal'\n  false\nend\n\nif gnome_terminal?\n  puts "Running in Gnome Terminal. Use alternative keys for help."\nelse\n  puts "F1 key should work as intended."\nend

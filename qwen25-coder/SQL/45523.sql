@@ -1,1 +1,0 @@
-CREATE TABLE LogEntries (\n       LogID INT IDENTITY PRIMARY KEY,\n       EntryTime DATETIME NOT NULL,\n       Message VARCHAR(4000),\n       -- other fields...\n   ) ON ps_LogEntries(EntryTime);

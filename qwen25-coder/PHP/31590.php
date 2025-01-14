@@ -1,1 +1,0 @@
-<p><a href='#' onclick=\"makewindows(" . trim($html) . "); return false;\">Click for full description </a></p>";\necho trim($brand); // Ensure no extra space here\n?>\n        <p>\n            <a href=\"#\" onclick=\"deleteRec('".$ARTICLE_NO."', '".trim($brand)."', '".$pg."', '".$nextArticleNo."')\">DELETE</a>\n        </p>

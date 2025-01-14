@@ -1,1 +1,0 @@
-preg_match_all($pattern, $site, $matches);\n$uniqueEmails = array_unique($matches[0]);\nprint_r($uniqueEmails);

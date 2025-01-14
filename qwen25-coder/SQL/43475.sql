@@ -1,1 +1,0 @@
-SELECT [unitid] FROM [unit];

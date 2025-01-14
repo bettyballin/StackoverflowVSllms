@@ -1,1 +1,0 @@
-WITH RankedItems AS (\n    SELECT \n        *,\n        ROW_NUMBER() OVER (PARTITION BY CategoryId ORDER BY import_order_column) as new_sortorder\n    FROM your_temp_table\n)\nUPDATE your_target_table t\nSET sortorder = r.new_sortorder\nFROM RankedItems r\nWHERE t.id = r.id;  -- Assuming 'id' is a unique identifier in your target table and temp table

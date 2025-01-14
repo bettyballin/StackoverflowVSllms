@@ -1,1 +1,0 @@
-global $post;\n   if (isset($post)) {\n       // Safely access $post properties here\n       echo $post->post_content;\n   }

@@ -1,1 +1,0 @@
-UPDATE t1 \n   SET t1.t2ID = DLookup("ID", "Query1", "DD = '" & [t1].[DD] & "' AND TN = '" & [t1].[TN] & "'");\n   WHERE t1.TN Like "J?/?"\n   AND t1.DD Like "M*";

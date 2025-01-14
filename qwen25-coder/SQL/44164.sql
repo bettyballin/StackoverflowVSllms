@@ -1,1 +1,0 @@
-SELECT \n    PhoneNumber,\n    NewPhoneNumber = REPLACE(\n                    REPLACE(\n                        REPLACE(\n                            LTRIM(RTRIM(PhoneNumber)),\n                            '-', ''),\n                        '/', ''),\n                    ' ', '')\nFROM YourTable;

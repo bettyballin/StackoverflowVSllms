@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $hashedSsn = $_POST['hashedSsn'];\n    // Proceed to call your external web service\n    // ...\n}\n?>

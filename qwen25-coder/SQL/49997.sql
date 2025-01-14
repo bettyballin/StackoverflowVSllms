@@ -1,1 +1,0 @@
-SELECT masklen(ip_mask::inet) AS cidr\nFROM (\n  SELECT set_masklen('0.0.0.0/32', 32 - LENGTH(SUBSTRING(ip_mask FROM POSITION('.' in ip_mask) + 1 FOR POSITION('.' in SUBSTRING(ip_mask FROM POSITION('.' in ip_mask) + 1)) - 1)::int) AS ip_mask\n  FROM subnets\n) AS sub;

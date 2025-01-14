@@ -1,1 +1,0 @@
-UPDATE messages \nSET body = ?, version_number = version_number + 1 \nWHERE ID = ? AND version_number = ?

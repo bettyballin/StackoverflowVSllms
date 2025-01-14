@@ -1,1 +1,0 @@
-echo 'Email: example@example.com'; // No variable interpolation needed

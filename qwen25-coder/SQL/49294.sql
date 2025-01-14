@@ -1,1 +1,0 @@
--- Using CHAR when all values are of fixed length (e.g., 2 characters)\nCREATE TABLE CountryCodes (\n    Code CHAR(2) PRIMARY KEY,\n    Name VARCHAR(100) NOT NULL\n);\n\n-- Example INSERT statement\nINSERT INTO CountryCodes (Code, Name) VALUES ('US', 'United States');

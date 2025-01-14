@@ -1,1 +1,0 @@
-$utf8String = "Your UTF-8 string here";\n$iso88591String = iconv("UTF-8", "ISO-8859-1//TRANSLIT", $utf8String);

@@ -1,1 +1,0 @@
-USE master;\nGO\n\n-- Replace 'YourDatabaseName' with the name of your database\n-- Replace 'NewOwnerLogin' with the login that will be the new owner\nALTER AUTHORIZATION ON DATABASE::YourDatabaseName TO NewOwnerLogin;\nGO

@@ -1,1 +1,0 @@
-SELECT \n       T.c.value('(ref)[1]', 'VARCHAR(40)') AS ref,\n       c.ContactName AS Forename\n   FROM \n       Contacts c\n   CROSS APPLY \n       xmlvaluesn.nodes('/contact') AS T(c)\n   INNER JOIN \n       ParticipantContactMap pcm \n       ON c.id = pcm.contactid AND pcm.participantid = 2140\n   WHERE \n       T.c.exist('ref[.="118985"]') = 1

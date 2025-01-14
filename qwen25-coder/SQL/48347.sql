@@ -1,1 +1,0 @@
--- Create a temporary table and backfill data\n  SELECT * INTO #TempTable FROM original_table;\n\n  -- Make necessary modifications to the original table\n\n  -- Backfill modified table from TempTable if required\n  UPDATE original_table\n  SET column = t.column\n  FROM original_table o\n  INNER JOIN #TempTable t ON o.id = t.id;\n  \n  DROP TABLE #TempTable;

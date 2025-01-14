@@ -1,1 +1,0 @@
-SELECT r.*\nFROM rpc_responses r\nJOIN (\n    SELECT method, id, MAX(timestamp) AS max_timestamp\n    FROM rpc_responses\n    GROUP BY method, id\n) latest ON r.method = latest.method AND r.id = latest.id AND r.timestamp = latest.max_timestamp;

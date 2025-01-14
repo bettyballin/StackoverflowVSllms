@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    var topBar = $('#topBar');\n\n    $(window).scroll(function() {\n        // Set the position of the topBar to be fixed at the top of the window\n        topBar.css({\n            'position': 'fixed',\n            'top': 0,\n            'width': '100%'\n        });\n    });\n});

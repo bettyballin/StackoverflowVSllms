@@ -1,1 +1,0 @@
-# config/initializers/java_integration.rb\nrequire 'java'\nrequire_relative '../lib/EncryptionJava.jar'\n\njava_import 'EncryptionJava'

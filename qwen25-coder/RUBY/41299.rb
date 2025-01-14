@@ -1,1 +1,0 @@
-class Product < ActiveRecord::Base\n  # ... other stuff here\n\n  def recycled?\n    self.recycled == 'Y'\n  end\n\n  def recycled=(value)\n    self[:recycled] = value ? 'Y' : 'N'\n  end\nend

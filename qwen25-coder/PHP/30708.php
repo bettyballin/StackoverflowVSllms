@@ -1,1 +1,0 @@
-$url = "http://example.com/data";\n$data = file_get_contents($url);\necho $data;

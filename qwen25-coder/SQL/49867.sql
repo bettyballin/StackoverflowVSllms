@@ -1,1 +1,0 @@
--- Declare with explicit size\nDECLARE @myParam nvarchar(255);\n\n-- Cast with explicit size\nSELECT CAST(@myParam AS nvarchar(255));

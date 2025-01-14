@@ -1,1 +1,0 @@
-CREATE ASSEMBLY SaveImageAssembly\nFROM 'C:\Path\To\Your\Compiled\Dll\SaveImage.dll'\nWITH PERMISSION_SET = SAFE;\nGO\n\nCREATE PROCEDURE dbo.SaveImageToFileProc\n    @ImageData VARBINARY(MAX),\n    @FilePath NVARCHAR(400)\nAS EXTERNAL NAME SaveImageAssembly.[ClrProcedures].SaveImageToFile;\nGO

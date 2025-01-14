@@ -1,1 +1,0 @@
--- Standard SQL for creating a table\nCREATE TABLE employees (\n    id INT PRIMARY KEY,\n    name VARCHAR(100) NOT NULL,\n    hire_date DATE\n);\n\n-- PostgreSQL specific syntax with additional options\nCREATE TABLE employees (\n    id SERIAL PRIMARY KEY,\n    name TEXT NOT NULL,\n    hire_date DATE,\n    UNIQUE(name)\n);

@@ -1,1 +1,0 @@
-DECLARE\n  v_id NUMBER := 123;\nBEGIN\n  DBMS_OUTPUT.PUT_LINE('Starting procedure with id: ' || v_id);\n  \n  -- Your SQL logic here\n  \n  DBMS_OUTPUT.PUT_LINE('Procedure completed successfully');\nEXCEPTION\n  WHEN OTHERS THEN\n    DBMS_OUTPUT.PUT_LINE('Error occurred: ' || SQLERRM);\nEND;\n/

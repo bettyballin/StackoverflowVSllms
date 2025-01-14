@@ -1,1 +1,0 @@
-INSERT INTO your_table (id, column1, column2) \nVALUES (your_id_value, value1, value2) \nON DUPLICATE KEY UPDATE \ncolumn1 = VALUES(column1), \ncolumn2 = VALUES(column2);

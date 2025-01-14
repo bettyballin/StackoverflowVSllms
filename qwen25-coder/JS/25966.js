@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    // Event hookup with delegation to tbody for better performance than document level\n    $('table.grid > tbody').on('mouseover mouseout', 'tr', function(event) {\n        // Toggle class based on the event type\n        $(this).toggleClass('hover', event.type === 'mouseover');\n    });\n});

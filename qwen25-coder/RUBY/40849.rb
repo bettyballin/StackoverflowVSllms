@@ -1,1 +1,0 @@
-# config/application.rb\nconfig.active_record.schema_format = :sql if Rails.env.development?

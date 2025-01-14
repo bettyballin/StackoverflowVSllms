@@ -1,1 +1,0 @@
-MIDDLEWARE = [\n    ...\n    'myapp.middleware.MyMiddleware',\n]

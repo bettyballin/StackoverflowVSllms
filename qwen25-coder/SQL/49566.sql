@@ -1,1 +1,0 @@
-DECLARE @RowNumber INT\nSET @RowNumber = 0\n\nSELECT \n    @RowNumber := @RowNumber + 1 AS RowNum,\n    Name\nFROM PuppyNames\nORDER BY NumberOfVotes

@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\nUPDATE mytable WITH (ROWLOCK, UPDLOCK)\nSET counter = counter + 1 WHERE id = someId;\nCOMMIT TRANSACTION;

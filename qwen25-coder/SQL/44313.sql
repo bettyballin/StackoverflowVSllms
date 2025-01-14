@@ -1,1 +1,0 @@
--- Create an Object Type\nCREATE TYPE t_person AS OBJECT (\n  id INTEGER,\n  first_name VARCHAR2(30),\n  last_name VARCHAR2(30)\n);\n\n-- Create a Collection Type of Objects\nCREATE OR REPLACE TYPE t_person_list AS TABLE OF t_person;

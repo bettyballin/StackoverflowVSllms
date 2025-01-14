@@ -1,1 +1,0 @@
-document.querySelectorAll('.geshitop a').forEach(function(link) {\n    link.addEventListener('click', copy);\n});

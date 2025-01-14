@@ -1,1 +1,0 @@
-$this->db->select('user_id, COUNT(*) AS post_count');\n$this->db->from('posts');\n$this->db->group_by('user_id');\n$query = $this->db->get();\n\n$result = $query->result_array();

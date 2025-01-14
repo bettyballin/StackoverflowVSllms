@@ -1,1 +1,0 @@
-putenv('JAVA_HOME=/Library/Java/Home');\n   putenv('PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin');

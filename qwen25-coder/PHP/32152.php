@@ -1,1 +1,0 @@
-$_SESSION['user_id'] = $user_id; // Assuming there's a unique user ID\n   $_SESSION['user_agent'] = $_SERVER['HTTP_USER_AGENT'];\n   $_SESSION['ip_address'] = $_SERVER['REMOTE_ADDR'];

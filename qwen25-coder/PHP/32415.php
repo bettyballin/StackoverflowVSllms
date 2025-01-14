@@ -1,1 +1,0 @@
-// In your first script: setting the value\n$myCustomVar = 'This is my custom variable value';\n$_GLOBALS['myCustomVar'] = $myCustomVar;\n\n// Include second script here, passing the data around can be tricky.\ninclude_once('second_script.php');

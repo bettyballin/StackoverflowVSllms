@@ -1,1 +1,0 @@
-CREATE TABLE Videos (\n    VideoID INT PRIMARY KEY,\n    Title NVARCHAR(255),\n    DurationInMilliseconds DECIMAL(18,3)  -- Store video length in milliseconds for precision up to milliseconds\n);

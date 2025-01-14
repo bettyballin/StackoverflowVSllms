@@ -1,1 +1,0 @@
-<?php\ninclude_once 'path/to/report.class.php';\n// or use require_once if the file is required for execution\n?>

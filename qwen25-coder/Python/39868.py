@@ -1,1 +1,0 @@
-import random\n\ndef get_random_number():\n    return random.randint(1, 100)\n\n# This would fail because the output is unpredictable\n# assert get_random_number() == some_specific_value

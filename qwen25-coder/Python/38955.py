@@ -1,1 +1,0 @@
-def request(flow):\n       flow.request.headers["Your-Header"] = "StaticValue"

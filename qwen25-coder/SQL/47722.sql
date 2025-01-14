@@ -1,1 +1,0 @@
-from Game g left join fetch g.Event where g.Event.EventId = :eventId

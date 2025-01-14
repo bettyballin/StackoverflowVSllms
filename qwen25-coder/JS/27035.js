@@ -1,1 +1,0 @@
-// For setting plain text content (escapes HTML)\n$("#myDOMObject").text("some text");\n\n// For setting HTML content (allows HTML tags to be rendered)\n$("#myDOMObject").html("<strong>some bold text</strong>");

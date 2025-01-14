@@ -1,1 +1,0 @@
-<?php\nif (php_sapi_name() == "cli") {\n    echo "Running from Command Line Interface (CLI)\n";\n} else {\n    echo "Running from Web Server\n";\n}\n?>

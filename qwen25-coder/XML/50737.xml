@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.assertj</groupId>\n    <artifactId>assertj-core</artifactId>\n    <version>3.24.2</version> <!-- Check for the latest version on Maven Central -->\n    <scope>test</scope>\n</dependency>

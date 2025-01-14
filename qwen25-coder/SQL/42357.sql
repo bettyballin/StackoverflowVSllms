@@ -1,1 +1,0 @@
--- Using CAST\nSELECT CAST('12345' AS INT) AS ConvertedValue;\n\n-- Using CONVERT\nSELECT CONVERT(INT, '12345') AS ConvertedValue;

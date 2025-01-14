@@ -1,1 +1,0 @@
-SELECT * FROM sys.assemblies WHERE name = 'YourAssemblyName';\n   SELECT definition FROM sys.sql_modules WHERE object_id = OBJECT_ID('dbo.YourStoredProcedureName');

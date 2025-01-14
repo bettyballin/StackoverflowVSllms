@@ -1,1 +1,0 @@
-class Paginator {\n    private $items;\n    private $totalItems;\n    private $currentPage;\n    private $itemsPerPage;\n\n    public function __construct($items, $totalItems, $currentPage, $itemsPerPage) { ... }\n\n    public function getPages() { ... }\n}

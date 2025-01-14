@@ -1,1 +1,0 @@
-SELECT DATEDIFF(hour, '2009-06-08 00:00:00', '2009-06-10 23:59:59') AS HoursDifference;

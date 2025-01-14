@@ -1,1 +1,0 @@
-$obj = new stdClass();\n$obj->property1 = 'value1';\n$obj->property2 = 'value2';\n\necho $obj->property1; // Outputs: value1

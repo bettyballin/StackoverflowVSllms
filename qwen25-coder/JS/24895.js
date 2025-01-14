@@ -1,1 +1,0 @@
-let twitterUrls = [];\n\n   // To add a URL\n   twitterUrls.push('https://twitter.com/username');\n\n   // When you're done crawling\n   console.log(twitterUrls);

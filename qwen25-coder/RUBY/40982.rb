@@ -1,1 +1,0 @@
-gem install axlsx\ngem install axlsx_rails

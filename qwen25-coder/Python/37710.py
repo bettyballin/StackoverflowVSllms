@@ -1,1 +1,0 @@
-my_list = [10, 20, 30, 40, 50]\nelement_to_find = 30\n\ntry:\n    index = my_list.index(element_to_find)\n    print(f"Element found at index: {index}")\nexcept ValueError:\n    print("Element not found in the list")

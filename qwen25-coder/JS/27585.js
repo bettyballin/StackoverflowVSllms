@@ -1,1 +1,0 @@
-// Asynchronous request using Fetch API in modern JavaScript\nfetch('/your/wcf/service/url')\n  .then(response => response.json())\n  .then(data => {\n    console.log('Success:', data);\n    // Update your UI here based on the 'data' returned from WCF service\n  })\n  .catch((error) => {\n    console.error('Error:', error);\n  });

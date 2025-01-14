@@ -1,1 +1,0 @@
-<subreport>\n    <reportElement x="0" y="20" width="555" height="150"/>\n    <subreportExpression><![CDATA[new net.sf.jasperreports.engine.util.JRLoader.loadJRXMLFromBytes(java.util.Base64.getDecoder().decode("YOUR_BASE64_ENCODED_SUBREPORT_HERE"))]]></subreportExpression>\n</subreport>

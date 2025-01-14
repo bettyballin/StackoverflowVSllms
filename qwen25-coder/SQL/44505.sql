@@ -1,1 +1,0 @@
-DECLARE\n    l_cinema_id NUMBER;\nBEGIN\n    SELECT cinema_id INTO l_cinema_id\n    FROM cinemas -- replace with your actual table name\n    WHERE name = :PXX_CINEMA_NAME; -- replace PXX_CINEMA_NAME with your item name for cinema name dropdown\n\n    :PXX_CINEMA_ID := l_cinema_id; -- replace PXX_CINEMA_ID with your item name for cinema ID text box/hidden field\nEND;

@@ -1,1 +1,0 @@
--- Generate 10 random values\nSELECT TOP 10 RAND(CHECKSUM(NEWID())) AS RandomValue\nFROM (\n    SELECT ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS num\n    FROM master.dbo.syscolumns sc1\n    CROSS JOIN master.dbo.syscolumns sc2\n) AS NumberSequence;

@@ -1,1 +1,0 @@
-<%= form_with(model: @project) do |form| %>\n  <div>\n    <%= form.label :name %>\n    <%= form.text_field :name %>\n  </div>\n\n  <% # Break out related data into partials if necessary %>\n  <%= render 'shared/project_members', form: form %>\n  <%= render 'shared/project_tasks', form: form %>\n\n  <%= form.submit "Submit" %>\n<% end %>

@@ -1,1 +1,0 @@
-def initialize_schema_migrations_table\n  sm_table = ActiveRecord::Migrator.schema_migrations_table_name\n\n  unless tables.include?(sm_table)\n    create_table(sm_table, id: false) do |schema_migrations_table|\n      schema_migrations_table.column :version, :string, null: false\n    end\n  end\nend

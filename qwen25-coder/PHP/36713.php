@@ -1,1 +1,0 @@
-// Set internal encoding\n   mb_internal_encoding('UTF-8');\n   \n   // MySQL connection setup with UTF-8\n   $mysqli = new mysqli("localhost", "user", "password", "database");\n   if (!$mysqli->set_charset("utf8mb4")) {\n       die("Error loading character set utf8mb4: " . $mysqli->error);\n   }

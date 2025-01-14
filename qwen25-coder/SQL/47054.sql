@@ -1,1 +1,0 @@
-SELECT *\nFROM Companies c\nWHERE \n    (c.CompanyType = @CompanyType OR @CompanyType IS NULL)\n    AND (c.CompanyName LIKE '%' + @CompanyName + '%' OR @CompanyName IS NULL)\n    AND (c.Location = @Location OR @Location IS NULL);

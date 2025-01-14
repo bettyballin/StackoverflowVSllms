@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  // Example: Get all payment types\n  $('[name="payments[][type]"]').each(function(index) {\n    console.log($(this).val());\n  });\n\n  // Example: Set a value for the second payment amount\n  $('[name="payments[1][amount]"]').val('150.00');\n});

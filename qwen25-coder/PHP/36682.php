@@ -1,1 +1,0 @@
-$test = array(\n    0 => 'zero',\n    1 => 'one',\n    2 => 'two',\n    3 => 'three',\n);\n\nfunction doesntWork($something, $testArray) {\n    echo "My favorite number is " . $testArray[$something];\n}\n\n// Call the function and pass the array as an argument\ndoesntWork(1, $test); // Outputs: My favorite number is one

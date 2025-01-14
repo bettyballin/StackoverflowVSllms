@@ -1,1 +1,0 @@
-SELECT ( c1 IS NOT NULL ) USING ( c1 , c2 ) FROM MyTable;

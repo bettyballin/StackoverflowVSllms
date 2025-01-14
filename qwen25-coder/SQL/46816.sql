@@ -1,1 +1,0 @@
-CREATE TABLE users (\n    user_id INT PRIMARY KEY,\n    username VARCHAR(255),\n    -- other fields...\n);\n\nCREATE TABLE user_pics (\n    pic_id INT PRIMARY KEY AUTO_INCREMENT,\n    user_id INT,\n    image_path VARCHAR(255),\n    FOREIGN KEY (user_id) REFERENCES users(user_id)\n);

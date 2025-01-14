@@ -1,1 +1,0 @@
-ALTER TABLE table1 DROP PRIMARY KEY;\nALTER TABLE table1 ADD PRIMARY KEY (ScreenId, ActivityItemId, ProductId);

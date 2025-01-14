@@ -1,1 +1,0 @@
-SELECT SPID = session_id FROM sys.dm_exec_requests WHERE blocking_session_id != 0;\n    KILL <SPID>; -- Replace <SPID> with the actual session ID found in the previous step, if any.\n    RESTORE DATABASE MyDatabase WITH RECOVERY;

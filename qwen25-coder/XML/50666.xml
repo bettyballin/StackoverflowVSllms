@@ -1,1 +1,0 @@
-<h:selectOneMenu value="#{bean.selectedValue}">\n    <f:selectItems value="#{bean.validOptions}" var="option" itemLabel="#{option.label}" itemValue="#{option.value}" />\n    <f:validator binding="#{bean.validateSelection}" />\n</h:selectOneMenu>

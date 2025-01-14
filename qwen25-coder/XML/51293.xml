@@ -1,1 +1,0 @@
-<dependencies>\n    <dependency>\n        <groupId>com.proprietary.api</groupId>\n        <artifactId>proprietary-api</artifactId>\n    </dependency>\n    <!-- Add other launcher-specific dependencies if necessary -->\n</dependencies>

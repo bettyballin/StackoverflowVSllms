@@ -1,1 +1,0 @@
-text = "hello john\nyour username is: jj\nthanks for signing up\n"\nif match = text.match(/your username is: (.*)/)\n  value = match[1]\nend\n\nputs value # => jj

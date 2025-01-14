@@ -1,1 +1,0 @@
-UPDATE foo\nSET total_count = (\n    SELECT SUM(seconds) \n    FROM bar \n    WHERE bar.id = foo.foo_id\n)\nWHERE EXISTS (SELECT 1 FROM bar WHERE bar.id = foo.foo_id);

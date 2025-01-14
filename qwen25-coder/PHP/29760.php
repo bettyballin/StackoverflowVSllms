@@ -1,1 +1,0 @@
-$values_array = [];\nwhile (/* your condition here */) {\n    $value = "..."; // replace with your actual value logic\n    $values_array[] = $value;\n}\n\n// Reverse the array\n$values_array = array_reverse($values_array);\n\n// Join the array into a string\n$all_values = implode(',', $values_array);\n\necho $all_values; // Outputs: 10,2,8,3,1

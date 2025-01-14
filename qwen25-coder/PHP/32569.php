@@ -1,1 +1,0 @@
-class Config {\n    private $data = [];\n\n    public function __construct($configArray) {\n        $this->data = $configArray;\n    }\n\n    public function get($key) {\n        return $this->data[$key] ?? null;\n    }\n}\n// Usage:\n$configurations = new Config(include('config.php'));\n$sitename = $configurations->get('sitename');

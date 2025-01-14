@@ -1,1 +1,0 @@
-$('#edit .postcontent').load('admin-ajax.php', {'action':'qe-getpost'}, function(response, status, xhr) {\n       if (status == 'success') {\n           console.log("Response: " + response); // Check what comes back from the server\n       }\n   });

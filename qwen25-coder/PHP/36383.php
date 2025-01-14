@@ -1,1 +1,0 @@
-try {\n    $pdo = new PDO('mysql:host=your_host;dbname=your_db', 'username', 'password');\n    $stmt = $pdo->prepare("INSERT INTO your_table (column) VALUES (:value)");\n    $value = "Example's text";\n    $stmt->bindParam(':value', $value);\n    $stmt->execute();\n} catch (PDOException $e) {\n    echo "Error: " . $e->getMessage();\n}

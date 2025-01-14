@@ -1,1 +1,0 @@
--- AppDb (Application Database)\nCREATE TABLE Files (\n    FileId INT PRIMARY KEY,\n    FileName NVARCHAR(255),\n    FilePathInFileDb NVARCHAR(255) -- Path or ID to locate file in FileDb\n);\n\n-- FileDb (Database for storing files via IDs)\nCREATE TABLE StoredFiles (\n    FileId INT PRIMARY KEY,\n    FileData VARBINARY(MAX)\n);

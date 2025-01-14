@@ -1,1 +1,0 @@
-Public Class B\n   Inherits Player\n\n   Private desiredPower As Integer = 100\n\n   Public Overrides ReadOnly Property GetPower() As Integer\n       Get\n          Return desiredPower\n       End Get\n   End Property\n   \n   Protected Sub New()\n      MyBase.New()\n      InitializePower()\n   End Sub\nEnd Class

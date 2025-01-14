@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n       UserID INT PRIMARY KEY IDENTITY(1,1),\n       UserName NVARCHAR(50) NOT NULL,\n       RegistrationDate DATETIME NOT NULL DEFAULT GETDATE(),\n       IsActive BIT NOT NULL DEFAULT 1\n   )

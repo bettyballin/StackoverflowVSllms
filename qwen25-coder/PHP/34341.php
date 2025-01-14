@@ -1,1 +1,0 @@
-// Using echo with multiple arguments\n$title = "Secure PHP";\n$author = "Expert Dev";\necho $title, " by ", $author; // Outputs: Secure PHP by Expert Dev\n\n// Using print with a single argument\n$result = print "Learning PHP is fun!"; // Outputs: Learning PHP is fun!\necho $result; // Outputs: 1 (the return value of print)

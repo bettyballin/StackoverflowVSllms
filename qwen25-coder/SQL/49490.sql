@@ -1,1 +1,0 @@
-CREATE FUNCTION RemoveSpaces(input VARCHAR(255))\nRETURNS VARCHAR(255)\nBEGIN\n    RETURN REPLACE(input, ' ', '');\nEND;

@@ -1,1 +1,0 @@
--- Example: Update values directly using a JOIN\nUPDATE t\nSET t.ColumnToUpdate = s.NewValue\nFROM TargetTable t\nJOIN SourceTable s ON t.KeyColumn = s.KeyColumn;

@@ -1,1 +1,0 @@
-<%= form_for @document do |form| %>\n       <%= form.file_field :file_data, direct: true %> # Add `direct: true` if using direct upload services\n       <%= form.submit "Upload" %>\n   <% end %>

@@ -1,1 +1,0 @@
-class JobsController < ApplicationController\n     def some_action\n       @var = TableB.all\n     end\n   end

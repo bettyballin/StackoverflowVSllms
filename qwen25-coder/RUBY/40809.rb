@@ -1,1 +1,0 @@
-# Simple "Hello World" in Ruby on Rails (controller action)\nclass WelcomeController < ApplicationController\n  def index\n    @message = "Hello World!"\n  end\nend\n\n# Corresponding simple ERB template to display the message\n<%# app/views/welcome/index.html.erb %>\n<h1><%= @message %></h1>

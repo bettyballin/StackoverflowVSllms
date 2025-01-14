@@ -1,1 +1,0 @@
-<?php\nrequire 'rb.php';\nR::setup('mysql:host=localhost;dbname=mydatabase', 'username', 'password');\n\nclass User extends RBean {}\n$user = R::load( 'user', 1 );\necho $user->name;\n?>

@@ -1,1 +1,0 @@
--- Example of a star schema\n   CREATE TABLE facts_sales (\n       sale_id INT,\n       product_id INT,\n       store_id INT,\n       date_id DATE\n   );\n\n   CREATE TABLE products (\n       product_id INT PRIMARY KEY,\n       name VARCHAR(100)\n   );\n\n   CREATE TABLE stores (\n       store_id INT PRIMARY KEY,\n       location VARCHAR(100)\n   );

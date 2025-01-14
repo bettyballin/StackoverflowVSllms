@@ -1,1 +1,0 @@
-$sequenceName = 'users_userid_seq'; // replace with actual sequence name if necessary\n   $lastInsertId = $db->lastInsertId(null, $sequenceName);

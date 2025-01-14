@@ -1,1 +1,0 @@
-class MyClass {\n    public static function __callStatic($method, $args) {\n        echo "Calling method '$method' with arguments: " . implode(", ", $args);\n    }\n}\n\n// This will trigger the __callStatic method\nMyClass::someNonExistentMethod('arg1', 'arg2');

@@ -1,1 +1,0 @@
--- Set a breakpoint in your SP by clicking the left margin next to the line of code.\n   -- Start debugging from SSMS:\n   GO\n   EXEC YourStoredProcedure @param1 = value1, @param2 = value2;

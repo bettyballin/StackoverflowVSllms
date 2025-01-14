@@ -1,1 +1,0 @@
-<?php\n\ndefine('MENU_DEFAULT_VALUE', 'menu_default');\ndefine('ODP_DEFAULT_VALUE', 'odp_default');\n\nfunction ftw($foo = 'pwnage', $nub = MENU_DEFAULT_VALUE, $odp = ODP_DEFAULT_VALUE) {\n    // Example usage of parameters\n    echo "Foo: $foo\n";\n    echo "Nub: $nub\n";\n    echo "Odp: $odp\n";\n}\n\nftw(); // This will use 'pwnage', 'menu_default', and 'odp_default'\n\n?>

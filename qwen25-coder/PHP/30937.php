@@ -1,1 +1,0 @@
-$scriptPath = __FILE__;\n$directoryPath = dirname($scriptPath);\n\necho "Script Path: " . $scriptPath . "\n";\necho "Directory Path: " . $directoryPath . "\n";\n\n// If you want to add the directory path to the include path:\nset_include_path(get_include_path() . PATH_SEPARATOR . $directoryPath);

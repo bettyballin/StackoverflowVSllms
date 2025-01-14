@@ -1,1 +1,0 @@
-import textwrap\n\ntext = "This is a long piece of text that we want to wrap within a certain column width."\nwrapped_text = textwrap.fill(text, width=20)\nprint(wrapped_text)

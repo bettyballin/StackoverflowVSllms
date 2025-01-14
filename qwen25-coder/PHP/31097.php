@@ -1,1 +1,0 @@
-$cfg['Servers'][$i]['host'] = 'your_mysql_server_address';\n$cfg['Servers'][$i]['port'] = 3306; // default MySQL port\n$cfg['Servers'][$i]['ssl'] = true;\n$cfg['Servers'][$i]['ssl_key'] = '/path/to/client-key.pem';\n$cfg['Servers'][$i]['ssl_cert'] = '/path/to/client-cert.pem';\n$cfg['Servers'][$i]['ssl_ca'] = '/path/to/ca-cert.pem';

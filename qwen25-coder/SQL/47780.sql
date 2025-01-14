@@ -1,1 +1,0 @@
-USE SharePoint_Config;\n   SELECT * \n   FROM Objects \n   WHERE Properties LIKE '%OLD_SSP_DATABASE%'

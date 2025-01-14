@@ -1,1 +1,0 @@
--- Assuming an index is already created as follows:\nCREATE INDEX idx_abc_d ON T (A, B, C, D);\n\n-- Example query that uses columns A, B, and C in the WHERE clause\nSELECT * FROM T \nWHERE A = 1 AND B = 2 AND C = 3;

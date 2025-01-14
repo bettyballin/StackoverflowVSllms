@@ -1,1 +1,0 @@
-SELECT *\nFROM SomeTable\nWHERE SomeColumn = 'SomeCondition'\nORDER BY RAND(CHECKSUM(NEWID()))\nOFFSET 0 ROWS FETCH NEXT (SELECT COUNT(*) * 0.1 FROM SomeTable WHERE SomeColumn = 'SomeCondition') ROWS ONLY;

@@ -1,1 +1,0 @@
-SELECT hostname, inttoip(ip_address) FROM host;\n\nINSERT INTO host (hostname, ip_address) \nVALUES ('some-hostname', iptoint('203.30.237.2'));

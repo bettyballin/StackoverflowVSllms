@@ -1,1 +1,0 @@
-gem install capybara selenium-webdriver chromedriver-helper

@@ -1,1 +1,0 @@
-BEGIN\n   FOR rec IN (SELECT table_name FROM all_tables WHERE owner = 'ALICE') LOOP\n      EXECUTE IMMEDIATE 'GRANT SELECT, INSERT, UPDATE, DELETE ON ALICE.' || rec.table_name || ' TO BOB';\n   END LOOP;\nEND;\n/

@@ -1,1 +1,0 @@
-IF @ID IS NULL OR @ID <= 0\nBEGIN\n    DECLARE @message VARCHAR(255)\n    IF @ID IS NULL\n        SET @message = 'ID is null. ID cannot be null or less than zero.'\n    ELSE\n        SET @message = 'ID is ' + CONVERT(VARCHAR, @ID) + '. ID cannot be null or less than zero.'\n    \n    PRINT @message\n    RETURN 27001\nEND

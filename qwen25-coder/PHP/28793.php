@@ -1,1 +1,0 @@
-// Example of inserting post into awaiting moderation table\n   $stmt = $conn->prepare("INSERT INTO moderated_posts (message, ip) VALUES (?, ?)");\n   $stmt->bind_param("ss", $_POST['message'], $_SERVER['REMOTE_ADDR']);\n   $stmt->execute();

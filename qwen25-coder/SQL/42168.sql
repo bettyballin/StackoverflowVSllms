@@ -1,1 +1,0 @@
-SELECT \n    CAST('<Test foo="bar"><Otherstuff baz="belch" /></Test>' AS xml)\n    .value('(/Test/@foo)[1]', 'varchar(20)') AS Foo;

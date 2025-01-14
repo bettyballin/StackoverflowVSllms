@@ -1,1 +1,0 @@
-<!-- Example of how Cassini is specified in a Web Application's .csproj file -->\n<PropertyGroup>\n  <UseIISExpress>false</UseIISExpress>\n  <DevelopmentServerPort>59117</DevelopmentServerPort>\n  <DevelopmentServerVPath>/</DevelopmentServerVPath>\n</PropertyGroup>

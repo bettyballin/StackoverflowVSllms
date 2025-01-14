@@ -1,1 +1,0 @@
-# Auxiliary App Service or Controller\ndef make_request_to_primary_app\n  uri = URI('http://primary-app.com/api/resource')\n  params = { resource_data: 'data', token: ENV['SHARED_SECRET_TOKEN'] }\n  \n  response = Net::HTTP.post_form(uri, params)\nend

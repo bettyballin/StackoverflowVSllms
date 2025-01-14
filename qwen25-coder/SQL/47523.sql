@@ -1,1 +1,0 @@
-LogParser.exe -i:IISW3C \n"SELECT COUNT(*) AS Client\nFROM *.log\nWHERE LEN(cs(User-Agent)) > x"

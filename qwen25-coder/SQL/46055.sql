@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n    Username NVARCHAR(50) PRIMARY KEY,\n    Email NVARCHAR(100),\n    CreatedDate DATETIME DEFAULT GETDATE()\n);

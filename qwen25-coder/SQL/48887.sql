@@ -1,1 +1,0 @@
-ALTER TABLE Sales ADD COLUMN sold_on_is_null SMALLINT;

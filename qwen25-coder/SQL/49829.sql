@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN T3.P = True THEN T2.NAME \n        ELSE T1.NAME \n    END AS DisplayedName\nFROM Table3 T3\nJOIN Table1 T1 ON T1.ID = T3.ID\nJOIN Table2 T2 ON T2.ID = T3.ID;

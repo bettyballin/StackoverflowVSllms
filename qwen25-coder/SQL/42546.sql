@@ -1,1 +1,0 @@
-SELECT a, b, c, HASHBYTES('SHA1', 'HELLO')\nFROM my_table;

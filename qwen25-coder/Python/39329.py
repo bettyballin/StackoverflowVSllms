@@ -1,1 +1,0 @@
-a = set((1, 2, 3))\nb = set((2, 3, 5))\nunion = set()\n\nfor el in a:\n    union.add(el)  # O(1) on average\n\nfor el in b:\n    union.add(el)  # O(1) on average

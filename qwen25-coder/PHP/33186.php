@@ -1,1 +1,0 @@
-// Retrieve the id from the query string, if it exists\n$id = isset($_GET['id']) ? intval($_GET['id']) : 0;\n\n// Optionally, use a function to set default values\nfunction setdefault($var, $default=0) {\n    return isset($var) ? intval($var) : $default;\n}\n\n// Using the function\n$id = setdefault($_GET['id'], 0);

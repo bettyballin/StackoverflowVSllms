@@ -1,1 +1,0 @@
-<?php\n\nclass IndexController {\n\n    public function index() {\n        echo "Welcome to the homepage!";\n    }\n\n    public function about() {\n        echo "This is about us.";\n    }\n}

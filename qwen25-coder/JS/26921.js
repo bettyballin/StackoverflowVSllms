@@ -1,1 +1,0 @@
-// Select the node and find all siblings\n$('#inner1').siblings().each(function() {\n    console.log(this);\n});

@@ -1,1 +1,0 @@
-SELECT CONCAT(COALESCE(FirstName, ''), COALESCE(LastName, ''), COALESCE(Email, '')) AS Vitals \nFROM MEMBERS;

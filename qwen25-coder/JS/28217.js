@@ -1,1 +1,0 @@
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>\n<script>\n$(document).ready(function(){\n    $('#addPage').click(function(event){\n        event.preventDefault();\n        $('#pageForm').append('<input type="text" name="pages[]">');\n    });\n});\n</script>

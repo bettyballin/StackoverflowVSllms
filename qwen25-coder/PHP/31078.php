@@ -1,1 +1,0 @@
-$data = $_REQUEST['in'];\n$decodedData = base64_decode(str_replace('-', '+', str_replace('_', '/', $data)));

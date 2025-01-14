@@ -1,1 +1,0 @@
-function pointOnCircle(radius, angleDegrees, origin = [0, 0]) {\n    const angleRadians = angleDegrees * Math.PI / 180;\n    const x = origin[0] + radius * Math.cos(angleRadians);\n    const y = origin[1] + radius * Math.sin(angleRadians);\n    return { x, y };\n}

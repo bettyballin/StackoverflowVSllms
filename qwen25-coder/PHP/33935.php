@@ -1,1 +1,0 @@
-function myErrorHandler($errno, $errstr, $errfile, $errline) {\n       // Log the error manually to check if this is being called.\n       file_put_contents('/var/log/file', "[$errno] : $errstr - $errfile:$errline\n", FILE_APPEND);\n       \n       // Custom logging logic...\n   }\n   \n   set_error_handler("myErrorHandler");

@@ -1,1 +1,0 @@
-INSERT INTO db2.dbo.table2 (column1, column2, column3) -- Specify columns explicitly for safety\nSELECT t.column1, t.column2, t.column3\nFROM OPENROWSET(\n    'SQLOLEDB', \n    'Server=source_server;User ID=your_username;Password=your_password;', \n    'SELECT * FROM db1.dbo.table1 WHERE rule1 = 1'\n) AS t;

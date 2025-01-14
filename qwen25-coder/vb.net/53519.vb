@@ -1,1 +1,0 @@
-Function EscapeSingleQuotes(inputString As String) As String\n    ' Replace each single quote with two single quotes\n    EscapeSingleQuotes = Replace(inputString, "'", "''")\nEnd Functio

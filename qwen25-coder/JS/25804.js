@@ -1,1 +1,0 @@
-$('.hideMe').click(function(){ \n    var numberOfChildren = $(this).next('ul').children().length;\n    alert(numberOfChildren);\n});

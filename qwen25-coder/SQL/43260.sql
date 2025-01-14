@@ -1,1 +1,0 @@
-SELECT \n    AVG(Salary) AS AverageSalary,\n    DepartmentID\nFROM\n    (SELECT \n         Salary, \n         DepartmentID\n     FROM \n         Employees) AS EmployeeSubquery -- This is the inline view\nGROUP BY \n    DepartmentID;

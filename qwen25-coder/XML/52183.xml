@@ -1,1 +1,0 @@
-<configuration>\n     <system.webServer>\n       <modules>\n         <remove name="FormsAuthenticationModule" />\n         <remove name="UrlAuthorizationModule" />\n       </modules>\n     </system.webServer>\n   </configuration>

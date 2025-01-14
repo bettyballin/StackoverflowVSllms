@@ -1,1 +1,0 @@
-<?php\n   \Magento\Framework\Component\ComponentRegistrar::register(\n       \Magento\Framework\Component\ComponentRegistrar::MODULE,\n       'Affiliate_System',\n       __DIR__\n   );

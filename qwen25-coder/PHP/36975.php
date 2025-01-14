@@ -1,1 +1,0 @@
-<?php\n\nnamespace Vendor\Package;\n\nclass ClassName\n{\n    public function methodWithMultipleArguments(\n        int $arg1,\n        string $arg2,\n        array $arg3 = []\n    ): \ArrayObject {\n        // method body\n    }\n}

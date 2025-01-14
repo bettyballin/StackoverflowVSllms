@@ -1,1 +1,0 @@
-CREATE PROCEDURE usp_Example\nWITH ENCRYPTION\nAS\nBEGIN\n    -- Your sensitive logic here\nEND;

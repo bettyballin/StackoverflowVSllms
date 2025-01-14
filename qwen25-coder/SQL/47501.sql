@@ -1,1 +1,0 @@
-Begin\n    If select count(*) from Table1 > 0 then -- Correct syntax without extra parentheses\n        dbms_output.put_line('Test');\n    end if;\nend;

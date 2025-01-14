@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.NEWDOC_Order()\nRETURNS INT\nWITH SCHEMABINDING -- Use schemabinding to make the function deterministic\nAS\nBEGIN\n    DECLARE @NewOrder INT;\n    SELECT @NewOrder = COALESCE(MAX(DOC_ORDER) + 1, 1) FROM DOC_Documents;\n    RETURN @NewOrder;\nEND

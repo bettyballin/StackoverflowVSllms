@@ -1,1 +1,0 @@
-Protected Sub deleteevent(ByVal sender As Object, ByVal e As EventArgs) Handles lnkTriggerPostback.Click\n    ' Retrieve data from hidden field\n    Dim valueFromClient As String = hiddenData.Value\n    \n    ' Your logic here using valueFromClient\nEnd Sub

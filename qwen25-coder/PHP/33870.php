@@ -1,1 +1,0 @@
-$serverName = "tcp:your_server_address,1433";\n   $connectionOptions = array(\n       "Database" => "your_database",\n       "Uid" => "your_username",\n       "PWD" => "your_password"\n   );\n   \n   //Establishes the connection\n   $conn = sqlsrv_connect($serverName, $connectionOptions);\n   \n   if ($conn === false) {\n       die(print_r(sqlsrv_errors(), true));\n   }

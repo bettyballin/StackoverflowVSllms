@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- Your SQL statement here\nUPDATE YourTable SET ColumnName = 'NewValue' WHERE ConditionColumn = 'Condition';\n\n-- If everything is correct, commit the transaction\nCOMMIT TRANSACTION;\n\n-- If there is a problem and you need to rollback, use:\n-- ROLLBACK TRANSACTION;

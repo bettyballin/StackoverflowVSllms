@@ -1,1 +1,0 @@
-SELECT DISTINCT active FROM my_table;

@@ -1,1 +1,0 @@
-SELECT customer.name, SUM(order.total)\nFROM customer\nJOIN order ON customer.id = order.customer_id\nWHERE order.date > '2021-01-01'\nGROUP BY customer.id;

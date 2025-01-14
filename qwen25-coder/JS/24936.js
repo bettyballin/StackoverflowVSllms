@@ -1,1 +1,0 @@
-$.getJSON("Featured/getEvents", function(data){\n    $.each(data.events, function(i, event){\n        var title = event.title.substr(0, 20);\n        $("#title-" + i).text(title); // Use the 'title' variable here\n        if (i == 4) return false;\n    });\n});

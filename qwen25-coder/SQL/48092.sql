@@ -1,1 +1,0 @@
--- Example of a plan with a full table scan where index could have been used:\n  Seq Scan on table_name (cost=0.00..266.00 rows=1 width=67) (actual time=8.943..8.950 rows=1 loops=1)

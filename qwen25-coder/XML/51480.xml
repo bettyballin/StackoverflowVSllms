@@ -1,1 +1,0 @@
-<configuration>\n     <system.webServer>\n       <httpRedirect enabled="true" destination="/applicationB/issue/" httpResponseStatus="Permanent" />\n     </system.webServer>\n   </configuration>

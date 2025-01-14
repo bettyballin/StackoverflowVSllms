@@ -1,1 +1,0 @@
-function compareByScoreDescending($a, $b) {\n    if ($a->score == $b->score) {\n        return 0;\n    }\n    return ($a->score < $b->score) ? 1 : -1;\n}

@@ -1,1 +1,0 @@
-import re\n\ndef clean_string(s):\n    # Replace two or more dashes with a single dash\n    s = re.sub(r'-{2,}', '-', s)\n    # Remove leading and trailing dashes\n    s = s.strip('-')\n    return s\n\nexample = "-this--is---a-test--"\nresult = clean_string(example)\nprint(result)  # Output: this-is-a-test

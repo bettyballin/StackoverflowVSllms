@@ -1,1 +1,0 @@
-class DataType1 < ApplicationRecord\n  has_many :data_type_2s\n  accepts_nested_attributes_for :data_type_2s, allow_destroy: true, reject_if: lambda { |a| a[:title].blank? }\nend

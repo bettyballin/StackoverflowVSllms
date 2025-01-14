@@ -1,1 +1,0 @@
-WITH AllDescendantsOf2 AS (\n    SELECT \n        t.Key\n    FROM AllDescendants ad\n    WHERE ad.Path LIKE '%,2,%'\n)\nSELECT t1.*\nFROM Table1 t1\nINNER JOIN Table3 t3 ON t1.ItemID = t3.ItemID\nWHERE t3.GroupKey NOT IN (SELECT Key FROM AllDescendantsOf2)

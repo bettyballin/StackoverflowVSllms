@@ -1,1 +1,0 @@
-(?i)FROM.*?WHERE.FieldName='ContactMethod'[\s\S]*?and\s+IsNull\(Deactived,''\)\s*!=\s*'T'

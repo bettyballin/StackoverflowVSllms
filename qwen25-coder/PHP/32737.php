@@ -1,1 +1,0 @@
-// Log variables to a file for debugging\nfunction debugLog($message) {\n    file_put_contents('debug.log', $message . "\n", FILE_APPEND);\n}

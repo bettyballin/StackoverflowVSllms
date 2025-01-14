@@ -1,1 +1,0 @@
-<?php\n\nfunction prettyPrint($data) {\n    echo "<pre>";\n    print_r($data);\n    echo "</pre>";\n}\n\n$arr = array("one" => 1, "two" => array("sub_one" => 2));\nprettyPrint($arr);\n\n// Using json_encode\necho "<pre>";\necho json_encode($arr, JSON_PRETTY_PRINT);\necho "</pre>";\n\n?>

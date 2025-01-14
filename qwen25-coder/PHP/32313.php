@@ -1,1 +1,0 @@
-echo $_SERVER['REQUEST_URI']; // Outputs: /faq/whatever

@@ -1,1 +1,0 @@
-SET TIME ZONE 'UTC';\nINSERT INTO "test" ("username", "dob") VALUES (E'Shuttle', E'1941-01-25 00:20:30');\nRESET TIME ZONE;

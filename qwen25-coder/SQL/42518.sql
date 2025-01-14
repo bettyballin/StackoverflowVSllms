@@ -1,1 +1,0 @@
-WITH LatestSubmissions AS (\n    SELECT UserName, MAX(SubmittedDate) AS MaxDate\n    FROM table1\n    GROUP BY UserName\n)\nSELECT t.Id, t.UserName\nFROM table1 t\nJOIN LatestSubmissions ls ON t.UserName = ls.UserName AND t.SubmittedDate = ls.MaxDate;

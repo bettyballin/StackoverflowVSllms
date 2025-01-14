@@ -1,1 +1,0 @@
-class CatalogController extends Zend_Controller_Action {\n         public function productAction() {\n             // Your code here\n         }\n     }

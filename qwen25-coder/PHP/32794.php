@@ -1,1 +1,0 @@
-$title = "Example Title!";\n   $cleanTitle = filter_var($title, FILTER_SANITIZE_STRING);\n   $permalink = urlencode($cleanTitle); // Or use rawurlencode if space should be encoded as %20

@@ -1,1 +1,0 @@
-SELECT * \nFROM (\n    SELECT t.*, ROWNUM rn\n    FROM (\n        SELECT * \n        FROM sometable\n        ORDER BY name\n    ) t\n    WHERE ROWNUM <= 30\n)\nWHERE rn > 20;

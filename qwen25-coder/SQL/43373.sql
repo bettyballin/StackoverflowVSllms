@@ -1,1 +1,0 @@
-CREATE TABLE CompanyIDTracker (\n       Company_id INT PRIMARY KEY,\n       LastInternalID INT DEFAULT 0\n   );

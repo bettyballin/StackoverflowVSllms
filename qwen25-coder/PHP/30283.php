@@ -1,1 +1,0 @@
-$uploadDir = '/absolute/path/to/uploads/';\n    $target = $uploadDir . basename($_FILES['uploaded']['name']);

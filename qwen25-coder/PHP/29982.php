@@ -1,1 +1,0 @@
-<?php\n$input_date = '03-JUL-09 14';\n\n// Check if the time part has only hours, append ":00" for minutes\nif (preg_match('/\d{2}$/', $input_date)) {\n    $input_date .= ':00';\n}\n\n$formatted_date = date("Y-m-d H:i:s", strtotime($input_date));\necho $formatted_date;\n?>

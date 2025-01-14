@@ -1,1 +1,0 @@
-const text = "This is an example string with #758 and # 758.";\nconst regex = /#(\d+)/g;\nconst clickableText = text.replace(regex, '<a href="https://example.com/$1">#$1</a>');\n\nconsole.log(clickableText);

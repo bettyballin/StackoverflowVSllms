@@ -1,1 +1,0 @@
-<?php\n    $name = $_POST['name'];\n    $age = $_POST['age'];\n    // Process the data and prepare a response\n    $response = ['message' => "Received: Name - $name, Age - $age"];\n    echo json_encode($response); // Send back JSON response\n    ?>

@@ -1,1 +1,0 @@
-// Hash a password\n   $hashedPassword = password_hash($userPassword, PASSWORD_DEFAULT);\n\n   // Verify a password\n   if (password_verify($inputPassword, $hashedPassword)) {\n       // Password is valid!\n   } else {\n       // Invalid password\n   }

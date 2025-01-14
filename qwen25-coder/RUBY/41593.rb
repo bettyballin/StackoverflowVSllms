@@ -1,1 +1,0 @@
-# config/environments/development.rb\n   config.public_file_server.enabled = true\n\n   # Ensure the assets are located under public directory structure, e.g., public/images/foo.jpg

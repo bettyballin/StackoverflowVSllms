@@ -1,1 +1,0 @@
-select tblA.a, tblA.b, tblA.c, tblA.d\nfrom tblA\nleft outer join tblB on tblA.a = tblB.a \nwhere tblB.a is null;

@@ -1,1 +1,0 @@
-<?php\nif(isset($_GET["email"])) {\n    $id = $_GET["email"];\n    // Validate and sanitize the email address\n    if(filter_var($id, FILTER_VALIDATE_EMAIL)) {\n        // Process the unsubscribe logic here\n        echo "You have been unsubscribed.";\n    } else {\n        echo "Invalid email address.";\n    }\n} else {\n    echo "No email provided.";\n}\n?>

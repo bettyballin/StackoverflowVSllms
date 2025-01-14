@@ -1,1 +1,0 @@
-<!-- Example of a project configuration -->\n   <project name="YourProjectName" queue="default">\n     ...\n     <tasks>\n       <msbuild>\n         <executable>C:\Path\To\MSBuild.exe</executable>\n         <workingDirectory>C:\Dev\WorkingDir</workingDirectory>\n         <projectFile>Build.proj</projectFile>\n         ...\n       </msbuild>\n     </tasks>\n   </project>

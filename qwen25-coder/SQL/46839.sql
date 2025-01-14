@@ -1,1 +1,0 @@
-SELECT \n  scn,\n  TO_TIMESTAMP(TO_CHAR(utc_time,'YYYY-MM-DD HH24:MI:SS'), 'YYYY-MM-DD HH24:MI:SS') as converted_timestamp\nFROM (\n    SELECT\n      scn,\n      utl_raw.cast_to_number(substr(time_mp,1,5)) + \n        NUMTODSINTERVAL((utl_raw.cast_to_number(substr(time_mp,6))/100), 'SECOND') AS utc_time\n    FROM sys.smon_scn_time$\n)\nWHERE rownum < 2;

@@ -1,1 +1,0 @@
-header('Content-Type: text/html; charset=utf-8');\n   mb_internal_encoding('UTF-8');

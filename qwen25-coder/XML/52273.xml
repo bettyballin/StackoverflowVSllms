@@ -1,1 +1,0 @@
-<application xmlns="http://ns.adobe.com/air/application/28.0">\n    <id>com.example.yourapp</id>\n    <versionNumber>1.0.0</versionNumber>\n    <fileName>YourApplicationName</fileName>\n    <!-- Add installMode tag -->\n    <installMode type="user"/>\n    ...\n</application>

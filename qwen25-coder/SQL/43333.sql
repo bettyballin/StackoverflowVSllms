@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_YourTriggerName\nON YourTableName\nAFTER UPDATE\nAS\nBEGIN\n    SET NOCOUNT ON;\n\n    -- Update the [UPDATED] column with the current date and time for updated rows.\n    UPDATE t\n    SET t.[UPDATED] = GETDATE()\n    FROM YourTableName t\n    INNER JOIN INSERTED i ON t.YourPrimaryKeyColumn = i.YourPrimaryKeyColumn;\nEND;

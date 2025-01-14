@@ -1,1 +1,0 @@
-function greet(string $name): string {\n      return 'Hello, ' . $name;\n  }

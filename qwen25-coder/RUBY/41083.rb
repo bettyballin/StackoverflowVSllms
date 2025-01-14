@@ -1,1 +1,0 @@
-my_proc = Proc.new { |x| "Hello from a proc with #{x}" }\n   p my_proc.call("a proc")  # Calls a function, not explicitly on any particular object.

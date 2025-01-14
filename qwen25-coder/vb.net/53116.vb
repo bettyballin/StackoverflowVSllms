@@ -1,1 +1,0 @@
-Protected Sub Data_Stores_Selecting(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.SqlDataSourceSelectingEventArgs) Handles Data_Stores.Selecting\n    e.Command.Parameters("user_param").Value = Session("userid")\nEnd Sub

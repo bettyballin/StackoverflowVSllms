@@ -1,1 +1,0 @@
--- Example of attaching a MDF with log file rebuild\nUSE [master]\nGO\n\nCREATE DATABASE YourDatabaseName \nON (FILENAME = 'C:\NewPath\YourDatabase.mdf')\nFOR ATTACH_REBUILD_LOG;

@@ -1,1 +1,0 @@
-$cookieDomain = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : '';\n$sameSiteAttribute = 'Lax'; // or 'None' if you also set Secure = true and access over HTTPS\nsetcookie("Name", $cookie, time() + (60 * 24 * 365), "/", $cookieDomain, false, $sameSiteAttribute);

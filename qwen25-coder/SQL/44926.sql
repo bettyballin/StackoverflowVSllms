@@ -1,1 +1,0 @@
-USE [master];\nGO\n\nRESTORE DATABASE [YourDatabaseName]\nFROM DISK = 'C:\Backups\YourDatabaseName.bak'\nWITH FILE = 1,\nMOVE N'YourDatabaseName_Data' TO 'D:\Data\YourDatabaseName_Data.mdf',\nMOVE N'YourDatabaseName_Log' TO 'L:\Logs\YourDatabaseName_Log.ldf',\nNOUNLOAD, REPLACE, STATS = 5;\nGO

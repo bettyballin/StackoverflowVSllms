@@ -1,1 +1,0 @@
--- Fetching next set using a cursor value from the last item on the previous page\nSELECT *\nFROM questions\nWHERE id > :last_id_seen\nAND creation_date >= :last_creation_date_seen\nORDER BY creation_date ASC, id ASC\nLIMIT 10;

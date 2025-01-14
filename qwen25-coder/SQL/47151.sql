@@ -1,1 +1,0 @@
--- This will return no rows if NULL is considered equivalent to an empty string\nSELECT 'Match' FROM dual WHERE '' = '';\n\n-- To explicitly handle NULL and empty strings differently, one can use NVL or COALESCE functions\nSELECT 'No Match' FROM dual WHERE NVL('', 'X') = NVL(NULL, 'Y');

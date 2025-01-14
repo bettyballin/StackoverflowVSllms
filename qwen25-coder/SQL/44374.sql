@@ -1,1 +1,0 @@
--- Example update statement where column order in mapping differs from the physical layout\nUPDATE employees\nSET salary = 50000, name = 'John Doe'\nWHERE id = 1;

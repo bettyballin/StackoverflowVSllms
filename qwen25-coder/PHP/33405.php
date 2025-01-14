@@ -1,1 +1,0 @@
-// Start the session or resume if already started\nsession_start();\n\nif (!isset($_SESSION['start_time'])) {\n    // Store the session start time when the session is first started\n    $_SESSION['start_time'] = time();\n}\n\n$session_age = time() - $_SESSION['start_time'];\n\necho "The session has been alive for $session_age seconds.";

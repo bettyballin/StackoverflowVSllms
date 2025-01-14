@@ -1,1 +1,0 @@
-def select(table_name, column_name, value):\n    table = db.get(table_name)\n    if not table:\n        return "Table does not exist"\n    \n    idx = table[column_name].index(value)\n    result = {col: table[col][idx] for col in table}\n    return result\n\nprint(select('users', 'name', 'Alice'))

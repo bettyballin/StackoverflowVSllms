@@ -1,1 +1,0 @@
-CREATE TABLE my_table (\n       active BIT(1)\n   );

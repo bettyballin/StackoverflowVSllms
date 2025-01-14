@@ -1,1 +1,0 @@
--- Calculate checksum for the live table\nSELECT CHECKSUM(TABLE_NAME)\nFROM information_schema.tables\nWHERE table_schema = 'livedb' AND table_name = 'your_table';\n\n-- Calculate checksum for the test table\nSELECT CHECKSUM(TABLE_NAME)\nFROM information_schema.tables\nWHERE table_schema = 'testdb' AND table_name = 'your_table';

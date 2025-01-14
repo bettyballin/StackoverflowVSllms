@@ -1,1 +1,0 @@
-SELECT * FROM event \n   WHERE keywords LIKE '%hello%' OR keywords LIKE '%world%';

@@ -1,1 +1,0 @@
-CREATE OR REPLACE TRIGGER trg_validate_email\nBEFORE INSERT OR UPDATE ON your_table_name\nFOR EACH ROW BEGIN\n  IF NOT REGEXP_LIKE(:NEW.email, '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$') THEN\n    RAISE_APPLICATION_ERROR(-20101, 'Invalid email format');\n  END IF;\nEND trg_validate_email;\n/

@@ -1,1 +1,0 @@
-DECLARE @SQL NVARCHAR(MAX);\nSET @SQL = N'SELECT * FROM MyTable WHERE Column1 = ' + QUOTENAME(@UserInput, '''');\nEXEC (@SQL);

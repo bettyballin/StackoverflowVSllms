@@ -1,1 +1,0 @@
-sample_rate = 44100  # Replace with your actual sample rate\n   freqs = np.fft.rfftfreq(len(data), d=1./sample_rate)

@@ -1,1 +1,0 @@
-Session("MyData") = "SomeValue"\n     Dim myData As String = CType(Session("MyData"), String)

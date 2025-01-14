@@ -1,1 +1,0 @@
-SELECT 'x' FROM dual WHERE addNumber(4,3) = 7;

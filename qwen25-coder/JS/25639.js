@@ -1,1 +1,0 @@
-function loadImageStrip(filename):\n    imageStrip = readFileToMemory(filename)\n    return imageStrip\n\nfunction getImageFromStrip(imageStrip, x, y, width, height):\n    // Extract the specific sub-image from the larger image strip using the coordinates and dimensions provided.\n    subImage = extractSubImage(imageStrip, x, y, width, height)\n    return subImage

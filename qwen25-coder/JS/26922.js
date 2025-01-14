@@ -1,1 +1,0 @@
-$.ajax({\n    url: 'your-url',\n    method: 'GET',\n    headers: { 'X-Requested-With': 'XMLHttpRequest' },\n    success: function(response) {\n        console.log('AJAX request successful:', response);\n    }\n});

@@ -1,1 +1,0 @@
-# config/routes.rb\nRails.application.routes.draw do\n  resources :projects do\n    member do\n      get 'archive'\n      post 'publish'\n    end\n\n    collection do\n      get 'search'\n    end\n  end\nend

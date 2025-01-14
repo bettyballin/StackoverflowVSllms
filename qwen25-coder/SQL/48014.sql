@@ -1,1 +1,0 @@
-USE YourDatabaseName;\nGO\nDBCC SHRINKFILE (N'YourLogicalFileName', 1024);

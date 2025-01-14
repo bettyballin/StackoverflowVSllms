@@ -1,1 +1,0 @@
-function loadDoc() {\n    const xhttp = new XMLHttpRequest();\n    xhttp.onreadystatechange = function() {\n        if (this.readyState == 4 && this.status == 200) {\n            document.getElementById("demo").innerHTML = this.responseText;\n        }\n    };\n    xhttp.open("GET", "ajax_info.txt", true);\n    xhttp.send();\n}

@@ -1,1 +1,0 @@
-var div = document.getElementById('yourDivId');\nvar rect = div.getBoundingClientRect();\n\nconsole.log(rect.top);    // Distance from top of viewport\nconsole.log(rect.right);  // Distance from right of viewport\nconsole.log(rect.bottom); // Distance from bottom of viewport\nconsole.log(rect.left);   // Distance from left of viewport

@@ -1,1 +1,0 @@
-' Adding an entry: Average O(1), worst case O(n)\nindex(key) = value\n\n' Reading an entry using TryGetValue: Average O(1), worst case O(n)\nDim exists As Boolean = index.TryGetValue(key, value)

@@ -1,1 +1,0 @@
-// Example: Setting a cookie for the main domain only\n   setcookie('example_cookie', 'value', time() + (86400 * 30), "/", ".yourmaindomain.com", false, true);

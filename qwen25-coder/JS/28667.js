@@ -1,1 +1,0 @@
-const apiKey = 'YOUR_GOOGLE_MAPS_API_KEY';\nasync function getCoordinates(address) {\n    const response = await fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent(address)}&key=${apiKey}`);\n    const data = await response.json();\n    return data.results[0].geometry.location;\n}

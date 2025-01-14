@@ -1,1 +1,0 @@
-<?php\n\n// Define a constant for debug mode\ndefine('DEBUG', true);\n\n$functionResult = someFunction();\n\nif (DEBUG) {\n    echo "Debug info: Function returned " . $functionResult;\n}\n\nfunction someFunction() {\n    return 'Some value';\n}

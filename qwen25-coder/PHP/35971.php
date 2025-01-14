@@ -1,1 +1,0 @@
-<?php\nif (!empty($_COOKIE)) {\n    foreach ($_COOKIE as $name => $value) {\n        echo "Cookie name: " . htmlspecialchars($name) . "\n";\n        // Optionally, you can also print the value of each cookie:\n        // echo "Cookie value: " . htmlspecialchars($value) . "\n";\n    }\n} else {\n    echo "No cookies found.";\n}\n?>

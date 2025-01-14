@@ -1,1 +1,0 @@
-SELECT * FROM my_table WHERE active = b'1';

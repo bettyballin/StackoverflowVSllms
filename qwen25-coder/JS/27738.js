@@ -1,1 +1,0 @@
-function parseId(data) {\n      console.log(`The value of ${data.name} is ${data.value}`);\n  }\n\n  // Usage\n  const myId = "12345";\n  parseId({name: 'myId', value: myId});

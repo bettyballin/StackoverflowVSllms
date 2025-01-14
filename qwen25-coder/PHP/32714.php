@@ -1,1 +1,0 @@
-$delimCC = [3, 4, 5]; // Your array of values\n$stringResult = implode(';', $delimCC); // Convert array to string with ';' as delimiter\n\necho $stringResult; // Outputs: 3;4;5

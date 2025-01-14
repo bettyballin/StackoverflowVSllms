@@ -1,1 +1,0 @@
-SourceNameLower = LOWER([source employee name column])\n   DestinationNameLower = LOWER([destination employee name column])

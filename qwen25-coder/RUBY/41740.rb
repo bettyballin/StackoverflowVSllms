@@ -1,1 +1,0 @@
-class BinaryFilesController < ApplicationController\n  def create\n    @binary_file = BinaryFile.new(binary_file_params)\n    \n    if @binary_file.save\n      redirect_to @binary_file, notice: 'File was successfully uploaded.'\n    else\n      render :new\n    end\n  end\n\n  private\n\n  def binary_file_params\n    params.require(:binary_file).permit(:file)\n  end\nend

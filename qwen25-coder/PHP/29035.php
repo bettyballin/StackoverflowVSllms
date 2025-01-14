@@ -1,1 +1,0 @@
-function generateEmail($identifier) {\n    $randomString = bin2hex(random_bytes(4)); // Generates a random hex value\n    return "$identifier-$randomString@craigslistclone.org";\n}

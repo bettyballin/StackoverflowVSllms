@@ -1,1 +1,0 @@
-// Create a new script element\nvar script = document.createElement('script');\n\n// Set attributes for the script element\nscript.type = 'text/javascript';\nscript.text = "console.log('This is a custom script!');"; // Example of inline script content\n\n// Insert the script into the head section of the HTML document\ndocument.head.appendChild(script);

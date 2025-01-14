@@ -1,1 +1,0 @@
-SET SHOWPLAN_ALL ON;\n   EXEC Your_Stored_Procedure_Name;\n   SET SHOWPLAN_ALL OFF;

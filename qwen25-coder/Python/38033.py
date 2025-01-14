@@ -1,1 +1,0 @@
-# Defining an array (list in Python)\narray = [10, 20, 30]\n\n# Defining a function\ndef func(index):\n    return "Value at index " + str(index) + " is " + str(array[index])\n\n# Using different syntax for array and function\nprint(array[0])  # Array access using square brackets\nprint(func(0))   # Function call using parentheses

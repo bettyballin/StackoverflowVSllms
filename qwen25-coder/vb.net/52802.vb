@@ -1,1 +1,0 @@
-Public Declare Function add2 Lib "C:\c\dll\mydll" _\n    (ByVal num As Integer) As Integer\n    \n' Example of calling the function in VB6\nPrivate Sub Command1_Click()\n    Dim result As Integer\n    result = add2(5)\n    MsgBox result ' Should display 7\nEnd Sub

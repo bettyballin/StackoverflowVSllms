@@ -1,1 +1,0 @@
-SELECT *\nFROM YourTable\nWHERE StartDate <= CURRENT_DATE AND \n      (EndDate IS NULL OR EndDate >= CURRENT_DATE);

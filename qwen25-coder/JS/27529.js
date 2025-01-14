@@ -1,1 +1,0 @@
-const module = require('/path/to/module');\n  // Or with dynamic import in async function\n  const module = await import('/path/to/module.js');

@@ -1,1 +1,0 @@
-tcp_client = TCPSocket.new(ipaddr, port)\ntcp_client.write('Z' + "\n") # Append newline to indicate end of message\ntcp_client.close

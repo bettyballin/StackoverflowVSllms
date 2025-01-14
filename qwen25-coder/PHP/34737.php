@@ -1,1 +1,0 @@
-class Example {\n    public $definedProperty = "I exist from the start";\n}\n\n$obj = new Example();\necho $obj->definedProperty; // Outputs: I exist from the start\n\n// Adding a property at runtime\n$obj->runtimeProperty = "I was added just now";\necho $obj->runtimeProperty; // Outputs: I was added just now

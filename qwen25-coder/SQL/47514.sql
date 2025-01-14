@@ -1,1 +1,0 @@
--- Turn on detailed logging for a specific package\nBEGIN\n    logger.set_level(p_name => 'MY_PACKAGE', p_level => logger.g_debug);\nEND;\n/\n-- Turn off all logging (by setting level to none)\nBEGIN\n    logger.set_level(logger.g_none);\nEND;\n/

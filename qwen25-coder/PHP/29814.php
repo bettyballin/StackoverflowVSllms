@@ -1,1 +1,0 @@
-use MathPHP\LinearAlgebra\Matrix;\n\n$A = new Matrix([\n    [1, 2],\n    [3, 4]\n]);\n\n$B = new Matrix([\n    [5, 6],\n    [7, 8]\n]);\n\n$productMatrix = $A->multiply($B);\n\necho $productMatrix;

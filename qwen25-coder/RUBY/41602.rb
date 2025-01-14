@@ -1,1 +1,0 @@
-atom_feed do |feed|\n  @stories.each do |story|\n    feed.entry story do |entry|\n      entry.title story.title\n      entry.content raw("<b>foo</b>") # Use raw to avoid escaping HTML\n    end\n  end\nend

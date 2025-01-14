@@ -1,1 +1,0 @@
-<set name="tutorials" cascade="remove">\n    <key column="cid"/>\n    <one-to-many class="com.example.Tutorial"/>\n</set>\n\n<set name="applications" cascade="remove">\n    <key column="cid"/>\n    <one-to-many class="com.example.Application"/>\n</set>

@@ -1,1 +1,0 @@
-CREATE TABLE my_table (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(255) NOT NULL\n) DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

@@ -1,1 +1,0 @@
-<?php\n$string = "this is a %f sample %'-20s,<br> this string is mixed with type    specifier like   (number:%d's)";\n\n// Regular expression to match type specifiers\n$pattern = '/%(?:\d+\.\d+)?[+-]?\d*(?:\.\d+)?[a-zA-Z]/';\n\n// Replace all matches with [#]\n$result = preg_replace($pattern, '[#]', $string);\n\necho $result;\n?>

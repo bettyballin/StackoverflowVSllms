@@ -1,1 +1,0 @@
-<extension point="com.example.monitor.custom.servers">\n    <server class="com.example.myservers.MyServerType">\n        <!-- Other metadata -->\n    </server>\n</extension>

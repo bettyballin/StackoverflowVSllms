@@ -1,1 +1,0 @@
-return $.map(eval(data), function(row) \n{\n    return {\n        data: row,\n        value: row.UserID,\n        result: ""\n    };\n});

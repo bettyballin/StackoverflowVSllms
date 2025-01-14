@@ -1,1 +1,0 @@
-$connection = mysqli_connect("localhost", "root", "password");\nif (mysqli_connect_error()) {\n    die('Connect Error (' . mysqli_connect_errno() . ') '\n            . mysqli_connect_error());\n}

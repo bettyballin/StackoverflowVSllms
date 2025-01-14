@@ -1,1 +1,0 @@
-# Find questions tagged with 'Halloween'\n    Halloween_questions = Question.tagged_with('Halloween')\n    \n    # Find questions that have all these tags\n    tag_intersection_q = Question.tagged_with(['Halloween', 'Movie'], match_all: true)

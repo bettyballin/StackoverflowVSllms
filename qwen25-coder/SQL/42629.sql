@@ -1,1 +1,0 @@
-SELECT \n    groupid,\n    CAST(SUM(CASE WHEN flag = 1 THEN 1 ELSE 0 END) AS FLOAT) / COUNT(*) AS ratio\nFROM \n    #tableA\nGROUP BY \n    groupid;

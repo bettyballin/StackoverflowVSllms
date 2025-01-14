@@ -1,1 +1,0 @@
-<?php\nfunction countUppercaseWords($string) {\n    // Use preg_match_all to find all words that start with an uppercase letter followed by lowercase letters\n    preg_match_all('/\b[A-Z][a-z]*\b/', $string, $matches);\n    return count($matches[0]);\n}\n\n$string = "This is a Test String with Some UPPERCASE Words.";\necho countUppercaseWords($string); // Output: 4\n?>

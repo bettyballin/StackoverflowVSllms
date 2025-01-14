@@ -1,1 +1,0 @@
-proc sql;\n   connect to oracle (user=username password=password path='database_alias');\n   \n   create table work.example as \n      select * from connection to oracle\n         (select * from your_database_table);\n   \n   disconnect from oracle;\nquit;

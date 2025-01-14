@@ -1,1 +1,0 @@
-<category>\n    <pattern>ANSWER MY QUESTION</pattern>\n    <template>\n        Please try asking \n        <set name="it"></set> \n        another way.\n    </template>   \n</category>

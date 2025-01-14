@@ -1,1 +1,0 @@
-$str1 = "abc";\n$str2 = "def";\n$str3 = "ghi";\n\n// Concatenate directly\n$result = $str1 . $str2 . $str3;\necho $result; // Outputs: abcdefghi

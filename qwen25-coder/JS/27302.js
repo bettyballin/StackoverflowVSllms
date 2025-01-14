@@ -1,1 +1,0 @@
-// To disable an anchor with ID 'myLink'\n$('#myLink').off('click').css('pointer-events', 'none').attr('href', '#');\n\n// To enable an anchor with ID 'myLink'\n$('#myLink').on('click', function(e) {\n    // Optional: Handle click event if needed\n}).css('pointer-events', 'auto').attr('href', 'http://example.com');

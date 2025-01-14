@@ -1,1 +1,0 @@
-SELECT c.id, c.title\nFROM categories c\nJOIN category_closure cc ON c.id = cc.descendant\nWHERE cc.ancestor = 2;

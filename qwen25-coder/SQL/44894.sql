@@ -1,1 +1,0 @@
-SELECT\n  Foo.FooId,\n  Foo.FooName,\n  bars.BarData\nFROM\n  Foo\nCROSS APPLY (\n    SELECT\n      Bar.BarId,\n      Bar.FooId,\n      Bar.BarName\n    FROM\n      Bar\n    WHERE\n      Bar.FooId = Foo.FooId\n      AND Bar.BarName = 'SomeBar'\n    FOR XML PATH('Bar'), TYPE\n) AS bars (BarData)\nWHERE\n  Foo.FooName = 'SomeFoo'

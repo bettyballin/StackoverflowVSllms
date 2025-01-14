@@ -1,1 +1,0 @@
-const express = require('express');\nconst request = require('request');\nconst app = express();\n\napp.get('/proxy', (req, res) => {\n    const url = 'http://twittercounter.com/api/username=Anand_Dasgupta&output=json&results=3';\n    req.pipe(request(url)).pipe(res);\n});\n\napp.listen(3000, () => {\n    console.log('Proxy server running on port 3000');\n});

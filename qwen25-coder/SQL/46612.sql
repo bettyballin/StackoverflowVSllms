@@ -1,1 +1,0 @@
-SELECT usename AS "User", application_name, client_addr AS "Client Address", backend_start, state\nFROM pg_stat_activity;

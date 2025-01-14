@@ -1,1 +1,0 @@
-SELECT COUNT(*)\nFROM (\n    SELECT 1\n    FROM UserPermissions up\n    WHERE up.UserID = @UserID AND up.ApplicationID = @ApplicationID\n\n    UNION\n\n    SELECT 1\n    FROM Users u\n    INNER JOIN DepartmentPermissions dp ON u.DepartmentID = dp.DepartmentID\n    WHERE u.UserID = @UserID AND dp.ApplicationID = @ApplicationID\n) AS AccessCheck;

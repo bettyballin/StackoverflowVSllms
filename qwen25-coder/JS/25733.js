@@ -1,1 +1,0 @@
-function ca(w,h){var a=w*h;return a;}

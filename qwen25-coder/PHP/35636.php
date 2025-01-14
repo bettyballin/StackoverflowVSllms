@@ -1,1 +1,0 @@
-$this->password = $u_reuslt[0]['password'];

@@ -1,1 +1,0 @@
-GRANT INSERT ON Order TO CustomerRole;\n   -- Repeat for other operations and tables as needed

@@ -1,1 +1,0 @@
-SELECT\n    `Setting`.`setting_id`,\n    `Setting`.`description`,\n    `Setting`.`value_type`,\n    `Setting`.`default_value`,\n    `User_Setting`.`user_id`,\n    `User_Setting`.`value`\nFROM\n    `Setting`\nLEFT JOIN\n    `User_Setting` ON `Setting`.`setting_id` = `User_Setting`.`setting_id`\n    AND `User_Setting`.`user_id` = 1;

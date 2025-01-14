@@ -1,1 +1,0 @@
-GRANT FLASHBACK ANY TABLE TO developer;

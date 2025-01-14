@@ -1,1 +1,0 @@
-UPDATE CONSUMER_ITEMS ci\nJOIN ITEM i ON ci.ITEM_CODE = i.ITEM_CODE\nSET ci.NEW_ITEM_CODE = 'string' || i.UPC_CODE\nWHERE ci.ITEM_CODE IN (/* specific list of ITEM_CODES */);

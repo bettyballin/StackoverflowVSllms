@@ -1,1 +1,0 @@
-<?php\n\n$tempTotal = 0;\n\n// Simulating input values for demonstration\n$pBalance1 = 5;\n$pBalance2 = 5;\n$pBalance3 = 5;\n\nfor ($i = 1; $i <= 3; $i++) {\n    // Using curly braces to create the variable name dynamically\n    $tempTotal += ${"pBalance$i"};\n}\n\necho $tempTotal; // Outputs: 15\n\n?>

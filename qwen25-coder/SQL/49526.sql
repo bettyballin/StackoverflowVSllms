@@ -1,1 +1,0 @@
-ALTER PACKAGE your_package_name COMPILE;

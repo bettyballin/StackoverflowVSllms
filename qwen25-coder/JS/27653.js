@@ -1,1 +1,0 @@
-// JavaScript to log performance data\nfunction logPerformance(message) {\n    console.log(message);\n    // You can also send this data to a server or store it locally as needed.\n}

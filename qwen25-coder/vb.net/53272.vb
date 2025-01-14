@@ -1,1 +1,0 @@
-Imports Microsoft.VisualStudio.TestTools.UnitTesting\n\n<TestClass>\nPublic Class MathOperationsTests\n\n    <TestMethod>\n    Public Sub TestAdd()\n        Dim mathOps As New MathOperations()\n        Dim result As Integer = mathOps.Add(1, 2)\n        Assert.AreEqual(result, 3)\n    End Sub\n\nEnd Class

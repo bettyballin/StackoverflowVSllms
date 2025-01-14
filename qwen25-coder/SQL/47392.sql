@@ -1,1 +1,0 @@
-SELECT *\nFROM users\nWHERE first_name LIKE '%[a-z]%'\n   OR last_name LIKE '%[a-z]%';

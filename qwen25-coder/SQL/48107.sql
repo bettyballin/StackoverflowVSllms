@@ -1,1 +1,0 @@
--- Using Count(*)\nSELECT COUNT(*) FROM YourTable;\n\n-- Using Count(1)\nSELECT COUNT(1) FROM YourTable;

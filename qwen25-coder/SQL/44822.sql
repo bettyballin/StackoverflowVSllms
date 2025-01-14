@@ -1,1 +1,0 @@
-SELECT [description] \nFROM MyTable \nWHERE CONTAINS([description], '"3/4" and bear');

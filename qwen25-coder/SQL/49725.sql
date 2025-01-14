@@ -1,1 +1,0 @@
-DECLARE\n  result INTEGER;\nBEGIN\n  Testing('someKeyValue', result);\n  DBMS_OUTPUT.PUT_LINE('Rows deleted: ' || result);\nEND;

@@ -1,1 +1,0 @@
-DECLARE @date AS date;\nSET @date = '1/1/1901';\n\nSELECT @date;\n\nIF (@date IS NULL) \n    SELECT 'date is null' \nELSE \n    SELECT 'date not null';

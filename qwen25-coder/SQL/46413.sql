@@ -1,1 +1,0 @@
-LOAD FROM "data.txt" INSERT INTO crsabstr_rec (crs_no, cat, pr_cat, pr_sch, abstr);

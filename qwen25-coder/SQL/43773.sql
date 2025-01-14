@@ -1,1 +1,0 @@
--- Example of creating an index on 'thread' in your comments table\nCREATE INDEX idx_thread ON comment(thread);

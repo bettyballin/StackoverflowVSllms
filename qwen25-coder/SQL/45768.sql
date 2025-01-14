@@ -1,1 +1,0 @@
-WITH RankedReadings AS (\n    SELECT *,\n           ROW_NUMBER() OVER (PARTITION BY readings_miu_id ORDER BY RSSI) as rn\n    FROM analyzedCopy2\n)\nSELECT *\nFROM RankedReadings\nWHERE rn = 1;

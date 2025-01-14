@@ -1,1 +1,0 @@
-class EmailsController < ApplicationController\n     before_action :verify_authenticity_token, only: [:create, :update, :destroy]\n     \n     def create\n       # Your logic to send an email\n     end\n\n     private\n     \n     def verify_authenticity_token\n       render json: { message: 'Invalid XSRF token' }, status: 422 unless verified_request?\n     end\n   end

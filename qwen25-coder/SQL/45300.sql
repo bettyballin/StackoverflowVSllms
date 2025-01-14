@@ -1,1 +1,0 @@
-WITH RankedData AS (\n    SELECT \n        Date,\n        Column3Value,\n        ROW_NUMBER() OVER (ORDER BY Date) AS RowNum\n    FROMYourTableName\n)\nSELECT \n    d.Date,\n    d.Column3Value,\n    d.Column3Value - COALESCE(d_prev.Column3Value, 0) AS Difference\nFROM \n    RankedData d\nLEFT JOIN \n    RankedData d_prev ON d.RowNum = d_prev.RowNum + 1;

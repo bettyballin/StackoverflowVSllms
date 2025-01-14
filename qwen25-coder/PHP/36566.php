@@ -1,1 +1,0 @@
-<?php\n// Assuming $pdo is your PDO connection object\n\n$query = "INSERT INTO your_table (column1, column2) VALUES (:value1, :value2)";\n$stmt = $pdo->prepare($query);\n$stmt->execute([':value1' => 'value1', ':value2' => 'value2']);\n$lastInsertedId = $pdo->lastInsertId();\necho "Last inserted ID is: " . $lastInsertedId;\n?>

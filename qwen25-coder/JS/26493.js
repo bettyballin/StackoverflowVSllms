@@ -1,1 +1,0 @@
-if (window.opener) {\n       console.log("This page was opened from another window.");\n       // Do something if this window was opened from another.\n   }

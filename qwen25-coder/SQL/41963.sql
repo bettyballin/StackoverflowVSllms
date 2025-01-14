@@ -1,1 +1,0 @@
-CREATE TABLE Products (\n    Product_GUID UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWSEQUENTIALID(), -- Using GUID as primary key\n    UserFriendly_ID INT IDENTITY(1,1), -- Auto-incrementing integer for user-friendly ID\n    Name NVARCHAR(255),\n    Description TEXT,\n    Price DECIMAL(18, 2)\n);

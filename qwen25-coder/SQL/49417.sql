@@ -1,1 +1,0 @@
-SELECT \n    u.ID,\n    u.Name AS User,\n    STRING_AGG(c.Country, ', ') AS CountriesByName\nFROM \n    Users u\nCROSS APPLY\n    STRING_SPLIT(u.Countries, ',') s\nJOIN \n    Countries c ON c.ID = s.value\nGROUP BY\n    u.ID, u.Name;

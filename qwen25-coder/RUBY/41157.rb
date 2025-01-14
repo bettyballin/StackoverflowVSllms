@@ -1,1 +1,0 @@
-class ApplicationController < ActionController::Base\n    before_action :set_hsts_header, if: -> { request.env['HTTPS'] == 'on' && Rails.env.production? }\n\n    private\n\n    def set_hsts_header\n      response.headers['Strict-Transport-Security'] = 'max-age=31536000; includeSubDomains'\n    end\n  end

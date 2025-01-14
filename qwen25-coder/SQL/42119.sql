@@ -1,1 +1,0 @@
--- For US State Codes\nCREATE TABLE us_state_codes (\n    state_code CHAR(2) PRIMARY KEY\n);\n\n-- For Email Blacklist\nCREATE TABLE email_blacklist (\n    email VARCHAR(255) PRIMARY KEY\n);

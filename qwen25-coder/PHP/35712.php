@@ -1,1 +1,0 @@
-<a href="<?php echo $productLink; ?>" alt="<?php echo htmlspecialchars($productName); ?>">\n    <img src="/images/<?php echo basename($productImg1URL); ?>" alt="<?php echo htmlspecialchars($productName . ' ' . $productType); ?> ">\n</a>

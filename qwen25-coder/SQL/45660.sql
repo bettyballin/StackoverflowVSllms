@@ -1,1 +1,0 @@
-SELECT t1.*\nFROM Table1 t1\nJOIN (\n    SELECT ItemID, MIN(DateStamp) AS MinDate\n    FROM Table2\n    GROUP BY ItemID\n) t2 ON t1.ID = t2.ItemID\nORDER BY t2.MinDate;

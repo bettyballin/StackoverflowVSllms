@@ -1,1 +1,0 @@
-SELECT * \nFROM locations\nWHERE place = 'YOUR_INPUT' OR postcode = 'YOUR_INPUT';

@@ -1,1 +1,0 @@
-CREATE TABLE set_elements (\n    element INT,\n    set_id INT\n);\n\nINSERT INTO set_elements (element, set_id) VALUES\n(1, 1), (2, 1), (3, 1),\n(5, 2), (2, 2), (6, 2),\n(7, 3), (8, 3), (9, 3),\n(6, 4), (12, 4), (13, 4),\n(21, 5), (8, 5), (34, 5),\n(19, 6), (20, 6);

@@ -1,1 +1,0 @@
-from bs4 import BeautifulSoup\n\n# Sample HTML content\nmalformed_html = "<div><p>Some text<p>Another text</div>"\n\n# Using lxml as the parser with BeautifulSoup\nsoup = BeautifulSoup(malformed_html, 'lxml')\n\n# Now you can parse or extract information from the soup object\nprint(soup.prettify())

@@ -1,1 +1,0 @@
-import requests\n\nresponse = requests.get('http://www.example.com')\nprint(response.headers)

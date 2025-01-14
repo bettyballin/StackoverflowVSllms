@@ -1,1 +1,0 @@
--- Start tracing by module/package\nBEGIN\n  DBMS_MONITOR.SERV_MOD_ACT_TRACE_ENABLE(\n    service_name => 'your_service',\n    module_name => 'your_module',\n    wait => TRUE,\n    binds => FALSE,\n    plan_stat => 'typical'\n  );\nEND;\n/

@@ -1,1 +1,0 @@
-var foo = Stuff.Elements.Foo;\nfoo.Name = "Bob Dylan";\nfoo.Age = 68;\nfoo.Location = "On Tour";\nfoo.IsCool = true;

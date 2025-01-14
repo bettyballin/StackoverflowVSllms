@@ -1,1 +1,0 @@
-DECLARE @Today DATE = GETDATE();\nDECLARE @NumDays INT = 7; -- Number of days to look ahead for birthdays\n\nSELECT * \nFROM Employees\nWHERE MONTH(Birthdate) * 100 + DAY(Birthdate) BETWEEN \n      MONTH(@Today) * 100 + DAY(@Today)\n  AND MONTH(DATEADD(day, @NumDays, @Today)) * 100 + DAY(DATEADD(day, @NumDays, @Today));

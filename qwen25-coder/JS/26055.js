@@ -1,1 +1,0 @@
-const filename = "adfadsfads.blah.txt";\nconst match = filename.match(/^(.+)(?=\.[^.]+$)/);\nif (match) {\n    console.log(match[1]); // Outputs: adfadsfads.blah\n}

@@ -1,1 +1,0 @@
-import mod2  # Required because show_answer from mod2 is used here\n\nclass Universe:\n    def __init__(self):\n        pass\n    def answer(self):\n        return 42\n\nu = Universe()\nmod2.show_answer(u)  # Requires mod2 to have a function named show_answer

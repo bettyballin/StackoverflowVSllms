@@ -1,1 +1,0 @@
-echo "<pre>";\n   print_r($variable);\n   die();

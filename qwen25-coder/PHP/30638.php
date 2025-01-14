@@ -1,1 +1,0 @@
-$quantity = trim($_POST['quantity']);\n\nif (!ctype_digit($quantity)) {\n    header("Location: " . $data['referurl'] . "/badinput");\n    exit;\n}\n\n// If you need to convert it to an integer:\n$quantity = (int)$quantity;\n\nif ($quantity <= 0) { // Optionally check if the quantity is positive\n    header("Location: " . $data['referurl'] . "/badinput");\n    exit;\n}

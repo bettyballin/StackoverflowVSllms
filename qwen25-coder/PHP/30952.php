@@ -1,1 +1,0 @@
-// Get the current user object\n$user = JFactory::getUser();\n\n// Check if the user is authenticated (not a guest)\nif ($user->id == 0) {\n    // The user is not logged in (guest)\n} else {\n    // The user is logged in\n}

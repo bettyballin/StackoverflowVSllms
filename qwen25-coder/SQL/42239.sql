@@ -1,1 +1,0 @@
-SELECT t.*\nFROM your_table t\nJOIN (\n    SELECT DISTINCT column_name\n    FROM your_table\n) AS distinct_values\nON t.column_name = distinct_values.column_name;

@@ -1,1 +1,0 @@
-<dependency>\n       <groupId>org.restlet.jse</groupId>\n       <artifactId>org.restlet</artifactId>\n       <version>2.4.3</version>\n   </dependency>

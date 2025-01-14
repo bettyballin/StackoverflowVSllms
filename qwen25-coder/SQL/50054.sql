@@ -1,1 +1,0 @@
-SELECT \n    ((COUNT(DISTINCT id) * 1.0 / COUNT(*)) * 100) AS 'Percent',\n    COUNT(*) AS TotalCount,\n    COUNT(DISTINCT id) AS ProductCount\nFROM TABLE_NAME;

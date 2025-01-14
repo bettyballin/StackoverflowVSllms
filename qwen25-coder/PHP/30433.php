@@ -1,1 +1,0 @@
-$user_input = "<?php echo 'Hello, world!'; ?>";\n$safe_output = $this->security->encode_php_tags($user_input);\n\necho $safe_output; // Outputs: &lt;?php echo &#039;Hello, world!&#039;; ?&gt;

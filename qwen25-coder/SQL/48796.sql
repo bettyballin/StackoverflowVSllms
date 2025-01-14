@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET YourDateTimeColumn = CONVERT(DATETIME, '2023-10-05', 120)\nWHERE YourCondition;

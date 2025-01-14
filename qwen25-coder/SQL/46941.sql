@@ -1,1 +1,0 @@
-SELECT column1, column2\nFROM table1\nWHERE column3 IN (\n    SELECT TOP(1) column4\n    FROM table2\n    INNER JOIN table3\n    ON table2.column1 = table3.column1\n)

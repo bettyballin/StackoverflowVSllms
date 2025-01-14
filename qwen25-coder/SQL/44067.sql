@@ -1,1 +1,0 @@
-SELECT \n    U.UserId,\n    UP.Profile,\n    UP.UserParentID\nFROM \n    aspnet_Users U\nLEFT OUTER JOIN \n    UserProperties UP ON U.UserId = UP.UserId\nWHERE\n    UP.Profile.exist('/Properties/property[@id="BusinessName"]') = 1\nORDER BY \n    UP.Profile.value('(/Properties/property[@id="BusinessName"]/text())[1]', 'nvarchar(max)')

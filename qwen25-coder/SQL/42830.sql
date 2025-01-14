@@ -1,1 +1,0 @@
-SELECT \n    a.Name AS AlertName,\n    RTRIM(XMLAGG(XMLELEMENT(e, b.Name || ', ')).EXTRACT('//text()'), ', ') AS BrandsCSV\nFROM \n    ALERT a\nJOIN \n    ALERT_BRAND_XREF abx ON a.ID = abx.ALERT_ID\nJOIN \n    BRAND b ON abx.BRAND_ID = b.ID\nGROUP BY \n    a.Name;

@@ -1,1 +1,0 @@
-(function(){ alert("44"); return function(){alert(33)} })()

@@ -1,1 +1,0 @@
-GRANT DELETE ON TABLE [schema].[TableName1] TO [UserOrRole];\nGRANT DELETE ON TABLE [schema].[TableName2] TO [UserOrRole];

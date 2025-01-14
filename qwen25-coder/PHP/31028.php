@@ -1,1 +1,0 @@
-if (!file_exists('abc.php')) {\n    die("oops");\n}\nrequire_once 'abc.php';

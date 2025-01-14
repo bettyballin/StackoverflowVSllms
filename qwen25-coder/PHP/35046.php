@@ -1,1 +1,0 @@
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    // Process form data\n    if (/* successful processing */) {\n        header('Location: /success.php');\n        exit();\n    } else {\n        header('Location: /failure.php'); // or just another message on the same page\n        exit();\n    }\n}

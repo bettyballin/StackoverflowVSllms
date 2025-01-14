@@ -1,1 +1,0 @@
-$jsonString = '{"b": "banana", "a": "apple", "c": "cherry"}';\n$array = json_decode($jsonString, true);\n\nprint_r($array);

@@ -1,1 +1,0 @@
-CREATE INDEX idx_sort_parts ON Parts (status, level DESC, warehouse DESC, updated DESC);

@@ -1,1 +1,0 @@
-SELECT DISTINCT CustomerID\nFROM TableName\nWHERE TRUNC(OrderDate) = TRUNC(SYSDATE);

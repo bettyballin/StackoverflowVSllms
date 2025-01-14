@@ -1,1 +1,0 @@
-// Create the div element with CSS display set to 'none'\nvar myDiv = $("<div>Hello!</div>").css("display", "none");\n\n// Append the div to the DOM\n$("somePlace").after(myDiv);\n\n// Fade in the newly added div\nmyDiv.fadeIn('fast');

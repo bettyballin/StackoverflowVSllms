@@ -1,1 +1,0 @@
-<?php\n$output = shell_exec('./example');\necho "<pre>$output</pre>";\n?>

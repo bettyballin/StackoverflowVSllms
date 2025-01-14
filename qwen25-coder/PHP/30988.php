@@ -1,1 +1,0 @@
-$has_amenities = mysqli_real_escape_string($conn, $_POST['has_amenities']);\n   $id = intval($_POST['query']); // Assuming id is an integer

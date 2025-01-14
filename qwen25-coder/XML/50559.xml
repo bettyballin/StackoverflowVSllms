@@ -1,1 +1,0 @@
-<!-- Example: Disable Windows Authentication in web.config -->\n<system.webServer>\n    <security>\n        <authentication>\n            <windowsAuthentication enabled="false" />\n            <anonymousAuthentication enabled="true" />\n            <basicAuthentication enabled="true" realm="Daily Control Module"/>\n        </authentication>\n    </security>\n</system.webServer>

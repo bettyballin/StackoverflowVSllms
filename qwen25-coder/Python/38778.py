@@ -1,1 +1,0 @@
-count = 0\nfor number in range(32, 288):\n    count += str(number).count('6')\nprint("The number 6 is written", count, "times.")

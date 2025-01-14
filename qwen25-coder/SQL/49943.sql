@@ -1,1 +1,0 @@
--- Example: Check compatibility level before making changes\nSELECT name AS DatabaseName, compatibility_level \nFROM master.sys.databases \nWHERE name = 'YourDatabaseName';

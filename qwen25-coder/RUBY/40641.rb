@@ -1,1 +1,0 @@
-def thores_hammer(bling)\n  hammer_bling = bling\n  puts hammer_bling # Just to see the output\nend\n\nthores_hammer({ :rubys    => 5,\n                :emeralds => 5,\n                :souls    => 333 })

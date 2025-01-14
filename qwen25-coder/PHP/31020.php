@@ -1,1 +1,0 @@
-require 'vendor/autoload.php';\n\n   $mailbox = new PhpMimeMailParser\Parser();\n   $stream = fopen('/path/to/your/mbox', 'r');\n   while (!$mail->eof($stream)) {\n       // Parse each message in the mbox file\n       $message = $mail->parseStream($stream);\n       echo "Subject: ", $message->getHeader('subject'), "\n";\n   }\n   fclose($stream);

@@ -1,1 +1,0 @@
-$.ajax({\n    url: 'login.html',\n    type: 'HEAD',\n    success: function() {\n        // File exists, proceed with loading\n        $("#Main").load("login.html");\n    },\n    error: function() {\n        // Handle the case where the file does not exist\n        window.location.href = "error.html"; // Redirect to an error page\n    }\n});

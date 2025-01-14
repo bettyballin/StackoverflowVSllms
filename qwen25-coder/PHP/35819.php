@@ -1,1 +1,0 @@
-echo htmlspecialchars($retrievedText, ENT_QUOTES, 'UTF-8');

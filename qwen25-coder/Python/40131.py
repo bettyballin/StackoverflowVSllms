@@ -1,1 +1,0 @@
-# background-script.py\nimport time\n\nprint("Background task started.")\ntime.sleep(60)  # Simulate a long-running process\nprint("Background task completed.")

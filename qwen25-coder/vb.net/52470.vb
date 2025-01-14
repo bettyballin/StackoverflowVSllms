@@ -1,1 +1,0 @@
-Public Shared Function GetDefault(Of T As New)() As T\n    ' This function uses the constraint "New" which means T must have a parameterless constructor.\n    Return New T()\nEnd Functio

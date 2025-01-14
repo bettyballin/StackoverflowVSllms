@@ -1,1 +1,0 @@
-CREATE INDEX idx_T1_key ON table1 (key);\nCREATE INDEX idx_T2_key ON table2 (key);

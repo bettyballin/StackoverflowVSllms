@@ -1,1 +1,0 @@
-$options = [LIBXML_NOENT | LIBXML_DTDLOAD | LIBXML_DTDATTR];\n$data = simplexml_load_string($xmlData, 'SimpleXMLElement', $options);

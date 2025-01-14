@@ -1,1 +1,0 @@
-ALTER TABLE Results\nADD ValueString VARCHAR(255);  -- Adjust the datatype and size as necessary\n\n-- Example query to handle both types:\nSELECT \n    TestID,\n    TestCode,\n    CASE \n        WHEN Value IS NOT NULL THEN CAST(Value AS VARCHAR)  -- Convert number to string if needed\n        ELSE ValueString\n    END AS CombinedValue\nFROM Results;

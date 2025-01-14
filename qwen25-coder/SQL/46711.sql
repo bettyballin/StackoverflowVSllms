@@ -1,1 +1,0 @@
-LOAD DATA INFILE '/path/to/yourfile.csv'\nINTO TABLE YourTableName\nFIELDS TERMINATED BY ','\nENCLOSED BY '"'\nLINES TERMINATED BY '\n'\nIGNORE 1 ROWS; -- Assuming the first row is a header

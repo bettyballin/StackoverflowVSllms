@@ -1,1 +1,0 @@
-$('#addcomment').click(function(event) {\n    event.preventDefault(); // Prevents the default link behavior\n    $('#divComments').slideDown(2000);\n});

@@ -1,1 +1,0 @@
-where (myVar = 0) > -2;

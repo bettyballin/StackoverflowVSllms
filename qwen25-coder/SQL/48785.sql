@@ -1,1 +1,0 @@
-CREATE TABLE accounts (\n    account_id INT NOT NULL AUTO_INCREMENT,\n    customer_id INT(4) NOT NULL,\n    account_type ENUM('savings', 'credit') NOT NULL,\n    balance FLOAT(9) NOT NULL,\n    PRIMARY KEY (account_id),\n    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)\n);

@@ -1,1 +1,0 @@
-// For HTML content\necho htmlspecialchars($userInput, ENT_QUOTES, 'UTF-8');\n\n// For JavaScript output\necho json_encode($userInput);

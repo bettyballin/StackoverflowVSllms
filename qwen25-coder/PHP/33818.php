@@ -1,1 +1,0 @@
-$userTable = Doctrine::getTable('User');\n  $userTable->register($username, $password, $email);

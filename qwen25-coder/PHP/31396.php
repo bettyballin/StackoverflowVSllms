@@ -1,1 +1,0 @@
-<?php\n$today = new DateTime();\n$startOfWeek = clone $today;\n$startOfWeek->modify('last monday');\n$endOfWeek = clone $startOfWeek;\n$endOfWeek->modify('next sunday');\n\n$time_span = $startOfWeek->format('F j') . ' - ' . $endOfWeek->format('F j');\necho $time_span;\n?>

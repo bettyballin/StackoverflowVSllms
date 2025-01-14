@@ -1,1 +1,0 @@
-def app_session\n  session[@current_app[:uid]]\nend\n\ndef app_session=(value)\n  session[@current_app[:uid]] = value\nend

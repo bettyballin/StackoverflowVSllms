@@ -1,1 +1,0 @@
-SELECT * FROM movie ORDER BY worldwide_gross DESC LIMIT 20;

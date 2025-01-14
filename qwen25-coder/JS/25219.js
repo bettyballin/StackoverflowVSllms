@@ -1,1 +1,0 @@
-window.onload = function() {\n    var messageString = 'height:' + document.body.scrollHeight;\n    window.parent.postMessage(messageString, '*'); // Be careful with '*', specify origin if possible for security\n};

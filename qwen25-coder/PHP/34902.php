@@ -1,1 +1,0 @@
-ob_end_clean(); // Clear any existing output buffers

@@ -1,1 +1,0 @@
-function showMessage(key) {\n    alert(window.localization[key]);\n}\n\n// Example usage:\nshowMessage("HelloMessage"); // "HelloMessage" is the key from the resource files

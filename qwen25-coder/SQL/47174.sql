@@ -1,1 +1,0 @@
-LOCK TABLES your_table_name WRITE;\n-- Your operations here\nUNLOCK TABLES;

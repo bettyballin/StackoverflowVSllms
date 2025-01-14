@@ -1,1 +1,0 @@
-WITH rows_to_move AS (\n    SELECT * FROM active\n    WHERE ...\n    FOR UPDATE  -- Locks the selected rows to prevent concurrent updates\n)\nINSERT INTO inactive (column1, column2, ...)\nSELECT column1, column2, ... \nFROM rows_to_move;\n\nDELETE FROM active\nUSING rows_to_move\nWHERE active.id = rows_to_move.id;  -- Ensure you have a unique identifier like id

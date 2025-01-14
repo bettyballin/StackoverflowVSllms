@@ -1,1 +1,0 @@
-function isMobileDevice() {\n       return preg_match('/\b(?:iphone|ipad|ipod|android|blackberry|htc)/i', $_SERVER['HTTP_USER_AGENT']);\n   }\n\n   if (isMobileDevice()) {\n       // Redirect to mobile site\n       header('Location: http://mobile.example.com');\n       exit;\n   }

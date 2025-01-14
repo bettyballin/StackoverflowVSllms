@@ -1,1 +1,0 @@
-# Determine the maximum index you need\nmax_index = 42\n\n# Initialize the list with None or another default value\nmyList = [None] * (max_index + 1)\n\n# Now you can assign values by index\nmyList[12] = 'a'\nmyList[22] = 'b'\nmyList[32] = 'c'\nmyList[42] = 'd'\n\nprint(myList)

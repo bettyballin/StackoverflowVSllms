@@ -1,1 +1,0 @@
-// Use PDO or MySQLi prepared statements when saving data:\n   $stmt = $pdo->prepare("INSERT INTO posts (content) VALUES (:content)");\n   $stmt->execute([':content' => $userInput]);\n\n   // When displaying the content:\n   echo htmlspecialchars($postData, ENT_QUOTES, 'UTF-8');

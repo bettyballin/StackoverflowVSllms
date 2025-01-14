@@ -1,1 +1,0 @@
-<connectionStrings>\n    <add name="ClassSchedulerConnectionString" \n         connectionString="Data Source=|DataDirectory|\YourDatabase.mdf;Integrated Security=True;" \n         providerName="System.Data.SqlClient" />\n</connectionStrings>

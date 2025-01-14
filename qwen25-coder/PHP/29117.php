@@ -1,1 +1,0 @@
-public function rss()\n{\n    header('Content-Type: application/rss+xml');\n    // Load your data and pass it to the view or echo the XML directly\n}

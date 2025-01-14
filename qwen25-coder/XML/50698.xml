@@ -1,1 +1,0 @@
-<company>\n      <name>Acme</name>\n      <links>\n          <link rel="employee" uri="/company/acme/employees"/>\n      </links>\n  </company>

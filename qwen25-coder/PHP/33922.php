@@ -1,1 +1,0 @@
-require_once 'phpFlickr/phpFlickr.php';\n     $flick = new phpFlickr('YOUR_API_KEY');

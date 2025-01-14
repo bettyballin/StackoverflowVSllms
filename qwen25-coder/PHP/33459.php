@@ -1,1 +1,0 @@
-preg_match_all("/%.*?%/", "%hey%_thereyou're_a%rockstar%\nyo%there%", $matches);\nprint_r($matches[0]);

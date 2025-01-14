@@ -1,1 +1,0 @@
-SELECT \n    DATEADD(minute, DATEDIFF(minute, 0, YourTimeColumn) / 15 * 15, 0) AS StartOfQuarter,\n    COUNT(ID) AS CountInQuarter\nFROM \n    MyTable\nGROUP BY \n    DATEADD(minute, DATEDIFF(minute, 0, YourTimeColumn) / 15 * 15, 0)\nORDER BY \n    StartOfQuarter;

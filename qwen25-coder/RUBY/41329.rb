@@ -1,1 +1,0 @@
-initial_value = 0\n[1, 2, 3, 4].each do |element|\n  initial_value += element\nend\n# initial_value now equals 10

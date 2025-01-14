@@ -1,1 +1,0 @@
-WITH RankedTest AS (\n    SELECT \n        id, type, siteid,\n        ROW_NUMBER() OVER (PARTITION BY siteid ORDER BY id) as rn\n    FROM test\n)\nSELECT t1.id, t1.type, t1.siteid, t2.id as paired_id, t2.type as paired_type, t2.siteid as paired_siteid\nFROM RankedTest t1\nLEFT OUTER JOIN RankedTest t2 \nON t1.siteid = t2.siteid AND t1.rn < t2.rn;

@@ -1,1 +1,0 @@
-// Using htmlspecialchars()\n$string = 'Hello & welcome <user>!';\necho htmlspecialchars($string);\n// Output: Hello &amp; welcome &lt;user&gt;!\n\n// Using htmlentities()\n$string = 'Café Münster';\necho htmlentities($string, ENT_QUOTES, 'UTF-8');\n// Output: Café&nbsp;Münster

@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER["REQUEST_METHOD"] == "POST") {\n    $width = $_POST['width'];\n    $height = $_POST['height'];\n\n    // Save or process these values as needed\n    echo "Width: {$width}, Height: {$height}";\n\n    // Example: Store in a session variable\n    session_start();\n    $_SESSION['viewport_width'] = $width;\n    $_SESSION['viewport_height'] = $height;\n}\n?>

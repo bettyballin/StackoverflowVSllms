@@ -1,1 +1,0 @@
-function BlahArray($options = array()) {\n    $defaults = array(\n        'option_1' => false,\n        'option_2' => 'blah',\n    );\n    \n    // Merge user options with defaults\n    $optionsArray = array_merge($defaults, $options);\n    \n    // Now you can use $optionsArray['option_1'], $optionsArray['option_2'] etc.\n}

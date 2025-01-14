@@ -1,1 +1,0 @@
-SELECT \n    Website.*, \n    GETDATE() AS [TimestampColumn]\nINTO \n    [WebsiteHistory]\nFROM \n    [Website];

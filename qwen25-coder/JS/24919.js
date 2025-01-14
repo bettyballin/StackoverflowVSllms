@@ -1,1 +1,0 @@
-var formData = $('#myForm').serializeArray();\nconsole.log(formData); \n// Outputs array: [{name: "name", value: "John"}, {name: "age", value: "30"}]

@@ -1,1 +1,0 @@
-USE [prodDb];\nGO\nEXEC sp_helpperms 'myUser';\nGO

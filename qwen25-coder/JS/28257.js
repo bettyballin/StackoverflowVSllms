@@ -1,1 +1,0 @@
-Function.prototype.TryCatchWrap = function() {\n  var originalFunction = this;\n  return function(...args) { // Use rest parameters for cleaner handling of arguments\n    try {\n      return originalFunction.apply(this, args); // Ensure 'this' context is preserved\n    } catch (ex) {\n      ErrorHandler.Exception(ex);\n    }\n  };\n};

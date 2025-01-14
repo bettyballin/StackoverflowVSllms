@@ -1,1 +1,0 @@
-$autoload['helper'] = ['form', 'url', 'asset'];

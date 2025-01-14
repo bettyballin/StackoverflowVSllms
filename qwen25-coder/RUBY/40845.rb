@@ -1,1 +1,0 @@
-# Example in your controller action after some update logic\n@form_builder_instance = MyFormBuilder.new(:staff_member, @staff_member, view_context)\nrender partial: "staff_members/forms/personal_details", locals: { f: @form_builder_instance, skill_groups: @skill_groups, staff_member: @staff_member }

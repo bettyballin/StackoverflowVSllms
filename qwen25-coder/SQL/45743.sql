@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE TRUNC(your_timestamp_column) = TO_DATE(:selected_date_param, 'DD-MON-RR')

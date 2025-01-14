@@ -1,1 +1,0 @@
-<?php\n    echo "<p>Success</p>";\n?>

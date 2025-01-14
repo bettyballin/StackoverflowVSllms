@@ -1,1 +1,0 @@
-// Start Output Buffering\nob_start();\n\n// Your PHP code\n// SET ERROR REPORTING\nerror_reporting(E_ALL ^ E_WARNING ^ E_NOTICE);\nini_set('display_errors', TRUE);\n\n// Redirect\nheader("Location: http://www.website.com/");\nexit();\n\n// Flush the buffer and end output buffering\nob_end_flush();

@@ -1,1 +1,0 @@
-CREATE INDEX idx_sales_soldon_total ON Sales (sold_on_is_null, sold_on, total);

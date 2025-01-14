@@ -1,1 +1,0 @@
-$db = new Database();\n   $db->connect();\n\n   // Example of creating a record\n   $data = ['username' => 'testuser', 'email' => 'test@example.com'];\n   $result = $db->create('users', $data);\n\n   // Example of reading records\n   $where = ['id' => [1, '=']];\n   $results = $db->read('users', $where);

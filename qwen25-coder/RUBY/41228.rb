@@ -1,1 +1,0 @@
-# Capfile or deploy.rb\nnamespace :deploy do\n  desc 'Symlink environment-specific config files'\n  task :symlink_config do\n    on roles(:app) do\n      execute :ln, "-sf #{shared_path}/config.production.php #{release_path}/config.php"\n    end\n  end\n\n  after 'deploy:updated', 'deploy:symlink_config'\nend

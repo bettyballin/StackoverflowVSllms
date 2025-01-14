@@ -1,1 +1,0 @@
-SELECT d.Name AS doc_name, d.Location AS doc_location\nFROM Documents d\nJOIN Word_Docs wd ON d.idDoc = wd.idDoc\nJOIN Words w ON wd.idWord = w.idWord\nWHERE w.Word IN (:word1, :word2, :word3) -- Replace with words from search query\nGROUP BY d.Name, d.Location\nHAVING COUNT(DISTINCT w.idWord) = :num_words; -- :num_words is the number of distinct words in query

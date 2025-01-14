@@ -1,1 +1,0 @@
-class ApplicationController < ActionController::Base\n  before_action :enforce_ssl_if_production\n\n  private\n\n  def enforce_ssl_if_production\n    if Rails.env.production?\n      # This method would be part of your ssl_requirement setup\n      require_ssl\n    end\n  end\nend

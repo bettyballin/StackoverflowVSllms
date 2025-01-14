@@ -1,1 +1,0 @@
-import psutil\n   \n   p = psutil.Process(your_process_id)\n   \n   # Print number of threads\n   print(p.num_threads())\n   \n   # Print CPU usage per thread\n   print(p.cpu_times(percpu=True))

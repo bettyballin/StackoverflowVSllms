@@ -1,1 +1,0 @@
-CREATE MATERIALIZED VIEW report_view \nBUILD IMMEDIATE\nREFRESH COMPLETE\nSTART WITH SYSDATE + 1/24 -- Refresh every day starting from now plus one hour (adjust as needed)\nNEXT TRUNC(SYSDATE) + INTERVAL '0 23:30' HOUR TO MINUTE -- Example for refreshing daily at 11:30 PM\nENABLE QUERY REWRITE\nAS \nSELECT col1, col2, COUNT(*), SUM(col4)\nFROM source_table\nGROUP BY col1, col2;

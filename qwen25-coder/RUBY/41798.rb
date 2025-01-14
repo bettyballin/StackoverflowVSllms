@@ -1,1 +1,0 @@
-# PATCH/PUT /password_resets/:toke

@@ -1,1 +1,0 @@
-// Assuming you want to select the second option (value="2")\nvar selectElement = $('mySelect');\nvar optionElement = $('option2'); // or selectElement.down('option[value="2"]');\n\noptionElement.selected = true;\n\n// Optionally, fire an event if needed\nEvent.fire(selectElement, 'change');

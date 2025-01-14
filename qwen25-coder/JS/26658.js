@@ -1,1 +1,0 @@
-// Simple script to show when the browser has finished rendering a part of your page:\n   window.addEventListener('load', function() {\n       setTimeout(function() { // Delay 1 second after the 'load' event to allow any late renders\n           console.log('Page Load Complete');\n       }, 1000);\n   });

@@ -1,1 +1,0 @@
-<?php\n$myArray = ['apple', 'banana', 'cherry'];\n$number = 0;\n\n// Access the array element using the variable $number\necho $myArray[$number]; // This will output: apple\n?>

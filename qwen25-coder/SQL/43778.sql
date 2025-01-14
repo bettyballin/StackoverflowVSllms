@@ -1,1 +1,0 @@
-SELECT \n    x.value('(firstName/text())[1]', 'NVARCHAR(50)') AS FirstName,\n    x.value('(lastName/text())[1]', 'NVARCHAR(50)') AS LastName\nFROM \n    YourTable t\nCROSS APPLY \n    t.XmlColumn.nodes('/person') AS XmlData(x);

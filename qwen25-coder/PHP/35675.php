@@ -1,1 +1,0 @@
-echo "Virus Scan Results:<br>";\n$output = shell_exec('cd /var/www/upload/files; clamscan --remove=yes ' . escapeshellarg($furl));\necho nl2br(htmlspecialchars($output));

@@ -1,1 +1,0 @@
-alert('Meal added successfully!');\n$('#meal-form')[0].reset();\n// Optionally, update a specific part of the page with new data.

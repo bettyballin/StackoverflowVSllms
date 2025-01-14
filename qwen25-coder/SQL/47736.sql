@@ -1,1 +1,0 @@
-# Connect to your Oracle database using SQL*Plus\nsqlplus username/password@database_service\n\n# Once connected, start spooling to a file\nSPOOL /path/to/your/output/folder/TEST_output.txt;\n\n# Execute the query to select all data from the TEST table\nSELECT * FROM TEST;\n\n# Stop spooling and close the file\nSPOOL OFF;\n\n# Exit SQL*Plus\nEXIT;

@@ -1,1 +1,0 @@
-for param in (1, 2, 3):\n    cursor.execute("SELECT * FROM my_table WHERE id = %s", (param,))\n    print(cursor.fetchall())

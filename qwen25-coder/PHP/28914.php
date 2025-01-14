@@ -1,1 +1,0 @@
-$string = "Your text here<br>&nbsp;";\n$trimmedString = rtrim($string, "<br>&nbsp;");\necho $trimmedString;

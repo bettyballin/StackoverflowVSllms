@@ -1,1 +1,0 @@
-<!-- Example for specificVersion="true" -->\n<Reference Include="YourLibrary">\n  <HintPath>..\path\to\YourLibrary.dll</HintPath>\n  <SpecificVersion>true</SpecificVersion>\n</Reference>\n\n<!-- Example for specificVersion="false" -->\n<Reference Include="YourLibrary">\n  <HintPath>..\path\to\YourLibrary.dll</HintPath>\n  <SpecificVersion>false</SpecificVersion>\n</Reference>

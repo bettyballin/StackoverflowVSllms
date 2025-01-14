@@ -1,1 +1,0 @@
-SELECT @makTipi = MAX(maktipi) FROM TH_Islem WHERE refNo = @refNo

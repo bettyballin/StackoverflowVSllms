@@ -1,1 +1,0 @@
-<?php\n$dates = [\n    "2023-10-10",\n    "10/10/2023",\n    "10.10.2023",\n    "10 Oct 2023",\n    "last Monday",\n    "third Friday of next month"\n];\n\nforeach ($dates as $date) {\n    echo "$date: " . date("Y-m-d", strtotime($date)) . "\n";\n}\n?>

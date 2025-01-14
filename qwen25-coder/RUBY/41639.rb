@@ -1,1 +1,0 @@
-class ApplicationController < ActionController::Base\n  before_action :restrict_by_ip\n\n  private\n\n  def restrict_by_ip\n    allowed_ips = ['192.168.1.1', '192.168.1.2'] # Add your server IPs here\n    unless allowed_ips.include?(request.remote_ip)\n      render plain: "Access denied", status: :forbidden\n    end\n  end\nend

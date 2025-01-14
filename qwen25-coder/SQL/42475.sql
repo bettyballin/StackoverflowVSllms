@@ -1,1 +1,0 @@
-SELECT ...\nFROM myTbl\nJOIN LookUpValues luv ON myTbl.myValue = luv.LookUpID\nWHERE ... AND (luv.Description = 'No')

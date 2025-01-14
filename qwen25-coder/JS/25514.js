@@ -1,1 +1,0 @@
-// Basic example with jsPDF\nvar doc = new jsPDF();\ndoc.text('This is the content of the report.', 10, 10);\ndoc.autoPrint(); // This will automatically invoke the print dialog when the document is opened.\ndoc.output('dataurlnewwindow');

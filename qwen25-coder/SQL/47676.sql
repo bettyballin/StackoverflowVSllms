@@ -1,1 +1,0 @@
-CREATE TABLE myTable (\n    ID INT PRIMARY KEY\n);\n\nCREATE TABLE myRelatedTable (\n    ID INT PRIMARY KEY,\n    myTableID INT,\n    linksToAll BOOLEAN DEFAULT FALSE,  -- New column to indicate linking to all rows\n    FOREIGN KEY (myTableID) REFERENCES myTable(ID)\n);

@@ -1,1 +1,0 @@
-SELECT \n    G.GroupName,\n    A.BankName AS Bank,\n    A.AcctNumber AS AcctNum,\n    A.Balance\nFROM \n    AccountGroups G\nJOIN \n    JoinAccountsGroups JAG ON G.ID = JAG.GID\nJOIN \n    Accounts A ON JAG.AID = A.ID;

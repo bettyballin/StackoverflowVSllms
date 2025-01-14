@@ -1,1 +1,0 @@
-SELECT g.group_id\nFROM groups g\nLEFT JOIN users u ON g.group_id = u.group_id\nWHERE u.user_id IS NULL;

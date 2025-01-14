@@ -1,1 +1,0 @@
--- Update table statistics for better query optimization\nANALYZE TABLE User;\nANALYZE TABLE Address;

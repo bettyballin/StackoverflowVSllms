@@ -1,1 +1,0 @@
-SELECT LEFT(your_column_name, 1) AS first_char\nFROM your_table_name;

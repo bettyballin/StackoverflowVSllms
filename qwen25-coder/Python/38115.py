@@ -1,1 +1,0 @@
-collections = {'good': [], 'bad': []}\n\nfor x in mylist:\n    collections['good' if x in goodvals else 'bad'].append(x)\n\ngood = collections['good']\nbad = collections['bad']

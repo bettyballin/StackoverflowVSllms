@@ -1,1 +1,0 @@
-a = 52500\nb = 5\nformatted = '{:>{width}}/{:d}'.format(b, a, width=len(str(a)))\n# formatted looks like: '     5/52500'

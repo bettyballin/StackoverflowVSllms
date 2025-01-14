@@ -1,1 +1,0 @@
-SELECT \n    Table1.ColumnName AS ColumnNameFromTable1,\n    Table2.ColumnName AS ColumnNameFromTable2\nFROM \n    Table1\nJOIN \n    Table2 ON Table1.ID = Table2.ID;

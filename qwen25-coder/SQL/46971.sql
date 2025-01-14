@@ -1,1 +1,0 @@
-SELECT *\nFROM database.your_table_name\nWHERE database.foobar IS NULL;

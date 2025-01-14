@@ -1,1 +1,0 @@
-module.exports = {\n     plugins: [\n       require('@fullhuman/postcss-purgecss')({\n         content: ['./templates/**/*.tpl'], // Your template files\n         defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],\n       }),\n     ],\n   };

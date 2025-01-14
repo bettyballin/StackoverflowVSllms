@@ -1,1 +1,0 @@
-CREATE TYPE IDListTableType AS TABLE (ID bigint);

@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\n// Display the current session ID\necho 'Current Session ID: ' . session_id() . '<br>';\n\nif (isset($_SESSION['user'])) {\n    echo 'User is set in session: ' . $_SESSION['user'];\n} else {\n    echo 'User not set in session. Please check if cookies are enabled.';\n}\n?>

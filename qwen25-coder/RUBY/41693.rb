@@ -1,1 +1,0 @@
-class Item < ApplicationRecord\n  belongs_to :user\n  has_many :ratings\n\n  accepts_nested_attributes_for :ratings\nend

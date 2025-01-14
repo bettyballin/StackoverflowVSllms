@@ -1,1 +1,0 @@
-STARTUP NOMOUNT PFILE='/path/to/pfile_or_spfile';

@@ -1,1 +1,0 @@
-function process_uri() {\n       global $tablePages;\n       $this->category = $tablePages;\n   }

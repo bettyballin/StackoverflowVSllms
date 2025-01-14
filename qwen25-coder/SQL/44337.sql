@@ -1,1 +1,0 @@
-DELETE FROM team\nWHERE team_id IN (\n    SELECT t.team_id\n    FROM team t\n    LEFT JOIN signup s ON t.team_id = s.team_id\n    JOIN schedule sch ON t.schedule_id = sch.schedule_id\n    JOIN event e ON sch.event_id = e.event_id\n    WHERE e.event_id = 183 AND s.signup_id IS NULL\n);

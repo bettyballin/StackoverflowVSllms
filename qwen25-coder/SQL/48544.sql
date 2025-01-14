@@ -1,1 +1,0 @@
--- Using '=', clear intent for exact match\nSELECT * FROM SOME_TABLE WHERE SOME_FIELD = 'some_value';\n\n-- Using LIKE without wildcards, similar in effect but less explicit\nSELECT * FROM SOME_TABLE WHERE SOME_FIELD LIKE 'some_value';

@@ -1,1 +1,0 @@
-INSERT INTO TABLE_NAME (COL1, COL2)\nSELECT MY_SEQ.NEXTVAL, column_value\nFROM (\n    SELECT 'some value' AS column_value FROM dual\n    UNION ALL \n    SELECT 'another value' FROM dual\n    UNION ALL \n    -- Add more rows as necessary\n    SELECT 'yet another value' FROM dual\n);

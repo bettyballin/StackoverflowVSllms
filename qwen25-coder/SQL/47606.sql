@@ -1,1 +1,0 @@
-proc sql;\n  create table distinct_countries as\n  select distinct upcase(country) as country_upper\n  from companies;\n\n  select c.country\n  from companies c\n  inner join distinct_countries dc on upcase(c.country) = dc.country_upper;\nquit;

@@ -1,1 +1,0 @@
-if(isset($_GET['gender'])) {\n    // The 'gender' parameter exists, do something with it.\n}

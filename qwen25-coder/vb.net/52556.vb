@@ -1,1 +1,0 @@
-Public MustInherit Class Intermediate(Of T As Class)\n    Inherits Base(Of T)\n\n    'some methods/properties here needed by Child classes\n\nEnd Class

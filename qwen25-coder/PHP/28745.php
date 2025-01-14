@@ -1,1 +1,0 @@
-$var = "Hello"; // string type\n  $var = 123;      // integer type - no error, type changed

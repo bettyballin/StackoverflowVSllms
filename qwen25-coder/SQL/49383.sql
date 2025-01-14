@@ -1,1 +1,0 @@
-CREATE TABLE products (\n      id SERIAL PRIMARY KEY,\n      details JSONB\n  );\n  \n  INSERT INTO products (details) VALUES ('{"name": "Gadget", "price": 29.95}');

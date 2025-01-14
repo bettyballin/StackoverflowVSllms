@@ -1,1 +1,0 @@
-# Simple example of XML-RPC server in Python\nfrom xmlrpc.server import SimpleXMLRPCServer\n\ndef multiply(i, j):\n    return i * j\n\nwith SimpleXMLRPCServer(('localhost', 8000)) as server:\n    server.register_function(multiply, 'multiply')\n    print("Serving XML-RPC on localhost port 8000")\n    server.serve_forever()

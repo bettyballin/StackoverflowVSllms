@@ -1,1 +1,0 @@
-// Example of sending tasks to a message queue\n$queue = new MessageQueue(); // Hypothetical class\n\nforeach ($users as $userId) {\n    $queue->enqueue(['type' => 'send_notifications', 'user_id' => $userId]);\n}

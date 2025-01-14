@@ -1,1 +1,0 @@
-<?php\n$some_html = 'foo';\n$some_value_for_js_variable = 'bar';\n\n// create json content\necho "{";\necho "\"some_html_output\":\"$some_html\",";\necho "\"some_value_for_js_variable_output\":\"$some_value_for_js_variable\""; // Corrected variable name here\necho "}";\n?>

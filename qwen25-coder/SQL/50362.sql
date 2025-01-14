@@ -1,1 +1,0 @@
-SELECT \n    id,\n    STUFF((\n        SELECT ', ' + Name + ':' + CAST(Value AS VARCHAR(MAX))\n        FROM your_table_name t2\n        WHERE t1.id = t2.id\n        FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), 1, 2, '') AS Column\nFROM \n    your_table_name t1\nGROUP BY \n    id;

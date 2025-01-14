@@ -1,1 +1,0 @@
-import sys\n\ndef show_interpreter_info(request):\n    interpreter_path = sys.executable\n    interpreter_version = sys.version\n    response_content = f"Interpreter Path: {interpreter_path}\nVersion: {interpreter_version}"\n    return HttpResponse(response_content)

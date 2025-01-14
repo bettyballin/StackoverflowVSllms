@@ -1,1 +1,0 @@
-<Database Name="sampleDB">\n    <Table Name="orders">\n        <Column Name="order_id" Type="varchar" Size="20"/>\n        <Column Name="customer_id" Type="int"/>\n        <PrimaryKey>\n            <ColumnRef name="order_id"/>\n        </PrimaryKey>\n    </Table>\n</Database>

@@ -1,1 +1,0 @@
--- Basic EXPLAIN usage\nEXPLAIN SELECT * FROM employees WHERE department = 'Sales';\n\n-- Using EXPLAIN with JSON output\nEXPLAIN FORMAT=JSON SELECT * FROM employees WHERE department = 'Sales';

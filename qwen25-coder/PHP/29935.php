@@ -1,1 +1,0 @@
-if (!$this->input->post('myParam')) {\n    // 'myParam' is not set or is empty\n}

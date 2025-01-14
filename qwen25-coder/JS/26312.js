@@ -1,1 +1,0 @@
-// This is just a demonstration script to log the change, not to actually modify it via JS.\nconsole.log("Original User-Agent: " + navigator.userAgent);\n\n// Example User-Agent string for AOL Browser (note: this may not be accurate and should be verified)\nconst aolUserAgent = "AOL 9.0; Windows NT";\nconsole.log("Simulated AOL User-Agent: " + aolUserAgent);

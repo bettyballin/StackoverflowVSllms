@@ -1,1 +1,0 @@
-<?php\n// Assuming $filePath contains the path to the file you want to delete\n$filePath = '/path/to/your/images/filename.jpg';\n\nif (file_exists($filePath)) {\n    if (unlink($filePath)) {\n        echo "File deleted successfully.";\n    } else {\n        echo "Failed to delete file. Check permissions.";\n    }\n} else {\n    echo "File does not exist.";\n}\n?>

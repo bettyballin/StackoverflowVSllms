@@ -1,1 +1,0 @@
-from django.urls import path, include\n\nurlpatterns = [\n    path('', include('site_app.urls')),  # frontend application\n    path('admin/', include('admin_app.urls')),  # admin panel\n]

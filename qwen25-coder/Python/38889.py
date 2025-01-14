@@ -1,1 +1,0 @@
-import some_module\n\nmodule_path = some_module.__file__\nprint(f"The path to the module is: {module_path}")

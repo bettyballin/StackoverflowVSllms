@@ -1,1 +1,0 @@
-DELETE FROM Employees\nWHERE id IN (\n    SELECT employee_id\n    FROM EmployeesToDelete\n);

@@ -1,1 +1,0 @@
-// Traditional SQL query example\n$query = "SELECT id, name FROM users WHERE email = '" . $email . "'";\n$result = mysqli_query($conn, $query);

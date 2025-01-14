@@ -1,1 +1,0 @@
--- Check if table exists and create it initially if not\nCREATE TABLE IF NOT EXISTS my_table (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(100) NOT NULL\n);\n\n-- Alter table to add a new column if it does not exist\nALTER TABLE my_table\nADD COLUMN IF NOT EXISTS age INT;

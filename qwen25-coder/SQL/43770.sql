@@ -1,1 +1,0 @@
-UPDATE `#__configuration` SET value = 'https://BradP.com' WHERE name = 'live_site';

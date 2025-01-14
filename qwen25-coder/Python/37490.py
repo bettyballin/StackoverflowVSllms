@@ -1,1 +1,0 @@
-from IPy import IP\n\n# Define the IP address and the network range\nip_address = '192.168.0.1'\nnetwork = '192.168.0.0/24'\n\n# Check if the IP address is in the network\nif IP(ip_address) in IP(network):\n    print(f"{ip_address} is within {network}")\nelse:\n    print(f"{ip_address} is NOT within {network}")

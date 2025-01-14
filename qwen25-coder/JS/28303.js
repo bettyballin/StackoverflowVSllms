@@ -1,1 +1,0 @@
-function foo(){\n    var timestamp = new Date().getTime();\n    var html = "<iframe src=\"foo.html?t=" + timestamp + "\" />";\n    document.getElementById('content').innerHTML=html;\n}\n\nfunction bar(){\n    var timestamp = new Date().getTime();\n    var html = "<iframe src=\"bar.html?t=" + timestamp + "\" />";\n    document.getElementById('content').innerHTML=html;\n}

@@ -1,1 +1,0 @@
-import importlib.util\n\nmodules = {"sys", "os", "jinja"}\n\nfor module in modules:\n    if importlib.util.find_spec(module) is not None:\n        print(f"Module {module} is installed.")\n    else:\n        print(f"No {module}!")

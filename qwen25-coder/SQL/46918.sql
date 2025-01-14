@@ -1,1 +1,0 @@
-CREATE TABLE TransactionState (\n    TransactionStateId INT IDENTITY (1, 1) NOT NULL,\n    OriginalTransactionStateId INT NOT NULL,\n    TransactionStateName VARCHAR(100) NOT NULL,\n    StartDateTime DATETIME NOT NULL,\n    EndDateTime DATETIME NULL -- Consider using a default value like '9999-12-31' to represent current active records\n)

@@ -1,1 +1,0 @@
-function evictCacheIfNecessary(newKey, newContent) {\n    const maxSize = 5; // Example max number of items\n    let keys = Object.keys(localStorage).filter(k => k.startsWith('blog-post-'));\n    if (keys.length >= maxSize) {\n        localStorage.removeItem(keys[0]); // Simple eviction strategy\n    }\n    saveContentToCache(newKey, newContent);\n}

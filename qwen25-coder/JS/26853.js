@@ -1,1 +1,0 @@
-// Client side using Socket.IO\nconst socket = io('http://localhost:3000');\n\nsocket.on('newData', function(data) {\n    console.log('Received data:', data);\n});

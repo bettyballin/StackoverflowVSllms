@@ -1,1 +1,0 @@
-const WebSocket = require('ws');\nconst wss = new WebSocket.Server({ port: 8080 });\n\nwss.on('connection', function connection(ws) {\n    setInterval(() => {\n        ws.send(`Server time is ${new Date()}`);\n    }, 1000);\n});

@@ -1,1 +1,0 @@
-Dim pattern As String = "\((bkz: [a-z0-9$&.öışçğü\s]+?)\)"

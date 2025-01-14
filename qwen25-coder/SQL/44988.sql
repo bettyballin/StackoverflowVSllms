@@ -1,1 +1,0 @@
-ALTER TABLE Message ADD COLUMN people_id INTEGER;\nALTER TABLE Message \nADD CONSTRAINT fk_message_people \nFOREIGN KEY (people_id) REFERENCES People(id);

@@ -1,1 +1,0 @@
-SELECT \n    (SELECT COUNT(*) FROM PuppyNames p2 WHERE p2.NumberOfVotes >= p1.NumberOfVotes) AS RowNum,\n    Name\nFROM PuppyNames p1\nORDER BY NumberOfVotes

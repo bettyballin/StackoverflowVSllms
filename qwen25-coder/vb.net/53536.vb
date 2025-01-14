@@ -1,1 +1,0 @@
-Sub TestXmlLiteral()\n    Dim bookInfo = <book>\n                     <title>XML Development</title>\n                     <author>John Doe</author>\n                   </book>\n\n    Console.WriteLine(bookInfo.<title>.Value)  ' Outputs: XML Development\nEnd Sub

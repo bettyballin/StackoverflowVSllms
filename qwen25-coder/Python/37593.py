@@ -1,1 +1,0 @@
-import win32gui\nimport win32ui\n\n# Show a message box\nwin32api.MessageBox(0, "This is the message", "This is the title")

@@ -1,1 +1,0 @@
-const express = require('express');\nconst https = require('https');\nconst fs = require('fs');\n\nvar app = express();\n\napp.get('/', function (req, res) {\n    res.send('Hello World!');\n});\n\nconst options = {\n    key: fs.readFileSync('/path/to/your/key.pem'),\n    cert: fs.readFileSync('/path/to/your/cert.pem')\n};\n\nhttps.createServer(options, app).listen(443);

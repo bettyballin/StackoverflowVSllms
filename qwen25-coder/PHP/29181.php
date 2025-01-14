@@ -1,1 +1,0 @@
-echo "<table>\n";\n   echo "    <tr>\n";\n   echo "        <td>Data 1</td>\n";\n   echo "        <td>Data 2</td>\n";\n   echo "    </tr>\n";\n   echo "</table>";

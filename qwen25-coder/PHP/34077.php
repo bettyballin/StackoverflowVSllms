@@ -1,1 +1,0 @@
-class UserFactory {\n        public static function get_user() {\n            return new User();\n        }\n    }\n\n    $s = UserFactory::get_user()->login()->get_db_data()->get_session_data();

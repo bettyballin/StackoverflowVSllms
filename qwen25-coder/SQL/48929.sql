@@ -1,1 +1,0 @@
-SELECT *\nFROM YourTable\nWHERE MONTH(convert(datetime, DTSTAMP)) = 10;

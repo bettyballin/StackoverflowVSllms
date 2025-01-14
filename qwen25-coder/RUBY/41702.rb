@@ -1,1 +1,0 @@
-module YourApp\n  class Application < Rails::Application\n    # ...\n    config.autoload_paths << Rails.root.join('lib')\n  end\nend

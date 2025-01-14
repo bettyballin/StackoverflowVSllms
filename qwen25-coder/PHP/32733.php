@@ -1,1 +1,0 @@
-$showContent = true;\n\nif ($showContent) {\n    echo '<p>This is visible</p>';\n} else {\n    echo '<!-- Content is hidden -->';\n}

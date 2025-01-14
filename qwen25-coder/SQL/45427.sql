@@ -1,1 +1,0 @@
-DELETE FROM events WHERE adr_id = (SELECT adr_id FROM addresses WHERE per_id = 45);

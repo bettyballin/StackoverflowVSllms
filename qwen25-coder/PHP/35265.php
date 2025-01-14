@@ -1,1 +1,0 @@
-$regexp = '/<([a-z0-9:]+)(\s+[\w-]+=["\']?(?:[^"\'<>]*)((?:.(?!["\']?\s+(?:[\w-]+=|[>"\']))+.)?[^"\']*?)?)*>/i';\n$text1 = '<asp:gridview id=\'gridview1\'/>';\n$text2 = '<Foo:bAR />';\n\n$matches = null;\npreg_match_all($regexp, $text1, $matches);\nprint_r($matches);\n\n// For the second example:\npreg_match_all($regexp, $text2, $matches);\nprint_r($matches);

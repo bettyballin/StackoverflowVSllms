@@ -1,1 +1,0 @@
-UPDATE mytable.myfield t\nJOIN myview v ON t.id = v.id AND ...\nSET t.f = 'blah';

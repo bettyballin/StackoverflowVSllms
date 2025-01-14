@@ -1,1 +1,0 @@
-# Using semicolon\ncash = 100_000.00\nsum = 0\ncash += 1.00; sum += 1 while cash < 1_000_000.00\n\n# Separating into two lines for clarity\ncash = 100_000.00\nsum = 0\nwhile cash < 1_000_000.00\n  cash += 1.00\n  sum += 1.00\nend

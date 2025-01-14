@@ -1,1 +1,0 @@
-from jinja2 import Template\n\n  template = Template('Hello {{ name }}!')\n  print(template.render(name='World'))  # Outputs: Hello World!

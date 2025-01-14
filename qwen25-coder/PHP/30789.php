@@ -1,1 +1,0 @@
-class DateTimeUtils {\n    public static function now() {\n        return new DateTime();\n    }\n\n    public static function format(DateTime $dateTime, string $format = 'Y-m-d H:i:s') {\n        return $dateTime->format($format);\n    }\n}

@@ -1,1 +1,0 @@
-SELECT employees.name, departments.dept_name\nFROM employees\nLEFT JOIN departments ON employees.department_id = departments.id;

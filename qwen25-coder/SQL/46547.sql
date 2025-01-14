@@ -1,1 +1,0 @@
-SELECT \n    substring(availability from 'to ([0-9]{2}/[A-Z]{3}/[0-9]{4})') AS enddate\nFROM your_table;

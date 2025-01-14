@@ -1,1 +1,0 @@
-CREATE ENDPOINT Endpoint_Mirroring\n         STATE = STARTED \n         AS TCP (\n             LISTENER_PORT = 7024, \n             LISTENER_IP = ALL\n         ) \n         FOR DATABASE_MIRRORING (\n            AUTHENTICATION = WINDOWS NEGOTIATE,\n            ENCRYPTION = REQUIRED ALGORITHM AES,\n            ROLE = WITNESS\n        );

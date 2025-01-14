@@ -1,1 +1,0 @@
-Dim myStream As New System.IO.Stream ' This will cause an error as Stream is an abstract class and cannot be instantiated directly

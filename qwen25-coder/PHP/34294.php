@@ -1,1 +1,0 @@
-<?php\n// Open connection to system logger\nopenlog('myApp', LOG_PID | LOG_PERROR, LOG_LOCAL0);\n\n// Log information to the system log\nsyslog(LOG_INFO, 'This is a test message.');\n\n// Close the connection to the system logger\ncloselog();\n?>

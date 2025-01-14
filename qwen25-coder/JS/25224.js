@@ -1,1 +1,0 @@
-let asyncOperation = new Promise((resolve) => {\n    // Simulate an asynchronous operation, e.g., a fetch call\n    setTimeout(() => resolve('Complete'), 1000);\n});\n\nasyncOperation.then(result => {\n    console.log(result); // Log completion or manipulate the DOM\n}).catch(error => {\n    console.error('Error:', error);\n});

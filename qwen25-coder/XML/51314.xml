@@ -1,1 +1,0 @@
-<add name="db_ac_motors_testConnectionString" \n     connectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=C:\Path\To\Your\App_Data\db_ac_motors_test.mdf;Integrated Security=True" \n     providerName="System.Data.SqlClient" />

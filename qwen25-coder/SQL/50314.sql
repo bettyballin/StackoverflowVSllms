@@ -1,1 +1,0 @@
-CREATE TABLE tags (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(255) NOT NULL,\n    parent_id INT DEFAULT NULL,\n    lft INT NOT NULL,\n    rght INT NOT NULL,\n    INDEX (parent_id),\n    INDEX (lft, rght)\n);

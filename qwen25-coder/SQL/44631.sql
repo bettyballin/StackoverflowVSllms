@@ -1,1 +1,0 @@
-SELECT col1, ..., points\nFROM \n    (SELECT tbl1.col1, ..., tbl1.points\n     FROM table1 tbl1\n     JOIN table2 tbl2 ON tbl1.tbl2FK = tbl2.PK\n     WHERE tbl2.col1 = someNumber AND\n           tbl1.dateColumn = TO_DATE('27-10-2008','dd-mm-yyyy')\n     ORDER BY tbl1.points DESC)\nWHERE ROWNUM <= 3;

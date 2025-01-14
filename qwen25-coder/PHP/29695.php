@@ -1,1 +1,0 @@
-class MyCustomException extends Exception {\n    // You can add additional methods or override existing ones here\n}\n\nfunction riskyFunction() {\n    throw new MyCustomException("Something went wrong!");\n}\n\ntry {\n    riskyFunction();\n} catch (MyCustomException $e) {\n    echo "Caught exception: " . $e->getMessage();\n}

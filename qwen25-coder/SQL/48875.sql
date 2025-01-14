@@ -1,1 +1,0 @@
-BACKUP DATABASE Some_db TO DISK = 'C:\Backups\Some_db.bak' WITH CHECKSUM, FORMAT;

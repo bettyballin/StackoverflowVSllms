@@ -1,1 +1,0 @@
-SELECT op.id \nFROM opening op\nWHERE NOT EXISTS (\n    SELECT 1 \n    FROM booking bo\n    WHERE bo.openingId = op.id\n      AND bo.arrivalDate < '2009-06-27'\n      AND bo.departureDate > '2009-06-20'\n);

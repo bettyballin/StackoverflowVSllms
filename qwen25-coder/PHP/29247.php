@@ -1,1 +1,0 @@
-$linkphoto = ["apple", "banana", "apple ", "orange ", "Banana"];\n$normalizedArray = array_map('trim', $linkphoto); // Trims whitespace from each element\n$unlink = array_unique($normalizedArray);\n\nforeach ($unlink as $link) {\n    echo $link, "<br />";\n}

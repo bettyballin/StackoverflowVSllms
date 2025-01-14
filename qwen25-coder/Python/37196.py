@@ -1,1 +1,0 @@
-import time\n\ndef time_it(f, *args):\n    start = time.perf_counter()\n    f(*args)\n    end = time.perf_counter()\n    return (end - start) * 1000  # in milliseconds

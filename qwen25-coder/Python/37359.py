@@ -1,1 +1,0 @@
-# a list of two-tuples\nstateList = [\n    ('ALABAMA', 'AL'),\n    ('ALASKA', 'AK'),\n    # continue with other states...\n    ('WYOMING', 'WY'),\n]\n\nfor stateName, stateAbbreviation in stateList:\n    print(f"The abbreviation for {stateName} is {stateAbbreviation}.")

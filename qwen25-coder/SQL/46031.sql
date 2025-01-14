@@ -1,1 +1,0 @@
-ALTER TABLE `content_link` ENGINE=InnoDB;

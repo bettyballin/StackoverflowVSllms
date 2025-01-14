@@ -1,1 +1,0 @@
-<?php\n$text = "hi how are you?";\n$spacesCount = substr_count($text, ' ');\necho "spaces: " . $spacesCount;\n?>

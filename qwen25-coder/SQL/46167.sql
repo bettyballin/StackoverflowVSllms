@@ -1,1 +1,0 @@
-BEGIN\n    ALTER TABLE SampleTable ADD ColumnThree int;\nEND\n\nIF (EXISTS (SELECT * FROM sys.columns WHERE name = 'ColumnThree' AND object_id = OBJECT_ID('SampleTable')))\nBEGIN\n    EXEC sp_executesql N'UPDATE SampleTable SET ColumnThree = 0';\nEND

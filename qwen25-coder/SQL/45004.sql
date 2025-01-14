@@ -1,1 +1,0 @@
--- Example SQL query when consolidating object retrieval\nSELECT *\nFROM YourTable\nJOIN AnotherTable ON YourTable.ID = AnotherTable.ForeignID\nWHERE YourTable.ObjectID IN (1, 2, ..., 100) -- Use a list of your object IDs here.

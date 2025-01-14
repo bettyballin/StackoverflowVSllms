@@ -1,1 +1,0 @@
-<!-- Well-formed but not necessarily valid -->\n<root>\n  <child>Content</child>\n</root>\n\n<!-- Valid if there is a schema defining root/child with proper constraints -->\n<root>\n  <child>Valid Content</child>\n</root>

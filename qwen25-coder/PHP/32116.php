@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    // Handle POST request\n    // Example: process form data\n    $data = $_POST;\n} elseif ($_SERVER['REQUEST_METHOD'] === 'GET') {\n    // Handle GET request\n    // Example: display information based on query parameters\n    $params = $_GET;\n} else {\n    // Handle other request methods if necessary\n}\n?>

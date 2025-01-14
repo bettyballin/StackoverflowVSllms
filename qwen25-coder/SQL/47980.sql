@@ -1,1 +1,0 @@
-CREATE TABLE TriggerTable (\n    ID INT PRIMARY KEY IDENTITY,\n    TriggerType NVARCHAR(50), -- 'TimeBased' or 'Manual'\n    NextTriggerTime DATETIME NULL, -- Nullable for manual triggers\n    IsProcessed BIT DEFAULT 0\n);

@@ -1,1 +1,0 @@
-UPDATE Message m\nSET people_id = p.id\nFROM People p\nWHERE m.Name = p.Name;

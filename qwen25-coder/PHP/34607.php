@@ -1,1 +1,0 @@
-<?php\n// Assuming $result is an array of associative arrays\n$jsonData = [];\n\nforeach ($result as $addr) {\n    $jsonData[] = $addr; // Adding each address as a separate item in the array\n}\n\nheader('Content-Type: application/json');\necho json_encode($jsonData);\n?>

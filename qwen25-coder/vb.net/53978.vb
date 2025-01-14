@@ -1,1 +1,0 @@
-Option Infer On\nSub Example()\n    Dim i = 42          ' The type of i is inferred as Integer\n    Dim s = "Hello"       ' The type of s is inferred as String\nEnd Sub

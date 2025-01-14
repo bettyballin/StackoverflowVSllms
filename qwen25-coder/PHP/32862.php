@@ -1,1 +1,0 @@
-if ($stmt === false) {\n    die('mysqli prepare() failed: ' . htmlspecialchars($mysqli->error));\n}\nif ($stmt->bind_param('s', $name) === false) {\n    die('Binding parameters failed: ' . htmlspecialchars($stmt->error));\n}\nif ($stmt->execute() === false) {\n    die('Execute failed: ' . htmlspecialchars($stmt->error));\n}

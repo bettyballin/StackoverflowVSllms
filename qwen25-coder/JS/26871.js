@@ -1,1 +1,0 @@
-// Open the console in Firefox (Ctrl+Shift+K), then run this script:\nBrowserManager.listAddons().forEach(function(addon) { BrowserManager.disableAddon(addon.id); });

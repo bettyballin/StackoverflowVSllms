@@ -1,1 +1,0 @@
-// Assume these are the columns in both tables: col1, col2, col3, etc.\n$movetohistory = mysql_query("\n    INSERT INTO $storehistory (col1, col2, col3) \n    SELECT col1, col2, col3 FROM $storetbl WHERE $time - datecreated >= 432000\n") or die("Query failed: " . mysql_error() . " Actual query: " . $query);

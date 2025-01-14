@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetUserMessage\n    @UserID INT,\n    @UserMessage NVARCHAR(500) OUTPUT\nAS\nBEGIN\n    -- Example logic to set the message\n    IF EXISTS (SELECT 1 FROM Users WHERE UserID = @UserID AND IsActive = 0)\n        SET @UserMessage = 'Your account is inactive.'\n    ELSE\n        SET @UserMessage = 'Welcome back!'\nEND

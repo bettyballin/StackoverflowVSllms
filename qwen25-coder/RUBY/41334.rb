@@ -1,1 +1,0 @@
-# Store sessions in a relational database.\nconfig.session_store :active_record_store, key: '_your_app_session'

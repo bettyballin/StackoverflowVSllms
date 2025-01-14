@@ -1,1 +1,0 @@
-DO $$\nDECLARE\n    batch_size INT := 1000;\nBEGIN\n    LOOP\n        DELETE FROM Employees e\n        USING EmployeesToDelete ed\n        WHERE e.id = ed.employee_id\n        LIMIT batch_size;\n\n        EXIT WHEN NOT FOUND;\n    END LOOP;\nEND $$;

@@ -1,1 +1,0 @@
-SET GLOBAL log_output = 'FILE';\n     SET GLOBAL general_log_file = '/var/log/mysql/general_query.log';

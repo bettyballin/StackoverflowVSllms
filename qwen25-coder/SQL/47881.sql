@@ -1,1 +1,0 @@
-select * from widget\n       where name COLLATE Latin1_General_CI_AS >= 'ba' COLLATE Latin1_General_CI_AS\n         and name COLLATE Latin1_General_CI_AS < 'bj' COLLATE Latin1_General_CI_AS;

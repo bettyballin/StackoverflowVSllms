@@ -1,1 +1,0 @@
--- Using VARCHAR for shorter text\nCREATE TABLE ShortTextExample (\n    ID INT PRIMARY KEY,\n    Description VARCHAR(255)\n);\n\n-- Using VARCHAR(MAX) for longer text\nCREATE TABLE LongTextExample (\n    ID INT PRIMARY KEY,\n    DocumentContent VARCHAR(MAX)\n);

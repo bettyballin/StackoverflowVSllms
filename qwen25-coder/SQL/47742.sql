@@ -1,1 +1,0 @@
-createTemporaryTableWithUniqueKeys();\ninsertRecordsIntoTempFromSourceWithoutExistingKeys();\ncopyValidRecordsToDestinationFromTemporary();\ndropTemporaryTable();

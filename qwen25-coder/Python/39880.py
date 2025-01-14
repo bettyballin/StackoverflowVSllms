@@ -1,1 +1,0 @@
-from difflib import ndiff\n\n   def diff_texts(text1, text2):\n       return '\n'.join(ndiff(text1.splitlines(), text2.splitlines()))\n\n   # Example usage:\n   a = "Name 1, Comment"\n   b = "Name 10, Comment"\n   print(diff_texts(a, b))

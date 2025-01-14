@@ -1,1 +1,0 @@
-function showPanel(fieldName) {\n    var fieldNameElement = document.getElementById('field_name');\n    // Use update() method from PrototypeJS to set the text content\n    $(fieldNameElement).update(fieldName);\n}

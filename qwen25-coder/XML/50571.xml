@@ -1,1 +1,0 @@
-<dependencies>\n    <dependency>\n        <groupId>com.opencsv</groupId>\n        <artifactId>opencsv</artifactId>\n        <version>5.6</version>\n    </dependency>\n    <dependency>\n        <groupId>com.thoughtworks.xstream</groupId>\n        <artifactId>xstream</artifactId>\n        <version>1.4.20</version>\n    </dependency>\n</dependencies>

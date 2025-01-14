@@ -1,1 +1,0 @@
--- Example of what DBeaver might generate based on drag-and-drop JOIN setup\nSELECT \n    t1.column1,\n    t2.column2\nFROM \n    table1 t1\nJOIN \n    table2 t2 ON t1.key = t2.key;

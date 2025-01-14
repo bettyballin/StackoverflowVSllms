@@ -1,1 +1,0 @@
-<id name="id" type="int">\n       <column name="ID" />\n       <generator class="identity" />\n   </id>

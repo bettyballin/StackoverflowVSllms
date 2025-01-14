@@ -1,1 +1,0 @@
-CREATE INDEX idx_user_time_trans ON lives(usr_id, time_stamp, trans_id);

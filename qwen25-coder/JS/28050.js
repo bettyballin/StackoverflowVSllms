@@ -1,1 +1,0 @@
-function isValidURI(string) {\n    try {\n        new URL(string);\n        return true;\n    } catch (_) {\n        return false;  \n    }\n}

@@ -1,1 +1,0 @@
-class MyClass {\n      function __construct() { }\n  }

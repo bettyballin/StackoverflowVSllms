@@ -1,1 +1,0 @@
-from .. import setup_logger, get_env_variable, regex_match\n\nlogger = setup_logger()\nconfig_value = get_env_variable('CONFIG_VAR', 'default_value')\nmatch = regex_match(r'\d+', '123abc')\n\nprint(match.group() if match else "No match")

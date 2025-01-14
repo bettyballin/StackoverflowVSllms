@@ -1,1 +1,0 @@
-function exception_error_handler($errno, $errstr, $errfile, $errline ) {\n    // Only convert fatal errors and warnings\n    if (!in_array($errno, [E_ERROR, E_PARSE, E_CORE_ERROR, E_COMPILE_ERROR, E_WARNING])) {\n        return;\n    }\n    throw new ErrorException($errstr, 0, $errno, $errfile, $errline);\n}\n\nset_error_handler("exception_error_handler");

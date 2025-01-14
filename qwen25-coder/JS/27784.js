@@ -1,1 +1,0 @@
-function openHelpWindow() {\n    var url = "help.html"; // Your help page URL\n    var name = "_blank";\n    var features = "menubar=no,toolbar=no,status=no,resizable=yes,width=600,height=400";\n    window.open(url, name, features);\n}\n\n// Usage: Call this function on a link click event.\n// Example HTML:\n// <a href="javascript:openHelpWindow()">Open Help</a>

@@ -1,1 +1,0 @@
-$q = "SELECT * FROM users WHERE username = 'doesnotexist'";\n\n$r = mysql_query($q);\n\nif (!$r) {\n    echo "<p>Query execution failed: " . mysql_error() . "</p>";\n} elseif (mysql_num_rows($r) == 0) {\n    echo "<p>NOT FOUND!</p>";\n} else {\n    echo "<p>FOUND!</p>";\n}\n\nmysql_close();

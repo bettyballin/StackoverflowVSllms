@@ -1,1 +1,0 @@
-INSERT INTO [MY_TABLE] ([Field2], [Field3], [Field4], [Field5]) VALUES (1.0, 2.0, 3.0, 4.0);

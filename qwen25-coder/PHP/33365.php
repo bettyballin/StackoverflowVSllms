@@ -1,1 +1,0 @@
-$front = Zend_Controller_Front::getInstance();\n$plugin = new My_Controller_Plugin_ActionStackLogger();\n$front->registerPlugin($plugin);

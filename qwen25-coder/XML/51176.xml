@@ -1,1 +1,0 @@
-<filter-mapping>\n    <filter-name>SecurityFilter</filter-name>\n    <url-pattern>/add/*</url-pattern>\n    <!-- Add more URL patterns as necessary -->\n    <!-- Uncomment the following for broader coverage -->\n    <!-- <url-pattern>/*</url-pattern> -->\n</filter-mapping>

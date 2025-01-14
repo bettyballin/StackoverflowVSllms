@@ -1,1 +1,0 @@
-<add key="SmtpServer" value="smtp.att.yahoo.com"/>\n<add key="SmtpServerAuthenticateUser" value="ctrager@sbcglobal.net"/>\n<add key="SmtpServerPort" value="587"/> <!-- Changed to 587 -->\n<add key="SmtpUseSSL" value="1"/>\n<add key="SmtpServerAuthenticatePassword" value="MY PASSWORD"/>

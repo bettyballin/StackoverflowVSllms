@@ -1,1 +1,0 @@
-let list = ["Hello", "World", "This", "Is", "JavaScript"];\nlet result = list.join(",");\nconsole.log(result); // Outputs: Hello,World,This,Is,JavaScript

@@ -1,1 +1,0 @@
-WITH FilteredFact AS (\n    SELECT *\n    FROM FactTable\n    WHERE Date >= '2023-01-01'\n)\nSELECT f.*, d.DimensionName\nFROM FilteredFact f\nJOIN DimTable d ON f.DimensionID = d.ID;

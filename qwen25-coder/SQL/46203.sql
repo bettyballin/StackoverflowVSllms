@@ -1,1 +1,0 @@
-SELECT id FROM locations WHERE ST_Intersects(geom, 'POINT(1 2)');

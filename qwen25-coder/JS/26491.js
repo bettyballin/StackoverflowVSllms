@@ -1,1 +1,0 @@
-let posts = ["Post 1", "Post 2", "Post 3"];\nlet html = '';\nposts.forEach((post, index) => {\n    let className = (index % 2 === 1) ? 'odd' : '';\n    html += `<div class="${className}">${post}</div>`;\n});\n\ndocument.body.innerHTML += html;\n\n<style>\n    .odd { background-color: red; }\n</style>

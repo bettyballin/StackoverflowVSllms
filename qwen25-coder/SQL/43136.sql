@@ -1,1 +1,0 @@
--- Inefficient: Setting VARCHAR(4096) when only up to 100 characters are needed\nCREATE TABLE ExampleTable (\n    description VARCHAR(4096)\n);\n\n-- Efficient: Correctly sized for expected data length\nCREATE TABLE EfficientExampleTable (\n    description VARCHAR(100)\n);

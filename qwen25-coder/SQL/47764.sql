@@ -1,1 +1,0 @@
-SELECT * \nFROM (\n    SELECT a.*, ROWNUM rnum\n    FROM (\n        SELECT *\n        FROM Orders\n        WHERE ROWNUM <= n -- Replace 'n' with the row number you want to select\n        ORDER BY OrderID\n    ) a\n)\nWHERE rnum >= n; -- Ensure this matches the ordering and row count logic

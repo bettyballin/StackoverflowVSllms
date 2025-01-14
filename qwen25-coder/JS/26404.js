@@ -1,1 +1,0 @@
-$$('div').each(function(div) {\n  var link = div.down('a[href="http://google.com"]');\n  if (link) {\n    div.hide();\n  }\n});

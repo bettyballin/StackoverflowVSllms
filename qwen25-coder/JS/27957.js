@@ -1,1 +1,0 @@
-var uploadInput = document.getElementById("uploadFile");\nvar selected = uploadInput.value !== "";\nif (selected) {\n    // A file has been selected\n    console.log("File is selected.");\n} else {\n    // No file selected\n    console.log("No file selected.");\n}

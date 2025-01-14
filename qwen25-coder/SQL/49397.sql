@@ -1,1 +1,0 @@
-SELECT MAX(last_modified_timestamp) AS last_update_time\nFROM your_table_name;

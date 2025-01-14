@@ -1,1 +1,0 @@
-# Gemfile\ngem 'watir'\ngem 'watir-cucumber'\n\n# features/support/env.rb\nrequire "capybara/watir"\nCapybara.default_driver = :chrome # or any other browser supported by Watir

@@ -1,1 +1,0 @@
-WITH FirstZero AS (\n    SELECT MIN(date) AS first_zero_date\n    FROM your_table\n    WHERE check = 0\n)\nSELECT t.date, t.value, t.check\nFROM your_table t,\n     FirstZero fz\nWHERE t.date >= (SELECT COALESCE(fz.first_zero_date, MIN(date)) - 1 FROM your_table)\nAND t.date < fz.first_zero_date;

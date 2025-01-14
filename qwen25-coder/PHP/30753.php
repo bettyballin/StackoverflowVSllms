@@ -1,1 +1,0 @@
-// Start session with default settings for domain (current subdomain)\nsession_name('unique_subdomain_session');\nsession_start();

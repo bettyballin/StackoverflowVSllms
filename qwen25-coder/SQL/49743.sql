@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetUsersByStatus(IN user_status VARCHAR(25))\nBEGIN\n    SELECT * FROM users WHERE status = user_status;\nEND //

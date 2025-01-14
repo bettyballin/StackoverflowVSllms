@@ -1,1 +1,0 @@
-<?php\n// Check if the 'user' parameter is set in the URL\nif(isset($_GET['user'])) {\n    $userName = htmlspecialchars($_GET['user']);\n    echo "Welcome, $userName!";\n} else {\n    echo "User not specified.";\n}\n?>

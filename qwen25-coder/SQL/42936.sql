@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n    UserId INT PRIMARY KEY AUTO_INCREMENT,\n    ObjectGUID CHAR(36) UNIQUE NOT NULL,  -- Storing GUID without hyphens as a fixed-length string\n    Username VARCHAR(255),\n    -- other fields for authorization information\n);

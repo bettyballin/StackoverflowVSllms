@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('img').on('error', function() {\n        $(this).off('error'); // Prevent infinite loop in case the placeholder image also doesn't exist.\n        $(this).attr('src', 'path/to/placeholder/image.png');\n    });\n});

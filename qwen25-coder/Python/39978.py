@@ -1,1 +1,0 @@
-class Flip:\n    def __init__(self):\n        self.count = 0\n    \n    def __call__(self):\n        if self.count == 0:\n            self.count = 1\n            return self.count\n        else:\n            self.count = 0\n            return self.count\n\nflip_instance = Flip()\nprint(flip_instance())  # Outputs: 1\nprint(flip_instance())  # Outputs: 0

@@ -1,1 +1,0 @@
-UPDATE Friends SET NextFriendId = @friendId WHERE FriendId = @beforeFriendId;\n     UPDATE Friends SET PreviousFriendId = @friendId WHERE FriendId = @afterFriendId;\n\n     UPDATE Friends SET PreviousFriendId = @beforeFriendId, NextFriendId = @afterFriendId \n         WHERE FriendId = @friendId;

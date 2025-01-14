@@ -1,1 +1,0 @@
-CREATE TABLE Table1 (\n    UniqueID int IDENTITY(1, 5),\n    -- other columns\n);

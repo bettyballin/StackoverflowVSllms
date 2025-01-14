@@ -1,1 +1,0 @@
-def update_positions\n  params[:positions].each_with_index do |id, index|\n    question = Question.find(id)\n    question.update(section_id: params[:section_id], position: index + 1) # Set new section and position\n  end\n  head :ok\nend

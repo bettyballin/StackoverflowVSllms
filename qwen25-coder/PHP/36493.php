@@ -1,1 +1,0 @@
-class Logger\n{\n    static public function log($msg)\n    {\n        $bt = debug_backtrace();\n        // Shift twice to get the actual caller of the log function\n        $caller = array_shift($bt);\n        $caller = array_shift($bt);\n        \n        echo "$msg (file: {$caller['file']}, line number: {$caller['line']})";\n    }\n}

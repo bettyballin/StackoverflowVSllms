@@ -1,1 +1,0 @@
-from django.db.models import Q\n\n# Filter to get all Name objects with alias set (not empty and not NULL)\nnames_with_alias = Name.objects.exclude(alias__isnull=True).exclude(alias="")

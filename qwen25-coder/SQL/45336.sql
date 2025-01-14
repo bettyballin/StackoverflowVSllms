@@ -1,1 +1,0 @@
-SELECT CAST(SUM(myIntColumn) AS UNSIGNED BIGINT) as foo FROM myTable;

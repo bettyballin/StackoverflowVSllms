@@ -1,1 +1,0 @@
-<?php\necho "System Architecture: " . PHP_OS_FAMILY;

@@ -1,1 +1,0 @@
-USE YourDatabaseName;\nGO\n\nEXEC sys.sp_addextendedproperty \n    @name=N'Note', \n    @value=N'AUTO-GENERATED PROCEDURE DO NOT MODIFY',\n    @level0type=N'Schema', @level0name=N'dbo',\n    @level1type=N'Procedure', @level1name=N'MyProc';\nGO

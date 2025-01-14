@@ -1,1 +1,0 @@
-// At the end of your tweet.php script, add:\necho '<script>window.history.back();</script>';

@@ -1,1 +1,0 @@
--- Creating a new User Defined Data Type\nCREATE TYPE dbo.EmailAddress AS NVARCHAR(256)\nWITH NULLABILITY = OFF;\n\n-- Using the UDT in a table definition\nCREATE TABLE Customers (\n    CustomerID INT PRIMARY KEY,\n    Email EMAILADDRESS NOT NULL\n);

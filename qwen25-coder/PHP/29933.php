@@ -1,1 +1,0 @@
-while ($getRecords->fetch()) {\n    $values = array($EGGS, $SALAD, $TREES, $REVISED);\n    foreach ($columns as $index => $column) {\n        $$column = $values[$index] ? 'YES' : 'NO';\n    }\n    $imageSize = imageResize($PIC_URL, 250, 300);\n    echo "<h1>".$EGGS."</h1>"; // Here $EGGS will be 'YES' or 'NO'\n}

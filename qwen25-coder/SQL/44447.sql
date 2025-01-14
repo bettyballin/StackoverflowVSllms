@@ -1,1 +1,0 @@
-REINDEX SCHEMA public;  -- Adjust schema as needed

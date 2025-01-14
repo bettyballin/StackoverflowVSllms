@@ -1,1 +1,0 @@
-EXPLAIN PLAN FOR\nSELECT * \nFROM your_table d, another_table x\nWHERE \n    d.attribute3 = 'abcd*'  \nAND x.STATUS != 'P' \nAND x.STATUS != 'J' \nAND x.STATUS != 'X' \nAND x.STATUS != 'S' \nAND x.STATUS != 'D' \nAND CURRENT_TIMESTAMP - 1 < x.CREATION_TIMESTAMP;\n\nSELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);

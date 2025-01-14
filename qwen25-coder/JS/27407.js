@@ -1,1 +1,0 @@
-tinymce.init({\n    selector: '#mytextarea',\n    inline: true, // Ensures that TinyMCE treats the content as a fragment rather than a full document\n    setup: function (editor) {\n        editor.on('init', function () {\n            // Additional configurations can be added here if necessary\n        });\n    }\n});

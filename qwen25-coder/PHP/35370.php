@@ -1,1 +1,0 @@
-class Example {\n    private $value;\n\n    public function setValue($val) {\n        $this->value = $val; // Here $this specifies that we're accessing the instance variable\n    }\n\n    public function getValue() {\n        return $this->value;\n    }\n}

@@ -1,1 +1,0 @@
-SELECT *\nFROM group_table\nWHERE ? BETWEEN ArrivalDate AND DepartureDate;

@@ -1,1 +1,0 @@
-SELECT \n    n.nid, \n    n.timestamp, \n    n.title, \n    ua.dst\nFROM \n    (SELECT nid, MAX(timestamp) as timestamp, title \n     FROM node_revisions \n     GROUP BY nid \n     ORDER BY timestamp DESC \n     LIMIT 0,5) AS n\nLEFT JOIN \n    url_alias ua \nON \n    ua.src = CONCAT('node/', n.nid)\nWHERE \n    ua.dst NOT LIKE '%/feed';

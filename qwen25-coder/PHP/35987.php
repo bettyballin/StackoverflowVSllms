@@ -1,1 +1,0 @@
-// PHP Code\necho '<li>';\necho "<a href='#' class='show-comments' data-news-id='{$news['id']}'>" .\n        $this->translate('INDEX_COMMENTS'). " ($count)" . "</a>";\necho '</li>';

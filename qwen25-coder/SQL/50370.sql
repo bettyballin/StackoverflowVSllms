@@ -1,1 +1,0 @@
--- Example of fetching each row individually (not recommended)\nSELECT * FROM your_table WHERE id = 1;\nSELECT * FROM your_table WHERE id = 2;\n-- and so on up to ID 200

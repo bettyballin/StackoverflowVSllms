@@ -1,1 +1,0 @@
-CREATE TABLE UserActivity (\n    id SERIAL PRIMARY KEY,\n    user_id INT NOT NULL,\n    activity_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);\n\nCREATE TABLE RequestStats (\n    id SERIAL PRIMARY KEY,\n    request_type VARCHAR(255),\n    count BIGINT,\n    recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);

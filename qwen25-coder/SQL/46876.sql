@@ -1,1 +1,0 @@
-SELECT CASE \n         WHEN someDateTime IS NULL THEN 'No'\n         ELSE CONVERT(VARCHAR, someDateTime)\n       END AS someDateTimeConverted\nFROM someTable;

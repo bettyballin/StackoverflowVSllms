@@ -1,1 +1,0 @@
-USE [YourContentDatabase]\nGO\n\nALTER USER [OldUserName] WITH LOGIN = [NewUserName];\nGO\n\n-- Repeat for other necessary users

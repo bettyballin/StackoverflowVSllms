@@ -1,1 +1,0 @@
-CREATE TABLE [User] (\n    UserID INT PRIMARY KEY,\n    UserName NVARCHAR(50) NOT NULL,\n    -- other columns here\n);

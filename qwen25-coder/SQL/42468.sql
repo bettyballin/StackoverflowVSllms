@@ -1,1 +1,0 @@
-CREATE OR REPLACE DIRECTORY export_dir AS '/path/to/export/directory';\n   GRANT READ, WRITE ON DIRECTORY export_dir TO your_user;

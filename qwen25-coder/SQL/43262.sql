@@ -1,1 +1,0 @@
-SELECT SUM(loan_amount) AS total_loans_2008\nFROM LoanFact\nJOIN DateDim ON LoanFact.date_dim_id = DateDim.date_dim_id\nWHERE YEAR = 2008;

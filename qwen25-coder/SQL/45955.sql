@@ -1,1 +1,0 @@
-GRANT EXECUTE ON sp_creatediagram TO [your_username];\nGRANT EXECUTE ON sp_alterdiagram TO [your_username];\nGRANT EXECUTE ON sp_dropdiagram TO [your_username];

@@ -1,1 +1,0 @@
-CREATE TABLE transactions (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    customer_id INT NOT NULL,\n    transaction_data TEXT,\n    ...\n    INDEX idx_customer_id (customer_id)\n) PARTITION BY LIST(customer_id) (\n    PARTITION p0 VALUES IN (1, 2, ..., 9),\n    PARTITION p1 VALUES IN (10, 11, ..., 99),\n    PARTITION p99 VALUES IN (5001, 5002)\n);

@@ -1,1 +1,0 @@
-SELECT *\nFROM YourTable\nWHERE PrimaryKeyField NOT IN (\n    SELECT TOP 10 PrimaryKeyField\n    FROM YourTable\n    ORDER BY SomeColumn DESC\n)\nORDER BY SomeColumn;

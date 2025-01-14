@@ -1,1 +1,0 @@
-Element.remove.bindAsEventListener(self)

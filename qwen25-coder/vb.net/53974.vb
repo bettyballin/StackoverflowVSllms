@@ -1,1 +1,0 @@
-Dim message As String = "This is line one.<br>This is line two."\nResponse.Write(HttpUtility.HtmlEncode(message))

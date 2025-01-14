@@ -1,1 +1,0 @@
-# Create an Excel file with openpyxl\n   from openpyxl import Workbook\n\n   wb = Workbook()\n   ws = wb.active\n   ws['A1'] = 'Hello World !'\n   wb.save('hello_world.xlsx')

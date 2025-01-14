@@ -1,1 +1,0 @@
-$contact_name = 'foo';\n\nfunction do_something($some_argument) {\n    $backtrace = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS, 1);\n    $argument_name = key(current($backtrace)['args']);\n    echo $argument_name; // Outputs: contact_name (not guaranteed to work in all PHP versions or configurations)\n}\n\ndo_something($contact_name);

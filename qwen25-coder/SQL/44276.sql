@@ -1,1 +1,0 @@
-DECLARE @total_seconds INT = 3665; -- Example total seconds\nSELECT \n    @total_seconds / 3600 AS Hours,\n    (@total_seconds % 3600) / 60 AS Minutes,\n    @total_seconds % 60 AS Seconds;

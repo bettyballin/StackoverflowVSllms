@@ -1,1 +1,0 @@
-ini_set('display_errors', 1);\nerror_reporting(E_ALL);\n\necho "upload_max_filesize: " . ini_get('upload_max_filesize') . "\n";\necho "post_max_size: " . ini_get('post_max_size') . "\n";

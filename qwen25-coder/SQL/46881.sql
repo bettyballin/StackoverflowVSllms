@@ -1,1 +1,0 @@
--- Connect to server and use database\nUSE YourDatabaseName;\nGO\n\n-- Start writing your queries with code completion\nSELECT * FROM YourTableName WHERE ColumnName = 'Value';

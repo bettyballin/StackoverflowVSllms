@@ -1,1 +1,0 @@
--- Using SUBSTR\nSELECT * FROM my_table WHERE substr(my_field, 1, 6) = 'search';\n\n-- Using LIKE\nSELECT * FROM my_table WHERE my_field LIKE 'search%';

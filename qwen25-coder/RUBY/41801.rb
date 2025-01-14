@@ -1,1 +1,0 @@
-require 'fileutils'\n\n# Define source and destination paths\nsource = '/path/to/source/file.txt'\ndestination = '/path/to/destination/file.txt'\n\n# Move the file\nFileUtils.mv(source, destination)

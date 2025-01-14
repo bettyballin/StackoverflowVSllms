@@ -1,1 +1,0 @@
-class Application_Model_User {\n    protected $_id;\n    protected $_username;\n    protected $_email;\n\n    public function setId($id) {\n        $this->_id = (int)$id;\n        return $this;\n    }\n\n    public function getId() {\n        return $this->_id;\n    }\n\n    // Similar getters and setters for other properties\n}

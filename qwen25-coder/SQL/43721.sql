@@ -1,1 +1,0 @@
-INSERT INTO `events`(..., `adr_id`, `evt_amtPersonsSubs`, ...)\nVALUES ('asf' , 'asf' , '2009-04-02' , '2009-04-22' , '00:00:00', '00:00:00' ,\n        3, 1,\n        NULL, -- Use NULL instead of '' for adr_id\n        NULL, -- Use NULL instead of '' for evt_amtPersonsSubs\n        '',\n        'test',\n        1)

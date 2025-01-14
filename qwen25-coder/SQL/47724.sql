@@ -1,1 +1,0 @@
-SELECT DISTINCT b \nFROM Boy b \nJOIN b.kites k \nWHERE k.length BETWEEN 1 AND max_length_value\nAND b.name = 'Huck';

@@ -1,1 +1,0 @@
-Public Class Country\n       Public Property CountryID As Integer\n       Public Property Name As String\n       Public Property ImageURL As String\n   End Class\n   \n   ' Corresponding Data Access Layer class:\n   Public Class CountryDB\n       ' Methods to interact with the Country table\n   End Class

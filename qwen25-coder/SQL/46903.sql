@@ -1,1 +1,0 @@
-select * from mytable where rownum<=1000 order by dbms_random.value

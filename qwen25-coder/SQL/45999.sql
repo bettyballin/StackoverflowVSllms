@@ -1,1 +1,0 @@
-DECLARE @x xml;\nSET @x = '<root>123</root>';\n\nSELECT \n    CASE \n        WHEN @x.exist('/root[not(*) and normalize-space(text()) castable as xs:int]') = 1 THEN 1 \n        ELSE 0 \n    END AS IsIntegerOnly;

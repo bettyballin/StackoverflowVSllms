@@ -1,1 +1,0 @@
--- Create a sequence per CODE group if necessary\nCREATE SEQUENCE seq_code_xx START WITH 100 INCREMENT BY 1;\n\n-- Use the NEXTVAL function to get the next value in your transaction\nINSERT INTO TABLE (CODE, C) VALUES ('xx', seq_code_xx.NEXTVAL);

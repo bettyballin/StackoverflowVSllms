@@ -1,1 +1,0 @@
-$output = shell_exec('python3 /path/to/your_script.py argument1 argument2');\necho "<pre>$output</pre>";

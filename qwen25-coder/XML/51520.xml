@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <sessionState mode="Custom" \n                  customProvider="EncryptedSqlSessionStateProvider">\n      <providers>\n        <add name="EncryptedSqlSessionStateProvider"\n             type="YourNamespace.YourCustomSessionStateStore"/>\n      </providers>\n    </sessionState>\n  </system.web>\n</configuration>

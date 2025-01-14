@@ -1,1 +1,0 @@
-CREATE TABLE UserSessionLog (\n      LogId INT PRIMARY KEY IDENTITY,\n      UserId INT NOT NULL,\n      LoginDateTime DATETIME NOT NULL,\n      LogoutDateTime DATETIME\n  );

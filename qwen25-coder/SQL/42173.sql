@@ -1,1 +1,0 @@
--- Example of using CHAR for a fixed-length code\nCREATE TABLE Countries (\n    CountryCode CHAR(2) PRIMARY KEY,\n    Name VARCHAR(100)\n);

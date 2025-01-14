@@ -1,1 +1,0 @@
-DO $$\nBEGIN\n    LOOP\n        DELETE FROM pagelinks pl USING page p\n        WHERE pl.pl_from NOT IN (SELECT page_id FROM page)\n        LIMIT 10000; -- Adjust limit as needed\n\n        EXIT WHEN ROW_COUNT = 0;\n    END LOOP;\nEND $$;

@@ -1,1 +1,0 @@
-SELECT RAWTOHEX(USER_GUID) AS USER_GUID_HEX \nFROM user \nWHERE email = 'user@example.com';

@@ -1,1 +1,0 @@
-<?php\ndefine('PAGE_ACCESS', true);\ninclude 'sensitive_script.php';\n?>

@@ -1,1 +1,0 @@
-<Column Name="companyID" Type="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" IsDbGenerated="true" AutoSync="OnInsert"/>

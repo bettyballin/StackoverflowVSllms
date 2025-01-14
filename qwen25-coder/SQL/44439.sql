@@ -1,1 +1,0 @@
-INSERT INTO large_array_table (id, numbers)\nVALUES (2, varray_numbers(1, 2, 3, ..., 10000));\n/\n\nSELECT COLUMN_VALUE FROM TABLE(SELECT numbers FROM large_array_table WHERE id = 2);\n/

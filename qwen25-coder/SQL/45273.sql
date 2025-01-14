@@ -1,1 +1,0 @@
-UPDATE performance_schema.setup_instruments \n   SET ENABLED='YES', TIMED='YES' \n   WHERE NAME LIKE 'statement/%';\n   \n   UPDATE performance_schema.setup_consumers \n   SET ENABLED='YES'\n   WHERE NAME = 'events_statements_current';\n\n   -- You can query the events_statements_* tables to see the data\n   SELECT * FROM performance_schema.events_statements_history_long;

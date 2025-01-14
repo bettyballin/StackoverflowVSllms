@@ -1,1 +1,0 @@
-const regex = /abc/;\nconsole.log(regex.test("abcdef")); // true

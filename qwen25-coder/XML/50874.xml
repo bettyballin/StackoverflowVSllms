@@ -1,1 +1,0 @@
-<snippet>\n    <content><![CDATA[<?php \n${1:// code here}\n?>]]></content>\n    <!-- Optional: Set a tab trigger -->\n    <tabTrigger>php</tabTrigger>\n    <!-- Optional: Scope the snippet to PHP files only -->\n    <scope>source.php</scope>\n</snippet>

@@ -1,1 +1,0 @@
-SELECT o.object_id\nFROM object_tags ot\nJOIN objects o ON ot.object_id = o.id\nWHERE ot.tag IN ('fruit', 'yellow')\nGROUP BY o.object_id\nHAVING COUNT(DISTINCT ot.tag) = 2;

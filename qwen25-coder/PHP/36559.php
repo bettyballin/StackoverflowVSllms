@@ -1,1 +1,0 @@
-$container['logger'] = function ($c) {\n       return new Monolog\Logger('my_logger');\n   };

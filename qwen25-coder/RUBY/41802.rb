@@ -1,1 +1,0 @@
-# Rails auto-escapes ERB tags by default. To use h() explicitly:\ncontent_tag :div, h(user_data)

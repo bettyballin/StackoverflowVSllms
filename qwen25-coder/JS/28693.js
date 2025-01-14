@@ -1,1 +1,0 @@
-const audioElements = ['word1.mp3', 'word2.mp3', 'word3.mp3', 'word4.mp3', 'word5.mp3'].map(src => {\n     const audio = new Audio();\n     audio.src = `/sounds/${src}`;\n     audio.preload = 'auto';\n     return audio;\n   });

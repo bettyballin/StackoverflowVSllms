@@ -1,1 +1,0 @@
-function resizeWithImagickCLI($source, $destination) {\n    // Use ImageMagick's convert command directly from the command line\n    exec("convert -resize 660x500 " . escapeshellarg($source) . " " . escapeshellarg($destination));\n}

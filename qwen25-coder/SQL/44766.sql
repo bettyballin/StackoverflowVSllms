@@ -1,1 +1,0 @@
-SELECT * FROM YourTable WHERE [YourCondition] = @YourParameter\nOPTION (RECOMPILE);

@@ -1,1 +1,0 @@
-SELECT \n    cp.CrawlAccountName\nFROM \n    Search_Service_Application_PropertyBag cp\nWHERE \n    cp.PropertyName = 'CrawlAccountName'

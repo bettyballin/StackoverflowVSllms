@@ -1,1 +1,0 @@
--- Create a new login for the application\nCREATE LOGIN AppUser WITH PASSWORD = 'Strong!Passw0rd#2023', CHECK_POLICY = ON;\n\n-- Create a database user for this login in your database\nUSE YourDatabase;\nGO\nCREATE USER AppUser FOR LOGIN AppUser;\n\n-- Grant only necessary permissions to the new user\nGRANT SELECT, INSERT, UPDATE, DELETE ON SchemaName.TableName TO AppUser;

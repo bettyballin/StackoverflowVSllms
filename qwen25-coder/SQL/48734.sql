@@ -1,1 +1,0 @@
-UPDATE YourTableName\nSET YourColumnName = REPLACE(YourColumnName, 'TextToFind', 'TextToReplace')\nWHERE SomeColumn LIKE '%SomeCondition%';

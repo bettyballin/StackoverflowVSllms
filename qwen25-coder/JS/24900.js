@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('a[id^="show"]').click(function() {\n        var number = this.id.replace('show', '');\n        $('.item' + number).toggle(1000);\n        return false;\n    });\n});

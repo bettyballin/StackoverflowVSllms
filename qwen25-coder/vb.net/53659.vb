@@ -1,1 +1,0 @@
-Dim dict As New Dictionary(Of String, Object)\ndict.Add("key1", value1)\ndict.Add("key2", value2)\n\nFor Each kvp In dict\n    Dim key As String = kvp.Key\n    Dim item As Object = kvp.Value\n    ' Use key and item here\nNext

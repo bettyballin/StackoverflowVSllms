@@ -1,1 +1,0 @@
-SELECT \n    t.name AS TableName,\n    p.rows AS RowCounts\nFROM \n    sys.tables t\nINNER JOIN      \n    sys.partitions p ON t.object_id = p.object_id\nWHERE \n    t.is_ms_shipped = 0\nAND \n    index_id IN (0,1)\nORDER BY \n    t.Name;

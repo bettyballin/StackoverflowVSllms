@@ -1,1 +1,0 @@
-// Select the third list item (index 2 since index starts at 0) and add a class\n$('#the_div ul li').eq(2).addClass('your-class');\n\n// To change the text of each list item to reflect its number (1-5 in this case)\n$('#the_div ul li').each(function(index) {\n    $(this).text((index + 1).toString());\n});

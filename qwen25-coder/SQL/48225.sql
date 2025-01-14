@@ -1,1 +1,0 @@
-SELECT l.*, le.*\nFROM Logs l\nLEFT JOIN LogsExtended le ON l.LogId = le.LogId\nWHERE l.Timestamp >= DATEADD(DAY, -30, CURRENT_DATE)\nORDER BY l.LogId;

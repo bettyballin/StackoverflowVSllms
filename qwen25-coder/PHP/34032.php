@@ -1,1 +1,0 @@
-curl_setopt($ch, CURL_HTTP_VERSION_1_1, true);

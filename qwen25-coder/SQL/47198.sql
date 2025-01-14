@@ -1,1 +1,0 @@
-EXEC GetDataFromDynamicTable 'table-jobid1', 'SomeColumn > 10'

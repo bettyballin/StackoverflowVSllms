@@ -1,1 +1,0 @@
-UPDATE YourTableName\nSET YourColumnName = dbo.ToProperCase(YourColumnName);

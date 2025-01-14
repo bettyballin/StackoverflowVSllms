@@ -1,1 +1,0 @@
-$title = "The Ärt of War";\n$sortedTitle = normalizeString($title);\n\n// Assuming $pdo is your PDO connection object\n$sql = "INSERT INTO articles (title, sort_value) VALUES (:title, :sort_value)";\n$stmt = $pdo->prepare($sql);\n$stmt->execute([':title' => $title, ':sort_value' => $sortedTitle]);

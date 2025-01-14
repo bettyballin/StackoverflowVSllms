@@ -1,1 +1,0 @@
-// Assuming you already have a reference to the span element\nvar messageSpan = document.getElementById('message');\n\n// Find the closest form element\nvar containingForm = messageSpan.closest('form');\n\nconsole.log(containingForm); // This will log the <form> element if found

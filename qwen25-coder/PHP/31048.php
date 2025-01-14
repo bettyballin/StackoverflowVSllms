@@ -1,1 +1,0 @@
-class My_View_Helper_FormSubmitNoName extends Zend_View_Helper_FormSubmit\n{\n    public function formSubmit($name = '', $value = 'Submit', $attribs = null)\n    {\n        // Remove the name attribute if it is present\n        unset($attribs['name']);\n\n        return parent::formSubmit('', $value, $attribs);\n    }\n}

@@ -1,1 +1,0 @@
--- Query to see the details of the synonym\nSELECT * \nFROM ALL_SYNONYMS \nWHERE SYNONYM_NAME = '<synonym_name>' \nAND OWNER = '<your_schema>';

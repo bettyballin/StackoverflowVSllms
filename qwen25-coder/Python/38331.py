@@ -1,1 +1,0 @@
-binary_number = 0b1010101111  # Binary for decimal 687\nprint(binary_number)

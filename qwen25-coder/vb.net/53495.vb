@@ -1,1 +1,0 @@
-Public Class ExceptionFilterHelper\n    Public Shared Function HandleException(exception As Exception, filter As Func(Of Exception, Boolean)) As Boolean\n        If filter(exception) Then\n            Return True\n        Else\n            Throw exception\n        End If\n    End Function\nEnd Class

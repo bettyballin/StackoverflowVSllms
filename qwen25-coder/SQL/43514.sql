@@ -1,1 +1,0 @@
--- Assume you want to set @my_id based on a SELECT statement\nSET @my_id = (SELECT id FROM my_table WHERE condition LIMIT 1);\n\n-- Check if @my_id is NULL and raise an error if true\nIF @my_id IS NULL THEN\n    SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Required ID not found, stopping script!';\nEND IF;\n\n-- Rest of your script can continue here if no error was raised

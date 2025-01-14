@@ -1,1 +1,0 @@
-SELECT STRING_AGG(Name, ', ') AS ConcatenatedNames\nFROM (VALUES ('Peter'), ('Paul'), ('Mary')) AS Names(Name);

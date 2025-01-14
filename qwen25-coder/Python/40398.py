@@ -1,1 +1,0 @@
-from twisted.internet import protocol, reactor\nfrom twisted.protocols import basic\n\nclass MyProtocol(basic.Int32StringReceiver):\n    def stringReceived(self, data):\n        # Process the complete packet here.\n        print(f"Received packet: {data}")\n\nfactory = protocol.Factory()\nfactory.protocol = MyProtocol\n\nreactor.listenTCP(8007, factory)\nreactor.run()

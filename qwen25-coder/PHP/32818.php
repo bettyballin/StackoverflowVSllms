@@ -1,1 +1,0 @@
-// In your actions.class.php file, within a specific action method:\npublic function executeIndex(sfWebRequest $request)\n{\n    $data = 'Some important data';\n    $this->getResponse()->setSlot('custom_slot', $data);\n}

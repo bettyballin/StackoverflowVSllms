@@ -1,1 +1,0 @@
-WITH SubQuery AS (\n    SELECT id, value FROM your_table WHERE some_condition\n)\nSELECT a.id, a.value, b.id, b.value\nFROM SubQuery a\nJOIN SubQuery b ON a.some_column = b.some_column;

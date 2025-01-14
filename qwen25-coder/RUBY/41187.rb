@@ -1,1 +1,0 @@
-class ActiveSupport::TestCase\n  self.use_transactional_fixtures = false\n  self.use_instantiated_fixtures = false\n\n  setup do\n    DatabaseCleaner.strategy = :truncation\n    DatabaseCleaner.start\n  end\n\n  teardown do\n    DatabaseCleaner.clean\n  end\nend

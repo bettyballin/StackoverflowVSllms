@@ -1,1 +1,0 @@
-def foo():\n    pass\n\ndef name_of(func):\n    return func.__name__\n\n# Usage\nprint(name_of(foo))  # Output: "foo"

@@ -1,1 +1,0 @@
-$config = require 'config.php';

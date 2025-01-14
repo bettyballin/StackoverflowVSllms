@@ -1,1 +1,0 @@
-<system.webServer>\n     <security>\n       <dynamicIpSecurity>\n         <denyByRequestRate enabled="true" maxRequests="100" requestIntervalInSec="60"/>\n       </dynamicIpSecurity>\n     </security>\n   </system.webServer>

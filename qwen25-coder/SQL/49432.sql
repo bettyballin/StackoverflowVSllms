@@ -1,1 +1,0 @@
-SELECT *\nFROM sometable\nWHERE id = @param1 AND category = @param2

@@ -1,1 +1,0 @@
-SELECT     strings.*, translations.text\nFROM         strings \nLEFT OUTER JOIN translations ON strings.id = translations.string_id AND translations.language_id = (\n    SELECT id \n    FROM language \n    WHERE handle = 'english'\n)\nWHERE (translations.id IS NULL OR translations.language_id = (\n    SELECT id \n    FROM language \n    WHERE handle = 'english'\n))

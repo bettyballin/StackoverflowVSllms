@@ -1,1 +1,0 @@
-$.post("/Controller/AddItems",\n    {\n        "values[id]": 200,\n        "values[FirstName]": "Chris",\n        "values[DynamicItem1]": "Some Value",\n        "values[DynamicItem2]": "Some Other Value"\n    },\n    function(data) { \n        // handle the response\n    },\n    "json");

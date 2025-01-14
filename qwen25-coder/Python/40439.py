@@ -1,1 +1,0 @@
-class MyClass:\n    def __init__(self, value):\n        self.i = value  # 'self' refers to the instance being created\n\n    def f(self):  # 'self' is used here to access the instance attribute\n        return f'hello {self.i}'\n\n# Creating an instance of MyClass\ninstance = MyClass(12345)\nprint(instance.f())  # Output: hello 12345

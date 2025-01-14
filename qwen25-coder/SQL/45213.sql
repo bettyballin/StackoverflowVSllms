@@ -1,1 +1,0 @@
-SELECT something\n   FROM someTable\n   WHERE idcode NOT IN (SELECT NULL)  -- This condition will always be false due to NULL handling

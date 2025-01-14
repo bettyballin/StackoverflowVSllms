@@ -1,1 +1,0 @@
-SELECT sid, serial#, username, osuser, program, last_call_et\n   FROM v$session \n   WHERE status = 'INACTIVE'\n     AND last_call_et > 3600  -- Sessions idle for more than an hour\n     AND type != 'BACKGROUND';

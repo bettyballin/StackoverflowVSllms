@@ -1,1 +1,0 @@
-<?php\n// Assuming soap/soap.php is in the soap directory inside your project structure.\n$projectRoot = dirname(__DIR__); // This will give you the path to the root of your project.\n\n// Include inc/include1.php from soap/soap.php\ninclude $projectRoot . '/inc/include1.php';\n\n// Include objects/object1.php from soap/soap.php\ninclude $projectRoot . '/objects/object1.php';\n?>

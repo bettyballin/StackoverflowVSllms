@@ -1,1 +1,0 @@
-document.observe("dom:loaded", function() {\n    // Your initialization code here\n    main();\n});

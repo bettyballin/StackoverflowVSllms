@@ -1,1 +1,0 @@
-// Handling GET request parameters\nif ($_SERVER['REQUEST_METHOD'] === 'GET') {\n    $paramGet = isset($_GET['param']) ? $_GET['param'] : null;\n    // Process GET data here\n}\n\n// Handling POST request parameters\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $paramPost = isset($_POST['param']) ? $_POST['param'] : null;\n    // Process POST data here\n}

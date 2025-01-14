@@ -1,1 +1,0 @@
-SELECT * \nFROM your_table\nORDER BY CAST(numeric_column AS UNSIGNED);

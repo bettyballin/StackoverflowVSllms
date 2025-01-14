@@ -1,1 +1,0 @@
-UPDATE TableToUpdate \nSET EndTimeKey = D.DATE_NO\nFROM Dates AS D\nWHERE TableToUpdate.EndTime = D.DATE;

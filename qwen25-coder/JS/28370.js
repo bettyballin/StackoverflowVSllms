@@ -1,1 +1,0 @@
-$('#thumbnails').on('click', 'img', function(event) {\n       event.preventDefault();\n       var imgSrc = $(this).attr('src');\n       $('#mainImage').attr('src', imgSrc);\n   });

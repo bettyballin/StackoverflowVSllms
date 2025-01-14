@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <compilation debug="false" targetFramework="4.5">\n      <assemblies>\n        <!-- Other assembly references -->\n      </assemblies>\n      <probing privatePath="..\sharedbin" />\n    </compilation>\n  </system.web>\n</configuration>

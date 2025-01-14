@@ -1,1 +1,0 @@
-use Firebase\JWT\JWT;\nuse Firebase\JWT\ExpiredException;\n\n$key = "your_secret_key";\ntry {\n    $decoded = JWT::decode($jwt, $key, array('HS256'));\n    // Access the data from $decoded like so:\n    echo "User ID: {$decoded->data->user_id}";\n} catch (ExpiredException $e) {\n    echo 'Token Expired';\n} catch (\UnexpectedValueException $e) {\n    echo 'Invalid Token';\n}

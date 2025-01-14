@@ -1,1 +1,0 @@
-create index I_0005 on TABLENAME (a, b, c, d);\ncreate index I_0006 on TABLENAME (d, c, b, a);\ncreate index I_0007 on TABLENAME (b, c, d, a);\n-- and so on for all permutations

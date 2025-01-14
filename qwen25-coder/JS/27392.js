@@ -1,1 +1,0 @@
-// Start recording allocations, useful for finding leaks and memory bloat\nperformance.memory.traceMemoryAllocations();\n\n// Do the task that creates empty slots in your array\n\n// Stop recording\nperformance.getEntriesByType("mark")[0];\n\n// Generate a heap snapshot manually from Developer Tools panel after running the code

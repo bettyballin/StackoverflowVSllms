@@ -1,1 +1,0 @@
-WITH RankedChildren AS (\n    SELECT \n        ParentId,\n        ChildId,\n        ROW_NUMBER() OVER (PARTITION BY ParentId ORDER BY ChildId DESC) as rn\n    FROM \n        YourTableName\n    WHERE \n        ParentId = @parentId\n)\nSELECT \n    ParentId,\n    ChildId\nFROM \n    RankedChildren\nWHERE \n    rn = 1;

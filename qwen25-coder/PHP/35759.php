@@ -1,1 +1,0 @@
-$todoItems = $yourObject->{'todo-items'};

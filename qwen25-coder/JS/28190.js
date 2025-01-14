@@ -1,1 +1,0 @@
-// Fetch API usage example\nfetch('https://api.example.com/data')\n    .then(response => response.json())\n    .then(data => {\n        document.getElementById('content').innerHTML = JSON.stringify(data);\n    })\n    .catch(error => console.error('Error fetching the data:', error));

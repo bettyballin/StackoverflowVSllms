@@ -1,1 +1,0 @@
-$myLines = [];\n$someMarker = 'example';\n$this->takeScriptsWithMarker($myLines, $someMarker);

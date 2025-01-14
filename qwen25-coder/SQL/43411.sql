@@ -1,1 +1,0 @@
-CREATE INDEX idx_data_log_log_time ON data_log (log_time);

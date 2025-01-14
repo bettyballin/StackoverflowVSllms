@@ -1,1 +1,0 @@
-# Example of Smalltalk-style message in Ruby\nclass Calculator\n  def add(a, b)\n    a + b\n  end\nend\n\ncalculator = Calculator.new\nresult = calculator.add(5, 3) # Sending 'add' message to the calculator object

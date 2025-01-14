@@ -1,1 +1,0 @@
-WITH RankedRecords AS (\n    SELECT \n        item1ID, \n        item2ID, \n        ROW_NUMBER() OVER(PARTITION BY item1ID ORDER BY item2ID) AS sortOrder\n    FROM your_table_name\n)\nUPDATE t\nSET sortOrder = r.sortOrder\nFROM your_table_name t\nJOIN RankedRecords r ON t.item1ID = r.item1ID AND t.item2ID = r.item2ID;

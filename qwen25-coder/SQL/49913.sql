@@ -1,1 +1,0 @@
-CREATE MATERIALIZED VIEW sales_summary AS\n     SELECT product_id, SUM(quantity) as total_quantity_sold\n     FROM facts_sales fs\n     GROUP BY product_id;

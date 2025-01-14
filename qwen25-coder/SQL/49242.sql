@@ -1,1 +1,0 @@
-create table product_bill_of_materials (\n    parent_product_id int not null,\n    child_product_id int not null,\n    quantity int not null,\n    constraint pk_product_bill_of_materials \n        primary key clustered (parent_product_id, child_product_id)\n);

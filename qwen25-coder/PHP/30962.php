@@ -1,1 +1,0 @@
-<?php\n\nini_set('display_errors', 1);\nerror_reporting(E_ALL);\n\ntry {\n    $pdo = new PDO('mysql:host=localhost;dbname=your_database', 'username', 'password');\n    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);\n    // Insert statement as above\n} catch (PDOException $e) {\n    echo "Connection failed: " . $e->getMessage();\n}\n\n?>

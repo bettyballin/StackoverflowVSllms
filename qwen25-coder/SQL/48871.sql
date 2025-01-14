@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_NotifyOnInsert ON YourTableName\n   FOR INSERT\n   AS\n   BEGIN\n       EXEC NotifyNonEmptyTable;\n   END

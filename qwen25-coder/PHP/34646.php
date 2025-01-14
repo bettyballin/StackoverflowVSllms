@@ -1,1 +1,0 @@
-// Assuming $smarty is your Smarty instance\n$smarty->assign('form_errors', $v->errors());\n$smarty->assign('form_data', $data);\n$smarty->display('your_template.tpl');

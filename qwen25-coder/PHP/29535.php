@@ -1,1 +1,0 @@
-echo " <a href='my.php?action=show&id=" . $fid . "' onclick=\"return display(event, '" . $fid . "');\">" . $fname . "</a> ";

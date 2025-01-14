@@ -1,1 +1,0 @@
-Public Enum myEnum\n    none = 0\n    abc = 2\n    def = 4\n    ghi = 6\n    [jkl] = 8\n    mno = 9\nEnd Enum\n\nModule Module1\n    Sub Main()\n        Dim value As myEnum = myEnum.[jkl]\n        Console.WriteLine(value.ToString())\n    End Sub\nEnd Module

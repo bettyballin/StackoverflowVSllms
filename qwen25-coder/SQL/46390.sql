@@ -1,1 +1,0 @@
-SELECT \n    p.Name,\n    a.add.value('(city/text())[1]', 'NVARCHAR(100)') AS City,\n    a.add.value('(state/text())[1]', 'NVARCHAR(100)') AS State\nFROM \n    people p\nCROSS APPLY \n    p.addresses.nodes('/addresses/address') a(add);

@@ -1,1 +1,0 @@
-<Backup>\n    <Object>\n        <DatabaseID>YourCubeName</DatabaseID>\n    </Object>\n    <File>C:\Path\To\YourCubeName.abf</File>\n    <AllowOverwrite>true</AllowOverwrite>\n</Backup>

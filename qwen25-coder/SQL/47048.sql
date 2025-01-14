@@ -1,1 +1,0 @@
--- Setting the transaction isolation level to READ UNCOMMITTED\nSET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;\n\nBEGIN TRANSACTION;\nSELECT * FROM YourTable;\n-- No locks are taken on rows being read, thus allowing other transactions to modify the data concurrently.\nCOMMIT TRANSACTION;

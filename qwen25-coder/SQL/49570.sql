@@ -1,1 +1,0 @@
-CREATE OR REPLACE TRIGGER audit_revoke_trigger\nAFTER REVOKE ON DATABASE\nDECLARE\n    v_obj_name VARCHAR2(100);\nBEGIN\n    SELECT ora_dict_obj_name INTO v_obj_name FROM dual;\n\n    INSERT INTO revoke_audit_log (user_id, object_name, event_timestamp)\n    VALUES (SYSGATE, v_obj_name, SYSTIMESTAMP);\nEND;\n/

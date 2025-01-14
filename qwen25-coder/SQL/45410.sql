@@ -1,1 +1,0 @@
-CREATE PROCEDURE sp_GetDataFromDBB\nAS\nBEGIN\n    SELECT Column1, Column2, Column3\n    FROM DB_B.dbo.TableB;\nEND;

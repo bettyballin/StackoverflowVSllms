@@ -1,1 +1,0 @@
-$curl = curl_init($url);\n// Set the user agent and other options if necessary\ncurl_setopt($curl, CURLOPT_RETURNTRANSFER, true);\n\n$contents = curl_exec($curl);\ncurl_close($curl);\n\n// Convert contents to UTF-8\n$contents = mb_convert_encoding($contents, 'UTF-8', 'auto');\n\npreg_match_all('/(?:\$|£)[0-9]+(?:\.[0-9]{2})?/', $contents, $matches);\n\nprint_r($matches);

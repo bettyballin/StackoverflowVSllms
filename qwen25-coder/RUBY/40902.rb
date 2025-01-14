@@ -1,1 +1,0 @@
-<%= link_to "Back", last_page_path %> |\n<%= button_to "Continue", next_page_path, form_class: "button-to" %>

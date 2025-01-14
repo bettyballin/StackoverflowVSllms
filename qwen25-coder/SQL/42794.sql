@@ -1,1 +1,0 @@
-EXEC sp_configure 'max degree of parallelism';\n   EXEC sp_configure 'show advanced options', 1;\n   RECONFIGURE;\n   EXEC sp_configure 'max server memory (MB)';

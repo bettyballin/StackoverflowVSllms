@@ -1,1 +1,0 @@
-# Define states, transitions, and the unsafe state\nstates = {'S0', 'S1', 'S2', 'Unsafe'}\ntransitions = {\n    'S0': [('a', 'S1'), ('b', 'S2')],\n    'S1': [('c', 'S2'), ('d', 'Unsafe')],\n    'S2': [('a', 'S0')],\n}\ninitial_state = 'S0'\nunsafe_states = {'Unsafe'}

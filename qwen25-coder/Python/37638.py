@@ -1,1 +1,0 @@
-import unittest\n\nclass Calculator:\n    def add(self, a, b):\n        return a + b\n\nclass TestCalculator(unittest.TestCase):\n    def test_addition(self):\n        calc = Calculator()\n        self.assertEqual(calc.add(2, 3), 5)\n        self.assertEqual(calc.add(-1, -1), -2)\n\nif __name__ == '__main__':\n    unittest.main()

@@ -1,1 +1,0 @@
-<?php\n// Ensure no other code outside of these tags sends any data\nheader('Content-Type: text/plain');\necho "Your actual content";\nexit; // This ensures nothing else is sent to the browser\n?>

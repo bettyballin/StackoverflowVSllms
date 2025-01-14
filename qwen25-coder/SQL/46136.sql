@@ -1,1 +1,0 @@
-SET @EmpID = (SELECT MIN(EmpID) FROM dbo.Emp WHERE MgrID = @Root)

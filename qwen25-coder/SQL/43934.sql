@@ -1,1 +1,0 @@
--- Enable the Database Mail feature\n   sp_configure 'show advanced options', 1;\n   GO\n   RECONFIGURE;\n   GO\n\n   sp_configure 'Database Mail XPs', 1;\n   GO\n   RECONFIGURE;\n   GO

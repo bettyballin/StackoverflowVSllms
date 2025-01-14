@@ -1,1 +1,0 @@
-<Connector port="8080" protocol="HTTP/1.1"\n           connectionTimeout="20000"\n           redirectPort="8443"\n           relaxedQueryChars="%2F%3A%40%26%3D%2B%24"\n           relaxedPathChars="%2F%5C"/>

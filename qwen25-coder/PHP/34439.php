@@ -1,1 +1,0 @@
-$image = @getimagesize("../uploads/$pid");

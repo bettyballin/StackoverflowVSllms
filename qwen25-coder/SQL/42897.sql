@@ -1,1 +1,0 @@
-ALTER TABLE t1 ADD FULLTEXT (foo_desc, bar_desc);

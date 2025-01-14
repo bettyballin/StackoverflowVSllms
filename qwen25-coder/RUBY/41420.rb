@@ -1,1 +1,0 @@
-key <- "width"\nvalue <- 32\n\nmylist <- list()\nmylist[[key]] <- value\n\nprint(mylist)\n# $width\n# [1] 32

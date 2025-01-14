@@ -1,1 +1,0 @@
-def foo\n  @foo ||= if read_attribute(:foo).nil?\n    result = (expensive SQL query result)\n    write_attribute(:foo, result)\n    save!\n    result\n  else\n    read_attribute(:foo)\n  end\nend

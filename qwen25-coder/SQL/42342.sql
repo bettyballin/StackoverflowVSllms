@@ -1,1 +1,0 @@
-SHOW TABLE STATUS WHERE Name = 'your_table_name';

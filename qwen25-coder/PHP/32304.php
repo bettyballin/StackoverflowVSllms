@@ -1,1 +1,0 @@
-foreach ($_POST as $var => $value) {\n    if (($var != "Submit") && ($value != "")) {\n        // Use \r\n before <br> to ensure it's treated as a new line in email clients\n        $body .= $var . ': ' . filter_var($value, FILTER_SANITIZE_STRING) . "<br>\r\n";\n    }\n}

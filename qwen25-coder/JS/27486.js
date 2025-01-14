@@ -1,1 +1,0 @@
-// Ensure that the script runs once the page is fully loaded.\nSys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function(sender, args) {\n    // Reinitialize your WYSIWYG editor here.\n    tinymce.init({\n        selector: '#yourTextBoxId',\n        // Your TinyMCE configurations here...\n    });\n});

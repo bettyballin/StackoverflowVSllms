@@ -1,1 +1,0 @@
-CREATE TABLE items (\n       itemid VARCHAR(32) NOT NULL PRIMARY KEY,\n       colour VARCHAR(32),\n       size VARCHAR(32)\n   );\n\n   CREATE TABLE additional_attributes (\n       itemid VARCHAR(32) NOT NULL,\n       itemkey VARCHAR(32) NOT NULL,\n       itemvalue TEXT NOT NULL,\n       PRIMARY KEY (itemid, itemkey),\n       FOREIGN KEY (itemid) REFERENCES items(itemid)\n   );

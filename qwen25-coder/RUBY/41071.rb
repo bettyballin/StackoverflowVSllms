@@ -1,1 +1,0 @@
-class YourController < ApplicationController\n  def your_action\n    data = { key: 'value' } # replace with actual json data\n    render json: data, content_type: 'application/json'\n  end\nend

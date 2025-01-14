@@ -1,1 +1,0 @@
-$a = "abc dec g (gold)";\n$pos = strpos($a, '(');\nif ($pos !== false) {\n    $result = substr($a, 0, $pos);\n    echo $result; // Outputs: abc dec g\n} else {\n    echo $a; // In case there is no '(' in the string\n}

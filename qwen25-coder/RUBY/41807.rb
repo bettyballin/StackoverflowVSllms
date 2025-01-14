@@ -1,1 +1,0 @@
-<Table>.where("create_date = ?", Date.new(2009, 5, 6))

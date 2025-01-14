@@ -1,1 +1,0 @@
-// Relative path (may cause issues if the script is moved)\ninclude '../lib/somefile.php';\n\n// Absolute path (less likely to break when moving directories)\ndefine('BASE_PATH', '/full/path/to/project/');\ninclude BASE_PATH . 'lib/somefile.php';

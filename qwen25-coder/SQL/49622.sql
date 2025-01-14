@@ -1,1 +1,0 @@
-CREATE TABLE Orders (\n    ID INT PRIMARY KEY IDENTITY(1,1),\n    OrderNumber INT NOT NULL,\n    -- other columns here\n);\n\nCREATE TRIGGER tr_Orders_Insert\nON Orders\nFOR INSERT AS\nBEGIN\n    UPDATE Orders\n    SET OrderNumber = (SELECT ISNULL(MAX(OrderNumber), 0) + 1 FROM Orders)\n    WHERE ID IN (SELECT ID FROM inserted);\nEND;

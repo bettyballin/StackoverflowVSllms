@@ -1,1 +1,0 @@
-ClientSideRegEx = ".{8,20}";

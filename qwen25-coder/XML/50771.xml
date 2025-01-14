@@ -1,1 +1,0 @@
-<frontend>\n    <routers>\n        <specialcheckout>\n            <use>standard</use>\n            <args>\n                <module>Company_SpecialCheckout</module>\n                <frontName>specialcheckout</frontName>\n            </args>\n        </specialcheckout>\n    </routers>\n</frontend>

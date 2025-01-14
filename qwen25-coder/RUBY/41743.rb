@@ -1,1 +1,0 @@
-class WaitController < ApplicationController\n  def index\n    # Trigger the pairing logic\n    ActionCable.server.broadcast 'game_room', {action: 'pair'}\n  end\nend

@@ -1,1 +1,0 @@
-UPDATE sometable\nSET timecol = ADD_MONTHS(timecol, 4);

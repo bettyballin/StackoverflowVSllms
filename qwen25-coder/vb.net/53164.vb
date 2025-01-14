@@ -1,1 +1,0 @@
-#Disable Warning BC30982\n   ' Your LINQ to SQL generated code here\n   #Enable Warning BC30982

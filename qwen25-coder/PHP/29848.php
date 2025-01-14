@@ -1,1 +1,0 @@
-<?php\ninclude('session_manager.php');\ninclude('File2.php'); // Includes everything necessary for File2 and by extension, what's needed in File1 if conditions are met.\n// Rest of File3's code...\n?>

@@ -1,1 +1,0 @@
-from skimage.metrics import structural_similarity as ssim\n   import cv2\n\n   def compute_ssim(image1, image2):\n       return ssim(image1, image2, multichannel=True)

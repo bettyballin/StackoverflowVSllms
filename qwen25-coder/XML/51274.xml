@@ -1,1 +1,0 @@
-<PropertyGroup>\n       <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>\n       <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>\n       <OutputPath>bin\$(Configuration)\</OutputPath>\n   </PropertyGroup>

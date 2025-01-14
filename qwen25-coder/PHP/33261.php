@@ -1,1 +1,0 @@
-<?php\n// Dummy data for demonstration purposes. Replace with your database query.\n$labels = ['10 Feb', '11 Feb', '12 Feb']; // Dates\n$values = [75, 80, 90]; // Achievement percentages\n\necho json_encode([\n    'labels' => $labels,\n    'values' => $values\n]);\n?>

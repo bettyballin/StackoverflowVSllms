@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded", function () {\n    const headers = document.querySelectorAll('.frozen-header th');\n    const rows = document.querySelectorAll('tbody tr')[0].querySelectorAll('td');\n\n    headers.forEach((header, index) => {\n        header.style.width = getComputedStyle(rows[index]).width;\n    });\n});

@@ -1,1 +1,0 @@
-// Example of using a server-side proxy (e.g., in Node.js)\n   app.get('/status', async (req, res) => {\n     try {\n       const response = await axios.get('http://127.0.0.1:8080/status');\n       res.json(response.data);\n     } catch (error) {\n       res.status(500).json({ error: 'Failed to fetch status' });\n     }\n   });

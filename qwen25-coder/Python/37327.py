@@ -1,1 +1,0 @@
-import dill\n\nd = {"abc": [1, 2, 3], "qwerty": [4, 5, 6]}\nwith open('data.dill', 'wb') as f:\n    dill.dump(d, f)

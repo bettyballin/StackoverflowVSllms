@@ -1,1 +1,0 @@
-CREATE TABLE items (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(255),\n    type VARCHAR(100),\n    details TEXT\n);\n\nCREATE TABLE player_inventory (\n    player_id INT,\n    item_id INT,\n    quantity INT,\n    FOREIGN KEY (item_id) REFERENCES items(id)\n);

@@ -1,1 +1,0 @@
-ldap_add($ldap, 'OU=Test,OU=Test,DC=domain,DC=example,DC=local', array(\n    'ou' => 'Test',\n    'objectClass' => array('organizationalUnit', 'domainRelatedObject'),\n    'l' => 'location',\n    'associatedDomain' => 'domain.example.local', // Ensure this is correctly specified\n));

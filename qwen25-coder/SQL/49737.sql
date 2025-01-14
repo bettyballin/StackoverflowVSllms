@@ -1,1 +1,0 @@
-SELECT name\nFROM your_table\nORDER BY \n  TO_NUMBER(NVL(REGEXP_SUBSTR(name, '^\D*(\d+)', 1, 1, NULL, 1), '0')),\n  REGEXP_SUBSTR(name, '^\D*')

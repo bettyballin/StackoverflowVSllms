@@ -1,1 +1,0 @@
-WITH RankedRecords AS (\n    SELECT \n        ID, Value, Signal, Read, Firmware, Date, Time,\n        ROW_NUMBER() OVER (PARTITION BY ID ORDER BY [Time] DESC) as rn\n    FROM YourTableName\n)\nSELECT \n    ID, Value, Signal, Read, Firmware, Date, Time\nFROM RankedRecords\nWHERE rn = 1;

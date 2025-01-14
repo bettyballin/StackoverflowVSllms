@@ -1,1 +1,0 @@
-create table players (\n    userid varchar(128) primary key,\n    top_score real not null,\n    rank int not null default 0\n);\n\ncreate unique index idx_top_score on players (top_score desc, userid);

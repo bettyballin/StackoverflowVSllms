@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    function redirectWithAlert() {\n        alert('hello');\n        setTimeout(function() { window.location.href = 'http://www.google.com'; }, 100);\n    }\n</script>

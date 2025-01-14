@@ -1,1 +1,0 @@
--- Connect as user B\nGRANT ALTER ON B.table_name TO A;

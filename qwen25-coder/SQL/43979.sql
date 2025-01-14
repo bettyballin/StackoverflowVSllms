@@ -1,1 +1,0 @@
-REVOKE CONNECT TO exampleuser;

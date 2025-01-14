@@ -1,1 +1,0 @@
-// Central Database Structure (simplified)\nclass Site {\n    public $siteId;\n    public $name;\n    public $domain;\n    public $databaseName;\n}\n\nclass User {\n    public $userId;\n    public $username;\n    public $passwordHash;\n    public $siteId;  // Foreign key to the Site table\n}

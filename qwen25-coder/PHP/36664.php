@@ -1,1 +1,0 @@
-use Symfony\Component\String\u;\n\n   $name = u('john doe');\n   print($name->uppercase()->trim()); // Outputs: JOHN DOE

@@ -1,1 +1,0 @@
-// Get the instance of the Registry singleton\n$registry = Registry::getInstance();\n\n// Now use the arrow operator to call methods on the instance\n$registry->set('page', $page);\n$pageValue = $registry->get('page');

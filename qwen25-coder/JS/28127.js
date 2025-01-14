@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    document.addEventListener("DOMContentLoaded", function() {\n        var baseUrl = '@(Request.ApplicationPath)';\n        var employeesLink = document.getElementById('employees-link');\n        employeesLink.href = baseUrl + '/Employees';\n    });\n</script>\n<a id="employees-link">Employees</a>

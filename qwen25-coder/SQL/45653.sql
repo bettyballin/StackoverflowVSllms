@@ -1,1 +1,0 @@
-DECLARE @test nvarchar(10);\nSET @test = N'Hello';\n\n-- The actual length of the data stored, including the length prefix\nSELECT DATALENGTH(@test) AS DataLengthInBytes;

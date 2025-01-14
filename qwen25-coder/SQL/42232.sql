@@ -1,1 +1,0 @@
-SELECT Code, Date, Rate\nFROM (\n    SELECT \n        Code,\n        Date,\n        Rate,\n        LEAD(Rate) OVER (PARTITION BY Code ORDER BY Date) AS NextRate\n    FROM RateTable\n) AS SubQuery\nWHERE Rate <> NextRate OR NextRate IS NULL;

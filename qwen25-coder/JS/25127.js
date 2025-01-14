@@ -1,1 +1,0 @@
-console.log(AppConstants.RESOURCE_TYPE_REGISTER); // 2\nconsole.log(AppConstants.RESOURCE_TYPE_INFO);    // 1

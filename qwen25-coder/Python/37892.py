@@ -1,1 +1,0 @@
-if len(lines) > 52:\n    print(lines[52])\nelse:\n    print("Line 53 does not exist.")

@@ -1,1 +1,0 @@
-var flashvars = {};\nvar params = {\n    wmode: "transparent"\n};\nvar attributes = {};\nswfobject.embedSWF("your-flash-file.swf", "flashContent",\n                    "550", "400", "9.0.0", false,\n                    flashvars, params, attributes);

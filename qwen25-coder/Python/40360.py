@@ -1,1 +1,0 @@
-= (2**32)**2\n   for i in xrange(10**7):\n       li[i] =

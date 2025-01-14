@@ -1,1 +1,0 @@
-$var = "";\n  var_dump(isset($var)); // Outputs: bool(true)

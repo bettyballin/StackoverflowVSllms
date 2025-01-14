@@ -1,1 +1,0 @@
-SELECT REGEXP_SUBSTR(message_body, 'DELINQUENT', 1, 1) AS status_extracted\nFROM your_table_name\nWHERE REGEXP_LIKE(message_body, 'CURRENT STATUS:\s*DELINQUENT');

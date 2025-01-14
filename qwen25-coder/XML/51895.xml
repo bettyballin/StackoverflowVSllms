@@ -1,1 +1,0 @@
-<applicationPools>\n     <add name="Clr4IntegratedAppPool" managedRuntimeVersion="v4.0" autoStart="true">\n       <processModel identityType="NetworkService" maxProcesses="1" />\n     </add>\n   </applicationPools>

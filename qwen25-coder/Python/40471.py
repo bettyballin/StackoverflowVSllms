@@ -1,1 +1,0 @@
-variable = {'key': [1, 2, 'three'], 'another_key': {'nested_key': 'value'}}\nprint(repr(variable))

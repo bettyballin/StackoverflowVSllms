@@ -1,1 +1,0 @@
-// Retrieve all users\n$query = $this->db->get('users');\n$results = $query->result_array(); // Fetch results as an array

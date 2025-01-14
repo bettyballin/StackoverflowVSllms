@@ -1,1 +1,0 @@
-create unique index I_0004 on TABLENAME (a) INCLUDE (b, c, d);

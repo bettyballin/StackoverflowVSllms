@@ -1,1 +1,0 @@
-<?php\n$username = 'abc';\n$password = '123';\n$hashed_password = password_hash($username . $password, PASSWORD_BCRYPT);\n\n// Store $hashed_password in your database as a VARCHAR(255)\n?>

@@ -1,1 +1,0 @@
-foreach ($_POST as $key => $value) {\n       $$key = sanitize_input($value);\n   }

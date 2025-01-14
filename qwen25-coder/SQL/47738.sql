@@ -1,1 +1,0 @@
-SELECT j, joh\nFROM Job j\nJOIN (\n    SELECT hist.job, MAX(hist.assignDate) as maxAssignDate\n    FROM JobOwnerHistory hist\n    WHERE hist.jobOwner.id = :userId\n    GROUP BY hist.job\n) latestHistory ON j.id = latestHistory.job.id AND joh.assignDate = latestHistory.maxAssignDate\nJOIN j.history joh ON joh.job = j\nWHERE joh.jobOwner.id = :userId

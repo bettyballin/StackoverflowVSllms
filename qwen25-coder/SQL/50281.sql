@@ -1,1 +1,0 @@
-ALTER TABLE content_tag_table\nADD CONSTRAINT uc_content_tag UNIQUE (contentID, tagID);

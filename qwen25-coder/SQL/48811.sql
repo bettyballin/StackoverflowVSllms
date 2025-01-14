@@ -1,1 +1,0 @@
-UPDATE keywords_table\nSET keyword_column = LOWER(keyword_column);

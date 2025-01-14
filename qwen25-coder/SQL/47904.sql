@@ -1,1 +1,0 @@
--- Drop the invalid public synonym\nDROP PUBLIC SYNONYM part_test;\n\n-- Recreate the public synonym\nCREATE PUBLIC SYNONYM part_test FOR part_test;

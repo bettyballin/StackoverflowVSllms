@@ -1,1 +1,0 @@
--- Common attributes between Asset-A and Asset-B\nSELECT a1.AttributeValue\nFROM Attributes a1\nJOIN Attributes a2 ON a1.AttributeValue = a2.AttributeValue\nWHERE a1.AssetId = (SELECT AssetId FROM Assets WHERE AssetName = 'Asset-A')\nAND a2.AssetId = (SELECT AssetId FROM Assets WHERE AssetName = 'Asset-B');

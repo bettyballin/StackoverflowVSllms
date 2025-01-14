@@ -1,1 +1,0 @@
-echo $name; // Assuming $name was set in a previous session as a global variable

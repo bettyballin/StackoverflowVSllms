@@ -1,1 +1,0 @@
-app.get('/your-url-here', function(req, res) {\n    const data = { message: 'Hello World' };\n    res.set('Cache-Control', 'public, max-age=3600'); // Cache for 1 hour\n    res.set('Expires', new Date(Date.now() + 3600 * 1000).toUTCString());\n    res.json(data);\n});

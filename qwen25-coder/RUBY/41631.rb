@@ -1,1 +1,0 @@
-gem 'redis'\n   gem 'redis-rails'

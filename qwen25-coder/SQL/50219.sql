@@ -1,1 +1,0 @@
--- Example: Selecting rows where the condition is 'Y'\nSELECT *\nFROM YourTableName\nWHERE your_ybln_column = 'Y';\n\n-- Example: Using a CASE statement to convert 'Y'/'N' to 1/0 for logic\nSELECT \n    *,\n    CASE \n        WHEN your_ybln_column = 'Y' THEN 1\n        ELSE 0\n    END AS boolean_value\nFROM YourTableName;

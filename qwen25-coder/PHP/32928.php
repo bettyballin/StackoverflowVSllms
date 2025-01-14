@@ -1,1 +1,0 @@
-$toField = explode(",", $ids);  // Which looks something like [24,25,26,29]\n$toFieldJson = json_encode($toField);

@@ -1,1 +1,0 @@
-$permissions = ['read' => true, 'write' => true, 'execute' => false];\n\nif ($permissions['read']) {\n    echo "Read permission is granted.\n";\n}

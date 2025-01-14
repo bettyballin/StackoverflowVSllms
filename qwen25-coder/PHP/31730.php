@@ -1,1 +1,0 @@
-<?php\n\n// Check if DEBUG is set as an environment variable\n$debugEnv = getenv('DEBUG');\ndefine('DEBUG', $debugEnv === 'true');\n\n$result = someFunction();\n\nif (DEBUG) {\n    echo "Debug: The function returned $result\n";\n}\n\nfunction someFunction() {\n    return uniqid();\n}

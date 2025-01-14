@@ -1,1 +1,0 @@
-CREATE INDEX idx_your_column_name ON YOUR_TABLE_NAME(YOUR_COLUMN_NAME);

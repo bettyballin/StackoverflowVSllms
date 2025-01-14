@@ -1,1 +1,0 @@
-SELECT ct.company_id FROM company2tag ct\nWHERE ct.tag_id = 18\nGROUP BY ct.company_id\nHAVING COUNT(ct.company_id) = 1

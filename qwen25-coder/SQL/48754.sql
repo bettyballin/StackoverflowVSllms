@@ -1,1 +1,0 @@
-CREATE TABLE Roles (\n        RoleID INT PRIMARY KEY,\n        RoleName VARCHAR(255) UNIQUE NOT NULL\n    );

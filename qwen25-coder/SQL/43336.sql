@@ -1,1 +1,0 @@
-SELECT \n    j.Job, \n    j.Status, \n    j.OpenDate,\n    nOpen.Text AS OpenNote,\n    nClose.Text AS CloseNote\nFROM \n    Jobs j LEFT JOIN \n    (SELECT Job, Text FROM Notes WHERE Type = 'Open') AS nOpen ON j.Job = nOpen.Job LEFT JOIN \n    (SELECT Job, Text FROM Notes WHERE Type = 'Close') AS nClose ON j.Job = nClose.Job;

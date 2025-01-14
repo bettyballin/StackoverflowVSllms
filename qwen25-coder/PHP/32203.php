@@ -1,1 +1,0 @@
-class Email {\n       public static function send($to, $subject, $body) {\n           return mail($to, $subject, $body);\n       }\n   }

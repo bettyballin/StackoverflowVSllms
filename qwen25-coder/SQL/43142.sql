@@ -1,1 +1,0 @@
-SELECT *\n   FROM YourTable\n   WHERE DateColumn = @MyDate_Copy\n   OPTION (OPTIMIZE FOR (@MyDate_Copy UNKNOWN));

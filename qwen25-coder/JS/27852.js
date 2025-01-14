@@ -1,1 +1,0 @@
-var basic = document.getElementById('basicSearch');\nvar advanced = document.getElementById('advancedSearch');\n\nif (showAdvanced) {\n    advanced.classList.add('visible');\n    basic.classList.remove('visible');\n} else {\n    basic.classList.add('visible');\n    advanced.classList.remove('visible');\n}

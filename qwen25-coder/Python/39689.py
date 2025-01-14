@@ -1,1 +1,0 @@
-plantunitids = ', '.join(map(str, range(49, 58)))\nupdate_statement = f"UPDATE plantfunctiontable SET decommissioned=1 WHERE plantunitid IN ({plantunitids});"\nprint(update_statement)

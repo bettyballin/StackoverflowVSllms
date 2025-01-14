@@ -1,1 +1,0 @@
-SELECT \n    item_id,\n    SUM(rating * count) AS weighted_sum,\n    SUM(count) AS total_weight\nFROM (\n    SELECT \n        item_id, \n        rating, \n        COUNT(*) AS count\n    FROM ratings\n    GROUP BY item_id, rating\n) AS subquery\nGROUP BY item_id;

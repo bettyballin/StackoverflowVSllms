@@ -1,1 +1,0 @@
-UPDATE mytable WITH (ROWLOCK, UPDLOCK)\n   SET counter = counter + 1 WHERE somecondition;

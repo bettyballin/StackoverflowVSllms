@@ -1,1 +1,0 @@
-CREATE DATABASE IndexTuning;\nUSE IndexTuning;\n\nCREATE TABLE Customers (\n    CustomerID INT IDENTITY(1,1) PRIMARY KEY,\n    FirstName NVARCHAR(50),\n    LastName NVARCHAR(50),\n    Email NVARCHAR(100),\n    City NVARCHAR(50)\n);

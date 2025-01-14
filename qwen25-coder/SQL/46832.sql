@@ -1,1 +1,0 @@
--- Example of efficient set-based logic instead of looping through rows\nSELECT o.customer_id, SUM(o.amount) AS total_spent\nFROM orders o\nGROUP BY o.customer_id;

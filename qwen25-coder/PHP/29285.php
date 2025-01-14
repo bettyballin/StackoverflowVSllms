@@ -1,1 +1,0 @@
-<?php\nforeach (glob("/var/log/*.txt") as $filename) {\n    echo "$filename size " . filesize($filename) . "\n";\n}\n?>

@@ -1,1 +1,0 @@
-SELECT DATALENGTH(your_column_name) AS ByteLength\nFROM your_table_name;

@@ -1,1 +1,0 @@
-<system.webServer>\n    <handlers>\n        <add name="StreamMp3Handler" path="stream_mp3.ashx" verb="*" \n             type="Namespace.StreamMp3, AssemblyName" resourceType="Unspecified"/>\n    </handlers>\n</system.webServer>

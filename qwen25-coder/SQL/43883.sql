@@ -1,1 +1,0 @@
-SELECT SUBSTRING(CONVERT(VARCHAR(10), signal_data, 1), 5, 2) AS hex_part\nFROM your_table;

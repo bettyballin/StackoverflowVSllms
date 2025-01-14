@@ -1,1 +1,0 @@
-require_once('../system/Sentry.php');\n$theSentry = new Sentry();\nif(!$theSentry->checkLogin('', '', 2)){ \n    header("Location: login.php"); \n    die(); \n}

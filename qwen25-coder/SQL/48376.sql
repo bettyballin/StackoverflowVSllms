@@ -1,1 +1,0 @@
-SELECT * \nFROM Addresses WITH(INDEX(YourIndexName))\nWHERE Address3 LIKE '123 Main%'

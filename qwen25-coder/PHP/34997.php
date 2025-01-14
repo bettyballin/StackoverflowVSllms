@@ -1,1 +1,0 @@
-public function validationChk()\n{\n    $error_msg['error_msg'][] = array("msg" => "hello");\n    $error_msg['error_msg'][] = array("msg" => "hi");\n\n    header('Content-Type: application/json'); // Set content type to JSON\n    echo json_encode($error_msg);\n    exit;\n}

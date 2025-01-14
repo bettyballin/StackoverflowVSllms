@@ -1,1 +1,0 @@
-if (preg_match('/.*_archived$/', $string)) {\n    echo "The string contains '_archived'.";\n} else {\n    echo "The string does not contain '_archived'.";\n}

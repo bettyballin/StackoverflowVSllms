@@ -1,1 +1,0 @@
-import sys\nimport hotshot\n\ndef main(argv):\n    for i in range(1, 1000):\n        print(i)\n\nif __name__ == "__main__":\n    prof = hotshot.Profile("hotshot_edi_stats")\n    # Pass the function and its arguments separately to runcall\n    prof.runcall(main, sys.argv)\n    prof.close()

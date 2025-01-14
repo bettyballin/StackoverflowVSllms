@@ -1,1 +1,0 @@
-// Select the node\nvar inner1 = document.getElementById('inner1');\n\n// Get all siblings\nvar parent = inner1.parentNode;\nvar children = parent.children;\n\nfor (var i = 0; i < children.length; i++) {\n    if (children[i] !== inner1) {\n        console.log(children[i]);\n    }\n}

@@ -1,1 +1,0 @@
-echo nl2br($yourTextFromDatabase);

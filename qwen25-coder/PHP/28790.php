@@ -1,1 +1,0 @@
-<?php\n// Simulate a time-consuming process. Replace this with your actual logic.\nsleep(5); // This represents delay in processing.\n\necho "<h1>Data Processing Complete!</h1>";\necho "<p>This is the content that was processed.</p>";\n?>

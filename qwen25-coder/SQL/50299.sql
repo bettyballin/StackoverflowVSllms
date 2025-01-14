@@ -1,1 +1,0 @@
-DECLARE @DateTimeVar datetime = '2023-10-05 14:35:00';\nDECLARE @VarcharVar varchar(10);\n\nSET @VarcharVar = FORMAT(@DateTimeVar, 'yyyy-MM-dd');\n\nSELECT @VarcharVar;

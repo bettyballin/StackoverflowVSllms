@@ -1,1 +1,0 @@
-CREATE FUNCTION GetEmployeesByDepartment(@DepartmentId INT)\nRETURNS TABLE \nAS\nRETURN (SELECT * FROM Employees WHERE DepartmentID = @DepartmentId);

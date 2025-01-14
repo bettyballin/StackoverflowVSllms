@@ -1,1 +1,0 @@
--- Example of using Cross Join to generate test data combinations\nSELECT product_type, color\nFROM (VALUES ('shirt'), ('pants')) AS products(product_type)\nCROSS JOIN (VALUES ('red'), ('blue'), ('green')) AS colors(color);

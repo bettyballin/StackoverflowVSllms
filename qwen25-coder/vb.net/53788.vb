@@ -1,1 +1,0 @@
-Sub Main()\n    StartVPN("My Work", "your_username", "your_password")\nEnd Sub

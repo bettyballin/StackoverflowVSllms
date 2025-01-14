@@ -1,1 +1,0 @@
-books = Book.objects.select_related('author').all()

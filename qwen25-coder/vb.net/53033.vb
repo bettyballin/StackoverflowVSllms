@@ -1,1 +1,0 @@
-Public MaintenanceMenuList As New ListView()\n\nFunction AddItems()\n    Dim lstModules As New ListBox()\n\n    For Each item As ListViewItem In MaintenanceMenuList.Items\n        lstModules.Items.Add(item.Text)\n    Next\n\n    ' Optionally, if you want to use lstModules after this function\n    Return lstModules\nEnd Functio

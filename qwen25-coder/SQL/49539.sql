@@ -1,1 +1,0 @@
-SELECT \n    ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS IDENTITY_COLUMN,\n    Column1, \n    Column2, \n    ...\nINTO #TempTable\nFROM \n    YourSourceTable;

@@ -1,1 +1,0 @@
-<?php\n// Simulate a database query by fetching some data\n$data = "Data fetched and processed on " . date('Y-m-d H:i:s');\necho $data;\n?>

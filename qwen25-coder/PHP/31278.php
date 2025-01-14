@@ -1,1 +1,0 @@
-<?php\n// myClass.php\n\nnamespace MyNamespace;\n\nclass MyClass {\n    // Class properties and methods go here\n}\n?>

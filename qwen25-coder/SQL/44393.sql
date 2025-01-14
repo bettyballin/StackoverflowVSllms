@@ -1,1 +1,0 @@
-WITH RankedCities AS (\n    SELECT \n        country,\n        state,\n        city,\n        postalcode,\n        areacode,\n        ROW_NUMBER() OVER (PARTITION BY country, state, city ORDER BY postalcode) as rn\n    FROM \n        your_city_table_name\n)\nSELECT \n    country,\n    state,\n    city,\n    postalcode,\n    areacode\nFROM \n    RankedCities\nWHERE \n    rn = 1;

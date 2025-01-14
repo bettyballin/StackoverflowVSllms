@@ -1,1 +1,0 @@
-<system.web>\n       <compilation debug="true" targetFramework="2.0" />\n       <!-- Ensure that custom errors are set to Off for debugging -->\n       <customErrors mode="Off"/>\n   </system.web>

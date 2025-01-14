@@ -1,1 +1,0 @@
-import math\n\ndef f(x):\n    return 1 + x * (1 - math.exp(-x))

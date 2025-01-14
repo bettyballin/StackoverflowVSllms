@@ -1,1 +1,0 @@
-// Fetching JSON data\nfetch('http://example.com/webservice')\n  .then(response => response.json())\n  .then(data => console.log(data))\n  .catch(error => console.error('Error:', error));

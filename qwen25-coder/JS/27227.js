@@ -1,1 +1,0 @@
-// Example of parsing JSON in JavaScript\nconst jsonString = '{"name": "John", "age": 30}';\nconst jsonObject = JSON.parse(jsonString);\n\n// Example of parsing XML in JavaScript (using DOMParser)\nconst xmlString = '<person><name>John</name><age>30</age></person>';\nconst parser = new DOMParser();\nconst xmlDoc = parser.parseFromString(xmlString, "text/xml");

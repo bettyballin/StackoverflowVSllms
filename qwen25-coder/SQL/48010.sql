@@ -1,1 +1,0 @@
-SELECT SalesPerson, SaleAmount\nFROM Sales\nORDER BY SalesPerson\nCOMPUTE SUM(SaleAmount) BY SalesPerson,\n        AVG(SaleAmount) BY SalesPerson;

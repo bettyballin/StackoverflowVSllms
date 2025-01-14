@@ -1,1 +1,0 @@
-$testBar = new Bar();\necho $testBar->getFoo(5)->value; // Outputs: Foo # 5\n$testBar->test();\necho $testBar->getFoo(5)->value; // Outputs: My value has now changed

@@ -1,1 +1,0 @@
--- Adding the to_be_deleted column\nALTER TABLE foo ADD COLUMN to_be_deleted BOOLEAN DEFAULT FALSE;\n\n-- Instead of delete, set the flag\nUPDATE foo SET to_be_deleted = TRUE WHERE blah = 50;\n\n-- Querying active records\nSELECT * FROM foo WHERE to_be_deleted = FALSE;

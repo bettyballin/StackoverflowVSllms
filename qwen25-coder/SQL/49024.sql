@@ -1,1 +1,0 @@
-SELECT t1.x, t2.y from t1, t2 where t1.a=t2.a and t1.b=t2.b and t1.c = t2.c;

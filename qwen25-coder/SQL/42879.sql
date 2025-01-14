@@ -1,1 +1,0 @@
-CREATE TABLE [dbo].[KB] (\n    [BEName] [nvarchar](MAX) NOT NULL,\n    [Type] [nvarchar](MAX) NULL,\n    [Name] [nvarchar](MAX) NULL,\n    [Value] [nvarchar](MAX) NULL\n) ON [PRIMARY]

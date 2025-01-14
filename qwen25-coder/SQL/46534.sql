@@ -1,1 +1,0 @@
-CREATE TYPE t_numbers AS TABLE OF NUMBER;

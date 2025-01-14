@@ -1,1 +1,0 @@
-SELECT NVL(t1.a, 0) + t2.b AS sum\nFROM table_y t2\nLEFT JOIN (SELECT (aa + bb) AS a, id \n           FROM table_x \n           WHERE cc = 'on') t1 ON t1.id = t2.id;

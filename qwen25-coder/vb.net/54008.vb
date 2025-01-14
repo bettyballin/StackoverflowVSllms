@@ -1,1 +1,0 @@
-Dim byteArray() As Byte = New Byte(20) {}

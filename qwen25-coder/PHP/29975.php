@@ -1,1 +1,0 @@
-<?php\n\n   // Assuming $entityManager is set up and configured\n   $userRepository = $entityManager->getRepository('App\Entity\User');\n   $newUser = $userRepository->createUser("John", "Doe", "john.doe@example.com");

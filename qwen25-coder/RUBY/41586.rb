@@ -1,1 +1,0 @@
-# config/environment.rb or an initializer\n   config.load_paths += %W( #{RAILS_ROOT}/app/models/myapp )

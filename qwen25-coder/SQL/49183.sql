@@ -1,1 +1,0 @@
-CREATE TABLE contacts (\n    postcode VARCHAR(10),\n    first_name VARCHAR(50),\n    last_name VARCHAR(50),\n    town VARCHAR(50),\n    country VARCHAR(50),\n    phone_number VARCHAR(20)\n);

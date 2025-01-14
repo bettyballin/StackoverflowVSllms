@@ -1,1 +1,0 @@
-// Assuming the Zend Framework is located at /var/www/worm/library/Zend/\n   $zfPath = '/var/www/worm/library'; // Adjust this path to where your Zend Framework is installed\n\n   set_include_path(implode(PATH_SEPARATOR, array(\n       realpath($zfPath),\n       get_include_path(),\n   )));

@@ -1,1 +1,0 @@
-$sql = "SELECT * FROM users WHERE username=:username";\n$stmt = $pdo->prepare($sql);\n$stmt->execute([':username' => $userInput]);

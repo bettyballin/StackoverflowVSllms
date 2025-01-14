@@ -1,1 +1,0 @@
-REST_FRAMEWORK = {\n      'DEFAULT_CONTENT_NEGOTIATION_CLASS': 'rest_framework.negotiation.DefaultContentNegotiation'\n  }

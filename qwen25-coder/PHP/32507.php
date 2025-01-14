@@ -1,1 +1,0 @@
-<?php\necho <<<HTML\n<!DOCTYPE html>\n<html>\n<head>\n    <title>My Page</title>\n</head>\n<body>\n    <h1>Hello, World!</h1>\n</body>\n</html>\nHTML;\n?>

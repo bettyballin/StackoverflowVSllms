@@ -1,1 +1,0 @@
-<?php\n$url = 'http://example.com/python/json/';\n$options = [\n    'http' => [\n        'method'  => 'GET',\n        'header'  => 'User-Agent: PHP'\n    ]\n];\n$context = stream_context_create($options);\n$result = @file_get_contents($url, false, $context);\n\nif ($result === FALSE) {\n    printf('Error accessing %s', $url);\n} else {\n    echo $result;\n}

@@ -1,1 +1,0 @@
-<xsl:template match="/bookstore/book">\n    <xsl:value-of select="title"/> <!-- 'title' is evaluated against the current/context book node -->\n</xsl:template>

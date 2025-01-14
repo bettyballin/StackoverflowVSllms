@@ -1,1 +1,0 @@
-<?php\n// Inside your include file\necho basename(__FILE__);\n?>

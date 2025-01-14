@@ -1,1 +1,0 @@
-CREATE INDEX idx_og_uid ON og_uid(uid);\nCREATE INDEX idx_bio_uid ON bio(uid);\nCREATE INDEX idx_shirtsize_bio_id ON shirtsize(bio_id);

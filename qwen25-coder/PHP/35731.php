@@ -1,1 +1,0 @@
-<?php\n// footer.php\nfunction renderFooter() {\n    echo "<footer>\n            &copy; ". date("Y") . " All rights reserved.\n          </footer>";\n}

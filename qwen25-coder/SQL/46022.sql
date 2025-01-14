@@ -1,1 +1,0 @@
-ALTER TABLE YourTable\nADD HashedText AS CONVERT(VARCHAR(64), HASHBYTES('SHA2_256', LongTextColumn));\n\nCREATE INDEX IDX_HashedText ON YourTable (HashedText);

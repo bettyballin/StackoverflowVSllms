@@ -1,1 +1,0 @@
-const myWidgetPrefix = 'my-widget-';\n\n// Example of creating a new element with a prefixed ID\nlet newElement = document.createElement('div');\nnewElement.id = myWidgetPrefix + 'unique-id';\ndocument.body.appendChild(newElement);

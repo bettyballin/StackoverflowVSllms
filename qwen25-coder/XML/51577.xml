@@ -1,1 +1,0 @@
-// Example of configuring lazy loading in NHibernate mapping:\n<set name="Children" table="ChildTable" fetch="select" inverse="true">\n    <key column="ParentId"/>\n    <one-to-many class="ChildEntity"/>\n</set>

@@ -1,1 +1,0 @@
-SELECT \n    CASE WHEN IsCompany = 1 THEN CompanyName \n         ELSE LastName + ', ' + FirstName END AS DisplayName,\n    IsCompany\nFROM \n    YourTableName\nORDER BY \n    IsCompany ASC, -- Place companies after individuals\n    CASE WHEN IsCompany = 0 THEN LastName + ', ' + FirstName \n         ELSE CompanyName END;

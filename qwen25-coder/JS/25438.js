@@ -1,1 +1,0 @@
-function allDone() {\n    // elided code for simplicity of stackoverflow question\n    var URI = baseHref + "foxtrot/ProcessUserInput.php?";\n    URI += "alphakeys=" + encodeURI(keys.join(","));\n    URI += "&sortedvalues=" + encodeURI(values.join(","));\n    window.location = URI;\n}

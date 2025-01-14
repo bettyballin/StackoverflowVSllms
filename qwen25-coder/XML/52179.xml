@@ -1,1 +1,0 @@
-<configuration>\n     <system.webServer>\n       <rewrite>\n         <rules>\n           <!-- Ensure no rules mistakenly redirect ScriptResource.axd -->\n         </rules>\n       </rewrite>\n     </system.webServer>\n   </configuration>

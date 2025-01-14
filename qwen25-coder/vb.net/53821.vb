@@ -1,1 +1,0 @@
-Module Module1\n    Sub Main()\n        Dim input As String = "term: 156:59 datainput"\n        Dim output As String = input.Replace(":", "-")\n        Console.WriteLine(output)\n    End Sub\nEnd Module

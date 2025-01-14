@@ -1,1 +1,0 @@
-// For viewing user profiles\n$route['profile/(:any)'] = 'Profile/view/$1';\n\n// Admin routes for managing user profiles\n$route['admin/profile/(:any)'] = 'Admin_Profile/view/$1';\n$route['admin/profile/create'] = 'Admin_Profile/create';\n$route['admin/profile/edit/(:any)'] = 'Admin_Profile/edit/$1';

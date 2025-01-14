@@ -1,1 +1,0 @@
-<?php\n// Define your Swish-e index file\n$indexPath = '/path/to/your/some_index.idx';\n\n// Define your query\n$queryString = 'some search words here';\n\n// Command to run swish-e\n$command = "swish-e -w '$queryString' $indexPath";\n\n// Execute the command and capture output\n$output = shell_exec($command);\n\n// Output results\necho "<pre>$output</pre>";\n\n?>

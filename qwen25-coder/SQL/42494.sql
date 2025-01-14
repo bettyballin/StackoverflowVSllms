@@ -1,1 +1,0 @@
-CASE \n    WHEN SUM(ExtPrice) *.01 < 0 AND RecordNum BETWEEN 4000 AND 5999 \n        THEN CAST(REPLACE(CAST(SUM(ExtPrice) *.01 AS VARCHAR), '-', '') AS DECIMAL(18,2))\n     ELSE SUM(ExtPrice) *.01 \nEND AS Totals

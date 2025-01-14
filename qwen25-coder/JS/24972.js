@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('.summary').each(function() {\n        $(this).prevUntil('.summary').first().before(this);\n    });\n});

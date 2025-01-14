@@ -1,1 +1,0 @@
-import base64\n\n# Original text\nplain_text = 'some text'\n\n# Encode to Base64 bytes\nname_enc = base64.b64encode(plain_text.encode('utf-8'))\n\n# Convert bytes to string if you're using cx_Oracle's executemany or similar methods\nname_enc_str = name_enc.decode('utf-8')\n\n# Now `name_enc` can be inserted into the RAW column in your Oracle database.

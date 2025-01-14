@@ -1,1 +1,0 @@
-If PictureBox1.Image IsNot Nothing Then\n    ' PictureBox1 contains an image\n    MessageBox.Show("The PictureBox has an image.")\nElse\n    ' PictureBox1 does not contain an image\n    MessageBox.Show("The PictureBox has no image.")\nEnd If

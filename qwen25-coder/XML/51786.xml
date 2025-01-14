@@ -1,1 +1,0 @@
-<oracle.manageddataaccess.client>\n  <version number="*">\n    <settings>\n      <setting name="Min Pool Size" value="10"/>\n      <setting name="Max Pool Size" value="50"/>\n      <setting name="Connection Timeout" value="60"/>\n      <setting name="Incr Pool Size" value="5"/>\n    </settings>\n  </version>\n</oracle.manageddataaccess.client>

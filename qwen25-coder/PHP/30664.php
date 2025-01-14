@@ -1,1 +1,0 @@
-<!-- In your view file -->\n<p><?php echo htmlspecialchars($userInput, ENT_QUOTES, 'UTF-8'); ?></p>

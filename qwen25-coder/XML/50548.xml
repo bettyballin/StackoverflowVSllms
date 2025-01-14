@@ -1,1 +1,0 @@
-<bindings>\n        <basicHttpBinding>\n            <binding name="YourBinding"\n                     sendTimeout="00:15:00"\n                     receiveTimeout="00:15:00"\n                     openTimeout="00:10:00">\n                <!-- Other settings if necessary -->\n            </binding>\n        </basicHttpBinding>\n    </bindings>

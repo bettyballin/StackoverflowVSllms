@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE mantain_max_rows IN\n    MAX_ROWS CONSTANT NUMBER := 1000000; -- one million rows\nBEGIN\n    LOOP\n        DELETE FROM event_log_messages \n        WHERE ROWNUM <= (\n            SELECT COUNT(*) - MAX_ROWS FROM event_log_messages\n        )\n        EXIT WHEN SQL%ROWCOUNT = 0;\n    END LOOP;\nEND mantain_max_rows;\n/

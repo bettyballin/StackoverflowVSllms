@@ -1,1 +1,0 @@
-// Set internal encoding to UTF-8\nmb_internal_encoding('UTF-8');\n\n// Convert output encoding if necessary\n$output = mb_convert_encoding($data, 'ISO-8859-9', 'UTF-8');

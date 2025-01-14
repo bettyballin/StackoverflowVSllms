@@ -1,1 +1,0 @@
-# app/models/order.rb\nclass Order < ApplicationRecord\n  def formatted_total\n    CurrencyFormatter.format_usd(total_amount)\n  end\n\n  def formatted_due_amount\n    # Assuming due_in_cents is an attribute of the order model.\n    CurrencyFormatter.cents_to_dollars(due_in_cents)\n  end\nend

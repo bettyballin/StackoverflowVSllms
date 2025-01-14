@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER["REQUEST_METHOD"] == "POST") {\n    $password = $_POST['password'];\n    // Hash the password using a strong algorithm like bcrypt\n    $hashedPassword = password_hash($password, PASSWORD_BCRYPT);\n    \n    // Store $hashedPassword in your database instead of the plain text password\n}\n?>

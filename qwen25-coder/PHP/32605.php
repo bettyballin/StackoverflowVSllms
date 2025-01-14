@@ -1,1 +1,0 @@
-<?php\n   $url = "http://example.com";\n   $outputFile = "/path/to/output/screenshot.png";\n\n   exec("wkhtmltoimage {$url} {$outputFile}", $output, $returnVar);\n\n   if($returnVar == 0) {\n       echo "Screenshot taken successfully.";\n   } else {\n       echo "Failed to take screenshot: " . implode('\n', $output);\n   }\n   ?>

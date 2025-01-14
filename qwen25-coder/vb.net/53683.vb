@@ -1,1 +1,0 @@
-Public Class PlayerWithCountryInfo\n       Public Property PlayerID As Integer\n       Public Property CategoryID As Integer\n       Public Property CountryID As Integer\n       Public Property CountryName As String\n       Public Property CountryImage As String\n   End Class

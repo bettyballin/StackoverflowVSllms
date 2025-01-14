@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    function updateMoveDescription(description) {\n        var moveList = document.getElementById('move-list');\n        var newListItem = document.createElement('li');\n        newListItem.textContent = description;\n        moveList.appendChild(newListItem);\n    }\n</script>

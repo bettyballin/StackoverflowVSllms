@@ -1,1 +1,0 @@
-if (Zend_Auth::getInstance()->hasIdentity()) {\n        $user = Zend_Auth::getInstance()->getIdentity();\n        $this->view->username = $user->getUsername();\n    } else {\n        $this->view->username = 'Guest';\n    }

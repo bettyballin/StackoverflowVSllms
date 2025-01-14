@@ -1,1 +1,0 @@
-# Using index-based loop\nitemlist_by_index = []\nfor j in range(len(myarray)):\n    item = myarray[j]\n    itemlist_by_index.append(item)\n\n# Using direct iteration\nitemlist_direct = []\nfor item in myarray:\n    itemlist_direct.append(item)\n\n# Both lists should be identical and maintain the original order of myarray\nassert itemlist_by_index == itemlist_direct

@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>\n<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="vertical">\n    <mx:Chart ...\n        <!-- Chart definitions go here -->\n    </mx:Chart>\n    <mx:DataGrid dataProvider="{yourDataProvider}">\n        <!-- DataGrid definitions go here -->\n    </mx:DataGrid>\n</mx:Application>

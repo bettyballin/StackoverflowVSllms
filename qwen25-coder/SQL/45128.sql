@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM tbl_dict WHERE lock='0';

@@ -1,1 +1,0 @@
-# Constants\nnibbles_per_nano = 2\nnano_to_seconds = 1e-9\nseconds_per_day = 86400\nbits_per_byte = 8\nbits_per_nibble = 4\nbytes_per_megabyte = 1024 ** 2\n\n# Conversion\nbytes_per_second = nibbles_per_nano * (bits_per_nibble / bits_per_byte) / nano_to_seconds\nmegabytes_per_day = bytes_per_second * seconds_per_day / bytes_per_megabyte\n\nprint(megabytes_per_day)

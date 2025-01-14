@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>com.example.shared.config</groupId>\n    <artifactId>shared-security-config</artifactId>\n    <version>1.0.0</version>\n</dependency>

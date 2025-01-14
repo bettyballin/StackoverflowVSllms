@@ -1,1 +1,0 @@
-SELECT * FROM tags WHERE lft BETWEEN :left AND :right;\n-- where :left and :right are the left and right values of the parent node

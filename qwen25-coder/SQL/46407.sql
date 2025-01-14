@@ -1,1 +1,0 @@
-INSERT INTO tbl (data) VALUES ('something') RETURNING id;

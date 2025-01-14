@@ -1,1 +1,0 @@
-class CreateKeyValuePairs < ActiveRecord::Migration[6.1]\n     def change\n       create_table :key_value_pairs, id: false do |t|\n         t.string :key_column, null: false\n         t.string :value_column\n\n         # Optional: Set a primary key if you have a natural unique column\n         t.primary_key :key_column\n       end\n     end\n   end

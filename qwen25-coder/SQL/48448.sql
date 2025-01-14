@@ -1,1 +1,0 @@
-CREATE PROCEDURE dbo.GetListingCounterDataWithPermission\n    AS\n    BEGIN\n        -- Logic to execute the dynamic SQL here, with proper permissions.\n        EXEC sp_executesql N'SELECT * FROM dbo.listing_counter';\n    END;

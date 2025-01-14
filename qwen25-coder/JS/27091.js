@@ -1,1 +1,0 @@
-function fetchData() {\n       // Using XMLHttpRequest or Fetch API to update parts of the page dynamically\n       fetch('livedata.php')\n           .then(response => response.text())\n           .then(data => document.body.innerHTML = data)\n           .catch(error => console.error('Error:', error));\n   }\n   setInterval(fetchData, 10000); // in milliseconds

@@ -1,1 +1,0 @@
-$(document).ready(function(){   \n    $("#slider").easySlider({\n        prevText:'Back',\n        nextText:'View Other Projects',\n        orientation:'horizontal'\n    });\n});

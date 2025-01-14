@@ -1,1 +1,0 @@
-SELECT \n    Product.style = 'width:300px;', -- This line sets the style attribute for a theoretical XML rendering tool\n    Product = CAST(Product AS VARCHAR(100)) -- Cast to a reasonable length if needed\nFROM ConfigScheduling\nFOR XML PATH('Row'), ROOT('Rows')

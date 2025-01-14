@@ -1,1 +1,0 @@
-function directorGen($array)\n{\n    $genreList = []; // Initialize a local variable\n\n    foreach ($array as $value) {\n        $genreList[] = $value;\n    }\n\n    return $genreList; // Return the populated array\n}\n\n// later..\n\n$genreList = directorGen($title->genres());

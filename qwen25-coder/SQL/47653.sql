@@ -1,1 +1,0 @@
--- Replace 'malicious_text_here' with the actual injected script.\nUPDATE YourTableName\nSET YourColumnName = LEFT(YourColumnName, LEN(YourColumnName) - LEN('malicious_text_here'))\nWHERE YourColumnName LIKE '%malicious_text_here';

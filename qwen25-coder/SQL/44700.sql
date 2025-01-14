@@ -1,1 +1,0 @@
-CREATE TABLE bugs (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    by VARCHAR(255) NOT NULL,\n    title VARCHAR(255) NOT NULL,\n    content TEXT NOT NULL,\n    datetime DATETIME DEFAULT CURRENT_TIMESTAMP,\n    application VARCHAR(255),\n    priority ENUM('Low', 'Medium', 'High'),\n    assigned VARCHAR(255),\n    status ENUM('Open', 'In Progress', 'Closed')\n);

@@ -1,1 +1,0 @@
-header('Transfer-Encoding: chunked');\n   // Echo your data in chunks here

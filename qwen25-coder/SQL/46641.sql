@@ -1,1 +1,0 @@
-SELECT \n    generate_series(\n        now() - interval '60 seconds', \n        now(), \n        interval '5 seconds'\n    ) AS times;

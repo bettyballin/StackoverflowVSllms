@@ -1,1 +1,0 @@
-// Example unit test setup with Jest\n\n// Function to be tested\nfunction add(a, b) {\n    return a + b;\n}\n\n// Test suite\ntest('adds 1 + 2 to equal 3', () => {\n    expect(add(1, 2)).toBe(3);\n});\n\ntest('adding a negative and positive number works correctly', () => {\n    expect(add(-1, 5)).toBe(4);\n});

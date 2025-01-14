@@ -1,1 +1,0 @@
-// Setting FormsCookiePath in web.config\n<system.web>\n  <authentication mode="Forms">\n    <forms loginUrl="~/Account/Login" timeout="30" path="/" />\n  </authentication>\n</system.web>

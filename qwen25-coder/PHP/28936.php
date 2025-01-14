@@ -1,1 +1,0 @@
-<?php\n$url = 'https://example.com'; // Replace with the URL you want to fetch content from\n\n$content = @file_get_contents($url);\nif ($content === FALSE) {\n    die('Error fetching the content.');\n}\n\necho $content;\n?>

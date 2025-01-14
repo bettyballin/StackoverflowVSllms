@@ -1,1 +1,0 @@
-$.ajax({\n  url: 'your-url',\n  type: 'GET',\n  timeout: 3000,\n  success: function(response) {\n    console.log('Success:', response);\n  },\n  error: function(xhr, status) {\n    console.error('Error:', status);\n  }\n});

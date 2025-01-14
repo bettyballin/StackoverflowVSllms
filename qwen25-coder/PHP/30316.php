@@ -1,1 +1,0 @@
-$number = getenv('YOUR_VARIABLE_NAME');\n   echo $number;

@@ -1,1 +1,0 @@
-$arr = [95, 8, 0, 0];\n$dword = $arr[0] + $arr[1]*256 + $arr[2]*256*256 + $arr[3]*256*256*256;\necho $dword; // This will output the correct DWORD value

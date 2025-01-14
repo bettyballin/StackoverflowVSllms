@@ -1,1 +1,0 @@
-from Crypto.Util import number\n\n# Generate a 2048-bit long random prime number\np = number.getPrime(2048)\nprint(f"Generated Prime: {p}")

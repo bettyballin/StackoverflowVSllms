@@ -1,1 +1,0 @@
-// Using define()\ndefine('MY_CONSTANT', 'value');\n\n// Using apc_define_constants() (not recommended for new projects due to deprecation)\napc_define_constants('const_set_1', array('MY_CONSTANT' => 'value'), true);\n\n// Using hidef (would require installation of the PECL extension and configuration setup)\nrequire_once 'hidef/hidef.php';\n\hidef\load('path/to/constants.ini');

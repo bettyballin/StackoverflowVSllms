@@ -1,1 +1,0 @@
--- Set the database in EMERGENCY mode\n   ALTER DATABASE YourDatabaseName SET EMERGENCY;\n\n   -- Set the database in SINGLE_USER mode\n   ALTER DATABASE YourDatabaseName SET SINGLE_USER;\n\n   -- Drop the database now that it's inaccessible\n   DROP DATABASE YourDatabaseName;

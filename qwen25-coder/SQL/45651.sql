@@ -1,1 +1,0 @@
-SELECT DISTINCT table1.page_title \nFROM table1\nLEFT JOIN table2 ON table1.page_title = table2.page_title\nWHERE table2.page_title IS NULL;

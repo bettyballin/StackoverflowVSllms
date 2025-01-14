@@ -1,1 +1,0 @@
-<?php\nsession_start();\ninclude("base.php");\ninclude("userclass.php");\n\n$User = new User();\nif ($User->loggedin) {\n    header('Location: MyAccountNEW.php');\n    exit; // Make sure to exit after redirecting to prevent further code execution\n}

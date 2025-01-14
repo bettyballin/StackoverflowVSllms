@@ -1,1 +1,0 @@
-function p($a,$b,$c){return preg_replace($a,$b,$c);}

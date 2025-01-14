@@ -1,1 +1,0 @@
-function performXPathQuery(doc, xpathExpression) {\n    // Use documentElement as the context node if doc is not an element\n    var context = (doc.nodeType === Node.DOCUMENT_NODE) ? doc.documentElement : doc;\n    return context.selectNodes(xpathExpression);\n}

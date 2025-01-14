@@ -1,1 +1,0 @@
-function formatString($string) {\n    return preg_replace('/(.{3})(?!$)/', '$1-', $string);\n}\n\n// Example usage:\n$text1 = "123456789";\n$text2 = "ABCDEFGHI";\n$text3 = "A1B2C3D4E";\n\necho formatString($text1); // Outputs: 123-456-789\necho formatString($text2); // Outputs: ABC-DEF-GHI\necho formatString($text3); // Outputs: A1B-2C3-D4E

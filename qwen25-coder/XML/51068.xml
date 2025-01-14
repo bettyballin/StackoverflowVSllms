@@ -1,1 +1,0 @@
-<tag>\n        <name>widgetManager</name>\n        <tag-class>com.example.WidgetManagerTag</tag-class>\n        <body-content>JSP</body-content>\n        <attribute>\n            <name>layoutTemplate</name>\n            <required>false</required>\n        </attribute>\n    </tag>

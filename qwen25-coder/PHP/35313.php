@@ -1,1 +1,0 @@
-// Read raw POST data\n$xmlString = file_get_contents('php://input');\n\n// Load the XML string into a SimpleXMLElement object\n$xml = simplexml_load_string($xmlString);\n\n// Access the keyword from the XML\n$keyword = (string) $xml->keyword;\n\n// Output the keyword\necho htmlspecialchars($keyword);

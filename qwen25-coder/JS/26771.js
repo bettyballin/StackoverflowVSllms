@@ -1,1 +1,0 @@
-window.addEventListener('beforeunload', function (e) {\n    // This could be an AJAX call to your server to invalidate the session\n    navigator.sendBeacon('/logout');\n});

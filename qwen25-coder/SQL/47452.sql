@@ -1,1 +1,0 @@
-SELECT LEN(ImageColumnName) AS [ImageFileSize]\nFROM YourTable\nWHERE SomeIdentifier = 'YourUniqueIdentifier';

@@ -1,1 +1,0 @@
-<filter>\n    <filter-name>encodingFilter</filter-name>\n    <filter-class>your.package.name.EncodingFilter</filter-class>\n</filter>\n\n<filter-mapping>\n    <filter-name>encodingFilter</filter-name>\n    <url-pattern>/*</url-pattern>\n</filter-mapping>

@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n    UserId INT PRIMARY KEY,\n    PasswordHash CHAR(32) NOT NULL, -- For MD5 hashes stored as hex\n    Salt CHAR(64) NOT NULL          -- Ensure salts are also unique and secure\n);

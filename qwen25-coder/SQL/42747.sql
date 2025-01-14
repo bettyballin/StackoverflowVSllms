@@ -1,1 +1,0 @@
--- Assuming 'MRLSPN' is the sold product code\nSELECT ProductCode\nFROM ExclusionMatrix\nWHERE MRLSPN = 'Yes'\nAND ProductCode != 'MRLSPN';

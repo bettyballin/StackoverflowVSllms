@@ -1,1 +1,0 @@
-begin\n    insert into some_table (key_column, value_column) values ('some', 'values');\nexception\n    when DUP_VAL_ON_INDEX then\n        update some_table set value_column = 'values' where key_column = 'some';\nend;

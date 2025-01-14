@@ -1,1 +1,0 @@
-for (i = 0; i < tagsToSearch.length; i++) {\n    var ctag = jQuery.trim(currentTag.tag);\n    var regex = new RegExp(ctag, 'i'); // Create a case-insensitive regex based on ctag\n    if (tagsToSearch[i].match(regex)) { \n        matches.push(tagsToSearch[i]);\n    }\n}

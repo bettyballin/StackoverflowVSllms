@@ -1,1 +1,0 @@
-<tag>\n       <name>yourCustomTag</name>\n       <tag-class>com.example.YourCustomTagHandler</tag-class>\n       <dynamic-attributes>true</dynamic-attributes>\n   </tag>

@@ -1,1 +1,0 @@
-WITH RECURSIVE date_series AS (\n    SELECT MIN(date_column) AS date FROM your_table\n    UNION ALL\n    SELECT DATE_ADD(ds.date, INTERVAL 1 DAY) FROM date_series ds WHERE ds.date < (SELECT MAX(date_column) FROM your_table)\n)\nSELECT ds.date, COUNT(t.*) AS record_count\nFROM date_series ds\nLEFT JOIN your_table t ON ds.date = t.date_column\nGROUP BY ds.date\nORDER BY ds.date;

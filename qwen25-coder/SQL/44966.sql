@@ -1,1 +1,0 @@
-SELECT '2000-01-01 ' || date_uploaded AS formatted_date FROM files WHERE id = 1;

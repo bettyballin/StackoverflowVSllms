@@ -1,1 +1,0 @@
-class AccountController extends UserController {\n    public function editFriends() {\n        // Logic for editing your list of friends\n        echo "Editing current user's friends list.";\n    }\n}

@@ -1,1 +1,0 @@
-import magic\n\n   def validate_file_content(file):\n       allowed_types = ['image/jpeg', 'application/pdf']\n       file_type = magic.from_buffer(file.read(2048), mime=True)\n       if file_type not in allowed_types:\n           raise ValueError("Invalid file type")

@@ -1,1 +1,0 @@
-$em = $this->getDoctrine()->getManager();\n$conn = $em->getConnection();\n\n$criticalId = 123;\n$newValue = 'some_new_value';\n\n$sql = "CALL UpsertRecord(:criticalId, :newValue)";\n$stmt = $conn->prepare($sql);\n$stmt->execute([':criticalId' => $criticalId, ':newValue' => $newValue]);

@@ -1,1 +1,0 @@
-DECLARE @tableName NVARCHAR(128) = QUOTENAME(@table); -- Safely quote table name\nDECLARE @paramDefinition NVARCHAR(MAX) = N'@pMessage NVARCHAR(MAX)';\nEXEC sp_executesql N'INSERT INTO [dbo].[' + @tableName + '] (Column1) VALUES (@pMessage)', @paramDefinition, @pMessage = @message;

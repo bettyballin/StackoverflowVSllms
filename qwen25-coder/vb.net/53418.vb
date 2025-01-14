@@ -1,1 +1,0 @@
-Dim myObject As TestDll.Test\n   Set myObject = New TestDll.Test\n   Debug.Print myObject.HelloWorld

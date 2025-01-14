@@ -1,1 +1,0 @@
-ALTER INDEX idx_ourcolumn REBUILD;

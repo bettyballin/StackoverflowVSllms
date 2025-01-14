@@ -1,1 +1,0 @@
-$this->password = $u_result[0]['password'];

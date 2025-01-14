@@ -1,1 +1,0 @@
-// Use the subquery in the main query correctly\n$select = $db->select()\n              ->from('subscribers')\n              ->where('(id IN ?)', new Zend_Db_Expr('(' . $subQuerySelect->__toString() . ')'));\n\necho $select->__toString(); // This will show your SQL query\n\n// To get results, you would use:\n$results = $db->fetchAll($select);

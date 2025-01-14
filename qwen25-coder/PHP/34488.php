@@ -1,1 +1,0 @@
-if (is_resource($result) && get_resource_type($result) === 'mysql result') {\n    // Safe to call mysql_fetch_array\n    while ($row = mysql_fetch_array($result)) {\n        // Process each row\n    }\n} else {\n    // Handle the error, log, or output a message\n    echo "Error: Not a valid MySQL result resource.";\n}

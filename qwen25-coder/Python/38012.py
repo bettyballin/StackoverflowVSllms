@@ -1,1 +1,0 @@
-import random\n\n# Define your triangular distribution parameters\nA = 1.0  # lower limit\nB = 5.0  # mode\nC = 10.0 # upper limit\n\n# Generate a random value from the triangular distribution\nrandom_value = random.triangular(A, B, C)\n\nprint(f"Generated value: {random_value}")

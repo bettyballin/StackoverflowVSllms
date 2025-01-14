@@ -1,1 +1,0 @@
-<!-- This is a conceptual representation. Actual steps are done via IIS management console. -->\n<applicationPools>\n  <add name="YourAppPoolName" managedRuntimeVersion="v4.0" identityType="SpecificUser" userName="WindowsDomain\TaskSchedulerUser" password="EncryptedOrSecureMethodToRetrievePassword" />\n</applicationPools>

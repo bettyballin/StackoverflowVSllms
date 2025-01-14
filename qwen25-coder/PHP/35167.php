@@ -1,1 +1,0 @@
-class Bootstrap extends Zend_Application_Bootstrap_Bootstrap\n{\n    protected function _initFrontControllerPlugins()\n    {\n        $front = Zend_Controller_Front::getInstance();\n        $front->registerPlugin(new Application_Plugin_Auth());\n    }\n}

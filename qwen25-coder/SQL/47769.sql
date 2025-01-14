@@ -1,1 +1,0 @@
-START TRANSACTION;\n\n-- Select a 'new' row for updating with a lock\nSELECT id, status \nFROM your_table \nWHERE status = 'new' \nLIMIT 1 FOR UPDATE;\n\n-- Update the selected row's status to 'old'\nUPDATE your_table \nSET status = 'old' \nWHERE id = <id_from_previous_select>;\n\nCOMMIT;

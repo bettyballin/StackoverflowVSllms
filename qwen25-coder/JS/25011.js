@@ -1,1 +1,0 @@
-popup.document.body.style.borderStyle = "none"; // or any other desired style

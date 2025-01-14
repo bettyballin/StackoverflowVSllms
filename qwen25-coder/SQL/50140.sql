@@ -1,1 +1,0 @@
-select * from TestFeature1 where rtrim(id)='1';

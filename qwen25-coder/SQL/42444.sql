@@ -1,1 +1,0 @@
-SELECT A, C \nFROM TableA \nWHERE A >= 0 AND C = (\n    SELECT MAX(C) \n    FROM TableA \n    WHERE A >= 0\n);

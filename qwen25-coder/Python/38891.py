@@ -1,1 +1,0 @@
-import subprocess\n\n# Run the command\nresult = subprocess.run(['some', 'command'], capture_output=True, text=True)\n\n# Get the return code and output\nretcode = result.returncode\nstdout = result.stdout\n\n# Print them\nprint(retcode)\nprint(stdout)

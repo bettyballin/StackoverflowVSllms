@@ -1,1 +1,0 @@
-puts params.inspect # Add this in your bid action\n@bid = Bid.new(params[:bid])\n@bid.save

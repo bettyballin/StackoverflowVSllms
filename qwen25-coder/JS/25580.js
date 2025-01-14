@@ -1,1 +1,0 @@
-if (condition1 || condition2) {\n    // do this\n}

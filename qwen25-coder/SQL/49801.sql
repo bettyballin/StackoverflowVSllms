@@ -1,1 +1,0 @@
-WITH ranked_table AS (\n  SELECT \n    field1, \n    field2, \n    field3,\n    ROW_NUMBER() OVER (PARTITION BY field1, field2, field3 ORDER BY field1) as rn\n  FROM table1\n)\nDELETE FROM table1 t\nUSING ranked_table r\nWHERE t.field1 = r.field1 AND\n      t.field2 = r.field2 AND\n      t.field3 = r.field3 AND\n      r.rn > 1;

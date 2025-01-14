@@ -1,1 +1,0 @@
-$strCryptedString = "m>^æ–S[J¯vÖ_ÕÚuÍÔ'´äœÈ‘ ®@M©t²#÷[Éå¹UçfU5T°äÙ“©”ˆÇVÝ] [’e™a«Ã°7#dÉJ>";\n   $base64EncodedString = base64_encode($strCryptedString);\n   echo $base64EncodedString;

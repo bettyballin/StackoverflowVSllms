@@ -1,1 +1,0 @@
-$client = new Zend_Http_Client('http://affiliate.url/feed.xml');\n     $response = $client->request()->getBody();

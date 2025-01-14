@@ -1,1 +1,0 @@
-BEGIN\n       log_wrapped_example(123, 'test');\n   END;

@@ -1,1 +1,0 @@
-SELECT * FROM your_table WHERE some_condition LIMIT 10;

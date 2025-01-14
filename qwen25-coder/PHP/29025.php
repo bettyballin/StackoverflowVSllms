@@ -1,1 +1,0 @@
-<?php\nfunction external_helper_function_file() {\n    return "Function loaded successfully!";\n}

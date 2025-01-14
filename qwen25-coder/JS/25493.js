@@ -1,1 +1,0 @@
-document.addEventListener('keydown', function(event) {\n    if (event.key === "Alt") {\n        document.body.style.cursor = 'default';\n    }\n});\n\ndocument.addEventListener('keyup', function(event) {\n    if (event.key === "Alt") {\n        document.body.style.cursor = 'none';\n    }\n});

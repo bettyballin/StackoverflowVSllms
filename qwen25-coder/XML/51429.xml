@@ -1,1 +1,0 @@
-<applicationInitialization \n     doAppInitRecycle="true" \n     skipManagedModulesDuringStartup="false">\n       <add initializationPage="/init.warmup" />\n   </applicationInitialization>

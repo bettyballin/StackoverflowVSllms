@@ -1,1 +1,0 @@
-$hashed = hash_hmac("sha256", utf8_encode($filename), utf8_encode($password), true);\n$hex_hashed = bin2hex($hashed);\necho $hex_hashed;

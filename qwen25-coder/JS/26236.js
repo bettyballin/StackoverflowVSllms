@@ -1,1 +1,0 @@
-$(function() {\n    $("tr").hover(function() {\n        // Use 'this' to refer to the current element being hovered over\n        var id = this.id.split('_')[1]; // Assuming the format is wall_1, wall_2 etc.\n        $("#remove_" + id).show();\n    }, function() {\n        var id = this.id.split('_')[1];\n        $("#remove_" + id).hide();\n    });\n});

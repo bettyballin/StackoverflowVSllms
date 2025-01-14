@@ -1,1 +1,0 @@
-# huge_data_file.rb\ndata = [\n  { id: 1, name: 'Data Row 1' },\n  { id: 2, name: 'Data Row 2' },\n  # ... continues for many thousands of lines\n]\n\n# Example usage\ndata.each do |row|\n  puts "Processing #{row[:name]}"\nend

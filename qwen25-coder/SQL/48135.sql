@@ -1,1 +1,0 @@
-SELECT \n    column1, \n    column2, \n    column3, \n    NULL AS extra_info\nFROM \n    your_table;

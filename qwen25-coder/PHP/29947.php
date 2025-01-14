@@ -1,1 +1,0 @@
-include("conn.php");\n$result = mysql_query("SELECT * FROM sggame");\n\nwhile($row = mysql_fetch_assoc($result)) {  // Removed the semicolon here\n    $id = $row['id'];\n    echo $id;\n    echo 'working?';\n}

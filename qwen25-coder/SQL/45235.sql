@@ -1,1 +1,0 @@
-SELECT \n    OBJECT_NAME(fk.fkeyid) AS ReferencingTable,\n    COL_NAME(fc.fkeyid, fc.fkey) AS ReferencingColumn,\n    OBJECT_NAME(fk.rkeyid) AS ReferencedTable,\n    COL_NAME(fc.rkeyid, fc.rkey) AS ReferencedColumn\nFROM \n    sysforeignkeys AS fk\nINNER JOIN \n    sysforeigncols AS fc ON fk.constid = fc.constraint_object_id\nWHERE \n    OBJECT_NAME(fk.rkeyid) = 'foo';

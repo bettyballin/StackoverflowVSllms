@@ -1,1 +1,0 @@
-ALTER TABLE table1 ADD COLUMN new_field INT;\nALTER TABLE table2 ADD COLUMN new_field INT;\nALTER TABLE table3 ADD COLUMN new_field INT;

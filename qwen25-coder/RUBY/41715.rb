@@ -1,1 +1,0 @@
-# metadata.rb\n   {\n     :name => "Application",\n     :version => "1.0",\n     :features => ["feature1", "feature2"]\n   }

@@ -1,1 +1,0 @@
-DECLARE\n    v_date DATE := SYSDATE;\nBEGIN\n    DBMS_OUTPUT.PUT_LINE('Current Date: ' || TO_CHAR(v_date, 'YYYY-MM-DD HH24:MI:SS'));\nEND;

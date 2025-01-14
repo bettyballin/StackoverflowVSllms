@@ -1,1 +1,0 @@
-SELECT * FROM user_synonyms WHERE synonym_name = 'PROBLEMATICTABLE';

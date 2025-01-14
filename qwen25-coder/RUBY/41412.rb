@@ -1,1 +1,0 @@
-page.replace_html "target_div", :partial => "your_partial_name"

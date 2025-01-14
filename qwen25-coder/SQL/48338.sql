@@ -1,1 +1,0 @@
-CREATE TYPE dbo.TagNameList AS TABLE (TagName NVARCHAR(50) NOT NULL);

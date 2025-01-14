@@ -1,1 +1,0 @@
--- Example: CASE to JOIN transformation\n   SELECT id, \n          (CASE WHEN last_login_date > '2023-01-01' THEN 'Active' ELSE 'Inactive' END) AS status\n   FROM Users;\n   \n   -- Equivalent using LEFT JOIN and COALESCE\n   SELECT u.id, \n          COALESCE(a.status, 'Inactive') AS status\n   FROM Users u\n   LEFT JOIN ActiveStatus a ON u.last_login_date > '2023-01-01';

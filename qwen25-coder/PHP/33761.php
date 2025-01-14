@@ -1,1 +1,0 @@
-<?php\n$hostname = "example.com";\nif (getmxrr($hostname, $mxRecords)) {\n    print_r($mxRecords);\n} else {\n    echo "No MX records found.";\n}\n?>

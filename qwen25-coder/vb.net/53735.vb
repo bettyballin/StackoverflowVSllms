@@ -1,1 +1,0 @@
-Dim cleanedContent = CleanHtml(SafeHtmlTextBox1.Text)

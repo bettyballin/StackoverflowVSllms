@@ -1,1 +1,0 @@
-<?php\n// your-php-script.php\n// Simulate a delay to mimic server processing time\nsleep(2);\necho "Data loaded asynchronously!";\n?>

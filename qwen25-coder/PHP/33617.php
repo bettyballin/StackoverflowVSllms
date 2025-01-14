@@ -1,1 +1,0 @@
-function p($expr) {\n    // Convert the argument into a string representation of PHP code\n    $value = eval('return ' . $expr . ';');\n    echo "$expr is " . var_export($value, true) . "\n";\n}\n\n// Example usage:\n$i = 5;\np('$i'); // Outputs: $i is 5\n\np('1 + 2'); // Outputs: 1 + 2 is 3\n\n$p = 5;\np('$p * 2'); // Outputs: $p * 2 is 10

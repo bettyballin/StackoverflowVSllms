@@ -1,1 +1,0 @@
-class YourModel < ApplicationRecord\n  has_and_belongs_to_many :users\n\n  validate :at_least_one_user\n\n  private\n\n  def at_least_one_user\n    if users.none?\n      errors.add(:base, "At least one user is required")\n    end\n  end\nend

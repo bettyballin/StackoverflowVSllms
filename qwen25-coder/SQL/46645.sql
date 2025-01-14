@@ -1,1 +1,0 @@
-SELECT *\nFROM YourTable\nWHERE SomeDateColumn = DATEFROMPARTS(2009, 11, 12);

@@ -1,1 +1,0 @@
-<ul>\n<?php \nob_start(); \nforeach($navitems as $nav): \n?>\n<li><?=$nav?></li>\n<?php \nendforeach; \n$output = ob_get_clean();\necho preg_replace('/>\s+</', '><', $output); // Remove spaces between tags\n?>\n</ul>

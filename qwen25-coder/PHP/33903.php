@@ -1,1 +1,0 @@
-class Validator {\n       private $errors = [];\n\n       public function validate(array $data, array $rules) {}\n       public function getErrors() { return $this->errors; }\n   }

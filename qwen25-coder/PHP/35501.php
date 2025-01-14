@@ -1,1 +1,0 @@
-use Zend\Diactoros\Response;\nuse Zend\HttpHandlerRunner\Emitter\SapiEmitter;\n\n// Create a response instance\n$response = new Response();\n$response->getBody()->write('Hello, World!');\n\n$emitter = new SapiEmitter();\n$emitter->emit($response);

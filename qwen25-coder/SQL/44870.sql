@@ -1,1 +1,0 @@
-SELECT DISTINCT SUBSTRING(name, 1, 1) AS first_character FROM mydatabase;

@@ -1,1 +1,0 @@
-<!-- In YourProject.csproj or vcxproj -->\n<ItemGroup>\n  <Reference Include="Core">\n    <HintPath>..\path\to\Core.dll</HintPath>\n  </Reference>\n</ItemGroup>

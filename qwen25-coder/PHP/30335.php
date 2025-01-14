@@ -1,1 +1,0 @@
-// Calculator.php\nclass Calculator {\n    public function add($a, $b) {\n        return $a + $b;\n    }\n\n    public static function format($number) {\n        return number_format($number, 2);\n    }\n}

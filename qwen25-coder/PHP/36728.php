@@ -1,1 +1,0 @@
-$value = 'value';\n$query = $database->prepare('SELECT * FROM table WHERE column LIKE :pattern');\n$query->execute([':pattern' => $value . '%']);\n\nwhile ($results = $query->fetch()) {\n    echo $results['column'];\n}

@@ -1,1 +1,0 @@
-UPDATE your_table_name\nSET CurCode = WhatCodeShouldBe;

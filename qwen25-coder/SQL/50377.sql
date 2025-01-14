@@ -1,1 +1,0 @@
-PRIMARY KEY (Region, Country)

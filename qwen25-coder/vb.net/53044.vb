@@ -1,1 +1,0 @@
-For Each row As DataGridViewRow In DataGridView1.Rows\n    ' Check if the row is not a header row\n    If Not row.IsNewRow Then\n        MessageBox.Show(row.Cells(0).Value.ToString & "," & row.Cells(1).Value.ToString)\n    End If\nNext

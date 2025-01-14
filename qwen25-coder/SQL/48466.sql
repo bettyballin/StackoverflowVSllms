@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION testFunction(\n  varNumber IN NUMBER DEFAULT 0\n) RETURN NUMBER AS\nBEGIN\n  -- Use the utility package to handle default value logic\n  varNumber := util_pkg.get_default_value(varNumber, 0);\n  \n  dbms_output.put_line(varNumber);\n  RETURN varNumber;\nEND;\n/

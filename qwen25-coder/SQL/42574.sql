@@ -1,1 +1,0 @@
-SELECT Cost, DateTime\nFROM (\n    SELECT \n        Cost, \n        DateTime,\n        LEAD(Cost) OVER (ORDER BY DateTime) AS NextCost\n    FROM transactions\n) subquery\nWHERE Cost <> NextCost OR NextCost IS NULL\nORDER BY DateTime;

@@ -1,1 +1,0 @@
-SELECT DATEDIFF(date_column1, date_column2) AS date_difference FROM your_table;

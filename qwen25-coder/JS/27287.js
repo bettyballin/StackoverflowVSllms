@@ -1,1 +1,0 @@
-// Example usage:\n   import { InputText } from 'primereact/inputtext';\n\n   function App() {\n       return <InputText placeholder="Enter text" style={{width:'100%'}} />;\n   }

@@ -1,1 +1,0 @@
-CREATE TABLE ExampleLargeColumns (\n    ID INT PRIMARY KEY,\n    LargeText VARCHAR(MAX), -- Very large max size\n    LargeBinary VARBINARY(MAX)  -- Very large max size\n);

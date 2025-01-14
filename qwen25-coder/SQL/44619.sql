@@ -1,1 +1,0 @@
-SELECT COUNT(*)\nFROM transactions\nWHERE REPLACE(desc, '.', '') = ?\nAND dated_on = ?\nAND amount = ?;

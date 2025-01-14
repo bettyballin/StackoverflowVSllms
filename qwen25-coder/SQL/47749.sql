@@ -1,1 +1,0 @@
-CREATE ASSEMBLY CalculationEngineAssembly\n   FROM 'C:\Path\To\Your\Library.dll'\n   WITH PERMISSION_SET = UNSAFE;

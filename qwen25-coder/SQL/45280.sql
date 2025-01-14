@@ -1,1 +1,0 @@
-CREATE INDEX idx_order_header_status_date ON ORDER_HEADER (STATUS_ID, ORDER_DATE);

@@ -1,1 +1,0 @@
-<fieldset class="fieldset">\n  <legend>Images</legend>\n  <% if @plant.images.any? %>\n    <% @plant.images.each do |image| %>\n      <%= render partial: 'show_image', object: image %>\n    <% end %>\n  <% else %>\n    <p>This plant has no images to display.</p>\n  <% end %>\n</fieldset>

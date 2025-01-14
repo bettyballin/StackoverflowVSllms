@@ -1,1 +1,0 @@
-module Myapp\n     class Set < ActiveRecord::Base\n       # Your methods here\n     end\n   end

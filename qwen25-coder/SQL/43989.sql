@@ -1,1 +1,0 @@
-INSERT INTO [IntranetDB].[dbo].[t2]\n  SELECT * FROM [ExtranetServer].[DatabaseName].[dbo].[t2];

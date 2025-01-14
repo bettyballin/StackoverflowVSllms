@@ -1,1 +1,0 @@
-import bcrypt\n\n# Example password\npassword = b"7091343"\n\n# Hashing the password\nsalt = bcrypt.gensalt()\nhashed_password = bcrypt.hashpw(password, salt)\n\nprint("Hashed:", hashed_password)

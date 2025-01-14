@@ -1,1 +1,0 @@
-Dim identity As WindowsIdentity = WindowsIdentity.GetCurrent()\nDim tokenHandle As String = Convert.ToString(identity.Token.ToInt32(), 16)\n\n' Call the web service method\nuserService.UserToken(tokenHandle)

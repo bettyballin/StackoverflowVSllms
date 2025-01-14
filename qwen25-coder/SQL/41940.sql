@@ -1,1 +1,0 @@
-SELECT * \n   FROM YourTable WITH (TABLESAMPLE SYSTEM (5.6 PERCENT))\n   -- 5.6% of 9 million roughly gives you ~500k rows; adjust to get closer to 5000.

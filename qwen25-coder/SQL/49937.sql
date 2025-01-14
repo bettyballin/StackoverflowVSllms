@@ -1,1 +1,0 @@
-CREATE TABLE documents (\n         id SERIAL PRIMARY KEY,\n         name TEXT,\n         path VARCHAR[] -- Assuming PostgreSQL, stores path as an array of integer ids\n     );

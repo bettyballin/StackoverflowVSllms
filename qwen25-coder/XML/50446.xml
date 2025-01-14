@@ -1,1 +1,0 @@
-<style name="FullScreenDialog" parent="Theme.AppCompat.Light.Dialog">\n    <item name="android:windowFullscreen">true</item>\n    <item name="android:windowIsFloating">false</item>\n    <item name="android:background">@android:color/black</item>\n    <item name="android:windowBackground">@android:drawable/background_dim</item>\n</style>

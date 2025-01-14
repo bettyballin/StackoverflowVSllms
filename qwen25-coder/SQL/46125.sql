@@ -1,1 +1,0 @@
-CREATE UNIQUE INDEX idx_unique_space_coordinate ON SpaceLocations (x, y, z);

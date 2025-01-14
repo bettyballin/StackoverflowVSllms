@@ -1,1 +1,0 @@
-// Using Prepared Statements with PDO\n$pdo = new PDO('mysql:host=localhost;dbname=test', 'username', 'password');\n$stmt = $pdo->prepare('SELECT * FROM users WHERE email = :email');\n$stmt->execute(['email' => 'example@example.com']);\n$user = $stmt->fetch();

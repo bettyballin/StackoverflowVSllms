@@ -1,1 +1,0 @@
-INSERT INTO tableC (field1, field2, ..., common_field)\nSELECT tableA.field1, tableA.field2, ..., tableA.common_field\nFROM tableA\nLEFT JOIN tableB ON tableA.common_field = tableB.common_field\nWHERE tableB.common_field IS NULL;

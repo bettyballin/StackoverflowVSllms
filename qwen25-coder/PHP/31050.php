@@ -1,1 +1,0 @@
-$view->addHelperPath('My/View/Helper/', 'My_View_Helper');

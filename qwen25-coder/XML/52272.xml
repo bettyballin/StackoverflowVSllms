@@ -1,1 +1,0 @@
-<UsingTask TaskName="ModifySourceCodeTask" AssemblyFile="path\to\your\CustomTaskAssembly.dll" />\n\n<Target Name="BeforeCompile">\n    <ModifySourceCodeTask Sources="@(Compile)">\n        <Output TaskParameter="ModifiedSources" ItemName="Compile"/>\n    </ModifySourceCodeTask>\n</Target>

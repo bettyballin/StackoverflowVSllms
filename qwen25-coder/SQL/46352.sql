@@ -1,1 +1,0 @@
-INSERT INTO JournalEntries (transaction_date, account_code, description, amount) VALUES\n('2023-10-05', '1000', 'Consulting Service Provided', 29.00), -- Debit Consulting & Accounting\n('2023-10-05', '2000', 'Payment to Supplier', 31.39),        -- Debit AP (Accounts Payable)\n('2023-10-05', '2400', 'Sales Tax Collected', -2.39);       -- Credit Sales Tax

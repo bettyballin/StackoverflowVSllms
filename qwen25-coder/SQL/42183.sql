@@ -1,1 +1,0 @@
-CREATE TABLE your_table_name (\n       column1 INT PRIMARY KEY,\n       content TEXT,\n       FULLTEXT(content)\n   ) ENGINE=InnoDB;

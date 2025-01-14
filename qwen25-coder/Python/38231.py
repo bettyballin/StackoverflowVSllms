@@ -1,1 +1,0 @@
-def bar(x, y, **kwargs):\n      print(f"x: {x}, y: {y}")\n      for key, value in kwargs.items():\n          print(f"{key}: {value}")\n\n  # Example call\n  bar(1, 2, name="Alice", age=30)  # Outputs: x: 1, y: 2\n                                     #          name: Alice\n                                     #          age: 30

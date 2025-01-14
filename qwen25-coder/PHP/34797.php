@@ -1,1 +1,0 @@
-public $components = array(\n         'Session',\n         'Auth' => array('loginRedirect' => array('controller' => 'articles', 'action' => 'index')),\n         'I18n'\n     );\n\n     public function beforeFilter() {\n         parent::beforeFilter();\n         Configure::write('Config.language', 'heo');\n     }

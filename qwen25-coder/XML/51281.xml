@@ -1,1 +1,0 @@
-<servlet-mapping>\n       <servlet-name>index</servlet-name>\n       <url-pattern>/secure/index.do</url-pattern>\n   </servlet-mapping>

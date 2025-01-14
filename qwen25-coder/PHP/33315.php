@@ -1,1 +1,0 @@
-$connection = mysqli_connect("localhost", "user", "password", "database");\n\nfunction getUser($userId) {\n    global $connection;\n    $result = mysqli_query($connection, "SELECT * FROM users WHERE id = " . intval($userId));\n    return mysqli_fetch_assoc($result);\n}\n\n$userData = getUser(1);

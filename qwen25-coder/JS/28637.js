@@ -1,1 +1,0 @@
-var jsDate = new Date(); // Your date object\ndocument.getElementById('hiddenField').value = jsDate.toISOString();

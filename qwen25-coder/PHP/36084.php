@@ -1,1 +1,0 @@
-$unixTimestampInSeconds = time(); // Current Unix timestamp in seconds\n$unixTimestampInMilliseconds = $unixTimestampInSeconds * 1000; // Convert to milliseconds\necho $unixTimestampInMilliseconds;

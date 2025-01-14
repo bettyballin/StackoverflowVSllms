@@ -1,1 +1,0 @@
-SELECT \n    (A.A1 - B.A1) AS Difference_A,\n    (A.B1 - B.B1) AS Difference_B\nFROM \n    TableA A, \n    TableB B;

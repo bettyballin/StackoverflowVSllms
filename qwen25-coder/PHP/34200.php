@@ -1,1 +1,0 @@
-class NSNode {\n    function insertAfter($node) {\n        if (!is_null($node) && !($node instanceof NSNode)) {\n            throw new InvalidArgumentException('Parameter must be an instance of NSNode or null');\n        }\n        // Continue with the logic to insert after the node\n        ...\n    }\n}

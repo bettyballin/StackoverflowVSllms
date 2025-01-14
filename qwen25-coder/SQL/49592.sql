@@ -1,1 +1,0 @@
-CREATE TABLE Config (\n    Environment VARCHAR(50),\n    Db1Name VARCHAR(255),\n    Db2Name VARCHAR(255)\n);\n\nINSERT INTO Config (Environment, Db1Name, Db2Name) VALUES ('Development', 'db1-development', 'db2-development');\nINSERT INTO Config (Environment, Db1Name, Db2Name) VALUES ('Production', 'db1-production', 'db2-production');

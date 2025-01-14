@@ -1,1 +1,0 @@
-ALTER DATABASE tempdb \n     MODIFY FILE ( NAME = N'tempdev', FILEGROWTH = 10% );

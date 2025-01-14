@@ -1,1 +1,0 @@
-INSERT INTO summary_table (table1_id, computed_value)\n   SELECT t1.id, some_aggregate_function()\n   FROM table1 t1\n   LEFT JOIN table2 t2 ON t2.table1_id = t1.id\n   GROUP BY t1.id;

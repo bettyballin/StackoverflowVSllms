@@ -1,1 +1,0 @@
-var originalUrl = window.location.href;\nvar encodedUrl = encodeURIComponent(originalUrl);\nwindow.location.replace('resource.aspx?original=' + encodedUrl);

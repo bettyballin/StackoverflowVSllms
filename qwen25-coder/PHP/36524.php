@@ -1,1 +1,0 @@
-<?php\n$url = 'http://www.example.com/script.php';\n\n$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, $url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n\n$fileContent = curl_exec($ch);\nif(curl_errno($ch)) {\n    echo 'Curl error: ' . curl_error($ch);\n}\ncurl_close($ch);\n\necho htmlspecialchars($fileContent);\n?>

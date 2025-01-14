@@ -1,1 +1,0 @@
-SELECT SUBSTRING_INDEX(your_field_name, ' ', 1) AS first_word\nFROM your_table_name;

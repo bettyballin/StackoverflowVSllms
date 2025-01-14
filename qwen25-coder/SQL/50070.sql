@@ -1,1 +1,0 @@
-WITH FilteredEmp AS (\n    SELECT sal FROM scott.emp\n    WHERE deptno = 20 AND job = 'CLERK'\n)\nSELECT * \nFROM scott.emp e\nJOIN FilteredEmp fe ON e.sal = fe.sal\nWHERE e.deptno = 20 AND e.job = 'CLERK';

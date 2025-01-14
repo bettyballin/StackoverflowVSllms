@@ -1,1 +1,0 @@
-CREATE TABLE Locales (\n    ID INT PRIMARY KEY AUTO_INCREMENT,\n    LocationName VARCHAR(255) NOT NULL,\n    ParentID INT DEFAULT NULL,\n    ISOCode VARCHAR(10),\n    Latitude DECIMAL(9,6),\n    Longitude DECIMAL(9,6),\n    FOREIGN KEY (ParentID) REFERENCES Locales(ID)\n);

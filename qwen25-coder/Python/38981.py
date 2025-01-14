@@ -1,1 +1,0 @@
-from itertools import islice\n\ndef split_list(input_list, seg_length):\n    return [list(islice(input_list, i, i + seg_length)) for i in range(0, len(input_list), seg_length)]\n\nalist = list(range(10))\nprint(split_list(alist, 3))

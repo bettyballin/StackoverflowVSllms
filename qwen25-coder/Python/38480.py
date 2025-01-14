@@ -1,1 +1,0 @@
-# Structure your project like this:\n# myapp/\n#     __init__.py\n#     session.py   # Handles session management\n#     logger.py    # Configures logging\n#     database.py  # Manages database connections\n\n# Example of a small module, e.g., logger.py\nimport logging\n\ndef configure_logger():\n    logging.basicConfig(level=logging.INFO)

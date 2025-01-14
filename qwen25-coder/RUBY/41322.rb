@@ -1,1 +1,0 @@
-<%= select_tag :cube_name, options_for_select(@cube_names.map { |name| [name, name] }, @cube_name) %>

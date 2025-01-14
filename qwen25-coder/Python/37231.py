@@ -1,1 +1,0 @@
-from stemming import Stemming\n   \n  .stem = Stemming('lovins')\n   words = ["parse", "parser", "parsing"]\n   \n   for word in words:\n       print(stem(word))

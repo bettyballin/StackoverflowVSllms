@@ -1,1 +1,0 @@
-SET SHOWPLAN_ALL ON;\n-- Place your query here\nGO\n\nSET SHOWPLAN_ALL OFF;

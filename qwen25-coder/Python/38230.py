@@ -1,1 +1,0 @@
-def foo(x, y, *args):\n      print(f"x: {x}, y: {y}")\n      for arg in args:\n          print(arg)\n\n  # Example call\n  foo(1, 2, 'a', 'b', 'c')  # Outputs: x: 1, y: 2\n                              #          a\n                              #          b\n                              #          c

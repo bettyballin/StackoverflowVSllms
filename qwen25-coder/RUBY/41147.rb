@@ -1,1 +1,0 @@
-obj = "Hello"\nputs obj.class # Outputs: String\n\nis_string = obj.is_a?(String) # Returns: true

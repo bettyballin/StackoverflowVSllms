@@ -1,1 +1,0 @@
--- Example of a simple SQL injection attempt\n   SELECT * FROM users WHERE username = 'admin' AND password = '' OR '1'='1';

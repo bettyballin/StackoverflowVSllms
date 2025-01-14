@@ -1,1 +1,0 @@
-$number = 123;\n$stringNumber = $number . "";

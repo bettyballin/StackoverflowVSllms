@@ -1,1 +1,0 @@
-WITH RankedRecords AS (\n    SELECT \n        ID, \n        Name, \n        Timestamp, \n        Data,\n        ROW_NUMBER() OVER (PARTITION BY Name ORDER BY Timestamp DESC) as rn\n    FROM \n        YourTableNameHere\n)\nSELECT \n    ID, \n    Name, \n    Timestamp, \n    Data\nFROM \n    RankedRecords\nWHERE \n    rn = 1;

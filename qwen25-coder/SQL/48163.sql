@@ -1,1 +1,0 @@
-CREATE TABLE Transactions (\n    Id INT PRIMARY KEY,\n    Date DATE NOT NULL,\n    OrderId INT,\n    Quantity INT,\n    ItemName NVARCHAR(255),\n    Title NVARCHAR(255)\n);\n\n-- Indexing for better performance\nCREATE INDEX IDX_Transactions_Date ON Transactions(Date);\nCREATE INDEX IDX_Transactions_OrderId ON Transactions(OrderId);

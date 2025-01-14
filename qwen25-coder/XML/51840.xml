@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <handlers>\n      <add name="MyCustomHandler" path="*.myext" verb="*" type="MyCustomHandlers.MyCustomHandler, MyCustomHandlersAssembly" resourceType="Unspecified"/>\n    </handlers>\n  </system.webServer>\n</configuration>

@@ -1,1 +1,0 @@
-# Example of a simple vulnerability scanner pseudo-code\n   def scan_endpoint(url):\n       response = requests.get(url)\n       if "SQL error" in response.text:\n           print("Potential SQL injection point detected")

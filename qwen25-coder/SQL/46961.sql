@@ -1,1 +1,0 @@
--- Example optimization might involve using more specific WHERE clauses or hints if necessary\n   ALTER INDEX YourIndexName ON YourTableName REBUILD;

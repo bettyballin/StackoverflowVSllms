@@ -1,1 +1,0 @@
-<?php\n$day = array("Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo");\n\nfunction today($days){ // Add $days as a parameter\n    $d = date("N");\n    echo $days[$d - 1]; // Adjust index by subtracting 1 since array indices start at 0\n}\n\ntoday($day); // Pass the $day array to the function\n?>

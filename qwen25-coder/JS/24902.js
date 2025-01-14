@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('#contentSlot').load('/myPhpPage.php?ajax=true #mainContentDiv');\n});

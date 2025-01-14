@@ -1,1 +1,0 @@
-my_dict = {'a': 1, 'b': 2, 'c': 3}\n   list_of_reversed_tuples = [(v, k) for k, v in my_dict.items()]\n   print(list_of_reversed_tuples)

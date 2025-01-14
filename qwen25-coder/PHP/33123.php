@@ -1,1 +1,0 @@
-// Assume $conn is your database connection\n$query = sprintf("SELECT * FROM users WHERE username='%s' AND status='active'",\n                    mysql_real_escape_string($username));\n$result = mysql_query($query, $conn);\nif (!$result) {\n    // handle errors\n}

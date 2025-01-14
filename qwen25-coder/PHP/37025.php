@@ -1,1 +1,0 @@
-$email = filter_var($inputEmail, FILTER_SANITIZE_EMAIL);\n   if (filter_var($email, FILTER_VALIDATE_EMAIL)) {\n       // Valid email address\n   }

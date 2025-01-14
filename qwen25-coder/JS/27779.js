@@ -1,1 +1,0 @@
-$.post(\n    'your-url-here',\n    { key: 'value' },\n    function(data) {\n        // data is already parsed as a JavaScript object\n        console.log(data);\n    },\n    'json'  // specify that the expected response type is JSON\n).fail(function(jqXHR, textStatus, errorThrown) {\n    console.error('Error:', textStatus, errorThrown);\n});

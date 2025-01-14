@@ -1,1 +1,0 @@
-import styled from 'styled-components';\n\n   const MainColor = '#3c5c8d';\n   const Container = styled.div`\n     background-color: ${MainColor};\n   `;

@@ -1,1 +1,0 @@
-abstract class ORM {\n    protected static function tableName() {\n        // Implement table name retrieval logic\n    }\n\n    public static function create(array $data) {\n        // Implement creation logic here\n    }\n\n    public static function all() {\n        // Implements fetching all records here\n    }\n}

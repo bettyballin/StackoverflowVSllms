@@ -1,1 +1,0 @@
-SELECT DISTINCT LEN(CAST(textfield AS varchar(8000))) AS TextLength\nFROM tablename;

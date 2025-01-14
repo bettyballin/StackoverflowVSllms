@@ -1,1 +1,0 @@
-SELECT DATEDIFF(WEEK, DATEADD(month, DATEDIFF(month, 0, '2008-10-16'), 0), '2008-10-16') + 1 AS WeekNumber

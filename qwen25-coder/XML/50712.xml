@@ -1,1 +1,0 @@
-<dependency>\n       <groupId>io.github.openfeign</groupId>\n       <artifactId>feign-gson</artifactId>\n       <version>12.0</version>\n   </dependency>

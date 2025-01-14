@@ -1,1 +1,0 @@
-curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);\n    // Optionally set path to CA bundle\n    // curl_setopt($ch, CURLOPT_CAINFO, '/path/to/cacert.pem');

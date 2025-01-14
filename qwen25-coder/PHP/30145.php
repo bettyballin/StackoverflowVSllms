@@ -1,1 +1,0 @@
-<?php\n$directory = '/path/to/directory';\n$files = scandir($directory);\n\n// Remove . and ..\n$files = array_diff($files, array('.', '..'));\n\nforeach ($files as $file) {\n    echo "File: $file\n";\n}\n?>

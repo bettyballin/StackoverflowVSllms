@@ -1,1 +1,0 @@
-select\n    this.column1,\n    case when this.column2 is null then 0 else this.column2 end\nfrom dbo.sometable this\n    inner join dbo.anothertable another on this.id = another.id\nwhere\n    this.price > 100

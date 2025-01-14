@@ -1,1 +1,0 @@
-resource = RestClient::Resource.new 'http://localhost:3000/foos/1', :user => 'me', :password => 'secret'\nresponse = resource.put({ name: 'somethingwitty' }.to_xml, { content_type: :xml })

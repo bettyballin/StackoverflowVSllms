@@ -1,1 +1,0 @@
-import pyminizip\n\n# File to encrypt, password, and output encrypted file name\nfile_to_encrypt = 'sensitive_file.txt'\npassword = 'StrongPassword123!@#'\nencrypted_file_name = 'encrypted_file.zip'\n\n# Encrypt the file with AES-256 compression level 5\npyminizip.compress(file_to_encrypt, None, encrypted_file_name, password, 5)

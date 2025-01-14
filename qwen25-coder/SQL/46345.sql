@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE id >= (\n    SELECT MAX(id) - n + 1 FROM your_table\n)\nORDER BY id\nLIMIT n;

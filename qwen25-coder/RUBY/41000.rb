@@ -1,1 +1,0 @@
-- @feedback_messages.each do |message|\n  %p= message.content\n\n= will_paginate @feedback_messages

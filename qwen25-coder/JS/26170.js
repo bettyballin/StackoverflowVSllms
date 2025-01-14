@@ -1,1 +1,0 @@
-window.onbeforeunload = function() {\n    // This clears all session storage before the user navigates away from the page\n    sessionStorage.clear();\n};

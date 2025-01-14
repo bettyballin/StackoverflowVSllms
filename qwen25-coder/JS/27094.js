@@ -1,1 +1,0 @@
-var formData = $('#yourFormId').serialize(); // Serialize entire form including dynamically added rows\n\n   $.ajax({\n       url: '/YourController/Save',\n       type: 'POST',\n       data: formData,\n       success: function(result) {\n           // Handle success\n       }\n   });

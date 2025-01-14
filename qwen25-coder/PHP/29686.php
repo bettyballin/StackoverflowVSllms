@@ -1,1 +1,0 @@
-<?php\n$html = '< p > blah blah blah < / p > < a href= " link.html " > blah blah blah < /a >';\n\n$strippedText = preg_replace('/<\s*\/?\s*[a-zA-Z]+\s*(?:[=\s][^>]*)?\s*>/', '', $html);\n\necho $strippedText;\n?>

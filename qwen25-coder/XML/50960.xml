@@ -1,1 +1,0 @@
-<system.serviceModel>\n  <bindings>\n    <basicHttpBinding>\n      <binding name="YourBindingConfiguration" />\n    </basicHttpBinding>\n  </bindings>\n</system.serviceModel>

@@ -1,1 +1,0 @@
-<%\nResponse.Cookies("MyVariable") = "YourValue"\nResponse.Cookies("MyVariable").Expires = #December 31, 2099#\nResponse.Cookies("MyVariable").Path = "/"\n%>

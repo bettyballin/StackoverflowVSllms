@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.apache.shiro</groupId>\n    <artifactId>shiro-core</artifactId>\n    <version>1.9.2</version>\n</dependency>

@@ -1,1 +1,0 @@
-$link = mysqli_init();\n   mysqli_options($link, MYSQLI_OPT_CONNECT_TIMEOUT, 5);\n   $success = mysqli_real_connect(\n       $link,\n       "remote_host",\n       "user",\n       "password",\n       "database"\n   );

@@ -1,1 +1,0 @@
-function isValidRound($round) {\n    return $round >= 0 && $round <= 3;\n}\n\n// Example usage:\n$current_round = fetchCurrentRoundFromDatabase(); // Assume this function fetches the value from your database\n\nif (!isValidRound($current_round)) {\n    throw new Exception("Invalid current_round value: " . $current_round);\n}

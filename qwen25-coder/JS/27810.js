@@ -1,1 +1,0 @@
-// Disable back button by pushing a new state and listening for popstate events\n(function() {\n    history.pushState(null, null, location.href);\n    window.addEventListener('popstate', function(event) {\n        history.go(1); // Redirects user to next state as per navigation stack\n    });\n})();

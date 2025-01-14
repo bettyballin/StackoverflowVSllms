@@ -1,1 +1,0 @@
-CREATE INDEX idx_page_id ON page (id);\nCREATE INDEX idx_page_revision_pageid_status ON page_revision (pageId, status);

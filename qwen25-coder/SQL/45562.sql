@@ -1,1 +1,0 @@
-SELECT dbo.GetNextDate(9, 7) AS NextDate;\nSELECT dbo.GetNextDate(1, 1) AS NextDate;

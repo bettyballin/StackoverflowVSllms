@@ -1,1 +1,0 @@
-SELECT TIMESTAMPDIFF(hour, startTime, endTime) AS duration, COUNT(*)\nFROM (\n    SELECT * FROM oct WHERE type = 'gen'\n    UNION ALL\n    SELECT * FROM dec WHERE type = 'gen'\n    UNION ALL\n    SELECT * FROM feb WHERE type = 'gen'\n    UNION ALL\n    SELECT * FROM apr WHERE type = 'gen'\n) AS combined_data\nGROUP BY duration\nINTO OUTFILE "/combined_output";

@@ -1,1 +1,0 @@
-let resizeTimeout;\n\nwindow.addEventListener('resize', () => {\n    clearTimeout(resizeTimeout);\n    doLog("plain resize");\n\n    resizeTimeout = setTimeout(() => {\n        doLog("resize end");\n    }, 100); // adjust the time as necessary\n});\n\nfunction doLog(message) {\n    document.getElementById("log").innerHTML += "<br/>" + message;\n}

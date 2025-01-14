@@ -1,1 +1,0 @@
-function refreshChat() {\n    $.get("messages.aspx", function (data) {\n        $("#chatbox").empty();\n        $("#chatbox").prepend(data);\n    });\n    setTimeout(refreshChat, 5000); // Corrected line: Pass function reference instead of calling it\n}

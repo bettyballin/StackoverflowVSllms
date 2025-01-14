@@ -1,1 +1,0 @@
-$dataAccessObject = new DataAccessObject($dbConnection);

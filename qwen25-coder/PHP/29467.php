@@ -1,1 +1,0 @@
-$dbh = new PDO('mysql:host=localhost', 'user', 'pass');\n$dbh->exec("USE mydb");\n\n$query = 'SELECT CALC_IT(`Flag`, `One`, `Two`) FROM `table` WHERE `Condition` = 1';\n$stmt = $dbh->prepare($query);\nif (!$stmt->execute()) {\n    var_dump($stmt->errorInfo());\n}

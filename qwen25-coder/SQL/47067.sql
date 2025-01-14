@@ -1,1 +1,0 @@
-CREATE TRIGGER PreventInvalidInsert\n  ON YourTable\n  INSTEAD OF INSERT\n  AS\n  BEGIN\n      IF EXISTS (SELECT 1 FROM inserted WHERE your_column < 0)\n      BEGIN\n          THROW 50000, 'Invalid data: Value cannot be negative', 1;\n      END\n\n      ELSE\n      BEGIN\n          INSERT INTO YourTable (your_column) SELECT your_column FROM inserted;\n      END\n  END;

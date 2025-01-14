@@ -1,1 +1,0 @@
-DECLARE @intValue INT = 1;\nSELECT FORMAT(@intValue, 'D8') AS ZeroPaddedString;

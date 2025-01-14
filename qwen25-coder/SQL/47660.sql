@@ -1,1 +1,0 @@
-SELECT MAX(RunDate) AS LatestRunDate FROM ProductionRuns;

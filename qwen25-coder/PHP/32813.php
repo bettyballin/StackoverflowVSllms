@@ -1,1 +1,0 @@
-<?php echo slot_get('custom_slot') ?>

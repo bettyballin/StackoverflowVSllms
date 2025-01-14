@@ -1,1 +1,0 @@
-from django.shortcuts import get_object_or_404\n\n# Assuming you have a book_id value to fetch the specific book\nbook_id = 1\nbook = get_object_or_404(Book, id=book_id)\n\n# Query to get all ingredients for recipes in the specified book\ningredients = Ingredient.objects.filter(recipe__book=book)

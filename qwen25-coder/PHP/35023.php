@@ -1,1 +1,0 @@
-// tests/firstTest.php\n\n   namespace Tests;\n\n   use App\YourClass; // Adjust the namespace to match the location of the class being tested.\n\n   class firstTest extends \PHPUnit\Framework\TestCase {\n       public function testExample() {\n           $test = new YourClass();\n           // Test your methods here\n       }\n   }

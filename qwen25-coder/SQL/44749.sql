@@ -1,1 +1,0 @@
--- Example of defining a table with specific data types\nCREATE TABLE Users (\n    UserID INT PRIMARY KEY,\n    Username VARCHAR(255),\n    Email VARCHAR(255) UNIQUE,\n    CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    Active BOOLEAN NOT NULL DEFAULT TRUE\n);

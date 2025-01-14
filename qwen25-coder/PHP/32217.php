@@ -1,1 +1,0 @@
-echo("<form action=\"vote.php\" method=\"post\"> \n");\necho("<input type='hidden' name='idnum' value='" . htmlspecialchars($row[0]) . "'>"); // Always sanitize output\necho("<input type='submit' name='up' value='Upvote.'>  \n");\necho("<input type='submit' name='down' value='Downvote'> ");\necho("</form>\n");\n\n// Repeat the above for each row fetched from the database

@@ -1,1 +1,0 @@
-Dim html As New System.Text.StringBuilder\n\n' Start with a static XML literal part\nhtml.Append(<html><body>)\n\n' Append dynamic content as a string\nhtml.Append("This is some dynamically added content.")\n\n' Close the body and html tags\nhtml.Append("</body></html>")\n\nMsgBox(html.ToString())

@@ -1,1 +1,0 @@
-// Assume this is your date string in the correct format\n$dateString = "2023-10-15"; // YYYY-MM-DD\n\n// Convert to MySQL timestamp using strtotime and date functions\n$timestamp = date('Y-m-d H:i:s', strtotime($dateString));

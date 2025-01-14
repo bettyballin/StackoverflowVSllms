@@ -1,1 +1,0 @@
-UPDATE your_table_name T\nSET T.ratio = T.appearances / \n(\n    SELECT SUM(S.appearances)\n    FROM your_table_name S\n    WHERE S.category = T.category\n);

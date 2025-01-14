@@ -1,1 +1,0 @@
-SELECT *\nFROM YourTable\nWHERE MY_DATE >= DATEADD(month, -12, GETDATE());

@@ -1,1 +1,0 @@
-=IIF(IsNothing(LookupSet("John", Fields!Name.Value, 1, "YourDataSetName")), True, False)

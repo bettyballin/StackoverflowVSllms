@@ -1,1 +1,0 @@
-CREATE TABLE images (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(255),\n    content_type VARCHAR(255),\n    image_data LONGBLOB\n);

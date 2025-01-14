@@ -1,1 +1,0 @@
-SELECT (SELECT COUNT(*) AS RosterCount \n        FROM gt_roster \n        WHERE ROS_ROSTERPLAN_ID = gt_rosterplan.RPL_ID) AS TotalRosters\nFROM gt_rosterplan\nWHERE RPL_ID = 432065061;

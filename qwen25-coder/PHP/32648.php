@@ -1,1 +1,0 @@
-<?php\nif (isset($_GET['fromLegacy']) && $_GET['fromLegacy'] === 'true') {\n    echo "<div class='welcome-message'>Welcome to our new website! You are here because we've transitioned from our legacy site.</div>";\n}\n?>

@@ -1,1 +1,0 @@
-https://docs.microsoft.com/en-us/sql/?view=sql-server-ver16

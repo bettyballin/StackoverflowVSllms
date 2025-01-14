@@ -1,1 +1,0 @@
-REVOKE ALL ON * FROM xyz;\n   GRANT SELECT, INSERT, UPDATE, DELETE ON specific_table TO xyz USING (some_condition);

@@ -1,1 +1,0 @@
-CREATE TABLE BlogCategories (\n       BlogID INT,\n       CategoryID INT,\n       PRIMARY KEY (BlogID, CategoryID),\n       FOREIGN KEY (BlogID) REFERENCES Blogs(ID) ON DELETE CASCADE,\n       FOREIGN KEY (CategoryID) REFERENCES Categories(ID)\n   );

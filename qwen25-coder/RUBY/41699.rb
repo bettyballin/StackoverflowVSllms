@@ -1,1 +1,0 @@
-require 'digest'\n\ndef md5_hex(string)\n  Digest::MD5.hexdigest(string)\nend\n\n# Example usage\ninput_string = "Your string here"\nputs md5_hex(input_string)

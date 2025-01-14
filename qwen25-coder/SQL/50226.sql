@@ -1,1 +1,0 @@
-INSERT INTO `aTable` (`A`, `B`)\nSELECT MAXsubQ.maxVal, 'name' \nFROM (\n    SELECT MAX(`A`) * 2 AS maxVal FROM `aTable`\n) AS MAXsubQ;

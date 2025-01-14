@@ -1,1 +1,0 @@
-Website: https://docs.microsoft.com/en-us/sql/azdata/query-editor/

@@ -1,1 +1,0 @@
-# In a view when using form helpers:\n   <%= form_with url: send_email_path, local: true do |form| %>\n     <%= form.text_field :subject %>\n     <%= form.rich_text_area :body %>\n     <%= form.submit "Send" %>\n   <% end %>\n\n   # For JavaScript/AJAX requests in Rails, include the CSRF token:\n   headers['X-CSRF-Token'] = $('meta[name="csrf-token"]').attr('content');

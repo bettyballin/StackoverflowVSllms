@@ -1,1 +1,0 @@
-SELECT column_name\nFROM your_table\nORDER BY \n    CASE \n        WHEN id = 1 THEN 0 -- First special item\n        WHEN id = 2 THEN 0 -- Second special item\n        ELSE 1\n    END,\n    column_name ASC;

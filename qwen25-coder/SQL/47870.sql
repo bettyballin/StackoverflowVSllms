@@ -1,1 +1,0 @@
--- Create and save this query with a name like 'qryComponentSpecsQuantity'\nSELECT IIF(tblComponentSpecs.nPurchaseCostQuantity Is Null, 0, tblComponentSpecs.nPurchaseCostQuantity) AS Quantity\nFROM tblComponentSpecs;

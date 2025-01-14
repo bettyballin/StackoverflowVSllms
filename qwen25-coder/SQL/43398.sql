@@ -1,1 +1,0 @@
-INSERT INTO YourTable (YourDateColumn)\nVALUES (CAST('2023-10-05' AS datetime))

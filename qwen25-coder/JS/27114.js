@@ -1,1 +1,0 @@
-setInterval(function() {\n    $.ajax({\n        url: '/keepSessionAlive',\n        method: 'GET'\n    });\n}, 1200000);  // Every 20 minutes, send a request to server

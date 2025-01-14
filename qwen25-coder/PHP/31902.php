@@ -1,1 +1,0 @@
-$title = "New Amsbrook School"; // Added the missing semicolon\n$message = "$title just added, Congrats!";\necho $message;

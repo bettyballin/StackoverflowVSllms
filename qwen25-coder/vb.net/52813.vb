@@ -1,1 +1,0 @@
-Protected Function FieldDisplayDuration(ByVal Duration As TimeSpan) As String\n    Dim rtn As String = Duration.Hours & " hours, " & Duration.Minutes & " minutes, " & Duration.Seconds & " seconds."\n    Return rtn\nEnd Functio

@@ -1,1 +1,0 @@
-SELECT LEAST(id) FROM tableA A, tableB B WHERE a.name = b.name(+)

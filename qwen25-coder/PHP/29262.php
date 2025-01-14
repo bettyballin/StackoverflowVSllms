@@ -1,1 +1,0 @@
-class YourModel {\n    public function getData() {\n        // Fetch data from database\n        return ['key' => 'value'];\n    }\n}

@@ -1,1 +1,0 @@
-RESTORE DATABASE YourDatabaseName FROM DISK = 'D:\Backups\YourDatabaseName.bak' \n   WITH MOVE 'YourDataLogicalFileName' TO 'D:\SQLData\YourDatabaseName.mdf',\n        MOVE 'YourLogLogicalFileName' TO 'D:\SQLLogs\YourDatabaseName_log.ldf',\n        MOVE 'YourFullTextLogicalFileName' TO 'D:\SQLFTData\YourFTCatalog.ndf'

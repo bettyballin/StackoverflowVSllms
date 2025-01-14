@@ -1,1 +1,0 @@
-# Example using Python with the pybots library\n   from pybots import BotDetector\n\n   detector = BotDetector()\n   if detector.is_bot(request.user_agent, request.headers):\n       # Handle bots (e.g., log, block)\n       return "Bot detected"

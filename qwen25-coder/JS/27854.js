@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded", function() {\n    if (window.location.hash === "#comments") {\n        // Code to show comments\n        document.getElementById('comments').style.display = 'block'; // Example\n    }\n});

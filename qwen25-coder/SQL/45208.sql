@@ -1,1 +1,0 @@
-CREATE EVENT reset_my_field_value_event\n   ON SCHEDULE EVERY 1 DAY\n   STARTS '2023-10-01 00:00:00'\n   DO\n     UPDATE your_table_name\n     SET your_column_name = DEFAULT -- or set it to a specific value, e.g., 0\n     WHERE some_condition;

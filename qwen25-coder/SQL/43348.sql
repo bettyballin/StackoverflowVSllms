@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION addNumber(num1 NUMBER, num2 NUMBER) \nRETURN NUMBER IS \nBEGIN \n    RETURN (num1 + num2);\nEND;\n/

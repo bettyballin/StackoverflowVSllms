@@ -1,1 +1,0 @@
-DECLARE\n    v_object_id NUMBER := 123;\n    v_user_id NUMBER := 456;\nBEGIN\n    INSERT INTO HasViewed (ObjectID, UserId) VALUES (v_object_id, v_user_id);\nEXCEPTION\n    WHEN DUP_VAL_ON_INDEX THEN\n        -- Ignore this exception\n        NULL;\nEND;\n/

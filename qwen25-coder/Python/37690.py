@@ -1,1 +1,0 @@
-import pyevtx\n\n     with pyevtx.File() as evtx_file:\n         evtx_file.open("C:\\Path\\To\\LogFile.evtx")\n         for record in evtx_file.records():\n             print(record.data_as_xml())

@@ -1,1 +1,0 @@
-SELECT name, description, ...\n  FROM your_table\n  WHERE id IN (id1, id2, id3)\n  ORDER BY \n      CASE id WHEN id1 THEN 1 \n           WHEN id2 THEN 2 \n           WHEN id3 THEN 3 END;

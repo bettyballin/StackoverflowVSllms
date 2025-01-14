@@ -1,1 +1,0 @@
-CREATE TABLE stays (\n    id NUMBER PRIMARY KEY,\n    stay VARCHAR2(6) \n        CONSTRAINT chk_stay CHECK (stay IN ('Short', 'Medium', 'Long'))\n);

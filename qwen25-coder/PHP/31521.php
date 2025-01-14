@@ -1,1 +1,0 @@
-$pdo = new PDO('mysql:host=your_host;dbname=your_db', 'username', 'password');\n$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);\n\n$stmt = $pdo->prepare("INSERT INTO users (lastname) VALUES (:lastname)");\n$stmt->bindParam(':lastname', $_POST['lastname']);\n$stmt->execute();

@@ -1,1 +1,0 @@
-$text = '<!-- LoginStart -->Some text here including newlines.\nMore text.<!-- LoginEnd -->';\npreg_match('/<!--\s*LoginStart\s*-->(.*?)<!--\s*LoginEnd\s*-->/s', $text, $matches);\nif (isset($matches[1])) {\n    echo $matches[1];\n}

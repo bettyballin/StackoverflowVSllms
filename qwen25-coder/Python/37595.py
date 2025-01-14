@@ -1,1 +1,0 @@
-def user_info(request):\n       # Check if 'user' is in the session\n       user = request.session.get('user', None)\n       return {'session_user': user}

@@ -1,1 +1,0 @@
-SELECT \n    employee_id,\n    shift_date,\n    COALESCE(time_arrived, '00:00') AS effective_time_arrived,\n    COALESCE(time_left, '00:00') AS effective_time_left,\n    IFNULL(TIMESTAMPDIFF(MINUTE, time_arrived, time_left), 0) AS worked_minutes\nFROM \n    attendance_records;

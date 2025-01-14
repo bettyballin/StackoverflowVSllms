@@ -1,1 +1,0 @@
-UPDATE table_name\n   SET rdate = SUBSTRING(CONVERT(rid, CHAR(20)), 1, 8);

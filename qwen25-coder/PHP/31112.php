@@ -1,1 +1,0 @@
-$stream = fopen('php://temp', 'w');\n\n// Business Logic\nfwrite($stream, header->output());\nfwrite($stream, apply_post_filter(ob_get_clean()));\nfwrite($stream, footer->output());\n\nrewind($stream);\nfpassthru($stream);\n\nfclose($stream);

@@ -1,1 +1,0 @@
-<?php\n$db = new PDO('mysql:host=localhost;dbname=your_database', 'username', 'password');\n\n// Reset auto_increment for the table\n$sql = "ALTER TABLE your_table_name AUTO_INCREMENT = 1";\n$stmt = $db->prepare($sql);\n$stmt->execute();\n\necho "Auto-increment has been reset for the year.";\n?>

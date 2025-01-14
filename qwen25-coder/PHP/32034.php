@@ -1,1 +1,0 @@
-<ul class="menu">\n    <!-- Manually add a home link -->\n    <li<?php if (is_front_page()) echo ' class="current-menu-item"'; ?>>\n        <a href="<?php bloginfo('url'); ?>">Home</a>\n    </li>\n    \n    <!-- List other pages minus the Home page -->\n    <?php wp_list_pages('exclude=2&title_li=&depth=1' ); ?>\n</ul>

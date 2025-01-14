@@ -1,1 +1,0 @@
-CREATE TABLE dbo.UserMapping (\n        UserID INT IDENTITY(1,1) PRIMARY KEY,\n        ADObjectGUID UNIQUEIDENTIFIER NOT NULL UNIQUE\n    );

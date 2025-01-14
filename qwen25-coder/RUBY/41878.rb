@@ -1,1 +1,0 @@
-def your_action\n  respond_to do |format|\n    format.xml { head :ok and return }\n  end\n\n  # Additional logic can go here if needed, it won't execute after 'and return'\nend

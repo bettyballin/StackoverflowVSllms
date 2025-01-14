@@ -1,1 +1,0 @@
-CREATE TABLE [dbo].[RoleDisplayOrder] (\n    RoleName NVARCHAR(256) NOT NULL,\n    DisplayOrder INT NOT NULL,\n    PRIMARY KEY (RoleName)\n);

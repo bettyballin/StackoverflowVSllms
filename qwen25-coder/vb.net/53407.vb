@@ -1,1 +1,0 @@
-Dim objName As New MyClass()\nobjName.SessionSingleton()

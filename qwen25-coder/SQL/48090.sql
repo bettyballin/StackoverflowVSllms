@@ -1,1 +1,0 @@
--- Example of a clean plan with proper indexing:\n  Index Scan using idx_column on table_name (cost=0.29..8.31 rows=1 width=67) (actual time=0.014..0.015 rows=1 loops=1)

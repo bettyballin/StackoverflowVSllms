@@ -1,1 +1,0 @@
-$var = filter_input(INPUT_POST, 'var', FILTER_SANITIZE_STRING);

@@ -1,1 +1,0 @@
-Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load\n\n    ' Bind data every time page is loaded, including postbacks\n    HistoryListView.DataSource = From x In myContext.myTables ' Ensure this query includes ordering if necessary\n    DataBind()\n\nEnd Sub

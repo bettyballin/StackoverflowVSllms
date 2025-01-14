@@ -1,1 +1,0 @@
-#!/usr/bin/python3\n\nimport sys\nsys.stdout.write("Content-Type: text/html\n\n")\nimport web\n\nurls = ('/', 'index')\napp = web.application(urls, globals())\n\nclass index:\n    def GET(self):\n        return "Hello, world!"\n\nif __name__ == "__main__":\n    app.run()

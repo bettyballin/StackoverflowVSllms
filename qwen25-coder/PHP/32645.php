@@ -1,1 +1,0 @@
-$indices = [1, 2, 3]; // Example indices\n\nforeach ($indices as $index) {\n    if (!isset($x[$index]) || !is_array($x[$index])) {\n        $x[$index] = []; // Initialize as an array if not already set\n    }\n    $x[$index][] = 'child_' . $index; // Append element to the array at this index\n}\n\nprint_r($x);

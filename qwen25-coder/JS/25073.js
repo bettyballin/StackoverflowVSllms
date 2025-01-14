@@ -1,1 +1,0 @@
-const express = require('express');\nconst request = require('request');\n\nconst app = express();\n\napp.get('/proxy', function(req, res) {\n    const url = req.query.url;\n    if (!url) return res.status(400).send('URL parameter is missing');\n    \n    req.pipe(request(url)).pipe(res);\n});\n\napp.listen(3000, () => console.log('Proxy server running on port 3000'));

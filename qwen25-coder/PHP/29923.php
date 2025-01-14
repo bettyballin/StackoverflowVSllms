@@ -1,1 +1,0 @@
-$content = file_get_contents("http://domain.com/folder/file.php");\n   // Process the fetched content securely

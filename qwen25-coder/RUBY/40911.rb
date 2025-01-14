@@ -1,1 +1,0 @@
-<p>This template was rendered from the <%= rendering_action %> action.</p>

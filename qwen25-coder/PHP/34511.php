@@ -1,1 +1,0 @@
-<?php\n$sessionPath = '/path/to/your/session/directory';\n$maxLifetime = 86400; // 1 day in seconds\n\nif (!is_dir($sessionPath)) {\n    die("The session path does not exist.");\n}\n\n$files = glob("$sessionPath/sess_*");\n\nforeach ($files as $file) {\n    if (filemtime($file) + $maxLifetime < time()) {\n        unlink($file);\n    }\n}\n?>

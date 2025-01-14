@@ -1,1 +1,0 @@
-SELECT /*+ INDEX(employees idx_employee_id) */ * FROM employees WHERE department_id = 10;

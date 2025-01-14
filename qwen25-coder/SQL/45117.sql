@@ -1,1 +1,0 @@
-SELECT observation_id, element_id, COUNT(*) as count\nFROM Data\nGROUP BY observation_id, element_id\nHAVING COUNT(element_id) > 1;

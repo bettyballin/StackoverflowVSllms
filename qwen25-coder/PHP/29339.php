@@ -1,1 +1,0 @@
-$arr = array(1 => 'Foo', 5 => 'Bar', 6 => 'Foobar');\n$arr = array_values($arr);\n// Now $arr is: array(0 => 'Foo', 1 => 'Bar', 2 => 'Foobar')

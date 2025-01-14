@@ -1,1 +1,0 @@
-DECLARE @TestVal int\nSET @TestVal = 5\n\nSELECT\n    CASE\n        WHEN @TestVal <= 3 THEN 'Top 3'\n        WHEN (SELECT COUNT(*) FROM SomeTable WHERE SomeCondition) = 1 THEN 'Other Value'\n        WHEN (SELECT COUNT(*) FROM AnotherTable WHERE AnotherCondition) = 2 THEN 'Other Value 2'\n        ELSE 'Other'\n    END

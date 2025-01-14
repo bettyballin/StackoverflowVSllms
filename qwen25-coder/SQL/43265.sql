@@ -1,1 +1,0 @@
--- Example query without ORDER BY\nSELECT * FROM employees;

@@ -1,1 +1,0 @@
-SELECT * FROM all_tab_privs WHERE table_name LIKE 'MYTABLE%';

@@ -1,1 +1,0 @@
-const cleanedString = numbersString.replace(/[\n\r]+/g, '').replace(/"/g, '');\nconst numbersArray = cleanedString.split(',');\n\nconsole.log(numbersArray);

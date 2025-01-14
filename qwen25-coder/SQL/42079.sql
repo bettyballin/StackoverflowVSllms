@@ -1,1 +1,0 @@
--- Add the new column 'degree' to the SerialNo2 table\nALTER TABLE SerialNo2 ADD COLUMN degree CHAR(1);\n\n-- Update the 'degree' column based on the 'Mark' value\nUPDATE SerialNo2\nSET degree = CASE \n               WHEN Mark > 90 THEN 'A'\n               ELSE 'B'\n             END;

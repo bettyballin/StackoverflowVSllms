@@ -1,1 +1,0 @@
-SELECT \n    column_name,\n    utl_raw.cast_to_number(utl_raw.substr(low_value, 1, utl_raw.length(low_value))) AS min_estimate,\n    utl_raw.cast_to_number(utl_raw.substr(high_value, 1, utl_raw.length(high_value))) AS max_estimate\nFROM \n    user_tab_col_statistics\nWHERE \n    table_name = 'YOUR_TABLE_NAME'\n    AND data_type LIKE '%NUMBER%';

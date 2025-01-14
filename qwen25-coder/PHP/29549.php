@@ -1,1 +1,0 @@
-function myadmintheme_theme(&$existing, $type, $theme, $path) {\n     watchdog('myadmintheme', 'Hook implementation called');\n     return array(\n       'node_form__ccktype' => array( // Note the double underscore\n         'arguments' => array('form' => NULL),\n         'template' => 'ccktype',\n       ),\n     );\n   }

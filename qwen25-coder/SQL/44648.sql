@@ -1,1 +1,0 @@
-CREATE TABLE table_update_log (\n       schema_name text,\n       table_name text,\n       last_updated timestamp DEFAULT CURRENT_TIMESTAMP\n   );

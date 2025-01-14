@@ -1,1 +1,0 @@
--- Example of logging executed command in a stored procedure on Server A\n   DECLARE @command NVARCHAR(MAX);\n   SET @command = 'DELETE FROM B WHERE x IN (' + @ID1 + ', ' + @ID2 + ', ' + @ID3 + ', ' + @ID4 + ')';\n   INSERT INTO [SomeLoggingTable] (SqlCommand) VALUES (@command); -- Log the command\n   EXEC ServerB.DatabaseName.SchemaName.USP_Proc_Example @ID1, @ID2, @ID3, @ID4;

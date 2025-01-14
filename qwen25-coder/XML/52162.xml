@@ -1,1 +1,0 @@
-<!-- Add to pom.xml in your web services and application -->\n<dependency>\n    <groupId>com.yourcompany</groupId>\n    <artifactId>shared-library</artifactId>\n    <version>1.0.0</version>\n</dependency>

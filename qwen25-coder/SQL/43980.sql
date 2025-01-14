@@ -1,1 +1,0 @@
-DENY CONNECT TO exampleuser;

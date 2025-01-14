@@ -1,1 +1,0 @@
-# For PostgreSQL\n   t.binary :data\n\n   # For MySQL\n   t.blob :data, limit: 16.megabyte

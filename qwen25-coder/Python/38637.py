@@ -1,1 +1,0 @@
-imageio.mimsave('knights_tour.gif', frames, duration=0.05)

@@ -1,1 +1,0 @@
-INSERT INTO dbo.Documents (Doc_Id, Doc_Value)\nVALUES (4, 'ddd');\n\nINSERT INTO dbo.SecondTable (Col_Id, Col_Value)\nVALUES (5, 'eee');

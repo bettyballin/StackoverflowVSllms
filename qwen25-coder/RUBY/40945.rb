@@ -1,1 +1,0 @@
-{% for i in 99..0 %}\n    <b>Fatty has </b>{{ i }} <b>cookies left.</b><br>\n{% endfor %}

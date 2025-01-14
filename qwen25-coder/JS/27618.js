@@ -1,1 +1,0 @@
-// Example of Knockout.js data binding\n   var ViewModel = function() {\n       this.user = ko.observable({ name: "John", age: 25 });\n   };\n   ko.applyBindings(new ViewModel());

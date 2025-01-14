@@ -1,1 +1,0 @@
-WITH IDCounts AS (\n    SELECT \n        ID,\n        COUNT(*) AS CountBy_ID\n    FROM \n        YourTableName\n    GROUP BY \n        ID\n)\nSELECT \n    t.ID,\n    t.Color,\n    t.Name,\n    c.CountBy_ID\nFROM \n    YourTableName t\nJOIN \n    IDCounts c ON t.ID = c.ID\nORDER BY \n    c.CountBy_ID DESC;

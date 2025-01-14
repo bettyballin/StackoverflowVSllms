@@ -1,1 +1,0 @@
--- Step 2: User selects tag 'sport' and 'ball'\nSELECT t.topic_name, GROUP_CONCAT(tag.tag_name SEPARATOR ', ') AS associated_tags\nFROM topics t\nJOIN tags_topics tt ON t.id = tt.topic_id\nJOIN tags tag ON tt.tag_id = tag.id\nWHERE tt.tag_id IN (\n    SELECT id FROM tags WHERE tag_name IN ('sport', 'ball')\n)\nGROUP BY t.id, t.topic_name\nHAVING COUNT(DISTINCT tt.tag_id) >= 2;

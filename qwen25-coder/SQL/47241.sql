@@ -1,1 +1,0 @@
--- Create a temporary table\nCREATE TEMPORARY TABLE temp_table AS\nSELECT DISTINCT Code\nFROM your_table_name yt1\nWHERE NOT EXISTS (\n    SELECT 1 \n    FROM your_table_name yt2 \n    WHERE yt1.Code = yt2.Code AND yt2.Status <> 'A'\n);

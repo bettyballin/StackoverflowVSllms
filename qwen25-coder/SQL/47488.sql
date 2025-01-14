@@ -1,1 +1,0 @@
-CREATE TABLE employees_audit (\n    id serial PRIMARY KEY,\n    employee_id INTEGER NOT NULL,\n    first_name VARCHAR(50),\n    last_name VARCHAR(50),\n    department VARCHAR(50),\n    salary NUMERIC,\n    changed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    changed_by TEXT DEFAULT session_user,\n    operation CHAR(1)\n);

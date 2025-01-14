@@ -1,1 +1,0 @@
-ALTER TABLE my_table ADD new_column NUMBER DEFAULT 0;

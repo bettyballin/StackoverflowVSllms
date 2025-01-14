@@ -1,1 +1,0 @@
-import React from 'react';\n\n   class Button extends React.Component {\n     handleClick = () => {\n       alert('Button clicked!');\n     };\n\n     render() {\n       return <button onClick={this.handleClick}>Click Me</button>;\n     }\n   }\n\n   export default Button;

@@ -1,1 +1,0 @@
-CREATE VIEW CombinedView AS \nSELECT 'Table1' as SourceTable, * FROM MappingQuery1 \nUNION ALL \nSELECT 'Table2' as SourceTable, * FROM MappingQuery2;

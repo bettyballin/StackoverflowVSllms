@@ -1,1 +1,0 @@
-$questions = $this->Question->find('all', array(\n    'recursive' => -1\n));

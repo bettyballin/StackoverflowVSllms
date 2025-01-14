@@ -1,1 +1,0 @@
-test "should get index" do\n  get :index\n  puts response.body\n  puts response.status\n  puts flash[:notice]\n  assert_response :success\nend

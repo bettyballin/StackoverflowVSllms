@@ -1,1 +1,0 @@
-var format = "^(?=.*\\d{" + minNum + ",})(?=.*[A-Za-z]{" + minAlpha + ",})"\n             + "(?=.*[\\W_]{" + minNonAlpha + ",}).{" + minLength + ",}$";

@@ -1,1 +1,0 @@
-print(f"{i:2d}. {payment:8.2f} {interest:8.2f} {monthPayment:8.2f}")

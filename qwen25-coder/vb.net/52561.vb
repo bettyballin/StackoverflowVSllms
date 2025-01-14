@@ -1,1 +1,0 @@
-Imports System\n\n' Assuming TestMethod is defined somewhere as a subroutine that takes a SubSonic.Part\nSub TestMethod(part As SubSonic.Part)\n    ' Method implementation here\nEnd Sub\n\nDim Parts As SubSonic.PartCollection\n' Assume Parts is populated...\nParts.ForEach(AddressOf TestMethod)

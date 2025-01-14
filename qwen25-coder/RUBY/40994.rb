@@ -1,1 +1,0 @@
-<%= form_remote_tag(url: { action: 'create_user' }, html: { id: 'your_form_id' }) do %>\n  <%= label_tag :email, "Email" %>\n  <%= text_field_tag :email, '', id: 'email_field_id' %>\n  <%= submit_tag "Submit", data: { disable_with: "Submitting..." } %>\n<% end %>

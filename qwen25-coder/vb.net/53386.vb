@@ -1,1 +1,0 @@
-Dim strings() As String = {"abc", "def", "ghi"}

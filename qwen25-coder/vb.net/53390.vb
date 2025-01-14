@@ -1,1 +1,0 @@
-Partial Public Class YourEntityName\n    Implements Interfaces.IAsset\n\n    ' No need to redefine ID here; just ensure it implements the interface property.\nEnd Class

@@ -1,1 +1,0 @@
-$pop3 = new POP3_Client();\n   $pop3->server = 'localhost'; // or '127.0.0.1'\n   $pop3->port = 110; // use 995 if SSL required\n   $pop3->user = 'yourusername';\n   $pop3->pass = 'yourpassword';\n   $pop3->connect();

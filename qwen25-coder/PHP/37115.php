@@ -1,1 +1,0 @@
-$dom = new DOMDocument();\n$dom->loadXML('<root/>');\n\n// Create a new element\n$element = $dom->createElement('element', 'Value');\n\n$dom->documentElement->appendChild($element);\n\necho $dom->saveXML();

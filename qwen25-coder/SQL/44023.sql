@@ -1,1 +1,0 @@
-SELECT COUNT(id)\nFROM messages\nWHERE favs LIKE '%,userid,%'\n   OR favs LIKE 'userid,%'\n   OR favs LIKE '%,userid'\n   OR favs = 'userid';

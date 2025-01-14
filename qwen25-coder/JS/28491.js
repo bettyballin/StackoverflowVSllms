@@ -1,1 +1,0 @@
-const str = '<div id="test1" /><div id=test2 />';\nlet match;\n\nwhile (match = regex.exec(str)) {\n  console.log(match[1]); // This will log "test1" and then "test2"\n}

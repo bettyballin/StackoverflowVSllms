@@ -1,1 +1,0 @@
-WITH RankedLives AS (\n    SELECT \n        time_stamp,\n        lives_remaining,\n        usr_id,\n        trans_id,\n        ROW_NUMBER() OVER (PARTITION BY usr_id ORDER BY time_stamp DESC, trans_id DESC) as rn\n    FROM \n        lives\n)\nSELECT \n    time_stamp,\n    lives_remaining,\n    usr_id,\n    trans_id\nFROM \n    RankedLives\nWHERE \n    rn = 1;

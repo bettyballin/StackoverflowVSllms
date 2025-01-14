@@ -1,1 +1,0 @@
--- Calculate MD5 checksum of live table data\nSELECT MD5(GROUP_CONCAT(\n  CAST(id AS CHAR) ORDER BY id SEPARATOR ','\n)) AS checksum\nFROM livedb.your_table;\n\n-- Calculate MD5 checksum of test table data\nSELECT MD5(GROUP_CONCAT(\n  CAST(id AS CHAR) ORDER BY id SEPARATOR ','\n)) AS checksum\nFROM testdb.your_table;

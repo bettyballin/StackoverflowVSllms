@@ -1,1 +1,0 @@
-if (isset($_SESSION['logged_in']) && ($_SESSION['user_agent'] === $_SERVER['HTTP_USER_AGENT']) && ($_SESSION['ip_address'] === $_SERVER['REMOTE_ADDR'])) {\n       // Do whatever you need to do\n   } else {\n       session_destroy();\n       header("Location: login.php");\n       exit;\n   }

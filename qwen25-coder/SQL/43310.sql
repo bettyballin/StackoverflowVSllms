@@ -1,1 +1,0 @@
-DBCC CHECKTABLE ('YourTableName');\n   DBCC CHECKDB;

@@ -1,1 +1,0 @@
-SET @EmpName = (SELECT EmpName FROM dbo.Emp WHERE EmpID = @Root)

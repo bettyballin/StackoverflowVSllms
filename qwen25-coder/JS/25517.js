@@ -1,1 +1,0 @@
-function decodeHTMLEntities(str) {\n    var map = {\n        '&lt;': '<',\n        '&gt;': '>',\n        '&amp;': '&',\n        '&quot;': '"'\n    };\n    return str.replace(/&[^;]+;/g, function (entity) { return map[entity] || entity; });\n}\n\nvar text = "&lt;&lt;&lt;&amp;&amp;&amp;";\nconsole.log(decodeHTMLEntities(text)); // Outputs: <<<&&&

@@ -1,1 +1,0 @@
-CREATE TABLE UserTable (\n       Key1 BIGINT,\n       Key2 BIGINT,\n       Key3 BIGINT,\n       Key4 BIGINT,\n       UserID BIGINT NOT NULL,\n       PRIMARY KEY CLUSTERED (UserID, Key1)\n   ) ON psUserRange(UserID);

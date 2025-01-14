@@ -1,1 +1,0 @@
-CREATE CLUSTERED INDEX IX_BadDates_StartDate ON BadDates (StartDate);

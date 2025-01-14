@@ -1,1 +1,0 @@
-# Rakefile\nrequire 'bundler/gem_tasks'\nrequire 'rake/testtask'\n\nBundler.setup(:default, :test)\n\nRake::TestTask.new do |t|\n  t.libs << "lib"\n  t.test_files = FileList['test/**/*_test.rb']\nend\n\ndesc "Default: run tests."\ntask default: [:test]

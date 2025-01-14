@@ -1,1 +1,0 @@
-<!-- Apache PDFBox -->\n<dependency>\n    <groupId>org.apache.pdfbox</groupId>\n    <artifactId>pdfbox</artifactId>\n    <version>2.0.27</version>\n</dependency>\n\n<!-- Google DiffMatchPatch -->\n<dependency>\n    <groupId>com.googlecode.java-diff-utils</groupId>\n    <artifactId>diffutils</artifactId>\n    <version>1.3.0</version>\n</dependency>

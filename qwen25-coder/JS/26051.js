@@ -1,1 +1,0 @@
-// Store suggestions\n    localStorage.setItem(`userSuggestions-${userId}`, JSON.stringify(suggestions));\n\n    // Retrieve suggestions\n    const storedSuggestions = JSON.parse(localStorage.getItem(`userSuggestions-${userId}`));

@@ -1,1 +1,0 @@
-1 TEXTFILE "path_to_your_sql_script.sql"

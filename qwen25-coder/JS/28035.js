@@ -1,1 +1,0 @@
-// Example of jQuery.load()\n$('#result').load('ajax/test.html');\n\n// Example of jQuery.get()\n$.get('ajax/getdata.php', { name: 'John' }, function(data) {\n    console.log('Data received:', data);\n});

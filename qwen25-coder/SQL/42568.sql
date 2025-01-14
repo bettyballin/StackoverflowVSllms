@@ -1,1 +1,0 @@
-SELECT DISTINCT s.id, s.title\nFROM Section AS s\nWHERE EXISTS (\n    SELECT 1\n    FROM [Quest-Ans] AS q\n    WHERE s.id = q.Sec_id\n)

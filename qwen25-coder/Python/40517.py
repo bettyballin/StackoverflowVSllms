@@ -1,1 +1,0 @@
-from django.db.models import F, Sum, Value, Coalesce\n\npictures = gallery.picture_set.annotate(\n    score=Coalesce(Sum('picturevote__value'), Value(0))\n).order_by('-score')

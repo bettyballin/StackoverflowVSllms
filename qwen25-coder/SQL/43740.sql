@@ -1,1 +1,0 @@
-SELECT * FROM your_table \nWHERE your_date_column = TO_DATE('2023-10-05', 'YYYY-MM-DD');

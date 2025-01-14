@@ -1,1 +1,0 @@
-if (isset($_REQUEST["input_name"])) {\n    $inputValue = $_REQUEST["input_name"];\n    \n    if (!empty($inputValue)) {\n        // Non-empty, process the input\n    } else {\n        // Handle empty value case\n    }\n} else {\n    // Handle not set case\n}

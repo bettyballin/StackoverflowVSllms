@@ -1,1 +1,0 @@
-$delete = array();\nforeach ($testarray as $v) {\n    for ($b = 2; $b < $v; $b++) {\n        if ($v % $b == 0) {\n            $delete[] = $v;\n            break; // Exit the loop once a divisor is found\n        }\n    }\n}

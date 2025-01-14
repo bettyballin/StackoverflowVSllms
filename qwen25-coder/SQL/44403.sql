@@ -1,1 +1,0 @@
-EXEC xp_instance_regread \n    N'HKEY_LOCAL_MACHINE', \n    N'Software\Microsoft\MSSQLServer\MSSQLServer', \n    N'DefaultData'

@@ -1,1 +1,0 @@
-Imports System.Reflection\n\nPublic Function GetDefault(Of T)() As T\n    Dim defaultValue = GetType(T).GetTypeInfo().IsValueType\n    Return If(defaultValue, CType(Activator.CreateInstance(GetType(T)), T), Nothing)\nEnd Functio

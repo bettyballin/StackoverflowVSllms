@@ -1,1 +1,0 @@
-console.log(Array.isArray(retVal.split(','))); // true if it's an array\nconsole.log(Array.isArray(retValArr));          // also true if it's an array

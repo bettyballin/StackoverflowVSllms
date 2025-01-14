@@ -1,1 +1,0 @@
-document.getElementById('navSelect').addEventListener('change', function() {\n    var url = this.value;\n    if (url) { // Ensure the URL is not empty\n        window.location.href = url;\n    }\n});

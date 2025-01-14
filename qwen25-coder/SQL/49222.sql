@@ -1,1 +1,0 @@
-WHERE `myField` IN ('xpoints', 'ypoints')

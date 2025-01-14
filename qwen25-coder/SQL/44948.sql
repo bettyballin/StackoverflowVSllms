@@ -1,1 +1,0 @@
-SELECT * FROM item WHERE MATCH(title, description) AGAINST('this key');

@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER["REQUEST_METHOD"] == "POST") {\n    // Print all POST data\n    print_r($_POST);\n}\n?>

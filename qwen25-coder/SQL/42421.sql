@@ -1,1 +1,0 @@
--- Create a snapshot\n    CREATE DATABASE AdventureWorks2019_SS AS SNAPSHOT OF AdventureWorks2019;\n\n    -- Revert an existing database to its snapshot\n    RESTORE DATABASE AdventureWorks2019 FROM DATABASE_SNAPSHOT = 'AdventureWorks2019_SS';

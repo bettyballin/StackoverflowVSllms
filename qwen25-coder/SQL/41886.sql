@@ -1,1 +1,0 @@
--- Condition in WHERE (Best Practice)\nSELECT *\nFROM dbo.Customers AS CUS\nINNER JOIN dbo.Orders AS ORD \nON CUS.CustomerID = ORD.CustomerID\nWHERE CUS.FirstName = 'John'

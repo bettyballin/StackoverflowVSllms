@@ -1,1 +1,0 @@
-<?php\n// Convert a string representation of a number to hexadecimal using GMP\n$largeNumber = "167119535743000000000000000000000000";\n$hexadecimal = gmp_strval(gmp_init($largeNumber), 16);\n\necho $hexadecimal;\n?>

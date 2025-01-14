@@ -1,1 +1,0 @@
-import pkg_resources\n\n   resource_path = pkg_resources.resource_filename('foo', 'resources/image.png')

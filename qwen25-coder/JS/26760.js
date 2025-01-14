@@ -1,1 +1,0 @@
-document.getElementById('myElement').classList.toggle('hidden');

@@ -1,1 +1,0 @@
-import spacy\n\n# Load English tokenizer, tagger, parser, NER, and word vectors\nnlp = spacy.load("en_core_web_sm")\n\ntext = "Find all customers from the United States."\n\n# Process whole documents\ndoc = nlp(text)\n\nfor ent in doc.ents:\n    print(ent.text, ent.start_char, ent.end_char, ent.label_)

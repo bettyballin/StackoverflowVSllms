@@ -1,1 +1,0 @@
-// Example usage of inclued if compiled and enabled in PHP\nini_set('inclued.record', '1');\ninclude 'somefile.php';\n$dat = inclued_get_data();\nforeach ($dat as $arr) {\n    var_dump($arr);\n}

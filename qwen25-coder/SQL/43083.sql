@@ -1,1 +1,0 @@
-SELECT id, poly\nFROM tbl_test\nWHERE ST_Contains(poly, ST_SetSRID(ST_GeomFromText('POINT(9 2)'), 4326));

@@ -1,1 +1,0 @@
-Public Shared Function NewDate(myDate As Object, days As Integer) As String\n    If IsNothing(myDate) OrElse myDate Is DBNull.Value Then\n        Return ""\n    Else\n        Dim convertedDate As DateTime = Convert.ToDateTime(myDate)\n        Return Format(convertedDate.AddDays(days), "MMMM dd, yyyy")\n    End If\nEnd Functio

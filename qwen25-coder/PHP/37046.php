@@ -1,1 +1,0 @@
-function handleConnectionFailure() {\n    error_log("Database connection failed!");\n    // You can also perform other cleanup tasks here\n    exit();  // Ensure script execution is stopped after handling failure\n}\n\nmysql_pconnect("server", "tator_w", "password") or handleConnectionFailure();

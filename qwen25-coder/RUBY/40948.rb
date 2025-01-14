@@ -1,1 +1,0 @@
-script/generate migration CreateSessions data:text

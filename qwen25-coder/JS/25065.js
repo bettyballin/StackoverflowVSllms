@@ -1,1 +1,0 @@
-// Overwrite the Array constructor\nArray = function(){ \n  alert('Hi'); \n};\n\n// Creating arrays using array literals\nvar arr1 = [1,2,3,4,5];\nvar arr2 = new Array(1,2,3,4,5);\n\nconsole.log(arr1); // Outputs: [1, 2, 3, 4, 5]\nconsole.log(arr2); // No alert, but outputs: []

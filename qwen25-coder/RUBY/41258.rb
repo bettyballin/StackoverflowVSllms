@@ -1,1 +1,0 @@
-# For building forms with nested attributes\ngem 'cocoon'

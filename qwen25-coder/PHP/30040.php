@@ -1,1 +1,0 @@
-// Store a session variable\n   $_SESSION['foo'] = 'bar';

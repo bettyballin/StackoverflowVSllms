@@ -1,1 +1,0 @@
-// app/Controller/Component/NewsPostComponent.php\nApp::uses('Component', 'Controller');\n\nclass NewsPostComponent extends Component {\n    public function getLatest() {\n        // Fetch the latest news post from the database\n    }\n}

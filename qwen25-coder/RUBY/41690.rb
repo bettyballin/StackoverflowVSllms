@@ -1,1 +1,0 @@
-begin\n  gem 'some_gem'\nrescue LoadFailedError\n  puts "Gem not found. Consider checking it before installing."\nend

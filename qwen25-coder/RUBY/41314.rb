@@ -1,1 +1,0 @@
-# Ruby on Rails Migration Example\n   class CreateUsers < ActiveRecord::Migration[6.0]\n     def change\n       create_table :users do |t|\n         t.string :name\n         t.timestamps\n       end\n     end\n   end

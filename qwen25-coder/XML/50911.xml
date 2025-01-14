@@ -1,1 +1,0 @@
-<configuration>\n  <appSettings>\n    <add key="FilePath" value="C:\path\to\your\filefolder\"/>\n  </appSettings>\n</configuration>

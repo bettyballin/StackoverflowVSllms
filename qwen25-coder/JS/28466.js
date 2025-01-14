@@ -1,1 +1,0 @@
-function openModalDialog() {\n    var uniqueValue = new Date().getTime(); // Use current time as unique value\n    var url = 'yourpage.aspx?uid=' + uniqueValue;\n    window.showModalDialog(url, null, "dialogWidth:600px; dialogHeight:400px;");\n}

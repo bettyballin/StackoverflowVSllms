@@ -1,1 +1,0 @@
-CREATE INDEX idx_content_prefix ON articles (content(255));

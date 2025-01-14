@@ -1,1 +1,0 @@
-SELECT person_id, company_id, financial_year, COUNT(*)\nFROM Role\nGROUP BY person_id, company_id, financial_year\nHAVING COUNT(*) > 1;

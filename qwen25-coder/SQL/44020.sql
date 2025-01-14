@@ -1,1 +1,0 @@
-WITH RECURSIVE cte_categories AS (\n    SELECT id \n    FROM categories \n    WHERE name = 'Toys'\n    UNION ALL\n    SELECT c.id \n    FROM categories c\n    JOIN cte_categories cc ON c.parent_id = cc.id\n)\nSELECT p.*\nFROM products p\nJOIN cte_categories c ON p.category_id = c.id;

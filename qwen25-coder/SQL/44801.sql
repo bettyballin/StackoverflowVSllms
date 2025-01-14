@@ -1,1 +1,0 @@
-SELECT * \nFROM pmessages \nWHERE status = 'unread' \n  AND (sentto = '$username' OR sentto = 'everyone');

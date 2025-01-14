@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- Delete from the relationship table where quizId matches\nDELETE FROM tGeoQuizToQuestion\nWHERE quizId = @quizId;\n\n-- Delete from the question table where id exists in the relationship table\nDELETE FROM tGeoQuestions\nWHERE id IN (SELECT questionid FROM tGeoQuizToQuestion WHERE quizId = @quizId);\n\nCOMMIT;

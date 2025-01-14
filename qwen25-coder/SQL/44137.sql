@@ -1,1 +1,0 @@
-CREATE TABLE LargeDataTable (\n    ID INT PRIMARY KEY,\n    Status BIT INDEX IX_StatusCLUSTERED CLUSTERED -- Example of indexing\n);

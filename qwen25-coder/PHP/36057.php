@@ -1,1 +1,0 @@
-<?php\n$array = ['item1', 'item2', 'item3'];\n$jsonArray = json_encode($array);\n?>\n<script type="text/javascript">\n    var jsArray = <?php echo $jsonArray; ?>;\n    console.log(jsArray); // This will output the array in JavaScript console\n</script>

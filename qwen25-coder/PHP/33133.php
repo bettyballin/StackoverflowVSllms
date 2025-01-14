@@ -1,1 +1,0 @@
-<?php\n\n$I = new AcceptanceTester($scenario);\n$I->wantTo('make sure the homepage loads properly');\n$I->amOnPage('/');\n$I->see('Welcome');

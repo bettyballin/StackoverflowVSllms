@@ -1,1 +1,0 @@
-gem 'wicked_pdf'\ngem 'wkhtmltopdf-binary' # This is a binary version of wkhtmltopdf

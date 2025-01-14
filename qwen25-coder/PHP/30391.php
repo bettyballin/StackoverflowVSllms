@@ -1,1 +1,0 @@
-function usethisfunction(&$thisvariable) {\n       $thisvariable++;\n   }

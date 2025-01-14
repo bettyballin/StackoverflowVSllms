@@ -1,1 +1,0 @@
-SELECT CityName\nFROM Cities\nORDER BY \n    CASE \n        WHEN CityName = 'Montreal' THEN 0 \n        ELSE 1 \n    END,\n    CityName ASC;

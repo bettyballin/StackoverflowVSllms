@@ -1,1 +1,0 @@
-# Example plot with adjusted y-label position\ndata <- rnorm(10)\nplot(data, ylab="This is\na two-line\nlabel", mgp=c(3, 1, 0))

@@ -1,1 +1,0 @@
-SELECT (SELECT COUNT(*) FROM t) AS row_count, table_name\nFROM user_tables t\nORDER BY row_count DESC\nFETCH FIRST 1 ROW ONLY;

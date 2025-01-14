@@ -1,1 +1,0 @@
-// Ensure images have alt text\ndocument.querySelectorAll('img').forEach(img => {\n    if (!img.alt) {\n        img.alt = 'Descriptive alternative text'; // This should be set appropriately based on context\n        console.log('Added alt text to image:', img);\n    }\n});

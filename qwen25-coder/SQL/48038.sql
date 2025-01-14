@@ -1,1 +1,0 @@
-SELECT 'FieldA' AS Header, FieldA AS Value\nFROM YourTableName\nWHERE SomeCondition  -- Add your condition here if needed\nUNION ALL\nSELECT 'FieldB' AS Header, FieldB AS Value\nFROM YourTableName\nWHERE SomeCondition;  -- Ensure the same condition if necessary

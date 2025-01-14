@@ -1,1 +1,0 @@
-ALTER TABLE YourTableName\nADD GuidColumn AS CONVERT(uniqueidentifier, VarcharGuidColumn)\nPERSISTED;

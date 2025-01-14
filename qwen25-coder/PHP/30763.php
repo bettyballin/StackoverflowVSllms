@@ -1,1 +1,0 @@
-curl_setopt($ch, CURLOPT_TIMEOUT, 30);\n    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);

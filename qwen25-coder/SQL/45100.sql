@@ -1,1 +1,0 @@
--- Example script to generate data extraction (use SSMS for full object scripting):\nSELECT *\nINTO YourNewTable_2005\nFROM [YourDatabase].[dbo].[YourOriginalTable];

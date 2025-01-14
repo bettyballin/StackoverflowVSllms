@@ -1,1 +1,0 @@
--- Query 1: Potentially less efficient\nSELECT * FROM table WHERE a = b AND b = c;\n\n-- Query 2: Potentially more efficient\nSELECT * FROM table WHERE a = b AND b = c AND a = c;

@@ -1,1 +1,0 @@
-Dim i As Integer = dtResult.Rows.Count - 1 ' Adjusted to avoid out-of-range error\nFor i = 0 To i Step 1 ' Changed to use a variable for clarity\n    strVerse = blHelper.Highlight(dtResult.Rows(i)("YourColumnName").ToString, s) ' Ensure "YourColumnName" is the correct column name\n    dtResult.Rows(i)("YourColumnName") = strVerse ' Update the specific column\nNext

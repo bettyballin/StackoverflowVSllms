@@ -1,1 +1,0 @@
-WITH ordered_ids AS (\n    SELECT 1 AS id, 1 AS ord UNION ALL\n    SELECT 3 AS id, 2 AS ord UNION ALL\n    SELECT 2 AS id, 3 AS ord UNION ALL\n    SELECT 4 AS id, 4 AS ord\n)\nSELECT c.*\nFROM comments c\nJOIN ordered_ids o ON c.id = o.id\nORDER BY o.ord;

@@ -1,1 +1,0 @@
--- Example SQL entry storing path to image instead of binary data\nINSERT INTO images_table (id, name, img_path)\nVALUES (1, 'example.jpg', '/path/to/image/example.jpg');

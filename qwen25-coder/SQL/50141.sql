@@ -1,1 +1,0 @@
--- Step 1: Create Object Type\nCREATE OR REPLACE TYPE number_obj AS OBJECT (\n    num NUMBER\n);\n/\n\n-- Step 2: Create Table Type (Collection)\nCREATE OR REPLACE TYPE number_tab IS TABLE OF number_obj;\n/

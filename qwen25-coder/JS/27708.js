@@ -1,1 +1,0 @@
-$.ajax({\n    url: "http://localhost:17245/Service.svc/?format=json",\n    dataType: 'jsonp',\n    jsonp : 'jsoncallback', // Parameter name for the callback function. Server should wrap its response in this method.\n    success: function(data) {\n        alert(data.id);\n    },\n    error: function(error){\n        console.log("Error", error);\n    }\n});

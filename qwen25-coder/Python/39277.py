@@ -1,1 +1,0 @@
-def safe_escape_string(s):\n    # Double the single quotes and backslashes\n    return s.replace('\\', '\\\\').replace('\'', '\\\'')

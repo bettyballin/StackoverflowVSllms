@@ -1,1 +1,0 @@
--- Disable foreign key constraints before mass operations\nALTER TABLE dbo.ChildTable NOCHECK CONSTRAINT FK_Child_Parent;\n-- Perform your operations here\n\n-- Re-enable the constraint after operations\nALTER TABLE dbo.ChildTable CHECK CONSTRAINT FK_Child_Parent;

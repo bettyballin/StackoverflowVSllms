@@ -1,1 +1,0 @@
-SELECT COUNT(*) AS c \nFROM BANS \nWHERE typeid=6 AND \n  (INET6_ATON(ipaddr) & ((1 << (128 - cidr)) - 1)) = (INET6_ATON('::1') & ((1 << (128 - cidr)) - 1));

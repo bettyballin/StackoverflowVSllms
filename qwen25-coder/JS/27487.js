@@ -1,1 +1,0 @@
-// Example of using Siebel eScript for automation within Siebel\n   function TestAutomation() {\n       var bc = TheApplication().GetBusComp("Account");\n       bc.ClearToQuery();\n       bc.ActivateField("Name");\n       bc.SetSearchExpr("[Name] = 'Test Account'");\n       bc.Query(true);\n       if (bc.FirstRecord()) {\n           // Automation steps here\n       }\n   }

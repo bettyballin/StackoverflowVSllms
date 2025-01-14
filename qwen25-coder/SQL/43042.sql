@@ -1,1 +1,0 @@
-UPDATE T_ELEMENT elt\nSET INSURER = (\n    SELECT HEADER\n    FROM T_DEBTOR debtor\n    WHERE debtor.ID_DEBTOR = elt.ID_DEBTOR\n      AND debtor.HEADER IS NOT NULL\n)\nWHERE EXISTS (\n    SELECT 1\n    FROM T_DEBTOR debtor\n    WHERE debtor.ID_DEBTOR = elt.ID_DEBTOR\n      AND debtor.HEADER IS NOT NULL\n);

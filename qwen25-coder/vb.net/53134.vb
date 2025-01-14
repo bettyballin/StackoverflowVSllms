@@ -1,1 +1,0 @@
-_instance = New PollsProvider

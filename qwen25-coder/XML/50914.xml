@@ -1,1 +1,0 @@
-<class-cache usage="nonstrict-read-write"/>\n<property name="eclipselink.session.customizer" value="com.example.CustomSessionCustomizer"/>

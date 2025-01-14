@@ -1,1 +1,0 @@
-Command: executeScript\nTarget: return window.name.space.function();\nValue:

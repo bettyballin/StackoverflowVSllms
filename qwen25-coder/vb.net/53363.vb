@@ -1,1 +1,0 @@
-Me.DoubleBuffered = True

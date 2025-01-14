@@ -1,1 +1,0 @@
-<?php\n// Manually setting a cookie by sending the appropriate HTTP header\n$cookieName = "user";\n$cookieValue = "John Doe";\n$expirationTime = time() + 3600; // Cookie expires after one hour\n\nheader("Set-Cookie: $cookieName=$cookieValue; expires=" . gmdate("D, d-M-Y H:i:s", $expirationTime) . " GMT; Path=/");\n?>

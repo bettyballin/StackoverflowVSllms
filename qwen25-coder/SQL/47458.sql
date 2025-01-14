@@ -1,1 +1,0 @@
-CREATE TABLE FileValues (\n      RevisionID INT,\n      FileID INT,\n      Value INT,\n      PRIMARY KEY (RevisionID, FileID),\n      FOREIGN KEY (RevisionID) REFERENCES Revisions(RevisionID),\n      FOREIGN KEY (FileID) REFERENCES Files(FileID)\n  );

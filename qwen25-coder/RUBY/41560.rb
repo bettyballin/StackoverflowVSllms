@@ -1,1 +1,0 @@
-# Using FactoryBot with Faker to generate 10,000 email addresses\nrequire 'factory_bot_rails'\nFactoryBot.define do\n  factory :subscriber do\n    email { Faker::Internet.unique.email }\n  end\nend\n\n# Seed your database with subscribers\n(1..10_000).each do |n|\n  FactoryBot.create(:subscriber)\nend

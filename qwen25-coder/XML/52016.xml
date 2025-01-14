@@ -1,1 +1,0 @@
-<!-- In your .csproj file for the second solution add a reference -->\n<ItemGroup>\n  <Reference Include="YourSharedDll">\n    <HintPath>..\Lib\YourSharedDll.dll</HintPath>\n  </Reference>\n</ItemGroup>\n\n<!-- And if you have symbols to allow stepping into code -->\n<ItemGroup>\n  <None Include="..\Symbols\YourSharedDll.pdb" />\n</ItemGroup>

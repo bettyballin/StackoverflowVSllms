@@ -1,1 +1,0 @@
-import dill\n\nwith open('data.dill', 'rb') as f:\n    d = dill.load(f)

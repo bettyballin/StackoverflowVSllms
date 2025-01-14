@@ -1,1 +1,0 @@
-WITH inserted_row AS (\n    INSERT INTO table_a (column1, column2) VALUES ('value1', 'value2') RETURNING id\n)\nINSERT INTO table_b (a_id, other_column)\nSELECT id, 'other_value'\nFROM inserted_row;

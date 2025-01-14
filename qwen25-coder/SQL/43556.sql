@@ -1,1 +1,0 @@
-CREATE INDEX idx_objects_userid ON Objects(UserID);\nCREATE INDEX idx_objects_categoryid ON Objects(CategoryID);

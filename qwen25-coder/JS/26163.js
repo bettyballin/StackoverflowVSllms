@@ -1,1 +1,0 @@
-function submitForm() {\n       document.getElementById("myForm").submit();\n   }

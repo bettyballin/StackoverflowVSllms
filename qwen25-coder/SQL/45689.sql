@@ -1,1 +1,0 @@
-SELECT \n    nq.newsletterid,\n    nl.subject,\n    nl.body,\n    nl.from,\n    GROUP_CONCAT(nq.email ORDER BY nq.date ASC SEPARATOR '|') AS emails\nFROM (\n    SELECT * FROM newsletter_queue WHERE status='0' LIMIT 125\n) AS nq\nJOIN newsletters nl ON nq.newsletterid = nl.id\nGROUP BY nq.newsletterid;

@@ -1,1 +1,0 @@
-var data = "<div id='myid'><div id='subid'>Text</div></div>";\nvar text = $(data).find("#subid").text();\nconsole.log(text); // Outputs: Text

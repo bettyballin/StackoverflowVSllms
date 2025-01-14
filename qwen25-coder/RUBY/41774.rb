@@ -1,1 +1,0 @@
-class BlahTest < ActiveSupport::TestCase\n     fixtures :blahs, :related_models\n\n     # Your tests here\n   end

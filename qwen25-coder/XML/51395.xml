@@ -1,1 +1,0 @@
-<persistence-unit name="yourPersistenceUnit">\n    <!-- Other configurations -->\n    <properties>\n        <property name="eclipselink.jdbc.batch-writing" value="JDBC"/>\n        <property name="eclipselink.jdbc.batch-size" value="100"/>\n    </properties>\n</persistence-unit>

@@ -1,1 +1,0 @@
-def function\n  basic_stuff\n  respond_to do |format|\n    format.js  # This will look for a file named function.js.erb or similar.\n    format.html { redirect_to some_path if user_redirect? } \n  end\nend

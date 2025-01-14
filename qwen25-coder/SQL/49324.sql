@@ -1,1 +1,0 @@
-BEGIN;\n\nDELETE FROM parent_table WHERE id = some_id;\n-- If the CASCADE DELETE is configured on foreign key constraints,\n-- related rows will also be deleted in child tables.\n\nCOMMIT;  -- or ROLLBACK; if something goes wrong before reaching this point

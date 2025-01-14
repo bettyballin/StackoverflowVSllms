@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    var langValue = $("html").attr("lang");\n    console.log("Language attribute value: " + langValue);\n});

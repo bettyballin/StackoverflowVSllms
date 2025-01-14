@@ -1,1 +1,0 @@
-function customErrorHandler($errno, $errstr, $errfile, $errline) {\n       error_log("[$errno] $errstr - $errfile:$errline");\n       return false; // Return false to allow PHP's default error handler to run\n   }\n\n   set_error_handler('customErrorHandler');

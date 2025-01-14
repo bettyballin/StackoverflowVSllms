@@ -1,1 +1,0 @@
-import gtk\nimport gtk.glade\n\ndef on_window_show(window):\n    # Explicitly give focus to a specific widget, for example, to the window itself\n    window.grab_focus()\n\nwindow_tree = gtk.glade.XML('testtoolbar.glade')\nwindow = window_tree.get_widget("window1")\nif window:\n    window.connect("show", on_window_show)\n\ngtk.main()

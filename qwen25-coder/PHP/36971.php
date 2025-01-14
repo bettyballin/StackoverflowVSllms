@@ -1,1 +1,0 @@
-$obj = new OBJ();\n\nfunction go($url, $object) {\n    $array = $object->grabArray($url);\n    echo $array['hits'];\n}\n\ngo('http://www.mysite.com/hello', $obj);

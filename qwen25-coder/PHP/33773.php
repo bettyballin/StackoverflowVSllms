@@ -1,1 +1,0 @@
-// Set cookie with user selected language\nsetcookie('language', $userSelectedLanguage, time() + (86400 * 30), "/"); // 86400 = 1 day\n\n// Retrieve the language preference from cookies\n$userPreferredLanguage = isset($_COOKIE['language']) ? $_COOKIE['language'] : 'default_language';

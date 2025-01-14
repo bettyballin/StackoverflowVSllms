@@ -1,1 +1,0 @@
-require 'active_support/all' # or just require 'active_support/core_ext/time/calculations'\n\nt = Time.current\nadvanced_time = t.advance(months: 1)\nputs advanced_time

@@ -1,1 +1,0 @@
-<!-- In your .csproj file -->\n<Target Name="ForceReleaseModeBeforePublish" BeforeTargets="BeforePublish">\n  <PropertyGroup>\n    <Configuration>Release</Configuration>\n  </PropertyGroup>\n</Target>

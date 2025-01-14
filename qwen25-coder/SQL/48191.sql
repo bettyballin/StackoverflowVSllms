@@ -1,1 +1,0 @@
-SELECT SalesPerson, TotalSales \n   FROM SalesData \n   ORDER BY TotalSales DESC;

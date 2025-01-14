@@ -1,1 +1,0 @@
-var xmlDoc = jQuery.createXMLDocument("<items></items>");\njQuery("items", xmlDoc).append(jQuery("<item>My item!</item>"));

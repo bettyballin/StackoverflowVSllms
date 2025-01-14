@@ -1,1 +1,0 @@
-SELECT *\nFROM Customers WITH (NOLOCK)\nJOIN Sales WITH (NOLOCK) ON Customers.CustomerID = Sales.CustomerID\nJOIN Units -- No NOLOCK here as this is critical data\n-- Other joins and conditions

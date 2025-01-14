@@ -1,1 +1,0 @@
-SELECT base_object_name \nFROM sys.synonyms \nWHERE name = 'YourProcedureName';

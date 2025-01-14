@@ -1,1 +1,0 @@
-$line = "Your string containing Ê";\n$cleanedLine = mb_str_replace('Ê', '', $line, 'UTF-8');\necho $cleanedLine;

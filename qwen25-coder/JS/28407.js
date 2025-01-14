@@ -1,1 +1,0 @@
-function isAlphabet(obj) {\n    var alphaExp = /[^a-z0-9_-]+/g; // Use 'g' flag for global search\n    var invalidChars = obj.value.match(alphaExp);\n\n    if (invalidChars) {\n        alert('Invalid symbols: ' + invalidChars.join(', '));\n        obj.focus();\n        return false;\n    } else {\n        return true;\n    }\n}

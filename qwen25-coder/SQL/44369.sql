@@ -1,1 +1,0 @@
--- To retrieve it later:\nSELECT context_info FROM sys.dm_exec_sessions WHERE session_id = @@SPID;

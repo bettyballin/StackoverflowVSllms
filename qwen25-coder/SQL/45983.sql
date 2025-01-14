@@ -1,1 +1,0 @@
-DELIMITER //\n\nCREATE EVENT IF NOT EXISTS delete_old_data_from_history\nON SCHEDULE EVERY X DAY\nDO\nBEGIN\n  DELETE FROM B\n  WHERE DATE(timestamp_column) < CURDATE() - INTERVAL Z DAY;\nEND //\n\nDELIMITER ;

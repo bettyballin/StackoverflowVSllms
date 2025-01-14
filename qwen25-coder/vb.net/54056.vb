@@ -1,1 +1,0 @@
-Dim n As Integer = 123\n   Dim str As String = CType(n, String) ' "123"

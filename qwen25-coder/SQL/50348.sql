@@ -1,1 +1,0 @@
-BEGIN TRY\n       -- Stored procedure logic\n   END TRY\n   BEGIN CATCH\n       SELECT ERROR_MESSAGE() AS ErrorMessage;\n   END CATCH;

@@ -1,1 +1,0 @@
-$is_https = false;\nif (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {\n    $is_https = true;\n} elseif (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') {\n    $is_https = true;\n}\n\nif ($is_https) {\n    // The original request was made over HTTPS.\n} else {\n    // The original request was made over HTTP.\n}

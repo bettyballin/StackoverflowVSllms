@@ -1,1 +1,0 @@
-ALTER USER sys IDENTIFIED BY new_password;

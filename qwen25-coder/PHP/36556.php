@@ -1,1 +1,0 @@
-<?php\nheader('Content-Type: application/json');\n\n// Example database query to get new messages\n$date = isset($_GET['date']) ? $_GET['date'] : '2000-01-01 00:00:00';\n$query = $db->prepare("SELECT * FROM messages WHERE date > ?");\n$query->execute([$date]);\n$messages = $query->fetchAll(PDO::FETCH_ASSOC);\n\necho json_encode($messages);\n?>

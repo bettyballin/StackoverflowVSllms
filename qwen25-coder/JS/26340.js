@@ -1,1 +1,0 @@
-// Assuming the form has an ID of 'myForm'\ndocument.addEventListener('DOMContentLoaded', function() {\n    var form = document.getElementById('myForm');\n    var checkboxes = form.querySelectorAll('input[type="checkbox"]');\n    \n    checkboxes.forEach(function(checkbox) {\n        console.log(checkbox.name);\n    });\n});

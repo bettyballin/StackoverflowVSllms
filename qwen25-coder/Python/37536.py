@@ -1,1 +1,0 @@
-import hashlib\nimport os\n\ndef hash_password(password):\n    salt = os.urandom(16)  # Generate a random salt\n    hashed_password = hashlib.sha256(salt + password.encode()).hexdigest()  # Prefixing the salt\n    return salt, hashed_password\n\n# Example usage\nsalt, hashed = hash_password("securepassword")\nprint("Salt:", salt.hex())\nprint("Hashed Password:", hashed)

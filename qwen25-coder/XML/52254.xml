@@ -1,1 +1,0 @@
-<connectionStrings>\n    <add name="MyOracleConnection" \n         connectionString="User Id=myUsername;Password=myPassword;Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=myHost)(PORT=myPort))(CONNECT_DATA=(SERVICE_NAME=myServiceName)));" \n         providerName="Oracle.ManagedDataAccess.Client"/>\n</connectionStrings>

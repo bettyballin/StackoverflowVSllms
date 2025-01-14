@@ -1,1 +1,0 @@
-<?php\n$to = 'recipient@example.com';\n$subject = 'Email with Inline Image';\n$message = '<html><body>';\n$message .= '<img src="https://example.com/path/to/image.png" alt="Test Image">';\n$message .= '</body></html>';\n\n$headers  = 'MIME-Version: 1.0' . "\r\n";\n$headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";\n\nmail($to, $subject, $message, $headers);\n?>

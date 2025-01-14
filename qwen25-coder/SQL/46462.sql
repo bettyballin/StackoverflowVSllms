@@ -1,1 +1,0 @@
-CREATE TABLE Product (\n    ProductID INT PRIMARY KEY,\n    Name VARCHAR(255),\n    Path VARCHAR(255)  -- Example: '/1/4/7/', representing the hierarchy path\n);

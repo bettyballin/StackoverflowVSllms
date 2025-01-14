@@ -1,1 +1,0 @@
-if ($userHasPermission) {\n        $this->render('with-action');\n    } else {\n        $this->render('no-access');\n    }

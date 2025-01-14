@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('.star').rating($('.star').attr('data-star-config'));\n});

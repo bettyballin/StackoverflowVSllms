@@ -1,1 +1,0 @@
-// To store a value\n   localStorage.setItem('twitterUrls', JSON.stringify(twitterUrlsArray));\n\n   // To retrieve the value\n   const twitterUrls = JSON.parse(localStorage.getItem('twitterUrls')) || [];

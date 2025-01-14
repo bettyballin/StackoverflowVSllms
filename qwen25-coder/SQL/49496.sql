@@ -1,1 +1,0 @@
-SELECT shop_id, COUNT(*) AS number_of_products\nFROM your_table_name\nGROUP BY shop_id;

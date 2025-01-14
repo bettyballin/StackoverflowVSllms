@@ -1,1 +1,0 @@
-$pattern = 'webmaster|admin|webadmin|sysadmin';\n$nickname = 'admin'; // Example nickname\n\nif (preg_match('/\b(' . $pattern . ')\b/i', $nickname)) {\n    echo "Nickname is forbidden.";\n} else {\n    echo "Nickname is allowed.";\n}

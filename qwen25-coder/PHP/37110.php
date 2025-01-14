@@ -1,1 +1,0 @@
-$nodes = $xpath->query('//element[@attribute="value"]');\nforeach ($nodes as $node) {\n    echo $node->nodeValue;\n}

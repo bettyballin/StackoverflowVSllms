@@ -1,1 +1,0 @@
-- Monitor T-SQL queries and stored procedures\n     - Track current connections

@@ -1,1 +1,0 @@
-class Client:  # Note the capitalization for class names\n    pass

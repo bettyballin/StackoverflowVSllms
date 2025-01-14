@@ -1,1 +1,0 @@
-// Import tape in your Node.js environment\nconst test = require('tape');\n\ntest('simple arithmetic', function (t) {\n    t.plan(2); // Plan for two assertions\n    t.equal(1 + 1, 2);\n    t.notEqual(1 + 1, 4);\n});

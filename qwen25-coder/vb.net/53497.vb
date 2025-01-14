@@ -1,1 +1,0 @@
-Function GetPersonDetails(personId As Integer) As Tuple(Of String, String, Integer)\n    ' Sample function to demonstrate returning multiple values using Tuple\n    Dim firstName As String = "John"\n    Dim lastName As String = "Doe"\n    Dim age As Integer = 30\n\n    Return New Tuple(Of String, String, Integer)(firstName, lastName, age)\nEnd Functio

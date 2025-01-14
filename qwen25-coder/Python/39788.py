@@ -1,1 +1,0 @@
-def read_mfc_file(file_path):\n    with open(file_path, 'rb') as f:\n        # Read the first 1024 bytes - adjust based on your needs\n        header = f.read(1024)\n        print("Header:", header)\n\n# Replace 'path_to_your_document.doc' with the actual file path\nread_mfc_file('path_to_your_document.doc')

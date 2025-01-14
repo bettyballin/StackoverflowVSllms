@@ -1,1 +1,0 @@
-// Assuming xhr is your XMLHttpRequest object that has completed its request\nlet parser = new DOMParser();\nlet xmlDoc = parser.parseFromString(xhr.responseText, "text/html");\n\n// Now, xmlDoc contains the parsed document and you can work with it as usual\nconsole.log(xmlDoc.documentElement.outerHTML);

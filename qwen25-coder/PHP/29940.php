@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\nif (isset($_SESSION['adminLoggedIn']) && $_SESSION['adminLoggedIn'] === true) {\n    include 'admin/dashboard.php';\n} else {\n    include 'public/visitorView.html';\n}\n?>

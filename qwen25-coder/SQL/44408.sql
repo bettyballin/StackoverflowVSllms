@@ -1,1 +1,0 @@
-SELECT *\nFROM T1\nINNER JOIN T2 ON (T1.value = T2.value)\nWHERE (T1.use_t2_values = 0 OR (T1.use_t2_values = 1 AND T2.value2 = 'variable2' AND T2.value3 = 'variable3'))

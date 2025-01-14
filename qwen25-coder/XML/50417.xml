@@ -1,1 +1,0 @@
-<!-- Example Maven dependency for OpenAM -->\n   <dependency>\n       <groupId>org.forgerock.openam</groupId>\n       <artifactId>openam-shared-resources</artifactId>\n   </dependency>

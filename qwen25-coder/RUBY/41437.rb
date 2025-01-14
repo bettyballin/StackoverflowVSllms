@@ -1,1 +1,0 @@
-<%\n    string comment = Model.Comment; // No need to Html.Encode here\n    comment = comment.Replace("\r\n", "<br />").Replace("\n", "<br />");\n%>\n<%= new HtmlString(comment) %> <!-- Use HtmlString to render HTML -->

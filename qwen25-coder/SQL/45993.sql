@@ -1,1 +1,0 @@
--- Example: Calculate cumulative sum of orders for each customer\n   SELECT \n       order_id, \n       customer_id, \n       amount,\n       SUM(amount) OVER (PARTITION BY customer_id ORDER BY order_date ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS cumulative_order_amount\n   FROM \n       orders;

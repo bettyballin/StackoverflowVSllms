@@ -1,1 +1,0 @@
-(busy_ticks_end - busy_ticks_start) / ((idle_ticks_end - idle_ticks_start) + (busy_ticks_end - busy_ticks_start))

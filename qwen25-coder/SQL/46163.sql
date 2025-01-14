@@ -1,1 +1,0 @@
-SET AUTOTRACE ON STATISTICS\n  -- Run your query here

@@ -1,1 +1,0 @@
--- Drop existing XPObjectType table if needed\nDROP TABLE "XPObjectType";\n\n-- Recreate XPObjectType with case-sensitive columns\nCREATE TABLE "XPObjectType" (\n  "Oid" NUMBER NOT NULL,\n  "TypeName" VARCHAR2(255) NOT NULL,\n  "AssemblyName" VARCHAR2(255),\n  PRIMARY KEY ("Oid")\n);

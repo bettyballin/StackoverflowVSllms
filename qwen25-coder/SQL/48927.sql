@@ -1,1 +1,0 @@
--- Table: User\n-- Note: This table is named in the singular form to follow certain\n-- data modeling conventions. Accessing this table in T-SQL may require\n-- using square brackets [User] if it conflicts with SQL reserved keywords.\nCREATE TABLE [User] (\n    UserID INT PRIMARY KEY,\n    UserName NVARCHAR(255) NOT NULL\n);

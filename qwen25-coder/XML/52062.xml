@@ -1,1 +1,0 @@
-<externalLinkBuildPlugin description="Code Documentation" \n       actionName="ViewDocumentationAction" \n       url="http://yourserver/path/to/documentation/index.html"/>\n   \n   <externalLinkBuildPlugin description="BDD Specs" \n       actionName="ViewBddSpecsAction" \n       url="http://yourserver/path/to/bddspecs/index.html"/>

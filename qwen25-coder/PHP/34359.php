@@ -1,1 +1,0 @@
-$normal_array = array();\n$array_of_arrayrefs = array(&$normal_array);\n\n// Access the last element by reference and add the new key-value pair\nend($array_of_arrayrefs)['one'] = 1;\n\nprint $normal_array["one"]; // should output 1

@@ -1,1 +1,0 @@
-SELECT HOST_NAME() AS WorkstationName;

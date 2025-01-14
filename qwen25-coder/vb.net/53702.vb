@@ -1,1 +1,0 @@
-Dim s as something = new something

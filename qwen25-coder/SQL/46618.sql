@@ -1,1 +1,0 @@
-SELECT id, quantity, \n       @running_total := IFNULL(@running_total + quantity, quantity) AS running_total,\n       CASE WHEN @running_total >= 40 THEN id END as last_id_used_in_sum\nFROM your_table_name, (SELECT @running_total := 0) r\nORDER BY date_column\nHAVING last_id_used_in_sum IS NOT NULL;

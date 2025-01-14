@@ -1,1 +1,0 @@
-// Your div element\nvar oElement = document.getElementById('yourDivId');\n\n// Prevent focus on the element\noElement.tabIndex = -1;\noElement.onfocus = function() {\n    this.blur();\n};

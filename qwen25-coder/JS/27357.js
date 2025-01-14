@@ -1,1 +1,0 @@
-const express = require('express');\nconst app = express();\n\napp.get('/', (req, res) => {\n  res.send('Hello from Google App Engine!');\n});\n\n// Start the server\nconst PORT = process.env.PORT || 8080;\napp.listen(PORT, () => {\n  console.log(`App listening on port ${PORT}`);\n});

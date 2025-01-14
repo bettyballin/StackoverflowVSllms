@@ -1,1 +1,0 @@
-DELETE FROM YourTable \nWHERE A IN (@x, @y, @z);

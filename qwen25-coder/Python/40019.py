@@ -1,1 +1,0 @@
-def macro(func):\n    def wrapper(*args, **kwargs):\n        print("Executing macro:", func.__name__)\n        return func(*args, **kwargs)\n    return wrapper\n\n@macro\ndef add(a, b):\n    return a + b\n\nresult = add(2, 3)  # This would output: Executing macro: add and then 5

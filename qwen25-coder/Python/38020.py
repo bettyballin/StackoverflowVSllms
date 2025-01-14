@@ -1,1 +1,0 @@
-import secrets\n\ndef generate_unique_key():\n    return secrets.token_urlsafe(16)  # Generates a URL-safe text string, in hexadecimal\n\n# Example usage\nvalidation_key = generate_unique_key()\nprint(validation_key)

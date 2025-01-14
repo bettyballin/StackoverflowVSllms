@@ -1,1 +1,0 @@
--- Example of using nvarchar in SQL Server\nCREATE TABLE Students (\n    StudentID INT PRIMARY KEY,\n    FirstName NVARCHAR(100),\n    LastName NVARCHAR(100),\n    Email NVARCHAR(250)\n);

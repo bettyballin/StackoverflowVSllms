@@ -1,1 +1,0 @@
-@Html.Raw(Ajax.ActionLink(" ", "Action", Args, AjaxArgs,\n    new { @style = "display:none;" }).ToHtmlString())

@@ -1,1 +1,0 @@
-// Store individual components in APCu\n   apcu_store('tree_node_1', $node->getData(), 3600);

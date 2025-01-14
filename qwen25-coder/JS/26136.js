@@ -1,1 +1,0 @@
-// Assuming this is your encoded string received from PHP\nlet encodedString = "your%20encoded%20string%2Bwith%20plus";\n\n// Decode the URL-encoded string in JavaScript\nlet decodedString = decodeURIComponent(encodedString.replace(/\+/g, '%20'));\n\nconsole.log(decodedString); // Output: your encoded string+with plus

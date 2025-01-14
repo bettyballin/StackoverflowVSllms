@@ -1,1 +1,0 @@
-<?php\nif (extension_loaded('ionCube Loader')) {\n    echo "IonCubeLoader is enabled.\n";\n} else {\n    echo "IonCubeLoader is not enabled.\n";\n}\n?>

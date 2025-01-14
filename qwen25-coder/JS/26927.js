@@ -1,1 +1,0 @@
-$.ajax({\n  url: 'demo2.htm',\n  success: function(loadeddata){\n    // Assuming you want the div with id='targetDiv'\n    var specificData = $(loadeddata).find("#targetDiv");\n    \n    $("#loaded_data").after(specificData);\n    alert('success');\n  },\n  error: function(){\n    alert('failure');\n  }\n});

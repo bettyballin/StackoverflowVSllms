@@ -1,1 +1,0 @@
-if (!function_exists('curl_init')) {\n    echo 'cURL is not installed/enabled on this server.';\n} else {\n    echo 'cURL is installed/enabled!';\n}

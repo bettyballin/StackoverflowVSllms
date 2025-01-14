@@ -1,1 +1,0 @@
-$data = array(\n    'column_name' => $value === '' ? null : $value,\n    // other columns...\n);\n\n// For an insert\n$db->insert('table_name', $data);\n\n// For an update\n$where = $db->quoteInto('id = ?', $id);\n$db->update('table_name', $data, $where);

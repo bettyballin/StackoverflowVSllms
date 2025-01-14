@@ -1,1 +1,0 @@
-// Assuming $userInput is the text from your text input box.\n   $encodedQuery = urlencode($userInput);\n   $url = "http://website.com/index.php/app/create/$encodedQuery";

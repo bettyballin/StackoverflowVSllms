@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE test IS\nBEGIN\n    EXECUTE IMMEDIATE 'truncate table table_name';\nEND test;\n/

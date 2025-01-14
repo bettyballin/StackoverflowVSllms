@@ -1,1 +1,0 @@
-session_start();\necho session_id(); // Output session_id so flash app can capture it and send it with other requests\n/*\n... rest of your upload code ...\n*/\n$_SESSION['path'] = 'flashuploader_online/upload/'.$destination;

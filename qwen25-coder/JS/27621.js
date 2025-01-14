@@ -1,1 +1,0 @@
-// Example of Vue.js data binding\n   var app = new Vue({\n       el: '#app',\n       data: {\n           user: { name: "John", age: 25 }\n       }\n   });

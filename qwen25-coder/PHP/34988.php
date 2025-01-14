@@ -1,1 +1,0 @@
-// Always validate input before unserializing\n$data = unserialize($input);\nif ($data === false) {\n    throw new Exception("Error during unserialization");\n}

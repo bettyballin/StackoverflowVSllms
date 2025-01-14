@@ -1,1 +1,0 @@
-from django.db.models.expressions import RawSQL\n\n# Constructing the query using RawSQL to achieve similar effect of the provided SQL\nVote.objects.filter(object_id=1).annotate(\n    cumulative_votes=RawSQL("""\n        SELECT SUM(vote) FROM votes WHERE created_on <= T.created_on AND object_id = %s\n    """, (1,))\n).values('created_on', 'cumulative_votes')

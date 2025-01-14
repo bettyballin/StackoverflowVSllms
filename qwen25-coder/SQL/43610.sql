@@ -1,1 +1,0 @@
-CREATE PARTITION SCHEME psUserRange\n   AS PARTITION pfUserRange\n   TO (fg_1, fg_2, fg_3, fg_4, fg_5, fg_6, fg_7, fg_8, fg_9, fg_10);

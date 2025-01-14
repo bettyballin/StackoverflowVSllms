@@ -1,1 +1,0 @@
-CREATE FULLTEXT INDEX ON tProject(\n    name,\n    Goal,\n    Activities,\n    Result,\n    MonName,\n    MonGoal,\n    MonActivities,\n    MonResult,\n    TotalFund -- Note: This is an nvarchar field, but consider if it should be searchable.\n) KEY INDEX [YourPrimaryKeyIndex] -- replace with the appropriate primary key index\nON ftCatalog;

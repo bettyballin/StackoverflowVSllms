@@ -1,1 +1,0 @@
-INSERT INTO your_table (lastModifiedTime)\nVALUES (CURRENT_TIMESTAMP);

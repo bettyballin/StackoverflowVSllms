@@ -1,1 +1,0 @@
-class CtrlController < ApplicationController\n\n  def create\n    render(:action => "update", locals: { rendering_action: 'create' })\n  end\n\n  def update\n    render(:action => "update", locals: { rendering_action: 'update' })\n  end\n\nend

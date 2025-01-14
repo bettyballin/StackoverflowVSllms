@@ -1,1 +1,0 @@
-SELECT i.ItemKey, i.ItemName\nFROM Item i\nJOIN GroupItem gi ON i.ItemKey = gi.ItemKey\nWHERE gi.GroupKey IN (\n    SELECT gi2.GroupKey\n    FROM GroupItem gi2\n    WHERE gi2.ItemKey = 1\n) AND i.ItemKey != 1;

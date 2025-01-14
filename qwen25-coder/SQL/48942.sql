@@ -1,1 +1,0 @@
-CREATE FUNCTION GetActiveEmployees()\n     RETURNS TABLE\n     RETURN\n         SELECT Name, Department, Salary FROM Employees WHERE Active = 1;

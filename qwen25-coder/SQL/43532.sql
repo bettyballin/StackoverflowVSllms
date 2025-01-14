@@ -1,1 +1,0 @@
-DECLARE @NewIDTableA TABLE (NewID INT);\n\n-- Insert into TableA and capture the new Primary Key\nINSERT INTO TableA (Column1, Column2)\nOUTPUT INSERTED.PrimaryKeyColumn INTO @NewIDTableA(NewID)\nVALUES ('Value1', 'Value2');\n\n-- Use the captured ID to insert into TableB\nINSERT INTO TableB (ForeignKeyToA, OtherColumn)\nSELECT NewID, 'OtherValue'\nFROM @NewIDTableA;

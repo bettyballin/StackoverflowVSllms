@@ -1,1 +1,0 @@
-WITH RankedScores AS (\n    SELECT \n        user_id, \n        score,\n        ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY score DESC) as row_num\n    FROM \n        user_scores\n)\nSELECT \n    user_id, \n    score\nFROM \n    RankedScores\nWHERE \n    row_num = 1\nORDER BY \n    score DESC\nLIMIT 5;

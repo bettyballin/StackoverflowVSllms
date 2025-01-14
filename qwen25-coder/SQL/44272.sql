@@ -1,1 +1,0 @@
-CREATE TABLE images (\n    ID INT PRIMARY KEY AUTO_INCREMENT,\n    base_path VARCHAR(255) NOT NULL -- e.g., 'car.jpg'\n);

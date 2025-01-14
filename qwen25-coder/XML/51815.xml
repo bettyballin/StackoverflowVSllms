@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>com.vladmihalcea</groupId>\n    <artifactId>hibernate-types-52</artifactId>\n    <version>2.16.2</version>\n</dependency>

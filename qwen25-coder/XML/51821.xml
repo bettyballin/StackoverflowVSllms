@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>\n<configuration>\n    <appSettings>\n        <add key="ClientName" value="Default Client"/>\n        <add key="LogoLocation" value="/path/to/logo.png"/>\n    </appSettings>\n</configuration>

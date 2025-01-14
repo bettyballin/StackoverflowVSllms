@@ -1,1 +1,0 @@
-UPDATE users SET authorised = 1 ^ authorised WHERE id = 2;

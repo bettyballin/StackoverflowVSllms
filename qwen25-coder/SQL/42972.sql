@@ -1,1 +1,0 @@
-INSERT INTO categories (name, parent_id) VALUES ('Fruits', NULL), ('Apples', 1), ('Fuji', 2), ('Cortland', 2);

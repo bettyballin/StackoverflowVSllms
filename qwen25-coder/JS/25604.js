@@ -1,1 +1,0 @@
-const socket = new WebSocket('ws://localhost:8080');\n\nsocket.addEventListener('open', function (event) {\n    console.log('Connection opened');\n    // Send data to the server\n    socket.send('Hello Server!');\n});\n\nsocket.addEventListener('message', function (event) {\n    console.log('Message from server ', event.data);\n});

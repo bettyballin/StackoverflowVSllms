@@ -1,1 +1,0 @@
-public function indexAction() {\n    $mapper = new Application_Model_Mapper_UserMapper();\n    $users  = $mapper->fetchAll();\n\n    foreach ($users as $user) {\n        echo "User ID: {$user->getId()}, Username: {$user->getUsername()}\n";\n    }\n}

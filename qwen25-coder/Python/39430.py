@@ -1,1 +1,0 @@
-import win32com.client\n\n# Create a COM object instance\nexcel = win32com.client.Dispatch("Excel.Application")\n\n# Make Excel visible\nexcel.Visible = True\n\n# Open an existing workbook\nworkbook = excel.Workbooks.Open(r"C:\path\to\your\file.xlsx")\n\n# Do something with the workbook...\n\n# Close Excel\nexcel.Quit()

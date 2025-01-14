@@ -1,1 +1,0 @@
-from django.shortcuts import render\n\ndef safe_view(request):\n    user_input = request.GET.get('user_input', '')\n    # Django templates are designed to automatically escape variables to prevent XSS\n    return render(request, 'safe_template.html', {'user_input': user_input})

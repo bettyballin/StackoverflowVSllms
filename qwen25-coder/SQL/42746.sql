@@ -1,1 +1,0 @@
--- This could potentially hold locks depending on isolation level and SQL settings\nSELECT * FROM db2_table_for_update WHERE condition FOR UPDATE;

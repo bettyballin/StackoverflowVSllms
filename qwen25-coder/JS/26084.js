@@ -1,1 +1,0 @@
-// Example condition to show inner1_2\nconst shouldShowInner1_2 = /* your data condition */;\nif (shouldShowInner1_2) {\n    document.getElementById('inner1').style.flex = '1';\n    document.getElementById('inner1_2').style.display = 'flex';\n} else {\n    document.getElementById('inner1').style.flex = '2';\n    document.getElementById('inner1_2').style.display = 'none';\n}

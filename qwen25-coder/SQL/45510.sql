@@ -1,1 +1,0 @@
-CREATE TABLE articles (\n    id SERIAL PRIMARY KEY,\n    title TEXT NOT NULL,\n    content TEXT NOT NULL CHECK (LENGTH(content) <= 50000),\n    date DATE NOT NULL DEFAULT CURRENT_DATE,\n    link VARCHAR(255) NOT NULL,\n    language VARCHAR(10) NOT NULL,\n    UNIQUE (content, link)\n);

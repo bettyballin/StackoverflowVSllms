@@ -1,1 +1,0 @@
-// Selects <a class="button"> that have an <img> child\nvar buttonsWithImg = $('a.button:has(img)');\n\n// Selects <a class="button"> that do not have an <img> child\nvar buttonsWithoutImg = $('a.button:not(:has(img))');

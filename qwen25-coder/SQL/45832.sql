@@ -1,1 +1,0 @@
-CREATE NONCLUSTERED INDEX IX_ClientDefinitionEntry_WithProcessPath \n   ON dbo.ClientDefinitionEntry (keywordGroupId)\n   INCLUDE (processPath);

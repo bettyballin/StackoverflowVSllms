@@ -1,1 +1,0 @@
-# Shorthand style with condition at the end\nputs "true" if 1 == 1\n\n# Single line with then\nif 1 == 1 then puts "true" end

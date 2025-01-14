@@ -1,1 +1,0 @@
-// Use XPath to filter clients by name attribute\n$clients = $portfolio->xpath("//client[@name='foo']");\nforeach ($clients as $client) {\n    foreach ($client->src as $src) {\n        echo (string)$src . '<br />';\n    }\n}

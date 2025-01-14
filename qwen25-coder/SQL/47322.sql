@@ -1,1 +1,0 @@
-create table xyz( testfield number( 12 ) );

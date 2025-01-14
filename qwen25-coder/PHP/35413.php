@@ -1,1 +1,0 @@
-<?php\n// Example of generating a signed token in PHP\n$secretKey = 'your_secret_key';\n$timestamp = time();\n$sig = hash_hmac('sha256', "$timestamp", $secretKey);\necho "Timestamp: $timestamp\nSig: $sig";\n?>

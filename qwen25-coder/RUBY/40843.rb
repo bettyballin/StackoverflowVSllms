@@ -1,1 +1,0 @@
-class Edge < ApplicationRecord\n  belongs_to :vertex1, class_name: "Vertex"\n  belongs_to :vertex2, class_name: "Vertex"\n\n  validate :distinct_vertices\n\n  def distinct_vertices\n    errors.add(:base, 'An edge must connect two different vertices') if vertex1 == vertex2\n  end\nend

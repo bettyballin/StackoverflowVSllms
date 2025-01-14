@@ -1,1 +1,0 @@
-<?php\n// Ensure dal.php and bll.php are included in this script as well\nrequire_once('include/dal.php');\nrequire_once('include/bll.php');\n\n$myDB = new DAL();\n?>

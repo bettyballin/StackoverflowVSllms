@@ -1,1 +1,0 @@
-Dim oDSObj: Set oDSObj = GetObject("LDAP:")\nDim oAuth: Set oAuth = oDSObj.OpenDSObject("LDAP://ldap.domain.com/ou=Users,dc=domain,dc=com", "uid=ldapuser,ou=Users,dc=domain,dc=com", "password", 1)

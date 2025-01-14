@@ -1,1 +1,0 @@
-<?php\nreturn [\n    'hello' => 'Hola',\n];

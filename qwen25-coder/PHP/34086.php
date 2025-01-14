@@ -1,1 +1,0 @@
-if (!isset($object->property)) {\n    $object->property = new stdClass();\n}\n$object->property->sub_property = 'value';

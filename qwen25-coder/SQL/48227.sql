@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n    SELECT reviews.rev_id, sum(reviews.rev_rating)/count(reviews.rev_id) as avg_rating\n    FROM reviews\n    GROUP BY reviews.rev_id\n) AS subquery\nWHERE subquery.avg_rating > x;

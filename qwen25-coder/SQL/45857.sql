@@ -1,1 +1,0 @@
-DELIMITER //\n\n   CREATE TRIGGER insert_rdate_trigger\n   BEFORE INSERT ON table_name\n   FOR EACH ROW\n   BEGIN\n     SET NEW.rdate = SUBSTRING(CONVERT(NEW.rid, CHAR(20)), 1, 8);\n   END; //\n\n   DELIMITER ;

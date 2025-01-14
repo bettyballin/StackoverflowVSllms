@@ -1,1 +1,0 @@
-SELECT * FROM mysql.db WHERE user = 'your_username';

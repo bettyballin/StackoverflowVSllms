@@ -1,1 +1,0 @@
-<service name="YourNamespace.YourService">\n  <endpoint \n      address="http://yourdomain.com:8080/AppServices/YourService.svc" \n      binding="basicHttpBinding" \n      contract="YourNamespace.IYourService"/>\n</service>

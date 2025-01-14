@@ -1,1 +1,0 @@
-// application/views/helpers/Sidebar.php\n   class Application_View_Helper_Sidebar extends Zend_View_Helper_Abstract\n   {\n       public function sidebar()\n       {\n           $sidebarHtml = ''; // Logic to generate dynamic content\n           return $sidebarHtml;\n       }\n   }

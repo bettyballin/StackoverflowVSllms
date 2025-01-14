@@ -1,1 +1,0 @@
-<?php\n$inputPassword = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_STRING);\n\nif (password_verify($inputPassword, $hashedPassword)) {\n    // Password is valid!\n}

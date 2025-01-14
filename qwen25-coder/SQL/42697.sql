@@ -1,1 +1,0 @@
--- Proper join with ON clause\nSELECT a.Field1, b.Field2\nFROM TableA a\nJOIN TableB b ON a.KeyField = b.KeyField;

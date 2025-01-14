@@ -1,1 +1,0 @@
-Dim rightArrow\nrightArrow = ChrW(&H2192)\n\n' Example usage in a string\nDim message\nmessage = "The direction is " & rightArrow\n\n' Output the message (for example, using WScript.Echo in a .vbs file)\nWScript.Echo message

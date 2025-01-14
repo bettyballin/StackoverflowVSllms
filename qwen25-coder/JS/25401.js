@@ -1,1 +1,0 @@
-var heatmapInstance = h337.create({\n       container: document.querySelector('.heatmap-container'),\n   });\n\n   // Data format example\n   heatmapInstance.setData({\n       max: 100,\n       data: [{x: 20, y: 20, value: 40}]\n   });

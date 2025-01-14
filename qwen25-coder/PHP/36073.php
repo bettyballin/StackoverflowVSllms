@@ -1,1 +1,0 @@
-$firstElement = functionThatReturnsAnArray()[0];

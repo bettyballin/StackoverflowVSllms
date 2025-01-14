@@ -1,1 +1,0 @@
-class School < ActiveRecord::Base\n  validates_uniqueness_of :name, conditions: -> { where("lower(name) = ?", name.downcase) }\nend

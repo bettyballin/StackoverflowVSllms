@@ -1,1 +1,0 @@
-<?php\n$allowedDomain = 'www.domainA.com';\n\nif (strpos($_SERVER['HTTP_REFERER'], $allowedDomain) !== false) {\n    header('Content-Type: application/x-shockwave-flash');\n    readfile('path/to/your/file.swf');\n} else {\n    header("HTTP/1.0 403 Forbidden");\n    echo "Access denied.";\n}\n?>

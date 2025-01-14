@@ -1,1 +1,0 @@
--- Assuming newScore is the new high score for a user and userId is their ID\nupdate players \nset top_score = :newScore,\n    rank = (\n        select count(*) + 1 from players where top_score > :newScore\n    )\nwhere userid = :userId;

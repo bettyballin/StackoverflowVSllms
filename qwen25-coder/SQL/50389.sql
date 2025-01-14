@@ -1,1 +1,0 @@
-SELECT TO_CHAR(your_datetime_column, 'YYYY-MM-DD HH24:MI:SS') AS military_time_format\nFROM your_table;

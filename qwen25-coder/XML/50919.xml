@@ -1,1 +1,0 @@
-<configuration>\n     <system.webServer>\n       <modules runAllManagedModulesForAllRequests="false">\n         <remove name="StaticFile" />\n         <add name="StaticFile" path="NoRefresh/*" verb="*" modules="StaticFileModule,DefaultDocumentModule,DirectoryListingModule" resourceType="Either" />\n       </modules>\n     </system.webServer>\n   </configuration>

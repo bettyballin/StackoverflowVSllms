@@ -1,1 +1,0 @@
-<WpfToolkit:DataGrid \n       ItemsSource="{Binding Path=Entries}" SelectionMode="Extended" \n       VirtualizingStackPanel.IsVirtualizing="True"\n       VirtualizingStackPanel.VirtualizationMode="Standard">\n   </WpfToolkit:DataGrid>

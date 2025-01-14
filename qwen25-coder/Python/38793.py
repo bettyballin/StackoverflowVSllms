@@ -1,1 +1,0 @@
-#!/usr/bin/python\n\nprint("Content-Type: text/html\n")\nprint("<html><body>")\nprint("<h1>Test</h1>")\nprint("</body></html>")

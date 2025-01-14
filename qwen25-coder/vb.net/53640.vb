@@ -1,1 +1,0 @@
-Imports System.Runtime.InteropServices\n\nModule Module1\n    <DllImport("user32.dll", SetLastError:=True)>\n    Private Function LockWorkStation() As IntPtr\n    End Function\n\n    Sub Main()\n        ' This will lock the workstation\n        LockWorkStation()\n    End Sub\nEnd Module

@@ -1,1 +1,0 @@
-$condition = sprintf('message_id = %d AND user_id = %s', (int)$messageId, $db->quote($userId));

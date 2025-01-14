@@ -1,1 +1,0 @@
-// Example of using Axios to make an AJAX request\naxios.get('https://api.example.com/data')\n  .then(function (response) {\n    // handle success\n    console.log(response.data);\n  })\n  .catch(function (error) {\n    // handle error\n    console.log(error);\n  });

@@ -1,1 +1,0 @@
-$queryString = "SOME SQL SELECT QUERY";\n$queryResult = mysql_query($queryString);\n$queryArray = mysql_fetch_array($queryResult);\n\nif ($queryArray === false) {\n    echo "No results found or query failed.";\n}

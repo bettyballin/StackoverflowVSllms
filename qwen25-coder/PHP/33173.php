@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER["REQUEST_METHOD"] == "POST") {\n    if (isset($_POST['action'])) {\n        if ($_POST['action'] == '1') {\n            // Handle publish action\n            echo "News published!";\n        } elseif ($_POST['action'] == '0') {\n            // Handle save as draft action\n            echo "Draft saved!";\n        }\n    }\n}\n?>

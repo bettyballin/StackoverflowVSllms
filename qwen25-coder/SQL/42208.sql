@@ -1,1 +1,0 @@
--- Example SQL to demonstrate snapshot isolation (if supported by your RDBMS)\nSET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED;\nSELECT * FROM AVERYBIGTABLE; -- This will see the state at the time of execution, not changes after.

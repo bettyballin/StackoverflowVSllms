@@ -1,1 +1,0 @@
--- Fetch regular schedules for a given week day range\nSELECT * \nFROM RegularSchedule\nWHERE weekday BETWEEN 0 AND 6;\n\n-- Fetch schedule variations for the entire month\nSELECT *\nFROM ScheduleVariations\nWHERE date >= '2023-10-01' AND date <= '2023-10-31';\n\n-- Fetch events for the entire month\nSELECT * \nFROM Events\nWHERE date >= '2023-10-01' AND date <= '2023-10-31';

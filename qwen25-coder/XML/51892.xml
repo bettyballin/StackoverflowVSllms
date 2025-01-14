@@ -1,1 +1,0 @@
-<system.webServer>\n    <handlers>\n        <add name="AllRequestsHandler" path="*" verb="*" modules="IsapiModule" scriptProcessor="%windir%\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll" resourceType="Unspecified" requireAccess="None" preCondition="" />\n    </handlers>\n</system.webServer>

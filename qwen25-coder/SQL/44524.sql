@@ -1,1 +1,0 @@
-INSERT INTO table_name (field1, field2) VALUES (123, 'Hello there''s');

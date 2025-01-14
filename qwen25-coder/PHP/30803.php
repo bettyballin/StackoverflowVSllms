@@ -1,1 +1,0 @@
-// Example of a simple unit test in PHPUnit (commonly used with CakePHP)\nclass AppControllerTest extends TestCase {\n    public function testHomeAction() {\n        $this->get('/');\n        $this->assertResponseOk();\n    }\n}

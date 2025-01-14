@@ -1,1 +1,0 @@
-$p = isset($_GET['p']) ? $_GET['p'] : '';\n$action = isset($_GET['action']) ? $_GET['action'] : '';\n\nif ($p == "account.edit.topfriends" || $action == "newmember" || $p == "account.profile.name") {\n    // some more code here\n}

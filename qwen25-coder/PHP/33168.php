@@ -1,1 +1,0 @@
-<?php\n   header("HTTP/1.1 200 OK");\n   // Include or output your custom 404 content here.\n   echo "<h1>Page Not Found</h1><p>Sorry, the page you are looking for does not exist.</p>";\n   ?>

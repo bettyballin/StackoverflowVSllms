@@ -1,1 +1,0 @@
-echo $escapedProductName = $db->escape($productName);\n   $query = "SELECT p_pid, p_name, p_cat FROM products WHERE p_sid=346 AND p_name LIKE '%$escapedProductName%' LIMIT 1";\n   echo "Executing query: " . htmlspecialchars($query) . "<br>";\n   $result = $db->get_results($query);

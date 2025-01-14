@@ -1,1 +1,0 @@
-When 'I go to the article page with id {string}' do |id|\n  visit article_path(id)\nend

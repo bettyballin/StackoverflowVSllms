@@ -1,1 +1,0 @@
-function sort(tableHeader, sortDir) {\n    $.ajax({\n        url: "sort.php",\n        type: "GET",\n        data: "tableHeader=" + encodeURIComponent(tableHeader) +"&sortdirection=" + encodeURIComponent(sortDir),\n        success: function(data) {\n            $("#t1").html(data);\n        }\n    });\n}

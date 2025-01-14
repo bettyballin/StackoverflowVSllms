@@ -1,1 +1,0 @@
-# Example of a simple middleware check in Flask:\n@app.before_request\ndef block_user_agents():\n    blocked_agents = ['badbot1', 'maliciousagent2']\n    if request.headers.get('User-Agent') in blocked_agents:\n        abort(403)  # Forbidde

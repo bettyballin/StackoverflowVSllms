@@ -1,1 +1,0 @@
-<?php\n\nnamespace App\Domain;\n\nclass Product {\n    private string $id;\n    private string $name;\n    private float $price;\n\n    public function __construct(string $id, string $name, float $price) {\n        $this->id = $id;\n        $this->name = $name;\n        $this->price = $price;\n    }\n\n    // Getters and other methods...\n}\n\n?>

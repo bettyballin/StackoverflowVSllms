@@ -1,1 +1,0 @@
-$output = [];\n$errors = [];\n$exit_code = 0;\n\nexec('ln -s ' . escapeshellarg(PLUGIN_DIR) . '/.htaccess ' . escapeshellarg(ABSPATH) . '/.htaccess 2>&1', $output, $exit_code);\n\nif ($exit_code !== 0) {\n    echo "Errors occurred:\n";\n    foreach ($output as $line) {\n        echo "$line\n";\n    }\n} else {\n    echo "Command executed successfully.\n";\n}

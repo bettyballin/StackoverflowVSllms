@@ -1,1 +1,0 @@
-SELECT \n    OBJECT_NAME(dp.major_id) AS TableName\nFROM \n    sys.database_permissions dp\nINNER JOIN \n    sys.tables t ON dp.major_id = t.object_id\nWHERE \n    dp.grantee_principal_id = USER_ID('YourUserName') \n    AND dp.permission_name = 'DELETE'\nORDER BY \n    TableName;

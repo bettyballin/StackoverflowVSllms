@@ -1,1 +1,0 @@
-$template->assign('output', $templates[$type]);

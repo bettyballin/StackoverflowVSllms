@@ -1,1 +1,0 @@
-// MyController.php\nclass MyController {\n    public function getData() {\n        // Example data fetching logic\n        return json_encode(['status' => 'success', 'data' => ['info' => 'Sample Data']]);\n    }\n}

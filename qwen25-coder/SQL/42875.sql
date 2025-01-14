@@ -1,1 +1,0 @@
-SELECT * FROM employees WHERE department_id = 5 AND position = 'Manager';

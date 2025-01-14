@@ -1,1 +1,0 @@
-import base64\nimport textwrap\n\ndef chunk_split(data, chunk_size=76, end='\r\n'):\n    return end.join(textwrap.wrap(data, width=chunk_size)) + end\n\n# Example usage:\npicture = b'your_image_data_here'\nbase64_encoded = base64.b64encode(picture).decode('utf-8')\nresult = chunk_split(base64_encoded)\nprint(result)

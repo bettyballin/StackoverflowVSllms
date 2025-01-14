@@ -1,1 +1,0 @@
-<!-- application/layouts/scripts/layout.phtml -->\n   <div id="sidebar">\n       <?php echo $this->sidebar(); ?>\n   </div>

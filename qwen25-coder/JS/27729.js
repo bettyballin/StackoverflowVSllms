@@ -1,1 +1,0 @@
-// Assuming xmlHttp.responseText contains the new value\nlet newValue = xmlHttp.responseText;\n\n// Get all elements with the class 'tumme' and update their innerHTML\ndocument.querySelectorAll('.tumme').forEach(element => {\n    element.innerHTML = newValue;\n});

@@ -1,1 +1,0 @@
-UPDATE YourTableName\nSET DateTimeColumn = TIMESTAMPADD(DAY, FLOOR(RAND() * 36500), '1980-01-01')

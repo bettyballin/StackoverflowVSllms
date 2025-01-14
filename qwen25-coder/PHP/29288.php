@@ -1,1 +1,0 @@
-$linkphoto = ["apple", "banana", "apple", "orange", "Banana"];\n$unlink = array_unique($linkphoto);\n\nforeach ($unlink as $link) {\n    echo $link, "<br />";\n}

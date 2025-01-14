@@ -1,1 +1,0 @@
-$stmt = mysqli_prepare($conn, "UPDATE venues SET has_amenities = ? WHERE id = ?");\n   mysqli_stmt_bind_param($stmt, 'si', $_POST['has_amenities'], $_POST['query']);\n   if (mysqli_stmt_execute($stmt)) {\n       echo "Record updated successfully";\n   } else {\n       echo "Error updating record: " . mysqli_error($conn);\n   }

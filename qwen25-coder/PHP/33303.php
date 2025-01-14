@@ -1,1 +1,0 @@
-$filePath = 'http://www.server.com/file.flv';\n\n$headers = @get_headers($filePath);\nif ($headers && strpos($headers[0], '200') !== false) {\n    echo 'yes';\n} else {\n    echo 'no';\n}

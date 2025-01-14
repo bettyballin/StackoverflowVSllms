@@ -1,1 +1,0 @@
-SELECT SUM(foo), CAST(mydate AS DATE) AS date_only \nFROM a_table \nGROUP BY CAST(a_table.mydate AS DATE);

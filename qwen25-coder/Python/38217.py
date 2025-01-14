@@ -1,1 +1,0 @@
-import subprocess\n\ndef sync_iphone():\n    script = '''\n    tell application "iTunes"\n        sync library\n    end tell\n    '''\n    subprocess.run(['osascript', '-e', script])\n\nsync_iphone()

@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded", function() {\n    var element = document.querySelector("td#dark[height='260']");\n    if (element) {\n        var link = document.createElement("a");\n        link.href = "http://www.website.com";\n        element.appendChild(link);\n    }\n});

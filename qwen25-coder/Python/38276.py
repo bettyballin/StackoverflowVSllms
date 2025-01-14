@@ -1,1 +1,0 @@
-# Simple example using PyBricks to control a robot motor\n  from pybricks.hubs import EV3Brick\n  from pybricks.ev3devices import Motor\n  from pybricks.parameters import Port\n\n  ev3 = EV3Brick()\n  motor = Motor(Port.B)\n\n  # Spin the motor at 500 degrees/second in the positive direction.\n  motor.run_target(500, 90)

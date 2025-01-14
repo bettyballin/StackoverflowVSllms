@@ -1,1 +1,0 @@
-import os\n\ndef create_index(directory, output_file):\n    with open(output_file, 'w') as out:\n        for root, dirs, files in os.walk(directory):\n            for file in files:\n                out.write(f"{os.path.join(root, file)}\n")\n\n# Usage: create_index('/path/to/floppy/images', 'floppy_index.txt')

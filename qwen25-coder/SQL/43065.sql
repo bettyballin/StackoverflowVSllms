@@ -1,1 +1,0 @@
-DELETE FROM your_table\nWHERE id NOT IN (\n    SELECT id \n    FROM (\n        SELECT id \n        FROM your_table \n        ORDER BY id DESC \n        LIMIT N\n    ) as latest_records\n);

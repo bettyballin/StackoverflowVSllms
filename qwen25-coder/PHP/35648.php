@@ -1,1 +1,0 @@
-function abc($a, $b, $c = 'foo', $d = 'bar') {\n    // function body\n}\n\n// Call the function with explicit default for $c and specific value for $d\nabc('valueA', 'valueB', 'foo', 'desiredValueForD');

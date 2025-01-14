@@ -1,1 +1,0 @@
-Dim oCOM as Object\n   \n   On Error GoTo ErrorHandler\n   \n   Set oCOM = CreateObject("COMDLL.COMObj")\n   \n   ' Use your COM object methods here\n   \n   Exit Sub\n\nErrorHandler:\n   MsgBox "An error occurred: " & Err.Description, vbCritical

@@ -1,1 +1,0 @@
-ew Ajax.Updater("content", "results/testcaseHistory/" + testcase, {\n        onComplete: function(transport) {document.body.style.cursor = 'auto'},\n        onFailure: function() {alert('Request failed');},\n        onSuccess: function(response) {console.log(response.responseText);},\n        parameters: param,\n        method: 'post'\n    });

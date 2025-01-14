@@ -1,1 +1,0 @@
-ALTER DATABASE DATAFILE '/path/to/datafile.dbf' RESIZE 500M;

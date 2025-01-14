@@ -1,1 +1,0 @@
-CREATE TABLE historical_events (\n    event_id INT AUTO_INCREMENT PRIMARY KEY,\n    event_name VARCHAR(255),\n    era CHAR(2), -- 'BC' or 'AD'\n    year_year INT, -- Year value without sign\n    month_month TINYINT, -- 1-12\n    day_day TINYINT -- 1-31 (ensure this matches month)\n);

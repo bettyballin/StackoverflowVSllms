@@ -1,1 +1,0 @@
-select * from mytable order by dbms_random.value fetch first 1000 rows only;

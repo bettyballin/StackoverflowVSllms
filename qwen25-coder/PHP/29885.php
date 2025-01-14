@@ -1,1 +1,0 @@
-$lines = preg_split("/\r?\n|\r/", $content);  // content is the given page\nforeach ($lines as $val) {\n    if (preg_match("/<a\s+[^>]*>(.*?)<\/a>/i", $val, $alink)) {\n        // $alink[1] contains the text between <a> and </a>\n        $linkText = trim($alink[1]);\n\n        // put in array of found links\n        $links[$index] = $linkText;\n        $index++;\n    }\n}

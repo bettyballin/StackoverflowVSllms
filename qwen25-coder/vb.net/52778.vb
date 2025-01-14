@@ -1,1 +1,0 @@
-' Declare the function from the wrapper DLL\nPrivate Declare Function AddNum Lib "MyCSharpLibraryWrapper.dll" Alias "?Add@MathOperationsWrapper@MyCSharpLibrary@@SANHHH@" (ByVal a As Integer, ByVal b As Integer) As Integer\n\nSub Test()\n    Dim result As Integer\n    result = AddNum(5, 3)\n    MsgBox result ' Should show 8\nEnd Sub

@@ -1,1 +1,0 @@
--- Enable tracing for current session only\nALTER SESSION SET SQL_TRACE=TRUE;

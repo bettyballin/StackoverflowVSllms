@@ -1,1 +1,0 @@
-CREATE VIEW CustomerView AS\n   SELECT CustomerID, FirstName, LastName, Email\n   FROM Customers;

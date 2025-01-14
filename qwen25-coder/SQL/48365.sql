@@ -1,1 +1,0 @@
-RESTORE DATABASE YourDatabaseName FROM DISK = 'path_to_backup_file.bak' WITH RECOVERY;

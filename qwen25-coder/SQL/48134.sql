@@ -1,1 +1,0 @@
-SELECT * FROM posts \nWHERE timestamp > NOW() - INTERVAL 1 MONTH\nORDER BY timestamp DESC\nLIMIT 10\n\nUNION ALL\n\nSELECT * FROM posts \nORDER BY timestamp DESC\nLIMIT 10\n\nORDER BY timestamp DESC\nLIMIT 10;

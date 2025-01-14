@@ -1,1 +1,0 @@
-RESTORE FILELISTONLY FROM DISK = 'C:\Backups\Some_db.bak';

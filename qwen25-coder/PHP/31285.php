@@ -1,1 +1,0 @@
-<?php\n\n$fileContent = file_get_contents('yourfile.html');\n\n// Define the pattern to match content between <!-- widget --> and <!-- /widget -->\n$pattern = '/<!-- widget -->(.*?)<!-- \/widget -->/s';\n\npreg_match_all($pattern, $fileContent, $matches);\n\n// Output each matched section\nforeach ($matches[1] as $match) {\n    echo trim($match);\n}\n\n?>

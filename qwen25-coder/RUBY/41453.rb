@@ -1,1 +1,0 @@
-<%= form_for @story do |f| %>\n  <%= f.label :story_title %>\n  <%= f.text_field :story_title %>\n\n  <%= f.label :content %>\n  <%= f.text_area :content %>\n\n  <%= f.submit "Submit" %>\n<% end %>

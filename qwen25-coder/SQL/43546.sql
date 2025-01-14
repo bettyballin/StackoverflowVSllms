@@ -1,1 +1,0 @@
-SELECT COUNT(*) \nFROM INFORMATION_SCHEMA.COLUMNS \nWHERE TABLE_NAME = 'your_table_name' \nAND TABLE_SCHEMA = 'your_database_name';

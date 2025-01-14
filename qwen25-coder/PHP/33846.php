@@ -1,1 +1,0 @@
-// Using an array to concatenate strings efficiently in PHP 4 or 5\n$parts = [];\nfor ($i = 0; $i < 10000; $i++) {\n    $parts[] = "part" . $i;\n}\n\n$result = implode('', $parts);

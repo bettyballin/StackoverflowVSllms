@@ -1,1 +1,0 @@
-if (requiresDataMassage(data)) {\n    massagedData = massageData(data);\n    storeInSQL(massagedData);\n} else {\n    storeInSQL(data);  // Directly store without massaging\n}

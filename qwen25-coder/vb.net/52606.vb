@@ -1,1 +1,0 @@
-Public Class SuperClass\n    Protected Sub ProtectedMethod()\n        ' Method implementation\n    End Sub\nEnd Class\n\nPublic Class SubClass Inherits SuperClass\n    Public Sub PublicMethodThatUsesProtected()\n        ProtectedMethod()  ' Accessible here because SubClass inherits from SuperClass\n    End Sub\nEnd Class

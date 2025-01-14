@@ -1,1 +1,0 @@
-Imports System.Runtime.InteropServices\n\nPublic Class ExampleDll\n    <DllImport("user32.dll", SetLastError:=True)>\n    Public Shared Function MessageBox(ByVal hWnd As IntPtr, ByVal text As String, ByVal caption As String, ByVal uType As UInteger) As Integer\n    End Function\nEnd Class

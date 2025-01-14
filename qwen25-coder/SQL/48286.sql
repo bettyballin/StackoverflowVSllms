@@ -1,1 +1,0 @@
-WITH MinBarValues AS (\n    SELECT Foo, MIN(Bar) AS MinBar\n    FROM YourTable\n    GROUP BY Foo\n)\nSELECT t.ID, t.Foo, t.Bar, t.Blagh\nFROM YourTable t\nJOIN MinBarValues m ON t.Foo = m.Foo AND t.Bar = m.MinBar;

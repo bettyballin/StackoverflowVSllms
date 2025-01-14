@@ -1,1 +1,0 @@
-add_filter('option_wordfence_enabled', function($value) {\n         return true;\n     });

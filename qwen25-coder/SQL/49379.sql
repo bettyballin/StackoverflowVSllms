@@ -1,1 +1,0 @@
-CREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    username VARCHAR(255) UNIQUE NOT NULL,\n    email VARCHAR(255) NOT NULL,\n    -- Add other user details as necessary\n);

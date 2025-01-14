@@ -1,1 +1,0 @@
-<?php\n$var = "stackoverflow";\n// Using the ternary operator\necho (strlen($var) > 1) ? "TRUE" : "FALSE";\n?>

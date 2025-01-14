@@ -1,1 +1,0 @@
-import win32com.client\n\noutlook = win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")\nprint(dir(outlook))  # Lists all attributes and methods of the outlook object

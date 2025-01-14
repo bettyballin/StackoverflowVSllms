@@ -1,1 +1,0 @@
--- Disable foreign key checks\nSET FOREIGN_KEY_CHECKS = 0;\n\n-- Your operations here (e.g., ALTER TABLE, DELETE, etc.)\n\n-- Re-enable foreign key checks\nSET FOREIGN_KEY_CHECKS = 1;

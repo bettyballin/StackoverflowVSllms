@@ -1,1 +1,0 @@
-SELECT temp.UserName \n   FROM (SELECT u1.name as UserName, COUNT(m1.UserFromId) as SentCount \n         FROM Message m1\n         JOIN User u1 ON u1.uid = m1.UserFromId \n         GROUP BY u1.name \n         HAVING SentCount > 3 ) as temp;

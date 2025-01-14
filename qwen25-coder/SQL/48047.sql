@@ -1,1 +1,0 @@
-INSERT INTO example_table (id, name) VALUES (\n    UNHEX(REPLACE('12345678-1234-5678-1234-567812345678', '-', '')),\n    'Sample Name'\n);

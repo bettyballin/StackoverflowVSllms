@@ -1,1 +1,0 @@
-UPDATE A\nSET A.name = B.name\nFROM A\nINNER JOIN B ON A.id = B.id;

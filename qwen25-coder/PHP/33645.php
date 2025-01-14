@@ -1,1 +1,0 @@
-function smartPathJoin(...$paths) {\n    return preg_replace('#/+#','/',implode('/', $paths));\n}\n\n// Usage examples:\necho smartPathJoin('abc/de/', '/fg/x.php'); // Outputs: abc/de/fg/x.php\necho smartPathJoin('abc/de', 'fg/x.php');   // Outputs: abc/de/fg/x.php

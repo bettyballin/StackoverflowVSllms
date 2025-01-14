@@ -1,1 +1,0 @@
--- Example of calling the stored procedure with an XML string\nDECLARE @xmlData NVARCHAR(MAX)\nSET @xmlData = N'<Items><Item>Item1</Item><Item>Item2</Item><Item>Item3</Item></Items>'\nEXEC InsertDataFromXML @XmlData;

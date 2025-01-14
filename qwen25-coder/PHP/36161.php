@@ -1,1 +1,0 @@
-// File location: /Models/Dao/UserDB.php\nclass Sl_Model_Dao_UserDB extends Zend_Db_Table_Abstract {}

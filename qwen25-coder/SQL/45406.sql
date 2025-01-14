@@ -1,1 +1,0 @@
-CREATE INDEX idx_adminuser_station_id ON adminuser.station (id);\nCREATE INDEX idx_adminuser_base_base_id ON adminuser.base (base_id);

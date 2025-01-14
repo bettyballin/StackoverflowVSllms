@@ -1,1 +1,0 @@
-INSERT INTO the_table (column1, column2, column3) VALUES \n(1, 2, 'hi'),\n(2, 0, 'foo');

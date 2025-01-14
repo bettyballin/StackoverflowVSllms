@@ -1,1 +1,0 @@
-class Poll(models.Model):\n    category = models.CharField(u"Category", max_length=64)\n    choices = models.ManyToManyField(Choice, blank=True)  # using a ManyToManyField for demonstration\n\nclass Choice(models.Model):\n    poll = models.ForeignKey(Poll, on_delete=models.CASCADE, related_name='choices')

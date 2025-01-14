@@ -1,1 +1,0 @@
-<!-- Maven dependency for Apache CXF -->\n   <dependency>\n       <groupId>org.apache.cxf</groupId>\n       <artifactId>cxf-rt-rs-security-oauth2-common</artifactId>\n   </dependency>

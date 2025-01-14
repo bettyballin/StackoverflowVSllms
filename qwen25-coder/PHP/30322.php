@@ -1,1 +1,0 @@
-// Find:\n   header('Content-Type: text/html; charset=UTF-8');\n\n   // Change to:\n   header('Content-Type: text/html; charset=ISO-8859-1');

@@ -1,1 +1,0 @@
-session_start();\n\nif ($_SESSION['logged_in']) {\n    echo "<li><a href='?about&email=" . urlencode($_SESSION['email']) . "'>About</a></li>";\n} else {\n    echo "<li><a href='?about'>About</a></li>";\n}

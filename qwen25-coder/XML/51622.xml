@@ -1,1 +1,0 @@
-<!-- Example of setting JVM arguments related to GC, adjust as necessary -->\n   <jvmarg value="-XX:+UseG1GC"/>\n   <jvmarg value="-Xmx4g"/>

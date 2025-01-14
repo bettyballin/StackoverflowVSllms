@@ -1,1 +1,0 @@
-$online = '0'; // Example, should be fetched from your database or other reliable source\nonline($online);

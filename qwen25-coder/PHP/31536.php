@@ -1,1 +1,0 @@
-$string = "\n///<summary>\n///aaa\n///</summary>\n";\n\n// Use # as the delimiter to avoid conflict with slashes in the pattern.\n$pattern = "#\/\/\/<summary>.*?<\/\/\/<\/summary>#s";\n\npreg_match_all($pattern, $string, $matches);\n\nprint_r($matches[0]);

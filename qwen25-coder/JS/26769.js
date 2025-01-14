@@ -1,1 +1,0 @@
-// Sending a PUT request using fetch\nfetch('https://example.com/resource', {\n  method: 'PUT', // Specify the HTTP method\n  headers: {\n    'Content-Type': 'application/json',\n  },\n  body: JSON.stringify({\n    key: 'value'\n  })\n})\n.then(response => response.json())\n.then(data => console.log('Success:', data))\n.catch((error) => console.error('Error:', error));

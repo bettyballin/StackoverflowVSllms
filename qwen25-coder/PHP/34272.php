@@ -1,1 +1,0 @@
-// Language Construct\necho 'Hello, World!';\n\n// Built-in Function\n$result = strpos('Hello, World!', 'World');

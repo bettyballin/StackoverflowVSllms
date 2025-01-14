@@ -1,1 +1,0 @@
-<authentication mode="Forms">\n    <forms loginUrl="~/Login.aspx" timeout="2880" />\n  </authentication>

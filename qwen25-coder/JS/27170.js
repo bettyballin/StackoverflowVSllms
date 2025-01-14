@@ -1,1 +1,0 @@
-function adjustPageForWidget() {\n    const widget = document.getElementById('your-widget-id'); // Replace with your widget ID\n    if (!widget) return;\n\n    const widgetHeight = widget.offsetHeight;\n    document.body.style.marginBottom = `${widgetHeight}px`;\n}\n\n// Call this function after the DOM has loaded and your widget is in place\nwindow.onload = adjustPageForWidget;

@@ -1,1 +1,0 @@
-var iisAdmin = new ActiveXObject("IISAdmin");\niisAdmin.OpenMetabase(Server.MapPath("/"), 0);

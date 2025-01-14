@@ -1,1 +1,0 @@
--- Example of adding a default constraint to a table for automatic datetime insertion\nALTER TABLE YourTableName\nADD CONSTRAINT DF_YourTableName_CurrentTimestamp DEFAULT (GETDATE()) FOR YourDateTimeColumn;

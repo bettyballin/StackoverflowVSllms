@@ -1,1 +1,0 @@
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">\n  <!-- existing project configuration -->\n  \n  <Target Name="AfterBuild">\n    <ItemGroup>\n      <Files Include="$(OutputPath)\**\*" />\n    </ItemGroup>\n    <Copy SourceFiles="@(Files)" DestinationFolder="C:\YourDestinationFolder" SkipUnchangedFiles="true" />\n  </Target>\n</Project>

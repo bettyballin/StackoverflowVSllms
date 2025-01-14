@@ -1,1 +1,0 @@
-<% form_remote_for(@news, :url => {:action => 'create'}, :html => { :'data-remote-before' => 'myFunction()' }) do |f| %>

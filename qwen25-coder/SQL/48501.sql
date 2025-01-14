@@ -1,1 +1,0 @@
-INSERT INTO website_config (config_key, config_value) \nVALUES ('common_homepage_content', '<html>Your common homepage content here</html>');

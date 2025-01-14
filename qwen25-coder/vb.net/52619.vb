@@ -1,1 +1,0 @@
-' Explicitly declaring the variable with Integer type\nDim var1 As Integer\nvar1 = 10\n\n' Performing an operation assuming var1 is an integer\nConsole.WriteLine(var1 + 5) ' This will correctly output 15

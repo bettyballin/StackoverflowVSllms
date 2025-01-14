@@ -1,1 +1,0 @@
-import requests\nfrom PIL import Image\nfrom io import BytesIO\n\n# Download the image using requests (similar to curl)\nresponse = requests.get('http://example.com/image.jpg')\nimage_data = response.content\n\n# Open the image and get dimensions\nimage = Image.open(BytesIO(image_data))\nwidth, height = image.size\n\nprint(f"Image dimensions: {width}x{height}")

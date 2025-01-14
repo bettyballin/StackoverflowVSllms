@@ -1,1 +1,0 @@
-CREATE TABLE authors (\n    author_id SERIAL PRIMARY KEY,\n    name VARCHAR(100)\n);\n\nCREATE TABLE books (\n    book_id SERIAL PRIMARY KEY,\n    title VARCHAR(255),\n    author_id INT,\n    FOREIGN KEY (author_id) REFERENCES authors(author_id)\n    ON UPDATE CASCADE\n    ON DELETE SET NULL\n);

@@ -1,1 +1,0 @@
-ALTER TABLE my_table MODIFY id CHAR(36) PRIMARY KEY;\n   INSERT INTO my_table (id, b) VALUES (UUID(), 1);

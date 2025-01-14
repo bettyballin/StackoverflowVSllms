@@ -1,1 +1,0 @@
-// Example in Controller1.php\n$data['controller_name'] = 'Controller1';\n$this->load->view('my_view', $data);\n\n// Example in Controller2.php\n$data['controller_name'] = 'Controller2';\n$this->load->view('my_view', $data);

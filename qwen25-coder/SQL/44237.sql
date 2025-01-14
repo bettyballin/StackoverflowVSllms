@@ -1,1 +1,0 @@
-CREATE INDEX IX_Customers_City ON Customers(City);\n\n-- Rerun the query with the new index.\nSELECT FirstName, LastName FROM Customers WHERE City = 'New York';

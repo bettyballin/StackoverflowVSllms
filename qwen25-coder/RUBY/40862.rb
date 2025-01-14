@@ -1,1 +1,0 @@
-# config/routes.rb\nresources :suggestions, only: [:autocomplete]

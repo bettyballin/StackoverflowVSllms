@@ -1,1 +1,0 @@
-import pyautogui\n\n# Move the mouse to a specific position (x, y)\npyautogui.moveTo(100, 150)\n\n# Click at the current mouse position\npyautogui.click()\n\n# Perform a double-click at a specified location\npyautogui.doubleClick(300, 400)

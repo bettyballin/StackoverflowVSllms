@@ -1,1 +1,0 @@
-function FindProxyForURL(url, host) {\n    if (isInNet(host, "10.0.0.0", "255.0.0.0")) {\n        return "PROXY intranetproxy.nyc:8080";\n    } else {\n        return "DIRECT";\n    }\n}

@@ -1,1 +1,0 @@
--- Basic UTPLSQL Example\n   CREATE OR REPLACE PACKAGE body ut_example AS\n\n     PROCEDURE test_addition IS\n       expected NUMBER := 5;\n       actual NUMBER;\n     BEGIN\n       -- Assume add_numbers is a function that adds two numbers\n       actual := pkg_calculator.add_numbers(2,3);\n       \n       ut.expect(actual).to_equal(expected);\n     END;\n   END ut_example;

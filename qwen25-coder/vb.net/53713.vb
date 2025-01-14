@@ -1,1 +1,0 @@
-Private Sub FlowLayoutPanel_Resize(sender As Object, e As EventArgs) Handles flowLayoutPanel.Resize\n    ' Resize your controls here...\n\n    ' Refresh the FlowLayoutPanel to ensure layout is updated\n    flowLayoutPanel.Refresh()\n\n    ' Force the scrollbars to be recalculated based on the content size\n    flowLayoutPanel.AdjustFormScrollbars(True)\nEnd Sub

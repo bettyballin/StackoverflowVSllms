@@ -1,1 +1,0 @@
-// Example of using localStorage in HTML5 for offline data storage\nwindow.onload = function() {\n    // Store data\n    localStorage.setItem('name', 'John Doe');\n\n    // Retrieve data\n    var name = localStorage.getItem('name');\n    console.log(name);  // Output: John Doe\n\n    // Remove data\n    localStorage.removeItem('name');\n};

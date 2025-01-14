@@ -1,1 +1,0 @@
-<?php\n   require 'vendor/autoload.php';\n\n   $geshi = new \SebastianBergmann\PHPSyntaxHighlighter\Engine();\n   $highlightedCode = $geshi->highlightFile('path/to/file');\n   echo $highlightedCode;\n   ?>

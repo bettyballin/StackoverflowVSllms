@@ -1,1 +1,0 @@
-// config.php\n\n<?php\nini_set('memory_limit', '128M');\nset_time_limit(30);\n\n// Disable dangerous PHP functions\n$disabledFunctions = ['exec', 'shell_exec', 'system', 'passthru', 'popen'];\nini_set('disable_functions', implode(',', $disabledFunctions));\n?>

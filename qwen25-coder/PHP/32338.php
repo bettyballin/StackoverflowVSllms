@@ -1,1 +1,0 @@
-$content = preg_replace_callback(\n    '/[\x80-\xff]/',\n    create_function( '$j', 'return "&#".ord($j[0]).";";' ),\n    $content);

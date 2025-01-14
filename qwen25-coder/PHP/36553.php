@@ -1,1 +1,0 @@
-$ch = curl_init($url);\n   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n   curl_setopt($ch, CURLOPT_FAILONERROR, true);\n   curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // Use with caution!

@@ -1,1 +1,0 @@
-CREATE GLOBAL TEMPORARY TABLE temp_table (\n    id NUMBER,\n    name VARCHAR2(50)\n) ON COMMIT PRESERVE ROWS;\n\n-- Create an index during your session\nCREATE INDEX temp_table_idx ON temp_table(id);

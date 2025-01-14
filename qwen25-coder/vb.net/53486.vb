@@ -1,1 +1,0 @@
-Dim query = From c In context.Table Where c.Name.StartsWith("ber10") Select c

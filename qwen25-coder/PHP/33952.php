@@ -1,1 +1,0 @@
-<?php echo $this->fetchForm('user', 'login') ?>

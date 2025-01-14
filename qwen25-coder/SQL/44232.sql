@@ -1,1 +1,0 @@
--- Disable all constraints\nEXEC sp_MSforeachtable "ALTER TABLE ? NOCHECK CONSTRAINT ALL";\n\n-- Perform your insert operations here\n\n-- Re-enable all constraints\nEXEC sp_MSforeachtable "ALTER TABLE ? WITH CHECK CHECK CONSTRAINT ALL";

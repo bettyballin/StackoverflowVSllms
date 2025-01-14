@@ -1,1 +1,0 @@
-Private Function Test()\n    ' Fill the combobox\n    Call FillComboBoxFromMDB(frmMyForm.cmbMyCombo, "Database.mdb", "SELECT MyTable.MyText FROM MyTable")\nEnd Functio

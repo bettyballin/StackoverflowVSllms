@@ -1,1 +1,0 @@
--- Example SQL Script to illustrate creating an Alter procedure.\nCREATE PROCEDURE [dbo].[YourStoredProcedure]\nAS\nBEGIN\n    -- Old Stored Procedure Code\nEND;\nGO\n\nALTER PROCEDURE [dbo].[YourStoredProcedure]\nAS\nBEGIN\n    -- New Stored Procedure Code\nEND;\nGO

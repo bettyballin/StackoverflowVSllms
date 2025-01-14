@@ -1,1 +1,0 @@
-CREATE TABLE AutoInc (\n       TableName NVARCHAR(255) NOT NULL,\n       ColumnName NVARCHAR(255) NOT NULL,\n       NextValue INT NOT NULL DEFAULT 0,\n       PRIMARY KEY (TableName, ColumnName)\n   );

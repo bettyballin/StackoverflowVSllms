@@ -1,1 +1,0 @@
-# urls.py\n   from django.conf import settings\n   from django.conf.urls.static import static\n\n   urlpatterns = [\n       # your existing patterns here\n   ]\n\n   if settings.DEBUG:\n       urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

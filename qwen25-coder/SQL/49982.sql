@@ -1,1 +1,0 @@
-SET @sql = NULL;\nSELECT GROUP_CONCAT(column_name)\nINTO @sql\nFROM information_schema.columns\nWHERE table_schema = 'your_database'\nAND table_name = 'TABLE';\n\n-- Construct the final SELECT statement\nSET @sql = CONCAT('SELECT ', @sql, ' FROM TABLE');\nPREPARE stmt FROM @sql;\nEXECUTE stmt;\nDEALLOCATE PREPARE stmt;

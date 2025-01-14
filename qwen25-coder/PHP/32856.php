@@ -1,1 +1,0 @@
-$currentDir = getcwd();\necho "Current working directory: " . $currentDir;

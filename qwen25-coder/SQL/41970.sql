@@ -1,1 +1,0 @@
-SELECT * FROM all_identifiers WHERE name = 'YOUR_TABLE_NAME';

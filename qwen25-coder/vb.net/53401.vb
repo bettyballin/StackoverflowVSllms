@@ -1,1 +1,0 @@
-Dim dropdownlist As New DropDownList()\ndropdownlist.DataSource = New String() {"one", "two"}\nDim databoundCalled As Boolean = False\n\n' Use Sub for actions that do not return a value\nAddHandler dropdownlist.DataBound, Sub(o, e) databoundCalled = True\n\ndropdownlist.DataBind()\n\n' Now databoundCalled should be True after DataBind is called\nConsole.WriteLine(databoundCalled)

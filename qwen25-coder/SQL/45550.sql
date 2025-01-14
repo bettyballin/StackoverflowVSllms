@@ -1,1 +1,0 @@
--- Combined CustomersOrders Table\nCREATE TABLE CustomersOrders (\n    OrderID INT PRIMARY KEY,\n    Name VARCHAR(100),\n    Email VARCHAR(150),\n    OrderDate DATE\n);

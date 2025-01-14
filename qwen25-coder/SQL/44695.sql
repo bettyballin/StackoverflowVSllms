@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION getThirdPartyData\nRETURN SYS_REFCURSOR\nAS LANGUAGE JAVA NAME 'getThirdPartyData.getData() return java.sql.ResultSet';\n/

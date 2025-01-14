@@ -1,1 +1,0 @@
-CREATE TABLE `session_data` (\n  `id` char(32) NOT NULL,\n  `modified` int unsigned DEFAULT '0' NOT NULL,\n  `lifetime` mediumint unsigned DEFAULT '0' NOT NULL,\n  `data` text NOT NULL,\n  PRIMARY KEY (`id`)\n);

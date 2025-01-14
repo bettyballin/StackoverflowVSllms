@@ -1,1 +1,0 @@
-CREATE TABLE user_reading_status (\n        user_id INT,\n        news_item_id INT,\n        read TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\n        PRIMARY KEY (user_id, news_item_id),\n        FOREIGN KEY (user_id) REFERENCES users(id),\n        FOREIGN KEY (news_item_id) REFERENCES news_items(id)\n    );

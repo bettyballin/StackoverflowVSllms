@@ -1,1 +1,0 @@
-SELECT 'true'\nWHERE 3 NOT IN (1, 2)\n  AND 3 IS NOT NULL;

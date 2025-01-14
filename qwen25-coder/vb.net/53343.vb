@@ -1,1 +1,0 @@
-Do While (((VB$t_i4$L1 >> &H1F) Xor i) <= ((VB$t_i4$L1 >> &H1F) Xor VB$t_i4$L0))\n    Console.WriteLine(i)\n    i = (i + VB$t_i4$L1)\nLoop

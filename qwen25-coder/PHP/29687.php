@@ -1,1 +1,0 @@
-<?php\n  function callback($buffer)\n  {\n    // Regular expression to remove all comments except IE conditional comments\n    return preg_replace('/<!--(?!\\[if|<!)(.*?)(?=-->)-->/', '', $buffer);\n  }\n\n  ob_start("callback");\n?>\n... HTML source goes here ...\n<?php \n  ob_end_flush(); \n?>

@@ -1,1 +1,0 @@
-SELECT b.bar_id, b.foo_id, b.timestamp\nFROM bar b\nJOIN (\n    SELECT foo_id, MAX(timestamp) AS latest_timestamp\n    FROM bar\n    GROUP BY foo_id\n) max_time ON b.foo_id = max_time.foo_id AND b.timestamp = max_time.latest_timestamp;

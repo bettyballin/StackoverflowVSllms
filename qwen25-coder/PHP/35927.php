@@ -1,1 +1,0 @@
-<?php\nrequire_once(__DIR__ . '/Connections/connComparisonLogin.php');\n?>

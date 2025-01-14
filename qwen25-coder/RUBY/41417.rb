@@ -1,1 +1,0 @@
-install.packages("mediation")\ninstall.packages("MASS") # For datasets; not strictly required for mediation package\nlibrary(mediation)\nlibrary(MASS) # Example dataset

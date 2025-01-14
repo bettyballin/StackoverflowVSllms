@@ -1,1 +1,0 @@
-// Select all table elements in the document\nconst tables = document.querySelectorAll('table');\n\n// Iterate over the NodeList and remove each table\ntables.forEach(table => {\n    table.parentNode.removeChild(table);\n});

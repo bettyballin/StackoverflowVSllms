@@ -1,1 +1,0 @@
-SELECT tab FROM tableA tab WHERE tab.colA IN (:colValues)

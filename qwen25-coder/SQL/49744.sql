@@ -1,1 +1,0 @@
-SELECT *\nFROM YourView WITH (NOLOCK);

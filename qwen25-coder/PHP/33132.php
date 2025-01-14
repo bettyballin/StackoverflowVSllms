@@ -1,1 +1,0 @@
-<?php\ntry {\n    $db = new PDO('sqlite:example.db');\n    // Perform database operations here...\n} catch (PDOException $e) {\n    echo 'Connection failed: ' . $e->getMessage();\n}\n?>

@@ -1,1 +1,0 @@
-ALTER SYSTEM SET data_checksums = on;\n     pg_resetwal -D <path-to-data-directory>

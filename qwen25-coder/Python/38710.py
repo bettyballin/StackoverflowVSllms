@@ -1,1 +1,0 @@
-def snapToGrid(originalPos, offset, step):\n    index = int((originalPos - offset) / step)  # truncates the remainder away\n    return index * step + offset

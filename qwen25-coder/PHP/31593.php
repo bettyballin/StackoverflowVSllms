@@ -1,1 +1,0 @@
-$csvDataClean = str_replace(["\r\n", "\n", "\r"], '', $csvData);

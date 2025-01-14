@@ -1,1 +1,0 @@
-app.get('/api/filterData', function(req, res) {\n       var id = req.query.id;\n       // Logic to fetch filtered data based on the selected item ID from your dataset\n       var filteredData = [{ /* filtered data */ }];\n       res.json(filteredData);\n   });

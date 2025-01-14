@@ -1,1 +1,0 @@
-let bar = { baz: "qqqq" };\n\nbar = new Proxy(bar, {\n    apply(target, thisArg, argumentsList) {\n        return () => { console.log("Called as function!"); }; // Define what should happen when called as a function\n    }\n});\n\nconsole.log(bar.baz); // Outputs: qqqq\nbar(); // Outputs: Called as function!

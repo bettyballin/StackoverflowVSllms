@@ -1,1 +1,0 @@
-paths = [f'{dir_name}/{file_name}' for dir_name, file_name in zip(directories, files)]\n\n# Printing each path on a new line\nfor path in paths:\n    print(path)

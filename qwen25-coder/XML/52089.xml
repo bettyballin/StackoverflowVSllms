@@ -1,1 +1,0 @@
-<xs:element name="YourCalculatedColumn" type="xs:boolean" /> <!-- or any other type -->

@@ -1,1 +1,0 @@
-async function fetchData() {\n    const response = await fetch('data.json');\n    const data = await response.json();\n    document.getElementById('demo').innerHTML = JSON.stringify(data);\n}

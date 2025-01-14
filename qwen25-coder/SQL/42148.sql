@@ -1,1 +1,0 @@
-USE YourDatabaseName;\nGO\n\n-- Reorganize all indexes on all tables in the database\nEXEC sp_MSForEachTable @command1="print '?' DBCC INDEXDEFRAG (0, '?')"\n\n-- Or rebuild all indexes with a fill factor of 90\nEXEC sp_MSForEachTable @command1="print '?' ALTER INDEX ALL ON ? REBUILD WITH (FILLFACTOR = 90)"\nGO

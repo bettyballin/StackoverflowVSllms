@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    function setXaml(xamlContent) {\n        var silverlightControl = document.getElementById("SilverlightControl");\n        if (silverlightControl && silverlightControl.Content != null) {\n            silverlightControl.IsAsync = true;\n            silverlightControl.Content = xamlContent;\n        }\n    }\n</script>

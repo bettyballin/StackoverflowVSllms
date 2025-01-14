@@ -1,1 +1,0 @@
-log(sprintf("self::$CLASS %s entering", $METHOD));

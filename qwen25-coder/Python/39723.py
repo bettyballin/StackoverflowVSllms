@@ -1,1 +1,0 @@
-# urls.py\nfrom django.urls import path\nfrom .views import add_comment\n\nurlpatterns = [\n    path('add-comment/', add_comment, name='add_comment'),\n]

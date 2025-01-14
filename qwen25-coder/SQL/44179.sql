@@ -1,1 +1,0 @@
-SELECT alias_name FROM Alias WHERE canonical_name = 'microsoft';

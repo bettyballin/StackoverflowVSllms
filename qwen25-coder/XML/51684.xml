@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.seleniumhq.selenium</groupId>\n    <artifactId>selenium-java</artifactId>\n    <version>4.0.0</version>\n</dependency>

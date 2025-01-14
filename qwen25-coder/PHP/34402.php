@@ -1,1 +1,0 @@
-<?php\n   echo "<style>";\n   include 'path/to/your/style.css';\n   echo "</style>";\n\n   // Your highlighting code here\n   ?>

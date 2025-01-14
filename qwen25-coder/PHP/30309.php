@@ -1,1 +1,0 @@
-class MyObject {\n    public $foo;\n    public $bar;\n\n    public function __construct($foo, $bar) {\n        $this->foo = $foo;\n        $this->bar = $bar;\n    }\n}\n\n$myObject = new MyObject('bla', 2);

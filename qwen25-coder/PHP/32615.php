@@ -1,1 +1,0 @@
-$this->load->library('ion_auth');\n\n     if($this->ion_auth->login('email', 'password'))\n     {\n         // Redirect them to the dashboard or something\n         redirect('auth/dashboard', 'refresh');\n     }

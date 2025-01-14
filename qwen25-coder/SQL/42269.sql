@@ -1,1 +1,0 @@
-CREATE TABLE Dim_Organization (\n    OrganizationSK INT IDENTITY(1,1) PRIMARY KEY,\n    OrganizationID INT NOT NULL UNIQUE,\n    OrganizationName NVARCHAR(255)\n);

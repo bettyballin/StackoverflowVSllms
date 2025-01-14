@@ -1,1 +1,0 @@
-// completion toggling\n$('.item input').click(function() {\n    var self = $(this); // Store the jQuery object for later use\n    $.post('complete.php', {item: this.id}, function() {\n        self.parent().fadeOut('slow'); // Use stored variable instead of `this`\n    });\n});

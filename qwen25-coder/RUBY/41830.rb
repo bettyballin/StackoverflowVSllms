@@ -1,1 +1,0 @@
-Rack::Attack.throttle('api by ip', limit: 100, period: 5.minutes) do |req|\n  req.ip\nend

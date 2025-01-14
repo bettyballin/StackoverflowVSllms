@@ -1,1 +1,0 @@
-LIST(\n    CASE \n        WHEN tblWOService.PricePerVehicle IS NULL THEN ' '\n        ELSE FORMAT(tblWOService.PricePerVehicle, '0.00')\n    END,\n    ';'\n) AS PriceList

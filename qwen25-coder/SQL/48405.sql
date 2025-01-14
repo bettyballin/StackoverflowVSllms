@@ -1,1 +1,0 @@
-CREATE NONCLUSTERED INDEX idx_UsageLog_Date_UserID\nON UsageLog (date)\nINCLUDE (userID);

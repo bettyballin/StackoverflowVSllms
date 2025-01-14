@@ -1,1 +1,0 @@
-# Example for current trend from midnight to the next midnight\ncurrent_trend = hits("Jan 11, 00:00", "Jan 12, 00:00")\n\n# Historic trends for each of the preceding days from midnight to the next midnight\nhistoric_trends = [\n    hits("Jan 10, 00:00", "Jan 11, 00:00"),\n    hits("Jan 9, 00:00", "Jan 10, 00:00"),\n    # Add more days as needed\n]

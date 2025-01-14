@@ -1,1 +1,0 @@
-SELECT TEXT \n   FROM ALL_SOURCE \n   WHERE NAME = 'your_procedure_name' \n   AND TYPE = 'PROCEDURE'\n   ORDER BY LINE;

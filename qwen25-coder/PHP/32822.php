@@ -1,1 +1,0 @@
-$title = "<script>alert('XSS');</script>";\n$safeTitle = htmlspecialchars($title, ENT_QUOTES, 'UTF-8');\necho "<title>$safeTitle</title>";

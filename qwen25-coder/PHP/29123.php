@@ -1,1 +1,0 @@
-class Login extends CI_Controller {\n\n    public function __construct() {\n        parent::__construct();\n    }\n\n    public function index() {\n        $this->load->library('smarty');\n        $this->mysmarty->assign('title', 'Login');\n        $this->mysmarty->assign('site_media', $this->config->item('site_media'));\n        $this->mysmarty->display('smarty.tpl');\n    }\n}

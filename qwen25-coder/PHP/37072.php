@@ -1,1 +1,0 @@
-// Using mysqli\n$conn = new mysqli("hostname", "username", "password", "database");\n// Do something with $conn...\n$conn->close();\n\n// Using PDO\ntry {\n    $pdo = new PDO('mysql:host=hostname;dbname=database', 'username', 'password');\n    // Do something with $pdo...\n} catch (PDOException $e) {\n    // Handle error\n}\n$pdo = null;

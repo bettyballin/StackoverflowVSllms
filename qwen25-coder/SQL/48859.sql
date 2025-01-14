@@ -1,1 +1,0 @@
-EXEC sp_rename 'OldObjectName', 'NewObjectName', 'OBJECT_TYPE';

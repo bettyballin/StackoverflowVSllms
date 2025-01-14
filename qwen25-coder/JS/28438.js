@@ -1,1 +1,0 @@
-// To check if the entire page is valid:\nvar isValid = Page_ClientValidate();\nif (isValid) {\n    // The form is valid, proceed with your logic.\n} else {\n    // There are validation errors; do not submit the form.\n}

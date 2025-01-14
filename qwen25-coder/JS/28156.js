@@ -1,1 +1,0 @@
-<script>\n$(document).ready(function(){\n    $('.dropdown').hover(function() {\n        $(this).find('.dropdown-content').toggle();\n    });\n});\n</script>

@@ -1,1 +1,0 @@
-<?php\n$string = "This is a test";\n$pattern = '/(is|a)/';\npreg_match_all($pattern, $string, $matches);\n\n$capturedGroups = $matches[1]; // This will be ['is', 'is', 'a']\n$result = implode(" ", $capturedGroups); // Join them with a space\n\necho $result; // Outputs: is is a\n?>

@@ -1,1 +1,0 @@
-SELECT * FROM someTable \nWHERE someColumn = value1 \n   OR someColumn = value2 \n   OR someColumn = value3;

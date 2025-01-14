@@ -1,1 +1,0 @@
-// Ensure all edits are committed and end the current edit on the DataGridView\ndataGridView1.CommitEdit(DataGridViewDataErrorContexts.Commit);\ndataGridView1.EndEdit();\n\n// Now copy the dataset\nDataset2 = DirectCast(Dataset1.Copy(), dsApplication);

@@ -1,1 +1,0 @@
--- Create a temporary table to hold the dataset\nCREATE TABLE #MyDATASET AS\nSELECT x as col1, y as col2, z as col3 FROM table1\nUNION ALL\nSELECT k as col1, l as col2, m as col3 FROM table2;\n\n-- Now you can run queries on this temporary table\nSELECT * FROM #MyDATASET;

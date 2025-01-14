@@ -1,1 +1,0 @@
-DELETE FROM pagelinks pl USING page p \nWHERE pl.pl_from = p.page_id\nWITH (index_scan)\nWHERE p.page_id IS NULL;

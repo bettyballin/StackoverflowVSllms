@@ -1,1 +1,0 @@
-<?php\n\n// Assuming $soapClient and $params are already defined\n$command = escapeshellcmd('php -r "require(\'path/to/your/nusoap-script.php\'); sendVoiceBroadcast(\'' . json_encode($params) . '\');" > /dev/null 2>&1 &');\n\nexec($command);\n\nfunction sendVoiceBroadcast($params) {\n    // Your nusoap client code here\n    $soapClient->call('send', $params);\n}\n\n?>

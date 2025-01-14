@@ -1,1 +1,0 @@
-document.getElementById('yourElementId').addEventListener('click', foo);

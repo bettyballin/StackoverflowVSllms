@@ -1,1 +1,0 @@
-$msgs = mysql_num_rows(mysql_query("SELECT * FROM messages WHERE recipient = $userID AND `read` = 0"));\n\necho $msgs;

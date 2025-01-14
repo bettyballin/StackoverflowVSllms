@@ -1,1 +1,0 @@
-WITH ordered_rows AS (\n    SELECT ROWID, d\n      FROM example\n     WHERE <the_where_clause>\n     ORDER BY d\n)\nSELECT e.a, e.b, expensive_procedure(e.c)\n  FROM example e\n  JOIN ordered_rows o ON e.ROWID = o.ROWID;

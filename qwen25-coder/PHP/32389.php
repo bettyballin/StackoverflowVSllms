@@ -1,1 +1,0 @@
-// Escaping $ in preg_replace\n$tmpStr = preg_replace('/\$/', '\\$', $tmpStr);

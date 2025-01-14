@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\nheader('Content-Type: application/json');\nif (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {\n    echo json_encode(['authenticated' => true]);\n} else {\n    echo json_encode(['authenticated' => false]);\n}\n?>

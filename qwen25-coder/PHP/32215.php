@@ -1,1 +1,0 @@
-class Logger {\n       private $logFile;\n\n       public function __construct($file) {\n           $this->logFile = fopen($file, 'a');\n       }\n\n       public function log($message) {\n           fwrite($this->logFile, date('Y-m-d H:i:s') . " - {$message}\n");\n       }\n\n       public function close() {\n           fclose($this->logFile);\n       }\n   }

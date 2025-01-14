@@ -1,1 +1,0 @@
-SELECT tablespace_name, SUM(bytes)/1048576 "Free MB"\n   FROM dba_free_space WHERE tablespace_name = 'UNDOTBS'\n   GROUP BY tablespace_name;

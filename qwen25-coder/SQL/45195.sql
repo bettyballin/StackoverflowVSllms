@@ -1,1 +1,0 @@
-INSERT INTO xml_documents (doc_id, xml_data) VALUES (\n    1, \n    XMLType('<document><content>Hello, XML!</content></document>')\n);

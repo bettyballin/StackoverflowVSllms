@@ -1,1 +1,0 @@
-SELECT uid, timestamp\nFROM node_revisions\nWHERE nid = 51 AND timestamp = (\n    SELECT MAX(timestamp)\n    FROM node_revisions\n    WHERE nid = 51\n);

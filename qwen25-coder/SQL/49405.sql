@@ -1,1 +1,0 @@
-WHERE id BETWEEN @firstId and @lastId\n   OPTION (RECOMPILE);

@@ -1,1 +1,0 @@
-use Respect\Stringifier\Str;\n\n   $name = new Str("  john doe ");\n   print($name->upper()->trim()); // Outputs: JOHN DOE

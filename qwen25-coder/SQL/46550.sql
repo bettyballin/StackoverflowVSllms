@@ -1,1 +1,0 @@
-SELECT Customers.CustomerID, Customers.Name, Orders.OrderID, Orders.OrderDate\nFROM Customers\nLEFT OUTER JOIN Orders ON Orders.CustomerID = Customers.CustomerID;

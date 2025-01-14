@@ -1,1 +1,0 @@
-use Symfony\Component\DependencyInjection\ContainerBuilder;\n   use Symfony\Component\DependencyInjection\Reference;\n\n   $container = new ContainerBuilder();\n   $container->register('mailer', Swift_Mailer::class)\n       ->setArguments([new Reference('transport')]);

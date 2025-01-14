@@ -1,1 +1,0 @@
-SELECT *\nFROM YourTable\nWHERE \n    (YourDateTimeField IS NOT NULL AND\n    (\n        LEN(YourDateTimeField) <> 10 OR -- Check length\n        PATINDEX('%[0-9][0-9]/[0-9][0-9]/[0-9][0-9][0-9][0-9]%', YourDateTimeField) = 0 OR -- Check format\n        ISDATE(CONVERT(CHAR(10), YourDateTimeField, 103)) = 0 -- Ensure date is valid in the specified format\n    )\n    );

@@ -1,1 +1,0 @@
-$submit = new Zend_Form_Element_Submit('dummyName'); // dummy name is required but will be unset in helper\n$submit->setDecorators(array(array('FormSubmitNoName')))\n       ->setLabel('Go')\n       ->setValue('go');\n\n$form->addElement($submit);

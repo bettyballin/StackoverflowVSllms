@@ -1,1 +1,0 @@
-var xml = new XMLHttpRequest();\n   xml.open("GET", myRequestURL, true);\n   xml.onreadystatechange = function() {\n       if (xml.readyState === 4) { // Check if the request is complete\n           console.log('Response received:', xml.responseText);\n       }\n   };\n   xml.send(null);

@@ -1,1 +1,0 @@
-function echoArrayKeyIfExists($array, $key, $defaultValue = '') {\n    return isset($array[$key]) ? $array[$key] : $defaultValue;\n}\n\n// Usage:\necho echoArrayKeyIfExists($arrayVar, 'parameter');

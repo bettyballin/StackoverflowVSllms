@@ -1,1 +1,0 @@
-SELECT \n    o.name AS offer, \n    COUNT(c.id) AS clicks, \n    SUM(IF(c.conversionDate IS NOT NULL, o.commission, 0)) AS revenue\nFROM \n    clicks c\nJOIN \n    offers o ON c.offerID = o.ID \nGROUP BY \n    o.ID;

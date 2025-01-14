@@ -1,1 +1,0 @@
-<configuration>\n  <system.web.extensions>\n    <scripting>\n      <webServices>\n        <scriptResourceHandling enableCompression="true" enableCaching="true"/>\n      </webServices>\n    </scripting>\n  </system.web.extensions>\n</configuration>

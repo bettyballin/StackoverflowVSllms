@@ -1,1 +1,0 @@
-$.ajax({\n    type: "POST",\n    url: "/path/to/file.php",  // Use the correct URL relative to your site root\n    data: theData,\n    success: function() {\n        $('div#success').fadeIn('fast');\n    }\n});

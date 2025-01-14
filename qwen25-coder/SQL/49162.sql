@@ -1,1 +1,0 @@
--- Example Oracle function to handle conversion from NULL to ''\nCREATE OR REPLACE FUNCTION convert_null_to_empty (p_value VARCHAR2) RETURN VARCHAR2 AS\nBEGIN\n  RETURN NVL(p_value, '');\nEND convert_null_to_empty;

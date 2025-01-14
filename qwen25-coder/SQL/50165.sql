@@ -1,1 +1,0 @@
--- Stop tracing for the same module/package\nBEGIN\n  DBMS_MONITOR.SERV_MOD_ACT_TRACE_DISABLE(\n    service_name => 'your_service',\n    module_name => 'your_module'\n  );\nEND;\n/

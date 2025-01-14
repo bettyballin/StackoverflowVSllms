@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- Perform some database operations\nINSERT INTO Table1 (Column1) VALUES ('Value1');\n\nCHECKPOINT; -- This writes dirty pages to disk but does not commit the transaction\n\nCOMMIT;

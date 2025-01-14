@@ -1,1 +1,0 @@
-SELECT * FROM employees WHERE UPPER(email) = 'JOHN.DOE@EXAMPLE.COM';

@@ -1,1 +1,0 @@
-SET @rank = 0;\n\nSELECT \n    student_id,\n    name,\n    gpa,\n    (@rank:=@rank+1) as rank\nFROM students\nORDER BY gpa DESC;

@@ -1,1 +1,0 @@
-window.onbeforeunload = function(e) {\n    // Cancel the event as standard\n    e.preventDefault(); \n    // Chrome requires returnValue to be set\n    e.returnValue = '';\n\n    // Send an AJAX request to log out the session\n    navigator.sendBeacon('/logout');\n};

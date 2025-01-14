@@ -1,1 +1,0 @@
-// Enable Image Style in Drupal to apply styles dynamically\nimage_style_create([\n  'name' => 'thumbnail',\n  'label' => t('Thumbnail'),\n]);

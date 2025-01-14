@@ -1,1 +1,0 @@
-// script.js\n   $(document).ready(function() {\n       $('#myForm').on('submit', function(event) {\n           event.preventDefault();\n           alert('Form submitted!');\n           // Add form submission logic here\n       });\n   });

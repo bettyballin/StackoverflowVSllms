@@ -1,1 +1,0 @@
-ALTER TABLE your_table NOLOGGING;\n   -- After loading data\n   ALTER TABLE your_table LOGGING;

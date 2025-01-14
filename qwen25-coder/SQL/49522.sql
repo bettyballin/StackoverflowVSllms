@@ -1,1 +1,0 @@
-SELECT t1.Foo, t2.Bar\nFROM   table1 t1 \nINNER JOIN table2 t2 ON t1.VarcharKey = t2.VarcharKey\nWHERE  t1.VarcharKey = CAST(N'Foo' AS VARCHAR(11))

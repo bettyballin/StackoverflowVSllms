@@ -1,1 +1,0 @@
-SELECT user\nFROM (\n    SELECT \n        user,\n        action,\n        success,\n        date,\n        ROW_NUMBER() OVER (PARTITION BY user ORDER BY date DESC) as rn\n    FROM your_table_name_here\n    WHERE Date(date) = Date()\n      AND success = 1\n) subquery\nWHERE rn = 1\nAND action = 'login';

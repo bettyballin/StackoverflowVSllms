@@ -1,1 +1,0 @@
-function containsExactNumber(source, comparison) {\n    // Create a regex pattern using the source number and word boundaries\n    const pattern = new RegExp(`\\b${source}\\b`);\n    return pattern.test(comparison);\n}\n\nconst source = "1234";\nconst comparison = "1000 12345 112345 1234 2000";\n\nconsole.log(containsExactNumber(source, comparison)); // Output: true

@@ -1,1 +1,0 @@
-// Include Parsedown library\nrequire 'Parsedown.php';\n\n// Create a new Parsedown instance\n$Parsedown = new Parsedown();\n\n// Example wiki content in Markdown\n$wikiContent = "# Hello World\nThis is a simple *example* of **markdown**.";\n\n// Convert markdown to HTML\n$htmlContent = $Parsedown->text($wikiContent);\n\necho $htmlContent;

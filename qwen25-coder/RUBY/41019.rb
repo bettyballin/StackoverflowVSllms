@@ -1,1 +1,0 @@
-<%= image_tag @document.thumbnail_path if @document.thumbnail_exists? %>

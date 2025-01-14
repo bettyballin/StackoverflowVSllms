@@ -1,1 +1,0 @@
-import hashlib\n\n# Include the newline character to match shell echo output\nprint(hashlib.sha512("test\n").hexdigest())

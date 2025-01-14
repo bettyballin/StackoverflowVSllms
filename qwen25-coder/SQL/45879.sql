@@ -1,1 +1,0 @@
-UPDATE #YourTempTable\nSET LatestDate = GREATEST(DateColumn1, DateColumn2, DateColumn3)\nWHERE YourCondition;

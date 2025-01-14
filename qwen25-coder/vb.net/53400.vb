@@ -1,1 +1,0 @@
-Dim _StreamReader As New StreamReader(mystream)

@@ -1,1 +1,0 @@
-$.ajax({\n  type: "GET",\n  url: "http://www.boobar.com/script.php", // Remove query string, it's added by jQuery\n  dataType: 'jsonp',\n  success: function(result) { \n    alert(result[0]); // Assuming test is the first element of the array\n  },\n  error: function(jqXHR, textStatus, errorThrown) {\n    console.error('Error:', textStatus, errorThrown);\n  }\n});

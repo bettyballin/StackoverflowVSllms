@@ -1,1 +1,0 @@
-class Engine\n{\n    private $loader;\n    private $logger;\n\n    public function __construct(ResourceLoader $loader = null, Logger $logger = null)\n    {\n        $this->loader = $loader ?? new DefaultResourceLoader();\n        $this->logger = $logger ?? new DefaultLogger();\n    }\n}

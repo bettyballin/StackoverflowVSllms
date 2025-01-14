@@ -1,1 +1,0 @@
-#!/usr/bin/env python\n   import cgitb\n   cgitb.enable()\n\n   from mercurial.hgweb import hgweb, wsgicgi\n   wsgicgi.launch(hgweb("c:\\hgrepositories\\hgweb.config"))

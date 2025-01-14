@@ -1,1 +1,0 @@
-CREATE TABLE dynamic_data (\n       entity_id INT REFERENCES entities(id),\n       key VARCHAR(255),\n       value TEXT,\n       PRIMARY KEY (entity_id, key)\n   );

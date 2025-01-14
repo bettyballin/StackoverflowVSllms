@@ -1,1 +1,0 @@
-SELECT \n    b.id AS post_id,\n    b.title,\n    b.text,\n    u.id AS user_id,\n    u.username,\n    u.email\nFROM \n    relations r\nJOIN \n    blog b ON b.user_id = r.following_id OR (b.user_id = {$user_id} AND r.follower_id = {$user_id})\nJOIN \n    users u ON u.id = b.user_id\nWHERE \n    r.follower_id = {$user_id}\nORDER BY \n    b.posted DESC;

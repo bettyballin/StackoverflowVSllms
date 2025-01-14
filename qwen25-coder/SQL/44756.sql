@@ -1,1 +1,0 @@
-SELECT call_dot_net();

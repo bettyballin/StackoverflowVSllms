@@ -1,1 +1,0 @@
-USE msdb;\n   GO\n   CREATE ROLE JobEditors;\n   GO

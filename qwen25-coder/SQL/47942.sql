@@ -1,1 +1,0 @@
-CREATE TABLE Customers (\n    CustomerID int PRIMARY KEY,\n    CustomerName varchar(255)\n);\n\nCREATE TABLE Orders (\n    OrderID int PRIMARY KEY,\n    OrderNumber int NOT NULL,\n    CustomerID int,\n    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)\n);

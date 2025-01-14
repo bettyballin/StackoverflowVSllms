@@ -1,1 +1,0 @@
-require 'pry'\n\n  def some_method\n    variable1 = "Hello"\n    variable2 = "World"\n\n    # Using Pry for an enhanced interactive session\n    binding.pry\n\n    puts "#{variable1}, #{variable2}!"\n  end\n\n  some_method

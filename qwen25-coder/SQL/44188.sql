@@ -1,1 +1,0 @@
-ALTER TABLE Users \nADD CONSTRAINT [IX_UniqueUserUserName] UNIQUE NONCLUSTERED ([UserName]);

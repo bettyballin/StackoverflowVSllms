@@ -1,1 +1,0 @@
-SELECT 32 - LOG(POW(2, 32) - ip_mask) AS cidr\nFROM subnets;

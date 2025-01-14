@@ -1,1 +1,0 @@
-const eventSource = new EventSource('your-sse-endpoint');\n\neventSource.onmessage = function(event) {\n    const data = JSON.parse(event.data);\n    // Update your page with the data here\n};

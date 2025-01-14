@@ -1,1 +1,0 @@
-EXEC YourStoredProcedure @CustomerId = 123, @CustomerName = 'Example Customer'

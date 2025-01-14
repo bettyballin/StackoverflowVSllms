@@ -1,1 +1,0 @@
-DECLARE @Description NVARCHAR(500);\n\nEXEC GetDescriptionFromDynamicView 'YourViewName', 'YourCode', @Description OUTPUT;\n\nSELECT @Description AS Description;

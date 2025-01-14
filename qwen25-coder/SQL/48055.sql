@@ -1,1 +1,0 @@
-SELECT send_data_over_tcp('127.0.0.1', 5432, 'Hello, server!');

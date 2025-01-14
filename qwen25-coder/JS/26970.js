@@ -1,1 +1,0 @@
-// Using .is(':hidden')\nif ($('#yourElementId').is(':hidden')) {\n    console.log('Element is hidden');\n} else {\n    console.log('Element is visible');\n}\n\n// Alternatively, you can check the computed 'display' style\nif ($('#yourElementId').css('display') === 'none') {\n    console.log('Element is hidden');\n} else {\n    console.log('Element is visible');\n}

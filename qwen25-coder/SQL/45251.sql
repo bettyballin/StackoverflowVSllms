@@ -1,1 +1,0 @@
-SELECT \n    GREATEST(0, LEAST(100, calculated_score)) AS final_score\nFROM (\n    -- Your existing calculation here, e.g.,\n    SELECT (bonus_points + base_score - penalty_points) AS calculated_score\n    FROM your_table\n) AS scores;

@@ -1,1 +1,0 @@
-SELECT \n    ROW_NUMBER() OVER (ORDER BY id) AS row_num,\n    id, \n    name \nFROM \n    people \nWHERE \n    name = 'Spiewak';

@@ -1,1 +1,0 @@
-SELECT SUM(mins_spent) as time_sum \nFROM todos \nWHERE lastUpdate >= DATE_SUB(NOW(), INTERVAL 1 WEEK) \nAND lastUpdate < NOW();

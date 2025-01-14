@@ -1,1 +1,0 @@
-SELECT \n    sAMAccountName,\n    CAST(description AS NVARCHAR(MAX)) AS Description\nFROM \n    OPENQUERY(ADSI, \n              'SELECT sAMAccountName, description \n               FROM ''LDAP://YOUR_DOMAIN'' \n               WHERE objectClass = ''user''')

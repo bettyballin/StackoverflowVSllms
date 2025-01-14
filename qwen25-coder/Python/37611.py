@@ -1,1 +1,0 @@
-def outer():\n       result = inner()\n       # other code\n\n   def inner():\n       pass\n\n   # Now you can test `inner` directly\n   import unittest\n\n   class TestInnerFunction(unittest.TestCase):\n       def test_inner(self):\n           self.assertEqual(inner(), expected_result)

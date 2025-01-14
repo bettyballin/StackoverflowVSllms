@@ -1,1 +1,0 @@
-let componentCounter = 0;\n\nfunction addComponent() {\n    const newId = 'componentid_' + componentCounter++;\n    // Create your component here and set its id attribute\n    const newComponent = document.createElement('div');\n    newComponent.id = newId;\n    document.body.appendChild(newComponent);\n}

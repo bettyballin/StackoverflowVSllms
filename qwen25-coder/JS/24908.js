@@ -1,1 +1,0 @@
-// Parsing XML\n   const parser = new DOMParser();\n   const xmlDoc = parser.parseFromString(xmlString, "text/xml");\n\n   // Using XSLTProcessor\n   const xslProc = new XSLTProcessor();\n   xslProc.importStylesheet(xsltDoc);  // Assuming xsltDoc is a DOMDocument of your XSLT file\n   const resultDoc = xslProc.transformToDocument(xmlDoc);

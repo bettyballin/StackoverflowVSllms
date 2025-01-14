@@ -1,1 +1,0 @@
-<?php\nsession_start();\nif(isset($_SESSION['bbsessionhash'])) {\n    $bbsessionhash = $_SESSION['bbsessionhash'];\n    // Verify session or token if necessary\n    header('Content-Type: application/xml');\n    readfile('path/to/your/data.xml'); // Serve the XML file\n} else {\n    http_response_code(403); // Forbidden\n    echo "Access Denied";\n}\n?>

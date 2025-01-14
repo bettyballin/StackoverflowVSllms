@@ -1,1 +1,0 @@
-function updateContent(newContent) {\n    requestAnimationFrame(function() {\n        container.innerHTML = newContent;\n    });\n}\n\nupdateContent(content);

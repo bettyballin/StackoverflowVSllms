@@ -1,1 +1,0 @@
-CREATE TABLE content_tag_table (\n    id INT PRIMARY KEY IDENTITY(1,1),\n    contentID INT,\n    tagID INT,\n    CONSTRAINT uc_content_tag UNIQUE (contentID, tagID)\n);

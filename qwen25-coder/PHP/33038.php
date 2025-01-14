@@ -1,1 +1,0 @@
-<?php\n$filePath = __DIR__ . '/../../files/zip.zip'; // Adjust the path as necessary\n\nif (file_exists($filePath)) {\n    header('Content-disposition: attachment; filename=zip.zip');\n    header('Content-type: application/zip');\n    readfile($filePath);\n} else {\n    http_response_code(404);\n    echo "File not found.";\n}\n?>

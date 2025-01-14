@@ -1,1 +1,0 @@
-class InputHelper {\n    // Method to sanitize user input\n    public static function sanitizeInput($data) {\n        if (is_array($data)) {\n            return array_map([self::class, 'sanitizeInput'], $data);\n        } else {\n            return htmlspecialchars(trim($data), ENT_QUOTES, 'UTF-8');\n        }\n    }\n}

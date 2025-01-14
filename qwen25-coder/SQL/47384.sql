@@ -1,1 +1,0 @@
-SELECT \n    c.customer_id,\n    COUNT(o.order_id) AS total_orders,\n    SUM(CASE WHEN o.discount = true THEN 1 ELSE 0 END) AS discounted_orders\nFROM \n    customer c\nLEFT JOIN \n    order o ON c.customer_id = o.customer_id\nGROUP BY \n    c.customer_id;

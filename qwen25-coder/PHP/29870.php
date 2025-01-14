@@ -1,1 +1,0 @@
-$curl = curl_init();\ncurl_setopt($curl, CURLOPT_URL, "http://localhost:5000/api/your_endpoint");\ncurl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);\n$output = curl_exec($curl);\ncurl_close($curl);\necho "<pre>$output</pre>";

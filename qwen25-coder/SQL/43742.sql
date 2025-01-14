@@ -1,1 +1,0 @@
--- Example of creating a Full-Text Catalog and Index on VARCHAR(MAX) column\nCREATE FULLTEXT CATALOG MyFullTextCatalog;\nGO\n\nCREATE FULLTEXT INDEX ON dbo.YourTable(Col1)\nKEY INDEX PK_YourTable \nON MyFullTextCatalog;\nGO\n\n-- Example of searching using CONTAINS with Full-Text Index\nSELECT * FROM dbo.YourTable WHERE CONTAINS (Col1, 'MyToken');

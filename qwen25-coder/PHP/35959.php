@@ -1,1 +1,0 @@
-<?php\n    header("Access-Control-Allow-Origin: https://hyves.nl");\n    header("Access-Control-Allow-Methods: GET, POST, OPTIONS");\n    header("Access-Control-Allow-Headers: Content-Type");

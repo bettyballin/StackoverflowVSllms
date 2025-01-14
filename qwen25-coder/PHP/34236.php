@@ -1,1 +1,0 @@
-<?php\n$lockTimeout = 30 * 60; // 30 minutes in seconds\n$query = "UPDATE records SET lock = false WHERE UNIX_TIMESTAMP(lock_time) < UNIX_TIMESTAMP() - ?";\n\n$stmt = $mysqli->prepare($query);\n$stmt->bind_param("i", $lockTimeout);\n$stmt->execute();

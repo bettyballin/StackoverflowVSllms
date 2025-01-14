@@ -1,1 +1,0 @@
-if(isset($_POST['PHPSESSID'])) {\n    session_id($_POST['PHPSESSID']);\n}\nsession_start();\n\n// Now you can access the session variable set in upload.php\necho $_SESSION['path'];

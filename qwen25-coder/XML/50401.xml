@@ -1,1 +1,0 @@
-<Realm className="com.example.LdapJdbcRealm"\n       connectionURL="ldap://ldaphost:389"\n       resourceName="LDAP Auth"\n       userPattern="uid={0}, ou=Portal, dc=example, dc=com"\n       dbJndiName="jdbc/MyDB"/>

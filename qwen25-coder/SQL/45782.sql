@@ -1,1 +1,0 @@
-GRANT SELECT ON schema_name.myTable123 TO your_user;

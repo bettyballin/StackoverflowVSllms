@@ -1,1 +1,0 @@
-$data = [\n    'username' => '<b>admin</b>',\n    'email' => 'example@domain.com'\n];\n\n$filters = [\n    '*'       => ['StripTags', 'StringTrim'],\n    'email' => 'StringToLower'\n];\n\n$input = new Zend_Filter_Input($filters, [], $data);\n\n// Get all filtered data\n$filteredData = $input->getFiltered();\nprint_r($filteredData);

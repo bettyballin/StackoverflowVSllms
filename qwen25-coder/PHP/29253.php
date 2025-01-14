@@ -1,1 +1,0 @@
-$url = 'http://www.example.com/backend.php?/c=crud&m=index&t=care';\n$cleanUrl = str_replace('?/', '?', $url);\necho $cleanUrl;

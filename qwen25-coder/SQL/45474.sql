@@ -1,1 +1,0 @@
-SELECT * FROM T WHERE C LIKE '%a&b%' -- Direct match with special character

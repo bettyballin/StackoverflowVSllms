@@ -1,1 +1,0 @@
-// Assume $auth is an instance of Zend_Auth::getInstance()\n$storage = $auth->getStorage();\n\n// Retrieve current data from storage\n$data = $storage->read();\n\n// Update necessary fields with new profile information\n$data['user_name'] = $newUserName; // Example field update\n// Add other fields as needed\n\n// Write the updated data back to storage\n$storage->write($data);

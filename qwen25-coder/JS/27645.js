@@ -1,1 +1,0 @@
-let car;\n  console.log(car); // Outputs: undefined

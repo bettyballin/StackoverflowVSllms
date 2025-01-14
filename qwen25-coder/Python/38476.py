@@ -1,1 +1,0 @@
-def truncate_text(text, max_length):\n    if len(text) > max_length:\n        return text[:max_length - 3] + "..."\n    return text\n\n# Usage\ntext = "VERYLONGTEXTTHATNEEDSTOTRUNCATED"\ntruncated_text = truncate_text(text, 40)

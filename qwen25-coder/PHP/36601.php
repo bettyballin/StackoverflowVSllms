@@ -1,1 +1,0 @@
-$return_path = "bounce@example.com";\nmail($to_address, $subject, $message, $headers, "-f".$return_path);

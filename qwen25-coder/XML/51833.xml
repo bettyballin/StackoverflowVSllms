@@ -1,1 +1,0 @@
-<!-- config.xml -->\n   <configurations>\n       <set name="set1">\n           <var1>value1</var1>\n           <var2>value2</var2>\n       </set>\n       <set name="set2">\n           <var1>another_value1</var1>\n           <var2>another_value2</var2>\n       </set>\n   </configurations>

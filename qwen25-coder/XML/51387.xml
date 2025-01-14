@@ -1,1 +1,0 @@
-<queryString>\n    <![CDATA[SELECT * FROM your_table WHERE id = $P{yourIntegerParameter} AND name = ${String.valueOf($P{yourIntegerParameter})}]]>\n</queryString>

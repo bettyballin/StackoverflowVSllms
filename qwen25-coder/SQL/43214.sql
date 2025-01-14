@@ -1,1 +1,0 @@
--- SQL command to view details about symmetric keys\n   SELECT * FROM sys.symmetric_keys;

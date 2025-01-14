@@ -1,1 +1,0 @@
-from tree_diff import tree_distance\n\n# Assuming Tree class is defined to hold node data and structure\ntree1 = Tree(...)\ntree2 = Tree(...)\n\ndistance = tree_distance(tree1, tree2)\nprint("Tree edit distance:", distance)

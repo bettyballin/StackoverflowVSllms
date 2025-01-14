@@ -1,1 +1,0 @@
-Public Class ErrorClass\n       Public Shared ReadOnly Property UnknownError As String = "Failed because I don't know about it"\n       Public Shared ReadOnly Property KnownNotFoundError As String = "Failed because I know about it but I can't find it"\n       Public Shared ReadOnly Property OtherError As String = "Failed for another reason"\n   End Class

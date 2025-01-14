@@ -1,1 +1,0 @@
-// configLocal.php (not tracked by git, add to .gitignore)\n<?php\n$servername = "localhost";\n$username = "root";\n$password = "";\n$dbname = "myapp_local";

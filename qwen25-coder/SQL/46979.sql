@@ -1,1 +1,0 @@
-CREATE TABLE YourTableName (\n    YourColumnName INT CHECK (YourColumnName >= 1 AND YourColumnName <= 5),\n    -- other columns...\n);

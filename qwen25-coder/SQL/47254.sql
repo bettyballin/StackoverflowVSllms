@@ -1,1 +1,0 @@
-SELECT TOP 10 cs-uri-stem, COUNT(*) AS HITS \n   FROM ex*.log \n   GROUP BY cs-uri-stem \n   ORDER BY HITS DESC;

@@ -1,1 +1,0 @@
-Private Sub Window1_Loaded(sender As Object, e As RoutedEventArgs) Handles MyBase.Loaded\n    ' Assuming db is already initialized and contains Graphic entities.\n    ListViewImages.ItemsSource = From g In db.Graphic _\n                                 Order By g.DateAdded Ascending _\n                                 Select g\nEnd Sub

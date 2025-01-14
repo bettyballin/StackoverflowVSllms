@@ -1,1 +1,0 @@
-try {\n    $stmt = $pdo->query("SELECT * FROM `table`");\n    if ($stmt === FALSE) {\n        throw new Exception($pdo->errorInfo());\n    } elseif ($stmt->rowCount() > 0) {\n        echo "Rows returned.";\n    } else {\n        echo "No rows returned.";\n    }\n} catch (Exception $e) {\n    die("Error: " . $e->getMessage());\n}

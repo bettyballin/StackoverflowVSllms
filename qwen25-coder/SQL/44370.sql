@@ -1,1 +1,0 @@
-ALTER TABLE stock_items\nADD CONSTRAINT unique_serial UNIQUE (serial_number);\n\n-- Ensure the column allows NULL\n-- Note: If the column was created without allowing NULL, you might need to alter it first.\nALTER TABLE stock_items\nALTER COLUMN serial_number DROP NOT NULL;

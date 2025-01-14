@@ -1,1 +1,0 @@
-DELIMITER //\n\nCREATE PROCEDURE ManagedInsert(in_param1 INT, in_param2 VARCHAR(255))\nBEGIN\n    CALL ProcedureForFirstTrigger(in_param1, in_param2);\n    CALL ProcedureForSecondTrigger(in_param1, in_param2);\nEND; //\n\nDELIMITER ;

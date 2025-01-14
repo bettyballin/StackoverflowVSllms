@@ -1,1 +1,0 @@
-SELECT DISTINCT c.CategoryNumber, c.Desc\nFROM Category c\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM Media m\n    JOIN Sales s ON m.MediaID = s.MediaID\n    WHERE s.EmployeeID = :givenEmployeeID AND m.CategoryNumber = c.CategoryNumber\n);

@@ -1,1 +1,0 @@
-// Create a div element and append it to the body\n$('<div></div>').appendTo('body');

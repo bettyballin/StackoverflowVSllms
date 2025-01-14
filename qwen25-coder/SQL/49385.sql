@@ -1,1 +1,0 @@
-CREATE TABLE birthdays (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(255),\n    birth_date DATE\n);

@@ -1,1 +1,0 @@
-<?xml version="1.0"?>\n<layout version="0.1.0">\n    <feedback_index_index>\n        <reference name="content">\n            <block type="core/template" name="feedback.form" template="feedback/form.phtml"/>\n        </reference>\n    </feedback_index_index>\n</layout>

@@ -1,1 +1,0 @@
-if ( preg_match("/[^a-z0-9_]/i", $username) ) {\n    return true; // This returns true if any illegal character is found\n}

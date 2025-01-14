@@ -1,1 +1,0 @@
-case_instance = Case.find(1)\nassociated_object = case_instance.caseable

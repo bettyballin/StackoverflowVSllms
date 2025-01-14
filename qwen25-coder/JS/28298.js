@@ -1,1 +1,0 @@
-const BOSH_SERVICE = 'http://yourxmppserver:5280/http-bind';\n     const connection = new Strophe.Connection(BOSH_SERVICE);\n     connection.connect("user@example.com", "password", onConnect);\n\n     function onConnect(status) {\n         if (status === Strophe.Status.CONNECTED) {\n             console.log('Connected.');\n         }\n     }

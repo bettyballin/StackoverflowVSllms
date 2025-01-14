@@ -1,1 +1,0 @@
-SELECT\n    CASE WHEN fldField COLLATE SQL_Latin1_General_CP1_CS_AS LIKE 'YYY' THEN 'OTH' ELSE 'XXX' END AS newField\nFROM \n    tmpTable;

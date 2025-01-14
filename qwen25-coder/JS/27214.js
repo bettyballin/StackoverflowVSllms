@@ -1,1 +1,0 @@
-map.addListener('bounds_changed', function() {\n    var bounds = map.getBounds();\n    var ne = bounds.getNorthEast();\n    var sw = bounds.getSouthWest();\n\n    $.get('/your-data-endpoint', {neLat: ne.lat(), neLng: ne.lng(), swLat: sw.lat(), swLng: sw.lng()}, function(data) {\n        // Handle the data and add markers\n    });\n});

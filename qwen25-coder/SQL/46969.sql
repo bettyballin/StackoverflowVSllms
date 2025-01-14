@@ -1,1 +1,0 @@
--- V1__Create_initial_schema.sql\nCREATE TABLE Users (\n    id INT PRIMARY KEY IDENTITY(1,1),\n    username NVARCHAR(50) NOT NULL,\n    email NVARCHAR(100)\n);

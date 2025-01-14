@@ -1,1 +1,0 @@
-SELECT DISTINCT th1.TrnNumber\nFROM TrainHopTbl th1\nJOIN TrainHopTbl th2 ON th1.TrnNumber = th2.TrnNumber\nWHERE th1.StationCode = 'WDC'  -- Source station code\n  AND th2.StationCode = 'NYC'; -- Destination station code

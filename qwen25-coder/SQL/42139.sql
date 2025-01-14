@@ -1,1 +1,0 @@
-CREATE INDEX log_date_idx\nON Log (Date);

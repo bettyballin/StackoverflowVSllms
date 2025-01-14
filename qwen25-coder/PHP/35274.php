@@ -1,1 +1,0 @@
-$comments = "http://www.kiubbo.com/index.php?action=comments&amp;param=" . $articles[$index]->getId();\n\nfwrite($fp, "<item>\n");\nfwrite($fp, " <title>$title</title>\n");\nfwrite($fp, " <link>$comments</link>\n");\nfwrite($fp, "<guid>$comments</guid>\n");\nfwrite($fp, "</item>\n");\n}\nfwrite($fp, "</channel></rss>\n");\nfclose($fp);

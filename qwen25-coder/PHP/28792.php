@@ -1,1 +1,0 @@
-$respond_to = function($format) {\n    if ($format === 'html') {\n        // new.html.php logic here\n    } elseif ($format === 'xml') {\n        // render XML logic here\n    }\n};\n\n$format = 'html'; // or 'xml'\n$respond_to($format);

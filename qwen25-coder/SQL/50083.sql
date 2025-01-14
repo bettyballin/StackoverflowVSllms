@@ -1,1 +1,0 @@
-SELECT TOP(10) col1, col2 \nFROM table1 \nJOIN table2 ON table1.id = table2.fk_id \nWHERE some_condition \nGROUP BY col1, col2 \nORDER BY col2;

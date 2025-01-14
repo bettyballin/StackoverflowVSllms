@@ -1,1 +1,0 @@
-SELECT TOP(100) * \nINTO tmpFerdeen\nFROM Customers\nUNION ALL\nSELECT TOP(100) * \nFROM CustomerEurope\nUNION ALL\nSELECT TOP(100) * \nFROM CustomerAsia\nUNION ALL\nSELECT TOP(100) * \nFROM CustomerAmericas;

@@ -1,1 +1,0 @@
-$('.link a').click(function() {\n    var changed_url = 'changed_url';\n\n    // Update embed src for Firefox and other browsers that support it\n    $('.flash_photo embed').attr({\n        src: changed_url         \n    });\n\n    // Update the first param value for IE\n    $('#pano param[name="movie"]').val(changed_url);\n});

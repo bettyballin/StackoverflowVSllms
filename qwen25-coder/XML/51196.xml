@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>\n<configuration>\n  <packageSources>\n    <add key="InternalRepo" value="../path/to/your/internal/repo/" />\n  </packageSources>\n</configuration>

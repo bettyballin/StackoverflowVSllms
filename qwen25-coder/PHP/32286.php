@@ -1,1 +1,0 @@
-<?php\n// Your text\n$text = "&#119;";\n\n// URL encode the text\n$encodedText = urlencode($text);\n\n// Construct your URL with encoded text\n$url = "http://example.com/?format=text&type=htmldecode&text=" . $encodedText;\n\n// If you want to send this in a browser request, use the complete URL:\nheader('Location: ' . $url);\nexit();\n?>

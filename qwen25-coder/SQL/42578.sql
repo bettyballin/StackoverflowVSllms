@@ -1,1 +1,0 @@
-SELECT sid, COUNT(*) AS open_cursors_per_session\nFROM v$open_cursor\nGROUP BY sid;

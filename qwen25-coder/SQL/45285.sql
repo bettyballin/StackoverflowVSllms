@@ -1,1 +1,0 @@
-SET GLOBAL slow_query_log = 'ON';\n   -- Set the threshold for what's considered a slow query in seconds:\n   SET GLOBAL long_query_time = 2;

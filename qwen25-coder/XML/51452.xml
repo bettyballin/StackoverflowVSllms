@@ -1,1 +1,0 @@
-<!-- Inside your *.pubxml file -->\n<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">\n  <!-- Other settings -->\n  <PropertyGroup>\n    <Configuration>Release</Configuration>\n  </PropertyGroup>\n</Project>

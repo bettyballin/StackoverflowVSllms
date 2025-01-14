@@ -1,1 +1,0 @@
-# Ensure all legacy model classes are loaded at console start.\nif Rails.env.development?\n  ActiveRecord::Base.descendants.each(&:establish_connection)\n  \n  Dir.glob(Rails.root.join('app', 'models', '*.rb')).each do |file|\n    require_dependency file\n  end\nend

@@ -1,1 +1,0 @@
-function smarty_modifier_sanitize_input($string) {\n       return filter_var(trim($string), FILTER_SANITIZE_STRING);\n   }

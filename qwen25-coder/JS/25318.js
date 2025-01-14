@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $.ajax({\n        url: '/api/sample/data',\n        type: 'GET',\n        dataType: 'json',\n        success: function(data) {\n            alert(data.Message);\n        },\n        error: function() {\n            alert('Failed to retrieve data');\n        }\n    });\n});

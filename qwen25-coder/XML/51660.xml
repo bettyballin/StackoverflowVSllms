@@ -1,1 +1,0 @@
-// Example of signing an assembly in the .csproj file\n   <PropertyGroup>\n     <SignAssembly>true</SignAssembly>\n     <AssemblyOriginatorKeyFile>MyKey.snk</AssemblyOriginatorKeyFile>\n   </PropertyGroup>

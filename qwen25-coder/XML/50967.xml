@@ -1,1 +1,0 @@
-<ui:repeat value="#{action.dataModel}" var="item" varStatus="loop">\n    <c:if test="#{action.isNewList(loop.index)} and not loop.first">\n        </ul>\n        <ul>\n    </c:if>\n    <li>#{item}</li>\n</ui:repeat>\n<c:if test="#{not empty action.dataModel}">\n    </ul>\n</c:if>

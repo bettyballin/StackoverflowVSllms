@@ -1,1 +1,0 @@
-// Assume $data comes from a trusted source but still needs escaping\n$data = "Some <b>bold</b> text";\n\n// Using the escape helper to ensure safety\necho $this->escape($data);

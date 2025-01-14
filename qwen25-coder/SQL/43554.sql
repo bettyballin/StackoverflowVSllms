@@ -1,1 +1,0 @@
-SELECT o.ID AS ObjectID, u.ID AS UserID, c.ID AS CategoryID\nFROM Objects o\nINNER JOIN Users u ON o.UserID = u.ID\nINNER JOIN Categories c ON o.CategoryID = c.ID;

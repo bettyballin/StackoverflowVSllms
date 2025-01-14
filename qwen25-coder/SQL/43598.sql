@@ -1,1 +1,0 @@
-ALTER TABLE events\nADD COLUMN period_start_end POINT GENERATED ALWAYS AS (GEOMFROMTEXT(CONCAT('POINT(', UNIX_TIMESTAMP(start_time), ' ', UNIX_TIMESTAMP(end_time), ')'))) VIRTUAL;\n\nCREATE SPATIAL INDEX idx_period ON events(period_start_end);

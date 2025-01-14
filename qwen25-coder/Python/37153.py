@@ -1,1 +1,0 @@
-# common_functions.py\ndef greet(name):\n    return f"Hello, {name}!"\n\ndef system_check():\n    import os\n    return os.uname()  # Example of using Python's os library for system information\n\n# Your IPython script/notebook cell\n%run common_functions.py\n\nprint(greet('World'))\nprint(system_check())

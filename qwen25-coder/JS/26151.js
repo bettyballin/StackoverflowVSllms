@@ -1,1 +1,0 @@
-<script type="text/javascript">\n$(function() {\n    $("#forumswitch").tabs({\n        event: 'mouseover',\n        cache: true  // Enable caching here\n    });\n});\n</script>

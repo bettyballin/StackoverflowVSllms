@@ -1,1 +1,0 @@
-SELECT \n      CASE TermId \n          WHEN 1 THEN '30 days' \n          WHEN 2 THEN '60 days'\n      END AS Term\n  FROM MyTable

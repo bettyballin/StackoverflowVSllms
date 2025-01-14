@@ -1,1 +1,0 @@
-<system.web>\n       <authentication mode="None" />\n       <!-- other settings -->\n   </system.web>

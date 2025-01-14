@@ -1,1 +1,0 @@
-RECEIVE TOP (1)\n    conversation_handle as ConversationHandle,\n    message_body -- This should remain a byte array\nFROM [dbo].[MY_QUEUE_SubmitQueue]

@@ -1,1 +1,0 @@
-// Using GMP functions to handle large numbers\n$largeInt = gmp_init("123456789012345678901234567890");\n\n// To convert a GMP number back to string for output or further processing\n$largeIntString = gmp_strval($largeInt);\n\necho $largeIntString; // Outputs: 123456789012345678901234567890

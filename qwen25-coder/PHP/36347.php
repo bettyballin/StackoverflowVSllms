@@ -1,1 +1,0 @@
-<?php\nob_start();\n// Your code here...\nheader("Location: /somepage.php");\nob_end_flush();\nexit();\n?>

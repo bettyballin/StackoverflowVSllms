@@ -1,1 +1,0 @@
-SELECT DATE_FORMAT(your_date_column, '%Y-%M') AS formatted_date\nFROM your_table;

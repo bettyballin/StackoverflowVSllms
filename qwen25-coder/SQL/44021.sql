@@ -1,1 +1,0 @@
--- First, drop the existing primary key constraint\nALTER TABLE contractor_contractor DROP CONSTRAINT commerce_contractor_pkey;\n\n-- Then, add a new primary key constraint with the desired name\nALTER TABLE contractor_contractor ADD CONSTRAINT new_constraint_name PRIMARY KEY(id);

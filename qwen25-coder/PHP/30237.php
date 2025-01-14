@@ -1,1 +1,0 @@
-$string = 'http://example.com/index.php?action=vids.individual&VideoID=60085484';\n\n// Corrected regex pattern to capture numbers after VideoID=\npreg_match('/(?<=VideoID=)\d+/', $string, $matches);\n\nprint_r($matches);

@@ -1,1 +1,0 @@
-SELECT \n    t.name AS type_name,\n    CASE \n        WHEN t.is_table_type = 1 THEN 'Table Type'\n        WHEN t.max_length > 0 AND t.user_type_id = t.system_type_id THEN 'Fixed Length'\n        ELSE 'Variable Length'\n    END AS length_type\nFROM sys.types t\nWHERE t.name IN ('nvarchar', 'int'); -- Filter types as needed

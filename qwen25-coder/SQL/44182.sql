@@ -1,1 +1,0 @@
-ALTER TABLE YourTableName\n   DROP CONSTRAINT PK_YourTableName;\n\n   ALTER TABLE YourTableName\n   ADD CONSTRAINT PK_YourTableName PRIMARY KEY CLUSTERED (YourPKColumn);\n\n   ALTER TABLE YourTableName\n   ADD CONSTRAINT DF_YourTableName_YourPKColumn DEFAULT NEWSEQUENTIALID() FOR YourPKColumn;

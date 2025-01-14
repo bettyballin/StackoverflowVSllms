@@ -1,1 +1,0 @@
-CREATE TABLE IF NOT EXISTS `book_orders` (\n  `id` INT AUTO_INCREMENT PRIMARY KEY,\n  `title` VARCHAR(255) NOT NULL,\n  `author` VARCHAR(255),\n  `status` ENUM('Received', 'Typesetting', 'Review', 'Completed') DEFAULT 'Received',\n  `estimated_completion` DATE\n);

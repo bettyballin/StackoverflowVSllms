@@ -1,1 +1,0 @@
-<!-- Example of using Derived Column Transformation -->\n    AccountName = ISNULL(AccountName) || TRIM(AccountName) == "" ? "Unknown" : AccountName

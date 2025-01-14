@@ -1,1 +1,0 @@
-INSERT INTO purchases (price, productid)\nSELECT price, @product_id\nFROM products\nWHERE id = @product_id;

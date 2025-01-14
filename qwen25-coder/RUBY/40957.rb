@@ -1,1 +1,0 @@
-<!-- Ruby on Rails View Example -->\n   <%= @users.each do |user| %>\n     <p><%= user.name %></p>\n   <% end %>

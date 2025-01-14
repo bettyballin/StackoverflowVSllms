@@ -1,1 +1,0 @@
-// Example of bypassing authentication in development\nif (APPLICATION_ENV === 'development') {\n    $_SESSION['user'] = $this->createMockUser();\n}\n\nprivate function createMockUser()\n{\n    return ['id' => 1, 'username' => 'test', 'role' => 'admin'];\n}

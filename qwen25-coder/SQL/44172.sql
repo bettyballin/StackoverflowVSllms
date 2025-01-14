@@ -1,1 +1,0 @@
-ALTER TABLE your_table ADD CONSTRAINT unique_constraint_name UNIQUE (column_name);

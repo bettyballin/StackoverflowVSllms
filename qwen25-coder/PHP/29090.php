@@ -1,1 +1,0 @@
-$spamWords = ['pron', 'xxx', 'adult']; // List your spam words here\n   foreach ($spamWords as $word) {\n       if (stripos($_POST['message'], $word) !== false) {\n           die("Spam detected.");\n       }\n   }

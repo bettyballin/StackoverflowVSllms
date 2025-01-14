@@ -1,1 +1,0 @@
--- Disable implicit autocommit for the session\nSET IMPLICIT_TRANSACTIONS ON;\n\n-- Start a new transaction explicitly\nBEGIN TRANSACTION;\n\n-- Your SQL statements go here\nINSERT INTO YourTable (Column1, Column2) VALUES ('Value1', 'Value2');\n\n-- Commit the transaction\nCOMMIT TRANSACTION;\n\n-- To roll back the transaction if something goes wrong\nROLLBACK TRANSACTION;

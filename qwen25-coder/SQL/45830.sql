@@ -1,1 +1,0 @@
-SELECT right AS answer FROM t\nUNION\nSELECT wrong1 AS answer FROM t\nUNION\nSELECT wrong2 AS answer FROM t\nUNION\nSELECT wrong3 AS answer FROM t\nUNION\nSELECT wrong4 AS answer FROM t;

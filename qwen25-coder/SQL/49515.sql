@@ -1,1 +1,0 @@
-DECLARE @intValue INT = 1;\nSELECT RIGHT(REPLICATE('0', 8) + CAST(@intValue AS VARCHAR(8)), 8) AS ZeroPaddedString;

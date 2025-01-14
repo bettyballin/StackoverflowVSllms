@@ -1,1 +1,0 @@
-BACKUP DATABASE BugTrackerDB TO DISK = 'C:\Backups\BugTrackerDB.bak'

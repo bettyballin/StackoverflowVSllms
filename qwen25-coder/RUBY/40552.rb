@@ -1,1 +1,0 @@
-puts %x{ echo $$ }  # This should print shell's PID\nputs %x{ echo #$$.to_i }  # This avoids spawning a subshell, prints Ruby's PID

@@ -1,1 +1,0 @@
-<?php \n$var = new stdClass();\n$var->data = 'test';\necho $var->data; \n?>

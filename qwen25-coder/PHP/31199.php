@@ -1,1 +1,0 @@
-$userModel = new Shared_Model_User();

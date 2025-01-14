@@ -1,1 +1,0 @@
-function test(num)\n{\n    // Format number to have 4 digits with leading zeros if necessary\n    var formattedNum = num.toString().padStart(4, '0');\n    alert(formattedNum);\n}

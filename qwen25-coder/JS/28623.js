@@ -1,1 +1,0 @@
-<script>\n    (function() {\n        if (top.location === self.location) { // Checks if the script is not running in a frame\n            var passpage = encodeURIComponent(document.URL); \n            top.location.href = "master.html?" + passpage;\n        }\n    })();\n</script>

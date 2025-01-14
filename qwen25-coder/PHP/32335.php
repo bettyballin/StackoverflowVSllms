@@ -1,1 +1,0 @@
-$Q = "SELECT n.item AS news_item, a.name AS author_name FROM news n JOIN authors a ON n.author_id = a.id";\n\n$query = $this->lite->query($Q) or die($this->lite->error); \n\n$result = '';\nwhile ($obj = $query->fetch_object()) {\n    $result .= '<li>' . htmlspecialchars($obj->news_item) . ' by ' . htmlspecialchars($obj->author_name) . '</li>';\n}

@@ -1,1 +1,0 @@
-// Example of simple API key validation\n$apiKey = $_SERVER['HTTP_X_API_KEY'];\n\nif ($apiKey !== 'your_api_key_here') {\n    http_response_code(401); // Unauthorized\n    echo json_encode(['message' => 'Unauthorized']);\n    exit;\n}

@@ -1,1 +1,0 @@
-# Sort the list based on the last modified time, newest first\nsorted_files = sorted(files, key=os.path.getmtime, reverse=True)

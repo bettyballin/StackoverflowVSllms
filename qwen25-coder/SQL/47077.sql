@@ -1,1 +1,0 @@
-UPDATE t1\nSET t1.Amount = t2.Amount\nFROM YourTableName t1\nJOIN YourTableName t2 ON t1.AccNo <> t2.AccNo\nWHERE t1.AccNo = 1020 AND t2.AccNo = 2040;

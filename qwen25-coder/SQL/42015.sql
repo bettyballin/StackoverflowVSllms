@@ -1,1 +1,0 @@
-SELECT \n    SUM(od.Price * od.Quantity) AS totalPrice,\n    i.GLacct \nFROM \n    OrderDetail_table od \nLEFT OUTER JOIN order_table o ON \n    od.OrderID = o.orderid \nLEFT OUTER JOIN item_table i ON \n    i.itemID = od.itemID \nWHERE \n    o.invoiceDate = #2009-01-31# \nGROUP BY \n    i.GLacct;

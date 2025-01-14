@@ -1,1 +1,0 @@
-<configuration>\n    <appSettings>\n        <add key="DemoConnectionString" value="YourDemoConnectionStringHere"/>\n        <add key="LiveConnectionString" value="YourLiveConnectionStringHere"/>\n    </appSettings>\n</configuration>

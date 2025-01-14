@@ -1,1 +1,0 @@
-<system.webServer>\n  <staticContent>\n    <remove fileExtension=".html" />\n    <mimeMap fileExtension=".html" mimeType="text/html" />\n    <remove fileExtension=".xml" />\n    <mimeMap fileExpiration="8.00:00:00" fileExtension=".xml" mimeType="text/xml" />\n  </staticContent>\n</system.webServer>

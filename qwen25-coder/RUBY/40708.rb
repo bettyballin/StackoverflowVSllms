@@ -1,1 +1,0 @@
-gem 'gem_name', git: 'https://github.com/user/gem_name.git',\n                ref: 'commit_hash',\n                patch: 'local/path/to/patch.patch'

@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $isJavaScriptEnabled = isset($_POST['javascript_enabled']) && $_POST['javascript_enabled'] == '1';\n    \n    if ($isJavaScriptEnabled) {\n        echo "JavaScript is enabled.";\n    } else {\n        echo "JavaScript is disabled.";\n    }\n}\n?>

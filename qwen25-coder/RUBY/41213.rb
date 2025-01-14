@@ -1,1 +1,0 @@
-group :test do\n     gem 'haml'\n   end

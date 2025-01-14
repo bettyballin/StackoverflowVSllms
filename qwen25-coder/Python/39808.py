@@ -1,1 +1,0 @@
-from bisect import bisect\n\nx = [1, 3, 4, 7]\na = 5\n\n# Find the index where 'a' should be inserted to keep 'x' sorted\nindex = bisect(x, a)  # O(log n)\n\n# Insert 'a' at the found index\nx.insert(index, a)    # O(n) due to shifting elements\n\nprint(x)

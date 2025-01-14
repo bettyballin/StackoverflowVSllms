@@ -1,1 +1,0 @@
-CREATE TABLE Employees (\n    EmployeeID INT PRIMARY KEY IDENTITY(1,1), -- Surrogate Key\n    FirstName VARCHAR(50),\n    LastName VARCHAR(50),\n    EmailAddress VARCHAR(255) UNIQUE         -- Natural Key (assumed to be unique)\n);

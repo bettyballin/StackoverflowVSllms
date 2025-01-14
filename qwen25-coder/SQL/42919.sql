@@ -1,1 +1,0 @@
-USE YourDatabaseName;\n   GO\n   CREATE USER [NewUser] FOR LOGIN [NewUser];\n   GO

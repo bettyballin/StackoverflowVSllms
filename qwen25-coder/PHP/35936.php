@@ -1,1 +1,0 @@
-echo "<a href=\"javascript:pop_item('".$_code."', 1)\">Link</a>";

@@ -1,1 +1,0 @@
-try {\n       User::loginRequired();\n       \n       // Rest of your function code here\n   } catch (LoginRequiredException $e) {\n       // Handle the exception, e.g., output error message\n       echo $e->getMessage();\n       return; // Exit the function if login is required\n   }

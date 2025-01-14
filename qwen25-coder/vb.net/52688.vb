@@ -1,1 +1,0 @@
-Public Class MyClass\n    ' Implementation here\nEnd Class\n\nPublic Class AnotherClass\n    ' Implementation here\nEnd Class

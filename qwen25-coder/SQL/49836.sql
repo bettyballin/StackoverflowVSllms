@@ -1,1 +1,0 @@
-SELECT c.id AS category_id, c.name AS category_name, i.id AS item_id, i.itemname\nFROM Categories c\nJOIN (\n    SELECT categoryid, MIN(id) AS min_item_id\n    FROM items\n    GROUP BY categoryid\n) sub ON c.id = sub.categoryid\nJOIN items i ON sub.min_item_id = i.id;

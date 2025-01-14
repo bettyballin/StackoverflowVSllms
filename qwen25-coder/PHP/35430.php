@@ -1,1 +1,0 @@
-class FlexibleData {\n        private $data = [];\n\n        public function __set($name, $value) {\n            $this->data[$name] = $value;\n        }\n\n        public function __get($name) {\n            return isset($this->data[$name]) ? $this->data[$name] : null;\n        }\n    }

@@ -1,1 +1,0 @@
-# Example 1: Modifying the content of the object referred by X\nX = "hello"\nX.concat(" world") # Modifies the string itself\nputs X # Outputs: hello world (no warning)\n\n# Example 2: Attempting to reassign X to a new reference\nX = "hello"\nX = X.concat(" world") # Tries to change what X refers to, raises a warning\nputs X # Outputs: hello world (warning issued)

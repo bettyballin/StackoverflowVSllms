@@ -1,1 +1,0 @@
-<add name="connectionStringName" connectionString="Initial Catalog=myDatabase;Data Source=DevelopmentServerName;User ID=YourUserName;Password=YourPassword"\n        providerName="System.Data.SqlClient" />

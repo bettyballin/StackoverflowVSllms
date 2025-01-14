@@ -1,1 +1,0 @@
-OPEN test_OUT FOR      \n    SELECT *\n    FROM table_p;\n CLOSE test_OUT;  -- This line is causing the issue.

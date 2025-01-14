@@ -1,1 +1,0 @@
-<?php\nheader('Content-Type: application/json');\n\n// Your SQL and database connection code here\n\n$result = $pdo->query($_POST['sql']);\n$data = $result->fetchAll(PDO::FETCH_ASSOC);\n\necho json_encode($data);\n?>

@@ -1,1 +1,0 @@
--- T-SQL Code for creating an auditing log table\nUSE MigratedDB\nGO\n\nCREATE TABLE [dbo].[AuditLog]\n(\n    LogID INT IDENTITY(1,1) PRIMARY KEY,\n    OperationType VARCHAR(50),\n    TableName VARCHAR(128),\n    RecordID INT,\n    ChangedBy VARCHAR(100),\n    ChangeTime DATETIME DEFAULT GETDATE()\n);

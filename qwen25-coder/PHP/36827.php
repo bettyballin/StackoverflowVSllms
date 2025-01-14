@@ -1,1 +1,0 @@
-ob_implicit_flush(0);\n     ob_start();\n     // Your long-running code here\n     echo "Test\n";\n     flush(); // Flushing data immediately\n     ob_end_flush();

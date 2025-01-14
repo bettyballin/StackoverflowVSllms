@@ -1,1 +1,0 @@
-DELETE t1\nFROM Table1 t1\nINNER JOIN Table2 t2 ON \n    t1.Column1 = t2.Column1 AND \n    t1.Column2 = t2.Column2 AND \n    -- Add more columns as needed for a full row comparison\n    t1.ColumnN = t2.ColumnN;

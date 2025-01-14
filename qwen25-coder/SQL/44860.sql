@@ -1,1 +1,0 @@
-WITH RankedDistances AS (\n    SELECT \n        id, \n        a_id, \n        b_id, \n        distance,\n        ROW_NUMBER() OVER (PARTITION BY a_id ORDER BY distance ASC) as row_num\n    FROM \n        mytable\n)\nSELECT * \nFROM \n    RankedDistances\nWHERE \n    row_num <= 10;

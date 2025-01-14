@@ -1,1 +1,0 @@
-$quantity = filter_input(INPUT_POST, 'quantity', FILTER_SANITIZE_NUMBER_INT);\n\nif (filter_var($quantity, FILTER_VALIDATE_INT) === false || $quantity <= 0) {\n    header("Location: " . $data['referurl'] . "/badinput");\n    exit;\n}

@@ -1,1 +1,0 @@
-class User extends AppModel {\n    public $hasAndBelongsToMany = array(\n        'User' => array(\n            'className' => 'User',\n            'joinTable' => 'contacts',\n            'foreignKey' => 'user_id',\n            'associationForeignKey' => 'friend_id',\n            'unique' => true,\n        )\n    );\n}

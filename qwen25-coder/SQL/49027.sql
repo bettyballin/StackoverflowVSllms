@@ -1,1 +1,0 @@
-SELECT object_name, status \nFROM user_objects \nWHERE status = 'INVALID';

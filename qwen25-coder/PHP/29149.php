@@ -1,1 +1,0 @@
-$classes = get_declared_classes();\n\nforeach ($classes as $className) {\n    $reflectionClass = new ReflectionClass($className);\n    if ($reflectionClass->isAbstract()) {\n        echo "$className is an abstract class.\n";\n    } else {\n        echo "$className is not an abstract class.\n";\n    }\n}

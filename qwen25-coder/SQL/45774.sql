@@ -1,1 +1,0 @@
-START TRANSACTION;\n\n-- Insert into parent table\nINSERT INTO parent_table (id, name) VALUES (1, 'ParentName');\n\n-- Insert into child table\nINSERT INTO child_table (id, parent_id, value) VALUES (1, 1, 'ChildValue');\n\nCOMMIT; -- or ROLLBACK in case of error

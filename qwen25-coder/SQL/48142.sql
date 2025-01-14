@@ -1,1 +1,0 @@
-CREATE EVENT SESSION [AllQueries] ON SERVER \nADD EVENT sqlserver.sql_statement_completed(\n    ACTION(sqlserver.sql_text)\n)\nADD TARGET package0.event_file(SET filename=N'C:\temp\AllQueries.xel',max_rollover_files=(5))\nGO\n\nALTER EVENT SESSION [AllQueries] ON SERVER STATE = START

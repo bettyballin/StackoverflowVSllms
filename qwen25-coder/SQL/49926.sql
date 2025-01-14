@@ -1,1 +1,0 @@
-WITH MaxB AS (\n    SELECT A, MAX(B) AS MaxBValue, C\n    FROM your_table_name\n    GROUP BY A, C\n)\nSELECT mb.MaxBValue AS B, mb.C, COUNT(DISTINCT mb.A) AS Count\nFROM MaxB mb\nGROUP BY mb.MaxBValue, mb.C;

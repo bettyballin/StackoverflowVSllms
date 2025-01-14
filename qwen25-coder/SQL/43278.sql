@@ -1,1 +1,0 @@
-CREATE INDEX idx_item_in_basket_user_item ON core_item_in_basket (user_id, item_id);\nCREATE INDEX idx_item_in_basket_on_wishlist ON core_item_in_basket (on_wishlist);

@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.apache.poi</groupId>\n    <artifactId>poi-scratchpad</artifactId>\n    <version>5.2.3</version>\n</dependency>\n<dependency>\n    <groupId>com.itextpdf</groupId>\n    <artifactId>itext7-core</artifactId>\n    <version>7.1.15</version>\n</dependency>

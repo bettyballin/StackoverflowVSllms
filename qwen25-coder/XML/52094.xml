@@ -1,1 +1,0 @@
-<build>\n      <plugins>\n        <plugin>\n          <groupId>org.eclipse.tycho</groupId>\n          <artifactId>tycho-compiler-plugin</artifactId>\n          <version>${project.version}</version>\n            <configuration>\n              <encoding>UTF-8</encoding>\n            </configuration>\n        </plugin>\n      </plugins>\n    </build>

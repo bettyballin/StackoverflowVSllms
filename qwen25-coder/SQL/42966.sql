@@ -1,1 +1,0 @@
-CREATE TABLE BlobStorage (\n    ID NUMBER PRIMARY KEY,\n    BlobData BLOB CONSTRAINT fk_blobstorage_id FOREIGN KEY REFERENCES YourTable(ID)\n);

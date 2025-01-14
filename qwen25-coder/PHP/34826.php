@@ -1,1 +1,0 @@
-$flavors = array('chocolate', 'strawberry', 'vanilla', 'cookie dough',\n                  'chocolate chip', 'mint chocolate chip', 'rocky road',\n                  'peach', 'fudge brownie', 'coffee', 'mocha chip');

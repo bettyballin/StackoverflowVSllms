@@ -1,1 +1,0 @@
-// Define your RGB components\n$red = 255;   // Example red value\n$green = 0;   // Example green value\n$blue = 0;    // Example blue value\n\n// Create the OLE_COLOR (in BGR format as expected by OLE_COLOR)\n$oleColor = ($blue << 16) + ($green << 8) + $red;\n\n// Set the color on your COM object\n$this->oBuilder->Font->Color = $oleColor;

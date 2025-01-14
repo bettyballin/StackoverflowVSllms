@@ -1,1 +1,0 @@
-$frontController->addModuleDirectory(ROOT_DIR . '/modules');

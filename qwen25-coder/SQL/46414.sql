@@ -1,1 +1,0 @@
-CREATE TYPE dbo.StringListTableType AS TABLE\n(\n    value NVARCHAR(255) NOT NULL PRIMARY KEY CLUSTERED\n);

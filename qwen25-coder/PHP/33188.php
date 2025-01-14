@@ -1,1 +1,0 @@
-<?php\n// Check if this file is being included/required or accessed directly.\nif (!defined('PAGE_ACCESS')) {\n    die("Do not load this page directly.");\n}\n\n// Rest of your PHP code here...\n?>

@@ -1,1 +1,0 @@
-<?php\n$queryString = $_SERVER['QUERY_STRING'];\nparse_str($queryString, $params);\necho $params['x.y']; // Outputs: a.b\n?>

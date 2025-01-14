@@ -1,1 +1,0 @@
-SELECT \n    CONVERT(DATE, YourDateField) AS DateOnly,\n    LOWER(FieldName COLLATE Latin1_General_CI_AS) AS StandardizedFieldName,\n    COUNT(*) AS OccurrenceCount\nFROM \n    YourTable\nGROUP BY \n    CONVERT(DATE, YourDateField),\n    LOWER(FieldName COLLATE Latin1_General_CI_AS)\nORDER BY \n    DateOnly, \n    StandardizedFieldName;

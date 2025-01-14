@@ -1,1 +1,0 @@
-BEGIN;\n\nDELETE FROM Areas WHERE Area_ID IN (\n    SELECT A.Area_ID \n    FROM Areas A \n    INNER JOIN Regions R ON A.RegionID = R.Region_ID \n    WHERE R.Country_ID = :Country_ID\n);\n\nDELETE FROM Regions WHERE Country_ID = :Country_ID;\n\nDELETE FROM Country WHERE Country_ID = :Country_ID;\n\nCOMMIT;

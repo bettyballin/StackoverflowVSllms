@@ -1,1 +1,0 @@
-usort($array, function ($a, $b) {\n    return strcmp($a['db'], $b['db']);\n});

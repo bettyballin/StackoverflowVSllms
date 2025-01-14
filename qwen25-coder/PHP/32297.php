@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER["REQUEST_METHOD"] == "GET") {\n    $value = $_GET["inputname"];\n    // Do something with $value\n    echo $value; // For demonstration, echoing back the received value\n}\n?>

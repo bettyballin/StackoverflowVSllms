@@ -1,1 +1,0 @@
-<?php\nif (isset($_GET['js'])) {\n    $status = $_GET['js'];\n    if ($status === 'enabled') {\n        echo "JavaScript is enabled.";\n    } else {\n        echo "JavaScript is disabled.";\n    }\n} else {\n    // This part handles cases where it doesn't get any status, which can be considered as unknown.\n    echo "JavaScript status unknown.";\n}\n?>

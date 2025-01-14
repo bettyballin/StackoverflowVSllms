@@ -1,1 +1,0 @@
-SELECT * FROM Table WHERE CONTAINS(SearchField, '"c#"')

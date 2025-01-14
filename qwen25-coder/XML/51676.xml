@@ -1,1 +1,0 @@
-<system.web>\n    <caching>\n        <outputCacheSettings>\n            <outputCacheProfiles>\n                <add name="Default" duration="60" varyByParam="*" />\n            </outputCacheProfiles>\n        </outputCacheSettings>\n    </caching>\n</system.web>

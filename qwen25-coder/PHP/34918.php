@@ -1,1 +1,0 @@
-// Restrict FLIR requests to your domain only\nif ($_SERVER['HTTP_REFERER'] !== "https://yourdomain.com/") {\n    die("Access Denied");\n}

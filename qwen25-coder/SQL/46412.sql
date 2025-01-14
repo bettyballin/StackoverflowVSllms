@@ -1,1 +1,0 @@
-INSERT INTO crsabstr_rec (crs_no, cat, pr_cat, pr_sch, abstr) \nVALUES ("COMS110", "UG09", "Y", "Y", DATETIME(0)::BLOB("CHEESE"));

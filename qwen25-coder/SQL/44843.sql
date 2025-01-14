@@ -1,1 +1,0 @@
-DECLARE @currentLastFriend int;\n     SELECT @currentLastFriend = FriendId FROM Friends WHERE UserId = @userId AND NextFriendId IS NULL;\n\n     UPDATE Friends SET PreviousFriendId = @friendId WHERE FriendId = @currentLastFriend;\n     UPDATE Friends SET PreviousFriendId = NULL, NextFriendId = @currentLastFriend\n         WHERE FriendId = @friendId;

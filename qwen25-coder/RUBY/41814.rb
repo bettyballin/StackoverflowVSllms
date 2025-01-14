@@ -1,1 +1,0 @@
-user_input = gets.chomp  # Assume user inputs "puts 'Hello'; File.delete('/critical/file')"\neval(user_input)        # This will delete a critical file as part of the execution!

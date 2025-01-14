@@ -1,1 +1,0 @@
-[ for i in 0..3 do yield float i ]

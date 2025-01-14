@@ -1,1 +1,0 @@
-class Test::Unit::TestCase\n     self.use_transactional_fixtures = true\n   end

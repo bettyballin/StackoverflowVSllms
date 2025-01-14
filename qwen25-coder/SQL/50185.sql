@@ -1,1 +1,0 @@
-CREATE OR REPLACE DIRECTORY mail_dir AS '/path/to/mail/directory';\nGRANT READ, WRITE ON DIRECTORY mail_dir TO your_user;

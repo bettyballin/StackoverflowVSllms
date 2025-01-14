@@ -1,1 +1,0 @@
-SELECT CASE WHEN EXISTS (\n    SELECT 1 \n    FROM x \n    WHERE col_a = :value_a AND col_b = :value_b\n) THEN 1 ELSE 0 END AS found\nFROM dual;

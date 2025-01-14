@@ -1,1 +1,0 @@
-import json\n\ndata = {"key": "value", "numbers": [1, 2, 3]}\nwith open('data.json', 'w') as f:\n    json.dump(data, f)

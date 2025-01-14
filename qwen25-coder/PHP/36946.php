@@ -1,1 +1,0 @@
-<?php\n\n   namespace YourCompany\HelloWorld\Model;\n\n   class Article extends \Magento\Framework\Model\AbstractModel\n   {\n       protected function _construct()\n       {\n           $this->_init('YourCompany\HelloWorld\Model\ResourceModel\Article');\n       }\n   }

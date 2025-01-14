@@ -1,1 +1,0 @@
-GRANT ALTER ON schema_b.table_name TO your_user;

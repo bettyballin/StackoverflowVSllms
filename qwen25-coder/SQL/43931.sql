@@ -1,1 +1,0 @@
-CREATE TABLE Countries (\n    CountryID INT PRIMARY KEY IDENTITY,\n    Code CHAR(2) UNIQUE NOT NULL,\n    Name VARCHAR(100) NOT NULL\n);

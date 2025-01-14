@@ -1,1 +1,0 @@
-$router = [\n    '/users' => 'UserController@index',\n    '/users/{id}' => 'UserController@view',\n    '/users/{user_id}/friends' => 'FriendController@index',\n    '/account/friends/edit' => 'AccountController@editFriends'\n];

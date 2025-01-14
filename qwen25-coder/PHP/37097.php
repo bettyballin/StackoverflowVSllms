@@ -1,1 +1,0 @@
-$userObject = new User(); // This should be your actual object instance\n$fbcUid = $userObject->fbc_uid;\n\necho "The user ID is: " . $fbcUid;

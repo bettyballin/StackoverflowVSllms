@@ -1,1 +1,0 @@
-<?php\n$xml = simplexml_load_file("file.xml");\necho htmlspecialchars_decode((string)$xml->entry);\n?>

@@ -1,1 +1,0 @@
-Dim obj As New YourNamespace.YourClass\n   obj.YourMethod

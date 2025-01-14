@@ -1,1 +1,0 @@
-from sqlobject import SQLObject, StringCol, connectionForURI\n\n   class User(SQLObject):\n       name = StringCol()\n\n   connectionURI = "sqlite:/:memory:"\n   conn = connectionForURI(connectionURI)\n   SQLObject.sqlhub.processConnection = conn\n   User.createTable()

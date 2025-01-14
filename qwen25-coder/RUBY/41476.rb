@@ -1,1 +1,0 @@
-# Install the rmagick gem\ngem install rmagick\n\nrequire 'rmagick'\n\ninclude Magick\n\nsystem "gs", "-dNOPAUSE", "-dBATCH", "-sDEVICE=png16m", "-r300", "-sOutputFile=output.png", "input.pdf"\n\nimage = Image.read("output.png").first\n\n# You can further manipulate the image if needed\nimage.display

@@ -1,1 +1,0 @@
-define('BASE_URL', getenv('BASE_URL'));\n// Use BASE_URL where needed, or use CakePHP's built-in URL generation.

@@ -1,1 +1,0 @@
-SELECT table_name\nFROM information_schema.tables\nWHERE table_type = 'BASE TABLE'\nAND table_name LIKE 'Datasheet%';

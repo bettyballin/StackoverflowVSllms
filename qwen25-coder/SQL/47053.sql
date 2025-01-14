@@ -1,1 +1,0 @@
-CREATE TABLE events (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    event_date DATETIME,\n    event_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    unix_time INT\n);

@@ -1,1 +1,0 @@
-<contacts>\n    <contact id="1">\n        <name>John Doe</name>\n        <email>john.doe@example.com</email>\n    </contact>\n    <contact id="2">\n        <name>Jane Smith</name>\n        <email>jane.smith@example.com</email>\n    </contact>\n</contacts>

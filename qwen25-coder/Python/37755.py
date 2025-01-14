@@ -1,1 +1,0 @@
-import inspect\n\ndef my_function():\n    pass\n\nprint(inspect.getsource(my_function))  # Prints the source code of the function.

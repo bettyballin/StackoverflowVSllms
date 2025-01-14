@@ -1,1 +1,0 @@
-UPDATE places p1\nSET address1 = (\n    SELECT p2.address1\n    FROM places p2\n    WHERE p2.placename = p1.placename\n      AND p2.address1 IS NOT NULL\n      AND p2.address1 <> ''\n    LIMIT 1\n)\nWHERE p1.address1 IS NULL OR p1.address1 = '';

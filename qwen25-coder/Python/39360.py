@@ -1,1 +1,0 @@
-def migrate_favorites_to_user(user, session_key):\n    # Find all favorites associated with the session key and reassign them to the user.\n    Favorite.objects.filter(session_key=session_key).update(user=user)

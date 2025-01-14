@@ -1,1 +1,0 @@
-DECLARE\n       TYPE number_table IS TABLE OF NUMBER;\n       id_list number_table;\n   BEGIN\n       SELECT employee_id BULK COLLECT INTO id_list FROM employees WHERE department_id = 10;\n   END;

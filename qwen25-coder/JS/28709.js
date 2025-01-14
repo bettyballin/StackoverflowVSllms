@@ -1,1 +1,0 @@
-error: function (xhr, status, error) {\n      console.log("AJAX call failed: " + status + ", " + error);\n  }

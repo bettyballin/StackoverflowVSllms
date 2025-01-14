@@ -1,1 +1,0 @@
-// Store a random string in the 'randomString' variable\nstore eval | Math.random().toString(36).substr(2, 9) | randomString\n\n// Use the stored random value in an input field or any other step\ntype | css=input[type=text] | ${randomString}

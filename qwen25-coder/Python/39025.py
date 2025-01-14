@@ -1,1 +1,0 @@
-import requests\n\ndef check_for_updates():\n    server_version = requests.get("http://yourserver/version.txt").text.strip()\n    with open('version.txt', 'r') as file:\n        local_version = file.read().strip()\n    return server_version > local_version, server_versio

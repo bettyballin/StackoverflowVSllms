@@ -1,1 +1,0 @@
-function curlGet($url) {\n    $ch = curl_init();\n    curl_setopt_array($ch, array(\n        CURLOPT_URL => $url,\n        CURLOPT_RETURNTRANSFER => true,\n    ));\n    $response = curl_exec($ch);\n    curl_close($ch);\n    return $response;\n}\n\n$url = "http://example.com/invoices/3333";\n$htmlContent = curlGet($url);

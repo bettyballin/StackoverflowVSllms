@@ -1,1 +1,0 @@
-setcookie('exampleCookie', 'value', 0, '/', '', true, true);\n   //                                     name        , value, expire time, path, domain, secure, httponly

@@ -1,1 +1,0 @@
-SELECT *\nFROM Documents\nWHERE CONTAINS(DocumentText, 'financial reports')

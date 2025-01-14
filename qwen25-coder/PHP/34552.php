@@ -1,1 +1,0 @@
-<?php\nini_set('display_errors', 1);\nini_set('display_startup_errors', 1);\nerror_reporting(E_ALL);\n\ninclude("db.php");\necho "Include successful.";\n?>

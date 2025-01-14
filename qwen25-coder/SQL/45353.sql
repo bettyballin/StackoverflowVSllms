@@ -1,1 +1,0 @@
-SELECT * FROM pages WHERE is_visible IN ($visibility,$invisibility,$somethingelse)

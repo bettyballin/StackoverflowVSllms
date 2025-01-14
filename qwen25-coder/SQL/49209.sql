@@ -1,1 +1,0 @@
-USE master;\n   GO\n\n   EXEC sp_addlinkedserver \n       @server = 'OracleServer',  -- name for your linked server\n       @srvproduct = 'Oracle',\n       @provider = 'OraOLEDB.Oracle',\n       @datasrc = 'SERVER=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.1.3.42)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=acc)))';

@@ -1,1 +1,0 @@
-# assume failure\nassert (4-2) == 2, "Expected result of subtracting 2 from 4 to be 2"

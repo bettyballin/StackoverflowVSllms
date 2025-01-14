@@ -1,1 +1,0 @@
--- Ensure proper indexes in your database, for example:\nCREATE INDEX idx_field_name ON table_name(field_name);

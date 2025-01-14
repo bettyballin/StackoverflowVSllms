@@ -1,1 +1,0 @@
-<?php\n   // config.php\n\n   $EL = "\n<br />\n";

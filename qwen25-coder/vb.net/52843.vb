@@ -1,1 +1,0 @@
-<asp:CustomValidator \n    ID="CustomValidator1" \n    runat="server" \n    ControlToValidate="FeePaid" \n    ClientValidationFunction="feeAmountCheck"\n    OnServerValidate="FeeAmountCheck_Server" \n    ErrorMessage="Fee paid cannot exceed the fee amount due."\n    Display="Dynamic">\n</asp:CustomValidator>

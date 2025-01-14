@@ -1,1 +1,0 @@
-DECLARE @TempTable TABLE (Column1 INT, Column2 VARCHAR(50))  -- Define schema\n\nSET @SQL1 = N'SELECT * INTO @TempTable FROM SomeTable WHERE SomeCondition;'\n\nEXEC sp_executesql @SQL1, N'@TempTable TABLE READWRITE OUTPUT', @TempTable OUTPUT\n\nSELECT * FROM @TempTable

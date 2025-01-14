@@ -1,1 +1,0 @@
-<connectionStrings>\n    <add name="DatabaseA" connectionString="Data Source=Server;Initial Catalog=DatabaseA;Integrated Security=True;" providerName="System.Data.SqlClient" />\n    <add name="DatabaseB" connectionString="Data Source=Server;Initial Catalog=DatabaseB;Integrated Security=True;" providerName="System.Data.SqlClient" />\n</connectionStrings>

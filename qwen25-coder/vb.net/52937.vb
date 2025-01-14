@@ -1,1 +1,0 @@
-Imports System\n\n' Set the console window size and buffer size to be 80x25\nConsole.SetWindowSize(80, 25)\nConsole.SetBufferSize(80, 25)\n\n' Move the cursor to the bottom right corner\nConsole.SetCursorPosition(Console.WindowWidth - 1, Console.WindowHeight - 1)\n\n' Write your character\nConsole.Write("x")

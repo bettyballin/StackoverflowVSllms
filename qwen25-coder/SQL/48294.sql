@@ -1,1 +1,0 @@
-SELECT * FROM your_large_table\nWHERE some_string_field LIKE '2505%';

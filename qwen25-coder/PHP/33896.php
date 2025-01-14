@@ -1,1 +1,0 @@
-try {\n    // Large block of unrelated code wrapped in a single try-catch\n} catch (Exception $e) {\n    echo 'An error occurred: ' . $e->getMessage();\n}

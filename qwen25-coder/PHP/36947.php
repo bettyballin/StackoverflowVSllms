@@ -1,1 +1,0 @@
-<?php\necho '<script type="text/javascript">window.open("http://www.awebsite.com", "_blank");</script>';\n?>

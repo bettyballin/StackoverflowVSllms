@@ -1,1 +1,0 @@
-CREATE FUNCTION ConvertPostcodeForSorting(postcode VARCHAR(10))\nRETURNS VARCHAR(20) DETERMINISTIC\nRETURN \n  LPAD(SUBSTRING_INDEX(postcode, ' ', 1), 6, '0') \n  || ' ' \n  || LPAD(REPLACE(SUBSTRING_INDEX(postcode, ' ', -1), ' ', ''), 3, '0');\n\n-- Usage in a query:\nSELECT *\nFROM your_table\nORDER BY ConvertPostcodeForSorting(postcode);

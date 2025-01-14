@@ -1,1 +1,0 @@
-SELECT s.sid,\n       s.serial#,\n       s.username,\n       SUM(t.bytes_used) / 1024 / 1024 AS temp_space_used_mb\nFROM v$session s, \n     v$temp_space_header t\nWHERE s.saddr = t.session_addr\nGROUP BY s.sid, s.serial#, s.username\nORDER BY temp_space_used_mb DESC;

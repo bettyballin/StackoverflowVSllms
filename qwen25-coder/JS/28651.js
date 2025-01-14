@@ -1,1 +1,0 @@
-for (var x = 0; x < f; x++)\n    s[x] = [(g[x][0] - g[x + 1][0]) / (l - 1) * f, \n            (g[x][1] - g[x + 2][1]) / (l - 1) * f, // This line is problematic\n            (g[x][2] - g[x + 2][2]) / (l - 1) * f]; // This line is also problematic

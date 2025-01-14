@@ -1,1 +1,0 @@
-// Example in Web.config for enabling bundling\n   <appSettings>\n       <add key="BundleTable:EnableOptimizations" value="true" />\n   </appSettings>

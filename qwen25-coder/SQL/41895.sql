@@ -1,1 +1,0 @@
-DECLARE @BatchSize INT = 10000; -- Batch size\nDECLARE @DeletedCount INT = 1;\n\nWHILE @DeletedCount > 0\nBEGIN\n    BEGIN TRANSACTION;\n    \n    DELETE TOP (@BatchSize)\n    FROM YourTableName\n    WHERE YourFilterCondition; -- Replace with the condition to select rows to delete\n\n    SET @DeletedCount = @@ROWCOUNT;\n\n    COMMIT TRANSACTION;\nEND;

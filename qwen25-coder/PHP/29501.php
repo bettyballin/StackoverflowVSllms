@@ -1,1 +1,0 @@
-<?php\n$page = isset($_GET['page']) ? (int)$_GET['page'] : 1;\n// Process the POST data\n$action = $_POST['action'] ?? null;\n\nif ($action === 'vote') {\n    // Handle voting logic here\n}\n\n// Redirect back to the same page after processing\nheader("Location: display.php?page=$page");\nexit();\n?>

@@ -1,1 +1,0 @@
-mapObject.prototype.Create = function() {\n    // Your implementation here\n    console.log("Create method called");\n};

@@ -1,1 +1,0 @@
-// Example of setting up a simple CORS request using Fetch API\nfetch('https://api.example.com/data', {\n    method: 'GET',\n    mode: 'cors',\n    headers: new Headers({\n        'Content-Type': 'application/json'\n    })\n})\n.then(response => response.json())\n.then(data => console.log(data))\n.catch(error => console.error('Error:', error));

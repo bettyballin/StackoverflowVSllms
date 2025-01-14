@@ -1,1 +1,0 @@
-public function takeScriptsWithMarker(array &$lines, $marker) {\n    // Your logic here\n}

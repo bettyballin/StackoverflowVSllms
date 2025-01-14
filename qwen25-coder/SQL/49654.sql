@@ -1,1 +1,0 @@
-SELECT a.column1, b.column2\nFROM table_a a,\n     table_b b\nWHERE a.id = b.a_id(+);

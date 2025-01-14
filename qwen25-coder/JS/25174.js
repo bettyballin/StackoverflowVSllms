@@ -1,1 +1,0 @@
-clone.prototype = Object(obj), new clone;

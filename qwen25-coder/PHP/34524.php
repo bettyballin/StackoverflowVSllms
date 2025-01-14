@@ -1,1 +1,0 @@
-$artists = []; // Initialize an array to hold artists\n\nfor ($i = 1; $i <= 20; $i++) { // Loop from 1 to 20\n    $art = 'artist' . $i;\n    if (isset($_POST[$art])) { // Check if the POST variable exists\n        $artists[] = $_POST[$art]; // Add it to the artists array\n    }\n}\n\n// Now you can use the $artists array to insert into your database

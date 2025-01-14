@@ -1,1 +1,0 @@
--- Use the target database (bar)\nUSE bar;\nGO\n\n-- Check if the table already exists and drop it if necessary\nIF EXISTS (SELECT * FROM sys.tables WHERE object_id = OBJECT_ID(N'tblFoobar'))\n    DROP TABLE tblFoobar;\n\n-- Create the table in 'bar' by copying from 'foo'\nSELECT *\nINTO tblFoobar\nFROM foo.dbo.tblFoobar;\nGO

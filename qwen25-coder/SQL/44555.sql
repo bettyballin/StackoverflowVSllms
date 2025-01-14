@@ -1,1 +1,0 @@
--- Example of original (slower) query with ANSI joins in WHERE clause\nSELECT a.col1, b.col2\nFROM table_a a,\n     table_b b\nWHERE a.id = b.a_id\n  AND b.some_column = 'some_value';\n\n-- Refactored query using INNER JOIN (potentially faster)\nSELECT a.col1, b.col2\nFROM table_a a\nINNER JOIN table_b b ON a.id = b.a_id\nWHERE b.some_column = 'some_value';

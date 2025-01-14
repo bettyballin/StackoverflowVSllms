@@ -1,1 +1,0 @@
-SELECT u.id as user_id,\n       u.name,\n       n.subject,\n       n.heading,\n       n.body,\n       n.timestamp\nFROM users u\nJOIN (\n    SELECT user_id, MAX(timestamp) as max_timestamp\n    FROM notes\n    GROUP BY user_id\n) latest_notes ON u.id = latest_notes.user_id\nJOIN notes n ON n.user_id = latest_notes.user_id AND n.timestamp = latest_notes.max_timestamp;

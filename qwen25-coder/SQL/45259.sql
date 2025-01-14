@@ -1,1 +1,0 @@
-CREATE MATERIALIZED VIEW local_b_mv AS\n   SELECT * FROM b@remotedb;

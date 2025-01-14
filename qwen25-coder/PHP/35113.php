@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['searchTerm'])) {\n    $searchTerm = htmlspecialchars(trim($_POST['searchTerm']));\n    // You could add more validation logic here as needed\n    header("Location: https://domain.com/search?term=" . urlencode($searchTerm));\n    exit;\n}\n?>

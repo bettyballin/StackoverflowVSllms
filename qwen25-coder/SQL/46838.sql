@@ -1,1 +1,0 @@
-WITH transaction_counts AS (\n    SELECT val,\n           COUNT(CASE WHEN val > 0 THEN 1 END) - \n           COUNT(CASE WHEN val < 0 THEN 1 END) AS net_count\n    FROM check_minus\n    GROUP BY ABS(val)\n)\nSELECT val\nFROM transaction_counts\nWHERE net_count > 0;

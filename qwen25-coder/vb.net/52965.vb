@@ -1,1 +1,0 @@
-Settings.MakeNewIETimeout = 120 ' Timeout in seconds\n   Dim ie8 As New IE("http://[some website]")

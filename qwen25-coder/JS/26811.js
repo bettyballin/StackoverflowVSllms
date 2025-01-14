@@ -1,1 +1,0 @@
-$(document).ready(function() {\n     $("a.more").click(function(event) {\n       event.preventDefault(); // Prevent default link behavior\n       var postId = $(this).data('id');\n       var url = $(this).attr('href');\n\n       $.get(url, function(data) {\n         $("#post_" + postId).html(data);\n       });\n     });\n   });

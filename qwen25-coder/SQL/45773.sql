@@ -1,1 +1,0 @@
--- Check database version which can give hints about the database type\nSELECT VERSION();\n\n-- List all databases\nSHOW DATABASES;\n\n-- Select specific database\nUSE <database_name>;\n\n-- List all tables in selected database\nSHOW TABLES;\n\n-- Describe table structure\nDESCRIBE <table_name>;

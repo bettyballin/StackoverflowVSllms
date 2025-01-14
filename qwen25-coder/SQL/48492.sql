@@ -1,1 +1,0 @@
--- Note: This assumes the current date is 2023-10-05\nALTER TABLE your_table \nADD CONSTRAINT chk_birth_date CHECK (BIRTH_DATE >= DATE '1923-10-05' AND BIRTH_DATE < DATE '2024-10-06');

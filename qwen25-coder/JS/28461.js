@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    // Remove the <noscript> element entirely\n    $('noscript').remove();\n\n    // Alternatively, if you want to modify something within <noscript>\n    // but keep in mind that browsers won't render these changes\n    $('noscript div.ad').html('<p>This content will not be displayed in JS-enabled browsers.</p>');\n});

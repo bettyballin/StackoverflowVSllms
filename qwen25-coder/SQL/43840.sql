@@ -1,1 +1,0 @@
-SELECT * FROM YourTable WHERE YourColumn LIKE 'example*';

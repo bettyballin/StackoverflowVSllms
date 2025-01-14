@@ -1,1 +1,0 @@
-// Assuming you have an input field with an ID of 'myInput'\ndocument.getElementById('myInput').value += ' your additional text here';

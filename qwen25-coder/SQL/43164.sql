@@ -1,1 +1,0 @@
-UPDATE work\nSET kilometers = calc_kilo,\n    kilo_test = test_kilo\nWHERE lc = COALESCE(rm.lc, lc)\n  AND ld = COALESCE(rm.ld, ld)\n  AND le = COALESCE(rm.le, le)\n  AND lf = COALESCE(rm.lf, lf)\n  AND code = rm.code\n  AND lcode = rm.lcode\n  AND user_id = username;

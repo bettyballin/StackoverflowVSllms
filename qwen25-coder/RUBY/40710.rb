@@ -1,1 +1,0 @@
-class CreateOrdersAndCustomers < ActiveRecord::Migration[6.0]\n  def change\n    create_table :customers do |t|\n      t.string :name\n      # Other fields...\n      t.timestamps\n    end\n\n    create_table :orders do |t|\n      t.belongs_to :customer, null: false, foreign_key: true\n      t.decimal :amount\n      # Other fields...\n      t.timestamps\n    end\n  end\nend

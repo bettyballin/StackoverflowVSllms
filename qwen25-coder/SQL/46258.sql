@@ -1,1 +1,0 @@
--- Add a computed column that will store Column1 only when it's not null, otherwise 'N/A'\nALTER TABLE MyTable ADD UniqueHash AS (CASE WHEN Column1 IS NULL THEN 'N/A' ELSE CAST(Column1 AS VARCHAR) END);\n\n-- Create a unique constraint on the computed column\nALTER TABLE MyTable ADD CONSTRAINT uc_Column1_Unique UNIQUE (UniqueHash);

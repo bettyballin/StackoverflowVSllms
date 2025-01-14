@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare('SELECT * FROM your_table WHERE id = :id');\n  $stmt->execute([':id' => $id]);

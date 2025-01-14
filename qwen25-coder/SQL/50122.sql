@@ -1,1 +1,0 @@
--- Check current configuration\n  SHOW VARIABLES LIKE 'innodb_ft_min_token_size';\n  SHOW VARIABLES LIKE 'ft_min_word_len';\n\n  -- Example of changing ft_min_word_len (requires server restart)\n  SET GLOBAL innodb_ft_min_token_size = 3;

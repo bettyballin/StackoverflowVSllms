@@ -1,1 +1,0 @@
-// In Developer Tools, go to the Network tab.\n// Reload the page and look for any failed or blocked requests.

@@ -1,1 +1,0 @@
-$name = "Jane Doe";\nif (preg_match('/\s/', $name)) {\n    echo "Whitespace found between strings.";\n} else {\n    echo "No whitespace found between strings.";\n}

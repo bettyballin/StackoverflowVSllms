@@ -1,1 +1,0 @@
-CREATE TABLE pagedata (\n    pagelargeid INT AUTO_INCREMENT PRIMARY KEY,\n    pageid INT,\n    data MEDIUMTEXT,\n    FOREIGN KEY (pageid) REFERENCES page(pageid)\n);

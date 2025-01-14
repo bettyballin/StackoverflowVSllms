@@ -1,1 +1,0 @@
-SELECT * \nFROM Addresses \nWHERE Address3 LIKE '123 Main%' -- Prefix search that uses the index

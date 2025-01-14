@@ -1,1 +1,0 @@
-CREATE TABLE user_data_entries (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    user_id INT,\n    data_entry VARCHAR(255),\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);

@@ -1,1 +1,0 @@
-// Simple script to apply no scrollbar style on textarea in IE8\nif (navigator.userAgent.match(/MSIE (\d+\.\d+);/) && parseFloat(RegExp.$1) < 9) {\n    var textareas = document.getElementsByTagName('textarea');\n    for (var i = 0; i < textareas.length; i++) {\n        textareas[i].style.overflow = 'hidden';\n    }\n}

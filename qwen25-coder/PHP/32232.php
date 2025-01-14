@@ -1,1 +1,0 @@
-// For a text file\necho "First line" . PHP_EOL . "Second line";\n\n// When outputting HTML, <br> is used for line breaks in browsers\necho "First line<br>Second line";

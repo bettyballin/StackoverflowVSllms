@@ -1,1 +1,0 @@
-SELECT * FROM fiberbox f \nWHERE f.fiberBox LIKE '%1740 %' \n   OR f.fiberBox LIKE '%1938 %' \n   OR f.fiberBox LIKE '%1940 %';

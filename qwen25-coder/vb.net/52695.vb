@@ -1,1 +1,0 @@
-Dim target As System.ConsoleColor = ConsoleColor.Cyan\nDim actual As String = CType(target, Integer).ToString()\nDim expected As String = "11"

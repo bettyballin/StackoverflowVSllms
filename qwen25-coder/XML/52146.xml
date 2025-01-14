@@ -1,1 +1,0 @@
-<bindings>\n     <netMsmqBinding>\n       <binding name="SecureNetMsmqBinding">\n         <security mode="Transport">\n           <transport msmqAuthenticationMode="WindowsDomain" \n                     clientCredentialType="Windows"/>\n         </security>\n       </binding>\n     </netMsmqBinding>\n   </bindings>

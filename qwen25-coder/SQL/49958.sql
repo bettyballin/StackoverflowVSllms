@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n        id INT AUTO_INCREMENT PRIMARY KEY,\n        fb_user_id VARCHAR(255) NOT NULL UNIQUE,\n        role ENUM('user', 'admin') DEFAULT 'user'\n    );

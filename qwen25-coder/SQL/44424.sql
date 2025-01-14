@@ -1,1 +1,0 @@
-SELECT * FROM OPENROWSET(BULK 'C:\path\to\file.txt', SINGLE_CLOB) AS FILE;

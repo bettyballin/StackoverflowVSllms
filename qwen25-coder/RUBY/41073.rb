@@ -1,1 +1,0 @@
-class Case < ApplicationRecord\n  belongs_to :caseable, polymorphic: true\nend\n\nclass ThingA < ApplicationRecord\n  has_many :cases, as: :caseable\nend\n\nclass ThingB < ApplicationRecord\n  has_many :cases, as: :caseable\nend

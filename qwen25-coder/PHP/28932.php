@@ -1,1 +1,0 @@
-<?php\n$url = 'https://example.com'; // Replace with your URL\n\n$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, $url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);\n\n$content = curl_exec($ch);\nif (curl_errno($ch)) {\n    die('Error fetching the content: ' . curl_error($ch));\n}\n\ncurl_close($ch);\n\necho $content;\n?>

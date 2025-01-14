@@ -1,1 +1,0 @@
-<?php echo form_open('search'); ?>\n    <input type="text" name="keyword" placeholder="Search...">\n    <button type="submit">Search</button>\n</form>

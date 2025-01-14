@@ -1,1 +1,0 @@
-myUniqueWidgetNamespace.jsonpCallback = function(data) {\n    console.log('JSONP Callback:', data);\n};\n\n// Assuming you have control over the URL being called\nlet scriptTag = document.createElement('script');\nscriptTag.src = 'http://example.com/api?callback=myUniqueWidgetNamespace.jsonpCallback';\ndocument.body.appendChild(scriptTag);

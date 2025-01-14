@@ -1,1 +1,0 @@
-// For MySQLi\n   $db->set_charset("utf8mb4");\n\n   // For PDO\n   $pdo = new PDO('mysql:host=your_host;dbname=your_db', 'username', 'password');\n   $pdo->exec('SET NAMES utf8mb4;\n              SET CHARACTER SET utf8mb4;\n              SET character_set_connection=utf8mb4');

@@ -1,1 +1,0 @@
-SELECT p.first_name, p.last_name, COUNT(i.id) AS incident_count\nFROM person p\nJOIN student s ON p.id = s.person_id\nLEFT JOIN incident i ON s.id = i.student\nWHERE s.year_group LIKE "%Year 9%"\nGROUP BY p.first_name, p.last_name;

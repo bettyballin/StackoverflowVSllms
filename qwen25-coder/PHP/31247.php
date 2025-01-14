@@ -1,1 +1,0 @@
-class Foo\n{\n   public function __construct()\n   {\n       // Your initialization code here\n   }   \n}

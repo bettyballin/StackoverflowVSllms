@@ -1,1 +1,0 @@
-WITH CategoryHierarchy AS (\n    SELECT CategoryID\n    FROM Categories\n    WHERE CategoryID = :selectedCategoryId\n    UNION ALL\n    SELECT c.CategoryID\n    FROM Categories c\n    INNER JOIN CategoryHierarchy ch ON c.ParentCategoryID = ch.CategoryID\n)\nSELECT p.*\nFROM Products p\nINNER JOIN CategoryHierarchy ch ON p.CategoryID = ch.CategoryID;

@@ -1,1 +1,0 @@
-def factorial_functional(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial_functional(n - 1)

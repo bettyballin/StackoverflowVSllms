@@ -1,1 +1,0 @@
-$xdebugStartTime = xdebug_time_index();\n\n// Your PHP code here\n\n$xdebugEndTime = xdebug_time_index();\necho "Total wall clock time: " . ($xdebugEndTime - $xdebugStartTime) . " seconds\n";\n\n// Generate profile file as usual, then open with WinCacheGrind for CPU times

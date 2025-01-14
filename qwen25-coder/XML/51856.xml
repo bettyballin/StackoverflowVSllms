@@ -1,1 +1,0 @@
-<system.web>\n    <customErrors mode="Off"/> <!-- For Debugging purposes -->\n    <authentication mode="None"/> <!-- Or set according to your needs -->\n</system.web>\n\n<system.web.services>\n    <protocols>\n        <add name="HttpGet"/>\n        <add name="HttpPost"/>\n    </protocols>\n    <wsdlHelpGenerator href=""/>\n</system.web.services>

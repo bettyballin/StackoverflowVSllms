@@ -1,1 +1,0 @@
--- Use a CTE to define your dataset\nWITH MyDATASET AS (\n    SELECT x as col1, y as col2, z as col3 FROM table1\n    UNION ALL\n    SELECT k as col1, l as col2, m as col3 FROM table2\n)\n-- Run queries on the CTE\nSELECT * FROM MyDATASET;

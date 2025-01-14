@@ -1,1 +1,0 @@
-Private Sub InitializeToolStrip()\n       Dim toolStrip As New ToolStrip()\n       ' Configure the ToolStrip properties here\n       toolStrip.Visible = True\n       TabPage1.Controls.Add(toolStrip)\n   End Sub

@@ -1,1 +1,0 @@
-<?php \nglobal $base_path;\n$uri = request_uri();\n$alias = trim($uri, '/');\n\nif (strpos($alias, "1234") !== false) { ?>\n<a style="color:black" href="<?php echo url('internal/link/alias'); ?>">Internal Link</a>\n<?php } else { ?>\n<a href="<?php echo url('internal/link/alias'); ?>">Internal Link</a>\n<?php } ?>

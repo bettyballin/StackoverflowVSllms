@@ -1,1 +1,0 @@
-select #bar.parent_id, #bar.child_id\nfrom #bar\njoin foo on #bar.parent_id = foo.child_id

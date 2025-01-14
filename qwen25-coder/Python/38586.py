@@ -1,1 +1,0 @@
-import os\n\ndef generate_binary_test_data(size_kb):\n    size_bytes = size_kb * 1024\n    return os.urandom(size_bytes)\n\nbinary_data = generate_binary_test_data(5)\n\nwith open('test_data.bin', 'wb') as f:\n    f.write(binary_data)

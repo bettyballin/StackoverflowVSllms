@@ -1,1 +1,0 @@
-$searchResult = ['search_id' => $searchId, 'result_id' => $resultId];\nfile_put_contents('/path/to/log/search-results.log', json_encode($searchResult) . PHP_EOL, FILE_APPEND);

@@ -1,1 +1,0 @@
-# config/initializers/application_settings.rb\nmodule ApplicationSettings\n  APPLICATION_TITLE = ENV['APPLICATION_TITLE'] || 'Abc'\nend

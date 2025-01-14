@@ -1,1 +1,0 @@
-Table users {\n  id int [pk]\n  username varchar(255)\n  email varchar(255)\n}\n\nTable orders {\n  id int [pk]\n  user_id int\n  order_date date\n}\n\nTable product_orders {\n  id int [pk]\n  order_id int\n  product_id int\n  quantity int\n}\n\nRef: "users"."id" < "orders"."user_id"\n\nRef: "orders"."id" < "product_orders"."order_id"

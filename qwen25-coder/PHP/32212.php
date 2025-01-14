@@ -1,1 +1,0 @@
-$dataFromDatabase = $yourModel->retrieveData(); // Replace this line with actual retrieval logic.\n\n// Convert date format before setting it on form element.\n$dateElement->setValue(\n    Zend_Date::factory($dataFromDatabase['date_field'], 'yyyy-MM-dd')->toString('dd/MM/yyyy')\n);\n\n$yourForm->setDefaults($dataFromDatabase);

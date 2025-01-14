@@ -1,1 +1,0 @@
-(async function() {\n    try {\n        const feed = await yourObject.fetch('http://example.com/rss');\n        console.log(feed);\n        // Process the feed here\n    } catch (error) {\n        console.error("Error fetching RSS:", error);\n    }\n})();

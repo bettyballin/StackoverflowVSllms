@@ -1,1 +1,0 @@
-select * \n  from node \n  connect by prior node_id = parent_node_id \n  start with node_id = 1;

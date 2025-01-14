@@ -1,1 +1,0 @@
-<?php\n$email = '';\nwhile (!feof(STDIN)) {\n    $email .= fgets(STDIN);\n}\n\n// Process the $email variable to determine if it is a bounce email.\n// You can use regular expressions or other logic to parse through the headers/content.\n\nif (is_bounced($email)) { // Define your own is_bounced function\n    // Log the issue, send alerts, etc.\n}\n?>

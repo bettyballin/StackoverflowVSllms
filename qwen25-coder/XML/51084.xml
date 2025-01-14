@@ -1,1 +1,0 @@
-<!-- In adf-faces-config.xml -->\n<adf-faces-config xmlns="http://xmlns.oracle.com/adf/faces/config">\n    <rendering>\n        <default-dtd-version>xhtml-transitional</default-dtd-version>\n    </rendering>\n</adf-faces-config>

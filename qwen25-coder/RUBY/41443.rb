@@ -1,1 +1,0 @@
-# test/system/login_test.rb\nrequire "application_system_test_case"\n\nclass LoginTest < ApplicationSystemTestCase\n  test "visiting the login page" do\n    visit users_login_path\n    fill_in "Email", with: @user.email\n    fill_in "Password", with: 'password'\n    click_on "Log in"\n    assert_text "Welcome"\n  end\nend

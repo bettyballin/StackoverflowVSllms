@@ -1,1 +1,0 @@
-from database.client import Client\nfrom database.order import Order\nfrom database.staff import Staff\n\nc = Client()\no = Order()\ns = Staff()

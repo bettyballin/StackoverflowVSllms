@@ -1,1 +1,0 @@
-CREATE TABLE YourTableName (\n    Column1Name INT PRIMARY KEY,\n    Column2Name NVARCHAR(50),\n    -- Add other columns as per your DataTable definition.\n);

@@ -1,1 +1,0 @@
-$ch = curl_init();\n\ncurl_setopt($ch, CURLOPT_URL, "http://example.com/api");\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n\n$response = curl_exec($ch);\ncurl_close($ch);\n\n// Convert XML response to a SimpleXMLElement object\n$xmlObject = simplexml_load_string($response);\n\n// Example of accessing data\necho $xmlObject->data; // Accessing 'data' element

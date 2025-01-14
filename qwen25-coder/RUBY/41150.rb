@@ -1,1 +1,0 @@
-User.find_by_sql("SELECT * FROM users WHERE name = '#{params[:name]}'") # Vulnerable\n   User.where(name: params[:name]) # Safe

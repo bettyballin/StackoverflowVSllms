@@ -1,1 +1,0 @@
-class MyClass {\n      protected function myProtectedMethod() {\n          // This method can be accessed within MyClass and subclasses\n      }\n  }

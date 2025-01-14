@@ -1,1 +1,0 @@
-def show\n      @scroll_to_section = 'id_of_element' if some_condition?\n      # other logic...\n    end

@@ -1,1 +1,0 @@
-SELECT TOP(1)\n    DC.DayId\nFROM\n    tDayChores DC\nINNER JOIN\n    tChore C ON C.ChoreId = DC.ChoreId\nINNER JOIN\n    tDaysOfWeek DW ON DW.DayId = DC.DayId\nWHERE\n    C.ChoreDescription = 'vacuum'\nORDER BY\n    CASE \n        WHEN DW.DayName = 'Wednesday' THEN 1\n        WHEN DW.DayName = 'Thursday' THEN 2\n        ELSE 3\n    END;

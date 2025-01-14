@@ -1,1 +1,0 @@
-import os\n\n# This will clear the console in Windows\nos.system('cls')

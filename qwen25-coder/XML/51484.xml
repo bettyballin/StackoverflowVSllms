@@ -1,1 +1,0 @@
-<ItemGroup>\n    <ConfigurationToBuild Include="Release|Any CPU">\n        <FlavorToBuild>Release</FlavorToBuild>\n        <PlatformToBuild>Any CPU</PlatformToBuild>\n    </ConfigurationToBuild>\n  </ItemGroup>

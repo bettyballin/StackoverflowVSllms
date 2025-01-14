@@ -1,1 +1,0 @@
-import schedule\nimport time\n\ndef perform_security_audit():\n    print("Performing a security audit...")\n\n# Schedule daily security audits to preemptively check for vulnerabilities\nschedule.every().day.at("09:00").do(perform_security_audit)\n\nwhile True:\n    schedule.run_pending()\n    time.sleep(60)  # wait one minute

@@ -1,1 +1,0 @@
-if ($_FILES['imagefile']['size'] > 2097152) {\n    die("ERROR: File size must be less than 2MB");\n}

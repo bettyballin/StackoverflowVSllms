@@ -1,1 +1,0 @@
-<configuration>\n  <runtime>\n    <NetFx40_LegacySecurityPolicy enabled="true"/>\n  </runtime>\n</configuration>

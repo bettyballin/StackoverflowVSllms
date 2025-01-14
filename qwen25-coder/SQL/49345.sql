@@ -1,1 +1,0 @@
-SELECT * FROM tbl_cpc WHERE cpcID = @cpcID

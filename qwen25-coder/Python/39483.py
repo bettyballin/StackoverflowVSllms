@@ -1,1 +1,0 @@
-def convert_to_lists(nested_structure):\n    if isinstance(nested_structure, (list, tuple)):\n        return [convert_to_lists(element) for element in nested_structure]\n    else:\n        return nested_structure\n\n# Example usage\nnested_tuple = (1, 2, [3, (4, 5)])\nconverted_list = convert_to_lists(nested_tuple)\nprint(converted_list)  # Output: [1, 2, [3, [4, 5]]]

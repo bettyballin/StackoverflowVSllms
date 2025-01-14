@@ -1,1 +1,0 @@
--- Example SQL command to check which ports are enabled on your SQL Server instance.\nSELECT local_tcp_port FROM sys.dm_exec_connections WHERE session_id = @@SPID;

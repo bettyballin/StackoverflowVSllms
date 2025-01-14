@@ -1,1 +1,0 @@
-CREATE DATABASE my_database;\n\nCREATE SCHEMA my_schema;

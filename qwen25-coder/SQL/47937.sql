@@ -1,1 +1,0 @@
-SELECT TOP 1 *\nFROM Keyboard\nWHERE KeyboardID < (SELECT MAX(KeyboardID) FROM Keyboard)\nORDER BY KeyboardID DESC;

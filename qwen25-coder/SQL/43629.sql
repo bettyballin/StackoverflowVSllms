@@ -1,1 +1,0 @@
-SELECT DISTINCT p1.Branch, p1.Patient\nFROM prescriptions p1\nJOIN prescriptions p2 ON p1_patient = p2.Patient AND p1.Branch = p2.Branch\nWHERE p1.DateOfTest < p2.DateOfTest\nAND DATEDIFF(p2.DateOfTest, p1.DateOfTest) <= 183;

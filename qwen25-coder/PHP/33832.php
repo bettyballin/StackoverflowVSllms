@@ -1,1 +1,0 @@
-function cleanUrl($url) {\n    // Remove http:// or https:// from the beginning of the URL if present\n    $cleanedUrl = preg_replace('#^https?://#', '', $url);\n\n    return $cleanedUrl;\n}\n\n// Example usage\n$rawInput = $_POST['userUrl'];\n$sanitizedUrl = cleanUrl($rawInput);

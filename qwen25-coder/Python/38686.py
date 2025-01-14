@@ -1,1 +1,0 @@
-from cryptography import x509\nfrom cryptography.hazmat.backends import default_backend\n\n# Example usage would involve loading certificates and sending requests to the OCSP responder

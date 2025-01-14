@@ -1,1 +1,0 @@
-amespace App\Http\Controllers;\n\nuse Illuminate\Http\Request;\nuse App\Models\News; // Assume there's a News model to interact with news data\n\nclass HomeController extends Controller\n{\n    public function index()\n    {\n        $latestNews = News::orderBy('created_at', 'desc')->limit(5)->get();\n        \n        return view('home.index', compact('latestNews'));\n    }\n}

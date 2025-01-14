@@ -1,1 +1,0 @@
-INSERT INTO target_table (id, name, value)\nSELECT id, name, value FROM source_table;

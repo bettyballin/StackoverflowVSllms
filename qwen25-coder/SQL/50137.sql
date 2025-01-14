@@ -1,1 +1,0 @@
--- If LandData_Update expects parameters named @MyFirstName and @MyLastName\nEXECUTE LandData_Update @MyFirstName=@FirstName, @MyLastName=@LastName;

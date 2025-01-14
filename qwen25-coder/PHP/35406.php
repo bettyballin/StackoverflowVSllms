@@ -1,1 +1,0 @@
-// Set your desired session name\n$newSessionName = 'mycustomsessid';\n\n// Use the new session name\nsession_name($newSessionName);\n\n// Start the session\nsession_start();

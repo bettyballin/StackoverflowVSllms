@@ -1,1 +1,0 @@
-function f() {\n    g(...arguments);\n}\n\nfunction g(a, b, c) {\n    alert(a + b + c);\n}

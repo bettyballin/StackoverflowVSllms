@@ -1,1 +1,0 @@
-Function ExampleFunctionUsingName() As Integer\n    ' Assigning to Function Name directly\n    ExampleFunctionUsingName = 42\nEnd Function\n\nFunction ExampleFunctionUsingReturn() As Integer\n    ' Using Return statement\n    Return 42\nEnd Functio

@@ -1,1 +1,0 @@
-$options = array('dsn' => 'mysql://$user:$password@$db_host/$db_name');

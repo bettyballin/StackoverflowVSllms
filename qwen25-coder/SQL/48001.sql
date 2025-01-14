@@ -1,1 +1,0 @@
-SELECT YEAR(deliveryDate) AS Year,\n       DATEPART(WEEK, deliveryDate) AS WeekNumber,\n       SUM(someValues) AS TotalSum\nFROM table1\nGROUP BY YEAR(deliveryDate), DATEPART(WEEK, deliveryDate)\nORDER BY YEAR(deliveryDate), DATEPART(WEEK, deliveryDate);

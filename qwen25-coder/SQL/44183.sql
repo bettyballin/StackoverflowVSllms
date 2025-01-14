@@ -1,1 +1,0 @@
-SELECT INSTR('JD-EQ-0001', '-', -1) AS last_index FROM dual;

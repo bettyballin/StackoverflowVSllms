@@ -1,1 +1,0 @@
-// Start output buffering to avoid sending headers immediately.\n   ob_start();\n\n   // Optionally close the session early in your long-running script\n   if(session_id()) {\n       session_write_close();\n   }\n\n   // Continue with file download or other operations

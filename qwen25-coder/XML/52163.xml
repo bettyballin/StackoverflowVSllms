@@ -1,1 +1,0 @@
-<!-- Reference test.dll using its path relative to this project -->\n<ItemGroup>\n    <Reference Include="test">\n        <HintPath>..\lib\test.dll</HintPath>\n    </Reference>\n</ItemGroup>

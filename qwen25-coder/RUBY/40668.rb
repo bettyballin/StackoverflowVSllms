@@ -1,1 +1,0 @@
-# config/initializers/console.rb\nif defined?(Rails::Console)\n  Rails.application.eager_load!\nend

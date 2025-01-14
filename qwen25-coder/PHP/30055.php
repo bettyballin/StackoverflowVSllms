@@ -1,1 +1,0 @@
-$page = basename($_SERVER['PHP_SELF']);\n\n<head>\n    <title>Page Title</title>\n    <?php\n    if ($page == 'index.php') {\n        echo '<script src="common.js"></script>';\n    } elseif ($page == 'edit-profile.php') {\n        echo '<script src="profile-edit.js"></script>';\n    }\n    ?>\n</head>

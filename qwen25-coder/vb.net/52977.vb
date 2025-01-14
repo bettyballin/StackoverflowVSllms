@@ -1,1 +1,0 @@
-Dim xml = <root><child>Value</child></root>\n   Dim childValue As String = xml.<child>.Value

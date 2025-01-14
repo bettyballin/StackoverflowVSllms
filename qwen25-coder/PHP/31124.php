@@ -1,1 +1,0 @@
-switch ($Object->getSomeFlag()) {\n    case ObjectMapper::STATE_ONE:\n        // do something\n        break;\n\n    case ObjectMapper::STATE_TWO:\n        // do something else\n        break;\n\n    case ObjectMapper::STATE_THREE:\n        // do yet something else\n        break;\n\n    default:\n        // handle unexpected states if necessary\n}

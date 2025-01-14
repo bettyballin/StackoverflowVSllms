@@ -1,1 +1,0 @@
-<?php\n$russianText = "Привет мир!"; // Example Russian text\n$sourceEncoding = 'CP1251'; // Common encoding for Russian text in Windows environments\n$targetEncoding = 'UTF-8';\n\n$convertedText = mb_convert_encoding($russianText, $targetEncoding, $sourceEncoding);\n\necho $convertedText;\n?>

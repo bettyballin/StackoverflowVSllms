@@ -1,1 +1,0 @@
-$sigma = "\u{03C3}";\necho $sigma;

@@ -1,1 +1,0 @@
-session.cookie_secure = 1\n   session.cookie_httponly = 1\n   session.use_only_cookies = 1

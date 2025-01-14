@@ -1,1 +1,0 @@
--- Remove the old server\nsp_dropserver 'MyServerABC';\n\n-- Add the new server with local option if it's a default instance\nsp_addserver 'MyServerDEF', 'LOCAL';

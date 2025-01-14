@@ -1,1 +1,0 @@
-RESTORE DATABASE YourDatabaseName FROM DISK = 'D:\DiffBackup.bak' WITH RECOVERY;

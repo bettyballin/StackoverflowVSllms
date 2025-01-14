@@ -1,1 +1,0 @@
-// Client-side checksum validation (pseudocode)\n   function validateAppIntegrity():Boolean {\n       var expectedChecksum:String = "expected_checksum_here"; // This should be securely stored/transmitted\n       var appBytes:ByteArray = loadAppBytes();\n       var actualChecksum:String = calculateChecksum(appBytes);\n       return actualChecksum == expectedChecksum;\n   }

@@ -1,1 +1,0 @@
-function escCtrlChars($str) {\n    return preg_replace_callback('/[\0\t\n\v\f\r\'\"!-]/', function($matches) {\n        return '!' . ord($matches[0]) . '!';\n    }, $str);\n}

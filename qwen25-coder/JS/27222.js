@@ -1,1 +1,0 @@
-yourObject.fetch('http://example.com/rss', function(feed) {\n    // Do something with the feed here\n    console.log(feed);\n});

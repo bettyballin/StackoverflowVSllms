@@ -1,1 +1,0 @@
-$user_id = 12345; // Example user ID\n   $file_name = $_FILES['file']['name'];\n   $extension = pathinfo($file_name, PATHINFO_EXTENSION);\n   \n   if (in_array(strtolower($extension), ['jpg', 'jpeg', 'png', 'gif'])) {\n       $new_file_name = "$user_id.$extension";\n       // Move or save the file using $new_file_name\n   } else {\n       echo "Invalid file format.";\n   }

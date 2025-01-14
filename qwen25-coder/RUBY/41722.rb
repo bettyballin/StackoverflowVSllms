@@ -1,1 +1,0 @@
-# Gemfile\n   gem 'sequel'\n\n   # Example Usage\n   require 'sequel'\n   DB = Sequel.connect('sqlite://myapp.db')

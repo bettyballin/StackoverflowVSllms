@@ -1,1 +1,0 @@
-# Example: Pseudo-code to illustrate Message Broker's role in message routing\nclass MessageBroker:\n    def send_message(self, msg, destination):\n        # Use appropriate transport to send the message\n        self.transport.send(msg, destination)

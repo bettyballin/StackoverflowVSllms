@@ -1,1 +1,0 @@
-# test/integration/user_login_test.rb\nrequire 'test_helper'\n\nclass UserLoginTest < ActionDispatch::IntegrationTest\n  test "login with valid credentials" do\n    get login_path\n    post login_path, params: { session: { email: users(:one).email, password: 'password' } }\n    assert is_logged_in?\n    assert_redirected_to user_path(users(:one))\n  end\nend

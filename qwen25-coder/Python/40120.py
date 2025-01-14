@@ -1,1 +1,0 @@
-import inspect\n\ndef example_function(a, b, c=None):\n    pass\n\n# Get the signature of the function\nsignature = inspect.signature(example_function)\n\n# Extract parameters from the signature\nparameters = list(signature.parameters.keys())\n\nprint(parameters)  # Output: ['a', 'b', 'c']

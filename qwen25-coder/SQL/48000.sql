@@ -1,1 +1,0 @@
-INSERT INTO host (name)\n     SELECT DISTINCT t.host_name \n     FROM temp_table AS t\n     ON CONFLICT DO NOTHING;

@@ -1,1 +1,0 @@
-ALTER TABLE YourTableName ADD recordversion ROWVERSION NOT NULL;

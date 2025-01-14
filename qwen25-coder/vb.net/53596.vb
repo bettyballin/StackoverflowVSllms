@@ -1,1 +1,0 @@
-Private Sub Form_BeforeUpdate(Cancel As Integer)\n    Me.Total = (Me.Labour_Hours * Me.Labour_Cost) + Me.VAT\nEnd Sub

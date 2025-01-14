@@ -1,1 +1,0 @@
-// JavaScript\nconst jsonString = '{"name": "John", "age": 30}';\nconst obj = JSON.parse(jsonString);\nconsole.log(obj.name); // Outputs: Joh

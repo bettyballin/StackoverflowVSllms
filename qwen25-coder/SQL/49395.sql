@@ -1,1 +1,0 @@
--- Stop Trace\nEXEC sp_trace_setstatus \n    @traceid=@requestId, \n    @status=0;\n\n-- Close Trace\nEXEC sp_trace_setstatus \n    @traceid=@requestId, \n    @status=2;

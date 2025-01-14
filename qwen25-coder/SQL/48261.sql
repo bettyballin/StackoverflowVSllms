@@ -1,1 +1,0 @@
--- Grant execute privilege on ORDIM schema objects\nGRANT EXECUTE ON ordin TO your_user;\nGRANT EXECUTE ON si_ordinate_util_pkg TO your_user;\nGRANT EXECUTE ON ordsys.ord_dicom_cartridge TO your_user;\n\n-- Grant write privileges on directories used by ORDImage\nGRANT WRITE ON DIRECTORY your_directory_object TO your_user;

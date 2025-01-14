@@ -1,1 +1,0 @@
-from django.db.models import F\n\n# Assuming Player is your model\nfiltered_players = Player.objects.filter(batting__gt=F('bowling'))

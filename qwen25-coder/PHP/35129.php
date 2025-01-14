@@ -1,1 +1,0 @@
-<?php\nclass Home extends CI_Controller {\n    public function index() {\n        $data['yield'] = $this->load->view('homepage', array(), true);\n        $this->load->view('template', $data);\n    }\n}

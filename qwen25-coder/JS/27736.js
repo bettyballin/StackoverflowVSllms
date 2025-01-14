@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    dojo.addOnLoad(function() {\n        dojo.connect(dojo.byId('testLink'), 'onclick', function() { alert('xx'); });\n    });\n</script>\n<a href='#' id="testLink">TEST</a>

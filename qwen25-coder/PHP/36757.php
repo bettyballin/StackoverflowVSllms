@@ -1,1 +1,0 @@
-// Using unset\n$largeData = range(1, 10000);\nunset($largeData); // Frees memory\n\n// Assigning null\n$data = fetchData();\nprocessData($data);\n$data = null; // Data is cleared but variable can still be reused

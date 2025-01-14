@@ -1,1 +1,0 @@
-SELECT * FROM `table` WHERE `datetime_field` = '0000-00-00 00:00:00';

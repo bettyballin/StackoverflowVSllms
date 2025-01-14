@@ -1,1 +1,0 @@
-DECLARE @ConcatenatedString NVARCHAR(MAX);\n\nSELECT \n    @ConcatenatedString = STUFF(\n        (SELECT ',' + YourColumnName \n         FROM your_table \n         FOR XML PATH('')), 1, 1, '');\n\n-- Use the concatenated string as needed\nPRINT @ConcatenatedString;

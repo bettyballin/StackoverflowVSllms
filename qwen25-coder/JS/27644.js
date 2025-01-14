@@ -1,1 +1,0 @@
-!undefined; // true\n  !null;      // true\n  !false;     // true\n  !0;         // true\n  !NaN;       // true\n  !"";        // true

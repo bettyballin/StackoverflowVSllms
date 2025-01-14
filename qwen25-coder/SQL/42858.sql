@@ -1,1 +1,0 @@
-BEGIN TRANSACTION\n    DECLARE @id int\n\n    SELECT  @id=recid\n    FROM    identities WITH (UPDLOCK, ROWLOCK)\n    WHERE table_name = 'subscriber'\n\n    INSERT INTO subscriber (recid) values (@id)\n\n    UPDATE identities SET recid=recid+1 \n    WHERE table_name = 'subscriber'\n\nCOMMIT transaction\n\nselect * from subscriber

@@ -1,1 +1,0 @@
-ALTER TABLE my_table ADD (id NUMBER DEFAULT my_table_seq.NEXTVAL);

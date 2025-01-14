@@ -1,1 +1,0 @@
-// Add this function for better logging\nfunction log_error($message) {\n    file_put_contents('error.log', $message . PHP_EOL, FILE_APPEND);\n}\n\ntry {\n    // Your existing code here\n} catch (Exception $e) {\n    log_error("An error occurred: " . $e->getMessage());\n}

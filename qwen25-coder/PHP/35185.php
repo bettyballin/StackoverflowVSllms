@@ -1,1 +1,0 @@
-// In application/controllers/Hotel.php\n\nclass Hotel extends CI_Controller {\n    public function room_availability($hotel_id, $room_id) {\n        // Logic to check room availability\n        echo "Checking availability for Room {$room_id} at Hotel {$hotel_id}.";\n    }\n}

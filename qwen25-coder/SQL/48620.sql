@@ -1,1 +1,0 @@
-CREATE ASSEMBLY YourAssemblyName\n   FROM 'C:\Path\To\YourAssemblyName.dll'\n   WITH PERMISSION_SET = SAFE;

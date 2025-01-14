@@ -1,1 +1,0 @@
-Try\n    ' Your application logic here\nCatch ex As Exception\n    Dim st As New StackTrace(ex, True)\n    For i As Integer = 0 To st.FrameCount - 1\n        Dim sf As StackFrame = st.GetFrame(i)\n        System.Diagnostics.Debug.Print("File: " & sf.GetFileName() & ", Line: " & sf.GetFileLineNumber())\n    Next i\nEnd Try

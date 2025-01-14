@@ -1,1 +1,0 @@
-$myArray = $myArray ?? [];\narray_push($myArray, 'my message');

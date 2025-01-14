@@ -1,1 +1,0 @@
-DECLARE @ID INT;\nDECLARE cur CURSOR FOR SELECT ID FROM YourTable;\nOPEN cur;\nFETCH NEXT FROM cur INTO @ID;\n\nWHILE @@FETCH_STATUS = 0\nBEGIN\n    -- Process each row individually\n    PRINT @ID;\n    FETCH NEXT FROM cur INTO @ID;\nEND;\n\nCLOSE cur;\nDEALLOCATE cur;

@@ -1,1 +1,0 @@
-MERGE INTO your_table t\nUSING (SELECT 'X' AS mykey, 'value_to_insert_or_update' AS mystuff FROM dual) s\nON (t.mykey = s.mykey)\nWHEN MATCHED THEN\n    UPDATE SET t.mystuff = s.mystuff\nWHEN NOT MATCHED THEN\n    INSERT (mykey, mystuff) VALUES (s.mykey, s.mystuff);

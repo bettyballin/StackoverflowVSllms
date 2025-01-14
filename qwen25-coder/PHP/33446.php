@@ -1,1 +1,0 @@
-$arr = [\n    'name' => 'aalaap',\n    'age' => 29,\n    'location' => 'mumbai'\n];\n\n$result = array_merge(array_keys($arr), array_values($arr));\n\nprint_r($result);

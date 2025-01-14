@@ -1,1 +1,0 @@
-RESTORE FILELISTONLY FROM DISK = 'C:\yourbackupfile.bak'

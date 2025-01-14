@@ -1,1 +1,0 @@
-' Assuming 'Me' is the FrameworkElement that controls the Storyboard\nDim ServiceOff As Storyboard = DirectCast(FindResource("ServiceStopped"), Storyboard)\nServiceOff.Begin(Me, True)

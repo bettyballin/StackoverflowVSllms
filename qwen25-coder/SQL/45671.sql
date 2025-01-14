@@ -1,1 +1,0 @@
-CREATE TABLE #IDs (ID INT PRIMARY KEY);\n\n    INSERT INTO #IDs (ID) VALUES (1), (2), (3), ..., (10000);\n\n    UPDATE y\n    SET y.SomeColumn = 'NewValue'\n    FROM YourTable y\n    JOIN #IDs i ON y.ID = i.ID;\n\n    DROP TABLE #IDs;

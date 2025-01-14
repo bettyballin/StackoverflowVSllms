@@ -1,1 +1,0 @@
-WITH SalesCTE AS (\n    SELECT \n        Year,\n        SUM(Sales) as TotalSales\n    FROM \n        SalesData\n    GROUP BY \n        Year\n)\nSELECT \n    Year,\n    TotalSales,\n    (TotalSales - LAG(TotalSales, 1) OVER (ORDER BY Year)) / CAST(LAG(TotalSales, 1) OVER (ORDER BY Year) AS FLOAT) * 100 as SalesGrowthPercent\nFROM \n    SalesCTE;

@@ -1,1 +1,0 @@
--- PostgreSQL\nCREATE TABLE example_table (\n    description VARCHAR(5000)\n);\n\n-- Oracle\nCREATE TABLE example_table (\n    description VARCHAR2(5000)\n);

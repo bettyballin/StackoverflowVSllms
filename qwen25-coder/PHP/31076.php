@@ -1,1 +1,0 @@
-<?php\n$numberString = "0001";\n$newNumber = intval($numberString) + 1;\n$paddedNumber = str_pad((string)$newNumber, strlen($numberString), '0', STR_PAD_LEFT);\necho $paddedNumber; // Outputs: 0002\n?>

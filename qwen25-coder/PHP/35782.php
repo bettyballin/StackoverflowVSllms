@@ -1,1 +1,0 @@
-<?php\n// Assuming you get the input from a form with a field named 'word'\n$a = $_POST['word'];\n\n// Break the word into an array of characters\n$b = str_split($a);\n\n// Example usage: print each character\nforeach ($b as $character) {\n    echo $character . "\n";\n}\n?>

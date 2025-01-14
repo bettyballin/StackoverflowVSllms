@@ -1,1 +1,0 @@
-' Check and set session timeout (in minutes)\nSession.Timeout = 20 ' Settimeout to 20 minutes

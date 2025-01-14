@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n    UserId INT PRIMARY KEY,\n    UserName NVARCHAR(100),\n    TimeZoneId NVARCHAR(50)\n);\n\nINSERT INTO Users (UserId, UserName, TimeZoneId) VALUES\n(1, 'John', 'Eastern Standard Time'),\n(2, 'Fred', 'Pacific Standard Time');

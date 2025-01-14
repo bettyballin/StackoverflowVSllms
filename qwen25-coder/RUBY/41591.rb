@@ -1,1 +1,0 @@
-# config/application.rb\n   require 'rack/static'\n   \n   module YourApp\n     class Application < Rails::Application\n       config.middleware.insert_before(Rack::Runtime, "Rack::Static", urls: ["/images"], root: "#{Rails.root}/home/me/public_html/rails_proj")\n     end\n   end

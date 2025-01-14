@@ -1,1 +1,0 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"\n           targetNamespace="http://example.com/books"\n           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\n           elementFormDefault="qualified">\n    <xs:element name="book" type="xs:string"/>\n</xs:schema>

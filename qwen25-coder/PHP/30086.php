@@ -1,1 +1,0 @@
-<?php\n// Get raw POST data\n$input = file_get_contents('php://input');\n\n// Decode JSON\n$data = json_decode($input, true);\n\nif (json_last_error() === JSON_ERROR_NONE) {\n    // Process your 2D array here\n    print_r($data);\n} else {\n    echo "Invalid JSON";\n}\n?>

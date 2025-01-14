@@ -1,1 +1,0 @@
-import boto3\n\n# Create an S3 client\ns3 = boto3.client('s3')\n\n# Upload a new file\nwith open('example.png', 'rb') as data:\n    s3.upload_fileobj(data, 'your-bucket-name', 'example.png')

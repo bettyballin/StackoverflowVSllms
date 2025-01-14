@@ -1,1 +1,0 @@
-BEGIN\n    DBMS_SCHEDULER.create_job (\n        job_name        => 'maintain_event_log_size',\n        job_type        => 'PLSQL_BLOCK',\n        job_action      => 'BEGIN mantain_max_rows; END;',\n        start_date      => SYSTIMESTAMP,\n        repeat_interval => 'FREQ=DAILY', -- runs daily\n        enabled         => TRUE);\nEND;\n/

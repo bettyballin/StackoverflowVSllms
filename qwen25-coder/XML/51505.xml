@@ -1,1 +1,0 @@
-<configuration>\n    <system.web>\n        <compilation targetFramework="3.5" />\n    </system.web>\n</configuration>

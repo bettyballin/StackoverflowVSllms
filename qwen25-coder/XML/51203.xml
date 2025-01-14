@@ -1,1 +1,0 @@
-<connectionStrings>\n    <add name="YourConnectionStringName"\n         connectionString="Data Source=yourServer;Initial Catalog=yourDatabase;Integrated Security=True;"\n         providerName="System.Data.SqlClient"\n         max pool size="500" min pool size="10"/>\n</connectionStrings>

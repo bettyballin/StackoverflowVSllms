@@ -1,1 +1,0 @@
-$.ajaxSetup({\n  headers: {\n    'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content')\n  }\n});\n\n$(document).ready(function() {\n  $.ajax({\n    type: "PUT",\n    url: url,\n    data: { dummy: data },\n    success: function(data) {\n      // Handle the response\n    }\n  });\n});

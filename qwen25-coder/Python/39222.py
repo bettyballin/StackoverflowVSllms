@@ -1,1 +1,0 @@
-from difflib import unified_diff\n\n       with open('file1.txt') as f1, open('file2.txt') as f2:\n           diff = unified_diff(f1.readlines(), f2.readlines(), lineterm='')\n           print('\n'.join(diff))

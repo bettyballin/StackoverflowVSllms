@@ -1,1 +1,0 @@
-On Error Resume Next\nSet CreateObj = CreateObject("OPSValuer.OPSValue")\nIf Err.Number <> 0 Then\n    MsgBox "Failed to create object: " & Err.Description\nElse\n    MsgBox "Object created successfully"\nEnd If\nOn Error GoTo 0

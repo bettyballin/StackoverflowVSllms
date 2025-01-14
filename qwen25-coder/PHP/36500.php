@@ -1,1 +1,0 @@
-// Ensure $location is URL-encoded and safe\n$location = htmlspecialchars($location, ENT_QUOTES, 'UTF-8');\necho "<script type='text/javascript'>window.top.location='" . urldecode($location) . "';</script>";

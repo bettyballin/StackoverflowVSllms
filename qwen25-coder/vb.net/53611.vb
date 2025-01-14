@@ -1,1 +1,0 @@
-' Example of a simple query in Access VBA\n   Dim db As DAO.Database\n   Set db = CurrentDb\n   db.Execute "SELECT * FROM MyTable", dbFailOnError

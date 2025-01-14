@@ -1,1 +1,0 @@
-SELECT keyword, COUNT(*) AS count\nFROM (\n    SELECT SOUNDEX(keyword) AS soundex_code, keyword\n    FROM your_table\n) AS soundex_group\nGROUP BY soundex_code\nHAVING COUNT(DISTINCT keyword) > 1;

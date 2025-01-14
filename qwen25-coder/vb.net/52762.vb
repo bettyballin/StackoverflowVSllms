@@ -1,1 +1,0 @@
-Private Sub TextBox1_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles TextBox1.KeyPress\n    ' Allow control characters such as backspace\n    If Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsDigit(e.KeyChar) Then\n        e.Handled = True\n    End If\nEnd Sub

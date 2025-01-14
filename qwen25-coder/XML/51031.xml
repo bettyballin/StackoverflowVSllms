@@ -1,1 +1,0 @@
-<class name="EntityB" table="entity_b">\n    <!-- Other properties -->\n    <many-to-one name="entityA" \n                 class="EntityA" \n                 column="entitya_id"\n                 not-null="true"/>\n</class>

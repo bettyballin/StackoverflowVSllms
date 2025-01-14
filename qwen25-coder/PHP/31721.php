@@ -1,1 +1,0 @@
-// Assuming $row['date_added'] is your DATETIME string from the database\n$date = new DateTime($row['date_added']);\n\n// Format the date as you need, e.g., 'Y-m-d H:i:s' for a full datetime format or 'F j, Y, g:i a' for a more reader-friendly format\n$formattedDate = $date->format('Y-m-d H:i:s');\n\necho $formattedDate;

@@ -1,1 +1,0 @@
-sum(dp[n][i] for i in range(N+1))

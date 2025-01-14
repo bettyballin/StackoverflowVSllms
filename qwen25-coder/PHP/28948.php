@@ -1,1 +1,0 @@
-public function indexAction() {\n    // Retrieve flash messages added in previous requests\n    $flashMessenger = $this->_helper->getHelper('FlashMessenger');\n    if ($flashMessenger->hasMessages()) {\n        $this->view->errorMessage = $flashMessenger->getMessages();\n    }\n}

@@ -1,1 +1,0 @@
-SELECT YourColumn\nFROM YourTable\nORDER BY \n    CASE \n        WHEN ISNUMERIC(YourColumn) = 1 THEN CAST(YourColumn AS INT)\n        ELSE CAST(REPLICATE('z', 10) + YourColumn AS VARCHAR) -- Ensures numeric values come before non-numeric ones\n    END,\n    YourColumn;

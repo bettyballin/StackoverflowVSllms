@@ -1,1 +1,0 @@
-if (myClass) {\n    // Class was found, proceed with using it\n} else {\n    // Handle error, class not found\n}

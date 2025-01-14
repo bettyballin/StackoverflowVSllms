@@ -1,1 +1,0 @@
-function debug(...$args) {\n    foreach ($args as $arg) {\n        echo "<pre>";\n        var_dump($arg);\n        echo "</pre><br/>\n";\n    }\n    // Optionally log to error_log\n    error_log(print_r($args, true));\n}

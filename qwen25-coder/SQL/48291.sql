@@ -1,1 +1,0 @@
--- Example of a situation that might lead to Index Seek\n  SELECT * FROM Employees WHERE EmployeeID = 123;

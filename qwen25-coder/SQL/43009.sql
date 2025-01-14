@@ -1,1 +1,0 @@
-WITH RECURSIVE category_path AS (\n    SELECT id, name, parent_id\n    FROM categories WHERE id = \n    (SELECT id FROM categories WHERE name = 'Fuji')\n    UNION ALL\n    SELECT c.id, c.name, c.parent_id\n    FROM categories c\n    INNER JOIN category_path ON c.id = category_path.parent_id\n)\nSELECT * FROM category_path ORDER BY id;

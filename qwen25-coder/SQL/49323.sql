@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.DateGenerator(@StartDate DATETIME, @EndDate DATETIME)\nRETURNS TABLE\nAS\nRETURN (\n    WITH Dates AS (\n        SELECT @StartDate AS DateValue\n        UNION ALL\n        SELECT DATEADD(day, 1, DateValue)\n        FROM Dates\n        WHERE DATEADD(day, 1, DateValue) <= @EndDate\n    )\n    SELECT DateValue\n    FROM Dates\n    OPTION (MAXRECURSION 0)\n);

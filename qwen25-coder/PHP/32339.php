@@ -1,1 +1,0 @@
-// Set up Redis as the session handler\nini_set('session.save_handler', 'redis');\nini_set('session.save_path', 'tcp://127.0.0.1:6379');\n\n// Start the session\nsession_start();

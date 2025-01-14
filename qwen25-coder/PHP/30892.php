@@ -1,1 +1,0 @@
-<?php\n// Load XML and XSL files\n$xml = new DOMDocument();\n$xml->load('yourdata.xml'); // replace with your data source\n\n$xsl = new DOMDocument();\n$xsl->load('transform.xsl');\n\n// Create a processor and transform the XML to HTML\n$proc = new XSLTProcessor();\n$proc->importStyleSheet($xsl);\necho $proc->transformToXML($xml);\n?>

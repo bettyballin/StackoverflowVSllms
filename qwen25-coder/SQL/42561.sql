@@ -1,1 +1,0 @@
-CREATE TABLE messages (\n    ID INT AUTO_INCREMENT PRIMARY KEY,\n    body TEXT NOT NULL,\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    author_id INT REFERENCES users(ID) ON DELETE SET NULL,\n    group_id INT REFERENCES groups(ID) ON DELETE CASCADE,\n    version_number INT DEFAULT 1 -- for optimistic locking\n);

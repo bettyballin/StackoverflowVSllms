@@ -1,1 +1,0 @@
-SELECT e.*\nFROM events e\nWHERE NOT (\n    :new_event_start_date > e.end_date OR\n    :new_event_end_date < e.start_date\n);

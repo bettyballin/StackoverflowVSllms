@@ -1,1 +1,0 @@
-$("#controls-container").html("<%= j render @building.controls %>");

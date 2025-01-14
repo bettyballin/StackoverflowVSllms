@@ -1,1 +1,0 @@
-$weights = array(0.25, 0.4, 0.2, 0.15);\n$values  = array(\n    array(5, 10, 15),\n    array(20, 25, 30),\n    array(35, 40, 45),\n    array(50, 55, 60)\n);\n\n$result = array_map(function(...$cols) use ($weights) {\n    return array_sum(array_map(function($value, $weight) {\n        return $value * $weight;\n    }, $cols, $weights));\n}, ...$values);\n\nprint_r($result);

@@ -1,1 +1,0 @@
-SELECT ~some columns~\n    FROM ~table name~\n    LEFT JOIN ~table 2~ ON ~criteria~\n    INNER JOIN ~table 3~ ON ~criteria~

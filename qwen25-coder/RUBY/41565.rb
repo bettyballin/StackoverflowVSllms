@@ -1,1 +1,0 @@
-class User < ActiveRecord::Base\n  def self.custom_sql_scope\n    find_by_sql("SELECT * FROM users WHERE some_complex_condition")\n  end\nend

@@ -1,1 +1,0 @@
-FactoryBot.create(:user).inspect

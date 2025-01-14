@@ -1,1 +1,0 @@
-SELECT FORMAT(CAST(1 AS DATE), 'MMMM') AS MonthName;

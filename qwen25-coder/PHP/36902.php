@@ -1,1 +1,0 @@
-class Your_controller extends CI_Controller {\n    public function your_action() {\n        $this->output->enable_profiler(TRUE); // Enable profiler for this request\n        \n        // Your large process code here...\n        \n        // Optionally, disable profiler after processing\n        $this->output->enable_profiler(FALSE);\n    }\n}

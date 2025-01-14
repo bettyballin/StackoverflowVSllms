@@ -1,1 +1,0 @@
-$query = "INSERT INTO `pagehit` (`user_id`, `pageurl`) VALUES (?, ?)";\n    $stmt = $mysqli->prepare($query);\n    $stmt->bind_param("is", $userid, $pageurl);\n    $stmt->execute();

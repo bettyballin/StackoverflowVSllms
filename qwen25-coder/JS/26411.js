@@ -1,1 +1,0 @@
-const csvString = "LA_1;LA_2;LE_3;";\nconst regex = /(?:^|;)(LA_[^;]*)/;\nconst match = csvString.match(regex);\n\nif (match) {\n    console.log(match[1]); // Output: LA_1\n} else {\n    console.log("No match found");\n}

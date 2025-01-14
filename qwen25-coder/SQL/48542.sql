@@ -1,1 +1,0 @@
--- Single query with joins (assuming logical relationships)\nSELECT t1.column1, t2.column2, t3.column3, t4.column4\nFROM table1 t1\nJOIN table2 t2 ON t1.id = t2.foreign_id\nJOIN table3 t3 ON t2.id = t3.foreign_id\nJOIN table4 t4 ON t3.id = t4.foreign_id\nWHERE t1.id = 1;

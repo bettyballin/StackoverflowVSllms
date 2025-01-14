@@ -1,1 +1,0 @@
-$username = "uid=mynameHere,ou=domainIused,o=mygroup.com"; // Replace 'uid=' with the appropriate attribute

@@ -1,1 +1,0 @@
-<element name="numbers" type="ArrayOfLong"/>\n   ...\n   <complexType name="ArrayOfLong">\n       <sequence>\n           <element name="long" type="xsd:long" minOccurs="0" maxOccurs="unbounded"/>\n       </sequence>\n   </complexType>

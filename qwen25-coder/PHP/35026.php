@@ -1,1 +1,0 @@
-<?php\nif (extension_loaded('sqlite3')) {\n    echo 'SQLite3 extension is available.';\n} else {\n    echo 'SQLite3 extension is NOT available.';\n}\n?>

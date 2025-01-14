@@ -1,1 +1,0 @@
-UPDATE second_table st, lookup_table lt\nSET st.value_column = lt.value1\nWHERE st.key_column = lt.key1;

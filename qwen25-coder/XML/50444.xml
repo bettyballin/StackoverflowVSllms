@@ -1,1 +1,0 @@
-<file name="ProxyStub.dll">\n    <typelib tlbid="{your-proxy-stub-tlb-id-here}" version="1.0" helpdir="" resourceid="1" flags="hasdiskimage" uuidmap="{original-uuid}={new-uuid}" />\n</file>

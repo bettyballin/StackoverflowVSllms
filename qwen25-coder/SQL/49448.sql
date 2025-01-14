@@ -1,1 +1,0 @@
-SELECT * \n   FROM sys.dm_tran_session_transactions;

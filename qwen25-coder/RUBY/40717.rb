@@ -1,1 +1,0 @@
-def delete\n  user = User.find(params[:id])\n  user.destroy\nend

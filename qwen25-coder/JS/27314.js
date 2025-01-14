@@ -1,1 +1,0 @@
-setTimeout(function() {\n       window.location.reload(); // Refreshes whole page\n   }, 10000); // in milliseconds

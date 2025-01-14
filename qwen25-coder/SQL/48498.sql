@@ -1,1 +1,0 @@
-BULK INSERT CSVTest\n   FROM 'c:\csvfile.txt'\n   WITH (\n       FORMATFILE = 'C:\path_to_your_format_file.fmt',\n       FIRSTROW = 1  -- Use if you have a header row to skip\n   );\n   GO

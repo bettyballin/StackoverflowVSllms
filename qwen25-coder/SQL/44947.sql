@@ -1,1 +1,0 @@
-INSERT INTO daydates (day, dayofweek)\nSELECT TRUNC(sysdate),  -- Use TRUNC to ignore the time portion\n  (\n  CASE\n    WHEN TRUNC(sysdate) IN (SELECT TRUNC(h.holidaydate) FROM holiday h)\n    THEN 'holiday'  \n    ELSE TO_CHAR(TRUNC(sysdate), 'Day') \n  END)\nFROM dual;

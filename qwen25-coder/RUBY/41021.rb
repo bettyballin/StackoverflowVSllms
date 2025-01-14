@@ -1,1 +1,0 @@
-<!-- In your form view (e.g., app/views/users/_form.html.erb) -->\n<%= form_with(model: @user, local: true) do |form| %>\n  <%= form.hidden_field :submit_action, value: params[:commit] %>\n  \n  <!-- other form fields here -->\n\n  <%= form.submit 'Submit' %>\n  <%= form.submit 'Resubmit', name: 'commit', value: 'resubmit' %>\n<% end %>

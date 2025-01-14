@@ -1,1 +1,0 @@
-<Enroll xmlns="http://www.test.com/Enrollment">\n    <ClientId>000</ClientId>\n    <AccountNumber>123</AccountNumber>\n    <TaxId>123</TaxId>\n    <TaxType>123</TaxType>\n    <EmailAddress>123</EmailAddress>\n    <Pin>123</Pin>\n    <State>122</State>\n</Enroll>

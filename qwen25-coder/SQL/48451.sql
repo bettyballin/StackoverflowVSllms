@@ -1,1 +1,0 @@
-SHOW VARIABLES LIKE 'wait_timeout';\n   SHOW VARIABLES LIKE 'interactive_timeout';

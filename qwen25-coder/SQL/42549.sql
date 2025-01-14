@@ -1,1 +1,0 @@
-SELECT a.name, b.name \nFROM a \nINNER JOIN b ON a.id = b.id \nWHERE a.id = 1;

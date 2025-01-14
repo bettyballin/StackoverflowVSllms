@@ -1,1 +1,0 @@
-@news = News.joins(:roles)\n            .where(roles: { id: @news_writers.map(&:id) })\n            .group('news.id')\n            .having("COUNT(DISTINCT roles.id) = #{@news_writers.length}")

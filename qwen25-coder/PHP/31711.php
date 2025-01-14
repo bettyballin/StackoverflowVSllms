@@ -1,1 +1,0 @@
-// Assuming you have a Zend_Db_Adapter instance named $dbAdapter\n$dataSheet = new DataSheet($dbAdapter);\n$price = $dataSheet->getValue('3', 'model B');\necho $price;  // Outputs: "9$"

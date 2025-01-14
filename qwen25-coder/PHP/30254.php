@@ -1,1 +1,0 @@
-$input = "THIS IS A STRING TO BE CONVERTED.";\n$normalCaseString = ucwords(strtolower($input));\necho $normalCaseString; // Outputs: This Is A String To Be Converted.

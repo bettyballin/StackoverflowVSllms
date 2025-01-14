@@ -1,1 +1,0 @@
-SELECT *\n   FROM [RemoteServer].[YourDatabaseName].[dbo].[YourTableName];

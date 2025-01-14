@@ -1,1 +1,0 @@
-EXEC [dbo].[GetInvoiceClients] @startDate = '2009-03-01', @endDate = '2009-04-01'

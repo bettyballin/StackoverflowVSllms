@@ -1,1 +1,0 @@
-ew Ajax.Autocompleter(\n  "your_input_field_id", \n  "your_suggestions_div_id", \n  "/your_autocomplete_url", \n  { selectOnFocus: false }\n);

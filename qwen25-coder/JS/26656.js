@@ -1,1 +1,0 @@
-// Assuming 'response' is your JSON object obtained from the API\nconst pages = Object.keys(response.query.pages);\nif (pages.length > 0) {\n    const pageId = pages[0];\n    const content = response.query.pages[pageId].revisions[0]['*'];\n    console.log(content); // This will print "Something....."\n}

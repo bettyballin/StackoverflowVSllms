@@ -1,1 +1,0 @@
-$.post(getRootUrl() + '/some/subdir/file.php', data, function(response) {\n    // Handle response\n});

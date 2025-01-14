@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  // Initialize Class1 on tr1 if necessary (it already has this in the HTML)\n  $("#tr1").addClass("Class1");\n\n  $("tr").click(function() {\n    // Remove Class2 from any previously selected row\n    $(".Class2").removeClass("Class2");\n    // Add Class2 to the clicked row, making it red\n    $(this).addClass("Class2");\n  });\n});

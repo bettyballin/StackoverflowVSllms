@@ -1,1 +1,0 @@
-<?php\n$config = [\n    'baseurlpath' => 'https://yourdomain.com/simplesaml/',\n    'certdir'     => '/path/to/certs/',\n    'logging.dir' => '/var/log/simplesamlphp/',\n\n    // Enable debug logging. Disable in production!\n    'debug'       => true,\n    // This is a secret salt used by SimpleSAML for various purposes.\n    'secretsalt'  => 'defaultsecretsaltchangeme',\n];

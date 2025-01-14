@@ -1,1 +1,0 @@
--- Up:\n   DROP INDEX example_index ON example_table;\n\n   -- Down: Can only be undone if all settings are known\n   CREATE INDEX example_index ON example_table(column_name);

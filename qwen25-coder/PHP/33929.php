@@ -1,1 +1,0 @@
-exec("libreoffice --headless --convert-to rtf:writer_rtf_FramesStarMath_Export path/to/file.doc --outdir /path/to/output");

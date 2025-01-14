@@ -1,1 +1,0 @@
-validated_attachment :document do\n    def styles(*args)\n      {}\n    end\n\n    def post_process(*args); end\n\n    def content_type_whitelist\n      %w(application/pdf application/msword application/vnd.openxmlformats-officedocument.wordprocessingml.document)\n    end\n  end

@@ -1,1 +1,0 @@
-document.getElementById('datePicker').addEventListener('click', function() {\n    this.value = '2023-10-05';\n});\n\nfunction submitForm() {\n    var value = document.getElementById('datePicker').value;\n    console.log('Textbox Value:', value);  // Check if the value is logged correctly\n}

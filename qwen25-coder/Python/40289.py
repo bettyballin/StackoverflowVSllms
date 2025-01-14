@@ -1,1 +1,0 @@
-import cv2\n\n# Load an image\nimg = cv2.imread('example.jpg')\n\n# Upscale the image using bicubic interpolation\nupscaled_img = cv2.resize(img, (0, 0), fx=2, fy=2, interpolation=cv2.INTER_CUBIC)\n\n# Save or display the upscaled image\ncv2.imwrite('upscaled_example.jpg', upscaled_img)

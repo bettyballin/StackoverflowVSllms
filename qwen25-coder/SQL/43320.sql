@@ -1,1 +1,0 @@
-ALTER TABLE `escolaterrafir`.`t23_aluno` MODIFY COLUMN `a21_saida_id` int(10) signed DEFAULT NULL;

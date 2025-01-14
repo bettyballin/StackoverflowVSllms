@@ -1,1 +1,0 @@
-<?php\necho 'Maximum upload file size: '. ini_get('upload_max_filesize') . "\n";\necho 'Maximum post size: '. ini_get('post_max_size') . "\n";\n?>

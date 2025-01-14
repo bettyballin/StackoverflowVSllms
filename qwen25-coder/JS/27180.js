@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    var currentDate = new Date();\n    var previousMonth = new Date(currentDate.getFullYear(), currentDate.getMonth() - 1, 1);\n    \n    $("#datepicker").datepicker({\n        minDate: previousMonth,\n        maxDate: new Date(currentDate.getFullYear(), currentDate.getMonth(), 31)\n    });\n});

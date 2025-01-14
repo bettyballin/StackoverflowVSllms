@@ -1,1 +1,0 @@
-$end_date = new DateTime('2009-09-06'); // Add one day if you want to include the end date\n\nif ($date_from_user >= $start_date && $date_from_user < $end_date) {\n    echo "Date is within the range.";\n} else {\n    echo "Date is outside the range.";\n}

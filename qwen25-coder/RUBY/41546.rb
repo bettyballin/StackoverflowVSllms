@@ -1,1 +1,0 @@
-def my_method\n  if some_condition\n    while another_condition\n      case variable\n      when 'value1'\n        do_something\n      when 'value2'\n        do_something_else\n      end\n    end\n  end\nend

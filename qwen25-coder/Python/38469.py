@@ -1,1 +1,0 @@
-import pytesseract\nfrom PIL import Image\n\n# Load an image\nimage = Image.open('path_to_your_image.png')\n\n# Use OCR to recognize the text\ntext = pytesseract.image_to_string(image)\n\n# Print the recognized text\nprint(text)

@@ -1,1 +1,0 @@
-# Assuming 'template.tex' is your LaTeX document with placeholders like %TITLE%\nrequire 'erb'\ntemplate = File.read('template.tex')\ncontent = ERB.new(template).result(binding)\nFile.write('output.tex', content)\n\n# Compile to PDF\nsystem("pdflatex output.tex")

@@ -1,1 +1,0 @@
-// Example of a simple command line script in PHP to list files in a directory\n<?php\n$directory = '.';\nif (is_dir($directory)) {\n    if ($dh = opendir($directory)) {\n        while (($file = readdir($dh)) !== false) {\n            echo "filename: $file : type: " . filetype($directory . "/" . $file) . "\n";\n        }\n        closedir($dh);\n    }\n}\n?>

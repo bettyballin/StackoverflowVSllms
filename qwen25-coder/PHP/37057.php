@@ -1,1 +1,0 @@
-if (isset($_REQUEST["input_name"])) {\n    // Process the input, e.g., sanitize and validate it\n    $inputValue = filter_input(INPUT_REQUEST, 'input_name', FILTER_SANITIZE_STRING);\n    \n    if (!empty($inputValue)) {\n        // Do something with non-empty value\n    } else {\n        // Handle empty value case\n    }\n} else {\n    // Handle the case when input is not set\n}

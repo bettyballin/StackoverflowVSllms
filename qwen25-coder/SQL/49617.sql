@@ -1,1 +1,0 @@
--- Declare variables\nDECLARE @StartRow INT = 1;\nDECLARE @EndRow INT = 10;\n\nWITH PaginatedData AS (\n    SELECT *, \n           ROW_NUMBER() OVER (ORDER BY YourOrderColumn) AS RowNumber\n    FROM YourTable\n)\nSELECT * \nFROM PaginatedData \nWHERE RowNumber BETWEEN @StartRow AND @EndRow\n\n-- For the total count\nSELECT COUNT(*) AS TotalCount\nFROM YourTable;

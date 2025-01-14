@@ -1,1 +1,0 @@
-SELECT \n    HOUR(timestamp_column) AS hour,\n    COUNT(*) AS visits\nFROM \n    visits\nWHERE \n    timestamp_column >= NOW() - INTERVAL 24 HOUR\nGROUP BY \n    HOUR(timestamp_column)\nORDER BY \n    hour;

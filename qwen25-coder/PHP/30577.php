@@ -1,1 +1,0 @@
-$ids = implode(',', $id_array);\n$sql = "SELECT * FROM myTbl WHERE category_id IN ($ids)";

@@ -1,1 +1,0 @@
-UPDATE YourTableName\n    SET ColumnY = 'path/' + ColumnY\n    WHERE ColumnY <> '';

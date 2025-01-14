@@ -1,1 +1,0 @@
-WITH RankedValues AS (\n    SELECT\n        column_name,\n        ROW_NUMBER() OVER (ORDER BY column_name DESC) as rn\n    FROM\n        your_table\n    GROUP BY\n        column_name\n)\nSELECT\n    column_name\nFROM\n    RankedValues\nWHERE\n    rn = n;

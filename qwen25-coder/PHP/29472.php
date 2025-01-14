@@ -1,1 +1,0 @@
-require_once 'vendor/autoload.php';\n\n   $client = new Google_Client();\n   // Set up client with credentials and scopes\n   $service = new Google_Service_Gmail($client);\n   $user = 'me'; // Use 'me' to indicate authenticated user\n   $messages = $service->users_messages->listUsersMessages($user);

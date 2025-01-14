@@ -1,1 +1,0 @@
-class MyClass {\n      private $property;\n\n      public function setProperty($value) {\n          $this->property = $value; // Using $this to access a property of this instance\n      }\n\n      public function getProperty() {\n          return $this->property;\n      }\n  }

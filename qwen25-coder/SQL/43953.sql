@@ -1,1 +1,0 @@
-GRANT SELECT ON sys.dba_tab_cols TO your_user;

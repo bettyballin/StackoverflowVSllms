@@ -1,1 +1,0 @@
-# For Admin::User to be recognized:\n   app/models/admin/user.rb

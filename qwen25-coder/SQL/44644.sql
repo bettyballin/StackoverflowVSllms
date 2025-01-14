@@ -1,1 +1,0 @@
-SELECT \n    RIGHT('0' + CAST(DATEPART(month, YourDateColumn) AS varchar(2)), 2) + '/' + \n    RIGHT('0' + CAST(DATEPART(year, YourDateColumn) % 100 AS varchar(2)), 2) AS FormattedDate\nFROM \n    YourTable;

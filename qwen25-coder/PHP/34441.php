@@ -1,1 +1,0 @@
-include(ROOT . 'assets/inc/base/error.inc.php');

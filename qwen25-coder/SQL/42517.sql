@@ -1,1 +1,0 @@
-SELECT t.Id, t.UserName\nFROM table1 t\nWHERE (t.UserName, t.SubmittedDate) IN (\n    SELECT UserName, MAX(SubmittedDate)\n    FROM table1\n    GROUP BY UserName\n);

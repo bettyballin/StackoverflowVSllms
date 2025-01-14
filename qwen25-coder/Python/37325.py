@@ -1,1 +1,0 @@
-import json\n\nd = {"abc": [1, 2, 3], "qwerty": [4, 5, 6]}\nwith open('data.json', 'w') as f:\n    json.dump(d, f)

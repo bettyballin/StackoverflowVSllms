@@ -1,1 +1,0 @@
-INSERT INTO disk_table (Item1, Item2, cnt)\nSELECT m.Item1, m.Item2, m.cnt \nFROM memory_table AS m\nON DUPLICATE KEY UPDATE\ndisk_table.cnt = disk_table.cnt + VALUES(cnt);

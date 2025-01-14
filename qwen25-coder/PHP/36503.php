@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $tokenFromClient = $_POST['token'];\n    if ($tokenFromClient === $_SESSION['token']) {\n        echo "Login successful!";\n    } else {\n        echo "Invalid login attempt.";\n    }\n}\n?>

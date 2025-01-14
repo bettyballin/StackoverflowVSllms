@@ -1,1 +1,0 @@
-$dsn = 'mysql:host=your_host;dbname=your_db;charset=utf8';\n$username = 'your_username';\n$password = 'your_password';\n\ntry {\n    $pdo = new PDO($dsn, $username, $password);\n    // Set the PDO error mode to exception\n    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);\n} catch (PDOException $e) {\n    echo "Connection failed: " . $e->getMessage();\n}

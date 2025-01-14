@@ -1,1 +1,0 @@
-import sys\n   import os\n\n   sys.stdout = open('stdout.log', 'a')\n   sys.stderr = open('stderr.log', 'a')\n\n   # Your existing server code here

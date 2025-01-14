@@ -1,1 +1,0 @@
-if (admin) {\n    $.getScript('admin.js', function() {\n        // Now safe to use adminstuff()\n        $("#something").dblclick(function(){\n            if (admin) {\n                adminstuff();\n            } else {\n                userstuff();\n            }\n        });\n    });\n} else {\n    $("#something").dblclick(function(){\n        userstuff();\n    });\n}

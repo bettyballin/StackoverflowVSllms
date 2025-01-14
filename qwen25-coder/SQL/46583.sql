@@ -1,1 +1,0 @@
-SELECT \n    v1.clientid,\n    v1.delivery_count,\n    v2.action_count\nFROM \n    (SELECT COUNT(*) AS delivery_count, clientid \n     FROM deliveries \n     GROUP BY clientid) v1\nINNER JOIN \n    (SELECT COUNT(*) AS action_count, clientid \n     FROM routeactions \n     GROUP BY clientid) v2\nON \n    v1.clientid = v2.clientid;

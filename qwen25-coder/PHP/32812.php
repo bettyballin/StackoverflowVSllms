@@ -1,1 +1,0 @@
-// First call loads the model\n$this->load->model('example_model');\n\n// Subsequent calls do nothing as the model is already loaded\n$this->load->model('example_model');

@@ -1,1 +1,0 @@
-REPLACE INTO your_table (id, column1, column2) \nVALUES (your_id_value, value1, value2);

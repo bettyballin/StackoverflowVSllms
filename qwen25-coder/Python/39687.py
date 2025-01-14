@@ -1,1 +1,0 @@
-def safe_index(lst, value):\n    try:\n        return lst.index(value)\n    except ValueError:\n        return -1\n\n# Example usage\nmy_list = [10, 20, 30]\nindex = safe_index(my_list, 40)  # Returns -1 instead of raising an exception\nprint(index)

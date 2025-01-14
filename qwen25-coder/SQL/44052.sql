@@ -1,1 +1,0 @@
-DECLARE @id int;\nDECLARE @countVal int;\nDECLARE @sql nvarchar(max);\n\nSET @id = 1000;\nSET @sql = N'SELECT COUNT(*) FROM owner.myTable WHERE id = ' + CAST(@id AS NVARCHAR(10));\n\n-- Use OPENQUERY to execute against the linked server\nSELECT @countVal = COUNT(*)\nFROM OPENQUERY(oracleServer, @sql);

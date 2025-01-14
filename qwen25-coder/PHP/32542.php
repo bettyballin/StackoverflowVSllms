@@ -1,1 +1,0 @@
-$output = shell_exec('/path/to/lisp/script.lisp');\n   echo "<pre>$output</pre>";

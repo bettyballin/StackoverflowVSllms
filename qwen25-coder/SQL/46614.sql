@@ -1,1 +1,0 @@
-UPDATE YourTableName \n   SET ColumnName = 'NewValue'\n   WHERE RowID = 150;

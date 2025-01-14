@@ -1,1 +1,0 @@
-// Example usage:\n   import { Button } from '@mui/material';\n\n   function App() {\n     return <Button variant="contained">Hello World</Button>;\n   }

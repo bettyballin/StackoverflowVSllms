@@ -1,1 +1,0 @@
-// To increase session timeout in web.config:\n   <configuration>\n     <system.web>\n       <sessionState timeout="60" /> <!-- Timeout is in minutes -->\n     </system.web>\n   </configuration>

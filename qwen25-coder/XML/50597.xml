@@ -1,1 +1,0 @@
-<!-- Example struts-plugin.xml snippet -->\n<resourceBundle name="myResources">\n    <resource location="/META-INF/resources/js/my-custom-script.js"/>\n</resourceBundle>

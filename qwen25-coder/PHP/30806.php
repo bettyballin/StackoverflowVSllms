@@ -1,1 +1,0 @@
-$dateString = $row['date']; // '2009-07-13 04:16:31'\n$unixTimestamp = strtotime($dateString);\necho date("D F j", $unixTimestamp); // Outputs: Mon July 13

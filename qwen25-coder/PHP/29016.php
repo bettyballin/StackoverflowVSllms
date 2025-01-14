@@ -1,1 +1,0 @@
-if (is_array($foo ?? [])) {\n    foreach ($foo as $bar) {\n        if (method_exists($bar, 'doStuff')) { // Ensure method exists to avoid runtime errors\n            $bar->doStuff();\n        }\n    }\n}

@@ -1,1 +1,0 @@
-SELECT item\nFROM your_table_name\nWHERE attribute IN ('green', '4 legs')\nGROUP BY item\nHAVING COUNT(DISTINCT attribute) = 2;

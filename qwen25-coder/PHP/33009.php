@@ -1,1 +1,0 @@
-Array\n(\n    [0] => This is\n    [1] => is my\n    [2] => my test\n    [3] => test case\n    [4] => case for\n    [5] => for an\n    [6] => an example.\n)

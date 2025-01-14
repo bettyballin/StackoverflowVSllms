@@ -1,1 +1,0 @@
-SET NAMES utf8 COLLATE utf8_general_ci;\n\nSELECT column_name FROM table1\nUNION\nSELECT column_name FROM table2;

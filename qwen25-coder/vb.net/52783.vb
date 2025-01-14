@@ -1,1 +1,0 @@
-Dim i As String = "ABCDEF"\nDim result As String = i.Substring(0, 3)\nConsole.WriteLine(result) ' This will output "ABC"

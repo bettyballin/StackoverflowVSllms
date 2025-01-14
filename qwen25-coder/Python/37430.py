@@ -1,1 +1,0 @@
-import math\n\ndef point_on_circle(radius, angle_degrees, origin=(0, 0)):\n    angle_radians = math.radians(angle_degrees)\n    x = origin[0] + radius * math.cos(angle_radians)\n    y = origin[1] + radius * math.sin(angle_radians)\n    return (x, y)

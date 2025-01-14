@@ -1,1 +1,0 @@
-SELECT \n    COUNT(*)\nFROM \n    dbo.myTable\nCROSS APPLY \n    omText.nodes('/things/Fruit') AS XT(fruit)\nWHERE \n    fruit.value('(imageId/text())[1]', 'int') = 55

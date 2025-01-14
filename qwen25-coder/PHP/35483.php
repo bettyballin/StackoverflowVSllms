@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare("SELECT * FROM users WHERE username = :username");\n$stmt->execute([':username' => 'john_doe']);\n$results = $stmt->fetchAll();

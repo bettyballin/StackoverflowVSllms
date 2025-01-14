@@ -1,1 +1,0 @@
-var myDictionary:Dictionary = new Dictionary();\nmyDictionary["key1"] = "value1";\n\nif (myDictionary.hasOwnProperty("key1")) {\n    trace("Key exists.");\n} else {\n    trace("Key does not exist.");\n}

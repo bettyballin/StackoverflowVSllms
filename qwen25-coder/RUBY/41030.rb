@@ -1,1 +1,0 @@
-<head>\n  <!-- Other head elements -->\n  <meta name="csrf-token" content="<%= csrf_token %>">\n</head>

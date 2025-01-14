@@ -1,1 +1,0 @@
-require "database_cleaner"\n\nRSpec.configure do |config|\n  # Use transaction cleaning strategy as default.\n  config.before(:suite) do\n    DatabaseCleaner.strategy = :transaction\n  end\n\n  # Before and After each test block.\n  config.before(:each) do\n    DatabaseCleaner.start\n  end\n\n  config.after(:each) do\n    DatabaseCleaner.clean\n  end\nend

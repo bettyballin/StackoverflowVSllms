@@ -1,1 +1,0 @@
-import importlib\n\n# First, ensure the module is imported\nimport foo\n\n# Later, when you need to reload it:\nfoo = importlib.reload(foo)\nmyfoo = foo.Foo()

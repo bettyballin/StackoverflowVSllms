@@ -1,1 +1,0 @@
-<!-- Example of setting Enable32BitAppOnWin64 in applicationHost.config for IIS -->\n<applicationPools>\n    <add name="YourAppPoolName" managedRuntimeVersion="v2.0" enable32BitAppOnWin64="true">\n    </add>\n</applicationPools>

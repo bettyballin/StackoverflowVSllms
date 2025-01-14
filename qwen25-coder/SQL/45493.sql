@@ -1,1 +1,0 @@
-SELECT *, \n       (SELECT COUNT(*) FROM table1 t2 WHERE t2.number <= table1.number AND t2.type = table1.type AND t2.serial = table1.serial) AS RowID\nFROM table1;

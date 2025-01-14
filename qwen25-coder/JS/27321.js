@@ -1,1 +1,0 @@
-window.onload = function() {\n    var script = document.createElement('script');\n    script.textContent = 'alert("hi");';\n    document.getElementById('loader').appendChild(script);\n};

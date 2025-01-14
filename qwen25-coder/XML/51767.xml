@@ -1,1 +1,0 @@
-<error-page>\n    <error-code>404</error-code>\n    <location>/WEB-INF/errorpages/404.jsp</location>\n</error-page>\n\n<error-page>\n    <error-code>403</error-code>\n    <location>/WEB-INF/errorpages/403.jsp</location>\n</error-page>\n\n<error-page>\n    <exception-type>java.lang.Exception</exception-type>\n    <location>/WEB-INF/errorpages/generic.jsp</location>\n</error-page>

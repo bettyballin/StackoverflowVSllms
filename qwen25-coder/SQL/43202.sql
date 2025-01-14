@@ -1,1 +1,0 @@
-CALL p_getdate();

@@ -1,1 +1,0 @@
-SELECT first 1 event_code\nFROM (\n    SELECT event_code\n    FROM events_table\n    ORDER BY timestamp_column DESC -- Replace with your actual column name indicating recency\n) AS subquery;

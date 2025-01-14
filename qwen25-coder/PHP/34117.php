@@ -1,1 +1,0 @@
-# Install via Composer: composer require vlucas/phpdotenv\n\nrequire 'vendor/autoload.php';\n\n$dotenv = Dotenv\Dotenv::createImmutable(__DIR__, ".env.${ENV}");\n$dotenv->load();

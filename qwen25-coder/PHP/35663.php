@@ -1,1 +1,0 @@
-<?php\n$largenum = '95635000009453274121700'; // Use a string for large numbers with BCMath\n$modulus = 97;\n\necho bcmod($largenum, $modulus); // Outputs the modulus\n?>

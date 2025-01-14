@@ -1,1 +1,0 @@
-IF TRY_CONVERT(int, @Criteria) IS NOT NULL\nBEGIN\n    SET @Id = CONVERT(int, @Criteria)\n    IF @Id > 2147483647 OR @Id < -2147483648\n        -- Handle overflow scenario\n        SET @Id = 0\nEND\nELSE\n    -- Handle conversion error or invalid input scenario\n    SET @Id = 0

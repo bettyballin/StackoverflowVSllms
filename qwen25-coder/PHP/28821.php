@@ -1,1 +1,0 @@
-// Add this in your LocalSettings.php file to enable VisualEditor\nwfLoadExtension( 'VisualEditor' );\n\n$wgDefaultUserOptions['visualeditor-enable'] = 1;

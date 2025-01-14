@@ -1,1 +1,0 @@
-$isAjax = !empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest';\n\nif ($isAjax) {\n    echo $content;\n} else {\n    include_once 'about-header.php';\n    echo $content;  \n    include_once 'about-footer.php';\n}

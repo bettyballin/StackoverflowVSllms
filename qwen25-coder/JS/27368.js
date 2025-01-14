@@ -1,1 +1,0 @@
-window.onload = function() {\n    setTimeout(function() {\n        var overlayDiv = document.getElementById('yourOverlayDivId');\n        overlayDiv.style.display = 'block';\n    }, 500);\n};

@@ -1,1 +1,0 @@
-// Example of sending data to a server-side script\n$.ajax({\n    url: 'saveToFile.php', // URL of the server-side script\n    method: 'POST',\n    data: { content: 'This is the file content' },\n    success: function(response) {\n        console.log('Success:', response);\n    },\n    error: function(xhr, status, error) {\n        console.error('Error:', error);\n    }\n});

@@ -1,1 +1,0 @@
-<!-- Example of XML configuration for Eclipse JDT formatter -->\n<profile version="12" kind="CodeFormatterProfile">\n  <setting id="org.eclipse.jdt.core.formatter.comment.line_length" value="120"/>\n  <setting id="org.eclipse.wst.html.ui.formatter.tabulation.size" value="4"/>\n  <setting id="org.eclipse.jdt.core.formatter.alignment_for_compact_if" value="16"/>\n</profile>

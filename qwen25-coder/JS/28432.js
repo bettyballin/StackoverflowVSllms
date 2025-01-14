@@ -1,1 +1,0 @@
-ew Ajax.Updater('targetDiv', 'RenderControlHandler.ashx?param1=value1', {\n    method: 'get',\n    onSuccess: function(response) {\n        // Optionally handle any state transfer here\n    }\n});

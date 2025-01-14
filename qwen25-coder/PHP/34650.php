@@ -1,1 +1,0 @@
-try {\n    // Assuming $this->service is a SoapClient instance configured to throw exceptions on faults\n    $soap_res = call_user_func_array(array($this->service, 'getBanana'), array(0, 10));\n} catch (SoapFault $fault) {\n    die($fault->getMessage()); // Using getMessage() is more safe than accessing faultstring directly\n}

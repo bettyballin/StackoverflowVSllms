@@ -1,1 +1,0 @@
-<mx:HTTPService id="sendReq" result="google(event)" showBusyCursor="true" method="POST" url="http://localhost/search/index.php" useProxy="false">\n    <mx:request xmlns="">\n        <![CDATA[\n            keyword={keyword.text}\n        ]]>\n    </mx:request>\n</mx:HTTPService>

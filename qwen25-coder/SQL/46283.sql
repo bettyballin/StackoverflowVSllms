@@ -1,1 +1,0 @@
-START TRANSACTION;\n\nINSERT INTO table_a (column1, column2) VALUES ('value1', 'value2');\nSET @last_id = LAST_INSERT_ID();\n\nINSERT INTO table_b (a_id, other_column) VALUES (@last_id, 'other_value');\n\nCOMMIT;

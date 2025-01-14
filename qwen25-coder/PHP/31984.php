@@ -1,1 +1,0 @@
-<?php\n$host = 'IPADDRESS';\n$user = 'DBUSER';\n$password = 'DBPASS';\n$dbname = 'DATABASENAME';\n\n// Create connection\n$conn = new mysqli($host, $user, $password, $dbname);\n\n// Check connection\nif ($conn->connect_error) {\n    die("Connection failed: " . $conn->connect_error);\n}\necho "Connected successfully";\n?>

@@ -1,1 +1,0 @@
-WITH OrderedUsers AS (\n    SELECT \n        userid,\n        ROW_NUMBER() OVER (ORDER BY some_column) AS row_number\n    FROM \n        users\n)\nSELECT \n    row_number\nFROM \n    OrderedUsers\nWHERE \n    userid = '123';

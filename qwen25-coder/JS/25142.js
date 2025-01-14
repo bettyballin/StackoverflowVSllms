@@ -1,1 +1,0 @@
-window.showModalDialog(urlOrHtml, argument, features);

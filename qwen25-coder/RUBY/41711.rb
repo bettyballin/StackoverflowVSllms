@@ -1,1 +1,0 @@
-unless @file.content_type == 'application/pdf'\n  errors.add(:file, "is not a recognized format")\n  return false\nend

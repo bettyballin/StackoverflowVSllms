@@ -1,1 +1,0 @@
-sendKeys(locator, "\\13");

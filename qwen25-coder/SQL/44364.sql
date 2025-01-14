@@ -1,1 +1,0 @@
-DELIMITER //\n\nCREATE PROCEDURE ParseXML()\nBEGIN\n    DECLARE xmlDoc TEXT;\n    SET xmlDoc = '<parent><child>Example 1</child><child>Example 2</child></parent>';\n\n    SELECT ExtractValue(xmlDoc, CONCAT('//child[', n, ']')) AS child_content\n    FROM numbers\n    WHERE ExtractValue(xmlDoc, CONCAT('//child[', n, ']')) != '';\nEND //\n\nDELIMITER ;\n\nCALL ParseXML();

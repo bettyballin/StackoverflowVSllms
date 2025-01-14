@@ -1,1 +1,0 @@
-// Simple XMLHttpRequest example\nfunction loadContent() {\n    var xhr = new XMLHttpRequest();\n    xhr.open('GET', 'https://api.example.com/data', true);\n    \n    xhr.onreadystatechange = function () {\n        if (xhr.readyState === 4 && xhr.status === 200) {\n            document.getElementById('content').innerHTML = xhr.responseText;\n        }\n    };\n    xhr.send();\n}

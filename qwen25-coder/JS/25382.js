@@ -1,1 +1,0 @@
-let floatNumber = 3.7;\n   let truncatedNumber = Math.trunc(floatNumber);\n   console.log(truncatedNumber); // Outputs: 3

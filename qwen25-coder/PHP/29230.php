@@ -1,1 +1,0 @@
-$directories = glob('path/to/your/directory/*', GLOB_ONLYDIR);

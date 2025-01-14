@@ -1,1 +1,0 @@
-$regex = '/<img src="\/foldera\/folderb\/folderc\/images\/([^"]+)" \/>/';\n$replacement = '<img src="$1" />';

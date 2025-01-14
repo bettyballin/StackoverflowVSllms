@@ -1,1 +1,0 @@
--- For debugging purposes: App=MyApp, Module=CriticalProcess, Query=RetrieveData\n\n/*+ APP('MyApp') MODULE('CriticalProcess') QUERY('RetrieveData') */\nSELECT * FROM my_table WHERE condition = value;

@@ -1,1 +1,0 @@
-bundle install && rails g pundit:install

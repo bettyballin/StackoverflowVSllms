@@ -1,1 +1,0 @@
-<property name="datanucleus.connection.resourceType" value="JDBC"/>\n   <property name="datanucleus.ConnectionFactory2Name" value="MyDataSource"/>\n   <property name="datanucleus.rdbms.sql.identifier.case" value="PreserveCase"/>\n   <property name="datanucleus.logging.sql.level" value="ALL"/>

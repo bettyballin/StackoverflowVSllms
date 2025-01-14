@@ -1,1 +1,0 @@
-import OpenSSL.crypto as crypto\n\n# You would need to manually handle the certificate and send requests

@@ -1,1 +1,0 @@
-echo number_format(round(1400000));

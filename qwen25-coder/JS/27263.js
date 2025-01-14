@@ -1,1 +1,0 @@
-$(function() {\n    $('#site').on('click', '.link', function(e) {\n        var page = $(this).attr('href');\n        $('#site').addClass('loading');\n        $('#content').load(page, function () {\n            $('#site').removeClass('loading');\n        });\n        e.preventDefault();\n    });\n});

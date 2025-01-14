@@ -1,1 +1,0 @@
-DECLARE @xml_text NVARCHAR(MAX)

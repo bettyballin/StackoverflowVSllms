@@ -1,1 +1,0 @@
-CREATE PROFILE my_profile LIMIT\n      CPU_PER_CALL 500 -- Adjust based on findings from monitoring\n      LOGICAL_READS_PER_CALL 1000 -- Adjust based on findings from monitoring\n      COMPOSITE_LIMIT 2000; -- Adjust as necessary to control combined limits

@@ -1,1 +1,0 @@
-Declare Function add Lib "MyLibrary.dll" (ByVal a As Long, ByVal b As Long) As Long\n\n   Sub Main()\n       Dim result As Long\n       result = add(1, 2)\n       MsgBox result  ' Displays: 3\n   End Sub

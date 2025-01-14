@@ -1,1 +1,0 @@
--- Create policy\nBEGIN \n  DBMS_FGA.ADD_POLICY(\n    object_schema   => 'SCHEMA_NAME',\n    object_name     => 'TABLE_NAME',\n    policy_name     => 'MY_AUDIT_POLICY_NAME',\n    audit_column    => 'COLUMN1,COLUMN2',\n    handler_schema  => NULL,\n    handler_module  => NULL,\n    enable          => TRUE\n  );\nEND;

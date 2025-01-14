@@ -1,1 +1,0 @@
-$userRoles = 0;\nif (isset($_POST['client_management'])) $userRoles |= ROLE_CLIENT_MANAGEMENT;\nif (isset($_POST['invoice_management'])) $userRoles |= ROLE_INVOICE_MANAGEMENT;\nif (isset($_POST['view_report'])) $userRoles |= ROLE_VIEW_REPORT;\n\n// Insert or update user role in the database\n$user->role = $userRoles;

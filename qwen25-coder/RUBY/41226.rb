@@ -1,1 +1,0 @@
-module Blog\n  class Entry < ApplicationRecord\n    # your model code here\n  end\nend

@@ -1,1 +1,0 @@
-$('input').on("click", clickfn1).on("click", clickfn2);

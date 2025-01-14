@@ -1,1 +1,0 @@
-<?php\n// Start first buffer\nob_start();\n\necho "Hello ";\n\n// Start second buffer\nob_start();\necho "World!";\n\n// End second buffer and send its content to the first\nob_end_flush(); // This will flush "World!" into the previous buffer\n\n// End first buffer and send its content to the browser\nob_end_flush(); // This will output "Hello World!"\n?>

@@ -1,1 +1,0 @@
-$var = "hello";\nvar_dump($var);\n// Outputs: string(5) "hello"

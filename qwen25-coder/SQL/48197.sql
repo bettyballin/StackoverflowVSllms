@@ -1,1 +1,0 @@
-DECLARE\n    v_company_name VARCHAR2(50) := 'J&J Construction';\nBEGIN\n    INSERT INTO your_table (company_name)\n    VALUES (v_company_name);\nEND;

@@ -1,1 +1,0 @@
-WITH LatestDocument AS (\n    SELECT *, ROW_NUMBER() OVER (ORDER BY DELIVERY_TIMESTAMP DESC) as rn\n    FROM DOCUMENTS\n)\nSELECT DOC_NAME, DELIVERY_TIMESTAMP, /* other columns */\nFROM LatestDocument\nWHERE rn = 1;

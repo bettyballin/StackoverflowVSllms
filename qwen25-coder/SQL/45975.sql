@@ -1,1 +1,0 @@
-SELECT \n    co.*, \n    (SELECT COUNT(*) FROM modules mod WHERE mod.course_id = co.id) AS moduleCount,\n    (SELECT COUNT(*) FROM videos vid WHERE vid.course_id = co.id) AS vidCount \nFROM \n    courses as co\nORDER BY \n    co.id DESC;

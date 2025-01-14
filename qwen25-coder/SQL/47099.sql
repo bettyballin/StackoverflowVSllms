@@ -1,1 +1,0 @@
-CREATE OR REPLACE PACKAGE remote_exec AS\n     PROCEDURE execute_dynamic_sql(p_sql VARCHAR2);\n   END remote_exec;

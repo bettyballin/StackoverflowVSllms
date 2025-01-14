@@ -1,1 +1,0 @@
-$start_time = microtime(true);\n\n// Your function or code block here\n\n$end_time = microtime(true);\n$execution_time = $end_time - $start_time; // in seconds\n\necho date('H:i:s.u', $start_time)." this step time\n";\necho "Execution time: ".sprintf("%.4f", $execution_time)." seconds\n";

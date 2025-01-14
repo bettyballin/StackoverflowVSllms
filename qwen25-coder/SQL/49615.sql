@@ -1,1 +1,0 @@
-WITH RankedEntries AS (\n    SELECT \n        id,\n        ROW_NUMBER() OVER (PARTITION BY clientid ORDER BY id) as rn\n    FROM \n        tRealtyTrac\n)\nDELETE FROM tRealtyTrac\nWHERE id IN (\n    SELECT id FROM RankedEntries WHERE rn > 1000\n);

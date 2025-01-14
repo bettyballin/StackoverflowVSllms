@@ -1,1 +1,0 @@
-DECLARE @SQL nvarchar(4000)\nSET @SQL = 'BULK INSERT KB FROM ''C:\KB.xml'' WITH (FirstRow = 1, RowTerminator = ''\r\n'', FieldTerminator = ''\t'')';\nEXEC(@SQL)

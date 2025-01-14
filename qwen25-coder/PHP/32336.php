@@ -1,1 +1,0 @@
-function encodeHtmlForRss($input) {\n    return htmlspecialchars($input, ENT_XML1 | ENT_QUOTES, 'UTF-8');\n}

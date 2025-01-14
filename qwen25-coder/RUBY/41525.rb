@@ -1,1 +1,0 @@
-validate :email, format: URI::MailTo::EMAIL_REGEXP

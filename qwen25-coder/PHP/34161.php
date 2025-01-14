@@ -1,1 +1,0 @@
-<tr tal:repeat="item server">\n  <td class="" php:class="repeat/item/odd ? 'odd' : 'even'" tal:content="repeat/item/key">key</td>\n  <td class="" php:class="repeat/item/odd ? 'odd' : 'even'" tal:content="item">value</td>\n</tr>

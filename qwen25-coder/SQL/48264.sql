@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- Select user with lowest workload using UPDLOCK to avoid race conditions\nSELECT TOP 1 UserId\nINTO @LowestWorkloadUser\nFROM Users\nORDER BY Workload ASC\nWITH (ROWLOCK, UPDLOCK)\n\n-- Update the workload atomically\nUPDATE Users\nSET Workload = Workload + 1\nWHERE UserId = @LowestWorkloadUser\n\nCOMMIT TRANSACTION;

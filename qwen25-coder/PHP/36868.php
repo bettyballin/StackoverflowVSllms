@@ -1,1 +1,0 @@
-class Profile extends CI_Controller {\n\n    public function view($username)\n    {\n        // Logic to show user's profile\n    }\n}

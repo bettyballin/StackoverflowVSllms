@@ -1,1 +1,0 @@
-# Configure ActiveSupport to handle serialization with UTF-8 properly\nActiveSupport::JSON.backend = 'Oj' # Optional: Use Oj for better performance if needed\n\nclass Poll < ApplicationRecord\n  serialize :variants, ActiveRecord::Coders::YAMLColumn.new(nil, {\n    default_options: [:to_yaml, { external_encoding: Encoding::UTF_8 }]\n  })\nend

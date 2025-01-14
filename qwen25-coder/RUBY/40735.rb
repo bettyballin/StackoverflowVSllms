@@ -1,1 +1,0 @@
-class SessionsController < ApplicationController\n  def destroy\n    # Handle session destruction, e.g., logging the user out\n    reset_session\n    redirect_to root_path, notice: 'Logged out successfully.'\n  end\nend

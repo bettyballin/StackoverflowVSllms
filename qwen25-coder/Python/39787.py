@@ -1,1 +1,0 @@
-import patch\n     from patch.diff import simple_patch\n\n     # Apply patch file to the library source\n     simple_patch('<library>', '<path-to-patch-file>')

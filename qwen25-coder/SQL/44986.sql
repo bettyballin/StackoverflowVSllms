@@ -1,1 +1,0 @@
-WITH SUB1 AS (\n    -- Your SUB1 query here\n    SELECT 1 AS ID, '7/1' AS Date UNION ALL\n    SELECT 2 AS ID, '7/3' AS Date\n),\nSUB2 AS (\n    -- Your SUB2 query here\n    SELECT 1 AS ID, '7/4' AS Date UNION ALL\n    SELECT 3 AS ID, '7/8' AS Date\n)\nSELECT * FROM SUB1\nUNION ALL\nSELECT * FROM SUB2 WHERE ID NOT IN (SELECT ID FROM SUB1);

@@ -1,1 +1,0 @@
-// Assuming 'Id' is the ID of your <select> element\nvar selectElement = document.getElementById('Id');\n\n// Create a new option element\nvar option = document.createElement("option");\noption.value = "foo";\noption.text = "Foo";\n\n// Add the option to the <select> element\nselectElement.appendChild(option);

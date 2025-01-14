@@ -1,1 +1,0 @@
-WITH RankedEmployees AS (\n    SELECT \n        EmpId,\n        EmpName,\n        EmpSSN,\n        ROW_NUMBER() OVER (PARTITION BY EmpId, EmpSSN ORDER BY EmpId) AS rn\n    FROM employee\n)\nDELETE FROM employee\nWHERE EXISTS (\n    SELECT 1\n    FROM RankedEmployees re\n    WHERE re.EmpId = employee.EmpId\n      AND re.EmpSSN = employee.EmpSSN\n      AND re.rn > 1\n);

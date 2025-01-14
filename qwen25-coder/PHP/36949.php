@@ -1,1 +1,0 @@
-<?php // appB.php\n\nrequire_once 'path/to/appA.php';\n\necho sayHello('Alice'); // Outputs: Hello, Alice!\n$sum = calculateSum(5, 3);\necho "The sum is: $sum"; // Outputs: The sum is: 8\n?>

@@ -1,1 +1,0 @@
-# Add this line if not already present in your Gemfile\ngem 'haml'

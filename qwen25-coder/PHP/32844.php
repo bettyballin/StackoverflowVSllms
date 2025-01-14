@@ -1,1 +1,0 @@
-if (preg_match("/^#[01-9A-F]{6}$/i", $sColor)) {\n    // Match found!\n} else {\n    // No match.\n}

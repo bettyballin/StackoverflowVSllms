@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE RESET_SEQUENCE_YEARS AS\nBEGIN\n  EXECUTE IMMEDIATE 'ALTER SEQUENCE my_sequence RESTART WITH 1';\n  -- OR, alternatively if using a control table:\n  -- UPDATE seq_control_table SET current_val = 0 WHERE seq_name = 'my_sequence';\nEND;\n/

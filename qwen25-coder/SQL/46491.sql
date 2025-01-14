@@ -1,1 +1,0 @@
-SELECT some_product, COUNT(*) AS count_entries\nFROM (\n    SELECT \n        CASE\n            WHEN col1 > col2 THEN SUM(col3 * col4)\n            ELSE 0\n        END AS some_product\n    FROM your_table\n    GROUP BY whatever_columns_you_need_to_group_by\n) t\nGROUP BY some_product;

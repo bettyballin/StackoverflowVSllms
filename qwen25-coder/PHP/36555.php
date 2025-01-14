@@ -1,1 +1,0 @@
-// Ensure $location is URL-encoded and safe\n$location = htmlspecialchars($location, ENT_QUOTES, 'UTF-8');\necho '<meta http-equiv="refresh" content="0;url=' . urldecode($location) . '">';

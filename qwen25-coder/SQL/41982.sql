@@ -1,1 +1,0 @@
-USE [master];\nGO\nCREATE LOGIN myLogin WITH PASSWORD = 'StrongPassword123!'; -- Example login creation\nGO\n\nUSE [prodDb];\nGO\nCREATE USER myUser FOR LOGIN myLogin;\n-- Grant CREATE VIEW permission in the specific database\nGRANT CREATE VIEW TO [myUser];\nGO

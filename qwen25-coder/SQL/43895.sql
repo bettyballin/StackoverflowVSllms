@@ -1,1 +1,0 @@
-WITH RankedRecords AS (\n    SELECT \n        ID, \n        DateCreated,\n        ROW_NUMBER() OVER (PARTITION BY ID ORDER BY DateCreated DESC) AS rn\n    FROM \n        YourTableName\n)\nSELECT \n    ID, \n    DateCreated\nFROM \n    RankedRecords\nWHERE \n    rn = 1;

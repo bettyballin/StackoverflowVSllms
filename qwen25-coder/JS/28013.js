@@ -1,1 +1,0 @@
-// Example of code that could cause issues by manipulating window.location\ndocument.getElementById('myLink').addEventListener('click', function(event) {\n    event.preventDefault();\n    window.location = this.href;\n});

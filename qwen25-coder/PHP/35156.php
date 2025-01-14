@@ -1,1 +1,0 @@
-// Using named route in blade view or controller\nroute('home');\n\n// Generating a full URL to a specific action\naction('HomeController@index');\n\n// Defining routes in web.php\nRoute::get('/some/thing', 'Controller@action')->name('custom_route');

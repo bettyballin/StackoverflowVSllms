@@ -1,1 +1,0 @@
-from flask import Flask, escape\napp = Flask(__name__)\n\n@app.route('/')\ndef index():\n    command = 'command --option value --option2 value2 --option3'\n    # Safely include the comment in the HTML response\n    return f'<!-- {escape(command)} -->\n<p>This is a safe page.</p>'\n\nif __name__ == '__main__':\n    app.run()

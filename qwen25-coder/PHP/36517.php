@@ -1,1 +1,0 @@
-<?php\nheader("Location: http://www.myIsv.com/myWebSite/", true, 301);\nexit();\n?>

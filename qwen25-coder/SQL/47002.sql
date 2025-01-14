@@ -1,1 +1,0 @@
-SELECT \n    v.VehicleID,\n    v.Name,\n    STRING_AGG(l.City, ', ') WITHIN GROUP (ORDER BY l.City) AS Locations\nFROM \n    Vehicles v\nJOIN \n    Locations l ON v.VehicleID = l.VehicleID\nGROUP BY \n    v.VehicleID, v.Name

@@ -1,1 +1,0 @@
-WITH \n    stuff1 AS (\n        SELECT name, startdate, id \n        FROM employees \n        WHERE startdate > 0\n    ),\n    stuff2 AS (\n        SELECT name, startdate, id \n        FROM stuff1 \n    )\nSELECT * \nFROM stuff2 \nWHERE id > 10;

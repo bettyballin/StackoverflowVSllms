@@ -1,1 +1,0 @@
-ALTER TABLE user_cars ADD UNIQUE INDEX idx_unique_user(user_name);\n\nINSERT INTO user_cars (id, user_name, num_cars)\nVALUES \n    ((SELECT id FROM user_cars WHERE user_name = 'Bob'), 'Bob', -2),\n    ((SELECT id FROM user_cars WHERE user_name = 'John'), 'John', 2)\nON DUPLICATE KEY UPDATE\n    num_cars = VALUES(num_cars) + num_cars;

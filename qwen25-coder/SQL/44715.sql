@@ -1,1 +1,0 @@
-DECLARE @foo INT = 10;\nDECLARE @bar INT = 20;\n\nDECLARE @variable_name VARCHAR(10) = '@foo';\nDECLARE @sql NVARCHAR(MAX);\n\nSET @sql = N'PRINT ' + QUOTENAME(@variable_name, '''');\n\nEXEC sp_executesql @sql, N'@foo INT, @bar INT', @foo, @bar;

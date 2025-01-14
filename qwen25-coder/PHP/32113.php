@@ -1,1 +1,0 @@
-$originalArray = [1, 2, 2, 3, 4, 4, 5];\n$uniqueArray = array_unique($originalArray);\n\n// Using foreach loop to iterate over the unique array\nforeach ($uniqueArray as $value) {\n    // Process each value\n    echo $value . "\n";\n}

@@ -1,1 +1,0 @@
-foreach ($array1 as $item) {\n    if ($item['type'] == 'foo') {\n        // process foo\n    }\n}\n\nforeach ($array2 as $item) {\n    if ($item['type'] == 'bar') {\n        // process bar\n    }\n}

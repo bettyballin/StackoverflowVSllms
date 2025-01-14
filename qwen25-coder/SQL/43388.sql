@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_SetNullOnCodeDelete ON Code\nFOR DELETE\nAS\nBEGIN\n    UPDATE Employee\n    SET YourCodeField = NULL\n    WHERE YourCodeField IN (SELECT Id FROM deleted);\nEND;

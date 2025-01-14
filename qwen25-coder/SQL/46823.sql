@@ -1,1 +1,0 @@
--- Monitor DB size regularly\n   SELECT pg_size_pretty(pg_database_size('your_db_name'));

@@ -1,1 +1,0 @@
-SELECT DATE_FORMAT(STR_TO_DATE('01/09', '%m/%d') + INTERVAL 2000 YEAR, '%M %Y') AS formatted_date;

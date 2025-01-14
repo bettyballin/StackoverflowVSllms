@@ -1,1 +1,0 @@
-SELECT \n    DocNum,\n    -- Concatenate DocEntry values as a comma-separated list\n    STUFF((\n        SELECT ', ' + CAST(T2.DocEntry AS VARCHAR)\n        FROM Temp5 T2\n        WHERE T2.DocNum = T1.DocNum\n        FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), 1, 2, ''\n    ) AS DocEntries\nFROM \n    Temp5 T1\nGROUP BY \n    T1.DocNum;

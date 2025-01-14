@@ -1,1 +1,0 @@
-SELECT \n    candidate.colour,\n    AVG(candidate.fruit) AS average_fruit\nFROM (\n    SELECT \n        basket, \n        colour, \n        (apples + bananas + oranges + pears + peaches) AS fruit\n    FROM baskets\n) AS candidate\nGROUP BY candidate.colour;

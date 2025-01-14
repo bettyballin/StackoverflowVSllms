@@ -1,1 +1,0 @@
-SELECT AVG(your_column_name) AS average_value FROM your_table_name;

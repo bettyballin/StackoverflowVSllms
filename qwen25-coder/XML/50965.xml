@@ -1,1 +1,0 @@
-<system.webServer>\n  <modules>\n    <add name="SessionTracker" type="Namespace.SessionTracker, AssemblyName"/>\n  </modules>\n</system.webServer>

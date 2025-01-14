@@ -1,1 +1,0 @@
-<?php echo $sf_user->getAttribute('user_data'); ?>

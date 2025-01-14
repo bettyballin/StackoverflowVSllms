@@ -1,1 +1,0 @@
-SELECT\n    Table1.Category1,\n    Table1.Category2,\n    count(*) as Total,\n    count(Tab2.Stat) AS Stat\nFROM \n    Table1\nLEFT OUTER JOIN \n    Table2\nON \n    Table1.PrimaryKey = Table2.ForeignKey\nGROUP BY \n    Table1.Category1, Table1.Category2;

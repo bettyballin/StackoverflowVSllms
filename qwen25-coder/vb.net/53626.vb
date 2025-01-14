@@ -1,1 +1,0 @@
-Dim emptyStringArray() As String = {}\n' or\nDim anotherEmptyStringArray(0) As String ' This creates an array of size 1, so to make it truly empty:\nReDim anotherEmptyStringArray(-1)

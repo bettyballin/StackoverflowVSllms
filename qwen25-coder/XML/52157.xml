@@ -1,1 +1,0 @@
-<property name="projects.to.build" value="projectA,projectB"/>\n\n<target name="run">\n    <subant target="run" failonerror="true" verbose="true">\n        <fileset dir="${projects.root}" includes="projectA/build.xml"/>\n        <fileset dir="${projects.root}" includes="projectB/build.xml"/>\n        <!-- Add more as needed -->\n    </subant>\n</target>

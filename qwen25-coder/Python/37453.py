@@ -1,1 +1,0 @@
-def permutations(lst):\n    return [list(p) for p in itertools.permutations(lst)]

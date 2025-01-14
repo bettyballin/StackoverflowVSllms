@@ -1,1 +1,0 @@
--- Assume we have a table named 'Employees' in AdventureWorks database.\n-- After creating the snapshot AdventureWorksSS, if we delete a record:\nDELETE FROM Employees WHERE EmployeeID = 123;\n\n-- This deleted row is copied to the sparse file associated with AdventureWorksSS.\n-- When you query from the snapshot:\nSELECT * FROM AdventureWorksSS.Employees WHERE EmployeeID = 123;

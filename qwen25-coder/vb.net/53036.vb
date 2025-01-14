@@ -1,1 +1,0 @@
-Dim ServiceOff As Storyboard = DirectCast(FindResource("ServiceStopped"), Storyboard)\nServiceOff.Begin(Nothing, False)

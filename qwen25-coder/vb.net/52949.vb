@@ -1,1 +1,0 @@
-Dim i As Integer = 0\n\nTry\n    For i = 1 To 5\n        Dim a As New Object()\n        'Do stuff\n    Next\nCatch ex As Exception\n    'Handle exception if necessary\nFinally\n    'No need for explicit cleanup in this case\nEnd Try

@@ -1,1 +1,0 @@
-$originalArray = [\n    0 => [\n        'max' => 5,\n        'year' => 2007\n    ],\n    1 => [\n        'max' => 6.05,\n        'year' => 2008\n    ],\n    2 => [\n        'max' => 7,\n        'year' => 2009\n    ]\n];\n\n$transformedArray = [];\nforeach ($originalArray as $item) {\n    $transformedArray[$item['year']] = $item['max'];\n}\n\nprint_r($transformedArray);

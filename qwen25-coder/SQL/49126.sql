@@ -1,1 +1,0 @@
-SET sql_safe_updates = ON;

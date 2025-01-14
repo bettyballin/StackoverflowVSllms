@@ -1,1 +1,0 @@
-echo $_SERVER['SCRIPT_NAME']; // Outputs: /index.php

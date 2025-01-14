@@ -1,1 +1,0 @@
-GRANT READ, WRITE ON DIRECTORY data_pump_dir TO your_user;

@@ -1,1 +1,0 @@
-SELECT COUNT(*)\nFROM message_favorites\nWHERE user_id = your_user_id;

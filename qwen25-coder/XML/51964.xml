@@ -1,1 +1,0 @@
-<configuration>\n  <system.diagnostics>\n    <trace autoflush="true">\n      <listeners>\n        <add name="myListener" type="System.Diagnostics.TextWriterTraceListener" initializeData="c:\log.txt" />\n      </listeners>\n    </trace>\n  </system.diagnostics>\n</configuration>

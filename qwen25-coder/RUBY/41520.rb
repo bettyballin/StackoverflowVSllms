@@ -1,1 +1,0 @@
-def process_alive?(pid)\n  begin\n    Process.kill(0, pid)\n    true\n  rescue Errno::ESRCH\n    # No such process\n    false\n  rescue Errno::EPERM\n    # The user doesn't have permission to check this process, but it's running.\n    true\n  end\nend

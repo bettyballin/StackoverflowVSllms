@@ -1,1 +1,0 @@
-CREATE TABLE entries (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    entry_name VARCHAR(255) NOT NULL\n);

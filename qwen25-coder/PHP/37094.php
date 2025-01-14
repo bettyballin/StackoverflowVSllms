@@ -1,1 +1,0 @@
-// Get Value\n$value = (string)$xml->element;\n\n// Set or Add new Element\n$xml->addChild('newElement', 'newValue');\n\n// Set Attribute\n$xml->element->addAttribute('attrName', 'attrValue');

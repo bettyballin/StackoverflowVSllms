@@ -1,1 +1,0 @@
-select\n    c.Name as 'CountryName',\n    ISNULL(p.[Name], '') as 'ProvinceName',\n    ISNULL(s.[Name], '') as 'StateName'\nfrom\n    Country c \nleft outer join \n    Province p on p.CountryID = c.ID\nleft outer join \n    State s on s.CountryID = c.ID

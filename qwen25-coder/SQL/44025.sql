@@ -1,1 +1,0 @@
-SELECT SUM(DATEDIFF(date_column1, date_column2)) AS total_date_difference FROM your_table;

@@ -1,1 +1,0 @@
-Namespace Acme.Business\n    Public Class User\n        ' Your properties, methods here.\n    End Class\nEnd Namespace

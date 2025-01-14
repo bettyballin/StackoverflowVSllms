@@ -1,1 +1,0 @@
-$sql = 'SELECT COUNT(auto_id) as total FROM friend_user_photo';\n$query = executeQuery($sql);\n$result = mysqli_fetch_assoc($query);\n$rowcount = $result['total'];

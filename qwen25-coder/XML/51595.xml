@@ -1,1 +1,0 @@
-<ItemGroup>\n    <EmbeddedResource Include="Views\**\*.aspx" />\n    <EmbeddedResource Include="Styles\**\*.css" />\n    <!-- Add all other necessary resources -->\n</ItemGroup>

@@ -1,1 +1,0 @@
-# Using find_by_sql and expecting an array of arrays\nresults = ActiveRecord::Base.connection.execute("SELECT name, age FROM users").to_a\n\n# results is now an array of arrays where each sub-array represents a row with columns in the order specified by your query.

@@ -1,1 +1,0 @@
-SELECT field_a \nFROM my_table\nWHERE field_b = ANY (SELECT * FROM my_function(field_c));

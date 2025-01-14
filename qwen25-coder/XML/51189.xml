@@ -1,1 +1,0 @@
-<system.web>\n  <authorization>\n    <!-- Deny users by role -->\n    <deny users="*" />\n    <allow roles="Admin" />\n    <allow roles="Editor" />\n  </authorization>\n\n  <roleManager enabled="true" defaultProvider="AspNetWindowsTokenRoleProvider" />\n</system.web>

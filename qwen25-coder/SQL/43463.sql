@@ -1,1 +1,0 @@
-CREATE TABLE entity_attributes (\n       id SERIAL PRIMARY KEY,\n       entity_id INT REFERENCES entities(id),\n       attribute_name VARCHAR(255),\n       attribute_value TEXT -- or use JSONB if more complex structures are needed\n   );

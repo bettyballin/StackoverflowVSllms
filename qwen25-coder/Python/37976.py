@@ -1,1 +1,0 @@
-from importlib.resources import files\n\n   resource_path = str(files('foo.resources') / 'image.png')

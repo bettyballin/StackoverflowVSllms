@@ -1,1 +1,0 @@
-$request = new HttpRequest();\n$request->setOptions(array(\n    'timeout' => 30 // Timeout in seconds\n));

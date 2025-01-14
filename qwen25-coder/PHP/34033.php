@@ -1,1 +1,0 @@
-// Set the default timezone to Europe/London:\n   date_default_timezone_set('Europe/London');\n\n   $mysqldate = date('Y-m-d H:i:s');

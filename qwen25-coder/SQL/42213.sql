@@ -1,1 +1,0 @@
-SELECT * \n   FROM Table1 t1\n   INNER JOIN Table2 t2 ON t1.Id = t2.Table1Id;

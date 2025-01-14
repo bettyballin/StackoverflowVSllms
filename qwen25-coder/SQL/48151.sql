@@ -1,1 +1,0 @@
-SET @table = 'your_table_name';\nSET @exclude_column = 'column_to_exclude';\n\nSELECT CONCAT('SELECT ', GROUP_CONCAT(COLUMN_NAME SEPARATOR ', '), \n        ' FROM ', @table)\nINTO @query\nFROM INFORMATION_SCHEMA.COLUMNS\nWHERE TABLE_NAME = @table AND COLUMN_NAME <> @exclude_column;\n\nPREPARE stmt FROM @query;\nEXECUTE stmt;\nDEALLOCATE PREPARE stmt;

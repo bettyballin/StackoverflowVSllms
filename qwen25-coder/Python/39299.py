@@ -1,1 +1,0 @@
-from rest_framework import serializers\n   from .models import Item\n\n   class ItemSerializer(serializers.ModelSerializer):\n       class Meta:\n           model = Item\n           fields = ['id', 'name', 'description', 'url']\n       url = serializers.HyperlinkedIdentityField(view_name='item-detail')

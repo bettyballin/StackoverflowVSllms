@@ -1,1 +1,0 @@
-raise ValueError(holeCards + ' does not represent a valid hand.')

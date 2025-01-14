@@ -1,1 +1,0 @@
-SELECT \n    h.home_id,\n    h.address,\n    h.city,\n    h.state,\n    h.zip,\n    hp.photo_id,\n    hp.photo_url_dir\nFROM \n    homes h\nLEFT JOIN \n    home_photos hp ON h.home_id = hp.home_id AND h.primary_photo_group_id = hp.photo_group_id AND hp.home_photo_type_id = 2\nWHERE \n    h.primary_photo_group_id = 0 OR (h.primary_photo_group_id != 0 AND hp.photo_id IS NOT NULL);

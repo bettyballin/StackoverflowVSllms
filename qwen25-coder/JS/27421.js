@@ -1,1 +1,0 @@
-function stripHtmlTags(html) {\n    return html.replace(/<[^>]*>/g, '');\n}\n\n// Example usage:\nconst text = "<p>How to strip off HTML tags from a string using plain <strong>JavaScript</strong> only?</p>";\nconsole.log(stripHtmlTags(text)); // Output: "How to strip off HTML tags from a string using plain JavaScript only?"

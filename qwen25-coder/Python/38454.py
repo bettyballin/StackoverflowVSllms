@@ -1,1 +1,0 @@
-# life/life.py\n\nfrom ... import nib

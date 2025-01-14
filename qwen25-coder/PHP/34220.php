@@ -1,1 +1,0 @@
-<?php\n$mysqli = new mysqli("localhost", "user", "password", "database");\n\n// Acquire lock with current timestamp\n$recordId = 123; // Example record ID\n$sql = "UPDATE records SET lock = true, lock_time = NOW() WHERE id = ? AND lock = false";\n$stmt = $mysqli->prepare($sql);\n$stmt->bind_param("i", $recordId);\n$stmt->execute();

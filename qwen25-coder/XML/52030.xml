@@ -1,1 +1,0 @@
-<property name="hibernate.connection.url">jdbc:sqlserver://localhost;databaseName=YourDatabaseName</property>\n<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>\n<property name="hibernate.connection.username">yourUsername</property>\n<property name="hibernate.connection.password">yourPassword</property>

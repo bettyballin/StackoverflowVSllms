@@ -1,1 +1,0 @@
-// Test AJAX request using jQuery\n$.ajax({\n    url: "https://live-website.com/api/data",\n    type: 'GET',\n    success: function(data) {\n        console.log("Data received: ", data);\n    },\n    error: function() {\n        console.error("Failed to fetch data.");\n    }\n});

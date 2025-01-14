@@ -1,1 +1,0 @@
-CREATE PROCEDURE [dbo].[msp_AssociateEvent]\n(\n    @NewFoodMenuID int,  -- Assuming this is passed after a successful insert in the same session\n    @EventId int\n)\nAS\n\nUPDATE tblFoodMenus \nSET EventID = @EventId\nWHERE FoodMenuID = @NewFoodMenuID

@@ -1,1 +1,0 @@
-<!-- Example snippet from pom.xml for Maven -->\n<build>\n    <finalName>your-project-name</finalName>\n    <plugins>\n        <plugin>\n            <groupId>org.apache.maven.plugins</groupId>\n            <artifactId>maven-war-plugin</artifactId>\n            <version>3.2.3</version>\n        </plugin>\n    </plugins>\n</build>

@@ -1,1 +1,0 @@
-Imports System.Diagnostics\n\nSub StartVPN(vpnName As String, username As String, password As String)\n    Dim processInfo As New ProcessStartInfo("cmd.exe", $"/c rasdial ""{vpnName}"" {username} {password}")\n    processInfo.WindowStyle = ProcessWindowStyle.Hidden\n    Process.Start(processInfo)\nEnd Sub

@@ -1,1 +1,0 @@
-SELECT 'Hello' || NULL AS Greeting FROM dual; -- This will return NULL

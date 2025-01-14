@@ -1,1 +1,0 @@
-fetch('/api/data/', {\n    method: 'GET',\n})\n.then(response => response.json())\n.then(data => console.log(data))\n.catch(error => console.error('Error:', error));

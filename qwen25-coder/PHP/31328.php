@@ -1,1 +1,0 @@
-<?php\necho $first_var . ' some string ' . $second_var;\n?>

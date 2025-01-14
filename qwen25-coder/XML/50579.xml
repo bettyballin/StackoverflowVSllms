@@ -1,1 +1,0 @@
-<web-app>\n  <servlet>\n    <servlet-name>MyServlet</servlet-name>\n    <servlet-class>com.example.MyServletClass</servlet-class>\n  </servlet>\n  \n  <servlet-mapping>\n    <servlet-name>MyServlet</servlet-name>\n    <url-pattern>/myjsp.jsp</url-pattern>\n  </servlet-mapping>\n</web-app>

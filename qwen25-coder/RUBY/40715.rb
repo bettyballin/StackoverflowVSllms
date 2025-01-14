@@ -1,1 +1,0 @@
-require_relative '/path/to/plugin'

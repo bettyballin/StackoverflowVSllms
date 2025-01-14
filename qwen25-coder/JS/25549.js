@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('div').each(function() {\n        $(this).click(function(e) {\n            console.log('Element clicked:', e.target); // Logs the element that was clicked\n            e.preventDefault(); // Prevents the default action (if the div were a link, for example)\n        });\n    });\n});

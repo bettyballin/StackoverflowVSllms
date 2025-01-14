@@ -1,1 +1,0 @@
-<?php\nif (in_array('mod_gzip', apache_get_modules())) {\n    echo "mod_gzip is enabled.";\n} else {\n    echo "mod_gzip is not enabled.";\n}\n\n// Check for mod_deflate as an alternative\nif (in_array('mod_deflate', apache_get_modules())) {\n    echo "\nmod_deflate is enabled.";\n} else {\n    echo "\nmod_deflate is not enabled.";\n}\n?>

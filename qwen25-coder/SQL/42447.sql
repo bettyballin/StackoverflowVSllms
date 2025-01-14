@@ -1,1 +1,0 @@
-SET PROFILING = 1;\n  -- Execute your queries here\n  SHOW PROFILES; -- To see the list of executed queries\n  SHOW PROFILE FOR QUERY <query_id>; -- To detail a specific query

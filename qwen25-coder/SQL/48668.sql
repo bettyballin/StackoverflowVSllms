@@ -1,1 +1,0 @@
-SELECT sid, serial# FROM v$session WHERE audsid = userenv('SESSIONID');

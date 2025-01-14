@@ -1,1 +1,0 @@
-Filter:\nEventClass = 16 (Exception)\nError LIKE '229%'

@@ -1,1 +1,0 @@
-USE DB2;\n   GRANT INSERT ON TargetTable TO YourUserWithTriggerPerm;

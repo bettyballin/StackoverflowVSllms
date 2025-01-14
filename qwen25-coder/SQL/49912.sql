@@ -1,1 +1,0 @@
-USE master;\nGO\n\n-- Set the database to SINGLE_USER mode and roll back immediate to close all connections.\nALTER DATABASE YourDatabaseName \nSET SINGLE_USER WITH ROLLBACK IMMEDIATE;\nGO

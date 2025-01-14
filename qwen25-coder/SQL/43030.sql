@@ -1,1 +1,0 @@
-SELECT \n    OrderID, \n    SUM(Qty) as OrderTotalQty, \n    SUM(Qty*Price) as InternalCost,\n    SUM(CASE WHEN Qty < 0 and MarkedUpTotal > 0 THEN -MarkedUpTotal ELSE MarkedUpTotal END) as ClientCost  \nFROM \n    OrderItems \nGROUP BY \n    OrderID

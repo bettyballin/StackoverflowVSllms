@@ -1,1 +1,0 @@
-WITH LatestStates AS (\n    SELECT \n        UserId,\n        StateTypeId,\n        ROW_NUMBER() OVER (PARTITION BY UserId ORDER BY DateAdded DESC) as rn\n    FROM \n        UserData\n)\nSELECT \n    ls.UserId\nFROM \n    LatestStates ls\nJOIN \n    StateTypes st ON ls.StateTypeId = st.Id\nWHERE \n    ls.rn = 1 AND st.Name = 'Connected';

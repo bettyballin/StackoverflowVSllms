@@ -1,1 +1,0 @@
-$context = stream_context_create([\n         'http' => [\n             'method' => 'GET',\n             'header' => 'Connection: close',\n             'timeout' => 30, // seconds\n         ]\n     ]);\n\n     $response = file_get_contents('http://example.com/your-url', false, $context);\n     echo $response;

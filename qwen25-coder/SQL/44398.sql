@@ -1,1 +1,0 @@
-SELECT * FROM summary_table WHERE some_condition;

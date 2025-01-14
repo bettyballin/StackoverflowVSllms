@@ -1,1 +1,0 @@
-<dependency>\n  <groupId>com.googlecode.java-diff-utils</groupId>\n  <artifactId>diffutils</artifactId>\n  <version>1.3.0</version>\n</dependency>

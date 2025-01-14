@@ -1,1 +1,0 @@
-IF OBJECT_ID('tempdb..#MyTempTable') IS NOT NULL\n    DROP TABLE #MyTempTable;\n\nCREATE TABLE #MyTempTable (\n    ID INT,\n    Value INT CHECK (Value > 0)\n);\n\n-- Your operations here\n\nIF OBJECT_ID('tempdb..#MyTempTable') IS NOT NULL\n    DROP TABLE #MyTempTable;

@@ -1,1 +1,0 @@
-import requests\n\nurl = 'http://example.com/yourfile.html'\nresponse = requests.head(url)\n\nif 'Last-Modified' in response.headers:\n    last_modified_date = response.headers['Last-Modified']\n    print("Last Modified Date:", last_modified_date)\nelse:\n    print("Last-Modified header not available.")

@@ -1,1 +1,0 @@
--- Insert only if the record does not already exist\nINSERT INTO FriendRequests (UserId, FriendUserId)\nSELECT @YourUserId, @FriendUserId\nWHERE NOT EXISTS (\n    SELECT 1 \n    FROM FriendRequests \n    WHERE UserId = @YourUserId AND FriendUserId = @FriendUserId\n);

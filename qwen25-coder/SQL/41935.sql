@@ -1,1 +1,0 @@
-WITH RandomSample AS (\n       SELECT TOP (5000) *\n       FROM YourTable \n       ORDER BY CHECKSUM(ABS(CHECKSUM(NewId())))\n   )\n   SELECT *\n   FROM RandomSample;

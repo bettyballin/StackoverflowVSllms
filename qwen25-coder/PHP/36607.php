@@ -1,1 +1,0 @@
-function t1() {\n    echo 1;\n}\nfunction t2() { \n    echo 2;\n}\n\n$funcs = array('t1', 't2'); // Use quotes here\n\n$length = count($funcs);\nfor ($i = 0; $i < $length; $i++) {\n    call_user_func($funcs[$i]); // Use call_user_func to call the functions\n}

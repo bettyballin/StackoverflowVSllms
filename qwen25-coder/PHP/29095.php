@@ -1,1 +1,0 @@
-$db = Zend_Db_Table::getDefaultAdapter();\n$sql = "\n    INSERT INTO sometable (column1, column2)\n    VALUES ('value1', 'value2')\n    ON DUPLICATE KEY UPDATE \n        column2 = VALUES(column2) -- specify the columns to update and their values\n";\n\n$stmt = $db->query($sql);

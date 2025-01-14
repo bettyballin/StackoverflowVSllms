@@ -1,1 +1,0 @@
-from django.test import TransactionTestCase\n\nclass MyIntegrationTest(TransactionTestCase):\n    def test_integration_with_svn_hook(self):\n        # Your test code here

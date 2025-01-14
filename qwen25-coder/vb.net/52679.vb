@@ -1,1 +1,0 @@
-Private Sub Form1_HelpRequested(ByVal sender As System.Object, ByVal hlpevent As System.Windows.Forms.HelpEventArgs) Handles MyBase.HelpRequested\n       HelpProvider1.SetShowHelp(Me, True)\n       HelpProvider1.ShowHelp(this, "your_help_file.chm", HelpNavigator.TopicId, "1234")\n       hlpevent.Handled = True  ' Indicate that the help request is handled.\n   End Sub

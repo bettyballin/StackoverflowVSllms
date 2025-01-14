@@ -1,1 +1,0 @@
-// Assuming theForm is the ID of your form element\n$.post('/Users/SaveUser/', $('#theForm').serialize(), function(responseText, status) {\n    $('#mainContent').text(responseText);\n}, 'html');

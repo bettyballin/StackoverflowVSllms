@@ -1,1 +1,0 @@
-WITH CumulativeSize AS (\n    SELECT \n        userid,\n        size,\n        SUM(size) OVER (ORDER BY userid ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) as cumulative_size\n    FROM your_table_name\n)\nSELECT \n    userid,\n    size\nFROM CumulativeSize\nWHERE cumulative_size <= 150;

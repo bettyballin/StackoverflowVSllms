@@ -1,1 +1,0 @@
-SELECT CAST(column_name AS CHAR CHARACTER SET utf8) FROM table1\nUNION\nSELECT CAST(column_name AS CHAR CHARACTER SET utf8) FROM table2;

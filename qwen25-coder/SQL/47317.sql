@@ -1,1 +1,0 @@
-DELIMITER //\n\nCREATE PROCEDURE GetUserByUserId(\n    IN userId INT,\n    OUT resultId INT,\n    OUT resultName VARCHAR(255)\n)\nBEGIN\n    SELECT id, name INTO resultId, resultName FROM users WHERE id = userId;\nEND //\n\nDELIMITER ;

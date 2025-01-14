@@ -1,1 +1,0 @@
-<?php header("Content-type: application/javascript"); ?>\n/*jslint devel: true */\n/*eslint-env browser */\n\n// Your JavaScript code here\n\n<?php\n// Your PHP code to generate dynamic JavaScript goes here\n?>

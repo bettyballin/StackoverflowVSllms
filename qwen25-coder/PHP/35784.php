@@ -1,1 +1,0 @@
-function increment(&$value) {\n    $value++;\n}\n\n$num = 5;\nincrement($num); // $num becomes 6

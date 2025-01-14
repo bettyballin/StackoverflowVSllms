@@ -1,1 +1,0 @@
-SELECT DATE_FORMAT(NOW(), '%Y-%m-%d') AS formatted_date;\n-- Or with a variable:\nSET @DateTimeVar = NOW();\nSET @VarcharVar = DATE_FORMAT(@DateTimeVar, '%Y-%m-%d');\nSELECT @VarcharVar;

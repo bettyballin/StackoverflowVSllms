@@ -1,1 +1,0 @@
-<?php \nsession_start(); // Start the session\nif (!empty($_POST['username'])) { // Check if username is posted\n    $_SESSION['loginid'] = htmlspecialchars($_POST['username']); // Store and sanitize username in session\n}\n?>

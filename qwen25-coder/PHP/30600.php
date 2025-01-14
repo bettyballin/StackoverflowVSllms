@@ -1,1 +1,0 @@
-<?php\n// Start output buffering\nob_start();\n\ntry {\n    // Include the target file (similar to forwarding)\n    include 'home.php';\n} catch (Exception $e) {\n    ob_end_clean(); // Discard buffer\n    throw $e;       // Re-throw exception\n}\n\n$contents = ob_get_clean(); // Get buffer contents and empty buffer\n\n// Send output\necho $contents;\n?>

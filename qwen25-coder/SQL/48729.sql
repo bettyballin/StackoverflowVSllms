@@ -1,1 +1,0 @@
-UPDATE mytable SET counter = (SELECT MAX(counter) + 1 FROM mytable WITH (HOLDLOCK));

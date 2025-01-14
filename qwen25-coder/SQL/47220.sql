@@ -1,1 +1,0 @@
-SELECT CASE \n         WHEN EXISTS (\n             SELECT x, y, x / y AS quot\n             FROM t\n         )\n         THEN 1\n         ELSE 0\n         END AS what_is_my_value;

@@ -1,1 +1,0 @@
-document.getElementById('downloadButton').addEventListener('click', function() {\n    // Fallback for old IE versions\n    var iframe = document.createElement("iframe");\n    iframe.style.display = 'none';\n    iframe.src = '/path/to/myfile.zip?' + new Date().getTime(); // prevent caching issues\n    document.body.appendChild(iframe);\n});

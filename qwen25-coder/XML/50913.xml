@@ -1,1 +1,0 @@
-<connectionStrings>\n       <add name="oracleConnection" connectionString="User Id=yourusername;Password=yourpassword;Data Source=yourttnsname;" providerName="Oracle.ManagedDataAccess.Client"/>\n   </connectionStrings>

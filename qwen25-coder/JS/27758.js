@@ -1,1 +1,0 @@
-$("#tabs").tabs({\n    ajaxOptions: {\n        contentType: "application/x-www-form-urlencoded; charset=UTF-8", // Set appropriate content type and encoding\n        dataType: "html"\n    },\n    beforeLoad: function(event, ui) {\n        ui.jqXHR.overrideMimeType("text/html; charset=ISO-8859-1"); // Override the MIME type if necessary\n    }\n});

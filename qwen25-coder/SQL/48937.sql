@@ -1,1 +1,0 @@
-CREATE VIEW EmployeeDetails AS\n     SELECT Name, Department, Salary FROM Employees WHERE Active = 1;

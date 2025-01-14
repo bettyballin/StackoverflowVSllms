@@ -1,1 +1,0 @@
-<?php\necho "Current session lifetime: " . ini_get('session.gc_maxlifetime') . " seconds\n";\n\n// Start a session if not already started\nif (session_status() == PHP_SESSION_NONE) {\n    session_start();\n}\n\n// Regenerate session id for security reasons, e.g., after login\nsession_regenerate_id(true);\necho "New Session ID: " . session_id();\n?>

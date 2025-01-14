@@ -1,1 +1,0 @@
-<?php\n/*\nPlugin Name: Custom Plugin Example\nDescription: A brief description of the Plugin.\nVersion: 1.0\nAuthor: Your Name\n*/\n\nfunction my_custom_functionality() {\n    // Add custom code here\n}\n\nadd_action('init', 'my_custom_functionality');

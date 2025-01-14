@@ -1,1 +1,0 @@
-window.onload = function() {\n    var images = document.querySelectorAll('div.image-container img');\n    images.forEach(function(img) {\n        img.style.opacity = 0; // Trigger a redraw\n        setTimeout(function() {\n            img.style.opacity = 1; // Gradually fade in the image for smooth effect\n        }, 50);\n    });\n};

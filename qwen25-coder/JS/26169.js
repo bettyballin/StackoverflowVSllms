@@ -1,1 +1,0 @@
-var resp = JSON.parse(transport.responseText); // Use JSON.parse instead of eval for safer parsing\n\n// Iterating over the errors object\nfor (var errorKey in resp.errors) {\n    if (resp.errors.hasOwnProperty(errorKey)) {\n        var error = resp.errors[errorKey];\n        console.log("Name: " + error.name);\n        console.log("Value: " + error.value);\n    }\n}

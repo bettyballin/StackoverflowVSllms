@@ -1,1 +1,0 @@
-SELECT s.id\nFROM stack s\nLEFT JOIN s.category c\nWHERE c IS NULL\nGROUP BY s.id\nHAVING COUNT(c) = 0

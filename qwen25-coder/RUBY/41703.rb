@@ -1,1 +1,0 @@
-require 'psych'\n\ndata = YAML.load("\nis_something:\n  values: ['yes', 'no']\n")\n\nyaml_output = Psych.dump(data, :line_width => -1)\nputs yaml_output

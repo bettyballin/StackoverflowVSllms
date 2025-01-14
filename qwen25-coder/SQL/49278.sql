@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_ValidateMagicValue\nON YourTableName\nFOR INSERT, UPDATE\nAS\nBEGIN\n    IF EXISTS (SELECT 1 FROM inserted WHERE magicvalue < 0 OR magicvalue > 100)\n    BEGIN\n        RAISERROR('magicvalue must be between 0 and 100.', 16, 1);\n        ROLLBACK TRANSACTION;\n    END\nEND

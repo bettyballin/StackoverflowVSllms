@@ -1,1 +1,0 @@
-if (isset($_GET['p']) && isset($_GET['action'])) {\n    if ($_GET['p'] == "account.edit.topfriends" || $_GET['action'] == "newmember" || $_GET['p'] == "account.profile.name") {\n        // some more code here\n    }\n}

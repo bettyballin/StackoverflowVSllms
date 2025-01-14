@@ -1,1 +1,0 @@
-class SiteManagerController < ApplicationController\n  def index\n    @sites = Site.includes(buildings: [:meters => :values]).all\n  end\n\n  # Add actions here only if you need specific behavior that isn't covered by nested resources.\nend

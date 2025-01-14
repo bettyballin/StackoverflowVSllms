@@ -1,1 +1,0 @@
-require 'vendor/autoload.php';\n\n   use League\Plates\Engine;\n\n   // Create a new Plates engine pointing to the templates directory.\n   $engine = new Engine('/path/to/templates');\n\n   // Render a page using the home template with layout.\n   echo $engine->render('home');

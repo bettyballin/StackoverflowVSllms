@@ -1,1 +1,0 @@
-SELECT \n    refID\nFROM \n    TEST_TABLE\nWHERE \n    refID = @refID AND\n    (newFirstName IS NOT NULL OR newLastName IS NOT NULL)\nGROUP BY \n    refID;

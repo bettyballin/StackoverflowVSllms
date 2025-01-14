@@ -1,1 +1,0 @@
-SELECT C01 AS Any_Col_name FROM Table1\nUNION ALL\nSELECT C02 AS Any_Col_name FROM Table1\nUNION ALL\nSELECT C03 AS Any_Col_name FROM Table1\nUNION ALL\nSELECT C04 AS Any_Col_name FROM Table1;

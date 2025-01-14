@@ -1,1 +1,0 @@
-select rank from players where userid = :userId;

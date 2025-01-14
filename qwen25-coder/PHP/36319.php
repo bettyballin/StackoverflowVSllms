@@ -1,1 +1,0 @@
-ini_set('include_path', 'path/to/zendframework.phar' . PATH_SEPARATOR . get_include_path());

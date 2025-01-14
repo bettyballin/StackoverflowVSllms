@@ -1,1 +1,0 @@
-$pattern = '/your_pattern/i'; // 'i' makes it case-insensitive\n$string = "Your search string here";\n\nif (preg_match($pattern, $string)) {\n    echo "Pattern found!";\n} else {\n    echo "Pattern not found.";\n}

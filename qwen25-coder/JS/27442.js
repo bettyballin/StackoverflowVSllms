@@ -1,1 +1,0 @@
-// First, get the validator instance from your form.\nvar validator = $('#yourFormId').validate();\n\n// Then, show errors manually.\nvalidator.showErrors({\n    "#inputElementId": "Your custom error message"\n});

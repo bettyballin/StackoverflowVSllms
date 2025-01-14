@@ -1,1 +1,0 @@
-ew nicEditor({\n    buttonList : ['fontSize','fontFamily','fontFormat','bold','italic','underline','strikethrough','forecolor','bgcolor','removeformat'],\n    iconsPath : '../nicEdit/nicEditorIcons.gif' // Ensure this path is correct from the script's perspective\n}).panelInstance('<%= txtDescription.ClientID %>');

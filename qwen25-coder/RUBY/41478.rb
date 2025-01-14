@@ -1,1 +1,0 @@
-# transaction.rb -> order.rb (or any non-conflicting name)\n   class Order < ActiveRecord::Base\n     has_many :tran_items, dependent: :destroy\n     has_many :items, through: :tran_items\n   end

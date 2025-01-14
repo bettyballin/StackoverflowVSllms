@@ -1,1 +1,0 @@
-<?php\n// Load an image from file\n$image = imagecreatefromjpeg('path/to/your/image.jpg');\n\nif (!$image) {\n    die('Cannot load image');\n}\n\n// Convert the image to grayscale\nimagefilter($image, IMG_FILTER_GRAYSCALE);\n\n// Save the grayscale image to a new file\nimagejpeg($image, 'path/to/your/grey_image.jpg');\n\n// Free up memory\nimagedestroy($image);\n?>

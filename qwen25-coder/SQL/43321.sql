@@ -1,1 +1,0 @@
-ALTER TABLE `escolaterrafir`.`t21_turma` MODIFY COLUMN `A21_ID` int(10) signed NOT NULL auto_increment;

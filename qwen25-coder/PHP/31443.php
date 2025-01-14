@@ -1,1 +1,0 @@
-<?php\nfunction load_language($lang = 'en') {\n    $languageFile = __DIR__ . '/language/' . $lang . '.php';\n    if (file_exists($languageFile)) {\n        return require $languageFile;\n    }\n    throw new Exception("Language file not found for: $lang");\n}

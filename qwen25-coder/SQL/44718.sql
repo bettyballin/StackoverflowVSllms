@@ -1,1 +1,0 @@
-WITH LastFifteenSales AS (\n    SELECT TOP 15 amount \n    FROM Sales \n    ORDER BY [Date] DESC\n)\nSELECT SUM(amount) AS TotalAmount\nFROM LastFifteenSales;

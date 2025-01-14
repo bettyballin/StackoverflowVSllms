@@ -1,1 +1,0 @@
-SELECT DATE(date) AS entry_date, GROUP_CONCAT(id ORDER BY id ASC SEPARATOR '\n') AS ids\nFROM your_table_name\nGROUP BY DATE(date)\nORDER BY entry_date;

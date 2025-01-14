@@ -1,1 +1,0 @@
-resources :your_resource do\n  member do\n    post 'restore'\n  end\nend

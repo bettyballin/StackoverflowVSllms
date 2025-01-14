@@ -1,1 +1,0 @@
-from scipy.optimize import linear_sum_assignment\n\nrow_ind, col_ind = linear_sum_assignment(cost_matrix)\n\n# Output solution\nprint("Optimal Assignment:")\nfor person, slot in zip(row_ind, col_ind):\n    print(f"{people[person]['name']} -> {event_slots[slot]}")

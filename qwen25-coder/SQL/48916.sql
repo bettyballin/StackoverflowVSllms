@@ -1,1 +1,0 @@
-INSERT INTO Dictionary (Word, Definition)\nVALUES \n('Example', 'A representative form or pattern.'),\n('Test', 'An examination or trial of a person or thing for the purpose of testing capability, quality, or performance.'),\n('SQL', 'Structured Query Language: a standard language used to communicate with databases and manipulate data.');

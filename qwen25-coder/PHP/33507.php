@@ -1,1 +1,0 @@
-<?php \n$title = 'Home Page';\n$content = __DIR__ . '/home_content.php'; // Include this file for the content part.\ninclude(__DIR__ . '/../base_template.php');\n?>

@@ -1,1 +1,0 @@
-keys = ['name', 'age', 'food']\nvalues = ['Monty', 42, 'spam']\n\n# Create dictionary by zipping keys and values together\ncombined_dict = dict(zip(keys, values))\n\nprint(combined_dict)

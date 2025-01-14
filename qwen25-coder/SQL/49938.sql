@@ -1,1 +1,0 @@
-CREATE USER app_user IDENTIFIED BY 'StrongPassword123';\nGRANT CONNECT, RESOURCE TO app_user;\n\n-- Define roles in your application which map to these DB permissions\nCREATE ROLE report_viewer;\nGRANT SELECT ON reports_table TO report_viewer;\n\nCREATE ROLE data_manager;\nGRANT SELECT, INSERT, UPDATE, DELETE ON data_tables TO data_manager;

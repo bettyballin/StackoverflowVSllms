@@ -1,1 +1,0 @@
-$Nums = range(0, 9);\n$output = array_map(function($num) {\n    return $num * $num;\n}, $Nums);\n\nprint_r($output);

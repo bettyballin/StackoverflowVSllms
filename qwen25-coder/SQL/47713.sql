@@ -1,1 +1,0 @@
-+------------------+\n|    Application   |\n+------------------+\n| - Package A      |\n| - Package B      |\n| - Database       |\n+------------------+

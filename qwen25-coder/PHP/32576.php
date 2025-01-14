@@ -1,1 +1,0 @@
-<?php\n   session_start();\n   $_SESSION['username'] = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING);

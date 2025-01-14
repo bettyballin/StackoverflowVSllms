@@ -1,1 +1,0 @@
-$normal_array = array();\n$array_of_arrayrefs = array(&$normal_array);\n\n// Get the last element of the array as a reference\n$lastReference =& end($array_of_arrayrefs);\n$lastReference["one"] = 1;\n\nprint $normal_array["one"]; // should output 1

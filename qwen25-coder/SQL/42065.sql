@@ -1,1 +1,0 @@
-UPDATE wp_posts\nSET post_content = REPLACE(post_content, 'http://oldurl.com', 'http://newurl.com');

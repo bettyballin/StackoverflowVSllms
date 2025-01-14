@@ -1,1 +1,0 @@
-SELECT GROUP_CONCAT(DISTINCT CONCAT(usrFirst, ' ', usrLast) SEPARATOR ', ') as receiver_name

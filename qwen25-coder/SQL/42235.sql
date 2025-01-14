@@ -1,1 +1,0 @@
-SELECT e.*\nFROM db1.entry e\nLEFT JOIN db2.content c ON e.entry_id = c.entry_id\nWHERE c.entry_id IS NULL;

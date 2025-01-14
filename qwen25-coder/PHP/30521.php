@@ -1,1 +1,0 @@
-if(!count($_POST)) {\n       echo 'something';\n   }

@@ -1,1 +1,0 @@
-SELECT \n    Q.Id AS QuestionId,\n    Q.Text AS QuestionText,\n    A.Id AS AnswerId,\n    A.Text AS AnswerText\nFROM \n    Questions Q\nLEFT JOIN \n    Answers A ON Q.Id = A.QuestionId\nWHERE \n    Q.Status = 'Active' -- Replace with your selection criteria\nORDER BY \n    Q.Id, A.Id;

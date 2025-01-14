@@ -1,1 +1,0 @@
-<?php\nsession_start();\n// Do something with the session if needed\n$_SESSION['some_key'] = 'some_value';\n\n// Close the session to unlock it for other scripts\nsession_write_close();\n\nsleep(120);\n?>

@@ -1,1 +1,0 @@
-original_list = ["apple", "banana", "cherry", "date", "fig"]\n# Copy elements from index 1 to 3 (inclusive-start, exclusive-end)\nportion_of_list = original_list[1:4]\nprint(portion_of_list)  # Output: ['banana', 'cherry', 'date']

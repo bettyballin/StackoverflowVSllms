@@ -1,1 +1,0 @@
-gem 'wicked'\ngem 'state_machine'

@@ -1,1 +1,0 @@
-declare(strict_types=1);\n\nfunction add(int $a, int $b): int {\n    return $a + $b;\n}\n\necho add(5, 3); // Outputs: 8

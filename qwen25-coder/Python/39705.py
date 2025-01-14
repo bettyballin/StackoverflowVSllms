@@ -1,1 +1,0 @@
-from http.server import SimpleHTTPRequestHandler, HTTPServer\n\nclass CORSRequestHandler(SimpleHTTPRequestHandler):\n    def end_headers(self):\n        self.send_header('Access-Control-Allow-Origin', '*')\n        super().end_headers()\n\nhttpd = HTTPServer(('localhost', 8000), CORSRequestHandler)\nprint("Serving at http://localhost:8000")\nhttpd.serve_forever()

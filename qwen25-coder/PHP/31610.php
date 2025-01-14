@@ -1,1 +1,0 @@
-echo $this->url(array('controller' => 'XXX', 'action' => 'YYY'));

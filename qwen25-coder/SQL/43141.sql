@@ -1,1 +1,0 @@
-INSERT INTO YourTable (Column1, Column2) -- Exclude your GUID column from here\nVALUES (@column1, @column2); -- Do not provide a value for the GUID colum

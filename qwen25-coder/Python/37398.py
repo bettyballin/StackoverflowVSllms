@@ -1,1 +1,0 @@
-from peewee import SqliteDatabase, Model, CharField\n\ndb = SqliteDatabase('my_app.db')\n\nclass BaseModel(Model):\n    class Meta:\n        database = db\n\nclass User(BaseModel):\n    name = CharField()\n\n# Connect and create tables\ndb.connect()\ndb.create_tables([User])\n\n# Insert a row\nuser = User.create(name='Example Name')

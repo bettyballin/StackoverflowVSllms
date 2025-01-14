@@ -1,1 +1,0 @@
-SELECT STRING_AGG(value, ', ') AS result\nFROM simpleTable;

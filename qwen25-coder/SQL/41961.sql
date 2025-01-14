@@ -1,1 +1,0 @@
-SELECT count(*) \nFROM super_eds \nWHERE datasets = '{}';

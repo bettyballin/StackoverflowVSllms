@@ -1,1 +1,0 @@
-class MyComplexObject\n  attr_accessor :attribute1, :inner_object\n  \n  def to_session\n    Marshal.dump(self)\n  end\n\n  def self.from_session(data)\n    Marshal.load(data)\n  end\nend\n\n# Usage in your session\nsession[:complex_object] = my_complex_object.to_session\n\n# Retrieval from session\nretrieved_object = MyComplexObject.from_session(session[:complex_object])

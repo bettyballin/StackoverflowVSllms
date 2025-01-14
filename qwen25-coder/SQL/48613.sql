@@ -1,1 +1,0 @@
-CREATE VIEW other_dates_records AS\nSELECT *\nFROM `table`\nWHERE DATE(`Date`) <> CURDATE();

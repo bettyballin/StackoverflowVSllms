@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE my_procedure AS BEGIN\n    -- Your code here\n  END;

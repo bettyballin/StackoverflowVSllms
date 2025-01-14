@@ -1,1 +1,0 @@
-' To open another form modally\nDim newForm As New Form2()\nnewForm.ShowDialog()\n\n' To open another form non-modally\nDim newForm As New Form2()\nnewForm.Show()

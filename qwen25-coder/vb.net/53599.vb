@@ -1,1 +1,0 @@
-Dim logQuery As Object\n   Set logQuery = CreateObject("MSUtil.LogQuery")\n   ' Use the logQuery object for your queries here

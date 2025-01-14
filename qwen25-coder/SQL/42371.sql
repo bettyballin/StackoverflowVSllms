@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.TryConvertToInt(@Value NVARCHAR(MAX))\nRETURNS INT\nAS\nBEGIN\n    DECLARE @Result INT;\n    BEGIN TRY\n        SET @Result = CAST(@Value AS INT);\n    END TRY\n    BEGIN CATCH\n        SET @Result = NULL;\n    END CATCH\n    RETURN @Result;\nEND;

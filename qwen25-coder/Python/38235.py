@@ -1,1 +1,0 @@
-import requests\n\ndef get_google_suggestions(query):\n    url = f"http://suggestqueries.google.com/complete/search?client=firefox&q={query}"\n    response = requests.get(url)\n    return response.json()\n\nsuggestions = get_google_suggestions("apple")\nprint(suggestions)

@@ -1,1 +1,0 @@
-<ReceivePort Name="HTTPReqRespPort">\n  <TransportType Name="HTTP" />\n  <Filter Expression="BTS.ReceiveLocationName == 'HTTPReqRespLocation'" />\n  <TransportInfo>\n    <URL>BTSHTTPReceive.dll?ReqResp</URL>\n  </TransportInfo>\n</ReceivePort>
