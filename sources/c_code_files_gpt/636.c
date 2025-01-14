@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>  // For sleep() on Unix-like systems
 #ifdef _WIN32
-#include <windows.h>
 #define SLEEP(seconds) Sleep((seconds) * 1000)
 #else
 #define SLEEP(seconds) sleep(seconds)

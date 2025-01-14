@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 #ifdef _WIN32
-#include <windows.h>
 // Windows-specific code
 void platformSpecificFunction() {
     printf("Windows implementation\n");

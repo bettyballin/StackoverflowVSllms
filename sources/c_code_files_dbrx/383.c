@@ -37,8 +37,7 @@ int main() {
         int pid = getpid();
         ProfileChildren(pid);
     #elif defined(_WIN32)
-        #include <windows.h>
-        DWORD pid = GetCurrentProcessId();
+                DWORD pid = GetCurrentProcessId();
         ProfileChildren(pid);
     #endif
     
