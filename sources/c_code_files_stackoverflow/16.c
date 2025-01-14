@@ -1,1 +1,0 @@
-cl /CLR /LD dllcode.cpp

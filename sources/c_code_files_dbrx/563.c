@@ -1,5 +1,0 @@
-[ANSWER] In C, the `static` keyword is used in two ways: for global functions or variables to make them file scope (meaning that they won't be visible outside of their current translation unit) and within a function to declare a static local variable which will save its value between calls.
-
-A function or variable declared `static` only has internal linkage, meaning that it can’t be accessed by another code module (another .c file). That's why you are getting the error when you include "a.c" without declaring print_matrix as static; because you are trying to define the same function twice – once in a.obj and again in main.obj, which is not allowed.
-
-As many people mentioned, including .c files is considered poor style and should generally be avoided (use header files instead), but using `static` declarations can help keep your namespaces clean, allowing you to avoid naming conflicts with functions/variables from other code modules when you do need to include a whole file.
