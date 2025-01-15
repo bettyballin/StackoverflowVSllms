@@ -18,7 +18,7 @@
 "environment":[
 "SONAR_CFAMILY_BUILD_WRAPPER_VERSION=6.62",
 "SONAR_CFAMILY_CAPTURE_EXECUTABLE_PATH=/usr/bin/x86_64-linux-gnu-g++-11",
-"SONAR_CFAMILY_WRAPPER_SOCKET=/tmp/build-wrapper-socket.TvXD9S",
+"SONAR_CFAMILY_WRAPPER_SOCKET=/tmp/build-wrapper-socket.kFTGRO",
 "SONAR_CFAMILY_WRAPPER_LIBRARY=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so",
 "SONAR_CFAMILY_BUILD_WRAPPER_BIN=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/build-wrapper-linux-x86-64",
 "VSCODE_GIT_ASKPASS_EXTRA_ARGS=",
