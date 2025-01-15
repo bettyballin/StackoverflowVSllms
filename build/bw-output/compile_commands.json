@@ -1,7 +1,0 @@
-[
-{
-"directory":"build",
-"file":"cpp_code_files_stackoverflow/4.cpp",
-"command": "/usr/bin/c++ -std=gnu++11 -o build/CMakeFiles/StackoverflowExecutable.dir/cpp_code_files_stackoverflow/4.cpp.o -c cpp_code_files_stackoverflow/4.cpp"
-}
-]
