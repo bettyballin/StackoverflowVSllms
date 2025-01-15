@@ -1,0 +1,14 @@
+[
+    {
+        "arguments": [
+            "/usr/bin/c++",
+            "-c",
+            "-std=gnu++11",
+            "-o",
+            "CMakeFiles/StackoverflowExecutable.dir/0.cpp.o",
+            "../0.cpp"
+        ],
+        "directory": "/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/cpp_code_files_stackoverflow/cpp_code_files_stackoverflow/build",
+        "file": "../0.cpp"
+    }
+]
