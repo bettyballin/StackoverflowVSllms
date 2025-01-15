@@ -1,347 +1,966 @@
-Wed Jan 15 09:50:47 2025: build-wrapper, version 6.62 (linux-x86)
-Wed Jan 15 09:50:47 2025: System name: Linux Nodename: ssecompute6 Release: 5.15.0-119-generic Version: #129-Ubuntu SMP Fri Aug 2 19:25:20 UTC 2024 Machine: x86_64
-Wed Jan 15 09:50:47 2025: socket path: /tmp/build-wrapper-socket.kr4GPh
-Wed Jan 15 09:50:47 2025: dynamic library found: /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/libinterceptor-i686.so
-Wed Jan 15 09:50:47 2025: dynamic library found: /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/libinterceptor-x86_64.so
-Wed Jan 15 09:50:47 2025: dynamic library found: /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/libinterceptor-haswell.so
-Wed Jan 15 09:50:47 2025: cwd: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
-Wed Jan 15 09:50:47 2025: command executed as: <../build-wrapper-linux-x86/build-wrapper-linux-x86-64 --out-dir bw-output>
-Wed Jan 15 09:50:47 2025: out-dir absolute path: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/bw-output>
-Wed Jan 15 09:50:47 2025: command line received: <g++ cpp_code_files_stackoverflow/0.cpp cpp_code_files_stackoverflow/1.cpp cpp_code_files_stackoverflow/2.cpp cpp_code_files_stackoverflow/3.cpp cpp_code_files_stackoverflow/4.cpp cpp_code_files_stackoverflow/5.cpp>
-Wed Jan 15 09:50:47 2025: env 0: <SHELL=/bin/bash>
-Wed Jan 15 09:50:47 2025: env 1: <COLORTERM=truecolor>
-Wed Jan 15 09:50:47 2025: env 2: <TERM_PROGRAM_VERSION=1.95.1>
-Wed Jan 15 09:50:47 2025: env 3: <CONDA_EXE=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin/conda>
-Wed Jan 15 09:50:47 2025: env 4: <_CE_M=>
-Wed Jan 15 09:50:47 2025: env 5: <TERMCAP=SC|screen.xterm-256color|VT 100/ANSI X3.64 virtual terminal:DO=\E[%dB:LE=\E[%dD:RI=\E[%dC:UP=\E[%dA:bs:bt=\E[Z:cd=\E[J:ce=\E[K:cl=\E[H\E[J:cm=\E[%i%d;%dH:ct=\E[3g:do=^J:nd=\E[C:pt:rc=\E8:rs=\Ec:sc=\E7:st=\EH:up=\EM:le=^H:bl=^G:cr=^M:it#8:ho=\E[H:nw=\EE:ta=^I:is=\E)0:li#14:co#132:am:xn:xv:LP:sr=\EM:al=\E[L:AL=\E[%dL:cs=\E[%i%d;%dr:dl=\E[M:DL=\E[%dM:dc=\E[P:DC=\E[%dP:im=\E[4h:ei=\E[4l:mi:IC=\E[%d@:ks=\E[?1h\E=:ke=\E[?1l\E>:vi=\E[?25l:ve=\E[34h\E[?25h:vs=\E[34l:ti=\E[?1049h:te=\E[?1049l:us=\E[4m:ue=\E[24m:so=\E[3m:se=\E[23m:mb=\E[5m:md=\E[1m:mh=\E[2m:mr=\E[7m:me=\E[m:ms:Co#8:pa#64:AF=\E[3%dm:AB=\E[4%dm:op=\E[39;49m:AX:vb=\Eg:G0:as=\E(0:ae=\E(B:ac=\140\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\E[5i:pf=\E[4i:Km=\E[<:k0=\E[10~:k1=\EOP:k2=\EOQ:k3=\EOR:k4=\EOS:k5=\E[15~:k6=\E[17~:k7=\E[18~:k8=\E[19~:k9=\E[20~:k;=\E[21~:F1=\E[23~:F2=\E[24~:kB=\E[Z:kh=\E[1~:@1=\E[1~:kH=\E[4~:@7=\E[4~:kN=\E[6~:kP=\E[5~:kI=\E[2~:kD=\E[3~:ku=\EOA:kd=\EOB:kr=\EOC:kl=\EOD:km:>
-Wed Jan 15 09:50:47 2025: env 6: <WINDOW=0>
-Wed Jan 15 09:50:47 2025: env 7: <PWD=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
-Wed Jan 15 09:50:47 2025: env 8: <LOGNAME=ballin>
-Wed Jan 15 09:50:47 2025: env 9: <CONDA_ROOT=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
-Wed Jan 15 09:50:47 2025: env 10: <XDG_SESSION_TYPE=tty>
-Wed Jan 15 09:50:47 2025: env 11: <CONDA_PREFIX=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
-Wed Jan 15 09:50:47 2025: env 12: <VSCODE_GIT_ASKPASS_NODE=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/node>
-Wed Jan 15 09:50:47 2025: env 13: <MOTD_SHOWN=pam>
-Wed Jan 15 09:50:47 2025: env 14: <HOME=/home/ballin>
-Wed Jan 15 09:50:47 2025: env 15: <LANG=en_US.UTF-8>
-Wed Jan 15 09:50:47 2025: env 16: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
-Wed Jan 15 09:50:47 2025: env 17: <SSL_CERT_DIR=/usr/lib/ssl/certs>
-Wed Jan 15 09:50:47 2025: env 18: <CONDA_PROMPT_MODIFIER=(base) >
-Wed Jan 15 09:50:47 2025: env 19: <GIT_ASKPASS=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass.sh>
-Wed Jan 15 09:50:47 2025: env 20: <SSH_CONNECTION=10.148.18.63 51520 10.148.128.102 22>
-Wed Jan 15 09:50:47 2025: env 21: <VSCODE_GIT_ASKPASS_EXTRA_ARGS=>
-Wed Jan 15 09:50:47 2025: env 22: <LESSCLOSE=/usr/bin/lesspipe %s %s>
-Wed Jan 15 09:50:47 2025: env 23: <XDG_SESSION_CLASS=user>
-Wed Jan 15 09:50:47 2025: env 24: <TERM=screen.xterm-256color>
-Wed Jan 15 09:50:47 2025: env 25: <_CE_CONDA=>
-Wed Jan 15 09:50:47 2025: env 26: <LESSOPEN=| /usr/bin/lesspipe %s>
-Wed Jan 15 09:50:47 2025: env 27: <USER=ballin>
-Wed Jan 15 09:50:47 2025: env 28: <VSCODE_GIT_IPC_HANDLE=/run/user/21091/vscode-git-02d86844d4.sock>
-Wed Jan 15 09:50:47 2025: env 29: <CONDA_SHLVL=3>
-Wed Jan 15 09:50:47 2025: env 30: <SHLVL=3>
-Wed Jan 15 09:50:47 2025: env 31: <XDG_SESSION_ID=4164>
-Wed Jan 15 09:50:47 2025: env 32: <CONDA_PYTHON_EXE=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin/python>
-Wed Jan 15 09:50:47 2025: env 33: <XDG_RUNTIME_DIR=/run/user/21091>
-Wed Jan 15 09:50:47 2025: env 34: <SSL_CERT_FILE=/usr/lib/ssl/certs/ca-certificates.crt>
-Wed Jan 15 09:50:47 2025: env 35: <PS1=(base) ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ >
-Wed Jan 15 09:50:47 2025: env 36: <SSH_CLIENT=10.148.18.63 51520 22>
-Wed Jan 15 09:50:47 2025: env 37: <CONDA_DEFAULT_ENV=base>
-Wed Jan 15 09:50:47 2025: env 38: <VSCODE_GIT_ASKPASS_MAIN=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass-main.js>
-Wed Jan 15 09:50:47 2025: env 39: <XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop>
-Wed Jan 15 09:50:47 2025: env 40: <BROWSER=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/helpers/browser.sh>
-Wed Jan 15 09:50:47 2025: env 41: <PATH=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
-Wed Jan 15 09:50:47 2025: env 42: <STY=1265063.pts-7.ssecompute6>
-Wed Jan 15 09:50:47 2025: env 43: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/21091/bus>
-Wed Jan 15 09:50:47 2025: env 44: <CONDA_PREFIX_1=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
-Wed Jan 15 09:50:47 2025: env 45: <CONDA_PREFIX_2=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/envs/llms>
-Wed Jan 15 09:50:47 2025: env 46: <TERM_PROGRAM=vscode>
-Wed Jan 15 09:50:47 2025: env 47: <VSCODE_IPC_HOOK_CLI=/run/user/21091/vscode-ipc-9fba0956-9d44-4eb6-bcfa-23c37e2c74ab.sock>
-Wed Jan 15 09:50:47 2025: env 48: <_=../build-wrapper-linux-x86/build-wrapper-linux-x86-64>
-Wed Jan 15 09:50:47 2025: env 49: <OLDPWD=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/build>
-Wed Jan 15 09:50:47 2025: executing: <g++ cpp_code_files_stackoverflow/0.cpp cpp_code_files_stackoverflow/1.cpp cpp_code_files_stackoverflow/2.cpp cpp_code_files_stackoverflow/3.cpp cpp_code_files_stackoverflow/4.cpp cpp_code_files_stackoverflow/5.cpp>
-Wed Jan 15 09:50:47 2025: initializing json file
-Wed Jan 15 09:50:47 2025: process created with pid: 1647361
-Wed Jan 15 09:50:47 2025: parent pid: 1647360
-Wed Jan 15 09:50:47 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
-Wed Jan 15 09:50:47 2025: executable: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
-Wed Jan 15 09:50:47 2025: argv[0]: <../build-wrapper-linux-x86/build-wrapper-linux-x86-64>
-Wed Jan 15 09:50:47 2025: argv[1]: <-c>
-Wed Jan 15 09:50:47 2025: argv[2]: <g++>
-Wed Jan 15 09:50:47 2025: argv[3]: <cpp_code_files_stackoverflow/0.cpp>
-Wed Jan 15 09:50:47 2025: argv[4]: <cpp_code_files_stackoverflow/1.cpp>
-Wed Jan 15 09:50:47 2025: argv[5]: <cpp_code_files_stackoverflow/2.cpp>
-Wed Jan 15 09:50:47 2025: argv[6]: <cpp_code_files_stackoverflow/3.cpp>
-Wed Jan 15 09:50:47 2025: argv[7]: <cpp_code_files_stackoverflow/4.cpp>
-Wed Jan 15 09:50:47 2025: argv[8]: <cpp_code_files_stackoverflow/5.cpp>
-Wed Jan 15 09:50:47 2025: skipping process with pid: 1647361
-Wed Jan 15 09:50:47 2025: process created with pid: 1647362
-Wed Jan 15 09:50:47 2025: parent pid: 1647361
-Wed Jan 15 09:50:47 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
-Wed Jan 15 09:50:47 2025: executable: </usr/bin/x86_64-linux-gnu-g++-11>
-Wed Jan 15 09:50:47 2025: argv[0]: <g++>
-Wed Jan 15 09:50:47 2025: argv[1]: <cpp_code_files_stackoverflow/0.cpp>
-Wed Jan 15 09:50:47 2025: argv[2]: <cpp_code_files_stackoverflow/1.cpp>
-Wed Jan 15 09:50:47 2025: argv[3]: <cpp_code_files_stackoverflow/2.cpp>
-Wed Jan 15 09:50:47 2025: argv[4]: <cpp_code_files_stackoverflow/3.cpp>
-Wed Jan 15 09:50:47 2025: argv[5]: <cpp_code_files_stackoverflow/4.cpp>
-Wed Jan 15 09:50:47 2025: argv[6]: <cpp_code_files_stackoverflow/5.cpp>
-Wed Jan 15 09:50:47 2025: envp[0]: <SONAR_CFAMILY_WRAPPER_SOCKET=/tmp/build-wrapper-socket.kr4GPh>
-Wed Jan 15 09:50:47 2025: envp[1]: <SONAR_CFAMILY_WRAPPER_LIBRARY=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
-Wed Jan 15 09:50:47 2025: envp[2]: <SONAR_CFAMILY_BUILD_WRAPPER_BIN=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
-Wed Jan 15 09:50:47 2025: envp[3]: <SHELL=/bin/bash>
-Wed Jan 15 09:50:47 2025: envp[4]: <COLORTERM=truecolor>
-Wed Jan 15 09:50:47 2025: envp[5]: <TERM_PROGRAM_VERSION=1.95.1>
-Wed Jan 15 09:50:47 2025: envp[6]: <CONDA_EXE=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin/conda>
-Wed Jan 15 09:50:47 2025: envp[7]: <_CE_M=>
-Wed Jan 15 09:50:47 2025: envp[8]: <TERMCAP=SC|screen.xterm-256color|VT 100/ANSI X3.64 virtual terminal:DO=\E[%dB:LE=\E[%dD:RI=\E[%dC:UP=\E[%dA:bs:bt=\E[Z:cd=\E[J:ce=\E[K:cl=\E[H\E[J:cm=\E[%i%d;%dH:ct=\E[3g:do=^J:nd=\E[C:pt:rc=\E8:rs=\Ec:sc=\E7:st=\EH:up=\EM:le=^H:bl=^G:cr=^M:it#8:ho=\E[H:nw=\EE:ta=^I:is=\E)0:li#14:co#132:am:xn:xv:LP:sr=\EM:al=\E[L:AL=\E[%dL:cs=\E[%i%d;%dr:dl=\E[M:DL=\E[%dM:dc=\E[P:DC=\E[%dP:im=\E[4h:ei=\E[4l:mi:IC=\E[%d@:ks=\E[?1h\E=:ke=\E[?1l\E>:vi=\E[?25l:ve=\E[34h\E[?25h:vs=\E[34l:ti=\E[?1049h:te=\E[?1049l:us=\E[4m:ue=\E[24m:so=\E[3m:se=\E[23m:mb=\E[5m:md=\E[1m:mh=\E[2m:mr=\E[7m:me=\E[m:ms:Co#8:pa#64:AF=\E[3%dm:AB=\E[4%dm:op=\E[39;49m:AX:vb=\Eg:G0:as=\E(0:ae=\E(B:ac=\140\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\E[5i:pf=\E[4i:Km=\E[<:k0=\E[10~:k1=\EOP:k2=\EOQ:k3=\EOR:k4=\EOS:k5=\E[15~:k6=\E[17~:k7=\E[18~:k8=\E[19~:k9=\E[20~:k;=\E[21~:F1=\E[23~:F2=\E[24~:kB=\E[Z:kh=\E[1~:@1=\E[1~:kH=\E[4~:@7=\E[4~:kN=\E[6~:kP=\E[5~:kI=\E[2~:kD=\E[3~:ku=\EOA:kd=\EOB:kr=\EOC:kl=\EOD:km:>
-Wed Jan 15 09:50:47 2025: envp[9]: <WINDOW=0>
-Wed Jan 15 09:50:47 2025: envp[10]: <PWD=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
-Wed Jan 15 09:50:47 2025: envp[11]: <LOGNAME=ballin>
-Wed Jan 15 09:50:47 2025: envp[12]: <CONDA_ROOT=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
-Wed Jan 15 09:50:47 2025: envp[13]: <XDG_SESSION_TYPE=tty>
-Wed Jan 15 09:50:47 2025: envp[14]: <CONDA_PREFIX=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
-Wed Jan 15 09:50:47 2025: envp[15]: <VSCODE_GIT_ASKPASS_NODE=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/node>
-Wed Jan 15 09:50:47 2025: envp[16]: <MOTD_SHOWN=pam>
-Wed Jan 15 09:50:47 2025: envp[17]: <HOME=/home/ballin>
-Wed Jan 15 09:50:47 2025: envp[18]: <LANG=en_US.UTF-8>
-Wed Jan 15 09:50:47 2025: envp[19]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
-Wed Jan 15 09:50:47 2025: envp[20]: <SSL_CERT_DIR=/usr/lib/ssl/certs>
-Wed Jan 15 09:50:47 2025: envp[21]: <CONDA_PROMPT_MODIFIER=(base) >
-Wed Jan 15 09:50:47 2025: envp[22]: <GIT_ASKPASS=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass.sh>
-Wed Jan 15 09:50:47 2025: envp[23]: <SSH_CONNECTION=10.148.18.63 51520 10.148.128.102 22>
-Wed Jan 15 09:50:47 2025: envp[24]: <VSCODE_GIT_ASKPASS_EXTRA_ARGS=>
-Wed Jan 15 09:50:47 2025: envp[25]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
-Wed Jan 15 09:50:47 2025: envp[26]: <XDG_SESSION_CLASS=user>
-Wed Jan 15 09:50:47 2025: envp[27]: <TERM=screen.xterm-256color>
-Wed Jan 15 09:50:47 2025: envp[28]: <_CE_CONDA=>
-Wed Jan 15 09:50:47 2025: envp[29]: <LESSOPEN=| /usr/bin/lesspipe %s>
-Wed Jan 15 09:50:47 2025: envp[30]: <USER=ballin>
-Wed Jan 15 09:50:47 2025: envp[31]: <VSCODE_GIT_IPC_HANDLE=/run/user/21091/vscode-git-02d86844d4.sock>
-Wed Jan 15 09:50:47 2025: envp[32]: <CONDA_SHLVL=3>
-Wed Jan 15 09:50:47 2025: envp[33]: <SHLVL=3>
-Wed Jan 15 09:50:47 2025: envp[34]: <XDG_SESSION_ID=4164>
-Wed Jan 15 09:50:47 2025: envp[35]: <CONDA_PYTHON_EXE=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin/python>
-Wed Jan 15 09:50:47 2025: envp[36]: <XDG_RUNTIME_DIR=/run/user/21091>
-Wed Jan 15 09:50:47 2025: envp[37]: <SSL_CERT_FILE=/usr/lib/ssl/certs/ca-certificates.crt>
-Wed Jan 15 09:50:47 2025: envp[38]: <PS1=(base) ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ >
-Wed Jan 15 09:50:47 2025: envp[39]: <SSH_CLIENT=10.148.18.63 51520 22>
-Wed Jan 15 09:50:47 2025: envp[40]: <CONDA_DEFAULT_ENV=base>
-Wed Jan 15 09:50:47 2025: envp[41]: <VSCODE_GIT_ASKPASS_MAIN=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass-main.js>
-Wed Jan 15 09:50:47 2025: envp[42]: <XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop>
-Wed Jan 15 09:50:47 2025: envp[43]: <BROWSER=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/helpers/browser.sh>
-Wed Jan 15 09:50:47 2025: envp[44]: <PATH=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
-Wed Jan 15 09:50:47 2025: envp[45]: <STY=1265063.pts-7.ssecompute6>
-Wed Jan 15 09:50:47 2025: envp[46]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/21091/bus>
-Wed Jan 15 09:50:47 2025: envp[47]: <CONDA_PREFIX_1=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
-Wed Jan 15 09:50:47 2025: envp[48]: <CONDA_PREFIX_2=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/envs/llms>
-Wed Jan 15 09:50:47 2025: envp[49]: <TERM_PROGRAM=vscode>
-Wed Jan 15 09:50:47 2025: envp[50]: <VSCODE_IPC_HOOK_CLI=/run/user/21091/vscode-ipc-9fba0956-9d44-4eb6-bcfa-23c37e2c74ab.sock>
-Wed Jan 15 09:50:47 2025: envp[51]: <_=../build-wrapper-linux-x86/build-wrapper-linux-x86-64>
-Wed Jan 15 09:50:47 2025: envp[52]: <OLDPWD=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/build>
-Wed Jan 15 09:50:47 2025: envp[53]: <LD_PRELOAD=>
-Wed Jan 15 09:50:47 2025: candidate file: <cpp_code_files_stackoverflow/0.cpp>
-Wed Jan 15 09:50:47 2025: candidate file: <cpp_code_files_stackoverflow/1.cpp>
-Wed Jan 15 09:50:47 2025: candidate file: <cpp_code_files_stackoverflow/2.cpp>
-Wed Jan 15 09:50:47 2025: candidate file: <cpp_code_files_stackoverflow/3.cpp>
-Wed Jan 15 09:50:47 2025: candidate file: <cpp_code_files_stackoverflow/4.cpp>
-Wed Jan 15 09:50:47 2025: candidate file: <cpp_code_files_stackoverflow/5.cpp>
-Wed Jan 15 09:50:47 2025: process created with pid: 1647363
-Wed Jan 15 09:50:47 2025: parent pid: 1647362
-Wed Jan 15 09:50:47 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
-Wed Jan 15 09:50:47 2025: executable: </usr/lib/gcc/x86_64-linux-gnu/11/cc1plus>
-Wed Jan 15 09:50:47 2025: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/11/cc1plus>
-Wed Jan 15 09:50:47 2025: argv[1]: <-quiet>
-Wed Jan 15 09:50:47 2025: argv[2]: <-imultiarch>
-Wed Jan 15 09:50:47 2025: argv[3]: <x86_64-linux-gnu>
-Wed Jan 15 09:50:47 2025: argv[4]: <-D_GNU_SOURCE>
-Wed Jan 15 09:50:47 2025: argv[5]: <cpp_code_files_stackoverflow/0.cpp>
-Wed Jan 15 09:50:47 2025: argv[6]: <-quiet>
-Wed Jan 15 09:50:47 2025: argv[7]: <-dumpdir>
-Wed Jan 15 09:50:47 2025: argv[8]: <a->
-Wed Jan 15 09:50:47 2025: argv[9]: <-dumpbase>
-Wed Jan 15 09:50:47 2025: argv[10]: <0.cpp>
-Wed Jan 15 09:50:47 2025: argv[11]: <-dumpbase-ext>
-Wed Jan 15 09:50:47 2025: argv[12]: <.cpp>
-Wed Jan 15 09:50:47 2025: argv[13]: <-mtune=generic>
-Wed Jan 15 09:50:47 2025: argv[14]: <-march=x86-64>
-Wed Jan 15 09:50:47 2025: argv[15]: <-fasynchronous-unwind-tables>
-Wed Jan 15 09:50:47 2025: argv[16]: <-fstack-protector-strong>
-Wed Jan 15 09:50:47 2025: argv[17]: <-Wformat>
-Wed Jan 15 09:50:47 2025: argv[18]: <-Wformat-security>
-Wed Jan 15 09:50:47 2025: argv[19]: <-fstack-clash-protection>
-Wed Jan 15 09:50:47 2025: argv[20]: <-fcf-protection>
-Wed Jan 15 09:50:47 2025: argv[21]: <-o>
-Wed Jan 15 09:50:47 2025: argv[22]: </tmp/ccRqgbYA.s>
-Wed Jan 15 09:50:47 2025: skipping process with pid: 1647363
-Wed Jan 15 09:50:47 2025: process created with pid: 1647364
-Wed Jan 15 09:50:47 2025: parent pid: 1647362
-Wed Jan 15 09:50:47 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
-Wed Jan 15 09:50:47 2025: executable: </usr/bin/x86_64-linux-gnu-as>
-Wed Jan 15 09:50:47 2025: argv[0]: <as>
-Wed Jan 15 09:50:47 2025: argv[1]: <--64>
-Wed Jan 15 09:50:47 2025: argv[2]: <-o>
-Wed Jan 15 09:50:47 2025: argv[3]: </tmp/ccRmfCOX.o>
-Wed Jan 15 09:50:47 2025: argv[4]: </tmp/ccRqgbYA.s>
-Wed Jan 15 09:50:47 2025: skipping process with pid: 1647364
-Wed Jan 15 09:50:47 2025: process created with pid: 1647365
-Wed Jan 15 09:50:47 2025: parent pid: 1647362
-Wed Jan 15 09:50:47 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
-Wed Jan 15 09:50:47 2025: executable: </usr/lib/gcc/x86_64-linux-gnu/11/cc1plus>
-Wed Jan 15 09:50:47 2025: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/11/cc1plus>
-Wed Jan 15 09:50:47 2025: argv[1]: <-quiet>
-Wed Jan 15 09:50:47 2025: argv[2]: <-imultiarch>
-Wed Jan 15 09:50:47 2025: argv[3]: <x86_64-linux-gnu>
-Wed Jan 15 09:50:47 2025: argv[4]: <-D_GNU_SOURCE>
-Wed Jan 15 09:50:47 2025: argv[5]: <cpp_code_files_stackoverflow/1.cpp>
-Wed Jan 15 09:50:47 2025: argv[6]: <-quiet>
-Wed Jan 15 09:50:47 2025: argv[7]: <-dumpdir>
-Wed Jan 15 09:50:47 2025: argv[8]: <a->
-Wed Jan 15 09:50:47 2025: argv[9]: <-dumpbase>
-Wed Jan 15 09:50:47 2025: argv[10]: <1.cpp>
-Wed Jan 15 09:50:47 2025: argv[11]: <-dumpbase-ext>
-Wed Jan 15 09:50:47 2025: argv[12]: <.cpp>
-Wed Jan 15 09:50:47 2025: argv[13]: <-mtune=generic>
-Wed Jan 15 09:50:47 2025: argv[14]: <-march=x86-64>
-Wed Jan 15 09:50:47 2025: argv[15]: <-fasynchronous-unwind-tables>
-Wed Jan 15 09:50:47 2025: argv[16]: <-fstack-protector-strong>
-Wed Jan 15 09:50:47 2025: argv[17]: <-Wformat>
-Wed Jan 15 09:50:47 2025: argv[18]: <-Wformat-security>
-Wed Jan 15 09:50:47 2025: argv[19]: <-fstack-clash-protection>
-Wed Jan 15 09:50:47 2025: argv[20]: <-fcf-protection>
-Wed Jan 15 09:50:47 2025: argv[21]: <-o>
-Wed Jan 15 09:50:47 2025: argv[22]: </tmp/ccRqgbYA.s>
-Wed Jan 15 09:50:47 2025: skipping process with pid: 1647365
-Wed Jan 15 09:50:47 2025: process created with pid: 1647366
-Wed Jan 15 09:50:47 2025: parent pid: 1647362
-Wed Jan 15 09:50:47 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
-Wed Jan 15 09:50:47 2025: executable: </usr/lib/gcc/x86_64-linux-gnu/11/cc1plus>
-Wed Jan 15 09:50:47 2025: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/11/cc1plus>
-Wed Jan 15 09:50:47 2025: argv[1]: <-quiet>
-Wed Jan 15 09:50:47 2025: argv[2]: <-imultiarch>
-Wed Jan 15 09:50:47 2025: argv[3]: <x86_64-linux-gnu>
-Wed Jan 15 09:50:47 2025: argv[4]: <-D_GNU_SOURCE>
-Wed Jan 15 09:50:47 2025: argv[5]: <cpp_code_files_stackoverflow/2.cpp>
-Wed Jan 15 09:50:47 2025: argv[6]: <-quiet>
-Wed Jan 15 09:50:47 2025: argv[7]: <-dumpdir>
-Wed Jan 15 09:50:47 2025: argv[8]: <a->
-Wed Jan 15 09:50:47 2025: argv[9]: <-dumpbase>
-Wed Jan 15 09:50:47 2025: argv[10]: <2.cpp>
-Wed Jan 15 09:50:47 2025: argv[11]: <-dumpbase-ext>
-Wed Jan 15 09:50:47 2025: argv[12]: <.cpp>
-Wed Jan 15 09:50:47 2025: argv[13]: <-mtune=generic>
-Wed Jan 15 09:50:47 2025: argv[14]: <-march=x86-64>
-Wed Jan 15 09:50:47 2025: argv[15]: <-fasynchronous-unwind-tables>
-Wed Jan 15 09:50:47 2025: argv[16]: <-fstack-protector-strong>
-Wed Jan 15 09:50:47 2025: argv[17]: <-Wformat>
-Wed Jan 15 09:50:47 2025: argv[18]: <-Wformat-security>
-Wed Jan 15 09:50:47 2025: argv[19]: <-fstack-clash-protection>
-Wed Jan 15 09:50:47 2025: argv[20]: <-fcf-protection>
-Wed Jan 15 09:50:47 2025: argv[21]: <-o>
-Wed Jan 15 09:50:47 2025: argv[22]: </tmp/ccRqgbYA.s>
-Wed Jan 15 09:50:47 2025: skipping process with pid: 1647366
-Wed Jan 15 09:50:48 2025: process created with pid: 1647367
-Wed Jan 15 09:50:48 2025: parent pid: 1647362
-Wed Jan 15 09:50:48 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
-Wed Jan 15 09:50:48 2025: executable: </usr/bin/x86_64-linux-gnu-as>
-Wed Jan 15 09:50:48 2025: argv[0]: <as>
-Wed Jan 15 09:50:48 2025: argv[1]: <--64>
-Wed Jan 15 09:50:48 2025: argv[2]: <-o>
-Wed Jan 15 09:50:48 2025: argv[3]: </tmp/cc343oqU.o>
-Wed Jan 15 09:50:48 2025: argv[4]: </tmp/ccRqgbYA.s>
-Wed Jan 15 09:50:48 2025: skipping process with pid: 1647367
-Wed Jan 15 09:50:48 2025: process created with pid: 1647368
-Wed Jan 15 09:50:48 2025: parent pid: 1647362
-Wed Jan 15 09:50:48 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
-Wed Jan 15 09:50:48 2025: executable: </usr/lib/gcc/x86_64-linux-gnu/11/cc1plus>
-Wed Jan 15 09:50:48 2025: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/11/cc1plus>
-Wed Jan 15 09:50:48 2025: argv[1]: <-quiet>
-Wed Jan 15 09:50:48 2025: argv[2]: <-imultiarch>
-Wed Jan 15 09:50:48 2025: argv[3]: <x86_64-linux-gnu>
-Wed Jan 15 09:50:48 2025: argv[4]: <-D_GNU_SOURCE>
-Wed Jan 15 09:50:48 2025: argv[5]: <cpp_code_files_stackoverflow/3.cpp>
-Wed Jan 15 09:50:48 2025: argv[6]: <-quiet>
-Wed Jan 15 09:50:48 2025: argv[7]: <-dumpdir>
-Wed Jan 15 09:50:48 2025: argv[8]: <a->
-Wed Jan 15 09:50:48 2025: argv[9]: <-dumpbase>
-Wed Jan 15 09:50:48 2025: argv[10]: <3.cpp>
-Wed Jan 15 09:50:48 2025: argv[11]: <-dumpbase-ext>
-Wed Jan 15 09:50:48 2025: argv[12]: <.cpp>
-Wed Jan 15 09:50:48 2025: argv[13]: <-mtune=generic>
-Wed Jan 15 09:50:48 2025: argv[14]: <-march=x86-64>
-Wed Jan 15 09:50:48 2025: argv[15]: <-fasynchronous-unwind-tables>
-Wed Jan 15 09:50:48 2025: argv[16]: <-fstack-protector-strong>
-Wed Jan 15 09:50:48 2025: argv[17]: <-Wformat>
-Wed Jan 15 09:50:48 2025: argv[18]: <-Wformat-security>
-Wed Jan 15 09:50:48 2025: argv[19]: <-fstack-clash-protection>
-Wed Jan 15 09:50:48 2025: argv[20]: <-fcf-protection>
-Wed Jan 15 09:50:48 2025: argv[21]: <-o>
-Wed Jan 15 09:50:48 2025: argv[22]: </tmp/ccRqgbYA.s>
-Wed Jan 15 09:50:48 2025: skipping process with pid: 1647368
-Wed Jan 15 09:50:48 2025: process created with pid: 1647369
-Wed Jan 15 09:50:48 2025: parent pid: 1647362
-Wed Jan 15 09:50:48 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
-Wed Jan 15 09:50:48 2025: executable: </usr/lib/gcc/x86_64-linux-gnu/11/cc1plus>
-Wed Jan 15 09:50:48 2025: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/11/cc1plus>
-Wed Jan 15 09:50:48 2025: argv[1]: <-quiet>
-Wed Jan 15 09:50:48 2025: argv[2]: <-imultiarch>
-Wed Jan 15 09:50:48 2025: argv[3]: <x86_64-linux-gnu>
-Wed Jan 15 09:50:48 2025: argv[4]: <-D_GNU_SOURCE>
-Wed Jan 15 09:50:48 2025: argv[5]: <cpp_code_files_stackoverflow/4.cpp>
-Wed Jan 15 09:50:48 2025: argv[6]: <-quiet>
-Wed Jan 15 09:50:48 2025: argv[7]: <-dumpdir>
-Wed Jan 15 09:50:48 2025: argv[8]: <a->
-Wed Jan 15 09:50:48 2025: argv[9]: <-dumpbase>
-Wed Jan 15 09:50:48 2025: argv[10]: <4.cpp>
-Wed Jan 15 09:50:48 2025: argv[11]: <-dumpbase-ext>
-Wed Jan 15 09:50:48 2025: argv[12]: <.cpp>
-Wed Jan 15 09:50:48 2025: argv[13]: <-mtune=generic>
-Wed Jan 15 09:50:48 2025: argv[14]: <-march=x86-64>
-Wed Jan 15 09:50:48 2025: argv[15]: <-fasynchronous-unwind-tables>
-Wed Jan 15 09:50:48 2025: argv[16]: <-fstack-protector-strong>
-Wed Jan 15 09:50:48 2025: argv[17]: <-Wformat>
-Wed Jan 15 09:50:48 2025: argv[18]: <-Wformat-security>
-Wed Jan 15 09:50:48 2025: argv[19]: <-fstack-clash-protection>
-Wed Jan 15 09:50:48 2025: argv[20]: <-fcf-protection>
-Wed Jan 15 09:50:48 2025: argv[21]: <-o>
-Wed Jan 15 09:50:48 2025: argv[22]: </tmp/ccRqgbYA.s>
-Wed Jan 15 09:50:48 2025: skipping process with pid: 1647369
-Wed Jan 15 09:50:48 2025: process created with pid: 1647370
-Wed Jan 15 09:50:48 2025: parent pid: 1647362
-Wed Jan 15 09:50:48 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
-Wed Jan 15 09:50:48 2025: executable: </usr/bin/x86_64-linux-gnu-as>
-Wed Jan 15 09:50:48 2025: argv[0]: <as>
-Wed Jan 15 09:50:48 2025: argv[1]: <--64>
-Wed Jan 15 09:50:48 2025: argv[2]: <-o>
-Wed Jan 15 09:50:48 2025: argv[3]: </tmp/ccu6fIm4.o>
-Wed Jan 15 09:50:48 2025: argv[4]: </tmp/ccRqgbYA.s>
-Wed Jan 15 09:50:48 2025: skipping process with pid: 1647370
-Wed Jan 15 09:50:48 2025: process created with pid: 1647371
-Wed Jan 15 09:50:48 2025: parent pid: 1647362
-Wed Jan 15 09:50:48 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
-Wed Jan 15 09:50:48 2025: executable: </usr/lib/gcc/x86_64-linux-gnu/11/cc1plus>
-Wed Jan 15 09:50:48 2025: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/11/cc1plus>
-Wed Jan 15 09:50:48 2025: argv[1]: <-quiet>
-Wed Jan 15 09:50:48 2025: argv[2]: <-imultiarch>
-Wed Jan 15 09:50:48 2025: argv[3]: <x86_64-linux-gnu>
-Wed Jan 15 09:50:48 2025: argv[4]: <-D_GNU_SOURCE>
-Wed Jan 15 09:50:48 2025: argv[5]: <cpp_code_files_stackoverflow/5.cpp>
-Wed Jan 15 09:50:48 2025: argv[6]: <-quiet>
-Wed Jan 15 09:50:48 2025: argv[7]: <-dumpdir>
-Wed Jan 15 09:50:48 2025: argv[8]: <a->
-Wed Jan 15 09:50:48 2025: argv[9]: <-dumpbase>
-Wed Jan 15 09:50:48 2025: argv[10]: <5.cpp>
-Wed Jan 15 09:50:48 2025: argv[11]: <-dumpbase-ext>
-Wed Jan 15 09:50:48 2025: argv[12]: <.cpp>
-Wed Jan 15 09:50:48 2025: argv[13]: <-mtune=generic>
-Wed Jan 15 09:50:48 2025: argv[14]: <-march=x86-64>
-Wed Jan 15 09:50:48 2025: argv[15]: <-fasynchronous-unwind-tables>
-Wed Jan 15 09:50:48 2025: argv[16]: <-fstack-protector-strong>
-Wed Jan 15 09:50:48 2025: argv[17]: <-Wformat>
-Wed Jan 15 09:50:48 2025: argv[18]: <-Wformat-security>
-Wed Jan 15 09:50:48 2025: argv[19]: <-fstack-clash-protection>
-Wed Jan 15 09:50:48 2025: argv[20]: <-fcf-protection>
-Wed Jan 15 09:50:48 2025: argv[21]: <-o>
-Wed Jan 15 09:50:48 2025: argv[22]: </tmp/ccRqgbYA.s>
-Wed Jan 15 09:50:48 2025: skipping process with pid: 1647371
-Wed Jan 15 09:50:48 2025: finalizing json file
-Wed Jan 15 09:50:48 2025: returned with code: 1
+Wed Jan 15 10:55:09 2025: build-wrapper, version 6.62 (linux-x86)
+Wed Jan 15 10:55:09 2025: System name: Linux Nodename: ssecompute6 Release: 5.15.0-119-generic Version: #129-Ubuntu SMP Fri Aug 2 19:25:20 UTC 2024 Machine: x86_64
+Wed Jan 15 10:55:09 2025: socket path: /tmp/build-wrapper-socket.NASyon
+Wed Jan 15 10:55:09 2025: dynamic library found: /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/libinterceptor-i686.so
+Wed Jan 15 10:55:09 2025: dynamic library found: /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/libinterceptor-x86_64.so
+Wed Jan 15 10:55:09 2025: dynamic library found: /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/libinterceptor-haswell.so
+Wed Jan 15 10:55:09 2025: cwd: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: command executed as: <../build-wrapper-linux-x86/build-wrapper-linux-x86-64 --out-dir bw-output>
+Wed Jan 15 10:55:09 2025: out-dir absolute path: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/bw-output>
+Wed Jan 15 10:55:09 2025: command line received: <cmake --build . --verbose>
+Wed Jan 15 10:55:09 2025: env 0: <SHELL=/bin/bash>
+Wed Jan 15 10:55:09 2025: env 1: <COLORTERM=truecolor>
+Wed Jan 15 10:55:09 2025: env 2: <TERM_PROGRAM_VERSION=1.95.1>
+Wed Jan 15 10:55:09 2025: env 3: <CONDA_EXE=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin/conda>
+Wed Jan 15 10:55:09 2025: env 4: <_CE_M=>
+Wed Jan 15 10:55:09 2025: env 5: <TERMCAP=SC|screen.xterm-256color|VT 100/ANSI X3.64 virtual terminal:DO=\E[%dB:LE=\E[%dD:RI=\E[%dC:UP=\E[%dA:bs:bt=\E[Z:cd=\E[J:ce=\E[K:cl=\E[H\E[J:cm=\E[%i%d;%dH:ct=\E[3g:do=^J:nd=\E[C:pt:rc=\E8:rs=\Ec:sc=\E7:st=\EH:up=\EM:le=^H:bl=^G:cr=^M:it#8:ho=\E[H:nw=\EE:ta=^I:is=\E)0:li#14:co#132:am:xn:xv:LP:sr=\EM:al=\E[L:AL=\E[%dL:cs=\E[%i%d;%dr:dl=\E[M:DL=\E[%dM:dc=\E[P:DC=\E[%dP:im=\E[4h:ei=\E[4l:mi:IC=\E[%d@:ks=\E[?1h\E=:ke=\E[?1l\E>:vi=\E[?25l:ve=\E[34h\E[?25h:vs=\E[34l:ti=\E[?1049h:te=\E[?1049l:us=\E[4m:ue=\E[24m:so=\E[3m:se=\E[23m:mb=\E[5m:md=\E[1m:mh=\E[2m:mr=\E[7m:me=\E[m:ms:Co#8:pa#64:AF=\E[3%dm:AB=\E[4%dm:op=\E[39;49m:AX:vb=\Eg:G0:as=\E(0:ae=\E(B:ac=\140\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\E[5i:pf=\E[4i:Km=\E[<:k0=\E[10~:k1=\EOP:k2=\EOQ:k3=\EOR:k4=\EOS:k5=\E[15~:k6=\E[17~:k7=\E[18~:k8=\E[19~:k9=\E[20~:k;=\E[21~:F1=\E[23~:F2=\E[24~:kB=\E[Z:kh=\E[1~:@1=\E[1~:kH=\E[4~:@7=\E[4~:kN=\E[6~:kP=\E[5~:kI=\E[2~:kD=\E[3~:ku=\EOA:kd=\EOB:kr=\EOC:kl=\EOD:km:>
+Wed Jan 15 10:55:09 2025: env 6: <WINDOW=0>
+Wed Jan 15 10:55:09 2025: env 7: <PWD=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: env 8: <LOGNAME=ballin>
+Wed Jan 15 10:55:09 2025: env 9: <CONDA_ROOT=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
+Wed Jan 15 10:55:09 2025: env 10: <XDG_SESSION_TYPE=tty>
+Wed Jan 15 10:55:09 2025: env 11: <CONDA_PREFIX=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
+Wed Jan 15 10:55:09 2025: env 12: <VSCODE_GIT_ASKPASS_NODE=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/node>
+Wed Jan 15 10:55:09 2025: env 13: <MOTD_SHOWN=pam>
+Wed Jan 15 10:55:09 2025: env 14: <HOME=/home/ballin>
+Wed Jan 15 10:55:09 2025: env 15: <LANG=en_US.UTF-8>
+Wed Jan 15 10:55:09 2025: env 16: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Wed Jan 15 10:55:09 2025: env 17: <SSL_CERT_DIR=/usr/lib/ssl/certs>
+Wed Jan 15 10:55:09 2025: env 18: <CONDA_PROMPT_MODIFIER=(base) >
+Wed Jan 15 10:55:09 2025: env 19: <GIT_ASKPASS=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass.sh>
+Wed Jan 15 10:55:09 2025: env 20: <SSH_CONNECTION=10.148.18.63 51520 10.148.128.102 22>
+Wed Jan 15 10:55:09 2025: env 21: <VSCODE_GIT_ASKPASS_EXTRA_ARGS=>
+Wed Jan 15 10:55:09 2025: env 22: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Wed Jan 15 10:55:09 2025: env 23: <XDG_SESSION_CLASS=user>
+Wed Jan 15 10:55:09 2025: env 24: <TERM=screen.xterm-256color>
+Wed Jan 15 10:55:09 2025: env 25: <_CE_CONDA=>
+Wed Jan 15 10:55:09 2025: env 26: <LESSOPEN=| /usr/bin/lesspipe %s>
+Wed Jan 15 10:55:09 2025: env 27: <USER=ballin>
+Wed Jan 15 10:55:09 2025: env 28: <VSCODE_GIT_IPC_HANDLE=/run/user/21091/vscode-git-02d86844d4.sock>
+Wed Jan 15 10:55:09 2025: env 29: <CONDA_SHLVL=3>
+Wed Jan 15 10:55:09 2025: env 30: <SHLVL=3>
+Wed Jan 15 10:55:09 2025: env 31: <XDG_SESSION_ID=4164>
+Wed Jan 15 10:55:09 2025: env 32: <CONDA_PYTHON_EXE=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin/python>
+Wed Jan 15 10:55:09 2025: env 33: <XDG_RUNTIME_DIR=/run/user/21091>
+Wed Jan 15 10:55:09 2025: env 34: <SSL_CERT_FILE=/usr/lib/ssl/certs/ca-certificates.crt>
+Wed Jan 15 10:55:09 2025: env 35: <PS1=(base) ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ >
+Wed Jan 15 10:55:09 2025: env 36: <SSH_CLIENT=10.148.18.63 51520 22>
+Wed Jan 15 10:55:09 2025: env 37: <CONDA_DEFAULT_ENV=base>
+Wed Jan 15 10:55:09 2025: env 38: <VSCODE_GIT_ASKPASS_MAIN=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass-main.js>
+Wed Jan 15 10:55:09 2025: env 39: <XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Wed Jan 15 10:55:09 2025: env 40: <BROWSER=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/helpers/browser.sh>
+Wed Jan 15 10:55:09 2025: env 41: <PATH=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Wed Jan 15 10:55:09 2025: env 42: <STY=1265063.pts-7.ssecompute6>
+Wed Jan 15 10:55:09 2025: env 43: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/21091/bus>
+Wed Jan 15 10:55:09 2025: env 44: <CONDA_PREFIX_1=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
+Wed Jan 15 10:55:09 2025: env 45: <CONDA_PREFIX_2=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/envs/llms>
+Wed Jan 15 10:55:09 2025: env 46: <TERM_PROGRAM=vscode>
+Wed Jan 15 10:55:09 2025: env 47: <VSCODE_IPC_HOOK_CLI=/run/user/21091/vscode-ipc-9fba0956-9d44-4eb6-bcfa-23c37e2c74ab.sock>
+Wed Jan 15 10:55:09 2025: env 48: <_=../build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Wed Jan 15 10:55:09 2025: env 49: <OLDPWD=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/build>
+Wed Jan 15 10:55:09 2025: executing: <cmake --build . --verbose>
+Wed Jan 15 10:55:09 2025: initializing json file
+Wed Jan 15 10:55:09 2025: process created with pid: 1654469
+Wed Jan 15 10:55:09 2025: parent pid: 1654468
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Wed Jan 15 10:55:09 2025: argv[0]: <../build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Wed Jan 15 10:55:09 2025: argv[1]: <-c>
+Wed Jan 15 10:55:09 2025: argv[2]: <cmake>
+Wed Jan 15 10:55:09 2025: argv[3]: <--build>
+Wed Jan 15 10:55:09 2025: argv[4]: <.>
+Wed Jan 15 10:55:09 2025: argv[5]: <--verbose>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654469
+Wed Jan 15 10:55:09 2025: process created with pid: 1654470
+Wed Jan 15 10:55:09 2025: parent pid: 1654469
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin/python3.10>
+Wed Jan 15 10:55:09 2025: argv[0]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin/python3.10>
+Wed Jan 15 10:55:09 2025: argv[1]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[2]: <--build>
+Wed Jan 15 10:55:09 2025: argv[3]: <.>
+Wed Jan 15 10:55:09 2025: argv[4]: <--verbose>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654470
+Wed Jan 15 10:55:09 2025: process created with pid: 1654471
+Wed Jan 15 10:55:09 2025: parent pid: 1654470
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[0]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <--build>
+Wed Jan 15 10:55:09 2025: argv[2]: <.>
+Wed Jan 15 10:55:09 2025: argv[3]: <--verbose>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654471
+Wed Jan 15 10:55:09 2025: process created with pid: 1654472
+Wed Jan 15 10:55:09 2025: parent pid: 1654471
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[0]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <-E>
+Wed Jan 15 10:55:09 2025: argv[2]: <env>
+Wed Jan 15 10:55:09 2025: argv[3]: <VERBOSE=1>
+Wed Jan 15 10:55:09 2025: argv[4]: </usr/bin/gmake>
+Wed Jan 15 10:55:09 2025: argv[5]: <-f>
+Wed Jan 15 10:55:09 2025: argv[6]: <Makefile>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654472
+Wed Jan 15 10:55:09 2025: process created with pid: 1654473
+Wed Jan 15 10:55:09 2025: parent pid: 1654472
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/make>
+Wed Jan 15 10:55:09 2025: argv[0]: </usr/bin/gmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <-f>
+Wed Jan 15 10:55:09 2025: argv[2]: <Makefile>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654473
+Wed Jan 15 10:55:09 2025: process created with pid: 1654474
+Wed Jan 15 10:55:09 2025: parent pid: 1654473
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[0]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <-S/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: argv[2]: <-B/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: argv[3]: <--check-build-system>
+Wed Jan 15 10:55:09 2025: argv[4]: <CMakeFiles/Makefile.cmake>
+Wed Jan 15 10:55:09 2025: argv[5]: <0>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654474
+Wed Jan 15 10:55:09 2025: process created with pid: 1654475
+Wed Jan 15 10:55:09 2025: parent pid: 1654473
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[0]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <-E>
+Wed Jan 15 10:55:09 2025: argv[2]: <cmake_progress_start>
+Wed Jan 15 10:55:09 2025: argv[3]: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/CMakeFiles>
+Wed Jan 15 10:55:09 2025: argv[4]: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms//CMakeFiles/progress.marks>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654475
+Wed Jan 15 10:55:09 2025: process created with pid: 1654476
+Wed Jan 15 10:55:09 2025: parent pid: 1654473
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/make>
+Wed Jan 15 10:55:09 2025: argv[0]: </usr/bin/gmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <-f>
+Wed Jan 15 10:55:09 2025: argv[2]: <CMakeFiles/Makefile2>
+Wed Jan 15 10:55:09 2025: argv[3]: <all>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654476
+Wed Jan 15 10:55:09 2025: process created with pid: 1654477
+Wed Jan 15 10:55:09 2025: parent pid: 1654476
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/make>
+Wed Jan 15 10:55:09 2025: argv[0]: </usr/bin/gmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <-f>
+Wed Jan 15 10:55:09 2025: argv[2]: <CMakeFiles/0.dir/build.make>
+Wed Jan 15 10:55:09 2025: argv[3]: <CMakeFiles/0.dir/depend>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654477
+Wed Jan 15 10:55:09 2025: process created with pid: 1654478
+Wed Jan 15 10:55:09 2025: parent pid: 1654477
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/dash>
+Wed Jan 15 10:55:09 2025: argv[0]: </bin/sh>
+Wed Jan 15 10:55:09 2025: argv[1]: <-c>
+Wed Jan 15 10:55:09 2025: argv[2]: <cd /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms && /mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/CMakeFiles/0.dir/DependInfo.cmake --color=>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654478
+Wed Jan 15 10:55:09 2025: process created with pid: 1654479
+Wed Jan 15 10:55:09 2025: parent pid: 1654478
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[0]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <-E>
+Wed Jan 15 10:55:09 2025: argv[2]: <cmake_depends>
+Wed Jan 15 10:55:09 2025: argv[3]: <Unix Makefiles>
+Wed Jan 15 10:55:09 2025: argv[4]: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: argv[5]: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: argv[6]: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: argv[7]: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: argv[8]: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/CMakeFiles/0.dir/DependInfo.cmake>
+Wed Jan 15 10:55:09 2025: argv[9]: <--color=>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654479
+Wed Jan 15 10:55:09 2025: process created with pid: 1654480
+Wed Jan 15 10:55:09 2025: parent pid: 1654476
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/make>
+Wed Jan 15 10:55:09 2025: argv[0]: </usr/bin/gmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <-f>
+Wed Jan 15 10:55:09 2025: argv[2]: <CMakeFiles/0.dir/build.make>
+Wed Jan 15 10:55:09 2025: argv[3]: <CMakeFiles/0.dir/build>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654480
+Wed Jan 15 10:55:09 2025: process created with pid: 1654481
+Wed Jan 15 10:55:09 2025: parent pid: 1654480
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/dash>
+Wed Jan 15 10:55:09 2025: argv[0]: </bin/sh>
+Wed Jan 15 10:55:09 2025: argv[1]: <-c>
+Wed Jan 15 10:55:09 2025: argv[2]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/0.dir/cpp_code_files_stackoverflow/0.cpp.o">
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654481
+Wed Jan 15 10:55:09 2025: process created with pid: 1654482
+Wed Jan 15 10:55:09 2025: parent pid: 1654481
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[0]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <-E>
+Wed Jan 15 10:55:09 2025: argv[2]: <cmake_echo_color>
+Wed Jan 15 10:55:09 2025: argv[3]: <--switch=>
+Wed Jan 15 10:55:09 2025: argv[4]: <--green>
+Wed Jan 15 10:55:09 2025: argv[5]: <--progress-dir=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/CMakeFiles>
+Wed Jan 15 10:55:09 2025: argv[6]: <--progress-num=1>
+Wed Jan 15 10:55:09 2025: argv[7]: <Building CXX object CMakeFiles/0.dir/cpp_code_files_stackoverflow/0.cpp.o>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654482
+Wed Jan 15 10:55:09 2025: process created with pid: 1654483
+Wed Jan 15 10:55:09 2025: parent pid: 1654480
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/x86_64-linux-gnu-g++-11>
+Wed Jan 15 10:55:09 2025: argv[0]: </usr/bin/c++>
+Wed Jan 15 10:55:09 2025: argv[1]: <-std=gnu++11>
+Wed Jan 15 10:55:09 2025: argv[2]: <-MD>
+Wed Jan 15 10:55:09 2025: argv[3]: <-MT>
+Wed Jan 15 10:55:09 2025: argv[4]: <CMakeFiles/0.dir/cpp_code_files_stackoverflow/0.cpp.o>
+Wed Jan 15 10:55:09 2025: argv[5]: <-MF>
+Wed Jan 15 10:55:09 2025: argv[6]: <CMakeFiles/0.dir/cpp_code_files_stackoverflow/0.cpp.o.d>
+Wed Jan 15 10:55:09 2025: argv[7]: <-o>
+Wed Jan 15 10:55:09 2025: argv[8]: <CMakeFiles/0.dir/cpp_code_files_stackoverflow/0.cpp.o>
+Wed Jan 15 10:55:09 2025: argv[9]: <-c>
+Wed Jan 15 10:55:09 2025: argv[10]: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/cpp_code_files_stackoverflow/0.cpp>
+Wed Jan 15 10:55:09 2025: envp[0]: <SONAR_CFAMILY_WRAPPER_SOCKET=/tmp/build-wrapper-socket.NASyon>
+Wed Jan 15 10:55:09 2025: envp[1]: <SONAR_CFAMILY_WRAPPER_LIBRARY=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Wed Jan 15 10:55:09 2025: envp[2]: <SONAR_CFAMILY_BUILD_WRAPPER_BIN=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Wed Jan 15 10:55:09 2025: envp[3]: <VERBOSE=1>
+Wed Jan 15 10:55:09 2025: envp[4]: <VSCODE_GIT_ASKPASS_EXTRA_ARGS=>
+Wed Jan 15 10:55:09 2025: envp[5]: <PWD=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: envp[6]: <PS1=(base) ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ >
+Wed Jan 15 10:55:09 2025: envp[7]: <WINDOW=0>
+Wed Jan 15 10:55:09 2025: envp[8]: <XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Wed Jan 15 10:55:09 2025: envp[9]: <OLDPWD=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/build>
+Wed Jan 15 10:55:09 2025: envp[10]: <CONDA_PROMPT_MODIFIER=(base) >
+Wed Jan 15 10:55:09 2025: envp[11]: <LANG=en_US.UTF-8>
+Wed Jan 15 10:55:09 2025: envp[12]: <MAKEFLAGS=w>
+Wed Jan 15 10:55:09 2025: envp[13]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Wed Jan 15 10:55:09 2025: envp[14]: <MFLAGS=-w>
+Wed Jan 15 10:55:09 2025: envp[15]: <GIT_ASKPASS=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass.sh>
+Wed Jan 15 10:55:09 2025: envp[16]: <CONDA_SHLVL=3>
+Wed Jan 15 10:55:09 2025: envp[17]: <SSL_CERT_FILE=/usr/lib/ssl/certs/ca-certificates.crt>
+Wed Jan 15 10:55:09 2025: envp[18]: <XDG_SESSION_TYPE=tty>
+Wed Jan 15 10:55:09 2025: envp[19]: <CONDA_PYTHON_EXE=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin/python>
+Wed Jan 15 10:55:09 2025: envp[20]: <SSL_CERT_DIR=/usr/lib/ssl/certs>
+Wed Jan 15 10:55:09 2025: envp[21]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/21091/bus>
+Wed Jan 15 10:55:09 2025: envp[22]: <CONDA_PREFIX=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
+Wed Jan 15 10:55:09 2025: envp[23]: <SHELL=/bin/bash>
+Wed Jan 15 10:55:09 2025: envp[24]: <SHLVL=3>
+Wed Jan 15 10:55:09 2025: envp[25]: <PATH=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Wed Jan 15 10:55:09 2025: envp[26]: <VSCODE_GIT_IPC_HANDLE=/run/user/21091/vscode-git-02d86844d4.sock>
+Wed Jan 15 10:55:09 2025: envp[27]: <VSCODE_GIT_ASKPASS_NODE=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/node>
+Wed Jan 15 10:55:09 2025: envp[28]: <MOTD_SHOWN=pam>
+Wed Jan 15 10:55:09 2025: envp[29]: <CONDA_PREFIX_2=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/envs/llms>
+Wed Jan 15 10:55:09 2025: envp[30]: <VSCODE_GIT_ASKPASS_MAIN=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass-main.js>
+Wed Jan 15 10:55:09 2025: envp[31]: <SSH_CLIENT=10.148.18.63 51520 22>
+Wed Jan 15 10:55:09 2025: envp[32]: <TERM_PROGRAM=vscode>
+Wed Jan 15 10:55:09 2025: envp[33]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Wed Jan 15 10:55:09 2025: envp[34]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Wed Jan 15 10:55:09 2025: envp[35]: <BROWSER=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/helpers/browser.sh>
+Wed Jan 15 10:55:09 2025: envp[36]: <CONDA_DEFAULT_ENV=base>
+Wed Jan 15 10:55:09 2025: envp[37]: <STY=1265063.pts-7.ssecompute6>
+Wed Jan 15 10:55:09 2025: envp[38]: <LOGNAME=ballin>
+Wed Jan 15 10:55:09 2025: envp[39]: <USER=ballin>
+Wed Jan 15 10:55:09 2025: envp[40]: <_=../build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Wed Jan 15 10:55:09 2025: envp[41]: <MAKE_TERMOUT=/dev/pts/10>
+Wed Jan 15 10:55:09 2025: envp[42]: <XDG_RUNTIME_DIR=/run/user/21091>
+Wed Jan 15 10:55:09 2025: envp[43]: <COLORTERM=truecolor>
+Wed Jan 15 10:55:09 2025: envp[44]: <_CE_M=>
+Wed Jan 15 10:55:09 2025: envp[45]: <VSCODE_IPC_HOOK_CLI=/run/user/21091/vscode-ipc-9fba0956-9d44-4eb6-bcfa-23c37e2c74ab.sock>
+Wed Jan 15 10:55:09 2025: envp[46]: <MAKE_TERMERR=/dev/pts/10>
+Wed Jan 15 10:55:09 2025: envp[47]: <XDG_SESSION_CLASS=user>
+Wed Jan 15 10:55:09 2025: envp[48]: <HOME=/home/ballin>
+Wed Jan 15 10:55:09 2025: envp[49]: <CONDA_PREFIX_1=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
+Wed Jan 15 10:55:09 2025: envp[50]: <TERM=screen.xterm-256color>
+Wed Jan 15 10:55:09 2025: envp[51]: <XDG_SESSION_ID=4164>
+Wed Jan 15 10:55:09 2025: envp[52]: <CONDA_ROOT=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
+Wed Jan 15 10:55:09 2025: envp[53]: <TERM_PROGRAM_VERSION=1.95.1>
+Wed Jan 15 10:55:09 2025: envp[54]: <CONDA_EXE=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin/conda>
+Wed Jan 15 10:55:09 2025: envp[55]: <TERMCAP=SC|screen.xterm-256color|VT 100/ANSI X3.64 virtual terminal:DO=\E[%dB:LE=\E[%dD:RI=\E[%dC:UP=\E[%dA:bs:bt=\E[Z:cd=\E[J:ce=\E[K:cl=\E[H\E[J:cm=\E[%i%d;%dH:ct=\E[3g:do=^J:nd=\E[C:pt:rc=\E8:rs=\Ec:sc=\E7:st=\EH:up=\EM:le=^H:bl=^G:cr=^M:it#8:ho=\E[H:nw=\EE:ta=^I:is=\E)0:li#14:co#132:am:xn:xv:LP:sr=\EM:al=\E[L:AL=\E[%dL:cs=\E[%i%d;%dr:dl=\E[M:DL=\E[%dM:dc=\E[P:DC=\E[%dP:im=\E[4h:ei=\E[4l:mi:IC=\E[%d@:ks=\E[?1h\E=:ke=\E[?1l\E>:vi=\E[?25l:ve=\E[34h\E[?25h:vs=\E[34l:ti=\E[?1049h:te=\E[?1049l:us=\E[4m:ue=\E[24m:so=\E[3m:se=\E[23m:mb=\E[5m:md=\E[1m:mh=\E[2m:mr=\E[7m:me=\E[m:ms:Co#8:pa#64:AF=\E[3%dm:AB=\E[4%dm:op=\E[39;49m:AX:vb=\Eg:G0:as=\E(0:ae=\E(B:ac=\140\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\E[5i:pf=\E[4i:Km=\E[<:k0=\E[10~:k1=\EOP:k2=\EOQ:k3=\EOR:k4=\EOS:k5=\E[15~:k6=\E[17~:k7=\E[18~:k8=\E[19~:k9=\E[20~:k;=\E[21~:F1=\E[23~:F2=\E[24~:kB=\E[Z:kh=\E[1~:@1=\E[1~:kH=\E[4~:@7=\E[4~:kN=\E[6~:kP=\E[5~:kI=\E[2~:kD=\E[3~:ku=\EOA:kd=\EOB:kr=\EOC:kl=\EOD:km:>
+Wed Jan 15 10:55:09 2025: envp[56]: <_CE_CONDA=>
+Wed Jan 15 10:55:09 2025: envp[57]: <SSH_CONNECTION=10.148.18.63 51520 10.148.128.102 22>
+Wed Jan 15 10:55:09 2025: envp[58]: <MAKELEVEL=3>
+Wed Jan 15 10:55:09 2025: envp[59]: <LD_PRELOAD=>
+Wed Jan 15 10:55:09 2025: candidate file: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/cpp_code_files_stackoverflow/0.cpp>
+Wed Jan 15 10:55:09 2025: process created with pid: 1654484
+Wed Jan 15 10:55:09 2025: parent pid: 1654483
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/lib/gcc/x86_64-linux-gnu/11/cc1plus>
+Wed Jan 15 10:55:09 2025: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/11/cc1plus>
+Wed Jan 15 10:55:09 2025: argv[1]: <-quiet>
+Wed Jan 15 10:55:09 2025: argv[2]: <-imultiarch>
+Wed Jan 15 10:55:09 2025: argv[3]: <x86_64-linux-gnu>
+Wed Jan 15 10:55:09 2025: argv[4]: <-MD>
+Wed Jan 15 10:55:09 2025: argv[5]: <CMakeFiles/0.dir/cpp_code_files_stackoverflow/0.cpp.d>
+Wed Jan 15 10:55:09 2025: argv[6]: <-MF>
+Wed Jan 15 10:55:09 2025: argv[7]: <CMakeFiles/0.dir/cpp_code_files_stackoverflow/0.cpp.o.d>
+Wed Jan 15 10:55:09 2025: argv[8]: <-MT>
+Wed Jan 15 10:55:09 2025: argv[9]: <CMakeFiles/0.dir/cpp_code_files_stackoverflow/0.cpp.o>
+Wed Jan 15 10:55:09 2025: argv[10]: <-D_GNU_SOURCE>
+Wed Jan 15 10:55:09 2025: argv[11]: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/cpp_code_files_stackoverflow/0.cpp>
+Wed Jan 15 10:55:09 2025: argv[12]: <-quiet>
+Wed Jan 15 10:55:09 2025: argv[13]: <-dumpdir>
+Wed Jan 15 10:55:09 2025: argv[14]: <CMakeFiles/0.dir/cpp_code_files_stackoverflow/>
+Wed Jan 15 10:55:09 2025: argv[15]: <-dumpbase>
+Wed Jan 15 10:55:09 2025: argv[16]: <0.cpp.cpp>
+Wed Jan 15 10:55:09 2025: argv[17]: <-dumpbase-ext>
+Wed Jan 15 10:55:09 2025: argv[18]: <.cpp>
+Wed Jan 15 10:55:09 2025: argv[19]: <-mtune=generic>
+Wed Jan 15 10:55:09 2025: argv[20]: <-march=x86-64>
+Wed Jan 15 10:55:09 2025: argv[21]: <-std=gnu++11>
+Wed Jan 15 10:55:09 2025: argv[22]: <-fasynchronous-unwind-tables>
+Wed Jan 15 10:55:09 2025: argv[23]: <-fstack-protector-strong>
+Wed Jan 15 10:55:09 2025: argv[24]: <-Wformat>
+Wed Jan 15 10:55:09 2025: argv[25]: <-Wformat-security>
+Wed Jan 15 10:55:09 2025: argv[26]: <-fstack-clash-protection>
+Wed Jan 15 10:55:09 2025: argv[27]: <-fcf-protection>
+Wed Jan 15 10:55:09 2025: argv[28]: <-o>
+Wed Jan 15 10:55:09 2025: argv[29]: </tmp/cc9Egic4.s>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654484
+Wed Jan 15 10:55:09 2025: process created with pid: 1654486
+Wed Jan 15 10:55:09 2025: parent pid: 1654483
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/x86_64-linux-gnu-as>
+Wed Jan 15 10:55:09 2025: argv[0]: <as>
+Wed Jan 15 10:55:09 2025: argv[1]: <--64>
+Wed Jan 15 10:55:09 2025: argv[2]: <-o>
+Wed Jan 15 10:55:09 2025: argv[3]: <CMakeFiles/0.dir/cpp_code_files_stackoverflow/0.cpp.o>
+Wed Jan 15 10:55:09 2025: argv[4]: </tmp/cc9Egic4.s>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654486
+Wed Jan 15 10:55:09 2025: process created with pid: 1654487
+Wed Jan 15 10:55:09 2025: parent pid: 1654480
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/dash>
+Wed Jan 15 10:55:09 2025: argv[0]: </bin/sh>
+Wed Jan 15 10:55:09 2025: argv[1]: <-c>
+Wed Jan 15 10:55:09 2025: argv[2]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/CMakeFiles --progress-num=2 "Linking CXX executable 0">
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654487
+Wed Jan 15 10:55:09 2025: process created with pid: 1654488
+Wed Jan 15 10:55:09 2025: parent pid: 1654487
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[0]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <-E>
+Wed Jan 15 10:55:09 2025: argv[2]: <cmake_echo_color>
+Wed Jan 15 10:55:09 2025: argv[3]: <--switch=>
+Wed Jan 15 10:55:09 2025: argv[4]: <--green>
+Wed Jan 15 10:55:09 2025: argv[5]: <--bold>
+Wed Jan 15 10:55:09 2025: argv[6]: <--progress-dir=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/CMakeFiles>
+Wed Jan 15 10:55:09 2025: argv[7]: <--progress-num=2>
+Wed Jan 15 10:55:09 2025: argv[8]: <Linking CXX executable 0>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654488
+Wed Jan 15 10:55:09 2025: process created with pid: 1654489
+Wed Jan 15 10:55:09 2025: parent pid: 1654480
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[0]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <-E>
+Wed Jan 15 10:55:09 2025: argv[2]: <cmake_link_script>
+Wed Jan 15 10:55:09 2025: argv[3]: <CMakeFiles/0.dir/link.txt>
+Wed Jan 15 10:55:09 2025: argv[4]: <--verbose=1>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654489
+Wed Jan 15 10:55:09 2025: process created with pid: 1654490
+Wed Jan 15 10:55:09 2025: parent pid: 1654489
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/x86_64-linux-gnu-g++-11>
+Wed Jan 15 10:55:09 2025: argv[0]: </usr/bin/c++>
+Wed Jan 15 10:55:09 2025: argv[1]: <CMakeFiles/0.dir/cpp_code_files_stackoverflow/0.cpp.o>
+Wed Jan 15 10:55:09 2025: argv[2]: <-o>
+Wed Jan 15 10:55:09 2025: argv[3]: <0>
+Wed Jan 15 10:55:09 2025: envp[0]: <SONAR_CFAMILY_WRAPPER_SOCKET=/tmp/build-wrapper-socket.NASyon>
+Wed Jan 15 10:55:09 2025: envp[1]: <SONAR_CFAMILY_WRAPPER_LIBRARY=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Wed Jan 15 10:55:09 2025: envp[2]: <SONAR_CFAMILY_BUILD_WRAPPER_BIN=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Wed Jan 15 10:55:09 2025: envp[3]: <VERBOSE=1>
+Wed Jan 15 10:55:09 2025: envp[4]: <VSCODE_GIT_ASKPASS_EXTRA_ARGS=>
+Wed Jan 15 10:55:09 2025: envp[5]: <PWD=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: envp[6]: <PS1=(base) ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ >
+Wed Jan 15 10:55:09 2025: envp[7]: <WINDOW=0>
+Wed Jan 15 10:55:09 2025: envp[8]: <XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Wed Jan 15 10:55:09 2025: envp[9]: <OLDPWD=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/build>
+Wed Jan 15 10:55:09 2025: envp[10]: <CONDA_PROMPT_MODIFIER=(base) >
+Wed Jan 15 10:55:09 2025: envp[11]: <LANG=en_US.UTF-8>
+Wed Jan 15 10:55:09 2025: envp[12]: <MAKEFLAGS=w>
+Wed Jan 15 10:55:09 2025: envp[13]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Wed Jan 15 10:55:09 2025: envp[14]: <MFLAGS=-w>
+Wed Jan 15 10:55:09 2025: envp[15]: <GIT_ASKPASS=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass.sh>
+Wed Jan 15 10:55:09 2025: envp[16]: <CONDA_SHLVL=3>
+Wed Jan 15 10:55:09 2025: envp[17]: <SSL_CERT_FILE=/usr/lib/ssl/certs/ca-certificates.crt>
+Wed Jan 15 10:55:09 2025: envp[18]: <XDG_SESSION_TYPE=tty>
+Wed Jan 15 10:55:09 2025: envp[19]: <CONDA_PYTHON_EXE=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin/python>
+Wed Jan 15 10:55:09 2025: envp[20]: <SSL_CERT_DIR=/usr/lib/ssl/certs>
+Wed Jan 15 10:55:09 2025: envp[21]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/21091/bus>
+Wed Jan 15 10:55:09 2025: envp[22]: <CONDA_PREFIX=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
+Wed Jan 15 10:55:09 2025: envp[23]: <SHELL=/bin/bash>
+Wed Jan 15 10:55:09 2025: envp[24]: <SHLVL=3>
+Wed Jan 15 10:55:09 2025: envp[25]: <PATH=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Wed Jan 15 10:55:09 2025: envp[26]: <VSCODE_GIT_IPC_HANDLE=/run/user/21091/vscode-git-02d86844d4.sock>
+Wed Jan 15 10:55:09 2025: envp[27]: <VSCODE_GIT_ASKPASS_NODE=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/node>
+Wed Jan 15 10:55:09 2025: envp[28]: <MOTD_SHOWN=pam>
+Wed Jan 15 10:55:09 2025: envp[29]: <CONDA_PREFIX_2=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/envs/llms>
+Wed Jan 15 10:55:09 2025: envp[30]: <VSCODE_GIT_ASKPASS_MAIN=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass-main.js>
+Wed Jan 15 10:55:09 2025: envp[31]: <SSH_CLIENT=10.148.18.63 51520 22>
+Wed Jan 15 10:55:09 2025: envp[32]: <TERM_PROGRAM=vscode>
+Wed Jan 15 10:55:09 2025: envp[33]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Wed Jan 15 10:55:09 2025: envp[34]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Wed Jan 15 10:55:09 2025: envp[35]: <BROWSER=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/helpers/browser.sh>
+Wed Jan 15 10:55:09 2025: envp[36]: <CONDA_DEFAULT_ENV=base>
+Wed Jan 15 10:55:09 2025: envp[37]: <STY=1265063.pts-7.ssecompute6>
+Wed Jan 15 10:55:09 2025: envp[38]: <LOGNAME=ballin>
+Wed Jan 15 10:55:09 2025: envp[39]: <USER=ballin>
+Wed Jan 15 10:55:09 2025: envp[40]: <_=../build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Wed Jan 15 10:55:09 2025: envp[41]: <MAKE_TERMOUT=/dev/pts/10>
+Wed Jan 15 10:55:09 2025: envp[42]: <XDG_RUNTIME_DIR=/run/user/21091>
+Wed Jan 15 10:55:09 2025: envp[43]: <COLORTERM=truecolor>
+Wed Jan 15 10:55:09 2025: envp[44]: <_CE_M=>
+Wed Jan 15 10:55:09 2025: envp[45]: <VSCODE_IPC_HOOK_CLI=/run/user/21091/vscode-ipc-9fba0956-9d44-4eb6-bcfa-23c37e2c74ab.sock>
+Wed Jan 15 10:55:09 2025: envp[46]: <MAKE_TERMERR=/dev/pts/10>
+Wed Jan 15 10:55:09 2025: envp[47]: <XDG_SESSION_CLASS=user>
+Wed Jan 15 10:55:09 2025: envp[48]: <HOME=/home/ballin>
+Wed Jan 15 10:55:09 2025: envp[49]: <CONDA_PREFIX_1=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
+Wed Jan 15 10:55:09 2025: envp[50]: <TERM=screen.xterm-256color>
+Wed Jan 15 10:55:09 2025: envp[51]: <XDG_SESSION_ID=4164>
+Wed Jan 15 10:55:09 2025: envp[52]: <CONDA_ROOT=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
+Wed Jan 15 10:55:09 2025: envp[53]: <TERM_PROGRAM_VERSION=1.95.1>
+Wed Jan 15 10:55:09 2025: envp[54]: <CONDA_EXE=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin/conda>
+Wed Jan 15 10:55:09 2025: envp[55]: <TERMCAP=SC|screen.xterm-256color|VT 100/ANSI X3.64 virtual terminal:DO=\E[%dB:LE=\E[%dD:RI=\E[%dC:UP=\E[%dA:bs:bt=\E[Z:cd=\E[J:ce=\E[K:cl=\E[H\E[J:cm=\E[%i%d;%dH:ct=\E[3g:do=^J:nd=\E[C:pt:rc=\E8:rs=\Ec:sc=\E7:st=\EH:up=\EM:le=^H:bl=^G:cr=^M:it#8:ho=\E[H:nw=\EE:ta=^I:is=\E)0:li#14:co#132:am:xn:xv:LP:sr=\EM:al=\E[L:AL=\E[%dL:cs=\E[%i%d;%dr:dl=\E[M:DL=\E[%dM:dc=\E[P:DC=\E[%dP:im=\E[4h:ei=\E[4l:mi:IC=\E[%d@:ks=\E[?1h\E=:ke=\E[?1l\E>:vi=\E[?25l:ve=\E[34h\E[?25h:vs=\E[34l:ti=\E[?1049h:te=\E[?1049l:us=\E[4m:ue=\E[24m:so=\E[3m:se=\E[23m:mb=\E[5m:md=\E[1m:mh=\E[2m:mr=\E[7m:me=\E[m:ms:Co#8:pa#64:AF=\E[3%dm:AB=\E[4%dm:op=\E[39;49m:AX:vb=\Eg:G0:as=\E(0:ae=\E(B:ac=\140\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\E[5i:pf=\E[4i:Km=\E[<:k0=\E[10~:k1=\EOP:k2=\EOQ:k3=\EOR:k4=\EOS:k5=\E[15~:k6=\E[17~:k7=\E[18~:k8=\E[19~:k9=\E[20~:k;=\E[21~:F1=\E[23~:F2=\E[24~:kB=\E[Z:kh=\E[1~:@1=\E[1~:kH=\E[4~:@7=\E[4~:kN=\E[6~:kP=\E[5~:kI=\E[2~:kD=\E[3~:ku=\EOA:kd=\EOB:kr=\EOC:kl=\EOD:km:>
+Wed Jan 15 10:55:09 2025: envp[56]: <_CE_CONDA=>
+Wed Jan 15 10:55:09 2025: envp[57]: <SSH_CONNECTION=10.148.18.63 51520 10.148.128.102 22>
+Wed Jan 15 10:55:09 2025: envp[58]: <MAKELEVEL=3>
+Wed Jan 15 10:55:09 2025: envp[59]: <LD_PRELOAD=>
+Wed Jan 15 10:55:09 2025: no candidate files could be found, there will be no entries for this command in the compdb
+Wed Jan 15 10:55:09 2025: process created with pid: 1654491
+Wed Jan 15 10:55:09 2025: parent pid: 1654490
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/lib/gcc/x86_64-linux-gnu/11/collect2>
+Wed Jan 15 10:55:09 2025: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/11/collect2>
+Wed Jan 15 10:55:09 2025: argv[1]: <-plugin>
+Wed Jan 15 10:55:09 2025: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so>
+Wed Jan 15 10:55:09 2025: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper>
+Wed Jan 15 10:55:09 2025: argv[4]: <-plugin-opt=-fresolution=/tmp/ccXWHi2z.res>
+Wed Jan 15 10:55:09 2025: argv[5]: <-plugin-opt=-pass-through=-lgcc_s>
+Wed Jan 15 10:55:09 2025: argv[6]: <-plugin-opt=-pass-through=-lgcc>
+Wed Jan 15 10:55:09 2025: argv[7]: <-plugin-opt=-pass-through=-lc>
+Wed Jan 15 10:55:09 2025: argv[8]: <-plugin-opt=-pass-through=-lgcc_s>
+Wed Jan 15 10:55:09 2025: argv[9]: <-plugin-opt=-pass-through=-lgcc>
+Wed Jan 15 10:55:09 2025: argv[10]: <--build-id>
+Wed Jan 15 10:55:09 2025: argv[11]: <--eh-frame-hdr>
+Wed Jan 15 10:55:09 2025: argv[12]: <-m>
+Wed Jan 15 10:55:09 2025: argv[13]: <elf_x86_64>
+Wed Jan 15 10:55:09 2025: argv[14]: <--hash-style=gnu>
+Wed Jan 15 10:55:09 2025: argv[15]: <--as-needed>
+Wed Jan 15 10:55:09 2025: argv[16]: <-dynamic-linker>
+Wed Jan 15 10:55:09 2025: argv[17]: </lib64/ld-linux-x86-64.so.2>
+Wed Jan 15 10:55:09 2025: argv[18]: <-pie>
+Wed Jan 15 10:55:09 2025: argv[19]: <-z>
+Wed Jan 15 10:55:09 2025: argv[20]: <now>
+Wed Jan 15 10:55:09 2025: argv[21]: <-z>
+Wed Jan 15 10:55:09 2025: argv[22]: <relro>
+Wed Jan 15 10:55:09 2025: argv[23]: <-o>
+Wed Jan 15 10:55:09 2025: argv[24]: <0>
+Wed Jan 15 10:55:09 2025: argv[25]: </usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o>
+Wed Jan 15 10:55:09 2025: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o>
+Wed Jan 15 10:55:09 2025: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o>
+Wed Jan 15 10:55:09 2025: argv[28]: <-L/usr/lib/gcc/x86_64-linux-gnu/11>
+Wed Jan 15 10:55:09 2025: argv[29]: <-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu>
+Wed Jan 15 10:55:09 2025: argv[30]: <-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib>
+Wed Jan 15 10:55:09 2025: argv[31]: <-L/lib/x86_64-linux-gnu>
+Wed Jan 15 10:55:09 2025: argv[32]: <-L/lib/../lib>
+Wed Jan 15 10:55:09 2025: argv[33]: <-L/usr/lib/x86_64-linux-gnu>
+Wed Jan 15 10:55:09 2025: argv[34]: <-L/usr/lib/../lib>
+Wed Jan 15 10:55:09 2025: argv[35]: <-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..>
+Wed Jan 15 10:55:09 2025: argv[36]: <CMakeFiles/0.dir/cpp_code_files_stackoverflow/0.cpp.o>
+Wed Jan 15 10:55:09 2025: argv[37]: <-lstdc++>
+Wed Jan 15 10:55:09 2025: argv[38]: <-lm>
+Wed Jan 15 10:55:09 2025: argv[39]: <-lgcc_s>
+Wed Jan 15 10:55:09 2025: argv[40]: <-lgcc>
+Wed Jan 15 10:55:09 2025: argv[41]: <-lc>
+Wed Jan 15 10:55:09 2025: argv[42]: <-lgcc_s>
+Wed Jan 15 10:55:09 2025: argv[43]: <-lgcc>
+Wed Jan 15 10:55:09 2025: argv[44]: </usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o>
+Wed Jan 15 10:55:09 2025: argv[45]: </usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654491
+Wed Jan 15 10:55:09 2025: process created with pid: 1654492
+Wed Jan 15 10:55:09 2025: parent pid: 1654491
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/x86_64-linux-gnu-ld.bfd>
+Wed Jan 15 10:55:09 2025: argv[0]: </usr/bin/ld>
+Wed Jan 15 10:55:09 2025: argv[1]: <-plugin>
+Wed Jan 15 10:55:09 2025: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so>
+Wed Jan 15 10:55:09 2025: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper>
+Wed Jan 15 10:55:09 2025: argv[4]: <-plugin-opt=-fresolution=/tmp/ccXWHi2z.res>
+Wed Jan 15 10:55:09 2025: argv[5]: <-plugin-opt=-pass-through=-lgcc_s>
+Wed Jan 15 10:55:09 2025: argv[6]: <-plugin-opt=-pass-through=-lgcc>
+Wed Jan 15 10:55:09 2025: argv[7]: <-plugin-opt=-pass-through=-lc>
+Wed Jan 15 10:55:09 2025: argv[8]: <-plugin-opt=-pass-through=-lgcc_s>
+Wed Jan 15 10:55:09 2025: argv[9]: <-plugin-opt=-pass-through=-lgcc>
+Wed Jan 15 10:55:09 2025: argv[10]: <--build-id>
+Wed Jan 15 10:55:09 2025: argv[11]: <--eh-frame-hdr>
+Wed Jan 15 10:55:09 2025: argv[12]: <-m>
+Wed Jan 15 10:55:09 2025: argv[13]: <elf_x86_64>
+Wed Jan 15 10:55:09 2025: argv[14]: <--hash-style=gnu>
+Wed Jan 15 10:55:09 2025: argv[15]: <--as-needed>
+Wed Jan 15 10:55:09 2025: argv[16]: <-dynamic-linker>
+Wed Jan 15 10:55:09 2025: argv[17]: </lib64/ld-linux-x86-64.so.2>
+Wed Jan 15 10:55:09 2025: argv[18]: <-pie>
+Wed Jan 15 10:55:09 2025: argv[19]: <-z>
+Wed Jan 15 10:55:09 2025: argv[20]: <now>
+Wed Jan 15 10:55:09 2025: argv[21]: <-z>
+Wed Jan 15 10:55:09 2025: argv[22]: <relro>
+Wed Jan 15 10:55:09 2025: argv[23]: <-o>
+Wed Jan 15 10:55:09 2025: argv[24]: <0>
+Wed Jan 15 10:55:09 2025: argv[25]: </usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o>
+Wed Jan 15 10:55:09 2025: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o>
+Wed Jan 15 10:55:09 2025: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o>
+Wed Jan 15 10:55:09 2025: argv[28]: <-L/usr/lib/gcc/x86_64-linux-gnu/11>
+Wed Jan 15 10:55:09 2025: argv[29]: <-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu>
+Wed Jan 15 10:55:09 2025: argv[30]: <-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib>
+Wed Jan 15 10:55:09 2025: argv[31]: <-L/lib/x86_64-linux-gnu>
+Wed Jan 15 10:55:09 2025: argv[32]: <-L/lib/../lib>
+Wed Jan 15 10:55:09 2025: argv[33]: <-L/usr/lib/x86_64-linux-gnu>
+Wed Jan 15 10:55:09 2025: argv[34]: <-L/usr/lib/../lib>
+Wed Jan 15 10:55:09 2025: argv[35]: <-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..>
+Wed Jan 15 10:55:09 2025: argv[36]: <CMakeFiles/0.dir/cpp_code_files_stackoverflow/0.cpp.o>
+Wed Jan 15 10:55:09 2025: argv[37]: <-lstdc++>
+Wed Jan 15 10:55:09 2025: argv[38]: <-lm>
+Wed Jan 15 10:55:09 2025: argv[39]: <-lgcc_s>
+Wed Jan 15 10:55:09 2025: argv[40]: <-lgcc>
+Wed Jan 15 10:55:09 2025: argv[41]: <-lc>
+Wed Jan 15 10:55:09 2025: argv[42]: <-lgcc_s>
+Wed Jan 15 10:55:09 2025: argv[43]: <-lgcc>
+Wed Jan 15 10:55:09 2025: argv[44]: </usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o>
+Wed Jan 15 10:55:09 2025: argv[45]: </usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654492
+Wed Jan 15 10:55:09 2025: process created with pid: 1654493
+Wed Jan 15 10:55:09 2025: parent pid: 1654476
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/dash>
+Wed Jan 15 10:55:09 2025: argv[0]: </bin/sh>
+Wed Jan 15 10:55:09 2025: argv[1]: <-c>
+Wed Jan 15 10:55:09 2025: argv[2]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_echo_color --switch= --progress-dir=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/CMakeFiles --progress-num=1,2 "Built target 0">
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654493
+Wed Jan 15 10:55:09 2025: process created with pid: 1654494
+Wed Jan 15 10:55:09 2025: parent pid: 1654493
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[0]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <-E>
+Wed Jan 15 10:55:09 2025: argv[2]: <cmake_echo_color>
+Wed Jan 15 10:55:09 2025: argv[3]: <--switch=>
+Wed Jan 15 10:55:09 2025: argv[4]: <--progress-dir=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/CMakeFiles>
+Wed Jan 15 10:55:09 2025: argv[5]: <--progress-num=1,2>
+Wed Jan 15 10:55:09 2025: argv[6]: <Built target 0>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654494
+Wed Jan 15 10:55:09 2025: process created with pid: 1654495
+Wed Jan 15 10:55:09 2025: parent pid: 1654476
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/make>
+Wed Jan 15 10:55:09 2025: argv[0]: </usr/bin/gmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <-f>
+Wed Jan 15 10:55:09 2025: argv[2]: <CMakeFiles/4.dir/build.make>
+Wed Jan 15 10:55:09 2025: argv[3]: <CMakeFiles/4.dir/depend>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654495
+Wed Jan 15 10:55:09 2025: process created with pid: 1654496
+Wed Jan 15 10:55:09 2025: parent pid: 1654495
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/dash>
+Wed Jan 15 10:55:09 2025: argv[0]: </bin/sh>
+Wed Jan 15 10:55:09 2025: argv[1]: <-c>
+Wed Jan 15 10:55:09 2025: argv[2]: <cd /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms && /mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/CMakeFiles/4.dir/DependInfo.cmake --color=>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654496
+Wed Jan 15 10:55:09 2025: process created with pid: 1654497
+Wed Jan 15 10:55:09 2025: parent pid: 1654496
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[0]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <-E>
+Wed Jan 15 10:55:09 2025: argv[2]: <cmake_depends>
+Wed Jan 15 10:55:09 2025: argv[3]: <Unix Makefiles>
+Wed Jan 15 10:55:09 2025: argv[4]: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: argv[5]: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: argv[6]: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: argv[7]: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: argv[8]: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/CMakeFiles/4.dir/DependInfo.cmake>
+Wed Jan 15 10:55:09 2025: argv[9]: <--color=>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654497
+Wed Jan 15 10:55:09 2025: process created with pid: 1654498
+Wed Jan 15 10:55:09 2025: parent pid: 1654476
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/make>
+Wed Jan 15 10:55:09 2025: argv[0]: </usr/bin/gmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <-f>
+Wed Jan 15 10:55:09 2025: argv[2]: <CMakeFiles/4.dir/build.make>
+Wed Jan 15 10:55:09 2025: argv[3]: <CMakeFiles/4.dir/build>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654498
+Wed Jan 15 10:55:09 2025: process created with pid: 1654499
+Wed Jan 15 10:55:09 2025: parent pid: 1654498
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/dash>
+Wed Jan 15 10:55:09 2025: argv[0]: </bin/sh>
+Wed Jan 15 10:55:09 2025: argv[1]: <-c>
+Wed Jan 15 10:55:09 2025: argv[2]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/CMakeFiles --progress-num=3 "Building CXX object CMakeFiles/4.dir/cpp_code_files_stackoverflow/4.cpp.o">
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654499
+Wed Jan 15 10:55:09 2025: process created with pid: 1654500
+Wed Jan 15 10:55:09 2025: parent pid: 1654499
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[0]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <-E>
+Wed Jan 15 10:55:09 2025: argv[2]: <cmake_echo_color>
+Wed Jan 15 10:55:09 2025: argv[3]: <--switch=>
+Wed Jan 15 10:55:09 2025: argv[4]: <--green>
+Wed Jan 15 10:55:09 2025: argv[5]: <--progress-dir=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/CMakeFiles>
+Wed Jan 15 10:55:09 2025: argv[6]: <--progress-num=3>
+Wed Jan 15 10:55:09 2025: argv[7]: <Building CXX object CMakeFiles/4.dir/cpp_code_files_stackoverflow/4.cpp.o>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654500
+Wed Jan 15 10:55:09 2025: process created with pid: 1654501
+Wed Jan 15 10:55:09 2025: parent pid: 1654498
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/x86_64-linux-gnu-g++-11>
+Wed Jan 15 10:55:09 2025: argv[0]: </usr/bin/c++>
+Wed Jan 15 10:55:09 2025: argv[1]: <-std=gnu++11>
+Wed Jan 15 10:55:09 2025: argv[2]: <-MD>
+Wed Jan 15 10:55:09 2025: argv[3]: <-MT>
+Wed Jan 15 10:55:09 2025: argv[4]: <CMakeFiles/4.dir/cpp_code_files_stackoverflow/4.cpp.o>
+Wed Jan 15 10:55:09 2025: argv[5]: <-MF>
+Wed Jan 15 10:55:09 2025: argv[6]: <CMakeFiles/4.dir/cpp_code_files_stackoverflow/4.cpp.o.d>
+Wed Jan 15 10:55:09 2025: argv[7]: <-o>
+Wed Jan 15 10:55:09 2025: argv[8]: <CMakeFiles/4.dir/cpp_code_files_stackoverflow/4.cpp.o>
+Wed Jan 15 10:55:09 2025: argv[9]: <-c>
+Wed Jan 15 10:55:09 2025: argv[10]: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/cpp_code_files_stackoverflow/4.cpp>
+Wed Jan 15 10:55:09 2025: envp[0]: <SONAR_CFAMILY_WRAPPER_SOCKET=/tmp/build-wrapper-socket.NASyon>
+Wed Jan 15 10:55:09 2025: envp[1]: <SONAR_CFAMILY_WRAPPER_LIBRARY=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Wed Jan 15 10:55:09 2025: envp[2]: <SONAR_CFAMILY_BUILD_WRAPPER_BIN=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Wed Jan 15 10:55:09 2025: envp[3]: <VERBOSE=1>
+Wed Jan 15 10:55:09 2025: envp[4]: <VSCODE_GIT_ASKPASS_EXTRA_ARGS=>
+Wed Jan 15 10:55:09 2025: envp[5]: <PWD=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: envp[6]: <PS1=(base) ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ >
+Wed Jan 15 10:55:09 2025: envp[7]: <WINDOW=0>
+Wed Jan 15 10:55:09 2025: envp[8]: <XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Wed Jan 15 10:55:09 2025: envp[9]: <OLDPWD=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/build>
+Wed Jan 15 10:55:09 2025: envp[10]: <CONDA_PROMPT_MODIFIER=(base) >
+Wed Jan 15 10:55:09 2025: envp[11]: <LANG=en_US.UTF-8>
+Wed Jan 15 10:55:09 2025: envp[12]: <MAKEFLAGS=w>
+Wed Jan 15 10:55:09 2025: envp[13]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Wed Jan 15 10:55:09 2025: envp[14]: <MFLAGS=-w>
+Wed Jan 15 10:55:09 2025: envp[15]: <GIT_ASKPASS=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass.sh>
+Wed Jan 15 10:55:09 2025: envp[16]: <CONDA_SHLVL=3>
+Wed Jan 15 10:55:09 2025: envp[17]: <SSL_CERT_FILE=/usr/lib/ssl/certs/ca-certificates.crt>
+Wed Jan 15 10:55:09 2025: envp[18]: <XDG_SESSION_TYPE=tty>
+Wed Jan 15 10:55:09 2025: envp[19]: <CONDA_PYTHON_EXE=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin/python>
+Wed Jan 15 10:55:09 2025: envp[20]: <SSL_CERT_DIR=/usr/lib/ssl/certs>
+Wed Jan 15 10:55:09 2025: envp[21]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/21091/bus>
+Wed Jan 15 10:55:09 2025: envp[22]: <CONDA_PREFIX=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
+Wed Jan 15 10:55:09 2025: envp[23]: <SHELL=/bin/bash>
+Wed Jan 15 10:55:09 2025: envp[24]: <SHLVL=3>
+Wed Jan 15 10:55:09 2025: envp[25]: <PATH=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Wed Jan 15 10:55:09 2025: envp[26]: <VSCODE_GIT_IPC_HANDLE=/run/user/21091/vscode-git-02d86844d4.sock>
+Wed Jan 15 10:55:09 2025: envp[27]: <VSCODE_GIT_ASKPASS_NODE=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/node>
+Wed Jan 15 10:55:09 2025: envp[28]: <MOTD_SHOWN=pam>
+Wed Jan 15 10:55:09 2025: envp[29]: <CONDA_PREFIX_2=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/envs/llms>
+Wed Jan 15 10:55:09 2025: envp[30]: <VSCODE_GIT_ASKPASS_MAIN=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass-main.js>
+Wed Jan 15 10:55:09 2025: envp[31]: <SSH_CLIENT=10.148.18.63 51520 22>
+Wed Jan 15 10:55:09 2025: envp[32]: <TERM_PROGRAM=vscode>
+Wed Jan 15 10:55:09 2025: envp[33]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Wed Jan 15 10:55:09 2025: envp[34]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Wed Jan 15 10:55:09 2025: envp[35]: <BROWSER=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/helpers/browser.sh>
+Wed Jan 15 10:55:09 2025: envp[36]: <CONDA_DEFAULT_ENV=base>
+Wed Jan 15 10:55:09 2025: envp[37]: <STY=1265063.pts-7.ssecompute6>
+Wed Jan 15 10:55:09 2025: envp[38]: <LOGNAME=ballin>
+Wed Jan 15 10:55:09 2025: envp[39]: <USER=ballin>
+Wed Jan 15 10:55:09 2025: envp[40]: <_=../build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Wed Jan 15 10:55:09 2025: envp[41]: <MAKE_TERMOUT=/dev/pts/10>
+Wed Jan 15 10:55:09 2025: envp[42]: <XDG_RUNTIME_DIR=/run/user/21091>
+Wed Jan 15 10:55:09 2025: envp[43]: <COLORTERM=truecolor>
+Wed Jan 15 10:55:09 2025: envp[44]: <_CE_M=>
+Wed Jan 15 10:55:09 2025: envp[45]: <VSCODE_IPC_HOOK_CLI=/run/user/21091/vscode-ipc-9fba0956-9d44-4eb6-bcfa-23c37e2c74ab.sock>
+Wed Jan 15 10:55:09 2025: envp[46]: <MAKE_TERMERR=/dev/pts/10>
+Wed Jan 15 10:55:09 2025: envp[47]: <XDG_SESSION_CLASS=user>
+Wed Jan 15 10:55:09 2025: envp[48]: <HOME=/home/ballin>
+Wed Jan 15 10:55:09 2025: envp[49]: <CONDA_PREFIX_1=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
+Wed Jan 15 10:55:09 2025: envp[50]: <TERM=screen.xterm-256color>
+Wed Jan 15 10:55:09 2025: envp[51]: <XDG_SESSION_ID=4164>
+Wed Jan 15 10:55:09 2025: envp[52]: <CONDA_ROOT=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
+Wed Jan 15 10:55:09 2025: envp[53]: <TERM_PROGRAM_VERSION=1.95.1>
+Wed Jan 15 10:55:09 2025: envp[54]: <CONDA_EXE=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin/conda>
+Wed Jan 15 10:55:09 2025: envp[55]: <TERMCAP=SC|screen.xterm-256color|VT 100/ANSI X3.64 virtual terminal:DO=\E[%dB:LE=\E[%dD:RI=\E[%dC:UP=\E[%dA:bs:bt=\E[Z:cd=\E[J:ce=\E[K:cl=\E[H\E[J:cm=\E[%i%d;%dH:ct=\E[3g:do=^J:nd=\E[C:pt:rc=\E8:rs=\Ec:sc=\E7:st=\EH:up=\EM:le=^H:bl=^G:cr=^M:it#8:ho=\E[H:nw=\EE:ta=^I:is=\E)0:li#14:co#132:am:xn:xv:LP:sr=\EM:al=\E[L:AL=\E[%dL:cs=\E[%i%d;%dr:dl=\E[M:DL=\E[%dM:dc=\E[P:DC=\E[%dP:im=\E[4h:ei=\E[4l:mi:IC=\E[%d@:ks=\E[?1h\E=:ke=\E[?1l\E>:vi=\E[?25l:ve=\E[34h\E[?25h:vs=\E[34l:ti=\E[?1049h:te=\E[?1049l:us=\E[4m:ue=\E[24m:so=\E[3m:se=\E[23m:mb=\E[5m:md=\E[1m:mh=\E[2m:mr=\E[7m:me=\E[m:ms:Co#8:pa#64:AF=\E[3%dm:AB=\E[4%dm:op=\E[39;49m:AX:vb=\Eg:G0:as=\E(0:ae=\E(B:ac=\140\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\E[5i:pf=\E[4i:Km=\E[<:k0=\E[10~:k1=\EOP:k2=\EOQ:k3=\EOR:k4=\EOS:k5=\E[15~:k6=\E[17~:k7=\E[18~:k8=\E[19~:k9=\E[20~:k;=\E[21~:F1=\E[23~:F2=\E[24~:kB=\E[Z:kh=\E[1~:@1=\E[1~:kH=\E[4~:@7=\E[4~:kN=\E[6~:kP=\E[5~:kI=\E[2~:kD=\E[3~:ku=\EOA:kd=\EOB:kr=\EOC:kl=\EOD:km:>
+Wed Jan 15 10:55:09 2025: envp[56]: <_CE_CONDA=>
+Wed Jan 15 10:55:09 2025: envp[57]: <SSH_CONNECTION=10.148.18.63 51520 10.148.128.102 22>
+Wed Jan 15 10:55:09 2025: envp[58]: <MAKELEVEL=3>
+Wed Jan 15 10:55:09 2025: envp[59]: <LD_PRELOAD=>
+Wed Jan 15 10:55:09 2025: candidate file: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/cpp_code_files_stackoverflow/4.cpp>
+Wed Jan 15 10:55:09 2025: process created with pid: 1654502
+Wed Jan 15 10:55:09 2025: parent pid: 1654501
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/lib/gcc/x86_64-linux-gnu/11/cc1plus>
+Wed Jan 15 10:55:09 2025: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/11/cc1plus>
+Wed Jan 15 10:55:09 2025: argv[1]: <-quiet>
+Wed Jan 15 10:55:09 2025: argv[2]: <-imultiarch>
+Wed Jan 15 10:55:09 2025: argv[3]: <x86_64-linux-gnu>
+Wed Jan 15 10:55:09 2025: argv[4]: <-MD>
+Wed Jan 15 10:55:09 2025: argv[5]: <CMakeFiles/4.dir/cpp_code_files_stackoverflow/4.cpp.d>
+Wed Jan 15 10:55:09 2025: argv[6]: <-MF>
+Wed Jan 15 10:55:09 2025: argv[7]: <CMakeFiles/4.dir/cpp_code_files_stackoverflow/4.cpp.o.d>
+Wed Jan 15 10:55:09 2025: argv[8]: <-MT>
+Wed Jan 15 10:55:09 2025: argv[9]: <CMakeFiles/4.dir/cpp_code_files_stackoverflow/4.cpp.o>
+Wed Jan 15 10:55:09 2025: argv[10]: <-D_GNU_SOURCE>
+Wed Jan 15 10:55:09 2025: argv[11]: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/cpp_code_files_stackoverflow/4.cpp>
+Wed Jan 15 10:55:09 2025: argv[12]: <-quiet>
+Wed Jan 15 10:55:09 2025: argv[13]: <-dumpdir>
+Wed Jan 15 10:55:09 2025: argv[14]: <CMakeFiles/4.dir/cpp_code_files_stackoverflow/>
+Wed Jan 15 10:55:09 2025: argv[15]: <-dumpbase>
+Wed Jan 15 10:55:09 2025: argv[16]: <4.cpp.cpp>
+Wed Jan 15 10:55:09 2025: argv[17]: <-dumpbase-ext>
+Wed Jan 15 10:55:09 2025: argv[18]: <.cpp>
+Wed Jan 15 10:55:09 2025: argv[19]: <-mtune=generic>
+Wed Jan 15 10:55:09 2025: argv[20]: <-march=x86-64>
+Wed Jan 15 10:55:09 2025: argv[21]: <-std=gnu++11>
+Wed Jan 15 10:55:09 2025: argv[22]: <-fasynchronous-unwind-tables>
+Wed Jan 15 10:55:09 2025: argv[23]: <-fstack-protector-strong>
+Wed Jan 15 10:55:09 2025: argv[24]: <-Wformat>
+Wed Jan 15 10:55:09 2025: argv[25]: <-Wformat-security>
+Wed Jan 15 10:55:09 2025: argv[26]: <-fstack-clash-protection>
+Wed Jan 15 10:55:09 2025: argv[27]: <-fcf-protection>
+Wed Jan 15 10:55:09 2025: argv[28]: <-o>
+Wed Jan 15 10:55:09 2025: argv[29]: </tmp/cc4DSTRS.s>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654502
+Wed Jan 15 10:55:09 2025: process created with pid: 1654503
+Wed Jan 15 10:55:09 2025: parent pid: 1654501
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/x86_64-linux-gnu-as>
+Wed Jan 15 10:55:09 2025: argv[0]: <as>
+Wed Jan 15 10:55:09 2025: argv[1]: <--64>
+Wed Jan 15 10:55:09 2025: argv[2]: <-o>
+Wed Jan 15 10:55:09 2025: argv[3]: <CMakeFiles/4.dir/cpp_code_files_stackoverflow/4.cpp.o>
+Wed Jan 15 10:55:09 2025: argv[4]: </tmp/cc4DSTRS.s>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654503
+Wed Jan 15 10:55:09 2025: process created with pid: 1654504
+Wed Jan 15 10:55:09 2025: parent pid: 1654498
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/dash>
+Wed Jan 15 10:55:09 2025: argv[0]: </bin/sh>
+Wed Jan 15 10:55:09 2025: argv[1]: <-c>
+Wed Jan 15 10:55:09 2025: argv[2]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/CMakeFiles --progress-num=4 "Linking CXX executable 4">
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654504
+Wed Jan 15 10:55:09 2025: process created with pid: 1654505
+Wed Jan 15 10:55:09 2025: parent pid: 1654504
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[0]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <-E>
+Wed Jan 15 10:55:09 2025: argv[2]: <cmake_echo_color>
+Wed Jan 15 10:55:09 2025: argv[3]: <--switch=>
+Wed Jan 15 10:55:09 2025: argv[4]: <--green>
+Wed Jan 15 10:55:09 2025: argv[5]: <--bold>
+Wed Jan 15 10:55:09 2025: argv[6]: <--progress-dir=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/CMakeFiles>
+Wed Jan 15 10:55:09 2025: argv[7]: <--progress-num=4>
+Wed Jan 15 10:55:09 2025: argv[8]: <Linking CXX executable 4>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654505
+Wed Jan 15 10:55:09 2025: process created with pid: 1654506
+Wed Jan 15 10:55:09 2025: parent pid: 1654498
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[0]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:09 2025: argv[1]: <-E>
+Wed Jan 15 10:55:09 2025: argv[2]: <cmake_link_script>
+Wed Jan 15 10:55:09 2025: argv[3]: <CMakeFiles/4.dir/link.txt>
+Wed Jan 15 10:55:09 2025: argv[4]: <--verbose=1>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654506
+Wed Jan 15 10:55:09 2025: process created with pid: 1654507
+Wed Jan 15 10:55:09 2025: parent pid: 1654506
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/bin/x86_64-linux-gnu-g++-11>
+Wed Jan 15 10:55:09 2025: argv[0]: </usr/bin/c++>
+Wed Jan 15 10:55:09 2025: argv[1]: <CMakeFiles/4.dir/cpp_code_files_stackoverflow/4.cpp.o>
+Wed Jan 15 10:55:09 2025: argv[2]: <-o>
+Wed Jan 15 10:55:09 2025: argv[3]: <4>
+Wed Jan 15 10:55:09 2025: envp[0]: <SONAR_CFAMILY_WRAPPER_SOCKET=/tmp/build-wrapper-socket.NASyon>
+Wed Jan 15 10:55:09 2025: envp[1]: <SONAR_CFAMILY_WRAPPER_LIBRARY=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Wed Jan 15 10:55:09 2025: envp[2]: <SONAR_CFAMILY_BUILD_WRAPPER_BIN=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Wed Jan 15 10:55:09 2025: envp[3]: <VERBOSE=1>
+Wed Jan 15 10:55:09 2025: envp[4]: <VSCODE_GIT_ASKPASS_EXTRA_ARGS=>
+Wed Jan 15 10:55:09 2025: envp[5]: <PWD=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: envp[6]: <PS1=(base) ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ >
+Wed Jan 15 10:55:09 2025: envp[7]: <WINDOW=0>
+Wed Jan 15 10:55:09 2025: envp[8]: <XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Wed Jan 15 10:55:09 2025: envp[9]: <OLDPWD=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/build>
+Wed Jan 15 10:55:09 2025: envp[10]: <CONDA_PROMPT_MODIFIER=(base) >
+Wed Jan 15 10:55:09 2025: envp[11]: <LANG=en_US.UTF-8>
+Wed Jan 15 10:55:09 2025: envp[12]: <MAKEFLAGS=w>
+Wed Jan 15 10:55:09 2025: envp[13]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Wed Jan 15 10:55:09 2025: envp[14]: <MFLAGS=-w>
+Wed Jan 15 10:55:09 2025: envp[15]: <GIT_ASKPASS=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass.sh>
+Wed Jan 15 10:55:09 2025: envp[16]: <CONDA_SHLVL=3>
+Wed Jan 15 10:55:09 2025: envp[17]: <SSL_CERT_FILE=/usr/lib/ssl/certs/ca-certificates.crt>
+Wed Jan 15 10:55:09 2025: envp[18]: <XDG_SESSION_TYPE=tty>
+Wed Jan 15 10:55:09 2025: envp[19]: <CONDA_PYTHON_EXE=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin/python>
+Wed Jan 15 10:55:09 2025: envp[20]: <SSL_CERT_DIR=/usr/lib/ssl/certs>
+Wed Jan 15 10:55:09 2025: envp[21]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/21091/bus>
+Wed Jan 15 10:55:09 2025: envp[22]: <CONDA_PREFIX=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
+Wed Jan 15 10:55:09 2025: envp[23]: <SHELL=/bin/bash>
+Wed Jan 15 10:55:09 2025: envp[24]: <SHLVL=3>
+Wed Jan 15 10:55:09 2025: envp[25]: <PATH=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/ballin/.local/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin:/mnt/ssestorage2-data/sse-team/ballin/miniconda3/condabin:/home/ballin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Wed Jan 15 10:55:09 2025: envp[26]: <VSCODE_GIT_IPC_HANDLE=/run/user/21091/vscode-git-02d86844d4.sock>
+Wed Jan 15 10:55:09 2025: envp[27]: <VSCODE_GIT_ASKPASS_NODE=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/node>
+Wed Jan 15 10:55:09 2025: envp[28]: <MOTD_SHOWN=pam>
+Wed Jan 15 10:55:09 2025: envp[29]: <CONDA_PREFIX_2=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/envs/llms>
+Wed Jan 15 10:55:09 2025: envp[30]: <VSCODE_GIT_ASKPASS_MAIN=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass-main.js>
+Wed Jan 15 10:55:09 2025: envp[31]: <SSH_CLIENT=10.148.18.63 51520 22>
+Wed Jan 15 10:55:09 2025: envp[32]: <TERM_PROGRAM=vscode>
+Wed Jan 15 10:55:09 2025: envp[33]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Wed Jan 15 10:55:09 2025: envp[34]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Wed Jan 15 10:55:09 2025: envp[35]: <BROWSER=/home/ballin/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/helpers/browser.sh>
+Wed Jan 15 10:55:09 2025: envp[36]: <CONDA_DEFAULT_ENV=base>
+Wed Jan 15 10:55:09 2025: envp[37]: <STY=1265063.pts-7.ssecompute6>
+Wed Jan 15 10:55:09 2025: envp[38]: <LOGNAME=ballin>
+Wed Jan 15 10:55:09 2025: envp[39]: <USER=ballin>
+Wed Jan 15 10:55:09 2025: envp[40]: <_=../build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Wed Jan 15 10:55:09 2025: envp[41]: <MAKE_TERMOUT=/dev/pts/10>
+Wed Jan 15 10:55:09 2025: envp[42]: <XDG_RUNTIME_DIR=/run/user/21091>
+Wed Jan 15 10:55:09 2025: envp[43]: <COLORTERM=truecolor>
+Wed Jan 15 10:55:09 2025: envp[44]: <_CE_M=>
+Wed Jan 15 10:55:09 2025: envp[45]: <VSCODE_IPC_HOOK_CLI=/run/user/21091/vscode-ipc-9fba0956-9d44-4eb6-bcfa-23c37e2c74ab.sock>
+Wed Jan 15 10:55:09 2025: envp[46]: <MAKE_TERMERR=/dev/pts/10>
+Wed Jan 15 10:55:09 2025: envp[47]: <XDG_SESSION_CLASS=user>
+Wed Jan 15 10:55:09 2025: envp[48]: <HOME=/home/ballin>
+Wed Jan 15 10:55:09 2025: envp[49]: <CONDA_PREFIX_1=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
+Wed Jan 15 10:55:09 2025: envp[50]: <TERM=screen.xterm-256color>
+Wed Jan 15 10:55:09 2025: envp[51]: <XDG_SESSION_ID=4164>
+Wed Jan 15 10:55:09 2025: envp[52]: <CONDA_ROOT=/mnt/ssestorage2-data/sse-team/ballin/miniconda3>
+Wed Jan 15 10:55:09 2025: envp[53]: <TERM_PROGRAM_VERSION=1.95.1>
+Wed Jan 15 10:55:09 2025: envp[54]: <CONDA_EXE=/mnt/ssestorage2-data/sse-team/ballin/miniconda3/bin/conda>
+Wed Jan 15 10:55:09 2025: envp[55]: <TERMCAP=SC|screen.xterm-256color|VT 100/ANSI X3.64 virtual terminal:DO=\E[%dB:LE=\E[%dD:RI=\E[%dC:UP=\E[%dA:bs:bt=\E[Z:cd=\E[J:ce=\E[K:cl=\E[H\E[J:cm=\E[%i%d;%dH:ct=\E[3g:do=^J:nd=\E[C:pt:rc=\E8:rs=\Ec:sc=\E7:st=\EH:up=\EM:le=^H:bl=^G:cr=^M:it#8:ho=\E[H:nw=\EE:ta=^I:is=\E)0:li#14:co#132:am:xn:xv:LP:sr=\EM:al=\E[L:AL=\E[%dL:cs=\E[%i%d;%dr:dl=\E[M:DL=\E[%dM:dc=\E[P:DC=\E[%dP:im=\E[4h:ei=\E[4l:mi:IC=\E[%d@:ks=\E[?1h\E=:ke=\E[?1l\E>:vi=\E[?25l:ve=\E[34h\E[?25h:vs=\E[34l:ti=\E[?1049h:te=\E[?1049l:us=\E[4m:ue=\E[24m:so=\E[3m:se=\E[23m:mb=\E[5m:md=\E[1m:mh=\E[2m:mr=\E[7m:me=\E[m:ms:Co#8:pa#64:AF=\E[3%dm:AB=\E[4%dm:op=\E[39;49m:AX:vb=\Eg:G0:as=\E(0:ae=\E(B:ac=\140\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\E[5i:pf=\E[4i:Km=\E[<:k0=\E[10~:k1=\EOP:k2=\EOQ:k3=\EOR:k4=\EOS:k5=\E[15~:k6=\E[17~:k7=\E[18~:k8=\E[19~:k9=\E[20~:k;=\E[21~:F1=\E[23~:F2=\E[24~:kB=\E[Z:kh=\E[1~:@1=\E[1~:kH=\E[4~:@7=\E[4~:kN=\E[6~:kP=\E[5~:kI=\E[2~:kD=\E[3~:ku=\EOA:kd=\EOB:kr=\EOC:kl=\EOD:km:>
+Wed Jan 15 10:55:09 2025: envp[56]: <_CE_CONDA=>
+Wed Jan 15 10:55:09 2025: envp[57]: <SSH_CONNECTION=10.148.18.63 51520 10.148.128.102 22>
+Wed Jan 15 10:55:09 2025: envp[58]: <MAKELEVEL=3>
+Wed Jan 15 10:55:09 2025: envp[59]: <LD_PRELOAD=>
+Wed Jan 15 10:55:09 2025: no candidate files could be found, there will be no entries for this command in the compdb
+Wed Jan 15 10:55:09 2025: process created with pid: 1654508
+Wed Jan 15 10:55:09 2025: parent pid: 1654507
+Wed Jan 15 10:55:09 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:09 2025: executable: </usr/lib/gcc/x86_64-linux-gnu/11/collect2>
+Wed Jan 15 10:55:09 2025: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/11/collect2>
+Wed Jan 15 10:55:09 2025: argv[1]: <-plugin>
+Wed Jan 15 10:55:09 2025: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so>
+Wed Jan 15 10:55:09 2025: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper>
+Wed Jan 15 10:55:09 2025: argv[4]: <-plugin-opt=-fresolution=/tmp/cc1oJLFR.res>
+Wed Jan 15 10:55:09 2025: argv[5]: <-plugin-opt=-pass-through=-lgcc_s>
+Wed Jan 15 10:55:09 2025: argv[6]: <-plugin-opt=-pass-through=-lgcc>
+Wed Jan 15 10:55:09 2025: argv[7]: <-plugin-opt=-pass-through=-lc>
+Wed Jan 15 10:55:09 2025: argv[8]: <-plugin-opt=-pass-through=-lgcc_s>
+Wed Jan 15 10:55:09 2025: argv[9]: <-plugin-opt=-pass-through=-lgcc>
+Wed Jan 15 10:55:09 2025: argv[10]: <--build-id>
+Wed Jan 15 10:55:09 2025: argv[11]: <--eh-frame-hdr>
+Wed Jan 15 10:55:09 2025: argv[12]: <-m>
+Wed Jan 15 10:55:09 2025: argv[13]: <elf_x86_64>
+Wed Jan 15 10:55:09 2025: argv[14]: <--hash-style=gnu>
+Wed Jan 15 10:55:09 2025: argv[15]: <--as-needed>
+Wed Jan 15 10:55:09 2025: argv[16]: <-dynamic-linker>
+Wed Jan 15 10:55:09 2025: argv[17]: </lib64/ld-linux-x86-64.so.2>
+Wed Jan 15 10:55:09 2025: argv[18]: <-pie>
+Wed Jan 15 10:55:09 2025: argv[19]: <-z>
+Wed Jan 15 10:55:09 2025: argv[20]: <now>
+Wed Jan 15 10:55:09 2025: argv[21]: <-z>
+Wed Jan 15 10:55:09 2025: argv[22]: <relro>
+Wed Jan 15 10:55:09 2025: argv[23]: <-o>
+Wed Jan 15 10:55:09 2025: argv[24]: <4>
+Wed Jan 15 10:55:09 2025: argv[25]: </usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o>
+Wed Jan 15 10:55:09 2025: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o>
+Wed Jan 15 10:55:09 2025: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o>
+Wed Jan 15 10:55:09 2025: argv[28]: <-L/usr/lib/gcc/x86_64-linux-gnu/11>
+Wed Jan 15 10:55:09 2025: argv[29]: <-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu>
+Wed Jan 15 10:55:09 2025: argv[30]: <-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib>
+Wed Jan 15 10:55:09 2025: argv[31]: <-L/lib/x86_64-linux-gnu>
+Wed Jan 15 10:55:09 2025: argv[32]: <-L/lib/../lib>
+Wed Jan 15 10:55:09 2025: argv[33]: <-L/usr/lib/x86_64-linux-gnu>
+Wed Jan 15 10:55:09 2025: argv[34]: <-L/usr/lib/../lib>
+Wed Jan 15 10:55:09 2025: argv[35]: <-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..>
+Wed Jan 15 10:55:09 2025: argv[36]: <CMakeFiles/4.dir/cpp_code_files_stackoverflow/4.cpp.o>
+Wed Jan 15 10:55:09 2025: argv[37]: <-lstdc++>
+Wed Jan 15 10:55:09 2025: argv[38]: <-lm>
+Wed Jan 15 10:55:09 2025: argv[39]: <-lgcc_s>
+Wed Jan 15 10:55:09 2025: argv[40]: <-lgcc>
+Wed Jan 15 10:55:09 2025: argv[41]: <-lc>
+Wed Jan 15 10:55:09 2025: argv[42]: <-lgcc_s>
+Wed Jan 15 10:55:09 2025: argv[43]: <-lgcc>
+Wed Jan 15 10:55:09 2025: argv[44]: </usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o>
+Wed Jan 15 10:55:09 2025: argv[45]: </usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o>
+Wed Jan 15 10:55:09 2025: skipping process with pid: 1654508
+Wed Jan 15 10:55:10 2025: process created with pid: 1654509
+Wed Jan 15 10:55:10 2025: parent pid: 1654508
+Wed Jan 15 10:55:10 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:10 2025: executable: </usr/bin/x86_64-linux-gnu-ld.bfd>
+Wed Jan 15 10:55:10 2025: argv[0]: </usr/bin/ld>
+Wed Jan 15 10:55:10 2025: argv[1]: <-plugin>
+Wed Jan 15 10:55:10 2025: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so>
+Wed Jan 15 10:55:10 2025: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper>
+Wed Jan 15 10:55:10 2025: argv[4]: <-plugin-opt=-fresolution=/tmp/cc1oJLFR.res>
+Wed Jan 15 10:55:10 2025: argv[5]: <-plugin-opt=-pass-through=-lgcc_s>
+Wed Jan 15 10:55:10 2025: argv[6]: <-plugin-opt=-pass-through=-lgcc>
+Wed Jan 15 10:55:10 2025: argv[7]: <-plugin-opt=-pass-through=-lc>
+Wed Jan 15 10:55:10 2025: argv[8]: <-plugin-opt=-pass-through=-lgcc_s>
+Wed Jan 15 10:55:10 2025: argv[9]: <-plugin-opt=-pass-through=-lgcc>
+Wed Jan 15 10:55:10 2025: argv[10]: <--build-id>
+Wed Jan 15 10:55:10 2025: argv[11]: <--eh-frame-hdr>
+Wed Jan 15 10:55:10 2025: argv[12]: <-m>
+Wed Jan 15 10:55:10 2025: argv[13]: <elf_x86_64>
+Wed Jan 15 10:55:10 2025: argv[14]: <--hash-style=gnu>
+Wed Jan 15 10:55:10 2025: argv[15]: <--as-needed>
+Wed Jan 15 10:55:10 2025: argv[16]: <-dynamic-linker>
+Wed Jan 15 10:55:10 2025: argv[17]: </lib64/ld-linux-x86-64.so.2>
+Wed Jan 15 10:55:10 2025: argv[18]: <-pie>
+Wed Jan 15 10:55:10 2025: argv[19]: <-z>
+Wed Jan 15 10:55:10 2025: argv[20]: <now>
+Wed Jan 15 10:55:10 2025: argv[21]: <-z>
+Wed Jan 15 10:55:10 2025: argv[22]: <relro>
+Wed Jan 15 10:55:10 2025: argv[23]: <-o>
+Wed Jan 15 10:55:10 2025: argv[24]: <4>
+Wed Jan 15 10:55:10 2025: argv[25]: </usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o>
+Wed Jan 15 10:55:10 2025: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o>
+Wed Jan 15 10:55:10 2025: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o>
+Wed Jan 15 10:55:10 2025: argv[28]: <-L/usr/lib/gcc/x86_64-linux-gnu/11>
+Wed Jan 15 10:55:10 2025: argv[29]: <-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu>
+Wed Jan 15 10:55:10 2025: argv[30]: <-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib>
+Wed Jan 15 10:55:10 2025: argv[31]: <-L/lib/x86_64-linux-gnu>
+Wed Jan 15 10:55:10 2025: argv[32]: <-L/lib/../lib>
+Wed Jan 15 10:55:10 2025: argv[33]: <-L/usr/lib/x86_64-linux-gnu>
+Wed Jan 15 10:55:10 2025: argv[34]: <-L/usr/lib/../lib>
+Wed Jan 15 10:55:10 2025: argv[35]: <-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..>
+Wed Jan 15 10:55:10 2025: argv[36]: <CMakeFiles/4.dir/cpp_code_files_stackoverflow/4.cpp.o>
+Wed Jan 15 10:55:10 2025: argv[37]: <-lstdc++>
+Wed Jan 15 10:55:10 2025: argv[38]: <-lm>
+Wed Jan 15 10:55:10 2025: argv[39]: <-lgcc_s>
+Wed Jan 15 10:55:10 2025: argv[40]: <-lgcc>
+Wed Jan 15 10:55:10 2025: argv[41]: <-lc>
+Wed Jan 15 10:55:10 2025: argv[42]: <-lgcc_s>
+Wed Jan 15 10:55:10 2025: argv[43]: <-lgcc>
+Wed Jan 15 10:55:10 2025: argv[44]: </usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o>
+Wed Jan 15 10:55:10 2025: argv[45]: </usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o>
+Wed Jan 15 10:55:10 2025: skipping process with pid: 1654509
+Wed Jan 15 10:55:10 2025: process created with pid: 1654510
+Wed Jan 15 10:55:10 2025: parent pid: 1654476
+Wed Jan 15 10:55:10 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:10 2025: executable: </usr/bin/dash>
+Wed Jan 15 10:55:10 2025: argv[0]: </bin/sh>
+Wed Jan 15 10:55:10 2025: argv[1]: <-c>
+Wed Jan 15 10:55:10 2025: argv[2]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_echo_color --switch= --progress-dir=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/CMakeFiles --progress-num=3,4 "Built target 4">
+Wed Jan 15 10:55:10 2025: skipping process with pid: 1654510
+Wed Jan 15 10:55:10 2025: process created with pid: 1654511
+Wed Jan 15 10:55:10 2025: parent pid: 1654510
+Wed Jan 15 10:55:10 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:10 2025: executable: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:10 2025: argv[0]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:10 2025: argv[1]: <-E>
+Wed Jan 15 10:55:10 2025: argv[2]: <cmake_echo_color>
+Wed Jan 15 10:55:10 2025: argv[3]: <--switch=>
+Wed Jan 15 10:55:10 2025: argv[4]: <--progress-dir=/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/CMakeFiles>
+Wed Jan 15 10:55:10 2025: argv[5]: <--progress-num=3,4>
+Wed Jan 15 10:55:10 2025: argv[6]: <Built target 4>
+Wed Jan 15 10:55:10 2025: skipping process with pid: 1654511
+Wed Jan 15 10:55:10 2025: process created with pid: 1654512
+Wed Jan 15 10:55:10 2025: parent pid: 1654473
+Wed Jan 15 10:55:10 2025: working directory: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms>
+Wed Jan 15 10:55:10 2025: executable: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:10 2025: argv[0]: </mnt/ssestorage2-data/sse-team/ballin/miniconda3/lib/python3.10/site-packages/cmake/data/bin/cmake>
+Wed Jan 15 10:55:10 2025: argv[1]: <-E>
+Wed Jan 15 10:55:10 2025: argv[2]: <cmake_progress_start>
+Wed Jan 15 10:55:10 2025: argv[3]: </mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/CMakeFiles>
+Wed Jan 15 10:55:10 2025: argv[4]: <0>
+Wed Jan 15 10:55:10 2025: skipping process with pid: 1654512
+Wed Jan 15 10:55:10 2025: finalizing json file
+Wed Jan 15 10:55:10 2025: returned with code: 0
