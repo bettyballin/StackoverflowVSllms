@@ -2,6 +2,6 @@
 {
 "directory":"/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/build",
 "file":"/mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/cpp_code_files_stackoverflow/4.cpp",
-"command": "/usr/bin/c++ -std=gnu++11 -o file.o -c /path/to/your/source/file.cpp"
+"command": "/usr/bin/c++ -std=gnu++11 -o CMakeFiles/StackoverflowExecutable.dir/cpp_code_files_stackoverflow/4.cpp.o -c /mnt/ssestorage2-data/sse-team/ballin/Stackoverflow/StackoverflowVSllms/cpp_code_files_stackoverflow/4.cpp"
 }
 ]
