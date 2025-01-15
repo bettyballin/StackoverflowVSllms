@@ -1,1 +1,0 @@
-import pandas as pd\n\n   chunk_size = 100000  # Adjust the chunk size based on your memory capacity\n   for chunk in pd.read_csv('large_file.csv', chunksize=chunk_size):\n       # Process each chunk here\n       print(chunk.head())

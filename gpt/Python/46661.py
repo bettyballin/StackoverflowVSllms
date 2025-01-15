@@ -1,1 +1,0 @@
-# Manhattan distance heuristic for a grid (consistent and admissible)\n     def heuristic(node, goal):\n         return abs(node.x - goal.x) + abs(node.y - goal.y)

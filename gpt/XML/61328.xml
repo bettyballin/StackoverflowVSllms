@@ -1,1 +1,0 @@
-<Extension Name="PDF" Type="Microsoft.ReportingServices.Rendering.ImageRenderer.PDFRenderer,Microsoft.ReportingServices.ImageRendering">\n  <Configuration>\n    <DeviceInfo>\n      <FontEmbedding>Subset</FontEmbedding>\n    </DeviceInfo>\n  </Configuration>\n</Extension>

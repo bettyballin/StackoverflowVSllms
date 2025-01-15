@@ -1,1 +1,0 @@
-// Open the connection when needed\n$students = $db->query('SELECT id FROM students');\n$teachers = $db->query('SELECT id FROM teachers');\n\n// Perform other operations...\n\n// Close the connection at the end\n$db->disconnectFromDB();

@@ -1,1 +1,0 @@
-CREATE TRIGGER UpdateTrigger\n   ON [table]\n   AFTER UPDATE\n   AS\n   BEGIN\n       -- Notify the application or perform necessary actions\n   END

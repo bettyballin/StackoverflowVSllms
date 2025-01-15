@@ -1,1 +1,0 @@
-SELECT *\nINTO People\nFROM PeopleView

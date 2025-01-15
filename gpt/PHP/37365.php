@@ -1,1 +1,0 @@
-/**\n     * Summary of the function.\n     *\n     * Description of the function.\n     *\n     * @param type $param Description of the parameter.\n     * @return type Description of the return value.\n     */

@@ -1,1 +1,0 @@
-CREATE INDEX idx_example_column1 ON example_table(column1);\nCREATE INDEX idx_example_column2 ON example_table(column2);

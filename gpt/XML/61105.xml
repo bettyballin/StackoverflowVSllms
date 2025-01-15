@@ -1,1 +1,0 @@
-<configuration>\n    <system.webServer>\n        <applicationInitialization>\n            <add initializationPage="/yourInitializationPage.aspx" />\n        </applicationInitialization>\n    </system.webServer>\n</configuration>

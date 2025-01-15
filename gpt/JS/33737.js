@@ -1,1 +1,0 @@
-fetch('/execute.php', {\n  method: 'POST',\n  headers: {\n    'Content-Type': 'application/json'\n  },\n  body: JSON.stringify({ command: 'ls' })\n})\n.then(response => response.json())\n.then(data => console.log(data.output))\n.catch(error => console.error('Error:', error));

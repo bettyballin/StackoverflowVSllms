@@ -1,1 +1,0 @@
-CREATE TABLE MyTable (\n    id INT IDENTITY(1,1) PRIMARY KEY,\n    name NVARCHAR(255),\n    magicvalue INT,\n    CONSTRAINT chk_magicvalue CHECK (magicvalue > 0 AND magicvalue < 100)\n);

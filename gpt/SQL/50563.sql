@@ -1,1 +1,0 @@
-CREATE TABLE ProductAttributes (\n        ProductID INT,\n        AttributeID INT,\n        Stock INT,\n        PRIMARY KEY (ProductID, AttributeID),\n        FOREIGN KEY (ProductID) REFERENCES Products(ProductID),\n        FOREIGN KEY (AttributeID) REFERENCES Attributes(AttributeID)\n    );

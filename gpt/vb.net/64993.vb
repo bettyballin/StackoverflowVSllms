@@ -1,1 +1,0 @@
-Public Interface IDoSomething\n    Event AddFilter()\nEnd Interface

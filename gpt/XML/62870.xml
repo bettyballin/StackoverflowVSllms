@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <modules>\n      <add name="DisableCompressionForIE6Module" type="Namespace.DisableCompressionForIE6Module, AssemblyName"/>\n    </modules>\n  </system.webServer>\n</configuration>

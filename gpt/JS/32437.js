@@ -1,1 +1,0 @@
-function prepImageArea() {\n  var deferred = $.Deferred();\n\n  if (userImage) {\n    userImage.fadeOut(1500, function() {\n      ajaxSpinner.fadeIn(1500, function() {\n        deferred.resolve();\n      });\n    });\n  } else {\n    deferred.resolve();\n  }\n\n  return deferred.promise();\n}

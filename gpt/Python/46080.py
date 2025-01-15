@@ -1,1 +1,0 @@
-import numpy as np\nimport matplotlib.pyplot as plt\n\ndef generate_ma_process(n, theta, sigma=1):\n    ma = np.random.normal(scale=sigma, size=n)\n    for t in range(1, n):\n        ma[t] += theta * ma[t-1]\n    return ma\n\nn = 100\ntheta = 0.5\ntime_series = generate_ma_process(n, theta)\nplt.plot(time_series)\nplt.title('MA(1) Process Time Series')\nplt.show()

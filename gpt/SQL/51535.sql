@@ -1,1 +1,0 @@
-UPDATE your_table_name\nSET your_column_name = LOWER(your_column_name);

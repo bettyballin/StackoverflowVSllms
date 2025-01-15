@@ -1,1 +1,0 @@
-add_filter('query_vars', 'add_custom_query_vars');\n   function add_custom_query_vars($vars) {\n       $vars[] = 'custom_var';\n       $vars[] = 'custom_var2';\n       return $vars;\n   }

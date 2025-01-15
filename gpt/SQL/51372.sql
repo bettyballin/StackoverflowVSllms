@@ -1,1 +1,0 @@
-ALTER DATABASE YourDatabaseName COLLATE Turkish_CI_AS;

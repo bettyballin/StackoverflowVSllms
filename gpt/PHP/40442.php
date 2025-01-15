@@ -1,1 +1,0 @@
-function dbConnect() {     \n    $conn = new mysqli(DB_SERVER, DB_USER, DB_PASSWORD, DB_NAME) or die('Error.');\n    \n    // Set the character set to UTF-8\n    if (!$conn->set_charset("utf8")) {\n        die("Error loading character set utf8: " . $conn->error);\n    }\n    \n    return $conn;\n}\n\n$conn = dbConnect();\n$stmt = $conn->stmt_init();

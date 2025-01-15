@@ -1,1 +1,0 @@
--- Check existing indexes\n    SELECT * \n    FROM sys.indexes \n    WHERE object_id = OBJECT_ID('Department');\n\n    -- Create an index if none exists\n    CREATE INDEX idx_department_id ON Department(ID);

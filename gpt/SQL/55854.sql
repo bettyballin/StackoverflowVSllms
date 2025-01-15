@@ -1,1 +1,0 @@
-EXEC DBMS_STATS.GATHER_TABLE_STATS('your_schema', 'code_table');\nEXEC DBMS_STATS.GATHER_TABLE_STATS('your_schema', 'location');

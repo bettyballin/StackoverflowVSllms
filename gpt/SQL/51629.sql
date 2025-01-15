@@ -1,1 +1,0 @@
--- Check if the schema is correctly referenced\n   CREATE OR REPLACE VIEW v_test_view AS SELECT 1 x FROM other_schema.problematicTable;

@@ -1,1 +1,0 @@
-SELECT * \nFROM YourLinkedServerName.YourDatabase.dbo.YourTable;

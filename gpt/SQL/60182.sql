@@ -1,1 +1,0 @@
-SELECT itemid,\n       MAX(CASE WHEN itemkey = 'Colour' THEN itemvalue END) AS Colour,\n       MAX(CASE WHEN itemkey = 'Size' THEN itemvalue END) AS Size,\n       MAX(CASE WHEN itemkey = 'Fabric' THEN itemvalue END) AS Fabric\nFROM key_value_pairs\nGROUP BY itemid;

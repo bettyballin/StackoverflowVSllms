@@ -1,1 +1,0 @@
-SELECT \n       question_id,\n       SUM(CASE WHEN vote_value = 'Yes' THEN 2 ELSE 0 END) AS yes_score,\n       SUM(CASE WHEN vote_value = 'No' THEN 0 ELSE 0 END) AS no_score,\n       SUM(CASE WHEN vote_value = 'Maybe' THEN 1 ELSE 0 END) AS maybe_score\n   FROM \n       votes\n   GROUP BY \n       question_id;

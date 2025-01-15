@@ -1,1 +1,0 @@
-from pypdf import PdfReader\n\n# Read the PDF file\npdf_reader = PdfReader("file.pdf")\n\n# Get XMP metadata\nxmp_metadata = pdf_reader.xmp_metadata\n\n# Access specific metadata, for example, keywords\npdf_keywords = xmp_metadata.pdf_keywords\nprint(pdf_keywords)

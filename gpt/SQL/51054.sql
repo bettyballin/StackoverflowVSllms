@@ -1,1 +1,0 @@
-CREATE TABLE dbo.Documents (\n       Doc_Id INT PRIMARY KEY,\n       Doc_Value NVARCHAR(100),\n       Doc_Order INT DEFAULT NEXT VALUE FOR dbo.DocOrderSequence\n   );

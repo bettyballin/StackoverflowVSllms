@@ -1,1 +1,0 @@
-let jsonData = '{"someData":"someValue"}';\ntry {\n    let parsedData = JSON.parse(jsonData);\n    console.log(parsedData);\n} catch (e) {\n    console.error("Invalid JSON data", e);\n}

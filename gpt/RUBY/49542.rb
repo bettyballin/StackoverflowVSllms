@@ -1,1 +1,0 @@
-# config/initializers/mime_types.rb\nMime::Type.register "multipart/related", :ppt

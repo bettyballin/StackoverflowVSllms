@@ -1,1 +1,0 @@
-CREATE INDEX idx_gin ON documents USING gin(to_tsvector('english', content));

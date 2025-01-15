@@ -1,1 +1,0 @@
-// Post.php (Model)\nnamespace App\Models;\n\nclass Post {\n    // Post-related database interactions and business logic\n}

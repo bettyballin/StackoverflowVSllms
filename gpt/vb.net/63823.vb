@@ -1,1 +1,0 @@
-Public Sub LoadDict(ByVal phoneticType As PhoneticType, ByVal strDict As String)\n    If strDict Is Nothing Then\n        Throw New ArgumentNullException(NameOf(strDict), "strDict cannot be null")\n    End If\n\n    ' Implementation of your method\nEnd Sub

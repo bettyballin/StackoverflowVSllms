@@ -1,1 +1,0 @@
-$cresult = update_roster();\n$cresult_array = explode("\r\n", $cresult);  // Use explode instead of split as split is deprecated in PHP

@@ -1,1 +1,0 @@
-// In bootstrap.php or a routes configuration file\nRoute::set('article', 'articles/<action>/<id>/<title>', array(\n    'action' => '(edit|view|delete)',\n    'id' => '[0-9]+',\n    'title' => '[a-zA-Z0-9\-]+'\n))\n->defaults(array(\n    'controller' => 'articles',\n    'action'     => 'edit',\n));

@@ -1,1 +1,0 @@
-$line = "Some text with Ê in it.";\n$line = str_replace("\xC3\x8A", '', $line); // UTF-8 encoded Ê\necho $line;

@@ -1,1 +1,0 @@
--- Create a tablespace for Flashback Data Archive\nCREATE TABLESPACE flashback_tbs DATAFILE 'flashback_tbs.dbf' SIZE 10G;\n\n-- Create a Flashback Data Archive\nCREATE FLASHBACK ARCHIVE flashback_archive TABLESPACE flashback_tbs RETENTION 1 YEAR;\n\n-- Enable Flashback Archive on a table\nALTER TABLE your_table FLASHBACK ARCHIVE flashback_archive;

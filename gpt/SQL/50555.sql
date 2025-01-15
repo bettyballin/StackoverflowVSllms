@@ -1,1 +1,0 @@
-BEGIN TRY\n       -- Some SQL code\n   END TRY\n   BEGIN CATCH\n       THROW 50000, 'An error occurred', 1;\n   END CATCH;

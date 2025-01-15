@@ -1,1 +1,0 @@
-// Sample AJAX call using jQuery (commonly used in many web IDEs)\n$.ajax({\n    url: 'https://example.com/api/data',\n    method: 'GET',\n    success: function(response) {\n        console.log('Data received:', response);\n        // Update your UI components with the data\n    },\n    error: function(error) {\n        console.error('Error fetching data:', error);\n    }\n});

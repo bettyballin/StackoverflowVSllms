@@ -1,1 +1,0 @@
-SELECT LENGTH('Hello, SAP HANA!') AS string_length FROM DUMMY;

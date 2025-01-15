@@ -1,1 +1,0 @@
-CREATE TABLE UserRoles (\n    username VARCHAR(255) NOT NULL,\n    role VARCHAR(255) NOT NULL\n);

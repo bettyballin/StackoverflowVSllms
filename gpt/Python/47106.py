@@ -1,1 +1,0 @@
-import ctypes\n\nmsg = "hello world"\nbuffer = ctypes.create_string_buffer(msg.encode('utf-8'))\ndata = ctypes.cast(ctypes.pointer(buffer), ctypes.c_void_p)\n\nprint(data)

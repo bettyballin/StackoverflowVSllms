@@ -1,1 +1,0 @@
-class Foo:\n    pass\n\nfoo = Foo()\nclass_name = foo.__class__.__name__\nprint(class_name)  # Output: Foo

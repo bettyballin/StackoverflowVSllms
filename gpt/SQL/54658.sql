@@ -1,1 +1,0 @@
--- Enable TDE\n    USE master;\n    GO\n    CREATE DATABASE ENCRYPTION KEY\n    WITH ALGORITHM = AES_256\n    ENCRYPTION BY SERVER CERTIFICATE YourEncryptionCertificate;\n    GO\n    ALTER DATABASE YourDatabaseName\n    SET ENCRYPTION ON;\n    GO

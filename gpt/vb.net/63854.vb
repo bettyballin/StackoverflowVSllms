@@ -1,1 +1,0 @@
-<%\n    On Error Resume Next\n    ' Your ASP code here\n    If Err.Number <> 0 Then\n        Response.Write "Error: " & Err.Description\n        ' Optionally log the error to a file or database\n        Err.Clear\n    End If\n    %>

@@ -1,1 +1,0 @@
-import requests\n\n   address = "Bloomington, IN"\n   api_key = "YOUR_API_KEY"\n   url = f"https://maps.googleapis.com/maps/api/geocode/json?address={address}&key={api_key}"\n   response = requests.get(url)\n   geocode_result = response.json()\n   location = geocode_result['results'][0]['geometry']['location']\n   print((location['lat'], location['lng']))

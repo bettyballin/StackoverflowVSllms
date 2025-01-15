@@ -1,1 +1,0 @@
-<Project>\n  ...\n  <ItemGroup>\n    <None Update="YourNativeLibrary.dll">\n      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>\n    </None>\n  </ItemGroup>\n  ...\n</Project>

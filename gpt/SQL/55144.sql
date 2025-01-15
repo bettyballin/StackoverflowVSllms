@@ -1,1 +1,0 @@
--- First, change the collation of the UserName column\nALTER TABLE Users \nALTER COLUMN UserName NVARCHAR(250) COLLATE SQL_Latin1_General_CP1_CS_AS;\n\n-- Then, add the unique constraint\nALTER TABLE Users \nADD CONSTRAINT [IX_UniqueUserUserName] UNIQUE NONCLUSTERED ([UserName]);

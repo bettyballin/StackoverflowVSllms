@@ -1,1 +1,0 @@
-UPDATE StoreItems\nSET IsActive = FALSE\nWHERE StoreID = 1 AND ItemID = 2;

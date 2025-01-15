@@ -1,1 +1,0 @@
-SELECT spid, status, loginame, hostname, blk, dbid, cmd, cpu, physical_io, memusage\nFROM sys.sysprocesses\nWHERE dbid = DB_ID('tempdb') AND cmd = 'SELECT INTO';

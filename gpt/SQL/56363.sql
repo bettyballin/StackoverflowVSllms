@@ -1,1 +1,0 @@
-PRINT SUBSTRING(@sHex, 3, LEN(@sHex) - 2)

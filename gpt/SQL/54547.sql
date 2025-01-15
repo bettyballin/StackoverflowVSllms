@@ -1,1 +1,0 @@
-CREATE TABLE email_queue (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       recipient_email VARCHAR(255) NOT NULL,\n       subject VARCHAR(255) NOT NULL,\n       body TEXT NOT NULL,\n       created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n       status ENUM('pending', 'sent', 'failed') DEFAULT 'pending'\n   );

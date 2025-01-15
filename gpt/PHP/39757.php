@@ -1,1 +1,0 @@
-$router->get('/users', 'UserController@index');\n$router->get('/users/{id}', 'UserController@view');\n$router->get('/users/{id}/friends', 'FriendController@index');

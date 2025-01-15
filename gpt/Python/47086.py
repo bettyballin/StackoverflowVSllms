@@ -1,1 +1,0 @@
-import nltk\n    from nltk.tokenize import word_tokenize\n    from nltk.corpus import stopwords\n\n    text = "The Berlin Wall"\n    tokens = word_tokenize(text)\n    stop_words = set(stopwords.words('english'))\n    filtered_tokens = [w for w in tokens if not w.lower() in stop_words]\n\n    print(filtered_tokens)

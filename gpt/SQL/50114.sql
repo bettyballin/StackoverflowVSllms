@@ -1,1 +1,0 @@
-CREATE TABLE form_fields (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    form_id INT,\n    field_name VARCHAR(255) NOT NULL,\n    field_type VARCHAR(50) NOT NULL,\n    required BOOLEAN DEFAULT FALSE,\n    options TEXT, -- For fields like dropdowns, checkboxes, etc.\n    FOREIGN KEY (form_id) REFERENCES forms(id)\n);

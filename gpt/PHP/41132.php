@@ -1,1 +1,0 @@
-$select = $this->select()->where('user_id = ?', $id);

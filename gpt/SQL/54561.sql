@@ -1,1 +1,0 @@
-SELECT \n    Stock.SKU, \n    Items.Name, \n    Stock.ProductCode \nFROM \n    Stock\nINNER JOIN \n    [Order] ON Order.OrderID = Stock.OrderID\nINNER JOIN \n    Items ON Stock.ProductCode = Items.ProductCode\nWHERE \n    (Stock.Status = 1 OR Stock.Status = 2) \n    AND Order.Customer = 12345\nORDER BY \n    Order.OrderDate DESC;

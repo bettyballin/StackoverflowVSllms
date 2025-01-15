@@ -1,1 +1,0 @@
-<Textbox Name="YourTextBoxName">\n  <CanGrow>false</CanGrow>\n  <CanShrink>false</CanShrink>\n  <LeftPadding>2pt</LeftPadding>\n  <RightPadding>2pt</RightPadding>\n  <TopPadding>2pt</TopPadding>\n  <BottomPadding>2pt</BottomPadding>\n  ...\n</Textbox>

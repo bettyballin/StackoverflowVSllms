@@ -1,1 +1,0 @@
-$.ajax({\n    url: 'your_script.php?thumbnail=' + new Date().getTime(), // Append a timestamp to the URL\n    type: 'GET',\n    success: function(response) {\n        $('#thumbnailContainer').html(response);\n    },\n    error: function(xhr, status, error) {\n        console.error('AJAX request failed:', status, error);\n    }\n});

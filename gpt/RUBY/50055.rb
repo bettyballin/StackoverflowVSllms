@@ -1,1 +1,0 @@
-RSpec.configure do |config|\n  config.use_transactional_fixtures = false\nend

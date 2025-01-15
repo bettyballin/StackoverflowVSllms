@@ -1,1 +1,0 @@
-SELECT k.gp_id\nFROM gp.keywords k\nJOIN gp.practices p ON k.gp_id = p.id\nWHERE k.keyword_id = 15\nAND p.practice_link IS NOT NULL;

@@ -1,1 +1,0 @@
-window.addEventListener('load', (event) => {\n    console.log('Page fully loaded');\n    // Your code here\n});

@@ -1,1 +1,0 @@
-$result = $mysqli->query("SELECT your_column FROM your_table_name");\n   while ($row = $result->fetch_assoc()) {\n       echo htmlspecialchars($row['your_column'], ENT_QUOTES, 'UTF-8');\n   }

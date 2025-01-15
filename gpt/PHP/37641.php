@@ -1,1 +1,0 @@
-$stmt = $db->prepare("SELECT * FROM your_table WHERE id = ?");\n$stmt->bind_param("i", $id); // "i" indicates the type (integer in this case)\n$stmt->execute();\n$result = $stmt->get_result();\n\nif ($result) {\n    $myData = $result->fetch_assoc();\n} else {\n    echo "Query error: " . $db->error;\n}

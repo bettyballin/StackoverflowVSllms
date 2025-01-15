@@ -1,1 +1,0 @@
-WITH CTE AS (\n    SELECT \n        *,\n        ROW_NUMBER() OVER (PARTITION BY Column1, Column2, Column3 ORDER BY (SELECT NULL)) AS row_num\n    FROM \n        YourTableName\n)\nDELETE FROM CTE\nWHERE row_num > 1;

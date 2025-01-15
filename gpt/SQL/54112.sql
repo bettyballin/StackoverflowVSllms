@@ -1,1 +1,0 @@
-SELECT \n    column_name, \n    SUBSTRING_INDEX(column_name, '&', 1) AS digits_part\nFROM \n    your_table\nWHERE \n    column_name REGEXP '^[0-9]';

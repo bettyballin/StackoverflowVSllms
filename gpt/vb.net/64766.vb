@@ -1,1 +1,0 @@
-Dim myList As New List(Of String) From {"One", "Two", "Three"}\nIterateGenericList(myList)\nDim count As Integer = GetGenericListCount(myList)\nConsole.WriteLine("Count: " & count)

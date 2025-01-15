@@ -1,1 +1,0 @@
-ALTER TABLE binary_data MODIFY LOB (data) (STORE AS SECUREFILE);

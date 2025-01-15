@@ -1,1 +1,0 @@
-CREATE TABLE employees (   \n    id INTEGER PRIMARY KEY,\n    first_name CHAR(50) NULL,\n    last_name CHAR(75) NOT NULL,\n    dateofbirth DATE NULL\n);

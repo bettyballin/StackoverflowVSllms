@@ -1,1 +1,0 @@
-CREATE TABLE materialized_view AS\n    SELECT * FROM your_view;

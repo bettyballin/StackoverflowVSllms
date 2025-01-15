@@ -1,1 +1,0 @@
-GRANT SELECT ON DBA_TAB_COLS TO your_user;

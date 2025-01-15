@@ -1,1 +1,0 @@
-function unescapeHtml(html) {\n    var tempDiv = document.createElement("div");\n    tempDiv.innerHTML = html;\n    return tempDiv.textContent || tempDiv.innerText || "";\n}\n\nvar text = "&lt;&lt;&lt;&amp;&amp;&amp;";\nvar unescapedText = unescapeHtml(text);\n\nconsole.log(unescapedText);  // Output: <<<&&&

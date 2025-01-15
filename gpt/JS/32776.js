@@ -1,1 +1,0 @@
-// app/javascript/channels/events_channel.js\n     import consumer from "./consumer"\n\n     consumer.subscriptions.create("EventsChannel", {\n       received(data) {\n         // Handle the incoming data, e.g., display a notification\n         alert(`New event: ${data}`);\n       }\n     });

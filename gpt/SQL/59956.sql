@@ -1,1 +1,0 @@
-CREATE TABLE files (\n       id SERIAL PRIMARY KEY,\n       name TEXT NOT NULL,\n       tag TEXT,\n       file_type TEXT,\n       date TIMESTAMP,\n       content BYTEA\n   );\n\n   CREATE INDEX idx_files_tag ON files(tag);\n   CREATE INDEX idx_files_name ON files(name);\n   CREATE INDEX idx_files_file_type ON files(file_type);\n   CREATE INDEX idx_files_date ON files(date);

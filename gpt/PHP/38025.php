@@ -1,1 +1,0 @@
-class MyClass {\n    public $varName;\n\n    public function __construct() {\n        $this->varName = 'some value';\n    }\n}\n\n// Usage\n$instance = new MyClass();\necho $instance->varName;

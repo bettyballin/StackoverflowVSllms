@@ -1,1 +1,0 @@
-SELECT \n    TRIM(\n        BOTH ',' FROM \n        CONCAT(\n            IF(address IS NULL OR address = '', '', address),\n            IF(address IS NOT NULL AND address != '' AND (city IS NOT NULL AND city != ''), ', ', ''),\n            IF(city IS NULL OR city = '', '', city)\n        )\n    ) \nFROM locals;

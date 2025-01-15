@@ -1,1 +1,0 @@
-var shell = WScript.CreateObject("WScript.Shell");\nvar keyPath = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\SharedDlls\\";\nvar valName = "C:\\\\Program Files\\\\Common Files\\\\ACME Corp\\\\AcmeUtil.dll";\nWScript.Echo("count = " + shell.RegRead(keyPath + valName));

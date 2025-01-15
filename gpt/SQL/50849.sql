@@ -1,1 +1,0 @@
-CREATE TABLE orders (id serial PRIMARY KEY, details jsonb);\n   CREATE INDEX idx_jsonb_order_details ON orders USING gin(details);

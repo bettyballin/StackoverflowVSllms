@@ -1,1 +1,0 @@
-<?php\nif (isset($_SERVER['PHP_AUTH_USER'])) {\n    $username = htmlspecialchars($_SERVER['PHP_AUTH_USER']);\n    echo "Authenticated user: " . $username;\n} else {\n    header('WWW-Authenticate: Basic realm="My Realm"');\n    header('HTTP/1.0 401 Unauthorized');\n    echo 'Authentication required';\n    exit;\n}\n?>

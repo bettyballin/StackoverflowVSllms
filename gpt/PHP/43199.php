@@ -1,1 +1,0 @@
-<?php\n\nunset($var1, $var2, $var3);\n\n?>

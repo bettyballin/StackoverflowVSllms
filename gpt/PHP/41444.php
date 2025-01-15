@@ -1,1 +1,0 @@
-/**\n    * @param Whatever $blah\n    */\n   function myFunction(Whatever $blah) {\n       // Now you should get autocompletion for $blah\n   }

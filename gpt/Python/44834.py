@@ -1,1 +1,0 @@
-# myapp/context_processors.py\n   def user_session(request):\n       return {\n           'user': request.session.get('user', None)\n       }

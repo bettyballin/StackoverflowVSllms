@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\n// Re-establish the socket connection\n$socket2 = pfsockopen($_SESSION['server_address'], $_SESSION['server_port']);\nif (!$socket2) {\n    die('Could not reconnect to server');\n}\n\n// Use the socket to change status\nfputs($socket2, "CHG 12 " . $_GET["s"] . " " . $_SESSION["cid"] . "\r\n");\necho fread($socket2, 5000);\n?>

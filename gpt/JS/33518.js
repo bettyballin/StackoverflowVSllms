@@ -1,1 +1,0 @@
-$("input[name='Foo'][value='All']").prop('checked', true);

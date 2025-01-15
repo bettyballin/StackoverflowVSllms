@@ -1,1 +1,0 @@
-// Select the item with id '3' and then find the previous item with class 'item'\nvar previousItem = $(".item[id=3]").prevAll(".item").first();

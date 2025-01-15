@@ -1,1 +1,0 @@
-<?php\ninclude 'config.php';\n\necho MY_CONSTANT_NUMBER; // Outputs: 42\n?>

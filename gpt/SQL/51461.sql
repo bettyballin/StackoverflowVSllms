@@ -1,1 +1,0 @@
--- Create a temporary table\nCREATE TABLE #TempTable (\n    ID INT,\n    Name NVARCHAR(50)\n);\n\n-- Insert data into the temporary table\nINSERT INTO #TempTable (ID, Name)\nVALUES (1, 'John Doe'), (2, 'Jane Smith');\n\n-- Select data from the temporary table\nSELECT * FROM #TempTable;\n\n-- Drop the temporary table when done\nDROP TABLE #TempTable;

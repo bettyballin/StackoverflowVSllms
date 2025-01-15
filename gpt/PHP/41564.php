@@ -1,1 +1,0 @@
-$offset = 0;\n   $limit = 100;\n   while ($rows = fetchRows($offset, $limit)) {\n       foreach ($rows as $row) {\n           // Process each row\n       }\n       $offset += $limit;\n   }

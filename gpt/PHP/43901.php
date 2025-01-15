@@ -1,1 +1,0 @@
-$conn = mysql_connect('hostname', 'username', 'password');\n   $escaped_string = mysql_real_escape_string($input_string, $conn);

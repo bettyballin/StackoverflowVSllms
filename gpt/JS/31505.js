@@ -1,1 +1,0 @@
-// Client-side JSONP request:\n(function() {\n  const script = document.createElement('script');\n  script.src = 'https://example.com/cookie?callback=handleResponse';\n  document.body.appendChild(script);\n})();\n\nfunction handleResponse(data) {\n  console.log(data);\n}

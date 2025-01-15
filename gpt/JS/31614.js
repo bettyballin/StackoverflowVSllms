@@ -1,1 +1,0 @@
-$.get('ajax/test.json', {param1: 'value1'}, function(data) {\n      console.log(data);\n      // Process the data retrieved from the server\n  }, 'json');

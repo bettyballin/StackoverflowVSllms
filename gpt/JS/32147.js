@@ -1,1 +1,0 @@
-function generateUUID() {\n    // Generate a random UUID according to RFC4122 version 4\n    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n        var r = Math.random() * 16 | 0,\n            v = c === 'x' ? r : (r & 0x3 | 0x8);\n        return v.toString(16);\n    });\n}\n\nconsole.log(generateUUID());

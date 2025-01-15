@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.open("GET", "your_url_here", true);\nxhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");\nxhr.send();

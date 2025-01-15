@@ -1,1 +1,0 @@
-<location path="backoffice">\n    <system.web>\n        <authorization>\n            <allow roles="admin,companyadmin"/>\n            <deny users="*"/>\n        </authorization>\n    </system.web>\n</location>

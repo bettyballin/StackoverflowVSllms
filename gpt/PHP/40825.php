@@ -1,1 +1,0 @@
-use Cake\Http\Session\DatabaseSession;\n\n// In your application bootstrap code\n$session = new DatabaseSession();\n$session->open();

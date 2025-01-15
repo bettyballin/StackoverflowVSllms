@@ -1,1 +1,0 @@
-<?php\n// Set caching headers\nheader("Cache-Control: max-age=31536000"); // Cache for 1 year\nheader("Pragma: cache");\nheader("Expires: " . gmdate("D, d M Y H:i:s", time() + 31536000) . " GMT"); // Expire in 1 year\n?>

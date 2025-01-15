@@ -1,1 +1,0 @@
-CREATE FUNCTION GetConstantValue (@ConstantName NVARCHAR(50))\nRETURNS INT\nAS\nBEGIN\n    DECLARE @Value INT;\n    SELECT @Value = ConstantValue FROM Constants WHERE ConstantName = @ConstantName;\n    RETURN @Value;\nEND;

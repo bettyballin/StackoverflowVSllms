@@ -1,1 +1,0 @@
-class SessionsController < ApplicationController\n  def new\n    # Display login form\n  end\n\n  def create\n    # Authenticate and log in the user\n  end\n\n  def destroy\n    # Log out the user\n  end\nend

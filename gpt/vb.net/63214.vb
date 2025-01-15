@@ -1,1 +1,0 @@
-Dim FileName As String = file.FileName\nIf FileName.LastIndexOf("\") > 0 Then\n    FileName = FileName.Substring(FileName.LastIndexOf("\") + 1)\nEnd If

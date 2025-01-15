@@ -1,1 +1,0 @@
-<xs:element name="YourBooleanColumn" type="xs:boolean" minOccurs="0" />

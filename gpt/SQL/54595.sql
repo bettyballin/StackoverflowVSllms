@@ -1,1 +1,0 @@
-INSERT INTO table (foreign_key1, value)\nOUTPUT INSERTED.key_field\nVALUES (9, 'text');

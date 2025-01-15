@@ -1,1 +1,0 @@
-$file = 'path/to/your/file';\n$fs = stat($file);\necho $fs['ino'];

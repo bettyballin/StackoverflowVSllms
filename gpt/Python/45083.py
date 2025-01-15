@@ -1,1 +1,0 @@
-from django.db import models\n\nclass MyModel(models.Model):\n    name = models.CharField(max_length=100)\n    data = models.JSONField()\n\n    def __str__(self):\n        return self.name

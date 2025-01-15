@@ -1,1 +1,0 @@
-<?php\ngoto target;\n\necho 'This will be skipped.';\n\ntarget:\necho 'This is the target label.';\n?>

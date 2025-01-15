@@ -1,1 +1,0 @@
-<?php\n$var = 'Hello, World!';\n?>\n\n<!-- Recommended for better portability -->\n<?php echo $var; ?>\n\n<!-- Shorthand version, dependent on the short_open_tag setting -->\n<?=$var?>

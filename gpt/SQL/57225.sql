@@ -1,1 +1,0 @@
-select c from Car c\n        left join fetch c.owner\n        where c.type in :types\n        order by c.model

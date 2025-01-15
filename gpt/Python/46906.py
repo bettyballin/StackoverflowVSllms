@@ -1,1 +1,0 @@
-import textwrap\n   wrapped_text = textwrap.fill(text, width=50)

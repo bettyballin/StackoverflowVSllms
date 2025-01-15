@@ -1,1 +1,0 @@
-class ParentClass {\n    private $val = 'parent';\n\n    public function foo()\n    {\n        echo $this->val;\n    }\n}\n\nclass ChildClass extends ParentClass {\n    public $val = 'child';\n}\n\n$a = new ChildClass();\n$a->foo(); // Output: parent

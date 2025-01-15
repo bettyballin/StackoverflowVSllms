@@ -1,1 +1,0 @@
-function updateLayer(layerId, data) {\n  console.log('Updating layer:', layerId, 'with data:', data);\n  // Your update logic here\n}

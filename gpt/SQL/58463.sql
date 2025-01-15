@@ -1,1 +1,0 @@
-SELECT DATE_ADD(FROM_UNIXTIME(date_time_posting), INTERVAL 6 HOUR) AS adjusted_date_time_posting\nFROM table\nWHERE DATE_FORMAT(DATE_ADD(FROM_UNIXTIME(date_time_posting), INTERVAL 6 HOUR), '%d-%m-%Y') = '$c_day_date';

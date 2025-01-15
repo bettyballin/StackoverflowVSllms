@@ -1,1 +1,0 @@
-class Constants {\n    const RESOURCE_TYPE_REGISTER = 2;\n    const RESOURCE_TYPE_INFO = 1;\n}

@@ -1,1 +1,0 @@
-CREATE TABLE closure_table (\n    ancestor INT,\n    descendant INT,\n    PRIMARY KEY (ancestor, descendant)\n);\n\n-- Sample data for closure table\nINSERT INTO closure_table (ancestor, descendant) VALUES\n(1, 1), (1, 2), (1, 4), (1, 6),\n(2, 2), (2, 4),\n(3, 3), (3, 5),\n(4, 4),\n(5, 5),\n(6, 6);

@@ -1,1 +1,0 @@
-Public Class Employee\n    Implements IEmployee\n\n    Public Property ID As Integer Implements IEmployee.ID\n    Public Property FirstName As String Implements IEmployee.FirstName\n    Public Property Surname As String Implements IEmployee.Surname\nEnd Class

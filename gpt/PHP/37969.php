@@ -1,1 +1,0 @@
-function get_client_ip() {\n       if (!empty($_SERVER['HTTP_CLIENT_IP'])) {\n           $ip = $_SERVER['HTTP_CLIENT_IP'];\n       } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {\n           $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];\n       } else {\n           $ip = $_SERVER['REMOTE_ADDR'];\n       }\n       return $ip;\n   }\n\n   $client_ip = get_client_ip();

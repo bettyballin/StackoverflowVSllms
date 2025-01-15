@@ -1,1 +1,0 @@
-function KeyPress() {\n    $("#" + HiddenButtonId).click(function() {\n        $("#test").load("TempJumpToAJAX.aspx");\n    });\n}

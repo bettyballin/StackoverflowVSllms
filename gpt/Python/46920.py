@@ -1,1 +1,0 @@
-import datetime\nimport time\n\ndef get_precise_timestamp():\n    now = datetime.datetime.now()\n    precise_time = time.perf_counter()\n    return now, precise_time\n\n# Example usage\ntimestamps = []\nfor i in range(1000):\n    timestamps.append(get_precise_timestamp())\n\nfor ts in timestamps:\n    print(ts)

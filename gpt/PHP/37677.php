@@ -1,1 +1,0 @@
-<?php\n   header('Content-Type: application/json');\n\n   $response = array('status' => 'success', 'message' => 'Hello from PHP');\n   echo json_encode($response);\n   ?>

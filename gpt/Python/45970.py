@@ -1,1 +1,0 @@
-customer_reported_incidents = count(defects_reported_by_customers);

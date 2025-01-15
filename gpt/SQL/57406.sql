@@ -1,1 +1,0 @@
--- Change to a specific directory\nHOST cd C:\desired\directory\path\n\n-- Execute SQL script from the new directory\n@your_script.sql

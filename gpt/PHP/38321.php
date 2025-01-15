@@ -1,1 +1,0 @@
-// config/routes.php\nuse Cake\Routing\RouteBuilder;\nuse Cake\Routing\Router;\n\nRouter::scope('/', function (RouteBuilder $routes) {\n    $routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);\n});

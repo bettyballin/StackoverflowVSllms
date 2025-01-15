@@ -1,1 +1,0 @@
-SELECT DISTINCT constraint_type FROM user_constraints;

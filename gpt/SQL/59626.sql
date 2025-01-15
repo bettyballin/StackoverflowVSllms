@@ -1,1 +1,0 @@
-CREATE TABLE records (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       data VARCHAR(255) NOT NULL,\n       city_id INT,\n       country_id INT\n   );

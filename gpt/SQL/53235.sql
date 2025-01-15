@@ -1,1 +1,0 @@
-SELECT a.foo, b.foo\n    FROM a\n    INNER JOIN b ON a.x = b.x

@@ -1,1 +1,0 @@
-9.0\n4\n1       SQLCHAR     0       50      ";"     1     FirstName       SQL_Latin1_General_CP1_CI_AS\n2       SQLCHAR     0       50      ";"     2     LastName        SQL_Latin1_General_CP1_CI_AS\n3       SQLCHAR     0       50      ";"     3     Country         SQL_Latin1_General_CP1_CI_AS\n4       SQLCHAR     0       10      "\r\n"  0     Age             ""

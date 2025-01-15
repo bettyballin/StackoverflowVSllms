@@ -1,1 +1,0 @@
-$base_url = 'http://sitename.com'; // NO trailing slash!

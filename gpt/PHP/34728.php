@@ -1,1 +1,0 @@
-$genreList = array();\n\nfunction directorGen($array)\n{\n    global $genreList; // Declare $genreList as global\n    foreach($array as $value)\n    {\n        $genreList[] = $value;    \n    }\n}\n\n// Later...\n$title = new Title(); // Assuming you have an object $title\ndirectorGen($title->genres());

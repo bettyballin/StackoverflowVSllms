@@ -1,1 +1,0 @@
-var tableBody = document.getElementById('yourTableBodyId');\n   var newTableBody = tableBody.cloneNode(false); // deep cloning not needed\n\n   newTableBody.innerHTML = newRowsHTML;\n   tableBody.parentNode.replaceChild(newTableBody, tableBody);

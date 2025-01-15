@@ -1,1 +1,0 @@
-SELECT \n    (SELECT COUNT(*) FROM v$session) AS current_sessions,\n    (SELECT value FROM v$parameter WHERE name = 'sessions') AS max_sessions\nFROM dual;

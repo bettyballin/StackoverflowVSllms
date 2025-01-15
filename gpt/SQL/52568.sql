@@ -1,1 +1,0 @@
-CREATE TABLE #tmpDBCCinputbuffer (\n    [EVENT TYPE] NVARCHAR(512), \n    [PARAMETERS] INT, \n    [EVENT Info] NVARCHAR(512)\n);\n\nINSERT INTO #tmpDBCCinputbuffer \nEXEC ('DBCC INPUTBUFFER(58)');\n\nSELECT [EVENT Info] \nFROM #tmpDBCCinputbuffer;

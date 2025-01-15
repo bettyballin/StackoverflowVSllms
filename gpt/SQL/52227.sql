@@ -1,1 +1,0 @@
-INSERT INTO parts (partnr, other_columns)\n     SELECT DISTINCT partnr, default_values\n     FROM stock_items\n     WHERE partnr NOT IN (SELECT partnr FROM parts);

@@ -1,1 +1,0 @@
-sql /nolog\n   SQL> set sqlformat ansiconsole\n   SQL> @your_script.sql

@@ -1,1 +1,0 @@
-Rails.application.config.session_store :redis_store, servers: ["redis://your.redis.server:6379/0/session"], expire_after: 90.minutes, key: "_your_app_session"

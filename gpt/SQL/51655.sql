@@ -1,1 +1,0 @@
-SELECT t.firstName, t.lastName, t.address, l.lifeStory \nFROM table1 t\nJOIN lifeStories l ON t.id = l.table1_id\nWHERE t.firstName = :p1;

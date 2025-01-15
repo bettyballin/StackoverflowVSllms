@@ -1,1 +1,0 @@
-Public Sub MyMethod(Optional ByVal param1 As String = "Default Value", Optional ByVal param2 As Integer = 10)\n    Console.WriteLine("Parameter 1: " & param1)\n    Console.WriteLine("Parameter 2: " & param2)\nEnd Sub

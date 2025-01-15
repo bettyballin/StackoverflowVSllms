@@ -1,1 +1,0 @@
-CREATE TABLE Items (\n    item_id INT AUTO_INCREMENT PRIMARY KEY,\n    item_name VARCHAR(255) NOT NULL\n);

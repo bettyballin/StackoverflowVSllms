@@ -1,1 +1,0 @@
-Public Property WillAttend As Boolean?

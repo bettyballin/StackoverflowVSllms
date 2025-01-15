@@ -1,1 +1,0 @@
-CREATE TABLE Constants (\n    ConstantName NVARCHAR(50) PRIMARY KEY,\n    ConstantValue INT\n);\n\nINSERT INTO Constants (ConstantName, ConstantValue) VALUES\n('Nissan', 1),\n('Toyota', 2);

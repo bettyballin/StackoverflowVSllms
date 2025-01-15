@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE (checkbox1 = 1 OR :checkbox1_param IS NULL)\n  AND (checkbox2 = 1 OR :checkbox2_param IS NULL)\n  AND (checkbox3 = 1 OR :checkbox3_param IS NULL);

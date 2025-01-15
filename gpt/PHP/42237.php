@@ -1,1 +1,0 @@
-<?php\n$referrer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'No referrer set';\necho $referrer;\n?>

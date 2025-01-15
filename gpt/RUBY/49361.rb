@@ -1,1 +1,0 @@
-module MyModule\n  class MyClass\n    CONSTANT = "Hello"\n  end\nend\n\n# Accessing the constant using ::\nputs MyModule::MyClass::CONSTANT # => "Hello"\n\n# Calling a method on a class\nputs MyModule::MyClass.new.class # => MyModule::MyClass

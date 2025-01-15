@@ -1,1 +1,0 @@
-CREATE TABLE example (\n    id INT PRIMARY KEY,\n    value TINYINT NULL\n);

@@ -1,1 +1,0 @@
-SELECT id, name\nFROM customers\nWHERE id IN (SELECT customer_id\n             FROM orders\n             WHERE order_date > '2023-01-01');

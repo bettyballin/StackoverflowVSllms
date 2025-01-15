@@ -1,1 +1,0 @@
-rails generate model Rating score:integer rateable:references{polymorphic}\n    rake db:migrate

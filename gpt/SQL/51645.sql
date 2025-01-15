@@ -1,1 +1,0 @@
-WITH PagedResults AS (\n    SELECT \n        ROW_NUMBER() OVER (ORDER BY SomeColumn) AS RowNumber,\n        *\n    FROM \n        YourTable\n)\nSELECT \n    *\nFROM \n    PagedResults\nWHERE \n    RowNumber BETWEEN @StartRow AND @EndRow\nORDER BY \n    RowNumber;

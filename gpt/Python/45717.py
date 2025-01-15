@@ -1,1 +1,0 @@
-from fuzzywuzzy import process\n   import pandas as pd\n\n   # Assuming you have a DataFrame 'df' with the column 'your_column'\n   df['similarity'] = df['your_column'].apply(lambda x: process.extractOne(x, df['your_column'])[0])\n   \n   # Save the results back to SQL\n   df.to_sql('your_table_with_similarity', con=engine, if_exists='replace')

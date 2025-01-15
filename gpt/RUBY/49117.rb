@@ -1,1 +1,0 @@
-module EventsHelper\n     def event_type_class(event)\n       # Define your logic to return a CSS class based on event type\n       case event.name\n       when 'Birthday'\n         'birthday-event'\n       when 'Meeting'\n         'meeting-event'\n       else\n         'default-event'\n       end\n     end\n   end

@@ -1,1 +1,0 @@
-rspec\n   minitest

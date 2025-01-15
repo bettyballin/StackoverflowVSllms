@@ -1,1 +1,0 @@
-$sandbox = new Runkit_Sandbox();\n   $sandbox->set_option(Sandbox::ENABLE_SANDBOXING, true);\n   $result = $sandbox->eval('your PHP code here');

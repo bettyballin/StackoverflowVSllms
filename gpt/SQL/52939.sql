@@ -1,1 +1,0 @@
-CREATE DATABASE email_collection;\n\nUSE email_collection;\n\nCREATE TABLE emails (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    email VARCHAR(255) NOT NULL UNIQUE\n);

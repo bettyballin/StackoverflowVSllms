@@ -1,1 +1,0 @@
-ALTER TABLE YourTable\nADD EffectiveDate AS DATEADD(dd, DATEDIFF(dd, '19000101', [datetime_column]), '19000101') PERSISTED;\n\nCREATE INDEX IX_YourTable_EffectiveDate ON YourTable(EffectiveDate);

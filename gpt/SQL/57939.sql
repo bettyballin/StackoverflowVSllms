@@ -1,1 +1,0 @@
-DELIMITER //\n\nCREATE PROCEDURE add_numbers (IN a INT, IN b INT, OUT sum INT)\nBEGIN\n    SET sum = a + b;\nEND //\n\nDELIMITER ;

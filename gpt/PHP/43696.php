@@ -1,1 +1,0 @@
-ini_set('session.gc_maxlifetime', 900);  // 15 minutes\n    session_set_cookie_params(900);  // 15 minutes\n    session_start();

@@ -1,1 +1,0 @@
-<?php\n     $conn = oci_connect('username', 'password', 'hostname/orcl');\n     if (!$conn) {\n         $e = oci_error();\n         echo "Connection failed: " . $e['message'];\n     } else {\n         echo "Connected to Oracle!";\n     }\n     oci_close($conn);\n     ?>

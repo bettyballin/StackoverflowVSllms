@@ -1,1 +1,0 @@
-$json = array(\n    "result" => -1,\n    "errors" => array(\n        "error1" => array("name" => "email", "value" => "err1"),\n        "error2" => array("name" => "pass", "value" => "err2")\n    )\n);\n\n$encoded = json_encode($json);\necho $encoded;

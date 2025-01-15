@@ -1,1 +1,0 @@
-function validateYouTubeUrl(url) {\n         const regex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.?be)\/.+$/;\n         return regex.test(url);\n     }

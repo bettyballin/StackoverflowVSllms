@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    var containsP = $('div').has('p').length > 0;\n    console.log(containsP); // true if at least one <div> contains a <p> tag, otherwise false\n});

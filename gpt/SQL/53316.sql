@@ -1,1 +1,0 @@
-CREATE TABLE MyTable (\n    Id INT PRIMARY KEY,\n    MyDecimalColumn DECIMAL(18, 5)\n);

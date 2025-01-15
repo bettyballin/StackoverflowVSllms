@@ -1,1 +1,0 @@
-var a, b, c;\n    a = 1, 2;   // a is 1\n    (b = 1), 2; // b is 1\n    c = (1, 2); // c is 2

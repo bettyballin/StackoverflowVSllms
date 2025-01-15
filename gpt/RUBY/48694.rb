@@ -1,1 +1,0 @@
-def a(b, c)\n  b + c\nend\n\nresult = a(*[4, 5])\nputs result  # Output: 9

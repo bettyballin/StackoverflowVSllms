@@ -1,1 +1,0 @@
-CREATE TABLE Teams (\n    team_id INT PRIMARY KEY,\n    team_name VARCHAR(100),\n    seed INT\n);

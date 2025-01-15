@@ -1,1 +1,0 @@
-Dim country As String = "ga"\nReturn (From t In Db.Concessions Where t.Country = country Select t.ConcessionID, t.Title, t.Country)

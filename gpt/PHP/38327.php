@@ -1,1 +1,0 @@
-<?php\nif (basename($_SERVER['SCRIPT_FILENAME']) == basename(__FILE__)) {\n    die("Direct access not permitted");\n}\n?>

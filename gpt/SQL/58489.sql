@@ -1,1 +1,0 @@
-SELECT\n       column,\n       ROW_NUMBER() OVER (PARTITION BY column ORDER BY another_column) AS row_num\n   FROM\n       table_name;

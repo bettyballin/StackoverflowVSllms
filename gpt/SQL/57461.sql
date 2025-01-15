@@ -1,1 +1,0 @@
-SELECT \n    CAST(ISNULL(ColumnName, '0') AS Money) AS MoneyValue\nFROM \n    YourTableName;

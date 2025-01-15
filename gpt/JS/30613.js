@@ -1,1 +1,0 @@
-window.onload = function() {\n    document.querySelectorAll('form').forEach(form => form.reset());\n};

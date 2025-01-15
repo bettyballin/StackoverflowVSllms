@@ -1,1 +1,0 @@
-Private Sub Date1_BeforeUpdate(Cancel As Integer)\n    ' Your validation logic here\nEnd Sub\n\nPrivate Sub Textfield1_BeforeUpdate(Cancel As Integer)\n    ' Your validation logic here\nEnd Sub

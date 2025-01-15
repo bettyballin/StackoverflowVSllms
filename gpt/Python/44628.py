@@ -1,1 +1,0 @@
-def validate_key(key):\n    try:\n        validation_key = ValidationKey.objects.get(key=key)\n        if not validation_key.is_used:\n            validation_key.is_used = True\n            validation_key.save()\n            return True\n        else:\n            return False\n    except ValidationKey.DoesNotExist:\n        return False

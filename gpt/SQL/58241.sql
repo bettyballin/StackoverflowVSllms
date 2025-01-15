@@ -1,1 +1,0 @@
-SELECT\n    SomeTable.*,\n    (ISNULL(t1.RANK, 0) + ISNULL(t2.RANK, 0)) AS TotalRank\nFROM SomeTable\nINNER JOIN CONTAINSTABLE(SomeTable, Column1, 'word1 OR word2') AS t1\n    ON t1.[KEY] = SomeTable.ID\nINNER JOIN CONTAINSTABLE(SomeTable, Column2, 'word3 OR word4') AS t2\n    ON t2.[KEY] = SomeTable.ID\nWHERE t1.RANK IS NOT NULL AND t2.RANK IS NOT NULL\nORDER BY TotalRank DESC;

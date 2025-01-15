@@ -1,1 +1,0 @@
-CREATE INDEX I_0005 ON TABLENAME (a, b, c, d);\nCREATE INDEX I_0006 ON TABLENAME (d, c, b, a);\n-- Note: Creating indexes on all permutations is generally not practical due to the high maintenance cost and storage overhead.

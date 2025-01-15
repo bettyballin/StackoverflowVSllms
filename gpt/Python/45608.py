@@ -1,1 +1,0 @@
-# parent_module.py\nclass ParentClass:\n    def __init__(self):\n        print("ParentClass initialized")

@@ -1,1 +1,0 @@
-ALTER TABLE MyTable\nADD CONSTRAINT UQ_ParentNameUnique UNIQUE (ParentNameUnique);

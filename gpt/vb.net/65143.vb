@@ -1,1 +1,0 @@
-<Serializable>\n<XmlRoot("PairList")>\nPublic Class PairList\n    <XmlElement("Pair")>\n    Public Property Pairs As List(Of Pair(Of String, Object))\n\n    Public Sub New()\n        Pairs = New List(Of Pair(Of String, Object))()\n    End Sub\nEnd Class

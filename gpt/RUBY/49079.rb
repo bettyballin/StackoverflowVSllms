@@ -1,1 +1,0 @@
-class User < ApplicationRecord\n       should validate_presence_of(:name)\n       should validate_presence_of(:email)\n     end

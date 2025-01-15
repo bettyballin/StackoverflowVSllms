@@ -1,1 +1,0 @@
-WITH RankedItems AS (\n  SELECT\n    *,\n    ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY created DESC) AS rn,\n    DENSE_RANK() OVER (ORDER BY created DESC) AS dr\n  FROM items\n  WHERE user_id IN (/* list of user_ids */)\n),\nFilteredItems AS (\n  SELECT *\n  FROM RankedItems\n  WHERE rn = 1 OR dr <= 25\n)\nSELECT *\nFROM FilteredItems\nORDER BY created DESC\nLIMIT 25;

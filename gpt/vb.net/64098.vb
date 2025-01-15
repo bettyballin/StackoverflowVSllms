@@ -1,1 +1,0 @@
-Dim number As Double = 2.556\nDim factor As Double = 100 ' 10^2 for two decimal places\nDim roundedDown As Double\n\nroundedDown = Math.Floor(number * factor) / factor\n\nConsole.WriteLine(roundedDown) ' Output will be 2.55

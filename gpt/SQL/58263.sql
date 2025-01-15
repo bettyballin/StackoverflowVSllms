@@ -1,1 +1,0 @@
--- Using WHERE to filter rows before grouping\nSELECT department, COUNT(*)\nFROM employees\nWHERE salary > 50000\nGROUP BY department;\n\n-- Using HAVING to filter groups after grouping\nSELECT department, COUNT(*)\nFROM employees\nGROUP BY department\nHAVING COUNT(*) > 5;

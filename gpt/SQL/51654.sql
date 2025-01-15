@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n    userid UNIQUEIDENTIFIER PRIMARY KEY,\n    username VARCHAR(20) UNIQUE NOT NULL,\n    password VARBINARY(MAX) NOT NULL,\n    salt VARBINARY(16) NOT NULL -- Storing the salt\n);

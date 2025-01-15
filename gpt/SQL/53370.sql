@@ -1,1 +1,0 @@
--- Check if the plan guide is being used\nSELECT * \nFROM sys.plan_guides\nWHERE name = N'OptimizeIdNotEqualId';

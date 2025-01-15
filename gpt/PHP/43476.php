@@ -1,1 +1,0 @@
-class Bootstrap extends Zend_Application_Bootstrap_Bootstrap\n{\n    protected function _initModules()\n    {\n        $frontController = Zend_Controller_Front::getInstance();\n        $frontController->addModuleDirectory(APPLICATION_PATH);\n    }\n}

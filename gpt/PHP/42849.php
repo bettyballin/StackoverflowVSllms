@@ -1,1 +1,0 @@
-$input = array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j');\n$chunks = array_chunk($input, 2);\n$output = array_map(function($chunk) {\n    return $chunk[0];\n}, $chunks);\n\nvar_dump(array_values($output));

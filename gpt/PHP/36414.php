@@ -1,1 +1,0 @@
-<?php\n  $var = "stackoverflow";\n  echo (strlen($var) > 1) ? "TRUE" : "FALSE";\n?>

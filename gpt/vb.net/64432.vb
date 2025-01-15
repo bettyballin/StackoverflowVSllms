@@ -1,1 +1,0 @@
-Using resource As New SomeDisposableResource()\n       ' Use the resource\n   End Using ' Dispose is called automatically here

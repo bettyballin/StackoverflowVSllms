@@ -1,1 +1,0 @@
-$employeeNames = mysql_query(\n    "SELECT * \n     FROM employees \n     WHERE team='1st Level Technical Support_a' \n     LIMIT 0,5000"\n) or die(mysql_error());\n\n$employeeNumRows = mysql_num_rows($employeeNames);\necho $employeeNumRows;\n\nwhile ($row = mysql_fetch_array($employeeNames, MYSQL_ASSOC)) {\n    echo $row['full_name'];\n}

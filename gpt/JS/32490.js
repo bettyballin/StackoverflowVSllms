@@ -1,1 +1,0 @@
-var newForm = $('#template').clone().removeAttr('id').show();\n$('#targetElement').append(newForm);

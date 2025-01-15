@@ -1,1 +1,0 @@
-$db['default'] = array(\n    // Other database settings\n    'cache_on' => TRUE,\n    'cachedir' => 'application/cache/db_cache/'\n);

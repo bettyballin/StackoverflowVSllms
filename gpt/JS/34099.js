@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $("ul > li > a").css("color", "red"); // Example action: changing text color to red\n});

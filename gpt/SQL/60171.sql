@@ -1,1 +1,0 @@
-SELECT a.*\nFROM TableA a\nWHERE a.id IN (SELECT id FROM TableB)

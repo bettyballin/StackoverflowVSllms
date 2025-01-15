@@ -1,1 +1,0 @@
-SELECT \n    T.Column1, \n    T.Column2, \n    (T.Column1 + T.Column2) AS AliasColumn\nFROM \n    (SELECT \n         Column1, \n         Column2, \n         (Column1 + Column2) AS AliasColumn\n     FROM \n         YourTable) T\nWHERE \n    T.AliasColumn > 100;

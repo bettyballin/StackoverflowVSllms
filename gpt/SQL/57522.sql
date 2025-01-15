@@ -1,1 +1,0 @@
-SELECT \n    Item, \n    SUM(PriceVal) AS TotalPriceVal, \n    SUM(CostVal) AS TotalCostVal,\n    SUM(CASE WHEN CHARGE_CODE = 'CH' THEN 1 ELSE 0 END) - \n    SUM(CASE WHEN CHARGE_CODE = 'CR' THEN 1 ELSE 0 END) AS NetCharges\nFROM \n    Table\nGROUP BY \n    Item;

@@ -1,1 +1,0 @@
-function factorial(n) {\n    var fact = 1;\n    for (var i = 1; i <= n; i++) {\n        fact *= i;\n    }\n    return fact;\n}\n\nconsole.log("Factorial of 5 is " + factorial(5));

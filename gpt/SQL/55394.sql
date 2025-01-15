@@ -1,1 +1,0 @@
-SELECT name \nFROM user \nWHERE INSTR("John Smith and Peter Johnson are best friends", name) > 0;

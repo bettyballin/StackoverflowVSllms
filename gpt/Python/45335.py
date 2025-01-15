@@ -1,1 +1,0 @@
-import os\n\n    base_path = "/var/www/apps"\n    sub_path = "project"\n    full_path = os.path.join(base_path, sub_path)  # This will handle the slash correctly

@@ -1,1 +1,0 @@
-require 'vendor/autoload.php';\n\nuse PHPSQLParser\PHPSQLParser;\n\n$sql = "SELECT * FROM tbl WHERE user_id > 50";\n$parser = new PHPSQLParser();\n$parsed = $parser->parse($sql);\n\nprint_r($parsed);

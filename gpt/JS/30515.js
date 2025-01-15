@@ -1,1 +1,0 @@
-// Example using Electron\nconst { app, BrowserWindow } = require('electron');\n\nfunction createWindow () {\n  const win = new BrowserWindow({\n    width: 800,\n    height: 600,\n    webPreferences: {\n      nodeIntegration: true\n    }\n  });\n\n  win.loadFile('index.html');\n}\n\napp.whenReady().then(createWindow);

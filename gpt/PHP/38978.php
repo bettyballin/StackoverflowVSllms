@@ -1,1 +1,0 @@
-<?php\n// main.php\n\ninclude_once 'file.php'; // First inclusion\ninclude_once 'file.php'; // Subsequent inclusions are ignored\n?>

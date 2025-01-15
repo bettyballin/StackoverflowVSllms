@@ -1,1 +1,0 @@
-UPDATE Person2\nSET \n    FirstName = CAST(DecryptByCert(Cert_ID('TestCertificate'), eFirstName) AS VARCHAR(50)),\n    MiddleName = CAST(DecryptByCert(Cert_ID('TestCertificate'), eMiddleName) AS VARCHAR(50)),\n    LastName = CAST(DecryptByCert(Cert_ID('TestCertificate'), eLastName) AS VARCHAR(50));

@@ -1,1 +1,0 @@
-UPPER([employee_name])

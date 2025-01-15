@@ -1,1 +1,0 @@
-UPDATE your_table SET entry_order_no = entry_id;

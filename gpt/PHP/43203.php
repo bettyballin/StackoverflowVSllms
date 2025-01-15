@@ -1,1 +1,0 @@
-if (isset($_POST['fname'])) {\n    $fname = htmlspecialchars(trim($_POST['fname']));\n    // Additional handling for lname and dropdown_list if needed\n}\n\nif (isset($_POST['dropdown_list'])) {\n    $dropdownValue = htmlspecialchars(trim($_POST['dropdown_list']));\n    // Do something with the dropdown value\n}

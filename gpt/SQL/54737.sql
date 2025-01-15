@@ -1,1 +1,0 @@
-USE master;\n    EXEC sp_addsubscription @publication = 'YourPublication', @subscriber = 'ExtranetServer', @destination_db = 'YourDatabase';

@@ -1,1 +1,0 @@
-function add_target_blank_to_links_content($content) {\n    $content = preg_replace('/<a (?![^>]*target=)/', '<a target="_blank" ', $content);\n    return $content;\n}\nadd_filter('content_save_pre', 'add_target_blank_to_links_content');

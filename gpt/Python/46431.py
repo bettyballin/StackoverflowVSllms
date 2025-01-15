@@ -1,1 +1,0 @@
-from rest_framework.throttling import UserRateThrottle\n\n    class GameThrottle(UserRateThrottle):\n        rate = '5/minute'

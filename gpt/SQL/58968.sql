@@ -1,1 +1,0 @@
-INSERT INTO RoleOrder (RoleName, DisplayOrder) VALUES ('Admin', 1);\nINSERT INTO RoleOrder (RoleName, DisplayOrder) VALUES ('User', 2);\nINSERT INTO RoleOrder (RoleName, DisplayOrder) VALUES ('Guest', 3);

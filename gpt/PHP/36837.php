@@ -1,1 +1,0 @@
-<div class="content">\n     <?php\n       // Render all fields\n       print render($content);\n     ?>\n   </div>

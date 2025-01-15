@@ -1,1 +1,0 @@
-<?php\n$filePath = 'video.mp4'; // Example file\n$validityPeriodInMinutes = 30; // URL validity period in minutes\n\n$temporaryUrl = generateTemporaryUrl($filePath, $validityPeriodInMinutes);\necho 'Temporary URL: ' . $temporaryUrl;

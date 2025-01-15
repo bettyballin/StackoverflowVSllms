@@ -1,1 +1,0 @@
-<?php\nclass MyClass {\n    public function myMethod($param) {\n        // Process the parameter\n        $result = "Hello, " . htmlspecialchars($param);\n        return $result;\n    }\n}\n\nif (isset($_POST['action']) && $_POST['action'] == 'myMethod') {\n    $param = $_POST['param'] ?? '';\n    $myClass = new MyClass();\n    echo $myClass->myMethod($param);\n}\n?>

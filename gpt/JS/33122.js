@@ -1,1 +1,0 @@
-<script type="text/javascript">\n     window.onbeforeunload = function () {\n       navigator.sendBeacon('/Home/ClearSession');\n     };\n   </script>

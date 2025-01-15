@@ -1,1 +1,0 @@
-Dim myInput\nmyInput = Request.Form("myInput")\n\nIf IsEmpty(myInput) Or IsNull(myInput) Or Len(myInput) = 0 Then\n    ' Handle the case when the input is blank\n    Response.Write("Input is blank.")\nElse\n    ' Process the input\n    Response.Write("Input is: " & myInput)\nEnd If

@@ -1,1 +1,0 @@
-<script type="text/javascript">\n       $(document).ready(function() {\n           $("input, select, textarea").attr("disabled", "disabled");\n       });\n   </script>

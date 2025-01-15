@@ -1,1 +1,0 @@
-$xml = simplexml_load_file($file);\n$varNum = (string)$xml->attributes()->VarNum;\necho $varNum; // Output: 90

@@ -1,1 +1,0 @@
-SELECT a.foo, b.foo, c.bar\n    FROM a\n    INNER JOIN b ON a.x = b.x\n    INNER JOIN c ON b.y = c.y

@@ -1,1 +1,0 @@
-<?php\n$inputArray = [\n    [\n        'max' => 5,\n        'year' => 2007\n    ],\n    [\n        'max' => 6.05,\n        'year' => 2008\n    ],\n    [\n        'max' => 7,\n        'year' => 2009\n    ]\n];\n\n$outputArray = [];\nforeach ($inputArray as $item) {\n    $outputArray[$item['year']] = $item['max'];\n}\n\nprint_r($outputArray);\n?>

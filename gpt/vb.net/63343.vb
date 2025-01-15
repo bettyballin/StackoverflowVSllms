@@ -1,1 +1,0 @@
-Dim i As Integer\nDim l As Integer = 0\n\nFor i = 0 To 19\n    ' Your code here\n    ' You can use both i and l within this loop\nNext

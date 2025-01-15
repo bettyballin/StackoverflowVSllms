@@ -1,1 +1,0 @@
-USE BizTalkMgmtDb;\n   EXEC dbo.bts_CleanupMsgbox;

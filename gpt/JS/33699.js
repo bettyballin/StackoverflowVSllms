@@ -1,1 +1,0 @@
-CKEDITOR.replace('editor1', {\n  entities: true,\n  basicEntities: true,\n  entities_latin: false,\n  htmlEncodeOutput: true\n});

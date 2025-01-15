@@ -1,1 +1,0 @@
-// Handlebars template\n   var source = "<p>{{name}}</p>";\n   var template = Handlebars.compile(source);\n   \n   // Client-side rendering\n   var context = { name: "John" };\n   var html = template(context);\n   document.getElementById('container').innerHTML = html;

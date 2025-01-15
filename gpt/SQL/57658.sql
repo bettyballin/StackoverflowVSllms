@@ -1,1 +1,0 @@
-DECLARE @SQL NVARCHAR(MAX);\n   DECLARE @ParamDefinition NVARCHAR(MAX);\n   DECLARE @Param1 INT;\n\n   SET @SQL = N'SELECT * FROM TableName WHERE ColumnName = @Param1';\n   SET @ParamDefinition = N'@Param1 INT';\n\n   EXEC sp_executesql @SQL, @ParamDefinition, @Param1 = 123;

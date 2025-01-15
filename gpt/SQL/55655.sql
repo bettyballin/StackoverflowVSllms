@@ -1,1 +1,0 @@
-CREATE INDEX idx_Combined\nON Appointment (FranchiseId, AppointmentTypeId)\nINCLUDE (CustomerId, ApptDateTime);

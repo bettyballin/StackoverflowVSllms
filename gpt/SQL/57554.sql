@@ -1,1 +1,0 @@
-SELECT column_name\nFROM table_name\nWHERE column_name LIKE 'a%';

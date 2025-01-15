@@ -1,1 +1,0 @@
-// Access data in cache\nfunction accessCache(address) {\n    if (L1Cache.contains(address)) {\n        return L1Cache.get(address); // Load from L1 cache\n    } else if (L2Cache.contains(address)) {\n        return L2Cache.get(address); // Load from L2 cache\n    } else {\n        return loadFromMainMemory(address); // Load from main memory\n    }\n}

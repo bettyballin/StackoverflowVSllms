@@ -1,1 +1,0 @@
-<?php\nrequire_once __DIR__ . '/../config/config.php';\n\n$controller = new HomeController();\n$controller->index();

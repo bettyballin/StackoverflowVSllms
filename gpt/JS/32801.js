@@ -1,1 +1,0 @@
-// Create a new div element\nvar newDiv = document.createElement('div');\n\n// Set the height of the new div to 150 pixels\nnewDiv.style.height = '150px';\n\n// Ensure the div does not interfere with other content by clearing both sides\nnewDiv.style.clear = 'both';\n\n// Append the new div to the body\ndocument.body.appendChild(newDiv);

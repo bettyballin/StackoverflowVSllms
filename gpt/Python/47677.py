@@ -1,1 +1,0 @@
-import subprocess\nfrom django.http import HttpResponse\n\ndef run_job(request, job_id):\n    if job_id == 1:\n        # Start the script in the background\n        subprocess.Popen(['python', '/path/to/script.py'])\n        return HttpResponse("Job is running")\n\n    # Handle other job_ids if necessary\n    return HttpResponse("Invalid job ID")

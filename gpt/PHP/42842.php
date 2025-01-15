@@ -1,1 +1,0 @@
-function foo1() {}\nfunction foo2() { return; }\n\nvar_dump(foo1() === NULL); // bool(true)\nvar_dump(foo2() === NULL); // bool(true)

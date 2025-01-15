@@ -1,1 +1,0 @@
-$dir = "path/to/your/directory/with'a'quote";\n$dir = stripslashes($dir); // Ensure slashes are stripped in case magic_quotes are on\n\nif (is_dir($dir)) {\n    $items = scandir($dir);\n    if ($items === false) {\n        die("scandir returned failure");\n    }\n    print_r($items);\n} else {\n    die("The specified path is not a directory");\n}

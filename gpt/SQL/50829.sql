@@ -1,1 +1,0 @@
-SELECT \n    s.*, \n    b.*, \n    sec.*, \n    l.*, \n    f.*\nFROM \n    tbl_student s\nJOIN \n    tbl_batch b ON s.college_id = b.college_id\nJOIN \n    tbl_section sec ON s.college_id = sec.college_id\nJOIN \n    tbl_level l ON s.college_id = l.college_id\nJOIN \n    tbl_faculty f ON s.college_id = f.college_id\nWHERE \n    s.college_id = 'your_college_id_value';

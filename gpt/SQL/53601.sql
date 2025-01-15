@@ -1,1 +1,0 @@
-NodeId    LeftValue    RightValue    Title\n1         1            12            'Root'\n2         2            5             'Child 1'\n3         6            11            'Child 2'\n4         3            4             'Grandchild 1'\n5         7            10            'Grandchild 2'

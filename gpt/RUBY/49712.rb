@@ -1,1 +1,0 @@
-str1 = "AAAA BBBB CCCC DDDD"\n\n# Use a temporary placeholder to avoid collision\ntemp_placeholder = "TEMP_PLACEHOLDER"\n\n# Perform the replacements\nstr1 = str1.gsub("AAAA", temp_placeholder)\nstr1 = str1.gsub("CCCC", "AAAA")\nstr1 = str1.gsub(temp_placeholder, "CCCC")\n\nputs str1  # Output: "CCCC BBBB AAAA DDDD"

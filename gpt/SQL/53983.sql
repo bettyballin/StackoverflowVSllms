@@ -1,1 +1,0 @@
-SELECT\n    Category,\n    MIN(StartDateTime) AS MinStartDateTime,\n    MAX(EndDateTime) AS MaxEndDateTime\nFROM\n    MyTable\nGROUP BY\n    Category\nORDER BY\n    Category;

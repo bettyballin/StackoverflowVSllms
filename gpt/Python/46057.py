@@ -1,1 +1,0 @@
-for item in result:\n    print(f"Player Type: {item['player_type']}, Count: {item['count']}")

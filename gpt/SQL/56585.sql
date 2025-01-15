@@ -1,1 +1,0 @@
-SELECT CASE WHEN (0 = 1) THEN 'false' ELSE 'true' END FROM DUAL;

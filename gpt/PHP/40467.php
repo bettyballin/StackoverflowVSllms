@@ -1,1 +1,0 @@
-class Name\n{\n    public $jobs2do;\n\n    public function __construct($string) {\n        $this->jobs2do[] = array($this, 'do');\n    }\n\n    public function do() {\n        // Your function implementation here\n        echo "Doing job...\n";\n    }\n}\n\n$instance = new Name("some string");\nforeach ($instance->jobs2do as $job) {\n    call_user_func($job);\n}

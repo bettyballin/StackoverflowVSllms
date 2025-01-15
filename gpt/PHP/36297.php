@@ -1,1 +1,0 @@
-$_POST['tasks'] = array(\n    1 => 'Task 1',\n    2 => 'Task 2',\n    3 => 'Task 3'\n);\n\nforeach ($_POST['tasks'] as $task_id => $v) {\n    echo "Task ID: $task_id, Task: $v\n";\n}

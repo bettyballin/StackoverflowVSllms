@@ -1,1 +1,0 @@
-CREATE TABLE AuditLog (\n    AuditID INT PRIMARY KEY IDENTITY,\n    TableName NVARCHAR(50),\n    Operation NVARCHAR(10),\n    DeletedID INT,\n    UserID UNIQUEIDENTIFIER,\n    Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP\n);

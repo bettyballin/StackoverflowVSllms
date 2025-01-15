@@ -1,1 +1,0 @@
-ini_set('intl.default_locale', 'he_IL');

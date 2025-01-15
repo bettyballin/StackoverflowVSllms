@@ -1,1 +1,0 @@
-create_table "schema_migrations", id: false, force: :cascade do |t|\n     t.string "version", null: false\n   end

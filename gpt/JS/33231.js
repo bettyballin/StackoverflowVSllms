@@ -1,1 +1,0 @@
-function closeModal() {\n    // Code to close the modal\n    $('#myModal').modal('hide');\n}

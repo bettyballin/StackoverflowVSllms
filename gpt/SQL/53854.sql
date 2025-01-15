@@ -1,1 +1,0 @@
-CREATE TABLE items (\n    item_id INT PRIMARY KEY,\n    item_name VARCHAR(255)\n);\n\nCREATE TABLE tags (\n    tag_id INT PRIMARY KEY,\n    tag_name VARCHAR(255)\n);\n\nCREATE TABLE item_tags (\n    item_id INT,\n    tag_id INT,\n    FOREIGN KEY (item_id) REFERENCES items(item_id),\n    FOREIGN KEY (tag_id) REFERENCES tags(tag_id)\n);

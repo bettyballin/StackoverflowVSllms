@@ -1,1 +1,0 @@
-<!-- Including another XSLT file -->\n<xsl:include href="common.xsl"/>\n\n<!-- Importing another XSLT file (allows for overriding) -->\n<xsl:import href="common.xsl"/>

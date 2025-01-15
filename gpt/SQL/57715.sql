@@ -1,1 +1,0 @@
-(\n  SELECT * \n  FROM posts \n  WHERE timestamp > DATE_SUB(NOW(), INTERVAL 30 DAY)\n  ORDER BY timestamp DESC\n)\nUNION\n(\n  SELECT * \n  FROM posts \n  ORDER BY timestamp DESC \n  LIMIT 10\n)\nORDER BY timestamp DESC\nLIMIT 10;

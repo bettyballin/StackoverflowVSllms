@@ -1,1 +1,0 @@
-INSERT INTO hierarchy (id, parent_id, name) VALUES\n(1, NULL, 'Root Level 1'),\n(2, 1, 'Child Level 1.1'),\n(3, 1, 'Child Level 1.2'),\n(4, 2, 'Child Level 1.1.1');

@@ -1,1 +1,0 @@
-import os\nimport shutil\n\ndef copy_locked_file(source_file_path, destination_file_path):\n    temp_link = source_file_path + '.link'\n    os.link(source_file_path, temp_link)\n    shutil.copy(temp_link, destination_file_path)\n    os.unlink(temp_link)\n\ncopy_locked_file('/path/to/lockedfile', '/path/to/destination')

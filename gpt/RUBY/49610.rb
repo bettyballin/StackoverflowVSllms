@@ -1,1 +1,0 @@
-X = "hello"\n   X.concat(" world")\n   puts X # Output: "hello world"

@@ -1,1 +1,0 @@
-employee = Employee.find(1)\nemployee.name = "Jane Doe"\nemployee.save

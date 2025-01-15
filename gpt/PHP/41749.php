@@ -1,1 +1,0 @@
-// Generate a UUID\n$uuid = uniqid('', true);\n\n// Insert into the table\n$stmt = $DB->prepare("INSERT INTO example (id, column1) VALUES (:id, :value)");\n$stmt->bindParam(':id', $uuid);\n$stmt->bindParam(':value', $value);\n\n$value = 'test';\n$stmt->execute();

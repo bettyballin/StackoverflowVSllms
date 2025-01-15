@@ -1,1 +1,0 @@
-' In DLL\nPublic Interface IDataContext\n    Sub SubmitChanges()\n    ' Define other necessary methods and properties\nEnd Interface

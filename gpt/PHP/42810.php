@@ -1,1 +1,0 @@
-$string = "123";\n$integer = filter_var($string, FILTER_VALIDATE_INT);\n\nif ($integer === false) {\n    // Handle invalid input\n    echo "Invalid integer";\n} else {\n    // Valid integer\n    echo $integer;\n}

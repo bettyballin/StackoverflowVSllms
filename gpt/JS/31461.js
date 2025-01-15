@@ -1,1 +1,0 @@
-// Comment out or remove the stylesheet inclusion for testing\n    // popup.document.createStyleSheet(document.styleSheets[n].href);

@@ -1,1 +1,0 @@
-$mysqli = new mysqli("hostname", "username", "password", "database");\n$stmt = $mysqli->prepare("INSERT INTO table_name (column_name) VALUES (?)");\n$stmt->bind_param("s", $_POST['user_input']);\n$stmt->execute();

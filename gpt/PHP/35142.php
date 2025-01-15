@@ -1,1 +1,0 @@
-$vars = array(\n    'name' => 'ryan',\n    'adj' => 'cool'\n);\nView::factory('test')->set($vars)->output();

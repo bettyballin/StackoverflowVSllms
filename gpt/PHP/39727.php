@@ -1,1 +1,0 @@
-// Disable a module in Joomla\n$moduleId = 101; // Replace with the actual ID of the module\n$db = JFactory::getDbo();\n$query = $db->getQuery(true)\n            ->update($db->quoteName('#__modules'))\n            ->set($db->quoteName('published') . ' = 0')\n            ->where($db->quoteName('id') . ' = ' . (int) $moduleId);\n$db->setQuery($query);\n$db->execute();

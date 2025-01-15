@@ -1,1 +1,0 @@
-' Main Code Example\nSub ProcessDocument()\n    Call Profiler.StartTimer\n\n    ' Your document processing code here\n    ' For example:\n    Dim doc As Document\n    Set doc = ActiveDocument\n\n    ' Simulate processing\n    Dim i As Long\n    For i = 1 To 1000000\n        ' Some processing code\n    Next i\n\n    Call Profiler.EndTimer\nEnd Sub

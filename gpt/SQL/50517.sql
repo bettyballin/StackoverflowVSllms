@@ -1,1 +1,0 @@
-SET SHOWPLAN ON;\nSELECT a.id, a.date, a.time, a.signal, a.noise, \n       b.signal_strength, b.base_id, b.firmware, \n       a.site, b.active, a.table_key_id\nFROM adminuser.station AS a\nJOIN adminuser.base AS b ON a.id = b.base_id\nWHERE a.site = 1234 \n  AND a.date >= '2009-03-20';\nSET SHOWPLAN OFF;

@@ -1,1 +1,0 @@
-Module MainModule\n       Sub Main()\n           ' Change the connection string at runtime\n           MyClassLibrary.My.MySettings.Default.RunTimeConnectionString = My.Settings.ProductionConnectionString\n           \n           ' Proceed with application initialization\n           ' InitializeDatabase() or other operations\n       End Sub\n   End Module

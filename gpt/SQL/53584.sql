@@ -1,1 +1,0 @@
-START TRANSACTION;\n\n-- Decrement the count safely\nUPDATE tag_data\nSET count = count - 1\nWHERE tagId = <your_tag_id>;\n\nCOMMIT;

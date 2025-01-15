@@ -1,1 +1,0 @@
-CREATE TABLE ExampleTable (\n    ExampleColumn VARCHAR(70)\n);

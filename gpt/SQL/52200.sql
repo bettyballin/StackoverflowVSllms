@@ -1,1 +1,0 @@
-CREATE SCHEMA new_schema_name;

@@ -1,1 +1,0 @@
-CREATE TABLE groups (\n        id INT PRIMARY KEY AUTO_INCREMENT,\n        name VARCHAR(255) NOT NULL\n    );

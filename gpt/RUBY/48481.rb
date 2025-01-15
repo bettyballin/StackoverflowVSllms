@@ -1,1 +1,0 @@
-# config/application.rb\n    config.active_record.observers = :action_observer

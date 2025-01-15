@@ -1,1 +1,0 @@
-<dwr>\n  <init>\n    <create creator="new" javascript="YourJavaScriptClass" class="com.example.YourJavaClass"/>\n  </init>\n  <configuration>\n    <call batching="true"/>\n  </configuration>\n</dwr>

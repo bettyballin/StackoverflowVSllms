@@ -1,1 +1,0 @@
-$data = ['example' => 'data'];\n   file_put_contents('cache_file.php', '<?php return ' . var_export($data, true) . ';');\n   $cachedData = include 'cache_file.php';

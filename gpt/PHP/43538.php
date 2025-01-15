@@ -1,1 +1,0 @@
-<?php\n$test = $_REQUEST['test'];\necho $test;\n?>

@@ -1,1 +1,0 @@
-$this->load->library('tank_auth');

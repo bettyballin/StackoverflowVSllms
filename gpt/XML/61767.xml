@@ -1,1 +1,0 @@
-<configuration>\n      <connectionStrings>\n        <add name="DefaultConnection" connectionString="your_connection_string_here" providerName="System.Data.SqlClient"/>\n      </connectionStrings>\n      <appSettings>\n        <add key="DatabaseProvider" value="SqlServer"/>\n      </appSettings>\n    </configuration>

@@ -1,1 +1,0 @@
-SELECT DATEPART(hour, GETDATE()) AS Hour;

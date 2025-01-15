@@ -1,1 +1,0 @@
-require 'combine_pdf'\n\npdf = CombinePDF.new\n\n# Assuming the PDF files are named sequentially like 01_foo.pdf, 02_bar.pdf, etc.\nDir["[0-9][0-9]_*.pdf"].sort.each do |pdf_file|\n  pdf << CombinePDF.load(pdf_file)\nend\n\npdf.save "combined.pdf"

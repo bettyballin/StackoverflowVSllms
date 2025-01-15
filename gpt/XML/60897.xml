@@ -1,1 +1,0 @@
-<weblogic-application xmlns="http://xmlns.oracle.com/weblogic/weblogic-application">\n       <application-param>\n         <param-name>Prefer-Application-Packages</param-name>\n         <param-value>org.apache.log4j</param-value>\n       </application-param>\n     </weblogic-application>

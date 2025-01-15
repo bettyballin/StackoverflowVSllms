@@ -1,1 +1,0 @@
-WITH extracted_xpath AS (\n    SELECT xpath('/my/xpath/expr', my_xml) as x FROM my_table\n)\nSELECT x[1] FROM extracted_xpath;

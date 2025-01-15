@@ -1,1 +1,0 @@
-DO $$\nDECLARE\n    i INTEGER;\n    table_name TEXT;\nBEGIN\n    FOR i IN 1..3 LOOP\n        table_name := 'table_' || i;\n        EXECUTE 'CREATE TABLE ' || table_name || ' (id SERIAL PRIMARY KEY, name TEXT)';\n    END LOOP;\nEND $$;

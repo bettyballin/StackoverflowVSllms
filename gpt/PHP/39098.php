@@ -1,1 +1,0 @@
-// Retrieve the text from the database\n$query = "SELECT message FROM messages WHERE id = 1";\n$result = mysqli_query($conn, $query);\n$row = mysqli_fetch_assoc($result);\n$text = $row['message'];\n\n// Convert newlines to HTML line breaks\n$formattedText = nl2br(htmlspecialchars($text, ENT_QUOTES, 'UTF-8'));\n\n// Display the text\necho $formattedText;

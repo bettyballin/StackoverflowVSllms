@@ -1,1 +1,0 @@
-$file_content = file_get_contents('external.php');\nif ($file_content !== false) {\n    eval('?>' . $file_content . '<?php');\n} else {\n    // Handle error\n}

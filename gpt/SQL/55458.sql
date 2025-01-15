@@ -1,1 +1,0 @@
-SET ROWCOUNT 10;\n   SELECT * FROM Employees;\n   SET ROWCOUNT 0; -- Reset to disable the row count limit

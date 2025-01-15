@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.fn_varbinaryToBase64(@bin varbinary(max))\n    RETURNS varchar(max)\n    AS\n    BEGIN\n        RETURN CAST('' AS xml).value('xs:base64Binary(sql:variable("@bin"))', 'varchar(max)')\n    END

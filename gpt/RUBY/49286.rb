@@ -1,1 +1,0 @@
-class CreateSchemaMigrations < ActiveRecord::Migration\n     def change\n       create_table :schema_migrations, id: false do |t|\n         t.column :version, :string, null: false\n       end\n     end\n   end

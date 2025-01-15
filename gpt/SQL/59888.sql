@@ -1,1 +1,0 @@
--- Examples\n   GetCustomer\n   AddOrder\n   UpdateProduct\n   DeleteInvoice

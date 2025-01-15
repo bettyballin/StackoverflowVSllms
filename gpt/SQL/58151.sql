@@ -1,1 +1,0 @@
-CREATE INDEX idx_created_on ON your_table (created_on);

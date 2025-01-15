@@ -1,1 +1,0 @@
-// Retrieve the config object from the registry\n$config = Zend_Registry::get('config');\n\n// Remove the 'domain' key from the config object\nunset($config->domain);\n\n// Update the config object back in the registry\nZend_Registry::set('config', $config);

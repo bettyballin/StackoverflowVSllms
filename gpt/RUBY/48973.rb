@@ -1,1 +1,0 @@
-<%= form_with(url: some_path) do |form| %>\n  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>\n  <!-- other form fields -->\n<% end %>

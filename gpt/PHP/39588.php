@@ -1,1 +1,0 @@
-session.save_path = "/path/to/sessions"\n  session.gc_maxlifetime = 1440\n  session.cookie_lifetime = 0

@@ -1,1 +1,0 @@
-const userInput = document.getElementById("input").value;\n     const sanitizedInput = userInput.replace(/[^\w\s]/gi, '');

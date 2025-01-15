@@ -1,1 +1,0 @@
-CREATE TABLE Receivable (\n    RefNo VARCHAR2(50) NOT NULL,\n    Date DATE NOT NULL,\n    TrnType VARCHAR2(20) NOT NULL,\n    Amount NUMBER(10, 2) NOT NULL,\n    PRIMARY KEY (RefNo, TrnType)\n);

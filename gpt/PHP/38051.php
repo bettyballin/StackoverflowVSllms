@@ -1,1 +1,0 @@
-$smarty->use_sub_dirs = true;

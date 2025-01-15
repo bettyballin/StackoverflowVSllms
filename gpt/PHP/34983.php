@@ -1,1 +1,0 @@
-// filter.php\n<?php\nob_start();\n\nfunction filter_output($output) {\n    return strtoupper($output); // Adjust the filter logic as needed\n}\n\nfunction apply_filter() {\n    $output = ob_get_clean();\n    echo filter_output($output);\n}\n\nregister_shutdown_function('apply_filter');\n?>

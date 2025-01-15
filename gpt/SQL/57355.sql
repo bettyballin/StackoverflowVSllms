@@ -1,1 +1,0 @@
-DO $$\nBEGIN\n    IF EXISTS (SELECT FROM pg_temp WHERE tablename = 'YourTempTable') THEN\n        EXECUTE 'DROP TABLE temp.YourTempTable';\n    END IF;\nEND $$;

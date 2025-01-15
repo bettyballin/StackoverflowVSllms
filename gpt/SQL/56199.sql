@@ -1,1 +1,0 @@
-BEGIN\n  -- Update B_ID_SRC and B_ID_DEST in a single update statement\n  UPDATE TEST_P t\n  SET B_ID_SRC = (SELECT b.ID FROM TEST_B b WHERE b.BATCH = 42 AND t.SRC = b.WHO),\n      B_ID_DEST = (SELECT b.ID FROM TEST_B b WHERE b.BATCH = 42 AND t.DEST = b.WHO)\n  WHERE B_ID_SRC IS NULL AND B_ID_DEST IS NULL;\n  \n  -- Commit the transaction\n  COMMIT;\nEND;\n/

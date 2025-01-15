@@ -1,1 +1,0 @@
-CREATE FUNCTION GetEmployeeDetails(@EmployeeID INT)\nRETURNS TABLE\nAS\nRETURN\n(\n    SELECT * FROM Employees WHERE EmployeeID = @EmployeeID\n)

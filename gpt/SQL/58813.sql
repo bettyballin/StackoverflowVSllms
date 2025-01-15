@@ -1,1 +1,0 @@
-INSERT INTO POP (population)\nSELECT DISTINCT pop FROM temp_data;\n\nINSERT INTO IND (fk_pop, name)\nSELECT POP.id, temp_data.individual\nFROM temp_data\nJOIN POP ON POP.population = temp_data.pop\nGROUP BY temp_data.individual, temp_data.pop;

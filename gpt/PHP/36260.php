@@ -1,1 +1,0 @@
-$queryResult = mysql_query("SELECT post_date FROM your_table WHERE some_condition");\n    if (!$queryResult) {\n        die('Invalid query: ' . mysql_error());\n    }\n\n    $record = mysql_fetch_array($queryResult);\n    print_r($record); // This will show the entire array

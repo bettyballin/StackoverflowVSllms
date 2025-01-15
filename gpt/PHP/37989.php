@@ -1,1 +1,0 @@
-// dir1/dir2/index.php\n    <?php\n    echo "Hello from dir2";\n    ?>

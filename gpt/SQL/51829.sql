@@ -1,1 +1,0 @@
-CREATE TABLE availability (\n    id SERIAL PRIMARY KEY,\n    availability_string TEXT,\n    startdate DATE,\n    enddate DATE\n);\n\nCREATE TABLE exclusions (\n    id SERIAL PRIMARY KEY,\n    availability_id INTEGER REFERENCES availability(id),\n    exclusion TEXT\n);

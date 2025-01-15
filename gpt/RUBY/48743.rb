@@ -1,1 +1,0 @@
-<table>\n  <% @list_items.each do |item| %>\n    <tr>\n      <td><%= item.name %></td>\n      <td>\n        <%= check_box_tag "approve_#{item.id}", item.id, item.approved, class: 'approve-checkbox', data: { id: item.id } %>\n      </td>\n    </tr>\n  <% end %>\n</table>

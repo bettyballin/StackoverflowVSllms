@@ -1,1 +1,0 @@
-<script>\n     window.onload = function() {\n       // Assuming WebTrends function is `trackPage`\n       WebTrends.trackPage({\n         title: document.title,\n         url: window.location.href\n       });\n     };\n   </script>

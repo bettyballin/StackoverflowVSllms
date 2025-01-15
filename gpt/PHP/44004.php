@@ -1,1 +1,0 @@
-public function __construct(..., $id = 0) {\n    if ($id) {\n        $this->load_all_data_from_db($id);\n    }\n}\n\npublic function get_email_address() {\n    return $this->email_address;\n}

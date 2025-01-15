@@ -1,1 +1,0 @@
--- Define an alias type for a surrogate key\nCREATE TYPE SK FROM int NOT NULL;\nGO\n\n-- Use the alias type in a table definition\nCREATE TABLE ExampleTable (\n    Id SK PRIMARY KEY,\n    Name NVARCHAR(50)\n);\nGO

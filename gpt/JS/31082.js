@@ -1,1 +1,0 @@
-fetch('protected_content.php')\n    .then(response => response.text())\n    .then(data => {\n        document.getElementById('protected-content').innerHTML = data;\n    });

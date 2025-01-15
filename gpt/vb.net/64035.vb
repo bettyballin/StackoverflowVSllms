@@ -1,1 +1,0 @@
-Private Function GetTheAnswerAsByte() As Byte\n    Return CType(42, Byte)\nEnd Functio

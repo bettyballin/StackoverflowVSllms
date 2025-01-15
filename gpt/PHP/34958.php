@@ -1,1 +1,0 @@
-// Page2.php\n    include('Page1.php');\n    echo $var;

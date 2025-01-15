@@ -1,1 +1,0 @@
-CREATE TRIGGER trigger_name\nAFTER INSERT ON table_name\nFOR EACH ROW\nBEGIN\n    -- Trigger logic here\n    INSERT INTO audit_table (action, timestamp)\n    VALUES ('INSERT', NOW());\nEND;

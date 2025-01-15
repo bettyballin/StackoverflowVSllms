@@ -1,1 +1,0 @@
-$(document).ready(function() {\n       $('.ajax-link').on('click', function(event) {\n           event.preventDefault();\n           var url = $(this).attr('href');\n           $.get(url, function(data) {\n               // Update your DOM with the returned data\n               $('#targetDiv').html(data);\n           });\n       });\n   });

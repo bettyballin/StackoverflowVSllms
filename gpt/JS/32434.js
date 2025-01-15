@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded", function() {\n    var marquees = document.querySelectorAll('marquee');\n    marquees.forEach(function(marquee) {\n        var span = document.createElement('span');\n        span.innerHTML = marquee.innerHTML;\n        marquee.parentNode.replaceChild(span, marquee);\n    });\n});

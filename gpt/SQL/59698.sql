@@ -1,1 +1,0 @@
--- Stop the trace\nEXEC sp_trace_setstatus @TraceID, 0\n-- Close the trace and delete the definition\nEXEC sp_trace_setstatus @TraceID, 2

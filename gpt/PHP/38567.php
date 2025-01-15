@@ -1,1 +1,0 @@
-reset($an_array);\n$firstKey = key($an_array);

@@ -1,1 +1,0 @@
-BEGIN\n    DBMS_SCHEDULER.create_job (\n        job_name        => 'manage_event_log_size',\n        job_type        => 'PLSQL_BLOCK',\n        job_action      => 'BEGIN manage_table_size; END;',\n        start_date      => SYSTIMESTAMP,\n        repeat_interval => 'FREQ=DAILY; BYHOUR=0; BYMINUTE=0; BYSECOND=0',\n        enabled         => TRUE\n    );\nEND;\n/

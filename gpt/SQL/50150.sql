@@ -1,1 +1,0 @@
-UPDATE mytable\nSET wholenodecolumn = (\n    SELECT \n        wholenodecolumn.query('<Item>{.}</Item>')\n    FROM mytable AS t\n    WHERE t.col1 = mytable.col1 -- ensure you are updating the correct rows\n        AND t.col2 = mytable.col2\n);

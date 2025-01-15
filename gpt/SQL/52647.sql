@@ -1,1 +1,0 @@
-BULK INSERT item_table \nFROM 'Item_Table.txt' \nWITH (\n    FORMATFILE = 'Item_Table.fmt',\n    FIRSTROW = 2\n);

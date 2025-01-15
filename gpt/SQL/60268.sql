@@ -1,1 +1,0 @@
--- Using varchar for non-Unicode data\nCREATE TABLE Students (\n    StudentID INT PRIMARY KEY,\n    FirstName VARCHAR(50),\n    LastName VARCHAR(50)\n);\n\n-- Using nvarchar for Unicode data\nCREATE TABLE Students (\n    StudentID INT PRIMARY KEY,\n    FirstName NVARCHAR(50),\n    LastName NVARCHAR(50)\n);

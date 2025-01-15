@@ -1,1 +1,0 @@
-html_doc = Nokogiri::HTML(open(myfile))\nmessage_divs = html_doc.xpath('//div[starts-with(@id, "post_message_") and number(substring-after(@id, "post_message_")) > 0 and number(substring-after(@id, "post_message_")) <= 99999999]')

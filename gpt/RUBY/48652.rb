@@ -1,1 +1,0 @@
-class Article < ApplicationRecord\n     scope :visible_to, -> (user) {\n       where("published = ? OR author_id = ?", true, user.id)\n     }\n   end

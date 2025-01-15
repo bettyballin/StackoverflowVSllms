@@ -1,1 +1,0 @@
-SELECT\n    COUNT(*) AS cnt\nFROM\n    [table]\nWHERE\n    (LEN(RequestedReportParams) - LEN(REPLACE(RequestedReportParams, ',', ''))) > 1

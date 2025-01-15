@@ -1,1 +1,0 @@
-header('X-Content-Type-Options: nosniff');\n    header('X-Frame-Options: DENY');\n    header('X-XSS-Protection: 1; mode=block');\n    header('Strict-Transport-Security: max-age=31536000; includeSubDomains');

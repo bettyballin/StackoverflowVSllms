@@ -1,1 +1,0 @@
-SELECT * FROM attached_database.table_name;

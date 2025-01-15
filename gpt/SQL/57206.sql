@@ -1,1 +1,0 @@
-CREATE TABLE DimEventType (\n       EventTypeID INT PRIMARY KEY,\n       EventTypeName VARCHAR(255),\n       -- Additional attributes related to the event type\n   );

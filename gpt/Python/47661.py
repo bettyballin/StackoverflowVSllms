@@ -1,1 +1,0 @@
-from foo import f\n\ndef b():\n    f()\n\nif __name__ == "__main__":\n    b()

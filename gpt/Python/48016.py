@@ -1,1 +1,0 @@
-from PIL import Image\nimport subprocess\n\ndef lossless_rotate(input_path, output_path, angle):\n    # Save the input image using jpegtran for lossless rotation\n    subprocess.run(['jpegtran', f'-rotate {angle}', '-outfile', output_path, input_path])\n\n# Example usage\nlossless_rotate('input.jpg', 'output.jpg', 90)

@@ -1,1 +1,0 @@
-Private Declare Function SetForegroundWindow Lib "user32" (ByVal handle As IntPtr) As Integer

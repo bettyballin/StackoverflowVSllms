@@ -1,1 +1,0 @@
-CREATE TRIGGER after_user_delete\nAFTER DELETE ON users\nFOR EACH ROW\nBEGIN\n    DELETE FROM user_attributes WHERE user_id = OLD.id;\nEND;

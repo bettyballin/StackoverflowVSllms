@@ -1,1 +1,0 @@
-# Assuming `root` is the root element\n    element = root.find("element")\n    if element is not None:\n        print(element.text)  # Outputs the text content of the element\n\n    # Setting values\n    element.text = "new text"

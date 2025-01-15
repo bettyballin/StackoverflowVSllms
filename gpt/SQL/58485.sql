@@ -1,1 +1,0 @@
--- Superclass table\nCREATE TABLE superclass (\n    id SERIAL PRIMARY KEY,\n    type VARCHAR(50),\n    common_field1 VARCHAR(255),\n    common_field2 VARCHAR(255)\n    -- other common fields\n);\n\n-- Additional fields table using JSONB\nCREATE TABLE additional_fields (\n    id SERIAL PRIMARY KEY,\n    superclass_id INTEGER REFERENCES superclass(id),\n    properties JSONB\n);

@@ -1,1 +1,0 @@
-SELECT \n    e1.employee_id AS senior, \n    e2.employee_id AS junior\nFROM \n    employees e1\nINNER JOIN \n    employees e2\nON \n    e1.hire_date < e2.hire_date;

@@ -1,1 +1,0 @@
-create or replace package body package_name as\n    procedure function_name(arg in varchar2, result_cursor out sys_refcursor) is\n    begin\n        open result_cursor for\n        select field_a, -- other fields\n        from your_table\n        where some_column = arg;\n    end function_name;\nend package_name;\n/

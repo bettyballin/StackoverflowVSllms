@@ -1,1 +1,0 @@
-SELECT MIN(unique_id) AS min_id, MAX(unique_id) AS max_id\nFROM your_table\nWHERE user_id = ?;

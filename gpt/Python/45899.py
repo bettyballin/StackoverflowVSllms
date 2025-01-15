@@ -1,1 +1,0 @@
-user_key = ndb.Key(User, user_id)\n   messages = Message.query(Message.user == user_key).fetch()\n   for msg in messages:\n       print(msg.content)

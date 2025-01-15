@@ -1,1 +1,0 @@
-if (typeof(EventSource) !== "undefined") {\n    var source = new EventSource("server-sent-events.php");\n    source.onmessage = function(event) {\n        document.getElementById("result").innerHTML += event.data + "<br>";\n    };\n} else {\n    document.getElementById("result").innerHTML = "Sorry, your browser does not support server-sent events...";\n}

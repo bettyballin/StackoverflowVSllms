@@ -1,1 +1,0 @@
-class Company < ApplicationRecord\n  has_many :emails\nend\n\nclass Email < ApplicationRecord\n  belongs_to :company\nend

@@ -1,1 +1,0 @@
-// In PHP\nfunction smarty_modifier_format_date($date) {\n    return date('Y-m-d', strtotime($date));\n}\n\n// In Smarty template\n{$date|format_date}

@@ -1,1 +1,0 @@
-INSERT INTO your_table (payment_due_on) VALUES (NULL);

@@ -1,1 +1,0 @@
-function validateRange(source, arguments) {\n    var value = parseInt(arguments.Value, 10);\n    if ((value >= 100 && value <= 200) || (value >= 500 && value <= 600)) {\n        arguments.IsValid = true;\n    } else {\n        arguments.IsValid = false;\n    }\n}

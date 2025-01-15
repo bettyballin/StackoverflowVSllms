@@ -1,1 +1,0 @@
-Sub Main()\n    Dim twitterHelper As New TwitterHelper()\n    twitterHelper.PostTweet("Hello, world! This is a tweet from my ASP.NET application.")\nEnd Sub

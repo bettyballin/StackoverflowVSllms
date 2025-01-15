@@ -1,1 +1,0 @@
-<% form_for :staff_member, @staff_member, :builder => MyFormBuilder, remote: true do |f| %>\n  <%= render :partial => "staff_members/forms/personal_details", :locals => {:f => f, :skill_groups => @skill_groups, :staff_member => @staff_member} %>\n<% end %>

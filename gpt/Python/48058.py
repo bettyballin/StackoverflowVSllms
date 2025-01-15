@@ -1,1 +1,0 @@
-from asciinet import Graph\n\n# Create a new graph\ngraph = Graph()\n\n# Add nodes and edges\ngraph.add_edge('Start', 'Step 1')\ngraph.add_edge('Step 1', 'Step 2')\ngraph.add_edge('Step 2', 'End')\n\n# Print the graph\nprint(graph)

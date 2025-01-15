@@ -1,1 +1,0 @@
-from pony.orm import Database\n\n   db = Database()\n   db.bind(provider='postgres', user='user', password='password', host='localhost', database='dbname')\n   db.generate_mapping(create_tables=False, check_tables=True, reverse=True)\n\n   db.generate_entities('models.py')

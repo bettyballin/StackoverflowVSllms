@@ -1,1 +1,0 @@
-<Configuration\n    Name="Release|Win32"\n    ...\n    >\n    <Tool\n        Name="VCCLCompilerTool"\n        RuntimeLibrary="2"\n        ...\n    />\n    ...\n</Configuration>

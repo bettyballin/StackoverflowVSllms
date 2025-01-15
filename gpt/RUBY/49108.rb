@@ -1,1 +1,0 @@
-class Bug < ApplicationRecord\n  belongs_to :status\nend

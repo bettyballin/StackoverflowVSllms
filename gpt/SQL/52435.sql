@@ -1,1 +1,0 @@
-CREATE TABLE #temp(\n    [count] int,\n    [Time] nvarchar(50)\n)\n\nDECLARE @DateNow DATETIME, @i int\n\nSET @DateNow = '00:00'\nSET @i = 1\n\nWHILE (@i <= 1440)\nBEGIN\n    SET @DateNow = DATEADD(minute, 1, @DateNow)\n    INSERT INTO #temp ([count], [Time]) VALUES (0, FORMAT(@DateNow, 'HH:mm'))\n    SET @i = @i + 1\nEND\n\nSELECT [count], [Time] FROM #temp\nDROP TABLE #temp

@@ -1,1 +1,0 @@
-// Assuming the form was submitted and validated\n$values = $form->getValues();\necho $values['name_with_space']; // Will output 'filled in value' if the textarea was filled

@@ -1,1 +1,0 @@
-Dim myVar As String\nmyVar = "This is a string"\nDim length As Integer = myVar.Length ' Compile-time checking, safer and more efficient

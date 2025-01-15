@@ -1,1 +1,0 @@
-const socket = new WebSocket('ws://localhost:8080');\n\nsocket.onopen = () => {\n  console.log('WebSocket connection established');\n  socket.send('Hello Server!');\n};\n\nsocket.onmessage = (event) => {\n  console.log(`Message from server: ${event.data}`);\n};\n\nsocket.onclose = () => {\n  console.log('WebSocket connection closed');\n};

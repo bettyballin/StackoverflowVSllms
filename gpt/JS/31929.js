@@ -1,1 +1,0 @@
-// Client-side using JavaScript\nconst socket = new WebSocket('ws://localhost:8080');\n\nsocket.onmessage = (event) => {\n  const data = JSON.parse(event.data);\n  if (data.event === 'trigger_event') {\n    console.log('Event triggered at:', new Date(data.timestamp));\n    // Perform the synchronized action here\n  }\n};

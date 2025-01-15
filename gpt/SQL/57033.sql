@@ -1,1 +1,0 @@
-sqlplus /nolog\nconnect / as sysdba\n@your_script.sql

@@ -1,1 +1,0 @@
-tinymce.init({\n  selector: 'textarea',  // Change this value according to your HTML\n  plugins: 'powerpaste',\n  toolbar: 'paste',\n  powerpaste_word_import: 'clean',  // Options: 'clean', 'merge', 'prompt'\n  powerpaste_html_import: 'clean'   // Options: 'clean', 'merge', 'prompt'\n});

@@ -1,1 +1,0 @@
-function isQuirksMode() {\n    return document.compatMode === "BackCompat";\n}\n\nif (isQuirksMode()) {\n    console.log("The browser is in quirks mode.");\n} else {\n    console.log("The browser is in standards mode.");\n}

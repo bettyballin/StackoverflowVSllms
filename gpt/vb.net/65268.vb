@@ -1,1 +1,0 @@
-' For example, associating a TextBox control with a help topic\nhelpProvider.SetHelpKeyword(TextBox1, "help_topic_for_textbox1")\nhelpProvider.SetHelpNavigator(TextBox1, HelpNavigator.Topic)

@@ -1,1 +1,0 @@
-gem 'pdf-thumbnail', '~> 0.1.0'

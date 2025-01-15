@@ -1,1 +1,0 @@
-CREATE TABLE wedding_dates (\n    user_id INT PRIMARY KEY,\n    wedding_year INT,\n    wedding_month INT,\n    wedding_day INT,\n    CONSTRAINT valid_date CHECK (\n        (wedding_year IS NOT NULL) AND\n        (wedding_month IS NULL OR (wedding_month BETWEEN 1 AND 12)) AND\n        (wedding_day IS NULL OR (wedding_day BETWEEN 1 AND 31))\n    )\n);

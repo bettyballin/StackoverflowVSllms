@@ -1,1 +1,0 @@
-SET time_zone = 'America/New_York';\nINSERT INTO articles (title, insert_date) VALUES ('My Title', now());

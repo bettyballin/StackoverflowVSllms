@@ -1,1 +1,0 @@
-var $helpers = array('Html', 'Form', 'Session');

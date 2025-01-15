@@ -1,1 +1,0 @@
-INSERT INTO Fruits (id, name) VALUES (1, 'Apple'), (2, 'Banana'), (3, 'Cherry');

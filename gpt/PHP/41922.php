@@ -1,1 +1,0 @@
-$userID = intval($userID); // Ensure $userID is an integer to prevent SQL injection\n$query = mysql_query("SELECT * FROM messages WHERE recipient = $userID AND `read` = 0");\n\nif (!$query) {\n    die('Invalid query: ' . mysql_error());\n}\n\n$msgs = mysql_num_rows($query);\n\necho $msgs;

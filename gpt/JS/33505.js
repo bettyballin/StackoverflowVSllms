@@ -1,1 +1,0 @@
-var inputs = document.documentElement.getElementsByTagName('input');\nvar selects = document.getElementsByTagName('select');\n\n// Combine NodeLists using the spread operator\nvar combined = [...inputs, ...selects];\n\n// Loop through the combined array\nfor (const element of combined) {\n    console.log(element);\n}

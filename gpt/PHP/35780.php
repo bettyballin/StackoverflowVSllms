@@ -1,1 +1,0 @@
-<?php\nfunction daysUntil($date) {\n    $currentDate = new DateTime();\n    $targetDate = new DateTime($date);\n    $interval = $currentDate->diff($targetDate);\n    return $interval->days;\n}\n\n$date = 'YYYY-MM-DD'; // Replace with your target date\necho "Days until $date: " . daysUntil($date);\n?>

@@ -1,1 +1,0 @@
-SELECT DATENAME(WEEKDAY, '2009-05-01') AS DayOfWeek; -- Returns 'Friday'\nSELECT DATENAME(WEEKDAY, '2009-05-12') AS DayOfWeek; -- Returns 'Tuesday'

@@ -1,1 +1,0 @@
-app.get('/hidden-link', (req, res) => {\n       // Log the user out and disable the account\n       // Perform necessary actions to disable the account\n       res.send('Access Denied');\n   });

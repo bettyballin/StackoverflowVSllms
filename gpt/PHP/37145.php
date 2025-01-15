@@ -1,1 +1,0 @@
-if (!$userdata['session_logged_in']) {\n    header('Location: ' . $phpbb_root_path . 'login.' . $phpEx . '?redirect=' . basename(__FILE__));\n    exit;\n}

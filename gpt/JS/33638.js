@@ -1,1 +1,0 @@
-$(document).ready(function() {                 \n    $('#mylist').sortable({ \n        update: function() {\n            var order = $('#mylist').sortable('serialize');\n            alert(order);\n        }                         \n    });\n});

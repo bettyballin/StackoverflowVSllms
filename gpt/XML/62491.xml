@@ -1,1 +1,0 @@
-<configuration>\n     <system.webServer>\n       <modules>\n         <add name="TimingModule" type="YourNamespace.TimingModule"/>\n       </modules>\n     </system.webServer>\n   </configuration>

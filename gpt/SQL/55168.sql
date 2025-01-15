@@ -1,1 +1,0 @@
-ALTER TABLE child_table DROP CONSTRAINT fk_constraint_name;

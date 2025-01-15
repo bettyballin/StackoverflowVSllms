@@ -1,1 +1,0 @@
-<id name="BackerId">\n  <generator class="guid" />\n</id>\n<property name="Name" />\n<property name="PostCardSizeId"  />\n<property name="ItemNumber" />\n<bag name="BackerEntries" table="BackerEntry" cascade="all" lazy="false" order-by="Priority" inverse="true">\n  <key column="BackerId" />\n  <one-to-many class="BackerEntry" />\n</bag>

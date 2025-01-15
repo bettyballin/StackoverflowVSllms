@@ -1,1 +1,0 @@
-// Set the default timezone to Pacific/Auckland\n   date_default_timezone_set('Pacific/Auckland');\n\n   // Assuming $datetime is the date retrieved from SQL Server\n   $datetime = new DateTime($retrievedDate); // $retrievedDate is the date string from SQL Server\n   echo $datetime->format('Y-m-d H:i:s'); // Display in the local time zone

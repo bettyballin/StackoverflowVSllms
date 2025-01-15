@@ -1,1 +1,0 @@
-IF EXISTS (SELECT 1 \n           FROM sys.foreign_keys \n           WHERE name = N'FK_TableName_TableName2' \n           AND parent_object_id = OBJECT_ID(N'dbo.TableName'))\nBEGIN\n    ALTER TABLE [dbo].[TableName] \n    DROP CONSTRAINT [FK_TableName_TableName2];\nEND\nGO

@@ -1,1 +1,0 @@
-select t.TaskId,\n       count(n.TaskNoteId) as 'Notes'\nfrom Task t\nleft join TaskNote n on t.TaskId = n.TaskId\ngroup by t.TaskId;

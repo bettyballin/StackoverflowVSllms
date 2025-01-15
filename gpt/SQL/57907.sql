@@ -1,1 +1,0 @@
-CREATE AGGREGATE group_concat\n(\n    INIT = '',\n    ITER = my_group_concat(param1, param2),\n    COMBINE = my_group_concat(param1, param2),\n    FINAL = param1\n);

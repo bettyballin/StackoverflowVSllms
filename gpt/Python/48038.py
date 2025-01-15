@@ -1,1 +1,0 @@
-x = [1, 2, 2, 2, 2]\n\nwhile x:\n    x.pop()  # Remove elements until the list is empty\n\nprint(x)  # Output will be []

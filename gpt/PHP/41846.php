@@ -1,1 +1,0 @@
-<?php\nfunction display_custom_comment_meta($comment, $args, $depth) {\n    $friend_name = get_comment_meta($comment->comment_ID, 'friend_name', true);\n    if ($friend_name) {\n        echo '<p class="comment-friend-name">Friend: ' . esc_html($friend_name) . '</p>';\n    }\n    comment_text();\n}\n?>

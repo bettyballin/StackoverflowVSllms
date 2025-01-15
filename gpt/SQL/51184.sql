@@ -1,1 +1,0 @@
-SELECT COUNT(*) AS TotalRows\nFROM Tickets\nWHERE ID NOT LIKE '%specific_suffix';

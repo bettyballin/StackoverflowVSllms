@@ -1,1 +1,0 @@
-CREATE OR REPLACE DIRECTORY example_dir AS '/path/to/directory';

@@ -1,1 +1,0 @@
-function getMenuItem($id, $conn) {\n    $stmt = $conn->prepare("SELECT id, title, parent_id FROM menu_items WHERE id = ?");\n    $stmt->bind_param("i", $id);\n    $stmt->execute();\n    $result = $stmt->get_result();\n    return $result->fetch_assoc();\n}

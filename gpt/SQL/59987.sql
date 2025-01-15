@@ -1,1 +1,0 @@
-DELETE FROM your_table\nWHERE id NOT IN (\n    SELECT id\n    FROM your_table\n    ORDER BY timestamp_column DESC\n    LIMIT 50\n);

@@ -1,1 +1,0 @@
-BACKUP LOG [AMS_Prod_log] TO DISK = 'NUL';\nGO

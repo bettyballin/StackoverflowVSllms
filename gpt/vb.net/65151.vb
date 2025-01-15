@@ -1,1 +1,0 @@
-' Assuming you have a setting called "UserSetting" of type String\nMy.Settings.UserSetting = "Some Value"\nMy.Settings.Save()

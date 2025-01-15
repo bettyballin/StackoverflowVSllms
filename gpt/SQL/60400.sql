@@ -1,1 +1,0 @@
-SELECT \n    ROW_NUMBER() OVER (ORDER BY client_name) AS line_number,\n    client_name\nFROM \n    deliveries\nGROUP BY \n    client_name;

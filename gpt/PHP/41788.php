@@ -1,1 +1,0 @@
-$x = 10; // Example value\n$y = 20; // Example value\n$z = 30; // Example value\n\n$c = max($x, $y, $z);\n\necho "The greatest value is: " . $c;

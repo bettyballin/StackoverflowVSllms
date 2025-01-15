@@ -1,1 +1,0 @@
-<?php\nheader('Content-Type: application/javascript');\n?>\nconsole.log("This is dynamically generated JavaScript");

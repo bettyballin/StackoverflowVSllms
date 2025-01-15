@@ -1,1 +1,0 @@
-<?php\n   require 'vendor/autoload.php';

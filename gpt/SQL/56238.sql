@@ -1,1 +1,0 @@
-SELECT\nCASE WHEN RTRIM(fldField) LIKE 'YYY' THEN 'OTH' ELSE 'XXX' END AS newField\nFROM tmpTable;

@@ -1,1 +1,0 @@
-$.ajax({\n    url: 'proxy.php',\n    dataType: 'json', // Expect a JSON response\n    success: function(response) {\n        console.log(response); // Handle the response\n    },\n    error: function(jqXHR, textStatus, errorThrown) {\n        console.error('Error:', textStatus, errorThrown); // Handle errors\n    }\n});

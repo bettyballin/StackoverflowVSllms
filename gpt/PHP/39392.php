@@ -1,1 +1,0 @@
-<?php\ndate_default_timezone_set('UTC'); // Set the timezone to UTC or your desired timezone\n$date = 1246053600;\necho 'unix: ',$date,', converted: ',date('d/m/Y', $date);\n?>

@@ -1,1 +1,0 @@
-ALTER TABLE your_table ADD COLUMN blobCol_is_null BOOLEAN GENERATED ALWAYS AS (blobCol IS NULL) STORED;\nCREATE INDEX idx_blobcol_is_null ON your_table (blobCol_is_null);

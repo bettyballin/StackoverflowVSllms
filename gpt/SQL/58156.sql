@@ -1,1 +1,0 @@
-SELECT \n  (LENGTH(your_column) - LENGTH(REPLACE(your_column, 'one', ''))) / LENGTH('one') AS word_count\nFROM \n  your_table\nWHERE \n  your_column LIKE '%one%';

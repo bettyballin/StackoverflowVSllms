@@ -1,1 +1,0 @@
-INSERT INTO CommReceipt (CR_Key, Column1, Column2)\nSELECT CR_Key, Column1, Column2 FROM StagingTable\nON CONFLICT (CR_Key) DO NOTHING;

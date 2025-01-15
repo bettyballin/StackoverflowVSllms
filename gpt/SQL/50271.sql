@@ -1,1 +1,0 @@
-SELECT *\nFROM aTable t1\nWHERE EXISTS (\n    SELECT 1\n    FROM (\n        SELECT fldInputField AS value\n        FROM aTable\n        WHERE id = t1.id\n    ) AS input\n    WHERE FIND_IN_SET(input.value, t1.fldRoleList) > 0\n);

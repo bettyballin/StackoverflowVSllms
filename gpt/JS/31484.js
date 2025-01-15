@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('.thumbnail').hover(\n        function() {\n            $(this).find('.overlay').css('opacity', '1');\n        },\n        function() {\n            $(this).find('.overlay').css('opacity', '0');\n        }\n    );\n});

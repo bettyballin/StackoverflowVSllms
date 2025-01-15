@@ -1,1 +1,0 @@
-SET GLOBAL innodb_doublewrite = 0;

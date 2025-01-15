@@ -1,1 +1,0 @@
-from cryptography.fernet import Fernet\n\n   key = Fernet.generate_key()\n   cipher_suite = Fernet(key)\n   cipher_text = cipher_suite.encrypt(b"Sensitive Information")\n\n   with open('encrypted_file.txt', 'wb') as file:\n       file.write(cipher_text)

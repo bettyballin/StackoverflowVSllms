@@ -1,1 +1,0 @@
-from itertools import product\n\ndef combinations(items):\n    for combination in product(*items):\n        yield combination\n\n# Example usage:\njagged_list = [\n    [1, 2, 3],\n    [4, 5, 6, 7, 8, 9],\n    [1, 2]\n]\n\nfor combo in combinations(jagged_list):\n    print(combo)

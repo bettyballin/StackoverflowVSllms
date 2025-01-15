@@ -1,1 +1,0 @@
-$string = getStringFromDatabase();\n\n// Detect the encoding\n$encoding = mb_detect_encoding($string, 'UTF-8, ISO-8859-1', true);\n\n// Convert to UTF-8 if it's not already\nif ($encoding !== 'UTF-8') {\n    $string = mb_convert_encoding($string, 'UTF-8', $encoding);\n}\n\nprintf($string);

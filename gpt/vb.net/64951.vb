@@ -1,1 +1,0 @@
-Partial Public Class Product\n    Private Sub OnValidate(action As ChangeAction)\n        ' Implementation of your business rules\n        If action = ChangeAction.Insert Then\n            ' Custom validation logic\n        End If\n    End Sub\nEnd Class

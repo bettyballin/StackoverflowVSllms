@@ -1,1 +1,0 @@
-// Start the session\n   session_start();\n\n   // Set session variables\n   $_SESSION["loggedin"] = true;\n   $_SESSION["username"] = $username;

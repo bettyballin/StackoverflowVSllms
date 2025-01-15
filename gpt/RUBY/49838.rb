@@ -1,1 +1,0 @@
-class GamesController < ApplicationController\n  def show\n    @game = Game.find(params[:id])\n\n    case params[:view]\n    when 'full'\n      render json: @game, serializer: GameFullSerializer\n    when 'history'\n      render json: @game, serializer: GameHistorySerializer\n    else\n      render json: @game, serializer: GameSerializer\n    end\n  end\nend

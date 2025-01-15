@@ -1,1 +1,0 @@
-SELECT COUNT(*)\nFROM (\n    SELECT [colnames]\n    FROM [tables with joins]\n    WHERE [constraints]\n    GROUP BY [cols]\n) t;

@@ -1,1 +1,0 @@
-ALTER TABLE my_table ENCRYPTION='Y';

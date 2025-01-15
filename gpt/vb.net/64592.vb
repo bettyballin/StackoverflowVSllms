@@ -1,1 +1,0 @@
-For i As Integer = 0 To 9\n    Console.WriteLine(i)\nNext

@@ -1,1 +1,0 @@
-history.pushState(null, null, window.location.href);\n   window.onpopstate = function() {\n       history.go(1);\n   };

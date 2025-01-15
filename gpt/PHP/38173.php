@@ -1,1 +1,0 @@
-<?php\n   header('Content-type: text/xml');\n   echo "test";\n?>

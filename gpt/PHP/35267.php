@@ -1,1 +1,0 @@
-ini_set('zlib.output_compression', 'Off');

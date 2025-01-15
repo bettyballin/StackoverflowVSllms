@@ -1,1 +1,0 @@
-$vendors[] = array(\n    "id" => $row['vendorID'],\n    "name" => $row['name'] == "" ? "-" : $row['name'],\n    "tel1" => $row['phone1'] == "" ? "-" : $row['phone1'],\n    "tel2" => $row['phone2'] == "" ? "-" : $row['phone2'],\n    "mail" => $row['email'] == "" ? "-" : $row['email'],\n    "web" => $row['web'] == "" ? "-" : $row['web']\n);

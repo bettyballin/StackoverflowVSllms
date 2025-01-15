@@ -1,1 +1,0 @@
-INSERT INTO dbo.DB1.TempTable\nSELECT * FROM dbo.DB2.TempTable

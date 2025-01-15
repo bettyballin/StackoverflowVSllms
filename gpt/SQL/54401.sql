@@ -1,1 +1,0 @@
-WITH RankedRecords AS (\n    SELECT \n        a, \n        b, \n        c, \n        OrderDate,\n        ROW_NUMBER() OVER (PARTITION BY a, b, c ORDER BY OrderDate DESC) as rn\n    FROM ABC\n)\nSELECT \n    a, \n    b, \n    c, \n    OrderDate AS maxDate\nFROM RankedRecords\nWHERE rn = 1;

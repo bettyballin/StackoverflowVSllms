@@ -1,1 +1,0 @@
-// Assume there is an input element with id "myInput"\n$('#myInput').val('newValue'); // This will set the value of the input element to 'newValue'

@@ -1,1 +1,0 @@
-RSpec.configure do |config|\n      config.mock_with :rspec\n      config.fixture_path = "#{::Rails.root}/spec/fixtures"\n      config.use_transactional_fixtures = true\n    end

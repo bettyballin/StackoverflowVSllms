@@ -1,1 +1,0 @@
-INSERT INTO DateDimension (DateKey, DateValue, Description) VALUES (-1, '9999-12-31', 'Unknown Date');

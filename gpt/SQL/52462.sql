@@ -1,1 +1,0 @@
-SELECT \n    table1.column1 AS table1_column1,\n    table1.column2 AS table1_column2,\n    table2.column1 AS table2_column1,\n    table2.column2 AS table2_column2\nFROM \n    table1\nJOIN \n    table2 ON table1.id = table2.table1_id;

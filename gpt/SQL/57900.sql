@@ -1,1 +1,0 @@
-DECLARE\nBEGIN\n  FOR i IN (SELECT * FROM emp)\n  LOOP\n    IF i.sal = 1300 THEN\n      UPDATE emp\n      SET sal = 13000\n      WHERE empno = i.empno;  -- Ensure to use a unique identifier like empno\n    ELSIF i.sal = 1500 THEN\n      UPDATE emp\n      SET sal = 15000\n      WHERE empno = i.empno;  -- Ensure to use a unique identifier like empno\n    END IF;\n  END LOOP;\nEND;

@@ -1,1 +1,0 @@
-use [prodDb]\nGO\nSELECT \n    princ.name AS PrincipalName,\n    perm.permission_name AS PermissionName,\n    perm.state_desc AS PermissionState\nFROM \n    sys.database_principals AS princ\nJOIN \n    sys.database_permissions AS perm\n    ON perm.grantee_principal_id = princ.principal_id\nWHERE \n    princ.name = 'myUser';

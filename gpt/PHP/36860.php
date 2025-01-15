@@ -1,1 +1,0 @@
-function generateAlias($userId) {\n    return 'user-' . $userId . '-' . uniqid() . '@yourdomain.com';\n}

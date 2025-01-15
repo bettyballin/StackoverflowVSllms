@@ -1,1 +1,0 @@
-$("#formid").submit(function(e) {\n    e.preventDefault();  // Prevent the default form submission if you have any validation or other logic\n    this.submit();       // Use the native submit method\n});

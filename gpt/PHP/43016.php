@@ -1,1 +1,0 @@
-$queue = new SplQueue();\n   $queue->enqueue(1);\n   $queue->enqueue(2);

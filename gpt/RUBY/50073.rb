@@ -1,1 +1,0 @@
-def example_method(a:, b:)\n       puts "a: #{a}, b: #{b}"\n     end\n\n     hash = { a: 1, b: 2 }\n     example_method(**hash)\n     # Outputs: "a: 1, b: 2"

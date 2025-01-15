@@ -1,1 +1,0 @@
-CREATE TABLE ActiveTable (\n       TableName VARCHAR(50)\n     );\n     INSERT INTO ActiveTable VALUES ('ImportantTableA');

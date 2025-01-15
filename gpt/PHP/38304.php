@@ -1,1 +1,0 @@
-<?php\necho "\u{0161}"; // This will output the character "š"

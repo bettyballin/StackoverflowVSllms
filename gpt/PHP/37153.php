@@ -1,1 +1,0 @@
-if ($_SESSION['role'] !== 'admin') {\n       echo "Access denied.";\n       exit;\n   }

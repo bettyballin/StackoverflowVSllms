@@ -1,1 +1,0 @@
-SELECT *\n    FROM Person\n    WHERE PersonName LIKE '%frank%'

@@ -1,1 +1,0 @@
-$user_agent = $_SERVER['HTTP_USER_AGENT'];\n   if (strpos($user_agent, 'MSIE') !== false || strpos($user_agent, 'Trident') !== false) {\n       setcookie("username", $value, time()+3600, "/", ".example.com");\n   } else {\n       setcookie("username", $value, time()+3600, "/", ".example.com", true, true);\n   }

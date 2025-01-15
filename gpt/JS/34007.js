@@ -1,1 +1,0 @@
-// Example: Pseudocode for device fingerprinting\n   if (deviceFingerprint(account1.device) == deviceFingerprint(account2.device)) {\n       flagAsSuspicious();\n   }

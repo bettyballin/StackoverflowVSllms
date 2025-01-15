@@ -1,1 +1,0 @@
-ALTER DATABASE YourDatabaseName\nSET AUTO_CLOSE OFF;

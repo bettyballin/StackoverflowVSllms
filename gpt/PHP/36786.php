@@ -1,1 +1,0 @@
-$lucene = new sfLucene();

@@ -1,1 +1,0 @@
-SET @max_id = (SELECT MAX(member_id) FROM members);\nSET @new_ai = IFNULL(@max_id, 0) + 1;\nSET @sql = CONCAT('ALTER TABLE members AUTO_INCREMENT = ', @new_ai);\nPREPARE stmt FROM @sql;\nEXECUTE stmt;\nDEALLOCATE PREPARE stmt;

@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION get_info(param VARCHAR2) RETURN VARCHAR2 AS\n        LANGUAGE JAVA NAME 'MyStoredProcedure.getInfo(java.lang.String) return java.lang.String';

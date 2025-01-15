@@ -1,1 +1,0 @@
-CREATE ASSEMBLY [MyStoredProcAssembly]\n   FROM 'C:\MyAssemblies\MyStoredProc.dll'\n   WITH PERMISSION_SET = SAFE;

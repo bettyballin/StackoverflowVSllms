@@ -1,1 +1,0 @@
-# Hypothetical macro definition in Python\ndefmacro repeat(n, body):\n    return f"""\nfor _ in range({n}):\n    {body}\n"""\n\n# Usage of the macro\nrepeat(5, """\nprint("Hello, world!")\n""")

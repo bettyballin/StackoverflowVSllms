@@ -1,1 +1,0 @@
-if($("#btext" + i).length) {\n    //alert($("#btext" + i).text());\n    $("#btext" + i).text("Branch " + i);\n}

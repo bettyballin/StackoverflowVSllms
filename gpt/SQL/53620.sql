@@ -1,1 +1,0 @@
--- Access Query\n     SELECT FirstName + " " + LastName AS FullName FROM Employees;\n\n     -- T-SQL Equivalent\n     SELECT FirstName + ' ' + LastName AS FullName FROM Employees;

@@ -1,1 +1,0 @@
-// Example in PHP\n    $name = htmlspecialchars($_POST['name'], ENT_QUOTES, 'UTF-8');

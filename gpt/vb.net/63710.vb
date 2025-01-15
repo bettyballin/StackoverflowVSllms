@@ -1,1 +1,0 @@
-Module Module1\n    Sub Main()\n        Dim chars As Char() = {Chr(149)}\n        Dim bytes As Byte() = Encoding.UTF8.GetBytes(chars)\n        Console.WriteLine(bytes(0))  ' Output depends on the UTF-8 encoding of the character\n    End Sub\nEnd Module

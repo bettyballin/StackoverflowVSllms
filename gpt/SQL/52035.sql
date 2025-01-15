@@ -1,1 +1,0 @@
-CREATE TABLE Records (\n    Id INT PRIMARY KEY IDENTITY,\n    Data NVARCHAR(100),\n    CreatedAt DATETIME DEFAULT GETUTCDATE()\n);\n\nINSERT INTO Records (Data) VALUES ('Sample Data');

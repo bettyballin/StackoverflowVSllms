@@ -1,1 +1,0 @@
-CREATE TABLE MetricsArchive (\n        MetricID INT PRIMARY KEY,\n        MetricDate DATETIME,\n        MetricValue FLOAT\n        -- Other necessary columns\n    );\n\n    CREATE TABLE MetricsSummary (\n        SummaryDate DATETIME,\n        AverageValue FLOAT,\n        MaxValue FLOAT,\n        MinValue FLOAT\n        -- Other summary statistics as required\n    );

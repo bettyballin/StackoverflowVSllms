@@ -1,1 +1,0 @@
-Sub Example(Optional ByVal name As String = "Default", Optional ByVal age As Integer = 0)\n       ' Method implementation\n   End Sub\n\n   ' Using named arguments\n   Example(age:=30, name:="John")

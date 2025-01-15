@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <staticContent>\n      <clientCache cacheControlMode="UseETag" />\n    </staticContent>\n  </system.webServer>\n</configuration>

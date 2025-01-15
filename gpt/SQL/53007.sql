@@ -1,1 +1,0 @@
--- Enable Full-Text Search\n   CREATE FULLTEXT CATALOG ftCatalog AS DEFAULT;\n\n   -- Create Full-Text Index on Users table\n   CREATE FULLTEXT INDEX ON Users(FirstName, LastName)\n   KEY INDEX PK_Users ON ftCatalog;

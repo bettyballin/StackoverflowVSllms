@@ -1,1 +1,0 @@
-function view($id = null) {\n    if (!$id) {\n        $this->Session->setFlash('Invalid person');\n        $this->redirect(array('action' => 'index'));\n    }\n    $this->set('person', $this->Person->findById($id));\n    $this->set('comments', $this->Comment->findAllByPersonId($id));\n}

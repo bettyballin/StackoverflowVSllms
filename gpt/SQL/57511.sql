@@ -1,1 +1,0 @@
-INSERT INTO rankings (name, points) VALUES\n('Ab', 14),\n('Ac', 14),\n('B', 16),\n('C', 16),\n('Da', 15),\n('De', 13);

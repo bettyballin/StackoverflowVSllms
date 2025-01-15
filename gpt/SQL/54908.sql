@@ -1,1 +1,0 @@
-CREATE DATABASE database_name;\nUSE database_name;\n-- rest of the SQL dump

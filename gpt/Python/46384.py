@@ -1,1 +1,0 @@
-from jinja2 import Template\n\n  template = Template('''\n  <table border="0" cellpadding="4">\n    {% for i in range(0, 25, 5) %}\n      <tr align="right">\n        {% for j in range(i, i+5) %}\n          <td bgcolor="{{ 'pink' if j % 2 else 'green' }}">{{ j + 1 }}</td>\n        {% endfor %}\n      </tr>\n    {% endfor %}\n  </table>\n  ''')\n  print(template.render())

@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\nif ($_SERVER['REQUEST_METHOD'] == 'POST') {\n    // Save the POST data to the session\n    $_SESSION['search_preferences'] = $_POST;\n}\n?>

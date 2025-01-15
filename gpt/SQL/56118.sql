@@ -1,1 +1,0 @@
-WITH updated_person AS (\n  SELECT id, nextval('number_sequence') AS new_number\n  FROM person\n)\nUPDATE person\nSET unique_number = updated_person.new_number\nFROM updated_person\nWHERE person.id = updated_person.id;

@@ -1,1 +1,0 @@
-from locust import HttpUser, task, between\n\nclass VideoStreamingUser(HttpUser):\n    wait_time = between(1, 5)\n    \n    @task\n    def stream_video(self):\n        self.client.get("/path/to/video/stream")\n\n# Run the test with 5000 users and a hatch rate of 100 users/second\n# Command: locust -f locustfile.py --host=http://your.streaming.server --users 5000 --spawn-rate 100

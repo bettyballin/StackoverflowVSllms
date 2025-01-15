@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <identity impersonate="true" userName="DOMAIN\myuser" password="mypass" />\n  </system.web>\n</configuration>

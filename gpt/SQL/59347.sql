@@ -1,1 +1,0 @@
--- Query to get the surrounding set of items given a specific date\nWITH SurroundingItems AS (\n    SELECT key, date,\n           LAG(key) OVER (ORDER BY date, key) AS prev_key,\n           LEAD(key) OVER (ORDER BY date, key) AS next_key\n    FROM items\n)\nSELECT *\nFROM SurroundingItems\nORDER BY date, key;

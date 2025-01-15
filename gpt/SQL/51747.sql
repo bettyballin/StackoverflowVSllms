@@ -1,1 +1,0 @@
--- Check table encoding on live server\n   SHOW TABLE STATUS WHERE Name = 'news';\n\n   -- Check column encoding on live server\n   SHOW FULL COLUMNS FROM news;\n\n   -- Repeat the same checks on the mirrored server\n   SHOW TABLE STATUS WHERE Name = 'news';\n   SHOW FULL COLUMNS FROM news;

@@ -1,1 +1,0 @@
-<?php\n// Set the include path to the 'includes' directory outside the public directory\nset_include_path('/var/www/includes');\n\n// Now you can include files from the 'includes' directory\ninclude('header.php');\n?>

@@ -1,1 +1,0 @@
-class Band < ApplicationRecord\n  validate :genre_presence\n\n  def genre_presence\n    if genre.blank?\n      errors.add(:genre, "can't be blank")\n    end\n  end\nend

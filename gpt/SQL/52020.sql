@@ -1,1 +1,0 @@
-ALTER EVENT SESSION [TrackRecompiles] ON SERVER\n   STATE = STOP;\n   \n   DROP EVENT SESSION [TrackRecompiles] ON SERVER;

@@ -1,1 +1,0 @@
-<?php\n$ids = array(1, 2, 3);\n$names = array("cat", "elephant", "cow");\n$originalSettings = array('ids' => $ids, 'names' => $names);\n$jsonSettings = json_encode($originalSettings);\necho $jsonSettings;\n?>

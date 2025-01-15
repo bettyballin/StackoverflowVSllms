@@ -1,1 +1,0 @@
--- Enable advanced options\nEXEC sp_configure 'show advanced options', 1;\nRECONFIGURE;\n\n-- Enable xp_cmdshell\nEXEC sp_configure 'xp_cmdshell', 1;\nRECONFIGURE;

@@ -1,1 +1,0 @@
-UPDATE Posts\nSET CommentCount = (SELECT COUNT(*) FROM Comments WHERE Comments.PostID = Posts.PostID);

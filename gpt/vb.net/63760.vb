@@ -1,1 +1,0 @@
-If IsNumeric(txtProductID.Text.Trim()) Then\n    ' ...do stuff\nElse\n    Dim msg As String = "Error! Input was: " & txtProductID.Text\n    ' Log or display the msg\nEnd If

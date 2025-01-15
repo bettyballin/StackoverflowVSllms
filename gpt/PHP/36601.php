@@ -1,1 +1,0 @@
-$mysqli = new mysqli("localhost", "user", "password", "database");\n\n$stmt = $mysqli->prepare("SELECT * FROM users WHERE username = ? AND password = ?");\n$stmt->bind_param("ss", $username, $password);\n$stmt->execute();\n\n$result = $stmt->get_result();\nwhile ($row = $result->fetch_assoc()) {\n    // Process the result\n}\n$stmt->close();\n$mysqli->close();

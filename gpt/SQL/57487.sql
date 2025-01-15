@@ -1,1 +1,0 @@
-IF @someParameter <> 'ThisType'\nBEGIN\n    SET @someCode = RIGHT(CAST(@pYear AS VARCHAR(6)), 2) + 'THIS'\nEND

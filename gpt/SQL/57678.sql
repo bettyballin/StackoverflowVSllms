@@ -1,1 +1,0 @@
-SELECT *\nFROM A\nJOIN B ON A.AId = B.AId\nJOIN C ON C.BId = B.BId;

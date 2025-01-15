@@ -1,1 +1,0 @@
-# Rails comes with built-in support for Ajax with the `remote: true` option in forms and links.\n  <%= form_with(model: @post, remote: true) do |form| %>\n    <%= form.text_field :title %>\n    <%= form.submit %>\n  <% end %>

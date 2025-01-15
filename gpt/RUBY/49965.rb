@@ -1,1 +1,0 @@
-def my_method\n     x = 10\n     y = 20\n     binding.pry  # Execution will pause here, and you can inspect variables x and y\n     z = x + y\n     puts z\n   end

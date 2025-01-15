@@ -1,1 +1,0 @@
-def my_view(request):\n    # Retrieve the session ID (session key)\n    session_id = request.session.session_key\n    \n    # Use the session ID as needed\n    print(session_id)\n    \n    # Your view logic here\n    return HttpResponse("Session ID retrieved successfully.")

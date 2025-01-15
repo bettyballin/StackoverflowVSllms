@@ -1,1 +1,0 @@
-jQuery(document).ready(function() {\n    jQuery('#storeListTable tr').click(function() {\n        var storeID = this.cells[0].innerHTML;\n\n        jQuery.post("../functions.php", { storeID: storeID }, function(data) {\n            alert(data[0].name); // Assuming data is an array of objects, alert the name of the first object\n        }, "json");\n    });\n});

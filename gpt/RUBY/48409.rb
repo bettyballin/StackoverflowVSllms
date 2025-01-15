@@ -1,1 +1,0 @@
-Rails.application.routes.draw do\n     get 'your_controller/content_section_one', to: 'your_controller#content_section_one'\n     get 'your_controller/content_section_two', to: 'your_controller#content_section_two'\n     get 'your_controller/content_section_three', to: 'your_controller#content_section_three'\n     # Other routes\n   end

@@ -1,1 +1,0 @@
-function __($key, $translations) {\n       return isset($translations[$key]) ? $translations[$key] : $key;\n   }\n   \n   echo __('welcome', $translations); // Outputs: Bienvenido a nuestro sitio web

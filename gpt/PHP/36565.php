@@ -1,1 +1,0 @@
-<?php\nif (class_exists('SQLite3')) {\n    echo "SQLite3 is supported.";\n} else {\n    echo "SQLite3 is not supported.";\n}\n?>

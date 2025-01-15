@@ -1,1 +1,0 @@
-CREATE TABLE UserSettings (\n    UserID INT,\n    Set VARCHAR(50),\n    Key VARCHAR(50),\n    Value NVARCHAR(MAX),\n    TimeStamp DATETIME,\n    PRIMARY KEY (UserID, Set, Key)\n);

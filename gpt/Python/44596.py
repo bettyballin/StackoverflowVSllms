@@ -1,1 +1,0 @@
-from geopy.geocoders import Nominatim\n\n# Initialize the geocoder\ngeolocator = Nominatim(user_agent="offline_geocoder")\n\n# Geocode an address\nlocation = geolocator.geocode("1600 Pennsylvania Ave NW, Washington, DC")\nprint(location.address)\nprint((location.latitude, location.longitude))

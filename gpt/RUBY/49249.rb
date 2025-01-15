@@ -1,1 +1,0 @@
-class PostsController < ApplicationController\n  def createInnovation\n    @post = Post.new(post_params)\n    if @post.save\n      redirect_to @post\n    else\n      render :new\n    end\n  end\n\n  private\n\n  def post_params\n    params.require(:post).permit(:title, :body)\n  end\nend

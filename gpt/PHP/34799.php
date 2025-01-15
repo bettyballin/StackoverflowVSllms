@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\nif (isset($_SESSION['user_id'])) {\n    $userId = $_SESSION['user_id'];\n    // Proceed with the logic using $userId\n    echo "User ID: " . $userId;\n} else {\n    echo "No user is logged in.";\n}\n?>

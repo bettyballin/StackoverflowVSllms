@@ -1,1 +1,0 @@
-DBCC SHRINKFILE (YourFileName, TargetSizeInMB)\nGO

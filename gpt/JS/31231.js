@@ -1,1 +1,0 @@
-// app/javascript/packs/application.js\n    $(document).on('turbolinks:load', function() {\n      $('#star-rating').raty({\n        scoreName: 'rating[score]',\n        click: function(score, evt) {\n          $('#rating-form input[name="rating[score]"]').val(score);\n          $('#rating-form').submit();\n        }\n      });\n    });

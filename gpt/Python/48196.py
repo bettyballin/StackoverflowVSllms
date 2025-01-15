@@ -1,1 +1,0 @@
-import objgraph\n\n   objgraph.show_most_common_types()

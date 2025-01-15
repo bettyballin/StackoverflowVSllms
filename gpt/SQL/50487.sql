@@ -1,1 +1,0 @@
-CREATE TABLE shared_session_data (\n    session_id VARCHAR(255) PRIMARY KEY,\n    attribute_name VARCHAR(255),\n    attribute_value TEXT\n);

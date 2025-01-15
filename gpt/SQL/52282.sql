@@ -1,1 +1,0 @@
-DBCC SHRINKFILE ('ByBox_1_Log', 100); -- Shrink to 100 MB

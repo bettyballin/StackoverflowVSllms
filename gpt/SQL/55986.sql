@@ -1,1 +1,0 @@
-CREATE TABLE users_users (\n    user_id INT NOT NULL,\n    contact_id INT NOT NULL,\n    PRIMARY KEY (user_id, contact_id),\n    FOREIGN KEY (user_id) REFERENCES users(id),\n    FOREIGN KEY (contact_id) REFERENCES users(id)\n);

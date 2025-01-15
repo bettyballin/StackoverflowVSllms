@@ -1,1 +1,0 @@
-from flask import Flask, request\n\napp = Flask(__name__)\n\n@app.route('/submit', methods=['POST'])\ndef submit():\n    if request.form.get('hidden_field'):\n        return "Access Denied", 403\n    username = request.form.get('username')\n    password = request.form.get('password')\n    # Process login\n    return "Login Successful"

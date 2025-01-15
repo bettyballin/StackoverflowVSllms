@@ -1,1 +1,0 @@
-CREATE TABLE users (\n    id INT PRIMARY KEY,\n    username VARCHAR(50),\n    password_hash VARCHAR(255),\n    created_at TIMESTAMP\n);\n\nCREATE TABLE products (\n    id INT PRIMARY KEY,\n    name VARCHAR(100),\n    price DECIMAL(10, 2),\n    stock INT,\n    created_at TIMESTAMP\n);

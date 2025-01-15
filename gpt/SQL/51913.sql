@@ -1,1 +1,0 @@
-CREATE VIEW NotTodayView AS\nSELECT *\nFROM `your_table`\nWHERE DATE(`Date`) != CURRENT_DATE();

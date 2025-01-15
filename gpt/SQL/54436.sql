@@ -1,1 +1,0 @@
-CREATE TABLE YourTable (\n       StartDate DATETIME NULL,\n       EndDate DATETIME NULL,\n       -- other columns\n   );

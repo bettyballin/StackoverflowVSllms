@@ -1,1 +1,0 @@
-# In your Rails controller\n   def index\n     @models = Model.all\n     render json: @models.to_json(methods: [:associated_model_name])\n   end

@@ -1,1 +1,0 @@
-SELECT column1, column2, (column1 + column2) AS virtual_column\nFROM your_table;

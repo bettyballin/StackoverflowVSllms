@@ -1,1 +1,0 @@
-with open(file1, "r", encoding="utf-8") as f1:\n    text = f1.read()\n\nprint(text)

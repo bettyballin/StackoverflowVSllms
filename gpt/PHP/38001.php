@@ -1,1 +1,0 @@
-function handleError($error) {\n    // Log the error or handle it in a centralized place\n    echo "An error occurred: {$error->message} (Code: {$error->code})";\n    // Optionally, you can stop the execution or take other actions\n    // die();\n}

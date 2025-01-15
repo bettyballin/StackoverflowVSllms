@@ -1,1 +1,0 @@
-GRANT FILE ON *.* TO 'username'@'%';\n    FLUSH PRIVILEGES;

@@ -1,1 +1,0 @@
-before(:all) do\n      @items = []\n      3.times { @items << Item.generate_random }\n      @items << Item.generate_random({:price => 50})\n      puts "Generated items: #{@items.inspect}"  # Log the data\n    end

@@ -1,1 +1,0 @@
-EXEC DBMS_STATS.GATHER_TABLE_STATS('schema_name', 'items');\n    EXEC DBMS_STATS.GATHER_TABLE_STATS('schema_name', 'itempages');\n    EXEC DBMS_STATS.GATHER_TABLE_STATS('schema_name', 'keygroupdata');

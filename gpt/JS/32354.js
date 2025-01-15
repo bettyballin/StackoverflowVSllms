@@ -1,1 +1,0 @@
-$.ajax({\n    url: 'https://yourdomain.com/yourwebservice',\n    method: 'POST',\n    headers: {\n        'ApiKey': 'YourSecretApiKey'\n    },\n    success: function(response) {\n        // Handle success\n    },\n    error: function(jqXHR, textStatus, errorThrown) {\n        // Handle error\n    }\n});

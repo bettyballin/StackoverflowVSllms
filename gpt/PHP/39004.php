@@ -1,1 +1,0 @@
-<?= $this->ajaxLink(\n    "Subscribe", \n    $this->url(array('controller' => 'mycontroller', 'action' => 'action1', 'id' => $event['id'])),\n    array(\n        "beforeSend" => "hide",\n        "update" => "#pb_" . $event['id'],\n        'noscript' => false,\n        'method' => 'POST'\n    )\n); ?>

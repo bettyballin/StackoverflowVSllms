@@ -1,1 +1,0 @@
-<?php\nfunction add($a, $b) {\n    return $a + $b;\n}\n\n$result = add(2, 3);\necho $result; // Outputs: 5\n?>

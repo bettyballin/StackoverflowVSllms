@@ -1,1 +1,0 @@
-def divide_list(int_list, num_sublists):\n    k, m = divmod(len(int_list), num_sublists)\n    return [int_list[i * k + min(i, m):(i + 1) * k + min(i + 1, m)] for i in range(num_sublists)]\n\n# Example usage:\nordered_list = [1, 3, 6, 7, 8, 10, 11, 13, 14, 17, 19, 23, 25, 27, 28]\nnum_sublists = 4\nsublists = divide_list(ordered_list, num_sublists)\nprint(sublists)

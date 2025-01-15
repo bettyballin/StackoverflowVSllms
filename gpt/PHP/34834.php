@@ -1,1 +1,0 @@
-// Addition example\n   $amount1 = "100.45";\n   $amount2 = "200.55";\n   $sum = bcadd($amount1, $amount2, 2);\n   echo $sum; // Outputs: 301.00\n\n   // Subtraction example\n   $difference = bcsub($amount2, $amount1, 2);\n   echo $difference; // Outputs: 100.10

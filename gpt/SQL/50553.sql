@@ -1,1 +1,0 @@
-SELECT *\nFROM db1.entry\nWHERE entry_id NOT IN (\n  SELECT entry_id\n  FROM db2.content\n  WHERE entry_id IS NOT NULL\n)\nORDER BY entry_id DESC;

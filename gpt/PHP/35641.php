@@ -1,1 +1,0 @@
-<?php\n$myVarValue = "This is a string with \"quotes\" and \n newlines.";\n?>\n<script>\n  var myvar = <?php echo json_encode($myVarValue); ?>;\n  console.log(myvar);  // This will output: This is a string with "quotes" and newlines.\n</script>

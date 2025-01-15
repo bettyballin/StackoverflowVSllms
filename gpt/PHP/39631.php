@@ -1,1 +1,0 @@
-while($payloads = $conn->processUntil(array('message', 'presence', 'end_stream', 'session_start'))) {\n        foreach($payloads as $event) {\n            $pl = $event[1];\n            if($event[0] == 'message') {\n                echo "Message from: {$pl['from']}\n";\n                echo "Message body: {$pl['body']}\n";\n            }\n        }\n    }

@@ -1,1 +1,0 @@
-$pattern = "/%Data_Index\[(\d+)\]%/";\n$replacement = '$this->resultGData[$key][$1]';\n$var = preg_replace($pattern, $replacement, $var);

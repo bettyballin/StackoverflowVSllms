@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.open('GET', 'https://api.example.com/data', true);\nxhr.withCredentials = true; // if you need to send cookies\nxhr.onreadystatechange = function() {\n  if (xhr.readyState == 4 && xhr.status == 200) {\n    console.log(JSON.parse(xhr.responseText));\n  }\n};\nxhr.send();

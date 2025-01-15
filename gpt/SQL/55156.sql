@@ -1,1 +1,0 @@
-CREATE INDEX idx_table1_objectid ON Table1(ObjectID);\nCREATE INDEX idx_table2_objectid ON Table2(ObjectID);

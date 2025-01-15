@@ -1,1 +1,0 @@
-Dim areEqual As Boolean = ByteArrayCompare(_Bytes, item.Bytes)\nIf Not areEqual Then\n    ' Handle mismatch logic here\nEnd If

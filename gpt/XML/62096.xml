@@ -1,1 +1,0 @@
-<global-exceptions>\n       <exception type="java.lang.Exception" key="global.error" path="/error.jsp"/>\n   </global-exceptions>

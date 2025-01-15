@@ -1,1 +1,0 @@
-' Example of a Console Application to debug the service logic\n    Module Module1\n        Sub Main()\n            Dim service As New YourServiceClass()\n            service.StartService()\n            Console.WriteLine("Service is running... Press Enter to stop.")\n            Console.ReadLine()\n            service.StopService()\n        End Sub\n    End Module

@@ -1,1 +1,0 @@
-self.addEventListener('fetch', (event) => {\n       event.respondWith(\n           caches.match(event.request).then((response) => {\n               return response || fetch(event.request);\n           })\n       );\n   });

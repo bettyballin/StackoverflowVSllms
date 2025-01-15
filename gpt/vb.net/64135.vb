@@ -1,1 +1,0 @@
-Dim dr As dbDataReader = Nothing\n\nTry\n    dr = connection.getDataReader(sql_str)\nCatch ex As sqlClientException\n    log.error(ex)\nFinally\n    If Not IsNothing(dr) Then\n        dr.Close()\n    End If\nEnd Try

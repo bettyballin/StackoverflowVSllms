@@ -1,1 +1,0 @@
-$config = [\n       'auth' => 'login',\n       'username' => 'your_username',\n       'password' => 'your_password',\n       'ssl' => 'tls', // or 'ssl' depending on your SMTP server\n       'port' => 587   // commonly used ports: 25, 465, 587\n   ];

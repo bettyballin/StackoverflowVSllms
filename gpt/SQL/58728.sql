@@ -1,1 +1,0 @@
-SELECT\n    omID,\n    Fruit.value('(imageId)[1]', 'int') AS imageId,\n    Fruit.value('(title)[1]', 'nvarchar(100)') AS title\nFROM\n    dbo.myTable\nCROSS APPLY\n    omText.nodes('/things/Fruit') AS XTbl(Fruit)\nWHERE\n    Fruit.value('(title)[1]', 'nvarchar(100)') = 'X';

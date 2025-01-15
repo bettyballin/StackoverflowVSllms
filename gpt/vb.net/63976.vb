@@ -1,1 +1,0 @@
-Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load\n    Dim childPageName As String = System.IO.Path.GetFileName(Request.Url.AbsolutePath)\n    ' Now you have the child page name in the childPageName variable\n    ' You can use it as needed\n    Response.Write("Child page name: " & childPageName)\nEnd Sub

@@ -1,1 +1,0 @@
-SELECT LISTAGG(country_name, ', ') WITHIN GROUP (ORDER BY country_name) AS countries\nFROM countries;

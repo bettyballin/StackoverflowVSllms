@@ -1,1 +1,0 @@
-CREATE INDEX idx_user_action ON user_actions(action_type);

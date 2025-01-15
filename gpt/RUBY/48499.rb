@@ -1,1 +1,0 @@
-# app/models/vertex.rb\nclass Vertex < ApplicationRecord\n  acts_as_graph :edge_class => 'Edge', :vertex_class => 'Vertex'\nend\n\n# app/models/edge.rb\nclass Edge < ApplicationRecord\n  belongs_to :source, class_name: 'Vertex'\n  belongs_to :sink, class_name: 'Vertex'\nend

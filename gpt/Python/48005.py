@@ -1,1 +1,0 @@
-magnitude = sqrt(real^2 + imag^2)

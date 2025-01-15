@@ -1,1 +1,0 @@
-# Example set\ns = {'a', 'b', 'c'}\n\n# Convert set to list\np = list(s)\n\nprint(p)

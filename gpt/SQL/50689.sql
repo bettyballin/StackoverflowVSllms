@@ -1,1 +1,0 @@
--- Add a computed column to store the hash value\nALTER TABLE YourTable\nADD HashColumn AS CAST(HASHBYTES('SHA1', YourNvarcharColumn) AS BINARY(20));\n\n-- Create an index on the hash column\nCREATE INDEX IX_YourTable_HashColumn ON YourTable (HashColumn);

@@ -1,1 +1,0 @@
-function createUserFolder($email) {\n    $folderName = md5($email);\n    $path = "users/{$folderName}";\n    if (!file_exists($path)) {\n        mkdir($path, 0755, true);\n    }\n    return $path;\n}

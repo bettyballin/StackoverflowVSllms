@@ -1,1 +1,0 @@
--- Connect as magnus to WebFacing database and try executing the procedure\nEXEC WebFacing.dbo.Get_Some_Data;

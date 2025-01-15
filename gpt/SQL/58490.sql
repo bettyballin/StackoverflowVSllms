@@ -1,1 +1,0 @@
-BEGIN;\n   -- SQL operations\n   COMMIT;

@@ -1,1 +1,0 @@
-function updateChat() {\n    $.get("chat_data.php", function(data) {\n        $("div#chattable").html(data);\n    });\n}\n\n$(document).ready(function() {\n    (function autoRefresh() {\n        updateChat();\n        setTimeout(autoRefresh, 2000); // Call autoRefresh again after 2 seconds\n    })();\n});

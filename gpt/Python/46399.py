@@ -1,1 +1,0 @@
-import keplergl\n    import pandas as pd\n\n    # Load your data into a pandas DataFrame\n    data = pd.read_csv('your_data.csv')\n\n    # Create a Kepler map\n    map_1 = keplergl.KeplerGl(height=400)\n\n    # Add data to the map\n    map_1.add_data(data=data, name="geocoded_data")\n\n    # Save the map to an HTML file\n    map_1.save_to_html(file_name='kepler_map.html')

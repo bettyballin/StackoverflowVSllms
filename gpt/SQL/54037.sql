@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.GenerateRowHash (@Column1 NVARCHAR(MAX), @Column2 NVARCHAR(MAX), ...)\n   RETURNS VARBINARY(64)\n   AS\n   BEGIN\n       RETURN HASHBYTES('SHA2_512', @Column1 + @Column2 + ...);\n   END;

@@ -1,1 +1,0 @@
-Dim hashToFind As Byte() = TheData!Hash\nDim matchingRows As New List(Of DataRow)\n\nFor Each row As DataRow In dt.Rows\n    Dim rowHash As Byte() = CType(row("Hash"), Byte())\n    If rowHash.SequenceEqual(hashToFind) Then\n        matchingRows.Add(row)\n    End If\nNext\n\n' Convert the list to an array if needed\nDim resultRows As DataRow() = matchingRows.ToArray()

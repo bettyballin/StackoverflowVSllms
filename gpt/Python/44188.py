@@ -1,1 +1,0 @@
-def adjust_for_new_items(score, created_at, threshold_time=3600, min_score=0.5):\n       age = time.time() - created_at\n       if age < threshold_time:\n           return max(score, min_score)\n       return score

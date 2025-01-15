@@ -1,1 +1,0 @@
-Question.where.not(id: LevelsQuestion.where(level_id: 15).select(:question_id)).select(:id, :name)

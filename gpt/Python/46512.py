@@ -1,1 +1,0 @@
-#!/usr/bin/python\n   import os\n   import cx_Oracle\n   import defs as df\n\n   os.environ['ORACLE_HOME'] = '/oracledb/10.2.0/'\n   os.environ['LD_LIBRARY_PATH'] = '/oracledb/10.2.0/lib'\n\n   con = cx_Oracle.connect(df.DB_USER, df.DB_PASS, df.DB_SID)\n   print("Content-Type: text/plain\n")\n   print(con)

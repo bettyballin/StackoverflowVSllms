@@ -1,1 +1,0 @@
-TextBox1.Text = TextBox1.Text & ColorDialog1.Color.Name

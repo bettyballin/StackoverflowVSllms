@@ -1,1 +1,0 @@
-SELECT * \nFROM Tree\nWHERE LeftValue >= @RootLeftValue AND RightValue <= @RootRightValue\nORDER BY LeftValue;

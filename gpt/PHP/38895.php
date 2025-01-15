@@ -1,1 +1,0 @@
-// ORM query example (e.g., using Doctrine ORM in PHP)\n$user = $entityManager->find('User', $userId);

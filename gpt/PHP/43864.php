@@ -1,1 +1,0 @@
-function escapeCSV($string) {\n    $string = str_replace('"', '""', $string); // escape every " with ""\n    if (strpos($string, ',') !== false) {\n        $string = '"' . $string . '"'; // if a field has a comma, enclose it with double quotes\n    }\n    return $string;\n}

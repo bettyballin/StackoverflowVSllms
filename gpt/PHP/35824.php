@@ -1,1 +1,0 @@
-$client = $CLIENT->find($options)[0];

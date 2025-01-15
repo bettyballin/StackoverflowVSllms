@@ -1,1 +1,0 @@
-function tui_cifp_evaluate_html($string) {\n    return preg_replace_callback("/(\[categoryID\])/", 'replace_category_id', $string);\n}\n\nfunction replace_category_id($matches) {\n    $categories = get_the_category();\n    if (!empty($categories)) {\n        return $categories[0]->cat_ID;\n    }\n    return '';\n}

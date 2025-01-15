@@ -1,1 +1,0 @@
-public function save(Doctrine_Connection $conn = null)

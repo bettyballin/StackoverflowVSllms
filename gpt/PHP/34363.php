@@ -1,1 +1,0 @@
-function generateSecureURL($length = 32) {\n    // Generate a secure random string\n    $randomBytes = random_bytes($length);\n    \n    // Convert the binary data to a hexadecimal representation\n    $secureToken = bin2hex($randomBytes);\n    \n    return $secureToken;\n}\n\n// Example usage\n$secureURL = generateSecureURL();\necho "Secure URL Token: " . $secureURL;

@@ -1,1 +1,0 @@
-$_SESSION['foo'] = serialize($this->foo);

@@ -1,1 +1,0 @@
-from bisect import insort\n  for item in new_items:\n      insort(sorted_list, item)

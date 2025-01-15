@@ -1,1 +1,0 @@
-INSERT INTO your_table (your_date_column)\nVALUES (\n    TO_TIMESTAMP_TZ('2009-02-13T11:46:40+00:00', 'YYYY-MM-DD"T"HH24:MI:SS.FFTZH:TZM')\n);

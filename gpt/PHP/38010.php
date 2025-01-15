@@ -1,1 +1,0 @@
-<?php\n$string = "abc fox fox fox ghi xyz";\n$substring = "fox";\n\n// Get the number of times 'fox' is repeated in the string\n$count = substr_count($string, $substring);\n\necho "The substring 'fox' is repeated $count times in the string.";\n?>

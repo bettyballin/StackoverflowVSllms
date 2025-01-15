@@ -1,1 +1,0 @@
-$.ajax({\n     url: 'http://www.foo.com/blah.html',\n     dataType: 'jsonp',\n     success: function(data) {\n       $('#myDiv').html(data.message);\n     },\n     error: function() {\n       console.error('Error during JSONP request');\n     }\n   });

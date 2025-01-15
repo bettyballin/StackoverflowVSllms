@@ -1,1 +1,0 @@
-/* \nThis is a multiline comment.\nIt can span multiple lines.\n*/\nSELECT * FROM employees;

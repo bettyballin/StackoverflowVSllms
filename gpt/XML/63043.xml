@@ -1,1 +1,0 @@
-<dependency>\n       <groupId>org.xmlunit</groupId>\n       <artifactId>xmlunit-core</artifactId>\n       <version>2.8.2</version>\n   </dependency>

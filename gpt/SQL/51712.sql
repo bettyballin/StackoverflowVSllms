@@ -1,1 +1,0 @@
-REVOKE INSERT, UPDATE ON your_database.your_table FROM 'your_user'@'your_host';

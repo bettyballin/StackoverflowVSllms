@@ -1,1 +1,0 @@
-<?php\nclass Authentication {\n    public function checkLogin() {\n        // Authentication logic here\n    }\n}\n?>

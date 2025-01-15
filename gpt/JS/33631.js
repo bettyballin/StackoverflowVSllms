@@ -1,1 +1,0 @@
-// userService.js\nconst getUser = (id) => {\n  // Mock fetching a user from a database\n  return { id, name: 'Test User' };\n};\n\n// userService.test.js\nconst getUser = require('./userService');\n\ntest('fetches user by ID', () => {\n  const user = getUser(1);\n  expect(user).toEqual({ id: 1, name: 'Test User' });\n});

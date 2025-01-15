@@ -1,1 +1,0 @@
-// Define the update site in site.xml\n   <site>\n       <feature url="features/your.custom.feature_1.0.0.jar" id="your.custom.feature" version="1.0.0"/>\n   </site>

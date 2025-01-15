@@ -1,1 +1,0 @@
-require_once(__DIR__ . '/../config.php'); // Adjust the number of ../ based on the directory structure

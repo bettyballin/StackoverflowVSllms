@@ -1,1 +1,0 @@
-// Before storing in session, serialize and unserialize to ensure it works.\n    $userSerialized = serialize($user);\n    $userUnserialized = unserialize($userSerialized);\n    \n    $menuMapSerialized = serialize($menuMap);\n    $menuMapUnserialized = unserialize($menuMapSerialized);

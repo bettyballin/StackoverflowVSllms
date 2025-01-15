@@ -1,1 +1,0 @@
-session_start();\n   $user_id = $_SESSION['user_id'];\n\n   if (!has_permission($user_id, 'view_students')) {\n       die('Access denied');\n   }\n\n   // Proceed with the page content

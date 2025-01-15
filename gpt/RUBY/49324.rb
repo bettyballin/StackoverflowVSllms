@@ -1,1 +1,0 @@
-require 'mocha/minitest'\n\nclass OrderTest < ActiveSupport::TestCase\n  def setup\n    Order.any_instance.stubs(:set_initial_state)\n    @order = FactoryGirl.create(:order, state: "other_state")\n  end\n\n  # Your test cases here\nend

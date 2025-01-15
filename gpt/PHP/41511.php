@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\n// Your XML editing code goes here\n\nif ($success) {\n    $_SESSION['message'] = 'Editing successful!';\n} else {\n    $_SESSION['message'] = 'Editing failed!';\n}\n\nheader('Location: form.php');\nexit();\n?>

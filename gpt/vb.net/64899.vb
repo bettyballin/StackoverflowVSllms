@@ -1,1 +1,0 @@
-System.Threading.Thread.Sleep(100) ' Adjust the delay as needed\nNativeMethods.SendEnterKey()

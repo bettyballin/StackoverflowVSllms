@@ -1,1 +1,0 @@
-DELIMITER $$\n\n    CREATE TRIGGER before_insert_your_table\n    BEFORE INSERT ON your_table\n    FOR EACH ROW\n    BEGIN\n        SET NEW.timestamp = STR_TO_DATE(LEFT(NEW.id, 8), '%Y%m%d');\n    END$$\n\n    DELIMITER ;

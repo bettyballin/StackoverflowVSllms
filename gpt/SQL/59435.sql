@@ -1,1 +1,0 @@
--- This is a simple example to create a trace using SQL Profiler.\n   -- In SQL Server Profiler, you can create a new trace.\n   -- Select "Events Selection" tab, and check "TSQL-SQL:BatchStarting" and "TSQL-SQL:BatchCompleted".\n   -- Start the trace and let it run for a period of time that you think is sufficient to capture all table usage.

@@ -1,1 +1,0 @@
-SELECT COALESCE(l.result, 'fin') AS result\nFROM MyTable m\nLEFT JOIN LookupTable l ON m.foo = l.foo\nLIMIT 1;

@@ -1,1 +1,0 @@
-CREATE INDEX my_hash_index ON my_table USING HASH (my_column);

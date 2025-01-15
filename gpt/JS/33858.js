@@ -1,1 +1,0 @@
-const string = "Your example string with some matches: match1, match2, match3.";\nconst regex = /match\d/g; // Regular expression with global flag\n\nconst matches = string.match(regex);\n\nconsole.log(matches); // Output: ["match1", "match2", "match3"]

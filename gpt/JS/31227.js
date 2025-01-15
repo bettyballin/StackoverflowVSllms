@@ -1,1 +1,0 @@
-let timeout = setTimeout(() => {\n  alert("Stopping due to timeout");\n  throw new Error("Timeout reached");\n}, 3000); // 3 seconds timeout\n\nwhile (/* your condition */) {\n  // Your code here\n  alert("Debug message");\n\n  // Clear the timeout if the condition is met\n  if (/* condition to break the loop */) {\n    clearTimeout(timeout);\n    break;\n  }\n}

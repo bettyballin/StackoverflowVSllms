@@ -1,1 +1,0 @@
--- Enable snapshot isolation at the database level\nALTER DATABASE YourDatabaseName\nSET ALLOW_SNAPSHOT_ISOLATION ON;\n\n-- Begin a transaction with snapshot isolation level\nSET TRANSACTION ISOLATION LEVEL SNAPSHOT;\nBEGIN TRANSACTION;\n\n-- Your SQL operations here\n\nCOMMIT TRANSACTION;

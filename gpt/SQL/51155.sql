@@ -1,1 +1,0 @@
-ALTER TABLE ChildTable\n   ADD CONSTRAINT FK_ChildTable_ParentTable\n   FOREIGN KEY (ContractNumber)\n   REFERENCES ParentTable(ContractNumber)\n   ON UPDATE CASCADE;

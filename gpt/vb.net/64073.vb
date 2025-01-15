@@ -1,1 +1,0 @@
-Option Strict On\n\nDim value As Object = "123"\nDim number As Integer = CType(value, Integer) ' Explicit conversion required

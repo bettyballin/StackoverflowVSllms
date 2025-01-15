@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded", function() {\n    var child = document.getElementById("child");\n    var childScrollWidth = child.scrollWidth;\n    console.log("Child element's full width including overflow: " + childScrollWidth + "px");\n});

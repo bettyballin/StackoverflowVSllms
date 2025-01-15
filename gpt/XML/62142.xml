@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <handlers>\n      <add name="SimpleRestHandler" path="api/hello" verb="*" type="SimpleRestHandler" resourceType="Unspecified" />\n    </handlers>\n  </system.webServer>\n</configuration>

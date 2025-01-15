@@ -1,1 +1,0 @@
-SELECT Type,\n       COALESCE([Cash], 0) AS Cash,\n       COALESCE([Check], 0) AS Check\nFROM (\n    SELECT Type, Method, Amount\n    FROM YourTableName\n) AS SourceTable\nPIVOT (\n    SUM(Amount)\n    FOR Method IN ([Cash], [Check])\n) AS PivotTable\nORDER BY Type;

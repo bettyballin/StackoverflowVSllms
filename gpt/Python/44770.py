@@ -1,1 +1,0 @@
-import heapq\n\ndef mins(items, n):\n    return heapq.nsmallest(n, items)

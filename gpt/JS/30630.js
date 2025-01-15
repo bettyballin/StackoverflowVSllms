@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    // Using event delegation for dynamically added elements\n    $('#mylist').on('click', '.remove', function() {\n        $(this).parent().hide('slow', function() {\n            $(this).remove();\n        });\n    });\n\n    $('.add').click(function(){ \n        $('#mylist').append('<li>Item 3 <a class="remove">X</a></li>');\n    });\n});

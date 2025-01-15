@@ -1,1 +1,0 @@
-SELECT product_id, AVG(rating) as average_rating\nFROM vote_details\nWHERE product_id = :product_id\nGROUP BY product_id;

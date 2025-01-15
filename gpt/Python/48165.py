@@ -1,1 +1,0 @@
-# Using select_related for foreign key relationships\n   queryset = MyModel.objects.select_related('related_model').all()\n\n   # Using prefetch_related for many-to-many relationships\n   queryset = MyModel.objects.prefetch_related('many_to_many_field').all()

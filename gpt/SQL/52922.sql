@@ -1,1 +1,0 @@
-SELECT CustomerNumber, CustomerName\nFROM Customer\nWHERE User = ?\nORDER BY REGEXP_SUBSTR(CustomerNumber, '^\d+'), -- Extract numeric part\n         LPAD(CustomerNumber, 20, '0'); -- Pad for alphanumeric sort

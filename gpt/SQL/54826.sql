@@ -1,1 +1,0 @@
-WITH RankedLanguages AS (\n    SELECT \n        PERSON, \n        LANGUAGE, \n        ..., \n        ROW_NUMBER() OVER (PARTITION BY LANGUAGE ORDER BY PERSON) AS rn\n    FROM \n        A\n)\nSELECT \n    PERSON, \n    LANGUAGE, \n    ...\nFROM \n    RankedLanguages\nWHERE \n    rn = 1;

@@ -1,1 +1,0 @@
-def get_mime_type(mime_type):\n    if mime_type in ["image/pjpeg", "image/x-citrix-pjpeg"]:\n        return "image/jpeg"\n    return mime_type\n\n# Example usage\nuploaded_mime_type = "image/x-citrix-pjpeg"\nstandard_mime_type = get_mime_type(uploaded_mime_type)\nprint(standard_mime_type)  # Output: image/jpeg

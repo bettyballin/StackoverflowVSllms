@@ -1,1 +1,0 @@
-header("Pragma: public");\nheader("Expires: 0");\nheader("Cache-Control: private");\nheader("Content-type: text/html"); // Change this to text/html\nheader("Content-Disposition: attachment; filename=$filename");\nheader("Accept-Ranges: bytes");\n\n// Wrap the CSV output in a <textarea>\necho '<textarea>';\necho $csv_content; // Your CSV content here\necho '</textarea>';

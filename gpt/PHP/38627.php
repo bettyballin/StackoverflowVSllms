@@ -1,1 +1,0 @@
-<?php\nrequire_once('vendor/autoload.php');\n\n$html = <<<EOD\n<table border="1">\n    <tr>\n        <th>Header 1</th>\n        <th>Header 2</th>\n    </tr>\n    <tr>\n        <td>Data 1</td>\n        <td>Data 2</td>\n    </tr>\n</table>\nEOD;\n\n$pdf = new \TCPDF();\n$pdf->AddPage();\n$pdf->writeHTML($html, true, false, true, false, '');\n$pdf->Output('table.pdf', 'I');\n?>

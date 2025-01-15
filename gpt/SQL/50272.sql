@@ -1,1 +1,0 @@
-CREATE TABLE users (\n    name TEXT,\n    email TEXT\n);\n\nINSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com');\nINSERT INTO users (name, email) VALUES ('Bob', 'bob@example.com');\n\nSELECT rowid, name, email FROM users;

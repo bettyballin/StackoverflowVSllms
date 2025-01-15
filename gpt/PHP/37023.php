@@ -1,1 +1,0 @@
-<?php\nuse function String\match;\n\n$result = match('Hello', 'hello');\necho $result ? 'Match' : 'No Match'; // Output: Match\n?>

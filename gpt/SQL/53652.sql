@@ -1,1 +1,0 @@
-EXEC ('EXEC sp_server_info 2') AT [YourLinkedServerName]

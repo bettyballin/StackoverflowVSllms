@@ -1,1 +1,0 @@
-// Example in PHP\n    session_start();\n    if ($_SERVER['REQUEST_METHOD'] === 'POST') {\n        if (!hash_equals($_SESSION['token'], $_POST['token'])) {\n            die("CSRF token validation failed");\n        }\n    }

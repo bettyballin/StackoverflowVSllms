@@ -1,1 +1,0 @@
--- Assuming your table is named 'your_table' and the static column is 'static_column'\n\n-- First, perform the SQLXMLBulkLoad operation to load the data into your table\n\n-- Then, update the table to add the static column to every record\nUPDATE your_table\nSET static_column = 'your_static_value';

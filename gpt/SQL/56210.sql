@@ -1,1 +1,0 @@
-UPDATE foo\nSET Sync = ~@IsNew

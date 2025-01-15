@@ -1,1 +1,0 @@
-class QuestionsController < ApplicationController\n  def question_params\n    params.require(:question).permit(:content, :answer, :hint, :tag_list)\n  end\nend

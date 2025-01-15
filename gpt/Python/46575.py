@@ -1,1 +1,0 @@
-if not is_human_behavior(user_interactions):\n        block_user()

@@ -1,1 +1,0 @@
-<?php\n   function validate_license($license_key) {\n       $url = "https://yourserver.com/validate_license?key=" . $license_key;\n       $response = file_get_contents($url);\n       return $response === "valid";\n   }\n\n   $license_key = "user_provided_license_key";\n   if (!validate_license($license_key)) {\n       die("Invalid license key.");\n   }\n   ?>

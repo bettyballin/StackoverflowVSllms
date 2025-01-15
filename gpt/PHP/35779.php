@@ -1,1 +1,0 @@
-// insert the venue\n$insertLoc = "INSERT IGNORE INTO locations (name, address, city, state, zip) VALUES ('$venueName','$streetAddress', '$city', '$state', '$zip')";\necho $insertLoc;\nmysql_query($insertLoc) or die(mysql_error()); // Corrected this line

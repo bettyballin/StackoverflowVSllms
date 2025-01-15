@@ -1,1 +1,0 @@
-$string = "example,@#$(@*810";\n$cleaned_string = preg_replace("/[^a-zA-Z0-9]/", "", $string);\necho $cleaned_string; // Outputs: example810

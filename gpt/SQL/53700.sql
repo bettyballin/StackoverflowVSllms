@@ -1,1 +1,0 @@
-SELECT YEAR(registerDate) AS year, WEEK(registerDate) AS week, COUNT(*) AS total_per_week \n   FROM #__users \n   GROUP BY YEAR(registerDate), WEEK(registerDate);

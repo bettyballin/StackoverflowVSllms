@@ -1,1 +1,0 @@
-declare @xmldata xml\n\nset @xmldata = \n    '<Collection>\n        <Plan>\n            <StateCode>UNKNOWN</StateCode>\n            <Type>Tubular</Type> \n        </Plan>\n    </Collection>'\n\nset @xmldata.modify('replace value of (/Collection/Plan/StateCode/text())[1] with "FOO"')\n\nselect @xmldata

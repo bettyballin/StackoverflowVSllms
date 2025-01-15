@@ -1,1 +1,0 @@
-<!-- Entity2.hbm.xml -->\n<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">\n  <class name="YourNamespace.Entity2, YourAssembly" table="Entity2">\n    <id name="Id" column="Id">\n      <generator class="native"/>\n    </id>\n    <!-- Define other properties of Entity2 here -->\n  </class>\n</hibernate-mapping>

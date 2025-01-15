@@ -1,1 +1,0 @@
-# settings.py\n\nTEST_RUNNER = 'myapp.test_runner.NoDbTestRunner'

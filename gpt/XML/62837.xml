@@ -1,1 +1,0 @@
-<Target Name="AfterBuild">\n  <Copy SourceFiles="@(IntermediateAssembly)" DestinationFolder="$(SolutionRoot)\Binaries\$(Configuration)\" />\n</Target>

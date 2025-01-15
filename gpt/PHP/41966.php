@@ -1,1 +1,0 @@
-$start = microtime(true);\n\n   // Your XML processing code\n\n   $end = microtime(true);\n   echo 'Processing time: ' . ($end - $start) . ' seconds';

@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetCustomerOrders\n    @CustomerId INT\nWITH RECOMPILE\nAS\nBEGIN\n    SELECT *\n    FROM Orders\n    WHERE CustomerId = @CustomerId;\nEND

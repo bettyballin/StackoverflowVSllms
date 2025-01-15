@@ -1,1 +1,0 @@
-WITH HostLogs AS (\n    SELECT\n        HOST,\n        LAST_RUN,\n        RESULT,\n        ROW_NUMBER() OVER (PARTITION BY HOST ORDER BY LAST_RUN DESC) AS rn\n    FROM\n        YourLogTable\n)\nSELECT\n    HOST,\n    LAST_RUN,\n    RESULT\nFROM\n    HostLogs\nWHERE\n    rn = 1;

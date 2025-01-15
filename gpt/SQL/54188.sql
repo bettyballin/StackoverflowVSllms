@@ -1,1 +1,0 @@
-DECLARE @ConvertedValue INT;\n\nSET @ConvertedValue = TRY_CONVERT(INT, @Criteria);\n\nIF @ConvertedValue IS NOT NULL\nBEGIN\n    SET @Id = @ConvertedValue;\nEND\nELSE\nBEGIN\n    -- Handle the error case, for example by setting a default value or raising an error\n    SET @Id = -1; -- or any other appropriate default/error value\n    -- RAISERROR('Conversion failed', 16, 1);\nEND

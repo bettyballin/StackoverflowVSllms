@@ -1,1 +1,0 @@
-<system.web>\n       <sessionState timeout="20" cookieless="UseCookies" />\n       <authentication mode="Forms">\n           <forms loginUrl="~/Account/Login" timeout="2880" slidingExpiration="true" />\n       </authentication>\n   </system.web>

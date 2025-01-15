@@ -1,1 +1,0 @@
-SELECT * FROM Sales\nWHERE sold_on_indexable = DATE '9999-12-31'\nAND total = 9.99;

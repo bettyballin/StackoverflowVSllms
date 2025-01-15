@@ -1,1 +1,0 @@
-CREATE TRIGGER trgAfterInsertUpdate\nON dbo.YourTable\nAFTER INSERT, UPDATE\nAS\nBEGIN\n    DECLARE @param1 INT;\n\n    -- Assume you are getting some value from inserted/updated rows\n    SELECT @param1 = Column1 FROM inserted;\n\n    -- Call the stored procedure\n    EXEC dbo.UpdateTargetTable @param1;\nEND\nGO

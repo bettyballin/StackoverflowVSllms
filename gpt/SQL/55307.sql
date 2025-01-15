@@ -1,1 +1,0 @@
-WITH RECURSIVE path_to_root AS (\n    SELECT id, parent_id, title\n    FROM categories\n    WHERE id = :category_id  -- Replace :category_id with the ID of the desired category\n    UNION ALL\n    SELECT c.id, c.parent_id, c.title\n    FROM categories c\n    JOIN path_to_root p ON p.parent_id = c.id\n)\nSELECT * FROM path_to_root;

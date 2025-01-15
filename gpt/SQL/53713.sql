@@ -1,1 +1,0 @@
--- Reconnect and provide the passphrase\n   PRAGMA key = 'your_secure_passphrase';\n\n   -- Query the secrets table\n   SELECT * FROM secrets;

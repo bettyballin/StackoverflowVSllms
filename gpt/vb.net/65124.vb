@@ -1,1 +1,0 @@
-' Close all open forms\nFor i As Integer = Application.OpenForms.Count - 1 To 0 Step -1\n    Application.OpenForms(i).Close()\nNext

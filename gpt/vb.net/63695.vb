@@ -1,1 +1,0 @@
-Dim myList As New List(Of YourObjectType)()\n' Populate your list here\nDim result As XElement = CreateBaseArrayInputs(myList, "RefDes")

@@ -1,1 +1,0 @@
-$.ajax({\n    url: 'http://example.com/api',\n    dataType: 'jsonp',\n    success: function(data) {\n        console.log(data);\n    }\n});

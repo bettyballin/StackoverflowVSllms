@@ -1,1 +1,0 @@
-// PHP example of wrapping JSON response\n    echo ")]}',\n" . json_encode($data);

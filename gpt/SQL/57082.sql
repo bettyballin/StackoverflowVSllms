@@ -1,1 +1,0 @@
-RUN {\n     RESTORE CONTROLFILE FROM '<path_to_controlfile_backup>';\n     ALTER DATABASE MOUNT;\n   }

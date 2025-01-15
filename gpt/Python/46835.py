@@ -1,1 +1,0 @@
-import os\n\n# Get the full path of the currently executing file\ncurrent_file_path = os.path.abspath(__file__)\n\n# Print the full path\nprint("Current executing file path:", current_file_path)

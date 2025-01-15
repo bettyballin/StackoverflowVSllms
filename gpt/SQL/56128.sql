@@ -1,1 +1,0 @@
-SELECT * FROM sometable WHERE foo='hello' AND bar='world';

@@ -1,1 +1,0 @@
-DBCC CHECKTABLE('your_table_name', REPAIR_REBUILD);

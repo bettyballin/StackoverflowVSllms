@@ -1,1 +1,0 @@
-// Disable or limit logging\n    $debug->disable();

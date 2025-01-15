@@ -1,1 +1,0 @@
-# models.py\nfrom django.db import models\n\nclass Data(models.Model):\n    label = models.CharField(max_length=30)\n    file = models.FileField(upload_to="data")

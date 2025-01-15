@@ -1,1 +1,0 @@
-echo $record['post_date'];

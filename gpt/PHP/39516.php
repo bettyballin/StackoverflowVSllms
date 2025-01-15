@@ -1,1 +1,0 @@
-include_path = ".:/path/to/your/document_root:/another/path"

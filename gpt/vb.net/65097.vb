@@ -1,1 +1,0 @@
-Dim submittedDate As DateTime = New DateTime(2023, 1, 1, 12, 0, 0)\nDim relativeTime As String = GetRelativeTime(submittedDate)\nConsole.WriteLine(relativeTime)

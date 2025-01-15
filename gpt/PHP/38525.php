@@ -1,1 +1,0 @@
-$this->Form->find('all', [\n    'fields' => ['id'],\n    'order' => ['id' => 'DESC'],\n    'limit' => 1\n]);

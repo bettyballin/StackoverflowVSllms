@@ -1,1 +1,0 @@
-def foo(x):\n       if foo.debug:\n           print("Debugging foo:", x)\n\n   foo.debug = True

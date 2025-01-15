@@ -1,1 +1,0 @@
--- Create a table\n   CREATE TABLE employees (\n       id INT PRIMARY KEY,\n       name VARCHAR(100),\n       position VARCHAR(100)\n   );\n\n   -- Insert data\n   INSERT INTO employees (id, name, position) VALUES (1, 'John Doe', 'Manager');\n\n   -- Query data\n   SELECT * FROM employees WHERE position = 'Manager';

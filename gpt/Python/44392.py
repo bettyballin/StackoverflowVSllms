@@ -1,1 +1,0 @@
-from postal.parser import parse_address\n\naddress = "23 Street n. 213 new york ny"\n\nparsed = parse_address(address)\nprint(parsed)

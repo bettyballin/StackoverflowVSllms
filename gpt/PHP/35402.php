@@ -1,1 +1,0 @@
-header("Pragma: public");\nheader("Expires: 0");\nheader("Cache-Control: must-revalidate, post-check=0, pre-check=0");\nheader("Content-Type: application/pdf");\nheader("Content-Disposition: inline; filename=\"file.pdf\"");\nheader("Content-Length: " . filesize("path/to/your/file.pdf"));

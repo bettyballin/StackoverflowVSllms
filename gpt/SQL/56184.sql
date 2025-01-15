@@ -1,1 +1,0 @@
-WITH RECURSIVE ordered_list AS (\n    SELECT id, value, next_id\n    FROM linked_list\n    WHERE next_id IS NULL\n\n    UNION ALL\n\n    SELECT ll.id, ll.value, ll.next_id\n    FROM linked_list ll\n    JOIN ordered_list ol\n    ON ll.id = ol.next_id\n)\nSELECT id, value\nFROM ordered_list\nORDER BY id;

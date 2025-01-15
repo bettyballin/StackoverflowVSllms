@@ -1,1 +1,0 @@
-// Example of preemptive multitasking in pseudocode\n   function task_scheduler() {\n       while (true) {\n           highest_priority_task = get_highest_priority_task();\n           preempt_current_task();\n           execute(highest_priority_task);\n       }\n   }

@@ -1,1 +1,0 @@
-<!-- app/views/multi_step_forms/personal_info.html.erb -->\n<%= form_with model: @form, url: multi_step_forms_path(step: 'personal_info'), method: :post do |f| %>\n  <%= f.label :first_name %>\n  <%= f.text_field :first_name %>\n  <%= f.label :last_name %>\n  <%= f.text_field :last_name %>\n  <%= f.submit 'Next' %>\n<% end %>

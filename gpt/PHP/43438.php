@@ -1,1 +1,0 @@
-$InvoicedUnits = floatval($InvoiceLineItem->InvoicedUnits);\n$pricePerUnit = floatval($InvoiceLineItem->PricePerUnit);\n\n$totalAmountSpent = $InvoicedUnits * $pricePerUnit;\n\necho $totalAmountSpent;

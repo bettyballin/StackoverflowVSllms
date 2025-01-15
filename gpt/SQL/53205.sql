@@ -1,1 +1,0 @@
-IF OBJECT_ID('X_backup', 'P') IS NOT NULL\nBEGIN\n    IF OBJECT_ID('X', 'P') IS NOT NULL\n    BEGIN\n        DROP PROCEDURE X;\n    END\n    EXEC sp_rename 'X_backup', 'X';\nEND

@@ -1,1 +1,0 @@
-SELECT\n    DATEPART(WEEK, eDate) AS Week,\n    SUM(CASE WHEN category = 'Category1' THEN 1 ELSE 0 END) AS Category1,\n    SUM(CASE WHEN category = 'Category2' THEN 1 ELSE 0 END) AS Category2\nFROM\n    errors\nGROUP BY\n    DATEPART(WEEK, eDate)\nORDER BY\n    Week;

@@ -1,1 +1,0 @@
-if (!preg_match('/^[0-9a-zA-Z\s\-.]{0,50}$/', $_POST['customerNumber'])) {\n    echo "The customer number is not the correct format.";\n}

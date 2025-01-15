@@ -1,1 +1,0 @@
-<?php\n$string = "15.11-101";\n$parts = explode('-', $string);\nif (count($parts) > 1) {\n    $result = $parts[1];\n    echo $result; // This will output: 101\n} else {\n    echo "No '-' found in the string.";\n}\n?>

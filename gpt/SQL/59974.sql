@@ -1,1 +1,0 @@
--- Temporarily change the increment to a large negative number\nALTER SEQUENCE my_sequence INCREMENT BY -999999999;\n\n-- Select the next value to apply the increment\nSELECT my_sequence.NEXTVAL FROM dual;\n\n-- Reset the increment to 1 and set the desired starting value\nALTER SEQUENCE my_sequence INCREMENT BY 1 START WITH 0;

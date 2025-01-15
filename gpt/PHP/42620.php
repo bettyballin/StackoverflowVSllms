@@ -1,1 +1,0 @@
-$i = 0;\n$array = array();\n\nwhile ($i < 10000) {\n    $rand = random_int(0, 100);\n\n    if (!isset($array[$rand])) {\n        $array[$rand] = 1;\n    } else {\n        $array[$rand]++;\n    }\n\n    $i++;\n}\n\n// Optionally sort the array if needed\nksort($array);

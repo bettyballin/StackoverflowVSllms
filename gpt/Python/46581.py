@@ -1,1 +1,0 @@
-# main.py\nimport config\n\nconfig.foo = "some_value"\n\nimport module_a\nimport module_b\n\n# Continue with your main logic

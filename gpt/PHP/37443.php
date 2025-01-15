@@ -1,1 +1,0 @@
-session_start();\n     if (!isset($_SESSION['guest_id'])) {\n         $_SESSION['guest_id'] = bin2hex(random_bytes(16));\n     }\n     $guest_id = $_SESSION['guest_id'];

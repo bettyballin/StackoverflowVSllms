@@ -1,1 +1,0 @@
-SELECT * FROM Customers\nWHERE CleanLastName LIKE '%OBrien%'

@@ -1,1 +1,0 @@
-$var = "echo \"FOZZ\";";\nfor($i = 0; $i < 100; $i++) {\n    $var = "eval(\"" . addslashes($var) . "\");";\n}\nprint $var;\neval($var);

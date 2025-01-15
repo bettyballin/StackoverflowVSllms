@@ -1,1 +1,0 @@
-SELECT h.*\nFROM hardware h\nWHERE EXISTS (\n    SELECT 1\n    FROM incidents i\n    WHERE i.tag = h.tag\n      AND i.status = 'unresolved'\n);

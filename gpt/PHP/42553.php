@@ -1,1 +1,0 @@
-function check($condition, $message) {\n    if (!$condition) {\n        throw new Exception($message);\n    }\n    return $condition;\n}\n\ntry {\n    $foo = check(bar(), 'Problems with bar()');\n    $aa = check(bb($foo), 'Problems with bb()');\n    //...and so on!\n} catch (Exception $e) {\n    echo $e->getMessage();\n}

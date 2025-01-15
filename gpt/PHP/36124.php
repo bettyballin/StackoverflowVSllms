@@ -1,1 +1,0 @@
-Array ( [1] => Categorie 1 [5] => Categorie 2 [2] => Caterorie 2 )

@@ -1,1 +1,0 @@
-# config/initializers/content_security_policy.rb\n    Rails.application.config.content_security_policy do |policy|\n      policy.default_src :self\n      policy.script_src :self, :https\n      policy.style_src :self, :https\n      policy.img_src :self, :https, :data\n      policy.object_src :none\n      policy.frame_ancestors :none\n      policy.form_action :self\n    end

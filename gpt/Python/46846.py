@@ -1,1 +1,0 @@
-class Multiplier:\n    def __init__(self, N):\n        self.N = N\n\n    def action(self, X):\n        return X * self.N\n\nmultiply_by_3 = Multiplier(3)\nprint(multiply_by_3.action(10))  # Output: 30

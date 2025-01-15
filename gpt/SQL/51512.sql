@@ -1,1 +1,0 @@
-CREATE TABLE parent (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(100)\n);\n\nCREATE TABLE child (\n    id SERIAL PRIMARY KEY,\n    parent_id INT,\n    description VARCHAR(100),\n    FOREIGN KEY (parent_id) REFERENCES parent (id) ON UPDATE CASCADE ON DELETE SET NULL\n);

@@ -1,1 +1,0 @@
-<?php\n   $result = $mysqli->query("SELECT content FROM your_table_name WHERE id = 1");\n\n   if ($result->num_rows > 0) {\n       // Output the content\n       while ($row = $result->fetch_assoc()) {\n           echo $row['content'];\n       }\n   } else {\n       echo "No results found.";\n   }\n   ?>

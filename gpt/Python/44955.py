@@ -1,1 +1,0 @@
-import sys\n\nwhile True:\n    next = sys.stdin.buffer.read(4096)\n    if not next:\n        break\n    #.... write the buffer

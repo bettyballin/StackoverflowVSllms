@@ -1,1 +1,0 @@
-CREATE TABLE MyTable\n(\n    ID INT,\n    Value NVARCHAR(100),\n    Version INT,\n    PRIMARY KEY (ID, Version)\n);\n\n-- To insert a new version\nINSERT INTO MyTable (ID, Value, Version)\nVALUES (1, 'NewValue', (SELECT COALESCE(MAX(Version), 0) + 1 FROM MyTable WHERE ID = 1));

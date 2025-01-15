@@ -1,1 +1,0 @@
-CREATE TEMPORARY TABLE temp_table (id INT);\nINSERT INTO temp_table (id) VALUES (123), (456), (789), ...;\n\nSELECT * FROM table\nWHERE Col IN (SELECT id FROM temp_table);\n\nDROP TEMPORARY TABLE temp_table;

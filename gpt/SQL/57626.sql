@@ -1,1 +1,0 @@
-SELECT \n    datepart(year, [Registration]) AS YearRegistered,\n    Make,\n    Model,\n    MIN(SalePrice) AS MinSalePrice\nFROM \n    [VehicleSales]\nGROUP BY \n    datepart(year, [Registration]),\n    Make,\n    Model\nORDER BY \n    YearRegistered, \n    Make, \n    Model;

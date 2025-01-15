@@ -1,1 +1,0 @@
--- Get all records from the second dataset with matching subsNumber\nSELECT p.*\nFROM [YourProgressDatabaseTable] p\nINNER JOIN [YourSQLServerTable] s ON p.subsNumber = s.subsNumber;

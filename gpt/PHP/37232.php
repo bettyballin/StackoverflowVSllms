@@ -1,1 +1,0 @@
-<?php\n// Read the serialized string from the file\n$serializedData = file_get_contents('cached_data.txt');\n\n// Unserialize the string back to the original data\n$data = unserialize($serializedData);\n\n// Now you can use $data as an array of objects again\nprint_r($data);\n?>

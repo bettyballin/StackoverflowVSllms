@@ -1,1 +1,0 @@
-{YourStoredProcedure.ParameterName} = {@UserID}

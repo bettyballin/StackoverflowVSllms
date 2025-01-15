@@ -1,1 +1,0 @@
-DECLARE\n    CURSOR c1 IS SELECT id FROM j_test WHERE C3 IS NULL;\nBEGIN\n    FOR rec IN c1 LOOP\n        UPDATE j_test\n        SET C3 = 1,\n            C1 = 'NEU'\n        WHERE id = rec.id;\n        COMMIT; -- Commit after each row or after a small batch\n    END LOOP;\nEND;\n/

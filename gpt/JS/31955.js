@@ -1,1 +1,0 @@
-$.ajax({\n    type: "POST",\n    url: "/ajax/transform",\n    data: JSON.stringify({ isFoo: true, bar: $("#Bar").val() }),\n    contentType: "application/json; charset=utf-8",\n    dataType: "json",\n    success: function() { alert("it worked"); },\n    error: function() { alert("Uh oh"); }\n});

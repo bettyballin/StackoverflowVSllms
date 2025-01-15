@@ -1,1 +1,0 @@
-ALTER TABLE your_table\nADD CONSTRAINT check_business_hours\nCHECK (\n  TO_CHAR(your_date_column, 'HH24') BETWEEN '09' AND '16' -- '09' to '16' inclusive covers from 9am to just before 5pm\n  AND TO_CHAR(your_date_column, 'MI') = '00' -- Ensures the minutes part is 00 to cover the full hours\n);

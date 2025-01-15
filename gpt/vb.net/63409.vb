@@ -1,1 +1,0 @@
-Private queueLock As New Object()\nPrivate syncQueue As New Queue()\n\nSyncLock queueLock\n    ' Enqueue or Dequeue operations\n    syncQueue.Enqueue(item)\n    Dim dequeuedItem As Object = syncQueue.Dequeue()\nEnd SyncLock

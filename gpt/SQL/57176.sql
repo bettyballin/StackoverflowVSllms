@@ -1,1 +1,0 @@
-SELECT tags.tag_name, COUNT(videotags.tag_id) AS tag_count\nFROM tags\nLEFT JOIN videotags ON tags.id = videotags.tag_id\nGROUP BY tags.id\nORDER BY tag_count DESC;

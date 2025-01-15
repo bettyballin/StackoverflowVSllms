@@ -1,1 +1,0 @@
-CREATE VIEW [dbo].[v_ReportInvoiceClientsThisMonth]\nAS\nSELECT *\nFROM dbo.GetInvoiceClientsTVF('2009-03-01', '2009-04-01');

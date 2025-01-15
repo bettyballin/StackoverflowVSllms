@@ -1,1 +1,0 @@
-var setting = {\n       async: {\n           enable: true,\n           url: "your-url",\n           autoParam: ["id", "name=n", "level=lv"]\n       }\n   };\n   $.fn.zTree.init($("#tree"), setting);

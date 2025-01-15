@@ -1,1 +1,0 @@
-$i=parse_ini_file("info.scm");\n\nfunction p($p,$r,$s){return preg_replace($p,$r,$s);}\n// Usage\n$result = p($my_regex, $my_replacement, $my_string);

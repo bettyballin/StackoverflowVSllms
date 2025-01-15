@@ -1,1 +1,0 @@
-SELECT n.*\nFROM notifications n\nJOIN alerts a ON n.id = a.notification_id\nWHERE a.user_id = ?;

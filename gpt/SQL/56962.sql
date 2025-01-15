@@ -1,1 +1,0 @@
-CREATE TYPE dbo.FilterTableType AS TABLE\n(\n    FilterValue NVARCHAR(50)\n);

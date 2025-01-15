@@ -1,1 +1,0 @@
--- Check for triggers\nSELECT trigger_name FROM user_triggers WHERE table_name = 'RECON';\n\n-- Check for constraints\nSELECT constraint_name FROM user_constraints WHERE table_name = 'RECON';

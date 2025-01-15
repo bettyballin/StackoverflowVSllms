@@ -1,1 +1,0 @@
-$data = array(\n    'column1' => 'value1',\n    'column2' => 'value2'\n);\n\n// Insert query\n$handle->insert('table', $data);\n\n// Update query\n$where = $handle->quoteInto('id = ?', $id);\n$handle->update('table', $data, $where);

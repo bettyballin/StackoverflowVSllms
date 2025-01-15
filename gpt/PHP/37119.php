@@ -1,1 +1,0 @@
-<?php\n// Set appropriate headers for caching\nheader("Cache-Control: public, max-age=86400"); // Cache for 1 day\nheader("Expires: " . gmdate("D, d M Y H:i:s", time() + 86400) . " GMT"); // Expires in 1 day\nheader("Content-Type: image/jpeg"); // Adjust the content type accordingly\n\n// Serve the image\n// readfile('path/to/your/image.jpg');\n?>

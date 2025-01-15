@@ -1,1 +1,0 @@
-Zend_Session::start();\nif (Zend_Auth::getInstance()->hasIdentity()) {\n    error_log('Session data before regenerate: ' . print_r($_SESSION, true));\n    Zend_Session::regenerateId();\n    error_log('Session data after regenerate: ' . print_r($_SESSION, true));\n    Zend_Session::writeClose();\n}

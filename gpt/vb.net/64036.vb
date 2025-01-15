@@ -1,1 +1,0 @@
-Public Enum Options\n    One\n    Two\n    Three\nEnd Enum

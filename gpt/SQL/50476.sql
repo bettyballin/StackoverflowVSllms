@@ -1,1 +1,0 @@
-CREATE INDEX idx_name ON Person(name);

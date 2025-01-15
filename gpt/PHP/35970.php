@@ -1,1 +1,0 @@
-// Router.php (Routing)\nnamespace App\Routing;\n\nclass Router {\n    // Routing logic\n    public function get($route, $handler) {\n        // Register GET route\n    }\n    \n    public function post($route, $handler) {\n        // Register POST route\n    }\n\n    public function run() {\n        // Match current request to a registered route\n    }\n}

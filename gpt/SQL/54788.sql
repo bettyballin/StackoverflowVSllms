@@ -1,1 +1,0 @@
-CREATE TABLE YourTable (\n    YourId INT PRIMARY KEY IDENTITY,\n    YourNVarCharField NVARCHAR(MAX)\n)

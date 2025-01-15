@@ -1,1 +1,0 @@
-<%= month_calendar(events: @events) do |date, events| %>\n     <div class="day">\n       <%= date %>\n       <% events.each do |event| %>\n         <div class="event <%= event_type_class(event) %>">\n           <%= event.name %>\n         </div>\n       <% end %>\n     </div>\n   <% end %>

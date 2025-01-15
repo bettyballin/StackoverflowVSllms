@@ -1,1 +1,0 @@
-<?php\nrequire 'vendor/autoload.php';\n\nuse cogpowered\FineDiff\Diff;\nuse cogpowered\FineDiff\Render\Html;\n\n$oldString = "Hello world!";\n$newString = "Hello brave new world!";\n\n$diff = new Diff();\n$opcodes = $diff->getOpcodes($oldString, $newString);\n\n$renderer = new Html();\n$renderedDiff = $renderer->process($oldString, $opcodes);\n\necho $renderedDiff;\n?>

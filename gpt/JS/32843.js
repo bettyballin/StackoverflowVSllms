@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded', function() {\n    var cleave = new Cleave('#phone-number', {\n        phone: true,\n        phoneRegionCode: 'US'\n    });\n});

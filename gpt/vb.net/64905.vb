@@ -1,1 +1,0 @@
-' Helper.vb\nOption Strict Off\n\nModule Helper\n    Public Function CheatFunction(value As Object) As Integer\n        ' Unsafe code that requires Option Strict Off\n        Return value\n    End Function\nEnd Module

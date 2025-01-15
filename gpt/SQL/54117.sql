@@ -1,1 +1,0 @@
-CREATE TABLE referrals (\n    id INT,\n    type CHAR(1),\n    referrer CHAR(1),\n    date DATE\n);\n\nCREATE TABLE referrer_commissions (\n    referrer CHAR(1),\n    comm_a1 INT,\n    comm_a2 INT,\n    comm_a3 INT,\n    comm_b1 INT,\n    comm_b2 INT,\n    comm_b3 INT\n);

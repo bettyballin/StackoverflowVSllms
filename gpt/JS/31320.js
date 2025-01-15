@@ -1,1 +1,0 @@
-$('<div class="myClass">This is a div with content</div>');

@@ -1,1 +1,0 @@
--- First day of the current week (assuming week starts on Monday)\nSELECT DATE_SUB(CURDATE(), INTERVAL WEEKDAY(CURDATE()) DAY) AS FirstDayOfCurrentWeek;\n\n-- First day of the previous week (assuming week starts on Monday)\nSELECT DATE_SUB(CURDATE(), INTERVAL WEEKDAY(CURDATE()) + 7 DAY) AS FirstDayOfLastWeek;

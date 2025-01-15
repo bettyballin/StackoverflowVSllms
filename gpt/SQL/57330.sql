@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION increment_unread_count() RETURNS TRIGGER AS $$\n   BEGIN\n       INSERT INTO unread_comments_count (article_id, unread_count)\n       VALUES (NEW.article_id, 1)\n       ON CONFLICT (article_id)\n       DO UPDATE SET unread_count = unread_comments_count.unread_count + 1;\n       RETURN NEW;\n   END;\n   $$ LANGUAGE plpgsql;

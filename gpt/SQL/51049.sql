@@ -1,1 +1,0 @@
-SELECT table1.column1 COLLATE SQL_Latin1_General_CP1_CI_AS + table2.column2 COLLATE SQL_Latin1_General_CP1_CI_AS\n   FROM table1, table2;

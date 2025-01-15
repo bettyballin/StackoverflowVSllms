@@ -1,1 +1,0 @@
-SELECT NVL(col1, '') || NVL(col2, '') AS concatenated_string FROM your_table;

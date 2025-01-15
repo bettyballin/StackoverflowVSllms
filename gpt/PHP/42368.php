@@ -1,1 +1,0 @@
-<?php echo htmlspecialchars($yourData, ENT_QUOTES, 'UTF-8'); ?>

@@ -1,1 +1,0 @@
--- Create an index on the primary key column\nCREATE INDEX idx_tuples_id ON tuples(id);\n\n-- Create a materialized view for the aggregate results\nCREATE MATERIALIZED VIEW mv_tuples_aggregates AS\nSELECT count(id) AS count_id, avg(a) AS avg_a, avg(b) AS avg_b, avg(c) AS avg_c, avg(d) AS avg_d\nFROM tuples;\n\n-- Query the materialized view\nSELECT * FROM mv_tuples_aggregates;

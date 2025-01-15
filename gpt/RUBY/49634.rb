@@ -1,1 +1,0 @@
-require 'yaml'\n\n# Set the default options for YAML encoding to ensure UTF-8 output\nYAML::ENGINE.yamler = 'syck' if defined?(YAML::ENGINE)\nYAML.dump({'example' => 'üñîçødë'}, :default_flow_style => false)

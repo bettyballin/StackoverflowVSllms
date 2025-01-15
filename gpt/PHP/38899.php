@@ -1,1 +1,0 @@
-<?php\n   $url = "ssl://example.com";\n   $port = 443;\n   $errno = 0;\n   $errstr = "";\n   \n   $fp = stream_socket_client("$url:$port", $errno, $errstr, 30, STREAM_CLIENT_CONNECT);\n   if (!$fp) {\n       echo "Error: $errstr ($errno)\n";\n   } else {\n       echo "Connection successful!\n";\n       fclose($fp);\n   }\n   ?>

@@ -1,1 +1,0 @@
-LogParser.exe "SELECT date, time, time-taken as TimeSpent, sc-bytes as KBytesTransferred FROM C:\inetpub\logs\LogFiles\W3SVC1\u_ex*.log" -rtp:-1

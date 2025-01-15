@@ -1,1 +1,0 @@
-begin a transaction on a single connection\n\nprepare a query in TableA\nprepare a query on TableB\n\nbegin loop over some_data\n   (1) insert into key_id on TableA\n\n   begin loop over some_other_data\n      (2) insert into TableB using same key_id as in TableA\n   end loop\nend loop\n\ncommit the transactio

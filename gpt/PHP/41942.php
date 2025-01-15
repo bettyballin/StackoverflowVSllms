@@ -1,1 +1,0 @@
-$handle = popen('python last', 'r');\nif ($handle) {\n    while (!feof($handle)) {\n        $buffer = fgets($handle, 4096);\n        echo $buffer; // Process or store the buffer as needed\n    }\n    pclose($handle);\n}

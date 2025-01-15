@@ -1,1 +1,0 @@
-import requests\n\nresponse = requests.get('https://api.ipify.org')\nprint(f"My public IP address is: {response.text}")

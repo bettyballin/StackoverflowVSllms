@@ -1,1 +1,0 @@
-SELECT tags.*, COUNT(ct1.company_id) AS count\nFROM company2tag ct1\nJOIN (\n    SELECT ct.company_id\n    FROM company2tag ct\n    WHERE ct.tag_id = 18\n    GROUP BY ct.company_id\n    HAVING COUNT(ct.tag_id) = 1\n) AS subquery ON ct1.company_id = subquery.company_id\nJOIN tags ON tags.id = ct1.tag_id\nWHERE tags.id != 18\nGROUP BY ct1.tag_id\nORDER BY count DESC\nLIMIT 5;

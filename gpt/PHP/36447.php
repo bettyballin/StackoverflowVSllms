@@ -1,1 +1,0 @@
-if (isset($_GET['logout'])) {\n    // Unset session\n    session_start();\n    session_unset();\n    session_destroy();\n\n    // Unset cookies\n    setcookie("user", "", time() - 3600, "/"); // Set cookie to expire in the past\n    header("Location: login.php");\n    exit();\n}

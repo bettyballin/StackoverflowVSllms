@@ -1,1 +1,0 @@
-=Switch(\n    Fields!YourYAxisField.Value = 0, "Small",\n    Fields!YourYAxisField.Value = 50, "Medium",\n    Fields!YourYAxisField.Value = 100, "Large",\n    True, Fields!YourYAxisField.Value\n)

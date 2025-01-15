@@ -1,1 +1,0 @@
-CREATE TABLE item_attributes (\n    itemid       VARCHAR(32) NOT NULL,\n    itemkey      VARCHAR(32) NOT NULL,\n    itemvalue    VARCHAR(32) NOT NULL,\n    CONSTRAINT ct_primarykey PRIMARY KEY(itemid, itemkey)\n);

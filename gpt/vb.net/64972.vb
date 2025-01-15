@@ -1,1 +1,0 @@
-Dim query = From item In db.YourTable\n            Where item.YourDateField Is Nothing\n            Select item

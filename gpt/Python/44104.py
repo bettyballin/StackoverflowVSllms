@@ -1,1 +1,0 @@
-def custom_distance(cat1, cat2):\n       if cat1 == cat2:\n           return 0\n       elif (cat1 == 'burger' and cat2 == 'pizza') or (cat1 == 'pizza' and cat2 == 'burger'):\n           return 1\n       else:\n           return 2

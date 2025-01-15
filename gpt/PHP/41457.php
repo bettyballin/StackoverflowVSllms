@@ -1,1 +1,0 @@
-if ($tx) {\n       // This could throw a notice if $tx is not defined\n   }\n\n   if (isset($tx)) {\n       // This will not throw a notice if $tx is not defined\n   }

@@ -1,1 +1,0 @@
-<?php\n// Example array\n$array = array('foo' => 'bar', 'baz' => 'qux');\n\n// Serialize the array\n$serializedArray = serialize($array);\necho $serializedArray; // Output: a:2:{s:3:"foo";s:3:"bar";s:3:"baz";s:3:"qux";}\n\n// Unserialize the array\n$unserializedArray = unserialize($serializedArray);\nprint_r($unserializedArray); // Output: Array ( [foo] => bar [baz] => qux )\n?>

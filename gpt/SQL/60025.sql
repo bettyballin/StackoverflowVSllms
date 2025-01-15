@@ -1,1 +1,0 @@
-ANALYZE TABLE katalogbestilling_katalog;\nOPTIMIZE TABLE katalogbestilling_katalog;

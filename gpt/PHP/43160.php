@@ -1,1 +1,0 @@
-<?php\nnamespace App\View;\n\nuse Cake\View\View;\n\nclass AppView extends View\n{\n    public function initialize(): void\n    {\n        parent::initialize();\n        $this->loadHelper('SimpleMarkup');\n    }\n}\n?>

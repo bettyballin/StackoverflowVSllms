@@ -1,1 +1,0 @@
-// In ListsController.php (Controller)\n     public function view($id) {\n         $relatedLists = $this->List->getRelatedLists($id);\n         $this->set('relatedLists', $relatedLists);\n     }

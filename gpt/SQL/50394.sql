@@ -1,1 +1,0 @@
--- Example of using a query hint to control locking behavior in SQL Server 2005\nSELECT *\nFROM dbo.Event WITH (ROWLOCK) -- or PAGLOCK, TABLOCK as needed\nWHERE [condition];

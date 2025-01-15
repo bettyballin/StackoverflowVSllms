@@ -1,1 +1,0 @@
-<%= breadcrumbs pretext: "You are here: " %>

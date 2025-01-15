@@ -1,1 +1,0 @@
-SELECT\n    DatabaseName,\n    TableName,\n    LockType,\n    HostId,\n    SessionId,\n    UserName\nFROM\n    DBC.LockInfoV\nWHERE\n    DatabaseName = 'YourDatabaseName'\n    AND TableName = 'YourTableName';

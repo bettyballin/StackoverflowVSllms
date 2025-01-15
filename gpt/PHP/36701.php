@@ -1,1 +1,0 @@
-$query = "\n       SELECT e.*\n       FROM event e\n       LEFT JOIN event_location el ON e.event_id = el.event_id\n       LEFT JOIN location l ON el.location_id = l.location_id\n       WHERE (e.keywords LIKE '%hello%' OR e.keywords LIKE '%world%')\n       AND (l.location_name = 'specified_location')\n   ";

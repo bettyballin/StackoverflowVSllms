@@ -1,1 +1,0 @@
-def majority_element(nums):\n    candidate = None\n    count = 0\n\n    for num in nums:\n        if count == 0:\n            candidate = num\n            count = 1\n        elif num == candidate:\n            count += 1\n        else:\n            count -= 1\n\n    return candidate\n\n# Example usage:\narr = ['A', 'A', 'A', 'C', 'C', 'B', 'B']\nprint(majority_element(arr))

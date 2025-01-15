@@ -1,1 +1,0 @@
-<resultMap id="SomeClassResultMap" class="YourNamespace.SomeClass">\n    <result property="_strings" column="value" />\n</resultMap>

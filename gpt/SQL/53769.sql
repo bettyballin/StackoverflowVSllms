@@ -1,1 +1,0 @@
-CREATE INDEX idx_translations ON Translations (TableName, ColumnName, RowID, LanguageCode);

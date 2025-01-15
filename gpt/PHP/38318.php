@@ -1,1 +1,0 @@
-// Example of generating an unpredictable URL in PHP\n    $unpredictable_url = "https://example.com/api/resource/" . bin2hex(random_bytes(16));

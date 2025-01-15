@@ -1,1 +1,0 @@
-def groupIdentical(arr):\n    arr.sort()  # This uses Timsort internally\n    return arr\n\n# Example usage\nfoo = [1, 2, 3, 2, 1, 5, 4, 5]\nbar = groupIdentical(foo)\nprint(bar)\n# Possible outputs:\n# [1, 1, 2, 2, 3, 4, 5, 5]\n# [2, 2, 1, 1, 3, 4, 5, 5]

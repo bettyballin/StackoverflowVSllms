@@ -1,1 +1,0 @@
-DECLARE @encryptedData VARBINARY(MAX);\n   EXEC EncryptData @plaintext = 'Sensitive Data', @encryptedData OUTPUT;\n\n   DECLARE @decryptedData NVARCHAR(MAX);\n   EXEC DecryptData @ciphertext = @encryptedData, @decryptedData OUTPUT;\n\n   SELECT @decryptedData AS DecryptedData;

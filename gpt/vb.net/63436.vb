@@ -1,1 +1,0 @@
-Public Function CreateInstance(Of T As New)() As T\n        Return New T()\n    End Functio

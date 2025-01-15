@@ -1,1 +1,0 @@
-Rails.application.routes.draw do\n  resources :fruits do\n    member do\n      get 'display'\n    end\n  end\n\n  # Optionally, you can skip the default `show` action if you don't need it\n  resources :fruits, except: [:show]\nend

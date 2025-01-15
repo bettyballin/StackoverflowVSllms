@@ -1,1 +1,0 @@
-<property name="YourPropertyName" type="YourNamespace.FixedLengthStringType, YourAssembly">\n       <column name="YourColumnName" length="6" sql-type="CHAR(6)" />\n   </property>

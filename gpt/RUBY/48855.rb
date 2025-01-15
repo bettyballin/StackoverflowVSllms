@@ -1,1 +1,0 @@
-<% @miniatures.each do |miniature| %>\n  <%= link_to miniature.name, miniature %>\n  <%= text_field_tag "counts[#{miniature.id}]", miniature.have_count, size: 2 %>\n<% end %>

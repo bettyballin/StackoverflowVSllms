@@ -1,1 +1,0 @@
-CREATE INDEX idx_QuickPickOrder ON MyTable (QuickPickOrder);

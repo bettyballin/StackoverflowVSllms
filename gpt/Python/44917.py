@@ -1,1 +1,0 @@
-import os\n\n# Execute the systemctl command to put the system to sleep\nos.system("systemctl suspend")

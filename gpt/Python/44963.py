@@ -1,1 +1,0 @@
-import signal\nimport sys\n\ndef cleanup_resources(signum, frame):\n    print("Cleaning up resources...")\n    # Add your resource deallocation logic here\n    sys.exit(0)\n\nsignal.signal(signal.SIGINT, cleanup_resources)\nsignal.signal(signal.SIGTERM, cleanup_resources)\n\n# Simulate long-running process\nwhile True:\n    pass

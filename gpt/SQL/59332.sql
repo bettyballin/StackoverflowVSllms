@@ -1,1 +1,0 @@
-UPDATE tableB b\nSET b.col1 = (\n  SELECT CASE\n    WHEN a.col1 = 0 AND a.col2 = 0 THEN 'this value'\n    ELSE 'other value'\n  END\n  FROM tableA a\n  WHERE a.some_column = b.some_column -- Adjust join condition as needed\n)\nWHERE EXISTS (\n  SELECT 1\n  FROM tableA a\n  WHERE a.some_column = b.some_column -- Ensure the join condition matches your requirements\n);

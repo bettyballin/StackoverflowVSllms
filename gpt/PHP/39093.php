@@ -1,1 +1,0 @@
-$littleEndianShort = pack('v', 0x1234);\n   $bigEndianShort = pack('n', 0x1234);\n\n   echo bin2hex($littleEndianShort) . PHP_EOL; // Outputs: 3412\n   echo bin2hex($bigEndianShort) . PHP_EOL;   // Outputs: 1234

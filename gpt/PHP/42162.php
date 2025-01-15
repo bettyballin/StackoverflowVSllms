@@ -1,1 +1,0 @@
-<?php\n// Get the raw POST data\n$json = file_get_contents('php://input');\n\n// Decode the JSON data to a PHP array\n$data = json_decode($json, true);\n\n// Now you can work with the $data array\nvar_dump($data);\n?>

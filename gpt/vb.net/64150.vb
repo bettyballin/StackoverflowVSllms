@@ -1,1 +1,0 @@
-Public Class Form1\n\n    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load\n        ' Set ComboBox properties\n        ComboBox1.DropDownStyle = ComboBoxStyle.DropDownList\n\n        ' Add items to ComboBox\n        ComboBox1.Items.Add("Choice 1")\n        ComboBox1.Items.Add("Choice 2")\n    End Sub\n\nEnd Class

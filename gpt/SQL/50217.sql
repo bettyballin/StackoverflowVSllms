@@ -1,1 +1,0 @@
-DELETE FROM your_table\nWHERE id NOT IN (\n    SELECT MIN(id)\n    FROM your_table\n    GROUP BY name\n);

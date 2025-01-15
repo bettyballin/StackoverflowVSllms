@@ -1,1 +1,0 @@
-// download.php\n$file = '/var/www/html/file-to-download.xyz';\nheader('Content-Type: application/octet-stream');\nheader('Content-Length: ' . filesize($file));\nheader('Content-Disposition: attachment; filename=' . basename($file));\nreadfile($file);\nexit();

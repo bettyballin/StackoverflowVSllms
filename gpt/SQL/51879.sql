@@ -1,1 +1,0 @@
-INSERT INTO dbo.Availability (timeFrom, timeTo, otherColumns)\nVALUES (CONVERT(datetime, '1900-01-01 ' + @timeFrom), CONVERT(datetime, '1900-01-01 ' + @timeTo), otherValues);

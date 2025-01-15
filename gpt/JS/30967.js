@@ -1,1 +1,0 @@
-function showMessage() {\n    alert("Hello, this is a JavaScript alert!");\n}

@@ -1,1 +1,0 @@
-document.querySelector('.img').addEventListener('click', function(e) {\n    console.log('Anchor clicked', e);\n});

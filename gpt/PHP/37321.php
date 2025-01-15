@@ -1,1 +1,0 @@
-exec("nohup /path/to/your/script.sh > /path/to/logfile.log 2>&1 &");

@@ -1,1 +1,0 @@
-<?php\n$sql = "UPDATE records SET lock_time = NOW() WHERE id = :id AND locked_by = :user_id";\n$stmt = $pdo->prepare($sql);\n$stmt->execute(['id' => $_POST['record_id'], 'user_id' => $_POST['user_id']]);\n?>

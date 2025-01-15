@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded', function() {\n    var form = document.getElementById('yourFormId');\n    var formData = new FormData(form);\n    var queryString = new URLSearchParams(formData).toString();\n    console.log(queryString);\n});

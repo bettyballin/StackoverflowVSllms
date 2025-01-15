@@ -1,1 +1,0 @@
-Array(\n    [49] => Poster\n    [48] => Sticker\n    [46] => Hat\n    [45] => Hoodie\n)

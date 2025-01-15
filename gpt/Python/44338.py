@@ -1,1 +1,0 @@
-def calculate_differences(list1, list2):\n    set1 = set(list1)\n    set2 = set(list2)\n    \n    added = set2 - set1\n    removed = set1 - set2\n    \n    return list(added), list(removed)\n\n# Example usage\nlist1 = ["a", "b", "c", "d"]\nlist2 = ["b", "c", "d", "e"]\n\nadded, removed = calculate_differences(list1, list2)\nprint("Added:", added)\nprint("Removed:", removed)

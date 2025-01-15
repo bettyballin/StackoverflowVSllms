@@ -1,1 +1,0 @@
-CREATE TABLE MyTable (\n    ID LONG,\n    Name TEXT(255)\n);

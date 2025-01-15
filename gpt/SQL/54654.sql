@@ -1,1 +1,0 @@
--- Example: Grant read access\n    ALTER ROLE db_datareader ADD MEMBER YourUserName;\n    \n    -- Example: Grant write access\n    ALTER ROLE db_datawriter ADD MEMBER YourUserName;

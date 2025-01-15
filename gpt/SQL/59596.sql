@@ -1,1 +1,0 @@
-CREATE TABLE ServiceStatus (\n    Id INT PRIMARY KEY,\n    Status NVARCHAR(50)\n);

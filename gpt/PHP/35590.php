@@ -1,1 +1,0 @@
-// Example of sanitizing a string input\n   $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING);\n\n   // Example of validating an email\n   $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);\n   if ($email === false) {\n       // Handle invalid email\n   }

@@ -1,1 +1,0 @@
-<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml">\n    <mx:HTML id="htmlContent" width="100%" height="100%" location="http://www.example.com"/>\n</mx:WindowedApplication>

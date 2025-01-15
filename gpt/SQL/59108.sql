@@ -1,1 +1,0 @@
-SELECT courses.CourseID,\n       SUM(IF(sessions.Duration IS NULL, 0, sessions.Duration)) AS Hrs\nFROM courses\nLEFT JOIN sessions \nON courses.CourseID = sessions.CourseID\nAND sessions.SessionDate >= '2009-06-01'\nAND sessions.SessionDate <= '2009-06-30'\nWHERE courses.TrainerID = 113\nGROUP BY courses.CourseID;

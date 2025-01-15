@@ -1,1 +1,0 @@
-Partial Class _Default\n    Inherits System.Web.UI.Page\n\n    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load\n        ' Optional server-side logic\n    End Sub\nEnd Class

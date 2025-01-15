@@ -1,1 +1,0 @@
-from selenium import webdriver\n\ndriver = webdriver.Chrome()\ndriver.get('https://example.com')\ndriver.save_screenshot('example.png')\ndriver.quit()

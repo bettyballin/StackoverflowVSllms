@@ -1,1 +1,0 @@
-<dependency>\n        <groupId>org.mybatis</groupId>\n        <artifactId>mybatis</artifactId>\n        <version>3.5.7</version>\n    </dependency>\n    <dependency>\n        <groupId>org.mybatis</groupId>\n        <artifactId>mybatis-spring</artifactId>\n        <version>2.0.6</version>\n    </dependency>

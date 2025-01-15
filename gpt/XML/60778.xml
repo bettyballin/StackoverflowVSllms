@@ -1,1 +1,0 @@
-<configuration>\n      <system.web>\n        <authentication mode="Forms">\n          <forms loginUrl="~/Account/Login" timeout="30" slidingExpiration="true" />\n        </authentication>\n      </system.web>\n    </configuration>

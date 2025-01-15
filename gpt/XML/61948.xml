@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <sessionState mode="SQLServer"\n                  sqlConnectionString="data source=YourServer;user id=YourUser;password=YourPassword;"\n                  cookieless="false"\n                  timeout="30" />\n  </system.web>\n</configuration>

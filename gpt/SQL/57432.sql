@@ -1,1 +1,0 @@
-ALTER TABLE `filesystem_data`.`$tablename`\nADD COLUMN `username` VARCHAR(100) AS (substring_index(substring_index(file_path, '\\', 6), '\\', -1)) STORED;\n\nCREATE INDEX idx_username ON `filesystem_data`.`$tablename`(`username`);

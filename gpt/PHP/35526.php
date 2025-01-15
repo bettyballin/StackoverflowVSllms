@@ -1,1 +1,0 @@
-echo "Line 1" . PHP_EOL . "Line 2" . PHP_EOL;

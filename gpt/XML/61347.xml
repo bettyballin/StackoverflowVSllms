@@ -1,1 +1,0 @@
-<filter>\n       <filter-name>RawURLFilter</filter-name>\n       <filter-class>com.example.RawURLFilter</filter-class>\n   </filter>\n   <filter-mapping>\n       <filter-name>RawURLFilter</filter-name>\n       <url-pattern>/*</url-pattern>\n   </filter-mapping>

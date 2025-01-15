@@ -1,1 +1,0 @@
-<?php\n$string = "user@domain.com MIME-Version: bla bla bla";\npreg_match('/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}\b/i', $string, $matches);\n$email = $matches[0];\necho $email; // Output: user@domain.com\n?>

@@ -1,1 +1,0 @@
-START TRANSACTION;\n\n-- Insert into table A\nINSERT INTO table_a (column1, column2) VALUES ('value1', 'value2');\n\n-- Get the last inserted ID\nSET @last_id = LAST_INSERT_ID();\n\n-- Use the generated ID to insert into table B\nINSERT INTO table_b (table_a_id, column3) VALUES (@last_id, 'value3');\n\nCOMMIT;

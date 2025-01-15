@@ -1,1 +1,0 @@
-<?php\n   require 'vendor/autoload.php';\n\n   use Symfony\Component\DomCrawler\Crawler;\n\n   $html = '<html><body><div class="content">Hello World</div></body></html>';\n   $crawler = new Crawler($html);\n\n   $filter = $crawler->filter('.content');\n\n   foreach ($filter as $node) {\n       echo $node->textContent; // Outputs: Hello World\n   }\n   ?>

@@ -1,1 +1,0 @@
-SELECT GROUP_CONCAT(DISTINCT CONCAT_WS(' ', usrFirst, usrLast) SEPARATOR ', ') AS receiver_name\nFROM your_table_name\n-- Add other conditions or joins if needed

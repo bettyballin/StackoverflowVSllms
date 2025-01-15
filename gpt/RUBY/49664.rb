@@ -1,1 +1,0 @@
-ActionView::Base.field_error_proc = Proc.new { |html_tag, instance|\n  # Check if the html_tag is a select tag\n  if html_tag =~ /<select/\n    puts "Select tag found: #{html_tag}"\n  else\n    puts "Other tag found: #{html_tag}"\n  end\n\n  # Wrap the field with the error span\n  "<span class=\"fieldWithErrors\">#{html_tag}</span>".html_safe\n}

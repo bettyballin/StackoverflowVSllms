@@ -1,1 +1,0 @@
-EXEC sp_stored_procedures;

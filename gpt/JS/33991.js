@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    document.addEventListener('DOMContentLoaded', function() {\n        var sessionData = document.getElementById('<%= hiddenFieldSessionData.ClientID %>').value;\n        console.log(sessionData); // Output: JohnDoe\n    });\n</script>

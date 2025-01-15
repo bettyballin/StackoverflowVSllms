@@ -1,1 +1,0 @@
-import wmi\n\ndef get_mac_addresses():\n    mac_addresses = []\n    for interface in wmi.WMI().Win32_NetworkAdapterConfiguration(IPEnabled=True):\n        mac_addresses.append(interface.MACAddress)\n    return mac_addresses\n\n# Example usage:\nmac_addresses = get_mac_addresses()\nfor mac in mac_addresses:\n    print("MAC Address:", mac)

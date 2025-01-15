@@ -1,1 +1,0 @@
-CREATE TABLE Report (\n    ID INT IDENTITY(1,1) PRIMARY KEY,\n    -- other columns\n);

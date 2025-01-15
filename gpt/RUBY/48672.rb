@@ -1,1 +1,0 @@
-class TemporaryRecord < ApplicationRecord\n     # Add any necessary validations or associations here\n   end

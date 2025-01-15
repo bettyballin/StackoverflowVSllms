@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- User 1 issues query\nSELECT * FROM AVERYBIGTABLE;\n\n-- User 2 inserts a new row\nINSERT INTO AVERYBIGTABLE (column1, column2) VALUES ('value1', 'value2');\n\n-- User 1 continues to iterate over the result set without seeing the new row\n\nCOMMIT;

@@ -1,1 +1,0 @@
-config.generators.orm :active_record, except: :all\n     config.load_defaults 6.1\n     config.api_only = true # If you are building an API-only app

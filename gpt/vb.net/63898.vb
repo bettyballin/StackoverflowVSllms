@@ -1,1 +1,0 @@
-Dim result As Long\nDim myString As String\nDim length As Long\n\nmyString = "Test Data"\nlength = Len(myString)\n\nresult = csd_HandleData(myString, length)\n\nIf result = 0 Then\n    MsgBox "Function call was successful!"\nElse\n    MsgBox "Function call failed with error code: " & result\nEnd If

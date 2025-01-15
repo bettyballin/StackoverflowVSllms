@@ -1,1 +1,0 @@
-path = 'c:\Program Files\'\nputs path

@@ -1,1 +1,0 @@
-SET IDENTITY_INSERT [YourTableName] ON;\n   -- Your insert statements here\n   SET IDENTITY_INSERT [YourTableName] OFF;

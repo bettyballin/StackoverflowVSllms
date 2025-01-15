@@ -1,1 +1,0 @@
-<bindings>\n     <basicHttpBinding>\n       <binding name="BasicHttpBinding_IService" \n                openTimeout="00:10:00" \n                closeTimeout="00:10:00" \n                receiveTimeout="00:10:00" \n                sendTimeout="00:10:00" />\n     </basicHttpBinding>\n   </bindings>

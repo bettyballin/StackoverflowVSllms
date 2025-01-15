@@ -1,1 +1,0 @@
-INSERT INTO identities (table_name, next_id)\nSELECT 'subscriber', ISNULL(MAX(recid), 0) + 1 FROM subscriber;

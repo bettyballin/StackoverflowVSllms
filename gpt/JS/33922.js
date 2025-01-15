@@ -1,1 +1,0 @@
-chrome.browserAction.onClicked.addListener(function(tab) {\n      chrome.tabs.captureVisibleTab(null, {format: "png"}, function(dataUrl) {\n        var link = document.createElement('a');\n        link.href = dataUrl;\n        link.download = 'screenshot.png';\n        link.click();\n      });\n    });

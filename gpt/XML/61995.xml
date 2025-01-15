@@ -1,1 +1,0 @@
-<project name="example" default="validate" basedir=".">\n    <target name="validate">\n        <echo message="Validating ${input}"/>\n        <java classname="CustomXMLValidator" fork="true" failonerror="true">\n            <classpath refid="xslt.processor.classpath"/>\n            <arg value="${input}"/>\n        </java>\n    </target>\n</project>

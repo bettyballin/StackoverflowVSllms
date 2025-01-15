@@ -1,1 +1,0 @@
-CREATE TABLE Orders (\n    OrderID int PRIMARY KEY,\n    CustomerID int,\n    OrderDate date,\n    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID) ON DELETE CASCADE\n);\n\nCREATE TABLE Customers (\n    CustomerID int PRIMARY KEY,\n    CustomerName varchar(255)\n);

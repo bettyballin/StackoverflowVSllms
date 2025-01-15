@@ -1,1 +1,0 @@
-<?php\n// Assuming you have some data to pass to JavaScript\n$data = ['key1' => 'value1', 'key2' => 'value2'];\n?>\n<script type="text/javascript">\n    // Pass PHP data to JavaScript in a safe way\n    var phpData = <?php echo json_encode($data, JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT); ?>;\n    console.log(phpData);\n</script>

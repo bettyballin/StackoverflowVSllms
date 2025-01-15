@@ -1,1 +1,0 @@
-CREATE INDEX idx_session_guid ON sessions(guid);

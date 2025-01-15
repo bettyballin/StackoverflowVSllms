@@ -1,1 +1,0 @@
-# app/mailers/application_mailer.rb\n   class ApplicationMailer < ActionMailer::Base\n     default from: 'from@example.com'\n     layout 'mailer'\n\n     def example_email(user)\n       @user = user\n       mail(to: @user.email, subject: 'Example Email')\n     end\n   end

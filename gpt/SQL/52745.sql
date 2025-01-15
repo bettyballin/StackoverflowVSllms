@@ -1,1 +1,0 @@
-SELECT name, age\nFROM users\nORDER BY age ASC;

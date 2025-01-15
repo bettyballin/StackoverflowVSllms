@@ -1,1 +1,0 @@
-function get_param($param_name, $param_type = INPUT_POST) {\n    $param_value = filter_input($param_type, $param_name, FILTER_SANITIZE_STRING);\n    return $param_value;\n}\n\n$xml = get_param('xml', INPUT_GET); // or INPUT_POST depending on your needs

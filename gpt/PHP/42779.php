@@ -1,1 +1,0 @@
-class DogObject {\n    public function __toString() {\n        return ""; // An empty string evaluates to false in a boolean context\n    }\n}\n\n$dog = new DogObject();\nif ($dog) {\n    return "This is bad;";\n} else {\n    return "Excellent! $dog was false!";\n}

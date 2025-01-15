@@ -1,1 +1,0 @@
-SELECT * FROM `user` WHERE `username` = 'nick';\n\n-- vs --\n\nSELECT * FROM `user` WHERE `username` = 'nick' LIMIT 1;

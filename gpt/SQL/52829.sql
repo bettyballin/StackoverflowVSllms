@@ -1,1 +1,0 @@
-EXEC sp_addlinkedserver \n       @server = 'OracleLinkedServer',\n       @srvproduct = '',\n       @provider = 'MSDAORA',\n       @datasrc = 'OracleDataSource';\n\n   EXEC sp_addlinkedsrvlogin \n       @rmtsrvname = 'OracleLinkedServer',\n       @useself = 'false',\n       @rmtuser = 'OracleUsername',\n       @rmtpassword = 'OraclePassword';

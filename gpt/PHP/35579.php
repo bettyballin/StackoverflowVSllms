@@ -1,1 +1,0 @@
-<?php\nsession_set_cookie_params([\n    'lifetime' => 0,\n    'path' => '/',\n    'domain' => '.yourdomain.com', // Leading dot for subdomain inclusion\n    'secure' => true, // true if using HTTPS\n    'httponly' => true,\n    'samesite' => 'None' // Required for cross-domain cookies\n]);

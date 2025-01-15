@@ -1,1 +1,0 @@
-// Storing data\n$("#div_id").data("data", {foo: 1, bar: 2, baz: 3});\n\n// Accessing data\nlet data = $("#div_id").data("data");\nlet foo = data.foo;\nlet bar = data.bar;\nlet baz = data.baz;\n\n// Updating a specific value\ndata.foo = 5;\n$("#div_id").data("data", data);

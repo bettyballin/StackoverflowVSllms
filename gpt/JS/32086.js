@@ -1,1 +1,0 @@
-// Trigger file download\nfunction downloadFile(msg, properFileName) {\n    var url = 'download.php?file=' + encodeURIComponent(msg) + '&properFilename=' + encodeURIComponent(properFileName);\n    window.location.href = url;\n}\n\n// Usage example\ndownloadFile('examplefile.txt', 'downloadedfile.txt');

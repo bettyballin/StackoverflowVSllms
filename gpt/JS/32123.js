@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    var counter = 1; // Start with the initial set of inputs\n\n    $('#addCredit').click(function() { \n        counter++; // Increment the counter\n\n        $.get("addCredit.php", { num: counter }, function(data) {\n            $('#newCredit').append(data);\n        });\n\n        return false;\n    });\n});

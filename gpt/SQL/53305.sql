@@ -1,1 +1,0 @@
-CREATE TABLE users (\n    id INT PRIMARY KEY,\n    username VARCHAR(50) NOT NULL, -- Username must always be provided\n    email VARCHAR(100), -- Email is optional, can be NULL\n    date_of_birth DATE -- Date of birth is optional, can be NULL\n);

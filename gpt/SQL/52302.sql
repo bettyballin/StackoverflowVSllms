@@ -1,1 +1,0 @@
-WITH GroupedData AS (\n    SELECT \n        [GROUP],\n        STRING_AGG(CASE WHEN ID IN (3, 4) THEN VALUE ELSE NULL END, ', ') + \n        ' (' + STRING_AGG(CASE WHEN ID = 5 THEN VALUE ELSE NULL END, '') + ')' AS NEWVALUE\n    FROM YourTable\n    GROUP BY [GROUP]\n)\nSELECT \n    NEWVALUE,\n    [GROUP]\nFROM GroupedData;

@@ -1,1 +1,0 @@
-<%\nResponse.Cookies("AuthCookie")("UserName") = userName\nResponse.Cookies("AuthCookie")("AuthToken") = generatedAuthToken ' Create a token and save it in DB\nResponse.Cookies("AuthCookie").Expires = DateAdd("h", 1, Now()) ' Set cookie expiration\n%>

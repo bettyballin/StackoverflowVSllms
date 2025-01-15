@@ -1,1 +1,0 @@
-SELECT *\nFROM user_errors\nWHERE name = 'BI_AGENTEVENTDATA'\nAND type = 'TRIGGER';

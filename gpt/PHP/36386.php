@@ -1,1 +1,0 @@
-<?php\nif (session_status() === PHP_SESSION_NONE) {\n    session_start();\n}\n\n// Your code here\n?>

@@ -1,1 +1,0 @@
-CREATE INDEX idx_katalogbestilling_katalog_offlineid_customerid ON katalogbestilling_katalog(offlineid, customer_id);

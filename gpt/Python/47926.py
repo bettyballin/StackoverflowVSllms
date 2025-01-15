@@ -1,1 +1,0 @@
-from bs4 import BeautifulSoup\n\n# Your HTML snippet\nhtml_snippet = """\n<b>Hello World.</b><br/><p><i>Is there anyone out there?</i></p>\n"""\n\n# Parse the HTML\nsoup = BeautifulSoup(html_snippet, "html.parser")\n\n# Get the plain text\nplain_text = soup.get_text(separator=' ')\n\n# Display the plain text\nprint(plain_text)

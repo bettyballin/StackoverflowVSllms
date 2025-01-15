@@ -1,1 +1,0 @@
-echo $this->baseUrl('/css/style.css'); // Generates /subfolder/css/style.css

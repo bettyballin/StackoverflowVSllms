@@ -1,1 +1,0 @@
-CREATE SEQUENCE update_audit_seq\nSTART WITH 1\nINCREMENT BY 1;

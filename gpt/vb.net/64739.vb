@@ -1,1 +1,0 @@
-Dim cCode As String\ncCode = "YourParameter" ' Assign your parameter value to the variable\n\n' Ensure the parameter is properly formatted into the JavaScript function call\nCall .Document.parentWindow.execScript("FillVendorNames('" & cCode & "')", "javascript")

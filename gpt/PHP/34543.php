@@ -1,1 +1,0 @@
-<?php\n// Your example string\n$example = "Hello &amp; Goodbye";\n\n// Decode HTML entities\n$example = html_entity_decode($example, ENT_QUOTES, 'UTF-8');\n\n// Output the result\necho $example;  // Outputs: Hello & Goodbye\n?>

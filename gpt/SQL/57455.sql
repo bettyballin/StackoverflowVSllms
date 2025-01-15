@@ -1,1 +1,0 @@
-SELECT answer\nFROM (\n    SELECT right AS answer FROM trivia_game\n    UNION\n    SELECT wrong1 FROM trivia_game\n    UNION\n    SELECT wrong2 FROM trivia_game\n    UNION\n    SELECT wrong3 FROM trivia_game\n    UNION\n    SELECT wrong4 FROM trivia_game\n) AS all_answers\nGROUP BY answer;

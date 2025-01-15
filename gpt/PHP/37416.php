@@ -1,1 +1,0 @@
-function generateFingerprint() {\n         return hash('sha256', $_SERVER['REMOTE_ADDR'] . $_SERVER['HTTP_USER_AGENT'] . $_SERVER['HTTP_ACCEPT_LANGUAGE']);\n     }\n     $fingerprint = generateFingerprint();

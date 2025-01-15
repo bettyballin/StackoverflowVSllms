@@ -1,1 +1,0 @@
-DECLARE\n    v_surname VARCHAR2(100) := 'O''Keefe';\n    CURSOR c IS SELECT * FROM PEOPLE WHERE SURNAME = :surname;\nBEGIN\n    OPEN c;\n    FETCH c INTO v_surname;\n    WHILE c%FOUND LOOP\n        DBMS_OUTPUT.PUT_LINE(v_surname);\n        FETCH c INTO v_surname;\n    END LOOP;\n    CLOSE c;\nEND;\n/

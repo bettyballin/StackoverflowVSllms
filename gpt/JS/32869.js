@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    $(document).ready(function() {\n        $("#openLink").click(function() {\n            $("#message").slideDown("fast");\n        });\n        $("#closeLink").click(closeIt); // Pass the function reference here\n    });\n\n    function closeIt() {\n        $("#message").slideUp("slow");\n    }\n</script>

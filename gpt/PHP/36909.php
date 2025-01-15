@@ -1,1 +1,0 @@
-<?php\n\n    class ExampleCest\n    {\n        public function tryToTest(AcceptanceTester $I)\n        {\n            $I->amOnPage('/');\n            $I->see('Welcome to CodeIgniter');\n        }\n    }

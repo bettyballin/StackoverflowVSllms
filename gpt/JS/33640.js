@@ -1,1 +1,0 @@
-// This is a single-line comment\n\n/*\n   This is a multi-line comment\n*/

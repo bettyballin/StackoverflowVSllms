@@ -1,1 +1,0 @@
-function isEmpty($value) {\n    return is_null($value) || (is_string($value) && trim($value) === '');\n}\n\n// Example usage:\n$question = $_POST['question'] ?? '';\n\nif (isEmpty($question)) {\n    // Handle error here\n}

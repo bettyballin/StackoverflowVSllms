@@ -1,1 +1,0 @@
-SELECT DATE(registerDate) AS reg_date, COUNT(*) AS total_per_day \n   FROM #__users \n   GROUP BY DATE(registerDate);

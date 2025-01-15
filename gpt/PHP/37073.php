@@ -1,1 +1,0 @@
-// Example of Symfony Form Component\n     use Symfony\Component\Form\Forms;\n\n     $formFactory = Forms::createFormFactory();\n     $form = $formFactory->createBuilder()\n         ->add('name', TextType::class)\n         ->add('email', EmailType::class)\n         ->getForm();

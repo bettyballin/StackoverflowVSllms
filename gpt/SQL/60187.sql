@@ -1,1 +1,0 @@
--- "Up" method to rename a table\n   ALTER TABLE users RENAME TO users_archive;\n\n   -- "Down" method to revert the table name\n   ALTER TABLE users_archive RENAME TO users;

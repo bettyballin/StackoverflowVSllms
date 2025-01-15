@@ -1,1 +1,0 @@
-CREATE MATERIALIZED VIEW mv_name\n     AS\n     SELECT column1, column2, ...\n     FROM base_table\n     WHERE condition;

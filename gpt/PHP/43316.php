@@ -1,1 +1,0 @@
-$redis = new Redis();\n$redis->connect('127.0.0.1', 6379);\n$logMessage = "User logged in at " . date('Y-m-d H:i:s');\n$redis->rpush('log', $logMessage);

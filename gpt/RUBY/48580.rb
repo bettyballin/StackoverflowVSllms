@@ -1,1 +1,0 @@
-config.force_ssl = true\n   config.action_dispatch.default_headers = {\n     'X-Frame-Options' => 'SAMEORIGIN',\n     'X-Content-Type-Options' => 'nosniff',\n     'X-XSS-Protection' => '1; mode=block',\n     'Content-Security-Policy' => "default-src 'self'"\n   }

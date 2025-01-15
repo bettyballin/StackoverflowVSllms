@@ -1,1 +1,0 @@
--- Flatten the view into a table\n   SELECT *\n   INTO TempTable\n   FROM YourView;\n\n   -- Perform the data export using the flattened table\n   EXEC YourExportProcedure @TableName = 'TempTable';\n\n   -- Drop the temporary table after export\n   DROP TABLE TempTable;

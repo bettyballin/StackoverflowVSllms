@@ -1,1 +1,0 @@
-SET @user = 'foo';\nSET @host = 'localhost';\nSET @password = 'password';\n\nGRANT USAGE ON *.* TO @user@'%'@host;\nDROP USER @user@'%'@host;\nCREATE USER @user@'%'@host IDENTIFIED BY @password;

@@ -1,1 +1,0 @@
-$mysqli = new mysqli("localhost", "root", "", "test");\n\nregister_shutdown_function(function() use ($mysqli) {\n    if ($mysqli->ping()) {\n        $mysqli->close();\n    }\n});\n\n// ...do stuff, perhaps redirect to another page...\n\n// If you are sure that the script won't terminate before this line, you can close the connection here as well\n$mysqli->close();

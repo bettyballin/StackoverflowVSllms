@@ -1,1 +1,0 @@
-WHERE\n    (IsNumeric(@OrderNumber) = 1 AND OrderNumber = @OrderNumber)\n    OR\n    (IsNumeric(@OrderNumber) = 0 AND OrderNumber LIKE '%' + @OrderNumber + '%')

@@ -1,1 +1,0 @@
-$('#commentList').empty();\ngetComments('blog', $('input#blogId').val(), function() {\n    // This code will run after getComments has finished\n    window.location = "#addComment";\n    $('#comAdd').removeAttr('disabled');\n});

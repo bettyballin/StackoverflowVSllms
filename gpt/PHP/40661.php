@@ -1,1 +1,0 @@
-while (true) {\n       if (date('H:i') === '13:00' && date('N') < 6) { // 13:00 on weekdays\n           include('/path/to/your_script.php');\n       }\n       sleep(60); // Sleep for 60 seconds\n   }

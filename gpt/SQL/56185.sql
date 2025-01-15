@@ -1,1 +1,0 @@
-UPDATE linked_list\nSET next_id = @new_id\nWHERE next_id IS NULL AND id != @new_id;

@@ -1,1 +1,0 @@
-$output = shell_exec('C:\\Program Files\\Subversion\\bin\\svn --version 2>&1');\n   echo "<pre>$output</pre>";

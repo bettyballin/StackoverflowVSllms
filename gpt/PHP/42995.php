@@ -1,1 +1,0 @@
-header('Content-Type: application/json; charset=ISO-8859-1');

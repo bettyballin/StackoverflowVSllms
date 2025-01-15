@@ -1,1 +1,0 @@
-// JavaScript to load message details using Ajax\n   function loadMessageDetails(messageId) {\n       fetch(`/message/details?id=${messageId}`)\n           .then(response => response.json())\n           .then(data => {\n               // Update the UI with message details\n           });\n   }

@@ -1,1 +1,0 @@
-<?php\nrequire('path/to/smarty/libs/Smarty.class.php');\n\n$smarty = new Smarty;\n\n$elements = range(1, 5); // Array of elements\n$smarty->assign('elements', $elements);\n\n$smarty->display('template.tpl');\n?>

@@ -1,1 +1,0 @@
-<?php\n// Prevent direct access to the file\nif (!defined('ABSPATH')) {\n    exit;\n}\n\n// Sanitize and validate the input\n$size = isset($_GET['size']) ? sanitize_text_field($_GET['size']) : '';\n\necho "hello world";\n\nif (!empty($size)) {\n    echo htmlspecialchars($size, ENT_QUOTES, 'UTF-8');\n}\n\necho "hello world";\n?>

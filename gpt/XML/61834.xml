@@ -1,1 +1,0 @@
-<system.serviceModel>\n     <behaviors>\n       <serviceBehaviors>\n         <behavior name="ThrottlingBehavior">\n           <serviceThrottling \n             maxConcurrentCalls="100"\n             maxConcurrentSessions="100"\n             maxConcurrentInstances="100" />\n         </behavior>\n       </serviceBehaviors>\n     </behaviors>\n   </system.serviceModel>

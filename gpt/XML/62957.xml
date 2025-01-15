@@ -1,1 +1,0 @@
-<project baseDir="." outDir=".\output" xmlns="http://confuser.codeplex.com">\n  <rule pattern="true" inherit="false">\n    <protection id="rename" />\n    <protection id="resources" />\n    <protection id="ctrl flow" />\n  </rule>\n  <module path=".\bin\Release\YourLibrary.dll" />\n</project>

@@ -1,1 +1,0 @@
-if (ini_get('register_globals')) {\n      echo 'register_globals is enabled. Please disable it for security reasons.';\n  }

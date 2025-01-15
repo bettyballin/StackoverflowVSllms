@@ -1,1 +1,0 @@
-<filter>\n    <filter-name>HttpsEnforcerFilter</filter-name>\n    <filter-class>com.yourpackage.HttpsEnforcerFilter</filter-class>\n</filter>\n<filter-mapping>\n    <filter-name>HttpsEnforcerFilter</filter-name>\n    <url-pattern>/*</url-pattern>\n</filter-mapping>

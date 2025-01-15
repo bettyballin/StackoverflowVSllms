@@ -1,1 +1,0 @@
-SELECT Department, Category\nFROM (\n    SELECT \n        Department, \n        Category, \n        COUNT(*) as cnt,\n        ROW_NUMBER() OVER (PARTITION BY Department ORDER BY COUNT(*) DESC, Category) as rn\n    FROM your_table\n    GROUP BY Department, Category\n) sub\nWHERE rn = 1;

@@ -1,1 +1,0 @@
-import numpy as np\n   from sklearn.linear_model import LinearRegression\n\n   # Example using historical data\n   historical_data = np.array([[10, 2], [20, 5], [30, 8]])  # [KLOC, defects]\n   X = historical_data[:, 0].reshape(-1, 1)\n   y = historical_data[:, 1]\n\n   model = LinearRegression()\n   model.fit(X, y)\n   predicted_defects = model.predict([[totalKLOC]])

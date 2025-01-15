@@ -1,1 +1,0 @@
-<?php\nheader('Access-Control-Allow-Origin: *');\nheader('Content-Type: application/json');\necho json_encode(["message" => "Hello World", "version" => "1.0"]);\n?>

@@ -1,1 +1,0 @@
-$query = $database->prepare('SELECT * FROM table WHERE column LIKE :value');\n$value = 'value%';\n$query->bindParam(':value', $value, PDO::PARAM_STR);\n\n$query->execute();\n\nwhile ($results = $query->fetch(PDO::FETCH_ASSOC)) {\n    echo $results['column'];\n}

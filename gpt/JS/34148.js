@@ -1,1 +1,0 @@
-const parentElement = document.getElementById('yourDivId');\nparentElement.innerHTML = '';

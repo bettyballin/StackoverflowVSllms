@@ -1,1 +1,0 @@
-async function fetchData(url) {\n     try {\n       let response = await fetch(url);\n       let data = await response.json();\n       console.log(data);\n     } catch (error) {\n       console.error('Error fetching data:', error);\n     }\n   }\n\n   fetchData('https://api.example.com/data');

@@ -1,1 +1,0 @@
-<?php\n// Turn off Output Buffering\nif (ob_get_level() == 0) ob_start();\n\necho 'Testing incremental output...' . "\n";\nob_flush();\nflush();\nsleep(5);\n\necho 'Step 1...' . "\n";\nob_flush();\nflush();\nsleep(5);\n\necho 'Step 2...' . "\n";\nob_flush();\nflush();\nsleep(5);\n\necho 'Complete!' . "\n";\nob_flush();\nflush();\nob_end_flush();\n?>

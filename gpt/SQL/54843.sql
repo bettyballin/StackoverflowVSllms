@@ -1,1 +1,0 @@
-SELECT OrderDate, TotalAmount \nFROM Orders \nWHERE CustomerID = 12345;

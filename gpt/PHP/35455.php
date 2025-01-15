@@ -1,1 +1,0 @@
-$memcache = new Memcache();\n$memcache->connect('127.0.0.1', 11211);\n\n// Retrieve cached data\n$rows2 = $memcache->get('therows1');\n\nif ($rows2 == '') {\n    $myfriends = findfriend2();\n    $memcache->set('therows1', $myfriends, 0, 30);\n} else {\n    echo '<pre>';\n    print_r($rows2);\n    echo '</pre>';\n}

@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\nsleep(1);\n\nif (isset($_SESSION['screen_name'])) {\n    echo 'done';\n    exit;\n} else {\n    echo session_id() . $_SESSION['screen_name'];\n    exit;\n}\n?>

@@ -1,1 +1,0 @@
--- Insert a new row into tableB for each row in tableA with contentID of 11\nINSERT INTO tableB (userID, otherColumn)\nSELECT userID, otherData\nFROM tableA\nWHERE contentID = 11;\n\n-- Execute a stored procedure for each userID in tableA with specific data\nEXEC runStoredProcedure\nFROM tableA\nWHERE data = 'specificValue';

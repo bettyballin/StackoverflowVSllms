@@ -1,1 +1,0 @@
-<b:if cond='data:post.labels'>\n  <b:loop values='data:post.labels' var='label'>\n    <img src='YOUR_IMAGE_URL' alt='<data:label.name/>' />\n  </b:loop>\n</b:if>

@@ -1,1 +1,0 @@
-SELECT t.*\nFROM team t\nJOIN schedule s ON t.schedule_id = s.schedule_id\nJOIN event e ON s.event_id = e.event_id\nLEFT JOIN signup sg ON t.team_id = sg.team_id\nWHERE e.event_id = 183\nGROUP BY t.team_id\nHAVING COUNT(sg.signup_id) = 0;

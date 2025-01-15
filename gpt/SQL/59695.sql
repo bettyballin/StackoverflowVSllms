@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n   -- Lock the target table to prevent schema changes\n   SELECT * FROM TargetTable WITH (TABLOCKX);\n\n   -- Perform the SELECT INTO operation\n   SELECT * INTO NewTable FROM SourceTable;\n\n   -- Commit the transaction\n   COMMIT TRANSACTION;

@@ -1,1 +1,0 @@
-class Applicant < ActiveRecord::Base\n  belongs_to :order\n\n  validates_length_of :middle_name, maximum: 20, allow_nil: true, if: :company_200?\n  validates_length_of :middle_name, maximum: 1, allow_nil: true, if: :company_201?\n\n  private\n\n  def company_200?\n    order.company == 200\n  end\n\n  def company_201?\n    order.company == 201\n  end\nend

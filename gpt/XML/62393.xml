@@ -1,1 +1,0 @@
-<hibernate-configuration>\n    <session-factory>\n        ...\n        <mapping class="your.package.ComboValue"/>\n        ...\n    </session-factory>\n</hibernate-configuration>

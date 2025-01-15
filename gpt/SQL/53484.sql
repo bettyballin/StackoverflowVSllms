@@ -1,1 +1,0 @@
-SELECT *\nFROM orders\nORDER BY user, RAND()

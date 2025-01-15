@@ -1,1 +1,0 @@
-import keyboard\n\ndef fibonacci():\n    a, b = 0, 1\n    while True:\n        print(a)\n        a, b = b, a + b\n        if keyboard.is_pressed('q'):  # Press 'q' to stop\n            print("Stopping the function.")\n            break\n\nfibonacci()

@@ -1,1 +1,0 @@
-Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load\n       Dim ex As Exception = TryCast(Context.Items("LastError"), Exception)\n       If ex IsNot Nothing Then\n           ' Handle the exception (e.g., display error details, log it, etc.)\n       End If\n   End Sub

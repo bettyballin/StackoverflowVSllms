@@ -1,1 +1,0 @@
-import pyudmx\n\n   device = pyudmx.uDMXDevice()\n   device.open()\n\n   def set_light(channel, value):\n       device.send_single_value(channel, value)\n\n   # Example: Set channel 1 to maximum brightness\n   set_light(1, 255)

@@ -1,1 +1,0 @@
-SELECT \n    pd.id,\n    s1.state_name AS sender_state,\n    s2.state_name AS receiver_state\nFROM \n    Package_Details pd\nJOIN \n    States s1 ON pd.sender_state = s1.state_id\nJOIN \n    States s2 ON pd.receiver_state = s2.state_id;

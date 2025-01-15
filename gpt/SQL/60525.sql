@@ -1,1 +1,0 @@
-SELECT a, b FROM products WHERE (a = 1 OR b = 2);

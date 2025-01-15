@@ -1,1 +1,0 @@
-def jaccard_similarity(str1, str2):\n       a = set(str1.split()) \n       b = set(str2.split())\n       c = a.intersection(b)\n       return float(len(c)) / (len(a) + len(b) - len(c))\n\n   similarity = jaccard_similarity("your first phrase", "your second phrase")

@@ -1,1 +1,0 @@
-from geopy.geocoders import GeoNames\n     geolocator = GeoNames(username='your_username')\n     location = geolocator.geocode("New York")\n     print(location.latitude, location.longitude)

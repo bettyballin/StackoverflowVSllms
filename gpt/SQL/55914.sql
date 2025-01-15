@@ -1,1 +1,0 @@
-SELECT x, y, x / y AS quot\n   FROM t;

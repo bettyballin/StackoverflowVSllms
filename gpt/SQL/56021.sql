@@ -1,1 +1,0 @@
-WITH GroupedEvents AS (\n    SELECT \n        "GROUPID",\n        COUNT(*) AS cnt\n    FROM \n        "EVENT"\n    GROUP BY \n        "GROUPID"\n    HAVING \n        COUNT(*) <> 5\n)\nSELECT \n    A.*\nFROM \n    "EVENT" A\nJOIN \n    GroupedEvents G\nON \n    A."GROUPID" = G."GROUPID";

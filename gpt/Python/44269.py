@@ -1,1 +1,0 @@
-# main.py\n\nimport game_data\n\ndef main():\n    game_data.initialize_data()\n\n    # Access the global data\n    print(f"Available equipment: {game_data.equipment}")\n    print(f"Unit types: {game_data.units}")\n    print(f"Weather conditions: {game_data.weather_conditions}")\n    print(f"Terrain types: {game_data.terrain_types}")\n\nif __name__ == "__main__":\n    main()

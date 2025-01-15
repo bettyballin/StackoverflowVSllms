@@ -1,1 +1,0 @@
-CREATE TABLE Locations (\n    Id INT PRIMARY KEY,\n    Name NVARCHAR(100),\n    GeoLocation GEOGRAPHY\n);

@@ -1,1 +1,0 @@
-def trial_division(n):\n    factors = []\n    for i in range(2, int(n**0.5) + 1):\n        while n % i == 0:\n            factors.append(i)\n            n //= i\n    if n > 1:\n        factors.append(n)\n    return factors\n\nn = 34359738368  # Replace with your RSA modulus\nfactors = trial_division(n)\nprint(factors)

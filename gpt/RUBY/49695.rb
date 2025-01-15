@@ -1,1 +1,0 @@
-class UserMailer < ApplicationMailer\n  def default_url_options\n    if Rails.env.production?\n      { host: 'your-production-domain.com' }\n    else\n      { host: 'localhost', port: 3000 }\n    end\n  end\n\n  def forgot_password(user)\n    @user = user\n    @token = user.reset_password_token\n    mail(to: @user.email, subject: 'Reset password instructions')\n  end\nend

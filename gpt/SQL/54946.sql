@@ -1,1 +1,0 @@
-ALTER SESSION ENABLE PARALLEL DML;\n    INSERT /*+ PARALLEL(customer, 4) */ INTO customer (...);

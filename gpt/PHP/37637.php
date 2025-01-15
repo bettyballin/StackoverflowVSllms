@@ -1,1 +1,0 @@
-<?php\nini_set('display_errors', 1);\nini_set('display_startup_errors', 1);\nerror_reporting(E_ALL);\n\nif (isset($_GET['referrer_id'])) {\n    $querystringWithJunk = $_GET['referrer_id'];\n    $querystringArray = explode('/', $querystringWithJunk);\n\n    setcookie("referrer_id", $querystringArray[0], time() + 60*60*24*365*100);\n}\n?>

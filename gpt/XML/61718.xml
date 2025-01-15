@@ -1,1 +1,0 @@
-<?xml version="1.0"?>\n<package >\n  <metadata>\n    <id>MyCommonLibrary</id>\n    <version>1.0.0</version>\n    <authors>YourName</authors>\n    <owners>YourCompany</owners>\n    <requireLicenseAcceptance>false</requireLicenseAcceptance>\n    <description>A common utility library for various projects.</description>\n    <tags>utility common</tags>\n  </metadata>\n</package>

@@ -1,1 +1,0 @@
-let parser = new DOMParser();\nlet xmlDoc = parser.parseFromString(`\n<root>\n  <element>Text</element>\n</root>`, 'text/xml');\n\nlet result = xmlDoc.evaluate('/root/element', xmlDoc, null, XPathResult.ANY_TYPE, null);\nlet node = result.iterateNext();\nwhile (node) {\n    console.log(node.textContent);\n    node = result.iterateNext();\n}

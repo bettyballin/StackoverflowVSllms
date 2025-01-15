@@ -1,1 +1,0 @@
-$mysqli = new mysqli("host", "user", "password", "database");\n\nif ($mysqli->connect_error) {\n    die("Connection failed: " . $mysqli->connect_error);\n}\n\n$result = $mysqli->query("SELECT * FROM Posts ORDER BY Created DESC");\n$array = $result->fetch_assoc();\n$timestamp = strtotime($array['Created']);\necho $timestamp;\n\n$mysqli->close();

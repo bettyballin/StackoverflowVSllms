@@ -1,1 +1,0 @@
--- Example: Adding an index to a frequently queried column\n    CREATE INDEX idx_column_name ON table_name (column_name);

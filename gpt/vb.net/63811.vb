@@ -1,1 +1,0 @@
-Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load\n    TextBox1.Text = My.Settings.mytext ' Load settings into the textbox\nEnd Sub

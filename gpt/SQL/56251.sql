@@ -1,1 +1,0 @@
-WITH RankedCharges AS (\n    SELECT \n        chargeId, \n        chargeType, \n        serviceMonth,\n        ROW_NUMBER() OVER (PARTITION BY chargeId, chargeType ORDER BY serviceMonth DESC) AS rn\n    FROM \n        invoice\n)\nSELECT \n    chargeId, \n    chargeType, \n    serviceMonth\nFROM \n    RankedCharges\nWHERE \n    rn = 1;

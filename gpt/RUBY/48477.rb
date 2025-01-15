@@ -1,1 +1,0 @@
-DB = Sequel.connect('sqlite://database.db')\n\nclass User < Sequel::Model\n  many_to_one :group\n  one_to_many :posts\nend\n\n# Create a new user\nuser = User.create(name: 'John Doe')\n\n# Fetch a user and their associated group\nuser = User.first(name: 'John Doe')\ngroup = user.group

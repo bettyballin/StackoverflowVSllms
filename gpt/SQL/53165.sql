@@ -1,1 +1,0 @@
-CREATE TABLE table1 (\n    col1 INT,\n    col2 INT,\n    col3 AS FLOOR(col1 / col2) -- Computed column\n);

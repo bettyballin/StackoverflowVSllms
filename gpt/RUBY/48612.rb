@@ -1,1 +1,0 @@
-w = Widget.new # Create a Widget\nw.send :utility_method # Invoke private method!\nw.instance_eval { utility_method } # Another way to invoke it\nw.instance_eval { @x } # Read instance variable of w

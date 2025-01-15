@@ -1,1 +1,0 @@
-class Form < ActiveRecord::Base\n  has_many :question_memberships, -> { order(:position) }\n  has_many :questions, through: :question_memberships\nend

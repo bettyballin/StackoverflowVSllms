@@ -1,1 +1,0 @@
-SELECT movies.*\nFROM movies\nLEFT JOIN seen ON movies.id = seen.movie_id AND seen.user_id = 123\nWHERE seen.movie_id IS NULL;

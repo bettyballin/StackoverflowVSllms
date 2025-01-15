@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>\n<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">\n  <xsl:output method="xml" indent="yes"/>\n  \n  <xsl:template match="/">\n    <result>\n      <xsl:copy-of select="//ElementIWant"/>\n      <xsl:copy-of select="//ElementIWant"/>\n    </result>\n  </xsl:template>\n</xsl:stylesheet>

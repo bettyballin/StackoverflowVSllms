@@ -1,1 +1,0 @@
-# Calculate the total revenue\ntotal_revenue = Order.sum(:amount)\n\n# Calculate the average order amount\naverage_order = Order.average(:amount)\n\n# Find the maximum order amount\nmax_order = Order.maximum(:amount)\n\n# Find the minimum order amount\nmin_order = Order.minimum(:amount)

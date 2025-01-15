@@ -1,1 +1,0 @@
-// In your view file (e.g., homepage.ctp)\n<?php\n$userId = $this->request->getSession()->read('User.UserId');\necho "User ID: " . h($userId);\n?>

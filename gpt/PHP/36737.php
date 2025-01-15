@@ -1,1 +1,0 @@
-<?php\nnamespace MyProject;\n\nclass MyClass {\n    public function myFunction() {\n        echo "Hello from MyClass\n";\n    }\n}\n\nfunction myFunction() {\n    echo "Hello from MyFunction\n";\n}\n\nconst MYCONST = 'Hello from MyConst';\n\n?>

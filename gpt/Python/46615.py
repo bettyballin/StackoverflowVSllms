@@ -1,1 +1,0 @@
-# Overestimating heuristic (intentionally incorrect)\n     def heuristic(node, goal):\n         return 2 * ((node.x - goal.x) ** 2 + (node.y - goal.y) ** 2) ** 0.5

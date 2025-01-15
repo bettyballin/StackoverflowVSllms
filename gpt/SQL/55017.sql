@@ -1,1 +1,0 @@
-INSERT INTO wedding_dates (user_id, wedding_year, wedding_month) VALUES (1, 2009, 6);

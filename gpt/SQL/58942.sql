@@ -1,1 +1,0 @@
-DECLARE\n  v_seq_number NUMBER;\nBEGIN\n  INSERT INTO your_table (id, column1, column2)\n  VALUES (your_sequence.NEXTVAL, 'value1', 'value2')\n  RETURNING id INTO v_seq_number;\n\n  -- Now v_seq_number contains the sequence number of the inserted row\n  DBMS_OUTPUT.PUT_LINE('Inserted sequence number: ' || v_seq_number);\nEND;\n/

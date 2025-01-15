@@ -1,1 +1,0 @@
-CREATE TEMPORARY TABLE temp_table AS\n     SELECT column1, column2 FROM main_table WHERE condition;\n     SELECT * FROM temp_table WHERE another_condition;

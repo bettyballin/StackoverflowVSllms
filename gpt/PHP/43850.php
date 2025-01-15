@@ -1,1 +1,0 @@
-<?php\n    // Save this file as phpinfo.php and place it on your web server\n    phpinfo();\n    ?>

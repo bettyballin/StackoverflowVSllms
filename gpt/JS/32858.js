@@ -1,1 +1,0 @@
-// Fetch data from the Spring Boot API\n   useEffect(() => {\n       fetch('/api/data')\n           .then(response => response.json())\n           .then(data => setData(data));\n   }, []);

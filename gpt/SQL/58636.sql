@@ -1,1 +1,0 @@
-CREATE TABLE my_table (\n    "type" VARCHAR(255),\n    "desc" TEXT,\n    "start" TIMESTAMP\n);

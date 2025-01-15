@@ -1,1 +1,0 @@
--- Add a new role\n    INSERT INTO aspnet_Roles (RoleName, LoweredRoleName, ApplicationId)\n    VALUES ('NewRole', 'newrole', 'applicationId');\n\n    -- Add a user to a role\n    INSERT INTO aspnet_UsersInRoles (UserId, RoleId)\n    SELECT u.UserId, r.RoleId\n    FROM aspnet_Users u, aspnet_Roles r\n    WHERE u.UserName = 'username' AND r.RoleName = 'NewRole';

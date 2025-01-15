@@ -1,1 +1,0 @@
-function GetEmployee() {\n       var xhr = new XMLHttpRequest();\n       xhr.open("GET", "your_php_file.php", true);\n       xhr.onreadystatechange = function() {\n           if (xhr.readyState == 4 && xhr.status == 200) {\n               document.getElementById("Result").innerHTML = xhr.responseText;\n           }\n       };\n       xhr.send();\n   }

@@ -1,1 +1,0 @@
-$rand_place = array_values(array_filter(explode(",", loadFile("csvOf20000places.txt"))))[rand(0, 1000)];

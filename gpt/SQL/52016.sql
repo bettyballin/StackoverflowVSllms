@@ -1,1 +1,0 @@
-SELECT customer_id, SUM(amount) AS total_purchases\nFROM purchase_orders\nGROUP BY customer_id;

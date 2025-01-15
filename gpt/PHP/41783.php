@@ -1,1 +1,0 @@
-<h1>Add Post</h1>\n<?php\necho $this->Form->create('Post');\necho $this->Form->input('title');\necho $this->Form->input('body', array('rows' => '3'));\necho $this->Form->end('Save Post');\n?>

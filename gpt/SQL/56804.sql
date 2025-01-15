@@ -1,1 +1,0 @@
-SELECT *\nFROM songs\nWHERE upload_date >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)\nORDER BY upload_date DESC;

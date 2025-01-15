@@ -1,1 +1,0 @@
-class YourModel < ApplicationRecord\n  attr_accessor :resubmit\n\n  validate :unique_values_unless_resubmit\n\n  private\n\n  def unique_values_unless_resubmit\n    unless resubmit\n      if YourModel.where(value1: value1, value2: value2).exists?\n        errors.add(:base, 'Values must be unique')\n      end\n    end\n  end\nend

@@ -1,1 +1,0 @@
-gem 'ssl_requirement', '~> 0.1.0'

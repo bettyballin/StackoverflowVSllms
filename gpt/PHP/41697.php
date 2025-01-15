@@ -1,1 +1,0 @@
-// Preprocess the $_GET array\nif (empty($_GET['name'])) {\n    $_GET['name'] = '(default name)';\n}\n\n// Apply manual processing\n$_GET['name'] = str_replace(' ', '', $_GET['name']);\n\n// Now filter and sanitize the preprocessed data\n$name = filter_var($_GET['name'], FILTER_SANITIZE_STRING);\n\necho $name;

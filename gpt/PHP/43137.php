@@ -1,1 +1,0 @@
-'Datasources' => [\n    'default' => [\n        'host' => 'localhost',\n        'username' => 'your_db_username',\n        'password' => 'your_db_password',\n        'database' => 'your_db_name',\n        'driver' => 'Cake\Database\Driver\Mysql',\n        'persistent' => false,\n        'encoding' => 'utf8mb4',\n    ],\n],

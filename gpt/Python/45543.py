@@ -1,1 +1,0 @@
-# views.py\n\nfrom django.contrib import messages\nfrom django.shortcuts import render, redirect\n\ndef my_view(request):\n    # Add a message for the user (logged in or anonymous)\n    messages.info(request, "This is a message for the user.")\n    \n    # Your view logic here\n    ...\n    \n    return render(request, 'my_template.html')

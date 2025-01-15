@@ -1,1 +1,0 @@
-<?php\nfunction displaySearchForm() {\n    if (empty($_GET["search"])) { // Display search box if no search\n        echo '<form method="get" action="">\n            <input type="text" name="search">\n            <input type="submit" value="Search">\n        </form>';\n        return false;\n    } else {\n        return true;\n    }\n}\n?>

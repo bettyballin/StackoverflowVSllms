@@ -1,1 +1,0 @@
-class Task < ApplicationRecord\n  belongs_to :project\n\n  validates :name, presence: true\nend

@@ -1,1 +1,0 @@
-REFRESH FORCE ON DEMAND \nSTART WITH sysdate+0 \nNEXT (round(sysdate) + 1/24) + 1

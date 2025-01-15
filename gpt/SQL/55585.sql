@@ -1,1 +1,0 @@
-EXEC dbo.PivotMonths '2022-01-01', '2022-12-31';

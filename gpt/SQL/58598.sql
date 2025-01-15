@@ -1,1 +1,0 @@
-MERGE INTO source ev\nUSING dataTbl t\nON (ev.counterID = t.counterID)\nWHEN MATCHED THEN\nUPDATE SET \n    ev.station_type = t.st_type, \n    ev.adt = t.adt;

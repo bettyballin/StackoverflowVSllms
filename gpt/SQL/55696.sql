@@ -1,1 +1,0 @@
-SELECT COUNT(address) \nFROM (\n    SELECT name, address, phone \n    FROM USER\n) AS subquery;

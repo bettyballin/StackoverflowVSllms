@@ -1,1 +1,0 @@
-Dim obj As New Object()\n\nSyncLock obj\n    ' Critical section of code goes here.\nEnd SyncLock

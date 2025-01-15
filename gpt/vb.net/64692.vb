@@ -1,1 +1,0 @@
-Private Declare PtrSafe Function FortranCall Lib "dummy" (ByVal r1 As Long, ByVal num As String) As Long

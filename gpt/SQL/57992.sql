@@ -1,1 +1,0 @@
-CREATE TABLE hierarchy (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    parent_id INT DEFAULT NULL,\n    name VARCHAR(255) NOT NULL,\n    FOREIGN KEY (parent_id) REFERENCES hierarchy(id)\n);

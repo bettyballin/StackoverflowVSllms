@@ -1,1 +1,0 @@
-if (function_exists('opcache_reset')) {\n       opcache_reset();\n   }

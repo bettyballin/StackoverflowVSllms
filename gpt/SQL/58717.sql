@@ -1,1 +1,0 @@
-SELECT datetime(timestamp, 'localtime', '-6 hours') as cst_timestamp FROM your_table;

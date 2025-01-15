@@ -1,1 +1,0 @@
-<ehcache>\n  <cache name="durable-cache"\n         maxEntriesLocalHeap="10000"\n         maxEntriesLocalDisk="1000000"\n         eternal="false"\n         timeToLiveSeconds="600"\n         timeToIdleSeconds="300">\n    <persistence strategy="localTempSwap"/>\n    <terracotta clustered="true" synchronousWrites="false"/>\n  </cache>\n</ehcache>

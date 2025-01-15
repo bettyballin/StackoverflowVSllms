@@ -1,1 +1,0 @@
-<?PHP\nif (isset($_GET['pagina']) == "homepage") {\n?>\nHtmlCode1\n<?php \n} else { \n?>\nHtmlCode2\n<?php \n} \n?>

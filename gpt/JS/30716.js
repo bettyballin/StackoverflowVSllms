@@ -1,1 +1,0 @@
-var obj = {\n  value: 10,\n  calculate: function(a, b) {\n    console.log(this.value + a + b);\n    throw new Error("Test error");\n  }\n};\n\nobj.calculate = obj.calculate.TryCatchWrap();\n\nobj.calculate(1, 2); // This will correctly log 13 and then call the global error handler.

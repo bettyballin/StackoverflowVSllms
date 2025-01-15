@@ -1,1 +1,0 @@
-USE [YourDatabaseName];\n   GRANT SELECT, INSERT, UPDATE, DELETE ON OBJECT::[dbo].[sysdiagrams] TO [YourUserName];

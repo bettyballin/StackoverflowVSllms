@@ -1,1 +1,0 @@
-<?php\nsession_start();\nif (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {\n    http_response_code(403);\n    exit('Forbidden');\n}\n?>\n<p>This is embedded protected content.</p>

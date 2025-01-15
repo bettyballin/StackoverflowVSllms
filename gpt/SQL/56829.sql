@@ -1,1 +1,0 @@
-USE msdb;\n   GO\n\n   DECLARE @job_id UNIQUEIDENTIFIER;\n\n   -- Replace 'YourJobName' with the name of your job\n   SELECT @job_id = job_id\n   FROM msdb.dbo.sysjobs\n   WHERE name = 'YourJobName';\n\n   EXEC msdb.dbo.sp_help_job @job_id;\n   EXEC msdb.dbo.sp_help_jobstep @job_id;

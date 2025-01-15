@@ -1,1 +1,0 @@
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">\n   <soapenv:Body>\n      <web:GetUserResponse>\n         <web:User>\n            <web:Id>123</web:Id>\n            <web:Name>John Doe</web:Name>\n            <web:Email>john.doe@example.com</web:Email>\n         </web:User>\n      </web:GetUserResponse>\n   </soapenv:Body>\n</soapenv:Envelope>

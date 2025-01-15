@@ -1,1 +1,0 @@
-# Install HTR\npip install htr\n\n# Example usage\nfrom htr import HTRModel\n\nmodel = HTRModel.load('path_to_pretrained_model')\ntext = model.recognize('path_to_handwritten_image')\nprint(text)

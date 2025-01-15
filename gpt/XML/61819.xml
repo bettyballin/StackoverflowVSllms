@@ -1,1 +1,0 @@
-<ivy-module version="2.0">\n    <info organisation="your-organisation" module="your-module"/>\n    <dependencies>\n        <dependency org="org.example" name="example-dependency" rev="1.0" />\n    </dependencies>\n</ivy-module>

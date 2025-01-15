@@ -1,1 +1,0 @@
-$largeArray = array_fill(0, 5000, 'value'); // Example array with 5000 elements\n$serializedArray = serialize($largeArray);\n\n// To unserialize\n$unserializedArray = unserialize($serializedArray);

@@ -1,1 +1,0 @@
--- Query to get articles with a specific tag\nSELECT a.ArticleID \nFROM Article a \nINNER JOIN Article_Tag at ON a.ArticleID = at.ArticleID \nINNER JOIN Tag t ON at.TagID = t.TagID \nWHERE t.TagText = 'apple';\n\n-- Query to get all tags\nSELECT TagText FROM Tag;

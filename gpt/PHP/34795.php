@@ -1,1 +1,0 @@
-<?php\n\nabstract class ControllerTestCase extends Zend_Test_PHPUnit_ControllerTestCase\n{\n    protected function setUp(): void\n    {\n        $this->bootstrap = new Zend_Application(\n            'testing',\n            APPLICATION_PATH . '/configs/application.ini'\n        );\n        parent::setUp();\n    }\n}

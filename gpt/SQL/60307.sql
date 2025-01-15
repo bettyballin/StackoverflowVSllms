@@ -1,1 +1,0 @@
-SELECT p.content, COUNT(pt.tag_id) AS tag_count\nFROM page p\nJOIN page_tag pt ON p.id = pt.page_id\nWHERE pt.tag_id IN (1, 3, 8)\nGROUP BY p.id, p.content\nORDER BY tag_count DESC;

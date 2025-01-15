@@ -1,1 +1,0 @@
-class Home extends Controller\n{\n    /** \n     * Constructor\n     */ \n    public function __construct() {\n        parent::__construct();\n    }\n\n    // Other methods...\n}

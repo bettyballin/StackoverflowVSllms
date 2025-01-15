@@ -1,1 +1,0 @@
-CREATE TABLE LookupTable (\n    foo VARCHAR(255) PRIMARY KEY,\n    result VARCHAR(255)\n);

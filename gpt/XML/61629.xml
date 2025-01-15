@@ -1,1 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">\n\n      <Target Name="ValidateHtmlAndCss" AfterTargets="Build">\n        <Exec Command="sh validate-site.sh" />\n        <Error Condition="'$(MSBuildLastTaskResult)' == 'false'" Text="HTML or CSS validation failed. Check the build log for details." />\n      </Target>\n\n    </Project>

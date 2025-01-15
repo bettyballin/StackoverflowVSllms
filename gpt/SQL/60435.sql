@@ -1,1 +1,0 @@
-DECLARE @NextID INT;\n\n-- Lots of these\nEXEC GetNextID 'tableOfStuff', @NextID OUTPUT;\nINSERT INTO tableOfStuff (someStuff, uniqueID) VALUES ('stuff', @NextID);

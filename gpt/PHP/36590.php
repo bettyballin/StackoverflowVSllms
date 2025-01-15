@@ -1,1 +1,0 @@
-$form = $_POST['game'];\n\n// Debugging: print the keys to ensure they are as expected\nprint_r(array_keys($form));\n\n// Debugging: print the whole array\nprint_r($form);\n\n// Access the value securely\n$system_id = isset($form['System_ID']) ? $form['System_ID'] : 'Key not found';\necho '#' . $system_id . '#';

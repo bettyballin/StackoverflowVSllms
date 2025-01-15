@@ -1,1 +1,0 @@
--- Set the database names\nSET @dbfrom = 'db1';\nSET @dbto = 'db2';\n\n-- Prepare the SQL statement with dynamic database names\nSET @insert_query = CONCAT('INSERT INTO ', @dbto, '.mytable (col1, col2, col3) SELECT col2, col1, col3 FROM ', @dbfrom, '.mytable');\n\n-- Execute the prepared statement\nPREPARE stmt FROM @insert_query;\nEXECUTE stmt;\nDEALLOCATE PREPARE stmt;

@@ -1,1 +1,0 @@
-SELECT pid, datname, relid::regclass AS relation, phase, tuples_done, tuples_total\n   FROM pg_stat_progress_update;

@@ -1,1 +1,0 @@
-<?php\n$dir = 'path/to/images/folder';\n$images = array();\n\nif (is_dir($dir)) {\n    if ($dh = opendir($dir)) {\n        while (($file = readdir($dh)) !== false) {\n            if (preg_match('/\.(jpg|jpeg|png|gif)$/i', $file)) {\n                $images[] = $file;\n            }\n        }\n        closedir($dh);\n    }\n}\n\necho json_encode($images);\n?>

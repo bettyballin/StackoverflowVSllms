@@ -1,1 +1,0 @@
-SELECT t1.*\nFROM Table1 t1\nJOIN Table2 t2 ON t1.ThresholdID = t2.ThresholdID\nWHERE t1.Value < t2.Threshold;

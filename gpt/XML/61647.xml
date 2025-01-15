@@ -1,1 +1,0 @@
-<Project>\n       <PropertyGroup>\n           <UseIIS>true</UseIIS>\n           <IISUrl>http://localhost/webapp_minor</IISUrl>\n       </PropertyGroup>\n   </Project>

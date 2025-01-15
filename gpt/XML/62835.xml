@@ -1,1 +1,0 @@
-<logger name="org.springframework" level="WARN"/>\n   <logger name="org.hibernate" level="ERROR"/>

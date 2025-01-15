@@ -1,1 +1,0 @@
-import math\n\ndef collision_probability(n, N):\n    return 1 - math.exp(-n * (n - 1) / (2 * N))\n\nn = 100\nN = 50000\n\nprobability = collision_probability(n, N)\nprint(f"The probability of a collision with {n} hashes is approximately {probability:.6f}")

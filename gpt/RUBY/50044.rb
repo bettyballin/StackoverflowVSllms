@@ -1,1 +1,0 @@
-require 'humanize'\n\nputs 1.humanize    # Output: "one"\nputs 2.humanize    # Output: "two"\nputs 123.humanize  # Output: "one hundred and twenty-three"

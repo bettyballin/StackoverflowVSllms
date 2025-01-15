@@ -1,1 +1,0 @@
-// Example token generation and validation\n   const csrfToken = generateCsrfToken(); // Implement this function securely

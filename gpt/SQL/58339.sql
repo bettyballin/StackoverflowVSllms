@@ -1,1 +1,0 @@
-SELECT name\nFROM vocabulary\nWHERE vid NOT IN (SELECT vid FROM collapse_menu);

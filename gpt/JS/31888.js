@@ -1,1 +1,0 @@
-function updateDropdownList(newItems) {\n        var dropdown = document.getElementById('<%= DropDownList1.ClientID %>');\n        dropdown.options.length = 0; // Clear existing options\n        newItems.forEach(function(item) {\n            var option = new Option(item.text, item.value);\n            dropdown.options.add(option);\n        });\n    }

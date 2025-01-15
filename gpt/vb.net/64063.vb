@@ -1,1 +1,0 @@
-Dim myVar As Object\nmyVar = "This is a string"\nDim length As Integer = myVar.Length ' No compile-time checking, may cause runtime error

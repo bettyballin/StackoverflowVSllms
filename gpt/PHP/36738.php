@@ -1,1 +1,0 @@
-<?php\n$some_html = 'foo';\n$some_value_for_js_variable = 'bar';\n\n// Create JSON content\n$response = array(\n    "some_html_output" => $some_html,\n    "some_value_for_js_variable_output" => $some_value_for_js_variable\n);\n\nheader('Content-Type: application/json');\necho json_encode($response);\n?>

@@ -1,1 +1,0 @@
-SELECT s.id, s.title, s.desc\nFROM Section as s\nWHERE EXISTS (\n    SELECT 1 \n    FROM [Quest-Ans] as q \n    WHERE s.id = q.Sec_id\n)

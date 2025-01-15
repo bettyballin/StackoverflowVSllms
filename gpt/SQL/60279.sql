@@ -1,1 +1,0 @@
-SELECT OrderID, OrderDate\nFROM Orders\nORDER BY OrderID\nLIMIT 1 OFFSET 999999;

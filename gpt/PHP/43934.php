@@ -1,1 +1,0 @@
-while ($row = mysql_fetch_object($result)) {\n      echo $row->column_name;\n  }

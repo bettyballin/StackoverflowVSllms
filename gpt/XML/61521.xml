@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <httpLogging logFilePeriod="MaxSize" />\n    <security>\n      <authentication>\n        <windowsAuthentication loggingEnabled="true" />\n      </authentication>\n    </security>\n  </system.webServer>\n</configuration>

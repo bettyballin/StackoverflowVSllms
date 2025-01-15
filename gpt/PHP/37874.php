@@ -1,1 +1,0 @@
-if (!preg_match('/^[2-5]\d{5}\.[1-2]$/', $_POST['packageModifier'])) {\n    echo "The package modifier is not the correct format.";\n}

@@ -1,1 +1,0 @@
--- Example index on the historical_transactions table\nCREATE INDEX idx_historical_transactions_timestamp ON historical_transactions (timestamp);

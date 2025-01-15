@@ -1,1 +1,0 @@
-CREATE QUEUE YourQueue;\n   CREATE SERVICE YourService ON QUEUE YourQueue ([DEFAULT]);

@@ -1,1 +1,0 @@
-var xmlDoc = jQuery.createXMLDocument("<items></items>");\njQuery("items", xmlDoc).append(jQuery("<item>My item!</item>"));\njQuery.ajax({\n    url: "test.php",\n    type: "POST",\n    processData: false,\n    contentType: "text/xml",\n    data: xmlDoc,\n    success: function(data) {\n        alert(data);\n    }\n});

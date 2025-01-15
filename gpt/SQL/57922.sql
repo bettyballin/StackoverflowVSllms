@@ -1,1 +1,0 @@
-SET DEFINE OFF;\n\nINSERT INTO agregadores_agregadores \n(\n    idagregador,\n    nombre,\n    url\n) \nVALUES \n(\n    2,\n    'Netvibes',\n    'http://www.netvibes.com/subscribe.php?type=rss&url='\n);

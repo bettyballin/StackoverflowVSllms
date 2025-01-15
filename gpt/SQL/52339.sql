@@ -1,1 +1,0 @@
-CREATE QUEUE [TargetQueue];

@@ -1,1 +1,0 @@
-$(document).ready(function () {\n    $("#pg_display").on("click", "span", function () {\n        var pageno = $(this).attr("id");\n        alert(pageno);\n        var data = "<span id='page1'>1</span><span id='page2'> 2</span><span id='page3'> 3</span>";\n        $("#pg_display").html(data);\n    });\n});

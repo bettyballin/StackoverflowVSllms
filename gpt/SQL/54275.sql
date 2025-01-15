@@ -1,1 +1,0 @@
-EXEC msdb.dbo.sp_send_dbmail\n    @profile_name = 'YourMailProfile',\n    @recipients = 'user@example.com',\n    @subject = 'SQL Server Maintenance Notification',\n    @body = 'Currently SQL server is being cleaned up or backed up, please do not log in at this time.';

@@ -1,1 +1,0 @@
-$settings = json_decode(file_get_contents('settings.json'), true);\necho $settings['site_name']; // Outputs: My Applicatio

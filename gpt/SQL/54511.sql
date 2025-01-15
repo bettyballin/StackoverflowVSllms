@@ -1,1 +1,0 @@
-SELECT c.ContentID, c.Title, cf.FieldName, cf.FieldType, cfv.FieldValue\nFROM Content c\nJOIN CustomFieldValues cfv ON c.ContentID = cfv.ContentID\nJOIN CustomFields cf ON cfv.FieldID = cf.FieldID\nWHERE c.ContentID = 1;

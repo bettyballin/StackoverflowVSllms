@@ -1,1 +1,0 @@
-SELECT TO_CHAR(26, 'XXXX') AS hex_value FROM dual;

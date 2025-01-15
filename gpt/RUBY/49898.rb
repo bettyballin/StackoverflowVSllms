@@ -1,1 +1,0 @@
-map.connect '/fmfiles/progress_monitor', :controller => 'fmfiles', :action => 'progress_monitor'

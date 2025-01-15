@@ -1,1 +1,0 @@
-Public Function UserToken(ByVal tokenBytes As Byte()) As Boolean\n    ' Deserialize the Byte[] back to IntPtr if needed\n    ' Use the BinaryFormatter or appropriate deserialization\n    Return True\nEnd Functio

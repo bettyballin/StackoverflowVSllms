@@ -1,1 +1,0 @@
-select tagtext from tag;

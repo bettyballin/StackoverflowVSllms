@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE your_procedure_name\n   AUTHID CURRENT_USER\n   AS\n   BEGIN\n       FOR job IN (SELECT * FROM dba_jobs_running) LOOP\n           -- Your logic here\n       END LOOP;\n   END;

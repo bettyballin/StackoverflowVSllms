@@ -1,1 +1,0 @@
-Rails.application.configure do\n     # Other configuration settings...\n\n     config.force_ssl = true\n   end

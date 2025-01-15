@@ -1,1 +1,0 @@
-<?php\nreturn [\n    'db_host' => 'localhost',\n    'db_name' => 'stardust_db',\n    'db_user' => 'stardust_user',\n    'db_pass' => 'stardust_pass',\n];

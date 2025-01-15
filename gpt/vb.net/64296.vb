@@ -1,1 +1,0 @@
-Dim Foo1 As Integer\nDim Foo1Name As String\n\n' Use NameOf to get the name of the variable\nFoo1Name = NameOf(Foo1)\n\nMessageBox.Show(Foo1Name & " is the variable you are looking for.")\n' Outputs:\n' Foo1 is the variable you are looking for.

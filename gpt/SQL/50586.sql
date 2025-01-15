@@ -1,1 +1,0 @@
-INSERT INTO categories (name, parent_id) VALUES ('Electronics', NULL); -- Root category\nINSERT INTO categories (name, parent_id) VALUES ('Computers', 1); -- Sub-category of Electronics\nINSERT INTO categories (name, parent_id) VALUES ('Laptops', 2); -- Sub-sub-category of Computers

@@ -1,1 +1,0 @@
-$fname = htmlspecialchars($_POST["fname"], ENT_QUOTES, 'UTF-8');\n$mname = htmlspecialchars($_POST["mname"], ENT_QUOTES, 'UTF-8');\n$lname = htmlspecialchars($_POST["lname"], ENT_QUOTES, 'UTF-8');\n\n$message .= "Name: " . $fname . " " . $mname . " " . $lname . "\n";

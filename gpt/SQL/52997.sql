@@ -1,1 +1,0 @@
-CREATE TABLE PlayerToPlayer (\n    Id INT PRIMARY KEY AUTO_INCREMENT,\n    PlayerId1 INT,\n    PlayerId2 INT,\n    CONSTRAINT fk_Player1 FOREIGN KEY (PlayerId1) REFERENCES Players(Id),\n    CONSTRAINT fk_Player2 FOREIGN KEY (PlayerId2) REFERENCES Players(Id)\n);

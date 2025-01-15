@@ -1,1 +1,0 @@
-// src/Controller/UsersController.php\nclass UsersController extends AppController {\n    public function index() {\n        $users = $this->Users->find('all');\n        $this->set(compact('users'));\n    }\n}

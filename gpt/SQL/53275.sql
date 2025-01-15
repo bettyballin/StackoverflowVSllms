@@ -1,1 +1,0 @@
-ALTER TABLE faqs ADD FULLTEXT(question, answer);

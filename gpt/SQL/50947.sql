@@ -1,1 +1,0 @@
-INSERT INTO MyTable (Id, Name) VALUES (NEWID(), 'Sample Name');

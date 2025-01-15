@@ -1,1 +1,0 @@
--- Update MappingQuery1\n   UPDATE MappingQuery1\n   SET column1 = value1, column2 = value2\n   WHERE condition;\n\n   -- Update MappingQuery2\n   UPDATE MappingQuery2\n   SET column1 = value1, column2 = value2\n   WHERE condition;

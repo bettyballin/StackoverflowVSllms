@@ -1,1 +1,0 @@
-BEGIN\n   ut.run('my_project.tests');\nEND;\n/

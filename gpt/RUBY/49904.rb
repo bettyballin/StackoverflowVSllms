@@ -1,1 +1,0 @@
-company = Company.find(company_id)  # Replace company_id with the actual ID of the company\nemail_addresses = company.emails.pluck(:email_address)

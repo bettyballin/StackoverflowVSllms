@@ -1,1 +1,0 @@
-{\n       "getUserById": "SELECT * FROM users WHERE id = :id"\n   }

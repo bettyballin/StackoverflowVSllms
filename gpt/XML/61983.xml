@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <sessionState mode="InProc" timeout="20" />\n    <!-- Other options:\n      mode="StateServer"\n      stateConnectionString="tcpip=127.0.0.1:42424"\n      mode="SQLServer"\n      sqlConnectionString="data source=127.0.0.1;Integrated Security=SSPI;"\n    -->\n  </system.web>\n</configuration>

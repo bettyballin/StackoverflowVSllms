@@ -1,1 +1,0 @@
-UPDATE Address\nSET Street_Name = (regexp_matches(Street_Address_1, '^\d+\s+(\w+)\s+\w+$'))[1];

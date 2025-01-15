@@ -1,1 +1,0 @@
-SELECT ID FROM tblTenantStatus WHERE Description = 'Current'

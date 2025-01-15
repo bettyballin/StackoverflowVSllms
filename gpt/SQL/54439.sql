@@ -1,1 +1,0 @@
-CREATE TABLE Folder (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    name VARCHAR(255) NOT NULL,\n    parent_id INT,\n    FOREIGN KEY (parent_id) REFERENCES Folder(id)\n);

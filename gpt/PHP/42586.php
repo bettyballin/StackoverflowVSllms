@@ -1,1 +1,0 @@
-<?php\n   $url = 'http://centos-server/api/your-script.php';\n\n   $response = file_get_contents($url);\n   $data = json_decode($response, true);\n\n   print_r($data);\n   ?>

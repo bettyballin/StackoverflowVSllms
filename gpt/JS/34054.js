@@ -1,1 +1,0 @@
-// Example of client-side validation using JavaScript\n    function validateForm() {\n        let dateField = document.forms["myForm"]["date"].value;\n        if (isNaN(Date.parse(dateField))) {\n            alert("Please enter a valid date.");\n            return false;\n        }\n        // Additional client-side validations\n    }

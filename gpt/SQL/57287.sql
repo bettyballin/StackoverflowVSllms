@@ -1,1 +1,0 @@
-SELECT pg_cancel_backend(pid) FROM pg_stat_activity WHERE query LIKE 'VACUUM%';

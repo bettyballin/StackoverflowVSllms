@@ -1,1 +1,0 @@
-CREATE PROCEDURE [Admin].[STORED_PROC]\n   @SQL_STATEMENT NVARCHAR(MAX)\n   WITH EXECUTE AS OWNER\n   AS\n   BEGIN\n       BEGIN TRY\n           EXEC sp_executesql @SQL_STATEMENT;\n       END TRY\n       BEGIN CATCH\n           -- Handle the error\n           THROW;\n       END CATCH\n   END

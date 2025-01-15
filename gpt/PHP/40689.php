@@ -1,1 +1,0 @@
-// Laravel routes/web.php example\nRoute::get('/', function () {\n    return view('welcome');\n});\n\n// Laravel Eloquent ORM example\nuse App\Models\User;\n\n$user = User::find(1);\necho $user->name;

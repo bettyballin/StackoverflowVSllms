@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('#toggleButton').click(function() {\n        $('#myTable').toggleClass('hidden');\n    });\n});

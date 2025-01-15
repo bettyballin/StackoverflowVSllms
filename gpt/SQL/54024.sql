@@ -1,1 +1,0 @@
-DECLARE @transaction_id INT = -- Your transaction ID here\n\nSELECT \n    r.session_id,\n    r.request_id,\n    r.transaction_id,\n    st.text AS sql_text\nFROM \n    sys.dm_exec_requests r\nCROSS APPLY \n    sys.dm_exec_sql_text(r.sql_handle) AS st\nWHERE \n    r.transaction_id = @transaction_id;

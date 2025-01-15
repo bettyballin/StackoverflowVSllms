@@ -1,1 +1,0 @@
-// Example of custom error pages in web.xml\n   <error-page>\n       <error-code>404</error-code>\n       <location>/error/404.html</location>\n   </error-page>\n   <error-page>\n       <error-code>500</error-code>\n       <location>/error/500.html</location>\n   </error-page>

@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.jsoup</groupId>\n    <artifactId>jsoup</artifactId>\n    <version>1.14.3</version>\n</dependency>\n<dependency>\n    <groupId>com.itextpdf</groupId>\n    <artifactId>itextpdf</artifactId>\n    <version>5.5.13.2</version>\n</dependency>

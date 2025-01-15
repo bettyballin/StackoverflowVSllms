@@ -1,1 +1,0 @@
-let element = $(jQuerySelector);\nconsole.log(element); // jQuery object containing the matched element(s)

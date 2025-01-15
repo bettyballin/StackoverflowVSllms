@@ -1,1 +1,0 @@
-<% if article.newspic.exists? %> \n  <div class="image">\n    <%= newspic_thumbnail_tag(article) %>\n  </div>\n<% end %>\n\n<%= simple_format(article.body) %><br>

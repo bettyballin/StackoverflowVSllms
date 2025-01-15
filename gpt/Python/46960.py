@@ -1,1 +1,0 @@
-from sqlalchemy import create_engine\n\n   # Connect to MySQL\n   mysql_engine = create_engine('mysql+pymysql://user:password@host/dbname')\n\n   # Connect to PostgreSQL\n   postgres_engine = create_engine('postgresql+psycopg2://user:password@host/dbname')\n\n   # Use sessions to interact with both databases

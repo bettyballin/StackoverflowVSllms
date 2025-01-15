@@ -1,1 +1,0 @@
-$xml = new DOMDocument;\n   $xml->loadXML($xmlData);\n\n   $xsl = new DOMDocument;\n   $xsl->load('stylesheet.xsl');\n\n   $proc = new XSLTProcessor;\n   $proc->importStyleSheet($xsl);\n\n   echo $proc->transformToXML($xml);

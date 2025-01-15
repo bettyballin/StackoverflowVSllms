@@ -1,1 +1,0 @@
-SELECT * FROM your_table@sqlserver_link;

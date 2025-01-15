@@ -1,1 +1,0 @@
-SELECT Call.id, Call.date, Call.phone_number\nFROM Call\nLEFT JOIN Phone_book ON Call.phone_number = Phone_book.phone_number\nWHERE Phone_book.phone_number IS NULL;

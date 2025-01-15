@@ -1,1 +1,0 @@
-LOAD DATA INFILE 'your_file.csv'\nINTO TABLE your_table\nFIELDS TERMINATED BY ',' \nLINES TERMINATED BY '\n'\n(date_column, other_columns)\nSET date_column = STR_TO_DATE(@date_column, '%d-%b-%Y');

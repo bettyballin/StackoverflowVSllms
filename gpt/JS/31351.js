@@ -1,1 +1,0 @@
-function updateHash(id) {\n         window.location.hash = '#id=' + id;\n     }\n\n     function getIdFromHash() {\n         return window.location.hash.split('=')[1];\n     }\n\n     // Example usage\n     updateHash(1);\n     console.log(getIdFromHash()); // Outputs: 1

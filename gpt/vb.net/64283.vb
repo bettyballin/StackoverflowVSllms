@@ -1,1 +1,0 @@
-Dim items As List(Of String) = New List(Of String)() From {"item1", "item2", "item3"}\nDim count As Integer = 0\n\nFor Each item As String In items\n    count += 1\n    ' Your code here\n    Console.WriteLine("Iteration " & count & ": " & item)\nNext

@@ -1,1 +1,0 @@
--- First, ensure the databases are referenced correctly\nUSE db2;\n\n-- Update the 'value' column in db2 based on matching 'uniqueConst' from db1\nUPDATE target\nSET target.value = source.value\nFROM db2.dbo.YourTable AS target\nINNER JOIN db1.dbo.YourTable AS source\nON target.uniqueConst = source.uniqueConst;

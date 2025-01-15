@@ -1,1 +1,0 @@
-<?php\n$input = $_GET['user_input'];\n$safe_input = addslashes($input);\n\n$query = "SELECT * FROM users WHERE username = '$safe_input'";\n$result = mysql_query($query);\n?>

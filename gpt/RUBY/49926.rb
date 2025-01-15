@@ -1,1 +1,0 @@
-class MessagesController < ApplicationController\n  def new_messages\n    @user = User.find(params[:id])\n    @new_messages = @user.messages.where("created_at > ?", params[:last_checked_at])\n    \n    respond_to do |format|\n      format.js\n    end\n  end\nend

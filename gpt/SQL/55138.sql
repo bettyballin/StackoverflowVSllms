@@ -1,1 +1,0 @@
-SELECT table_name FROM all_tables WHERE owner = 'YOUR_SCHEMA';\n     DESCRIBE table_name;

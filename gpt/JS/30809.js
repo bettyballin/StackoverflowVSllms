@@ -1,1 +1,0 @@
-function validateInput(input) {\n    const regex = /^[a-zA-Z0-9_]+$/;\n    if (regex.test(input)) {\n        return true;\n    } else {\n        alert("Invalid input!");\n        return false;\n    }\n}

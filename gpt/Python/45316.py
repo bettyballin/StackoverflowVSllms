@@ -1,1 +1,0 @@
-input_file = 'inputfile.txt'\noutput_file = 'outputfile.txt'\n\nwith open(input_file, 'r') as infile, open(output_file, 'w') as outfile:\n    for line in infile:\n        parts = line.split()\n        if len(parts) == 8:\n            outfile.write(line)

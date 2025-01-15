@@ -1,1 +1,0 @@
-<configuration>\n     <system.webServer>\n       <handlers>\n         <remove name="ASPClassicHandler" />\n         <add name="ASPClassicHandler" path="*.asp" verb="*" modules="IsapiModule" scriptProcessor="%windir%\system32\inetsrv\asp.dll" resourceType="Unspecified" />\n       </handlers>\n     </system.webServer>\n   </configuration>

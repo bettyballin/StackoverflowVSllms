@@ -1,1 +1,0 @@
-Dim myString As String = "Hello, World!"\nDim myEscapedString As [String] = "Hello, World!"

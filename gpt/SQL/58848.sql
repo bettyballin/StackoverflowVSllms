@@ -1,1 +1,0 @@
-UPDATE your_table_name\nSET your_column_name = REPLACE(your_column_name, 'foo', 'bar')\nWHERE your_column_name LIKE '%foo%';

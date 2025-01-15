@@ -1,1 +1,0 @@
-SELECT \n    HOUR(added) AS hour,\n    COUNT(*) AS visits\nFROM \n    visits\nWHERE \n    added >= NOW() - INTERVAL 1 DAY\nGROUP BY \n    HOUR(added)\nORDER BY \n    HOUR(added);

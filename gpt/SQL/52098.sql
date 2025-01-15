@@ -1,1 +1,0 @@
-SELECT suser_sname(owner_sid) AS Owner FROM sys.databases WHERE name = 'your_database_name';

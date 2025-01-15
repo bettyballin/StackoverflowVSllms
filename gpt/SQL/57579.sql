@@ -1,1 +1,0 @@
-UPDATE wp_posts SET post_content = REPLACE(post_content, 'http://old_ip_address', 'http://new_ip_address');\nUPDATE wp_postmeta SET meta_value = REPLACE(meta_value, 'http://old_ip_address', 'http://new_ip_address');

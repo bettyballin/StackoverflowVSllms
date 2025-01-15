@@ -1,1 +1,0 @@
-Public Sub New()\n       InitializeComponent()\n       ' Your initialization code here\n   End Sub

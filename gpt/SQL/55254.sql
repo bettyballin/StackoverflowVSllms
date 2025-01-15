@@ -1,1 +1,0 @@
-SELECT * FROM sys.dm_fts_index_keywords(DB_ID('YourDatabase'), OBJECT_ID('YourTable'));

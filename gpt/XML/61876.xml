@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <handlers>\n      <add name="HtmlFileHandler" path="*.htm" verb="*" type="System.Web.UI.PageHandlerFactory" resourceType="Unspecified" />\n      <add name="HtmlFileHandler" path="*.html" verb="*" type="System.Web.UI.PageHandlerFactory" resourceType="Unspecified" />\n    </handlers>\n  </system.webServer>\n</configuration>

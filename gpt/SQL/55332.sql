@@ -1,1 +1,0 @@
-SELECT\n  MAX(count) AS max,\n  COUNT(*) AS count\nFROM\n  (VALUES\n    (1, 7),\n    (2, 6),\n    (3, 13),\n    (4, 12),\n    (5, 9)\n  ) AS mytable(id, count)\nINNER JOIN someothertable ON someothertable.id = mytable.id;

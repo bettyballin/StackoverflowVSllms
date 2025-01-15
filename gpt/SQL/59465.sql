@@ -1,1 +1,0 @@
-SELECT access_allowed\nFROM access\nWHERE user_id = ? AND resource_id = ?;

@@ -1,1 +1,0 @@
-SELECT SUM(a.value * b.value) AS dot_product\nFROM sparse_vectors a\nJOIN sparse_vectors b ON a.dimension = b.dimension\nWHERE a.vector_id = 1 AND b.vector_id = 2;

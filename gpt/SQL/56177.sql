@@ -1,1 +1,0 @@
-SELECT A.*, B.*, C.*, D.*, E.*\nFROM (\n    (A \n    LEFT JOIN B ON A.b = B.b)\n    LEFT JOIN C ON A.c = C.c\n    INNER JOIN D ON A.d = D.d\n)\nINNER JOIN E ON B.e = E.e;

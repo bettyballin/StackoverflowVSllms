@@ -1,1 +1,0 @@
-Partial Public Class Foo\nEnd Class

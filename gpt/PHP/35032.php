@@ -1,1 +1,0 @@
-class NSNode {\n    function insertAfter(NSNode $node = null) {\n        if (is_null($node)) {\n            // Handle the case where $node is null\n            // This means inserting at the start\n        } else {\n            // Handle the case where $node is an NSNode object\n        }\n    }\n}

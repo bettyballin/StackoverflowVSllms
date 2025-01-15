@@ -1,1 +1,0 @@
-SELECT id, content, \n       LOCATE(@keyword, content) AS position \nFROM your_table \nWHERE content LIKE CONCAT('%', @keyword, '%');

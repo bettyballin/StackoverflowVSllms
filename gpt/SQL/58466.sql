@@ -1,1 +1,0 @@
-SELECT zip, COUNT(DISTINCT address_id) LOCATIONS\nFROM records \nINNER JOIN addresses a USING(address_id) \nINNER JOIN zip_coords z1 USING(zip)\nWHERE EXISTS\n(\n  SELECT 1\n  FROM zip_coords z2\n  WHERE z2.zip IN (\n    SELECT zip FROM available_zips\n  )\n  AND distance(z1.latitude, z1.longitude, z2.latitude, z2.longitude) <= 50\n)\nGROUP BY zip;

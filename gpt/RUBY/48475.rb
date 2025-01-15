@@ -1,1 +1,0 @@
-DB = Sequel.connect('sqlite://database.db')\n\n# Perform a simple select query\nDB[:table].where(column: 'value').all\n\n# Execute a custom SQL query\nDB.run('SELECT * FROM table WHERE column = "value"')

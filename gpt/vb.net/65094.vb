@@ -1,1 +1,0 @@
-<Flags>\nPublic Enum FileAccess\n    Read = 1\n    Write = 2\n    Execute = 4\nEnd Enum\n\nPublic Sub Main()\n    Dim readWrite As FileAccess = FileAccess.Read Or FileAccess.Write\n    Console.WriteLine(readWrite) ' Output: Read, Write\nEnd Sub

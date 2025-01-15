@@ -1,1 +1,0 @@
-CREATE OR REPLACE TRIGGER restrict_ip_trigger\n   AFTER LOGON ON DATABASE\n   BEGIN\n     IF (SYS_CONTEXT('USERENV', 'IP_ADDRESS') != 'specific_ip_address') THEN\n       RAISE_APPLICATION_ERROR(-20001, 'Unauthorized access attempt from an invalid IP address');\n     END IF;\n   END;

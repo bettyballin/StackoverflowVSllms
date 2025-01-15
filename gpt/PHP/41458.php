@@ -1,1 +1,0 @@
-// Example without isset\nif ($tx) {\n    echo "Variable is set and not false-like";\n} else {\n    echo "Variable is either not set or false-like";\n}\n\n// Example with isset\nif (isset($tx)) {\n    echo "Variable is set and not null";\n} else {\n    echo "Variable is either not set or is null";\n}

@@ -1,1 +1,0 @@
-Dim dbContext As New MyDbContext()\n\n' Using And\nDim resultAnd = dbContext.Users.Where(Function(u) u.IsActive And u.Age > 18).ToList()\n\n' Using AndAlso\nDim resultAndAlso = dbContext.Users.Where(Function(u) u.IsActive AndAlso u.Age > 18).ToList()

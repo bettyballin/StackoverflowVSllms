@@ -1,1 +1,0 @@
-from __future__ import division\n\nprint(6 / 3)  # 2.0\nprint(7 / 2)  # 3.5\nprint(6 // 3)  # 2\nprint(7 // 2)  # 3

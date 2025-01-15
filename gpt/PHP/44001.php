@@ -1,1 +1,0 @@
-<?php\n   $hello = $_GET['hello'];\n   $foo = $_GET['foo'];\n   echo "Hello: " . htmlspecialchars($hello) . "<br>";\n   echo "Foo: " . htmlspecialchars($foo);\n   ?>

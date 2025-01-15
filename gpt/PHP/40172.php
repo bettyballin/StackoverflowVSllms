@@ -1,1 +1,0 @@
-<?php\n   // Validate secret key\n   if ($_POST['secret_key'] !== 'your_secret_key') {\n       http_response_code(403);\n       echo json_encode(['status' => 'error', 'message' => 'Forbidden']);\n       exit;\n   }\n\n   // Proceed with upload if validation is successful\n   ?>

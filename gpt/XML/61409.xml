@@ -1,1 +1,0 @@
-<system.web>\n  <machineKey validationKey="YOUR_VALIDATION_KEY" decryptionKey="YOUR_DECRYPTION_KEY" validation="SHA1" decryption="AES" />\n</system.web>

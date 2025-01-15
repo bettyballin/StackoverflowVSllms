@@ -1,1 +1,0 @@
-EXEC xp_cmdshell 'C:\Path\To\YourExecutable.exe';

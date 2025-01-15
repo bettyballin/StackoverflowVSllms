@@ -1,1 +1,0 @@
-$value = "";\n   $query = "INSERT INTO mytable SET somevarchar = ?";\n   $prepared = $db->prepare($query);\n   $prepared->bindParam(1, $value, PDO::PARAM_STR);\n   $result = $prepared->execute();

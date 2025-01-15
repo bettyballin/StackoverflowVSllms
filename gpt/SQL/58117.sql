@@ -1,1 +1,0 @@
-INSERT /*+ APPEND */ INTO your_table (column_list)\nSELECT * FROM source_table;

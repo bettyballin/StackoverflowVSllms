@@ -1,1 +1,0 @@
-# List example\nmy_list = [1, 2, 3]\nmy_list[0] = 4  # Modifying an element\nprint(my_list)  # Output: [4, 2, 3]\n\n# Tuple example\nmy_tuple = (1, 2, 3)\n# my_tuple[0] = 4  # Uncommenting this line would raise a TypeError\nprint(my_tuple)  # Output: (1, 2, 3)

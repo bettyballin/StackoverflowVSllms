@@ -1,1 +1,0 @@
-SELECT Query1.*\nINTO TempTable\nFROM Query1;

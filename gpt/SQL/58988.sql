@@ -1,1 +1,0 @@
-SELECT q.Title, q.Body, q.CreatedDate, s.RecentlyViewedDate, s.TotalViews\nFROM Questions q\nJOIN QuestionStats s ON q.QuestionID = s.QuestionID\nWHERE q.QuestionID = 123;

@@ -1,1 +1,0 @@
-WITH RECURSIVE subordinates AS (\n       SELECT employee_id, manager_id, employee_name\n       FROM employees\n       WHERE manager_id = 1\n       UNION ALL\n       SELECT e.employee_id, e.manager_id, e.employee_name\n       FROM employees e\n       INNER JOIN subordinates s ON s.employee_id = e.manager_id\n   )\n   SELECT * FROM subordinates;

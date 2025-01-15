@@ -1,1 +1,0 @@
-SELECT M.Acct_id, M.Name\nFROM MasterList M\nLEFT JOIN NewMasterList N\nON M.Acct_id = N.Acct_id\nWHERE N.Acct_id IS NULL\n\nUNION\n\nSELECT N.Acct_id, N.Name\nFROM NewMasterList N\nLEFT JOIN MasterList M\nON N.Acct_id = M.Acct_id\nWHERE M.Acct_id IS NULL;

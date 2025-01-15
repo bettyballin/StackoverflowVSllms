@@ -1,1 +1,0 @@
-import hashlib\nimport os\n\n# Generate a random salt\nsalt = os.urandom(16)\n\n# Define the password\npassword = "securepassword"\n\n# Combine the password and the salt, then hash the result\nhashed_password = hashlib.pbkdf2_hmac('sha256', password.encode(), salt, 100000)\n\nprint(f"Salt: {salt.hex()}")\nprint(f"Hashed Password: {hashed_password.hex()}")

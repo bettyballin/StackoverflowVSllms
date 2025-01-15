@@ -1,1 +1,0 @@
-def process_vote_update_task(task):\n    question_id = task['question_id']\n    # Update the vote count in the Question table\n    cursor.execute("UPDATE Question SET votes = votes + 1 WHERE id = %s", (question_id,))

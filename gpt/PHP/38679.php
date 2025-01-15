@@ -1,1 +1,0 @@
-<?php\nif (isset($_POST['data'])) {\n    $data = json_decode($_POST['data'], true);\n    print_r($data);\n}\n?>

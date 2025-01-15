@@ -1,1 +1,0 @@
-BEGIN;\n\n-- Select the first available message\nWITH selected_message AS (\n  SELECT id\n  FROM messages\n  WHERE claimed_by IS NULL\n  ORDER BY id\n  LIMIT 1\n  FOR UPDATE SKIP LOCKED\n)\n-- Mark the selected message as claimed by the user\nUPDATE messages\nSET claimed_by = 'user_id'\nWHERE id = (SELECT id FROM selected_message);\n\nCOMMIT;

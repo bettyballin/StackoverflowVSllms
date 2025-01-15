@@ -1,1 +1,0 @@
-require 'vendor/autoload.php';\n\nuse GuzzleHttp\Psr7\Uri;\nuse GuzzleHttp\Psr7\UriResolver;\n\n$sourceUrl = '/blah.html';\n$baseHost = 'http://www.example.com';\n\n$baseUri = new Uri($baseHost);\n$relativeUri = new Uri($sourceUrl);\n\n$absoluteUri = UriResolver::resolve($baseUri, $relativeUri);\n\necho $absoluteUri;  // Output: http://www.example.com/blah.html

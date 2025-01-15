@@ -1,1 +1,0 @@
-$str1 = 'Hello';\n   $str2 = 'World!';\n   $output3 = sprintf('%s %s', $str1, $str2);

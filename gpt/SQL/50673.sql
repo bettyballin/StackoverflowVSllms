@@ -1,1 +1,0 @@
-SELECT ...\nFROM ...\nWHERE someDate < (\n    SELECT DATEADD(DAY, 14 * ((DATEDIFF(DAY, @firstEverPayment, @givenDate) / 14) + 1), @firstEverPayment)\n);

@@ -1,1 +1,0 @@
-<?php\n// Assuming $timestamp is your UNIX timestamp\n$timestamp = time(); // current UNIX timestamp\n$datetime = date('Y-m-d H:i:s', $timestamp);\n\n// Prepare your SQL insert statement\n$sql = "INSERT INTO your_table (datetime_column) VALUES (?)";\n\n// Use prepared statements to avoid SQL injection\n$stmt = $pdo->prepare($sql);\n$stmt->execute([$datetime]);\n?>

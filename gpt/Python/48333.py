@@ -1,1 +1,0 @@
-from django.urls import path\n   from .views import PersonList, PersonDetail\n\n   urlpatterns = [\n       path('api/persons/', PersonList.as_view(), name='person-list'),\n       path('api/persons/<int:pk>/', PersonDetail.as_view(), name='person-detail'),\n   ]

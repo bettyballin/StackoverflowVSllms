@@ -1,1 +1,0 @@
-def add(x: int, y: int) -> int:\n      return x + y\n\n  print(add(1, 2))  # Output: 3

@@ -1,1 +1,0 @@
-switch($key) {\n       case "a": return 1;\n       case "b": return 2;\n       case "c": return 3;\n   }

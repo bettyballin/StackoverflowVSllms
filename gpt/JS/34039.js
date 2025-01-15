@@ -1,1 +1,0 @@
-function display(fid) {\n    new Ajax.Request('my.php', {\n        method: 'get',\n        parameters: { action: 'show', id: fid },\n        onSuccess: function(response) {\n            // Handle the response\n            console.log(response.responseText);\n        },\n        onFailure: function() {\n            console.error('An error occurred');\n        }\n    });\n}

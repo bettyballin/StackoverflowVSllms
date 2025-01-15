@@ -1,1 +1,0 @@
--- Fetch all schedule variations for the month\nSELECT * FROM ScheduleVariations WHERE date BETWEEN '2023-10-01' AND '2023-10-31';\n\n-- Fetch the regular weekly schedule\nSELECT * FROM RegularSchedule;\n\n-- Fetch all events for the month\nSELECT * FROM Events WHERE event_date BETWEEN '2023-10-01' AND '2023-10-31';

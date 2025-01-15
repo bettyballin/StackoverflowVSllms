@@ -1,1 +1,0 @@
-SELECT * FROM my_table WHERE my_column = '';\n   -- This will not return rows where my_column is empty; it will only match NULL

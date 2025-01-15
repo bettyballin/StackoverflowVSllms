@@ -1,1 +1,0 @@
-<?php\n// Your PHP code to generate the HTML content\n// Example:\necho '<textarea name="exampleTextArea"></textarea>';\necho '<input type="text" class="datepicker" />';\n?>

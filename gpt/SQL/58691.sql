@@ -1,1 +1,0 @@
-CREATE TABLE Table2 (\n    id INT DEFAULT NEXT VALUE FOR SharedSequence PRIMARY KEY,\n    -- other columns\n);

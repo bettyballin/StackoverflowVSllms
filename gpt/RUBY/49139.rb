@@ -1,1 +1,0 @@
-Rails.application.routes.draw do\n  post 'pdf-parser', to: 'pdf_parser#create'\n  get 'generate-pdf', to: 'pdf#generate_pdf'\nend

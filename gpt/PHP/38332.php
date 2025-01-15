@@ -1,1 +1,0 @@
-$a = 1;\n  $b = &$a;\n  $b = 2; // $a also becomes 2

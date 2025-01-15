@@ -1,1 +1,0 @@
-shutdown immediate;\n     startup migrate;\n     @@catmeta.sql;\n     shutdown immediate;\n     startup;

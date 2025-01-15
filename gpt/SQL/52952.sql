@@ -1,1 +1,0 @@
-CREATE TABLE Customer (\n    id INT PRIMARY KEY,\n    phys_address_id INT,\n    mail_address_id INT,\n    FOREIGN KEY (phys_address_id) REFERENCES Address(id),\n    FOREIGN KEY (mail_address_id) REFERENCES Address(id)\n);\n\nCREATE TABLE Address (\n    id INT PRIMARY KEY,\n    street VARCHAR(255),\n    city VARCHAR(255),\n    state VARCHAR(255),\n    zip_code VARCHAR(10)\n);

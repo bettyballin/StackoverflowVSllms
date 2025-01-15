@@ -1,1 +1,0 @@
-class YourModelsController < ApplicationController\n      def your_model_params\n        params.require(:your_model).permit(:title, :content)\n      end\n    end

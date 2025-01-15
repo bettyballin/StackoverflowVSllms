@@ -1,1 +1,0 @@
--- V2__Add_column.sql\n    ALTER TABLE Example\n    ADD Description NVARCHAR(255);

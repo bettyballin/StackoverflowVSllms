@@ -1,1 +1,0 @@
-INSERT INTO calendar_events (event_name, event_time) \n    VALUES ('Event 1', '2023-10-14 18:00:00'); -- Event time in UTC

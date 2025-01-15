@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.kohsuke</groupId>\n    <artifactId>groovy-sandbox</artifactId>\n    <version>1.16</version>\n</dependency>

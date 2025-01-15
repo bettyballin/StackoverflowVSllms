@@ -1,1 +1,0 @@
-preg_match("/\[\[(.*)\]\]/", $string, $matches);

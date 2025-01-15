@@ -1,1 +1,0 @@
--- Query selecting all columns\nSELECT * FROM employees;\n\n-- Query selecting only required columns\nSELECT first_name, last_name, email FROM employees;

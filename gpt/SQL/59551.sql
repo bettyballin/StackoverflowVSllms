@@ -1,1 +1,0 @@
-SELECT * FROM all_tables WHERE table_name = 'YOUR_TABLE_NAME';\n   SELECT * FROM all_views WHERE view_name = 'YOUR_VIEW_NAME';

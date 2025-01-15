@@ -1,1 +1,0 @@
-// Start the session without manually setting the domain\nsession_start();\n\n// Set a cookie manually for a specific subdomain\nsetcookie("TestCookie", "value", 0, "/", "subdomain.example.net", false, false);\n\n// For session cookies, PHP will handle the domain automatically if you don't set it

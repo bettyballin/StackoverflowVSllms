@@ -1,1 +1,0 @@
-window.onpopstate = function(event) {\n    // This function will be triggered when the user clicks the back button\n    console.log("Back button was pressed");\n    // Place your code here to display the appropriate data\n};\n\n// Example to add a state to history\nhistory.pushState({page: 1}, "title 1", "?page=1");\nhistory.pushState({page: 2}, "title 2", "?page=2");

@@ -1,1 +1,0 @@
-SELECT post_date FROM your_table WHERE some_condition;

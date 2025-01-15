@@ -1,1 +1,0 @@
-$handle = fopen("largefile.txt", "r");\n    if ($handle) {\n        while (($line = fgets($handle)) !== false) {\n            // Process the line\n        }\n        fclose($handle);\n    } else {\n        // Error handling\n    }

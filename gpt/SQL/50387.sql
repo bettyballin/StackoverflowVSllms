@@ -1,1 +1,0 @@
-USE [YourDatabaseName];\nGO\nSELECT name FROM sys.master_files WHERE type_desc = 'LOG';

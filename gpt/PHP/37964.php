@@ -1,1 +1,0 @@
-Mock::generate('Parser');\n\n$P = new MockParser();\n\n$P->expectOnce('loadUrl', array('http://url'));\n$P->expectOnce('parse');\n\n// Ensure fetchAndParse is part of the MockParser class\n$P->setReturnValue('fetchAndParse', null, array('http://url'));\n\n$P->fetchAndParse('http://url');

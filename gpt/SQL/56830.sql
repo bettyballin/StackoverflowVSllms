@@ -1,1 +1,0 @@
-select systemUsers.name, count(userIncidences.id) as incidenceCount\nfrom systemUsers\nleft join userIncidences on userIncidences.idUser = systemUsers.id\ngroup by systemUsers.name

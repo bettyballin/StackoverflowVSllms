@@ -1,1 +1,0 @@
-WITH NumberTable AS (\n    SELECT 1 AS n UNION ALL\n    SELECT 2 UNION ALL\n    SELECT 3\n)\nSELECT p.id, p.name, p.surname\nFROM people p\nCROSS JOIN NumberTable;

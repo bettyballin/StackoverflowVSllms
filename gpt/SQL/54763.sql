@@ -1,1 +1,0 @@
-SELECT TO_CHAR(your_column_name, 'YYYY-MONTH') AS FormattedDate\nFROM your_table_name;

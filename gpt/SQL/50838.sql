@@ -1,1 +1,0 @@
-CREATE TABLE company_employee_counter (\n    company_id INT PRIMARY KEY,\n    last_internal_id INT DEFAULT 0\n);

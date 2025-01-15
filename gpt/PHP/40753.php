@@ -1,1 +1,0 @@
-$dbPassword = getenv('DB_PASSWORD');

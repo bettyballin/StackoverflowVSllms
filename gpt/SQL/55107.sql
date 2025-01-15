@@ -1,1 +1,0 @@
-START TRANSACTION;\n\n-- Increment order numbers for entries at and after the new position\nUPDATE your_table \nSET entry_order_no = entry_order_no + 1 \nWHERE entry_order_no >= 2;\n\n-- Set the order number for the moved entry\nUPDATE your_table \nSET entry_order_no = 2 \nWHERE entry_id = <your_entry_id>;\n\nCOMMIT;

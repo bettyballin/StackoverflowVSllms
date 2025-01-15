@@ -1,1 +1,0 @@
-<?php\n$directory = '/path/to/your/directory';\n$file = 'image.jpg';\n\n$filePath = $directory . '/' . $file;\n\nif (file_exists($filePath)) {\n    echo "The file exists.";\n} else {\n    echo "The file does not exist.";\n}\n?>

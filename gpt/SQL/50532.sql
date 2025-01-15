@@ -1,1 +1,0 @@
-DECLARE @var1 int, @var2 int;\n   SELECT @var1 = 1, @var2 = 2;  -- This works\n   SET @var1 = 1;\n   SET @var2 = 2;                -- Needs two separate SET statements

@@ -1,1 +1,0 @@
-SELECT \n    ID,\n    Value,\n    LAG(Value, 1, 0) OVER (ORDER BY ID, Value) AS Prev_Value\nFROM \n    cardevent;

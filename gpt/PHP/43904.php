@@ -1,1 +1,0 @@
-$ch = curl_init();\n$url = "http://example.com/data.txt";\n\ncurl_setopt($ch, CURLOPT_URL, $url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n\n$response = curl_exec($ch);\n\nif(curl_errno($ch)) {\n    echo 'Error:' . curl_error($ch);\n} else {\n    echo $response;\n}\n\ncurl_close($ch);

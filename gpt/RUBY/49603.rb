@@ -1,1 +1,0 @@
-require 'yaml'\n\n# Example of a UTF-8 string\nutf8_string = "üñîçødë"\n\n# Convert the UTF-8 string to YAML\nyaml_string = utf8_string.to_yaml\n\nputs yaml_string

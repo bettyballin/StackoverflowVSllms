@@ -1,1 +1,0 @@
-WITH cte1 AS (\n    SELECT column1, column2\n    FROM table1\n    WHERE condition1\n), \ncte2 AS (\n    SELECT column3, column4\n    FROM table2\n    WHERE condition2\n)\nSELECT cte1.column1, cte2.column3\nFROM cte1\nJOIN cte2 ON cte1.column2 = cte2.column4;

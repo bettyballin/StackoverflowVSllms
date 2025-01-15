@@ -1,1 +1,0 @@
-class Action {\n    public static function n() {\n        return get_called_class();\n    }\n}\n\nclass MyAction extends Action {\n    // Some methods here\n}\n\n// Test the implementation\necho MyAction::n(); // It should return "MyAction"

@@ -1,1 +1,0 @@
-CREATE TABLE users (\n    username VARCHAR(12) -- appropriate length based on your data requirements\n);

@@ -1,1 +1,0 @@
-DECLARE @Location GEOGRAPHY = geography::Point(47.6062, -122.3321, 4326); -- Example coordinates for Seattle, WA\nDECLARE @DistanceInMiles FLOAT = 50.0;\n\nSELECT Id, Name, GeoLocation\nFROM Locations\nWHERE GeoLocation.STDistance(@Location) <= @DistanceInMiles * 1609.34; -- Convert miles to meters

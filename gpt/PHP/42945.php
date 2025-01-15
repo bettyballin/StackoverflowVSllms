@@ -1,1 +1,0 @@
-$xml = simplexml_load_file('file.xml');\n   foreach ($xml->tag as $tag) {\n       echo $tag->attribute;\n   }

@@ -1,1 +1,0 @@
-$players = array();\n\nwhile ($homePlayerRow = mysql_fetch_array($homePlayerResult)) {\n    array_push($players, $homePlayerRow['player_id']);\n}

@@ -1,1 +1,0 @@
-CREATE VIEW FilteredValues AS\n    SELECT *\n    FROM myTbl\n    WHERE myValue IN (1234, 1235);\n\n    -- Usage\n    SELECT * FROM FilteredValues;

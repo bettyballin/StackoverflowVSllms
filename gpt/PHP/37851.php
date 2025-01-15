@@ -1,1 +1,0 @@
-$body = '';\nforeach($_POST as $var => $value) {\n    if (($var != "Submit") && ($value != "")) {\n        $body .= $var . ': ' . filter_var($value, FILTER_SANITIZE_STRING) . '<br>';\n    }\n}\n\n// Use wordwrap to ensure lines do not exceed 70 characters, which is a common limit\n$body = wordwrap($body, 70, "\r\n");\n\necho $body;

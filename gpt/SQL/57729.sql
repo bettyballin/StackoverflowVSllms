@@ -1,1 +1,0 @@
-SELECT REPLACE(REPLACE(col_name, CHR(13), ''), CHR(10), '') AS cleaned_col_name\nFROM your_table;

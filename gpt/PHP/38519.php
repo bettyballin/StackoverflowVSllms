@@ -1,1 +1,0 @@
-<?php\n// Increase memory limit\nini_set('memory_limit', '128M');\n\n// Your image processing code\n$imagePath = 'path/to/your/image.jpg';\n$image = imagecreatefromjpeg($imagePath);\n\nif ($image === false) {\n    die('Failed to create image from JPEG');\n}\n\n// Resize and process your image\n// ...\n\n?>

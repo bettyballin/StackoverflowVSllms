@@ -1,1 +1,0 @@
-CREATE TABLE site_settings (\n       id INT PRIMARY KEY AUTO_INCREMENT,\n       setting_name VARCHAR(255) NOT NULL,\n       setting_value VARCHAR(255) NOT NULL\n   );\n\n   INSERT INTO site_settings (setting_name, setting_value) VALUES ('maintenance_mode', 'off');

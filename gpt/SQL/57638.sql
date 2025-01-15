@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetCarsByManufacturer (@Manufacturer NVARCHAR(50))\nAS\nBEGIN\n    SELECT * FROM Car WHERE ManufacturerId = dbo.GetConstantValue(@Manufacturer);\nEND;

@@ -1,1 +1,0 @@
-function custom_rewrite_rules() {\n    add_rewrite_rule('^discusses/?$', 'index.php?post_type=article', 'top');\n    add_rewrite_rule('^does/?$', 'index.php?post_type=portfolio', 'top');\n}\nadd_action('init', 'custom_rewrite_rules');

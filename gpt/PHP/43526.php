@@ -1,1 +1,0 @@
-$date1 = new DateTime(); // Current date\n$date2 = new DateTime('2008-06-26'); // Specific date\n\n$interval = $date1->diff($date2); // Difference between the dates\n\necho $interval->format('%y years, %m months, %d days'); // Output the difference

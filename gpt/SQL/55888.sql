@@ -1,1 +1,0 @@
-SELECT * \nFROM books\nORDER BY (Field1 = 1990) DESC, Field2 DESC;

@@ -1,1 +1,0 @@
-puts request.inspect\nputs response.body\nputs flash.inspect\nputs session.inspect

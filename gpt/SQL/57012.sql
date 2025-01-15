@@ -1,1 +1,0 @@
-Textbox (Error Message): \n=IIF(Parameters!Amount.Value < 0, "Please enter a valid amount greater than or equal to 0.", "")\n\nData Region (e.g., Table):\nVisibility -> Hidden -> \n=IIF(Parameters!Amount.Value < 0, True, False)

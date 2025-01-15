@@ -1,1 +1,0 @@
-class AdminController < ApplicationController\n  before_action :authenticate_admin\n\n  private\n\n  def authenticate_admin\n    authenticate_or_request_with_http_basic do |username, password|\n      username == ENV['ADMIN_USERNAME'] && password == ENV['ADMIN_PASSWORD']\n    end\n  end\nend

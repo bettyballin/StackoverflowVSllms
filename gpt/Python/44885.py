@@ -1,1 +1,0 @@
-import re\n\nt = '@abc @def My email is red@hjk.com'\n\n# Use regex to find all @usernames at the beginning of the string\nusernames = re.findall(r'@(\w+)', t)\n\n# Use regex to remove the @usernames part from the string\ntext = re.sub(r'^(@\w+\s)+', '', t)\n\nprint(usernames)  # Output: ['abc', 'def']\nprint(text)       # Output: 'My email is red@hjk.com'

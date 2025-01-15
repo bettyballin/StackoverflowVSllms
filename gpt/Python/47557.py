@@ -1,1 +1,0 @@
-myDict = {\n    'subKey1': 'value1',\n    'subKey2': '0value2',\n    'subKey3': 'value3'\n}\n\ndirectory_path = createDirectory('myKey', **myDict)\nprint(directory_path)

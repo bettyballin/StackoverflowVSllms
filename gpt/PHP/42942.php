@@ -1,1 +1,0 @@
-<?php\n// Set the locale to Spanish\nputenv("LC_ALL=es_ES");\nsetlocale(LC_ALL, "es_ES");\n\n// Specify the location of the translation tables\nbindtextdomain("messages", "./locale");\ntextdomain("messages");\n\n// The string will be translated to Spanish\necho _("Hello, World!");\n?>

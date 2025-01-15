@@ -1,1 +1,0 @@
-mysql_connect();\nmysql_db_select();\n\n$query = 'SELECT id, title, s_name, created, cat_name, tag_name\n          FROM content\n          JOIN INNER category, cat_id, id\n          WHERE id=1\n          ORDER created';\n\nmysql_close();

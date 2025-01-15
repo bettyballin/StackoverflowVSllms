@@ -1,1 +1,0 @@
-SELECT\n       Category,\n       MinValue,\n       LowerQuartile,\n       Median,\n       UpperQuartile,\n       MaxValue\n   FROM\n       YourBoxPlotData

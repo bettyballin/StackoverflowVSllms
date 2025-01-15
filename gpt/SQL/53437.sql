@@ -1,1 +1,0 @@
-CREATE TABLE news (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       title VARCHAR(255) NOT NULL,\n       text TEXT NOT NULL,\n       date_published DATETIME NOT NULL,\n       -- other columns...\n       INDEX (date_published)\n   );

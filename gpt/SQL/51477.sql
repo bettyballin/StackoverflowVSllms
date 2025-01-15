@@ -1,1 +1,0 @@
-ALTER TABLE your_table_name\nADD CONSTRAINT unique_tickername_tickerbbname UNIQUE (tickername, tickerbbname);

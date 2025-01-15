@@ -1,1 +1,0 @@
--- Ensure appropriate index exists\nCREATE INDEX idx_your_table_id ON your_table(ID);\n\n-- Optimized query\nSELECT * FROM (\n    SELECT\n        ...,\n        row_number() OVER(ORDER BY ID) rn\n    FROM\n        your_table\n    WHERE\n        some_column = :some_value\n)\nWHERE rn BETWEEN :start AND :end;

@@ -1,1 +1,0 @@
-SELECT *\nFROM table1\nWHERE \n    table1.ID = table2.ID\n    OR (table1.ID LIKE '%1234' AND table1.ID <> table2.ID)

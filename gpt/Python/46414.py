@@ -1,1 +1,0 @@
-import xml.etree.ElementTree as ET\n\n# Load the XML file\ntree = ET.parse('MyData.xml')\nroot = tree.getroot()\n\n# Find the element and change its text\nmy_element = root.find('myElement')\nif my_element is not None:\n    my_element.text = 'bar'\n\n# Save the changes back to the XML file\ntree.write('MyData.xml', encoding='utf-8', xml_declaration=True)

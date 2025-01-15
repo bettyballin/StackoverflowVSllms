@@ -1,1 +1,0 @@
-EXEC DBMS_STATS.GATHER_TABLE_STATS('schema_name', 'table_name', degree => DBMS_STATS.AUTO_DEGREE);

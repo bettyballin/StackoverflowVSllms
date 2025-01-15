@@ -1,1 +1,0 @@
-ALTER TABLE dbo.CustomMetadataTable \nADD [StartDate] AS (CONVERT(datetime, [dbo].[fComputeValue]([CustomMetadataColumn]), 126)) PERSISTED

@@ -1,1 +1,0 @@
-SET @a = "1";\n\nSELECT \n    CASE\n        WHEN @a REGEXP '^[0-9]+$' THEN 'INTEGER'\n        WHEN @a REGEXP '^[0-9]+\\.[0-9]+$' THEN 'DECIMAL'\n        ELSE 'STRING'\n    END AS variable_type;

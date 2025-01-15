@@ -1,1 +1,0 @@
-// Example AJAX request using fetch\nfetch('/cgi-bin/hello.cgi')\n    .then(response => response.json())\n    .then(data => console.log(data))\n    .catch(error => console.error('Error:', error));

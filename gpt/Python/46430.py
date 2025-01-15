@@ -1,1 +1,0 @@
-import logging\n\n    logger = logging.getLogger(__name__)\n\n    def log_suspicious_activity(user, action):\n        logger.warning(f"Suspicious activity detected: User {user} performed {action}")

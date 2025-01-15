@@ -1,1 +1,0 @@
-<?php\n   session_start();\n   header('P3P: CP="CAO PSA OUR"');\n   // Your existing code here\n   ?>

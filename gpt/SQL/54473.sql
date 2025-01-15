@@ -1,1 +1,0 @@
-SELECT b.Book_Title, \n       COUNT(s.Book_ID) AS Sales_Count\nFROM Book b\nLEFT JOIN Sold s ON b.Book_ID = s.Book_ID\nGROUP BY b.Book_Title;

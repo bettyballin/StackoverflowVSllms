@@ -1,1 +1,0 @@
-cur.execute('''\nCREATE TABLE PopByCountry(\n    Region TEXT NOT NULL,\n    Country TEXT NOT NULL,\n    Population INTEGER NOT NULL,\n    CONSTRAINT Country_Key PRIMARY KEY (Region, Country))\n''')

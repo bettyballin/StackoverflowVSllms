@@ -1,1 +1,0 @@
-// HomeController.php (Controller)\nnamespace App\Controllers;\n\nuse App\Models\Post;\n\nclass HomeController {\n    public function index() {\n        // Render home page\n    }\n\n    public function create() {\n        // Handle post creation\n    }\n}

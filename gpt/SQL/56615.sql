@@ -1,1 +1,0 @@
-CREATE TABLE your_table (\n    id INT PRIMARY KEY,\n    percentage INT CHECK (percentage >= 0 AND percentage <= 100)\n);

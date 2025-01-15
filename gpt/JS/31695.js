@@ -1,1 +1,0 @@
-$.post("test.php", { name: "John", time: "2pm" }, function(data) {\n    var responseData = JSON.parse(data);\n    alert("Data Loaded: " + data);\n    console.log("Name: " + responseData.name);\n    console.log("Time: " + responseData.time);\n});

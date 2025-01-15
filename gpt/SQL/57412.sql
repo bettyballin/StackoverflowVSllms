@@ -1,1 +1,0 @@
-SELECT s.sid, s.serial#, t.start_time, t.used_urec, t.used_ublk\nFROM v$transaction t\nJOIN v$session s ON t.ses_addr = s.saddr;

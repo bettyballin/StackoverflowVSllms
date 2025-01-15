@@ -1,1 +1,0 @@
-# cron/my_cron_script.rb\n\n# Load the Rails environment\nrequire File.expand_path('../../config/environment', __FILE__)\n\n# Now you can use your Rails models\nMyModel.do_something

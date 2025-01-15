@@ -1,1 +1,0 @@
-<div id='onlineStatus<?php echo $b_id ?>'>\n    <a href='#' class='onlineStatus' data-id='<?php echo $b_id ?>' data-status='0'>Post Online</a>\n</div>

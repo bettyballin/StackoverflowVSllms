@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n       UserId INT IDENTITY(1,1) NOT NULL,\n       UserGuid UNIQUEIDENTIFIER DEFAULT NEWID() NOT NULL,\n       UserName NVARCHAR(100) NOT NULL,\n       PRIMARY KEY (UserId, UserGuid)\n   );

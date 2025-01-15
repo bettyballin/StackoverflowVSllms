@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n    ID INT PRIMARY KEY\n);\n\nCREATE TABLE Sessions (\n    UID INT NULL,\n    CONSTRAINT FK_Sessions_Users FOREIGN KEY (UID) REFERENCES Users(ID)\n);

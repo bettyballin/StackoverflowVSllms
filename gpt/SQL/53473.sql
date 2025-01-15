@@ -1,1 +1,0 @@
--- Parent Table\nCREATE TABLE Parent (\n    parent_id NUMBER PRIMARY KEY,\n    parent_name VARCHAR2(50)\n);\n\n-- Child Table\nCREATE TABLE Child (\n    child_id NUMBER PRIMARY KEY,\n    child_name VARCHAR2(50),\n    parent_id NUMBER,\n    CONSTRAINT fk_parent FOREIGN KEY (parent_id) REFERENCES Parent(parent_id)\n);

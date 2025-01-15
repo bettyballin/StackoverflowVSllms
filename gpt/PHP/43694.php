@@ -1,1 +1,0 @@
-if (isset($_SESSION['last_activity']) && (time() - $_SESSION['last_activity'] > 900)) {\n        // Last request was over 15 minutes ago\n        session_unset();     // Unset $_SESSION variable for the run-time\n        session_destroy();   // Destroy session data in storage\n    }\n\n    $_SESSION['last_activity'] = time(); // Update last activity time

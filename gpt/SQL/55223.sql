@@ -1,1 +1,0 @@
-SELECT COUNT(*)\nFROM week_dates wd\nLEFT JOIN cali_dates d ON wd.date = d.date\nLEFT JOIN cali_events e ON d.event_id = e.event_id\nWHERE e.event_id IS NULL;

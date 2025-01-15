@@ -1,1 +1,0 @@
-Dim openFileDialog As New OpenFileDialog()\nopenFileDialog.Filter = "Access Database Files (*.mdb)|*.mdb"\n\nIf openFileDialog.ShowDialog() = DialogResult.OK Then\n    Dim databasePath As String = openFileDialog.FileName\n    ExecuteSSISPackage(databasePath)\nEnd If

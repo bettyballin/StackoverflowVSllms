@@ -1,1 +1,0 @@
-class MyClass {\n       var $oldProperty; // Old syntax, equivalent to public $oldProperty;\n       public $newProperty; // Public property\n       protected $protectedProperty; // Protected property\n       private $privateProperty; // Private property\n   }

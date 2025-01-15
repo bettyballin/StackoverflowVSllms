@@ -1,1 +1,0 @@
-CREATE PROCEDURE Sales.usp_GetCustomerOrders\n    @CustomerId INT\n    AS\n    BEGIN\n        -- This procedure retrieves orders for a specific customer\n        -- Dependencies: None\n        SELECT * FROM Orders WHERE CustomerId = @CustomerId;\n    END

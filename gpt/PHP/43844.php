@@ -1,1 +1,0 @@
-$s = User::create()->login()->get_db_data()->get_session_data();

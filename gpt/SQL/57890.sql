@@ -1,1 +1,0 @@
-SELECT pt.productID\nFROM products_tree pt\nLEFT JOIN products_tree pt2 ON pt.productID = pt2.productID AND pt2.categoryID NOT IN (1040, 1050, 1168)\nWHERE pt.categoryID IN (1040, 1050, 1168)\nGROUP BY pt.productID\nHAVING COUNT(pt2.productID) = 0;

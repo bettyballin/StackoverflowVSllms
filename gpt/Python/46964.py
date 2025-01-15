@@ -1,1 +1,0 @@
-import requests\n\n   response = requests.get('https://randomuser.me/api/')\n   data = response.json()\n   print(data)

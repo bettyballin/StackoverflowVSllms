@@ -1,1 +1,0 @@
-$mail->Timeout = 10; // Timeout in seconds

@@ -1,1 +1,0 @@
-SELECT * FROM T\nWHERE A = value1\n  AND B = value2\n  AND C = value3;

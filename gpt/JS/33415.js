@@ -1,1 +1,0 @@
-var params = {\n    jobId: args.get_JobId(),\n    targetLocationIdList: "0ce49e98-a8aa-46ad-bc25-3a49d475e9d3".split(',')\n};\n\n// Ensure that the params object is serialized correctly if needed\nconsole.log(JSON.stringify(params));

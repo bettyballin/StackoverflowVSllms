@@ -1,1 +1,0 @@
-ALTER TABLE Orders\nADD CONSTRAINT chk_CloseReason\nCHECK ((Closed = 0 AND CloseReasonID IS NULL) OR (Closed = 1 AND CloseReasonID IS NOT NULL));

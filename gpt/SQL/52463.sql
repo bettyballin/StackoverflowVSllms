@@ -1,1 +1,0 @@
-CREATE TABLE my_table (\n    id RAW(16) DEFAULT SYS_GUID() PRIMARY KEY,\n    -- other columns\n);

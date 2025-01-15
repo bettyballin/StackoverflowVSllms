@@ -1,1 +1,0 @@
-// Using type casting\n$integerValue = (int)$value;\n$stringValue = (string)$value;\n$booleanValue = (bool)$value;\n$floatValue = (float)$value;\n\n// Using functions\n$integerValue = intval($value);\n$stringValue = strval($value);\n$booleanValue = boolval($value);\n$floatValue = floatval($value);

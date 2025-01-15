@@ -1,1 +1,0 @@
-SELECT field, ...[The various calculated fields]\nFROM (\n    SELECT field1 AS field, ...[Other fields]\n    FROM table1\n    WHERE @Flag = 1\n\n    UNION ALL\n\n    SELECT field2 AS field, ...[Other fields]\n    FROM table2\n    WHERE @Flag = 2\n\n    UNION ALL\n\n    SELECT field3 AS field, ...[Other fields]\n    FROM table3\n    WHERE @Flag = 3\n) AS t

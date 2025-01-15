@@ -1,1 +1,0 @@
-// Example account lockout\n   function lockAccount($username) {\n       updateAccountStatus($username, 'locked');\n       notifyUser($username, 'Your account has been locked due to multiple failed login attempts.');\n   }

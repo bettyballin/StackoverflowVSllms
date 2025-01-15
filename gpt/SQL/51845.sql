@@ -1,1 +1,0 @@
-ALTER TABLE child_table1\nADD CONSTRAINT fk_sample_child1\nFOREIGN KEY (sample_id)\nREFERENCES SAMPLE (sample_id);\n\nALTER TABLE child_table2\nADD CONSTRAINT fk_sample_child2\nFOREIGN KEY (sample_id)\nREFERENCES SAMPLE (sample_id);\n\n-- Add similar constraints for all child tables

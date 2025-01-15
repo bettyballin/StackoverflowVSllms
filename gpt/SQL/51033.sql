@@ -1,1 +1,0 @@
-CREATE INDEX idx_example ON table_name(column_name COLLATE NOCASE);

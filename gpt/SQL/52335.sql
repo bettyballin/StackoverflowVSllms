@@ -1,1 +1,0 @@
-ALTER DATABASE DATAFILE '/path/to/undotbs01.dbf' RESIZE 2G;

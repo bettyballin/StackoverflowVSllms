@@ -1,1 +1,0 @@
-<?php\n// Example birthday, replace it with the actual value from your database\n$birthdate = $aPersoonsgegevens['alg_persoonsgegevens_geboortedatum']; \n\n// Create DateTime objects\n$birthDate = new DateTime($birthdate);\n$currentDate = new DateTime('today');\n\n// Calculate the age\n$age = $birthDate->diff($currentDate)->y;\n\necho "Age: " . $age;\n?>

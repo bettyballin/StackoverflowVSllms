@@ -1,1 +1,0 @@
--- Example of dynamic query building\nDECLARE @sql NVARCHAR(MAX) = 'SELECT * FROM Table WHERE 1=1'\n\n-- Adding conditions dynamically\nIF @someCondition = 1\n    SET @sql = @sql + ' AND Field1 = ''Value1'''\n\nIF @anotherCondition = 1\n    SET @sql = @sql + ' AND Field2 = ''Value2'''\n\n-- Execute the final query\nEXEC sp_executesql @sql

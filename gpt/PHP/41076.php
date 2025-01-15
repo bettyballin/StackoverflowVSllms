@@ -1,1 +1,0 @@
-// In ListsController.php (Controller)\n     public function view($id) {\n         $sortedItems = $this->List->getSortedItems($id);\n         $this->set('items', $sortedItems);\n     }

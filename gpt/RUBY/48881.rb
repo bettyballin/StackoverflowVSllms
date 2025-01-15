@@ -1,1 +1,0 @@
-<% @resource.versions.each do |version| %>\n  <%= link_to "Revert to version #{version.version}", revert_to_version_your_resource_path(@resource, version: version.version), method: :post %>\n<% end %>

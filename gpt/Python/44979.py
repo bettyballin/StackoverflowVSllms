@@ -1,1 +1,0 @@
-x.insert(index, a)

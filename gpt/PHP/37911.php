@@ -1,1 +1,0 @@
-class UserModel extends Zend_Db_Table_Abstract\n{\n    protected $_name = 'users';\n\n    public function getUserById($id)\n    {\n        return $this->fetchRow($this->select()->where('id = ?', $id));\n    }\n\n    // Add more model methods for business logic\n}

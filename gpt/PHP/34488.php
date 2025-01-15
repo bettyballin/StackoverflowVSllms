@@ -1,1 +1,0 @@
-if (PHP_SAPI === 'cli') {\n    echo "Running from the command line.";\n} else {\n    echo "Running from a web browser.";\n}

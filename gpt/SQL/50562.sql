@@ -1,1 +1,0 @@
--- Create an index on table1.id since it is used in the JOIN condition\nCREATE INDEX idx_table1_id ON table1(id);\n\n-- Create an index on tableA.t1id and tableA.t2id since they are used in the JOIN condition and WHERE clause\nCREATE INDEX idx_tableA_t1id ON tableA(t1id);\nCREATE INDEX idx_tableA_t2id ON tableA(t2id);

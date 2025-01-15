@@ -1,1 +1,0 @@
--- Example command to execute SQLT\n-- Substitute '<SQL_ID>' with the SQL_ID of your query\nsqlplus / as sysdba\n@sqltxplain.sql <SQL_ID>

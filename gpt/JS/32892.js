@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    function parse(a, b, c) {\n        alert(c);\n    }\n</script>\n\n<a href="#x" onclick="parse('#', false, '&lt;a href=&quot;xyz&quot;'); return false">Test</a>

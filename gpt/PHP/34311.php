@@ -1,1 +1,0 @@
-<?php\n$taskName = 'YourScheduledTaskName'; // Replace with the name of your scheduled task\n\n// Command to run the scheduled task\n$command = 'schtasks /run /tn "' . $taskName . '"';\n\n// Execute the command\n$output = shell_exec($command);\n\n// Optional: Output the result for debugging purposes\necho $output;\n?>

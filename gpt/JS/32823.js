@@ -1,1 +1,0 @@
-applyClassBasedOnAttribute('height', 'h');

@@ -1,1 +1,0 @@
-Dim sb As New System.Text.StringBuilder()\nsb.Append("SELECT * FROM x WHERE y = ")\nsb.Append(1)\nDim sqlQuery As String = sb.ToString()

@@ -1,1 +1,0 @@
-ALTER TABLE Employees\nADD CONSTRAINT UQ_Email UNIQUE (Email);

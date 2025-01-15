@@ -1,1 +1,0 @@
-document.querySelectorAll('a').forEach(link => {\n    const rect = link.getBoundingClientRect();\n    console.log(`Link: ${link.href}`);\n    console.log(`Coordinates: (${rect.left}, ${rect.top})`);\n    console.log(`Dimensions: ${rect.width}x${rect.height}`);\n});

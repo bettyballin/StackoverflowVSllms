@@ -1,1 +1,0 @@
-// Send verification email to the new email address\n   sendVerificationEmail(newEmail);\n   \n   // Update email address after verification\n   updateUserEmail(userId, newEmail);

@@ -1,1 +1,0 @@
-$query = "SELECT * FROM books\n          WHERE bookid != 30\n          AND visible = '1'\n          AND level = '2'\n          AND (tags LIKE '%one%' OR tags LIKE '%two%' OR tags LIKE '%three%')\n          LIMIT 3";

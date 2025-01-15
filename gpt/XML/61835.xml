@@ -1,1 +1,0 @@
-<action path="/hello"\n        type="com.example.HelloWorldAction"\n        scope="request"\n        validate="false"\n        input="/hello.jsp">\n    <forward name="success" path="/hello.jsp"/>\n</action>

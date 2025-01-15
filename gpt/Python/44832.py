@@ -1,1 +1,0 @@
-from langdetect import detect, lang_detect_exception\n\ndef is_turkish(text):\n    try:\n        detected_language = detect(text)\n        return detected_language == 'tr'\n    except lang_detect_exception.LangDetectException:\n        return False\n\n# Example usage:\nsentence = "Bu cümle Türkçe."\nprint(is_turkish(sentence))  # Output: True

@@ -1,1 +1,0 @@
-<?php\n$myCallback = function() {\n    echo "Hello from anonymous function!";\n};\n\nfunction executeCallback(callable $callback) {\n    $callback();\n}\n\nexecuteCallback($myCallback);\n?>

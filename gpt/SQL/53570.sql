@@ -1,1 +1,0 @@
--- Assume your tables are structured as follows:\n-- Keyword table: id, keyword, is_blacklisted\n-- BlackList table: id, keyword\n\nUPDATE Keyword\nSET IsBlacklisted = 1\nFROM Keyword\nCROSS JOIN BlackList\nWHERE Keyword.Keyword LIKE '%' + BlackList.Keyword + '%';

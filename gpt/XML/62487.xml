@@ -1,1 +1,0 @@
-<xsl:template match="header">\n    <header>\n        <h1>Welcome, <xsl:value-of select="user/name"/></h1>\n    </header>\n</xsl:template>

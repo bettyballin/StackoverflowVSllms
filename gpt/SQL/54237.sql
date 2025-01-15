@@ -1,1 +1,0 @@
--- Open SQL Server Management Studio (SSMS)\n-- Connect to your dedicated database server\n-- Open a new query window\n-- Load the generated script file and execute it\n-- Example:\nUSE [YourTargetDatabase]\nGO\n\n-- Paste the contents of your generated script here\n-- Execute the script

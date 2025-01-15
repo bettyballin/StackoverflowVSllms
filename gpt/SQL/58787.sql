@@ -1,1 +1,0 @@
-CREATE TABLE JobStepLog (\n       JobID UNIQUEIDENTIFIER,\n       StepID INT,\n       StepName NVARCHAR(128),\n       Status NVARCHAR(10),\n       LogDate DATETIME DEFAULT GETDATE()\n   );

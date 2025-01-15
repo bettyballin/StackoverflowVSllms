@@ -1,1 +1,0 @@
-SELECT s.user_id, f.feed_id, f.feed_type\nFROM subscriptions s\nJOIN feeds f ON s.feed_id = f.feed_id\nWHERE s.user_id = :user_id;

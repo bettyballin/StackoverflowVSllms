@@ -1,1 +1,0 @@
-INSERT INTO employees (employee_id, first_name, last_name) VALUES (201, 'John', 'Doe');\n    UPDATE employees SET salary = salary * 1.1 WHERE employee_id = 201;

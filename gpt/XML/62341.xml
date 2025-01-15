@@ -1,1 +1,0 @@
-<channel-definition id="my-amf" class="mx.messaging.channels.AMFChannel">\n        <endpoint uri="http://localhost:8500/flex2gateway/" class="flex.messaging.endpoints.AMFEndpoint"/>\n    </channel-definition>

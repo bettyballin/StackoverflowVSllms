@@ -1,1 +1,0 @@
-const fs = require('fs');\nconst path = '/home/me/file.txt';\n\nfs.stat(path, (err, stats) => {\n  if (err) {\n    console.error('Error reading the file stats', err);\n    return;\n  }\n  console.log(`File modification time: ${stats.mtime}`);\n});

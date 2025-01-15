@@ -1,1 +1,0 @@
-<?php\n\n$a = new SimpleXMLElement('<a/>');\n\n// Automatically escapes special characters in attributes\n$a->addAttribute('b', 'One & Two');\n\n// Requires manual escaping for text nodes\n$a->addChild('c', 'Three &amp; Four');\n\n// Automatically escapes special characters in direct assignment\n$a->d = 'Five & Six';\n\nprint($a->asXML());\n?>

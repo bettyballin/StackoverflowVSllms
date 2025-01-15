@@ -1,1 +1,0 @@
-var tbl = document.getElementById("myTable");\nvar tableWidth = tbl.offsetWidth;\nalert("Table width: " + tableWidth + "px");\n\nvar cells = tbl.getElementsByTagName('td');\nfor (var i = 0; i < cells.length; i++) {\n    var cellWidth = cells[i].offsetWidth;\n    alert("Cell " + (i + 1) + " width: " + cellWidth + "px");\n}

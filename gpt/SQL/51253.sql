@@ -1,1 +1,0 @@
-SELECT bomModelNumber, First(bomItemDesc) AS FirstBomItemDesc\nINTO TempBOM\nFROM BOM_TEMPLATES\nGROUP BY bomModelNumber;

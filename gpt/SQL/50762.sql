@@ -1,1 +1,0 @@
-WITH RankedRecords AS (\n    SELECT \n        Id, \n        UserName, \n        SubmittedDate,\n        ROW_NUMBER() OVER (PARTITION BY UserName ORDER BY SubmittedDate DESC) AS rn\n    FROM \n        table1\n)\nSELECT \n    Id, \n    UserName\nFROM \n    RankedRecords\nWHERE \n    rn = 1;

@@ -1,1 +1,0 @@
-CREATE TABLE Comments (\n       comment_id INT PRIMARY KEY,\n       comment TEXT,\n       commentable_id INT,\n       commentable_type VARCHAR(255)\n   );

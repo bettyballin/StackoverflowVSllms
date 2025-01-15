@@ -1,1 +1,0 @@
-DECLARE @SQLString NVARCHAR(500);\n    SET @SQLString = N'SELECT * FROM YourTableName';\n    EXEC sp_executesql @SQLString;

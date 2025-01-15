@@ -1,1 +1,0 @@
-CREATE MATERIALIZED VIEW mv_example AS\n   SELECT ...\n   FROM table2\n   WHERE ...;

@@ -1,1 +1,0 @@
-import os\nos.system('cls')

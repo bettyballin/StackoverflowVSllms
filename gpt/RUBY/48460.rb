@@ -1,1 +1,0 @@
-module TestTwo\n  module Foo\n    def foo\n      42\n    end\n  end\n\n  module Bar\n    include Foo\n  end\n\n  class Quux\n    include Bar\n  end\nend\n\nTestTwo::Bar.ancestors # => [TestTwo::Bar, TestTwo::Foo]\nTestTwo::Quux.ancestors # => [TestTwo::Quux, TestTwo::Bar, TestTwo::Foo, Object, Kernel]\nTestTwo::Quux.new.foo # => 42

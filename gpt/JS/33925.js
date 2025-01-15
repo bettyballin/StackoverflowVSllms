@@ -1,1 +1,0 @@
-tocbot.init({\n  // Where to render the table of contents.\n  tocSelector: '#toc',\n  // Where to grab the headings to build the table of contents.\n  contentSelector: 'body',\n  // Which headings to grab inside of the contentSelector element.\n  headingSelector: 'h1, h2'\n});

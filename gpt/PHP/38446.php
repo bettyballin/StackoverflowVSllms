@@ -1,1 +1,0 @@
-<?php\n// Set the cookie header directly\nheader("Set-Cookie: my_cookie_name=my_cookie_value; expires=Wed, 30-Oct-2023 12:00:00 GMT; path=/; domain=example.com; secure; HttpOnly");\n\n// Output some content\necho "Cookie has been set.";\n?>

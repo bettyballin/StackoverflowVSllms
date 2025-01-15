@@ -1,1 +1,0 @@
-CREATE INDEX idx_basket_item_id ON core_item_in_basket(item_id);

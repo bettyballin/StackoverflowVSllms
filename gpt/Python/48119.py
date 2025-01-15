@@ -1,1 +1,0 @@
-# Example: Convert Pantone 300 C to CMYK using a color conversion tool\n\npantone_value = "300 C"\n# Use an online tool or Pantone Color Finder to get the CMYK values\n# Example result might be:\ncmyk_value = "C: 100, M: 44, Y: 0, K: 0"\n\nprint(f"PMS {pantone_value} converts to CMYK: {cmyk_value}")

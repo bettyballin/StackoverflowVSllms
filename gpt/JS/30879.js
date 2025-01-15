@@ -1,1 +1,0 @@
-const regex = /\{foreach[^}]*\}([\s\S]*?)\{\/foreach\}/;\nconst str = `{foreach (...)}\nSome random HTML content <div class="">aklakdls</div> and some {$/r/template} markup inside.\n{/foreach}`;\n\nconst match = str.match(regex);\nif (match) {\n    console.log(match[1]); // Outputs the content between {foreach} and {/foreach}\n}

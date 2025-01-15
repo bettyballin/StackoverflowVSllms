@@ -1,1 +1,0 @@
-INSERT INTO YourTable (ID, InsertedTime)\nVALUES (1, GETDATE());\n\nINSERT INTO YourTable (ID, InsertedTime)\nVALUES (2, GETDATE());

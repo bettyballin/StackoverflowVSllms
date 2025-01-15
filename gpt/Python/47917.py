@@ -1,1 +1,0 @@
-from bs4 import BeautifulSoup\n\nhtml_content = """\n<!-- Your HTML content here -->\n"""\n\nsoup = BeautifulSoup(html_content, 'html.parser')\nspans = soup.find_all('span')\n\nfor span in spans:\n    print(span)

@@ -1,1 +1,0 @@
-import cgi\nimport sys\n\n# Example of decoding form data\nform = cgi.FieldStorage(fp=sys.stdin, environ={'REQUEST_METHOD': 'POST'}, keep_blank_values=True)\n\n# Assuming 'name' is a field in the form\nname = form.getvalue('name')\nif isinstance(name, bytes):\n    name = name.decode('utf-8')\nprint(name)

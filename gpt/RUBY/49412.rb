@@ -1,1 +1,0 @@
-class YourController < ApplicationController\n  def update\n    YourModel.transaction do\n      # Your update logic here\n      # If any error is raised, all the database operations within this block are rolled back\n    end\n  rescue => e\n    # Handle the exception\n    render json: { error: e.message }, status: :unprocessable_entity\n  end\nend

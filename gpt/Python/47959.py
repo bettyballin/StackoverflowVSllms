@@ -1,1 +1,0 @@
-#!/usr/bin/env python3\n\nimport time\nimport sys\n\nprint("Content-Type: text/plain")\nprint("Transfer-Encoding: chunked")\nprint()\n\nfor i in ['A', 'B', 'C', 'D', 'E']:\n    print(f"{len(i):X}\r\n{i}\r\n", end="")\n    sys.stdout.flush()\n    time.sleep(10)\n\n# End of the response\nprint("0\r\n\r\n")

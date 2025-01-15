@@ -1,1 +1,0 @@
-$time = $diff['days'] * 24; // Convert days to hours and assign to $time\n$time += $diff['hours']; // Add hours to $time\n$time += ($diff['minutes'] / 60); // Convert minutes to hours and add to $time\n$time += (($diff['seconds'] / 60) / 60); // Convert seconds to hours and add to $time

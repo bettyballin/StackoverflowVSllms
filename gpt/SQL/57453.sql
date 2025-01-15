@@ -1,1 +1,0 @@
-SELECT *\nFROM Document, DocumentStats\nWHERE DocumentStats.DocumentId = Document.Id\n  AND DocumentStats.NbViews > 500;

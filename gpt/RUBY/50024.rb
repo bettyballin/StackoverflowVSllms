@@ -1,1 +1,0 @@
-class Patient < ActiveRecord::Base\n  has_many :events\n  has_many :visits, through: :events\n  has_many :labtests, through: :events\nend\n\nclass Event < ActiveRecord::Base\n  has_many :visits\n  has_many :labtests\n  belongs_to :patient\nend\n\nclass Visit < ActiveRecord::Base\n  belongs_to :event\nend\n\nclass Labtest < ActiveRecord::Base\n  belongs_to :event\nend

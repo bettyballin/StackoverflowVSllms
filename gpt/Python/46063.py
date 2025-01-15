@@ -1,1 +1,0 @@
-MyList = [None, None, None]\nif not MyList or all(item is None for item in MyList):\n    pass

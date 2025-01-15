@@ -1,1 +1,0 @@
-SELECT employee_id, department, salary,\n       AVG(salary) OVER (PARTITION BY department) AS avg_salary\nFROM employees;

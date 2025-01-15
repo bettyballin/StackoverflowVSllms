@@ -1,1 +1,0 @@
-<?php\n// Start the session\nsession_start();\n\n// Check if the user is logged in\nif (isset($_SESSION['username'])) {\n    // User is logged in, retrieve the username\n    $username = $_SESSION['username'];\n    echo "User is logged in as: " . htmlspecialchars($username);\n} else {\n    // User is not logged in\n    echo "No user is logged in.";\n}\n?>

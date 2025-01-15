@@ -1,1 +1,0 @@
-$config = json_decode(file_get_contents('config.json'), true);\n      if (json_last_error() !== JSON_ERROR_NONE) {\n          die('Invalid configuration file.');\n      }

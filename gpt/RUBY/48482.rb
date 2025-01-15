@@ -1,1 +1,0 @@
-class Message < ApplicationRecord\n     belongs_to :user, counter_cache: true\n   end

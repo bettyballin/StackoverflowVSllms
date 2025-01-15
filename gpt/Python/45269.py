@@ -1,1 +1,0 @@
-def reverse_letters_in_words(input_string):\n    words = input_string.split()\n    reversed_words = [word[::-1] for word in words]\n    reversed_string = ' '.join(reversed_words)\n    return reversed_string\n\n# Example usage\ninput_string = "my string"\nresult = reverse_letters_in_words(input_string)\nprint(result)  # Output: "ym gnirts"

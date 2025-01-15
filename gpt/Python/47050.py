@@ -1,1 +1,0 @@
-import requests\n\n# Example: GET request to fetch a resource\nresponse = requests.get('https://api.example.com/resource/1')\n\nif response.status_code == 200:\n    print(response.json())\nelse:\n    print(f"Failed to retrieve resource: {response.status_code}")

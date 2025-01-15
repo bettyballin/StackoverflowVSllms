@@ -1,1 +1,0 @@
-if (!mysql_ping()) {\n    // Handle the error, for example:\n    error_log("MySQL server is not responding.");\n}

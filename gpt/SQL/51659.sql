@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION notify_socket() RETURNS trigger AS $$\n   BEGIN\n       PERFORM send_socket_data('127.0.0.1', 12345, 'Data changes detected');\n       RETURN NEW;\n   END;\n   $$ LANGUAGE plpgsql;\n\n   CREATE TRIGGER notify_socket_trigger\n   AFTER INSERT OR UPDATE OR DELETE ON your_table\n   FOR EACH ROW EXECUTE FUNCTION notify_socket();

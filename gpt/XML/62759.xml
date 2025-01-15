@@ -1,1 +1,0 @@
-<beans default-lazy-init="false">\n        <!-- your bean definitions -->\n    </beans>

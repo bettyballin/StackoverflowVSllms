@@ -1,1 +1,0 @@
-function md5(string) {\n    var crypto = require('crypto');\n    return crypto.createHash('md5').update(string, 'utf8').digest('hex');\n}\n\nconsole.log(md5('password')); // Should output 5f4dcc3b5aa765d61d8327deb882cf99

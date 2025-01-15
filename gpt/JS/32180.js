@@ -1,1 +1,0 @@
-// example_controller.js\n   import { Controller } from "stimulus"\n\n   export default class extends Controller {\n     static targets = ["output"]\n\n     update(event) {\n       this.outputTarget.textContent = event.target.value\n     }\n   }

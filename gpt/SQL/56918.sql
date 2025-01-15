@@ -1,1 +1,0 @@
-SELECT\n    Table1.Category1,\n    Table1.Category2,\n    count(*) as Total,\n    count(Table2.Stat) AS Stat\nFROM Table1, Table2\nWHERE Table1.PrimaryKey = Table2.ForeignKey(+)\nGROUP BY Table1.Category1, Table1.Category2

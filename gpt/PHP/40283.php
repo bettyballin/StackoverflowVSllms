@@ -1,1 +1,0 @@
-class ClassName {\n    public function __construct() {\n        // constructor code\n    }\n}

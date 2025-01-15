@@ -1,1 +1,0 @@
-SELECT h.car_id, c.car_model\nFROM OwnershipHistory h\nJOIN Cars c ON h.car_id = c.car_id\nWHERE h.owner_id = Z\n  AND h.change_timestamp =\n    (SELECT MAX(change_timestamp)\n     FROM OwnershipHistory h_sub\n     WHERE h_sub.car_id = h.car_id\n       AND h_sub.change_timestamp <= 'X');

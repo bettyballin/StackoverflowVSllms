@@ -1,1 +1,0 @@
-select C1, C2, C3 from T1\nunion all\nselect C1, C2, C3 from T2\norder by C3;

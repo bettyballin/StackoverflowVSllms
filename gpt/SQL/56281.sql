@@ -1,1 +1,0 @@
-UPDATE your_table yt\n   JOIN map_lookup ml ON yt.map = ml.map\n   SET yt.map_id = ml.id;

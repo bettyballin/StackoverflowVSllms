@@ -1,1 +1,0 @@
-INSERT INTO DistinctTypeNames (typeName)\n    SELECT DISTINCT typeName FROM types;

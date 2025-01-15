@@ -1,1 +1,0 @@
-CREATE PROCEDURE LandData_Insert\n    @FirstName NVARCHAR(50),\n    @LastName NVARCHAR(50),\n    -- other parameters\nAS\nBEGIN\n    -- Insert logic here\n\n    -- Call the update stored procedure with different parameter names\n    EXEC LandData_Update @MyFirstName = @FirstName, @MyLastName = @LastName;\n\nEND;

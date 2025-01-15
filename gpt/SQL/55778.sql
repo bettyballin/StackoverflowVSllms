@@ -1,1 +1,0 @@
-CREATE TABLE Colors (\n    Id INT PRIMARY KEY,\n    -- Additional columns for color details (e.g., RGB values) can go here\n);\n\nCREATE TABLE ColorComposition (\n    Id INT PRIMARY KEY,\n    MotherColorId INT,\n    ChildColorId INT,\n    FOREIGN KEY (MotherColorId) REFERENCES Colors(Id),\n    FOREIGN KEY (ChildColorId) REFERENCES Colors(Id)\n);

@@ -1,1 +1,0 @@
-SELECT a.* \nFROM TableA a \nWHERE EXISTS (\n    SELECT 1 \n    FROM TableB b \n    WHERE b.id = a.id \n    AND (b.status IN (1, 6) OR b.status IS NULL)\n)\nAND EXISTS (\n    SELECT 1 \n    FROM TableB b \n    WHERE b.id = a.id \n    AND b.status IS NULL\n) \nAND NOT EXISTS (\n    SELECT 1 \n    FROM TableB b \n    WHERE b.id = a.id \n    AND b.status IN (2, 7)\n);

@@ -1,1 +1,0 @@
-# app/foo/a.py\nfrom . import common_logging as logging\nfrom . import common_os as os\nfrom . import common_re as re\n\n# Now you can use logging, os, and re as usual

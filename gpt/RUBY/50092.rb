@@ -1,1 +1,0 @@
-config.gem "action_mailer_optional_tls", :lib => "smtp_tls"

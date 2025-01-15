@@ -1,1 +1,0 @@
-import codecs\n\ndef convert_ebcdic_to_ascii(input_file, output_file):\n    with codecs.open(input_file, 'rb', encoding='cp037') as ebcdic_file:\n        content = ebcdic_file.read()\n\n    with open(output_file, 'w', encoding='ascii') as ascii_file:\n        ascii_file.write(content)\n\n# Usage\nconvert_ebcdic_to_ascii('localfile.ebcdic', 'localfile.ascii')

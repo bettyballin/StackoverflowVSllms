@@ -1,1 +1,0 @@
-DECLARE @bob AS varchar(50);\nSET @bob = 'SweetDB';\nDECLARE @sql AS varchar(100);\nSET @sql = 'USE ' + QUOTENAME(@bob);\nEXEC (@sql);

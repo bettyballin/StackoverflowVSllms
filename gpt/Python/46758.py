@@ -1,1 +1,0 @@
-from mitmproxy import http\n\n   def request(flow: http.HTTPFlow) -> None:\n       flow.request.headers["Your-Header-Name"] = "Your-Header-Value"

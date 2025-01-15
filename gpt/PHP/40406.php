@@ -1,1 +1,0 @@
-$string = 'Hello <?php echo "World";?>';\n\n// Use a callback function to evaluate the PHP code within the string\n$result = preg_replace_callback(\n    '/<\?php(.*?)\?>/s',\n    function ($matches) {\n        ob_start();\n        eval($matches[1]);\n        return ob_get_clean();\n    },\n    $string\n);\n\necho $result;

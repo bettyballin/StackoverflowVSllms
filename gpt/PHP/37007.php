@@ -1,1 +1,0 @@
-if (getenv('APPLICATION_ENV') === 'development') {\n       ini_set('display_errors', 1);\n       error_reporting(E_ALL);\n   } else {\n       ini_set('display_errors', 0);\n       error_reporting(0);\n   }

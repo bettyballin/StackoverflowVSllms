@@ -1,1 +1,0 @@
-const\n  c_ADOConnString = 'Provider=OraOLEDB.Oracle;Persist Security Info=True;' +\n                    'Extended Properties="plsqlrset=1";' +\n                    'Data Source=DATABASE.DOMAIN.COM;USER ID=******;Password=*******';

@@ -1,1 +1,0 @@
-CREATE TABLE your_table (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    item_index VARCHAR(255) NOT NULL,\n    other_columns ...\n);

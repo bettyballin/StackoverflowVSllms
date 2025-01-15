@@ -1,1 +1,0 @@
-# Create an item\nitem = Item.create(name: "Sample Item")\n\n# Create a transaction\ntransaction = Transaction.create(profit: 100.0)\n\n# Create a join record in tran_items\nTranItem.create(item: item, transaction: transaction, quantity: 10)

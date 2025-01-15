@@ -1,1 +1,0 @@
-SELECT USER_NAME() AS CurrentUser;

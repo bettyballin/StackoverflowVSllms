@@ -1,1 +1,0 @@
-ALTER TABLE `user_ips`\nADD UNIQUE KEY `unique_user_ip` (`userid`, `ip`);

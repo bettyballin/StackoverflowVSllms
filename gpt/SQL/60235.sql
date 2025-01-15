@@ -1,1 +1,0 @@
-select j.email \nfrom jobseeker j\nleft join aspnet_Membership m on j.email = m.email\nwhere m.email is null

@@ -1,1 +1,0 @@
-CREATE TABLE AccountIDMapping (\n       OldAccountID INT,\n       NewAccountID INT\n   );

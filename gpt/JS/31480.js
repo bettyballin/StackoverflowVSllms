@@ -1,1 +1,0 @@
-// camelCase for variables and function names\nlet myVariable = 10;\n\nfunction doSomething() {\n    // function logic\n}\n\n// PascalCase for constructor functions and class names\nclass MyClass {\n    constructor() {\n        this.value = 0;\n    }\n    \n    myMethod() {\n        // method logic\n    }\n}\n\n// UPPER_CASE_SNAKE_CASE for constants\nconst MAX_LIMIT = 100;

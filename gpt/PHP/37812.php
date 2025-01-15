@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $keyword = isset($_POST['keyword']) ? $_POST['keyword'] : 'No keyword received';\n    echo $keyword;\n} else {\n    echo 'No POST request received';\n}\n?>

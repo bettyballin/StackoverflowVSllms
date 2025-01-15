@@ -1,1 +1,0 @@
-gem 'carrierwave', '~> 2.0'\n    gem 'mini_magick', '~> 4.9'

@@ -1,1 +1,0 @@
-$ch = curl_init();\n   curl_setopt($ch, CURLOPT_URL, 'http://example.com/file');\n   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);\n   curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);\n   $data = curl_exec($ch);\n   curl_close($ch);

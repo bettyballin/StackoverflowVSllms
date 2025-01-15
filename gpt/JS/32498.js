@@ -1,1 +1,0 @@
-function normalizeMimeType(mimeType) {\n    if (mimeType === "image/pjpeg") {\n        return "image/jpeg";\n    }\n    return mimeType;\n}\n\n// Example usage\nconst originalMimeType = "image/pjpeg";\nconst normalizedMimeType = normalizeMimeType(originalMimeType);\nconsole.log(normalizedMimeType);  // Output: "image/jpeg"

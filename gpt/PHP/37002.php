@@ -1,1 +1,0 @@
-$searchme = [\n    'UserGroupPermission' => [\n        'permission_id' => 4,\n        'group_id' => 1\n    ]\n];

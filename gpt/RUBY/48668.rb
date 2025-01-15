@@ -1,1 +1,0 @@
-# lib/daemon_listener.rb\n     require 'redis'\n     require 'json'\n\n     redis = Redis.new\n\n     redis.subscribe('events') do |on|\n       on.message do |channel, msg|\n         event_data = JSON.parse(msg)\n         EventWorker.perform_async(event_data)\n       end\n     end

@@ -1,1 +1,0 @@
-SELECT t1.col1, t1.col2\nFROM your_table t1\nINNER JOIN (\n    SELECT col1, MAX(col2) AS max_col2\n    FROM your_table\n    GROUP BY col1\n) t2 ON t1.col1 = t2.col1 AND t1.col2 = t2.max_col2;

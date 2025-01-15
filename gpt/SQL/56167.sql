@@ -1,1 +1,0 @@
-REFRESH MATERIALIZED VIEW mv_tuples_aggregates;

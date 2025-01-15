@@ -1,1 +1,0 @@
-$storedTotal     = (float) $row['total']; # Cast to float\n$calculatedTotal = $subtotal + $tax + $shipping - $deduct;\n\n# Make sure the stored total equals what it should (the calculated total)\nif($storedTotal != $calculatedTotal) {\n    # Send an alert\n    mail("admin@domain.com","Total check fail","Stored total:$storedTotal \n\n Calculated total:$calculatedTotal \n\n");\n}

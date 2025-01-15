@@ -1,1 +1,0 @@
-# app/models/user.rb\nclass User < ActiveResource::Base\n  self.site = "http://authentication-app.com"\nend

@@ -1,1 +1,0 @@
-<ItemGroup>\n  <Compile Include="App_GlobalResources\Resource1.Designer.cs" />\n  <Compile Include="App_GlobalResources\Resource2.Designer.cs" />\n</ItemGroup>

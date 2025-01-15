@@ -1,1 +1,0 @@
-Select \n   field1 as 'node1/field1',\n   field2 as 'node1/field2',\n   (\n       Select \n          field3 as 'child1/field3',\n          field4 as 'child1/field4'\n       From table2\n       Where table2.foreign_key = table1.primary_key\n       FOR XML PATH('child1'), TYPE, ELEMENTS\n   ) as 'node1'\nFrom Table1 \nFOR XML PATH('Root'), ELEMENTS

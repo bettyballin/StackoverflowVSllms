@@ -1,1 +1,0 @@
-<?php\n$items = "word 1\nword 2\nword 3\nword 4";\n$itemsArray = explode("\n", $items);\n\nprint_r($itemsArray);\n?>

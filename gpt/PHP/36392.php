@@ -1,1 +1,0 @@
-// this file is named fooClassHere.php\n\nclass Foo{\n    public $meh;\n    public $bazInstance;\n\n    function bar(){\n        $this->bazInstance = new Baz;\n        $this->meh = $this->bazInstance->getStuff();\n    }\n}

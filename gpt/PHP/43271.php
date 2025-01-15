@@ -1,1 +1,0 @@
-<?php\n$directory = 'photos';\n$files = array_diff(scandir($directory), array('..', '.'));\nsort($files);\n\nforeach ($files as $file) {\n    echo "<li><img src=\"$directory/$file\" alt=\"$file\" title=\"\"></li>\n";\n}\n?>

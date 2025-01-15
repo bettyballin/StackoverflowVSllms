@@ -1,1 +1,0 @@
-SELECT \n    c.cat_id, \n    c.cat_name, \n    COUNT(DISTINCT d.dom_id) AS domain_count \nFROM \n    categories c\nINNER JOIN \n    domains d ON c.cat_id = d.dom_catid\nINNER JOIN \n    reviews r ON d.dom_id = r.rev_domain_from \nWHERE \n    r.rev_status = 1\nGROUP BY \n    c.cat_id, c.cat_name\nHAVING \n    domain_count > 0\nORDER BY \n    c.cat_name;

@@ -1,1 +1,0 @@
-from django.contrib import messages\nfrom django.shortcuts import redirect\n\ndef my_view(request):\n    # Process your request here\n    ...\n    # Add a success message\n    messages.success(request, 'Your request was processed successfully.')\n    # Redirect to another view\n    return redirect('some_other_view')

@@ -1,1 +1,0 @@
-$file_uri = $row['file_path'];\n$file_url = file_create_url($file_uri);

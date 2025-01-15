@@ -1,1 +1,0 @@
-ALTER USER specific_user WITH DEFAULT_SCHEMA = newrole;

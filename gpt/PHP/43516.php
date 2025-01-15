@@ -1,1 +1,0 @@
-class SomeController extends CI_Controller {\n        public function __construct() {\n            parent::__construct();\n            $this->load->library('product');\n        }\n\n        public function some_method() {\n            $products = $this->product->get_products();\n            // Use the products as needed\n        }\n    }

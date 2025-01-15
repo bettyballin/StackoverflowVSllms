@@ -1,1 +1,0 @@
-SELECT JoinField, Field1 FROM TableA;

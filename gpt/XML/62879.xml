@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.ow2.asm</groupId>\n    <artifactId>asm</artifactId>\n    <version>9.2</version>\n</dependency>

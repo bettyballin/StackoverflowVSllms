@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- Your SQL statements here\nUPDATE Employees SET Salary = Salary + 1000 WHERE EmployeeID = 1;\n\n-- Check if everything is ok\nIF @@ERROR <> 0\nBEGIN\n    ROLLBACK TRANSACTION;\n    PRINT 'Transaction rolled back due to an error.';\nEND\nELSE\nBEGIN\n    COMMIT TRANSACTION;\n    PRINT 'Transaction committed successfully.';\nEND

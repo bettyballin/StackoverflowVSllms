@@ -1,1 +1,0 @@
-CREATE INDEX idx_host_id ON hosts(id);\nCREATE INDEX idx_urls_host ON urls(host);\nCREATE INDEX idx_urls_path ON urls(path);\nCREATE INDEX idx_path_id ON paths(id);

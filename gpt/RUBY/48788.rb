@@ -1,1 +1,0 @@
-<!-- app/views/your_controller/_content_section_one.html.erb -->\n   <div>\n     <% @data.each do |item| %>\n       <p><%= item.name %></p>\n     <% end %>\n   </div>

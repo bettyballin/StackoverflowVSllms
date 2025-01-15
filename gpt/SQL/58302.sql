@@ -1,1 +1,0 @@
-CREATE TABLE audit_log (\n        id SERIAL PRIMARY KEY,\n        table_name VARCHAR(255),\n        record_id INTEGER,\n        field_name VARCHAR(255),\n        old_value VARCHAR(255),\n        new_value VARCHAR(255),\n        changed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n        changed_by VARCHAR(255),\n        ip_address VARCHAR(255)\n    );

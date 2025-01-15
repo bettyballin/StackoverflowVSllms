@@ -1,1 +1,0 @@
-SELECT DISTINCT C.valueC\nFROM C\nINNER JOIN B ON C.id = B.lookupC\nINNER JOIN A ON B.id = A.lookupB;

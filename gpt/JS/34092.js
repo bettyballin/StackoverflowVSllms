@@ -1,1 +1,0 @@
-window.addEvent('domready', function() {\n    $$('a.delete').addEvent('click', function(event) {\n        var username = this.get('data-username');\n        if (!confirm("Are you sure you want to remove the user " + username + "?")) {\n            event.stop();\n        }\n    });\n});

@@ -1,1 +1,0 @@
-UPDATE your_table\n    SET timestamp = STR_TO_DATE(LEFT(id, 8), '%Y%m%d');

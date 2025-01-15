@@ -1,1 +1,0 @@
-// Select all elements with an id attribute within a specific container\nvar elementsWithIds = $("#yourContainerId").find("[id]");\n\n// Or, if you want to select all elements with an id attribute in the entire document\nvar allElementsWithIds = $("[id]");\n\n// Log the elements to the console (for example)\nconsole.log(elementsWithIds);\nconsole.log(allElementsWithIds);

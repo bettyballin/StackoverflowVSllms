@@ -1,1 +1,0 @@
-<?php\n   require 'vendor/autoload.php';\n\n   use App\Controllers\IndexController;\n\n   $controller = new IndexController();

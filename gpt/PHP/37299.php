@@ -1,1 +1,0 @@
-// In Authenticate.php\n   session_start();\n   \n   // Check if SESSION is set, otherwise use the GET parameter\n   $map_id = isset($_SESSION['map_id']) ? $_SESSION['map_id'] : $_GET['map_id'];\n   \n   echo $map_id;

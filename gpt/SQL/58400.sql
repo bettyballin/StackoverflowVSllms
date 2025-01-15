@@ -1,1 +1,0 @@
-DELETE FROM PROJECTS WHERE PROJECT_ID = <your_project_id>;

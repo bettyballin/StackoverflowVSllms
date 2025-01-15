@@ -1,1 +1,0 @@
-$db = new Database;\n$db->db_connect();\n\n$post_content = new DbSelect;\n$post_content->select('id', 'title', 'firstName', 'created', 'catName', 'tagName');\n$post_content->from('content');   \n$post_content->join('inner');\n$post_content->on('category','cat_id','id');\n$post_content->where('id','1');\n$post_content->order('created');\n\n$db->db_close();

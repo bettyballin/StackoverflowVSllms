@@ -1,1 +1,0 @@
-<configuration>\n     <runtime>\n       <TieredCompilation enabled="true" />\n     </runtime>\n   </configuration>

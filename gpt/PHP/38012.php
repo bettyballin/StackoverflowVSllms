@@ -1,1 +1,0 @@
-<?php\n$test = array(\n    0 => 'zero',\n    1 => 'one',\n    2 => 'two',\n    3 => 'three',\n);\n\nfunction doesntWork($something) {\n    global $test; // Declare the global variable\n    echo "My favorite number is " . $test[$something];\n}\n\n// Call the function with a parameter\ndoesntWork(2); // Outputs: My favorite number is two\n?>

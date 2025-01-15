@@ -1,1 +1,0 @@
-<configuration>\n  <system.runtime.remoting>\n    <application>\n      <clientProviders>\n        <formatter ref="binary" typeFilterLevel="Full"/>\n      </clientProviders>\n    </application>\n  </system.runtime.remoting>\n</configuration>

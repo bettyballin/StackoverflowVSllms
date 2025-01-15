@@ -1,1 +1,0 @@
-CREATE TYPE StringListType AS TABLE\n(\n    word NVARCHAR(255)\n);

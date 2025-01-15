@@ -1,1 +1,0 @@
-CREATE INDEX IX_Table2_ID_Converted ON Table2(ID_Converted);

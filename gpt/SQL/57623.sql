@@ -1,1 +1,0 @@
-SELECT search_query, COUNT(*) AS search_count\nFROM search_statistics\nGROUP BY search_query\nORDER BY search_count DESC\nLIMIT 10;

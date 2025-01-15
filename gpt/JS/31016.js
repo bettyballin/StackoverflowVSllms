@@ -1,1 +1,0 @@
-// Define the error codes and messages\nconst errorCodes = {\n    "A01": "whatever error",\n    "U01": "another error",\n    "U02": "yet another error type"\n};\n\nfunction getErrorMessage(code) {\n    return errorCodes[code] || "Unknown error code";\n}\n\n// Example usage\nconst code = "U01";\nconsole.log(`Error message for ${code}: ${getErrorMessage(code)}`);

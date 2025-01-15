@@ -1,1 +1,0 @@
-foreach ($_POST['tasks'] as $task_id => $v) {\n    // code to execute for each element in the array\n}

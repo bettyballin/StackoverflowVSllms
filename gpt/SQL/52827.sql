@@ -1,1 +1,0 @@
-SELECT\n    Date,\n    Month,\n    Orders,\n    Price,\n    LAG(Orders, 1) OVER (ORDER BY Date) AS PreviousOrders,\n    CASE \n        WHEN LAG(Orders, 1) OVER (ORDER BY Date) IS NULL THEN NULL\n        ELSE ((Orders - LAG(Orders, 1) OVER (ORDER BY Date)) / LAG(Orders, 1) OVER (ORDER BY Date)) * 100\n    END AS PercentageChange\nFROM\n    YourTableNameHere\nORDER BY\n    Date;

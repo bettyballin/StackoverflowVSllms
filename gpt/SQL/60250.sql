@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION capitalize_string(text) RETURNS text AS $$\n    return ucfirst(shift);\n$$ LANGUAGE plperl;

@@ -1,1 +1,0 @@
-my_list = ["foo", "bar", "baz"]\nitem = "bar"\n\nindex = my_list.index(item)\nprint(index)  # Output: 1

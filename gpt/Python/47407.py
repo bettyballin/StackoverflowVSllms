@@ -1,1 +1,0 @@
-from geopy.geocoders import Nominatim\n\n   geolocator = Nominatim(user_agent="geoapiExercises")\n   location = geolocator.geocode("Bloomington, IN")\n   print((location.latitude, location.longitude))

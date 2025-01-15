@@ -1,1 +1,0 @@
-$pathway = &$mainframe->getPathway();\n$pathway->addItem('Custom Path', 'http://example.com/custom-path');\n$items = $pathway->getPathWay();\n\necho '<pre>';\nprint_r($items);\necho '</pre>';

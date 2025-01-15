@@ -1,1 +1,0 @@
-Dim lastLoginString As String = If(DT.Rows(0)("LastLogin") Is DBNull.Value, Nothing, DT.Rows(0)("LastLogin").ToString())\nDim parsedDate As DateTime\nIf DateTime.TryParse(lastLoginString, parsedDate) Then\n    _LastLogin = parsedDate\nElse\n    _LastLogin = Nothing\nEnd If

@@ -1,1 +1,0 @@
-echo $this->Html->link(__('New Question', true), ['controller' => 'questions', 'action' => 'add']);

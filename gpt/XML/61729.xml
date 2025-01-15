@@ -1,1 +1,0 @@
-<class name="ComponentGroup" table="ComponentGroups">\n    <!-- other mappings -->\n    <bag name="Components" inverse="true" cascade="all-delete-orphan">\n        <key column="GroupId"/>\n        <one-to-many class="Component"/>\n        <filter name="rootNodesOnly" condition="ParentId is null"/>\n    </bag>\n</class>

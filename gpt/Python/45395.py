@@ -1,1 +1,0 @@
-# Grouping expressions\nresult = (1 + 2) * 3\n\n# Function call with braces inside parentheses\ndef my_function():\n    return {"key": "value"}\n\nresult = my_function()\n\n# Tuples with braces inside parentheses\ntuple_with_dict = ({"key": "value"},)

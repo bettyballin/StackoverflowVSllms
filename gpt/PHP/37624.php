@@ -1,1 +1,0 @@
-ini_set('max_execution_time', 30); // Set the maximum execution time to 30 seconds\nsleep(31); // This will cause an error

@@ -1,1 +1,0 @@
-INSERT INTO person_new (id, name, dob, /* other columns */)\nSELECT id, name, dob, /* other columns */\nFROM person;

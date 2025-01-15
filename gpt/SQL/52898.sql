@@ -1,1 +1,0 @@
-CREATE TABLE ExampleTable (\n    Id INT PRIMARY KEY,\n    Name NVARCHAR(100)\n);\n\n-- Creating a clustered index on the Id column\nCREATE CLUSTERED INDEX IDX_ExampleTable_Id ON ExampleTable(Id);

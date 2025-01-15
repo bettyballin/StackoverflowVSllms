@@ -1,1 +1,0 @@
-UPDATE Table_Name t1\nJOIN (\n    SELECT ID, SUM(S_val) AS total_s_val\n    FROM Table_Name\n    GROUP BY ID\n) t2 ON t1.ID = t2.ID\nSET t1.PAR = t2.total_s_val;

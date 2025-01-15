@@ -1,1 +1,0 @@
-usort($locations, function($a, $b) {\n    return Interpolator::sortByDistance($a, $b);\n});

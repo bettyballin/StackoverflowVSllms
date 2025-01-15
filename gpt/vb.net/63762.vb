@@ -1,1 +1,0 @@
-Dim myE As MyEnum = MyEnum.ItemA\n   Dim converter As TypeConverter = TypeDescriptor.GetConverter(myE)\n   \n   ' This should return "LocalizedEnumConverter"\n   Debug.Print(converter.GetType().ToString())

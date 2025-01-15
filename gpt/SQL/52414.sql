@@ -1,1 +1,0 @@
--- Using CHAR(15)\nCREATE TABLE NetworkDevices (\n    DeviceID INT PRIMARY KEY,\n    IPAddress CHAR(15)\n);\n\n-- Using VARBINARY(4)\nCREATE TABLE NetworkDevices (\n    DeviceID INT PRIMARY KEY,\n    IPAddress VARBINARY(4)\n);

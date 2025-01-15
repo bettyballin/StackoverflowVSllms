@@ -1,1 +1,0 @@
-UPDATE Sales\nSET SalesAmount = NewValue\nWHERE ProductID = @ProductID AND Year = @Year;

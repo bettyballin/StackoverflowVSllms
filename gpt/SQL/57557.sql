@@ -1,1 +1,0 @@
-SELECT o.owner_name,\n       b1.name AS book1_name,\n       b2.name AS book2_name\nFROM owner_table o\nLEFT JOIN book_name_table b1 ON o.book_id1 = b1.id\nLEFT JOIN book_name_table b2 ON o.book_id2 = b2.id;

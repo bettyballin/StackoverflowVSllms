@@ -1,1 +1,0 @@
--- Check encoding on live server\n   SHOW VARIABLES LIKE 'character_set_database';\n   SHOW VARIABLES LIKE 'collation_database';\n\n   -- Check encoding on mirrored server\n   SHOW VARIABLES LIKE 'character_set_database';\n   SHOW VARIABLES LIKE 'collation_database';

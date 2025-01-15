@@ -1,1 +1,0 @@
-CREATE TABLE global_lock (\n    lock_id INT PRIMARY KEY,\n    lock_status BOOLEAN NOT NULL\n);\nINSERT INTO global_lock (lock_id, lock_status) VALUES (1, FALSE);

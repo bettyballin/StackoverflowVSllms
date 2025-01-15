@@ -1,1 +1,0 @@
-import sys\n\n# Clear the existing sys.path\nsys.path = []\n\n# Add only the directories you need\nsys.path.append(r'C:\Path\To\Your\Project')\nsys.path.append(r'C:\Another\Path\You\Need')\n\n# Optionally, you can print sys.path to verify\nprint(sys.path)

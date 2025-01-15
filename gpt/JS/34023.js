@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('.alpha-init').click(function() {\n        var target = $(this).data('target');\n        $(target).slideToggle(200);\n    });\n});

@@ -1,1 +1,0 @@
-SELECT p.caption\nFROM posts p\nJOIN comments c ON p.id = c.post_id\nGROUP BY p.id;

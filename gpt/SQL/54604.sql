@@ -1,1 +1,0 @@
-CREATE UNIQUE INDEX unique_name_not_deleted\nON your_table_name (name)\nWHERE deleted = 0;

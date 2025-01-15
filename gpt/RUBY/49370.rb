@@ -1,1 +1,0 @@
-# Ruby 1.9\n   require_relative 'some_file'

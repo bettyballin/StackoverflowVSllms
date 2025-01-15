@@ -1,1 +1,0 @@
-$posts = array(\n    array("message" => 'this is a test message')\n);\n\nforeach ($posts as $post) {\n    echo $post['message'];\n}

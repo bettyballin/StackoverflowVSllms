@@ -1,1 +1,0 @@
-<?php\n    class flexibleAccess {\n        var $dbName;\n\n        function __construct() {\n            session_start(); // Make sure the session is started\n            $this->dbName = $_SESSION['mydatabase'];\n        }\n    }\n\n    // Usage\n    include 'config.php';\n    $access = new flexibleAccess();\n    echo $access->dbName; // This should output 'mydatabase'\n    ?>

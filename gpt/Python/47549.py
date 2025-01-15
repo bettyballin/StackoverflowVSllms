@@ -1,1 +1,0 @@
-def total_characters_written(s):\n    groupings = generate_groupings(s)\n    total_chars = sum(len(grouping) for grouping in groupings)\n    return total_chars\n\n# Example usage\ns = "aids"\nprint(total_characters_written(s))

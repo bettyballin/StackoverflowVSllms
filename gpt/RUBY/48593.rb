@@ -1,1 +1,0 @@
-class Question < ApplicationRecord\n  acts_as_list scope: :section\n  belongs_to :section\nend

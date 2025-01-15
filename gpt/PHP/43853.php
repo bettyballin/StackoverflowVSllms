@@ -1,1 +1,0 @@
-<?php\n$serializedData = 'your serialized string here';\n\nif ($data = @unserialize($serializedData)) {\n    // Process the unserialized data\n} else {\n    // Handle the error\n    echo "Failed to unserialize data.";\n    error_log("Unserialize error: " . print_r($serializedData, true));\n}\n?>

@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <authentication mode="None" />\n    <customErrors mode="Off" />\n    <compilation defaultLanguage="c#" />\n    <trust level="Full"/>\n  </system.web>\n</configuration>

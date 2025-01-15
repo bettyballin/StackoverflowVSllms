@@ -1,1 +1,0 @@
-<typeHandler\n    callback="YourNamespace.StringListTypeHandler, YourAssemblyName"\n    type="System.Collections.Generic.List`1[System.String]" />

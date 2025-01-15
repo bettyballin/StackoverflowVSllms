@@ -1,1 +1,0 @@
-SELECT * FROM dba_2pc_pending;

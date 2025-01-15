@@ -1,1 +1,0 @@
-EXPLAIN SELECT\n   link.*\n   FROM\n   (SELECT content_id FROM content_link FORCE INDEX (content_id) LIMIT 10) AS sub\n   JOIN\n   content_link link\n   ON\n   sub.content_id = link.content_id\n   STRAIGHT_JOIN\n   content\n   ON\n   link.content_id = content.id;

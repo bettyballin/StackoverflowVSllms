@@ -1,1 +1,0 @@
-$source = 'path/to/source/file.txt';\n$destination = 'path/to/destination/file.txt';\n\nif (!file_exists($destination)) {\n    if (copy($source, $destination)) {\n        echo 'File copied successfully.';\n    } else {\n        echo 'Failed to copy the file.';\n    }\n} else {\n    echo 'Destination file already exists.';\n}

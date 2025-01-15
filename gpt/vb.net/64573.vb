@@ -1,1 +1,0 @@
-Dim userInput, sanitizedInput, sqlQuery\nuserInput = Request("userInput")\nsanitizedInput = SanitizeSQL(userInput)\nsqlQuery = "SELECT * FROM Users WHERE Username = '" & sanitizedInput & "'"

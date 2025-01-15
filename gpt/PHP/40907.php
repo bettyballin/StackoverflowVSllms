@@ -1,1 +1,0 @@
-<?php\n$id1 = 1;\n$id2 = "module 1 loaded";\n\n// Create an associative array with the variables\n$data = array("var1" => $id1, "var2" => $id2);\n\n// Encode the array into a JSON string\n$jsonData = json_encode($data);\n\n// Output the JSON string\necho $jsonData;\n?>

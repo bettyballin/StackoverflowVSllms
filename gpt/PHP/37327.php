@@ -1,1 +1,0 @@
-$ref =& usethisfunction();\n   $ref = 20;\n   echo usethisfunction(); // Outputs 20

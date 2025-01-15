@@ -1,1 +1,0 @@
-function getUnixTimestampMilliseconds() {\n    $microtime = microtime(true);\n    return (int)($microtime * 1000);\n}\n\n// Example usage\necho getUnixTimestampMilliseconds();

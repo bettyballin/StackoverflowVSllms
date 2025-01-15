@@ -1,1 +1,0 @@
-<?php\nif (isset($_GET['test'])) {\n    echo htmlspecialchars($_GET['test']);\n} else {\n    echo "No test parameter provided.";\n}\n?>

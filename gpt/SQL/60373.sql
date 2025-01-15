@@ -1,1 +1,0 @@
-DELIMITER //\n\nCREATE PROCEDURE GetUserCount(OUT userCount INT)\nBEGIN\n    SELECT COUNT(*) INTO userCount FROM users;\nEND //\n\nDELIMITER ;

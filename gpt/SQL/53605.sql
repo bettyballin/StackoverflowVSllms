@@ -1,1 +1,0 @@
-INSERT INTO POSTS (id, content) VALUES (2, 'This is a post related to a topic.');\nINSERT INTO TOPICS (id, name) VALUES (1, 'Topic 1');\nINSERT INTO POST_RELATIONS (post_id, related_id, related_type) VALUES (2, 1, 'TOPIC');

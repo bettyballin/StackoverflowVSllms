@@ -1,1 +1,0 @@
-Dim currentPage As String = Request.Url.PathAndQuery\n\n' This will give you the URL path including the query string but without the leading slash\n' Example: "ContractChange.aspx?d=1&b=2"\nso.Cpage = currentPage

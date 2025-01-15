@@ -1,1 +1,0 @@
-spl_autoload_register(function ($class) {\n       $file = str_replace('\\', DIRECTORY_SEPARATOR, $class) . '.php';\n       if (file_exists($file) && is_file($file)) {\n           require_once($file);\n       }\n   });\n\n   // Usage:\n   $mail = new Mail();

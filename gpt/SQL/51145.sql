@@ -1,1 +1,0 @@
--- Declare a table variable to store the output IDs\nDECLARE @NewIDs TABLE (id INT);\n\n-- Insert rows and capture the new IDs\nINSERT INTO sometable (someval)\nOUTPUT INSERTED.id INTO @NewIDs\nSELECT somefield \nFROM othertable;\n\n-- Select the captured IDs\nSELECT id FROM @NewIDs;

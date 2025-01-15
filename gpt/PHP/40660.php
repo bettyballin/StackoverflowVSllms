@@ -1,1 +1,0 @@
-<?php\ndefine('DB_SERVER', 'your_database_server');\ndefine('DB_USERNAME', 'your_database_username');\ndefine('DB_PASSWORD', 'your_database_password');\ndefine('DB_NAME', 'your_database_name');\n?>

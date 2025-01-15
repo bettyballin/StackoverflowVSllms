@@ -1,1 +1,0 @@
-del old_list[:]

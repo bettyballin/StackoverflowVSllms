@@ -1,1 +1,0 @@
-import re\n\ndef remove_space_before_quote(s):\n    return re.sub(r'\s+"', '"', s)\n\n# Example usage\ntest_string = '"this is a test "'\nresult = remove_space_before_quote(test_string)\nprint(result)  # Outputs: "this is a test"

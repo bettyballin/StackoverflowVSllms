@@ -1,1 +1,0 @@
-<?php\n$data = "    asdf asdf     asdf           asdf   ";\n\n// Replace all tabs with a single space\n$data = str_replace("\t", " ", $data);\n\n// Replace multiple spaces with a single space\n$data = preg_replace('/\s+/', ' ', $data);\n\n// Remove leading and trailing spaces\n$data = trim($data);\n\necho $data; // Output: asdf asdf asdf asdf\n?>

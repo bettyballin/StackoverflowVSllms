@@ -1,1 +1,0 @@
-<module rename-to='myapp'>\n    <inherits name='com.google.gwt.user.User'/>\n    <entry-point class='com.example.myapp.client.MyApp'/>\n    <source path='client'/>\n    <source path='shared'/>\n</module>

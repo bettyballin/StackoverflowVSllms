@@ -1,1 +1,0 @@
-SELECT COUNT(*) AS total_users \n   FROM #__users;

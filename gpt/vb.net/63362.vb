@@ -1,1 +1,0 @@
-Dim index As Integer = 0\n\nFor Each PropertyActor As JCPropertyActor In MyProperty.PropertyActors\n    ' Use the index variable to get the current index\n    Console.WriteLine("Index: " & index)\n    \n    ' Your code to work with PropertyActor\n\n    ' Increment the index for the next iteration\n    index += 1\nNext

@@ -1,1 +1,0 @@
-CREATE TABLE table_name_part1 PARTITION OF table_name FOR VALUES IN (value1);

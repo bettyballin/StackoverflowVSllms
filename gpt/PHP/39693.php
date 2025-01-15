@@ -1,1 +1,0 @@
-class A\n{\n    /**\n     * @see B::bar()\n     */\n    public function foo()\n    {\n        $b = new B();\n        $b->bar();\n    }\n}\n\nclass B\n{\n    public function bar()\n    {\n        // ...\n    }\n}

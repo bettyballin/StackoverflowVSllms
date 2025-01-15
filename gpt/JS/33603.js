@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $("code").each(function() {\n        var content = $(this).html();\n        $(this).html('<pre>' + content + '</pre>');\n    });\n});

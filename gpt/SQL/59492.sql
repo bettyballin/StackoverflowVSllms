@@ -1,1 +1,0 @@
-SELECT \n    id,\n    (SELECT MAX(id) FROM my_table WHERE id < current_id) AS previous_id,\n    (SELECT MIN(id) FROM my_table WHERE id > current_id) AS next_id\nFROM \n    my_table\nWHERE \n    id = current_id;

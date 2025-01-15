@@ -1,1 +1,0 @@
-import requests\n\n# Replace 'YOUR_API_KEY' with your actual IEX Cloud API key\napi_key = 'YOUR_API_KEY'\nsymbol = 'AX-UN.TO'\nurl = f'https://cloud.iexapis.com/stable/stock/{symbol}/quote?token={api_key}'\n\nresponse = requests.get(url)\ndata = response.json()\n\nprint(data)

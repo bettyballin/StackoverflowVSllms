@@ -1,1 +1,0 @@
-MERGE INTO your_table t\nUSING (SELECT old_id, sequence.NEXTVAL as new_id\n       FROM your_table\n       ORDER BY old_id) s\nON (t.old_id = s.old_id)\nWHEN MATCHED THEN\nUPDATE SET t.new_id = s.new_id;

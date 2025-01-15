@@ -1,1 +1,0 @@
-Sub Command_Click()\n    Dim result As String\n    result = pptCreator()  ' Call the function and store the result\n    MsgBox result          ' Display the result if needed\nEnd Sub

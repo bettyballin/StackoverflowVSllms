@@ -1,1 +1,0 @@
-If (a > 0) And (b > 0) Then\n         ' Both expressions are evaluated\n     End If

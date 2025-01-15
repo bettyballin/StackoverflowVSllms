@@ -1,1 +1,0 @@
-// public/index.php\nrequire_once '../vendor/autoload.php';\n\nuse App\Core\Router;\nuse App\Controllers\HomeController;\n\n$router = new Router();\n$router->add('/', [HomeController::class, 'index']);\n$router->dispatch($_SERVER['REQUEST_URI']);

@@ -1,1 +1,0 @@
-COMMIT; -- to save changes\n   ROLLBACK; -- to undo changes

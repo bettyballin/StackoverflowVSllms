@@ -1,1 +1,0 @@
-select h.*\nfrom phone_numbers h\nleft join phone_numbers c\non h.person_id = c.person_id\nand h.type = 'home'\nand c.type = 'cell'\nwhere c.number is null;

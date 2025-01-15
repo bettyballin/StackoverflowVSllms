@@ -1,1 +1,0 @@
-CREATE VIEW dbo.ApprovalsView AS\nSELECT \n    at.ApprovalTaskID,\n    at.Status,\n    -- other columns\nFROM \n    dbo.ApprovalTasks at\nJOIN \n    dbo.SomeOtherTable st ON at.SomeID = st.SomeID\n-- Possible joins or conditions

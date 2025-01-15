@@ -1,1 +1,0 @@
-CREATE TABLE Parent (\n    ID INT IDENTITY(1,1) PRIMARY KEY,\n    -- other fields\n);\n\nCREATE TABLE Child (\n    ID INT PRIMARY KEY,\n    -- some fields\n    FOREIGN KEY (ID) REFERENCES Parent(ID)\n);

@@ -1,1 +1,0 @@
-// Include the Composer autoloader\n   require __DIR__ . '/../vendor/autoload.php';

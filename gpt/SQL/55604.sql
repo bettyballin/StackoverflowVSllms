@@ -1,1 +1,0 @@
-CREATE INDEX idx_deliveryDate ON table1(deliveryDate);

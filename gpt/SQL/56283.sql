@@ -1,1 +1,0 @@
-CREATE INDEX idx_map_id ON your_table (map_id);

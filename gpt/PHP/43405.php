@@ -1,1 +1,0 @@
-$content = @file_get_contents("http://******.org/ti.php?i=".$i."&s=".$s);\n\n// Check if BOM exists and remove it\nif (substr($content, 0, 3) === "\xEF\xBB\xBF") {\n    $content = substr($content, 3);\n}\n\necho $content;

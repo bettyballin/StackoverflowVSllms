@@ -1,1 +1,0 @@
-SELECT Name \nFROM A \nORDER BY \n    CASE \n        WHEN Name LIKE 'KL %' THEN CAST(SUBSTRING(Name, 4, LEN(Name)) AS BIGINT)\n        ELSE 0 \n    END,\n    Name;

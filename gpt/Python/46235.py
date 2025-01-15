@@ -1,1 +1,0 @@
-# Example comparison on specific columns\n   comparison_columns = ['column1', 'column2']  # Columns you need to compare\n   comparison = df_excel[comparison_columns].equals(df_access[comparison_columns])\n\n   if comparison:\n       print("The data matches!")\n   else:\n       print("The data does not match.")

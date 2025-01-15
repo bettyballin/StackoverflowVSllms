@@ -1,1 +1,0 @@
-<?php\n$timestamp = time(); // Current timestamp\n?>\n\n<!-- For displaying the chart image -->\n<img src="path/to/chart.png?ver=<?php echo $timestamp; ?>" alt="Chart">\n\n<!-- For linking to the Excel file -->\n<a href="path/to/file.xlsx?ver=<?php echo $timestamp; ?>">Download Excel File</a>

@@ -1,1 +1,0 @@
-SELECT TO_CHAR(your_column, 'FM999999.00') AS formatted_number\nFROM your_table;

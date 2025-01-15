@@ -1,1 +1,0 @@
-CREATE DATABASE wordpress_db;\n     CREATE USER 'wordpress_user'@'localhost' IDENTIFIED BY 'strong_password';\n     GRANT ALL PRIVILEGES ON wordpress_db.* TO 'wordpress_user'@'localhost';\n     FLUSH PRIVILEGES;

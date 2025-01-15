@@ -1,1 +1,0 @@
-define('SOMETHING', true, true); // Case-insensitive

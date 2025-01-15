@@ -1,1 +1,0 @@
-INSERT INTO votes (comment_id, user_id, vote)\nVALUES (:comment_id, :user_id, :vote)\nON DUPLICATE KEY UPDATE vote = VALUES(vote);

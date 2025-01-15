@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <security>\n      <authorization>\n        <deny users="*" />\n      </authorization>\n    </security>\n  </system.webServer>\n</configuration>

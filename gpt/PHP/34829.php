@@ -1,1 +1,0 @@
-$link = new PDO("mysql:dbname=$dbname;host=$servername", $username, $password);\n// prepare statements, perform queries\n\n// Explicitly close the connection\n$link = null;

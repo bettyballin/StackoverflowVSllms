@@ -1,1 +1,0 @@
-site_name = "My Application"\nadmin_email = "admin@example.com"\nitems_per_page = 10

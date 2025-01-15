@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.springframework.session</groupId>\n    <artifactId>spring-session-data-redis</artifactId>\n</dependency>\n<dependency>\n    <groupId>org.springframework.boot</groupId>\n    <artifactId>spring-boot-starter-data-redis</artifactId>\n</dependency>

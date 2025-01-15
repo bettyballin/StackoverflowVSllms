@@ -1,1 +1,0 @@
-from transformers import pipeline\n\n    nlp = pipeline("zero-shot-classification")\n    sequence_to_classify = "The Berlin Wall"\n    candidate_labels = ["History", "Germany", "Middle East", "USA"]\n\n    result = nlp(sequence_to_classify, candidate_labels)\n    print(result)

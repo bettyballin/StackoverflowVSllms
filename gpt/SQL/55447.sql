@@ -1,1 +1,0 @@
-SELECT COLUMN_NAME\n   FROM information_schema.KEY_COLUMN_USAGE\n   WHERE TABLE_SCHEMA = 'your_database_name'\n     AND TABLE_NAME = 'your_table_name'\n     AND CONSTRAINT_NAME = 'PRIMARY';

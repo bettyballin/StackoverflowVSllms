@@ -1,1 +1,0 @@
-CREATE TABLE users (\n       id SERIAL PRIMARY KEY,\n       email VARCHAR(255) NOT NULL CHECK (email ~* '^[A-Za-z0-9+_.-]+@(.+)$')\n   );

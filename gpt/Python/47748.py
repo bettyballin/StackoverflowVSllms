@@ -1,1 +1,0 @@
-args = ['a', 'b', 'c', 'd']\nresult = 'function(' + ', '.join(args) + ')'\nprint(result)  # Output: function(a, b, c, d)

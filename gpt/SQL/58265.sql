@@ -1,1 +1,0 @@
--- Example of well-indented and formatted SQL code\n    SELECT e.employee_id, e.name, d.department_name\n    FROM employees e\n    JOIN departments d ON e.department_id = d.department_id\n    WHERE e.salary > 50000\n    ORDER BY e.name;

@@ -1,1 +1,0 @@
-<?php\n$xmlKey = file_get_contents('path/to/yourkey.xml');\n$pkeyid = openssl_pkey_get_private($xmlKey);\n\n// Data to be signed\n$data = "This is the data to be signed";\n\n// Sign the data\nopenssl_sign($data, $signature, $pkeyid, OPENSSL_ALGO_SHA256);\n\n// Free the key resource\nopenssl_free_key($pkeyid);\n\necho "Signature: " . base64_encode($signature);\n?>

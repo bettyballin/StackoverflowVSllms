@@ -1,1 +1,0 @@
-Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load\n    RadioButton1.Checked = My.Settings.RadioButton1Checked\n    RadioButton2.Checked = My.Settings.RadioButton2Checked\n    RadioButton3.Checked = My.Settings.RadioButton3Checked\nEnd Sub

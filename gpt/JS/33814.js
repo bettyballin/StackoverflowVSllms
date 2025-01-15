@@ -1,1 +1,0 @@
-<script language="javascript">\n    alert("a$b".replace(/\\$/g,"k"));\n</script>

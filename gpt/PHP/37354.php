@@ -1,1 +1,0 @@
-<?php\ncall_user_func(array($foobarobject, 'foomethod'));\n?>

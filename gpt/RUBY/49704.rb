@@ -1,1 +1,0 @@
-# models/user.rb\nclass User < ActiveRecord::Base\nend

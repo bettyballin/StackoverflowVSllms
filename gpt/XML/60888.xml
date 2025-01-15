@@ -1,1 +1,0 @@
-<Context>\n       <Manager className="com.radiadesign.catalina.session.RedisSessionManager"\n                host="localhost"\n                port="6379"\n                database="0"\n                maxInactiveInterval="60"/>\n   </Context>

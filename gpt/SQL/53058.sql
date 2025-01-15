@@ -1,1 +1,0 @@
-INSERT INTO your_table (id, column1, column2) VALUES ('generated-uuid-value', 'value1', 'value2');

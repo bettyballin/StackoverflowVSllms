@@ -1,1 +1,0 @@
-SELECT name, principal_id, type_desc, authentication_type_desc \n   FROM sys.database_principals\n   WHERE name = 'your_username';

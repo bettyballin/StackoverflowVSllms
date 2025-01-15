@@ -1,1 +1,0 @@
-def fibonacci_dynamic(n):\n    if n <= 0:\n        return 0\n    elif n == 1:\n        return 1\n    \n    fib = [0] * (n + 1)\n    fib[1] = 1\n    for i in range(2, n + 1):\n        fib[i] = fib[i - 1] + fib[i - 2]\n    return fib[n]

@@ -1,1 +1,0 @@
-<?php\nclass Company_SpecialCheckout_Model_Observer\n{\n    public function handleCartAdd(Varien_Event_Observer $observer)\n    {\n        // Redirect to custom upload page\n        Mage::app()->getFrontController()->getResponse()->setRedirect(\n            Mage::getUrl('specialcheckout/upload/form')\n        )->sendResponse();\n        exit;\n    }\n}

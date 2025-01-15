@@ -1,1 +1,0 @@
-SELECT m.name, p.position_name, t.team_name, mp.start_date, mp.end_date\nFROM member m\nJOIN member_to_positions mp ON m.member_id = mp.member_id\nJOIN positions p ON mp.position_id = p.position_id\nJOIN team t ON mp.team_id = t.team_id\nORDER BY mp.start_date;

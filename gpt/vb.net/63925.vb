@@ -1,1 +1,0 @@
-<%\n    Dim connString\n    connString = "Provider=SQLNCLI;Server=YourServerName;Database=YourDatabaseName;Uid=YourUserName;Pwd=YourPassword;"\n    %>

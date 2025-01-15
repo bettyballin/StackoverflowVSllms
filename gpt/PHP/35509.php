@@ -1,1 +1,0 @@
-// profile.php\nsession_start();\nif (!isset($_SESSION['loggedin'])) {\n    $_SESSION['redirect_after_login'] = $_SERVER['REQUEST_URI'];\n    header("Location: login.php");\n    exit();\n}

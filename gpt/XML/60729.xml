@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <pages>\n      <controls>\n        <add tagPrefix="custom" namespace="YourNamespace" assembly="YourAssemblyName" />\n      </controls>\n    </pages>\n    <httpHandlers>\n      <add verb="*" path="test.aspx" type="YourNamespace._Test, YourAssemblyName" />\n    </httpHandlers>\n  </system.web>\n</configuration>

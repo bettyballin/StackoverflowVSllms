@@ -1,1 +1,0 @@
-SELECT first_name, last_name\n   FROM employees\n   WHERE department = 'Sales';

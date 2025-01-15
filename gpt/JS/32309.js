@@ -1,1 +1,0 @@
-const assert = require('assert');\n\n   describe('Array', function() {\n     describe('#indexOf()', function() {\n       it('should return -1 when the value is not present', function() {\n         assert.strictEqual([1, 2, 3].indexOf(4), -1);\n       });\n     });\n   });

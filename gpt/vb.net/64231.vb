@@ -1,1 +1,0 @@
-' Inside Utility assembly\n    Public Module UtilityModule\n        ' Your methods and functions\n        Public Sub SampleMethod()\n            ' Method implementation\n        End Sub\n    End Module

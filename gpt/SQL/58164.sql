@@ -1,1 +1,0 @@
-GRANT SELECT, INSERT ON your_table TO your_user;

@@ -1,1 +1,0 @@
--- Example: Use CONTAINS to search for a specific term\n   SELECT * FROM MyTable WHERE CONTAINS(MyColumn, 'search term');\n\n   -- Example: Use FREETEXT to search for a more natural language query\n   SELECT * FROM MyTable WHERE FREETEXT(MyColumn, 'natural language search');

@@ -1,1 +1,0 @@
-function sleep(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\n\nasync function execute() {\n    var chkResult = Validation();\n    // Sleep for 10 seconds\n    await sleep(10000);\n    document.getElementById('abc').innerHTML = chkResult;\n}\n\nexecute();

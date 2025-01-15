@@ -1,1 +1,0 @@
-ALTER SCHEMA dbo TRANSFER jonathan.MovieData;

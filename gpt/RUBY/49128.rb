@@ -1,1 +1,0 @@
-class Blog::Post < ActiveRecord::Base\n     self.table_name = 'blog_posts'\n   end

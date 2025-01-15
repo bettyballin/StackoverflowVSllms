@@ -1,1 +1,0 @@
-<?php\n$xml = new SimpleXMLElement('<root/>');\n$xml->addChild('tag', htmlspecialchars($value, ENT_XML1, 'UTF-8'));\n\necho $xml->asXML();\n?>

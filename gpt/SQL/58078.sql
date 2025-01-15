@@ -1,1 +1,0 @@
--- Example of selecting data from the new table\nSELECT ID, IntValue, StringValue, DateTimeValue\nFROM YourNewTable;

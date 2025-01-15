@@ -1,1 +1,0 @@
-CREATE TABLE Example (\n       ID int IDENTITY(1,1) PRIMARY KEY,\n       Name nvarchar(255)\n   );

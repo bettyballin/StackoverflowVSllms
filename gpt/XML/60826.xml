@@ -1,1 +1,0 @@
-<system.applicationHost>\n      <applicationPools>\n          <add name="YourAppPoolName">\n              <recycling>\n                  <periodicRestart>\n                      <time>24:00:00</time> <!-- Recycle every 24 hours -->\n                  </periodicRestart>\n              </recycling>\n          </add>\n      </applicationPools>\n  </system.applicationHost>

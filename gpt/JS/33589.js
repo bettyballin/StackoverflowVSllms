@@ -1,1 +1,0 @@
-$('#Label1').html('new text');

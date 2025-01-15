@@ -1,1 +1,0 @@
-class Post < ActiveRecord::Base\n  validates_presence_of :subject, :body\n  has_many :comments\n  belongs_to :user \nend

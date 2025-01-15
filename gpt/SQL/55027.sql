@@ -1,1 +1,0 @@
--- Example script to backup the database excluding full-text catalog\nBACKUP DATABASE [YourDatabaseName]\nFILEGROUP = 'PRIMARY' \nTO DISK = 'C:\Backup\YourDatabaseName_WithoutFullText.bak';

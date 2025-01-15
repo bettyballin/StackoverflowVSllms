@@ -1,1 +1,0 @@
-// Example AJAX request using Fetch API\n   fetch('your_php_file.php')\n       .then(response => response.text())\n       .then(data => {\n           document.getElementById('result').innerHTML = data;\n       });

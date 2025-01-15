@@ -1,1 +1,0 @@
--- In SSMS, run your query with the "Include Actual Execution Plan" option enabled\n   -- Use the execution plan to identify slow operations (e.g., table scans, missing indexes)\n   SELECT * FROM YourTable WHERE YourCondition;

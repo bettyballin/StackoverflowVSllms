@@ -1,1 +1,0 @@
-$.post("ajax.php", {}, function(data) {\n    // Ensure the response is in JSON format\n    if (typeof data === 'string') {\n        data = JSON.parse(data);\n    }\n    \n    // Navigate the arrays\n    $.each(data.ids, function(i) {\n        alert(data.names[i]);\n    });\n}, "json");

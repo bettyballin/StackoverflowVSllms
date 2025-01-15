@@ -1,1 +1,0 @@
-var ndomain = document.domain;\nvar mydomain = 'www.foo.com';\nvar alink = document.getElementsByTagName('a');\n\nfor (var i = 0; i < alink.length; i++) {\n    if (alink[i].href.length > 0) {\n        var url = new URL(alink[i].href);\n        if (url.host === mydomain) {\n            url.hostname = ndomain;\n            alink[i].href = url.href;\n        }\n    }\n}

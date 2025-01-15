@@ -1,1 +1,0 @@
-SELECT CURRENT_TIMESTAMP FROM information_schema.system_users;

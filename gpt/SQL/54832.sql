@@ -1,1 +1,0 @@
-SELECT ac.Item1Id, ac.Item2Id\nFROM AllCombinations ac\nLEFT JOIN Ratings r\nON (ac.Item1Id = r.BetterObjectId AND ac.Item2Id = r.WorseObjectId AND r.UserId = @userId)\nOR (ac.Item1Id = r.WorseObjectId AND ac.Item2Id = r.BetterObjectId AND r.UserId = @userId)\nWHERE r.UserId IS NULL\nORDER BY NEWID(); -- Random order

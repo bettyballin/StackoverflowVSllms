@@ -1,1 +1,0 @@
--- Create the Organization table\nCREATE TABLE Organization (\n    OrganizationId INT PRIMARY KEY,\n    Name VARCHAR(255) NOT NULL\n);\n\n-- Example of a client-specific table\nCREATE TABLE ClientData (\n    ClientDataId INT PRIMARY KEY,\n    OrganizationId INT,\n    SomeData VARCHAR(255),\n    FOREIGN KEY (OrganizationId) REFERENCES Organization(OrganizationId)\n);

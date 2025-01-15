@@ -1,1 +1,0 @@
-records = [{"key1": "AAA", "key2": "BBB", "key3": "CCC", "key4": "AAA"}]\n\n# Iterate through each dictionary in the list\nfor record in records:\n    # Iterate through each key-value pair in the dictionary\n    for key, value in record.items():\n        # Replace value if it matches "AAA"\n        if value == "AAA":\n            record[key] = "XXX"\n\nprint(records)

@@ -1,1 +1,0 @@
-SELECT ItemID\nFROM ItemCategory\nWHERE CategoryID IN (01, 02)\nGROUP BY ItemID\nHAVING COUNT(DISTINCT CategoryID) = 2\nAND ItemID NOT IN (\n    SELECT ItemID\n    FROM ItemCategory\n    WHERE CategoryID = 12\n);

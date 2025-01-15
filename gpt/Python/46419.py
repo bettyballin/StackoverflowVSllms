@@ -1,1 +1,0 @@
-import shutil\n\n# Specify the source and destination file paths\nsource_file = 'path/to/source/file.txt'\ndestination_file = 'path/to/destination/file.txt'\n\n# Copy the file\nshutil.copyfile(source_file, destination_file)

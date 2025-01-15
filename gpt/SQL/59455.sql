@@ -1,1 +1,0 @@
-ALTER SESSION SET sql_trace = TRUE;\n   -- Execute your query here\n   ALTER SESSION SET sql_trace = FALSE;

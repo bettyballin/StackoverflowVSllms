@@ -1,1 +1,0 @@
-CREATE PROCEDURE usp_InsertProfilePicture\n    @UserId INT,\n    @Image VARBINARY(MAX)\nAS\nBEGIN\n    INSERT INTO UserProfilePictures (UserId, ProfilePicture)\n    VALUES (@UserId, @Image)\nEND

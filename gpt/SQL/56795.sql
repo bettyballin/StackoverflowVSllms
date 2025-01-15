@@ -1,1 +1,0 @@
--- Query using UNPIVOT\nSELECT Header, Value\nFROM \n(\n    SELECT FieldA, FieldB\n    FROM SampleTable\n) p\nUNPIVOT\n(\n    Value FOR Header IN (FieldA, FieldB)\n) AS unpvt;

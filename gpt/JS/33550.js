@@ -1,1 +1,0 @@
-function clickHandler() {\n    // Set the value of the hidden field if needed\n    document.getElementById('<%= hiddenField.ClientID %>').value = 'valueToPass';\n\n    // Trigger the click event on the LinkButton\n    __doPostBack('<%= lnkDelete.UniqueID %>', '');\n}

@@ -1,1 +1,0 @@
-Partial Class test\n    Inherits myPage\n\n    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load\n        ' Any additional code for Page_Load\n    End Sub\nEnd Class

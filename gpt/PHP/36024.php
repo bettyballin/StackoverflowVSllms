@@ -1,1 +1,0 @@
-foreach ($results as $result) {\n    $events = json_decode($result, true);\n    // Process each event\n}

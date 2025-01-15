@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <sessionState cookieless="UseCookies" timeout="20" />\n    <httpCookies requireSSL="true" />\n  </system.web>\n</configuration>

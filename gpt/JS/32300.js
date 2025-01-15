@@ -1,1 +1,0 @@
-$('#searchButton').click(function(event) {\n    event.preventDefault(); // Prevent the default form submission\n    $('#inquiry').load('/search.php?pid=' + $('#searchValue').val());\n});

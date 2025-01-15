@@ -1,1 +1,0 @@
-$formatted = sprintf("Price: %.2f", 3.14159);\n    // Output: Price: 3.14

@@ -1,1 +1,0 @@
-UPDATE your_table\nSET column_name = new_value\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM your_table\n    WHERE column_name = new_value\n);

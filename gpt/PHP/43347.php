@@ -1,1 +1,0 @@
-// Using define()\ndefine('DB_HOST', 'localhost');\ndefine('DB_USER', 'root');\ndefine('DB_PASS', 'password');\n\n// Using variables\n$dbHost = 'localhost';\n$dbUser = 'root';\n$dbPass = 'password';\n\n// Constants are immutable\n// DB_HOST = '127.0.0.1'; // This will cause an error\n\n// Variables are mutable\n$dbHost = '127.0.0.1'; // This is allowed

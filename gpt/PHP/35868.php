@@ -1,1 +1,0 @@
-<?php\n// Accept the string from the form input\n$a = 'professor';\n\n// Break the string into an array of characters\n$b = str_split($a);\n\n// Print the result to verify\nprint_r($b);\n?>

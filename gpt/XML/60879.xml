@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <modules>\n      <add name="SessionEventsModule" type="YourNamespace.SessionEventsModule, YourAssemblyName"/>\n    </modules>\n  </system.webServer>\n</configuration>

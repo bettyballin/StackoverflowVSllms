@@ -1,1 +1,0 @@
-# app/controllers/admin/blog/entries_controller.rb\nmodule Admin\n  module Blog\n    class EntriesController < ApplicationController\n      def index\n        @blog_entries = ::Blog::Entry.all\n      end\n    end\n  end\nend

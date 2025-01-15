@@ -1,1 +1,0 @@
-<%= form_with(url: some_path, data: { turbo: true }) do |form| %>\n     <%= form.text_field :name %>\n     <%= form.submit %>\n   <% end %>

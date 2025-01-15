@@ -1,1 +1,0 @@
-import re\n\nhtml_content = '''\n<!-- <editable name="news_item"> Today's news is ... </editable> -->\n'''\n\npattern = r'<!--\s*<editable name="([^"]+)">\s*(.*?)\s*</editable>\s*-->'\nmatches = re.findall(pattern, html_content, re.DOTALL)\n\nfor match in matches:\n    name = match[0]\n    content = match[1]\n    print(f"Name: {name}")\n    print(f"Content: {content}")

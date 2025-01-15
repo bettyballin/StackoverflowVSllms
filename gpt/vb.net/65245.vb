@@ -1,1 +1,0 @@
-<AttributeUsage(AttributeTargets.Property)>\nPublic Class BindEventAttribute\n    Inherits Attribute\n\n    Public ReadOnly Property EventName As String\n\n    Public Sub New(ByVal eventName As String)\n        Me.EventName = eventName\n    End Sub\nEnd Class

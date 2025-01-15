@@ -1,1 +1,0 @@
-php -r "copy('https://pear.php.net/go-pear.phar', 'go-pear.phar');"

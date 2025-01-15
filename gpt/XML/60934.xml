@@ -1,1 +1,0 @@
-<!-- Add Keycloak dependencies in your pom.xml -->\n<dependency>\n    <groupId>org.keycloak</groupId>\n    <artifactId>keycloak-spring-boot-starter</artifactId>\n    <version>15.0.2</version>\n</dependency>

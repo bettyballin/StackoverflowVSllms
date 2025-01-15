@@ -1,1 +1,0 @@
-$ret = preg_replace('/(^|[^\w])@([\d\w\-]+)/', '\\1<a href="http://twitter.com/$2">$2</a>', $ret);

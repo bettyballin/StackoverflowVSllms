@@ -1,1 +1,0 @@
-<?php\nini_set('display_errors', 1);\nerror_reporting(E_ALL);\n\n$dbConfig = [\n    'host' => 'localhost',\n    'username' => 'dev_user',\n    'password' => 'dev_pass',\n    'dbname' => 'dev_db'\n];

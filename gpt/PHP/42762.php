@@ -1,1 +1,0 @@
-class User extends ADOdb_Active_Record {\n    public $_table = 'users';\n}\n\n// Usage\n$user = new User();\n$user->Load("id=1");\necho $user->username;

@@ -1,1 +1,0 @@
-DELETE FROM Employees\nUSING EmployeesToDelete\nWHERE Employees.id = EmployeesToDelete.employee_id;

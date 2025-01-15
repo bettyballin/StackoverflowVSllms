@@ -1,1 +1,0 @@
-echo Constants::EH_MAILER;

@@ -1,1 +1,0 @@
-CONNECT SYS/password AS SYSDBA;

@@ -1,1 +1,0 @@
-If OldCheckedItems IsNot CurCheckedItems Then\n    ' They are not the same instance\nElse\n    ' They are the same instance\nEnd If

@@ -1,1 +1,0 @@
-function roundToNearestPointTwo($number) {\n    return round($number * 5) / 5;\n}\n\n// Example usage\n$rating = 1.23;\n$roundedRating = roundToNearestPointTwo($rating);\necho $roundedRating; // Output: 1.2

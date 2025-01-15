@@ -1,1 +1,0 @@
-// Example of retrieving contacts for a user\n$user = $this->Users->get($userId, [\n    'contain' => ['Contacts']\n]);\n$contacts = $user->contacts;

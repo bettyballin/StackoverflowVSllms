@@ -1,1 +1,0 @@
-<?php\n$my_query = new WP_Query(array(\n    'category_name' => 'posts',\n    'posts_per_page' => 1\n));\nif ($my_query->have_posts()) :\n    while ($my_query->have_posts()) : $my_query->the_post(); ?>\n        <?php echo esc_html(get_post_meta(get_the_ID(), 'qanda', true)); ?>\n    <?php endwhile;\n    wp_reset_postdata(); // Reset post data\nendif;\n?>

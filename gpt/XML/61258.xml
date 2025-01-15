@@ -1,1 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">\n\n  <PropertyGroup>\n    <OutputType>Exe</OutputType>\n    <TargetFramework>net5.0</TargetFramework>\n  </PropertyGroup>\n\n  <ItemGroup>\n    <Import Include="System.Collections" />\n    <Import Include="System.Linq" />\n  </ItemGroup>\n\n</Project>

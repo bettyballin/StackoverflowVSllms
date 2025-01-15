@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>javax.servlet</groupId>\n    <artifactId>jstl</artifactId>\n    <version>1.2</version>\n</dependency>

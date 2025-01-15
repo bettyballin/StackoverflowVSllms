@@ -1,1 +1,0 @@
-Array\n(\n    [0] => Array\n        (\n            [id] => 1\n            [name] => John00\n            [value] => 0.9\n        )\n\n    [1] => Array\n        (\n            [id] => 2\n            [name] => Ann01\n            [value] => 0.011\n        )\n\n    [2] => Array\n        (\n            [id] => 3\n            [name] => Ann\n            [value] => 0.1\n        )\n\n)

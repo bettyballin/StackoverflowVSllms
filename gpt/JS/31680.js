@@ -1,1 +1,0 @@
-document.write('This is a test for array item one');\ndocument.write('This is a test for array item two');

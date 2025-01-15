@@ -1,1 +1,0 @@
-<?php foreach ($users as $user): ?>\n   <tr>\n       <td><?= htmlspecialchars($user['Username']) ?></td>\n       <!-- Other columns here -->\n   </tr>\n   <?php endforeach; ?>

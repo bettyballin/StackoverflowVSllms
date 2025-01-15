@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>com.googlecode.owasp-java-html-sanitizer</groupId>\n    <artifactId>owasp-java-html-sanitizer</artifactId>\n    <version>20211018.1</version>\n</dependency>

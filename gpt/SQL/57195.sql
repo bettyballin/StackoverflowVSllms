@@ -1,1 +1,0 @@
-SELECT name, description \n  FROM table2 \n  WHERE id IN (5, 3, 8, 1)\n  ORDER BY array_position(ARRAY[5, 3, 8, 1], id);

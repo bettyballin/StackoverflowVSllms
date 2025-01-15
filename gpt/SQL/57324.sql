@@ -1,1 +1,0 @@
--- On the standby server (EC2)\n   RESTORE DATABASE YourDatabase \n   FROM DISK = 'D:\Backup\YourDatabase.bak' \n   WITH NORECOVERY;\n   \n   RESTORE LOG YourDatabase \n   FROM DISK = 'D:\Backup\YourDatabase_Log.trn' \n   WITH NORECOVERY;

@@ -1,1 +1,0 @@
-<script type="text/javascript">\n       var user = "email";\n       var domain = "example.com";\n       document.write('<a href="mailto:' + user + '@' + domain + '">email me</a>');\n   </script>

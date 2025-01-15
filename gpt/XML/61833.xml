@@ -1,1 +1,0 @@
-<configuration>\n     <system.webServer>\n       <rewrite>\n         <rules>\n           <rule name="Rewrite to article.aspx">\n             <match url="^article/([0-9]+)/([_0-9a-z-]+)$" />\n             <action type="Rewrite" url="article.aspx?id={R:1}&title={R:2}" />\n           </rule>\n         </rules>\n       </rewrite>\n     </system.webServer>\n   </configuration>

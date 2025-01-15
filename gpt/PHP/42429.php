@@ -1,1 +1,0 @@
-<?php\nfunction isRequestFromSameServer() {\n    return $_SERVER['REMOTE_ADDR'] === $_SERVER['SERVER_ADDR'];\n}\n\nif (isRequestFromSameServer()) {\n    echo "The request originates from the same hosting server.";\n} else {\n    echo "The request does not originate from the same hosting server.";\n}\n?>

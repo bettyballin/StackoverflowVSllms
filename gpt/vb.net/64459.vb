@@ -1,1 +1,0 @@
-Imports NUnit.Framework\n\n   <TestFixture>\n   Public Class MyTests\n\n       <Test>\n       Public Sub Test_Addition()\n           Dim result As Integer = Add(2, 3)\n           Assert.AreEqual(5, result)\n       End Sub\n\n       Private Function Add(a As Integer, b As Integer) As Integer\n           Return a + b\n       End Function\n\n   End Class

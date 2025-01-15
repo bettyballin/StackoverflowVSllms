@@ -1,1 +1,0 @@
-SELECT * FROM your_table WHERE column_name REGEXP '^[0-9]';

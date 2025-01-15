@@ -1,1 +1,0 @@
-CREATE TABLE replay_rounds (\n    replay_id INT UNSIGNED NOT NULL,\n    round SMALLINT UNSIGNED NOT NULL,\n    winner_type ENUM('player', 'team') NOT NULL,\n    winner_id INT UNSIGNED NOT NULL,\n    FOREIGN KEY (replay_id) REFERENCES replays(id),\n    PRIMARY KEY (replay_id, round)\n) CHARACTER SET=utf8\nCOLLATE=utf8_general_ci\nENGINE=InnoDB;

@@ -1,1 +1,0 @@
-public $actsAs = array('Containable');

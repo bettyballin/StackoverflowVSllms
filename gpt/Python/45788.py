@@ -1,1 +1,0 @@
-import numpy as np\n\narray = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])\nprint(array[..., 1])  # This will print [[2, 4], [6, 8]]

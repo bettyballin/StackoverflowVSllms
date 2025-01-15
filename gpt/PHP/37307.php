@@ -1,1 +1,0 @@
-<?php\n   // Assuming you are using the Persons model for authentication\n   $personData = $this->request->getSession()->read('Auth.Person');\n   echo "Welcome " . h($personData['username']);\n?>

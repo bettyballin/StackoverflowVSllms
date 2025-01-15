@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetNextUniqueID\nAS\nBEGIN\n    DECLARE @NewID INT;\n    \n    -- Insert a new row into the UniqueIDGenerator table to generate the new ID\n    INSERT INTO UniqueIDGenerator DEFAULT VALUES;\n    \n    -- Retrieve the newly generated ID\n    SELECT @NewID = SCOPE_IDENTITY();\n    \n    -- Return the new ID\n    SELECT @NewID AS NewID;\nEND;

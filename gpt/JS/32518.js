@@ -1,1 +1,0 @@
-Java.perform(function() {\n       var TargetClass = Java.use("com.example.targetclass");\n       TargetClass.targetMethod.implementation = function(arg1) {\n           console.log("Original argument: " + arg1);\n           var result = this.targetMethod(arg1);\n           console.log("Result: " + result);\n           return result;\n       };\n   });

@@ -1,1 +1,0 @@
-import os\n\nBASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')

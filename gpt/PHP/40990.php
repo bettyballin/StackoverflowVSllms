@@ -1,1 +1,0 @@
-<?php\nclass Foo {\n    public $name = 'Andrew';\n\n    public function getName() {\n        echo $this->name;\n    }\n}\n\nclass Bar extends Foo {\n    public $name = 'John';\n\n    public function getName() {\n        Foo::getName();\n    }\n}\n\n$a = new Bar;\n$a->getName();\n?>

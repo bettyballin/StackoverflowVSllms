@@ -1,1 +1,0 @@
-SELECT DISTINCT ON (key) uid, key, email\nFROM your_table\nWHERE email IN (\n    SELECT email\n    FROM your_table\n    GROUP BY email\n    HAVING COUNT(DISTINCT key) > 1\n)\nORDER BY key, uid;

@@ -1,1 +1,0 @@
-# main.py\nimport webapp2\nfrom handlers.handler import MainHandler\n\napp = webapp2.WSGIApplication([\n    ('/', MainHandler),\n], debug=True)

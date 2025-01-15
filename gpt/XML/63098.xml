@@ -1,1 +1,0 @@
-<class name="AQTool.BL.EmailAddress,AQTool.BL" table="EMAIL_CUSTOMER_ADDRESSES">\n    <id name="EmailAddressId" column="EMAIL_ADDRESS_ID" type="int">\n        <generator class="native" />\n    </id>\n    <property name="CustomerAccountId" column="CUSTOMER_ACCOUNT_ID" type="string" fetch="select" />\n    ...\n</class>

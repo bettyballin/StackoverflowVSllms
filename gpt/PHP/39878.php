@@ -1,1 +1,0 @@
-// inc.php\n   <?php\n   session_start();\n   // Your other includes and database connection code\n   ?>

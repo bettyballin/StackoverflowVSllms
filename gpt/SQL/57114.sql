@@ -1,1 +1,0 @@
-DECLARE\n      l_sql VARCHAR2(200);\n      l_table_name VARCHAR2(30) := 'employees';\n   BEGIN\n      l_sql := 'SELECT * FROM ' || l_table_name;\n      EXECUTE IMMEDIATE l_sql;\n   END;

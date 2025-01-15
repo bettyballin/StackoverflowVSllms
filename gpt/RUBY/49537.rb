@@ -1,1 +1,0 @@
-class Comment < ActiveRecord::Base\n  # This is correct\n  before_save :some_method\n\n  private\n\n  def some_method\n    # logic here\n  end\n\n  # This is incorrect\n  before_save :some_method_with_param\n\n  private\n\n  def some_method_with_param(param)\n    # logic here\n  end\nend

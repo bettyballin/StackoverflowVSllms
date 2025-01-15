@@ -1,1 +1,0 @@
-// Example of posting a comment and triggering an action\n    POST /books/23/comments\n    {\n        "comment": "Great book!",\n        "authorEmail": "author@example.com"\n    }\n\n    // Server-side logic\n    if (commentPosted) {\n        sendEmailToAuthor("a comment about your book review was posted on our site...");\n    }

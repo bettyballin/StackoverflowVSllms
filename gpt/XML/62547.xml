@@ -1,1 +1,0 @@
-<rule name="ReverseProxyInboundRule1" stopProcessing="true">\n     <match url="^friendly-url(.*)" />\n     <action type="Rewrite" url="http://our-tomcat-server/ugly-url{R:1}" />\n   </rule>

@@ -1,1 +1,0 @@
-SELECT a.*\nFROM table1 a\nJOIN table2 b ON a.int_column = b.int_column;

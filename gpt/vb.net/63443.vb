@@ -1,1 +1,0 @@
-Try\n        ' Your code that may throw an exception\n    Catch ex As Exception\n        Dim currentException As Exception = ex\n        While currentException IsNot Nothing\n            System.Diagnostics.Debug.WriteLine(currentException.ToString())\n            currentException = currentException.InnerException\n        End While\n    End Try

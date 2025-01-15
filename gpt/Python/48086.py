@@ -1,1 +1,0 @@
-#!/usr/bin/env python\n\nimport sys\n\nprint("Content-Type: text/html\n")\nprint("<html><head>")\nprint("<title>Python CGI Test</title>")\nprint("</head><body>")\nprint("<h2>Hello from Python CGI!</h2>")\nprint("</body></html>")

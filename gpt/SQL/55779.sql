@@ -1,1 +1,0 @@
-SELECT table1.id, table2.id,*  \nFROM table1, table2  \nWHERE table1.id = table2.id

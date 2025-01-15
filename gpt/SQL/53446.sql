@@ -1,1 +1,0 @@
-START TRANSACTION;\n\nSET FOREIGN_KEY_CHECKS = 0;\n\n-- Your data import statements here\n-- For example:\n-- INSERT INTO target_table (column1, column2) SELECT column1, column2 FROM source_table;\n\nSET FOREIGN_KEY_CHECKS = 1;\n\nCOMMIT;

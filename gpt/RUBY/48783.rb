@@ -1,1 +1,0 @@
-<span id="move_user_<%= user.id %>_<%= node.id.to_s %>" class="move_user">\n  <%= image_tag('move_user.png') %>\n</span>\n<%= draggable_element "move_user_" + user.id.to_s + "_" + node.id.to_s, :revert => true %>

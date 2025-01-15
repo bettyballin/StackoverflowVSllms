@@ -1,1 +1,0 @@
-#!/usr/bin/env python3\nfrom ev3dev.ev3 import *\n\n# Connect motors and sensors\nmotor_left = LargeMotor('outB')\nmotor_right = LargeMotor('outC')\n\n# Move forward\nmotor_left.run_forever(speed_sp=500)\nmotor_right.run_forever(speed_sp=500)\n\n# Wait for 2 seconds\ntime.sleep(2)\n\n# Stop motors\nmotor_left.stop(stop_action="brake")\nmotor_right.stop(stop_action="brake")

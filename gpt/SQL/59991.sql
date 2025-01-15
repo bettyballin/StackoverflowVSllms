@@ -1,1 +1,0 @@
-CREATE DATABASE your_database_name \n    ON (FILENAME = 'new_path_to_mdf_file.mdf'), \n       (FILENAME = 'new_path_to_ldf_file.ldf') \n    FOR ATTACH;

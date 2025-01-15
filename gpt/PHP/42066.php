@@ -1,1 +1,0 @@
-$input = "this is a normal url?"; // Example input\n$encodedInput = rawurlencode($input); // Encode the input\n\n$url = "http://website.com/?q=" . $encodedInput;\necho $url; // Output: http://website.com/?q=this%20is%20a%20normal%20url%3F

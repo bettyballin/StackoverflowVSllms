@@ -1,1 +1,0 @@
-import os\nimport glob\n\ndef delete_images(directory, extension="*.gif"):\n    images = glob.glob(os.path.join(directory, extension))\n    for image in images:\n        try:\n            os.remove(image)\n            print(f"Deleted: {image}")\n        except OSError as e:\n            print(f"Error deleting {image}: {e}")\n\n# Example usage\ndelete_images("/path/to/directory")

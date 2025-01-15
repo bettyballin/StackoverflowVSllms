@@ -1,1 +1,0 @@
-<?php\n$file = fopen('CSV Address.csv', 'r');\n\n$csvArray = array();\nwhile (($data = fgetcsv($file)) !== FALSE) {\n    $csvArray[] = array(\n        'name' => $data[0],\n        'address' => $data[1],\n        'status' => $data[2]\n    );\n}\n\nfclose($file);\n\n// Print the array for debugging purposes\nprint_r($csvArray);\n?>

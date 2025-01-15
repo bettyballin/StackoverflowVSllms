@@ -1,1 +1,0 @@
-select \n    Count(Page) as VisitingCount, \n    CONVERT(VARCHAR(5), Date, 108) as [Time]\nfrom \n    scr_SecuristLog   \nwhere \n    Date between '2009-05-04 00:00:00' and '2009-05-06 14:58'  \n    and [user] in (select USERNAME from scr_CustomerAuthorities)  \ngroup by \n    CONVERT(VARCHAR(5), Date, 108) \norder by \n    [VisitingCount] asc;

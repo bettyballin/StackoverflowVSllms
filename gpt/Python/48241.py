@@ -1,1 +1,0 @@
-# Example of switching libraries\n   # Old library\n   import oldlibrary as lib\n   \n   # New library\n   import newlibrary as lib

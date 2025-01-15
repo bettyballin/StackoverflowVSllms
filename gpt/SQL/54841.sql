@@ -1,1 +1,0 @@
-CREATE TABLE Orders (\n    OrderID INT PRIMARY KEY,\n    CustomerID INT,\n    OrderDate DATE,\n    TotalAmount DECIMAL(10, 2)\n);

@@ -1,1 +1,0 @@
-# In a Rails controller\nsend_data(html_content, type: 'application/vnd.ms-excel', filename: 'utf8_data.xls')

@@ -1,1 +1,0 @@
-verts = [0] * 1000  # Initializes a list with 1000 elements, all set to 0

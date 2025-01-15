@@ -1,1 +1,0 @@
-SELECT * \nFROM Comments\nORDER BY [YourColumn] -- Replace [YourColumn] with the column you want to order by\nOFFSET 7 ROWS\nFETCH NEXT 1 ROW ONLY;

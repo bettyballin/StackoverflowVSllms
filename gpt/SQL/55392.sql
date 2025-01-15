@@ -1,1 +1,0 @@
-select count(*) from dual\nwhere exists (\n  select * from people\n  where (<condition A>)\n  and not (\n    (NVL(age, -99999) = 21) -- Example for a numeric column\n    -- Add more conditions as needed\n  )\n);

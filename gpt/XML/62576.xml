@@ -1,1 +1,0 @@
-<configuration>\n      <system.web>\n        <authentication mode="Forms">\n          <forms timeout="60" />\n        </authentication>\n      </system.web>\n    </configuration>

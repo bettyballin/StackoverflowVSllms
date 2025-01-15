@@ -1,1 +1,0 @@
-SELECT \n    C.ID,\n    C.Name,\n    C.Address,\n    Roles = STUFF(\n        (SELECT ', ' + R.Name\n         FROM ContactRole CR\n         INNER JOIN Role R ON CR.RoleID = R.ID\n         WHERE CR.ContactID = C.ID\n         FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), 1, 2, '')\nFROM\n    Contact C

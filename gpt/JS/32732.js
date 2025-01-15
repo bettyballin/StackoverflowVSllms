@@ -1,1 +1,0 @@
-fetch('http://localhost:7076/?word=foo')\n  .then(response => response.json())\n  .then(data => console.log(data))\n  .catch(error => console.error('Error:', error));

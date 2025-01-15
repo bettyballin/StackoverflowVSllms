@@ -1,1 +1,0 @@
-require_once 'path/to/htmlpurifier/library/HTMLPurifier.auto.php';\n\n   $config = HTMLPurifier_Config::createDefault();\n   $config->set('Core.Encoding', 'UTF-8');\n   $config->set('HTML.Doctype', 'HTML 4.01 Transitional');\n\n   $purifier = new HTMLPurifier($config);\n   $clean_html = $purifier->purify($user_input_html);

@@ -1,1 +1,0 @@
-Dim TestString As String = "Hello," & Chr(0) & "World"\nMsgBox(TestString.Replace(Chr(0), "[NUL]"), , "TestString.Length=" & TestString.Length.ToString)

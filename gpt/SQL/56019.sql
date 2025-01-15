@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_UpdateRowNumbers\nON MyTable\nFOR DELETE\nAS\nBEGIN\n    DECLARE @RowNum INT\n    SET @RowNum = 1\n\n    UPDATE MyTable\n    SET RowNumber = @RowNum,\n        @RowNum = @RowNum + 1\n    FROM MyTable\n    ORDER BY ID\nEND;

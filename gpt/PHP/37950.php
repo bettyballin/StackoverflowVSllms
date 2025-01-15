@@ -1,1 +1,0 @@
-<?php\n   header('Content-type: text/javascript');\n   ?>\n   var userId = <?php echo json_encode($userId); ?>;\n   function handleLoad() {\n       alert('User ID: ' + userId);\n   }

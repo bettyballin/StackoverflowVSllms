@@ -1,1 +1,0 @@
-session_start();\n   $_SESSION['key'] = 'value'; // Store value in session\n   $value = $_SESSION['key']; // Retrieve value from sessio

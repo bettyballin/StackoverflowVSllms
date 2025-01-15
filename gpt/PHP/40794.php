@@ -1,1 +1,0 @@
-$a = array('table' => 'myTable');  // Recommended\n$table = $a['table'];  // Recommended

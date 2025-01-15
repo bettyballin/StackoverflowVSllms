@@ -1,1 +1,0 @@
-BULK INSERT YourTableName\nFROM 'C:\Path\To\Your\File.txt'\nWITH\n(\n    FIELDTERMINATOR = ',',\n    ROWTERMINATOR = '\n',\n    FIRSTROW = 2\n);

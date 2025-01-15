@@ -1,1 +1,0 @@
-SELECT \n    name, \n    value_type, \n    CASE \n        WHEN value_type = 'string' THEN str_value \n        WHEN value_type = 'integer' THEN CAST(int_value AS CHAR) \n        WHEN value_type = 'decimal' THEN CAST(dec_value AS CHAR) \n    END AS value \nFROM attributes;

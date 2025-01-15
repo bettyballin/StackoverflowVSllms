@@ -1,1 +1,0 @@
-$.ajax({\n     url: '/proxy',\n     method: 'GET',\n     success: function(data) {\n       $('#results').html(data);\n     },\n     error: function(err) {\n       console.error('Error:', err);\n     }\n   });

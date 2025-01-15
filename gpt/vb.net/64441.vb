@@ -1,1 +1,0 @@
-' Before refactoring\nDim oldVariableName As Integer = 10\n\n' After refactoring using ReSharper\nDim newVariableName As Integer = 10

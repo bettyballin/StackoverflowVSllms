@@ -1,1 +1,0 @@
-SELECT EmpID\nFROM your_table\nWHERE DeptID IN (1, 2, 3)\nGROUP BY EmpID\nHAVING COUNT(DISTINCT DeptID) = 3;

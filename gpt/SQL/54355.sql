@@ -1,1 +1,0 @@
--- On Principal Server (Data1)\n   ALTER DATABASE MyDatabase\n   SET PARTNER = 'TCP://data2.somedomain.com:5022';\n\n   ALTER DATABASE MyDatabase\n   SET WITNESS = 'TCP://datawitness.somedomain.com:7024';

@@ -1,1 +1,0 @@
-def a(b, c):\n    return b + c\n\nresult = a(*[4, 5])\nprint(result)  # Output: 9

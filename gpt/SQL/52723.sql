@@ -1,1 +1,0 @@
-SELECT\n    a.num,\n    fixed_number = RIGHT(REPLICATE(' ', 12) + CONVERT(VARCHAR(20), a.num), 12)\nFROM\n    (\n    -- Test Data\n    SELECT num = 2400.00 UNION ALL\n    SELECT num = 385.00 UNION ALL\n    SELECT num = 123454.34\n    ) a

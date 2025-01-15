@@ -1,1 +1,0 @@
-var selectElement = document.getElementById('test');\nvar selectedOptionText = selectElement.options[selectElement.selectedIndex].text;\nconsole.log(selectedOptionText);

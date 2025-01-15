@@ -1,1 +1,0 @@
-<%= image_tag "photo.jpg", cache: true %>

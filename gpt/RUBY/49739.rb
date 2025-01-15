@@ -1,1 +1,0 @@
-# spec/rails_helper.rb\n\nENV['RAILS_ENV'] ||= 'test'\nrequire File.expand_path('../../config/environment', __FILE__)\nrequire 'rspec/rails'\n\nRSpec.configure do |config|\n  # RSpec configuration options\nend

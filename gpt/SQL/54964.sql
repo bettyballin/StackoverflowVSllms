@@ -1,1 +1,0 @@
-ALTER TABLE YourForeignKeyTable\nDROP CONSTRAINT FK_YourForeignKeyTable_YourTableName;\n\nALTER TABLE YourForeignKeyTable\nADD CONSTRAINT FK_YourForeignKeyTable_YourTableName\nFOREIGN KEY (ForeignKeyColumn)\nREFERENCES YourTableName(Id)\nON UPDATE CASCADE;

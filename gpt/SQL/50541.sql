@@ -1,1 +1,0 @@
-ALTER TABLE files ALTER COLUMN date_uploaded TYPE timestamp USING date_uploaded::timestamp;

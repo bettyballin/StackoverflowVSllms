@@ -1,1 +1,0 @@
-$regex = '/\{([a-z\-\s]+?)\}([^{}]*?)(?=\{|\z)/i';\n$content = '{word} definition {another word} another definition {word} they don\'t have to be on different lines';\necho preg_replace($regex, '<b style="background-color: red;">$1</b><b style="background-color: yellow;">$2</b>', $content);

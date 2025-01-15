@@ -1,1 +1,0 @@
-$foo = isset($foo) && is_array($foo) ? $foo : [];\n\nforeach($foo as $bar) {\n    $bar->doStuff();\n}

@@ -1,1 +1,0 @@
-function clearCache() {\n  const links = document.getElementsByTagName('link');\n  for (let i = 0; i < links.length; i++) {\n    if (links[i].rel === 'stylesheet') {\n      links[i].href = links[i].href.split('?')[0] + '?v=' + new Date().getTime();\n    }\n  }\n}\nwindow.onload = clearCache;

@@ -1,1 +1,0 @@
-BEGIN;\nSET LOCAL application_user TO 'your_app_user';\n-- perform your DELETE operation\nCOMMIT;

@@ -1,1 +1,0 @@
-<?php\necho strtotime("2:30pm"); // Will use the current date with the specified time\necho strtotime("next Monday"); // Will use the specified day next week with the default time of 00:00:00\necho strtotime("15 August 2023"); // Will use the specified date with the default time of 00:00:00\n?>

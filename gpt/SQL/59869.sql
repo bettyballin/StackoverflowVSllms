@@ -1,1 +1,0 @@
-SELECT * FROM invitations WHERE email = 'example@example.com' AND key1 = 'key1' AND key2 IS NULL AND key3 IS NULL;

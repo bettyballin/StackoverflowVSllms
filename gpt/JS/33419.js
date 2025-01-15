@@ -1,1 +1,0 @@
-// Fetch HTML snippet\nfetch('/users/bob/tags/footag/received?page=1')\n  .then(response => response.text())\n  .then(html => {\n    const receivedDiv = document.getElementById('received');\n    receivedDiv.innerHTML = DOMPurify.sanitize(html); // Use a library like DOMPurify\n  })\n  .catch(error => console.error('Error fetching data:', error));

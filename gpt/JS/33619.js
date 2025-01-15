@@ -1,1 +1,0 @@
-var foo = {"bar": "123"};\nfoo.bar = +foo.bar; // (int) 123

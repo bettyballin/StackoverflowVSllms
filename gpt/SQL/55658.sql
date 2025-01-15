@@ -1,1 +1,0 @@
-DECLARE @ActiveTable VARCHAR(50);\n     SELECT @ActiveTable = TableName FROM ActiveTable;\n\n     -- Your select query\n     EXEC('SELECT * FROM ' + @ActiveTable);

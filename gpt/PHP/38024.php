@@ -1,1 +1,0 @@
-<!-- In your template file -->\n   <?php $categories = $this->categoryList(); ?>\n   <ul>\n       <?php foreach ($categories as $category): ?>\n           <li><?php echo $category->name; ?></li>\n       <?php endforeach; ?>\n   </ul>

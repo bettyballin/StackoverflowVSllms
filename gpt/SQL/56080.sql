@@ -1,1 +1,0 @@
-SELECT rank\nFROM (\n    SELECT id, name, RANK() OVER (ORDER BY name ASC) AS rank\n    FROM people\n) ranked_people\nWHERE id = 1;

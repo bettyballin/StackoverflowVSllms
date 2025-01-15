@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.apache.cxf</groupId>\n    <artifactId>cxf-rt-rs-security-oauth2</artifactId>\n    <version>3.4.5</version>\n</dependency>\n<dependency>\n    <groupId>org.apache.cxf</groupId>\n    <artifactId>cxf-rt-ws-security</artifactId>\n    <version>3.4.5</version>\n</dependency>

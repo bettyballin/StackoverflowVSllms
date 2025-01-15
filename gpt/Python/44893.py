@@ -1,1 +1,0 @@
-import builtins\n\ndef custom_exit():\n    save_history()\n    builtins.exit()\n\nbuiltins.exit = custom_exit

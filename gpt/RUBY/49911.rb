@@ -1,1 +1,0 @@
-# In your Rails application\n      require 'php_serialize'\n      \n      session_id = cookies[:PHPSESSID]\n      session_data = ActiveRecord::Base.connection.execute("SELECT data FROM sessions WHERE id = '#{session_id}'").first\n      session_hash = PHP.unserialize(session_data['data'])

@@ -1,1 +1,0 @@
-import secrets\n\ndef generate_validation_key():\n    return secrets.token_urlsafe(16)  # Generates a 16-character URL-safe toke

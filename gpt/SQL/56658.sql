@@ -1,1 +1,0 @@
-CREATE TYPE number_table_type AS TABLE OF NUMBER;

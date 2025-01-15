@@ -1,1 +1,0 @@
-<?php\n    function someFunction() {\n        global $db_name, $db_user, $db_password;\n        \n        // Now you can use the configuration variables\n        echo "Database Name: " . $db_name;\n        // Do something with $db_user and $db_password\n    }\n    ?>

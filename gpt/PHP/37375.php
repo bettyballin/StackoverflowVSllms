@@ -1,1 +1,0 @@
-// index.php\nini_set('session.cookie_samesite', 'None');\nini_set('session.cookie_secure', '1');\nsession_start();\n$_SESSION['map_id'] = $_GET['map_id'];\n?>\n\n<iframe src="http://www.mydomain.com/Authenticate.php?map_id=<?php echo $_GET['map_id']; ?>"></iframe>

@@ -1,1 +1,0 @@
-DECLARE @startDateTime DATETIME\nDECLARE @endDateTime DATETIME\n\nSET @startDateTime = '2009-08-06 00:00:00'\nSET @endDateTime = '2009-10-06 23:59:59'\n\n-- Calculate the difference in hours\nSELECT DATEDIFF(HOUR, @startDateTime, @endDateTime) AS HoursDifference

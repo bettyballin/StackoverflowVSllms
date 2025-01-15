@@ -1,1 +1,0 @@
-SELECT \n    s.record_id,\n    s.sales_data,\n    STRING_AGG('Additional detail #' || d.detail_id || ' for record ' || s.record_id || ': ' || d.detail, '; ') AS additional_details\nFROM \n    sales_table s\nLEFT JOIN \n    additional_details_table d\nON \n    s.record_id = d.record_id\nGROUP BY \n    s.record_id, s.sales_data;

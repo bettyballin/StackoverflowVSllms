@@ -1,1 +1,0 @@
--- Example SQL query to check buffer cache hit ratio\nSELECT \n    object_name, \n    counter_name, \n    instance_name, \n    cntr_value\nFROM \n    sys.dm_os_performance_counters\nWHERE \n    counter_name = 'Buffer cache hit ratio';

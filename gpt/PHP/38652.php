@@ -1,1 +1,0 @@
-$indexedArray = array(1, 2, 3);\n    // or using the short syntax\n    $indexedArray = [1, 2, 3];

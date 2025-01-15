@@ -1,1 +1,0 @@
-SELECT *\nFROM Table1 t1\nINNER JOIN Table2 t2 ON t1.ID = t2.ID_Converted;

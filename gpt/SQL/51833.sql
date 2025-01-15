@@ -1,1 +1,0 @@
-SELECT *\nFROM YourTableName\nWHERE DATEDIFF(MINUTE, CreateTime, GETUTCDATE()) > (3 * 24 * 60 + 30);

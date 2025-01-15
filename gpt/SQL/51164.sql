@@ -1,1 +1,0 @@
--- Create a temporary table to store the sequence\nSELECT *, ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS seq\nINTO #TempTable\nFROM YourTable;\n\n-- Update the original table with the sequence\nUPDATE YT\nSET YT.c1 = TT.seq\nFROM YourTable AS YT\nINNER JOIN #TempTable AS TT\nON YT.PrimaryKeyColumn = TT.PrimaryKeyColumn;\n\n-- Drop the temporary table\nDROP TABLE #TempTable;

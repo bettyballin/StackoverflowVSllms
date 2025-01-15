@@ -1,1 +1,0 @@
-import pandas as pd\n\n   excel_file = 'path_to_your_excel_file.xlsx'\n   sheet_name = 'Sheet1'  # Change if necessary\n\n   df_excel = pd.read_excel(excel_file, sheet_name=sheet_name)

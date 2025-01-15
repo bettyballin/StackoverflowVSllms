@@ -1,1 +1,0 @@
-INSERT INTO items (id, name, `order`) VALUES\n(1, 'one', 2),\n(2, 'two', 1),\n(3, 'three', 3);

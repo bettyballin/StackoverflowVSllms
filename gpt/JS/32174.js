@@ -1,1 +1,0 @@
-function addToCart(productId) {\n    fetch(`/api/products/${productId}`)\n        .then(response => response.json())\n        .then(product => {\n            cart.push(product);\n            updateCartDisplay();\n        })\n        .catch(error => console.error('Error:', error));\n}

@@ -1,1 +1,0 @@
-USE YourDatabaseName;\nGO\nDBCC OPENTRAN;\nGO

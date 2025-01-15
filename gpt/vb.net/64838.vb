@@ -1,1 +1,0 @@
-If CrystalReportsChecker.IsCrystalReportsInstalled() Then\n    ' Proceed with generating and displaying the report\nElse\n    ' Handle the case where Crystal Reports is not installed\n    MessageBox.Show("Crystal Reports runtime is not installed. Please install it to use this feature.")\nEnd If

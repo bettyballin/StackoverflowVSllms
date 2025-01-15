@@ -1,1 +1,0 @@
-SELECT MIN(ID) as ID, Product, Color\nFROM Products\nGROUP BY Product, Color\nORDER BY ID;

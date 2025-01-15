@@ -1,1 +1,0 @@
-window.onload = function() {\n    if (sessionStorage.getItem('newTabOpened')) {\n        // Handle logic for new window or tab\n        console.log('New window or tab opened');\n    } else {\n        // This is the first window or tab\n        sessionStorage.setItem('newTabOpened', 'true');\n    }\n};

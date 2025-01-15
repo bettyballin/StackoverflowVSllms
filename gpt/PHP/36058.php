@@ -1,1 +1,0 @@
-setcookie("session_cookie", "value", 0); // Expires at end of sessio

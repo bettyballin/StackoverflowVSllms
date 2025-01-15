@@ -1,1 +1,0 @@
-// Application/views/scripts/image/upload.phtml\n<?php echo $this->form; ?>\n<?php if (isset($this->message)) echo $this->message; ?>

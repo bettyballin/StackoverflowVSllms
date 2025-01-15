@@ -1,1 +1,0 @@
-ALTER TABLE your_table MODIFY your_column NVARCHAR2(400 CHAR);

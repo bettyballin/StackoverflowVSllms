@@ -1,1 +1,0 @@
-<behaviors>\n  <serviceBehaviors>\n    <behavior name="apiBehavior">\n      <serviceMetadata httpGetEnabled="false" httpsGetEnabled="true"/>\n      <serviceDebug includeExceptionDetailInFaults="true"/>\n    </behavior>\n  </serviceBehaviors>\n</behaviors>

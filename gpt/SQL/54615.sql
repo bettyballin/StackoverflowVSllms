@@ -1,1 +1,0 @@
-SELECT \n    tabx.col1 AS 'tabx_col1',\n    tabx.col2 AS 'tabx_col2',\n    taby.col1 AS 'taby_col1',\n    taby.col2 AS 'taby_col2'\nFROM \n    tabx, taby\nWHERE \n    ... ;  -- Your join conditio

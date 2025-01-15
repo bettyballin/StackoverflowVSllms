@@ -1,1 +1,0 @@
-<system.webServer>\n    <handlers>\n        <add name="ASPX-Handler" path="*.aspx" verb="*" type="System.Web.UI.PageHandlerFactory" resourceType="Unspecified" />\n    </handlers>\n    <httpErrors errorMode="DetailedLocalOnly" />\n</system.webServer>

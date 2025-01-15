@@ -1,1 +1,0 @@
-CREATE TABLE Employee_Audit (\n    Audit_ID INT PRIMARY KEY AUTO_INCREMENT,\n    EmployeeID INT,\n    EmployeeName VARCHAR(255),\n    Position VARCHAR(255),\n    Department VARCHAR(255),\n    ChangeDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    ChangeType VARCHAR(50) -- e.g., Insert, Update, Delete\n);

@@ -1,1 +1,0 @@
-SELECT\n       s.sid,\n       s.serial#,\n       s.username,\n       l.OBJECT_ID,\n       o.OBJECT_NAME,\n       l.locked_mode\n   FROM\n       V$LOCK l\n       JOIN V$SESSION s ON l.SID = s.SID\n       JOIN DBA_OBJECTS o ON l.OBJECT_ID = o.OBJECT_ID\n   WHERE\n       l.block = 1;

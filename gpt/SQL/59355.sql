@@ -1,1 +1,0 @@
-DECLARE @TargetValue sql_variant;\n\n-- Assign the result of the function to the variable\nSET @TargetValue = dbo.GetFoo();\n\n-- Pass the variable to the stored procedure\nEXEC AssertEqual @TargetValue, 'S', 'Check If S';

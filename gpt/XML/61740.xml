@@ -1,1 +1,0 @@
-<configuration>\n       <connectionStrings configProtectionProvider="RSAProtectedConfigurationProvider">\n           <EncryptedData>\n               <!-- Encrypted data here -->\n           </EncryptedData>\n       </connectionStrings>\n       ...\n   </configuration>

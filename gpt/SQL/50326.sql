@@ -1,1 +1,0 @@
-SELECT t.*, tvf.*\nFROM MyTable t\nCROSS APPLY dbo.MyTVF(t.MyColumn) AS tvf;

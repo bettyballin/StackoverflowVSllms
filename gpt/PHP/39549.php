@@ -1,1 +1,0 @@
-// Example in PHP\n    $headers = 'From: no-reply@yourdomain.com' . "\r\n" .\n               'Reply-To: no-reply@yourdomain.com' . "\r\n" .\n               'X-Mailer: PHP/' . phpversion();

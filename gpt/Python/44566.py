@@ -1,1 +1,0 @@
-keys = ['name', 'age']\nvalues = ['Monty', 42, 'Matt', 28, 'Frank', 33]\n\n# Ensure the length of values is a multiple of the length of keys\nassert len(values) % len(keys) == 0, "Values list length must be a multiple of keys list length."\n\n# Map the lists\nresult = [dict(zip(keys, values[i:i + len(keys)])) for i in range(0, len(values), len(keys))]\n\nprint(result)

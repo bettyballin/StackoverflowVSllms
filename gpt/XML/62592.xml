@@ -1,1 +1,0 @@
-<class name="C" table="C">\n    <id name="id" column="ID">\n        <generator class="foreign">\n            <param name="property">a</param>\n        </generator>\n    </id>\n    <one-to-one name="a" class="A" constrained="true" />\n    <property name="cProperty" column="C_PROPERTY" />\n</class>

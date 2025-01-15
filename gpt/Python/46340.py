@@ -1,1 +1,0 @@
-# schedule_tasks.py\n    from celery_app import app\n    from tasks import fetch_and_process_feed\n\n    FEED_URLS = [\n        'http://example.com/feed1.xml',\n        'http://example.com/feed2.xml',\n        # Add more feed URLs\n    ]\n\n    for url in FEED_URLS:\n        fetch_and_process_feed.delay(url)

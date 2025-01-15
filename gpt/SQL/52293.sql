@@ -1,1 +1,0 @@
--- Assuming the database name is 'YourDatabase'\n   -- Specify the new location of the MDF and LDF files\n   CREATE DATABASE YourDatabase \n   ON (FILENAME = 'C:\NewLocation\YourDatabase.mdf'),\n      (FILENAME = 'C:\NewLocation\YourDatabase_log.ldf')\n   FOR ATTACH;

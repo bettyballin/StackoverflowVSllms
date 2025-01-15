@@ -1,1 +1,0 @@
-tinymce.init({\n       selector: 'textarea',\n       entity_encoding: 'raw', // or 'named' if you prefer named entities\n       // other TinyMCE configurations\n   });

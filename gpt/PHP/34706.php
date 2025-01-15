@@ -1,1 +1,0 @@
-class Category extends Model\n    {\n        public function parent()\n        {\n            return $this->belongsTo(Category::class, 'parent_id');\n        }\n\n        public function children()\n        {\n            return $this->hasMany(Category::class, 'parent_id');\n        }\n    }

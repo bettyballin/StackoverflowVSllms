@@ -1,1 +1,0 @@
-// Example of setting up Snort IDS/IPS in configuration file\n   var HOME_NET = '192.168.1.0/24';\n   var EXTERNAL_NET = 'any';\n   alert tcp $EXTERNAL_NET any -> $HOME_NET 80 (msg:"WEB-MISC cross site scripting attempt"; flow:to_server,established; content:"<script>"; nocase; classtype:attempted-scripting; sid:1000001; rev:1;)

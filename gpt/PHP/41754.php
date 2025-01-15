@@ -1,1 +1,0 @@
-class Welcome extends CI_Controller {\n\n    public function index() {\n        // Enable caching for this method for 10 minutes (600 seconds)\n        $this->output->cache(10);\n\n        // Load your view or perform other operations here\n        $this->load->view('welcome_message');\n    }\n}

@@ -1,1 +1,0 @@
-from bisect import bisect\n    index = bisect(x, a)

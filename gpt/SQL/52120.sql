@@ -1,1 +1,0 @@
-:setvar BaseDirectory "$(SolutionDir)\Scripts\"\n\n:r $(BaseDirectory)InsertScript1.sql\n:r $(BaseDirectory)InsertScript2.sql

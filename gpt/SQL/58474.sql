@@ -1,1 +1,0 @@
-WITH RECURSIVE Ancestors AS (\n    SELECT parent_node_id\n    FROM hierarchy\n    WHERE child_node_id = ?\n    UNION ALL\n    SELECT h.parent_node_id\n    FROM hierarchy h\n    INNER JOIN Ancestors a ON h.child_node_id = a.parent_node_id\n)\nSELECT * FROM Ancestors;

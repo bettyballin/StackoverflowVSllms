@@ -1,1 +1,0 @@
-Public Sub Main()\n    Application.EnableVisualStyles()\n    Application.SetCompatibleTextRenderingDefault(False)\n    Application.Run(New CustomForm())\nEnd Sub

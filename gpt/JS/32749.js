@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('a[href$=".jpg"], a[href$=".JPG"]').each(function() {\n        // Your code to handle the selected links\n        console.log($(this).attr('href'));\n    });\n});

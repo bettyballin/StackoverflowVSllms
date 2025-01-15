@@ -1,1 +1,0 @@
-// Example of exporting a content type using Features module\n    features_export('content_type', 'article');

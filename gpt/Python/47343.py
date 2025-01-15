@@ -1,1 +1,0 @@
-import html\n\ninput_string = '<script>alert("Hello, world!");</script>'\nescaped_string = html.escape(input_string)\n\nprint(escaped_string)

@@ -1,1 +1,0 @@
-BEGIN TRANSACTION\n\n-- Execute the stored procedure within the transaction\nEXEC spStoredProcedure\n\n-- Optionally, perform other operations within the same transaction\n-- ...\n\n-- Commit or roll back the transaction based on your logic\nCOMMIT TRANSACTION\n-- or\n-- ROLLBACK TRANSACTION

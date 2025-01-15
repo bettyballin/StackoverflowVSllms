@@ -1,1 +1,0 @@
-SELECT * FROM your_table\nWHERE DATE(your_datetime_column) = '2023-10-09';

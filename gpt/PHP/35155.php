@@ -1,1 +1,0 @@
-$isValidTitle = $validator->valid("title");\n$isValidText = $validator->valid("text");\n\nif ($isValidTitle && $isValidText) {\n    // Both expressions are evaluated\n}

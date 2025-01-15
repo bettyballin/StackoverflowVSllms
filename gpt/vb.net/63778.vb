@@ -1,1 +1,0 @@
-Private Sub clboxOptions_ItemCheck(ByVal sender As Object, ByVal e As System.Windows.Forms.ItemCheckEventArgs) Handles clboxOptions.ItemCheck\n    If backupStarted Then\n        ' Prevent the change of checkbox state\n        e.NewValue = e.CurrentValue\n    End If\nEnd Sub

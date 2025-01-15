@@ -1,1 +1,0 @@
-SELECT name, size, \n          (size * 8.0 / 1024) AS SizeMB\n   FROM sysfiles;

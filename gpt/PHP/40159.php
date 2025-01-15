@@ -1,1 +1,0 @@
-<?php\n// Define your additional paths\n$otherpaths = '/path/to/your/dir1' . PATH_SEPARATOR . '/path/to/your/dir2';\n\n// Append the new paths to the existing include path\nini_set('include_path', ini_get('include_path') . PATH_SEPARATOR . $otherpaths);\n\n// Verify the new include path\necho ini_get('include_path');\n?>

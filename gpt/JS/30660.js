@@ -1,1 +1,0 @@
-// Example of loading a site into an iFrame (subject to XSS issues)\nvar iframe = document.createElement('iframe');\niframe.src = 'http://example.com';\ndocument.body.appendChild(iframe);

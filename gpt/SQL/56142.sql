@@ -1,1 +1,0 @@
-WITH NumberSequence AS (\n    SELECT 100001 AS Num\n    UNION ALL\n    SELECT Num + 1\n    FROM NumberSequence\n    WHERE Num < (SELECT MAX(ID) FROM table)\n),\nMissingIDs AS (\n    SELECT Num AS newID\n    FROM NumberSequence\n    LEFT JOIN table t ON NumberSequence.Num = t.ID\n    WHERE t.ID IS NULL\n)\nSELECT TOP 1 newID\nFROM MissingIDs\nWHERE newID > 100000\nORDER BY newID;

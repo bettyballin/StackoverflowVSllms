@@ -1,1 +1,0 @@
-SELECT name, department, salary\nFROM employees\nORDER BY salary DESC;

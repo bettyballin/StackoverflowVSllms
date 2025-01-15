@@ -1,1 +1,0 @@
-' Enable logging\nReporter.Filter = rfEnableAll\n\n' Your script code here\n\n' Disable logging\nReporter.Filter = rfDisableAll

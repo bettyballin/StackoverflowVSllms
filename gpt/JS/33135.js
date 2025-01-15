@@ -1,1 +1,0 @@
-<script type="text/javascript">\nfunction dismissFlashMessage() {\n    var flashMessage = document.getElementById('flashMessage');\n    flashMessage.style.transition = 'opacity 1s';\n    flashMessage.style.opacity = '0';\n    setTimeout(function() {\n        flashMessage.style.display = 'none';\n    }, 1000);\n}\n</script>

@@ -1,1 +1,0 @@
-class Video extends AppModel {\n    public $hasAndBelongsToMany = array(\n        'Bin' => array(\n            'className' => 'Bin',\n            'joinTable' => 'bins_videos',\n            'foreignKey' => 'video_id',\n            'associationForeignKey' => 'bin_id'\n        )\n    );\n}

@@ -1,1 +1,0 @@
-// Example JSONP response from your server\ncallback({\n    "contacts": [\n        {"name": "Alice", "phone": "123-456-7890"},\n        {"name": "Bob", "phone": "987-654-3210"}\n    ]\n});

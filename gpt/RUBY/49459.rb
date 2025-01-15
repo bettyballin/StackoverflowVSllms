@@ -1,1 +1,0 @@
-# In your Gemfile\n    gem 'sanitize'

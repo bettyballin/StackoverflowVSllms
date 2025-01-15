@@ -1,1 +1,0 @@
-WHERE\n    getDate() >=\n        CASE [table].mode\n            WHEN 0 THEN 0\n            WHEN 1 THEN [log].interval_start\n            WHEN 2 THEN [log].interval_start + [table].interval_period\n            ELSE        NULL\n        END

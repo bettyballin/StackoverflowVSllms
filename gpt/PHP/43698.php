@@ -1,1 +1,0 @@
-function print_it($item) {\n    echo '<div class="listItem clearfix">';\n    echo '<div class="info">';\n    echo '<span class="title">';\n    if (isset($item[6])) {\n        $decodedURL = rawurldecode($item[6]);\n        echo '<a href="' . htmlspecialchars($decodedURL, ENT_QUOTES, 'UTF-8') . '" title="">' . 'me' . '</a>';\n    }\n    echo '</span>';\n    echo '</div></div>';\n}

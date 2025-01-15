@@ -1,1 +1,0 @@
-$integer = 123;\n$string = (string) $integer;

@@ -1,1 +1,0 @@
-import re\n\nsql_statement = """SELECT FieldDescription,FieldValue FROM codes WHERE FieldName='ContactMethod'\n   and IsNull(Deactived,'') != 'T' order by fielddescription"""\n\nregex = r"FROM\s+.*?\s+order by"\n\nmatch = re.search(regex, sql_statement, re.IGNORECASE)\nif match:\n    result = match.group().strip()\n    print(result)

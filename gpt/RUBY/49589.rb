@@ -1,1 +1,0 @@
-# Add to Gemfile\n   gem 'scout_apm'\n   \n   # Run bundle install\n   # Follow Scout APM setup instructions to configure your applicatio

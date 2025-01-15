@@ -1,1 +1,0 @@
-import socket\nimport json\n\ndata = [\n    {"name": "Alice", "age": 30},\n    {"name": "Bob", "age": 25}\n]\n\nwith socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:\n    s.connect(('localhost', 12345))\n    for obj in data:\n        message = json.dumps(obj) + "\n"\n        s.sendall(message.encode('utf-8'))

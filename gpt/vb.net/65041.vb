@@ -1,1 +1,0 @@
-Sub Main()\n    Dim url As String = "http://example.com/remote.xml"\n    \n    ' Reading XML File\n    ReadRemoteXmlFile(url)\n    \n    ' Writing to XML File\n    Dim newXmlContent As String = "<root><element>New Content</element></root>"\n    WriteRemoteXmlFile(url, newXmlContent)\nEnd Sub

@@ -1,1 +1,0 @@
-$final = preg_replace_callback('/\{CONSTANT_(.*?)\}/', function($matches) {\n    return defined($matches[1]) ? constant($matches[1]) : $matches[0];\n}, $final);

@@ -1,1 +1,0 @@
-SELECT CustomerNumber, CustomerName\nFROM Customer\nWHERE User = ?\nORDER BY (regexp_matches(CustomerNumber, '^\d+'))::int, CustomerNumber;

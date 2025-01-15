@@ -1,1 +1,0 @@
-<?php\n$conn = new mysqli('localhost', 'username', 'password', 'database');\n\n// Check connection\nif ($conn->connect_error) {\n    die("Connection failed: " . $conn->connect_error);\n}\n\n$result = $conn->query("SELECT COUNT(*) as count FROM destination_table");\n$row = $result->fetch_assoc();\n\necho json_encode(['count' => $row['count']]);\n\n$conn->close();\n?>

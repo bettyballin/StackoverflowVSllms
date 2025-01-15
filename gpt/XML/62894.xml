@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>com.fasterxml.jackson.dataformat</groupId>\n    <artifactId>jackson-dataformat-xml</artifactId>\n    <version>2.12.5</version>\n</dependency>

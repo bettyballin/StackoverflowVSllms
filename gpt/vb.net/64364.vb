@@ -1,1 +1,0 @@
-Select Case x\n    Case 6\n        Dim z As Integer = 6\n        ' z is local to this Case block\n    Case 7\n        Dim z As Integer = 7\n        ' z is local to this Case block\nEnd Select

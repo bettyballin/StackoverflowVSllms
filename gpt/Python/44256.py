@@ -1,1 +1,0 @@
-import uuid\n\ndef generate_session_id():\n    return str(uuid.uuid4())\n\n# Example usage\nsession_id = generate_session_id()\nprint(session_id)

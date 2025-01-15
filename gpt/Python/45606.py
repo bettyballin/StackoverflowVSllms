@@ -1,1 +1,0 @@
-import numpy as np\nimport matplotlib.pyplot as plt\n\ndef generate_sine_wave(n, amplitude=1, frequency=1, phase=0):\n    t = np.arange(n)\n    return amplitude * np.sin(2 * np.pi * frequency * t / n + phase)\n\nn = 100\ntime_series = generate_sine_wave(n, amplitude=2, frequency=5)\nplt.plot(time_series)\nplt.title('Sine Wave Time Series')\nplt.show()

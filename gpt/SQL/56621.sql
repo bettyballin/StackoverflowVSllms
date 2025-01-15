@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET YourDateTimeField = CONVERT(datetime, '2023-12-31 23:59:59', 120)\nWHERE YourCondition;

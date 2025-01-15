@@ -1,1 +1,0 @@
-CALL get_limited_sum();

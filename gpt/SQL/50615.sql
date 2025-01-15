@@ -1,1 +1,0 @@
--- Monitor server performance\n    SELECT \n        sqlserver_process_cpu_usage_pct,\n        sqlserver_memory_usage_kb\n    FROM sys.dm_os_sys_memory;\n    \n    -- Check SQL Server performance metrics\n    SELECT * FROM sys.dm_os_performance_counters;

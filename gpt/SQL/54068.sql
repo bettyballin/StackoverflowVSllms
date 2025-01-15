@@ -1,1 +1,0 @@
-DECLARE @originalDateTime DATETIME = '2009-06-24 09:52:43.000';\n\n-- Convert to date only\nDECLARE @dateOnly DATETIME = CONVERT(DATETIME, CONVERT(DATE, @originalDateTime));\n\n-- Verify the result\nSELECT @dateOnly AS DateOnly;

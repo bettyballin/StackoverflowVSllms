@@ -1,1 +1,0 @@
-production:\n     adapter: mysql2\n     encoding: utf8\n     database: <%= Rails.application.credentials.dig(:database, :name) %>\n     username: <%= Rails.application.credentials.dig(:database, :user) %>\n     password: <%= Rails.application.credentials.dig(:database, :password) %>\n     host: <%= Rails.application.credentials.dig(:database, :host) %>

@@ -1,1 +1,0 @@
-CREATE PROCEDURE getUserDetails(@userid INT)\nAS\nBEGIN\n    SELECT u.*, t.* \n    FROM user u\n    INNER JOIN type t ON t.typeid = u.usertypeid\n    WHERE u.userid = @userid;\n\n    SELECT i.*, t.* \n    FROM image i\n    INNER JOIN type t ON t.typeid = i.imagetypeid\n    INNER JOIN user u ON u.imageid = i.imageid\n    WHERE u.userid = @userid;\nEND

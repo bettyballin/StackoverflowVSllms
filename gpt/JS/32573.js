@@ -1,1 +1,0 @@
-const htmlclean = require('htmlclean');\n\n   const originalHTML = `...`; // Your HTML content\n   const cleanedHTML = htmlclean(originalHTML);\n\n   console.log(cleanedHTML);

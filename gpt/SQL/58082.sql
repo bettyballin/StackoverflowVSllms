@@ -1,1 +1,0 @@
-DECLARE @BLOBData VARBINARY(MAX)\n   SELECT @BLOBData = BLOBColumn FROM SourceTable WHERE YourCondition\n\n   DECLARE @Base64Encoded NVARCHAR(MAX)\n   SET @Base64Encoded = CAST('' AS XML).value('xs:base64Binary(sql:variable("@BLOBData"))', 'VARCHAR(MAX)')\n\n   SELECT @Base64Encoded

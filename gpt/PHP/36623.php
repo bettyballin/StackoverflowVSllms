@@ -1,1 +1,0 @@
-<?php include 'header.php'; ?>\n\n<?php foreach ($data as $row): ?>\n    <?php\n    $column1 = $row['column1'];\n    $column2 = $row['column2'];\n    $column3 = $row['column3'];\n    ?>\n    <p><?php echo $column1; ?>.......<?php echo $column2; ?>.......<?php echo $column3; ?></p>\n<?php endforeach; ?>

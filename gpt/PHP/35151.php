@@ -1,1 +1,0 @@
-$arrayOne = array('0003', '0004', '0005');\n$arrayTwo = array(4, 5, 6);\n\n$arrayOneInts = array_map('intval', $arrayOne);\n\n$intersect = array_intersect($arrayOneInts, $arrayTwo);\n\n// $intersect will now be array(4, 5)

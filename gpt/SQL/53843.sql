@@ -1,1 +1,0 @@
-DECLARE @xml_text nvarchar(max);\n   SET @xml_text = N'<your XML content>';\n   \n   DECLARE @idoc int;\n   \n   EXEC sp_xml_preparedocument @idoc OUTPUT, @xml_text;\n   \n   -- Your OPENXML query here\n   \n   EXEC sp_xml_removedocument @idoc;

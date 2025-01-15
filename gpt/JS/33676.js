@@ -1,1 +1,0 @@
-const express = require('express');\nconst cors = require('cors');\nconst app = express();\n\napp.use(cors());\n\napp.get('/', (req, res) => {\n  res.send('CORS is enabled for all origins!');\n});\n\napp.listen(81, () => {\n  console.log('Server is running on port 81');\n});

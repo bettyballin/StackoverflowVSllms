@@ -1,1 +1,0 @@
-<?php\n// Example function to generate a slug\nfunction createSlug($name, $id) {\n    $slug = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $name)));\n    return $slug . '-' . $id;\n}\n\n// Usage\n$user_name = "John Adams";\n$user_id = 123;\n$slug = createSlug($user_name, $user_id);\necho $slug; // Output: john-adams-123\n?>

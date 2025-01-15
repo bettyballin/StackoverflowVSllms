@@ -1,1 +1,0 @@
-from scipy.stats import spearmanr\n\nrho, p_value = spearmanr(list_a, list_b)\nprint(f'Spearman Rank Correlation: {rho}')

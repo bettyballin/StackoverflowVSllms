@@ -1,1 +1,0 @@
-Private Sub Dosomethingelse(ByVal settings As IEnumerable(Of SharedLibrary.IAddinSettings))\n    ' Your code here\nEnd Sub

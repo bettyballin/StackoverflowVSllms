@@ -1,1 +1,0 @@
-WITH RECURSIVE FolderHierarchy AS (\n    SELECT id, name, parent_id, 0 AS level\n    FROM Folder\n    WHERE parent_id IS NULL\n    UNION ALL\n    SELECT f.id, f.name, f.parent_id, fh.level + 1\n    FROM Folder f\n    JOIN FolderHierarchy fh ON f.parent_id = fh.id\n)\nSELECT * FROM FolderHierarchy;

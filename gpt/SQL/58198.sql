@@ -1,1 +1,0 @@
-SELECT \n    'Equal' \nWHERE \n    '1' = '1 ';

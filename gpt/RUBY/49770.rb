@@ -1,1 +1,0 @@
-city, state, zip = *(0..2).to_a

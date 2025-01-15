@@ -1,1 +1,0 @@
-<?php\n$subject = "Your string with {123} and {456}";\n$pattern = '/\{[0-9]*\}/';\npreg_match_all($pattern, $subject, $matches);\n\nprint_r($matches);\n?>

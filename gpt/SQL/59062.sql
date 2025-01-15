@@ -1,1 +1,0 @@
-CREATE TABLE CardReferences (\n    CardId INT,\n    ReferencedCardId INT\n);

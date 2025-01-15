@@ -1,1 +1,0 @@
-BEGIN;\n\n-- Lock the table or rows to prevent changes during pagination\nLOCK TABLE items IN SHARE MODE;\n\n-- Fetch the first page\nSELECT * FROM items\nORDER BY created_at DESC\nLIMIT 10;\n\n-- Fetch the next page\nSELECT * FROM items\nORDER BY created_at DESC\nOFFSET 10 LIMIT 10;\n\nCOMMIT;

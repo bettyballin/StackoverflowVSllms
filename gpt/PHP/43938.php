@@ -1,1 +1,0 @@
-$username = $_POST['username'];\n$password = password_hash($_POST['password'], PASSWORD_BCRYPT);\n$roles = implode(',', $_POST['roles']);\n\n$sql = "INSERT INTO users (username, password, roles) VALUES (?, ?, ?)";\n$stmt = $conn->prepare($sql);\n$stmt->bind_param("sss", $username, $password, $roles);\n$stmt->execute();

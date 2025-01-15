@@ -1,1 +1,0 @@
--- Example for switching partitions\n   ALTER TABLE YourTable SWITCH PARTITION 1 TO YourStagingTable;\n   TRUNCATE TABLE YourStagingTable;

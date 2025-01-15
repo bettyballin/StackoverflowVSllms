@@ -1,1 +1,0 @@
-$("#club").autocomplete({\n    url: "/mywebsite/mycontroller/autocomplete",\n    extraParams: {\n        country: function() {\n            return getCountry();\n        }\n    }\n});

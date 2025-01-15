@@ -1,1 +1,0 @@
-$.ajax({\n  url: '/article/.../load',\n  method: 'GET',\n  success: function(data) {\n    alert(`Done, got ${data.length} bytes`);\n  },\n  error: function(jqXHR, textStatus, errorThrown) {\n    alert(`Error ${jqXHR.status}: ${textStatus}`);\n  }\n});

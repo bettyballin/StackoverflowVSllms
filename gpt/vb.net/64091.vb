@@ -1,1 +1,0 @@
-Dim obj As Object = New SomeClass()\nIf TypeOf obj Is SomeClass Then\n    ' obj is an instance of SomeClass\nEnd If

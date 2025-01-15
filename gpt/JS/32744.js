@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('input[name^="payments"]').on('change', function() {\n    console.log($(this).val());\n  });\n});

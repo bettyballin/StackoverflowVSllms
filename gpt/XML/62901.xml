@@ -1,1 +1,0 @@
-<Query>\n  <GroupBy Collapse="TRUE" GroupLimit="30">\n    <FieldRef Name="FirstLetter" />\n  </GroupBy>\n  <OrderBy>\n    <FieldRef Name="FirstLetter" Ascending="TRUE" />\n    <FieldRef Name="Title" Ascending="TRUE" />\n  </OrderBy>\n  <Where>\n    <!-- Add any filtering conditions if necessary -->\n  </Where>\n</Query>

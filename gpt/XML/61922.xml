@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>\n<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:examples:helloservice">\n   <soapenv:Header/>\n   <soapenv:Body>\n      <urn:SayHello>\n         <urn:FirstName>John</urn:FirstName>\n      </urn:SayHello>\n   </soapenv:Body>\n</soapenv:Envelope>

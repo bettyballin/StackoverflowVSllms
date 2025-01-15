@@ -1,1 +1,0 @@
-class URLShortener {\n    // Existing code...\n\n    private $imageHosting;\n\n    public function __construct() {\n        $this->imageHosting = new ImageHosting();\n    }\n\n    public function uploadImage($image) {\n        // Use the image hosting script's upload function instead\n        return $this->imageHosting->upload($image);\n    }\n}

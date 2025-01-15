@@ -1,1 +1,0 @@
-<system.webServer>\n       <handlers>\n           <add name="Wildcard" path="*" verb="*" modules="IsapiModule" scriptProcessor="C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\aspnet_isapi.dll" resourceType="Unspecified" requireAccess="None" />\n       </handlers>\n   </system.webServer>

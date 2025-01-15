@@ -1,1 +1,0 @@
-$this->loadModel('Customers');\n     $customer = $this->Customers->get($customerId, [\n         'contain' => ['MailingAddresses', 'BillingAddresses']\n     ]);

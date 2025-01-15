@@ -1,1 +1,0 @@
-import cloudfiles\n   print(cloudfiles.__version__)

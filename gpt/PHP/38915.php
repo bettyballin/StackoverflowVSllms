@@ -1,1 +1,0 @@
-<?php\ninclude __DIR__ . '/anotherfile.php'; // Correctly resolves to 'inc/anotherfile.php'

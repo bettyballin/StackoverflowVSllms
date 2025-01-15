@@ -1,1 +1,0 @@
-SELECT \n    SUM(CASE WHEN approved_flag = 1 THEN 1 ELSE 0 END) AS approved_count,\n    SUM(CASE WHEN approved_flag = 0 THEN 1 ELSE 0 END) AS unapproved_count\nFROM (\n    SELECT user_id, approved_flag\n    FROM reports r1\n    WHERE submitted_date = (\n        SELECT MAX(submitted_date)\n        FROM reports r2\n        WHERE r2.user_id = r1.user_id\n    )\n) AS recent_reports;

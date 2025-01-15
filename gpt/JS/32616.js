@@ -1,1 +1,0 @@
-// Example of live method\n   $('button').live('click', function() {\n       alert('Button clicked!');\n   });

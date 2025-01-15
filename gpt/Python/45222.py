@@ -1,1 +1,0 @@
-def run_with_transaction(func, *args, **kw):\n       pass

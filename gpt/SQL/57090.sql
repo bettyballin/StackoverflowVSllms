@@ -1,1 +1,0 @@
-proc sql;\n   connect to oracle (user=myuser password=mypass path='mydb');\n      \n   create table work.mydata as\n   select * from connection to oracle\n   (\n      select * from employees where department = 'IT'\n   );\n\n   disconnect from oracle;\nquit;

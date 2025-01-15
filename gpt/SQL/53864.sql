@@ -1,1 +1,0 @@
-SELECT [Referral ID], COUNT(DISTINCT [Service Provided]) AS [Services Provided]\nFROM [YourTable]\nGROUP BY [Referral ID];

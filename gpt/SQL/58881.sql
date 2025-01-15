@@ -1,1 +1,0 @@
-ALTER TABLE your_table_name\nADD CONSTRAINT chk_value_range\nCHECK (your_column_name BETWEEN 1 AND 5);

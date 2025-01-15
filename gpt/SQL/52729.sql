@@ -1,1 +1,0 @@
-SELECT * \n    FROM table \n    WHERE x IN (SELECT id FROM another_table WHERE condition);

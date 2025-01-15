@@ -1,1 +1,0 @@
-gem 'rails', '6.1.3.2'\ngem 'puma', '5.2.1'

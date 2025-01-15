@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $(".unique-class").doSomething();\n});

@@ -1,1 +1,0 @@
-# Install Rails\ngem install rails\n\n# Create a new Rails application\nrails new myapp\ncd myapp\n\n# Generate a scaffold for your resource\nrails generate scaffold Item name:string description:text\n\n# Migrate the database\nrails db:migrate\n\n# Add routes in config/routes.rb\nRails.application.routes.draw do\n  resources :items\nend\n\n# Start the Rails server\nrails server

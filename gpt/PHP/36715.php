@@ -1,1 +1,0 @@
-public function your_method() {\n    $callback = $this->input->get('callback');\n    $url = $this->input->get('url');\n    \n    // Perform your processing with the $url\n    $response = array('status' => 'success', 'url' => $url);\n\n    // Return the response in JSONP format\n    echo $callback . '(' . json_encode($response) . ');';\n}

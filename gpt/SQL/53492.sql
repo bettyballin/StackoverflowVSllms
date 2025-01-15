@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nORDER BY \n    CASE \n        WHEN special = 1 THEN 0\n        ELSE 1\n    END,\n    date DESC;

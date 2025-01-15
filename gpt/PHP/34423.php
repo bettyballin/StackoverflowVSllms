@@ -1,1 +1,0 @@
-// Using $array[] = $value\n$array[] = $value;\n\n// Using array_push($array, $value)\narray_push($array, $value);

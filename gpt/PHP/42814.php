@@ -1,1 +1,0 @@
-<?php\n$data = [\n    "name" => "John Doe",\n    "email" => "john.doe@example.com",\n    "message" => "Hello, here's a quote: \"Stay safe!\""\n];\n\n$jsonResponse = json_encode($data);\n\n// Set the content type to application/json\nheader('Content-Type: application/json');\n\n// Output the JSON response\necho $jsonResponse;\n?>

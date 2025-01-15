@@ -1,1 +1,0 @@
-def sample_function():\n    # Example function that takes some time to run\n    sum([i for i in range(1000)])\n\naverage_time = average_time_it(sample_function)\nprint(f"Average execution time: {average_time} ms")

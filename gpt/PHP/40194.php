@@ -1,1 +1,0 @@
-<?php\nheader('Content-Type: text/html; charset=UTF-8');\nrequire_once 'Zend/Currency.php';\n$currency = new Zend_Currency('en_GB');\n$value = 500.00;\necho $currency->toCurrency($value);\n?>

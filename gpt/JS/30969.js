@@ -1,1 +1,0 @@
-$.ajax({\n    type: "POST",\n    contentType: "application/json; charset=utf-8",\n    url: "WebService.asmx/HelloWorld",\n    data: "{}",\n    dataType: "json",\n    success: function(response) {\n        alert(response.Message);\n    },\n    error: function(xhr, status, error) {\n        console.error("AJAX Error: " + status + " - " + error);\n    }\n});

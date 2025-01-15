@@ -1,1 +1,0 @@
-book = Book.objects.get(id=1)\n# This will trigger the lazy loading to fetch the related Author instance\nauthor = book.author

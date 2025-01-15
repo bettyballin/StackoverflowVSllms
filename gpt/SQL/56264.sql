@@ -1,1 +1,0 @@
-CREATE TABLE `user` (\n  `id` int(10) unsigned NOT NULL auto_increment,\n  `name` varchar(32) NOT NULL,\n  `username` varchar(16) NOT NULL,\n  `password` char(32) NOT NULL,\n  PRIMARY KEY (`id`),\n  UNIQUE KEY `username` (`username`)\n);

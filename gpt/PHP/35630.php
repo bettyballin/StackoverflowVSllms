@@ -1,1 +1,0 @@
-$cache_dir = '/path/to/cache/';\n$cache_file = $cache_dir . "friend_list_$user_id.cache";\n\n// Save friend list in cache\n$friend_list = getFriendListFromDB($user_id);\nfile_put_contents($cache_file, serialize($friend_list));\n\n// Fetch friend list from cache\n$friend_list = unserialize(file_get_contents($cache_file));

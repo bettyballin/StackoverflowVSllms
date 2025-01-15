@@ -1,1 +1,0 @@
-function getElementAtPosition(x, y) {\n    return document.elementFromPoint(x, y);\n}\n\n// Example usage:\nconst element = getElementAtPosition(100, 200);\nconsole.log(element);  // Logs the element at coordinates (100, 200)

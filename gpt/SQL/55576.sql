@@ -1,1 +1,0 @@
-WITH RankedTemp AS (\n    SELECT \n        name, a, b,\n        ROW_NUMBER() OVER (PARTITION BY name ORDER BY b DESC) AS row_num\n    FROM \n        temp\n)\nSELECT \n    name, a, b\nFROM \n    RankedTemp\nWHERE \n    row_num = 1;

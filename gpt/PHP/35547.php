@@ -1,1 +1,0 @@
-use PHPUnit\Framework\TestCase;\n\n    class UserServiceTest extends TestCase {\n        public function testUserCreation() {\n            $userService = new UserService();\n            $user = $userService->createUser('test@example.com');\n            $this->assertEquals('test@example.com', $user->getEmail());\n        }\n    }

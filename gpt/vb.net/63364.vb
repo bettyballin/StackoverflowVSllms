@@ -1,1 +1,0 @@
-Dim number As Decimal = 3.7D\nDim roundedNumber As Integer = Convert.ToInt32(Math.Ceiling(number))\nConsole.WriteLine(roundedNumber) ' Output: 4

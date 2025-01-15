@@ -1,1 +1,0 @@
-# spec/spec_helper.rb\n\nrequire 'rspec'\n\nRSpec.configure do |config|\n  # RSpec configuration options\nend

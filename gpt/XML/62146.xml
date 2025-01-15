@@ -1,1 +1,0 @@
-<system.webServer>\n     <security>\n       <authentication>\n         <anonymousAuthentication enabled="false" />\n         <windowsAuthentication enabled="true" />\n       </authentication>\n     </security>\n   </system.webServer>

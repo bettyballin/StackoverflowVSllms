@@ -1,1 +1,0 @@
-<?php\n    header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1\n    header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");   // Date in the past\n\n    echo 'Current PHP version: ' . phpversion();\n\n    // prints e.g. '2.0' or nothing if the extension isn't enabled\n    echo phpversion('tidy');\n?>

@@ -1,1 +1,0 @@
-import re\n\nhtml = '''\n<img src="https://example.com/image.jpg" alt="example image">\n'''\n\nmatch = re.search(r'<img[^>]+src=[\'"]([^\'"]+)[\'"]', html)\nif match:\n    img_src = match.group(1)\n    print(img_src)  # Output: https://example.com/image.jpg

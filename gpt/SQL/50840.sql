@@ -1,1 +1,0 @@
-CREATE TABLE employees (\n    ID INT AUTO_INCREMENT PRIMARY KEY,\n    company_id INT,\n    internal_id INT,\n    name VARCHAR(100),\n    lastname VARCHAR(100),\n    FOREIGN KEY (company_id) REFERENCES Company(ID)\n);

@@ -1,1 +1,0 @@
-# Example of writing your own minimal library\n   class MyLibrary:\n       def __init__(self):\n           pass\n\n       def some_function(self):\n           # Implement the necessary functionality\n           pass

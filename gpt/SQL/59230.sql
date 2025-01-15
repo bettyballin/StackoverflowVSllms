@@ -1,1 +1,0 @@
-BEGIN\n  DBMS_SESSION.SET_IDENTIFIER('SalesApp|OrderProcessing|CreateOrder');\nEND;

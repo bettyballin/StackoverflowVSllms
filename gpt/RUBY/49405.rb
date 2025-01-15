@@ -1,1 +1,0 @@
-if result\n     rank = result.rank\n     puts "Rank: #{rank}"\n   else\n     puts "Score not found for the specified user."\n   end

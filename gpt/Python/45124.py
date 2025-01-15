@@ -1,1 +1,0 @@
-import requests\n\n     proxies = {\n         'http': 'http://proxy.example.com:8080',\n         'https': 'https://proxy.example.com:8080',\n     }\n\n     response = requests.get('http://example.com', proxies=proxies)

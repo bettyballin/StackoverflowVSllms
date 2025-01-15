@@ -1,1 +1,0 @@
-<jboss-app>\n       <loader-repository>\n         my.ear:loader=unique\n         <loader-repository-config>java2ParentDelegation=false</loader-repository-config>\n       </loader-repository>\n     </jboss-app>

@@ -1,1 +1,0 @@
-window.onload = function() {\n    page_init();\n};\n\nfunction page_init() {\n    // Your initialization code here\n    if (document.readyState === "complete") {\n        // Your logic when the document is fully loaded\n    } else {\n        // Optionally, handle the case where the document is not fully loaded\n    }\n}

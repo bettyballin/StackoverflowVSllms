@@ -1,1 +1,0 @@
-Public Class Classification\n    Public Property ID As Integer\n    Public Property Name As String\n    Public Property IsActive As Boolean\nEnd Class

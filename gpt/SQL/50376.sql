@@ -1,1 +1,0 @@
-CREATE TRIGGER fkFooBar\nBEFORE INSERT ON Foo_Bar\nFOR EACH ROW BEGIN\n  SELECT RAISE (ABORT, 'Insert on Foo_Bar violates foreign key')\n  WHERE (SELECT id FROM FOO WHERE id = NEW.fooId) IS NULL\n     OR (SELECT id FROM BAR WHERE id = NEW.barId) IS NULL;\nEND;

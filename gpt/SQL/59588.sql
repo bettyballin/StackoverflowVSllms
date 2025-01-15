@@ -1,1 +1,0 @@
-OPEN SYMMETRIC KEY YourNewSymmetricKeyName\n     DECRYPTION BY PASSWORD = 'your_new_strong_password';\n     \n     INSERT INTO YourNewTable (EncryptedColumn)\n     SELECT ENCRYPTBYKEY(KEY_GUID('YourNewSymmetricKeyName'), DecryptedData)\n     FROM SourceData;\n     \n     CLOSE SYMMETRIC KEY YourNewSymmetricKeyName;

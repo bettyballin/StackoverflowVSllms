@@ -1,1 +1,0 @@
-# In your view\n    if request.method == 'POST':\n        form = MyForm(request.POST, request=request)\n        if form.is_valid():\n            # Process the form data\n            pass\n    else:\n        form = MyForm()

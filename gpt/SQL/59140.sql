@@ -1,1 +1,0 @@
-SELECT \n    s.publisher,\n    s.publication,\n    s.srvname AS subscriber,\n    s.subscription_type,\n    s.last_sync_date\nFROM \n    distribution.dbo.MSreplication_subscriptions s\nWHERE \n    s.subscriber_db = 'YourSubscriberDatabaseName';

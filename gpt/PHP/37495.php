@@ -1,1 +1,0 @@
-class Logger {\n    private $logFile;\n\n    public function __construct($file) {\n        $this->logFile = $file;\n    }\n\n    public function log($message) {\n        $date = date('Y-m-d H:i:s');\n        file_put_contents($this->logFile, "[$date] $message\n", FILE_APPEND);\n    }\n}

@@ -1,1 +1,0 @@
-<?php\n// main.php\ninclude('header.php');\ninclude('menu.php');\ninclude('content.php');\ninclude('footer.php');\n?>

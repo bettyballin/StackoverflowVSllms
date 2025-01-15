@@ -1,1 +1,0 @@
-if (isset($_POST['session_id'])) {\n       session_id($_POST['session_id']);\n   }\n   session_start();\n\n   // Now you should have access to the session variables\n   if (isset($_SESSION['var'])) {\n       // Do something with the session variable\n   } else {\n       echo "Undefined index: var";\n   }

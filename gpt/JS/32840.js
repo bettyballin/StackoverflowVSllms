@@ -1,1 +1,0 @@
-let user = {\n    name: 'Alice',\n    age: null // explicitly no age value\n  };\n  console.log(user.age); // null\n\n  // Resetting a value\n  user.age = null;

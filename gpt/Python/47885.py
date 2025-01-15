@@ -1,1 +1,0 @@
-from __future__ import division\nimport math\n\ndef square(x):\n    return x * x\n\na = 1.0\nb = 1.0 / math.sqrt(2)\nt = 0.25\nx = 1.0\n\nfor i in range(1000):\n    y = a\n    a = (a + b) / 2.0\n    b = math.sqrt(b * y)\n    t = t - x * square(y - a)\n    x = 2 * x\n\npi = square(a + b) / (4 * t)\nprint(pi)

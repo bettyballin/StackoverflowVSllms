@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    function ShowPanel() {\n        var ctrl = document.getElementById('<%= btmRocp.ClientID %>');\n        if (ctrl) {\n            alert(ctrl.id); // Alert the ID to ensure it's correct\n            ctrl.disabled = true;\n        } else {\n            alert('Control not found!');\n        }\n    }\n</script>

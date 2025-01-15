@@ -1,1 +1,0 @@
-CREATE TABLE Transactions (\n    TransactionID INT PRIMARY KEY,\n    Amount DECIMAL(19, 4) NOT NULL\n);

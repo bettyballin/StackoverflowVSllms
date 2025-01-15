@@ -1,1 +1,0 @@
-SELECT \n    a.aid, \n    a.name, \n    json_agg(\n        json_build_object('sid', s.sid, 'length', s.length)\n    ) AS songs\nFROM \n    albums a\nJOIN \n    songs s ON a.aid = s.aid\nGROUP BY \n    a.aid, a.name;

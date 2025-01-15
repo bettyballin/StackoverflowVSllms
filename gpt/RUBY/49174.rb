@@ -1,1 +1,0 @@
-Rails.application.routes.draw do\n  get 'session_cookie_name', to: 'application#get_session_cookie_name'\nend

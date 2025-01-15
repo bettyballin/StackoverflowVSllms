@@ -1,1 +1,0 @@
-<?php\n    header('X-User-ID: ' . $userID);\n    ?>

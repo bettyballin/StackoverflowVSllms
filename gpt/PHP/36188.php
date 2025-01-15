@@ -1,1 +1,0 @@
-<?php\n// add-data.php\ninclude 'db-config.php';\n\n$name = $_POST['name'];\n$age = $_POST['age'];\n\n$stmt = $conn->prepare("INSERT INTO your_table (name, age) VALUES (?, ?)");\n$stmt->bind_param("si", $name, $age);\n$stmt->execute();\n\necho "New record created successfully";\n$stmt->close();\n$conn->close();\n?>

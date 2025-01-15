@@ -1,1 +1,0 @@
-If Not String.IsNullOrEmpty(myString) AndAlso CBool(myString) Then\n    ' your code here\nEnd If

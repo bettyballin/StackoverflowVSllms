@@ -1,1 +1,0 @@
-use TYPO3\CMS\Core\Utility\GeneralUtility;\n\n$rid = GeneralUtility::_GET('rid');\nvar_dump($rid);

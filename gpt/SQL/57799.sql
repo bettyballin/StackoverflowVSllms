@@ -1,1 +1,0 @@
-SELECT UserName\nFROM (\n    SELECT UserName, StateTypeId, \n           ROW_NUMBER() OVER(PARTITION BY UserName ORDER BY DateAdded DESC) as rn\n    FROM UserData\n) as latest\nINNER JOIN StateTypes st ON latest.StateTypeId = st.StateTypeId\nWHERE latest.rn = 1 AND st.StateName != 'LostConnection';

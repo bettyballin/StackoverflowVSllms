@@ -1,1 +1,0 @@
-<?php\n$allowedTags = '<p><a><b><i>';\n$safeHtml = strip_tags($userInput, $allowedTags);\necho htmlspecialchars($safeHtml, ENT_QUOTES, 'UTF-8');\n?>

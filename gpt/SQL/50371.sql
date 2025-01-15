@@ -1,1 +1,0 @@
-CREATE TABLE UserSessions (\n    UserID INT,\n    SessionID VARCHAR(100),\n    IsActive BIT,\n    LastUpdated DATETIME\n);

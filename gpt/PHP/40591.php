@@ -1,1 +1,0 @@
-$timestamp = 1251783433;\n$date = date('Y-m-d H:i:s', $timestamp);\necho $date;

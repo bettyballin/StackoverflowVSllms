@@ -1,1 +1,0 @@
-ALTER TABLE country\n     ADD CONSTRAINT UQ_country_name UNIQUE (country_name);

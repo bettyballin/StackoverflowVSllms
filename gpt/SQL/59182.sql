@@ -1,1 +1,0 @@
-EXEC sp_configure 'show advanced options', 1;\n   RECONFIGURE;\n   EXEC sp_configure 'xp_cmdshell', 1;\n   RECONFIGURE;

@@ -1,1 +1,0 @@
-$.ajax({\n  url: 'http://localhost:3001', // Server running on a different port\n  method: 'GET',\n  success: function(data) {\n    console.log('Success:', data);\n  },\n  error: function(error) {\n    console.log('Error:', error);\n  }\n});

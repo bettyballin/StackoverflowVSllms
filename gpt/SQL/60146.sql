@@ -1,1 +1,0 @@
-CREATE SYNONYM newrole.mytable FOR newrole.mytable;

@@ -1,1 +1,0 @@
-insert into crsabstr_rec (crs_no, cat, pr_cat, pr_sch, abstr) values ("COMS110", "UG09", "Y", "Y", FILETOBLOB("text_data.txt", "client"));

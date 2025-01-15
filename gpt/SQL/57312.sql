@@ -1,1 +1,0 @@
-CREATE TABLE schema2.EMPLOYEE (\n       empID INT PRIMARY KEY,\n       empName VARCHAR(100),\n       deptId INT,\n       CONSTRAINT fk_dept FOREIGN KEY (deptId)\n           REFERENCES schema1.DEPARTMENT(deptId)\n   );

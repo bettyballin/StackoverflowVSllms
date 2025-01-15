@@ -1,1 +1,0 @@
-<?php\nsession_save_path(__DIR__ . '/sessions');\n$sessionHandler = new SessionHandler(__DIR__ . '/sessions');\n?>

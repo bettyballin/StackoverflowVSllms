@@ -1,1 +1,0 @@
-// functions.php or a similar utility file\nfunction asset_url($path) {\n    if (ENVIRONMENT === 'production') {\n        $url = 'http://assets.mysitename.com/' . $path;\n    } else {\n        $url = 'http://localhost/mysitename/' . $path;\n    }\n    return $url;\n}

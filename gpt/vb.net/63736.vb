@@ -1,1 +1,0 @@
-Dim scriptPath As String\nscriptPath = "C:\path\to\your\script.vbs"\n\nDim result As Long\nresult = Shell("wscript.exe " & scriptPath, vbNormalFocus)\n\nIf result = 0 Then\n    MsgBox "Failed to run BITS script.", vbCritical\nElse\n    MsgBox "BITS script executed successfully.", vbInformation\nEnd If

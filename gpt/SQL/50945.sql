@@ -1,1 +1,0 @@
-CREATE TABLE Matches (\n    TeamA VARCHAR(50),\n    TeamB VARCHAR(50),\n    PRIMARY KEY (TeamA, TeamB) -- This ensures uniqueness in the order (A, B)\n);

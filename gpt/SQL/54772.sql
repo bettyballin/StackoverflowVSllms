@@ -1,1 +1,0 @@
-SELECT p.pid, p.other_property_details\nFROM Property p\nJOIN Property_Feature pf ON p.pid = pf.pid\nJOIN Feature f ON pf.fid = f.fid\nWHERE f.name IN ('air conditioning', 'pool', 'laundry on-site')\nGROUP BY p.pid, p.other_property_details\nHAVING COUNT(DISTINCT f.name) = 3;

@@ -1,1 +1,0 @@
-SELECT * INTO newrole.mytable FROM dbo.mytable;

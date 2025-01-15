@@ -1,1 +1,0 @@
-<ItemGroup>\n      <Reference Include="RadChart.Net2">\n        <Aliases>OldTelerik</Aliases>\n      </Reference>\n      <Reference Include="Telerik.Web.UI">\n        <Aliases>NewTelerik</Aliases>\n      </Reference>\n    </ItemGroup>

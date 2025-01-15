@@ -1,1 +1,0 @@
-SELECT t1.COL1, t1.COL2, t1.COL3\nFROM your_table t1\nJOIN (\n    SELECT COL1, COL2\n    FROM your_table\n    GROUP BY COL1, COL2\n    HAVING COUNT(*) > 1\n) t2 ON t1.COL1 = t2.COL1 AND t1.COL2 = t2.COL2;

@@ -1,1 +1,0 @@
-SELECT CAST('<name>Spolsky &amp; Atwood</name>' AS xml)

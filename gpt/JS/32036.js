@@ -1,1 +1,0 @@
-function strpbrk(haystack, charList) {\n    for (let i = 0; i < haystack.length; i++) {\n        if (charList.includes(haystack[i])) {\n            return haystack.slice(i);\n        }\n    }\n    return false;\n}\n\n// Example usage\nconst haystack = "hello world";\nconst charList = "ow";\nconst result = strpbrk(haystack, charList);\nconsole.log(result); // Output: "o world"

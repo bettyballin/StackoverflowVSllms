@@ -1,1 +1,0 @@
--- Example of a parameterized query in SQL\nDECLARE @Value NVARCHAR(50) = 'SomeValue';\nSELECT * FROM Table WHERE Field = @Value;

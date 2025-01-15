@@ -1,1 +1,0 @@
-// Simple PHPUnit test example\n\nuse PHPUnit\Framework\TestCase;\n\nclass SampleTest extends TestCase\n{\n    public function testAddition()\n    {\n        $this->assertEquals(4, 2 + 2);\n    }\n}

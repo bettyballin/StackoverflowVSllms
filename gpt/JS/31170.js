@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $("#yourElement").fadeIn().css("filter", "alpha(opacity=50)").css("-ms-filter", "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)");\n    // or\n    $("#yourElement").fadeOut().css("filter", "alpha(opacity=50)").css("-ms-filter", "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)");\n});

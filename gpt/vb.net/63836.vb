@@ -1,1 +1,0 @@
-// Example of referencing a TLB file in Visual Basic\n   ' Reference the type library\n   Dim obj As New YourLibrary.YourClass

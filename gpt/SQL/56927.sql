@@ -1,1 +1,0 @@
--- Example: Setting a limit on rows fetched\nSELECT * FROM your_table FETCH FIRST 100 ROWS ONLY;

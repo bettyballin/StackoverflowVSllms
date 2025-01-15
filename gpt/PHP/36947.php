@@ -1,1 +1,0 @@
-$a->d = 'Five & Six'; // Automatically escapes to "Five &amp; Six"

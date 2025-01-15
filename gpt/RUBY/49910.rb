@@ -1,1 +1,0 @@
-# app/models/contact_form.rb\n   class ContactForm\n     include ActiveModel::Model\n\n     attr_accessor :name, :email, :message\n\n     validates :name, presence: true\n     validates :email, presence: true, format: { with: URI::MailTo::EMAIL_REGEXP }\n     validates :message, presence: true, length: { minimum: 10 }\n   end

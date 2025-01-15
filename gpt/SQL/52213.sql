@@ -1,1 +1,0 @@
-WITH ListingsToDelete AS (\n    SELECT \n        id, -- Assuming you have a primary key or unique identifier for each listing\n        city,\n        ROW_NUMBER() OVER (PARTITION BY city ORDER BY creation DESC) AS row_num\n    FROM \n        tREaltyTrac\n)\nDELETE FROM tREaltyTrac\nWHERE id IN (\n    SELECT id \n    FROM ListingsToDelete \n    WHERE row_num > 10\n);

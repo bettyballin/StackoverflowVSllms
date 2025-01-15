@@ -1,1 +1,0 @@
-SELECT d.department_id, d.department_name, e.employee_id, e.employee_name\nFROM employees e\nRIGHT OUTER JOIN departments d\nON e.department_id = d.department_id;

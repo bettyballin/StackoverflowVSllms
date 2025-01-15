@@ -1,1 +1,0 @@
-SELECT department, SUM(salary)\nFROM employees\nGROUP BY department;

@@ -1,1 +1,0 @@
-// Getting the input\n    $content = filter_input(INPUT_POST, 'content', FILTER_SANITIZE_STRING);\n\n    // Saving in the database\n    $stmt = $pdo->prepare("INSERT INTO posts (content) VALUES (:content)");\n    $stmt->execute(['content' => $content]);\n\n    // Displaying\n    echo nl2br(htmlspecialchars($content, ENT_QUOTES, 'UTF-8'));

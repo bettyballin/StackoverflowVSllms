@@ -1,1 +1,0 @@
-# spec/example_spec.rb\n   require 'rspec'\n\n   RSpec.describe 'Addition' do\n     it 'adds two numbers' do\n       expect(2 + 2).to eq(4)\n     end\n   end

@@ -1,1 +1,0 @@
-add_filter('paginate_links', 'convert_to_eastern_arabic_numerals');

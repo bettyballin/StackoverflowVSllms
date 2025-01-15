@@ -1,1 +1,0 @@
-$smarty->registerPlugin('function', 'make_menu', 'make_menu');

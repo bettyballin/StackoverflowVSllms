@@ -1,1 +1,0 @@
-TRANSFORM Max(Sales) AS MaxSales\n   SELECT Product\n   FROM SalesTable\n   GROUP BY Product\n   PIVOT Month IN ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");

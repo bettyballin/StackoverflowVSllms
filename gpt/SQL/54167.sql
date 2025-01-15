@@ -1,1 +1,0 @@
-SELECT REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(your_column, 'ñ', 'n'), 'á', 'a'), 'é', 'e'), 'í', 'i'), 'ó', 'o'), 'ú', 'u') AS modified_column\nFROM your_table;

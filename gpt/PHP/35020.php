@@ -1,1 +1,0 @@
-require 'vendor/autoload.php';\n\n    use Symfony\Component\VarDumper\VarDumper;\n\n    $object = $connection->query();\n    VarDumper::dump($object);

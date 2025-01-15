@@ -1,1 +1,0 @@
-<?php\nrequire_once dirname(__DIR__) . '/src/YourApplicationCode.php';\n// Your code here

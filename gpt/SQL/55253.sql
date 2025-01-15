@@ -1,1 +1,0 @@
-SELECT * \nFROM openquery( \n  filesystem2, \n  'SELECT \n     Path, Rank, Filename\n   FROM \n     SCOPE()\n   WHERE \n     CONTAINS('' FORMSOF (INFLECTIONAL, "test" ) '') and \n     Path like ''%e:\test\documents%''\n   ') b

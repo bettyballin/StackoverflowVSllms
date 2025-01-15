@@ -1,1 +1,0 @@
-$numerator = 10;\n$denominator = 3;\n\n$remainder = $numerator % $denominator;\n\necho "The remainder of $numerator divided by $denominator is $remainder.";

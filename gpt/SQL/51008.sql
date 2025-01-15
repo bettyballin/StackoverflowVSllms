@@ -1,1 +1,0 @@
-SELECT A.* FROM A, B WHERE A.id = B.a_id

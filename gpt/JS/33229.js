@@ -1,1 +1,0 @@
-xhr.open('GET', 'your-url-here', true);  // true for asynchronous

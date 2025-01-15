@@ -1,1 +1,0 @@
-<?php\nob_start(); // Start output buffering\ninclude 'header.php';\n\n// ... some code\n\nheader('Location: index.php');\nexit;\n?>

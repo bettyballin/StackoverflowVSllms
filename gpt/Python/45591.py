@@ -1,1 +1,0 @@
-# Example using Flask (Python)\nfrom flask import Flask, request, jsonify\nimport requests\n\napp = Flask(__name__)\n\n@app.route('/proxy')\ndef proxy():\n    remote_url = request.args.get('url')\n    response = requests.get(remote_url)\n    return response.text\n\nif __name__ == '__main__':\n    app.run()

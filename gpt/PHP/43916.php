@@ -1,1 +1,0 @@
-<?php\n\nclass ConcreteClass extends InterfaceClass\n{\n    // Implementation details...\n}\n\n// Usage example\n$instance = new UsesInterfaceClass();\n$concrete = new ConcreteClass();\n\n$instance->setObject($concrete); // This is valid\n\n$instance->setObject(new stdClass()); // This will throw a TypeError\n\n?>

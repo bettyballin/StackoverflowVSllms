@@ -1,1 +1,0 @@
-ini_set('session.cookie_httponly', 1); // Prevent JavaScript access to session cookie\n   ini_set('session.cookie_secure', 1); // Ensure the session cookie is only sent over HTTPS\n   ini_set('session.use_only_cookies', 1); // Disable URL-based sessions

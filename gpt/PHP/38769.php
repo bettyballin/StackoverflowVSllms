@@ -1,1 +1,0 @@
-class Controller_User extends Zend_Controller_Action {\n    public function indexAction() {\n        // Your code here\n    }\n}

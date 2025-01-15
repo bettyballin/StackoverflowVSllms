@@ -1,1 +1,0 @@
-javascript:(function(){let e=document.querySelectorAll("h1,h2,h3,h4,h5,h6"),t="";e.forEach(function(e){t+=e.textContent+"\n"}),alert(t)})();

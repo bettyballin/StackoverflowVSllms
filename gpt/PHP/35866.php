@@ -1,1 +1,0 @@
-$xmlString = "your XML string with NULL characters";\n\n// Remove NULL character\n$cleanedXmlString = str_replace("\0", "", $xmlString);\n\ntry {\n    $xml = new SimpleXMLElement($cleanedXmlString);\n    // Proceed with your logic using $xml\n} catch (Exception $e) {\n    echo 'Error: ', $e->getMessage();\n}

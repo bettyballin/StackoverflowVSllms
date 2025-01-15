@@ -1,1 +1,0 @@
-require 'ansi2html'\n\nansi_text = "\033[01;34mbin\033[00m\n\033[01;34mcode\033[00m\n\033[01;31mdropbox-lnx.x86-0.6.404.tar.gz\033[00m\nfoo"\nconverter = Ansi2Html::Convert.new\nhtml_output = converter.convert(ansi_text)\n\nputs html_output

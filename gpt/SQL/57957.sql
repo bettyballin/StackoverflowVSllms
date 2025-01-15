@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE APPS.wrapper_procedure IS\nBEGIN\n    MYSCHEMA.my_procedure;\nEND;\n/

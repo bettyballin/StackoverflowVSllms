@@ -1,1 +1,0 @@
-SELECT \n    COALESCE(TableC.key, TableB.key, TableA.key) AS key,\n    COALESCE(TableC.value, TableB.value, TableA.value) AS value\nFROM \n    TableA\nLEFT JOIN \n    TableB ON TableA.key = TableB.key\nLEFT JOIN \n    TableC ON TableA.key = TableC.key

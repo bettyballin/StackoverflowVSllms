@@ -1,1 +1,0 @@
-$('td > a.leftmenuitem:last-child, div > a.leftmenuitem:last-child')

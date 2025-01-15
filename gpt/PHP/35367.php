@@ -1,1 +1,0 @@
-class Person {\n       private $data = [];\n\n       public function __get($name) {\n           return isset($this->data[$name]) ? $this->data[$name] : null;\n       }\n\n       public function __set($name, $value) {\n           $this->data[$name] = $value;\n       }\n   }\n\n   $person = new Person();\n   $person->age = 30;\n   echo $person->age; // Outputs: 30

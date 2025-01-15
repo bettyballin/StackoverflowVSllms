@@ -1,1 +1,0 @@
-<?php\nfunction add($a, $b) {\n    return $a + $b;\n}\n\nfunction subtract($a, $b) {\n    return $a - $b;\n}\n\n// Usage\necho add(5, 3); // Outputs: 8\necho subtract(5, 3); // Outputs: 2\n?>

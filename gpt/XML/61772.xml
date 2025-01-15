@@ -1,1 +1,0 @@
-<configuration>\n      <connectionStrings>\n        <add name="YourConnectionStringName" connectionString="Server=YourServer;Database=YourDatabase;User Id=YourUser;Password=YourPassword;" />\n      </connectionStrings>\n      <!-- Other configurations -->\n    </configuration>

@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>\n   <phpdoc>\n       <files>\n           <directory>.</directory>\n           <ignore>vendor/*</ignore>\n       </files>\n       <parser>\n           <extensions>c</extensions>\n       </parser>\n       <transformer>\n           <target>docs</target>\n       </transformer>\n   </phpdoc>

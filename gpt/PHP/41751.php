@@ -1,1 +1,0 @@
-require_once dirname(__FILE__) . '/../dbaccess/db1.php';

@@ -1,1 +1,0 @@
-<dependency>\n       <groupId>org.thymeleaf</groupId>\n       <artifactId>thymeleaf</artifactId>\n       <version>3.0.12.RELEASE</version>\n   </dependency>

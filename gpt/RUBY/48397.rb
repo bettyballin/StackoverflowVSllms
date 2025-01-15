@@ -1,1 +1,0 @@
-# config/routes.rb\n   Rails.application.routes.draw do\n     get 'identity/:html_encoded_openid', to: 'identities#show', constraints: { html_encoded_openid: /[^\/]+/ }, format: false\n   end

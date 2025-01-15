@@ -1,1 +1,0 @@
-CREATE TABLE media_servers (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    server_name VARCHAR(255) NOT NULL,\n    server_url VARCHAR(255) NOT NULL,\n    free_space BIGINT NOT NULL\n);\n\nCREATE TABLE media_files (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    file_name VARCHAR(255) NOT NULL,\n    server_id INT,\n    FOREIGN KEY (server_id) REFERENCES media_servers(id)\n);

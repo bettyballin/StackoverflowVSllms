@@ -1,1 +1,0 @@
-require 'csv'\n\ns = "'apples,bananas','lemons'"\nresult = CSV.parse_line(s, quote_char: "'", col_sep: ",")\n# result is ["apples,bananas", "lemons"]\n\nputs result.inspect

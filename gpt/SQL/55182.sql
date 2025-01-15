@@ -1,1 +1,0 @@
-SELECT NVL(col1, NVL(col2, NVL(col3, 'default_value'))) AS result\nFROM your_table;

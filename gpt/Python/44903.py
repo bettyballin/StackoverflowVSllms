@@ -1,1 +1,0 @@
-import requests\n   \n   api_key = 'YOUR_API_KEY'\n   symbol = 'AAPL'\n   url = f'https://cloud.iexapis.com/stable/stock/{symbol}/financials?token={api_key}'\n   \n   response = requests.get(url)\n   data = response.json()\n   \n   print(data)

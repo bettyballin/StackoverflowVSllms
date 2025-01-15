@@ -1,1 +1,0 @@
--- Create a full-text index on the text column\nCREATE FULLTEXT INDEX idx_text_column ON your_table(text_column);\n\n-- Query using the full-text index\nSELECT *\nFROM your_table\nWHERE MATCH(text_column) AGAINST('key2=def');

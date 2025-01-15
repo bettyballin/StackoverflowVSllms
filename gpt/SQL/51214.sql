@@ -1,1 +1,0 @@
-SELECT CASE \n    WHEN decimal_number BETWEEN 0 AND 49.99 THEN '0-49.99'\n    WHEN decimal_number BETWEEN 50 AND 99.99 THEN '50-99.99'\n    WHEN decimal_number BETWEEN 100 AND 199.99 THEN '100-199.99'\n    WHEN decimal_number > 200 THEN 'Greater than 200'\n    ELSE 'Out of range'\nEND AS range_description\nFROM your_table_name;

@@ -1,1 +1,0 @@
-Dim MyTestString As String = "This is a test"\nDim Result() As String\n\nResult = MyTestString.Split(" "c, StringSplitOptions.RemoveEmptyEntries)\nMessageBox.Show(Result.Length.ToString)

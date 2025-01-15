@@ -1,1 +1,0 @@
-Public Class MvcApplication\n       Inherits System.Web.HttpApplication\n\n       Sub Application_Start()\n           AreaRegistration.RegisterAllAreas()\n           RouteConfig.RegisterRoutes(RouteTable.Routes)\n           ViewEngines.Engines.Add(New VbMvcViewEngine())\n       End Sub\n   End Class

@@ -1,1 +1,0 @@
-DELETE FROM your_table WHERE A IN (x, y, z);

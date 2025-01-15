@@ -1,1 +1,0 @@
-rails generate migration AddCommentsCountToPosts comments_count:integer

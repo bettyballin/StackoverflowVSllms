@@ -1,1 +1,0 @@
-CREATE INDEX idx_employee_name ON employees (last_name);

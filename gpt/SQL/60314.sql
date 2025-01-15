@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n    UserID INT PRIMARY KEY,\n    Name VARCHAR(50) NOT NULL,\n    -- other fields\n);

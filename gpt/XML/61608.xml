@@ -1,1 +1,0 @@
-<servlet>\n    <servlet-name>jsp</servlet-name>\n    <servlet-class>org.apache.jasper.servlet.JspServlet</servlet-class>\n    <init-param>\n        <param-name>development</param-name>\n        <param-value>true</param-value>\n    </init-param>\n</servlet>

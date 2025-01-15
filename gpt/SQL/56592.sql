@@ -1,1 +1,0 @@
-CREATE TABLE UserSessions (\n       UserId INT PRIMARY KEY,\n       SessionId NVARCHAR(128),\n       LastActivityDate DATETIME\n   );

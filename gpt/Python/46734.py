@@ -1,1 +1,0 @@
-def permute_array(arr):\n    n = len(arr)\n    for i in range(n):\n        while arr[i] != i:\n            arr[arr[i]], arr[i] = arr[i], arr[arr[i]]\n    return arr\n\n# Example usage\na = [3, 2, 0, 1]\nb = permute_array(a)\nprint(b)  # Output: [2, 3, 1, 0]

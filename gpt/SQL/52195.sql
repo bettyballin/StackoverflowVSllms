@@ -1,1 +1,0 @@
-SELECT MAX(TO_NUMBER(UNID)) AS max_unid\nFROM myTable;

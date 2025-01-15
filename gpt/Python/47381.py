@@ -1,1 +1,0 @@
-# Example in Python using threading\n    import threading\n\n    def worker():\n        print("Worker thread")\n\n    threads = []\n    for _ in range(5):\n        t = threading.Thread(target=worker)\n        threads.append(t)\n        t.start()\n\n    for t in threads:\n        t.join()

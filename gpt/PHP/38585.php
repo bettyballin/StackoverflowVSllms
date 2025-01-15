@@ -1,1 +1,0 @@
-use Cake\Http\Exception\NotFoundException;\n\npublic function someMethod($id) {\n    $data = $this->Model->get($id);\n    if (!$data) {\n        throw new NotFoundException(__('Data not found.'));\n    }\n\n    // Continue with the rest of the method\n}

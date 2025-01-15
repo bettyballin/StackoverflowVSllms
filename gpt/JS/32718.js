@@ -1,1 +1,0 @@
-// Create a new style element\nvar style = document.createElement('style');\n\n// Add CSS rules to the style element\nstyle.innerHTML = 'h1 { background: red; }';\n\n// Append the style element to the document head\ndocument.head.appendChild(style);

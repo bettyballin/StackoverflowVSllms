@@ -1,1 +1,0 @@
-CREATE TABLE messages (\n       id INT PRIMARY KEY AUTO_INCREMENT,\n       user_id INT,\n       content TEXT,\n       timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n       INDEX (timestamp)\n   );\n\n   CREATE TABLE message_index (\n       id INT PRIMARY KEY,\n       first_message_id INT,\n       last_message_id INT\n   );

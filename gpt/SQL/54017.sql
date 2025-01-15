@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION get_oracle_home RETURN VARCHAR2\nAS\n  LANGUAGE JAVA\n  NAME 'EnvVar.getEnvVar(java.lang.String) return java.lang.String';\n/

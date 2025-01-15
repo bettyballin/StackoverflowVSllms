@@ -1,1 +1,0 @@
-$latitude = "63.59072952118762"; // Notice it's a string now\n$stmt->bindParam(4, $latitude, PDO::PARAM_STR);

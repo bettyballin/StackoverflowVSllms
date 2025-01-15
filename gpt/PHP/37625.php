@@ -1,1 +1,0 @@
-$a = 10;\n   $b =& $a;\n   $b = 20;\n   echo $a; // Outputs 20

@@ -1,1 +1,0 @@
-# app/controllers/buildings_controller.rb\n\ndef update\n  @building = Building.find(params[:id])\n  @controls = @building.controls\n  respond_to do |format|\n    format.js # This will look for update.js.erb in views/buildings\n  end\nend

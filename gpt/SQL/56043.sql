@@ -1,1 +1,0 @@
-ALTER TABLE table1 ADD COLUMN new_column_name VARCHAR(255);\nALTER TABLE table2 ADD COLUMN new_column_name VARCHAR(255);\nALTER TABLE table3 ADD COLUMN new_column_name VARCHAR(255);

@@ -1,1 +1,0 @@
-SELECT \n    COUNT(ColumnName) AS CountValue, \n    AVG(ColumnName) AS AverageValue, \n    SUM(ColumnName) AS SumValue -- Add other aggregate functions as needed\nFROM \n    TableName;

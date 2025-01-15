@@ -1,1 +1,0 @@
-// Example in Python using hashlib\n    import hashlib\n\n    def get_file_checksum(file_path):\n        with open(file_path, "rb") as f:\n            file_hash = hashlib.sha256()\n            while chunk := f.read(8192):\n                file_hash.update(chunk)\n        return file_hash.hexdigest()

@@ -1,1 +1,0 @@
-<?php\n     // Assuming you have configured your server properly\n     if (isset($_SERVER['REMOTE_USER'])) {\n         $windowsUsername = $_SERVER['REMOTE_USER'];\n         echo "Authenticated as: " . htmlspecialchars($windowsUsername);\n     } else {\n         echo "Not authenticated";\n     }\n     ?>

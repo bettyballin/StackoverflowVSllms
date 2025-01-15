@@ -1,1 +1,0 @@
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-Y"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-XXXXXX-Y');\n</script>

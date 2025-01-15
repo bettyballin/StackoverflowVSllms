@@ -1,1 +1,0 @@
-echo "GET parameters:\n";\n    var_dump($_GET);\n    echo "Request parameters:\n";\n    var_dump($this->getRequest()->getParams());

@@ -1,1 +1,0 @@
-$mail->SMTPDebug = 2; // Enable verbose debug output\n   $mail->Debugoutput = 'html'; // Output to HTML for better readability

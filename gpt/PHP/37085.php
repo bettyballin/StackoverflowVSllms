@@ -1,1 +1,0 @@
-global $user;\n   if ($user->uid == 0) {\n       $key = 'foo';\n       if (isset($_SESSION[$key])) {\n           unset($_SESSION[$key]);\n       }\n   }

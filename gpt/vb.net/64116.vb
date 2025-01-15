@@ -1,1 +1,0 @@
-Dim query = From m In GetType(String).GetMethods() _\n            Where m.IsStatic = True _\n            Order By m.Name _\n            Group By name = m.Name Into g = Group _\n            Order By g.Count() _\n            Select New With { .name = name, .overloads = g.Count() }

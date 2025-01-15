@@ -1,1 +1,0 @@
-CREATE TABLE referrals (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    referrer_id INT NOT NULL,\n    referred_user_id INT NOT NULL,\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);

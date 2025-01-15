@@ -1,1 +1,0 @@
-<?php\n// clear.php\n\n$file = 'filelist.txt';\n\n// Open the file in write mode, which clears the file content\n$handle = fopen($file, 'w');\nfclose($handle);\n\n// Optionally, you can set a session or a query parameter to indicate success\nheader("Location: index.html?cleared=true");\nexit();\n?>

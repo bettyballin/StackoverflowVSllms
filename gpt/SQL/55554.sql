@@ -1,1 +1,0 @@
-CREATE TABLE ThreadList (\n    id INT PRIMARY KEY,\n    title VARCHAR(255)\n);\n\nCREATE TABLE Posts (\n    id INT PRIMARY KEY,\n    threadID INT,\n    userID INT,\n    content TEXT,\n    FOREIGN KEY (threadID) REFERENCES ThreadList(id)\n);\n\nCREATE TABLE ForumSettings (\n    userID INT PRIMARY KEY,\n    signature TEXT,\n    forumRank VARCHAR(255),\n    numberOfPosts INT\n);

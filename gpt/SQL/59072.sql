@@ -1,1 +1,0 @@
-WITH CTE AS (\n    SELECT \n        id,\n        ROW_NUMBER() OVER (PARTITION BY dupcol1, dupcol2 ORDER BY id) AS row_num\n    FROM table\n),\nExcessRows AS (\n    SELECT \n        id\n    FROM \n        CTE\n    WHERE \n        row_num > 2  -- Change 2 to 3 if you want to allow up to 3 duplicates\n)\nDELETE FROM table\nWHERE id IN (SELECT id FROM ExcessRows);

@@ -1,1 +1,0 @@
--- Insert a new survey\nINSERT INTO Surveys (Title) VALUES ('Customer Satisfaction Survey');\n\n-- Assume the new survey has SurveyID = 1\nINSERT INTO Questions (SurveyID, QuestionText) VALUES\n(1, 'How satisfied are you with our service?'),\n(1, 'Would you recommend our service to others?');

@@ -1,1 +1,0 @@
-<% @form.question_memberships.order(:position).each do |qm| %>\n  <% q_id = "question_#{qm.id}" %>\n  <li class="question" id=<%= q_id %> >\n    <div style="color: #999; font-size: 8pt">\n      <%=h qm.question.content %>\n    </div>\n  </li>\n  <%= draggable_element(q_id, :revert=>true) %>\n<% end %>

@@ -1,1 +1,0 @@
-Dim ds As New DataSet()\n' Populate your DataSet with data here.\n\nExportDataSetToExcel(ds, "C:\path\to\your\outputfile.txt")

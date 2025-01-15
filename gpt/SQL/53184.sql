@@ -1,1 +1,0 @@
-CREATE INDEX IX_Orders_UserID ON Orders(UserID);

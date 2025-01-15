@@ -1,1 +1,0 @@
-class FoosController < ApplicationController\n     # Skip CSRF token verification for the update action\n     skip_before_action :verify_authenticity_token, only: [:update]\n\n     def update\n       # Your update logic here\n     end\n   end

@@ -1,1 +1,0 @@
-require 'css_parser'\n   include CssParser\n\n   parser = CssParser::Parser.new\n   parser.load_file!('path/to/your/file.css')\n\n   parser.each_selector do |selector, declarations, specificity|\n     # You can write custom validation rules here\n     puts "Selector: #{selector}"\n     puts "Declarations: #{declarations}"\n   end

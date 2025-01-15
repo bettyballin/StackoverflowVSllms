@@ -1,1 +1,0 @@
-key = "width"\nvalue = 32\n\n# Create an empty list\nmylist = list()\n\n# Add the key/value pair to the list\nmylist[[key]] = value\n\n# Print the list to verify\nprint(mylist)

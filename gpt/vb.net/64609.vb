@@ -1,1 +1,0 @@
-Public Class Example\n    Public Property ID As Integer\n    Public Property Name As String\nEnd Class

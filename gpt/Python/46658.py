@@ -1,1 +1,0 @@
-#!/usr/bin/env python\nfrom bs4 import BeautifulSoup\nimport sys\n\nwith open('lt.html', 'r') as file:\n    soup = BeautifulSoup(file, 'html.parser')\n\nfor div in soup.find_all('div'):\n    print(div.get_text(strip=True))

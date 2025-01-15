@@ -1,1 +1,0 @@
-def myFunction(myDict, outerkey):\n    value = myDict[outerkey]\n    # some code to process the value\n    print(value)\n\n# Example usage\nmyDict = {\n    'outerkey1': {'innerkey1': 'value1', 'innerkey2': 'value2'},\n    'outerkey2': {'innerkey1': 'value3', 'innerkey2': 'value4'}\n}\n\nmyFunction(myDict, 'outerkey1')

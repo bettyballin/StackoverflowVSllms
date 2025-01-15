@@ -1,1 +1,0 @@
-SELECT SQL_CALC_FOUND_ROWS word_id\nFROM sentence_word\nGROUP BY word_id\nHAVING COUNT(sentence_id) > 100;

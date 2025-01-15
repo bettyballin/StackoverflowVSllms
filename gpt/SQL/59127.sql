@@ -1,1 +1,0 @@
-SELECT SUM(foo), DATE(mydate) as mydate\nFROM a_table\nGROUP BY DATE(mydate);

@@ -1,1 +1,0 @@
-<?php\n   $groovyCode = 'println "Hello from Groovy";';\n   file_put_contents('/tmp/script.groovy', $groovyCode);\n   echo shell_exec('groovy /tmp/script.groovy');\n   ?>

@@ -1,1 +1,0 @@
-Configure::write('Session', array(\n    'defaults' => 'php',\n    'cookie' => 'MY_SESSION_COOKIE',\n    'timeout' => 1440, // Session timeout in minutes\n    'ini' => array(\n        'session.cookie_httponly' => true,\n        'session.cookie_secure' => false, // Set to false to allow cookies over HTTP\n    ),\n));

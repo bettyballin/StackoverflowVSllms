@@ -1,1 +1,0 @@
-Dim scores = {10, 20, 30, 40, 50}\nDim thread As New Threading.Thread(Sub()\n                                       For Each score In scores\n                                           Console.WriteLine(score)\n                                       Next\n                                   End Sub)\nthread.Start()

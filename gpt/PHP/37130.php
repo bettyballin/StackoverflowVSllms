@@ -1,1 +1,0 @@
-function modifyString(&$str) {\n    $str .= " modified";\n}\n\n$originalString = "This is a string";\nmodifyString($originalString);\n\necho $originalString;  // Output: This is a string modified

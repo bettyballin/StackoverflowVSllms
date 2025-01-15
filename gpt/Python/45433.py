@@ -1,1 +1,0 @@
-import json\n\ntable_data = {\n    "columns": ["id", "name", "age"],\n    "rows": [\n        {"id": 1, "name": "Alice", "age": 30},\n        {"id": 2, "name": "Bob", "age": 25},\n        {"id": 3, "name": "Charlie", "age": 35}\n    ]\n}\n\ntable_json = json.dumps(table_data)

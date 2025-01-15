@@ -1,1 +1,0 @@
-' Form2 Code\nPublic Class Form2\n    ' Assuming TextBox2 is a public or accessible TextBox control on Form2\nEnd Class

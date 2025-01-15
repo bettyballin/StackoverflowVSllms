@@ -1,1 +1,0 @@
-SELECT \n    p.ID,\n    p.NAME,\n    GROUP_CONCAT(t.NAME ORDER BY t.NAME SEPARATOR ', ') AS TAGS\nFROM \n    page p\nLEFT JOIN \n    pagetag pt ON p.ID = pt.PAGEID\nLEFT JOIN \n    tag t ON pt.TAGID = t.ID\nGROUP BY \n    p.ID, p.NAME;

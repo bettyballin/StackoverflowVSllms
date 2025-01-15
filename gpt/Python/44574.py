@@ -1,1 +1,0 @@
-from django.urls import path, include\n\n     urlpatterns = [\n         ...\n         path('silk/', include('silk.urls', namespace='silk')),\n     ]

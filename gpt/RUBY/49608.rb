@@ -1,1 +1,0 @@
-# script/generate_emails.rb\nrequire 'faker'\n\ndef generate_emails(count)\n  emails = []\n  count.times do\n    emails << Faker::Internet.email\n  end\n  emails\nend\n\nemails = generate_emails(10_000)\nFile.open("test_emails.txt", "w") do |file|\n  emails.each { |email| file.puts(email) }\nend

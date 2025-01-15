@@ -1,1 +1,0 @@
-CREATE PROCEDURE YourStoredProcedure\nAS\nBEGIN\n    -- Check current user context\n    SELECT USER_NAME() AS CurrentUser;\n\n    -- Create temporary table\n    CREATE TABLE #Table1 (ID INT IDENTITY(1,1), Column1 VARCHAR(50));\n\n    -- Truncate and reseed the temporary table\n    TRUNCATE TABLE #Table1;\n    DBCC CHECKIDENT('#Table1', RESEED, 1) WITH NO_INFOMSGS;\nEND;

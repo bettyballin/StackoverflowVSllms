@@ -1,1 +1,0 @@
-public function configure() {\n    $this->widgetSchema['field'] = new sfWidgetFormSelect(\n        array("choices" => \n            array('1' => 'test1','2' => 'test2')\n        )\n    );\n\n    // Set the default value here\n    $this->setDefault('field', '1'); // '1' is the value of the option you want to be selected by default\n}

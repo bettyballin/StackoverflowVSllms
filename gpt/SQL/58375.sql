@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\nDELETE FROM parent_table WHERE id = 1;\n\n-- If the delete operation fails, the transaction will be rolled back\n-- and no changes will be made to either the parent or child tables.\n\nCOMMIT;

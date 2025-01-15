@@ -1,1 +1,0 @@
-<?php\n$pythonScript = 'path/to/your_script.py';\n$arg = escapeshellarg('your_argument');\n$output = shell_exec("python3 $pythonScript $arg 2>&1");\necho $output;\n?>

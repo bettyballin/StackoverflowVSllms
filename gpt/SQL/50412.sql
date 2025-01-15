@@ -1,1 +1,0 @@
-SELECT * \nFROM table1\nINNER JOIN table2 ON table1.id = table2.id;

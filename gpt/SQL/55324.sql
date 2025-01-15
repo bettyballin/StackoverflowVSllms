@@ -1,1 +1,0 @@
-INSERT INTO attributes (id, name, type) VALUES (1, 'email_two', 'email');\nINSERT INTO attributes (id, name, type) VALUES (2, 'phone_two', 'phone');

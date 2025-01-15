@@ -1,1 +1,0 @@
-CREATE PROCEDURE dbo.MyStoredProcedure\n    @MyTableParam dbo.MyTableType READONLY\nAS\nBEGIN\n    -- Procedure logic here\n    SELECT * FROM @MyTableParam;\nEND;

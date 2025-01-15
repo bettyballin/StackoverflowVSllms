@@ -1,1 +1,0 @@
-import subprocess\n\ndef ping(host):\n    # Use the system's ping command\n    process = subprocess.Popen(['ping', '-c', '4', host], stdout=subprocess.PIPE, stderr=subprocess.PIPE)\n    stdout, stderr = process.communicate()\n    \n    if process.returncode == 0:\n        print(stdout.decode())\n    else:\n        print(f"Ping failed: {stderr.decode()}")\n\nping('example.com')

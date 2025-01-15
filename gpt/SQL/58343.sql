@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n    UserID INT PRIMARY KEY,\n    UserName VARCHAR(50),\n    Email VARCHAR(100)\n);\n\nCREATE TABLE Orders (\n    OrderID INT PRIMARY KEY,\n    UserID INT,\n    OrderDate DATE,\n    Amount DECIMAL(10, 2),\n    FOREIGN KEY (UserID) REFERENCES Users(UserID)\n);\n\nCREATE INDEX idx_userid ON Orders(UserID);

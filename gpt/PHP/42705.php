@@ -1,1 +1,0 @@
-<?php\n    use PHPUnit\Framework\TestCase;\n\n    class CalculatorTest extends TestCase\n    {\n        public function testAdd()\n        {\n            $calculator = new Calculator();\n            $this->assertEquals(4, $calculator->add(2, 2));\n        }\n    }

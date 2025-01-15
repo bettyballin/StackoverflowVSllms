@@ -1,1 +1,0 @@
-CREATE OR REPLACE PACKAGE BODY JUMPTO AS\n  PROCEDURE procGetLocations(locations OUT t_locations) IS\n  BEGIN\n    OPEN locations FOR SELECT * FROM your_table; -- Replace 'your_table' with the actual table name\n  END procGetLocations;\nEND JUMPTO;\n/

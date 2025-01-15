@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE ORIGINAL_PROCEDURE()\nBEGIN\n    DECLARE rv INT;\n\n    -- Call the new procedure\n    CALL NEW_PROCEDURE(10, 'example', rv);\n\n    -- Use the return value (rv) as needed\n    -- Example: INSERT INTO another_table (column1) VALUES (rv);\nEND

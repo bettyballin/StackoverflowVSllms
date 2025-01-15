@@ -1,1 +1,0 @@
-import re\n\ndef remove_non_alphanumeric(input_string):\n    return re.sub(r'[^a-zA-Z0-9 ]', '', input_string)\n\n# Example usage\ninput_str = "Hello, World! 123"\ncleaned_str = remove_non_alphanumeric(input_str)\nprint(cleaned_str)  # Output: "Hello World 123"

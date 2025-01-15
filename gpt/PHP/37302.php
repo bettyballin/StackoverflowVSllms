@@ -1,1 +1,0 @@
-<!-- index.php -->\n   <?php include 'header.php'; ?>\n       <main>\n           <h2>Main Content</h2>\n           <p>This is the main content of the page.</p>\n       </main>\n   <?php include 'footer.php'; ?>

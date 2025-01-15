@@ -1,1 +1,0 @@
-function myFunction() {\n  // Your custom logic before the AJAX request\n  console.log("Function called before AJAX request");\n}

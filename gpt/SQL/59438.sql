@@ -1,1 +1,0 @@
-CREATE TABLE MyTable (\n    MyColumn NVarchar(50)\n);

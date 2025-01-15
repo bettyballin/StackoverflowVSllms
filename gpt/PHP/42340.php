@@ -1,1 +1,0 @@
-if (trim($username) === trim($sessionuser)) {\n    // Your code here\n    echo 'The usernames match!';\n}

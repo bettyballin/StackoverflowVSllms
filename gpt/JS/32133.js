@@ -1,1 +1,0 @@
-document.getElementById('myLink').addEventListener('click', function(event) {\n  event.preventDefault();\n  DoSomething();\n});

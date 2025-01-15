@@ -1,1 +1,0 @@
-Dim result As Integer\nresult = If(condition, ComputeValue1(), ComputeValue2())

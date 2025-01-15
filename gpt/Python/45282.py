@@ -1,1 +1,0 @@
-#!/usr/bin/env python\nfrom datetime import datetime\n\n# Example timestamp in milliseconds\ntimestamp_ms = 1241711346274\n\n# Convert milliseconds to seconds\ntimestamp_s = timestamp_ms / 1000.0\n\n# Create a datetime object from the timestamp\ndate_time = datetime.fromtimestamp(timestamp_s)\n\n# Print the human-readable date and time\nprint(date_time)

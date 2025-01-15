@@ -1,1 +1,0 @@
-EXPLAIN SELECT * FROM content_link WHERE category_id = '11';

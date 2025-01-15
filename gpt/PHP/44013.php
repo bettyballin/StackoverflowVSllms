@@ -1,1 +1,0 @@
-$roles = implode(',', $_POST['roles']);  // Assuming roles are passed in a POST request as an array

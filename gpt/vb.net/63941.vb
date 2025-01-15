@@ -1,1 +1,0 @@
-If condition Then\n      ' Code for truePart\n  Else\n      ' Code for falsePart\n  End If

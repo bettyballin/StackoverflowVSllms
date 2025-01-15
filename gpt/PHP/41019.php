@@ -1,1 +1,0 @@
-$data = getData();\n   // Process data\n   unset($data);

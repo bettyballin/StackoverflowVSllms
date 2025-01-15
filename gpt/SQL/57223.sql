@@ -1,1 +1,0 @@
-EXEC SQL BEGIN DECLARE SECTION;\n   char date_str[20];\n   EXEC SQL END DECLARE SECTION;\n\n   EXEC SQL SELECT TO_CHAR(date_column, 'YYYY-MM-DD') INTO :date_str FROM table_name;

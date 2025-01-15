@@ -1,1 +1,0 @@
-Public Class CustomLabel\n    Inherits Label\n\n    Public Property BorderColor As Color = Color.Black\n\n    Protected Overrides Sub OnPaint(e As PaintEventArgs)\n        MyBase.OnPaint(e)\n        ControlPaint.DrawBorder(e.Graphics, e.ClipRectangle, BorderColor, ButtonBorderStyle.Solid)\n    End Sub\nEnd Class

@@ -1,1 +1,0 @@
--- Drop the trigger if it exists\nIF EXISTS (SELECT * FROM sys.server_triggers WHERE name = 'PreventCertainCommands')\n    DROP TRIGGER PreventCertainCommands ON ALL SERVER;\nGO

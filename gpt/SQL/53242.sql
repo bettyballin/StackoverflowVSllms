@@ -1,1 +1,0 @@
-SELECT\n    TableA.column1 - TableB.column1 AS column1_difference,\n    TableA.column2 - TableB.column2 AS column2_difference\nFROM\n    TableA,\n    TableB;

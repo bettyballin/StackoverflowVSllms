@@ -1,1 +1,0 @@
-line = "section1\tsection2\tsection3"\n\nline.split("\t").each do |section|\n  # Process each section here\n  puts section\nend

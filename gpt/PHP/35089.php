@@ -1,1 +1,0 @@
-$alttitle = "35:title1,36:title2, 59:title5";\n$replacetitles = explode(",", $alttitle);\n$replacetitle = array();\n\nforeach ($replacetitles as $title) {\n    $parts = explode(":", trim($title));\n    if (count($parts) == 2) {\n        $replacetitle[$parts[0]] = $parts[1];\n    }\n}\n\nprint_r($replacetitle);

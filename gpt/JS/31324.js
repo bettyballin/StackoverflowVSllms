@@ -1,1 +1,0 @@
-(function() {\n    if (top !== self) {\n        try {\n            top.location.replace(self.location.href);\n        } catch (e) {\n            // If the attempt is blocked, set top as the current window\n            top = self;\n        }\n    }\n})();

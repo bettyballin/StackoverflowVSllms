@@ -1,1 +1,0 @@
-$('div:not(:has(*)), a:not(:has(*)), span:not(:has(*)), p:not(:has(*)), td:not(:has(*)), img:not(:has(*)), input:not(:has(*))').mousemove(myMouseOverHandler);

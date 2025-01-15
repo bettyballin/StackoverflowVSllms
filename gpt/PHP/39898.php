@@ -1,1 +1,0 @@
-// Instantiate the specific database class\n$database = new MySQLDatabase();\n$userDao = new UserDAO($database);\n\n// Create a new user\n$user = new User();\n$user->first = 'John';\n$user->last = 'Doe';\n$user->email = 'john.doe@example.com';\n\n// Save the user to the database\n$userDao->create($user);

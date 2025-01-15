@@ -1,1 +1,0 @@
-<Style x:Key="UnderlinedTextBlock" TargetType="TextBlock">\n    <Setter Property="FontFamily" Value="Trebuchet MS" />\n    <Setter Property="FontSize" Value="14" />\n    <Setter Property="TextDecorations" Value="Underline" />\n</Style>

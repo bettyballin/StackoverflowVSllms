@@ -1,1 +1,0 @@
-DECLARE @MyTableVar TABLE\n(\n    Column1 INT,\n    Column2 VARCHAR(50)\n);\n\n-- Insert data into the table variable\nINSERT INTO @MyTableVar\nSELECT Column1, Column2\nFROM SomeTable\nWHERE SomeCondition;\n\n-- Use the table variable in your queries\nSELECT *\nFROM @MyTableVar\nWHERE AnotherCondition;

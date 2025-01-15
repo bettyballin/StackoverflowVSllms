@@ -1,1 +1,0 @@
-// Example of loading DX Auth library in CodeIgniter\n   $this->load->library('dx_auth');

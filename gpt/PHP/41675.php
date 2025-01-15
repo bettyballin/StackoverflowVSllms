@@ -1,1 +1,0 @@
-<?php\n$array = [\n    "" => 1,\n    "key1" => 2,\n    "key2" => 3\n];\n\n// Print the array before unsetting\nprint_r($array);\n\n// Unset the element with an empty string key\nunset($array[""]);\n\n// Print the array after unsetting\nprint_r($array);\n?>

@@ -1,1 +1,0 @@
-class Application_Model_DbTable_User extends Zend_Db_Table_Abstract {\n    protected $_name = 'users';\n}\n\n// Usage\n$userTable = new Application_Model_DbTable_User();\n$user = $userTable->fetchRow($userTable->select()->where('id = ?', 1));\necho $user->username;

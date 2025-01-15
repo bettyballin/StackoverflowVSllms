@@ -1,1 +1,0 @@
-<?php\n   session_start();\n\n   if (!isset($_SESSION['user_id'])) {\n       header("Location: login.php");\n       exit();\n   }\n\n   echo "Welcome, you are logged in!";\n   ?>

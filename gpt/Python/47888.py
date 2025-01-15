@@ -1,1 +1,0 @@
-import psycopg2\nimport psycopg2.extensions\n\nvalue = "Unsafe string"\nconn = psycopg2.connect("dbname=test user=postgres password=secret")\nquoted_value = psycopg2.extensions.quote_literal(value)\n\nquery = f"SELECT * FROM some_table WHERE some_char_field = {quoted_value};"\ncursor = conn.cursor()\ncursor.execute(query)

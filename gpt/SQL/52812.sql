@@ -1,1 +1,0 @@
-SELECT count(predicate), subject FROM TableA GROUP BY subject INTO OUTFILE '/absolute/path/to/output.txt';

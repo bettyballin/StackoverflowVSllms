@@ -1,1 +1,0 @@
-<?php\n// Check if a specific cookie is set\nif(isset($_COOKIE['cookie_name'])) {\n    // Retrieve the cookie value\n    $cookie_value = $_COOKIE['cookie_name'];\n    echo "Cookie value: " . htmlspecialchars($cookie_value);\n} else {\n    echo "Cookie 'cookie_name' is not set.";\n}\n?>

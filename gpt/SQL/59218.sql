@@ -1,1 +1,0 @@
--- Using plural table names\nCREATE TABLE Users (\n    UserID INT PRIMARY KEY,\n    UserName NVARCHAR(100) NOT NULL\n);\n\nCREATE TABLE Orders (\n    OrderID INT PRIMARY KEY,\n    UserID INT FOREIGN KEY REFERENCES Users(UserID),\n    OrderDate DATETIME NOT NULL\n);

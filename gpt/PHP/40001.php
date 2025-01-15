@@ -1,1 +1,0 @@
-<?php\n     $environment = getenv('APP_ENV') ?: 'dev'; // default to 'dev' if not set\n     $config = require __DIR__ . "/config.{$environment}.php";

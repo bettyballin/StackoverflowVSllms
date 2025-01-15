@@ -1,1 +1,0 @@
-urlbase = "http://mybugzilla.ddns.net/"

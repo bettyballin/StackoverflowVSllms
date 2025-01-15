@@ -1,1 +1,0 @@
-CREATE TEMPORARY TABLE temp_table (id INT);\n    \n    -- Insert the list of integers into the temporary table\n    INSERT INTO temp_table (id) VALUES (1), (2), (3), ... , (n);\n    \n    -- Use a JOIN to retrieve the results\n    SELECT t.*\n    FROM table t\n    JOIN temp_table tt ON t.x = tt.id;\n    \n    -- Drop the temporary table\n    DROP TEMPORARY TABLE temp_table;

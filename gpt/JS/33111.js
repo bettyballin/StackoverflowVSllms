@@ -1,1 +1,0 @@
-<script language="JavaScript">\n    random_imglink();\n</script>

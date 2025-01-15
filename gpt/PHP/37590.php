@@ -1,1 +1,0 @@
-<?php \n$user = $_SESSION['user']; // Assuming you have the username stored in session\n$article = $articles[$index];\n$hasVoted = $article->has_voted($user);\n?>\n\n<img src="images/<?php echo $hasVoted ? 'voted.png' : 'vote.png'; ?>" alt="Vote Image" id="vote_<?php echo $article->getId(); ?>">

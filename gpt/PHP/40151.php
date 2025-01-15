@@ -1,1 +1,0 @@
-<?php\n$method = 'post';\n\n$method = strtoupper($method);\necho $method . 'test1';\n\n$method = '_' . $method;\necho $method . 'test2';\n\n$method = $GLOBALS[$method];\necho json_encode($method) . 'test3';\n?>

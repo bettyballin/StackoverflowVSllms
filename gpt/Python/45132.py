@@ -1,1 +1,0 @@
-def iterate(i):\n    found = False\n    for value in i:\n        found = True\n        yield value\n    if not found:\n        print('i is empty')

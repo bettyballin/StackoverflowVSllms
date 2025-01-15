@@ -1,1 +1,0 @@
-<?php\n$arrayA = array(1, 2, 3);\n$arrayB = array(2, 3, 4, 5);\n\n$result = array_diff($arrayB, $arrayA);\n\nprint_r($result);\n?>

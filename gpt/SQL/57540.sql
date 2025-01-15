@@ -1,1 +1,0 @@
-SELECT * FROM Requirements\n    WHERE Requirements.Release NOT LIKE '%Obsolete%'\n    ORDER BY \n        CAST(SUBSTRING_INDEX(ReqNum, '.', 1) AS UNSIGNED),\n        CAST(SUBSTRING_INDEX(SUBSTRING_INDEX(ReqNum, '.', 2), '.', -1) AS UNSIGNED),\n        CAST(SUBSTRING_INDEX(SUBSTRING_INDEX(ReqNum, '.', 3), '.', -1) AS UNSIGNED)

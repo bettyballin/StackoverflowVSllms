@@ -1,1 +1,0 @@
-// uploading.php\n   <?php\n   include 'inc.php';\n\n   // Example variable\n   $yourVariable = "some_large_data";\n\n   // Store the variable in session\n   $_SESSION['yourVariable'] = $yourVariable;\n   ?>

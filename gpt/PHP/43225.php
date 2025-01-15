@@ -1,1 +1,0 @@
-<?php\n\nrequire 'vendor/autoload.php';\n\nuse Whoops\Run;\nuse Whoops\Handler\PrettyPageHandler;\n\n$whoops = new Run;\n$whoops->pushHandler(new PrettyPageHandler);\n$whoops->register();\n\n// Example code to trigger an error\necho $undefined_variable;

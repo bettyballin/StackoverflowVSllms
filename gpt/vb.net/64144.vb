@@ -1,1 +1,0 @@
-Public Shared Function GetConcessions(ByVal Countries As String()) As IEnumerable\n    Return (From t In New Db().Concessions _\n            Where Countries.Contains(t.Country) _\n            Select t.ConcessionID, t.Title, t.Country)\nEnd Functio

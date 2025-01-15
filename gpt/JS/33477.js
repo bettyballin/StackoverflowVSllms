@@ -1,1 +1,0 @@
-var citySelect = document.getElementById('city');\ncitySelect.options.length = 0; // Clear existing options\n\nvar newOption = document.createElement('option');\nnewOption.value = 'test';\nnewOption.text = 'This is a test';\n\ntry {\n    citySelect.add(newOption, null); // Standards compliant\n} catch(ex) {\n    citySelect.add(newOption); // IE only\n}

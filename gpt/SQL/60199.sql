@@ -1,1 +1,0 @@
-ALTER DATABASE [YourDatabaseName] SET MULTI_USER;

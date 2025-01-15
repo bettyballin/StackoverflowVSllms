@@ -1,1 +1,0 @@
-$user = JFactory::getUser();\n\nif ($user->id == 0) {\n    echo "User is not logged in.";\n} else {\n    echo "User is logged in.";\n}

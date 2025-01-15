@@ -1,1 +1,0 @@
-SELECT name, age, email\nFROM users\nWHERE status = 'active'\nFETCH FIRST 10 ROWS ONLY;

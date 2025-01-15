@@ -1,1 +1,0 @@
-<label><?php echo $translations['first_name']; ?></label>\n   <input type="text" name="first_name">\n\n   <label><?php echo $translations['last_name']; ?></label>\n   <input type="text" name="last_name">\n\n   <p><?php echo $translations['operation_not_allowed']; ?></p>

@@ -1,1 +1,0 @@
-Dim sql As String\n\nsql = "UPDATE analyzedCopy2 SET analyzedCopy2.DateRange = '4/21/2009 to 4/29/2009'"\n\n' Execute the SQL statement\nCurrentDb.Execute sql

@@ -1,1 +1,0 @@
-// Example of PSR-4 autoloading\n    namespace App\Model;\n\n    class User {\n        // Class methods and properties\n    }

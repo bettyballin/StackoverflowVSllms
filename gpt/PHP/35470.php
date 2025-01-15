@@ -1,1 +1,0 @@
-<?php namespace App\Controllers;\n\nclass Home extends BaseController\n{\n    public function index()\n    {\n        return view('welcome_message');\n    }\n}

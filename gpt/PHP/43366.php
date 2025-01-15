@@ -1,1 +1,0 @@
-$odb_conn = new COM("ADODB.Connection");\n  $connstr = "DRIVER={Microsoft Access Driver (*.mdb)}; DBQ=". $db_path.";";\n  $odb_conn->open($connstr);

@@ -1,1 +1,0 @@
-import hashlib\n\n   def compute_full_file_hash(file_path):\n       hash_algo = hashlib.sha256()\n       with open(file_path, 'rb') as f:\n           while chunk := f.read(8192):\n               hash_algo.update(chunk)\n       return hash_algo.hexdigest()

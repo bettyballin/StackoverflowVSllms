@@ -1,1 +1,0 @@
-DECLARE @NewId INT;\n\nINSERT INTO table (foreign_key1, value)\nOUTPUT INSERTED.key_field INTO @NewId\nVALUES (9, 'text');\n\nSELECT @NewId AS NewIdentityValue;

@@ -1,1 +1,0 @@
-<?php\n$string = 'ä';\necho mb_strlen($string, 'UTF-8'); // Output: 1\n?>

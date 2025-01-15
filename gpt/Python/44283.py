@@ -1,1 +1,0 @@
-import bz2\n\nwith bz2.BZ2File('example.bz2', 'r') as file:\n    file.seek(1000)  # Seek to 1000 bytes in the compressed file\n    data = file.read(100)\n    print(data)

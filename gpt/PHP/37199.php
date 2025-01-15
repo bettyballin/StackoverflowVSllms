@@ -1,1 +1,0 @@
-$mysqli = new mysqli("localhost", "username", "password", "database");\n\n   if ($mysqli->connect_error) {\n       die("Connection failed: " . $mysqli->connect_error);\n   }\n\n   // Set the charset to utf8mb4\n   if (!$mysqli->set_charset("utf8mb4")) {\n       printf("Error loading character set utf8mb4: %s\n", $mysqli->error);\n       exit();\n   }

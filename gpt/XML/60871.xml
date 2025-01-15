@@ -1,1 +1,0 @@
-<configuration>\n  <connectionStrings configProtectionProvider="DataProtectionConfigurationProvider">\n    <EncryptedData>\n      <!-- Encrypted data here -->\n    </EncryptedData>\n  </connectionStrings>\n</configuration>

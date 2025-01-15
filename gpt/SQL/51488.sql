@@ -1,1 +1,0 @@
-SELECT \n    '<![CDATA[' + 'http://foosite.com/' + RTRIM(li.imageStore)\n    + '/ImageStore.dll?id=' + RTRIM(li.imageID)\n    + '&raw=1&rev=' + RTRIM(li.imageVersion) + ']]>' AS imageUrl\nFROM ListingImages li\nFOR XML PATH ('image'), ROOT ('images'), TYPE

@@ -1,1 +1,0 @@
-DELETE t1\nFROM Table1 t1\nINNER JOIN Table2 t2\nON t1.column1 = t2.column1\nAND t1.column2 = t2.column2\nAND t1.column3 = t2.column3\n-- add more columns as needed to ensure the rows are exact duplicates

@@ -1,1 +1,0 @@
-Dim result As Integer\nIf condition Then\n    result = ComputeValue1()\nElse\n    result = ComputeValue2()\nEnd If

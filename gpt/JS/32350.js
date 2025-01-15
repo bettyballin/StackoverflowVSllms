@@ -1,1 +1,0 @@
-const FB = require('fb');\nFB.setAccessToken('your-access-token');\n\nFB.api('me', function (res) {\n  if(!res || res.error) {\n    console.log(!res ? 'error occurred' : res.error);\n    return;\n  }\n  console.log(res);\n});

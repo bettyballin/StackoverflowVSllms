@@ -1,1 +1,0 @@
-$myClass = new $this->to_construct();

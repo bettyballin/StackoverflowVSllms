@@ -1,1 +1,0 @@
-SELECT\n    session_id,\n    host_name,\n    program_name,\n    login_name,\n    status,\n    start_time\nFROM\n    sys.dm_exec_sessions\nWHERE\n    program_name = 'YourApplicationName'

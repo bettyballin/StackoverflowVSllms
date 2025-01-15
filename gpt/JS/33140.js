@@ -1,1 +1,0 @@
-<script>\n    window.addEventListener("message", (event) => {\n        if (event.origin !== "https://parent.com") return;\n        const token = event.data.token;\n        // Use the token for authentication\n    }, false);\n</script>

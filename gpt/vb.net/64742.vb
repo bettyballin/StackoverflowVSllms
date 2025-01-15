@@ -1,1 +1,0 @@
-Sub ExportFormAsPDF()\n    Dim strFilePath As String\n    strFilePath = "C:\Path\To\Save\FormOutput.pdf"\n    \n    DoCmd.OutputTo acOutputForm, "YourFormName", acFormatPDF, strFilePath\nEnd Sub

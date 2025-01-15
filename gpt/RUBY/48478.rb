@@ -1,1 +1,0 @@
-# config/initializers/conditional_gem_loading.rb\n\nif Rails.env.development?\n  require 'facebooker'\n  require 'flickraw'\nend

@@ -1,1 +1,0 @@
-$id = $request->getParam('id', 'default_value');

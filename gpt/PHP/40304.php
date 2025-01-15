@@ -1,1 +1,0 @@
-$array = array();\n$array[7] = 37;\n$array[19] = 98;\n$array[42] = 22;\n$array[68] = 14;\n\n// Sort the array in descending order\narsort($array);\n\n// Get the first element of the sorted array\n$highestValue = reset($array);\n\necho $highestValue; // Outputs: 98

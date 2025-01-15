@@ -1,1 +1,0 @@
-data = [\n    {"name": "Jessica", "activity": "Walking", "duration": "20 minutes"},\n    {"name": "Matthew", "activity": "Run", "duration": "10 minutes"}\n]\n\nwith open('output.txt', 'w') as file:\n    for record in data:\n        file.write(f"{record['name']:<10} {record['activity']:<10} {record['duration']}\n")

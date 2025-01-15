@@ -1,1 +1,0 @@
-# Octal literals in Python 3.x\noctal_value1 = 0o27   # equivalent to 23 in decimal\noctal_value2 = 0O27   # equivalent to 23 in decimal\n\nprint(octal_value1)  # Output: 23\nprint(octal_value2)  # Output: 23

@@ -1,1 +1,0 @@
-Public Class CustomForm\n    Inherits Form\n\n    Protected Overrides Sub OnLoad(ByVal e As EventArgs)\n        MyBase.OnLoad(e)\n        Me.Cursor = Cursors.WaitCursor\n    End Sub\n\n    Protected Overrides Sub OnShown(ByVal e As EventArgs)\n        MyBase.OnShown(e)\n        Me.Cursor = Cursors.Default\n    End Sub\nEnd Class

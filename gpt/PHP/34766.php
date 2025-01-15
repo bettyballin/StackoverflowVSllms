@@ -1,1 +1,0 @@
-$input = 'Monkey,"Blue Monkey", "Red, blue and \"Green'",  \'Red, blue and "Green\'\'';\n$pattern = '/\s*(\'[^\']*\'|"[^"]*"|[^,]+)\s*/';\npreg_match_all($pattern, $input, $matches);\n$arguments = $matches[1];\n\nprint_r($arguments);

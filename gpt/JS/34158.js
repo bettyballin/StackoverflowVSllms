@@ -1,1 +1,0 @@
-const http = require('http');\n\n   http.createServer((req, res) => {\n     res.writeHead(200, {\n       'Content-Type': 'text/event-stream',\n       'Cache-Control': 'no-cache',\n       'Connection': 'keep-alive'\n     });\n\n     setInterval(() => {\n       res.write(`data: ${new Date().toISOString()}\n\n`);\n     }, 1000);\n   }).listen(8080);

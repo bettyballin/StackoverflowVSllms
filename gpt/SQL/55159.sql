@@ -1,1 +1,0 @@
-SELECT DISTINCT DATE(timestamp_column) AS date_only\nFROM your_table\nORDER BY date_only;

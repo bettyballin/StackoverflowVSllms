@@ -1,1 +1,0 @@
-def excel_column_to_number(column_title):\n    result = 0\n    for char in column_title:\n        result = result * 26 + (ord(char) - ord('A') + 1)\n    return result\n\n# Example Usage\ncolumn_title = "AABCCE"\nprint(f"The column number for {column_title} is {excel_column_to_number(column_title)}")

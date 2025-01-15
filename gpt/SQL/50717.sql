@@ -1,1 +1,0 @@
-UPDATE table_name\nSET column_name = UPPER(column_name);

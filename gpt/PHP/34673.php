@@ -1,1 +1,0 @@
-$count_sql = preg_replace("/SELECT\s+.*?\s+FROM/si", "SELECT COUNT(*) FROM", $sql);

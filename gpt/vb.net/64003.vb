@@ -1,1 +1,0 @@
-Namespace Model1Namespace\n    Partial Public Class MyTable\n        ' Properties and methods for Model1's MyTable\n        Public Sub New()\n            ' Initialization for Model1's MyTable\n        End Sub\n    End Class\nEnd Namespace

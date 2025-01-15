@@ -1,1 +1,0 @@
-RESTORE DATABASE RM_DB_NEW\n   FROM DISK = 'C:\Backups\RM_DB.bak'\n   WITH MOVE 'RM_DB_Data' TO 'C:\Data\RM_DB_NEW.mdf',\n        MOVE 'RM_DB_Log' TO 'C:\Logs\RM_DB_NEW.ldf';

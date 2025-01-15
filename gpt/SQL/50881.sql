@@ -1,1 +1,0 @@
-CREATE TEMPORARY TABLE temp_ids (id INTEGER);

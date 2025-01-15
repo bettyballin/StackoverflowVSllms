@@ -1,1 +1,0 @@
-import scipy.spatial\n   import numpy as np\n\n   def generate_voronoi(width, height, num_points):\n       points = np.random.rand(num_points, 2) * [width, height]\n       vor = scipy.spatial.Voronoi(points)\n       return vor

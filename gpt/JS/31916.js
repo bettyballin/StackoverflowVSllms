@@ -1,1 +1,0 @@
-function deleteId(id) {\n    alert("ID : " + id);\n    new Ajax.Request('delete.php?action=Delete&id=' + id, {\n        method: 'get',\n        onSuccess: function() {\n            $(id).remove(); // because <tr id='".$row[id]."'> :)\n        }\n    });\n}

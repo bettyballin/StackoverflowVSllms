@@ -1,1 +1,0 @@
-SELECT *\nFROM messages\nWHERE messageTime >= SYSDATE - 1;

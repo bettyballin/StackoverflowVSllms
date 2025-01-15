@@ -1,1 +1,0 @@
-EXEC sp_generate_inserts \n    @table_name = 'Orders',\n    @from = 'SELECT * FROM Orders WHERE OrderID BETWEEN 100 AND 110',\n    @identity = 1,\n    @include_column_list = 1,\n    @include_timestamp = 0;

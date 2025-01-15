@@ -1,1 +1,0 @@
--- Normalized tables\nCREATE TABLE users (\n    id INT PRIMARY KEY,\n    name VARCHAR(100)\n);\n\nCREATE TABLE orders (\n    id INT PRIMARY KEY,\n    user_id INT,\n    product VARCHAR(100),\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);

@@ -1,1 +1,0 @@
-DELETE FROM person WHERE person_id = 0;\nDELETE FROM person WHERE person_id = 1;

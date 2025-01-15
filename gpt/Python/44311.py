@@ -1,1 +1,0 @@
-from System import Type, Activator\nfrom System.Runtime.InteropServices import Marshal, COMException\n\n# Example to create a COM object\ntry:\n    com_type = Type.GetTypeFromProgID("Your.COM.ProgID")\n    com_object = Activator.CreateInstance(com_type)\n    # Use com_object as needed\nexcept COMException as com_ex:\n    print(f"COM Exception occurred: {com_ex}")

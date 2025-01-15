@@ -1,1 +1,0 @@
--- Example SQL for creating separate schemas\n   CREATE SCHEMA demo;\n   CREATE SCHEMA live;

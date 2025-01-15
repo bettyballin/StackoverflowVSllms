@@ -1,1 +1,0 @@
-DECLARE @response NVARCHAR(MAX);\nEXEC dbo.CallWebServiceFromSQL @url = N'http://example.com/api', @response = @response OUTPUT;\nSELECT @response;

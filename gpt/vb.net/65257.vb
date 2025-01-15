@@ -1,1 +1,0 @@
-Module Module1\n    Sub Main()\n        System.Diagnostics.Process.Start("C:\path\to\your\document.pdf")\n    End Sub\nEnd Module

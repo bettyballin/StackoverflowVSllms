@@ -1,1 +1,0 @@
-<?php\n// Read the email from stdin\n$email = file_get_contents('php://stdin');\n\n// Parse and process the email content\n// For example, save it to a file or log it\nfile_put_contents('/path/to/save/email.txt', $email);\n?>

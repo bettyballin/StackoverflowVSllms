@@ -1,1 +1,0 @@
-$config['sess_use_database'] = TRUE;

@@ -1,1 +1,0 @@
-if (!preg_match("/^([0-9a-z_\[\]\*\- ])+$/i", $subuser)) {\n    $form->setError($field, "* Username not alphanumeric");\n}

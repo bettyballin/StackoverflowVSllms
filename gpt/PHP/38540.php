@@ -1,1 +1,0 @@
-$qry = "SELECT * \n        FROM school \n        WHERE display = 'Y' \n        AND announcement IS NOT NULL \n        ORDER BY name, announcement, last_update";

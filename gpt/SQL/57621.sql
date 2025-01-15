@@ -1,1 +1,0 @@
-SELECT search_mode, COUNT(*) AS search_count\nFROM search_statistics\nGROUP BY search_mode;

@@ -1,1 +1,0 @@
-CREATE TABLE Card (\n    ID INT PRIMARY KEY,\n    Name VARCHAR(255)\n);\n\nCREATE TABLE Property (\n    ID INT PRIMARY KEY,\n    Keyword VARCHAR(255),\n    Value VARCHAR(255)\n);\n\nCREATE TABLE CardProperty (\n    CardID INT,\n    PropertyID INT,\n    FOREIGN KEY (CardID) REFERENCES Card(ID),\n    FOREIGN KEY (PropertyID) REFERENCES Property(ID)\n);

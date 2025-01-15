@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE CONCAT(column1, column2) = 'desired_string';

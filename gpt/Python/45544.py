@@ -1,1 +1,0 @@
-import pandas as pd\n\n# Read the CSV file\ndf = pd.read_csv('your_file.csv')

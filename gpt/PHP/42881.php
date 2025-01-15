@@ -1,1 +1,0 @@
-$query = CustomerQuery::create()->withCompletedOrdersCount();\n$customers = $query->find();\n\nforeach ($customers as $customer) {\n    $customer->setCompletedOrdersCount($customer->getVirtualColumn('CompletedOrdersCount'));\n}

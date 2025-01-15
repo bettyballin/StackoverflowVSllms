@@ -1,1 +1,0 @@
-SELECT * \nFROM MyView \nWHERE MyCol IS NOT NULL AND MyCol = 1;

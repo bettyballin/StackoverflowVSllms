@@ -1,1 +1,0 @@
-<com.google.android.maps.MapView\n    android:id="@+id/mymapview"\n    android:layout_width="match_parent"\n    android:layout_height="match_parent"\n    android:clickable="true"\n    android:apiKey="YOUR_GOOGLE_MAPS_API_KEY" />

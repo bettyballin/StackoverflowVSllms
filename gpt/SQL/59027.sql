@@ -1,1 +1,0 @@
-CREATE PROCEDURE Dummy\n    @ID INT\nAS\nBEGIN\n    -- Check if @ID is NULL\n    IF @ID IS NULL\n    BEGIN\n        -- Raise an error if @ID is NULL\n        RAISERROR ('Parameter @ID cannot be NULL', 16, 1);\n        RETURN;\n    END\n\n    -- Stored procedure logic here\n\nEND

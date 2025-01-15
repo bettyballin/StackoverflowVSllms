@@ -1,1 +1,0 @@
-CREATE TABLE salesforce_customers (\n         customer_id INT PRIMARY KEY,\n         tenant_id INT,\n         customer_name TEXT,\n         ...\n     );\n\n     CREATE TABLE salesforce_orders (\n         order_id INT PRIMARY KEY,\n         tenant_id INT,\n         order_details TEXT,\n         ...\n     );

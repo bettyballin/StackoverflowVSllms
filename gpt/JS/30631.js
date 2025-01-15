@@ -1,1 +1,0 @@
-var functionOne = function() {\n    // Some code\n};

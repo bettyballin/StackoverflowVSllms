@@ -1,1 +1,0 @@
-from mymodel import Base  # Import your Base from the model file\n      target_metadata = Base.metadata

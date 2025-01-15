@@ -1,1 +1,0 @@
-<?xml version="1.0"?>\n   <configuration>\n       <appSettings>\n           <add key="ClientName" value="YourClientName" />\n           <add key="LogoPath" value="Path/To/Logo.png" />\n       </appSettings>\n   </configuration>

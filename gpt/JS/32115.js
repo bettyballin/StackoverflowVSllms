@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded', (event) => {\n    // Your initialization code here\n    main();\n});\n\nfunction main() {\n    // Initialize your components\n    console.log("DOM fully loaded and parsed");\n}

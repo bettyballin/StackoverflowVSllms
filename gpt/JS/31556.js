@@ -1,1 +1,0 @@
-xhr.open("POST", "http://example.com/api", true);\n    xhr.send(data);

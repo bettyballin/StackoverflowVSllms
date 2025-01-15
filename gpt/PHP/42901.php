@@ -1,1 +1,0 @@
-<?php\n$post_array = array(\n    'one' => array(\n        0 => 'foo',\n        1 => 'bar'\n    ),\n    'two' => array(\n        'key' => 'something'\n    ),\n);\n\n$post_string = http_build_query($post_array, '', '&', PHP_QUERY_RFC3986);\necho $post_string;\n?>

@@ -1,1 +1,0 @@
-CREATE TABLE JohnDoe_Table1 (\n       -- table definition\n   );\n\n   CREATE TABLE JohnDoe_Table2 (\n       -- table definition\n   );

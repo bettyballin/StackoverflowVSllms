@@ -1,1 +1,0 @@
--- Grant SELECT permission on the underlying views\nGRANT SELECT ON People.vtPersons TO Staff_User;\nGRANT SELECT ON People.vtPhoneNumbers TO Staff_User;\n\n-- The Staff_User already has SELECT permission on the vwContactInformation view\n-- GRANT SELECT ON People.vwContactInformation TO Staff_User; -- This is already done

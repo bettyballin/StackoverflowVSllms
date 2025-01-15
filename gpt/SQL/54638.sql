@@ -1,1 +1,0 @@
-DELETE FROM Tree\nWHERE NodeID = @NodeID OR ParentID = @NodeID; -- Deletes the node and its immediate childre

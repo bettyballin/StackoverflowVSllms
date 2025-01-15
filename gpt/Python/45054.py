@@ -1,1 +1,0 @@
-def concatenate(*args):\n    return ''.join(args)\n\nprint(concatenate('hello', ' ', 'world'))  # Output: 'hello world'

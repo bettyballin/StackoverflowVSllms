@@ -1,1 +1,0 @@
-def split_file(file_path, chunk_size):\n    with open(file_path, 'rb') as file:\n        chunk_number = 0\n        while True:\n            chunk = file.read(chunk_size)\n            if not chunk:\n                break\n            with open(f'{file_path}.part{chunk_number}', 'wb') as chunk_file:\n                chunk_file.write(chunk)\n            chunk_number += 1

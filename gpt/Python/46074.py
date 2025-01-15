@@ -1,1 +1,0 @@
-# test_your_program.py\n    def test_functional():\n        # Setup environment\n        ...\n        # Execute your program\n        result = subprocess.run(['python', 'your_program.py'], capture_output=True, text=True)\n        assert 'expected output' in result.stdout

@@ -1,1 +1,0 @@
-# Start the Rails console\nrails console\n\n# Load the controller you want to test\ncontroller = YourController.new\n\n# Call a method on the controller\ncontroller.your_method

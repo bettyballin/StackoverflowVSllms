@@ -1,1 +1,0 @@
-function displayApple2($str) {\n    if ($str == 'apple') {\n        echo $str;\n    }\n    return;\n}

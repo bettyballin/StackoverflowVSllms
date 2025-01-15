@@ -1,1 +1,0 @@
-INSERT INTO TableName (ID, Name, ItemID)\nVALUES (27, 'John Brown', 102)\nON DUPLICATE KEY UPDATE\nName = VALUES(Name),\nItemID = VALUES(ItemID);

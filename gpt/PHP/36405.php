@@ -1,1 +1,0 @@
-$file = '/path/to/your/file';\n\nif ($handle = fopen($file, 'r')) {\n    // Successfully opened the file\n    // Your code here\n    fclose($handle);\n} else {\n    echo "Failed to open the file.";\n}

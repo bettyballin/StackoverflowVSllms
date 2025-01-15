@@ -1,1 +1,0 @@
-class GamesController < ApplicationController\n  def show\n    @game = Game.find(params[:id])\n\n    case params[:view]\n    when 'full'\n      render xml: @game.full_xml\n    when 'history'\n      render xml: @game.history_xml\n    else\n      render xml: @game.default_xml\n    end\n  end\nend

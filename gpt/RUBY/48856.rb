@@ -1,1 +1,0 @@
-<% if @scroll_to_section %>\n  <script>\n    document.addEventListener("DOMContentLoaded", function() {\n      var sectionId = "<%= j @scroll_to_section %>";\n      var element = document.getElementById(sectionId);\n      if (element) {\n        element.scrollIntoView({ behavior: 'smooth' });\n      }\n    });\n  </script>\n<% end %>

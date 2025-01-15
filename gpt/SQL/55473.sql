@@ -1,1 +1,0 @@
-SELECT DISTINCT posts.id, posts.title, posts.content\nFROM posts\nWHERE posts.id NOT IN (\n    SELECT post_id\n    FROM tags\n    WHERE tag LIKE '%$keywords%'\n);

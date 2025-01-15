@@ -1,1 +1,0 @@
-import socket\nimport struct\n\n# Initialize client socket\nclient_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\nclient_socket.connect(('localhost', 12345))\n\n# Receive data\ndata = client_socket.recv(4)  # Size of a float is 4 bytes\nret_val = struct.unpack('f', data)[0]\nprint(f"Received float value: {ret_val}")\n\n# Close connection\nclient_socket.close()

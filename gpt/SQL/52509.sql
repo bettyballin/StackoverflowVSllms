@@ -1,1 +1,0 @@
-CREATE TABLE words (\n    id SERIAL PRIMARY KEY,\n    word VARCHAR NOT NULL,\n    contributor INTEGER NOT NULL,\n    CONSTRAINT fk_contributor FOREIGN KEY (contributor) REFERENCES contributors(id)\n);

@@ -1,1 +1,0 @@
-CREATE VIEW ActiveRecords AS\nSELECT * FROM YourTable\nWHERE isActive = 1;

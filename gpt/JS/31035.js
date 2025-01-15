@@ -1,1 +1,0 @@
-$.ajax({\n    url: 'your-endpoint-url',\n    type: 'GET',\n    success: function(response) {\n        console.log('Success:', response);\n    },\n    error: function(error) {\n        console.error('Error:', error);\n    }\n});

@@ -1,1 +1,0 @@
-import numpy as np\n\n    # Example dataset\n    X = np.array([[1, 1], [1, 2], [2, 2], [2, 3]])\n    y = np.dot(X, np.array([1, 2])) + 3\n\n    # Adding the intercept term\n    X = np.c_[np.ones(X.shape[0]), X]\n\n    # Calculating the coefficients using the normal equation\n    theta = np.linalg.inv(X.T @ X) @ X.T @ y\n    print("Coefficients:", theta)

@@ -1,1 +1,0 @@
-CREATE INDEX idx_cover_stock ON Stock(OrderID, ProductCode, Status, SKU) INCLUDE (SKU, ProductCode);\nCREATE INDEX idx_cover_order ON [Order](OrderID, Customer, OrderDate) INCLUDE (OrderDate);\nCREATE INDEX idx_cover_items ON Items(ProductCode) INCLUDE (Name);

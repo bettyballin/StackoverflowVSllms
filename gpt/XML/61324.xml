@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.mockito</groupId>\n    <artifactId>mockito-core</artifactId>\n    <version>3.11.2</version>\n    <scope>test</scope>\n</dependency>

@@ -1,1 +1,0 @@
-Sub RemoveVBAPassword()\n    Dim vbProj As Object\n    Set vbProj = ThisWorkbook.VBProject\n    \n    ' Provide the correct password here\n    vbProj.Password = "YourKnownPassword"\n\n    ' Remove protection\n    vbProj.Protection = vbext_pp_none\n\n    ' Save the workbook to apply changes\n    ThisWorkbook.Save\nEnd Sub

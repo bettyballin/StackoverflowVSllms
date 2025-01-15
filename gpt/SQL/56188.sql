@@ -1,1 +1,0 @@
-CREATE TABLE linked_list (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    value VARCHAR(255) NOT NULL,\n    next_id INT DEFAULT NULL,\n    FOREIGN KEY (next_id) REFERENCES linked_list(id)\n);

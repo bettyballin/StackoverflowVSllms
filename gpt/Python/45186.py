@@ -1,1 +1,0 @@
-from django.urls import path\nfrom .views import geojson_view\n\nurlpatterns = [\n    path('geojson/', geojson_view, name='geojson_view'),\n    # Other URL patterns\n]

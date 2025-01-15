@@ -1,1 +1,0 @@
-echo $this->url(array(\n    'controller' => 'mycontroller',\n    'action' => 'myaction',\n    'category' => 'aaa',\n    'param' => 'value'\n), 'category');

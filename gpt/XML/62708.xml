@@ -1,1 +1,0 @@
-<dependency>\n       <groupId>org.apache.oltu.oauth2</groupId>\n       <artifactId>org.apache.oltu.oauth2.client</artifactId>\n       <version>1.0.2</version>\n   </dependency>

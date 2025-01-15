@@ -1,1 +1,0 @@
--- Assign a value to the session variable\nSET @var_name := (SELECT id FROM table1 WHERE some_column='something' LIMIT 1);\n\n-- Insert the value into table2\nINSERT INTO table2 (`number`) VALUES (@var_name);

@@ -1,1 +1,0 @@
-' In Visual Studio, go to Project Properties\n     ' Select the Debug tab\n     ' Uncheck the "Enable the Visual Studio hosting process" optio

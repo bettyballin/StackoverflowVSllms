@@ -1,1 +1,0 @@
-WITH ranked_cars AS (\n    SELECT\n        make,\n        model,\n        year,\n        other_columns,\n        ROW_NUMBER() OVER (PARTITION BY make, model ORDER BY year DESC) AS rn\n    FROM\n        cars\n)\nSELECT\n    make,\n    model,\n    year,\n    other_columns\nFROM\n    ranked_cars\nWHERE\n    rn = 1;

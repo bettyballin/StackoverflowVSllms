@@ -1,1 +1,0 @@
--- Step 1: Create the database link\nCREATE DATABASE LINK prod_db_link\nCONNECT TO username IDENTIFIED BY password\nUSING 'prod_db_tns_entry';\n\n-- Step 2: Create the table using SELECT from the remote database\nCREATE TABLE tmp_table AS SELECT * FROM prod_schema.table@prod_db_link;

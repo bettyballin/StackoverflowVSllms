@@ -1,1 +1,0 @@
-function resetElementStyles(element) {\n    element.removeAttribute('style'); // Remove all inline styles\n    element.className = ''; // Clear all classes\n}\n\n// Example usage:\nvar myElement = document.querySelector('div');\nresetElementStyles(myElement);

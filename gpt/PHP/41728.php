@@ -1,1 +1,0 @@
-function renderTemplate($templateFile, $variables) {\n          extract($variables);\n          ob_start();\n          include $templateFile;\n          return ob_get_clean();\n      }\n\n      $output = renderTemplate('template.php', ['SCRIPT' => 'script.php', 'STATUS' => 'Sorry, wrong password.']);\n      echo $output;

@@ -1,1 +1,0 @@
-fetch('https://your-server-domain.com/your-endpoint')\n  .then(response => response.json())\n  .then(data => console.log(data))\n  .catch(error => console.error('Error:', error));

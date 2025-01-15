@@ -1,1 +1,0 @@
-SELECT \n    SEC_TO_TIME(SUM(TIMESTAMPDIFF(SECOND, start_time, end_time))) AS total_duration\nFROM \n    events;

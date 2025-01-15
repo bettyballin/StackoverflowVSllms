@@ -1,1 +1,0 @@
-"use strict";\n   let secureVar = 'This is a secure variable';

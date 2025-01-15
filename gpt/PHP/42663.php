@@ -1,1 +1,0 @@
-// Using PDO for database interaction\n$stmt = $pdo->prepare('SELECT * FROM users WHERE username = :username');\n$stmt->execute(['username' => $sanitized_input]);

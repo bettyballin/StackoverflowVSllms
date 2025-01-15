@@ -1,1 +1,0 @@
-Dim obj As MyClass = New MyClass()\nobj.DoSomething()

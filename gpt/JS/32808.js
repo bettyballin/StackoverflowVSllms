@@ -1,1 +1,0 @@
-if (condition) {\n  var link = document.createElement('link');\n  link.rel = 'stylesheet';\n  link.type = 'text/css';\n  link.href = 'mycss.css';\n  document.head.appendChild(link);\n}

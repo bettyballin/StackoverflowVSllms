@@ -1,1 +1,0 @@
-<?php\ninclude 'session_handler.php';\n\n// Now you can use $_SESSION as usual\n$_SESSION['key'] = 'value';\necho $_SESSION['key'];\n?>

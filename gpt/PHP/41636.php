@@ -1,1 +1,0 @@
-$content = preg_replace_callback(\n    '/[\x80-\xff]/',\n    function ($matches) {\n        return "&#" . ord($matches[0]) . ";";\n    },\n    $content\n);

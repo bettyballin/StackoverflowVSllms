@@ -1,1 +1,0 @@
-INSERT INTO items (other_field) VALUES (NULL);

@@ -1,1 +1,0 @@
-use GuzzleHttp\Client;\n\n   $client = new Client();\n   $response = $client->request('GET', 'https://api.example.com');\n   echo $response->getBody();

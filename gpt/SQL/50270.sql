@@ -1,1 +1,0 @@
-SELECT \n    timestamp, \n    user_id, \n    event, \n    object_type, \n    object_id, \n    details\nFROM \n    audit_log\nWHERE \n    event = 'update'\n    AND object_type = 'invoice'\n    AND timestamp BETWEEN '2023-01-01' AND '2023-01-31'\nORDER BY \n    timestamp DESC;

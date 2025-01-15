@@ -1,1 +1,0 @@
-function doSomething() {\n    console.log("Not in debug mode!");\n}\n\nconst isDebugMode = process.execArgv.some(arg => arg.includes('--inspect'));\n\nif (!isDebugMode) {\n    doSomething();\n}

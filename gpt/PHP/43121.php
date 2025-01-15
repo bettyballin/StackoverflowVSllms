@@ -1,1 +1,0 @@
-$cFormatter = new NumberFormatter('en_US', NumberFormatter::CURRENCY);\n$cFormatter->setTextAttribute(NumberFormatter::NEGATIVE_PREFIX, "-¤");\n$cFormatter->setTextAttribute(NumberFormatter::NEGATIVE_SUFFIX, "");\necho $cFormatter->formatCurrency(-456, 'USD');

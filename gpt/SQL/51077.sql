@@ -1,1 +1,0 @@
-SELECT ID, InsertedTime\nFROM YourTable\nORDER BY RowOrder;

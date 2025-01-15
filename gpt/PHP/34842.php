@@ -1,1 +1,0 @@
-class ProjectConfiguration extends sfProjectConfiguration\n{\n  public function setup()\n  {\n    $this->enableAllPluginsExcept(array('sfPropelPlugin', 'sfCompat10Plugin'));\n  }\n}

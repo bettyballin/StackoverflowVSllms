@@ -1,1 +1,0 @@
-<%\nDim connectionString\nconnectionString = "Provider=SQLOLEDB;Data Source=IP_Address,Port;Initial Catalog=TestDB;User ID=SqlUser;Password=userpass;"\n%>

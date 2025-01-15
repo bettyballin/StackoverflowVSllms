@@ -1,1 +1,0 @@
-data = [\n    [1, 'Al', 3],\n    [2, 'Bea', 2],\n    [3, 'Chan', 1],\n    [4, 'Doug', 2],\n    [5, 'Ed', 3],\n    [6, 'Fey', 1],\n]\n\n# Sort the array by the third column in descending order\nsorted_data = sorted(data, key=lambda x: x[2], reverse=True)\n\nprint(sorted_data)

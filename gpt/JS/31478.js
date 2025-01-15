@@ -1,1 +1,0 @@
-const base64Data = "data:image/jpg;base64," + "A".repeat(2 * 1024 * 1024); // 2 MB of 'A's\nconst img = new Image();\nimg.src = base64Data;\ndocument.body.appendChild(img);

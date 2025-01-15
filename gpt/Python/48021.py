@@ -1,1 +1,0 @@
-engine = create_engine('mysql+pymysql://username:password@localhost/dbname')\nBase.metadata.create_all(engine)\nSession = sessionmaker(bind=engine)\nsession = Session()

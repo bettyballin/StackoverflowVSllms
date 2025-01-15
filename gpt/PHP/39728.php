@@ -1,1 +1,0 @@
-// Example of chunked output\n$output = "This is a very large content..."; // Imagine this is a large content\n\n$chunk_size = 1024; // Define chunk size\n$length = strlen($output);\n\nfor ($i = 0; $i < $length; $i += $chunk_size) {\n    echo substr($output, $i, $chunk_size);\n}

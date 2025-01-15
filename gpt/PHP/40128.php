@@ -1,1 +1,0 @@
-<?php\nheader("Cache-Control: no-cache, must-revalidate");\nheader("Content-Type: image/jpeg");\nreadfile('path_to_your_image.jpg');\n?>

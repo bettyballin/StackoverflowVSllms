@@ -1,1 +1,0 @@
-Dim currentTime As DateTime = DateTime.Now\nIf currentTime.ToString("tt") = "AM" Then\n    Response.Write("Morning")\nElse\n    Response.Write("Afternoon")\nEnd If

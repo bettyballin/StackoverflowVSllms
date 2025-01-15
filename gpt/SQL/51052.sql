@@ -1,1 +1,0 @@
-SELECT ... \nFROM your_table \nWHERE YEAR(posted) = 2009 AND MONTH(posted) = 6;

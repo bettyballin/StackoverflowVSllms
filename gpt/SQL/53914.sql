@@ -1,1 +1,0 @@
-CREATE TABLE NewTableName (\n    Column1 varchar(length),\n    Column2 varchar(length),\n    -- define all columns with appropriate data types\n);

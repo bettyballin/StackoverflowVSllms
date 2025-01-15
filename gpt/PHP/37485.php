@@ -1,1 +1,0 @@
-spl_autoload_register(function ($class) {\n    $file = str_replace('_', DIRECTORY_SEPARATOR, $class) . '.php';\n    if (file_exists($file)) {\n        include $file;\n    } else {\n        // Handle the error appropriately\n        throw new Exception("Class file for {$class} not found.");\n    }\n});

@@ -1,1 +1,0 @@
-header('Content-Type: text/html; charset=UTF-8');\n   \n   // For MySQL\n   $mysqli = new mysqli("localhost", "user", "password", "database");\n   $mysqli->set_charset("utf8");

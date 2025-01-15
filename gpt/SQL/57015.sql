@@ -1,1 +1,0 @@
-mysql -u your_username -p\n    USE your_database_name;\n    SHOW TABLES;

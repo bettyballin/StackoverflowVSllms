@@ -1,1 +1,0 @@
-Private Async Sub StartUploadProcess()\n    Await PerformUploadAsync()\nEnd Sub

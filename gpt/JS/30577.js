@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded', (event) => {\n    document.querySelectorAll('table').forEach(table => table.remove());\n});

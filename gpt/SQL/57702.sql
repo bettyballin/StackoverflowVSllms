@@ -1,1 +1,0 @@
-INSERT INTO products (product_id, origin, production_date, type, daily_id)\nVALUES (1, 'X44', TO_DATE('2021-07-01', 'YYYY-MM-DD'), '555', 3434);\n\nINSERT INTO products (product_id, origin, production_date, type, daily_id)\nVALUES (2, 'XBR', TO_DATE('2021-07-02', 'YYYY-MM-DD'), 'A26', 5002);

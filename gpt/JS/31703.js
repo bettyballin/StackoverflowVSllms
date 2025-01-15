@@ -1,1 +1,0 @@
-!!fn && typeof fn != "string" && !fn.nodeName && fn.constructor != Array && /^[\s[]?function/.test( fn + "" )

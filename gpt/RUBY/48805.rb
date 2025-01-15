@@ -1,1 +1,0 @@
-rails generate model Vertex name:string\nrails generate model Edge vertex1_id:integer vertex2_id:integer

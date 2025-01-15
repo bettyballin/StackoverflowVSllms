@@ -1,1 +1,0 @@
-sqlite3 my_new_app_db.sqlite3\nsqlite> .read export.sqlite3.sql

@@ -1,1 +1,0 @@
-DECLARE @NoneSelectedGuid UNIQUEIDENTIFIER = '00000000-0000-0000-0000-000000000000';\n\n   INSERT INTO login (id, username) VALUES (@NoneSelectedGuid, 'None Selected');\n\n   CREATE TABLE client (\n       id UNIQUEIDENTIFIER DEFAULT NEWSEQUENTIALID() PRIMARY KEY,\n       admin_login_id UNIQUEIDENTIFIER DEFAULT @NoneSelectedGuid NOT NULL\n   );

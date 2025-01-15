@@ -1,1 +1,0 @@
-chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {\n    if (changeInfo.url && tab.url.includes("sharepoint.thecompany.net")) {\n        console.log("User is currently viewing: " + tab.url);\n        // Here you can send the URL to your C# application using an HTTP request or another method\n    }\n});

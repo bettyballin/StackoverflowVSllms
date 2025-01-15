@@ -1,1 +1,0 @@
-rubocop\n   reek\n   simplecov

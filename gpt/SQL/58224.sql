@@ -1,1 +1,0 @@
-select a.id, b.id, b.address_1\nfrom person a, address b\nwhere a.id = b.id

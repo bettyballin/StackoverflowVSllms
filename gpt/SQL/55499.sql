@@ -1,1 +1,0 @@
-SELECT \n    name, \n    object_id, \n    type_desc\nFROM \n    sys.objects\nWHERE \n    type IN ('FN', 'TF');

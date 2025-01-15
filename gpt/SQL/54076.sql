@@ -1,1 +1,0 @@
-INSERT INTO tbl_test (id, poly)\n   VALUES (1, ST_GeomFromText('POLYGON((0 0, 10 10, 10 0, 0 0))', 4326));

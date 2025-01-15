@@ -1,1 +1,0 @@
-$array = [\n    "name" => "John",\n    "age" => 30,\n    "address" => [\n        "city" => "New York",\n        "zip" => "10001"\n    ]\n];\n\n// Serialize\n$serializedData = serialize($array);\nfile_put_contents('cache.txt', $serializedData);\n\n// Unserialize\n$serializedData = file_get_contents('cache.txt');\n$array = unserialize($serializedData);

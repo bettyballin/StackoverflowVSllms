@@ -1,1 +1,0 @@
-date_default_timezone_set('UTC'); // Set to your server's timezone or desired timezone

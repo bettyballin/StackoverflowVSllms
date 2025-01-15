@@ -1,1 +1,0 @@
-<!-- index.php -->\n<?php\ninclude 'child_template.php';\n?>

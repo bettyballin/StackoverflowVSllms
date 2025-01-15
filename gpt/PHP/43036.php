@@ -1,1 +1,0 @@
-<?php\n// Set a cookie named "example" with the value "value" that expires in 1 hour\nsetcookie("example", "value", time() + 3600, "/", "", false, true);\n?>

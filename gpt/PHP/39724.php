@@ -1,1 +1,0 @@
-function SomeFunction($data) {\n    print_r($data);\n}\n\n// Assuming $_POST is empty or not set.\nSomeFunction($_POST ? $_POST : array()); // Output: Array ( )

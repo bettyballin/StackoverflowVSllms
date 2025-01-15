@@ -1,1 +1,0 @@
-$attrStart = '<ATTR>';\n$attrEnd = '</ATTR>';\n$newLine = "\n";\n\nwhile ($item = current($data)) {\n    echo $attrStart, $item, $attrEnd, $newLine;\n    next($data);\n}

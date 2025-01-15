@@ -1,1 +1,0 @@
-"name" => $row['name'] == "" ? "-" : $row['name']

@@ -1,1 +1,0 @@
-Array\n(\n    [gif] => Array\n        (\n            [0] => gif\n            [1] => 0\n        )\n    [jpg] => Array\n        (\n            [0] => jpeg\n            [1] => 90\n        )\n    [jpeg] => Array\n        (\n            [0] => jpeg\n            [1] => 90\n        )\n    [png] => Array\n        (\n            [0] => png\n            [1] => 8\n        )\n)

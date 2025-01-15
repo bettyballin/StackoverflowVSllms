@@ -1,1 +1,0 @@
-def factorial(num):\n    """Computes the factorial of num."""\n    if not isinstance(num, int) or num < 0:\n        raise ValueError("Input must be a non-negative integer.")\n    if num == 0 or num == 1:\n        return 1\n    result = 1\n    for i in range(2, num + 1):\n        result *= i\n    return result

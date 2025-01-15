@@ -1,1 +1,0 @@
-CREATE TABLE Fruits (\n       id INT PRIMARY KEY,\n       name VARCHAR(255) NOT NULL\n   );

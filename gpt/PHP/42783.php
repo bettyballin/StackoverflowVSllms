@@ -1,1 +1,0 @@
-use PhpParser\ParserFactory;\n\n   $parser = (new ParserFactory)->create(ParserFactory::PREFER_PHP7);\n   try {\n       $stmts = $parser->parse($userCode);\n       // Analyze and sanitize $stmts\n   } catch (PhpParser\Error $e) {\n       echo 'Parse Error: ', $e->getMessage();\n   }

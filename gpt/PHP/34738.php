@@ -1,1 +1,0 @@
-$test1 = "d85d1d81b25614a3504a3d5601a9cb2e";\n$test2 = "3581169b064f71be1630b321d3ca318f";\n\nif ((string)$test1 === "0") {\n  echo "Test 1 is Equal!?"; // This will not echo because $test1 is not "0"\n}\nif ((string)$test2 === "0") {\n  echo "Test 2 is Equal!?"; // This will not echo because $test2 is not "0"\n}

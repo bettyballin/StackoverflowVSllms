@@ -1,1 +1,0 @@
-// Send the height of the content to the parent window\nwindow.onload = function() {\n    var height = document.body.scrollHeight;\n    parent.postMessage(height, '*'); // * can be replaced with the specific domain of the parent\n};

@@ -1,1 +1,0 @@
-SELECT p.id, p.name\nFROM parent p\nJOIN relationship r ON p.id = r.parent_id\nWHERE r.other_id IN (1, 2)\nGROUP BY p.id, p.name\nHAVING COUNT(DISTINCT r.other_id) = 2;

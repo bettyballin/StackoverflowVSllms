@@ -1,1 +1,0 @@
-import quopri\n\nencoded_str = """\n<html><body>some text some text some text some= some text some text some text some text som<ta= ble>some text some text some text some text <t= r><td...\n"""\n\ndecoded_str = quopri.decodestring(encoded_str).decode('utf-8')\nprint(decoded_str)

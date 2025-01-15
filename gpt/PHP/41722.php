@@ -1,1 +1,0 @@
-<?php\nforeach ($array as $key => $value) {\n    if ($key === "") {\n        unset($array[$key]);\n    }\n}

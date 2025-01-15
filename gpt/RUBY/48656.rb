@@ -1,1 +1,0 @@
-# app/workers/event_worker.rb\n     class EventWorker\n       include Sidekiq::Worker\n\n       def perform(event_data)\n         event = Event.create(event_data)\n         ActionCable.server.broadcast 'events_channel', event\n       end\n     end

@@ -1,1 +1,0 @@
-DECLARE @sql NVARCHAR(MAX);\n\nSET @sql = 'SELECT Year, 1 AS Week, Week1 AS Sales FROM SalesData';\n\nDECLARE @i INT = 2;\nWHILE @i <= 52\nBEGIN\n    SET @sql = @sql + ' UNION ALL SELECT Year, ' + CAST(@i AS NVARCHAR(2)) + ' AS Week, Week' + CAST(@i AS NVARCHAR(2)) + ' AS Sales FROM SalesData';\n    SET @i = @i + 1;\nEND\n\nEXEC sp_executesql @sql;

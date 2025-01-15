@@ -1,1 +1,0 @@
-$facebook->api_client->profile_setFBML(NULL, 128009, 'profile', NULL, 'mobile_profile', 'profile_main');

@@ -1,1 +1,0 @@
-$username = 'john';\n$age = 25;

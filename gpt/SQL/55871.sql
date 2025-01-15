@@ -1,1 +1,0 @@
-SELECT \n        blocking_session_id AS BlockingSessionID,\n        session_id AS VictimSessionID,\n        wait_type,\n        wait_time,\n        wait_resource\n    FROM sys.dm_exec_requests\n    WHERE blocking_session_id <> 0;

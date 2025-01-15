@@ -1,1 +1,0 @@
-# file1.py\ndef shared_function(arg1, arg2):\n    # Function implementation\n    pass\n\ndef other_function1():\n    # Uses shared_function\n    shared_function(1, 2)\n\n# file2.py\ndef shared_function(arg1, arg2):\n    # Same implementation as in file1\n    pass\n\ndef other_function2():\n    # Uses shared_function\n    shared_function(3, 4)

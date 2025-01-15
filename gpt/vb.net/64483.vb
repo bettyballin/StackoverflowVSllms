@@ -1,1 +1,0 @@
-Protected Overrides Sub OnStart(ByVal args() As String)\n        System.Diagnostics.Debugger.Break()\n        ' Your initialization code here\n    End Sub

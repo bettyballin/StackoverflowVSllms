@@ -1,1 +1,0 @@
-SELECT * FROM AdventureWorksSS.dbo.TableName\nWHERE ColumnName = 'DeletedRecordValue';

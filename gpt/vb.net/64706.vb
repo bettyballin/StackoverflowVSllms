@@ -1,1 +1,0 @@
-' Class Module: MyFunctions\nPublic Function FuncA(x As String) As String\n    FuncA = "FuncA: " & x\nEnd Function\n\nPublic Function FuncB(x As String) As String\n    FuncB = "FuncB: " & x\nEnd Functio

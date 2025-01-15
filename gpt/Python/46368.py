@@ -1,1 +1,0 @@
-import couchdb\n\n# Connect to CouchDB\ncouch = couchdb.Server('http://localhost:5984/')\ndb = couch['your_couchdb_database']\n\n# Fetch all documents\ndocs = [doc for doc in db]

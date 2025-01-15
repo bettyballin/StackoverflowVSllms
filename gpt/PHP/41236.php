@@ -1,1 +1,0 @@
-<?php\n    $dsn = 'dblib:host=your_sql_server_host;dbname=your_database_name';\n    $username = 'your_username';\n    $password = 'your_password';\n\n    try {\n        $dbh = new PDO($dsn, $username, $password);\n        echo "Connected successfully";\n    } catch (PDOException $e) {\n        echo 'Connection failed: ' . $e->getMessage();\n    }\n    ?>

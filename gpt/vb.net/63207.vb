@@ -1,1 +1,0 @@
-Dim oZip As New ZipTerr.ZIPTerr\noZip.Url = "https://test.test.com/ZIPTerr/ZIPTerr.asmx"\noZip.PreAuthenticate = True\noZip.Credentials = New System.Net.NetworkCredential("username", "password")\n\n' Explicitly set the proxy to none\nDim proxy As New System.Net.WebProxy()\nproxy.Address = Nothing\noZip.Proxy = proxy\n\naCity = oZip.GetCities(pstrZip, Date.Now())

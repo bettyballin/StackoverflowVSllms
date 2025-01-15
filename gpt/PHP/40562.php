@@ -1,1 +1,0 @@
-if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['save_request'])) {\n    // Code to save the request to the database\n\n    // Clear the session data after saving\n    unset($_SESSION['formData']);\n    \n    // Redirect to a success page\n    header('Location: success.php');\n    exit();\n}

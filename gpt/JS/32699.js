@@ -1,1 +1,0 @@
-// Example AJAX request using JSON\n   fetch('https://api.example.com/data')\n     .then(response => response.json())\n     .then(data => console.log(data))\n     .catch(error => console.error('Error:', error));

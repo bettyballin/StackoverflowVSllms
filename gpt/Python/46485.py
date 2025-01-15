@@ -1,1 +1,0 @@
-def html_entities_to_utf8(html_string):\n    # Unescape HTML entities to their corresponding characters\n    unescaped_string = html.unescape(html_string)\n    \n    return unescaped_string\n\n# Example usage\nhtml_string = "&aacute;"\nutf8_string = html_entities_to_utf8(html_string)\nprint(utf8_string)  # Output: á

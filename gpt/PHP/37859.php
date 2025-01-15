@@ -1,1 +1,0 @@
-use PHPUnit\Framework\TestCase;\n\nclass ValidationTest extends TestCase\n{\n    public function testEmailValidation()\n    {\n        $validator = new Validator();\n        $result = $validator->validateEmail('test@example.com');\n        $this->assertTrue($result);\n\n        $result = $validator->validateEmail('invalid-email');\n        $this->assertFalse($result);\n    }\n}

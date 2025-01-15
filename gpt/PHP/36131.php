@@ -1,1 +1,0 @@
-return [\n    'modules' => [\n        'Application',\n        'User',\n        'Order',\n        // Add other modules here\n    ],\n    'module_listener_options' => [\n        'module_paths' => [\n            './module',\n            './vendor',\n        ],\n        'config_glob_paths' => [\n            'config/autoload/{,*.}{global,local}.php',\n        ],\n    ],\n];

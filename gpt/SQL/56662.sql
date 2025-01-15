@@ -1,1 +1,0 @@
-SELECT CAST(@myParam AS nvarchar); -- Default length is 30

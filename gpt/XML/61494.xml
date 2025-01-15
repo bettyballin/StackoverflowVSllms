@@ -1,1 +1,0 @@
-<context-param>\n       <param-name>javax.faces.DEFAULT_SUFFIX</param-name>\n       <param-value>.xhtml</param-value>\n   </context-param>

@@ -1,1 +1,0 @@
-class User < ApplicationRecord\n  # Define possible states\n  enum state: { invited: 'invited', active: 'active' }\n\n  # Validations for all states\n  validates :name, :email, presence: true\n\n  # Conditional validations based on state\n  with_options if: :active? do |user|\n    user.validates :password, presence: true\n  end\n\n  def active?\n    state == 'active'\n  end\nend

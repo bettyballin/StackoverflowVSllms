@@ -1,1 +1,0 @@
-CREATE PROCEDURE MyProcedure \n    @TableName VARCHAR(100), \n    @FieldName VARCHAR(100)\nAS\nBEGIN\n    DECLARE @SQL NVARCHAR(MAX)\n    SET @SQL = N'SELECT ' + QUOTENAME(@FieldName) + ' FROM ' + QUOTENAME(@TableName)\n    EXEC sp_executesql @SQL\nEND

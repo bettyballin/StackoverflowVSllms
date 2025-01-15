@@ -1,1 +1,0 @@
-function get_all_images($post) {\n    $content = $post->post_content;\n    $image_sources = [];\n\n    // Use preg_match_all to find all image sources\n    preg_match_all('/<img[^>]+src="([^"]+)"[^>]*>/', $content, $matches);\n\n    if (!empty($matches[1])) {\n        $image_sources = $matches[1];\n    }\n\n    return $image_sources;\n}

@@ -1,1 +1,0 @@
-// Example CodeIgniter Model\n   class User_model extends CI_Model {\n       public function get_users() {\n           return $this->db->get('users')->result();\n       }\n   }\n\n   // Kohana Model\n   class Model_User extends ORM {\n       public function get_users() {\n           return ORM::factory('User')->find_all();\n       }\n   }

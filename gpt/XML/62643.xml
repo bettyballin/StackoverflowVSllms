@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>\n   <channel>\n       <name>example.com</name>\n       <summary>Example PEAR channel</summary>\n       <servers>\n           <primary>\n               <rest>http://pear.example.com/</rest>\n               <rest>https://pear.example.com/</rest>\n           </primary>\n       </servers>\n       <mirrors/>\n   </channel>

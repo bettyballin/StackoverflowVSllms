@@ -1,1 +1,0 @@
-OPTIMIZE TABLE your_table_name;

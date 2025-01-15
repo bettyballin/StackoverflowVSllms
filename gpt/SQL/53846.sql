@@ -1,1 +1,0 @@
-CREATE VIEW RecentRecordSum AS\nSELECT \n    t.ID,  \n    SUM(t.SomeValue) AS ValueSum,\n    dr.StartDate\nFROM \n    SomeTable t\nCROSS JOIN\n    dbo.GetRecentDates(7) dr\nWHERE \n    t.RecordDate >= dr.StartDate\nGROUP BY \n    t.ID, \n    dr.StartDate

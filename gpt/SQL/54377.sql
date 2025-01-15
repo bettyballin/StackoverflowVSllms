@@ -1,1 +1,0 @@
-WITH hash_value AS (\n  SELECT dbms_crypto.hash(utl_raw.cast_to_raw('HELLO'), 3) AS hash\n  FROM dual\n)\nSELECT a, b, c, (SELECT hash FROM hash_value)\nFROM my_table;

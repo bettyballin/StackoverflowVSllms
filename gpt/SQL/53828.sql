@@ -1,1 +1,0 @@
-SELECT p.id, p.content, p.ownerId, p.date, p.notesId\nFROM post p\nJOIN tag_assoc ta ON p.id = ta.postId\nJOIN tag t ON ta.tagId = t.id\nWHERE t.name = 'example_tag';

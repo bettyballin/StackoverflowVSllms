@@ -1,1 +1,0 @@
-SELECT Revision, FileId\n   FROM FileMetrics\n   WHERE Value = 45;

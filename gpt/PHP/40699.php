@@ -1,1 +1,0 @@
-$str1 = "abc";\n$str2 = "def";\n$str3 = "ghi";\n\n$combined = $str1 . $str2 . $str3;\n\necho $combined;

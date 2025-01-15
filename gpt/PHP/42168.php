@@ -1,1 +1,0 @@
-if ($REMOTE_ADDR == "") \n    $ip = "no ip";\nelse \n    $ip = getHostByAddr($REMOTE_ADDR);

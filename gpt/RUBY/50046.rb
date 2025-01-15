@@ -1,1 +1,0 @@
-class YourController < ApplicationController\n  def show_queue\n    @is_download = params[:is_download]\n    @id = params[:id]\n    # Your logic to get the list based on @is_download and @id\n\n    respond_to do |format|\n      format.js { render partial: 'your_partial', locals: { list: @list } }\n    end\n  end\nend

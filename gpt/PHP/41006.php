@@ -1,1 +1,0 @@
-$array = array("apple", "banana", "cap", "dog", ...);\n$stringsToCheck = array("abc", "banana", "xyz");\n\nforeach ($stringsToCheck as $str) {\n    if (in_array($str, $array)) {\n        echo "$str exists\n";\n    } else {\n        echo "$str does not exist\n";\n    }\n}

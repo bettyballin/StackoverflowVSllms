@@ -1,1 +1,0 @@
-SELECT *\nFROM tasks\nORDER BY \n    ISNULL(deadline_date) ASC, \n    deadline_date ASC;

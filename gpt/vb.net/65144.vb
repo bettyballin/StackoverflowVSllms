@@ -1,1 +1,0 @@
-<Serializable>\nPublic Class Pair(Of T1, T2)\n    Public Property First As T1\n    Public Property Second As T2\nEnd Class

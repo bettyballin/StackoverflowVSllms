@@ -1,1 +1,0 @@
-import pandas as pd\nfrom sqlalchemy import create_engine\n\n# Read data from Excel\ndata = pd.read_excel('data.xlsx', sheet_name='Sheet1')\n\n# Database connection\nengine = create_engine('mssql+pyodbc://username:password@server/database?driver=SQL+Server')\n\n# Insert data into SQL Server\ndata.to_sql('table_name', con=engine, if_exists='replace', index=False)

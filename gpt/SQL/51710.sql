@@ -1,1 +1,0 @@
--- Using int as primary key\nCREATE TABLE ExampleInt (\n    ID INT PRIMARY KEY,\n    Name NVARCHAR(100)\n);\n\n-- Using numeric(38,0) as primary key\nCREATE TABLE ExampleNumeric (\n    ID NUMERIC(38,0) PRIMARY KEY,\n    Name NVARCHAR(100)\n);

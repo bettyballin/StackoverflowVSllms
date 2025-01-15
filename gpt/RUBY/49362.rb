@@ -1,1 +1,0 @@
-# Generating a JWT token in App-A\n   payload = { user_id: @user.id, exp: 24.hours.from_now.to_i }\n   token = JWT.encode(payload, 'your_secret_key', 'HS256')\n\n   # Decoding and verifying the JWT token in App-B\n   decoded_token = JWT.decode(token, 'your_secret_key', true, { algorithm: 'HS256' })\n   user_id = decoded_token[0]['user_id']

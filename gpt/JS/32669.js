@@ -1,1 +1,0 @@
-jQuery.ajaxSetup({\n     'beforeSend': function(xhr) { xhr.setRequestHeader("Accept", "text/javascript"); }\n   });\n\n   $(document).ready(function() {\n     $("#comment_form").ajaxForm({\n       dataType: 'script'\n     });\n   });

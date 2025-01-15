@@ -1,1 +1,0 @@
-SET @makTipi = (SELECT TOP 1 maktipi FROM TH_Islem WHERE refNo = @refNo ORDER BY <some_column>)

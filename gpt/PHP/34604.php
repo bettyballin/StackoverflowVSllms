@@ -1,1 +1,0 @@
-$url = "smb://serverB/sharedfolder/file.dummy";\n   $ch = curl_init();\n   curl_setopt($ch, CURLOPT_URL, $url);\n   curl_setopt($ch, CURLOPT_USERPWD, "domain\\username:password");\n   curl_setopt($ch, CURLOPT_UPLOAD, 1);\n   $file = fopen('localfile', 'r');\n   curl_setopt($ch, CURLOPT_INFILE, $file);\n   curl_exec($ch);\n   curl_close($ch);

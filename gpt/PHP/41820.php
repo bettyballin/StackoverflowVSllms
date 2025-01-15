@@ -1,1 +1,0 @@
-<?php\nsession_start();\nrequire 'csrf.php';\n?>\n\n<form method="post" action="login.php">\n    <input type="hidden" name="token" value="<?php echo generateToken(); ?>">\n    Username:<input type="text" name="username" required /><br />\n    Password:<input type="password" name="password" required /><br />\n    <input type="submit" value="Login" />\n</form>

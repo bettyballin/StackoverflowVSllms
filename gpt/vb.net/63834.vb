@@ -1,1 +1,0 @@
-For Each rect As Rectangle In barRectangles\n    Using brush As New SolidBrush(Color.Red) ' Change Color.Red to your desired color\n        e.Graphics.FillRectangle(brush, rect)\n    End Using\nNext

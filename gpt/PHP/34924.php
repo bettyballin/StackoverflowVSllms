@@ -1,1 +1,0 @@
-$results = DB::select('SELECT * FROM users WHERE id = :id', ['id' => $userId]);

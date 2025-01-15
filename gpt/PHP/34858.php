@@ -1,1 +1,0 @@
-// autoloader.php\nspl_autoload_register(function ($class_name) {\n    include 'path/to/' . $class_name . '.php';\n});\n\n// Assuming DebugR is within a class\nclass DebugHelper {\n    public static function DebugR($data) {\n        echo '<pre>';\n        print_r($data);\n        echo '</pre>';\n    }\n}\n\n// Usage\nDebugHelper::DebugR($data);

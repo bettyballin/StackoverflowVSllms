@@ -1,1 +1,0 @@
-<?php\nrequire_once '/full/path/to/facebook.php';\ninclude_once '/full/path/to/lib.php';\ninclude_once '/full/path/to/config.php';\n$facebook = new Facebook($api_key, $secret);\nget_db_conn();\n?>

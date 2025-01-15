@@ -1,1 +1,0 @@
-SELECT id FROM table WHERE id=5;

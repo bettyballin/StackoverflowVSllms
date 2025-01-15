@@ -1,1 +1,0 @@
-from PIL import Image\n   import imagehash\n\n   def compute_perceptual_hash(file_path):\n       with Image.open(file_path) as img:\n           return str(imagehash.phash(img))

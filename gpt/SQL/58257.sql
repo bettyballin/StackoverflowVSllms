@@ -1,1 +1,0 @@
--- Fetch all attendance records\nSELECT * FROM Attendance;\n\n-- Fetch records where employee did not show up\nSELECT * FROM Attendance WHERE status = 'no-show';

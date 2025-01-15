@@ -1,1 +1,0 @@
-$maxSize = 500000; // Set the maximum file size in bytes (e.g., 500000 bytes = 500 KB)\n\nforeach (glob("*.png") as $filename) {\n    $filesize = filesize($filename);\n    if ($filesize > $maxSize) {\n        echo "$filename size $filesize\n";\n        unlink($filename);\n    }\n}

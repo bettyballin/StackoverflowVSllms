@@ -1,1 +1,0 @@
-CREATE INDEX idx_filemetrics_revision ON FileMetrics (Revision);\n   CREATE INDEX idx_filemetrics_fileid ON FileMetrics (FileId);\n   CREATE INDEX idx_filemetrics_value ON FileMetrics (Value);

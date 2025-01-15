@@ -1,1 +1,0 @@
-SELECT b.name, o.orders, l.leads\nFROM \n    (SELECT offlineid, COUNT(*) AS orders\n     FROM katalogbestilling_katalog\n     GROUP BY offlineid) AS o\nINNER JOIN\n    (SELECT offlineid, COUNT(DISTINCT customer_id) AS leads\n     FROM katalogbestilling_katalog\n     GROUP BY offlineid) AS l ON o.offlineid = l.offlineid\nINNER JOIN\n    medie b ON o.offlineid = b.id;

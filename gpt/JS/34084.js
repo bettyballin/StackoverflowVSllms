@@ -1,1 +1,0 @@
-// Select the file input element\nvar fileInput = document.querySelector('input[type="file"]');\n\n// Trigger a click event on the file input element\nfileInput.click();

@@ -1,1 +1,0 @@
-# __init__.py\n\n__all__ = ['function1', 'Class1']\n\ndef function1():\n    pass\n\ndef function2():\n    pass\n\nclass Class1:\n    pass\n\nclass Class2:\n    pass

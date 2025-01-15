@@ -1,1 +1,0 @@
-CREATE TABLE `#__registration_keys` (\n    `id` int(11) NOT NULL AUTO_INCREMENT,\n    `user_id` int(11) NOT NULL,\n    `registration_key` varchar(64) NOT NULL,\n    PRIMARY KEY (`id`)\n);

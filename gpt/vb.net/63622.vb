@@ -1,1 +1,0 @@
-' Example setup for AQtime profiling in VB6\nPrivate Sub Command1_Click()\n    Dim startTime As Double\n    Dim endTime As Double\n    \n    startTime = Timer\n    ' Your code to be profiled here\n    EndTime = Timer\n    \n    Debug.Print "Elapsed Time: " & (endTime - startTime) & " seconds"\nEnd Sub

@@ -1,1 +1,0 @@
-Sub Main()\n    Console.WriteLine("Hello World")\n    Return\n    Console.WriteLine("Unreachable code, will never run")\nEnd Sub

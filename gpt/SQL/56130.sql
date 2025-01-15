@@ -1,1 +1,0 @@
-COPY YourTableName\nFROM '/path/to/file.csv'\nWITH (FORMAT csv, HEADER true);

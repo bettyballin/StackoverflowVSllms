@@ -1,1 +1,0 @@
-DECLARE\n    v_string VARCHAR2(100) := 'Hello, world!';\n    v_position NUMBER;\nBEGIN\n    -- Find the position of the character 'w'\n    v_position := INSTR(v_string, 'w');\n    DBMS_OUTPUT.PUT_LINE('Position of "w": ' || v_position);\nEND;\n/

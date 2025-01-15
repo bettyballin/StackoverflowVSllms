@@ -1,1 +1,0 @@
-$query = $mysqli->query('SELECT * FROM `people` ORDER BY `name` ASC LIMIT 0,30');\n\nif ($query) {\n    while ($row = $query->fetch_assoc()) {\n        // Process your row\n    }\n    // Explicitly free the result set memory\n    $query->free();\n} else {\n    // Handle query error\n    echo "Query failed: " . $mysqli->error;\n}

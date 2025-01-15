@@ -1,1 +1,0 @@
-INSERT INTO bar (foo_id)\nSELECT id FROM foo WHERE name = 'Andrey';

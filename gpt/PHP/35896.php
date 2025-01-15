@@ -1,1 +1,0 @@
-// In your CodeIgniter Controller\npublic function get_calendar_data($date) {\n    // Load model and fetch data based on the date\n    $this->load->model('calendar_model');\n    $data = $this->calendar_model->get_data_by_date($date);\n\n    // Return the data as JSON\n    echo json_encode($data);\n}

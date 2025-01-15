@@ -1,1 +1,0 @@
-// Fetch data from database\n$params = mssql_fetch_array($result);\n\n// Copy $params to $tempParams\n$tempParams = $params;\n\n// Assign value from $tempParams to $params\n$params['column1'] = $tempParams['newColumns'];

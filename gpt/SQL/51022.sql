@@ -1,1 +1,0 @@
-select CAST(xml.query('sum(/List/value)').value('.', 'float') AS numeric) as sum\nfrom (select cast('<List><value>1</value><value>2</value></List>' as xml) xml) a

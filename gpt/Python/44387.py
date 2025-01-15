@@ -1,1 +1,0 @@
-from docx import Document\n\ndef convert_docx_to_xml(docx_path, xml_path):\n    doc = Document(docx_path)\n    with open(xml_path, 'w', encoding='utf-8') as f:\n        f.write('<document>\n')\n        for para in doc.paragraphs:\n            f.write(f'<paragraph>{para.text}</paragraph>\n')\n        f.write('</document>')\n\nconvert_docx_to_xml('input.docx', 'output.xml')

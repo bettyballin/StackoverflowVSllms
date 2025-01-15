@@ -1,1 +1,0 @@
-LOAD DATA INFILE '/path/to/yourfile.csv'\n   INTO TABLE YourTable\n   FIELDS TERMINATED BY ','\n   ENCLOSED BY '"'\n   LINES TERMINATED BY '\n'\n   IGNORE 1 LINES\n   (StartDate, EndDate, ...);

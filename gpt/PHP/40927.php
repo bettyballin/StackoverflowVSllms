@@ -1,1 +1,0 @@
-<?php\n    $var = NULL;\n\n    // Check if the variable is set, even if it is NULL\n    $is_initialized = array_key_exists('var', get_defined_vars());\n\n    var_dump($is_initialized); // bool(true)\n?>

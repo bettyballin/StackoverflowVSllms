@@ -1,1 +1,0 @@
-<h:form id="normalForm">\n    <h:inputText value="#{bean.username}" />\n    <h:inputSecret value="#{bean.password}" />\n    <h:commandButton value="Login" onclick="submitNormalForm(); return false;" />\n</h:form>\n\n<script type="text/javascript">\n    function submitNormalForm() {\n        document.getElementById('normalForm').submit();\n    }\n</script>

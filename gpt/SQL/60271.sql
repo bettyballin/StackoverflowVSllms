@@ -1,1 +1,0 @@
-CREATE TABLE problems (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(255),\n    description TEXT,\n    created_at DATETIME,\n    previous_version_id INT,\n    FOREIGN KEY (previous_version_id) REFERENCES problems(id)\n);

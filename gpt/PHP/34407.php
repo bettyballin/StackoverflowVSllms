@@ -1,1 +1,0 @@
-class IndexController extends Zend_Controller_Action\n{\n    public function indexAction()\n    {\n        // Create your form\n        $form = new Application_Form_MyForm();\n\n        // Assign the form to the view\n        $this->view->form = $form;\n    }\n}

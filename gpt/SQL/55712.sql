@@ -1,1 +1,0 @@
-SELECT * \nFROM tbl \nWHERE field1 COLLATE Latin1_General_BIN <> UPPER(field1) COLLATE Latin1_General_BIN;

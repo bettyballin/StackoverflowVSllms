@@ -1,1 +1,0 @@
-<?php\n// Example with a proper break condition\nfor ($i = 0; $i < 10; $i++) {\n    file_get_contents('http://yoursite.com/some-endpoint');\n    // Adding sleep can also help reduce the load\n    sleep(1);\n}\n?>

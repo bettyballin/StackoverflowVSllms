@@ -1,1 +1,0 @@
-SELECT table2.*, table1.*\nFROM table2\nLEFT JOIN table1 ON table1.ID = table2.table1ID;

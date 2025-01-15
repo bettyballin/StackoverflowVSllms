@@ -1,1 +1,0 @@
-$query = "INSERT INTO `events`(`evt_name`, `evt_description`, `evt_startdate`, `evt_enddate`, `evt_starttime`, `evt_endtime`, `evt_amtpersons`, `sts_id`, `adr_id`, `evt_amtPersonsSubs`, `evt_photo`, `sys-mut-user`, `sys-mut-id`) \nVALUES ('asf', 'asf', '2009-04-02', '2009-04-22', '00:00:00', '00:00:00', '3', '1', NULL, NULL, '', 'test', '1')";

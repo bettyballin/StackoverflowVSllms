@@ -1,1 +1,0 @@
-// Set cursor to "progress"\ndocument.body.style.cursor = "progress";\n\n// Use setTimeout to start the long-running method after a short delay\nsetTimeout(function() {\n    MyLongRunningMethod(); // This runs after the cursor is set\n    // Reset cursor to "auto" after the method completes\n    document.body.style.cursor = "auto";\n}, 0);

@@ -1,1 +1,0 @@
-# In your Rails model\n   def as_json(options = {})\n     super(options.merge(methods: [:associated_model_name]))\n   end

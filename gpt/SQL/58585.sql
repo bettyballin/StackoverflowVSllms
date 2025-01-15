@@ -1,1 +1,0 @@
-DECLARE @MoreExists BIT\nSET @MoreExists = 0\n\n;WITH CTE AS (\n    SELECT Field1, Field2, ..., \n           ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS RowNum\n    FROM MyTable \n    WHERE ... --same expensive where clause\n)\nSELECT Field1, Field2, ...\nFROM CTE\nWHERE RowNum <= 50\n\nIF EXISTS (SELECT 1 FROM CTE WHERE RowNum > 50)\n    SET @MoreExists = 1

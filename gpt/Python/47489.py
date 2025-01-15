@@ -1,1 +1,0 @@
-import boto3\n   ec2 = boto3.client('ec2')\n   ec2.run_instances(ImageId='ami-0abcdef1234567890', MinCount=1, MaxCount=10, InstanceType='t2.micro')

@@ -1,1 +1,0 @@
-ALTER TABLE YourTable ADD RowHash VARBINARY(64);

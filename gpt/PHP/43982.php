@@ -1,1 +1,0 @@
-$pieces = [];\nfor ($i = 0; $i < 1000; $i++) {\n    $pieces[] = "part" . $i;\n}\n$result = implode("", $pieces);

@@ -1,1 +1,0 @@
-class SessionsController < ApplicationController\n     def new\n       # Ensure there's no redirect or render of another template here\n     end\n   end

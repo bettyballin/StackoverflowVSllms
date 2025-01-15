@@ -1,1 +1,0 @@
-from django.http import JsonResponse\n\ndef interpreter_info_view(request):\n    info = get_interpreter_info()\n    return JsonResponse(info)

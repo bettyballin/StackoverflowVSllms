@@ -1,1 +1,0 @@
-<?php\ntry {\n    $client = new SoapClient("http://example.com/service?wsdl");\n    $params = array('param1' => 'value1', 'param2' => 'value2');\n    $response = $client->__soapCall("MethodName", array($params));\n\n    print_r($response);\n} catch (SoapFault $e) {\n    echo "SOAP Fault: (faultcode: {$e->faultcode}, faultstring: {$e->faultstring})";\n}\n?>

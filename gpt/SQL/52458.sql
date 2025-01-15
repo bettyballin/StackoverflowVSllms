@@ -1,1 +1,0 @@
-DELIMITER //\n\nCREATE TRIGGER after_score_event_insert\nAFTER INSERT ON score_events\nFOR EACH ROW\nBEGIN\n    UPDATE users\n    SET score = score + NEW.points\n    WHERE user_id = NEW.user_id;\nEND //\n\nDELIMITER ;

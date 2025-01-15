@@ -1,1 +1,0 @@
-$('ul li').slice(1, -1).remove();

@@ -1,1 +1,0 @@
-// Parsing XML in JavaScript\nconst xmlString = '<person><name>John</name><age>30</age></person>';\nconst parser = new DOMParser();\nconst xmlDoc = parser.parseFromString(xmlString, "text/xml");\nconsole.log(xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue); // Output: Joh

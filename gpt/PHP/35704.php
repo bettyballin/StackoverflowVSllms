@@ -1,1 +1,0 @@
-<?php\nif (isset($_GET['arg'])) {\n    $arg = escapeshellarg($_GET['arg']);\n    $command = "/path/to/your/command " . $arg;\n    \n    // Execute the command\n    $output = shell_exec($command);\n    \n    // Display the output\n    echo "<pre>$output</pre>";\n} else {\n    echo "No argument provided.";\n}\n?>

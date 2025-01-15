@@ -1,1 +1,0 @@
-CREATE TABLE AllowedIPs (\n    LoginName NVARCHAR(128),\n    IPAddress NVARCHAR(45)\n);

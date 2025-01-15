@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    function beginContactList() {\n        console.log("Request started.");\n    }\n\n    function successContactList() {\n        console.log("Request succeeded.");\n    }\n\n    function failureContactList() {\n        console.log("Request failed.");\n    }\n</script>

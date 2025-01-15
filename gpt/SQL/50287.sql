@@ -1,1 +1,0 @@
-IF EXISTS (\n    SELECT 1\n    FROM TEST_TABLE\n    WHERE refID = @refID\n      AND (\n        newFirstName IS NOT NULL\n        OR newLastName IS NOT NULL\n      )\n)\nBEGIN\n    PRINT 'There are suggested changes.';\nEND\nELSE\nBEGIN\n    PRINT 'There are no suggested changes.';\nEND

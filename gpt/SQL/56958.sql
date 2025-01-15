@@ -1,1 +1,0 @@
-CREATE TABLE user_read_news (\n    user_id INT NOT NULL,\n    news_id INT NOT NULL,\n    read_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    PRIMARY KEY (user_id, news_id),\n    FOREIGN KEY (user_id) REFERENCES users(id),\n    FOREIGN KEY (news_id) REFERENCES news(id)\n);

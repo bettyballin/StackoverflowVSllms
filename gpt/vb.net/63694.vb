@@ -1,1 +1,0 @@
-Namespace CompanyName\n         Namespace FixedIncome\n             Namespace Trading\n             Namespace RiskManagement\n             Namespace Reporting\n         End Namespace\n         Namespace Common\n             Namespace Utilities\n             Namespace Extensions\n         End Namespace\n     End Namespace

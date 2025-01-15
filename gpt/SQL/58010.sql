@@ -1,1 +1,0 @@
-create table paid as\nselect \n    bmf.account_no, \n    sum(cmf.balance_due) as postpaid_balance, \n    acct_map.external_id\nfrom \n    bmf\njoin \n    cmf on bmf.account_no = cmf.account_no\njoin \n    acct_map on bmf.account_no = acct_map.account_no\nwhere \n    to_char(bmf.trans_date, 'YYYY MM DD') = '1996 08 14'\ngroup by \n    bmf.account_no, \n    acct_map.external_id;

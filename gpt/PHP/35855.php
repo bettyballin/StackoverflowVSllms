@@ -1,1 +1,0 @@
-<?php\nrequire_once('libs/Smarty.class.php');\n\n$smarty = new Smarty;\n\n// Set the base URL\n$smarty->assign('base_url', 'http://yourdomain.com');\n\n// Display the template\n$smarty->display('templates/Default/your_template.tpl');\n?>

@@ -1,1 +1,0 @@
-<h1>Twitter Search Results</h1>\n<% if @results.any? %>\n  <ul>\n    <% @results.each do |result| %>\n      <li><%= result['text'] %> - <%= result['user']['screen_name'] %></li>\n    <% end %>\n  </ul>\n<% else %>\n  <p>No results found.</p>\n<% end %>

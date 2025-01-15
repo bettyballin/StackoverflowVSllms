@@ -1,1 +1,0 @@
-SELECT \n    MembershipNum, \n    COUNT(*) AS Occurrences\nFROM \n    DATA.Dim_Member\nGROUP BY \n    MembershipNum\nHAVING \n    COUNT(*) > 1;

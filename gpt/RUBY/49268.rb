@@ -1,1 +1,0 @@
-# Store word IDs in session\n   session[:quiz_word_ids] = words.map(&:id)

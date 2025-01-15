@@ -1,1 +1,0 @@
-INSERT INTO VareOrdre (VareOrdreID, Onr, Vnr, Antal)\n   VALUES (1, 1, 1, 2);  -- Assuming product with Vnr 1 and quantity 2\n   INSERT INTO VareOrdre (VareOrdreID, Onr, Vnr, Antal)\n   VALUES (2, 1, 2, 1);  -- Assuming product with Vnr 2 and quantity 1

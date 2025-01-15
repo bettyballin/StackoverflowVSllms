@@ -1,1 +1,0 @@
-// This is a sample permissions configuration file for a BlackBerry app\n<permissions>\n    <permission>read_device_data</permission>\n    <permission>access_internet</permission>\n    <permission>use_camera</permission>\n    <!-- Add additional required permissions here -->\n</permissions>

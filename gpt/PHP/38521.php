@@ -1,1 +1,0 @@
-// Adding a player to a game\n$game = $this->Games->get($gameId, ['contain' => ['Players']]);\n$player = $this->Players->get($playerId);\n\n$game->players = [$player]; // Add the player relation\n$this->Games->save($game);

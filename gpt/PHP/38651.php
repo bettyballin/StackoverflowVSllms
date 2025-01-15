@@ -1,1 +1,0 @@
-<?php\n// Get the effective user ID of the current process\n$euid = posix_geteuid();\n\n// Get the user information based on the user ID\n$user_info = posix_getpwuid($euid);\n\n// Retrieve the username from the user information\n$username = $user_info['name'];\n\n// Display the username\necho "The web server is being run as: " . $username;\n?>

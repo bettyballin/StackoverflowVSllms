@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\nif (empty($_SESSION['token'])) {\n    $_SESSION['token'] = bin2hex(random_bytes(32));\n}\n?>\n\n<form method="post" action="your_form_handler.php">\n    <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">\n    <!-- Your form fields here -->\n    <input type="submit" value="Submit">\n</form>

@@ -1,1 +1,0 @@
-import cProfile\nimport pstats\n\ndef your_function():\n    # Your function code here\n    pass\n\n# Profile the function\nprofiler = cProfile.Profile()\nprofiler.enable()\nyour_function()\nprofiler.disable()\n\n# Print profiling results\nstats = pstats.Stats(profiler)\nstats.sort_stats(pstats.SortKey.TIME)\nstats.print_stats(10)  # Print top 10 functions consuming most time

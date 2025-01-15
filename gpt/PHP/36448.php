@@ -1,1 +1,0 @@
-$cart = array();\n\n$cart[] = 13;\n$cart[] = "foo";\n$cart[] = $obj; // assuming $obj is previously defined

@@ -1,1 +1,0 @@
-App::uses('CakeLog', 'Log');\nCakeLog::config('debug', array(\n    'engine' => 'FileLog',\n    'types' => array('notice', 'info', 'debug'),\n    'file' => 'debug',\n));\nCakeLog::config('error', array(\n    'engine' => 'FileLog',\n    'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),\n    'file' => 'error',\n));

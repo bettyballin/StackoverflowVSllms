@@ -1,1 +1,0 @@
-UPDATE your_table\nSET your_varchar_field = \n    RIGHT('0' + CAST(MONTH(your_datetime_field) AS VARCHAR(2)), 2) + '/' + \n    RIGHT(CAST(YEAR(your_datetime_field) AS VARCHAR(4)), 2);

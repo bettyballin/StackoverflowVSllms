@@ -1,1 +1,0 @@
-mageProduct.visibility = "4"; // 4 means 'Catalog, Search'

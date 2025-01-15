@@ -1,1 +1,0 @@
--- Ensure indexes are created\nCREATE INDEX idx_objects_userid ON Objects(UserID);\nCREATE INDEX idx_objects_categoryid ON Objects(CategoryID);\n\n-- Ensure statistics are up-to-date\nUPDATE STATISTICS Objects;\nUPDATE STATISTICS Users;\nUPDATE STATISTICS Categories;

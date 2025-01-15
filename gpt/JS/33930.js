@@ -1,1 +1,0 @@
-<script type="text/javascript">\n       window.addEventListener('beforeunload', function () {\n           navigator.sendBeacon('/logout', '');\n       });\n   </script>

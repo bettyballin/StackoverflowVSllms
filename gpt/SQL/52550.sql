@@ -1,1 +1,0 @@
-SELECT dbo.RoundToNearestFiveCents(123.23) AS RoundedValue;

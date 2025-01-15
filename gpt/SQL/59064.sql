@@ -1,1 +1,0 @@
-SELECT * FROM other_user.my_table;

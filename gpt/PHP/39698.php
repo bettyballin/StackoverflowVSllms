@@ -1,1 +1,0 @@
-<?php\n$string = "my name is xyz(25)";\npreg_match('/\((\d+)\)/', $string, $matches);\n$number = $matches[1];\n\necho $number; // Outputs: 25\n?>

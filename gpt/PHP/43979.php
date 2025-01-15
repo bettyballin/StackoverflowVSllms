@@ -1,1 +1,0 @@
-<!-- In the View script -->\n    <p>Welcome, <?php echo $this->username; ?>!</p>

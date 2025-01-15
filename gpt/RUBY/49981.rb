@@ -1,1 +1,0 @@
-require 'oxford_dictionary'\n\nclient = OxfordDictionary::Client.new(app_id: 'your_app_id', app_key: 'your_app_key')\ndefinition = client.entry('en-gb', 'example')  # Replace 'example' with the word you want to look up\n\nif definition\n  puts definition.lexicalEntries.first.entries.first.senses.first.definitions.first\nelse\n  puts "Definition not found."\nend

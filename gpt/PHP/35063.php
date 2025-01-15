@@ -1,1 +1,0 @@
-$dsn = "odbc:Driver={Microsoft Access Driver (*.mdb)};DBQ=/path/to/myfile.mdb;";\n   $username = "";\n   $password = "";\n   $connection = odbc_connect($dsn, $username, $password);\n\n   if (!$connection) {\n       die("Connection failed: " . odbc_errormsg());\n   } else {\n       echo "Connection successful!";\n   }

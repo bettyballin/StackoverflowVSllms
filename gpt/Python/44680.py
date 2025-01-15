@@ -1,1 +1,0 @@
-# Example using boto3 for AWS S3\n   import boto3\n\n   s3 = boto3.client('s3')\n   local_file = 'path/to/local/file.zip'\n   bucket_name = 'your-bucket-name'\n   remote_file = 'path/to/remote/file.zip'\n\n   s3.upload_file(local_file, bucket_name, remote_file)

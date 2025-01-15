@@ -1,1 +1,0 @@
-# Inviting a user\nuser = User.new(name: 'Mary', email: 'mary@example.com', state: 'invited')\nif user.save\n  # Send invitation email\nend\n\n# After Mary accepts the invitation\nuser = User.find_by(email: 'mary@example.com')\nuser.update(state: 'active', password: 'securepassword')

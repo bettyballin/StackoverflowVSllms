@@ -1,1 +1,0 @@
-ALTER TABLE YourTable\nALTER COLUMN YourYesNoField bit NOT NULL DEFAULT 0;

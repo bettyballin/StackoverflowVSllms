@@ -1,1 +1,0 @@
-from bs4 import BeautifulSoup\n\nhtml = """\n<img src="http://example.com/g.jpg" alt="" />\n<img src="http://example.com/h.jpg" alt="" />\n"""\n\nsoup = BeautifulSoup(html, 'html.parser')\nimg_tags = soup.find_all('img')\n\n# Extract and print all image sources\nfor img in img_tags:\n    print(img.get('src'))

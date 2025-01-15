@@ -1,1 +1,0 @@
--- Example handling NULL values in OUTER JOINs\n    SELECT e.name, p.project_name\n    FROM employees e\n    LEFT JOIN projects p ON e.project_id = p.project_id\n    AND p.project_end_date IS NULL;

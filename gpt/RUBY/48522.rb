@@ -1,1 +1,0 @@
-# In your RJS template (e.g., update.rjs)\npage.visual_effect :fade, 'your_div_id', :duration => 0.5\npage.delay(0.5) do\n  page.replace_html 'your_div_id', :partial => 'your_partial'\n  page.visual_effect :appear, 'your_div_id', :duration => 0.5\nend

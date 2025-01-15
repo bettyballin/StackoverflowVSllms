@@ -1,1 +1,0 @@
-$cookie = "masi@gmail.com,777";\n$cookie_parts = explode(',', $cookie);\necho "Cookie: " . $cookie_parts[0];

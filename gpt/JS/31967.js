@@ -1,1 +1,0 @@
-const functions = {\n    foo: function() {\n        alert('foo');\n    },\n    bar: function() {\n        alert('bar');\n    }\n};\n\nvar test = 'foo';\n\nfunctions[test]();  // This calls foo()

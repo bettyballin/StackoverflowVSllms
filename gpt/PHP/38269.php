@@ -1,1 +1,0 @@
-// Example of Redis caching\n   use Illuminate\Support\Facades\Cache;\n\n   $value = Cache::remember('users', 60, function () {\n       return DB::table('users')->get();\n   });

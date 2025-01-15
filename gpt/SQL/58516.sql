@@ -1,1 +1,0 @@
-SELECT p.ProductName, pa.AttributeValue\nFROM Products p\nJOIN ProductAttributes pa ON p.ProductID = pa.ProductID\nJOIN Attributes a ON pa.AttributeID = a.AttributeID\nWHERE p.CategoryID = 1 AND a.AttributeName = 'color' AND pa.AttributeValue = 'Red';

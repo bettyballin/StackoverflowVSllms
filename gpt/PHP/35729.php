@@ -1,1 +1,0 @@
-function newPost() {\n  $post = new Post();\n\n  respond_to(function($format) use ($post) {\n    $format->html(); // new.html.php\n    $format->xml(function() use ($post) {\n      echo $post->toXml();\n    });\n  });\n}

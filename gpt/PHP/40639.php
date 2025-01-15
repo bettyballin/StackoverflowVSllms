@@ -1,1 +1,0 @@
-<!-- resources/views/yourview.blade.php -->\n@include('components.news', ['news' => App\Http\Controllers\NewsController::latest()->getData()['news']])

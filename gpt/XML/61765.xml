@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <customErrors mode="Off"/>\n    <compilation debug="true"/>\n  </system.web>\n  <system.webServer>\n    <httpErrors errorMode="Detailed"/>\n  </system.webServer>\n</configuration>

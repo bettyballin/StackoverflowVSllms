@@ -1,1 +1,0 @@
-CREATE TABLE ClassString (\n    StringID INT PRIMARY KEY,\n    ClassID INT,\n    Pattern VARCHAR(255) NOT NULL,\n    FOREIGN KEY (ClassID) REFERENCES Class(ClassID)\n);

@@ -1,1 +1,0 @@
-use Shared\Libraries\Arrays;\n   use Shared\Libraries\DateTime;\n   use Shared\Libraries\Email;\n\n   $mergedArray = Arrays::mergeArrays($array1, $array2);\n   $formattedDate = DateTime::formatDate('2021-01-01', 'Y-m-d');\n   Email::sendEmail('example@example.com', 'Subject', 'Message body');

@@ -1,1 +1,0 @@
-<?php\n// Using variable interpolation\necho "Hello, $name!";\n\n// Using printf\nprintf("Hello, %s!", $name);\n\n// Using concatenation\necho "Hello, " . $name . "!";\n?>

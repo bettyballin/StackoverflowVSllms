@@ -1,1 +1,0 @@
-SELECT o.OrderID, o.OrderDate, i.ItemName, oi.Quantity\nFROM Orders o\nJOIN OrderItems oi ON o.OrderID = oi.OrderID\nJOIN Items i ON oi.ItemID = i.ItemID\nWHERE o.CustomerID = @CustomerID;

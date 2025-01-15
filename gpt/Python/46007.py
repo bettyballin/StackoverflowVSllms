@@ -1,1 +1,0 @@
-import urllib3\n   http = urllib3.PoolManager()\n   response = http.request('GET', 'https://example.com')\n   print(response.data)

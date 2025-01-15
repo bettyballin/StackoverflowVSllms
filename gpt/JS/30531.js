@@ -1,1 +1,0 @@
-var xmlString = '<table>\n<length> 12 </length>\n<!--Some comment here-->\n</table>';\nvar xmlDoc = new ActiveXObject("Microsoft.XMLDOM");\nxmlDoc.async = false;\nxmlDoc.loadXML(xmlString);\n\nvar comments = xmlDoc.selectNodes("//comment()");\n\nfor (var i = 0; i < comments.length; i++) {\n    WScript.Echo(comments[i].nodeValue);\n}

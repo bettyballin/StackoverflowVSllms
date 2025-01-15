@@ -1,1 +1,0 @@
-SELECT * FROM employees \n  START WITH manager_id is null AND dept_id = 'SALE'\n  CONNECT BY PRIOR employee_id = manager_id

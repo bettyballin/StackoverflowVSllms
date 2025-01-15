@@ -1,1 +1,0 @@
-IF TRIM(@value) = '' OR @value IS NULL\nBEGIN\n    -- Your logic when the value is blank or null\n    PRINT 'The value is either NULL or whitespace'\nEND\nELSE\nBEGIN\n    -- Your logic when the value is not blank or null\n    PRINT 'The value is not NULL or whitespace'\nEND

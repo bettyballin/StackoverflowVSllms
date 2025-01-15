@@ -1,1 +1,0 @@
-CREATE TABLE ExampleTable\n(\n    ID INT NOT NULL,\n    Name VARCHAR(50) NULL,\n    Age INT NULL\n);\n\nINSERT INTO ExampleTable (ID, Name, Age) VALUES (1, 'Alice', 25);\nINSERT INTO ExampleTable (ID, Name, Age) VALUES (2, NULL, NULL);

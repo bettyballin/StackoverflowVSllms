@@ -1,1 +1,0 @@
-$pdo = new PDO('mysql:host=localhost;dbname=testdb', 'username', 'password');

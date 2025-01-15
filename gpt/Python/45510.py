@@ -1,1 +1,0 @@
-# Example: Uploading a file to Amazon S3\n     import boto3\n     s3 = boto3.client('s3')\n     s3.upload_file('localfile.txt', 'mybucket', 'remote/path/localfile.txt')

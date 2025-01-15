@@ -1,1 +1,0 @@
-# Step 1: Regress M on X\nmodel.M <- lm(M ~ X, data = data)\n\n# Step 2: Regress Y on X\nmodel.Y <- lm(Y ~ X, data = data)\n\n# Step 3: Regress Y on X and M\nmodel.YM <- lm(Y ~ X + M, data = data)\n\n# Summary of the models\nsummary(model.M)\nsummary(model.Y)\nsummary(model.YM)

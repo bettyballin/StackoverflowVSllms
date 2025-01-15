@@ -1,1 +1,0 @@
-class CreateUsers < ActiveRecord::Migration[6.1]\n      def change\n        create_table :users do |t|\n          t.string :name\n          t.string :email\n\n          t.timestamps\n        end\n      end\n    end

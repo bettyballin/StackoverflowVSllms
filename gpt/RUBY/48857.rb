@@ -1,1 +1,0 @@
-<% if @user %>\n  Hello, <%= @user.name %>\n<% else %>\n  Hello, guest\n<% end %>

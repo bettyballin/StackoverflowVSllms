@@ -1,1 +1,0 @@
-SELECT BITXOR(value1, value2) AS result\nFROM dual;

@@ -1,1 +1,0 @@
-SELECT  C.guid, C.name, C.updated, \n        C.hddsize, C.hddavailable, C.hddfree, \n        C.ramsize, C.profiles, C.cpu, \n        COUNT(D.id) AS numprograms\nFROM Computers AS C\nLEFT JOIN ComputerData AS D ON D.computer_id = C.id\nGROUP BY C.guid, C.name, C.updated, \n         C.hddsize, C.hddavailable, C.hddfree, \n         C.ramsize, C.profiles, C.cpu;

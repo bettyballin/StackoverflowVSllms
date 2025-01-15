@@ -1,1 +1,0 @@
-try {\n    $query = Zend_Search_Lucene_Search_QueryParser::parse($q, 'utf-8');\n    $hits = $index->find($query);\n} catch (Zend_Search_Lucene_Exception $e) {\n    // Handle exception\n    echo 'Search error: ' . $e->getMessage();\n}

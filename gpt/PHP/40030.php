@@ -1,1 +1,0 @@
-public function dateTimeToUnixTime($dateString, $timeZone = 'UTC')\n   {\n       $date = new DateTime($dateString, new DateTimeZone($timeZone));\n       return $date->getTimestamp();\n   }

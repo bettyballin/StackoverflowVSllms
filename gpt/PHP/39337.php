@@ -1,1 +1,0 @@
-function foo() {\n    echo "foo function called\n";\n}\n\nfunction bar() {\n    echo "bar function called\n";\n}\n\n$functionName = "foo";\n\n// Ensure the function exists before calling it\nif (function_exists($functionName)) {\n    $functionName(); // This will call the foo() function\n} else {\n    echo "Function does not exist\n";\n}

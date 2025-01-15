@@ -1,1 +1,0 @@
-# Updating all items where x is in the specified list\nSomething.objects.filter(x__in=['a', 'b', 'c']).update(a="something")

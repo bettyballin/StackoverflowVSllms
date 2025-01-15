@@ -1,1 +1,0 @@
-SELECT V2.VideoID, V2.Title, V2.Tags,\n    (LEN(V1.Tags) - LEN(REPLACE(V1.Tags, ',', ''))) - (LEN(V1.Tags) - LEN(REPLACE(V1.Tags, V2.Tags, ''))) AS MatchCount\nFROM Videos V1\nJOIN Videos V2 ON V1.VideoID <> V2.VideoID\nWHERE V1.VideoID = 1 AND \n      (CHARINDEX(V2.Tags, V1.Tags) > 0 OR CHARINDEX(V1.Tags, V2.Tags) > 0)\nORDER BY MatchCount DESC;

@@ -1,1 +1,0 @@
-class Toolbar:\n    def __init__(self, builder, controller):\n        self.builder = builder\n        self.controller = controller\n        self.toolbar = self.builder.get_object('toolbar')\n\n        # Connect toolbar signals to controller callbacks\n        self.builder.get_object('some_tool_button').connect('clicked', self.controller.on_some_tool_clicked)

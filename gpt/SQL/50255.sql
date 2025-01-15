@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.GetInvoiceClientsTVF (@startDate DATE, @endDate DATE)\nRETURNS TABLE\nAS\nRETURN\n(\n    -- Your query here\n    SELECT * FROM Invoices\n    WHERE InvoiceDate BETWEEN @startDate AND @endDate\n);

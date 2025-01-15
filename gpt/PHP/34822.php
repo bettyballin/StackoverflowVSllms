@@ -1,1 +1,0 @@
-$encoded = urlencode($string); // Encode\n   $decoded = urldecode($encoded); // Decode

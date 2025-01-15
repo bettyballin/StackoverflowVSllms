@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare("SELECT * FROM users WHERE active = 1 LIMIT 100");\n   $stmt->execute();

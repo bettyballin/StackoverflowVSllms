@@ -1,1 +1,0 @@
-function secure_random_int($min, $max) {\n    try {\n        return random_int($min, $max);\n    } catch (Exception $e) {\n        // Handle the error appropriately\n        echo "An error occurred: " . $e->getMessage();\n        return null;\n    }\n}

@@ -1,1 +1,0 @@
-echo $this->Html->css('style.css');

@@ -1,1 +1,0 @@
-$this->Comment->recursive = 2;\n$comments = $this->Comment->find('all', array(\n    'fields' => array(\n        'Comment.id', 'Comment.content', // Fields from Comment\n        'Touch.id', 'Touch.some_field',  // Fields from Touch\n        'Touchtype.id', 'Touchtype.type' // Fields from Touchtype\n    )\n));\n\n// Debug to check the result\ndebug($comments);

@@ -1,1 +1,0 @@
-DECLARE\n   max_val NUMBER;\nBEGIN\n   SELECT NVL(MAX(id), 0) + 1 INTO max_val FROM your_table;\n   EXECUTE IMMEDIATE 'ALTER SEQUENCE your_sequence RESTART START WITH ' || max_val;\nEND;\n/

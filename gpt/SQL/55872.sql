@@ -1,1 +1,0 @@
-CREATE VIEW MyReusableView AS\nSELECT column1, column2\nFROM MySourceTable\nWHERE SomeCondition = 1;\n\n-- Procedure using the view\nCREATE PROCEDURE MyProcedure1 AS\nBEGIN\n    SELECT * FROM MyReusableView;\nEND;\n\n-- Another procedure using the same view\nCREATE PROCEDURE MyProcedure2 AS\nBEGIN\n    SELECT * FROM MyReusableView WHERE column1 = 'value';\nEND;

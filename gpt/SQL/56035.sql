@@ -1,1 +1,0 @@
-CREATE PROCEDURE [usp_MyManagedProcedure]\n   AS EXTERNAL NAME [MyStoredProcAssembly].[MyNamespace.MyClass].MyMethod;

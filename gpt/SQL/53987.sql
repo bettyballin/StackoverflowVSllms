@@ -1,1 +1,0 @@
--- Dataset1\nSELECT * FROM Table1 WHERE @DataSetChoice = 'Option1'\n\n-- Dataset2\nSELECT * FROM Table2 WHERE @DataSetChoice = 'Option2'

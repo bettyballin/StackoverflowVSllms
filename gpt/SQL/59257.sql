@@ -1,1 +1,0 @@
-SELECT column1, column2\nFROM table_name\nORDER BY column1\nLIMIT 10 OFFSET 5;

@@ -1,1 +1,0 @@
-SELECT U.ID, U.Name\nFROM Users U\nJOIN Friendships F ON U.ID = F.UserID\nWHERE F.FriendID = 3;

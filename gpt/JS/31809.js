@@ -1,1 +1,0 @@
-const MarkdownIt = require('markdown-it');\n   const sanitizeHtml = require('sanitize-html');\n\n   const md = new MarkdownIt();\n   const dirtyHtml = md.render(userMarkdown);\n   const cleanHtml = sanitizeHtml(dirtyHtml, {\n       allowedTags: [ 'b', 'i', 'em', 'strong', 'a' ],\n       allowedAttributes: {\n           'a': [ 'href' ]\n       },\n   });

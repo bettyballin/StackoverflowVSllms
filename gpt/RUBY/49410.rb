@@ -1,1 +1,0 @@
-# In the Rails console, you can simulate a request using ActionController::TestCase\ninclude ActionController::TestCase::Behavior\n\n# Create an instance of your controller\ncontroller = YourController.new\n\n# Simulate a GET request to a specific action\nget :your_action, params: { id: 1 }\n\n# Access the response\nresponse.body

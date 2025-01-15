@@ -1,1 +1,0 @@
-<System.Diagnostics.CodeAnalysis.SuppressMessage("Compiler", "BC40000:Type or member is obsolete")>\nPublic Sub YourMethod()\n    ' Your code that uses the obsolete method\n    Dim result As String = SomeObsoleteMethod()\nEnd Sub

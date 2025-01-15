@@ -1,1 +1,0 @@
-BEGIN\n   FOR obj IN (SELECT object_name, object_type FROM user_objects WHERE object_type IN ('TABLE', 'VIEW', 'SEQUENCE', 'PROCEDURE', 'FUNCTION', 'PACKAGE')) LOOP\n      EXECUTE IMMEDIATE 'GRANT ALL ON ' || obj.object_name || ' TO bob';\n   END LOOP;\nEND;\n/

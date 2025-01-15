@@ -1,1 +1,0 @@
-// Include the Composer autoload file\n   require 'vendor/autoload.php';

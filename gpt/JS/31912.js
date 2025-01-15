@@ -1,1 +1,0 @@
-url: "https://www.example.com/ajax.php",

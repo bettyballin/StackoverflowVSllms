@@ -1,1 +1,0 @@
-before_save :set_status

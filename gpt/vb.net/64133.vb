@@ -1,1 +1,0 @@
-Dim myColumn As Infragistics.Win.UltraWinGrid.UltraGridColumn = UltraGrid1.DisplayLayout.Bands(0).Columns("NewColumn")\nmyColumn.Style = Infragistics.Win.UltraWinGrid.ColumnStyle.DropDownValidate\nmyColumn.ValueList = myValueList

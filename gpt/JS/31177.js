@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\n\n// Open and send the request\nxhr.open('GET', 'https://example.com', true);\nxhr.send();\n\n// Abort the request\nxhr.abort();\n\n// Check if the request has been aborted\nif (xhr.readyState === XMLHttpRequest.UNSENT) {\n    console.log('The request has been aborted.');\n} else {\n    console.log('The request has not been aborted.');\n}

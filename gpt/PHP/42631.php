@@ -1,1 +1,0 @@
-class HeaderController {\n    public function show() {\n        $image = Image::get($image, 60, array('id' => 'header_image'));\n        $text = self::defaultSectionText();\n        return view('header', compact('image', 'text'));\n    }\n}

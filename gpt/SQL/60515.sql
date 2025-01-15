@@ -1,1 +1,0 @@
-DECLARE @inputString NVARCHAR(MAX) = 'Hello John Smith';\n\nWITH SplitData AS\n(\n    SELECT \n        value,\n        ROW_NUMBER() OVER (ORDER BY (SELECT 1)) AS item_index\n    FROM \n        STRING_SPLIT(@inputString, ' ')\n)\nSELECT value\nFROM SplitData\nWHERE item_index = 2; -- Index 1 corresponds to the second item

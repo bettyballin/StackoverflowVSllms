@@ -1,1 +1,0 @@
-<?php\n// Include a file two directories up from the current script's directory\ninclude_once(__DIR__ . '/../../include_file.php');\n\n// Rest of your code\n?>

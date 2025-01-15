@@ -1,1 +1,0 @@
-require 'resolv'\n\ndomain = 'example.com'\nbegin\n  ip = Resolv.getaddress(domain)\n  puts "IP: #{ip}"\nrescue Resolv::ResolvError => e\n  puts "Error: #{e.message}"\nend

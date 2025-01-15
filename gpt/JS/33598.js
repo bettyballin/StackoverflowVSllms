@@ -1,1 +1,0 @@
-// Get the full hostname\nvar hostname = window.location.hostname;\nconsole.log(hostname); // Outputs: sample.example.com

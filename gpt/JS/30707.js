@@ -1,1 +1,0 @@
-$.ajax({\n  url: 'https://example.com/api/resource/1',\n  type: 'DELETE',\n  success: function(response) {\n    console.log(response);\n  }\n});

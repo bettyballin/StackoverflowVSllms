@@ -1,1 +1,0 @@
-SELECT key FROM ubis WHERE MemberID = @MemberID\nAND [To] >= @FromDate\nAND [From] <= @ToDate

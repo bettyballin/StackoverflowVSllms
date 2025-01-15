@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION log_timestamp()\n    RETURNS TRIGGER AS $$\n    BEGIN\n        INSERT INTO TIMESTAMPS(table_name, entry_id, timestamp_type)\n        VALUES (TG_ARGV[0], NEW.id, TG_ARGV[1]);\n        RETURN NEW;\n    END;\n    $$ LANGUAGE plpgsql;

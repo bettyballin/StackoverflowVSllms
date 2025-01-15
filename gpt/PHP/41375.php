@@ -1,1 +1,0 @@
-$redirect = isset($_GET['redir']) ? $_GET['redir'] : 'default_page.php';\n$allowed_redirects = ['questions.php', 'another_page.php']; // List of allowed pages\n\nif (!in_array($redirect, $allowed_redirects)) {\n    $redirect = 'default_page.php';\n}

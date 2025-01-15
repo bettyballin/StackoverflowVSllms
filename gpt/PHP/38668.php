@@ -1,1 +1,0 @@
-<?php\n// your-server-endpoint.php\n\n// Retrieve POST data\n$key1 = $_POST['key1'];\n$key2 = $_POST['key2'];\n\n// Process the data as needed\n// Example: Creating a response array\n$response = array(\n    'key' => 'value',\n    'anotherKey' => 'anotherValue'\n);\n\n// Encode the response as JSON and send it back to the client\necho json_encode($response);\n?>

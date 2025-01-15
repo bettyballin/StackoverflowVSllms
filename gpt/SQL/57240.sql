@@ -1,1 +1,0 @@
-DECLARE\n  paramDate DATE := 'your_date_here'; -- Replace with your actual date value\n  formattedDate VARCHAR2(7);\nBEGIN\n  formattedDate := TO_CHAR(paramDate, 'mm/yyyy');\n\n  EXECUTE IMMEDIATE '\n    SELECT id, name\n    FROM customer\n    WHERE period_aded = :formattedDate'\n  USING formattedDate;\nEND;

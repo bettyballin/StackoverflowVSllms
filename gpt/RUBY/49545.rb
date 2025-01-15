@@ -1,1 +1,0 @@
-# Creating a hash using the newer syntax\noptions = { on: :create }

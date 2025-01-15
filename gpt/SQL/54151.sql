@@ -1,1 +1,0 @@
-SELECT h.owner_id, o.owner_name\nFROM OwnershipHistory h\nJOIN Owners o ON h.owner_id = o.owner_id\nWHERE h.car_id = Y\n  AND h.change_timestamp =\n    (SELECT MAX(change_timestamp)\n     FROM OwnershipHistory\n     WHERE car_id = Y\n       AND change_timestamp <= 'X');

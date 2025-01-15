@@ -1,1 +1,0 @@
-<configuration>\n  <runtime>\n    <ThreadStackSize value="102400" /> <!-- Increase stack size to 100 KB -->\n  </runtime>\n</configuration>

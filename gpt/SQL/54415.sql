@@ -1,1 +1,0 @@
-SELECT A.Name, A.Color\nFROM TableA A\nLEFT JOIN TableB B\nON A.Name = B.Name AND A.Color = B.Color\nWHERE B.Name IS NULL;

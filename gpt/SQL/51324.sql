@@ -1,1 +1,0 @@
-/* Select the data to return to poor man replication server */\nSELECT DISTINCT\n    c.id,\n    c.date,\n    c.time,\n    c.duration,\n    c.location\nFROM\n    #tmp q\nJOIN\n    call_table c (NOLOCK)\nON\n    q.id = c.id\n    AND q.date = c.date\n    AND q.time = c.time\n    AND q.duration = c.duration\n    AND q.location = c.location;

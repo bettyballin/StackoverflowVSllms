@@ -1,1 +1,0 @@
-<bean id="contextSource" class="org.springframework.jndi.JndiObjectFactoryBean">\n    <property name="jndiName" value="java:comp/env/ldap/yourResource"/>\n    <property name="resourceRef" value="true"/>\n</bean>\n\n<bean id="ldapTemplate" class="org.springframework.ldap.core.LdapTemplate">\n    <constructor-arg ref="contextSource"/>\n</bean>

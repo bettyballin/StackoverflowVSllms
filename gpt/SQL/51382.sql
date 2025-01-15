@@ -1,1 +1,0 @@
--- Adding a timestamp column to a table\n   ALTER TABLE customer_data ADD COLUMN last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP;\n\n   -- Using the timestamp in updates\n   UPDATE customer_data SET name = 'New Name', last_updated = CURRENT_TIMESTAMP WHERE customer_id = 123;

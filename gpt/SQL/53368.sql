@@ -1,1 +1,0 @@
-RESTORE DATABASE YourDatabase\n   FROM DISK = 'D:\YourDatabaseDiff.bak'\n   WITH RECOVERY

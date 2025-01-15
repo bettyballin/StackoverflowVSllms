@@ -1,1 +1,0 @@
-SELECT \n  COUNT(*) AS TotalCount,\n  SUM(CASE WHEN {conditions} THEN 1 ELSE 0 END) AS QualifiedCount\nFROM MyTable\nJOIN MyOtherTable mot ON MyTable.id = mot.id;

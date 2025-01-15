@@ -1,1 +1,0 @@
-class RenameContextInActivities < ActiveRecord::Migration\n  def self.up\n    rename_column :activities, :context, :activity_context\n  end\n\n  def self.down\n    rename_column :activities, :activity_context, :context\n  end\nend

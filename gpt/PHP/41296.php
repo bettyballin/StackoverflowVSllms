@@ -1,1 +1,0 @@
-$data = [\n    'type' => 'person_event',\n    'person_details' => 'John Doe',\n    'event_type' => 'conference'\n];\n\n$domainObject = DomainObjectFactory::create($data);\n\necho $domainObject->getPersonDetails(); // Output: John Doe\necho $domainObject->getEventType();     // Output: conference

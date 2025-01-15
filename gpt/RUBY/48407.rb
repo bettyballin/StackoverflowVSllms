@@ -1,1 +1,0 @@
-create_table :articles do |t|\n  t.integer :user_id, null: false\n  t.integer :genre_id, null: false\n  t.string :url, limit: 255, null: false\n  t.string :title, limit: 60, null: false\n  t.text :summary, limit: 350, null: false\n  t.integer :votes_count, default: 0\n  t.datetime :published_at, default: nil\n  t.timestamps\nend

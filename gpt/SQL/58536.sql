@@ -1,1 +1,0 @@
-SELECT \n    column1,\n    column2\nFROM \n    YourViewName WITH (NOLOCK);

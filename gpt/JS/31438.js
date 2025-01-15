@@ -1,1 +1,0 @@
-axios.get('https://example.com/api')\n       .then(response => {\n           console.log(response.data);\n       })\n       .catch(error => {\n           console.error(error);\n       });

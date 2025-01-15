@@ -1,1 +1,0 @@
-# Gemfile\n   gem 'image_optim'

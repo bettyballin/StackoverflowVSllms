@@ -1,1 +1,0 @@
-AND (Column2 LIKE ISNULL(@Param2, '') + '%')

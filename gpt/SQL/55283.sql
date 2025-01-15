@@ -1,1 +1,0 @@
-ALTER TABLE [dbo].[passenger-flylist] WITH CHECK \nADD CONSTRAINT [FK_passenger-flylist_passenger] \nFOREIGN KEY([passenger-id]) \nREFERENCES [dbo].[passenger] ([passenger-id]);\n\nALTER TABLE [dbo].[passenger-flylist] WITH CHECK \nADD CONSTRAINT [FK_passenger-flylist_flylist] \nFOREIGN KEY([flylist-id]) \nREFERENCES [dbo].[flylist] ([flylist-id]);

@@ -1,1 +1,0 @@
-<?php\n   if (isset($_GET['location'])) {\n       $location = urldecode($_GET['location']);\n       // Process the new image\n       // For example, log the new image path\n       file_put_contents('new_images.log', $location . PHP_EOL, FILE_APPEND);\n   }\n   ?>

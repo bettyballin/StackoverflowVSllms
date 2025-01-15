@@ -1,1 +1,0 @@
-<?php\n   session_start();\n   $_SESSION['user'] = "name";\n   ?>

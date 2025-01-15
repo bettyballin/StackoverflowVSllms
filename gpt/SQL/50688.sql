@@ -1,1 +1,0 @@
-INSERT INTO `attributes` (`name`, `data_type`)\nVALUES ('Screen Size', 'enum'), ('Flavor', 'varchar');

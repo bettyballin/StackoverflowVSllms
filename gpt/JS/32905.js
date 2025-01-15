@@ -1,1 +1,0 @@
-const fs = require('fs');\n\nfs.writeFile('example.txt', 'Hello, World!', (err) => {\n  if (err) throw err;\n  console.log('The file has been saved!');\n});

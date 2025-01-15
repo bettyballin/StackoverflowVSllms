@@ -1,1 +1,0 @@
-class ApplicationController < ActionController::Base\n  before_action :check_admin_permissions\n\n  private\n\n  def check_admin_permissions\n    controller = controller_name\n    action = action_name\n\n    unless current_user.has_permission?(controller, action)\n      redirect_to root_path, alert: "You do not have permission to access this page."\n    end\n  end\nend

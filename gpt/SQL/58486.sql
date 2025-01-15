@@ -1,1 +1,0 @@
-SELECT versions_starttime, versions_endtime, versions_xid, versions_operation, t.*\nFROM sometable VERSIONS BETWEEN TIMESTAMP sysdate-2 AND sysdate-1\nWHERE some_condition;

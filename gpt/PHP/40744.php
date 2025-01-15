@@ -1,1 +1,0 @@
-if ($Stmt = $Mysqli->prepare("SELECT color, pattern, size,\n                              manufacturer, mfgSku, storeLocation,\n                              aisle, status\n                              FROM tblItems WHERE ourSku = ?")) {\n    // Additional code\n}

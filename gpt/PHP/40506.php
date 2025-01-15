@@ -1,1 +1,0 @@
-session_save_path('/path/to/sessions');

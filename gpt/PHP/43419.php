@@ -1,1 +1,0 @@
-<?php\nclass A {\n    public function a() {\n        echo "Function a called!";\n    }\n}\n\n(new A())->a(); // This will output: Function a called!\n?>

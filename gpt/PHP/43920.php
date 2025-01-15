@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\n// Assuming you have validated the user input and it is safe to use\n$_SESSION['email'] = $_POST['email'];\n?>

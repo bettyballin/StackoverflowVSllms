@@ -1,1 +1,0 @@
-$key = "0123456789012345";\n$delimited_key = chunk_split($key, 4, '-');\n$delimited_key = rtrim($delimited_key, '-'); // Remove the trailing hyphen\necho $delimited_key; // Outputs 0123-4567-8901-2345

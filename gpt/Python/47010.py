@@ -1,1 +1,0 @@
-import os\nimport base64\n\ndef generate_secure_token(length=32):\n    # Generate a secure random token\n    return base64.urlsafe_b64encode(os.urandom(length)).decode('utf-8')

@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.CheckWord (@word NVARCHAR(100))\nRETURNS BIT\nAS\nBEGIN\n    DECLARE @exists BIT\n    SELECT @exists = CASE WHEN EXISTS (SELECT 1 FROM Dictionary WHERE Word = @word) THEN 1 ELSE 0 END\n    RETURN @exists\nEND;

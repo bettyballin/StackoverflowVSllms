@@ -1,1 +1,0 @@
-array1 = [1, 2, 3]\n    array2 = [4, 5, 6]\n    combined = [*array1, *array2]\n    p combined  # prints [1, 2, 3, 4, 5, 6]

@@ -1,1 +1,0 @@
--- Query to get the previous and next items given a specific date\nWITH PreviousItem AS (\n    SELECT id, date,\n           LAG(date) OVER (ORDER BY date) AS prev_date,\n           LEAD(date) OVER (ORDER BY date) AS next_date\n    FROM items\n)\nSELECT *\nFROM PreviousItem\nWHERE date = 'your_date_here';

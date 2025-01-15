@@ -1,1 +1,0 @@
-UPDATE table\n   SET default = 'N'\n   WHERE user_id = 'abc'\n   AND default = 'Y';

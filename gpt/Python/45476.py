@@ -1,1 +1,0 @@
-from setuptools import setup, find_packages\n\nsetup(\n    name='your_api_client',\n    version='1.0.0',\n    packages=find_packages(),\n    install_requires=['requests'],\n)

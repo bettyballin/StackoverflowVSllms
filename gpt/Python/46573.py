@@ -1,1 +1,0 @@
-import xxhash\n\ndef generate_checksum(data):\n    hash_obj = xxhash.xxh64()\n    hash_obj.update(data)\n    return hash_obj.hexdigest()\n\n# Example usage\nfile_path = 'path_to_your_image.jpg'\nwith open(file_path, 'rb') as f:\n    file_data = f.read()\n\nchecksum = generate_checksum(file_data)\nprint(f'The checksum is: {checksum}')

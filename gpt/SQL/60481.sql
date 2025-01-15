@@ -1,1 +1,0 @@
-IMPORT FOREIGN SCHEMA public\n   FROM SERVER foreign_db_server\n   INTO foreign_schema;

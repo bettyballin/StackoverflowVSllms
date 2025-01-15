@@ -1,1 +1,0 @@
-CREATE PROCEDURE [dbo].[SearchVehicles]\n    @WebsiteName NVARCHAR(75),\n    @SortOrder NVARCHAR(500),\n    @Statuses NVARCHAR(500),\n    @IsNew INT,\n    @Categories NVARCHAR(500)\nAS\nBEGIN\n    SET NOCOUNT ON;\n\n    -- Your query logic here\n\nEND

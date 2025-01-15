@@ -1,1 +1,0 @@
-<?php\nsession_start();\n$_SESSION['user'] = $username; // Correct way\n?>

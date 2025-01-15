@@ -1,1 +1,0 @@
--- Create a table with a UUID primary key\nCREATE TABLE users (\n    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    username VARCHAR(255) NOT NULL\n);\n\n-- Inserting a new user\nINSERT INTO users (username) VALUES ('exampleuser');

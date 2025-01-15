@@ -1,1 +1,0 @@
-<AssociationSetMapping Name="FK_Orders_Customers" TypeName="ContosoModel.FK_Orders_Customers" StoreEntitySet="Order">\n  <EndProperty Name="Customer">\n    <ScalarProperty Name="ID" ColumnName="CustomerID" />\n  </EndProperty>\n  <EndProperty Name="Order">\n    <ScalarProperty Name="ID" ColumnName="ID" />\n  </EndProperty>\n</AssociationSetMapping>

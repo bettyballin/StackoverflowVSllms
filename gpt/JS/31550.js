@@ -1,1 +1,0 @@
-// Using window.onload\nwindow.onload = function() {\n    console.log("Page is fully loaded.");\n};\n\n// Using onload directly\nonload = function() {\n    console.log("Page is fully loaded.");\n};

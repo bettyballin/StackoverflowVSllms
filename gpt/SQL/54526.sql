@@ -1,1 +1,0 @@
-SELECT \n    n.id AS news_id,\n    n.title,\n    n.content,\n    JSON_ARRAYAGG(\n        JSON_OBJECT(\n            'comment_id', c.id,\n            'comment_text', c.text,\n            'comment_author', c.author\n        )\n    ) AS comments\nFROM \n    news n\nLEFT JOIN \n    comments c ON c.news_id = n.id\nGROUP BY \n    n.id, n.title, n.content;

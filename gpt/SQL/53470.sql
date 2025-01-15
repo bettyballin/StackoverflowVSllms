@@ -1,1 +1,0 @@
-WITH RankedEmails AS (\n    SELECT \n        UserID,\n        UserName,\n        EmailAddress,\n        Source,\n        ROW_NUMBER() OVER (PARTITION BY UserID ORDER BY EmailAddress DESC) as rn\n    FROM \n        Users\n)\n\nSELECT \n    UserID,\n    UserName,\n    EmailAddress,\n    Source\nFROM \n    RankedEmails\nWHERE \n    rn = 1;

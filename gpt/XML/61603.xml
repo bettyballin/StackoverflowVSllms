@@ -1,1 +1,0 @@
-<jboss-web>\n    <context-root>/yourapp</context-root>\n    <configuration>\n        <jsp-configuration>\n            <modificationTestInterval>1</modificationTestInterval>\n        </jsp-configuration>\n    </configuration>\n</jboss-web>

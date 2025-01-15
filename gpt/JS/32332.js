@@ -1,1 +1,0 @@
-var timestamp_seconds = 1247793660;\nvar timestamp_milliseconds = timestamp_seconds * 1000;\nvar d = new Date();\nd.setTime(timestamp_milliseconds);\nconsole.log(d.toUTCString());  // Output: "Fri, 17 Jul 2009 01:21:00 GMT"

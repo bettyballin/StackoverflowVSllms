@@ -1,1 +1,0 @@
-file_path = '/path/to/file.txt'\n   with open(file_path, 'r') as file:\n       contents = file.read()

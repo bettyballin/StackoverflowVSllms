@@ -1,1 +1,0 @@
-Dim str As String = """this is \n            some preformatted \n            text"""

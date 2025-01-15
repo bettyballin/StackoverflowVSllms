@@ -1,1 +1,0 @@
-CREATE TABLE colors (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       color VARCHAR(7) NOT NULL -- Assuming color values are in HEX format like '#FFFFFF'\n   );

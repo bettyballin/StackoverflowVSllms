@@ -1,1 +1,0 @@
-SELECT table1column1 COLLATE NewCollation + table2column2 COLLATE NewCollation\n   FROM YourTables;

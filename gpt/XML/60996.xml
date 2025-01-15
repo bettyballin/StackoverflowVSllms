@@ -1,1 +1,0 @@
-<system.webServer>\n     <httpCompression>\n       <dynamicTypes>\n         <add mimeType="text/*" enabled="true" />\n         <add mimeType="application/javascript" enabled="true" />\n       </dynamicTypes>\n     </httpCompression>\n     <urlCompression doStaticCompression="true" doDynamicCompression="true" />\n   </system.webServer>

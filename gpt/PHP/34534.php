@@ -1,1 +1,0 @@
-$smb = smbclient_state_new();\n   smbclient_option_set($smb, SMBCLIENT_OPT_AUTO_ANONYMOUS_LOGON, false);\n   smbclient_state_init($smb, 'domain\\username', 'password');\n   $file = fopen("smb://serverB/sharedfolder/file.dummy", 'w', false, $smb);\n   fwrite($file, $data);\n   fclose($file);

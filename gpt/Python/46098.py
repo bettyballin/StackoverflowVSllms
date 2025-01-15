@@ -1,1 +1,0 @@
-import math\n\ndef radians_to_degrees(radians):\n    return radians * (180 / math.pi)\n\ndef degrees_to_radians(degrees):\n    return degrees * (math.pi / 180)\n\n# Example usage\nradians = 1\ndegrees = 57.2958\n\nprint(f"{radians} radians is equal to {radians_to_degrees(radians)} degrees")\nprint(f"{degrees} degrees is equal to {degrees_to_radians(degrees)} radians")

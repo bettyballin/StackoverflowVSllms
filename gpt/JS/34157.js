@@ -1,1 +1,0 @@
-var updateProgressDiv = $get('updateProgressDiv');

@@ -1,1 +1,0 @@
-$string = "00023460";\n$modifiedString = str_replace("0", "", $string);\necho $modifiedString; // Output: 2346

@@ -1,1 +1,0 @@
-from bs4 import BeautifulSoup\n    import json\n\n    soup = BeautifulSoup(html_content, 'html.parser')\n    json_ld = soup.find('script', type='application/ld+json')\n    if json_ld:\n        data = json.loads(json_ld.string)\n        if 'address' in data:\n            print("Address found:", data['address'])

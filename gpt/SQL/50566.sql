@@ -1,1 +1,0 @@
-CREATE TABLE Products (\n        ProductID INT PRIMARY KEY,\n        ProductName VARCHAR(100)\n    );

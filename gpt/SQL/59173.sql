@@ -1,1 +1,0 @@
-SELECT id, name\nINTO OUTFILE '/path/to/output.csv'\nFIELDS TERMINATED BY ','\nENCLOSED BY '"'\nLINES TERMINATED BY '\n'\nFROM students;

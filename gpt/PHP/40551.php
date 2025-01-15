@@ -1,1 +1,0 @@
-$string = "Hello World!!\n           How are you?";\n\n// Convert newlines to HTML line breaks\n$html_string = nl2br($string);\n\n// Output the converted string\necho $html_string;

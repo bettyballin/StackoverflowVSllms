@@ -1,1 +1,0 @@
-SELECT customers.customer_name, orders.amount\nFROM customers\nJOIN orders ON customers.customer_id = orders.customer_id;

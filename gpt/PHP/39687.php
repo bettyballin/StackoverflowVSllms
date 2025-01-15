@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\n// Destroy the session\nsession_unset();\nsession_destroy();\n\necho json_encode(['status' => 'Session expired']);\n?>

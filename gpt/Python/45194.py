@@ -1,1 +1,0 @@
-# Example of file encryption using Python\n    from cryptography.fernet import Fernet\n    key = Fernet.generate_key()\n    cipher_suite = Fernet(key)\n    with open('source_code.py', 'rb') as file:\n        file_data = file.read()\n    encrypted_data = cipher_suite.encrypt(file_data)\n    with open('source_code_encrypted.py', 'wb') as file:\n        file.write(encrypted_data)

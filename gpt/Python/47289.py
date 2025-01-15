@@ -1,1 +1,0 @@
-result = list.join(delimiter)

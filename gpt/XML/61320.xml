@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <staticContent>\n      <mimeMap fileExtension=".html" mimeType="text/html" />\n      <mimeMap fileExtension=".xml" mimeType="application/xml" />\n    </staticContent>\n  </system.webServer>\n</configuration>

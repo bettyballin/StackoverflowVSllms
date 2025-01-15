@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded', (event) => {\n    if (window.location.hash) {\n        const element = document.querySelector(window.location.hash);\n        if (element) {\n            element.scrollIntoView();\n        }\n    }\n});

@@ -1,1 +1,0 @@
-class Test {\n    public static function sayHi() {\n        echo 'hi';\n    }\n}\n\nTest::sayHi();  // Outputs: hi

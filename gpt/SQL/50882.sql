@@ -1,1 +1,0 @@
--- MS-SQL table definition\nCREATE TABLE Employees (\n    EmployeeID INT PRIMARY KEY,\n    FirstName NVARCHAR(50),\n    LastName NVARCHAR(50),\n    HireDate DATETIME\n);\n\n-- Equivalent Sybase table definition\nCREATE TABLE Employees (\n    EmployeeID INT PRIMARY KEY,\n    FirstName VARCHAR(50),\n    LastName VARCHAR(50),\n    HireDate DATETIME\n);

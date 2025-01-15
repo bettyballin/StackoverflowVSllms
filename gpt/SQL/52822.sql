@@ -1,1 +1,0 @@
--- MS SQL Server: Create a filtered index\n   CREATE INDEX idx_filtered ON table_name(column_name) WHERE column_name IS NOT NULL;\n\n   -- Oracle: Create a function-based index\n   CREATE INDEX idx_function_based ON table_name(NVL(column_name, 'default_value'));

@@ -1,1 +1,0 @@
-SELECT Parent.*, Child.*\nFROM Parent\nJOIN Child ON Parent.id = Child.parent_id\nWHERE Child.id = ?;

@@ -1,1 +1,0 @@
-// Fetch all values of the first column\n$columnValues = $PDOStatement->fetchAll(PDO::FETCH_COLUMN);

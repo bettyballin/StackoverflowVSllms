@@ -1,1 +1,0 @@
-<!-- app/views/example/index.html.erb -->\n<html>\n<head>\n  <title>Example Page</title>\n</head>\n<body>\n  <h1>Welcome to the Example Page</h1>\n  <p>The time now is <%= Time.now %></p>\n</body>\n</html>

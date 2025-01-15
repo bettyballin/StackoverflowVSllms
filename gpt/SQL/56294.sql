@@ -1,1 +1,0 @@
-SELECT [...]\n    FROM [...]\n    WHERE some_col in (1,2,3,4,5) AND some_other_expr

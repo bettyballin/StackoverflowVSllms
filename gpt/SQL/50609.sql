@@ -1,1 +1,0 @@
-SELECT e.event_name, e.event_date, r.repeat_type, r.repeat_interval, r.repeat_weekdays, r.repeat_monthdays\nFROM Events e\nJOIN EventRepeatInfo r ON e.event_id = r.event_id\nWHERE e.event_id = 1;

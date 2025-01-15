@@ -1,1 +1,0 @@
-CREATE TABLE demo\n(\n id INT PRIMARY KEY IDENTITY,\n name NVARCHAR(50) NOT NULL,\n password BINARY(20) NOT NULL\n);\n\nCREATE NONCLUSTERED INDEX idx_demo_foo ON demo ( name, password );

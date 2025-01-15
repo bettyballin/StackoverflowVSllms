@@ -1,1 +1,0 @@
-<?php\n// Display all errors\nini_set('display_errors', 1);\nini_set('display_startup_errors', 1);\nerror_reporting(E_ALL);\n\n// Echo a test string\necho 'START START START';\n\n// Your other PHP code here\n?>

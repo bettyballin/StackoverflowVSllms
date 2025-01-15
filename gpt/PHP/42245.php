@@ -1,1 +1,0 @@
-// Example of setting locale dynamically\n    $locale = new Zend_Locale('en'); // Or fetch from user preferences\n    $translate->setLocale($locale);

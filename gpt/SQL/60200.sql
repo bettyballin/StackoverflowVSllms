@@ -1,1 +1,0 @@
-DBCC CHECKDB ([YourDatabaseName], REPAIR_ALLOW_DATA_LOSS);

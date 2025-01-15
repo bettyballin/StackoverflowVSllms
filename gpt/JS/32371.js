@@ -1,1 +1,0 @@
-// Set the border color to red for validation\ndocument.getElementById('myinput').style.border = '1px solid red';\n\n// Reset the border color to default\ndocument.getElementById('myinput').style.border = '';

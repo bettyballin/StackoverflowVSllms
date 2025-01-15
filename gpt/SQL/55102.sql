@@ -1,1 +1,0 @@
-GRANT READ, WRITE ON DIRECTORY example_dir TO your_user;

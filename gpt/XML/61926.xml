@@ -1,1 +1,0 @@
-<ItemGroup>\n     <PackageReference Include="TestLibrary" Version="1.0.0" />\n   </ItemGroup>

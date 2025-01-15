@@ -1,1 +1,0 @@
-UPDATE YourTable\n   SET NewGuidColumn = NEWID()\n   WHERE NewGuidColumn IS NULL;

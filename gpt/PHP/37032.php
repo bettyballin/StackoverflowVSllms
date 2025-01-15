@@ -1,1 +1,0 @@
-<?php\n// Ensure the file exists and is readable\nif (file_exists('.htMyClass.inc.php') && is_readable('.htMyClass.inc.php')) {\n    require_once('.htMyClass.inc.php');\n} else {\n    die('The required file does not exist or is not readable.');\n}\n\n// Your code here\n?>

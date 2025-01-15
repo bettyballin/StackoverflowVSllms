@@ -1,1 +1,0 @@
-require 'vendor/autoload.php';\n\n\Stripe\Stripe::setApiKey('YourSecretKey');\n\n$paymentIntent = \Stripe\PaymentIntent::create([\n    'amount' => 1000, // Amount in cents\n    'currency' => 'usd',\n    'payment_method_types' => ['card'],\n]);\n\n// Confirm the payment, handle responses, etc.

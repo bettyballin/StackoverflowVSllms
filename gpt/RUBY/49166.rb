@@ -1,1 +1,0 @@
-ame = "world"\nputs "Hello, %s" % name

@@ -1,1 +1,0 @@
-CREATE OR REPLACE TRIGGER check_application\nBEFORE INSERT OR UPDATE OR DELETE ON your_table\nFOR EACH ROW\nDECLARE\n    app_name VARCHAR2(100);\nBEGIN\n    SELECT sys_context('USERENV', 'CLIENT_PROGRAM_NAME') INTO app_name FROM dual;\n    IF app_name != 'ourTool.exe' THEN\n        RAISE_APPLICATION_ERROR(-20001, 'Unauthorized application.');\n    END IF;\nEND;\n/

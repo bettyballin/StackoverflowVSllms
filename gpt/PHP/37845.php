@@ -1,1 +1,0 @@
-if (!preg_match('/^[2-5]\d{5}$/', $_POST['packageNumber'])) {\n    echo "The package number is not the correct format.";\n}

@@ -1,1 +1,0 @@
-$length = mb_strlen($string, 'UTF-8');\n    $substring = mb_substr($string, 0, 10, 'UTF-8');

@@ -1,1 +1,0 @@
-ALTER TABLE tbl_name ADD COLUMN column4 VARCHAR(255) AFTER column1;

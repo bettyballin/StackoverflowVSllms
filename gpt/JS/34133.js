@@ -1,1 +1,0 @@
-// Check if the browser supports querySelectorAll (DOM Level 3)\nif (document.querySelectorAll) {\n  console.log("querySelectorAll is supported");\n} else {\n  console.log("querySelectorAll is not supported");\n}

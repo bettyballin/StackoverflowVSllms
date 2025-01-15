@@ -1,1 +1,0 @@
--- Delete data older than 365 days from history table B\nDELETE FROM table_B\nWHERE created_at < NOW() - INTERVAL 365 DAY;

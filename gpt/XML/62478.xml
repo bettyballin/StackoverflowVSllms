@@ -1,1 +1,0 @@
-<!-- Example Maven dependency for OWASP Dependency Check -->\n   <dependency>\n       <groupId>org.owasp</groupId>\n       <artifactId>dependency-check-maven</artifactId>\n       <version>6.1.6</version>\n   </dependency>

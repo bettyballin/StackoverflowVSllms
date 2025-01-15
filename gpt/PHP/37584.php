@@ -1,1 +1,0 @@
-// application/modules/default/Bootstrap.php\n   class Default_Bootstrap extends Zend_Application_Module_Bootstrap\n   {\n       protected function _initDefaultLayout()\n       {\n           // Default-specific layout initialization\n           $layout = Zend_Layout::getMvcInstance();\n           $layout->setLayout('default');\n       }\n   }

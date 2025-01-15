@@ -1,1 +1,0 @@
-<system.webServer>\n     <handlers>\n       <remove name="BlockViewHandler"/>\n       <add name="BlockViewHandler" path="*" verb="*" preCondition="integratedMode" type="System.Web.HttpNotFoundHandler" resourceType="File" requireAccess="Script"/>\n     </handlers>\n   </system.webServer>

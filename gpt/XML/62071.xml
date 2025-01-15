@@ -1,1 +1,0 @@
-<policyInjection>\n     <policies>\n       <add name="AuthenticationPolicy">\n         <handlers>\n           <add type="YourNamespace.AuthenticationHandler, YourAssembly" />\n         </handlers>\n         <matchingRules>\n           <add type="NamespaceMatchingRule" />\n         </matchingRules>\n       </add>\n     </policies>\n   </policyInjection>

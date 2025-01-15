@@ -1,1 +1,0 @@
-// Example of a Logstash configuration file\n   input {\n     file {\n       path => "/var/log/myapp/*.log"\n       start_position => "beginning"\n     }\n   }\n   filter {\n     grok {\n       match => { "message" => "%{COMBINEDAPACHELOG}" }\n     }\n   }\n   output {\n     elasticsearch {\n       hosts => ["localhost:9200"]\n     }\n     stdout { codec => rubydebug }\n   }

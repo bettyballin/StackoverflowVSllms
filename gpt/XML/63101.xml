@@ -1,1 +1,0 @@
-<ApplicationPools>\n    <add name="YourAppPoolName" autoStart="true">\n        <recycling>\n            <periodicRestart memory="512000" />\n        </recycling>\n    </add>\n</ApplicationPools>

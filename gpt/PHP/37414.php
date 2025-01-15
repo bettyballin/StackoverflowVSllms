@@ -1,1 +1,0 @@
-// Set the include path to include the Zend library\nset_include_path(implode(PATH_SEPARATOR, array(\n    realpath('/path/to/Zend/library'),\n    get_include_path(),\n)));\n\n// Include the Zend Loader\nrequire_once 'Zend/Loader/Autoloader.php';\n\n// Register the autoloader\n$autoloader = Zend_Loader_Autoloader::getInstance();\n$autoloader->setFallbackAutoloader(true);

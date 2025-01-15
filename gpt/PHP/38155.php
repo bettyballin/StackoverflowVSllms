@@ -1,1 +1,0 @@
-<?php\n// Trigger a user error\ntrigger_error("This is a user-generated error.", E_USER_ERROR);\n\n// Trigger a user warning\ntrigger_error("This is a user-generated warning.", E_USER_WARNING);\n\n// Trigger a user notice\ntrigger_error("This is a user-generated notice.", E_USER_NOTICE);\n?>

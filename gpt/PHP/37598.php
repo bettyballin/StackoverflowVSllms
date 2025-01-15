@@ -1,1 +1,0 @@
-if (!$result->isValid()) {\n       $form->addError('Username or password do not exist');\n       $form->populate($formData);\n       $this->view->form = $form;\n   }

@@ -1,1 +1,0 @@
-OPENQUERY(Oracle, "SELECT [cols] FROM table1 INNER JOIN table2")

@@ -1,1 +1,0 @@
-self.logfile = open(self.logfile_name, "aU")

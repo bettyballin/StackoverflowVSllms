@@ -1,1 +1,0 @@
-WITH CTE AS (\n    SELECT \n        ROW_NUMBER() OVER (ORDER BY [YourSortColumn]) AS RowNum\n    FROM \n        [YourTable]\n)\nDELETE FROM [YourTable]\nWHERE [YourPrimaryKey] IN (\n    SELECT [YourPrimaryKey]\n    FROM CTE\n    WHERE RowNum > @n\n);

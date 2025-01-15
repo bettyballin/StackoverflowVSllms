@@ -1,1 +1,0 @@
-BEGIN\n   DBMS_SCHEDULER.create_job (\n      job_name        => 'GET_MAC_ADDRESS_JOB',\n      job_type        => 'EXECUTABLE',\n      job_action      => '/path/to/your/script.sh',\n      start_date      => SYSTIMESTAMP,\n      enabled         => TRUE,\n      auto_drop       => TRUE\n   );\nEND;\n/

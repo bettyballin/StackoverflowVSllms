@@ -1,1 +1,0 @@
-If (a > 0) AndAlso (b > 0) Then\n         ' The second expression is only evaluated if the first is true\n     End If

@@ -1,1 +1,0 @@
-SELECT UserID, PasswordHash\nFROM Users\nWHERE Username = @Username;

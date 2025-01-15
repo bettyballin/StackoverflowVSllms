@@ -1,1 +1,0 @@
-window.onload = function() {\n    init(5, 6, 7);\n};

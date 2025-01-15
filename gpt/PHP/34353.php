@@ -1,1 +1,0 @@
-$imagePath = $imageDir . $pk . '.jpg';\n\nif (!file_exists($imagePath) || filesize($imagePath) === 0) {\n    $content = @file_get_contents($pic_url);\n    \n    if ($content !== false) {\n        if (file_put_contents($imagePath, $content)) {\n            return $imagePath;\n        }\n    }\n    \n    return 'removed.jpg';\n}\n\nreturn $imagePath;

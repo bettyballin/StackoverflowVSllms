@@ -1,1 +1,0 @@
-// Using jQuery for AJAX\n    $.ajax({\n        url: 'example.com/api',\n        type: 'GET',\n        success: function(data) {\n            console.log(data);\n        },\n        error: function(error) {\n            console.log(error);\n        }\n    });

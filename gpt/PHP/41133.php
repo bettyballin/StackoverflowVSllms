@@ -1,1 +1,0 @@
-$usersTable = new Users();\n$user = $usersTable->getUserByID(1);\nif ($user) {\n    // Do something with the user\n}\n\n$widgetsTable = new Widgets();\n$widgets = $widgetsTable->getWidgetsFromUser(1);\nforeach ($widgets as $widget) {\n    // Do something with each widget\n}

@@ -1,1 +1,0 @@
-If Response.Cookies.Count > 0 Then\n    Response.Cookies("aLog").Expires = DateTime.Now.AddDays(-1)\nEnd If

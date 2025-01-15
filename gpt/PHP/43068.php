@@ -1,1 +1,0 @@
-function randomizeArray(&$array) {\n    usort($array, function($a, $b) {\n        return rand(-1, 1);\n    });\n}\n\n$array = [1, 2, 3, 4, 5];\nrandomizeArray($array);\n\nprint_r($array);

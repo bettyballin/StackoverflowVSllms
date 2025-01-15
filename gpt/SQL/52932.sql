@@ -1,1 +1,0 @@
-INSERT INTO destTable (Column1, Column2, Column3, ...)\nSELECT st.Column1, st.Column2, st.Column3, ...\nFROM srcTable st\nWHERE NOT EXISTS (\n    SELECT 1 \n    FROM destTable dt\n    WHERE dt.KeyColumn1 = st.KeyColumn1\n    AND dt.KeyColumn2 = st.KeyColumn2\n    AND dt.KeyColumn3 = st.KeyColumn3\n    -- Add more key columns if necessary\n);

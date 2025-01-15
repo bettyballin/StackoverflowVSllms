@@ -1,1 +1,0 @@
-SELECT *\nFROM messages\nWHERE messageTime >= DATEADD(day, -1, GETDATE());

@@ -1,1 +1,0 @@
-Private Sub NewRecordButton_Click()\n        On Error GoTo ErrorHandler\n\n        ' Move to a new record\n        DoCmd.GoToRecord , , acNewRec\n\n        ' Save the new record immediately\n        DoCmd.RunCommand acCmdSaveRecord\n\n        Exit Sub\n\n    ErrorHandler:\n        MsgBox "Error " & Err.Number & ": " & Err.Description\n    End Sub

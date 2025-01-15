@@ -1,1 +1,0 @@
-jQuery(document).ready(function() {\n    jQuery('#button').clone().appendTo('#panel'); // button will appear in panel but the original remains in place\n});

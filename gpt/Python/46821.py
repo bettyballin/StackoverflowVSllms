@@ -1,1 +1,0 @@
-import io\n   with io.StringIO() as buffer:\n       buffer.write("Some text")\n       content = buffer.getvalue()

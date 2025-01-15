@@ -1,1 +1,0 @@
-$("#tree").fancytree({\n       source: {\n           url: "your-url",\n           data: { key: "value" }\n       }\n   });

@@ -1,1 +1,0 @@
-if (myFunc.constructor === Function) {\n    // myFunc is a function\n}

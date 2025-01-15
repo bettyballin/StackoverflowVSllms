@@ -1,1 +1,0 @@
-<?php\n$string = "nÖ§9q1Fª£";\n\n// Convert the string to an array of byte values\n$byteValues = unpack('C*', $string);\n\n// Print the byte values to a text file\n$file = fopen("byte_values.txt", "w");\nforeach ($byteValues as $byte) {\n    fwrite($file, $byte . " ");\n}\nfclose($file);\n\n// Output to verify\nprint_r($byteValues);\n?>

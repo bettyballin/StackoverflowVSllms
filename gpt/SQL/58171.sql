@@ -1,1 +1,0 @@
-CREATE TABLE your_table (\n       column1 String,\n       column2 Int32,\n       ...\n   ) ENGINE = Log;\n\n   INSERT INTO your_table FORMAT CSV\n   < /path/to/your_file.csv;

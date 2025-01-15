@@ -1,1 +1,0 @@
-$('.blueBoxMid li').each(function(){\n  var hoverText = $(this).children('em').text(); \n  $(this).attr('title', hoverText);\n  $(this).children('em').hide();\n});

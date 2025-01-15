@@ -1,1 +1,0 @@
-function exampleFunction() {\n    console.log("This is a debug example.");\n    debugger; // This will pause execution and open DevTools at this line\n    console.log("Execution resumed.");\n}\n\nexampleFunction();

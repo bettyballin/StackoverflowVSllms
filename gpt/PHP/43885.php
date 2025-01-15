@@ -1,1 +1,0 @@
-<?php\nini_set('display_errors', 0);\nini_set('log_errors', 1);\nerror_reporting(E_ALL);\n\n// Your custom error handler function call here\nset_error_handler('customErrorHandler');\n?>

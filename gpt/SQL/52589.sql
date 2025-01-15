@@ -1,1 +1,0 @@
-SELECT sequence_name\nFROM user_sequences\nWHERE sequence_name = 'AGENTEVENTDATA_SEQ';

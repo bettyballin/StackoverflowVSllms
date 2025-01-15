@@ -1,1 +1,0 @@
-<class name="Client" table="Clients">\n    <!-- other mappings -->\n    <property name="Language" type="Namespace.ListType, AssemblyName">\n        <column name="LanguageId" sql-type="bigint" />\n    </property>\n</class>

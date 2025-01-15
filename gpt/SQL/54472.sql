@@ -1,1 +1,0 @@
-USE PseudoTempDB;\nGO\n\n-- Example of inserting data into the pseudo-temp table\nINSERT INTO PersistentTempTable (ID, Data)\nVALUES (1, 'Example data');\n\n-- Example of reading data from the pseudo-temp table\nSELECT * FROM PersistentTempTable;

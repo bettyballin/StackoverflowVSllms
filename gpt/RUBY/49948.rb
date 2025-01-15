@@ -1,1 +1,0 @@
-map.resources :subjects, :path_prefix => ':company'\nmap.connect ':company/:controller/:action/:id'

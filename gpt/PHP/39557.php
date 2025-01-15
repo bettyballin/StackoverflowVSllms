@@ -1,1 +1,0 @@
-'quizID=' + "<?php echo getNextQuestionID(); ?>"

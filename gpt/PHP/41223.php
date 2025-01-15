@@ -1,1 +1,0 @@
-$propertyName = 'user_id';\necho $this->_session->{$propertyName}; // Dynamically accessing the property

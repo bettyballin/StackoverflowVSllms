@@ -1,1 +1,0 @@
-SELECT * \nFROM sys.server_principals \nWHERE name = 'Domain\Kieran';

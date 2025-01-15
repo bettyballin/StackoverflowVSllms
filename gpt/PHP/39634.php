@@ -1,1 +1,0 @@
-<?php\n$sColor = "#1A2B3C";\n\nif (preg_match("/^#[0-9A-F]{6}$/i", $sColor)) {\n    echo "The color is valid.";\n} else {\n    echo "The color is invalid.";\n}\n?>

@@ -1,1 +1,0 @@
-<rule name="ReverseProxyInboundRule1" enabled="true" stopProcessing="true">\n  <match url=".*" />\n  <conditions logicalGrouping="MatchAll" trackAllCaptures="false">\n    <!-- Add specific conditions if necessary -->\n  </conditions>\n  <action type="Rewrite" url="http://your-remote-service/{R:0}" />\n</rule>

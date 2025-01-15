@@ -1,1 +1,0 @@
-<configuration>\n     <system.web>\n       <httpRuntime executionTimeout="3600" maxRequestLength="1048576" /> <!-- 1 hour timeout, 1GB max request length -->\n     </system.web>\n   </configuration>

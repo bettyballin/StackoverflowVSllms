@@ -1,1 +1,0 @@
-function please_rebind() {\n  $('.number').bind("change", function() {\n    var inputElement = $(this);\n    $.post('/registration/sell/check_badge_number', { number: inputElement.val() },\n    function(data) {\n      inputElement.addClass('make_it_red');\n      alert(data);\n    }, "html");\n  });\n}

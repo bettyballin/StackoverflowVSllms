@@ -1,1 +1,0 @@
-preg_match($pattern, file_get_contents('http://domain.tld/path/to/file.ext'), $matches);

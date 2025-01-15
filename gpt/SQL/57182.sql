@@ -1,1 +1,0 @@
-SELECT department, AVG(salary)\nFROM employees\nGROUP BY department, job_title;

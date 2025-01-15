@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  var docHeight = Math.max($(document).height(), $(window).height());\n  $('#overlay').css({\n    'display': 'block',\n    'height': docHeight\n  });\n  $('#customControl').css('display', 'block');\n});

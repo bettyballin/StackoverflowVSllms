@@ -1,1 +1,0 @@
-If Request.QueryString("MyQueryString") <> Nothing Then\n    ' This can fail because <> is not the correct way to check for Nothing.\nEnd If

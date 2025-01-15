@@ -1,1 +1,0 @@
-ALTER TABLE YourTableName\nDROP CONSTRAINT YourPrimaryKeyConstraintName;

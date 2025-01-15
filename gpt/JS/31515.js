@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    var elements = $('.fade-in-element'); // Replace with your elements' selector\n    elements.each(function(index) {\n        $(this).delay(index * 500).fadeIn(1000); // Adjust delay and fadeIn durations as needed\n    });\n});

@@ -1,1 +1,0 @@
-INSERT INTO C (A_id, B_id)\nSELECT A.A_id, 1\nFROM A;

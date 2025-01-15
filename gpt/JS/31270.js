@@ -1,1 +1,0 @@
-// Example usage of History.js\n   if (typeof History !== 'undefined' && History.enabled) {\n       History.Adapter.bind(window, 'statechange', function() {\n           var state = History.getState();\n           // Handle the state change\n       });\n\n       History.pushState({ state: 1 }, "State 1", "?state=1");\n   }

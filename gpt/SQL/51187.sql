@@ -1,1 +1,0 @@
-(1, 'John Doe', 'Software Engineer', 75000.00)

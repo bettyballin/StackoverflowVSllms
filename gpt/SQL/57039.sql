@@ -1,1 +1,0 @@
-YOUR_DB_ALIAS =\n     (DESCRIPTION =\n       (ADDRESS = (PROTOCOL = TCP)(HOST = your_host)(PORT = your_port))\n       (CONNECT_DATA =\n         (SERVER = DEDICATED)\n         (SERVICE_NAME = your_service_name)\n       )\n     )

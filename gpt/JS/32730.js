@@ -1,1 +1,0 @@
-// Example of starting the profiler\nconsole.profile("MyProfile");\n\n// Place your code here\nfor (let i = 0; i < 10000; i++) {\n  // Simulate some heavy computation\n  Math.sqrt(i);\n}\n\n// Stop the profiler\nconsole.profileEnd("MyProfile");

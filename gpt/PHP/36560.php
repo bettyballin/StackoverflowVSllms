@@ -1,1 +1,0 @@
-<?php\n    session_start();\n\n    if (isset($_POST['info'])) {\n        $_SESSION['var'] = $_POST['info'];\n        echo 'Session variable set';\n    } else {\n        echo 'No info provided';\n    }\n    ?>

@@ -1,1 +1,0 @@
-function disableValidators() {\n    // Replace 'validatorID' with the actual ID of your validator control\n    var validator = document.getElementById('<%= validatorID.ClientID %>');\n    if (validator != null) {\n        validator.enabled = false;\n    }\n}\n\n// Example usage\ndisableValidators();

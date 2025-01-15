@@ -1,1 +1,0 @@
-class MyObj {\n    private $logger;\n\n    public function __construct($logger) {\n        $this->logger = $logger;\n    }\n\n    public function doSomethingWhichIsLogged() {\n        // ...\n        $this->logger->info('some message');\n        // ...\n    }\n}

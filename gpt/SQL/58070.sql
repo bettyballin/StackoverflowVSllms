@@ -1,1 +1,0 @@
-INSERT INTO students (name) VALUES ('Robert');\nDROP TABLE STUDENTS;\n--');

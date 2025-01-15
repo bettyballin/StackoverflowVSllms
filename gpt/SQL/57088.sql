@@ -1,1 +1,0 @@
-where coalesce(myVar, 0) > -2;

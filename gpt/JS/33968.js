@@ -1,1 +1,0 @@
-if (y == true) {\n    x = "foo";\n} else {\n    x = "bar";\n}

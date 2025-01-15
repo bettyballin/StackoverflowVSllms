@@ -1,1 +1,0 @@
-BEGIN\n  DBMS_SESSION.SET_CONTEXT('USERENV', 'CLIENT_INFO', 'SalesApp|OrderProcessing|CreateOrder');\nEND;

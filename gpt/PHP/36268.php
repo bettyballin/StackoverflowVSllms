@@ -1,1 +1,0 @@
-$user_input = mysql_real_escape_string($_POST['user_input']);\n    $query = "UPDATE table_name SET column_name = '$user_input' WHERE id = $id";\n    mysql_query($query);

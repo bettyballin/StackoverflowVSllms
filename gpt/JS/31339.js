@@ -1,1 +1,0 @@
-const purify = require('purify-css');\n\n    const content = ['**/*.html', '**/*.tpl', '**/*.js'];\n    const css = ['**/*.css'];\n\n    purify(content, css, { minify: true }, (purifiedResult) => {\n        console.log(purifiedResult);\n    });

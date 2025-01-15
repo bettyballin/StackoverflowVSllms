@@ -1,1 +1,0 @@
-CREATE INDEX idx_email_keys ON invitations (email, key1, key2, key3);

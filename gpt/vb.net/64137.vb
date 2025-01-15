@@ -1,1 +1,0 @@
-Public Function GetLabelPositionRelativeToForm(ByVal label As Control, ByVal form As Form) As Point\n    Dim labelScreenPos As Point = label.PointToScreen(Point.Empty)\n    Dim formClientPos As Point = form.PointToClient(labelScreenPos)\n    Return formClientPos\nEnd Functio

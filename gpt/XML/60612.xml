@@ -1,1 +1,0 @@
-<system.webServer>\n       <applicationPools>\n           <add name="MyAppPool" cpu.limit="50" cpu.action="Throttle" />\n       </applicationPools>\n   </system.webServer>

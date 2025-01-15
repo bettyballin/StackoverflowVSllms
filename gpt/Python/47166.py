@@ -1,1 +1,0 @@
-from django.core.exceptions import ValidationError\nimport re\n\ndef validate_not_whitespace(value):\n    if not value.strip():\n        raise ValidationError('This field cannot contain only whitespace.')

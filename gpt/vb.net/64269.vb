@@ -1,1 +1,0 @@
-Imports System.Runtime.InteropServices\n\nPublic Class NativeMethods\n    <DllImport("user32.dll", CharSet:=CharSet.Auto)>\n    Public Shared Function MessageBox(hWnd As IntPtr, text As String, caption As String, type As UInteger) As Integer\n    End Function\nEnd Class

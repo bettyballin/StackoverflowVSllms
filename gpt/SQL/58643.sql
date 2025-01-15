@@ -1,1 +1,0 @@
-DBCC SHRINKFILE (YourDatabaseLogFile, target_size_in_MB)

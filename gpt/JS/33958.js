@@ -1,1 +1,0 @@
-<script>\n  $(document).ready(function(){\n    $("button").click(function () {\n      if ($("#layoutDiv").css('visibility') === 'hidden') {\n        $("#layoutDiv").css('visibility', 'visible');\n      } else {\n        $("#layoutDiv").css('visibility', 'hidden');\n      }\n    });\n  });\n</script>

@@ -1,1 +1,0 @@
-INSERT INTO temp_table\n   SELECT *\n   FROM tab1\n   JOIN tab2 ON tab1.key = tab2.fkey;

@@ -1,1 +1,0 @@
-VARCHAR(255) or TEXT

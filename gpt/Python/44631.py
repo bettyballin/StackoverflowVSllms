@@ -1,1 +1,0 @@
-import itertools\n\ndef combinations(array, k):\n    return list(itertools.combinations(array, k))\n\n# Example usage:\narray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']\nk = 3\nresult = combinations(array, k)\n\nfor comb in result:\n    print(comb)

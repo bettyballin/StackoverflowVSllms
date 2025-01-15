@@ -1,1 +1,0 @@
-$("#el").html('User Name <img src="ico/del.gif" onclick="ajax_delete(12)" class="del" />');\n   $("img.del").css('cursor', 'pointer');

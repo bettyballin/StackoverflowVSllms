@@ -1,1 +1,0 @@
-EXEC sys.sp_cdc_change_job \n    @job_type = N'cleanup', \n    @retention = 43200; -- Retention period in minutes (30 days in this example)

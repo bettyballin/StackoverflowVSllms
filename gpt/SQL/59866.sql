@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET YourColumn = UPPER(LEFT(REPLACE(SUBSTRING(YourColumn, 1, 2), ' ', ''), 2)) + SUBSTRING(YourColumn, 3, LEN(YourColumn) - 2);

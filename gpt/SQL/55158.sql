@@ -1,1 +1,0 @@
-ALTER TABLE child_table ADD CONSTRAINT fk_constraint_name\nFOREIGN KEY (child_column) REFERENCES parent_table(parent_column);

@@ -1,1 +1,0 @@
-CREATE OR REPLACE TRIGGER prevent_column_insert\nBEFORE INSERT OR UPDATE ON your_table\nFOR EACH ROW\nBEGIN\n  :NEW.your_column := NULL;\nEND;\n/

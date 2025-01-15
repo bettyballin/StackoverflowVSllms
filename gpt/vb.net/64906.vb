@@ -1,1 +1,0 @@
-Sub ProcessGrid(pos As Integer, iSquare As Integer, ByRef grid() As Integer, ByRef foundNumber() As Integer, ByRef gridbox() As Integer, ByRef gridbox1() As Integer)\n    Dim j As Integer = gridbox1(pos)\n    For x As Integer = j To j + iSquare * iSquare - 1\n        foundNumber(grid(gridbox(x))) = grid(gridbox(x))\n    Next\nEnd Sub

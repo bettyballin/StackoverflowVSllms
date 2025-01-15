@@ -1,1 +1,0 @@
-<configuration>\n  <location path="path/to/your/xmlfiles">\n    <system.web>\n      <authorization>\n        <deny users="?" />\n        <!-- You can also use the below line to allow only specific roles or users -->\n        <!-- <allow roles="Admin" /> -->\n        <!-- <allow users="username" /> -->\n      </authorization>\n    </system.web>\n  </location>\n</configuration>

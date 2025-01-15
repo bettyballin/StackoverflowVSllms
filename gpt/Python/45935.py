@@ -1,1 +1,0 @@
-import sys\nimport cProfile\n\ndef main(argv):\n    for i in range(1, 1000):\n        print(i)\n\nif __name__ == "__main__":\n    profiler = cProfile.Profile()\n    profiler.runcall(main, sys.argv)\n    profiler.dump_stats("cprofile_stats")

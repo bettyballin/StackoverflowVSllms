@@ -1,1 +1,0 @@
-<servlet>\n       <servlet-name>imageServlet</servlet-name>\n       <servlet-class>com.yourpackage.ImageServlet</servlet-class>\n   </servlet>\n\n   <servlet-mapping>\n       <servlet-name>imageServlet</servlet-name>\n       <url-pattern>/cgi-bin/images/*</url-pattern>\n   </servlet-mapping>

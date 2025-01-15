@@ -1,1 +1,0 @@
-CREATE DATABASE YourDatabaseName\nGO\nALTER DATABASE YourDatabaseName\nSET AUTO_CLOSE ON; -- or OFF as per your decision\nGO

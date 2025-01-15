@@ -1,1 +1,0 @@
-SELECT w1.word AS word1, w2.word AS word2\nFROM word_link wl\nJOIN word w1 ON wl.word1 = w1.id\nJOIN word w2 ON wl.word2 = w2.id;

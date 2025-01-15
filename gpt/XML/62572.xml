@@ -1,1 +1,0 @@
-<client>\n     <endpoint address="http://www.flash-db.com/services/ws/siteInspect.wsdl"\n               binding="customBinding"\n               bindingConfiguration="CustomBinding_ISO8859_1"\n               contract="YourNamespace.YourServiceContract"\n               name="CustomBindingEndpoint" />\n   </client>

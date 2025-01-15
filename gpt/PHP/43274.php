@@ -1,1 +1,0 @@
-// Using PDO\ntry {\n    $pdo = new PDO('mysql:host=localhost;dbname=database', 'username', 'password');\n    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);\n\n    $stmt = $pdo->query("SELECT field1 FROM table LIMIT 1");\n    $field1 = $stmt->fetchColumn();\n\n    echo $field1;\n} catch (PDOException $e) {\n    echo "Error: " . $e->getMessage();\n}

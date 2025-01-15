@@ -1,1 +1,0 @@
-USE NewDatabase;\n   CREATE TABLE NewTable (\n       -- Define your table schema here\n   );

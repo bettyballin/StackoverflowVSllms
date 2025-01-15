@@ -1,1 +1,0 @@
-class Table:\n    # previous code...\n\n    def insert(self, row):\n        if len(row) != len(self.columns):\n            raise ValueError("Row does not match table columns")\n        self.rows.append(row)\n        # Here you can add code to update indexes if you implement any

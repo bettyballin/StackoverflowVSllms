@@ -1,1 +1,0 @@
-# Gemfile\ngem 'select2-rails'

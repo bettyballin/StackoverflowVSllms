@@ -1,1 +1,0 @@
-window.open('your-popup-url-here', '_blank');

@@ -1,1 +1,0 @@
-DROP USER test_user CASCADE;\n   CREATE USER test_user IDENTIFIED BY test_password;\n   -- Additional setup commands

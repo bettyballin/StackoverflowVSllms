@@ -1,1 +1,0 @@
-$pdf = new HTML_ToPDF();\n   $pdf->setDebug(true);

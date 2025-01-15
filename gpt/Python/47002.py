@@ -1,1 +1,0 @@
-from Crypto.Cipher import AES\nfrom Crypto.Random import get_random_bytes\n\ndata = b"Hello, World!"\nkey = get_random_bytes(32)  # AES-256 key\ncipher = AES.new(key, AES.MODE_EAX)\nnonce = cipher.nonce\nciphertext, tag = cipher.encrypt_and_digest(data)\n\nprint(f"Ciphertext: {ciphertext}")\nprint(f"Nonce: {nonce}")\nprint(f"Tag: {tag}")

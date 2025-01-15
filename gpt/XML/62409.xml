@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <httpLogging>\n      <selectiveLogging>LogAllContent</selectiveLogging>\n      <dontLog>False</dontLog>\n    </httpLogging>\n  </system.webServer>\n</configuration>

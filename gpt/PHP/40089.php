@@ -1,1 +1,0 @@
-function generateRegistrationKey($username, $email) {\n    $secretKey = 'your-secret-key'; // Replace with your actual secret key\n    $data = $username . $email . $secretKey;\n    return hash('sha256', $data);\n}\n\n// Example usage\n$username = 'exampleUser';\n$email = 'user@example.com';\n$registrationKey = generateRegistrationKey($username, $email);\necho $registrationKey;

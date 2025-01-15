@@ -1,1 +1,0 @@
-SELECT `username` \nFROM `filesystem_data`.`$tablename`\nWHERE `file_path` LIKE '%Zenshai%';

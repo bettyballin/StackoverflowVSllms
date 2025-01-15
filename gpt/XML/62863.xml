@@ -1,1 +1,0 @@
-<package name="default" namespace="/" extends="struts-default">\n    <action name="viewJobs" class="com.example.ViewJobsAction">\n        <result name="customer">/customer/viewJobs.jsp</result>\n        <result name="employee">/employee/viewJobs.jsp</result>\n    </action>\n</package>

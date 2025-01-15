@@ -1,1 +1,0 @@
-$A = array(1, 2, 3, 4, 5, 6, 7, 8);\n$B = array(1, 2, 3, 4);\n\n$A = array_diff($A, $B); // $A now equals array(5, 6, 7, 8)

@@ -1,1 +1,0 @@
--- Ensure your database supports CTE (Common Table Expressions)\n-- Update user rankings with a single query\n\nWITH RankedUsers AS (\n    SELECT id, ROW_NUMBER() OVER (ORDER BY month_score DESC) AS rank\n    FROM users\n    WHERE status = '1'\n)\nUPDATE u\nSET month_rank = r.rank\nFROM users u\nJOIN RankedUsers r ON u.id = r.id;

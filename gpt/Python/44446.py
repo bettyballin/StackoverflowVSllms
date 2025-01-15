@@ -1,1 +1,0 @@
-import bleach\n\ndef sanitize_html(html, allowed_tags):\n    return bleach.clean(html, tags=allowed_tags, strip=True)\n\nallowed_tags = ['p', 'b', 'i', 'u', 'a', 'strong', 'em']\nhtml = '<p>This is <b>bold</b> and <i>italic</i> text. <script>alert("xss")</script></p>'\n\nclean_html = sanitize_html(html, allowed_tags)\nprint(clean_html)

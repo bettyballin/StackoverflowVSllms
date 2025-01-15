@@ -1,1 +1,0 @@
-<?php\nif (strpos($_SERVER['REQUEST_URI'], 'blog') === false) {\n    echo '<div id="stuff"></div>';\n}\n?>

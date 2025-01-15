@@ -1,1 +1,0 @@
-Dim obj As New ExampleClass()\nobj.RandomValue = 123\n\nDim serializer As New XmlSerializer(GetType(ExampleClass))\nUsing writer As New StreamWriter("data.xml")\n    serializer.Serialize(writer, obj)\nEnd Using

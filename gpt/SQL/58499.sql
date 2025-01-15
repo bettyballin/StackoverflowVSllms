@@ -1,1 +1,0 @@
-SELECT a.colors AS color1, b.colors AS color2\nFROM colors a\nJOIN colors b ON a.colors < b.colors\nORDER BY color1, color2;

@@ -1,1 +1,0 @@
-SELECT \n    A.*,\n    B.*,\n    C.*\nFROM \n    A\nINNER JOIN B ON A.id = B.a_id\nINNER JOIN C ON B.c_id = C.id\nLEFT JOIN C AS C2 ON A.c_id = C2.id\nWHERE \n    A.id = <some_value>;

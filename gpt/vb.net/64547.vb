@@ -1,1 +1,0 @@
-Dim myVar As Long\nmyVar = 123456789012345678  ' Example value for the bigint key\n\nCurrentDb.Execute _\n    "UPDATE myTable SET Field1 = 1, Field2 = 'test' WHERE bigintKey = " & myVar, dbFailOnError

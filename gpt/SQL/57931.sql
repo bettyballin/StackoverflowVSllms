@@ -1,1 +1,0 @@
-ALTER PROCEDURE [dbo].[my_sp]\n    @currentDate datetime = NULL\nAS\nBEGIN\n    SET NOCOUNT ON;\n\n    -- Assign the default value if @currentDate is NULL\n    IF @currentDate IS NULL\n    BEGIN\n        SET @currentDate = GETDATE();\n    END\n\n    -- Your procedure logic here\n\nEND

@@ -1,1 +1,0 @@
-class User < ApplicationRecord\n     has_many :messages\n   end

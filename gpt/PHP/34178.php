@@ -1,1 +1,0 @@
-$originalData = 'a whole bunch of text with no numbers Entry #:<strong>2439</strong>. a whole bunch of text Click here to blah blah blah';\n$fixed = preg_replace('/(Entry #:<strong>)(\d+)(<\/strong>\. a whole bunch of text )(Click here.*)/i', \n                      '$1$2$3<BR><A href="somepage.php?entry_no=$2">$4</A>', \n                      $originalData);\necho $fixed;

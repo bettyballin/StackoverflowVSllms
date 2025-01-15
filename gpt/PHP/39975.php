@@ -1,1 +1,0 @@
-<?php\n$string = "example string";\n$hash = crc32($string);\n\n// Convert the unsigned 32-bit integer to a signed integer if necessary\n$signedHash = sprintf("%d", $hash);\n\necho $signedHash;\n?>

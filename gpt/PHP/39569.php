@@ -1,1 +1,0 @@
-extension_dir = "/path/to/your/php/extensions"

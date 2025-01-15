@@ -1,1 +1,0 @@
-SELECT * \n    FROM SiminnSrv.devel.dbo.YourTableName;

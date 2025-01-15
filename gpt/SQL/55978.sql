@@ -1,1 +1,0 @@
-INSERT INTO RolePermissions (role_id, permission_id) VALUES\n   (1, 1), -- User canSubmitForm\n   (1, 3), -- User canSearchForStuff\n   (3, 2); -- Facility Admin canOrderThings

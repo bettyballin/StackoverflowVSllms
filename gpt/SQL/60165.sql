@@ -1,1 +1,0 @@
-SELECT m.id, m.body\nFROM messages m\nLEFT JOIN messages_read mr\nON m.id = mr.message_id AND mr.user_id = ?\nWHERE mr.message_id IS NULL;

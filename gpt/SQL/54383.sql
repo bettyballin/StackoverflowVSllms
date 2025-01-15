@@ -1,1 +1,0 @@
-CREATE TABLE this_is_a_table_name_with_maximum_length_123 (\n    this_is_a_column_name_with_maximum_length_123 VARCHAR2(100)\n);

@@ -1,1 +1,0 @@
-form = cgi.FieldStorage()

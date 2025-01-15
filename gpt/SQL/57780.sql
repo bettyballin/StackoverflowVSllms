@@ -1,1 +1,0 @@
-SELECT value \n    FROM nls_database_parameters \n    WHERE parameter = 'NLS_CHARACTERSET';

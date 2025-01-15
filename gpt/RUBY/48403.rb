@@ -1,1 +1,0 @@
-# config/routes.rb\n   Rails.application.routes.draw do\n     get 'identity', to: 'identities#show'\n   end

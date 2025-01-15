@@ -1,1 +1,0 @@
--- Example of inserting test data\nINSERT INTO OriginalTable (Column1, Column2, ...)\nVALUES (Value1, Value2, ...);

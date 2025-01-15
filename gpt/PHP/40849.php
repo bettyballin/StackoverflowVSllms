@@ -1,1 +1,0 @@
-function gcd($a, $b) {\n    while ($b != 0) {\n        $temp = $b;\n        $b = $a % $b;\n        $a = $temp;\n    }\n    return $a;\n}\n\nfunction lcm($a, $b) {\n    return ($a * $b) / gcd($a, $b);\n}\n\n$range = range(1, 14);\n$lcmResult = 1;\n\nforeach ($range as $number) {\n    $lcmResult = lcm($lcmResult, $number);\n}\n\necho $lcmResult;

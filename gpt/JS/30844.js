@@ -1,1 +1,0 @@
-var $listItems = $('#cyclelist li');\n\nif ($listItems.length > 1) {\n  // More than one <li> element\n  console.log("The list has more than one item.");\n} else {\n  // One or no <li> element\n  console.log("The list has one or no item.");\n}

@@ -1,1 +1,0 @@
-$threads = mysql_query("\n    SELECT t.id, t.title\n    FROM threads t\n    LEFT JOIN comments c ON t.id = c.thread_id\n    GROUP BY t.id\n    ORDER BY MAX(c.date) DESC\n");\n\nwhile ($thread = mysql_fetch_assoc($threads)) {\n    echo $thread['title'];\n}

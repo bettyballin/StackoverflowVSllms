@@ -1,1 +1,0 @@
-SET NAMES latin1;

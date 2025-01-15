@@ -1,1 +1,0 @@
-$.ajax({\n    url: 'your-server-endpoint',\n    type: 'POST',\n    data: { key1: 'value1', key2: 'value2' },\n    success: function(response) {\n        console.log('Success:', response);\n    },\n    error: function(xhr, status, error) {\n        console.error('Error:', error);\n    }\n});

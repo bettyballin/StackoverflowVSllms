@@ -1,1 +1,0 @@
-INSERT INTO employees (employee_id, first_name, last_name, department)\nSELECT id, first_name, last_name, department\nFROM new_employees\nWHERE hire_date > '2023-01-01';

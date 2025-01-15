@@ -1,1 +1,0 @@
-' Storing data in session state\nSession("UserData") = yourData\n\n' Retrieving data from session state\nDim userData = Session("UserData")

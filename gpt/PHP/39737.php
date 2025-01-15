@@ -1,1 +1,0 @@
-if (substr($string, -strlen('_archived')) === '_archived') {\n    // The string ends with "_archived"\n}

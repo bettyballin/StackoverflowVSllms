@@ -1,1 +1,0 @@
-DELETE FROM foo\nWHERE id NOT IN (\n  SELECT id FROM (\n    SELECT id\n    FROM (\n      SELECT id, user_id, timestamp,\n             ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY timestamp DESC) AS rn\n      FROM foo\n    ) ranked\n    WHERE rn <= N\n  ) newest_n\n);

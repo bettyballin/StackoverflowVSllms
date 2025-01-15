@@ -1,1 +1,0 @@
--- Example of pagination using OFFSET and FETCH\nSELECT *\nFROM your_table\nORDER BY some_column\nOFFSET 0 ROWS FETCH NEXT 1000 ROWS ONLY;

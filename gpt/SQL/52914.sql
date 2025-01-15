@@ -1,1 +1,0 @@
-CREATE TABLE LoanFact (\n    contractNo INT PRIMARY KEY,\n    loanType VARCHAR(50),\n    amount DECIMAL,\n    loanDate DATE,\n    empNo INT,\n    custNo INT,\n    branchNo INT,\n    FOREIGN KEY (empNo) REFERENCES LoanManager(empNo),\n    FOREIGN KEY (custNo) REFERENCES Customer(custNo),\n    FOREIGN KEY (branchNo) REFERENCES Branch(branchNo)\n);

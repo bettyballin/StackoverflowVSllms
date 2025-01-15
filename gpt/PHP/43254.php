@@ -1,1 +1,0 @@
-$data = ['example' => 'data'];\n   file_put_contents('cache_file.json', json_encode($data));\n   $cachedData = json_decode(file_get_contents('cache_file.json'), true);

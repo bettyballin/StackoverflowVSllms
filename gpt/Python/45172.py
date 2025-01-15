@@ -1,1 +1,0 @@
-import re\n\nhtml_content = '<p>Your HTML content here</p>'\n\n# Simple regex pattern to match href links\npattern = r'href="(http[s]?://[^"]+)"'\n\n# Find all matches\nlinks = re.findall(pattern, html_content)\n\n# Print the links\nfor link in links:\n    print(link)

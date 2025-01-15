@@ -1,1 +1,0 @@
-import networkx as nx\n\n    G = nx.Graph()\n    G.add_edges_from([('A', 'B'), ('A', 'C'), ('B', 'D'), ('B', 'E'), ('C', 'F'), ('E', 'F')])\n\n    bfs_tree = nx.bfs_tree(G, source='A')\n    distances = dict(nx.single_source_shortest_path_length(G, source='A'))\n    \n    print("BFS Tree: ", list(bfs_tree.edges()))\n    print("Distances: ", distances)

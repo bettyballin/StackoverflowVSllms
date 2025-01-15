@@ -1,1 +1,0 @@
-if (window.self !== window.top) {\n    // If this window is inside an iframe\n    window.top.location = 'https://your-redirect-url.com';\n} else {\n    // If this window is not in an iframe\n    window.location = 'https://your-redirect-url.com';\n}

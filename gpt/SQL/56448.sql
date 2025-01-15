@@ -1,1 +1,0 @@
--- Start a transaction with REPEATABLE READ isolation level\nBEGIN TRANSACTION;\nSET TRANSACTION ISOLATION LEVEL REPEATABLE READ;\n\n-- Fetch the data\nSELECT * FROM tablex WHERE ...;\n\n-- Commit the transaction\nCOMMIT;

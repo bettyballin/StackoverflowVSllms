@@ -1,1 +1,0 @@
-People\n======================\nid        int Identity Primary Key\nname      varchar(10)   \nDoB       DateTime    \nHeight    int  \n\nPhone_Number\n======================\nid        int Identity Primary Key\nperson_id int Foreign Key References People(id)\nnumber    varchar(15)

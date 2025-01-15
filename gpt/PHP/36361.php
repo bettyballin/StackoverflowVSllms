@@ -1,1 +1,0 @@
-// routes/web.php\n    Route::get('form', function () {\n        return view('form');\n    });\n\n    Route::post('submit-form', 'App\Http\Controllers\FormController@submitForm');

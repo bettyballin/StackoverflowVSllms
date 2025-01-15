@@ -1,1 +1,0 @@
-SELECT extract_digits('ABC1234YY') AS result FROM dual;\n-- Result: 1234\n\nSELECT extract_digits('D456YD') AS result FROM dual;\n-- Result: 456\n\nSELECT extract_digits('455PN') AS result FROM dual;\n-- Result: 455

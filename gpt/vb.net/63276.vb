@@ -1,1 +1,0 @@
-Imports System.Runtime.InteropServices\n\n<ClassInterface(ClassInterfaceType.None), ComVisible(True)>\nPublic Class Dog\n    Public ReadOnly Property Name() As String\n        Get\n            Return "Fido"\n        End Get\n    End Property\nEnd Class

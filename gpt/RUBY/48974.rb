@@ -1,1 +1,0 @@
-rails generate pundit:install

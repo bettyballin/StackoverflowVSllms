@@ -1,1 +1,0 @@
-SELECT Name, LeftId, RightId\nFROM your_table\nWHERE (LeftId IS NOT NULL OR RightId IS NOT NULL)\n   OR (LeftId IS NULL AND RightId IS NULL);

@@ -1,1 +1,0 @@
-<deployment>\n  <deploymentProvider codebase="http://application.ourdomain.com/liveapp/YourApp.application" />\n  <!-- other settings -->\n</deployment>

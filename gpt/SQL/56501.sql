@@ -1,1 +1,0 @@
-CREATE PROCEDURE ProcessBlob\n    @oldBlob VARBINARY(MAX),\n    @newBlob VARBINARY(MAX)\n    AS EXTERNAL NAME BlobProcessor.[Namespace.ClassName].ProcessBlob;

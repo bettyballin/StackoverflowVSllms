@@ -1,1 +1,0 @@
-$num = 15 / 4; // or $num = 3.75;\n$num_str = (string)$num; // convert the number to a string\nlist($int, $dec) = explode('.', $num_str);\n\n// If $dec is not set, make it 0\nif (!isset($dec)) {\n    $dec = 0;\n}\n\necho "Integer part: $int\n"; // Output: Integer part: 3\necho "Decimal part: $dec\n"; // Output: Decimal part: 75

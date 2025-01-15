@@ -1,1 +1,0 @@
-foreach($data as $d){\n    echo "document.write('This is a test for array item ".$d."');\n";\n    echo "document.write('<br>');\n";\n}

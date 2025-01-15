@@ -1,1 +1,0 @@
--- Step 1: Drop the existing primary key constraint\nALTER TABLE table1 DROP CONSTRAINT [constraint_name];\n\n-- Step 2: Add the new primary key constraint including the new field ProductId\nALTER TABLE table1 ADD CONSTRAINT [new_constraint_name] PRIMARY KEY (ScreenId, ActivityItemId, ProductId);

@@ -1,1 +1,0 @@
-Public Class ClassA\n    Public ReadOnly Property SecurityKey As String\n        Get\n            Return "SomeSecurityKey"\n        End Get\n    End Property\nEnd Class\n\nPublic Class ClassB\n    Inherits ClassA\n\n    Public Shared Sub DoWork(instance As ClassA)\n        Dim test As String = instance.SecurityKey\n    End Sub\nEnd Class

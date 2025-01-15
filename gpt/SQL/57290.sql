@@ -1,1 +1,0 @@
-sql /nolog\nconnect username/password@//hostname:port/service_name

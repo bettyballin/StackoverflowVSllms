@@ -1,1 +1,0 @@
-class UserRepository\n  def find_by_email(email)\n    User.find_by(email: email)\n  end\n\n  def save(user)\n    user.save!\n  end\n\n  # Add more methods for complex queries...\nend

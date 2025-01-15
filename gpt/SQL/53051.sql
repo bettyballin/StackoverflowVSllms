@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetCombinedData\nAS\nBEGIN\n    SELECT h.*, d.*\n    FROM Headers h\n    JOIN Details d ON h.Id = d.HeaderId\nEND

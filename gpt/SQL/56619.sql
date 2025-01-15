@@ -1,1 +1,0 @@
-CREATE TABLE user_thread_read_status (\n    UserID INT,\n    ThreadID INT,\n    LastReadDateTime DATETIME,\n    PRIMARY KEY (UserID, ThreadID),\n    FOREIGN KEY (UserID) REFERENCES users(UserID),\n    FOREIGN KEY (ThreadID) REFERENCES threads(ThreadID)\n);

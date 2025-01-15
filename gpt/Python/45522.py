@@ -1,1 +1,0 @@
-from bs4 import BeautifulSoup\n  import requests\n\n  url = 'http://example.com'\n  response = requests.get(url)\n  soup = BeautifulSoup(response.content, 'html.parser')\n\n  for link in soup.find_all('a'):\n      print(f"Link: {link.get('href')}")\n      print(f"Text: {link.text}")

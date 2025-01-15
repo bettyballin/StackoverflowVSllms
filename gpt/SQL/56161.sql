@@ -1,1 +1,0 @@
-CREATE OR REPLACE DIRECTORY my_dir AS '/path/to/your/file';

@@ -1,1 +1,0 @@
-from flask import Flask, jsonify\n\napp = Flask(__name__)\n\n@app.route('/api/hello', methods=['GET'])\ndef hello():\n    return jsonify(status='success', message='Hello from Python')\n\nif __name__ == '__main__':\n    app.run(ssl_context='adhoc')

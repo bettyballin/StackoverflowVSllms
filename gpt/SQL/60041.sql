@@ -1,1 +1,0 @@
-CREATE PROCEDURE dbo.CommonProcedure\n(\n    @OutputTable1 dbo.RecordSet1 READONLY,\n    @OutputTable2 dbo.RecordSet2 READONLY\n)\nAS\nBEGIN\n    INSERT INTO @OutputTable1\n    SELECT Column1, Column2 FROM SomeTable WHERE SomeCondition = 1;\n    \n    INSERT INTO @OutputTable2\n    SELECT ColumnA, ColumnB FROM AnotherTable WHERE AnotherCondition = 1;\nEND;

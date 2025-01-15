@@ -1,1 +1,0 @@
-<?php\n// Start output buffering\nob_start();\n\necho 'a';\nprint 'b';\n\n// Clear the output buffer\nob_clean();\n\necho 'c';\n\n// Flush the output buffer and turn off output buffering\nob_end_flush();\n?>

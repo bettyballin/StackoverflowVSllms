@@ -1,1 +1,0 @@
-INSERT INTO cache (key, generation)\nVALUES ('your_key', 0)\nON CONFLICT (key)\nDO UPDATE SET generation = cache.generation + 1;

@@ -1,1 +1,0 @@
-ALTER SYSTEM SET db_cache_size = 4G SCOPE=BOTH;

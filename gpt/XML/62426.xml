@@ -1,1 +1,0 @@
-<configuration>\n      <connectionStrings>\n        <add name="SqlServerConnection" connectionString="Your SQL Server connection string" providerName="System.Data.SqlClient" />\n        <add name="OracleConnection" connectionString="Your Oracle connection string" providerName="Oracle.ManagedDataAccess.Client" />\n      </connectionStrings>\n    </configuration>

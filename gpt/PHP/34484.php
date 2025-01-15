@@ -1,1 +1,0 @@
-<?php\n// Business logic\nfunction getUserData() {\n    // Fetch user data from the database\n    return [\n        'name' => 'John Doe',\n        'email' => 'john.doe@example.com'\n    ];\n}\n?>

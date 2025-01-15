@@ -1,1 +1,0 @@
-<?php\ninclude 'your_php_library.php';\ndisplay();\n?>

@@ -1,1 +1,0 @@
-Public Class YourReturnType\n       Public Property Column1 As String\n       Public Property Column2 As Integer\n       ' Add properties matching the columns returned by your stored procedure\n   End Class

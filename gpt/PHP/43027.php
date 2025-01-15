@@ -1,1 +1,0 @@
-<?php\n$opcache_status = opcache_get_status();\necho "Memory Usage:\n";\necho "Used: " . ($opcache_status['memory_usage']['used_memory'] / 1024 / 1024) . " MB\n";\necho "Free: " . ($opcache_status['memory_usage']['free_memory'] / 1024 / 1024) . " MB\n";\necho "Wasted: " . ($opcache_status['memory_usage']['wasted_memory'] / 1024 / 1024) . " MB\n";\n?>

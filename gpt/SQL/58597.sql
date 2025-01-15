@@ -1,1 +1,0 @@
-CREATE PARTITION FUNCTION myRangePF1 (int)\n  AS RANGE LEFT FOR VALUES (1, 100, 1000);\n  \n  CREATE PARTITION SCHEME myRangePS1\n  AS PARTITION myRangePF1\n  TO (fg1, fg2, fg3, fg4);\n  \n  CREATE TABLE Orders (\n      OrderID int,\n      OrderDate datetime,\n      CustomerID int\n  ) ON myRangePS1 (OrderID);

@@ -1,1 +1,0 @@
-class MyModel < ApplicationRecord\n  after_save :sync_to_secondary_app\n\n  private\n\n  def sync_to_secondary_app\n    SyncModelJob.perform_later(self.id)\n  end\nend

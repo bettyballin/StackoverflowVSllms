@@ -1,1 +1,0 @@
-<?php\ndefined('BASEPATH') OR exit('No direct script access allowed');\n\nclass Errors extends CI_Controller {\n\n    public function error404() {\n        $data['title'] = '404 Page Not Found';\n        // Load any necessary data from the database here\n        $this->load->view('errors/custom_404', $data);\n    }\n}\n?>

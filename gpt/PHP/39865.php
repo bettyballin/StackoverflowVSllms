@@ -1,1 +1,0 @@
-$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, "http://localhost:5000/api/data/1");\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);\n$output = curl_exec($ch);\ncurl_close($ch);\n\n// Process $output as needed

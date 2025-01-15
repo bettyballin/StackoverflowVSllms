@@ -1,1 +1,0 @@
-CREATE OR REPLACE TYPE t_number_list AS TABLE OF NUMBER;\n    /

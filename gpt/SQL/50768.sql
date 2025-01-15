@@ -1,1 +1,0 @@
--- Connect as the target user\n   CONNECT anotheruser/anotheruser_password;\n   \n   -- Create the database link\n   CREATE DATABASE LINK remote_db_link\n   CONNECT TO remote_user\n   IDENTIFIED BY remote_password\n   USING 'remote_db';

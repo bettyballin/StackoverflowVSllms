@@ -1,1 +1,0 @@
-<?php\nrequire_once '../includes/autoload.php';\n\n// Now you can use your User class without requiring each class file manually\n$user = User::getInstance();\n?>

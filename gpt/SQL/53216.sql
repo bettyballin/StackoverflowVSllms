@@ -1,1 +1,0 @@
-SET STATISTICS IO ON;\nSET STATISTICS TIME ON;\nGO\nSELECT \n    CustomerID, \n    SUM(InvoiceTotal) AS SumOfInvoiceTotal, \n    SUM(AmountPaid) AS SumOfAmountPaid \nFROM tblInvoices \nWHERE CustomerID = 2112 \nGROUP BY customerID;\nGO\nSET STATISTICS IO OFF;\nSET STATISTICS TIME OFF;

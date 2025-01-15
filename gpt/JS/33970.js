@@ -1,1 +1,0 @@
-onClick="parent.hideAndProcessMultiSelectBox(parm1, parm2);"

@@ -1,1 +1,0 @@
-<?php\n\n   class YourCompany_YourModule_IndexController extends Mage_Core_Controller_Front_Action\n   {\n       public function indexAction()\n       {\n           $myModel = Mage::getModel('yourmodule/mymodel');\n           $data = $myModel->getDataFromTable();\n\n           // Do something with $data\n           var_dump($data);\n       }\n   }

@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION generate_date_range(start_date IN DATE, end_date IN DATE)\nRETURN SYS_REFCURSOR\nAS\n    date_cursor SYS_REFCURSOR;\nBEGIN\n    OPEN date_cursor FOR\n    SELECT start_date + LEVEL - 1 AS generated_date\n    FROM dual\n    CONNECT BY LEVEL <= (end_date - start_date + 1);\n    \n    RETURN date_cursor;\nEND;\n/

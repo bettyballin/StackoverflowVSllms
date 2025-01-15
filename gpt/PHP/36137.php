@@ -1,1 +1,0 @@
-#!/usr/bin/php\n   <?php\n   // Your scraping logic here\n   echo "Scraping started...\n";\n   // Scraper code\n   echo "Scraping completed.\n";\n   ?>

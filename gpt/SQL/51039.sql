@@ -1,1 +1,0 @@
-CREATE PROCEDURE Sales_GetOrderDetails\n   AS\n   BEGIN\n       -- Procedure logic here\n   END\n   GO

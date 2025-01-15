@@ -1,1 +1,0 @@
-def func():\n    return 1, 2\n\nx, _ = func()

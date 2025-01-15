@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- Execute the UPDATE statement\nUPDATE your_table SET column_name = new_value WHERE your_conditions;\n\n-- Preview the changes\nSELECT * FROM your_table WHERE your_conditions;\n\n-- Rollback the transaction to undo changes\nROLLBACK;

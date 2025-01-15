@@ -1,1 +1,0 @@
-Dim inputText As String = "term: 156:59 datainput"\nDim outputText As String = System.Text.RegularExpressions.Regex.Replace(inputText, "(?<=\d):(?=\d)", "-")\nConsole.WriteLine(outputText)

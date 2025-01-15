@@ -1,1 +1,0 @@
-#!/usr/bin/env python\nimport time\nfrom sys import stdout\n\nprint("Starting")\nstdout.flush()  # Ensure the initial print is flushed immediately\nfor i in range(20):\n    time.sleep(0.5)\n    print("Hello, iteration", i)\n    stdout.flush()

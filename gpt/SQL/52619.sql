@@ -1,1 +1,0 @@
-SELECT * FROM (\n    SELECT records.*, ROWNUM AS rnum\n    FROM records\n    WHERE ROWNUM <= 10\n) \nWHERE rnum >= 5;

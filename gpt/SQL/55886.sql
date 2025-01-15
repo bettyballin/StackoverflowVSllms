@@ -1,1 +1,0 @@
-SELECT column_name, data_type, data_length\nFROM all_tab_columns@<database_link>\nWHERE table_name = UPPER('<table_name>');

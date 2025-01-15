@@ -1,1 +1,0 @@
-$sessionNamespace = new Zend_Session_Namespace('YourNamespace');

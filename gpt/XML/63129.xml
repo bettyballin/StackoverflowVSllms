@@ -1,1 +1,0 @@
-<xs:complexType name="ExampleType">\n      <xs:sequence>\n        <xs:element name="ExistingElement" type="xs:string" />\n        <xs:any minOccurs="0" maxOccurs="unbounded" processContents="lax"/>\n      </xs:sequence>\n      <xs:attribute name="ExistingAttribute" type="xs:string" />\n      <xs:anyAttribute processContents="lax"/>\n    </xs:complexType>

@@ -1,1 +1,0 @@
-ALTER TABLE YourTable\n   ADD CONSTRAINT PK_YourTable PRIMARY KEY (NewGuidColumn);

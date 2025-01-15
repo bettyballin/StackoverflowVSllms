@@ -1,1 +1,0 @@
-document.cookie = "PopupShown=true; path=/";

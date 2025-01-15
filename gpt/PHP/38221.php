@@ -1,1 +1,0 @@
-// Global constant\ndefine('GLOBAL_CONSTANT', 'value');\n\n// Class constant\nclass MyClass {\n    const CLASS_CONSTANT = 'value';\n}

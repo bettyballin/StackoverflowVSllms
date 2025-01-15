@@ -1,1 +1,0 @@
-class DashboardController < ApplicationController\n  def index\n    # Render the dashboard view\n  end\nend

@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <webServices>\n      <soapExtensionTypes>\n        <add type="SOAPTraceExtension, YourAssemblyName" priority="1" group="0"/>\n      </soapExtensionTypes>\n    </webServices>\n  </system.web>\n</configuration>

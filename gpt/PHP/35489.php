@@ -1,1 +1,0 @@
-foreach ($_POST as $key => $value) {\n    echo "Key: " . htmlspecialchars($key) . " - Value: " . htmlspecialchars($value) . "<br>";\n}

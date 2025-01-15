@@ -1,1 +1,0 @@
-SELECT p.player_id, p.name, COUNT(g.game_id) AS games_played\nFROM weblPlayers p\nINNER JOIN weblGames g ON p.name = g.winner OR p.name = g.loser\nWHERE g.game_date >= DATE_SUB(CURDATE(), INTERVAL y DAY)\nGROUP BY p.player_id, p.name\nHAVING games_played >= x;

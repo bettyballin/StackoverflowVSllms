@@ -1,1 +1,0 @@
-<?php\n// Use __DIR__ to get the directory of the current script\n$file_path = __DIR__ . '/yourfile.txt';\n\n// Use file_get_contents to read the file\n$file_contents = file_get_contents($file_path);\n\nif ($file_contents === false) {\n    echo 'Error reading file';\n} else {\n    echo $file_contents;\n}\n?>

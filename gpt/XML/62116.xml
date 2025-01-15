@@ -1,1 +1,0 @@
-<web-app ...>\n        <filter>\n            <filter-name>BasicAuthFilter</filter-name>\n            <filter-class>com.example.BasicAuthFilter</filter-class>\n        </filter>\n        <filter-mapping>\n            <filter-name>BasicAuthFilter</filter-name>\n            <url-pattern>/your-web-service/*</url-pattern>\n        </filter-mapping>\n    </web-app>

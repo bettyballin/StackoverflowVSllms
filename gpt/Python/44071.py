@@ -1,1 +1,0 @@
-import subprocess\nimport time\n\ndef get_idle_duration():\n    idle_time = subprocess.check_output(["xprintidle"]).strip()\n    return int(idle_time) / 1000.0\n\nif __name__ == "__main__":\n    while True:\n        print("Idle time: {} seconds".format(get_idle_duration()))\n        time.sleep(1)

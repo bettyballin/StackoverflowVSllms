@@ -1,1 +1,0 @@
-from scipy.stats import kendalltau\n\nlist_a = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']\nlist_b = ['a', 'b', 'd', 'c', 'e', 'g', 'h', 'f', 'j', 'i']\n\ntau, p_value = kendalltau(list_a, list_b)\nprint(f'Kendall Tau Distance: {tau}')

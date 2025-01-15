@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <sessionState mode="Custom" customProvider="CustomSqlSessionStateStore">\n      <providers>\n        <add name="CustomSqlSessionStateStore" type="Namespace.CustomSqlSessionStateStoreProvider" />\n      </providers>\n    </sessionState>\n  </system.web>\n</configuration>

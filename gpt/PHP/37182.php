@@ -1,1 +1,0 @@
-// Faster: Direct absolute path\nrequire '/http/test.php';\n\n// Slower: Path with unnecessary directory traversal\nrequire '/home/../http/test.php';

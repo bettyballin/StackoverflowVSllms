@@ -1,1 +1,0 @@
-$formattedDate = $Date->format('Y-m-d H:i:s'); // Format the date as MySQL datetime type

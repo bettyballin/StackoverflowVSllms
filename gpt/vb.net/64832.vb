@@ -1,1 +1,0 @@
-Private Sub exitNow()\n       ' Some code here\n       Return\n       ' This code will not be executed\n   End Sub

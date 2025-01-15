@@ -1,1 +1,0 @@
-<rule name="ReverseProxyInboundRule1" stopProcessing="true">\n    <match url="(.*)" />\n    <action type="Rewrite" url="http://localhost:8000/{R:1}" />\n</rule>

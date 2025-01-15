@@ -1,1 +1,0 @@
-window.open('javascript:document.execCommand("ClearAuthenticationCache");');

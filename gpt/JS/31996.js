@@ -1,1 +1,0 @@
-fetch('/api/data')\n  .then(response => response.json())\n  .then(data => {\n    // Use data to build HTML\n    const html = `<div>${data.name}</div>`;\n    document.getElementById('content').innerHTML = html;\n  });

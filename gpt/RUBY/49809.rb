@@ -1,1 +1,0 @@
-module Speak\n  def speak\n    "Hello from module"\n  end\nend\n\nclass Person\n  include Speak\nend\n\nclass Robot\n  include Speak\nend\n\nperson = Person.new\nrobot = Robot.new\n\nputs person.speak  # Output: Hello from module\nputs robot.speak   # Output: Hello from module

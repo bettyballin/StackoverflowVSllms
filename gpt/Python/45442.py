@@ -1,1 +1,0 @@
-from PIL import Image\n    im = Image.open("path_to_your_jpeg_file.jpg")\n    im.show()

@@ -1,1 +1,0 @@
-$today_start = strtotime("today");\n$this_week_start = strtotime("monday this week");\n$this_month_start = strtotime("first day of this month");

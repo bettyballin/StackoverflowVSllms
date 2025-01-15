@@ -1,1 +1,0 @@
-function updateContent() {\n    $.ajax({\n        url: 'YourHandler.ashx',\n        method: 'GET',\n        success: function(data) {\n            $('#yourElement').html(data);\n        }\n    });\n}

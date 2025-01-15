@@ -1,1 +1,0 @@
-document.location.href = 'https://www.example.com';

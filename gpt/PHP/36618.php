@@ -1,1 +1,0 @@
-if (!empty($_GET)) {\n    $keys = array_keys($_GET);\n    foreach ($keys as $key) {\n        echo "Variable name: " . htmlspecialchars($key) . "<br>";\n    }\n} else {\n    echo "No GET variables found.";\n}

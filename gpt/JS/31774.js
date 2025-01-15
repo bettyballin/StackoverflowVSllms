@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('*:not(.no_inspect)').on('mouseover', function(evt) {\n        var element = evt.target;\n        \n        // set the border around the element\n        element.style.borderWidth = '2px';\n        element.style.borderStyle = 'solid';\n        element.style.borderColor = '#f00';\n    });\n});

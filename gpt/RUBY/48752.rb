@@ -1,1 +1,0 @@
-<%= form_with(model: @project) do |f| %>\n  <%= f.label :name %>\n  <%= f.text_field :name %>\n\n  <%= f.fields_for :tasks do |t| %>\n    <%= t.label :name, "Task Name" %>\n    <%= t.text_field :name %>\n  <% end %>\n\n  <%= f.submit %>\n<% end %>

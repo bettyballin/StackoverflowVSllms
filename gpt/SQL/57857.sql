@@ -1,1 +1,0 @@
-SELECT c.companyName, p.personName\nFROM Company c\nCROSS APPLY dbo.GetTopNEmployees(c.companyId, 2) p;

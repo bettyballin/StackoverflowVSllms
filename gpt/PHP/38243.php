@@ -1,1 +1,0 @@
-$this->Question->find('all', array(\n    'contain' => array()\n));

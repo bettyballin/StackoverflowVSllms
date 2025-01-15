@@ -1,1 +1,0 @@
-Dim W As New Net.WebClient\nDim A As String = ""\n\nW.Encoding = System.Text.Encoding.UTF8\nDim URL As String = "http://localhost/test/p.php"\nA = W.UploadString(URL, "POST", "bla=test")\n\nMsgBox(A)

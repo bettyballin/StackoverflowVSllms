@@ -1,1 +1,0 @@
-require 'test_helper'\n\nclass YourModelTest < ActiveSupport::TestCase\n  fixtures :all\n\n  def before_setup\n    super\n    # Ensure that the necessary setup is done here\n  end\n\n  def test_your_model_validation\n    # Your test code here\n  end\nend

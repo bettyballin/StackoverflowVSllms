@@ -1,1 +1,0 @@
-<SMTPServer>your.smtp.server</SMTPServer>\n   <PermittedHosts>\n      <HostName>domain.com</HostName>\n   </PermittedHosts>

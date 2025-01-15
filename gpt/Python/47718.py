@@ -1,1 +1,0 @@
-import os\n   import base64\n\n   def generate_secret_key():\n       return base64.urlsafe_b64encode(os.urandom(24)).decode('utf-8')

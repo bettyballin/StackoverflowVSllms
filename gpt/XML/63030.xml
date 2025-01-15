@@ -1,1 +1,0 @@
-<resultMap id="yourResultMap" class="YourClass">\n    <result property="from_date" jdbcType="TIMESTAMP" javaType="java.sql.Timestamp"/>\n</resultMap>

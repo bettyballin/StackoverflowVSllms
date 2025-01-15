@@ -1,1 +1,0 @@
-$id = filter_input(INPUT_POST, 'id', FILTER_VALIDATE_INT);\n$result = "";\n\nif ($id !== null && $id > 0) {\n    $p = new C_product();\n    $deleted = $p->deleteCategorie($id);\n    if ($deleted) {\n        $result = "ok";\n    } else {\n        $result = "not ok";\n    }\n} else {\n    $result = "not ok";\n}\n\necho $result;

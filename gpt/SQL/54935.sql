@@ -1,1 +1,0 @@
-SELECT it.id, it.name\nFROM item_types it\nLEFT JOIN items i ON it.id = i.item_type_id AND i.entity_id = 2\nWHERE i.item_type_id IS NULL;

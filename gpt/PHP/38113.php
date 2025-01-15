@@ -1,1 +1,0 @@
-$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, "https://api.example.com/data");\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true); // Verify SSL certificate\n$response = curl_exec($ch);\nif (curl_errno($ch)) {\n    echo 'Error:' . curl_error($ch);\n}\ncurl_close($ch);\necho $response;

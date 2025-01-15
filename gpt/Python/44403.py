@@ -1,1 +1,0 @@
-from sklearn.neighbors import NearestNeighbors\n\n     # Example with Cover Trees using scikit-learn\n     data = [[0, 0], [1, 1], [2, 2], [3, 3]]\n     cover_tree = NearestNeighbors(algorithm='auto', metric='minkowski', p=2).fit(data)\n     distances, indices = cover_tree.kneighbors([[1.5, 1.5]])\n     print(distances, indices)

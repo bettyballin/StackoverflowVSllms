@@ -1,1 +1,0 @@
--- Create a function-based index to optimize the search\nCREATE INDEX idx_key2_def ON your_table (INSTR(text_column, 'key2=def'));\n\n-- Query using the function-based index\nSELECT *\nFROM your_table\nWHERE INSTR(text_column, 'key2=def') > 0;

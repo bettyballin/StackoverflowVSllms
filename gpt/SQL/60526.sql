@@ -1,1 +1,0 @@
-CREATE INDEX idx_a ON products(a);\nCREATE INDEX idx_b ON products(b);

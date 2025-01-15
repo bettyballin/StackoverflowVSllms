@@ -1,1 +1,0 @@
-// Example AJAX call using JavaScript\ndocument.getElementById('loadDataButton').addEventListener('click', function() {\n    fetch('/get-data')\n        .then(response => response.json())\n        .then(data => {\n            document.getElementById('content').innerText = data.content;\n        })\n        .catch(error => console.error('Error fetching data:', error));\n});

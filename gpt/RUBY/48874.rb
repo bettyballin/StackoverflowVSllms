@@ -1,1 +1,0 @@
-<%= form_for @your_model do |f| %>\n  <%= select_tag :is_download, options_for_select([['Download', true], ['Upload', false]]), id: 'is_download' %>\n  \n  <%= f.radio_button :queue, 'selection', id: 'radio_selection' %>\n  <%= f.radio_button :queue, 'all', id: 'radio_all' %>\n  <%= f.radio_button :queue, 'none', id: 'radio_none' %>\n<% end %>

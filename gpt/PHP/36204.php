@@ -1,1 +1,0 @@
-<?php\n   $command = 'php /path/to/your_script.php > /dev/null 2>&1 &';\n   exec($command);\n   ?>

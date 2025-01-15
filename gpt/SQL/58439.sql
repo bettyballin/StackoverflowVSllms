@@ -1,1 +1,0 @@
-SELECT \n    SUBSTRING(your_field, PATINDEX('%[^0]%', your_field + '0'), LEN(your_field)) AS clean_field\nFROM \n    your_table;

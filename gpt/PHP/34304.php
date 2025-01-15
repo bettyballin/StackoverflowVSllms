@@ -1,1 +1,0 @@
-function fixCase($str)\n{\n    if (ctype_upper($str) || ctype_lower($str)) {\n        return ucwords(strtolower($str));\n    }\n    return $str;\n}

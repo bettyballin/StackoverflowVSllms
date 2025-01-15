@@ -1,1 +1,0 @@
-BACKUP CERTIFICATE YourCertificateName \n      TO FILE = 'path_to_certificate_file'\n      WITH PRIVATE KEY ( \n          FILE = 'path_to_private_key_file',\n          ENCRYPTION BY PASSWORD = 'your_strong_password'\n      );

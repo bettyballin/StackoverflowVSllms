@@ -1,1 +1,0 @@
-# Example of using Spyder for Python 3\n   def hello_world():\n       print("Hello, World!")\n\n   if __name__ == "__main__":\n       hello_world()

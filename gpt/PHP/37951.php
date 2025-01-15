@@ -1,1 +1,0 @@
-$doc = new DOMDocument();\n$doc->loadXML('<foo>Blah blah <bar baz="1">bah</bar> blah blah</foo>');\n\n$fooNode = $doc->getElementsByTagName('foo')->item(0);\n$innerXML = '';\n\nforeach ($fooNode->childNodes as $child) {\n    $innerXML .= $fooNode->ownerDocument->saveXML($child);\n}\n\necho $innerXML; // Outputs: Blah blah <bar baz="1">bah</bar> blah blah

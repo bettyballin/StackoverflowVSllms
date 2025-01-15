@@ -1,1 +1,0 @@
-import pywifi\nfrom pywifi import const\n\ndef scan():\n    wifi = pywifi.PyWiFi()\n    iface = wifi.interfaces()[0]\n    iface.scan()\n    scan_results = iface.scan_results()\n    \n    for network in scan_results:\n        print(f"SSID: {network.ssid}, Signal: {network.signal}")\n\nscan()

@@ -1,1 +1,0 @@
-WITH MaxDateCTE AS (\n    SELECT idEquip, MAX(readDate) AS maxReadDate\n    FROM Totalizer\n    GROUP BY idEquip\n)\nSELECT e.idProtocol, e.idEquip, m.maxReadDate\nFROM Equip e\nJOIN MaxDateCTE m ON e.idEquip = m.idEquip\nWHERE e.idEquip = ?

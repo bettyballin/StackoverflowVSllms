@@ -1,1 +1,0 @@
-pid = fork do\n  exec("your_long_running_command --with-arguments")\nend\nProcess.detach(pid)

@@ -1,1 +1,0 @@
-import sqlparse\n\nsql = "SELECT * FROM table WHERE column = 'value'"\nformatted_sql = sqlparse.format(sql, reindent=True, keyword_case='upper')\nprint(formatted_sql)

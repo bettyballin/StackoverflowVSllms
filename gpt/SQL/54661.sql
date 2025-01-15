@@ -1,1 +1,0 @@
-SELECT \n    DATEDIFF(day, datefrom, dateto) AS booking_days\nFROM \n    your_table_name;

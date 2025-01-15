@@ -1,1 +1,0 @@
-set_include_path('/path/to/pear' . PATH_SEPARATOR . get_include_path());\n\n   require_once('Mail.php');

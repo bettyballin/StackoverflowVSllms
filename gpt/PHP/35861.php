@@ -1,1 +1,0 @@
-<?php\nnamespace App\Controller;\n\nuse App\Lib\ExcelHandler;\n\nclass SomeController extends AppController\n{\n    public function someAction()\n    {\n        $excelHandler = new ExcelHandler();\n        // Use your ExcelHandler class here\n    }\n}

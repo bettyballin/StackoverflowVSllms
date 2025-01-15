@@ -1,1 +1,0 @@
-interface DatabaseInterface {\n    public function connect();\n    public function query($sql);\n    public function fetch($result);\n    public function close();\n}

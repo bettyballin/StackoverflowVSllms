@@ -1,1 +1,0 @@
-CREATE INDEX my_btree_index ON my_table(my_column);

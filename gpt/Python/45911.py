@@ -1,1 +1,0 @@
-import requests\n\nurl = "http://example.com/api"\nheaders = {\n    "x-requested-with": "XMLHttpRequest",  # This can be set to any value\n    "User-Agent": "Mozilla/5.0"\n}\n\nresponse = requests.get(url, headers=headers)\nprint(response.text)

@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('.lsHeader').each(function() {\n        if ($(this).nextUntil('.lsHeader', '.contact').length === 0) {\n            $(this).hide();\n        }\n    });\n});

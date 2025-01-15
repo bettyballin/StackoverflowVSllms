@@ -1,1 +1,0 @@
-foreach($userfolders as $uf) {\n    $uf = sprintf($uf, $user_id);\n    $uf = ltrim($uf,'/');\n    $path = trim($base . '/' . $uf);\n\n    clearstatcache(); // Clear cache before checking\n    $res = is_dir($path); //returns false except last time returns 1\n    $this->assertFalse($res, $path);\n}

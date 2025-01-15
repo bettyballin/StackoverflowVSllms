@@ -1,1 +1,0 @@
-$xml = simplexml_load_string($xmlString);\n   echo $xml->elementName;

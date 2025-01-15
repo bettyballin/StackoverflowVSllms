@@ -1,1 +1,0 @@
-import cairosvg\n\n# Convert SVG to PNG\ncairosvg.svg2png(url='input.svg', write_to='output.png')\n\n# Convert SVG to JPG\ncairosvg.svg2png(url='input.svg', write_to='output.png')\nfrom PIL import Image\n\npng_image = Image.open('output.png')\npng_image.convert('RGB').save('output.jpg', 'JPEG')

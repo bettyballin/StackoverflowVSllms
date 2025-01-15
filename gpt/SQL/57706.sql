@@ -1,1 +1,0 @@
-CREATE TABLE search_results (\n       search_id INT NOT NULL,\n       result_order INT NOT NULL,\n       user_id INT NOT NULL,\n       PRIMARY KEY (search_id, result_order)\n   );

@@ -1,1 +1,0 @@
-CREATE TABLE users (\n       id SERIAL PRIMARY KEY,\n       data JSONB\n   );

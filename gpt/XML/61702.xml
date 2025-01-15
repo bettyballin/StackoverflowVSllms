@@ -1,1 +1,0 @@
-<CustomAction Id="RegisterAssembly" BinaryKey="CustomActions.dll" DllEntry="RegisterAssembly" Execute="deferred" />\n<InstallExecuteSequence>\n    <Custom Action="RegisterAssembly" After="InstallFinalize">NOT REMOVE</Custom>\n</InstallExecuteSequence>

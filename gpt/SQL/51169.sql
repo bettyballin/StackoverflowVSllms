@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n   -- Update the parent table\n   UPDATE ParentTable\n   SET ContractNumber = 'newContractNumber'\n   WHERE ContractNumber = 'oldContractNumber';\n\n   -- Update the child table(s)\n   UPDATE ChildTable\n   SET ContractNumber = 'newContractNumber'\n   WHERE ContractNumber = 'oldContractNumber';\n\n   COMMIT;

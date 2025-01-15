@@ -1,1 +1,0 @@
-module Something\n  def self.included(base)\n    base.class_eval do\n      validates :name\n      validates :date\n    end\n  end\nend\n\nmodule Anotherthing\n  def self.included(base)\n    base.class_eval do\n      validates :age\n    end\n  end\nend\n\nclass ADualClass\n  include Something\n  include Anotherthing\nend

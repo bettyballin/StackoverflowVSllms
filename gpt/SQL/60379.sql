@@ -1,1 +1,0 @@
-SELECT EmployeeId \nFROM Employee \nWHERE EmployeeTypeId IN (1, 2, 3)

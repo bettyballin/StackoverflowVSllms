@@ -1,1 +1,0 @@
-// src/Utilities/ExampleUtility.php\n    namespace App\Utilities;\n\n    class ExampleUtility {\n        public function doSomething() {\n            // Utility logic here\n        }\n    }\n\n    // Usage in a Symfony Controller or Service\n    use App\Utilities\ExampleUtility;\n\n    $utility = new ExampleUtility();\n    $utility->doSomething();

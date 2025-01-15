@@ -1,1 +1,0 @@
-// main.php\n$errorKey = 'page-error-' . $error;\n$this->translate($errorKey);

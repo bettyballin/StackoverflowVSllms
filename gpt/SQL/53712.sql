@@ -1,1 +1,0 @@
-DECLARE @sql NVARCHAR(MAX);\nDECLARE @Source NVARCHAR(100);\n\nIF @ClientType = 'Employee'\n    SET @Source = 'HR';\nELSE IF @ClientType = 'Member'\n    SET @Source = 'Other';\n\nSET @sql = N'SELECT Md5 FROM ' + @Source + N' WHERE Current = 2;';\n\nEXEC sp_executesql @sql;

@@ -1,1 +1,0 @@
-$userDB = new Dao_UserDB();

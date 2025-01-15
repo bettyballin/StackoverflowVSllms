@@ -1,1 +1,0 @@
-SELECT\n    id,\n    RANK() OVER (ORDER BY points DESC, name ASC) AS rank,\n    name\nFROM\n    rankings\nORDER BY\n    rank, id;

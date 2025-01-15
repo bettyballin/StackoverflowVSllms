@@ -1,1 +1,0 @@
-UPDATE your_table\nSET your_column = REPLACE(your_column, '&lt', '<')\nWHERE your_column LIKE '%&lt%';

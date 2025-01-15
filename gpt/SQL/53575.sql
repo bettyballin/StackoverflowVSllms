@@ -1,1 +1,0 @@
-WITH RECURSIVE numbers AS (\n    SELECT 1 AS code\n    UNION ALL\n    SELECT code + 1 FROM numbers WHERE code < (SELECT MAX(code) FROM your_table)\n)\nSELECT n.code\nFROM numbers n\nLEFT JOIN your_table t ON n.code = t.code\nWHERE t.code IS NULL;

@@ -1,1 +1,0 @@
-# Inefficient query with multiple database hits\nauthor = Author.objects.get(id=1)\nbooks = author.book_set.all()\nfor book in books:\n    print(book.title)\n\n# Optimized query using select_related for eager loading\nauthor = Author.objects.select_related('book_set').get(id=1)\nbooks = author.book_set.all()\nfor book in books:\n    print(book.title)

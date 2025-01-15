@@ -1,1 +1,0 @@
-<?php\nif (isset($_GET['email'])) {\n    $email = $_GET['email'];\n    // Process the email address as needed\n    echo "Unsubscribing: " . htmlspecialchars($email);\n}\n?>

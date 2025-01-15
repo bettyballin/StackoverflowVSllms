@@ -1,1 +1,0 @@
-CREATE INDEX IX_YourTable_Col1 ON YourTable(Col1);\n   ALTER TABLE YourTable\n   ADD CONSTRAINT PK_YourTable PRIMARY KEY (Col1);

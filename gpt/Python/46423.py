@@ -1,1 +1,0 @@
-entries = list(entries)  # Execute the query\ntotals = calculate_totals(entries, currency='USD', category='Electronics')

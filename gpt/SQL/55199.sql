@@ -1,1 +1,0 @@
-CREATE TABLE vote_summaries (\n       question_id INT PRIMARY KEY,\n       yes_score INT DEFAULT 0,\n       no_score INT DEFAULT 0,\n       maybe_score INT DEFAULT 0\n   );

@@ -1,1 +1,0 @@
-Dim var As Object = "123"\n    Dim str As String = TryCast(var, String)

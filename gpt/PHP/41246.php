@@ -1,1 +1,0 @@
-<?php\n// Connect to Redis\n$redis = new Redis();\n$redis->connect('127.0.0.1', 6379);\n\n// Store a value in the cache\n$redis->set('my_key', 'my_value');\n\n// Fetch a value from the cache\n$value = $redis->get('my_key');\necho $value; // Outputs: my_value\n?>

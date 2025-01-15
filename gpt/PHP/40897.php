@@ -1,1 +1,0 @@
-function countLeadingAsterisks($line) {\n    preg_match('/^(\*+)/', $line, $matches);\n    return isset($matches[1]) ? strlen($matches[1]) : 0;\n}\n\n// Example usage:\n$line = '*** Sample text';\necho countLeadingAsterisks($line); // Output: 3

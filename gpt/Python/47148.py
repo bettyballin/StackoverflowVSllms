@@ -1,1 +1,0 @@
-def get_substring_within_parentheses(input_string):\n    start = input_string.find('(')\n    end = input_string.find(')', start)\n    \n    if start != -1 and end != -1:\n        return input_string[start+1:end]\n    return None\n\n# Example usage\ninput_string = "GREECE (+30)"\nresult = get_substring_within_parentheses(input_string)\nprint(result)  # Output: +30

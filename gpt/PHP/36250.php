@@ -1,1 +1,0 @@
-// config/bootstrap.php or config/app.php\n   use Cake\Auth\DefaultPasswordHasher;\n   use Cake\Auth\PasswordHasherFactory;\n\n   PasswordHasherFactory::config('Custom', [\n       'className' => 'App\Auth\CustomPasswordHasher'\n   ]);

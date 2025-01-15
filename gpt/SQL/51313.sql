@@ -1,1 +1,0 @@
-CREATE INDEX idx_active_users ON users (email) WHERE active = true;

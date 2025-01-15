@@ -1,1 +1,0 @@
-<?php\n// PHP code here\n\n// No closing tag

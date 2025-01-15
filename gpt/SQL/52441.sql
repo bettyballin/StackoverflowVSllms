@@ -1,1 +1,0 @@
-SELECT \n    department_id,\n    employee_id,\n    salary,\n    SUM(salary) OVER (PARTITION BY department_id ORDER BY employee_id) AS dept_running_total\nFROM \n    employees;

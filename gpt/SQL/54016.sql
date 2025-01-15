@@ -1,1 +1,0 @@
-DECLARE\n  oracle_home VARCHAR2(1024);\nBEGIN\n  oracle_home := get_oracle_home('ORACLE_HOME');\n  DBMS_OUTPUT.PUT_LINE('ORACLE_HOME: ' || oracle_home);\nEND;\n/

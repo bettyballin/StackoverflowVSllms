@@ -1,1 +1,0 @@
-$dateString = '02/31/2018';\n$date = DateTime::createFromFormat('m/d/Y', $dateString);\n$errors = DateTime::getLastErrors();\n\nif ($errors['error_count'] > 0 || $errors['warning_count'] > 0) {\n    echo "Invalid date: $dateString";\n} else {\n    $formattedDate = $date->format('Y-m-d');\n    echo $formattedDate;\n}

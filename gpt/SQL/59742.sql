@@ -1,1 +1,0 @@
-CREATE OR REPLACE VIEW view_schema.view_name AS\n   SELECT columns FROM other_schema.table_name;

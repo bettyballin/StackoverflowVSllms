@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    function myFunction() {\n        // Your JavaScript code here\n        alert('Button clicked!');\n    }\n</script>

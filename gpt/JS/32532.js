@@ -1,1 +1,0 @@
-const express = require('express');\nconst app = express();\napp.use(express.json());\n\napp.post('/users/search', (req, res) => {\n  const { username, password } = req.body;\n  // Perform search with username and password\n  // ...\n\n  res.json({ /* user data */ });\n});\n\napp.listen(3000, () => {\n  console.log('Server is running on port 3000');\n});

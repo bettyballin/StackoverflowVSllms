@@ -1,1 +1,0 @@
-$xml = simplexml_load_file('outcomes.xml');\nprint_r($xml);

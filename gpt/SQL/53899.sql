@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION get_rad RETURN CLOB IS\n     result CLOB;\n   BEGIN\n     -- Create XML or JSON string here\n     result := '<rad><name>name1</name><code>1</code><vendor>1</vendor><val>val1</val><num>1</num></rad>';\n     RETURN result;\n   END;

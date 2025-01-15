@@ -1,1 +1,0 @@
-student_id | student_name\n-----------|-------------\n1          | John\n2          | Sarah\n3          | Alice\n4          | Bob

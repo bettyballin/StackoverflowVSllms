@@ -1,1 +1,0 @@
-SELECT *\nFROM TEST_TABLE\nWHERE refID = @refID\n  AND (\n    newFirstName IS NOT NULL\n    OR newLastName IS NOT NULL\n  );

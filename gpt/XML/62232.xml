@@ -1,1 +1,0 @@
-<settings>\n  <upload_dir>uploads/</upload_dir>\n  <display_num>true</display_num>\n  <names>\n    <name key="a">b</name>\n    <name key="c">d</name>\n    <name key="e">f</name>\n  </names>\n</settings>

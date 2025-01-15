@@ -1,1 +1,0 @@
-<?php\nsession_start();\n$user = $username; // Incorrect way\n?>

@@ -1,1 +1,0 @@
--- Assuming the clustered index is named 'PK_TableName'\n    DROP INDEX PK_TableName ON t1;

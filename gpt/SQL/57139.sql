@@ -1,1 +1,0 @@
-SELECT \n    t.id AS topic_id,\n    t.name AS topic_name,\n    COALESCE(MAX(r.date), t.date) AS last_modified,\n    COUNT(r.id) AS num_replies\nFROM \n    forum_topic t\nLEFT JOIN \n    forum_reply r ON t.id = r.topic_id\nGROUP BY \n    t.id, t.name, t.date\nORDER BY \n    last_modified DESC;

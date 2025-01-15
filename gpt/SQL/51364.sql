@@ -1,1 +1,0 @@
-EXEC GetPersonCarPreferences @PersonId = 1;

@@ -1,1 +1,0 @@
-SELECT * FROM case_sensitive_view;

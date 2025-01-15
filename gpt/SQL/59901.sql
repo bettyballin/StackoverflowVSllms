@@ -1,1 +1,0 @@
-ALTER TABLE new_table AUTO_INCREMENT = 1;

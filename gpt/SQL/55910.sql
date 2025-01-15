@@ -1,1 +1,0 @@
-GRANT ALTER ANY TABLE TO DBAccountName;

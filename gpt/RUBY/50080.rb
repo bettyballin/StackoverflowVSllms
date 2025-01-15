@@ -1,1 +1,0 @@
-# config/initializers/remove_x_runtime_header.rb\n\nclass RemoveXRuntimeHeader\n  def initialize(app)\n    @app = app\n  end\n\n  def call(env)\n    status, headers, response = @app.call(env)\n    headers.delete('X-Runtime')\n    [status, headers, response]\n  end\nend\n\nRails.application.config.middleware.insert_before 0, RemoveXRuntimeHeader

@@ -1,1 +1,0 @@
-WHILE (1=1)\n   BEGIN\n       DELETE TOP (1000) FROM YourTable WHERE <condition>;\n       IF @@ROWCOUNT = 0 BREAK;\n       WAITFOR DELAY '00:00:01'; -- Optional: to reduce contention\n   END

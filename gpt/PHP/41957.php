@@ -1,1 +1,0 @@
-// Using XMLReader\n   $xml = new XMLReader();\n   $xml->open('file.xml');\n\n   while ($xml->read()) {\n       if ($xml->nodeType == XMLReader::ELEMENT && $xml->name == 'yourElement') {\n           // Process your element here\n       }\n   }\n   $xml->close();

@@ -1,1 +1,0 @@
-// Original line using ereg()\nif (ereg($pattern, $string)) {\n    // Your code here\n}\n\n// Updated line using preg_match()\nif (preg_match('/' . $pattern . '/', $string)) {\n    // Your code here\n}

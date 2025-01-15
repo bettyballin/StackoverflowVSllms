@@ -1,1 +1,0 @@
-DECLARE\n    v_surname VARCHAR2(100);\nBEGIN\n    v_surname := 'O''Keefe';  -- Use two single quotes to escape a single quote\n    FOR rec IN (SELECT * FROM PEOPLE WHERE SURNAME = v_surname) LOOP\n        -- Process each record\n        DBMS_OUTPUT.PUT_LINE(rec.SURNAME);\n    END LOOP;\nEND;\n/

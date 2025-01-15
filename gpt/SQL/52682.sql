@@ -1,1 +1,0 @@
-SELECT p.pollID, p.pollQuestion, pa.pollAnswerID, pa.pollAnswerText\nFROM poll p\nINNER JOIN poll_answers pa ON p.pollID = pa.pollID\nORDER BY p.pollID, pa.pollAnswerID;

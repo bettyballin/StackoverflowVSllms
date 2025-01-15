@@ -1,1 +1,0 @@
-<?php\n   $filePath = $_SERVER['DOCUMENT_ROOT'] . '/secure_data/yourfile.xml';\n   \n   // Example of writing to the XML file\n   $xmlContent = '<order><id>123</id></order>';\n   file_put_contents($filePath, $xmlContent);\n   \n   // Example of reading the XML file\n   $xmlContent = file_get_contents($filePath);\n   echo $xmlContent;\n   ?>

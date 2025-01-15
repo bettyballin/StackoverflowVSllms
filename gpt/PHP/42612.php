@@ -1,1 +1,0 @@
-require 'vendor/autoload.php';\n\nuse Symfony\Component\String\UnicodeString;\n\n$string = new UnicodeString('Hello, World!');\necho $string->lower(); // Outputs 'hello, world!'

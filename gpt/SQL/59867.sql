@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET YourColumn = UPPER(REGEXP_REPLACE(SUBSTRING(YourColumn FROM 1 FOR 2), '\s', '', 'g')) || SUBSTRING(YourColumn FROM 3);

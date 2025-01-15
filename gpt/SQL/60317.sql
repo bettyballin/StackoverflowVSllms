@@ -1,1 +1,0 @@
-RESTORE DATABASE [MyDatabase]\nFROM DISK = '\\ServerName\Backups\MyDatabaseBackup.bak'\nWITH MOVE 'MyDatabase_Data' TO 'C:\Program Files\Microsoft SQL Server\MSSQL\Data\MyDatabase.mdf',\n     MOVE 'MyDatabase_Log' TO 'C:\Program Files\Microsoft SQL Server\MSSQL\Data\MyDatabase_log.ldf',\n     REPLACE;

@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <handlers>\n      <add name="SecureFileDownloadHandler" path="download.ashx" verb="*" type="Namespace.SecureFileDownloadHandler, AssemblyName" resourceType="Unspecified" />\n    </handlers>\n  </system.webServer>\n</configuration>

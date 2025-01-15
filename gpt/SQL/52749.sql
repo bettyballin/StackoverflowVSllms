@@ -1,1 +1,0 @@
--- Create a full-text index on the column\n   CREATE FULLTEXT INDEX ON your_table(your_column);\n\n   -- Perform a full-text search query\n   SELECT * FROM your_table\n   WHERE CONTAINS(your_column, '"firemen" OR "fireman"');

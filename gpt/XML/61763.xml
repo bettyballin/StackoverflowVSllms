@@ -1,1 +1,0 @@
-<PropertyGroup>\n     <WebPublishMethod>Package</WebPublishMethod>\n     <PackageAsSingleFile>true</PackageAsSingleFile>\n     <SkipExtraFilesOnServer>true</SkipExtraFilesOnServer>\n     <DesktopBuildPackageLocation>$(SolutionDir)bin\$(Configuration)\$(MSBuildProjectName).zip</DesktopBuildPackageLocation>\n   </PropertyGroup>

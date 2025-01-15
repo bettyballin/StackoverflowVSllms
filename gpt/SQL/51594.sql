@@ -1,1 +1,0 @@
-SELECT \n    i.income,\n    t.tax_rate\nFROM \n    incomes i\nINNER JOIN \n    tax_brackets t\nON \n    i.income BETWEEN t.min_income AND t.max_income;

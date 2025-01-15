@@ -1,1 +1,0 @@
-DECLARE @NewOrderID VARCHAR(50);\nEXEC GetPrefixedUniqueID 'Order', 'O', @NewOrderID OUTPUT;\nSELECT @NewOrderID AS NewOrderID;\n\nDECLARE @NewDeliveryID VARCHAR(50);\nEXEC GetPrefixedUniqueID 'Delivery', 'D', @NewDeliveryID OUTPUT;\nSELECT @NewDeliveryID AS NewDeliveryID;

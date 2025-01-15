@@ -1,1 +1,0 @@
-<% if @business.persisted? %>\n  $("#unapproved").append("<%= j render(partial: 'business', locals: { business: @business }) %>");\n  $("#new_business")[0].reset();\n  $("#new_business").hide();\n<% else %>\n  alert('Error saving business');\n<% end %>

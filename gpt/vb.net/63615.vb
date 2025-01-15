@@ -1,1 +1,0 @@
-Dim xmlFilePath As String = System.IO.Path.Combine(Application.StartupPath, "XmlFiles\mail.xml")

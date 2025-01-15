@@ -1,1 +1,0 @@
-<?php\n$inputFile = 'path/to/input.xhtml';\n$outputFile = 'path/to/output.pdf';\n$command = "wkhtmltopdf $inputFile $outputFile";\n\nexec($command, $output, $return_var);\n\nif ($return_var === 0) {\n    echo "PDF generated successfully!";\n} else {\n    echo "An error occurred while generating the PDF.";\n}\n?>

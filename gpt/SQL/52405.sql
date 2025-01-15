@@ -1,1 +1,0 @@
-CREATE TABLE YourHoldingTable (\n    JobId INT PRIMARY KEY,\n    JobName NVARCHAR(255),\n    JobStatus NVARCHAR(50)\n);

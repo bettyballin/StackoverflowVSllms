@@ -1,1 +1,0 @@
-CREATE PROCEDURE MyStoredProcedure\n    @AffectedRows INT OUTPUT\nAS\nBEGIN\n    -- Example of an update statement\n    UPDATE MyTable\n    SET ColumnName = 'Value'\n    WHERE AnotherColumn = 'Condition';\n\n    -- Get the number of rows affected by the update statement\n    SET @AffectedRows = @@ROWCOUNT;\nEND

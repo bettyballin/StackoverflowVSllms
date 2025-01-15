@@ -1,1 +1,0 @@
-Dim arrowSymbol\narrowSymbol = ChrW(&H2192)\n\nMsgBox "The arrow symbol is: " & arrowSymbol

@@ -1,1 +1,0 @@
-import requests\n\nurl = "<URL>"\nresponse = requests.get(url)\nresponse.encoding = 'ISO-8859-1'  # Set the correct encoding\ncontent = response.text\n\n# If needed, you can convert it to UTF-8\ncontent_utf8 = content.encode('utf-8').decode('utf-8')\nprint(content_utf8)

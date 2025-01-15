@@ -1,1 +1,0 @@
-require_once('/full/path/to/mysql_connect.php');

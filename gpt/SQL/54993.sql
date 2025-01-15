@@ -1,1 +1,0 @@
-SELECT e.*, r.*, ex.*\nFROM Events e\nLEFT JOIN Recurrences r ON e.event_id = r.event_id\nLEFT JOIN Exceptions ex ON r.recurrence_id = ex.recurrence_id\nWHERE e.user_id = ?\nAND (\n    (e.is_recurring = FALSE AND e.start_datetime BETWEEN ? AND ?)\n    OR\n    (e.is_recurring = TRUE AND (\n        (r.end_date IS NULL OR r.end_date >= ?)\n    ))\n);

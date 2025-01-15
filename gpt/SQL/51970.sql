@@ -1,1 +1,0 @@
-USE [Database1];\n   CREATE USER [NewUser] FOR LOGIN [NewLogin];

@@ -1,1 +1,0 @@
-import bs4\nprint(bs4.__version__)

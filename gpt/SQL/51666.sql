@@ -1,1 +1,0 @@
-DECLARE @email VARCHAR(MAX);\nSELECT @email = STRING_AGG(EmailAddress, '; ')\nFROM accounts;

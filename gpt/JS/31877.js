@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    // Example: Sending a POST request to a controller\n    $('#myButton').click(function() {\n        $.post('/my-controller/my-action', { myData: 'example' }, function(response) {\n            // Process the response from the server\n            console.log(response);\n        });\n    });\n});

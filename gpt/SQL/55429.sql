@@ -1,1 +1,0 @@
--- Example: Changing a column data type from numeric(12, 0) to int\nALTER TABLE your_table_name\nALTER COLUMN your_column_name INT;

@@ -1,1 +1,0 @@
-$unixTimestamp = 1633072800; // Example value, replace with actual Unix timestamp\n$date = date("Y-m-d H:i:s", $unixTimestamp);\necho $date;

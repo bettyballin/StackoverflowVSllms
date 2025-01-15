@@ -1,1 +1,0 @@
-Dim test As New List(Of TestData)\nDim key As New TestData\n\nkey._a = A\nkey._b = B\n\nFor Each a As TestClass In SomeCollection\n    If Not test.Contains(key) Then\n        'Do Stuff\n    End If\nNext

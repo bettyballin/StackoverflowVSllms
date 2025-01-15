@@ -1,1 +1,0 @@
-DECLARE @Date DATETIME = '2009-01-23T10:53:21';\n\nSELECT FORMAT(@Date, 'yyyyMMddTHHmmss') + 'Z' AS ISO8601_BasicDate;

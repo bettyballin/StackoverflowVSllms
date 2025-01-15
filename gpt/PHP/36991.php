@@ -1,1 +1,0 @@
-<?php\n$linkphoto = array("photo1.jpg", "Photo1.jpg", "photo2.jpg", "photo3.jpg", "photo2.jpg");\n\n// Use array_unique to remove duplicates\n$unlink = array_unique($linkphoto);\n\n// Output the unique array\nforeach ($unlink as $link) {\n    echo $link . "<br />";\n}\n?>

@@ -1,1 +1,0 @@
-from flask import Flask, jsonify\n\napp = Flask(__name__)\n\n@app.route('/get_strings', methods=['GET'])\ndef get_strings():\n    # Replace this with your logic to generate or retrieve strings\n    strings = ["string1", "string2", "string3"]\n    return jsonify(strings)\n\nif __name__ == '__main__':\n    app.run(host='0.0.0.0', port=5000)

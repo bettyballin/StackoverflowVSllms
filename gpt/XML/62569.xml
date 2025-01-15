@@ -1,1 +1,0 @@
-<CustomAction Id="InstallWebsite" BinaryKey="CustomActionDll" DllEntry="Install" Execute="deferred" Return="check" />\n<InstallExecuteSequence>\n    <Custom Action="InstallWebsite" After="InstallInitialize">NOT Installed</Custom>\n</InstallExecuteSequence>

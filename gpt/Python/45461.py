@@ -1,1 +1,0 @@
-from fuzzywuzzy import fuzz\n\ns1 = "Acme Company"\ns2 = "Acme Comapny"\nprint(f"FuzzyWuzzy ratio between '{s1}' and '{s2}' is {fuzz.ratio(s1, s2)}")

@@ -1,1 +1,0 @@
-CREATE TABLE permissions (\n    permission_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,\n    permission_name VARCHAR(100) NOT NULL UNIQUE\n);

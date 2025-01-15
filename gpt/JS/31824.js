@@ -1,1 +1,0 @@
-const eventSource = new EventSource('/server-endpoint');\n   \n   eventSource.onmessage = function(event) {\n       const data = JSON.parse(event.data);\n       // Process the received data\n       console.log(data);\n   };\n   \n   eventSource.onerror = function(error) {\n       console.error('EventSource error: ', error);\n   };

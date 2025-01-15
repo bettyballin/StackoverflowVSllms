@@ -1,1 +1,0 @@
-class YourModel < ApplicationRecord\n  self.record_timestamps = false\nend

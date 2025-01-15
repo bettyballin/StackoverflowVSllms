@@ -1,1 +1,0 @@
-#!/usr/bin/env python\n\n    print("Content-Type: text/html\n\n")\n    print("<html>")\n    print("<head><title>CGI Script Output</title></head>")\n    print("<body>")\n    print("<h1>CGI Script Output</h1>")\n    print("</body>")\n    print("</html>")

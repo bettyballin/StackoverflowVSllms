@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nORDER BY some_column\nOFFSET 19 ROWS FETCH NEXT 11 ROWS ONLY;

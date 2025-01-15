@@ -1,1 +1,0 @@
-SELECT user_tags.tag\nFROM (\n    SELECT 'tag1' AS tag UNION ALL\n    SELECT 'tag2' UNION ALL\n    SELECT 'tag3' UNION ALL\n    -- Add more tags as needed\n    SELECT 'tagN'\n) AS user_tags\nLEFT JOIN tags ON user_tags.tag = tags.tag\nWHERE tags.tag IS NULL;

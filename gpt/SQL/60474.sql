@@ -1,1 +1,0 @@
-SELECT p.ID, p.entry, c.ID AS categoryID, c.name\nFROM Post AS p\nLEFT JOIN CategoryBinding AS cb ON p.ID = cb.postID\nLEFT JOIN Category AS c ON cb.categoryID = c.ID\nWHERE p.ID IN (\n    SELECT postID\n    FROM CategoryBinding\n    WHERE categoryID = (SELECT ID FROM Category WHERE name = 'asp')\n);

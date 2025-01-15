@@ -1,1 +1,0 @@
-const text = 'http://site.com/site.com/files/images/img 2 (5).jpg';\n\n// Replace spaces in URLs with %20\nconst updatedText = text.replace(/(http:\/\/[^\s]+\.(jpg|png|gif))/ig, (match) => {\n  return match.replace(/ /g, '%20');\n});\n\nconsole.log(updatedText); // Output: http://site.com/site.com/files/images/img%202%20(5).jpg

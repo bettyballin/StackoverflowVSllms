@@ -1,1 +1,0 @@
-$route = new Zend_Controller_Router_Route_Regex(\n    '([a-z0-9]+)$',\n    array(\n        'controller' => 'redirect',\n        'action'     => 'redirect'\n    )\n);\n\n$router = Zend_Controller_Front::getInstance()->getRouter();\n$router->addRoute('no-trailing-slash', $route);

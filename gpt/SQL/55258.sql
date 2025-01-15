@@ -1,1 +1,0 @@
--- Step 1: Define the ref cursor type globally\nCREATE OR REPLACE TYPE refcur IS REF CURSOR;\n/\n\n-- Step 2: Create the stored procedure using the globally defined ref cursor type\nCREATE OR REPLACE PROCEDURE get_info (o_cursor OUT refcur) AS\nBEGIN\n  OPEN o_cursor FOR\n    SELECT * FROM v$database;\nEND get_info;\n/

@@ -1,1 +1,0 @@
-Dropzone.options.myAwesomeDropzone = {\n     paramName: "file", // The name that will be used to transfer the file\n     maxFilesize: 2, // MB\n     acceptedFiles: ".jpeg,.jpg,.png,.gif"\n   };

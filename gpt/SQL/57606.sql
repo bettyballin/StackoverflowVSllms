@@ -1,1 +1,0 @@
-INSERT INTO search_statistics (user_id, search_query, search_mode, results_count, ip_address)\nVALUES (1, 'ABC Corp', 'company_name', 10, '192.168.1.1');

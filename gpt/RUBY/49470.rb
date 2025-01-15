@@ -1,1 +1,0 @@
-if Rails.env.production?\n  @@default_region = Region.find_by_uri("whistler")\nend

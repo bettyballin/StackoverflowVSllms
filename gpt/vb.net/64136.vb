@@ -1,1 +1,0 @@
-Dim labelScreenPos As Point = ctl.PointToScreen(Point.Empty)\nDim formClientPos As Point = Me.PointToClient(labelScreenPos)

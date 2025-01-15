@@ -1,1 +1,0 @@
-window.addEventListener("beforeunload", function () {\n    localStorage.setItem("scrollPosition", window.scrollY);\n});

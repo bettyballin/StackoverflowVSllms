@@ -1,1 +1,0 @@
-fetch('your-server-endpoint', {\n       method: 'POST',\n       headers: {\n           'Content-Type': 'application/json'\n       },\n       body: JSON.stringify({ key: 'value' })\n   })\n   .then(response => response.text())\n   .then(data => {\n       document.getElementById('yourElement').innerHTML = data;\n   });

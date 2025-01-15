@@ -1,1 +1,0 @@
-# Example usage of class method\nputs 5.class        # Output: Integer\nputs "hello".class  # Output: String\nputs [1, 2, 3].class # Output: Array

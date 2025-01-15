@@ -1,1 +1,0 @@
-import random\n\ndef unique_random_large_numbers(n, k):\n    if k > n:\n        raise ValueError("k cannot be larger than n")\n    \n    result = set()\n    while len(result) < k:\n        number = random.randint(1, n)\n        result.add(number)\n    \n    return list(result)\n\n# Example usage:\nprint(unique_random_large_numbers(1000000, 10))

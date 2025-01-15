@@ -1,1 +1,0 @@
-CREATE TABLE Class (\n    ClassID INT PRIMARY KEY,\n    ClassName VARCHAR(255) NOT NULL,\n    ClassType ENUM('Coded', 'Numeric', 'String') NOT NULL\n);

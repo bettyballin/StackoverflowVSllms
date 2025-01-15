@@ -1,1 +1,0 @@
-Sys.Application.add_load(function() {\n       Type.registerNamespace("Awesome");\n\n       Awesome.Widget = function() {\n           var _this = this;\n           this.myProperty = 'This is awesome';\n       };\n   });

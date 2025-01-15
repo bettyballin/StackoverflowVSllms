@@ -1,1 +1,0 @@
-LOAD DATA INFILE '/path/to/data.csv'\n   INTO TABLE users\n   FIELDS TERMINATED BY ','\n   ENCLOSED BY '"'\n   LINES TERMINATED BY '\n'\n   IGNORE 1 ROWS;

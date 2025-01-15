@@ -1,1 +1,0 @@
-$mysqlDT = '2008-08-26'; // Example date\nlist($year, $month, $day) = explode('-', $mysqlDT);\n\n// Create a DateTime object in UTC to avoid DST issues\n$date = new DateTime("$year-$month-$day", new DateTimeZone('UTC'));\n\n// Convert it to a Unix timestamp\n$timestamp = $date->getTimestamp();

@@ -1,1 +1,0 @@
-CREATE TABLE ProductImages (\n        Id INT PRIMARY KEY IDENTITY,\n        ProductId INT,\n        FileName NVARCHAR(255),\n        FilePath NVARCHAR(255),\n        FOREIGN KEY (ProductId) REFERENCES Products(Id)\n    );

@@ -1,1 +1,0 @@
-// Example of YUI3 module loading\nYUI().use('node', 'event', function (Y) {\n    Y.one('#myButton').on('click', function () {\n        alert('Button clicked!');\n    });\n});

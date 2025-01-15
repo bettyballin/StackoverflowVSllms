@@ -1,1 +1,0 @@
-DELIMITER //\n\nCREATE TRIGGER before_inventorycontrol_insert\nBEFORE INSERT ON inventorycontrol\nFOR EACH ROW\nBEGIN\n    IF NEW.nodeID <= 0 THEN\n        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'nodeID must be greater than 0';\n    END IF;\nEND //\n\nDELIMITER ;

@@ -1,1 +1,0 @@
-SELECT <column>, count(*)\nFROM <table>\nGROUP BY <column> HAVING COUNT(*) > 1;

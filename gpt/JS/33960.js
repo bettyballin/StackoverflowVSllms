@@ -1,1 +1,0 @@
-if (featureFlagEnabled("newFeature")) {\n       // New feature code\n   } else {\n       // Old feature code\n   }

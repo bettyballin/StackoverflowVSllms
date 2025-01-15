@@ -1,1 +1,0 @@
-<?php\nrequire 'functions.php';\n\nif ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['file'])) {\n    $file = $_FILES['file'];\n    \n    // Call the user-defined function to process the file\n    processFileAndSendEmail($file);\n} else {\n    echo "No file uploaded.";\n}\n?>

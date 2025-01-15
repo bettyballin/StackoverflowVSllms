@@ -1,1 +1,0 @@
-from rest_framework import serializers\nfrom .models import MyModel\n\nclass MyModelSerializer(serializers.HyperlinkedModelSerializer):\n    class Meta:\n        model = MyModel\n        fields = ['url', 'name', 'description']

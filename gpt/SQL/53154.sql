@@ -1,1 +1,0 @@
-ALTER INDEX IX_YourIndexName\nON YourTable\nREBUILD WITH (FILLFACTOR = 70);

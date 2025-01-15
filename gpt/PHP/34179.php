@@ -1,1 +1,0 @@
-<?php\n// Start output buffering\nob_start();\n\n// Include the PHP file you want to capture output from\ninclude 'anotherfile.php';\n\n// Get the output and clean the buffer\n$output = ob_get_clean();\n\n// Now $output contains the echoed output from 'anotherfile.php'\necho $output;\n?>

@@ -1,1 +1,0 @@
-$this->form_validation->set_rules('textarea_input', 'Textarea Input', 'required|trim|htmlspecialchars');

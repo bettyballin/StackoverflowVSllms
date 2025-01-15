@@ -1,1 +1,0 @@
-module Authentication\n  extend ActiveSupport::Concern\n\n  mattr_accessor :current_user\n\n  def login\n    self.current_user = session[:user_id] || nil\n  end\nend

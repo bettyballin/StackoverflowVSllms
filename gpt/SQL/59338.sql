@@ -1,1 +1,0 @@
-select 'true' where 3 not in (1, 2, null)

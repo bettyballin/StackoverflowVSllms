@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  var availableOptions = [\n    "Option 1",\n    "Option 2",\n    // Add more options as needed\n  ];\n  \n  $('#field-component').autocomplete({\n    source: availableOptions\n  });\n});

@@ -1,1 +1,0 @@
-$('select').prop('selectedIndex', 0);

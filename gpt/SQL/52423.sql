@@ -1,1 +1,0 @@
-SELECT username, score FROM users WHERE user_id = 1;

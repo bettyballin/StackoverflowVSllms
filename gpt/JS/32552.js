@@ -1,1 +1,0 @@
-const plugin = require('./plugin.js');\n  plugin.pluginFunction();

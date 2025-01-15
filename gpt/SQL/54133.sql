@@ -1,1 +1,0 @@
-SELECT *\nFROM YourTable\nWHERE (IsActive = 1 AND @IsActive = 'TRUE')\n   OR (IsActive = 0 AND @IsActive = 'FALSE')\n   OR (@IsActive IS NULL)

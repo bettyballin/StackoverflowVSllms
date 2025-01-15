@@ -1,1 +1,0 @@
-$action = isset($_REQUEST['action']) ? $_REQUEST['action'] : 'login';\n   $errors = new WP_Error();\n\n   if (isset($_GET['key'])) {\n       $action = 'resetpass';\n   }\n\n   if (!in_array($action, array('logout', 'lostpassword', 'retrievepassword', 'resetpass', 'rp', 'register', 'login')) && false === has_filter('login_form_' . $action)) {\n       $action = 'login';\n   }

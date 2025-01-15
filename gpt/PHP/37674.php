@@ -1,1 +1,0 @@
-$memcached = new Memcached('persistent_pool');\nif (count($memcached->getServerList()) === 0) {\n    $memcached->addServer('localhost', 11211);\n}\n\n// Use $memcached to interact with your memcached server\n$memcached->set('key', 'value');\n$value = $memcached->get('key');

@@ -1,1 +1,0 @@
-import importlib\n  module = importlib.import_module('plugin')\n  module.plugin_function()

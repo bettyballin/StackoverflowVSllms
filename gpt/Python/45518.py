@@ -1,1 +1,0 @@
-A = [0, 1, 2, 3, 4, 5]\n\n# Calculate the midpoint\nmidpoint = len(A) // 2\n\n# Split the list into two halves\nB = A[:midpoint]\nC = A[midpoint:]\n\nprint("B =", B)\nprint("C =", C)

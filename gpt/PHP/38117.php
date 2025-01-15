@@ -1,1 +1,0 @@
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {\n    // This is a POST request\n    if (!empty($_POST)) {\n        // POST data is available\n        // Process the POST data\n    } else {\n        // No POST data sent\n    }\n}

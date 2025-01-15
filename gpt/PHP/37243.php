@@ -1,1 +1,0 @@
-<?= $variable ?>\n   <?php foreach ($array as $item): ?>\n       <?= $item ?>\n   <?php endforeach; ?>

@@ -1,1 +1,0 @@
-SELECT CLNDR_DATE\nFROM (\n    SELECT CLNDR_DATE, \n           EFFECTIVE_DATE, \n           LAG(EFFECTIVE_DATE) OVER (ORDER BY CLNDR_DATE DESC) AS prev_effective_date\n    FROM your_table\n) subquery\nWHERE EFFECTIVE_DATE IS NULL\n  AND prev_effective_date IS NOT NULL\nORDER BY CLNDR_DATE DESC\nLIMIT 1;

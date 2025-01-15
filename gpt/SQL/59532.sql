@@ -1,1 +1,0 @@
-SELECT \n    Year,\n    SUM(CASE WHEN Month = 'Jan' THEN Sales ELSE 0 END) AS Jan,\n    SUM(CASE WHEN Month = 'Feb' THEN Sales ELSE 0 END) AS Feb,\n    SUM(CASE WHEN Month = 'Mar' THEN Sales ELSE 0 END) AS Mar,\n    -- Add more months as needed\n    SUM(Sales) AS TotalSales\nFROM SalesData\nGROUP BY Year;

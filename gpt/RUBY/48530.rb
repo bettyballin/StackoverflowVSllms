@@ -1,1 +1,0 @@
-setup do\n  @request.env['HTTP_REFERER'] = "http://localhost:#{@request.port}/sessions/new"\n  post :create, params: { user: { email: 'invalid@abc' } }\nend

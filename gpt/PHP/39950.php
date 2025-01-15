@@ -1,1 +1,0 @@
-$db = new DB('localhost', 'my_database', 'user', 'password');\n$stmt = $db->prepare("SELECT * FROM users WHERE id = ?");\n$stmt->bind_param("i", $user_id);\n$stmt->execute();\n$result = $stmt->get_result();\nwhile ($row = $result->fetch_assoc()) {\n    // process row\n}\n$stmt->close();

@@ -1,1 +1,0 @@
-function email_check($str)\n{\n    $this->db->where('email', $str);\n    $query = $this->db->get('mytable');\n    \n    if ($query->num_rows() > 0)\n    {\n        $this->form_validation->set_message('email_check', 'Email already in use');\n        return FALSE;\n    }\n    else\n    {\n        return TRUE;\n    }\n}

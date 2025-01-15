@@ -1,1 +1,0 @@
-rake tmp:cache:clear

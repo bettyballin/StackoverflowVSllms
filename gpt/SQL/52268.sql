@@ -1,1 +1,0 @@
-sqlplus <username>/<password>@<host>:<port>/<service_name>\n\n-- Once connected, execute:\nSELECT instance_name FROM v$instance;

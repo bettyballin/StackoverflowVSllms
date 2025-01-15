@@ -1,1 +1,0 @@
-CREATE DATABASE mydatabase CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;\n   CREATE TABLE Auctions (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       name VARCHAR(255) -- other fields\n   ) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;

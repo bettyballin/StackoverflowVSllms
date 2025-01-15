@@ -1,1 +1,0 @@
-def test_addition():\n         assert add(2, 3) == 5\n\n     def add(a, b):\n         return a + b

@@ -1,1 +1,0 @@
-session_start();\n     if (!isset($_SESSION['logged_in']) || !$_SESSION['logged_in']) {\n       header('Location: login.php');\n       exit;\n     }\n     // Serve video content

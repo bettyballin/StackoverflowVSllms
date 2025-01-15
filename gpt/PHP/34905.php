@@ -1,1 +1,0 @@
-class UserRepository {\n         public function getUserById($id) {\n             return DB::table('users')->select('id', 'name', 'email')->where('id', $id)->first();\n         }\n     }

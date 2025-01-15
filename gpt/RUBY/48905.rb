@@ -1,1 +1,0 @@
-# config/initializers/patch_gem.rb\nmodule SomeGem\n  class SomeClass\n    def some_method\n      # Your patched code here\n    end\n  end\nend

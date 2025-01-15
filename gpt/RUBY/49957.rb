@@ -1,1 +1,0 @@
-# routes.rb [excerpt]\n   map.resources :images\n   # map.image 'images/:action/:id.:format', :controller => 'images'

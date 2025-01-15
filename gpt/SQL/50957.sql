@@ -1,1 +1,0 @@
--- Using CHAR for fixed-length data\nCREATE TABLE States (\n    StateCode CHAR(2) PRIMARY KEY,\n    StateName VARCHAR(50)\n);\n\n-- Using VARCHAR for variable-length data\nCREATE TABLE Users (\n    UserID CHAR(36) PRIMARY KEY, -- UUIDs are fixed length\n    UserName VARCHAR(30)\n);

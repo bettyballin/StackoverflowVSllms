@@ -1,1 +1,0 @@
-Dim myobj As Object\n\n' Attempt to connect to the running instance\nOn Error Resume Next\nSet myobj = GetObject("", "ProjectName.ClassName")\nIf Err.Number <> 0 Then\n    ' If GetObject fails, create a new instance\n    Err.Clear\n    Set myobj = CreateObject("ProjectName.ClassName")\nEnd If\nOn Error GoTo 0\n\n' Use myobj as needed

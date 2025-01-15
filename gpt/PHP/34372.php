@@ -1,1 +1,0 @@
-<?php foreach($query->result() as $row): ?>\n    <div class='chatrow'>\n        <div class='chattime'><?php echo date("[M.d] g:ia", strtotime($row->time)); ?></div>\n        <div class='chatnamematch'>[<?php echo $row->name; ?>]</div>\n        <div class='chatbody'><?php echo $row->body; ?></div>\n    </div>\n<?php endforeach; ?>

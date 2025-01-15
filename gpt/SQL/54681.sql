@@ -1,1 +1,0 @@
-ALTER SYSTEM SET shared_pool_size = 150M SCOPE=BOTH;\nALTER SYSTEM SET large_pool_size = 20M SCOPE=BOTH;\nALTER SYSTEM SET shared_pool_reserved_size = 15M SCOPE=BOTH;

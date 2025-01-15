@@ -1,1 +1,0 @@
-CREATE TRIGGER enforce_fd\nBEFORE INSERT OR UPDATE ON your_table\nFOR EACH ROW\nBEGIN\n    -- Custom logic to check the functional dependency\n    IF (SELECT COUNT(*) FROM your_table WHERE condition) > 0 THEN\n        RAISE_APPLICATION_ERROR(-20001, 'Functional dependency violated');\n    END IF;\nEND;

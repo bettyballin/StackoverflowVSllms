@@ -1,1 +1,0 @@
-rails generate model Word name:string\nrails generate model Link word1_id:integer word2_id:integer

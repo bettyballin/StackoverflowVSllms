@@ -1,1 +1,0 @@
-function encrypt($data, $key, $iv) {\n    $cipher = "aes-256-cbc";\n    $encrypted = openssl_encrypt($data, $cipher, $key, OPENSSL_RAW_DATA, $iv);\n    return base64_encode($encrypted);\n}\n\n$key = "your256bitkeyhereyour256bitkeyhere";\n$iv = "16byteslongivhere";\n$data = "data to encrypt";\n\n$encrypted = encrypt($data, $key, $iv);\necho $encrypted;

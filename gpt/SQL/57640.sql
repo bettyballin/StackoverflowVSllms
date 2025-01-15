@@ -1,1 +1,0 @@
-SELECT CAST(FLOOR(CAST([tstamp] AS FLOAT)) AS DATETIME) AS DateOnly\nFROM YourTable

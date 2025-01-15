@@ -1,1 +1,0 @@
-SELECT sid, serial# \n   FROM v$session \n   WHERE username = 'YOUR_SCHEMA_NAME';

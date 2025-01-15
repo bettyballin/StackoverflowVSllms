@@ -1,1 +1,0 @@
-CREATE OR REPLACE TRIGGER my_trigger\nBEFORE INSERT ON my_table\nFOR EACH ROW\nBEGIN\n  IF session_vars.myVar IS NOT TRUE THEN\n    -- execute something\n  END IF;\nEND my_trigger;\n/

@@ -1,1 +1,0 @@
-require 'iconv'\n\ndef ensure_utf8(data)\n  Iconv.conv('UTF-8//IGNORE', 'UTF-8', data)\nend\n\noutput_data = ensure_utf8(user_input)

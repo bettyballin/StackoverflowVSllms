@@ -1,1 +1,0 @@
-SELECT \n    Table1.column1, \n    Table1.column2, \n    Table2.column3\nFROM \n    Table1\nJOIN \n    Table2\nON \n    Table1.common_column = Table2.common_column;

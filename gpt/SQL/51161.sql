@@ -1,1 +1,0 @@
-CREATE TABLE identities (\n    table_name VARCHAR(255) PRIMARY KEY,\n    next_id INT\n);

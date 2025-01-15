@@ -1,1 +1,0 @@
-y = '10.1.1.'  # /24 network\nwith open('a.txt', 'w') as file:\n    for x in range(1, 256):\n        file.write(y + str(x) + '\n')

@@ -1,1 +1,0 @@
-<?xml version="1.0"?>\n<config>\n    <modules>\n        <YourNamespace_Feedback>\n            <active>true</active>\n            <codePool>local</codePool>\n        </YourNamespace_Feedback>\n    </modules>\n</config>

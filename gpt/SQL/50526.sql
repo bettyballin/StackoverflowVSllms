@@ -1,1 +1,0 @@
-SELECT \n    id, \n    length, \n    COALESCE(length - LEAD(length) OVER (ORDER BY id), length) AS difference\nFROM \n    foo\nORDER BY \n    id;

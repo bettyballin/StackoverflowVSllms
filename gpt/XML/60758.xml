@@ -1,1 +1,0 @@
-<filter>\n    <filter-name>ExcelFilter</filter-name>\n    <filter-class>vsg.rp.common.ExcelFilter</filter-class>\n</filter>\n<filter-mapping>\n    <filter-name>ExcelFilter</filter-name>\n    <url-pattern>*.xls</url-pattern>\n</filter-mapping>

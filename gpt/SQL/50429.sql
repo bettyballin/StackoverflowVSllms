@@ -1,1 +1,0 @@
-SELECT RefCode\nFROM (\n    SELECT PD.RefCode\n    FROM ((PD \n    INNER JOIN P ON PD.PrdFK = P.PrdID) \n    INNER JOIN PR ON PR.ChildCatFK = P.ChildCatFK)\n    WHERE PR.ParentCatFK = 6\n    \n    UNION\n    \n    SELECT PD.RefCode\n    FROM (PR \n    INNER JOIN PD ON PR.PrdDetFK = PD.PrdDetID)\n    WHERE PR.ChildCatFK = 14\n) AS CombinedResults\nORDER BY RAND()\nLIMIT 10;

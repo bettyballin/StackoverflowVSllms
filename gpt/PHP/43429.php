@@ -1,1 +1,0 @@
-// In your bootstrap file, typically Bootstrap.php\nprotected function _initLayout()\n{\n    $this->bootstrap('FrontController');\n    $layout = Zend_Layout::startMvc();\n}

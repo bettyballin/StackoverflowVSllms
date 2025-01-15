@@ -1,1 +1,0 @@
-$rs_meta = $odb_conn->OpenSchema(20, array(Null, Null, Null, "TABLE"));

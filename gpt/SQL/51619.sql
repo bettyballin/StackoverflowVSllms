@@ -1,1 +1,0 @@
--- Step 1: Create the object type for Item\nCREATE TYPE Item AS OBJECT (\n    id NUMBER,\n    subitems TABLE OF ref Item\n);\n/\n\n-- Step 2: Create a collection type for the subitems\nCREATE TYPE ItemTable AS TABLE OF REF Item;\n/\n\n-- Step 3: Modify the Item type to use the collection type\nCREATE OR REPLACE TYPE Item AS OBJECT (\n    id NUMBER,\n    subitems ItemTable\n);\n/

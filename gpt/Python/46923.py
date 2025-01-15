@@ -1,1 +1,0 @@
-import re\n\ndef is_valid_us_zip(zip_code):\n    return bool(re.match(r'^\d{5}(-\d{4})?$', zip_code))\n\n# Example usage:\nprint(is_valid_us_zip("12345"))     # True\nprint(is_valid_us_zip("12345-6789")) # True\nprint(is_valid_us_zip("123456"))     # False

@@ -1,1 +1,0 @@
-<filter>\n    <filter-name>ProxyFilter</filter-name>\n    <filter-class>com.yourpackage.ProxyFilter</filter-class>\n</filter>\n<filter-mapping>\n    <filter-name>ProxyFilter</filter-name>\n    <url-pattern>/jwchat/http-bind</url-pattern>\n</filter-mapping>

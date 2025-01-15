@@ -1,1 +1,0 @@
-let myArray = ['a', 'b', 'c', 'd'];\n     delete myArray[1];\n     console.log(myArray); // Output: ['a', empty, 'c', 'd']\n     console.log(myArray.length); // Output: 4

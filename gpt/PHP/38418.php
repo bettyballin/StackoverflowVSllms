@@ -1,1 +1,0 @@
-require 'vendor/autoload.php';\n\n    $sdk = new Aws\Sdk([\n        'region'   => 'your-region',\n        'version'  => 'latest',\n    ]);\n\n    $client = $sdk->createS3();

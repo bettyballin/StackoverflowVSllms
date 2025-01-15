@@ -1,1 +1,0 @@
-<script type="text/javascript">\n   function _HandleValidateAssessment_Client(sender, args) {\n       var dropdown = document.getElementById('<%= _AssessmentDropDown.ClientID %>');\n       args.IsValid = dropdown.value !== '';\n   }\n   </script>

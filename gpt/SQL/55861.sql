@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\nBEGIN TRY\n    INSERT INTO table2 (id, field1)\n    SELECT id, NULL\n    FROM table1;\n\n    COMMIT TRANSACTION;\nEND TRY\nBEGIN CATCH\n    ROLLBACK TRANSACTION;\n    -- Handle the error or log it\n    PRINT 'An error occurred during the insert operation';\nEND CATCH;

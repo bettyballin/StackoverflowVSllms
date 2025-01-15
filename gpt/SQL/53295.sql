@@ -1,1 +1,0 @@
-BIT_OR(1 << FIND_IN_SET(question, @q) - 1)

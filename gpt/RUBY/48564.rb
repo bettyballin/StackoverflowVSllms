@@ -1,1 +1,0 @@
-class PeopleController < ApplicationController\n     def disable\n       person_ids = params[:ids].split(',')\n       # Process the person_ids to disable them\n       # Your logic here\n\n       respond_to do |format|\n         format.json { render json: { success: true } }\n       end\n     end\n   end

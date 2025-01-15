@@ -1,1 +1,0 @@
-<div class="flash-message" id="flashMessage">\n    <?php echo $content; ?>\n    <a href="#" id="dismissLink" onclick="dismissFlashMessage(); return false;">Dismiss</a>\n</div>

@@ -1,1 +1,0 @@
-ALTER TABLE data ADD COLUMN dt_hash CHAR(64);

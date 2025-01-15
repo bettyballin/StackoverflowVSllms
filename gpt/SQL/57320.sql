@@ -1,1 +1,0 @@
-TRANSFORM First(tmp.Workcenter) AS Workcenter2\nSELECT tmp.Plant, tmp.Material\nFROM tmp\nGROUP BY tmp.Plant, tmp.Material\nPIVOT tmp.Setuptime;

@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    var prevText = $('#backarrow').html();\n    var nextText = $('#nextarrow').html();\n    \n    $("#slider").easySlider({\n        prevText: prevText,\n        nextText: nextText,\n        orientation: 'horizontal'\n    });\n});

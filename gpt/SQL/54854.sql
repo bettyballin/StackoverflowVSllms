@@ -1,1 +1,0 @@
-MERGE INTO tblProducts AS target\nUSING (SELECT '12345' AS ProductCode) AS source\nON (target.ProductCode = source.ProductCode)\nWHEN NOT MATCHED BY TARGET THEN\n    INSERT (ProductCode)\n    VALUES (source.ProductCode);

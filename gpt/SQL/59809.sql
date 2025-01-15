@@ -1,1 +1,0 @@
-CREATE TRIGGER before_insert_trigger\nBEFORE INSERT ON your_table\nFOR EACH ROW\nBEGIN\n    IF NEW.some_column < 0 THEN\n        SIGNAL SQLSTATE '45000'\n        SET MESSAGE_TEXT = 'some_column cannot be negative';\n    END IF;\nEND;

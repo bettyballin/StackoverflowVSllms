@@ -1,1 +1,0 @@
-' Example of viewing a decompiled method in ILSpy\nPublic Sub ExampleMethod()\n    ' Decompiled code here\nEnd Sub

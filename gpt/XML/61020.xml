@@ -1,1 +1,0 @@
-<Context>\n    <Manager className="org.apache.catalina.session.StandardManager" sessionIdLength="20" />\n</Context>

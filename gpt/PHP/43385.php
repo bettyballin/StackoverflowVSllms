@@ -1,1 +1,0 @@
-class Application_Model_DbTable_Records extends Zend_Db_Table_Abstract\n    {\n        protected $_name = 'records'; // Name of your table\n    }

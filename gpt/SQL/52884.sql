@@ -1,1 +1,0 @@
-INSERT INTO your_table (a, b, c)\nSELECT 2, b, c\nFROM your_table\nWHERE a = 1;

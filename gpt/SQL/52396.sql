@@ -1,1 +1,0 @@
-SELECT extract_jms_text_message(user_data) AS message_content\nFROM [queue_table];

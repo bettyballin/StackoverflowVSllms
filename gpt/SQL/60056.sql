@@ -1,1 +1,0 @@
-SELECT Column1, Column2, Nz(Column3, 0) + Nz(Column4, 0) AS [Added Values]\nFROM Table

@@ -1,1 +1,0 @@
-class Foo {\n    // Constructor\n    function Foo() {\n        // Constructor code here\n    }\n\n    // Methods\n    function someMethod() {\n        // Method code here\n    }\n}

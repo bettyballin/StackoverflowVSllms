@@ -1,1 +1,0 @@
-$options = [\n        'cache_wsdl' => WSDL_CACHE_NONE,\n        'trace' => 1,\n        'exceptions' => 1,\n        'stream_context' => stream_context_create([\n            'ssl' => [\n                'verify_peer' => false,\n                'verify_peer_name' => false,\n            ]\n        ])\n    ];\n    \n    $client = new SoapClient('https://path.to/your.wsdl', $options);

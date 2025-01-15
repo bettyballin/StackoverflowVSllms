@@ -1,1 +1,0 @@
-SELECT w2.lemma\n   FROM Words w1\n   JOIN Senses s1 ON w1.word_id = s1.word_id\n   JOIN Senses s2 ON s1.synset_id = s2.synset_id\n   JOIN Words w2 ON s2.word_id = w2.word_id\n   WHERE w1.lemma = 'example_word'\n     AND w1.word_id != w2.word_id;

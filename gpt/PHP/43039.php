@@ -1,1 +1,0 @@
-<?php\n    echo ini_get('safe_mode');\n    echo ini_get('open_basedir');\n    ?>

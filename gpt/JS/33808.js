@@ -1,1 +1,0 @@
-fetch('your-api-endpoint')\n        .then(response => response.json())\n        .then(data => {\n            // Handle the response data\n        })\n        .catch(error => {\n            // Handle the error\n        });

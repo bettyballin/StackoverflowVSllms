@@ -1,1 +1,0 @@
-do {\n    $x = rand(0, 99);\n} while ($x % 9 == 0);\n\n// Use $x as your random number that does not match the criteria ($x % 9 != 0)

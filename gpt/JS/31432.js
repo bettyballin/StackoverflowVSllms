@@ -1,1 +1,0 @@
-function isAJAXSupported() {\n    return typeof XMLHttpRequest !== "undefined" || typeof ActiveXObject !== "undefined";\n}

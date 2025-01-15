@@ -1,1 +1,0 @@
-<target name="package" depends="version">\n  <mkdir dir="${dir.build}/META-INF"/>\n  <copy file="${dir.build}/VERSION" tofile="${dir.build}/META-INF/VERSION"/>\n  <!-- Add other necessary packaging steps here -->\n  <ear destfile="${dir.dist}/your-app.ear" appxml="src/META-INF/application.xml">\n    <!-- Include your modules here -->\n  </ear>\n</target>

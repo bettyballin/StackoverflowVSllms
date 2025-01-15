@@ -1,1 +1,0 @@
-<system.web>\n    <httpHandlers>\n        <add verb="GET" path="WebResource.axd" type="System.Web.Handlers.AssemblyResourceLoader" validate="true"/>\n    </httpHandlers>\n</system.web>

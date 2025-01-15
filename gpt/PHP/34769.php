@@ -1,1 +1,0 @@
-public function replace($Content)\n{\n    foreach ($this->results as $Element) {\n        // Clone the new content node\n        $newNode = $Content->cloneNode(true);\n        // Replace the old element with the new node\n        $Element->parentNode->replaceChild($newNode, $Element);\n    }\n\n    return $this;\n}

@@ -1,1 +1,0 @@
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">\n    <SOAP-ENV:Body>\n        <ns1:MyResponse xmlns:ns1="http://example.org">\n            <ns1:MyResult>true</ns1:MyResult>\n        </ns1:MyResponse>\n    </SOAP-ENV:Body>\n</SOAP-ENV:Envelope>

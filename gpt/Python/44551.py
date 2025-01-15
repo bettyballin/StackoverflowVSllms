@@ -1,1 +1,0 @@
-a = {1: '', 2: '', 3: '', 4: ''}\nexclusion = [3, 4, 5]\n\n# Use dictionary comprehension to filter out the keys in the exclusion list\na = {key: value for key, value in a.items() if key not in exclusion}\n\nprint(a)  # Output: {1: '', 2: ''}

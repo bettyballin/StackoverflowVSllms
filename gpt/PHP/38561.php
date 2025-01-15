@@ -1,1 +1,0 @@
-$arr = [];\n   for ($i = 0; $i < 1000; $i++) {\n       array_push($arr, "some string ");\n   }\n   $str = implode("", $arr);

@@ -1,1 +1,0 @@
-function standardizeLineBreaks(text) {\n       return text.replace(/\n/g, '\r\n');\n   }\n\n   // Example usage:\n   var textAreaContent = document.getElementById('myTextArea').value;\n   textAreaContent = standardizeLineBreaks(textAreaContent);\n   document.getElementById('myTextArea').value = textAreaContent;

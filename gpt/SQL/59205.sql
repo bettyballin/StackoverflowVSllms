@@ -1,1 +1,0 @@
-SELECT similarity('kitten', 'sitting') * 100 AS similarity_percentage;

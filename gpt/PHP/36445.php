@@ -1,1 +1,0 @@
-session_start();\n   $user_id = $_SESSION['user_id'];\n   $session_id = session_id();\n   \n   $pdo = new PDO('mysql:host=your_host;dbname=your_db', 'username', 'password');\n   $stmt = $pdo->prepare('REPLACE INTO user_sessions (user_id, session_id, last_activity) VALUES (?, ?, NOW())');\n   $stmt->execute([$user_id, $session_id]);

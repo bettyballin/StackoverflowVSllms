@@ -1,1 +1,0 @@
-ALTER TABLE orders\nADD CONSTRAINT fk_user\nFOREIGN KEY (user_id) REFERENCES users(id);\n\nALTER TABLE orders\nMODIFY COLUMN order_date DATE NOT NULL;

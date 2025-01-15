@@ -1,1 +1,0 @@
-CREATE TABLE YourTable (\n    ID INT PRIMARY KEY,\n    YourColumn TEXT\n);

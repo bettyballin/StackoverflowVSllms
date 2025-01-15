@@ -1,1 +1,0 @@
-SELECT t1.*\nFROM todos t1\nJOIN (\n    SELECT client_id, MIN(timestamp_due) AS min_due_date\n    FROM todos\n    WHERE timestamp_completed IS NULL\n    GROUP BY client_id\n) t2 ON t1.client_id = t2.client_id\n   AND t1.timestamp_due = t2.min_due_date\nWHERE t1.timestamp_completed IS NULL\nORDER BY t1.client_id, t1.id;

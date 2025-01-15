@@ -1,1 +1,0 @@
-$counter = 0;\n   $max_iterations = 1000;\n   \n   while (some_condition) {\n       if ($counter++ >= $max_iterations) {\n           break;\n       }\n       // loop logic\n   }

@@ -1,1 +1,0 @@
-EXEC sp_addlinkedserver \n   @server='YourLinkedServer', \n   @srvproduct='', \n   @provider='SQLOLEDB', \n   @datasrc='YourSQL2008Server';\n\nEXEC sp_addlinkedsrvlogin \n   @rmtsrvname='YourLinkedServer', \n   @useself='false', \n   @locallogin=NULL, \n   @rmtuser='YourRemoteUser', \n   @rmtpassword='YourRemotePassword';

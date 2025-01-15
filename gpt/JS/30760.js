@@ -1,1 +1,0 @@
-let a;\n   console.log(a); // Outputs: undefined\n\n   let b = null;\n   console.log(b); // Outputs: null

@@ -1,1 +1,0 @@
-$form = new Zend_Form();\n$submit = new Zend_Form_Element_Submit('mySubmit');\n$submit->setLabel('new value');\n$form->addElement($submit);\n\n// Render the form\necho $form->render();

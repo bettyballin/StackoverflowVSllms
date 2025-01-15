@@ -1,1 +1,0 @@
-<?php\nfunction wordExists($text, $word) {\n    if (strpos($text, $word) !== false) {\n        return true;\n    } else {\n        return false;\n    }\n}\n\n$text = "I go to school";\n$word = "to";\n\nif (wordExists($text, $word)) {\n    echo "true";\n} else {\n    echo "false";\n}\n?>

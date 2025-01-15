@@ -1,1 +1,0 @@
-<configuration>\n       <system.webServer>\n           <handlers>\n               <add name="SecureImageHandler" path="images/*" verb="*" type="Namespace.SecureImageHandler, AssemblyName" resourceType="File" />\n           </handlers>\n       </system.webServer>\n   </configuration>

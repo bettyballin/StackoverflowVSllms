@@ -1,1 +1,0 @@
--- Example to enable auditing\n   EXEC sp_configure 'show advanced options', 1;\n   RECONFIGURE;\n   EXEC sp_configure 'c2 audit mode', 1;\n   RECONFIGURE;

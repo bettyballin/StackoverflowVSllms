@@ -1,1 +1,0 @@
-SELECT DISTINCT\n    COALESCE(RootId, Id) AS RootId\nFROM\n    Posts\nORDER BY\n    DateTime DESC\nLIMIT 20;

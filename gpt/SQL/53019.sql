@@ -1,1 +1,0 @@
-USE DBname;\n      CREATE USER [DOMAIN\WebAppServiceAccount] FOR LOGIN [DOMAIN\WebAppServiceAccount];\n      EXEC sp_addrolemember 'db_datareader', 'DOMAIN\WebAppServiceAccount';\n      EXEC sp_addrolemember 'db_datawriter', 'DOMAIN\WebAppServiceAccount';

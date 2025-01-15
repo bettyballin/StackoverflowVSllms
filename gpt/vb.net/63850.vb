@@ -1,1 +1,0 @@
-' Example of setting a cookie in ASP\n   Response.Cookies("UserSession") = "some_session_value"\n   Response.Cookies("UserSession").Expires = DateAdd("n", 20, Now) ' Expires in 20 minutes

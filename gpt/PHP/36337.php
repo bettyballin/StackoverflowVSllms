@@ -1,1 +1,0 @@
-<?php\n$result = myFunction();\necho "Result: " . $result;\n?>

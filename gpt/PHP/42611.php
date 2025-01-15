@@ -1,1 +1,0 @@
-// create_product.php\n    require_once "bootstrap.php";\n\n    $newProductName = "New Product";\n\n    $product = new Product();\n    $product->setName($newProductName);\n\n    $entityManager->persist($product);\n    $entityManager->flush();\n\n    echo "Created Product with ID " . $product->getId() . "\n";

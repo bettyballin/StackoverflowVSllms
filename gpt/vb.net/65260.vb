@@ -1,1 +1,0 @@
-Public Delegate Sub TestEvent(ByVal sender As Object, ByVal e As EventArgs)\nPublic Event E As TestEvent

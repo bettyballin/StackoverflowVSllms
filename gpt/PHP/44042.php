@@ -1,1 +1,0 @@
-echo $booleanValue ? 'Yes' : 'No'; // or use images/icons

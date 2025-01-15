@@ -1,1 +1,0 @@
-CREATE UNIQUE INDEX unique_pair \nON Matches(\n    LEAST(TeamA, TeamB), \n    GREATEST(TeamA, TeamB)\n);

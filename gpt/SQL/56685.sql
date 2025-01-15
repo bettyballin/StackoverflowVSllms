@@ -1,1 +1,0 @@
-BEGIN\n  DBMS_MONITOR.SESSION_TRACE_ENABLE(session_id => <your_session_id>, waits => TRUE, binds => TRUE);\nEND;

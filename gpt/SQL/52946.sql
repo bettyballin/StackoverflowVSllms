@@ -1,1 +1,0 @@
-BACKUP DATABASE YourDatabase TO DISK = 'D:\YourDatabaseFull.bak'

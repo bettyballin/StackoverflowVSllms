@@ -1,1 +1,0 @@
-SELECT SUM(n) AS SumOfNumbers\nFROM Numbers\nWHERE n BETWEEN 100 AND 200;

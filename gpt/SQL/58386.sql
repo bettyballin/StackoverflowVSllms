@@ -1,1 +1,0 @@
-SELECT ID\nFROM your_table\nWHERE Value IN (2, 5)  -- Replace these values with the ones you are searching for\nGROUP BY ID\nHAVING COUNT(DISTINCT Value) = 2;  -- This number should match the count of the values in the WHERE clause

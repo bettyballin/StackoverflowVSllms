@@ -1,1 +1,0 @@
-CREATE TABLE SessionLog (\n    Id INT PRIMARY KEY IDENTITY,\n    SessionID NVARCHAR(100),\n    EventType NVARCHAR(10),\n    EventTime DATETIME\n);

@@ -1,1 +1,0 @@
-<configuration>\n     <system.webServer>\n       <handlers>\n         <add name="CommentHandler" path="Comment/FindUser" verb="*" type="YourNamespace.YourHandlerClass, YourAssembly" resourceType="Unspecified" />\n       </handlers>\n     </system.webServer>\n   </configuration>

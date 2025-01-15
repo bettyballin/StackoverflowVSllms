@@ -1,1 +1,0 @@
-# Install the gem if you haven't already\n# gem install stackprof\n\nrequire 'stackprof'\n\nStackProf.run(mode: :cpu, out: 'tmp/stackprof-cpu-myapp.dump') do\n  # Code to profile\n  parse_data\nend

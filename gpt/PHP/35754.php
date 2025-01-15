@@ -1,1 +1,0 @@
-// footer.php\n    </div>\n</body>\n<?php $dbc->close(); ?>\n</html>

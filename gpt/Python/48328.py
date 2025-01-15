@@ -1,1 +1,0 @@
-import requests\n\n   url = "http://yourserver.com/api/endpoint"\n   headers = {\n       "Content-Type": "application/json",\n       "Authorization": "Bearer yourtoken"\n   }\n   payload = {\n       "param1": "value1",\n       "param2": "value2"\n   }\n\n   response = requests.post(url, json=payload, headers=headers)\n   print(response.text)

@@ -1,1 +1,0 @@
-require '/path/to/your/wordpress/wp-load.php';

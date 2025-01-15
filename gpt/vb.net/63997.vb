@@ -1,1 +1,0 @@
-Dim idString As String = e.CommandArgument.ToString()\nDim Id As Guid\n\nIf Guid.TryParse(idString, Id) Then\n    ' Successfully parsed the GUID\nElse\n    ' Handle the case where the parsing fails\n    Throw New InvalidCastException("The CommandArgument is not a valid GUID.")\nEnd If

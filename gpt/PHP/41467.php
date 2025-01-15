@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare('SELECT * FROM table WHERE column = :cmd');\n   $stmt->execute(['cmd' => $cmd]);\n   $results = $stmt->fetchAll();

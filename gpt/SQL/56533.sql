@@ -1,1 +1,0 @@
-CREATE OR ALTER TRIGGER trgYourTrigger\nON YourTable\nAFTER INSERT\nAS\nBEGIN\n    -- Check for session-specific context to bypass trigger logic\n    IF SESSION_CONTEXT(N'BypassTrigger') IS NULL\n    BEGIN\n        -- Original trigger logic here\n        -- ...\n    END\nEND

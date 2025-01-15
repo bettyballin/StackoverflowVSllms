@@ -1,1 +1,0 @@
-SELECT * FROM (\n    SELECT * FROM spy_hits ORDER BY date DESC\n) AS ordered_hits\nGROUP BY ip\nORDER BY date DESC\nLIMIT 10;

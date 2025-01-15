@@ -1,1 +1,0 @@
-Dim obj As New MyClass()

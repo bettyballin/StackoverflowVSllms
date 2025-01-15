@@ -1,1 +1,0 @@
-INSERT INTO LookupTable (foo, result) VALUES\n('a', 'bar'),\n('b', 'biz'),\n-- Add all other mappings here\n('z', 'fin');

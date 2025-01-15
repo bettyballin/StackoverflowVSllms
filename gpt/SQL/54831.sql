@@ -1,1 +1,0 @@
-CREATE VIEW Users AS\nSELECT * FROM IdentitySystem.dbo.Users;

@@ -1,1 +1,0 @@
-class UserController {\n        private $userService;\n\n        public function __construct(UserService $userService) {\n            $this->userService = $userService;\n        }\n\n        // Controller methods\n    }

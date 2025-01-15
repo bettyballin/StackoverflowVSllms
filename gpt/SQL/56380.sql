@@ -1,1 +1,0 @@
-DELETE FROM your_table WHERE A = x OR A = y OR A = z;

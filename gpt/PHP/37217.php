@@ -1,1 +1,0 @@
-require 'vendor/autoload.php';\n\n$config = HTMLPurifier_Config::createDefault();\n$purifier = new HTMLPurifier($config);\n\n$dirty_html = '<script>alert("XSS")</script><p>Valid HTML</p>';\n$clean_html = $purifier->purify($dirty_html);\n\necho $clean_html; // Outputs: <p>Valid HTML</p>

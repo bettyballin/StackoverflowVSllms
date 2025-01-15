@@ -1,1 +1,0 @@
-ALTER TABLE Employees\nADD Status VARCHAR(20) DEFAULT 'Active';

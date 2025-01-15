@@ -1,1 +1,0 @@
-foreach ($this->variables as $key => $value) {\n    // Your logic here\n}

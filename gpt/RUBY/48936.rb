@@ -1,1 +1,0 @@
-sanitized_code = Sanitize.fragment(user_input, Sanitize::Config::RELAXED)

@@ -1,1 +1,0 @@
-# Using overridden ==\nquery.filter(username == "bob")\n\n# Using eq() method\nquery.filter(username.eq("bob"))

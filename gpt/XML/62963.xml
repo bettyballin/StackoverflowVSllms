@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <!-- Enable Windows Authentication -->\n    <authentication mode="Windows" />\n\n    <!-- Enable Role Manager -->\n    <roleManager enabled="true" />\n\n    <!-- Authorization Rules -->\n    <authorization>\n      <allow roles="domain\groupA" />\n      <deny users="*" />\n    </authorization>\n  </system.web>\n</configuration>

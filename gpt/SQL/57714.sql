@@ -1,1 +1,0 @@
--- Enable CLR integration\nEXEC sp_configure 'clr enabled', 1;\nRECONFIGURE;\n\n-- Create the assembly\nCREATE ASSEMBLY SqlServerClr\nFROM 'Path\To\Your\Dll\SqlServerClr.dll'\nWITH PERMISSION_SET = SAFE;\n\n-- Create the function\nCREATE FUNCTION dbo.CalculateCRC32(@input NVARCHAR(MAX))\nRETURNS BIGINT\nAS EXTERNAL NAME SqlServerClr.SqlServerClr.CalculateCRC32;

@@ -1,1 +1,0 @@
-class Animal\n  def speak\n    "Hello"\n  end\nend\n\nclass Dog < Animal\n  def speak\n    "Woof"\n  end\nend\n\ndog = Dog.new\nputs dog.speak  # Output: Woof

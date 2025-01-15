@@ -1,1 +1,0 @@
-<?php\n$dateString = "Jan 15 2005 12:00AM";\n$dateWithoutTime = substr($dateString, 0, strpos($dateString, ' 12:00AM'));\n$timestamp = strtotime($dateWithoutTime);\n\necho "Timestamp: " . $timestamp;\necho "Formatted Date: " . date('Y-m-d', $timestamp);\n?>

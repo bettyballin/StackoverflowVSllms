@@ -1,1 +1,0 @@
-$query = "SELECT * FROM user_details WHERE id = :id";\n$stmt = $db->prepare($query);\n$stmt->bindParam(':id', $userId, PDO::PARAM_INT);\n$stmt->execute();\n$result = $stmt->fetch(PDO::FETCH_ASSOC);

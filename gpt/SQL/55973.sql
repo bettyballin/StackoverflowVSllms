@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN CONVERT(float, dt.FQI53X02_101) < 1.3 THEN 0 \n        ELSE CONVERT(float, dt.FQI53X02_101) \n    END AS FQI53X02_101\nFROM \n    YourTableName dt;

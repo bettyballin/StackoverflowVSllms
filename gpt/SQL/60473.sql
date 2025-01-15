@@ -1,1 +1,0 @@
-SELECT `Tag`, COUNT(id) as tag_count\nFROM `images-tags`\nGROUP BY `Tag`\nORDER BY tag_count DESC\nLIMIT 20;

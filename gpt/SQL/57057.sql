@@ -1,1 +1,0 @@
-DECLARE\n  vLocalImage ORDImage := ORDImage.init();\n  lMaxWidth NUMBER := 534;\nBEGIN\n  vLocalImage.source.localdata := PORTAL.wwdoc_admin.get_document_blob_content(pFile);\n  vLocalImage.setProperties();\n\n  IF vLocalImage.width > lMaxWidth THEN\n    vLocalImage.process('maxScale 534 401');\n  END IF;\n  \n  -- Additional processing if needed\nEND;\n/

@@ -1,1 +1,0 @@
-$formatted = sprintf("Number: %d", 42);\n    // Output: Number: 42

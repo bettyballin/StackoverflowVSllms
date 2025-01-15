@@ -1,1 +1,0 @@
-file_put_contents('search_results.csv', "$search_id,$result_id\n", FILE_APPEND);

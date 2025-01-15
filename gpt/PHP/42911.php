@@ -1,1 +1,0 @@
-<?php\necho $this->Html->link(\n    'Delete',\n    ['controller' => 'forms', 'action' => 'delete', $r['Form']['id']],\n    [\n        'confirm' => 'Really delete the Form?',\n        'escape' => false,\n        'after' => 'if (confirm("Really delete the Form?")) { alert("Your form has been deleted"); }'\n    ]\n);\n?>

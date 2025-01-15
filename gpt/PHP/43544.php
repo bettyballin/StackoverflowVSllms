@@ -1,1 +1,0 @@
-class AclassName {\n    // Class definition for AclassName\n}\n\nclass AnotherClass {\n    protected $foo;\n\n    public function __construct(AclassName $foo) {\n        $this->foo = $foo;\n    }\n}\n\n// Usage:\n$aclassInstance = new AclassName();\n$anotherClassInstance = new AnotherClass($aclassInstance);

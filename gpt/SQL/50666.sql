@@ -1,1 +1,0 @@
-CREATE TABLE `products` (\n  `id` int(11) NOT NULL AUTO_INCREMENT,\n  `product_name` varchar(255) DEFAULT NULL,\n  `product_description` text,\n  PRIMARY KEY (`id`),\n  KEY `product_name` (`product_name`)\n) ENGINE=MyISAM DEFAULT CHARSET=utf8;

@@ -1,1 +1,0 @@
-CREATE TABLE [dbo].[staging_mw_gsmprofile](\n       [cedeviceid] varchar(50) NOT NULL,\n       [vanwarehouse] varchar(50) NULL,\n       [username] varchar(50) NULL,\n       [devicesimnumber] varchar(50) NULL,\n       [UserGroup] varchar(50) NULL,\n       [ServiceMgr] varchar(50) NULL\n   );

@@ -1,1 +1,0 @@
-from pyzbar.pyzbar import decode\nfrom PIL import Image\n\n# Decode QR code\nimg = Image.open("qrcode.png")\ndecoded_objects = decode(img)\nfor obj in decoded_objects:\n    print("Type:", obj.type)\n    print("Data:", obj.data.decode("utf-8"))

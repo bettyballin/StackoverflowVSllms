@@ -1,1 +1,0 @@
-CREATE TABLE example_table (\n    status ENUM('active', 'inactive', 'pending', 'suspended')\n);

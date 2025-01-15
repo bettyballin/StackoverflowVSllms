@@ -1,1 +1,0 @@
-Array\n(\n    [key1] => value1\n    [key2] => value2\n    [key3] => value3\n)

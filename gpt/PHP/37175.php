@@ -1,1 +1,0 @@
-<?php\n$classes = get_declared_classes();\nforeach ($classes as $class) {\n    $reflection = new ReflectionClass($class);\n    if ($reflection->isAbstract()) {\n        echo "$class is an abstract class.\n";\n    } else {\n        echo "$class is not an abstract class.\n";\n    }\n}\n?>

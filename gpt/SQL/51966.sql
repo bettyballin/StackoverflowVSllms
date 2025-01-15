@@ -1,1 +1,0 @@
-DECLARE @userName VARCHAR(50)\nSET @userName = 'john'\n\nSELECT \n    @userName AS user,\n    (SELECT COUNT(*) \n     FROM scores \n     WHERE score < (SELECT score FROM scores WHERE user = @userName)) * 100.0 /\n    (SELECT COUNT(*) FROM scores) AS percent_better_than\nFROM scores\nWHERE user = @userName

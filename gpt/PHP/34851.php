@@ -1,1 +1,0 @@
-<?php\nsession_start(); // Start the session\n\nif (!isset($_SESSION['start_time'])) {\n    // Store the session start time if it's not already set\n    $_SESSION['start_time'] = time();\n}\n\n// Calculate the session life in seconds\n$session_life = time() - $_SESSION['start_time'];\n\necho "The session has been alive for $session_life seconds.";\n?>

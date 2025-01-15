@@ -1,1 +1,0 @@
-def find_substring(strA, strB):\n    position = strB.find(strA)\n    return position\n\n# Example usages:\nstrA = "ello"\nstrB = "Hello_World"\nprint(find_substring(strA, strB))  # Output: 1\n\nstrA = "blah"\nstrB = "blha"\nprint(find_substring(strA, strB))  # Output: -1

@@ -1,1 +1,0 @@
-SELECT date_and_time + INTERVAL '30' MINUTE AS new_date_and_time\nFROM your_table;

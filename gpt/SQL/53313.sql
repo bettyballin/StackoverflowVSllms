@@ -1,1 +1,0 @@
-SELECT * \nFROM your_table \nWHERE date > (SELECT date FROM your_table WHERE id = your_arbitrary_id)\nORDER BY date \nLIMIT 1;

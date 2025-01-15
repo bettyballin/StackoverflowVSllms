@@ -1,1 +1,0 @@
-<?php\n// User's password input\n$password = 'user_password';\n\n// Hash the password using bcrypt\n$hashedPassword = password_hash($password, PASSWORD_BCRYPT);\n\n// Store $hashedPassword in the database\necho $hashedPassword;\n?>

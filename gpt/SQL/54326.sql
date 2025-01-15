@@ -1,1 +1,0 @@
--- Example using OPENQUERY\nDELETE FROM OPENQUERY(ServerB, 'SELECT * FROM B WHERE x IN (@ID1, @ID2, @ID3, @ID4)');\n\n-- Example using EXEC AT\nEXEC ('DELETE FROM B WHERE x IN (@ID1, @ID2, @ID3, @ID4)') AT ServerB;

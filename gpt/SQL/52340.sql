@@ -1,1 +1,0 @@
-CREATE SERVICE [TargetService]\nON QUEUE [TargetQueue]\n([Contract]);

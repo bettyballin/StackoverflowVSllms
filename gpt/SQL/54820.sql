@@ -1,1 +1,0 @@
-ALTER TABLE my_contacts\nADD COLUMN phone VARCHAR(10) AFTER another_column_before_email;

@@ -1,1 +1,0 @@
-INSERT INTO destination (A, B, C)\nSELECT a1, b1, c1 \nFROM source\nWHERE (selectconditions)\nON CONFLICT (A) DO NOTHING;

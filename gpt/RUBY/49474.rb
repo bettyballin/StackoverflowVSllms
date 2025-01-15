@@ -1,1 +1,0 @@
-# Encoding can be specified in the source file\n   # encoding: utf-8

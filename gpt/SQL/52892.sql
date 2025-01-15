@@ -1,1 +1,0 @@
-ALTER TABLE `your_table_name`\n   ADD COLUMN `bump_count` INT DEFAULT 0;

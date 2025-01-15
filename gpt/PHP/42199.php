@@ -1,1 +1,0 @@
-// index.php\nrequire_once 'config.php';\n\n// Now you can use your classes without manually including them\n$myClass = new MyClass();

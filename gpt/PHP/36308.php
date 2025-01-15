@@ -1,1 +1,0 @@
-function combinePath($directory, $file) {\n    return rtrim($directory, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR . ltrim($file, DIRECTORY_SEPARATOR);\n}\n\n// Example usage\n$directory = 'D:\setup program';\n$file = 'mj.txt';\n$fullPath = combinePath($directory, $file);\n\necho $fullPath;  // Output: D:\setup program\mj.txt

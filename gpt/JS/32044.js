@@ -1,1 +1,0 @@
-const regex = /id=("([^"]*?)"|([^ ]*?))\b/g;\nconst str = '<div id="test1" /><div id=test2 />';\nlet match;\nwhile ((match = regex.exec(str)) !== null) {\n    const idValue = match[2] || match[3]; // This will capture the correct ID value\n    console.log(idValue); // Output will be: test1, test2\n}

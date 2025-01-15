@@ -1,1 +1,0 @@
-WITH ActiveUsers AS (\n       SELECT id, name, email\n       FROM Users\n       WHERE status = 'active'\n   )\n   SELECT * FROM ActiveUsers;

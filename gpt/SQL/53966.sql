@@ -1,1 +1,0 @@
--- Initialize PRAGMA cipher\n   PRAGMA key = 'your_secure_passphrase';\n\n   -- Create a table\n   CREATE TABLE secrets (\n       id INTEGER PRIMARY KEY,\n       name TEXT,\n       secret TEXT\n   );\n\n   -- Insert a secret\n   INSERT INTO secrets (name, secret) VALUES ('example', 'my_secret_password');

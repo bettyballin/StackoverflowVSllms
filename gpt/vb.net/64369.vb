@@ -1,1 +1,0 @@
-Dim currentUserName As String = Environment.UserName\nConsole.WriteLine("Current logged-in user: " & currentUserName)

@@ -1,1 +1,0 @@
-$pattern = '/\\[.*?\\]/';\n$replacement = '';\n$string = 'This is a [test] string with [square] brackets.';\n\n$result = preg_replace($pattern, $replacement, $string);\necho $result; // Output: "This is a  string with  brackets."

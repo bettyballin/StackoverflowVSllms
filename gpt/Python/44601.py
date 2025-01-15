@@ -1,1 +1,0 @@
-from library1 import function_name as function_name_lib1\nfrom library2 import function_name as function_name_lib2\n\nresult1 = function_name_lib1()\nresult2 = function_name_lib2()

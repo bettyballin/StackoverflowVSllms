@@ -1,1 +1,0 @@
-class Application_Model_User\n{\n    public function createUser($data)\n    {\n        // Validate and sanitize data\n        // Interact with database to create user\n        // Return success or failure\n    }\n}

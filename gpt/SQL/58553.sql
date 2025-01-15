@@ -1,1 +1,0 @@
-CREATE TABLE users (\n       user_id INT PRIMARY KEY,\n       username VARCHAR(50),\n       -- other user columns\n   );\n\n   CREATE TABLE user_pics (\n       user_id INT,\n       pic_path VARCHAR(255),\n       FOREIGN KEY (user_id) REFERENCES users(user_id)\n   );

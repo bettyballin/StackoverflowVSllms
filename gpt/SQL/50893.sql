@@ -1,1 +1,0 @@
-SELECT COUNT(*) AS field_count\nFROM information_schema.columns\nWHERE table_name = 'your_table_name';

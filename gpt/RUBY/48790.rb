@@ -1,1 +1,0 @@
-<div id="personal-details-form-container">\n  <%= render :partial => "staff_members/update_personal_details" %>\n</div>

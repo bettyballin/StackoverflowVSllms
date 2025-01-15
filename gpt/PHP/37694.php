@@ -1,1 +1,0 @@
-$line = "This is a line" . PHP_EOL;

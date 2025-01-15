@@ -1,1 +1,0 @@
-SELECT Item.Id\n   FROM Item\n   JOIN Event FORCE INDEX (home_team_index) -- Replace with actual index name\n   ON Event.Id = Item.EventId\n   JOIN Seat USING (VenueId, Configuration)\n   WHERE Seat.Section = Item.Section\n   AND Event.Home_team IN (1, 2, 3, 4, 5)\n   AND Seat.exclude = 0;

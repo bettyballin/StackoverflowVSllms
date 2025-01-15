@@ -1,1 +1,0 @@
-if (file_exists('abc.php')) {\n    require_once('abc.php');\n} else {\n    die("oops");\n}

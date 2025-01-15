@@ -1,1 +1,0 @@
-<?php\nexec("sudo /path/to/start.sh", $output, $return_var);\nif ($return_var !== 0) {\n    // handle the error\n    echo "Failed to start the application.";\n} else {\n    echo "Application started successfully.";\n}\n?>

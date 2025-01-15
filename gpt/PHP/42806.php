@@ -1,1 +1,0 @@
-$description = "<p>This is a paragraph.</p>";\n$encoded_description = htmlspecialchars($description, ENT_XML1 | ENT_QUOTES, 'UTF-8');\necho "<description>$encoded_description</description>";

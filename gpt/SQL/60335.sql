@@ -1,1 +1,0 @@
--- Query 1\nSELECT a.id, a.name\nFROM table1 a\nJOIN table2 b ON a.id = b.id\nWHERE b.status = 'active';\n\n-- Query 2\nSELECT a.id, a.name\nFROM table1 a, table2 b\nWHERE a.id = b.id\nAND b.status = 'active';

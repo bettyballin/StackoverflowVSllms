@@ -1,1 +1,0 @@
-<!-- Disable the AJP Connector if not used -->\n    <!--\n    <Connector port="8009" protocol="AJP/1.3" redirectPort="8443" />\n    -->

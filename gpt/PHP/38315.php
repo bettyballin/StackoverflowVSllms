@@ -1,1 +1,0 @@
-<?php\n$rows = [\n    ["id" => 1, "title" => "Abc", "time_left" => 200],\n    ["id" => 2, "title" => "XYZ", "time_left" => 300],\n    // Add more rows as needed\n];\n$jsonRows = json_encode($rows);\n?>

@@ -1,1 +1,0 @@
-<?php\n$url = 'http://www.example.com/script.php';\n\n$content = @file_get_contents($url);\n\nif ($content !== FALSE) {\n    echo $content;\n} else {\n    echo "Unable to fetch the remote file.";\n}\n?>

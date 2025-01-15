@@ -1,1 +1,0 @@
-WITH CTE AS (\n    SELECT \n        id,\n        action,\n        L11_data,\n        ROW_NUMBER() OVER (PARTITION BY action, L11_data ORDER BY id) AS RowNum\n    FROM \n        your_table\n)\nDELETE FROM CTE WHERE RowNum > 1;

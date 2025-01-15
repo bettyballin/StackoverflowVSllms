@@ -1,1 +1,0 @@
-UPDATE plantfunctiontable\nSET decommissioned = 1\nWHERE plantunitid BETWEEN 49 AND 57;

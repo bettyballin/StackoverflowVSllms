@@ -1,1 +1,0 @@
-$file_path = 'path/to/your/file.txt';\n$file_download_service = \Drupal::service('custom_module.file_download_service');\n$download_link = $file_download_service->generateDownloadLink($file_path);\n\n// Now you can use $download_link, e.g., render it in a template or send it in an email.

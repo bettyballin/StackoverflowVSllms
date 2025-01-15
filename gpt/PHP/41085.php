@@ -1,1 +1,0 @@
-<?php\n$page = isset($_GET['p']) ? $_GET['p'] : 'home';\n\nswitch ($page) {\n    case 'contact':\n        // Serve the contact page\n        include 'contact.php';\n        break;\n    case 'about':\n        // Serve the about page\n        include 'about.php';\n        break;\n    default:\n        // Serve the homepage\n        include 'home.php';\n        break;\n}\n?>

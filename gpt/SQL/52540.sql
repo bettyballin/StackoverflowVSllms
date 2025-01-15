@@ -1,1 +1,0 @@
-UPDATE table\nSET status = 1\nWHERE status = 2\nLIMIT 400;

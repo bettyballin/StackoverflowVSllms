@@ -1,1 +1,0 @@
-$names = array_column($data, 0); // This will give you an array of the first column values

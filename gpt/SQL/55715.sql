@@ -1,1 +1,0 @@
-EXEC usp_GetDataFromTable @TableName = 'table-jobid1', @Filter = 'ColumnName = ''SomeValue'''

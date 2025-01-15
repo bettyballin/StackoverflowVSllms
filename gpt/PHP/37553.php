@@ -1,1 +1,0 @@
-class yourModuleActions extends sfActions\n{\n  public function executeYourAction(sfWebRequest $request)\n  {\n    // Setting a variable to be used in the layout\n    $this->getResponse()->setSlot('yourVariable', 'Your Value');\n  }\n}

@@ -1,1 +1,0 @@
-# app/controllers/user_sessions_controller.rb\n\ndef destroy\n  current_user_session.destroy\n  flash[:notice] = "Successfully logged out."\n  redirect_to root_url\nend

@@ -1,1 +1,0 @@
-Public Class Employee\n    Public Property EmployeeID As Integer\n    Public Property FirstName As String\n    Public Property LastName As String\n    Public Property BirthDate As DateTime\nEnd Class

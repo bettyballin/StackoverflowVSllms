@@ -1,1 +1,0 @@
-SELECT * FROM TableName WITH (NOLOCK);

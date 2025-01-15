@@ -1,1 +1,0 @@
-// application/Bootstrap.php\n   protected function _initErrorHandler()\n   {\n       $frontController = Zend_Controller_Front::getInstance();\n       $frontController->registerPlugin(new Zend_Controller_Plugin_ErrorHandler(array(\n           'module'     => 'default',\n           'controller' => 'error',\n           'action'     => 'error'\n       )));\n   }

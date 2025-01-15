@@ -1,1 +1,0 @@
-<?php\n// Assuming $result is your array\n$result = [\n    ['1' => 3, 'Value' => 3],\n    ['1' => 7, 'Value' => 7],\n    ['1' => 10, 'Value' => 10]\n];\n\n// Assigning $result to Smarty\n$smarty->assign('result', $result);\n?>

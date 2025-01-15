@@ -1,1 +1,0 @@
-CREATE TABLE Calendar (\n    cal_date DATE PRIMARY KEY\n);\n\n-- Populate the calendar table with a range of dates\nINSERT INTO Calendar (cal_date)\nSELECT DATE '2008-12-10' + INTERVAL (LEVEL - 1) DAY\nFROM DUAL\nCONNECT BY LEVEL <= 30; -- Adjust this to cover the full range of dates you need

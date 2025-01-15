@@ -1,1 +1,0 @@
-select t.CourseNr, t.StudentsPerCourse, g.StudentCount, \n       CAST(t.StudentsPerCourse AS float) / CAST(g.StudentCount AS float) as Marketshare\nfrom (select CourseNr, count(*) as StudentsPerCourse\n      from taking\n      group by CourseNr) t,\n     (select count(*) as StudentCount\n      from Students) g;

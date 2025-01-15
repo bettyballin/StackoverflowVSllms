@@ -1,1 +1,0 @@
-CREATE TRIGGER trgInsertOnTblSomething\n    ON tblSomething\n    FOR INSERT\n    AS\n    BEGIN\n        UPDATE tblSomething\n        SET RECORD_CREATED_DATE = GETDATE()\n        FROM tblSomething\n        INNER JOIN inserted ON tblSomething.idField = inserted.idField;\n    END

@@ -1,1 +1,0 @@
-# Getting the ASCII value of a character 'A'\nascii_value = 'A'.ord\nputs ascii_value  # Output will be 65

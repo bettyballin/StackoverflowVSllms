@@ -1,1 +1,0 @@
-// Add this code to your child theme's functions.php file\n\nfunction custom_rss_feed_content() {\n    // Your custom content or modifications\n    echo '<customElement>Custom Content</customElement>';\n}\nadd_action('rss2_item', 'custom_rss_feed_content');

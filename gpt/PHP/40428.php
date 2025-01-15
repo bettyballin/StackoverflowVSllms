@@ -1,1 +1,0 @@
-function isNotEmpty($input)\n{\n    $strTemp = $input;\n    $strTemp = trim($strTemp);\n\n    if ($strTemp != '') // Also tried this "if(strlen($strTemp) > 0)"\n    {\n        return true;\n    }\n\n    return false;\n}

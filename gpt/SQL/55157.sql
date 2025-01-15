@@ -1,1 +1,0 @@
-dt\n     \d table_name;

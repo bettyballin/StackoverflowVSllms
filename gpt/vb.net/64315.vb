@@ -1,1 +1,0 @@
-<ServiceContract()>\nPublic Interface IFoo\n    Property Length As Integer\n        <OperationContract()>\n        Get\n        <OperationContract()>\n        Set\n    End Property\nEnd Interface

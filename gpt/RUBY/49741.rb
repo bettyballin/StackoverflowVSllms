@@ -1,1 +1,0 @@
-Authentication.current_user = User.find(session[:user_id])\nputs Authentication.current_user

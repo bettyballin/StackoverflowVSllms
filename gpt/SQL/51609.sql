@@ -1,1 +1,0 @@
-DELIMITER //\n\nCREATE PROCEDURE FindByXPath(IN xmlContent TEXT, IN xpathExpr VARCHAR(255))\nBEGIN\n    DECLARE result TEXT;\n    SET result = ExtractValue(xmlContent, xpathExpr);\n    SELECT result;\nEND//\n\nDELIMITER ;

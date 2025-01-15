@@ -1,1 +1,0 @@
-SELECT\n    table1.price AS price1,\n    table2.price AS price2,\n    table1.other_column,\n    table2.other_column\nFROM\n    table1\nJOIN\n    table2\nON\n    table1.id = table2.id;

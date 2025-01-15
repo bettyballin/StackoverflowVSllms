@@ -1,1 +1,0 @@
-<person>\n    <firstname>Joe</firstname>\n    <lastname>Bloggs</lastname>\n    <children>\n        <child>Child1</child>\n        <child>Child2</child>\n        <child>Child3</child>\n        <child>Child4</child>\n        <child>Child5</child>\n    </children>\n</person>

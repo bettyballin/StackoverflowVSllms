@@ -1,1 +1,0 @@
-CREATE TABLE tags (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       tag VARCHAR(255) NOT NULL\n   );

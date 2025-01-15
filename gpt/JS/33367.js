@@ -1,1 +1,0 @@
-function IssueDescValidation(sender, args) {\n    var issuedesc = document.getElementById(sender.controltovalidate);\n    if (issuedesc.value.trim().length > 0) {\n        args.IsValid = true;\n    } else {\n        args.IsValid = false;\n    }\n}

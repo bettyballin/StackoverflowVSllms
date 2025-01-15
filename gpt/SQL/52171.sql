@@ -1,1 +1,0 @@
-CASE WHEN (BeginningQuantity + BAdjustedQuantity) = 0 THEN 0 \nELSE EndingQuantity / (BeginningQuantity + BAdjustedQuantity) END

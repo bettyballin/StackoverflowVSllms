@@ -1,1 +1,0 @@
-echo session_id();

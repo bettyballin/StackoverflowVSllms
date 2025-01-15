@@ -1,1 +1,0 @@
-import sqlite3\n  \n  conn = sqlite3.connect('example.db')\n  cursor = conn.cursor()\n  \n  cursor.execute("INSERT INTO your_table (column1, column2) VALUES (?, ?)", ("value1", "value2"))\n  conn.commit()\n  conn.close()

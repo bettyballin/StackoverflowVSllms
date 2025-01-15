@@ -1,1 +1,0 @@
--- Example to encrypt data\nDECLARE @encryptedData VARBINARY(8000)\nEXEC xp_crypt_encrypt 'YourSecretKey', 'SensitiveData', @encryptedData OUTPUT\nINSERT INTO YourTable (EncryptedColumn) VALUES (@encryptedData)

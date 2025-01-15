@@ -1,1 +1,0 @@
-SELECT\n    t1.number,\n    COUNT(t1.id)\nFROM\n    tracking t1\nINNER JOIN (\n    SELECT\n        MAX(id) AS max_id\n    FROM\n        tracking\n    WHERE\n        splitnr = 'a11'\n        AND number > 0\n        AND timestamp >= '2009-04-08 00:00:00'\n        AND timestamp <= '2009-04-08 12:55:57'\n    GROUP BY\n        ident\n) t2 ON t1.id = t2.max_id\nGROUP BY\n    t1.number;

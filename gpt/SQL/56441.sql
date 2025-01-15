@@ -1,1 +1,0 @@
-CREATE TABLE athlete (\n    id INT PRIMARY KEY,\n    name VARCHAR(100),\n    teamid CHAR(3),\n    FOREIGN KEY (teamid) REFERENCES team(teamid)\n);\n\nCREATE TABLE team (\n    teamid CHAR(3) PRIMARY KEY,\n    teamname VARCHAR(100)\n);

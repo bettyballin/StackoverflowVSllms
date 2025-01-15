@@ -1,1 +1,0 @@
-<machineKey\n    validationKey="YourValidationKeyHere"\n    decryptionKey="YourDecryptionKeyHere"\n    validation="SHA1"\n    decryption="AES" />

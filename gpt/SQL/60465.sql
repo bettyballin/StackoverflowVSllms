@@ -1,1 +1,0 @@
-SELECT * FROM (\n    SELECT * FROM your_table\n    ORDER BY DBMS_RANDOM.VALUE\n) WHERE ROWNUM = 1;

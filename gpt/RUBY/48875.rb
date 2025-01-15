@@ -1,1 +1,0 @@
-<%= javascript_include_tag 'prototype' %>\n<%= javascript_include_tag 'effects' %>

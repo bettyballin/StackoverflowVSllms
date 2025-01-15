@@ -1,1 +1,0 @@
--- Collect disk I/O data\nSELECT \n    DB_NAME(database_id) AS DatabaseName,\n    file_id,\n    io_stall_read_ms,\n    num_of_reads,\n    io_stall_write_ms,\n    num_of_writes,\n    io_stall_read_ms / (1.0 + num_of_reads) AS avg_read_stall_ms,\n    io_stall_write_ms / (1.0 + num_of_writes) AS avg_write_stall_ms\nFROM \n    sys.dm_io_virtual_file_stats(NULL, NULL);

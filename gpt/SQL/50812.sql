@@ -1,1 +1,0 @@
-CREATE TABLE BlobTable (\n    id INT PRIMARY KEY,\n    main_table_id INT,\n    blob_data BLOB,\n    FOREIGN KEY (main_table_id) REFERENCES MainTable(id)\n);

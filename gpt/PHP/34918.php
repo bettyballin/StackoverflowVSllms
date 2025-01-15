@@ -1,1 +1,0 @@
-// Example access control check\n   if (!isset($_SESSION['user']) || $_SESSION['user']['role'] != 'admin') {\n       header('Location: login.php');\n       exit();\n   }

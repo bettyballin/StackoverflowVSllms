@@ -1,1 +1,0 @@
-if (($validator->valid("title"), $validator->valid("text")) && $validator->valid("text")) {\n    // Both expressions are evaluated\n}

@@ -1,1 +1,0 @@
--- Remove the DENY CONTROL permission on tblFoo for the public role\nREVOKE CONTROL ON [dbo].[tblFoo] TO [public];\n\n-- Grant SELECT permission on tblFoo to the public role\nGRANT SELECT ON [dbo].[tblFoo] TO [public];

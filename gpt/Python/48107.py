@@ -1,1 +1,0 @@
-# myframework/addons/__init__.py\nimport pkg_resources\n\nfor entry_point in pkg_resources.iter_entry_points('myframework.addons'):\n    __import__(entry_point.module_name)

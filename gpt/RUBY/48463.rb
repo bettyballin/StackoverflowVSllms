@@ -1,1 +1,0 @@
-class SessionsController < ApplicationController\n  def destroy\n    reset_session\n    cookies.delete(:_your_app_session)\n    redirect_to root_path, notice: 'Session cleared'\n  end\nend

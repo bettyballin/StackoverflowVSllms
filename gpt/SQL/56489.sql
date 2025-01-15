@@ -1,1 +1,0 @@
-ALTER TABLE your_table_temp\n    ADD CONSTRAINT unique_column_name UNIQUE (column_name);

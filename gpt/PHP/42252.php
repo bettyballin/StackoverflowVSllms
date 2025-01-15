@@ -1,1 +1,0 @@
-$action = 'Action - [N]ew, [U]pdate, or [D]elete : U';\n$line = 'Action - [N]ew, [U]pdate, or [D]elete : N';\n$line = preg_replace("/Action - \[N\]ew, \[U\]pdate, or \[D\]elete : N/", $action, $line);\necho $line;

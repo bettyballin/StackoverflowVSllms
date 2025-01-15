@@ -1,1 +1,0 @@
-Structure ctrObj\n    Dim Name As String\n    Dim Index As Integer\n    Dim Top As Integer\n    Dim HorizontalPosition As Integer ' Renamed from Left_Renamed to HorizontalPosition\n    Dim Height As Integer\n    Dim Width As Integer\n    Dim ScaleHeight As Integer\n    Dim ScaleWidth As Integer\nEnd Structure

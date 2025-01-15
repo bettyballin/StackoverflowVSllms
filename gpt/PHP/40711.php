@@ -1,1 +1,0 @@
-setcookie('key', 'value', time() + (86400 * 30), "/"); // Store value in cookie for 30 days\n   $value = $_COOKIE['key']; // Retrieve value from cookie

@@ -1,1 +1,0 @@
-DATABASES = {\n        'default': {\n            'ENGINE': 'django.db.backends.oracle',\n            'NAME': 'your_db_name',\n            'USER': 'your_db_user',\n            'PASSWORD': 'your_db_password',\n            'HOST': 'your_db_host',\n            'PORT': 'your_db_port',\n        }\n    }

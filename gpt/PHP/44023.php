@@ -1,1 +1,0 @@
-require 'vendor/autoload.php';\n\nuse NlpTools\Utils\Lemmatizer;\n\n$lemmatizer = new Lemmatizer();\n\n// Example words\n$words = ['community', 'communities', 'running', 'ran', 'easily', 'fairly'];\n\nforeach ($words as $word) {\n    $lemma = $lemmatizer->getLemma($word);\n    echo "Original: $word, Lemma: $lemma\n";\n}

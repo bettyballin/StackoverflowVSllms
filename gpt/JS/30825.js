@@ -1,1 +1,0 @@
-swfobject.embedSWF("swf/float.swf", "header", "100%", "100%", "9.0.0", null, null, {wmode: "transparent"});

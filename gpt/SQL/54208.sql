@@ -1,1 +1,0 @@
--- Create a local copy of the remote table for testing\n   CREATE TABLE b_local AS SELECT * FROM b@remotedb WHERE ROWNUM <= 1000;\n\n   -- Now you can join local tables\n   SELECT a.col, b_local.col\n   FROM a, b_local\n   WHERE a.b_id = b_local.id;

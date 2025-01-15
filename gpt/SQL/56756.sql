@@ -1,1 +1,0 @@
-IF p_c_courtesies_cd IS NOT NULL OR \n   p_c_language_cd IS NOT NULL OR \n   v_c_name IS NOT NULL OR \n   v_c_firstname IS NOT NULL OR \n   v_c_function IS NOT NULL OR \n   p_c_phone IS NOT NULL OR \n   p_c_mobile IS NOT NULL OR \n   p_c_fax IS NOT NULL OR \n   v_c_email IS NOT NULL\nTHEN\n     -- Do something\nEND IF;

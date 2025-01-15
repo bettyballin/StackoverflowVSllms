@@ -1,1 +1,0 @@
-// Convert a JSON string to an object\nvar jsonString = '{"name":"John", "age":30, "city":"New York"}';\nvar obj = JSON.parse(jsonString);\n\n// Accessing object properties\nconsole.log(obj.name); // Output: John\n\n// Convert an object to a JSON string\nvar newJsonString = JSON.stringify(obj);\nconsole.log(newJsonString); // Output: {"name":"John","age":30,"city":"New York"}

@@ -1,1 +1,0 @@
-ir hello.rb

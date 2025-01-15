@@ -1,1 +1,0 @@
-<connectionStrings>\n  <add name="MyDbConnectionString" \n       connectionString="Data Source=|DataDirectory|\MyDatabase.sdf"\n       providerName="System.Data.SqlServerCe.4.0" />\n</connectionStrings>

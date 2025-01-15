@@ -1,1 +1,0 @@
-SELECT *\nFROM songs\nWHERE upload_date >= DATE_SUB(CURDATE(), INTERVAL 2 WEEK)\nORDER BY upload_date DESC;

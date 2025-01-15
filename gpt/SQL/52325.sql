@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n    UPDATE MyTable\n    SET MyColumn = 0\n    WHERE SomeCondition = 1;\n\n    -- Check your changes\n    -- If everything is correct, commit the transaction\n    COMMIT TRANSACTION;\n\n    -- If there is a mistake, roll back\n    -- ROLLBACK TRANSACTION;

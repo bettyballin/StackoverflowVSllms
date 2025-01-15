@@ -1,1 +1,0 @@
-$options = [\n         'cost' => 12,\n     ];\n     $hashedPassword = password_hash($password, PASSWORD_BCRYPT, $options);

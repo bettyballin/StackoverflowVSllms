@@ -1,1 +1,0 @@
-:r c:\temp\file01.sql\n:r c:\temp\file02.sql

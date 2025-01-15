@@ -1,1 +1,0 @@
-SELECT \n    [Labour Cost], \n    [Labour Hours], \n    [Vat], \n    ([Labour Hours] * [Labour Cost]) + [Vat] AS Total\nFROM \n    YourTableName;

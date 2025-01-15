@@ -1,1 +1,0 @@
-select sd.* \nfrom #stock_data sd\nleft join #exclude_ranges er\non sd.symbol = er.symbol \nand sd.asof between er.asof_start and er.asof_end\nwhere er.symbol is null

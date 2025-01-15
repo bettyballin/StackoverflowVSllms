@@ -1,1 +1,0 @@
-UPDATE inventoryDetails AS idet\nINNER JOIN TempBOM AS tb\nON idet.modelNumber = tb.bomModelNumber\nSET idet.itemDesc = tb.FirstBomItemDesc;

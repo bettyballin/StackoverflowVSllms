@@ -1,1 +1,0 @@
-With Me.Elements\n    .PropertyA = True\n    .PropertyB = "Inactive"\n    ' And so on for several more lines\nEnd With

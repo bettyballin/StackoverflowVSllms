@@ -1,1 +1,0 @@
-// Example: Escape data before displaying in HTML\n    $data_from_db = "<script>alert('XSS');</script>"; // Example malicious content\n    \n    // Properly escape data for HTML output\n    echo htmlspecialchars($data_from_db, ENT_QUOTES, 'UTF-8');

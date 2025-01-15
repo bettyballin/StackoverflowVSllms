@@ -1,1 +1,0 @@
-# app/controllers/analytics_controller.rb\n   class AnalyticsController < ApplicationController\n     def index\n       start_date = params[:start_date] || 30.days.ago.to_date\n       end_date = params[:end_date] || Date.today\n       \n       @analytics_data = AnalyticsData.new(start_date: start_date, end_date: end_date)\n     end\n   end

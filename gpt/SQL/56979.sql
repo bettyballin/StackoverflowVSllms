@@ -1,1 +1,0 @@
-Buffer Gets    Executions  Gets per Exec  %Total Time (s)  Time (s) Hash Value\n--------------- ------------ -------------- ------ -------- --------- ----------\n    137,948,100       31,495        4,380.0   98.4  6980.57   6873.46 4212400674\nModule: JDBC Thin Client\nSELECT fieldOne, fieldTwo, fieldThree, fieldFour, fieldFive FROM TableExample\nWHERE fieldOne = 'example'

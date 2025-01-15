@@ -1,1 +1,0 @@
-Dim fileName As String = ClipboardHelper.GetFileNameFromClipboard()\nIf Not String.IsNullOrEmpty(fileName) Then\n    MessageBox.Show("The file name is: " & fileName)\nElse\n    MessageBox.Show("No file name found in the clipboard.")\nEnd If

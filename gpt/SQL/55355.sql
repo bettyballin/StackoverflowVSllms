@@ -1,1 +1,0 @@
-WITH ExpectedSeq AS (\n    SELECT 'S' || LPAD(LEVEL, 3, '0') AS WebId\n    FROM dual\n    CONNECT BY LEVEL <= (\n        SELECT MAX(TO_NUMBER(SUBSTR(WebId, 2))) \n        FROM YourTable\n    )\n)\nSELECT e.WebId\nFROM ExpectedSeq e\nLEFT JOIN YourTable t ON e.WebId = t.WebId\nWHERE t.WebId IS NULL\nORDER BY e.WebId;

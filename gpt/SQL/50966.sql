@@ -1,1 +1,0 @@
-CREATE TABLE Artist_Group_Participation (\n    GroupID INT,\n    ArtistID INT,\n    PRIMARY KEY (GroupID, ArtistID),\n    FOREIGN KEY (GroupID) REFERENCES Artist_Group(GroupID),\n    FOREIGN KEY (ArtistID) REFERENCES Artist(ArtistID)\n);

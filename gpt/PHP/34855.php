@@ -1,1 +1,0 @@
-<?php\n// functions.php\nfunction DebugR($data) {\n    echo '<pre>';\n    print_r($data);\n    echo '</pre>';\n}\n?>

@@ -1,1 +1,0 @@
-let array = [1, 2, 3, 4];\n\n// Add elements at index 2\narray.splice(2, 0, 'a', 'b'); // [1, 2, 'a', 'b', 3, 4]\n\n// Remove 2 elements from index 2\narray.splice(2, 2); // [1, 2, 3, 4]

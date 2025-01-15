@@ -1,1 +1,0 @@
-SELECT * FROM TEST WHERE id = 1;\n     SELECT * FROM TEST WHERE name = 'John Doe';

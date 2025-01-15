@@ -1,1 +1,0 @@
-use Zend\Session\Container;\n   use Zend\Session\SessionManager;\n\n   $session = new Container('default');\n   $sessionManager = new SessionManager();\n   $sessionManager->start();\n\n   // Set and get session values\n   $session->offsetSet('foo', 'bar');\n   $value = $session->offsetGet('foo');\n\n   // Flash messages can be handled through custom logic

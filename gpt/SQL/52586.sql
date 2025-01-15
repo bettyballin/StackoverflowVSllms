@@ -1,1 +1,0 @@
-CREATE TABLE Staging.Cleansed_Sales (\n       TransactionID INT,\n       ProductID INT,\n       Quantity INT,\n       SaleDate DATE,\n       SaleAmount DECIMAL(10, 2),\n       ...\n   );

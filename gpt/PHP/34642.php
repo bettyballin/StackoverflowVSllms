@@ -1,1 +1,0 @@
-$endsWith = str_ends_with($str, $test);

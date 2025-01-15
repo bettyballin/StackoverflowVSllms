@@ -1,1 +1,0 @@
-Public Class Program\n    <STAThread()> _\n    Public Shared Sub Main()\n        Application.EnableVisualStyles()\n        Application.SetCompatibleTextRenderingDefault(False)\n        Application.Run(New MainForm())\n    End Sub\nEnd Class

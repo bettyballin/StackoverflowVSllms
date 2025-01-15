@@ -1,1 +1,0 @@
-amespace App\Http\Controllers;\n\n   use Illuminate\Http\Request;\n\n   class HomeController extends Controller\n   {\n       public function index()\n       {\n           return view('home');\n       }\n   }

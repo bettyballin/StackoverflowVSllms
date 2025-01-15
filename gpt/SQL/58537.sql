@@ -1,1 +1,0 @@
-CREATE VIEW YourViewName AS\nSELECT \n    column1,\n    column2\nFROM \n    YourTableName WITH (NOLOCK);

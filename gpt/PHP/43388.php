@@ -1,1 +1,0 @@
-<?php\nrequire 'vendor/autoload.php';\n\nuse SebastianBergmann\Diff\Differ;\n\n$oldText = "This is the old text.";\n$newText = "This is the new text.";\n\n$differ = new Differ();\n$diff = $differ->diff($oldText, $newText);\n\necho $diff;\n?>

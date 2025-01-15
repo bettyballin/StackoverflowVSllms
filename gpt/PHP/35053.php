@@ -1,1 +1,0 @@
-strlen('Hello, World!');\n      array_merge($array1, $array2);

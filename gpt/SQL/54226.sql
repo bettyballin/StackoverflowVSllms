@@ -1,1 +1,0 @@
-INSERT INTO Kunde (CPR, Navn, Tlf, Adresse, Postnr)\n   VALUES (1234567890, 'John Doe', 12345678, '123 Elm Street', 1000);

@@ -1,1 +1,0 @@
-# main.rb\nrequire_relative 'path/to/my_class'\n\n# Now you can create an instance of MyClass and call its methods\nmy_instance = MyClass.new\nmy_instance.greet

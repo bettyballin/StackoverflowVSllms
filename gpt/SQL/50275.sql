@@ -1,1 +1,0 @@
-CREATE TABLE Products (\n        product_code CHAR(2) PRIMARY KEY,\n        product_name VARCHAR(100),\n        CONSTRAINT chk_product_code CHECK (product_code IN ('FB', 'AB', 'CD'))\n    );

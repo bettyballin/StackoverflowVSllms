@@ -1,1 +1,0 @@
-CREATE INDEX idx_user_id_postcode_region ON customers (user_id, postcode, region);

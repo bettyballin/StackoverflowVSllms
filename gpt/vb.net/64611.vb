@@ -1,1 +1,0 @@
-Imports System\n\nModule Program\n    Sub Main(args As String())\n        Console.WriteLine("Hello, World!")\n    End Sub\nEnd Module

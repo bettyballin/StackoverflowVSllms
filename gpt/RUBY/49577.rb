@@ -1,1 +1,0 @@
-setup { post :create, params: { user: { email: 'abc@abcd' } } }

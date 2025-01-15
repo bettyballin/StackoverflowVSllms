@@ -1,1 +1,0 @@
-var radios = document.querySelectorAll('input[type=radio]');\nfor (var i = 0; i < radios.length; i++) {\n    radios[i].style.display = 'none';\n}

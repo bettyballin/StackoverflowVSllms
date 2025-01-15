@@ -1,1 +1,0 @@
-<Window x:Class="YourNamespace.YourWindowClass"\n        MouseMove="Window_MouseMove"\n        ...>\n    ...\n</Window>

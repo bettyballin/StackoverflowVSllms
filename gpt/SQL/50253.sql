@@ -1,1 +1,0 @@
-ALTER TABLE Posts\nADD CONSTRAINT UQ_PostContent UNIQUE (Content);

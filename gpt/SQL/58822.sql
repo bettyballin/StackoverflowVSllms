@@ -1,1 +1,0 @@
-CREATE TABLE Orders (\n    OrderID INT PRIMARY KEY,\n    CustomerID INT,\n    CustomerOrderN VARCHAR(255),\n    -- other columns...\n    CloseReasonID INT NULL,\n    CONSTRAINT FK_CloseReason FOREIGN KEY (CloseReasonID) REFERENCES OrderCloseReasons(CloseReasonID)\n);\n\nCREATE TABLE OrderCloseReasons (\n    CloseReasonID INT PRIMARY KEY,\n    ReasonDescription VARCHAR(255)\n);

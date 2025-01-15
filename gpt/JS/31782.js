@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded', (event) => {\n    document.querySelector('[name="username"]').value = '';\n    document.querySelector('[name="password"]').value = '';\n});

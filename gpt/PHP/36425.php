@@ -1,1 +1,0 @@
-<?php\n    $rar_file = rar_open('htdocs.rar');\n    if ($rar_file === FALSE) {\n        echo "Failed to open RAR file.";\n    } else {\n        echo "RAR file opened successfully.";\n        rar_close($rar_file);\n    }\n    ?>

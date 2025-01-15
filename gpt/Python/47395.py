@@ -1,1 +1,0 @@
-import time\nimport numpy as np\n\ndef matrix_multiplication(size):\n    A = np.random.rand(size, size)\n    B = np.random.rand(size, size)\n\n    start_time = time.time()\n    C = np.dot(A, B)\n    end_time = time.time()\n\n    print(f"Matrix multiplication of size {size}x{size} took {end_time - start_time} seconds")\n\nif __name__ == "__main__":\n    matrix_multiplication(500)

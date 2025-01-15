@@ -1,1 +1,0 @@
-SELECT TOP 1 * FROM your_table ORDER BY NEWID();

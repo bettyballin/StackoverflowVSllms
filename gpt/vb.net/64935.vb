@@ -1,1 +1,0 @@
-' The inferred type is IEnumerable(Of Integer)\n    Dim evenNumbers = From number In numbers Where number Mod 2 = 0 Select number

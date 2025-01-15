@@ -1,1 +1,0 @@
-// Start the session\nsession_start();\n\n// Do your session-related tasks here\n\n// Close the session to prevent locking\nsession_write_close();\n\n// Continue with your long-running process\nwhile (processing_records) {\n    // Process records\n    // Update the database with the status\n}

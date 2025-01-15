@@ -1,1 +1,0 @@
-UPDATE ForeignKeyTable\n    SET NewSequentialGUID = (SELECT t.NewSequentialGUID FROM YourTable t WHERE t.OldGUID = ForeignKeyTable.OldGUID);

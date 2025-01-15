@@ -1,1 +1,0 @@
-CREATE VIEW user_details AS\nSELECT u.id, u.name, p.profile_pic, a.address\nFROM users u\nJOIN profiles p ON u.id = p.user_id\nJOIN addresses a ON u.id = a.user_id;

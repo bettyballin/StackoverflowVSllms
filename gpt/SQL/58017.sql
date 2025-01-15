@@ -1,1 +1,0 @@
-CREATE PROCEDURE Sales.usp_GetCustomerOrders\n    CREATE PROCEDURE Inventory.usp_UpdateProductInventory

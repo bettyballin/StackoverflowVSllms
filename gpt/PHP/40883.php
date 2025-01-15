@@ -1,1 +1,0 @@
-$unserializedData = @unserialize($item['response']);\n    if ($unserializedData === false && $item['response'] !== 'b:0;') {\n        echo "Error unserializing data.";\n    } else {\n        print_r($unserializedData);\n    }

@@ -1,1 +1,0 @@
-function decodeHtmlEntities(str) {\n  const parser = new DOMParser();\n  const doc = parser.parseFromString(str, 'text/html');\n  return doc.documentElement.textContent;\n}\n\nconst encodedString = '&#97; &#98; &#99;';\nconst decodedString = decodeHtmlEntities(encodedString);\nconsole.log(decodedString);  // Output: "a b c"

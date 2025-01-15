@@ -1,1 +1,0 @@
-$('input[type=radio]').css('display', 'none');

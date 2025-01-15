@@ -1,1 +1,0 @@
-DECLARE @dbName NVARCHAR(128) = 'YourDatabaseName'\nDECLARE @sql NVARCHAR(MAX)\n\nSET @sql = '\nUSE [' + @dbName + '];\n\nCREATE TRIGGER [blah]\nON [YourTableName]\nAFTER INSERT\nAS\nBEGIN\n    -- Trigger logic here\n    PRINT ''Trigger executed.''\nEND;'\n\nEXEC sp_executesql @sql

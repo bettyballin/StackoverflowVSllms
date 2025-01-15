@@ -1,1 +1,0 @@
-SELECT * FROM Customers\nWHERE\n    PATINDEX('%O''Brien%', REPLACE(REPLACE(REPLACE(LastName, '&apos;', ''), '&#39;', ''), '''', '')) > 0\n    OR\n    PATINDEX('%OBrien%', REPLACE(REPLACE(REPLACE(LastName, '&apos;', ''), '&#39;', ''), '''', '')) > 0

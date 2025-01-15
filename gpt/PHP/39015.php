@@ -1,1 +1,0 @@
-$st_dt = new DateTime(verifyParam('start_date'));\n$end_dt = new DateTime(verifyParam('end_date'));\n\n// is the end date more ancient than the start date?\nif ($end_dt < $st_dt) {\n    // Your code here\n}

@@ -1,1 +1,0 @@
-class EventForm(forms.Form):\n       event_date = forms.DateField(widget=CustomCalendarWidget())

@@ -1,1 +1,0 @@
-<?php\n$var = $_GET['var'];\necho "The value of var is: " . htmlspecialchars($var, ENT_QUOTES, 'UTF-8');\n?>

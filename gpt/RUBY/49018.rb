@@ -1,1 +1,0 @@
-<div class="post" id="post_<%= post.id %>">\n  <%= render :partial => 'post_content', :locals => { :post => post, :length => 500 } %>\n</div>

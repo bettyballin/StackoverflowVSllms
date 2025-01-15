@@ -1,1 +1,0 @@
-$xmlString = '<root><child>Hello E4X</child></root>';\n$xml = simplexml_load_string($xmlString);\n\necho $xml->child; // Output: Hello E4X

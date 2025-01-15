@@ -1,1 +1,0 @@
-CREATE LOGIN appUser WITH PASSWORD = 'strongpassword';\n    CREATE USER appUser FOR LOGIN appUser;\n    ALTER ROLE db_datareader ADD MEMBER appUser;\n    ALTER ROLE db_datawriter ADD MEMBER appUser;

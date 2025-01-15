@@ -1,1 +1,0 @@
-INSERT INTO your_table (nid, realm)\nSELECT DISTINCT t1.nid, 'domain_site'\nFROM your_table t1\nLEFT JOIN your_table t2\nON t1.nid = t2.nid AND t2.realm = 'domain_site'\nWHERE t2.nid IS NULL;

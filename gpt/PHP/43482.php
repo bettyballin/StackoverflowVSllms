@@ -1,1 +1,0 @@
-Array\n(\n    [0] => Array\n        (\n            [0] => 4\n            [1] => 2\n        )\n\n    [1] => Array\n        (\n            [0] => 0\n            [1] => 0\n            [2] => 0\n        )\n\n    [2] => Array\n        (\n            [0] => foo\n            [1] => bar\n            [2] => b\n            [3] => a\n            [4] => z\n        )\n)

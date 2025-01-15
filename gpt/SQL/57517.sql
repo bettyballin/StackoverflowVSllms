@@ -1,1 +1,0 @@
-EXEC msdb.dbo.sp_add_notification \n       @alert_name = N'SQL Server Failover Alert', \n       @operator_name = N'YourOperator', \n       @notification_method = 1;

@@ -1,1 +1,0 @@
--- Example DMV to check for missing indexes\n   SELECT * \n   FROM sys.dm_db_missing_index_details;

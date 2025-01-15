@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('#star-rating').raty({\n    click: function(score, evt) {\n      alert('You rated: ' + score);\n      // You can send the score to your server using AJAX or any other method\n    }\n  });\n});

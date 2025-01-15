@@ -1,1 +1,0 @@
-$url = "https://example.com";\n$hash = hash('sha512', $url);\necho $hash;  // This will output a 128-character hexadecimal string (64 bytes).

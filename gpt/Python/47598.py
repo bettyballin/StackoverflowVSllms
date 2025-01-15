@@ -1,1 +1,0 @@
-# Example of a simple Kivy application\n   from kivy.app import App\n   from kivy.uix.label import Label\n   \n   class MyApp(App):\n       def build(self):\n           return Label(text='Hello, World!')\n   \n   if __name__ == '__main__':\n       MyApp().run()

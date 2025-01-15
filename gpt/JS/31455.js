@@ -1,1 +1,0 @@
-function exampleFunction() {\n  return "This is a function object.";\n}\n\nconsole.log(typeof exampleFunction); // "function"\nconsole.log(({}).toString.call(exampleFunction)); // "[object Function]"

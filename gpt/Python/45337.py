@@ -1,1 +1,0 @@
-import subprocess\n\n# Start the HTTP server\nhttp_server_process = subprocess.Popen(['python', 'http_server.py'])\n\n# Start the basic application\napp_process = subprocess.Popen(['python', 'basic_app.py'])\n\n# Wait for both processes to complete (optional, if you want the script to wait)\nhttp_server_process.wait()\napp_process.wait()

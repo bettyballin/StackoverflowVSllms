@@ -1,1 +1,0 @@
-$fruits = array("Apple", "Banana", "Cherry");\n\necho $fruits[0]; // Outputs: Apple\necho $fruits[1]; // Outputs: Banana\necho $fruits[2]; // Outputs: Cherry

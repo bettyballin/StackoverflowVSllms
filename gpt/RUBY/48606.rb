@@ -1,1 +1,0 @@
-original_hash = {"a" => "b", "c" => "d"}\nnew_hash = original_hash.each_with_object({}) do |(key, value), obj|\n  obj[key] = value.upcase\nend\n\nputs new_hash # => {"a" => "B", "c" => "D"}

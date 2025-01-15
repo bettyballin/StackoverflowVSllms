@@ -1,1 +1,0 @@
-from sikuli import *\n   click("button_image.png")\n   type("input_field_image.png", "Test Input")

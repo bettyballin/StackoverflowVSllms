@@ -1,1 +1,0 @@
-SELECT \n    e.eventId, \n    e.eventName, \n    GROUP_CONCAT(a.artistName ORDER BY a.artistName SEPARATOR ', ') AS ArtistLineup\nFROM \n    event e\nJOIN \n    event_artist a ON e.eventId = a.eventId\nGROUP BY \n    e.eventId, e.eventName;

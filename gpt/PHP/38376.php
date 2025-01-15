@@ -1,1 +1,0 @@
-$app = \Slim\Factory\AppFactory::create();\n\n$app->add(new \App\Middleware\ExampleMiddleware());\n\n$app->run();

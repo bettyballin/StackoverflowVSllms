@@ -1,1 +1,0 @@
-function online() {\n    global $online;\n\n    if ($online == "0") {\n        if ($_SESSION['exp_user']['userlevel'] != "1") {\n            include("error/offline.php");\n            exit();\n        }\n    }\n}

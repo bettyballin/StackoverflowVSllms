@@ -1,1 +1,0 @@
-INSERT INTO my_table (other_column) VALUES ('Sample Data');

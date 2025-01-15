@@ -1,1 +1,0 @@
-SELECT Id, DATALENGTH(ImageData) as ImageSize\n   FROM Images\n   WHERE Id = 1;

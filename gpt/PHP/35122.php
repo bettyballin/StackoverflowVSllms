@@ -1,1 +1,0 @@
-<html>\n    <body>\n        Hey <?=$name?>! This is <?=$adj?>!\n        <?=View::factory('embed')->output($this->_vars)?>\n    </body>\n</html>

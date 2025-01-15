@@ -1,1 +1,0 @@
-CREATE TABLE temp_data (\n    individual VARCHAR(50),\n    pop VARCHAR(50),\n    marker VARCHAR(50),\n    genotype VARCHAR(10)\n);

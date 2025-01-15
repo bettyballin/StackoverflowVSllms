@@ -1,1 +1,0 @@
-$.ajaxSetup({\n    beforeSend: function(xhr) {\n        xhr.setRequestHeader('X-Window-Token', localStorage.getItem('windowToken'));\n    }\n});

@@ -1,1 +1,0 @@
-$autoload['libraries'] = array('session');

@@ -1,1 +1,0 @@
-// HomeController.php\nclass HomeController {\n    public function index() {\n        // Load model data\n        // Render view\n        echo "Welcome to the Home Page!";\n    }\n}\n\n// AboutController.php\nclass AboutController {\n    public function index() {\n        // Load model data\n        // Render view\n        echo "Welcome to the About Page!";\n    }\n}

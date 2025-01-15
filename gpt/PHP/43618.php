@@ -1,1 +1,0 @@
-<?php\n$request = new http\Client\Request("GET", "http://example.com");\n$request->setOptions(array(\n    'timeout' => 30 // Set timeout to 30 seconds\n));\n\n$client = new http\Client();\n$client->enqueue($request)->send();\n$response = $client->getResponse();\n\necho $response->getBody();\n?>

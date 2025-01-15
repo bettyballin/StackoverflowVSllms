@@ -1,1 +1,0 @@
-function separateWords($string) {\n    // Use a regular expression to add a space before each capital letter in the first word\n    return preg_replace('/(?<!^)([A-Z])/', ' $1', $string);\n}\n\n// Example usage\n$string = "ThisWasCool to visit you again";\n$result = separateWords($string);\necho $result; // Outputs: "This Was Cool to visit you again"

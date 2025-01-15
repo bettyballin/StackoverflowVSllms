@@ -1,1 +1,0 @@
-' Create a new ListViewItem\nDim item As New ListViewItem("Column 1 Text")\n\n' Add subitems for the other columns\nitem.SubItems.Add("Column 2 Text")\nitem.SubItems.Add("Column 3 Text")\n\n' Add the item to the ListView\nListView1.Items.Add(item)

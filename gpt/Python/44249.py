@@ -1,1 +1,0 @@
-def example_func(a, b, c=3):\n    return a + b + c\n\n# Call without optional arguments\nresult1 = caller(example_func, 1, 2)\nprint(result1)  # Output: 6 (1 + 2 + 3)\n\n# Call with optional arguments\nresult2 = caller(example_func, 1, 2, c=5)\nprint(result2)  # Output: 8 (1 + 2 + 5)

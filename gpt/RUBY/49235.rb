@@ -1,1 +1,0 @@
-Item.where.not(status: [nil, '']).pluck(:status)

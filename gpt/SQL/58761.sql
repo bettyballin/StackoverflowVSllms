@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.GetUtcTimestamp(@year INT, @timeZoneId NVARCHAR(50))\nRETURNS DATETIME\nAS EXTERNAL NAME [TimeZoneHelper].[TimeZoneHelper].[GetUtcTimestamp];

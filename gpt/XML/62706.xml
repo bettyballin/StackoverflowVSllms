@@ -1,1 +1,0 @@
-<hibernate-mapping>\n    <class name="com.example.Child" table="CHILD">\n        <id name="id" column="ID">\n            <generator class="native"/>\n        </id>\n        <many-to-one name="parent" column="PARENT_ID" not-null="true" cascade="none"/>\n        <!-- other properties -->\n    </class>\n</hibernate-mapping>

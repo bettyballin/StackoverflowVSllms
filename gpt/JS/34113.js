@@ -1,1 +1,0 @@
-function start() {\n    $(".start").click(function () {\n        $.post("load_script.php", {}, function(data) {\n            alert(data["247"]["0"]);\n        }, "json");\n\n        return false;\n    });\n}

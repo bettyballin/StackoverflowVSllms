@@ -1,1 +1,0 @@
-// Example of encrypting a string in PHP\n   $encryptedEmail = openssl_encrypt($email, 'aes-256-cbc', $encryption_key, 0, $iv);

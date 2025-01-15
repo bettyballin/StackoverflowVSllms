@@ -1,1 +1,0 @@
-// Target frame (anotherdomain.com)\nwindow.addEventListener('message', function(event) {\n    if (event.origin === 'https://example.com') {\n        console.log('Message received:', event.data);\n        // Process the received data\n    } else {\n        console.warn('Origin not allowed:', event.origin);\n    }\n}, false);

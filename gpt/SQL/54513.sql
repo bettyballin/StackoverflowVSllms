@@ -1,1 +1,0 @@
-SELECT column1\nFROM your_table\nORDER BY id\nLIMIT 1;

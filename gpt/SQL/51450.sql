@@ -1,1 +1,0 @@
-SELECT count(*), (SELECT column_name FROM another_table WHERE condition) AS alias_column\nFROM your_table\nGROUP BY (SELECT column_name FROM another_table WHERE condition);

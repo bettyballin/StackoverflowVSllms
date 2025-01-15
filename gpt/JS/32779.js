@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    $('blockquote.message').append('<span class="arrow"></span>');   \n</script>

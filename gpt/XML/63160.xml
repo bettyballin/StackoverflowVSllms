@@ -1,1 +1,0 @@
-<?xml version="1.0"?>\n<ruleset name="CustomStandard">\n    <description>My custom coding standard</description>\n    <rule ref="PSR12"/>\n    <!-- Add more custom rules here -->\n</ruleset>

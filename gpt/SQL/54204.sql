@@ -1,1 +1,0 @@
--- Composite index\nCREATE INDEX ID_NAME_INDX ON TEST(id, name);\n\n-- Simple indexes\nCREATE INDEX ID_INDX ON TEST(id);\nCREATE INDEX NAME_INDX ON TEST(name);

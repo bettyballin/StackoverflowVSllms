@@ -1,1 +1,0 @@
-CREATE DOMAIN email AS VARCHAR(255) \nCHECK (VALUE ~* '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}$');

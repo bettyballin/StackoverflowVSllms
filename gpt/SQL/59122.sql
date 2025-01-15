@@ -1,1 +1,0 @@
-WITH OrderedRecords AS (\n    SELECT *,\n           ROW_NUMBER() OVER (ORDER BY <order clause>) AS rn\n    FROM mytable\n    WHERE <various conditions>\n)\nSELECT *\nFROM OrderedRecords\nWHERE rn = 1;

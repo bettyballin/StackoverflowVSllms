@@ -1,1 +1,0 @@
-// Assuming $dbConnection is your database connection\nWebSiteUser::loadCommonHomepageContent($dbConnection);

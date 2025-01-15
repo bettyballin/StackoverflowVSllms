@@ -1,1 +1,0 @@
-SELECT email, clear, SUBSTRING_INDEX(email, '@', -1) AS domain\nFROM postfix_users;

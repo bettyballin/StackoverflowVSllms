@@ -1,1 +1,0 @@
-<?php\n   header("Content-Type: application/json");\n   $url = 'https://www.eventsinindia.com/cities/mumbai/events.js?month=2009-05';\n   echo file_get_contents($url);\n   ?>

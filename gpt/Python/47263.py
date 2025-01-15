@@ -1,1 +1,0 @@
-try:\n    value = int(rowColumn[1][3].replace(',', '').strip('$'))\nexcept ValueError:\n    value = None  # or handle the text content appropriately\n\n# Further processing with the variable 'value'\nif value is not None:\n    # It's a data row\n    # Do something with the integer value\nelse:\n    # It's a text row\n    # Handle the text row appropriately

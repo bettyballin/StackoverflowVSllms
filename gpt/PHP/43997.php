@@ -1,1 +1,0 @@
-$s = "world";\n$s = "Hello " . $s;\n// $s is now "Hello world"

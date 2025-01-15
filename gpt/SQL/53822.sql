@@ -1,1 +1,0 @@
-SELECT * \nFROM your_table\nWHERE DATE_TRUNC('day', date_of_birth) = DATE_TRUNC('day', TIMESTAMP '1950-01-01 10:22:06.010101120');

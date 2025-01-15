@@ -1,1 +1,0 @@
-$input = "foo    bar"; // example input\n$output = preg_replace('/foo\s+bar/i', 'fubar', $input);\necho $output;

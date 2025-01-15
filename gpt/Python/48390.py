@@ -1,1 +1,0 @@
-from sqlparse import parse\nimport unittest\n\nclass TestSQLGeneratorSyntax(unittest.TestCase):\n    def test_syntax(self):\n        sql = generate_sql(some_params)\n        parsed = parse(sql)\n        self.assertTrue(parsed, "Invalid SQL syntax")\n\nif __name__ == '__main__':\n    unittest.main()

@@ -1,1 +1,0 @@
-$queries = json_decode(file_get_contents('queries.json'), true);\n   $stmt = $pdo->prepare($queries['getUserById']);\n   $stmt->execute(['id' => $userId]);\n   $user = $stmt->fetch();

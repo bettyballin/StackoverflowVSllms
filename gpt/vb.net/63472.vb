@@ -1,1 +1,0 @@
-''' <summary>\n''' Description of what the function does.\n''' </summary>\n''' <param name="param1">Description of param1</param>\n''' <param name="param2">Description of param2</param>\n''' <returns>Return value description</returns>\nPrivate Function Foo(ByVal param1 As String, ByVal param2 As Integer)

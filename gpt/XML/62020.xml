@@ -1,1 +1,0 @@
-<filter>\n    <filter-name>profile-filter</filter-name>\n    <filter-class>ProfileFilter</filter-class>\n</filter>\n\n<filter-mapping>\n    <filter-name>profile-filter</filter-name>\n    <url-pattern>/profile/*</url-pattern>\n</filter-mapping>

@@ -1,1 +1,0 @@
-import psutil\nimport os\n\n# Get the current process ID\npid = os.getpid()\n\n# Create a Process object for the current process\nprocess = psutil.Process(pid)\n\n# Get the memory usage in bytes\nmemory_usage = process.memory_info().rss\n\n# Convert memory usage to megabytes\nmemory_usage_mb = memory_usage / (1024 ** 2)\n\nprint(f"Memory usage: {memory_usage_mb} MB")

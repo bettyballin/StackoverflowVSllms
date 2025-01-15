@@ -1,1 +1,0 @@
-def russian_peasant(a, b):\n    result = 0\n    while a > 0:\n        if a % 2 != 0:  # Check if 'a' is odd\n            result += b  # Add 'b' to result if 'a' is odd\n        a //= 2  # Halve 'a'\n        b *= 2   # Double 'b'\n    return result\n\n# Example usage\na = 18\nb = 25\nprint(russian_peasant(a, b))  # Output should be 450

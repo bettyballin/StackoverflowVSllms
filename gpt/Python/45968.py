@@ -1,1 +1,0 @@
-change_failure_rate = (failed_changes / total_changes) * 100;

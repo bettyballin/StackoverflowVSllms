@@ -1,1 +1,0 @@
-# Before refactoring\ndef add_numbers(a, b):\n    return a + b\n\n# Unit test for the function\ndef test_add_numbers():\n    assert add_numbers(1, 2) == 3\n    assert add_numbers(-1, 1) == 0\n\n# After refactoring (renaming variable)\ndef add_numbers(x: int, y: int) -> int:\n    return x + y\n\n# Run the tests to ensure functionality remains intact\ntest_add_numbers()

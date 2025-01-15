@@ -1,1 +1,0 @@
-$("form").submit(function(event) {\n    event.preventDefault();\n    $.ajax({\n        url: this.action,\n        type: this.method,\n        data: $(this).serialize(),\n        success: function(result) {\n            // Handle the success response\n        },\n        error: function(xhr, status, error) {\n            // Handle the error response\n        }\n    });\n});

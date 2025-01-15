@@ -1,1 +1,0 @@
-<?php\ninclude $_SERVER['DOCUMENT_ROOT'] . '/shared_php/common_script.php';\n?>

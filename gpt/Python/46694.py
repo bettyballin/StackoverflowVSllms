@@ -1,1 +1,0 @@
-import logging\n\ndef log_alert(message):\n    logging.basicConfig(filename='service_alerts.log', level=logging.INFO)\n    logging.info(message)\n\n# Example usage\nlog_alert("This is an alert message from the service.")

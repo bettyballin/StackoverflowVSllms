@@ -1,1 +1,0 @@
-<CLSCompliant(False)>\n    Public Interface IDbId\n        ' Interface methods\n    End Interface

@@ -1,1 +1,0 @@
-DECLARE @Start INT\nSET @Start = 1050\nSELECT * FROM FieldValues WHERE GroupId BETWEEN @Start AND @Start + 10

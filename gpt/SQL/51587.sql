@@ -1,1 +1,0 @@
-SELECT \n    o.order_id, \n    p.promotion_name\nFROM \n    orders o\nINNER JOIN \n    promotions p\nON \n    o.order_date BETWEEN p.start_date AND p.end_date;

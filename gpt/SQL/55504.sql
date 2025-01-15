@@ -1,1 +1,0 @@
-SELECT COLUMN_NAME\n   FROM information_schema.STATISTICS\n   WHERE TABLE_SCHEMA = 'your_database_name'\n     AND TABLE_NAME = 'your_table_name'\n     AND NON_UNIQUE = 0\n     AND INDEX_NAME != 'PRIMARY';

@@ -1,1 +1,0 @@
-Imports System.Runtime.InteropServices\n\nPublic Class Form1\n    <DllImport("user32.dll", SetLastError:=True)>\n    Private Shared Function LockWorkStation() As Boolean\n    End Function\n\n    Private Sub LockScreen()\n        LockWorkStation()\n    End Sub\nEnd Class

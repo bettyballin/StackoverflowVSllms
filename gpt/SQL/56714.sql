@@ -1,1 +1,0 @@
-UPDATE your_table\nSET id = CONCAT('LA_', id)  -- for LA region\nWHERE region = 'LA';

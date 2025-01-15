@@ -1,1 +1,0 @@
--- Disable foreign key checks\nSET foreign_key_checks = 0;\n\n-- Truncate the table\nTRUNCATE TABLE `recursive`;\n\n-- Re-enable foreign key checks\nSET foreign_key_checks = 1;

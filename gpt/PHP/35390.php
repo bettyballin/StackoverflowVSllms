@@ -1,1 +1,0 @@
-'logger' => array(\n       'level' => 'debug',\n   ),

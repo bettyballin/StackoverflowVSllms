@@ -1,1 +1,0 @@
-DELIMITER $$\n\nDROP PROCEDURE IF EXISTS tv_check_email$$\n\nCREATE PROCEDURE tv_check_email (IN username VARCHAR(50), OUT user_id INT)\nBEGIN\n  SELECT USER_ID INTO user_id FROM tv_user_master WHERE EMAIL = username;\nEND$$\n\nDELIMITER ;

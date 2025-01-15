@@ -1,1 +1,0 @@
-SELECT TO_CHAR(TO_DATE('01/09', 'MM/YY'), 'Month YYYY') AS formatted_date\nFROM dual;

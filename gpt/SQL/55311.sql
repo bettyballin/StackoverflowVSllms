@@ -1,1 +1,0 @@
-WITH RECURSIVE subcategories AS (\n    SELECT id, parent_id, title, 1 AS level\n    FROM categories\n    WHERE id = :category_id  -- Replace :category_id with the ID of the desired category\n    UNION ALL\n    SELECT c.id, c.parent_id, c.title, sc.level + 1\n    FROM categories c\n    JOIN subcategories sc ON c.parent_id = sc.id\n)\nSELECT * FROM subcategories;

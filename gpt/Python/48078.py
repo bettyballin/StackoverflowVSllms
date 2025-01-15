@@ -1,1 +1,0 @@
-from cryptography.fernet import Fernet\n\n# Generate a key\nkey = Fernet.generate_key()\ncipher_suite = Fernet(key)\n\n# Encrypt a message\nmessage = b"Hello, secure world!"\ncipher_text = cipher_suite.encrypt(message)\nprint(f"Cipher Text: {cipher_text}")\n\n# Decrypt the message\nplain_text = cipher_suite.decrypt(cipher_text)\nprint(f"Plain Text: {plain_text.decode()}")

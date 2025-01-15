@@ -1,1 +1,0 @@
-# module_a.py\nimport config\n\ndef print_foo():\n    print(config.foo)\n\n# module_b.py\nimport config\n\ndef use_foo():\n    if config.foo:\n        print(f"Foo is set to: {config.foo}")\n    else:\n        print("Foo is not set.")

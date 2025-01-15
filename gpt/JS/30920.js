@@ -1,1 +1,0 @@
-document.getElementById('txtStartDate').addEventListener('input', function() {\n    alert('change ' + this.value);\n});

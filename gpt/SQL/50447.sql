@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- User 1 starts a long-running query with NOLOCK\nSELECT * FROM Customers WITH (NOLOCK);\n\n-- At the same time, User 2 updates a record in Customers\nUPDATE Customers SET Name = 'NewName' WHERE CustomerID = 1;\n\nCOMMIT TRANSACTION;

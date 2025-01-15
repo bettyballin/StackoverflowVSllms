@@ -1,1 +1,0 @@
-$combined = pack('cCvn', -1, 255, 0x1234, 0x5678);\n\n   echo bin2hex($combined) . PHP_EOL; // Outputs: ffff34127856

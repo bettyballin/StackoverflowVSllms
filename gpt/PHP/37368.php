@@ -1,1 +1,0 @@
-<?php\n$variable = 'example_value';\n\n$responses = [\n    'value1' => 'Response for value1',\n    'value2' => 'Response for value2',\n    'value3' => 'Response for value3'\n];\n\nif (array_key_exists($variable, $responses)) {\n    echo $responses[$variable];\n} else {\n    echo "Default response";\n}\n?>

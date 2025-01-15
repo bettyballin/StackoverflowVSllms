@@ -1,1 +1,0 @@
-// PHP code to store session in Redis\n$redis = new Redis();\n$redis->connect('127.0.0.1', 6379);\n$redis->set($session_id, $session_data, $session_lifetime);

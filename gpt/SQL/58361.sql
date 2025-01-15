@@ -1,1 +1,0 @@
-DECLARE @CurrentDateTime DATETIME\nSET @CurrentDateTime = GETDATE()\n\nSELECT \n    SUM(\n        DATEDIFF(MINUTE, Start, \n            CASE \n                WHEN Stop = '9999-12-31 00:00:00.000' THEN @CurrentDateTime \n                ELSE Stop \n            END\n        )\n    ) AS TotalElapsedMinutes\nFROM YourTableName

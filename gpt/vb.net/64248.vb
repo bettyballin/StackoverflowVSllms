@@ -1,1 +1,0 @@
-Public Shared Function AddQuarters(ByVal originalDate As DateTime, ByVal quarters As Integer) As DateTime\n    Return originalDate.AddMonths(quarters * 3)\nEnd Functio

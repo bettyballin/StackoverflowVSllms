@@ -1,1 +1,0 @@
-CREATE USER MAPPING FOR current_user\n   SERVER foreign_db_server\n   OPTIONS (user 'your_username', password 'your_password');

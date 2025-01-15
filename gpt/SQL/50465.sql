@@ -1,1 +1,0 @@
-SELECT *,\n    (SELECT Table1.Column\n     FROM Table1\n     INNER JOIN Table2 AS T2 ON Table1.Table2Id = T2.Id\n     WHERE T2.Id = Table2.Id) as tmp\nFROM Table2\nWHERE \n    (SELECT Table1.Column\n     FROM Table1\n     INNER JOIN Table2 AS T2 ON Table1.Table2Id = T2.Id\n     WHERE T2.Id = Table2.Id) = 1;

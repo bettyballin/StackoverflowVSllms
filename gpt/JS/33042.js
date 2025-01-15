@@ -1,1 +1,0 @@
-$("#personal-details-form-container").html("<%= j render :partial => 'staff_members/update_personal_details' %>");

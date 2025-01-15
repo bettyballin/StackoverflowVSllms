@@ -1,1 +1,0 @@
--- Example in SQL\n   CREATE USER 'app_user'@'localhost' IDENTIFIED BY 'secure_password';\n   GRANT SELECT, INSERT, UPDATE ON database.* TO 'app_user'@'localhost';

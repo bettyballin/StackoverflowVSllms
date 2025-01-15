@@ -1,1 +1,0 @@
-// Get the current date\nvar jsDate = new Date();\n\n// Convert to ISO 8601 string format\nvar isoDateString = jsDate.toISOString(); // Example: "2023-10-04T16:19:00.000Z"\n\n// Store it in a hidden field\ndocument.getElementById('hiddenField').value = isoDateString;

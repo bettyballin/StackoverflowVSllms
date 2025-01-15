@@ -1,1 +1,0 @@
-// Set the precision scale\nbcscale(100);\n\n// Calculate 10^(-0.01) using BCMath\n$power = bcpow('10', '-0.01');\n\n// Output the result\necho $power;\necho "\n";\n\n// Calculate 1 / (10^(0.01)) using BCMath\n$inverse_power = bcdiv('1', bcpow('10', '0.01'));\n\n// Output the result\necho $inverse_power;\necho "\n";

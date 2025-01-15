@@ -1,1 +1,0 @@
-var flashVars = {\n       'PHPSESSID': sessionId\n   };\n\n   var params = {\n       'flashvars': flashVars\n   };\n\n   swfobject.embedSWF("path/to/flash_uploader.swf", "flashContent", "400", "300", "9.0.0", false, flashVars, params);

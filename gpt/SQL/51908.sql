@@ -1,1 +1,0 @@
-SELECT\n    t1.id,\n    t1.title,\n    CASE \n        WHEN t2.link_id = 123 THEN 1\n        ELSE 0\n    END AS refId\nFROM\n    t1\n    LEFT JOIN t2 ON t1.id = t2.title_id AND t2.link_id = 123\nGROUP BY t1.id, t1.title;

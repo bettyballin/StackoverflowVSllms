@@ -1,1 +1,0 @@
-def bid\n  @bid = Bid.new(params[:bid])\n  \n  if @bid.save\n    logger.debug "Bid was successfully saved."\n  else\n    logger.debug "Bid failed to save: #{@bid.errors.full_messages.join(", ")}"\n  end\nend

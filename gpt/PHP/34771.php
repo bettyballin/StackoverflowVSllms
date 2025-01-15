@@ -1,1 +1,0 @@
-$settings = parse_ini_file('settings.ini');\necho $settings['site_name']; // Outputs: My Applicatio

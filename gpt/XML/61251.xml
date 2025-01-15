@@ -1,1 +1,0 @@
-<error-page>\n    <error-code>500</error-code>\n    <location>/path/to/errorPage.jsp</location>\n</error-page>

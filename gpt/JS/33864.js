@@ -1,1 +1,0 @@
-function getCategories() {\n    Documents.Services.DocLookups.GetCategoriesForSelectList(null, onSuccess, onError);\n}\n\nfunction onSuccess(result) {\n    console.log(result);\n}\n\nfunction onError(error) {\n    console.error(error);\n}

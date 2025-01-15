@@ -1,1 +1,0 @@
-User.where(admin: 't').update_all(admin: true)\nUser.where(admin: 'f').update_all(admin: false)

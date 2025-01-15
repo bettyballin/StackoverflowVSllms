@@ -1,1 +1,0 @@
-SET STATISTICS IO ON;\n     SELECT * FROM your_table;\n     SET STATISTICS IO OFF;

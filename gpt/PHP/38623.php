@@ -1,1 +1,0 @@
-// Trigger a 404 Not Found error\nhttp_response_code(404);\nexit();\n\n// Trigger a 500 Internal Server Error\nhttp_response_code(500);\nexit();

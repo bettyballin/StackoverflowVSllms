@@ -1,1 +1,0 @@
-$data = [];\n    for ($i = 0; $i < 1000; $i++) {\n        $data[] = "('IP_$i', NOW(), 'http_referer_$i')";\n    }\n    $values = implode(',', $data);\n    $query = "INSERT INTO stats_table (ip, visit_time, http_referer) VALUES $values";\n    mysqli_query($connection, $query);

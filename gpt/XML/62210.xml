@@ -1,1 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">\n\n  <PropertyGroup>\n    <OutputType>Library</OutputType>\n    <TargetFramework>net5.0</TargetFramework>\n    <MyType>Empty</MyType>\n  </PropertyGroup>\n\n</Project>

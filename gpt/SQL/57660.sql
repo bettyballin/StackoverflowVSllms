@@ -1,1 +1,0 @@
-CREATE TABLE xml_data (\n    id NUMBER PRIMARY KEY,\n    xml_content XMLType\n);

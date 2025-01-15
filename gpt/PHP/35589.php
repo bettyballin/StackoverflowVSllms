@@ -1,1 +1,0 @@
-echo $this->Form->create('Upload', array('action' => 'uploadAction'));\necho $this->Form->input('source_id');\necho $this->Form->end('Submit');

@@ -1,1 +1,0 @@
-<?php\n   namespace App\Controllers;\n\n   class IndexController {\n       // Class implementation\n   }

@@ -1,1 +1,0 @@
-DELETE FROM `session` WHERE `t_updated` < (NOW() - INTERVAL 1 HOUR);

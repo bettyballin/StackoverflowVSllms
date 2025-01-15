@@ -1,1 +1,0 @@
-session_start([\n       'cookie_lifetime' => 86400,\n       'cookie_httponly' => true,\n       'cookie_secure' => true,\n       'use_strict_mode' => true,\n       'use_only_cookies' => true,\n       'sid_length' => 48,\n       'sid_bits_per_character' => 6,\n   ]);

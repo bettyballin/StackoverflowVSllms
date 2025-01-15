@@ -1,1 +1,0 @@
-import gnupg\n\n# Initialize the GPG instance\ngpg = gnupg.GPG()\n\n# Generate key input data\ninput_data = gpg.gen_key_input(\n    name_email='user@example.com',\n    passphrase='your_passphrase'\n)\n\n# Generate the key\nkey = gpg.gen_key(input_data)\n\n# Print the key fingerprint\nprint(f'Key fingerprint: {key.fingerprint}')

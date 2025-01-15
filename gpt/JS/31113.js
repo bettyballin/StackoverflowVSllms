@@ -1,1 +1,0 @@
-function logImpersonation(adminId, userId) {\n       // Log the impersonation event\n       auditLog("Impersonation", {\n           adminId: adminId,\n           userId: userId,\n           timestamp: new Date(),\n       });\n   }

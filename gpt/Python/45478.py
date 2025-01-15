@@ -1,1 +1,0 @@
-def count_partitions(n):\n    dp = [[0] * (n + 1) for _ in range(n + 1)]\n\n    for k in range(n + 1):\n        dp[0][k] = 1\n\n    for i in range(1, n + 1):\n        for j in range(1, n + 1):\n            dp[i][j] = dp[i][j - 1]\n            if i - j >= 0:\n                dp[i][j] += dp[i - j][j]\n\n    return dp[n][n - 1]\n\nprint(count_partitions(100))

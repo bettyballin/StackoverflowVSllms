@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN score BETWEEN 0 AND 9 THEN '0-9'\n        WHEN score BETWEEN 10 AND 19 THEN '10-19'\n        WHEN score BETWEEN 20 AND 29 THEN '20-29'\n        -- Add more ranges as needed\n        ELSE 'Other'\n    END AS score_range,\n    COUNT(*) AS number_of_occurrences\nFROM \n    your_table_name\nGROUP BY \n    score_range\nORDER BY \n    score_range;

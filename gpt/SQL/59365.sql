@@ -1,1 +1,0 @@
-SELECT afield1, COUNT(*) as cnt\nFROM afile\nGROUP BY afield1\nHAVING COUNT(*) > 1;

@@ -1,1 +1,0 @@
-function openPopup() {\n    var url = "https://www.example.com";\n    var title = "MyPopup";\n    var width = 600;\n    var height = 400;\n    var left = 100;\n    var top = 100;\n\n    var features = `width=${width},height=${height},left=${left},top=${top},resizable=no`;\n\n    window.open(url, title, features);\n}

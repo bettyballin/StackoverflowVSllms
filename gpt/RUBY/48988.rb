@@ -1,1 +1,0 @@
-rails generate controller RegistrationWizard

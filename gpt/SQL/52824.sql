@@ -1,1 +1,0 @@
-WITH CTE AS (\n    SELECT\n        Id,\n        Hospital,\n        Doctor,\n        Patient,\n        ROW_NUMBER() OVER (PARTITION BY Hospital, Doctor ORDER BY Id) AS rn\n    FROM\n        your_table\n)\nSELECT\n    Id,\n    Hospital,\n    Doctor,\n    Patient\nFROM\n    CTE\nWHERE\n    rn = 1\nORDER BY\n    Hospital,\n    Doctor;

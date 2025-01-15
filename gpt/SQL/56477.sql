@@ -1,1 +1,0 @@
-CREATE TRIGGER trigger_cascade_soft_delete\nAFTER UPDATE OF is_deleted ON parent_table\nFOR EACH ROW\nEXECUTE FUNCTION cascade_soft_delete();

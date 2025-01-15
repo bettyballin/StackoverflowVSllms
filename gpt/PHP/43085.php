@@ -1,1 +1,0 @@
-$stack = new SplStack();\n   $stack->push(1);\n   $stack->push(2);

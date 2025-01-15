@@ -1,1 +1,0 @@
-BEGIN\n    EXECUTE IMMEDIATE 'DROP TABLE YourTempTable';\nEXCEPTION\n    WHEN OTHERS THEN\n        IF SQLCODE != -942 THEN\n            RAISE;\n        END IF;\nEND;

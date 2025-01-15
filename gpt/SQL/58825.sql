@@ -1,1 +1,0 @@
-CREATE TABLE #MapTable (Category varchar(40), Code char(5));\n\nINSERT INTO #MapTable (Category, Code)\nSELECT 'Category1', 'Code1'\nUNION ALL\nSELECT 'Category1', 'Code2'\nUNION ALL\nSELECT 'Category1', 'Code3'\nUNION ALL\nSELECT 'Category2', 'Code1'\nUNION ALL\nSELECT 'Category2', 'Code2'\nUNION ALL\nSELECT 'Category2', 'Code3'\n-- Continue with other categories and their codes

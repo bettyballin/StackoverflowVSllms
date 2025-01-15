@@ -1,1 +1,0 @@
-print("Content-type: text/html\r\n\r\n")\nprint("<html><body><h1>Hello, World!</h1></body></html>")

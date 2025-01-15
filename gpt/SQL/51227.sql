@@ -1,1 +1,0 @@
-SELECT column1, column2, column3  -- List all columns except BLOB\nFROM FOO;

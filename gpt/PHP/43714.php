@@ -1,1 +1,0 @@
-function get_value($array, $key, $default = null) {\n    return isset($array[$key]) ? $array[$key] : $default;\n}\n\n$p = get_value($_GET, 'p');\n$action = get_value($_GET, 'action');\n\nif ($p == "account.edit.topfriends" || \n    $action == "newmember" || \n    $p == "account.profile.name") {\n    //some more code here\n}

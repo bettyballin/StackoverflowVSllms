@@ -1,1 +1,0 @@
-use Zend\Filter\StringTrim;\n\n$filter = new StringTrim();\n\n$userInput = "   Some text with spaces   ";\n$filteredInput = $filter->filter($userInput);\n\necho $filteredInput;  // "Some text with spaces"

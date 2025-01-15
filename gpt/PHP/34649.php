@@ -1,1 +1,0 @@
-<?php\n// Set the domain explicitly\n$domain = '.yourdomain.com'; // Replace with your actual domain\n\n// Expire the cookies\nsetcookie('reitinvestor_user', '', time() - 3600, '/', $domain);\nsetcookie('reitinvestor_pass', '', time() - 3600, '/', $domain);\n\necho '<pre>'; \nprint_r($_COOKIE); \necho '</pre>';\n\nexit;\n?>

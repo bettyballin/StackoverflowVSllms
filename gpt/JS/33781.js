@@ -1,1 +1,0 @@
-$(function() {\n    $("#datepicker").datepicker({\n        dateFormat: "dd/mm/yy",\n        changeMonth: true,\n        changeYear: true\n    });\n});

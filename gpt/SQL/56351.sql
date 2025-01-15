@@ -1,1 +1,0 @@
-999999' And char(124)+(Select Cast(Count(1) as varchar(8000))+char(124) From [sysobjects] Where 1=1)>0 and ''=''

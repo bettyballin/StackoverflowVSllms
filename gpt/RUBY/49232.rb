@@ -1,1 +1,0 @@
-rails db:create\nrails db:migrate

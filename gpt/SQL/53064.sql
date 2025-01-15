@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\nUPDATE your_table\nSET priority = CASE\n    WHEN priority = 1 THEN 5\n    WHEN priority = 2 THEN 4\n    WHEN priority = 3 THEN 3\n    WHEN priority = 4 THEN 2\n    WHEN priority = 5 THEN 1\nEND;\n\nCOMMIT;

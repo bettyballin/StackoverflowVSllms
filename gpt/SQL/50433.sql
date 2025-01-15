@@ -1,1 +1,0 @@
-CREATE TABLE Employee (\n    EmployeeID INT PRIMARY KEY,\n    FirstName VARCHAR(50),\n    LastName VARCHAR(50),\n    DepartmentID INT\n);\n\nCREATE TABLE Department (\n    DepartmentID INT PRIMARY KEY,\n    DepartmentName VARCHAR(50)\n);\n\nALTER TABLE Employee\nADD CONSTRAINT FK_Department\nFOREIGN KEY (DepartmentID) REFERENCES Department(DepartmentID);

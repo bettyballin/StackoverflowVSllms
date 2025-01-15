@@ -1,1 +1,0 @@
-SELECT * \nFROM pg_stat_activity \nWHERE query LIKE '%your_table_name%';

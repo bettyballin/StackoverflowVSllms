@@ -1,1 +1,0 @@
-SELECT \n    p.id, \n    r.title, \n    r.number\nFROM \n    page p\nINNER JOIN \n    revision r ON p.id = r.pageId\nINNER JOIN \n    (SELECT pageId, MAX(number) as max_number\n     FROM revision\n     GROUP BY pageId) sub \n    ON r.pageId = sub.pageId AND r.number = sub.max_number;

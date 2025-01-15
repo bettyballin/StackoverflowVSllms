@@ -1,1 +1,0 @@
-<configuration>\n     <system.web>\n       <authentication mode="Forms">\n         <forms loginUrl="~/Login.aspx" timeout="30" />\n       </authentication>\n       <authorization>\n         <deny users="?" />\n         <allow roles="Admin" />\n       </authorization>\n     </system.web>\n   </configuration>

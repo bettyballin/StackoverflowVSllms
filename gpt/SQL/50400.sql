@@ -1,1 +1,0 @@
-CREATE TABLE Employees (\n    EmployeeID int PRIMARY KEY,\n    EmailAddress varchar(255) UNIQUE\n);

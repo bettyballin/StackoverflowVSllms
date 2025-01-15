@@ -1,1 +1,0 @@
-$config = parse_ini_file('settings.ini', true);\n$uploadDir = $config['upload_dir'];\n$displayNum = filter_var($config['display_num'], FILTER_VALIDATE_BOOLEAN);\n$names = $config['names'];

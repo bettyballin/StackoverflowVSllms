@@ -1,1 +1,0 @@
-<?php\n$cookies = 100;\nwhile ($cookies > 0) {\n    $cookies -= 1;\n?>\n    <b>Fatty has </b><?php echo htmlspecialchars($cookies); ?> <b>cookies left.</b><br>\n<?php\n}\n?>

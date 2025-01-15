@@ -1,1 +1,0 @@
--- Example for inserting a reply attribute\nINSERT INTO radreply (username, attribute, op, value)\nVALUES ('username', 'Reply-Message', '=', 'Welcome to the network');\n\n-- Example for inserting a check attribute\nINSERT INTO radcheck (username, attribute, op, value)\nVALUES ('username', 'Cleartext-Password', ':=', 'password');

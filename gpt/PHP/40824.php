@@ -1,1 +1,0 @@
-'Session' => [\n    'defaults' => 'database',\n    'handler' => [\n        'engine' => 'DatabaseSession',\n        'model' => 'Sessions', // The name of the table created above\n    ],\n],

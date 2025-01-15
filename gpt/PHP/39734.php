@@ -1,1 +1,0 @@
-<?php\n    // bootstrap.php\n    require 'vendor/autoload.php';\n    // Initialize your framework\n    // MyFramework::initialize();

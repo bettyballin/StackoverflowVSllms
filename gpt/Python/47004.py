@@ -1,1 +1,0 @@
-# initialize_django.py\n   import os\n   import django\n\n   os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings')\n   django.setup()

@@ -1,1 +1,0 @@
-SELECT q.*, other_table.*\nFROM (\n    SELECT TOP 1 *\n    FROM Questions\n    ORDER BY ID DESC\n) AS q\nJOIN other_table ON q.some_field = other_table.some_field;

@@ -1,1 +1,0 @@
-const request = require('request');\n\nconst url = 'https://example.com/iframe-content'; // URL of the iframe content\n\nrequest(url, (error, response, body) => {\n    if (!error && response.statusCode == 200) {\n        console.log(body); // body contains the HTML content of the iframe\n        // Store body in your database\n    }\n});

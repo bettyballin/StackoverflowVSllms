@@ -1,1 +1,0 @@
-CREATE DATABASE my_database\nCHARACTER SET utf8mb4\nCOLLATE utf8mb4_unicode_ci;

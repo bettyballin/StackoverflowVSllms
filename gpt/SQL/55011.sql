@@ -1,1 +1,0 @@
-ALTER TABLE contractor_contractor RENAME CONSTRAINT commerce_contractor_pkey TO new_constraint_name;

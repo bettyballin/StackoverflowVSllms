@@ -1,1 +1,0 @@
-<?php\n   $mysqli = new mysqli("localhost", "username", "password", "database");\n\n   // Check connection\n   if ($mysqli->connect_error) {\n       die("Connection failed: " . $mysqli->connect_error);\n   }\n   echo "Connected successfully";\n   ?>

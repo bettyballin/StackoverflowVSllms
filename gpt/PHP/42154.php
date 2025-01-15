@@ -1,1 +1,0 @@
-<?php\n// Create a DateTime object for today's date\n$today = new DateTime();\n\n// Clone the DateTime object and modify it to get the date 7 days ago\n$seven_days_ago = clone $today;\n$seven_days_ago->modify('-7 days');\n\n// Format the dates to get the required output\n$time_span = $seven_days_ago->format('F j') . ' - ' . $today->format('F j');\n\necho $time_span;\n?>

@@ -1,1 +1,0 @@
-function validateEmail(email) {\n  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;\n  return emailRegex.test(email);\n}\n\n// Usage example:\nconst email = "example@example.com";\nif (validateEmail(email)) {\n  console.log("Valid email address");\n} else {\n  console.log("Invalid email address");\n}

@@ -1,1 +1,0 @@
-setInterval(function() {\n    fetch('/heartbeat', {\n        method: 'POST'\n    });\n}, 30000); // Send a heartbeat every 30 seconds

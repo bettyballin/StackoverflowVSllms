@@ -1,1 +1,0 @@
-Sub Main()\n    Dim files As New List(Of FileInfo) From {\n        New FileInfo("file1.txt"),\n        New FileInfo("file2.txt"),\n        New FileInfo("file3.txt")\n    }\n\n    Example.RandomizeFileInfoList(files)\n\n    ' Output the randomized list\n    For Each file As FileInfo In files\n        Console.WriteLine(file.Name)\n    Next\nEnd Sub

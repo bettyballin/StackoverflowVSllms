@@ -1,1 +1,0 @@
-<?php\nfunction getNetworkAddress($ip, $cidr) {\n    $ip = ip2long($ip);\n    $mask = ~((1 << (32 - $cidr)) - 1);\n    $network = $ip & $mask;\n    \n    return long2ip($network);\n}\n\n$ip = "193.95.221.54";\n$cidr = 22;\n\necho getNetworkAddress($ip, $cidr); // Output: 193.95.220.0\n?>

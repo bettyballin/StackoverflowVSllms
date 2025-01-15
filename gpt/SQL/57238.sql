@@ -1,1 +1,0 @@
-SELECT s.id\nFROM stack s\nWHERE size(s.category) > 0

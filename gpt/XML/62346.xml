@@ -1,1 +1,0 @@
-<persistence-unit name="myUnit">\n    <properties>\n        <property name="javax.persistence.sharedCache.mode" value="NONE"/>\n    </properties>\n</persistence-unit>

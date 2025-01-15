@@ -1,1 +1,0 @@
--- Drop existing index if necessary\nDROP INDEX existing_index_name ON your_table_name;\n\n-- Add unique index\nALTER TABLE your_table_name ADD UNIQUE (url_column);

@@ -1,1 +1,0 @@
-SELECT AccountNumber, EventID, \n       CreateDate, [ITEMBOOK] AS ITEMBOOK, \n       [POSTER] AS POSTER\nFROM\n    (SELECT ProductID, Quantity, EventID, AccountNumber, CreateDate\n     FROM #tmpStartupItems) ps\nPIVOT\n(\n    SUM(Quantity)\n    FOR ProductID IN ([ITEMBOOK], [POSTER])\n) AS pvt;

@@ -1,1 +1,0 @@
-puts ie.td(:xpath, "//td[img[@src='3.jpg']]").text

@@ -1,1 +1,0 @@
-function storeUserCredentials($email, $password) {\n    $hashedPassword = password_hash($password, PASSWORD_BCRYPT);\n    // Store $email and $hashedPassword in your database\n}

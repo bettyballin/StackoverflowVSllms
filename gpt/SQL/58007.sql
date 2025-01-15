@@ -1,1 +1,0 @@
-FROM incidents AS inc\nFROM cause_attack AS cattack\nFROM obscure_table AS obsc_tbl

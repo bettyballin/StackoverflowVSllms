@@ -1,1 +1,0 @@
-ini_set('include_path', '.;c:\xampp\htdocs\application\includes');\nini_set('default_charset', 'UTF-8');\n// other ini_set() calls as needed

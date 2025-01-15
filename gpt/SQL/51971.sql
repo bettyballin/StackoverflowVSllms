@@ -1,1 +1,0 @@
-SHOW VARIABLES LIKE 'char%';\n   SHOW CREATE DATABASE your_database_name;\n   SHOW CREATE TABLE your_table_name;

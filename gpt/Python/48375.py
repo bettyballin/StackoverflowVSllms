@@ -1,1 +1,0 @@
-# settings.py for New Relic\n   NEW_RELIC_CONFIG_FILE = '/path/to/newrelic.ini'\n   newrelic.agent.initialize(NEW_RELIC_CONFIG_FILE)

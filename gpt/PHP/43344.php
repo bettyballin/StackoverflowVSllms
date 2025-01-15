@@ -1,1 +1,0 @@
-session_start();\n?>\n\n<form method="POST" action="page.php">\n    <input type="hidden" name="token" value="<?php echo session_id(); ?>">\n    <input type="submit" value="Submit">\n</form>

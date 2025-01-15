@@ -1,1 +1,0 @@
-<?php\n   header('Content-Type: application/json');\n\n   // Your PHP code here\n   // Example JSON response\n   $response = array("status" => "success", "data" => $data);\n   echo json_encode($response);\n   ?>

@@ -1,1 +1,0 @@
-<script>\n     var easyMDE = new EasyMDE({ element: document.getElementById('markdown-editor') });\n   </script>

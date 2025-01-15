@@ -1,1 +1,0 @@
-CREATE TABLE article_tags (\n       article_id INT NOT NULL,\n       tag_id INT NOT NULL,\n       PRIMARY KEY (article_id, tag_id),\n       FOREIGN KEY (article_id) REFERENCES news(id) ON DELETE CASCADE,\n       FOREIGN KEY (tag_id) REFERENCES tags(id) ON DELETE CASCADE,\n       INDEX (tag_id),\n       INDEX (article_id)\n   );

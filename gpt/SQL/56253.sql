@@ -1,1 +1,0 @@
-CREATE TABLE example_table (\n    id INT PRIMARY KEY,\n    name VARCHAR(255) DEFAULT NULL\n);

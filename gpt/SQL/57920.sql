@@ -1,1 +1,0 @@
-CREATE INDEX IX_UserName ON aspnet_Users(UserName);

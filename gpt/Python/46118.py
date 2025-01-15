@@ -1,1 +1,0 @@
-# In your Flask route\nfrom flask import render_template\n\n@app.route('/')\ndef home():\n    return render_template('index.html')\n\n# In your template file (index.html)\n{% include 'header.html' %}\n<p>Some content here...</p>\n{% include 'footer.html' %}

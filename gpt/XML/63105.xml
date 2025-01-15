@@ -1,1 +1,0 @@
-<configuration>\n     <system.webServer>\n       <handlers>\n         <add name="CustomFileHandler" path="*.jpg" verb="*" type="Namespace.CustomFileHandler, AssemblyName" resourceType="Unspecified" />\n       </handlers>\n     </system.webServer>\n   </configuration>

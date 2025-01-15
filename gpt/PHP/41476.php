@@ -1,1 +1,0 @@
-<?php\n// Properly sanitize and encode user input\n$user_input = htmlspecialchars($_GET['whuh_you_say'], ENT_QUOTES, 'UTF-8');\n\necho '<textarea>';\necho $user_input;\necho '</textarea>';\n?>

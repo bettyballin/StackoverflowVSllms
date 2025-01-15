@@ -1,1 +1,0 @@
-from selenium import webdriver\n\ndriver = webdriver.Chrome()\ndriver.get('http://your-hta-page-url')\n\nfile_input = driver.find_element_by_id('fileInput')\nfile_input.send_keys('C:\\path\\to\\your\\file.txt')\n\n# Optionally submit the form\nsubmit_button = driver.find_element_by_xpath('//input[@type="submit"]')\nsubmit_button.click()

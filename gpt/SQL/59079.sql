@@ -1,1 +1,0 @@
-ALTER TABLE your_table\n     ADD created_date DATETIME DEFAULT GETDATE();

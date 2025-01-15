@@ -1,1 +1,0 @@
-jruby -S rails server -e productio

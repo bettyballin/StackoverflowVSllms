@@ -1,1 +1,0 @@
-let url = new URL("https://www.example.com/search?query=security&sort=asc");\n   let queryParams = new URLSearchParams(url.search);\n   console.log(queryParams.get("query")); // Outputs: security\n   console.log(queryParams.get("sort"));  // Outputs: asc

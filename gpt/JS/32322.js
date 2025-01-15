@@ -1,1 +1,0 @@
-const numbers = [4, 2, 5, 1, 3];\nnumbers.sort((a, b) => a - b); // Sorts the array in ascending order\nconsole.log(numbers); // Output: [1, 2, 3, 4, 5]

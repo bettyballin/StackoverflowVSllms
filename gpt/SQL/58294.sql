@@ -1,1 +1,0 @@
-USE YourDatabase;\n    CREATE CERTIFICATE LimitedAccessCert\n    FROM FILE = 'path_to_certificate_file'\n    WITH PRIVATE KEY (\n        FILE = 'path_to_private_key_file',\n        DECRYPTION BY PASSWORD = 'StrongPassword123'\n    );

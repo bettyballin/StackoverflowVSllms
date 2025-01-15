@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <security>\n      <requestFiltering>\n        <verbs>\n          <add verb="PUT" allowed="false" />\n        </verbs>\n      </requestFiltering>\n    </security>\n  </system.webServer>\n</configuration>

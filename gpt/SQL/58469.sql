@@ -1,1 +1,0 @@
-SELECT play_date, COUNT(DISTINCT email) AS count \nFROM log \nWHERE type = 'play'\nAND play_date BETWEEN '2009-02-23' AND '2009-02-24'\nGROUP BY play_date \nORDER BY play_date DESC;

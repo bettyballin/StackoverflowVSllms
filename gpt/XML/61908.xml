@@ -1,1 +1,0 @@
-<subsystem xmlns="urn:jboss:domain:web:2.4">\n    <jsp-configuration development="true"/>\n    <!-- other configurations -->\n</subsystem>

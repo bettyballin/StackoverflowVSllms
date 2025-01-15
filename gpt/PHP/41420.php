@@ -1,1 +1,0 @@
-if ($variable) {\n       // Executes if $variable is truthy\n   }

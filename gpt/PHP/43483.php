@@ -1,1 +1,0 @@
-// In a Controller\n   $validatedData = $request->validate([\n       'name' => 'required|max:255',\n       'email' => 'required|email|unique:users',\n       'password' => 'required|confirmed|min:8',\n   ]);

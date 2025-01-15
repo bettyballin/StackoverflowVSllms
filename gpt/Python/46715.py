@@ -1,1 +1,0 @@
-# Statement 2\nvar2 = 2*2*3

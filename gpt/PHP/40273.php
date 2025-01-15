@@ -1,1 +1,0 @@
-<?php\n$targetDir = "uploads/";\nif (!file_exists($targetDir)) {\n    mkdir($targetDir, 0777, true);\n}\n \nforeach ($_FILES as $file) {\n    $targetFile = $targetDir . basename($file["name"]);\n    if (move_uploaded_file($file["tmp_name"], $targetFile)) {\n        echo "File uploaded successfully.";\n    } else {\n        echo "Error uploading file.";\n    }\n}\n?>

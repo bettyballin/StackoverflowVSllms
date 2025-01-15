@@ -1,1 +1,0 @@
-DECLARE @varcharValue VARCHAR(50) = '0x0000000002C490C8';\nDECLARE @binaryValue BINARY(8);\n\n-- Convert the VARCHAR to BINARY\nSET @binaryValue = CONVERT(BINARY(8), @varcharValue, 1);\n\n-- Now you can use the @binaryValue directly as a TIMESTAMP\n-- or pass it to a stored procedure\nEXEC YourStoredProc @timestampParam = @binaryValue;

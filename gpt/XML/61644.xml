@@ -1,1 +1,0 @@
-<servlet-mapping>\n        <servlet-name>MyServlet</servlet-name>\n        <url-pattern>/something/*</url-pattern>\n    </servlet-mapping>

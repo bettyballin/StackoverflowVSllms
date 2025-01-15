@@ -1,1 +1,0 @@
-document.getElementById('load-more').addEventListener('click', function() {\n        fetch('/load-more-content')\n            .then(response => response.json())\n            .then(data => {\n                // Append new content to the page\n            });\n    });

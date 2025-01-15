@@ -1,1 +1,0 @@
-SELECT utl_file.get_line('DIRECTORY_ALIAS', 'mac_address.txt') AS mac_address\nFROM dual;

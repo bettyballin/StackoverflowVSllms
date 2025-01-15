@@ -1,1 +1,0 @@
-const canvas = document.querySelector('canvas');\n\ncanvas.addEventListener('mousemove', function(event) {\n    const rect = canvas.getBoundingClientRect();\n    const x = event.clientX - rect.left;\n    const y = event.clientY - rect.top;\n    \n    console.log("Mouse position: x=" + x + ", y=" + y);\n});

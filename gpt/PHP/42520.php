@@ -1,1 +1,0 @@
-// redirect.php\n<?php\nsession_start();\nif (isset($_GET['target'])) {\n    $target = $_GET['target'];\n    // Add any specific session handling logic here if needed\n    header("Location: " . $target);\n    exit();\n} else {\n    echo "No target specified.";\n}\n?>

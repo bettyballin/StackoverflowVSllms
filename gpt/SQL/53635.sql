@@ -1,1 +1,0 @@
-ALTER INDEX index_name ON table_name REBUILD;

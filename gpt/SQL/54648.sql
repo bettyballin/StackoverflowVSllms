@@ -1,1 +1,0 @@
-CREATE PROCEDURE dbo.MyStoredProc\n    (\n        @List1 dbo.IntList READONLY,\n        @List2 dbo.IntList READONLY\n    )\n    AS\n    BEGIN\n        -- Example usage: Select all values from both lists\n        SELECT * FROM @List1;\n        SELECT * FROM @List2;\n\n        -- Add your logic here\n    END;

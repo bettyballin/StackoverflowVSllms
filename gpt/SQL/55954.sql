@@ -1,1 +1,0 @@
-SELECT *\nFROM Product\nORDER BY CASE WHEN featured = 'Y' THEN 0 ELSE 1 END\nLIMIT 1;

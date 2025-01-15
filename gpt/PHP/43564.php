@@ -1,1 +1,0 @@
-<?php\n    header('Content-Type: application/json');\n    $array = [\n        ["name" => "STA", "distance" => "250", "code" => 25],\n        ["name" => "GIS", "distance" => "500", "code" => 45]\n    ];\n    echo json_encode($array);\n?>

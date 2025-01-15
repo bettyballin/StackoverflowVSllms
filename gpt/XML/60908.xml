@@ -1,1 +1,0 @@
-<configuration>\n  <connectionStrings>\n    <add name="test" \n         providerName="System.Data.OracleClient" \n         connectionString="Data Source=XE;User Id=your_username;Password=your_password;" />\n  </connectionStrings>\n</configuration>

@@ -1,1 +1,0 @@
-[\n    {'name': 'Monty', 'age': 42},\n    {'name': 'Matt', 'age': 28},\n    {'name': 'Frank', 'age': 33}\n]

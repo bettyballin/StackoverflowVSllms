@@ -1,1 +1,0 @@
-q=(field1:value* AND field2:"exact_value" AND field3:*contain_value* AND -field4:*exclude_value* AND field5:[10 TO 20])

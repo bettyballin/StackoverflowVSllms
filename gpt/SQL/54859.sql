@@ -1,1 +1,0 @@
-CREATE TABLE search_index (\n    id INT PRIMARY KEY,\n    title VARCHAR(255),\n    description TEXT,\n    keywords VARCHAR(255),\n    FULLTEXT (title, description, keywords)\n);

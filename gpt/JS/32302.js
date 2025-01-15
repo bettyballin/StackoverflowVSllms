@@ -1,1 +1,0 @@
-let array = ["Hello", "World", "!"];\n\n// Clear the array\narray.length = 0;

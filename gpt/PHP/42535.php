@@ -1,1 +1,0 @@
-// Assuming you have the ACL component loaded in your controller\n$this->Acl->allow(array('model' => 'Group', 'foreign_key' => 2), 'controllers/Posts/index');\n$this->Acl->deny(array('model' => 'Group', 'foreign_key' => 3), 'controllers/Posts/delete');

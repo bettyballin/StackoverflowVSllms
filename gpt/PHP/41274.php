@@ -1,1 +1,0 @@
-<?php\nfunction getConfig($key) {\n    static $config = null;\n    if ($config === null) {\n        $config = require 'path/to/config.php';\n    }\n    return isset($config[$key]) ? $config[$key] : null;\n}\n\n// Usage\n$dbHost = getConfig('db_host');\n$apiKey = getConfig('api_key');

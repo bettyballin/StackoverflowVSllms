@@ -1,1 +1,0 @@
-$reg = "/\[\{(false|true)\};\{([^}]+)\};\{(\d+)\}\]/";\npreg_match_all($reg, "[{false};{abcde};{10}][{true};{fghij};{10}]", $matches);\nprint_r($matches);

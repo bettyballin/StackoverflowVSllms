@@ -1,1 +1,0 @@
-Rails.application.routes.draw do\n  # Public routes\n  get '/:user_login/workouts/:id', to: 'workouts#show', as: :public_workout\n\n  # Existing routes for the current user\n  resource :account, controller: 'users', only: [:show, :update, :destroy]\n\n  resources :workouts do\n    resource :chart, only: [:show]\n    resources :taggings, only: [:destroy, :create]\n  end\nend

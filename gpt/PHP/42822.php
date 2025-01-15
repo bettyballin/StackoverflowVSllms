@@ -1,1 +1,0 @@
-file_put_contents('output.bin', $str, FILE_BINARY);\nfile_put_contents('output.bin', $id, FILE_BINARY | FILE_APPEND);

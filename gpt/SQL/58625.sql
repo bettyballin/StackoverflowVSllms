@@ -1,1 +1,0 @@
-UPDATE table_paid\nSET delta_balance = table_paid.post_balance - ts.balance_due\nFROM table_snapshot ts\nWHERE table_paid.account_no = ts.account_no;

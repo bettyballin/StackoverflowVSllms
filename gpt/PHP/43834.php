@@ -1,1 +1,0 @@
-// en.php\n   return [\n       'welcome' => 'Welcome to our website',\n       'login' => 'Login',\n       'logout' => 'Logout'\n   ];\n\n   // es.php\n   return [\n       'welcome' => 'Bienvenido a nuestro sitio web',\n       'login' => 'Iniciar sesión',\n       'logout' => 'Cerrar sesión'\n   ];

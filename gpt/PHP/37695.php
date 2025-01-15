@@ -1,1 +1,0 @@
-$filePath = __DIR__ . DIRECTORY_SEPARATOR . 'file.txt';

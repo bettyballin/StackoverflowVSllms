@@ -1,1 +1,0 @@
-Imports System.ComponentModel\n\nClass MainWindow\n\n    Private Sub Window_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing\n        If MessageBox.Show("Do you really want to close?", "Confirm", MessageBoxButton.YesNo) = MessageBoxResult.No Then\n            e.Cancel = True\n            Me.Hide()\n        End If\n    End Sub\n\nEnd Class

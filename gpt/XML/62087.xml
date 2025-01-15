@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>io.cloudsoft.winrm4j</groupId>\n    <artifactId>winrm4j</artifactId>\n    <version>0.7.0</version>\n</dependency>

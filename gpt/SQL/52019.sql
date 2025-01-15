@@ -1,1 +1,0 @@
-EXEC GetNewsUntilEntryFound @initialDays = 31;

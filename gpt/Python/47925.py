@@ -1,1 +1,0 @@
-from tkinter import Tk, Frame, Label, X\n\nroot = Tk()\n\nf = Frame(root, width=1000, height=500, bg="blue")\nf.pack(fill=X, expand=True)\nf.pack_propagate(False)  # Prevent the frame from shrinking to fit its contents\n\nl = Label(f, text="hi", width=10, bg="red", fg="white")\nl.pack()\n\nroot.mainloop()

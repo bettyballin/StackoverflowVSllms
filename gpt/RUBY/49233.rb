@@ -1,1 +1,0 @@
-class YourController < ApplicationController\n  def update_lques\n    # Fetch the data based on the selected editlevel_id\n    lques = Lque.where(editlevel_id: params[:editlevel_id])\n    \n    respond_to do |format|\n      format.json { render json: lques }\n    end\n  end\nend

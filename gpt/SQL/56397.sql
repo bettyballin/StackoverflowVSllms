@@ -1,1 +1,0 @@
-WITH OrderedResults AS\n(\n    SELECT \n        *, \n        ROW_NUMBER() OVER (ORDER BY YourPrimaryKeyColumn) AS RowNumber\n    FROM \n        YourTable\n)\nSELECT \n    *\nFROM \n    OrderedResults\nWHERE \n    RowNumber BETWEEN (@PageNumber-1)*@PageSize+1 AND @PageNumber*@PageSize\nORDER BY \n    RowNumber;

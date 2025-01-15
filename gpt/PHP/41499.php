@@ -1,1 +1,0 @@
-if (isset($_GET["cmd"])) {\n       $cmd = filter_input(INPUT_GET, 'cmd', FILTER_SANITIZE_STRING);\n   } else {\n       $cmd = '';\n   }

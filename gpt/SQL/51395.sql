@@ -1,1 +1,0 @@
-SELECT * \nFROM your_table \nWHERE purchased >= DATE_SUB(DATE(NOW()), INTERVAL (WEEKDAY(NOW()) + 1 + 7) DAY) \nAND purchased < DATE_SUB(DATE(NOW()), INTERVAL (WEEKDAY(NOW()) + 1) DAY);

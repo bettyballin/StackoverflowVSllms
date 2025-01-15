@@ -1,1 +1,0 @@
-BEGIN DISTRIBUTED TRANSACTION;\n-- Replace with your linked server and table names\nSELECT * FROM YourLinkedServer.YourDatabase.dbo.YourTable;\nCOMMIT TRANSACTION;

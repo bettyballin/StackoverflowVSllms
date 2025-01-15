@@ -1,1 +1,0 @@
-#If DEBUG Then\n    #Error "This is a compile-time error message for DEBUG mode"\n#End If

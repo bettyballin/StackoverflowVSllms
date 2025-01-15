@@ -1,1 +1,0 @@
-$num_one = rand() % 10;\n$num_two = rand() & 10;

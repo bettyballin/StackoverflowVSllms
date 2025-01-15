@@ -1,1 +1,0 @@
-<?php\necho "\033[31mThis is red text.\033[0m\n";\necho "\033[32mThis is green text.\033[0m\n";\necho "\033[1;34mThis is bold blue text.\033[0m\n";\n?>

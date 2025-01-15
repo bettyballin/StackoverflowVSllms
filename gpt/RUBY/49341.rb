@@ -1,1 +1,0 @@
-require 'json'\nputs JSON.methods - Module.methods

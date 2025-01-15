@@ -1,1 +1,0 @@
-Dim client As New WebClient()\nDim uri As New Uri("http://yourserver.com/upload.php")\nDim filePath As String = "C:\path\to\your\file.png"\n\nclient.Headers.Add("Content-Type", "multipart/form-data")\nDim response As Byte() = client.UploadFile(uri, "POST", filePath)\n\nDim responseString As String = Text.Encoding.UTF8.GetString(response)\nConsole.WriteLine(responseString)

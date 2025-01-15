@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION decrement_unread_count() RETURNS TRIGGER AS $$\n   BEGIN\n       IF NEW.is_read THEN\n           UPDATE unread_comments_count\n           SET unread_count = unread_count - 1\n           WHERE article_id = NEW.article_id;\n       END IF;\n       RETURN NEW;\n   END;\n   $$ LANGUAGE plpgsql;

@@ -1,1 +1,0 @@
-ALTER TABLE Records ALTER COLUMN Field1 SET NULL;\nALTER TABLE Records ALTER COLUMN Field2 SET NULL;\n-- Repeat for other fields as necessary

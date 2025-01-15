@@ -1,1 +1,0 @@
-SELECT utl_match.edit_distance(\n    utl_i18n.transliterate('á', 'Latin-ASCII'),\n    utl_i18n.transliterate('b', 'Latin-ASCII')\n) AS edit_distance\nFROM dual;

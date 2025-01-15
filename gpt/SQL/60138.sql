@@ -1,1 +1,0 @@
-SELECT\n    shipment_id,\n    MIN(time) AS start,\n    MAX(time) AS end\nFROM\n    test\nGROUP BY\n    shipment_id;

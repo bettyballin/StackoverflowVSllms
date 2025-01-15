@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    var $form = $('#aspnetForm');\n    $form.off('submit'); // Remove existing onsubmit handler\n\n    $form.on('submit', function(event) {\n        event.preventDefault(); // Prevent form submission\n        alert('Custom Submit Handler');\n        // Your custom code here\n    });\n});

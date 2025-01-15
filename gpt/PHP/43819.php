@@ -1,1 +1,0 @@
-<?php\nrequire __DIR__ . '/../vendor/autoload.php';\n\nuse App\Controllers\HomeController;\n\n$controller = new HomeController();\n$controller->index();

@@ -1,1 +1,0 @@
-declare @temp table(\n        SomeColumn varchar(50)\n    )\n\n    insert into @temp\n    select 'SomeVal'\n\n    select * from @temp

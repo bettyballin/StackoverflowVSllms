@@ -1,1 +1,0 @@
-Imports System.Security.Permissions\n\n<SecurityPermission(SecurityAction.Demand, Flags:=SecurityPermissionFlag.UnmanagedCode)>\nPublic Class SerialPortAccess\n    ' Your code to access the COM ports\nEnd Class

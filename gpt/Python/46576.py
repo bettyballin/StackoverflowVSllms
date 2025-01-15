@@ -1,1 +1,0 @@
-import time\n    token = generate_token(user_id, int(time.time()))

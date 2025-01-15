@@ -1,1 +1,0 @@
-function unsignedToSigned32($value) {\n    if ($value > 0x7FFFFFFF) {\n        $value -= 0x100000000;\n    }\n    return $value;\n}\n\n// Example usage:\n$unsignedInt = 3232240316;\n$signedInt = unsignedToSigned32($unsignedInt);\necho $signedInt;  // Output: -1062726980

@@ -1,1 +1,0 @@
-SELECT *\nFROM Table A\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM Table B\n    WHERE Table A.key = Table B.key\n);

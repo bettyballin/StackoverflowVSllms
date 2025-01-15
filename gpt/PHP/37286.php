@@ -1,1 +1,0 @@
-$this->Listing->find('all', [\n    'contain' => [\n        'Openhouse' => [\n            'conditions' => [\n                'Openhouse.date >' => $openhouse_start->format('Y-m-d H:i:s'),\n                'Openhouse.date <' => $openhouse_end->format('Y-m-d H:i:s')\n            ]\n        ]\n    ]\n]);

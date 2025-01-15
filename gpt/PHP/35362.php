@@ -1,1 +1,0 @@
-$config = HTMLPurifier_Config::createDefault();\n   $config->set('HTML.Allowed', 'p,b,a[href],i'); // Example: Allow only specific tags and attributes\n   $config->set('URI.SafeIframeRegexp', '%^https://www\.youtube\.com/embed/%'); // Example: Allow only YouTube iframes\n   $purifier = new HTMLPurifier($config);

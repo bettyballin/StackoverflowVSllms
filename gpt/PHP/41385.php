@@ -1,1 +1,0 @@
-// Using MySQLi\n$stmt = $mysqli->prepare("SELECT * FROM users WHERE username = ?");\n$stmt->bind_param("s", $username);\n$stmt->execute();\n$result = $stmt->get_result();\n\n// Using PDO\n$stmt = $pdo->prepare("SELECT * FROM users WHERE username = ?");\n$stmt->execute([$username]);\n$result = $stmt->fetchAll();

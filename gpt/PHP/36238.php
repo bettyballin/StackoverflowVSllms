@@ -1,1 +1,0 @@
-function getMD5Hash($string) {\n    return md5($string);\n}

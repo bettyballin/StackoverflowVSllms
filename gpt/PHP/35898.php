@@ -1,1 +1,0 @@
-$this->db->distinct();\n$this->db->select('accessid');\n$this->db->where('record', '123');\n$query = $this->db->get('accesslog');\n\n// Getting the count of distinct accessid\n$count = $query->num_rows();

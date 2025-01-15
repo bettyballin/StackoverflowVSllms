@@ -1,1 +1,0 @@
-// $content is a string with html content\npreg_match('/<body[^>]*>(.*?)<\/body>/is', $content, $matches);\n\nprint_r($matches);

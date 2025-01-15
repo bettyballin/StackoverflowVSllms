@@ -1,1 +1,0 @@
-class APIlityClients {\n    public static function &getClients() {\n        static $clients = null;\n        if ($clients === null) {\n            $clients = new SomeSoapClient();\n        }\n        return $clients;\n    }\n}\n\n$soapClients = &APIlityClients::getClients();

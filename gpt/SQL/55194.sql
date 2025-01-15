@@ -1,1 +1,0 @@
-CREATE TABLE user_roles (\n    username VARCHAR(50) NOT NULL,\n    role_id INT NOT NULL,\n    PRIMARY KEY (username, role_id),\n    FOREIGN KEY (username) REFERENCES users(username),\n    FOREIGN KEY (role_id) REFERENCES roles(role_id)\n);

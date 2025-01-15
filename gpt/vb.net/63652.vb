@@ -1,1 +1,0 @@
-' Transfer to another page\nServer.Transfer("TargetPage.aspx", True)\n\n' Access previous page's data\nDim previousPage As Page = PreviousPage\nDim type As Integer = CType(previousPage.FindControl("HiddenFieldType"), HiddenField).Value

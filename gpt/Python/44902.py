@@ -1,1 +1,0 @@
-import requests\n   \n   api_key = 'YOUR_API_KEY'\n   symbol = 'AAPL'\n   url = f'https://financialmodelingprep.com/api/v3/income-statement/{symbol}?apikey={api_key}'\n   \n   response = requests.get(url)\n   data = response.json()\n   \n   print(data)

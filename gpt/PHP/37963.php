@@ -1,1 +1,0 @@
-<?php\n\n$a = array('property1' => 1, 'property2' => 2);\n$o = new Obj();\n$o->populate($a);\n\nclass Obj\n{\n    function populate($array)\n    {\n        foreach ($array as $key => $value) {\n            $this->$key = $value;\n        }\n    }\n}\n\n// After this, you will have:\necho $o->property1; // Output: 1\necho $o->property2; // Output: 2\n?>

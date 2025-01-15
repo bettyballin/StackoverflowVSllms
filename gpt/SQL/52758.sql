@@ -1,1 +1,0 @@
-SELECT o.*\nFROM orders o\nJOIN (\n    SELECT emp, cat, MAX(date) as latest_date\n    FROM orders\n    GROUP BY emp, cat\n) latest\nON o.emp = latest.emp AND o.cat = latest.cat AND o.date = latest.latest_date;

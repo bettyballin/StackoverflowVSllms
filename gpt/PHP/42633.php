@@ -1,1 +1,0 @@
-<?php\n   try {\n       $db = new PDO('sqlite:/path/to/your/database/test.db', null, null, [\n           PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION\n       ]);\n   } catch (PDOException $e) {\n       echo 'Connection failed: ' . $e->getMessage();\n   }\n   ?>

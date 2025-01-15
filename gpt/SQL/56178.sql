@@ -1,1 +1,0 @@
-SELECT CAST(your_column AS DATE) AS DateOnly\nFROM your_table;

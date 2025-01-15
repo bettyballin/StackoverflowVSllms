@@ -1,1 +1,0 @@
-<?php foreach (array_merge((array)$Forms, (array)$formsShared) as $r): ?>\n    $("#shareform<?=$r['Form']['id'];?>").hide();\n    $(".Share<?=$r['Form']['id'];?>").click(function () {\n        $("#shareform<?=$r['Form']['id'];?>").toggle("show");\n    });\n<?php endforeach; ?>

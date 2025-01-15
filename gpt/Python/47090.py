@@ -1,1 +1,0 @@
-import spacy\n\n    nlp = spacy.load('en_core_web_sm')\n    doc = nlp("The Berlin Wall")\n\n    for entity in doc.ents:\n        print(entity.text, entity.label_)

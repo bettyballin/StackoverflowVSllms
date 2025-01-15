@@ -1,1 +1,0 @@
-<?php\n     echo '<!-- Start of b.php -->';\n     // Your existing code\n     echo '<!-- End of b.php -->';\n     ?>

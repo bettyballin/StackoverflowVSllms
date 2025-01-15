@@ -1,1 +1,0 @@
-<rewrite>\n  <rules>\n    <rule name="ARR Routing" stopProcessing="true">\n      <match url=".*" />\n      <action type="Rewrite" url="http://{HTTP_HOST}/{R:1}" />\n    </rule>\n  </rules>\n</rewrite>

@@ -1,1 +1,0 @@
-$query = $this->database->query("SELECT game_name, urlfriendly(game_name) AS game_name2 FROM games");\n\nif ($query) {\n    foreach ($query as $games) {\n        echo $games["game_name"] . " " . $games["game_name2"];\n    }\n} else {\n    // Handle query error\n    echo "Query failed: " . $this->database->error;\n}

@@ -1,1 +1,0 @@
-if (Zend_Auth::getInstance()->hasIdentity()) {\n    Zend_Session::start();\n    Zend_Session::regenerateId();\n} else {\n    Zend_Session::start();\n}

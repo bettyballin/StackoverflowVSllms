@@ -1,1 +1,0 @@
-<?php\n$str = "";  // Initialize the variable\nfor ($i = 0; $i < 10; $i++) {\n    $str .= "something";  // Concatenate "something" to the string in each iteration\n}\necho $str;  // Output the final string\n?>

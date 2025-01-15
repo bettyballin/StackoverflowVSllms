@@ -1,1 +1,0 @@
-CREATE ASSEMBLY SqlClrExample\nFROM 'C:\path\to\your\SqlClrExample.dll'\nWITH PERMISSION_SET = SAFE;

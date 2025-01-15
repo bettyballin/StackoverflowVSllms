@@ -1,1 +1,0 @@
-session_start();\nsession_regenerate_id(true);

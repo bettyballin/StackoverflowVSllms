@@ -1,1 +1,0 @@
-from django.db import models\n\nclass Customer(models.Model):\n    name = models.CharField(max_length=100)\n    active = models.BooleanField()

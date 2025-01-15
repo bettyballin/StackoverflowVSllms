@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded', function() {\n        var button = document.getElementById('enhancedButton');\n        button.addEventListener('click', function() {\n            alert('Button clicked!');\n        });\n    });

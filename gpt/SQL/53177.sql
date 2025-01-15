@@ -1,1 +1,0 @@
-CREATE OR REPLACE TYPE t_rec_obj AS OBJECT (\n        id NUMBER\n    );\n    /\n\n    CREATE OR REPLACE TYPE t_rec_obj_table AS TABLE OF t_rec_obj;\n    /

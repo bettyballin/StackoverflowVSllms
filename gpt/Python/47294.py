@@ -1,1 +1,0 @@
-model_b_ids = [1, 2, 3] # Replace with the actual ids of ModelBs\nmodel_as = find_model_as_with_all_model_bs(model_b_ids)

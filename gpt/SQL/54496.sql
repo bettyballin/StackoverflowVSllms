@@ -1,1 +1,0 @@
-UPDATE system SET status = 0 WHERE type = 'theme';\nUPDATE system SET status = 1 WHERE type = 'theme' AND name = 'your_working_theme_name';

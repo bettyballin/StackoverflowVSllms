@@ -1,1 +1,0 @@
-$.ajax({\n    type: "POST",\n    url: "/YourController/YourActionMethod",\n    data: {\n        __RequestVerificationToken: $('input[name="__RequestVerificationToken"]').val(),\n        yourData: yourDataValue\n    },\n    success: function(response) {\n        // Handle success\n    },\n    error: function(error) {\n        // Handle error\n    }\n});

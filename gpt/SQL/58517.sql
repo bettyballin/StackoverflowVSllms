@@ -1,1 +1,0 @@
-SELECT LEN(CAST('the quick brown fox jumped over the lazy dog' AS VARCHAR(50)))

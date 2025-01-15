@@ -1,1 +1,0 @@
-Dim str As String = "123"\n  Dim number As Integer = CInt(str)\n  \n  Dim dbl As Double = 123.45\n  Dim roundedNumber As Integer = CInt(dbl)  ' This will round to 123

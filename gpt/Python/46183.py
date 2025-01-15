@@ -1,1 +1,0 @@
-result = ModelA.objects.full_outer_join()\nfor row in result:\n    print(row)

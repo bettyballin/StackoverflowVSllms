@@ -1,1 +1,0 @@
-ames = []\nwhile True:\n    name = input("Name: ")\n    if name == '':\n        break\n    names.append(name)

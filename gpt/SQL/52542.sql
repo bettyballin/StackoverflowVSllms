@@ -1,1 +1,0 @@
-SELECT \n    COALESCE(SUM(TotalHoursM), 0) +\n    COALESCE(SUM(TotalHoursT), 0) +\n    COALESCE(SUM(TotalHoursW), 0) +\n    COALESCE(SUM(TotalHoursTH), 0) +\n    COALESCE(SUM(TotalHoursF), 0) AS TOTAL\nFROM LeaveRequest;

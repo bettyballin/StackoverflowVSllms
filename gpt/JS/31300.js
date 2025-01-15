@@ -1,1 +1,0 @@
-import styled from 'styled-components';\n\n   const Button = styled.button`\n       background: blue;\n       color: white;\n       font-size: 1em;\n       padding: 0.5em 1em;\n       border: none;\n       border-radius: 3px;\n   `;\n\n   export default Button;

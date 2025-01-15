@@ -1,1 +1,0 @@
-my_list = [10, 20, 30, 40, 50]\nelement = 30\nindex = my_list.index(element)\nprint(index)  # Output will be 2

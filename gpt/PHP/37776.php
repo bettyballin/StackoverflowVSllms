@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\n$fileName = $_POST['textFile'];\n$serverURL = $_SESSION['serverURL'] . "fileReader.php?textFile=" . urlencode($fileName);\n\n$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, $serverURL);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);\n$result = curl_exec($ch);\ncurl_close($ch);\n\necho $result;\n?>

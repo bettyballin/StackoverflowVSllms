@@ -1,1 +1,0 @@
-CREATE VIEW UserPostCounts\n    WITH SCHEMABINDING\n    AS\n    SELECT \n        UserID, \n        COUNT(*) AS PostCount\n    FROM \n        dbo.Posts\n    GROUP BY \n        UserID;\n\n    CREATE UNIQUE CLUSTERED INDEX IX_UserPostCounts ON UserPostCounts(UserID);

@@ -1,1 +1,0 @@
-<?php\nif (isset($_GET['Format']) && $_GET['Format'] == 'XML') {\n    header('Content-Type: application/xml');\n    echo '<?xml version="1.0" encoding="UTF-8"?>';\n    echo '<root><message>This is an XML response.</message></root>';\n} else {\n    header('Content-Type: text/html');\n    echo '<html><body><p>This is an HTML response.</p></body></html>';\n}\n?>

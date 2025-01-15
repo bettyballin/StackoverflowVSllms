@@ -1,1 +1,0 @@
-<?php\n$largeNumber1 = gmp_init('9223372036854775807');\n$largeNumber2 = gmp_init('1');\n\n$result = gmp_add($largeNumber1, $largeNumber2);\necho gmp_strval($result); // Outputs: 9223372036854775808\n?>

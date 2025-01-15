@@ -1,1 +1,0 @@
-SELECT DISTINCT ON (FileId) FileId, Value\n   FROM FileMetrics\n   WHERE Revision <= 7\n   ORDER BY FileId, Revision DESC;

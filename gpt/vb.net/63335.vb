@@ -1,1 +1,0 @@
-Module MyModule\n    ' This is a shared field, accessible anywhere in the namespace\n    Public MyField As Integer\n\n    ' This is a shared method, accessible anywhere in the namespace\n    Public Sub MyMethod()\n        ' Method implementation\n    End Sub\nEnd Module

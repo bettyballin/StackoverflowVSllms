@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nORDER BY primary_key_column;

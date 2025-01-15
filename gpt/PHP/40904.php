@@ -1,1 +1,0 @@
-<?php\n// Assuming $base64_image contains your base64 image data\necho '<img src="data:image/jpeg;base64,' . $base64_image . '" />';

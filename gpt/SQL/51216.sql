@@ -1,1 +1,0 @@
-DECLARE @ActiveNode NVARCHAR(128);\n\nSELECT @ActiveNode = csn.node_name\nFROM sys.dm_os_cluster_nodes AS csn\nJOIN sys.dm_io_cluster_shared_drives AS csd\n    ON csn.node_name = csd.node_name\nWHERE csd.drive_name = LEFT((SELECT SERVERPROPERTY('MachineName')), 1);\n\nSELECT @ActiveNode AS ActiveNode;

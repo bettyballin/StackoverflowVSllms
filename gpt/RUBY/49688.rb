@@ -1,1 +1,0 @@
-require 'nokogiri'\nrequire 'open-uri'\n\nclass HTML\n  def self.parse(url)\n    Nokogiri::HTML(open(url))\n  end\nend\n\n# Usage\ndoc = HTML.parse('http://www.google.com/search?q=tenderlove')\nputs doc.at('title').text  # Prints the title of the page

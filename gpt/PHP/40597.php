@@ -1,1 +1,0 @@
-// index.php\ninclude('db.php');\ninclude('movie_queries.php');\n\n$movieId = 1; // Example movie ID\n$movie = getMovieById($mysqli, $movieId);\n$actors = getActorsByMovieId($mysqli, $movieId);\n\n// Display movie and actors\necho "<h1>{$movie['title']}</h1>";\necho "<h2>Actors:</h2><ul>";\nforeach ($actors as $actor) {\n    echo "<li>{$actor['name']}</li>";\n}\necho "</ul>";

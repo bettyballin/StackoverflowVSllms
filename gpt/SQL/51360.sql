@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE Get_Type_One_Polygon_Values(\n    in_role VARCHAR2,\n    rc_generic OUT SYS_REFCURSOR\n) AS\n    l_sql VARCHAR2(1000);\nBEGIN\n    l_sql := 'SELECT ' || in_role || '_POLY_ID AS ROLE_ID, ' || in_role || '_POLY_NAME AS ROLE_NAME ' ||\n             'FROM TEAMCHK.' || in_role;\n\n    OPEN rc_generic FOR l_sql;\nEND;\n/

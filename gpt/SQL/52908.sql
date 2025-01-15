@@ -1,1 +1,0 @@
-SELECT TO_DATE(\n         SUBSTR(TO_CHAR(date_field, 'DD.MM.YYYY'), 4, 2) || '.' ||\n         SUBSTR(TO_CHAR(date_field, 'DD.MM.YYYY'), 1, 2) || '.' ||\n         SUBSTR(TO_CHAR(date_field, 'DD.MM.YYYY'), 7, 4),\n         'DD.MM.YYYY'\n       ) AS swapped_date\nFROM table1;

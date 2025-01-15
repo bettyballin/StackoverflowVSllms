@@ -1,1 +1,0 @@
-// Overriding the XMLHttpRequest constructor\n(function() {\n    var originalXHR = window.XMLHttpRequest;\n    \n    function newXHR() {\n        // Throw an error or return a dummy object\n        throw new Error("AJAX is disabled");\n    }\n    \n    window.XMLHttpRequest = newXHR;\n})();

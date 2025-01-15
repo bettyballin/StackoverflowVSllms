@@ -1,1 +1,0 @@
--- Example to connect to an Oracle database\n   -- Open SQL Developer and use the following connection parameters:\n   -- Username: your_db_username\n   -- Password: your_db_password\n   -- Hostname: your_db_hostname\n   -- Port: 1521 (default port)\n   -- SID/Service Name: your_db_service_name

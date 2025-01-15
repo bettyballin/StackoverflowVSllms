@@ -1,1 +1,0 @@
-Imports System.Web.Services\n\nPartial Class Orders\n    Inherits System.Web.UI.Page\n\n    <WebMethod()>\n    Public Shared Function GetMailPieceGroupsByAdFundTypeId(myDataToSend As String) As String\n        ' Your method implementation here\n        Return "Your response here"\n    End Function\nEnd Class

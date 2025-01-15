@@ -1,1 +1,0 @@
-const request = require('supertest');\n   const app = require('../app'); // Your Express app\n\n   describe('GET /endpoint', () => {\n       it('should return 200 and key value', async () => {\n           const response = await request(app).get('/endpoint');\n           expect(response.status).toBe(200);\n           expect(response.body.key).toBe('value');\n       });\n   });

@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_RunProgramOnCondition\nON YourTable\nAFTER INSERT, UPDATE\nAS\nBEGIN\n    IF EXISTS (SELECT 1 FROM inserted WHERE YourCondition)\n    BEGIN\n        EXEC msdb.dbo.sp_start_job N'RunExternalProgram';\n    END\nEND;\nGO

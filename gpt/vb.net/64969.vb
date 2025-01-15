@@ -1,1 +1,0 @@
-If d Is Nothing OrElse d <= Date.MinValue Then\n    TextValue = "nada"\nElse\n    TextValue = FormatDateTime(d)\nEnd If

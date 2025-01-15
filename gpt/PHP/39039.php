@@ -1,1 +1,0 @@
-$uuid = generateUUID();\n$url = "http://www.example.com/record/$uuid";\necho $url;

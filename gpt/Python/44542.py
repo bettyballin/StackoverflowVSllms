@@ -1,1 +1,0 @@
-from django.urls import path\n    from .views import YourModelListCreate, YourModelDetail\n\n    urlpatterns = [\n        path('api/yourmodel/', YourModelListCreate.as_view(), name='yourmodel-list-create'),\n        path('api/yourmodel/<int:pk>/', YourModelDetail.as_view(), name='yourmodel-detail'),\n    ]

@@ -1,1 +1,0 @@
-Module Startup\n    Sub Main()\n        ' Perform any initialization tasks here\n        ' For example: checking configuration files, initializing services, etc.\n\n        ' Start the main form\n        Application.Run(New MainForm())\n    End Sub\nEnd Module

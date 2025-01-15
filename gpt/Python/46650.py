@@ -1,1 +1,0 @@
-# Single element list\nstring_list = ['s']\nresult = concatenate_with_commas(string_list)\nprint(result)  # Output: 's'\n\n# Empty list\nstring_list = []\nresult = concatenate_with_commas(string_list)\nprint(result)  # Output: ''

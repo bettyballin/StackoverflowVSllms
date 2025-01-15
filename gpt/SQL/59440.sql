@@ -1,1 +1,0 @@
-CREATE TABLE problems (\n    id INT AUTO_INCREMENT PRIMARY KEY\n);\n\nCREATE TABLE attributes (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    thing_id INT,\n    thing_type ENUM('problem', 'solution'),\n    name VARCHAR(255),\n    value TEXT,\n    created_at DATETIME,\n    previous_version_id INT,\n    FOREIGN KEY (previous_version_id) REFERENCES attributes(id)\n);

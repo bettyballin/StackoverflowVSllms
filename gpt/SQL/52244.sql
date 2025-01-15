@@ -1,1 +1,0 @@
-SELECT t1.*\nFROM Table1 t1\nINNER JOIN (\n    SELECT id, MAX(datestamp) AS max_date\n    FROM Table2\n    GROUP BY id\n) t2 ON t1.id = t2.id\nORDER BY t2.max_date DESC;

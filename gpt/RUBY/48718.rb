@@ -1,1 +1,0 @@
-# Gemfile\ngem 'activerecord-oracle_enhanced-adapter', '~> 6.0'

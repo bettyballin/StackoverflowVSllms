@@ -1,1 +1,0 @@
-$.getJSON('<%= Url.Action("DoSearch") %>' + location.search,\n    function(data) {\n        if (data.Result == "OK") {\n            location.href = location.href;\n        }\n    });

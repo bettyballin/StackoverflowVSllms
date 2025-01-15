@@ -1,1 +1,0 @@
-Dim typeName As String = "System.Drawing.Font, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"\nDim propertyValue As String = "Arial, 12px, style=Bold, Strikeout"\n\nDim wrappedObject As Object = CreateWrappedObject(typeName, propertyValue)\n\nMe.PropertyGrid1.SelectedObject = wrappedObject

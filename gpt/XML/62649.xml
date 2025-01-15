@@ -1,1 +1,0 @@
-<view-state id="bookToc">\n    <on-render>\n        <evaluate expression="stuffService.getOrderedStuff(stuff)" result="viewScope.orderedStuff" />\n    </on-render>\n</view-state>

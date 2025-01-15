@@ -1,1 +1,0 @@
-# my_ruby_script.rb\n    def my_ruby_function\n      puts "Hello from Ruby!"\n    end\n\n    if __FILE__ == $0\n      my_ruby_function\n    end

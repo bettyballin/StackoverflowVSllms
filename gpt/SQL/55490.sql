@@ -1,1 +1,0 @@
-SELECT t1.id\nFROM t1\nJOIN (\n    SELECT t2.id, COUNT(*) as num_things\n    FROM t2\n    GROUP BY t2.id\n    HAVING COUNT(*) = 5\n) subquery ON t1.id = subquery.id;

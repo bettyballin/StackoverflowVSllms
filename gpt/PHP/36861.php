@@ -1,1 +1,0 @@
-require_once 'Foo2.php';

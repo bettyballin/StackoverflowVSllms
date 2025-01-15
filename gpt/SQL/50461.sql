@@ -1,1 +1,0 @@
-SELECT p.id, p.product_name, p.product_description, pa.value AS screen_size\nFROM products p\nJOIN product_attributes pa ON p.id = pa.product_id\nJOIN attributes a ON pa.attribute_id = a.id\nWHERE a.name = 'Screen Size' AND pa.value = '17" LCD';

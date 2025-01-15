@@ -1,1 +1,0 @@
-$("#myDOMObject").text("some text");

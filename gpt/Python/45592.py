@@ -1,1 +1,0 @@
-import pyautogui\n\n    # Open Notepad\n    pyautogui.hotkey('win', 'r')\n    pyautogui.typewrite('notepad\n', interval=0.1)\n\n    # Wait for Notepad to open\n    pyautogui.sleep(1)\n\n    # Type "Hello World"\n    pyautogui.typewrite('Hello World', interval=0.1)

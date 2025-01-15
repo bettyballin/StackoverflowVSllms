@@ -1,1 +1,0 @@
-$route['survey/(:num)'] = 'survey/take_survey/$1';\n$route['survey/(:any)/(:num)'] = 'survey/survey_session/$1/$2';

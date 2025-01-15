@@ -1,1 +1,0 @@
-with open("utf16le_with_bom.txt", "wb") as f:\n    f.write(b'\xff\xfe')  # Write the BOM for UTF-16 LE\n    f.write("This is a test file.".encode("utf-16-le"))

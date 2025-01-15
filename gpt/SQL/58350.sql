@@ -1,1 +1,0 @@
-UPDATE STATISTICS prodtree_element;\nUPDATE STATISTICS prodtree_link;\nUPDATE STATISTICS line;\nUPDATE STATISTICS attribute_values;

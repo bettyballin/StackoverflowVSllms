@@ -1,1 +1,0 @@
-Sanitize::Config::RELAXED.tap do |config|\n  config[:attributes]['a'] = ['href', 'title'] # Allow only href and title attributes on links\nend

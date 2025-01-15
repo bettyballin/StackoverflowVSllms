@@ -1,1 +1,0 @@
-SELECT \n       s.SubscriptionID, s.Description, s.LastStatus, s.EventType, s.LastRunTime\n   FROM \n       Subscriptions s\n   WHERE \n       s.Report_OID = '<YourReportID>'

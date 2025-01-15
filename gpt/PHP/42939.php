@@ -1,1 +1,0 @@
-$var = '123';\n  if (ctype_digit($var)) {\n      echo "$var is a string of digits.";\n  }

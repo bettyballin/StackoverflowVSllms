@@ -1,1 +1,0 @@
--- Delete the test data from the original table\nDELETE FROM OriginalTable;\n\n-- Restore the original data from the temporary table\nINSERT INTO OriginalTable\nSELECT * FROM TempBackupTable;\n\n-- Drop the temporary table after restoring the data\nDROP TABLE TempBackupTable;

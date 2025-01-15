@@ -1,1 +1,0 @@
-from django.shortcuts import redirect\n\ndef my_view(request):\n    # Redirect to a specific URL\n    return redirect('http://example.com')\n\n    # Or redirect to a named URL pattern\n    return redirect('my_named_url_pattern')\n\n    # Or redirect with arguments\n    return redirect('my_named_url_pattern', arg1, arg2)

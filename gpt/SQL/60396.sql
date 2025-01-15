@@ -1,1 +1,0 @@
-CREATE OR REPLACE DIRECTORY image_dir AS '/path/to/image/directory';\nGRANT READ, WRITE ON DIRECTORY image_dir TO your_user;

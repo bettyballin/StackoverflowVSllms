@@ -1,1 +1,0 @@
-' MainWindow.xaml.vb\n   Class MainWindow\n       Private Sub Button_Click(sender As Object, e As RoutedEventArgs)\n           MessageBox.Show("Button Clicked!")\n       End Sub\n   End Class

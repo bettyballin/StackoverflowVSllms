@@ -1,1 +1,0 @@
-// In routes.php\n   Router::scope('/api', function ($routes) {\n       $routes->extensions(['json']);\n       $routes->resources('Users');\n   });\n   \n   // In UsersController.php\n   public function index() {\n       $users = $this->Users->find('all');\n       $this->set([\n           'users' => $users,\n           '_serialize' => ['users']\n       ]);\n   }

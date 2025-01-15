@@ -1,1 +1,0 @@
-ini_set('display_errors', 1);\n   ini_set('display_startup_errors', 1);\n   error_reporting(E_ALL);\n\n   if (!file_exists($fontFile)) {\n       die('Font file does not exist.');\n   }\n\n   // Ensure GD and FreeType are enabled\n   if (!function_exists('imagettftext')) {\n       die('GD or FreeType support is not enabled.');\n   }

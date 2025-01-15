@@ -1,1 +1,0 @@
-// Example using a file to store the version/timestamp\nfile_put_contents('cache_version.txt', time());

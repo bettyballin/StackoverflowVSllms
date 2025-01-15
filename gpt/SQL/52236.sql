@@ -1,1 +1,0 @@
-INSERT INTO Postings (PostTitle, PostDescription) VALUES ('Software Engineer', 'Job Description here...');

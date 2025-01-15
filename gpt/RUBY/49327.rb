@@ -1,1 +1,0 @@
-# app/models/the_model.rb\nclass TheModel < ApplicationRecord\n  require_dependency 'the_model/dependency_class_one'\n  require_dependency 'the_model/dependency_class_two'\n  \n  # Your model code here\nend

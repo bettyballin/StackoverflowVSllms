@@ -1,1 +1,0 @@
-SELECT \n    COUNT(DISTINCT FirstName) AS UniqueFirstNames,\n    COUNT(DISTINCT LastName) AS UniqueLastNames,\n    COUNT(DISTINCT Address1) AS UniqueAddresses,\n    COUNT(DISTINCT City) AS UniqueCities,\n    COUNT(DISTINCT State) AS UniqueStates,\n    COUNT(DISTINCT Zip) AS UniqueZips\nFROM \n    Profiles;

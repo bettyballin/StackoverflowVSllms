@@ -1,1 +1,0 @@
-rails generate devise:install\nrails generate devise User\nrails db:migrate

@@ -1,1 +1,0 @@
-Dim foo As New Dictionary(Of String, String)\nfoo.Add("key", Nothing)\nfoo.Add("key2", "something")\n\nDim filteredFoo As IDictionary(Of String, String) = foo _\n    .Where(Function(x) Not String.IsNullOrEmpty(x.Value)) _\n    .ToDictionary(Function(x) x.Key, Function(x) x.Value)

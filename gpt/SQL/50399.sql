@@ -1,1 +1,0 @@
-CREATE TABLE UserImages (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    user_id INT NOT NULL,\n    image_url VARCHAR(255) NOT NULL,\n    FOREIGN KEY (user_id) REFERENCES Users(id)\n);

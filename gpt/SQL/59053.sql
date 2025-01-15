@@ -1,1 +1,0 @@
-SELECT UPPER(firstname) AS firstname_uppercase\nFROM Person;

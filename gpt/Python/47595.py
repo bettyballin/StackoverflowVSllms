@@ -1,1 +1,0 @@
-import win32api\n   print(win32api.GetVersion())

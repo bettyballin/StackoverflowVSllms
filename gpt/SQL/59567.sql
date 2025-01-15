@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM FailedLogins\n    WHERE username = ? AND attempt_time > (NOW() - INTERVAL 5 MINUTE);

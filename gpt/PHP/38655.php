@@ -1,1 +1,0 @@
-$associativeArray = array("key1" => "value1", "key2" => "value2");\n    // or using the short syntax\n    $associativeArray = ["key1" => "value1", "key2" => "value2"];

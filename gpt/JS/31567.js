@@ -1,1 +1,0 @@
-onComplete: function() { \n    setTimeout(function() {\n        $('console').scrollTop = $('console').scrollHeight;\n    }, 0);\n}

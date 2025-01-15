@@ -1,1 +1,0 @@
-RESTORE DATABASE [YourDatabaseName]\nFROM DISK = 'C:\Path\To\Your\BackupFile1.bak',\n     DISK = 'C:\Path\To\Your\BackupFile2.bak',\n     -- Add more DISK entries if you have more files\nWITH FILE = 1,  \nMOVE 'YourLogicalDataFileName' TO 'C:\Path\To\Your\PhysicalDataFile.mdf',  \nMOVE 'YourLogicalLogFileName' TO 'C:\Path\To\Your\PhysicalLogFile.ldf',  \nNOUNLOAD,  \nSTATS = 10;

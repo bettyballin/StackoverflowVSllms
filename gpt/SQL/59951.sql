@@ -1,1 +1,0 @@
-SELECT ColumnA FROM Table1\nUNION\nSELECT ColumnA FROM Table2;

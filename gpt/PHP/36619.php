@@ -1,1 +1,0 @@
-<?php\n$directory = 'path/to/your/folder';\n$files = scandir($directory);\n\nforeach ($files as $file) {\n    // Skip the current and parent directory entries\n    if ($file !== '.' && $file !== '..') {\n        echo $file . "<br>";\n    }\n}\n?>

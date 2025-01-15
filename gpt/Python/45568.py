@@ -1,1 +1,0 @@
-class Foo:\n    def __init__(self, bar):\n        self.bar = bar\n\n    def __radd__(self, other):\n        return other + self.bar\n\nmylist = [Foo(3), Foo(34), Foo(63), 200]\nresult = sum(mylist)\nprint(result)  # Output should be 300

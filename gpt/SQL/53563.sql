@@ -1,1 +1,0 @@
-SET IDENTITY_INSERT TableName ON;\n\nInsert Into TableName (IdColumn, Column2, Column3, Column4)\nValues (?, ?, ?, ?);\n\nSET IDENTITY_INSERT TableName OFF;

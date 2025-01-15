@@ -1,1 +1,0 @@
-CREATE TABLE tree (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(255) NOT NULL,\n    path TEXT NOT NULL\n);

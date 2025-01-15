@@ -1,1 +1,0 @@
-<?php\nfunction uploadfolder($x) {\n  $dir = floor($x / (18001 * 10)) + 1; // Top level directory\n  $sdir = floor(($x % (18001 * 10)) / 18001) + 1; // Middle level directory\n  $ssdir = ceil(($x % 18001) / 2000) % 10; // Bottom level directory\n  return "$dir/$sdir/$ssdir";\n}\n?>

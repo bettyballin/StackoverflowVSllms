@@ -1,1 +1,0 @@
-<mx:ComboBox id="cb" labelField="label" itemRenderer="NullItemRenderer">\n    <mx:dataProvider>\n        <mx:ArrayCollection>\n            <mx:Object label="Select an option" value="{null}" />\n            <mx:Object label="foo" value="foo" />\n            <mx:Object label="bar" value="bar" />\n        </mx:ArrayCollection>\n    </mx:dataProvider>\n</mx:ComboBox>

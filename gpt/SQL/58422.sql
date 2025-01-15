@@ -1,1 +1,0 @@
-SELECT \n    LTRIM(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(your_field, '00000', ''), '0000', ''), '000', ''), '00', ''), '0', ''), '', '')) AS clean_field\nFROM \n    your_table;

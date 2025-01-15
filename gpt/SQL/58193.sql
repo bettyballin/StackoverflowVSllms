@@ -1,1 +1,0 @@
-USE [ExampleDB];\nGO\n\n-- Truncate the transaction log\nBACKUP LOG [ExampleDB] WITH TRUNCATE_ONLY;\nGO\n\n-- Shrink the log file\nDBCC SHRINKFILE (N'ExampleDB_Log', 1);\nGO

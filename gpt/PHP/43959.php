@@ -1,1 +1,0 @@
-use Illuminate\Support\Facades\Crypt;\n\n   // Encrypting a phone number\n   $encryptedPhoneNumber = Crypt::encryptString('123-456-7890');\n\n   // Decrypting a phone number\n   $decryptedPhoneNumber = Crypt::decryptString($encryptedPhoneNumber);

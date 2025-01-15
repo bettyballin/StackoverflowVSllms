@@ -1,1 +1,0 @@
-// Sanitize user input\n   function sanitizeInput(input) {\n       return input.replace(/</g, "&lt;").replace(/>/g, "&gt;");\n   }

@@ -1,1 +1,0 @@
-if (preg_match('/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/', $_POST['email-address'])) {\n    echo "valid email";\n} else {\n    echo "invalid email";\n}

@@ -1,1 +1,0 @@
-SELECT * FROM your_table ORDER BY sort_value;

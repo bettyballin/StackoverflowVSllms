@@ -1,1 +1,0 @@
-function performQuery(&$connection) {\n    // This is not needed since $connection is already passed by reference\n}

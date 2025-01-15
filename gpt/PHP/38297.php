@@ -1,1 +1,0 @@
-<?php\n// Assuming $row2['ARTICLE_DESC'] contains the data you want to pass\n$articleDesc = htmlspecialchars(json_encode($row2['ARTICLE_DESC']), ENT_QUOTES);\n?>\n<script>\n// Ensure the PHP variable is properly passed to JavaScript\nvar articleDesc = <?php echo $articleDesc; ?>;\n</script>

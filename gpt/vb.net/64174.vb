@@ -1,1 +1,0 @@
-Try\n    ' Code to execute the query\n    Dim cmd As New OleDbCommand(query, connection)\n    cmd.ExecuteNonQuery()\nCatch ex As Exception\n    ' Log or display the error message\n    Console.WriteLine("Error: " & ex.Message)\nEnd Try

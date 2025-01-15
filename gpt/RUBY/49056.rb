@@ -1,1 +1,0 @@
-require 'nokogiri'\nrequire 'open-uri'\n\n# Fetch and parse HTML document\ndoc = Nokogiri::HTML(URI.open('http://www.example.com'))\n\n# Use CSS selectors to extract content\ndoc.css('h1').each do |header|\n  puts header.text\nend

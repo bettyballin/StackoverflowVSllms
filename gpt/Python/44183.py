@@ -1,1 +1,0 @@
-class Permission:\n  def can_read(self):  # Present tense: Checking if the permission is currently allowed\n    pass\n\n  def could_read(self):  # Past tense: Checking if the permission was allowed in the past\n    pass\n\n  def will_be_able_to_read(self):  # Future tense: Checking if the permission will be allowed in the future\n    pass

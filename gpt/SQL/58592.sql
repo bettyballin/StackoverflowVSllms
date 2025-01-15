@@ -1,1 +1,0 @@
-SELECT idCustomer \nFROM reservations \nWHERE idCustomer NOT IN \n  (SELECT DISTINCT idCustomer \n   FROM reservations \n   WHERE DATEPART(hour, insertDate) < 2 \n   AND idCustomer IS NOT NULL)

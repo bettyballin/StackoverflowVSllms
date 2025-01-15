@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetUniqueID \n    @ObjectType VARCHAR(50),\n    @NewID INT OUTPUT\nAS\nBEGIN\n    INSERT INTO MasterIDs (ObjectType)\n    VALUES (@ObjectType);\n\n    SET @NewID = SCOPE_IDENTITY();\nEND;

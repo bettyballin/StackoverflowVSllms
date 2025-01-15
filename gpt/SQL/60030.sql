@@ -1,1 +1,0 @@
-CREATE TABLE game_assets (\n    asset_id INT PRIMARY KEY,\n    asset_name VARCHAR(255) NOT NULL,\n    asset_type VARCHAR(50),\n    asset_data BLOB,\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);\n\n-- Example query to retrieve an asset by name\nSELECT * FROM game_assets WHERE asset_name = 'player_sprite';

@@ -1,1 +1,0 @@
-protected function getTab1Content()\n{\n    if (!$this->_helper->acl->isAllowed('viewTab1')) {\n        return ''; // Return empty content or an error message\n    }\n    // Fetch data for tab 1\n    return $this->view->partial('item/_tab1.phtml', ['data' => $dataForTab1]);\n}

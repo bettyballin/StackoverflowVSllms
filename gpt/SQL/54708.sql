@@ -1,1 +1,0 @@
-SELECT amount, total_sum\nFROM (\n    SELECT amount, (SELECT SUM(amount) FROM table) AS total_sum\n    FROM table\n    ORDER BY amount DESC\n    LIMIT 5\n) AS top_amounts;

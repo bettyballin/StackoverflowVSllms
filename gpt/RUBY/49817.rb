@@ -1,1 +1,0 @@
-require 'htmlentities'\n\ncoder = HTMLEntities.new\n\n# Escaping\nescaped = coder.encode("…")\n# => "&#8230;"\n\n# Unescaping\nunescaped = coder.decode('&hellip;')\n# => "…"\n\nunescaped_numeric = coder.decode('&#162;')\n# => "¢"

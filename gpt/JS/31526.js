@@ -1,1 +1,0 @@
-myClassInstance.fetch('http://example.com/rss').then(function(response) {\n    // Process the response here\n    console.log(response);\n    // You can parse the RSS feed and do whatever you need with the response\n}).catch(function(error) {\n    console.error(error);\n});

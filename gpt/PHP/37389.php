@@ -1,1 +1,0 @@
-function getConfigVars() {\n    $config = parse_ini_file('my_config.ini');\n    // Use $config array here\n    // Example: echo $config['db_host'];\n}

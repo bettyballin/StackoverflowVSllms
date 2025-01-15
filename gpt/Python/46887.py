@@ -1,1 +1,0 @@
-import imp\n\ndef module_exists(module_name):\n    try:\n        imp.find_module(module_name)\n        return True\n    except ImportError:\n        return False\n\nif module_exists('some_module'):\n    print("Module 'some_module' is available.")\nelse:\n    print("No 'some_module'!")

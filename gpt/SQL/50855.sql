@@ -1,1 +1,0 @@
-ALTER INDEX <index_name> REBUILD;

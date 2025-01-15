@@ -1,1 +1,0 @@
-SELECT f.*, COUNT(fi.id) as Files\nFROM folders f\nLEFT JOIN files fi ON f.id = fi.folder_id\nWHERE f.userId = 16\nGROUP BY f.id;

@@ -1,1 +1,0 @@
-SELECT \n    TRUNC(closedate, 'MONTH') AS month,\n    COUNT(*) AS transaction_count\nFROM \n    MY_TRANSACTIONS\nGROUP BY \n    TRUNC(closedate, 'MONTH')\nORDER BY \n    month;

@@ -1,1 +1,0 @@
-define('WP_DEBUG', true);\ndefine('WP_DEBUG_LOG', true);\ndefine('WP_DEBUG_DISPLAY', false); // Prevent showing errors on the screen\n@ini_set('display_errors', 0); // Prevent showing errors on the screen\n@ini_set('error_reporting', E_ALL | E_STRICT); // Set error reporting level

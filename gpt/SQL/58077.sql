@@ -1,1 +1,0 @@
-CREATE TABLE person_new (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(100),\n    dob DATE,\n    -- other columns in the desired order\n);

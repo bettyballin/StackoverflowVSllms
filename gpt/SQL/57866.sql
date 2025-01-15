@@ -1,1 +1,0 @@
-CREATE TABLE unread_comments_count (\n       article_id INTEGER PRIMARY KEY,\n       unread_count INTEGER DEFAULT 0\n   );

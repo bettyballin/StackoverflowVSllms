@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\n// Assuming these are the variables you want to store from the form or URL\n$var1 = $_GET['var1'];\n$var2 = $_GET['var2'];\n$id = $_GET['id'];\n\n// Store them in the session\n$_SESSION['var1'] = $var1;\n$_SESSION['var2'] = $var2;\n$_SESSION['id'] = $id;\n\n// Redirect to another page\nheader("Location: page.php");\nexit();\n?>

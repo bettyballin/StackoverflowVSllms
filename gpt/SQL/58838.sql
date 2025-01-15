@@ -1,1 +1,0 @@
-ALTER TABLE blog_posts ADD CONSTRAINT unique_slug UNIQUE (slug);

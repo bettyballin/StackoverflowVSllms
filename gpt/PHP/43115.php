@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    // Debugging line\n    error_log(print_r($_POST, true));\n\n    // Output the POST data\n    echo json_encode($_POST);\n} else {\n    echo json_encode(["error" => "Invalid request method"]);\n}\n?>

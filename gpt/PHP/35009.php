@@ -1,1 +1,0 @@
-// Example of dangerous code that could be submitted\n    file_put_contents('/path/to/important/file', 'Malicious content');

@@ -1,1 +1,0 @@
-$name = htmlspecialchars($_POST['name']);\n$email = htmlspecialchars($_POST['email']);

@@ -1,1 +1,0 @@
-# Assuming you have a model called User\nquery = User.where(name: 'Alice')\nputs query.to_sql

@@ -1,1 +1,0 @@
-SELECT BOOK, \n       (SELECT MAX(PRICE) \n        FROM (SELECT TOP 50 PERCENT PRICE \n              FROM Books AS B2 \n              WHERE B2.BOOK = B1.BOOK \n              ORDER BY PRICE)) AS MedianPrice\nFROM Books AS B1\nGROUP BY BOOK;

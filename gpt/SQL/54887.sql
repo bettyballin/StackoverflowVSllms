@@ -1,1 +1,0 @@
-INSERT INTO AccountDimension (AccountKey, AccountName) VALUES (-1, 'Unknown Account');

@@ -1,1 +1,0 @@
-SELECT product_id, \n       origin || '-' || TO_CHAR(production_date, 'YYYYMMDD') || '-' || type || '-' || TO_CHAR(daily_id, 'FM0000') AS composite_number\nFROM products;

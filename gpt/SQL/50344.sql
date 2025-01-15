@@ -1,1 +1,0 @@
-SELECT \n    event_time,\n    action_id,\n    succeeded,\n    object_name,\n    statement\nFROM sys.fn_get_audit_file('path_to_audit_log_file', DEFAULT, DEFAULT)\nWHERE event_time > DATEADD(day, -1, GETDATE());

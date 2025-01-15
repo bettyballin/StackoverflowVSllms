@@ -1,1 +1,0 @@
-class PhoneNumbersController < ApplicationController\n  def destroy\n    @phone_number = PhoneNumber.find(params[:id])\n    @phone_number.destroy\n\n    respond_to do |format|\n      format.html { redirect_to phone_numbers_url, notice: 'Phone number was successfully destroyed.' }\n      format.js   # This will render destroy.js.erb\n    end\n  end\nend

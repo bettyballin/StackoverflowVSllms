@@ -1,1 +1,0 @@
-# Ruby 1.8.6\n   { :key => "value" }\n   \n   # Ruby 1.9\n   { key: "value" }

@@ -1,1 +1,0 @@
-<?php\n\nuse Illuminate\Support\Facades\Route;\n\nRoute::get('/', function () {\n    return view('welcome');\n});\n\n// Example of a simple controller\nnamespace App\Http\Controllers;\n\nuse Illuminate\Http\Request;\n\nclass UserController extends Controller\n{\n    public function index()\n    {\n        // Logic to handle request\n        return view('user.index');\n    }\n}

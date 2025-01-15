@@ -1,1 +1,0 @@
-// Assuming you have the selected node\nvar selectedNode = document.getElementById('inner1');\n\n// Get all sibling nodes\nvar siblingNodes = Array.prototype.filter.call(selectedNode.parentNode.children, function(child) {\n    return child !== selectedNode;\n});\n\n// siblingNodes now contains inner2, inner3, and inner4\nconsole.log(siblingNodes);

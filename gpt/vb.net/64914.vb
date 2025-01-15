@@ -1,1 +1,0 @@
-Dim numbers = {1, 2, 3, 4, 5}\n    Dim evenNumbers = From number In numbers Where number Mod 2 = 0 Select number

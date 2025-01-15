@@ -1,1 +1,0 @@
-class YourModel < ApplicationRecord\n  include FormattedDate\nend

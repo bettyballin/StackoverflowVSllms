@@ -1,1 +1,0 @@
-import utm\n\n# UTM coordinates\nutm_x = 500000\nutm_y = 4649776.22482\nzone_number = 33\nzone_letter = 'T'\n\n# Convert UTM to Latitude and Longitude\nlatitude, longitude = utm.to_latlon(utm_x, utm_y, zone_number, zone_letter)\n\nprint(f"Latitude: {latitude}, Longitude: {longitude}")

@@ -1,1 +1,0 @@
-Public Class ReadLockHelper\n    Implements IDisposable\n\n    Private m_Lock As ReaderWriterLockSlim\n\n    Public Sub New(lock As ReaderWriterLockSlim)\n        m_Lock = lock\n        m_Lock.EnterReadLock()\n    End Sub\n\n    Public Sub Dispose() Implements IDisposable.Dispose\n        m_Lock.ExitReadLock()\n    End Sub\nEnd Class

@@ -1,1 +1,0 @@
-$type = preg_replace('/^([^a-z]*[a-z])?([^a-z]*[a-z])?([^a-z]*[a-z])?.*/', '$1$2$3', strtolower($_GET["type"]));\n$type = substr($type, 0, 3);

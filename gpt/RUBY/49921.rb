@@ -1,1 +1,0 @@
-Finance::CompoundInterest.future_value(1000, 5, 10)

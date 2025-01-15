@@ -1,1 +1,0 @@
-CREATE LOGIN specific_user WITH PASSWORD = 'strong_password';\nCREATE USER specific_user FOR LOGIN specific_user;

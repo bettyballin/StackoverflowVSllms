@@ -1,1 +1,0 @@
-BEGIN\n  -- Lock table A in exclusive mode\n  LOCK TABLE A IN EXCLUSIVE MODE;\n\n  -- Proceed with the insert and delete operations\n  INSERT INTO B (SELECT * FROM A RETURNING id INTO temp_ids);\n  \n  DELETE FROM A WHERE id IN (SELECT id FROM temp_ids);\n  \n  COMMIT;\nEND;

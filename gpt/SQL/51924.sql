@@ -1,1 +1,0 @@
-CREATE TABLE node (\n  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,\n  name TEXT\n);\n\nCREATE TABLE edge (\n  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,\n  from_node INT NOT NULL,\n  to_node INT NOT NULL,\n  weight FLOAT,\n  FOREIGN KEY (from_node) REFERENCES node(id),\n  FOREIGN KEY (to_node) REFERENCES node(id)\n);

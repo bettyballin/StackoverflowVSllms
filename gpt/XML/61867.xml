@@ -1,1 +1,0 @@
-<property name="YourBooleanProperty" type="YourNamespace.BooleanUserType, YourAssembly">\n  <column name="YourColumnName" sql-type="CHAR(1)" />\n</property>

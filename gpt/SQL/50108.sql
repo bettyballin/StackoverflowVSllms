@@ -1,1 +1,0 @@
-CREATE EVENT reset_field_at_midnight\n    ON SCHEDULE EVERY 1 DAY\n    STARTS '2023-10-10 00:00:00'\n    DO\n    BEGIN\n        -- Replace `your_table`, `your_column`, and `your_condition` appropriately\n        UPDATE your_table\n        SET your_column = 'new_value'\n        WHERE your_condition;\n    END;

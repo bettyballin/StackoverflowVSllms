@@ -1,1 +1,0 @@
-// script.js\ndocument.addEventListener('DOMContentLoaded', function () {\n    console.log('JavaScript is running!');\n});

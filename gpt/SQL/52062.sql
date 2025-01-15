@@ -1,1 +1,0 @@
-SELECT * FROM your_table\nORDER BY your_column COLLATE "C";

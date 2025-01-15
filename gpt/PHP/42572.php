@@ -1,1 +1,0 @@
-// Function.php\n<?php\nfunction log($msg)\n{\n    $bt = debug_backtrace();\n    $caller = $bt[0]; // Get the immediate caller\n    echo "$msg (file: " . $caller['file'] . ", line number: " . $caller['line'] . ")\n";\n}\n?>

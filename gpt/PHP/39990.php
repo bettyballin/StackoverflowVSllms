@@ -1,1 +1,0 @@
-function foo($firstName = 'john', $lastName = 'doe') {\n    if (func_num_args() < 2) {\n        $lastName = 'smith';\n    }\n    echo $firstName . " " . $lastName;\n}\n\n// Override only the last name\nfoo(null, 'smith'); // Output: john smith

@@ -1,1 +1,0 @@
-spl_autoload_register(function ($class_name) {\n    include $class_name . '.php';\n});\n\nclass Foo {\n    function doFoo() {\n        $foo2 = new Foo2();\n        // Use functionality from Foo2.php\n    }\n}

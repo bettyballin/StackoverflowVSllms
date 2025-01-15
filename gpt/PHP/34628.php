@@ -1,1 +1,0 @@
-<?php\n     $files = glob('path/to/logs/*.txt');\n     echo json_encode($files);\n     ?>

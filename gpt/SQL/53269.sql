@@ -1,1 +1,0 @@
--- Change the collation of the pageTitle column to utf8_general_ci\nALTER TABLE page MODIFY pageTitle VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci;\n\n-- Perform a case-insensitive search\nSELECT * FROM page WHERE pageTitle COLLATE utf8_general_ci = 'Something';

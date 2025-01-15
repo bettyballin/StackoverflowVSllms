@@ -1,1 +1,0 @@
-CREATE TABLE positions (\n       position_id INT PRIMARY KEY,\n       position_name VARCHAR(100)\n   );

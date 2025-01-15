@@ -1,1 +1,0 @@
-bytes_per_day = 1_000_000_000 * 86_400 = 86_400_000_000_000 bytes per day\nmegabytes_per_day = 86_400_000_000_000 / 1_048_576 ≈ 82_253_300 MB per day

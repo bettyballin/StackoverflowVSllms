@@ -1,1 +1,0 @@
-EXEC sp_addlinkedserver\n       @server = 'MYSQLSERVER',\n       @srvproduct = 'MySQL',\n       @provider = 'MSDASQL',\n       @datasrc = 'MySQLDSN';

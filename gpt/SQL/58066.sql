@@ -1,1 +1,0 @@
-CREATE TABLE CustomerProducts (\n        id INT PRIMARY KEY,\n        name VARCHAR(255),\n        price DECIMAL(10, 2),\n        handler_type VARCHAR(50)\n        -- other columns\n    );

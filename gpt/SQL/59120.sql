@@ -1,1 +1,0 @@
-;WITH CTE AS (\n      SELECT\n        [Row] = CAST([#] AS INT),\n        [Col] = CAST([Col] AS INT),\n        [Value]\n      FROM bejeweled\n      UNPIVOT ([Value] FOR [Col] IN ([1],[2],[3],[4],[5],[6],[7],[8],[9])) unpvt\n    )

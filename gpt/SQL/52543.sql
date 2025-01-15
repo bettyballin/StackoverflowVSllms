@@ -1,1 +1,0 @@
-USE YourDatabaseName;\nGO\nCREATE USER readonly_user FOR LOGIN readonly_user;\nGO

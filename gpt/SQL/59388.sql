@@ -1,1 +1,0 @@
-BEGIN\n    -- Start transaction\n    SELECT * FROM some_table WHERE some_condition;\n\n    -- More read-only operations\n    SELECT * FROM another_table WHERE another_condition;\n\n    -- End transaction\n    COMMIT;\nEXCEPTION\n    WHEN OTHERS THEN\n        -- Handle any exceptions\n        ROLLBACK;\nEND;

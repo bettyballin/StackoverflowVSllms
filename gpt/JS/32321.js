@@ -1,1 +1,0 @@
-$(document).ready(function(){\n    $('body').wrapInner('<div id="wrapper"></div>');\n});

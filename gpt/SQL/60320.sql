@@ -1,1 +1,0 @@
-SET @new_position = 0.0;\nUPDATE chapters\nSET position = (@new_position := @new_position + 1.0)\nORDER BY position;

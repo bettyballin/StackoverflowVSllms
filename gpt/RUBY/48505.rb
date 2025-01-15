@@ -1,1 +1,0 @@
-# app/models/current.rb\n    class Current < ActiveSupport::CurrentAttributes\n      attribute :user\n    end

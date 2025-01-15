@@ -1,1 +1,0 @@
--- students_2022 table\nstudent_id | student_name\n-----------|---------------\n1          | John\n2          | Sarah\n\n-- students_2023 table\nstudent_id | student_name\n-----------|---------------\n3          | Alice\n4          | Bob

@@ -1,1 +1,0 @@
-DELETE FROM Tag\n  WHERE TagText NOT IN (SELECT DISTINCT TagText FROM Article_Tags);

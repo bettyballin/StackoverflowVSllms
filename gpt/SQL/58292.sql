@@ -1,1 +1,0 @@
-CREATE USER 'root'@'localhost' IDENTIFIED BY 'yourpassword';\n   GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;\n   FLUSH PRIVILEGES;

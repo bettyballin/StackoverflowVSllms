@@ -1,1 +1,0 @@
-Public Shared Function Range(ByVal Minimum As Integer, ByVal Maximum As Integer) As String\n    Dim pattern As String = "^("\n\n    For i As Integer = Minimum To Maximum\n        If i > Minimum Then\n            pattern &= "|"\n        End If\n        pattern &= i.ToString()\n    Next\n\n    pattern &= ")$"\n    Return pattern\nEnd Functio

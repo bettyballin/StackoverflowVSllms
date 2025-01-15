@@ -1,1 +1,0 @@
-(1 << LENGTH(@q) - LENGTH(REPLACE(@q, ',', '')) + 1) - 1

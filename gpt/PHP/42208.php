@@ -1,1 +1,0 @@
-function phptemplate_views_view_list_recent_articles($view, $nodes, $type) {\n  return phptemplate_views_view_generic($view, $nodes, $type);\n}\n\nfunction phptemplate_views_view_list_popular_articles($view, $nodes, $type) {\n  return phptemplate_views_view_generic($view, $nodes, $type);\n}

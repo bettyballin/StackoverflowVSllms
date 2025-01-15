@@ -1,1 +1,0 @@
-<?php\nsession_start();\nif (isset($_POST['variable'])) {\n    $variable = $_POST['variable'];\n    unset($_SESSION[$variable]);\n    echo 'Session variable deleted';\n} else {\n    echo 'No variable specified';\n}\n?>

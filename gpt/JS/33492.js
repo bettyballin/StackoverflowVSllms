@@ -1,1 +1,0 @@
-var element = document.getElementById('yourElementId');\nvar position = getXY(element);\nconsole.log('x:', position.x, 'y:', position.y);

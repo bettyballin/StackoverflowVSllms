@@ -1,1 +1,0 @@
-CREATE TABLE MonthlySnapshots (\n    SnapshotID INT IDENTITY(1,1) PRIMARY KEY,\n    OfficeID INT,\n    SnapshotDate DATETIME,\n    ActivityCount INT\n);

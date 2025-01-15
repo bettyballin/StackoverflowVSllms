@@ -1,1 +1,0 @@
-import sys\n    import os\n\n    from myflaskapp import app as application\n\n    sys.path.insert(0, os.path.dirname(__file__))

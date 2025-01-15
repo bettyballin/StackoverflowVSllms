@@ -1,1 +1,0 @@
-$reader = new XMLReader();\n$reader->open("xml.xml");\n\nwhile ($reader->read()) {\n    if ($reader->nodeType == XMLReader::ELEMENT && $reader->localName == "tag") {\n        $subReader = $reader->expand();\n        foreach ($subReader->getElementsByTagName("child") as $subChild) {\n            // extract values and loop again if needed\n        }\n    }\n}\n\n$reader->close();

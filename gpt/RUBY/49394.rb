@@ -1,1 +1,0 @@
-require 'open3'\n\n    output, status = Open3.capture2("passenger-status")\n\n    if status.success?\n      pids = output.scan(/PID\s+:\s+(\d+)/).flatten\n      puts "Passenger PIDs: #{pids.join(', ')}"\n    else\n      puts "Failed to retrieve passenger status"\n    end

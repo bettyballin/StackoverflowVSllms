@@ -1,1 +1,0 @@
-Dim imgPictures(8) As Image\nimgPictures(0) = My.Resources.cat_1

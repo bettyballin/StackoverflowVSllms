@@ -1,1 +1,0 @@
-SELECT dbo.MyUDF(MyColumn) AS ModifiedColumn\nFROM MyTable;

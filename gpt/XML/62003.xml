@@ -1,1 +1,0 @@
-<property name="connection.release_mode">on_close</property>\n<property name="connection.pool_size">10</property>

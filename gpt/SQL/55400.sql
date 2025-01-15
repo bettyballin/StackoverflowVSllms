@@ -1,1 +1,0 @@
-SELECT * FROM car WHERE mileage < mileage_limit;

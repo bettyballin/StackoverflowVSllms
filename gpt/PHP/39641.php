@@ -1,1 +1,0 @@
-try {\n    // Your indexing code here\n} catch (Zend_Search_Lucene_Exception $e) {\n    error_log("Lucene exception: " . $e->getMessage());\n    // Perform cleanup or retry logic if needed\n} catch (Exception $e) {\n    error_log("General exception: " . $e->getMessage());\n    // Perform cleanup or retry logic if needed\n} finally {\n    // Ensure resources are closed properly\n}

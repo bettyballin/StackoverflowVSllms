@@ -1,1 +1,0 @@
-// /library/Core/Filter/MyFilter.php\nclass Core_Filter_MyFilter implements Zend_Filter_Interface\n{\n    public function filter($value)\n    {\n        // Custom filter logic\n        return $value; // Processed value\n    }\n}

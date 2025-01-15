@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nORDER BY \n    CASE \n        WHEN id IN (1, 2, 3) THEN 0 -- Replace 1, 2, 3 with your special IDs\n        ELSE 1\n    END,\n    your_column_to_sort_alphabetically ASC;

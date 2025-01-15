@@ -1,1 +1,0 @@
-authors = Author.objects.prefetch_related('book_set').all()\nfor author in authors:\n    # No additional query is made here\n    books = author.book_set.all()

@@ -1,1 +1,0 @@
-def search(query):\n    response = es.search(\n        index="webpages",\n        body={\n            "query": {\n                "match": {\n                    "content": query\n                }\n            }\n        }\n    )\n    return response['hits']['hits']\n\nresults = search("example search query")\nfor result in results:\n    print(result['_source']['content'])

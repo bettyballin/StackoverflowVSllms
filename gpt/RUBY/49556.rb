@@ -1,1 +1,0 @@
-# Query to find all paths from YOU to Person Z\nquery = """\nMATCH path = (you:User {name: 'YOU'})-[:CONNECTED_TO*]->(z:User {name: 'Person Z'})\nRETURN path\n"""\n\nresults = Neo4j::Session.query(query)\nresults.each do |result|\n  puts "Path: #{result['path'].nodes.map { |node| node[:name] }.join(' -> ')}"\nend

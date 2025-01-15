@@ -1,1 +1,0 @@
-function ShowHideElement(linkId) {\n    var linkElement = document.getElementById(linkId);\n    if (linkElement != null) {\n        var imgElement = linkElement.getElementsByTagName('img')[0];\n        if (imgElement != null) {\n            imgElement.src = 'smallPlus.gif';\n        }\n    }\n}

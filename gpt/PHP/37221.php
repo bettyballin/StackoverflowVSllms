@@ -1,1 +1,0 @@
-// Authenticate.php\nheader('Access-Control-Allow-Origin: *'); // Adjust to specific domains if needed\nini_set('session.cookie_samesite', 'None');\nini_set('session.cookie_secure', '1');\nsession_start();\n\n// Check if SESSION is set, otherwise use the GET parameter\n$map_id = isset($_SESSION['map_id']) ? $_SESSION['map_id'] : $_GET['map_id'];\n\necho $map_id;

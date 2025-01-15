@@ -1,1 +1,0 @@
-from pyproj import Transformer\n\n# Define the transformer from ESRI:102690 to WGS84\ntransformer = Transformer.from_crs("EPSG:102690", "EPSG:4326")\n\n# Sample points\nsx = 13304147.06410000000\nsy = 288651.94040000000\n\n# Perform the transformation\nlat, lon = transformer.transform(sx, sy)\n\nprint(f"Longitude: {lon}, Latitude: {lat}")

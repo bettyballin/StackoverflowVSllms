@@ -1,1 +1,0 @@
-CREATE TABLE your_table (\n    column1 VARCHAR(255),\n    column2 VARCHAR(255),\n    column3 VARCHAR(255),\n    ...\n);

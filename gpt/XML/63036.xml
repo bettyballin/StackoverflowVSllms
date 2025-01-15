@@ -1,1 +1,0 @@
-<dependencies>\n    <dependency>\n        <groupId>com.drewnoakes</groupId>\n        <artifactId>metadata-extractor</artifactId>\n        <version>2.15.0</version>\n    </dependency>\n    <dependency>\n        <groupId>com.twelvemonkeys.imageio</groupId>\n        <artifactId>imageio-jpeg</artifactId>\n        <version>3.7.0</version>\n    </dependency>\n</dependencies>

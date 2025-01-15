@@ -1,1 +1,0 @@
--- Set session-specific context to bypass the trigger\nEXEC sp_set_session_context @key = N'BypassTrigger', @value = 1;\n\n-- Perform the INSERT operation\nINSERT INTO YourTable (Column1, Column2, ...)\nVALUES (Value1, Value2, ...);\n\n-- Clear the session-specific context\nEXEC sp_set_session_context @key = N'BypassTrigger', @value = NULL;

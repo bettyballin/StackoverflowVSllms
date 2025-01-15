@@ -1,1 +1,0 @@
-<dependency>\n        <groupId>org.primefaces</groupId>\n        <artifactId>primefaces</artifactId>\n        <version>8.0</version>\n    </dependency>

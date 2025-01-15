@@ -1,1 +1,0 @@
-Dim areEqual As Boolean = String.Equals(strTag, tmp, StringComparison.Ordinal)\nConsole.WriteLine("Are Equal: " & areEqual)

@@ -1,1 +1,0 @@
-test = list(range(10))\n# Slicing from the 4th element (index 3) to the end\nsliced_list = test[3:]\nprint(sliced_list)

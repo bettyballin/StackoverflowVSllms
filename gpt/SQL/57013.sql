@@ -1,1 +1,0 @@
-658 rows fetched in 0.0110s (0.0003s)

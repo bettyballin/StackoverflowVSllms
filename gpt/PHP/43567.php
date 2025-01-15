@@ -1,1 +1,0 @@
-<?php\n$PIC_URL = 'http://example.com/image.jpg';\n$localFile = 'path/to/save/image.jpg';\n\nif (copy($PIC_URL, $localFile)) {\n    echo "File copied successfully!";\n} else {\n    echo "Failed to copy file.";\n}\n?>

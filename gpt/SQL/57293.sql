@@ -1,1 +1,0 @@
-impdp username/password@db \\n    DUMPFILE=your_dump_file.dmp \\n    SCHEMAS=your_schema \\n    CONTENT=ALL \\n    EXCLUDE=TABLE:"IN ('table1', 'table2', 'table3')" \\n    TABLE_EXISTS_ACTION=SKIP

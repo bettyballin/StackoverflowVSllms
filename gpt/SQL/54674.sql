@@ -1,1 +1,0 @@
-ALTER SYSTEM SET memory_target = 400M SCOPE=SPFILE;\n   ALTER SYSTEM SET memory_max_target = 400M SCOPE=SPFILE;

@@ -1,1 +1,0 @@
-$mysqli->query("INSERT INTO tblUser (email, ...) VALUES ('foo@bar.org', ...) ON DUPLICATE KEY UPDATE column1 = value1, column2 = value2, ...");

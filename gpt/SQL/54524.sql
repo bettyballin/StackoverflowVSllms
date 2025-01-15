@@ -1,1 +1,0 @@
-SELECT Cost, DateTime\nFROM (\n    SELECT Cost, DateTime,\n           LAG(Cost) OVER (ORDER BY DateTime) AS PrevCost\n    FROM transactions\n) AS subquery\nWHERE Cost != PrevCost OR PrevCost IS NULL;

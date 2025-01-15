@@ -1,1 +1,0 @@
-Private Sub btnTransfer_Click()\n         TransferFileUsingSFTP\n     End Sub

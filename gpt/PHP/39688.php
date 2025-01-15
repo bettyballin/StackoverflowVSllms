@@ -1,1 +1,0 @@
-<?php\n// redirect.php\n$url = $_GET['url'];\nheader("Location: $url", true, 302);\nexit();\n?>

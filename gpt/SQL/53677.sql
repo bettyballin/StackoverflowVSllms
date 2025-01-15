@@ -1,1 +1,0 @@
-SELECT employee_name, department_name\nFROM employees\nJOIN departments ON employees.department_id = departments.department_id\nWHERE department_name = 'IT';

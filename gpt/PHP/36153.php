@@ -1,1 +1,0 @@
-function clickable_link($text) {\n    $text = preg_replace(\n        "/(https?:\/\/[^\s]+)/",\n        "<a href=\"$1\" target=\"_blank\">$1</a>",\n        $text\n    );\n    $text = preg_replace(\n        "/(^|\s)@(\w+)/",\n        "$1<a href=\"http://twitter.com/$2\" target=\"_blank\">@$2</a>",\n        $text\n    );\n    return $text;\n}

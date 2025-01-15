@@ -1,1 +1,0 @@
-CREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    username VARCHAR(50) NOT NULL,\n    password CHAR(32) NOT NULL,  -- MD5 hash\n    email VARCHAR(100),\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    is_active ENUM('Y', 'N') DEFAULT 'Y'\n);

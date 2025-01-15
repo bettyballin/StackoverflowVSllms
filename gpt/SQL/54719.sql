@@ -1,1 +1,0 @@
-EXEC ResolveHostname 'stackoverflow.com';

@@ -1,1 +1,0 @@
-SELECT * FROM events\nORDER BY event_date, event_milliseconds;

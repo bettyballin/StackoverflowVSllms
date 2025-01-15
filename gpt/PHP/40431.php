@@ -1,1 +1,0 @@
-<?php\necho "Virus Scan Results:\n";\n$scanme = shell_exec('cd /var/www/upload/files; clamscan --remove=yes ' . escapeshellarg($furl));\necho nl2br($scanme);\n?>

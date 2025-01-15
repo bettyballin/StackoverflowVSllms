@@ -1,1 +1,0 @@
-$string = "Hello";\n$length = 10;\n\n// Using custom function\n$result1 = max_length($string, $length);\n// Result: "Hello"\n\n// Using substr directly\n$result2 = substr($string, 0, $length);\n// Result: "Hello"

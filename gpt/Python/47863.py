@@ -1,1 +1,0 @@
-myList = []\n\n# Ensure the list is large enough\nindex_to_set = [12, 22, 32, 42]\nfor i in index_to_set:\n    while len(myList) <= i:\n        myList.append(None)  # Append placeholder values\n\n# Assign values\nmyList[12] = 'a'\nmyList[22] = 'b'\nmyList[32] = 'c'\nmyList[42] = 'd'\n\nprint(myList)

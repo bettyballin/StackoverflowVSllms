@@ -1,1 +1,0 @@
-SELECT t.ProfitValue, c.CommPercentage\nFROM ProfitValuesTable t\nJOIN CommissionTable c\n  ON t.ProfitValue BETWEEN c.ProfitStartRange AND c.ProfitEndRange

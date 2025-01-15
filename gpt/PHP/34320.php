@@ -1,1 +1,0 @@
-$servername = "localhost:1186";

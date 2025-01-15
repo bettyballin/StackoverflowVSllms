@@ -1,1 +1,0 @@
--- Insert the main entity\nINSERT INTO entities (name) VALUES ('microsoft');\n\n-- Get the entity ID for 'microsoft'\nSELECT id FROM entities WHERE name = 'microsoft';\n\n-- Assuming the ID is 1, insert aliases\nINSERT INTO aliases (entity_id, alias) VALUES (1, 'ms');\nINSERT INTO aliases (entity_id, alias) VALUES (1, 'm$');

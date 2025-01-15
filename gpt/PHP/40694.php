@@ -1,1 +1,0 @@
-register_activation_hook(__FILE__, 'flush_rewrite_rules');\n   register_deactivation_hook(__FILE__, 'flush_rewrite_rules');

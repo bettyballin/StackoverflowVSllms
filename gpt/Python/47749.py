@@ -1,1 +1,0 @@
-bytes_per_second = 1_000_000_000\nseconds_per_day = 86_400\nbytes_per_day = bytes_per_second * seconds_per_day\nmegabytes_per_day = bytes_per_day / 1_048_576\n\nprint(f"{megabytes_per_day} MB per day")

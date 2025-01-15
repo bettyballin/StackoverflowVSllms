@@ -1,1 +1,0 @@
-SELECT \n    r.RecordId, \n    r.RecordName, \n    f.FileName\nFROM \n    AppDb.dbo.Records r\nJOIN \n    FileDb.dbo.Files f ON r.FileId = f.FileId

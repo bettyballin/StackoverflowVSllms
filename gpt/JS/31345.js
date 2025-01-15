@@ -1,1 +1,0 @@
-app.get('/your-endpoint', function(req, res) {\n    if (req.headers['x-requested-with'] === 'XMLHttpRequest') {\n        // Handle AJAX request\n    } else {\n        // Handle normal browser request\n    }\n});

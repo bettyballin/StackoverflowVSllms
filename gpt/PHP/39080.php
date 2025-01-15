@@ -1,1 +1,0 @@
-// app/controllers/Home.php - Example Controller\nclass Home extends Controller {\n    public function index() {\n        $this->view('home/index', ['name' => 'Welcome to Home!']);\n    }\n}
