@@ -142,53 +142,53 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.dir/build.make CMakeFiles/4.dir/build
 .PHONY : 4/fast
 
-cpp_code_files_stackoverflow/0/0.o: cpp_code_files_stackoverflow/0/0.cpp.o
-.PHONY : cpp_code_files_stackoverflow/0/0.o
+cpp_code_files_stackoverflow/0.o: cpp_code_files_stackoverflow/0.cpp.o
+.PHONY : cpp_code_files_stackoverflow/0.o
 
 # target to build an object file
-cpp_code_files_stackoverflow/0/0.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/0.dir/build.make CMakeFiles/0.dir/cpp_code_files_stackoverflow/0/0.cpp.o
-.PHONY : cpp_code_files_stackoverflow/0/0.cpp.o
+cpp_code_files_stackoverflow/0.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0.dir/build.make CMakeFiles/0.dir/cpp_code_files_stackoverflow/0.cpp.o
+.PHONY : cpp_code_files_stackoverflow/0.cpp.o
 
-cpp_code_files_stackoverflow/0/0.i: cpp_code_files_stackoverflow/0/0.cpp.i
-.PHONY : cpp_code_files_stackoverflow/0/0.i
+cpp_code_files_stackoverflow/0.i: cpp_code_files_stackoverflow/0.cpp.i
+.PHONY : cpp_code_files_stackoverflow/0.i
 
 # target to preprocess a source file
-cpp_code_files_stackoverflow/0/0.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/0.dir/build.make CMakeFiles/0.dir/cpp_code_files_stackoverflow/0/0.cpp.i
-.PHONY : cpp_code_files_stackoverflow/0/0.cpp.i
+cpp_code_files_stackoverflow/0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0.dir/build.make CMakeFiles/0.dir/cpp_code_files_stackoverflow/0.cpp.i
+.PHONY : cpp_code_files_stackoverflow/0.cpp.i
 
-cpp_code_files_stackoverflow/0/0.s: cpp_code_files_stackoverflow/0/0.cpp.s
-.PHONY : cpp_code_files_stackoverflow/0/0.s
+cpp_code_files_stackoverflow/0.s: cpp_code_files_stackoverflow/0.cpp.s
+.PHONY : cpp_code_files_stackoverflow/0.s
 
 # target to generate assembly for a file
-cpp_code_files_stackoverflow/0/0.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/0.dir/build.make CMakeFiles/0.dir/cpp_code_files_stackoverflow/0/0.cpp.s
-.PHONY : cpp_code_files_stackoverflow/0/0.cpp.s
+cpp_code_files_stackoverflow/0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0.dir/build.make CMakeFiles/0.dir/cpp_code_files_stackoverflow/0.cpp.s
+.PHONY : cpp_code_files_stackoverflow/0.cpp.s
 
-cpp_code_files_stackoverflow/4/4.o: cpp_code_files_stackoverflow/4/4.cpp.o
-.PHONY : cpp_code_files_stackoverflow/4/4.o
+cpp_code_files_stackoverflow/4.o: cpp_code_files_stackoverflow/4.cpp.o
+.PHONY : cpp_code_files_stackoverflow/4.o
 
 # target to build an object file
-cpp_code_files_stackoverflow/4/4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.dir/build.make CMakeFiles/4.dir/cpp_code_files_stackoverflow/4/4.cpp.o
-.PHONY : cpp_code_files_stackoverflow/4/4.cpp.o
+cpp_code_files_stackoverflow/4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.dir/build.make CMakeFiles/4.dir/cpp_code_files_stackoverflow/4.cpp.o
+.PHONY : cpp_code_files_stackoverflow/4.cpp.o
 
-cpp_code_files_stackoverflow/4/4.i: cpp_code_files_stackoverflow/4/4.cpp.i
-.PHONY : cpp_code_files_stackoverflow/4/4.i
+cpp_code_files_stackoverflow/4.i: cpp_code_files_stackoverflow/4.cpp.i
+.PHONY : cpp_code_files_stackoverflow/4.i
 
 # target to preprocess a source file
-cpp_code_files_stackoverflow/4/4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.dir/build.make CMakeFiles/4.dir/cpp_code_files_stackoverflow/4/4.cpp.i
-.PHONY : cpp_code_files_stackoverflow/4/4.cpp.i
+cpp_code_files_stackoverflow/4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.dir/build.make CMakeFiles/4.dir/cpp_code_files_stackoverflow/4.cpp.i
+.PHONY : cpp_code_files_stackoverflow/4.cpp.i
 
-cpp_code_files_stackoverflow/4/4.s: cpp_code_files_stackoverflow/4/4.cpp.s
-.PHONY : cpp_code_files_stackoverflow/4/4.s
+cpp_code_files_stackoverflow/4.s: cpp_code_files_stackoverflow/4.cpp.s
+.PHONY : cpp_code_files_stackoverflow/4.s
 
 # target to generate assembly for a file
-cpp_code_files_stackoverflow/4/4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.dir/build.make CMakeFiles/4.dir/cpp_code_files_stackoverflow/4/4.cpp.s
-.PHONY : cpp_code_files_stackoverflow/4/4.cpp.s
+cpp_code_files_stackoverflow/4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.dir/build.make CMakeFiles/4.dir/cpp_code_files_stackoverflow/4.cpp.s
+.PHONY : cpp_code_files_stackoverflow/4.cpp.s
 
 # Help Target
 help:
@@ -200,12 +200,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 0"
 	@echo "... 4"
-	@echo "... cpp_code_files_stackoverflow/0/0.o"
-	@echo "... cpp_code_files_stackoverflow/0/0.i"
-	@echo "... cpp_code_files_stackoverflow/0/0.s"
-	@echo "... cpp_code_files_stackoverflow/4/4.o"
-	@echo "... cpp_code_files_stackoverflow/4/4.i"
-	@echo "... cpp_code_files_stackoverflow/4/4.s"
+	@echo "... cpp_code_files_stackoverflow/0.o"
+	@echo "... cpp_code_files_stackoverflow/0.i"
+	@echo "... cpp_code_files_stackoverflow/0.s"
+	@echo "... cpp_code_files_stackoverflow/4.o"
+	@echo "... cpp_code_files_stackoverflow/4.i"
+	@echo "... cpp_code_files_stackoverflow/4.s"
 .PHONY : help
 
 

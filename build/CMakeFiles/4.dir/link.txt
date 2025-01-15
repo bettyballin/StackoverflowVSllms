@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/4.dir/cpp_code_files_stackoverflow/4/4.cpp.o -o 4 
+/usr/bin/c++ CMakeFiles/4.dir/cpp_code_files_stackoverflow/4.cpp.o -o 4 

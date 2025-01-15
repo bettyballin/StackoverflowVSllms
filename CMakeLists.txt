@@ -11,7 +11,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(SOURCE_DIR cpp_code_files_stackoverflow)
 
 # Find all .cpp files in the source directory
-file(GLOB SOURCES "${SOURCE_DIR}/*/*.cpp")
+file(GLOB SOURCES "${SOURCE_DIR}/*.cpp")
 
 set(VALID_SOURCES)
 
