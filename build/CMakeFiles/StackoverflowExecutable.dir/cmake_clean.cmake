@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/StackoverflowExecutable.dir/cpp_code_files_stackoverflow/4.cpp.o"
-  "CMakeFiles/StackoverflowExecutable.dir/cpp_code_files_stackoverflow/4.cpp.o.d"
+  "CMakeFiles/StackoverflowExecutable.dir/0.cpp.o"
   "StackoverflowExecutable"
   "StackoverflowExecutable.pdb"
 )
