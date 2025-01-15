@@ -6,6 +6,7 @@ project(StackoverflowProject)
 # Set the C++ standard
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Specify the source files directory
 set(SOURCE_DIR cpp_code_files_stackoverflow)
