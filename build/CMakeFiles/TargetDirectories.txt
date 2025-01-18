@@ -1,3 +1,0 @@
-/home/ballin/Dokumente/StackOverflow/cpp_code_files_stackoverflow/build/CMakeFiles/rebuild_cache.dir
-/home/ballin/Dokumente/StackOverflow/cpp_code_files_stackoverflow/build/CMakeFiles/edit_cache.dir
-/home/ballin/Dokumente/StackOverflow/cpp_code_files_stackoverflow/build/CMakeFiles/StackoverflowExecutable.dir
